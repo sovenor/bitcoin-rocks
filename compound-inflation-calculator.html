@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Compound Inflation Calculator</title>
+        <meta name="description" content="Use this Compound Inflation Calculator to find out how much your salary needs to increase to keep up with inflation.">
+        
+        <meta property="og:title" content="Compound Inflation Calculator" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-cic-v2.png" />
+        
+        <meta name="twitter:title" content="Compound Inflation Calculator">
+        <meta name="twitter:description" content="Use this Compound Inflation Calculator to find out how much your salary needs to increase to keep up with inflation.">
+        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-cic-v2.png">
+        <meta name="twitter:card" content="summary_large_image">
+        
+        <!--Privacy focused analytics, does not track IP addresses-->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+        
+        <!--Favicons for all devices-->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+
+    
+
+        <link rel="stylesheet" href="css/style.css?35">
+        <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+        
+        <!--Script for inflation calculator-->
+        <script src="jquery/compound-inflation-calculator.js"></script>
+        
+    </head>
+    <body>
+    
+        
+        <div class="container-main">
+            <div class="container-inner">
+                <!--BACK TO HOME-->
+                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+                
+                <h2 class="h2-inflation"><span class="inflation">COMPOUND INFLATION CALCULATOR</span></h2>
+            </div><!--/container-inner-->
+            
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        
+                        <p>Many people know about Compound Interest, but few people know about Compound Inflation.
+                        <br /><br />
+                        With our Compound Inflation Calculator, you can easily calculate the amount your salary needs to increase to maintain your purchasing power over time.
+                        <br /><br />
+                        Simply enter your current salary, inflation rate, and the number of years you want to calculate for, and our calculator will show you what your salary needs to be to keep up with inflation.
+                        </p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            
+            
+<!-- MONEY -->
+            
+            
+            <div class="break"></div>
+            
+            
+            <div class="text-box intro sticker-box" >
+                <div class="container-inner">
+                    
+                    <div class="break-micro"></div>
+            
+                      <form class="compound-form">
+                        <div class="form-box">
+                            <label class="compound-label">Current Salary:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="currentSalary" placeholder="Example: 55000"/>
+                        </div><!--/form-box-->
+                      
+            
+                          
+                        <div class="form-box middle-form-box">
+                            <label class="compound-label">Inflation Rate:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="inflationRate" placeholder="Example: 8.5"/>
+                        </div><!--/form-box-->
+                          
+          
+                            
+                        <div class="form-box last-form-box">
+                            <label class="compound-label">Years:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="years" placeholder="Example: 5"/>
+                        </div><!--/form-box-->
+                          
+                        <input class="cic-button" type="button" value="CALCULATE" onclick="calculateInflation()" />
+                      </form>
+                
+
+                    <div id="result"></div>
+                    
+                   
+                        
+                </div><!--/container-inner-->
+            
+            </div><!--/text-box-->
+
+
+
+ 
+            
+            <div class="break"></div>
+            
+            
+                <a href="https://bitcoin.rocks/inflation?link=calculator" target="_blank">
+                    <div class="text-box solo">
+                        <div class="container-inner">
+                            <h3>WHAT CAN I DO ABOUT <span class="inflation">INFLATION?</span></h3>
+
+                            <div class="item first">
+                                <h4>Opt Out of Inflation with Bitcoin</h4>
+                                <div class="type">WEBSITE</div>
+                                <div class="author">Bitcoin.rocks/inflation</div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
+            
+            
+            
+                
+                
+            
+            
+            
+            
+            
+<!-- FOOTER -->     
+            
+            <div class="footer">
+                <p>
+                    
+                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                    
+                <br /><br />
+                
+                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+                    
+                
+                    <br /><br /><br />
+                </p>
+            </div><!--/footer-->
+                
+            
+        </div><!--/container-main-->
+        
+        
+      <!--  
+        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
+        
+       
+        
+    </body>
+</html>

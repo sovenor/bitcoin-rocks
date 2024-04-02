@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>How to Run a Bitcoin Node</title>
+        <meta name="description" content="Get a free Bitcoin wallet to accept Bitcoin payments.">
+        
+        <!--Privacy focused analytics, does not track IP addresses-->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+        
+        <!--Favicons for all devices-->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+        
+        
+        <meta property="og:title" content="How to Accept Bitcoin Payments" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/wallets" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png" />
+        
+        <meta name="twitter:title" content="How to Accept Bitcoin Payments">
+        <meta name="twitter:description" content="Get a free Bitcoin wallet to accept Bitcoin payments.">
+        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png">
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+
+        <link rel="stylesheet" href="css/style.css?21">
+        <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+        
+        
+        <script>
+        function toggleDiv(event, div) {
+            // Check if the clicked target is a link (or a child of a link)
+            let target = event.target;
+            while (target !== div) {
+                if (target.tagName === 'A') {
+                    return; // Don't toggle the expanded class if a link is clicked
+                }
+                target = target.parentElement;
+            }
+
+            div.classList.toggle('expanded');
+        }
+
+        </script>
+        
+        
+        
+    </head>
+    <body>
+    
+        
+        <div class="container-main">
+            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
+            <div class="break"></div>-->
+            <div class="container-inner">
+                <!--BACK TO HOME-->
+                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+                
+                
+                
+                
+            </div><!--/container-inner-->
+            
+
+            
+            <div id="USD" class="countries" style="display:block">
+                            
+                        
+                <div class="text-box home-intro">
+                    <div class="container-inner" id="intro-container">
+                        
+                     
+                         <h2 class="h2-inflation">HOW TO RUN A BITCOIN NODE</h2>
+                    
+                    </div><!--/container-inner-->
+        
+                    
+                </div><!--text-box-->
+        
+                <div class="break-micro"></div>
+            
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        
+                    
+                        <p>Running your own node allows you to verify your bitcoin balance without having to trust anyone else.
+                        <br /><br />
+                        Bitcoin nodes store and verify every single Bitcoin transaction. These nodes form a network by connecting and sharing blocks and transactions with one another.
+                        <br /><br />
+                        Running a node also allows you to enforce the rules of the Bitcoin network, ensuring that no one can make changes to the rules of the network without your consent.
+                        
+                           </p>
+                       
+                        
+                        
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            
+             
+                
+                <!--<div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <h3 class="wallet-h3">HARDWARE<br />WALLETS</h3>
+                    
+                        <p>Hardware wallets are like long-term savings accounts: they should be super secure and accessed infrequently.
+                        </p>
+                    </div><!--/container-inner-->
+                <!--</div><!--text-box-->
+                
+                <!--<div class="break"></div>-->
+                
+        
+                <div class="break-micro"></div>
+        
+                
+        
+        <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>PLUG AND PLAY NODES</h5>
+        <div class="vs-container additional-text">
+                <div class="wallet-box-biz wallet-biz-1" style="margin-top: 100px !important;">
+                    <div class="container-inner">
+                        
+                        <center><img src="img/nodes/umbrel.png" class="other"/></center>
+                        <h6><br />UMBREL HOME</h6>
+                        
+                        <div class="break-mini"></div>
+                        <p>Simple setup
+                            <br />Built-in app store
+                            <br />Costs $699
+                            <br /><br />
+                        </p>
+                           
+                        
+                        <a href="https://umbrel.com/" target="_blank"><div class="wallet-button">GET NODE</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            
+                
+            
+                <div class="wallet-box-biz wallet-biz-solo">
+                    <div class="container-inner">
+                        
+                        <center><img src="img/nodes/start9.png" class="other"/></center>
+                        <h6><br />START9 SERVER</h6>
+                        
+                        <div class="break-mini"></div>
+                        <p>Simple setup
+                            <br />Built-in app store
+                            <br />Starts at $219
+                            <br /><br />
+                        </p>
+                            
+                        
+                        <a href="https://start9.com/" target="_blank"><div class="wallet-button">GET NODE</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+                
+                <div class="break"></div>
+                
+                
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+                
+                
+                
+                
+        <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>RUN A NODE ON EXISTING HARDWARE</h5>
+        <div class="vs-container additional-text">
+                <div class="wallet-box-biz wallet-biz-solo">
+                    <div class="container-inner">
+                        
+                        <center><img src="img/nodes/core.png" class="other" style="margin-top: -70px !important;"/></center>
+                        <h6><br />BITCOIN CORE</h6>
+                        
+                        <div class="break-mini"></div>
+                        <p>Simple download
+                            <br />Run on your existing computer
+                            <br />100% free
+                            <br /><br />
+                        </p>
+                           
+                        
+                        <a href="https://bitcoin.org/en/download" target="_blank"><div class="wallet-button">GET NODE</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            
+                
+            
+                
+                
+                <div class="break"></div>
+                
+                
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+
+                
+        <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>BUILD YOUR OWN NODE</h5>
+        <div class="vs-container additional-text">
+                <div class="wallet-box-biz wallet-biz-solo">
+                    <div class="container-inner">
+                        
+                        <center><img src="img/nodes/voltage.png" class="other" style="margin-top: -70px !important;"/></center>
+                        <h6><br />VOLTAGE CLOUD</h6>
+                        
+                        <div class="break-mini"></div>
+                        <p>Simple setup
+                            <br />Fully managed for you
+                            <br />Requires trusting Voltage
+                            <br />Requires monthly fee 
+                            <br /><br />
+                        </p>
+                           
+                        
+                        <a href="https://voltage.cloud/nodes/" target="_blank"><div class="wallet-button">GET NODE</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            
+                
+            
+                
+                
+                <div class="break"></div>
+                
+                
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+                
+        
+   
+   
+                
+                
+                
+                <!-- FOOTER -->     
+            
+            <div class="footer">
+                <p>
+                    
+                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                    
+                <br /><br />
+                
+                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+                    
+                
+                    <br /><br /><br />
+                </p>
+            </div><!--/footer-->
+            
+            </div><!--/USD-->
+
+
+            
+
+            
+            
+<!-- FOOTER -->     
+            
+            <!--<div class="footer">
+                <p>
+                
+                Submit a reason why Bitcoin rocks: <a href="mailto:submit@bitcoin.rocks" class="footer-link" target="_blank">submit@bitcoin.rocks</a>
+                    
+                <br />
+                    
+                 
+                
+                </p>
+            </div><!--/footer-->
+                
+            
+        <!--</div><!--/container-main-->
+        
+        
+      <!--  
+        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
+        
+       
+        
+    </body>
+</html>
