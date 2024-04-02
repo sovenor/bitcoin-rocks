@@ -1,1 +1,5 @@
-The goal of bitcoin.rocks is to make it easier for you to orange pill others. When someone asks you about bitcoin, send them to bitcoin.rocks
+bitcoin.rocks is an educational website designed for people who are new to bitcoin.
+
+The website is written in raw HTML / CSS / JS. This is easiest for me to work in and eliminates the burden of a CMS.
+
+The latest merged code is uploaded on https://bitcoin.rocks/
