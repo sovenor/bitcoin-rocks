@@ -7,11 +7,11 @@ The main focus of the website is the homepage which links out to a variety of ex
 ## Architecture
 The website is written in raw HTML / CSS / JS. This eliminates the burden of a CMS.
 
-The server handles redirects and removing ".html" from the end of links in a simple .htaccess file. The latest merged code is uploaded on https://bitcoin.rocks and
+The server handles redirects and removing ".html" from the end of links in a simple .htaccess file. The latest merged code is uploaded on https://bitcoin.rocks
 
 ## License
 
 This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public over time.
 
 ## Contribute
-More details will be published soon.
+We are looking for contributors! More details will be published soon.
