@@ -4,6 +4,8 @@ bitcoin.rocks is an educational website designed for people who are new to bitco
 
 The main focus of the website is the homepage which links out to a variety of external sources depending on the user's interests. There are also several custom subpages that cover specific topics in detail.
 
+You can view the website here: https://bitcoin.rocks
+
 ## Architecture
 The website is written in raw HTML / CSS / JS. This eliminates the burden of a CMS.
 
