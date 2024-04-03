@@ -11,7 +11,7 @@ The server handles redirects and removing ".html" from the end of links in a sim
 
 ## License
 
-This project is licensed under the MIT License. It will become gradually more public over time with the goal of removing the current key man risk from the project.
+This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public over time.
 
 ## Contribute
 More details will be published soon.
