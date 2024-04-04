@@ -23,7 +23,7 @@ All contributions are welcome, but we currently have a strong focus on translati
 Check the [branches tracker](https://github.com/sovenor/bitcoin-rocks/branches) to see if someone is already translating content in your language. If so, you can proceed to step 3 working within the existing branch. If not, proceed to step 1.
 
 ### 1. Fork and create a branch
-Fork the "main" branch of the repo and create a branch with the name of the language you wish to translate.
+Fork the [main branch of the repo](https://github.com/sovenor/bitcoin-rocks/) and create a branch with the name of the language you wish to translate.
 
 ### 2. Duplicate the entire "en" folder
 The default language on bitcoin.rocks is English, so all of the master content lives within the "en" folder.
@@ -37,9 +37,9 @@ Please do not change any of the actual HTML content, classes, IDs, or CSS stylin
 
 In order to have your translation approved and merged into the main branch, the minimum required pages listed below must be translated.
 
-Remember, you don't have to translate all of these pages yourself. You can translate whatever amount you wish and invite other people to translate the pages in your GitHub branch. When all of the minimum required pages have been translated, submit a pull request to launch the translation.
+Remember, you don't have to translate all of these pages yourself. You can translate whatever amount you wish and invite other people to translate the pages in your GitHub branch. When all of the minimum required pages have been translated, submit a pull request to launch the new language.
 
-#### Minimum required pages for translation
+#### Minimum required pages
 /404.html  
 /bank-runs.html  
 /bitcoin-vs-cbdc.html  
@@ -55,7 +55,7 @@ Remember, you don't have to translate all of these pages yourself. You can trans
 /wallets.html  
 
 #### Additional pages for complete translation
-Here are all the pages that exist on the website. Translate all of these for a complete translation, or just tackle one section at a time.
+These pages are not required to launch a new language, but all of them would add value to users. Translate all of these for a complete translation, or just tackle one section at a time.
 
 ##### Business pages
 /business/accounting.html  
