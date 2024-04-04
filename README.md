@@ -16,4 +16,6 @@ The server handles redirects and removing ".html" from the end of links in a sim
 This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public over time.
 
 ## Contribute
-We are looking for contributors! More details will be published soon.
+All contributions are welcome, but we currently have a strong focus on translations.
+
+Please read our [Contributor Guide](https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md) before submitting a pull request or starting on a translation.
