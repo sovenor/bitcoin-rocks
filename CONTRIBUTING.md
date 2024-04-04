@@ -61,10 +61,6 @@ Here are all the pages that exist on the website. Translate all of these for a c
 /nostr/index.html  
 /nostr/what-is-nostr.html  
 
-##### News pages
-/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html  
-/news/environment/bitcoin-mining-cleaning-up-coal-dumps-usa-pennsylvania.html  
-
 ##### Sticker files pages
 /sticker-files/index.html  
 /sticker-files/[your-language]/index.html  
