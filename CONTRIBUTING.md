@@ -32,7 +32,7 @@ In order to have your translation approved and merged into the main branch, you 
 /compound-inflation-calculator.html  
 /get-involved.html  
 /index.html (homepage)  
-/inflation.html  
+/inflation.html (You only need to translate the currency sections that a user who speaks your langauge would be interested in.)  
 /lightning.html  
 /postcards.html  
 /stickers.html  
@@ -47,7 +47,7 @@ Here are all the pages that exist on the website. Translate all of these for a c
 /business/guide.html  
 /business/index.html  
 /business/kit-success.html  
-/business-kit.html  
+/business/kit.html  
 /business/maps-success.html  
 /business/maps.html  
 /business/sticker-language-success.html  
