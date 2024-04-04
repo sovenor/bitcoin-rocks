@@ -34,7 +34,6 @@ In order to have your translation approved and merged into the main branch, you 
 /index.html (homepage)  
 /inflation.html (You only need to translate the currency sections that a user who speaks your langauge would be interested in.)  
 /lightning.html  
-/postcards.html  
 /stickers.html  
 /wallets.html  
 
@@ -71,6 +70,9 @@ Here are all the pages that exist on the website. Translate all of these for a c
 There is no need to translate the other sticker-files pages into your language, since users who speak your language will only be looking for files in that language.
 
 For example, a Spanish translation only needs to translate /sticker-files/spanish/index.html
+
+##### Other pages
+/postcards.html  
 
 ##### Success pages
 /postcard-success.html  
