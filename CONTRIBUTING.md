@@ -6,6 +6,8 @@ Before you spend your time working on a significant new feature, please first cr
 
 This will prevent you from having a pull request declined after investing a lot of time and effort into a new feature.
 
+If you wish to work on a translation, please follow our Translations guide below.
+
 ## Translations
 All contributions are welcome, but we currently have a strong focus on translations. Here's a simple guide to get started on your translation:
 
