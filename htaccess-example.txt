@@ -1,0 +1,42 @@
+Header set Access-Control-Allow-Origin "*"
+
+RewriteEngine on
+
+# Redirect to /en if browser language is English
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteCond %{REQUEST_URI} !^/(en)/ [NC]
+RewriteRule ^ /en%{REQUEST_URI} [L,R=301]
+
+# Default to English (/en) if no language preference is detected or the detected language is not supported.
+RewriteCond %{REQUEST_URI} !^/(en)/ [NC]
+RewriteRule ^ /en%{REQUEST_URI} [L,R=301]
+
+# Add .html extension silently (internal redirect) to avoid displaying .html in the browser
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Redirects with NC flag for case-insensitivity (these are old redirects from links that are no longer shared but still need to work despite the language redirects above)
+RewriteRule ^en/orange-pill-pack$ /stickers [R=301,NC,L]
+RewriteRule ^en/sticker$ /stickers [R=301,NC,L]
+RewriteRule ^en/bitcoin-stickers$ /stickers [R=301,NC,L]
+RewriteRule ^en/opp$ /stickers [R=301,NC,L]
+RewriteRule ^en/gold$ /bitcoin-vs-gold [R=301,NC,L]
+RewriteRule ^en/cbdc$ /bitcoin-vs-cbdc [R=301,NC,L]
+RewriteRule ^en/CBDC$ /bitcoin-vs-cbdc [R=301,NC,L]
+RewriteRule ^en/INFLATION$ /inflation [R=301,NC,L]
+RewriteRule ^en/bank-run$ /bank-runs [R=301,NC,L]
+RewriteRule ^en/bankrun$ /bank-runs [R=301,NC,L]
+RewriteRule ^en/bankruns$ /bank-runs [R=301,NC,L]
+RewriteRule ^en/wallet$ /wallets [R=301,NC,L]
+RewriteRule ^en/postcard$ /postcards [R=301,NC,L]
+RewriteRule ^en/guide$ /business/guide [R=301,NC,L]
+RewriteRule ^en/guides$ /business/guide [R=301,NC,L]
+RewriteRule ^en/business/guides$ /business/guide [R=301,NC,L]
+RewriteRule ^en/kit$ /business/kit [R=301,NC,L]
+RewriteRule ^en/business-kit$ /business/kit [R=301,NC,L]
+RewriteRule ^en/businesskit$ /business/kit [R=301,NC,L]
+RewriteRule ^en/Lightning$ /lightning [R=301,NC,L]
+
+# 404 page for broken links
+ErrorDocument 404 /404.html
