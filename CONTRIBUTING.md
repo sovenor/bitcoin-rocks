@@ -33,7 +33,7 @@ Duplicate this folder and rename it with the [2 letter language code](https://en
 ### 3. Translate the content within the .html files
 Now you can begin to translate the content from English to your preferred language. Simply swap the English content within the .html files with the content in your preferred language.
 
-Please do not change any of the actual HTML content, classes, IDs, or CSS styling. Only replace the English text with your translated text.
+Please do not change any of the actual HTML content, classes, IDs, or CSS styling. Only replace the English text with your translated text. Links do not need to be changed. The server will automatically redirect links to the user's browser language.
 
 In order to have your translation approved and merged into the main branch, the minimum required pages listed below must be translated.
 
