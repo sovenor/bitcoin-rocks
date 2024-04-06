@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Darmowe naklejki Bitcoin od bitcoin.rocks</title>
+    <meta name="description" content="Umieść naklejkę bitcoinową publicznie, aby zainteresować innych.">
+
+    <!--Meta obrazu do udostępniania-->
+    <meta property="og:title" content="Darmowe naklejki Bitcoin od bitcoin.rocks" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://bitcoin.rocks/bitcoin-stickers" />
+    <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-stickers-v9.png" />
+
+    <!--Analityka z zachowaniem prywatności, nie śledzi adresów IP-->
+    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+    <!--Favikony dla wszystkich urządzeń-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+
+    <!--Główny arkusz stylów + typekit dla czcionek-->
+    <link rel="stylesheet" href="css/style.css?1">
+    <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+    <!-- Pokaż właściwy formularz kraju w zależności od wyboru z rozwijanej listy. -->
+    <script src="jquery/jquery-3.6.1.slim.min.js"></script>
+
+
+    <!-- Pokaż odpowiedni formularz w zależności od wybranego zestawu naklejek -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Pobierz odwołania do divów i pól wyboru
+            const firstSticker = document.getElementById('first-sticker');
+            const secondSticker = document.getElementById('second-sticker');
+            const selectBox1 = document.getElementById('countryselector');
+            const selectBox2 = document.getElementById('countryselector2');
+
+            // Ukryj oba pola wyboru początkowo
+            selectBox1.style.display = 'none';
+            selectBox2.style.display = 'none';
+
+            // Dodaj nasłuchiwacze zdarzeń kliknięcia do divów
+            firstSticker.addEventListener('click', function () {
+                // Pokaż pole wyboru 1 i ukryj pole wyboru 2
+                selectBox1.style.display = 'block';
+                selectBox2.style.display = 'none';
+
+                // Zmień obramowanie first-sticker
+                firstSticker.style.border = '1px solid #ff9500'; // Zmień kolor i szerokość według potrzeb
+                // Zresetuj obramowanie second-sticker
+                secondSticker.style.border = '1px solid #3f3f3f';
+
+                // Zmniejsz przezroczystość elementów w second-sticker
+                const secondStickerElements = secondSticker.querySelectorAll('*');
+                secondStickerElements.forEach(function (element) {
+                    element.style.opacity = '0.5'; // Dostosuj przezroczystość według potrzeb
+                });
+
+                // Zresetuj przezroczystość elementów w first-sticker
+                const firstStickerElements = firstSticker.querySelectorAll('*');
+                firstStickerElements.forEach(function (element) {
+                    element.style.opacity = '1'; // Zresetuj przezroczystość na pełną
+                });
+            });
+
+            secondSticker.addEventListener('click', function () {
+                // Pokaż pole wyboru 2 i ukryj pole wyboru 1
+                selectBox1.style.display = 'none';
+                selectBox2.style.display = 'block';
+
+                // Zmień obramowanie second-sticker
+                secondSticker.style.border = '1px solid #ff9500'; // Zmień kolor i szerokość według potrzeb
+                // Zresetuj obramowanie first-sticker
+                firstSticker.style.border = '1px solid #3f3f3f';
+
+                // Zmniejsz przezroczystość elementów w first-sticker
+                const firstStickerElements = firstSticker.querySelectorAll('*');
+                firstStickerElements.forEach(function (element) {
+                    element.style.opacity = '0.5'; // Dostosuj przezroczystość według potrzeb
+                });
+
+                // Zresetuj przezroczystość elementów w second-sticker
+                const secondStickerElements = secondSticker.querySelectorAll('*');
+                secondStickerElements.forEach(function (element) {
+                    element.style.opacity = '1'; // Zresetuj przezroczystość na pełną
+                });
+            });
+
+            // Funkcja do obsługi selektora kraju
+            function handleCountrySelector(selectorId) {
+                $(selectorId).change(function () {
+                    // Ukryj i pokaż elementy kraju
+                    $('.countries').hide();
+                    $('#' + $(this).val()).show();
+                });
+            }
+
+            // Wywołaj funkcję handleCountrySelector dla obu selektorów
+            handleCountrySelector('#countryselector');
+            handleCountrySelector('#countryselector2');
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="container-main">
+        <div class="container-inner">
+            <!--POWRÓT DO STRONY GŁÓWNEJ-->
+            <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+
+            <h2 class="h2-inflation"><span class="inflation">DARMOWE<br />NAKLEJKI<br />BITCOIN</span></h2>
+
+            <!--<img src="img/web-sticker-header-img-vertical-v5.png" class="inline" style="margin-top:30px;"/>-->
+        </div><!--/container-inner-->
+
+        <div class="break"></div>
+
+        <div class="text-box intro sticker-box">
+            <div class="container-inner">
+
+
+                <p class="step">WYBIERZ ZESTAW<br />NAKLEJEK</p>
+
+
+
+                <p>Nasza misja polega na zainteresowaniu więcej osób Bitcoinem poprzez umieszczanie naklejek Bitcoin w miejscach publicznych. Wszystkie nasze naklejki posiadają kody QR, które prowadzą do stron edukacyjnych na temat <a href="https://bitcoin.rocks" target="_blank" class="orange-link">Bitcoina</a> i <a href="https://bitcoin.rocks/inflation" target="_blank" class="orange-link">inflacji.</a><br /><br />Wybierz swój zestaw naklejek poniżej:
+
+                </p>
+
+                <div class="choose-sticker" id="first-sticker">
+                    <img src="img/web-sticker-pack-text.png"/>
+                    <p>ZESTAW TEKSTOWY</p>
+                </div><!--/choose-sticker-->
+
+                <div class="break-nano"></div>
+
+                <center><select id="countryselector" style="margin-bottom: 30px !important;">
+                        <option selected disabled>Wybierz kraj</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Kanada</option>
+                        <option value="Print">Globalnie — Drukuj moje własne naklejki</option>
+                        <option value="Bulk">Globalnie — Zamów hurtowo</option>
+                    </select></center>
+
+                <div id="USA" class="countries" style="display:none">
+                    <p>Podaj swój adres pocztowy, a wyślemy Ci darmowy zestaw naklejek Bitcoin pocztą! Twoje naklejki zostaną wysłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych naklejek.</p>
+                    <form action="https://getform.io/f/56e3ff89-e6c2-483e-979a-fdf0bdf7b22a" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalne)"><br />
+                        <input type="text" name="address1" placeholder="Adres linia 1" required><br />
+                        <input type="text" name="address2" placeholder="Adres linia 2 (opcjonalne)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="state" placeholder="Stan" id="state" required>
+                        <input type="text" name="zip" placeholder="Kod pocztowy" id="zip" required><br />
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+
+                        <button type="submit" class="button-form"><p>CHCĘ DOSTAĆ DARMOWE<br />NAKLEJKI BITCOIN</p></button>
+                    </form>
+
+
+                </div><!--/USA-->
+
+
+                <div id="Canada" class="countries" style="display:none">
+                    <p>Podaj swój adres pocztowy, a wyślemy Ci darmowy zestaw naklejek Bitcoin pocztą! Twoje naklejki zostaną wysłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych naklejek.</p>
+                    <form action="https://getform.io/f/eb59e833-433b-403b-a001-9761f0ff7f56" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalne)"><br />
+                        <input type="text" name="address1" placeholder="Adres linia 1" required><br />
+                        <input type="text" name="address2" placeholder="Adres linia 2 (opcjonalne)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="province" placeholder="Prowincja" id="state" required>
+                        <input type="text" name="postal" placeholder="Kod pocztowy" id="zip" required><br />
+
+                        <button type="submit" class="button-form"><p>CHCĘ DOSTAĆ DARMOWE<br />NAKLEJKI BITCOIN</p></button>
+                    </form>
+
+
+                </div><!--/Kanada-->
+
+
+                <div id="Drukuj" class="countries" style="display:none">
+                    <p>Możesz wziąć udział, drukując własne naklejki, niezależnie od tego, gdzie mieszkasz! Kliknij poniżej na swój język, aby pobrać pliki naklejek i instrukcje.<br /><br />Zauważ: nie wszystkie naklejki są dostępne we wszystkich językach.</p>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/afrikaans" target="_blank"><div class="button button-sticker"><p>AFRYKAANS</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/arabic" target="_blank"><div class="button button-sticker"><p>ARABSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/basque" target="_blank"><div class="button button-sticker"><p>BASKIJSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/bulgarian" target="_blank"><div class="button button-sticker"><p>BUŁGARSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/catalan" target="_blank"><div class="button button-sticker"><p>KATALOŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/chinese" target="_blank"><div class="button button-sticker"><p>CHIŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/croatian" target="_blank"><div class="button button-sticker"><p>CHORWACKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/czech" target="_blank"><div class="button button-sticker"><p>CESKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/danish" target="_blank"><div class="button button-sticker"><p>DUŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/dutch" target="_blank"><div class="button button-sticker"><p>HOLANDZKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/english" target="_blank"><div class="button button-sticker"><p>ANGIELSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/estonian" target="_blank"><div class="button button-sticker"><p>ESTONSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/filipino" target="_blank"><div class="button button-sticker"><p>FILIPINSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/finnish" target="_blank"><div class="button button-sticker"><p>FIŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/french" target="_blank"><div class="button button-sticker"><p>FRANCUSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/german" target="_blank"><div class="button button-sticker"><p>NIEMIECKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/greek" target="_blank"><div class="button button-sticker"><p>GRECKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/hausa" target="_blank"><div class="button button-sticker"><p>HAUSA</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/hebrew" target="_blank"><div class="button button-sticker"><p>HBRĘSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/hindi" target="_blank"><div class="button button-sticker"><p>HINDUSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/hungarian" target="_blank"><div class="button button-sticker"><p>WĘGIERSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/indonesian" target="_blank"><div class="button button-sticker"><p>INDONEZYJSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/irish" target="_blank"><div class="button button-sticker"><p>IRLANDZKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/italian" target="_blank"><div class="button button-sticker"><p>WŁOSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/japanese" target="_blank"><div class="button button-sticker"><p>JAPONSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/korean" target="_blank"><div class="button button-sticker"><p>KOREAŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/malay" target="_blank"><div class="button button-sticker"><p>MALEZYJSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/norwegian" target="_blank"><div class="button button-sticker"><p>NORWESKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/persian" target="_blank"><div class="button button-sticker"><p>PERYJSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/polish" target="_blank"><div class="button button-sticker"><p>POLSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/portuguese" target="_blank"><div class="button button-sticker"><p>PORTUGALSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/russian" target="_blank"><div class="button button-sticker"><p>ROSJANKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/sinhala" target="_blank"><div class="button button-sticker"><p>SINHALSKIE</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/slovak" target="_blank"><div class="button button-sticker"><p>SŁOWACKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/slovenian" target="_blank"><div class="button button-sticker"><p>SŁOWEŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/spanish" target="_blank"><div class="button button-sticker"><p>HISZPAŃSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/swahili" target="_blank"><div class="button button-sticker"><p>SWAHILI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/swedish" target="_blank"><div class="button button-sticker"><p>SZWEDZKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/thai" target="_blank"><div class="button button-sticker"><p>TAI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/turkish" target="_blank"><div class="button button-sticker"><p>TURECKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/urdu" target="_blank"><div class="button button-sticker"><p>URDU</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/vietnamese" target="_blank"><div class="button button-sticker"><p>W'ETNAMSKI</p></div></a>
+                
+                    <a href="https://bitcoin.rocks/sticker-files/yoruba" target="_blank"><div class="button button-sticker"><p>YORUBA</p></div></a>
+                
+                    <div class="break-micro"></div>
+                    <p>Nie widzisz swojego języka?<br/><br />Wypełnij poniższy formularz, aby poprosić o pliki naklejek w swoim lokalnym języku.</p>
+                
+                    <form action="https://getform.io/f/0b3790d0-6706-40c4-a4d0-bfcde8755564" method="POST">
+                        <input type="text" name="language" placeholder="Język" required><br />
+                        <input type="email" name="email" placeholder="Wprowadź swój adres e-mail, aby otrzymać powiadomienie (opcjonalnie)"><br />
+                
+                        <button type="submit" class="button-form"><p>ZAPYTAJ O PLIKI<br />NAKLEJEK</p></button>
+                    </form>
+                
+                </div><!--/Drukuj-->
+                
+                <div id="Wielkość" class="countries" style="display:none">
+                    <p>Potrzebujesz więcej niż kilka naklejek?<br />
+                        <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link">Sprawdź nasz sklep StickerMule</a> dla zamówień hurtowych.<br /><br />Zauważ: nie zarabiamy, gdy zamawiasz z tego sklepu. To tylko wygodny sposób zamówienia bezpośrednio od StickerMule.</p>
+                </div><!--/Wielkość-->
+                
+                <div class="break-nano"></div>
+                
+                <div class="choose-sticker" id="second-sticker">
+                    <img src="img/web-sticker-pack-signs.png"/>
+                    <p>PACZKA ZNAKÓW</p>
+                </div><!--/wybierz-naklejkę-->
+                
+                <div class="break-nano"></div>
+                
+                <center><select id="countryselector2" style="margin-bottom: 30px !important;">
+                    <option selected disabled>Wybierz swój kraj</option>
+                    <option value="USA2">Stany Zjednoczone</option>
+                    <option value="Canada2">Kanada</option>
+                    <option value="Print2">Globalnie — Drukuj moje własne naklejki</option>
+                    <option value="Bulk2">Globalnie — Zamów hurtowo</option>
+                </select></center>
+                
+                <div id="USA2" class="countries" style="display:none">
+                    <p>Wprowadź swój adres wysyłkowy, a my wyślemy Ci darmową paczkę naklejek Bitcoin pocztą! Naklejki zostaną wysłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych naklejek.</p>
+                    <form action="https://getform.io/f/rbegqxpb" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalnie)"><br />
+                        <input type="text" name="address1" placeholder="Adres linia 1" required><br />
+                        <input type="text" name="address2" placeholder="Adres linia 2 (opcjonalnie)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="state" placeholder="Stan" id="state" required>
+                        <input type="text" name="zip" placeholder="Kod pocztowy" id="zip" required><br />
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                
+                        <button type="submit" class="button-form"><p>POBIERZ MOJE DARMOWE<br />NAKLEJKI BITCOIN</p></button>
+                    </form>
+                </div><!--/USA-->
+                
+                <div id="Canada2" class="countries" style="display:none">
+                    <p>Wprowadź swój adres wysyłkowy, a my wyślemy Ci darmową paczkę naklejek Bitcoin pocztą! Naklejki zostaną wysłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych naklejek.</p>
+                    <form action="https://getform.io/f/nbvvwplb" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalnie)"><br />
+                        <input type="text" name="address1" placeholder="Adres linia 1" required><br />
+                        <input type="text" name="address2" placeholder="Adres linia 2 (opcjonalnie)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="province" placeholder="Prowincja" id="state" required>
+                        <input type="text" name="postal" placeholder="Kod pocztowy" id="zip" required><br />
+                
+                        <button type="submit" class="button-form"><p>POBIERZ MOJE DARMOWE<br />NAKLEJKI BITCOIN</p></button>
+                    </form>
+                </div><!--/Kanada-->
+                
+
+
+                        <div id="Print2" class="countries" style="display:none">
+                            <p>You can participate by printing your own stickers, no matter where you live! Click on your language below to download the sticker files &amp; instructions.<br /><br />Please note: not all stickers are available in all languages.</p>
+
+
+
+
+
+
+                            <a href="https://bitcoin.rocks/sticker-files/afrikaans" target="_blank"><div class="button button-sticker"><p>AFRIKAANS</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/arabic" target="_blank"><div class="button button-sticker"><p>ARABIC</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/basque" target="_blank"><div class="button button-sticker"><p>BASQUE</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/bulgarian" target="_blank"><div class="button button-sticker"><p>BULGARIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/catalan" target="_blank"><div class="button button-sticker"><p>CATALAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/chinese" target="_blank"><div class="button button-sticker"><p>CHINESE</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/croatian" target="_blank"><div class="button button-sticker"><p>CROATIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/czech" target="_blank"><div class="button button-sticker"><p>CZECH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/danish" target="_blank"><div class="button button-sticker"><p>DANISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/dutch" target="_blank"><div class="button button-sticker"><p>DUTCH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/english" target="_blank"><div class="button button-sticker"><p>ENGLISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/estonian" target="_blank"><div class="button button-sticker"><p>ESTONIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/filipino" target="_blank"><div class="button button-sticker"><p>FILIPINO</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/finnish" target="_blank"><div class="button button-sticker"><p>FINNISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/french" target="_blank"><div class="button button-sticker"><p>FRENCH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/german" target="_blank"><div class="button button-sticker"><p>GERMAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/greek" target="_blank"><div class="button button-sticker"><p>GREEK</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/hausa" target="_blank"><div class="button button-sticker"><p>HAUSA</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/hebrew" target="_blank"><div class="button button-sticker"><p>HEBREW</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/hindi" target="_blank"><div class="button button-sticker"><p>HINDI</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/hungarian" target="_blank"><div class="button button-sticker"><p>HUNGARIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/indonesian" target="_blank"><div class="button button-sticker"><p>INDONESIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/irish" target="_blank"><div class="button button-sticker"><p>IRISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/italian" target="_blank"><div class="button button-sticker"><p>ITALIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/japanese" target="_blank"><div class="button button-sticker"><p>JAPANESE</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/korean" target="_blank"><div class="button button-sticker"><p>KOREAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/malay" target="_blank"><div class="button button-sticker"><p>MALAY</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/norwegian" target="_blank"><div class="button button-sticker"><p>NORWEGIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/persian" target="_blank"><div class="button button-sticker"><p>PERSIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/polish" target="_blank"><div class="button button-sticker"><p>POLISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/portuguese" target="_blank"><div class="button button-sticker"><p>PORTUGUESE</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/russian" target="_blank"><div class="button button-sticker"><p>RUSSIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/sinhala" target="_blank"><div class="button button-sticker"><p>SINHALA</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/slovak" target="_blank"><div class="button button-sticker"><p>SLOVAK</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/slovenian" target="_blank"><div class="button button-sticker"><p>SLOVENIAN</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/spanish" target="_blank"><div class="button button-sticker"><p>SPANISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/swahili" target="_blank"><div class="button button-sticker"><p>SWAHILI</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/swedish" target="_blank"><div class="button button-sticker"><p>SWEDISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/thai" target="_blank"><div class="button button-sticker"><p>THAI</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/turkish" target="_blank"><div class="button button-sticker"><p>TURKISH</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/urdu" target="_blank"><div class="button button-sticker"><p>URDU</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/vietnamese" target="_blank"><div class="button button-sticker"><p>VIETNAMESE</p></div></a>
+
+                            <a href="https://bitcoin.rocks/sticker-files/yoruba" target="_blank"><div class="button button-sticker"><p>YORUBA</p></div></a>
+
+
+
+
+
+                            <div class="break-micro"></div>
+                            <p>Nie widzisz swojego języka?<br/><br />Wypełnij poniższy formularz, aby poprosić o pliki naklejek w Twoim lokalnym języku.</p>
+
+                            <form action="https://getform.io/f/0b3790d0-6706-40c4-a4d0-bfcde8755564" method="POST">
+                            <input type="text" name="language" placeholder="Język" required><br />
+                            <input type="email" name="email" placeholder="Wpisz swój adres e-mail, aby otrzymać powiadomienie (opcjonalnie)"><br />
+
+                            <button type="submit" class="button-form"><p>ZAPYTANIE O<br />PLIKI NAKLEJEK</p></button>
+                            </form>
+
+                        </div><!--/Drukuj-->
+
+                        <div id="Hurt2" class="countries" style="display:none">
+                          <p>Potrzebujesz więcej niż kilku naklejek?<br />
+                              <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link">Sprawdź nasz sklep StickerMule</a> dla zamówień hurtowych.<br /><br />Należy pamiętać: nie zarabiamy, gdy zamawiasz z tego sklepu. To tylko wygodny sposób zamawiania bezpośrednio od StickerMule.</p>
+                        </div><!--/Hurt-->
+
+
+
+
+
+
+
+
+
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+                <div class="text-box intro sticker-box">
+                    <div class="container-inner">
+
+
+                        <p class="step">PODZIEL SIĘ SWOIMI<br />MIEJSCAMI Z NAKLEJKAMI</p>
+
+
+
+                        <p>
+
+                            Podziel się swoim miejscem z naklejkami z nami na Nostr i możesz otrzymać darmowego bitcoina! <a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">Czym jest Nostr?</a>
+                        <br />
+                        <br />
+                            Śledź nas na Nostr, szukając<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> w dowolnym kliencie Nostr.
+                            <br /><br />
+                            </p>
+
+                        <a href="https://primal.net/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" target="_blank"><div class="bounty-button">PODZIEL SIĘ NA NOSTR</div></a>
+
+                            <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">CZYM JEST NOSTR?</div></a>
+
+
+
+                <!--<div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT A BITCOIN STICKER IN A</p>
+
+                        <p class="bounty-header">SUBWAY OR TRAIN</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">BOUNTY REWARD</p>
+                        <p class="bounty-details">1k sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown2">loading...</p>
+
+                        <a href="https://twitter.com/bitcoindotrocks/status/1661856335015682048" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div>
+
+
+
+                    </div><!--/container-inner-->
+                <!--</div><!--bounty-->
+
+                <!--<div class="break-micro"></div>
+
+
+                <div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
+
+                        <p class="bounty-header">NEAR OTHER STICKERS</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">BOUNTY REWARD</p>
+                        <p class="bounty-details">1k sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown4">loading...</p>
+
+                        <a href="https://twitter.com/bitcoindotrocks/status/1661856354963734530" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
+
+
+                    </div><!--/container-inner-->
+               <!--</div><!--bounty-->
+
+               <!-- <div class="break-micro"></div>
+
+
+                <!--<div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
+
+                        <p class="bounty-header">IN A TRAIN &#x1F686;</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">BOUNTY REWARD</p>
+                        <p class="bounty-details">2k sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown4">loading...</p>
+
+                        <a href="https://twitter.com/bitcoindotrocks/status/1655290724433231872" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
+
+
+                    </div><!--/container-inner-->
+               <!-- </div><!--bounty-->
+
+               <!-- <div class="break-micro"></div>-->
+
+
+
+
+
+
+
+
+                <!--<div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
+
+                        <p class="bounty-header">ANYWHERE IN AUGUST</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">CONTEST REWARD</p>
+                        <p class="bounty-details">up to 1M sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown3">loading...</p>
+
+                        <a href="https://primal.net/thread/note1dfu2ppkwpcc2k5mtnalf84q4wgxw7xj3hxd74zp797zw288ylxuqa2yf5y" target="_blank"><div class="bounty-button">SUBMIT ON NOSTR</div></a>
+
+                            <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">WHAT IS NOSTR?</div></a>
+
+
+
+                    </div><!--/container-inner-->
+               <!-- </div><!--bounty-->
+
+
+                       <!-- <div class="break-micro"></div>-->
+
+               <!--
+                <div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
+
+                        <p class="bounty-header">NEAR TRAFFIC</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">BOUNTY REWARD</p>
+                        <p class="bounty-details">2.1k sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown4">loading...</p>
+
+                        <a href="https://snort.social/e/note1sl8s28thwkj0mhte5394g26lnjuf2s5z498y87frremvxwtdwgxqvxcmdt" target="_blank"><div class="bounty-button">SUBMIT ON NOSTR</div></a>
+
+                        <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">WHAT IS NOSTR?</div></a>
+
+
+                    </div><!--/container-inner-->
+            <!--  </div><!--bounty-->
+
+                      <!--  <div class="break-micro"></div>
+
+              <!--  <div class="bounty">
+                    <div class="container-inner">
+                        <p class="bounty-small pill">PUT THE MOST BITCOIN STICKERS</p>
+
+                        <p class="bounty-header">ANYWHERE IN PUBLIC &#x2705;</p>
+
+                        <div class="bounty-divider"></div>
+
+                        <p class="bounty-small reward">CONTEST REWARD</p>
+                        <p class="bounty-details">up to 1M sats</p>
+
+                        <p class="bounty-small time">TIME REMAINING</p>
+                        <p class="bounty-details" id="countdown1">loading...</p>
+
+                        <a href="https://twitter.com/bitcoindotrocks/status/1648704825616482310" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
+
+
+
+
+                    </div><!--/container-inner-->
+              <!--  </div><!--bounty-->
+
+
+
+
+
+
+
+
+
+
+
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <!--<div class="break"></div>
+
+                <div class="text-box intro sticker-box">
+                    <div class="container-inner">
+
+
+                        <p class="step">WHILE YOU WAIT FOR YOUR STICKERS...<br /><br /></p>
+                        <a href="https://bitcoin.rocks"><img src="img/meta/meta-home-v3.png" class="inline"/></a>
+                        <p>
+
+                        Our website was designed for people who are new to bitcoin. It's a great website to send to friends &amp; family to show them why Bitcoin rocks!</p>
+
+                        <a href="https://bitcoin.rocks" target="_blank"><div class="bounty-button explore">TAKE ME THERE</div></a>
+                    </div><!--/container-inner-->
+                <!--</div><!--/text-box-->
+
+
+
+
+<!-- STOPKA -->
+
+<div class="stopka">
+    <p>
+
+    Śledź nas na Nostr, szukając<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> w dowolnym kliencie Nostr.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">Czym jest Nostr?</a>
+
+    <br /><br />
+
+    Napisz do nas e-mail: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+
+
+        <br /><br /><br />
+    </p>
+</div><!--/stopka-->
+
+
+</div><!--/kontener-główny-->
+
+
+<!--
+<div class="dolny-pasek"><p>Umieść tę stronę w zakładkach, aby móc ją udostępniać, gdy rozmowa zacznie się o Bitcoinie.</p></div>-->
+
+
+
+
+    </body>
+</html>

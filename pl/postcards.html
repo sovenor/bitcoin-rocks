@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Zamówiono pocztówki!</title>
+    <meta name="description" content="Zamówiono pocztówki!">
+
+    <!-- Prywatna analityka, nie śledzi adresów IP -->
+    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+    <!-- Ikony ulubionych dla wszystkich urządzeń -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+
+    <!-- Główny arkusz stylów + typekit dla czcionek -->
+    <link rel="stylesheet" href="css/style.css?88">
+    <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+    <!-- Pokaż odpowiedni formularz krajowy na podstawie wyboru z rozwijanej listy. -->
+    <script src="jquery/jquery-3.6.1.slim.min.js"></script>
+    <script src="jquery/countryselector.js"></script>
+
+</head>
+<body>
+
+
+    <div class="container-main">
+        <div class="container-inner">
+            <!-- POWRÓT DO STRONY GŁÓWNEJ -->
+            <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+
+            <img src="img/postcards/postcards-header-v2.png" class="inline" style="margin-top:30px;"/>
+        </div><!--/container-inner-->
+
+            <div class="break"></div>
+
+            <div class="text-box intro sticker-box">
+                <div class="container-inner">
+
+
+                    <p class="step">ODBIERZ SWÓJ ZESTAW POCZTÓWEK</p>
+                    <br /><br />
+
+                    <center><select id="countryselector" style="margin-bottom: 30px !important;">
+                        <option selected disabled>Wybierz swój kraj</option>
+                        <option value="USA">USA</option>
+                        <option value="Kanada">Kanada</option>
+                        <!--<option value="Print">Gdziekolwiek indziej — Wydrukuj moje własne naklejki</option>-->
+                    </select></center>
+
+
+
+
+
+
+
+                    <div id="USA" class="countries" style="display:none">
+                        <p>Wpisz swój adres pocztowy, a my wyślemy Ci darmowy pakiet pocztówek z Bitcoinem pocztą! Twoje pocztówki są wysyłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych pocztówek.</p>
+                        <form action="https://getform.io/f/80e50020-f26e-4d5b-886e-517784906a76" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalnie)"><br />
+                        <input type="text" name="address1" placeholder="Linia adresowa 1" required><br />
+                        <input type="text" name="address2" placeholder="Linia adresowa 2 (opcjonalnie)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="state" placeholder="Stan" id="state" required>
+                        <input type="text" name="zip" placeholder="Kod pocztowy" id="zip" required><br />
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+
+                        <button type="submit" class="button-form"><p>POBIERZ MOJE DARMOWE<br />POCZTÓWKI Z BITCOINEM</p></button>
+                        </form>
+                    </div><!--/USA-->
+
+
+                    <div id="Kanada" class="countries" style="display:none">
+                        <p>Wpisz swój adres pocztowy, a my wyślemy Ci darmowy pakiet pocztówek z Bitcoinem pocztą! Twoje pocztówki są wysyłane w zwykłej białej kopercie.<br /><br />Dane adresowe są usuwane po wysłaniu darmowych pocztówek.<br /><br />Kanadyjczycy otrzymają pocztówkę z banknotem o wartości 5 CAD zamiast pocztówki z banknotem o wartości 1 USD.</p>
+                        <form action="https://getform.io/f/c219d92d-6a4f-46b0-9372-fb87203aacd6" method="POST">
+                        <input type="text" name="name" placeholder="Imię (opcjonalnie)"><br />
+                        <input type="text" name="address1" placeholder="Linia adresowa 1" required><br />
+                        <input type="text" name="address2" placeholder="Linia adresowa 2 (opcjonalnie)"><br />
+                        <input type="text" name="city" placeholder="Miasto" id="city" required>
+                        <input type="text" name="province" placeholder="Prowincja" id="state" required>
+                        <input type="text" name="postal" placeholder="Kod pocztowy" id="zip" required><br />
+
+                        <button type="submit" class="button-form"><p>POBIERZ MOJE DARMOWE<br />NAKLEJKI BITCOINOWE</p></button>
+                        </form>
+                    </div><!--/Kanada-->
+
+
+
+
+
+
+
+
+
+
+
+
+                    <br /><br />
+
+                </div><!--/container-inner-->
+            </div><!--text-box-->
+
+            <div class="break"></div>
+
+            <div class="text-box intro sticker-box">
+                <div class="container-inner">
+
+
+                    <p class="step">WYŚLIJ POCZTÓWKI</p>
+
+
+
+                    <p>Stworzyliśmy te pocztówki, aby ułatwić Ci przedstawienie komuś, kogo znasz, Bitcoin! Wystarczy dodać adres i znaczek i wrzucić pocztówkę do skrzynki pocztowej.
+                    <br /><br />
+                    Nasza misja polega na przyspieszeniu adopcji Bitcoina. Możesz pomóc, wysyłając te pocztówki komuś dzisiaj!
+                    </p>
+
+                    <img src="img/postcards/postcard-dollar-front.png" class="inline">
+
+                    <img src="img/postcards/postcard-dollar-back.png" class="inline">
+
+                    <p class="postcard-caption">Kanadyjczycy otrzymają pocztówkę z banknotem o wartości 5 CAD zamiast pocztówki z banknotem o wartości 1 USD.</p>
+
+                <div class="postcard-divider"></div>
+
+                    <img src="img/postcards/postcard-future-front.png" class="inline">
+
+                    <img src="img/postcards/postcard-future-back.png" class="inline">
+
+                <div class="postcard-divider"></div>
+
+                    <img src="img/postcards/postcard-cartoon-front.png" class="inline"/>
+
+                    <img src="img/postcards/postcard-cartoon-back.png" class="inline"/>
+
+
+
+
+
+
+
+                    <p>
+                    Wszyscy znamy kilka osób, które mogłyby skorzystać z nauki więcej o Bitcoinie. Wyślij im pocztówkę jeszcze dziś!</p>
+
+
+
+                </div><!--/container-inner-->
+            </div><!--text-box-->
+
+
+
+
+
+
+
+<!-- STOPKA -->
+
+        <div class="footer">
+            <p>
+
+            Śledź nas na Nostr, szukając<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> w dowolnym kliencie Nostr.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">Co to jest Nostr?</a>
+
+            <br /><br />
+
+            Napisz do nas e-mail: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+
+
+                <br /><br /><br />
+            </p>
+        </div><!--/footer-->
+
+
+    </div><!--/container-main-->
+
+
+  <!--
+    <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
+
+
+
+</body>
+</html>

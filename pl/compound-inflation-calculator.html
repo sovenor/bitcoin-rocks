@@ -1,0 +1,182 @@
+```html
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Kalkulator Złożonej Inflacji</title>
+        <meta name="description" content="Użyj tego Kalkulatora Złożonej Inflacji, aby dowiedzieć się, o ile musi wzrosnąć Twoja pensja, aby nadążać za inflacją.">
+
+        <!--Meta obraz do udostępniania-->
+        <meta property="og:title" content="Kalkulator Złożonej Inflacji" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-cic-v2.png" />
+
+        <!--Analizy ochrony prywatności, nie śledzą adresów IP-->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!--Favicons dla wszystkich urządzeń-->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+
+        <!--Główny arkusz stylów + typekit dla czcionek-->
+        <link rel="stylesheet" href="css/style.css?35">
+        <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+        <!--Skrypt dla kalkulatora inflacji-->
+        <script src="jquery/compound-inflation-calculator.js"></script>
+
+    </head>
+    <body>
+
+
+        <div class="container-main">
+            <div class="container-inner">
+                <!--WRÓĆ DO STRONY GŁÓWNEJ-->
+                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+
+                <h2 class="h2-inflation"><span class="inflation">KALKULATOR ZŁOŻONEJ INFLACJI</span></h2>
+            </div><!--/container-inner-->
+
+                <div class="text-box intro">
+                    <div class="container-inner">
+
+                        <p>Wiele osób zna pojęcie Procentu Składanego, ale niewiele osób zna pojęcie Złożonej Inflacji.
+                        <br /><br />
+                        Dzięki naszemu Kalkulatorowi Złożonej Inflacji możesz łatwo obliczyć, o ile musi wzrosnąć
+
+ Twoja pensja, aby utrzymać siłę nabywczą w czasie.
+                        <br /><br />
+                        Wystarczy wprowadzić swoją obecną pensję, stopę inflacji i liczbę lat, dla których chcesz obliczyć, a nasz kalkulator pokaże Ci, jaką musisz mieć pensję, aby nadążać za inflacją.
+                        </p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+
+<!-- PIENIĄDZE -->
+
+
+            <div class="break"></div>
+
+
+            <div class="text-box intro sticker-box" >
+                <div class="container-inner">
+
+                    <div class="break-micro"></div>
+
+                      <form class="compound-form">
+                        <div class="form-box">
+                            <label class="compound-label">Obecna Pensja:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="currentSalary" placeholder="Przykład: 55000"/>
+                        </div><!--/form-box-->
+
+
+
+                        <div class="form-box middle-form-box">
+                            <label class="compound-label">Stopa Inflacji:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="inflationRate" placeholder="Przykład: 8.5"/>
+                        </div><!--/form-box-->
+
+
+
+                        <div class="form-box last-form-box">
+                            <label class="compound-label">Lata:</label>
+                            <div class="break-tiny-compound"></div>
+                            <input class="compound" type="number" id="years" placeholder="Przykład: 5"/>
+                        </div><!--/form-box-->
+
+                        <input class="cic-button" type="button" value="OBLICZ" onclick="calculateInflation()" />
+                      </form>
+
+
+                    <div id="result"></div>
+
+
+
+                </div><!--/container-inner-->
+
+            </div><!--/text-box-->
+
+
+
+
+
+            <div class="break"></div>
+
+
+                <a href="https://bitcoin.rocks/inflation?link=calculator" target="_blank">
+                    <div class="text-box solo">
+                        <div class="container-inner">
+                            <h3>CZYM JEST <span class="inflation">INFLACJA?</span></h3>
+
+                            <div class="item first">
+                                <h4>Wyjdź z inflacji za pomocą Bitcoina</h4>
+                                <div class="type">STRONA INTERNETOWA</div>
+                                <div class="author">Bitcoin.rocks/inflation</div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
+
+
+
+
+
+
+
+
+
+
+<!-- STOPKA -->
+
+            <div class="footer">
+                <p>
+
+                Śledź nas na Nostr, wyszukując<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> w dowolnym kliencie Nostr.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">Czym jest Nostr?</a>
+
+                <br /><br />
+
+                Skontaktuj się z nami: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+
+
+                    <br /><br /><br />
+                </p>
+            </div><!--/footer-->
+
+
+        </div><!--/container-main-->
+
+
+      <!--
+        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
+
+
+
+    </body>
+</html>
+```

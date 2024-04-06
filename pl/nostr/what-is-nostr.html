@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>What is Nostr?</title>
+        <meta name="description" content="What is Nostr? Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting.">
+
+        <!--Privacy focused analytics, does not track IP addresses-->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!--Favicons for all devices-->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="../img/favicons/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="../img/favicons/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="../img/favicons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="../img/favicons/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
+
+
+        <meta property="og:title" content="What is Nostr?" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/what-is-nostr.html" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-nostr-what-v1.png" />
+
+        <meta name="twitter:title" content="What is Nostr?">
+        <meta name="twitter:description" content="Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting.">
+        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-nostr-what-v1.png">
+        <meta name="twitter:card" content="summary_large_image">
+
+
+
+        <link rel="stylesheet" href="../css/style.css?3">
+        <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+        <!--CTA BUTTON AUTO-SCROLL TO GUIDE-->
+        <script src="../jquery/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#scrollButton").click(function() {
+                    $('html, body').animate({
+                        scrollTop: $("#ready").offset().top - 50 // Subtract 50px from the top position
+                    }, 800); // 800 milliseconds for the scrolling animation
+                });
+            });
+        </script>
+
+        <script>
+        function toggleDiv(event, div) {
+            // Check if the clicked target is a link (or a child of a link)
+            let target = event.target;
+            while (target !== div) {
+                if (target.tagName === 'A') {
+                    return; // Don't toggle the expanded class if a link is clicked
+                }
+                target = target.parentElement;
+            }
+
+            div.classList.toggle('expanded');
+        }
+
+        </script>
+
+
+
+
+
+    </head>
+    <body>
+
+
+        <div class="container-main">
+            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
+            <div class="break"></div>-->
+            <div class="container-inner">
+                <!--BACK TO HOME-->
+                <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
+
+                <h2 class="h2-inflation">WHAT IS NOSTR?</h2>
+
+
+
+            </div><!--/container-inner-->
+
+
+
+            <center><div class="biz-button" id="scrollButton"><p>JOIN NOSTR NOW</p></div></center>
+
+            <div class="break-micro"></div>
+
+            <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <div class="break-micro"></div>
+                        <h7>Nostr is a protocol, not a platform</h7>
+                        <p>Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting.<br /><br />
+                            Platforms like Twitter and Facebook are controlled by a single company, but no one controls the Nostr protocol.
+                           </p>
+
+
+
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break-micro"></div>
+
+                <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <div class="break-micro"></div>
+                        <h7>Freedom to move</h7>
+                        <p>Nostr is similar to email. No one controls the email protocol, and anyone can build a client (like Gmail, Hotmail, etc.) on top of it.
+                            <br /><br />
+                            No one controls the Nostr protocol, and anyone can build a client (like Damus, Amethyst, etc.) on top of it.
+                            <br /><br />If you don't like how a certain client works, you can seamlessly move your Nostr account to another client without losing your followers or content.
+                           </p>
+
+
+
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break-micro"></div>
+
+                <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <div class="break-micro"></div>
+                        <h7>Bitcoin is built in</h7>
+                        <p>Bitcoin is built in natively to the Nostr protocol. If you see content you like, you can easily zap bitcoin to someone as a thank you!
+                            <br /><br />
+                            On centralized platforms like Twitter and Facebook, the centralized company earns money from your content. But on open protocols like Nostr, you earn money from your content.
+                           </p>
+
+
+
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+
+
+                <div class="break-micro"></div>
+
+                <div id="ready"><h2 class="h2-inflation">DOWNLOAD A<br />FREE CLIENT<br />TO JOIN NOSTR</h2></div>
+
+
+
+            <div class="break-micro"></div>
+
+
+
+            <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>iPhone Clients</h5>
+        <div class="vs-container additional-text">
+
+                <div class="wallet-box-biz wallet-biz-1" style="margin-bottom: 100px !important;">
+                    <div class="container-inner">
+
+                        <center><img src="../img/clients/primal.png" class="device"/></center>
+                        <h6>PRIMAL</h6>
+
+                        <div class="break-mini"></div>
+                        <p><span class="bold">iPhone app</span>
+                            <br />Recommended first client
+                            <br />Bitcoin zap wallet built in
+
+                            <br /><br />
+                        </p>
+
+
+                        <a href="https://apps.apple.com/us/app/primal/id1673134518" target="_blank"><div class="wallet-button">DOWNLOAD NOW</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+                <div class="wallet-box-biz wallet-biz-1" style="margin-bottom: 12px !important;">
+                    <div class="container-inner">
+
+                        <center><img src="../img/clients/damus.png" class="device"/></center>
+                        <h6>DAMUS</h6>
+
+                        <div class="break-mini"></div>
+                        <p><span class="bold">iPhone app</span>
+                            <br />Familiar interface
+                            <br />Requires separate bitcoin wallet
+
+                            <br /><br />
+                        </p>
+
+
+                        <a href="https://apps.apple.com/ca/app/damus/id1628663131" target="_blank"><div class="wallet-button">DOWNLOAD NOW</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+
+
+
+
+
+
+
+
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+
+
+
+
+        <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>Android Clients</h5>
+        <div class="vs-container additional-text">
+
+                <div class="wallet-box-biz wallet-biz-1" style="margin-bottom: 100px !important;">
+                    <div class="container-inner">
+
+                        <center><img src="../img/clients/primal.png" class="device"/></center>
+                        <h6>PRIMAL</h6>
+
+                        <div class="break-mini"></div>
+                        <p><span class="bold">Android app</span>
+                            <br />Recommended first client
+                            <br />Bitcoin zap wallet built in
+
+                            <br /><br />
+                        </p>
+
+
+                        <a href="https://primal.net/downloads" target="_blank"><div class="wallet-button">DOWNLOAD NOW</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+                <div class="wallet-box-biz wallet-biz-1" style="margin-bottom: 12px !important;">
+                    <div class="container-inner">
+
+                        <center><img src="../img/clients/amethyst.png" class="device"/></center>
+                        <h6>AMETHYST</h6>
+
+                        <div class="break-mini"></div>
+                        <p><span class="bold">Android Nostr client</span>
+                            <br />Lots of features
+                            <br />Requires separate bitcoin wallet
+                            <br /><br />
+                        </p>
+
+
+                        <a href="https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst" target="_blank"><div class="wallet-button">DOWNLOAD NOW</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+
+
+
+
+                <div class="break"></div>
+
+
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+
+
+        <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
+            <h5>Browser Clients</h5>
+        <div class="vs-container additional-text">
+
+
+                <div class="wallet-box-biz wallet-biz-solo">
+                    <div class="container-inner">
+
+                        <center><img src="../img/clients/iris.png" class="other"/></center>
+                        <h6>IRIS</h6>
+
+                        <div class="break-mini"></div>
+                        <p><span class="bold">Web Client</span>
+                            <br />Super simple
+                            <br />Easy way to try Nostr using a test account
+
+                            <br /><br />
+                        </p>
+
+
+                        <a href="https://iris.to/" target="_blank"><div class="wallet-button">VIEW CLIENT</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+
+        </div><!--/vs-container-->
+        </div><!--/text-box intro orange-bg-->
+
+
+            <!-- FOOTER -->
+
+            <div class="footer">
+                <p>
+
+                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.
+
+                <br /><br />
+
+                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link" target="_blank">hi@bitcoin.rocks</a>
+
+
+                    <br /><br /><br />
+                </p>
+            </div><!--/footer-->
+
+
+
+
+        </div><!--/container-main-->
+    </body>
+</html>
