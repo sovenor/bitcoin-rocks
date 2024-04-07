@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
 
         <meta charset="utf-8">
@@ -17,6 +16,17 @@
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <script src="jquery/jquery.min.js"></script>
+
+        <!-- Source -->
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -60,8 +70,6 @@
 
     </head>
     <body>
-
-
         <div class="container-main">
             <div class="container-inner">
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="home-logo"/></a></center>
@@ -70,7 +78,7 @@
                 <div class="text-box home-intro">
                     <div class="container-inner" id="intro-container">
 
-                        <p>Bitcoin is a misunderstood technology that is building a better world. Tap on a category below to learn how Bitcoin makes it better, or just start scrolling to explore.</p>
+                        <p data-i18n="home_intro"></p>
 
 
                     </div><!--/container-inner-->
@@ -79,45 +87,26 @@
 
 
                 <div class="container-jump">
-                    <button class="jump jump-money" onclick="scrollToSection('money')">MONEY</button>
-
-                    <button class="jump jump-salary" onclick="scrollToSection('salary')">YOUR SALARY</button>
-
-                    <button class="jump jump-freedom" onclick="scrollToSection('freedom')">FREEDOM</button>
-
-                    <button class="jump jump-human-rights" onclick="scrollToSection('human-rights')">HUMAN RIGHTS</button>
-
-                    <button class="jump jump-equality" onclick="scrollToSection('equality')">EQUALITY</button>
-
-                    <button class="jump jump-property-rights" onclick="scrollToSection('property-rights')">PROPERTY RIGHTS</button>
-
-                    <button class="jump jump-affordable-housing" onclick="scrollToSection('affordable-housing')">HOUSING</button>
-
-                    <button class="jump jump-business" onclick="scrollToSection('business')">BUSINESS</button>
-
-                    <button class="jump jump-crowdfunding" onclick="scrollToSection('crowdfunding')">CROWDFUNDING</button>
-
-                    <button class="jump jump-energy" onclick="scrollToSection('energy')">ENERGY</button>
-
-                    <button class="jump jump-environment" onclick="scrollToSection('environment')">THE ENVIRONMENT</button>
-
-                    <button class="jump jump-food" onclick="scrollToSection('food')">FOOD</button>
-
-                    <button class="jump jump-art" onclick="scrollToSection('art')">ART</button>
-
-                    <button class="jump jump-politics" onclick="scrollToSection('politics')">POLITICS</button>
-
-                    <button class="jump jump-war" onclick="scrollToSection('war')">WAR</button>
-
-                    <button class="jump jump-coding" onclick="scrollToSection('coding')">CODING</button>
-
-                  <!--  <button class="jump jump-ai" onclick="scrollToSection('ai')">AI</button> -->
-
-                    <button class="jump jump-ln" onclick="scrollToSection('ln')">PAYMENTS</button>
-
-                    <button class="jump jump-self-custody" onclick="scrollToSection('self-custody')">SELF-CUSTODY</button>
-
-                    <button class="jump jump-get-started" onclick="scrollToSection('get-started')">YOU</button>
+                    <button class="jump jump-money" onclick="scrollToSection('money')" data-i18n="home_btn_money"></button>
+                    <button class="jump jump-salary" onclick="scrollToSection('salary')" data-i18n="home_btn_salary"></button>
+                    <button class="jump jump-freedom" onclick="scrollToSection('freedom')" data-i18n="home_btn_freedom"></button>
+                    <button class="jump jump-human-rights" onclick="scrollToSection('human-rights')" data-i18n="home_btn_human_rights"></button>
+                    <button class="jump jump-equality" onclick="scrollToSection('equality')" data-i18n="home_btn_equality"></button>
+                    <button class="jump jump-property-rights" onclick="scrollToSection('property-rights')" data-i18n="home_btn_property_rights"></button>
+                    <button class="jump jump-affordable-housing" onclick="scrollToSection('affordable-housing')" data-i18n="home_btn_housing"></button>
+                    <button class="jump jump-business" onclick="scrollToSection('business')" data-i18n="home_btn_business"></button>
+                    <button class="jump jump-crowdfunding" onclick="scrollToSection('crowdfunding')" data-i18n="home_btn_crowdfunding"></button>
+                    <button class="jump jump-energy" onclick="scrollToSection('energy')" data-i18n="home_btn_energy"></button>
+                    <button class="jump jump-environment" onclick="scrollToSection('environment')" data-i18n="home_btn_environment"></button>
+                    <button class="jump jump-food" onclick="scrollToSection('food')" data-i18n="home_btn_food"></button>
+                    <button class="jump jump-art" onclick="scrollToSection('art')" data-i18n="home_btn_art"></button>
+                    <button class="jump jump-politics" onclick="scrollToSection('politics')" data-i18n="home_btn_politics"></button>
+                    <button class="jump jump-war" onclick="scrollToSection('war')" data-i18n="home_btn_war"></button>
+                    <button class="jump jump-coding" onclick="scrollToSection('coding')" data-i18n="home_btn_coding"></button>
+                    <!--  <button class="jump jump-ai" onclick="scrollToSection('ai')" data-i18n="home_btn_ai"></button> -->
+                    <button class="jump jump-ln" onclick="scrollToSection('ln')" data-i18n="home_btn_ln"></button>
+                    <button class="jump jump-self-custody" onclick="scrollToSection('self-custody')" data-i18n="home_btn_self_custody"></button>
+                    <button class="jump jump-get-started" onclick="scrollToSection('get-started')" data-i18n="home_btn_you"></button>
                 </div><!--/container-jump-->
 
 

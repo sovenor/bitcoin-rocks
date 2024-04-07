@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"home_intro": "Bitcoin is a misunderstood technology that is building a better world. Tap on a category below to learn how Bitcoin makes it better, or just start scrolling to explore.",
+	"home_btn_money": "MONEY",
+	"home_btn_salary": "YOUR SALARY",
+	"home_btn_freedom": "FREEDOM",
+	"home_btn_human_rights": "HUMAN RIGHTS",
+	"home_btn_equality": "EQUALITY",
+	"home_btn_property_rights": "PROPERTY RIGHTS",
+	"home_btn_housing": "HOUSING",
+	"home_btn_business": "BUSINESS",
+	"home_btn_crowdfunding": "CROWDFUNDING",
+	"home_btn_energy": "ENERGY",
+	"home_btn_environment": "THE ENVIRONMENT",
+	"home_btn_food": "FOOD",
+  "home_btn_art": "ART",
+  "home_btn_politics": "POLITICS",
+  "home_btn_war": "WAR",
+  "home_btn_coding": "CODING",
+  "home_btn_ai": "AI",
+  "home_btn_ln": "PAYMENTS",
+  "home_btn_self_custody": "SELF-CUSTODY",
+  "home_btn_you": "YOU"
+}
