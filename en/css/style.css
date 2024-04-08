@@ -7,6 +7,12 @@ body{
     background-repeat: repeat;*/
 }
 
+#language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
 h2{
     font-family: "proxima-nova-condensed", sans-serif;
     font-weight: 900;
