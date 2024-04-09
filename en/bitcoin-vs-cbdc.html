@@ -18,6 +18,16 @@
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
+
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
@@ -56,14 +66,16 @@
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-gray.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation">WHAT SHOULD<br /><span class="inflation">DIGITAL MONEY</span><br />LOOK LIKE?</h2>
+                <h2 class="h2-inflation"><span data-i18n="cbdc_header"></span><br /><span class="force-orange" data-i18n="cbdc_header_2"></span><br /><span data-i18n="cbdc_header_3"></span></h2>
             </div><!--/container-inner-->
 
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
-
-
-                        <p style="margin-top: 50px;">Our world is becoming increasingly digital, and so is our money.<br /><br />That begs the question: what do we want our digital money to look like?<br /><br />Many countries are exploring issuing a Central Bank Digital Currency (CBDC) which is a fully digital form of our existing currency.<br /><br />Let's take a look at the difference between two forms of digital money: Bitcoin &amp; Central Bank Digital Currencies (CBDCs).</p>
+                        <div class="break-no-title"></div>
+                        <p data-i18n="cbdc_intro_1"></p>
+                        <p data-i18n="cbdc_intro_2"></p>
+                        <p data-i18n="cbdc_intro_3"></p>
+                        <p data-i18n="cbdc_intro_4"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -72,17 +84,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Spend without permission</p>
+                        <p data-i18n="bitcoin_point_1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Requires permission to spend</p>
+                        <p data-i18n="cbdc_point_1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -90,8 +102,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin is designed to give you total control over your money. <a href="https://voteforbetter.money/learn/bitcoin-is-permissionless" target="_blank" class="orange-link">No one can stop you from transacting with Bitcoin.</a> CBDCs are designed to give governments and central banks total control over your money and <a href="https://www.youtube.com/watch?v=SdIb9_I-kkA" target="_blank" class="orange-link">limit your privacy and freedom.</a></p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_1_summary_1"></span>&nbsp;<a href="https://voteforbetter.money/learn/bitcoin-is-permissionless" target="_blank" class="orange-link"><span data-i18n="point_1_summary_2"></span></a>&nbsp;<span data-i18n="point_1_summary_3"></span>&nbsp;<a href="https://www.youtube.com/watch?v=SdIb9_I-kkA" target="_blank" class="orange-link"><span data-i18n="point_1_summary_4"></span></a>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -104,17 +118,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Your money never expires</p>
+                        <p data-i18n="bitcoin_point_2"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Your money can expire</p>
+                        <p data-i18n="cbdc_point_2"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -122,41 +136,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin never expires and has no monthly fees. <a href="https://www.youtube.com/watch?v=VlJ1QAxHuNw" target="_blank" class="orange-link">CBDCs can be programmed to expire</a> to prevent you from saving for the future.</p>
-
-                </div><!--text-box-->
-
-
-        </div><!--/vs-container-->
-
-
-            <div class="break-mini"></div>
-
-
-        <div class="vs-container">
-                <div class="small-box">
-                    <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
-
-                        <p>Fixed supply of 21M BTC</p>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="small-box small2">
-                    <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
-
-                        <p>No limit on total supply</p>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break"></div>
-
-                <div class="cbdc-box">
-
-
-                        <p class="cbdc-explain"><a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link">Bitcoin has a hard cap of 21 million BTC</a> that will ever exist. CBDCs, much like the currencies we use today, have no cap on total supply. This lack of cap on total supply allows the government to expand the money supply, which causes <a class="orange-link" href="https://bitcoin.rocks/inflation">inflation.</a></p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_2_summary_1"></span>&nbsp;<a href="https://www.youtube.com/watch?v=VlJ1QAxHuNw" target="_blank" class="orange-link"><span data-i18n="point_2_summary_2"></span></a>&nbsp;<span data-i18n="point_2_summary_3"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -170,17 +153,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Pseudonymous</p>
+                        <p data-i18n="bitcoin_point_3"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Linked to government ID</p>
+                        <p data-i18n="cbdc_point_3"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -188,8 +171,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin addresses are psuedonymous, which means they are not linked to your real name or identity. CBDCs are directly linked to your real name and identity which enables massive financial surveillance and censorship.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link"><span data-i18n="point_3_summary_1"></span></a>&nbsp;<span data-i18n="point_3_summary_2"></span>&nbsp;<a class="orange-link" href="https://bitcoin.rocks/inflation"><span data-i18n="point_3_summary_3"></span></a>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -203,17 +188,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Decentralized</p>
+                        <p data-i18n="bitcoin_point_4"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Centralized</p>
+                        <p data-i18n="cbdc_point_4"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -221,8 +206,9 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain"><a href="https://voteforbetter.money/learn/bitcoin-is-decentralized" target="_blank" class="orange-link">The Bitcoin Network is decentralized</a> with tens of thousands of independent nodes validating the network. CBDCs are centralized in the hands of the government and central banks, which gives them complete control over the CBDC network.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_4_summary_1"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -236,17 +222,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Users can run nodes</p>
+                        <p data-i18n="bitcoin_point_5"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Users can't run nodes</p>
+                        <p data-i18n="cbdc_point_5"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -254,8 +240,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin allows anyone to run a node that verifies the rules of the network are being followed. CBDCs don't allow anyone to run nodes and rely on trust in the government and central banks.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_5_summary_1"></span>&nbsp;<a href="https://voteforbetter.money/learn/bitcoin-is-decentralized" target="_blank" class="orange-link"><span data-i18n="point_5_summary_2"></span></a>&nbsp;<span data-i18n="point_5_summary_3">
+                        </p>
 
                 </div><!--text-box-->
 
@@ -269,17 +257,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Can't be frozen</p>
+                        <p data-i18n="bitcoin_point_6"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Easily frozen</p>
+                        <p data-i18n="cbdc_point_6"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -287,8 +275,9 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin is designed to make it impossible for others to freeze your money. CBDCs are designed to make it easy for governments and central banks to freeze your money.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_6_summary_1"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -302,17 +291,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Can be self-custodied</p>
+                        <p data-i18n="bitcoin_point_7"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Must trust custodians</p>
+                        <p data-i18n="cbdc_point_7"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -320,8 +309,9 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin is designed to give users full control over their money. This means you can <a href="https://bitcoin.rocks/wallets" class="orange-link">self-custody your Bitcoin</a> and keep your money in your control. CBDCs require you to trust custodians, like a bank or government, to hold your money for you.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_7_summary_1"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -335,17 +325,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Predictable monetary policy</p>
+                        <p data-i18n="bitcoin_point_8"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Changing monetary policy</p>
+                        <p data-i18n="cbdc_point_8"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -353,8 +343,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin has a predictable monetary policy that is fixed in code and can't be changed. CBDCs, like our currencies today, have a monetary policy that can easily be changed. This results in <a class="orange-link" href="https://bitcoin.rocks/inflation">inflation</a> when politicians print too much money.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_8_summary_1"></span>&nbsp;<a href="https://bitcoin.rocks/wallets" class="orange-link"><span data-i18n="point_8_summary_2"></span></a>&nbsp;<span data-i18n="point_8_summary_3"></span>&nbsp;<span data-i18n="point_8_summary_4"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -368,17 +360,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Secure</p>
+                        <p data-i18n="bitcoin_point_9"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="cbdc">CBDC</span></h6>
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
 
-                        <p>Insecure</p>
+                        <p data-i18n="cbdc_point_9"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -386,8 +378,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin is the most secure computing network that has ever existed and has never been hacked. CBDCs rely on governments and banks to secure the network, which have been hacked countless times throughout history.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_9_summary_1"></span>&nbsp;<a class="orange-link" href="https://bitcoin.rocks/inflation"><span data-i18n="point_9_summary_2"></span></a>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -395,89 +389,109 @@
         </div><!--/vs-container-->
 
 
-            <div class="break-micro"></div>
+            <div class="break-mini"></div>
 
 
+        <div class="vs-container">
+                <div class="small-box">
+                    <div class="container-inner">
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
+
+                        <p data-i18n="bitcoin_point_10"></p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="small-box small2">
+                    <div class="container-inner">
+                        <h6><span class="cbdc" data-i18n="cbdc"></span></h6>
+
+                        <p data-i18n="cbdc_point_10"></p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+                <div class="cbdc-box">
+
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_10_summary_1"></span>
+                        </p>
+
+                </div><!--text-box-->
+
+        </div><!--/vs-container-->
+
+        <div class="break-micro"></div>
 
 
 <!-- GET STARTED -->
 
 
-            <div class="break"></div>
+        <div class="break-micro"></div>
 
-                <a href="https://bitcoin.rocks/">
+                <a href="https://mailchi.mp/b4a28e31041a/qd6tc53wb4" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
+                          <h3 id="get-started" data-i18n="cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="cta_section_with_bitcoin"></h3>
 
                             <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="cta_section_title_1"></h4>
+                                <div class="type" data-i18n="cta_link_type_email"></div>
+                                <div class="author" data-i18n="cta_author_21_days_of_bitcoin"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
 
                 <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box middle">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Get your first Bitcoin Wallet</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="cta_section_title_2"></h4>
+                                <div class="type" data-i18n="cta_link_type_guide"></div>
+                                <div class="author" data-i18n="cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-
-                <a href="https://river.com/" target="_blank">
+                <a href="https://strike.me" target="_blank">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">River.com</div>
+                                <h4 data-i18n="cta_section_title_3"></h4>
+                                <div class="type" data-i18n="cta_link_type_website"></div>
+                                <div class="author" data-i18n="cta_author_strike"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-
-
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>

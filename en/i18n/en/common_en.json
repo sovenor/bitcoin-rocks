@@ -6,5 +6,19 @@
 		"last-updated": "2024-04-07",
 		"locale": "en"
 	},
-	"common_reference": "common translations go here"
+	"footer_follow_first_half": "Follow us on Nostr by searching",
+	"footer_follow_second_half": "in any Nostr client.",
+	"footer_what_is_nostr": "What is Nostr?",
+	"footer_email_us": "Email us:",
+	"cta_section_get_started": "GET STARTED",
+	"cta_section_with_bitcoin": "WITH BITCOIN",
+	"cta_section_title_1": "Learn the basics of Bitcoin",
+	"cta_section_title_2": "Get your first Bitcoin Wallet",
+	"cta_section_title_3": "Start Saving in Bitcoin Today",
+	"cta_link_type_email": "EMAIL",
+	"cta_link_type_guide": "GUIDE",
+	"cta_link_type_website": "WEBSITE",
+	"cta_author_21_days_of_bitcoin": "21 Days of Bitcoin",
+	"cta_author_bitcoin_rocks": "bitcoin.rocks",
+	"cta_author_strike": "Strike"
 }
