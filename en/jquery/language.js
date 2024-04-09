@@ -1,26 +1,48 @@
 $(function() {
   'use strict';
+
   // Initialize i18n
   var i18n = $.i18n();
+
   // Get selected language from localStorage or default to English
   var lang = localStorage.getItem('selectedLanguage') || 'en';
 
+  // Set locale
   i18n.locale = lang;
-  i18n.load( 'i18n/' + i18n.locale + '.json', i18n.locale ).done(
-    function () {
-      $('[data-i18n]').each(function () {
-        var $this = $(this);
-        var key = $this.data('i18n');
-        $this.text($.i18n(key));
+
+  // Function to load translations
+  function loadTranslations(currentPage) {
+    // Load common translations
+    i18n.load('i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
+      // Load page-specific translations based on the current page
+      i18n.load('i18n/' + i18n.locale + '/' + currentPage + '_' + i18n.locale + '.json', i18n.locale).done(function() {
+        // Apply translations to elements with data-i18n attribute
+        $('[data-i18n]').each(function() {
+          var $this = $(this);
+          var key = $this.data('i18n');
+          $this.text($.i18n(key));
+        });
       });
-    }
-  );
+    });
+  }
+
+  // Get the current page dynamically from the URL
+  var currentPage = window.location.pathname.split('/').pop().replace('.html', '');
+
+  // If the current page is the homepage, set currentPage to 'index'
+  if (currentPage === '') {
+    currentPage = 'index';
+  }
+
+  // Load translations
+  loadTranslations(currentPage);
 
   // Language switcher
   var languages = [
     { code: 'en', name: 'English' },
-    { code: 'fr', name: 'French' },
+    { code: 'fr', name: 'French' }
   ];
+
   // Create select element
   const el = document.createElement('select');
   el.id = 'language-switcher';
@@ -37,6 +59,7 @@ $(function() {
     }
     languageSwitcher.appendChild(option);
   });
+
   // Add event listener to handle language change
   languageSwitcher.addEventListener('change', function() {
     localStorage.setItem('selectedLanguage', this.value);
