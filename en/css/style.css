@@ -41,11 +41,14 @@ h3{
     color: #ffffff;
     font-size: 40px;
     line-height: 35px;
-    margin-top: -55px;
+    text-transform: uppercase;
+/**    margin-top: -55px; **/
 
-    /** filter: drop-shadow(1px 1px 1px #686666); **/
 }
 
+h3.second-line{
+    margin-top: -40px !important;
+}
 
 
 @media (max-width: 400px){
@@ -53,6 +56,10 @@ h3{
         font-size: 30px;
         line-height: 25px;
         margin-top: -38px;
+    }
+
+    h3.second-line{
+      margin-top: -30px !important;
     }
 
     .h2-inflation{
@@ -163,15 +170,16 @@ h4{
 
 .intro{
     border-bottom: 1px solid #3f3f3f;
+    padding-bottom: 25px;
 }
 
-        .intro p, .home-intro p{
+        .intro p, .home-intro p, li{
             font-family: "proxima-nova", sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 20px;
-            padding-top: 30px;
-            padding-bottom: 25px;
+            padding-top: 0px;
+            padding-bottom: 0px;
             line-height: 25px;
             color: #ffffff;
         }
@@ -314,7 +322,7 @@ a.footer-link{
 
 
 
-span.human-rights, .jump-human-rights{
+span.human-rights, .jump-human-rights, .human-rights{
     color: #FF9500 !important;
 }
 
@@ -323,7 +331,7 @@ span.human-rights, .jump-human-rights{
         color: #ffffff !important;
     }
 
-span.energy, .jump-energy{
+span.energy, .jump-energy, .energy{
     color: #1DFF4D !important;
 }
 
@@ -332,7 +340,7 @@ span.energy, .jump-energy{
         color: #ffffff !important;
     }
 
-span.food, .jump-food{
+span.food, .jump-food, .food{
     color: #FF571D !important;
 }
 
@@ -341,7 +349,7 @@ span.food, .jump-food{
         color: #ffffff !important;
     }
 
-span.ln, .jump-ln{
+span.ln, .jump-ln, .ln{
     color: #FFE91D !important;
 }
 
@@ -350,7 +358,7 @@ span.ln, .jump-ln{
         color: #ffffff !important;
     }
 
-span.money, .jump-money{
+span.money, .jump-money, .money{
     color: #19BC38 !important;
 }
 
@@ -359,7 +367,7 @@ span.money, .jump-money{
         color: #ffffff !important;
     }
 
-span.salary, .jump-salary{
+span.salary, .jump-salary, .salary{
     color: #2274A5 !important;
 }
 
@@ -368,7 +376,7 @@ span.salary, .jump-salary{
         color: #ffffff !important;
     }
 
-span.art, .jump-art{
+span.art, .jump-art, .art{
     color: #1F1FFF !important;
 }
 
@@ -377,7 +385,7 @@ span.art, .jump-art{
         color: #ffffff !important;
     }
 
-span.politics, .jump-politics{
+span.politics, .jump-politics, .politics{
     color: #9500FF !important;
 }
 
@@ -386,7 +394,7 @@ span.politics, .jump-politics{
         color: #ffffff !important;
     }
 
-span.war, .jump-war{
+span.war, .jump-war, .war{
     color: #ED1C24 !important;
 }
 
@@ -395,7 +403,7 @@ span.war, .jump-war{
         color: #ffffff !important;
     }
 
-span.coding, .jump-coding{
+span.coding, .jump-coding, .coding{
     color: #89FC00 !important;
 }
 
@@ -404,7 +412,7 @@ span.coding, .jump-coding{
         color: #ffffff !important;
     }
 
-    span.ai, .jump-ai{
+    span.ai, .jump-ai, .ai{
         color: #649df9 !important;
     }
 
@@ -413,7 +421,7 @@ span.coding, .jump-coding{
             color: #ffffff !important;
         }
 
-span.self-custody, .jump-self-custody{
+span.self-custody, .jump-self-custody, .self-custody{
     color: #B3FFFC !important;
 }
 
@@ -422,7 +430,7 @@ span.self-custody, .jump-self-custody{
         color: #ffffff !important;
     }
 
-span.get-started, .jump-get-started{
+span.get-started, .jump-get-started, .get-started{
     color: #FF9500 !important;
 }
 
@@ -439,7 +447,7 @@ span.cash{
     color: #2bc11f;
 }
 
-span.property-rights, .jump-property-rights{
+span.property-rights, .jump-property-rights, .property-rights{
     color: #EB4B98 !important;
 }
 
@@ -448,7 +456,7 @@ span.property-rights, .jump-property-rights{
         color: #ffffff !important;
     }
 
-span.business, .jump-business{
+span.business, .jump-business, .business{
     color: #08B2E3 !important;
 }
 
@@ -457,7 +465,7 @@ span.business, .jump-business{
         color: #ffffff !important;
     }
 
-span.environment, .jump-environment{
+span.environment, .jump-environment, .environment{
     color: #5B7553 !important;
 }
 
@@ -466,7 +474,7 @@ span.environment, .jump-environment{
         color: #ffffff !important;
     }
 
-span.crowdfunding, .jump-crowdfunding{
+span.crowdfunding, .jump-crowdfunding, .crowdfunding{
     color: #D1D646 !important;
 }
 
@@ -475,7 +483,7 @@ span.crowdfunding, .jump-crowdfunding{
         color: #ffffff !important;
     }
 
-span.affordable-housing, .jump-affordable-housing{
+span.affordable-housing, .jump-affordable-housing, .affordable-housing{
     color: #935425 !important;
 }
 
@@ -484,7 +492,7 @@ span.affordable-housing, .jump-affordable-housing{
         color: #ffffff !important;
     }
 
-span.equality, .jump-equality{
+span.equality, .jump-equality, .equality{
     color: #8C5383 !important;
 }
 
@@ -493,16 +501,7 @@ span.equality, .jump-equality{
         color: #ffffff !important;
     }
 
-.jump-get-started{
-    color: #ff9500 !important;
-}
-
-    .jump-get-started:hover{
-        background-color: #ff9500;
-        color: #ffffff !important;
-    }
-
-span.freedom, .jump-freedom{
+span.freedom, .jump-freedom, .freedom{
     color: #96041C !important;
 }
 
@@ -621,6 +620,18 @@ p.sticker-header{
 
 .inflation-box p{
     padding-top: 0px !important;
+}
+
+.force-orange{
+    color: #FF9500 !important;
+}
+
+a.orange-link p, a.orange-link li{
+    color: #FF9500 !important;
+}
+
+.force-gray{
+    color: #7f7e7d !important;
 }
 
 span.inflation{

@@ -17,9 +17,8 @@
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
+        <!-- Source code for i18n translations -->
         <script src="jquery/jquery.min.js"></script>
-
-        <!-- Source -->
         <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
@@ -60,7 +59,7 @@
               var section = document.getElementById(sectionId);
               var rect = section.getBoundingClientRect();
               var sectionPosition = rect.top + window.pageYOffset;
-              var offset = 35; // Fixed offset for both desktop and mobile devices
+              var offset = 80; // Fixed offset for both desktop and mobile devices
               window.scroll({
                 behavior: 'smooth',
                 top: sectionPosition - offset
@@ -115,17 +114,18 @@
 <!-- MONEY -->
 
 
-            <div class="break" style="margin-top:110px;"></div>
+            <div class="break-micro"></div>
 
 
                 <a href="https://bitcoin.rocks/inflation">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="money">BITCOIN IS<br /><span class="money">BETTER MONEY</span></h3>
+                            <h3 id="money" data-i18n="home_section_bitcoin_is"></h3>
+                            <h3 class="second-line money" data-i18n="home_btn_money"></h3>
 
                             <div class="item first">
                                 <h4>Bitcoin Doesn't Have Inflation</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -140,7 +140,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin Doesn't Have Bank Runs</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -155,7 +155,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin vs Gold</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -169,7 +169,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin vs Crypto</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">Hard Money Show</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -177,29 +177,13 @@
                     </div><!--/text-box-->
                 </a>
 
-
-                <!--<a href="https://medium.com/zoidcoin-network/cash-fiat-currency-vs-bitcoin-3eb0dd13a0a4" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h4>Fiat Currency vs. Bitcoin</h4>
-                                <div class="type">ARTICLE</div>
-                                <div class="author">Stefan Balut</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-                <!--</a>-->
-
-
                 <a href="https://bitcoin.rocks/cbdc">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
                                 <h4>Bitcoin vs CBDCs</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -207,34 +191,20 @@
                     </div><!--/text-box-->
                 </a>
 
-
-                <!--<a href="https://www.youtube.com/watch?v=keOEUbHGp6g" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h4>Bitcoin Makes a Better World</h4>
-                                <div class="type">VIDEO</div>
-                                <div class="author">Bitcoin Magazine</div>
-                                <div class="clear"></div>
-                            <!--</div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-                <!--</a>-->
-
 <!-- YOUR SALARY -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoin.rocks/compound-inflation-calculator">
                     <div class="text-box solo">
                         <div class="container-inner">
-                            <h3 id="salary">BITCOIN &amp;<br /><span class="salary">YOUR SALARY</span></h3>
+                          <h3 id="salary" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line salary" data-i18n="home_btn_salary"></h3>
 
                             <div class="item first">
                                 <h4>Find out how much your salary needs to increase to keep up with inflation.</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">Compound Inflation Calculator</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -246,16 +216,17 @@
 <!-- FREEDOM -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://time.com/5486673/bitcoin-venezuela-authoritarian/" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="freedom">BITCOIN &amp;<br /><span class="freedom">FREEDOM</span></h3>
+                          <h3 id="freedom" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line freedom" data-i18n="home_btn_freedom"></h3>
 
                             <div class="item first">
                                 <h4>Why Bitcoin Matters for Freedom</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">TIME Magazine</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -269,7 +240,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin offers freedom from political repression</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Fortune</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -280,16 +251,17 @@
 <!-- HUMAN RIGHTS -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://anitaposch.com/bitcoin-enforces-human-rights" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="human-rights">BITCOIN &amp;<br /><span class="human-rights">HUMAN RIGHTS</span></h3>
+                          <h3 id="human-rights" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line human-rights" data-i18n="home_btn_human_rights"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin Enforces Human Rights</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Anita Posch</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -303,28 +275,13 @@
 
                             <div class="item">
                                 <h4>The Silent Bitcoin Revolution of Africa</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">YouTube</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-                <!--<a href="https://www.youtube.com/watch?v=FjvSqaGhKQI" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h4>How Bitcoin can help bank 87% of the world's population</h4>
-                                <div class="type">VIDEO</div>
-                                <div class="author">Human Rights Foundation</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-                <!--</a>-->
 
                 <a href="https://www.youtube.com/watch?v=xLYYh4aPXAM" target="_blank">
                     <div class="text-box bottom">
@@ -332,7 +289,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin is protecting human rights around the world</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">YouTube</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -341,22 +298,20 @@
                 </a>
 
 
-
-
-
 <!-- EQUALITY -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://www.youtube.com/watch?v=P8vlzaDSNY0" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="equality">BITCOIN &amp;<br /><span class="equality">EQUALITY</span></h3>
+                          <h3 id="equality" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line equality" data-i18n="home_btn_equality"></h3>
 
                             <div class="item first">
                                 <h4>Bitcoin is bringing hope &amp; opportunity to South Africans</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">The Aubservation</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -370,7 +325,7 @@
 
                             <div class="item">
                                 <h4>How Bitcoin can be a game changer for Black Americans</h4>
-                                <div class="type">PODCAST</div>
+                                <div class="type" data-i18n="home_link_type_podcast"></div>
                                 <div class="author">Isaiah Jackson</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -384,16 +339,17 @@
 <!-- PROPERTY RIGHTS -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://www.youtube.com/watch?v=mP0f2s39GDs" target="_blank">
                     <div class="text-box solo">
                         <div class="container-inner">
-                            <h3 id="property-rights">BITCOIN &amp;<br /><span class="property-rights">PROPERTY RIGHTS</span></h3>
+                          <h3 id="property-rights" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line property-rights" data-i18n="home_btn_property_rights"></h3>
 
                             <div class="item first">
                                 <h4>Bitcoin is the Perfect Form of Property</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">The Bitcoin Layer</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -408,16 +364,17 @@
 <!-- AFFORDABLE HOUSING -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://www.youtube.com/watch?v=OU494py-G8Y" target="_blank">
                     <div class="text-box solo">
                         <div class="container-inner">
-                            <h3 id="affordable-housing">BITCOIN &amp;<br /><span class="affordable-housing">HOUSING</span></h3>
+                          <h3 id="affordable-housing" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line affordable-housing" data-i18n="home_btn_housing"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin Will Make Housing Affordable Again</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">YouTube</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -429,16 +386,17 @@
 <!-- BUSINESS -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoin.rocks/business/">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="business">BITCOIN &amp;<br /><span class="business">BUSINESS</span></h3>
+                          <h3 id="business" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line business" data-i18n="home_btn_business"></h3>
 
                             <div class="item first">
                                 <h4>Learn why Bitcoin is good for business</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -446,51 +404,12 @@
                     </div><!--/text-box-->
                 </a>
 
-                <!--<a href="https://bitcoin.rocks/business/wallets" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h4>Get a Bitcoin wallet to accept Bitcoin payments</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                       <!-- </div><!--/container-inner-->
-                   <!-- </div><!--/text-box-->
-               <!-- </a>
-
-                <a href="https://bitcoin.rocks/business/maps">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h4>Get listed on Bitcoin merchant maps</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                     <!--   </div><!--/container-inner-->
-                 <!--   </div><!--/text-box-->
-              <!--  </a>
-
-                <a href="https://bitcoin.rocks/business/stickers">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h4>Free "Bitcoin Accepted Here" stickers</h4>
-                                <div class="type">STICKERS</div>
-                                <div class="author">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                          </div><!--/item-->
-                       <!--   </div><!--/container-inner-->
-                <!--    </div><!--/text-box-->
-          <!--      </a>  -->
-
                 <a href="https://bitcoin.rocks/business/kit">
                     <div class="text-box bottom">
                         <div class="container-inner">
                             <div class="item">
                                 <h4>Get a local business to accept Bitcoin</h4>
-                                <div class="type">BUSINESS KIT</div>
+                                <div class="type" data-i18n="home_link_type_business_kit"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -502,16 +421,17 @@
 <!-- CROWDFUNDING -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://qz.com/africa/1922466/how-bitcoin-powered-nigerias-endsars-protests" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                                <h3 id="crowdfunding">BITCOIN &amp;<br /><span class="crowdfunding">CROWDFUNDING</span></h3>
+                          <h3 id="crowdfunding" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line crowdfunding" data-i18n="home_btn_crowdfunding"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin powered the largest Nigerian protests in a generation</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Quartz</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -525,7 +445,7 @@
 
                             <div class="item">
                                 <h4>Canadian Trucker Protest raises money in Bitcoin after GoFundMe blocks donations</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Yahoo Finance</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -539,7 +459,7 @@
 
                             <div class="item">
                                 <h4>Play a part in world-changing ideas using Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">Geyser</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -551,16 +471,17 @@
 <!-- ENERGY -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoin.rocks/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html">
                     <div class="text-box top">
                         <div class="container-inner">
-                                <h3 id="energy">BITCOIN &amp;<br /><span class="energy">ENERGY</span></h3>
+                          <h3 id="energy" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line energy" data-i18n="home_btn_energy"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin stabilizes the Texas Power Grid</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">YouTube</div>
                                 <div class="clear"></div>
 
@@ -576,7 +497,7 @@
 
                             <div class="item">
                                 <h4>Why does Bitcoin use energy?</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">BitcoinUses.Energy</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -591,7 +512,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin's energy usage isn't a problem. Here's why.</h4>
-                                <div class="type">DATA</div>
+                                <div class="type" data-i18n="home_link_type_data"></div>
                                 <div class="author">Lyn Alden</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -605,7 +526,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin mining is helping stabilize energy grids through Demand Response</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Forbes</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -619,7 +540,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin miners are bringing hydro power to rural African communities</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">CoinDesk</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -628,21 +549,20 @@
                 </a>
 
 
-
-
 <!-- ENVIRONMENT -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                                <h3 id="environment">BITCOIN &amp;<br /><span class="environment">THE ENVIRONMENT</span></h3>
+                          <h3 id="environment" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line environment" data-i18n="home_btn_environment"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin mining is reducing global methane emissions</h4>
-                                <div class="type">RESEARCH</div>
+                                <div class="type" data-i18n="home_link_type_research"></div>
                                 <div class="author">Daniel Batten</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -656,7 +576,7 @@
 
                             <div class="item">
                                 <h4>How Bitcoin mining saved a National Park</h4>
-                                <div class="type">STORY</div>
+                                <div class="type" data-i18n="home_link_type_story"></div>
                                 <div class="author">MIT Technology Review</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -670,7 +590,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin is the greenest industry on Earth!</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">BitcoinIs.Green</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -684,7 +604,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin mining is preventing flared natural gas from polluting the atmosphere</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Texas A&amp;M University</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -693,22 +613,20 @@
                 </a>
 
 
-
-
-
 <!-- THE FOOD SUPPLY -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://saifedean.com/fiatfood/" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="food">BITCOIN &amp;<br /><span class="food">THE FOOD SUPPLY</span></h3>
+                          <h3 id="food" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line food" data-i18n="home_btn_food"></h3>
 
                             <div class="item first">
                                 <h4>How Fiat Money is bad for Food, Farms, and Earth's Soil</h4>
-                                <div class="type">BOOK EXCERPT</div>
+                                <div class="type" data-i18n="home_link_type_book_excerpt"></div>
                                 <div class="author">Saifedean Ammous</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -722,7 +640,7 @@
 
                             <div class="item">
                                 <h4>How Inflation Affects Food Prices</h4>
-                                <div class="type">VIDEO</div>
+                                <div class="type" data-i18n="home_link_type_video"></div>
                                 <div class="author">YouTube</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -737,16 +655,17 @@
 <!-- ARTISTS -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoin.rocks/stickers">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="art">BITCOIN &amp;<br /><span class="art">ART</span></h3>
+                          <h3 id="art" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line art" data-i18n="home_btn_art"></h3>
 
                             <div class="item first">
                                 <h4>Join our Bitcoin Sticker Initiative</h4>
-                                <div class="type">STREET ART</div>
+                                <div class="type" data-i18n="home_link_type_street_art"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -760,7 +679,7 @@
 
                             <div class="item">
                                 <h4>Send a Bitcoin Postcard to someone you know</h4>
-                                <div class="type">OUTREACH</div>
+                                <div class="type" data-i18n="home_link_type_outreach"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -772,16 +691,17 @@
 <!-- POLITICS -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoinmagazine.com/culture/bitcoins-existence-is-a-political-paradox" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="politics">BITCOIN &amp;<br /><span class="politics">POLITICS</span></h3>
+                          <h3 id="politics" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line politics" data-i18n="home_btn_politics"></h3>
 
                             <div class="item first">
                                 <h4>Bitcoin is a Political Paradox</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Andrew Keir</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -795,7 +715,7 @@
 
                             <div class="item">
                                 <h4>You can Vote For Better Money</h4>
-                                <div class="type">CAMPAIGN</div>
+                                <div class="type" data-i18n="home_link_type_campaign"></div>
                                 <div class="author">voteforbetter.money</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -807,16 +727,17 @@
 <!-- WAR -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://medium.com/@MishaGuttentag/how-bitcoin-could-end-endless-war-and-other-big-ideas-from-the-bitcoin-standard-9ec3626fd962" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="war">BITCOIN &amp;<br /><span class="war">WAR</span></h3>
+                          <h3 id="war" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line war" data-i18n="home_btn_war"></h3>
 
                             <div class="item first">
                                 <h4>How Bitcoin could end Endless War</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Misha Guttentag</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -831,7 +752,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin &amp; Veterans: A Natural Alignment</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Wes Lippman</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -845,7 +766,7 @@
 
                             <div class="item">
                                 <h4>How Bitcoin Helps Civilians Escape the War in Sudan</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Forbes</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -854,22 +775,20 @@
                 </a>
 
 
-
-
-
 <!-- CODING -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://trybitcoin.satsie.dev/" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="coding">BITCOIN &amp;<br /><span class="coding">CODING</span></h3>
+                          <h3 id="coding" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line coding" data-i18n="home_btn_coding"></h3>
 
                             <div class="item first">
                                 <h4>An Interactive Tutorial about Bitcoin's Technical Side</h4>
-                                <div class="type">SOFTWARE</div>
+                                <div class="type" data-i18n="home_link_type_software"></div>
                                 <div class="author">Satsie</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -883,7 +802,7 @@
 
                             <div class="item">
                                 <h4>bitcoinSwitch: retrofit any device to accept Bitcoin</h4>
-                                <div class="type">HARDWARE</div>
+                                <div class="type" data-i18n="home_link_type_hardware"></div>
                                 <div class="author">MakerBits</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -892,21 +811,20 @@
                 </a>
 
 
-
-
 <!-- THE LIGHTNING NETWORK -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://www.swanbitcoin.com/a-look-at-the-lightning-network/" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="ln">BITCOIN &AMP;<br /><span class="ln">PAYMENTS</span></h3>
+                          <h3 id="ln" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line ln" data-i18n="home_btn_ln"></h3>
 
                             <div class="item first">
                                 <h4>A Look at the Lightning Network (Instant Bitcoin Payments)</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Lyn Alden</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -920,7 +838,7 @@
 
                             <div class="item">
                                 <h4>How Bitcoin &amp; The Lightning Network enable Podcasting 2.0</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Kevin Rooke</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -934,7 +852,7 @@
 
                             <div class="item">
                                 <h4>El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Morgan Chittum, Blockworks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -948,7 +866,7 @@
 
                             <div class="item">
                                 <h4>Bitcoin Layer 2: the Lightning Network</h4>
-                                <div class="type">RESEARCH</div>
+                                <div class="type" data-i18n="home_link_type_research"></div>
                                 <div class="author">MIT Media Lab</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -962,7 +880,7 @@
 
                             <div class="item">
                                 <h4>Get Your Lightning Address to receive instant Bitcoin payments</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">LightningAddress.com</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -971,49 +889,20 @@
                 </a>
 
 
-                <!--<a href="https://satsback.com/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h4>Earn free bitcoin when you shop</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Satsback.com</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-                <!--</a>-->
-
-
-                <!--<a href="https://www.youtube.com/shorts/9NXRUlavAUs" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h4>Bitcoin Lightning Network vs MasterCard (real world payment test)</h4>
-                                <div class="type">VIDEO</div>
-                                <div class="author">YouTube Shorts</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-                <!--</a>-->
-
-
 <!-- SELF-CUSTODY -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="self-custody">BITCOIN &amp;<br /><span class="self-custody">SELF-CUSTODY</span></h3>
+                          <h3 id="self-custody" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line self-custody" data-i18n="home_btn_self_custody"></h3>
 
                             <div class="item first">
                                 <h4>How to Safely Store Your Bitcoin</h4>
-                                <div class="type">GUIDE</div>
+                                <div class="type" data-i18n="home_link_type_guide"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -1028,7 +917,7 @@
 
                             <div class="item">
                                 <h4>6 Reasons to Withdraw Your Bitcoin from Exchanges</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Arman The Parman</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -1043,7 +932,7 @@
 
                             <div class="item">
                                 <h4>Gold, Bitcoin, and Self-Custody</h4>
-                                <div class="type">ARTICLE</div>
+                                <div class="type" data-i18n="home_link_type_article"></div>
                                 <div class="author">Lyn Alden</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -1055,16 +944,17 @@
 <!-- GET STARTED -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
                 <a href="https://mailchi.mp/b4a28e31041a/qd6tc53wb4" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3 id="get-started">BITCOIN &amp;<br /><span class="get-started">YOU (YES, YOU!)</span></h3>
+                          <h3 id="get-started" data-i18n="home_section_bitcoin_and"></h3>
+                          <h3 class="second-line get-started" data-i18n="home_btn_you"></h3>
 
                             <div class="item first">
                                 <h4>Learn the basics of Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">21 Days of Bitcoin</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -1078,7 +968,7 @@
 
                             <div class="item">
                                 <h4>Get your first Bitcoin Wallet</h4>
-                                <div class="type">GUIDE</div>
+                                <div class="type" data-i18n="home_link_type_guide"></div>
                                 <div class="author">bitcoin.rocks</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
@@ -1092,18 +982,13 @@
 
                             <div class="item">
                                 <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
+                                <div class="type" data-i18n="home_link_type_website"></div>
                                 <div class="author">River.com</div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-
-
-
 
 <!-- FOOTER -->
 
@@ -1123,12 +1008,6 @@
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>

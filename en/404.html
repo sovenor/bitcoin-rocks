@@ -6,10 +6,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>404 Error | Page Not Found</title>
+        <title data-i18n="404_title"></title>
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -34,31 +44,25 @@
         <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
 
         <!--Main stylesheet + typekit for fonts-->
-        <link rel="stylesheet" href="../css/style.css?5">
+        <link rel="stylesheet" href="css/style.css?5">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
 
     </head>
     <body>
 
-
         <div class="container-main">
 
             <div class="container-inner">
-                <a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="rocks-logo"/></a>
+                <a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="rocks-logo"/></a>
             </div><!--/container-inner-->
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
+            
             <div class="container-inner">
-                <h2 class="h2-inflation">BUT THIS BROKEN PAGE DOES NOT ROCK<br /><br /><a href="https://bitcoin.rocks/" class="orange-link">GO BACK HOME</a></h2>
+                <h2 class="h2-inflation" data-i18n="404_message"></h2>
 
-
+                <a href="https://bitcoin.rocks/" class="orange-link"><h2 class="h2-inflation force-orange" data-i18n="404_home"></h2></a>
             </div><!--/container-inner-->
-
 
         </div><!--/container-main-->
-
-
-
 
     </body>
 </html>
