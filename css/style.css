@@ -625,6 +625,10 @@ p.sticker-header{
     color: #FF9500 !important;
 }
 
+.force-gold{
+    color: #FFE91D !important;
+}
+
 a.orange-link p, a.orange-link li{
     color: #FF9500 !important;
 }
@@ -668,7 +672,7 @@ img.inline{
     font-style: normal;
     font-size: 20px;
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 input.compound{
@@ -699,6 +703,7 @@ label.compound-label{
     font-style: normal;
     font-size: 20px;
     margin-bottom: 10px !important;
+    text-transform: capitalize;
 }
 
 .compount-form input{

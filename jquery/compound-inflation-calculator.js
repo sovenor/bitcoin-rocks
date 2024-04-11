@@ -1,21 +1,40 @@
-function calculateInflation(){
-  // Get user inputs
-  var currentSalary = document.getElementById('currentSalary').value;
-  var inflationRate = document.getElementById('inflationRate').value;
-  var years = document.getElementById('years').value;
-  
-  // Validate user inputs
-  if(currentSalary == '' || inflationRate == '' || years == ''){
-     document.getElementById('result').innerHTML = "Error: Please fill in all 3 form fields.";
-  } else {
-    // Calculate inflation
-    var totalInflation = Math.pow((1 + (inflationRate/100)), years);
-    var dollarSalary = (currentSalary * 1).toLocaleString("en-US", {style: "currency", currency: "USD"});
-    var newSalary = (currentSalary * totalInflation).toLocaleString("en-US", {style: "currency", currency: "USD"});
-  
-    // Display result
-    var yearText = (years == 1) ? "year" : "years";
-    document.getElementById('result').innerHTML = "With an inflation rate of " + inflationRate + "%, your " + dollarSalary + " salary needs to increase to " + newSalary + " in " + years + " " + yearText + " to maintain your purchasing power.";
-  }
-    
+// Function to set calculate button value with translation string using jquery.i18n
+function setButtonValue() {
+    $('#calculateButton').val($.i18n('calculate_button_text'));
 }
+
+// Function to calculate inflation
+function calculateInflation() {
+    // Get user inputs
+    var currentSalary = document.getElementById('currentSalary').value;
+    var inflationRate = document.getElementById('inflationRate').value;
+    var years = document.getElementById('years').value;
+
+    // Validate user inputs
+    if (currentSalary == '' || inflationRate == '' || years == '') {
+        document.getElementById('result').innerHTML = $.i18n('error_message');
+    } else {
+        // Calculate inflation
+        var totalInflation = Math.pow((1 + (inflationRate / 100)), years);
+        var dollarSalary = (currentSalary * 1).toLocaleString("en-US", { style: "currency", currency: "USD" });
+        var newSalary = (currentSalary * totalInflation).toLocaleString("en-US", { style: "currency", currency: "USD" });
+
+        // Display result
+        var yearText = (years == 1) ? $.i18n('year') : $.i18n('years');
+        document.getElementById('result').innerHTML = $.i18n('result_message_1') + "&nbsp;" + inflationRate + "%, your " + dollarSalary + "&nbsp;" + $.i18n('result_message_3') + "&nbsp;" + newSalary + " in " + years + " " + yearText + "&nbsp;" + $.i18n('result_message_4');
+    }
+}
+
+// Wait for jQuery.i18n and translation file to be loaded before setting calculate button value
+$(document).ready(function() {
+    // Load translation file
+    $.i18n().load({
+        'en': 'i18n/en/compound-inflation-calculator_en.json'
+    }).done(function() {
+        // Initialize jQuery.i18n
+        $.i18n().locale = 'en';
+
+        // Set button value after translation is loaded
+        setButtonValue();
+    });
+});

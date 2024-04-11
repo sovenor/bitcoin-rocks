@@ -9,6 +9,11 @@
         <title>Bitcoin vs Gold | Bitcoin rocks!</title>
         <meta name="description" content="Gold has been used as money for thousands of years. But how does it differ from digital money like Bitcoin? Let's take a look at the difference between two forms of money: Bitcoin & Gold.">
 
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks">
+        <!-- Hreflang tags for French -->
+        <link rel="alternate" hreflang="fr" href="https://bitcoin.rocks">
+
         <!--Meta image for sharing-->
         <meta property="og:title" content="Bitcoin vs Gold | Bitcoin Rocks" />
         <meta property="og:type" content="article" />
@@ -17,6 +22,16 @@
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -49,40 +64,38 @@
 
 
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation">THE DIFFERENCE BETWEEN <span class="inflation">BITCOIN</span> AND <span class="gold">GOLD</span></h2>
+                <h2 class="h2-inflation"><span data-i18n="gold_header"></span>&nbsp;<span class="force-orange" data-i18n="gold_header_2"></span><br /><span data-i18n="gold_header_3"></span>&nbsp;<span class="force-gold" data-i18n="gold_header_4"></span></h2>
             </div><!--/container-inner-->
 
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
-
-
-                        <p style="margin-top: 50px;">Gold has been used as money for thousands of years and is seen by many as a financial safe haven.<br /><br />Bitcoin is a digital money created in 2009 and is also seen by many as a financial safe haven.<br /><br />But how does a physical metal like gold differ from a digital money like Bitcoin? Let's take a look at the differences between two forms of money: Bitcoin &amp; Gold.</p>
+                        <div class="break-no-title"></div>
+                        <p data-i18n="gold_intro_1"></p>
+                        <p data-i18n="gold_intro_2"></p>
+                        <p data-i18n="gold_intro_3"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break"></div>
 
-
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Can be sent over the Internet</p>
+                        <p data-i18n="bitcoin_point_1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Must be physically sent</p>
+                        <p data-i18n="gold_point_1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -90,32 +103,33 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Because Bitcoin is digital, it can be sent almost instantly for very low fees by anyone with an Internet connection. Becuase Gold is physical, it cannot be moved across the Internet and must be physically shipped to transfer ownership.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_1_summary_1"></span>
+                        </p>
 
                 </div><!--text-box-->
-
 
         </div><!--/vs-container-->
 
 
-             <div class="break-mini"></div>
+            <div class="break-mini"></div>
 
 
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Digitally native</p>
+                        <p data-i18n="bitcoin_point_2"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Digital IOUs</p>
+                        <p data-i18n="gold_point_2"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -123,8 +137,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_2_summary_1"></span></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -138,17 +154,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Fixed supply of 21M BTC</p>
+                        <p data-i18n="bitcoin_point_3"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Supply increases every year</p>
+                        <p data-i18n="gold_point_3"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -156,8 +172,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Bitcoin has a hard cap of 21 Million BTC that will ever exist. New gold supply is pulled out of the ground each year, resulting in inflation of the total supply. It's estimated that the total supply of gold increases by about 1.6% per year, which means your slice of the pie shrinks by 1.6% per year. This is less than <a href="https://bitcoin.rocks/inflation" class="gold">fiat inflation</a>, but still inflation. With Bitcoin, your slice of the pie never shrinks.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link"><span data-i18n="point_3_summary_1"></span></a>&nbsp;<span data-i18n="point_3_summary_2"></span><br /><br /><a class="orange-link" href="https://bitcoin.rocks/inflation"><span data-i18n="point_3_summary_3"></span></a>&nbsp;<span data-i18n="point_3_summary_4"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -171,17 +189,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Inelastic</p>
+                        <p data-i18n="bitcoin_point_4"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Elastic</p>
+                        <p data-i18n="gold_point_4"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -189,8 +207,9 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Gold has an elastic supply, meaning that as the price of gold rises, there is a greater incentive to mine more gold. This often puts downward pressure on the gold price as new mines come online. With Bitcoin, no matter how high the price goes, you can't make more than 21M Bitcoin. Bitcoin is the first asset with an inelastic relationship between price and supply.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_4_summary_1"></span>&nbsp;<a class="orange-link" href="https://voteforbetter.money/learn/bitcoin-is-scarce"><span data-i18n="point_4_summary_2"></span></a>&nbsp;<span data-i18n="point_4_summary_3">
+                        </p>
 
                 </div><!--text-box-->
 
@@ -204,17 +223,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Decentralized</p>
+                        <p data-i18n="bitcoin_point_5"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Physically centralized</p>
+                        <p data-i18n="gold_point_5"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -222,8 +241,10 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">The Bitcoin Network is decentralized with tens of thousands of independent nodes validating the network. Users can take self-custody of their Bitcoin by downloading an app. While it is possible to self-custody physical gold, most physical gold is stored in huge vaults owned by custodians which makes it physically centralized.</p>
+                        <!--This section would be more organized but if I add line breaks HTML renders an additional space after each span, which looks quite odd when it ends in a link.-->
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_5_summary_1"></span>&nbsp;<a href="https://voteforbetter.money/learn/bitcoin-is-decentralized" target="_blank" class="orange-link"><span data-i18n="point_5_summary_2"></span></a>&nbsp;<span data-i18n="point_5_summary_3"></span>&nbsp;<span data-i18n="point_5_summary_4"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -237,17 +258,17 @@
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Easy to verify</p>
+                        <p data-i18n="bitcoin_point_6"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Hard to verify</p>
+                        <p data-i18n="gold_point_6"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -255,8 +276,9 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">With Bitcoin, it's incredibly easy to verify that you have real Bitcoin by taking self-custody of your coins and running a full node. Self-custody is as simple as downloading an app. A full node is a simple piece of software that ensures the rules of the network are being followed, and verifies that you have real Bitcoin. Physical gold can be very difficult to verify as authentic. Even if you verify the outer section of physical gold is real, the inside of your physical gold piece could be Tungsten or another metal that is not gold. The only way to truly verify you own the physical gold you think you do is to melt it down.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_6_summary_1"></span>&nbsp;<a class="orange-link" href="https://bitcoin.rocks/wallets"><span data-i18n="point_6_summary_2"></span></a><br /><br /><span data-i18n="point_6_summary_3"></span><br /><br /><span data-i18n="point_6_summary_4"></span>
+                        </p>
 
                 </div><!--text-box-->
 
@@ -264,23 +286,23 @@
         </div><!--/vs-container-->
 
 
-                <div class="break-mini"></div>
+            <div class="break-mini"></div>
 
 
         <div class="vs-container">
                 <div class="small-box">
                     <div class="container-inner">
-                        <h6><span class="bitcoin-orange">BITCOIN</span></h6>
+                        <h6><span class="bitcoin-orange" data-i18n="bitcoin"></span></h6>
 
-                        <p>Easy to divide</p>
+                        <p data-i18n="bitcoin_point_7"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="small-box small2">
                     <div class="container-inner">
-                        <h6><span class="gold">GOLD</span></h6>
+                        <h6><span class="gold" data-i18n="gold"></span></h6>
 
-                        <p>Hard to divide</p>
+                        <p data-i18n="gold_point_7"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -288,99 +310,85 @@
 
                 <div class="cbdc-box">
 
-
-                        <p class="cbdc-explain">Just like there are 100 cents in 1 dollar, there are 100,000,000 sats in 1 Bitcoin. This enables Bitcoin to be used for all scales of purchases, including microtransactions as small as a few cents. Because physical gold is hard to divide, it can't be easily used for purchases, especially small purchases.</p>
+                        <p class="cbdc-explain">
+                          <span data-i18n="point_7_summary_1"></span>
+                        </p>
 
                 </div><!--text-box-->
 
-
         </div><!--/vs-container-->
-
-
-
 
             <div class="break-micro"></div>
-
-
 
 
 <!-- GET STARTED -->
 
 
-            <div class="break"></div>
+        <div class="break-micro"></div>
 
-                <a href="https://bitcoin.rocks/">
+                <a href="https://mailchi.mp/b4a28e31041a/qd6tc53wb4" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
+                          <h3 id="get-started" data-i18n="cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="cta_section_with_bitcoin"></h3>
 
                             <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="cta_section_title_1"></h4>
+                                <div class="type" data-i18n="cta_link_type_email"></div>
+                                <div class="author" data-i18n="cta_author_21_days_of_bitcoin"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
 
                 <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box middle">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Get your first Bitcoin Wallet</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="cta_section_title_2"></h4>
+                                <div class="type" data-i18n="cta_link_type_guide"></div>
+                                <div class="author" data-i18n="cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-
-                <a href="https://river.com/" target="_blank">
+                <a href="https://strike.me" target="_blank">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">River.com</div>
+                                <h4 data-i18n="cta_section_title_3"></h4>
+                                <div class="type" data-i18n="cta_link_type_website"></div>
+                                <div class="author" data-i18n="cta_author_strike"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>
