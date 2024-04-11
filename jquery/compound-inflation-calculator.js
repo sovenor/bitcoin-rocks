@@ -24,17 +24,3 @@ function calculateInflation() {
         document.getElementById('result').innerHTML = $.i18n('result_message_1') + "&nbsp;" + inflationRate + "%, your " + dollarSalary + "&nbsp;" + $.i18n('result_message_3') + "&nbsp;" + newSalary + " in " + years + " " + yearText + "&nbsp;" + $.i18n('result_message_4');
     }
 }
-
-// Wait for jQuery.i18n and translation file to be loaded before setting calculate button value
-$(document).ready(function() {
-    // Load translation file
-    $.i18n().load({
-        'en': 'i18n/en/compound-inflation-calculator_en.json'
-    }).done(function() {
-        // Initialize jQuery.i18n
-        $.i18n().locale = 'en';
-
-        // Set button value after translation is loaded
-        setButtonValue();
-    });
-});

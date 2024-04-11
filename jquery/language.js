@@ -11,7 +11,7 @@ $(function() {
   i18n.locale = lang;
 
   // Function to load translations
-  function loadTranslations(currentPage) {
+  function loadTranslations(currentPage, callback) {
     // Load common translations
     i18n.load('i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
       // Load page-specific translations based on the current page
@@ -22,6 +22,8 @@ $(function() {
           var key = $this.data('i18n');
           $this.text($.i18n(key));
         });
+        //This is necessary for button text to load from translation strings.
+        callback();
       });
     });
   }
@@ -35,7 +37,11 @@ $(function() {
   }
 
   // Load translations
-  loadTranslations(currentPage);
+  loadTranslations(currentPage, function() {
+    // This function will be called once translations are loaded
+    //This is necessary for button text to load from translation strings.
+    setButtonValue();
+});
 
   // Language switcher
   var languages = [
