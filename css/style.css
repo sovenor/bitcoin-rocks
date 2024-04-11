@@ -762,6 +762,7 @@ label.compound-label{
     font-size: 30px;
     line-height: 30px;
     text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     position: relative;
     outline-style: none !important;

@@ -9,6 +9,11 @@
         <title>Get involved and help spread Bitcoin</title>
         <meta name="description" content="">
 
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks">
+        <!-- Hreflang tags for French -->
+        <link rel="alternate" hreflang="fr" href="https://bitcoin.rocks">
+
         <!--Meta image for sharing-->
         <meta property="og:title" content="Get involved and help spread Bitcoin" />
         <meta property="og:type" content="article" />
@@ -17,6 +22,16 @@
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -49,22 +64,21 @@
 
 
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-gray.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation"><span class="inflation">GET INVOLVED</span><br />SPREAD BITCOIN</h2>
+                <h2 class="h2-inflation"><span class="inflation" data-i18n="get_involved_header"></span><br /><span data-i18n="get_involved_header_2"></span></h2>
             </div><!--/container-inner-->
 
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
-
-
-                        <p style="margin-top: 50px;">It can be depressing to live in the current state of our world.<br /><br />Our money is broken. As a result, fundamental pieces of society are broken too.<br /><br />
-                        If you're already into Bitcoin, you know the feeling of hope that Bitcoin can bring. Hope for a brighter future made possible by better money. <br /><br /> But so many people around you don't know about Bitcoin. They're living in the same broken world as you, but without a beacon of hope to help them through the darkness.<br /><br />
-                        But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.</p>
+                        <div class="break-no-title"></div>
+                        <p data-i18n="get_involved_intro_1"></p>
+                        <p data-i18n="get_involved_intro_2"></p>
+                        <p data-i18n="get_involved_intro_3"></p>
+                        <p data-i18n="get_involved_intro_4"></p>
+                        <p data-i18n="get_involved_intro_5"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -74,11 +88,14 @@
                     <div class="container-inner">
 
                         <a href="https://bitcoin.rocks/stickers"><img src="img/get-involved/stickers-2.png" class="inline"/></a>
-                        <a href="https://bitcoin.rocks/stickers"><h2 class="get-involved">Put a sticker in public</h2></a>
-                        <p>You can help educate those around you about Bitcoin without having to interact with anyone. Simply put one of our free Bitcoin stickers in public.<br /><br />Hundreds of people scan the QR codes on these stickers each month. The inflation stickers link to a page about <a href="https://bitcoin.rocks/inflation" class="orange-link">Bitcoin as a solution to inflation.</a> The other stickers link to our educational home page that shows people how <a href="https://bitcoin.rocks" class="orange-link">Bitcoin is building a better world.</a>
-                        <br /><br />By putting these stickers up in your community in places people will see them, you can help those around you take their first steps down the Bitcoin rabbit hole.</p>
+                        <a href="https://bitcoin.rocks/stickers"><h2 class="get-involved" data-i18n="get_involved_sticker_header"></h2></a>
+                        <p data-i18n="get_involved_sticker_content_1"></p>
+                        <p><span data-i18n="get_involved_sticker_content_2"></span>
+                        <a href="https://bitcoin.rocks/inflation" class="orange-link"><span data-i18n="get_involved_sticker_content_3"></span></p></a>
+                        <p><span data-i18n="get_involved_sticker_content_4"></span>&nbsp;<a href="https://bitcoin.rocks" class="orange-link"><span data-i18n="get_involved_sticker_content_5"></span></a>
+                        <p data-i18n="get_involved_sticker_content_6"></p>
 
-                        <a href="https://bitcoin.rocks/stickers"><div class="get-involved-button">REQUEST A<br />STICKER PACK</div></a>
+                        <a href="https://bitcoin.rocks/stickers"><div class="get-involved-button"><span data-i18n="get_involved_request_a"></span><br /><span data-i18n="get_involved_sticker_pack"></span></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -89,10 +106,12 @@
                     <div class="container-inner">
 
                         <a href="https://bitcoin.rocks/postcards"><img src="img/get-involved/postcards.png" class="inline"/></a>
-                        <a href="https://bitcoin.rocks/postcards"><h2 class="get-involved">Send a postcard</h2></a>
-                        <p>You can help spread the Hope of Bitcoin to someone you know by sending them one of our free postcards.<br /><br />The back of each postcard contains a compelling blurb about Bitcoin along with a QR code to learn more.<br /><br />By sending someone a Bitcoin postcard, you can help them see Bitcoin in a new way.</p>
+                        <a href="https://bitcoin.rocks/postcards"><h2 class="get-involved" data-i18n="get_involved_postcard_header"></h2></a>
+                        <p data-i18n="get_involved_postcard_content_1"></p>
+                        <p data-i18n="get_involved_postcard_content_2"></p>
+                        <p data-i18n="get_involved_postcard_content_3"></p>
 
-                        <a href="https://bitcoin.rocks/postcards"><div class="get-involved-button">REQUEST A<br />POSTCARD PACK</div></a>
+                        <a href="https://bitcoin.rocks/postcards"><div class="get-involved-button"><span data-i18n="get_involved_request_a"></span><br /><span data-i18n="get_involved_postcard_pack"></span></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -103,44 +122,34 @@
                     <div class="container-inner">
 
                         <a href="https://bitcoin.rocks/business/kit"><img src="img/get-involved/bbk.png" class="inline"/></a>
-                        <a href="https://bitcoin.rocks/business/kit"><h2 class="get-involved">Onboard a business</h2></a>
-                        <p>Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.<br /><br />Each business kit includes flyers that highlight the pros of accepting Bitcoin payments. Each flyer links to a variety of <a href="https://bitcoin.rocks/business/guide" class="orange-link">free Bitcoin business resources.</a></p>
+                        <a href="https://bitcoin.rocks/business/kit"><h2 class="get-involved" data-i18n="get_involved_business_header"></h2></a>
+                        <p data-i18n="get_involved_business_content_1"></p>
+                        <p><span data-i18n="get_involved_business_content_2"></span>
+                        <a href="https://bitcoin.rocks/business/guide" class="orange-link"><span data-i18n="get_involved_business_content_3"></span></a></p>
 
-                        <a href="https://bitcoin.rocks/business/kit"><div class="get-involved-button">REQUEST A<br />BUSINESS KIT</div></a>
+                        <a href="https://bitcoin.rocks/business/kit"><div class="get-involved-button"><span data-i18n="get_involved_request_a"></span><br /><span data-i18n="get_involved_business_kit"></span></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-
-
-
-
-
-
-
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>

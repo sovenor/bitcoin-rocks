@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"get_involved_header": "GET INVOLVED",
+	"get_involved_header_2": "SPREAD BITCOIN",
+	"get_involved_intro_1": "It can be depressing to live in the current state of our world.",
+	"get_involved_intro_2": "Our money is broken. As a result, fundamental pieces of society are broken too.",
+	"get_involved_intro_3": "If you're already into Bitcoin, you know the feeling of hope that Bitcoin can bring. Hope for a brighter future made possible by better money.",
+	"get_involved_intro_4": "But so many people around you don't know about Bitcoin. They're living in the same broken world as you, but without a beacon of hope to help them through the darkness.",
+	"get_involved_intro_5": "But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+	"get_involved_sticker_header": "Put a sticker in public",
+	"get_involved_sticker_content_1": "You can help educate those around you about Bitcoin without having to interact with anyone. Simply put one of our free Bitcoin stickers in public.",
+	"get_involved_sticker_content_2": "Hundreds of people scan the QR codes on these stickers each month. The inflation stickers link to a page about",
+	"get_involved_sticker_content_3": "Bitcoin as a solution to inflation.",
+	"get_involved_sticker_content_4": "The other stickers link to our educational home page that shows people how",
+	"get_involved_sticker_content_5": "Bitcoin is building a better world.",
+	"get_involved_sticker_content_6": "By putting these stickers up in your community in places people will see them, you can help those around you take their first steps down the Bitcoin rabbit hole.",
+	"get_involved_request_a": "REQUEST A",
+	"get_involved_sticker_pack": "STICKER PACK",
+	"get_involved_postcard_header": "Send a postcard",
+	"get_involved_postcard_content_1": "You can help spread the Hope of Bitcoin to someone you know by sending them one of our free postcards.",
+	"get_involved_postcard_content_2": "The back of each postcard contains a compelling blurb about Bitcoin along with a QR code to learn more.",
+	"get_involved_postcard_content_3": "By sending someone a Bitcoin postcard, you can help them see Bitcoin in a new way.",
+	"get_involved_postcard_pack": "POSTCARD PACK",
+	"get_involved_business_header": "Onboard a business",
+	"get_involved_business_content_1": "Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.",
+	"get_involved_business_content_2": "Each business kit includes flyers that highlight the pros of accepting Bitcoin payments. Each flyer links to a variety of",
+	"get_involved_business_content_3": "free Bitcoin business resources.",
+	"get_involved_business_kit": "BUSINESS KIT"
+}
