@@ -11,7 +11,7 @@ $(function() {
   i18n.locale = lang;
 
   // Function to load translations
-  function loadTranslations(currentPage, callback) {
+  function loadTranslations(currentPage, callback1, callback2) {
     // Load common translations
     i18n.load('i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
       // Load page-specific translations based on the current page
@@ -23,10 +23,13 @@ $(function() {
           $this.text($.i18n(key));
         });
         //This is necessary for button text to load from translation strings.
-        callback();
+        callback1();
+        //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
+        callback2();
       });
     });
   }
+
 
   // Get the current page dynamically from the URL
   var currentPage = window.location.pathname.split('/').pop().replace('.html', '');
@@ -38,10 +41,16 @@ $(function() {
 
   // Load translations
   loadTranslations(currentPage, function() {
+    // First callback function
     // This function will be called once translations are loaded
-    //This is necessary for button text to load from translation strings.
+    //This is necessary for button text on the compound inflation calculator to load on all 15 currency pages from translation strings.
     setButtonValue();
-});
+  }, function() {
+    // Second callback function
+    // This function will be called once translations are loaded
+    //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
+    setDynamicHeader();
+  });
 
   // Language switcher
   var languages = [
