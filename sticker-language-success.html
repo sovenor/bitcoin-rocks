@@ -6,11 +6,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Sticker language requested!</title>
+        <title>Success!</title>
         <meta name="description" content="Sticker language requested!">
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks">
+        <!-- Hreflang tags for French -->
+        <link rel="alternate" hreflang="fr" href="https://bitcoin.rocks">
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -38,10 +53,6 @@
         <link rel="stylesheet" href="css/style.css?35">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
 
-        <!-- Show proper country form based on dropdown selection. -->
-        <script src="jquery/jquery-3.6.1.slim.min.js"></script>
-        <script src="jquery/countryselector.js"></script>
-
     </head>
     <body>
 
@@ -50,98 +61,88 @@
             <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-            <h2 class="h2-stickers"><span class="inflation">SUCCESS!</span></h2>
+            <h2 class="h2-stickers"><span class="inflation" data-i18n="common_success"></span></h2>
 
             <div class="text-box intro">
                 <div class="container-inner">
-                    <p>Thanks for requesting a Bitcoin sticker file in your local language! The file will be available for download on our website in 1 to 2 weeks.
-
-                </p>
+                    <div class="break-no-title"></div>
+                    <p>
+                      <span data-i18n="sticker_language_success_1"></span>
+                      <br /><br />
+                      <span data-i18n="sticker_language_success_2"></span>
+                    </p>
                 </div><!--/container-inner-->
             </div><!--text-box-->
 
 
-            <div class="break"></div>
+<!-- GET STARTED -->
 
 
-            <!-- GET STARTED -->
+            <div class="break-micro"></div>
 
-
-            <div class="break"></div>
-
-                <a href="https://bitcoin.rocks/">
+                <a href="https://bitcoin.rocks" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
+                          <h3 id="get-started" data-i18n="common_cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="common_cta_section_with_bitcoin"></h3>
 
                             <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_1_alt"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
 
                 <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box middle">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Get your first Bitcoin Wallet</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_2"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_guide"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-
-                <a href="https://www.swanbitcoin.com/bitcoinrocks" target="_blank">
+                <a href="https://strike.me" target="_blank">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">SwanBitcoin.com</div>
+                                <h4 data-i18n="common_cta_section_title_3"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_strike"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-
-
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>
