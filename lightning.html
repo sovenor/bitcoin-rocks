@@ -9,6 +9,11 @@
         <title>Bitcoin Lightning Wallet Guide | bitcoin.rocks</title>
         <meta name="description" content="Lightning wallets enable you to send Bitcoin quickly and cheaply while still maintaining your personal sovereignty.">
 
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks">
+        <!-- Hreflang tags for French -->
+        <link rel="alternate" hreflang="fr" href="https://bitcoin.rocks">
+
         <!--Meta image for sharing-->
         <meta property="og:title" content="Lightning Wallet Guide" />
         <meta property="og:type" content="article" />
@@ -17,6 +22,16 @@
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -49,46 +64,34 @@
 
 
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
-
-
-
-
             </div><!--/container-inner-->
-
-
-
-            <div id="USD" class="countries" style="display:block">
-
 
                 <div class="text-box home-intro">
                     <div class="container-inner" id="intro-container">
 
-
-                        <h2 class="h2-inflation" id="changing-header">LIGHTNING<br />WALLET<br />GUIDE</h2>
-
-
+                        <h2 class="h2-inflation" data-i18n="lightning_header"></h2>
 
                     </div><!--/container-inner-->
-
-
                 </div><!--text-box-->
-
-
 
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
-
-
-
-                        <p><br />Lightning enables you to send Bitcoin payments quickly and cheaply without sacrificing the benefits of Bitcoin.<br /><br />
-                            However, not all Lightning wallets are the same. You can determine which wallet is right for you by asking one simple question:
-                           </p>
-                        <p class="wallet-q" style="margin-top: 0px !important;"><span class="orange">IS IT A SELF-CUSTODY WALLET?</span></p>
+                        <div class="break-no-title"></div>
+                        <p>
+                          <span data-i18n="lightning_s1_c1"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s1_c2"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s1_c3"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s1_c4"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s1_c5"></span>
+                        </p>
+                        <p class="wallet-q" data-i18n="lightning_question_1"></p>
 
                     <div class="break-zero"></div>
 
@@ -97,9 +100,15 @@
                     <div class="break-zero"></div>
 
                         <p>
-                            One of the innovations of Bitcoin is the ability to store it without relying on a custodian, like a bank. Self-custody wallets unlock the full power of Bitcoin.
-                            <br /><br />
-                            With a self-custody wallet, you are the only one with the ability to spend or transfer your money. No one can stop you, censor you, or steal from you when you use a self-custody wallet. These are also called non-custodial wallets.
+                          <span data-i18n="lightning_s2_c1"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s2_c2"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s2_c3"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s2_c4"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s2_c5"></span>
                         </p>
 
                     <div class="break-zero"></div>
@@ -110,13 +119,17 @@
 
 
                         <p>
-                            Custodial wallets are wallets where you are not in control of your money.
-                            <br /><br />
-                            These wallets are more similar to the banking system where you must trust a third party to give you access to your money. If your Bitcoin is on an exchange, you are using a custodial wallet.
-                            <br /><br />
-                            Custodial wallets can seem convenient, but the custodian has the technical ability to steal all user funds at any time.
-                            <br /><br />
-                            Not your keys, not your coins!
+                          <span data-i18n="lightning_s3_c1"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s3_c2"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s3_c3"></span>
+                          <br /><br />
+                          <span data-i18n="lightning_s3_c4"></span>
+                        </p>
+                        <p class="wallet-q" data-i18n="lightning_question_2"></p>
+                        <p>
+                          <span data-i18n="lightning_s4_c1"></span>
                         </p>
 
 
@@ -125,34 +138,25 @@
 
                 <div class="break"></div>
 
-                <!--<div class="text-box intro inflation-box">
-                    <div class="container-inner">
-                        <h3 class="wallet-h3">HARDWARE<br />WALLETS</h3>
-
-                        <p>Hardware wallets are like long-term savings accounts: they should be super secure and accessed infrequently.
-                        </p>
-                    </div><!--/container-inner-->
-                <!--</div><!--text-box-->
-
-                <!--<div class="break"></div>-->
-
-
         <div class="vs-container">
                 <div class="wallet-box">
                     <div class="container-inner">
 
                         <center><img src="img/wallets/phoenix.png" class="device"/></center>
-                        <h6>PHOENIX</h6>
+                        <h6 data-i18n="phoenix"></h6>
                         <center>
                             <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-
                         </center>
                         <div class="break-mini"></div>
-                        <p>Great starter wallet
-                            <br />Mobile app
-                            <br />100% free</p>
+                        <p>
+                          <span data-i18n="lightning_features"></span>
+                          <br />
+                          <span data-i18n="lightning_mobile_app"></span>
+                          <br />
+                          <span data-i18n="lightning_free"></span>
+                        </p>
 
-                        <a href="https://phoenix.acinq.co/" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
+                        <a href="https://phoenix.acinq.co/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -160,17 +164,19 @@
                     <div class="container-inner">
 
                         <center><img src="img/wallets/breez.png" class="device"/></center>
-                        <h6>BREEZ</h6>
+                        <h6 data-i18n="breez"></h6>
                         <center>
                             <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-
                         </center>
                         <div class="break-mini"></div>
-                        <p>Great starter wallet
-                            <br />Mobile app
-                            <br />100% free</p>
-
-                        <a href="https://breez.technology/mobile/" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
+                        <p>
+                          <span data-i18n="lightning_merchants"></span>
+                          <br />
+                          <span data-i18n="lightning_mobile_app"></span>
+                          <br />
+                          <span data-i18n="lightning_free"></span>
+                        </p>
+                        <a href="https://breez.technology/mobile/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more"></div></a>
                     </div><!--/container-inner-->
 
 
@@ -188,17 +194,19 @@
                     <div class="container-inner">
 
                         <center><img src="img/wallets/mutiny.png" class="device"/></center>
-                        <h6>MUTINY<br />WALLET</h6>
+                        <h6 data-i18n="mutiny_wallet"></h6>
                         <center>
                             <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-
                         </center>
                         <div class="break-mini"></div>
-                        <p>Great starter wallet
-                            <br />Browser based
-                            <br />100% free</p>
-
-                        <a href="https://mutinywallet.com/" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
+                        <p>
+                          <span data-i18n="lightning_starter"></span>
+                          <br />
+                          <span data-i18n="lightning_browser"></span>
+                          <br />
+                          <span data-i18n="lightning_free"></span>
+                        </p>
+                        <a href="https://mutinywallet.com/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -207,32 +215,23 @@
                     <div class="container-inner">
 
                         <center><img src="img/wallets/wallet-of-satoshi.png" class="device"/></center>
-                        <h6>WALLET OF SATOSHI</h6>
+                        <h6 data-i18n="wallet_of_satoshi"></h6>
                         <center>
                             <img src="img/wallets/alert-not-your-keys-2.png" class="alert"/>
-
                         </center>
                         <div class="break-mini"></div>
-                        <p>Not actual Bitcoin
-                            <br />Don't use this
-                            <br />Don't recommend this
-
-
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
+                        <p>
+                          <span data-i18n="lightning_custodial"></span>
+                          <br />
+                          <span data-i18n="lightning_mobile_app"></span>
+                          <br />
+                          <span data-i18n="lightning_free"></span>
+                        </p>
+                        <a href="https://walletofsatoshi.com/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break"></div>
-
-
-
-        </div><!--/vs-container-->
-
-
-
-
-
-
 
         </div><!--/vs-container-->
 
@@ -240,197 +239,79 @@
 
             <a href="https://bitcoin.rocks/wallets"><div class="text-box intro inflation-box looking-box">
                 <div class="container-inner">
-                    <p class="looking">Looking for our Bitcoin Hardware Wallet Guide?</p>
+                    <p class="looking" data-i18n="lightning_cta_hardware"></p>
                 </div><!--/container-inner-->
             </div><!--/text-box--></a>
-                <!--
-                <div class="break-wallet"></div>
-
-         <div class="vs-container">
-                <div class="wallet-box">
-                    <div class="container-inner">
-
-                        <center><img src="img/wallets/trezor-model-t.png" class="device"/></center>
-                        <h6>TREZOR<br />MODEL T</h6>
-                        <center>
-                            <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-                            <div class="break-zero"></div>
-                            <img src="img/wallets/alert-cold-2.png" class="alert"/>
-                        </center>
-                        <div class="break-mini"></div>
-                        <p>Touchscreen
-                            <br />Supports shitcoins
-                            <br />Simple design
-                            <br />Costs $219</p>
-
-                        <a href="https://trezor.io/trezor-model-t" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
-                    </div><!--/container-inner-->
-
-                <!--</div><!--text-box-->
-
-               <!-- <div class="wallet-box wallet2">
-                    <div class="container-inner">
-
-                        <center><img src="img/wallets/trezor-model-one.png" class="device"/></center>
-                        <h6>TREZOR<br />MODEL ONE</h6>
-                        <center>
-                            <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-                            <div class="break-zero"></div>
-                            <img src="img/wallets/alert-cold-2.png" class="alert"/>
-                        </center>
-                        <div class="break-mini"></div>
-                        <p>Ultra affordable
-                            <br />Supports shitcoins
-                            <br />Simple design
-                            <br />Costs $69</p>
-
-                        <a href="https://trezor.io/trezor-model-one" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
-                    </div><!--/container-inner-->
-
-               <!-- </div><!--text-box-->
-
-              <!--  <div class="break"></div>
-
-
-
-        </div><!--/vs-container-->
-
-              <!--  <div class="break-wallet"></div>
-
-         <div class="vs-container">
-                <div class="wallet-box">
-                    <div class="container-inner">
-
-                        <center><img src="img/wallets/ledger.png" class="device"/></center>
-                        <h6>LEDGER<br />NANO X</h6>
-                        <center>
-                            <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-                            <div class="break-zero"></div>
-                            <img src="img/wallets/alert-cold-2.png" class="alert"/>
-                        </center>
-                        <div class="break-mini"></div>
-                        <p>Pair with your phone
-                            <br />Supports shitcoins
-                            <br />Keychain-ready
-                            <br />Costs $149</p>
-
-                        <a href="https://shop.ledger.com/products/ledger-nano-x" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
-                    </div><!--/container-inner-->
-             <!--   </div><!--text-box-->
-
-             <!--   <div class="wallet-box wallet2">
-                    <div class="container-inner">
-
-                        <center><img src="img/wallets/ledger-nano-s.png" class="device"/></center>
-                        <h6>LEDGER<br />NANO S</h6>
-                        <center>
-                            <img src="img/wallets/alert-self-custody-2.png" class="alert"/>
-                            <div class="break-zero"></div>
-                            <img src="img/wallets/alert-cold-2.png" class="alert"/>
-                        </center>
-                        <div class="break-mini"></div>
-                        <p>Very affordable
-                            <br />Supports shitcoins
-                            <br />Keychain-ready
-                            <br />Costs $79</p>
-
-                        <a href="https://shop.ledger.com/pages/ledger-nano-s-plus" target="_blank"><div class="wallet-button">LEARN MORE</div></a>
-                    </div><!--/container-inner-->
-               <!-- </div><!--text-box-->
-
-               <!-- <div class="break"></div>
-
-
-
-        </div><!--/vs-container-->
-
-
-
-
 
 
 <!-- GET STARTED -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
-                <a href="https://bitcoin.rocks/">
+                <a href="https://bitcoin.rocks" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
+                          <h3 id="get-started" data-i18n="common_cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="common_cta_section_with_bitcoin"></h3>
 
                             <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_1_alt"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-                <a href="https://river.com/" target="_blank">
+                <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box middle">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">River.com</div>
+                                <h4 data-i18n="common_cta_section_title_2"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_guide"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-                <a href="https://bitcoin.rocks/stickers" target="_blank">
+                <a href="https://strike.me" target="_blank">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Win free Bitcoin by putting a Bitcoin sticker in public</h4>
-                                <div class="type">CONTEST</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_3"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_strike"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
-
-
-                <div class="break"></div>
-
-            </div><!--/USD-->
-
-
-
-
-
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
 
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"lightning_header": "LIGHTNING WALLET GUIDE",
+	"lightning_s1_c1": "Lightning enables you to send Bitcoin payments quickly and cheaply.",
+	"lightning_s1_c2": "It's important to know that using lightning comes with trade-offs. In exchange for faster, cheaper Bitcoin payments, you often sacrifice some security.",
+	"lightning_s1_c3": "In general, Lightning should only be used with small amounts of bitcoin. You should only ever store large amounts of bitcoin in a hardware wallet.",
+	"lightning_s1_c4": "Check out our Hardware Wallet Guide for more info.",
+	"lightning_s1_c5": "Not all Lightning wallets are the same. You can determine which wallet has the right set of trade-offs for you by asking one simple question:",
+	"lightning_question_1": "WHAT TRADE-OFF BALANCE IS RIGHT FOR ME?",
+	"lightning_s2_c1": "One of the innovations of Bitcoin is the ability to store it without relying on a custodian, like a bank. Self-custody wallets unlock the full power of Bitcoin.",
+	"lightning_s2_c2": "With a self-custody wallet, you are the only one with the ability to spend or transfer your money. No one can stop you, censor you, or steal from you when you use a self-custody wallet. These are also called non-custodial wallets.",
+	"lightning_s2_c3": "The most sovereign way to use Lightning is by running your own node.",
+	"lightning_s2_c4": "This guide is focused on simple Lightning wallets that don't require your own node.",
+	"lightning_s2_c5": "It's important to know that even using a non-custodial Lightning wallet, you are still trusting the wallet creator not to push a malicious app update and steal your funds.",
+	"lightning_s3_c1": "Custodial wallets are wallets where you are not in control of your money.",
+	"lightning_s3_c2": "These wallets are more similar to the banking system where you must trust a third party to give you access to your money. If your Bitcoin is on an exchange, you are using a custodial wallet.",
+	"lightning_s3_c3": "Custodial wallets can seem convenient, but the custodian has the technical ability to steal all user funds at any time.",
+	"lightning_s3_c4": "Some people prefer custodial Lightning wallets for small amounts of bitcoin because of their ease of use. Just remember: not your keys, not your coins!",
+	"lightning_question_2": "CHOOSE YOUR WALLET",
+	"lightning_s4_c1": "With all of this in mind, you can now choose the lightning wallet that has the right trade-off balance for you.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Lots of features",
+	"lightning_mobile_app": "Mobile app",
+	"lightning_free": "100% free",
+	"lightning_merchants": "Great for merchants",
+	"lightning_starter": "Great starter wallet",
+	"lightning_browser": "Browser based",
+	"lightning_custodial": "Fully custodial wallet",
+	"lightning_cta_hardware": "Looking for our Bitcoin Hardware Wallet Guide?"
+}

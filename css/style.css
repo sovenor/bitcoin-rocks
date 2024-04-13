@@ -22,6 +22,7 @@ h2{
     line-height: 60px;
     margin: 50px 0px 50px 0px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2.get-involved{
@@ -1487,13 +1488,15 @@ span.orange{
 **/
 
 p.wallet-q{
-    margin-top: 50px;
+    margin-top: 0px !important;
     margin-bottom: 20px;
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 40px;
     line-height: 35px;
+    text-transform: uppercase;
+    color: #ff9500;
 }
 
 p.looking{
@@ -1581,6 +1584,7 @@ img.alert{
         margin-bottom: 25px;
         line-height: 58px;
         transition-duration: 0.3s;
+        text-transform: uppercase;
 
         cursor: pointer !important;
     }
