@@ -842,6 +842,10 @@ img.arrow-down{
         transform: scale(1.05);
     }
 
+button{
+  text-transform: uppercase;
+}
+
 .button-form{
     width: 100%;
     height: 80px;
@@ -863,7 +867,7 @@ img.arrow-down{
         text-align: center;
         color: #ffffff;
         position: relative;
-        top: -18px;
+        top: -5px;
         outline-style: none !important;
     }
 
@@ -1197,12 +1201,6 @@ p.bounty-details{
          width: 100%;
          margin-left: 0%;
          margin-right: 0%;
-     }
-
-     .button-form p{
-         font-size: 20px;
-         line-height: 20px;
-         top: -3px;
      }
 
      .time{

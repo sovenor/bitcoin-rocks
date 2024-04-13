@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"postcards_header": "FREE BITCOIN POSTCARDS",
+	"postcards_step_1": "1. REQUEST A POSTCARD PACK",
+	"postcards_instructions_1": "Enter your mailing address and we'll send you a free Bitcoin Postcard Pack in the mail! Your postcards are shipped in a plain white envelope.",
+	"postcards_instructions_2": "Address data is deleted after your free postcards are shipped.",
+	"postcards_instructions_3": "Canadians will receive a CAD$5 bill postcard instead of the US$1 bill postcard.",
+	"postcards_step_2": "2. MAIL POSTCARDS",
+	"postcards_instructions_4": "We made these postcards to make it easier for you to introduce someone you know to Bitcoin! Just add an address and a stamp and drop your postcard in the mail.",
+	"postcards_instructions_5": "Our mission is to accelerate Bitcoin adoption. You can help by sending these postcards to someone you know today!",
+	"postcards_instructions_6": "We all know a few people who could benefit from learning more about Bitcoin. Send them a postcard today!"
+}
