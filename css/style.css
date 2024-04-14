@@ -809,6 +809,7 @@ img.arrow-down{
 .button-sticker{
     width: 90% !important;
     margin-left: 5%;
+    text-transform: uppercase;
 }
 
 .button-sticker p{
@@ -897,6 +898,7 @@ p.step{
     font-style: italic;
     font-size: 30px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 
 .left{
@@ -1131,6 +1133,7 @@ p.bounty-details{
         margin-bottom: 40px;
         line-height: 75px;
         transition-duration: 0.3s;
+        text-transform: uppercase;
     }
 
     .bounty-button:hover{

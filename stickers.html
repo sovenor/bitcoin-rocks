@@ -9,11 +9,26 @@
         <title>Free Bitcoin stickers from bitcoin.rocks</title>
         <meta name="description" content="Put a bitcoin sticker in public to orange pill those around you.">
 
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks">
+        <!-- Hreflang tags for French -->
+        <link rel="alternate" hreflang="fr" href="https://bitcoin.rocks">
+
         <!--Meta image for sharing-->
         <meta property="og:title" content="Free Bitcoin Stickers from bitcoin.rocks" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://bitcoin.rocks/bitcoin-stickers" />
         <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-stickers-v9.png" />
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js"></script>
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
@@ -44,84 +59,8 @@
         <link rel="stylesheet" href="css/style.css?1">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
 
-        <!-- Show proper country form based on dropdown selection. -->
-        <script src="jquery/jquery-3.6.1.slim.min.js"></script>
-
-
         <!--Show proper form depending on which sticker pack is chosen-->
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                // Get references to the divs and select boxes
-                const firstSticker = document.getElementById('first-sticker');
-                const secondSticker = document.getElementById('second-sticker');
-                const selectBox1 = document.getElementById('countryselector');
-                const selectBox2 = document.getElementById('countryselector2');
-
-                // Hide both select boxes initially
-                selectBox1.style.display = 'none';
-                selectBox2.style.display = 'none';
-
-                // Add click event listeners to the divs
-                firstSticker.addEventListener('click', function() {
-                    // Show select box 1 and hide select box 2
-                    selectBox1.style.display = 'block';
-                    selectBox2.style.display = 'none';
-
-                    // Change border of first-sticker
-                    firstSticker.style.border = '1px solid #ff9500'; // Change color and width as needed
-                    // Reset border of second-sticker
-                    secondSticker.style.border = '1px solid #3f3f3f';
-
-                    // Decrease opacity of elements in second-sticker
-                    const secondStickerElements = secondSticker.querySelectorAll('*');
-                    secondStickerElements.forEach(function(element) {
-                        element.style.opacity = '0.5'; // Adjust opacity as needed
-                    });
-
-                    // Reset opacity of elements in first-sticker
-                    const firstStickerElements = firstSticker.querySelectorAll('*');
-                    firstStickerElements.forEach(function(element) {
-                        element.style.opacity = '1'; // Reset opacity to full
-                    });
-                });
-
-                secondSticker.addEventListener('click', function() {
-                    // Show select box 2 and hide select box 1
-                    selectBox1.style.display = 'none';
-                    selectBox2.style.display = 'block';
-
-                    // Change border of second-sticker
-                    secondSticker.style.border = '1px solid #ff9500'; // Change color and width as needed
-                    // Reset border of first-sticker
-                    firstSticker.style.border = '1px solid #3f3f3f';
-
-                    // Decrease opacity of elements in first-sticker
-                    const firstStickerElements = firstSticker.querySelectorAll('*');
-                    firstStickerElements.forEach(function(element) {
-                        element.style.opacity = '0.5'; // Adjust opacity as needed
-                    });
-
-                    // Reset opacity of elements in second-sticker
-                    const secondStickerElements = secondSticker.querySelectorAll('*');
-                    secondStickerElements.forEach(function(element) {
-                        element.style.opacity = '1'; // Reset opacity to full
-                    });
-                });
-
-                // Function to handle country selector
-                function handleCountrySelector(selectorId) {
-                    $(selectorId).change(function() {
-                        // Hide and show country elements
-                        $('.countries').hide();
-                        $('#' + $(this).val()).show();
-                    });
-                }
-
-                // Call handleCountrySelector for both selectors
-                handleCountrySelector('#countryselector');
-                handleCountrySelector('#countryselector2');
-            });
-        </script>
+        <script src="jquery/sticker-picker.js"/></script>
 
     </head>
     <body>
@@ -132,9 +71,7 @@
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation"><span class="inflation">FREE<br />BITCOIN<br />STICKERS</span></h2>
-
-                <!--<img src="img/web-sticker-header-img-vertical-v5.png" class="inline" style="margin-top:30px;"/>-->
+                <h2 class="h2-inflation force-orange" data-i18n="stickers_header"></h2>
             </div><!--/container-inner-->
 
                 <div class="break"></div>
@@ -142,32 +79,39 @@
                 <div class="text-box intro sticker-box">
                     <div class="container-inner">
 
+                        <p class="step" data-i18n="stickers_choose_header"></p>
 
-                        <p class="step">CHOOSE YOUR<br />STICKER PACK</p>
-
-
-
-                        <p>Our mission is to orange pill more people by putting Bitcoin stickers in public. All of our stickers have QR codes that link to educational pages about <a href="https://bitcoin.rocks" target="_blank" class="orange-link">Bitcoin</a> and <a href="https://bitcoin.rocks/inflation" target="_blank" class="orange-link">inflation.</a><br /><br />Choose your sticker pack below:
-
+                        <p>
+                          <br />
+                          <span data-i18n="stickers_choose_c1"></span>
+                          <a href="https://bitcoin.rocks" target="_blank" class="orange-link"><span data-i18n="stickers_choose_c2"></span></a>
+                          &
+                          <a href="https://bitcoin.rocks/inflation" target="_blank" class="orange-link"><span data-i18n="stickers_choose_c3"></span></a>
+                          <br /><br />
+                          <span data-i18n="stickers_choose_c4"></span>
                         </p>
 
                         <div class="choose-sticker" id="first-sticker">
                           <img src="img/web-sticker-pack-text.png"/>
-                          <p>THE TEXT PACK</p>
+                          <p data-i18n="stickers_text_pack"></p>
                         </div><!--/choose-sticker-->
 
                         <div class="break-nano"></div>
 
                         <center><select id="countryselector" style="margin-bottom: 30px !important;">
-                            <option selected disabled>Choose your country</option>
-                            <option value="USA">USA</option>
-                            <option value="Canada">Canada</option>
-                            <option value="Print">Global — Print my own stickers</option>
-                            <option value="Bulk">Global — Order in bulk</option>
+                            <option selected disabled data-i18n="common_choose_your_country"></option>
+                            <option value="USA" data-i18n="common_country_usa"></option>
+                            <option value="Canada" data-i18n="common_country_canada"></option>
+                            <option value="Print" data-i18n="stickers_country_global_print"></option>
+                            <option value="Bulk" data-i18n="stickers_country_global_order"></option>
                         </select></center>
 
                         <div id="USA" class="countries" style="display:none">
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.<br /><br />Address data is deleted after your free stickers are shipped.</p>
+                            <p>
+                              <span data-i18n="stickers_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_instructions_2"></span>
+                            </p>
                             <form action="https://getform.io/f/56e3ff89-e6c2-483e-979a-fdf0bdf7b22a" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -177,15 +121,18 @@
                             <input type="text" name="zip" placeholder="Zip Code" id="zip" required><br />
                             <input type="hidden" name="_gotcha" style="display:none !important">
 
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BITCOIN STICKERS</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
-
 
                         </div><!--/USA-->
 
 
                         <div id="Canada" class="countries" style="display:none">
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.<br /><br />Address data is deleted after your free stickers are shipped.</p>
+                            <p>
+                              <span data-i18n="stickers_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_instructions_2"></span>
+                            </p>
                             <form action="https://getform.io/f/eb59e833-433b-403b-a001-9761f0ff7f56" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -194,7 +141,7 @@
                             <input type="text" name="province" placeholder="Province" id="state" required>
                             <input type="text" name="postal" placeholder="Postal Code" id="zip" required><br />
 
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BITCOIN STICKERS</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
 
 
@@ -202,141 +149,148 @@
 
 
                         <div id="Print" class="countries" style="display:none">
-                            <p>You can participate by printing your own stickers, no matter where you live! Click on your language below to download the sticker files &amp; instructions.<br /><br />Please note: not all stickers are available in all languages.</p>
+                            <p>
+                              <span data-i18n="stickers_print_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_print_instructions_2"></span>
+                            </p>
 
+                            <a href="https://bitcoin.rocks/sticker-files/afrikaans"><div class="button button-sticker"><p data-i18n="common_language_afrikaans"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/arabic"><div class="button button-sticker"><p data-i18n="common_language_arabic"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/basque"><div class="button button-sticker"><p data-i18n="common_language_basque"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/bulgarian"><div class="button button-sticker"><p data-i18n="common_language_bulgarian"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/catalan"><div class="button button-sticker"><p data-i18n="common_language_catalan"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/afrikaans"><div class="button button-sticker"><p>AFRIKAANS</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/chinese"><div class="button button-sticker"><p data-i18n="common_language_chinese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/arabic"><div class="button button-sticker"><p>ARABIC</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/croatian"><div class="button button-sticker"><p data-i18n="common_language_croatian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/basque"><div class="button button-sticker"><p>BASQUE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/czech"><div class="button button-sticker"><p data-i18n="common_language_czech"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/bulgarian"><div class="button button-sticker"><p>BULGARIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/danish"><div class="button button-sticker"><p data-i18n="common_language_danish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/catalan"><div class="button button-sticker"><p>CATALAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/dutch"><div class="button button-sticker"><p data-i18n="common_language_dutch"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/chinese"><div class="button button-sticker"><p>CHINESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/english"><div class="button button-sticker"><p data-i18n="common_language_english"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/croatian"><div class="button button-sticker"><p>CROATIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/estonian"><div class="button button-sticker"><p data-i18n="common_language_estonian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/czech"><div class="button button-sticker"><p>CZECH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/filipino"><div class="button button-sticker"><p data-i18n="common_language_filipino"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/danish"><div class="button button-sticker"><p>DANISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/finnish"><div class="button button-sticker"><p data-i18n="common_language_finnish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/dutch"><div class="button button-sticker"><p>DUTCH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/french"><div class="button button-sticker"><p data-i18n="common_language_french"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/english"><div class="button button-sticker"><p>ENGLISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/german"><div class="button button-sticker"><p data-i18n="common_language_german"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/estonian"><div class="button button-sticker"><p>ESTONIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/greek"><div class="button button-sticker"><p data-i18n="common_language_greek"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/filipino"><div class="button button-sticker"><p>FILIPINO</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hausa"><div class="button button-sticker"><p data-i18n="common_language_hausa"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/finnish"><div class="button button-sticker"><p>FINNISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hebrew"><div class="button button-sticker"><p data-i18n="common_language_hebrew"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/french"><div class="button button-sticker"><p>FRENCH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hindi"><div class="button button-sticker"><p data-i18n="common_language_hindi"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/german"><div class="button button-sticker"><p>GERMAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hungarian"><div class="button button-sticker"><p data-i18n="common_language_hungarian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/greek"><div class="button button-sticker"><p>GREEK</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/indonesian"><div class="button button-sticker"><p data-i18n="common_language_indonesian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hausa"><div class="button button-sticker"><p>HAUSA</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/irish"><div class="button button-sticker"><p data-i18n="common_language_irish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hebrew"><div class="button button-sticker"><p>HEBREW</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/italian"><div class="button button-sticker"><p data-i18n="common_language_italian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hindi"><div class="button button-sticker"><p>HINDI</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/japanese"><div class="button button-sticker"><p data-i18n="common_language_japanese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hungarian"><div class="button button-sticker"><p>HUNGARIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/korean"><div class="button button-sticker"><p data-i18n="common_language_korean"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/indonesian"><div class="button button-sticker"><p>INDONESIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/malay"><div class="button button-sticker"><p data-i18n="common_language_malay"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/irish"><div class="button button-sticker"><p>IRISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/norwegian"><div class="button button-sticker"><p data-i18n="common_language_norwegian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/italian"><div class="button button-sticker"><p>ITALIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/persian"><div class="button button-sticker"><p data-i18n="common_language_persian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/japanese"><div class="button button-sticker"><p>JAPANESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/polish"><div class="button button-sticker"><p data-i18n="common_language_polish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/korean"><div class="button button-sticker"><p>KOREAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/portuguese"><div class="button button-sticker"><p data-i18n="common_language_portuguese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/malay"><div class="button button-sticker"><p>MALAY</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/russian"><div class="button button-sticker"><p data-i18n="common_language_russian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/norwegian"><div class="button button-sticker"><p>NORWEGIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/sinhala"><div class="button button-sticker"><p data-i18n="common_language_sinhala"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/persian"><div class="button button-sticker"><p>PERSIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/slovak"><div class="button button-sticker"><p data-i18n="common_language_slovak"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/polish"><div class="button button-sticker"><p>POLISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/slovenian"><div class="button button-sticker"><p data-i18n="common_language_slovenian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/portuguese"><div class="button button-sticker"><p>PORTUGUESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/spanish"><div class="button button-sticker"><p data-i18n="common_language_spanish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/russian"><div class="button button-sticker"><p>RUSSIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/swahili"><div class="button button-sticker"><p data-i18n="common_language_swahili"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/sinhala"><div class="button button-sticker"><p>SINHALA</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/swedish"><div class="button button-sticker"><p data-i18n="common_language_swedish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/slovak"><div class="button button-sticker"><p>SLOVAK</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/thai"><div class="button button-sticker"><p data-i18n="common_language_thai"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/slovenian"><div class="button button-sticker"><p>SLOVENIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/turkish"><div class="button button-sticker"><p data-i18n="common_language_turkish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/spanish"><div class="button button-sticker"><p>SPANISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/urdu"><div class="button button-sticker"><p data-i18n="common_language_urdu"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/swahili"><div class="button button-sticker"><p>SWAHILI</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/vietnamese"><div class="button button-sticker"><p data-i18n="common_language_vietnamese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/swedish"><div class="button button-sticker"><p>SWEDISH</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/thai"><div class="button button-sticker"><p>THAI</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/turkish"><div class="button button-sticker"><p>TURKISH</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/urdu"><div class="button button-sticker"><p>URDU</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/vietnamese"><div class="button button-sticker"><p>VIETNAMESE</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/yoruba"><div class="button button-sticker"><p>YORUBA</p></div></a>
-
-
-
-
-
-
+                            <a href="https://bitcoin.rocks/sticker-files/yoruba"><div class="button button-sticker"><p data-i18n="common_language_yoruba"></p></div></a>
 
                             <div class="break-micro"></div>
-                            <p>Don't see your language?<br/><br />Fill out the form below to request sticker files in your local language.</p>
+
+                            <p>
+                              <span data-i18n="stickers_request_language_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_request_language_2"></span>
+                            </p>
 
                             <form action="https://getform.io/f/0b3790d0-6706-40c4-a4d0-bfcde8755564" method="POST">
                             <input type="text" name="language" placeholder="Language" required><br />
+                            <input type="text" name="stickers" placeholder="Which stickers?" required><br />
                             <input type="email" name="email" placeholder="Enter your email to be notified (optional)"><br />
 
-                            <button type="submit" class="button-form"><p>REQUEST<br />STICKER FILES</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
 
                         </div><!--/Print-->
 
                         <div id="Bulk" class="countries" style="display:none">
-                          <p>Want more than just a few stickers?<br />
-                              <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link">Check out our StickerMule store</a> for bulk orders.<br /><br />Please note: we do not make money when you order from this store. It's just a convenient way to order directly from StickerMule.</p>
+                          <p>
+                            <span data-i18n="common_stickers_bulk_want"></span>
+                            <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link"><span data-i18n="common_stickers_bulk_store"></span></a>
+                            <span data-i18n="common_stickers_bulk_cheaper"></span>
+                          </p>
                         </div><!--/Bulk-->
 
                         <div class="break-nano"></div>
 
                         <div class="choose-sticker" id="second-sticker">
                           <img src="img/web-sticker-pack-signs.png"/>
-                          <p>THE SIGNS PACK</p>
+                          <p data-i18n="stickers_signs_pack"></p>
                         </div><!--/choose-sticker-->
 
                         <div class="break-nano"></div>
 
-                        <center><select id="countryselector2" style="margin-bottom: 30px !important;">
-                            <option selected disabled>Choose your country</option>
-                            <option value="USA2">USA</option>
-                            <option value="Canada2">Canada</option>
-                            <option value="Print2">Global — Print my own stickers</option>
-                            <option value="Bulk2">Global — Order in bulk</option>
+                        <center><select id="countryselector2" style="margin-bottom: 0px !important;">
+                            <option selected disabled data-i18n="common_choose_your_country"></option>
+                            <option value="USA2" data-i18n="common_country_usa"></option>
+                            <option value="Canada2" data-i18n="common_country_canada"></option>
+                            <option value="Print2" data-i18n="stickers_country_global_print"></option>
+                            <option value="Bulk2" data-i18n="stickers_country_global_order"></option>
                         </select></center>
 
                         <div id="USA2" class="countries" style="display:none">
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.<br /><br />Address data is deleted after your free stickers are shipped.</p>
+                            <p>
+                              <span data-i18n="stickers_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_instructions_2"></span>
+                            </p>
+
                             <form action="https://getform.io/f/rbegqxpb" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -346,15 +300,20 @@
                             <input type="text" name="zip" placeholder="Zip Code" id="zip" required><br />
                             <input type="hidden" name="_gotcha" style="display:none !important">
 
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BITCOIN STICKERS</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
 
 
-                        </div><!--/USA-->
+                        </div><!--/USA2-->
 
 
                         <div id="Canada2" class="countries" style="display:none">
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.<br /><br />Address data is deleted after your free stickers are shipped.</p>
+                            <p>
+                              <span data-i18n="stickers_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_instructions_2"></span>
+                            </p>
+
                             <form action="https://getform.io/f/nbvvwplb" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -363,136 +322,131 @@
                             <input type="text" name="province" placeholder="Province" id="state" required>
                             <input type="text" name="postal" placeholder="Postal Code" id="zip" required><br />
 
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BITCOIN STICKERS</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
 
 
-                        </div>--><!--/Canada-->
+                        </div>--><!--/Canada2-->
 
 
                         <div id="Print2" class="countries" style="display:none">
-                            <p>You can participate by printing your own stickers, no matter where you live! Click on your language below to download the sticker files &amp; instructions.<br /><br />Please note: not all stickers are available in all languages.</p>
+                            <p>
+                              <span data-i18n="stickers_print_instructions_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_print_instructions_2"></span>
+                            </p>
 
+                            <a href="https://bitcoin.rocks/sticker-files/afrikaans"><div class="button button-sticker"><p data-i18n="common_language_afrikaans"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/arabic"><div class="button button-sticker"><p data-i18n="common_language_arabic"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/basque"><div class="button button-sticker"><p data-i18n="common_language_basque"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/bulgarian"><div class="button button-sticker"><p data-i18n="common_language_bulgarian"></p></div></a>
 
+                            <a href="https://bitcoin.rocks/sticker-files/catalan"><div class="button button-sticker"><p data-i18n="common_language_catalan"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/afrikaans" target="_blank"><div class="button button-sticker"><p>AFRIKAANS</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/chinese"><div class="button button-sticker"><p data-i18n="common_language_chinese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/arabic" target="_blank"><div class="button button-sticker"><p>ARABIC</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/croatian"><div class="button button-sticker"><p data-i18n="common_language_croatian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/basque" target="_blank"><div class="button button-sticker"><p>BASQUE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/czech"><div class="button button-sticker"><p data-i18n="common_language_czech"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/bulgarian" target="_blank"><div class="button button-sticker"><p>BULGARIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/danish"><div class="button button-sticker"><p data-i18n="common_language_danish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/catalan" target="_blank"><div class="button button-sticker"><p>CATALAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/dutch"><div class="button button-sticker"><p data-i18n="common_language_dutch"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/chinese" target="_blank"><div class="button button-sticker"><p>CHINESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/english"><div class="button button-sticker"><p data-i18n="common_language_english"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/croatian" target="_blank"><div class="button button-sticker"><p>CROATIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/estonian"><div class="button button-sticker"><p data-i18n="common_language_estonian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/czech" target="_blank"><div class="button button-sticker"><p>CZECH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/filipino"><div class="button button-sticker"><p data-i18n="common_language_filipino"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/danish" target="_blank"><div class="button button-sticker"><p>DANISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/finnish"><div class="button button-sticker"><p data-i18n="common_language_finnish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/dutch" target="_blank"><div class="button button-sticker"><p>DUTCH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/french"><div class="button button-sticker"><p data-i18n="common_language_french"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/english" target="_blank"><div class="button button-sticker"><p>ENGLISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/german"><div class="button button-sticker"><p data-i18n="common_language_german"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/estonian" target="_blank"><div class="button button-sticker"><p>ESTONIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/greek"><div class="button button-sticker"><p data-i18n="common_language_greek"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/filipino" target="_blank"><div class="button button-sticker"><p>FILIPINO</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hausa"><div class="button button-sticker"><p data-i18n="common_language_hausa"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/finnish" target="_blank"><div class="button button-sticker"><p>FINNISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hebrew"><div class="button button-sticker"><p data-i18n="common_language_hebrew"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/french" target="_blank"><div class="button button-sticker"><p>FRENCH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hindi"><div class="button button-sticker"><p data-i18n="common_language_hindi"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/german" target="_blank"><div class="button button-sticker"><p>GERMAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/hungarian"><div class="button button-sticker"><p data-i18n="common_language_hungarian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/greek" target="_blank"><div class="button button-sticker"><p>GREEK</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/indonesian"><div class="button button-sticker"><p data-i18n="common_language_indonesian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hausa" target="_blank"><div class="button button-sticker"><p>HAUSA</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/irish"><div class="button button-sticker"><p data-i18n="common_language_irish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hebrew" target="_blank"><div class="button button-sticker"><p>HEBREW</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/italian"><div class="button button-sticker"><p data-i18n="common_language_italian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hindi" target="_blank"><div class="button button-sticker"><p>HINDI</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/japanese"><div class="button button-sticker"><p data-i18n="common_language_japanese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/hungarian" target="_blank"><div class="button button-sticker"><p>HUNGARIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/korean"><div class="button button-sticker"><p data-i18n="common_language_korean"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/indonesian" target="_blank"><div class="button button-sticker"><p>INDONESIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/malay"><div class="button button-sticker"><p data-i18n="common_language_malay"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/irish" target="_blank"><div class="button button-sticker"><p>IRISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/norwegian"><div class="button button-sticker"><p data-i18n="common_language_norwegian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/italian" target="_blank"><div class="button button-sticker"><p>ITALIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/persian"><div class="button button-sticker"><p data-i18n="common_language_persian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/japanese" target="_blank"><div class="button button-sticker"><p>JAPANESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/polish"><div class="button button-sticker"><p data-i18n="common_language_polish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/korean" target="_blank"><div class="button button-sticker"><p>KOREAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/portuguese"><div class="button button-sticker"><p data-i18n="common_language_portuguese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/malay" target="_blank"><div class="button button-sticker"><p>MALAY</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/russian"><div class="button button-sticker"><p data-i18n="common_language_russian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/norwegian" target="_blank"><div class="button button-sticker"><p>NORWEGIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/sinhala"><div class="button button-sticker"><p data-i18n="common_language_sinhala"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/persian" target="_blank"><div class="button button-sticker"><p>PERSIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/slovak"><div class="button button-sticker"><p data-i18n="common_language_slovak"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/polish" target="_blank"><div class="button button-sticker"><p>POLISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/slovenian"><div class="button button-sticker"><p data-i18n="common_language_slovenian"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/portuguese" target="_blank"><div class="button button-sticker"><p>PORTUGUESE</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/spanish"><div class="button button-sticker"><p data-i18n="common_language_spanish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/russian" target="_blank"><div class="button button-sticker"><p>RUSSIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/swahili"><div class="button button-sticker"><p data-i18n="common_language_swahili"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/sinhala" target="_blank"><div class="button button-sticker"><p>SINHALA</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/swedish"><div class="button button-sticker"><p data-i18n="common_language_swedish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/slovak" target="_blank"><div class="button button-sticker"><p>SLOVAK</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/thai"><div class="button button-sticker"><p data-i18n="common_language_thai"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/slovenian" target="_blank"><div class="button button-sticker"><p>SLOVENIAN</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/turkish"><div class="button button-sticker"><p data-i18n="common_language_turkish"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/spanish" target="_blank"><div class="button button-sticker"><p>SPANISH</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/urdu"><div class="button button-sticker"><p data-i18n="common_language_urdu"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/swahili" target="_blank"><div class="button button-sticker"><p>SWAHILI</p></div></a>
+                            <a href="https://bitcoin.rocks/sticker-files/vietnamese"><div class="button button-sticker"><p data-i18n="common_language_vietnamese"></p></div></a>
 
-                            <a href="https://bitcoin.rocks/sticker-files/swedish" target="_blank"><div class="button button-sticker"><p>SWEDISH</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/thai" target="_blank"><div class="button button-sticker"><p>THAI</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/turkish" target="_blank"><div class="button button-sticker"><p>TURKISH</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/urdu" target="_blank"><div class="button button-sticker"><p>URDU</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/vietnamese" target="_blank"><div class="button button-sticker"><p>VIETNAMESE</p></div></a>
-
-                            <a href="https://bitcoin.rocks/sticker-files/yoruba" target="_blank"><div class="button button-sticker"><p>YORUBA</p></div></a>
-
-
-
-
-
-
+                            <a href="https://bitcoin.rocks/sticker-files/yoruba"><div class="button button-sticker"><p data-i18n="common_language_yoruba"></p></div></a>
 
                             <div class="break-micro"></div>
-                            <p>Don't see your language?<br/><br />Fill out the form below to request sticker files in your local language.</p>
+
+                            <p>
+                              <span data-i18n="stickers_request_language_1"></span>
+                              <br /><br />
+                              <span data-i18n="stickers_request_language_2"></span>
+                            </p>
 
                             <form action="https://getform.io/f/0b3790d0-6706-40c4-a4d0-bfcde8755564" method="POST">
                             <input type="text" name="language" placeholder="Language" required><br />
+                            <input type="text" name="stickers" placeholder="Which stickers?" required><br />
                             <input type="email" name="email" placeholder="Enter your email to be notified (optional)"><br />
 
-                            <button type="submit" class="button-form"><p>REQUEST<br />STICKER FILES</p></button>
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
 
                         </div><!--/Print-->
 
                         <div id="Bulk2" class="countries" style="display:none">
-                          <p>Want more than just a few stickers?<br />
-                              <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link">Check out our StickerMule store</a> for bulk orders.<br /><br />Please note: we do not make money when you order from this store. It's just a convenient way to order directly from StickerMule.</p>
+                          <p>
+                            <span data-i18n="common_stickers_bulk_want"></span>
+                            <a href="https://www.stickermule.com/u/4c84ba884f9c3ae" target="_blank" class="orange-link"><span data-i18n="common_stickers_bulk_store"></span></a>
+                            <span data-i18n="common_stickers_bulk_cheaper"></span>
+                          </p>
                         </div><!--/Bulk-->
-
-
-
-
-
-
-
 
                     </div><!--/container-inner-->
                 </div><!--text-box-->
@@ -502,231 +456,91 @@
                 <div class="text-box intro sticker-box">
                     <div class="container-inner">
 
-
-                        <p class="step">SHARE YOUR<br />STICKER SPOTS</p>
-
-
+                        <p class="step" data-i18n="stickers_share_header"></p>
 
                         <p>
-
-                            Share your sticker spot with us on Nostr and you might get zapped free bitcoin! <a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
-                        <br />
-                        <br />
-                            Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.
-                            <br /><br />
-                            </p>
-
-                        <a href="https://primal.net/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" target="_blank"><div class="bounty-button">SHARE ON NOSTR</div></a>
-
-                            <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">WHAT IS NOSTR?</div></a>
-
-
-                <!--<div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT A BITCOIN STICKER IN A</p>
-
-                        <p class="bounty-header">SUBWAY OR TRAIN</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">BOUNTY REWARD</p>
-                        <p class="bounty-details">1k sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown2">loading...</p>
-
-                        <a href="https://twitter.com/bitcoindotrocks/status/1661856335015682048" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div>
-
-
-
-                    </div><!--/container-inner-->
-                <!--</div><!--bounty-->
-
-                <!--<div class="break-micro"></div>
-
-
-                <div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
-
-                        <p class="bounty-header">NEAR OTHER STICKERS</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">BOUNTY REWARD</p>
-                        <p class="bounty-details">1k sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown4">loading...</p>
-
-                        <a href="https://twitter.com/bitcoindotrocks/status/1661856354963734530" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
-
-
-                    </div><!--/container-inner-->
-               <!--</div><!--bounty-->
-
-               <!-- <div class="break-micro"></div>
-
-
-                <!--<div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
-
-                        <p class="bounty-header">IN A TRAIN &#x1F686;</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">BOUNTY REWARD</p>
-                        <p class="bounty-details">2k sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown4">loading...</p>
-
-                        <a href="https://twitter.com/bitcoindotrocks/status/1655290724433231872" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
-
-
-                    </div><!--/container-inner-->
-               <!-- </div><!--bounty-->
-
-               <!-- <div class="break-micro"></div>-->
-
-
-
-
-
-
-
-
-                <!--<div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
-
-                        <p class="bounty-header">ANYWHERE IN AUGUST</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">CONTEST REWARD</p>
-                        <p class="bounty-details">up to 1M sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown3">loading...</p>
-
-                        <a href="https://primal.net/thread/note1dfu2ppkwpcc2k5mtnalf84q4wgxw7xj3hxd74zp797zw288ylxuqa2yf5y" target="_blank"><div class="bounty-button">SUBMIT ON NOSTR</div></a>
-
-                            <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">WHAT IS NOSTR?</div></a>
-
-
-
-                    </div><!--/container-inner-->
-               <!-- </div><!--bounty-->
-
-
-                       <!-- <div class="break-micro"></div>-->
-
-               <!--
-                <div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT A BITCOIN STICKER</p>
-
-                        <p class="bounty-header">NEAR TRAFFIC</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">BOUNTY REWARD</p>
-                        <p class="bounty-details">2.1k sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown4">loading...</p>
-
-                        <a href="https://snort.social/e/note1sl8s28thwkj0mhte5394g26lnjuf2s5z498y87frremvxwtdwgxqvxcmdt" target="_blank"><div class="bounty-button">SUBMIT ON NOSTR</div></a>
-
-                        <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button">WHAT IS NOSTR?</div></a>
-
-
-                    </div><!--/container-inner-->
-            <!--  </div><!--bounty-->
-
-                      <!--  <div class="break-micro"></div>
-
-              <!--  <div class="bounty">
-                    <div class="container-inner">
-                        <p class="bounty-small pill">PUT THE MOST BITCOIN STICKERS</p>
-
-                        <p class="bounty-header">ANYWHERE IN PUBLIC &#x2705;</p>
-
-                        <div class="bounty-divider"></div>
-
-                        <p class="bounty-small reward">CONTEST REWARD</p>
-                        <p class="bounty-details">up to 1M sats</p>
-
-                        <p class="bounty-small time">TIME REMAINING</p>
-                        <p class="bounty-details" id="countdown1">loading...</p>
-
-                        <a href="https://twitter.com/bitcoindotrocks/status/1648704825616482310" target="_blank"><div class="bounty-button">SEE RULES &amp; CLAIM</div></a>
-
-
-
-
-                    </div><!--/container-inner-->
-              <!--  </div><!--bounty-->
-
-
-
-
-
-
-
-
-
-
-
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <!--<div class="break"></div>
-
-                <div class="text-box intro sticker-box">
-                    <div class="container-inner">
-
-
-                        <p class="step">WHILE YOU WAIT FOR YOUR STICKERS...<br /><br /></p>
-                        <a href="https://bitcoin.rocks"><img src="img/meta/meta-home-v3.png" class="inline"/></a>
-                        <p>
-
-                        Our website was designed for people who are new to bitcoin. It's a great website to send to friends &amp; family to show them why Bitcoin rocks!</p>
-
-                        <a href="https://bitcoin.rocks" target="_blank"><div class="bounty-button explore">TAKE ME THERE</div></a>
-                    </div><!--/container-inner-->
-                <!--</div><!--/text-box-->
-
-
-
-
+                          <br />
+                          <span data-i18n="stickers_share_c1"></span>
+                          <span data-i18n="common_footer_follow_first_half"></span>
+                          <a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                        </p>
+
+                        <div class="break-mini"></div>
+
+                        <a href="https://primal.net/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" target="_blank"><div class="bounty-button" data-i18n="stickers_btn_share_on_nostr"></div></a>
+
+                        <a href="https://bitcoin.rocks/nostr/what-is-nostr" target="_blank"><div class="bounty-button" data-i18n="stickers_btn_what_is_nostr"></div></a>
+
+                      </div><!--/container-inner-->
+                    </div><!--/text-box-->
+
+
+<!-- GET STARTED -->
+
+            <div class="break-micro"></div>
+
+                <a href="https://bitcoin.rocks" target="_blank">
+                    <div class="text-box top">
+                        <div class="container-inner">
+                          <h3 id="get-started" data-i18n="common_cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="common_cta_section_with_bitcoin"></h3>
+
+                            <div class="item first">
+                                <h4 data-i18n="common_cta_section_title_1_alt"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
+
+                <a href="https://bitcoin.rocks/wallets">
+                    <div class="text-box middle">
+                        <div class="container-inner">
+
+                            <div class="item">
+                                <h4 data-i18n="common_cta_section_title_2"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_guide"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
+
+                <a href="https://strike.me" target="_blank">
+                    <div class="text-box bottom">
+                        <div class="container-inner">
+
+                            <div class="item">
+                                <h4 data-i18n="common_cta_section_title_3"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_strike"></div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
 
 <!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
 
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-
-
-                    <br /><br /><br />
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
-
         </div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
 
     </body>
 </html>

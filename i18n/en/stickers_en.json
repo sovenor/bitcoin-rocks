@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"stickers_header": "FREE BITCOIN STICKERS",
+	"stickers_choose_header": "CHOOSE YOUR STICKER PACK",
+	"stickers_choose_c1": "Our mission is to help you orange pill more people by putting Bitcoin stickers in public. All of our stickers have QR codes that link to educational pages about",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflation",
+	"stickers_choose_c4": "Choose your sticker pack below",
+	"stickers_text_pack": "THE TEXT PACK",
+	"stickers_signs_pack": "THE SIGNS PACK",
+	"stickers_instructions_1": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.",
+	"stickers_instructions_2": "Address data is deleted after your free stickers are shipped.",
+	"stickers_print_instructions_1": "You can participate by printing your own stickers, no matter where you live! Click on your language below to download the sticker files & instructions.",
+	"stickers_print_instructions_2": "Please note: not all stickers are available in all languages.",
+	"stickers_request_language_1": "Don't see your language?",
+	"stickers_request_language_2": "Fill out the form below to request sticker files in your local language.",
+	"stickers_share_header": "SHARE YOUR STICKER SPOTS",
+	"stickers_share_c1": "Share your sticker spot with us on Nostr and you might get zapped free bitcoin!",
+	"stickers_btn_share_on_nostr": "SHARE ON NOSTR",
+	"stickers_btn_what_is_nostr": "WHAT IS NOSTR?",
+	"stickers_country_global_print": "Global — Print my own stickers",
+	"stickers_country_global_order": "Global — Order in bulk"
+}
