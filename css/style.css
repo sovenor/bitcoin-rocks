@@ -140,6 +140,10 @@ h4{
     padding-right: 8%;
 }
 
+#lighten-text-boxes .text-box{
+    background-color: #595959 !important;
+}
+
 .text-box{
     margin: auto;
     margin-left: 2.5%;

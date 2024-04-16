@@ -11,25 +11,30 @@ $(function() {
   i18n.locale = lang;
 
   // Function to load translations
-  function loadTranslations(currentPage, callback1, callback2) {
+  function loadTranslations(currentPage, directoryPath, callback1, callback2) {
+    // Remove leading slash from directoryPath if present
+    directoryPath = directoryPath.replace(/^\//, '');
+    // Get the root URL
+    var rootURL = window.location.origin;
     // Load common translations
-    i18n.load('i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
-      // Load page-specific translations based on the current page
-      i18n.load('i18n/' + i18n.locale + '/' + currentPage + '_' + i18n.locale + '.json', i18n.locale).done(function() {
-        // Apply translations to elements with data-i18n attribute
-        $('[data-i18n]').each(function() {
-          var $this = $(this);
-          var key = $this.data('i18n');
-          $this.text($.i18n(key));
-        });
-        //This is necessary for button text to load from translation strings.
-        callback1();
-        //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
-        callback2();
+  i18n.load(rootURL + '/i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
+    // Construct file path based on directory path
+    var filePath = directoryPath ? directoryPath + '/' + currentPage : currentPage;
+    // Load page-specific translations based on the current page
+    i18n.load(rootURL + '/i18n/' + i18n.locale + '/' + filePath + '_' + i18n.locale + '.json', i18n.locale).done(function() {
+      // Apply translations to elements with data-i18n attribute
+      $('[data-i18n]').each(function() {
+        var $this = $(this);
+        var key = $this.data('i18n');
+        $this.text($.i18n(key));
+      });
+      //This is necessary for button text to load from translation strings.
+      callback1();
+      //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
+      callback2();
       });
     });
   }
-
 
   // Get the current page dynamically from the URL
   var currentPage = window.location.pathname.split('/').pop().replace('.html', '');
@@ -39,8 +44,11 @@ $(function() {
     currentPage = 'index';
   }
 
+  // Get directory path
+  var directoryPath = window.location.pathname.split('/').slice(0, -1).join('/');
+
   // Load translations
-  loadTranslations(currentPage, function() {
+  loadTranslations(currentPage, directoryPath, function() {
     // First callback function
     // This function will be called once translations are loaded
     //This is necessary for button text on the compound inflation calculator to load on all 15 currency pages from translation strings.
