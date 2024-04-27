@@ -55,8 +55,12 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-        <link rel="stylesheet" href="../css/style.css?60">
+        <!-- Main stylesheet + typekit for fonts -->
+        <link id="style-link" rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+        <!-- Prevent caching of style.css so updates are seen by all users -->
+        <script src="../jquery/refresh-css.js"></script>
 
     </head>
     <body>
