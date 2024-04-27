@@ -1,3 +1,4 @@
+/* will disable soon since it causes screen flash */
 var pathSegments = window.location.pathname.split('/');
 var relativePath = '';
 for (var i = 1; i < pathSegments.length - 1; i++) {

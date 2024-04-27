@@ -9,16 +9,17 @@ body{
 
 #language-switcher {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 0px;
+  left: 0px;
   border: none !important;
-  border-radius: 5px;
   height: 30px;
-  background-color: #595959;
+  background-color: #ff9500;
   font-family: "proxima-nova-condensed", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  max-width: 85px;
+  color: #000000 !important;
+  width: 100%;
+  border-radius: 0px !important;
 }
 
 h2{
@@ -64,7 +65,6 @@ h3.second-line{
     h3{
         font-size: 30px;
         line-height: 25px;
-        margin-top: -38px;
     }
 
     h3.second-line{
@@ -1410,14 +1410,14 @@ a{
 .home-logo{
     width: 280px;
     height: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     transition-duration: 0.3s;
 }
 
 .back-to-home{
     width: 150px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     transition-duration: 0.3s;
 }
 

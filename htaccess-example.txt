@@ -1,15 +1,10 @@
-Header set Access-Control-Allow-Origin "*"
+<If "%{REQUEST_URI} =~ m#^/.well-known/#">
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Headers "*"
+Header always set Access-Control-Allow-Methods "GET, OPTIONS"
+</If>
 
 RewriteEngine on
-
-# Redirect to /en if browser language is English
-RewriteCond %{HTTP:Accept-Language} ^en [NC]
-RewriteCond %{REQUEST_URI} !^/(en)/ [NC]
-RewriteRule ^ /en%{REQUEST_URI} [L,R=301]
-
-# Default to English (/en) if no language preference is detected or the detected language is not supported.
-RewriteCond %{REQUEST_URI} !^/(en)/ [NC]
-RewriteRule ^ /en%{REQUEST_URI} [L,R=301]
 
 # Add .html extension silently (internal redirect) to avoid displaying .html in the browser
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -17,26 +12,26 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 # Redirects with NC flag for case-insensitivity (these are old redirects from links that are no longer shared but still need to work despite the language redirects above)
-RewriteRule ^en/orange-pill-pack$ /stickers [R=301,NC,L]
-RewriteRule ^en/sticker$ /stickers [R=301,NC,L]
-RewriteRule ^en/bitcoin-stickers$ /stickers [R=301,NC,L]
-RewriteRule ^en/opp$ /stickers [R=301,NC,L]
-RewriteRule ^en/gold$ /bitcoin-vs-gold [R=301,NC,L]
-RewriteRule ^en/cbdc$ /bitcoin-vs-cbdc [R=301,NC,L]
-RewriteRule ^en/CBDC$ /bitcoin-vs-cbdc [R=301,NC,L]
-RewriteRule ^en/INFLATION$ /inflation [R=301,NC,L]
-RewriteRule ^en/bank-run$ /bank-runs [R=301,NC,L]
-RewriteRule ^en/bankrun$ /bank-runs [R=301,NC,L]
-RewriteRule ^en/bankruns$ /bank-runs [R=301,NC,L]
-RewriteRule ^en/wallet$ /wallets [R=301,NC,L]
-RewriteRule ^en/postcard$ /postcards [R=301,NC,L]
-RewriteRule ^en/guide$ /business/guide [R=301,NC,L]
-RewriteRule ^en/guides$ /business/guide [R=301,NC,L]
-RewriteRule ^en/business/guides$ /business/guide [R=301,NC,L]
-RewriteRule ^en/kit$ /business/kit [R=301,NC,L]
-RewriteRule ^en/business-kit$ /business/kit [R=301,NC,L]
-RewriteRule ^en/businesskit$ /business/kit [R=301,NC,L]
-RewriteRule ^en/Lightning$ /lightning [R=301,NC,L]
+RewriteRule ^orange-pill-pack$ /stickers [R=301,NC,L]
+RewriteRule ^sticker$ /stickers [R=301,NC,L]
+RewriteRule ^bitcoin-stickers$ /stickers [R=301,NC,L]
+RewriteRule ^opp$ /stickers [R=301,NC,L]
+RewriteRule ^gold$ /bitcoin-vs-gold [R=301,NC,L]
+RewriteRule ^cbdc$ /bitcoin-vs-cbdc [R=301,NC,L]
+RewriteRule ^CBDC$ /bitcoin-vs-cbdc [R=301,NC,L]
+RewriteRule ^INFLATION$ /inflation [R=301,NC,L]
+RewriteRule ^bank-run$ /bank-runs [R=301,NC,L]
+RewriteRule ^bankrun$ /bank-runs [R=301,NC,L]
+RewriteRule ^bankruns$ /bank-runs [R=301,NC,L]
+RewriteRule ^wallet$ /wallets [R=301,NC,L]
+RewriteRule ^postcard$ /postcards [R=301,NC,L]
+RewriteRule ^guide$ /business/guide [R=301,NC,L]
+RewriteRule ^guides$ /business/guide [R=301,NC,L]
+RewriteRule ^business/guides$ /business/guide [R=301,NC,L]
+RewriteRule ^kit$ /business/kit [R=301,NC,L]
+RewriteRule ^business-kit$ /business/kit [R=301,NC,L]
+RewriteRule ^businesskit$ /business/kit [R=301,NC,L]
+RewriteRule ^Lightning$ /lightning [R=301,NC,L]
 
 # 404 page for broken links
 ErrorDocument 404 /404.html
