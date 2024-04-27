@@ -6,11 +6,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>FAQs for Accepting Bitcoin</title>
-        <meta name="description" content="Have questions about accepting Bitcoin payments at your business?">
+        <title data-i18n="frequently_asked_questions_about_accepting_bitcoin"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Have questions about accepting Bitcoin payments at your business?">
+        <meta property="og:title" lang="en" content="FAQs for Accepting Bitcoin" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/faq" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-faq-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/faq">
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
@@ -34,23 +55,9 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-
-        <meta property="og:title" content="FAQs for Accepting Bitcoin" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business/faq" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-faq-v1.png" />
-
-        <meta name="twitter:title" content="FAQs for Accepting Bitcoin">
-        <meta name="twitter:description" content="Have questions about accepting Bitcoin payments at your business?">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-faq-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
-
-
-
+        <!--Main stylesheet + typekit for fonts-->
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-
-
 
         <script>
         function toggleDiv(event, div) {
@@ -74,27 +81,16 @@
 
 
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
-
-
-
-
             </div><!--/container-inner-->
-
-
-
-            <div id="USD" class="countries" style="display:block">
 
 
                 <div class="text-box home-intro">
                     <div class="container-inner" id="intro-container">
 
-
-                         <h2 class="h2-inflation">HAVE QUESTIONS ABOUT ACCEPTING BITCOIN PAYMENTS?</h2>
+                         <h2 class="h2-inflation" data-i18n="faq_header"></h2>
 
                     </div><!--/container-inner-->
 
@@ -104,118 +100,128 @@
                 <div class="break-micro"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">What is Bitcoin?</p>
-                    <p class="additional-text">Bitcoin is two things: digital money and a computer network.
-                        <br /><br />
-                    You can send Bitcoin (the digital money) directly to other people using the Bitcoin Network.
-                        <br /><br />
-                    The Bitcoin Network is able to operate without middlemen or central authorities, like banks or credit card companies, so you can avoid their transaction fees.
-                        <br /><br />
-                    Bitcoin’s lightning fast transactions settle instantly and can never be charged back, so you can sleep easy knowing your money is your money.
+                    <p class="initial-text" data-i18n="faq_s1"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s1_c1"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s1_c2"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s1_c3"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s1_c4"></span>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">How can Bitcoin benefit my business?</p>
-                    <p class="additional-text">Bitcoin allows you to accept payments with lower fees and get more customers. Bitcoin payments have low fees with no minimums, settle instantly, and are immune to chargebacks and fraud.
-                    <br /><br />
-                    Accepting Bitcoin is free and allows you to list your business on Bitcoin merchant maps so Bitcoin users can easily find your business.
-                    <br /><br />
-                    <a href="https://bitcoin.rocks/business" class="white-link">See all the ways Bitcoin is good for business.</a>
+                    <p class="initial-text" data-i18n="faq_s2"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s2_c1"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s2_c2"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business" class="white-link"><span data-i18n="faq_s2_c3"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">How do I accept Bitcoin payments?</p>
-                    <p class="additional-text">All you need to accept Bitcoin payments is a free Bitcoin wallet.
-                    <br /><br />
-                    <a href="https://bitcoin.rocks/business/wallets" class="white-link">Our wallet guide</a> will get you set up quickly and easily so you can unlock the benefits of accepting Bitcoin today!
+                    <p class="initial-text" data-i18n="faq_s3"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s3_c1"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s3_c2"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business/wallets" class="white-link"><span data-i18n="faq_s3_c3"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">Can I convert the Bitcoin payments I receive to dollars?</p>
-                    <p class="additional-text">Yes! By using a hybrid wallet, you can automatically convert the Bitcoin payments you receive to dollars as soon as a payment is received. <a href="https://bitcoin.rocks/business/wallets" class="white-link">Our wallet guide</a> can help you get set up quickly and easily.
-                    <br /><br />
-                    You can also choose to keep a portion of the payments you receive as Bitcoin. Bitcoin is a <a href="https://bitcoin.rocks/bank-runs" class="white-link">full reserve financial system</a> that <a href="https://bitcoin.rocks/inflation" class="white-link">doesn't have inflation,</a> so it's a great way to store money for the long term.
-                    <br /><br />Even if you choose to convert all of your Bitcoin payments to dollars, you still get the benefits of accepting payments with much lower fees while reaching more potential customers.
+                    <p class="initial-text" data-i18n="faq_s4"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s4_c1"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business/wallets" class="white-link"><span data-i18n="faq_s4_c2"></span></a>
+                      <br /><br />
+                      <span data-i18n="faq_s4_c3"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/bank-runs" class="white-link"><span data-i18n="faq_s4_c4"></span></a>
+                      <br />
+                      <a href="https://bitcoin.rocks/inflation" class="white-link"><span data-i18n="faq_s4_c5"></span></a>
+                      <br /><br />
+                      <span data-i18n="faq_s4_c6"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s4_c7"></span>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">Can I accept Bitcoin payments in person?</p>
-                    <p class="additional-text">Yes! It's easy to accept Bitcoin payments in person using a Bitcoin wallet. <a href="https://bitcoin.rocks/business/wallets" class="white-link">Our wallet guide</a> can help you choose the Bitcoin wallet that's best for your business.
-                    <br /><br />
-                        <a href="https://bitcoin.rocks/business/wallets" class="white-link">Get your free Bitcoin wallet now.</a>
+                    <p class="initial-text" data-i18n="faq_s5"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s5_c1"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s5_c2"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business/wallets" class="white-link"><span data-i18n="faq_s5_c3"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">Can I accept Bitcoin payments online?</p>
-                    <p class="additional-text">Yes! It's easy to accept Bitcoin payments online with your existing online store.
-                    <br /><br />
-                    Check out <a href="https://bitcoin.rocks/business/wallets" class="white-link">our wallet guide</a> to start accepting Bitcoin payments today.
+                    <p class="initial-text" data-i18n="faq_s6"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s6_c1"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business/wallets" class="white-link"><span data-i18n="faq_s6_c2"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">How can I let my customers know I accept Bitcoin?</p>
-                    <p class="additional-text">We offer <a href="https://bitcoin.rocks/business/stickers" class="white-link">free "Bitcoin Accepted Here" stickers</a> that you can display in your business to let your customers know you accept Bitcoin. Click here to request your stickers.
-                    <br /><br />
-                    You can also <a href="https://bitcoin.rocks/business/maps" class="white-link">list your business on Bitcoin merchant maps</a> for free and gain exposure to millions of Bitcoin users that want to spend their Bitcoin at businesses that accept it.
+                    <p class="initial-text" data-i18n="faq_s7"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s7_c1"></span>
+                      <a href="https://bitcoin.rocks/business/stickers" class="white-link"><span data-i18n="faq_s7_c2"></span></a>
+                      <br /><br />
+                      <span data-i18n="faq_s7_c3"></span>
+                      <a href="https://bitcoin.rocks/business/maps" class="white-link"><span data-i18n="faq_s7_c4"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">How can I get more customers by accepting Bitcoin?</p>
-                    <p class="additional-text">There are millions of Bitcoin users who want to spend their Bitcoin at businesses that accept it.
-                    <br /><br />
-                    By simply accepting Bitcoin payments, your business can <a href="https://bitcoin.rocks/business/maps" class="white-link">get listed on free Bitcoin merchant maps</a> and give you exposure to new potential customers.
+                    <p class="initial-text" data-i18n="faq_s8"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s8_c1"></span>
+                      <br /><br />
+                      <span data-i18n="faq_s8_c2"></span>
+                      <a href="https://bitcoin.rocks/business/maps" class="white-link"><span data-i18n="faq_s8_c3"></span></a>
                     </p>
                 </div><!--/expandable-->
 
                 <div class="break-nano"></div>
 
                 <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">How much does it cost to accept Bitcoin?</p>
-                    <p class="additional-text">Accepting Bitcoin at your business is 100% free. There are no contracts or hidden fees.
-                    <br /><br />
-                    Check out <a href="https://bitcoin.rocks/business/wallets" class="white-link">our wallet guide</a> to start accepting Bitcoin payments today.
+                    <p class="initial-text" data-i18n="faq_s9"></p>
+                    <p class="additional-text">
+                      <span data-i18n="faq_s9_c1"></span>
+                      <br /><br />
+                      <a href="https://bitcoin.rocks/business/wallets" class="white-link"><span data-i18n="faq_s9_c2"></span></a>
                     </p>
                 </div><!--/expandable-->
-
-                <!--<div class="break-nano"></div>
-
-                <div class="expandable" onclick="toggleDiv(event, this)">
-                    <p class="initial-text">What's the difference between a Bitcoin Lightning payment and a Bitcoin on-chain payment?</p>
-                    <p class="additional-text">Bitcoin Lightning payments happen on the Lightning Network, a 2nd layer to the Bitcoin Network. This lets your customers send you Bitcoin instantly for very low fees.
-                    <br /><br />
-                    On-chain payments happen directly on the Bitcoin Network. These payments take longer and have higher fees than Lightning payments, but still settle quickly.
-                    <br /><br />
-                    For most businesses, accepting Lightning payments makes the most sense if your average transaction size is under $500.
-                    <br /><br />
-                    Our business wallet guide will walk you through the options we recommend for your business.
-                    </p>
-                </div><!--/expandable-->
-
 
                 <div class="break-micro"></div>
 
-                <h2 class="h2-inflation">MORE BUSINESS<br />RESOURCES</h2>
+                <h2 class="h2-inflation" data-i18n="common_biz_more"></h2>
 
 
             <div class="break-micro"></div>
@@ -223,7 +229,7 @@
             <a href="https://bitcoin.rocks/business">
                 <div class="biz-box biz-learn">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Learn how Bitcoin is good for business</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_learn"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -233,7 +239,7 @@
             <a href="https://bitcoin.rocks/business/wallets">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get a Bitcoin wallet to accept Bitcoin payments</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_wallets"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -243,7 +249,7 @@
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -253,7 +259,7 @@
             <a href="https://bitcoin.rocks/business/stickers">
                 <div class="biz-box biz-stickers">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Free "Bitcoin Accepted Here" stickers</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_stickers"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -263,7 +269,7 @@
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -273,69 +279,31 @@
             <a href="https://bitcoin.rocks/business/accounting">
                 <div class="biz-box biz-accounting">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Accounting Guide</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_accounting"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
 
-
-
-
-
-
-
-
-
-
-
-        </div><!--/vs-container-->
-
-
-                <!-- FOOTER -->
+<!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
 
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
 
 
                     <br /><br /><br />
                 </p>
             </div><!--/footer-->
 
-            </div><!--/USD-->
 
-
-
-
-
-
-<!-- FOOTER -->
-
-            <!--<div class="footer">
-                <p>
-
-                Submit a reason why Bitcoin rocks: <a href="mailto:submit@bitcoin.rocks" class="footer-link" target="_blank">submit@bitcoin.rocks</a>
-
-                <br />
-
-
-
-                </p>
-            </div><!--/footer-->
-
-
-        <!--</div><!--/container-main-->
-
-
-      <!--
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-
-
+        </div><!--/container-main-->
 
     </body>
 </html>

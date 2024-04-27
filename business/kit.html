@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Bitcoin Business Kit</title>
-        <meta name="description" content="Get a business to accept Bitcoin with our Bitcoin Business Kit!">
-        
+        <title data-i18n="bitcoin_business_kit"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Get a business to accept Bitcoin with our Bitcoin Business Kit!">
+        <meta property="og:title" lang="en" content="Bitcoin Business Kit" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/kit" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-kit-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/kit">
+
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-        
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
+
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="i../mg/favicons/apple-touch-icon-114x114.png" />
@@ -33,158 +54,47 @@
         <meta name="msapplication-square150x150logo" content="../img/favicons/mstile-150x150.png" />
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
-        
-        <meta property="og:title" content="Bitcoin Business Kit" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business/kit" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-kit-v1.png" />
-        
-        <meta name="twitter:title" content="Bitcoin Business Kit">
-        <meta name="twitter:description" content="Get a business to accept Bitcoin with our Bitcoin Business Kit!">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-kit-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
 
-    
-
+        <!-- Main stylesheet + typekit for fonts -->
         <link rel="stylesheet" href="../css/style.css?88">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-        
+
         <!-- Show proper country form based on dropdown selection. -->
-        <script src="../jquery/jquery-3.6.1.slim.min.js"></script>
         <script src="../jquery/countryselector.js"></script>
-        
-        
-        <!--COUNTDOWN TIMERS-->
-        <script>
-        // Set the end times for the two countdowns
-        var countDownDate1 = new Date("2023-05-21T16:00:00").getTime();
-        var countDownDate2 = new Date("2023-05-20T23:59:59").getTime();
-        var countDownDate3 = new Date("2023-05-31T23:59:59").getTime();
-        var countDownDate4 = new Date("2023-05-28T16:00:00").getTime();
 
-        // Countdown function for the first countdown
-        function countdown1() {
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate1 - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown1").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("countdown1").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        }
-
-        // Countdown function for the second countdown
-        function countdown2() {
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate2 - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("countdown2").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        }
-          
-            
-        // Countdown function for 3 countdown
-        function countdown3() {
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate3 - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown3").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("countdown3").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        }
-            
-            
-        // Countdown function for 4 countdown
-        function countdown4() {
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate4 - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("countdown4").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("countdown4").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-        }
-
-        // Call the countdown functions for each countdown
-        countdown1();
-        countdown2();
-        countdown3();
-        countdown4();
-        
-        </script>
-        
     </head>
     <body>
-    
-        
+
+
         <div class="container-main">
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
-                
-                 <img src="../img/bbk/bbk-vertical-v1.png" class="inline" style="margin-top:30px;"/>
-                
-                <!--<h2 class="h2-inflation">LET YOUR CUSTOMERS KNOW YOU ACCEPT BITCOIN</h2>
-                
-                <img src="../img/bbk/ph-sticker.png" class="inline" />-->
+
+                <h2 class="h2-inflation" data-i18n="kit_header"></h2>
+
+                <img src="../img/bbk/bbk-vertical-v2.png" class="inline"/>
             </div><!--/container-inner-->
-            
+
                 <div class="break"></div>
-            
+
                 <div class="text-box intro sticker-box">
                     <div class="container-inner">
-                        
-                    
-                        <p class="step">REQUEST YOUR FREE KIT</p>
-                        <p>Each Bitcoin Business Kit includes two brochures to make it easy to get a local business to accept Bitcoin.</p>
-                        
-                        
+
+                        <p class="step" data-i18n="kit_request"></p>
+                        <br />
+                        <p data-i18n="kit_request_details"></p>
+
                         <center><select id="countryselector" style="margin-bottom: 30px !important;">
-                            <option selected disabled>Choose your country</option>
-                            <option value="USA">USA</option>
-                            <option value="Canada">Canada</option>
-                            <option value="Print">Anywhere Else</option>
+                            <option selected disabled data-i18n="common_choose_your_country"></option>
+                            <option value="USA" data-i18n="common_country_usa"></option>
+                            <option value="Canada" data-i18n="common_country_canada"></option>
+                            <option value="Print" data-i18n="kit_country_global_print"></option>
                         </select></center>
-                        
-                        
-                        
-                  
-                        
-                        
-                        
+
+
                         <div id="USA" class="countries" style="display:none">
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Business Kit in a plain white envelope.<br /><br />Address data is deleted once your kit is shipped.</p>
+                            <p data-i18n="kit_enter_address"></p>
                             <form action="https://getform.io/f/abe909a5-7c4e-45e0-b3af-b7175619f8e9" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -193,16 +103,16 @@
                             <input type="text" name="state" placeholder="State" id="state" required>
                             <input type="text" name="zip" placeholder="Zip Code" id="zip" required><br />
                             <input type="hidden" name="_gotcha" style="display:none !important">
-                           
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BUSINESS KIT</p></button>
+
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
-                            
-                            
+
+
                         </div><!--/USA-->
-                    
-                    
-                        <div id="Canada" class="countries" style="display:none">  
-                            <p>Enter your mailing address and we'll send you a free Bitcoin Business Kit in a plain white envelope.<br /><br />Address data is deleted once your kit is shipped.</p>
+
+
+                        <div id="Canada" class="countries" style="display:none">
+                            <p data-i18n="kit_enter_address"></p>
                             <form action="https://getform.io/f/777d78b9-76d5-4ebc-a2fa-eaee229ef2bd" method="POST">
                             <input type="text" name="name" placeholder="Name (optional)"><br />
                             <input type="text" name="address1" placeholder="Address Line 1" required><br />
@@ -210,164 +120,127 @@
                             <input type="text" name="city" placeholder="City" id="city" required>
                             <input type="text" name="province" placeholder="Province" id="state" required>
                             <input type="text" name="postal" placeholder="Postal Code" id="zip" required><br />
-                           
-                            <button type="submit" class="button-form"><p>GET MY FREE<br />BUSINESS KIT</p></button>
+
+                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
                             </form>
-                            
-                            
+
+
                         </div><!--/Canada-->
-                        
-                    
-                        <div id="Print" class="countries" style="display:none">  
-                            <p>You can participate by printing your own brochures, no matter where you live! You can also send businesses to our digital business kit to avoid printing anything.</p>
-                        
-                            
-                            
-                            
-                            <a href="https://bitcoin.rocks/business/files" target="_blank"><div class="button button-sticker"><p>VIEW FILES</p></div></a>
-                            
-                            <a href="https://bitcoin.rocks/business"><div class="button button-sticker"><p>DIGITAL KIT</p></div></a>
-                            
-                            
-                            
-                            
-                            
-                        
-                                
-                            
-                            <!--<div class="break-micro"></div>
-                            <p>Don't see your language?<br/><br />Fill out the form below to request sticker files in your local language.</p>
-                            
-                            <form action="https://getform.io/f/0b3790d0-6706-40c4-a4d0-bfcde8755564" method="POST">
-                            <input type="text" name="language" placeholder="Language" required><br />
-                            <input type="email" name="email" placeholder="Enter your email to be notified (optional)"><br />
-                           
-                            <button type="submit" class="button-form"><p>REQUEST<br />STICKER FILES</p></button>
-                            </form>-->
-                            
+
+
+                        <div id="Print" class="countries" style="display:none">
+
+                            <p data-i18n="kit_print_details"></p>
+                            <br />
+
+                            <a href="https://bitcoin.rocks/business/files" target="_blank"><div class="button button-sticker"><p data-i18n="kit_view_files"></p></div></a>
+
+                            <a href="https://bitcoin.rocks/business"><div class="button button-sticker"><p data-i18n="kit_digital_kit"></p></div></a>
+
                         </div><!--/Add-->
-                        
-                        
-            
 
 
-
-                        
-                        
-                            
-                        <br /><br />
-                    
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-        
+
                 <div class="break"></div>
-        
-               
-                <h2 class="h2-inflation">EACH KIT<br />LINKS TO THESE<br />FREE RESOURCES</h2>
-          
-            
-            
+
+
+                <h2 class="h2-inflation" data-i18n="kit_resources"></h2>
+
+
+
             <div class="break-micro"></div>
-            
-            
+
+
             <a href="https://bitcoin.rocks/business">
                 <div class="biz-box biz-learn">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Learn why Bitcoin is good for business</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_learn"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/wallets">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get a Bitcoin wallet to accept Bitcoin payments</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_wallets"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/stickers">
                 <div class="biz-box biz-stickers">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Free "Bitcoin Accepted Here" stickers</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_stickers"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/accounting">
                 <div class="biz-box biz-accounting">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Accounting Guide</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_accounting"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/faq">
                 <div class="biz-box biz-faq">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Frequently Asked Questions</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_faq"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
-            
-            
-            
-            
-            
-            
-<!-- FOOTER -->     
-            
+
+<!-- FOOTER -->
+
             <div class="footer">
                 <p>
-                    
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
-                    
+
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
+
                 <br /><br />
-                
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-                    
-                
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+
+
                     <br /><br /><br />
                 </p>
             </div><!--/footer-->
-                
-            
+
+
         </div><!--/container-main-->
-        
-        
-      <!--  
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-        
-       
-        
+
     </body>
 </html>

@@ -6,11 +6,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Learn why Bitcoin is good for business</title>
-        <meta name="description" content="Accept payments with lower fees and get more customers.">
+        <title data-i18n="learn_why_bitcoin_is_good_for_business"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Accept payments with lower fees and get more customers.">
+        <meta property="og:title" lang="en" content="Learn why Bitcoin is good for business" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/why" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-why-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/why">
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
@@ -34,24 +55,9 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-
-        <meta property="og:title" content="Learn why Bitcoin is good for business" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business/why" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-why-v1.png" />
-
-        <meta name="twitter:title" content="Learn why Bitcoin is good for business">
-        <meta name="twitter:description" content="Accept payments with lower fees and get more customers.">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-why-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
-
-
-
+        <!-- Main stylesheet + typekit for fonts -->
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-
-
-
 
     </head>
     <body>
@@ -64,7 +70,7 @@
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation">BITCOIN IS<br />GOOD FOR<br />BUSINESS</h2>
+                <h2 class="h2-inflation" data-i18n="why_header"></h2>
 
             </div><!--/container-inner-->
 
@@ -72,24 +78,24 @@
 
             <div class="break-micro"></div>
 
-            <a href="https://bitcoin.rocks/business"><center><div class="biz-button"><p>LEARN MORE</p></div></center></a>
+            <a href="https://bitcoin.rocks/business"><center><div class="biz-button"><p data-i18n="common_learn_more"></p></div></center></a>
 
             <div class="break-micro"></div>
 
             <div class="container-inner">
-                <h2 class="h2-inflation">BITCOIN IS<br />GOOD FOR<br />YOU TOO!</h2>
+                <h2 class="h2-inflation" data-i18n="why_good_for_you"></h2>
             </div>
 
             <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Bitcoin doesn't have inflation</h7>
-                        <p>Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.<br /><br />Bitcoin has a fixed supply, which means no one can print more Bitcoin. <a href="https://bitcoin.rocks/inflation" class="orange-link">Learn more.</a>
-
-                           </p>
-
-
-
+                        <h7 data-i18n="why_s1"></h7>
+                        <p>
+                          <span data-i18n="why_s1_c1"></span>
+                          <br /><br />
+                          <span data-i18n="why_s1_c2"></span>
+                          <a href="https://bitcoin.rocks/inflation" class="orange-link"><span data-i18n="why_learn_more_lowercase"></span></a>
+                        </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -98,15 +104,15 @@
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Bitcoin doesn't have bank runs</h7>
-                        <p>Multiple US banks have collapse this year due to bank runs.<br /><br />Instead of just holding your money for you, banks invest and lend out your money. If those investments don't do well, they don't have enough to pay you back.<br /><br />And the FDIC insurance fund only has $1 for every $100 they're insuring.
-
-
-                            <a href="https://bitcoin.rocks/bank-runs" class="orange-link">Learn more.</a>
-                           </p>
-
-
-
+                        <h7 data-i18n="why_s2"></h7>
+                        <p>
+                          <span data-i18n="why_s2_c1"></span>
+                          <br /><br />
+                          <span data-i18n="why_s2_c2"></span>
+                          <br /><br />
+                          <span data-i18n="why_s2_c3"></span>
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><span data-i18n="why_learn_more_lowercase"></span></a>
+                        </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -115,9 +121,13 @@
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Bitcoin is permissionless</h7>
-                        <p>Unlike traditional financial networks, Bitcoin doesn't require permission to be used.<br /><br />That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.
-                           </p>
+                        <h7 data-i18n="why_s3"></h7>
+                        <p>
+                          <span data-i18n="why_s3_c1"></span>
+                          <br /><br />
+                          <span data-i18n="why_s3_c2"></span>
+                          <a href="https://voteforbetter.money/learn/bitcoin-is-permissionless" class="orange-link" target="_blank"><span data-i18n="why_learn_more_lowercase"></span></a>
+                        </p>
 
 
 
@@ -129,70 +139,79 @@
             <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Bitcoin is already improving the world</h7>
-                        <p>Bitcoin is a misunderstood technology that is already improving the world.<br /><br />Bitcoin has enabled human rights activists to fight for freedom, cleaned up coal dumps in Pennsylvania, saved national parks, and so much more.
-                            <br /><br />
-                            <a href="https://bitcoin.rocks" class="orange-link">Learn how Bitcoin is already improving the world.</a>
-                           </p>
-
-
-
+                        <h7 data-i18n="why_s4"></h7>
+                        <p>
+                          <span data-i18n="why_s4_c1"></span>
+                          <br /><br />
+                          <span data-i18n="why_s4_c2"></span>
+                          <a href="https://bitcoin.rocks" class="orange-link"><span data-i18n="why_learn_more_lowercase"></span></a>
+                        </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break-micro"></div>
 
-                <!-- GET STARTED -->
+<!-- GET STARTED -->
 
 
-            <div class="break"></div>
+            <div class="break-micro"></div>
 
-                <a href="https://bitcoin.rocks/">
+                <a href="https://bitcoin.rocks" target="_blank">
                     <div class="text-box top">
                         <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
+                          <h3 id="get-started" data-i18n="common_cta_section_get_started"></h3>
+                          <h3 class="second-line get-started" data-i18n="common_cta_section_with_bitcoin"></h3>
 
                             <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_1_alt"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
+                <a href="https://bitcoin.rocks/wallets">
+                    <div class="text-box middle">
+                        <div class="container-inner">
 
-                <a href="https://bitcoin.rocks/business">
+                            <div class="item">
+                                <h4 data-i18n="common_cta_section_title_2"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_guide"></div>
+                                <div class="author" data-i18n="common_cta_author_bitcoin_rocks"></div>
+                                <div class="clear"></div>
+                            </div><!--/item-->
+                        </div><!--/container-inner-->
+                    </div><!--/text-box-->
+                </a>
+
+                <a href="https://strike.me" target="_blank">
                     <div class="text-box bottom">
                         <div class="container-inner">
 
                             <div class="item">
-                                <h4>Accept Bitcoin at your business</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">Bitcoin.rocks</div>
+                                <h4 data-i18n="common_cta_section_title_3"></h4>
+                                <div class="type" data-i18n="common_cta_link_type_website"></div>
+                                <div class="author" data-i18n="common_cta_author_strike"></div>
                                 <div class="clear"></div>
                             </div><!--/item-->
                         </div><!--/container-inner-->
                     </div><!--/text-box-->
                 </a>
 
-
-
-
-
-
-
-            <!-- FOOTER -->
+<!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
 
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
 
 
                     <br /><br /><br />
@@ -200,8 +219,7 @@
             </div><!--/footer-->
 
 
-
-
         </div><!--/container-main-->
+
     </body>
 </html>

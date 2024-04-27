@@ -566,6 +566,7 @@ span.freedom, .jump-freedom, .freedom{
         font-size: 20px !important;
         line-height: 30px !important;
         padding-bottom: 13px !important;
+        text-transform: capitalize !important;
     }
 
     .inflation-button{
@@ -1875,6 +1876,7 @@ h5{
     overflow: wrap !important;
     padding-right: 2.5%;
     padding-left: 2.5%;
+    text-transform: uppercase;
 }
 
 .orange-bg{

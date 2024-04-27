@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>How to Accept Bitcoin Payments</title>
-        <meta name="description" content="Get a free Bitcoin wallet to accept Bitcoin payments.">
-        
+        <title data-i18n="how_to_accept_bitcoin_payments"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Get a free Bitcoin wallet to accept Bitcoin payments.">
+        <meta property="og:title" lang="en" content="How to Accept Bitcoin Payments" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/wallets" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/wallets">
+
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-        
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
+
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png" />
@@ -33,24 +54,12 @@
         <meta name="msapplication-square150x150logo" content="../img/favicons/mstile-150x150.png" />
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
-        
-        
-        <meta property="og:title" content="How to Accept Bitcoin Payments" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business/wallets" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png" />
-        
-        <meta name="twitter:title" content="How to Accept Bitcoin Payments">
-        <meta name="twitter:description" content="Get a free Bitcoin wallet to accept Bitcoin payments.">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
 
-    
-
+        <!-- Main stylesheet + typekit for fonts -->
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-        
-        
+
+        <!-- Show / hide wallets content -->
         <script>
         function toggleDiv(event, div) {
             // Check if the clicked target is a link (or a child of a link)
@@ -66,357 +75,321 @@
         }
 
         </script>
-        
-        
-        
+
     </head>
     <body>
-    
-        
+
+
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
+
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
-                
-                
-                
-                
             </div><!--/container-inner-->
-            
 
-            
-            <div id="USD" class="countries" style="display:block">
-                            
-                        
+
+
+
                 <div class="text-box home-intro">
                     <div class="container-inner" id="intro-container">
-                        
-                     
-                         <h2 class="h2-inflation">GET A FREE BITCOIN WALLET TO ACCEPT BITCOIN PAYMENTS</h2>
-                    
+                         <h2 class="h2-inflation" data-i18n="wallets_header"></h2>
                     </div><!--/container-inner-->
-        
-                    
                 </div><!--text-box-->
-        
+
                 <div class="break-micro"></div>
-            
+
                 <div class="text-box intro">
                     <div class="container-inner">
-                        
-                    
-                        <p>All Bitcoin wallets are interoperable, so your customers can pay you in Bitcoin no matter which wallet they use.<br /><br />
-                        <span class="bold">Bitcoin-only wallets</span> are pure Bitcoin wallets that unlock the full benefits of Bitcoin: no middlemen, low fees, and no chargebacks or fraud. 
-                            <br /><br />
-                            <span class="bold">Hybrid wallets</span> allow you to exchange any portion of your Bitcoin for dollars as soon as a customer pays you. Fees are still less than card payments, but higher than pure Bitcoin payments.
-                            <br /><br />
-                        Both are great ways to accept Bitcoin. The specific wallet you use will depend on the size and type of your business.
-                           </p>
-                       
-                        
-                        
+
+                        <div class="break-no-title"></div>
+                        <p>
+                          <span data-i18n="wallets_intro_1"></span>
+                          <br /><br />
+                          <span class="bold" data-i18n="wallets_intro_2"></span>
+                          <span data-i18n="wallets_intro_3"></span>
+                          <br /><br />
+                          <span class="bold" data-i18n="wallets_intro_4"></span>
+                          <span data-i18n="wallets_intro_5"></span>
+                          <br /><br />
+                          <span data-i18n="wallets_intro_6"></span>
+                        </p>
+
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-            
-             
-                
-                <!--<div class="text-box intro inflation-box">
-                    <div class="container-inner">
-                        <h3 class="wallet-h3">HARDWARE<br />WALLETS</h3>
-                    
-                        <p>Hardware wallets are like long-term savings accounts: they should be super secure and accessed infrequently.
-                        </p>
-                    </div><!--/container-inner-->
-                <!--</div><!--text-box-->
-                
-                <!--<div class="break"></div>-->
-                
-        
+
+
                 <div class="break-micro"></div>
-        
-                
-        
+
+
         <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
-            <h5>WALLETS FOR<br />INDIVIDUALLY OWNED BUSINESSES</h5>
+            <h5 data-i18n="wallets_choice_sole"></h5>
         <div class="vs-container additional-text">
                 <div class="wallet-box-biz wallet-biz-1">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/breez-business.png" class="device"/></center>
-                        <h6>BREEZ WALLET</h6>
-                        
+                        <h6 data-i18n="wallets_name_breez"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Bitcoin-only wallet</span>
-                            <br />No info required
-                            <br />In-person payments only
-                            <br />Settles 100% in Bitcoin
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_bitcoin_only"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_no_info"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_in_person"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_bitcoin"></span>
+                          <br /><br />
                         </p>
-                           
-                        
-                        <a href="https://breez.technology/mobile/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://breez.technology/mobile/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-            
-                
-            
+
+
+
                 <div class="wallet-box-biz wallet-biz-2">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/opennode-business.png" class="device"/></center>
-                        <h6>OPEN NODE</h6>
-                        
+                        <h6 data-i18n="wallets_name_open_node"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Hybrid wallet</span>
-                            <br />Business info required
-                            <br />In-person &amp; online payments
-                            <br />Settle in Bitcoin &amp; dollars
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_hybrid"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_info"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_in_person_online"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_both"></span>
+                          <br /><br />
                         </p>
-                            
-                        
-                        <a href="https://www.opennode.com/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://www.opennode.com/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-                
+
                 <div class="break"></div>
-                
-                
+
+
         </div><!--/vs-container-->
         </div><!--/text-box intro orange-bg-->
-                
-                
-                
-                
+
+
+
+
         <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
-            <h5>WALLETS FOR<br />BUSINESSES WITH MULTIPLE EMPLOYEES</h5>
+            <h5 data-i18n="wallets_choice_multiple"></h5>
         <div class="vs-container additional-text">
                 <div class="wallet-box-biz wallet-biz-2">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/ibex-business.png" class="device"/></center>
-                        <h6>IBEX PAY</h6>
-                        
+                        <h6 data-i18n="wallets_name_ibex_pay"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Hybrid wallet</span>
-                            <br />Multiple employee support (BPTs)
-                            <br />In-person &amp; online payments
-                            <br />Settles in Bitcoin &amp; dollars
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_hybrid"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_multiple_employees"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_in_person_online"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_both"></span>
+                          <br /><br />
                         </p>
-                           
-                        
-                        <a href="https://www.poweredbyibex.io/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://www.poweredbyibex.io/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-            
-                
-            
-                
-                
+
+
                 <div class="break"></div>
-                
-                
+
+
         </div><!--/vs-container-->
         </div><!--/text-box intro orange-bg-->
-                
-        
+
+
         <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
-            <h5>WALLETS FOR<br />ONLINE BUSINESSES</h5>
+            <h5 data-i18n="wallets_choice_online"></h5>
         <div class="vs-container additional-text">
-            
+
                 <div class="wallet-box-biz wallet-biz-1">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/btcpay-business.png" class="device"/></center>
-                        <h6>BTCPAY SERVER</h6>
-                        
+                        <h6 data-i18n="wallets_name_btcpay_server"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Bitcoin-only wallet</span>
-                            <br />No info required
-                            <br />Self-hosted = 0% fees
-                            <br />Settles 100% in Bitcoin
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_bitcoin_only"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_no_info"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_self_hosted"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_bitcoin"></span>
+                          <br /><br />
                         </p>
-                            
-                        
-                        <a href="https://btcpayserver.org/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://btcpayserver.org/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="wallet-box-biz wallet-biz-solo">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/opennode-online-business.png" class="other"/></center>
-                        <h6>OPEN NODE</h6>
-                        
+                        <h6 data-i18n="wallets_name_open_node"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Hybrid wallet</span>
-                            <br />Business info required
-                            <br />Online store integration
-                            <br />Settle in Bitcoin &amp; dollars
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_hybrid"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_info"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_online_store"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_both"></span>
+                          <br /><br />
                         </p>
-                            
-                        
-                        <a href="https://www.opennode.com/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://www.opennode.com/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-                
+
                 <div class="break"></div>
-                
-                
+
+
         </div><!--/vs-container-->
         </div><!--/text-box intro orange-bg-->
-                
-                
-                
+
+
+
         <div class="text-box intro orange-bg expandable" onclick="toggleDiv(event, this)">
-            <h5>WALLETS FOR<br />INVOICE-BASED BUSINESSES</h5>
+            <h5 data-i18n="wallets_choice_invoice"></h5>
         <div class="vs-container additional-text">
                 <div class="wallet-box-biz wallet-biz-solo">
                     <div class="container-inner">
-                        
+
                         <center><img src="../img/wallets/zaprite-business.png" class="other"/></center>
-                        <h6>ZAPRITE</h6>
-                        
+                        <h6 data-i18n="wallets_name_zaprite"></h6>
+
                         <div class="break-mini"></div>
-                        <p><span class="bold">Bitcoin-only wallet</span>
-                            <br />No info required
-                            <br />Free invoicing software
-                            <br />Settles 100% in Bitcoin
-                            <br /><br />
+                        <p>
+                          <span class="bold" data-i18n="wallets_feature_bitcoin_only"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_no_info"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_invoicing"></span>
+                          <br />
+                          <span data-i18n="wallets_feature_settles_bitcoin"></span>
+                          <br /><br />
                         </p>
-                           
-                        
-                        <a href="https://zaprite.com/" target="_blank"><div class="wallet-button">GET WALLET</div></a>
+
+
+                        <a href="https://zaprite.com/" target="_blank"><div class="wallet-button" data-i18n="wallets_get_wallet"></div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
-            
-                
-            
-                
-                
+
+
                 <div class="break"></div>
-                
-                
+
+
         </div><!--/vs-container-->
         </div><!--/text-box intro orange-bg-->
-                
-        
-   
-   
-                
-                <h2 class="h2-inflation">MORE BUSINESS<br />RESOURCES</h2>
-            
-            
+
+
+                <h2 class="h2-inflation" data-i18n="common_biz_more"></h2>
+
+
             <div class="break-micro"></div>
-            
+
             <a href="https://bitcoin.rocks/business">
                 <div class="biz-box biz-learn">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Learn how Bitcoin is good for business</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_learn"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/stickers">
                 <div class="biz-box biz-stickers">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Free "Bitcoin Accepted Here" stickers</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_stickers"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-                
+
             <div class="break-nano"></div>
-            
+
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/accounting">
                 <div class="biz-box biz-accounting">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Accounting Guide</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_accounting"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/faq">
                 <div class="biz-box biz-faq">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Frequently Asked Questions</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_faq"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-                
-                <!-- FOOTER -->     
-            
+
+<!-- FOOTER -->
+
             <div class="footer">
                 <p>
-                    
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
-                    
+
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
+
                 <br /><br />
-                
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-                    
-                
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+
+
                     <br /><br /><br />
                 </p>
             </div><!--/footer-->
-            
-            </div><!--/USD-->
 
 
-            
+        </div><!--/container-main-->
 
-            
-            
-<!-- FOOTER -->     
-            
-            <!--<div class="footer">
-                <p>
-                
-                Submit a reason why Bitcoin rocks: <a href="mailto:submit@bitcoin.rocks" class="footer-link" target="_blank">submit@bitcoin.rocks</a>
-                    
-                <br />
-                    
-                 
-                
-                </p>
-            </div><!--/footer-->
-                
-            
-        <!--</div><!--/container-main-->
-        
-        
-      <!--  
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-        
-       
-        
     </body>
 </html>

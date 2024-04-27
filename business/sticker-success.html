@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Success!</title>
-        <meta name="description" content="">
-        
+        <title data-i18n="common_success"></title>
+
+        <!-- No language specific meta info needed for these success pages. -->
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/sticker-success">
+
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-        
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
+
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png" />
@@ -34,186 +48,111 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-    
-
+        <!-- Main stylesheet + typekit for fonts -->
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-        
-       
-        
+
     </head>
     <body>
-    
-        
+
         <div class="container-main">
             <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
-            
-            <h2 class="h2-stickers"><span class="inflation">SUCCESS!</span></h2>
-            
+
+            <h2 class="h2-stickers"><span class="inflation" data-i18n="common_success"></span></h2>
+
             <div class="text-box intro">
                 <div class="container-inner">
-                    <p>You will receive your stickers in 1 to 2 weeks in a plain white envelope.<br /><br />Each envelope includes 3 stickers. If you need more than 3 stickers for your business, feel free to <a href="https://bitcoin.rocks/business/stickers" class="orange-link">request another pack!</a>
-                
-                </p>
-                    
+                    <div class="break-no-title"></div>
+                    <p data-i18n="sticker_success_details"></p>
                 </div><!--/container-inner-->
             </div><!--text-box-->
-            
-          
-            <h2 class="h2-inflation">MORE BUSINESS<br />RESOURCES</h2>
-            
-            
+
+
+            <h2 class="h2-inflation" data-i18n="common_biz_more"></h2>
+
+
             <div class="break-micro"></div>
-            
-  
+
+
             <a href="https://bitcoin.rocks/business">
                 <div class="biz-box biz-learn">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Learn how Bitcoin is good for business</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_learn"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/wallets">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get a Bitcoin wallet to accept Bitcoin payments</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_wallets"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/accounting">
                 <div class="biz-box biz-accounting">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Accounting Guide</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_accounting"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
+
             <div class="break-nano"></div>
-            
+
             <a href="https://bitcoin.rocks/business/faq">
                 <div class="biz-box biz-faq">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Frequently Asked Questions</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_faq"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-            
-            
-            
-            
-   
-            
-         
-            
-            
-            <!-- GET STARTED -->
-            
-            
-            <!--<div class="break"></div>
-            
-                <a href="https://bitcoin.rocks/">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                            <h3>GET STARTED<br />WITH <span class="get-started">BITCOIN</span></h3>
 
-                            <div class="item first">
-                                <h4>Learn more about Bitcoin</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">Bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        <!--</div><!--/container-inner-->
-                    <!--</div><!--/text-box-->
-               <!-- </a>
-            
-                
-                <a href="https://bitcoin.rocks/wallets">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-                            
-                            <div class="item">
-                                <h4>Get your first Bitcoin Wallet</h4>
-                                <div class="type">GUIDE</div>
-                                <div class="author">Bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                    <!--    </div><!--/container-inner-->
-                   <!-- </div><!--/text-box-->
-               <!-- </a>
-            
-                
-                <a href="https://www.swanbitcoin.com/bitcoinrocks" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-                            
-                            <div class="item">
-                                <h4>Start Saving in Bitcoin Today</h4>
-                                <div class="type">WEBSITE</div>
-                                <div class="author">SwanBitcoin.com</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                       <!-- </div><!--/container-inner-->
-                   <!-- </div><!--/text-box-->
-             <!--   </a>
-            
-            
-            
-            
-            
-<!-- FOOTER -->     
-            
-          <div class="footer">
+<!-- FOOTER -->
+
+            <div class="footer">
                 <p>
-                    
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
-                    
+
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
+
                 <br /><br />
-                
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
-                    
-                
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+
+
                     <br /><br /><br />
                 </p>
             </div><!--/footer-->
-                
-            
+
+
         </div><!--/container-main-->
-        
-        
-        
-        
-      <!--  
-        <div class="bot-bar"><p>Bookmark this page to share when Bitcoin comes up in conversation.</p></div>-->
-        
-       
-        
+
     </body>
 </html>
-

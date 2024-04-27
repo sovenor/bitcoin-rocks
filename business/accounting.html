@@ -6,11 +6,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Bitcoin Business Accounting Guide</title>
-        <meta name="description" content="Learn how to properly account for Bitcoin payments in your business accounting.">
+        <title data-i18n="bitcoin_business_accounting_guide"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Learn how to properly account for Bitcoin payments in your business accounting.">
+        <meta property="og:title" lang="en" content="Bitcoin Business Accounting Guide" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business/accounting" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-accounting-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business/accounting">
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
@@ -34,115 +55,107 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-
-        <meta property="og:title" content="Bitcoin Business Accounting Guide" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business/accounting" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-accounting-v1.png" />
-
-        <meta name="twitter:title" content="Bitcoin Business Accounting Guide">
-        <meta name="twitter:description" content="Learn how to properly account for Bitcoin payments in your business accounting.">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-accounting-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
-
-
-
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-
-
-
 
     </head>
     <body>
 
 
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
+
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation" id="changing-header">BITCOIN<br />ACCOUNTING<br />GUIDE</h2>
+                <h2 class="h2-inflation" data-i18n="accounting_header"></h2>
 
                 <div class="break-micro"></div>
 
-
-
-
-
             </div><!--/container-inner-->
-
-            <div id="USD" class="countries" style="display:block">
 
 
                 <div class="text-box intro">
                     <div class="container-inner">
 
-
-                        <p>Accepting Bitcoin has <a href="https://bitcoin.rocks/business" class="orange-link">many benefits</a> like accepting payments with lower fees &amp; getting more customers.<br /><br />If you use a Hybrid Wallet from our <a href="https://bitcoin.rocks/business/wallets" class="orange-link">Wallet Guide</a> and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.<br /><br />However, if you keep some of the Bitcoin payments you receive as Bitcoin, you'll need to keep track of a few details for your accounting. This can seem intimidating at first, but is actually quite simple.<br /><br />
-                        Please note: this guide is for informational purposes only and is not to be considered tax advice. If you need tax advice, we highly recommend <a href="https://satoshipacioli.com/" target="_blank" class="orange-link">Satoshi Pacioli Accounting Services,</a> an accounting firm that specializes in Bitcoin acccounting.
-                        </p>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break"></div>
-
-                <div class="text-box intro inflation-box">
-                    <div class="container-inner">
-                        <h3>TRACKING YOUR<br />COST BASIS</h3>
-
-                        <p>Tracking your cost basis is going to be the biggest difference between accounting for dollars and accounting for Bitcoin. Even if you view your business entirely in terms of Bitcoin, you need to report the dollar value of each transaction on your taxes.
-
-                        <br /><br />
-                        If you use QuickBooks, you can do this automatically using the <a href="https://quickbooks.intuit.com/app/apps/appdetails/blockpath/en-us/" target="_blank" class="orange-link">Bitcoin Sync plugin.</a>
-                        <br /><br />
-                        If you don't use QuickBooks, we recommend <a href="https://satoshipacioli.com/" target="_blank" class="orange-link">Satoshi Pacioli Accounting Services,</a> an accounting firm that specializes in Bitcoin acccounting.
-                        <br /><br />
-                        To do this manually, you simply need to keep track of the amount of Bitcoin you received and the dollar value of the Bitcoin transaction on that day. You can <a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank" class="orange-link">view the current dollar price of Bitcoin here.</a> Keep track of this information in an Excel spreadsheet and give it to your accountant. You can also <a href="https://www.thespreadsheetguru.com/blog/cryptocurrency-prices-excel" target="_blank" class="orange-link">import this data into Excel automatically.</a>
-                        <br /><br />
-                        You can also view the <a href="https://www.coingecko.com/en/coins/bitcoin/historical_data#panel" target="_blank" class="orange-link">historical dollar price of Bitcoin</a> on days in the past, so you don't have to do this every day.
-                    </p>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break"></div>
-
-                <div class="text-box intro inflation-box">
-                    <div class="container-inner">
-                        <h3>SPENDING OR SELLING YOUR BITCOIN</h3>
-
-                        <p>If you use a Hybrid Wallet from our <a href="https://bitcoin.rocks/business/wallets" class="orange-link">Wallet Guide</a> and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.
-                        <br /><br />
-                        If you choose to spend or sell some of the Bitcoin you receive after holding it for a while, you simply need to add the price you sold it for into your Excel spreadsheet that tracks your cost basis.
-                        <br /><br />
-                        For example, if you received $100 worth of Bitcoin on January 1st and decided to sell or spend it on February 1st at a new value of $110, you would need to record a $10 capital gain in your accounting.
-                        <br /><br />
-                        This can also work the opposite way. For example, if you received $100 worth of Bitcoin on January 1st and decided to sell or spend it on February 1st at a new value of $90, you would need to record a $10 capital loss in your accounting.
-                        </p>
-
-
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break"></div>
-
-                <div class="text-box intro inflation-box">
-                    <div class="container-inner">
-                        <h3>I NEED<br />MORE HELP</h3>
-
-                        <p>Remember, if you use a Hybrid Wallet from our <a href="https://bitcoin.rocks/business/wallets" class="orange-link">Wallet Guide</a> and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.
-                        <br /><br />
-                        If you need more help integrating Bitcoin into your business accounting, we highly recommend <a href="https://satoshipacioli.com/" target="_blank" class="orange-link">Satoshi Pacioli Accounting Services,</a> an accounting firm that specializes in Bitcoin acccounting.
-
+                        <div class="break-no-title"></div>
+                        <p>
+                          <a href="https://bitcoin.rocks/business" class="orange-link"><span data-i18n="accounting_s1_c1"></span></a>
+                          <br /><br />
+                          <span data-i18n="accounting_s1_c2"></span>
+                          <a href="https://bitcoin.rocks/business/wallets" class="orange-link"><span data-i18n="accounting_s1_c3"></span></a>
+                          <br /><br />
+                          <span data-i18n="accounting_s1_c4"></span>
+                          <br /><br />
+                          <span data-i18n="accounting_s1_c5"></span>
+                          <br /><br />
+                          <a href="https://satoshipacioli.com/" target="_blank" class="orange-link"><span data-i18n="accounting_s1_c6"></span></a>
                         </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break-micro"></div>
 
-                <div id="ready"><h2 class="h2-inflation">MORE BUSINESS<br />RESOURCES</h2></div>
+                <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <h3 data-i18n="accounting_s2"></h3>
+
+                        <p>
+                          <span data-i18n="accounting_s2_c1"></span>
+                          <br /><br />
+                          <a href="https://quickbooks.intuit.com/app/apps/appdetails/blockpath/en-us/" target="_blank" class="orange-link"><span data-i18n="accounting_s2_c2"></span></a>
+                          <br /><br />
+                          <a href="https://satoshipacioli.com/" target="_blank" class="orange-link"><span data-i18n="accounting_s2_c3"></span></a>
+                          <br /><br />
+                          <span data-i18n="accounting_s2_c4"></span>
+                          <br /><br />
+                          <a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank" class="orange-link"><span data-i18n="accounting_s2_c5"></span></a>
+                          <br /><br />
+                          <span data-i18n="accounting_s2_c6"></span>
+                          <br /><br />
+                          <a href="https://www.thespreadsheetguru.com/blog/cryptocurrency-prices-excel" target="_blank" class="orange-link"><span data-i18n="accounting_s2_c7"></span></a>
+                          <br /><br />
+                          <a href="https://www.coingecko.com/en/coins/bitcoin/historical_data#panel" target="_blank" class="orange-link"><span data-i18n="accounting_s2_c8"></span></a>
+                        </p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break-micro"></div>
+
+                <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <h3 data-i18n="accounting_s3"></h3>
+
+                        <p>
+                          <span data-i18n="accounting_s3_c1"></span>
+                          <a href="https://bitcoin.rocks/business/wallets" class="orange-link"><span data-i18n="accounting_s3_c2"></span></a>
+                          <br /><br />
+                          <span data-i18n="accounting_s3_c3"></span>
+                          <br /><br />
+                          <span data-i18n="accounting_s3_c4"></span>
+                          <br /><br />
+                          <span data-i18n="accounting_s3_c5"></span>
+                        </p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break-micro"></div>
+
+                <div class="text-box intro inflation-box">
+                    <div class="container-inner">
+                        <h3 data-i18n="accounting_s4"></h3>
+
+                        <p>
+                          <span data-i18n="accounting_s4_c1"></span>
+                          <br /><br />
+                          <a href="https://satoshipacioli.com/" target="_blank" class="orange-link"><span data-i18n="accounting_s4_c2"></span></a>
+                        </p>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break-micro"></div>
+
+                <div id="ready"><h2 class="h2-inflation" data-i18n="common_biz_more"></h2></div>
 
 
             <div class="break-micro"></div>
@@ -150,7 +163,7 @@
             <a href="https://bitcoin.rocks/business">
                 <div class="biz-box biz-learn">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Learn how Bitcoin is good for business</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_learn"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -160,7 +173,7 @@
             <a href="https://bitcoin.rocks/business/wallets">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get a Bitcoin wallet to accept Bitcoin payments</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_wallets"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -170,7 +183,7 @@
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -180,7 +193,7 @@
             <a href="https://bitcoin.rocks/business/stickers">
                 <div class="biz-box biz-stickers">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Free "Bitcoin Accepted Here" stickers</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_stickers"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -190,7 +203,7 @@
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -200,19 +213,10 @@
             <a href="https://bitcoin.rocks/business/faq">
                 <div class="biz-box biz-faq">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Frequently Asked Questions</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_faq"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
-
-
-
-
-            </div><!--/USD-->
-
-
-
-
 
 
 <!-- FOOTER -->
@@ -220,11 +224,13 @@
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
 
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
 
 
                     <br /><br /><br />
@@ -233,10 +239,6 @@
 
 
         </div><!--/container-main-->
-
-
-
-
 
     </body>
 </html>

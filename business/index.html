@@ -6,11 +6,32 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Bitcoin is good for business</title>
-        <meta name="description" content="Accept payments with lower fees and get more customers.">
+        <title data-i18n="bitcoin_is_good_for_business"></title>
+
+        <!-- When a new language is merged, manually add new language-specific content here for SEO. The translation strings exist at the top of each corresponding file, but are not able to be pulled in automatically. -->
+        <meta name="description" lang="en" content="Accept payments with lower fees and get more customers.">
+        <meta property="og:title" lang="en" content="Bitcoin is good for business" />
+
+        <!-- Meta tags -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/business" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-index-v1.png" />
+
+        <!-- Hreflang tags for English -->
+        <link rel="alternate" hreflang="en" href="https://bitcoin.rocks/business">
 
         <!--Privacy focused analytics, does not track IP addresses-->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="../jquery/jquery.min.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="../jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="../jquery/language.js"></script>
 
         <!--Favicons for all devices-->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png" />
@@ -34,24 +55,10 @@
         <meta name="msapplication-wide310x150logo" content="../img/favicons/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="../img/favicons/mstile-310x310.png" />
 
-
-        <meta property="og:title" content="Bitcoin is good for business" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://bitcoin.rocks/business" />
-        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-index-v1.png" />
-
-        <meta name="twitter:title" content="Bitcoin is good for business">
-        <meta name="twitter:description" content="Accept payments with lower fees and get more customers.">
-        <meta name="twitter:image" content="https://bitcoin.rocks/img/meta/meta-bbk-index-v1.png">
-        <meta name="twitter:card" content="summary_large_image">
-
-
-
         <link rel="stylesheet" href="../css/style.css?60">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
 
         <!--CTA BUTTON AUTO-SCROLL TO GUIDE-->
-        <script src="../jquery/jquery.min.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -63,24 +70,15 @@
             });
         </script>
 
-
-
-
-
     </head>
     <body>
 
-
         <div class="container-main">
-            <!--<a href="https://bitcoin.rocks"><img src="img/back-button.png" class="back-button"/></a>
-            <div class="break"></div>-->
             <div class="container-inner">
                 <!--BACK TO HOME-->
                 <center><a href="https://bitcoin.rocks"><img src="../img/rocks-logo-color.png" class="back-to-home"/></a></center>
 
-                <h2 class="h2-inflation">BITCOIN IS<br />GOOD FOR<br />BUSINESS</h2>
-
-
+                <h2 class="h2-inflation" data-i18n="biz_header"></h2>
 
             </div><!--/container-inner-->
 
@@ -88,20 +86,15 @@
 
             <div class="break-micro"></div>
 
-            <center><div class="biz-button" id="scrollButton"><p>ACCEPT BITCOIN PAYMENTS</p></div></center>
+            <center><div class="biz-button" id="scrollButton"><p data-i18n="common_biz_accept_bitcoin_payments"></p></div></center>
 
             <div class="break-micro"></div>
 
             <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Low fees with no minimums</h7>
-                        <p>Bitcoin enables you to receive payments directly from your customers, much like cash. The Bitcoin network operates without middlemen like banks and credit card companies that take hefty fees.
-
-                           </p>
-
-
-
+                        <h7 data-i18n="biz_s1"></h7>
+                        <p data-i18n="biz_s1_c1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -110,12 +103,8 @@
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Instant settlement</h7>
-                        <p>Just like cash, Bitcoin’s payments settle instantly. You don’t need to wait for your credit card company or bank to pay you. Instead, you gain access to your money right away.
-                           </p>
-
-
-
+                        <h7 data-i18n="biz_s2"></h7>
+                        <p data-i18n="biz_s2_c1"></p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -124,14 +113,12 @@
                 <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>No chargebacks or fraud</h7>
-                        <p>Because Bitcoin payments happen directly between you and your customers, it’s impossible for anyone to take your money back with a chargeback.
-                            <br /><br />
-                        Counterfeit Bitcoin can not be sent on the Bitcoin Network, which means you never have to worry about fraudulent transactions that can cost your business money.
-                           </p>
-
-
-
+                        <h7 data-i18n="biz_s3"></h7>
+                        <p>
+                          <span data-i18n="biz_s3_c1"></span>
+                          <br /><br />
+                          <span data-i18n="biz_s3_c2"></span>
+                        </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -140,23 +127,20 @@
             <div class="text-box intro inflation-box">
                     <div class="container-inner">
                         <div class="break-micro"></div>
-                        <h7>Get more customers</h7>
-                        <p>Millions of people own Bitcoin and want to spend their Bitcoin at places that accept it.
-                            <br /><br />
-                        By simply accepting Bitcoin, your business can be listed on Bitcoin merchant maps and gain free exposure to new Bitcoin customers.
-                            <br /><br />
-                        Accepting Bitcoin is 100% free.
-                        There are no contracts or hidden fees.
-                           </p>
-
-
-
+                        <h7 data-i18n="biz_s4"></h7>
+                        <p>
+                          <span data-i18n="biz_s4_c1"></span>
+                          <br /><br />
+                          <span data-i18n="biz_s4_c2"></span>
+                          <br /><br />
+                          <span data-i18n="biz_s4_c3"></span>
+                        </p>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break-micro"></div>
 
-                <div id="ready"><h2 class="h2-inflation">READY TO<br />ACCEPT BITCOIN<br />AT YOUR BUSINESS?</h2></div>
+                <div id="ready"><h2 class="h2-inflation" data-i18n="common_biz_ready"></h2></div>
 
 
 
@@ -167,7 +151,7 @@
             <a href="https://bitcoin.rocks/business/wallets">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get a Bitcoin wallet to accept Bitcoin payments</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_wallets"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -177,7 +161,7 @@
             <a href="https://bitcoin.rocks/business/maps">
                 <div class="biz-box biz-maps">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get listed on Bitcoin merchant maps</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_maps"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -187,7 +171,7 @@
             <a href="https://bitcoin.rocks/business/stickers">
                 <div class="biz-box biz-stickers">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Free "Bitcoin Accepted Here" stickers</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_stickers"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -197,7 +181,7 @@
             <a href="https://www.oshi.tech/" target="_blank">
                 <div class="biz-box biz-rewards">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Rewards</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_rewards"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -207,7 +191,7 @@
             <a href="https://bitcoin.rocks/business/accounting">
                 <div class="biz-box biz-accounting">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Bitcoin Accounting Guide</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_accounting"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
@@ -217,35 +201,35 @@
             <a href="https://bitcoin.rocks/business/faq">
                 <div class="biz-box biz-faq">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Frequently Asked Questions</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_faq"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
 
             <div class="break"></div>
 
-            <h2 class="h2-inflation">GET A LOCAL<br />BUSINESS TO<br />ACCEPT BITCOIN</h2>
+            <h2 class="h2-inflation" data-i18n="common_kit_cta_header"></h2>
 
             <a href="https://bitcoin.rocks/business/kit">
                 <div class="biz-box biz-wallet">
                     <div class="container-inner">
-                        <h3 class="biz-h3">Get your free Bitcoin Business Kit</h3>
+                        <h3 class="biz-h3" style="text-transform: initial !important" data-i18n="common_biz_kit"></h3>
                     </div><!--/container-inner-->
                 </div><!--/biz-box-->
             </a>
 
-
-
-            <!-- FOOTER -->
+<!-- FOOTER -->
 
             <div class="footer">
                 <p>
 
-                Follow us on Nostr by searching<br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a> in any Nostr client.<br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link">What is Nostr?</a>
+                <span data-i18n="common_footer_follow_first_half"></span>
+                <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
 
                 <br /><br />
-
-                Email us: <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                <span data-i18n="common_footer_email_us"></span>
+                <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
 
 
                     <br /><br /><br />
@@ -253,8 +237,7 @@
             </div><!--/footer-->
 
 
-
-
         </div><!--/container-main-->
+
     </body>
 </html>
