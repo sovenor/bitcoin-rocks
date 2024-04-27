@@ -9,8 +9,16 @@ body{
 
 #language-switcher {
   position: absolute;
-  top: 20px;
-  right: 40px;
+  top: 10px;
+  right: 10px;
+  border: none !important;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #595959;
+  font-family: "proxima-nova-condensed", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  max-width: 85px;
 }
 
 h2{

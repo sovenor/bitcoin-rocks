@@ -63,7 +63,7 @@ $(function() {
   // Language switcher
   var languages = [
     { code: 'en', name: 'English' },
-    { code: 'fr', name: 'French' }
+    { code: 'custom', name: 'Add your language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md' }
   ];
 
   // Create select element
@@ -85,7 +85,13 @@ $(function() {
 
   // Add event listener to handle language change
   languageSwitcher.addEventListener('change', function() {
-    localStorage.setItem('selectedLanguage', this.value);
-    location.reload();
+    if (this.value === 'custom') {
+      // Redirect to the custom URL when "Add your language" is selected
+      window.location.href = languages.find(lang => lang.code === 'custom').url;
+    } else {
+      localStorage.setItem('selectedLanguage', this.value);
+      location.reload();
+    }
   });
+
 });
