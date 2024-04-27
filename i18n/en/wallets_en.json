@@ -6,6 +6,8 @@
 		"last-updated": "2024-04-07",
 		"locale": "en"
 	},
+	"bitcoin_wallet_guide": "Bitcoin Wallet Guide",
+	"wallets_description": "There are many different Bitcoin wallets that differ in important ways. You can determine if a wallet is right for you by asking two simple questions.",
 	"wallets_header": "HOW TO SAFELY STORE YOUR BITCOIN",
 	"wallets_s1_c1": "Bitcoin wallets are interoperable, so you can send Bitcoin to anyone no matter which wallet they use.",
 	"wallets_s1_c2": "There are many different Bitcoin wallets that differ in important ways. You can determine if a wallet is right for you by asking two simple questions:",

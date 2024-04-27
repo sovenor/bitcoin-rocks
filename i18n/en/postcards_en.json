@@ -6,6 +6,8 @@
 		"last-updated": "2024-04-07",
 		"locale": "en"
 	},
+	"free_bitcoin_postcards": "Free Bitcoin Postcards from bitcoin.rocks",
+	"postcards_description": "Get a free Bitcoin Postcard Pack and share Bitcoin with someone you know.",
 	"postcards_header": "FREE BITCOIN POSTCARDS",
 	"postcards_step_1": "1. REQUEST A POSTCARD PACK",
 	"postcards_instructions_1": "Enter your mailing address and we'll send you a free Bitcoin Postcard Pack in the mail! Your postcards are shipped in a plain white envelope.",

@@ -6,6 +6,8 @@
 		"last-updated": "2024-04-07",
 		"locale": "en"
 	},
+	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
+	"inflation_description": "Bitcoin has a fixed supply of 21 million Bitcoin that will ever exist. No one can print more Bitcoin and cause inflation.",
 	"inflation_sticker_cure": "NEED A CURE FOR INFLATION?",
 	"inflation_sticker_learn": "LEARN HOW BITCOIN CAN HELP",
 	"inflation_sticker_got_inflation": "GOT INFLATION?",
