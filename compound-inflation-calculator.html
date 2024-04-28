@@ -63,7 +63,7 @@
         <script src="jquery/refresh-css.js"></script>
 
         <!--Script for inflation calculator-->
-        <script src="jquery/compound-inflation-calculator.js"></script>
+        <script src="jquery/compound-inflation-calculator-solo.js"></script>
 
     </head>
     <body>
@@ -112,12 +112,12 @@
                         </div><!--/form-box-->
 
                         <div class="form-box last-form-box">
-                            <label class="compound-label" common_years></label>
+                            <label class="compound-label" data-i18n="common_years"></label>
                             <div class="break-tiny-compound"></div>
                             <input class="compound" type="number" id="years" placeholder="5"/>
                         </div><!--/form-box-->
 
-                        <input id="calculateButton" class="cic-button" type="button" value="" onclick="calculateInflation()" />
+                        <input id="calculateButton" class="cic-button calculateButton" type="button" value="" onclick="calculateInflation()" />
                       </form>
 
                       <p id="result" data-i18n="common_result_starting_message"></p>
