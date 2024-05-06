@@ -63,7 +63,7 @@ $(function() {
   // Language switcher
   var languages = [
     { code: 'en', name: 'English' },
-    { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md' }
+    { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
   ];
 
   // Create select element
