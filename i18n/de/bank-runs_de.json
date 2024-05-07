@@ -19,7 +19,7 @@
 	"bank_runs_how_content_4": "Es ist kein Problem, wenn Du der Einzige bist, der Geld abheben will. Die Bank nimmt dann einfach das Geld von jemand anderem und gibt es Dir stattdessen. Aber was passiert, wenn zu viele Leute gleichzeitig Geld abheben wollen?",
 	"bank_runs_how_content_5": "Viele Menschen in den USA haben es gerade erst erfahren, als es im März 2023 einen Ansturm auf die Silicon Valley Bank gab.",
 	"bank_runs_how_content_6": "Die Bank hatte das Geld ihrer Kunden in Staatsanleihen investiert, die für bis zu 30 Jahre gebunden waren. Und noch mehr: Der Wert dieser Anleihen ist in der jüngsten Vergangenheit gefallen, so dass die Silicon Valley Bank die Anleihen nicht einfach verkaufen konnte, um das Geld ihrer Einleger zu erhalten. Sie war zahlungsunfähig. Sie hatte nicht genug Geld, um die Abhebungen ihrer Einleger auszugleichen.",
-	"bank_runs_how_content_7": "Als immer mehr Menschen davon erfuhren, wurde das Problem nur noch schlimmer. Es gingen mehr Abhebungsanträge ein, aber viele wurden nicht bearbeitet. Tausende von Unternehmen mussten feststellen, dass sie ihre Angestellten nicht mehr bezahlen konnten, weil die Bank zahlungsunfähig wurde.",
+	"bank_runs_how_content_7": "Als immer mehr Menschen davon erfuhren, wurde das Problem nur noch schlimmer. Es gingen mehr Abhebungsanträge ein, aber viele wurden nicht bearbeitet. Tausende Unternehmen mussten feststellen, dass sie ihre Angestellten nicht mehr bezahlen konnten, weil die Bank zahlungsunfähig wurde.",
 	"bank_runs_how_content_8": "Die FDIC schritt ein und erklärte sich bereit, die Einleger zu entschädigen. Problem gelöst? Nicht ganz...",
 	"bank_runs_fdic": "SCHÜTZT EINE FDIC-VERSICHERUNG MEIN GELD?",
 	"bank_runs_fdic_content_1": "Eine FDIC-Versicherung dient dem Schutz von Bankeinlegern im Falle des Konkurses einer Bank. Einlagen sind bis zu einer Höhe von 250.000 $ pro Einleger versichert. Klingt toll, oder?",
@@ -37,7 +37,7 @@
 	"bank_runs_safe_content_6": "Die Rede ist von Bitcoin: ein neues Finanzsystem, mit dem Du Deine eigene Bank sein kannst.",
 	"bank_runs_protect": "KANN BITCOIN MICH VOR BANKANSTÜRMEN SCHÜTZEN?",
 	"bank_runs_protect_content_1": "Ja, Bitcoin ist ein Vollreserve-Finanzsystem.",
-	"bank_runs_protect_content_2": "Banküberfälle sind in Bitcoin unmöglich, solange Du Deine Bitcoin in Deine eigene Wallet transferierst. Lass Deine Bitcoin nicht auf einer Börse oder in einem Wertpapierdepot wie einem Bitcoin-ETF liegen.",
+	"bank_runs_protect_content_2": "Bankanstürme sind in Bitcoin unmöglich, solange Du Deine Bitcoin in Deine eigene Wallet transferierst. Lass Deine Bitcoin nicht auf einer Börse oder in einem Wertpapierdepot wie einem Bitcoin-ETF liegen.",
 	"bank_runs_protect_content_3": "Schau dir unsere einfache Bitcoin-Wallet-Anleitung an, um zu erfahren, wie du auf deine eigene Wallet auszahlen kannst.",
 	"bank_runs_protect_content_4": "Mit Bitcoin kannst Du endlich die Kontrolle über Dein Geld haben."
 }
