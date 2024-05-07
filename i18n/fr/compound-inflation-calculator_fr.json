@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "fr"
+	},
+	"cic_header": "CALCULATEUR D'INFLATION COMPOSÉE",
+	"cic_description": "Utilisez ce calculateur d'inflation composée pour trouver combien votre salaire devrais augmenter pour suivre l'inflation.",
+	"what_can_i_do_about": "Que dois-je faire ?",
+	"what_can_i_do_about_2": "inflation ?",
+	"cic_inflation_cta": "Sortir de l'inflation avec le bitcoin"
+}
