@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin is good for business",
+	"biz_header": "BITCOIN IS GOOD FOR BUSINESS",
+	"biz_s1": "Low fees with no minimums",
+	"biz_s1_c1": "Bitcoin enables you to receive payments directly from your customers, much like cash. The Bitcoin network operates without middlemen like banks and credit card companies that take hefty fees.",
+	"biz_s2": "Instant settlement",
+	"biz_s2_c1": "Just like cash, Bitcoin’s payments settle instantly. You don’t need to wait for your credit card company or bank to pay you. Instead, you gain access to your money right away.",
+	"biz_s3": "No chargebacks or fraud",
+	"biz_s3_c1": "Because Bitcoin payments happen directly between you and your customers, it’s impossible for anyone to take your money back with a chargeback.",
+	"biz_s3_c2": "Counterfeit Bitcoin can not be sent on the Bitcoin Network, which means you never have to worry about fraudulent transactions that can cost your business money.",
+	"biz_s4": "Get more customers",
+	"biz_s4_c1": "Millions of people own Bitcoin and want to spend their Bitcoin at places that accept it.",
+	"biz_s4_c2": "By simply accepting Bitcoin, your business can be listed on Bitcoin merchant maps and gain free exposure to new Bitcoin customers.",
+	"biz_s4_c3": "Accepting Bitcoin is 100% free. There are no contracts or hidden fees."
+}
