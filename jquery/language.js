@@ -4,8 +4,26 @@ $(function() {
   // Initialize i18n
   var i18n = $.i18n();
 
-  // Get selected language from localStorage or default to English
-  var lang = localStorage.getItem('selectedLanguage') || 'en';
+  // Get browser language
+  var browserLang = navigator.language || navigator.userLanguage;
+  var browserLangCode = browserLang.split('-')[0]; // Get language code without region
+
+  // Language switcher
+  var languages = [
+    { code: 'en', name: 'English' },
+    { code: 'de', name: 'Deutsch' },
+    { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
+  ];
+
+  // Get selected language from localStorage or default to browser language or English
+  var storedLang = localStorage.getItem('selectedLanguage');
+  var lang = storedLang || browserLangCode || 'en';
+
+  // Set selected language in language switcher
+  var defaultLanguageSelect = document.getElementById('language-switcher');
+  if (defaultLanguageSelect) {
+    defaultLanguageSelect.value = lang;
+  }
 
   // Set locale
   i18n.locale = lang;
@@ -17,21 +35,21 @@ $(function() {
     // Get the root URL
     var rootURL = window.location.origin;
     // Load common translations
-  i18n.load(rootURL + '/i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
-    // Construct file path based on directory path
-    var filePath = directoryPath ? directoryPath + '/' + currentPage : currentPage;
-    // Load page-specific translations based on the current page
-    i18n.load(rootURL + '/i18n/' + i18n.locale + '/' + filePath + '_' + i18n.locale + '.json', i18n.locale).done(function() {
-      // Apply translations to elements with data-i18n attribute
-      $('[data-i18n]').each(function() {
-        var $this = $(this);
-        var key = $this.data('i18n');
-        $this.text($.i18n(key));
-      });
-      //This is necessary for button text to load from translation strings.
-      callback1();
-      //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
-      callback2();
+    i18n.load(rootURL + '/i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
+      // Construct file path based on directory path
+      var filePath = directoryPath ? directoryPath + '/' + currentPage : currentPage;
+      // Load page-specific translations based on the current page
+      i18n.load(rootURL + '/i18n/' + i18n.locale + '/' + filePath + '_' + i18n.locale + '.json', i18n.locale).done(function() {
+        // Apply translations to elements with data-i18n attribute
+        $('[data-i18n]').each(function() {
+          var $this = $(this);
+          var key = $this.data('i18n');
+          $this.text($.i18n(key));
+        });
+        //This is necessary for button text to load from translation strings.
+        callback1();
+        //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
+        callback2();
       });
     });
   }
@@ -59,12 +77,6 @@ $(function() {
     //This is necessary for dynamic headers on inflation.html based on which sticker QR code was scanned.
     setDynamicHeader();
   });
-
-  // Language switcher
-  var languages = [
-    { code: 'en', name: 'English' },
-    { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
-  ];
 
   // Create select element
   const el = document.createElement('select');
