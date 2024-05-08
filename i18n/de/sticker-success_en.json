@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"sticker_success_1": "You will receive your stickers in 1 to 2 weeks. While you wait, try to think of a good spot to put your stickers!",
+	"sticker_success_2": "Good sticker spots are:",
+	"sticker_success_list_1": "in public where people will see them",
+	"sticker_success_list_2": "in places that are unlikely to be removed quickly (the stickers don't cause any permanent damage)",
+	"sticker_success_list_3": "on surfaces they will stick to easily (metal, plastic, glass)",
+	"sticker_success_list_4": "NOT on private property, covering signage, ATMs, or gas pumps",
+	"sticker_success_3": "Want to see where other people are putting their stickers?"
+}
