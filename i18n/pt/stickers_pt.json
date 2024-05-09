@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+    "free_bitcoin_stickers": "Autocolantes Bitcoin gratuitos do bitcoin.rocks",
+    "stickers_description": "Coloca um autocolante de bitcoin em público para dar um toque de laranja aos que te rodeiam",
+    "stickers_header": "AUTOCOLANTES DE BITCOIN GRÁTIS",
+    "stickers_choose_header": "ESCOLHE O TEU PACOTE DE AUTOCOLANTES",
+    "stickers_choose_c1": "A nossa missão é ajudar-te a espalhar o Bitcoin a mais pessoas, colocando autocolantes Bitcoin em público. Todos os nossos autocolantes têm códigos QR que redirecionam a páginas educativas sobre",
+    "stickers_choose_c2": "Bitcoin",
+    "stickers_choose_c3": "inflação",
+    "stickers_choose_c4": "Escolhe o teu pacote de autocolantes abaixo",
+    "stickers_text_pack": "O PACOTE DE TEXTO",
+	"stickers_signs_pack": "O PACOTE DE SINAIS",
+    "stickers_instructions_1": "Introduz a tua morada e enviar-te-emos um pacote de autocolantes Bitcoin grátis pelo correio! Os teus autocolantes serão enviados num envelope branco simples",
+    "stickers_instructions_2": "Os dados da tua morada são eliminados depois dos teus autocolantes gratuitos serem enviados.",
+    "stickers_share_header": "PARTILHA OS LOCAIS ONDE COLASTE OS AUTOCOLANTES",
+    "stickers_share_c1": "Partilha o local do autocolante connosco no Nostr e poderás receber um zapp de bitcoin grátis!",
+    "stickers_btn_share_on_nostr": "PARTILHAR NO NOSTR",
+    "stickers_btn_what_is_nostr": "O QUE É O NOSTR?",
+	"stickers_country_global_print": "Global - Imprimir os meus próprios autocolantes",
+	"stickers_country_global_order": "Global - Encomendar em massa"
+}
