@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"free_bitcoin_postcards": "Cartas postais Bitcoin gratuitas do bitcoin.rocks",
+	"postcards_description": "Obtém um pacote de postais Bitcoin grátis e partilha Bitcoin com alguém que conheças",
+    "postcards_header": "CARTAS POSTAIS BITCOIN GRATUITAS",
+    "postcards_step_1": "1. SOLICITAR UM PACOTE DE CARTAS POSTAIS",
+    "postcards_instructions_1": "Introduz o Teu endereço postal e enviar-te-emos um pacote de postais Bitcoin grátis pelo correio! Os teus postais são enviados num envelope branco simples",
+    "postcards_instructions_2": "Os dados de endereço são eliminados depois dos teus postais gratuitos serem enviados",
+    "instruções_postcards_3": "Os canadianos vão receber um postal com uma fatura de CAD$5 em vez de um postal com uma fatura de US$1",
+    "postcards_step_2": "2. ENVIAR POSTAIS",
+    "postcards_instructions_4": "Criámos estes postais para que seja mais fácil apresentares o Bitcoin a alguém que conheces! Basta adicionar um endereço e um selo e enviar o teu postal pelo correio.",
+    "postcards_instructions_5": "A nossa missão é acelerar a adoção do Bitcoin. Podes ajudar enviando estes postais a alguém que conheces hoje!",
+    "postcards_instructions_6": "Todos nós conhecemos algumas pessoas que poderiam beneficiar de aprender mais sobre Bitcoin. Envia-lhes um postal agora!"
+}
