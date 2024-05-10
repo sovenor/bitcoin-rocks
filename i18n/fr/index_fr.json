@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"home_intro": "Le Bitcoin est une technologie mal comprise qui construit un monde meilleur. Appuyez sur une catégorie ci-dessous pour découvrir comment le Bitcoin l'améliore, ou commencez simplement à faire défiler pour explorer.",
+	"home_btn_money": "ARGENT",
+	"home_btn_salary": "VOTRE SALAIRE",
+	"home_btn_freedom": "LIBERTÉ",
+	"home_btn_human_rights": "DROITS HUMAINS",
+	"home_btn_equality": "ÉGALITÉ",
+	"home_btn_property_rights": "DROITS DE PROPRIÉTÉ",
+	"home_btn_housing": "IMMOBILIER",
+	"home_btn_business": "ENTREPRISE",
+	"home_btn_crowdfunding": "FINANCEMENT PARTICIPATIF",
+	"home_btn_energy": "ÉNERGIE",
+	"home_btn_environment": "ENVIRONNEMENT",
+	"home_btn_food": "NOURRITURE",
+  "home_btn_art": "ART",
+  "home_btn_politics": "POLITIQUE",
+  "home_btn_war": "GUÈRE",
+  "home_btn_coding": "CODE",
+  "home_btn_ai": "IA",
+  "home_btn_ln": "PAIEMENTS",
+  "home_btn_self_custody": "AUTO-GARDE",
+  "home_btn_you": "VOUS"
+}
