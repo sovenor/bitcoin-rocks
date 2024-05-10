@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"how_to_accept_bitcoin_payments": "Wie man Bitcoin-Zahlungen akzeptiert",
+	"wallets_header": "HOL DIR EINE KOSTENLOSE BITCOIN-WALLET, UM BITCOIN-ZAHLUNGEN ZU AKZEPTIEREN",
+	"wallets_intro_1": "Alle Bitcoin-Wallets sind interoperabel, so dass deine Kunden dich in Bitcoin bezahlen können, egal welche Wallet sie benutzen.",
+	"wallets_intro_2": "Bitcoin-Only Wallets:",
+	"wallets_intro_3": "Dies sind reine Bitcoin-Wallets, die alle Vorteile von Bitcoin freisetzen: keine Mittelsmänner, niedrige Gebühren und keine Rückbuchungen oder Betrug.",
+	"wallets_intro_4": "Hybride Wallets:",
+	"wallets_intro_5": "Diese ermöglichen es dir, einen beliebigen Teil deines Bitcoins in Euro zu wechseln, sobald ein Kunde dich bezahlt. Die Gebühren sind immer noch niedriger als bei Kreditkartenzahlungen, aber höher als bei reinen Bitcoin-Zahlungen.",
+	"wallets_intro_6": "Beides sind sehr gute Möglichkeiten, Bitcoin zu akzeptieren. Welche Wallet du genau verwendest, hängt von der Größe und Art deines Unternehmens ab.",
+	"wallets_choice_sole": "Wallets für Einzelunternehmer",
+	"wallets_choice_multiple": "Wallets für Unternehmen mit mehreren Mitarbeitern",
+	"wallets_choice_online": "Wallets für Online-Unternehmen",
+	"wallets_choice_invoice": "Wallets für auf Rechnungen basierende Unternehmen",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Bitcoin-Only Wallet",
+	"wallets_feature_no_info": "Keine Angaben erforderlich",
+	"wallets_feature_in_person": "Nur Vor-Ort-Zahlungen",
+	"wallets_feature_settles_bitcoin": "Verrechnet zu 100% in Bitcoin",
+	"wallets_feature_hybrid": "Hybride Wallet",
+	"wallets_feature_info": "Unternehmensangaben erforderlich",
+	"wallets_feature_in_person_online": "Vor-Ort- & Online-Zahlungen",
+	"wallets_feature_settles_both": "Verrechnung in Bitcoin & Euro",
+	"wallets_feature_multiple_employees": "Unterstützung für mehrere Mitarbeiter (BPTs)",
+	"wallets_feature_self_hosted": "Selbstgehostet = 0% Gebühren",
+	"wallets_feature_online_store": "Integration in Online-Shops",
+	"wallets_feature_invoicing": "Kostenlose Software zur Rechnungserstellung",
+	"wallets_get_wallet": "WALLET ERHALTEN"
+}
