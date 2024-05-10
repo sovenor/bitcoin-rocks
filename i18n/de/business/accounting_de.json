@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-04-07",
+		"locale": "en"
+	},
+	"bitcoin_business_accounting_guide": "Buchhaltungsanleitung für Bitcoin-Unternehmen",
+	"accounting_description": "Erfahre, wie du Bitcoin-Zahlungen in deiner Unternehmensbuchhaltung richtig verbuchen kannst.",
+	"accounting_header": "BITCOIN-BUCHHALTUNGSANLEITUNG",
+	"accounting_s1_c1": "Das Akzeptieren von Bitcoin hat viele Vorteile, wie z.B. Zahlungen mit niedrigeren Gebühren zu empfangen und mehr Kunden zu gewinnen.",
+	"accounting_s1_c2": "Wenn du eine hybride Wallet aus unserem Wallet-Guide verwendest und 100% der Bitcoin, die du erhältst, automatisch gegen Euro verkaufst, musst du keine Änderungen an deiner aktuellen Buchhaltung vornehmen.",
+	"accounting_s1_c3": "Wallet Anleitung ansehen.",
+	"accounting_s1_c4": "Wenn du jedoch einige der Bitcoin-Zahlungen, die du erhältst, als Bitcoin behältst, musst du ein paar Details für deine Buchhaltung beachten. Das kann zunächst einschüchternd wirken, ist aber eigentlich ganz einfach.",
+	"accounting_s1_c5": "Beachte: Diese Anleitung dient nur zu Informationszwecken und ist keine Steuerberatung.",
+	"accounting_s1_c6": "Wenn du steuerliche Beratung brauchst, empfehlen wir dir Satoshi Pacioli Accounting Services, eine Buchhaltungsfirma, die sich auf Bitcoin-Buchhaltung spezialisiert hat.",
+	"accounting_s2": "ERFASSUNG DEINER KOSTENBASIS",
+	"accounting_s2_c1": "Die Erfassung deiner Kostenbasis ist der größte Unterschied zwischen der Buchhaltung für Euro und der Buchhaltung für Bitcoin. Selbst wenn du dein Geschäft ausschließlich in Form von Bitcoin betrachtest, musst du den Eurowert jeder Transaktion in deiner Steuererklärung angeben.",
+	"accounting_s2_c2": "Wenn du QuickBooks verwendest, kannst du dies automatisch mit dem Bitcoin Sync Plugin tun.",
+	"accounting_s2_c3": "Wenn du kein QuickBooks verwendest, empfehlen wir Satoshi Pacioli Accounting Services, eine Buchhaltungsfirma, die sich auf Bitcoin-Buchhaltung spezialisiert hat.",
+	"accounting_s2_c4": "Um dies manuell zu tun, müssen Sie lediglich den Bitcoin-Betrag, den Sie erhalten haben, und den Eurowert der Bitcoin-Transaktion an diesem Tag notieren.",
+	"accounting_s2_c5": "Den aktuellen Eurokurs von Bitcoin kannst du hier einsehen.",
+	"accounting_s2_c6": "Erfasse diese Informationen in eine Excel-Tabelle und gib sie deinem Steuerberater.",
+	"accounting_s2_c7": "Es ist auch möglich, diese Daten automatisch in Excel zu importieren.",
+	"accounting_s2_c8": "Du kannst auch den historischen Europreis von Bitcoin an vergangenen Tagen einsehen, so dass du dies nicht jeden Tag tun musst.",
+	"accounting_s3": "AUSGEBEN ODER VERKAUFEN DEINER BITCOIN",
+	"accounting_s3_c1": "Wenn du eine hybride Wallet aus unserem Wallet-Guide verwendest und 100% der Bitcoin, die du erhältst, automatisch gegen Euro verkaufst, musst du keine Änderungen an deiner aktuellen Buchhaltung vornehmen.",
+	"accounting_s3_c2": "Wallet Anleitung ansehen.",
+	"accounting_s3_c3": "Wenn du dich dafür entscheidest, einen Teil der Bitcoin, die du erhalten hast, auszugeben oder zu verkaufen, nachdem du sie eine Zeit lang gehalten hast, musst du einfach den Preis, zu dem du sie verkauft hast, in deine Excel-Tabelle eintragen, die deine Kostenbasis erfasst.",
+	"accounting_s3_c4": "Wenn du beispielsweise am 1. Januar Bitcoin im Wert von 100€ erhalten hast und beschließt, sie am 1. Februar zu einem neuen Wert von 110€ zu verkaufen oder auszugeben, musst du in deiner Buchhaltung einen Kapitalgewinn von 10 Euro ausweisen.",
+	"accounting_s3_c5": "Dies kann auch in umgekehrter Richtung geschehen. Wenn du zum Beispiel am 1. Januar Bitcoin im Wert von 100€ erhalten hast und beschließt, sie am 1. Februar zu einem neuen Wert von 90€ zu verkaufen oder auszugeben, müsstest du in deiner Buchhaltung einen Kapitalverlust von 10€ verbuchen.",
+	"accounting_s4": "ICH BRAUCHE MEHR HILFE",
+	"accounting_s4_c1": "Wenn du mehr Hilfe bei der Integration von Bitcoin in die Buchhaltung deines Unternehmens brauchst, empfehlen wir dir ausdrücklich Satoshi Pacioli Accounting Services, eine Buchhaltungsfirma, die sich auf Bitcoin-Buchhaltung spezialisiert hat.",
+	"accounting_s4_c2": "Erfahre mehr über Satoshi Pacioli Accounting Services."
+}
