@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "th"
+	},
+	"free_bitcoin_stickers": "สติ๊กเกอร์ Bitcoin ฟรีจาก bitcoin.rocks",
+	"stickers_description": "ติดสติ๊กเกอร์ bitcoin ในที่สาธารณะเพื่อเม็ดสีส้มที่อยู่รอบตัวคุณ.",
+	"stickers_header": "สติ๊กเกอร์ BITCOIN ฟรี",
+	"stickers_choose_header": "เลือกชุดสติ๊กเกอร์ของคุณ",
+	"stickers_choose_c1": "ภารกิจของเราคือการช่วยให้คุณมีผู้คนมากขึ้นด้วยการติดสติ๊กเกอร์ Bitcoin ในที่สาธารณะ สติกเกอร์ทั้งหมดของเรามีรหัส QR ที่เชื่อมโยงไปยังหน้าการศึกษาเกี่ยวกับt",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "เงินเฟ้อ",
+	"stickers_choose_c4": "เลือกชุดสติ๊กเกอร์ของคุณด้านล่าง",
+	"stickers_text_pack": "THE TEXT PACK",
+	"stickers_signs_pack": "THE SIGNS PACK",
+	"stickers_instructions_1": "กรอกที่อยู่ทางไปรษณีย์ของคุณแล้วเราจะส่ง Bitcoin Sticker Pack ฟรีทางไปรษณีย์! สติกเกอร์ของคุณจะถูกจัดส่งในซองสีขาวธรรมดา.",
+	"stickers_instructions_2": "ข้อมูลที่อยู่จะถูกลบหลังจากจัดส่งสติ๊กเกอร์ฟรีของคุณแล้ว.",
+	"stickers_share_header": "แบ่งปันสปอตสติ๊กเกอร์ของคุณ",
+	"stickers_share_c1": "แบ่งปันจุดสติ๊กเกอร์ของคุณกับเราที่ Nostr แล้วคุณอาจได้รับ bitcoin ฟรี!",
+	"stickers_btn_share_on_nostr": "แบ่งปันบน NOSTR",
+	"stickers_btn_what_is_nostr": "NOSTR.คืออะไร?",
+	"stickers_country_global_print": "Global — พิมพ์สติกเกอร์ของฉันเอง",
+	"stickers_country_global_order": "Global — สั่งซื้อจำนวนมาก"
+}
