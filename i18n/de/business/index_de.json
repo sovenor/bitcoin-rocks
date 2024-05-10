@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "de"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin ist gut für Unternehmen",
+	"biz_header": "BITCOIN IST GUT FÜR UNTERNEHMEN",
+	"biz_s1": "Niedrige Gebühren ohne Mindestbeträge",
+	"biz_s1_c1": "Bitcoin ermöglicht es dir, Zahlungen direkt von deinen Kunden zu erhalten, ähnlich wie Bargeld. Das Bitcoin-Netzwerk funktioniert ohne Mittelsmänner wie Banken und Kreditkartenunternehmen, die üppige Gebühren verlangen.",
+	"biz_s2": "Sofortige Abwicklung",
+	"biz_s2_c1": "Genau wie Bargeld werden Bitcoin-Zahlungen sofort abgewickelt. Du musst nicht darauf warten, dass dein Kreditkartenunternehmen oder deine Bank dich ausbezahlt. Stattdessen hast du sofort Zugriff auf dein Geld.",
+	"biz_s3": "Keine Rückbuchungen oder Betrug",
+	"biz_s3_c1": "Da Bitcoin-Zahlungen direkt zwischen dir und deinen Kunden stattfinden, ist es unmöglich, dass jemand dein Geld durch eine Rückbuchung zurückfordert.",
+	"biz_s3_c2": "Gefälschte Bitcoin können nicht über das Bitcoin-Netzwerk versendet werden, was bedeutet, dass du dir keine Sorgen über betrügerische Transaktionen machen musst, die deinem Unternehmen Geld kosten können.",
+	"biz_s4": "Mehr Kunden gewinnen",
+	"biz_s4_c1": "Millionen von Menschen besitzen Bitcoin und wollen ihre Bitcoin an Orten ausgeben, die sie akzeptieren.",
+	"biz_s4_c2": "Einfach durch das Akzeptieren von Bitcoin kann dein Unternehmen auf Bitcoin-Händlerkarten gelistet werden und so kostenlos neue Bitcoin-Kunden erreichen.",
+	"biz_s4_c3": "Die Annahme von Bitcoin ist 100% kostenlos. Es gibt keine Verträge oder versteckte Gebühren."
+}

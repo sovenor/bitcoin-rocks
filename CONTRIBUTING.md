@@ -46,10 +46,11 @@ Now you can begin translating the website content from English to your language.
 
 1. Open the files in [Atom text editor](https://atom-editor.cc/) (or any other text editor)
 2. Go to bitcoin-rocks > i18n > "your language code" and choose the page you want to translate.
-3. Replace the content on the right side of the files with the translated text
+3. At the top of the file, change the "last-updated" date to today's date in YYYY-MM-DD format. Change the "locale" to to the [2 letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) that corresponds to your language. You can also optionally add your name in the list of authors.
+4. Replace the content on the right side of the files with the translated text
 ![Translation editing image](https://bitcoin.rocks/img/contributing/translation-editing.png)
 Do not change the content on the left side of the files. Do not delete any quotation marks or commas.
-4. When a file has been translated, rename it so it matches the [2 letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) that corresponds to your language. For example, if the file was previously "404_en.json" and you are translating it into French, it should be renamed to "404_fr.json"
+5. When a file has been translated, rename it so it matches the [2 letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) that corresponds to your language. For example, if the file was previously "404_en.json" and you are translating it into French, it should be renamed to "404_fr.json"
 
 Once you've completed at least one page of translations, you can submit it for approval.
 
