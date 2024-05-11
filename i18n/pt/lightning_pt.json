@@ -16,7 +16,7 @@
     "lightning_s1_c5": "Nem todas as carteiras Lightning são iguais. Podes determinar qual a carteira que tem o conjunto certo de compensações para ti fazendo uma simples pergunta:",
     "lightning_question_1": "QUAL É O EQUILÍBRIO CERTO PARA MIM?",
     "lightning_s2_c1": "Uma das inovações do Bitcoin é a capacidade de o armazenares sem dependeres de um terceiro, como um banco. As carteiras de auto-custódia desbloqueiam todo o poder do Bitcoin.",
-	"lightning_s2_c2": "Com uma carteira com custódia própria (self-custody wallet), o utilizador é o único com capacidade para gastar ou transferir o seu dinheiro. Ninguém te pode impedir, censurar ou roubar quando utilizas uma carteira com custódia própria. Estas carteiras são também designadas por carteiras não custodiais (non-custodial wallets)",
+	"lightning_s2_c2": "Com uma carteira com auto-custódia (self-custody wallet), o utilizador é o único com capacidade para gastar ou transferir o seu dinheiro. Ninguém te pode impedir, censurar ou roubar quando utilizas uma carteira com auto-custódia. Estas carteiras são também designadas por carteiras sem custódia (non-custodial wallets)",
     "lightning_s2_c3": "A maneira mais soberana de usar o Lightning é executando o teu próprio nó.",
     "lightning_s2_c4": "Este guia está focado em carteiras Lightning simples que não requerem o teu próprio nó.",
     "lightning_s2_c5": "É importante saber que mesmo usando uma carteira Lightning sem custódia, ainda estás a confiar no criador da carteira para não enviar uma atualização de aplicação que seja maliciosa e possa roubar os teus fundos.",
