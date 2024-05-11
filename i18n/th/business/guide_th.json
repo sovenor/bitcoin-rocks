@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "th"
+	},
+	"accept_bitcoin_payments_at_your_business": "รับการชำระเงินด้วย Bitcoin ที่บริษัทของคุณ",
+	"guide_header": "พร้อมที่จะรับ BITCOIN ที่บริษัทของคุณแล้วหรือยัง?"
+}

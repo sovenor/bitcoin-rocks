@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "th"
+	},
+	"bitcoin_accepted_here_stickers": "สติ๊กเกอร์ Bitcoin ยอมรับที่นี่",
+	"stickers_header": "รับสติกเกอร์ 'BITCOIN ยอมรับที่นี่' ฟรี",
+	"stickers_request": "รับสติ๊กเกอร์ฟรีของคุณ",
+	"stickers_request_details": "แจ้งให้ลูกค้าของคุณทราบว่าคุณยอมรับการชำระเงินด้วย Bitcoin ด้วยสติกเกอร์ 'Bitcoin Accepted Here' ฟรีเหล่านี้",
+	"stickers_country_global_print": "ทั่วโลก — พิมพ์สติกเกอร์ของฉันเอง",
+	"stickers_request_instructions": "ทั่วโลก — พิมพ์ของฉันเอง คุณจะได้รับสติ๊กเกอร์ 'Bitcoin Accepted Here' สามอันในซองสีขาวธรรมดา หากคุณต้องการสติกเกอร์สำหรับธุรกิจของคุณมากกว่าสามชิ้น คุณสามารถขอได้หลายครั้ง ข้อมูลที่อยู่จะถูกลบหลังจากจัดส่งสติ๊กเกอร์ฟรีของคุณแล้ว",
+	"stickers_print_details": "คุณสามารถพิมพ์สติกเกอร์ 'Bitcoin Accepted Here' ของคุณเองได้ ไม่ว่าคุณจะอาศัยอยู่ที่ไหน! คลิกภาษาของคุณด้านล่างเพื่อดูไฟล์สติกเกอร์และคำแนะนำ",
+	"stickers_request_language": "ไม่เห็นภาษาของคุณ? กรอกแบบฟอร์มด้านล่างเพื่อขอไฟล์สติกเกอร์ 'Bitcoin Accepted Here' ในภาษาท้องถิ่นของคุณ"
+}

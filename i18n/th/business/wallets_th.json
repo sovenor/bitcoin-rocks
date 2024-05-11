@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "th"
+	},
+	"how_to_accept_bitcoin_payments": "วิธีรับการชำระเงินด้วย Bitcoin",
+	"wallets_header": "รับกระเป๋าเงินฟรีเพื่อรับการชำระเงิน BITCOIN",
+	"wallets_intro_1": "กระเป๋าเงิน Bitcoin ทั้งหมดใช้งานร่วมกันได้ ดังนั้นลูกค้าของคุณสามารถจ่ายเงินให้คุณเป็น Bitcoin ไม่ว่าพวกเขาจะใช้กระเป๋าเงินใดก็ตาม",
+	"wallets_intro_2": "กระเป๋าเงิน Bitcoin เท่านั้น:",
+	"wallets_intro_3": "นี่คือกระเป๋าเงิน Bitcoin บริสุทธิ์ที่ปลดล็อกสิทธิประโยชน์ทั้งหมดของ Bitcoin: ไม่มีพ่อค้าคนกลาง ค่าธรรมเนียมต่ำ และไม่มีการปฏิเสธการชำระเงินหรือการฉ้อโกง",
+	"wallets_intro_4": "กระเป๋าเงินไฮบริด:",
+	"wallets_intro_5": "สิ่งเหล่านี้ช่วยให้คุณสามารถแลกเปลี่ยน Bitcoin ส่วนหนึ่งเป็นดอลลาร์ได้ทันทีที่ลูกค้าจ่ายเงินให้คุณ ค่าธรรมเนียมยังคงน้อยกว่าการชำระเงินด้วยบัตรเครดิต แต่สูงกว่าการชำระเงินด้วย Bitcoin เพียงอย่างเดียว",
+	"wallets_intro_6": "ทั้งสองวิธีเป็นวิธีที่ดีในการรับ Bitcoin กระเป๋าเงินที่คุณใช้จะขึ้นอยู่กับขนาดและประเภทธุรกิจของคุณ",
+	"wallets_choice_sole": "กระเป๋าเงินสำหรับธุรกิจที่เป็นเจ้าของรายบุคคล",
+	"wallets_choice_multiple": "กระเป๋าเงินสำหรับธุรกิจที่มีพนักงานหลายคน",
+	"wallets_choice_online": "กระเป๋าเงินสำหรับธุรกิจออนไลน์",
+	"wallets_choice_invoice": "กระเป๋าเงินสำหรับธุรกิจตามใบแจ้งหนี้",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "กระเป๋าเงิน Bitcoin เท่านั้น",
+	"wallets_feature_no_info": "ไม่มีข้อมูลที่จำเป็น",
+	"wallets_feature_in_person": "ชำระเงินด้วยตนเองเท่านั้น",
+	"wallets_feature_settles_bitcoin": "ชำระ 100% ใน Bitcoin",
+	"wallets_feature_hybrid": "กระเป๋าเงินไฮบริด",
+	"wallets_feature_info": "ข้อมูลทางธุรกิจที่จำเป็น",
+	"wallets_feature_in_person_online": "ชำระเงินด้วยตนเองและออนไลน์",
+	"wallets_feature_settles_both": "ชำระเป็น Bitcoin และคำสั่ง",
+	"wallets_feature_multiple_employees": "การสนับสนุนพนักงานหลายคน (BPT)",
+	"wallets_feature_self_hosted": "โฮสต์เอง = ค่าธรรมเนียม 0%",
+	"wallets_feature_online_store": "บูรณาการร้านค้าออนไลน์",
+	"wallets_feature_invoicing": "ซอฟต์แวร์ออกใบแจ้งหนี้ฟรี",
+	"wallets_get_wallet": "รับกระเป๋าเงิน"
+}
