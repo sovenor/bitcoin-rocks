@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "de"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Erfahre, warum Bitcoin gut für Unternehmen ist",
+	"why_header": "BITCOIN IST GUT FÜR UNTERNEHMEN",
+	"why_good_for_you": "BITCOIN IST AUCH FÜR DICH GUT!",
+	"why_learn_more_lowercase": "Mehr erfahren.",
+	"why_s1": "Bitcoin hat keine Inflation",
+	"why_s1_c1": "Inflation entsteht, wenn mehr Geld gedruckt oder aus dem Nichts geschaffen wird. Dadurch wird dein Geld mit der Zeit weniger wert.",
+	"why_s1_c2": "Bitcoin hat eine fixe Menge, was bedeutet, dass niemand mehr Bitcoin drucken kann.",
+	"why_s2": "Bitcoin hat keine Bankanstürme",
+	"why_s2_c1": "In den letzten Jahren sind mehrere US-Banken aufgrund von Bankanstürmen zusammengebrochen.",
+	"why_s2_c2": "Anstatt dein Geld nur für dich zu verwahren, investieren und verleihen Banken dein Geld. Wenn diese Investitionen nicht gut laufen, haben sie nicht genug Geld, um es an dich zurückzuzahlen.",
+	"why_s2_c3": "Und der FDIC-Versicherungsfond hat nur 1 Dollar je 100 Dollar, die er versichert.",
+	"why_s3": "Bitcoin ist erlaubnisfrei",
+	"why_s3_c1": "Im Gegensatz zu herkömmlichen Finanznetzwerken ist für die Nutzung von Bitcoin keine Genehmigung erforderlich.",
+	"why_s3_c2": "Das bedeutet, dass dich niemand aus irgendeinem Grund davon abhalten kann, Bitcoin zu verwenden. Es ist das erste Finanznetzwerk, das du ohne Angst vor Zensur oder Beschlagnahmung nutzen kannst.",
+	"why_s4": "Bitcoin schafft eine bessere Welt",
+	"why_s4_c1": "Bitcoin ist eine missverstandene Technologie, die eine bessere Welt schafft.",
+	"why_s4_c2": "Bitcoin hat es Menschenrechtsaktivisten ermöglicht, für Freiheit zu kämpfen, die globalen Methanemissionen zu reduzieren, Nationalparks zu retten und vieles mehr."
+}

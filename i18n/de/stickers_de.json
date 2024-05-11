@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-10",
+		"locale": "de"
+	},
+	"free_bitcoin_stickers": "Kostenlose Bitcoin-Sticker von bitcoin.rocks",
+	"stickers_description": "Bringe einen Bitcoin-Sticker in der Öffentlichkeit an, um die Menschen um dich herum zu Orange-Pillen.",
+	"stickers_header": "KOSTENLOSE BITCOIN-STICKER",
+	"stickers_choose_header": "WÄHLE DEIN STICKER-PAKET",
+	"stickers_choose_c1": "Unser Ziel ist es, Dir zu helfen, mehr Menschen zu Orange-Pillen, indem Du Bitcoin-Sticker in der Öffentlichkeit anbringst. Alle unsere Sticker haben QR-Codes und verlinken auf informative Seiten über",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "Inflation",
+	"stickers_choose_c4": "Wähle nachfolgend dein Sticker-Paket",
+	"stickers_text_pack": "DAS TEXT-PAKET",
+	"stickers_signs_pack": "DAS SCHILDER-PAKET",
+	"stickers_instructions_1": "Trage deine Postadresse ein und wir schicken dir ein kostenloses Bitcoin- Sticker-Paket per Post zu! Deine Sticker werden in einem schlichten weißen Briefumschlag verschickt.",
+	"stickers_instructions_2": "Die Adressdaten werden nach dem Versand deiner kostenlosen Sticker gelöscht.",
+	"stickers_share_header": "TEILE DEINE STICKER-SPOTS",
+	"stickers_share_c1": "Teile deinen Sticker-Spot mit uns auf Nostr und du bekommst vielleicht kostenlose Bitcoin gezappt!",
+	"stickers_btn_share_on_nostr": "AUF NOSTR TEILEN",
+	"stickers_btn_what_is_nostr": "WAS IST NOSTR?",
+	"stickers_country_global_print": "Global – Sticker selber drucken",
+	"stickers_country_global_order": "Global – Sammelbestellung"
+}
