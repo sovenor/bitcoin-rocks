@@ -3,8 +3,8 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2024-05-11",
+		"locale": "pt"
 	},
 	"bitcoin_lightning_wallet_guide": "Guia da Carteira Bitcoin Lightning",
     "lightning_description": "Carteiras Lightning permitem-te enviar Bitcoin de forma rápida e barata, mantendo a tua soberania pessoal.",
