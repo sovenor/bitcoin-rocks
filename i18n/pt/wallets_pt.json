@@ -25,7 +25,7 @@
 	"wallets_s4_c1": "As cold wallets (armazenamento offline) armazenam as chaves do teu Bitcoin de uma forma que nunca as expõe à Internet",
     "wallets_s4_c2": "Isto limita significativamente os vectores de ataque que um ladrão pode usar para tentar roubar o teu Bitcoin, e boa prática utilizar para grandes quantias de Bitcoin em que não precisas de o transferir frequentemente.",
     "wallets_s4_c3": "Pode pensar em numa cold wallet como uma conta de poupança de longo prazo, também conhecida como cold storage.",
-    "wallets_s5_c1": "As hot wallets armazenam as chaves do teu Bitcoin num dispositivo que está ligado à Internet, como o teu telemóvel.",
+    "wallets_s5_c1": "As hot wallets (carteira quente) armazenam as chaves do teu Bitcoin num dispositivo que está ligado à Internet, como o teu telemóvel.",
     "wallets_s5_c2": "As hot wallets são geralmente consideradas seguras, mas podem ter mais vulnerabilidades de segurança do que as cold wallets.",
     "wallets_s5_c3": "Podes pensar numa hot wallet como se fosse uma carteira física. Não guardavas todas as tuas poupanças na tua carteira, mas irias guardar algum dinheiro para gastar.",
     "wallets_s5_c4": "As hot wallets tornam muito mais fácil gastares o teu Bitcoin sem teres de retirar todas as tuas poupanças do cold storage.",
