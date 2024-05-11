@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Mapas de comerciantes de Bitcoin - Publica o teu negócio gratuitamente",
+	"maps_header": "FAZ PARTE DA LISTA DE MAPAS DE COMERCIANTES DE BITCOIN E OBTÉM MAIS CLIENTES",
+	"maps_request_details": "Introduz a informação do Teu negócio abaixo e nós listamo-lo nos mapas de comerciantes Bitcoin gratuitamente. Isto permitirá que os Bitcoiners encontrem o teu negócio e gastem os seus Bitcoins no teu negócio!",
+	"maps_view": "Ver o mapa aqui."
+}

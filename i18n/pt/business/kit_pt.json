@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"bitcoin_business_kit": "Kit Negócios Bitcoin",
+	"kit_header": "OBTÉM O TEU KIT NEGÓCIOS BITCOIN GRATUITO",
+	"kit_request": "SOLICITA O TEU KIT GRATUITO",
+	"kit_request_details": "Cada Kit Negócios Bitcoin inclui dois folhetos para facilitar a aceitação de Bitcoin por um negócio local.",
+	"kit_country_global_print": "Global - Imprimir os meus próprios kits",
+	"kit_enter_address": "Introduz a tua morada e vamos lhe enviar um KIT NEGÓCIOS BITCOIN gratuito num envelope branco simples. Os dados da morada são eliminados quando o kit for enviado",
+	"kit_print_details": "Podes participar imprimindo os teus próprios folhetos, independentemente do local onde vives! Também podes enviar a empresas o nosso kit comercial digital para evitar teres que imprimir qualquer coisa.",
+	"kit_view_files": "VER FICHEIROS",
+	"kit_digital_kit": "KIT DIGITAL",
+	"kit_resources": "CADA KIT TEM LIGAÇÃO A ESTES RECURSOS GRATUITOS"
+}
