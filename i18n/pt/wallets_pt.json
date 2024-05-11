@@ -16,7 +16,7 @@
     "wallets_s2_c3": "Carteiras com auto-custódia desbloqueiam todo o poder do Bitcoin: dinheiro da liberdade.",
     "wallets_s2_c4": "Com uma carteira de auto-custódia, és o único com a capacidade de gastar ou transferir o teu dinheiro. Ninguém te pode impedir, censurar ou roubar quando utilizas uma carteira com auto-custódia.",
     "wallets_s2_c5": "As carteiras com auto-custódia (self-custody wallet) também são chamadas de carteiras sem custódia (non-custodial wallets).",
-    "wallets_s3_c1": "As carteiras com custódia são carteiras em que não tens o controlo do teu dinheiro. Por outras palavras, alguém possui a custódia das tuas chaves",
+    "wallets_s3_c1": "As carteiras com custódia são carteiras em que não tens o controlo do teu dinheiro. Por outras palavras, alguém possui a custódia das tuas chaves.",
     "carteiras_s3_c2": "Estas carteiras são mais parecidas com o sistema bancário, onde tu tens que confiar num terceiro para que possas aceder ao teu dinheiro. Se o teu Bitcoin está numa corrretora, está a utilizar uma carteira de custódia.",
     "wallets_s3_c3": "Se compraste um ETF Bitcoin, está a utilizar uma carteira de custódia que não te permite retirares o dinheiro para auto-custódia.",
     "wallets_s3_c4": "Carteiras de custódia podem parecer convenientes, mas que possui a custódia tem a capacidade técnica de roubar todos os fundos do utilizador a qualquer momento.",
