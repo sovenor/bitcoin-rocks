@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-12",
+		"locale": "fr"
+	},
+	"sticker_success_1": "Vous recevrez vos autocollants dans 1 à 2 semaines. Pendant ce temps, essayez de trouver un bon endroit pour mettre vos autocollants !",
+	"sticker_success_2": "Les bons spots pour coller les autocollants sont :",
+	"sticker_success_list_1": "dans les endroits public, là où les gens les verront",
+	"sticker_success_list_2": "dans des espaces où il est peu probable qu'ils soient retirés rapidement (les autocollants ne causent pas de dégats permanents)",
+	"sticker_success_list_3": "sur des surfaces propres où ils adhèrent facilement (métal, plastique, verre)",
+	"sticker_success_list_4": "NE PAS LES PLACER dans des propriétés privées, ni pour recouvrir des panneaux de signalisation, ou sur des distributeurs automatiques de billets et pompes à essence",
+	"sticker_success_3": "Vous voulez voir où d'autres personnes placent leurs autocollants ?"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-12",
+		"locale": "fr"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Le bitcoin n'a pas de panique bancaire",
+	"bank_runs_header": "LE BITCOIN N'A PAS DE PANIQUE BANCAIRE",
+	"bank_runs_header_2": "MAIS CELA PEUX ARRIVER A VOTRE BANQUE",
+	"bank_runs_what": "QU'EST-CE QUE LA PANIQUE BANCAIRE ?",
+	"bank_runs_what_content_1": "Une panique bancaire se produit lorsque trop de personnes essaient de retirer leur argent de la banque en même temps.",
+	"bank_runs_what_content_2": "Si les banques ne disposent pas de suffisamment d'argent pour faire face aux retraits, elles peuvent s'effondrer complètement lors d'une panique bancaire.",
+	"bank_runs_how": "COMMENT SE PRODUISENT LES PANIQUES BANCAIRES ?",
+	"bank_runs_how_content_1": "Notre système bancaire est à réserves fractionnaires, ce qui signifie que les banques ne se contentent pas de garder votre argent dans un coffre-fort et d'attendre que vous le dépensiez ou le retiriez.",
+	"bank_runs_how_content_2": "Au lieu de cela, votre banque prend votre argent et le prête ou l'investit. Cela peut bloquer votre argent pendant de longues périodes, même si la banque vous promet de pouvoir retirer votre argent à tout moment.",
+	"bank_runs_how_content_3": "Alors que se passe-t-il si vous essayez de retirer votre argent alors que la banque l'a déjà prêté ou investi ?",
+	"bank_runs_how_content_4": "Ce n'est pas un problème si vous êtes le seul à essayer de retirer votre argent. La banque prendra simplement l'argent de quelqu'un d'autre et vous le donnera à la place. Mais que se passe-t-il lorsque trop de personnes essaient de retirer de l'argent en même temps ?",
+	"bank_runs_how_content_5": "Beaucoup de gens aux États-Unis viennent de l'apprendre lorsqu'une panique sur la Silicon Valley Bank a eu lieu en mars 2023",
+	"bank_runs_how_content_6": "La banque avait investi l'argent de ses clients dans des obligations d'État bloquées pour une durée pouvant aller jusqu'à 30 ans. Pire encore, la valeur de ces obligations a récemment chuté, de sorte que la Silicon Valley Bank ne pouvait pas simplement vendre les obligations pour récupérer l'argent de ses déposants. Elle était insolvable. Elle n'avait pas assez d'argent pour faire face aux retraits de ses déposants.",
+	"bank_runs_how_content_7": "Au fur et à mesure que d'autres personnes l'apprenaient, le problème n'a fait qu'empirer. Les demandes de retrait se sont multipliées, mais nombre d'entre elles n'ont pas été traitées. Des milliers d'entreprises ont réalisé qu'elles ne pourraient pas payer leurs employés en raison de la faillite de la banque.",
+	"bank_runs_how_content_8": "La FDIC 'Federal Deposit Insurance Corporation' est intervenue et a accepté d'indemniser les déposants. Problème résolu ? Pas exactement...",
+	"bank_runs_fdic": "L'ASSURANCE FDIC PROTÈGE-T-ELLE MON ARGENT ?",
+	"bank_runs_fdic_content_1": "L'assurance FDIC est conçue pour protéger les déposants en cas de faillite d'une banque. Les dépôts sont assurés jusqu'à 250 000 dollars par déposant. Ça a l'air génial, non ?",
+	"bank_runs_fdic_content_2": "Pas exactement. Si une banque fait faillite, où la FDIC va-t-elle chercher l'argent ? Elle dispose d'un fonds d'assurance de 125 milliards de dollars.",
+	"bank_runs_fdic_content_3": "Cela semble beaucoup d'argent jusqu'à ce que vous le compariez au montant des dépôts qu'ils assurent : près de 10 trillions ou 10 000 milliards de dollars.",
+	"bank_runs_fdic_content_4": "La FDIC indique même sur son site Internet que ses fonds d'assurance ne couvre qu'un peu plus de 1 % des dépôts.",
+	"bank_runs_fdic_content_5": "En cas de faillite d'une banque dépassant les fonds d'assurance de la FDIC, il est probable (mais non garanti) que le gouvernement américain imprime de l'argent pour indemniser les déposants.",
+	"bank_runs_fdic_content_6": "Mais l'impression de monnaie provoque de l'inflation, ce n'est donc pas une bonne solution.",
+	"bank_runs_safe": "EXISTE-T-IL DES BANQUES QUI N'UTILISENT PAS LA RÉSERVE FRACTIONNAIRE ?",
+	"bank_runs_safe_content_1": "Certaines banques ont essayé d'être des 'banques sûres' qui ne prêtent pas et n'investissent pas les fonds des déposants.",
+	"bank_runs_safe_content_2": "Même si ces banques sûres n'ont aucun risque de faillite, leurs demandes ont été rejetées par la Réserve fédérale. Cela signifie qu'elles ne peuvent pas légalement opérer en tant que banques.",
+	"bank_runs_safe_content_3": "Parce qu'elles ont été interdis d'opérer, il n'existe aujourd'hui aucune banque qui n'utilise pas la réserve fractionnaire.",
+	"bank_runs_safe_content_4": "Heureusement, il existe un moyen d'éviter le système de réserve fractionnaire en devenant sa propre banque. Non, il ne s'agit pas de mettre du cash sous votre matelas.",
+	"bank_runs_safe_content_5": "L'épargne en cash reste vulnérable à l'inflation.",
+	"bank_runs_safe_content_6": "Nous parlons de Bitcoin : un nouveau système financier qui vous permet d'être votre propre banque.",
+	"bank_runs_protect": "LE BITCOIN PEUT-IL ME PROTÉGER CONTRE LES PANIQUES BANCAIRES ?",
+	"bank_runs_protect_content_1": "Oui, Bitcoin est un système financier à réserve complète.",
+	"bank_runs_protect_content_2": "Les paniques bancaires sont impossibles avec Bitcoin tant que vous mettez vos bitcoins dans votre propre portefeuille. Ne laissez pas vos bitcoins sur une plateforme d'échange ou boursières comme un ETF Bitcoin.",
+	"bank_runs_protect_content_3": "Consultez notre guide facile des portefeuilles bitcoin pour savoir comment effectuer un retrait vers votre propre portefeuille.",
+	"bank_runs_protect_content_4": "Avec le Bitcoin, vous pouvez enfin contrôler votre argent."
+}

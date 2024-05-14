@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-12",
+		"locale": "fr"
+	},
+	"free_bitcoin_stickers": "Autocollants bitcoin gratuits de bitcoin.rocks",
+	"stickers_description": "Mettez un autocollant bitcoin en public pour faire passer la pilule orange à ceux qui vous entourent.",
+	"stickers_header": "AUTOCOLLANTS BITCOIN GRATUITS",
+	"stickers_choose_header": "CHOISISSEZ VOTRE PACK D'AUTOCOLLANTS",
+	"stickers_choose_c1": "Notre mission est de vous aider à faire passer la pilule orange (métaphore pour faire passer la connaissance du bitcoin) à un plus grand nombre de personnes en plaçant des autocollants Bitcoin dans l'espace public. Tous nos autocollants ont des codes QR qui renvoient à des pages éducatives sur",
+	"stickers_choose_c2": "le bitcoin",
+	"stickers_choose_c3": "l'inflation",
+	"stickers_choose_c4": "Choisissez votre pack d'autocollants ci-dessous",
+	"stickers_text_pack": "LE PACK TEXTE",
+	"stickers_signs_pack": "LE PACK DE SIGNALISATION",
+	"stickers_instructions_1": "Entrez votre adresse postale et nous vous enverrons un pack d'autocollants Bitcoin gratuit par la poste ! Vos autocollants seront expédiés dans une enveloppe blanche ordinaire.",
+	"stickers_instructions_2": "Les données d'adresse sont supprimées après l'envoi de vos autocollants gratuits.",
+	"stickers_share_header": "PARTAGEZ VOS SPOTS",
+	"stickers_share_c1": "Partagez vos meilleurs spots d'autocollants avec nous sur Nostr et vous pourriez recevoir des zap (donations) en bitcoin comme récompense !",
+	"stickers_btn_share_on_nostr": "PARTAGER SUR NOSTR",
+	"stickers_btn_what_is_nostr": "C'EST QUOI NOSTR ?",
+	"stickers_country_global_print": "Global - Imprimer mes propres autocollants",
+	"stickers_country_global_order": "Global - Commander en gros"
+}
