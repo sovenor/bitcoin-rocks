@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-12",
+		"last-updated": "2024-05-16",
 		"locale": "fr"
 	},
 	"bitcoin_lightning_wallet_guide": "Guide des portefeuilles Bitcoin Lightning",
@@ -15,8 +15,8 @@
 	"lightning_s1_c4": "Consultez notre guide des portefeuilles physiques pour plus d'informations.",
 	"lightning_s1_c5": "Tous les portefeuilles Lightning ne sont pas identiques. Vous pouvez déterminer quel portefeuille présente les meilleurs compromis pour vous en posant une simple question :",
 	"lightning_question_1": "QUEL EST LE MEILLEUR COMPROMIS POUR MOI ?",
-	"lightning_s2_c1": "L'une des innovations du bitcoin est la possibilité de le stocker sans dépendre d'un dépositaire, comme une banque. Les portefeuilles d'autodétention permettent de profiter de toute la force du bitcoin.",
-	"lightning_s2_c2": "Avec un portefeuille en autodétention, vous êtes le seul à pouvoir dépenser ou transférer votre argent. Personne ne peut vous arrêter, vous censurer ou vous voler lorsque vous utilisez un portefeuille autogéré. Ces portefeuilles sont également appelés portefeuilles non-custodial.",
+	"lightning_s2_c1": "L'une des innovations du bitcoin est la possibilité de le stocker sans dépendre d'un dépositaire, comme une banque. Les portefeuilles d'auto-détention permettent de profiter de tous les avantages du bitcoin.",
+	"lightning_s2_c2": "Avec un portefeuille en auto-détention, vous êtes le seul à pouvoir dépenser ou transférer votre argent. Personne ne peut vous arrêter, vous censurer ou vous voler lorsque vous utilisez un portefeuille autogéré. Ces portefeuilles sont également appelés portefeuilles non-custodial.",
 	"lightning_s2_c3": "La manière la plus radicale d'utiliser le Lightning est d'avoir son propre nœud.",
 	"lightning_s2_c4": "Ce guide se concentre sur les portefeuilles Lightning simples qui ne nécessitent pas votre propre nœud.",
 	"lightning_s2_c5": "Il est important de savoir que même en utilisant un portefeuille Lightning non-custodial, vous faites quand meme confiance au créateur du portefeuille pour ne pas développer une mise à jour d'app malveillante et voler vos fonds.",
@@ -25,7 +25,7 @@
 	"lightning_s3_c3": "Les portefeuilles dépositaires peuvent sembler pratiques, mais le dépositaire a la capacité technique de voler ou 'perdre' tous les fonds de l'utilisateur à tout moment.",
 	"lightning_s3_c4": "Certaines personnes préfèrent les portefeuilles Lightning custodial pour de petites quantités de bitcoin en raison de leur facilité d'utilisation. N'oubliez pas : pas vos clés, pas votre monnaie ! (Not your keys, not your coins!).",
 	"lightning_question_2": "CHOISISSEZ VOTRE PORTEFEUILLE",
-	"lightning_s4_c1": "Maintenant que vous savez tout cela, vous pouvez choisir le portefeuille lightning qui a le bon équilibre pour vous.",
+	"lightning_s4_c1": "Maintenant que vous savez tout cela, vous pouvez choisir le portefeuille lightning qui vous convient le mieux.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"mutiny_wallet": "MUTINY WALLET",
@@ -36,6 +36,6 @@
 	"lightning_merchants": "Idéal pour les commerçants",
 	"lightning_starter": "Excellent portefeuille pour commencer",
 	"lightning_browser": "Seulement sur navigateur web",
-	"lightning_custodial": "Portefeuille entièrement en autodétention (non-custodial)",
+	"lightning_custodial": "Portefeuille de dépôt (custodial)",
 	"lightning_cta_hardware": "Vous cherchez plutôt un guide de portefeuilles physiques Bitcoin ?"
 }

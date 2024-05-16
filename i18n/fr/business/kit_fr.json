@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-16",
+		"locale": "fr"
+	},
+	"bitcoin_business_kit": "Bitcoin Business Kit",
+	"kit_header": "OBTENEZ GRATUITEMENT VOTRE BITCOIN BUSINESS KIT",
+	"kit_request": "DEMANDEZ VOTRE KIT GRATUIT",
+	"kit_request_details": "Chaque bitcoin business kit comprend deux brochures qui facilitent l'acceptation du Bitcoin dans les entreprises locales.",
+	"kit_country_global_print": "Global - Imprimer mes propres kits",
+	"kit_enter_address": "Entrez votre adresse postale et nous vous enverrons un kit gratuit dans une enveloppe blanche, (disponible que pour les Etats-Unis et le Canada pour le moment). Les données relatives à l'adresse sont supprimées une fois que votre kit est expédié.",
+	"kit_print_details": "Vous pouvez participer en imprimant vos propres brochures, quel que soit votre lieu de résidence ! Vous pouvez également envoyer des commerces sur notre page du bitcoin pour les commerçants, pour éviter d'imprimer quoi que ce soit.",
+	"kit_view_files": "VOIR LES FICHIERS",
+	"kit_digital_kit": "KIT DIGITAL",
+	"kit_resources": "CHAQUE KIT RENVOIE À CE CONTENU GRATUIT"
+}

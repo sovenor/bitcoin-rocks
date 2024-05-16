@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-16",
+		"locale": "fr"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Apprenez comment le bitcoin est bénéfique pour les commerces",
+	"why_header": "LE BITCOIN EST BENEFIQUE POUR LES COMMERCES",
+	"why_good_for_you": "BITCOIN EST BENEFIQUE POUR TOI AUSSI !",
+	"why_learn_more_lowercase": "En savoir plus.",
+	"why_s1": "bitcoin n'a pas d'inflation",
+	"why_s1_c1": "L'inflation se produit lorsque davantage d'argent est en circulation ou créé à partir de rien. Votre argent perd alors de sa valeur au fil du temps.",
+	"why_s1_c2": "Le bitcoin a une offre total fixe, ce qui signifie que personne ne peut créer plus de bitcoin.",
+	"why_s2": "Le bitcoin ne connaît pas de faillites bancaires",
+	"why_s2_c1": "De nombreuses banques américaines se sont effondrées ces dernières années en raison des paniques bancaires.",
+	"why_s2_c2": "Au lieu de conserver votre argent pour vous, les banques l'investissent et le prêtent. Si ces investissements ne sont pas rentables, elles n'ont pas assez d'argent pour vous rembourser.",
+	"why_s2_c3": "Et le fonds d'assurance FDIC ne dispose que de 1 $ pour chaque 100 $ qu'il assure.",
+	"why_s3": "Bitcoin n'a pas besoin de permission",
+	"why_s3_c1": "Contrairement aux réseaux financiers traditionnels, Bitcoin n'a pas besoin de permission pour être utilisé.",
+	"why_s3_c2": "Cela signifie que personne ne peut vous empêcher d'utiliser Bitcoin pour quelque raison que ce soit. C'est le premier réseau financier que vous pouvez utiliser sans crainte de censure ou de blocage.",
+	"why_s4": "Bitcoin construit un monde meilleur",
+	"why_s4_c1": "Le bitcoin est une technologie souvent mal perçue, qui permet pourtant de construire un monde meilleur.",
+	"why_s4_c2": "Le bitcoin a permis aux militants des droits de l'homme de lutter pour la liberté, de réduire les émissions mondiales de méthane, de sauver des parcs naturels nationaux, et bien d'autres choses encore."
+}

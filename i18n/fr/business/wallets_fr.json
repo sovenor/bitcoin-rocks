@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-16",
+		"locale": "fr"
+	},
+	"how_to_accept_bitcoin_payments": "Comment accepter les paiements en bitcoin",
+	"wallets_header": "OBTENEZ UN PORTEFEUILLE GRATUIT POUR ACCEPTER LES PAIEMENTS EN BITCOIN",
+	"wallets_intro_1": "Tous les portefeuilles Bitcoin sont compatibles, vos clients peuvent vous payer en bitcoin quel que soit le portefeuille qu'ils utilisent.",
+	"wallets_intro_2": "Portefeuilles 100% Bitcoin :",
+	"wallets_intro_3": "Il s'agit de portefeuilles exclusivement pour le Bitcoin qui permettent de bénéficier de tous les avantages du Bitcoin : pas d'intermédiaires, peu de frais, pas de blocages ni de fraude.",
+	"wallets_intro_4": "Portefeuilles mixtes :",
+	"wallets_intro_5": "Ils vous permettent d'échanger une partie de vos bitcoin contre des dollars dès qu'un client vous paie. Les frais sont toujours inférieurs aux paiements par carte de crédit, mais plus élevés que les paiements en bitcoin uniquement.",
+	"wallets_intro_6": "Les deux sont d'excellents moyens d'accepter les bitcoin. Le portefeuille que vous utiliserez dépendra de type et de la taille de votre commerce.",
+	"wallets_choice_sole": "Portefeuilles pour un petit commerçant",
+	"wallets_choice_multiple": "Portefeuilles pour les entreprises de plusieurs personnes",
+	"wallets_choice_online": "Portefeuilles pour les commerces en ligne",
+	"wallets_choice_invoice": "Portefeuille pour les entreprises basées sur des factures",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Portefeuille 100% bitcoin",
+	"wallets_feature_no_info": "Pas d'informations personnelles",
+	"wallets_feature_in_person": "Paiements en personne uniquement",
+	"wallets_feature_settles_bitcoin": "Paiements 100 % en bitcoin",
+	"wallets_feature_hybrid": "Portefeuille mixte",
+	"wallets_feature_info": "Informations commerciales requises",
+	"wallets_feature_in_person_online": "Paiements en personne & en ligne",
+	"wallets_feature_settles_both": "Paiements en bitcoin & dollars",
+	"wallets_feature_multiple_employees": "Prise en charge pour plusieurs employés (BPTs)",
+	"wallets_feature_self_hosted": "Auto-hébergé = 0% de frais",
+	"wallets_feature_online_store": "Intégration de votre boutique en ligne",
+	"wallets_feature_invoicing": "Logiciel de facturation gratuit",
+	"wallets_get_wallet": "OBTENEZ UN PORTEFEUILLE"
+}
