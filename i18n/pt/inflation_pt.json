@@ -6,7 +6,7 @@
 		"last-updated": "2024-05-11",
 		"locale": "pt"
 	},
-	"bitcoin_doesnt_have_inflation": "Bitcoin não tem inflação",
+	  "bitcoin_doesnt_have_inflation": "Bitcoin não tem inflação",
     "inflation_description": "O Bitcoin tem um fornecimento fixo de 21 milhões de Bitcoin que sempre existirão. Ninguém pode imprimir mais Bitcoin e causar inflação",
     "inflation_sticker_cure": "PRECISAS DE UMA CURA PARA A INFLAÇÃO?",
     "inflation_sticker_learn": "APRENDE COMO É QUE O BITCOIN PODE AJUDAR",
@@ -48,7 +48,7 @@
     "inflation_intro_cad": "No Canadá, não existe um limite fixo para o número de dólares canadianos que podem ser criados.",
     "inflation_intro_euro": "Na zona euro, não existe um limite fixo para o número de euros que podem ser criados.",
     "inflation_intro_gbp": "No Reino Unido, não existe um limite fixo para o número de libras esterlinas que podem ser criadas.",
-    "inflation_intro_brazilian_real": "No Brasil, não existe um limite fixo para o número de reais que podem ser criados.", 
+    "inflation_intro_brazilian_real": "No Brasil, não existe um limite fixo para o número de reais que podem ser criados.",
     "inflation_intro_philippine_peso": "Nas Filipinas, não existe um limite fixo para o número de pesos filipinos que podem ser criados.",
     "inflation_intro_mexican_peso": "No México, não existe um limite fixo para o número de pesos mexicanos que podem ser criados.",
     "inflation_intro_indian_rupee": "Na Índia, não existe um limite fixo para o número de rupias indianas que podem ser criadas.",
