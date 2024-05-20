@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"how_to_accept_bitcoin_payments": "Como aceitar pagamentos em Bitcoin",
+	"wallets_header": "OBTER UMA CARTEIRA BITCOIN GRATUITA PARA ACEITAR PAGAMENTOS EM BITCOIN",
+	"wallets_intro_1": "Todas as carteiras Bitcoin são interoperáveis, pelo que os teus clientes podem pagar-te em Bitcoin independentemente da carteira que utilizem.",
+	"wallets_intro_2": "Carteiras só de Bitcoin:",
+	"wallets_intro_3": "Estas são carteiras puramente Bitcoin que desbloqueiam todos os benefícios da Bitcoin: sem intermediários, taxas baixas e sem reembolsos ou fraudes.",
+	"wallets_intro_4": "Carteiras híbridas:",
+	"wallets_intro_5": "Estas permitem-te trocar qualquer parte do teu Bitcoin por euros assim que um cliente te paga. As taxas continuam a ser inferiores às dos pagamentos com cartão bancário, mas superiores às dos pagamentos puramente em Bitcoin.",
+	"wallets_intro_6": "Ambas são óptimas formas de aceitar Bitcoin. A carteira específica que deves utilizar dependerá da dimensão e do tipo do teu negócio.",
+	"wallets_choice_sole": "carteiras para negócios de propriedade individual",
+	"wallets_choice_multiple": "carteiras para negócios com vários empregados",
+	"wallets_choice_online": "carteiras para negócios online",
+	"wallets_choice_invoice": "carteiras para negócios baseadas em facturas",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Carteira só de Bitcoin",
+	"wallets_feature_no_info": "Não são necessárias informações",
+	"wallets_feature_in_person": "Apenas pagamentos presenciais",
+	"wallets_feature_settles_bitcoin": "Receber 100% em Bitcoin",
+	"wallets_feature_hybrid": "Carteira híbrida",
+	"wallets_feature_info": "Informações comerciais necessárias",
+	"wallets_feature_in_person_online": "Pagamentos presenciais e online",
+	"wallets_feature_settles_both": "Receber em Bitcoin e euros",
+	"wallets_feature_multiple_employees": "Suporte a vários funcionários (BPTs)",
+	"wallets_feature_self_hosted": "Auto-hospedado = 0% de taxas",
+	"wallets_feature_online_store": "Integração para lojas online",
+	"wallets_feature_invoicing": "Software de faturação gratuito",
+	"wallets_get_wallet": "OBTÉM A TUA CARTEIRA"
+}
