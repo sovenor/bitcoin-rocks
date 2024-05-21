@@ -26,7 +26,7 @@
 	"bank_runs_fdic_content_2": "Não exatamente. Se um banco falir, onde é que o FGD vai buscar o dinheiro? Em 2020 possuiam recursos financeiros que ascendiam a 1674 milhões de euros.",
 	"bank_runs_fdic_content_3": "Parece muito dinheiro até o compararmos com o montante dos depósitos que asseguram: quase 178 biliões ou 178,2 mil milhões de euros.",
 	"bank_runs_fdic_content_4": "Podemos concluir que o FGD só tem dinheiro suficiente nos seus recursos financeiros para cobrir um pouco mais de 0,9% dos depósitos.",
-	"bank_runs_fdic_content_5": "Na eventualidade de uma falência de um banco que excedesse o fundo de seguros do FGD, é provável (mas não garantido) que o governo imprimisse dinheiro para reembolsar os depositantes",
+	"bank_runs_fdic_content_5": "Na eventualidade de uma falência de um banco que excedesse o fundo de seguros do FGD, é provável (mas não garantido) que o governo imprimisse dinheiro para reembolsar os depositantes.",
 	"bank_runs_fdic_content_6": "Mas imprimir dinheiro provoca inflação, pelo que não é uma boa solução.",
 	"bank_runs_safe": "EXISTEM BANCOS QUE NÃO UTILIZAM RESERVAS FRACIONÁRIAS?",
 	"bank_runs_safe_content_1": "Alguns bancos tentaram tornar-se ‘bancos seguros’, que não emprestam nem investem os fundos dos depositantes.",
@@ -37,7 +37,7 @@
 	"bank_runs_safe_content_6": "Estamos a falar de Bitcoin: um novo sistema financeiro que te permite ser o teu próprio banco.",
 	"bank_runs_protect": "O BITCOIN PODE PROTEGER-ME DE CORRIDAS AOS BANCOS?",
 	"bank_runs_protect_content_1": "Sim, o Bitcoin é um sistema de reserva total.",
-	"bank_runs_protect_content_2": "Corridas bancárias são impossíveis no Bitcoin desde que retires o teu Bitcoin para a tua própria carteira e não o deixe numa corretora ou num ETF de Bitcoin",
+	"bank_runs_protect_content_2": "Corridas aos bancos são impossíveis no Bitcoin desde que retires o teu Bitcoin para a tua própria carteira e não o deixes numa corretora ou num ETF de Bitcoin.",
 	"bank_runs_protect_content_3": "Consulta o nosso guia simples de criação de uma Carteira Bitcoin para saber como efetuar levantamentos para a tua própria carteira.",
 	"bank_runs_protect_content_4": "Com o Bitcoin, podes finalmente controlar o teu dinheiro."
 }
