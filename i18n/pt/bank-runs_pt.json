@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Não Tem Corridas aos Bancos",
+	"bank_runs_header": "BITCOIN NÃO TEM CORRIDAS AOS BANCOS",
+	"bank_runs_header_2": "MAS O TEU BANCO PODE TER",
+	"bank_runs_what": "O QUE É UMA CORRIDA AOS BANCOS?",
+	"bank_runs_what_content_1": "Uma corrida aos bancos ocorre quando demasiadas pessoas tentam levantar o seu dinheiro do banco ao mesmo tempo.",
+	"bank_runs_what_content_2": "Se os bancos não possuirem dinheiro suficiente para fazer face aos levantamentos, podem entrar em colapso total em caso de uma corrida aos bancos/depósitos.",
+	"bank_runs_how": "COMO É QUE ACONTECEM AS CORRIDAS AOS BANCOS?",
+	"bank_runs_how_content_1": "O nosso sistema bancário é de reserva fracionária, o que significa que os bancos não guardam o teu dinheiro num cofre e esperam que o gaste ou que o retire.",
+	"bank_runs_how_content_2": "Em vez disso, o teu banco pega no teu dinheiro e empresta ou investe-o. Isto pode bloquear o teu dinheiro durante longos períodos de tempo, apesar de o banco te prometer a possibilidade de o levantar a qualquer momento.",
+	"bank_runs_how_content_3": "So what happens if you try to withdraw your money after the bank has already lent it out or invested it?",
+	"bank_runs_how_content_4": "Não há problema se fores o único a tentar levantar dinheiro. O banco pega no dinheiro de outra pessoa e dá-o a ti. Mas o que é que acontece quando muitas pessoas tentam levantar dinheiro ao mesmo tempo?",
+	"bank_runs_how_content_5": "Muitas pessoas acabaram de descobrir quando houve uma corrida no Silicon Valley Bank em março de 2023.",
+	"bank_runs_how_content_6": "O banco tinha investido o dinheiro dos seus clientes em obrigações que estavam bloqueadas até 30 anos. Pior ainda, o valor dessas obrigações caiu recentemente, pelo que o Silicon Valley Bank não podia simplesmente vender as obrigações para obter o dinheiro dos teus depositantes. Não tinham dinheiro suficiente para fazer face aos levantamentos dos teus depositantes.",
+	"bank_runs_how_content_7": "À medida que mais pessoas descobriam, o problema só piorava. Chegaram mais pedidos de levantamento, mas muitos não foram processados. Milhares de empresas aperceberam-se de que não poderiam pagar aos teus empregados devido à falência do banco.",
+	"bank_runs_how_content_8": "O FDIC (em Portugal seria o Fundo de Garantia de Depósitos, FGD) interveio e concordou em indemnizar os depositantes. Problema resolvido? Não exatamente...",
+	"bank_runs_fdic": "O SEGURO DO FGD PROTEGE O MEU DINHEIRO?",
+	"bank_runs_fdic_content_1": "As garantias do FGD foram concebidas para proteger os depositantes bancários em caso de falência de um banco. Os depósitos são assegurados até €100.000 por depositante. Parece ótimo, certo?",
+	"bank_runs_fdic_content_2": "Não exatamente. Se um banco falir, onde é que o FGD vai buscar o dinheiro? Em 2020 possuiam recursos financeiros que ascendiam a 1674 milhões de euros.",
+	"bank_runs_fdic_content_3": "Parece muito dinheiro até o compararmos com o montante dos depósitos que asseguram: quase 178 biliões ou 178,2 mil milhões de euros.",
+	"bank_runs_fdic_content_4": "Podemos concluir que o FGD só tem dinheiro suficiente nos seus recursos financeiros para cobrir um pouco mais de 0,9% dos depósitos.",
+	"bank_runs_fdic_content_5": "Na eventualidade de uma falência de um banco que excedesse o fundo de seguros do FGD, é provável (mas não garantido) que o governo imprimisse dinheiro para reembolsar os depositantes.",
+	"bank_runs_fdic_content_6": "Mas imprimir dinheiro provoca inflação, pelo que não é uma boa solução.",
+	"bank_runs_safe": "EXISTEM BANCOS QUE NÃO UTILIZAM RESERVAS FRACIONÁRIAS?",
+	"bank_runs_safe_content_1": "Alguns bancos tentaram tornar-se ‘bancos seguros’, que não emprestam nem investem os fundos dos depositantes.",
+	"bank_runs_safe_content_2": "No entanto, as suas candidaturas foram recusadas pela Reserva Federal, o que significa que não podem funcionar legalmente como bancos.",
+	"bank_runs_safe_content_3": "Por terem sido impedidos de operar, não há hoje bancos que não utilizem reservas fracionárias.",
+	"bank_runs_safe_content_4": "Felizmente, há uma forma de optar por sair do sistema de reservas fracionárias, sendo o teu próprio banco.",
+	"bank_runs_safe_content_5": "Não, não estamos a falar de meter dinheiro debaixo do colchão - isso continua a ser vulnerável à inflação.",
+	"bank_runs_safe_content_6": "Estamos a falar de Bitcoin: um novo sistema financeiro que te permite ser o teu próprio banco.",
+	"bank_runs_protect": "O BITCOIN PODE PROTEGER-ME DE CORRIDAS AOS BANCOS?",
+	"bank_runs_protect_content_1": "Sim, o Bitcoin é um sistema de reserva total.",
+	"bank_runs_protect_content_2": "Corridas aos bancos são impossíveis no Bitcoin desde que retires o teu Bitcoin para a tua própria carteira e não o deixes numa corretora ou num ETF de Bitcoin.",
+	"bank_runs_protect_content_3": "Consulta o nosso guia simples de criação de uma Carteira Bitcoin para saber como efetuar levantamentos para a tua própria carteira.",
+	"bank_runs_protect_content_4": "Com o Bitcoin, podes finalmente controlar o teu dinheiro."
+}

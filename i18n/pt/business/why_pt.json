@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Sabe porque é que o Bitcoin é bom para os negócios",
+	"why_header": "BITCOIN É BOM PARA O NEGÓCIOS",
+	"why_good_for_you": "O BITCOIN TAMBÉM É BOM PARA TI!",
+	"why_learn_more_lowercase": "Sabe mais.",
+	"why_s1": "Bitcoin não tem inflação",
+	"why_s1_c1": "A inflação acontece quando mais dinheiro é imprimido ou criado do nada. Isso faz com que teu dinheiro valha menos com o tempo.",
+	"why_s1_c2": "Bitcoin tem uma oferta fixa, o que significa que ninguém pode imprimir mais Bitcoin.",
+	"why_s2": "Bitcoin não tem corridas aos bancos",
+	"why_s2_c1": "Vários bancos dos EUA entraram em colapso nos últimos anos devido a corridas aos bancos.",
+	"why_s2_c2": "Em vez de se limitarem a guardar o teu dinheiro, os bancos investem e emprestam o teu dinheiro. Se esses investimentos não forem bem sucedidos, eventualmente não têm dinheiro suficiente para te pagar.",
+	"why_s2_c3": "E o Fundo de Garantia de Depósitos FGD só tem €1 por cada €100 que está a assegurar.",
+	"why_s3": "Bitcoin não precisa de permissão",
+	"why_s3_c1": "Ao contrário das redes financeiras tradicionais, não precisas de obter permissão para usares Bitcoin.",
+	"why_s3_c2": "Isso significa que ninguém te pode impedir de usar o Bitcoin por qualquer motivo. É a primeira rede financeira que podes utilizar sem receio de censura ou apreensão.",
+	"why_s4": "O Bitcoin está a construir um mundo melhor",
+	"why_s4_c1": "Bitcoin é uma tecnologia mal compreendida que está a construir um mundo melhor.",
+	"why_s4_c2": "O Bitcoin permitiu que ativistas de direitos humanos lutassem pela liberdade, reduziu as emissões globais de metano, salvou parques nacionais e muito mais."
+}

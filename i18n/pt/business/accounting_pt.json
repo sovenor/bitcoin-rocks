@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-05-11",
+		"locale": "pt"
+	},
+	"bitcoin_business_accounting_guide": "Guia de Contabilidade Empresarial Bitcoin",
+	"accounting_description": "Aprende a contabilizar corretamente os pagamentos em Bitcoin na contabilidade da tua empresa.",
+	"accounting_header": "GUIA DE CONTABILIDADE BITCOIN",
+	"accounting_s1_c1": "Aceitar Bitcoin tem muitos benefícios, como aceitar pagamentos com taxas mais baixas e obter mais clientes.",
+	"accounting_s1_c2": "Se utilizares uma Carteira Híbrida do nosso Guia de Carteiras e venderes automaticamente 100% da Bitcoin que recebes por euros, não precisas de fazer quaisquer alterações à tua contabilidade atual.",
+	"accounting_s1_c3": "Ver Guia de Carteira Bitcoin.",
+	"accounting_s1_c4": "No entanto, se mantiveres alguns dos pagamentos que recebes em Bitcoin, terás de acompanhar alguns detalhes para a tua contabilidade. Isto pode parecer intimidante no início, mas na verdade é bastante simples.",
+	"accounting_s1_c5": "Atenção: este guia é apenas para fins informativos e não deve ser considerado aconselhamento fiscal.",
+	"accounting_s1_c6": "Se precisares de aconselhamento fiscal, recomendamos vivamente a Satoshi Pacioli Accounting Services, uma empresa de contabilidade especializada em contabilidade de Bitcoin.",
+	"accounting_s2": "ACOMPANHAR A TUA BASE DE CUSTOS",
+	"accounting_s2_c1": "Acompanhar a tua base de custos será a maior diferença entre a contabilidade por euros e a contabilidade por Bitcoin. Mesmo que vejas o teu negócio inteiramente em termos de Bitcoin, precisas de reportar o valor em euros de cada transação nos teus impostos.",
+	"accounting_s2_c2": "Se usas QuickBooks, podes fazer isto automaticamente através do plugin Bitcoin Sync",
+	"accounting_s2_c3": "Se não usas QuickBooks, nós recomendamos Satoshi Pacioli Accounting Services, uma empresa de contabilidade especializada em contabilidade Bitcoin.",
+	"accounting_s2_c4": "Para fazeres isto manualmente, simplesmente precisas de acompanhar a quantidade de Bitcoin que recebeste e o valor em euros da transação de Bitcoin naquele dia.",
+	"accounting_s2_c5": "Podes ver o preço atual do Bitcoin em euros aqui.",
+	"accounting_s2_c6": "Regista esta informação numa folha de cálculo Excel e entregua-a ao teu contabilista.",
+	"accounting_s2_c7": "Podes também importar estes dados para o Excel automaticamente.",
+	"accounting_s2_c8": "Também podes ver o histórico do preço em euros do Bitcoin em dias passados, para não teres de o fazer todos os dias.",
+	"accounting_s3": "GASTAR OU VENDER O TEU BITCOIN",
+	"accounting_s3_c1": "Se utilizares uma Carteira Híbrida do nosso Guia de Carteiras e venderes automaticamente 100% do Bitcoin que recebes por euros, não precisas de fazer quaisquer alterações à tua contabilidade atual.",
+	"accounting_s3_c2": "Ver Guia de Carteira Bitcoin.",
+	"accounting_s3_c3": "Se optares por gastar ou vender algum do Bitcoin que recebeste depois de o manteres durante algum tempo, basta adicionares o preço pelo qual o vendeste à tua folha de cálculo do Excel onde registas a tua base de custos.",
+	"accounting_s3_c4": "Por exemplo, se recebeste €100 de Bitcoin no dia 1 de janeiro e decidiste vendê-la ou gastá-la no dia 1 de fevereiro por um novo valor de €110, terás que registar uma mais-valia de €10 na tua contabilidade.",
+	"accounting_s3_c5": "Isto também pode funcionar de forma oposta. Por exemplo, se recebeste €100 de Bitcoin no dia 1 de janeiro e decidiste vendê-lo ou gastá-lo no dia 1 de fevereiro por um novo valor de €90, terias que registar uma perda de capital de €10 na tua contabilidade.",
+	"accounting_s4": "PRECISO DE MAIS AJUDA",
+	"accounting_s4_c1": "Se precisares de mais ajuda para integrar a Bitcoin na contabilidade da tua empresa, recomendamos vivamente a Satoshi Pacioli Accounting Services, uma empresa de contabilidade especializada em contabilidade Bitcoin.",
+	"accounting_s4_c2": "Sabe mais sobre os Serviços de Contabilidade Satoshi Pacioli."
+}
