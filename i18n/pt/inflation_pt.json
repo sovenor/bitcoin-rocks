@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2024-05-21",
 		"locale": "pt"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin não tem inflação",
@@ -42,7 +42,7 @@
     "inflation_usd_s1_c7": "o montante total de dólares americanos aumentou de 4 triliões de dólares para 18 triliões de dólares.",
     "inflation_usd_s1_c8": "Esta impressão de dinheiro causou uma inflação recorde.",
     "inflation_usd_s1_c9": "Tudo custa mais agora, porque a impressão de dinheiro fez com que os seus dólares valessem menos",
-    "inflation_intro_c1": "A inflação ocorre quando mais dinheiro é impresso ou criado a partir do nada. Isto faz com que o seu dinheiro valha menos ao longo do tempo.",
+    "inflation_intro_c1": "A inflação ocorre quando mais dinheiro é impresso ou criado a partir do nada. Isto faz com que o teu dinheiro valha menos ao longo do tempo.",
     "inflation_intro_c2": "À medida que mais dinheiro é criado através de défices orçamentais e de novas leis de despesa, o dinheiro que tens acaba por perder poder de compra com o passar do tempo. Como foi impresso muito dinheiro nos últimos anos, o valor do dinheiro na tua conta bancária e no teu bolso diminuiu significativamente ao longo do tempo.",
 	"inflation_intro_c3": "Com o Bitcoin, existe um limite fixo de 21 milhões de Bitcoin que alguma vez existirão. Como não é possível criar mais Bitcoin, o seu valor tem aumentado significativamente ao longo do tempo.",
     "inflation_intro_cad": "No Canadá, não existe um limite fixo para o número de dólares canadianos que podem ser criados.",
