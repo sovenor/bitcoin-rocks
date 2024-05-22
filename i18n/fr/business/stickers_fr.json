@@ -3,15 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2024-05-16",
+		"locale": "fr"
 	},
-	"bitcoin_accepted_here_stickers": "Bitcoin Accepted Here stickers",
-	"stickers_header": "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS",
-	"stickers_request": "Get your free stickers",
-	"stickers_request_details": "Let your customers know you accept Bitcoin payments with these free 'Bitcoin Accepted Here' stickers.",
-	"stickers_country_global_print": "Global — Print my own stickers",
-	"stickers_request_instructions": "You will receive three 'Bitcoin Accepted Here' stickers in a plain white envelope. If you need more than three stickers for your business, feel free to request multiple times. Address data is deleted after your free stickers are shipped.",
-	"stickers_print_details": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live! Click on your language below to view the sticker files & instructions.",
-	"stickers_request_language": "Don't see your language? Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language."
+	"bitcoin_accepted_here_stickers": "autocollants Bitcoin Accepted Here",
+	"stickers_header": "COMMANDER VOS AUTOCOLLANTS 'BITCOIN ACCEPTED HERE'",
+	"stickers_request": "Commander des autocollant gratuits",
+	"stickers_request_details": "Faites savoir à vos clients que vous acceptez les paiements en bitcoin grâce à ces autocollants gratuits 'Bitcoin Accepted Here'.",
+	"stickers_country_global_print": "Global — Imprimez vos propres autocollants",
+	"stickers_request_instructions": "Vous recevrez 3 autocollants 'Bitcoin Accepted Here' dans une enveloppe blanche. Si vous avez besoin de plus de 3 autocollants pour votre entreprise, n'hésitez pas à faire plusieurs demandes. Les données d'adresse sont supprimées après l'envoi de vos autocollants gratuits.",
+	"stickers_print_details": "Vous pouvez imprimer vos propres autocollants 'Bitcoin Accepted Here', quel que soit votre pays ! Cliquez sur votre langue ci-dessous pour voir les fichiers png et les instructions.",
+	"stickers_request_language": "Votre langue n'est pas disponible ? Remplissez le formulaire ci-dessous pour demander des fichiers d'autocollants 'Bitcoin Accepted Here' dans votre langue locale."
 }

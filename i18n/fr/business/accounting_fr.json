@@ -6,8 +6,8 @@
 		"last-updated": "2024-05-13",
 		"locale": "fr"
 	},
-	"bitcoin_business_accounting_guide": "Guide de comptabilité pour commerçant bitcoin",
-	"accounting_description": "Apprenez à intégrer convenablement les paiements en bitcoins dans la comptabilité de votre entreprise.",
+	"bitcoin_business_accounting_guide": "Guide de comptabilité pour commerçant bitcoin ",
+	"accounting_description": "Apprenez à intégrer convenablement les paiements en bitcoin dans la comptabilité de votre entreprise.",
 	"accounting_header": "GUIDE DE COMPTABILITE POUR COMMERCANT BITCOIN",
 	"accounting_s1_c1": "Accepter les bitcoin présente de nombreux avantages, comme accepter des paiements avec des frais réduits et attirer plus de clients.",
 	"accounting_s1_c2": "Si vous utilisez un portefeuille hybride de notre guide de portefeuilles et que vous vendez automatiquement 100 % des bitcoin que vous recevez contre des dollars, vous n'avez pas besoin de modifier votre comptabilité actuelle.",
@@ -29,7 +29,7 @@
 	"accounting_s3_c2": "Voir le guide des portefeuilles.",
 	"accounting_s3_c3": "Si vous décidez de dépenser ou de vendre une partie des bitcoin que vous recevez après les avoir conserver pendant un certain temps, il vous suffit d'ajouter le prix auquel vous les avez vendus dans votre feuille de calcul Excel en prenant compte le prix d'achat.",
 	"accounting_s3_c4": "Par exemple, si vous avez reçu 100 $ de bitcoin le 1er janvier et que vous décidez de les vendre ou de les dépenser le 1er février à une nouvelle valeur de 110 $, vous devrez enregistrer une plus-value de 10 $ dans votre comptabilité.",
-	"accounting_s3_c5": "Cela peut également fonctionner dans l'autre sens. Par exemple, si vous avez reçu 100 $ de bitcoins le 1er janvier et que vous décidez de les vendre ou de les dépenser le 1er février à une nouvelle valeur de 90 $, vous devrez enregistrer une perte en capital de 10 $ dans votre comptabilité.",
+	"accounting_s3_c5": "Cela peut également fonctionner dans l'autre sens. Par exemple, si vous avez reçu 100 $ de bitcoin le 1er janvier et que vous décidez de les vendre ou de les dépenser le 1er février à une nouvelle valeur de 90 $, vous devrez enregistrer une perte en capital de 10 $ dans votre comptabilité.",
 	"accounting_s4": "J'AI BESOIN DE PLUS D'AIDE",
 	"accounting_s4_c1": "Si vous avez besoin de plus d'aide pour intégrer Bitcoin dans la comptabilité de votre entreprise, nous vous recommandons Satoshi Pacioli Accounting Services, un cabinet comptable spécialisé dans la comptabilité Bitcoin.",
 	"accounting_s4_c2": "En savoir plus sur Satoshi Pacioli Accounting Services."

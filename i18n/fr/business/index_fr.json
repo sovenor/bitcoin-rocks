@@ -3,20 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2024-05-16",
+		"locale": "fr"
 	},
-	"bitcoin_is_good_for_business": "Bitcoin is good for business",
-	"biz_header": "BITCOIN IS GOOD FOR BUSINESS",
-	"biz_s1": "Low fees with no minimums",
-	"biz_s1_c1": "Bitcoin enables you to receive payments directly from your customers, much like cash. The Bitcoin network operates without middlemen like banks and credit card companies that take hefty fees.",
-	"biz_s2": "Instant settlement",
-	"biz_s2_c1": "Just like cash, Bitcoin’s payments settle instantly. You don’t need to wait for your credit card company or bank to pay you. Instead, you gain access to your money right away.",
-	"biz_s3": "No chargebacks or fraud",
-	"biz_s3_c1": "Because Bitcoin payments happen directly between you and your customers, it’s impossible for anyone to take your money back with a chargeback.",
-	"biz_s3_c2": "Counterfeit Bitcoin can not be sent on the Bitcoin Network, which means you never have to worry about fraudulent transactions that can cost your business money.",
-	"biz_s4": "Get more customers",
-	"biz_s4_c1": "Millions of people own Bitcoin and want to spend their Bitcoin at places that accept it.",
-	"biz_s4_c2": "By simply accepting Bitcoin, your business can be listed on Bitcoin merchant maps and gain free exposure to new Bitcoin customers.",
-	"biz_s4_c3": "Accepting Bitcoin is 100% free. There are no contracts or hidden fees."
+	"bitcoin_is_good_for_business": "Le Bitcoin est bénéfique pour les commerces",
+	"biz_header": "LE BITCOIN EST BENEFIQUE POUR LES COMMERCES",
+	"biz_s1": "Frais réduits sans minimum d'achat",
+	"biz_s1_c1": "Bitcoin vous permet de recevoir des paiements directement de vos clients, comme de l'argent liquide. Le réseau Bitcoin fonctionne sans intermédiaires, comme les banques et les sociétés de cartes de crédit qui eux prélèvent des frais importants.",
+	"biz_s2": "Règlement instantané",
+	"biz_s2_c1": "Tout comme l'argent liquide, les paiements en bitcoin sont réglés instantanément. Vous n'avez pas besoin d'attendre que votre banque ou la société de cartes de crédit vous paie. Vous avez accès à votre argent immédiatement.",
+	"biz_s3": "Pas de transaction bloquée ni de fraude",
+	"biz_s3_c1": "Parce que les paiements en bitcoin se font directement entre vous et vos clients, il est impossible pour quiconque de bloquer ou récupérer votre argent.",
+	"biz_s3_c2": "Les faux bitcoin ne peuvent pas être envoyés sur le réseau Bitcoin, ce qui signifie que vous n'aurez jamais à vous soucier des transactions frauduleuses qui peuvent coûter de l'argent à votre entreprise.",
+	"biz_s4": "Obtenez plus de clients",
+	"biz_s4_c1": "Des millions de personnes possèdent des bitcoin et veulent les dépenser dans des commerces qui les acceptent.",
+	"biz_s4_c2": "Simplement en acceptant les bitcoin, votre entreprise peut être répertoriée sur les cartes des marchands bitcoin et profiter d'une visibilité gratuite auprès de nouveaux clients.",
+	"biz_s4_c3": "Accepter bitcoin est 100% gratuit. Il n'y a pas de contrat ni de frais cachés."
 }

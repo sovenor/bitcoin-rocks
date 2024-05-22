@@ -3,24 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2024-05-16",
+		"locale": "fr"
 	},
-	"learn_why_bitcoin_is_good_for_business": "Learn why Bitcoin is good for business",
-	"why_header": "BITCOIN IS GOOD FOR BUSINESS",
-	"why_good_for_you": "BITCOIN IS GOOD FOR YOU TOO!",
-	"why_learn_more_lowercase": "Learn more.",
-	"why_s1": "Bitcoin doesn't have inflation",
-	"why_s1_c1": "Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.",
-	"why_s1_c2": "Bitcoin has a fixed supply, which means no one can print more Bitcoin.",
-	"why_s2": "Bitcoin doesn't have bank runs",
-	"why_s2_c1": "Multiple US banks have collapsed in the past few years due to bank runs.",
-	"why_s2_c2": "Instead of just holding your money for you, banks invest and lend out your money. If those investments don't do well, they don't have enough to pay you back.",
-	"why_s2_c3": "And the FDIC insurance fund only has $1 for every $100 they're insuring.",
-	"why_s3": "Bitcoin is permissionless",
-	"why_s3_c1": "Unlike traditional financial networks, Bitcoin doesn't require permission to be used.",
-	"why_s3_c2": "That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.",
-	"why_s4": "Bitcoin is building a better world",
-	"why_s4_c1": "Bitcoin is a misunderstood technology that is building a better world.",
-	"why_s4_c2": "Bitcoin has enabled human rights activists to fight for freedom, reduced global methane emissions, saved national parks, and so much more."
+	"learn_why_bitcoin_is_good_for_business": "Apprenez comment le bitcoin est bénéfique pour les commerces",
+	"why_header": "LE BITCOIN EST BENEFIQUE POUR LES COMMERCES",
+	"why_good_for_you": "BITCOIN EST BENEFIQUE POUR TOI AUSSI !",
+	"why_learn_more_lowercase": "En savoir plus.",
+	"why_s1": "bitcoin n'a pas d'inflation",
+	"why_s1_c1": "L'inflation se produit lorsque davantage d'argent est en circulation et créé à partir de rien, sans garantie. Votre argent perd alors de sa valeur au fil du temps. 'L'inflation est causée par une création monétaire excessive, plus précisément d'une croissance de la masse monétaire trop forte par rapport à la croissance de la production.' (source gouv. Français : vie-publique.fr).",
+	"why_s1_c2": "Le bitcoin a une offre total fixe, ce qui signifie que personne ne peut créer plus de bitcoin.",
+	"why_s2": "Le bitcoin ne connaît pas de faillites bancaires",
+	"why_s2_c1": "De nombreuses banques américaines se sont effondrées ces dernières années en raison des paniques bancaires.",
+	"why_s2_c2": "Au lieu de conserver votre argent pour vous, les banques l'investissent et le prêtent. Si ces investissements ne sont pas rentables, elles n'ont pas assez d'argent pour vous rembourser.",
+	"why_s2_c3": "Et le fonds d'assurance FDIC ne dispose que de 1 $ pour chaque 100 $ qu'il assure.",
+	"why_s3": "Bitcoin n'a pas besoin de permission",
+	"why_s3_c1": "Contrairement aux réseaux financiers traditionnels, Bitcoin n'a pas besoin de permission pour être utilisé.",
+	"why_s3_c2": "Cela signifie que personne ne peut vous empêcher d'utiliser Bitcoin pour quelque raison que ce soit. C'est le premier réseau financier que vous pouvez utiliser sans crainte de censure ou de blocage.",
+	"why_s4": "Bitcoin construit un monde meilleur",
+	"why_s4_c1": "Le bitcoin est une technologie souvent mal perçue, qui permet pourtant de construire un monde meilleur.",
+	"why_s4_c2": "Le bitcoin a permis aux militants des droits de l'homme de lutter pour la liberté, de réduire les émissions mondiales de méthane, de sauver des parcs naturels nationaux, et bien d'autres choses encore."
 }
