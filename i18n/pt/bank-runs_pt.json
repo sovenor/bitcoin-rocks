@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2024-05-21",
 		"locale": "pt"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin Não Tem Corridas aos Bancos",
@@ -15,7 +15,7 @@
 	"bank_runs_how": "COMO É QUE ACONTECEM AS CORRIDAS AOS BANCOS?",
 	"bank_runs_how_content_1": "O nosso sistema bancário é de reserva fracionária, o que significa que os bancos não guardam o teu dinheiro num cofre e esperam que o gaste ou que o retire.",
 	"bank_runs_how_content_2": "Em vez disso, o teu banco pega no teu dinheiro e empresta ou investe-o. Isto pode bloquear o teu dinheiro durante longos períodos de tempo, apesar de o banco te prometer a possibilidade de o levantar a qualquer momento.",
-	"bank_runs_how_content_3": "So what happens if you try to withdraw your money after the bank has already lent it out or invested it?",
+	"bank_runs_how_content_3": "Então o que é que acontece se tentares levantar o teu dinheiro depois de o banco já o ter emprestado ou investido?",
 	"bank_runs_how_content_4": "Não há problema se fores o único a tentar levantar dinheiro. O banco pega no dinheiro de outra pessoa e dá-o a ti. Mas o que é que acontece quando muitas pessoas tentam levantar dinheiro ao mesmo tempo?",
 	"bank_runs_how_content_5": "Muitas pessoas acabaram de descobrir quando houve uma corrida no Silicon Valley Bank em março de 2023.",
 	"bank_runs_how_content_6": "O banco tinha investido o dinheiro dos seus clientes em obrigações que estavam bloqueadas até 30 anos. Pior ainda, o valor dessas obrigações caiu recentemente, pelo que o Silicon Valley Bank não podia simplesmente vender as obrigações para obter o dinheiro dos teus depositantes. Não tinham dinheiro suficiente para fazer face aos levantamentos dos teus depositantes.",

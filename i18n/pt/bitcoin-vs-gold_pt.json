@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2024-05-21",
 		"locale": "pt"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Gold",
@@ -43,9 +43,9 @@
 	"point_5_summary_2": "Dezenas de milhares de nós independentes validam a rede.",
 	"point_5_summary_3": "Os utilizadores podem fazer a autocustódia do seu Bitcoin descarregando uma aplicação.",
 	"point_5_summary_4": "Embora seja possível guardar o ouro físico por conta própria, a maior parte do ouro físico é armazenada em grandes cofres de custódia, o que o torna fisicamente centralizado.",
-	"point_6_summary_1": "Com o Bitcoin, é incrivelmente fácil verificar se você tens Bitcoin real, assumindo a autocustódia das tuas moedas e executando um nó completo.",
+	"point_6_summary_1": "Com o Bitcoin, é incrivelmente fácil verificar se tens Bitcoin verdadeiro, assumindo a autocustódia das tuas moedas e executando um nó completo.",
 	"point_6_summary_2": "A autocustódia é tão simples como descarregar uma aplicação.",
-	"point_6_summary_3": "Um nó completo é um pedaço simples de software que garante que as regras da rede estão a ser seguidas e verifica se tens Bitcoin real.",
+	"point_6_summary_3": "Um nó completo é um pedaço simples de software que garante que as regras da rede estão a ser seguidas e verifica se tens Bitcoin verdadeiro.",
 	"point_6_summary_4": "O ouro físico pode ser muito difícil de verificar como autêntico. Mesmo que se verifique que a secção exterior do ouro físico é real, o interior da tua peça de ouro físico pode ser tungsténio ou outro metal que não seja ouro. A única maneira de realmente verificar se possuis o ouro físico que achas que possuis é derretê-lo.",
 	"point_7_summary_1": "Tal como existem 100 cêntimos em 1 euro, existem 100.000.000 sats em 1 Bitcoin. Isto permite que o Bitcoin seja utilizado para todas as escalas de compras, incluindo microtransacções tão pequenas como alguns cêntimos.",
 	"point_7_summary_2": "Isto faz com que o Bitcoin seja boa para negócios.",
