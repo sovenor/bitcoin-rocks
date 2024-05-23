@@ -3,13 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-12",
+		"last-updated": "2024-05-23",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Le bitcoin n'a pas de panique bancaire",
-	"bank_runs_header": "LE BITCOIN N'A PAS DE PANIQUE BANCAIRE",
+	"bank_runs_header": "LE BITCOIN N'A PAS DE FAILLITE BANCAIRE",
 	"bank_runs_header_2": "MAIS CELA PEUX ARRIVER A VOTRE BANQUE",
-	"bank_runs_what": "QU'EST-CE QUE LA PANIQUE BANCAIRE ?",
+	"bank_runs_what": "LA PANIQUE BANCAIRE C'EST QUOI ?",
 	"bank_runs_what_content_1": "Une panique bancaire se produit lorsque trop de personnes essaient de retirer leur argent de la banque en même temps.",
 	"bank_runs_what_content_2": "Si les banques ne disposent pas de suffisamment d'argent pour faire face aux retraits, elles peuvent s'effondrer complètement lors d'une panique bancaire.",
 	"bank_runs_how": "COMMENT SE PRODUISENT LES PANIQUES BANCAIRES ?",

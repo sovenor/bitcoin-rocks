@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2024-05-23",
 		"locale": "fr"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs OR",
@@ -37,7 +37,7 @@
 	"point_3_summary_3": "C'est moins que l'inflation en euros, cependant, cela reste de l'inflation.",
 	"point_3_summary_4": "Avec Bitcoin, votre part ne diminue jamais.",
 	"point_4_summary_1": "L'or a une offre flexible, ce qui signifie que lorsque le prix de l'or augmente, il y a une plus grande incitation à extraire plus d'or. Cela exerce souvent une pression à la baisse sur le prix de l'or lorsque de nouvelles mines sont mises en service.",
-	"point_4_summary_2": "Avec le bitcoin, quelle que soit la hausse du prix, vous ne pouvez pas en créer plus de 21 millions.",
+	"point_4_summary_2": "Avec le bitcoin, peu importe la hausse du prix, vous ne pouvez pas en créer plus de 21 millions.",
 	"point_4_summary_3": "Le bitcoin est le premier actif dont la relation entre le prix et l'offre est inflexible.",
 	"point_5_summary_1": "Le réseau Bitcoin est décentralisé.",
 	"point_5_summary_2": "Des dizaines de milliers de nœuds indépendants valident les règles du réseau.",
