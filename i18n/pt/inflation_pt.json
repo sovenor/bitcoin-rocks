@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-21",
+		"last-updated": "2024-05-22",
 		"locale": "pt"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin não tem inflação",
@@ -85,7 +85,7 @@
     "inflation_issuance_c2": "O Bitcoin tem um fornecimento fixo de 21.000.000 (21 milhões) de bitcoin que alguma vez existirá. O limite de fornecimento de 21 milhões é fixado em código e protegido pela rede de computação mais poderosa do mundo, chamada simplesmente a rede Bitcoin. Este limite não pode ser alterado.",
     "inflation_issuance_c3": "Embora o Bitcoin não tenha inflação, ele tem emissão. A emissão é a percentagem de novos Bitcoins extraídos a cada ano. Os mineiros de Bitcoin protegem a rede, processam transacções de Bitcoin e são pagos pelo seu trabalho. Os mineiros de Bitcoin são pagos com esta nova emissão (até que esta se esgote) e também recebem taxas de transação.",
     "inflation_issuance_c4": "Mais de 93% de todas as bitcoins já foram mineradas. Mais de 99% de todos os 21 milhões de bitcoins terão sido extraídos até à década de 2030, e os restantes menos de 1% serão extraídos até ao ano 2140.",
-	"inflation_issuance_c5": "Apesar de haver emissão até ao fornecimento fixo de 21 milhões de bitcoins, a questão é que a sua fatia do bolo de 21 milhões de bitcoins nunca diminui. Isto contrasta fortemente com as moedas governamentais que utilizamos. Nesses sistemas, a sua fatia da torta fica menor a cada ano, quando mais dinheiro é impresso do nada.",
+	"inflation_issuance_c5": "Apesar de haver emissão até ao fornecimento fixo de 21 milhões de bitcoins, a questão é que a tua fatia do bolo de 21 milhões de bitcoins nunca diminui. Isto contrasta fortemente com as moedas governamentais que utilizamos. Nesses sistemas, a tua fatia do bolo fica menor a cada ano, quando mais dinheiro é impresso do nada.",
     "inflation_issuance_c6": "Não se pode imprimir mais bitcoin.",
     "inflation_protect_header": "O BITCOIN PODE PROTEGER O MEU DINHEIRO DA INFLAÇÃO?",
     "inflation_protect_c1": "Historicamente, o Bitcoin tem sido óptimo a proteger as pessoas da inflação da sua moeda local. Muitas pessoas que utilizam a Bitcoin como proteção contra a inflação armazenam dinheiro que podem manter como Bitcoin durante vários anos.",
