@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-23",
+		"last-updated": "2024-05-28",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -17,7 +17,7 @@
 	"inflation_sticker_your_money": "MAIS VOTRE ARGENT EN A",
 	"inflation_calculator_opt_out": "SORTIR DE L'INFLATION",
 	"inflation_calculator_with_bitcoin": "AVEC BITCOIN",
-	"inflation_choose": "Choisissez votre argent...",
+	"inflation_choose": "En savoir plus sur mon argent...",
 	"inflation_us_dollar": "U.S. DOLLAR",
 	"inflation_australian_dollar": "AUSTRALIAN DOLLAR",
 	"inflation_brazilian_real": "BRAZILIAN REAL",
