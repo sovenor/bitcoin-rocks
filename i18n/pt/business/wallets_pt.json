@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2024-05-22",
 		"locale": "pt"
 	},
 	"how_to_accept_bitcoin_payments": "Como aceitar pagamentos em Bitcoin",
@@ -14,7 +14,7 @@
 	"wallets_intro_4": "Carteiras híbridas:",
 	"wallets_intro_5": "Estas permitem-te trocar qualquer parte do teu Bitcoin por euros assim que um cliente te paga. As taxas continuam a ser inferiores às dos pagamentos com cartão bancário, mas superiores às dos pagamentos puramente em Bitcoin.",
 	"wallets_intro_6": "Ambas são óptimas formas de aceitar Bitcoin. A carteira específica que deves utilizar dependerá da dimensão e do tipo do teu negócio.",
-	"wallets_choice_sole": "carteiras para negócios de propriedade individual",
+	"wallets_choice_sole": "carteiras para empresas individuais",
 	"wallets_choice_multiple": "carteiras para negócios com vários empregados",
 	"wallets_choice_online": "carteiras para negócios online",
 	"wallets_choice_invoice": "carteiras para negócios baseadas em faturas",

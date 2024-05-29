@@ -78,7 +78,7 @@
 	"home_link_title_food_1": "How Inflation Affects Food Prices",
 	"home_link_title_food_2": "How Fiat Money is Bad for Food, Farms, and Earth's Soil",
 	"home_link_title_art_1": "Join our Bitcoin Sticker Initiative",
-	"home_link_title_art_2": "Join our Bitcoin Sticker Initiative",
+	"home_link_title_art_2": "Send a Bitcoin Postcard to someone you know",
 	"home_link_title_politics_1": "Bitcoin is a Political Paradox",
 	"home_link_title_politics_2": "You can Vote For Better Money",
 	"home_link_title_war_1": "How Bitcoin Could End Endless War",
@@ -127,5 +127,6 @@
 	"home_link_author_lightning_address": "LightningAddress.com",
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
-	"home_link_author_strike": "Strike"
+	"home_link_author_strike": "Strike",
+	"home_link_author_bitcoin_explorama": "Bitcoin Explorama"
 }

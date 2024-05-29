@@ -3,12 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2024-05-22",
 		"locale": "pt"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin constrói um mundo melhor.",
 	"home_description": "Bitcoin é uma tecnologia incompreendida que está a construir um mundo melhor. Bitcoin protege direitos humanos, já salvou pessoas da inflação rompante, apoiou agricultores locais, reduziu as emissões das perfuração de petróleo e muito mais.",
-	"home_intro": "Bitcoin é uma tecnologia incompreendida que está a construir um mundo melhor. Clica numa categoria abaixo para saber como o Bitcoin a torna melhor ou simplesmente navega para baixo para explorar.",
+	"home_intro": "Bitcoin é uma tecnologia incompreendida que está a construir um mundo melhor. Clica numa categoria abaixo para saber como o Bitcoin a torna melhor ou simplesmente navega para baixo para explorares as diferentes categorias.",
 	"home_btn_money": "DINHEIRO SUPERIOR",
 	"home_btn_salary": "O TEU SALÁRIO",
 	"home_btn_freedom": "LIBERDADE",
@@ -78,7 +78,7 @@
 	"home_link_title_food_1": "Como é que a inflação afeta os preços dos alimentos",
 	"home_link_title_food_2": "Como é que o dinheiro fiduciário é péssimo para os alimentos, quintas e o para o solo.",
 	"home_link_title_art_1": "Junta-te à nossa iniciativa de autocolantes Bitcoin",
-	"home_link_title_art_2": "Junta-te à nossa iniciativa de autocolantes Bitcoin",
+	"home_link_title_art_2": "Envia um postal Bitcoin a alguém que conheças",
 	"home_link_title_politics_1": "Bitcoin é um paradoxo político",
 	"home_link_title_politics_2": "Tu podes votar por dinheiro melhor",
 	"home_link_title_war_1": "Como é que o Bitcoin poderia acabar com uma guerra sem fim",
@@ -127,5 +127,6 @@
 	"home_link_author_lightning_address": "LightningAddress.com",
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
-	"home_link_author_strike": "Strike"
+	"home_link_author_strike": "Strike",
+	"home_link_author_bitcoin_explorama": "Bitcoin Explorama"
 }

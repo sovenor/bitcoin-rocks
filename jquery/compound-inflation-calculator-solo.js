@@ -11,7 +11,7 @@ function calculateInflation(){
 
   // Validate user inputs
   if(currentSalary == '' || inflationRate == '' || years == ''){
-     document.getElementById('result').innerHTML = "Error: Please fill in all 3 form fields.";
+     document.getElementById('result').innerHTML = $.i18n('common_error_message');
   } else {
     // Calculate inflation
     var totalInflation = Math.pow((1 + (inflationRate/100)), years);
@@ -19,8 +19,8 @@ function calculateInflation(){
     var newSalary = (currentSalary * totalInflation).toLocaleString("en-US", {style: "currency", currency: "USD"});
 
     // Display result
-    var yearText = (years == 1) ? "year" : "years";
-    document.getElementById('result').innerHTML = "With an inflation rate of " + inflationRate + "%, your " + dollarSalary + " salary needs to increase to " + newSalary + " in " + years + " " + yearText + " to maintain your purchasing power.";
+    var yearText = (years == 1) ?  $.i18n('common_year') : $.i18n('common_years');
+    document.getElementById('result').innerHTML = $.i18n('common_result_message_1') + "&nbsp;" + inflationRate + "% " +  $.i18n('common_result_message_2') + "&nbsp;" + dollarSalary + "&nbsp;" + $.i18n('common_result_message_3') + "&nbsp;" + newSalary + "&nbsp;" + $.i18n('common_result_message_in') + "&nbsp;" + years + " " + yearText + "&nbsp;" + $.i18n('common_result_message_4');
   }
 
 }
