@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2024-05-23",
 		"locale": "fr"
 	},
 	"bitcoin_wallet_guide": "Guide des portefeuilles Bitcoin",
@@ -11,7 +11,7 @@
 	"wallets_header": "COMMENT STOCKER VOS BITCOIN EN TOUTE SÉCURITÉ",
 	"wallets_s1_c1": "Les portefeuilles Bitcoin sont compatibles entre eux, vous pouvez donc envoyer des bitcoin à n'importe qui, quel que soit le portefeuille qu'il utilise.",
 	"wallets_s1_c2": "Il existe de nombreux portefeuilles Bitcoin qui se démarquent par des éléments importants. Deux questions simples peuvent vous aider à savoir si un portefeuille vous convient :",
-	"wallets_question_1": "C'EST UN PORTEFEUILLE EN AUTO-DETENTION (NON-CUSTODIAL) ?",
+	"wallets_question_1": "C'EST UN PORTEFEUILLE EN AUTO-DÉTENTION (NON-CUSTODIAL) ?",
 	"wallets_s2_c1": "L'une des innovations du bitcoin est la possibilité de le stocker sans dépendre d'un dépositaire, comme une banque.",
 	"wallets_s2_c2": "Si vous détenez des bitcoin sur une plateforme d'échange ou dans un actif boursier comme un ETF, vous perdez les avantages du bitcoin en matière de liberté.",
 	"wallets_s2_c3": "Les portefeuilles d'auto-détention (non-custodial) vous donnent accés et un controle total sur vos bitcoin : la monnaie libre.",

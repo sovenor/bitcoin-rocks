@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2024-05-23",
 		"locale": "fr"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin contribue à un monde meilleur.",
@@ -26,7 +26,7 @@
   "home_btn_war": "GUERRE",
   "home_btn_coding": "PROGRAMMATION",
   "home_btn_payments": "PAIEMENTS",
-  "home_btn_self_custody": "AUTO-DETENTION",
+  "home_btn_self_custody": "AUTO-DÉTENTION",
   "home_btn_you": "VOUS",
 	"home_section_bitcoin_is": "LE BITCOIN EST",
 	"home_section_bitcoin_and": "BITCOIN &",
@@ -78,7 +78,7 @@
 	"home_link_title_food_1": "Comment l'inflation affecte les prix de l'alimentation",
 	"home_link_title_food_2": "Comment la monnaie fiduciaire est mauvaise pour l'alimentation, les fermes et les sols de la planète",
 	"home_link_title_art_1": "Rejoignez notre programme d'autocollants Bitcoin",
-	"home_link_title_art_2": "Rejoignez notre programme d'autocollants Bitcoin",
+	"home_link_title_art_2": "Envoyez une carte postale sur le Bitcoin à un proche",
 	"home_link_title_politics_1": "Le Bitcoin est un paradoxe politique",
 	"home_link_title_politics_2": "Vous pouvez voter pour une meilleure monnaie",
 	"home_link_title_war_1": "Comment le bitcoin pourrait mettre fin aux guerres dans le monde",
