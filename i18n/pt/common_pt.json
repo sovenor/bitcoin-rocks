@@ -40,7 +40,7 @@
 	"common_bitcoin_volatile_content_5": "Em alguns países, como a Venezuela, o Sudão, o Líbano, a Síria, a Argentina, a Turquia, o Brasil e muitos outros, o valor da moeda local inflaciona-se tão rapidamente que o Bitcoin é visto como a forma mais estável de poupar dinheiro.",
 	"common_bitcoin_afford": "NÃO TENHO DINHEIRO PARA UM BITCOIN INTEIRO",
 	"common_bitcoin_afford_content_1": "Um euro é composto por 100 cêntimos. Um bitcoin é composto por 100.000.000 (100 milhões) de sats.",
-	"common_bitcoin_afford_content_2": "Não é necessário possuir um bitcoin inteiro. A maioria das pessoas possui apenas sats. Os sats são fracções de um bitcoin. Por exemplo, se 1 bitcoin inteiro custa €100.000, então €1 compra 1.000 sats!",	
+	"common_bitcoin_afford_content_2": "Não é necessário possuir um bitcoin inteiro. A maioria das pessoas possui apenas sats. Os sats são fracções de um bitcoin. Por exemplo, se 1 bitcoin inteiro custa €100.000, então €1 compra 1.000 sats!",
 	"common_bitcoin_hacked": "O BITCOIN JÁ FOI PIRATEADO?",
 	"common_bitcoin_hacked_content_1": "Podes ter ouvido falar de um 'Bitcoin hack' online ou nas notícias. A maioria das pessoas lê estes artigos e acredita que a rede Bitcoin foi pirateada. No entanto, a rede Bitcoin nunca foi pirateada.",
 	"common_bitcoin_hacked_content_2": "O que é a rede Bitcoin? Bem, pensa na rede Bitcoin como uma linha de comboio. Os comboios que circulam nos carris da rede Bitcoin são transacções Bitcoin.",
@@ -204,5 +204,9 @@
 	"common_biz_kit": "Obtêm o teu Kit de Negócios Bitcoin gratuito",
 	"common_biz_accept_bitcoin_payments": "ACEITAR PAGAMENTOS EM BITCOIN",
 	"common_biz_ready": "PRONTO PARA ACEITAR BITCOIN NA TUA EMPRESA?",
-	"common_biz_more": "MAIS RECURSOS EMPRESARIAIS"
+	"common_biz_more": "MAIS RECURSOS EMPRESARIAIS",
+	"common_self_custody": "SELF-CUSTODY",
+	"common_not_your_keys": "NOT YOUR KEYS",
+	"common_cold_wallet": "COLD WALLET",
+	"common_hot_wallet": "HOT WALLET"
 }
