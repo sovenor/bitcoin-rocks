@@ -18,6 +18,18 @@
 
   // Function to calculate inflation
   function calculateInflation(resultId, idPostfix) {
+    // Get browser language (+ region)
+    var browserLang = navigator.language || navigator.userLanguage;
+    var browserLangCode = browserLang.split('-')[0]; // Get language code without region
+
+    // Get selected language from localStorage or default to browser language or English
+    var storedLang = localStorage.getItem('selectedLanguage');
+    var lang = storedLang || browserLangCode || 'en';
+
+    // Choose number locale: (browser lang = selected lang) => user's regional format; otherwise language's default format
+    var numberLocale = (browserLangCode == lang) ? browserLang : lang;
+    console.log(browserLang, lang, numberLocale);
+
     // Get user inputs
     var currentSalary = document.getElementById('currentSalary' + idPostfix).value;
     var inflationRate = document.getElementById('inflationRate' + idPostfix).value;
@@ -29,8 +41,8 @@
     } else {
       // Calculate inflation
       var totalInflation = Math.pow((1 + (inflationRate / 100)), years);
-      var dollarSalary = (currentSalary * 1).toLocaleString("en-US", { style: "currency", currency: selectedCurrency });
-      var newSalary = (currentSalary * totalInflation).toLocaleString("en-US", { style: "currency", currency: selectedCurrency });
+      var dollarSalary = (currentSalary * 1).toLocaleString(numberLocale, { style: "currency", currency: selectedCurrency });
+      var newSalary = (currentSalary * totalInflation).toLocaleString(numberLocale, { style: "currency", currency: selectedCurrency });
 
       // Display result in the specified result div
       var yearText = (years == 1) ? $.i18n('common_year') : $.i18n('common_years');
