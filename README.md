@@ -27,6 +27,6 @@ The Apache server handles redirects and removing ".html" from the end of links i
 This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public and open over time.
 
 ## Contribute
-You can contribute to bitcoin.rocks even if you aren't a programmer! We currently have a strong focus on translations, but there are many ways you can help accelerate Bitcoin adoption.
+You can contribute to bitcoin.rocks even if you aren't a programmer! We currently have a strong focus on translations, but there are many ways you can help accelerate bitcoin adoption.
 
 Please read our [Contributor Guide](https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md) to learn more.
