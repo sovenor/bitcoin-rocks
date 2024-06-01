@@ -204,5 +204,9 @@
 	"common_biz_kit": "Hol Dir Dein kostenloses Bitcoin Business Kit",
 	"common_biz_accept_bitcoin_payments": "BITCOIN-ZAHLUNGEN AKZEPTIEREN",
 	"common_biz_ready": "BEREIT, BITCOIN IN DEINEM UNTERNEHMEN ZU AKZEPTIEREN?",
-	"common_biz_more": "WEITERE RESSOURCEN FÜR UNTERNEHMEN"
+	"common_biz_more": "WEITERE RESSOURCEN FÜR UNTERNEHMEN",
+	"common_self_custody": "SELF-CUSTODY",
+	"common_not_your_keys": "NOT YOUR KEYS",
+	"common_cold_wallet": "COLD WALLET",
+	"common_hot_wallet": "HOT WALLET"
 }

@@ -122,6 +122,11 @@ h4{
     margin-top: 10px;
 }
 
+.break-spacer{
+  clear: both;
+  margin-top: 5px;
+}
+
 .break-wallet{
     clear: both;
     margin-top: 110px;
@@ -1319,17 +1324,6 @@ h6{
     text-transform: uppercase;
 }
 
-.new-alert{
-    width: 100%;
-    background-color: #19BC38;
-    height: auto;
-    padding-top: 3px;
-    margin-bottom: -20px;
-
-    border-bottom-left-radius: 20px !important;
-    border-bottom-right-radius: 20px !important;
-}
-
 span.bold-text{
     font-weight: 900 !important;
 }
@@ -1433,73 +1427,7 @@ span.orange{
     color: #ff9500 !important;
 }
 
-/** OLD CODE FOR ALERT PILLS BEFORE THEY WERE TURNED INTO IMAGES
-.alert-pill{
-    padding: 10px;
-    height: 25px;
-    width: 150px;
-    border-radius: 27px;
-    overflow: visible;
-    position: relative;
-    float: left;
-    margin-right: 3px;
-    margin-top: 20px;
 
-}
-
-.alert-pill p{
-    font-family: "proxima-soft", sans-serif;
-    font-weight: 900;
-    font-size: 16px;
-
-    position: relative;
-    float: right;
-
-    margin-top: 0px !important;
-    margin-right: 15px !important;
-
-}
-
-.alert-pill img{
-    width: 35px;
-    height: 35px;
-    position: relative;
-    float: left;
-    margin-top: -6px;
-    margin-left: -5px;
-}
-
-.pill-custodial{
-    background-color: #ff2400;
-    width: 150px !important;
-    margin-top: 0px !important;
-}
-
-.pill-non-custodial{
-    background-color: #02c102;
-    width: 200px !important;
-}
-
-.pill-hot{
-    background-color: #ff2400;
-    width: 160px !important;
-    margin-top: 0px !important;
-}
-
-.pill-cold{
-    background-color: #02c102;
-    width: 180px !important;
-}
-
-.container-alerts{
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-**/
 
 p.wallet-q{
     margin-top: 0px !important;
@@ -1575,11 +1503,37 @@ p.looking{
     font-size: 35px !important;
 }
 
-img.alert{
-    height: 40px;
-    width: auto;
-    margin-left: -5px;
+.alert{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 50px;
+  height: 50px;
+}
 
+  .green{
+    background-color: #31b44a;
+  }
+
+  .red{
+    background-color: #ee3224;
+  }
+
+
+.alert img{
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.alert p{
+  font-family: "proxima-soft", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase !important;
+  color: #ffffff;
+  margin: 0 15px 0 0 !important;
+  padding: 0 !important;
 }
 
 .wallet-button{
@@ -1700,29 +1654,6 @@ h3.biz-h3{
 
 .biz-rewards{
     background-color: #EA526F;
-}
-
-
-
-.green-alert{
-    background-color: #19BC38 !important;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 99999;
-    width: 100%;
-}
-
-.green-alert p{
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    line-height: 25px;
-    color: #ffffff;
-    text-align: center;
 }
 
 .expandable {
