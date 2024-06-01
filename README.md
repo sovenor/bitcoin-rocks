@@ -1,10 +1,10 @@
 # bitcoin.rocks
 ## Mission
-The mission of bitcoin.rocks is to accelerate Bitcoin adoption through education.
+The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.
 
 We accomplish this with several free resources:
 
-- [An educational website](https://bitcoin.rocks) designed for people who are new to Bitcoin.
+- [An educational website](https://bitcoin.rocks) designed for people who are new to bitcoin.
 - [Bitcoin Stickers](https://bitcoin.rocks/stickers) that enable you to leave an orange pill in public.
 - [Bitcoin Postcards](https://bitcoin.rocks/postcards) that enable you to orange pill someone you know via snail mail.
 - [Bitcoin Business Kits](https://bitcoin.rocks/business/kit) that enable you to get a local business to accept bitcoin payments.
