@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-28",
+		"last-updated": "2024-06-01",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -42,7 +42,7 @@
 	"inflation_usd_s1_c7": "le montant total des dollars américains est passé de 4 000 milliards de dollars à 18 000 milliards de dollars.",
 	"inflation_usd_s1_c8": "Cette impression monétaire a provoqué une inflation record.",
 	"inflation_usd_s1_c9": "Tout coûte plus cher maintenant, parce que l'impression monétaire a fait perdre de la valeur à vos dollars.",
-	"inflation_intro_c1": "L'inflation se produit lorsque plus d'argent est mis en circulation et créé sans garantie de remboursement. Avec le temps, votre argent perd de sa valeur.'L'inflation est causée par une création monétaire excessive, plus précisément d'une croissance de la masse monétaire trop forte par rapport à la croissance de la production.' (source gouv. Français : vie-publique.fr).",
+	"inflation_intro_c1": "L'inflation se produit lorsque plus d'argent est mis en circulation et créé sans garantie de remboursement. Avec le temps, votre argent perd de sa valeur. L'inflation est causée par une création monétaire excessive, plus précisément d'une croissance de la masse monétaire trop forte par rapport à la croissance de la production. (source: gouv. français : vie-publique.fr).",
 	"inflation_intro_c2": "Étant donné que de l'argent est émis pour rembourser des déficits budgétaires et financer des nouveaux projets de loi, l'argent que vous possédez vous rapporte moins au fil du temps. Parce que beaucoup d'argent a été mis en circulation ces dernières années, la valeur de l'argent sur votre compte bancaire et dans votre poche a diminué de manière significative aujourd'hui.",
 	"inflation_intro_c3": "Avec le bitcoin, il y a une limite totale fixe de 21 millions de bitcoin qui existeront pour toujours. Comme il n'est pas possible d'en créer d'autres, leur valeur a augmenté de manière significative dans le temps.",
 	"inflation_intro_cad": "Au Canada, il n'y a pas de limite fixe au nombre de dollars canadiens pouvant être créés.",
@@ -83,7 +83,7 @@
 	"inflation_issuance_header": "LE BITCOIN A-T-IL DE L'INFLATION ?",
 	"inflation_issuance_c1": "L'inflation, c'est essentiellement votre part monétaire qui diminue chaque année. Le bitcoin connaît-il donc l'inflation ?",
 	"inflation_issuance_c2": "Le Bitcoin a une offre fixe totale de 21 000 000 (21 millions) de bitcoin qui existeront pour toujours. La limite de 21 millions est fixée dans le code et sécurisée par le réseau informatique le plus puissant au monde, appelé le réseau Bitcoin. Cette limite ne peut pas être modifiée.",
-	"inflation_issuance_c3": "Bien que le bitcoin n'ait pas d'inflation, il a une émission. L'émission est le pourcentage de nouveaux bitcoin minés chaque année. Les mineurs de bitcoin sécurisent le réseau, traitent les transactions en bitcoin et sont payés pour leur travail. Les mineurs de bitcoin sont payés avec cette nouvelle émission (jusqu'à ce qu'elle soit épuisée) et reçoivent également des frais de transaction.",
+	"inflation_issuance_c3": "Bien que le bitcoin n'ait pas d'inflation, il a une émission contrôlée et limitée. L'émission est le pourcentage de nouveaux bitcoin minés chaque année. Les mineurs de bitcoin sécurisent le réseau, traitent les transactions en bitcoin et sont payés pour leur travail. Les mineurs de bitcoin sont payés avec cette nouvelle émission (jusqu'à ce qu'elle soit épuisée) et reçoivent également des frais de transaction.",
 	"inflation_issuance_c4": "Plus de 93 % de tous les bitcoin ont déjà été minés. Plus de 99 % des 21 millions de bitcoin auront été extraits d'ici les années 2030, et les moins de 1 % restants le seront d'ici l'année 2140.",
 	"inflation_issuance_c5": "Même s'il y a émission jusqu'à l'offre totale de 21 millions de bitcoin, l'essentiel est que votre part dans les 21 millions de bitcoins ne diminue jamais. Cela change fortement avec les monnaies gouvernementales que nous utilisons. Dans ces systèmes, votre part diminue chaque année lorsque de l'argent est émis.",
 	"inflation_issuance_c6": "Vous ne pouvez pas créer plus de bitcoin.",
