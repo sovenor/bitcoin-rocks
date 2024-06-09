@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2024-06-01",
 		"locale": "de"
 	},
 	"common_footer_follow_first_half": "Folge uns auf Nostr, indem du nach",
@@ -205,8 +205,8 @@
 	"common_biz_accept_bitcoin_payments": "BITCOIN-ZAHLUNGEN AKZEPTIEREN",
 	"common_biz_ready": "BEREIT, BITCOIN IN DEINEM UNTERNEHMEN ZU AKZEPTIEREN?",
 	"common_biz_more": "WEITERE RESSOURCEN FÜR UNTERNEHMEN",
-	"common_self_custody": "SELF-CUSTODY",
-	"common_not_your_keys": "NOT YOUR KEYS",
+	"common_self_custody": "SELBSTVERWAHRUNG",
+	"common_not_your_keys": "NICHT DEINE SCHLÜSSEL",
 	"common_cold_wallet": "COLD WALLET",
 	"common_hot_wallet": "HOT WALLET"
 }
