@@ -1,10 +1,10 @@
 # bitcoin.rocks
 ## Mission
-The mission of bitcoin.rocks is to accelerate Bitcoin adoption through education.
+The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.
 
 We accomplish this with several free resources:
 
-- [An educational website](https://bitcoin.rocks) designed for people who are new to Bitcoin.
+- [An educational website](https://bitcoin.rocks) designed for people who are new to bitcoin.
 - [Bitcoin Stickers](https://bitcoin.rocks/stickers) that enable you to leave an orange pill in public.
 - [Bitcoin Postcards](https://bitcoin.rocks/postcards) that enable you to orange pill someone you know via snail mail.
 - [Bitcoin Business Kits](https://bitcoin.rocks/business/kit) that enable you to get a local business to accept bitcoin payments.
@@ -27,6 +27,6 @@ The Apache server handles redirects and removing ".html" from the end of links i
 This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public and open over time.
 
 ## Contribute
-You can contribute to bitcoin.rocks even if you aren't a programmer! We currently have a strong focus on translations, but there are many ways you can help accelerate Bitcoin adoption.
+You can contribute to bitcoin.rocks even if you aren't a programmer! We currently have a strong focus on translations, but there are many ways you can help accelerate bitcoin adoption.
 
 Please read our [Contributor Guide](https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md) to learn more.

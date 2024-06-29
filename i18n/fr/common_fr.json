@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2024-06-01",
 		"locale": "fr"
 	},
 	"common_footer_follow_first_half": "Suivez-nous sur Nostr en cherchant",
@@ -139,7 +139,7 @@
 	"common_stickers_where_to_print": "Où imprimer :",
 	"common_stickers_type_die_cut": "die-cut autocollants",
 	"common_stickers_material_vinyl": "Autocollants en vinyle pour l'extérieur.",
-	"common_stickers_printer": "Nous utilisons stickermule.com/fr, et en France printoclock.com propose des prix bas, mais vous pouvez utiliser n'importe quelle imprimeur d'autocollants.",
+	"common_stickers_printer": "Nous utilisons stickermule.com/fr, et en France printoclock.com propose des prix bas, mais vous pouvez utiliser n'importe quel imprimeur d'autocollants.",
 	"common_stickers_dimensions_danger": "11.4544 cm x 8.382 cm (4.51 in x 3.3 in)",
 	"common_stickers_dimensions_warning": "10.414 cm x 9.2202 cm (4.1 in x 3.63 in)",
 	"common_stickers_dimensions_caution": "12.0142 cm x 7.9502 cm (4.73 in x 3.13 in)",
@@ -204,5 +204,9 @@
 	"common_biz_kit": "Obtenez votre Bitcoin Business Kit",
 	"common_biz_accept_bitcoin_payments": "ACCEPTE LES PAIEMENTS EN BITCOIN",
 	"common_biz_ready": "ETES VOUS PRET POUR ACCEPTER LE BITCOIN DANS VOTRE COMMERCE ?",
-	"common_biz_more": "PLUS D'INFOS POUR LES ENTREPRISES"
+	"common_biz_more": "PLUS D'INFOS POUR LES ENTREPRISES",
+	"common_self_custody": "AUTO-DÉTENTION",
+	"common_not_your_keys": "PAS VOS CLÉS",
+	"common_cold_wallet": "HORS LIGNE",
+	"common_hot_wallet": "EN LIGNE"
 }
