@@ -205,8 +205,8 @@
 	"common_biz_accept_bitcoin_payments": "ACEITAR PAGAMENTOS EM BITCOIN",
 	"common_biz_ready": "PRONTO PARA ACEITAR BITCOIN NA TUA EMPRESA?",
 	"common_biz_more": "MAIS RECURSOS EMPRESARIAIS",
-	"common_self_custody": "SELF-CUSTODY",
-	"common_not_your_keys": "NOT YOUR KEYS",
+	"common_self_custody": "AUTOCUSTÓDIA",
+	"common_not_your_keys": "AS CHAVES NÃO SÃO TUAS",
 	"common_cold_wallet": "COLD WALLET",
 	"common_hot_wallet": "HOT WALLET"
 }
