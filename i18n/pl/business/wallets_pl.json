@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"how_to_accept_bitcoin_payments": "Jak Akceptować Płatności Bitcoinem",
+	"wallets_header": "ZDOBĄDŹ BEZPŁATNY PORTFEL BITCOIN DO AKCEPTOWANIA PŁATNOŚCI BITCOINEM",
+	"wallets_intro_1": "Wszystkie portfele Bitcoin są interoperacyjne, więc Twoi klienci mogą płacić Bitcoinem, niezależnie od używanego portfela.",
+	"wallets_intro_2": "Portfele tylko Bitcoin:",
+	"wallets_intro_3": "To czyste portfele Bitcoin, które odblokowują pełne korzyści płynące z Bitcoin: brak pośredników, niskie opłaty i brak chargebacków oraz oszustw.",
+	"wallets_intro_4": "Portfele hybrydowe:",
+	"wallets_intro_5": "Pozwalają na wymianę dowolnej części Twojego Bitcoina na dolary, gdy klient zapłaci. Opłaty są nadal niższe niż przy płatnościach kartą kredytową, ale wyższe niż w przypadku czystych płatności Bitcoinem.",
+	"wallets_intro_6": "Oba typy portfeli są świetnymi sposobami na akceptowanie Bitcoinów. Konkretne rozwiązanie będzie zależało od wielkości i rodzaju Twojej firmy.",
+	"wallets_choice_sole": "portfele dla jednoosobowych działalności",
+	"wallets_choice_multiple": "portfele dla firm z wieloma pracownikami",
+	"wallets_choice_online": "portfele dla firm online",
+	"wallets_choice_invoice": "portfele dla firm z fakturami",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Portfel tylko Bitcoin",
+	"wallets_feature_no_info": "Brak wymaganych informacji",
+	"wallets_feature_in_person": "Płatności tylko osobiście",
+	"wallets_feature_settles_bitcoin": "Rozlicza 100% w Bitcoinach",
+	"wallets_feature_hybrid": "Portfel hybrydowy",
+	"wallets_feature_info": "Wymagana informacja o firmie",
+	"wallets_feature_in_person_online": "Płatności osobiście i online",
+	"wallets_feature_settles_both": "Rozlicza w Bitcoinach i dolarach",
+	"wallets_feature_multiple_employees": "Wsparcie dla wielu pracowników (BPT)",
+	"wallets_feature_self_hosted": "Self-hosted = 0% opłat",
+	"wallets_feature_online_store": "Integracja z sklepem internetowym",
+	"wallets_feature_invoicing": "Darmowe oprogramowanie do fakturowania",
+	"wallets_get_wallet": "ZDOBĄDŹ PORTFEL"
+}
