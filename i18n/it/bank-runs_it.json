@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-18",
+		"locale": "it"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Con Bitcoin Non C'è Corsa Agli Sportelli",
+	"bank_runs_header": "CON BITCOIN NON C'E' CORSA AGLI SPORTELLI",
+	"bank_runs_header_2": "MA CON LA TUA BANCA FORSE SI",
+	"bank_runs_what": "COS'E' UNA CORSA AGLI SPORTELLI?",
+	"bank_runs_what_content_1": "Una corsa agli sportelli avviene quando troppe persone cercano di prelevare i loro soldi dalla banca nello stesso momento.",
+	"bank_runs_what_content_2": "Se le banche non hanno abbastanza denaro per coprire i prelievi richiesti, possono collassare completamente quando avviene una corsa agli sportelli.",
+	"bank_runs_how": "COME AVVENGONO LE CORSE AGLI SPORTELLI?",
+	"bank_runs_how_content_1": "Il nostro sistema bancario è detto a 'riserva frazionaria', ovvero le banche non tengono semplicemente il tuo denaro in cassaforte aspettando una tua spesa o prelievo.",
+	"bank_runs_how_content_2": "Al contrario, la tua banca prende il tuo denaro e lo presta o lo investe. Questo può tenere impegnati i tuoi soldi per molto tempo, nonostante la banca continui a garantire la possibilità di prelevare in qualsiasi momento.",
+	"bank_runs_how_content_3": "Quindi cosa succede se provi a prelevare i tuoi soldi dopo che la banca li ha prestati o investiti?",
+	"bank_runs_how_content_4": "Non è un problema se sei l'unico a prelevare. La banca prenderà i soldi di qualcun'altro per darteli. Ma cosa succede quando troppe persone vogliono prelevare nello stesso momento?",
+	"bank_runs_how_content_5": "Molte persone negli USA l'hanno scoperto con la corsa agli sportelli della Silicon Valley Bank nel Marzo del 2023.",
+	"bank_runs_how_content_6": "La banca aveva investito il denaro dei propri correntisti in dei bond governativi bloccati a 30 anni. Anche peggio, il valore di quei bond nel frattempo era sceso, quindi anche volento la Silicon Valley Bank non avrebbe potuto vendere quei bond per riavere tutto il denaro dei propri correntisti. Si sono rivelati insolventi. Non avevano abbastanza denaro per coprire i prelievi..",
+	"bank_runs_how_content_7": "Quando la notizia si è diffusa, il problema è peggiorato. Arrivavano sempre più richieste di prelievo, ma molte non venivano elaborate. Migliaia di attività non avrebbero potuto pagare i propri dipendenti a causa del fallimento bancario.",
+	"bank_runs_how_content_8": "La FDIC ha preso in mano la situazione e ha deciso di ripagare a pieno i correntisti. Problema risolto? Non proprio...",
+	"bank_runs_fdic": "L'ASSICURAZIONE DELLA FDIC PROTEGGE IL MIO DENARO?",
+	"bank_runs_fdic_content_1": "L'assicurazione della FDIC è pensata per proteggere i correntisti in caso di fallimento bancario. Sono coperti fino a 250.000$ per correntista. Tutto apposto, giusto?",
+	"bank_runs_fdic_content_2": "Non esattamente. Se una banca fallisce, la FDIC da dove prende i soldi? Hanno un fondo assicurativo da 125 miliardi di dollari.",
+	"bank_runs_fdic_content_3": "Sembrano davvero tanti soldi fino a che non li metti a confronto con le cifre che assicurano: quasi 10 triliardi o 10.000 miliardi di dollari.",
+	"bank_runs_fdic_content_4": "La stessa FDIC mostra sul proprio sito che hanno abbastanza denaro nel loro fondo assicurativo per coprire poco più dell'1% dei conti correnti.",
+	"bank_runs_fdic_content_5": "Se un fallimento bancario supera la copertura del fondo assicurativo della FDIC, è probabile (ma non garantito) che il governo americano stampi soldi per ripagare i correntisti.",
+	"bank_runs_fdic_content_6": "Ma stampare soldi causa inflazione, quindi non è una bella soluzione.",
+	"bank_runs_safe": "CI SONO DELLE BANCHE CHE NON FANNO RISERVA FRAZIONARIA?",
+	"bank_runs_safe_content_1": "Alcune banche hanno provato ad essere 'banche di deposito' che non prestano ne investono i fondi dei propri correntisti.",
+	"bank_runs_safe_content_2": "Nonostante queste banche non avrebbero avuto alcun rischio di corsa agli sportelli, la Federal Reserve ne ha negato l'approvazione. Significa che non avrebbero potuto operare legalmente come banche.",
+	"bank_runs_safe_content_3": "Dato che gli è stata negata l'operatività, ad oggi non esistono banche che non fanno riserva frazionaria.",
+	"bank_runs_safe_content_4": "Per fortuna, c'è un modo per uscire dal sistema della riserva frazionaria diventando tu la tua banca. No, non parliamo di mettere il contante sotto al materasso.",
+	"bank_runs_safe_content_5": "I risparmi in contante rimangono suscettibili all'inflazione.",
+	"bank_runs_safe_content_6": "Parliamo di Bitcoin, un nuovo sistema finanziario che ti permette di diventare la tua stessa banca.",
+	"bank_runs_protect": "BITCOIN PUO' PROTEGGERMI DALLE CORSE AGLI SPORTELLI?",
+	"bank_runs_protect_content_1": "Si, Bitcoin è un sistema a riserva integrale.",
+	"bank_runs_protect_content_2": "Le corse agli sportelli sono impossibili in Bitcoin fin tanto che detieni i tuoi nel tuo wallet. Non lasciarli in un exchange o in qualche derivato come gli ETF Bitcoin.",
+	"bank_runs_protect_content_3": "Dai un'occhiata alla nostra semplice Guida ai Wallet Bitcoin per imparare a detenerli nel tuo wallet.",
+	"bank_runs_protect_content_4": "Con Bitcoin puoi finalmente avere il controllo dei tuoi soldi."
+}
