@@ -24,7 +24,7 @@ All text content is localized using jquery.i18n translation strings. You can see
 The Apache server handles redirects and removing ".html" from the end of links in a simple .htaccess file. The latest merged code is uploaded on https://bitcoin.rocks
 
 ## License
-This project is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public and open over time.
+This project is 100% free and open-source. It is licensed under the MIT License. You are free to take any of the content within and use it for your own purposes. The goal is to make the project more public and open over time.
 
 ## Contribute
 You can contribute to bitcoin.rocks even if you aren't a programmer! We currently have a strong focus on translations, but there are many ways you can help accelerate bitcoin adoption.

@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2024-07-22",
 		"locale": "en"
 	},
+	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
+	"common_footer_mission_2": "Learn how to contribute to this open-source project.",
 	"common_footer_follow_first_half": "Follow us on Nostr by searching",
 	"common_footer_follow_second_half": "in any Nostr client.",
 	"common_footer_what_is_nostr": "What is Nostr?",
