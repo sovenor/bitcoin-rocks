@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2024-09-01",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
 	"inflation_description": "Bitcoin has a fixed supply of 21 million Bitcoin that will ever exist. No one can print more Bitcoin and cause inflation.",
+	"inflation_sign_got_inflation": "GOT INFLATION?",
+	"inflation_save_in_bitcoin": "SAVE IN BITCOIN",
 	"inflation_sticker_cure": "NEED A CURE FOR INFLATION?",
 	"inflation_sticker_learn": "LEARN HOW BITCOIN CAN HELP",
 	"inflation_sticker_got_inflation": "GOT INFLATION?",
@@ -37,6 +39,7 @@
 	"inflation_usd_s1_c2": "compounded",
 	"inflation_usd_s1_c3": "over the last 4 years.",
 	"inflation_usd_s1_c4": "You may still have that $100 in your bank account, but it buys you about half as much as it did a few years ago.",
+	"inflation_usd_but_why": "BUT WHY?",
 	"inflation_usd_s1_c5": "In the United States, there is no fixed limit on how many US Dollars can be created. This unlimited supply is the root cause of inflation.",
 	"inflation_usd_s1_c6": "Over the last few years,",
 	"inflation_usd_s1_c7": "the total amount of US Dollars has increased from $4 trillion to $18 trillion.",
@@ -85,7 +88,7 @@
 	"inflation_issuance_c2": "Bitcoin has a fixed supply of 21,000,000 (21 million) bitcoin that will ever exist. The 21 million supply limit is fixed in code and secured by the most powerful computing network in the world, called The Bitcoin Network. This limit cannot be changed.",
 	"inflation_issuance_c3": "While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.",
 	"inflation_issuance_c4": "More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.",
-	"inflation_issuance_c5": "Even though there is issuance up to the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.",
+	"inflation_issuance_c5": "Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.",
 	"inflation_issuance_c6": "You can't print more bitcoin.",
 	"inflation_protect_header": "CAN BITCOIN PROTECT MY MONEY FROM INFLATION?",
 	"inflation_protect_c1": "Bitcoin has historically been great at protecting people from the inflation of their local currency. Many people who use Bitcoin as an inflation hedge store money that they can afford to keep as Bitcoin for several years.",

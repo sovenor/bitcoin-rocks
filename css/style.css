@@ -669,6 +669,13 @@ img.inline{
     width: 100%;
 }
 
+img.sign-adjust{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80% !important;
+    margin-left: 10%;
+}
+
 .postcard-bump{
     margin-top: -30px;
 }
