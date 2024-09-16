@@ -3,20 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-01",
-		"locale": "en"
+		"last-updated": "2024-09-03",
+		"locale": "de"
 	},
-	"signs_description": "Help us put these Bitcoin Signs across America!",
-	"signs_title": "Free Bitcoin Signs from bitcoin.rocks",
-	"signs_choose_header": "HELP US PUT THESE BITCOIN SIGNS ACROSS AMERICA",
-	"signs_choose_c1": "Our mission is to accelerate Bitcoin adoption through education.",
-	"signs_choose_c2": "You can help by putting these free Bitcoin signs in public. All of our signs have QR codes that link to an educational page about",
-	"signs_choose_c3": "inflation",
-	"signs_choose_c4": "Signs are free in the USA until the end of the 2024 US Presidential Election.",
-	"signs_share_header": "SHARE YOUR SIGN SPOTS",
-	"signs_share_c1": "Share a photo of your sign spot with us on Nostr and we'll zap you sats! Sats are fractions of a bitcoin.",
-	"signs_btn_share_on_nostr": "SHARE ON NOSTR",
-	"signs_btn_what_is_nostr": "WHAT IS NOSTR?",
-	"signs_instructions_1": "Enter your mailing address and we'll send you a box of 10 Bitcoin signs in the mail!",
-	"signs_instructions_2": "Address data is deleted after your free signs are shipped."
+	"signs_description": "Hilf uns, diese Bitcoin-Schilder in ganz Amerika zu verteilen!",
+	"signs_title": "Kostenlose Bitcoin-Schilder von bitcoin.rocks",
+	"signs_choose_header": "HILF UNS, DIESE BITCOIN-SCHILDER IN GANZ AMERIKA ZU VERTEILEN",
+	"signs_choose_c1": "Unser Ziel ist es, die Adoption von Bitcoin durch Bildung zu fördern.",
+	"signs_choose_c2": "Du kannst helfen, indem du diese kostenlosen Bitcoin-Schilder in der Öffentlichkeit anbringst. Alle unsere Schilder haben QR-Codes und führen zu einer Informationsseite über",
+	"signs_choose_c3": "Inflation",
+	"signs_choose_c4": "Die Schilder sind in den USA bis zum Ende der US-Präsidentschaftswahlen 2024 kostenlos.",
+	"signs_share_header": "TEILE DEINE SCHILDER-SPOTS",
+	"signs_share_c1": "Teile ein Foto von dem Ort deines Schildes mit uns auf Nostr und wir schenken dir Sats! Sats sind Bruchteile einer Bitcoin.",
+	"signs_btn_share_on_nostr": "AUF NOSTR TEILEN",
+	"signs_btn_what_is_nostr": "WAS IST NOSTR?",
+	"signs_instructions_1": "Gib deine Postanschrift an und wir schicken dir eine Box mit 10 Bitcoin-Schildern mit der Post zu!",
+	"signs_instructions_2": "Adressdaten werden nach dem Versand deiner Gratisschilder gelöscht."
 }
