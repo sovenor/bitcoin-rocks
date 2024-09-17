@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2024-09-03",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
 	"inflation_description": "Bitcoin hat eine feste Menge von 21 Millionen Bitcoin, die jemals existieren werden. Niemand kann mehr Bitcoin drucken und eine Inflation verursachen.",
+	"inflation_sign_got_inflation": "HAST DU INFLATION?",
+	"inflation_save_in_bitcoin": "SPARE IN BITCOIN",
 	"inflation_sticker_cure": "BRAUCHST DU EIN MITTEL GEGEN INFLATION?",
 	"inflation_sticker_learn": "ERFAHRE WIE BITCOIN HELFEN KANN",
 	"inflation_sticker_got_inflation": "HAST DU INFLATION?",
@@ -37,6 +39,7 @@
 	"inflation_usd_s1_c2": "zusammengesetzt",
 	"inflation_usd_s1_c3": "über die letzten 4 Jahre.",
 	"inflation_usd_s1_c4": "Zwar befinden sich die 100 Dollar immer noch auf Deinem Bankkonto, aber Du kannst damit nur noch halb so viel kaufen wie noch vor ein paar Jahren.",
+	"inflation_usd_but_why": "ABER WARUM?",
 	"inflation_usd_s1_c5": "In den Vereinigten Staaten gibt es keine feste Obergrenze, wie viele US-Dollar geschaffen werden können. Dieses unbegrenzte Angebot ist die Hauptursache für die Inflation.",
 	"inflation_usd_s1_c6": "Im Laufe der letzten Jahre",
 	"inflation_usd_s1_c7": "ist der Gesamtbestand an US-Dollar von 4 Billionen auf 18 Billionen Dollar gestiegen.",

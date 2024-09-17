@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-03",
+		"locale": "de"
+	},
+	"signs_description": "Hilf uns, diese Bitcoin-Schilder in ganz Amerika zu verteilen!",
+	"signs_title": "Kostenlose Bitcoin-Schilder von bitcoin.rocks",
+	"signs_choose_header": "HILF UNS, DIESE BITCOIN-SCHILDER IN GANZ AMERIKA ZU VERTEILEN",
+	"signs_choose_c1": "Unser Ziel ist es, die Adoption von Bitcoin durch Bildung zu fördern.",
+	"signs_choose_c2": "Du kannst helfen, indem du diese kostenlosen Bitcoin-Schilder in der Öffentlichkeit anbringst. Alle unsere Schilder haben QR-Codes und führen zu einer Informationsseite über",
+	"signs_choose_c3": "Inflation",
+	"signs_choose_c4": "Die Schilder sind in den USA bis zum Ende der US-Präsidentschaftswahlen 2024 kostenlos.",
+	"signs_share_header": "TEILE DEINE SCHILDER-SPOTS",
+	"signs_share_c1": "Teile ein Foto von dem Ort deines Schildes mit uns auf Nostr und wir schenken dir Sats! Sats sind Bruchteile einer Bitcoin.",
+	"signs_btn_share_on_nostr": "AUF NOSTR TEILEN",
+	"signs_btn_what_is_nostr": "WAS IST NOSTR?",
+	"signs_instructions_1": "Gib deine Postanschrift an und wir schicken dir eine Box mit 10 Bitcoin-Schildern mit der Post zu!",
+	"signs_instructions_2": "Adressdaten werden nach dem Versand deiner Gratisschilder gelöscht."
+}

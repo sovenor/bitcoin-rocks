@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-03",
+		"locale": "de"
+	},
+	"sign_success_1": "Du wirst deine Schilder in 1 bis 2 Wochen erhalten. Während du wartest, überlege dir schon mal, wo du deine Schilder anbringen kannst!",
+	"sign_success_3": "Möchtest du sehen, wo andere Leute ihre Schilder anbringen?",
+	"signs_share_header": "TEILE DEINE SCHILDER-SPOTS",
+	"signs_share_c1": "Teile ein Foto von dem Ort deines Schildes mit uns auf Nostr und wir schenken dir Sats! Sats sind Bruchteile einer Bitcoin.",
+	"signs_btn_share_on_nostr": "AUF NOSTR TEILEN",
+	"signs_btn_what_is_nostr": "WAS IST NOSTR?"
+}
