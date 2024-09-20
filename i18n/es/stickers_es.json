@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-20",
+		"locale": "es"
+	},
+	"free_bitcoin_stickers": "Stickers Bitcoin gratuitas de bitcoin.rocks",
+	"stickers_description": "Coloca una pegatina Bitcoin en público para orange pill a quienes te rodean.",
+	"stickers_header": "STICKERS BITCOIN GRATIS",
+	"stickers_choose_header": "ELIGE TU PACK DE STICKERS",
+	"stickers_choose_c1": "Nuestra misión es ayudarte a orange pill a más personas colocando stickers de Bitcoin en público. Todas nuestras pegatinas tienen códigos QR que enlazan a páginas educativas sobre",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflación",
+	"stickers_choose_c4": "Elige tu pack de stickers a continuación",
+	"stickers_text_pack": "EL PACK DE TEXTO",
+	"stickers_signs_pack": "EL PACK DE LETREROS",
+	"stickers_instructions_1": "Ingresa tu dirección postal (Solo para U.S. y Canada) y te enviaremos un paquete de pegatinas Bitcoin gratis ¡Enviaremos tus stickers por correo en un sobre blanco normal!.",
+	"stickers_instructions_2": "Los datos de la dirección se eliminan después de que se envían tus stickers gratis.",
+	"stickers_share_header": "COMPARTE TUS SPOTS PARA PEGATINAS",
+	"stickers_share_c1": "¡Comparte tu spot para stickers con nosotros en Nostr y podrías recibir bitcoins gratis!",
+	"stickers_btn_share_on_nostr": "COMPARTE EN NOSTR",
+	"stickers_btn_what_is_nostr": "¿QUÉ ES NOSTR?",
+	"stickers_country_global_print": "Global — Imprimir mis propios stickers",
+	"stickers_country_global_order": "Global — Realizar pedidos al por mayor"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-20",
+		"locale": "es"
+	},
+	"cic_header": "CALCULADORA DE INFLACIÓN COMPUESTA",
+	"cic_description": "Utiliza esta calculadora de inflación compuesta para averiguar cuánto debe aumentar tu salario para seguir el ritmo de la inflación.",
+	"what_can_i_do_about": "Qué puedo hacer al respecto",
+	"what_can_i_do_about_2": "¿inflación?",
+	"cic_inflation_cta": "Opta por no sufrir de la inflación con Bitcoin"
+}
