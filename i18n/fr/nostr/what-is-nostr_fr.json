@@ -3,9 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-12",
+		"last-updated": "2024-09-28",
 		"locale": "fr"
 	},
-	"what_is_nostr": "Nostr c'est quoi ?",
-	"what_is_nostr_header": "NOSTR C'EST QUOI ?"
+	"what_is_nostr": "Nostr c'est quoi?",
+	"what_is_nostr_header": "NOSTR C'EST QUOI?"
 }

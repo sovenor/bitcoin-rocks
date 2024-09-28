@@ -3,20 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-01",
-		"locale": "en"
+		"last-updated": "2024-09-06",
+		"locale": "fr"
 	},
-	"signs_description": "Help us put these Bitcoin Signs across America!",
-	"signs_title": "Free Bitcoin Signs from bitcoin.rocks",
-	"signs_choose_header": "HELP US PUT THESE BITCOIN SIGNS ACROSS AMERICA",
-	"signs_choose_c1": "Our mission is to accelerate Bitcoin adoption through education.",
-	"signs_choose_c2": "You can help by putting these free Bitcoin signs in public. All of our signs have QR codes that link to an educational page about",
-	"signs_choose_c3": "inflation",
-	"signs_choose_c4": "Signs are free in the USA until the end of the 2024 US Presidential Election.",
-	"signs_share_header": "SHARE YOUR SIGN SPOTS",
-	"signs_share_c1": "Share a photo of your sign spot with us on Nostr and we'll zap you sats! Sats are fractions of a bitcoin.",
-	"signs_btn_share_on_nostr": "SHARE ON NOSTR",
-	"signs_btn_what_is_nostr": "WHAT IS NOSTR?",
-	"signs_instructions_1": "Enter your mailing address and we'll send you a box of 10 Bitcoin signs in the mail!",
-	"signs_instructions_2": "Address data is deleted after your free signs are shipped."
+	"signs_description": "Aidez-nous à mettre ces affiches bitcoin dans toute l'Amérique !",
+	"signs_title": "Affiches bitcoin gratuites de bitcoin.rocks",
+	"signs_choose_header": "AIDEZ-NOUS À METTRE CES AFFICHES BITCOIN À TRAVERS L'AMÉRIQUE",
+	"signs_choose_c1": "Notre mission est d'accélérer l'adoption du Bitcoin par le biais de l'éducation.",
+	"signs_choose_c2": "Vous pouvez aider en mettant ces affiches gratuites sur le bitcoin dans l'espace public. Toutes nos affiches ont des QR codes qui renvoient à une page éducative sur",
+	"signs_choose_c3": "l'inflation",
+	"signs_choose_c4": "Les affiches sont gratuites aux États-Unis jusqu'à la fin de l'élection présidentielle américaine de 2024.",
+	"signs_share_header": "PARTAGEZ VOS SPOTS D'AFFICHES",
+	"signs_share_c1": "Partagez une photo de votre affiche avec nous sur Nostr et nous vous zapperons des sats ! Les sats sont des fractions de bitcoin.",
+	"signs_btn_share_on_nostr": "PARTAGER SUR NOSTR",
+	"signs_btn_what_is_nostr": "C'EST QUOI NOSTR ?",
+	"signs_instructions_1": "Entrez votre adresse postale ( seulement pour les Etats-Unis ) et nous vous enverrons une boîte de 10 affiches Bitcoin par la poste !",
+	"signs_instructions_2": "Les données d'adresse sont supprimées après l'expédition de vos affiches gratuites."
 }

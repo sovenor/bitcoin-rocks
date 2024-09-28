@@ -3,13 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-01",
-		"locale": "en"
+		"last-updated": "2024-09-06",
+		"locale": "fr"
 	},
-	"sign_success_1": "You will receive your signs in 1 to 2 weeks. While you wait, try to think of good spots to put your signs!",
-	"sign_success_3": "Want to see where other people are putting their signs?",
-	"signs_share_header": "SHARE YOUR SIGN SPOTS",
-	"signs_share_c1": "Share a photo of your sign spot with us on Nostr and we'll zap you sats! Sats are fractions of a bitcoin.",
-	"signs_btn_share_on_nostr": "SHARE ON NOSTR",
-	"signs_btn_what_is_nostr": "WHAT IS NOSTR?"
+	"sign_success_1": "Vous recevrez vos affiches dans 1 à 2 semaines. En attendant, essayez de penser à de bons endroits pour placer vos affiches !",
+	"sign_success_3": "Vous voulez voir où d'autres personnes placent leurs affiches ?",
+	"signs_share_header": "PARTAGEZ VOS SPOTS D'AFFICHES",
+	"signs_share_c1": "Partagez une photo de votre affiche avec nous sur Nostr et nous vous zapperons des sats ! Les sats sont des fractions de bitcoin.",
+	"signs_btn_share_on_nostr": "PARTAGER SUR NOSTR",
+	"signs_btn_what_is_nostr": "C'EST QUOI NOSTR ?"
 }
