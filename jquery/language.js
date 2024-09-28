@@ -11,6 +11,7 @@ $(function() {
   // Language switcher
   var languages = [
     { code: 'en', name: 'English' },
+    { code: 'es', name: 'Español' },
     { code: 'de', name: 'Deutsch' },
     { code: 'fr', name: 'Français' },
     { code: 'pt', name: 'Português' },
