@@ -208,7 +208,7 @@
 	"common_biz_ready": "¿LISTO PARA ACEPTAR BITCOIN EN TU NEGOCIO?",
 	"common_biz_more": "MÁS RECURSOS PARA EMPRESAS",
 	"common_self_custody": "AUTOCUSTODIA",
-	"common_not_your_keys": "NO TUS LLAVES",
-	"common_cold_wallet": "COLD WALLET",
-	"common_hot_wallet": "HOT WALLET"
+	"common_not_your_keys": "NO SON TUS LLAVES",
+	"common_cold_wallet": "CARTERA FRÍA",
+	"common_hot_wallet": "CARTERA CALIENTE"
 }
