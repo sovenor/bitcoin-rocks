@@ -29,6 +29,17 @@
         <!-- Privacy focused analytics, does not track IP addresses -->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
+        <!-- Recaptcha to prevent bot spam on form -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE"></script>
+        <script>
+           grecaptcha.ready(function() {
+               grecaptcha.execute('6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE', {action: 'homepage'})
+               .then(function(token) {
+                 document.getElementById('captchaResponse').value = token;
+               });
+             });
+        </script>
+
         <!-- Source code for i18n translations -->
         <script src="jquery/jquery.min.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
