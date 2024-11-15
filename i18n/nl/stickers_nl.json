@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-30",
+		"locale": "nl"
+	},
+	"free_bitcoin_stickers": "Gratis Bitcoin stickers van bitcoin.rocks",
+	"stickers_description": "Plak een bitcoin sticker op publieke plaatsen om de mensen rondom je te orangepillen.",
+	"stickers_header": "GRATIS BITCOIN STICKERS",
+	"stickers_choose_header": "KIES YOUR STICKER PACK",
+	"stickers_choose_c1": "Onze missie is om jou te helpen bij het orangepillen van mensen, door Bitcoin stickers in het openbaar te plakken. Al onze stickers zijn voorzien van QR-codes die gelinkt zijn naar leerzame pagina's over Bitcoin",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflatie",
+	"stickers_choose_c4": "Kies je sticker pack hieronder",
+	"stickers_text_pack": "DE TEKST VERZAMELING",
+	"stickers_signs_pack": "DE TEKENST VERZAMELING",
+	"stickers_instructions_1": "Voer je adres in en wij bezorgen je een gratis Bitcoin Sticker Pakket! Je stickers worden verzonden in een witte enveloppe.",
+	"stickers_instructions_2": "Adres gegevens worden verwijderd nadat je gratis stickers verstuurd zijn.",
+	"stickers_share_header": "DEEL JOUW STICKER PLEKKEN",
+	"stickers_share_c1": "Deel jouw sticker plekken met ons op Nostr en misschien zappen we jou gratis Bitcoin!",
+	"stickers_btn_share_on_nostr": "DEEL OP NOSTR",
+	"stickers_btn_what_is_nostr": "WAT IS NOSTR?",
+	"stickers_country_global_print": "Global — Print mijn eigen stickers",
+	"stickers_country_global_order": "Global — Bestel in bulk"
+}

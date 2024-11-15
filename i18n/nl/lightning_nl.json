@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-30",
+		"locale": "nl"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning Wallet Gids",
+	"lightning_description": "Lightning wallets maken het mogelijk om snel en goedkoop Bitcoin te versturen, terwijl je toch steeds jouw eigen soevereniteit behoudt.",
+	"lightning_header": "LIGHTNING WALLET GIDS",
+	"lightning_s1_c1": "Lightning wallets maken het mogelijk om snel en goedkoop Bitcoin te versturen.",
+	"lightning_s1_c2": "Het is belangrijk om te beseffen dat het gebruik van Lightning met een zekere wisselwerking komt. In ruil voor snellere en goedkopere Bitcoin betalingen offer je vaak wel een beetje veiligheid op.",
+	"lightning_s1_c3": "Algemeen gezien zou Lightning alleen maar gebruikt moeten wworden met kleine Bitcoin bedragen. In principe zou je alleen maar grote Bitcoin bedragen in een hardware wallet (cold storage).",
+	"lightning_s1_c4": "Check zeker onze Hardware Wallet Gids voor meer informatie hieromtrent.",
+	"lightning_s1_c5": "Niet alle Lightning wallets zijn gelijkaardig. Je kan zelf bepalen welke wallet de juiste functies voor jou heeft, door je dit af te vragen:",
+	"lightning_question_1": "WELKE WISSELWERKING IS GOED VOOR MIJ?",
+	"lightning_s2_c1": "Eén van de innovaties van Bitcoin is de mogelijkheid om het te bewaren zonder te moeten vertrouwen op een beheerder, zoals bijvoorbeeld een bank. Self-custody wallets ontgrendelen ht volledige potentieel van Bitcoin.",
+	"lightning_s2_c2": "Wanneer je een self-custody wallet hebt, ben jij de enige persoon die de mogelijkheid heeft om jouw geld te spenderen of te versturen. Niemand kan je tegenhouden, niemand kan je censureren, of van je stelen wanneer je een self-custody wallet gebruikt. Ook wel gekend als non-custodial wallets.",
+	"lightning_s2_c3": "De meest soevereine manier om Lightning te gebruiken is door je eigen node te hebben.",
+	"lightning_s2_c4": "Deze gids is gefocust op eenvoudige Lightning wallets zonder de vereiste van een eigen node.",
+	"lightning_s2_c5": "Het is belangrijk om te beseffen dat zelfs bij het gebruik van een non-custodial Lightning wallet, je er nog steeds op vertrouwt dat de maker van de wallet geen kwaadaardige app-update maakt en jouw Bitcoin steelt.",
+	"lightning_s3_c1": "Custodial wallets zijn wallets waar jij niet de controle hebt over jouw eigen geld.",
+	"lightning_s3_c2": "Deze wallets zijn gelijkaardig aan het bankensysteem, waarbij een derde partij moet vertrouwen om toegang te krijgen tot jouw eigen geld. Als jouw Bitcoin op een exchange staat, maak je gebruik van een custodial wallet.",
+	"lightning_s3_c3": "Custodial wallets lijken zeer handig, maar de beheerder heeft technisch gezien altijd de mogelijkheid om je fondsen te stelen.",
+	"lightning_s3_c4": "Sommige mensen verkiezen custodial Lightning wallets om kleine bedragen in Bitcoin te bewaren vanwege hun 'ease of use'. Onhoud vooral: Not your keys, not your coins!",
+	"lightning_question_2": "KIES JOUW WALLET",
+	"lightning_s4_c1": "Nu we dit alles weten, kun je een Lightning wallet kiezen die voor jou de juiste wisselwerking heeft.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Veel verschillende functies",
+	"lightning_mobile_app": "Mobiele app",
+	"lightning_free": "100% gratis",
+	"lightning_merchants": "Goed voor handelaars",
+	"lightning_starter": "Goede voor beginners",
+	"lightning_browser": "Browser based",
+	"lightning_custodial": "Volledige custodial wallet",
+	"lightning_cta_hardware": "Op zoek naar onze Bitcoin Hardware Wallet Gids?"
+}

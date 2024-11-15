@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-11-05",
+		"locale": "nl"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Heeft Geen Have Bankruns",
+	"bank_runs_header": "BITCOIN HEEFT GEEN BANKRUNS",
+	"bank_runs_header_2": "MAAR JOUW BANK MISSCHIEN WEL",
+	"bank_runs_what": "WAT IS EEN BANKRUN?",
+	"bank_runs_what_content_1": "Een banrun gebeurt wanneer teveel mensen hun geld bij de bank willen opnemen.",
+	"bank_runs_what_content_2": "Wanneer banken niet voldoende geld beschikbaar hebben om de geldopnames te evenaren, kunnen ze volledig instorten wanneer een bankrun plaatsvind.",
+	"bank_runs_how": "HOE GEBEUREN BANKRUNS?",
+	"bank_runs_how_content_1": " ons banksysteem is een 'fractionele reserve' wat betekent dat de banken jouw geld niet gewoon in een kluis bewaren en wachten tot jij het uitgeeft of opneemt.",
+	"bank_runs_how_content_2": "In de plaats daarvan neemt de bank jouw geld en voorziet leningen ermee, of investeert het jouw geld. Op die manier kan jouw geld een lange periode vastzitten, zelfs als belooft de bank dat je jouw geldd eender wanneer kan opnemen.",
+	"bank_runs_how_content_3": "Dus wat gebeurt er wanneer je jouww geld probeert op te nemen nadat de bank je geld al heeft uitgeleend of geïnvesteerd?",
+	"bank_runs_how_content_4": "Het is geen probleem als jij de enige bent die het probeert op te nemen. De bank neemt dan gewoon het geld van iemand anders en geeft dat aan jou. Maar wat gebeurt er als teveel mensen dat op hetzelfde moment proberen?",
+	"bank_runs_how_content_5": "Veel mensen in de Verenigde Staten hebben ontdekt dat een bankrun was op de Silicon Valley Bank in maart 2023.",
+	"bank_runs_how_content_6": "De bank had het geld van hun klanten geïnvesteerd in staatsobligaties die 30 jaar lang geblokkeerd waren. Nog erger, de waarde van die obligaties was recentelijk gedaald, dus kon Silicon Valley Bank de obligaties niet zomaar verkopen om het geld van hun depositors terug te krijgen. Ze waren insolvent. Ze hadden niet genoeg geld om de opnames van hun depositors te te evenaren.",
+	"bank_runs_how_content_7": "Naarmate meer mensen erachter kwamen, werd het probleem alleen maar erger. Er kwamen meer verzoeken tot opnames binnen, maar velen werden niet verwerkt. Duizenden bedrijven beseften dat ze hun werknemers niet zouden kunnen betalen doordat de bank gefaald was.",
+	"bank_runs_how_content_8": "De Federale depositoverzekeringsmaatschappij kwam tussenbeide en stemde ermee in om de depositors te vergoeden. Probleem opgelost? Niet echt...",
+	"bank_runs_fdic": "BESCHERMT DE FEDERALE DEPOSITOVERZEKERINGSMAATSCHAPPIJ MIJN GELD?",
+	"bank_runs_fdic_content_1": "De Federale Depositoverzekering is ontworpen om bankdeposanten te beschermen wanneer een bank failliet gaat. Deposito's zijn verzekerd tot $250.000 per deposant. Klinkt fantastisch, toch?",
+	"bank_runs_fdic_content_2": "Niet echt. Waar haalt de Federale Depositoverzekeringsmaatschappij hun geld, wanneer een bank failliet gaat? Ze hebben een verzekeringsfonds van 125 miljard dollar.",
+	"bank_runs_fdic_content_3": "Dat klinkt als een hele hoop geld tot wanneer je het vergelijkt met het aantal deposito's die ze verzekeren: bijna 10 triljoen of 10.000 miljard dollar.",
+	"bank_runs_fdic_content_4": "De Federale Depositoverzekering toont op hun website zelfs dat ze maar voldoende geld hebben om iets meer dan 1% van de deposito's te dekken.",
+	"bank_runs_fdic_content_5": "In het geval van een bankfaillisement die het verzekeringsfonds van de Depositoverzekering overschrijdt, zal de Amerikaanse overheid waarschijnlijk geld bijprinten om de depositors te vergoeden.",
+	"bank_runs_fdic_content_6": "Maar geld bijprinten veroorzaakt inflatie, dus dat is niet de beste oplossing.",
+	"bank_runs_safe": "BESTAAN ER BANKEN DIE GEEN GEBRUIK MAKEN VAN FRACTIONELE RESERVES?",
+	"bank_runs_safe_content_1": "Sommige banken hebben geprobeerd om 'veilige banken' die dus geen geld van hun depositors uitlenen of investeren.",
+	"bank_runs_safe_content_2": "Zelfs al zouden deze banken geen risico lopen op een bankrun, zijn hun aanvragen afgewezen door de Federal Reserve. Dit betekent dat ze legaal gezien niet als bank kunnen werken.",
+	"bank_runs_safe_content_3": "Omdat ze geblokkeerd zijn voor gebruik, zijn er vandaag de dag geen banken die geen gebruik maken van fracionele reserves.",
+	"bank_runs_safe_content_4": "Gelukkig bestaat er een manier om uit het fractioneel reserve systeem te stappen door jouw eigen bank te zijn. Nee, we hebben het niet over geld onder je matras te bewaren.",
+	"bank_runs_safe_content_5": "Cahs geld sparen is nog steeds kwetsbaar voor inflatie.",
+	"bank_runs_safe_content_6": "We hebben het hier over Bitcoin: een nieuww financieel systeem die jou toelaat om je eigen bank te zijn.",
+	"bank_runs_protect": "KAN BITCOIN ME BESCHERMEN VAN EEN BANKRUN?",
+	"bank_runs_protect_content_1": "Jep, Bitcoin is een financieel systeem met volledige reserves.",
+	"bank_runs_protect_content_2": "Bankruns zijn onmogelijk bij Bitcoin, zolang je maar je Bitcoin in je eigen wallet bewaart. Bewaar je Bitcoin niet op een exchange of als een Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Bekijk onze eenvoudige Bitcoin wallet gids om te leren hoe je opnames kan doen naar je eigen wallet.",
+	"bank_runs_protect_content_4": "Met Bitcoin kun je eindelijk volledige controle hebben over jouw geld."
+}

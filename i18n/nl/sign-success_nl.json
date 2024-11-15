@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-30",
+		"locale": "nl"
+	},
+	"sign_success_1": "Je ontvangt jouw borden binnen 1 tot 2 weken. Terwijl je wacht kun je goeie plaatsen bedenken waar je je borden kunt plaatsen!",
+	"sign_success_3": "Wil je zien waar anderen hun borden plaatsen?",
+	"signs_share_header": "DEEL EEN FOTO VAN JOUW BORD",
+	"signs_share_c1": "Deel een foto van jouw bord op Nostr, tag ons en wij zappen we jou Sats! Sats zijn fracties van een Bitcoin.",
+	"signs_btn_share_on_nostr": "DEEL OP NOSTR",
+	"signs_btn_what_is_nostr": "WAT IS NOSTR?"
+}
