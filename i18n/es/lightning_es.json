@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-22",
+		"locale": "es"
+	},
+	"bitcoin_lightning_wallet_guide": "Guía de carteras Bitcoin Lightning",
+	"lightning_description": "Las carteras Lightning te permiten enviar Bitcoin de forma rápida y barata mientras mantienes tu soberanía personal.",
+	"lightning_header": "GUÍA DE CARTERAS LIGHTNING",
+	"lightning_s1_c1": "Lightning te permite enviar pagos Bitcoin de forma rápida y barata.",
+	"lightning_s1_c2": "Es importante saber que el uso de lightning implica contrapartidas. A cambio de pagos Bitcoin más rápidos y baratos, a menudo se sacrifica algo de seguridad.",
+	"lightning_s1_c3": "En general, Lightning sólo debe utilizarse con pequeñas cantidades de bitcoin. Solo deberías almacenar grandes cantidades de bitcoin en un wallet hardware.",
+	"lightning_s1_c4": "Consulta nuestra Guía de carteras hardware para obtener más información.",
+	"lightning_s1_c5": "No todas las carteras Lightning son iguales. Puedes determinar qué monedero tiene las ventajas y desventajas adecuadas para ti con una simple pregunta:",
+	"lightning_question_1": "¿QUÉ BALANCE DE COMPROMISO ES EL ADECUADO PARA MÍ?",
+	"lightning_s2_c1": "Una de las innovaciones de Bitcoin es la capacidad de almacenarlo sin depender de un custodio, como un banco. Las carteras de autocustodia desbloquean todo el poder de Bitcoin.",
+	"lightning_s2_c2": "Con una cartera de autocustodia, tú eres el único con la capacidad de gastar o transferir tu dinero. Nadie puede detenerte, censurarte o robarte cuando utilizas una carteras de autocustodia. Esas carteras también se llaman carteras sin custodia.",
+	"lightning_s2_c3": "La forma más soberana de usar Lightning es ejecutando tu propio nodo.",
+	"lightning_s2_c4": "Esta guía se centra en carteras Lightning sencillas que no requieren tu propio nodo.",
+	"lightning_s2_c5": "Es importante saber que incluso usando una carteras Lightning sin custodia, sigues confiando en que el creador de la cartera no impulsará una actualización maliciosa de la app y robará tus fondos.",
+	"lightning_s3_c1": "Las carteras de custodia son carteras en las que no tienes el control de tu dinero.",
+	"lightning_s3_c2": "Estas carteras son más parecidas al sistema bancario donde debes confiar en un tercero para que te dé acceso a tu dinero. Si tu Bitcoin está en un exchange, estás usando una carteras de custodia.",
+	"lightning_s3_c3": "Las carteras de custodia pueden parecer convenientes, pero el custodio tiene la capacidad técnica de robar todos los fondos del usuario en cualquier momento.",
+	"lightning_s3_c4": "Algunas personas prefieren las carteras Lightning de custodia para pequeñas cantidades de bitcoin por su facilidad de uso. Sólo recuerda: ¡No son tus llaves, no son tus monedas!",
+	"lightning_question_2": "ELIGE TU CARTERA",
+	"lightning_s4_c1": "Con todo esto en mente, ya puedes elegir la cartera Lightning mas adecuada para ti.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Muchas funcionalidades",
+	"lightning_mobile_app": "App movil",
+	"lightning_free": "100% gratis",
+	"lightning_merchants": "Genial para comerciantes",
+	"lightning_starter": "Genial para empezar",
+	"lightning_browser": "Basado en navegador",
+	"lightning_custodial": "Cartera totalmente custodiada",
+	"lightning_cta_hardware": "¿Buscas nuestra guía de carteras hardware de Bitcoin?"
+}

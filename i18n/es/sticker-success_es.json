@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-20",
+		"locale": "es"
+	},
+	"sticker_success_1": "Recibirás tus stickers en 1 o 2 semanas. Mientras esperas, ¡intenta pensar en un buen lugar para colocarlos!",
+	"sticker_success_2": "Los mejores lugares para colocar pegatinas son:",
+	"sticker_success_list_1": "en lugares públicos donde la gente pueda verlas",
+	"sticker_success_list_2": "en lugares que es poco probable que se puedan quitar rápidamente (los stickers no causan ningún daño permanente)",
+	"sticker_success_list_3": "en superficies a las que se adhieran fácilmente (metal, plástico, vidrio)",
+	"sticker_success_list_4": "NO en propiedades privadas, cubriendo carteles, cajeros automáticos o gasolineras",
+	"sticker_success_3": "¿Quieres ver dónde otras personas están colocando sus stickers?"
+}

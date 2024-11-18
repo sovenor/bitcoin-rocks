@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-08-29",
+		"locale": "es"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin no tiene pánico bancario",
+	"bank_runs_header": "BITCOIN NO TIENE PÁNICO BANCARIO",
+	"bank_runs_header_2": "PERO SU BANCO PUEDE",
+	"bank_runs_what": "¿QUÉ ES UN PÁNICO BANCARIO?",
+	"bank_runs_what_content_1": "Una pánico bancario se produce cuando demasiadas personas intentan retirar su dinero del banco al mismo tiempo.",
+	"bank_runs_what_content_2": "Si los bancos no tienen suficiente dinero disponible para igualar las retiradas, pueden colapsar por completo cuando se produce una corrida bancaria.",
+	"bank_runs_how": "¿CÓMO SE PRODUCEN LOS PÁNICO BANCARIO?",
+	"bank_runs_how_content_1": "Nuestro sistema bancario es de 'reserva fraccionaria', lo que significa que los bancos no se limitan a guardar tu dinero en una caja fuerte y esperar a que lo gastes o lo retires.",
+	"bank_runs_how_content_2": "En lugar de eso, tu banco coge tu dinero y lo presta o lo invierte. Esto puede bloquear tu dinero durante largos periodos de tiempo, aunque el banco te prometa la posibilidad de retirarlo en cualquier momento.",
+	"bank_runs_how_content_3": "¿Y qué pasa si intentas retirar tu dinero después de que el banco ya lo haya prestado o invertido?",
+	"bank_runs_how_content_4": "No es un problema si eres el único que intenta retirar. El banco cogerá el dinero de otra persona y te lo dará a ti. Pero, ¿qué ocurre cuando muchas personas intentan sacar dinero al mismo tiempo?",
+	"bank_runs_how_content_5": "Mucha gente en EEUU se acaba de enterar cuando hubo una corrida bancaria en el Silicon Valley Bank en marzo de 2023.",
+	"bank_runs_how_content_6": "El banco había invertido el dinero de sus clientes en bonos del Estado que estaban bloqueados hasta 30 años. Peor aún, el valor de esos bonos había caído recientemente, por lo que el Silicon Valley Bank no podía venderlos para recuperar el dinero de sus depositantes. Eran insolventes. No tenían suficiente dinero para hacer frente a las retiradas de sus depositantes.",
+	"bank_runs_how_content_7": "A medida que más gente se enteraba, el problema no hacía más que empeorar. Llegaron más solicitudes de retirada de fondos, pero muchas no se procesaron. Miles de empresas se dieron cuenta de que no podrían pagar a sus empleados debido a la quiebra del banco.",
+	"bank_runs_how_content_8": "La FDIC intervino y acordó indemnizar a los depositantes. ¿Problema resuelto? No exactamente...",
+	"bank_runs_fdic": "¿EL SEGURO DE LA FDIC PROTEGE MI DINERO?",
+	"bank_runs_fdic_content_1": "El seguro de la FDIC está diseñado para proteger a los depositantes bancarios en caso de quiebra de un banco. Los depósitos están asegurados hasta 250.000 dólares por depositante. Suena genial, ¿verdad?",
+	"bank_runs_fdic_content_2": "No exactamente. Si un banco quiebra, ¿de dónde saca el dinero la FDIC? Tienen un fondo de seguros con 125.000 millones de dólares.",
+	"bank_runs_fdic_content_3": "Eso parece mucho dinero hasta que lo comparas con la cantidad de depósitos que aseguran: casi 10 billones o 10.000.000 millones de dólares.",
+	"bank_runs_fdic_content_4": "La FDIC incluso muestra en su página web que sólo tienen suficiente dinero en su fondo de seguros para cubrir poco más del 1% de los depósitos.",
+	"bank_runs_fdic_content_5": "En caso de quiebra de un banco que superara el fondo de seguro de la FDIC, es probable (pero no está garantizado) que el Gobierno de EEUU imprimiera dinero para indemnizar a los depositantes.",
+	"bank_runs_fdic_content_6": "Pero imprimir dinero provoca inflación, así que no es una gran solución.",
+	"bank_runs_safe": "¿HAY BANCOS QUE NO USAN RESERVA FRACCIONARIA?",
+	"bank_runs_safe_content_1": "Algunos bancos han intentado ser 'bancos seguros' que no prestan ni invierten los fondos de los depositantes.",
+	"bank_runs_safe_content_2": "Aunque estos bancos seguros tendrían riesgo cero de corridas bancarias, sus solicitudes han sido denegadas por la Reserva Federal. Esto significa que no pueden operar legalmente como bancos.",
+	"bank_runs_safe_content_3": "Debido a que se les ha bloqueado el funcionamiento, hoy en día no hay bancos que no utilicen la reserva fraccionaria.",
+	"bank_runs_safe_content_4": "Afortunadamente, hay una manera de salirse del sistema de reserva fraccionaria siendo tu propio banco. No, no estamos hablando de meter dinero en efectivo bajo el colchón.",
+	"bank_runs_safe_content_5": "Ahorrar en efectivo sigue siendo vulnerable a la inflación.",
+	"bank_runs_safe_content_6": "Hablamos de Bitcoin: un nuevo sistema financiero que te permite ser tu propio banco.",
+	"bank_runs_protect": "¿PUEDE BITCOIN PROTEGERME DE LOS PÁNICO BANCARIO?",
+	"bank_runs_protect_content_1": "Sí, Bitcoin es un sistema financiero de reserva total.",
+	"bank_runs_protect_content_2": "Las corridas bancarias son imposibles en Bitcoin siempre y cuando retires tu Bitcoin a tu propia cartera. No dejes tu bitcoin en un exchange o en un envoltorio como un ETF de Bitcoin.",
+	"bank_runs_protect_content_3": "Consulta nuestra sencilla Guía del Monedero Bitcoin para aprender a retirar a tu propio monedero.",
+	"bank_runs_protect_content_4": "Con Bitcoin, por fin puedes tener el control de tu dinero."
+}

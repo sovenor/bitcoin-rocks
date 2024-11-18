@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-08-29",
+		"locale": "es"
+	},
+	"404_title": "Error 404 | Página no encontrada",
+	"404_message": "ESTA PÁGINA NO FUNCIONA",
+	"404_home": "VOLVER A INICIO"
+}

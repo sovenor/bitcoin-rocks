@@ -3,13 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-06-01",
+		"last-updated": "2024-09-06",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
 	"inflation_description": "Le Bitcoin a une offre fixe totale de 21 millions de bitcoin qui existeront pour toujours. Personne ne peut imprimer ou créer plus de bitcoin et provoquer de l'inflation.",
-	"inflation_sign_got_inflation": "GOT INFLATION?",
-	"inflation_save_in_bitcoin": "SAVE IN BITCOIN",
+	"inflation_sign_got_inflation": "VOUS SOUFFREZ DE L'INFLATION ?",
+	"inflation_save_in_bitcoin": "ÉCONOMISEZ EN BITCOIN",
 	"inflation_sticker_cure": "VOUS AVEZ BESOIN D'UN REMÈDE CONTRE L'INFLATION ?",
 	"inflation_sticker_learn": "DÉCOUVREZ COMMENT LE BITCOIN PEUT VOUS AIDER",
 	"inflation_sticker_got_inflation": "VOUS SOUFFREZ DE L'INFLATION ?",
@@ -39,7 +39,7 @@
 	"inflation_usd_s1_c2": "composée",
 	"inflation_usd_s1_c3": "au cours des 4 dernières années.",
 	"inflation_usd_s1_c4": "Vous avez peut-être encore 100 dollars sur votre compte en banque, mais ils vous permettent d'acheter moitié moins qu'il y a quelques années.",
-	"inflation_usd_but_why": "BUT WHY?",
+	"inflation_usd_but_why": "MAIS POURQUOI ?",
 	"inflation_usd_s1_c5": "Aux États-Unis, il n'y a pas de limite fixe au nombre de dollars américains qui peuvent être créés. Cette offre illimitée, c'est la cause première de l'inflation.",
 	"inflation_usd_s1_c6": "Au cours des dernières années,",
 	"inflation_usd_s1_c7": "le montant total des dollars américains est passé de 4 000 milliards de dollars à 18 000 milliards de dollars.",
