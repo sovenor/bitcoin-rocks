@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-11-15",
+		"locale": "nl"
+	},
+	"how_to_accept_bitcoin_payments": "Hoe Bitcoin-betalingen accepteren",
+	"wallets_header": "KRIJG EEN GRATIS BITCOIN WALLET OM BITCOIN-BETALINGEN TE ACCEPTEREN",
+	"wallets_intro_1": "Alle Bitcoin wallets are interoperabel, zodat uw klanten u in Bitcoin kunnen betalen, ongeacht welke wallet ze gebruiken.",
+	"wallets_intro_2": "Bitcoin-only wallets:",
+	"wallets_intro_3": "Dit zijn pure Bitcoin-wallets waarmee u optimaal kunt profiteren van de voordelen van Bitcoin: geen tussenpersonen, lage kosten en geen terugboekingen of fraude.",
+	"wallets_intro_4": "Hybrid wallets:",
+	"wallets_intro_5": "Hiermee kunt u elk deel van uw Bitcoin inwisselen voor dollars zodra een klant u betaalt. De kosten zijn nog steeds lager dan bij creditcardbetalingen, maar hoger dan bij pure Bitcoin-betalingen.",
+	"wallets_intro_6": "Beide zijn geweldige manieren om Bitcoin te accepteren. De specifieke wallet die u gebruikt, hangt af van de grootte en het type van uw bedrijf.",
+	"wallets_choice_sole": "wallets voor individuele bedrijven",
+	"wallets_choice_multiple": "wallets voor bedrijven met meerdere werknemers",
+	"wallets_choice_online": "wallets voor online bedrijven",
+	"wallets_choice_invoice": "wallets voor factuurgebaseerde bedrijven",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Bitcoin-only wallet",
+	"wallets_feature_no_info": "Geen info vereist",
+	"wallets_feature_in_person": "Alleen betalingen in persoon",
+	"wallets_feature_settles_bitcoin": "Regelt 100% in Bitcoin",
+	"wallets_feature_hybrid": "Hybrid wallet",
+	"wallets_feature_info": "Bedrijfsinfo vereist",
+	"wallets_feature_in_person_online": "Betalingen in persoon en online",
+	"wallets_feature_settles_both": "Regelingen in Bitcoin & euro's",
+	"wallets_feature_multiple_employees": "Ondersteuning voor meerdere werknemers (BPTs)",
+	"wallets_feature_self_hosted": "Zelf gehost = 0% transactiekosten",
+	"wallets_feature_online_store": "Integratie van online winkel",
+	"wallets_feature_invoicing": "Gratis facturatiesoftware",
+	"wallets_get_wallet": "KRIJG WALLET"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-09-30",
+		"locale": "nl"
+	},
+	"signs_description": "Help ons deze Bitcoin borden over Amerika te verspreiden!",
+	"signs_title": "Gratis Bitcoin borden van bitcoin.rocks",
+	"signs_choose_header": "HELP ONS OM DEZE BITCOIN BORDEN OVER AMERIKA TE VERSPREIDEN",
+	"signs_choose_c1": "Onze missie is om door onderwijs de adoptie van Bitcoin te versnellen.",
+	"signs_choose_c2": "Jij kan helpen door deze gratis Bitcoin borden in het openbaar te plaatsen. Al onze borden hebben QR-codes die gelinkt zij naar een leerzame pagina over Bitcoin",
+	"signs_choose_c3": "Inflatie",
+	"signs_choose_c4": "Borden zijn gratis in Amerika tot het einde van de presidentsverkiezingen van 2024.",
+	"signs_share_header": "DEEL EEN FOTO VAN JOUW BORD",
+	"signs_share_c1": "Deel een foto van jouw bord op Nostr, tag ons en wij zullen je wat sats zappen! Sats zijn fracties van een Bitcoin.",
+	"signs_btn_share_on_nostr": "DEEL OP NOSTR",
+	"signs_btn_what_is_nostr": "WAT IS NOSTR?",
+	"signs_instructions_1": "Voer je adres in en wij zullen een doos met 10 Bitcoin borden opsturen!",
+	"signs_instructions_2": "Adres gegevens worden verwijderd nadat je gratis borden zijn verstuurd."
+}
