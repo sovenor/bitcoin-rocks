@@ -59,7 +59,7 @@
 	"inflation_intro_venezuelan_bolivar": "In Venezuela is er geen vaste limiet voor het aantal Venezolaanse Bolivar dat kan worden gemaakt.",
 	"inflation_intro_japanese_yen": "In Japan is er geen vaste limiet voor het aantal Japanse Yen dat kan worden gemaakt.",
 	"inflation_intro_australian_dollar": "In Australië is er geen vaste limiet voor het aantal Australische Dollars dat kan worden gemaakt.",
-	"inflation_intro_israeli_Sikkel": "In Israel is er geen vaste limiet voor het aantal Israelische Sikkels dat kan worden gemaakt.",
+	"inflation_intro_israeli_shekel": "In Israel is er geen vaste limiet voor het aantal Israelische Sikkels dat kan worden gemaakt.",
 	"inflation_intro_thai_baht": "In Thailand is er geen vaste limiet voor het aantal Thai Baht dat kan worden gemaakt.",
 	"inflation_intro_nz_dollar": "In Nieuw Zeeland is er geen vaste limiet voor het aantal Nieuw-Zeelandse Dollar dat kan worden gemaakt.",
 	"inflation_cause_header": "WAT VEROORZAAKT INFLATIE?",
@@ -79,7 +79,7 @@
 	"inflation_cause_venezuelan_bolivar": "Meer dan 80% van alle Venezolaanse Bolivar werden afgelopen jaar gemaakt!",
 	"inflation_cause_japanese_yen": "Meer dan 25% van alle Japanse Yen die vandaag bestaan werden gemaakt tussen 2016 en 2022.",
 	"inflation_cause_australian_dollar": "Meer dan 50% van alle Australische Dollars die vandaag bestaan werden gemaakt tussen 2016 en 2022.",
-	"inflation_cause_israeli_Sikkel": "Ongeveer 50% van alle Israelische Sikkels die vandaag bestaan werden gemaakt tussen 2016 en 2023.",
+	"inflation_cause_israeli_shekel": "Ongeveer 50% van alle Israelische Sikkels die vandaag bestaan werden gemaakt tussen 2016 en 2023.",
 	"inflation_cause_thai_baht": "Ongeveer 35% van alle Thaise Baht die vandaag bestaan werden gemaakt tussen 2016 en 2023.",
 	"inflation_cause_nz_dollar": "Ongeveer 50% van alle Nieuw-Zeelandse Dollars die vandaag bestaan werden gemaakt tussen 2016 en 2023.",
 	"inflation_cic_header": "HOE HEEFT INFLATIE INVLOED OP MIJ?",
@@ -107,7 +107,7 @@
 	"inflation_protect_venezuelan_bolivar": "Het geldaanbod van de Venezolaanse Bolivar is in het laatste jaar met meer ddan 500% gestegen omdat de politici er steeds blijven bij maken.",
 	"inflation_protect_japanese_yen": "Het geldaanbod van de Japanse Yen is sinds 2016 met meer dan 33% gestegen omdat de politici er steeds blijven bij maken. In onderstaande grafiek kun je dit zelf bekijken. Het vaste aanbod dat Bitcoin heeft maakt dit de beste manier om jouw geld op de lange termijn te sparen.",
 	"inflation_protect_australian_dollar": "Het geldaanbod van de Australische Dollar is sinds 2016 met meer dan 100% gestegen omadt de politici er steeds blijven bijrpinten.",
-	"inflation_protect_israeli_Sikkel": "Het geldaanbod van de Israelische Sikkel is sinds  2016 met meer dan 100% gestegen omdat de politici er steeds blijven bij maken.",
+	"inflation_protect_israeli_shekel": "Het geldaanbod van de Israelische Sikkel is sinds  2016 met meer dan 100% gestegen omdat de politici er steeds blijven bij maken.",
 	"inflation_protect_thai_baht": "Het geldaanbod van de Thaise Baht is sinds 2016 met ongeveer 50% gestegen omdat de politici er steeds blijven bij maken.",
 	"inflation_protect_nz_dollar": "Het geldaanbod van de Nieuw Zeelandse Dollar is sinds 2010 met ongeveer 100% gestegen omdat de politici er steeds blijven bij maken."
 }
