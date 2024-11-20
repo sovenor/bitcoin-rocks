@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-11-15",
+		"locale": "nl"
+	},
+	"bitcoin_business_accounting_guide": "Bitcoin zakelijke boekhoudgids",
+	"accounting_description": "Leer hoe je je Bitcoin betalingen op de juiste manier kunt verwerken in uw zakelijke boekhouding.",
+	"accounting_header": "BITCOIN BOEKHOUDGIDS",
+	"accounting_s1_c1": "Het aanvaarden van Bitcoin heeft veel voordelen zoals het aanvaarden van betalingen met lagere kosten en meer klanten verwerven.",
+	"accounting_s1_c2": "Als je een van de Hybride wallets gebruikt uit onze gids en automatisch 100% van je Bitcoininkomsten verkoopt voor euros moet je geen extra aanpassingen doen in je boekhouding.",
+	"accounting_s1_c3": "Bekijk Wallet Gids.",
+	"accounting_s1_c4": "Als u echter een deel van de Bitcoin betalingen die u ontvangt als Bitcoin bewaart, moet u een aantal details voor uw boekhouding bijhouden, dit kan in eerste instantie intimiderend lijken maar is eigenlijk vrij eenvoudig.",
+	"accounting_s1_c5": "Let op: deze gids is uitsluitend bedoeld ter informatie en mag niet als belastingadvies worden beschouwd.",
+	"accounting_s1_c6": "Als u belastingadvies nodig heeft, raden wij Satoshi Pacioli Accounting Services ten zeerste aan, een accountantskantoor dat gespecialiseerd is in Bitcoin-boekhouding.",
+	"accounting_s2": "UW KOSTENBASIS BIJHOUDEN",
+	"accounting_s2_c1": "Het bijhouden van uw kostenbasis zal het grootste verschil zijn tussen de boekhouding voor dollars en de boekhouding voor Bitcoin. Zelfs als u uw bedrijf volledig in termen van Bitcoin bekijkt, moet u de dollarwaarde van elke transactie bij uw belastingen vermelden.",
+	"accounting_s2_c2": "Als je gebruik maakt van QuickBooks you use QuickBooks, kun je dit automatisch laten verlopen door het gebruik van de Bitcoin Sync Plugin.",
+	"accounting_s2_c3": "Als je QuickBooks niet gebruikt, raden wij Satoshi Pacioli Accounting Services aan, een accountantskantoor dat gespecialiseerd is in Bitcoin-boekhouding.",
+	"accounting_s2_c4": "Om dit handmatig te doen, hoeft u alleen maar het bedrag aan Bitcoin dat u heeft ontvangen en de eurowaarde van de Bitcoin-transactie op die dag bij te houden.",
+	"accounting_s2_c5": "Je kan de huidige europrijs van Bitcoin hier bekijken can view the current dollar price of Bitcoin here.",
+	"accounting_s2_c6": "Houd deze informatie bij in een Excel-spreadsheet en geef deze aan uw accountant.",
+	"accounting_s2_c7": "U kunt deze gegevens ook automatisch in Excel importeren.",
+	"accounting_s2_c8": "Ook kun je de historische europrijs van Bitcoin op dagen in het verleden bekijken, zodat je dit niet elke dag hoeft te doen.",
+	"accounting_s3": "UW BITCOIN UITGEVEN OF VERKOPEN",
+	"accounting_s3_c1": "Als u een Hybrid Wallet uit onze Wallet Gids gebruikt en automatisch 100% van de Bitcoin die u ontvangt voor dollars verkoopt, hoeft u geen wijzigingen aan te brengen in uw huidige boekhouding.",
+	"accounting_s3_c2": "Bekijk Wallet Gids.",
+	"accounting_s3_c3": "Als u ervoor kiest om een ​​deel van de Bitcoin die u ontvangt uit te geven of te verkopen nadat u deze een tijdje heeft bijgehouden, hoeft u alleen maar de prijs waarvoor u het heeft verkocht toe te voegen aan uw Excel-spreadsheet waarin uw kostenbasis wordt bijgehouden.",
+	"accounting_s3_c4": "Bijvoorbeeld, als je €100 Bitcoin hebt ontvangen op 1 januari en je hebt beslist om het te verkopen op 1 februari aan een waarde van €110, zou je een kapitaalswinst van €10 in uw boekhouding moeten opnemen.",
+	"accounting_s3_c5": "Dit werkt ook in de omgekeerde richting. Bijvoorbeeld, wanneer je €100 Bitcoin hebt ontvangen  op 1 januari en je hebt beslist om te verkopen op 1 februari aan een waarde van €90, zou je een kapitaalsverlies van €10 in uw boekhouding moeten opnemen.",
+	"accounting_s4": "IK HEB MEER HULP NODIG",
+	"accounting_s4_c1": "Als u meer hulp nodig heeft bij het integreren van Bitcoin in uw zakelijke boekhouding, raden we Satoshi Pacioli Accounting Services ten zeerste aan, een accountantskantoor dat gespecialiseerd is in Bitcoin-boekhouding.",
+	"accounting_s4_c2": "Meer informatie over Satoshi Pacioli Accounting Services."
+}
