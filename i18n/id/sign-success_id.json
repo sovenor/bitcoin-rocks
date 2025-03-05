@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abeng"
+        ],
+        "last-updated": "2025-03-05",
+        "locale": "id"
+    },
+    "sign_success_1": "Anda akan menerima tanda-tanda Anda dalam 1 hingga 2 minggu. Sambil menunggu, cobalah pikirkan tempat yang bagus untuk memasang tanda-tanda Anda!",
+    "sign_success_3": "Ingin melihat di mana orang lain memasang tanda-tanda mereka?",
+    "signs_share_header": "BAGIKAN TEMPAT TANDA ANDA",
+    "signs_share_c1": "Bagikan foto tempat tanda Anda dengan kami di Nostr dan kami akan mengirimkan sats kepada Anda! Sats adalah pecahan dari bitcoin.",
+    "signs_btn_share_on_nostr": "BAGIKAN DI NOSTR",
+    "signs_btn_what_is_nostr": "APA ITU NOSTR?"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Tidak Mengalami Bank Run",
+	"bank_runs_header": "BITCOIN TIDAK MENGALAMI BANK RUN",
+	"bank_runs_header_2": "TAPI BANK ANDA MUNGKIN MENGALAMINYA",
+	"bank_runs_what": "APA ITU BANK RUN?",
+	"bank_runs_what_content_1": "Bank run terjadi ketika terlalu banyak orang mencoba menarik uang mereka dari bank pada saat yang bersamaan.",
+	"bank_runs_what_content_2": "Jika bank tidak memiliki cukup uang untuk memenuhi penarikan, mereka bisa runtuh sepenuhnya saat bank run terjadi.",
+	"bank_runs_how": "BAGAIMANA BANK RUN TERJADI?",
+	"bank_runs_how_content_1": "Sistem perbankan kita menggunakan 'cadangan fraksional', yang berarti bank tidak hanya menyimpan uang Anda di dalam brankas sambil menunggu Anda menggunakannya atau menariknya.",
+	"bank_runs_how_content_2": "Sebaliknya, bank mengambil uang Anda dan meminjamkannya atau menginvestasikannya. Ini bisa membuat uang Anda terkunci dalam waktu lama, meskipun bank menjanjikan Anda dapat menariknya kapan saja.",
+	"bank_runs_how_content_3": "Jadi, apa yang terjadi jika Anda mencoba menarik uang setelah bank telah meminjamkannya atau menginvestasikannya?",
+	"bank_runs_how_content_4": "Tidak masalah jika hanya Anda yang menarik uang. Bank akan mengambil uang dari nasabah lain dan memberikannya kepada Anda. Tapi bagaimana jika terlalu banyak orang mencoba menarik uang sekaligus?",
+	"bank_runs_how_content_5": "Banyak orang di AS mengetahuinya saat terjadi bank run di Silicon Valley Bank pada Maret 2023.",
+	"bank_runs_how_content_6": "Bank telah menginvestasikan uang nasabahnya dalam obligasi pemerintah yang terkunci hingga 30 tahun. Lebih buruk lagi, nilai obligasi tersebut turun baru-baru ini, sehingga Silicon Valley Bank tidak bisa menjualnya untuk mengembalikan uang nasabah mereka. Bank tersebut bangkrut dan tidak memiliki cukup dana untuk memenuhi penarikan nasabahnya.",
+	"bank_runs_how_content_7": "Semakin banyak orang menyadari hal ini, semakin parah masalahnya. Permintaan penarikan semakin banyak, tetapi banyak yang tidak dapat diproses. Ribuan bisnis menyadari bahwa mereka tidak bisa membayar karyawan mereka karena kegagalan bank.",
+	"bank_runs_how_content_8": "FDIC turun tangan dan menyatakan akan mengembalikan dana nasabah. Masalah selesai? Tidak sepenuhnya...",
+	"bank_runs_fdic": "APAKAH ASURANSI FDIC MELINDUNGI UANG SAYA?",
+	"bank_runs_fdic_content_1": "Asuransi FDIC dirancang untuk melindungi nasabah bank jika bank gagal. Simpanan dijamin hingga $250.000 per nasabah. Terdengar bagus, bukan?",
+	"bank_runs_fdic_content_2": "Tidak sepenuhnya. Jika bank gagal, dari mana FDIC mendapatkan uangnya? Mereka memiliki dana asuransi sebesar 125 miliar dolar.",
+	"bank_runs_fdic_content_3": "Itu terdengar banyak sampai dibandingkan dengan jumlah total simpanan yang mereka asuransikan: hampir 10 triliun atau 10.000 miliar dolar.",
+	"bank_runs_fdic_content_4": "FDIC bahkan menunjukkan di situs web mereka bahwa mereka hanya memiliki cukup dana untuk menutup sedikit lebih dari 1% dari total simpanan.",
+	"bank_runs_fdic_content_5": "Jika terjadi kegagalan bank yang melebihi dana asuransi FDIC, kemungkinan besar (tapi tidak dijamin) pemerintah AS akan mencetak uang untuk mengembalikan dana nasabah.",
+	"bank_runs_fdic_content_6": "Namun, mencetak uang menyebabkan inflasi, jadi itu bukan solusi yang baik.",
+	"bank_runs_safe": "APAKAH ADA BANK YANG TIDAK MENGGUNAKAN CADANGAN FRAKSIONAL?",
+	"bank_runs_safe_content_1": "Beberapa bank telah mencoba menjadi 'bank aman' yang tidak meminjamkan atau menginvestasikan dana nasabah.",
+	"bank_runs_safe_content_2": "Meskipun bank-bank ini tidak memiliki risiko bank run, pengajuan mereka ditolak oleh Federal Reserve. Artinya, mereka tidak bisa beroperasi secara legal sebagai bank.",
+	"bank_runs_safe_content_3": "Karena mereka dilarang beroperasi, saat ini tidak ada bank yang tidak menggunakan cadangan fraksional.",
+	"bank_runs_safe_content_4": "Untungnya, ada cara untuk keluar dari sistem cadangan fraksional dengan menjadi bank Anda sendiri. Tidak, ini bukan tentang menyimpan uang tunai di bawah kasur.",
+	"bank_runs_safe_content_5": "Menyimpan uang tunai tetap rentan terhadap inflasi.",
+	"bank_runs_safe_content_6": "Kita berbicara tentang Bitcoin: sistem keuangan baru yang memungkinkan Anda menjadi bank Anda sendiri.",
+	"bank_runs_protect": "APAKAH BITCOIN DAPAT MELINDUNGI SAYA DARI BANK RUN?",
+	"bank_runs_protect_content_1": "Ya, Bitcoin adalah sistem keuangan dengan cadangan penuh.",
+	"bank_runs_protect_content_2": "Bank run tidak mungkin terjadi di Bitcoin selama Anda menarik Bitcoin Anda ke dompet pribadi. Jangan biarkan Bitcoin Anda di bursa atau dalam bentuk ETF Bitcoin.",
+	"bank_runs_protect_content_3": "Lihat Panduan Dompet Bitcoin kami untuk mempelajari cara menarik ke dompet Anda sendiri.",
+	"bank_runs_protect_content_4": "Dengan Bitcoin, Anda akhirnya bisa mengendalikan uang Anda sendiri."
+}

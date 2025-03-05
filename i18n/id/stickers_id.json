@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"free_bitcoin_stickers": "Stiker Bitcoin gratis dari bitcoin.rocks",
+	"stickers_description": "Tempel stiker Bitcoin di tempat umum untuk memperkenalkan Bitcoin kepada orang-orang di sekitar Anda.",
+	"stickers_header": "STIKER BITCOIN GRATIS",
+	"stickers_choose_header": "PILIH PAKET STIKER ANDA",
+	"stickers_choose_c1": "Misi kami adalah membantu Anda memperkenalkan Bitcoin kepada lebih banyak orang dengan menempelkan stiker Bitcoin di tempat umum. Semua stiker kami memiliki kode QR yang mengarah ke halaman edukasi tentang",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflasi",
+	"stickers_choose_c4": "Pilih paket stiker Anda di bawah ini",
+	"stickers_text_pack": "PAKET TEKS",
+	"stickers_signs_pack": "PAKET TANDA",
+	"stickers_instructions_1": "Masukkan alamat pengiriman Anda, dan kami akan mengirimkan Paket Stiker Bitcoin gratis melalui pos! Stiker Anda akan dikirim dalam amplop putih polos.",
+	"stickers_instructions_2": "Data alamat akan dihapus setelah stiker gratis Anda dikirim.",
+	"stickers_share_header": "BAGIKAN LOKASI STIKER ANDA",
+	"stickers_share_c1": "Bagikan lokasi stiker Anda dengan kami di Nostr dan lihat di mana orang lain menempelkan stikernya.",
+	"stickers_btn_share_on_nostr": "BAGIKAN DI NOSTR",
+	"stickers_btn_what_is_nostr": "APA ITU NOSTR?",
+	"stickers_country_global_print": "Global — Cetak stiker saya sendiri",
+	"stickers_country_global_order": "Global — Pesan dalam jumlah besar"
+}

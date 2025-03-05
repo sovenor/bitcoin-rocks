@@ -1,0 +1,41 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abeng"
+        ],
+        "last-updated": "2025-03-05",
+        "locale": "id"
+    },
+    "bitcoin_lightning_wallet_guide": "Panduan Dompet Lightning Bitcoin",
+    "lightning_description": "Dompet Lightning memungkinkan Anda mengirim Bitcoin dengan cepat dan murah sambil tetap menjaga kedaulatan pribadi Anda.",
+    "lightning_header": "PANDUAN DOMPET LIGHTNING",
+    "lightning_s1_c1": "Lightning memungkinkan Anda mengirim pembayaran Bitcoin dengan cepat dan murah.",
+    "lightning_s1_c2": "Penting untuk diketahui bahwa menggunakan Lightning memiliki kompromi. Sebagai ganti pembayaran Bitcoin yang lebih cepat dan murah, Anda sering kali mengorbankan sedikit keamanan.",
+    "lightning_s1_c3": "Secara umum, Lightning sebaiknya hanya digunakan dengan jumlah kecil bitcoin. Anda hanya boleh menyimpan jumlah besar bitcoin di dompet perangkat keras.",
+    "lightning_s1_c4": "Lihat Panduan Dompet Perangkat Keras kami untuk informasi lebih lanjut.",
+    "lightning_s1_c5": "Tidak semua dompet Lightning sama. Anda dapat menentukan dompet mana yang memiliki keseimbangan kompromi yang tepat untuk Anda dengan mengajukan satu pertanyaan sederhana:",
+    "lightning_question_1": "KESEIMBANGAN KOMPROMI APA YANG TEPAT UNTUK SAYA?",
+    "lightning_s2_c1": "Salah satu inovasi Bitcoin adalah kemampuan untuk menyimpannya tanpa bergantung pada kustodian, seperti bank. Dompet penyimpanan mandiri membuka kekuatan penuh Bitcoin.",
+    "lightning_s2_c2": "Dengan dompet penyimpanan mandiri, Anda adalah satu-satunya yang memiliki kemampuan untuk membelanjakan atau mentransfer uang Anda. Tidak ada yang bisa menghentikan Anda, menyensor Anda, atau mencuri dari Anda saat Anda menggunakan dompet penyimpanan mandiri. Ini juga disebut dompet non-kustodial.",
+    "lightning_s2_c3": "Cara paling berdaulat untuk menggunakan Lightning adalah dengan menjalankan node Anda sendiri.",
+    "lightning_s2_c4": "Panduan ini fokus pada dompet Lightning sederhana yang tidak memerlukan node Anda sendiri.",
+    "lightning_s2_c5": "Penting untuk diketahui bahwa bahkan dengan menggunakan dompet Lightning non-kustodial, Anda masih mempercayai pembuat dompet untuk tidak mendorong pembaruan aplikasi berbahaya dan mencuri dana Anda.",
+    "lightning_s3_c1": "Dompet kustodial adalah dompet di mana Anda tidak mengendalikan uang Anda.",
+    "lightning_s3_c2": "Dompet ini lebih mirip dengan sistem perbankan di mana Anda harus mempercayai pihak ketiga untuk memberi Anda akses ke uang Anda. Jika Bitcoin Anda ada di bursa, Anda menggunakan dompet kustodial.",
+    "lightning_s3_c3": "Dompet kustodial mungkin tampak nyaman, tetapi kustodian memiliki kemampuan teknis untuk mencuri semua dana pengguna kapan saja.",
+    "lightning_s3_c4": "Beberapa orang lebih memilih dompet Lightning kustodial untuk jumlah kecil bitcoin karena kemudahan penggunaannya. Ingat saja: bukan kunci Anda, bukan koin Anda!",
+    "lightning_question_2": "PILIH DOMPET ANDA",
+    "lightning_s4_c1": "Dengan semua ini dalam pikiran, Anda sekarang dapat memilih dompet Lightning yang memiliki keseimbangan kompromi yang tepat untuk Anda.",
+    "phoenix": "PHOENIX",
+    "breez": "BREEZ",
+    "mutiny_wallet": "DOMPET MUTINY",
+    "wallet_of_satoshi": "DOMPET SATOSHI",
+    "lightning_features": "Banyak fitur",
+    "lightning_mobile_app": "Aplikasi seluler",
+    "lightning_free": "100% gratis",
+    "lightning_merchants": "Bagus untuk pedagang",
+    "lightning_starter": "Dompet pemula yang bagus",
+    "lightning_browser": "Berbasis peramban",
+    "lightning_custodial": "Dompet sepenuhnya kustodial",
+    "lightning_cta_hardware": "Mencari Panduan Dompet Perangkat Keras Bitcoin kami?"
+}
