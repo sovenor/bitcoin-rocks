@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nginx"]
+
+[phases.build]
+cmds = [""]
+
+[start]
+cmd = "nginx -c /app/nginx.conf"
