@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nginx"]
+
+[phases.build]
+cmds = ["echo 'Static site - no build required'"]
+
+[start]
+cmd = "envsubst '${PORT}' < nginx.conf > /tmp/nginx.conf && nginx -c /tmp/nginx.conf"
