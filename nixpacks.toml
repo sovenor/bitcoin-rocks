@@ -5,4 +5,4 @@ nixPkgs = ["nginx"]
 cmds = ["echo 'Static site - no build required'"]
 
 [start]
-cmd = "envsubst '${PORT}' < nginx.conf > /tmp/nginx.conf && nginx -c /tmp/nginx.conf"
+cmd = "nginx -c nginx.conf"
