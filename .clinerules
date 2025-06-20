@@ -1,0 +1,133 @@
+# Bitcoin.rocks Project Intelligence
+
+## Project Overview
+This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mission to accelerate Bitcoin adoption through education. It serves as a "first link" to share with Bitcoin newcomers.
+
+## Key Project Patterns
+
+### Architecture Philosophy
+- **Static Site First**: Pure HTML/CSS/JS with no CMS - prioritizes simplicity, speed, and reliability
+- **Single Stylesheet**: All CSS in one file (css/style.css) for maintainability
+- **Progressive Enhancement**: Base functionality works without JavaScript, enhanced with JS
+- **Mobile-First Responsive**: Design starts with mobile constraints and scales up
+
+### Content Strategy
+- **Topic-Based Organization**: Homepage organized by Bitcoin impact areas (money, freedom, energy, etc.)
+- **Color-Coded Sections**: Each topic has unique colors for visual hierarchy
+- **Curated External Links**: Mix of internal content and carefully selected external resources
+- **Beginner-Focused**: All content assumes zero prior Bitcoin knowledge
+
+### Internationalization Approach
+- **jquery.i18n Framework**: Uses jQuery-based i18n with JSON translation files
+- **File Structure**: `/i18n/[lang]/[page]_[lang].json` format
+- **Community-Driven**: Translations managed through GitHub community contributions
+- **Fallback Strategy**: Graceful fallback to English when translations unavailable
+
+### Visual Design System
+- **Dark Theme**: Consistent #060610 background with white text
+- **Bitcoin Orange**: #FF9500 as primary accent color throughout
+- **Topic Colors**: Each content section has unique color (energy=#1DFF4D, freedom=#96041C, etc.)
+- **Card-Based Layout**: Content in rounded containers with hover effects
+- **Typography**: Proxima Nova font family via Adobe Typekit
+
+## Development Workflow Patterns
+
+### File Organization
+- Root level HTML files for main pages
+- `/business/` subdirectory for business-specific content
+- `/sticker-files/` for downloadable resources organized by language
+- `/img/` with category-based subdirectories
+- `/jquery/` for all JavaScript including custom scripts
+
+### Translation Workflow
+1. Fork repository on GitHub
+2. Duplicate `/i18n/en/` folder to new language code
+3. Translate JSON files maintaining key structure
+4. Rename files to match language code pattern
+5. Submit pull request with translation
+
+### Content Update Process
+- External links require regular review for validity
+- New content needs translation keys added to all language files
+- Images should be optimized and categorized appropriately
+- All changes go through GitHub for version control
+
+## Technical Implementation Details
+
+### JavaScript Architecture
+- jQuery 3.6.1 as base library
+- Custom language.js handles i18n loading and language switching
+- Smooth scrolling implemented for jump navigation
+- Form handling with client-side validation
+
+### CSS Patterns
+- BEM-inspired class naming with semantic meaning
+- Responsive breakpoints at 700px and 400px
+- Consistent spacing using standardized margin/padding classes
+- Hover effects with transform: scale(1.05) for interactive elements
+
+### Performance Considerations
+- Single CSS file to minimize HTTP requests
+- Compressed images under 500KB each
+- Privacy-focused MicroAnalytics (no IP tracking)
+- Apache .htaccess for clean URLs and caching
+
+## Community and Contribution Patterns
+
+### Open Source Approach
+- MIT License for maximum freedom
+- GitHub-based collaboration with issues and discussions
+- Clear CONTRIBUTING.md with step-by-step instructions
+- Welcoming to non-technical contributors (especially translators)
+
+### Quality Control
+- Manual review process for translations
+- Curated external link selection
+- Community feedback through GitHub discussions
+- Regular content freshness reviews
+
+## Common Tasks and Solutions
+
+### Adding New Content
+1. Add HTML structure with semantic markup
+2. Create data-i18n attributes for translatable text
+3. Add translation strings to all language JSON files
+4. Apply appropriate CSS classes following existing patterns
+5. Test across languages and devices
+
+### Translation Management
+- Check `/i18n/` directory for language completion status
+- Use GitHub discussions for translation coordination
+- Maintain consistent terminology across languages
+- Test language switching functionality
+
+### Performance Optimization
+- Optimize images before adding to `/img/` directory
+- Minimize JavaScript dependencies
+- Use appropriate caching headers
+- Test loading times on mobile connections
+
+## Project Values and Constraints
+
+### Core Values
+- **Simplicity**: Keep everything as simple as possible for beginners
+- **Accessibility**: Support global reach through translations and responsive design
+- **Community**: Foster collaborative, open-source development
+- **Quality**: Maintain high standards for educational content
+- **Privacy**: Minimal data collection, privacy-focused analytics
+
+### Technical Constraints
+- No server-side processing (static files only)
+- Single stylesheet approach (no CSS frameworks)
+- jQuery-based (no modern JS frameworks)
+- Community-driven translations (no professional translation services)
+- Free hosting requirements (no expensive infrastructure)
+
+## Success Indicators
+- High engagement with educational content
+- Active community translation contributions
+- Regular sharing as "first link" for Bitcoin education
+- Business adoption through provided resources
+- Global reach across multiple languages
+
+This project intelligence helps maintain consistency and quality while enabling effective collaboration with the bitcoin.rocks community.
