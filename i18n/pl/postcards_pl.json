@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"free_bitcoin_postcards": "Darmowe pocztówki Bitcoin od bitcoin.rocks",
+	"postcards_description": "Zdobądź darmowy pakiet pocztówek Bitcoin i podziel się Bitcoinem z kimś, kogo znasz.",
+	"postcards_header": "DARMOWE POCZTÓWKI BITCOIN",
+	"postcards_step_1": "1. ZŁÓŻ ZAMÓWIENIE NA PAKIET POCZTÓWEK",
+	"postcards_instructions_1": "Podaj swój adres, a my wyślemy ci darmowy pakiet pocztówek Bitcoin! Twoje pocztówki zostaną wysłane w zwykłej białej kopercie.",
+	"postcards_instructions_2": "Dane adresowe zostaną usunięte po wysłaniu twoich darmowych pocztówek.",
+	"postcards_instructions_3": "Kanadyjczycy otrzymają pocztówkę z banknotem o wartości 5 CAD zamiast pocztówki z banknotem o wartości 1 USD.",
+	"postcards_step_2": "2. WYŚLIJ POCZTÓWKI",
+	"postcards_instructions_4": "Stworzyliśmy te pocztówki, aby ułatwić ci wprowadzenie kogoś, kogo znasz, do Bitcoina! Wystarczy dodać adres i znaczek, a następnie wrzucić pocztówkę do skrzynki pocztowej.",
+	"postcards_instructions_5": "Naszą misją jest przyspieszenie adopcji Bitcoina. Możesz pomóc, wysyłając te pocztówki do kogoś, kogo znasz, jeszcze dzisiaj!",
+	"postcards_instructions_6": "Wszyscy znamy kilka osób, które mogłyby skorzystać z nauki o Bitcoinie. Wyślij im pocztówkę już dzisiaj!"
+}

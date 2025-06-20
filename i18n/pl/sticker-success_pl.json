@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"sticker_success_1": "Otrzymasz swoje naklejki w ciągu 1 do 2 tygodni. W międzyczasie spróbuj znaleźć dobre miejsce na ich umieszczenie!",
+	"sticker_success_2": "Dobre miejsca na naklejki to:",
+	"sticker_success_list_1": "w miejscach publicznych, gdzie będą widoczne",
+	"sticker_success_list_2": "w miejscach, które są mało prawdopodobne do szybkiego usunięcia (naklejki nie powodują trwałych uszkodzeń)",
+	"sticker_success_list_3": "na powierzchniach, do których dobrze przylegają (metal, plastik, szkło)",
+	"sticker_success_list_4": "NIE na prywatnej własności, zakrywające oznakowanie, bankomaty lub dystrybutory paliwa",
+	"sticker_success_3": "Chcesz zobaczyć, gdzie inni ludzie umieszczają swoje naklejki?"
+}

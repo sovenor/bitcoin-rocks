@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"free_bitcoin_stickers": "Darmowe naklejki Bitcoin od bitcoin.rocks",
+	"stickers_description": "Umieść naklejkę Bitcoin w miejscach publicznych, aby uświadomić otaczających Cię ludzi.",
+	"stickers_header": "DARMOWE NAKLEJKI BITCOIN",
+	"stickers_choose_header": "WYBIERZ SWÓJ ZESTAW NAKLEJEK",
+	"stickers_choose_c1": "Naszą misją jest pomóc Ci dotrzeć do większej liczby osób, umieszczając naklejki Bitcoin w miejscach publicznych. Wszystkie nasze naklejki zawierają kody QR, które prowadzą do stron edukacyjnych na temat",
+	"stickers_choose_c2": "Bitcoina",
+	"stickers_choose_c3": "inflacji",
+	"stickers_choose_c4": "Wybierz swój zestaw naklejek poniżej",
+	"stickers_text_pack": "ZESTAW Z NAPISAMI",
+	"stickers_signs_pack": "ZESTAW Z TABLICAMI",
+	"stickers_instructions_1": "Wprowadź swój adres do wysyłki, a my wyślemy Ci darmowy zestaw naklejek Bitcoin! Naklejki zostaną wysłane w zwykłej białej kopercie.",
+	"stickers_instructions_2": "Dane adresowe są usuwane po wysłaniu darmowych naklejek.",
+	"stickers_share_header": "UDOSTĘPNIJ MIEJSCA Z NAKLEJKAMI",
+	"stickers_share_c1": "Podziel się z nami miejscem, w którym umieściłeś naklejkę, na Nostr, a możesz otrzymać darmowego Bitcoina!",
+	"stickers_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
+	"stickers_btn_what_is_nostr": "CO TO JEST NOSTR?",
+	"stickers_country_global_print": "Globalnie — Wydrukuj własne naklejki",
+	"stickers_country_global_order": "Globalnie — Zamów hurtowo"
+}

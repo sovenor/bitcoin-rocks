@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"bitcoin_business_accounting_guide": "Przewodnik po księgowości Bitcoin dla firm",
+	"accounting_description": "Dowiedz się, jak prawidłowo księgować płatności Bitcoin w księgowości Twojej firmy.",
+	"accounting_header": "PRZEWODNIK PO KSIĘGOWOŚCI BITCOIN",
+	"accounting_s1_c1": "Akceptowanie Bitcoin ma wiele korzyści, takich jak niższe opłaty za płatności i pozyskiwanie większej liczby klientów.",
+	"accounting_s1_c2": "Jeśli korzystasz z portfela hybrydowego z naszego przewodnika po portfelach i automatycznie sprzedajesz 100% otrzymanych Bitcoinów na dolary, nie musisz wprowadzać żadnych zmian w swojej obecnej księgowości.",
+	"accounting_s1_c3": "Zobacz Przewodnik po portfelach.",
+	"accounting_s1_c4": "Jednak jeśli część płatności Bitcoin, które otrzymujesz, zatrzymujesz jako Bitcoin, będziesz musiał śledzić kilka szczegółów w swojej księgowości. Może to wydawać się początkowo zniechęcające, ale jest naprawdę dość proste.",
+	"accounting_s1_c5": "Uwaga: ten przewodnik ma charakter informacyjny i nie jest traktowany jako porada podatkowa.",
+	"accounting_s1_c6": "Jeśli potrzebujesz porady podatkowej, zdecydowanie polecamy Satoshi Pacioli Accounting Services, firmę księgową specjalizującą się w księgowości Bitcoin.",
+	"accounting_s2": "ŚLEDZENIE KOSZTÓW",
+	"accounting_s2_c1": "Śledzenie kosztów będzie największą różnicą między księgowaniem dolarów a księgowaniem Bitcoin. Nawet jeśli widzisz swoją firmę całkowicie w kategoriach Bitcoin, musisz zgłosić wartość dolara każdej transakcji w swoich podatkach.",
+	"accounting_s2_c2": "Jeśli używasz QuickBooks, możesz to zrobić automatycznie za pomocą wtyczki Bitcoin Sync.",
+	"accounting_s2_c3": "Jeśli nie używasz QuickBooks, polecamy Satoshi Pacioli Accounting Services, firmę księgową specjalizującą się w księgowości Bitcoin.",
+	"accounting_s2_c4": "Aby zrobić to ręcznie, musisz po prostu śledzić ilość Bitcoinów, które otrzymałeś, oraz wartość dolara transakcji Bitcoin z danego dnia.",
+	"accounting_s2_c5": "Obecny dolarowy kurs Bitcoin możesz sprawdzić tutaj.",
+	"accounting_s2_c6": "Śledź te informacje w arkuszu Excel i przekaż je swojemu księgowemu.",
+	"accounting_s2_c7": "Możesz również automatycznie importować te dane do Excela.",
+	"accounting_s2_c8": "Możesz również przeglądać historyczne ceny Bitcoin w dolarach z przeszłych dni, więc nie musisz robić tego codziennie.",
+	"accounting_s3": "WYDATKI LUB SPRZEDAŻ TWOICH BITCOINÓW",
+	"accounting_s3_c1": "Jeśli używasz portfela hybrydowego z naszego przewodnika po portfelach i automatycznie sprzedajesz 100% otrzymanych Bitcoinów na dolary, nie musisz wprowadzać żadnych zmian w swojej obecnej księgowości.",
+	"accounting_s3_c2": "Zobacz Przewodnik po portfelach.",
+	"accounting_s3_c3": "Jeśli zdecydujesz się wydać lub sprzedać część otrzymanych Bitcoinów po pewnym czasie, musisz po prostu dodać cenę, za którą je sprzedałeś, do swojego arkusza Excel śledzącego koszty.",
+	"accounting_s3_c4": "Na przykład, jeśli otrzymałeś Bitcoin o wartości 100 USD 1 stycznia, a zdecydowałeś się go sprzedać lub wydać 1 lutego po nowej wartości 110 USD, będziesz musiał zanotować 10 USD zysku kapitałowego w swojej księgowości.",
+	"accounting_s3_c5": "Może to działać również odwrotnie. Na przykład, jeśli otrzymałeś Bitcoin o wartości 100 USD 1 stycznia, a zdecydowałeś się go sprzedać lub wydać 1 lutego po nowej wartości 90 USD, będziesz musiał zanotować 10 USD straty kapitałowej w swojej księgowości.",
+	"accounting_s4": "POTRZEBUJĘ WIĘCEJ POMOCY",
+	"accounting_s4_c1": "Jeśli potrzebujesz więcej pomocy w integracji Bitcoin z księgowością Twojej firmy, zdecydowanie polecamy Satoshi Pacioli Accounting Services, firmę księgową specjalizującą się w księgowości Bitcoin.",
+	"accounting_s4_c2": "Dowiedz się więcej o Satoshi Pacioli Accounting Services."
+}
