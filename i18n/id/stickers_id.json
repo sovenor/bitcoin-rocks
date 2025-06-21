@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "BAGIKAN DI NOSTR",
 	"stickers_btn_what_is_nostr": "APA ITU NOSTR?",
 	"stickers_country_global_print": "Global — Cetak stiker saya sendiri",
-	"stickers_country_global_order": "Global — Pesan dalam jumlah besar"
+	"stickers_country_global_order": "Global — Pesan dalam jumlah besar",
+	"placeholder_name_optional": "Nama (opsional)",
+	"placeholder_address_line_1": "Alamat Baris 1",
+	"placeholder_address_line_2": "Alamat Baris 2 (opsional)",
+	"placeholder_city": "Kota",
+	"placeholder_state": "Negara Bagian",
+	"placeholder_province": "Provinsi",
+	"placeholder_zip_code": "Kode Pos",
+	"placeholder_postal_code": "Kode Pos",
+	"placeholder_language": "Bahasa",
+	"placeholder_which_stickers": "Stiker mana?",
+	"placeholder_email_optional": "Masukkan email Anda untuk notifikasi (opsional)"
 }

@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "AUF NOSTR TEILEN",
 	"stickers_btn_what_is_nostr": "WAS IST NOSTR?",
 	"stickers_country_global_print": "Global – Sticker selber drucken",
-	"stickers_country_global_order": "Global – Sammelbestellung"
+	"stickers_country_global_order": "Global – Sammelbestellung",
+	"placeholder_name_optional": "Name (optional)",
+	"placeholder_address_line_1": "Adresszeile 1",
+	"placeholder_address_line_2": "Adresszeile 2 (optional)",
+	"placeholder_city": "Stadt",
+	"placeholder_state": "Bundesland",
+	"placeholder_province": "Provinz",
+	"placeholder_zip_code": "Postleitzahl",
+	"placeholder_postal_code": "Postleitzahl",
+	"placeholder_language": "Sprache",
+	"placeholder_which_stickers": "Welche Sticker?",
+	"placeholder_email_optional": "E-Mail-Adresse für Benachrichtigungen (optional)"
 }

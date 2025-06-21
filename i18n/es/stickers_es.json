@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "COMPARTE EN NOSTR",
 	"stickers_btn_what_is_nostr": "¿QUÉ ES NOSTR?",
 	"stickers_country_global_print": "Global — Imprimir mis propios stickers",
-	"stickers_country_global_order": "Global — Realizar pedidos al por mayor"
+	"stickers_country_global_order": "Global — Realizar pedidos al por mayor",
+	"placeholder_name_optional": "Nombre (opcional)",
+	"placeholder_address_line_1": "Línea de dirección 1",
+	"placeholder_address_line_2": "Línea de dirección 2 (opcional)",
+	"placeholder_city": "Ciudad",
+	"placeholder_state": "Estado",
+	"placeholder_province": "Provincia",
+	"placeholder_zip_code": "Código postal",
+	"placeholder_postal_code": "Código postal",
+	"placeholder_language": "Idioma",
+	"placeholder_which_stickers": "¿Qué stickers?",
+	"placeholder_email_optional": "Ingresa tu email para recibir notificaciones (opcional)"
 }

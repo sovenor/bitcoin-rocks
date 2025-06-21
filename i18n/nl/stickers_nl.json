@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "DEEL OP NOSTR",
 	"stickers_btn_what_is_nostr": "WAT IS NOSTR?",
 	"stickers_country_global_print": "Global — Print mijn eigen stickers",
-	"stickers_country_global_order": "Global — Bestel in bulk"
+	"stickers_country_global_order": "Global — Bestel in bulk",
+	"placeholder_name_optional": "Naam (optioneel)",
+	"placeholder_address_line_1": "Adresregel 1",
+	"placeholder_address_line_2": "Adresregel 2 (optioneel)",
+	"placeholder_city": "Stad",
+	"placeholder_state": "Staat",
+	"placeholder_province": "Provincie",
+	"placeholder_zip_code": "Postcode",
+	"placeholder_postal_code": "Postcode",
+	"placeholder_language": "Taal",
+	"placeholder_which_stickers": "Welke stickers?",
+	"placeholder_email_optional": "Voer je e-mail in voor meldingen (optioneel)"
 }

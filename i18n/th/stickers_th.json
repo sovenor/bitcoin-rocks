@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "แบ่งปันบน NOSTR",
 	"stickers_btn_what_is_nostr": "NOSTR.คืออะไร?",
 	"stickers_country_global_print": "Global — พิมพ์สติกเกอร์ของฉันเอง",
-	"stickers_country_global_order": "Global — สั่งซื้อจำนวนมาก"
+	"stickers_country_global_order": "Global — สั่งซื้อจำนวนมาก",
+	"placeholder_name_optional": "ชื่อ (ไม่บังคับ)",
+	"placeholder_address_line_1": "ที่อยู่บรรทัด 1",
+	"placeholder_address_line_2": "ที่อยู่บรรทัด 2 (ไม่บังคับ)",
+	"placeholder_city": "เมือง",
+	"placeholder_state": "รัฐ",
+	"placeholder_province": "จังหวัด",
+	"placeholder_zip_code": "รหัสไปรษณีย์",
+	"placeholder_postal_code": "รหัสไปรษณีย์",
+	"placeholder_language": "ภาษา",
+	"placeholder_which_stickers": "สติ๊กเกอร์ไหน?",
+	"placeholder_email_optional": "ใส่อีเมลของคุณเพื่อรับการแจ้งเตือน (ไม่บังคับ)"
 }

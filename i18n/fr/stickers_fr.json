@@ -23,5 +23,16 @@
 	"stickers_btn_share_on_nostr": "PARTAGER SUR NOSTR",
 	"stickers_btn_what_is_nostr": "C'EST QUOI NOSTR ?",
 	"stickers_country_global_print": "Global - Imprimer mes propres autocollants",
-	"stickers_country_global_order": "Global - Commander en gros"
+	"stickers_country_global_order": "Global - Commander en gros",
+	"placeholder_name_optional": "Nom (optionnel)",
+	"placeholder_address_line_1": "Ligne d'adresse 1",
+	"placeholder_address_line_2": "Ligne d'adresse 2 (optionnel)",
+	"placeholder_city": "Ville",
+	"placeholder_state": "État",
+	"placeholder_province": "Province",
+	"placeholder_zip_code": "Code postal",
+	"placeholder_postal_code": "Code postal",
+	"placeholder_language": "Langue",
+	"placeholder_which_stickers": "Quels autocollants ?",
+	"placeholder_email_optional": "Entrez votre email pour être notifié (optionnel)"
 }

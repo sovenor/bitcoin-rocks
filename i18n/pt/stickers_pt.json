@@ -23,5 +23,16 @@
     "stickers_btn_share_on_nostr": "PARTILHAR NO NOSTR",
     "stickers_btn_what_is_nostr": "O QUE É O NOSTR?",
 	"stickers_country_global_print": "Global - Imprimir os meus próprios autocolantes",
-	"stickers_country_global_order": "Global - Encomendar em massa"
+	"stickers_country_global_order": "Global - Encomendar em massa",
+	"placeholder_name_optional": "Nome (opcional)",
+	"placeholder_address_line_1": "Linha de endereço 1",
+	"placeholder_address_line_2": "Linha de endereço 2 (opcional)",
+	"placeholder_city": "Cidade",
+	"placeholder_state": "Estado",
+	"placeholder_province": "Província",
+	"placeholder_zip_code": "Código postal",
+	"placeholder_postal_code": "Código postal",
+	"placeholder_language": "Idioma",
+	"placeholder_which_stickers": "Que autocolantes?",
+	"placeholder_email_optional": "Introduza o seu email para notificações (opcional)"
 }
