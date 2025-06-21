@@ -2393,14 +2393,18 @@ p.choose{
     }
     
     .payment-method-button {
-        font-size: 24px;
+        font-size: 14px;
         height: 55px;
         line-height: 53px;
     }
     
     .buy-cta-button {
-        font-size: 24px;
+        font-size: 14px;
         height: 70px;
         line-height: 68px;
+    }
+
+    .alert p{
+        font-size: 14px;
     }
 }
