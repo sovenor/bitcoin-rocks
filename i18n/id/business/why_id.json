@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Pelajari mengapa Bitcoin baik untuk bisnis",
+	"why_header": "BITCOIN BAIK UNTUK BISNIS",
+	"why_good_for_you": "BITCOIN JUGA BAIK UNTUK ANDA!",
+	"why_learn_more_lowercase": "Pelajari lebih lanjut.",
+	"why_s1": "Bitcoin tidak mengalami inflasi",
+	"why_s1_c1": "Inflasi terjadi ketika lebih banyak uang dicetak atau diciptakan begitu saja. Ini membuat nilai uang Anda berkurang seiring waktu.",
+	"why_s1_c2": "Bitcoin memiliki pasokan tetap, yang berarti tidak ada yang bisa mencetak lebih banyak Bitcoin.",
+	"why_s2": "Bitcoin tidak mengalami bank run",
+	"why_s2_c1": "Beberapa bank di AS telah runtuh dalam beberapa tahun terakhir akibat bank run.",
+	"why_s2_c2": "Alih-alih hanya menyimpan uang Anda, bank menginvestasikan dan meminjamkannya. Jika investasi tersebut gagal, mereka tidak memiliki cukup dana untuk membayar Anda kembali.",
+	"why_s2_c3": "Dan dana asuransi FDIC hanya memiliki $1 untuk setiap $100 yang mereka asuransikan.",
+	"why_s3": "Bitcoin tidak memerlukan izin",
+	"why_s3_c1": "Tidak seperti jaringan keuangan tradisional, Bitcoin tidak memerlukan izin untuk digunakan.",
+	"why_s3_c2": "Itu berarti tidak ada yang bisa menghentikan Anda menggunakan Bitcoin dengan alasan apa pun. Ini adalah jaringan keuangan pertama yang dapat Anda gunakan tanpa takut disensor atau disita.",
+	"why_s4": "Bitcoin sedang membangun dunia yang lebih baik",
+	"why_s4_c1": "Bitcoin adalah teknologi yang sering disalahpahami, tetapi sedang membangun dunia yang lebih baik.",
+	"why_s4_c2": "Bitcoin telah memungkinkan para aktivis hak asasi manusia untuk memperjuangkan kebebasan, mengurangi emisi metana global, menyelamatkan taman nasional, dan masih banyak lagi."
+}

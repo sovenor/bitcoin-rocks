@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin baik untuk bisnis",
+	"biz_header": "BITCOIN BAIK UNTUK BISNIS",
+	"biz_s1": "Biaya rendah tanpa minimum",
+	"biz_s1_c1": "Bitcoin memungkinkan Anda menerima pembayaran langsung dari pelanggan, seperti uang tunai. Jaringan Bitcoin beroperasi tanpa perantara seperti bank dan perusahaan kartu kredit yang mengenakan biaya tinggi.",
+	"biz_s2": "Penyelesaian instan",
+	"biz_s2_c1": "Seperti uang tunai, pembayaran Bitcoin diselesaikan secara instan. Anda tidak perlu menunggu perusahaan kartu kredit atau bank untuk membayar Anda. Sebaliknya, Anda langsung mendapatkan akses ke uang Anda.",
+	"biz_s3": "Tanpa chargeback atau penipuan",
+	"biz_s3_c1": "Karena pembayaran Bitcoin terjadi langsung antara Anda dan pelanggan, tidak ada cara bagi siapa pun untuk menarik kembali uang dengan chargeback.",
+	"biz_s3_c2": "Bitcoin palsu tidak dapat dikirim melalui Jaringan Bitcoin, yang berarti Anda tidak perlu khawatir tentang transaksi penipuan yang dapat merugikan bisnis Anda.",
+	"biz_s4": "Dapatkan lebih banyak pelanggan",
+	"biz_s4_c1": "Jutaan orang memiliki Bitcoin dan ingin membelanjakannya di tempat yang menerimanya.",
+	"biz_s4_c2": "Dengan hanya menerima Bitcoin, bisnis Anda dapat terdaftar di peta pedagang Bitcoin dan mendapatkan eksposur gratis ke pelanggan Bitcoin baru.",
+	"biz_s4_c3": "Menerima Bitcoin 100% gratis. Tidak ada kontrak atau biaya tersembunyi."
+}

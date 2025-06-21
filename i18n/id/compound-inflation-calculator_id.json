@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abeng"
+        ],
+        "last-updated": "2025-03-05",
+        "locale": "id"
+    },
+    "cic_header": "KALKULATOR INFLASI MAJEMUK",
+    "cic_description": "Gunakan Kalkulator Inflasi Majemuk ini untuk mengetahui seberapa banyak gaji Anda perlu meningkat agar sesuai dengan inflasi.",
+    "what_can_i_do_about": "Apa yang bisa saya lakukan tentang",
+    "what_can_i_do_about_2": "inflasi?",
+    "cic_inflation_cta": "Keluar dari Inflasi dengan Bitcoin"
+}

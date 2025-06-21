@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"how_to_accept_bitcoin_payments": "Cara Menerima Pembayaran Bitcoin",
+	"wallets_header": "DAPATKAN DOMPET BITCOIN GRATIS UNTUK MENERIMA PEMBAYARAN BITCOIN",
+	"wallets_intro_1": "Semua dompet Bitcoin dapat digunakan secara interoperabilitas, sehingga pelanggan Anda dapat membayar dengan Bitcoin tanpa memandang dompet yang mereka gunakan.",
+	"wallets_intro_2": "Dompet khusus Bitcoin:",
+	"wallets_intro_3": "Dompet ini hanya untuk Bitcoin dan memberikan manfaat penuh Bitcoin: tanpa perantara, biaya rendah, serta tanpa chargeback atau penipuan.",
+	"wallets_intro_4": "Dompet hibrida:",
+	"wallets_intro_5": "Dompet ini memungkinkan Anda menukar sebagian atau seluruh pembayaran Bitcoin menjadi dolar segera setelah pelanggan membayar. Biayanya tetap lebih rendah dibanding pembayaran kartu kredit, tetapi lebih tinggi dibanding pembayaran Bitcoin murni.",
+	"wallets_intro_6": "Keduanya adalah cara yang baik untuk menerima Bitcoin. Dompet yang Anda pilih akan bergantung pada ukuran dan jenis bisnis Anda.",
+	"wallets_choice_sole": "dompet untuk bisnis perseorangan",
+	"wallets_choice_multiple": "dompet untuk bisnis dengan banyak karyawan",
+	"wallets_choice_online": "dompet untuk bisnis online",
+	"wallets_choice_invoice": "dompet untuk bisnis berbasis faktur",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Dompet khusus Bitcoin",
+	"wallets_feature_no_info": "Tidak memerlukan informasi",
+	"wallets_feature_in_person": "Hanya untuk pembayaran langsung",
+	"wallets_feature_settles_bitcoin": "100% diselesaikan dalam Bitcoin",
+	"wallets_feature_hybrid": "Dompet hibrida",
+	"wallets_feature_info": "Memerlukan informasi bisnis",
+	"wallets_feature_in_person_online": "Mendukung pembayaran langsung & online",
+	"wallets_feature_settles_both": "Dapat diselesaikan dalam Bitcoin & dolar",
+	"wallets_feature_multiple_employees": "Dukungan untuk banyak karyawan (BPTs)",
+	"wallets_feature_self_hosted": "Self-hosted = 0% biaya",
+	"wallets_feature_online_store": "Integrasi dengan toko online",
+	"wallets_feature_invoicing": "Perangkat lunak faktur gratis",
+	"wallets_get_wallet": "DAPATKAN DOMPET"
+}

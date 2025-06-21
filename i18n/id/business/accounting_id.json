@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"bitcoin_business_accounting_guide": "Panduan Akuntansi Bisnis Bitcoin",
+	"accounting_description": "Pelajari cara mencatat pembayaran Bitcoin dengan benar dalam akuntansi bisnis Anda.",
+	"accounting_header": "PANDUAN AKUNTANSI BITCOIN",
+	"accounting_s1_c1": "Menerima Bitcoin memiliki banyak manfaat, seperti biaya transaksi yang lebih rendah dan menjangkau lebih banyak pelanggan.",
+	"accounting_s1_c2": "Jika Anda menggunakan Dompet Hibrida dari Panduan Dompet kami dan secara otomatis menjual 100% Bitcoin yang Anda terima ke dolar, Anda tidak perlu mengubah sistem akuntansi Anda saat ini.",
+	"accounting_s1_c3": "Lihat Panduan Dompet.",
+	"accounting_s1_c4": "Namun, jika Anda menyimpan sebagian pembayaran Bitcoin dalam bentuk Bitcoin, Anda perlu mencatat beberapa detail untuk keperluan akuntansi. Ini mungkin terlihat rumit pada awalnya, tetapi sebenarnya cukup sederhana.",
+	"accounting_s1_c5": "Catatan: Panduan ini hanya untuk tujuan informasi dan tidak boleh dianggap sebagai nasihat pajak.",
+	"accounting_s1_c6": "Jika Anda memerlukan nasihat pajak, kami sangat merekomendasikan Satoshi Pacioli Accounting Services, firma akuntansi yang berspesialisasi dalam akuntansi Bitcoin.",
+	"accounting_s2": "MENCATAT HARGA PEROLEHAN",
+	"accounting_s2_c1": "Mencatat harga perolehan adalah perbedaan utama antara akuntansi untuk dolar dan Bitcoin. Meskipun bisnis Anda beroperasi sepenuhnya dalam Bitcoin, Anda tetap harus melaporkan nilai transaksi dalam dolar untuk pajak.",
+	"accounting_s2_c2": "Jika Anda menggunakan QuickBooks, Anda dapat melakukan ini secara otomatis dengan plugin Bitcoin Sync.",
+	"accounting_s2_c3": "Jika Anda tidak menggunakan QuickBooks, kami merekomendasikan Satoshi Pacioli Accounting Services, firma akuntansi yang berspesialisasi dalam Bitcoin.",
+	"accounting_s2_c4": "Untuk mencatatnya secara manual, Anda hanya perlu menyimpan catatan jumlah Bitcoin yang diterima dan nilai dolar dari transaksi Bitcoin pada hari itu.",
+	"accounting_s2_c5": "Anda dapat melihat harga Bitcoin dalam dolar saat ini di sini.",
+	"accounting_s2_c6": "Catat informasi ini dalam spreadsheet Excel dan berikan kepada akuntan Anda.",
+	"accounting_s2_c7": "Anda juga dapat mengimpor data ini ke Excel secara otomatis.",
+	"accounting_s2_c8": "Anda dapat melihat harga historis Bitcoin dalam dolar pada tanggal tertentu, sehingga tidak perlu mencatatnya setiap hari.",
+	"accounting_s3": "MENGGUNAKAN ATAU MENJUAL BITCOIN ANDA",
+	"accounting_s3_c1": "Jika Anda menggunakan Dompet Hibrida dari Panduan Dompet kami dan secara otomatis menjual 100% Bitcoin yang Anda terima ke dolar, Anda tidak perlu mengubah sistem akuntansi Anda saat ini.",
+	"accounting_s3_c2": "Lihat Panduan Dompet.",
+	"accounting_s3_c3": "Jika Anda memutuskan untuk membelanjakan atau menjual sebagian Bitcoin yang diterima setelah beberapa waktu, Anda hanya perlu mencatat harga jualnya dalam spreadsheet Excel yang melacak harga perolehan Anda.",
+	"accounting_s3_c4": "Sebagai contoh, jika Anda menerima Bitcoin senilai $100 pada 1 Januari dan memutuskan untuk menjual atau membelanjakannya pada 1 Februari dengan nilai baru $110, Anda harus mencatat keuntungan modal sebesar $10 dalam akuntansi Anda.",
+	"accounting_s3_c5": "Hal yang sama berlaku jika terjadi sebaliknya. Misalnya, jika Anda menerima Bitcoin senilai $100 pada 1 Januari dan menjual atau membelanjakannya pada 1 Februari dengan nilai baru $90, Anda harus mencatat kerugian modal sebesar $10 dalam akuntansi Anda.",
+	"accounting_s4": "SAYA MEMBUTUHKAN BANTUAN LEBIH LANJUT",
+	"accounting_s4_c1": "Jika Anda memerlukan bantuan lebih lanjut dalam mengintegrasikan Bitcoin ke dalam akuntansi bisnis Anda, kami sangat merekomendasikan Satoshi Pacioli Accounting Services, firma akuntansi yang berspesialisasi dalam Bitcoin.",
+	"accounting_s4_c2": "Pelajari lebih lanjut tentang Satoshi Pacioli Accounting Services."
+}

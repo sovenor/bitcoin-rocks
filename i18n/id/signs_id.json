@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abeng"
+        ],
+        "last-updated": "2025-03-05",
+        "locale": "id"
+    },
+    "signs_description": "Bantu kami memasang Tanda Bitcoin ini di seluruh Amerika!",
+    "signs_title": "Tanda Bitcoin Gratis dari bitcoin.rocks",
+    "signs_choose_header": "TERIMA KASIH TELAH MEMBANTU KAMI MEMASANG TANDA BITCOIN INI DI SELURUH AMERIKA!",
+    "signs_choose_c1": "Kami sekarang benar-benar kehabisan tanda! Misi kami adalah mempercepat adopsi Bitcoin melalui pendidikan.",
+    "signs_choose_c2": "Banyak dari Anda yang telah membantu dengan memasang tanda Bitcoin gratis ini di tempat umum. Semua tanda kami memiliki kode QR yang mengarah ke halaman pendidikan tentang",
+    "signs_choose_c3": "inflasi",
+    "signs_choose_c4": "Berkat komunitas kami yang luar biasa, kami telah menjangkau ribuan orang dan membantu mereka mengambil langkah pertama mereka ke dalam lubang kelinci Bitcoin.",
+    "signs_share_header": "BAGIKAN TEMPAT TANDA ANDA",
+    "signs_share_c1": "Bagikan foto tempat tanda Anda dengan kami di Nostr dan lihat di mana orang lain memasang tanda mereka.",
+    "signs_btn_share_on_nostr": "BAGIKAN DI NOSTR",
+    "signs_btn_what_is_nostr": "APA ITU NOSTR?",
+    "signs_instructions_1": "Masukkan alamat pengiriman Anda dan kami akan mengirimkan kotak berisi 10 tanda Bitcoin melalui pos!",
+    "signs_instructions_2": "Data alamat akan dihapus setelah tanda gratis Anda dikirim."
+}
