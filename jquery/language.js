@@ -14,6 +14,7 @@ $(function() {
     { code: 'es', name: 'Español' },
     { code: 'de', name: 'Deutsch' },
     { code: 'fr', name: 'Français' },
+    { code: 'id', name: 'Indonesia' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'pt', name: 'Português' },
     { code: 'th', name: 'ภาษาไทย' },
