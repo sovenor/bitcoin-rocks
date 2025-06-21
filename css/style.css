@@ -2110,3 +2110,297 @@ p.choose{
 
     flex-basis: 100%;
 }
+
+/** BUY PAGE STYLES **/
+
+.country-search-input {
+    width: 98%;
+    max-width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #3f3f3f !important;
+    padding: 0px 0px 0px 7px;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 400;
+}
+
+.country-search-input::placeholder {
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #666666;
+}
+
+.container-buy-button {
+    margin-top: 0px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buy-country-button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 0px;
+
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-right: 3px;
+
+    border-top: 1px solid #3f3f3f;
+    border-right: 1px solid #3f3f3f;
+    border-left: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+    background-color: #090814;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    text-transform: none;
+
+    flex-basis: calc(50% - 10px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.buy-country-button:hover {
+    background-color: #ff9500;
+    color: #ffffff !important;
+    transform: scale(1.02);
+}
+
+.buy-country-button.selected {
+    background-color: #ff9500;
+    color: #ffffff !important;
+}
+
+.flag-icon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.step-container {
+    margin-bottom: 20px;
+}
+
+/* Payment Method Options */
+.payment-method-option {
+    padding: 20px 0;
+    border: 1px solid #3f3f3f;
+    background-color: #090814;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.payment-method-option h6 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-method-alerts {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.payment-method-button {
+    width: 100%;
+    background-color: #ff9500;
+    height: 60px;
+    border-radius: 10px;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 58px;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.payment-method-button:hover {
+    transform: scale(1.05);
+}
+
+.payment-method-button.selected {
+    background-color: #19BC38 !important;
+    transform: scale(1.02);
+}
+
+/* Buy Platform Boxes */
+.buy-platform-box {
+    margin: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 20px;
+    width: 95%;
+    height: auto;
+    border-top: 1px solid #3f3f3f;
+    border-right: 1px solid #3f3f3f;
+    border-left: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+    background-color: #090814;
+    border-radius: 20px;
+    transition-property: border-bottom, transform;
+    transition-duration: 0s, 0.2s;
+    position: relative;
+}
+
+.buy-platform-box h6{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.buy-platform-box:hover {
+    transform: scale(1.02);
+}
+
+.buy-platform-box.platform-recommended {
+    border-color: #ff9500 !important;
+    border-width: 2px !important;
+}
+
+.buy-platform-box .recommended-badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff9500;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.platform-features {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.platform-features div {
+    margin-bottom: 5px;
+}
+
+.platform-learn-button {
+    width: 100%;
+    background-color: #ff9500;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 48px;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer !important;
+}
+
+.platform-learn-button:hover {
+    transform: scale(1.05);
+}
+
+/* Buy CTA Button */
+.buy-cta-button {
+    width: 100%;
+    background-color: #ff9500;
+    height: 80px;
+    border-radius: 10px;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 78px;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buy-cta-button:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 700px) {
+    .buy-country-button {
+        flex-basis: 100%;
+        font-size: 16px;
+        height: 55px;
+    }
+    
+    .buy-platform-box {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .buy-platform-box .recommended-badge {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+    
+    .payment-method-alerts {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .payment-method-button {
+        font-size: 24px;
+        height: 55px;
+        line-height: 53px;
+    }
+    
+    .buy-cta-button {
+        font-size: 24px;
+        height: 70px;
+        line-height: 68px;
+    }
+}

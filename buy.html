@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title data-i18n="buy_bitcoin_guide"></title>
+
+        <!-- When a new language is merged, DO NOT add new meta info here. If you do, English will never display properly and English users will see the lowest meta content in the file. -->
+
+        <!-- English -->
+        <meta name="description" lang="en" content="Learn how to buy Bitcoin safely with our step-by-step guide. Choose your country and payment method to find the best Bitcoin buying options for you." />
+        <meta property="og:title" lang="en" content="How to Buy Bitcoin - Step by Step Guide" />
+
+        <!-- Hreflang tags -->
+        <link rel="canonical" hreflang="en" href="https://bitcoin.rocks/buy" />
+
+        <!-- Meta image for sharing -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://bitcoin.rocks/buy" />
+        <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-buy-v1.png" />
+
+        <!-- Privacy focused analytics, does not track IP addresses -->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
+        <!-- Source code for i18n translations -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.messagestore.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.fallbacks.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
+        <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
+        <script src="jquery/language.js?v=1"></script>
+
+        <!-- Favicons for all devices -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="img/favicons/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="img/favicons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="img/favicons/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="img/favicons/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
+
+        <!-- Main stylesheet + typekit for fonts -->
+        <link id="style-link" rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
+
+        <!-- Prevent caching of style.css so updates are seen by all users -->
+        <script src="jquery/refresh-css.js"></script>
+
+        <!-- Buy flow JavaScript -->
+        <script src="jquery/buy-flow.js"></script>
+
+    </head>
+    <body>
+
+        <div class="container-main">
+            <div class="container-inner">
+                <!--BACK TO HOME-->
+                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-color.png" class="back-to-home"/></a></center>
+            </div><!--/container-inner-->
+
+            <div class="break-micro"></div>
+
+            <div class="text-box intro">
+                <div class="container-inner">
+                    <h3 class="wallet-h3" data-i18n="buy_header"></h3>
+                    <p>
+                        <span data-i18n="buy_intro_c1"></span>
+                        <br /><br />
+                        <span data-i18n="buy_intro_c2"></span>
+                    </p>
+                </div><!--/container-inner-->
+            </div><!--text-box-->
+
+            <div class="break-micro"></div>
+
+            <!-- STEP 1: COUNTRY SELECTION -->
+            <div id="country-selection" class="step-container">
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        <h3 data-i18n="buy_step_1_header"></h3>
+                        <p data-i18n="buy_step_1_description"></p>
+                        
+                        <!-- Search input -->
+                        <div class="break-micro"></div>
+                        <input type="text" id="country-search" placeholder="" data-i18n="[placeholder]buy_search_countries" class="country-search-input" />
+                        
+                        <div class="break-nano"></div>
+                        <div class="container-buy-button">
+                            <!-- US first -->
+                            <button class="buy-country-button" data-country="US">
+                                <span class="flag-icon">&#x1F1FA;&#x1F1F8;</span>&nbsp;<span data-i18n="buy_country_united_states"></span>
+                            </button>
+                            
+                            <!-- Then alphabetical -->
+                            <button class="buy-country-button" data-country="AR">
+                                <span class="flag-icon">&#x1F1E6;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_argentina"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="AU">
+                                <span class="flag-icon">&#x1F1E6;&#x1F1FA;</span>&nbsp;<span data-i18n="buy_country_australia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="AT">
+                                <span class="flag-icon">&#x1F1E6;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_austria"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="BE">
+                                <span class="flag-icon">&#x1F1E7;&#x1F1EA;</span>&nbsp;<span data-i18n="buy_country_belgium"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="BR">
+                                <span class="flag-icon">&#x1F1E7;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_brazil"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CA">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1E6;</span>&nbsp;<span data-i18n="buy_country_canada"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CL">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1F1;</span>&nbsp;<span data-i18n="buy_country_chile"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CO">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1F4;</span>&nbsp;<span data-i18n="buy_country_colombia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CR">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_costa_rica"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CZ">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1FF;</span>&nbsp;<span data-i18n="buy_country_czech_republic"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="DK">
+                                <span class="flag-icon">&#x1F1E9;&#x1F1F0;</span>&nbsp;<span data-i18n="buy_country_denmark"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="SV">
+                                <span class="flag-icon">&#x1F1F8;&#x1F1FB;</span>&nbsp;<span data-i18n="buy_country_el_salvador"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="EE">
+                                <span class="flag-icon">&#x1F1EA;&#x1F1EA;</span>&nbsp;<span data-i18n="buy_country_estonia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="FI">
+                                <span class="flag-icon">&#x1F1EB;&#x1F1EE;</span>&nbsp;<span data-i18n="buy_country_finland"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="FR">
+                                <span class="flag-icon">&#x1F1EB;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_france"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="DE">
+                                <span class="flag-icon">&#x1F1E9;&#x1F1EA;</span>&nbsp;<span data-i18n="buy_country_germany"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="GR">
+                                <span class="flag-icon">&#x1F1EC;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_greece"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="GT">
+                                <span class="flag-icon">&#x1F1EC;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_guatemala"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="HK">
+                                <span class="flag-icon">&#x1F1ED;&#x1F1F0;</span>&nbsp;<span data-i18n="buy_country_hong_kong"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="HU">
+                                <span class="flag-icon">&#x1F1ED;&#x1F1FA;</span>&nbsp;<span data-i18n="buy_country_hungary"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="IS">
+                                <span class="flag-icon">&#x1F1EE;&#x1F1F8;</span>&nbsp;<span data-i18n="buy_country_iceland"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="IN">
+                                <span class="flag-icon">&#x1F1EE;&#x1F1F3;</span>&nbsp;<span data-i18n="buy_country_india"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="IE">
+                                <span class="flag-icon">&#x1F1EE;&#x1F1EA;</span>&nbsp;<span data-i18n="buy_country_ireland"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="IL">
+                                <span class="flag-icon">&#x1F1EE;&#x1F1F1;</span>&nbsp;<span data-i18n="buy_country_israel"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="IT">
+                                <span class="flag-icon">&#x1F1EE;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_italy"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="JP">
+                                <span class="flag-icon">&#x1F1EF;&#x1F1F5;</span>&nbsp;<span data-i18n="buy_country_japan"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="LV">
+                                <span class="flag-icon">&#x1F1F1;&#x1F1FB;</span>&nbsp;<span data-i18n="buy_country_latvia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="LT">
+                                <span class="flag-icon">&#x1F1F1;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_lithuania"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="LU">
+                                <span class="flag-icon">&#x1F1F1;&#x1F1FA;</span>&nbsp;<span data-i18n="buy_country_luxembourg"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="MT">
+                                <span class="flag-icon">&#x1F1F2;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_malta"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="MX">
+                                <span class="flag-icon">&#x1F1F2;&#x1F1FD;</span>&nbsp;<span data-i18n="buy_country_mexico"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="NL">
+                                <span class="flag-icon">&#x1F1F3;&#x1F1F1;</span>&nbsp;<span data-i18n="buy_country_netherlands"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="NZ">
+                                <span class="flag-icon">&#x1F1F3;&#x1F1FF;</span>&nbsp;<span data-i18n="buy_country_new_zealand"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="NO">
+                                <span class="flag-icon">&#x1F1F3;&#x1F1F4;</span>&nbsp;<span data-i18n="buy_country_norway"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="PA">
+                                <span class="flag-icon">&#x1F1F5;&#x1F1E6;</span>&nbsp;<span data-i18n="buy_country_panama"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="PL">
+                                <span class="flag-icon">&#x1F1F5;&#x1F1F1;</span>&nbsp;<span data-i18n="buy_country_poland"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="PT">
+                                <span class="flag-icon">&#x1F1F5;&#x1F1F9;</span>&nbsp;<span data-i18n="buy_country_portugal"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="RO">
+                                <span class="flag-icon">&#x1F1F7;&#x1F1F4;</span>&nbsp;<span data-i18n="buy_country_romania"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="SG">
+                                <span class="flag-icon">&#x1F1F8;&#x1F1EC;</span>&nbsp;<span data-i18n="buy_country_singapore"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="SK">
+                                <span class="flag-icon">&#x1F1F8;&#x1F1F0;</span>&nbsp;<span data-i18n="buy_country_slovakia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="SI">
+                                <span class="flag-icon">&#x1F1F8;&#x1F1EE;</span>&nbsp;<span data-i18n="buy_country_slovenia"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="ZA">
+                                <span class="flag-icon">&#x1F1FF;&#x1F1E6;</span>&nbsp;<span data-i18n="buy_country_south_africa"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="KR">
+                                <span class="flag-icon">&#x1F1F0;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_south_korea"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="ES">
+                                <span class="flag-icon">&#x1F1EA;&#x1F1F8;</span>&nbsp;<span data-i18n="buy_country_spain"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="SE">
+                                <span class="flag-icon">&#x1F1F8;&#x1F1EA;</span>&nbsp;<span data-i18n="buy_country_sweden"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="CH">
+                                <span class="flag-icon">&#x1F1E8;&#x1F1ED;</span>&nbsp;<span data-i18n="buy_country_switzerland"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="TH">
+                                <span class="flag-icon">&#x1F1F9;&#x1F1ED;</span>&nbsp;<span data-i18n="buy_country_thailand"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="TR">
+                                <span class="flag-icon">&#x1F1F9;&#x1F1F7;</span>&nbsp;<span data-i18n="buy_country_turkey"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="UA">
+                                <span class="flag-icon">&#x1F1FA;&#x1F1E6;</span>&nbsp;<span data-i18n="buy_country_ukraine"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="GB">
+                                <span class="flag-icon">&#x1F1EC;&#x1F1E7;</span>&nbsp;<span data-i18n="buy_country_united_kingdom"></span>
+                            </button>
+                            
+                            <button class="buy-country-button" data-country="UY">
+                                <span class="flag-icon">&#x1F1FA;&#x1F1FE;</span>&nbsp;<span data-i18n="buy_country_uruguay"></span>
+                            </button>
+                        </div><!--/container-buy-button-->
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            </div><!--/country-selection-->
+
+            <!-- STEP 2: PAYMENT METHOD SELECTION -->
+            <div id="payment-method-selection" class="step-container" style="display:none">
+                <div class="break-micro"></div>
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        <h3 data-i18n="buy_step_2_header"></h3>
+                        <p data-i18n="buy_step_2_description"></p>
+                        
+                        <div class="break-micro"></div>
+                        
+                        <!-- Bank Transfer Option -->
+                        <div class="payment-method-option">
+                            <h6 data-i18n="buy_method_bank_transfer"></h6>
+                            
+                            <div class="payment-method-alerts">
+                                <div class="alert green">
+                                    <img src="img/wallets/alert-check-icon.png"/>
+                                    <p data-i18n="buy_method_bank_fast"></p>
+                                </div><!--/alert-->
+                                <div class="alert red">
+                                    <img src="img/wallets/alert-x-icon.png"/>
+                                    <p data-i18n="buy_method_bank_less_private"></p>
+                                </div><!--/alert-->
+                            </div>
+
+                            <p data-i18n="buy_method_bank_description"></p>
+                            
+                            <div class="payment-method-button" data-method="bank" data-i18n="buy_method_choose_bank"></div>
+                        </div><!--/payment-method-option-->
+
+                        <div class="break-micro"></div>
+
+                        <!-- Cash Option -->
+                        <div class="payment-method-option">
+                            <h6 data-i18n="buy_method_cash"></h6>
+                            
+                            <div class="payment-method-alerts">
+                                <div class="alert green">
+                                    <img src="img/wallets/alert-check-icon.png"/>
+                                    <p data-i18n="buy_method_cash_private"></p>
+                                </div><!--/alert-->
+                                <div class="alert red">
+                                    <img src="img/wallets/alert-x-icon.png"/>
+                                    <p data-i18n="buy_method_cash_limited"></p>
+                                </div><!--/alert-->
+                            </div>
+
+                            <p data-i18n="buy_method_cash_description"></p>
+                            
+                            <div class="payment-method-button" data-method="cash" data-i18n="buy_method_choose_cash"></div>
+                        </div><!--/payment-method-option-->
+                        
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            </div><!--/payment-method-selection-->
+
+            <!-- STEP 3: BUYING OPTIONS -->
+            <div id="buying-options" class="step-container" style="display:none">
+                <div class="break-micro"></div>
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        <h3 id="buying-options-header" data-i18n="buy_step_3_header"></h3>
+                        <p id="buying-options-description" data-i18n="buy_step_3_description"></p>
+                        
+                        <div class="break-micro"></div>
+                        <div id="buying-platforms-container">
+                            <!-- Platforms will be dynamically inserted here -->
+                        </div>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            </div><!--/buying-options-->
+
+            <!-- STEP 4: STORAGE GUIDANCE -->
+            <div id="storage-guidance" class="step-container" style="display:none">
+                <div class="break-micro"></div>
+                <div class="text-box intro">
+                    <div class="container-inner">
+                        <h3 data-i18n="buy_step_4_header"></h3>
+                        <p>
+                            <span data-i18n="buy_step_4_c1"></span>
+                            <br /><br />
+                            <span data-i18n="buy_step_4_c2"></span>
+                            <br /><br />
+                            <span data-i18n="buy_step_4_c3"></span>
+                        </p>
+                        
+                        <div class="break-micro"></div>
+                        <p data-i18n="buy_step_4_c4"></p>
+                        
+                        <div class="break-micro"></div>
+                        <a href="https://bitcoin.rocks/wallets">
+                            <div class="buy-cta-button" data-i18n="buy_cta_wallets"></div>
+                        </a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+            </div><!--/storage-guidance-->
+
+            <div class="break-micro"></div>
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <p>
+                    <span data-i18n="common_footer_mission_1"></span>
+                    <a href="https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md" class="footer-link" target="_blank"><span data-i18n="common_footer_mission_2"></span></a>
+                    <br /><br />
+                    <span data-i18n="common_footer_follow_first_half"></span>
+                    <br /><a href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4" class="footer-link" target="_blank">hi@bitcoin.rocks</a>&nbsp;<span data-i18n="common_footer_follow_second_half"></span>
+                    <br /><a href="https://bitcoin.rocks/nostr/what-is-nostr" class="footer-link"><span data-i18n="common_footer_what_is_nostr"></span></a>
+                    <br /><br />
+                    <span data-i18n="common_footer_email_us"></span>
+                    <a href="mailto:hi@bitcoin.rocks" class="footer-link">hi@bitcoin.rocks</a>
+                    <br /><br /><br />
+                </p>
+            </div><!--/footer-->
+
+        </div><!--/container-main-->
+
+    </body>
+</html>
