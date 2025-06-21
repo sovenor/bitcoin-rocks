@@ -49,7 +49,15 @@ $(function() {
         $('[data-i18n]').each(function() {
           var $this = $(this);
           var key = $this.data('i18n');
-          $this.text($.i18n(key));
+          
+          // Handle dynamic content for specific keys
+          if (key === 'inflation_usd_s1_c3') {
+            var currentYear = new Date().getFullYear();
+            var yearsSince2020 = currentYear - 2020;
+            $this.text($.i18n(key, yearsSince2020));
+          } else {
+            $this.text($.i18n(key));
+          }
         });
         //This is necessary for button text to load from translation strings.
         callback1();
