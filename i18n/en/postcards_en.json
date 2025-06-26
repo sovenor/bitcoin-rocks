@@ -8,13 +8,13 @@
 	},
 	"free_bitcoin_postcards": "Free Bitcoin Postcards from bitcoin.rocks",
 	"postcards_description": "Get a free Bitcoin Postcard Pack and share Bitcoin with someone you know.",
-	"postcards_header": "FREE BITCOIN POSTCARDS",
-	"postcards_step_1": "1. REQUEST A POSTCARD PACK",
-	"postcards_instructions_1": "Enter your mailing address and we'll send you a free Bitcoin Postcard Pack in the mail! Your postcards are shipped in a plain white envelope.",
-	"postcards_instructions_2": "Address data is deleted after your free postcards are shipped.",
-	"postcards_instructions_3": "Canadians will receive a CAD$5 bill postcard instead of the US$1 bill postcard.",
-	"postcards_step_2": "2. MAIL POSTCARDS",
+	"postcards_header": "POSTCARD PROGRAM CLOSED",
+	"postcards_program_closed_message": "Our free Bitcoin postcard program has ended. Thank you to everyone who participated in spreading Bitcoin education through the mail!",
+	"postcards_sticker_alternative_header": "GET FREE BITCOIN STICKERS INSTEAD",
+	"postcards_sticker_alternative_message": "Continue spreading Bitcoin awareness with our free sticker program! Our Bitcoin stickers are perfect for sharing in public spaces and come with QR codes linking to educational content.",
+	"postcards_sticker_cta": "GET FREE STICKERS",
+	"postcards_step_2": "WHAT POSTCARDS LOOKED LIKE",
 	"postcards_instructions_4": "We made these postcards to make it easier for you to introduce someone you know to Bitcoin! Just add an address and a stamp and drop your postcard in the mail.",
-	"postcards_instructions_5": "Our mission is to accelerate Bitcoin adoption. You can help by sending these postcards to someone you know today!",
-	"postcards_instructions_6": "We all know a few people who could benefit from learning more about Bitcoin. Send them a postcard today!"
+	"postcards_instructions_5": "Our mission is to accelerate Bitcoin adoption. You can help by getting free stickers and placing them in public spaces!",
+	"postcards_instructions_6": "We all know a few people who could benefit from learning more about Bitcoin. Share Bitcoin stickers with them today!"
 }

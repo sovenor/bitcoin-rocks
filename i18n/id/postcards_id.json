@@ -6,13 +6,13 @@
     },
     "free_bitcoin_postcards": "Kartu Pos Bitcoin Gratis dari bitcoin.rocks",
     "postcards_description": "Dapatkan Paket Kartu Pos Bitcoin gratis dan bagikan Bitcoin dengan seseorang yang Anda kenal.",
-    "postcards_header": "KARTU POS BITCOIN GRATIS",
-    "postcards_step_1": "1. MINTA PAKET KARTU POS",
-    "postcards_instructions_1": "Masukkan alamat pengiriman Anda dan kami akan mengirimkan Paket Kartu Pos Bitcoin gratis melalui pos! Kartu pos Anda dikirim dalam amplop putih polos.",
-    "postcards_instructions_2": "Data alamat akan dihapus setelah kartu pos gratis Anda dikirim.",
-    "postcards_instructions_3": "Warga Kanada akan menerima kartu pos dengan uang kertas CAD$5 instead of kartu pos dengan uang kertas US$1.",
-    "postcards_step_2": "2. KIRIM KARTU POS",
+    "postcards_header": "PROGRAM KARTU POS DITUTUP",
+    "postcards_program_closed_message": "Program kartu pos Bitcoin gratis kami telah berakhir. Terima kasih kepada semua yang berpartisipasi dalam menyebarkan edukasi Bitcoin melalui pos!",
+    "postcards_sticker_alternative_header": "DAPATKAN STIKER BITCOIN GRATIS SEBAGAI GANTINYA",
+    "postcards_sticker_alternative_message": "Lanjutkan menyebarkan kesadaran Bitcoin dengan program stiker gratis kami! Stiker Bitcoin kami sempurna untuk dibagikan di ruang publik dan memiliki kode QR yang mengarah ke konten edukatif.",
+    "postcards_sticker_cta": "DAPATKAN STIKER GRATIS",
+    "postcards_step_2": "SEPERTI APA KARTU POS ITU",
     "postcards_instructions_4": "Kami membuat kartu pos ini untuk memudahkan Anda memperkenalkan seseorang yang Anda kenal dengan Bitcoin! Cukup tambahkan alamat dan perangko, lalu masukkan kartu pos Anda ke dalam kotak pos.",
-    "postcards_instructions_5": "Misi kami adalah mempercepat adopsi Bitcoin. Anda bisa membantu dengan mengirimkan kartu pos ini kepada seseorang yang Anda kenal hari ini!",
-    "postcards_instructions_6": "Kita semua mengenal beberapa orang yang bisa mendapatkan manfaat dari mempelajari lebih lanjut tentang Bitcoin. Kirimkan mereka kartu pos hari ini!"
+    "postcards_instructions_5": "Misi kami adalah mempercepat adopsi Bitcoin. Anda bisa membantu dengan mendapatkan stiker gratis dan menempatkannya di ruang publik!",
+    "postcards_instructions_6": "Kita semua mengenal beberapa orang yang bisa mendapatkan manfaat dari mempelajari lebih lanjut tentang Bitcoin. Bagikan stiker Bitcoin dengan mereka hari ini!"
 }

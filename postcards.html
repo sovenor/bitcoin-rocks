@@ -29,16 +29,6 @@
         <!-- Privacy focused analytics, does not track IP addresses -->
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
-        <!-- Recaptcha to prevent bot spam on form -->
-        <script src="https://www.google.com/recaptcha/api.js?render=6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE"></script>
-        <script>
-           grecaptcha.ready(function() {
-               grecaptcha.execute('6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE', {action: 'homepage'})
-               .then(function(token) {
-                 document.getElementById('captchaResponse').value = token;
-               });
-             });
-        </script>
 
         <!-- Source code for i18n translations -->
         <script src="jquery/jquery.min.js"></script>
@@ -79,8 +69,6 @@
         <!-- Prevent caching of style.css so updates are seen by all users -->
         <script src="jquery/refresh-css.js"></script>
 
-        <!-- Show proper country form based on dropdown selection. -->
-        <script src="jquery/countryselector.js"></script>
 
     </head>
     <body>
@@ -99,57 +87,31 @@
 
                 <div class="text-box intro sticker-box">
                     <div class="container-inner">
-
-
-                        <p class="step" data-i18n="postcards_step_1"></p>
+                        <div class="break-micro"></div>
+                        <p>
+                          <span data-i18n="postcards_program_closed_message"></span>
+                        </p>
 
                         <div class="break-micro"></div>
 
-                        <center><select id="countryselector" style="margin-bottom: 30px !important;">
-                            <option selected disabled data-i18n="common_choose_your_country"></option>
-                            <option value="USA" data-i18n="common_country_usa"></option>
-                            <option value="Canada" data-i18n="common_country_canada"></option>
-                        </select></center>
+                        <p class="step" data-i18n="postcards_sticker_alternative_header"></p>
+                        <div class="break-micro"></div>
+                        <p>
+                            
+                          <span data-i18n="postcards_sticker_alternative_message"></span>
+                        </p>
 
-                        <div id="USA" class="countries" style="display:none">
-                            <p>
-                              <span data-i18n="postcards_instructions_1"></span>
-                              <br /><br />
-                              <span data-i18n="postcards_instructions_2"></span>
-                            </p>
-                            <form action="https://getform.io/f/80e50020-f26e-4d5b-886e-517784906a76" method="POST">
-                            <input type="text" name="name" placeholder="Name (optional)"><br />
-                            <input type="text" name="address1" placeholder="Address Line 1" required><br />
-                            <input type="text" name="address2" placeholder="Address Line 2 (optional)"><br />
-                            <input type="text" name="city" placeholder="City" id="city" required>
-                            <input type="text" name="state" placeholder="State" id="state" required>
-                            <input type="text" name="zip" placeholder="Zip Code" id="zip" required><br />
-                            <input type="hidden" name="_gotcha" style="display:none !important">
+                        <div class="break-micro"></div>
 
-                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
-                            </form>
-                        </div><!--/USA-->
+                        <center>
+                            <a href="https://bitcoin.rocks/stickers">
+                                <div class="button-form" style="display: inline-block; margin: 0 auto;">
+                                    <p data-i18n="postcards_sticker_cta"></p>
+                                </div>
+                            </a>
+                        </center>
 
-
-                        <div id="Canada" class="countries" style="display:none">
-                            <p>
-                              <span data-i18n="postcards_instructions_1"></span>
-                              <br /><br />
-                              <span data-i18n="postcards_instructions_2"></span>
-                              <br /><br />
-                              <span data-i18n="postcards_instructions_3"></span>
-                            </p>
-                            <form action="https://getform.io/f/c219d92d-6a4f-46b0-9372-fb87203aacd6" method="POST">
-                            <input type="text" name="name" placeholder="Name (optional)"><br />
-                            <input type="text" name="address1" placeholder="Address Line 1" required><br />
-                            <input type="text" name="address2" placeholder="Address Line 2 (optional)"><br />
-                            <input type="text" name="city" placeholder="City" id="city" required>
-                            <input type="text" name="province" placeholder="Province" id="state" required>
-                            <input type="text" name="postal" placeholder="Postal Code" id="zip" required><br />
-
-                            <button type="submit" class="button-form"><p data-i18n="common_submit"></p></button>
-                            </form>
-                        </div><!--/Canada-->
+                        <div class="break-micro"></div>
 
                     </div><!--/container-inner-->
                 </div><!--text-box-->
@@ -173,7 +135,7 @@
 
                         <img src="img/postcards/postcard-dollar-back.png" class="inline">
 
-                        <p class="postcard-caption" data-i18n="postcards_instructions_3"></p>
+                        
 
                     <div class="postcard-divider"></div>
 
@@ -187,9 +149,7 @@
 
                         <img src="img/postcards/postcard-cartoon-back.png" class="inline"/>
 
-                        <p>
-                          <span data-i18n="postcards_instructions_6"></span>
-                        </p>
+                        
 
                     </div><!--/container-inner-->
                 </div><!--text-box-->

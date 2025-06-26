@@ -8,13 +8,13 @@
 	},
 	"free_bitcoin_postcards": "Postais Bitcoin gratuitos do bitcoin.rocks",
 	"postcards_description": "Obtém um pacote de postais Bitcoin grátis e partilha o Bitcoin com alguém que conheças",
-    "postcards_header": "POSTAIS BITCOIN GRATUITOS",
-    "postcards_step_1": "1. SOLICITAR UM PACOTE DE POSTAIS",
-    "postcards_instructions_1": "Introduz o Teu endereço postal e enviar-te-emos um pacote de postais Bitcoin grátis pelo correio! Os teus postais são enviados num envelope branco simples",
-    "postcards_instructions_2": "Os dados de endereço são eliminados depois dos teus postais gratuitos serem enviados.",
-    "postcards_instructions_3": "Os canadianos vão receber um postal com uma fatura de CAD$5 em vez de um postal com uma fatura de US$1",
-    "postcards_step_2": "2. ENVIAR POSTAIS",
+    "postcards_header": "PROGRAMA DE POSTAIS ENCERRADO",
+    "postcards_program_closed_message": "O nosso programa gratuito de postais Bitcoin terminou. Obrigado a todos os que participaram na divulgação da educação Bitcoin pelo correio!",
+    "postcards_sticker_alternative_header": "OBTÉM AUTOCOLANTES BITCOIN GRATUITOS EM VEZ DISSO",
+    "postcards_sticker_alternative_message": "Continua a divulgar a consciência Bitcoin com o nosso programa de autocolantes gratuitos! Os nossos autocolantes Bitcoin são perfeitos para partilhar em espaços públicos e têm códigos QR que ligam a conteúdo educativo.",
+    "postcards_sticker_cta": "OBTER AUTOCOLANTES GRATUITOS",
+    "postcards_step_2": "COMO ERAM OS POSTAIS",
     "postcards_instructions_4": "Criámos estes postais para que seja mais fácil apresentares o Bitcoin a alguém que conheces! Basta adicionar um endereço e um selo e enviar o teu postal pelo correio.",
-    "postcards_instructions_5": "A nossa missão é acelerar a adoção do Bitcoin. Podes ajudar enviando estes postais a alguém que conheces hoje!",
-    "postcards_instructions_6": "Todos nós conhecemos algumas pessoas que poderiam beneficiar de aprender mais sobre Bitcoin. Envia-lhes um postal agora!"
+    "postcards_instructions_5": "A nossa missão é acelerar a adoção do Bitcoin. Podes ajudar obtendo autocolantes gratuitos e colocando-os em espaços públicos!",
+    "postcards_instructions_6": "Todos nós conhecemos algumas pessoas que poderiam beneficiar de aprender mais sobre Bitcoin. Partilha autocolantes Bitcoin com elas hoje!"
 }
