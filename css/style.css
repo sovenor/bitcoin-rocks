@@ -1413,10 +1413,14 @@ a{
 }
 
 .home-logo{
-    width: 280px;
+    width: 150px;
     height: auto;
     margin-top: 80px;
     transition-duration: 0.3s;
+}
+
+.home-logo:hover{
+    transform: scale(1.05);
 }
 
 .back-to-home{
