@@ -1,6 +1,9 @@
 $(function() {
   'use strict';
 
+  // Version for cache busting - increment this when updating translations
+  var TRANSLATION_VERSION = '1.0.0';
+
   // Initialize i18n
   var i18n = $.i18n();
 
@@ -40,12 +43,12 @@ $(function() {
     directoryPath = directoryPath.replace(/^\//, '');
     // Get the root URL
     var rootURL = window.location.origin;
-    // Load common translations
-    i18n.load(rootURL + '/i18n/' + i18n.locale + '/common_' + i18n.locale + '.json', i18n.locale).done(function() {
+    // Load common translations with cache busting
+    i18n.load(rootURL + '/i18n/' + i18n.locale + '/common_' + i18n.locale + '.json?v=' + TRANSLATION_VERSION, i18n.locale).done(function() {
       // Construct file path based on directory path
       var filePath = directoryPath ? directoryPath + '/' + currentPage : currentPage;
-      // Load page-specific translations based on the current page
-      i18n.load(rootURL + '/i18n/' + i18n.locale + '/' + filePath + '_' + i18n.locale + '.json', i18n.locale).done(function() {
+      // Load page-specific translations based on the current page with cache busting
+      i18n.load(rootURL + '/i18n/' + i18n.locale + '/' + filePath + '_' + i18n.locale + '.json?v=' + TRANSLATION_VERSION, i18n.locale).done(function() {
         // Apply translations to elements with data-i18n attribute
         $('[data-i18n]').each(function() {
           var $this = $(this);
