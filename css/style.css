@@ -1319,6 +1319,10 @@ span.cbdc{
     color: #6E7271 !important;
 }
 
+span.crypto{
+    color: #8A2BE2 !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;

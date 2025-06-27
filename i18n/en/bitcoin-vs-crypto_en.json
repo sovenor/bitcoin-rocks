@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-06-26",
+		"locale": "en"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"crypto_header": "THE DIFFERENCE BETWEEN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "AND",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "The cryptocurrency space has exploded with thousands of different digital tokens and projects.",
+	"crypto_intro_2": "While Bitcoin was the first and remains the most well-known cryptocurrency, it's fundamentally different from the rest of the crypto industry.",
+	"crypto_intro_3": "Let's explore the key differences between Bitcoin and the broader cryptocurrency ecosystem.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Frequent changes & forks",
+	"crypto_point_2": "Centralized control",
+	"crypto_point_3": "Unlimited or inflationary supply",
+	"crypto_point_4": "Complex protocols",
+	"crypto_point_5": "Experimental consensus",
+	"crypto_point_6": "Speculative utility tokens",
+	"crypto_point_7": "Volatile & fragile",
+	"crypto_point_8": "Corporate backing",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Immutable protocol",
+	"bitcoin_point_2": "Truly decentralized",
+	"bitcoin_point_3": "Fixed supply of 21M BTC",
+	"bitcoin_point_4": "Simple & accessible",
+	"bitcoin_point_5": "Proven Proof of Work",
+	"bitcoin_point_6": "Pure digital money",
+	"bitcoin_point_7": "Antifragile",
+	"bitcoin_point_8": "No single entity controls it",
+	"point_1_summary_1": "Bitcoin's protocol has remained fundamentally unchanged since 2009, providing predictable rules that cannot be easily altered. Most crypto projects frequently update their protocols, change tokenomics, or fork into new versions, creating uncertainty for users.",
+	"point_2_summary_1": "Bitcoin operates on a truly decentralized network with tens of thousands of independent nodes worldwide. Many crypto projects are controlled by foundations, companies, or small groups of developers who can make unilateral decisions about the protocol's future.",
+	"point_3_summary_1": "Bitcoin has a hard cap of 21 million coins that will ever exist, making it the scarcest digital asset. Most crypto projects have unlimited supplies, inflationary mechanisms, or can mint new tokens at will, diluting holder value over time.",
+	"point_4_summary_1": "Bitcoin has one simple purpose: peer-to-peer digital money. Anyone can understand and use it with basic knowledge. Many crypto projects involve complex smart contracts, DeFi protocols, or governance mechanisms that require technical expertise to use safely.",
+	"point_5_summary_1": "Bitcoin uses Proof of Work consensus, which has been battle-tested for over 15 years without a single successful attack on the main network. Many crypto projects use experimental consensus mechanisms like Proof of Stake or delegated systems that haven't proven their long-term security.",
+	"point_6_summary_1": "Bitcoin serves as digital money - a store of value and medium of exchange. Most crypto tokens are utility tokens for specific platforms, governance tokens, or speculative assets with unclear real-world value propositions.",
+	"point_7_summary_1": "Bitcoin becomes stronger under attack and has survived every crisis, ban, and criticism thrown at it. Most crypto projects are fragile and can collapse from regulatory pressure, technical failures, or market downturns.",
+	"point_8_summary_1": "Bitcoin has no CEO, no company behind it, and no single point of failure. Many crypto projects are backed by venture capital firms, have identifiable leadership teams, or depend on specific companies for their continued operation."
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-06-26",
+		"locale": "de"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Krypto",
+	"crypto_header": "DER UNTERSCHIED ZWISCHEN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "UND",
+	"crypto_header_4": "KRYPTO",
+	"crypto_intro_1": "Der Kryptowährungsbereich ist mit Tausenden von verschiedenen digitalen Token und Projekten explodiert.",
+	"crypto_intro_2": "Während Bitcoin die erste und bekannteste Kryptowährung bleibt, unterscheidet sie sich grundlegend vom Rest der Krypto-Industrie.",
+	"crypto_intro_3": "Lassen Sie uns die wichtigsten Unterschiede zwischen Bitcoin und dem breiteren Kryptowährungs-Ökosystem erkunden.",
+	"crypto": "KRYPTO",
+	"crypto_point_1": "Häufige Änderungen & Forks",
+	"crypto_point_2": "Zentralisierte Kontrolle",
+	"crypto_point_3": "Unbegrenzte oder inflationäre Versorgung",
+	"crypto_point_4": "Komplexe Protokolle",
+	"crypto_point_5": "Experimenteller Konsens",
+	"crypto_point_6": "Spekulative Utility-Token",
+	"crypto_point_7": "Volatil & fragil",
+	"crypto_point_8": "Unternehmensunterstützung",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Unveränderliches Protokoll",
+	"bitcoin_point_2": "Wirklich dezentralisiert",
+	"bitcoin_point_3": "Feste Versorgung von 21M BTC",
+	"bitcoin_point_4": "Einfach & zugänglich",
+	"bitcoin_point_5": "Bewährter Proof of Work",
+	"bitcoin_point_6": "Reines digitales Geld",
+	"bitcoin_point_7": "Antifragil",
+	"bitcoin_point_8": "Keine einzelne Entität kontrolliert es",
+	"point_1_summary_1": "Bitcoins Protokoll ist seit 2009 grundlegend unverändert geblieben und bietet vorhersagbare Regeln, die nicht einfach geändert werden können. Die meisten Krypto-Projekte aktualisieren häufig ihre Protokolle, ändern Tokenomics oder spalten sich in neue Versionen auf, was Unsicherheit für Benutzer schafft.",
+	"point_2_summary_1": "Bitcoin arbeitet in einem wirklich dezentralisierten Netzwerk mit Zehntausenden von unabhängigen Knoten weltweit. Viele Krypto-Projekte werden von Stiftungen, Unternehmen oder kleinen Gruppen von Entwicklern kontrolliert, die einseitige Entscheidungen über die Zukunft des Protokolls treffen können.",
+	"point_3_summary_1": "Bitcoin hat eine harte Obergrenze von 21 Millionen Münzen, die jemals existieren werden, was es zum knappsten digitalen Vermögenswert macht. Die meisten Krypto-Projekte haben unbegrenzte Vorräte, inflationäre Mechanismen oder können nach Belieben neue Token prägen, was den Wert der Inhaber im Laufe der Zeit verwässert.",
+	"point_4_summary_1": "Bitcoin hat einen einfachen Zweck: Peer-to-Peer digitales Geld. Jeder kann es mit Grundkenntnissen verstehen und verwenden. Viele Krypto-Projekte beinhalten komplexe Smart Contracts, DeFi-Protokolle oder Governance-Mechanismen, die technisches Fachwissen für eine sichere Nutzung erfordern.",
+	"point_5_summary_1": "Bitcoin verwendet Proof of Work-Konsens, der über 15 Jahre lang kampferprobt wurde, ohne einen einzigen erfolgreichen Angriff auf das Hauptnetzwerk. Viele Krypto-Projekte verwenden experimentelle Konsensmechanismen wie Proof of Stake oder delegierte Systeme, die ihre langfristige Sicherheit nicht bewiesen haben.",
+	"point_6_summary_1": "Bitcoin dient als digitales Geld - ein Wertaufbewahrungsmittel und Tauschmittel. Die meisten Krypto-Token sind Utility-Token für spezifische Plattformen, Governance-Token oder spekulative Vermögenswerte mit unklaren realen Wertversprechen.",
+	"point_7_summary_1": "Bitcoin wird unter Angriffen stärker und hat jede Krise, jedes Verbot und jede Kritik überlebt, die auf es geworfen wurde. Die meisten Krypto-Projekte sind fragil und können durch regulatorischen Druck, technische Ausfälle oder Marktabschwünge zusammenbrechen.",
+	"point_8_summary_1": "Bitcoin hat keinen CEO, kein Unternehmen dahinter und keinen einzigen Ausfallpunkt. Viele Krypto-Projekte werden von Risikokapitalfirmen unterstützt, haben identifizierbare Führungsteams oder sind für ihren fortgesetzten Betrieb auf bestimmte Unternehmen angewiesen."
+}

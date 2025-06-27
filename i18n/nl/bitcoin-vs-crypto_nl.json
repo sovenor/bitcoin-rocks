@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-06-26",
+		"locale": "nl"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"crypto_header": "HET VERSCHIL TUSSEN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "EN",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "De cryptocurrency-ruimte is geëxplodeerd met duizenden verschillende digitale tokens en projecten.",
+	"crypto_intro_2": "Hoewel Bitcoin de eerste was en de bekendste cryptocurrency blijft, verschilt het fundamenteel van de rest van de crypto-industrie.",
+	"crypto_intro_3": "Laten we de belangrijkste verschillen tussen Bitcoin en het bredere cryptocurrency-ecosysteem verkennen.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Frequente wijzigingen & forks",
+	"crypto_point_2": "Gecentraliseerde controle",
+	"crypto_point_3": "Onbeperkte of inflatoire voorraad",
+	"crypto_point_4": "Complexe protocollen",
+	"crypto_point_5": "Experimentele consensus",
+	"crypto_point_6": "Speculatieve utility tokens",
+	"crypto_point_7": "Volatiel & fragiel",
+	"crypto_point_8": "Bedrijfssteun",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Onveranderlijk protocol",
+	"bitcoin_point_2": "Echt gedecentraliseerd",
+	"bitcoin_point_3": "Vaste voorraad van 21M BTC",
+	"bitcoin_point_4": "Eenvoudig & toegankelijk",
+	"bitcoin_point_5": "Bewezen Proof of Work",
+	"bitcoin_point_6": "Puur digitaal geld",
+	"bitcoin_point_7": "Antifragiel",
+	"bitcoin_point_8": "Geen enkele entiteit controleert het",
+	"point_1_summary_1": "Bitcoin's protocol is sinds 2009 fundamenteel onveranderd gebleven en biedt voorspelbare regels die niet gemakkelijk kunnen worden gewijzigd. De meeste crypto-projecten updaten hun protocollen regelmatig, veranderen tokenomics of splitsen zich in nieuwe versies, wat onzekerheid voor gebruikers creëert.",
+	"point_2_summary_1": "Bitcoin werkt op een echt gedecentraliseerd netwerk met tienduizenden onafhankelijke nodes wereldwijd. Veel crypto-projecten worden gecontroleerd door stichtingen, bedrijven of kleine groepen ontwikkelaars die unilaterale beslissingen kunnen nemen over de toekomst van het protocol.",
+	"point_3_summary_1": "Bitcoin heeft een harde limiet van 21 miljoen munten die ooit zullen bestaan, waardoor het het schaarste digitale activum is. De meeste crypto-projecten hebben onbeperkte voorraden, inflatoire mechanismen of kunnen naar believen nieuwe tokens maken, wat de waarde van houders in de loop van de tijd verdunt.",
+	"point_4_summary_1": "Bitcoin heeft één eenvoudig doel: peer-to-peer digitaal geld. Iedereen kan het begrijpen en gebruiken met basiskennis. Veel crypto-projecten omvatten complexe smart contracts, DeFi-protocollen of governance-mechanismen die technische expertise vereisen om veilig te gebruiken.",
+	"point_5_summary_1": "Bitcoin gebruikt Proof of Work consensus, dat meer dan 15 jaar lang in de strijd is getest zonder één succesvolle aanval op het hoofdnetwerk. Veel crypto-projecten gebruiken experimentele consensus-mechanismen zoals Proof of Stake of gedelegeerde systemen die hun langetermijnveiligheid niet hebben bewezen.",
+	"point_6_summary_1": "Bitcoin dient als digitaal geld - een waardeopslag en ruilmiddel. De meeste crypto-tokens zijn utility tokens voor specifieke platforms, governance tokens of speculatieve activa met onduidelijke echte waardeproposities.",
+	"point_7_summary_1": "Bitcoin wordt sterker onder aanvallen en heeft elke crisis, verbod en kritiek overleefd die erop is geworpen. De meeste crypto-projecten zijn fragiel en kunnen instorten door regelgevingsdruk, technische storingen of marktdalingen.",
+	"point_8_summary_1": "Bitcoin heeft geen CEO, geen bedrijf erachter en geen enkel foutpunt. Veel crypto-projecten worden gesteund door durfkapitaalfirma's, hebben identificeerbare leiderschapsteams of zijn afhankelijk van specifieke bedrijven voor hun voortdurende werking."
+}

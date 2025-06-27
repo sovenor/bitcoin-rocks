@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-06-26",
+		"locale": "fr"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"crypto_header": "LA DIFFÉRENCE ENTRE",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "ET",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "L'espace des cryptomonnaies a explosé avec des milliers de jetons numériques et de projets différents.",
+	"crypto_intro_2": "Bien que Bitcoin ait été la première et reste la cryptomonnaie la plus connue, elle est fondamentalement différente du reste de l'industrie crypto.",
+	"crypto_intro_3": "Explorons les différences clés entre Bitcoin et l'écosystème plus large des cryptomonnaies.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Changements fréquents et forks",
+	"crypto_point_2": "Contrôle centralisé",
+	"crypto_point_3": "Offre illimitée ou inflationniste",
+	"crypto_point_4": "Protocoles complexes",
+	"crypto_point_5": "Consensus expérimental",
+	"crypto_point_6": "Jetons utilitaires spéculatifs",
+	"crypto_point_7": "Volatil et fragile",
+	"crypto_point_8": "Soutien d'entreprise",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Protocole immuable",
+	"bitcoin_point_2": "Vraiment décentralisé",
+	"bitcoin_point_3": "Offre fixe de 21M BTC",
+	"bitcoin_point_4": "Simple et accessible",
+	"bitcoin_point_5": "Preuve de travail éprouvée",
+	"bitcoin_point_6": "Argent numérique pur",
+	"bitcoin_point_7": "Antifragile",
+	"bitcoin_point_8": "Aucune entité ne le contrôle",
+	"point_1_summary_1": "Le protocole de Bitcoin est resté fondamentalement inchangé depuis 2009, fournissant des règles prévisibles qui ne peuvent pas être facilement modifiées. La plupart des projets crypto mettent fréquemment à jour leurs protocoles, changent les tokenomics ou se divisent en nouvelles versions, créant de l'incertitude pour les utilisateurs.",
+	"point_2_summary_1": "Bitcoin fonctionne sur un réseau vraiment décentralisé avec des dizaines de milliers de nœuds indépendants dans le monde entier. De nombreux projets crypto sont contrôlés par des fondations, des entreprises ou de petits groupes de développeurs qui peuvent prendre des décisions unilatérales sur l'avenir du protocole.",
+	"point_3_summary_1": "Bitcoin a un plafond dur de 21 millions de pièces qui existeront jamais, en faisant l'actif numérique le plus rare. La plupart des projets crypto ont des offres illimitées, des mécanismes inflationnistes ou peuvent frapper de nouveaux jetons à volonté, diluant la valeur des détenteurs au fil du temps.",
+	"point_4_summary_1": "Bitcoin a un objectif simple : l'argent numérique pair-à-pair. N'importe qui peut le comprendre et l'utiliser avec des connaissances de base. De nombreux projets crypto impliquent des contrats intelligents complexes, des protocoles DeFi ou des mécanismes de gouvernance qui nécessitent une expertise technique pour une utilisation sûre.",
+	"point_5_summary_1": "Bitcoin utilise le consensus de Preuve de Travail, qui a été testé au combat pendant plus de 15 ans sans une seule attaque réussie sur le réseau principal. De nombreux projets crypto utilisent des mécanismes de consensus expérimentaux comme la Preuve d'Enjeu ou des systèmes délégués qui n'ont pas prouvé leur sécurité à long terme.",
+	"point_6_summary_1": "Bitcoin sert d'argent numérique - une réserve de valeur et un moyen d'échange. La plupart des jetons crypto sont des jetons utilitaires pour des plateformes spécifiques, des jetons de gouvernance ou des actifs spéculatifs avec des propositions de valeur réelle peu claires.",
+	"point_7_summary_1": "Bitcoin devient plus fort sous l'attaque et a survécu à chaque crise, interdiction et critique qui lui a été lancée. La plupart des projets crypto sont fragiles et peuvent s'effondrer à cause de la pression réglementaire, des défaillances techniques ou des baisses du marché.",
+	"point_8_summary_1": "Bitcoin n'a pas de PDG, pas d'entreprise derrière lui et pas de point de défaillance unique. De nombreux projets crypto sont soutenus par des sociétés de capital-risque, ont des équipes de direction identifiables ou dépendent d'entreprises spécifiques pour leur fonctionnement continu."
+}
