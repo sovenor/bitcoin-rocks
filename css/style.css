@@ -1323,6 +1323,15 @@ span.crypto{
     color: #8A2BE2 !important;
 }
 
+span.real-estate, .real-estate{
+    color: #8B4513 !important;
+    white-space: nowrap;
+}
+
+.force-real-estate{
+    color: #8B4513 !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
