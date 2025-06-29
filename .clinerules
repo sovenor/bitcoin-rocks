@@ -16,6 +16,7 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - **Color-Coded Sections**: Each topic has unique colors for visual hierarchy
 - **Curated External Links**: Mix of internal content and carefully selected external resources
 - **Beginner-Focused**: All content assumes zero prior Bitcoin knowledge
+- **Cross-Link Priority**: When possible and logical (especially when building new pages) make sure to link to other pages of content on the website.
 
 ### Internationalization Approach
 - **jquery.i18n Framework**: Uses jQuery-based i18n with JSON translation files

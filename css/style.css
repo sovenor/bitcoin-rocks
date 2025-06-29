@@ -1332,6 +1332,14 @@ span.real-estate, .real-estate{
     color: #8B4513 !important;
 }
 
+span.stocks{
+    color: #0066CC !important;
+}
+
+.force-stocks{
+    color: #0066CC !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
