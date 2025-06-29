@@ -91,9 +91,9 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 ### Adding New Content
 1. Add HTML structure with semantic markup
 2. Create data-i18n attributes for translatable text
-3. Add translation strings to all language JSON files
+3. Add translation strings to all language JSON files (when updating or creating a language JSON file, change the "last-updated" date to today's date)
 4. Apply appropriate CSS classes following existing patterns
-5. Test across languages and devices
+5. Do not test across languages and devices unless explicitly asked to do so
 
 ### Translation Management
 - Check `/i18n/` directory for language completion status
