@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "es"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Bienes Raíces",
@@ -25,11 +25,11 @@
 	"real_estate_point_8": "Limitados a compradores locales",
 	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Globalmente portable",
-	"bitcoin_point_2": "Infinitamente divisible",
+	"bitcoin_point_2": "Fácilmente divisible",
 	"bitcoin_point_3": "Resistente a la censura",
 	"bitcoin_point_4": "No requiere mantenimiento",
 	"bitcoin_point_5": "Sin impuestos inmobiliarios",
-	"bitcoin_point_6": "Inmune a la destrucción física",
+	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Perfectamente fungible",
 	"bitcoin_point_8": "Mercado global 24/7",
 	"point_1_summary_1": "Bitcoin puede moverse a cualquier parte del mundo instantáneamente a través de internet. Los bienes raíces están permanentemente fijados a una ubicación específica y no pueden reubicarse, lo que los hace vulnerables a las condiciones económicas locales, desastres naturales e inestabilidad política.",

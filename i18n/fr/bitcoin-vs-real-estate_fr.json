@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "fr"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Immobilier",
@@ -25,11 +25,11 @@
 	"real_estate_point_8": "Limité aux acheteurs locaux",
 	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Globalement portable",
-	"bitcoin_point_2": "Infiniment divisible",
+	"bitcoin_point_2": "Facilement divisible",
 	"bitcoin_point_3": "Résistant à la censure",
 	"bitcoin_point_4": "Aucun entretien requis",
 	"bitcoin_point_5": "Pas de taxes foncières",
-	"bitcoin_point_6": "Immunisé contre la destruction physique",
+	"bitcoin_point_6": "Difficile à détruire",
 	"bitcoin_point_7": "Parfaitement fongible",
 	"bitcoin_point_8": "Marché mondial 24h/24 et 7j/7",
 	"point_1_summary_1": "Bitcoin peut être déplacé n'importe où dans le monde instantanément via internet. L'immobilier est fixé de façon permanente à un emplacement spécifique et ne peut pas être relocalisé, ce qui le rend vulnérable aux conditions économiques locales, aux catastrophes naturelles et à l'instabilité politique.",

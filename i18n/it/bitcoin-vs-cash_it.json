@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "it"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Contanti",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Non può essere contraffatto",
 	"bitcoin_point_5": "Rete decentralizzata",
 	"bitcoin_point_6": "Auto-custodia digitale",
-	"bitcoin_point_7": "Infinitamente divisibile",
+	"bitcoin_point_7": "Facilmente divisibile",
 	"point_1_summary_1": "Bitcoin può essere inviato ovunque nel mondo istantaneamente su Internet, mentre i contanti richiedono presenza fisica o intermediari fidati. Non puoi inviare contanti via email, ma puoi inviare Bitcoin a chiunque con una connessione Internet in pochi minuti.",
 	"point_2_summary_1": "Bitcoin funziona allo stesso modo ovunque nel mondo - non ci sono confini nella rete Bitcoin. I contanti sono limitati da geografia, tassi di cambio e accettazione locale. Prova a usare dollari americani nella Thailandia rurale o yen giapponesi nel Messico rurale.",
 	"point_3_summary_1": "I governi possono e invalidano i contanti dall'oggi al domani attraverso politiche di demonetizzazione, come ha fatto l'India nel 2016 quando ha vietato certe banconote.",

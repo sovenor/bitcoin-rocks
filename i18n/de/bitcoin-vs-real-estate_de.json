@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "de"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Immobilien",
@@ -25,11 +25,11 @@
 	"real_estate_point_8": "Begrenzt auf lokale Käufer",
 	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Global transportabel",
-	"bitcoin_point_2": "Unendlich teilbar",
+	"bitcoin_point_2": "Leicht teilbar",
 	"bitcoin_point_3": "Zensurresistent",
 	"bitcoin_point_4": "Keine Wartung erforderlich",
 	"bitcoin_point_5": "Keine Grundsteuern",
-	"bitcoin_point_6": "Immun gegen physische Zerstörung",
+	"bitcoin_point_6": "Schwer zu zerstören",
 	"bitcoin_point_7": "Perfekt fungibel",
 	"bitcoin_point_8": "Globaler 24/7-Markt",
 	"point_1_summary_1": "Bitcoin kann sofort überall auf der Welt über das Internet bewegt werden. Immobilien sind dauerhaft an einen bestimmten Ort gebunden und können nicht verlegt werden, was sie anfällig für lokale Wirtschaftsbedingungen, Naturkatastrophen und politische Instabilität macht.",

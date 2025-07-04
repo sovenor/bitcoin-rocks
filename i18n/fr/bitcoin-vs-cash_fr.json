@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "fr"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Espèces",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Ne peut pas être contrefait",
 	"bitcoin_point_5": "Réseau décentralisé",
 	"bitcoin_point_6": "Auto-garde numérique",
-	"bitcoin_point_7": "Infiniment divisible",
+	"bitcoin_point_7": "Facilement divisible",
 	"point_1_summary_1": "Bitcoin peut être envoyé n'importe où dans le monde instantanément sur Internet, tandis que les espèces nécessitent une présence physique ou des intermédiaires de confiance. Vous ne pouvez pas envoyer d'espèces par e-mail, mais vous pouvez envoyer du Bitcoin à quiconque avec une connexion Internet en quelques minutes.",
 	"point_2_summary_1": "Bitcoin fonctionne de la même manière partout dans le monde - il n'y a pas de frontières dans le réseau Bitcoin. Les espèces sont limitées par la géographie, les taux de change et l'acceptation locale. Essayez d'utiliser des dollars américains dans la Thaïlande rurale ou des yens japonais dans le Mexique rural.",
 	"point_3_summary_1": "Les gouvernements peuvent et invalident les espèces du jour au lendemain par des politiques de démonétisation, comme l'Inde l'a fait en 2016 quand elle a interdit certains billets.",

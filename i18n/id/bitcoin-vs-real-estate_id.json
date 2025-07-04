@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "id"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Real Estat",
@@ -25,11 +25,11 @@
 	"real_estate_point_8": "Terbatas pada pembeli lokal",
 	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Dapat dibawa secara global",
-	"bitcoin_point_2": "Dapat dibagi tanpa batas",
+	"bitcoin_point_2": "Mudah dibagi",
 	"bitcoin_point_3": "Tahan terhadap sensor",
 	"bitcoin_point_4": "Tidak memerlukan perawatan",
 	"bitcoin_point_5": "Tidak ada pajak properti",
-	"bitcoin_point_6": "Kebal terhadap kerusakan fisik",
+	"bitcoin_point_6": "Sulit dihancurkan",
 	"bitcoin_point_7": "Dapat ditukar dengan sempurna",
 	"bitcoin_point_8": "Pasar global 24/7",
 	"point_1_summary_1": "Bitcoin dapat dipindahkan ke mana saja di dunia secara instan melalui internet. Real estat secara permanen terikat pada lokasi tertentu dan tidak dapat dipindahkan, membuatnya rentan terhadap kondisi ekonomi lokal, bencana alam, dan ketidakstabilan politik.",

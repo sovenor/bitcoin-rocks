@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "es"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Efectivo",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "No puede ser falsificado",
 	"bitcoin_point_5": "Red descentralizada",
 	"bitcoin_point_6": "Autocustodia digital",
-	"bitcoin_point_7": "Infinitamente divisible",
+	"bitcoin_point_7": "Fácilmente divisible",
 	"point_1_summary_1": "Bitcoin puede enviarse a cualquier parte del mundo instantáneamente por Internet, mientras que el efectivo requiere presencia física o intermediarios de confianza. No puedes enviar efectivo por correo electrónico, pero puedes enviar Bitcoin a cualquier persona con conexión a Internet en minutos.",
 	"point_2_summary_1": "Bitcoin funciona de la misma manera en todo el mundo: no hay fronteras en la red Bitcoin. El efectivo está limitado por geografía, tipos de cambio y aceptación local. Intenta usar dólares estadounidenses en la Tailandia rural o yenes japoneses en el México rural.",
 	"point_3_summary_1": "Los gobiernos pueden y sí invalidan el efectivo de la noche a la mañana a través de políticas de desmonetización, como hizo India en 2016 cuando prohibió ciertos billetes.",

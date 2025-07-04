@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "pt"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Dinheiro",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Não pode ser falsificado",
 	"bitcoin_point_5": "Rede descentralizada",
 	"bitcoin_point_6": "Auto-custódia digital",
-	"bitcoin_point_7": "Infinitamente divisível",
+	"bitcoin_point_7": "Facilmente divisível",
 	"point_1_summary_1": "Bitcoin pode ser enviado para qualquer lugar do mundo instantaneamente pela Internet, enquanto o dinheiro requer presença física ou intermediários confiáveis. Você não pode enviar dinheiro por e-mail, mas pode enviar Bitcoin para qualquer pessoa com conexão à Internet em minutos.",
 	"point_2_summary_1": "Bitcoin funciona da mesma forma em todo o mundo - não há fronteiras na rede Bitcoin. O dinheiro é limitado por geografia, taxas de câmbio e aceitação local. Tente usar dólares americanos na Tailândia rural ou ienes japoneses no México rural.",
 	"point_3_summary_1": "Governos podem e invalidam dinheiro da noite para o dia através de políticas de desmonetização, como a Índia fez em 2016 quando proibiu certas notas.",

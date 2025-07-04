@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "pl"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Gotówka",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Nie może być podrabiany",
 	"bitcoin_point_5": "Zdecentralizowana sieć",
 	"bitcoin_point_6": "Cyfrowa samodzielna opieka",
-	"bitcoin_point_7": "Nieskończenie podzielny",
+	"bitcoin_point_7": "Łatwo podzielny",
 	"point_1_summary_1": "Bitcoin może być wysłany gdziekolwiek na świecie natychmiast przez Internet, podczas gdy gotówka wymaga fizycznej obecności lub zaufanych pośredników. Nie możesz wysłać gotówki e-mailem, ale możesz wysłać Bitcoin do każdego z połączeniem internetowym w ciągu minut.",
 	"point_2_summary_1": "Bitcoin działa tak samo wszędzie na świecie - nie ma granic w sieci Bitcoin. Gotówka jest ograniczona geografią, kursami wymiany i lokalną akceptacją. Spróbuj użyć dolarów amerykańskich w wiejskiej Tajlandii lub jenów japońskich w wiejskim Meksyku.",
 	"point_3_summary_1": "Rządy mogą i unieważniają gotówkę z dnia na dzień poprzez polityki demonetyzacji, jak zrobiły Indie w 2016 roku, gdy zakazały pewnych banknotów.",

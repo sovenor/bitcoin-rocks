@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2025-07-03",
 		"locale": "de"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Bargeld",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Kann nicht gefälscht werden",
 	"bitcoin_point_5": "Dezentrales Netzwerk",
 	"bitcoin_point_6": "Digitale Selbstverwahrung",
-	"bitcoin_point_7": "Unendlich teilbar",
+	"bitcoin_point_7": "Leicht teilbar",
 	"point_1_summary_1": "Bitcoin kann überall auf der Welt sofort über das Internet gesendet werden, während Bargeld physische Anwesenheit oder vertrauenswürdige Vermittler erfordert. Sie können kein Bargeld per E-Mail versenden, aber Sie können Bitcoin in Minuten an jeden mit einer Internetverbindung senden.",
 	"point_2_summary_1": "Bitcoin funktioniert überall auf der Welt gleich - es gibt keine Grenzen im Bitcoin-Netzwerk. Bargeld ist durch Geographie, Wechselkurse und lokale Akzeptanz begrenzt. Versuchen Sie, US-Dollar im ländlichen Thailand oder japanische Yen im ländlichen Mexiko zu verwenden.",
 	"point_3_summary_1": "Regierungen können und machen Bargeld über Nacht durch Demonetisierungspolitiken ungültig, wie Indien es 2016 tat, als sie bestimmte Banknoten verboten.",
