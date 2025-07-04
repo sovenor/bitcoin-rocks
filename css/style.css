@@ -1340,6 +1340,14 @@ span.stocks{
     color: #0066CC !important;
 }
 
+span.bonds{
+    color: #2E8B57 !important;
+}
+
+.force-bonds{
+    color: #2E8B57 !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
