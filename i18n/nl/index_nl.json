@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "nl"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin bouwt een betere wereld.",
@@ -51,6 +51,7 @@
 	"home_link_title_gold": "Bitcoin t.o.v. Gold",
 	"home_link_title_crypto": "Bitcoin t.o.v. Crypto",
 	"home_link_title_cash": "Bitcoin vs Contant Geld",
+	"home_link_title_bonds": "Bitcoin vs Obligaties",
 	"home_link_title_cbdc": "Bitcoin t.o.v. CBDCs",
 	"home_link_title_your_salary_1": "Ontdek hoeveel je salaris zou moeten stijgen om gelijke tred te houden met de inflatie.",
 	"home_link_title_freedom_1": "Waarom Bitcoin Uitmaakt voor Vrijheid Bitcoin Matters for Freedom",

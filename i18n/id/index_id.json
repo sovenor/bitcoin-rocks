@@ -3,7 +3,7 @@
         "authors": [
             "Abeng"
         ],
-        "last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
         "locale": "id"
     },
     "bitcoin_builds_a_better_world": "Bitcoin membangun dunia yang lebih baik.",
@@ -51,6 +51,7 @@
     "home_link_title_gold": "Bitcoin vs Emas",
     "home_link_title_crypto": "Bitcoin vs Kripto",
     "home_link_title_cash": "Bitcoin vs Uang Tunai",
+    "home_link_title_bonds": "Bitcoin vs Obligasi",
     "home_link_title_cbdc": "Bitcoin vs CBDC",
     "home_link_title_your_salary_1": "Cari tahu berapa banyak gaji Anda perlu meningkat untuk mengimbangi inflasi.",
     "home_link_title_freedom_1": "Mengapa Bitcoin Penting untuk Kebebasan",

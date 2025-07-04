@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2025-07-03",
 		"locale": "pt"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin constrói um mundo melhor.",
@@ -51,6 +51,7 @@
 	"home_link_title_gold": "Bitcoin vs Ouro",
 	"home_link_title_crypto": "Bitcoin vs Criptomoedas",
 	"home_link_title_cash": "Bitcoin vs Dinheiro",
+	"home_link_title_bonds": "Bitcoin vs Títulos",
 	"home_link_title_cbdc": "Bitcoin vs MDBC",
 	"home_link_title_your_salary_1": "Descubre quanto é que o teu salário precisa de aumentar para acompanhar a inflação",
 	"home_link_title_freedom_1": "Porque é que o Bitcoin é importante para a liberdade",
