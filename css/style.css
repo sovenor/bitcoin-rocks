@@ -1348,6 +1348,14 @@ span.bonds{
     color: #2E8B57 !important;
 }
 
+span.fine-art{
+    color: #8B008B !important;
+}
+
+.force-fine-art{
+    color: #8B008B !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;

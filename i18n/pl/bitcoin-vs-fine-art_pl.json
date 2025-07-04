@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-07-03",
+		"locale": "pl"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Sztuka",
+	"fine_art_header": "RÓŻNICA MIĘDZY",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "A",
+	"fine_art_header_4": "SZTUKĄ",
+	"fine_art_intro_1": "Sztuka była luksusową inwestycją przez wieki i jest często postrzegana jako środek przechowywania wartości przez zamożnych kolekcjonerów.",
+	"fine_art_intro_2": "Bitcoin to cyfrowe pieniądze stworzone w 2009 roku i jest również postrzegany przez wielu jako środek przechowywania wartości i inwestycja.",
+	"fine_art_intro_3": "Ale jak fizyczne dzieła sztuki różnią się od cyfrowych pieniędzy takich jak Bitcoin? Przyjrzyjmy się różnicom między dwiema formami inwestycji: Bitcoin i Sztuka.",
+	"fine_art": "SZTUKA",
+	"fine_art_point_1": "Każdy element jest unikalny",
+	"fine_art_point_2": "Wymaga specjalistycznych aukcji",
+	"fine_art_point_3": "Wysokie opłaty aukcyjne",
+	"fine_art_point_4": "Nie można podzielić",
+	"fine_art_point_5": "Wymaga eksperckiej autentyfikacji",
+	"fine_art_point_6": "Podatna na uszkodzenia",
+	"fine_art_point_7": "Ograniczona do zamożnych kolekcjonerów",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Doskonale wymienny",
+	"bitcoin_point_2": "Globalny rynek 24/7",
+	"bitcoin_point_3": "Niskie opłaty transakcyjne",
+	"bitcoin_point_4": "Nieskończenie podzielny",
+	"bitcoin_point_5": "Kryptograficznie weryfikowalny",
+	"bitcoin_point_6": "Odporny na fizyczne zniszczenie",
+	"bitcoin_point_7": "Dostępny dla wszystkich",
+	"point_1_summary_1": "Bitcoin jest doskonale wymienny, co oznacza, że każdy bitcoin jest identyczny i wymienny - jeden bitcoin równa się jednemu bitcoinowi wszędzie na świecie. Sztuka jest z natury niewymienna, przy czym każdy element jest unikalny w swojej kreacji, historii, stanie i pochodzeniu, co sprawia, że bezpośrednie porównania i wyceny są niezwykle trudne.",
+	"point_2_summary_1": "Bitcoin jest handlowany na globalnym rynku 24/7, gdzie każdy z dostępem do internetu może natychmiast kupować lub sprzedawać. Sztuka wymaga specjalistycznych domów aukcyjnych takich jak Sotheby's czy Christie's, prywatnych dealerów lub ekskluzywnych galerii. Sprzedaż może trwać miesiące, aby zorganizować i zakończyć, z ograniczonym dostępem do rynku i nieregularnymi możliwościami handlu.",
+	"point_3_summary_1": "Transakcje Bitcoin zazwyczaj kosztują mniej niż 1% opłat, często znacznie mniej. Sprzedaż sztuki wiąże się ze znacznymi kosztami, w tym premiami kupującego (10-25%), prowizjami sprzedającego (10-15%), ubezpieczeniem, transportem, przechowywaniem i opłatami za autentyfikację. Te łączne koszty mogą łatwo przekroczyć 30-40% wartości dzieła sztuki w jednej transakcji.",
+	"point_4_summary_1": "Bitcoin można podzielić na 100 milionów mniejszych jednostek zwanych satoshi, co czyni go idealnym do transakcji każdej wielkości, od mikrotransakcji po duże zakupy. Sztuki nie można podzielić - nie można posiadać ułamka obrazu ani sprzedać tylko części rzeźby. Ta niepodzielność ogranicza elastyczność inwestycyjną i opcje płynności.",
+	"point_5_summary_1": "Własność i autentyczność Bitcoin można kryptograficznie zweryfikować w blockchain przez każdego z podstawową wiedzą techniczną. Sztuka wymaga kosztownej eksperckiej autentyfikacji, badań pochodzenia i analizy naukowej. Nawet z ekspercką weryfikacją, fałszerstwa regularnie oszukują świat sztuki, a spory o autentyczność mogą zniszczyć wartość dzieła sztuki z dnia na dzień.",
+	"point_6_summary_1": "Bitcoin, gdy jest odpowiednio zabezpieczony, nie może zostać zniszczony przez powodzie, pożary, trzęsienia ziemi, huragany, kradzież lub inne katastrofy. Sztuka jest podatna na wszystkie formy fizycznego zniszczenia i degradacji. Nawet z kosztownym przechowywaniem w kontrolowanym klimacie i kompleksowym ubezpieczeniem, dzieła sztuki mogą zostać uszkodzone przez czynniki środowiskowe, wypadki lub klęski żywiołowe, potencjalnie tracąc całą wartość.",
+	"point_7_summary_1": "Bitcoin może być kupowany i sprzedawany przez każdego z dostępem do internetu i niewielką sumą pieniędzy do zainwestowania. Inwestowanie w sztukę jest w dużej mierze ograniczone do zamożnych kolekcjonerów ze względu na wysokie ceny minimalne, ekskluzywny dostęp do aukcji, wymagania przechowywania, koszty ubezpieczenia i specjalistyczną wiedzę potrzebną do skutecznego poruszania się na rynku sztuki."
+}

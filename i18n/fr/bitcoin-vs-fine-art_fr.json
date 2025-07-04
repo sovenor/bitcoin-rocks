@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-07-03",
+		"locale": "fr"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Art",
+	"fine_art_header": "LA DIFFÉRENCE ENTRE",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "ET",
+	"fine_art_header_4": "L'ART",
+	"fine_art_intro_1": "L'art a été un investissement de luxe pendant des siècles et est souvent considéré comme une réserve de valeur par les collectionneurs fortunés.",
+	"fine_art_intro_2": "Bitcoin est de l'argent numérique créé en 2009 et est également considéré par beaucoup comme une réserve de valeur et un investissement.",
+	"fine_art_intro_3": "Mais comment les œuvres d'art physiques diffèrent-elles de l'argent numérique comme Bitcoin ? Examinons les différences entre deux formes d'investissement : Bitcoin et l'Art.",
+	"fine_art": "ART",
+	"fine_art_point_1": "Chaque pièce est unique",
+	"fine_art_point_2": "Nécessite des enchères spécialisées",
+	"fine_art_point_3": "Frais d'enchères élevés",
+	"fine_art_point_4": "Ne peut pas être divisé",
+	"fine_art_point_5": "Nécessite une authentification experte",
+	"fine_art_point_6": "Vulnérable aux dommages",
+	"fine_art_point_7": "Limité aux collectionneurs fortunés",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Parfaitement fongible",
+	"bitcoin_point_2": "Marché mondial 24h/24 et 7j/7",
+	"bitcoin_point_3": "Frais de transaction faibles",
+	"bitcoin_point_4": "Infiniment divisible",
+	"bitcoin_point_5": "Vérifiable cryptographiquement",
+	"bitcoin_point_6": "Immunisé contre la destruction physique",
+	"bitcoin_point_7": "Accessible à tous",
+	"point_1_summary_1": "Bitcoin est parfaitement fongible, ce qui signifie que chaque bitcoin est identique et interchangeable - un bitcoin équivaut à un bitcoin partout dans le monde. L'art est non fongible par nature, chaque pièce étant unique dans sa création, son histoire, son état et sa provenance, rendant les comparaisons directes et les évaluations extrêmement difficiles.",
+	"point_2_summary_1": "Bitcoin se négocie sur un marché mondial 24h/24 et 7j/7 où toute personne ayant accès à internet peut acheter ou vendre instantanément. L'art nécessite des maisons de ventes aux enchères spécialisées comme Sotheby's ou Christie's, des marchands privés ou des galeries exclusives. Les ventes peuvent prendre des mois à organiser et à finaliser, avec un accès limité au marché et des opportunités de trading irrégulières.",
+	"point_3_summary_1": "Les transactions Bitcoin coûtent généralement moins de 1% en frais, souvent beaucoup moins. Les ventes d'art impliquent des coûts substantiels incluant les primes d'acheteur (10-25%), les commissions de vendeur (10-15%), l'assurance, le transport, le stockage et les frais d'authentification. Ces coûts combinés peuvent facilement dépasser 30-40% de la valeur de l'œuvre d'art en une seule transaction.",
+	"point_4_summary_1": "Bitcoin peut être divisé en 100 millions d'unités plus petites appelées satoshis, le rendant parfait pour les transactions de toute taille, des microtransactions aux gros achats. L'art ne peut pas être divisé - vous ne pouvez pas posséder une fraction d'une peinture ou vendre seulement une partie d'une sculpture. Cette indivisibilité limite la flexibilité d'investissement et les options de liquidité.",
+	"point_5_summary_1": "La propriété et l'authenticité de Bitcoin peuvent être vérifiées cryptographiquement sur la blockchain par toute personne ayant des connaissances techniques de base. L'art nécessite une authentification experte coûteuse, une recherche de provenance et une analyse scientifique. Même avec une vérification experte, les contrefaçons trompent régulièrement le monde de l'art, et les disputes d'authentification peuvent détruire la valeur d'une œuvre d'art du jour au lendemain.",
+	"point_6_summary_1": "Bitcoin, lorsqu'il est correctement sauvegardé, ne peut pas être détruit par les inondations, les incendies, les tremblements de terre, les ouragans, le vol ou d'autres catastrophes. L'art est vulnérable à toutes les formes de destruction physique et de détérioration. Même avec un stockage coûteux à climat contrôlé et une assurance complète, les œuvres d'art peuvent être endommagées par des facteurs environnementaux, des accidents ou des catastrophes naturelles, perdant potentiellement toute leur valeur.",
+	"point_7_summary_1": "Bitcoin peut être acheté et vendu par toute personne ayant accès à internet et une petite somme d'argent à investir. L'investissement dans l'art est largement limité aux collectionneurs fortunés en raison des prix minimums élevés, de l'accès exclusif aux enchères, des exigences de stockage, des coûts d'assurance et des connaissances spécialisées nécessaires pour naviguer avec succès sur le marché de l'art."
+}

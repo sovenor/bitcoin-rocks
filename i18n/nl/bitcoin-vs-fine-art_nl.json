@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-07-03",
+		"locale": "nl"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Kunst",
+	"fine_art_header": "HET VERSCHIL TUSSEN",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "EN",
+	"fine_art_header_4": "KUNST",
+	"fine_art_intro_1": "Kunst is al eeuwenlang een luxe investering en wordt vaak gezien als een waardeopslag door rijke verzamelaars.",
+	"fine_art_intro_2": "Bitcoin is digitaal geld dat in 2009 werd gecreëerd en wordt ook door velen gezien als een waardeopslag en investering.",
+	"fine_art_intro_3": "Maar hoe verschillen fysieke kunstwerken van digitaal geld zoals Bitcoin? Laten we kijken naar de verschillen tussen twee vormen van investering: Bitcoin & Kunst.",
+	"fine_art": "KUNST",
+	"fine_art_point_1": "Elk stuk is uniek",
+	"fine_art_point_2": "Vereist gespecialiseerde veilingen",
+	"fine_art_point_3": "Hoge veilingkosten",
+	"fine_art_point_4": "Kan niet worden verdeeld",
+	"fine_art_point_5": "Vereist expertauthenticatie",
+	"fine_art_point_6": "Kwetsbaar voor schade",
+	"fine_art_point_7": "Beperkt tot rijke verzamelaars",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfect vervangbaar",
+	"bitcoin_point_2": "24/7 wereldwijde markt",
+	"bitcoin_point_3": "Lage transactiekosten",
+	"bitcoin_point_4": "Oneindig deelbaar",
+	"bitcoin_point_5": "Cryptografisch verifieerbaar",
+	"bitcoin_point_6": "Immuun voor fysieke vernietiging",
+	"bitcoin_point_7": "Toegankelijk voor iedereen",
+	"point_1_summary_1": "Bitcoin is perfect vervangbaar, wat betekent dat elke bitcoin identiek en uitwisselbaar is - één bitcoin is gelijk aan één bitcoin overal ter wereld. Kunst is van nature niet-vervangbaar, waarbij elk stuk uniek is in zijn creatie, geschiedenis, staat en herkomst, waardoor directe vergelijkingen en waarderingen extreem moeilijk zijn.",
+	"point_2_summary_1": "Bitcoin wordt verhandeld op een wereldwijde 24/7 markt waar iedereen met internettoegang onmiddellijk kan kopen of verkopen. Kunst vereist gespecialiseerde veilinghuizen zoals Sotheby's of Christie's, particuliere dealers of exclusieve galerieën. Verkopen kunnen maanden duren om te organiseren en af te ronden, met beperkte markttoegang en onregelmatige handelsmogelijkheden.",
+	"point_3_summary_1": "Bitcoin-transacties kosten doorgaans minder dan 1% aan kosten, vaak veel minder. Kunstverkopen brengen aanzienlijke kosten met zich mee, waaronder koperspremies (10-25%), verkoperscommissies (10-15%), verzekering, transport, opslag en authenticatiekosten. Deze gecombineerde kosten kunnen gemakkelijk 30-40% van de waarde van het kunstwerk overschrijden in één enkele transactie.",
+	"point_4_summary_1": "Bitcoin kan worden verdeeld in 100 miljoen kleinere eenheden genaamd satoshis, waardoor het perfect is voor transacties van elke grootte, van microtransacties tot grote aankopen. Kunst kan niet worden verdeeld - je kunt geen fractie van een schilderij bezitten of slechts een deel van een sculptuur verkopen. Deze ondeelbaarheid beperkt investeringsflexibiliteit en liquiditeitsopties.",
+	"point_5_summary_1": "Bitcoin-eigendom en authenticiteit kunnen cryptografisch worden geverifieerd op de blockchain door iedereen met basiskennis van technologie. Kunst vereist dure expertauthenticatie, herkomstonderzoek en wetenschappelijke analyse. Zelfs met expertverificatie misleiden vervalsingen regelmatig de kunstwereld, en authenticatiegeschillen kunnen de waarde van een kunstwerk van de ene dag op de andere vernietigen.",
+	"point_6_summary_1": "Bitcoin kan, wanneer het goed wordt beveiligd, niet worden vernietigd door overstromingen, branden, aardbevingen, orkanen, diefstal of andere rampen. Kunst is kwetsbaar voor alle vormen van fysieke vernietiging en achteruitgang. Zelfs met dure klimaatgecontroleerde opslag en uitgebreide verzekering kunnen kunstwerken worden beschadigd door omgevingsfactoren, ongelukken of natuurrampen, waardoor ze mogelijk alle waarde verliezen.",
+	"point_7_summary_1": "Bitcoin kan worden gekocht en verkocht door iedereen met internettoegang en een klein bedrag om te investeren. Kunstinvestering is grotendeels beperkt tot rijke verzamelaars vanwege hoge minimumprijzen, exclusieve veilingtoegang, opslagvereisten, verzekeringskosten en de gespecialiseerde kennis die nodig is om succesvol te navigeren op de kunstmarkt."
+}

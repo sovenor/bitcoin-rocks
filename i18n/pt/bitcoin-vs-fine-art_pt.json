@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-07-03",
+		"locale": "pt"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Arte",
+	"fine_art_header": "A DIFERENÇA ENTRE",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "E",
+	"fine_art_header_4": "ARTE",
+	"fine_art_intro_1": "A arte tem sido um investimento de luxo por séculos e é frequentemente vista como uma reserva de valor por colecionadores ricos.",
+	"fine_art_intro_2": "Bitcoin é dinheiro digital criado em 2009 e também é visto por muitos como uma reserva de valor e investimento.",
+	"fine_art_intro_3": "Mas como as obras de arte físicas diferem do dinheiro digital como Bitcoin? Vamos dar uma olhada nas diferenças entre duas formas de investimento: Bitcoin e Arte.",
+	"fine_art": "ARTE",
+	"fine_art_point_1": "Cada peça é única",
+	"fine_art_point_2": "Requer leilões especializados",
+	"fine_art_point_3": "Altas taxas de leilão",
+	"fine_art_point_4": "Não pode ser dividida",
+	"fine_art_point_5": "Requer autenticação especializada",
+	"fine_art_point_6": "Vulnerável a danos",
+	"fine_art_point_7": "Limitada a colecionadores ricos",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfeitamente fungível",
+	"bitcoin_point_2": "Mercado global 24/7",
+	"bitcoin_point_3": "Baixas taxas de transação",
+	"bitcoin_point_4": "Infinitamente divisível",
+	"bitcoin_point_5": "Criptograficamente verificável",
+	"bitcoin_point_6": "Imune à destruição física",
+	"bitcoin_point_7": "Acessível a todos",
+	"point_1_summary_1": "Bitcoin é perfeitamente fungível, o que significa que cada bitcoin é idêntico e intercambiável - um bitcoin equivale a um bitcoin em qualquer lugar do mundo. A arte é não-fungível por natureza, com cada peça sendo única em sua criação, história, condição e proveniência, tornando comparações diretas e avaliações extremamente difíceis.",
+	"point_2_summary_1": "Bitcoin é negociado em um mercado global 24/7 onde qualquer pessoa com acesso à internet pode comprar ou vender instantaneamente. A arte requer casas de leilão especializadas como Sotheby's ou Christie's, comerciantes privados ou galerias exclusivas. As vendas podem levar meses para serem organizadas e concluídas, com acesso limitado ao mercado e oportunidades de negociação irregulares.",
+	"point_3_summary_1": "As transações de Bitcoin tipicamente custam menos de 1% em taxas, frequentemente muito menos. As vendas de arte envolvem custos substanciais incluindo prêmios do comprador (10-25%), comissões do vendedor (10-15%), seguro, transporte, armazenamento e taxas de autenticação. Esses custos combinados podem facilmente exceder 30-40% do valor da obra de arte em uma única transação.",
+	"point_4_summary_1": "Bitcoin pode ser dividido em 100 milhões de unidades menores chamadas satoshis, tornando-o perfeito para transações de qualquer tamanho, desde microtransações até grandes compras. A arte não pode ser dividida - você não pode possuir uma fração de uma pintura ou vender apenas parte de uma escultura. Esta indivisibilidade limita a flexibilidade de investimento e as opções de liquidez.",
+	"point_5_summary_1": "A propriedade e autenticidade do Bitcoin podem ser verificadas criptograficamente na blockchain por qualquer pessoa com conhecimento técnico básico. A arte requer autenticação especializada cara, pesquisa de proveniência e análise científica. Mesmo com verificação especializada, falsificações regularmente enganam o mundo da arte, e disputas de autenticação podem destruir o valor de uma obra de arte da noite para o dia.",
+	"point_6_summary_1": "Bitcoin, quando adequadamente protegido, não pode ser destruído por inundações, incêndios, terremotos, furacões, roubo ou outros desastres. A arte é vulnerável a todas as formas de destruição física e deterioração. Mesmo com armazenamento caro com clima controlado e seguro abrangente, obras de arte podem ser danificadas por fatores ambientais, acidentes ou desastres naturais, potencialmente perdendo todo o valor.",
+	"point_7_summary_1": "Bitcoin pode ser comprado e vendido por qualquer pessoa com acesso à internet e uma pequena quantia de dinheiro para investir. O investimento em arte é amplamente limitado a colecionadores ricos devido aos altos preços mínimos, acesso exclusivo a leilões, requisitos de armazenamento, custos de seguro e o conhecimento especializado necessário para navegar com sucesso no mercado de arte."
+}

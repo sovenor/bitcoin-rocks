@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2025-07-03",
+		"locale": "id"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Seni Rupa",
+	"fine_art_header": "PERBEDAAN ANTARA",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "DAN",
+	"fine_art_header_4": "SENI RUPA",
+	"fine_art_intro_1": "Seni rupa telah menjadi investasi mewah selama berabad-abad dan sering dilihat sebagai penyimpan nilai oleh kolektor kaya.",
+	"fine_art_intro_2": "Bitcoin adalah uang digital yang diciptakan pada tahun 2009 dan juga dilihat oleh banyak orang sebagai penyimpan nilai dan investasi.",
+	"fine_art_intro_3": "Tetapi bagaimana karya seni fisik berbeda dari uang digital seperti Bitcoin? Mari kita lihat perbedaan antara dua bentuk investasi: Bitcoin & Seni Rupa.",
+	"fine_art": "SENI RUPA",
+	"fine_art_point_1": "Setiap karya adalah unik",
+	"fine_art_point_2": "Memerlukan lelang khusus",
+	"fine_art_point_3": "Biaya lelang tinggi",
+	"fine_art_point_4": "Tidak dapat dibagi",
+	"fine_art_point_5": "Memerlukan autentikasi ahli",
+	"fine_art_point_6": "Rentan terhadap kerusakan",
+	"fine_art_point_7": "Terbatas pada kolektor kaya",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Sempurna dapat ditukar",
+	"bitcoin_point_2": "Pasar global 24/7",
+	"bitcoin_point_3": "Biaya transaksi rendah",
+	"bitcoin_point_4": "Dapat dibagi tanpa batas",
+	"bitcoin_point_5": "Dapat diverifikasi secara kriptografis",
+	"bitcoin_point_6": "Kebal terhadap kerusakan fisik",
+	"bitcoin_point_7": "Dapat diakses oleh semua orang",
+	"point_1_summary_1": "Bitcoin sempurna dapat ditukar, yang berarti setiap bitcoin identik dan dapat dipertukarkan - satu bitcoin sama dengan satu bitcoin di mana pun di dunia. Seni rupa secara alami tidak dapat ditukar, dengan setiap karya unik dalam penciptaan, sejarah, kondisi, dan asal-usulnya, membuat perbandingan langsung dan penilaian menjadi sangat sulit.",
+	"point_2_summary_1": "Bitcoin diperdagangkan di pasar global 24/7 di mana siapa pun dengan akses internet dapat membeli atau menjual secara instan. Seni rupa memerlukan rumah lelang khusus seperti Sotheby's atau Christie's, dealer pribadi, atau galeri eksklusif. Penjualan dapat memakan waktu berbulan-bulan untuk diatur dan diselesaikan, dengan akses pasar terbatas dan peluang perdagangan yang tidak teratur.",
+	"point_3_summary_1": "Transaksi Bitcoin biasanya memerlukan biaya kurang dari 1%, seringkali jauh lebih sedikit. Penjualan seni melibatkan biaya substansial termasuk premi pembeli (10-25%), komisi penjual (10-15%), asuransi, transportasi, penyimpanan, dan biaya autentikasi. Biaya gabungan ini dapat dengan mudah melebihi 30-40% dari nilai karya seni dalam satu transaksi.",
+	"point_4_summary_1": "Bitcoin dapat dibagi menjadi 100 juta unit yang lebih kecil yang disebut satoshi, membuatnya sempurna untuk transaksi dalam ukuran apa pun dari mikrotransaksi hingga pembelian besar. Seni rupa tidak dapat dibagi - Anda tidak dapat memiliki sebagian dari lukisan atau menjual hanya bagian dari patung. Ketidakdapatan dibagi ini membatasi fleksibilitas investasi dan opsi likuiditas.",
+	"point_5_summary_1": "Kepemilikan dan keaslian Bitcoin dapat diverifikasi secara kriptografis di blockchain oleh siapa pun dengan pengetahuan teknis dasar. Seni rupa memerlukan autentikasi ahli yang mahal, penelitian asal-usul, dan analisis ilmiah. Bahkan dengan verifikasi ahli, pemalsuan secara teratur menipu dunia seni, dan sengketa autentikasi dapat menghancurkan nilai karya seni dalam semalam.",
+	"point_6_summary_1": "Bitcoin, ketika dicadangkan dengan benar, tidak dapat dihancurkan oleh banjir, kebakaran, gempa bumi, badai, pencurian, atau bencana lainnya. Seni rupa rentan terhadap semua bentuk kerusakan fisik dan deteriorasi. Bahkan dengan penyimpanan beriklim terkontrol yang mahal dan asuransi komprehensif, karya seni dapat rusak karena faktor lingkungan, kecelakaan, atau bencana alam, berpotensi kehilangan semua nilai.",
+	"point_7_summary_1": "Bitcoin dapat dibeli dan dijual oleh siapa pun dengan akses internet dan sejumlah kecil uang untuk diinvestasikan. Investasi seni sebagian besar terbatas pada kolektor kaya karena harga minimum yang tinggi, akses lelang eksklusif, persyaratan penyimpanan, biaya asuransi, dan pengetahuan khusus yang diperlukan untuk bernavigasi dengan sukses di pasar seni."
+}
