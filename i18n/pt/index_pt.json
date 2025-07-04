@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2025-07-04",
 		"locale": "pt"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin constrói um mundo melhor.",
@@ -92,6 +92,7 @@
 	"home_link_title_war_3": "Como é que o Bitcoin ajuda civis a escapar da guerra no Sudão",
 	"home_link_title_coding_1": "Um tutorial interativo sobre o lado técnico do Bitcoin",
 	"home_link_title_coding_2": "bitcoinSwitch: adapta qualquer dispositivo para aceitar Bitcoin",
+	"home_link_title_coding_3": "Programa o teu caminho através dos mistérios do Bitcoin",
 	"home_link_title_payments_1": "Um breve resumo da Lightning Network (pagamentos instantâneos através do Bitcoin)",
 	"home_link_title_payments_2": "Como é que o Bitcoin e a Lightning Network permitem o Podcasting 2.0",
 	"home_link_title_payments_3": "A carteira Bitcoin de El Salvador poderia poupar US$ 400 milhões anuais para os o povo de El Salvador em despesas de remessa",
@@ -128,6 +129,7 @@
 	"home_link_author_wes_lippman": "Wes Lippman",
 	"home_link_author_satsie": "Satsie",
 	"home_link_author_makerbits": "MakerBits",
+	"home_link_author_saving_satoshi": "Saving Satoshi",
 	"home_link_author_kevin_rooke": "Kevin Rooke",
 	"home_link_author_blockworks": "Blockworks",
 	"home_link_author_lightning_address": "LightningAddress.com",

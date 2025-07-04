@@ -3,7 +3,7 @@
         "authors": [
             "Abeng"
         ],
-		"last-updated": "2025-07-03",
+		"last-updated": "2025-07-04",
         "locale": "id"
     },
     "bitcoin_builds_a_better_world": "Bitcoin membangun dunia yang lebih baik.",
@@ -92,6 +92,7 @@
     "home_link_title_war_3": "Bagaimana Bitcoin Membantu Warga Sipil Melarikan Diri dari Perang di Sudan",
     "home_link_title_coding_1": "Tutorial Interaktif tentang Sisi Teknis Bitcoin",
     "home_link_title_coding_2": "bitcoinSwitch: modifikasi perangkat apa saja untuk menerima Bitcoin",
+    "home_link_title_coding_3": "Kode jalan Anda melalui misteri Bitcoin",
     "home_link_title_payments_1": "Sekilas tentang Jaringan Lightning (Pembayaran Bitcoin Instan)",
     "home_link_title_payments_2": "Bagaimana Bitcoin & Jaringan Lightning Mendukung Podcasting 2.0",
     "home_link_title_payments_3": "Dompet Bitcoin El Salvador bisa menghemat $400 juta per tahun bagi warga Salvador dalam biaya pengiriman uang",
@@ -128,6 +129,7 @@
     "home_link_author_wes_lippman": "Wes Lippman",
     "home_link_author_satsie": "Satsie",
     "home_link_author_makerbits": "MakerBits",
+    "home_link_author_saving_satoshi": "Saving Satoshi",
     "home_link_author_kevin_rooke": "Kevin Rooke",
     "home_link_author_blockworks": "Blockworks",
     "home_link_author_lightning_address": "LightningAddress.com",
