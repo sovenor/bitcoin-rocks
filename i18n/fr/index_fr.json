@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-04",
+		"last-updated": "2025-07-05",
 		"locale": "fr"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin contribue à un monde meilleur.",
@@ -21,13 +21,14 @@
 	"home_btn_energy": "ÉNERGIE",
 	"home_btn_environment": "ENVIRONNEMENT",
 	"home_btn_food": "ALIMENTATION",
-  "home_btn_art": "ART",
-  "home_btn_politics": "POLITIQUES",
-  "home_btn_war": "GUERRE",
-  "home_btn_coding": "PROGRAMMATION",
-  "home_btn_payments": "PAIEMENTS",
-  "home_btn_self_custody": "AUTO-DÉTENTION",
-  "home_btn_you": "VOUS",
+	"home_btn_art": "ART",
+	"home_btn_politics": "POLITIQUES",
+	"home_btn_war": "GUERRE",
+	"home_btn_coding": "PROGRAMMATION",
+	"home_btn_networks": "RÉSEAUX",
+	"home_btn_payments": "PAIEMENTS",
+	"home_btn_self_custody": "AUTO-DÉTENTION",
+	"home_btn_you": "VOUS",
 	"home_section_bitcoin_is": "LE BITCOIN EST",
 	"home_section_bitcoin_and": "BITCOIN &",
 	"home_link_type_website": "SITE WEB",
@@ -93,6 +94,7 @@
 	"home_link_title_coding_1": "Un tutoriel interactif sur l'aspect technique du Bitcoin",
 	"home_link_title_coding_2": "bitcoinSwitch : adapter n'importe quel appareil pour qu'il accepte le bitcoin",
 	"home_link_title_coding_3": "Programmez votre chemin à travers les mystères de Bitcoin",
+	"home_link_title_networks_1": "Une vue en direct du réseau Bitcoin",
 	"home_link_title_payments_1": "Un aperçu sur le Lightning Network (réseau éclair pour des paiements instantanés en bitcoin)",
 	"home_link_title_payments_2": "Comment Bitcoin et le Lightning Network permettent le podcast 2.0",
 	"home_link_title_payments_3": "Le portefeuille Bitcoin au Salvador pourrait permettre aux Salvadoriens d'économiser 400 millions de dollars par an en frais de virements",
@@ -136,5 +138,6 @@
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
 	"home_link_author_strike": "Strike",
-	"home_link_author_bitcoin_explorama": "Bitcoin Explorama"
+	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
+	"home_link_author_mempool_space": "Mempool.space"
 }

@@ -438,6 +438,15 @@ span.coding, .jump-coding, .coding{
             color: #ffffff !important;
         }
 
+span.networks, .jump-networks, .networks{
+    color: #1E3A8A !important;
+}
+
+    .jump-networks:hover{
+        background-color: #1E3A8A;
+        color: #ffffff !important;
+    }
+
 span.self-custody, .jump-self-custody, .self-custody{
     color: #B3FFFC !important;
 }

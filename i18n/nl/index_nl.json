@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-04",
+		"last-updated": "2025-07-05",
 		"locale": "nl"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin bouwt een betere wereld.",
@@ -21,13 +21,14 @@
 	"home_btn_energy": "ENERGIE",
 	"home_btn_environment": "HET MILIEU",
 	"home_btn_food": "ETEN",
-  "home_btn_art": "KUNST",
-  "home_btn_politics": "POLITIEK",
-  "home_btn_war": "OORLOG",
-  "home_btn_coding": "CODEREN",
-  "home_btn_payments": "BETALINGEN",
-  "home_btn_self_custody": "SELF-CUSTODY",
-  "home_btn_you": "JOU",
+	"home_btn_art": "KUNST",
+	"home_btn_politics": "POLITIEK",
+	"home_btn_war": "OORLOG",
+	"home_btn_coding": "CODEREN",
+	"home_btn_networks": "NETWERKEN",
+	"home_btn_payments": "BETALINGEN",
+	"home_btn_self_custody": "SELF-CUSTODY",
+	"home_btn_you": "JOU",
 	"home_section_bitcoin_is": "BITCOIN IS",
 	"home_section_bitcoin_and": "BITCOIN &",
 	"home_link_type_website": "WEBSITE",
@@ -93,6 +94,7 @@
 	"home_link_title_coding_1": "Een Intreractieve Instructie Over De Technische Kant Van Bitcoin",
 	"home_link_title_coding_2": "bitcoinSwitch: Pas eender welk toestel aan om Bitcoin te aanvaarden",
 	"home_link_title_coding_3": "Programmeer je weg door de mysteries van Bitcoin",
+	"home_link_title_networks_1": "Een live weergave van het Bitcoin-netwerk",
 	"home_link_title_payments_1": "Een Kijk op het Lightning Netwerk (Instant Bitcoin Betalingen)",
 	"home_link_title_payments_2": "Hoe Bitcoin & Het Lightning Netwerk Podcasting 2.0 in staat stellen",
 	"home_link_title_payments_3": "El Salvadors Bitcoin wallet zou Salvadorianen Jaarlijks $400 miljoen aan overschrijvingskosten kunnen besparen",
@@ -136,5 +138,6 @@
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
 	"home_link_author_strike": "Strike",
-	"home_link_author_bitcoin_explorama": "Bitcoin Explorama"
+	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
+	"home_link_author_mempool_space": "Mempool.space"
 }

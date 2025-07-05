@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-04",
+		"last-updated": "2025-07-05",
 		"locale": "en"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin builds a better world.",
@@ -25,6 +25,7 @@
   "home_btn_politics": "POLITICS",
   "home_btn_war": "WAR",
   "home_btn_coding": "CODING",
+  "home_btn_networks": "NETWORKS",
   "home_btn_payments": "PAYMENTS",
   "home_btn_self_custody": "SELF-CUSTODY",
   "home_btn_you": "YOU",
@@ -93,6 +94,7 @@
 	"home_link_title_coding_1": "An Interactive Tutorial about Bitcoin's Technical Side",
 	"home_link_title_coding_2": "bitcoinSwitch: retrofit any device to accept Bitcoin",
 	"home_link_title_coding_3": "Code your way through the mysteries of Bitcoin",
+	"home_link_title_networks_1": "A live view of the Bitcoin network",
 	"home_link_title_payments_1": "A Look at the Lightning Network (Instant Bitcoin Payments)",
 	"home_link_title_payments_2": "How Bitcoin & The Lightning Network enable Podcasting 2.0",
 	"home_link_title_payments_3": "El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees",
@@ -136,5 +138,6 @@
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
 	"home_link_author_strike": "Strike",
-	"home_link_author_bitcoin_explorama": "Bitcoin Explorama"
+	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
+	"home_link_author_mempool_space": "Mempool.space"
 }
