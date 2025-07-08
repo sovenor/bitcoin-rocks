@@ -1365,6 +1365,14 @@ span.fine-art{
     color: #8B008B !important;
 }
 
+span.banks{
+    color: #C41E3A !important;
+}
+
+.force-banks{
+    color: #C41E3A !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
