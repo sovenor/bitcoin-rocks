@@ -1373,6 +1373,14 @@ span.banks{
     color: #C41E3A !important;
 }
 
+span.visa{
+    color: #1A1F71 !important;
+}
+
+.force-visa{
+    color: #1A1F71 !important;
+}
+
 h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
