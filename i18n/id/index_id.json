@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-07-05",
+		"last-updated": "2025-07-08",
 		"locale": "id"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin membangun dunia yang lebih baik.",
@@ -95,6 +95,7 @@
 	"home_link_title_coding_2": "bitcoinSwitch: modifikasi perangkat apa saja untuk menerima Bitcoin",
 	"home_link_title_coding_3": "Kode jalan Anda melalui misteri Bitcoin",
 	"home_link_title_networks_1": "Tampilan langsung jaringan Bitcoin",
+	"home_link_title_networks_2": "Bitcoin vs Bank",
 	"home_link_title_payments_1": "Sekilas tentang Jaringan Lightning (Pembayaran Bitcoin Instan)",
 	"home_link_title_payments_2": "Bagaimana Bitcoin & Jaringan Lightning Mendukung Podcasting 2.0",
 	"home_link_title_payments_3": "Dompet Bitcoin El Salvador bisa menghemat $400 juta per tahun bagi warga Salvador dalam biaya pengiriman uang",

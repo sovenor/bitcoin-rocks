@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-05",
+		"last-updated": "2025-07-08",
 		"locale": "th"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin สร้างโลกที่ดีกว่า",
@@ -95,6 +95,7 @@
 	"home_link_title_coding_2": "bitcoinSwitch: retrofit any device to accept Bitcoin",
 	"home_link_title_coding_3": "เขียนโค้ดผ่านความลึกลับของ Bitcoin",
 	"home_link_title_networks_1": "มุมมองสดของเครือข่าย Bitcoin",
+	"home_link_title_networks_2": "บิตคอยน์ vs ธนาคาร",
 	"home_link_title_payments_1": "A Look at the Lightning Network (Instant Bitcoin Payments)",
 	"home_link_title_payments_2": "How Bitcoin & The Lightning Network enable Podcasting 2.0",
 	"home_link_title_payments_3": "El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees",

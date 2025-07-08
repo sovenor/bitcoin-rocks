@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-05",
+		"last-updated": "2025-07-08",
 		"locale": "nl"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin bouwt een betere wereld.",
@@ -95,6 +95,7 @@
 	"home_link_title_coding_2": "bitcoinSwitch: Pas eender welk toestel aan om Bitcoin te aanvaarden",
 	"home_link_title_coding_3": "Programmeer je weg door de mysteries van Bitcoin",
 	"home_link_title_networks_1": "Een live weergave van het Bitcoin-netwerk",
+	"home_link_title_networks_2": "Bitcoin vs Banken",
 	"home_link_title_payments_1": "Een Kijk op het Lightning Netwerk (Instant Bitcoin Betalingen)",
 	"home_link_title_payments_2": "Hoe Bitcoin & Het Lightning Netwerk Podcasting 2.0 in staat stellen",
 	"home_link_title_payments_3": "El Salvadors Bitcoin wallet zou Salvadorianen Jaarlijks $400 miljoen aan overschrijvingskosten kunnen besparen",
