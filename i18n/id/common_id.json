@@ -3,7 +3,7 @@
         "authors": [
             "Abeng"
         ],
-        "last-updated": "2025-03-05",
+		"last-updated": "2025-07-16",
         "locale": "id"
     },
     "common_footer_mission_1": "Misi bitcoin.rocks adalah untuk mempercepat adopsi bitcoin melalui pendidikan.",
@@ -210,5 +210,10 @@
     "common_self_custody": "PENYIMPANAN MANDIRI",
     "common_not_your_keys": "BUKAN KUNCI ANDA",
     "common_cold_wallet": "DOMPET DINGIN",
-    "common_hot_wallet": "DOMPET PANAS"
+    "common_hot_wallet": "DOMPET PANAS",
+    "common_sticker_files_mission_1": "Misi kami adalah membantu Anda orange-pill lebih banyak orang dengan menempatkan stiker Bitcoin di tempat umum. Semua stiker kami memiliki kode QR yang mengarah ke halaman edukasi tentang",
+    "common_sticker_files_mission_2": "Bitcoin",
+    "common_sticker_files_mission_3": "inflasi",
+	"common_sticker_files_mission_4": "Jika Anda tinggal di Amerika Serikat atau Kanada, Anda dapat",
+	"common_sticker_files_mission_5": "meminta paket stiker bahasa Inggris gratis"
 }

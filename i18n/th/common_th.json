@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-07-22",
+		"last-updated": "2025-07-16",
 		"locale": "th"
 	},
 	"common_footer_mission_1": "ภารกิจของ bitcoin.rocks คือการเร่งการนำ Bitcoin มาใช้ผ่านทางการศึกษา",
@@ -209,5 +209,10 @@
 	"common_self_custody": "SELF-CUSTODY",
 	"common_not_your_keys": "NOT YOUR KEYS",
 	"common_cold_wallet": "COLD WALLET",
-	"common_hot_wallet": "HOT WALLET"
+	"common_hot_wallet": "HOT WALLET",
+	"common_sticker_files_mission_1": "ภารกิจของเราคือช่วยให้คุณ orange-pill คนมากขึ้นโดยการติดสติ๊กเกอร์ Bitcoin ในที่สาธารณะ สติ๊กเกอร์ทั้งหมดของเรามี QR codes ที่เชื่อมโยงไปยังหน้าการศึกษาเกี่ยวกับ",
+	"common_sticker_files_mission_2": "Bitcoin",
+	"common_sticker_files_mission_3": "เงินเฟ้อ",
+	"common_sticker_files_mission_4": "หากคุณอาศัยอยู่ในสหรัฐอเมริกาหรือแคนาดา คุณสามารถ",
+	"common_sticker_files_mission_5": "ขอแพ็คสติ๊กเกอร์ภาษาอังกฤษฟรี"
 }

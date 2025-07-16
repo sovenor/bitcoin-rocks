@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-20",
+		"last-updated": "2025-07-16",
 		"locale": "es"
 	},
 	"common_footer_mission_1": "La misión de bitcoin.rocks es acelerar la adopción de bitcoin a través de la educación.",
@@ -210,5 +210,10 @@
 	"common_self_custody": "AUTOCUSTODIA",
 	"common_not_your_keys": "NO SON TUS LLAVES",
 	"common_cold_wallet": "CARTERA FRÍA",
-	"common_hot_wallet": "CARTERA CALIENTE"
+	"common_hot_wallet": "CARTERA CALIENTE",
+	"common_sticker_files_mission_1": "Nuestra misión es ayudarte a orange-pillear a más personas poniendo stickers de Bitcoin en público. Todos nuestros stickers tienen códigos QR que enlazan a páginas educativas sobre",
+	"common_sticker_files_mission_2": "Bitcoin",
+	"common_sticker_files_mission_3": "inflación",
+	"common_sticker_files_mission_4": "Si vives en Estados Unidos o Canadá, puedes",
+	"common_sticker_files_mission_5": "solicitar un paquete de pegatinas en inglés gratis"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-07-24",
+		"last-updated": "2025-07-16",
 		"locale": "de"
 	},
 	"common_footer_mission_1": "Die Mission von bitcoin.rocks ist es, die Akzeptanz von Bitcoin durch Bildung zu beschleunigen.",
@@ -210,5 +210,10 @@
 	"common_self_custody": "SELBSTVERWAHRUNG",
 	"common_not_your_keys": "NICHT DEINE SCHLÜSSEL",
 	"common_cold_wallet": "COLD WALLET",
-	"common_hot_wallet": "HOT WALLET"
+	"common_hot_wallet": "HOT WALLET",
+	"common_sticker_files_mission_1": "Unsere Mission ist es, dir dabei zu helfen, mehr Menschen zu orange-pillen, indem du Bitcoin-Sticker in der Öffentlichkeit anbringst. Alle unsere Sticker haben QR-Codes, die zu Bildungsseiten über",
+	"common_sticker_files_mission_2": "Bitcoin",
+	"common_sticker_files_mission_3": "Inflation",
+	"common_sticker_files_mission_4": "Wenn du in den USA oder Kanada lebst, kannst du",
+	"common_sticker_files_mission_5": "kostenlos ein englisches Stickerpaket anfordern"
 }

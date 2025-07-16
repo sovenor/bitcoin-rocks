@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-10-28",
+		"last-updated": "2025-07-16",
 		"locale": "nl"
 	},
 	"common_footer_mission_1": "De missie van bitcoin.rocks is om de adoptie van Bitcoin te versnellen door onderwijs.",
@@ -210,5 +210,10 @@
 	"common_self_custody": "SELF-CUSTODY",
 	"common_not_your_keys": "NOT YOUR KEYS",
 	"common_cold_wallet": "COLD WALLET",
-	"common_hot_wallet": "HOT WALLET"
+	"common_hot_wallet": "HOT WALLET",
+	"common_sticker_files_mission_1": "Onze missie is om je te helpen meer mensen te orange-pillen door Bitcoin stickers in het openbaar te plaatsen. Al onze stickers hebben QR-codes die linken naar educatieve pagina's over",
+	"common_sticker_files_mission_2": "Bitcoin",
+	"common_sticker_files_mission_3": "inflatie",
+	"common_sticker_files_mission_4": "Als je in de VS of Canada woont, kun je",
+	"common_sticker_files_mission_5": "gratis een Engels stickerpakket aanvragen"
 }
