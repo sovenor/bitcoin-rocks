@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-21",
+		"last-updated": "2025-07-16",
 		"locale": "nl"
 	},
 	"buy_bitcoin_guide": "Hoe Bitcoin te kopen - Stap-voor-Stap Gids",
@@ -106,6 +106,11 @@
 	"buy_platform_feature_p2p": "Peer-to-peer",
 	"buy_platform_feature_private": "Privé handel",
 	"buy_platform_feature_decentralized": "Gedecentraliseerd",
+	"buy_platform_relai_description": "Relai is een Zwitserse Bitcoin-only app met self-custody portemonnee, auto-invest functies en lage kosten voor Europese gebruikers.",
+	"buy_platform_feature_bitcoin_only": "Alleen Bitcoin",
+	"buy_platform_feature_self_custody": "Self-custody portemonnee",
+	"buy_platform_feature_auto_invest": "Auto-invest plannen",
+	"buy_platform_feature_european": "Europees gericht",
 	"buy_step_4_header": "STAP 4: BEWAAR JE BITCOIN VEILIG",
 	"buy_step_4_c1": "Na het kopen van Bitcoin is de belangrijkste stap om het naar je eigen portemonnee te verplaatsen waar je de privésleutels controleert.",
 	"buy_step_4_c2": "Bitcoin op een exchange laten is riskant omdat je de Bitcoin niet echt bezit - de exchange wel.",

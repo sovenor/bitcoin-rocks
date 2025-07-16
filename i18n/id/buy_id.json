@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-21",
+		"last-updated": "2025-07-16",
 		"locale": "id"
 	},
 	"buy_bitcoin_guide": "Cara Membeli Bitcoin - Panduan Langkah demi Langkah",
@@ -106,6 +106,11 @@
 	"buy_platform_feature_p2p": "Peer-to-peer",
 	"buy_platform_feature_private": "Perdagangan pribadi",
 	"buy_platform_feature_decentralized": "Terdesentralisasi",
+	"buy_platform_relai_description": "Relai adalah aplikasi Swiss khusus Bitcoin dengan dompet self-custody, fitur auto-invest, dan biaya rendah untuk pengguna Eropa.",
+	"buy_platform_feature_bitcoin_only": "Hanya Bitcoin",
+	"buy_platform_feature_self_custody": "Dompet self-custody",
+	"buy_platform_feature_auto_invest": "Rencana auto-invest",
+	"buy_platform_feature_european": "Fokus Eropa",
 	"buy_step_4_header": "LANGKAH 4: SIMPAN BITCOIN ANDA DENGAN AMAN",
 	"buy_step_4_c1": "Setelah membeli Bitcoin, langkah terpenting adalah memindahkannya ke dompet Anda sendiri di mana Anda mengontrol kunci pribadi.",
 	"buy_step_4_c2": "Meninggalkan Bitcoin di bursa berisiko karena Anda tidak benar-benar memiliki Bitcoin - bursa yang memilikinya.",

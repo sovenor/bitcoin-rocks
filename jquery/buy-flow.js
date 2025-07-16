@@ -89,6 +89,1121 @@ $(document).ready(function() {
                     features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
                 },
                 {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        // European countries with Relai support
+        'AT': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'BE': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'CZ': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'DK': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'EE': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'FI': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'FR': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'DE': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'GR': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'HU': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'IS': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'IE': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'IT': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'LV': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'LT': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'LU': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'MT': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'NL': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'NO': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'PL': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'PT': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'RO': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'SK': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'SI': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'ES': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'SE': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
+                    name: 'Kraken',
+                    description: 'buy_platform_kraken_description',
+                    link: 'https://kraken.com',
+                    recommended: false,
+                    features: ['buy_platform_feature_established', 'buy_platform_feature_security', 'buy_platform_feature_advanced']
+                }
+            ],
+            'cash': [
+                {
+                    name: 'Bitcoin ATM',
+                    description: 'buy_platform_atm_description',
+                    link: 'https://coinatmradar.com',
+                    recommended: true,
+                    features: ['buy_platform_feature_cash', 'buy_platform_feature_instant', 'buy_platform_feature_anonymous']
+                },
+                {
+                    name: 'Bisq',
+                    description: 'buy_platform_bisq_description',
+                    link: 'https://bisq.network',
+                    recommended: false,
+                    features: ['buy_platform_feature_p2p', 'buy_platform_feature_private', 'buy_platform_feature_decentralized']
+                }
+            ]
+        },
+        'CH': {
+            'bank': [
+                {
+                    name: 'Strike',
+                    description: 'buy_platform_strike_description',
+                    link: 'https://strike.me',
+                    recommended: true,
+                    features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
+                },
+                {
                     name: 'Kraken',
                     description: 'buy_platform_kraken_description',
                     link: 'https://kraken.com',
@@ -122,6 +1237,13 @@ $(document).ready(function() {
                     link: 'https://strike.me',
                     recommended: true,
                     features: ['buy_platform_feature_instant', 'buy_platform_feature_low_fees', 'buy_platform_feature_lightning']
+                },
+                {
+                    name: 'Relai',
+                    description: 'buy_platform_relai_description',
+                    link: 'https://relai.app',
+                    recommended: false,
+                    features: ['buy_platform_feature_bitcoin_only', 'buy_platform_feature_self_custody', 'buy_platform_feature_auto_invest', 'buy_platform_feature_european']
                 },
                 {
                     name: 'Kraken',
