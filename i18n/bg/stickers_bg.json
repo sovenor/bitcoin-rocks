@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "bg"
+	},
+	"free_bitcoin_stickers": "Безплатни Биткойн стикери от bitcoin.rocks",
+	"stickers_description": "Поставете Биткойн стикер на публично място, за да „оранжевеете“ хората около вас.",
+	"stickers_header": "БЕЗПЛАТНИ БИТКОЙН СТИКЕРИ",
+	"stickers_choose_header": "ИЗБЕРЕТЕ ВАШИЯ ПАКЕТ СТИКЕРИ",
+	"stickers_choose_c1": "Нашата мисия е да ви помогнем да „оранжевеете“ повече хора, като поставите стикери с Биткойн на обществени места. Всички наши стикери имат QR кодове, които водят към образователни страници за",
+	"stickers_choose_c2": "Биткойн",
+	"stickers_choose_c3": "инфлация",
+	"stickers_choose_c4": "Изберете вашия пакет стикери по-долу",
+	"stickers_text_pack": "ТЕКСТОВ ПАКЕТ",
+	"stickers_signs_pack": "ПАКЕТ ЗНАЦИ",
+	"stickers_instructions_1": "Въведете пощенския си адрес и ние ще ви изпратим безплатен пакет стикери с Биткойн по пощата! Вашите стикери ще бъдат изпратени в обикновен бял плик.",
+	"stickers_instructions_2": "Данните за адреса се изтриват, след като безплатните ви стикери бъдат изпратени.",
+	"stickers_share_header": "СПОДЕЛЕТЕ ВАШИТЕ МЕСТА ЗА СТИКЕРИ",
+	"stickers_share_c1": "Споделете вашите места за стикери с нас в Nostr и вижте къде други хора поставят своите стикери.",
+	"stickers_btn_share_on_nostr": "СПОДЕЛЕТЕ В NOSTR",
+	"stickers_btn_what_is_nostr": "КАКВО Е NOSTR?",
+	"stickers_country_global_print": "По света — Отпечатайте си свои собствени стикери",
+	"stickers_country_global_order": "По света — Поръчайте на едро",
+	"placeholder_name_optional": "Име (по избор)",
+	"placeholder_address_line_1": "Адрес ред 1",
+	"placeholder_address_line_2": "Адрес ред 2 (по избор)",
+	"placeholder_city": "Град",
+	"placeholder_state": "Щат",
+	"placeholder_province": "Провинция",
+	"placeholder_zip_code": "Пощенски код",
+	"placeholder_postal_code": "Пощенски код",
+	"placeholder_language": "Език",
+	"placeholder_which_stickers": "Кои стикери?",
+	"placeholder_email_optional": "Въведете своя имейл, за да бъдете уведомени (по избор)"
+}
