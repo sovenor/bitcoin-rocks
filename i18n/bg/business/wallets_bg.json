@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-'07'-23",
+		"locale": "bg"
+	},
+	"how_to_accept_bitcoin_payments": "Как да приемате Биткойн плащания",
+	"wallets_header": "ВЗЕМЕТЕ БЕЗПЛАТЕН БИТКОЙН ПОРТФЕЙЛ, ЗА ДА ПРИЕМАТЕ БИТКОЙН ПЛАЩАНИЯ",
+	"wallets_intro_1": "Всички Биткойн портфейли са оперативно съвместими, така че вашите клиенти могат да ви плащат в Биткойн, независимо кой портфейл използват.",
+	"wallets_intro_2": "Само Биткойн портфейли:",
+	"wallets_intro_3": "Това са чисти Биткойн портфейли, които отключват пълните предимства на Биткойн: без посредници, ниски такси и без таксувания или измами.",
+	"wallets_intro_4": "Хибридни портфейли:",
+	"wallets_intro_5": "Те ви позволяват да обменяте всяка част от вашия Биткойн за долари веднага щом клиентът ви плати. Таксите все още са по-ниски от плащанията с кредитни карти, но по-високи от чистите Биткойн плащания.",
+	"wallets_intro_6": "И двата са чудесни начини за приемане на Биткойн. Конкретният портфейл, който ще използвате, ще зависи от размера и вида на вашия бизнес.",
+	"wallets_choice_sole": "портфейли за еднолични търговци",
+	"wallets_choice_multiple": "портфейли за фирми с много служители",
+	"wallets_choice_online": "портфейли за онлайн бизнеси",
+	"wallets_choice_invoice": "портфейли за бизнеси, базирани на фактури",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_feature_bitcoin_only": "Само Биткойн портфейл",
+	"wallets_feature_no_info": "Не се изисква информация",
+	"wallets_feature_in_person": "Само лични плащания",
+	"wallets_feature_settles_bitcoin": "Урежда 100% в Биткойн",
+	"wallets_feature_hybrid": "Хибриден портфейл",
+	"wallets_feature_info": "Изисква се бизнес информация",
+	"wallets_feature_in_person_online": "Лични и онлайн плащания",
+	"wallets_feature_settles_both": "Урежда в Биткойн и долари",
+	"wallets_feature_multiple_employees": "Поддръжка на множество служители (BPTs)",
+	"wallets_feature_self_hosted": "Самостоятелно хостван = 0% такси",
+	"wallets_feature_online_store": "Интеграция с онлайн магазин",
+	"wallets_feature_invoicing": "Безплатен софтуер за фактуриране",
+	"wallets_get_wallet": "ВЗЕМЕТЕ ПОРТФЕЙЛ"
+}
