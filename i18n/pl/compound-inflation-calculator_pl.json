@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+		"cic_header": "KALKULATOR INFLACJI SKŁADANEJ",
+		"cic_description": "Użyj tego Kalkulatora Inflacji Składanej, aby dowiedzieć się, o ile musi wzrosnąć Twoje wynagrodzenie, aby nadążyć za inflacją.",
+		"what_can_i_do_about": "Co mogę zrobić w związku z",
+		"what_can_i_do_about_2": "inflacją?",
+		"cic_inflation_cta": "Uniknij inflacji z Bitcoinem"
+	}
+	

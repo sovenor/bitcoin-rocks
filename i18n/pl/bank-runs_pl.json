@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+		"bitcoin_doesnt_have_bank_runs": "Bitcoin nie ma kryzysów bankowych",
+		"bank_runs_header": "BITCOIN NIE MA KRYZYSÓW BANKOWYCH",
+		"bank_runs_header_2": "ALE TWOJE BANK MOŻE",
+		"bank_runs_what": "CO TO JEST KRYZYS BANKOWY?",
+		"bank_runs_what_content_1": "Kryzys bankowy występuje, gdy zbyt wiele osób jednocześnie próbuje wypłacić swoje pieniądze z banku.",
+		"bank_runs_what_content_2": "Jeśli banki nie mają wystarczającej ilości pieniędzy, aby pokryć wypłaty, mogą całkowicie upaść podczas kryzysu bankowego.",
+		"bank_runs_how": "JAK POWSTAJĄ KRYZYSY BANKOWE?",
+		"bank_runs_how_content_1": "Nasz system bankowy opiera się na 'rezerwie cząstkowej', co oznacza, że banki nie trzymają po prostu twoich pieniędzy w skarbcu, czekając, aż je wydasz lub wypłacisz.",
+		"bank_runs_how_content_2": "Zamiast tego, twój bank bierze twoje pieniądze i pożycza je lub inwestuje. Może to blokować twoje pieniądze na dłuższy okres, mimo że bank obiecuje ci możliwość wypłaty w dowolnym momencie.",
+		"bank_runs_how_content_3": "Co więc się dzieje, gdy próbujesz wypłacić swoje pieniądze po tym, jak bank już je pożyczył lub zainwestował?",
+		"bank_runs_how_content_4": "To nie problem, jeśli jesteś jedyną osobą próbującą wypłacić. Bank po prostu weźmie pieniądze kogoś innego i da je tobie. Ale co się dzieje, gdy zbyt wiele osób próbuje wypłacić jednocześnie?",
+		"bank_runs_how_content_5": "Wielu ludzi w USA właśnie się o tym przekonało, kiedy w marcu 2023 roku doszło do kryzysu bankowego w Silicon Valley Bank.",
+		"bank_runs_how_content_6": "Bank zainwestował pieniądze swoich klientów w obligacje rządowe, które były zablokowane na okres do 30 lat. Co gorsza, wartość tych obligacji ostatnio spadła, więc Silicon Valley Bank nie mógł po prostu sprzedać obligacji, aby odzyskać pieniądze swoich depozytariuszy. Byli niewypłacalni. Nie mieli wystarczającej ilości pieniędzy, aby pokryć wypłaty swoich depozytariuszy.",
+		"bank_runs_how_content_7": "Gdy więcej osób się o tym dowiedziało, problem tylko się pogłębił. Wpłynęło więcej wniosków o wypłaty, ale wiele z nich nie zostało przetworzonych. Tysiące firm zdały sobie sprawę, że nie będą w stanie zapłacić swoim pracownikom z powodu upadku banku.",
+		"bank_runs_how_content_8": "FDIC interweniował i zgodził się zabezpieczyć depozytariuszy. Problem rozwiązany? Nie do końca...",
+		"bank_runs_fdic": "CZY UBEZPIECZENIE FDIC CHRONI MOJE PIENIĄDZE?",
+		"bank_runs_fdic_content_1": "Ubezpieczenie FDIC jest zaprojektowane, aby chronić depozytariuszy bankowych w przypadku upadku banku. Depozyty są ubezpieczone do kwoty 250 000 dolarów na depozytariusza. Brzmi świetnie, prawda?",
+		"bank_runs_fdic_content_2": "Nie do końca. Jeśli bank upadnie, skąd FDIC weźmie pieniądze? Mają fundusz ubezpieczeniowy w wysokości 125 miliardów dolarów.",
+		"bank_runs_fdic_content_3": "To brzmi jak dużo pieniędzy, dopóki nie porównasz tego z ilością depozytów, które ubezpieczają: prawie 10 bilionów, czyli 10 000 miliardów dolarów.",
+		"bank_runs_fdic_content_4": "FDIC nawet pokazuje na swojej stronie internetowej, że mają wystarczająco pieniędzy w swoim funduszu ubezpieczeniowym, aby pokryć nieco ponad 1% depozytów.",
+		"bank_runs_fdic_content_5": "W przypadku upadku banku, który przekroczyłby fundusz ubezpieczeniowy FDIC, jest prawdopodobne (ale nie gwarantowane), że rząd USA wydrukowałby pieniądze, aby zabezpieczyć depozytariuszy.",
+		"bank_runs_fdic_content_6": "Ale drukowanie pieniędzy powoduje inflację, więc to nie jest najlepsze rozwiązanie.",
+		"bank_runs_safe": "CZY SĄ BANKI, KTÓRE NIE UŻYWAJĄ REZERWY CZĄSTKOWEJ?",
+		"bank_runs_safe_content_1": "Niektóre banki próbowały być 'bezpiecznymi bankami', które nie pożyczają ani nie inwestują funduszy depozytariuszy.",
+		"bank_runs_safe_content_2": "Mimo że te bezpieczne banki miałyby zerowe ryzyko kryzysów bankowych, ich wnioski zostały odrzucone przez Rezerwę Federalną. Oznacza to, że nie mogą legalnie działać jako banki.",
+		"bank_runs_safe_content_3": "Ponieważ zostały zablokowane przed działalnością, dziś nie ma banków, które nie używają rezerwy cząstkowej.",
+		"bank_runs_safe_content_4": "Na szczęście istnieje sposób, aby zrezygnować z systemu rezerwy cząstkowej, będąc swoim własnym bankiem. Nie, nie mówimy o chowaniu gotówki pod materacem.",
+		"bank_runs_safe_content_5": "Oszczędzanie w gotówce jest nadal podatne na inflację.",
+		"bank_runs_safe_content_6": "Mówimy o Bitcoinie: nowym systemie finansowym, który pozwala ci być swoim własnym bankiem.",
+		"bank_runs_protect": "CZY BITCOIN MOŻE CHRONIĆ MNIE PRZED KRYZYSAMI BANKOWYMI?",
+		"bank_runs_protect_content_1": "Tak, Bitcoin to system finansowy oparty na pełnej rezerwie.",
+		"bank_runs_protect_content_2": "Kryzysy bankowe są niemożliwe w Bitcoinie, o ile wypłacisz swoje Bitcoiny do własnego portfela. Nie zostawiaj swoich Bitcoinów na giełdzie ani w opakowaniu, takim jak ETF Bitcoin.",
+		"bank_runs_protect_content_3": "Sprawdź nasz prosty Przewodnik po Portfelu Bitcoin, aby dowiedzieć się, jak wypłacić do własnego portfela.",
+		"bank_runs_protect_content_4": "Dzięki Bitcoinowi, w końcu możesz kontrolować swoje pieniądze."
+}
