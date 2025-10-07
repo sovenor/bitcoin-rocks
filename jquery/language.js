@@ -21,6 +21,7 @@ $(function() {
     { code: 'nl', name: 'Nederlands' },
     { code: 'pt', name: 'Português' },
     { code: 'th', name: 'ภาษาไทย' },
+    { code: 'bg', name: 'български' },
     { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
   ];
 
