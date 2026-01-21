@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-01-21",
 		"locale": "th"
 	},
 	"how_to_accept_bitcoin_payments": "วิธีรับการชำระเงินด้วย Bitcoin",
@@ -22,7 +22,9 @@
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
 	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
 	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "คุณสามารถรับการชำระเงิน Bitcoin ด้วยเทอร์มินัล PoS Square ที่มีอยู่หรือการรวมร้านค้าออนไลน์ของคุณ การรับการชำระเงิน Bitcoin ไม่เคยง่ายขนาดนี้มาก่อน",
 	"wallets_feature_bitcoin_only": "กระเป๋าเงิน Bitcoin เท่านั้น",
 	"wallets_feature_no_info": "ไม่มีข้อมูลที่จำเป็น",
 	"wallets_feature_in_person": "ชำระเงินด้วยตนเองเท่านั้น",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-01-21",
 		"locale": "id"
 	},
 	"how_to_accept_bitcoin_payments": "Cara Menerima Pembayaran Bitcoin",
@@ -22,7 +22,9 @@
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
 	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
 	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Anda dapat menerima pembayaran Bitcoin dengan terminal PoS Square yang sudah ada atau integrasi toko online Anda. Tidak pernah semudah ini untuk menerima pembayaran Bitcoin.",
 	"wallets_feature_bitcoin_only": "Dompet khusus Bitcoin",
 	"wallets_feature_no_info": "Tidak memerlukan informasi",
 	"wallets_feature_in_person": "Hanya untuk pembayaran langsung",

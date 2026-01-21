@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-'07'-23",
+		"last-updated": "2026-01-21",
 		"locale": "bg"
 	},
 	"how_to_accept_bitcoin_payments": "Как да приемате Биткойн плащания",
@@ -22,7 +22,9 @@
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
 	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
 	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Можете да приемате Биткойн плащания с вашия съществуващ Square PoS терминал или интеграция на онлайн магазин. Никога не е било толкова лесно да приемате Биткойн плащания.",
 	"wallets_feature_bitcoin_only": "Само Биткойн портфейл",
 	"wallets_feature_no_info": "Не се изисква информация",
 	"wallets_feature_in_person": "Само лични плащания",

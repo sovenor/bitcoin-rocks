@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-01-21",
 		"locale": "en"
 	},
 	"how_to_accept_bitcoin_payments": "How to Accept Bitcoin Payments",
@@ -22,7 +22,9 @@
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
 	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
 	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "You can accept Bitcoin payments with your existing Square PoS terminal or online store integration. It's never been easier to accept Bitcoin payments.",
 	"wallets_feature_bitcoin_only": "Bitcoin-only wallet",
 	"wallets_feature_no_info": "No info required",
 	"wallets_feature_in_person": "In-person payments only",
