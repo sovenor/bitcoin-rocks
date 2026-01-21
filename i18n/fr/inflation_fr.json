@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-06",
+		"last-updated": "2026-01-21",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -35,13 +35,13 @@
 	"inflation_philippine_peso": "PHILIPPINE PESO",
 	"inflation_thai_baht": "THAI BAHT",
 	"inflation_venezuelan_bolivar": "VENEZUELAN BOLIVAR",
-	"inflation_usd_s1_c1": "Si vous avez économisé 100 dollars en 2020... votre pouvoir d'achat n'est plus que de 50 dollars aujourd'hui. Ce chiffre est basé sur une inflation annuelle de 10 %",
+	"inflation_usd_s1_c1": "Si vous avez mis 100 dollars à la banque il y a 5 ans, vous avez moins de 100 dollars de pouvoir d'achat aujourd'hui.",
 	"inflation_usd_s1_c2": "composée",
 	"inflation_usd_s1_c3": "au cours des $1 dernières années.",
-	"inflation_usd_s1_c4": "Vous avez peut-être encore 100 dollars sur votre compte en banque, mais ils vous permettent d'acheter moitié moins qu'il y a quelques années.",
+	"inflation_usd_s1_c4": "Vous avez peut-être encore ces 100 dollars sur votre compte en banque, mais ils vous permettent d'acheter moins qu'à l'époque.",
 	"inflation_usd_but_why": "MAIS POURQUOI ?",
 	"inflation_usd_s1_c5": "Aux États-Unis, il n'y a pas de limite fixe au nombre de dollars américains qui peuvent être créés. Cette offre illimitée, c'est la cause première de l'inflation.",
-	"inflation_usd_s1_c6": "Au cours des dernières années,",
+	"inflation_usd_s1_c6": "Depuis 2020,",
 	"inflation_usd_s1_c7": "le montant total des dollars américains est passé de 4 000 milliards de dollars à 18 000 milliards de dollars.",
 	"inflation_usd_s1_c8": "Cette impression monétaire a provoqué une inflation record.",
 	"inflation_usd_s1_c9": "Tout coûte plus cher maintenant, parce que l'impression monétaire a fait perdre de la valeur à vos dollars.",

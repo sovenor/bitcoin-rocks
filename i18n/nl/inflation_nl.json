@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-10-01",
+		"last-updated": "2026-01-21",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Heeft Geen Inflatie",
@@ -35,13 +35,13 @@
 	"inflation_philippine_peso": "FILIPPIJNSE PESO",
 	"inflation_thai_baht": "THAISE BAHT",
 	"inflation_venezuelan_bolivar": "VENEZOLAANSE BOLIVAR",
-	"inflation_usd_s1_c1": "Wanneer je $100 gespaard hebt in 2020... houd je ongeveer $50 aan koopkracht op de dag van vandaag. Deze cijfers zijn gebaseerd op 10% jaarlijkse inflatie",
+	"inflation_usd_s1_c1": "Als je 5 jaar geleden $100 op de bank hebt gezet, heb je vandaag minder dan $100 aan koopkracht.",
 	"inflation_usd_s1_c2": "samengeteld",
 	"inflation_usd_s1_c3": "doorheen de laatste $1 jaren.",
-	"inflation_usd_s1_c4": "Hoewel je nog steeds diezelfde $100 op je bankrekening hebt, kun je er maar voor de helft zoveel mee kopen als een paar jaar geleden.",
+	"inflation_usd_s1_c4": "Hoewel je nog steeds diezelfde $100 op je bankrekening hebt, kun je er minder mee kopen dan toen.",
 	"inflation_usd_but_why": "MAAR WAAROM?",
 	"inflation_usd_s1_c5": "In de Verenigde Staten bestaat er geen vaste limiet op hoeveel Dollar er kan gemaakt worden. Dit onbeperkt aanbod is de oorzaak van inflatie.",
-	"inflation_usd_s1_c6": "Doorheen de laatste paar jaren,",
+	"inflation_usd_s1_c6": "Sinds 2020,",
 	"inflation_usd_s1_c7": "is de totale hoeveelheid van de Amerikaanse Dollar vermeerderd van $4 triljoen tot $18 triljoen.",
 	"inflation_usd_s1_c8": "Dit printen van geld heeft een record aan inflatie veroorzaakt.",
 	"inflation_usd_s1_c9": "Alles is duurder geworden, doordat het printen van geld de dollar minder waard heeft gemaakt.",

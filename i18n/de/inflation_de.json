@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-03",
+		"last-updated": "2026-01-21",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
@@ -35,13 +35,13 @@
 	"inflation_philippine_peso": "PHILIPPINISCHER PESO",
 	"inflation_thai_baht": "THAILÄNDISCHER BAHT",
 	"inflation_venezuelan_bolivar": "VENEZOLANISCHER BOLIVAR",
-	"inflation_usd_s1_c1": "Wenn Du im Jahr 2020 100 Dollar gespart hast, hast Du heute nur noch 50 Dollar an Kaufkraft. Dies basiert auf einer jährlichen Inflation von 10 %",
+	"inflation_usd_s1_c1": "Wenn Du vor 5 Jahren 100 Dollar auf die Bank gelegt hast, hast Du heute weniger als 100 Dollar Kaufkraft.",
 	"inflation_usd_s1_c2": "zusammengesetzt",
 	"inflation_usd_s1_c3": "über die letzten $1 Jahre.",
-	"inflation_usd_s1_c4": "Zwar befinden sich die 100 Dollar immer noch auf Deinem Bankkonto, aber Du kannst damit nur noch halb so viel kaufen wie noch vor ein paar Jahren.",
+	"inflation_usd_s1_c4": "Zwar befinden sich die 100 Dollar immer noch auf Deinem Bankkonto, aber Du kannst damit weniger kaufen als damals.",
 	"inflation_usd_but_why": "ABER WARUM?",
 	"inflation_usd_s1_c5": "In den Vereinigten Staaten gibt es keine feste Obergrenze, wie viele US-Dollar geschaffen werden können. Dieses unbegrenzte Angebot ist die Hauptursache für die Inflation.",
-	"inflation_usd_s1_c6": "Im Laufe der letzten Jahre",
+	"inflation_usd_s1_c6": "Seit 2020",
 	"inflation_usd_s1_c7": "ist der Gesamtbestand an US-Dollar von 4 Billionen auf 18 Billionen Dollar gestiegen.",
 	"inflation_usd_s1_c8": "Dieses Gelddrucken hat zu einer Rekordinflation geführt.",
 	"inflation_usd_s1_c9": "Alles ist teurer geworden, weil das Gelddrucken den Wert der Dollars verringert hat.",

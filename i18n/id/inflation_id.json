@@ -1,7 +1,7 @@
 {
     "@metadata": {
         "authors": ["Abeng"],
-        "last-updated": "2025-03-05",
+        "last-updated": "2026-01-21",
         "locale": "id"
     },
     "bitcoin_doesnt_have_inflation": "Bitcoin Tidak Memiliki Inflasi",
@@ -33,13 +33,13 @@
     "inflation_philippine_peso": "PESO FILIPINA",
     "inflation_thai_baht": "BAHT THAILAND",
     "inflation_venezuelan_bolivar": "BOLIVAR VENEZUELA",
-    "inflation_usd_s1_c1": "Jika Anda menyimpan $100 pada tahun 2020... Anda hanya memiliki sekitar $50 daya beli hari ini. Ini berdasarkan inflasi tahunan 10%",
+    "inflation_usd_s1_c1": "Jika Anda menaruh $100 di bank 5 tahun yang lalu, hari ini Anda memiliki daya beli kurang dari $100.",
     "inflation_usd_s1_c2": "yang diperparah",
     "inflation_usd_s1_c3": "selama $1 tahun terakhir.",
-    "inflation_usd_s1_c4": "Anda mungkin masih memiliki $100 di rekening bank Anda, tetapi itu hanya membeli sekitar setengah dari yang bisa dibeli beberapa tahun lalu.",
+    "inflation_usd_s1_c4": "Anda mungkin masih memiliki $100 di rekening bank Anda, tetapi itu membeli lebih sedikit daripada saat itu.",
     "inflation_usd_but_why": "TAPI MENGAPA?",
     "inflation_usd_s1_c5": "Di Amerika Serikat, tidak ada batas tetap pada berapa banyak Dolar AS yang bisa diciptakan. Pasokan tak terbatas ini adalah akar penyebab inflasi.",
-    "inflation_usd_s1_c6": "Selama beberapa tahun terakhir,",
+    "inflation_usd_s1_c6": "Sejak 2020,",
     "inflation_usd_s1_c7": "jumlah total Dolar AS telah meningkat dari $4 triliun menjadi $18 triliun.",
     "inflation_usd_s1_c8": "Pencetakan uang ini telah menyebabkan inflasi rekord.",
     "inflation_usd_s1_c9": "Segalanya lebih mahal sekarang, karena pencetakan uang membuat dolar Anda bernilai lebih sedikit.",
