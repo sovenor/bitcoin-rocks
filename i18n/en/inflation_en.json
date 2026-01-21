@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-01",
+		"last-updated": "2026-01-21",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
@@ -35,13 +35,13 @@
 	"inflation_philippine_peso": "PHILIPPINE PESO",
 	"inflation_thai_baht": "THAI BAHT",
 	"inflation_venezuelan_bolivar": "VENEZUELAN BOLIVAR",
-	"inflation_usd_s1_c1": "If you had $100 saved in 2020... you only have about $50 of purchasing power today. This is based on 10% annual inflation",
+	"inflation_usd_s1_c1": "If you put $100 in the bank 5 years ago, you have less than $100 of purchasing power today.",
 	"inflation_usd_s1_c2": "compounded",
 	"inflation_usd_s1_c3": "over the last $1 years.",
-	"inflation_usd_s1_c4": "You may still have that $100 in your bank account, but it buys you about half as much as it did a few years ago.",
+	"inflation_usd_s1_c4": "You may still have that $100 in your bank account, but it buys you less than it did back then.",
 	"inflation_usd_but_why": "BUT WHY?",
 	"inflation_usd_s1_c5": "In the United States, there is no fixed limit on how many US Dollars can be created. This unlimited supply is the root cause of inflation.",
-	"inflation_usd_s1_c6": "Over the last few years,",
+	"inflation_usd_s1_c6": "Since 2020,",
 	"inflation_usd_s1_c7": "the total amount of US Dollars has increased from $4 trillion to $18 trillion.",
 	"inflation_usd_s1_c8": "This money printing has caused record inflation.",
 	"inflation_usd_s1_c9": "Everything costs more now, because money printing made your dollars worth less.",
