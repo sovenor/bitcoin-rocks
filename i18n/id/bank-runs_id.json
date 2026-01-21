@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-01-21",
 		"locale": "id"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin Tidak Mengalami Bank Run",
@@ -17,8 +17,8 @@
 	"bank_runs_how_content_2": "Sebaliknya, bank mengambil uang Anda dan meminjamkannya atau menginvestasikannya. Ini bisa membuat uang Anda terkunci dalam waktu lama, meskipun bank menjanjikan Anda dapat menariknya kapan saja.",
 	"bank_runs_how_content_3": "Jadi, apa yang terjadi jika Anda mencoba menarik uang setelah bank telah meminjamkannya atau menginvestasikannya?",
 	"bank_runs_how_content_4": "Tidak masalah jika hanya Anda yang menarik uang. Bank akan mengambil uang dari nasabah lain dan memberikannya kepada Anda. Tapi bagaimana jika terlalu banyak orang mencoba menarik uang sekaligus?",
-	"bank_runs_how_content_5": "Banyak orang di AS mengetahuinya saat terjadi bank run di Silicon Valley Bank pada Maret 2023.",
-	"bank_runs_how_content_6": "Bank telah menginvestasikan uang nasabahnya dalam obligasi pemerintah yang terkunci hingga 30 tahun. Lebih buruk lagi, nilai obligasi tersebut turun baru-baru ini, sehingga Silicon Valley Bank tidak bisa menjualnya untuk mengembalikan uang nasabah mereka. Bank tersebut bangkrut dan tidak memiliki cukup dana untuk memenuhi penarikan nasabahnya.",
+	"bank_runs_how_content_5": "Banyak orang di AS mengetahuinya ketika terjadi bank run di Silicon Valley Bank pada Maret 2023.",
+	"bank_runs_how_content_6": "Bank telah menginvestasikan uang nasabahnya dalam obligasi pemerintah yang terkunci hingga 30 tahun. Lebih buruk lagi, nilai obligasi tersebut telah turun secara dramatis baru-baru ini, sehingga Silicon Valley Bank tidak bisa menjualnya untuk mengembalikan uang nasabah mereka. Bank tersebut bangkrut dan tidak memiliki cukup dana untuk memenuhi penarikan nasabahnya.",
 	"bank_runs_how_content_7": "Semakin banyak orang menyadari hal ini, semakin parah masalahnya. Permintaan penarikan semakin banyak, tetapi banyak yang tidak dapat diproses. Ribuan bisnis menyadari bahwa mereka tidak bisa membayar karyawan mereka karena kegagalan bank.",
 	"bank_runs_how_content_8": "FDIC turun tangan dan menyatakan akan mengembalikan dana nasabah. Masalah selesai? Tidak sepenuhnya...",
 	"bank_runs_fdic": "APAKAH ASURANSI FDIC MELINDUNGI UANG SAYA?",

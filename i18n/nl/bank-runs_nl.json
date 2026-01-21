@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-11-05",
+		"last-updated": "2026-01-21",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin Heeft Geen Have Bankruns",
@@ -17,8 +17,8 @@
 	"bank_runs_how_content_2": "In de plaats daarvan neemt de bank jouw geld en voorziet leningen ermee, of investeert het jouw geld. Op die manier kan jouw geld een lange periode vastzitten, zelfs als belooft de bank dat je jouw geldd eender wanneer kan opnemen.",
 	"bank_runs_how_content_3": "Dus wat gebeurt er wanneer je jouww geld probeert op te nemen nadat de bank je geld al heeft uitgeleend of geïnvesteerd?",
 	"bank_runs_how_content_4": "Het is geen probleem als jij de enige bent die het probeert op te nemen. De bank neemt dan gewoon het geld van iemand anders en geeft dat aan jou. Maar wat gebeurt er als teveel mensen dat op hetzelfde moment proberen?",
-	"bank_runs_how_content_5": "Veel mensen in de Verenigde Staten hebben ontdekt dat een bankrun was op de Silicon Valley Bank in maart 2023.",
-	"bank_runs_how_content_6": "De bank had het geld van hun klanten geïnvesteerd in staatsobligaties die 30 jaar lang geblokkeerd waren. Nog erger, de waarde van die obligaties was recentelijk gedaald, dus kon Silicon Valley Bank de obligaties niet zomaar verkopen om het geld van hun depositors terug te krijgen. Ze waren insolvent. Ze hadden niet genoeg geld om de opnames van hun depositors te te evenaren.",
+	"bank_runs_how_content_5": "Veel mensen in de Verenigde Staten hebben ontdekt toen er een bankrun was op de Silicon Valley Bank in maart 2023.",
+	"bank_runs_how_content_6": "De bank had het geld van hun klanten geïnvesteerd in staatsobligaties die 30 jaar lang geblokkeerd waren. Nog erger, de waarde van die obligaties was recentelijk dramatisch gedaald, dus kon Silicon Valley Bank de obligaties niet zomaar verkopen om het geld van hun depositors terug te krijgen. Ze waren insolvent. Ze hadden niet genoeg geld om de opnames van hun depositors te te evenaren.",
 	"bank_runs_how_content_7": "Naarmate meer mensen erachter kwamen, werd het probleem alleen maar erger. Er kwamen meer verzoeken tot opnames binnen, maar velen werden niet verwerkt. Duizenden bedrijven beseften dat ze hun werknemers niet zouden kunnen betalen doordat de bank gefaald was.",
 	"bank_runs_how_content_8": "De Federale depositoverzekeringsmaatschappij kwam tussenbeide en stemde ermee in om de depositors te vergoeden. Probleem opgelost? Niet echt...",
 	"bank_runs_fdic": "BESCHERMT DE FEDERALE DEPOSITOVERZEKERINGSMAATSCHAPPIJ MIJN GELD?",

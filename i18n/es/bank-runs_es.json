@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-08-29",
+		"last-updated": "2026-01-21",
 		"locale": "es"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin no tiene pánico bancario",
@@ -17,8 +17,8 @@
 	"bank_runs_how_content_2": "En lugar de eso, tu banco coge tu dinero y lo presta o lo invierte. Esto puede bloquear tu dinero durante largos periodos de tiempo, aunque el banco te prometa la posibilidad de retirarlo en cualquier momento.",
 	"bank_runs_how_content_3": "¿Y qué pasa si intentas retirar tu dinero después de que el banco ya lo haya prestado o invertido?",
 	"bank_runs_how_content_4": "No es un problema si eres el único que intenta retirar. El banco cogerá el dinero de otra persona y te lo dará a ti. Pero, ¿qué ocurre cuando muchas personas intentan sacar dinero al mismo tiempo?",
-	"bank_runs_how_content_5": "Mucha gente en EEUU se acaba de enterar cuando hubo una corrida bancaria en el Silicon Valley Bank en marzo de 2023.",
-	"bank_runs_how_content_6": "El banco había invertido el dinero de sus clientes en bonos del Estado que estaban bloqueados hasta 30 años. Peor aún, el valor de esos bonos había caído recientemente, por lo que el Silicon Valley Bank no podía venderlos para recuperar el dinero de sus depositantes. Eran insolventes. No tenían suficiente dinero para hacer frente a las retiradas de sus depositantes.",
+	"bank_runs_how_content_5": "Mucha gente en EEUU se enteró cuando hubo una corrida bancaria en el Silicon Valley Bank en marzo de 2023.",
+	"bank_runs_how_content_6": "El banco había invertido el dinero de sus clientes en bonos del Estado que estaban bloqueados hasta 30 años. Peor aún, el valor de esos bonos había caído dramáticamente recientemente, por lo que el Silicon Valley Bank no podía venderlos para recuperar el dinero de sus depositantes. Eran insolventes. No tenían suficiente dinero para hacer frente a las retiradas de sus depositantes.",
 	"bank_runs_how_content_7": "A medida que más gente se enteraba, el problema no hacía más que empeorar. Llegaron más solicitudes de retirada de fondos, pero muchas no se procesaron. Miles de empresas se dieron cuenta de que no podrían pagar a sus empleados debido a la quiebra del banco.",
 	"bank_runs_how_content_8": "La FDIC intervino y acordó indemnizar a los depositantes. ¿Problema resuelto? No exactamente...",
 	"bank_runs_fdic": "¿EL SEGURO DE LA FDIC PROTEGE MI DINERO?",

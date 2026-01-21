@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-21",
+		"last-updated": "2026-01-21",
 		"locale": "pt"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin Não Tem Corridas aos Bancos",
@@ -17,8 +17,8 @@
 	"bank_runs_how_content_2": "Em vez disso, o teu banco pega no teu dinheiro e empresta ou investe-o. Isto pode bloquear o teu dinheiro durante longos períodos de tempo, apesar de o banco te prometer a possibilidade de o levantar a qualquer momento.",
 	"bank_runs_how_content_3": "Então o que é que acontece se tentares levantar o teu dinheiro depois de o banco já o ter emprestado ou investido?",
 	"bank_runs_how_content_4": "Não há problema se fores o único a tentar levantar dinheiro. O banco pega no dinheiro de outra pessoa e dá-o a ti. Mas o que é que acontece quando muitas pessoas tentam levantar dinheiro ao mesmo tempo?",
-	"bank_runs_how_content_5": "Muitas pessoas acabaram de descobrir quando houve uma corrida no Silicon Valley Bank em março de 2023.",
-	"bank_runs_how_content_6": "O banco tinha investido o dinheiro dos seus clientes em obrigações que estavam bloqueadas até 30 anos. Pior ainda, o valor dessas obrigações caiu recentemente, pelo que o Silicon Valley Bank não podia simplesmente vender as obrigações para obter o dinheiro dos teus depositantes. Não tinham dinheiro suficiente para fazer face aos levantamentos dos teus depositantes.",
+	"bank_runs_how_content_5": "Muitas pessoas descobriram quando houve uma corrida no Silicon Valley Bank em março de 2023.",
+	"bank_runs_how_content_6": "O banco tinha investido o dinheiro dos seus clientes em obrigações que estavam bloqueadas até 30 anos. Pior ainda, o valor dessas obrigações tinha caído dramaticamente recentemente, pelo que o Silicon Valley Bank não podia simplesmente vender as obrigações para obter o dinheiro dos teus depositantes. Não tinham dinheiro suficiente para fazer face aos levantamentos dos teus depositantes.",
 	"bank_runs_how_content_7": "À medida que mais pessoas descobriam, o problema só piorava. Chegaram mais pedidos de levantamento, mas muitos não foram processados. Milhares de empresas aperceberam-se de que não poderiam pagar aos teus empregados devido à falência do banco.",
 	"bank_runs_how_content_8": "O FDIC (em Portugal seria o Fundo de Garantia de Depósitos, FGD) interveio e concordou em indemnizar os depositantes. Problema resolvido? Não exatamente...",
 	"bank_runs_fdic": "O SEGURO DO FGD PROTEGE O MEU DINHEIRO?",
