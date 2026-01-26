@@ -132,6 +132,11 @@ h4{
     margin-top: 110px;
 }
 
+.break-flyer{
+    clear: both;
+    margin-top: 300px;
+}
+
 
 .clear{
     clear: both;

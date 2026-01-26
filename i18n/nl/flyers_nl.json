@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-01-26",
+		"locale": "nl"
+	},
+	"free_bitcoin_flyers": "Gratis Bitcoin-flyers van bitcoin.rocks",
+	"flyers_description": "Print een Bitcoin-flyer thuis en hang hem op in het openbaar om mensen om je heen orange te pillen.",
+	"flyers_header_1": "PRINT & HANG OP",
+	"flyers_header_2": "BITCOIN-FLYERS",
+	"flyers_intro_header": "HOE JE DEZE BITCOIN-FLYERS PRINT & OPHANGT",
+	"flyers_intro_c1": "Onze missie is om je te helpen meer mensen orange te pillen door Bitcoin-flyers in het openbaar te hangen. Deze flyer heeft een QR-code die linkt naar onze",
+	"flyers_intro_c2": "educatieve Bitcoin-website.",
+	"flyers_intro_c3": "inflatie",
+	"flyers_intro_c4": "Print deze flyer thuis of bij een drukkerij. Hang hem vervolgens op prikborden, telefoonpalen in de stad en andere openbare ruimtes waar mensen hem kunnen zien en meer kunnen leren over Bitcoin.",
+	"flyers_intro_c5": "Vraag ondertussen ook een pakket van onze",
+	"flyers_intro_c6": "gratis Bitcoin-stickers",
+	"flyers_intro_c7": "aan om nog meer mensen orange te pillen.",
+	"flyers_btn_download": "FLYER DOWNLOADEN",
+	"flyers_btn_print": "FLYER PRINTEN",
+	"flyers_share_header": "DEEL JE FLYER-LOCATIES",
+	"flyers_share_c1": "Deel je flyer-locaties met ons op Nostr en zie waar andere mensen hun flyers ophangen.",
+	"flyers_btn_share_on_nostr": "DELEN OP NOSTR",
+	"flyers_btn_what_is_nostr": "WAT IS NOSTR?"
+}

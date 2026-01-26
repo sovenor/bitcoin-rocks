@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-01-26",
+		"locale": "it"
+	},
+	"free_bitcoin_flyers": "Volantini Bitcoin gratuiti da bitcoin.rocks",
+	"flyers_description": "Stampa un volantino Bitcoin a casa e mettilo in pubblico per orange pill le persone intorno a te.",
+	"flyers_header_1": "STAMPA E PUBBLICA",
+	"flyers_header_2": "VOLANTINI BITCOIN",
+	"flyers_intro_header": "COME STAMPARE E PUBBLICARE QUESTI VOLANTINI BITCOIN",
+	"flyers_intro_c1": "La nostra missione è aiutarti ad orange pill più persone mettendo volantini Bitcoin in pubblico. Questo volantino ha un codice QR che rimanda al nostro",
+	"flyers_intro_c2": "sito web educativo Bitcoin.",
+	"flyers_intro_c3": "inflazione",
+	"flyers_intro_c4": "Stampa questo volantino a casa o in una tipografia. Poi, mettilo su bacheche, pali telefonici in città e altri spazi pubblici dove le persone possano vederlo e imparare sul Bitcoin.",
+	"flyers_intro_c5": "Mentre ci sei, richiedi un pacchetto dei nostri",
+	"flyers_intro_c6": "adesivi Bitcoin gratuiti",
+	"flyers_intro_c7": "per aiutare ad orange pill ancora più persone.",
+	"flyers_btn_download": "SCARICA VOLANTINO",
+	"flyers_btn_print": "STAMPA VOLANTINO",
+	"flyers_share_header": "CONDIVIDI I TUOI POSTI DEI VOLANTINI",
+	"flyers_share_c1": "Condividi i tuoi posti dei volantini con noi su Nostr e vedi dove altre persone stanno mettendo i loro volantini.",
+	"flyers_btn_share_on_nostr": "CONDIVIDI SU NOSTR",
+	"flyers_btn_what_is_nostr": "COS'È NOSTR?"
+}

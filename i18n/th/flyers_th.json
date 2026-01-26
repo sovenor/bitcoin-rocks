@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-01-26",
+		"locale": "th"
+	},
+	"free_bitcoin_flyers": "ใบปลิว Bitcoin ฟรีจาก bitcoin.rocks",
+	"flyers_description": "พิมพ์ใบปลิว Bitcoin ที่บ้านและติดในที่สาธารณะเพื่อ orange pill คนรอบตัวคุณ",
+	"flyers_header_1": "พิมพ์และติด",
+	"flyers_header_2": "ใบปลิว BITCOIN",
+	"flyers_intro_header": "วิธีพิมพ์และติดใบปลิว BITCOIN เหล่านี้",
+	"flyers_intro_c1": "พันธกิจของเราคือช่วยให้คุณ orange pill ผู้คนได้มากขึ้นโดยการติดใบปลิว Bitcoin ในที่สาธารณะ ใบปลิวนี้มี QR code ที่ลิงก์ไปยัง",
+	"flyers_intro_c2": "เว็บไซต์การศึกษา Bitcoin ของเรา",
+	"flyers_intro_c3": "เงินเฟ้อ",
+	"flyers_intro_c4": "พิมพ์ใบปลิวนี้ที่บ้านหรือที่ร้านพิมพ์ จากนั้นติดไว้ที่กระดานประกาศ เสาโทรศัพท์ในเมือง และพื้นที่สาธารณะอื่นๆ ที่ผู้คนสามารถเห็นและเรียนรู้เกี่ยวกับ Bitcoin ได้",
+	"flyers_intro_c5": "ระหว่างทำคุณสามารถขอแพ็ค",
+	"flyers_intro_c6": "สติกเกอร์ Bitcoin ฟรีของเรา",
+	"flyers_intro_c7": "เพื่อช่วย orange pill ผู้คนได้มากยิ่งขึ้น",
+	"flyers_btn_download": "ดาวน์โหลดใบปลิว",
+	"flyers_btn_print": "พิมพ์ใบปลิว",
+	"flyers_share_header": "แบ่งปันสถานที่ติดใบปลิวของคุณ",
+	"flyers_share_c1": "แบ่งปันสถานที่ติดใบปลิวของคุณกับเราบน Nostr และดูว่าคนอื่นๆ ติดใบปลิวของพวกเขาที่ไหนบ้าง",
+	"flyers_btn_share_on_nostr": "แบ่งปันบน NOSTR",
+	"flyers_btn_what_is_nostr": "NOSTR คืออะไร?"
+}

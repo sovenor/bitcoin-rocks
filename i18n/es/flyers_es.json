@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-01-26",
+		"locale": "es"
+	},
+	"free_bitcoin_flyers": "Folletos de Bitcoin gratis de bitcoin.rocks",
+	"flyers_description": "Imprime un folleto de Bitcoin en casa y ponlo en público para naranja pillar a los que te rodean.",
+	"flyers_header_1": "IMPRIMIR Y PUBLICAR",
+	"flyers_header_2": "FOLLETOS DE BITCOIN",
+	"flyers_intro_header": "CÓMO IMPRIMIR Y PUBLICAR ESTOS FOLLETOS DE BITCOIN",
+	"flyers_intro_c1": "Nuestra misión es ayudarte a naranja pillar a más personas poniendo folletos de Bitcoin en público. Este folleto tiene un código QR que enlaza a nuestro",
+	"flyers_intro_c2": "sitio web educativo de Bitcoin.",
+	"flyers_intro_c3": "inflación",
+	"flyers_intro_c4": "Imprime este folleto en casa o en una imprenta. Luego, ponlo en tablones de anuncios, postes telefónicos por la ciudad y otros espacios públicos donde la gente pueda verlo y aprender sobre Bitcoin.",
+	"flyers_intro_c5": "Mientras lo haces, solicita un paquete de nuestros",
+	"flyers_intro_c6": "stickers de Bitcoin gratis",
+	"flyers_intro_c7": "para ayudar a naranja pillar a aún más personas.",
+	"flyers_btn_download": "DESCARGAR FOLLETO",
+	"flyers_btn_print": "IMPRIMIR FOLLETO",
+	"flyers_share_header": "COMPARTE TUS LUGARES DE FOLLETOS",
+	"flyers_share_c1": "Comparte tus lugares de folletos con nosotros en Nostr y ve dónde otras personas están poniendo sus folletos.",
+	"flyers_btn_share_on_nostr": "COMPARTIR EN NOSTR",
+	"flyers_btn_what_is_nostr": "¿QUÉ ES NOSTR?"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-01-26",
+		"locale": "de"
+	},
+	"free_bitcoin_flyers": "Kostenlose Bitcoin-Flyer von bitcoin.rocks",
+	"flyers_description": "Drucken Sie einen Bitcoin-Flyer zu Hause und bringen Sie ihn in der Öffentlichkeit an, um Menschen in Ihrer Umgebung orange zu pillen.",
+	"flyers_header_1": "DRUCKEN & ANBRINGEN",
+	"flyers_header_2": "BITCOIN-FLYER",
+	"flyers_intro_header": "WIE MAN DIESE BITCOIN-FLYER DRUCKT & ANBRINGT",
+	"flyers_intro_c1": "Unsere Mission ist es, Ihnen zu helfen, mehr Menschen orange zu pillen, indem Sie Bitcoin-Flyer in der Öffentlichkeit anbringen. Dieser Flyer hat einen QR-Code, der auf unsere",
+	"flyers_intro_c2": "Bitcoin-Bildungswebsite verweist.",
+	"flyers_intro_c3": "Inflation",
+	"flyers_intro_c4": "Drucken Sie diesen Flyer zu Hause oder in einer Druckerei. Bringen Sie ihn dann an schwarzen Brettern, Telefonmasten in der Stadt und anderen öffentlichen Orten an, wo Menschen ihn sehen und etwas über Bitcoin lernen können.",
+	"flyers_intro_c5": "Nebenbei können Sie auch ein Paket unserer",
+	"flyers_intro_c6": "kostenlosen Bitcoin-Sticker",
+	"flyers_intro_c7": "anfordern, um noch mehr Menschen orange zu pillen.",
+	"flyers_btn_download": "FLYER HERUNTERLADEN",
+	"flyers_btn_print": "FLYER DRUCKEN",
+	"flyers_share_header": "TEILEN SIE IHRE FLYER-ORTE",
+	"flyers_share_c1": "Teilen Sie Ihre Flyer-Orte mit uns auf Nostr und sehen Sie, wo andere Leute ihre Flyer anbringen.",
+	"flyers_btn_share_on_nostr": "AUF NOSTR TEILEN",
+	"flyers_btn_what_is_nostr": "WAS IST NOSTR?"
+}
