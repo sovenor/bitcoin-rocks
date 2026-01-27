@@ -2479,3 +2479,67 @@ p.choose{
         font-size: 14px;
     }
 }
+
+/* Fixed Bottom Bar for Flyers Promotion */
+.fixed-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1F6AE1;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fixed-bottom-bar-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.fixed-bottom-bar-text {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.fixed-bottom-bar-new {
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-right: 8px;
+}
+
+.fixed-bottom-bar-link {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 900;
+    transition: opacity 0.2s;
+}
+
+.fixed-bottom-bar-link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+    .fixed-bottom-bar-text {
+        font-size: 16px;
+    }
+    
+    .fixed-bottom-bar-content {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .fixed-bottom-bar-text {
+        font-size: 14px;
+    }
+    
+    .fixed-bottom-bar-content {
+        padding: 10px 10px;
+    }
+}

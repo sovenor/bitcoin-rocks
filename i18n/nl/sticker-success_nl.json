@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-30",
+		"last-updated": "2026-01-26",
 		"locale": "nl"
 	},
 	"sticker_success_1": "Je ontvangt jouw stickers binnen 1 tot 2 weken. Terwijl je wacht kun je goeie plaatsen bedenken waar je je stickers kan plakken!",
@@ -12,5 +12,7 @@
 	"sticker_success_list_2": "Op plaatsen waar ze waarschijnlijk niet snel zullen verwijderd (de stickers veroorzaken geen permanente schade)",
 	"sticker_success_list_3": "Op oppervlakken waar ze makkelijk te plakken zijn.(metaal, plastic, glas)",
 	"sticker_success_list_4": "NIET op privé terrein, bedekken van wegwijzers, geldautomaten, of benzinepompen",
-	"sticker_success_3": "Wil je zien waar anderen hun sitckers plakken?"
+	"sticker_success_3": "Wil je zien waar anderen hun sitckers plakken?",
+	"sticker_success_flyers_bar_new": "NIEUW!",
+	"sticker_success_flyers_bar_cta": "Print en hang Bitcoin-flyers op →"
 }
