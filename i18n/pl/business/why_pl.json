@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2024-07-23",
+		"locale": "pl"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Dowiedz się, dlaczego Bitcoin jest korzystny dla biznesu",
+	"why_header": "BITCOIN JEST KORZYSTNY DLA BIZNESU",
+	"why_good_for_you": "BITCOIN JEST TEŻ KORZYSTNY DLA CIEBIE!",
+	"why_learn_more_lowercase": "Dowiedz się więcej.",
+	"why_s1": "Bitcoin nie ma inflacji",
+	"why_s1_c1": "Inflacja występuje, gdy drukuje się więcej pieniędzy lub tworzy je z niczego. Sprawia to, że Twoje pieniądze z czasem tracą na wartości.",
+	"why_s1_c2": "Bitcoin ma stałą podaż, co oznacza, że nikt nie może wydrukować więcej Bitcoinów.",
+	"why_s2": "Bitcoin nie ma problemów z bankami",
+	"why_s2_c1": "W ciągu ostatnich kilku lat wiele amerykańskich banków upadło z powodu problemów związanych z wypłatą środków.",
+	"why_s2_c2": "Zamiast po prostu przechowywać Twoje pieniądze, banki inwestują i udzielają pożyczek. Jeśli te inwestycje nie przynoszą zysków, banki nie mają wystarczających środków, aby Cię spłacić.",
+	"why_s2_c3": "A fundusz ubezpieczeniowy FDIC ma tylko 1 dolara na każde 100 dolarów, które ubezpiecza.",
+	"why_s3": "Bitcoin jest bez zezwolenia",
+	"why_s3_c1": "W przeciwieństwie do tradycyjnych sieci finansowych, Bitcoin nie wymaga zezwolenia do używania.",
+	"why_s3_c2": "Oznacza to, że nikt nie może powstrzymać Cię od korzystania z Bitcoina z jakiegokolwiek powodu. To pierwsza sieć finansowa, której możesz używać bez obawy o cenzurę czy przejęcie.",
+	"why_s4": "Bitcoin buduje lepszy świat",
+	"why_s4_c1": "Bitcoin to niedoceniana technologia, która buduje lepszy świat.",
+	"why_s4_c2": "Bitcoin umożliwił aktywistom na rzecz praw człowieka walkę o wolność, zmniejszył globalne emisje metanu, uratował parki narodowe i wiele więcej."
+}
