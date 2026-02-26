@@ -13,8 +13,8 @@
          ▼                       ▼
 ┌─────────────────┐    ┌──────────────────┐
 │ Internationalization │    │   Analytics     │
-│   jquery.i18n   │    │  MicroAnalytics │
-│   JSON Files    │    │  Privacy-focused │
+│   jquery.i18n   │    │  Google Analytics │
+│   JSON Files    │    │  gtag.js         │
 └─────────────────┘    └──────────────────┘
 ```
 
@@ -140,7 +140,7 @@ DOM Manipulation → Visual Feedback → Analytics Tracking
 ## Integration Patterns
 
 ### Third-Party Services
-- **Analytics**: Privacy-focused MicroAnalytics integration
+- **Analytics**: Google Analytics (gtag.js, ID: G-18L58W2GTN)
 - **Fonts**: Adobe Typekit font loading
 - **External Links**: Curated external resource integration
 - **Social Sharing**: Optimized meta tags for social platforms

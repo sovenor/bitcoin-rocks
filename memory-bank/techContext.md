@@ -21,7 +21,7 @@
 - **GitHub Desktop**: Simplified Git workflow for contributors
 
 ### Third-Party Services
-- **MicroAnalytics**: Privacy-focused website analytics
+- **Google Analytics**: Website analytics (gtag.js, ID: G-18L58W2GTN)
 - **Adobe Typekit**: Web font delivery (Proxima Nova family)
 - **External CDNs**: jQuery and other library hosting
 
@@ -182,7 +182,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 - **HTTPS**: Secure connection for all traffic
 
 ### Privacy Protection
-- **Analytics**: Privacy-focused MicroAnalytics (no IP tracking)
+- **Analytics**: Google Analytics (gtag.js, ID: G-18L58W2GTN)
 - **No Cookies**: Minimal cookie usage (language preference only)
 - **No Tracking**: No third-party tracking scripts
 - **Open Source**: Transparent code for security review
@@ -197,7 +197,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 - **Security Updates**: Monitor for vulnerabilities
 
 ### Monitoring and Analytics
-- **MicroAnalytics**: Privacy-focused visitor statistics
+- **Google Analytics**: Visitor statistics and engagement tracking (gtag.js)
 - **GitHub Insights**: Repository activity and contributions
 - **Community Feedback**: Issues and discussions on GitHub
 - **Performance Metrics**: Page load times and user engagement

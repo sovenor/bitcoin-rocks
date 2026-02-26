@@ -70,7 +70,7 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 ### Performance Considerations
 - Single CSS file to minimize HTTP requests
 - Compressed images under 500KB each
-- Privacy-focused MicroAnalytics (no IP tracking)
+- Google Analytics (gtag.js, ID: G-18L58W2GTN)
 - Apache .htaccess for clean URLs and caching
 
 ## Community and Contribution Patterns

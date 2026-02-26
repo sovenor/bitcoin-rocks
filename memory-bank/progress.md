@@ -26,7 +26,7 @@
 ✅ **Static Site Architecture**: Fast, reliable hosting without server dependencies
 ✅ **Clean URLs**: nginx configuration removes .html extensions
 ✅ **Performance**: Fast loading times with optimized assets
-✅ **Analytics**: Privacy-focused MicroAnalytics integration
+✅ **Analytics**: Google Analytics integration (gtag.js, ID: G-18L58W2GTN)
 ✅ **SEO**: English content pre-rendered in HTML source via `scripts/inject-seo-content.js` for crawler visibility, plus proper meta tags and social sharing optimization
 
 ### Community Features
