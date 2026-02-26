@@ -94,7 +94,17 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 2. Create data-i18n attributes for translatable text
 3. Add translation strings to all language JSON files (when updating or creating a language JSON file, change the "last-updated" date to today's date)
 4. Apply appropriate CSS classes following existing patterns
-5. Do not test across languages and devices unless explicitly asked to do so
+5. Run `node scripts/inject-seo-content.js` to inject English defaults into HTML for SEO
+6. Do not test across languages and devices unless explicitly asked to do so
+
+### SEO Content Injection (IMPORTANT)
+- **When to run**: After updating or adding ANY English JSON translation file (`i18n/en/**/*.json`)
+- **Command**: `node scripts/inject-seo-content.js`
+- **What it does**: Reads all English JSON files and injects default English text into HTML elements with `data-i18n` attributes. This ensures crawlers see actual content in the page source.
+- **Idempotent**: Safe to run multiple times — second run produces 0 changes
+- **Single source of truth**: The English JSON files are the source of truth. The HTML inline text is just the pre-rendered output.
+- **Example**: `<h3 data-i18n="key"></h3>` becomes `<h3 data-i18n="key">English Text</h3>`
+- **Attribute support**: Also handles `[placeholder]` and other attribute translations
 
 ### Translation Management
 - Check `/i18n/` directory for language completion status

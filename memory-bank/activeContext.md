@@ -2,11 +2,12 @@
 
 ## Current Work Focus
 
-### Memory Bank Initialization (Current Task)
-- **Status**: In Progress
-- **Objective**: Create comprehensive memory bank documentation for bitcoin.rocks project
-- **Progress**: Core files being created (projectbrief.md, productContext.md, systemPatterns.md, techContext.md completed)
-- **Next Steps**: Complete activeContext.md and progress.md files
+### SEO Enhancement — Inline English Content (Completed Feb 2026)
+- **Status**: ✅ Complete
+- **Problem**: All HTML elements using `data-i18n` attributes had empty text content in the page source. Web crawlers and search engines saw completely empty pages — devastating for SEO.
+- **Solution**: Created `scripts/inject-seo-content.js` — a Node.js build script that reads English JSON translation files and injects default English text into all HTML elements with `data-i18n` attributes.
+- **Result**: 5,250 translations injected across 88 HTML files. Page source now shows full English content for crawlers while i18n still works at runtime.
+- **Workflow**: **Run `node scripts/inject-seo-content.js` after updating or adding English JSON translation files.** The English JSON files remain the single source of truth.
 
 ### Recent Project Activity
 Based on the current state of the repository, the project appears to be in active maintenance mode with:

@@ -24,10 +24,10 @@
 
 ### Technical Infrastructure
 ✅ **Static Site Architecture**: Fast, reliable hosting without server dependencies
-✅ **Clean URLs**: Apache .htaccess configuration removes .html extensions
+✅ **Clean URLs**: nginx configuration removes .html extensions
 ✅ **Performance**: Fast loading times with optimized assets
 ✅ **Analytics**: Privacy-focused MicroAnalytics integration
-✅ **SEO**: Proper meta tags, social sharing optimization
+✅ **SEO**: English content pre-rendered in HTML source via `scripts/inject-seo-content.js` for crawler visibility, plus proper meta tags and social sharing optimization
 
 ### Community Features
 ✅ **Open Source**: MIT licensed with public GitHub repository
@@ -87,7 +87,7 @@
 ### Technical Improvements (Medium Priority)
 - **Performance Optimization**: Further optimize loading times and asset delivery
 - **Accessibility Enhancements**: Improve WCAG compliance and screen reader support
-- **SEO Improvements**: Enhanced search engine optimization
+- ~~**SEO Improvements**: Enhanced search engine optimization~~ ✅ Completed Feb 2026 — English content now pre-rendered in HTML source
 - **Analytics Enhancement**: Better tracking of educational impact
 
 ### Community Features (Low Priority)
