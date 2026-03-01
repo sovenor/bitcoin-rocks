@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — bitcoin.rocks Forms</title>
+  <link rel="stylesheet" href="/admin/static/admin.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="nav-logo">₿</span>
+      <a href="/admin" class="nav-brand">Forms Admin</a>
+    </div>
+    <div class="nav-right">
+      <span class="nav-user"><%= user.username %><% if (user.is_admin) { %> <span class="badge">admin</span><% } %></span>
+      <% if (user.is_admin) { %>
+        <a href="/admin/users" class="nav-link">Users</a>
+      <% } %>
+      <a href="/admin/logout" class="nav-link">Log out</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <% if (typeof locals !== 'undefined') { %>
+      <% const urlParams = new URLSearchParams(typeof require !== 'undefined' ? '' : ''); %>
+    <% } %>
+
+    <h2>Your Forms</h2>
+    <p class="subtitle">Click a form to view submissions, export CSV, or delete data.</p>
+
+    <div class="forms-grid">
+      <% forms.forEach(form => { %>
+        <a href="/admin/forms/<%= form.slug %>" class="form-card">
+          <div class="form-card-header">
+            <h3><%= form.name %></h3>
+          </div>
+          <div class="form-card-stats">
+            <div class="stat">
+              <span class="stat-number"><%= form.submission_count %></span>
+              <span class="stat-label">submissions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-date">
+                <% if (form.latest_submission) { %>
+                  <%= new Date(form.latest_submission + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
+                <% } else { %>
+                  No submissions yet
+                <% } %>
+              </span>
+              <span class="stat-label">latest</span>
+            </div>
+          </div>
+          <div class="form-card-slug"><code>/submit/<%= form.slug %></code></div>
+        </a>
+      <% }) %>
+    </div>
+
+    <% if (forms.length === 0) { %>
+      <div class="empty-state">
+        <p>No forms assigned to your account yet.</p>
+        <p>Ask an admin to grant you access.</p>
+      </div>
+    <% } %>
+
+    <% if (user.is_admin) { %>
+      <div class="section">
+        <h3>Add New Form</h3>
+        <form method="POST" action="/admin/forms/create" class="inline-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Slug (URL-safe identifier)</label>
+              <input type="text" name="slug" placeholder="e.g., stickers-new-usa" required pattern="[a-z0-9\-]+" title="Lowercase letters, numbers, and hyphens only">
+            </div>
+            <div class="form-group">
+              <label>Display Name</label>
+              <input type="text" name="name" placeholder="e.g., Stickers New Pack — USA" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Fields (comma-separated)</label>
+              <input type="text" name="fields" placeholder="e.g., name, address1, address2, city, state, zip" required>
+            </div>
+            <div class="form-group">
+              <label>Success Redirect URL</label>
+              <input type="text" name="success_redirect" placeholder="e.g., https://bitcoin.rocks/sticker-success" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Create Form</button>
+        </form>
+      </div>
+    <% } %>
+  </div>
+</body>
+</html>

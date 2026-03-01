@@ -1,0 +1,681 @@
+/* ============================================================
+   bitcoin.rocks Forms Admin — Dark Theme
+   Matches the bitcoin.rocks visual identity
+   ============================================================ */
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: #060610;
+  color: #e0e0e0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: #FF9500;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffb340;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+
+.navbar {
+  background: #0d0d1a;
+  border-bottom: 1px solid #1a1a2e;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #FF9500;
+}
+
+.nav-brand {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.nav-brand:hover {
+  color: #FF9500;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-user {
+  font-size: 14px;
+  color: #888;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: #aaa;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.nav-link:hover {
+  color: #fff;
+  background: #1a1a2e;
+}
+.nav-link.active {
+  color: #FF9500;
+}
+
+/* ============================================================
+   BADGE
+   ============================================================ */
+
+.badge {
+  display: inline-block;
+  background: #FF9500;
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.badge-you {
+  background: #333;
+  color: #aaa;
+}
+
+/* ============================================================
+   CONTAINER
+   ============================================================ */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+/* ============================================================
+   LOGIN PAGE
+   ============================================================ */
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-logo {
+  font-size: 48px;
+  color: #FF9500;
+  margin-bottom: 16px;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.login-subtitle {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+/* ============================================================
+   FORMS & INPUTS
+   ============================================================ */
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 12px 16px;
+  background: #0d0d1a;
+  border: 1px solid #2a2a3e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #FF9500;
+}
+
+.form-group input::placeholder {
+  color: #555;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.form-group-small {
+  flex: 0 0 auto !important;
+  min-width: auto !important;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 16px;
+}
+
+.form-group-small label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ccc;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.inline-form {
+  background: #0d0d1a;
+  border: 1px solid #1a1a2e;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #FF9500;
+  color: #000;
+}
+.btn-primary:hover {
+  background: #ffb340;
+  color: #000;
+}
+
+.btn-secondary {
+  background: #1a1a2e;
+  color: #e0e0e0;
+  border: 1px solid #2a2a3e;
+}
+.btn-secondary:hover {
+  background: #2a2a3e;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #96041C;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #b81030;
+}
+.btn-danger:disabled {
+  background: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.btn-small {
+  padding: 6px 14px;
+  font-size: 12px;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* ============================================================
+   ALERTS
+   ============================================================ */
+
+.alert {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.alert-error {
+  background: rgba(150, 4, 28, 0.2);
+  border: 1px solid #96041C;
+  color: #ff6b7a;
+}
+
+.alert-success {
+  background: rgba(29, 255, 77, 0.1);
+  border: 1px solid #1DFF4D;
+  color: #1DFF4D;
+}
+
+/* ============================================================
+   DASHBOARD
+   ============================================================ */
+
+h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.forms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.form-card {
+  background: #0d0d1a;
+  border: 1px solid #1a1a2e;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.2s;
+  display: block;
+  color: inherit;
+}
+.form-card:hover {
+  border-color: #FF9500;
+  transform: translateY(-2px);
+  color: inherit;
+}
+
+.form-card-header h3 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.form-card-stats {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FF9500;
+}
+
+.stat-date {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-card-slug {
+  margin-top: 8px;
+}
+
+.form-card-slug code {
+  font-size: 12px;
+  color: #555;
+  background: #0a0a14;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* ============================================================
+   FORM DETAIL
+   ============================================================ */
+
+.back-link {
+  display: inline-block;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.back-link:hover {
+  color: #FF9500;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ============================================================
+   TABLE
+   ============================================================ */
+
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #1a1a2e;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead {
+  background: #0d0d1a;
+}
+
+th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #1a1a2e;
+  white-space: nowrap;
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #0d0d1a;
+  color: #ccc;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+tr:hover td {
+  background: #0a0a18;
+}
+
+.checkbox-col {
+  width: 40px;
+  text-align: center;
+}
+
+.date-col {
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.date-col .time {
+  display: block;
+  color: #555;
+  font-size: 12px;
+}
+
+/* ============================================================
+   BULK ACTIONS & DANGER ZONE
+   ============================================================ */
+
+.bulk-actions {
+  margin-bottom: 32px;
+}
+
+.danger-zone {
+  background: rgba(150, 4, 28, 0.08);
+  border: 1px solid #3a0a12;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 32px;
+}
+
+.danger-zone h4 {
+  color: #ff6b7a;
+  margin-bottom: 8px;
+}
+
+.danger-zone p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* ============================================================
+   EMPTY STATE
+   ============================================================ */
+
+.empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  color: #666;
+}
+
+.empty-state p {
+  margin-bottom: 8px;
+}
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+
+.section {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid #1a1a2e;
+}
+
+.section h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+/* ============================================================
+   USER MANAGEMENT
+   ============================================================ */
+
+.user-card {
+  background: #0d0d1a;
+  border: 1px solid #1a1a2e;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.user-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.user-card-header h4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.user-date {
+  font-size: 12px;
+  color: #555;
+}
+
+.user-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.inline-delete {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.hint {
+  color: #555;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* ============================================================
+   CHECKBOX GRID (form access)
+   ============================================================ */
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #0a0a14;
+  border: 1px solid #1a1a2e;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #ccc;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.checkbox-label:hover {
+  border-color: #FF9500;
+}
+
+.checkbox-label input:checked + .checkbox-label,
+.checkbox-label:has(input:checked) {
+  border-color: #FF9500;
+  background: rgba(255, 149, 0, 0.05);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .nav-right {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    padding: 20px 16px;
+  }
+
+  .forms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-header {
+    flex-direction: column;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row .form-group {
+    min-width: 100%;
+  }
+
+  .inline-delete {
+    position: static;
+    margin-top: 12px;
+  }
+
+  .checkbox-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #FF9500;
+  cursor: pointer;
+}

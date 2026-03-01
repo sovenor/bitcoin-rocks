@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-rocks-forms",
+  "version": "1.0.0",
+  "description": "Self-hosted form submission backend for bitcoin.rocks (replaces getform.io)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.7.0",
+    "connect-sqlite3": "^0.9.15",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

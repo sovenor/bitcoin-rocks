@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users — bitcoin.rocks Forms</title>
+  <link rel="stylesheet" href="/admin/static/admin.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="nav-logo">₿</span>
+      <a href="/admin" class="nav-brand">Forms Admin</a>
+    </div>
+    <div class="nav-right">
+      <span class="nav-user"><%= user.username %> <span class="badge">admin</span></span>
+      <a href="/admin/users" class="nav-link active">Users</a>
+      <a href="/admin/logout" class="nav-link">Log out</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <a href="/admin" class="back-link">← Back to Dashboard</a>
+
+    <h2>User Management</h2>
+    <p class="subtitle">Create users and assign which forms they can access.</p>
+
+    <!-- Create new user -->
+    <div class="section">
+      <h3>Create New User</h3>
+      <form method="POST" action="/admin/users/create" class="inline-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Username" required>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Password" required minlength="8">
+          </div>
+          <div class="form-group form-group-small">
+            <label>
+              <input type="checkbox" name="is_admin" value="1">
+              Admin
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Form Access</label>
+          <div class="checkbox-grid">
+            <% forms.forEach(form => { %>
+              <label class="checkbox-label">
+                <input type="checkbox" name="form_ids" value="<%= form.id %>">
+                <%= form.name %>
+              </label>
+            <% }) %>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Create User</button>
+      </form>
+    </div>
+
+    <!-- Existing users -->
+    <div class="section">
+      <h3>Existing Users</h3>
+
+      <% users.forEach(u => { %>
+        <div class="user-card">
+          <form method="POST" action="/admin/users/<%= u.id %>/update">
+            <div class="user-card-header">
+              <h4>
+                <%= u.username %>
+                <% if (u.is_admin) { %><span class="badge">admin</span><% } %>
+                <% if (u.id === user.id) { %><span class="badge badge-you">you</span><% } %>
+              </h4>
+              <span class="user-date">Created: <%= new Date(u.created_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" value="<%= u.username %>" required>
+              </div>
+              <div class="form-group">
+                <label>New Password (leave blank to keep current)</label>
+                <input type="password" name="password" placeholder="Leave blank to keep current" minlength="8">
+              </div>
+              <div class="form-group form-group-small">
+                <label>
+                  <input type="checkbox" name="is_admin" value="1" <%= u.is_admin ? 'checked' : '' %>>
+                  Admin
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Form Access <% if (u.is_admin) { %><span class="hint">(admins can see all forms regardless)</span><% } %></label>
+              <div class="checkbox-grid">
+                <% forms.forEach(form => { %>
+                  <label class="checkbox-label">
+                    <input type="checkbox" name="form_ids" value="<%= form.id %>" <%= u.form_ids.includes(form.id) ? 'checked' : '' %>>
+                    <%= form.name %>
+                  </label>
+                <% }) %>
+              </div>
+            </div>
+
+            <div class="user-card-actions">
+              <button type="submit" class="btn btn-secondary">Save Changes</button>
+            </div>
+          </form>
+
+          <% if (u.id !== user.id) { %>
+            <form method="POST" action="/admin/users/<%= u.id %>/delete" class="inline-delete" onsubmit="return confirm('Permanently delete user <%= u.username %>?')">
+              <button type="submit" class="btn btn-danger btn-small">Delete User</button>
+            </form>
+          <% } %>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</body>
+</html>

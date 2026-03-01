@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= form.name %> — bitcoin.rocks Forms</title>
+  <link rel="stylesheet" href="/admin/static/admin.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="nav-logo">₿</span>
+      <a href="/admin" class="nav-brand">Forms Admin</a>
+    </div>
+    <div class="nav-right">
+      <span class="nav-user"><%= user.username %><% if (user.is_admin) { %> <span class="badge">admin</span><% } %></span>
+      <% if (user.is_admin) { %>
+        <a href="/admin/users" class="nav-link">Users</a>
+      <% } %>
+      <a href="/admin/logout" class="nav-link">Log out</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <a href="/admin" class="back-link">← Back to Dashboard</a>
+
+    <div class="form-header">
+      <div>
+        <h2><%= form.name %></h2>
+        <p class="subtitle"><%= submissions.length %> submission<%= submissions.length !== 1 ? 's' : '' %></p>
+      </div>
+      <div class="form-actions">
+        <% if (submissions.length > 0) { %>
+          <a href="/admin/forms/<%= form.slug %>/csv" class="btn btn-secondary">⬇ Export CSV</a>
+        <% } %>
+      </div>
+    </div>
+
+    <% if (submissions.length > 0) { %>
+      <form method="POST" action="/admin/forms/<%= form.slug %>/delete" id="delete-form">
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th class="checkbox-col">
+                  <input type="checkbox" id="select-all" title="Select all">
+                </th>
+                <% fields.forEach(field => { %>
+                  <th><%= field %></th>
+                <% }) %>
+                <th>submitted</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% submissions.forEach(sub => { %>
+                <tr>
+                  <td class="checkbox-col">
+                    <input type="checkbox" name="ids" value="<%= sub.id %>">
+                  </td>
+                  <% fields.forEach(field => { %>
+                    <td><%= sub.data[field] || '' %></td>
+                  <% }) %>
+                  <td class="date-col">
+                    <%= new Date(sub.submitted_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
+                    <span class="time"><%= new Date(sub.submitted_at + 'Z').toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) %></span>
+                  </td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bulk-actions">
+          <button type="submit" class="btn btn-danger" id="delete-selected" disabled>Delete Selected</button>
+        </div>
+      </form>
+
+      <div class="danger-zone">
+        <h4>Danger Zone</h4>
+        <p>Permanently delete all <%= submissions.length %> submission<%= submissions.length !== 1 ? 's' : '' %> for this form. This cannot be undone.</p>
+        <form method="POST" action="/admin/forms/<%= form.slug %>/delete-all" onsubmit="return confirm('Are you sure you want to permanently delete ALL <%= submissions.length %> submissions? This cannot be undone.')">
+          <button type="submit" class="btn btn-danger">Delete All Submissions</button>
+        </form>
+      </div>
+    <% } else { %>
+      <div class="empty-state">
+        <p>No submissions yet for this form.</p>
+        <p>Submissions will appear here when users fill out the form on your website.</p>
+      </div>
+    <% } %>
+  </div>
+
+  <script>
+    // Select all checkbox
+    document.getElementById('select-all')?.addEventListener('change', function() {
+      const checkboxes = document.querySelectorAll('input[name="ids"]');
+      checkboxes.forEach(cb => cb.checked = this.checked);
+      updateDeleteButton();
+    });
+
+    // Enable/disable delete button based on selection
+    document.querySelectorAll('input[name="ids"]').forEach(cb => {
+      cb.addEventListener('change', updateDeleteButton);
+    });
+
+    function updateDeleteButton() {
+      const checked = document.querySelectorAll('input[name="ids"]:checked');
+      const btn = document.getElementById('delete-selected');
+      if (btn) {
+        btn.disabled = checked.length === 0;
+        btn.textContent = checked.length > 0
+          ? `Delete Selected (${checked.length})`
+          : 'Delete Selected';
+      }
+    }
+
+    // Confirm before deleting selected
+    document.getElementById('delete-form')?.addEventListener('submit', function(e) {
+      const count = document.querySelectorAll('input[name="ids"]:checked').length;
+      if (count === 0) {
+        e.preventDefault();
+        return;
+      }
+      if (!confirm(`Permanently delete ${count} submission${count !== 1 ? 's' : ''}? This cannot be undone.`)) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</body>
+</html>
