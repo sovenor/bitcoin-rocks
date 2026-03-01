@@ -58,4 +58,20 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS idx_user_forms_user ON user_forms(user_id);
 `);
 
+// Migration: Add total_submissions and last_submission_at to forms table
+// Safe to run multiple times — ALTER TABLE throws if column already exists
+try {
+  db.exec(`ALTER TABLE forms ADD COLUMN total_submissions INTEGER DEFAULT 0`);
+  console.log('Migration: Added total_submissions column to forms table');
+} catch (e) {
+  // Column already exists, ignore
+}
+
+try {
+  db.exec(`ALTER TABLE forms ADD COLUMN last_submission_at DATETIME`);
+  console.log('Migration: Added last_submission_at column to forms table');
+} catch (e) {
+  // Column already exists, ignore
+}
+
 module.exports = db;

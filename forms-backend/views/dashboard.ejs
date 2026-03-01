@@ -51,6 +51,16 @@
               <span class="stat-label">latest</span>
             </div>
           </div>
+          <div class="form-card-alltime">
+            <% if (form.total_submissions > 0) { %>
+              <%= form.total_submissions %> all-time
+              <% if (form.last_submission_at) { %>
+                · last received <%= new Date(form.last_submission_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
+              <% } %>
+            <% } else { %>
+              No submissions received yet
+            <% } %>
+          </div>
           <div class="form-card-slug"><code>/submit/<%= form.slug %></code></div>
         </a>
       <% }) %>

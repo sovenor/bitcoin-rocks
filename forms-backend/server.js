@@ -175,6 +175,14 @@ app.post('/submit/:slug', (req, res) => {
       VALUES (?, ?, ?)
     `).run(form.id, JSON.stringify(submissionData), clientIP);
 
+    // Increment all-time submission counter and update last submission timestamp
+    db.prepare(`
+      UPDATE forms
+      SET total_submissions = total_submissions + 1,
+          last_submission_at = CURRENT_TIMESTAMP
+      WHERE id = ?
+    `).run(form.id);
+
     // Redirect to success page
     res.redirect(form.success_redirect);
 
