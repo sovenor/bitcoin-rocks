@@ -1,0 +1,43 @@
+name: Update FRED M1 Money Supply Chart
+
+on:
+  # Run on the 1st of every month at 10:00 UTC
+  schedule:
+    - cron: '0 10 1 * *'
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-chart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest FRED M1SL chart
+        run: |
+          curl -L -o img/inflation/usd-money-supply.png \
+            "https://fred.stlouisfed.org/graph/fredgraph.png?bgcolor=%23060610&chart_type=line&drp=0&fo=open+sans&graph_bgcolor=%23060610&height=450&mode=fred&recession_bars=off&txtcolor=%23ffffff&ts=12&tts=12&width=600&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&id=M1SL&scale=left&cosd=1959-01-01&line_color=%23ff9500&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&fml=a&fq=Monthly&fam=avg&fgst=lin&transformation=lin"
+
+      - name: Check if chart was updated
+        id: check
+        run: |
+          if git diff --quiet img/inflation/usd-money-supply.png; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to the chart image."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Chart image has been updated."
+          fi
+
+      - name: Commit and push updated chart
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add img/inflation/usd-money-supply.png
+          git commit -m "chore: update USD M1 money supply chart from FRED [automated]"
+          git push
