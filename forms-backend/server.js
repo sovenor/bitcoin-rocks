@@ -147,26 +147,43 @@ app.post('/submit/:slug', (req, res) => {
       return res.redirect(form.success_redirect);
     }
 
-    // Rate limiting: 1 submission per form per IP per 24 hours
-    const clientIP = getClientIP(req);
-    const recentSubmission = db.prepare(`
-      SELECT id FROM submissions
-      WHERE form_id = ? AND ip_address = ?
-      AND submitted_at > datetime('now', '-24 hours')
-    `).get(form.id, clientIP);
-
-    if (recentSubmission) {
-      return res.status(429).render('error', {
-        title: 'Already Submitted',
-        message: 'You have already submitted this form in the last 24 hours. Please try again later.'
-      });
-    }
-
     // Extract only defined fields (strip unknown fields)
     const allowedFields = JSON.parse(form.fields);
     const submissionData = {};
     for (const field of allowedFields) {
       submissionData[field] = req.body[field] || '';
+    }
+
+    // Duplicate address check (for forms with an address1 field)
+    const submittedAddress = (submissionData.address1 || '').trim();
+    if (submittedAddress !== '') {
+      const duplicateAddress = db.prepare(`
+        SELECT id FROM submissions
+        WHERE form_id = ?
+        AND LOWER(json_extract(data, '$.address1')) = LOWER(?)
+      `).get(form.id, submittedAddress);
+
+      if (duplicateAddress) {
+        return res.status(409).render('error', {
+          title: 'Address Already Submitted',
+          message: "Your address is already in the next batch. You'll receive your stickers in the next few weeks."
+        });
+      }
+    }
+
+    // Rate limiting: 1 submission per form per IP per 7 days
+    const clientIP = getClientIP(req);
+    const recentSubmission = db.prepare(`
+      SELECT id FROM submissions
+      WHERE form_id = ? AND ip_address = ?
+      AND submitted_at > datetime('now', '-7 days')
+    `).get(form.id, clientIP);
+
+    if (recentSubmission) {
+      return res.status(429).render('error', {
+        title: 'Already Submitted',
+        message: 'You have already submitted this form in the last 7 days. Please try again later.'
+      });
     }
 
     // Store submission
