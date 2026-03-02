@@ -2,7 +2,7 @@
   let selectedCurrency = 'USD'; // Default currency
 
   $(function() {
-    $('.inflation-button').click(function() {
+    $('.inflation-button').not('.show-all-button').click(function() {
       // Update selected currency
       selectedCurrency = $(this).data('id');
 
@@ -10,15 +10,30 @@
       $('.countries').hide();
       $('#' + $(this).data('id')).show();
 
-      // Hide all other buttons
-      $('.inflation-button').not(this).hide();
+      // Hide all other currency buttons
+      $('.inflation-button').not(this).not('.show-all-button').hide();
+
+      // Hide the "Choose your money..." text
+      $('.choose').hide();
+
+      // Show the "Choose another money" button
+      $('.show-all-button').show();
 
       // Scroll to top of the page
       animateScrollBy(0, 500);
     });
 
     $('.show-all-button').click(function() {
+      // Hide all country sections
+      $('.countries').hide();
+
+      // Hide the "Choose another money" button
+      $('.show-all-button').hide();
+
+      // Show all currency buttons and the "Choose your money..." text
       $('.inflation-button').show();
+      $('.show-all-button').hide();
+      $('.choose').show();
 
       // Scroll to top of the page
       animateScrollBy(0, 500);

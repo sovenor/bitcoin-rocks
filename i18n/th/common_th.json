@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-16",
+		"last-updated": "2026-03-01",
 		"locale": "th"
 	},
 	"common_footer_mission_1": "ภารกิจของ bitcoin.rocks คือการเร่งการนำ Bitcoin มาใช้ผ่านทางการศึกษา",
@@ -58,7 +58,7 @@
 	"common_bitcoin_energy": "ทำไม BITCOIN ถึงใช้พลังงาน?",
 	"common_bitcoin_energy_content_1": "Bitcoin ใช้พลังงานเพื่อรักษาความปลอดภัยเครือข่ายและปกป้องเงินของคุณ",
 	"common_bitcoin_energy_content_2": "Bitcoin ใช้พลังงานจำนวนมาก และนี่เป็นสิ่งที่ดีด้วยเหตุผลหลายประการ",
-	"common_bitcoin_energy_list_1": "Bitcoin เป็นระบบการเงินที่ปลอดภัยที่สุดในโลก",
+	"common_bitcoin_energy_list_1": "Bitcoin ไม่มีการแห่ถอนเงินจากธนาคาร",
 	"common_bitcoin_energy_list_2": "Bitcoin ช่วยคงสภาพพลังงานจากการขุดเจาะน้ำมันโดยใช้ mining บิทคอยิน",
 	"common_bitcoin_energy_list_3": "Bitcoin ลดผลกระทบต่อการปล่อยมลพิษจากการสัมผัสน้ำมัน",
 	"common_bitcoin_energy_list_4": "Bitcoin ใช้น้อยกว่าพลังงานที่อเมริกันใช้สำหรับไฟสวยในช่วงเทศกาลคริสต์มาสทุกปี",

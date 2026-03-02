@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-03-01",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
@@ -20,6 +20,7 @@
 	"inflation_calculator_opt_out": "AUS DER INFLATION AUSSTEIGEN",
 	"inflation_calculator_with_bitcoin": "MIT BITCOIN",
 	"inflation_choose": "Wähle deine Währung...",
+	"inflation_choose_another": "Wähle ein anderes Geld",
 	"inflation_us_dollar": "U.S. DOLLAR",
 	"inflation_australian_dollar": "AUSTRALISCHER DOLLAR",
 	"inflation_brazilian_real": "BRASILIANISCHER REAL",
@@ -87,7 +88,7 @@
 	"inflation_issuance_c1": "Inflation bedeutet, dass Dein Anteil am „Geldkuchen“ jedes Jahr kleiner wird. Gibt es bei Bitcoin also Inflation?",
 	"inflation_issuance_c2": "Bitcoin hat einen festen Bestand von 21.000.000 (21 Millionen) Bitcoin, die jemals existieren werden. Das Limit von 21 Millionen Bitcoin ist im Code festgelegt und durch das leistungsstärkste Computernetzwerk der Welt, das Bitcoin-Netzwerk, gesichert. Dieses Limit kann nicht geändert werden.",
 	"inflation_issuance_c3": "Bei Bitcoin gibt es zwar keine Inflation, dafür aber eine Emissionsrate. Die Emissionsrate ist der Prozentsatz neuer Bitcoin, die jedes Jahr geschürft werden. Bitcoin-Miner sichern das Netzwerk, verarbeiten Bitcoin-Transaktionen und werden für ihre Arbeit bezahlt. Bitcoin-Miner werden mit dieser Neuemission bezahlt (bis sie ausläuft) und erhalten außerdem Transaktionsgebühren.",
-	"inflation_issuance_c4": "Mehr als 93 % aller Bitcoin wurden bereits geschürft. Mehr als 99 % aller 21 Millionen Bitcoin werden bis zu den 2030er Jahren geschürft worden sein, und die restlichen weniger als 1 % werden bis zum Jahr 2140 geschürft worden sein.",
+	"inflation_issuance_c4": "Mehr als 94 % aller Bitcoin wurden bereits geschürft. Mehr als 99 % aller 21 Millionen Bitcoin werden bis zu den 2030er Jahren geschürft worden sein, und die restlichen weniger als 1 % werden bis zum Jahr 2140 geschürft worden sein.",
 	"inflation_issuance_c5": "Auch wenn es eine Emission bis zu einem festen Bestand von 21 Millionen Bitcoin gibt, besteht der springende Punkt darin, dass Dein Teil vom 21-Millionen-Bitcoin-Kuchen nie kleiner wird. Dies steht in scharfem Kontrast zu den staatlichen Währungen, die wir verwenden. In diesen Systemen wird Dein Teil vom Kuchen jedes Jahr kleiner, wenn mehr Geld aus dem Nichts gedruckt wird.",
 	"inflation_issuance_c6": "Man kann nicht mehr Bitcoin drucken.",
 	"inflation_protect_header": "KANN BITCOIN MEIN GELD VOR DER INFLATION SCHÜTZEN?",

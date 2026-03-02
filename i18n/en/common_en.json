@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-16",
+		"last-updated": "2026-03-01",
 		"locale": "en"
 	},
 	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
@@ -58,7 +58,7 @@
 	"common_bitcoin_energy": "WHY DOES BITCOIN USE ENERGY?",
 	"common_bitcoin_energy_content_1": "Bitcoin uses energy to secure the network and protect your money.",
 	"common_bitcoin_energy_content_2": "Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.",
-	"common_bitcoin_energy_list_1": "Bitcoin is the most secure financial network in the world.",
+	"common_bitcoin_energy_list_1": "Bitcoin doesn't have bank runs.",
 	"common_bitcoin_energy_list_2": "Bitcoin helps stabilize energy grids with bitcoin mining.",
 	"common_bitcoin_energy_list_3": "Bitcoin reduces emissions from oil drilling.",
 	"common_bitcoin_energy_list_4": "Bitcoin uses less energy than Americans use for Christmas Lights each year.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-03-01",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Heeft Geen Inflatie",
@@ -20,6 +20,7 @@
 	"inflation_calculator_opt_out": "DOE NIET MEER MEE MET INFLATIE",
 	"inflation_calculator_with_bitcoin": "MET BITCOIN",
 	"inflation_choose": "Kies jouw geld...",
+	"inflation_choose_another": "Kies een ander geld",
 	"inflation_us_dollar": "U.S. DOLLAR",
 	"inflation_australian_dollar": "AUSTRALISCHE DOLLAR",
 	"inflation_brazilian_real": "BRAZILIAANSE REAL",
@@ -87,7 +88,7 @@
 	"inflation_issuance_c1": "In essentie is inflatie jouw deeltje van de 'money pie'die elk jaar kleiner wordt. Dus heeft Bitcoin inflatie?",
 	"inflation_issuance_c2": "Bitcoin heeft een vast aanbod van of 21,000,000 (21 miljoen) Bitcoin die ooit zal bestaan. Het aanbod van 21 miljoen ligt vast in de code en is beveiligd door het krachtigste computernetwerk ter wereld, beter bekend als het Bitcoin Netwerk. Deze limiet kan niet worden gewijzigd.",
 	"inflation_issuance_c3": "Terwijl Bitcoin geen inflatie heeft, heeft het wel uitgifte (emissie). Uitgifte is het percentage nieuwe Bitcoin die elk jaar gemijnd wordt. Bitcoin miners beveiligen het netwerk, verwerken Bitcoin transacties en worden betaald voor hun werk. Bitcoin miners worden betaald via deze nieuwe uitgiftes (tot wanneer het op is), ze krijgen ook betaald met de transactiekosten.",
-	"inflation_issuance_c4": "Meer dan 93% van alle Bitcoin is reeds gemijnd. Meer dan 99% van alle 21 miljoen Bitcoin zullen gemijnd zijn tegen 2030, de overige, minder ddan 1% zal gemijnd worden tegen 2140.",
+	"inflation_issuance_c4": "Meer dan 94% van alle Bitcoin is reeds gemijnd. Meer dan 99% van alle 21 miljoen Bitcoin zullen gemijnd zijn tegen 2030, de overige, minder ddan 1% zal gemijnd worden tegen 2140.",
 	"inflation_issuance_c5": "Zelfs al is er wat uitgifte over tegen dat het vaste aanbod van 21 miljoen Bitcoin, het hele punt is dat jouw deeltje van de 21 miljoen grote bitcoin taart nooit kleiner zal worden. Dit staaat in groot contrast tegenover de overheidsvaluta's die we tot op heden gebruiken. In dat systeem krimpt jouw stukje van de taartelk jaar, wanneer er telkens meer geld geprint wordt uit het niets.",
 	"inflation_issuance_c6": "Je kan niet meer bitcoin bij maken.",
 	"inflation_protect_header": "KAN BITCOIN MIJ BESCHERMEN TEGEN INFLATIE?",

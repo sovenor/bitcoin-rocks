@@ -90,12 +90,14 @@
         <div class="container-main">
             <div class="container-inner">
                 <!--BACK TO HOME-->
-                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-gray.png" class="back-to-home"/></a></center>
+                <center><a href="https://bitcoin.rocks"><img src="img/rocks-logo-gray.png" class="back-to-home" alt="bitcoin.rocks logo - back to home"/></a></center>
 
                 <h2 class="h2-inflation" id="changing-header"></h2>
 
                 <p class="choose" data-i18n="inflation_choose">Choose your money...</p>
                 <div class="container-inflation-button">
+                    <button class="inflation-button show-all-button" style="display:none;">&#x2190;&nbsp;<span data-i18n="inflation_choose_another">Choose another money</span></button>
+                    
                     <button class="inflation-button inf-usdollar" data-id="USD"><span class="money-icon">&#x1F1FA;&#x1F1F8;</span>&nbsp;<span data-i18n="inflation_us_dollar">U.S. DOLLAR</span></button>
 
 
@@ -159,7 +161,7 @@
                         <br /><br />
                         <span data-i18n="inflation_usd_s1_c6">Since 2020,</span>&nbsp;<a href="https://fred.stlouisfed.org/series/M1SL" target="_blank" class="orange-link"><span data-i18n="inflation_usd_s1_c7">the total amount of US Dollars has increased from $4 trillion to $18 trillion.</span></a>
                         <br /><br />
-                          <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank"><img src="img/inflation/usd-money-supply.png" class="inline"/></a>
+                          <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank"><img src="img/inflation/usd-money-supply.png" alt="US Dollar M1 Money Supply chart from FRED showing dramatic increase since 2020" class="inline"/></a>
                         <br /><br />
                         <span data-i18n="inflation_usd_s1_c8">This money printing has caused record inflation.</span>
                         <br /><br />
@@ -238,7 +240,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -249,7 +251,7 @@
 
                 <div class="break-micro"></div>
 
-                <<div class="text-box intro">
+                <div class="text-box intro">
                     <div class="container-inner">
                         <h3 data-i18n="common_what_is_bitcoin">WHAT IS BITCOIN?</h3>
 
@@ -281,7 +283,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_usd">US Dollars have lost 90% of their purchasing power since 1950 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/chart-pp-usd.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/chart-pp-usd.png" alt="US Dollar purchasing power decline since 1950" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -297,7 +299,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -314,7 +316,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -354,14 +356,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -433,13 +435,13 @@
                         <p>
                         <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/cad-purchasing-power.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/cad-purchasing-power.png" class="inline" alt="Canadian Dollar purchasing power decline over time"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_cad">In Canada, there is no fixed limit on how many Canadian Dollars can be created.</span>
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -516,7 +518,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -575,7 +577,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -592,7 +594,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -638,14 +640,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -718,13 +720,13 @@
                         <p>
                         <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/euro-purchasing-power.jpg" class="inline"/>
+                            <img loading="lazy" src="img/inflation/euro-purchasing-power.jpg" alt="Euro purchasing power decline since 1999" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_euro">In the Eurozone, there is no fixed limit on how many Euros can be created.</span>
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -802,7 +804,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -845,7 +847,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_euro">Euros have lost more than 30% of their purchasing power since their creation in 1999 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/euro-purchasing-power.jpg" class="inline"/>
+                            <img loading="lazy" src="img/inflation/euro-purchasing-power.jpg" alt="Euro purchasing power decline since 1999" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -861,7 +863,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -878,7 +880,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -924,14 +926,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -1002,13 +1004,13 @@
                         <p>
                         <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/pound-purchasing-power.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/pound-purchasing-power.png" alt="British Pound purchasing power decline over time" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_gbp">In the United Kingdom, there is no fixed limit on how many British Pounds can be created.</span>
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -1085,7 +1087,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -1128,7 +1130,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_gbp">British Pounds have lost 90% of their purchasing power since 1950 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/pound-purchasing-power.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/pound-purchasing-power.png" alt="British Pound purchasing power decline over time" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -1144,7 +1146,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -1161,7 +1163,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -1207,14 +1209,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -1291,7 +1293,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -1368,7 +1370,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -1411,7 +1413,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_brazilian_real">The Brazilian reais money supply increased from R$427 billion to R$589 billion in just 2 years as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/brazilian-real-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/brazilian-real-money-supply.png" alt="Brazilian Real money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_brazilian_real_2">In 2020, the Brazilian government printed a new R$200 bill. This new bill alone was equal to 12.8% of all reais printed that year!</span>
                         <br /><br />
@@ -1429,7 +1431,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -1446,7 +1448,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -1492,14 +1494,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -1574,7 +1576,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -1651,7 +1653,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -1694,7 +1696,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_philippine_peso">The Philippine Peso money supply has nearly doubled since 2020 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/philippine-peso-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/philippine-peso-money-supply.png" alt="Philippine Peso money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -1710,7 +1712,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -1727,7 +1729,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -1773,14 +1775,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -1855,7 +1857,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -1932,7 +1934,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -1975,7 +1977,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_mexican_peso">The Mexican Peso money supply has nearly doubled since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/mexican-peso-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/mexican-peso-money-supply.png" alt="Mexican Peso money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -1991,7 +1993,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -2008,7 +2010,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -2054,14 +2056,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -2136,7 +2138,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -2213,7 +2215,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -2256,7 +2258,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_indian_rupee">The Indian Rupee money supply has more than doubled since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/indian-rupee-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/indian-rupee-money-supply.png" alt="Indian Rupee money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -2272,7 +2274,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -2289,7 +2291,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -2335,14 +2337,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -2416,7 +2418,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -2493,7 +2495,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -2536,7 +2538,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_honduran_lempira">The Honduran Lempira money supply has more than doubled since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/honduran-lempira-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/honduran-lempira-money-supply.png" alt="Honduran Lempira money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -2552,7 +2554,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -2569,7 +2571,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -2615,14 +2617,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -2696,7 +2698,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -2773,7 +2775,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -2816,7 +2818,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_venezuelan_bolivar">The Venezuelan bolívar money supply has increased by more than 500% in the last year as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/venezuelan-bolivar-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/venezuelan-bolivar-money-supply.png" alt="Venezuelan Bolivar money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -2832,7 +2834,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -2849,7 +2851,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -2895,14 +2897,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -2972,13 +2974,13 @@
                         <p>
                         <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/japanese-yen-purchasing-power.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/japanese-yen-purchasing-power.png" alt="Japanese Yen purchasing power decline over time" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_japanese_yen">In Japan, there is no fixed limit on how many Japanese Yen can be created.</span>
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -3055,7 +3057,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -3098,7 +3100,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_japanese_yen">The Japanese Yen money supply has increased by more than 33% since 2016 as politicians printed more of them. You can see this in the chart below. Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/japanese-yen-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/japanese-yen-money-supply.png" alt="Japanese Yen money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -3114,7 +3116,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -3131,7 +3133,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -3177,14 +3179,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -3255,13 +3257,13 @@
                         <p>
                         <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/australian-dollar-purchasing-power.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/australian-dollar-purchasing-power.png" alt="Australian Dollar purchasing power decline over time" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_australian_dollar">In Australia, there is no fixed limit on how many Australian Dollars can be created.</span>
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -3338,7 +3340,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -3381,7 +3383,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_australian_dollar">The Australian Dollar money supply has increased by more than 100% since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/australian-dollar-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/australian-dollar-money-supply.png" alt="Australian Dollar money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -3397,7 +3399,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -3414,7 +3416,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -3460,14 +3462,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -3541,7 +3543,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -3618,7 +3620,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -3661,7 +3663,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_israeli_shekel">The Israeli Shekel money supply has increased by about 100% since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/israeli-shekel-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/israeli-shekel-money-supply.png" alt="Israeli Shekel money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -3677,7 +3679,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -3694,7 +3696,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -3740,14 +3742,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -3821,7 +3823,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -3898,7 +3900,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -3941,7 +3943,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_thai_baht">The Thai baht money supply has increased by about 50% since 2016 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/thai-baht-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/thai-baht-money-supply.png" alt="Thai Baht money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -3957,7 +3959,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -3974,7 +3976,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -4020,14 +4022,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
@@ -4101,7 +4103,7 @@
                         <br /><br />
                         <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/money-in-circulation.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/money-in-circulation.png" alt="Global money supply expansion chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
                         </p>
@@ -4178,7 +4180,7 @@
                         <br /><br />
                         <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
                         <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 93% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
+                        <span data-i18n="inflation_issuance_c4">More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.</span>
                         <br /><br />
                         <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
                         <br /><br />
@@ -4221,7 +4223,7 @@
                         <br /><br />
                         <span class="bold" data-i18n="inflation_protect_nz_dollar">The New Zealand Dollar money supply has increased by about 100% since 2010 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
                         <br /><br />
-                            <img loading="lazy" src="img/inflation/new-zealand-dollar-money-supply.png" class="inline"/>
+                            <img loading="lazy" src="img/inflation/new-zealand-dollar-money-supply.png" alt="New Zealand Dollar money supply increase chart" class="inline"/>
                         <br /><br />
                         <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
                         </p>
@@ -4237,7 +4239,7 @@
                         <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
                         <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
 
-                        <img loading="lazy" src="img/volatility-small.png" class="inline"/>
+                        <img loading="lazy" src="img/volatility-small.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
 
                         <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
                         <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
@@ -4254,7 +4256,7 @@
 
                         <p data-i18n="common_bitcoin_afford_content_1">
 
-                        <img loading="lazy" src="img/sats-pill.png" class="inline"/>
+                        <img loading="lazy" src="img/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
 
                         <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!</div><!--/container-inner-->
                 </div><!--text-box-->
@@ -4300,14 +4302,14 @@
                         <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
 
                         <ul>
-                          <li data-i18n="common_bitcoin_energy_list_1">Bitcoin is the most secure financial network in the world.</li>
-                          <a href="https://bitcoin.rocks/en/news/energy/bitcoin-mining-stabilizes-texas-power-grid.html" class="orange-link">
+                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
+                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
                           </a>
                           <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
                           </a>
-                          <li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li>
+                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
                           <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
                             <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
                           </a>
