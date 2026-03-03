@@ -35,17 +35,8 @@
         <meta property="og:url" content="https://bitcoin.rocks/bitcoin-stickers" />
         <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-stickers-v9.png" />
 
-
-        <!-- Recaptcha to prevent bot spam on form -->
-        <script src="https://www.google.com/recaptcha/api.js?render=6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE"></script>
-        <script>
-           grecaptcha.ready(function() {
-               grecaptcha.execute('6LdD4DQqAAAAAEEZmM4LZtOciTGbnen86L0dlcVE', {action: 'homepage'})
-               .then(function(token) {
-                 document.getElementById('captchaResponse').value = token;
-               });
-             });
-        </script>
+        <!-- Cloudflare Turnstile CAPTCHA -->
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
         <!-- Source code for i18n translations -->
         <script src="jquery/jquery.min.js"></script>
@@ -146,7 +137,7 @@
                             <input type="text" name="state" placeholder="State" data-i18n="[placeholder]placeholder_state" id="state" required>
                             <input type="text" name="zip" placeholder="Zip Code" data-i18n="[placeholder]placeholder_zip_code" id="zip" required><br />
                             <input type="hidden" name="_gotcha" style="display:none !important">
-
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
@@ -167,6 +158,7 @@
                             <input type="text" name="province" placeholder="Province" data-i18n="[placeholder]placeholder_province" id="state" required>
                             <input type="text" name="postal" placeholder="Postal Code" data-i18n="[placeholder]placeholder_postal_code" id="zip" required><br />
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
@@ -280,6 +272,7 @@
                             <input type="text" name="stickers" placeholder="Which stickers?" data-i18n="[placeholder]placeholder_which_stickers" required><br />
                             <input type="email" name="email" placeholder="Enter your email to be notified (optional)" data-i18n="[placeholder]placeholder_email_optional"><br />
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
@@ -326,6 +319,7 @@
                             <input type="text" name="zip" placeholder="Zip Code" data-i18n="[placeholder]placeholder_zip_code" id="zip" required><br />
                             <input type="hidden" name="_gotcha" style="display:none !important">
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
@@ -348,6 +342,7 @@
                             <input type="text" name="province" placeholder="Province" data-i18n="[placeholder]placeholder_province" id="state" required>
                             <input type="text" name="postal" placeholder="Postal Code" data-i18n="[placeholder]placeholder_postal_code" id="zip" required><br />
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
@@ -461,6 +456,7 @@
                             <input type="text" name="stickers" placeholder="Which stickers?" data-i18n="[placeholder]placeholder_which_stickers" required><br />
                             <input type="email" name="email" placeholder="Enter your email to be notified (optional)" data-i18n="[placeholder]placeholder_email_optional"><br />
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 

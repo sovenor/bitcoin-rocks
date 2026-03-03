@@ -29,6 +29,7 @@
 ✅ **Analytics**: Google Analytics integration (gtag.js, ID: G-18L58W2GTN)
 ✅ **SEO**: English content pre-rendered in HTML source via `scripts/inject-seo-content.js` for crawler visibility, plus proper meta tags and social sharing optimization
 ✅ **Form Spam Protection**: Fuzzy duplicate address detection using normalization + Levenshtein similarity (catches apt/unit keyword swaps, inserted spaces, and other slight variations)
+✅ **CAPTCHA Protection**: Cloudflare Turnstile on all 11 submission forms with server-side verification, replacing old unused Google reCAPTCHA v3
 
 ### Community Features
 ✅ **Open Source**: MIT licensed with public GitHub repository

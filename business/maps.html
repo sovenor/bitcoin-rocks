@@ -34,6 +34,8 @@
         <meta property="og:url" content="https://bitcoin.rocks/business/maps" />
         <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-bbk-maps-v1.png" />
 
+        <!-- Cloudflare Turnstile CAPTCHA -->
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
         <!-- Source code for i18n translations -->
         <script src="../jquery/jquery.min.js"></script>
@@ -113,6 +115,7 @@
 
                             <input type="hidden" name="_gotcha" style="display:none !important">
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 

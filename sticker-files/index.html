@@ -33,6 +33,8 @@
         <meta property="og:url" content="https://bitcoin.rocks/sticker-files" />
         <meta property="og:image" content="https://bitcoin.rocks/img/meta/meta-stickers-v9.png" />
 
+        <!-- Cloudflare Turnstile CAPTCHA -->
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
         <!-- Source code for i18n translations -->
         <script src="../jquery/jquery.min.js"></script>
@@ -214,6 +216,7 @@
                             <input type="text" name="stickers" placeholder="Which stickers?" required><br />
                             <input type="email" name="email" placeholder="Enter your email to be notified (optional)"><br />
 
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP" data-theme="dark"></div>
                             <button type="submit" class="button-form"><p data-i18n="common_submit">SUBMIT</p></button>
                             </form>
 
