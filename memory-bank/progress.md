@@ -28,6 +28,7 @@
 ✅ **Performance**: Fast loading times with optimized assets
 ✅ **Analytics**: Google Analytics integration (gtag.js, ID: G-18L58W2GTN)
 ✅ **SEO**: English content pre-rendered in HTML source via `scripts/inject-seo-content.js` for crawler visibility, plus proper meta tags and social sharing optimization
+✅ **Form Spam Protection**: Fuzzy duplicate address detection using normalization + Levenshtein similarity (catches apt/unit keyword swaps, inserted spaces, and other slight variations)
 
 ### Community Features
 ✅ **Open Source**: MIT licensed with public GitHub repository

@@ -124,6 +124,66 @@ function escapeCSV(value) {
   return str;
 }
 
+// Normalize an address by stripping common variations spammers use
+function normalizeAddress(address) {
+  return address
+    .toLowerCase()
+    // Remove common unit/apartment keywords (leading \b ensures word start,
+    // no trailing \b so "Apt123" matches even without space before number)
+    .replace(/\b(apt|apartment|suite|ste|unit|room|rm|floor|fl|bldg|building|dept|department|no|number|lot|po box|p\.?o\.?\s*box)\.?\s*/gi, '')
+    // Remove # symbol (often used for unit numbers)
+    .replace(/#/g, '')
+    // Remove ALL non-alphanumeric characters (spaces, punctuation, hyphens, dots)
+    .replace(/[^a-z0-9]/g, '');
+}
+
+// Levenshtein distance between two strings
+function levenshteinDistance(a, b) {
+  if (a === b) return 0;
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+
+  const matrix = [];
+
+  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b[i - 1] === a[j - 1]) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1, // substitution
+          matrix[i][j - 1] + 1,     // insertion
+          matrix[i - 1][j] + 1      // deletion
+        );
+      }
+    }
+  }
+
+  return matrix[b.length][a.length];
+}
+
+// Check if two addresses are similar enough to be considered duplicates
+function isSimilarAddress(newAddr, existingAddr, threshold = 0.85) {
+  const normNew = normalizeAddress(newAddr);
+  const normExisting = normalizeAddress(existingAddr);
+
+  // Exact match after normalization
+  if (normNew === normExisting) return true;
+
+  // Skip similarity check if either normalized address is very short
+  if (normNew.length < 5 || normExisting.length < 5) return false;
+
+  // Levenshtein similarity check
+  const maxLen = Math.max(normNew.length, normExisting.length);
+  const distance = levenshteinDistance(normNew, normExisting);
+  const similarity = 1 - (distance / maxLen);
+
+  return similarity >= threshold;
+}
+
 // ============================================================
 // FORM SUBMISSION ENDPOINT
 // ============================================================
@@ -154,16 +214,23 @@ app.post('/submit/:slug', (req, res) => {
       submissionData[field] = req.body[field] || '';
     }
 
-    // Duplicate address check (for forms with an address1 field)
+    // Fuzzy duplicate address check (for forms with an address1 field)
+    // Catches spammers who vary addresses slightly (e.g. "Apt" vs "#", inserted spaces)
     const submittedAddress = (submissionData.address1 || '').trim();
     if (submittedAddress !== '') {
-      const duplicateAddress = db.prepare(`
-        SELECT id FROM submissions
+      const existingSubmissions = db.prepare(`
+        SELECT json_extract(data, '$.address1') as address1
+        FROM submissions
         WHERE form_id = ?
-        AND LOWER(json_extract(data, '$.address1')) = LOWER(?)
-      `).get(form.id, submittedAddress);
+      `).all(form.id);
 
-      if (duplicateAddress) {
+      const isDuplicate = existingSubmissions.some(row => {
+        const existingAddr = (row.address1 || '').trim();
+        if (existingAddr === '') return false;
+        return isSimilarAddress(submittedAddress, existingAddr);
+      });
+
+      if (isDuplicate) {
         return res.status(409).render('error', {
           title: 'Address Already Submitted',
           message: "Your address is already in the next batch. You'll receive your stickers in the next few weeks."
