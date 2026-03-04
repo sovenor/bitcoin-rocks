@@ -129,6 +129,23 @@ function escapeCSV(value) {
 function normalizeAddress(address) {
   return address
     .toLowerCase()
+    // Normalize street type suffixes to their abbreviations
+    .replace(/\b(street)\b/gi, 'st')
+    .replace(/\b(avenue)\b/gi, 'ave')
+    .replace(/\b(boulevard)\b/gi, 'blvd')
+    .replace(/\b(drive)\b/gi, 'dr')
+    .replace(/\b(place)\b/gi, 'pl')
+    .replace(/\b(court)\b/gi, 'ct')
+    .replace(/\b(lane)\b/gi, 'ln')
+    .replace(/\b(road)\b/gi, 'rd')
+    .replace(/\b(circle)\b/gi, 'cir')
+    .replace(/\b(terrace)\b/gi, 'ter')
+    .replace(/\b(highway)\b/gi, 'hwy')
+    .replace(/\b(parkway)\b/gi, 'pkwy')
+    .replace(/\b(way)\b/gi, 'wy')
+    .replace(/\b(trail)\b/gi, 'trl')
+    .replace(/\b(square)\b/gi, 'sq')
+    .replace(/\b(crossing)\b/gi, 'xing')
     // Remove common unit/apartment keywords (leading \b ensures word start,
     // no trailing \b so "Apt123" matches even without space before number)
     .replace(/\b(apt|apartment|suite|ste|unit|room|rm|floor|fl|bldg|building|dept|department|no|number|lot|po box|p\.?o\.?\s*box)\.?\s*/gi, '')
