@@ -712,11 +712,11 @@ tr:hover td {
 }
 
 .btn-blacklist {
-  background: #6b21a8;
+  background: #a16207;
   color: #fff;
 }
 .btn-blacklist:hover {
-  background: #7c3aed;
+  background: #ca8a04;
   color: #fff;
 }
 .btn-blacklist:disabled {

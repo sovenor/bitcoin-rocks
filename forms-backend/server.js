@@ -636,6 +636,12 @@ app.post('/admin/forms/:slug/blacklist', requireAuth, (req, res) => {
     }
   }
 
+  // Also delete the selected submissions
+  db.prepare(`
+    DELETE FROM submissions
+    WHERE id IN (${placeholders}) AND form_id = ?
+  `).run(...idArray.map(Number), form.id);
+
   res.redirect(`/admin/forms/${form.slug}`);
 });
 
