@@ -78,7 +78,7 @@
         <% if (region && canBlacklist) { %>
           <form method="POST" action="/admin/forms/<%= form.slug %>/blacklist" id="blacklist-form" class="inline-action">
             <div id="hidden-ids-blacklist"></div>
-            <button type="submit" class="btn btn-blacklist" id="blacklist-selected" disabled>🚫 Blacklist Address</button>
+            <button type="submit" class="btn btn-blacklist" id="blacklist-selected" disabled>Blacklist Address</button>
           </form>
         <% } %>
       </div>
@@ -99,7 +99,7 @@
 
     <% if (region && canBlacklist) { %>
       <div class="blacklist-section">
-        <h3>🚫 Blacklisted Addresses — <%= region.toUpperCase() %></h3>
+        <h3>Blacklisted Addresses — <%= region.toUpperCase() %></h3>
         <p class="blacklist-note">This blacklist is shared across all <strong><%= region.toUpperCase() %></strong> forms. Blacklisted addresses are silently rejected — the submitter sees the success page but the submission is never saved.</p>
 
         <% if (blacklistedAddresses.length > 0) { %>
@@ -139,19 +139,6 @@
           <p class="blacklist-empty">No addresses are currently blacklisted for <%= region.toUpperCase() %> forms.</p>
         <% } %>
 
-        <div class="blacklist-add-form">
-          <h4>Manually Add Address</h4>
-          <form method="POST" action="/admin/forms/<%= form.slug %>/blacklist/add" class="inline-form blacklist-inline-form">
-            <div class="form-row">
-              <div class="form-group" style="flex: 1;">
-                <input type="text" name="address" placeholder="Enter address to blacklist (e.g., 123 Main St)" required>
-              </div>
-              <div class="form-group" style="flex: 0 0 auto;">
-                <button type="submit" class="btn btn-blacklist">Add to Blacklist</button>
-              </div>
-            </div>
-          </form>
-        </div>
       </div>
     <% } %>
   </div>
@@ -189,8 +176,8 @@
         });
         blacklistBtn.disabled = addressCount === 0;
         blacklistBtn.textContent = addressCount > 0
-          ? `🚫 Blacklist Address (${addressCount})`
-          : '🚫 Blacklist Address';
+          ? `Blacklist Address (${addressCount})`
+          : 'Blacklist Address';
       }
     }
 
@@ -233,7 +220,7 @@
         e.preventDefault();
         return;
       }
-      if (!confirm(`Blacklist ${addressCount} address${addressCount !== 1 ? 'es' : ''}? This will block future submissions from ${addressCount === 1 ? 'this address' : 'these addresses'} across all <%= region ? region.toUpperCase() : '' %> forms.`)) {
+      if (!confirm('Blacklist ' + addressCount + ' address' + (addressCount !== 1 ? 'es' : '') + '? This will block future submissions from ' + (addressCount === 1 ? 'this address' : 'these addresses') + ' across all <%= region ? region.toUpperCase() : "" %> forms.')) {
         e.preventDefault();
         return;
       }

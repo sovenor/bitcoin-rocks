@@ -681,14 +681,16 @@ tr:hover td {
    ============================================================ */
 
 .blacklist-section {
-  margin-top: 40px;
-  padding-top: 32px;
-  border-top: 1px solid #1a1a2e;
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px solid #3a2e0a;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 32px;
 }
 
 .blacklist-section h3 {
   font-size: 18px;
-  color: #fff;
+  color: #fbbf24;
   margin-bottom: 8px;
 }
 
@@ -707,29 +709,6 @@ tr:hover td {
   color: #555;
   font-size: 14px;
   padding: 16px 0;
-}
-
-.blacklist-add-form {
-  margin-top: 20px;
-}
-
-.blacklist-add-form h4 {
-  font-size: 14px;
-  color: #ccc;
-  margin-bottom: 12px;
-}
-
-.blacklist-inline-form {
-  padding: 16px;
-}
-
-.blacklist-inline-form .form-row {
-  align-items: flex-end;
-  margin-bottom: 0;
-}
-
-.blacklist-inline-form .form-group {
-  margin-bottom: 0;
 }
 
 .btn-blacklist {
