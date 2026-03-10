@@ -53,9 +53,22 @@ db.exec(`
     FOREIGN KEY (form_id) REFERENCES forms(id) ON DELETE CASCADE
   );
 
+  CREATE TABLE IF NOT EXISTS blacklisted_addresses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    region TEXT NOT NULL,
+    address_original TEXT NOT NULL,
+    address_normalized TEXT NOT NULL,
+    blocked_count INTEGER DEFAULT 0,
+    created_by INTEGER,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
+  );
+
   CREATE INDEX IF NOT EXISTS idx_submissions_form_id ON submissions(form_id);
   CREATE INDEX IF NOT EXISTS idx_submissions_ip_form ON submissions(ip_address, form_id, submitted_at);
   CREATE INDEX IF NOT EXISTS idx_user_forms_user ON user_forms(user_id);
+  CREATE INDEX IF NOT EXISTS idx_blacklist_region ON blacklisted_addresses(region);
+  CREATE INDEX IF NOT EXISTS idx_blacklist_normalized ON blacklisted_addresses(region, address_normalized);
 `);
 
 // Migration: Add total_submissions and last_submission_at to forms table
@@ -70,6 +83,14 @@ try {
 try {
   db.exec(`ALTER TABLE forms ADD COLUMN last_submission_at DATETIME`);
   console.log('Migration: Added last_submission_at column to forms table');
+} catch (e) {
+  // Column already exists, ignore
+}
+
+// Migration: Add can_blacklist permission to users table
+try {
+  db.exec(`ALTER TABLE users ADD COLUMN can_blacklist INTEGER DEFAULT 0`);
+  console.log('Migration: Added can_blacklist column to users table');
 } catch (e) {
   // Column already exists, ignore
 }

@@ -44,6 +44,12 @@
               Admin
             </label>
           </div>
+          <div class="form-group form-group-small">
+            <label>
+              <input type="checkbox" name="can_blacklist" value="1">
+              Can Blacklist
+            </label>
+          </div>
         </div>
         <div class="form-group">
           <label>Form Access</label>
@@ -90,6 +96,14 @@
                   <input type="checkbox" name="is_admin" value="1" <%= u.is_admin ? 'checked' : '' %>>
                   Admin
                 </label>
+              </div>
+              <div class="form-group form-group-small">
+                <label>
+                  <input type="checkbox" name="can_blacklist" value="1" <%= u.can_blacklist ? 'checked' : '' %> <%= u.is_admin ? 'disabled' : '' %>>
+                  Can Blacklist
+                  <% if (u.is_admin) { %><input type="hidden" name="can_blacklist" value="<%= u.can_blacklist ? '1' : '' %>"><% } %>
+                </label>
+                <% if (u.is_admin) { %><span class="hint">(admins always can)</span><% } %>
               </div>
             </div>
 

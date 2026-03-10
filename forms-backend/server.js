@@ -116,6 +116,18 @@ function userHasFormAccess(userId, isAdmin, formId) {
   return !!access;
 }
 
+function getFormRegion(slug) {
+  if (slug.includes('usa')) return 'usa';
+  if (slug.includes('canada')) return 'canada';
+  return null;
+}
+
+function userCanBlacklist(userId) {
+  const user = db.prepare('SELECT is_admin, can_blacklist FROM users WHERE id = ?').get(userId);
+  if (!user) return false;
+  return !!user.is_admin || !!user.can_blacklist;
+}
+
 function escapeCSV(value) {
   if (value === null || value === undefined) return '';
   const str = String(value);
@@ -267,9 +279,40 @@ app.post('/submit/:slug', async (req, res) => {
       submissionData[field] = req.body[field] || '';
     }
 
+    // Blacklist check: silently reject blacklisted addresses (spammer thinks it worked)
+    const submittedAddress = (submissionData.address1 || '').trim();
+    if (submittedAddress !== '') {
+      const region = getFormRegion(slug);
+      if (region) {
+        const normalizedSubmitted = normalizeAddress(submittedAddress);
+        const blacklisted = db.prepare(`
+          SELECT id, address_normalized FROM blacklisted_addresses WHERE region = ?
+        `).all(region);
+
+        const blacklistMatch = blacklisted.find(entry => {
+          if (normalizedSubmitted === entry.address_normalized) return true;
+          // Also check fuzzy similarity
+          if (normalizedSubmitted.length >= 5 && entry.address_normalized.length >= 5) {
+            const maxLen = Math.max(normalizedSubmitted.length, entry.address_normalized.length);
+            const distance = levenshteinDistance(normalizedSubmitted, entry.address_normalized);
+            const similarity = 1 - (distance / maxLen);
+            return similarity >= 0.85;
+          }
+          return false;
+        });
+
+        if (blacklistMatch) {
+          // Increment blocked counter
+          db.prepare('UPDATE blacklisted_addresses SET blocked_count = blocked_count + 1 WHERE id = ?')
+            .run(blacklistMatch.id);
+          // Silently redirect — spammer thinks submission succeeded
+          return res.redirect(form.success_redirect);
+        }
+      }
+    }
+
     // Fuzzy duplicate address check (for forms with an address1 field)
     // Catches spammers who vary addresses slightly (e.g. "Apt" vs "#", inserted spaces)
-    const submittedAddress = (submissionData.address1 || '').trim();
     if (submittedAddress !== '') {
       const existingSubmissions = db.prepare(`
         SELECT json_extract(data, '$.address1') as address1
@@ -436,10 +479,27 @@ app.get('/admin/forms/:slug', requireAuth, (req, res) => {
     submitted_at: s.submitted_at
   }));
 
+  // Blacklist data for this form's region
+  const region = getFormRegion(form.slug);
+  const canBlacklist = userCanBlacklist(req.session.user.id);
+  let blacklistedAddresses = [];
+  if (region) {
+    blacklistedAddresses = db.prepare(`
+      SELECT ba.*, u.username as created_by_username
+      FROM blacklisted_addresses ba
+      LEFT JOIN users u ON ba.created_by = u.id
+      WHERE ba.region = ?
+      ORDER BY ba.created_at DESC
+    `).all(region);
+  }
+
   res.render('form-detail', {
     form,
     fields,
-    submissions: parsedSubmissions
+    submissions: parsedSubmissions,
+    region,
+    canBlacklist,
+    blacklistedAddresses
   });
 });
 
@@ -521,11 +581,129 @@ app.post('/admin/forms/:slug/delete-all', requireAuth, (req, res) => {
 });
 
 // ============================================================
+// ADMIN: BLACKLIST MANAGEMENT
+// ============================================================
+
+// Blacklist address(es) from selected submissions
+app.post('/admin/forms/:slug/blacklist', requireAuth, (req, res) => {
+  const form = db.prepare('SELECT * FROM forms WHERE slug = ?').get(req.params.slug);
+  if (!form) return res.status(404).send('Form not found');
+
+  if (!userHasFormAccess(req.session.user.id, req.session.user.is_admin, form.id)) {
+    return res.status(403).send('Access denied');
+  }
+
+  if (!userCanBlacklist(req.session.user.id)) {
+    return res.status(403).send('You do not have blacklist permission');
+  }
+
+  const region = getFormRegion(form.slug);
+  if (!region) return res.redirect(`/admin/forms/${form.slug}`);
+
+  const ids = req.body.ids;
+  if (!ids) return res.redirect(`/admin/forms/${form.slug}`);
+
+  const idArray = Array.isArray(ids) ? ids : [ids];
+  const placeholders = idArray.map(() => '?').join(',');
+
+  // Get address1 from selected submissions
+  const submissions = db.prepare(`
+    SELECT data FROM submissions
+    WHERE id IN (${placeholders}) AND form_id = ?
+  `).all(...idArray.map(Number), form.id);
+
+  const insertBlacklist = db.prepare(`
+    INSERT INTO blacklisted_addresses (region, address_original, address_normalized, created_by)
+    VALUES (?, ?, ?, ?)
+  `);
+
+  let added = 0;
+  for (const sub of submissions) {
+    const data = JSON.parse(sub.data);
+    const address = (data.address1 || '').trim();
+    if (address === '') continue;
+
+    const normalized = normalizeAddress(address);
+
+    // Check if already blacklisted (exact normalized match)
+    const existing = db.prepare(
+      'SELECT id FROM blacklisted_addresses WHERE region = ? AND address_normalized = ?'
+    ).get(region, normalized);
+
+    if (!existing) {
+      insertBlacklist.run(region, address, normalized, req.session.user.id);
+      added++;
+    }
+  }
+
+  res.redirect(`/admin/forms/${form.slug}`);
+});
+
+// Manually add address to blacklist
+app.post('/admin/forms/:slug/blacklist/add', requireAuth, (req, res) => {
+  const form = db.prepare('SELECT * FROM forms WHERE slug = ?').get(req.params.slug);
+  if (!form) return res.status(404).send('Form not found');
+
+  if (!userHasFormAccess(req.session.user.id, req.session.user.is_admin, form.id)) {
+    return res.status(403).send('Access denied');
+  }
+
+  if (!userCanBlacklist(req.session.user.id)) {
+    return res.status(403).send('You do not have blacklist permission');
+  }
+
+  const region = getFormRegion(form.slug);
+  if (!region) return res.redirect(`/admin/forms/${form.slug}`);
+
+  const address = (req.body.address || '').trim();
+  if (address === '') return res.redirect(`/admin/forms/${form.slug}`);
+
+  const normalized = normalizeAddress(address);
+
+  // Check if already blacklisted
+  const existing = db.prepare(
+    'SELECT id FROM blacklisted_addresses WHERE region = ? AND address_normalized = ?'
+  ).get(region, normalized);
+
+  if (!existing) {
+    db.prepare(`
+      INSERT INTO blacklisted_addresses (region, address_original, address_normalized, created_by)
+      VALUES (?, ?, ?, ?)
+    `).run(region, address, normalized, req.session.user.id);
+  }
+
+  res.redirect(`/admin/forms/${form.slug}`);
+});
+
+// Remove address from blacklist
+app.post('/admin/forms/:slug/blacklist/:id/remove', requireAuth, (req, res) => {
+  const form = db.prepare('SELECT * FROM forms WHERE slug = ?').get(req.params.slug);
+  if (!form) return res.status(404).send('Form not found');
+
+  if (!userHasFormAccess(req.session.user.id, req.session.user.is_admin, form.id)) {
+    return res.status(403).send('Access denied');
+  }
+
+  if (!userCanBlacklist(req.session.user.id)) {
+    return res.status(403).send('You do not have blacklist permission');
+  }
+
+  const blacklistId = Number(req.params.id);
+  const region = getFormRegion(form.slug);
+
+  // Only delete if it belongs to this region (safety check)
+  db.prepare('DELETE FROM blacklisted_addresses WHERE id = ? AND region = ?')
+    .run(blacklistId, region);
+
+  res.redirect(`/admin/forms/${form.slug}`);
+});
+
+// ============================================================
 // ADMIN: USER MANAGEMENT (admin only)
 // ============================================================
 
 app.get('/admin/users', requireAuth, requireAdmin, (req, res) => {
-  const users = db.prepare('SELECT id, username, is_admin, created_at FROM users ORDER BY username').all();
+  const users = db.prepare('SELECT id, username, is_admin, can_blacklist, created_at FROM users ORDER BY username').all();
   const allForms = db.prepare('SELECT * FROM forms ORDER BY name').all();
 
   // Get form access for each user
@@ -542,7 +720,7 @@ app.get('/admin/users', requireAuth, requireAdmin, (req, res) => {
 
 app.post('/admin/users/create', requireAuth, requireAdmin, async (req, res) => {
   try {
-    const { username, password, is_admin } = req.body;
+    const { username, password, is_admin, can_blacklist } = req.body;
     const formIds = req.body.form_ids || [];
 
     if (!username || !password) {
@@ -557,9 +735,9 @@ app.post('/admin/users/create', requireAuth, requireAdmin, async (req, res) => {
 
     const hash = await bcrypt.hash(password, 12);
     const result = db.prepare(`
-      INSERT INTO users (username, password_hash, is_admin)
-      VALUES (?, ?, ?)
-    `).run(username, hash, is_admin ? 1 : 0);
+      INSERT INTO users (username, password_hash, is_admin, can_blacklist)
+      VALUES (?, ?, ?, ?)
+    `).run(username, hash, is_admin ? 1 : 0, can_blacklist ? 1 : 0);
 
     // Assign form access
     const insertAccess = db.prepare('INSERT INTO user_forms (user_id, form_id) VALUES (?, ?)');
@@ -579,7 +757,7 @@ app.post('/admin/users/create', requireAuth, requireAdmin, async (req, res) => {
 app.post('/admin/users/:id/update', requireAuth, requireAdmin, async (req, res) => {
   try {
     const userId = Number(req.params.id);
-    const { username, password, is_admin } = req.body;
+    const { username, password, is_admin, can_blacklist } = req.body;
     const formIds = req.body.form_ids || [];
 
     if (!username) {
@@ -589,11 +767,11 @@ app.post('/admin/users/:id/update', requireAuth, requireAdmin, async (req, res) 
     // Update user info
     if (password && password.trim() !== '') {
       const hash = await bcrypt.hash(password, 12);
-      db.prepare('UPDATE users SET username = ?, password_hash = ?, is_admin = ? WHERE id = ?')
-        .run(username, hash, is_admin ? 1 : 0, userId);
+      db.prepare('UPDATE users SET username = ?, password_hash = ?, is_admin = ?, can_blacklist = ? WHERE id = ?')
+        .run(username, hash, is_admin ? 1 : 0, can_blacklist ? 1 : 0, userId);
     } else {
-      db.prepare('UPDATE users SET username = ?, is_admin = ? WHERE id = ?')
-        .run(username, is_admin ? 1 : 0, userId);
+      db.prepare('UPDATE users SET username = ?, is_admin = ?, can_blacklist = ? WHERE id = ?')
+        .run(username, is_admin ? 1 : 0, can_blacklist ? 1 : 0, userId);
     }
 
     // Update form access

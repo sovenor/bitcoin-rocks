@@ -2,6 +2,18 @@
 
 ## Current Work Focus
 
+### Address Blacklist System (Completed Mar 2026)
+- **Status**: ✅ Complete
+- **Problem**: Needed the ability to blacklist specific addresses (spammers) so their future form submissions are silently rejected — they see the success page but nothing is saved.
+- **Solution**: Full blacklist management system integrated into the forms backend:
+  - **Database**: New `blacklisted_addresses` table (region, address_original, address_normalized, blocked_count, created_by, created_at) and `can_blacklist` column on `users` table
+  - **Region-based**: Blacklists are shared across all forms in the same region (USA or Canada), derived from form slug
+  - **Submission check**: Before saving any submission, the normalized address1 is checked against the blacklist using both exact match and fuzzy Levenshtein similarity (85% threshold)
+  - **Silent rejection**: Blacklisted submissions redirect to success page (spammer thinks it worked) and increment the `blocked_count` counter
+  - **Admin UI**: "Blacklist Address" button next to "Delete Selected" on form detail pages, plus a blacklist management table with manual add/remove and blocked count display
+  - **Permission system**: Admin can grant/revoke `can_blacklist` permission per user on the Users dashboard; admins always have it
+- **Files changed**: `database.js`, `server.js`, `views/form-detail.ejs`, `views/users.ejs`, `public/admin.css`
+
 ### Cloudflare Turnstile CAPTCHA (Completed Mar 2026)
 - **Status**: ✅ Complete
 - **Problem**: Needed mandatory CAPTCHA on all form submissions to prevent bot spam.

@@ -37,43 +37,51 @@
     </div>
 
     <% if (submissions.length > 0) { %>
-      <form method="POST" action="/admin/forms/<%= form.slug %>/delete" id="delete-form">
-        <div class="table-wrapper">
-          <table>
-            <thead>
-              <tr>
-                <th class="checkbox-col">
-                  <input type="checkbox" id="select-all" title="Select all">
-                </th>
-                <% fields.forEach(field => { %>
-                  <th><%= field %></th>
-                <% }) %>
-                <th>submitted</th>
-              </tr>
-            </thead>
-            <tbody>
-              <% submissions.forEach(sub => { %>
-                <tr>
-                  <td class="checkbox-col">
-                    <input type="checkbox" name="ids" value="<%= sub.id %>">
-                  </td>
-                  <% fields.forEach(field => { %>
-                    <td><%= sub.data[field] || '' %></td>
-                  <% }) %>
-                  <td class="date-col">
-                    <%= new Date(sub.submitted_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
-                    <span class="time"><%= new Date(sub.submitted_at + 'Z').toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) %></span>
-                  </td>
-                </tr>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th class="checkbox-col">
+                <input type="checkbox" id="select-all" title="Select all">
+              </th>
+              <% fields.forEach(field => { %>
+                <th><%= field %></th>
               <% }) %>
-            </tbody>
-          </table>
-        </div>
+              <th>submitted</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% submissions.forEach(sub => { %>
+              <tr>
+                <td class="checkbox-col">
+                  <input type="checkbox" name="ids" value="<%= sub.id %>" class="row-checkbox"
+                    <% if (sub.data.address1) { %>data-address="<%= sub.data.address1 %>"<% } %>>
+                </td>
+                <% fields.forEach(field => { %>
+                  <td><%= sub.data[field] || '' %></td>
+                <% }) %>
+                <td class="date-col">
+                  <%= new Date(sub.submitted_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
+                  <span class="time"><%= new Date(sub.submitted_at + 'Z').toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) %></span>
+                </td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
 
-        <div class="bulk-actions">
+      <div class="bulk-actions">
+        <form method="POST" action="/admin/forms/<%= form.slug %>/delete" id="delete-form" class="inline-action">
+          <div id="hidden-ids-delete"></div>
           <button type="submit" class="btn btn-danger" id="delete-selected" disabled>Delete Selected</button>
-        </div>
-      </form>
+        </form>
+        <% if (region && canBlacklist) { %>
+          <form method="POST" action="/admin/forms/<%= form.slug %>/blacklist" id="blacklist-form" class="inline-action">
+            <div id="hidden-ids-blacklist"></div>
+            <button type="submit" class="btn btn-blacklist" id="blacklist-selected" disabled>🚫 Blacklist Address</button>
+          </form>
+        <% } %>
+      </div>
 
       <div class="danger-zone">
         <h4>Danger Zone</h4>
@@ -88,42 +96,148 @@
         <p>Submissions will appear here when users fill out the form on your website.</p>
       </div>
     <% } %>
+
+    <% if (region && canBlacklist) { %>
+      <div class="blacklist-section">
+        <h3>🚫 Blacklisted Addresses — <%= region.toUpperCase() %></h3>
+        <p class="blacklist-note">This blacklist is shared across all <strong><%= region.toUpperCase() %></strong> forms. Blacklisted addresses are silently rejected — the submitter sees the success page but the submission is never saved.</p>
+
+        <% if (blacklistedAddresses.length > 0) { %>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>Blocked</th>
+                  <th>Added By</th>
+                  <th>Date Added</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% blacklistedAddresses.forEach(entry => { %>
+                  <tr>
+                    <td><%= entry.address_original %></td>
+                    <td class="blocked-count">
+                      <span class="blocked-badge"><%= entry.blocked_count %></span>
+                    </td>
+                    <td><%= entry.created_by_username || 'Unknown' %></td>
+                    <td class="date-col">
+                      <%= new Date(entry.created_at + 'Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) %>
+                    </td>
+                    <td>
+                      <form method="POST" action="/admin/forms/<%= form.slug %>/blacklist/<%= entry.id %>/remove" class="inline-action" onsubmit="return confirm('Remove this address from the blacklist?')">
+                        <button type="submit" class="btn btn-danger btn-small">Remove</button>
+                      </form>
+                    </td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+        <% } else { %>
+          <p class="blacklist-empty">No addresses are currently blacklisted for <%= region.toUpperCase() %> forms.</p>
+        <% } %>
+
+        <div class="blacklist-add-form">
+          <h4>Manually Add Address</h4>
+          <form method="POST" action="/admin/forms/<%= form.slug %>/blacklist/add" class="inline-form blacklist-inline-form">
+            <div class="form-row">
+              <div class="form-group" style="flex: 1;">
+                <input type="text" name="address" placeholder="Enter address to blacklist (e.g., 123 Main St)" required>
+              </div>
+              <div class="form-group" style="flex: 0 0 auto;">
+                <button type="submit" class="btn btn-blacklist">Add to Blacklist</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    <% } %>
   </div>
 
   <script>
     // Select all checkbox
     document.getElementById('select-all')?.addEventListener('change', function() {
-      const checkboxes = document.querySelectorAll('input[name="ids"]');
+      const checkboxes = document.querySelectorAll('.row-checkbox');
       checkboxes.forEach(cb => cb.checked = this.checked);
-      updateDeleteButton();
+      updateButtons();
     });
 
-    // Enable/disable delete button based on selection
-    document.querySelectorAll('input[name="ids"]').forEach(cb => {
-      cb.addEventListener('change', updateDeleteButton);
+    // Enable/disable buttons based on selection
+    document.querySelectorAll('.row-checkbox').forEach(cb => {
+      cb.addEventListener('change', updateButtons);
     });
 
-    function updateDeleteButton() {
-      const checked = document.querySelectorAll('input[name="ids"]:checked');
-      const btn = document.getElementById('delete-selected');
-      if (btn) {
-        btn.disabled = checked.length === 0;
-        btn.textContent = checked.length > 0
+    function updateButtons() {
+      const checked = document.querySelectorAll('.row-checkbox:checked');
+      const deleteBtn = document.getElementById('delete-selected');
+      const blacklistBtn = document.getElementById('blacklist-selected');
+
+      if (deleteBtn) {
+        deleteBtn.disabled = checked.length === 0;
+        deleteBtn.textContent = checked.length > 0
           ? `Delete Selected (${checked.length})`
           : 'Delete Selected';
       }
+
+      if (blacklistBtn) {
+        // Count how many selected have an address1
+        let addressCount = 0;
+        checked.forEach(cb => {
+          if (cb.dataset.address && cb.dataset.address.trim() !== '') addressCount++;
+        });
+        blacklistBtn.disabled = addressCount === 0;
+        blacklistBtn.textContent = addressCount > 0
+          ? `🚫 Blacklist Address (${addressCount})`
+          : '🚫 Blacklist Address';
+      }
+    }
+
+    // Sync checked IDs into hidden inputs before form submit
+    function syncHiddenIds(formEl, containerId) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      const checked = document.querySelectorAll('.row-checkbox:checked');
+      checked.forEach(cb => {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'ids';
+        input.value = cb.value;
+        container.appendChild(input);
+      });
     }
 
     // Confirm before deleting selected
     document.getElementById('delete-form')?.addEventListener('submit', function(e) {
-      const count = document.querySelectorAll('input[name="ids"]:checked').length;
+      const count = document.querySelectorAll('.row-checkbox:checked').length;
       if (count === 0) {
         e.preventDefault();
         return;
       }
       if (!confirm(`Permanently delete ${count} submission${count !== 1 ? 's' : ''}? This cannot be undone.`)) {
         e.preventDefault();
+        return;
       }
+      syncHiddenIds(this, 'hidden-ids-delete');
+    });
+
+    // Confirm before blacklisting
+    document.getElementById('blacklist-form')?.addEventListener('submit', function(e) {
+      const checked = document.querySelectorAll('.row-checkbox:checked');
+      let addressCount = 0;
+      checked.forEach(cb => {
+        if (cb.dataset.address && cb.dataset.address.trim() !== '') addressCount++;
+      });
+      if (addressCount === 0) {
+        e.preventDefault();
+        return;
+      }
+      if (!confirm(`Blacklist ${addressCount} address${addressCount !== 1 ? 'es' : ''}? This will block future submissions from ${addressCount === 1 ? 'this address' : 'these addresses'} across all <%= region ? region.toUpperCase() : '' %> forms.`)) {
+        e.preventDefault();
+        return;
+      }
+      syncHiddenIds(this, 'hidden-ids-blacklist');
     });
   </script>
 </body>

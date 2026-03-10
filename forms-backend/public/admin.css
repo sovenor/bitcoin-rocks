@@ -496,10 +496,6 @@ tr:hover td {
    BULK ACTIONS & DANGER ZONE
    ============================================================ */
 
-.bulk-actions {
-  margin-bottom: 32px;
-}
-
 .danger-zone {
   background: rgba(150, 4, 28, 0.08);
   border: 1px solid #3a0a12;
@@ -678,6 +674,104 @@ tr:hover td {
   .checkbox-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ============================================================
+   BLACKLIST
+   ============================================================ */
+
+.blacklist-section {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid #1a1a2e;
+}
+
+.blacklist-section h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.blacklist-note {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.blacklist-note strong {
+  color: #FF9500;
+}
+
+.blacklist-empty {
+  color: #555;
+  font-size: 14px;
+  padding: 16px 0;
+}
+
+.blacklist-add-form {
+  margin-top: 20px;
+}
+
+.blacklist-add-form h4 {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 12px;
+}
+
+.blacklist-inline-form {
+  padding: 16px;
+}
+
+.blacklist-inline-form .form-row {
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.blacklist-inline-form .form-group {
+  margin-bottom: 0;
+}
+
+.btn-blacklist {
+  background: #6b21a8;
+  color: #fff;
+}
+.btn-blacklist:hover {
+  background: #7c3aed;
+  color: #fff;
+}
+.btn-blacklist:disabled {
+  background: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.blocked-count {
+  text-align: center;
+}
+
+.blocked-badge {
+  display: inline-block;
+  background: rgba(150, 4, 28, 0.2);
+  color: #ff6b7a;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 10px;
+  min-width: 28px;
+  text-align: center;
+}
+
+.bulk-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.inline-action {
+  display: inline-block;
 }
 
 /* Checkbox styling */
