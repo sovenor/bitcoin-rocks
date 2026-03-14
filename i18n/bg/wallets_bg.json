@@ -43,7 +43,6 @@
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
-	"wallets_bitbox02": "BITBOX02",
 	"wallets_cta_lightning": "Търсите нашето ръководство за Lightning портфейл?",
 	"wallets_starter_wallet": "Чудесен портфейл за начинаещи",
 	"wallets_mobile_app": "Мобилно приложение",
@@ -58,13 +57,10 @@
 	"wallets_blockstream_jade_costs": "Струва $79",
 	"wallets_foundation_passport_costs": "Струва $199",
 	"wallets_seedsigner_costs": "Частите струват $50",
-	"wallets_bitbox02_costs": "Струва $159",
 	"wallets_very_affordable": "Много достъпен",
 	"wallets_pair_with_phone": "Сдвоете с телефона си",
 	"wallets_battery": "Презареждаема батерия",
 	"wallets_build_your_own": "Направете си собствен",
-	"wallets_no_cable": "Не е нужен кабел",
-	"wallets_microsd_backup": "Поддръжка на microSD архив",
 	"wallets_qwerty_keyboard": "Пълна QWERTY клавиатура",
 	"wallets_qr_scanner": "QR код скенер"
 }

@@ -43,7 +43,6 @@
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
-	"wallets_bitbox02": "BITBOX02",
 	"wallets_cta_lightning": "กำลังมองหาคู่มือ Lightning Wallet ของเราอยู่ใช่ไหม?",
 	"wallets_starter_wallet": "กระเป๋าสตางค์ที่ดีสำหรับมือใหม่",
 	"wallets_mobile_app": "แอพมือถือ",
@@ -58,13 +57,10 @@
 	"wallets_blockstream_jade_costs": "ราคา $79",
 	"wallets_foundation_passport_costs": "ราคา $199",
 	"wallets_seedsigner_costs": "ชิ้นส่วนราคา $50",
-	"wallets_bitbox02_costs": "ราคา $159",
 	"wallets_very_affordable": "ราคาไม่แพงมาก",
 	"wallets_pair_with_phone": "จับคู่กับโทรศัพท์ของคุณ",
 	"wallets_battery": "แบตเตอรี่แบบชาร์จไฟได้",
 	"wallets_build_your_own": "ประกอบของคุณเอง",
-	"wallets_no_cable": "ไม่ต้องใช้สายเคเบิล",
-	"wallets_microsd_backup": "รองรับการสำรองข้อมูล microSD",
 	"wallets_qwerty_keyboard": "คีย์บอร์ด QWERTY เต็มรูปแบบ",
 	"wallets_qr_scanner": "เครื่องสแกนรหัส QR"
 }

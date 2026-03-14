@@ -43,7 +43,6 @@
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
-	"wallets_bitbox02": "BITBOX02",
 	"wallets_cta_lightning": "À procura de um guia para carteira Lightning?",
 	"wallets_starter_wallet": "Ótima carteira para iniciantes",
 	"wallets_mobile_app": "Aplicação móvel",
@@ -58,13 +57,10 @@
 	"wallets_blockstream_jade_costs": "Custa $79",
 	"wallets_foundation_passport_costs": "Custa $199",
 	"wallets_seedsigner_costs": "As peças custam $50",
-	"wallets_bitbox02_costs": "Custa $159",
 	"wallets_very_affordable": "Muito acessível",
 	"wallets_pair_with_phone": "Emparelhar com o teu telemóvel",
 	"wallets_battery": "Bateria recarregável",
 	"wallets_build_your_own": "Constroi a tua própria",
-	"wallets_no_cable": "Não é necessário cabo",
-	"wallets_microsd_backup": "Suporte para cópia de segurança microSD",
 	"wallets_qwerty_keyboard": "Teclado QWERTY completo",
 	"wallets_qr_scanner": "Scanner de código QR"
 }

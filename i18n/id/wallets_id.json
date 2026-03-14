@@ -43,7 +43,6 @@
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
-	"wallets_bitbox02": "BITBOX02",
 	"wallets_cta_lightning": "Mencari panduan Dompet Lightning kami?",
 	"wallets_starter_wallet": "Dompet pemula yang bagus",
 	"wallets_mobile_app": "Aplikasi seluler",
@@ -58,13 +57,10 @@
 	"wallets_blockstream_jade_costs": "Harga $79",
 	"wallets_foundation_passport_costs": "Harga $199",
 	"wallets_seedsigner_costs": "Biaya komponen $50",
-	"wallets_bitbox02_costs": "Harga $159",
 	"wallets_very_affordable": "Sangat terjangkau",
 	"wallets_pair_with_phone": "Dapat dipasangkan dengan ponsel",
 	"wallets_battery": "Baterai isi ulang",
 	"wallets_build_your_own": "Buat sendiri",
-	"wallets_no_cable": "Tidak memerlukan kabel",
-	"wallets_microsd_backup": "Dukungan pencadangan microSD",
 	"wallets_qwerty_keyboard": "Keyboard QWERTY lengkap",
 	"wallets_qr_scanner": "Pemindai kode QR"
 }
