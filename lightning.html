@@ -102,11 +102,13 @@
                           <br /><br />
                           <span data-i18n="lightning_s1_c3">In general, Lightning should only be used with small amounts of bitcoin. You should only ever store large amounts of bitcoin in a hardware wallet.</span>
                           <br /><br />
-                          <span data-i18n="lightning_s1_c4">Check out our Hardware Wallet Guide for more info.</span>
+                          <a href="https://bitcoin.rocks/wallets" class="orange-link"><span data-i18n="lightning_s1_c4">Check out our Hardware Wallet Guide for more info.</span></a>
                           <br /><br />
                           <span data-i18n="lightning_s1_c5">Not all Lightning wallets are the same. You can determine which wallet has the right set of trade-offs for you by asking one simple question:</span>
                         </p>
-                        <p class="wallet-q" data-i18n="lightning_question_1">WHAT TRADE-OFF BALANCE IS RIGHT FOR ME?</p>
+                        <p class="wallet-q" onclick="toggleAccordion(this)"><span class="orange" data-i18n="lightning_question_1">WHAT TRADE-OFF BALANCE IS RIGHT FOR ME?</span> <span class="accordion-arrow">▼</span></p>
+
+                    <div class="wallet-accordion-content">
 
                     <div class="break-zero"></div>
 
@@ -148,11 +150,10 @@
                           <br /><br />
                           <span data-i18n="lightning_s3_c4">Some people prefer custodial Lightning wallets for small amounts of bitcoin because of their ease of use. Just remember: not your keys, not your coins!</span>
                         </p>
-                        <p class="wallet-q" data-i18n="lightning_question_2">CHOOSE YOUR WALLET</p>
-                        <p>
-                          <span data-i18n="lightning_s4_c1">With all of this in mind, you can now choose the lightning wallet that has the right trade-off balance for you.</span>
-                        </p>
 
+                    </div><!--/wallet-accordion-content-->
+
+                      <div class="break-zero"></div>
 
                     </div><!--/container-inner-->
                 </div><!--text-box-->
@@ -218,30 +219,6 @@
 
         <div class="vs-container">
                 <div class="wallet-box">
-                    <div class="container-inner">
-
-                        <center><img src="img/wallets/mutiny.png" class="device"/></center>
-                        <h6 data-i18n="mutiny_wallet">MUTINY WALLET</h6>
-                        <center>
-                            <div class="alert green">
-                              <img src="img/wallets/alert-check-icon.png"/>
-                              <p data-i18n="common_self_custody">SELF-CUSTODY</p>
-                            </div><!--/alert-->
-                        </center>
-                        <div class="break-mini"></div>
-                        <p>
-                          <span data-i18n="lightning_starter">Great starter wallet</span>
-                          <br />
-                          <span data-i18n="lightning_browser">Browser based</span>
-                          <br />
-                          <span data-i18n="lightning_free">100% free</span>
-                        </p>
-                        <a href="https://mutinywallet.com/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="wallet-box wallet2">
-
                     <div class="container-inner">
 
                         <center><img src="img/wallets/wallet-of-satoshi.png" class="device"/></center>
@@ -351,6 +328,20 @@
 
 
         </div><!--/container-main-->
+
+    <script>
+    function toggleAccordion(header) {
+        var content = header.nextElementSibling;
+        // Skip whitespace/text nodes
+        while (content && content.nodeType !== 1) {
+            content = content.nextSibling;
+        }
+        if (content && content.classList.contains('wallet-accordion-content')) {
+            header.classList.toggle('active');
+            content.classList.toggle('open');
+        }
+    }
+    </script>
 
     </body>
 </html>
