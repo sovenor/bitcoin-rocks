@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-07-23",
+		"last-updated": "2026-03-14",
 		"locale": "bg"
 	},
 	"bitcoin_wallet_guide": "Ръководство за Биткойн портфейли",
@@ -15,7 +15,7 @@
 	"wallets_s2_c1": "Едно от нововъведенията на Биткойн е възможността да го съхранявате, без да разчитате на попечител, като банка.",
 	"wallets_s2_c2": "Ако държите биткойни на борса или в ETF, губите предимствата на свободата на биткойн.",
 	"wallets_s2_c3": "Портфейлите за самостоятелно съхранение отключват пълната мощ на Биткойн: парите на свободата.",
-	"wallets_s2_c4": "С портфейл за самостоятелно съхранение вие ​​сте единственият, който може да харчи или прехвърля парите си. Никой не може да ви спре, цензурира или открадне от вас, когато използвате портфейл за самостоятелно съхранение.",
+	"wallets_s2_c4": "С портфейл за самостоятелно съхранение вие ​​сте единственият, който може да харчи или прехвърля парите си. Никой не може да ви спре да изпращате или получавате парите си, когато използвате портфейл за самостоятелно съхранение.",
 	"wallets_s2_c5": "Портфейлите за самостоятелно съхранение се наричат ​​също така непопечителски портфейли.",
 	"wallets_s3_c1": "Попечителските портфейли са портфейли, при които вие не контролирате парите си.",
 	"wallets_s3_c2": "Тези портфейли са по-подобни на банковата система, където трябва да се доверите на трета страна, за да ви даде достъп до парите ви. Ако вашият Биткойн е на борса, вие използвате попечителски портфейл.",
@@ -38,7 +38,8 @@
 	"wallets_s6_c5": "Вижте ръководството на Джеймсън за метален Биткойн архив тук.",
 	"wallets_s6_c6": "Или продължете да превъртате, за да разгледате опциите за Биткойн портфейли.",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
-	"wallets_coldcard_mk4": "COLDCARD MK4",
+	"wallets_coldcard_mk5": "COLDCARD MK5",
+	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
@@ -52,8 +53,9 @@
 	"wallets_bitcoin_only": "Само Биткойн",
 	"wallets_security_features": "Много функции за сигурност",
 	"wallets_free": "100% безплатно",
-	"wallets_coldcard_mk4_costs": "Струва $158",
-	"wallets_blockstream_jade_costs": "Струва $65",
+	"wallets_coldcard_mk5_costs": "Струва $189",
+	"wallets_coldcard_q_costs": "Струва $289",
+	"wallets_blockstream_jade_costs": "Струва $79",
 	"wallets_foundation_passport_costs": "Струва $199",
 	"wallets_seedsigner_costs": "Частите струват $50",
 	"wallets_bitbox02_costs": "Струва $159",
@@ -62,5 +64,7 @@
 	"wallets_battery": "Презареждаема батерия",
 	"wallets_build_your_own": "Направете си собствен",
 	"wallets_no_cable": "Не е нужен кабел",
-	"wallets_microsd_backup": "Поддръжка на microSD архив"
+	"wallets_microsd_backup": "Поддръжка на microSD архив",
+	"wallets_qwerty_keyboard": "Пълна QWERTY клавиатура",
+	"wallets_qr_scanner": "QR код скенер"
 }

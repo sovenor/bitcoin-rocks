@@ -600,6 +600,11 @@ span.freedom, .jump-freedom, .freedom{
         font-size: 16px !important;
     }
 
+    p.wallet-q{
+        font-size: 18px !important;
+        line-height: 22px !important;
+        padding: 14px 20px !important;
+    }
 }
 
 
@@ -1513,10 +1518,51 @@ p.wallet-q{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 26px;
     text-transform: uppercase;
-    color: #ff9500;
+    color: #ffffff;
+    background-color: #ff9500;
+    border-radius: 50px;
+    padding: 16px 25px !important;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s, opacity 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.wallet-q:hover{
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+p.wallet-q .accordion-arrow{
+    display: inline-block;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+p.wallet-q.active .accordion-arrow{
+    transform: rotate(180deg);
+}
+
+p.wallet-q .orange{
+    color: #ffffff !important;
+}
+
+.wallet-accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.wallet-accordion-content.open{
+    max-height: 2000px;
 }
 
 p.looking{
@@ -1590,6 +1636,10 @@ p.looking{
 
   .green{
     background-color: #31b44a;
+  }
+
+  .yellow{
+    background-color: #f5a623;
   }
 
   .red{

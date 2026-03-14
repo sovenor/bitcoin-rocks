@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-03-14",
 		"locale": "id"
 	},
 	"bitcoin_wallet_guide": "Panduan Dompet Bitcoin",
@@ -15,7 +15,7 @@
 	"wallets_s2_c1": "Salah satu inovasi Bitcoin adalah kemampuannya untuk disimpan tanpa bergantung pada pihak ketiga, seperti bank.",
 	"wallets_s2_c2": "Jika Anda menyimpan Bitcoin di bursa atau ETF, Anda kehilangan manfaat kebebasan dari Bitcoin.",
 	"wallets_s2_c3": "Dompet non-kustodial membuka potensi penuh Bitcoin: uang yang benar-benar bebas.",
-	"wallets_s2_c4": "Dengan dompet non-kustodial, hanya Anda yang memiliki akses untuk membelanjakan atau mentransfer uang Anda. Tidak ada yang bisa menghentikan, menyensor, atau mencurinya dari Anda.",
+	"wallets_s2_c4": "Dengan dompet non-kustodial, hanya Anda yang memiliki akses untuk membelanjakan atau mentransfer uang Anda. Tidak ada yang bisa menghentikan Anda dari mengirim atau menerima uang Anda saat menggunakan dompet non-kustodial.",
 	"wallets_s2_c5": "Dompet non-kustodial juga dikenal sebagai dompet swakelola.",
 	"wallets_s3_c1": "Dompet kustodial adalah dompet di mana Anda tidak memiliki kendali penuh atas uang Anda.",
 	"wallets_s3_c2": "Dompet ini lebih mirip dengan sistem perbankan di mana Anda harus mempercayai pihak ketiga untuk memberikan akses ke uang Anda. Jika Bitcoin Anda ada di bursa, berarti Anda menggunakan dompet kustodial.",
@@ -38,7 +38,8 @@
 	"wallets_s6_c5": "Lihat panduan pencadangan Bitcoin berbasis logam dari Jameson di sini.",
 	"wallets_s6_c6": "Atau lanjutkan menggulir untuk menjelajahi opsi dompet Bitcoin.",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
-	"wallets_coldcard_mk4": "COLDCARD MK4",
+	"wallets_coldcard_mk5": "COLDCARD MK5",
+	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
@@ -52,8 +53,9 @@
 	"wallets_bitcoin_only": "Hanya Bitcoin",
 	"wallets_security_features": "Banyak fitur keamanan",
 	"wallets_free": "100% gratis",
-	"wallets_coldcard_mk4_costs": "Harga $158",
-	"wallets_blockstream_jade_costs": "Harga $65",
+	"wallets_coldcard_mk5_costs": "Harga $189",
+	"wallets_coldcard_q_costs": "Harga $289",
+	"wallets_blockstream_jade_costs": "Harga $79",
 	"wallets_foundation_passport_costs": "Harga $199",
 	"wallets_seedsigner_costs": "Biaya komponen $50",
 	"wallets_bitbox02_costs": "Harga $159",
@@ -62,5 +64,7 @@
 	"wallets_battery": "Baterai isi ulang",
 	"wallets_build_your_own": "Buat sendiri",
 	"wallets_no_cable": "Tidak memerlukan kabel",
-	"wallets_microsd_backup": "Dukungan pencadangan microSD"
+	"wallets_microsd_backup": "Dukungan pencadangan microSD",
+	"wallets_qwerty_keyboard": "Keyboard QWERTY lengkap",
+	"wallets_qr_scanner": "Pemindai kode QR"
 }

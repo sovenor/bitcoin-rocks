@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-11-13",
+		"last-updated": "2026-03-14",
 		"locale": "fr"
 	},
 	"bitcoin_wallet_guide": "Guide des portefeuilles Bitcoin",
@@ -15,7 +15,7 @@
 	"wallets_s2_c1": "L'une des innovations du bitcoin est la possibilité de le stocker sans dépendre d'un dépositaire, comme une banque.",
 	"wallets_s2_c2": "Si vous détenez des bitcoin sur une plateforme d'échange ou dans un actif boursier comme un ETF, vous perdez les avantages du bitcoin en matière de liberté.",
 	"wallets_s2_c3": "Les portefeuilles d'auto-détention (non-custodial) vous donnent accés et un controle total sur vos bitcoin : la monnaie libre.",
-	"wallets_s2_c4": "Avec un portefeuille en auto-détention (non-custodial), vous êtes le seul à pouvoir dépenser ou transférer votre argent. Personne ne peut vous arrêter, ni vous censurer ou vous voler lorsque vous utilisez un portefeuille non-custodial.",
+	"wallets_s2_c4": "Avec un portefeuille en auto-détention (non-custodial), vous êtes le seul à pouvoir dépenser ou transférer votre argent. Personne ne peut vous empêcher d'envoyer ou de recevoir votre argent lorsque vous utilisez un portefeuille non-custodial.",
 	"wallets_s2_c5": "Les portefeuilles d'auto-détention sont également appelés wallets non-custodial, self-custody ou autogéré.",
 	"wallets_s3_c1": "Les portefeuilles custodial (de dépôt détenus par des tiers) sont des portefeuilles sur lesquels vous n'avez pas le contrôle total de votre argent.",
 	"wallets_s3_c2": "Ces portefeuilles sont plus proches du système bancaire, dans lequel vous devez faire confiance à un tiers pour vous donnez accès à votre argent. Si votre bitcoin se trouve sur une plateforme d'échange, vous utilisez un portefeuille custodial.",
@@ -38,7 +38,8 @@
 	"wallets_s6_c5": "Consultez le guide de Jameson sur les sauvegardes Bitcoin en métal ici.",
 	"wallets_s6_c6": "Ou continuez à scroller pour explorer les différentes options de portefeuilles Bitcoin.",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
-	"wallets_coldcard_mk4": "COLDCARD MK4",
+	"wallets_coldcard_mk5": "COLDCARD MK5",
+	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
@@ -52,8 +53,9 @@
 	"wallets_bitcoin_only": "100% Bitcoin ",
 	"wallets_security_features": "Nombreuses fonctions de sécurité",
 	"wallets_free": "100% gratuit",
-	"wallets_coldcard_mk4_costs": "$158",
-	"wallets_blockstream_jade_costs": "$65",
+	"wallets_coldcard_mk5_costs": "$189",
+	"wallets_coldcard_q_costs": "$289",
+	"wallets_blockstream_jade_costs": "$79",
 	"wallets_foundation_passport_costs": "$199",
 	"wallets_seedsigner_costs": "Les composants coûtent $50",
 	"wallets_bitbox02_costs": "$159",
@@ -62,5 +64,7 @@
 	"wallets_battery": "Batterie rechargeable",
 	"wallets_build_your_own": "Construisez le vôtre",
 	"wallets_no_cable": "Pas de câble nécessaire",
-	"wallets_microsd_backup": "Sauvegarde sur microSD"
+	"wallets_microsd_backup": "Sauvegarde sur microSD",
+	"wallets_qwerty_keyboard": "Clavier QWERTY complet",
+	"wallets_qr_scanner": "Scanner de code QR"
 }

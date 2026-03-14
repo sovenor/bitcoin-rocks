@@ -96,7 +96,11 @@
                           <br /><br />
                           <span data-i18n="wallets_s1_c2">There are many different Bitcoin wallets that differ in important ways. You can determine if a wallet is right for you by asking these simple questions:</span>
                         </p>
-                        <p class="wallet-q"><span class="orange" data-i18n="wallets_question_1">IS IT A SELF-CUSTODY WALLET?</span></p>
+
+                        <!-- ACCORDION 1: Self-Custody -->
+                        <p class="wallet-q" onclick="toggleAccordion(this)"><span class="orange" data-i18n="wallets_question_1">IS IT A SELF-CUSTODY WALLET?</span> <span class="accordion-arrow">▼</span></p>
+
+                    <div class="wallet-accordion-content">
 
                     <div class="break-zero"></div>
 
@@ -142,7 +146,12 @@
                           <span data-i18n="wallets_s3_c5">Not your keys, not your coins!</span>
                         </p>
 
-                    <p class="wallet-q"><span class="orange" data-i18n="wallets_question_2">IS IT HOT OR COLD?</span></p>
+                    </div><!--/wallet-accordion-content-->
+
+                    <!-- ACCORDION 2: Hot or Cold -->
+                    <p class="wallet-q" onclick="toggleAccordion(this)"><span class="orange" data-i18n="wallets_question_2">IS IT HOT OR COLD?</span> <span class="accordion-arrow">▼</span></p>
+
+                    <div class="wallet-accordion-content">
 
                     <div class="break-zero"></div>
 
@@ -163,8 +172,8 @@
 
                     <div class="break-zero"></div>
 
-                    <div class="alert red">
-                      <img src="img/wallets/alert-x-icon.png"/>
+                    <div class="alert yellow">
+                      <img src="img/wallets/alert-exclamation.png"/>
                       <p data-i18n="common_hot_wallet">HOT WALLET</p>
                     </div><!--/alert-->
 
@@ -180,7 +189,12 @@
                           <span data-i18n="wallets_s5_c4">Hot wallets make it much easier to spend your Bitcoin without having to pull your entire savings out of cold storage.</span>
                         </p>
 
-                      <p class="wallet-q"><span class="orange" data-i18n="wallets_question_3">HOW WILL I BACK UP MY RECOVERY PHRASE?</span></p>
+                    </div><!--/wallet-accordion-content-->
+
+                      <!-- ACCORDION 3: Recovery Phrase -->
+                      <p class="wallet-q" onclick="toggleAccordion(this)"><span class="orange" data-i18n="wallets_question_3">HOW WILL I BACK UP MY RECOVERY PHRASE?</span> <span class="accordion-arrow">▼</span></p>
+
+                      <div class="wallet-accordion-content">
 
                       <div class="break-zero"></div>
 
@@ -196,6 +210,8 @@
                             <a href="https://jlopp.github.io/metal-bitcoin-storage-reviews/" target="_blank" class="orange-link"><span data-i18n="wallets_s6_c5">View Jameson's metal Bitcoin backup guide here.</span></a>
                             <span data-i18n="wallets_s6_c6">Or keep scrolling to explore Bitcoin wallet options.</span>
                           </p>
+
+                      </div><!--/wallet-accordion-content-->
 
                       <div class="break-zero"></div>
 
@@ -217,8 +233,8 @@
                               <p data-i18n="common_self_custody">SELF-CUSTODY</p>
                             </div><!--/alert-->
                             <div class="break-spacer"></div>
-                            <div class="alert red">
-                              <img src="img/wallets/alert-x-icon.png"/>
+                            <div class="alert yellow">
+                              <img src="img/wallets/alert-exclamation.png"/>
                               <p data-i18n="common_hot_wallet">HOT WALLET</p>
                             </div><!--/alert-->
                         </center>
@@ -242,8 +258,8 @@
                 <div class="wallet-box wallet2">
                     <div class="container-inner">
 
-                        <center><img src="img/wallets/coldcard.png" class="device"/></center>
-                        <h6 data-i18n="wallets_coldcard_mk4">COLDCARD MK4</h6>
+                        <center><img src="img/wallets/coldcard-mk5.png" class="device"/></center>
+                        <h6 data-i18n="wallets_coldcard_mk5">COLDCARD MK5</h6>
 
                         <center>
                             <div class="alert green">
@@ -266,10 +282,10 @@
                           <br />
                           <span data-i18n="wallets_security_features">Lots of security features</span>
                           <br />
-                          <span data-i18n="wallets_coldcard_mk4_costs">Costs $158</span>
+                          <span data-i18n="wallets_coldcard_mk5_costs">Costs $189</span>
                         </p>
 
-                        <a href="https://coldcard.com/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
+                        <a href="https://coldcard.com/mk5" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
                     </div><!--/container-inner-->
 
 
@@ -312,10 +328,10 @@
                           <br />
                           <span data-i18n="wallets_pair_with_phone">Pair with your phone</span>
                           <br />
-                          <span data-i18n="wallets_blockstream_jade_costs">Costs $65</span>
+                          <span data-i18n="wallets_blockstream_jade_costs">Costs $79</span>
                         </p>
 
-                        <a href="https://blockstream.com/jade/" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
+                        <a href="https://store.blockstream.com/products/blockstream-jade-hardware-wallet" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
@@ -439,6 +455,50 @@
 
         </div><!--/vs-container-->
 
+        <div class="break-wallet"></div>
+
+        <div class="vs-container">
+                <div class="wallet-box">
+                    <div class="container-inner">
+
+                        <center><img src="img/wallets/coldcard-q.png" class="device"/></center>
+                        <h6 data-i18n="wallets_coldcard_q">COLDCARD Q</h6>
+
+                        <center>
+                            <div class="alert green">
+                              <img src="img/wallets/alert-check-icon.png"/>
+                              <p data-i18n="common_self_custody">SELF-CUSTODY</p>
+                            </div><!--/alert-->
+                            <div class="break-spacer"></div>
+                            <div class="alert green">
+                              <img src="img/wallets/alert-check-icon.png"/>
+                              <p data-i18n="common_cold_wallet">COLD WALLET</p>
+                            </div><!--/alert-->
+                        </center>
+
+                        <div class="break-mini"></div>
+
+                        <p>
+                          <span data-i18n="wallets_qwerty_keyboard">Full QWERTY keyboard</span>
+                          <br />
+                          <span data-i18n="wallets_qr_scanner">QR code scanner</span>
+                          <br />
+                          <span data-i18n="wallets_air_gap_mode">Air-gap mode</span>
+                          <br />
+                          <span data-i18n="wallets_bitcoin_only">Bitcoin only</span>
+                          <br />
+                          <span data-i18n="wallets_coldcard_q_costs">Costs $289</span>
+                        </p>
+
+                        <a href="https://coldcard.com/q" target="_blank"><div class="wallet-button" data-i18n="common_learn_more">LEARN MORE</div></a>
+                    </div><!--/container-inner-->
+                </div><!--text-box-->
+
+                <div class="break"></div>
+
+
+        </div><!--/vs-container-->
+
 
                 <div class="break-micro"></div>
 
@@ -525,6 +585,20 @@
 
 
         </div><!--/container-main-->
+
+    <script>
+    function toggleAccordion(header) {
+        var content = header.nextElementSibling;
+        // Skip whitespace/text nodes
+        while (content && content.nodeType !== 1) {
+            content = content.nextSibling;
+        }
+        if (content && content.classList.contains('wallet-accordion-content')) {
+            header.classList.toggle('active');
+            content.classList.toggle('open');
+        }
+    }
+    </script>
 
     </body>
 </html>

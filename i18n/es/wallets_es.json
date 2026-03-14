@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-11-13",
+		"last-updated": "2026-03-14",
 		"locale": "es"
 	},
 	"bitcoin_wallet_guide": "Guía de cartera Bitcoin",
@@ -15,7 +15,7 @@
 	"wallets_s2_c1": "Una de las innovaciones de Bitcoin es la posibilidad de almacenarlo sin depender de un custodio, como un banco.",
 	"wallets_s2_c2": "Si guardas bitcoin en un exchange o en un ETF, pierdes los beneficios de libertad del bitcoin.",
 	"wallets_s2_c3": "Las carteras de autocustodia desbloquean todo el poder de Bitcoin: el dinero de la libertad.",
-	"wallets_s2_c4": "Con una cartera de autocustodia, tú eres el único con capacidad para gastar o transferir tu dinero. Nadie puede detenerte, censurarte o robarte cuando usas una cartera de autocustodia.",
+	"wallets_s2_c4": "Con una cartera de autocustodia, tú eres el único con capacidad para gastar o transferir tu dinero. Nadie puede impedirte enviar o recibir tu dinero cuando usas una cartera de autocustodia.",
 	"wallets_s2_c5": "Las carteras de autocustodia también se llaman carteras sin custodia.",
 	"wallets_s3_c1": "Las carteras con custodia son carteras en las que no tienes el control de tu dinero.",
 	"wallets_s3_c2": "Estas carteras son más parecidas al sistema bancario donde debes confiar en un tercero para que te dé acceso a tu dinero. Si tu Bitcoin está en un exchange, estás usando una cartera de custodia.",
@@ -38,7 +38,8 @@
 	"wallets_s6_c5": "Consulta la guía de copias de seguridad de Bitcoin en metal de Jameson aquí.",
 	"wallets_s6_c6": "O sigue deslizando para explorar las opciones de carteras Bitcoin.",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
-	"wallets_coldcard_mk4": "COLDCARD MK4",
+	"wallets_coldcard_mk5": "COLDCARD MK5",
+	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
@@ -52,8 +53,9 @@
 	"wallets_bitcoin_only": "Sólo bitcoin",
 	"wallets_security_features": "Muchas funciones de seguridad",
 	"wallets_free": "100% gratis",
-	"wallets_coldcard_mk4_costs": "Cuesta $158",
-	"wallets_blockstream_jade_costs": "Cuesta $65",
+	"wallets_coldcard_mk5_costs": "Cuesta $189",
+	"wallets_coldcard_q_costs": "Cuesta $289",
+	"wallets_blockstream_jade_costs": "Cuesta $79",
 	"wallets_foundation_passport_costs": "Cuesta $199",
 	"wallets_seedsigner_costs": "Las piezas cuestan $50",
 	"wallets_bitbox02_costs": "Cuesta $159",
@@ -62,5 +64,7 @@
 	"wallets_battery": "Batería recargable",
 	"wallets_build_your_own": "Construye tu propia",
 	"wallets_no_cable": "No necesita cable",
-	"wallets_microsd_backup": "Soporte de copia de seguridad en microSD"
+	"wallets_microsd_backup": "Soporte de copia de seguridad en microSD",
+	"wallets_qwerty_keyboard": "Teclado QWERTY completo",
+	"wallets_qr_scanner": "Escáner de código QR"
 }
