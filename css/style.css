@@ -734,7 +734,6 @@ label.compound-label{
 
 .compound-form input{
     padding: 0px !important;
-    background-color: #f0f0f0;
 }
 
 .compound-form input::placeholder{
