@@ -56,7 +56,7 @@ a:hover {
 .nav-brand {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #f0f0f0;
 }
 .nav-brand:hover {
   color: #FF9500;
@@ -81,7 +81,7 @@ a:hover {
   transition: all 0.2s;
 }
 .nav-link:hover {
-  color: #fff;
+  color: #f0f0f0;
   background: #1a1a2e;
 }
 .nav-link.active {
@@ -146,7 +146,7 @@ a:hover {
 
 .login-container h1 {
   font-size: 24px;
-  color: #fff;
+  color: #f0f0f0;
   margin-bottom: 4px;
 }
 
@@ -180,7 +180,7 @@ a:hover {
   background: #0d0d1a;
   border: 1px solid #2a2a3e;
   border-radius: 8px;
-  color: #fff;
+  color: #f0f0f0;
   font-size: 14px;
   transition: border-color 0.2s;
 }
@@ -261,12 +261,12 @@ a:hover {
 }
 .btn-secondary:hover {
   background: #2a2a3e;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .btn-danger {
   background: #96041C;
-  color: #fff;
+  color: #f0f0f0;
 }
 .btn-danger:hover {
   background: #b81030;
@@ -315,7 +315,7 @@ a:hover {
 
 h2 {
   font-size: 24px;
-  color: #fff;
+  color: #f0f0f0;
   margin-bottom: 4px;
 }
 
@@ -349,7 +349,7 @@ h2 {
 
 .form-card-header h3 {
   font-size: 16px;
-  color: #fff;
+  color: #f0f0f0;
   margin-bottom: 16px;
 }
 
@@ -541,7 +541,7 @@ tr:hover td {
 
 .section h3 {
   font-size: 18px;
-  color: #fff;
+  color: #f0f0f0;
   margin-bottom: 16px;
 }
 
@@ -569,7 +569,7 @@ tr:hover td {
 
 .user-card-header h4 {
   font-size: 16px;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .user-date {
@@ -713,11 +713,11 @@ tr:hover td {
 
 .btn-blacklist {
   background: #a16207;
-  color: #fff;
+  color: #f0f0f0;
 }
 .btn-blacklist:hover {
   background: #ca8a04;
-  color: #fff;
+  color: #f0f0f0;
 }
 .btn-blacklist:disabled {
   background: #333;
