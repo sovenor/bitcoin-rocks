@@ -618,25 +618,6 @@ span.freedom, .jump-freedom, .freedom{
 
 /** INFLATION PAGE **/
 
-img.arrow-down-inflation{
-    width: 100px;
-    height: auto;
-    margin-left: 50%;
-    left: -50px;
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 0px;
-}
-
-img.arrow-up-inflation{
-    width: 100px;
-    height: auto;
-    margin-left: 50%;
-    left: -50px;
-    position: relative;
-    margin-bottom: 30px;
-    margin-top: 0px;
-}
 
 #main-sticker-img{
     width: 100%;
@@ -1407,6 +1388,18 @@ h6{
 
 span.bold-text{
     font-weight: 900 !important;
+}
+
+
+/** BANK RUNS **/
+img.arrow-down-bank-runs{
+    width: 100px;
+    height: auto;
+    margin-left: 50%;
+    left: -50px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 
