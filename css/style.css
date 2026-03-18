@@ -751,8 +751,9 @@ label.compound-label{
     text-transform: capitalize;
 }
 
-.compount-form input{
+.compound-form input{
     padding: 0px !important;
+    background-color: #f0f0f0;
 }
 
 .compound-form input::placeholder{
@@ -981,6 +982,7 @@ form input{
     border-radius: 5px;
     font-size: 21px;
     color: #000000;
+    background-color: #f0f0f0;
 }
 
 form input::placeholder{
