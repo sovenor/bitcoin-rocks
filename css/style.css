@@ -26,7 +26,7 @@ h2{
     font-family: "proxima-nova-condensed", sans-serif;
     font-weight: 900;
     font-style: italic;
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 80px;
     line-height: 60px;
     margin: 50px 0px 50px 0px;
@@ -48,7 +48,7 @@ h3{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
 
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 40px;
     line-height: 35px;
     text-transform: uppercase;
@@ -85,7 +85,7 @@ h4{
     line-height: 30px;
     padding: 0;
     margin: 0;
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
 .break-zero{
@@ -203,7 +203,7 @@ h4{
             padding-top: 0px;
             padding-bottom: 0px;
             line-height: 25px;
-            color: #ffffff;
+            color: #f0f0f0;
         }
 
     .top{
@@ -281,7 +281,7 @@ h4{
         font-weight: 300;
         font-style: normal;
         font-size: 15px;
-        color: #ffffff;
+        color: #f0f0f0;
         text-align: center;
         margin-top: 8px;
     }
@@ -336,7 +336,7 @@ a.footer-link{
         font-size: 18px;
         text-align: center;
         margin-top: 60px;
-        color: #ffffff;
+        color: #f0f0f0;
     }
 
 
@@ -350,7 +350,7 @@ span.human-rights, .jump-human-rights, .human-rights{
 
     .jump-human-rights:hover{
         background-color: #ff9500;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.energy, .jump-energy, .energy{
@@ -359,7 +359,7 @@ span.energy, .jump-energy, .energy{
 
     .jump-energy:hover{
         background-color: #1DFF4D;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.food, .jump-food, .food{
@@ -368,7 +368,7 @@ span.food, .jump-food, .food{
 
     .jump-food:hover{
         background-color: #FF571D;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.payments, .jump-payments, .payments{
@@ -377,7 +377,7 @@ span.payments, .jump-payments, .payments{
 
     .jump-payments:hover{
         background-color: #FFE91D;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.money, .jump-money, .money{
@@ -386,7 +386,7 @@ span.money, .jump-money, .money{
 
     .jump-money:hover{
         background-color: #19BC38 ;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.salary, .jump-salary, .salary{
@@ -395,7 +395,7 @@ span.salary, .jump-salary, .salary{
 
     .jump-salary:hover{
         background-color: #2274A5;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.art, .jump-art, .art{
@@ -404,7 +404,7 @@ span.art, .jump-art, .art{
 
     .jump-art:hover{
         background-color: #1F1FFF;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.politics, .jump-politics, .politics{
@@ -413,7 +413,7 @@ span.politics, .jump-politics, .politics{
 
     .jump-politics:hover{
         background-color: #9500FF;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.war, .jump-war, .war{
@@ -422,7 +422,7 @@ span.war, .jump-war, .war{
 
     .jump-war:hover{
         background-color: #ED1C24;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.coding, .jump-coding, .coding{
@@ -431,7 +431,7 @@ span.coding, .jump-coding, .coding{
 
     .jump-coding:hover{
         background-color: #89FC00;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
     span.ai, .jump-ai, .ai{
@@ -440,7 +440,7 @@ span.coding, .jump-coding, .coding{
 
         .jump-ai:hover{
             background-color: #649df9;
-            color: #ffffff !important;
+            color: #f0f0f0 !important;
         }
 
 span.networks, .jump-networks, .networks{
@@ -449,7 +449,7 @@ span.networks, .jump-networks, .networks{
 
     .jump-networks:hover{
         background-color: #1E3A8A;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.self-custody, .jump-self-custody, .self-custody{
@@ -458,7 +458,7 @@ span.self-custody, .jump-self-custody, .self-custody{
 
     .jump-self-custody:hover{
         background-color: #B3FFFC;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.get-started, .jump-get-started, .get-started{
@@ -467,7 +467,7 @@ span.get-started, .jump-get-started, .get-started{
 
     .jump-get-started:hover{
         background-color: #FF9500;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.gold{
@@ -484,7 +484,7 @@ span.property-rights, .jump-property-rights, .property-rights{
 
     .jump-property-rights:hover{
         background-color: #EB4B98;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.business, .jump-business, .business{
@@ -493,7 +493,7 @@ span.business, .jump-business, .business{
 
     .jump-business:hover{
         background-color: #08B2E3;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.environment, .jump-environment, .environment{
@@ -502,7 +502,7 @@ span.environment, .jump-environment, .environment{
 
     .jump-environment:hover{
         background-color: #5B7553;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.crowdfunding, .jump-crowdfunding, .crowdfunding{
@@ -511,7 +511,7 @@ span.crowdfunding, .jump-crowdfunding, .crowdfunding{
 
     .jump-crowdfunding:hover{
         background-color: #D1D646;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.housing, .jump-housing, .housing{
@@ -520,7 +520,7 @@ span.housing, .jump-housing, .housing{
 
     .jump-housing:hover{
         background-color: #935425;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.equality, .jump-equality, .equality{
@@ -529,7 +529,7 @@ span.equality, .jump-equality, .equality{
 
     .jump-equality:hover{
         background-color: #8C5383;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 span.freedom, .jump-freedom, .freedom{
@@ -538,7 +538,7 @@ span.freedom, .jump-freedom, .freedom{
 
     .jump-freedom:hover{
         background-color: #96041C;
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
     }
 
 
@@ -711,7 +711,7 @@ img.sign-adjust{
 /** COMPOUND INFLATION CALCULATOR PAGE **/
 
 .result{
-    color: #ffffff;
+    color: #f0f0f0;
     font-family: "proxima-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -779,7 +779,7 @@ label.compound-label{
         font-size: 30px;
         line-height: 25px;
         text-align: center;
-        color: #ffffff;
+        color: #f0f0f0;
         position: relative;
         top: -10px;
         outline-style: none !important;
@@ -808,7 +808,7 @@ label.compound-label{
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #f0f0f0;
     position: relative;
     outline-style: none !important;
     }
@@ -877,7 +877,7 @@ img.arrow-down{
         font-size: 30px;
         line-height: 30px;
         text-align: center;
-        color: #ffffff;
+        color: #f0f0f0;
         position: relative;
         top: 10px;
         outline-style: none !important;
@@ -910,7 +910,7 @@ button{
         font-size: 30px;
         line-height: 25px;
         text-align: center;
-        color: #ffffff;
+        color: #f0f0f0;
         position: relative;
         top: -5px;
         outline-style: none !important;
@@ -1021,7 +1021,7 @@ select#countryselector2{
 }
 
 label{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
 #city{
@@ -1051,7 +1051,7 @@ a.orange-link{
 }
 
 a.white-link{
-    color: #ffffff;
+    color: #f0f0f0;
     text-decoration: underline;
     cursor: pointer !important;
 }
@@ -1129,7 +1129,7 @@ p.bounty-claim{
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
 p.bounty-header{
@@ -1148,7 +1148,7 @@ p.bounty-details{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: normal;
-    color: #ffffff;
+    color: #f0f0f0;
     position: relative;
     font-size: 45px;
     margin-top: -35px !important;
@@ -1170,7 +1170,7 @@ p.bounty-details{
         font-family: "proxima-soft", sans-serif;
         font-weight: 900;
         font-style: italic;
-        color: #ffffff;
+        color: #f0f0f0;
         font-size: 30px;
         text-align: center;
         margin-top: -25px;
@@ -1276,7 +1276,7 @@ p.bounty-details{
     padding-top: 0px;
     padding-bottom: 25px;
     line-height: 25px;
-    color: #ffffff;
+    color: #f0f0f0;
     margin-top: -60px;
     text-align: center;
 }
@@ -1327,7 +1327,7 @@ p.cbdc-explain{
     font-weight: 400;
     font-style: normal;
 
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
 span.bitcoin-orange{
@@ -1395,7 +1395,7 @@ h6{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
 
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 40px;
     line-height: 35px;
     margin-top: -20px;
@@ -1421,17 +1421,17 @@ span.article-red{
 }
 
 span.article-p1{
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
     font-style: italic;
 }
 
 span.article-p2{
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
     font-style: italic;
 }
 
 span.article-p3{
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
     font-style: italic;
 }
 
@@ -1521,7 +1521,7 @@ p.wallet-q{
     font-size: 24px;
     line-height: 26px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #f0f0f0;
     background-color: #ff9500;
     border-radius: 50px;
     padding: 16px 25px !important;
@@ -1552,7 +1552,7 @@ p.wallet-q.active .accordion-arrow{
 }
 
 p.wallet-q .orange{
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
 }
 
 .wallet-accordion-content{
@@ -1616,7 +1616,7 @@ p.looking{
     padding-top: 0px;
     padding-bottom: 25px;
     line-height: 25px;
-    color: #ffffff;
+    color: #f0f0f0;
     margin-top: -60px;
     text-align: center;
 }
@@ -1659,7 +1659,7 @@ p.looking{
   font-weight: 900;
   font-size: 18px;
   text-transform: uppercase !important;
-  color: #ffffff;
+  color: #f0f0f0;
   margin: 0 15px 0 0 !important;
   padding: 0 !important;
 }
@@ -1673,7 +1673,7 @@ p.looking{
         font-family: "proxima-soft", sans-serif;
         font-weight: 900;
         font-style: italic;
-        color: #ffffff;
+        color: #f0f0f0;
         font-size: 28px;
         text-align: center;
         margin-top: -25px;
@@ -1725,7 +1725,7 @@ h3.biz-h3{
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
 
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 25px;
     line-height: 30px;
     padding-bottom: 10px;
@@ -1814,7 +1814,7 @@ p.initial-text{
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
-    color: #ffffff;
+    color: #f0f0f0;
     margin-left: 30px;
     margin-right: 30px;
     line-height: 30px;
@@ -1830,7 +1830,7 @@ p.additional-text{
     margin-top: -20px;
     margin-bottom: 30px;
     line-height: 25px;
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
 h7{
@@ -1883,7 +1883,7 @@ h8{
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
-    color: #ffffff;
+    color: #f0f0f0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1920,7 +1920,7 @@ h3.news-cta-h3{
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
 
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 25px;
     line-height: 30px;
     padding-bottom: 10px;
@@ -1935,7 +1935,7 @@ h5{
     font-family: proxima-nova, sans-serif;
     font-style: italic;
     font-weight: 700;
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 40px;
     line-height: 40px;
     margin-top: 70px !important;
@@ -1994,7 +1994,7 @@ h5{
     padding-top: 0px;
     padding-bottom: 25px;
     line-height: 25px;
-    color: #ffffff;
+    color: #f0f0f0;
     margin-top: -60px;
     text-align: center;
 }
@@ -2051,129 +2051,129 @@ h5{
 }
 
 .inf-usdollar{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-usdollar:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #85BB65;
     }
 
 .inf-caddollar{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-caddollar:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #ff0000;
     }
 
 .inf-euro{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-euro:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #003399;
     }
 
 .inf-aud{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-aud:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #012169;
     }
 
 
 .inf-real{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-real:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #009739;
     }
 
 .inf-honduras{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-honduras:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #0d3b99;
     }
 
 .inf-india{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-india:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #ff671f;
     }
 
 .inf-israel{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-israel:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #005EB8;
     }
 
 .inf-japan{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-japan:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #BC002D;
     }
 
 .inf-mexico{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-mexico:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #006341;
     }
 
 .inf-nz{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-nz:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #012169;
     }
 
 .inf-philippine{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-philippine:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #0032A0;
     }
 
 .inf-thai{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-thai:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #EF3340;
     }
 
 .inf-venezuela{
-    color: #ffffff;
+    color: #f0f0f0;
 }
 
     .inf-venezuela:hover{
-        color: #ffffff !important;
+        color: #f0f0f0 !important;
         background-color: #003DA5;
     }
 
@@ -2203,7 +2203,7 @@ p.choose{
 
 .show-all-button{
     background: none;
-	color: #ffffff;
+	color: #f0f0f0;
 	border: none;
 	padding: 0;
 	font: inherit;
@@ -2243,7 +2243,7 @@ p.choose{
     padding: 0px 0px 0px 7px;
     border-radius: 5px;
     font-size: 21px;
-    color: #ffffff;
+    color: #f0f0f0;
     background-color: #000000;
     font-family: "proxima-soft", sans-serif;
     font-weight: 400;
@@ -2269,7 +2269,7 @@ p.choose{
 
 .buy-country-button {
     background: none;
-    color: #ffffff;
+    color: #f0f0f0;
     border: none;
     padding: 0;
     font: inherit;
@@ -2305,13 +2305,13 @@ p.choose{
 
 .buy-country-button:hover {
     background-color: #ff9500;
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
     transform: scale(1.02);
 }
 
 .buy-country-button.selected {
     background-color: #ff9500;
-    color: #ffffff !important;
+    color: #f0f0f0 !important;
 }
 
 .flag-icon {
@@ -2356,7 +2356,7 @@ p.choose{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: italic;
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
@@ -2418,7 +2418,7 @@ p.choose{
     left: 50%;
     transform: translateX(-50%);
     background-color: #ff9500;
-    color: #ffffff;
+    color: #f0f0f0;
     padding: 5px 15px;
     border-radius: 15px;
     font-family: "proxima-soft", sans-serif;
@@ -2431,7 +2431,7 @@ p.choose{
     font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #ffffff;
+    color: #f0f0f0;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -2448,7 +2448,7 @@ p.choose{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: italic;
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 24px;
     text-align: center;
     margin-top: 20px;
@@ -2472,7 +2472,7 @@ p.choose{
     font-family: "proxima-soft", sans-serif;
     font-weight: 900;
     font-style: italic;
-    color: #ffffff;
+    color: #f0f0f0;
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
@@ -2552,7 +2552,7 @@ p.choose{
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #ffffff;
+    color: #f0f0f0;
     display: inline-block;
 }
 
@@ -2564,7 +2564,7 @@ p.choose{
 }
 
 .fixed-bottom-bar-link {
-    color: #ffffff;
+    color: #f0f0f0;
     text-decoration: underline;
     font-weight: 900;
     transition: opacity 0.2s;
