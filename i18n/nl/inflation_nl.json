@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-17",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Heeft Geen Inflatie",
@@ -49,6 +49,7 @@
 	"inflation_intro_c1": "Inflatie gebeurt wanneer er meer geld wordt geprint of uit het niets is ontstaan. Dit zorgt ervoor dat jouw geld steeds minder en minder waard is",
 	"inflation_intro_c2": "Wanneer er meer geld wordt gemaakt door begrotingstekorten en nieuwe uitgavenrekeningen, kun je met jouww geld steeds minder kopen. Doordat er de laatste jaren zoveel geld werd bijgeprint, is de waarde van het geld op jouw bankrekening en in jouw portefemonnee aanzienlijk verminderd doorheen de tijd.",
 	"inflation_intro_c3": "Met Bitcoin, is er een vast aanbod van 21 miljoen Bitcoin die ooit zal bestaan. Omdat er niet meer Bitcoin kan worden gemaakt, is de waarde ervan doorheen de tijd significant gestegen.",
+	"inflation_intro_usd": "In de Verenigde Staten is er geen vaste limiet voor het aantal dollars dat kan worden gemaakt.",
 	"inflation_intro_cad": "In Canada is er geen vaste limiet voor het aantal Canadese Dollars dat kan worden gemaakt.",
 	"inflation_intro_euro": "In de Eurozone is er geen vaste limiet voor het aantal Euros dat kan worden gemaakt.",
 	"inflation_intro_gbp": "In het Verenigd Koninkrijk is er geen vaste limiet voor het aantal Britse Pond dat kan worden gemaakt.",

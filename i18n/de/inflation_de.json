@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-17",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
@@ -49,6 +49,7 @@
 	"inflation_intro_c1": "Inflation entsteht, wenn mehr Geld gedruckt oder aus dem Nichts geschaffen wird. Dadurch wird Dein Geld mit der Zeit weniger wert.",
 	"inflation_intro_c2": "Da durch Haushaltsdefizite und neue Ausgabengesetze immer mehr Geld geschaffen wird, kann man mit dem Geld, das man hat, im Laufe der Zeit immer weniger kaufen. Da in den letzten Jahren so viel Geld gedruckt wurde, ist der Wert des Geldes auf Deinem Bankkonto und in Deiner Tasche mit der Zeit deutlich gesunken.",
 	"inflation_intro_c3": "Bei Bitcoin gibt es eine feste Obergrenze von 21 Millionen Bitcoin, die jemals existieren werden. Da nicht mehr Bitcoin geschaffen werden können, ist ihr Wert im Laufe der Zeit erheblich gestiegen.",
+	"inflation_intro_usd": "In den Vereinigten Staaten gibt es keine feste Obergrenze, wie viele Dollar geschaffen werden können.",
 	"inflation_intro_cad": "In Kanada gibt es keine feste Obergrenze für die Anzahl der kanadischen Dollar, die geschaffen werden können.",
 	"inflation_intro_euro": "In der Eurozone gibt es keine feste Obergrenze, wie viele Euros geschaffen werden können.",
 	"inflation_intro_gbp": "Im Vereinigten Königreich gibt es keine feste Obergrenze, wie viele britische Pfund geschaffen werden können.",

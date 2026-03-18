@@ -1,7 +1,9 @@
 {
     "@metadata": {
-        "authors": ["Abeng"],
-        "last-updated": "2026-03-01",
+        "authors": [
+            "Abeng"
+        ],
+        "last-updated": "2026-03-17",
         "locale": "id"
     },
     "bitcoin_doesnt_have_inflation": "Bitcoin Tidak Memiliki Inflasi",
@@ -47,6 +49,7 @@
     "inflation_intro_c1": "Inflasi terjadi ketika lebih banyak uang dicetak atau diciptakan dari udara kosong. Ini membuat uang Anda bernilai lebih sedikit seiring waktu.",
     "inflation_intro_c2": "Seiring lebih banyak uang diciptakan melalui defisit anggaran dan tagihan pengeluaran baru, uang yang Anda miliki membeli lebih sedikit seiring berjalannya waktu. Karena begitu banyak uang dicetak selama beberapa tahun terakhir, nilai uang di rekening bank dan saku Anda telah menurun secara signifikan seiring waktu.",
     "inflation_intro_c3": "Dengan Bitcoin, ada batas tetap 21 juta Bitcoin yang akan pernah ada. Karena tidak ada lagi Bitcoin yang bisa diciptakan, nilainya telah meningkat secara signifikan seiring waktu.",
+    "inflation_intro_usd": "Di Amerika Serikat, tidak ada batas tetap pada berapa banyak dolar yang bisa diciptakan.",
     "inflation_intro_cad": "Di Kanada, tidak ada batas tetap pada berapa banyak Dolar Kanada yang bisa diciptakan.",
     "inflation_intro_euro": "Di Zona Euro, tidak ada batas tetap pada berapa banyak Euro yang bisa diciptakan.",
     "inflation_intro_gbp": "Di Inggris, tidak ada batas tetap pada berapa banyak Pound Inggris yang bisa diciptakan.",

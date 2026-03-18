@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-17",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -49,6 +49,7 @@
 	"inflation_intro_c1": "L'inflation se produit lorsque plus d'argent est mis en circulation et créé sans garantie de remboursement. Avec le temps, votre argent perd de sa valeur. L'inflation est causée par une création monétaire excessive, plus précisément d'une croissance de la masse monétaire trop forte par rapport à la croissance de la production. (source: gouv. français : vie-publique.fr).",
 	"inflation_intro_c2": "Étant donné que de l'argent est émis pour rembourser des déficits budgétaires et financer des nouveaux projets de loi, l'argent que vous possédez vous rapporte moins au fil du temps. Parce que beaucoup d'argent a été mis en circulation ces dernières années, la valeur de l'argent sur votre compte bancaire et dans votre poche a diminué de manière significative aujourd'hui.",
 	"inflation_intro_c3": "Avec le bitcoin, il y a une limite totale fixe de 21 millions de bitcoin qui existeront pour toujours. Comme il n'est pas possible d'en créer d'autres, leur valeur a augmenté de manière significative dans le temps.",
+	"inflation_intro_usd": "Aux États-Unis, il n'y a pas de limite fixe au nombre de dollars pouvant être créés.",
 	"inflation_intro_cad": "Au Canada, il n'y a pas de limite fixe au nombre de dollars canadiens pouvant être créés.",
 	"inflation_intro_euro": "Dans la zone euro, le nombre d'euros pouvant être créés n'est pas limité. La Banque Centrale Européenne a annoncé un programme d'assouplissement quantitatif; ceux-ci seront financés par la BCE par des injections de liquidités dans le système financier; Ce qui implique que le montant de la masse monétaire de la zone euro est susceptible de s'accroître. (source: economie.gouv.fr/facileco)",
 	"inflation_intro_gbp": "Au Royaume-Uni, il n'y a pas de limite fixe au nombre de livres sterling pouvant être créées.",
