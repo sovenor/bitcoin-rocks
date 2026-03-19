@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-18",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
@@ -89,7 +89,7 @@
 	"inflation_issuance_c1": "Inflation is essentially your piece of the 'money pie' getting smaller each year. So does Bitcoin have inflation?",
 	"inflation_issuance_c2": "Bitcoin has a fixed supply of 21,000,000 (21 million) bitcoin that will ever exist. The 21 million supply limit is fixed in code and secured by the most powerful computing network in the world, called The Bitcoin Network. This limit cannot be changed.",
 	"inflation_issuance_c3": "While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.",
-	"inflation_issuance_c4": "More than 94% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the 2030s, and the remaining less than 1% will be mined by the year 2140.",
+	"inflation_issuance_c4": "More than 95% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the year 2035, and the remaining less than 1% will be mined by the year 2140.",
 	"inflation_issuance_c5": "Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.",
 	"inflation_issuance_c6": "You can't print more bitcoin.",
 	"inflation_protect_header": "CAN BITCOIN PROTECT MY MONEY FROM INFLATION?",

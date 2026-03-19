@@ -3,7 +3,7 @@
         "authors": [
             "Abeng"
         ],
-        "last-updated": "2026-03-17",
+        "last-updated": "2026-03-18",
         "locale": "id"
     },
     "bitcoin_doesnt_have_inflation": "Bitcoin Tidak Memiliki Inflasi",
@@ -89,7 +89,7 @@
     "inflation_issuance_c1": "Inflasi pada dasarnya adalah bagian Anda dari 'kue uang' yang semakin kecil setiap tahun. Jadi, apakah Bitcoin punya inflasi?",
     "inflation_issuance_c2": "Bitcoin memiliki pasokan tetap sebanyak 21.000.000 (21 juta) Bitcoin yang akan pernah ada. Batas pasokan 21 juta ini ditetapkan dalam kode dan diamankan oleh jaringan komputasi paling kuat di dunia, yang disebut Jaringan Bitcoin. Batas ini tidak bisa diubah.",
     "inflation_issuance_c3": "Meskipun Bitcoin tidak memiliki inflasi, ia memiliki penerbitan. Penerbitan adalah persentase Bitcoin baru yang ditambang setiap tahun. Penambang Bitcoin mengamankan jaringan, memproses transaksi Bitcoin, dan mendapatkan bayaran atas pekerjaan mereka. Penambang Bitcoin dibayar dengan penerbitan baru ini (sampai habis) dan juga mendapatkan biaya transaksi.",
-    "inflation_issuance_c4": "Lebih dari 94% dari semua Bitcoin sudah ditambang. Lebih dari 99% dari 21 juta Bitcoin akan telah ditambang pada tahun 2030-an, dan kurang dari 1% yang tersisa akan ditambang pada tahun 2140.",
+    "inflation_issuance_c4": "Lebih dari 95% dari semua Bitcoin sudah ditambang. Lebih dari 99% dari 21 juta Bitcoin akan telah ditambang pada tahun 2035, dan kurang dari 1% yang tersisa akan ditambang pada tahun 2140.",
     "inflation_issuance_c5": "Meskipun masih ada beberapa penerbitan yang tersisa hingga pasokan tetap 21 juta Bitcoin tercapai, intinya adalah bahwa bagian Anda dari kue 21 juta Bitcoin tidak pernah menyusut. Ini sangat kontras dengan mata uang pemerintah yang kita gunakan. Dalam sistem tersebut, bagian Anda dari kue semakin kecil setiap tahun ketika lebih banyak uang dicetak dari udara kosong.",
     "inflation_issuance_c6": "Anda tidak bisa mencetak lebih banyak Bitcoin.",
     "inflation_protect_header": "APAKAH BITCOIN BISA MELINDUNGI UANG SAYA DARI INFLASI?",
