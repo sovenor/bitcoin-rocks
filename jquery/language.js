@@ -2,7 +2,7 @@ $(function() {
   'use strict';
 
   // Version for cache busting - increment this when updating translations
-  var TRANSLATION_VERSION = '1.1.9';
+  var TRANSLATION_VERSION = '1.2.0';
 
   // Initialize i18n
   var i18n = $.i18n();
