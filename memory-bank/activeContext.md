@@ -2,6 +2,20 @@
 
 ## Current Work Focus
 
+### GEO: SoftwareApplication/Product Schema for Wallet Recommendations (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `MobileApplication` and `Product` JSON-LD structured data to `wallets.html` for all 6 recommended wallets as part of the GEO initiative.
+- **Wallets included**:
+  - **Blockstream Green** — `MobileApplication` type, free ($0), FinanceApplication category, Android/iOS, featureList (self-custody, hot wallet, mobile app, 2FA, Bitcoin only)
+  - **Blockstream Jade** — `Product` type, $79, Bitcoin Hardware Wallet, brand: Blockstream, air-gap, cold wallet
+  - **Coldcard MK5** — `Product` type, $189, Bitcoin Hardware Wallet, brand: Coinkite, air-gap, advanced security
+  - **Coldcard Q** — `Product` type, $289, Bitcoin Hardware Wallet, brand: Coinkite, QWERTY keyboard, QR scanner, air-gap
+  - **Foundation Passport** — `Product` type, $199, Bitcoin Hardware Wallet, brand: Foundation Devices, camera, rechargeable battery, air-gap
+  - **SeedSigner** — `Product` type, $50, Bitcoin Hardware Wallet, brand: SeedSigner, DIY build, air-gap
+- **Schema structure**: Single `@graph` JSON-LD block containing all 6 entities. Each includes name, description, url, image, brand (Organization), offers (price/currency/availability), and either `featureList` (for MobileApplication) or `additionalProperty` array of `PropertyValue` entries (for Products).
+- **Also updated**: `i18n/en/wallets_en.json` last-updated to 2026-03-25, Article schema dateModified to 2026-03-25.
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (8th item under Priority 1: Structured Data). This completes ALL items in Priority 1.
+
 ### GEO: BreadcrumbList Schema on All Content Pages (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `BreadcrumbList` JSON-LD structured data to 33 HTML files as part of the GEO initiative.
