@@ -22,7 +22,7 @@ body{
   border-radius: 0px !important;
 }
 
-h2{
+h1, h2{
     font-family: "proxima-nova-condensed", sans-serif;
     font-weight: 900;
     font-style: italic;
@@ -32,6 +32,13 @@ h2{
     margin: 50px 0px 50px 0px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.home-h1{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
 }
 
 h2.get-involved{
@@ -71,7 +78,7 @@ h3.second-line{
       margin-top: -30px !important;
     }
 
-    .h2-inflation{
+    .h2-inflation, .h1-inflation{
         font-size: 30px;
         line-height: 25px;
     }
@@ -573,7 +580,7 @@ span.freedom, .jump-freedom, .freedom{
         max-width: 100% !important;
     }
 
-    .h2-inflation, .h2-stickers{
+    .h2-inflation, .h1-inflation, .h2-stickers{
         font-size: 34px !important;
         line-height: 34px !important;
     }
@@ -627,7 +634,7 @@ p.sticker-header{
     margin-bottom: -15px !important;
 }
 
-.h2-inflation{
+.h2-inflation, .h1-inflation{
     margin-bottom: 50px !important;
     font-size: 50px;
     line-height: 50px;

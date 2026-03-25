@@ -2,6 +2,23 @@
 
 ## Current Work Focus
 
+### GEO: H1 Tags on Every Page (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `<h1>` tags to all 88 HTML files as the 1st item in Priority 2: Content Structure for AI Extraction.
+- **Approach**: Created `scripts/inject-h1-tags.js` (idempotent) that converts the first/primary heading on each page to an `<h1>` tag.
+- **Page types handled**:
+  - **Most pages**: First `<h2 class="h2-inflation">` → `<h1 class="h1-inflation">` (class renamed for continuity)
+  - **wallets.html & buy.html**: `<h3 class="wallet-h3">` → `<h1 class="wallet-h3">`
+  - **Homepage**: Logo wrapped in `<h1 class="home-h1">` with alt text `"bitcoin.rocks — Bitcoin Education"` (zero visual change, well-established SEO pattern)
+  - **Success pages**: First `<h2 class="h2-stickers">` → `<h1 class="h2-stickers">`
+- **CSS changes**: 
+  - `h1, h2` share base tag styles (font-family, weight, size, etc.)
+  - New `.h1-inflation` class mirrors `.h2-inflation` in all 3 CSS rule locations (mobile <400px, tablet <700px, and desktop)
+  - New `.home-h1` class zeroes out margin/padding/font-size so homepage logo remains visually identical
+- **Translation impact**: None — all `data-i18n` attributes preserved, jquery.i18n works with any tag type
+- **Also fixed**: Homepage logo now has alt text (addresses GEO Priority 6, item 3)
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (1st item under Priority 2: Content Structure).
+
 ### GEO: SoftwareApplication/Product Schema for Wallet Recommendations (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `MobileApplication` and `Product` JSON-LD structured data to `wallets.html` for all 6 recommended wallets as part of the GEO initiative.
