@@ -2,6 +2,24 @@
 
 ## Current Work Focus
 
+### GEO: Comparison Schema on "Bitcoin vs" Pages (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `ItemList` JSON-LD structured data to all 10 "Bitcoin vs" comparison pages as part of the GEO initiative.
+- **Pages and comparison point counts**:
+  - `bitcoin-vs-gold.html` — 7 comparison points (sendability, digital native, supply, elasticity, decentralization, verifiability, divisibility)
+  - `bitcoin-vs-stocks.html` — 7 comparison points (ownership, supply, decentralization, valuation, trading hours, custody, inflation hedge)
+  - `bitcoin-vs-cash.html` — 7 comparison points (sendability, global reach, invalidation, counterfeiting, decentralization, custody, divisibility)
+  - `bitcoin-vs-banks.html` — 7 comparison points (permissionless access, availability, transparency, control, fees, overdrafts, censorship resistance)
+  - `bitcoin-vs-cbdc.html` — 10 comparison points (permission, expiry, supply, privacy, decentralization, nodes, freezing, custody, monetary policy, security)
+  - `bitcoin-vs-bonds.html` — 7 comparison points (counterparty risk, inflation, liquidity, auctions, appreciation, custody, government dependency)
+  - `bitcoin-vs-crypto.html` — 8 comparison points (immutability, decentralization, supply, simplicity, consensus, purpose, antifragility, control)
+  - `bitcoin-vs-visa.html` — 7 comparison points (open network, fees, transparency, freezing, debt, custody, availability)
+  - `bitcoin-vs-real-estate.html` — 9 comparison points (portability, divisibility, censorship, maintenance, taxes, destruction, fungibility, market, ownership)
+  - `bitcoin-vs-fine-art.html` — 7 comparison points (fungibility, market access, fees, divisibility, verification, destruction, accessibility)
+- **Schema structure**: Each uses `ItemList` type with `name`, `description`, `url`, `about` (defining both Bitcoin and the compared item as `Thing` entities with descriptions), `numberOfItems`, and `itemListElement` array of `ListItem` entries where name = "Bitcoin: X vs Asset: Y" and description = explanation text.
+- **Script created**: `scripts/inject-comparison-schema.js` — idempotent Node.js script that parses the `vs-container` HTML blocks from each page to extract comparison points automatically.
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (6th item under Priority 1: Structured Data).
+
 ### GEO: HowTo Schema on Guide Pages (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `HowTo` JSON-LD structured data to 3 guide pages as part of the GEO initiative.
