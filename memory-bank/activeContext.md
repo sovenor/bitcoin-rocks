@@ -2,6 +2,16 @@
 
 ## Current Work Focus
 
+### GEO: HowTo Schema on Guide Pages (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `HowTo` JSON-LD structured data to 3 guide pages as part of the GEO initiative.
+- **Pages and steps**:
+  - `wallets.html` — 4 steps: Choose a self-custody wallet, Decide between hot or cold wallet, Back up your recovery phrase, Choose a Bitcoin wallet (with specific wallet recommendations)
+  - `buy.html` — 4 steps: Select your country, Choose your payment method, Buy Bitcoin from a recommended platform, Store your Bitcoin safely in your own wallet
+  - `business/guide.html` — 5 steps: Learn why Bitcoin is good for business, Get a Bitcoin wallet, Get listed on merchant maps, Get free stickers, Set up Bitcoin accounting
+- **Schema structure**: Each uses `HowTo` type with `name`, `description`, `image`, and `step` array of `HowToStep` items with `name`, `text`, and `url`.
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (5th item under Priority 1: Structured Data).
+
 ### GEO: FAQPage Schema on Q&A Pages (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `FAQPage` JSON-LD structured data to 3 pages with Q&A content as part of the GEO initiative.
