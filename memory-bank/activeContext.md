@@ -2,6 +2,16 @@
 
 ## Current Work Focus
 
+### GEO: FAQPage Schema on Q&A Pages (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `FAQPage` JSON-LD structured data to 3 pages with Q&A content as part of the GEO initiative.
+- **Pages and Q&A counts**:
+  - `inflation.html` — 7 Q&A pairs: What causes inflation?, Does Bitcoin have inflation?, What is Bitcoin?, Can Bitcoin protect my money from inflation?, I heard Bitcoin is volatile. Is that safe?, I can't afford a whole Bitcoin, Has Bitcoin ever been hacked?, Why does Bitcoin use energy?
+  - `wallets.html` — 3 Q&A pairs: Is it a self-custody wallet?, Is a Bitcoin wallet hot or cold?, How will I back up my Bitcoin wallet recovery phrase?
+  - `business/faq.html` — 9 Q&A pairs: What is Bitcoin?, How can Bitcoin benefit my business?, How do I accept Bitcoin payments?, Can I convert Bitcoin to local currency?, Accept in person?, Accept online?, How to let customers know?, How to get more customers?, How much does it cost?
+- **Schema structure**: Each uses `FAQPage` type with `mainEntity` array of `Question`/`Answer` pairs, with answer text derived from actual page content.
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (4th item under Priority 1: Structured Data).
+
 ### GEO: Article/WebPage Schema on All Content Pages (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `Article` JSON-LD structured data to all 32 educational content pages as part of the GEO (Generative Engine Optimization) initiative.
