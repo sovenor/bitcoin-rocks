@@ -2,6 +2,13 @@
 
 ## Current Work Focus
 
+### GEO: WebSite Schema on Homepage (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `WebSite` JSON-LD structured data to `index.html` as part of the GEO (Generative Engine Optimization) initiative.
+- **Schema includes**: `name`, `url`, `description`, `publisher` (referencing the Organization), `potentialAction` (SearchAction via Google site search for sitelinks searchbox), and `inLanguage` listing all 11 supported languages.
+- **File changed**: `index.html` — new `<script type="application/ld+json">` block placed before the existing Organization schema.
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (2nd item under Priority 1: Structured Data).
+
 ### Address Blacklist System (Completed Mar 2026)
 - **Status**: ✅ Complete
 - **Problem**: Needed the ability to blacklist specific addresses (spammers) so their future form submissions are silently rejected — they see the success page but nothing is saved.

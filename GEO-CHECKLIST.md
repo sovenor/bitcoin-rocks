@@ -13,7 +13,7 @@ AI engines heavily rely on structured data to understand what a page is about, w
 
 - [x] **Add Organization schema to every page** — Define `bitcoin.rocks` as an `Organization` with name, url, logo, founding date (2022), description, social/Nostr links, and `sameAs` properties. This establishes entity identity across all AI systems. ✅ *Completed Mar 25, 2026 — Injected into all 88 HTML files via `scripts/inject-organization-schema.js`. Includes name, url, logo, foundingDate, description, email, sameAs (GitHub + Nostr), contactPoint, and knowsAbout. Script is idempotent.*
 
-- [ ] **Add WebSite schema to the homepage** — Include `name`, `url`, `description`, and a `potentialAction` for search. This helps AI engines understand the site as a cohesive entity.
+- [x] **Add WebSite schema to the homepage** — Include `name`, `url`, `description`, and a `potentialAction` for search. This helps AI engines understand the site as a cohesive entity. ✅ *Completed Mar 25, 2026 — Added WebSite JSON-LD to `index.html` with name, url, description, publisher (referencing Organization), potentialAction (SearchAction via Google site search), and inLanguage listing all supported languages.*
 
 - [ ] **Add Article/WebPage schema to all educational content pages** — Every page like `/inflation`, `/bitcoin-vs-gold`, `/bank-runs`, `/wallets`, `/lightning`, etc. should have `Article` or `WebPage` schema with `headline`, `description`, `datePublished`, `dateModified`, `author` (linking to the Organization), `publisher`, and `mainEntityOfPage`.
 

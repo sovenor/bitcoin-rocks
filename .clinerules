@@ -111,6 +111,7 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - Use GitHub discussions for translation coordination
 - Maintain consistent terminology across languages
 - Test language switching functionality
+- You must update the homepage WebSite schema when a new language is added
 
 ### Performance Optimization
 - Optimize images before adding to `/img/` directory
