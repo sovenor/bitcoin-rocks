@@ -2,6 +2,18 @@
 
 ## Current Work Focus
 
+### GEO: BreadcrumbList Schema on All Content Pages (Completed Mar 25, 2026)
+- **Status**: ✅ Complete
+- **What**: Added `BreadcrumbList` JSON-LD structured data to 33 HTML files as part of the GEO initiative.
+- **Hierarchy levels**:
+  - **2-level** (Home > Page Title): All root-level content pages — `inflation.html`, `bank-runs.html`, `wallets.html`, `lightning.html`, `buy.html`, `compound-inflation-calculator.html`, `get-involved.html`, `flyers.html`, `stickers.html`, `postcards.html`, `signs.html`, all 10 `bitcoin-vs-*.html` pages, `business/index.html`, `nostr/index.html`
+  - **3-level** (Home > Bitcoin for Business > Page Title): All nested business pages — `business/accounting.html`, `business/faq.html`, `business/guide.html`, `business/kit.html`, `business/maps.html`, `business/stickers.html`, `business/wallets.html`, `business/why.html`
+  - **3-level** (Home > Nostr > Page Title): `nostr/what-is-nostr.html`
+  - **3-level** (Home > Bitcoin Stickers > Sticker Files): `sticker-files/index.html`
+- **Script created**: `scripts/inject-breadcrumb-schema.js` — idempotent Node.js script that extracts page title from `<title>` and canonical URL from `<link rel="canonical">`, determines hierarchy based on directory structure, and injects before `</head>`.
+- **Skipped pages**: Homepage (root, no breadcrumb needed), success/thank-you pages, 404, sticker-files language variants (dozens of language-specific pages).
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (7th item under Priority 1: Structured Data).
+
 ### GEO: Comparison Schema on "Bitcoin vs" Pages (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `ItemList` JSON-LD structured data to all 10 "Bitcoin vs" comparison pages as part of the GEO initiative.
