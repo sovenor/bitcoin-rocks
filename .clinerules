@@ -52,6 +52,8 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - New content needs translation keys added to all language files
 - Images should be optimized and categorized appropriately
 - All changes go through GitHub for version control
+- When updating an individual page, you must update the WebPage schema's last-updated date to today's date
+- When creating a new page, run node scripts/inject-article-schema.js to inject the appropriate schema. Make sure the new page has all the proper schema. View another pre-existing page to verify.
 
 ## Technical Implementation Details
 
