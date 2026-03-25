@@ -11,7 +11,7 @@
 
 AI engines heavily rely on structured data to understand what a page is about, who created it, and how authoritative it is. **bitcoin.rocks has zero structured data on any page.**
 
-- [ ] **Add Organization schema to every page** — Define `bitcoin.rocks` as an `Organization` with name, url, logo, founding date (2022), description, social/Nostr links, and `sameAs` properties. This establishes entity identity across all AI systems.
+- [x] **Add Organization schema to every page** — Define `bitcoin.rocks` as an `Organization` with name, url, logo, founding date (2022), description, social/Nostr links, and `sameAs` properties. This establishes entity identity across all AI systems. ✅ *Completed Mar 25, 2026 — Injected into all 88 HTML files via `scripts/inject-organization-schema.js`. Includes name, url, logo, foundingDate, description, email, sameAs (GitHub + Nostr), contactPoint, and knowsAbout. Script is idempotent.*
 
 - [ ] **Add WebSite schema to the homepage** — Include `name`, `url`, `description`, and a `potentialAction` for search. This helps AI engines understand the site as a cohesive entity.
 
