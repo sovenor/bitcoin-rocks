@@ -2,6 +2,30 @@
 
 ## Current Work Focus
 
+### GEO: Heading Hierarchy Fix (Completed Mar 26, 2026)
+- **Status**: ✅ Complete
+- **What**: Fixed heading hierarchy (H1→H2→H3) across all 35 affected HTML files as the 2nd item in Priority 2: Content Structure for AI Extraction.
+- **Approach**: Created `scripts/fix-heading-hierarchy.js` (idempotent) that converts heading tags to proper hierarchy levels while adding CSS preservation classes for zero visual change.
+- **Changes made (646 heading changes)**:
+  - **CTA sections** (~20 pages): h3→h2 (.h2-section), h4→h3 (.h3-item)
+  - **Content sections** (inflation, bank-runs): h3→h2 (.h2-section)
+  - **Homepage** (index.html): h3→h2 (.h2-section), h4→h3 (.h3-item)
+  - **Wallet/client names** (wallets, lightning): h6→h2 (.h2-label)
+  - **Comparison labels** (10 bitcoin-vs-* pages): h6→h3 (.h3-label)
+  - **Buy page**: h3 steps→h2, h6 payment methods→h3 (.h3-label)
+  - **Business wallet categories**: h5→h2 (.h2-category), h6→h3 (.h3-label)
+  - **Business guide**: h3.biz-h3→h2 (no extra class; .biz-h3 handles styling)
+  - **Nostr pages**: h5→h3 (.h3-category), h6→h4 (.h4-label)
+  - **Business success pages**: Swapped misplaced h1/h2 order
+  - **Business accounting**: Content h3→h2, biz-h3 stays as h3
+  - **Compound inflation calculator**: h3→h2, h4→h3
+- **CSS changes**:
+  - 7 new preservation classes: `.h2-section`, `.h3-item`, `.h2-label`, `.h3-label`, `.h4-label`, `.h2-category`, `.h3-category`
+  - Updated selectors: `h3.second-line` → `h2.second-line, h3.second-line`, `h3.biz-h3` → `.biz-h3` (with font-style/margin fixes), contextual h6 selectors updated for new classes
+  - Responsive media query updates for 400px and 700px breakpoints
+- **Typical page result**: H1 (title) → H2 (sections, .h2-section) → H3 (items, .h3-item)
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (2nd item under Priority 2: Content Structure).
+
 ### GEO: H1 Tags on Every Page (Completed Mar 25, 2026)
 - **Status**: ✅ Complete
 - **What**: Added `<h1>` tags to all 88 HTML files as the 1st item in Priority 2: Content Structure for AI Extraction.

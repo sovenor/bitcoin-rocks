@@ -63,7 +63,7 @@ h3{
 
 }
 
-h3.second-line{
+h2.second-line, h3.second-line{
     margin-top: -40px !important;
 }
 
@@ -74,7 +74,7 @@ h3.second-line{
         line-height: 25px;
     }
 
-    h3.second-line{
+    h2.second-line, h3.second-line{
       margin-top: -30px !important;
     }
 
@@ -596,7 +596,7 @@ span.freedom, .jump-freedom, .freedom{
         padding-right: 2.5% !important;
     }
 
-    h3.biz-h3{
+    .biz-h3{
         font-size: 20px !important;
         line-height: 30px !important;
         padding-bottom: 13px !important;
@@ -1622,7 +1622,7 @@ p.looking{
     text-align: center;
 }
 
-.wallet-box h6{
+.wallet-box h6, .wallet-box .h2-label{
     margin-top: 10px !important;
     margin-bottom: 20px !important;
     font-size: 35px !important;
@@ -1722,18 +1722,20 @@ p.looking{
         transform: scale(1.05);
     }
 
-h3.biz-h3{
+.biz-h3{
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
-
+    font-style: normal;
     color: #f0f0f0;
     font-size: 25px;
     line-height: 30px;
     padding-bottom: 10px;
     margin-top: 30px !important;
     text-align: center;
+}
 
-
+h2.biz-h3{
+    margin-bottom: 20px;
 }
 
 
@@ -2000,7 +2002,7 @@ h5{
     text-align: center;
 }
 
-.wallet-box-biz h6{
+.wallet-box-biz h6, .wallet-box-biz .h3-label{
     margin-top: 10px !important;
     margin-bottom: 20px !important;
     font-size: 35px !important;
@@ -2335,7 +2337,7 @@ p.choose{
     padding-right: 20px;
 }
 
-.payment-method-option h6 {
+.payment-method-option h6, .payment-method-option .h3-label {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -2399,7 +2401,7 @@ p.choose{
     position: relative;
 }
 
-.buy-platform-box h6{
+.buy-platform-box h6, .buy-platform-box .h3-label{
     margin-top: 30px;
     margin-bottom: 0px;
 }
@@ -2593,4 +2595,105 @@ p.choose{
     .fixed-bottom-bar-content {
         padding: 10px 10px;
     }
+}
+
+
+/** HEADING HIERARCHY PRESERVATION CLASSES
+ *  These classes preserve original visual appearance
+ *  when heading tags are changed for proper hierarchy.
+ *  e.g., h3→h2 uses .h2-section to keep h3 visual style.
+ */
+
+/* h3 appearance on h2 tags (content sections, CTA headings, homepage sections) */
+.h2-section, .wallet-h3{
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #f0f0f0;
+    font-size: 40px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: inherit;
+    margin: 1em 0;
+}
+
+@media (max-width: 400px){
+    .h2-section, .wallet-h3{
+        font-size: 30px;
+        line-height: 25px;
+    }
+}
+
+/* h4 appearance on h3 tags (CTA items, homepage link titles) */
+.h3-item{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    color: #f0f0f0;
+    text-transform: none;
+}
+
+/* h6 appearance on h2 tags (wallet names on wallets/lightning pages) */
+.h2-label{
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #f0f0f0;
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* h6 appearance on h3 tags (comparison labels, payment methods, biz wallet names) */
+.h3-label{
+    margin-top: -20px;
+    margin-bottom: 2.33em;
+    text-align: center;
+}
+
+/* h6 appearance on h4 tags (nostr client names) */
+.h4-label{
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 35px;
+    margin-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f0f0f0;
+}
+
+/* h5 appearance on h2 tags (business wallet categories) */
+.h2-category{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 70px !important;
+    text-align: center;
+    overflow: wrap !important;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    text-transform: uppercase;
+}
+
+/* h5 appearance on h3 tags (nostr client categories) */
+.h3-category{
+    font-family: proxima-nova, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 100px !important;
+    text-align: center;
+    overflow: wrap !important;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #f0f0f0;
 }
