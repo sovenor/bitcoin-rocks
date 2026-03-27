@@ -6,6 +6,14 @@
       // Update selected currency
       selectedCurrency = $(this).data('id');
 
+      // Track currency selection in Google Analytics
+      if (typeof gtag === 'function') {
+        gtag('event', 'select_currency', {
+          'event_category': 'inflation',
+          'event_label': selectedCurrency
+        });
+      }
+
       // Hide and show country elements
       $('.countries').hide();
       $('#' + $(this).data('id')).show();
