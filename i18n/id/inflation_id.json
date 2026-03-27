@@ -3,10 +3,11 @@
         "authors": [
             "Abeng"
         ],
-        "last-updated": "2026-03-18",
+        "last-updated": "2026-03-27",
         "locale": "id"
     },
     "bitcoin_doesnt_have_inflation": "Bitcoin Tidak Memiliki Inflasi",
+    "inflation_definition": "Bitcoin memiliki pasokan tetap sebanyak 21 juta koin yang tidak pernah bisa ditambah. Berbeda dengan mata uang pemerintah, tidak ada yang bisa mencetak lebih banyak Bitcoin. Pilih mata uang Anda di bawah untuk mengetahui bagaimana inflasi mempengaruhi daya beli Anda dan bagaimana Bitcoin dapat membantu.",
     "inflation_description": "Bitcoin memiliki pasokan tetap sebanyak 21 juta Bitcoin yang akan pernah ada. Tidak ada yang bisa mencetak lebih banyak Bitcoin dan menyebabkan inflasi.",
     "inflation_sign_got_inflation": "TERDAMPAK INFLASI?",
     "inflation_save_in_bitcoin": "SIMPAN DI BITCOIN",

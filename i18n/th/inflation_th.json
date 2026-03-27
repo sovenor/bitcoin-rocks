@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-18",
+		"last-updated": "2026-03-27",
 		"locale": "th"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin ไม่มีอัตราเงินเฟ้อ",
+	"inflation_definition": "Bitcoin มีอุปทานคงที่จำนวน 21 ล้านเหรียญที่ไม่สามารถเพิ่มได้ ต่างจากสกุลเงินของรัฐบาล ไม่มีใครสามารถพิมพ์ Bitcoin เพิ่มได้ เลือกสกุลเงินของคุณด้านล่างเพื่อเรียนรู้ว่าอัตราเงินเฟ้อส่งผลต่อกำลังซื้อของคุณอย่างไร และ Bitcoin สามารถช่วยได้อย่างไร",
 	"inflation_description": "Bitcoin มีอุปทานคงที่จำนวน 21 ล้าน Bitcoin ที่จะมีอยู่ ไม่มีใครสามารถพิมพ์ Bitcoin มากขึ้นและทำให้เกิดภาวะเงินเฟ้อได้",
 	"inflation_sign_got_inflation": "มีเงินเฟ้อไหม",
 	"inflation_save_in_bitcoin": "ออม BITCOIN",

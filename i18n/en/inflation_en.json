@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-18",
+		"last-updated": "2026-03-27",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
+	"inflation_definition": "Bitcoin has a fixed supply of 21 million coins that can never be increased. Unlike government currencies, no one can print more Bitcoin. Choose your money below to learn how inflation is affecting your purchasing power and how Bitcoin can help.",
 	"inflation_description": "Bitcoin has a fixed supply of 21 million Bitcoin that will ever exist. No one can print more Bitcoin and cause inflation.",
 	"inflation_sign_got_inflation": "GOT INFLATION?",
 	"inflation_save_in_bitcoin": "SAVE IN BITCOIN",

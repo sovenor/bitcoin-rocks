@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-18",
+		"last-updated": "2026-03-27",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
+	"inflation_definition": "Bitcoin hat ein festes Angebot von 21 Millionen Coins, das niemals erhöht werden kann. Im Gegensatz zu staatlichen Währungen kann niemand mehr Bitcoin drucken. Wähle unten Deine Währung, um zu erfahren, wie sich die Inflation auf Deine Kaufkraft auswirkt und wie Bitcoin helfen kann.",
 	"inflation_description": "Bitcoin hat eine feste Menge von 21 Millionen Bitcoin, die jemals existieren werden. Niemand kann mehr Bitcoin drucken und eine Inflation verursachen.",
 	"inflation_sign_got_inflation": "HAST DU INFLATION?",
 	"inflation_save_in_bitcoin": "SPARE IN BITCOIN",

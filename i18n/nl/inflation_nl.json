@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-18",
+		"last-updated": "2026-03-27",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Heeft Geen Inflatie",
+	"inflation_definition": "Bitcoin heeft een vast aanbod van 21 miljoen coins dat nooit verhoogd kan worden. In tegenstelling tot overheidsvaluta's kan niemand meer Bitcoin bijmaken. Kies hieronder jouw valuta om te ontdekken hoe inflatie jouw koopkracht beïnvloedt en hoe Bitcoin kan helpen.",
 	"inflation_description": "Bitcoin heeft een vast aanbod van 21 milljoen Bitcoin die ooit zal bestaan. Niemand kan ooit meer Bitcoin maken en inflatie veroorzaken.",
 	"inflation_sign_got_inflation": "LAST VAN INFLATIE?",
 	"inflation_save_in_bitcoin": "SPAAR IN BITCOIN",

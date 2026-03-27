@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-18",
+		"last-updated": "2026-03-27",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
+	"inflation_definition": "Bitcoin a une offre fixe de 21 millions de coins qui ne pourra jamais être augmentée. Contrairement aux monnaies gouvernementales, personne ne peut imprimer plus de Bitcoin. Choisissez votre monnaie ci-dessous pour découvrir comment l'inflation affecte votre pouvoir d'achat et comment Bitcoin peut vous aider.",
 	"inflation_description": "Le Bitcoin a une offre fixe totale de 21 millions de bitcoin qui existeront pour toujours. Personne ne peut imprimer ou créer plus de bitcoin et provoquer de l'inflation.",
 	"inflation_sign_got_inflation": "VOUS SOUFFREZ DE L'INFLATION ?",
 	"inflation_save_in_bitcoin": "ÉCONOMISEZ EN BITCOIN",
