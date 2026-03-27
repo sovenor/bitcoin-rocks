@@ -2,6 +2,19 @@
 
 ## Current Work Focus
 
+### GEO: About Page (Completed Mar 27, 2026)
+- **Status**: ✅ Complete
+- **What**: Created `/about` page as the 1st item in Priority 3: Authority & Trust Signals in the GEO checklist.
+- **Files created**:
+  - `about.html` — 5 sections: Our Mission, What We Do, Our Editorial Approach, Open Source, Contact Us
+  - `i18n/en/about_en.json` — 30 English translation keys
+  - `i18n/{de,es,fr,pt,nl,bg,id,th,it,pl}/about_*.json` — Actual translations in all 10 languages
+- **Common translations updated**: Added `common_footer_about` key to `common_en.json` and 8 other `common_*.json` files (de, es, fr, pt, nl, bg, id, th) with translated "About bitcoin.rocks" text
+- **Auto-injected schemas**: WebPage schema (via inject-article-schema.js), Organization schema, BreadcrumbList schema
+- **SEO**: English content already inline in HTML; sitemap updated to 88 URLs including `/about`
+- **Content approach**: No mentions of crypto/cryptocurrency. Stickers are the only mailed physical resource; flyers and business kits mentioned as printable only.
+- **Remaining for user**: Add About link to footer HTML across all pages (user opted to handle this manually)
+
 ### GEO: Q&A Microdata on Inflation Page (Completed Mar 27, 2026)
 - **Status**: ✅ Complete
 - **What**: Added Schema.org Question/Answer microdata to 120 Q&A sections on `inflation.html` as the 4th item in Priority 2: Content Structure for AI Extraction.
