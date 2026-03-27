@@ -41,10 +41,6 @@ AI systems extract answers from content that is clearly structured, uses natural
 
 - [ ] **Format Q&A sections as actual question-answer pairs** — The inflation page has great FAQ content ("WHAT CAUSES INFLATION?", "DOES BITCOIN HAVE INFLATION?", "HAS BITCOIN EVER BEEN HACKED?") but they are formatted as section headings only. Wrap these in semantic `<details>`/`<summary>` or at minimum ensure the question text is in a heading and the answer immediately follows in a `<p>` tag directly beneath it.
 
-- [ ] **Add "TL;DR" or summary sections** — At the top of long-form pages (especially `/inflation` which is massive), add a brief summary box that gives the key takeaways in 2-3 sentences. AI engines frequently pull from summary content.
-
-- [ ] **Add a "Key Facts" or "Quick Stats" section to data-heavy pages** — Pages like `/inflation`, `/bitcoin-vs-gold`, `/bitcoin-vs-stocks` should have a prominent list of key statistics (e.g., "Bitcoin's total supply: 21 million", "95%+ of Bitcoin already mined", "Bitcoin has never been hacked"). AI engines love extractable factual statements.
-
 ---
 
 ## Priority 3: Authority & Trust Signals
