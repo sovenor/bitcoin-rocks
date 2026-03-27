@@ -2,6 +2,29 @@
 
 ## Current Work Focus
 
+### GEO: Q&A Microdata on Inflation Page (Completed Mar 27, 2026)
+- **Status**: ✅ Complete
+- **What**: Added Schema.org Question/Answer microdata to 120 Q&A sections on `inflation.html` as the 4th item in Priority 2: Content Structure for AI Extraction.
+- **Approach**: Created `scripts/inject-faq-microdata.js` (idempotent) that identifies Q&A sections by their `data-i18n` heading keys and adds inline microdata attributes.
+- **Changes made (120 Q&A sections)**:
+  - Parent `<div class="text-box intro">` → adds `itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"`
+  - `<h2 class="h2-section">` question heading → adds `itemprop="name"`
+  - Answer content wrapped in `<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer"><div itemprop="text">...</div></div>`
+- **Q&A types marked** (8 per currency block × 15 currencies = 120):
+  - WHAT CAUSES INFLATION? (`inflation_cause_header`)
+  - DOES BITCOIN HAVE INFLATION? (`inflation_issuance_header`)
+  - WHAT IS BITCOIN? (`common_what_is_bitcoin`)
+  - CAN BITCOIN PROTECT MY MONEY FROM INFLATION? (`inflation_protect_header`)
+  - I HEARD BITCOIN IS VOLATILE. IS THAT SAFE? (`common_bitcoin_volatile`)
+  - I CAN'T AFFORD A WHOLE BITCOIN (`common_bitcoin_afford`)
+  - HAS BITCOIN EVER BEEN HACKED? (`common_bitcoin_hacked`)
+  - WHY DOES BITCOIN USE ENERGY? (`common_bitcoin_energy`)
+- **Skipped**: HOW DOES INFLATION AFFECT ME? (`inflation_cic_header`) — interactive calculator, not pure Q&A
+- **Pages not changed**: `wallets.html` and `business/faq.html` already had proper Q&A formatting (accordion/expandable patterns)
+- **Visual change**: Zero — only HTML attributes and unstyled wrapper `<div>` elements added
+- **Complements**: Existing FAQPage JSON-LD schema (belt AND suspenders approach for AI engines)
+- **Tracking**: Marked complete in `GEO-CHECKLIST.md` (4th item under Priority 2: Content Structure). This completes ALL items in Priority 2.
+
 ### GEO: Heading Hierarchy Fix (Completed Mar 26, 2026)
 - **Status**: ✅ Complete
 - **What**: Fixed heading hierarchy (H1→H2→H3) across all 35 affected HTML files as the 2nd item in Priority 2: Content Structure for AI Extraction.

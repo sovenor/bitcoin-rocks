@@ -30,6 +30,7 @@
 ✅ **SEO**: English content pre-rendered in HTML source via `scripts/inject-seo-content.js` for crawler visibility, plus proper meta tags and social sharing optimization
 ✅ **GEO Structured Data**: Complete Schema.org JSON-LD on all pages — Organization, WebSite, Article, FAQPage, HowTo, ComparisonPage (ItemList), BreadcrumbList, SoftwareApplication/Product schemas
 ✅ **GEO Heading Hierarchy**: Proper H1→H2→H3 heading structure across all 35 content pages via `scripts/fix-heading-hierarchy.js` with CSS preservation classes for zero visual change
+✅ **GEO Q&A Microdata**: Schema.org Question/Answer microdata on 120 Q&A sections across inflation.html (8 Q&A types × 15 currencies) via `scripts/inject-faq-microdata.js`, complementing the existing FAQPage JSON-LD
 ✅ **Form Spam Protection**: Fuzzy duplicate address detection using normalization + Levenshtein similarity (catches apt/unit keyword swaps, inserted spaces, and other slight variations)
 ✅ **CAPTCHA Protection**: Cloudflare Turnstile on all 11 submission forms with server-side verification, replacing old unused Google reCAPTCHA v3
 ✅ **Address Blacklist System**: Region-based address blacklisting (USA/Canada) with silent rejection, blocked count tracking, admin UI for add/remove from submissions or manual entry, and per-user `can_blacklist` permission managed on the Users dashboard
