@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"free_bitcoin_stickers": "Adesivi Bitcoin gratuiti da bitcoin.rocks",
+	"stickers_description": "Metti un adesivo Bitcoin in pubblico per fare l'orange pill a chi ti circonda.",
+	"stickers_header": "ADESIVI BITCOIN GRATUITI",
+	"stickers_choose_header": "SCEGLI IL TUO PACCHETTO DI ADESIVI",
+	"stickers_choose_c1": "La nostra missione è aiutarti a fare l'orange pill a più persone mettendo adesivi Bitcoin in pubblico. Tutti i nostri adesivi hanno codici QR che rimandano a pagine educative su",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflazione",
+	"stickers_choose_c4": "Scegli il tuo pacchetto di adesivi qui sotto",
+	"stickers_text_pack": "IL PACCHETTO TESTO",
+	"stickers_signs_pack": "IL PACCHETTO SEGNALI",
+	"stickers_instructions_1": "Inserisci il tuo indirizzo postale e ti invieremo un pacchetto gratuito di adesivi Bitcoin per posta! I tuoi adesivi saranno spediti in una busta bianca normale.",
+	"stickers_instructions_2": "I dati dell'indirizzo vengono eliminati dopo la spedizione dei tuoi adesivi gratuiti.",
+	"stickers_share_header": "CONDIVIDI I TUOI POSTI DEGLI ADESIVI",
+	"stickers_share_c1": "Condividi i tuoi posti degli adesivi con noi su Nostr e vedi dove altre persone stanno mettendo i loro adesivi.",
+	"stickers_btn_share_on_nostr": "CONDIVIDI SU NOSTR",
+	"stickers_btn_what_is_nostr": "COS'È NOSTR?",
+	"stickers_flyers_link_before": "Già che ci sei, stampa e pubblica i tuoi ",
+	"stickers_flyers_link_text": "volantini Bitcoin",
+	"stickers_flyers_link_after": " per fare l'orange pill a ancora più persone.",
+	"stickers_country_global_print": "Globale — Stampa i miei adesivi",
+	"stickers_country_global_order": "Globale — Ordina in blocco",
+	"placeholder_name_optional": "Nome (opzionale)",
+	"placeholder_address_line_1": "Indirizzo Riga 1",
+	"placeholder_address_line_2": "Indirizzo Riga 2 (opzionale)",
+	"placeholder_city": "Città",
+	"placeholder_state": "Stato",
+	"placeholder_province": "Provincia",
+	"placeholder_zip_code": "CAP",
+	"placeholder_postal_code": "Codice Postale",
+	"placeholder_language": "Lingua",
+	"placeholder_which_stickers": "Quali adesivi?",
+	"placeholder_email_optional": "Inserisci la tua email per essere avvisato (opzionale)"
+}

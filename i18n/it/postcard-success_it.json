@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"postcard_success_1": "Riceverai le tue cartoline entro 1-2 settimane.",
+	"postcard_success_2": "Grazie per aver contribuito ad accelerare l'adozione di Bitcoin inviando queste cartoline a qualcuno che conosci!"
+}

@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Prezzo guidato dal mercato",
 	"bitcoin_point_5": "Trading 24/7",
 	"bitcoin_point_6": "Auto-custodia possibile",
-	"bitcoin_point_7": "Asset deflazionistico",
+	"bitcoin_point_7": "Asset a offerta fissa",
 	"point_1_summary_1": "Quando possiedi Bitcoin, hai la proprietà diretta dell'asset stesso. Quando possiedi azioni, possiedi una quota in un'azienda, il che significa che il tuo investimento dipende dalle prestazioni dell'azienda, dalle decisioni del management e dal successo aziendale.",
 	"point_2_summary_1": "Bitcoin ha un limite massimo di 21 milioni di BTC che esisteranno mai.",
 	"point_2_summary_2": "Le aziende possono emettere nuove azioni in qualsiasi momento, diluendo la percentuale di proprietà degli azionisti esistenti. Questo significa che la tua fetta dell'azienda diventa più piccola quando vengono create nuove azioni.",
@@ -45,5 +45,5 @@
 	"point_6_summary_2": "L'auto-custodia è semplice come scaricare un'app.",
 	"point_6_summary_3": "Le azioni richiedono un conto di intermediazione e sei soggetto al rischio di controparte - se l'azienda fallisce o l'intermediario fallisce, potresti perdere il tuo investimento.",
 	"point_6_summary_4": "Non possiedi mai veramente i certificati azionari direttamente.",
-	"point_7_summary_1": "Bitcoin è un asset deflazionistico con un'emissione di offerta decrescente nel tempo. Le azioni hanno prestazioni variabili contro l'inflazione - alcune aziende vanno bene durante i periodi inflazionistici mentre altre lottano. Non c'è garanzia che una particolare azione protegga dall'inflazione."
+	"point_7_summary_1": "Bitcoin è un asset a offerta fissa con un limite massimo di 21 milioni di Bitcoin che esisteranno mai. Questo lo rende un'ottima copertura contro l'inflazione. Le azioni hanno prestazioni variabili contro l'inflazione - alcune aziende vanno bene durante i periodi inflazionistici mentre altre lottano. Non c'è garanzia che una particolare azione protegga dall'inflazione."
 }

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Scopri perché Bitcoin fa bene alle attività",
+	"why_header": "BITCOIN FA BENE ALLE ATTIVITÀ",
+	"why_good_for_you": "BITCOIN FA BENE ANCHE A TE!",
+	"why_learn_more_lowercase": "Scopri di più.",
+	"why_s1": "Bitcoin non ha inflazione",
+	"why_s1_c1": "L'inflazione si verifica quando viene stampato o creato dal nulla più denaro. Questo rende il tuo denaro meno prezioso nel tempo.",
+	"why_s1_c2": "Bitcoin ha un'offerta fissa, il che significa che nessuno può stampare più Bitcoin.",
+	"why_s2": "Bitcoin non ha corse agli sportelli",
+	"why_s2_c1": "Diverse banche americane sono crollate negli ultimi anni a causa di corse agli sportelli.",
+	"why_s2_c2": "Invece di semplicemente detenere il tuo denaro per te, le banche investono e prestano il tuo denaro. Se quegli investimenti non vanno bene, non hanno abbastanza per ripagarti.",
+	"why_s2_c3": "E il fondo assicurativo FDIC ha solo $1 per ogni $100 che assicura.",
+	"why_s3": "Bitcoin è senza permesso",
+	"why_s3_c1": "A differenza delle reti finanziarie tradizionali, Bitcoin non richiede permesso per essere usato.",
+	"why_s3_c2": "Questo significa che nessuno può impedirti di usare Bitcoin per qualsiasi motivo. È la prima rete finanziaria che puoi usare senza paura di censura o sequestro.",
+	"why_s4": "Bitcoin sta costruendo un mondo migliore",
+	"why_s4_c1": "Bitcoin è una tecnologia incompresa che sta costruendo un mondo migliore.",
+	"why_s4_c2": "Bitcoin ha permesso agli attivisti per i diritti umani di lottare per la libertà, ha ridotto le emissioni globali di metano, ha salvato parchi nazionali e molto altro ancora."
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"sticker_success_1": "Riceverai i tuoi adesivi entro 2-4 settimane. Mentre aspetti, prova a pensare a un buon posto dove mettere i tuoi adesivi!",
+	"sticker_success_2": "Buoni posti per gli adesivi sono:",
+	"sticker_success_list_1": "in pubblico dove le persone li vedranno",
+	"sticker_success_list_2": "in posti dove è improbabile che vengano rimossi rapidamente (gli adesivi non causano danni permanenti)",
+	"sticker_success_list_3": "su superfici dove si attaccano facilmente (metallo, plastica, vetro)",
+	"sticker_success_list_4": "NON su proprietà privata, a coprire segnaletica, ATM o pompe di benzina",
+	"sticker_success_3": "Vuoi vedere dove altre persone stanno mettendo i loro adesivi?",
+	"sticker_success_flyers_bar_new": "NUOVO!",
+	"sticker_success_flyers_bar_cta": "Stampa e pubblica volantini Bitcoin →"
+}

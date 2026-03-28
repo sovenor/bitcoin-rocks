@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"how_to_accept_bitcoin_payments": "Come Accettare Pagamenti Bitcoin",
+	"wallets_header": "OTTIENI UN PORTAFOGLIO BITCOIN GRATUITO PER ACCETTARE PAGAMENTI BITCOIN",
+	"wallets_intro_1": "Tutti i portafogli Bitcoin sono interoperabili, quindi i tuoi clienti possono pagarti in Bitcoin indipendentemente dal portafoglio che usano.",
+	"wallets_intro_2": "Portafogli solo Bitcoin:",
+	"wallets_intro_3": "Questi sono portafogli Bitcoin puri che sbloccano tutti i vantaggi di Bitcoin: nessun intermediario, commissioni basse e nessuna contestazione o frode.",
+	"wallets_intro_4": "Portafogli ibridi:",
+	"wallets_intro_5": "Questi ti permettono di scambiare qualsiasi porzione dei tuoi Bitcoin in dollari non appena un cliente ti paga. Le commissioni sono comunque inferiori ai pagamenti con carta di credito, ma superiori ai pagamenti Bitcoin puri.",
+	"wallets_intro_6": "Entrambi sono ottimi modi per accettare Bitcoin. Il portafoglio specifico che usi dipenderà dalla dimensione e dal tipo della tua attività.",
+	"wallets_choice_sole": "portafogli per attività individuali",
+	"wallets_choice_multiple": "portafogli per attività con più dipendenti",
+	"wallets_choice_online": "portafogli per attività online",
+	"wallets_choice_invoice": "portafogli per attività basate su fatture",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Puoi accettare pagamenti Bitcoin con il tuo terminale Square PoS esistente o l'integrazione del negozio online. Non è mai stato così facile accettare pagamenti Bitcoin.",
+	"wallets_feature_bitcoin_only": "Portafoglio solo Bitcoin",
+	"wallets_feature_no_info": "Nessuna informazione richiesta",
+	"wallets_feature_in_person": "Solo pagamenti di persona",
+	"wallets_feature_settles_bitcoin": "Regolamento 100% in Bitcoin",
+	"wallets_feature_hybrid": "Portafoglio ibrido",
+	"wallets_feature_info": "Informazioni attività richieste",
+	"wallets_feature_in_person_online": "Pagamenti di persona e online",
+	"wallets_feature_settles_both": "Regolamento in Bitcoin e dollari",
+	"wallets_feature_multiple_employees": "Supporto per più dipendenti (BPT)",
+	"wallets_feature_self_hosted": "Self-hosted = 0% commissioni",
+	"wallets_feature_online_store": "Integrazione negozio online",
+	"wallets_feature_invoicing": "Software di fatturazione gratuito",
+	"wallets_get_wallet": "OTTIENI PORTAFOGLIO"
+}

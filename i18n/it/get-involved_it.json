@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"get_involved_and_help_spread_bitcoin": "Partecipa e aiuta a diffondere Bitcoin",
+	"get_involved_description": "Le nostre risorse gratuite rendono più facile diffondere l'adozione di Bitcoin.",
+	"get_involved_header": "PARTECIPA",
+	"get_involved_header_2": "DIFFONDI BITCOIN",
+	"get_involved_intro_1": "Può essere deprimente vivere nello stato attuale del nostro mondo.",
+	"get_involved_intro_2": "Il nostro denaro è rotto. Di conseguenza, pezzi fondamentali della società sono rotti anche loro.",
+	"get_involved_intro_3": "Se conosci già Bitcoin, conosci la sensazione di speranza che Bitcoin può portare. Speranza per un futuro più luminoso reso possibile da un denaro migliore.",
+	"get_involved_intro_4": "Ma tante persone intorno a te non conoscono Bitcoin. Vivono nello stesso mondo rotto come te, ma senza un faro di speranza per aiutarle nell'oscurità.",
+	"get_involved_intro_5": "Ma puoi aiutare a cambiare questo. Abbiamo creato diverse risorse gratuite per rendere più facile diffondere la speranza che Bitcoin porta a chi ti circonda.",
+	"get_involved_sticker_header": "Metti un adesivo in pubblico",
+	"get_involved_sticker_content_1": "Puoi aiutare a educare chi ti circonda su Bitcoin senza dover interagire con nessuno. Basta mettere uno dei nostri adesivi Bitcoin gratuiti in pubblico.",
+	"get_involved_sticker_content_2": "Centinaia di persone scansionano i codici QR su questi adesivi ogni mese. Gli adesivi sull'inflazione rimandano a una pagina su",
+	"get_involved_sticker_content_3": "Bitcoin come soluzione all'inflazione.",
+	"get_involved_sticker_content_4": "Gli altri adesivi rimandano alla nostra home page educativa che mostra alle persone come",
+	"get_involved_sticker_content_5": "Bitcoin sta costruendo un mondo migliore.",
+	"get_involved_sticker_content_6": "Mettendo questi adesivi nella tua comunità in posti dove le persone li vedranno, puoi aiutare chi ti circonda a fare i primi passi nella tana del coniglio di Bitcoin.",
+	"get_involved_request_a": "RICHIEDI UN",
+	"get_involved_sticker_pack": "PACCHETTO ADESIVI",
+	"get_involved_postcard_header": "Invia una cartolina",
+	"get_involved_postcard_content_1": "Puoi aiutare a diffondere la speranza di Bitcoin a qualcuno che conosci inviandogli una delle nostre cartoline gratuite.",
+	"get_involved_postcard_content_2": "Il retro di ogni cartolina contiene un breve testo avvincente su Bitcoin insieme a un codice QR per saperne di più.",
+	"get_involved_postcard_content_3": "Inviando a qualcuno una cartolina Bitcoin, puoi aiutarlo a vedere Bitcoin sotto una nuova luce.",
+	"get_involved_postcard_pack": "PACCHETTO CARTOLINE",
+	"get_involved_business_header": "Fai adottare Bitcoin a un'attività",
+	"get_involved_business_content_1": "Vuoi aiutare a costruire l'economia circolare di Bitcoin? Il nostro Kit Business Bitcoin rende facile avvicinare un'attività all'accettazione di pagamenti in Bitcoin.",
+	"get_involved_business_content_2": "Ogni kit business include volantini che evidenziano i vantaggi dell'accettare pagamenti in Bitcoin. Ogni volantino rimanda a diverse",
+	"get_involved_business_content_3": "risorse gratuite per le attività Bitcoin.",
+	"get_involved_business_kit": "KIT BUSINESS"
+}

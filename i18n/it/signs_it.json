@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"signs_description": "Aiutaci a mettere questi cartelli Bitcoin in tutta l'America!",
+	"signs_title": "Cartelli Bitcoin gratuiti da bitcoin.rocks",
+	"signs_choose_header": "GRAZIE PER AVERCI AIUTATO A METTERE QUESTI CARTELLI BITCOIN IN TUTTA L'AMERICA!",
+	"signs_choose_c1": "Abbiamo esaurito completamente i cartelli! La nostra missione è accelerare l'adozione di Bitcoin attraverso l'educazione.",
+	"signs_choose_c2": "Molti di voi hanno aiutato mettendo questi cartelli Bitcoin gratuiti in pubblico. Tutti i nostri cartelli hanno codici QR che rimandano a una pagina educativa sull'",
+	"signs_choose_c3": "inflazione",
+	"signs_choose_c4": "Grazie alla nostra fantastica comunità, abbiamo raggiunto migliaia di persone e le abbiamo aiutate a fare i primi passi nella tana del coniglio di Bitcoin.",
+	"signs_share_header": "CONDIVIDI I TUOI POSTI DEI CARTELLI",
+	"signs_share_c1": "Condividi una foto del tuo posto del cartello con noi su Nostr e vedi dove altre persone stanno mettendo i loro cartelli.",
+	"signs_btn_share_on_nostr": "CONDIVIDI SU NOSTR",
+	"signs_btn_what_is_nostr": "COS'È NOSTR?",
+	"signs_instructions_1": "Inserisci il tuo indirizzo postale e ti invieremo una scatola di 10 cartelli Bitcoin per posta!",
+	"signs_instructions_2": "I dati dell'indirizzo vengono eliminati dopo la spedizione dei tuoi cartelli gratuiti."
+}

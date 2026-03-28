@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin fa bene alle attività",
+	"biz_header": "BITCOIN FA BENE ALLE ATTIVITÀ",
+	"biz_s1": "Commissioni basse senza minimi",
+	"biz_s1_c1": "Bitcoin ti permette di ricevere pagamenti direttamente dai tuoi clienti, proprio come i contanti. La rete Bitcoin opera senza intermediari come banche e compagnie di carte di credito che prendono commissioni elevate.",
+	"biz_s2": "Regolamento istantaneo",
+	"biz_s2_c1": "Proprio come i contanti, i pagamenti Bitcoin si regolano istantaneamente. Non devi aspettare che la tua compagnia di carte di credito o banca ti paghi. Invece, hai accesso al tuo denaro subito.",
+	"biz_s3": "Nessuna contestazione o frode",
+	"biz_s3_c1": "Poiché i pagamenti Bitcoin avvengono direttamente tra te e i tuoi clienti, è impossibile per chiunque riprendersi il denaro con una contestazione.",
+	"biz_s3_c2": "Bitcoin contraffatti non possono essere inviati sulla Rete Bitcoin, il che significa che non devi mai preoccuparti di transazioni fraudolente che possono costare alla tua attività.",
+	"biz_s4": "Ottieni più clienti",
+	"biz_s4_c1": "Milioni di persone possiedono Bitcoin e vogliono spenderli nei posti che li accettano.",
+	"biz_s4_c2": "Semplicemente accettando Bitcoin, la tua attività può essere elencata sulle mappe dei commercianti Bitcoin e ottenere visibilità gratuita verso nuovi clienti Bitcoin.",
+	"biz_s4_c3": "Accettare Bitcoin è 100% gratuito. Non ci sono contratti o commissioni nascoste."
+}

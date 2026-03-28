@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"bitcoin_business_accounting_guide": "Guida alla Contabilità Bitcoin per le Attività",
+	"accounting_description": "Scopri come contabilizzare correttamente i pagamenti Bitcoin nella contabilità della tua attività.",
+	"accounting_header": "GUIDA ALLA CONTABILITÀ BITCOIN",
+	"accounting_s1_c1": "Accettare Bitcoin ha molti vantaggi come accettare pagamenti con commissioni più basse e ottenere più clienti.",
+	"accounting_s1_c2": "Se usi un portafoglio ibrido dalla nostra Guida ai Portafogli e converti automaticamente il 100% dei Bitcoin che ricevi in dollari, non devi apportare modifiche alla tua contabilità attuale.",
+	"accounting_s1_c3": "Vedi la Guida ai Portafogli.",
+	"accounting_s1_c4": "Tuttavia, se mantieni parte dei pagamenti Bitcoin che ricevi come Bitcoin, dovrai tenere traccia di alcuni dettagli per la tua contabilità. Può sembrare intimidatorio all'inizio, ma è in realtà abbastanza semplice.",
+	"accounting_s1_c5": "Nota: questa guida è solo a scopo informativo e non deve essere considerata consulenza fiscale.",
+	"accounting_s1_c6": "Se hai bisogno di consulenza fiscale, raccomandiamo vivamente Satoshi Pacioli Accounting Services, uno studio contabile specializzato in contabilità Bitcoin.",
+	"accounting_s2": "TRACCIAMENTO DEL COSTO BASE",
+	"accounting_s2_c1": "Tracciare il tuo costo base sarà la più grande differenza tra la contabilità in dollari e la contabilità in Bitcoin. Anche se vedi la tua attività interamente in termini di Bitcoin, devi riportare il valore in dollari di ogni transazione nelle tue dichiarazioni fiscali.",
+	"accounting_s2_c2": "Se usi QuickBooks, puoi farlo automaticamente usando il plugin Bitcoin Sync.",
+	"accounting_s2_c3": "Se non usi QuickBooks, raccomandiamo Satoshi Pacioli Accounting Services, uno studio contabile specializzato in contabilità Bitcoin.",
+	"accounting_s2_c4": "Per farlo manualmente, devi semplicemente tenere traccia della quantità di Bitcoin ricevuta e del valore in dollari della transazione Bitcoin in quel giorno.",
+	"accounting_s2_c5": "Puoi vedere il prezzo attuale di Bitcoin in dollari qui.",
+	"accounting_s2_c6": "Tieni traccia di queste informazioni in un foglio Excel e consegnalo al tuo commercialista.",
+	"accounting_s2_c7": "Puoi anche importare questi dati in Excel automaticamente.",
+	"accounting_s2_c8": "Puoi anche consultare il prezzo storico di Bitcoin in dollari per giorni passati, così non devi farlo ogni giorno.",
+	"accounting_s3": "SPENDERE O VENDERE I TUOI BITCOIN",
+	"accounting_s3_c1": "Se usi un portafoglio ibrido dalla nostra Guida ai Portafogli e converti automaticamente il 100% dei Bitcoin che ricevi in dollari, non devi apportare modifiche alla tua contabilità attuale.",
+	"accounting_s3_c2": "Vedi la Guida ai Portafogli.",
+	"accounting_s3_c3": "Se scegli di spendere o vendere parte dei Bitcoin che ricevi dopo averli detenuti per un po', devi semplicemente aggiungere il prezzo a cui li hai venduti nel tuo foglio Excel che traccia il costo base.",
+	"accounting_s3_c4": "Ad esempio, se hai ricevuto $100 di Bitcoin il 1° gennaio e hai deciso di venderli o spenderli il 1° febbraio a un nuovo valore di $110, dovresti registrare una plusvalenza di $10 nella tua contabilità.",
+	"accounting_s3_c5": "Questo può funzionare anche al contrario. Ad esempio, se hai ricevuto $100 di Bitcoin il 1° gennaio e hai deciso di venderli o spenderli il 1° febbraio a un nuovo valore di $90, dovresti registrare una minusvalenza di $10 nella tua contabilità.",
+	"accounting_s4": "HO BISOGNO DI PIÙ AIUTO",
+	"accounting_s4_c1": "Se hai bisogno di più aiuto per integrare Bitcoin nella contabilità della tua attività, raccomandiamo vivamente Satoshi Pacioli Accounting Services, uno studio contabile specializzato in contabilità Bitcoin.",
+	"accounting_s4_c2": "Scopri di più su Satoshi Pacioli Accounting Services."
+}

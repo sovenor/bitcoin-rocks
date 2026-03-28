@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-03-28",
+		"locale": "it"
+	},
+	"free_bitcoin_postcards": "Cartoline Bitcoin gratuite da bitcoin.rocks",
+	"postcards_description": "Ottieni un pacchetto gratuito di cartoline Bitcoin e condividi Bitcoin con qualcuno che conosci.",
+	"postcards_header": "PROGRAMMA CARTOLINE CHIUSO",
+	"postcards_program_closed_message": "Il nostro programma di cartoline Bitcoin gratuite è terminato. Grazie a tutti coloro che hanno partecipato alla diffusione dell'educazione Bitcoin attraverso la posta!",
+	"postcards_sticker_alternative_header": "OTTIENI ADESIVI BITCOIN GRATUITI INVECE",
+	"postcards_sticker_alternative_message": "Continua a diffondere la consapevolezza su Bitcoin con il nostro programma di adesivi gratuiti! I nostri adesivi Bitcoin sono perfetti per la condivisione in spazi pubblici e hanno codici QR che rimandano a contenuti educativi.",
+	"postcards_sticker_cta": "OTTIENI ADESIVI GRATUITI",
+	"postcards_step_2": "COM'ERANO LE CARTOLINE",
+	"postcards_instructions_4": "Abbiamo creato queste cartoline per rendere più facile presentare Bitcoin a qualcuno che conosci! Basta aggiungere un indirizzo e un francobollo e imbucare la cartolina.",
+	"postcards_instructions_5": "La nostra missione è accelerare l'adozione di Bitcoin. Puoi aiutare ottenendo adesivi gratuiti e mettendoli in spazi pubblici!",
+	"postcards_instructions_6": "Tutti conosciamo qualcuno che potrebbe beneficiare dall'imparare di più su Bitcoin. Condividi gli adesivi Bitcoin con loro oggi!"
+}
