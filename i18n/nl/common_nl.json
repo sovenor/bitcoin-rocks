@@ -216,5 +216,9 @@
 	"common_sticker_files_mission_2": "Bitcoin",
 	"common_sticker_files_mission_3": "inflatie",
 	"common_sticker_files_mission_4": "Als je in de VS of Canada woont, kun je",
-	"common_sticker_files_mission_5": "gratis een Engels stickerpakket aanvragen"
+	"common_sticker_files_mission_5": "gratis een Engels stickerpakket aanvragen",
+	"common_published_by": "Gepubliceerd door",
+	"common_publisher_name": "bitcoin.rocks",
+	"common_publisher_since": "Bitcoin-educatie sinds 2022",
+	"common_publisher_open_source": "Open-source project"
 }

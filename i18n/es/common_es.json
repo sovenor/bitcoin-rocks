@@ -216,5 +216,9 @@
 	"common_sticker_files_mission_2": "Bitcoin",
 	"common_sticker_files_mission_3": "inflación",
 	"common_sticker_files_mission_4": "Si vives en Estados Unidos o Canadá, puedes",
-	"common_sticker_files_mission_5": "solicitar un paquete de pegatinas en inglés gratis"
+	"common_sticker_files_mission_5": "solicitar un paquete de pegatinas en inglés gratis",
+	"common_published_by": "Publicado por",
+	"common_publisher_name": "bitcoin.rocks",
+	"common_publisher_since": "Educación sobre Bitcoin desde 2022",
+	"common_publisher_open_source": "Proyecto de código abierto"
 }

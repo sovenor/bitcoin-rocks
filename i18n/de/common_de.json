@@ -216,5 +216,9 @@
 	"common_sticker_files_mission_2": "Bitcoin",
 	"common_sticker_files_mission_3": "Inflation",
 	"common_sticker_files_mission_4": "Wenn du in den USA oder Kanada lebst, kannst du",
-	"common_sticker_files_mission_5": "kostenlos ein englisches Stickerpaket anfordern"
+	"common_sticker_files_mission_5": "kostenlos ein englisches Stickerpaket anfordern",
+	"common_published_by": "Veröffentlicht von",
+	"common_publisher_name": "bitcoin.rocks",
+	"common_publisher_since": "Bitcoin-Bildung seit 2022",
+	"common_publisher_open_source": "Open-Source-Projekt"
 }

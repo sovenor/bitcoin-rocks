@@ -216,5 +216,9 @@
 	"common_sticker_files_mission_2": "Биткойн",
 	"common_sticker_files_mission_3": "инфлация",
 	"common_sticker_files_mission_4": "Ако живеете в САЩ или Канада, можете",
-	"common_sticker_files_mission_5": "да поискате безплатен пакет от английски стикери"
+	"common_sticker_files_mission_5": "да поискате безплатен пакет от английски стикери",
+	"common_published_by": "Публикувано от",
+	"common_publisher_name": "bitcoin.rocks",
+	"common_publisher_since": "Биткойн образование от 2022",
+	"common_publisher_open_source": "Проект с отворен код"
 }

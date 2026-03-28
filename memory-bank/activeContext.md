@@ -2,6 +2,22 @@
 
 ## Current Work Focus
 
+### GEO: Author/Publisher Attribution (Completed Mar 28, 2026)
+- **Status**: ✅ Complete
+- **What**: Added visible publisher attribution to all 33 educational content pages as the 2nd item in Priority 3: Authority & Trust Signals in the GEO checklist.
+- **Approach**: Created `scripts/inject-author-attribution.js` (idempotent) that injects a "Published by bitcoin.rocks · Bitcoin education since 2022 · Open-source project" bar just above the footer on every educational page.
+- **HTML structure**: `<div class="publisher-attribution" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">` with Schema.org microdata reinforcing the existing Article JSON-LD author/publisher schema.
+- **Links**: Cross-links to About page (`/about`) and GitHub repository — reinforces trust signals and cross-linking.
+- **Translation keys added** (4 new keys in all 9 common_*.json files):
+  - `common_published_by`: "Published by" (de: "Veröffentlicht von", es: "Publicado por", fr: "Publié par", pt: "Publicado por", nl: "Gepubliceerd door", bg: "Публикувано от", id: "Diterbitkan oleh", th: "เผยแพร่โดย")
+  - `common_publisher_name`: "bitcoin.rocks" (same in all languages)
+  - `common_publisher_since`: "Bitcoin education since 2022" (translated in all languages)
+  - `common_publisher_open_source`: "Open-source project" (translated in all languages)
+- **CSS**: `.publisher-attribution` — subtle styling (14px, centered, gray #999 text, orange links, border-top separator #333, 70% width centered)
+- **Visual change**: Minimal — adds a small, professional attribution line above the existing footer
+- **Pages injected** (33): about, bank-runs, all 10 bitcoin-vs-* pages, all 9 business/* pages, buy, compound-inflation-calculator, flyers, get-involved, inflation, lightning, both nostr/* pages, postcards, signs, stickers, wallets
+- **Pages skipped** (56): homepage, success pages, 404, sticker-file language variants, pages without Article schema
+
 ### GEO: About Page (Completed Mar 27, 2026)
 - **Status**: ✅ Complete
 - **What**: Created `/about` page as the 1st item in Priority 3: Authority & Trust Signals in the GEO checklist.

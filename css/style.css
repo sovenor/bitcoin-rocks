@@ -330,6 +330,39 @@ a.footer-link{
     text-decoration: underline;
 }
 
+.publisher-attribution{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+    .publisher-attribution p{
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+        margin: 0;
+    }
+
+    .publisher-attribution a.orange-link{
+        color: #FF9500 !important;
+        text-decoration: none;
+    }
+
+    .publisher-attribution a.orange-link:hover{
+        text-decoration: underline;
+    }
+
+    .attribution-divider{
+        margin: 0 8px;
+        color: #555;
+    }
+
 .footer{
     height: 100px;
     width: 70%;
