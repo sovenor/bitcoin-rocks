@@ -223,5 +223,6 @@
 	"common_publisher_open_source": "Open-Source-Projekt",
 	"common_footer_tagline": "Bitcoin-Adoption durch Bildung beschleunigen.",
 	"common_footer_contribute": "Beitragen",
-	"common_footer_nostr": "Nostr"
+	"common_footer_nostr": "Nostr",
+	"common_sources_heading": "Quellen"
 }

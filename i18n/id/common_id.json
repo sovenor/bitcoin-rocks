@@ -223,5 +223,6 @@
 	"common_publisher_open_source": "Proyek sumber terbuka",
 	"common_footer_tagline": "Mempercepat adopsi bitcoin melalui edukasi.",
 	"common_footer_contribute": "Kontribusi",
-	"common_footer_nostr": "Nostr"
+	"common_footer_nostr": "Nostr",
+	"common_sources_heading": "Sumber"
 }

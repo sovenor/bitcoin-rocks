@@ -223,5 +223,6 @@
 	"common_publisher_open_source": "Projeto de código aberto",
 	"common_footer_tagline": "Acelerando a adoção do bitcoin através da educação.",
 	"common_footer_contribute": "Contribuir",
-	"common_footer_nostr": "Nostr"
+	"common_footer_nostr": "Nostr",
+	"common_sources_heading": "Fontes"
 }

@@ -223,5 +223,6 @@
 	"common_publisher_open_source": "Проект с отворен код",
 	"common_footer_tagline": "Ускоряване на приемането на биткойн чрез образование.",
 	"common_footer_contribute": "Допринесете",
-	"common_footer_nostr": "Nostr"
+	"common_footer_nostr": "Nostr",
+	"common_sources_heading": "Източници"
 }

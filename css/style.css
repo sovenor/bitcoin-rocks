@@ -334,6 +334,47 @@ a.footer-link:hover{
     text-decoration: underline;
 }
 
+.sources-section{
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 25px 0 10px 0;
+}
+    .sources-heading{
+        font-family: "proxima-nova", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #7f7e7d;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        margin-top: 0px !important;
+        margin-left: 8%;
+    }
+    .sources-list{
+        list-style-type: decimal;
+        padding-left: 20px;
+        margin: 0;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .sources-list li{
+        font-family: "proxima-nova", sans-serif;
+        font-size: 14px;
+        color: #7f7e7d;
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+    .sources-list a{
+        color: #7f7e7d !important;
+        text-decoration: none;
+    }
+    .sources-list a:hover{
+        color: #FF9500 !important;
+        text-decoration: underline;
+    }
+
 .publisher-attribution{
     width: 70%;
     margin-left: 15%;

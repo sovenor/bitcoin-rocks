@@ -2,6 +2,25 @@
 
 ## Current Work Focus
 
+### GEO: Source Citations & References Sections (Completed Mar 28, 2026)
+- **Status**: ✅ Complete
+- **What**: Added inline source citations and "Sources" reference sections to all 12 data-heavy educational pages (inflation, bank-runs, and all 10 bitcoin-vs pages) as items 4 and 5 in Priority 3: Authority & Trust Signals in the GEO checklist.
+- **Sources sections added** (12 pages via `scripts/inject-sources-section.js`):
+  - `inflation.html` — 6 sources (FRED M1SL, FRED International, BLS CPI, mempool.space, Bitcoin source code, Bitcoin whitepaper)
+  - `bank-runs.html` — 5 sources (FDIC Statistics at a Glance, FDIC SVB Press Release, FDIC Quarterly Banking Profile, Federal Reserve, Bitcoin whitepaper)
+  - All 10 `bitcoin-vs-*.html` pages — 3-4 sources each (World Gold Council, Bitnodes, SEC, Treasury Dept, RBI, Atlantic Council, BIS, Christie's, Sotheby's, Visa, Federal Reserve, Cambridge Centre for Alt Finance, Bitcoin whitepaper/source code)
+- **Inline citations added** (via `scripts/add-inline-citations.js` and `scripts/add-inline-citations-v2.js`):
+  - Inflation: 14 FRED links for currency-specific money supply data (CAD, EUR, GBP, BRL, PHP, MXN, INR, HNL, VEF, JPY, AUD, ILS, THB, NZD)
+  - Bank-runs: SVB collapse linked to FDIC press release
+  - Bitcoin-vs-gold: World Gold Council for 1.6% annual supply growth
+  - Bitcoin-vs-cash: RBI demonetization notice
+  - Bitcoin-vs-visa: Visa interchange fees + Federal Reserve credit card rates
+  - Bitcoin-vs-bonds: Treasury auction results
+  - Bitcoin-vs-crypto: Bitcoin whitepaper for Proof of Work
+- **CSS**: `.sources-section` styling (14px gray headings, numbered ordered list, muted gray links that turn orange on hover, border-top separator)
+- **i18n**: `common_sources_heading` key added to 10 language files with translated "Sources" heading (en, de, es, fr, pt, nl, bg, id, th, it)
+- **Scripts created**: `inject-sources-section.js` (idempotent, main reusable script), `add-inline-citations.js` (inflation FRED links), `add-inline-citations-v2.js` (other pages), `add-sources-i18n.js` (one-time i18n helper)
+
 ### Footer Cleanup (Completed Mar 28, 2026)
 - **Status**: ✅ Complete
 - **What**: Redesigned the verbose footer across all 88 HTML pages into a clean, compact layout.

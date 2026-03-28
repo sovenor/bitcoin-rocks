@@ -223,5 +223,6 @@
 	"common_publisher_open_source": "Open-source project",
 	"common_footer_tagline": "Bitcoin-adoptie versnellen door middel van educatie.",
 	"common_footer_contribute": "Bijdragen",
-	"common_footer_nostr": "Nostr"
+	"common_footer_nostr": "Nostr",
+	"common_sources_heading": "Bronnen"
 }
