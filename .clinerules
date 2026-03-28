@@ -118,6 +118,13 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - Test language switching functionality
 - You must update the homepage WebSite schema when a new language is added
 
+### Editing i18n JSON Files (IMPORTANT)
+- **Never use inline CLI commands** (e.g., `node -e "..."`) to modify i18n JSON files. Special characters in translations (accented characters, Cyrillic, Thai, checkmarks, etc.) get corrupted by shell escaping.
+- **Never use `replace_in_file`** on i18n JSON files with non-ASCII content — the SEARCH/REPLACE matching breaks on special characters and tab indentation.
+- **Best approach**: Create a standalone `.js` script file in `/scripts/` that uses `JSON.parse()` / `JSON.stringify()` with proper tab indentation (`JSON.stringify(obj, null, '\t')`) to read, modify, and write the JSON files. Then run it with `node scripts/your-script.js`. This handles all character encodings correctly.
+- **Alternative**: Use `write_to_file` to write the entire JSON file contents directly. This works but is verbose for large files.
+- **Tab indentation**: All i18n JSON files use tab indentation (not spaces). Always preserve this when writing.
+
 ### Performance Optimization
 - Optimize images before adding to `/img/` directory
 - Minimize JavaScript dependencies

@@ -409,6 +409,12 @@ a.footer-link:hover{
         color: #555;
     }
 
+    .reviewed-badge{
+        color: #6c9;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+
 .footer{
     width: 70%;
     margin-left: 15%;
