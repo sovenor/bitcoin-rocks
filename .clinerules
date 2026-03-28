@@ -52,8 +52,11 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - New content needs translation keys added to all language files
 - Images should be optimized and categorized appropriately
 - All changes go through GitHub for version control
-- When updating an individual page, you must update the WebPage schema's last-updated date to today's date
-- When creating a new page, run node scripts/inject-article-schema.js to inject the appropriate schema. Make sure the new page has all the proper schema. View another pre-existing page to verify.
+- **When updating content on any page** (HTML content or i18n JSON translation files), you must:
+  1. Update the `@metadata.last-updated` date in the corresponding **English** JSON file (`i18n/en/...`) to today's date (YYYY-MM-DD format)
+  2. Update the `dateModified` field in the page's **Article/WebPage JSON-LD schema** (in the HTML file) to today's date
+  3. Update the `last-updated` date in any **other language** JSON files being modified in the same change
+- When creating a new page, run `node scripts/inject-article-schema.js` to inject the appropriate schema. Make sure the new page has all the proper schema. View another pre-existing page to verify.
 
 ## Technical Implementation Details
 
