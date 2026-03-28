@@ -327,6 +327,10 @@ a{
 
 a.footer-link{
     color: #FF9500 !important;
+    text-decoration: none;
+}
+
+a.footer-link:hover{
     text-decoration: underline;
 }
 
@@ -364,19 +368,35 @@ a.footer-link{
     }
 
 .footer{
-    height: 100px;
     width: 70%;
     margin-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-    .footer p{
+    .footer-tagline{
         font-family: "proxima-nova", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
-        margin-top: 60px;
-        color: #f0f0f0;
+        color: #999;
+        margin: 0 0 12px 0;
+    }
+
+    .footer-links{
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+        margin: 0;
+    }
+
+    .footer-divider{
+        margin: 0 8px;
+        color: #555;
     }
 
 

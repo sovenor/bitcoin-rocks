@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-28",
 		"locale": "pt"
 	},
 	"common_footer_mission_1": "A missão do bitcoin.rocks é acelerar a adoção do bitcoin através da educação.",
@@ -11,7 +11,7 @@
 	"common_footer_follow_first_half": "Segue-nos no Nostr pesquisando",
 	"common_footer_follow_second_half": "em qualquer cliente Nostr.",
 	"common_footer_what_is_nostr": "O que é o Nostr?",
-	"common_footer_about": "Sobre o bitcoin.rocks",
+	"common_footer_about": "Sobre",
 	"common_footer_email_us": "Envia-nos um e-mail:",
 	"common_cta_section_get_started": "COMEÇA A UTILIZAR",
 	"common_cta_section_with_bitcoin": "BITCOIN",
@@ -220,5 +220,8 @@
 	"common_published_by": "Publicado por",
 	"common_publisher_name": "bitcoin.rocks",
 	"common_publisher_since": "Educação sobre Bitcoin desde 2022",
-	"common_publisher_open_source": "Projeto de código aberto"
+	"common_publisher_open_source": "Projeto de código aberto",
+	"common_footer_tagline": "Acelerando a adoção do bitcoin através da educação.",
+	"common_footer_contribute": "Contribuir",
+	"common_footer_nostr": "Nostr"
 }

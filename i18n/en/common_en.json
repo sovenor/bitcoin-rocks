@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-28",
 		"locale": "en"
 	},
 	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
@@ -11,7 +11,7 @@
 	"common_footer_follow_first_half": "Follow us on Nostr by searching",
 	"common_footer_follow_second_half": "in any Nostr client.",
 	"common_footer_what_is_nostr": "What is Nostr?",
-	"common_footer_about": "About bitcoin.rocks",
+	"common_footer_about": "About",
 	"common_footer_email_us": "Email us:",
 	"common_cta_section_get_started": "GET STARTED",
 	"common_cta_section_with_bitcoin": "WITH BITCOIN",
@@ -72,8 +72,8 @@
 	"common_year": "year",
 	"common_years": "years",
 	"common_result_starting_message": "Fill out the form above and click calculate.",
-  "common_error_message": "Error: Please fill in all 3 form fields.",
-  "common_result_message_1": "With an inflation rate of",
+	"common_error_message": "Error: Please fill in all 3 form fields.",
+	"common_result_message_1": "With an inflation rate of",
 	"common_result_message_2": "your",
 	"common_result_message_3": "salary needs to increase to",
 	"common_result_message_in": "in",
@@ -220,5 +220,8 @@
 	"common_published_by": "Published by",
 	"common_publisher_name": "bitcoin.rocks",
 	"common_publisher_since": "Bitcoin education since 2022",
-	"common_publisher_open_source": "Open-source project"
+	"common_publisher_open_source": "Open-source project",
+	"common_footer_tagline": "Accelerating bitcoin adoption through education.",
+	"common_footer_contribute": "Contribute",
+	"common_footer_nostr": "Nostr"
 }

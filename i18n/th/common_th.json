@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-01",
+		"last-updated": "2026-03-28",
 		"locale": "th"
 	},
 	"common_footer_mission_1": "ภารกิจของ bitcoin.rocks คือการเร่งการนำ Bitcoin มาใช้ผ่านทางการศึกษา",
@@ -11,7 +11,7 @@
 	"common_footer_follow_first_half": "ติดตามเราบน Nostr โดยค้นหา",
 	"common_footer_follow_second_half": "กับแอปใดๆ ที่ใช้โปรโตคอล NOSTR",
 	"common_footer_what_is_nostr": "NOSTR คืออะไร?",
-	"common_footer_about": "เกี่ยวกับ bitcoin.rocks",
+	"common_footer_about": "เกี่ยวกับเรา",
 	"common_footer_email_us": "ส่งอีเมล์เรา:",
 	"common_cta_section_get_started": "เริ่มก่อน",
 	"common_cta_section_with_bitcoin": "พร้อม Bitcoin",
@@ -219,5 +219,8 @@
 	"common_published_by": "เผยแพร่โดย",
 	"common_publisher_name": "bitcoin.rocks",
 	"common_publisher_since": "ให้ความรู้เรื่องบิตคอยน์ตั้งแต่ 2022",
-	"common_publisher_open_source": "โครงการโอเพนซอร์ส"
+	"common_publisher_open_source": "โครงการโอเพนซอร์ส",
+	"common_footer_tagline": "เร่งการยอมรับบิตคอยน์ผ่านการศึกษา",
+	"common_footer_contribute": "มีส่วนร่วม",
+	"common_footer_nostr": "Nostr"
 }

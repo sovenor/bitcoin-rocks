@@ -2,6 +2,19 @@
 
 ## Current Work Focus
 
+### Footer Cleanup (Completed Mar 28, 2026)
+- **Status**: ✅ Complete
+- **What**: Redesigned the verbose footer across all 88 HTML pages into a clean, compact layout.
+- **Before**: Three paragraphs of prose — mission statement, Nostr explanation (3 lines), and email — separated by `<br/>` tags in a single `<p>`.
+- **After**: Two-line compact footer — one-line tagline + horizontal link row using dot separators (matching publisher-attribution style):
+  - Line 1: "Accelerating bitcoin adoption through education."
+  - Line 2: About · Contribute · Nostr · hi@bitcoin.rocks
+- **Scripts created**: `scripts/update-footer.js` (HTML replacement across 88 files), `scripts/update-footer-i18n.js` (i18n key updates across 9 languages)
+- **CSS changes**: Replaced `.footer` styles (removed old `.footer p`, added `.footer-tagline`, `.footer-links`, `.footer-divider`), updated `a.footer-link` to no-underline with hover-underline.
+- **i18n changes**: Added 3 new keys to all 9 `common_*.json` files: `common_footer_tagline`, `common_footer_contribute`, `common_footer_nostr`. Updated `common_footer_about` from "About bitcoin.rocks" to "About" (with translations).
+- **Publisher attribution**: Left untouched — it's clean and serves GEO/SEO purpose on content pages.
+- **Old keys preserved**: `common_footer_mission_1`, `common_footer_mission_2`, `common_footer_follow_first_half`, etc. still exist in JSON files (harmless, can be removed later).
+
 ### GEO: Author/Publisher Attribution (Completed Mar 28, 2026)
 - **Status**: ✅ Complete
 - **What**: Added visible publisher attribution to all 33 educational content pages as the 2nd item in Priority 3: Authority & Trust Signals in the GEO checklist.
