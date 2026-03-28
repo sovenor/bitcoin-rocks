@@ -127,9 +127,25 @@ $(function() {
   // Add event listener to handle language change
   languageSwitcher.addEventListener('change', function() {
     if (this.value === 'custom') {
+      // Track language switch event in Google Analytics
+      if (typeof gtag === 'function') {
+        gtag('event', 'language_switch', {
+          'event_category': 'Language',
+          'event_label': 'Add language',
+          'language_selected': 'custom'
+        });
+      }
       // Redirect to the custom URL when "Add your language" is selected
       window.location.href = languages.find(lang => lang.code === 'custom').url;
     } else {
+      // Track language switch event in Google Analytics
+      if (typeof gtag === 'function') {
+        gtag('event', 'language_switch', {
+          'event_category': 'Language',
+          'event_label': this.value,
+          'language_selected': this.value
+        });
+      }
       localStorage.setItem('selectedLanguage', this.value);
       location.reload();
     }
