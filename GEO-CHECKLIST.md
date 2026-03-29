@@ -71,10 +71,6 @@ AI engines prefer comprehensive, in-depth content from sites that demonstrate to
 
 - [ ] **Create a "Bitcoin FAQ" central page** — Consolidate the common Q&A sections that are repeated across pages (What is Bitcoin?, Is Bitcoin Volatile?, Has Bitcoin Been Hacked?, Why Does Bitcoin Use Energy?, etc.) into a single comprehensive FAQ page at `/faq`. This avoids content duplication and creates a single authoritative Q&A resource that AI engines love.
 
-- [ ] **Deepen the "Bitcoin vs" pages with more comparison context** — The `/bitcoin-vs-gold` page is good but could be stronger with a summary comparison table at the top and a conclusion section. AI engines love structured comparison tables they can extract.
-
-- [ ] **Add comparison tables** — For all "Bitcoin vs" pages, add an HTML `<table>` summarizing the key comparison points. Tables are one of the most extracted content types by AI engines. Example: a table with rows like "Supply", "Sendability", "Divisibility", "Verifiability" and columns for Bitcoin and the compared asset.
-
 ---
 
 ## Priority 5: Technical GEO Optimizations
