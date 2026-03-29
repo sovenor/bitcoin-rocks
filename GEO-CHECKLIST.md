@@ -113,8 +113,6 @@ AI engines prefer comprehensive, in-depth content from sites that demonstrate to
 
 - [x] **Review robots.txt for AI crawlers** — Currently robots.txt allows all crawlers. Consider whether you want to specifically allow/instruct AI crawlers (GPTBot, Google-Extended, CCBot, etc.) or add specific rules for them. ✅ *Completed Mar 29, 2026 — Reviewed and updated robots.txt with explicit `User-agent` + `Allow: /` directives for 16 AI crawlers: GPTBot, ChatGPT-User, OAI-SearchBot (OpenAI), Google-Extended (Gemini/AI Overviews), ClaudeBot, anthropic-ai (Anthropic), PerplexityBot, Applebot-Extended, Meta-ExternalAgent, Bingbot (Copilot), Amazonbot, CCBot (Common Crawl), cohere-ai, YouBot, Diffbot, and Bytespider. Added `Disallow` rules for `/forms-backend/` and `/.github/` (previously missing). Added prominent comment block pointing AI crawlers to `llms.txt` and `llms-full.txt`. GPTBot gets explicit Disallow rules (since per-agent rules override the wildcard). Updated `inject-seo-content.js` to generate the same comprehensive robots.txt so future script runs don't overwrite. Strategy: since bitcoin.rocks is MIT-licensed educational content that wants maximum AI citation, all AI crawlers are explicitly welcomed.*
 
-- [ ] **Add a `speakable` schema property** — For key content sections, add `speakable` structured data to indicate which parts of the page are most suitable for voice assistant and AI text-to-speech responses.
-
 ---
 
 ## Quick Wins (Easiest to Implement)
