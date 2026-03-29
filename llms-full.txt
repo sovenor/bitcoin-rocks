@@ -1,0 +1,818 @@
+# bitcoin.rocks — Full Content
+
+> bitcoin.rocks is a free, open-source Bitcoin education website founded in 2022. Our mission is to accelerate Bitcoin adoption through education. This file contains the full text content of all educational pages on bitcoin.rocks in Markdown format.
+
+**Website**: https://bitcoin.rocks
+**Contact**: hi@bitcoin.rocks
+**GitHub**: https://github.com/sovenor/bitcoin-rocks
+**License**: MIT (open-source)
+
+---
+
+## About bitcoin.rocks
+
+Source: https://bitcoin.rocks/about
+
+### Our Mission
+
+bitcoin.rocks was founded in 2022 with a simple mission: accelerate Bitcoin adoption through education.
+
+We exist to be the first link you share with someone who is curious about Bitcoin. A friendly, accessible starting point that explains how Bitcoin is building a better world.
+
+Too many people misunderstand Bitcoin or have never been properly introduced to it. We want to change that by providing free, high-quality educational content that anyone can understand.
+
+### What We Do
+
+We create free educational content for Bitcoin newcomers. Our website covers topics like inflation, self-custody, wallets, the Lightning Network, and how Bitcoin compares to other assets and payment systems.
+
+We mail free Bitcoin stickers to your door so you can help spread Bitcoin awareness in your community. Hundreds of people scan the QR codes on these stickers each month to learn about Bitcoin.
+
+We also provide printable flyers and business kits for anyone who wants to help onboard local businesses to accept Bitcoin payments.
+
+All of our content assumes zero prior Bitcoin knowledge. Whether you are brand new to Bitcoin or a seasoned Bitcoiner looking for resources to share, bitcoin.rocks is for you.
+
+### Our Editorial Approach
+
+Every piece of content on bitcoin.rocks is curated and fact-checked. When we reference data or statistics, we cite our sources so you can verify the information yourself.
+
+We link to trusted sources like TIME Magazine, Forbes, MIT Technology Review, Lyn Alden, and many others. We believe that Bitcoin speaks for itself when the facts are presented clearly.
+
+Our content is regularly reviewed and updated to ensure accuracy and freshness. All content is focused exclusively on Bitcoin education.
+
+### Open Source
+
+bitcoin.rocks is a free, open-source project licensed under the MIT License. Our entire codebase is publicly available on GitHub.
+
+Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.
+
+Thanks to our community of volunteer translators, bitcoin.rocks is currently available in 9 languages and growing.
+
+---
+
+## What is Bitcoin?
+
+Source: https://bitcoin.rocks/inflation (common section across educational pages)
+
+Bitcoin is two things: a digital money and a payment network. You can send Bitcoin (the digital money) directly to other people using the Bitcoin network (the payment network).
+
+Bitcoin is a radically new way to store and transact value. Unlike normal financial networks, the Bitcoin network is able to operate without central authorities or trusted administrators. That makes Bitcoin the first ever open and borderless money.
+
+Bitcoin is digital money that gives you complete ownership over your wealth. For the first time in human history everyone can own an asset that is truly scarce, doesn't require permission to be used, and can't be confiscated when stored properly.
+
+Bitcoin can be sent anywhere in the world, quickly and cheaply. It has no need for a 3rd party transmitter, like a bank.
+
+Bitcoin allows anyone to store their wealth safely and securely without worrying about the government stealing it or inflating away its value through money printing.
+
+Governments everywhere can print more paper money, but no one can print more bitcoin.
+
+You can easily self-custody your Bitcoin to take full control of it, giving you full access to the power of Bitcoin.
+
+If you can download an app, you can self-custody Bitcoin and store your wealth without relying on anyone else.
+
+Bitcoin is better money.
+
+---
+
+## Bitcoin Doesn't Have Inflation
+
+Source: https://bitcoin.rocks/inflation
+
+Bitcoin has a fixed supply of 21 million coins that can never be increased. Unlike government currencies, no one can print more Bitcoin. Choose your money below to learn how inflation is affecting your purchasing power and how Bitcoin can help.
+
+### What Causes Inflation?
+
+While supply chains and some corporations contribute to artificially rising prices, the root cause of inflation is the expansion of the money supply.
+
+Nearly 80% of all US Dollars that exist today were created between 2020 and 2023. This was a huge expansion of the money supply and will not be the last time this happens.
+
+When more money is created from nothing, the price of everything in that money goes up. This includes the raw materials costs companies have to pay for their products, which means higher prices for you.
+
+Inflation is not just rising prices. Inflation is when your money becomes worth less over time.
+
+Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.
+
+As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.
+
+With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.
+
+**Currency-specific examples of money supply expansion:**
+- **US Dollar**: Nearly 80% of all US Dollars that exist today were created between 2020 and 2023.
+- **Canadian Dollar**: More than 1 in 5 Canadian Dollars that exist today were created between 2020 and 2022.
+- **Euro**: About 1 in 4 Euros that exist today were created between 2020 and 2022.
+- **British Pound**: About 1 in 4 British Pounds that exist today were created between 2020 and 2022.
+- **Brazilian Real**: About 40% of all Brazilian reais that exist today were created between 2020 and 2022.
+- **Philippine Peso**: Nearly 50% of all Philippine pesos that exist today were created between 2020 and 2022.
+- **Mexican Peso**: More than 50% of all Mexican pesos that exist today were created between 2016 and 2022.
+- **Indian Rupee**: More than 50% of all Indian rupees that exist today were created between 2016 and 2022.
+- **Honduran Lempira**: More than 50% of all Honduran lempiras that exist today were created between 2016 and 2022.
+- **Venezuelan Bolivar**: More than 80% of all Venezuelan bolívares that exist today were created in the last year!
+- **Japanese Yen**: More than 25% of all Japanese Yen that exist today were created between 2016 and 2022.
+- **Australian Dollar**: More than 50% of all Australian Dollars that exist today were created between 2016 and 2022.
+- **Israeli Shekel**: About 50% of all Israeli Shekels that exist today were created between 2016 and 2023.
+- **Thai Baht**: About 35% of all Thai baht that exist today were created between 2016 and 2023.
+- **New Zealand Dollar**: About 50% of all New Zealand Dollars that exist today were created between 2010 and 2023.
+
+### Does Bitcoin Have Inflation?
+
+Inflation is essentially your piece of the "money pie" getting smaller each year. So does Bitcoin have inflation?
+
+Bitcoin has a fixed supply of 21,000,000 (21 million) bitcoin that will ever exist. The 21 million supply limit is fixed in code and secured by the most powerful computing network in the world, called The Bitcoin Network. This limit cannot be changed.
+
+While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.
+
+More than 95% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the year 2035, and the remaining less than 1% will be mined by the year 2140.
+
+Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.
+
+You can't print more bitcoin.
+
+### Can Bitcoin Protect My Money From Inflation?
+
+Bitcoin has historically been great at protecting people from the inflation of their local currency. Many people who use Bitcoin as an inflation hedge store money that they can afford to keep as Bitcoin for several years.
+
+Bitcoin's fixed supply makes it the best way to save your money for the long term.
+
+When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.
+
+US Dollars have lost 90% of their purchasing power since 1950 as politicians printed more of them.
+
+### I Heard Bitcoin is Volatile. Is That Safe?
+
+In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.
+
+But the volatility you see on a day-to-day basis "disappears" in the long term.
+
+Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.
+
+Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.
+
+In some countries, such as Venezuela, Sudan, Lebanon, Syria, Argentina, Turkey, Brazil, and so many others, the value of the local currency inflates away so quickly that Bitcoin is seen as the more stable way to save money.
+
+### I Can't Afford a Whole Bitcoin
+
+A dollar is made up of 100 cents. A bitcoin is made up of 100,000,000 (100 million) sats.
+
+You don't have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!
+
+### Has Bitcoin Ever Been Hacked?
+
+You may have heard about a "Bitcoin hack" online or on the news. Most people read these articles and believe the Bitcoin network has been hacked. However, the Bitcoin network has never been hacked.
+
+What's the Bitcoin network? Well, think of the Bitcoin network as train tracks. The trains riding on the train tracks of the Bitcoin network are Bitcoin transactions.
+
+When you read about a Bitcoin hack in the news, you're reading about a custodian (like FTX) getting hacked or going bankrupt.
+
+Custodians are companies that hold your bitcoin for you. However, that comes with a risk: losing your bitcoin when the company mismanages it, steals it, or goes out of business.
+
+Everyone who trusted FTX with their bitcoin lost their bitcoin. Everyone who held their bitcoin in self-custody was completely unaffected by FTX. That is the power of bitcoin in self-custody: true control of your money.
+
+Instead of leaving your bitcoin on an exchange or in a wrapper like an ETF, hold it in your own wallet for all the freedom benefits.
+
+When you self-custody your bitcoin, your money is protected by the Bitcoin network. It's the most secure financial network in the world.
+
+### Why Does Bitcoin Use Energy?
+
+Bitcoin uses energy to secure the network and protect your money.
+
+Bitcoin uses a significant amount of energy, and this is a great thing for many reasons:
+
+- Bitcoin doesn't have bank runs.
+- Bitcoin helps stabilize energy grids with bitcoin mining.
+- Bitcoin reduces emissions from oil drilling.
+- Bitcoin uses less energy than Americans use for Christmas Lights each year.
+- Bitcoin is the greenest industry on Earth!
+
+**Sources**: Federal Reserve Economic Data (FRED), Bureau of Labor Statistics CPI, mempool.space, Bitcoin source code, Bitcoin whitepaper.
+
+---
+
+## Bitcoin Doesn't Have Bank Runs
+
+Source: https://bitcoin.rocks/bank-runs
+
+### What Is a Bank Run?
+
+A bank run happens when too many people try to withdraw their money from the bank at the same time.
+
+If banks don't have enough money available to match withdrawals, they can collapse entirely when a bank run happens.
+
+### How Do Bank Runs Happen?
+
+Our banking system is "fractional reserve" which means the banks don't just keep your money in a vault and wait for you to spend it or withdraw it.
+
+Instead, your bank takes your money and lends it out or invests it. This can lock your money up for long periods of time, even though the bank promises you the ability to withdraw your money any time.
+
+So what happens if you try to withdraw your money after the bank has already lent it out or invested it?
+
+It's not a problem if you're the only one trying to withdraw. The bank will just take someone else's money and give it to you instead. But what happens when too many people try to withdraw at the same time?
+
+Lots of people in the USA found out when there was a run on Silicon Valley Bank in March of 2023.
+
+The bank had invested their customers' money in government bonds which were locked for up to 30 years. Even worse, the value of those bonds had fallen dramatically recently, so Silicon Valley Bank couldn't just sell the bonds to get the money of their depositors. They were insolvent. They didn't have enough money to match the withdrawals of their depositors.
+
+As more people found out, the problem only got worse. More withdrawal requests came in, but many weren't processed. Thousands of businesses realized they wouldn't be able to pay their employees due to the bank failing.
+
+The FDIC stepped in and agreed to make depositors whole. Problem solved? Not exactly...
+
+### Does FDIC Insurance Protect My Money?
+
+FDIC insurance is designed to protect bank depositors in the event that a bank fails. Deposits are insured up to $250,000 per depositor. Sounds great, right?
+
+Not exactly. If a bank fails, where does the FDIC get the money from? They have an insurance fund with 125 billion dollars in it.
+
+That sounds like a lot of money until you compare it to the amount of deposits they insure: almost 10 trillion or 10,000 billion dollars.
+
+The FDIC even shows on their website that they only have enough money in their insurance fund to cover a little more than 1% of deposits.
+
+In the event of a bank failure that exceeded the FDIC insurance fund, it is likely (but not guaranteed) that the US government would print money to make depositors whole.
+
+But printing money causes inflation, so it's not a great solution.
+
+### Are There Banks That Don't Use Fractional Reserve?
+
+Some banks have tried to be "safe banks" which don't lend out or invest depositor funds.
+
+Even though these safe banks would have zero risk of bank runs, their applications have been denied by the Federal Reserve. This means they can't legally operate as banks.
+
+Because they've been blocked from operating, there are no banks today that don't use fractional reserve.
+
+Fortunately, there is a way to opt out of the fractional reserve system by being your own bank. No, we're not talking about stuffing cash under your mattress.
+
+Saving in cash is still vulnerable to inflation.
+
+We're talking about Bitcoin: a new financial system that allows you to be your own bank.
+
+### Can Bitcoin Protect Me From Bank Runs?
+
+Yes, Bitcoin is a full reserve financial system.
+
+Bank runs are impossible in Bitcoin as long as you withdraw your Bitcoin to your own wallet. Don't leave your bitcoin on an exchange or in a wrapper like a Bitcoin ETF.
+
+With Bitcoin, you can finally be in control of your money.
+
+**Sources**: FDIC Statistics at a Glance, FDIC SVB Press Release, FDIC Quarterly Banking Profile, Federal Reserve, Bitcoin whitepaper.
+
+---
+
+## Bitcoin Wallet Guide — How to Safely Store Your Bitcoin
+
+Source: https://bitcoin.rocks/wallets
+
+Bitcoin wallets are interoperable, so you can send Bitcoin to anyone no matter which wallet they use.
+
+There are many different Bitcoin wallets that differ in important ways. You can determine if a wallet is right for you by asking these simple questions:
+
+### Is It a Self-Custody Wallet?
+
+One of the innovations of Bitcoin is the ability to store it without relying on a custodian, like a bank.
+
+If you're holding bitcoin on an exchange or in an ETF, you lose the freedom benefits of bitcoin.
+
+Self-custody wallets unlock the full power of Bitcoin: freedom money.
+
+With a self-custody wallet, you are the only one with the ability to spend or transfer your money. No one can stop you from sending or receiving your money when you use a self-custody wallet.
+
+Self-custody wallets are also called non-custodial wallets.
+
+Custodial wallets are wallets where you are not in control of your money. These wallets are more similar to the banking system where you must trust a third party to give you access to your money. If your Bitcoin is on an exchange, you are using a custodial wallet.
+
+If you bought a Bitcoin ETF, you are using a custodial wallet that doesn't allow you to withdraw to self-custody.
+
+Custodial wallets can seem convenient, but the custodian has the technical ability to steal all user funds at any time.
+
+Not your keys, not your coins!
+
+### Is It Hot or Cold?
+
+**Cold wallets** store the keys to your Bitcoin in a manner that never exposes them to the internet. This significantly limits the attack vectors that a thief might use to try to steal your Bitcoin, and is best used for large sums of Bitcoin that you don't need to transfer often. You can think of a cold wallet as a long term savings account, also known as cold storage.
+
+**Hot wallets** store the keys to your Bitcoin on a device that is connected to the internet, like your phone. Hot wallets are generally considered safe, but they could have more security vulnerabilities than cold wallets. You can think of a hot wallet like you would a physical wallet. You wouldn't store your entire savings in your wallet, but you would store some spending money. Hot wallets make it much easier to spend your Bitcoin without having to pull your entire savings out of cold storage.
+
+### How Will I Back Up My Recovery Phrase?
+
+When you set up your Bitcoin wallet, your device will generate a recovery phrase. This recovery phrase (also called a seed phrase) contains 12 or 24 words.
+
+If you ever lose access to your wallet or your device stops working, you can input this recovery phrase into a new wallet to regain access to your Bitcoin.
+
+Most wallets include a sheet of paper to write down your recovery phrase, but lots of people prefer to back up this phrase on steel instead. This makes it much less likely to lose your recovery phrase in the event of a natural disaster like a fire or a flood.
+
+### Recommended Wallets
+
+**Blockstream Green** (Hot Wallet — Free)
+- Great starter wallet
+- Mobile app for iOS and Android
+- 2FA support
+- Bitcoin only
+- 100% free
+
+**Blockstream Jade** (Cold Wallet — $79)
+- Air-gap mode
+- Pair with your phone
+- Bitcoin only
+
+**Coldcard MK5** (Cold Wallet — $189)
+- Air-gap mode
+- Lots of security features
+- Bitcoin only
+
+**Coldcard Q** (Cold Wallet — $289)
+- Full QWERTY keyboard
+- QR code scanner
+- Air-gap mode
+- Bitcoin only
+
+**Foundation Passport** (Cold Wallet — $199)
+- Air-gap mode + camera
+- Rechargeable battery
+- Bitcoin only
+
+**SeedSigner** (Cold Wallet — ~$50)
+- Build your own
+- Air-gap mode
+- Very affordable
+- Bitcoin only
+
+---
+
+## How to Buy Bitcoin
+
+Source: https://bitcoin.rocks/buy
+
+Buying Bitcoin for the first time can seem overwhelming, but it's actually quite simple when you break it down into steps. This guide will walk you through the process of safely buying Bitcoin and storing it in your own wallet.
+
+### Step 1: Select Your Country
+
+Different countries have different Bitcoin buying options available. Select your country to see the best options for you.
+
+### Step 2: Choose Your Payment Method
+
+There are two main ways to buy Bitcoin: with a bank transfer or with cash. Each has different advantages.
+
+**Bank Transfer**: Fast and easy, but less private. Bank transfers are the most common way to buy Bitcoin. They're fast, convenient, and usually have lower fees.
+
+**Cash**: More private, but limited options. Cash purchases offer more privacy but have fewer options and may require meeting someone in person or using a Bitcoin ATM.
+
+### Step 3: Buy From a Recommended Platform
+
+Recommended platforms vary by country. Examples include Strike, Swan Bitcoin, River, Kraken, Relai, and Bisq (decentralized peer-to-peer exchange for private trading without KYC).
+
+### Step 4: Store Your Bitcoin Safely
+
+After buying Bitcoin, the most important step is to move it to your own wallet where you control the private keys.
+
+Leaving Bitcoin on an exchange is risky because you don't actually own the Bitcoin — the exchange does.
+
+When you control your own private keys, you have true ownership of your Bitcoin and no one can take it away from you.
+
+---
+
+## Lightning Wallet Guide
+
+Source: https://bitcoin.rocks/lightning
+
+Lightning enables you to send Bitcoin payments quickly and cheaply.
+
+It's important to know that using lightning comes with trade-offs. In exchange for faster, cheaper Bitcoin payments, you often sacrifice some security.
+
+In general, Lightning should only be used with small amounts of bitcoin. You should only ever store large amounts of bitcoin in a hardware wallet.
+
+### What Trade-Off Balance Is Right for Me?
+
+One of the innovations of Bitcoin is the ability to store it without relying on a custodian, like a bank. Self-custody wallets unlock the full power of Bitcoin.
+
+With a self-custody wallet, you are the only one with the ability to spend or transfer your money. No one can stop you, censor you, or steal from you when you use a self-custody wallet.
+
+The most sovereign way to use Lightning is by running your own node.
+
+It's important to know that even using a non-custodial Lightning wallet, you are still trusting the wallet creator not to push a malicious app update and steal your funds.
+
+Custodial wallets are wallets where you are not in control of your money. Some people prefer custodial Lightning wallets for small amounts of bitcoin because of their ease of use. Just remember: not your keys, not your coins!
+
+### Recommended Lightning Wallets
+
+- **Phoenix**: Non-custodial, lots of features, mobile app, 100% free
+- **Breez**: Non-custodial, great for merchants, mobile app, 100% free
+- **Mutiny Wallet**: Non-custodial, browser based, 100% free
+- **Wallet of Satoshi**: Fully custodial wallet, great starter wallet, mobile app, 100% free
+
+---
+
+## Compound Inflation Calculator
+
+Source: https://bitcoin.rocks/compound-inflation-calculator
+
+Many people know about Compound Interest, but few people know about Compound Inflation.
+
+With our Compound Inflation Calculator, you can easily calculate the amount your salary needs to increase to maintain your purchasing power over time.
+
+Simply enter your current salary, inflation rate, and the number of years you want to calculate for, and our calculator will show you what your salary needs to be to keep up with inflation.
+
+---
+
+## Bitcoin vs Gold
+
+Source: https://bitcoin.rocks/bitcoin-vs-gold
+
+Gold has been used as money for thousands of years and is seen by many as a financial safe haven. Bitcoin is digital money created in 2009 and is also seen by many as a financial safe haven. But how does a physical metal like gold differ from a digital money like Bitcoin?
+
+| | Bitcoin | Gold |
+|---|---|---|
+| **Sendability** | Can be sent over the Internet | Must be physically sent |
+| **Digital nature** | Digitally native | Digital IOUs |
+| **Supply** | Fixed supply of 21M BTC | Supply increases every year |
+| **Elasticity** | Inelastic | Elastic |
+| **Decentralization** | Decentralized | Physically centralized |
+| **Verifiability** | Easy to verify | Hard to verify |
+| **Divisibility** | Easy to divide | Hard to divide |
+
+**Sendability**: Because Bitcoin is digital, it can be sent almost instantly for very low fees by anyone with an Internet connection. Because Gold is physical, it cannot be moved across the Internet and must be physically shipped to transfer ownership.
+
+**Digital nature**: Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.
+
+**Supply**: Bitcoin has a hard cap of 21 Million BTC that will ever exist. New gold supply is pulled out of the ground each year, resulting in inflation of the total supply. It's estimated that the total supply of gold increases by about 1.6% per year, which means your slice of the pie shrinks by 1.6% per year. This is less than fiat inflation, but still inflation. With Bitcoin, your slice of the pie never shrinks.
+
+**Elasticity**: Gold has an elastic supply, meaning that as the price of gold rises, there is a greater incentive to mine more gold. This often puts downward pressure on the gold price as new mines come online. With Bitcoin, no matter how high the price goes, you can't make more than 21M Bitcoin. Bitcoin is the first asset with an inelastic relationship between price and supply.
+
+**Decentralization**: The Bitcoin network is decentralized. Tens of thousands of independent nodes validate the rules of the network. Users can take self-custody of their Bitcoin by downloading an app. While it is possible to self-custody physical gold, most physical gold is stored in huge vaults owned by custodians which makes it physically centralized.
+
+**Verifiability**: With Bitcoin, it's incredibly easy to verify that you have real Bitcoin by taking self-custody of your coins and running a full node. Physical gold can be very difficult to verify as authentic. Even if you verify the outer section of physical gold is real, the inside of your physical gold piece could be Tungsten or another metal. The only way to truly verify you own the physical gold you think you do is to melt it down.
+
+**Divisibility**: Just like there are 100 cents in 1 dollar, there are 100,000,000 sats in 1 Bitcoin. This enables Bitcoin to be used for all scales of purchases, including microtransactions as small as a few cents. Because physical gold is hard to divide, it can't be easily used for purchases, especially small purchases.
+
+**Sources**: World Gold Council (gold supply data), Bitnodes (network nodes), Bitcoin source code, Bitcoin whitepaper.
+
+---
+
+## Bitcoin vs Stocks
+
+Source: https://bitcoin.rocks/bitcoin-vs-stocks
+
+Stocks have been a popular investment for decades and represent ownership shares in companies. Bitcoin is digital money created in 2009 that operates independently of any company or government.
+
+| | Bitcoin | Stocks |
+|---|---|---|
+| **Ownership** | Direct ownership | Shares in a company |
+| **Supply** | Fixed supply of 21M BTC | Dilutable supply |
+| **Control** | Decentralized network | Key person risk |
+| **Valuation** | Market-driven price | P/E ratio valuations |
+| **Trading** | 24/7 trading | Market hours only |
+| **Custody** | Self-custody possible | Counterparty risk |
+| **Inflation** | Fixed supply asset | Variable inflation hedge |
+
+**Ownership**: When you own Bitcoin, you have direct ownership of the asset itself. When you own stocks, you own a share of a company, which means your investment depends on the company's performance, management decisions, and business success.
+
+**Supply**: Bitcoin has a hard cap of 21 million BTC that will ever exist. Companies can issue new shares at any time, diluting existing shareholders' ownership percentage. With Bitcoin, your slice of the pie never shrinks.
+
+**Control**: Bitcoin operates on a decentralized network with no single point of failure. Stock investments are subject to key person risk — if the CEO or other critical leaders leave, get sick, or make poor decisions, your investment can suffer significantly.
+
+**Trading**: Bitcoin trades 24 hours a day, 7 days a week on global exchanges. Stock markets are only open during business hours on weekdays.
+
+**Custody**: With Bitcoin, you can take self-custody of your coins, meaning you truly own them without depending on any third party. Self-custody is as simple as downloading an app. Stocks require a brokerage account and you're subject to counterparty risk.
+
+**Sources**: SEC (stock market data), Bitcoin source code, Bitcoin whitepaper.
+
+---
+
+## Bitcoin vs Cash
+
+Source: https://bitcoin.rocks/bitcoin-vs-cash
+
+Cash has been used as money for centuries and remains the most common form of physical money worldwide. Bitcoin is digital money created in 2009 that operates independently of any government or central authority.
+
+| | Bitcoin | Cash |
+|---|---|---|
+| **Sendability** | Can be sent over the Internet | Must be physically present |
+| **Reach** | Works globally | Limited by borders |
+| **Validity** | Cannot be invalidated | Can be invalidated overnight |
+| **Counterfeiting** | Cannot be counterfeited | Can be counterfeited |
+| **Control** | Decentralized network | Government controlled |
+| **Storage** | Digital self-custody | Physical storage risks |
+| **Divisibility** | Easily divisible | Limited divisibility |
+
+**Sendability**: Bitcoin can be sent anywhere in the world instantly over the Internet, while cash requires physical presence or trusted intermediaries.
+
+**Validity**: Governments can and do invalidate cash overnight through demonetization policies, like India did in 2016 when they banned certain banknotes. Bitcoin cannot be invalidated by any government or authority.
+
+**Counterfeiting**: Cash can be counterfeited, and it's often difficult to detect fake bills without special equipment. Bitcoin uses cryptographic proof that makes counterfeiting mathematically impossible.
+
+**Divisibility**: Cash has minimum denominations — you can't split a penny into smaller parts. Bitcoin can be divided into 100 million smaller units called satoshis, enabling micropayments and precise transactions of any amount.
+
+**Sources**: Reserve Bank of India (demonetization notice), Bitcoin whitepaper.
+
+---
+
+## Bitcoin vs Banks
+
+Source: https://bitcoin.rocks/bitcoin-vs-banks
+
+Banks have controlled money for centuries, acting as intermediaries for financial transactions and gatekeepers of the monetary system. Bitcoin is a peer-to-peer digital money system that operates without banks or central authorities.
+
+| | Bitcoin | Banks |
+|---|---|---|
+| **Access** | Permissionless access | Requires permission |
+| **Availability** | Always available 24/7 | Limited hours |
+| **Transparency** | Transparent and open | Private, opaque operations |
+| **Control** | You control your money | Control your money |
+| **Fees** | Predictable, low fees | Variable fees and penalties |
+| **Overdrafts** | Can't overdraft | Allow overdrafts with fees |
+| **Censorship** | Censorship resistant | Can block transactions |
+
+**Access**: Bitcoin is permissionless, meaning anyone with internet access can use it without asking for approval from any authority. Banks can refuse to open accounts, freeze existing accounts, or deny services.
+
+**Transparency**: All Bitcoin transactions are recorded on a public blockchain that anyone can verify and audit. Banks operate with private ledgers and opaque internal processes.
+
+**Fees**: Bitcoin transaction fees are transparent, predictable, and typically very low. Banks often have hidden fees, monthly account fees, overdraft charges, wire transfer fees, ATM fees, and other penalties.
+
+**Censorship**: Bitcoin transactions are censorship resistant — once broadcast to the network, they cannot be stopped or reversed by any central authority. Banks can block, freeze, reverse, or restrict transactions.
+
+---
+
+## Bitcoin vs CBDCs (Central Bank Digital Currencies)
+
+Source: https://bitcoin.rocks/bitcoin-vs-cbdc
+
+Our world is becoming increasingly digital, and so is our money. Many countries are exploring issuing a Central Bank Digital Currency (CBDC) which is a fully digital form of our existing government currency.
+
+| | Bitcoin | CBDC |
+|---|---|---|
+| **Permission** | Spend without permission | Requires permission to spend |
+| **Expiry** | Your money never expires | Your money can expire |
+| **Supply** | Fixed supply of 21M BTC | No limit on total supply |
+| **Privacy** | Pseudonymous | Linked to government ID |
+| **Decentralization** | Decentralized | Centralized |
+| **Nodes** | Users can run nodes | Users can't run nodes |
+| **Freezing** | Can't be frozen | Easily frozen |
+| **Custody** | Can be self-custodied | Must trust custodians |
+| **Monetary policy** | Predictable monetary policy | Changing monetary policy |
+| **Security** | Secure | Insecure |
+
+**Permission**: Bitcoin is designed to give you total control over your money. No one can stop you from transacting with Bitcoin. CBDCs are designed to give governments total control over your money.
+
+**Expiry**: Bitcoin never expires and has no monthly fees. CBDCs can be programmed to expire, preventing you from saving for the future.
+
+**Privacy**: Bitcoin addresses are pseudonymous, not linked to your real name or identity. CBDCs are directly linked to your real name and identity which enables massive financial surveillance and censorship.
+
+**Security**: Bitcoin is the most secure computing network that has ever existed and has never been hacked. CBDCs rely on governments and banks to secure the network, which have been hacked countless times throughout history.
+
+---
+
+## Bitcoin vs Bonds
+
+Source: https://bitcoin.rocks/bitcoin-vs-bonds
+
+Government bonds are often called "risk-free" investments and are considered the safest place to store wealth by traditional finance. Bitcoin is digital money that operates independently of any government or central authority.
+
+| | Bitcoin | Bonds |
+|---|---|---|
+| **Risk** | No counterparty risk | Hidden risks |
+| **Inflation** | Fixed supply | Lose value to inflation |
+| **Liquidity** | Always liquid | Can become illiquid |
+| **Auctions** | No auction risk | Failed auctions |
+| **Growth** | Appreciation potential | Fixed yield |
+| **Custody** | Self-custody possible | Require intermediaries |
+| **Independence** | No government dependency | Government dependency |
+
+**Risk**: Bonds are only "risk-free" in nominal dollar terms. However, this ignores inflation risk, interest rate risk, and the possibility that those dollars will be worth much less when you get them back. Bitcoin has clear, transparent risks (volatility) but no hidden counterparty risk.
+
+**Inflation**: When inflation is higher than bond yields, bondholders lose purchasing power every year. A 2% bond yield with 4% inflation means you're losing 2% of real value annually. Bitcoin's fixed supply of 21 million coins means it can't be inflated away.
+
+**Liquidity**: During financial crises, bond markets can freeze up and become illiquid. Banks like Silicon Valley Bank got stuck holding bonds that lost significant value when interest rates rose. Bitcoin trades 24/7 globally and has never had a liquidity crisis.
+
+**Sources**: U.S. Treasury Department (auction results), Bitcoin source code, Bitcoin whitepaper.
+
+---
+
+## Bitcoin vs Crypto
+
+Source: https://bitcoin.rocks/bitcoin-vs-crypto
+
+The cryptocurrency space has exploded with thousands of different digital tokens and projects. While Bitcoin was the first and remains the most well-known cryptocurrency, it's fundamentally different from the rest of the crypto industry.
+
+| | Bitcoin | Crypto |
+|---|---|---|
+| **Protocol** | Immutable protocol | Frequent changes & forks |
+| **Decentralization** | Truly decentralized | Centralized control |
+| **Supply** | Fixed supply of 21M BTC | Unlimited or inflationary supply |
+| **Design** | Simple & accessible | Complex protocols |
+| **Consensus** | Proven Proof of Work | Experimental consensus |
+| **Purpose** | Pure digital money | Speculative utility tokens |
+| **Resilience** | Antifragile | Volatile & fragile |
+| **Control** | No single entity controls it | Corporate backing |
+
+**Protocol**: Bitcoin's protocol has remained fundamentally unchanged since 2009, providing predictable rules that cannot be easily altered. Most crypto projects frequently update their protocols, change tokenomics, or fork into new versions.
+
+**Decentralization**: Bitcoin operates on a truly decentralized network with tens of thousands of independent nodes worldwide. Many crypto projects are controlled by foundations, companies, or small groups of developers.
+
+**Supply**: Bitcoin has a hard cap of 21 million coins that will ever exist, making it the scarcest digital asset. Most crypto projects have unlimited supplies, inflationary mechanisms, or can mint new tokens at will.
+
+**Consensus**: Bitcoin uses Proof of Work consensus, which has been battle-tested for over 15 years without a single successful attack on the main network.
+
+**Resilience**: Bitcoin becomes stronger under attack and has survived every crisis, ban, and criticism thrown at it. Most crypto projects are fragile and can collapse from regulatory pressure, technical failures, or market downturns.
+
+**Sources**: Bitcoin whitepaper (Proof of Work), Bitcoin source code.
+
+---
+
+## Bitcoin vs Visa
+
+Source: https://bitcoin.rocks/bitcoin-vs-visa
+
+Credit cards and Bitcoin are both payment systems, but they work very differently. Credit cards like Visa are closed networks controlled by financial institutions, while Bitcoin is an open network that anyone can use.
+
+| | Bitcoin | Visa |
+|---|---|---|
+| **Network** | Open network | Closed network |
+| **Merchant fees** | No merchant fees | 3% merchant fees |
+| **Transparency** | Transparent system | Opaque system |
+| **Freezing** | Cannot be frozen | Can freeze accounts |
+| **Debt** | No debt creation | Creates debt with high interest |
+| **Custody** | Self-custody possible | Requires intermediaries |
+| **Availability** | 24/7 global access | Limited hours & geography |
+
+**Merchant fees**: Bitcoin transactions have no fees for merchants, while credit card companies typically charge merchants around 3% per transaction.
+
+**Debt**: Credit cards create debt that can accumulate high interest rates if not paid off quickly, sometimes exceeding 25% annually. Bitcoin transactions are final settlements with no debt creation — you can only spend Bitcoin you actually own.
+
+**Custody**: Bitcoin allows for self-custody, meaning you can hold and control your own money without relying on banks or payment processors. Credit cards always require intermediaries.
+
+**Sources**: Visa (interchange fee schedule), Federal Reserve (credit card rate data), Bitcoin whitepaper.
+
+---
+
+## Bitcoin vs Real Estate
+
+Source: https://bitcoin.rocks/bitcoin-vs-real-estate
+
+Real estate has been a popular investment for decades and is often seen as a stable store of value. Bitcoin is digital money created in 2009 and is also seen by many as a store of value and investment.
+
+| | Bitcoin | Real Estate |
+|---|---|---|
+| **Portability** | Globally portable | Cannot be moved |
+| **Divisibility** | Easily divisible | Cannot be easily divided |
+| **Censorship** | Censorship resistant | Subject to government control |
+| **Maintenance** | No maintenance required | Requires constant maintenance |
+| **Taxes** | No property taxes | Subject to property taxes |
+| **Destruction** | Difficult to destroy | Vulnerable to natural disasters |
+| **Fungibility** | Perfectly fungible | Every property is unique |
+| **Market** | Global 24/7 market | Limited to local buyers |
+| **Ownership** | Promotes individual ownership | Contributes to housing financialization |
+
+**Portability**: Bitcoin can be moved anywhere in the world instantly over the internet. Real estate is permanently fixed to a specific location.
+
+**Censorship**: Bitcoin operates on a decentralized network that no government can control. Real estate is subject to extensive government regulation including rent control, eviction moratoriums, zoning laws, and eminent domain.
+
+**Taxes**: Bitcoin has no ongoing taxes — you only pay capital gains when you sell. Real estate is subject to annual property taxes regardless of whether the property generates income.
+
+**Housing impact**: Bitcoin enables direct individual ownership without intermediaries. Buying real estate as an investment beyond your primary residence contributes to the financialization of housing, driving up prices, reducing affordability for families, and contributing to the housing and homelessness crisis.
+
+---
+
+## Bitcoin vs Fine Art
+
+Source: https://bitcoin.rocks/bitcoin-vs-fine-art
+
+Fine art has been a luxury investment for centuries and is often seen as a store of value by wealthy collectors. Bitcoin is digital money that is also seen by many as a store of value and investment.
+
+| | Bitcoin | Fine Art |
+|---|---|---|
+| **Fungibility** | Perfectly fungible | Each piece is unique |
+| **Market** | 24/7 global market | Requires specialized auctions |
+| **Fees** | Low transaction fees | High auction fees |
+| **Divisibility** | Easily divisible | Cannot be divided |
+| **Verification** | Cryptographically verifiable | Requires expert authentication |
+| **Destruction** | Difficult to destroy | Vulnerable to damage |
+| **Accessibility** | Accessible to everyone | Limited to wealthy collectors |
+
+**Fees**: Buying or selling bitcoin typically costs less than 1% in fees. Fine art sales involve substantial costs including buyer's premiums (10-25%), seller's commissions (10-15%), insurance, transportation, storage, and authentication fees — easily exceeding 30-40% of the artwork's value.
+
+**Verification**: Bitcoin ownership and authenticity can be cryptographically verified on the blockchain by anyone. Fine art requires expensive expert authentication, and forgeries regularly fool the art world. Bitcoin cannot be forged or counterfeited.
+
+**Accessibility**: Bitcoin can be bought by anyone with internet access and a small amount of money. Fine art investment is largely limited to wealthy collectors due to high prices, exclusive access, and specialized knowledge requirements.
+
+**Sources**: Christie's, Sotheby's (auction data), Bitcoin whitepaper.
+
+---
+
+## Bitcoin for Business
+
+### Why Bitcoin is Good for Business
+
+Source: https://bitcoin.rocks/business/why
+
+**Bitcoin doesn't have inflation.** Inflation happens when more money is printed or created from thin air. This makes your money worth less over time. Bitcoin has a fixed supply, which means no one can print more Bitcoin.
+
+**Bitcoin doesn't have bank runs.** Multiple US banks have collapsed in the past few years due to bank runs. Instead of just holding your money for you, banks invest and lend out your money. And the FDIC insurance fund only has $1 for every $100 they're insuring.
+
+**Bitcoin is permissionless.** Unlike traditional financial networks, Bitcoin doesn't require permission to be used. That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.
+
+**Bitcoin is building a better world.** Bitcoin is a misunderstood technology that is building a better world. Bitcoin has enabled human rights activists to fight for freedom, reduced global methane emissions, saved national parks, and so much more.
+
+### Business FAQ — Frequently Asked Questions About Accepting Bitcoin
+
+Source: https://bitcoin.rocks/business/faq
+
+**What is Bitcoin?**
+Bitcoin is two things: digital money and a computer network. You can send bitcoin directly to other people using the Bitcoin Network. The Bitcoin Network is able to operate without middlemen or central authorities, like banks or credit card companies, so you can avoid their transaction fees. Bitcoin transactions achieve final settlement quickly (10 minutes) and can never be charged back, so you can sleep easy knowing your money is your money.
+
+**How can Bitcoin benefit my business?**
+Bitcoin allows you to accept payments with lower fees and get more customers. Bitcoin payments have low fees with no minimums, settle instantly, and are immune to chargebacks and fraud. Accepting Bitcoin is free and allows you to list your business on Bitcoin merchant maps so Bitcoin users can easily find your business.
+
+**How do I accept Bitcoin payments?**
+All you need to accept Bitcoin payments is a free Bitcoin wallet.
+
+**Can I convert the Bitcoin payments I receive to my local currency?**
+Yes! By using a hybrid wallet, you can automatically convert the Bitcoin payments you receive to your local currency as soon as a payment is received. You can also choose to keep a portion of the payments you receive as Bitcoin. Even if you choose to convert all of your Bitcoin payments to dollars, you still get the benefits of accepting payments with much lower fees while reaching more potential customers.
+
+**Can I accept Bitcoin payments in person?**
+Yes! It's easy to accept Bitcoin payments in person using a Bitcoin wallet.
+
+**Can I accept Bitcoin payments online?**
+Yes! It's easy to accept Bitcoin payments online with your existing online store.
+
+**How can I let my customers know I accept Bitcoin?**
+We offer free "Bitcoin Accepted Here" stickers. You can also list your business on Bitcoin merchant maps for free and gain exposure to millions of Bitcoin users.
+
+**How can I get more customers by accepting Bitcoin?**
+There are millions of Bitcoin users who want to spend their Bitcoin at businesses that accept it. By simply accepting Bitcoin payments, your business can get listed on free Bitcoin merchant maps.
+
+**How much does it cost to accept Bitcoin?**
+Accepting Bitcoin at your business is 100% free. There are no contracts or hidden fees.
+
+---
+
+## Get Involved — Spread Bitcoin
+
+Source: https://bitcoin.rocks/get-involved
+
+It can be depressing to live in the current state of our world. Our money is broken. As a result, fundamental pieces of society are broken too.
+
+If you're already into Bitcoin, you know the feeling of hope that Bitcoin can bring. Hope for a brighter future made possible by better money.
+
+But so many people around you don't know about Bitcoin. They're living in the same broken world as you, but without a beacon of hope to help them through the darkness.
+
+But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.
+
+### Put a Sticker in Public
+
+You can help educate those around you about Bitcoin without having to interact with anyone. Simply put one of our free Bitcoin stickers in public.
+
+Hundreds of people scan the QR codes on these stickers each month. The inflation stickers link to a page about Bitcoin as a solution to inflation. The other stickers link to our educational home page that shows people how Bitcoin is building a better world.
+
+### Send a Postcard
+
+You can help spread the hope of Bitcoin to someone you know by sending them one of our free postcards. The back of each postcard contains a compelling blurb about Bitcoin along with a QR code to learn more.
+
+### Onboard a Business
+
+Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments. Each business kit includes flyers that highlight the pros of accepting Bitcoin payments.
+
+---
+
+## What is Nostr?
+
+Source: https://bitcoin.rocks/nostr/what-is-nostr
+
+### Protocol, Not Platform
+
+Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting. Platforms like Twitter and Facebook are controlled by a single company, but no one controls the Nostr protocol.
+
+### Freedom to Move
+
+Nostr is similar to email. No one controls the email protocol, and anyone can build a client (like Gmail, Hotmail, etc.) on top of it. No one controls the Nostr protocol, and anyone can build a client (like Damus, Amethyst, etc.) on top of it. If you don't like how a certain client works, you can seamlessly move your Nostr account to another client without losing your followers or content.
+
+### Bitcoin is Built In
+
+Bitcoin is built in natively to the Nostr protocol. If you see content you like, you can easily zap bitcoin to someone as a thank you! On centralized platforms like Twitter and Facebook, the centralized company earns money from your content. But on open protocols like Nostr, you earn money from your content.
+
+---
+
+## Homepage — Bitcoin Builds a Better World
+
+Source: https://bitcoin.rocks/
+
+Bitcoin is better money that is building a better world. The homepage organizes Bitcoin's impact into categories:
+
+- **Better Money**: Bitcoin Doesn't Have Inflation, Bitcoin Doesn't Have Bank Runs, Bitcoin vs Gold, Bitcoin vs Crypto, Bitcoin vs Cash, Bitcoin vs Bonds, Bitcoin vs CBDCs
+- **Your Salary**: Compound Inflation Calculator
+- **Freedom**: Why Bitcoin Matters for Freedom
+- **Human Rights**: How Bitcoin Enforces Human Rights
+- **Equality**: Bitcoin is Bringing Hope & Opportunity
+- **Property Rights**: Bitcoin is the Perfect Form of Property, Bitcoin vs Real Estate
+- **Housing**: How Bitcoin Will Make Housing Affordable Again
+- **Business**: Bitcoin vs Stocks, Bitcoin for Business resources
+- **Crowdfunding**: Bitcoin-powered crowdfunding examples
+- **Energy**: How Bitcoin Stabilizes Energy Grids, Bitcoin Mining & Renewable Energy
+- **The Environment**: Bitcoin Mining Reduces Global Methane Emissions
+- **Food**: How Inflation Affects Food Prices
+- **Art**: Bitcoin vs Fine Art, Sticker Initiative, Postcards, Flyers
+- **Politics**: Bitcoin as a Political Paradox
+- **War**: How Bitcoin Could End Endless War
+- **Coding**: Interactive Bitcoin Technical Tutorials
+- **Networks**: Bitcoin vs Banks, Live Bitcoin Network View
+- **Payments**: Bitcoin vs Visa, Lightning Network
+- **Self-Custody**: How to Safely Store Your Bitcoin
+- **Getting Started**: Learn Bitcoin basics, Get a wallet, Buy Bitcoin
+
+---
+
+*This content is maintained by bitcoin.rocks, a free, open-source Bitcoin education project founded in 2022. Licensed under MIT. For the latest version, visit https://bitcoin.rocks/llms-full.txt*

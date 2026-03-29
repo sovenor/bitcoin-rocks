@@ -118,6 +118,14 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - Test language switching functionality
 - You must update the homepage WebSite schema when a new language is added
 
+### LLM Content Files (llms.txt / llms-full.txt)
+- **When to update**: After adding new pages, updating existing page content, or adding new languages
+- **`llms.txt`**: Concise site overview for AI systems (~800 words). Update when adding new pages (add to the page listing), changing the site's language list, or modifying organizational info.
+- **`llms-full.txt`**: Full educational content in Markdown (~8,000 words). Update when page content changes significantly (new sections, revised facts/statistics, new pages). Regenerate the relevant section from the updated English JSON files.
+- **Language list**: When a new language is added, update the language list in the `llms.txt` "About This Site" section.
+- **New pages**: When creating a new educational page, add it to both `llms.txt` (one-line description + URL in the appropriate category) and `llms-full.txt` (full content in Markdown).
+- **Content source**: The English JSON translation files (`i18n/en/`) are the single source of truth. Assemble content from those files into clean Markdown prose.
+
 ### Editing i18n JSON Files (IMPORTANT)
 - **Never use inline CLI commands** (e.g., `node -e "..."`) to modify i18n JSON files. Special characters in translations (accented characters, Cyrillic, Thai, checkmarks, etc.) get corrupted by shell escaping.
 - **Never use `replace_in_file`** on i18n JSON files with non-ASCII content — the SEARCH/REPLACE matching breaks on special characters and tab indentation.

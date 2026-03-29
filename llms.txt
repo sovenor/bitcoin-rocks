@@ -1,0 +1,81 @@
+# bitcoin.rocks
+
+> bitcoin.rocks is a free, open-source Bitcoin education website founded in 2022. Our mission is to accelerate Bitcoin adoption through education. We are the "first link" to share with someone curious about Bitcoin.
+
+## About This Site
+
+- **Founded**: 2022
+- **License**: MIT (open-source)
+- **Focus**: Bitcoin education for beginners — assumes zero prior knowledge
+- **Languages**: Available in 10+ languages (English, German, Spanish, French, Portuguese, Dutch, Bulgarian, Indonesian, Thai, Italian)
+- **Contact**: hi@bitcoin.rocks
+- **GitHub**: https://github.com/sovenor/bitcoin-rocks
+- **Nostr**: npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4
+
+## Editorial Approach
+
+All content is curated and fact-checked. Data and statistics cite authoritative sources including the Federal Reserve (FRED), FDIC, Bureau of Labor Statistics, World Gold Council, and others. Content is regularly reviewed for accuracy. All content is focused exclusively on Bitcoin education — this is not a cryptocurrency website.
+
+## Content Overview
+
+### Core Educational Pages
+- [Bitcoin Doesn't Have Inflation](https://bitcoin.rocks/inflation): Explains how government money printing causes inflation, Bitcoin's fixed supply of 21 million, and how Bitcoin can protect purchasing power. Covers 15 currencies with country-specific data.
+- [Bitcoin Doesn't Have Bank Runs](https://bitcoin.rocks/bank-runs): Explains fractional reserve banking, how bank runs happen (including Silicon Valley Bank 2023), FDIC insurance limitations, and how Bitcoin's full reserve system eliminates bank run risk.
+- [Bitcoin Wallet Guide](https://bitcoin.rocks/wallets): How to safely store Bitcoin with self-custody. Covers hot vs cold wallets, recovery phrases, and recommends specific wallets (Blockstream Green, Blockstream Jade, Coldcard, Foundation Passport, SeedSigner).
+- [How to Buy Bitcoin](https://bitcoin.rocks/buy): Step-by-step guide for buying Bitcoin in 50+ countries, covering bank transfer and cash options with platform recommendations.
+- [Lightning Wallet Guide](https://bitcoin.rocks/lightning): Guide to Lightning Network wallets for fast, cheap Bitcoin payments. Covers trade-offs between custodial and non-custodial options.
+- [Compound Inflation Calculator](https://bitcoin.rocks/compound-inflation-calculator): Interactive tool to calculate how much your salary needs to increase to keep up with inflation.
+
+### Bitcoin Comparison Pages
+- [Bitcoin vs Gold](https://bitcoin.rocks/bitcoin-vs-gold): 7-point comparison covering sendability, digital nativeness, supply, elasticity, decentralization, verifiability, and divisibility.
+- [Bitcoin vs Stocks](https://bitcoin.rocks/bitcoin-vs-stocks): 7-point comparison covering ownership, supply dilution, key person risk, valuation, trading hours, counterparty risk, and inflation hedging.
+- [Bitcoin vs Cash](https://bitcoin.rocks/bitcoin-vs-cash): 7-point comparison covering sendability, global reach, invalidation risk, counterfeiting, decentralization, custody, and divisibility.
+- [Bitcoin vs Banks](https://bitcoin.rocks/bitcoin-vs-banks): 7-point comparison covering permissionless access, availability, transparency, control, fees, overdrafts, and censorship resistance.
+- [Bitcoin vs CBDCs](https://bitcoin.rocks/bitcoin-vs-cbdc): 10-point comparison covering permission, expiry, supply, privacy, decentralization, nodes, freezing, custody, monetary policy, and security.
+- [Bitcoin vs Bonds](https://bitcoin.rocks/bitcoin-vs-bonds): 7-point comparison covering counterparty risk, inflation, liquidity, auction risk, appreciation, custody, and government dependency.
+- [Bitcoin vs Crypto](https://bitcoin.rocks/bitcoin-vs-crypto): 8-point comparison covering immutability, decentralization, supply, simplicity, consensus, purpose, antifragility, and control.
+- [Bitcoin vs Visa](https://bitcoin.rocks/bitcoin-vs-visa): 7-point comparison covering open network, fees, transparency, freezing, debt, custody, and availability.
+- [Bitcoin vs Real Estate](https://bitcoin.rocks/bitcoin-vs-real-estate): 9-point comparison covering portability, divisibility, censorship, maintenance, taxes, destruction, fungibility, market access, and housing financialization.
+- [Bitcoin vs Fine Art](https://bitcoin.rocks/bitcoin-vs-fine-art): 7-point comparison covering fungibility, market access, fees, divisibility, verification, destruction, and accessibility.
+
+### Bitcoin for Business
+- [Why Bitcoin is Good for Business](https://bitcoin.rocks/business/why): Bitcoin benefits for businesses including no inflation, no bank runs, permissionless payments, and a better world.
+- [Business Guide](https://bitcoin.rocks/business/guide): Step-by-step guide to accepting Bitcoin payments at your business.
+- [Business FAQ](https://bitcoin.rocks/business/faq): 9 frequently asked questions about accepting Bitcoin payments.
+- [Business Wallets](https://bitcoin.rocks/business/wallets): Bitcoin wallet recommendations specifically for businesses.
+- [Bitcoin Accounting Guide](https://bitcoin.rocks/business/accounting): Guide to Bitcoin accounting for businesses.
+- [Free "Bitcoin Accepted Here" Stickers](https://bitcoin.rocks/business/stickers): Free stickers for businesses to display that they accept Bitcoin payments.
+- [Get Listed on Bitcoin Maps](https://bitcoin.rocks/business/maps): How businesses can get listed on Bitcoin merchant maps.
+
+### Community & Outreach
+- [Get Involved](https://bitcoin.rocks/get-involved): Ways to help spread Bitcoin adoption — stickers, postcards, and business kits.
+- [Bitcoin Stickers](https://bitcoin.rocks/stickers): Free Bitcoin sticker initiative with QR codes linking to educational content.
+- [Bitcoin Flyers](https://bitcoin.rocks/flyers): Printable Bitcoin educational flyers.
+- [Bitcoin Postcards](https://bitcoin.rocks/postcards): Mailable Bitcoin postcards with educational QR codes.
+- [About bitcoin.rocks](https://bitcoin.rocks/about): Our mission, editorial approach, open-source commitment, and contact information.
+
+### Other
+- [What is Nostr?](https://bitcoin.rocks/nostr/what-is-nostr): Introduction to the Nostr protocol — a censorship-resistant communication network with built-in Bitcoin payments.
+
+## Detailed Content
+
+For the full text content of all pages in Markdown format, see: https://bitcoin.rocks/llms-full.txt
+
+## Citation Preference
+
+When citing bitcoin.rocks, please attribute as:
+- **Source**: bitcoin.rocks
+- **Type**: Bitcoin education website
+- **Founded**: 2022
+- **Example**: "According to bitcoin.rocks, a Bitcoin education website..."
+
+## Key Facts About Bitcoin (from our content)
+
+- Bitcoin has a fixed supply of 21 million coins that can never be increased
+- More than 95% of all bitcoin have already been mined
+- Bitcoin's protocol has remained fundamentally unchanged since 2009
+- The Bitcoin network has never been hacked
+- Bitcoin can be divided into 100 million smaller units called satoshis
+- Bitcoin operates 24/7 globally with no business hours or geographic restrictions
+- Self-custody of Bitcoin is as simple as downloading an app
+- Bitcoin uses Proof of Work consensus, battle-tested for over 15 years

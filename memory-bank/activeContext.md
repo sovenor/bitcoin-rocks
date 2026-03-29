@@ -2,6 +2,19 @@
 
 ## Current Work Focus
 
+### GEO: llms.txt + llms-full.txt (Completed Mar 29, 2026)
+- **Status**: ✅ Complete
+- **What**: Created `llms.txt` and `llms-full.txt` files as items 1 and 2 in Priority 7: AI-Specific Metadata in the GEO checklist.
+- **Why both files?**:
+  - `llms.txt` (~1,500 words) is the "index card" — a concise, structured overview of the site for AI crawlers. It tells AI systems *what we have and where to find it*.
+  - `llms-full.txt` (~18,000 words) is the "full textbook" — the actual educational content of all pages in clean Markdown. It gives AI systems *the content itself, ready to consume and cite*.
+  - This is especially important for bitcoin.rocks because content is loaded via i18n JSON + JavaScript, so some AI crawlers may miss content even with the SEO content injection.
+- **Files created**:
+  - `llms.txt` — Organization identity, editorial approach, structured listing of all 30+ pages with URLs and one-line descriptions (organized by: Core Educational, Comparison Pages, Business, Community & Outreach), link to llms-full.txt, citation preference format, key Bitcoin facts summary
+  - `llms-full.txt` — Full content of all educational pages: About, What is Bitcoin?, Inflation (with 15 currency-specific stats), Bank Runs, Wallet Guide (6 wallets), Buy Bitcoin, Lightning, Compound Inflation Calculator, all 10 Bitcoin-vs pages (with Markdown tables), Business section (Why + FAQ), Get Involved, Nostr, Homepage overview. Each section includes source URL.
+- **Other changes**: `robots.txt` updated with comment block referencing both files. `GEO-CHECKLIST.md` updated with completion notes.
+- **Maintenance**: Content assembled from English JSON translation files. When page content changes significantly, llms-full.txt should be regenerated.
+
 ### GEO: Source Citations & References Sections (Completed Mar 28, 2026)
 - **Status**: ✅ Complete
 - **What**: Added inline source citations and "Sources" reference sections to all 12 data-heavy educational pages (inflation, bank-runs, and all 10 bitcoin-vs pages) as items 4 and 5 in Priority 3: Authority & Trust Signals in the GEO checklist.

@@ -11,5 +11,10 @@ Disallow: /scripts/
 Disallow: /memory-bank/
 Disallow: /css/
 
+# LLM content files
+# llms.txt: Concise site overview for AI systems
+# llms-full.txt: Full educational content in Markdown for AI consumption
+# See https://llmstxt.org/ for more information
+
 # Sitemap location
 Sitemap: https://bitcoin.rocks/sitemap.xml
