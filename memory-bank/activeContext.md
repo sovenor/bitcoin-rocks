@@ -2,6 +2,18 @@
 
 ## Current Work Focus
 
+### GEO: robots.txt AI Crawler Review (Completed Mar 29, 2026)
+- **Status**: ✅ Complete
+- **What**: Reviewed and updated `robots.txt` with explicit AI crawler directives as item 3 in Priority 7: AI-Specific Metadata in the GEO checklist.
+- **Changes to robots.txt**:
+  - Added explicit `User-agent` + `Allow: /` directives for 16 AI crawlers: GPTBot, ChatGPT-User, OAI-SearchBot (OpenAI), Google-Extended (Gemini/AI Overviews), ClaudeBot, anthropic-ai (Anthropic), PerplexityBot, Applebot-Extended (Apple Intelligence), Meta-ExternalAgent (Meta AI), Bingbot (Microsoft Copilot), Amazonbot, CCBot (Common Crawl), cohere-ai, YouBot, Diffbot, Bytespider (ByteDance)
+  - Added `Disallow` rules for `/forms-backend/` and `/.github/` (previously missing)
+  - Added prominent comment block pointing AI crawlers to `llms.txt` and `llms-full.txt` with URLs
+  - GPTBot gets explicit Disallow rules for non-content directories (since per-agent rules override the wildcard `User-agent: *` block in robots.txt spec)
+  - Well-organized with section headers and comments explaining each crawler
+- **Changes to inject-seo-content.js**: Updated the robots.txt generation code in Part 2 of the script to produce the same comprehensive output. Uses `DISALLOW_DIRS` array and `AI_CRAWLERS` config array for maintainability. Future `node scripts/inject-seo-content.js` runs will generate the correct robots.txt.
+- **Strategy**: Since bitcoin.rocks is MIT-licensed educational content that wants maximum AI citation, all AI crawlers are explicitly welcomed with no restrictions beyond the standard non-content directory blocks.
+
 ### GEO: llms.txt + llms-full.txt (Completed Mar 29, 2026)
 - **Status**: ✅ Complete
 - **What**: Created `llms.txt` and `llms-full.txt` files as items 1 and 2 in Priority 7: AI-Specific Metadata in the GEO checklist.
