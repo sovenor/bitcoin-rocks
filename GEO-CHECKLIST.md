@@ -79,7 +79,7 @@ AI engines prefer comprehensive, in-depth content from sites that demonstrate to
 
 - [x] **Add Twitter Card meta tags** — No pages have `twitter:card`, `twitter:title`, `twitter:description`, or `twitter:image` tags. These are used by some AI systems and social previews. ✅ *Completed Mar 28, 2026 — Injected `twitter:card`, `twitter:title`, `twitter:description`, and `twitter:image` meta tags into all 80 HTML files that have OpenGraph tags via `scripts/inject-twitter-cards.js`. Each tag's value is derived from the corresponding `og:title`, `og:description`, and `og:image` tags. Card type is `summary_large_image` (all pages have dedicated sharing images). No `twitter:site` included (inactive account). The 9 remaining files (success pages, 404) have no OG tags and were correctly skipped. Script is idempotent.*
 
-- [ ] **Fix the wallets.html og:url** — The wallets page has `<meta property="og:url" content="https://bitcoin.rocks/bank-runs" />` which is wrong — it should be `https://bitcoin.rocks/wallets`.
+- [x] **Fix the wallets.html og:url** — ~~The wallets page has `<meta property="og:url" content="https://bitcoin.rocks/bank-runs" />` which is wrong~~ — Fixed to `https://bitcoin.rocks/wallets`.
 
 - [ ] **Add `<article>` semantic HTML tags** — Wrap main educational content in `<article>` tags instead of just `<div>` tags. AI engines use semantic HTML to identify the primary content area vs. navigation, headers, and footers.
 
