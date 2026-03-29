@@ -30,6 +30,19 @@ $(function() {
   var storedLang = localStorage.getItem('selectedLanguage');
   var lang = storedLang || browserLangCode || 'en';
 
+  // Determine how the language was resolved
+  var langSource = storedLang ? 'stored' : (browserLangCode ? 'browser' : 'default');
+
+  // Track active language on page load
+  if (typeof gtag === 'function') {
+    gtag('event', 'language_pageview', {
+      'event_category': 'Language',
+      'event_label': lang,
+      'language_active': lang,
+      'language_source': langSource
+    });
+  }
+
   // Set selected language in language switcher
   var defaultLanguageSelect = document.getElementById('language-switcher');
   if (defaultLanguageSelect) {
