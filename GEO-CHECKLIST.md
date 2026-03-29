@@ -75,7 +75,7 @@ AI engines prefer comprehensive, in-depth content from sites that demonstrate to
 
 ## Priority 5: Technical GEO Optimizations
 
-- [ ] **Add `og:description` meta tags** — Currently pages have `og:title`, `og:type`, `og:url`, and `og:image` but are missing `og:description`. Add these to match the `<meta name="description">` content. Some AI engines use OpenGraph data.
+- [x] **Add `og:description` meta tags** — Currently pages have `og:title`, `og:type`, `og:url`, and `og:image` but are missing `og:description`. Add these to match the `<meta name="description">` content. Some AI engines use OpenGraph data. ✅ *Completed Mar 28, 2026 — Injected `<meta property="og:description">` into all 80 HTML files that have OpenGraph tags via `scripts/inject-og-description.js`. Each `og:description` value matches the page's existing `<meta name="description">` content. The 9 remaining files (success pages, 404) have no OG tags and were correctly skipped. Script is idempotent.*
 
 - [ ] **Add Twitter Card meta tags** — No pages have `twitter:card`, `twitter:title`, `twitter:description`, or `twitter:image` tags. These are used by some AI systems and social previews.
 
