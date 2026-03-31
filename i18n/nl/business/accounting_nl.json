@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-11-15",
+		"last-updated": "2026-03-30",
 		"locale": "nl"
 	},
 	"bitcoin_business_accounting_guide": "Bitcoin zakelijke boekhoudgids",
@@ -17,10 +17,10 @@
 	"accounting_s1_c6": "Als u belastingadvies nodig heeft, raden wij Satoshi Pacioli Accounting Services ten zeerste aan, een accountantskantoor dat gespecialiseerd is in Bitcoin-boekhouding.",
 	"accounting_s2": "UW KOSTENBASIS BIJHOUDEN",
 	"accounting_s2_c1": "Het bijhouden van uw kostenbasis zal het grootste verschil zijn tussen de boekhouding voor dollars en de boekhouding voor Bitcoin. Zelfs als u uw bedrijf volledig in termen van Bitcoin bekijkt, moet u de dollarwaarde van elke transactie bij uw belastingen vermelden.",
-	"accounting_s2_c2": "Als je gebruik maakt van QuickBooks you use QuickBooks, kun je dit automatisch laten verlopen door het gebruik van de Bitcoin Sync Plugin.",
+	"accounting_s2_c2": "Als je gebruik maakt van QuickBooks, kun je dit automatisch laten verlopen door het gebruik van de Bitcoin Sync Plugin.",
 	"accounting_s2_c3": "Als je QuickBooks niet gebruikt, raden wij Satoshi Pacioli Accounting Services aan, een accountantskantoor dat gespecialiseerd is in Bitcoin-boekhouding.",
 	"accounting_s2_c4": "Om dit handmatig te doen, hoeft u alleen maar het bedrag aan Bitcoin dat u heeft ontvangen en de eurowaarde van de Bitcoin-transactie op die dag bij te houden.",
-	"accounting_s2_c5": "Je kan de huidige europrijs van Bitcoin hier bekijken can view the current dollar price of Bitcoin here.",
+	"accounting_s2_c5": "Je kan de huidige europrijs van Bitcoin hier bekijken.",
 	"accounting_s2_c6": "Houd deze informatie bij in een Excel-spreadsheet en geef deze aan uw accountant.",
 	"accounting_s2_c7": "U kunt deze gegevens ook automatisch in Excel importeren.",
 	"accounting_s2_c8": "Ook kun je de historische europrijs van Bitcoin op dagen in het verleden bekijken, zodat je dit niet elke dag hoeft te doen.",

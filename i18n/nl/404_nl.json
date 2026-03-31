@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-11-04",
+		"last-updated": "2026-03-30",
 		"locale": "nl"
 	},
-	"404_title": "404 Error | Page Not Found",
-	"404_message": "THIS BROKEN PAGE DOES NOT ROCK",
-	"404_home": "GO BACK HOME"
+	"404_title": "404 Fout | Pagina Niet Gevonden",
+	"404_message": "DEZE KAPOTTE PAGINA ROCKT NIET",
+	"404_home": "GA TERUG NAAR HOME"
 }

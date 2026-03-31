@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-14",
+		"last-updated": "2026-03-30",
 		"locale": "nl"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Wallet Gids",
@@ -24,12 +24,12 @@
 	"wallets_s3_c5": "Niet jouw sleutels, niet jouw coins!",
 	"wallets_question_2": "IS HET WARM OF KOUD?",
 	"wallets_s4_c1": "Cold wallets bewaren de sleutels, de toegang tot jouw Bitcoin op zo'n manier dat ze nooit blootgesteld worden aan het internet.",
-	"wallets_s4_c2": "Dit beperkt aanzienlijk de mogelijkheden die een dief zou kunnen gebruiken om jouw Bitcoin te stelen, en wordt best gebruikt voor grote bedragen in Bitcoin die je toch niet vaakt uitgeeft.",
+	"wallets_s4_c2": "Dit beperkt aanzienlijk de mogelijkheden die een dief zou kunnen gebruiken om jouw Bitcoin te stelen, en wordt best gebruikt voor grote bedragen in Bitcoin die je toch niet vaak uitgeeft.",
 	"wallets_s4_c3": "Je kan een cold wallet zien als een lange termijn spaarrekening, ook wel gekend als cold storage.",
 	"wallets_s5_c1": "Hot wallets bewaren de sleutels tot jouw Bitcoin op een apparaat die verbonden is met het internet, zoals bijvoorbeeld je smartphone.",
 	"wallets_s5_c2": "Hot wallets worden in principe als veilig beschouwd, maar ze kunnen meer beveiligingsproblemen hebben dan cold wallets.",
 	"wallets_s5_c3": "Je kan een hot wallet ook zien als een fysieke portemonnee. Je zou nooit je volledige spaarrekening in een portemonnee bewaren, maar wel een beetje zakgeld.",
-	"wallets_s5_c4": "Hot wallets maken het veel gemakkelijker om je Bitcoin uit te geven zonder je volleddige spaarrekening te moeten uithalen.",
+	"wallets_s5_c4": "Hot wallets maken het veel gemakkelijker om je Bitcoin uit te geven zonder je volledige spaarrekening te moeten uithalen.",
 	"wallets_question_3": "HOE MAAK IK EEN BACK-UP VAN MIJN HERSTELZIN?",
 	"wallets_s6_c1": "Wanneer je jouw Bitcoin wallet instelt, genereert je apparaat een herstelzin. Deze herstelzin (ook wel seed phrase genoemd) bevat 12 of 24 woorden.",
 	"wallets_s6_c2": "Als je ooit de toegang tot je wallet verliest of je apparaat niet meer werkt, kun je deze herstelzin invoeren in een nieuwe wallet om weer toegang te krijgen tot je Bitcoin.",

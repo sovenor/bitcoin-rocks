@@ -3,12 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-03-30",
 		"locale": "nl"
 	},
 	"how_to_accept_bitcoin_payments": "Hoe Bitcoin-betalingen accepteren",
 	"wallets_header": "KRIJG EEN GRATIS BITCOIN WALLET OM BITCOIN-BETALINGEN TE ACCEPTEREN",
-	"wallets_intro_1": "Alle Bitcoin wallets are interoperabel, zodat uw klanten u in Bitcoin kunnen betalen, ongeacht welke wallet ze gebruiken.",
+	"wallets_intro_1": "Alle Bitcoin wallets zijn interoperabel, zodat uw klanten u in Bitcoin kunnen betalen, ongeacht welke wallet ze gebruiken.",
 	"wallets_intro_2": "Bitcoin-only wallets:",
 	"wallets_intro_3": "Dit zijn pure Bitcoin-wallets waarmee u optimaal kunt profiteren van de voordelen van Bitcoin: geen tussenpersonen, lage kosten en geen terugboekingen of fraude.",
 	"wallets_intro_4": "Hybrid wallets:",
