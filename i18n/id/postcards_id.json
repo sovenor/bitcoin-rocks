@@ -1,18 +1,20 @@
 {
-    "@metadata": {
-        "authors": ["Abeng"],
-        "last-updated": "2025-03-05",
-        "locale": "id"
-    },
-    "free_bitcoin_postcards": "Kartu Pos Bitcoin Gratis dari bitcoin.rocks",
-    "postcards_description": "Dapatkan Paket Kartu Pos Bitcoin gratis dan bagikan Bitcoin dengan seseorang yang Anda kenal.",
-    "postcards_header": "PROGRAM KARTU POS DITUTUP",
-    "postcards_program_closed_message": "Program kartu pos Bitcoin gratis kami telah berakhir. Terima kasih kepada semua yang berpartisipasi dalam menyebarkan edukasi Bitcoin melalui pos!",
-    "postcards_sticker_alternative_header": "DAPATKAN STIKER BITCOIN GRATIS SEBAGAI GANTINYA",
-    "postcards_sticker_alternative_message": "Lanjutkan menyebarkan kesadaran Bitcoin dengan program stiker gratis kami! Stiker Bitcoin kami sempurna untuk dibagikan di ruang publik dan memiliki kode QR yang mengarah ke konten edukatif.",
-    "postcards_sticker_cta": "DAPATKAN STIKER GRATIS",
-    "postcards_step_2": "SEPERTI APA KARTU POS ITU",
-    "postcards_instructions_4": "Kami membuat kartu pos ini untuk memudahkan Anda memperkenalkan seseorang yang Anda kenal dengan Bitcoin! Cukup tambahkan alamat dan perangko, lalu masukkan kartu pos Anda ke dalam kotak pos.",
-    "postcards_instructions_5": "Misi kami adalah mempercepat adopsi Bitcoin. Anda bisa membantu dengan mendapatkan stiker gratis dan menempatkannya di ruang publik!",
-    "postcards_instructions_6": "Kita semua mengenal beberapa orang yang bisa mendapatkan manfaat dari mempelajari lebih lanjut tentang Bitcoin. Bagikan stiker Bitcoin dengan mereka hari ini!"
+	"@metadata": {
+		"authors": [
+			"Abeng"
+		],
+		"last-updated": "2025-03-05",
+		"locale": "id"
+	},
+	"free_bitcoin_postcards": "Kartu Pos Bitcoin Gratis dari bitcoin.rocks",
+	"postcards_description": "Dapatkan Paket Kartu Pos Bitcoin gratis dan bagikan Bitcoin dengan seseorang yang Anda kenal.",
+	"postcards_header": "PROGRAM KARTU POS DITUTUP",
+	"postcards_program_closed_message": "Program kartu pos Bitcoin gratis kami telah berakhir. Terima kasih kepada semua yang berpartisipasi dalam menyebarkan edukasi Bitcoin melalui pos!",
+	"postcards_sticker_alternative_header": "DAPATKAN STIKER BITCOIN GRATIS SEBAGAI GANTINYA",
+	"postcards_sticker_alternative_message": "Lanjutkan menyebarkan kesadaran Bitcoin dengan program stiker gratis kami! Stiker Bitcoin kami sempurna untuk dibagikan di ruang publik dan memiliki kode QR yang mengarah ke konten edukatif.",
+	"postcards_sticker_cta": "DAPATKAN STIKER GRATIS",
+	"postcards_step_2": "SEPERTI APA KARTU POS ITU",
+	"postcards_instructions_4": "Kami membuat kartu pos ini untuk memudahkan Anda memperkenalkan seseorang yang Anda kenal dengan Bitcoin! Cukup tambahkan alamat dan perangko, lalu masukkan kartu pos Anda ke dalam kotak pos.",
+	"postcards_instructions_5": "Misi kami adalah mempercepat adopsi Bitcoin. Anda bisa membantu dengan mendapatkan stiker gratis dan menempatkannya di ruang publik!",
+	"postcards_instructions_6": "Kita semua mengenal beberapa orang yang bisa mendapatkan manfaat dari mempelajari lebih lanjut tentang Bitcoin. Bagikan stiker Bitcoin dengan mereka hari ini!"
 }

@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Harga didorong pasar",
 	"bitcoin_point_5": "Trading 24/7",
 	"bitcoin_point_6": "Self-custody dimungkinkan",
-	"bitcoin_point_7": "Aset deflasi",
+	"bitcoin_point_7": "Aset pasokan tetap",
 	"point_1_summary_1": "Ketika Anda memiliki Bitcoin, Anda memiliki kepemilikan langsung atas aset itu sendiri. Ketika Anda memiliki saham, Anda memiliki bagian dari perusahaan, yang berarti investasi Anda bergantung pada kinerja perusahaan, keputusan manajemen, dan kesuksesan bisnis.",
 	"point_2_summary_1": "Bitcoin memiliki batas maksimal 21 juta BTC yang akan pernah ada.",
 	"point_2_summary_2": "Perusahaan dapat menerbitkan saham baru kapan saja, mengencerkan persentase kepemilikan pemegang saham yang ada. Ini berarti bagian Anda dari perusahaan menjadi lebih kecil ketika saham baru dibuat.",
@@ -45,5 +45,5 @@
 	"point_6_summary_2": "Self-custody semudah mengunduh aplikasi.",
 	"point_6_summary_3": "Saham memerlukan akun pialang dan Anda tunduk pada risiko pihak lawan - jika perusahaan bangkrut atau pialang gagal, Anda bisa kehilangan investasi Anda.",
 	"point_6_summary_4": "Anda tidak pernah benar-benar memiliki sertifikat saham secara langsung.",
-	"point_7_summary_1": "Bitcoin adalah aset deflasi dengan penerbitan pasokan yang menurun dari waktu ke waktu. Saham memiliki kinerja variabel terhadap inflasi - beberapa perusahaan berkinerja baik selama periode inflasi sementara yang lain berjuang. Tidak ada jaminan bahwa saham tertentu akan melindungi terhadap inflasi."
+	"point_7_summary_1": "Bitcoin adalah aset dengan pasokan tetap dengan batas keras 21 juta Bitcoin yang akan pernah ada. Ini menjadikannya lindung nilai inflasi yang hebat. Saham memiliki kinerja variabel terhadap inflasi - beberapa perusahaan berkinerja baik selama periode inflasi sementara yang lain berjuang. Tidak ada jaminan bahwa saham tertentu akan melindungi terhadap inflasi."
 }
