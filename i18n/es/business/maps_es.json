@@ -3,11 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2026-03-30",
+		"locale": "es"
 	},
-	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin Merchant Maps - List your business for free",
-	"maps_header": "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS",
-	"maps_request_details": "Enter your business info below and we'll list you on Bitcoin merchant maps for free. This will enable Bitcoiners to find your business and spend their Bitcoin at your business!",
-	"maps_view": "View the map here."
+	"bitcoin_merchant_maps_list_your_business_for_free": "Mapas de comerciantes Bitcoin - Registra tu negocio gratis",
+	"maps_header": "APARECE EN LOS MAPAS DE COMERCIANTES BITCOIN Y CONSIGUE MÁS CLIENTES",
+	"maps_request_details": "Ingresa la información de tu negocio a continuación y te incluiremos en los mapas de comerciantes Bitcoin de forma gratuita. ¡Esto permitirá a los Bitcoiners encontrar tu negocio y gastar su Bitcoin en él!",
+	"maps_view": "Ver el mapa aquí."
 }

@@ -3,15 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2026-03-30",
+		"locale": "es"
 	},
-	"bitcoin_accepted_here_stickers": "Bitcoin Accepted Here stickers",
-	"stickers_header": "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS",
-	"stickers_request": "Get your free stickers",
-	"stickers_request_details": "Let your customers know you accept Bitcoin payments with these free 'Bitcoin Accepted Here' stickers.",
-	"stickers_country_global_print": "Global — Print my own stickers",
-	"stickers_request_instructions": "You will receive three 'Bitcoin Accepted Here' stickers in a plain white envelope. If you need more than three stickers for your business, feel free to request multiple times. Address data is deleted after your free stickers are shipped.",
-	"stickers_print_details": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live! Click on your language below to view the sticker files & instructions.",
-	"stickers_request_language": "Don't see your language? Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language."
+	"bitcoin_accepted_here_stickers": "Pegatinas de 'Bitcoin Accepted Here'",
+	"stickers_header": "CONSIGUE TUS PEGATINAS GRATUITAS DE 'BITCOIN ACCEPTED HERE'",
+	"stickers_request": "Consigue tus pegatinas gratis",
+	"stickers_request_details": "Haz saber a tus clientes que aceptas pagos Bitcoin con estas pegatinas gratuitas de 'Bitcoin Accepted Here'.",
+	"stickers_country_global_print": "Global — Imprimir mis propias pegatinas",
+	"stickers_request_instructions": "Recibirás tres pegatinas de 'Bitcoin Accepted Here' en un sobre blanco normal. Si necesitas más de tres pegatinas para tu negocio, no dudes en solicitar varias veces. Los datos de la dirección se eliminan después de que se envían tus pegatinas gratis.",
+	"stickers_print_details": "¡Puedes imprimir tus propias pegatinas de 'Bitcoin Accepted Here', sin importar dónde vivas! Haz clic en tu idioma a continuación para ver los archivos y las instrucciones de las pegatinas.",
+	"stickers_request_language": "¿No ves tu idioma? Rellena el siguiente formulario para solicitar archivos de pegatinas 'Bitcoin Accepted Here' en tu idioma local."
 }

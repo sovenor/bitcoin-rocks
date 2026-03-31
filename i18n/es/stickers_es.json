@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-20",
+		"last-updated": "2026-03-30",
 		"locale": "es"
 	},
-	"free_bitcoin_stickers": "Stickers Bitcoin gratuitas de bitcoin.rocks",
+	"free_bitcoin_stickers": "Stickers Bitcoin gratuitos de bitcoin.rocks",
 	"stickers_description": "Coloca una pegatina Bitcoin en público para orange pill a quienes te rodean.",
 	"stickers_header": "STICKERS BITCOIN GRATIS",
 	"stickers_choose_header": "ELIGE TU PACK DE STICKERS",
@@ -19,7 +19,7 @@
 	"stickers_instructions_1": "Ingresa tu dirección postal (Solo para U.S. y Canada) y te enviaremos un paquete de pegatinas Bitcoin gratis ¡Enviaremos tus stickers por correo en un sobre blanco normal!.",
 	"stickers_instructions_2": "Los datos de la dirección se eliminan después de que se envían tus stickers gratis.",
 	"stickers_share_header": "COMPARTE TUS SPOTS PARA PEGATINAS",
-	"stickers_share_c1": "¡Comparte tu spot para stickers con nosotros en Nostr y podrías recibir bitcoins gratis!",
+	"stickers_share_c1": "Comparte tus lugares de stickers con nosotros en Nostr y ve dónde otras personas están colocando sus stickers.",
 	"stickers_btn_share_on_nostr": "COMPARTE EN NOSTR",
 	"stickers_btn_what_is_nostr": "¿QUÉ ES NOSTR?",
 	"stickers_flyers_link_before": "Mientras estás en eso, imprime y publica tus propios ",

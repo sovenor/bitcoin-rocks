@@ -3,9 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2026-03-30",
+		"locale": "es"
 	},
-	"accept_bitcoin_payments_at_your_business": "Accept Bitcoin Payments at Your Business",
-	"guide_header": "READY TO ACCEPT BITCOIN AT YOUR BUSINESS?"
+	"accept_bitcoin_payments_at_your_business": "Acepta pagos Bitcoin en tu negocio",
+	"guide_header": "¿LISTO PARA ACEPTAR BITCOIN EN TU NEGOCIO?"
 }

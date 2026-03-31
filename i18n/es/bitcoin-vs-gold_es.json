@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-08-29",
+		"last-updated": "2026-03-30",
 		"locale": "es"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Oro",
@@ -37,7 +37,7 @@
 	"point_3_summary_3": "Esto es menos que la inflación fiat, pero sigue siendo inflación.",
 	"point_3_summary_4": "Con Bitcoin, tu parte del pastel nunca se reduce.",
 	"point_4_summary_1": "El oro tiene una oferta elástica, lo que significa que a medida que el precio del oro sube, hay un mayor incentivo para extraer más oro. Esto suele ejercer una presión a la baja sobre el precio del oro a medida que se ponen en marcha nuevas minas.",
-	"point_4_summary_2": "Con Bitcoin, no importa lo alto que suba el precio, no se puedes crear más de 21M Bitcoin.",
+	"point_4_summary_2": "Con Bitcoin, no importa lo alto que suba el precio, no puedes crear más de 21M Bitcoin.",
 	"point_4_summary_3": "Bitcoin es el primer activo con una relación inelástica entre precio y oferta.",
 	"point_5_summary_1": "La red Bitcoin está descentralizada.",
 	"point_5_summary_2": "Decenas de miles de nodos independientes validan las reglas de la red.",

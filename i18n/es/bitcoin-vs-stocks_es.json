@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2026-03-30",
 		"locale": "es"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Acciones",
@@ -29,7 +29,7 @@
 	"bitcoin_point_4": "Precio impulsado por el mercado",
 	"bitcoin_point_5": "Comercio 24/7",
 	"bitcoin_point_6": "Autocustodia posible",
-	"bitcoin_point_7": "Activo deflacionario",
+	"bitcoin_point_7": "Activo de suministro fijo",
 	"point_1_summary_1": "Cuando posees Bitcoin, tienes propiedad directa del activo en sí. Cuando posees acciones, posees una participación en una empresa, lo que significa que tu inversión depende del rendimiento de la empresa, las decisiones de gestión y el éxito empresarial.",
 	"point_2_summary_1": "Bitcoin tiene un límite máximo de 21 millones de BTC que existirán jamás.",
 	"point_2_summary_2": "Las empresas pueden emitir nuevas acciones en cualquier momento, diluyendo el porcentaje de propiedad de los accionistas existentes. Esto significa que tu porción de la empresa se vuelve más pequeña cuando se crean nuevas acciones.",
@@ -45,5 +45,5 @@
 	"point_6_summary_2": "La autocustodia es tan simple como descargar una aplicación.",
 	"point_6_summary_3": "Las acciones requieren una cuenta de corretaje y estás sujeto al riesgo de contraparte: si la empresa quiebra o el corredor falla, podrías perder tu inversión.",
 	"point_6_summary_4": "Nunca posees realmente los certificados de acciones directamente.",
-	"point_7_summary_1": "Bitcoin es un activo deflacionario con una emisión de suministro decreciente a lo largo del tiempo. Las acciones tienen un rendimiento variable contra la inflación: algunas empresas funcionan bien durante períodos inflacionarios mientras que otras luchan. No hay garantía de que alguna acción en particular proteja contra la inflación."
+	"point_7_summary_1": "Bitcoin es un activo de suministro fijo con un límite máximo de 21 millones de Bitcoin que existirán jamás. Esto lo convierte en una gran cobertura contra la inflación. Las acciones tienen un rendimiento variable contra la inflación: algunas empresas funcionan bien durante períodos inflacionarios mientras que otras luchan. No hay garantía de que alguna acción en particular proteja contra la inflación."
 }

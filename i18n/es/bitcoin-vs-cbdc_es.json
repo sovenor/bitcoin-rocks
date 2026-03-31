@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-08-29",
+		"last-updated": "2026-03-30",
 		"locale": "es"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDCs",
@@ -46,7 +46,7 @@
 	"point_3_summary_1": "Bitcoin tiene un límite máximo de 21 millones de BTC que existirán.",
 	"point_3_summary_2": "Las CBDCs, muy parecidas a las monedas gubernamentales que usamos hoy en día, no tienen un límite en el suministro total. Esta falta de límite en la oferta total permite al gobierno ampliar la oferta monetaria.",
 	"point_3_summary_3": "Esto provoca inflación.",
-	"point_4_summary_1": "Las direcciones Bitcoin son psuedónimas, lo que significa que no están asociadas a tu nombre o identidad real. Las CBDC están directamente enlazadas a tu nombre e identidad reales, lo que permite una vigilancia y censura financiera masiva.",
+	"point_4_summary_1": "Las direcciones Bitcoin son pseudónimas, lo que significa que no están asociadas a tu nombre o identidad real. Las CBDC están directamente enlazadas a tu nombre e identidad reales, lo que permite una vigilancia y censura financiera masiva.",
 	"point_5_summary_1": "La red Bitcoin está descentralizada.",
 	"point_5_summary_2": "Decenas de miles de nodos independientes validan las reglas de la red.",
 	"point_5_summary_3": "Los CBDC están centralizados en manos del gobierno y los bancos centrales, lo que les da un control total sobre la red de CBDC.",

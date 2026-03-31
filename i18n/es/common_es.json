@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-03-30",
 		"locale": "es"
 	},
 	"common_footer_mission_1": "La misión de bitcoin.rocks es acelerar la adopción de bitcoin a través de la educación.",
@@ -46,10 +46,10 @@
 	"common_bitcoin_afford_content_2": "No tienes que poseer un bitcoin entero. La mayoría de la gente sólo posee sats. Los sats son fracciones de un bitcoin. Por ejemplo, si un bitcoin entero vale 100.000 dólares, ¡con 1 dólar puedes comprar 1.000 sats!",
 	"common_bitcoin_hacked": "¿HA SIDO ALGUNA VEZ HACKEADO BITCOIN?",
 	"common_bitcoin_hacked_content_1": "Es posible que hayas oído hablar de un 'hackeo de Bitcoin' en Internet o en las noticias. La mayoría de la gente lee estos artículos y cree que la red Bitcoin ha sido hackeada. Sin embargo, la red Bitcoin nunca ha sido hackeada.",
-	"common_bitcoin_hacked_content_2": "¿Qué es la red Bitcoin? Bueno, piense en la red Bitcoin como las vías del tren. Los trenes que circulan por las vías del tren de la red Bitcoin son transacciones Bitcoin.",
+	"common_bitcoin_hacked_content_2": "¿Qué es la red Bitcoin? Bueno, piensa en la red Bitcoin como las vías del tren. Los trenes que circulan por las vías del tren de la red Bitcoin son transacciones Bitcoin.",
 	"common_bitcoin_hacked_content_3": "Cuando lees sobre un hackeo de Bitcoin en las noticias, estás leyendo sobre un custodio (como FTX) hackeado o en bancarrota.",
 	"common_bitcoin_hacked_content_4": "Los custodios son empresas que guardan tu bitcoin por ti. Sin embargo, eso conlleva un riesgo: perder tu bitcoin cuando la empresa lo gestiona mal, lo roba o quiebra.",
-	"common_bitcoin_hacked_content_5": "Esto sucedió más recientemente con FTX..",
+	"common_bitcoin_hacked_content_5": "Esto sucedió más recientemente con FTX.",
 	"common_bitcoin_hacked_content_6": "Todos los que confiaron su bitcoin a FTX perdieron su bitcoin. Todos los que tenían su bitcoin en autocustodia no se vieron afectados por FTX. Ese es el poder del bitcoin en autocustodia: el verdadero control de tu dinero.",
 	"common_bitcoin_hacked_content_7": "En lugar de dejar tu bitcoin en un exchange o en un envoltorio como un ETF, guárdalo en tu propia cartera para obtener todos los beneficios de la libertad.",
 	"common_bitcoin_hacked_content_8": "Cuando autocustodias tu bitcoin, tu dinero está protegido por la red Bitcoin. Es la red financiera más segura del mundo.",
@@ -61,7 +61,7 @@
 	"common_bitcoin_energy_content_2": "Bitcoin utiliza una cantidad significativa de energía, y esto es algo bueno por muchas razones.",
 	"common_bitcoin_energy_list_1": "Bitcoin no tiene corridas bancarias.",
 	"common_bitcoin_energy_list_2": "Bitcoin ayuda a estabilizar las redes de energía con la minería bitcoin.",
-	"common_bitcoin_energy_list_3": "Bitcoin reduce las emisiones de las extracción de petróleo.",
+	"common_bitcoin_energy_list_3": "Bitcoin reduce las emisiones de la extracción de petróleo.",
 	"common_bitcoin_energy_list_4": "Bitcoin utiliza menos energía que la que los estadounidenses usan para las luces de Navidad cada año.",
 	"common_bitcoin_energy_list_5": "¡Bitcoin es la industria más ecológica de la Tierra!",
 	"common_cic_intro_1": "Mucha gente conoce el Interés Compuesto, pero poca gente conoce la Inflación Compuesta.",
