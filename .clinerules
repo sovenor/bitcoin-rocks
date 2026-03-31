@@ -126,6 +126,11 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - **New pages**: When creating a new educational page, add it to both `llms.txt` (one-line description + URL in the appropriate category) and `llms-full.txt` (full content in Markdown).
 - **Content source**: The English JSON translation files (`i18n/en/`) are the single source of truth. Assemble content from those files into clean Markdown prose.
 
+### i18n JSON `last-updated` Dates (IMPORTANT)
+- **Every time** an i18n JSON file is created or modified (any language, any page), update its `@metadata.last-updated` field to today's date in `YYYY-MM-DD` format.
+- This applies universally: English files, translation files, new files, existing files — no exceptions.
+- This is separate from (and in addition to) updating the HTML schema `dateModified` field, which only applies when English content changes.
+
 ### Editing i18n JSON Files (IMPORTANT)
 - **Never use inline CLI commands** (e.g., `node -e "..."`) to modify i18n JSON files. Special characters in translations (accented characters, Cyrillic, Thai, checkmarks, etc.) get corrupted by shell escaping.
 - **Never use `replace_in_file`** on i18n JSON files with non-ASCII content — the SEARCH/REPLACE matching breaks on special characters and tab indentation.

@@ -2,6 +2,19 @@
 
 ## Current Work Focus
 
+### Bulgarian Sticker Files Translation (Completed Mar 31, 2026)
+- **Status**: ✅ Complete
+- **What**: Translated all 44 remaining Bulgarian sticker-files i18n JSON pages that were still in English.
+- **Files translated**:
+  - `i18n/bg/sticker-files/index_bg.json` — main sticker files index page
+  - 42 individual language sticker-files pages (`afrikaans` through `yoruba`, skipping `bulgarian` which was already translated)
+  - `i18n/bg/business/sticker-files/english/index_bg.json` — business "Bitcoin Accepted Here" sticker files
+- **Translation pattern** (matching existing `bulgarian/index_bg.json`):
+  - `"Файлове за {език} Биткойн стикери"` / `"Изтеглете файлове за {език} Биткойн стикери тук."` / `"ИЗТЕГЛЕТЕ ФАЙЛОВЕ ЗА {ЕЗИК} БИТКОЙН СТИКЕРИ"`
+  - Business: `„Биткойн се приема тук"` with proper Bulgarian quotation marks (U+201E / U+201C)
+- **Also updated**: `.clinerules` — added universal `### i18n JSON last-updated Dates (IMPORTANT)` rule: every i18n JSON file modification must update `@metadata.last-updated` to today's date.
+- **Note**: This completes the Bulgarian (bg) translation — all pages now have Bulgarian translations.
+
 ### GEO: robots.txt AI Crawler Review (Completed Mar 29, 2026)
 - **Status**: ✅ Complete
 - **What**: Reviewed and updated `robots.txt` with explicit AI crawler directives as item 3 in Priority 7: AI-Specific Metadata in the GEO checklist.

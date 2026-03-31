@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
-		"locale": "en"
+		"last-updated": "2026-03-31",
+		"locale": "bg"
 	},
-	"bitcoin_sticker_files_all_languages": "Bitcoin Sticker Files: All Languages",
-	"sticker_files_description": "Download our easy to use Bitcoin Sticker Files to print your own stickers.",
-	"sticker_files_header": "BITCOIN STICKER FILES"
+	"bitcoin_sticker_files_all_languages": "Файлове за Биткойн стикери: Всички езици",
+	"sticker_files_description": "Изтеглете нашите лесни за използване файлове за Биткойн стикери, за да отпечатате собствени стикери.",
+	"sticker_files_header": "ФАЙЛОВЕ ЗА БИТКОЙН СТИКЕРИ"
 }
