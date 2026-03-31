@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Aktien",
@@ -29,21 +29,21 @@
 	"bitcoin_point_4": "Marktgetriebener Preis",
 	"bitcoin_point_5": "24/7 Handel",
 	"bitcoin_point_6": "Selbstverwahrung möglich",
-	"bitcoin_point_7": "Deflationärer Vermögenswert",
-	"point_1_summary_1": "Wenn Sie Bitcoin besitzen, haben Sie direkten Besitz des Vermögenswerts selbst. Wenn Sie Aktien besitzen, besitzen Sie einen Anteil an einem Unternehmen, was bedeutet, dass Ihre Investition von der Unternehmensleistung, Managemententscheidungen und dem Geschäftserfolg abhängt.",
+	"bitcoin_point_7": "Vermögenswert mit festem Angebot",
+	"point_1_summary_1": "Wenn du Bitcoin besitzt, hast du direkten Besitz des Vermögenswerts selbst. Wenn du Aktien besitzt, besitzt du einen Anteil an einem Unternehmen, was bedeutet, dass deine Investition von der Unternehmensleistung, Managemententscheidungen und dem Geschäftserfolg abhängt.",
 	"point_2_summary_1": "Bitcoin hat eine feste Obergrenze von 21 Millionen BTC, die jemals existieren werden.",
-	"point_2_summary_2": "Unternehmen können jederzeit neue Aktien ausgeben und damit den Eigentumsanteil bestehender Aktionäre verwässern. Das bedeutet, Ihr Anteil am Unternehmen wird kleiner, wenn neue Aktien geschaffen werden.",
+	"point_2_summary_2": "Unternehmen können jederzeit neue Aktien ausgeben und damit den Eigentumsanteil bestehender Aktionäre verwässern. Das bedeutet, dein Anteil am Unternehmen wird kleiner, wenn neue Aktien geschaffen werden.",
 	"point_2_summary_3": "Das ist weniger als die Fiat-Inflation, aber immer noch Verwässerung.",
-	"point_2_summary_4": "Bei Bitcoin schrumpft Ihr Anteil am Kuchen niemals.",
-	"point_3_summary_1": "Bitcoin funktioniert in einem dezentralen Netzwerk ohne einzelnen Ausfallpunkt. Aktieninvestitionen unterliegen dem Schlüsselpersonenrisiko - wenn der CEO oder andere kritische Führungskräfte das Unternehmen verlassen, krank werden oder schlechte Entscheidungen treffen, kann Ihre Investition erheblich leiden. Unternehmen sind stark von ihren Führungsteams abhängig.",
+	"point_2_summary_4": "Bei Bitcoin schrumpft dein Anteil am Kuchen niemals.",
+	"point_3_summary_1": "Bitcoin funktioniert in einem dezentralen Netzwerk ohne einzelnen Ausfallpunkt. Aktieninvestitionen unterliegen dem Schlüsselpersonenrisiko – wenn der CEO oder andere kritische Führungskräfte das Unternehmen verlassen, krank werden oder schlechte Entscheidungen treffen, kann deine Investition erheblich leiden. Unternehmen sind stark von ihren Führungsteams abhängig.",
 	"point_4_summary_1": "Bitcoins Preis wird rein durch Marktangebot und -nachfrage bestimmt. Aktienkurse werden oft mit KGV (Kurs-Gewinn-Verhältnis) bewertet, das zeigt, wie viel Investoren für jeden Euro Unternehmensgewinn zahlen. Hohe KGVs können überbewertete Aktien anzeigen und es schwieriger machen, den fairen Wert zu bestimmen.",
 	"point_5_summary_1": "Bitcoin wird 24 Stunden am Tag, 7 Tage die Woche an globalen Börsen gehandelt.",
 	"point_5_summary_2": "Bitcoin ist dezentralisiert",
 	"point_5_summary_3": "und schläft nie.",
-	"point_5_summary_4": "Aktienmärkte sind nur während der Geschäftszeiten an Wochentagen geöffnet, was begrenzt, wann Sie Ihre Investitionen kaufen oder verkaufen können.",
-	"point_6_summary_1": "Mit Bitcoin können Sie Ihre Coins selbst verwahren, was bedeutet, dass Sie sie wirklich besitzen, ohne auf Dritte angewiesen zu sein.",
+	"point_5_summary_4": "Aktienmärkte sind nur während der Geschäftszeiten an Wochentagen geöffnet, was begrenzt, wann du deine Investitionen kaufen oder verkaufen kannst.",
+	"point_6_summary_1": "Mit Bitcoin kannst du deine Coins selbst verwahren, was bedeutet, dass du sie wirklich besitzt, ohne auf Dritte angewiesen zu sein.",
 	"point_6_summary_2": "Selbstverwahrung ist so einfach wie das Herunterladen einer App.",
-	"point_6_summary_3": "Aktien erfordern ein Maklerkonto und Sie unterliegen dem Gegenparteirisiko - wenn das Unternehmen bankrott geht oder der Makler ausfällt, könnten Sie Ihre Investition verlieren.",
-	"point_6_summary_4": "Sie besitzen niemals wirklich die Aktienzertifikate direkt.",
-	"point_7_summary_1": "Bitcoin ist ein deflationärer Vermögenswert mit einer über die Zeit abnehmenden Angebotsausgabe. Aktien haben variable Leistung gegen Inflation - einige Unternehmen schneiden während inflationärer Perioden gut ab, während andere kämpfen. Es gibt keine Garantie, dass eine bestimmte Aktie vor Inflation schützt."
+	"point_6_summary_3": "Aktien erfordern ein Maklerkonto und du unterliegst dem Gegenparteirisiko – wenn das Unternehmen bankrott geht oder der Makler ausfällt, könntest du deine Investition verlieren.",
+	"point_6_summary_4": "Du besitzt niemals wirklich die Aktienzertifikate direkt.",
+	"point_7_summary_1": "Bitcoin ist ein Vermögenswert mit einem festen Angebot von maximal 21 Millionen Bitcoin, die jemals existieren werden. Das macht ihn zu einem großartigen Inflationsschutz. Aktien haben unterschiedliche Leistung bei Inflation – einige Unternehmen schneiden in inflationären Zeiten gut ab, während andere kämpfen. Es gibt keine Garantie, dass eine bestimmte Aktie vor Inflation schützt."
 }

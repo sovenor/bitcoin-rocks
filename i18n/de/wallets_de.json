@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-14",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-Wallet Anleitung",
-	"wallets_description": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du zwei einfache Fragen stellst.",
+	"wallets_description": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du diese einfachen Fragen stellst.",
 	"wallets_header": "WIE DU DEINE BITCOIN SICHER VERWAHRST",
 	"wallets_s1_c1": "Bitcoin-Wallets sind interoperabel, d.h. Du kannst Bitcoin an jeden schicken, egal welche Wallet er benutzt.",
-	"wallets_s1_c2": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du zwei einfache Fragen stellst:",
+	"wallets_s1_c2": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du diese einfachen Fragen stellst:",
 	"wallets_question_1": "IST ES EINE SELBSTVERWAHRENDE WALLET?",
 	"wallets_s2_c1": "Eine der Innovationen von Bitcoin ist die Möglichkeit, Bitcoin zu halten, ohne sich auf einen Verwahrer, wie eine Bank, zu verlassen.",
 	"wallets_s2_c2": "Wenn Du Bitcoin an einer Börse oder in einem ETF hältst, verlierst Du die Freiheitsvorteile von Bitcoin.",

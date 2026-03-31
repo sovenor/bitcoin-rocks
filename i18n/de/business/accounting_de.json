@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_business_accounting_guide": "Buchhaltungsanleitung für Bitcoin-Unternehmen",
@@ -19,7 +19,7 @@
 	"accounting_s2_c1": "Die Erfassung deiner Kostenbasis ist der größte Unterschied zwischen der Buchhaltung für Euro und der Buchhaltung für Bitcoin. Selbst wenn du dein Geschäft ausschließlich in Form von Bitcoin betrachtest, musst du den Eurowert jeder Transaktion in deiner Steuererklärung angeben.",
 	"accounting_s2_c2": "Wenn du QuickBooks verwendest, kannst du dies automatisch mit dem Bitcoin Sync Plugin tun.",
 	"accounting_s2_c3": "Wenn du kein QuickBooks verwendest, empfehlen wir Satoshi Pacioli Accounting Services, eine Buchhaltungsfirma, die sich auf Bitcoin-Buchhaltung spezialisiert hat.",
-	"accounting_s2_c4": "Um dies manuell zu tun, müssen Sie lediglich den Bitcoin-Betrag, den Sie erhalten haben, und den Eurowert der Bitcoin-Transaktion an diesem Tag notieren.",
+	"accounting_s2_c4": "Um dies manuell zu tun, musst du lediglich den Bitcoin-Betrag, den du erhalten hast, und den Eurowert der Bitcoin-Transaktion an diesem Tag notieren.",
 	"accounting_s2_c5": "Den aktuellen Eurokurs von Bitcoin kannst du hier einsehen.",
 	"accounting_s2_c6": "Erfasse diese Informationen in eine Excel-Tabelle und gib sie deinem Steuerberater.",
 	"accounting_s2_c7": "Es ist auch möglich, diese Daten automatisch in Excel zu importieren.",

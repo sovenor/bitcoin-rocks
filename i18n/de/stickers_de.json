@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"free_bitcoin_stickers": "Kostenlose Bitcoin-Sticker von bitcoin.rocks",
@@ -19,7 +19,7 @@
 	"stickers_instructions_1": "Trage deine Postadresse ein und wir schicken dir ein kostenloses Bitcoin- Sticker-Paket per Post zu! Deine Sticker werden in einem schlichten weißen Briefumschlag verschickt.",
 	"stickers_instructions_2": "Die Adressdaten werden nach dem Versand deiner kostenlosen Sticker gelöscht.",
 	"stickers_share_header": "TEILE DEINE STICKER-SPOTS",
-	"stickers_share_c1": "Teile deinen Sticker-Spot mit uns auf Nostr und du bekommst vielleicht kostenlose Bitcoin gezappt!",
+	"stickers_share_c1": "Teile deine Sticker-Spots mit uns auf Nostr und schau, wo andere ihre Sticker anbringen.",
 	"stickers_btn_share_on_nostr": "AUF NOSTR TEILEN",
 	"stickers_btn_what_is_nostr": "WAS IST NOSTR?",
 	"stickers_flyers_link_before": "Drucke und poste nebenbei auch deine eigenen ",

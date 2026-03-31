@@ -3,16 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-03",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"signs_description": "Hilf uns, diese Bitcoin-Schilder in ganz Amerika zu verteilen!",
 	"signs_title": "Kostenlose Bitcoin-Schilder von bitcoin.rocks",
-	"signs_choose_header": "HILF UNS, DIESE BITCOIN-SCHILDER IN GANZ AMERIKA ZU VERTEILEN",
-	"signs_choose_c1": "Unser Ziel ist es, die Adoption von Bitcoin durch Bildung zu fördern.",
-	"signs_choose_c2": "Du kannst helfen, indem du diese kostenlosen Bitcoin-Schilder in der Öffentlichkeit anbringst. Alle unsere Schilder haben QR-Codes und führen zu einer Informationsseite über",
+	"signs_choose_header": "DANKE, DASS IHR UNS GEHOLFEN HABT, DIESE BITCOIN-SCHILDER IN GANZ AMERIKA ZU VERTEILEN!",
+	"signs_choose_c1": "Alle Schilder sind vergriffen! Unsere Mission ist es, die Bitcoin-Akzeptanz durch Bildung zu beschleunigen.",
+	"signs_choose_c2": "Viele von euch haben geholfen, indem sie diese kostenlosen Bitcoin-Schilder in der Öffentlichkeit angebracht haben. Alle unsere Schilder haben QR-Codes, die zu einer Bildungsseite über",
 	"signs_choose_c3": "Inflation",
-	"signs_choose_c4": "Die Schilder sind in den USA bis zum Ende der US-Präsidentschaftswahlen 2024 kostenlos.",
+	"signs_choose_c4": "Dank unserer großartigen Community haben wir Tausende von Menschen erreicht und ihnen geholfen, ihre ersten Schritte in den Bitcoin-Kaninchenbau zu machen.",
 	"signs_share_header": "TEILE DEINE SCHILDER-SPOTS",
 	"signs_share_c1": "Teile ein Foto von dem Ort deines Schildes mit uns auf Nostr und wir schenken dir Sats! Sats sind Bruchteile einer Bitcoin.",
 	"signs_btn_share_on_nostr": "AUF NOSTR TEILEN",

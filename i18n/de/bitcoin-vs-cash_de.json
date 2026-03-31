@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Bargeld",
@@ -13,7 +13,7 @@
 	"cash_header_4": "BARGELD",
 	"cash_intro_1": "Bargeld wird seit Jahrhunderten als Geld verwendet und bleibt die häufigste Form von physischem Geld weltweit.",
 	"cash_intro_2": "Bitcoin ist digitales Geld, das 2009 geschaffen wurde und unabhängig von jeder Regierung oder zentralen Behörde funktioniert.",
-	"cash_intro_3": "Aber wie unterscheidet sich physisches Bargeld von digitalem Geld wie Bitcoin? Lassen Sie uns die wichtigsten Unterschiede zwischen diesen beiden Geldformen erkunden: Bitcoin & Bargeld.",
+	"cash_intro_3": "Aber wie unterscheidet sich physisches Bargeld von digitalem Geld wie Bitcoin? Schauen wir uns die wichtigsten Unterschiede zwischen diesen beiden Geldformen an: Bitcoin & Bargeld.",
 	"cash": "BARGELD",
 	"cash_point_1": "Muss physisch anwesend sein",
 	"cash_point_2": "Durch Grenzen begrenzt",
@@ -30,8 +30,8 @@
 	"bitcoin_point_5": "Dezentrales Netzwerk",
 	"bitcoin_point_6": "Digitale Selbstverwahrung",
 	"bitcoin_point_7": "Leicht teilbar",
-	"point_1_summary_1": "Bitcoin kann überall auf der Welt sofort über das Internet gesendet werden, während Bargeld physische Anwesenheit oder vertrauenswürdige Vermittler erfordert. Sie können kein Bargeld per E-Mail versenden, aber Sie können Bitcoin in Minuten an jeden mit einer Internetverbindung senden.",
-	"point_2_summary_1": "Bitcoin funktioniert überall auf der Welt gleich - es gibt keine Grenzen im Bitcoin-Netzwerk. Bargeld ist durch Geographie, Wechselkurse und lokale Akzeptanz begrenzt. Versuchen Sie, US-Dollar im ländlichen Thailand oder japanische Yen im ländlichen Mexiko zu verwenden.",
+	"point_1_summary_1": "Bitcoin kann überall auf der Welt sofort über das Internet gesendet werden, während Bargeld physische Anwesenheit oder vertrauenswürdige Vermittler erfordert. Du kannst kein Bargeld per E-Mail versenden, aber du kannst Bitcoin in Minuten an jeden mit einer Internetverbindung senden.",
+	"point_2_summary_1": "Bitcoin funktioniert überall auf der Welt gleich – es gibt keine Grenzen im Bitcoin-Netzwerk. Bargeld ist durch Geographie, Wechselkurse und lokale Akzeptanz begrenzt. Versuche, US-Dollar im ländlichen Thailand oder japanische Yen im ländlichen Mexiko zu verwenden.",
 	"point_3_summary_1": "Regierungen können und machen Bargeld über Nacht durch Demonetisierungspolitiken ungültig, wie Indien es 2016 tat, als sie bestimmte Banknoten verboten.",
 	"point_3_summary_2": "Auch ohne das Verbot bestimmter Banknoten entwerten Regierungen Bargeld ständig durch Inflation.",
 	"point_3_summary_3": "Bitcoin kann von keiner Regierung oder Behörde ungültig gemacht werden - es existiert in einem globalen, dezentralen Netzwerk, das keine einzelne Entität kontrolliert.",
@@ -39,6 +39,6 @@
 	"point_5_summary_1": "Bargeld wird von Regierungen ausgegeben und kontrolliert, die nach Belieben mehr drucken, Designs ändern oder bestimmte Scheine für ungültig erklären können. Bitcoin funktioniert in einem dezentralen Netzwerk, in dem keine einzelne Behörde die Kontrolle über die Geldmenge oder Regeln hat.",
 	"point_6_summary_1": "Bargeld muss physisch gelagert werden, was es anfällig für Diebstahl, Verlust, Feuer oder Beschlagnahme macht. Große Mengen erfordern teure Sicherheitsmaßnahmen.",
 	"point_6_summary_2": "Aber Bitcoin kann sicher in Selbstverwahrung aufbewahrt werden",
-	"point_6_summary_3": "mit einer Smartphone-App oder speziellen Wallet, was Ihnen vollständige Kontrolle über Ihr Geld ohne physische Lagerungsrisiken gibt.",
-	"point_7_summary_1": "Bargeld hat Mindestdenominationen - Sie können einen Cent nicht in kleinere Teile aufteilen. Bitcoin kann in 100 Millionen kleinere Einheiten namens Satoshis unterteilt werden, was Mikrozahlungen und präzise Transaktionen jeder Höhe ermöglicht."
+	"point_6_summary_3": "mit einer Smartphone-App oder speziellen Wallet, was dir vollständige Kontrolle über dein Geld ohne physische Lagerungsrisiken gibt.",
+	"point_7_summary_1": "Bargeld hat Mindestdenominationen – du kannst einen Cent nicht in kleinere Teile aufteilen. Bitcoin kann in 100 Millionen kleinere Einheiten namens Satoshis unterteilt werden, was Mikrozahlungen und präzise Transaktionen jeder Höhe ermöglicht."
 }

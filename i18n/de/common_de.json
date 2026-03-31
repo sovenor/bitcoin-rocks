@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"common_footer_mission_1": "Die Mission von bitcoin.rocks ist es, die Akzeptanz von Bitcoin durch Bildung zu beschleunigen.",
@@ -96,7 +96,7 @@
 	"common_language_danish": "DÄNISCH",
 	"common_language_dutch": "NIEDERLÄNDISCH",
 	"common_language_english": "ENGLISCH",
-	"common_language_estonian": "ESTONISCH",
+	"common_language_estonian": "ESTNISCH",
 	"common_language_filipino": "FILIPINO",
 	"common_language_finnish": "FINNISCH",
 	"common_language_french": "FRANZÖSISCH",
@@ -204,7 +204,7 @@
 	"common_biz_rewards": "Bitcoin-Belohnungen",
 	"common_biz_accounting": "Bitcoin-Buchhaltung Anleitung",
 	"common_biz_faq": "Häufig gestellte Fragen",
-	"common_biz_kit": "Hol Dir Dein kostenloses Bitcoin Business Kit",
+	"common_biz_kit": "Drucke dein eigenes Bitcoin Business Kit",
 	"common_biz_accept_bitcoin_payments": "BITCOIN-ZAHLUNGEN AKZEPTIEREN",
 	"common_biz_ready": "BEREIT, BITCOIN IN DEINEM UNTERNEHMEN ZU AKZEPTIEREN?",
 	"common_biz_more": "WEITERE RESSOURCEN FÜR UNTERNEHMEN",

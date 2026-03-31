@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Anleihen",
@@ -30,8 +30,8 @@
 	"bitcoin_point_5": "Wertsteigerungspotenzial",
 	"bitcoin_point_6": "Selbstverwahrung möglich",
 	"bitcoin_point_7": "Keine Regierungsabhängigkeit",
-	"point_1_summary_1": "Anleihen sind nur in nominalen Dollar-Begriffen 'risikofrei', was bedeutet, dass Sie Ihre Dollar zurückbekommen, wenn Sie bis zur Fälligkeit halten. Dies ignoriert jedoch Inflationsrisiko, Zinsrisiko und die Möglichkeit, dass diese Dollar bei der Rückgabe viel weniger wert sind.",
-	"point_1_summary_2": "Bitcoin hat klare, transparente Risiken (Volatilität), aber kein verstecktes Kontrahentenrisiko - entweder besitzen Sie Ihr Bitcoin oder nicht.",
+	"point_1_summary_1": "Anleihen sind nur in nominalen Dollar-Begriffen „risikofrei“, was bedeutet, dass du deine Dollar zurückbekommst, wenn du bis zur Fälligkeit hältst. Dies ignoriert jedoch Inflationsrisiko, Zinsrisiko und die Möglichkeit, dass diese Dollar bei der Rückgabe viel weniger wert sind.",
+	"point_1_summary_2": "Bitcoin hat klare, transparente Risiken (Volatilität), aber kein verstecktes Kontrahentenrisiko – entweder besitzt du dein Bitcoin oder nicht.",
 	"point_2_summary_1": "Wenn die Inflation höher ist als die Anleiherenditen, verlieren Anleihegläubiger jedes Jahr Kaufkraft. Eine 2%ige Anleiherendite bei 4%iger Inflation bedeutet, dass Sie jährlich 2% des realen Wertes verlieren.",
 	"point_2_summary_2": "Mehr über Inflation erfahren",
 	"point_2_summary_3": "Bitcoins festes Angebot von 21 Millionen Münzen bedeutet, dass es nicht weginflationiert werden kann, wie Anleihen durch Gelddrucken entwertet werden können.",
@@ -43,9 +43,8 @@
 	"point_4_summary_3": "Bitcoins Preis wird durch kontinuierliche globale Märkte ohne zentrale Auktion, die scheitern kann, ermittelt.",
 	"point_5_summary_1": "Anleiherenditen sind beim Kauf festgelegt. Selbst wenn die Wirtschaft schnell wächst oder die Währung erheblich abwertet, bleibt Ihre Rendite gleich.",
 	"point_5_summary_2": "Bitcoin hat das Potenzial für erhebliche Wertsteigerung, da die Akzeptanz wächst und das feste Angebot auf steigende Nachfrage trifft.",
-	"point_6_summary_1": "Die meisten Menschen halten Anleihen über Vermittler wie Banken, Makler oder Fonds, was Kontrahentenrisiko schafft. Sie besitzen die Anleihen nicht direkt.",
-	"point_6_summary_2": "Über Bitcoin-Wallets erfahren",
-	"point_6_summary_3": "Mit Bitcoin können Sie durch Selbstverwahrung direktes Eigentum übernehmen und das Kontrahentenrisiko vollständig eliminieren.",
+	"point_6_summary_1": "Die meisten Menschen halten Anleihen über Vermittler wie Banken, Makler oder Fonds, was Kontrahentenrisiko schafft. Du besitzt die Anleihen nicht direkt.",
+	"point_6_summary_2": "Mit Bitcoin kannst du durch Selbstverwahrung direktes Eigentum übernehmen und das Kontrahentenrisiko vollständig eliminieren.",
 	"point_7_summary_1": "Anleihen hängen vollständig von der Fähigkeit und Bereitschaft der Regierung ab zu zahlen. Wenn die Regierung einer Finanzkrise gegenübersteht, ausfällt oder beschließt, die Schulden wegzuinflationieren, leiden die Anleihegläubiger.",
 	"point_7_summary_2": "Bitcoin funktioniert unabhängig von jeder Regierung und kann nicht von politischen Behörden kontrolliert, inflationiert oder in Verzug gesetzt werden."
 }

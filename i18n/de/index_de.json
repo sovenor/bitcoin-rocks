@@ -3,12 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-03-30",
 		"locale": "de"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin schafft eine bessere Welt.",
-	"home_description": "Bitcoin ist eine missverstandene Technologie, die eine bessere Welt schafft. Bitcoin hat die Menschenrechte geschützt, die Menschen vor hoher Inflation bewahrt, lokale Bauern unterstützt, die Emissionen von Erdölbohrungen reduziert und so vieles mehr.",
-	"home_intro": "Bitcoin ist eine missverstandene Technologie, die eine bessere Welt schafft. Klicke auf eine Kategorie unten, um zu erfahren, wie Bitcoin sie besser macht, oder scrolle einfach los, um mehr zu entdecken.",
+	"home_description": "Bitcoin ist besseres Geld, das eine bessere Welt aufbaut. Bitcoin hat Menschenrechte geschützt, Menschen vor hoher Inflation bewahrt, lokale Bauern unterstützt, die Emissionen von Erdölbohrungen reduziert und so vieles mehr.",
+	"home_intro": "Bitcoin ist besseres Geld, das eine bessere Welt aufbaut. Klicke auf eine Kategorie unten, um zu erfahren, wie Bitcoin sie besser macht, oder scrolle einfach los, um mehr zu entdecken.",
 	"home_btn_money": "BESSERES GELD",
 	"home_btn_salary": "DEIN GEHALT",
 	"home_btn_freedom": "FREIHEIT",
@@ -85,7 +85,7 @@
 	"home_link_title_food_2": "Wieso Fiat-Geld schlecht für Lebensmittel, Bauernhöfe und den Boden der Erde ist",
 	"home_link_title_fine_art": "Bitcoin vs Bildende Kunst",
 	"home_link_title_art_1": "Werde Teil unserer Bitcoin-Sticker-Initiative",
-	"home_link_title_art_2": "Werde Teil unserer Bitcoin-Postkarten-Initiative",
+	"home_link_title_art_2": "Verschicke eine Bitcoin-Postkarte an jemanden, den du kennst",
 	"home_link_title_art_3": "Drucken & Posten von Bitcoin-Flyern",
 	"home_link_title_politics_1": "Bitcoin ist ein politisches Paradoxon",
 	"home_link_title_politics_2": "Du kannst für besseres Geld abstimmen",
@@ -106,7 +106,7 @@
 	"home_link_title_self_custody_3": "Gold, Bitcoin und Selbstverwahrung",
 	"home_link_title_get_started_1": "Lerne die Grundlagen von Bitcoin",
 	"home_link_title_get_started_2": "Hol Dir Deine erste Bitcoin-Wallet",
-	"home_link_title_get_started_3": "Beginne heute mit dem Sparen in Bitcoin",
+	"home_link_title_get_started_3": "Wie man Bitcoin kauft",
 	"home_link_author_bitcoin_rocks": "bitcoin.rocks",
 	"home_link_author_youtube": "YouTube",
 	"home_link_author_cic": "Inflationsrechner für zusammengesetzte Inflation",
