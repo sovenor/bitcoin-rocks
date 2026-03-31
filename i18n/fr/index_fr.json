@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin contribue à un monde meilleur.",
@@ -48,7 +48,7 @@
 	"home_link_type_guide": "GUIDE",
 	"home_link_type_email": "EMAIL",
 	"home_link_title_inflation": "Bitcoin n'a pas d'inflation",
-	"home_link_title_bank_runs": "Le bitcoin n'a pas de banques en faillites",
+	"home_link_title_bank_runs": "Le bitcoin n'a pas de panique bancaire",
 	"home_link_title_gold": "Bitcoin vs OR",
 	"home_link_title_crypto": "Bitcoin vs Crypto",
 	"home_link_title_cash": "Bitcoin vs Espèces",
@@ -74,7 +74,7 @@
 	"home_link_title_energy_1": "Comment le Bitcoin stabilise le réseau électrique du Texas",
 	"home_link_title_energy_2": "Pourquoi le bitcoin utilise-t-il de l'énergie ?",
 	"home_link_title_energy_3": "La consommation d'énergie du Bitcoin n'est pas un problème. Voici pourquoi",
-	"home_link_title_energy_4": "Les mineurs de Bitcoin stabilise les réseaux énergétiques grâce à l'offre et la demande",
+	"home_link_title_energy_4": "Les mineurs de Bitcoin stabilisent les réseaux énergétiques grâce à l'offre et la demande",
 	"home_link_title_energy_5": "Les mineurs de bitcoin apportent de l'énergie hydraulique aux communautés rurales africaines",
 	"home_link_title_energy_6": "Comment le bitcoin favorise les énergies renouvelables ?",
 	"home_link_title_environment_1": "Comment les mineurs de Bitcoin réduisent les émissions mondiales de méthane",
@@ -106,7 +106,7 @@
 	"home_link_title_self_custody_3": "L'or, le bitcoin et l'auto-détention",
 	"home_link_title_get_started_1": "Apprendre les bases du bitcoin",
 	"home_link_title_get_started_2": "Obtenez votre premier portefeuille Bitcoin",
-	"home_link_title_get_started_3": "Commencez à épargner en bitcoin dès aujourd'hui",
+	"home_link_title_get_started_3": "Comment Acheter du Bitcoin",
 	"home_link_author_bitcoin_rocks": "bitcoin.rocks",
 	"home_link_author_youtube": "YouTube",
 	"home_link_author_cic": "Calculateur d'inflation composée",

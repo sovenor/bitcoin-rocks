@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-26",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
@@ -34,7 +34,7 @@
 	"bitcoin_point_8": "Aucune entité ne le contrôle",
 	"point_1_summary_1": "Le protocole de Bitcoin est resté fondamentalement inchangé depuis 2009, fournissant des règles prévisibles qui ne peuvent pas être facilement modifiées. La plupart des projets crypto mettent fréquemment à jour leurs protocoles, changent les tokenomics ou se divisent en nouvelles versions, créant de l'incertitude pour les utilisateurs.",
 	"point_2_summary_1": "Bitcoin fonctionne sur un réseau vraiment décentralisé avec des dizaines de milliers de nœuds indépendants dans le monde entier. De nombreux projets crypto sont contrôlés par des fondations, des entreprises ou de petits groupes de développeurs qui peuvent prendre des décisions unilatérales sur l'avenir du protocole.",
-	"point_3_summary_1": "Bitcoin a un plafond dur de 21 millions de pièces qui existeront jamais, en faisant l'actif numérique le plus rare. La plupart des projets crypto ont des offres illimitées, des mécanismes inflationnistes ou peuvent frapper de nouveaux jetons à volonté, diluant la valeur des détenteurs au fil du temps.",
+	"point_3_summary_1": "Bitcoin a un plafond dur de 21 millions de pièces qui puissent exister, en faisant l'actif numérique le plus rare. La plupart des projets crypto ont des offres illimitées, des mécanismes inflationnistes ou peuvent frapper de nouveaux jetons à volonté, diluant la valeur des détenteurs au fil du temps.",
 	"point_4_summary_1": "Bitcoin a un objectif simple : l'argent numérique pair-à-pair. N'importe qui peut le comprendre et l'utiliser avec des connaissances de base. De nombreux projets crypto impliquent des contrats intelligents complexes, des protocoles DeFi ou des mécanismes de gouvernance qui nécessitent une expertise technique pour une utilisation sûre.",
 	"point_5_summary_1": "Bitcoin utilise le consensus de Preuve de Travail, qui a été testé au combat pendant plus de 15 ans sans une seule attaque réussie sur le réseau principal. De nombreux projets crypto utilisent des mécanismes de consensus expérimentaux comme la Preuve d'Enjeu ou des systèmes délégués qui n'ont pas prouvé leur sécurité à long terme.",
 	"point_6_summary_1": "Bitcoin sert d'argent numérique - une réserve de valeur et un moyen d'échange. La plupart des jetons crypto sont des jetons utilitaires pour des plateformes spécifiques, des jetons de gouvernance ou des actifs spéculatifs avec des propositions de valeur réelle peu claires.",

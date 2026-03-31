@@ -3,16 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-06",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"signs_description": "Aidez-nous à mettre ces affiches bitcoin dans toute l'Amérique !",
 	"signs_title": "Affiches bitcoin gratuites de bitcoin.rocks",
-	"signs_choose_header": "AIDEZ-NOUS À METTRE CES AFFICHES BITCOIN À TRAVERS L'AMÉRIQUE",
-	"signs_choose_c1": "Notre mission est d'accélérer l'adoption du Bitcoin par le biais de l'éducation.",
-	"signs_choose_c2": "Vous pouvez aider en mettant ces affiches gratuites sur le bitcoin dans l'espace public. Toutes nos affiches ont des QR codes qui renvoient à une page éducative sur",
+	"signs_choose_header": "MERCI DE NOUS AVOIR AIDÉ À AFFICHER CES PANNEAUX BITCOIN À TRAVERS L'AMÉRIQUE !",
+	"signs_choose_c1": "Nous n'avons plus de panneaux ! Notre mission est d'accélérer l'adoption du Bitcoin par le biais de l'éducation.",
+	"signs_choose_c2": "Beaucoup d'entre vous nous ont aidé en affichant ces panneaux Bitcoin gratuits dans l'espace public. Tous nos panneaux ont des QR codes qui renvoient à une page éducative sur",
 	"signs_choose_c3": "l'inflation",
-	"signs_choose_c4": "Les affiches sont gratuites aux États-Unis jusqu'à la fin de l'élection présidentielle américaine de 2024.",
+	"signs_choose_c4": "Grâce à notre communauté incroyable, nous avons touché des milliers de personnes et les avons aidées à faire leurs premiers pas dans l'univers du Bitcoin.",
 	"signs_share_header": "PARTAGEZ VOS SPOTS D'AFFICHES",
 	"signs_share_c1": "Partagez une photo de votre affiche avec nous sur Nostr et nous vous zapperons des sats ! Les sats sont des fractions de bitcoin.",
 	"signs_btn_share_on_nostr": "PARTAGER SUR NOSTR",

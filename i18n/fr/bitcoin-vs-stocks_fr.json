@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Actions",
@@ -29,9 +29,9 @@
 	"bitcoin_point_4": "Prix déterminé par le marché",
 	"bitcoin_point_5": "Trading 24h/24 7j/7",
 	"bitcoin_point_6": "Auto-garde possible",
-	"bitcoin_point_7": "Actif déflationniste",
+	"bitcoin_point_7": "Actif à offre fixe",
 	"point_1_summary_1": "Quand vous possédez du Bitcoin, vous avez la propriété directe de l'actif lui-même. Quand vous possédez des actions, vous possédez une part d'une entreprise, ce qui signifie que votre investissement dépend de la performance de l'entreprise, des décisions de gestion et du succès commercial.",
-	"point_2_summary_1": "Bitcoin a un plafond fixe de 21 millions de BTC qui existeront jamais.",
+	"point_2_summary_1": "Bitcoin a un plafond fixe de 21 millions de BTC qui puissent exister.",
 	"point_2_summary_2": "Les entreprises peuvent émettre de nouvelles actions à tout moment, diluant le pourcentage de propriété des actionnaires existants. Cela signifie que votre part de l'entreprise devient plus petite quand de nouvelles actions sont créées.",
 	"point_2_summary_3": "C'est moins que l'inflation fiat, mais c'est toujours de la dilution.",
 	"point_2_summary_4": "Avec Bitcoin, votre part du gâteau ne rétrécit jamais.",
@@ -45,5 +45,5 @@
 	"point_6_summary_2": "L'auto-garde est aussi simple que de télécharger une application.",
 	"point_6_summary_3": "Les actions nécessitent un compte de courtage et vous êtes soumis au risque de contrepartie - si l'entreprise fait faillite ou le courtier échoue, vous pourriez perdre votre investissement.",
 	"point_6_summary_4": "Vous ne possédez jamais vraiment les certificats d'actions directement.",
-	"point_7_summary_1": "Bitcoin est un actif déflationniste avec une émission d'offre décroissante au fil du temps. Les actions ont une performance variable contre l'inflation - certaines entreprises réussissent bien pendant les périodes inflationnistes tandis que d'autres luttent. Il n'y a aucune garantie qu'une action particulière protège contre l'inflation."
+	"point_7_summary_1": "Bitcoin est un actif à offre fixe avec un plafond de 21 millions de Bitcoin qui puissent exister. Cela en fait une excellente couverture contre l'inflation. Les actions ont une performance variable face à l'inflation - certaines entreprises réussissent bien pendant les périodes inflationnistes tandis que d'autres luttent. Il n'y a aucune garantie qu'une action particulière protège contre l'inflation."
 }

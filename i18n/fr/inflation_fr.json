@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-27",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -59,8 +59,8 @@
 	"inflation_intro_mexican_peso": "Au Mexique, le nombre de pesos mexicains pouvant être créés n'est pas limité.",
 	"inflation_intro_indian_rupee": "En Inde, le nombre de roupies indiennes pouvant être créées n'est pas limité.",
 	"inflation_intro_honduran_lempira": "Au Honduras, il n'y a pas de limite fixe au nombre de lempires honduriens pouvant être créés.",
-	"inflation_intro_venezuelan_bolivar": "Au Venezuela, il n'y a pas de limite fixe au nombre de bolivares vénézuéliens pouvant être créé.",
-	"inflation_intro_japanese_yen": "Au Japon, il n'y a pas de limite fixe au nombre de yens japonais pouvant être créé.",
+	"inflation_intro_venezuelan_bolivar": "Au Venezuela, il n'y a pas de limite fixe au nombre de bolivares vénézuéliens pouvant être créés.",
+	"inflation_intro_japanese_yen": "Au Japon, il n'y a pas de limite fixe au nombre de yens japonais pouvant être créés.",
 	"inflation_intro_australian_dollar": "En Australie, il n'y a pas de limite fixe au nombre de dollars australiens pouvant être créés.",
 	"inflation_intro_israeli_shekel": "En Israël, il n'y a pas de limite fixe au nombre de shekels israéliens qui peuvent être créés.",
 	"inflation_intro_thai_baht": "En Thaïlande, il n'y a pas de limite fixe au nombre de bahts thaïlandais pouvant être créés.",
@@ -68,7 +68,7 @@
 	"inflation_cause_header": "QUELLES SONT LES CAUSES DE L'INFLATION ?",
 	"inflation_cause_c1": "Si les chaînes d'approvisionnement et certaines entreprises contribuent à la hausse artificielle des prix, la première cause de l'inflation est l'augmentation de la masse monétaire. La banque centrale accorde souvent une avance au Trésor public qui se traduit par une injection de liquidités dans l'économie et un gonflement de la masse monétaire; qui finirait par provoquer des tensions inflationnistes. (source: economie.gouv.fr/facileco)",
 	"inflation_cause_c2": "Il s'agissait d'une énorme augmentation de la masse monétaire et ce ne sera pas la dernière fois que cela se produira.",
-	"inflation_cause_c3": "Lorsque l'argent est émis et injecter dans l'économie, le prix de tout ce que vous achetez avec augmente. Cela inclut les coûts des matières premières que les entreprises doivent payer pour faire leurs produits, ce qui signifie des prix plus élevés pour vous.",
+	"inflation_cause_c3": "Lorsque l'argent est émis et injecté dans l'économie, le prix de tout ce que vous achetez avec augmente. Cela inclut les coûts des matières premières que les entreprises doivent payer pour faire leurs produits, ce qui signifie des prix plus élevés pour vous.",
 	"inflation_cause_c4": "'Les périodes prolongées de forte inflation résultent souvent de politiques monétaires laxistes. Si la masse monétaire s’accroît trop par rapport à la taille de l’économie, la valeur unitaire de la monnaie diminue; autrement dit, son pouvoir d’achat baisse et les prix augmentent'*. L'inflation n'est pas seulement une hausse des prix. L'inflation, c'est lorsque votre argent perd de sa valeur avec le temps. *(source: FMI Fonds monétaire international, L’ABC de l’économie)",
 	"inflation_cause_usd": "Près de 80 % de tous les dollars américains existant aujourd'hui ont été créés entre 2020 et 2023.",
 	"inflation_cause_cad": "Plus d'un dollar canadien sur cinq existant aujourd'hui a été créé entre 2020 et 2022.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2026-03-30",
 		"locale": "fr"
 	},
 	"bitcoin_lightning_wallet_guide": "Guide des portefeuilles Bitcoin Lightning",
@@ -19,7 +19,7 @@
 	"lightning_s2_c2": "Avec un portefeuille en auto-détention, vous êtes le seul à pouvoir dépenser ou transférer votre argent. Personne ne peut vous arrêter, vous censurer ou vous voler lorsque vous utilisez un portefeuille autogéré. Ces portefeuilles sont également appelés portefeuilles non-custodial.",
 	"lightning_s2_c3": "La manière la plus radicale d'utiliser le Lightning est d'avoir son propre nœud.",
 	"lightning_s2_c4": "Ce guide se concentre sur les portefeuilles Lightning simples qui ne nécessitent pas votre propre nœud.",
-	"lightning_s2_c5": "Il est important de savoir que même en utilisant un portefeuille Lightning non-custodial, vous faites quand meme confiance au créateur du portefeuille pour ne pas développer une mise à jour d'app malveillante et voler vos fonds.",
+	"lightning_s2_c5": "Il est important de savoir que même en utilisant un portefeuille Lightning non-custodial, vous faites quand même confiance au créateur du portefeuille pour ne pas développer une mise à jour d'app malveillante et voler vos fonds.",
 	"lightning_s3_c1": "Les portefeuilles custodial (dépositaire) sont des portefeuilles où vous n'avez pas le contrôle total de votre argent.",
 	"lightning_s3_c2": "Ces portefeuilles sont plus proches du système bancaire où vous devez faire confiance à un tiers pour vous donner accès à votre argent. Si votre bitcoin se trouve sur une plateforme d'échange, vous utilisez un portefeuille custodial (dépositaire).",
 	"lightning_s3_c3": "Les portefeuilles dépositaires peuvent sembler pratiques, mais le dépositaire a la capacité technique de voler ou 'perdre' tous les fonds de l'utilisateur à tout moment.",
