@@ -133,6 +133,17 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - **Alternative**: Use `write_to_file` to write the entire JSON file contents directly. This works but is verbose for large files.
 - **Tab indentation**: All i18n JSON files use tab indentation (not spaces). Always preserve this when writing.
 
+### Google Analytics Custom Events (IMPORTANT)
+- **When adding a new `gtag('event', ...)` call**: Any custom event parameters (like `event_category`, `event_label`, or custom names) must be **registered as Custom Dimensions in GA4** or the parameter values will not be visible in reports.
+- **GA4 does NOT auto-collect** `event_category` or `event_label` — these are NOT built-in dimensions in GA4 (they were in Universal Analytics). They must be registered manually.
+- **How to register**: GA4 Admin → Property → Data display → Custom definitions → Create custom dimension. Set scope to "Event" and enter the exact parameter name from the code.
+- **Remind the user**: When adding a new gtag event with custom parameters, remind the user to register any new parameters as custom dimensions in GA4. Data only starts being collected from the moment of registration (not retroactive).
+- **Existing custom events** (as of March 2026):
+  1. `language_pageview` (in `jquery/language.js`) — params: `event_category`, `event_label`, `language_active`, `language_source`
+  2. `language_switch` (in `jquery/language.js`) — params: `event_category`, `event_label`, `language_selected`
+  3. `select_currency` (in `jquery/country-selector-inflation.js`) — params: `event_category`, `event_label`
+- **Standard pattern**: Always use `event_category` and `event_label` for consistency across all custom events. Add more specific parameters as needed.
+
 ### Performance Optimization
 - Optimize images before adding to `/img/` directory
 - Minimize JavaScript dependencies
