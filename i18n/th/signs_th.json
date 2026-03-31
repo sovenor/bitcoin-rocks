@@ -3,20 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-01",
-		"locale": "en"
+		"last-updated": "2026-03-31",
+		"locale": "th"
 	},
-	"signs_description": "Help us put these Bitcoin Signs across America!",
-	"signs_title": "Free Bitcoin Signs from bitcoin.rocks",
-	"signs_choose_header": "HELP US PUT THESE BITCOIN SIGNS ACROSS AMERICA",
-	"signs_choose_c1": "Our mission is to accelerate Bitcoin adoption through education.",
-	"signs_choose_c2": "You can help by putting these free Bitcoin signs in public. All of our signs have QR codes that link to an educational page about",
-	"signs_choose_c3": "inflation",
-	"signs_choose_c4": "Signs are free in the USA until the end of the 2024 US Presidential Election.",
-	"signs_share_header": "SHARE YOUR SIGN SPOTS",
-	"signs_share_c1": "Share a photo of your sign spot with us on Nostr and we'll zap you sats! Sats are fractions of a bitcoin.",
-	"signs_btn_share_on_nostr": "SHARE ON NOSTR",
-	"signs_btn_what_is_nostr": "WHAT IS NOSTR?",
-	"signs_instructions_1": "Enter your mailing address and we'll send you a box of 10 Bitcoin signs in the mail!",
-	"signs_instructions_2": "Address data is deleted after your free signs are shipped."
+	"signs_description": "ช่วยเราติดป้าย Bitcoin เหล่านี้ทั่วอเมริกา!",
+	"signs_title": "ป้าย Bitcoin ฟรีจาก bitcoin.rocks",
+	"signs_choose_header": "ช่วยเราติดป้าย BITCOIN เหล่านี้ทั่วอเมริกา",
+	"signs_choose_c1": "ภารกิจของเราคือเร่งการยอมรับ Bitcoin ผ่านการศึกษา",
+	"signs_choose_c2": "คุณสามารถช่วยได้โดยการติดป้าย Bitcoin ฟรีเหล่านี้ในที่สาธารณะ ป้ายทั้งหมดของเรามี QR code ที่เชื่อมโยงไปยังหน้าการศึกษาเกี่ยวกับ",
+	"signs_choose_c3": "เงินเฟ้อ",
+	"signs_choose_c4": "ป้ายฟรีในสหรัฐอเมริกาจนถึงสิ้นสุดการเลือกตั้งประธานาธิบดีสหรัฐฯ ปี 2024",
+	"signs_share_header": "แบ่งปันจุดติดป้ายของคุณ",
+	"signs_share_c1": "แบ่งปันรูปถ่ายจุดติดป้ายของคุณกับเราบน Nostr แล้วเราจะ zap sats ให้คุณ! Sats คือเศษส่วนของ bitcoin",
+	"signs_btn_share_on_nostr": "แบ่งปันบน NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR คืออะไร?",
+	"signs_instructions_1": "กรอกที่อยู่ทางไปรษณีย์ของคุณแล้วเราจะส่งกล่องป้าย Bitcoin 10 อันทางไปรษณีย์!",
+	"signs_instructions_2": "ข้อมูลที่อยู่จะถูกลบหลังจากจัดส่งป้ายฟรีของคุณแล้ว"
 }
