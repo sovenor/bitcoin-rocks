@@ -1,5 +1,124 @@
-To translate our entire website into a new language, first make sure the i18n directory for that language doesn't already exist. If it does exist, you'll need to make sure all files exist and audit those files to ensure all translation strings are included and all translations are accurate. If it's not complete and accurate, you'll need to complete it and make changes to ensure accuracy so that all files exist and all translation strings exist with no errors.
+# Adding a New Language Translation
 
-If the i18n directory for that language doesn't exist, you'll need to duplicate the entire English i18n directory, rename the files so they end in _xx instead of _en where xx = the 2 letter standardized country code for the new language. Then, you'll need to translate all translation strings for all pages into the new language.
+## Pre-Check
+First, check if the `i18n/[lang]/` directory already exists:
+- **If it exists**: Audit all files against the English directory (`i18n/en/`) to ensure all files exist, all translation keys are present, and all translations are accurate. Complete anything missing.
+- **If it doesn't exist**: Follow the full process below.
 
-English is the main language from which we translate into all other languages.
+English (`i18n/en/`) is the source of truth from which we translate into all other languages.
+
+## Complete Checklist for Adding a New Language
+
+### Step 1: Create All Translation Files
+1. Duplicate the entire `i18n/en/` directory structure to `i18n/[lang]/`
+2. Rename all files from `*_en.json` to `*_[lang].json`
+3. Translate all translation string values into the new language
+4. Update `@metadata.locale` from `"en"` to `"[lang]"` in every file
+5. Update `@metadata.last-updated` to today's date (YYYY-MM-DD) in every file
+
+**Important**: Use a Node.js script in `/scripts/` to create/modify JSON files with non-ASCII characters. Never use inline CLI commands or `replace_in_file` for i18n JSON files — special characters get corrupted. All i18n JSON files use **tab indentation** (`JSON.stringify(obj, null, '\t')`).
+
+### Step 2: Register the Language in the Language Switcher
+- **File**: `jquery/language.js`
+- **Action**: Add `{ code: '[lang]', name: '[Native Name]' }` to the `languages` array
+- **Placement**: Insert alphabetically by language code, before the `custom` entry
+- **Bump the `TRANSLATION_VERSION`** to force cache bust
+
+### Step 3: Update Homepage WebSite Schema
+- **File**: `index.html`
+- **Action**: Add `"[lang]"` to the `inLanguage` array in the WebSite JSON-LD schema block
+
+### Step 4: Update llms.txt Language List
+- **File**: `llms.txt`
+- **Action**: Add the new language name to the `Languages` line in the "About This Site" section
+- **Example**: `English, German, Spanish, French, Italian, Portuguese, Dutch, Bulgarian, Indonesian, Thai, Polish`
+
+### Step 5: Update About Page Language Count
+- **File**: `i18n/en/about_en.json` (and ALL other language `about_xx.json` files)
+- **Key**: `about_open_source_3`
+- **Action**: Increment the language count number (e.g., "10 languages" → "11 languages")
+- **Best approach**: Create/use a script like `scripts/update-about-lang-count.js` to update all about files at once with proper translations
+
+### Step 6: Update llms-full.txt Language Count
+- **File**: `llms-full.txt`
+- **Action**: Update the "available in X languages" line in the Open Source section
+
+### Step 7: Run SEO Content Injection
+- **Command**: `node scripts/inject-seo-content.js`
+- **Why**: Updates the about.html page with the new English text (updated language count)
+
+### Step 8: Update Memory Bank
+- Update `memory-bank/progress.md` and `memory-bank/activeContext.md` to reflect the new language addition
+
+## File Structure Reference
+A complete language directory should mirror the English directory exactly:
+
+```
+i18n/[lang]/
+├── 404_[lang].json
+├── about_[lang].json
+├── bank-runs_[lang].json
+├── bitcoin-vs-banks_[lang].json
+├── bitcoin-vs-bonds_[lang].json
+├── bitcoin-vs-cash_[lang].json
+├── bitcoin-vs-cbdc_[lang].json
+├── bitcoin-vs-crypto_[lang].json
+├── bitcoin-vs-fine-art_[lang].json
+├── bitcoin-vs-gold_[lang].json
+├── bitcoin-vs-real-estate_[lang].json
+├── bitcoin-vs-stocks_[lang].json
+├── bitcoin-vs-visa_[lang].json
+├── buy_[lang].json
+├── common_[lang].json
+├── compound-inflation-calculator_[lang].json
+├── flyers_[lang].json
+├── get-involved_[lang].json
+├── index_[lang].json
+├── inflation_[lang].json
+├── lightning_[lang].json
+├── postcard-success_[lang].json
+├── postcards_[lang].json
+├── sign-success_[lang].json
+├── signs_[lang].json
+├── sticker-language-success_[lang].json
+├── sticker-success_[lang].json
+├── stickers_[lang].json
+├── wallets_[lang].json
+├── business/
+│   ├── accounting_[lang].json
+│   ├── faq_[lang].json
+│   ├── guide_[lang].json
+│   ├── index_[lang].json
+│   ├── kit_[lang].json
+│   ├── kit-success_[lang].json
+│   ├── maps_[lang].json
+│   ├── maps-success_[lang].json
+│   ├── sticker-language-success_[lang].json
+│   ├── sticker-success_[lang].json
+│   ├── stickers_[lang].json
+│   ├── wallets_[lang].json
+│   ├── why_[lang].json
+│   ├── files/english/index_[lang].json
+│   └── sticker-files/english/index_[lang].json
+├── nostr/
+│   ├── index_[lang].json
+│   └── what-is-nostr_[lang].json
+└── sticker-files/
+    ├── index_[lang].json
+    ├── afrikaans/index_[lang].json
+    ├── arabic/index_[lang].json
+    ├── ... (one for each sticker language subdirectory)
+    └── yoruba/index_[lang].json
+```
+
+## Quick Summary of All Locations to Update
+| # | What | File(s) |
+|---|------|---------|
+| 1 | Translation files | `i18n/[lang]/**/*_[lang].json` |
+| 2 | Language switcher | `jquery/language.js` |
+| 3 | Homepage schema | `index.html` (inLanguage array) |
+| 4 | LLM site overview | `llms.txt` (Languages line) |
+| 5 | About page count | All `about_xx.json` files |
+| 6 | LLM full content | `llms-full.txt` (languages count) |
+| 7 | SEO injection | Run `node scripts/inject-seo-content.js` |
+| 8 | Memory bank | `memory-bank/progress.md`, `memory-bank/activeContext.md` |

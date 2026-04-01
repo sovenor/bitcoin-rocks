@@ -116,7 +116,15 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - Use GitHub discussions for translation coordination
 - Maintain consistent terminology across languages
 - Test language switching functionality
-- You must update the homepage WebSite schema when a new language is added
+- **When adding a new language**, you must update ALL of these locations (see `.clinerules/workflows/translate-new-language.md` for full details):
+  1. `i18n/[lang]/` — Create all translation JSON files (mirror English directory structure)
+  2. `jquery/language.js` — Add to the `languages` array with code and native name; bump `TRANSLATION_VERSION`
+  3. `index.html` — Add language code to `inLanguage` array in WebSite JSON-LD schema
+  4. `llms.txt` — Add language name to the "Languages" line in "About This Site"
+  5. `i18n/*/about_*.json` — Increment the language count in `about_open_source_3` for ALL languages
+  6. `llms-full.txt` — Update the "available in X languages" line
+  7. Run `node scripts/inject-seo-content.js` — Updates about.html SEO text
+  8. Update memory bank — `progress.md` and `activeContext.md`
 
 ### LLM Content Files (llms.txt / llms-full.txt)
 - **When to update**: After adding new pages, updating existing page content, or adding new languages
