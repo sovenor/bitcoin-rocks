@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "ta"
+	},
+	"how_to_accept_bitcoin_payments": "பிட்காயின் கட்டணங்களை எவ்வாறு ஏற்பது",
+	"wallets_header": "பிட்காயின் கட்டணங்களை ஏற்க ஒரு இலவச பிட்காயின் வாலெட்டைப் பெறுங்கள்",
+	"wallets_intro_1": "அனைத்து பிட்காயின் வாலெட்களும் ஒன்றிணைக்கக்கூடியவை, எனவே உங்கள் வாடிக்கையாளர்கள் எந்த வாலெட்டைப் பயன்படுத்தினாலும் உங்களுக்கு பிட்காயினில் பணம் செலுத்தலாம்.",
+	"wallets_intro_2": "பிட்காயின்-மட்டும் வாலெட்கள்:",
+	"wallets_intro_3": "இவை தூய பிட்காயின் வாலெட்கள் ஆகும், அவை பிட்காயினின் முழு நன்மைகளையும் திறக்கின்றன: இடைத்தரகர்கள் இல்லை, குறைந்த கட்டணம், சார்ஜ்பேக் அல்லது மோசடி இல்லை.",
+	"wallets_intro_4": "கலப்பு வாலெட்கள்:",
+	"wallets_intro_5": "வாடிக்கையாளர் உங்களுக்கு பணம் செலுத்தியவுடன் உங்கள் பிட்காயினின் எந்தப் பகுதியையும் டாலர்களுக்கு மாற்ற இவை உங்களை அனுமதிக்கின்றன. கட்டணங்கள் கடன் அட்டை கட்டணங்களை விட குறைவு, ஆனால் தூய பிட்காயின் கட்டணங்களை விட அதிகம்.",
+	"wallets_intro_6": "இரண்டும் பிட்காயினை ஏற்க சிறந்த வழிகள். நீங்கள் பயன்படுத்தும் குறிப்பிட்ட வாலெட் உங்கள் வணிகத்தின் அளவு மற்றும் வகையைப் பொறுத்தது.",
+	"wallets_choice_sole": "தனிநபர் சொந்தமான வணிகங்களுக்கான வாலெட்கள்",
+	"wallets_choice_multiple": "பல ஊழியர்களைக் கொண்ட வணிகங்களுக்கான வாலெட்கள்",
+	"wallets_choice_online": "ஆன்லைன் வணிகங்களுக்கான வாலெட்கள்",
+	"wallets_choice_invoice": "விலைப்பட்டியல் அடிப்படையிலான வணிகங்களுக்கான வாலெட்கள்",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "உங்கள் தற்போதைய Square PoS டெர்மினல் அல்லது ஆன்லைன் கடை ஒருங்கிணைப்புடன் பிட்காயின் கட்டணங்களை ஏற்கலாம். பிட்காயின் கட்டணங்களை ஏற்பது இதுவரை இவ்வளவு எளிதாக இருந்ததில்லை.",
+	"wallets_feature_bitcoin_only": "பிட்காயின்-மட்டும் வாலெட்",
+	"wallets_feature_no_info": "தகவல் தேவையில்லை",
+	"wallets_feature_in_person": "நேரில் கட்டணங்கள் மட்டும்",
+	"wallets_feature_settles_bitcoin": "100% பிட்காயினில் தீர்க்கப்படுகிறது",
+	"wallets_feature_hybrid": "கலப்பு வாலெட்",
+	"wallets_feature_info": "வணிக தகவல் தேவை",
+	"wallets_feature_in_person_online": "நேரில் & ஆன்லைன் கட்டணங்கள்",
+	"wallets_feature_settles_both": "பிட்காயின் & டாலர்களில் தீர்க்கவும்",
+	"wallets_feature_multiple_employees": "பல ஊழியர் ஆதரவு (BPTs)",
+	"wallets_feature_self_hosted": "சுய-ஹோஸ்ட் = 0% கட்டணம்",
+	"wallets_feature_online_store": "ஆன்லைன் கடை ஒருங்கிணைப்பு",
+	"wallets_feature_invoicing": "இலவச விலைப்பட்டியல் மென்பொருள்",
+	"wallets_get_wallet": "வாலெட்டைப் பெறுங்கள்"
+}

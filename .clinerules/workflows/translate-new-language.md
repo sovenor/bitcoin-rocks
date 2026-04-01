@@ -27,6 +27,18 @@ English (`i18n/en/`) is the source of truth from which we translate into all oth
 
 **Important**: Use a Node.js script in `/scripts/` to create/modify JSON files with non-ASCII characters. Never use inline CLI commands or `replace_in_file` for i18n JSON files — special characters get corrupted. All i18n JSON files use **tab indentation** (`JSON.stringify(obj, null, '\t')`).
 
+**⚠️ SCRIPT SIZE LIMIT: The full set of translation files for a language is too large to create in a single script.** Break the translation work into multiple smaller scripts organized by category. Place them in `scripts/[lang]/` (e.g., `scripts/tamil/`). Recommended breakdown:
+1. `create-sticker-files.js` — All ~44 sticker-files/ subdirectory files (repetitive pattern, ideal for a loop)
+2. `create-simple-files.js` — Small files: about, success pages, calculator, nostr (~8 files)
+3. `create-business.js` — All 15 business/ files (split into 2 scripts if needed)
+4. `create-comparisons.js` — All 10 bitcoin-vs-* pages (split into 2 scripts if needed)
+5. `create-common.js` — The common.json file alone (very large, ~180+ keys)
+6. `create-index.js` — The index.json file alone (very large, ~130+ keys)
+7. `create-inflation.js` — The inflation.json file alone (very large, ~100+ keys)
+8. `create-content.js` — Remaining content pages: bank-runs, wallets, buy, lightning, stickers, postcards, signs, flyers, get-involved
+
+Run each script individually with `node scripts/[lang]/scriptname.js`. After all scripts complete, run the audit: `node scripts/audit-translation.js [lang]`.
+
 ### Step 2: Register the Language in the Language Switcher
 - **File**: `jquery/language.js`
 - **Action**: Add `{ code: '[lang]', name: '[Native Name]' }` to the `languages` array

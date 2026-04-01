@@ -117,6 +117,7 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - Maintain consistent terminology across languages
 - Test language switching functionality
 - **⚠️ ALL translation strings MUST be translated**: When creating translation files for a new language, you MUST translate EVERY SINGLE user-facing string value into the target language. Do NOT leave any strings in English. This applies to ALL files (including business/, nostr/, sticker-files/ subdirectories). The only exceptions are `@metadata` fields, proper nouns/brand names, URLs, dimensions, and currency codes. After creating files, run `node scripts/audit-translation.js [lang]` to verify no English strings remain.
+- **⚠️ SCRIPT SIZE LIMIT**: A full language translation (~90+ files) is too large to create in a single Node.js script. Always break translation scripts into multiple smaller scripts by category (e.g., sticker-files, business, comparisons, common, index, inflation, etc.) and place them in `scripts/[lang]/`. See `.clinerules/workflows/translate-new-language.md` for the recommended breakdown.
 - **When adding a new language**, you must update ALL of these locations (see `.clinerules/workflows/translate-new-language.md` for full details):
   1. `i18n/[lang]/` — Create all translation JSON files (mirror English directory structure) with ALL strings translated into the target language
   2. `jquery/language.js` — Add to the `languages` array with code and native name; bump `TRANSLATION_VERSION`

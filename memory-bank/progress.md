@@ -1,5 +1,13 @@
 # Progress: bitcoin.rocks
 
+## Tamil (ta) Language Added — April 2026
+- Added Tamil (தமிழ்) as the 12th language
+- Created ~90+ translation files in `i18n/ta/` mirroring the English directory structure
+- Translation scripts in `scripts/tamil/` (10 scripts broken by category)
+- Updated: language.js (v1.2.4), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (11→12)
+- Ran SEO content injection
+- Updated workspace rules and translate-new-language.md with script size limit guidance
+
 ## What Works (Current Functional Features)
 
 ### Core Website Functionality

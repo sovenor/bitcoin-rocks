@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "ta"
+	},
+	"free_bitcoin_stickers": "bitcoin.rocks இலிருந்து இலவச பிட்காயின் ஸ்டிக்கர்கள்",
+	"stickers_description": "உங்களைச் சுற்றியுள்ளவர்களை ஆரஞ்சு பில் செய்ய ஒரு பிட்காயின் ஸ்டிக்கரை பொதுவில் ஒட்டுங்கள்.",
+	"stickers_header": "இலவச பிட்காயின் ஸ்டிக்கர்கள்",
+	"stickers_choose_header": "உங்கள் ஸ்டிக்கர் தொகுப்பைத் தேர்ந்தெடுங்கள்",
+	"stickers_choose_c1": "பிட்காயின் ஸ்டிக்கர்களை பொதுவில் ஒட்டுவதன் மூலம் அதிகமான மக்களை ஆரஞ்சு பில் செய்ய உதவுவதே எங்கள் நோக்கம். எங்கள் அனைத்து ஸ்டிக்கர்களிலும் கல்வி பக்கங்களுக்கு இணைக்கும் QR குறியீடுகள் உள்ளன",
+	"stickers_choose_c2": "பிட்காயின்",
+	"stickers_choose_c3": "பணவீக்கம்",
+	"stickers_choose_c4": "கீழே உங்கள் ஸ்டிக்கர் தொகுப்பைத் தேர்ந்தெடுங்கள்",
+	"stickers_text_pack": "உரை தொகுப்பு",
+	"stickers_signs_pack": "அடையாளங்கள் தொகுப்பு",
+	"stickers_instructions_1": "உங்கள் அஞ்சல் முகவரியை உள்ளிடவும், நாங்கள் உங்களுக்கு ஒரு இலவச பிட்காயின் ஸ்டிக்கர் தொகுப்பை அஞ்சலில் அனுப்புவோம்! உங்கள் ஸ்டிக்கர்கள் வெற்று வெள்ளை உறையில் அனுப்பப்படும்.",
+	"stickers_instructions_2": "உங்கள் இலவச ஸ்டிக்கர்கள் அனுப்பப்பட்டவுடன் முகவரி தரவு நீக்கப்படும்.",
+	"stickers_share_header": "உங்கள் ஸ்டிக்கர் இடங்களைப் பகிரவும்",
+	"stickers_share_c1": "உங்கள் ஸ்டிக்கர் இடங்களை Nostr இல் எங்களுடன் பகிரவும், மற்றவர்கள் எங்கே ஸ்டிக்கர்களை ஒட்டுகிறார்கள் என்பதைப் பாருங்கள்.",
+	"stickers_btn_share_on_nostr": "NOSTR இல் பகிரவும்",
+	"stickers_btn_what_is_nostr": "NOSTR என்றால் என்ன?",
+	"stickers_flyers_link_before": "அதே நேரத்தில், உங்கள் சொந்த ",
+	"stickers_flyers_link_text": "பிட்காயின் துண்டுப்பிரசுரங்களை",
+	"stickers_flyers_link_after": " அச்சிட்டு ஒட்டி இன்னும் அதிகமான மக்களை ஆரஞ்சு பில் செய்யுங்கள்.",
+	"stickers_country_global_print": "உலகளாவிய — என் சொந்த ஸ்டிக்கர்களை அச்சிடுங்கள்",
+	"stickers_country_global_order": "உலகளாவிய — மொத்தமாக ஆர்டர் செய்யுங்கள்",
+	"placeholder_name_optional": "பெயர் (விரும்பினால்)",
+	"placeholder_address_line_1": "முகவரி வரி 1",
+	"placeholder_address_line_2": "முகவரி வரி 2 (விரும்பினால்)",
+	"placeholder_city": "நகரம்",
+	"placeholder_state": "மாநிலம்",
+	"placeholder_province": "மாகாணம்",
+	"placeholder_zip_code": "அஞ்சல் குறியீடு",
+	"placeholder_postal_code": "அஞ்சல் குறியீடு",
+	"placeholder_language": "மொழி",
+	"placeholder_which_stickers": "எந்த ஸ்டிக்கர்கள்?",
+	"placeholder_email_optional": "அறிவிக்கப்பட உங்கள் மின்னஞ்சலை உள்ளிடவும் (விரும்பினால்)"
+}
