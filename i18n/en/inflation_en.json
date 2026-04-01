@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-27",
+		"last-updated": "2026-04-01",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "The Australian Dollar money supply has increased by more than 100% since 2016 as politicians printed more of them.",
 	"inflation_protect_israeli_shekel": "The Israeli Shekel money supply has increased by about 100% since 2016 as politicians printed more of them.",
 	"inflation_protect_thai_baht": "The Thai baht money supply has increased by about 50% since 2016 as politicians printed more of them.",
-	"inflation_protect_nz_dollar": "The New Zealand Dollar money supply has increased by about 100% since 2010 as politicians printed more of them."
+	"inflation_protect_nz_dollar": "The New Zealand Dollar money supply has increased by about 100% since 2010 as politicians printed more of them.",
+	"inflation_graphic_money_up": "As the amount of money printed goes up...",
+	"inflation_graphic_pp_down": "...the purchasing power of that money goes down."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-03-27",
+		"last-updated": "2026-04-01",
 		"locale": "id"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Tidak Memiliki Inflasi",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "Jumlah uang Dolar Australia meningkat lebih dari 100% sejak 2016 karena politisi mencetak lebih banyak.",
 	"inflation_protect_israeli_shekel": "Jumlah uang Shekel Israel meningkat sekitar 100% sejak 2016 karena politisi mencetak lebih banyak.",
 	"inflation_protect_thai_baht": "Jumlah uang Baht Thailand meningkat sekitar 50% sejak 2016 karena politisi mencetak lebih banyak.",
-	"inflation_protect_nz_dollar": "Jumlah uang Dolar Selandia Baru meningkat sekitar 100% sejak 2010 karena politisi mencetak lebih banyak."
+	"inflation_protect_nz_dollar": "Jumlah uang Dolar Selandia Baru meningkat sekitar 100% sejak 2010 karena politisi mencetak lebih banyak.",
+	"inflation_graphic_money_up": "Semakin banyak uang yang dicetak...",
+	"inflation_graphic_pp_down": "...semakin menurun daya beli uang tersebut."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-01",
 		"locale": "de"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin hat keine Inflation",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "Die Geldmenge des australischen Dollar ist seit 2016 um mehr als 100 % gestiegen, da Politiker mehr davon gedruckt haben.",
 	"inflation_protect_israeli_shekel": "Die Geldmenge des israelischen Schekel ist seit 2016 um etwa 100 % gestiegen, da Politiker mehr davon gedruckt haben.",
 	"inflation_protect_thai_baht": "Die Geldmenge in thailändischen Baht ist seit 2016 um etwa 50 % gestiegen, da Politiker mehr davon gedruckt haben.",
-	"inflation_protect_nz_dollar": "Die Geldmenge des neuseeländischen Dollar ist seit 2010 um etwa 100 % gestiegen, da Politiker mehr davon gedruckt haben."
+	"inflation_protect_nz_dollar": "Die Geldmenge des neuseeländischen Dollar ist seit 2010 um etwa 100 % gestiegen, da Politiker mehr davon gedruckt haben.",
+	"inflation_graphic_money_up": "Je mehr Geld gedruckt wird...",
+	"inflation_graphic_pp_down": "...desto weniger ist dieses Geld wert."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-01",
 		"locale": "fr"
 	},
 	"bitcoin_doesnt_have_inflation": "Le bitcoin n'a pas d'inflation",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "La masse monétaire du dollar australien a augmenté de plus de 100 % depuis 2016, car les politiciens ont augmenté la quantité de monnaies en circulation.",
 	"inflation_protect_israeli_shekel": "La masse monétaire du shekel israélien a augmenté d'environ 100 % depuis 2016, car les politiciens ont augmenté la quantité de monnaies en circulation.",
 	"inflation_protect_thai_baht": "La masse monétaire du baht thaïlandais a augmenté d'environ 50 % depuis 2016, car les politiciens ont augmenté la quantité de monnaies en circulation.",
-	"inflation_protect_nz_dollar": "La masse monétaire du dollar néo-zélandais a augmenté d'environ 100 % depuis 2010, car les politiciens ont augmenté la quantité de monnaies en circulation."
+	"inflation_protect_nz_dollar": "La masse monétaire du dollar néo-zélandais a augmenté d'environ 100 % depuis 2010, car les politiciens ont augmenté la quantité de monnaies en circulation.",
+	"inflation_graphic_money_up": "Plus on imprime de l'argent...",
+	"inflation_graphic_pp_down": "...plus le pouvoir d'achat de cet argent diminue."
 }

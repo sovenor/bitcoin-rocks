@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-01",
 		"locale": "es"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin no tiene inflación",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "La oferta de dinero en dólares australianos ha aumentado en más del 100% desde 2016, ya que los políticos imprimieron más de ellos.",
 	"inflation_protect_israeli_shekel": "La oferta monetaria del shekel israelí ha aumentado alrededor de un 100% desde 2016 ya que los políticos imprimieron más de ellos.",
 	"inflation_protect_thai_baht": "La oferta monetaria del baht tailandés ha aumentado alrededor de un 50% desde 2016 ya que los políticos imprimieron más de ellos.",
-	"inflation_protect_nz_dollar": "La masa monetaria en dólares neozelandeses ha aumentado alrededor de un 100% desde 2010, ya que los políticos imprimieron más de ellos."
+	"inflation_protect_nz_dollar": "La masa monetaria en dólares neozelandeses ha aumentado alrededor de un 100% desde 2010, ya que los políticos imprimieron más de ellos.",
+	"inflation_graphic_money_up": "A medida que se imprime más dinero...",
+	"inflation_graphic_pp_down": "...el poder adquisitivo de ese dinero disminuye."
 }

@@ -2305,6 +2305,44 @@ p.choose{
     margin-bottom: 0px;
 }
 
+/* Inflation graphic - replaces static money-in-circulation image */
+.inflation-graphic{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.inflation-graphic img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.inflation-graphic-text{
+    position: absolute;
+    z-index: 1;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    font-size: clamp(14px, 3.2vw, 26px);
+    text-align: left;
+    line-height: 1.25;
+}
+
+.inflation-graphic-text-up{
+    top: 10%;
+    left: 3%;
+    right: 35%;
+    color: #FF9500;
+}
+
+.inflation-graphic-text-down{
+    bottom: 12%;
+    left: 3%;
+    right: 35%;
+    color: #f0f0f0;
+}
+
 .show-all-button{
     background: none;
 	color: #f0f0f0;

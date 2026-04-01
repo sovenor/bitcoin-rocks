@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-01",
 		"locale": "nl"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Heeft Geen Inflatie",
@@ -112,5 +112,7 @@
 	"inflation_protect_australian_dollar": "Het geldaanbod van de Australische Dollar is sinds 2016 met meer dan 100% gestegen omdat de politici er steeds blijven bijprinten.",
 	"inflation_protect_israeli_shekel": "Het geldaanbod van de Israelische Sikkel is sinds  2016 met meer dan 100% gestegen omdat de politici er steeds blijven bij maken.",
 	"inflation_protect_thai_baht": "Het geldaanbod van de Thaise Baht is sinds 2016 met ongeveer 50% gestegen omdat de politici er steeds blijven bij maken.",
-	"inflation_protect_nz_dollar": "Het geldaanbod van de Nieuw Zeelandse Dollar is sinds 2010 met ongeveer 100% gestegen omdat de politici er steeds blijven bij maken."
+	"inflation_protect_nz_dollar": "Het geldaanbod van de Nieuw Zeelandse Dollar is sinds 2010 met ongeveer 100% gestegen omdat de politici er steeds blijven bij maken.",
+	"inflation_graphic_money_up": "Hoe meer geld er wordt gedrukt...",
+	"inflation_graphic_pp_down": "...hoe minder koopkracht dat geld heeft."
 }
