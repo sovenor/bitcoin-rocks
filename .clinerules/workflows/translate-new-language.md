@@ -1,0 +1,5 @@
+To translate our entire website into a new language, first make sure the i18n directory for that language doesn't already exist. If it does exist, you'll need to make sure all files exist and audit those files to ensure all translation strings are included and all translations are accurate. If it's not complete and accurate, you'll need to complete it and make changes to ensure accuracy so that all files exist and all translation strings exist with no errors.
+
+If the i18n directory for that language doesn't exist, you'll need to duplicate the entire English i18n directory, rename the files so they end in _xx instead of _en where xx = the 2 letter standardized country code for the new language. Then, you'll need to translate all translation strings for all pages into the new language.
+
+English is the main language from which we translate into all other languages.
