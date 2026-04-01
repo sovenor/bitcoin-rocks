@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"how_to_accept_bitcoin_payments": "Jak przyjmować płatności Bitcoin",
+	"wallets_header": "ZDOBĄDŹ DARMOWY PORTFEL BITCOIN, ABY PRZYJMOWAĆ PŁATNOŚCI BITCOIN",
+	"wallets_intro_1": "Wszystkie portfele Bitcoin są interoperacyjne, więc twoi klienci mogą ci płacić w Bitcoinie niezależnie od tego, jakiego portfela używają.",
+	"wallets_intro_2": "Portfele wyłącznie Bitcoin:",
+	"wallets_intro_3": "To czyste portfele Bitcoin, które odblokowują pełne korzyści Bitcoina: brak pośredników, niskie opłaty i brak obciążeń zwrotnych ani oszustw.",
+	"wallets_intro_4": "Portfele hybrydowe:",
+	"wallets_intro_5": "Pozwalają ci wymienić dowolną część Bitcoina na dolary natychmiast po zapłaceniu przez klienta. Opłaty są nadal niższe niż płatności kartą kredytową, ale wyższe niż czyste płatności Bitcoin.",
+	"wallets_intro_6": "Oba są świetnymi sposobami na przyjmowanie Bitcoina. Konkretny portfel, którego użyjesz, będzie zależał od wielkości i rodzaju twojej firmy.",
+	"wallets_choice_sole": "portfele dla jednoosobowych firm",
+	"wallets_choice_multiple": "portfele dla firm z wieloma pracownikami",
+	"wallets_choice_online": "portfele dla firm internetowych",
+	"wallets_choice_invoice": "portfele dla firm wystawiających faktury",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Możesz przyjmować płatności Bitcoin za pomocą istniejącego terminala Square PoS lub integracji ze sklepem internetowym. Przyjmowanie płatności Bitcoin nigdy nie było łatwiejsze.",
+	"wallets_feature_bitcoin_only": "Portfel wyłącznie Bitcoin",
+	"wallets_feature_no_info": "Nie wymaga danych",
+	"wallets_feature_in_person": "Tylko płatności osobiste",
+	"wallets_feature_settles_bitcoin": "Rozlicza 100% w Bitcoinie",
+	"wallets_feature_hybrid": "Portfel hybrydowy",
+	"wallets_feature_info": "Wymagane dane firmy",
+	"wallets_feature_in_person_online": "Płatności osobiste i online",
+	"wallets_feature_settles_both": "Rozliczenie w Bitcoinie i dolarach",
+	"wallets_feature_multiple_employees": "Wsparcie wielu pracowników (BPT)",
+	"wallets_feature_self_hosted": "Własny hosting = 0% opłat",
+	"wallets_feature_online_store": "Integracja ze sklepem internetowym",
+	"wallets_feature_invoicing": "Darmowe oprogramowanie do fakturowania",
+	"wallets_get_wallet": "POBIERZ PORTFEL"
+}

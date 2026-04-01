@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"bitcoin_lightning_wallet_guide": "Przewodnik po portfelach Bitcoin Lightning",
+	"lightning_description": "Portfele Lightning umożliwiają szybkie i tanie wysyłanie płatności Bitcoin przy zachowaniu osobistej suwerenności.",
+	"lightning_header": "PRZEWODNIK PO PORTFELACH LIGHTNING",
+	"lightning_s1_c1": "Lightning umożliwia szybkie i tanie wysyłanie płatności Bitcoin.",
+	"lightning_s1_c2": "Ważne jest, aby wiedzieć, że korzystanie z Lightning wiąże się z kompromisami. W zamian za szybsze i tańsze płatności Bitcoin, często poświęcasz nieco bezpieczeństwa.",
+	"lightning_s1_c3": "Ogólnie, Lightning powinien być używany tylko z małymi kwotami bitcoinów. Duże kwoty bitcoinów powinny być przechowywane wyłącznie w portfelu sprzętowym.",
+	"lightning_s1_c4": "Sprawdź nasz Przewodnik po portfelach sprzętowych po więcej informacji.",
+	"lightning_s1_c5": "Nie wszystkie portfele Lightning są takie same. Możesz określić, który portfel ma odpowiedni zestaw kompromisów dla ciebie, zadając jedno proste pytanie:",
+	"lightning_question_1": "JAKI BALANS KOMPROMISÓW JEST DLA MNIE ODPOWIEDNI?",
+	"lightning_s2_c1": "Jedną z innowacji Bitcoina jest możliwość przechowywania go bez polegania na powierniku, takim jak bank. Portfele samodzielnej opieki odblokowują pełną moc Bitcoina.",
+	"lightning_s2_c2": "Z portfelem samodzielnej opieki, tylko ty masz możliwość wydawania lub przesyłania swoich pieniędzy. Nikt nie może cię powstrzymać, ocenzurować ani okraść, gdy używasz portfela samodzielnej opieki. Nazywa się je również portfelami niepowierniczymi.",
+	"lightning_s2_c3": "Najbardziej suwerennym sposobem korzystania z Lightning jest uruchomienie własnego węzła.",
+	"lightning_s2_c4": "Ten przewodnik koncentruje się na prostych portfelach Lightning, które nie wymagają własnego węzła.",
+	"lightning_s2_c5": "Ważne jest, aby wiedzieć, że nawet korzystając z niepowierniczego portfela Lightning, nadal ufasz twórcy portfela, że nie wgra złośliwej aktualizacji aplikacji i nie ukradnie twoich środków.",
+	"lightning_s3_c1": "Portfele powiernicze to portfele, w których nie kontrolujesz swoich pieniędzy.",
+	"lightning_s3_c2": "Te portfele są bardziej podobne do systemu bankowego, w którym musisz zaufać trzeciej stronie, że da ci dostęp do twoich pieniędzy. Jeśli twoje Bitcoiny są na giełdzie, używasz portfela powierniczego.",
+	"lightning_s3_c3": "Portfele powiernicze mogą wydawać się wygodne, ale powiernik ma techniczną możliwość kradzieży wszystkich środków użytkowników w dowolnym momencie.",
+	"lightning_s3_c4": "Niektórzy ludzie preferują powiernicze portfele Lightning dla małych kwot bitcoinów ze względu na łatwość użycia. Po prostu pamiętaj: nie twoje klucze, nie twoje monety!",
+	"lightning_question_2": "WYBIERZ SWÓJ PORTFEL",
+	"lightning_s4_c1": "Mając to wszystko na uwadze, możesz teraz wybrać portfel lightning, który ma odpowiedni balans kompromisów dla ciebie.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Wiele funkcji",
+	"lightning_mobile_app": "Aplikacja mobilna",
+	"lightning_free": "100% za darmo",
+	"lightning_merchants": "Świetny dla sprzedawców",
+	"lightning_starter": "Świetny portfel na start",
+	"lightning_browser": "Oparty na przeglądarce",
+	"lightning_custodial": "W pełni powierniczy portfel",
+	"lightning_cta_hardware": "Szukasz naszego Przewodnika po portfelach sprzętowych Bitcoin?"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"cic_header": "KALKULATOR INFLACJI ZŁOŻONEJ",
+	"cic_description": "Użyj tego Kalkulatora Inflacji Złożonej, aby dowiedzieć się, o ile twoja pensja musi wzrosnąć, aby nadążyć za inflacją.",
+	"what_can_i_do_about": "Co mogę zrobić z",
+	"what_can_i_do_about_2": "inflacją?",
+	"cic_inflation_cta": "Zrezygnuj z inflacji dzięki Bitcoinowi"
+}

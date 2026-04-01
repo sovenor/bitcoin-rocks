@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"bitcoin_business_kit": "Zestaw Biznesowy Bitcoin",
+	"kit_header": "WYDRUKUJ WŁASNY ZESTAW BIZNESOWY BITCOIN",
+	"kit_request": "ZAMÓW DARMOWY ZESTAW",
+	"kit_request_details": "Każdy Zestaw Biznesowy Bitcoin zawiera dwie broszury, aby ułatwić nakłonienie lokalnej firmy do przyjmowania płatności w Bitcoinie.",
+	"kit_country_global_print": "Globalnie — Wydrukuj własne zestawy",
+	"kit_enter_address": "Wpisz swój adres pocztowy, a wyślemy ci darmowy Zestaw Biznesowy Bitcoin w zwykłej białej kopercie.",
+	"kit_print_details": "Możesz wziąć udział, drukując własne broszury, bez względu na to, gdzie mieszkasz! Kliknij poniżej, aby pobrać pliki broszur i instrukcje.",
+	"kit_view_files": "POKAŻ PLIKI",
+	"kit_digital_kit": "CYFROWY ZESTAW",
+	"kit_resources": "KAŻDY ZESTAW LINKUJE DO TYCH DARMOWYCH ZASOBÓW"
+}

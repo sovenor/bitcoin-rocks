@@ -12,9 +12,18 @@ English (`i18n/en/`) is the source of truth from which we translate into all oth
 ### Step 1: Create All Translation Files
 1. Duplicate the entire `i18n/en/` directory structure to `i18n/[lang]/`
 2. Rename all files from `*_en.json` to `*_[lang].json`
-3. Translate all translation string values into the new language
+3. **Translate ALL translation string values into the new language** (see critical rule below)
 4. Update `@metadata.locale` from `"en"` to `"[lang]"` in every file
 5. Update `@metadata.last-updated` to today's date (YYYY-MM-DD) in every file
+
+**⚠️ CRITICAL: You MUST translate EVERY SINGLE user-facing string value into the target language. Do NOT leave ANY strings in English.** This includes:
+- Every value in every JSON file (not just the "main" files — ALL files including business/, nostr/, sticker-files/, etc.)
+- Short strings (headers, button labels, page titles)
+- Long strings (paragraphs, descriptions, summaries)
+- Strings that look like they might be "universal" (they usually aren't — translate them)
+- The only exceptions are: `@metadata` fields, proper nouns (brand names like "Bitcoin", "Nostr", "FTX", "Strike"), URLs, dimensions/measurements, and currency codes
+
+**After creating all files, run the audit script to verify**: `node scripts/audit-translation.js [lang]` — this will flag any strings that are still identical to English and may need translation.
 
 **Important**: Use a Node.js script in `/scripts/` to create/modify JSON files with non-ASCII characters. Never use inline CLI commands or `replace_in_file` for i18n JSON files — special characters get corrupted. All i18n JSON files use **tab indentation** (`JSON.stringify(obj, null, '\t')`).
 

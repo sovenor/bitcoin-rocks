@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"free_bitcoin_stickers": "Darmowe naklejki Bitcoin od bitcoin.rocks",
+	"stickers_description": "Przyklej naklejkę Bitcoin w miejscu publicznym, aby pomarańczowo-pigułkować tych wokół ciebie.",
+	"stickers_header": "DARMOWE NAKLEJKI BITCOIN",
+	"stickers_choose_header": "WYBIERZ SWOJĄ PACZKĘ NAKLEJEK",
+	"stickers_choose_c1": "Naszą misją jest pomóc ci pomarańczowo-pigułkować więcej osób, umieszczając naklejki Bitcoin w miejscach publicznych. Wszystkie nasze naklejki mają kody QR linkujące do stron edukacyjnych o",
+	"stickers_choose_c2": "Bitcoinie",
+	"stickers_choose_c3": "inflacji",
+	"stickers_choose_c4": "Wybierz swoją paczkę naklejek poniżej",
+	"stickers_text_pack": "PACZKA TEKSTOWA",
+	"stickers_signs_pack": "PACZKA ZE ZNAKAMI",
+	"stickers_instructions_1": "Wpisz swój adres pocztowy, a wyślemy ci darmową paczkę naklejek Bitcoin pocztą! Twoje naklejki zostaną wysłane w zwykłej białej kopercie.",
+	"stickers_instructions_2": "Dane adresowe są usuwane po wysłaniu darmowych naklejek.",
+	"stickers_share_header": "PODZIEL SIĘ SWOIMI MIEJSCAMI Z NAKLEJKAMI",
+	"stickers_share_c1": "Podziel się swoimi miejscami z naklejkami z nami na Nostr i zobacz, gdzie inni ludzie umieszczają swoje naklejki.",
+	"stickers_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
+	"stickers_btn_what_is_nostr": "CZYM JEST NOSTR?",
+	"stickers_flyers_link_before": "Przy okazji, wydrukuj i rozwieś własne ",
+	"stickers_flyers_link_text": "ulotki Bitcoin",
+	"stickers_flyers_link_after": ", aby pomarańczowo-pigułkować jeszcze więcej osób.",
+	"stickers_country_global_print": "Globalnie — Wydrukuj własne naklejki",
+	"stickers_country_global_order": "Globalnie — Zamów hurtowo",
+	"placeholder_name_optional": "Imię (opcjonalnie)",
+	"placeholder_address_line_1": "Adres linia 1",
+	"placeholder_address_line_2": "Adres linia 2 (opcjonalnie)",
+	"placeholder_city": "Miasto",
+	"placeholder_state": "Stan",
+	"placeholder_province": "Województwo",
+	"placeholder_zip_code": "Kod pocztowy",
+	"placeholder_postal_code": "Kod pocztowy",
+	"placeholder_language": "Język",
+	"placeholder_which_stickers": "Które naklejki?",
+	"placeholder_email_optional": "Wpisz swój e-mail, aby otrzymać powiadomienie (opcjonalnie)"
+}

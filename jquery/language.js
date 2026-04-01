@@ -18,6 +18,7 @@ $(function() {
     { code: 'de', name: 'Deutsch' },
     { code: 'fr', name: 'Français' },
     { code: 'it', name: 'Italiano' },
+    { code: 'pl', name: 'Polski' },
     { code: 'id', name: 'Indonesia' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'pt', name: 'Português' },

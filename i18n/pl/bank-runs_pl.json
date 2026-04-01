@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin nie ma paniki bankowej",
+	"bank_runs_header": "BITCOIN NIE MA",
+	"bank_runs_header_2": "PANIKI BANKOWEJ",
+	"bank_runs_what": "CZYM JEST PANIKA BANKOWA?",
+	"bank_runs_what_content_1": "Panika bankowa ma miejsce, gdy zbyt wiele osób próbuje wypłacić pieniądze z banku w tym samym czasie.",
+	"bank_runs_what_content_2": "Jeśli banki nie mają wystarczająco dużo pieniędzy, aby pokryć wypłaty, mogą upaść. To nie jest tylko teoria — wiele banków w Stanach Zjednoczonych upadło w ostatnich latach.",
+	"bank_runs_how": "JAK DOCHODZI DO PANIKI BANKOWEJ?",
+	"bank_runs_how_content_1": "Nasz system bankowy jest „rezerwowy cząstkowy\", co oznacza, że banki nie trzymają po prostu twoich pieniędzy bezpiecznie, czekając na to, aż je wypłacisz.",
+	"bank_runs_how_content_2": "Zamiast tego twój bank bierze twoje pieniądze i pożycza je lub inwestuje. To może zablokować twoje pieniądze w inwestycjach, do których nie ma natychmiastowego dostępu.",
+	"bank_runs_how_content_3": "A więc co się dzieje, gdy próbujesz wypłacić pieniądze po tym, jak bank już pożyczył je lub zainwestował?",
+	"bank_runs_how_content_4": "To nie jest problem, jeśli jesteś jedyną osobą próbującą wypłacić pieniądze. Bank po prostu użyje pieniędzy innego deponenta, żeby ci wypłacić. Ale co się dzieje, gdy wszyscy próbują wypłacić pieniądze w tym samym czasie?",
+	"bank_runs_how_content_5": "Wiele osób w USA dowiedziało się o tym, gdy doszło do paniki na Silicon Valley Bank (SVB) w 2023 roku.",
+	"bank_runs_how_content_6": "Bank zainwestował pieniądze swoich klientów w obligacje rządowe, które były zablokowane na lata z niskimi stopami zwrotu. Gdy stopy procentowe wzrosły, wartość tych obligacji spadła. Gdy klienci to odkryli, zaczęli próbować wypłacać pieniądze.",
+	"bank_runs_how_content_7": "Im więcej osób się o tym dowiadywało, tym problem stawał się gorszy. Więcej żądań wypłat pojawiało się, a bank nie miał wystarczająco pieniędzy, żeby je pokryć.",
+	"bank_runs_how_content_8": "FDIC wkroczyło i zgodziło się zaspokoić roszczenia deponentów. Problem rozwiązany? Nie do końca.",
+	"bank_runs_fdic": "CZY UBEZPIECZENIE FDIC CHRONI MOJE PIENIĄDZE?",
+	"bank_runs_fdic_content_1": "Ubezpieczenie FDIC ma na celu ochronę deponentów bankowych w przypadku upadku banku. Ale czy naprawdę chroni twoje pieniądze?",
+	"bank_runs_fdic_content_2": "Nie do końca. Jeśli bank upadnie, skąd FDIC bierze pieniądze? Mają fundusz ubezpieczeniowy, który jest finansowany z opłat płaconych przez banki.",
+	"bank_runs_fdic_content_3": "Brzmi to jak dużo pieniędzy, dopóki nie porównasz tego z kwotą depozytów, które są ubezpieczone.",
+	"bank_runs_fdic_content_4": "FDIC nawet pokazuje na swojej stronie internetowej, że ma wystarczająco pieniędzy w swoim funduszu ubezpieczeniowym, aby pokryć tylko około 1% ubezpieczonych depozytów.",
+	"bank_runs_fdic_content_5": "W przypadku upadku banku, który przekroczyłby fundusz ubezpieczeniowy FDIC, prawdopodobne jest, że rząd wydrukuje pieniądze, aby zaspokoić roszczenia deponentów.",
+	"bank_runs_fdic_content_6": "Ale drukowanie pieniędzy powoduje inflację, więc to nie jest dobre rozwiązanie.",
+	"bank_runs_safe": "CZY ISTNIEJĄ BANKI, KTÓRE NIE UŻYWAJĄ REZERWY CZĄSTKOWEJ?",
+	"bank_runs_safe_content_1": "Niektóre banki próbowały być „bezpiecznymi bankami\", które nie pożyczają ani nie inwestują depozytów klientów.",
+	"bank_runs_safe_content_2": "Mimo że te bezpieczne banki miałyby zerowe ryzyko paniki bankowej, ich wnioski o licencje bankowe zostały zablokowane przez regulatorów bankowych.",
+	"bank_runs_safe_content_3": "Ponieważ zostały zablokowane przed działalnością, nie ma dziś banków, które nie używają rezerwy cząstkowej.",
+	"bank_runs_safe_content_4": "Na szczęście istnieje sposób na rezygnację z systemu rezerwy cząstkowej, będąc swoim własnym bankiem. Jednym ze sposobów jest przechowywanie oszczędności w gotówce.",
+	"bank_runs_safe_content_5": "Oszczędzanie w gotówce nadal jest podatne na inflację.",
+	"bank_runs_safe_content_6": "Mówimy o Bitcoinie: nowym systemie finansowym, który pozwala ci być swoim własnym bankiem. Dzięki Bitcoinowi nie musisz ufać bankowi, że przechowa twoje pieniądze za ciebie.",
+	"bank_runs_protect": "CZY BITCOIN MOŻE OCHRONIĆ MNIE PRZED PANIKĄ BANKOWĄ?",
+	"bank_runs_protect_content_1": "Tak, Bitcoin jest pełnorezerowym systemem finansowym.",
+	"bank_runs_protect_content_2": "Paniki bankowe są niemożliwe w Bitcoinie, pod warunkiem że wypłacisz swoje Bitcoiny do własnego portfela.",
+	"bank_runs_protect_content_3": "Sprawdź nasz prosty Przewodnik po portfelach Bitcoin, aby dowiedzieć się, jak wypłacić do własnego portfela.",
+	"bank_runs_protect_content_4": "Dzięki Bitcoinowi możesz wreszcie kontrolować swoje pieniądze."
+}

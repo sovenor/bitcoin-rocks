@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"sign_success_1": "Otrzymasz swoje tablice w ciągu 1 do 2 tygodni. Czekając, spróbuj wymyślić dobre miejsca na ich ustawienie!",
+	"sign_success_3": "Chcesz zobaczyć, gdzie inni ludzie stawiają swoje tablice?",
+	"signs_share_header": "PODZIEL SIĘ SWOIMI MIEJSCAMI Z TABLICAMI",
+	"signs_share_c1": "Podziel się zdjęciem swojego miejsca z tablicą z nami na Nostr, a wyślemy ci satsy! Satsy to ułamki bitcoina.",
+	"signs_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
+	"signs_btn_what_is_nostr": "CZYM JEST NOSTR?"
+}

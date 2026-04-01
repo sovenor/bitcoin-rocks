@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"signs_description": "Pomóż nam rozmieścić te tablice Bitcoin w całej Ameryce!",
+	"signs_title": "Darmowe tablice Bitcoin od bitcoin.rocks",
+	"signs_choose_header": "DZIĘKUJEMY ZA POMOC W ROZMIESZCZENIU TABLIC BITCOIN W CAŁEJ AMERYCE!",
+	"signs_choose_c1": "Tablice się skończyły! Naszą misją jest przyspieszenie adopcji Bitcoina poprzez edukację.",
+	"signs_choose_c2": "Wielu z was pomogło, umieszczając te darmowe tablice Bitcoin w miejscach publicznych. Wszystkie nasze tablice mają kody QR linkujące do strony edukacyjnej o",
+	"signs_choose_c3": "inflacji",
+	"signs_choose_c4": "Dzięki naszej niesamowitej społeczności dotarliśmy do tysięcy osób i pomogliśmy im postawić pierwsze kroki w króliczej norze Bitcoina.",
+	"signs_share_header": "PODZIEL SIĘ SWOIMI MIEJSCAMI Z TABLICAMI",
+	"signs_share_c1": "Podziel się zdjęciem swojego miejsca z tablicą z nami na Nostr i zobacz, gdzie inni ludzie stawiają swoje tablice.",
+	"signs_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
+	"signs_btn_what_is_nostr": "CZYM JEST NOSTR?",
+	"signs_instructions_1": "Wpisz swój adres pocztowy, a wyślemy ci pudełko z 10 tablicami Bitcoin pocztą!",
+	"signs_instructions_2": "Dane adresowe są usuwane po wysłaniu darmowych tablic."
+}

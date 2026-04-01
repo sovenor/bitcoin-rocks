@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"free_bitcoin_postcards": "Darmowe pocztówki Bitcoin od bitcoin.rocks",
+	"postcards_description": "Zdobądź darmową paczkę pocztówek Bitcoin i podziel się Bitcoinem z kimś, kogo znasz.",
+	"postcards_header": "PROGRAM POCZTÓWEK ZAKOŃCZONY",
+	"postcards_program_closed_message": "Nasz darmowy program pocztówek Bitcoin został zakończony. Dziękujemy wszystkim, którzy uczestniczyli w szerzeniu edukacji o Bitcoinie za pośrednictwem poczty!",
+	"postcards_sticker_alternative_header": "ZDOBĄDŹ DARMOWE NAKLEJKI BITCOIN",
+	"postcards_sticker_alternative_message": "Kontynuuj szerzenie świadomości o Bitcoinie z naszym darmowym programem naklejek! Nasze naklejki Bitcoin są idealne do umieszczania w miejscach publicznych i zawierają kody QR linkujące do treści edukacyjnych.",
+	"postcards_sticker_cta": "ZDOBĄDŹ DARMOWE NAKLEJKI",
+	"postcards_step_2": "JAK WYGLĄDAŁY POCZTÓWKI",
+	"postcards_instructions_4": "Stworzyliśmy te pocztówki, aby ułatwić ci przedstawienie komuś, kogo znasz, Bitcoina! Wystarczy dodać adres i znaczek i wrzucić pocztówkę do skrzynki.",
+	"postcards_instructions_5": "Naszą misją jest przyspieszenie adopcji Bitcoina. Możesz pomóc, zdobywając darmowe naklejki i umieszczając je w miejscach publicznych!",
+	"postcards_instructions_6": "Wszyscy znamy kilka osób, które mogłyby skorzystać na dowiedzeniu się więcej o Bitcoinie. Podziel się z nimi naklejkami Bitcoin już dziś!"
+}

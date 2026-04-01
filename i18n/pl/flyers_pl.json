@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"free_bitcoin_flyers": "Darmowe ulotki Bitcoin od bitcoin.rocks",
+	"flyers_description": "Wydrukuj ulotkę Bitcoin w domu i umieść ją w miejscu publicznym, aby pomarańczowo-pigułkować tych wokół ciebie.",
+	"flyers_header_1": "DRUKUJ I ROZWIESZAJ",
+	"flyers_header_2": "ULOTKI BITCOIN",
+	"flyers_intro_header": "JAK DRUKOWAĆ I ROZWIESZAĆ TE ULOTKI BITCOIN",
+	"flyers_intro_c1": "Naszą misją jest pomóc ci pomarańczowo-pigułkować więcej osób, umieszczając ulotki Bitcoin w miejscach publicznych. Ta ulotka ma kod QR linkujący do naszej",
+	"flyers_intro_c2": "edukacyjnej strony o Bitcoinie.",
+	"flyers_intro_c3": "inflacji",
+	"flyers_intro_c4": "Wydrukuj tę ulotkę w domu lub w drukarni. Następnie umieść ją na tablicach ogłoszeń, słupach telefonicznych w okolicy i innych miejscach publicznych, gdzie ludzie mogą ją zobaczyć i dowiedzieć się o Bitcoinie.",
+	"flyers_intro_c5": "Przy okazji, zamów paczkę naszych",
+	"flyers_intro_c6": "darmowych naklejek Bitcoin",
+	"flyers_intro_c7": "aby pomarańczowo-pigułkować jeszcze więcej osób.",
+	"flyers_btn_download": "POBIERZ ULOTKĘ",
+	"flyers_btn_print": "DRUKUJ ULOTKĘ",
+	"flyers_share_header": "PODZIEL SIĘ SWOIMI MIEJSCAMI Z ULOTKAMI",
+	"flyers_share_c1": "Podziel się swoimi miejscami z ulotkami z nami na Nostr i zobacz, gdzie inni ludzie umieszczają swoje ulotki.",
+	"flyers_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
+	"flyers_btn_what_is_nostr": "CZYM JEST NOSTR?"
+}

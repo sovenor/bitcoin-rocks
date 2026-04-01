@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"404_title": "Błąd 404 | Strona nie znaleziona",
+	"404_message": "TA USZKODZONA STRONA NIE JEST COOL",
+	"404_home": "WRÓĆ NA STRONĘ GŁÓWNĄ"
+}

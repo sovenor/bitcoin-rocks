@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin jest dobry dla biznesu",
+	"biz_header": "BITCOIN JEST DOBRY DLA BIZNESU",
+	"biz_s1": "Niskie opłaty bez minimów",
+	"biz_s1_c1": "Bitcoin umożliwia otrzymywanie płatności bezpośrednio od klientów, podobnie jak gotówka. Sieć Bitcoin działa bez pośredników takich jak banki i firmy obsługujące karty kredytowe, które pobierają wysokie opłaty.",
+	"biz_s2": "Natychmiastowe rozliczenia",
+	"biz_s2_c1": "Tak jak gotówka, płatności Bitcoin rozliczają się natychmiast. Nie musisz czekać, aż firma obsługująca karty kredytowe lub bank ci zapłaci. Zamiast tego masz natychmiastowy dostęp do swoich pieniędzy.",
+	"biz_s3": "Brak obciążeń zwrotnych ani oszustw",
+	"biz_s3_c1": "Ponieważ płatności Bitcoin odbywają się bezpośrednio między tobą a klientami, nikomu nie jest możliwe cofnięcie pieniędzy obciążeniem zwrotnym.",
+	"biz_s3_c2": "Sfałszowany Bitcoin nie może być wysłany w sieci Bitcoin, co oznacza, że nigdy nie musisz się martwić o oszukańcze transakcje, które mogą kosztować twoją firmę pieniądze.",
+	"biz_s4": "Zdobądź więcej klientów",
+	"biz_s4_c1": "Miliony osób posiada Bitcoin i chce wydawać go w miejscach, które go przyjmują.",
+	"biz_s4_c2": "Po prostu przyjmując Bitcoin, twoja firma może zostać umieszczona na mapach akceptantów Bitcoin i zyskać darmową ekspozycję na nowych klientów Bitcoin.",
+	"biz_s4_c3": "Przyjmowanie Bitcoina jest w 100% darmowe. Nie ma umów ani ukrytych opłat."
+}

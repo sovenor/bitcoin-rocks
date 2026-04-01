@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "pl"
+	},
+	"get_involved_and_help_spread_bitcoin": "Zaangażuj się i pomóż szerzyć Bitcoina",
+	"get_involved_description": "Nasze darmowe zasoby ułatwiają szerzenie adopcji Bitcoina.",
+	"get_involved_header": "ZAANGAŻUJ SIĘ",
+	"get_involved_header_2": "SZERZ BITCOINA",
+	"get_involved_intro_1": "Może być przygnębiające żyć w obecnym stanie naszego świata.",
+	"get_involved_intro_2": "Nasze pieniądze są zepsute. W rezultacie, fundamentalne elementy społeczeństwa też są zepsute.",
+	"get_involved_intro_3": "Jeśli już interesujesz się Bitcoinem, znasz uczucie nadziei, które Bitcoin może przynieść. Nadzieja na jaśniejszą przyszłość możliwą dzięki lepszym pieniądzom.",
+	"get_involved_intro_4": "Ale tak wiele osób wokół ciebie nie wie o Bitcoinie. Żyją w tym samym zepsutym świecie co ty, ale bez latarni nadziei, która pomoże im przez ciemność.",
+	"get_involved_intro_5": "Ale możesz pomóc to zmienić. Stworzyłiśmy kilka darmowych zasobów, aby ułatwić szerzenie nadziei, którą Bitcoin przynosi tym wokół ciebie.",
+	"get_involved_sticker_header": "Przyklej naklejkę w miejscu publicznym",
+	"get_involved_sticker_content_1": "Możesz pomóc edukować tych wokół ciebie o Bitcoinie bez konieczności interakcji z kimkolwiek. Po prostu umieść jedną z naszych darmowych naklejek Bitcoin w miejscu publicznym.",
+	"get_involved_sticker_content_2": "Setki osób skanują kody QR na tych naklejkach każdego miesiąca. Naklejki inflacyjne linkują do strony o",
+	"get_involved_sticker_content_3": "Bitcoinie jako rozwiązaniu problemu inflacji.",
+	"get_involved_sticker_content_4": "Inne naklejki linkują do naszej edukacyjnej strony głównej, która pokazuje ludziom, jak",
+	"get_involved_sticker_content_5": "Bitcoin buduje lepszy świat.",
+	"get_involved_sticker_content_6": "Umieszczając te naklejki w swojej społeczności w miejscach, gdzie ludzie je zobaczą, możesz pomóc tym wokół ciebie postawić pierwsze kroki w króliczej norze Bitcoina.",
+	"get_involved_request_a": "ZAMÓW",
+	"get_involved_sticker_pack": "PACZKĘ NAKLEJEK",
+	"get_involved_postcard_header": "Wyślij pocztówkę",
+	"get_involved_postcard_content_1": "Możesz pomóc szerzyć nadzieję Bitcoina komuś, kogo znasz, wysyłając mu jedną z naszych darmowych pocztówek.",
+	"get_involved_postcard_content_2": "Tył każdej pocztówki zawiera przekonujący tekst o Bitcoinie wraz z kodem QR, aby dowiedzieć się więcej.",
+	"get_involved_postcard_content_3": "Wysyłając komuś pocztówkę Bitcoin, możesz pomóc mu zobaczyć Bitcoina w nowy sposób.",
+	"get_involved_postcard_pack": "PACZKĘ POCZTÓWEK",
+	"get_involved_business_header": "Wprowadź firmę",
+	"get_involved_business_content_1": "Chcesz pomóc budować okrężną gospodarkę Bitcoin? Nasz Zestaw Biznesowy Bitcoin ułatwia podejście do firmy w sprawie przyjmowania płatności w Bitcoinie.",
+	"get_involved_business_content_2": "Każdy zestaw biznesowy zawiera ulotki podkreślające zalety przyjmowania płatności w Bitcoinie. Każda ulotka linkuje do różnych",
+	"get_involved_business_content_3": "darmowych zasobów biznesowych Bitcoin.",
+	"get_involved_business_kit": "ZESTAW BIZNESOWY"
+}
