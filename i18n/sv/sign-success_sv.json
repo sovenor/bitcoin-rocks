@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"sign_success_1": "Du kommer att få dina skyltar inom 1 till 2 veckor. Under tiden, fundera på ett bra ställe för dina skyltar!",
+	"sign_success_3": "Vill du se var andra sätter upp sina skyltar?",
+	"signs_share_header": "DELA DINA SKYLTPLATSER",
+	"signs_share_c1": "Dela en bild på din skyltplats med oss på Nostr så skickar vi sats till dig! Sats är bråkdelar av en bitcoin.",
+	"signs_btn_share_on_nostr": "DELA PÅ NOSTR",
+	"signs_btn_what_is_nostr": "VAD ÄR NOSTR?"
+}

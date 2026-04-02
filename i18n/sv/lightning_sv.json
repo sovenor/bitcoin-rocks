@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"bitcoin_lightning_wallet_guide": "Guide till Bitcoin Lightning-plånböcker",
+	"lightning_description": "Lightning-plånböcker låter dig skicka Bitcoin snabbt och billigt samtidigt som du behåller din personliga suveränitet.",
+	"lightning_header": "GUIDE TILL LIGHTNING-PLÅNBÖCKER",
+	"lightning_s1_c1": "Lightning låter dig skicka Bitcoin-betalningar snabbt och billigt.",
+	"lightning_s1_c2": "Det är viktigt att veta att Lightning innebär kompromisser. I utbyte mot snabbare och billigare Bitcoin-betalningar offrar du ofta viss säkerhet.",
+	"lightning_s1_c3": "Generellt bör Lightning bara användas med små mängder bitcoin. Stora mängder bitcoin bör alltid förvaras i en hårdvaruplånbok.",
+	"lightning_s1_c4": "Kolla in vår guide till hårdvaruplånböcker för mer information.",
+	"lightning_s1_c5": "Alla Lightning-plånböcker är inte lika. Vilken plånbok som har rätt balans av kompromisser för dig kan du ta reda på genom att svara på en enkel fråga:",
+	"lightning_question_1": "VILKEN BALANS AV KOMPROMISSER ÄR RÄTT FÖR MIG?",
+	"lightning_s2_c1": "En av Bitcoins innovationer är möjligheten att förvara det utan att vara beroende av ett förvaringsinstitut som en bank. Plånböcker med eget förvar låser upp Bitcoins fulla kraft.",
+	"lightning_s2_c2": "Med en plånbok med eget förvar är du den enda som kan spendera eller överföra dina pengar. Ingen kan stoppa, censurera eller stjäla från dig när du använder en plånbok med eget förvar. Dessa kallas även icke-förvarande plånböcker.",
+	"lightning_s2_c3": "Det mest suveräna sättet att använda Lightning är att köra din egen nod.",
+	"lightning_s2_c4": "Denna guide fokuserar på enkla Lightning-plånböcker som inte kräver en egen nod.",
+	"lightning_s2_c5": "Det är viktigt att veta att även med en icke-förvarande Lightning-plånbok litar du fortfarande på plånbokstillverkaren att inte pusha en skadlig appuppdatering och stjäla dina medel.",
+	"lightning_s3_c1": "Förvarande plånböcker är plånböcker där du inte har kontroll över dina pengar.",
+	"lightning_s3_c2": "Dessa plånböcker liknar mer banksystemet, där du måste lita på en tredje part att ge dig tillgång till dina pengar. Om din Bitcoin finns på en börs använder du en förvarande plånbok.",
+	"lightning_s3_c3": "Förvarande plånböcker kan verka bekväma, men förvaringsinstitutet har den tekniska möjligheten att när som helst stjäla alla användarmedel.",
+	"lightning_s3_c4": "Vissa föredrar förvarande Lightning-plånböcker för små mängder bitcoin på grund av hur enkla de är att använda. Kom bara ihåg: inte dina nycklar, inte dina mynt!",
+	"lightning_question_2": "VÄLJ DIN PLÅNBOK",
+	"lightning_s4_c1": "Med allt detta i åtanke kan du nu välja en Lightning-plånbok med rätt balans av kompromisser för dig.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Många funktioner",
+	"lightning_mobile_app": "Mobilapp",
+	"lightning_free": "100% gratis",
+	"lightning_merchants": "Utmärkt för handlare",
+	"lightning_starter": "Utmärkt startplånbok",
+	"lightning_browser": "I webbläsaren",
+	"lightning_custodial": "Helt förvarande plånbok",
+	"lightning_cta_hardware": "Letar du efter vår guide till hårdvaru-Bitcoin-plånböcker?"
+}

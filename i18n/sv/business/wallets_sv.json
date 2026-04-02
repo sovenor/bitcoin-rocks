@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"how_to_accept_bitcoin_payments": "Hur man accepterar Bitcoin-betalningar",
+	"wallets_header": "SKAFFA EN GRATIS BITCOIN-PLÅNBOK FÖR ATT TA EMOT BETALNINGAR",
+	"wallets_intro_1": "Alla Bitcoin-plånböcker är kompatibla med varandra, så kunder kan betala dig i Bitcoin oavsett vilken plånbok de använder.",
+	"wallets_intro_2": "Rena Bitcoin-plånböcker:",
+	"wallets_intro_3": "Dessa är rena Bitcoin-plånböcker som låser upp alla fördelar med Bitcoin: inga mellanhänder, låga avgifter och inga återbetalningar eller bedrägerier.",
+	"wallets_intro_4": "Hybridplånböcker:",
+	"wallets_intro_5": "Dessa låter dig växla valfri andel av din Bitcoin till dollar så snart en kund betalar dig. Avgifterna är fortfarande lägre än kreditkort, men högre än rena Bitcoin-betalningar.",
+	"wallets_intro_6": "Båda typerna är utmärkta sätt att acceptera Bitcoin. Din specifika plånbok beror på storleken och typen av ditt företag.",
+	"wallets_choice_sole": "plånböcker för enskilda firmor",
+	"wallets_choice_multiple": "plånböcker för företag med flera anställda",
+	"wallets_choice_online": "plånböcker för onlineföretag",
+	"wallets_choice_invoice": "plånböcker för faktureringsföretag",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Du kan acceptera Bitcoin-betalningar med din befintliga Square PoS-terminal eller webbutiksintegration. Att acceptera Bitcoin-betalningar har aldrig varit enklare.",
+	"wallets_feature_bitcoin_only": "Ren Bitcoin-plånbok",
+	"wallets_feature_no_info": "Ingen information krävs",
+	"wallets_feature_in_person": "Endast personliga betalningar",
+	"wallets_feature_settles_bitcoin": "Avräkning 100% i Bitcoin",
+	"wallets_feature_hybrid": "Hybridplånbok",
+	"wallets_feature_info": "Företagsinformation krävs",
+	"wallets_feature_in_person_online": "Personliga och onlinebetalningar",
+	"wallets_feature_settles_both": "Avräkning i Bitcoin och dollar",
+	"wallets_feature_multiple_employees": "Stöd för flera anställda (BPT)",
+	"wallets_feature_self_hosted": "Egen hosting = 0% avgifter",
+	"wallets_feature_online_store": "Integration med webbutik",
+	"wallets_feature_invoicing": "Gratis faktureringsprogram",
+	"wallets_get_wallet": "SKAFFA PLÅNBOK"
+}

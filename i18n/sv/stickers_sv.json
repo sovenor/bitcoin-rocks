@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"free_bitcoin_stickers": "Gratis Bitcoin-klistermärken från bitcoin.rocks",
+	"stickers_description": "Sätt ett Bitcoin-klistermärke på en offentlig plats och hjälp till att övertyga människorna omkring dig.",
+	"stickers_header": "GRATIS BITCOIN-KLISTERMÄRKEN",
+	"stickers_choose_header": "VÄLJ DITT KLISTERMÄRKESPAKET",
+	"stickers_choose_c1": "Vårt uppdrag är att hjälpa dig övertyga fler människor genom att sätta Bitcoin-klistermärken på offentliga platser. Alla våra klistermärken har QR-koder som länkar till utbildningssidor om",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflation",
+	"stickers_choose_c4": "Välj ett klistermärkespaket nedan",
+	"stickers_text_pack": "TEXTPAKET",
+	"stickers_signs_pack": "SKYLTPAKET",
+	"stickers_instructions_1": "Ange din postadress så skickar vi ett gratis paket Bitcoin-klistermärken till dig! Dina klistermärken skickas i ett vanligt vitt kuvert.",
+	"stickers_instructions_2": "Adressuppgifter raderas efter att gratis klistermärken har skickats.",
+	"stickers_share_header": "DELA DINA KLISTERMÄRKESPLATSER",
+	"stickers_share_c1": "Dela dina klistermärkesplatser med oss på Nostr och se var andra sätter sina klistermärken.",
+	"stickers_btn_share_on_nostr": "DELA PÅ NOSTR",
+	"stickers_btn_what_is_nostr": "VAD ÄR NOSTR?",
+	"stickers_flyers_link_before": "Under tiden, skriv ut och sätt upp dina egna ",
+	"stickers_flyers_link_text": "Bitcoin-flygblad",
+	"stickers_flyers_link_after": " och hjälp till att övertyga ännu fler människor.",
+	"stickers_country_global_print": "Globalt — Jag skriver ut mina egna klistermärken",
+	"stickers_country_global_order": "Globalt — Beställ i bulk",
+	"placeholder_name_optional": "Namn (valfritt)",
+	"placeholder_address_line_1": "Adressrad 1",
+	"placeholder_address_line_2": "Adressrad 2 (valfritt)",
+	"placeholder_city": "Stad",
+	"placeholder_state": "Delstat",
+	"placeholder_province": "Län",
+	"placeholder_zip_code": "Postnummer",
+	"placeholder_postal_code": "Postnummer",
+	"placeholder_language": "Språk",
+	"placeholder_which_stickers": "Vilka klistermärken?",
+	"placeholder_email_optional": "Ange e-post för notifikation (valfritt)"
+}

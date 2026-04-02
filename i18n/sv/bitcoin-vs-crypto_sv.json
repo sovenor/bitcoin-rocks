@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Krypto",
+	"crypto_header": "SKILLNADEN MELLAN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "OCH",
+	"crypto_header_4": "KRYPTO",
+	"crypto_intro_1": "Kryptovalutavärlden har exploderat med tusentals olika digitala tokens och projekt.",
+	"crypto_intro_2": "Medan Bitcoin var det första och förblir den mest kända kryptovalutan, är det fundamentalt annorlunda från resten av kryptoindustrin.",
+	"crypto_intro_3": "Låt oss titta på de viktigaste skillnaderna mellan Bitcoin och det bredare kryptovalutaekosystemet.",
+	"crypto": "KRYPTO",
+	"crypto_point_1": "Frekventa ändringar och förgreningar",
+	"crypto_point_2": "Centraliserad kontroll",
+	"crypto_point_3": "Obegränsat eller inflationärt utbud",
+	"crypto_point_4": "Komplexa protokoll",
+	"crypto_point_5": "Experimentell konsensus",
+	"crypto_point_6": "Spekulativa nyttotokens",
+	"crypto_point_7": "Volatila och bräckliga",
+	"crypto_point_8": "Företagsstöd",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Oföränderligt protokoll",
+	"bitcoin_point_2": "Genuint decentraliserad",
+	"bitcoin_point_3": "Fast utbud på 21M BTC",
+	"bitcoin_point_4": "Enkel och tillgänglig",
+	"bitcoin_point_5": "Beprövat Proof of Work",
+	"bitcoin_point_6": "Rena digitala pengar",
+	"bitcoin_point_7": "Antifragil",
+	"bitcoin_point_8": "Ingen entitet kontrollerar det",
+	"point_1_summary_1": "Bitcoins protokoll har förblivit i stort sett oförändrat sedan 2009, vilket ger förutsägbara regler som inte enkelt kan ändras. De flesta kryptoprojekt uppdaterar ofta sina protokoll, ändrar tokenomics eller förgrenar sig till nya versioner, vilket skapar osäkerhet för användare.",
+	"point_2_summary_1": "Bitcoin fungerar på ett genuint decentraliserat nätverk med tiotusentals oberoende noder över hela världen. Många kryptoprojekt kontrolleras av stiftelser, företag eller små grupper av utvecklare som ensidigt kan fatta beslut om protokollets framtid.",
+	"point_3_summary_1": "Bitcoin har ett fast tak på 21 miljoner mynt som någonsin kommer att finnas, vilket gör det till den mest knappa digitala tillgången. De flesta kryptoprojekt har obegränsat utbud, inflationsmekanismer eller möjlighet att prägla nya tokens godtyckligt, vilket späder ut innehavarnas värde över tid.",
+	"point_4_summary_1": "Bitcoin har ett enda enkelt syfte: peer-to-peer digitala pengar. Vem som helst kan förstå och använda det med grundläggande kunskap. Många kryptoprojekt involverar komplexa smarta kontrakt, DeFi-protokoll eller styrningsmekanismer som kräver teknisk expertis för säker användning.",
+	"point_5_summary_1": "Bitcoin använder Proof of Work-konsensus som har stridstestats i över 15 år utan en enda framgångsrik attack på huvudnätverket. Många kryptoprojekt använder experimentella konsensusmekanismer som Proof of Stake eller delegerade system som ännu inte har bevisat sin långsiktiga säkerhet.",
+	"point_6_summary_1": "Bitcoin fungerar som digitala pengar — en värdebevarare och ett bytesmedel. De flesta kryptotokens är nyttotokens för specifika plattformar, styrningstokens eller spekulativa tillgångar med oklart värdeerbjudande.",
+	"point_7_summary_1": "Bitcoin blir starkare under attack och har överlevt varje kris, förbud och kritik som riktats mot det. De flesta kryptoprojekt är bräckliga och kan kollapsa under regulatoriskt tryck, tekniska fel eller marknadsnedgångar.",
+	"point_8_summary_1": "Bitcoin har ingen VD, inget företag bakom sig och ingen enskild felkälla. Många kryptoprojekt stöds av riskkapitalbolag, har identifierbart ledarskap eller är beroende av specifika företag för sin fortsatta drift."
+}

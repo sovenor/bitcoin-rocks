@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"signs_description": "Hjälp oss att placera ut dessa Bitcoin-skyltar över hela USA!",
+	"signs_title": "Gratis Bitcoin-skyltar från bitcoin.rocks",
+	"signs_choose_header": "TACK FÖR ATT DU HJÄLPER OSS PLACERA DESSA BITCOIN-SKYLTAR ÖVER HELA USA!",
+	"signs_choose_c1": "Alla skyltar är nu utdelade! Vårt uppdrag är att påskynda Bitcoinanvändningen genom utbildning.",
+	"signs_choose_c2": "Många av er har hjälpt till genom att placera dessa gratis Bitcoin-skyltar på offentliga platser. Alla våra skyltar har QR-koder som länkar till en utbildningssida om",
+	"signs_choose_c3": "inflation",
+	"signs_choose_c4": "Tack vare vårt fantastiska community har vi nått tusentals människor och hjälpt dem ta sina första steg ner i Bitcoin-kaninhålet.",
+	"signs_share_header": "DELA DINA SKYLTPLATSER",
+	"signs_share_c1": "Dela en bild på din skyltplats med oss på Nostr och se var andra placerar sina skyltar.",
+	"signs_btn_share_on_nostr": "DELA PÅ NOSTR",
+	"signs_btn_what_is_nostr": "VAD ÄR NOSTR?",
+	"signs_instructions_1": "Ange din postadress så skickar vi en låda med 10 Bitcoin-skyltar till dig!",
+	"signs_instructions_2": "Adressuppgifter raderas efter att gratis skyltar har skickats."
+}

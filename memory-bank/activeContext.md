@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Chichewa Language Added — April 2026
+## Latest: Swedish Language Added — April 2026
+- Added Swedish (`sv`, Svenska) as the 19th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/swedish/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 19 languages
+- Ran SEO content injection successfully
+
+## Chichewa Language Added — April 2026
 - Added Chichewa (`ny`, Chicheŵa) as the 18th language on bitcoin.rocks
 - Created all 90+ translation files via 8 scripts in `scripts/chichewa/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

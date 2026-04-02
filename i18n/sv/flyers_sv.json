@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"free_bitcoin_flyers": "Gratis Bitcoin-flygblad från bitcoin.rocks",
+	"flyers_description": "Skriv ut ett Bitcoin-flygblad hemma och sätt upp det på en offentlig plats för att övertyga människorna omkring dig.",
+	"flyers_header_1": "SKRIV UT OCH SÄTT UPP",
+	"flyers_header_2": "BITCOIN-FLYGBLAD",
+	"flyers_intro_header": "HUR MAN SKRIVER UT OCH SÄTTER UPP DESSA BITCOIN-FLYGBLAD",
+	"flyers_intro_c1": "Vårt uppdrag är att hjälpa dig övertyga fler människor genom att sätta Bitcoin-flygblad på offentliga platser. Detta flygblad har en QR-kod som länkar till vår",
+	"flyers_intro_c2": "Bitcoin-utbildningssida.",
+	"flyers_intro_c3": "inflation",
+	"flyers_intro_c4": "Skriv ut detta flygblad hemma eller på ett tryckeri. Sätt sedan upp det på anslagstavlor, lyktstolpar i staden och andra offentliga platser där folk kommer att se det och lära sig om Bitcoin.",
+	"flyers_intro_c5": "Under tiden, beställ ett paket av våra",
+	"flyers_intro_c6": "gratis Bitcoin-klistermärken",
+	"flyers_intro_c7": "och hjälp till att övertyga ännu fler människor.",
+	"flyers_btn_download": "LADDA NER FLYGBLAD",
+	"flyers_btn_print": "SKRIV UT FLYGBLAD",
+	"flyers_share_header": "DELA DINA FLYGBLADSPLATSER",
+	"flyers_share_c1": "Dela dina flygbladsplatser med oss på Nostr och se var andra sätter sina flygblad.",
+	"flyers_btn_share_on_nostr": "DELA PÅ NOSTR",
+	"flyers_btn_what_is_nostr": "VAD ÄR NOSTR?"
+}

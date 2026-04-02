@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Konst",
+	"fine_art_header": "SKILLNADEN MELLAN",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "OCH",
+	"fine_art_header_4": "KONST",
+	"fine_art_intro_1": "Konst har i århundraden varit en lyxinvestering och betraktas ofta som en värdebevarare av förmögna samlare.",
+	"fine_art_intro_2": "Bitcoin är digitala pengar som många också betraktar som en värdebevarare och investering.",
+	"fine_art_intro_3": "Men hur skiljer sig fysiska konstverk från digitala pengar som Bitcoin? Låt oss titta på skillnaderna mellan två former av investeringar: Bitcoin och Konst.",
+	"fine_art": "KONST",
+	"fine_art_point_1": "Varje verk är unikt",
+	"fine_art_point_2": "Kräver specialiserade auktioner",
+	"fine_art_point_3": "Höga auktionsavgifter",
+	"fine_art_point_4": "Kan inte delas upp",
+	"fine_art_point_5": "Kräver expertautentisering",
+	"fine_art_point_6": "Sårbar för skada",
+	"fine_art_point_7": "Bara för förmögna samlare",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfekt utbytbar",
+	"bitcoin_point_2": "Global marknad 24/7",
+	"bitcoin_point_3": "Låga transaktionsavgifter",
+	"bitcoin_point_4": "Lätt att dela upp",
+	"bitcoin_point_5": "Kryptografiskt verifierbar",
+	"bitcoin_point_6": "Svår att förstöra",
+	"bitcoin_point_7": "Tillgänglig för alla",
+	"point_1_summary_1": "Bitcoin är perfekt utbytbar, vilket innebär att varje bitcoin är identisk och utbytbar mot en annan — en bitcoin är lika med en bitcoin var som helst i världen. Konst är av naturen icke-utbytbar, där varje verk är unikt i sitt skapande, historia, skick och proveniens, vilket gör direkta jämförelser och värderingar extremt svåra.",
+	"point_2_summary_1": "Bitcoin handlas på en global marknad 24/7 där vem som helst med internetåtkomst kan köpa eller sälja omedelbart. Konst kräver specialiserade auktionshus som Sotheby's eller Christie's, privata handlare eller exklusiva gallerier. Försäljning kan ta månader och marknadstillgången är begränsad.",
+	"point_3_summary_1": "Att köpa eller sälja bitcoin kostar vanligtvis mindre än 1% i avgifter, ofta mycket mindre. Att sälja konst innebär betydande kostnader inklusive köparpremie (10–25%), säljarens provision (10–15%), försäkring, frakt, förvaring och autentiseringsavgifter. Dessa kombinerade kostnader kan lätt överstiga 30–40% av verkets värde i en enda transaktion.",
+	"point_4_summary_1": "Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket gör det idealiskt för transaktioner i alla storlekar. Konst kan inte delas — du kan inte äga en bråkdel av en målning eller sälja bara en del av en skulptur. Denna odelbarhet begränsar investeringsflexibiliteten.",
+	"point_5_summary_1": "Bitcoins ägande och äkthet kan verifieras kryptografiskt på blockkedjan av vem som helst med grundläggande teknisk kunskap. Konst kräver kostsam expertautentisering, proveniensförskning och vetenskaplig analys. Trots expertverifiering lurar förfalskningar regelbundet konstvärlden. Bitcoin kan däremot inte förfalskas.",
+	"point_6_summary_1": "Bitcoin kan, om det är korrekt säkerhetskopierat, inte förstöras av översvämningar, bränder, jordbävningar, orkaner, stöld eller andra katastrofer. Konst är sårbar för alla former av fysisk förstörelse och nedbrytning.",
+	"point_7_summary_1": "Bitcoin kan köpas och säljas av vem som helst med internetåtkomst och en liten summa pengar att investera. Konstinvesteringar är till stor del begränsade till förmögna samlare på grund av höga minimipriser, exklusiv auktionstillgång, förvaringskrav, försäkringskostnader och specialiserad kunskap."
+}

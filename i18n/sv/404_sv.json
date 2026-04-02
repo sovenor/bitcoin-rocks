@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"404_title": "Fel 404 | Sidan hittades inte",
+	"404_message": "DENNA TRASIGA SIDA ÄR INTE COOL",
+	"404_home": "TILLBAKA TILL STARTSIDAN"
+}

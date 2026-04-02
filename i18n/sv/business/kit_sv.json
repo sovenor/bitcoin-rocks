@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"bitcoin_business_kit": "Bitcoin-företagspaket",
+	"kit_header": "SKRIV UT DITT EGET BITCOIN-FÖRETAGSPAKET",
+	"kit_request": "BESTÄLL ETT GRATIS PAKET",
+	"kit_request_details": "Varje Bitcoin-företagspaket innehåller två flygblad som gör det enkelt att övertyga ett lokalt företag att acceptera Bitcoin.",
+	"kit_country_global_print": "Globalt — Jag skriver ut mina egna paket",
+	"kit_enter_address": "Ange din postadress så skickar vi ett gratis Bitcoin-företagspaket till dig i ett vanligt vitt kuvert. Adressuppgifter raderas efter att paketet har skickats.",
+	"kit_print_details": "Du kan delta genom att skriva ut dina egna flygblad oavsett var du bor! Du kan också hänvisa företag till vårt digitala företagspaket för att slippa utskrift.",
+	"kit_view_files": "VISA FILER",
+	"kit_digital_kit": "DIGITALT PAKET",
+	"kit_resources": "VARJE PAKET LÄNKAR TILL DESSA GRATIS RESURSER"
+}

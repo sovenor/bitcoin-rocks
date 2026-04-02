@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "sv"
+	},
+	"sticker_success_1": "Du kommer att få dina klistermärken inom 2 till 4 veckor. Under tiden, fundera på ett bra ställe för dina klistermärken!",
+	"sticker_success_2": "Bra ställen för klistermärken är:",
+	"sticker_success_list_1": "på offentliga platser där folk kommer att se dem",
+	"sticker_success_list_2": "på platser där de sannolikt inte tas bort snabbt (klistermärkena orsakar ingen permanent skada)",
+	"sticker_success_list_3": "på ytor som de lätt fäster på (metall, plast, glas)",
+	"sticker_success_list_4": "INTE på privat egendom, över skyltar, bankomater eller bensinstationer",
+	"sticker_success_3": "Vill du se var andra lägger sina klistermärken?",
+	"sticker_success_flyers_bar_new": "NYTT!",
+	"sticker_success_flyers_bar_cta": "Skriv ut och sätt upp Bitcoin-flygblad →"
+}

@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Swedish (sv) Language Added — April 2026
+- Added Swedish (Svenska) as the 19th language
+- Created all 90+ translation files in `i18n/sv/` mirroring the English directory structure
+- Translation scripts in `scripts/swedish/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (18→19)
+- Ran SEO content injection
+
 ## Chichewa (ny) Language Added — April 2026
 - Added Chichewa (Chicheŵa) as the 18th language
 - Created all 90+ translation files in `i18n/ny/` mirroring the English directory structure
