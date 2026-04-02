@@ -24,6 +24,7 @@ $(function() {
     { code: 'pl', name: 'Polski' },
     { code: 'id', name: 'Indonesia' },
     { code: 'nl', name: 'Nederlands' },
+    { code: 'ny', name: 'Chicheŵa' },
     { code: 'pt', name: 'Português' },
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'bg', name: 'български' },

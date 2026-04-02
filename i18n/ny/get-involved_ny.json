@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"get_involved_and_help_spread_bitcoin": "Tengani nawo mbali ndi kuthandiza kufalitsa Bitcoin",
+	"get_involved_description": "Zipangizo zathu zaulere zimapangitsa kukhala kosavuta kufalitsa Bitcoin.",
+	"get_involved_header": "TENGANI NAWO MBALI",
+	"get_involved_header_2": "FALITSANI BITCOIN",
+	"get_involved_intro_1": "Zingakhale zomvetsa chisoni kukhala mu dziko lino masiku ano.",
+	"get_involved_intro_2": "Ndalama zathu zathyoka. Chifukwa chake, mbali zofunika za chikhalidwe zathokanso.",
+	"get_involved_intro_3": "Ngati muli mu Bitcoin kale, mudziwa chikhumbo chomwe Bitcoin imabweretsa. Chiyembekezo cha tsogolo lowala lopangidwa ndi ndalama zabwino.",
+	"get_involved_intro_4": "Koma anthu ambiri okhala nawo pafupi sadziwa za Bitcoin. Akukhala mu dziko lomwelo lothyoka ngati inu, koma popanda chiyembekezo chowathandiza kudutsa mdima.",
+	"get_involved_intro_5": "Koma mutha kuthandiza kusintha. Tapanga zipangizo zambiri zaulere kuti zikhale zosavuta kufalitsa chiyembekezo chomwe Bitcoin imabweretsa kwa okhala nawo pafupi.",
+	"get_involved_sticker_header": "Yikani chitikiti poyera",
+	"get_involved_sticker_content_1": "Mutha kuthandiza kuphunzitsa okhala nawo pafupi za Bitcoin popanda kulankhulana ndi aliyense. Yikani chimodzi mwa zitikiti zathu zaulere za Bitcoin poyera.",
+	"get_involved_sticker_content_2": "Anthu mazana amasikana ma QR code pa zitikiti izi mwezi uliwonse. Zitikiti za kukwera kwa mitengo zimalumikizana ndi tsamba la",
+	"get_involved_sticker_content_3": "Bitcoin ngati yankho la kukwera kwa mitengo.",
+	"get_involved_sticker_content_4": "Zitikiti zina zimalumikizana ndi tsamba lathu loyambirira lophunzitsa lomwe limaonetsa anthu momwe",
+	"get_involved_sticker_content_5": "Bitcoin ikumanga dziko labwino.",
+	"get_involved_sticker_content_6": "Poyika zitikiti izi mdera lanu pamalo omwe anthu aziona, mutha kuthandiza okhala nawo pafupi kuyamba ulendo wawo wa Bitcoin.",
+	"get_involved_request_a": "PEMPHANI",
+	"get_involved_sticker_pack": "PAKETI YA ZITIKITI",
+	"get_involved_postcard_header": "Tumizani khadi",
+	"get_involved_postcard_content_1": "Mutha kuthandiza kufalitsa Chiyembekezo cha Bitcoin kwa munthu amene mumudziwa potumiza khadi limodzi la makadi athu aulere.",
+	"get_involved_postcard_content_2": "Kumbuyo kwa khadi lililonse kuli ndi mawu olimbikitsa za Bitcoin pamodzi ndi QR code kuti muphunzire zambiri.",
+	"get_involved_postcard_content_3": "Potumiza khadi la Bitcoin kwa munthu, mutha kuwathandiza kuona Bitcoin munjira yatsopano.",
+	"get_involved_postcard_pack": "PAKETI YA MAKADI",
+	"get_involved_business_header": "Bweretsani bizinesi",
+	"get_involved_business_content_1": "Mukufuna kuthandiza kumanga chuma cha Bitcoin? Chipangizo chathu cha Bizinesi cha Bitcoin chimapangitsa kukhala kosavuta kuyankhulana ndi bizinesi za kulandira malipiro a Bitcoin.",
+	"get_involved_business_content_2": "Chipangizo chilichonse cha bizinesi chimaphatikiza mapepala omwe amasonyeza phindu lolandira malipiro a Bitcoin. Pepala lililonse limalumikizana ndi",
+	"get_involved_business_content_3": "zipangizo zaulere za bizinesi za Bitcoin.",
+	"get_involved_business_kit": "CHIPANGIZO CHA BIZINESI"
+}

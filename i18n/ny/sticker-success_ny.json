@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"sticker_success_1": "Mulandira zitikiti zanu mu masabata 2 mpaka 4. Pomwe mukudikira, ganizani za malo abwino oyikira zitikiti zanu!",
+	"sticker_success_2": "Malo abwino a zitikiti ndi:",
+	"sticker_success_list_1": "poyera pomwe anthu aziona",
+	"sticker_success_list_2": "pamalo omwe sizingachotsedwe msanga (zitikiti sizipangitsa kuwonongeka kwamuyaya)",
+	"sticker_success_list_3": "pa malo omwe zimamatira bwino (chitsulo, pulasitiki, galasi)",
+	"sticker_success_list_4": "OSATI pa malo aumwini, kuvundikira zizindikiro, ma ATM, kapena ma pompi a mafuta",
+	"sticker_success_3": "Mukufuna kuona kumene anthu ena akuyika zitikiti zawo?",
+	"sticker_success_flyers_bar_new": "YATSOPANO!",
+	"sticker_success_flyers_bar_cta": "Sindikizani ndi Kutchera Mapepala a Bitcoin →"
+}

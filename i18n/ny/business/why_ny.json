@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Phunzirani chifukwa Bitcoin ili yabwino kwa bizinesi",
+	"why_header": "BITCOIN NDI YABWINO KWA BIZINESI",
+	"why_good_for_you": "BITCOIN NDI YABWINO KWA INU NAWONSO!",
+	"why_learn_more_lowercase": "Phunzirani zambiri.",
+	"why_s1": "Bitcoin ilibe kukwera kwa mitengo",
+	"why_s1_c1": "Kukwera kwa mitengo kumachitika ndalama zambiri zikasindikizidwa kapena kupangidwa kuchokera paliponse. Izi zimapangitsa ndalama zanu kukhala zochepa mtengo pamene nthawi ikupita.",
+	"why_s1_c2": "Bitcoin ili ndi kuchuluka kokhazikika, kutanthauza kuti palibe amene angasindikize Bitcoin zambiri.",
+	"why_s2": "Bitcoin ilibe kuthawa kwa anthu kumabanki",
+	"why_s2_c1": "Mabanki angapo ku United States agwa m'zaka zapitazi chifukwa cha kuthawa kwa anthu kumabanki.",
+	"why_s2_c2": "M'malo mosungira ndalama zanu, mabanki amayika ndalama zanu ndi kubwereketsa. Ngati zikayikidwezo sizinayende bwino, alibe ndalama zokwanira kukubwezerani.",
+	"why_s2_c3": "Ndipo inshulansi ya FDIC ili ndi $1 yokha pa $100 iliyonse yomwe akuteteza.",
+	"why_s3": "Bitcoin ilibe chilolezo",
+	"why_s3_c1": "Mosiyana ndi maukonde a ndalama achikhalidwe, Bitcoin sikufuna chilolezo kuti igwiritsidwe ntchito.",
+	"why_s3_c2": "Izi zikutanthauza kuti palibe amene angakuletseni kugwiritsa ntchito Bitcoin pa chifukwa chilichonse. Ndi netiweki yoyamba ya ndalama yomwe mungagwiritse ntchito popanda mantha a kuletsa kapena kulanda.",
+	"why_s4": "Bitcoin ikumanga dziko labwino",
+	"why_s4_c1": "Bitcoin ndi teknoloji yomwe anthu ambiri samaimvetsetsa koma ikumanga dziko labwino.",
+	"why_s4_c2": "Bitcoin yathandiza odziteteza ufulu wa anthu kulimbana ndi mazunzo, yachepetsa kutulutsa kwa methane padziko lonse, yapulumutsa minda ya zokongola zachilengedwe, ndi zinthu zina zambiri."
+}

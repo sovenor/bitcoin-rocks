@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Ilibe Kuthawa kwa Anthu Kumabanki",
+	"bank_runs_header": "BITCOIN ILIBE KUTHAWA KWA ANTHU KUMABANKI",
+	"bank_runs_header_2": "KOMA BANKI YANU MWINA ILI NAZO",
+	"bank_runs_what": "KUTHAWA KWA ANTHU KUMABANKI NDI CHIYANI?",
+	"bank_runs_what_content_1": "Kuthawa kwa anthu kumabanki kumachitika anthu ambiri akayesa kuchotsa ndalama zawo ku banki nthawi imodzi.",
+	"bank_runs_what_content_2": "Ngati mabanki alibe ndalama zokwanira kukwaniritsa kuchotsa, amatha kugwa kwathunthu pakachitika kuthawa kwa anthu kumabanki.",
+	"bank_runs_how": "KUTHAWA KWA ANTHU KUMABANKI KUMACHITIKA BWANJI?",
+	"bank_runs_how_content_1": "Dongosolo lathu la mabanki ndi 'losunga gawo' lomwe likutanthauza kuti mabanki samangosungira ndalama zanu mu chipinda ndi kudikira kuti muzigwiritse ntchito kapena kuzichotsa.",
+	"bank_runs_how_content_2": "M'malo mwake, banki yanu imatenga ndalama zanu ndipo imazibwereketsa kapena kuziyika. Izi zimatha kutsekera ndalama zanu kwa nthawi yaitali, ngakhale banki akukulonjezani kuthekera kochotsa ndalama zanu nthawi iliyonse.",
+	"bank_runs_how_content_3": "Ndiye chimachitika ndi chiyani mukayesa kuchotsa ndalama zanu banki atabwereketsa kapena kuziyika?",
+	"bank_runs_how_content_4": "Si vuto ngati ndinu nokha amene akuyesa kuchotsa. Banki angotenga ndalama za wina ndipo akupatsani. Koma chimachitika ndi chiyani anthu ambiri akayesa kuchotsa nthawi imodzi?",
+	"bank_runs_how_content_5": "Anthu ambiri ku USA anazindikira pamene panachitika kuthawa ku Silicon Valley Bank mu March 2023.",
+	"bank_runs_how_content_6": "Bankiyo anayika ndalama za makasitomala awo mu ma bondi a boma omwe anatsekeredwa kwa zaka mpaka 30. Kuipirapo, mtengo wa ma bondiwo unagwa kwambiri posachedwa, choncho Silicon Valley Bank sangathe kungogulitsa ma bondi kuti apeze ndalama za oika ndalama. Analibe ndalama zokwanira kukwaniritsa kuchotsa kwa oika ndalama.",
+	"bank_runs_how_content_7": "Pamene anthu ambiri anazindikira, vutoli linangokula. Mapempho ambiri ochotsa anabwera, koma ambiri sanayang'aniridwe. Mabizinesi masauzande anazindikira kuti sadzatha kulipira ogwira ntchito awo chifukwa cha kugwa kwa bankiyo.",
+	"bank_runs_how_content_8": "FDIC inalowa ndipo inavomereza kubwezera oika ndalama. Vuto lathetsedwa? Osati kwenikweni...",
+	"bank_runs_fdic": "KODI INSHULANSI YA FDIC IMATETEZA NDALAMA ZANGA?",
+	"bank_runs_fdic_content_1": "Inshulansi ya FDIC yapangidwa kuteteza oika ndalama ku banki ngati banki igwa. Zoikidwa zimatetezedwa mpaka $250,000 pa woika ndalama aliyense. Zikumveka bwino, sichoncho?",
+	"bank_runs_fdic_content_2": "Osati kwenikweni. Ngati banki igwa, kodi FDIC imapeza ndalama kuti? Ali ndi ndalama za inshulansi za madola biliyoni 125.",
+	"bank_runs_fdic_content_3": "Zimenezi zikumveka ndalama zambiri mpaka mutayerekezera ndi kuchuluka kwa ndalama zoikidwa zomwe amateteza: pafupifupi madola triliyoni 10 kapena biliyoni 10,000.",
+	"bank_runs_fdic_content_4": "FDIC amaonetsa pa webusayiti yawo kuti ali ndi ndalama zokwanira mu ndalama zawo za inshulansi kuvundikira pang'ono kupitirira 1% ya ndalama zoikidwa.",
+	"bank_runs_fdic_content_5": "Pakagwa banki yomwe ipitirira ndalama za inshulansi ya FDIC, ndi zotheka (koma osatsimikizika) kuti boma la US lingasindikize ndalama kuti libwezere oika ndalama.",
+	"bank_runs_fdic_content_6": "Koma kusindikiza ndalama kumapangitsa kukwera kwa mitengo, choncho si yankho labwino.",
+	"bank_runs_safe": "KODI PALI MABANKI OMWE SAMAGWIRITSA NTCHITO KUSUNGA GAWO?",
+	"bank_runs_safe_content_1": "Mabanki ena ayesera kukhala 'mabanki otetezeka' omwe samabwereketsa kapena kuyika ndalama za oika ndalama.",
+	"bank_runs_safe_content_2": "Ngakhale mabanki otetezeka awa akanakhala opanda chiwopsezo cha kuthawa kwa anthu kumabanki, mapempho awo akanidwa ndi Federal Reserve. Izi zikutanthauza kuti sangagwire ntchito mwalamulo ngati mabanki.",
+	"bank_runs_safe_content_3": "Chifukwa analetsereka kugwira ntchito, palibe mabanki lero omwe samagwiritsa ntchito kusunga gawo.",
+	"bank_runs_safe_content_4": "Mwayi wabwino, pali njira yotulukira mu dongosolo la kusunga gawo kukhala banki yanu. Ayi, sitikuyankhula za kubisa ndalama pansi pa bedi.",
+	"bank_runs_safe_content_5": "Kusunga ndalama ndi chiwopsezo cha kukwera kwa mitengo.",
+	"bank_runs_safe_content_6": "Tikuyankhula za Bitcoin: dongosolo latsopano la ndalama lomwe limakuthandizani kukhala banki yanu.",
+	"bank_runs_protect": "KODI BITCOIN INGANDILETEZE KU KUTHAWA KWA ANTHU KUMABANKI?",
+	"bank_runs_protect_content_1": "Inde, Bitcoin ndi dongosolo la ndalama losunga kwathunthu.",
+	"bank_runs_protect_content_2": "Kuthawa kwa anthu kumabanki ndikosatheka mu Bitcoin bola muchotse Bitcoin yanu ku chikwama chanu. Musasiye bitcoin yanu pa exchange kapena mu chikuto ngati Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Onani Gaidi yathu yosavuta ya Zikwama za Bitcoin kuti muphunzire momwe mungachotsere ku chikwama chanu.",
+	"bank_runs_protect_content_4": "Ndi Bitcoin, mungathe kukhala ndi ulamuliro wa ndalama zanu."
+}

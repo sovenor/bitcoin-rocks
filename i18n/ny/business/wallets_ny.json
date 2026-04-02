@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"how_to_accept_bitcoin_payments": "Momwe Mungalandirire Malipiro a Bitcoin",
+	"wallets_header": "PEZANI CHIKWAMA CHA BITCOIN CHAULERE KUTI MULANDIRE MALIPIRO A BITCOIN",
+	"wallets_intro_1": "Zikwama zonse za Bitcoin zimagwirizana, choncho makasitomala anu angakulipirani mu Bitcoin mosasamala za chikwama chomwe akugwiritsa ntchito.",
+	"wallets_intro_2": "Zikwama za Bitcoin yokha:",
+	"wallets_intro_3": "Izi ndi zikwama zenizeni za Bitcoin zomwe zimatsegula phindu lonse la Bitcoin: opanda anthu apakati, malipiro ochepa, ndi opanda kubweza kapena chinyengo.",
+	"wallets_intro_4": "Zikwama zosakaniza:",
+	"wallets_intro_5": "Izi zimakuthandizani kusintha gawo lililonse la Bitcoin yanu kukhala madola pamene kasitomala akulipirani. Malipiro amakhalabe ochepa kuposa malipiro a khadi la ngongole, koma okwera kuposa malipiro enieni a Bitcoin.",
+	"wallets_intro_6": "Zonse ziwiri ndi njira zabwino zolandirira Bitcoin. Chikwama chomwe mungagwiritse ntchito chidzadalira kukula ndi mtundu wa bizinesi yanu.",
+	"wallets_choice_sole": "zikwama za bizinesi za mwini mmodzi",
+	"wallets_choice_multiple": "zikwama za bizinesi za ogwira ntchito ambiri",
+	"wallets_choice_online": "zikwama za bizinesi za pa intaneti",
+	"wallets_choice_invoice": "zikwama za bizinesi zotumiza malipiro",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Mutha kulandira malipiro a Bitcoin ndi chipangizo chanu cha Square PoS chomwe mulipo kapena kuphatikiza pa shopo ya pa intaneti. Kulandiridwa kwa Bitcoin sikudayamba kukhala kosavuta chonchi.",
+	"wallets_feature_bitcoin_only": "Chikwama cha Bitcoin yokha",
+	"wallets_feature_no_info": "Sikufunika zambiri",
+	"wallets_feature_in_person": "Malipiro amunthu ndi munthu okha",
+	"wallets_feature_settles_bitcoin": "Kulipidwa 100% mu Bitcoin",
+	"wallets_feature_hybrid": "Chikwama chosakaniza",
+	"wallets_feature_info": "Zambiri za bizinesi zikufunika",
+	"wallets_feature_in_person_online": "Malipiro amunthu ndi munthu ndi pa intaneti",
+	"wallets_feature_settles_both": "Kulipidwa mu Bitcoin ndi madola",
+	"wallets_feature_multiple_employees": "Kuthandizira ogwira ntchito ambiri (BPTs)",
+	"wallets_feature_self_hosted": "Kudzisamalira wekha = malipiro 0%",
+	"wallets_feature_online_store": "Kuphatikiza ndi shopo ya pa intaneti",
+	"wallets_feature_invoicing": "Pulogalamu yaulere yotumizira malipiro",
+	"wallets_get_wallet": "PEZANI CHIKWAMA"
+}

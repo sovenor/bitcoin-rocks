@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin ndi Zojambula Zapamwamba",
+	"fine_art_header": "KUSIYANA PAKATI PA",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "NDI",
+	"fine_art_header_4": "ZOJAMBULA ZAPAMWAMBA",
+	"fine_art_intro_1": "Zojambula zapamwamba zakhala chikayikidwe cha anthu olemera kwa zaka mazana ndipo nthawi zambiri zimaonedwa ngati malo osungira chuma.",
+	"fine_art_intro_2": "Bitcoin ndi ndalama zadigitala zomwe anthu ambiriso amaona ngati malo osungira chuma ndi chikayikidwe.",
+	"fine_art_intro_3": "Koma kodi zojambula zamaonekedwe zimasiyana bwanji ndi ndalama zadigitala ngati Bitcoin? Tiyeni tione kusiyana pakati pa Bitcoin ndi Zojambula Zapamwamba.",
+	"fine_art": "ZOJAMBULA ZAPAMWAMBA",
+	"fine_art_point_1": "Chilichonse ndi chapadera",
+	"fine_art_point_2": "Chimafuna malonda apadera",
+	"fine_art_point_3": "Malipiro okwera a malonda",
+	"fine_art_point_4": "Singagawidwe",
+	"fine_art_point_5": "Chimafuna otsimikizira akatswiri",
+	"fine_art_point_6": "Chiwopsezo cha kuwonongeka",
+	"fine_art_point_7": "Chocheperako kwa olemera okha",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Yosinthana kwathunthu",
+	"bitcoin_point_2": "Msika wa 24/7 padziko lonse",
+	"bitcoin_point_3": "Malipiro ochepa a machitidwe",
+	"bitcoin_point_4": "Yosavuta kugawa",
+	"bitcoin_point_5": "Yotsimikizirika ndi cryptography",
+	"bitcoin_point_6": "Yovuta kuwonongedwa",
+	"bitcoin_point_7": "Yopezeka kwa aliyense",
+	"point_1_summary_1": "Bitcoin imagwira ntchito mofanana - bitcoin imodzi ndi yofanana ndi bitcoin ina iliyonse padziko lonse. Zojambula zapamwamba ndi zapadera pamapangidwe, mbiri, kuyendera, ndi chiyambi, zomwe zimapangitsa kuyerekezera ndi kuwerengera kukhala kovuta kwambiri.",
+	"point_2_summary_1": "Bitcoin imagulitsidwa pa msika wa 24/7 padziko lonse pomwe aliyense wokhala ndi intaneti amatha kugula kapena kugulitsa nthawi yomweyo. Zojambula zapamwamba zimafuna nyumba za malonda zapadera, ndipo malonda amatha kutenga miyezi.",
+	"point_3_summary_1": "Kugula kapena kugulitsa bitcoin nthawi zambiri kumalandira malipiro ochepa kwambiri. Zojambula zapamwamba zimabweretsa ndalama zambirimbiri kuphatikiza malipiro oogula, malipiro a ogulitsa, inshulansi, kuyendetsa, ndi ena.",
+	"point_4_summary_1": "Bitcoin imatha kugawidwa kukhala zigawo 100 miliyoni zomwe zimatchedwa satoshis, zomwe zimapangitsa kukhala yabwino pa malonda a kukula kulikonse. Zojambula zapamwamba singagawidwe.",
+	"point_5_summary_1": "Umwini ndi kunena kwa Bitcoin kumatha kutsimikizidwa pa blockchain ndi aliyense. Zojambula zapamwamba zimafuna otsimikizira akatswiri odula ndipo zachinyengo nthawi zambiri zimanyenga dziko la zojambula.",
+	"point_6_summary_1": "Bitcoin, ikasungidwa bwino, singawonongeke ndi madzi, moto, zivomezi, mphepo, kuba, kapena masoka ena. Zojambula zapamwamba zili pa chiwopsezo cha kuwonongeka kwa mtundu uliwonse.",
+	"point_7_summary_1": "Bitcoin imatha kugulidwa ndi kugulitsidwa ndi aliyense wokhala ndi intaneti ndi ndalama zing'onozing'ono. Chikayikidwe cha zojambula zapamwamba ndi cha anthu olemera chifukwa cha mitengo yokwera."
+}

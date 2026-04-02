@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"free_bitcoin_postcards": "Makadi a Bitcoin aulere kuchokera ku bitcoin.rocks",
+	"postcards_description": "Pezani Paketi ya Makadi a Bitcoin aulere ndipo mugawane Bitcoin ndi munthu amene mumudziwa.",
+	"postcards_header": "PULOGALAMU YA MAKADI YATSEKEKA",
+	"postcards_program_closed_message": "Pulogalamu yathu ya makadi a Bitcoin aulere yatha. Zikomo kwa aliyense amene anatengapo mbali pofalitsa maphunziro a Bitcoin kudzera mu kalata!",
+	"postcards_sticker_alternative_header": "PEZANI ZITIKITI ZA BITCOIN ZAULERE M'MALO MWAKE",
+	"postcards_sticker_alternative_message": "Pitirizani kufalitsa kudziwa kwa Bitcoin ndi pulogalamu yathu ya zitikiti zaulere! Zitikiti zathu za Bitcoin ndi zabwino kwambiri kugawana pamalo oyera ndipo zili ndi ma QR code omwe amalumikizana ndi zomwe zaphunzitsa.",
+	"postcards_sticker_cta": "PEZANI ZITIKITI ZAULERE",
+	"postcards_step_2": "MOMWE MAKADI ANKAONEKERA",
+	"postcards_instructions_4": "Tinapanga makadi awa kuti tikhale mosavuta kubweretsa munthu amene mumudziwa ku Bitcoin! Wonjezani adilesi ndi sitampu ndipo muyike khadi lanu mu kalata.",
+	"postcards_instructions_5": "Cholinga chathu ndi kufulumizitsa kugwiritsiridwa ntchito kwa Bitcoin. Mutha kuthandiza popeza zitikiti zaulere ndi kuziyika pamalo oyera!",
+	"postcards_instructions_6": "Tonse timadziwa anthu angapo omwe angapindule ndi kuphunzira zambiri za Bitcoin. Gawanani zitikiti za Bitcoin ndi iwo lero!"
+}

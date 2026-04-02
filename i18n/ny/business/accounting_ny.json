@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_business_accounting_guide": "Gaidi ya Kulemba Ndalama kwa Bizinesi ya Bitcoin",
+	"accounting_description": "Phunzirani momwe mungalembe bwino malipiro a Bitcoin mu kulemba ndalama kwa bizinesi yanu.",
+	"accounting_header": "GAIDI YA KULEMBA NDALAMA YA BITCOIN",
+	"accounting_s1_c1": "Kulandira Bitcoin kuli ndi phindu zambiri monga kulandira malipiro ndi malipiro ochepa ndi kupeza makasitomala ambiri.",
+	"accounting_s1_c2": "Ngati mugwiritsa ntchito Chikwama Chosakaniza kuchokera ku Gaidi yathu ya Zikwama ndipo muzigulitsa mwachindunji 100% ya Bitcoin yomwe mwalandira kukhala madola, simukufunika kusintha chilichonse mu kulemba ndalama kwanu.",
+	"accounting_s1_c3": "Onani Gaidi ya Zikwama.",
+	"accounting_s1_c4": "Komabe, ngati musunga Bitcoin ina yomwe mwalandira ngati Bitcoin, mukuyenera kutsatira zambiri zingapo za kulemba ndalama kwanu. Izi zingaoneke zovuta poyamba, koma ndizosavuta kwambiri.",
+	"accounting_s1_c5": "Chonde dziwani: gaidi iyi ndi yodziwitsira yokha ndipo siyoyenera kutengeredwa ngati uphungu wa misonkho.",
+	"accounting_s1_c6": "Ngati mukufuna uphungu wa misonkho, tikumalangiza kwambiri Satoshi Pacioli Accounting Services, kampani yakauntingi yomwe imadziwa bwino za kulemba ndalama kwa Bitcoin.",
+	"accounting_s2": "KUTSATIRA MTENGO WANU WOYAMBIRIRA",
+	"accounting_s2_c1": "Kutsatira mtengo wanu woyambirira ndi kusiyana kwakukulu pakati pa kulemba ndalama kwa madola ndi kulemba ndalama kwa Bitcoin. Ngakhale mumaona bizinesi yanu mu Bitcoin, mukuyenera kunena mtengo wa madola wa machitidwe aliwonse pa misonkho yanu.",
+	"accounting_s2_c2": "Ngati mugwiritsa ntchito QuickBooks, mutha kuchita izi mwachindunji pogwiritsa ntchito Bitcoin Sync plugin.",
+	"accounting_s2_c3": "Ngati simugwiritsa ntchito QuickBooks, tikumalangiza Satoshi Pacioli Accounting Services, kampani yakauntingi yomwe imadziwa bwino za kulemba ndalama kwa Bitcoin.",
+	"accounting_s2_c4": "Kuchita izi pamanja, mukungofunika kutsatira kuchuluka kwa Bitcoin yomwe mwalandira ndi mtengo wa madola wa machitidwe a Bitcoin tsiku limenelo.",
+	"accounting_s2_c5": "Mutha kuona mtengo wapano wa Bitcoin mu madola pano.",
+	"accounting_s2_c6": "Sungani zambiri izi mu spreadsheet ya Excel ndipo mupatseni mkauntanta wanu.",
+	"accounting_s2_c7": "Mungathenso kubweretsa deta iyi mu Excel mwachindunji.",
+	"accounting_s2_c8": "Mungathenso kuona mtengo wakale wa Bitcoin mu madola pa masiku ambuyo, choncho simukuyenera kuchita izi tsiku lililonse.",
+	"accounting_s3": "KUGWIRITSA NTCHITO KAPENA KUGULITSA BITCOIN YANU",
+	"accounting_s3_c1": "Ngati mugwiritsa ntchito Chikwama Chosakaniza kuchokera ku Gaidi yathu ya Zikwama ndipo muzigulitsa mwachindunji 100% ya Bitcoin yomwe mwalandira kukhala madola, simukufunika kusintha chilichonse mu kulemba ndalama kwanu.",
+	"accounting_s3_c2": "Onani Gaidi ya Zikwama.",
+	"accounting_s3_c3": "Ngati musankha kugwiritsa ntchito kapena kugulitsa Bitcoin ina yomwe mwalandira mutaisunga kwa kanthawi, mukungofunika kuwonjezera mtengo womwe mwagulitsira mu spreadsheet yanu ya Excel yotsatira mtengo wanu woyambirira.",
+	"accounting_s3_c4": "Mwachitsanzo, ngati mwalandira Bitcoin wopanda mtengo wa $100 pa January 1 ndipo mwasankha kugulitsa kapena kugwiritsa ntchito pa February 1 pamtengo watsopano wa $110, mukuyenera kulemba phindu la $10 mu kulemba ndalama kwanu.",
+	"accounting_s3_c5": "Izi zingathenso kuchitika mosiyana. Mwachitsanzo, ngati mwalandira Bitcoin wopanda mtengo wa $100 pa January 1 ndipo mwasankha kugulitsa kapena kugwiritsa ntchito pa February 1 pamtengo watsopano wa $90, mukuyenera kulemba kutayika kwa $10 mu kulemba ndalama kwanu.",
+	"accounting_s4": "NDIKUFUNA THANDIZO ZAMBIRI",
+	"accounting_s4_c1": "Ngati mukufuna thandizo lowonjezeka kubweretsa Bitcoin mu kulemba ndalama kwa bizinesi yanu, tikumalangiza kwambiri Satoshi Pacioli Accounting Services, kampani yakauntingi yomwe imadziwa bwino za kulemba ndalama kwa Bitcoin.",
+	"accounting_s4_c2": "Phunzirani zambiri za Satoshi Pacioli Accounting Services."
+}

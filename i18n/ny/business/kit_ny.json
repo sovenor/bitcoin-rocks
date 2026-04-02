@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_business_kit": "Chipangizo cha Bizinesi cha Bitcoin",
+	"kit_header": "SINDIKIZANI CHIPANGIZO CHANU CHA BIZINESI CHA BITCOIN",
+	"kit_request": "PEMPHANI CHIPANGIZO CHANU CHAULERE",
+	"kit_request_details": "Chipangizo chilichonse cha Bizinesi cha Bitcoin chimaphatikiza mapepala awiri kuti zikhale zosavuta kupangitsa malonda akomweko kulandira Bitcoin.",
+	"kit_country_global_print": "Padziko lonse — Sindikizani nokha",
+	"kit_enter_address": "Lembani adilesi yanu ndipo tikutumizani Chipangizo cha Bizinesi cha Bitcoin chaulere mu envelopu yoyera. Deta ya adilesi imachotsedwa chipangizo chikatumizidwa.",
+	"kit_print_details": "Mutha kutengapo mbali posindikiza mapepala anu, kulikonse komwe muli! Mutha kutumiziranso malonda gaidi yathu ya bizinesi yadigitala kuti mupuse kusindikiza.",
+	"kit_view_files": "ONANI MAFAYILO",
+	"kit_digital_kit": "CHIPANGIZO CHADIGITALA",
+	"kit_resources": "CHIPANGIZO CHILICHONSE CHIMALUMIKIZANA NDI ZIPANGIZO ZAULERE IZI"
+}

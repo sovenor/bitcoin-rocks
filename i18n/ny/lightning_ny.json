@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_lightning_wallet_guide": "Gaidi ya Zikwama za Bitcoin Lightning",
+	"lightning_description": "Zikwama za Lightning zimakuthandizani kutumiza Bitcoin mwachangu ndi mwatsika mtengo pomwe mukusunga umwini wanu.",
+	"lightning_header": "GAIDI YA ZIKWAMA ZA LIGHTNING",
+	"lightning_s1_c1": "Lightning imakuthandizani kutumiza malipiro a Bitcoin mwachangu ndi mwatsika mtengo.",
+	"lightning_s1_c2": "N'kofunika kudziwa kuti kugwiritsa ntchito Lightning kumabweretsa kusinthana. Posinthirana malipiro a Bitcoin achangu ndi otsika mtengo, nthawi zambiri mumachepetsa chitetezo china.",
+	"lightning_s1_c3": "Nthawi zambiri, Lightning iyenera kugwiritsidwa ntchito ndi ndalama zing'onozing'ono za bitcoin yokha. Ndalama zambiri za bitcoin ziyenera kusungidwa mu chikwama cha chipangizo.",
+	"lightning_s1_c4": "Onani Gaidi yathu ya Zikwama za Chipangizo kuti mudziwe zambiri.",
+	"lightning_s1_c5": "Zikwama zonse za Lightning si zofanana. Mutha kudziwa chikwama chomwe chili ndi kusinthana koyenera kwa inu pofunsa funso limodzi losavuta:",
+	"lightning_question_1": "NDI KUSINTHANA KOTANI KOMWE NDI KOYENERA KWA INE?",
+	"lightning_s2_c1": "Chimodzi mwa zatsopano za Bitcoin ndi kuthekera kosungira popanda kudalira wosunga, monga banki. Zikwama zokusunga wekha zimatsegula mphamvu yonse ya Bitcoin.",
+	"lightning_s2_c2": "Ndi chikwama chokusunga wekha, ndinu nokha amene ali ndi kuthekera kogwiritsa ntchito kapena kutumiza ndalama zanu. Palibe amene angakuletseni, kukutsekani, kapena kukubani mukagwiritsa ntchito chikwama chokusunga wekha. Izi zimatchedwanso zikwama zopanda wosunga.",
+	"lightning_s2_c3": "Njira yaufulu kwambiri yogwiritsira ntchito Lightning ndi kuthamanga node yanu.",
+	"lightning_s2_c4": "Gaidi iyi imakhala yokhudza zikwama za Lightning zosavuta zomwe sizifuna node yanu.",
+	"lightning_s2_c5": "N'kofunika kudziwa kuti ngakhale pogwiritsa ntchito chikwama cha Lightning chopanda wosunga, mukudalirabe wopanga chikwamayo kuti asatumize zosintha zoyipa ndi kuba ndalama zanu.",
+	"lightning_s3_c1": "Zikwama za wosunga ndi zikwama zomwe simuli ndi ulamuliro wa ndalama zanu.",
+	"lightning_s3_c2": "Zikwama izi zimafanana kwambiri ndi dongosolo la mabanki pomwe mukuyenera kukhulupirira wina kukulolezani kupeza ndalama zanu.",
+	"lightning_s3_c3": "Zikwama za wosunga zingaoneke zosavuta, koma wosungayo ali ndi kuthekera ka teknikaili kuba ndalama zonse za ogwiritsa ntchito nthawi iliyonse.",
+	"lightning_s3_c4": "Anthu ena amakonda zikwama za Lightning za wosunga kwa ndalama zing'onozing'ono za bitcoin chifukwa ndi zosavuta kugwiritsa ntchito. Kumbukirani: makiyi anu osati, ndalama zanu osati!",
+	"lightning_question_2": "SANKHANI CHIKWAMA CHANU",
+	"lightning_s4_c1": "Ndi izi zonse m'maganizo, tsopano mutha kusankha chikwama cha Lightning chokhala ndi kusinthana koyenera kwa inu.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Mwayi wochuluka",
+	"lightning_mobile_app": "Pulogalamu ya foni",
+	"lightning_free": "Yaulere 100%",
+	"lightning_merchants": "Yabwino kwa amalonda",
+	"lightning_starter": "Chikwama chabwino choyambira",
+	"lightning_browser": "Chogwira ntchito pa msakatuli",
+	"lightning_custodial": "Chikwama chathunthu cha wosunga",
+	"lightning_cta_hardware": "Mukufunafuna Gaidi yathu ya Zikwama za Chipangizo za Bitcoin?"
+}

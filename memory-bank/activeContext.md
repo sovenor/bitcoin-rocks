@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Hindi Language Added — April 2026
+## Latest: Chichewa Language Added — April 2026
+- Added Chichewa (`ny`, Chicheŵa) as the 18th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/chichewa/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 18 languages
+- Ran SEO content injection successfully
+
+## Hindi Language Added — April 2026
 - Added Hindi (`hi`, हिन्दी) as the 17th language on bitcoin.rocks
 - Created all 90 translation files via 8 scripts in `scripts/hindi/`
 - Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt

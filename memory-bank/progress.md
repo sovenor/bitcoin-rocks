@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Chichewa (ny) Language Added — April 2026
+- Added Chichewa (Chicheŵa) as the 18th language
+- Created all 90+ translation files in `i18n/ny/` mirroring the English directory structure
+- Translation scripts in `scripts/chichewa/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (17→18)
+- Ran SEO content injection
+
 ## Hindi (hi) Language Added — April 2026
 - Added Hindi (हिन्दी) as the 17th language
 - Created all 90 translation files in `i18n/hi/` mirroring the English directory structure

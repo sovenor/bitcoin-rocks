@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"free_bitcoin_stickers": "Zitikiti za Bitcoin zaulere kuchokera ku bitcoin.rocks",
+	"stickers_description": "Yikani chitikiti cha Bitcoin poyera kuti anthu okhala nawo pafupi aphunzire.",
+	"stickers_header": "ZITIKITI ZA BITCOIN ZAULERE",
+	"stickers_choose_header": "SANKHANI PAKETI YANU YA ZITIKITI",
+	"stickers_choose_c1": "Cholinga chathu ndi kukuthandizani kubweretsa anthu ambiri ku Bitcoin poyika zitikiti za Bitcoin poyera. Zitikiti zathu zonse zili ndi ma QR code omwe amalumikizana ndi masamba ophunzitsa za",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "kukwera kwa mitengo",
+	"stickers_choose_c4": "Sankhani paketi yanu ya zitikiti pansipa",
+	"stickers_text_pack": "PAKETI YA MAWU",
+	"stickers_signs_pack": "PAKETI YA ZIZINDIKIRO",
+	"stickers_instructions_1": "Lembani adilesi yanu ndipo tikutumizani Paketi ya Zitikiti za Bitcoin zaulere mu kalata! Zitikiti zanu zitumizidwa mu envelopu yoyera.",
+	"stickers_instructions_2": "Deta ya adilesi imachotsedwa zitikiti zanu zaulere zikatumizidwa.",
+	"stickers_share_header": "GAWANANI MALO ANU A ZITIKITI",
+	"stickers_share_c1": "Gawanani malo anu a zitikiti nafe pa Nostr ndipo muone kumene anthu ena akuyika zitikiti zawo.",
+	"stickers_btn_share_on_nostr": "GAWANANI PA NOSTR",
+	"stickers_btn_what_is_nostr": "NOSTR NDI CHIYANI?",
+	"stickers_flyers_link_before": "Pomwe mukuchita izi, sindikizani ndi kutchera ",
+	"stickers_flyers_link_text": "mapepala a Bitcoin",
+	"stickers_flyers_link_after": " kuti muthandize kubweretsa anthu ambiri ku Bitcoin.",
+	"stickers_country_global_print": "Padziko lonse — Sindikizani zitikiti zanga",
+	"stickers_country_global_order": "Padziko lonse — Odolani zambiri",
+	"placeholder_name_optional": "Dzina (osafunika)",
+	"placeholder_address_line_1": "Adilesi Mzere 1",
+	"placeholder_address_line_2": "Adilesi Mzere 2 (osafunika)",
+	"placeholder_city": "Mzinda",
+	"placeholder_state": "Chigawo",
+	"placeholder_province": "Chigawo",
+	"placeholder_zip_code": "Nambala ya Zipcode",
+	"placeholder_postal_code": "Nambala ya Pakalata",
+	"placeholder_language": "Chilankhulo",
+	"placeholder_which_stickers": "Zitikiti ziti?",
+	"placeholder_email_optional": "Lembani imelo yanu kuti mudziwe (osafunika)"
+}

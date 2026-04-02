@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"signs_description": "Tithandizeni kuyika Zizindikiro izi za Bitcoin ku America konse!",
+	"signs_title": "Zizindikiro za Bitcoin zaulere kuchokera ku bitcoin.rocks",
+	"signs_choose_header": "ZIKOMO POTHANDIZA KUYIKA ZIZINDIKIRO IZI ZA BITCOIN KU AMERICA KONSE!",
+	"signs_choose_c1": "Tsopano tatha zizindikiro kwathunthu! Cholinga chathu ndi kufulumizitsa kugwiritsiridwa ntchito kwa Bitcoin kudzera mu maphunziro.",
+	"signs_choose_c2": "Ambiri anu munathandiza poyika zizindikiro izi za Bitcoin zaulere poyera. Zizindikiro zathu zonse zili ndi ma QR code omwe amalumikizana ndi tsamba lophunzitsa za",
+	"signs_choose_c3": "kukwera kwa mitengo",
+	"signs_choose_c4": "Chifukwa cha gulu lathu lodabwitsa, tinafika kwa anthu masauzande ndi kuwathandiza kuyamba ulendo wawo wa Bitcoin.",
+	"signs_share_header": "GAWANANI MALO ANU A ZIZINDIKIRO",
+	"signs_share_c1": "Gawanani chithunzi cha malo anu a zizindikiro nafe pa Nostr ndipo muone kumene anthu ena akuyika zizindikiro zawo.",
+	"signs_btn_share_on_nostr": "GAWANANI PA NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR NDI CHIYANI?",
+	"signs_instructions_1": "Lembani adilesi yanu ndipo tikutumizani bokosi la zizindikiro 10 za Bitcoin mu kalata!",
+	"signs_instructions_2": "Deta ya adilesi imachotsedwa zizindikiro zanu zaulere zikatumizidwa."
+}

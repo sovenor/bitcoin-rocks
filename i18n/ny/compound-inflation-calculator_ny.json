@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"cic_header": "CHIPANGIZO CHOWERENGERA KUKWERA KWA MITENGO KOWONJEZEKA",
+	"cic_description": "Gwiritsani ntchito Chipangizo Chowerengera Kukwera kwa Mitengo Kowonjezeka kuti mudziwe kuti malipiro anu akuyenera kukwera bwanji kuti muyende ndi kukwera kwa mitengo.",
+	"what_can_i_do_about": "Ndingachitepo chiyani za",
+	"what_can_i_do_about_2": "kukwera kwa mitengo?",
+	"cic_inflation_cta": "Tulukani ku Kukwera kwa Mitengo ndi Bitcoin"
+}

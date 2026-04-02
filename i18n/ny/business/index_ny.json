@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ny"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin ndi yabwino kwa bizinesi",
+	"biz_header": "BITCOIN NDI YABWINO KWA BIZINESI",
+	"biz_s1": "Malipiro ochepa opanda kachepe",
+	"biz_s1_c1": "Bitcoin imakuthandizani kulandira malipiro mwachindunji kuchokera kwa makasitomala anu, mofanana ndi ndalama. Netiweki ya Bitcoin imagwira ntchito popanda anthu apakati monga mabanki ndi makampani a ma khadi a ngongole omwe amalandira ndalama zambiri.",
+	"biz_s2": "Kulipidwa msanga",
+	"biz_s2_c1": "Mofanana ndi ndalama, malipiro a Bitcoin amafika nthawi yomweyo. Simukuyenera kudikira kampani yanu ya khadi la ngongole kapena banki kuti akulipireni. M'malo mwake, mumapeza ndalama zanu nthawi yomweyo.",
+	"biz_s3": "Palibe kubweza kapena chinyengo",
+	"biz_s3_c1": "Chifukwa malipiro a Bitcoin amachitika mwachindunji pakati pa inu ndi makasitomala anu, ndizosatheka kuti wina aliyense abweze ndalama zanu.",
+	"biz_s3_c2": "Bitcoin yachinyengo singayendetsedwe pa Netiweki ya Bitcoin, kutanthauza kuti simuyenera kudera nkhawa za machitidwe achinyengo omwe angawononge bizinesi yanu.",
+	"biz_s4": "Pezani makasitomala ambiri",
+	"biz_s4_c1": "Anthu mamiliyoni ali ndi Bitcoin ndipo akufuna kuwagwiritsa ntchito pamalo omwe amalandiridwa.",
+	"biz_s4_c2": "Polandirangosimba Bitcoin, bizinesi yanu ingalembedwe pa mapu a amalonda a Bitcoin ndipo ingathe kupeza makasitomala atsopano a Bitcoin kwaulere.",
+	"biz_s4_c3": "Kulandira Bitcoin ndi kwaulere 100%. Palibe mapangano obisika kapena malipiro obisika."
+}
