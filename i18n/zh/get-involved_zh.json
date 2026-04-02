@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"get_involved_and_help_spread_bitcoin": "参与其中，帮助传播比特币",
+	"get_involved_description": "我们的免费资源让传播比特币的采用变得简单。",
+	"get_involved_header": "参与其中",
+	"get_involved_header_2": "传播比特币",
+	"get_involved_intro_1": "生活在当前世界的状态中可能令人沮丧。",
+	"get_involved_intro_2": "我们的货币已经破碎。因此，社会的基本组成部分也破碎了。",
+	"get_involved_intro_3": "如果您已经了解比特币，您知道比特币能带来的那种希望感。一个由更好的货币实现的更美好未来的希望。",
+	"get_involved_intro_4": "但您身边有太多人不知道比特币。他们和您生活在同一个破碎的世界里，但没有一盏灯塔帮助他们穿越黑暗。",
+	"get_involved_intro_5": "但您可以改变这一切。我们创建了几个免费资源，让向您身边的人传播比特币带来的希望变得简单。",
+	"get_involved_sticker_header": "在公共场所贴一张贴纸",
+	"get_involved_sticker_content_1": "您可以帮助教育周围的人了解比特币，而无需与任何人交谈。只需在公共场所贴上我们的免费比特币贴纸。",
+	"get_involved_sticker_content_2": "每个月都有数百人扫描这些贴纸上的二维码。通胀贴纸链接到关于",
+	"get_involved_sticker_content_3": "比特币是通胀解决方案",
+	"get_involved_sticker_content_4": "的页面。其他贴纸链接到我们的教育首页，向人们展示",
+	"get_involved_sticker_content_5": "比特币如何构建更美好的世界。",
+	"get_involved_sticker_content_6": "通过在您的社区中人们能看到的地方张贴这些贴纸，您可以帮助周围的人迈出了解比特币的第一步。",
+	"get_involved_request_a": "申请",
+	"get_involved_sticker_pack": "贴纸包",
+	"get_involved_postcard_header": "寄一张明信片",
+	"get_involved_postcard_content_1": "您可以通过向认识的人寄送我们的免费明信片来帮助传播比特币的希望。",
+	"get_involved_postcard_content_2": "每张明信片的背面都有关于比特币的有说服力的文字，以及用于了解更多信息的二维码。",
+	"get_involved_postcard_content_3": "通过寄送比特币明信片，您可以帮助某人以新的眼光看待比特币。",
+	"get_involved_postcard_pack": "明信片包",
+	"get_involved_business_header": "让一家企业加入",
+	"get_involved_business_content_1": "想要帮助建设比特币循环经济？我们的比特币商业工具包让向企业介绍接受比特币支付变得简单。",
+	"get_involved_business_content_2": "每个商业工具包包含传单，突出接受比特币支付的好处。每份传单链接到不同的",
+	"get_involved_business_content_3": "免费比特币商业资源。",
+	"get_involved_business_kit": "商业工具包"
+}

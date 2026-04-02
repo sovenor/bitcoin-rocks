@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"bitcoin_business_kit": "比特币商业工具包",
+	"kit_header": "打印您自己的比特币商业工具包",
+	"kit_request": "申请免费工具包",
+	"kit_request_details": "每个比特币商业工具包包含两份传单，让说服当地企业接受比特币变得简单。",
+	"kit_country_global_print": "全球 — 我自己打印工具包",
+	"kit_enter_address": "输入您的邮寄地址，我们将免费寄送比特币商业工具包，装在普通白色信封中。地址信息在发送工具包后会被删除。",
+	"kit_print_details": "无论您住在哪里，都可以通过打印自己的传单参与其中！您也可以将企业引导到我们的数字商业工具包，避免打印。",
+	"kit_view_files": "查看文件",
+	"kit_digital_kit": "数字工具包",
+	"kit_resources": "每个工具包链接到这些免费资源"
+}

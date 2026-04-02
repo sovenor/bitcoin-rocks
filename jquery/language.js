@@ -27,6 +27,7 @@ $(function() {
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'bg', name: 'български' },
     { code: 'ta', name: 'தமிழ்' },
+    { code: 'zh', name: '中文' },
     { code: 'zu', name: 'isiZulu' },
     { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
   ];

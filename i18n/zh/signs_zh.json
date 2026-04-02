@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"signs_description": "帮助我们在全美各地放置这些比特币标牌！",
+	"signs_title": "来自bitcoin.rocks的免费比特币标牌",
+	"signs_choose_header": "感谢您帮助我们在全美各地放置这些比特币标牌！",
+	"signs_choose_c1": "所有标牌现已发放完毕！我们的使命是通过教育加速比特币的采用。",
+	"signs_choose_c2": "你们中的许多人通过在公共场所放置这些免费比特币标牌来帮助。我们所有的标牌都有二维码，链接到关于",
+	"signs_choose_c3": "通胀",
+	"signs_choose_c4": "的教育页面。感谢我们了不起的社区，我们已经接触到了数千人，帮助他们迈出了了解比特币的第一步。",
+	"signs_share_header": "分享您的标牌位置",
+	"signs_share_c1": "在Nostr上与我们分享您的标牌位置照片，看看其他人把标牌放在了哪里。",
+	"signs_btn_share_on_nostr": "在NOSTR上分享",
+	"signs_btn_what_is_nostr": "什么是NOSTR？",
+	"signs_instructions_1": "输入您的邮寄地址，我们将寄送一箱10个比特币标牌！",
+	"signs_instructions_2": "地址信息在发送免费标牌后会被删除。"
+}

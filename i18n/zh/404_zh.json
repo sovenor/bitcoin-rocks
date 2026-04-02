@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"404_title": "404错误 | 页面未找到",
+	"404_message": "这个损坏的页面一点也不酷",
+	"404_home": "返回首页"
+}

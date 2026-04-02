@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Czech Language Added — April 2026
+## Latest: Mandarin Chinese Language Added — April 2026
+- Added Mandarin Chinese (`zh`, 中文) as the 16th language on bitcoin.rocks
+- Created all 90 translation files via 8 scripts in `scripts/chinese/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 16 languages
+- Ran SEO content injection successfully
+
+## Czech Language Added — April 2026
 - Added Czech (`cs`, Čeština) as the 15th language on bitcoin.rocks
 - Created all 90 translation files via 8 scripts in `scripts/czech/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

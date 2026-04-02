@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"cic_header": "复合通胀计算器",
+	"cic_description": "使用此复合通胀计算器了解您的工资需要增长多少才能跟上通胀。",
+	"what_can_i_do_about": "我能对",
+	"what_can_i_do_about_2": "通胀做什么？",
+	"cic_inflation_cta": "通过比特币摆脱通胀"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"escape_the_matrix_with_nostr": "通过Nostr逃离矩阵",
+	"nostr_header": "通过NOSTR逃离矩阵"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "比特币商户地图 — 免费列出您的企业",
+	"maps_header": "登记比特币商户地图，获得更多客户",
+	"maps_request_details": "在下方输入您的企业信息，我们将免费将您列入比特币商户地图。这将使比特币用户找到您的企业并在您这里消费！",
+	"maps_view": "在此查看地图。"
+}

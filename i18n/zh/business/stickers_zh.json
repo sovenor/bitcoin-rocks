@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"bitcoin_accepted_here_stickers": "「此处接受比特币」贴纸",
+	"stickers_header": "获取免费的「此处接受比特币」贴纸",
+	"stickers_request": "获取免费贴纸",
+	"stickers_request_details": "使用这些免费的「此处接受比特币」贴纸让您的客户知道您接受比特币付款。",
+	"stickers_country_global_print": "全球 — 我自己打印贴纸",
+	"stickers_request_instructions": "您将收到三张「此处接受比特币」贴纸，装在普通白色信封中。如果您的企业需要超过三张贴纸，请随时多次申请。地址信息在发送免费贴纸后会被删除。",
+	"stickers_print_details": "无论您住在哪里，都可以打印自己的「此处接受比特币」贴纸！点击下方的语言查看贴纸文件和说明。",
+	"stickers_request_language": "没有看到您的语言？填写下方表格，申请您语言的「此处接受比特币」贴纸文件。"
+}

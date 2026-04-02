@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"sign_success_1": "您将在1到2周内收到标牌。在此期间，想想标牌的好去处吧！",
+	"sign_success_3": "想看看其他人把标牌放在哪里吗？",
+	"signs_share_header": "分享您的标牌位置",
+	"signs_share_c1": "在Nostr上与我们分享您的标牌位置照片，我们将发送聪给您！聪是比特币的最小单位。",
+	"signs_btn_share_on_nostr": "在NOSTR上分享",
+	"signs_btn_what_is_nostr": "什么是NOSTR？"
+}

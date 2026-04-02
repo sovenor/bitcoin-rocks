@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"how_to_accept_bitcoin_payments": "如何接受比特币付款",
+	"wallets_header": "获取免费比特币钱包以接受付款",
+	"wallets_intro_1": "所有比特币钱包都是相互兼容的，因此无论客户使用哪种钱包，都可以用比特币向您付款。",
+	"wallets_intro_2": "纯比特币钱包：",
+	"wallets_intro_3": "这些是纯比特币钱包，可以解锁比特币的全部优势：没有中间人、低费用、无退款或欺诈。",
+	"wallets_intro_4": "混合钱包：",
+	"wallets_intro_5": "这些钱包允许您在客户付款后，将任意比例的比特币兑换为美元。费用仍然低于信用卡，但高于纯比特币付款。",
+	"wallets_intro_6": "两种类型都是接受比特币的好方法。具体使用哪种钱包取决于您企业的规模和类型。",
+	"wallets_choice_sole": "适合个体经营者的钱包",
+	"wallets_choice_multiple": "适合有多名员工的企业的钱包",
+	"wallets_choice_online": "适合在线企业的钱包",
+	"wallets_choice_invoice": "适合开发票企业的钱包",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "您可以使用现有的Square POS终端或在线商店集成来接受比特币付款。接受比特币付款从未如此简单。",
+	"wallets_feature_bitcoin_only": "纯比特币钱包",
+	"wallets_feature_no_info": "无需任何信息",
+	"wallets_feature_in_person": "仅限当面付款",
+	"wallets_feature_settles_bitcoin": "100%以比特币结算",
+	"wallets_feature_hybrid": "混合钱包",
+	"wallets_feature_info": "需要企业信息",
+	"wallets_feature_in_person_online": "当面和在线付款",
+	"wallets_feature_settles_both": "以比特币和美元结算",
+	"wallets_feature_multiple_employees": "支持多名员工（BPT）",
+	"wallets_feature_self_hosted": "自托管 = 0%手续费",
+	"wallets_feature_online_store": "在线商店集成",
+	"wallets_feature_invoicing": "免费发票软件",
+	"wallets_get_wallet": "获取钱包"
+}

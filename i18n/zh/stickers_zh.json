@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"free_bitcoin_stickers": "来自bitcoin.rocks的免费比特币贴纸",
+	"stickers_description": "在公共场所贴一张比特币贴纸，帮助您身边的人了解比特币。",
+	"stickers_header": "免费比特币贴纸",
+	"stickers_choose_header": "选择您的贴纸包",
+	"stickers_choose_c1": "我们的使命是帮助您通过在公共场所张贴比特币贴纸来说服更多人。我们所有的贴纸都有二维码，链接到关于",
+	"stickers_choose_c2": "比特币",
+	"stickers_choose_c3": "通胀",
+	"stickers_choose_c4": "的教育页面。在下方选择一个贴纸包",
+	"stickers_text_pack": "文字包",
+	"stickers_signs_pack": "标志包",
+	"stickers_instructions_1": "输入您的邮寄地址，我们将免费寄送一包比特币贴纸！您的贴纸将装在普通白色信封中寄出。",
+	"stickers_instructions_2": "地址信息在发送免费贴纸后会被删除。",
+	"stickers_share_header": "分享您的贴纸位置",
+	"stickers_share_c1": "在Nostr上与我们分享您的贴纸位置，看看其他人把贴纸贴在了哪里。",
+	"stickers_btn_share_on_nostr": "在NOSTR上分享",
+	"stickers_btn_what_is_nostr": "什么是NOSTR？",
+	"stickers_flyers_link_before": "同时，打印并张贴您自己的",
+	"stickers_flyers_link_text": "比特币传单",
+	"stickers_flyers_link_after": "，帮助说服更多人。",
+	"stickers_country_global_print": "全球 — 我自己打印贴纸",
+	"stickers_country_global_order": "全球 — 批量订购",
+	"placeholder_name_optional": "姓名（可选）",
+	"placeholder_address_line_1": "地址第1行",
+	"placeholder_address_line_2": "地址第2行（可选）",
+	"placeholder_city": "城市",
+	"placeholder_state": "州",
+	"placeholder_province": "省",
+	"placeholder_zip_code": "邮编",
+	"placeholder_postal_code": "邮政编码",
+	"placeholder_language": "语言",
+	"placeholder_which_stickers": "哪些贴纸？",
+	"placeholder_email_optional": "输入邮箱以获取通知（可选）"
+}

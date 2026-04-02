@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"free_bitcoin_flyers": "来自bitcoin.rocks的免费比特币传单",
+	"flyers_description": "在家打印比特币传单，放在公共场所帮助您身边的人了解比特币。",
+	"flyers_header_1": "打印并张贴",
+	"flyers_header_2": "比特币传单",
+	"flyers_intro_header": "如何打印和张贴这些比特币传单",
+	"flyers_intro_c1": "我们的使命是帮助您通过在公共场所张贴比特币传单来说服更多人。这份传单有一个二维码，链接到我们的",
+	"flyers_intro_c2": "比特币教育页面。",
+	"flyers_intro_c3": "通胀",
+	"flyers_intro_c4": "在家或在打印店打印这份传单。然后将其放在公告栏、城市电线杆和其他公共场所，让人们看到并了解比特币。",
+	"flyers_intro_c5": "同时，申请我们的",
+	"flyers_intro_c6": "免费比特币贴纸",
+	"flyers_intro_c7": "包，帮助说服更多人。",
+	"flyers_btn_download": "下载传单",
+	"flyers_btn_print": "打印传单",
+	"flyers_share_header": "分享您的传单位置",
+	"flyers_share_c1": "在Nostr上与我们分享您的传单位置，看看其他人把传单放在了哪里。",
+	"flyers_btn_share_on_nostr": "在NOSTR上分享",
+	"flyers_btn_what_is_nostr": "什么是NOSTR？"
+}

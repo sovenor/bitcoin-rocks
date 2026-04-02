@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"free_bitcoin_postcards": "来自bitcoin.rocks的免费比特币明信片",
+	"postcards_description": "获取免费的比特币明信片包，与认识的人分享比特币。",
+	"postcards_header": "明信片计划已结束",
+	"postcards_program_closed_message": "我们的免费比特币明信片计划已结束。感谢所有通过邮件帮助传播比特币教育的人！",
+	"postcards_sticker_alternative_header": "改为获取免费比特币贴纸",
+	"postcards_sticker_alternative_message": "继续通过我们的免费贴纸计划传播比特币意识！我们的比特币贴纸非常适合在公共场所分享，并带有链接到教育内容的二维码。",
+	"postcards_sticker_cta": "获取免费贴纸",
+	"postcards_step_2": "明信片是什么样的",
+	"postcards_instructions_4": "我们创建这些明信片是为了让向认识的人介绍比特币变得更容易！只需写上地址，贴上邮票，投入邮箱即可。",
+	"postcards_instructions_5": "我们的使命是加速比特币的采用。您可以通过获取免费贴纸并在公共场所张贴来帮助！",
+	"postcards_instructions_6": "我们都认识一些可能从了解更多比特币知识中受益的人。今天就与他们分享比特币贴纸吧！"
+}

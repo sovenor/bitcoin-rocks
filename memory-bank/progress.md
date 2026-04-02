@@ -1,5 +1,13 @@
 # Progress: bitcoin.rocks
 
+## Mandarin Chinese (zh) Language Added — April 2026
+- Added Mandarin Chinese (中文) as the 16th language
+- Created all 90 translation files in `i18n/zh/` mirroring the English directory structure
+- Translation scripts in `scripts/chinese/` (8 scripts broken by category + fix-quotes.js helper)
+- Used Chinese corner brackets 「」 instead of curly quotes to avoid JS string delimiter conflicts
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (15→16)
+- Ran SEO content injection
+
 ## Czech (cs) Language Added — April 2026
 - Added Czech (Čeština) as the 15th language
 - Created all 90 translation files in `i18n/cs/` mirroring the English directory structure

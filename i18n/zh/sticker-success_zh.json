@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"sticker_success_1": "您将在2到4周内收到贴纸。在此期间，想想贴纸的好去处吧！",
+	"sticker_success_2": "贴纸的好去处包括：",
+	"sticker_success_list_1": "人们能看到的公共场所",
+	"sticker_success_list_2": "不太容易被快速撕掉的地方（贴纸不会造成永久损坏）",
+	"sticker_success_list_3": "容易粘贴的表面（金属、塑料、玻璃）",
+	"sticker_success_list_4": "不要贴在私人财产、标识牌、ATM机或加油站上",
+	"sticker_success_3": "想看看其他人把贴纸贴在哪里吗？",
+	"sticker_success_flyers_bar_new": "新功能！",
+	"sticker_success_flyers_bar_cta": "打印并张贴比特币传单 →"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "zh"
+	},
+	"bitcoin_doesnt_have_bank_runs": "比特币没有银行挤兑",
+	"bank_runs_header": "比特币没有银行挤兑",
+	"bank_runs_header_2": "但您的银行有",
+	"bank_runs_what": "什么是银行挤兑？",
+	"bank_runs_what_content_1": "银行挤兑是指太多人同时试图从银行取出他们的钱。",
+	"bank_runs_what_content_2": "如果银行没有足够的钱来支付提款，银行挤兑可能导致银行彻底倒闭。",
+	"bank_runs_how": "银行挤兑是如何发生的？",
+	"bank_runs_how_content_1": "我们的银行系统是「部分准备金制」，这意味着银行不只是把您的钱放在保险库里等您消费或取出。",
+	"bank_runs_how_content_2": "相反，银行拿您的钱去贷款或投资。这可能导致您的钱被锁定很长时间，即使银行承诺您随时可以取出。",
+	"bank_runs_how_content_3": "如果您试图在银行已经把钱借出或投资后取款会怎样？",
+	"bank_runs_how_content_4": "如果只有您一个人要取款，没有问题。银行只需拿其他人的钱给您。但如果太多人同时要取款呢？",
+	"bank_runs_how_content_5": "许多美国人在2023年3月硅谷银行发生挤兑时亲身经历了这一点。",
+	"bank_runs_how_content_6": "该银行将客户的钱投资于期限长达30年的国债。更糟的是，这些债券的价值最近急剧下跌，因此硅谷银行无法简单地卖出债券来取回储户的钱。它已经资不抵债了。它没有足够的钱来支付储户的提款。",
+	"bank_runs_how_content_7": "随着越来越多的人得知这一情况，问题只会加剧。更多的提款请求涌入，但许多请求未被处理。数千家企业意识到他们将无法支付员工工资，因为银行倒闭了。",
+	"bank_runs_how_content_8": "FDIC介入并同意赔偿储户。问题解决了？没那么简单...",
+	"bank_runs_fdic": "FDIC保险能保护我的钱吗？",
+	"bank_runs_fdic_content_1": "FDIC保险旨在在银行倒闭时保护银行储户。每位储户的存款最高保额为250,000美元。听起来不错，对吧？",
+	"bank_runs_fdic_content_2": "没那么简单。如果银行倒闭，FDIC的钱从哪来？它有一个1250亿美元的保险基金。",
+	"bank_runs_fdic_content_3": "听起来很多，直到您与它们承保的存款金额相比：近10万亿美元，即10,000,000,000,000美元。",
+	"bank_runs_fdic_content_4": "FDIC甚至在自己的网站上显示，其保险基金中的钱仅够覆盖存款的略多于1%。",
+	"bank_runs_fdic_content_5": "如果银行倒闭的规模超过FDIC保险基金的承受能力，美国政府很可能（但不保证）会印钞来赔偿储户。",
+	"bank_runs_fdic_content_6": "但印钞会导致通胀，所以这不是一个好的解决方案。",
+	"bank_runs_safe": "有没有不使用部分准备金的银行？",
+	"bank_runs_safe_content_1": "一些银行曾试图成为「安全银行」，不贷出或投资储户的资金。",
+	"bank_runs_safe_content_2": "虽然这些安全银行不会有银行挤兑的风险，但他们的申请被美联储拒绝了。这意味着他们不能合法地作为银行运营。",
+	"bank_runs_safe_content_3": "由于被禁止运营，今天没有不使用部分准备金的银行存在。",
+	"bank_runs_safe_content_4": "幸运的是，有一种方法可以通过成为自己的银行来退出部分准备金体系。不，我们不是说把现金藏在床垫下。",
+	"bank_runs_safe_content_5": "以现金储蓄仍然容易受到通胀的影响。",
+	"bank_runs_safe_content_6": "我们说的是比特币：一个让您成为自己银行的全新金融系统。",
+	"bank_runs_protect": "比特币能保护我免受银行挤兑吗？",
+	"bank_runs_protect_content_1": "是的，比特币是全额准备金的金融系统。",
+	"bank_runs_protect_content_2": "如果您将比特币提取到自己的钱包中，银行挤兑在比特币中是不可能的。不要把比特币放在交易所或像比特币ETF这样的包装产品中。",
+	"bank_runs_protect_content_3": "查看我们简单的比特币钱包指南，了解如何提取到自己的钱包。",
+	"bank_runs_protect_content_4": "使用比特币，您终于可以掌控自己的钱了。"
+}
