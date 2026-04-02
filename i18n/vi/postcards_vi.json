@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"free_bitcoin_postcards": "Bưu thiếp Bitcoin miễn phí từ bitcoin.rocks",
+	"postcards_description": "Nhận Gói Bưu Thiếp Bitcoin miễn phí và chia sẻ Bitcoin với ai đó bạn biết.",
+	"postcards_header": "CHƯƠNG TRÌNH BƯU THIẾP ĐÃ ĐÓNG",
+	"postcards_program_closed_message": "Chương trình bưu thiếp Bitcoin miễn phí đã kết thúc. Cảm ơn tất cả mọi người đã tham gia lan tỏa giáo dục Bitcoin qua đường bưu điện!",
+	"postcards_sticker_alternative_header": "NHẬN NHÃN DÁN BITCOIN MIỄN PHÍ THAY THẾ",
+	"postcards_sticker_alternative_message": "Tiếp tục lan tỏa nhận thức Bitcoin với chương trình nhãn dán miễn phí! Nhãn dán Bitcoin hoàn hảo để chia sẻ ở nơi công cộng và có mã QR liên kết đến nội dung giáo dục.",
+	"postcards_sticker_cta": "NHẬN NHÃN DÁN MIỄN PHÍ",
+	"postcards_step_2": "BƯU THIẾP TRÔNG NHƯ THẾ NÀO",
+	"postcards_instructions_4": "Chúng tôi tạo bưu thiếp này để bạn dễ dàng giới thiệu Bitcoin cho ai đó bạn biết! Chỉ cần thêm địa chỉ và tem, rồi bỏ bưu thiếp vào thùng thư.",
+	"postcards_instructions_5": "Sứ mệnh của chúng tôi là thúc đẩy việc áp dụng Bitcoin. Bạn có thể giúp bằng cách nhận nhãn dán miễn phí và dán ở nơi công cộng!",
+	"postcards_instructions_6": "Chúng ta đều biết vài người có thể hưởng lợi từ việc tìm hiểu thêm về Bitcoin. Chia sẻ nhãn dán Bitcoin với họ ngay hôm nay!"
+}

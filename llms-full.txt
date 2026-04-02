@@ -45,7 +45,7 @@ bitcoin.rocks is a free, open-source project licensed under the MIT License. Our
 
 Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.
 
-Thanks to our community of volunteer translators, bitcoin.rocks is currently available in 19 languages and growing.
+Thanks to our community of volunteer translators, bitcoin.rocks is currently available in 20 languages and growing.
 
 ---
 

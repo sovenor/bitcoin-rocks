@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"cic_header": "MÁY TÍNH LẠM PHÁT GỘP",
+	"cic_description": "Sử dụng Máy Tính Lạm Phát Gộp này để tìm hiểu mức lương của bạn cần tăng bao nhiêu để theo kịp lạm phát.",
+	"what_can_i_do_about": "Tôi có thể làm gì về",
+	"what_can_i_do_about_2": "lạm phát?",
+	"cic_inflation_cta": "Thoát Khỏi Lạm Phát Với Bitcoin"
+}

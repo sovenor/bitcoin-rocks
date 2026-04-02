@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Không Có Tình Trạng Rút Tiền Hàng Loạt",
+	"bank_runs_header": "BITCOIN KHÔNG CÓ TÌNH TRẠNG RÚT TIỀN HÀNG LOẠT",
+	"bank_runs_header_2": "NHƯNG NGÂN HÀNG CỦA BẠN CÓ THỂ",
+	"bank_runs_what": "TÌNH TRẠNG RÚT TIỀN HÀNG LOẠT LÀ GÌ?",
+	"bank_runs_what_content_1": "Tình trạng rút tiền hàng loạt xảy ra khi quá nhiều người cố gắng rút tiền từ ngân hàng cùng lúc.",
+	"bank_runs_what_content_2": "Nếu ngân hàng không có đủ tiền để đáp ứng các yêu cầu rút tiền, họ có thể sụp đổ hoàn toàn khi xảy ra tình trạng rút tiền hàng loạt.",
+	"bank_runs_how": "TÌNH TRẠNG RÚT TIỀN HÀNG LOẠT XẢY RA NHƯ THẾ NÀO?",
+	"bank_runs_how_content_1": "Hệ thống ngân hàng của chúng ta là 'dự trữ một phần' nghĩa là ngân hàng không chỉ giữ tiền của bạn trong két và chờ bạn chi tiêu hoặc rút.",
+	"bank_runs_how_content_2": "Thay vào đó, ngân hàng lấy tiền của bạn và cho vay hoặc đầu tư. Điều này có thể khóa tiền của bạn trong thời gian dài, mặc dù ngân hàng hứa bạn có thể rút tiền bất cứ lúc nào.",
+	"bank_runs_how_content_3": "Vậy điều gì xảy ra nếu bạn cố rút tiền sau khi ngân hàng đã cho vay hoặc đầu tư?",
+	"bank_runs_how_content_4": "Không có vấn đề nếu chỉ bạn rút. Ngân hàng sẽ lấy tiền của người khác và đưa cho bạn. Nhưng điều gì xảy ra khi quá nhiều người cố rút cùng lúc?",
+	"bank_runs_how_content_5": "Nhiều người ở Mỹ đã biết khi xảy ra tình trạng rút tiền hàng loạt tại Silicon Valley Bank vào tháng 3 năm 2023.",
+	"bank_runs_how_content_6": "Ngân hàng đã đầu tư tiền khách hàng vào trái phiếu chính phủ bị khóa đến 30 năm. Tệ hơn, giá trị trái phiếu đã giảm mạnh gần đây, vì vậy Silicon Valley Bank không thể bán trái phiếu để lấy tiền người gửi. Họ mất khả năng thanh toán. Họ không có đủ tiền để đáp ứng rút tiền.",
+	"bank_runs_how_content_7": "Khi nhiều người biết, vấn đề chỉ tồi tệ hơn. Nhiều yêu cầu rút tiền hơn được gửi, nhưng nhiều yêu cầu không được xử lý. Hàng nghìn doanh nghiệp nhận ra họ không thể trả lương nhân viên do ngân hàng sụp đổ.",
+	"bank_runs_how_content_8": "FDIC đã can thiệp và đồng ý bồi thường cho người gửi tiền. Vấn đề giải quyết? Không hẳn...",
+	"bank_runs_fdic": "BẢO HIỂM FDIC CÓ BẢO VỆ TIỀN CỦA TÔI KHÔNG?",
+	"bank_runs_fdic_content_1": "Bảo hiểm FDIC được thiết kế để bảo vệ người gửi ngân hàng trong trường hợp ngân hàng sụp đổ. Tiền gửi được bảo hiểm đến $250.000 mỗi người gửi. Nghe tuyệt vời, phải không?",
+	"bank_runs_fdic_content_2": "Không hẳn. Nếu ngân hàng sụp đổ, FDIC lấy tiền từ đâu? Họ có quỹ bảo hiểm 125 tỷ đô la.",
+	"bank_runs_fdic_content_3": "Nghe có vẻ nhiều tiền cho đến khi bạn so sánh với số tiền gửi họ bảo hiểm: gần 10 nghìn tỷ hay 10.000 tỷ đô la.",
+	"bank_runs_fdic_content_4": "FDIC thậm chí hiển thị trên trang web rằng họ chỉ có đủ tiền trong quỹ bảo hiểm để bảo hiểm hơn 1% tiền gửi.",
+	"bank_runs_fdic_content_5": "Trong trường hợp ngân hàng sụp đổ vượt quá quỹ bảo hiểm FDIC, chính phủ Mỹ có thể (nhưng không đảm bảo) sẽ in tiền để bồi thường người gửi.",
+	"bank_runs_fdic_content_6": "Nhưng in tiền gây lạm phát, vì vậy đây không phải giải pháp tốt.",
+	"bank_runs_safe": "CÓ NGÂN HÀNG NÀO KHÔNG SỬ DỤNG DỰ TRỮ MỘT PHẦN KHÔNG?",
+	"bank_runs_safe_content_1": "Một số ngân hàng đã cố gắng trở thành 'ngân hàng an toàn' không cho vay hoặc đầu tư tiền người gửi.",
+	"bank_runs_safe_content_2": "Mặc dù các ngân hàng an toàn này không có rủi ro rút tiền hàng loạt, đơn xin của họ đã bị Cục Dự trữ Liên bang từ chối. Điều này có nghĩa họ không thể hoạt động hợp pháp như ngân hàng.",
+	"bank_runs_safe_content_3": "Vì bị chặn hoạt động, hiện không có ngân hàng nào không sử dụng dự trữ một phần.",
+	"bank_runs_safe_content_4": "May mắn thay, có một cách để thoát khỏi hệ thống dự trữ một phần bằng cách trở thành ngân hàng của chính bạn. Không, chúng tôi không nói về việc giấu tiền mặt dưới đệm.",
+	"bank_runs_safe_content_5": "Tiết kiệm bằng tiền mặt vẫn dễ bị ảnh hưởng bởi lạm phát.",
+	"bank_runs_safe_content_6": "Chúng tôi nói về Bitcoin: một hệ thống tài chính mới cho phép bạn trở thành ngân hàng của chính mình.",
+	"bank_runs_protect": "BITCOIN CÓ THỂ BẢO VỆ TÔI KHỎI TÌNH TRẠNG RÚT TIỀN HÀNG LOẠT KHÔNG?",
+	"bank_runs_protect_content_1": "Có, Bitcoin là hệ thống tài chính dự trữ đầy đủ.",
+	"bank_runs_protect_content_2": "Tình trạng rút tiền hàng loạt là bất khả thi trong Bitcoin miễn là bạn rút Bitcoin về ví riêng. Đừng để bitcoin trên sàn giao dịch hoặc trong sản phẩm bao bọc như Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Xem Hướng Dẫn Ví Bitcoin đơn giản để tìm hiểu cách rút về ví riêng.",
+	"bank_runs_protect_content_4": "Với Bitcoin, cuối cùng bạn có thể kiểm soát tiền của mình."
+}

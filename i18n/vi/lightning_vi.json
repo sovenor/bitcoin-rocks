@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_lightning_wallet_guide": "Hướng Dẫn Ví Lightning Bitcoin",
+	"lightning_description": "Ví Lightning cho phép bạn gửi Bitcoin nhanh chóng và rẻ trong khi vẫn duy trì chủ quyền cá nhân.",
+	"lightning_header": "HƯỚNG DẪN VÍ LIGHTNING",
+	"lightning_s1_c1": "Lightning cho phép bạn gửi thanh toán Bitcoin nhanh chóng và rẻ.",
+	"lightning_s1_c2": "Điều quan trọng là sử dụng lightning có sự đánh đổi. Để đổi lấy thanh toán Bitcoin nhanh và rẻ hơn, bạn thường phải hy sinh một số bảo mật.",
+	"lightning_s1_c3": "Nói chung, Lightning chỉ nên dùng với số lượng bitcoin nhỏ. Bạn chỉ nên lưu trữ số lượng lớn bitcoin trong ví phần cứng.",
+	"lightning_s1_c4": "Xem Hướng Dẫn Ví Phần Cứng để biết thêm.",
+	"lightning_s1_c5": "Không phải tất cả ví Lightning đều giống nhau. Bạn có thể xác định ví có bộ đánh đổi phù hợp bằng cách hỏi một câu đơn giản:",
+	"lightning_question_1": "SỰ CÂN BẰNG ĐÁNH ĐỔI NÀO PHÙ HỢP VỚI TÔI?",
+	"lightning_s2_c1": "Một trong những đổi mới của Bitcoin là khả năng lưu trữ mà không cần tổ chức lưu ký, như ngân hàng. Ví tự lưu trữ mở khóa toàn bộ sức mạnh của Bitcoin.",
+	"lightning_s2_c2": "Với ví tự lưu trữ, bạn là người duy nhất có khả năng chi tiêu hoặc chuyển tiền. Không ai có thể ngăn, kiểm duyệt, hoặc đánh cắp từ bạn khi sử dụng ví tự lưu trữ. Đây còn gọi là ví không lưu ký.",
+	"lightning_s2_c3": "Cách chủ quyền nhất để sử dụng Lightning là chạy nút riêng.",
+	"lightning_s2_c4": "Hướng dẫn này tập trung vào ví Lightning đơn giản không yêu cầu nút riêng.",
+	"lightning_s2_c5": "Điều quan trọng là ngay cả khi dùng ví Lightning không lưu ký, bạn vẫn phải tin tưởng nhà phát triển ví không đẩy bản cập nhật ứng dụng độc hại và đánh cắp tiền.",
+	"lightning_s3_c1": "Ví lưu ký là ví mà bạn không kiểm soát tiền.",
+	"lightning_s3_c2": "Các ví này tương tự hệ thống ngân hàng nơi bạn phải tin tưởng bên thứ ba cấp quyền truy cập tiền. Nếu Bitcoin trên sàn giao dịch, bạn đang dùng ví lưu ký.",
+	"lightning_s3_c3": "Ví lưu ký có vẻ tiện lợi, nhưng tổ chức lưu ký có khả năng kỹ thuật đánh cắp tất cả tiền người dùng bất cứ lúc nào.",
+	"lightning_s3_c4": "Một số người thích ví Lightning lưu ký cho số lượng bitcoin nhỏ vì dễ sử dụng. Hãy nhớ: không phải khóa của bạn, không phải coin của bạn!",
+	"lightning_question_2": "CHỌN VÍ CỦA BẠN",
+	"lightning_s4_c1": "Với tất cả những điều này, bây giờ bạn có thể chọn ví lightning có sự cân bằng đánh đổi phù hợp.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Nhiều tính năng",
+	"lightning_mobile_app": "Ứng dụng di động",
+	"lightning_free": "Miễn phí 100%",
+	"lightning_merchants": "Tuyệt vời cho thương nhân",
+	"lightning_starter": "Ví khởi đầu tuyệt vời",
+	"lightning_browser": "Dựa trên trình duyệt",
+	"lightning_custodial": "Ví lưu ký hoàn toàn",
+	"lightning_cta_hardware": "Tìm Hướng Dẫn Ví Phần Cứng Bitcoin?"
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_business_accounting_guide": "Hướng Dẫn Kế Toán Bitcoin Cho Doanh Nghiệp",
+	"accounting_description": "Tìm hiểu cách hạch toán đúng các khoản thanh toán Bitcoin trong kế toán doanh nghiệp.",
+	"accounting_header": "HƯỚNG DẪN KẾ TOÁN BITCOIN",
+	"accounting_s1_c1": "Chấp nhận Bitcoin có nhiều lợi ích như chấp nhận thanh toán với phí thấp hơn & thu hút thêm khách hàng.",
+	"accounting_s1_c2": "Nếu bạn sử dụng Ví Hỗn Hợp từ Hướng Dẫn Ví của chúng tôi và tự động bán 100% Bitcoin nhận được lấy đô la, bạn không cần thay đổi gì trong kế toán hiện tại.",
+	"accounting_s1_c3": "Xem Hướng Dẫn Ví.",
+	"accounting_s1_c4": "Tuy nhiên, nếu bạn giữ một số khoản thanh toán Bitcoin dưới dạng Bitcoin, bạn sẽ cần theo dõi một vài chi tiết cho kế toán. Điều này có vẻ đáng sợ lúc đầu, nhưng thực ra khá đơn giản.",
+	"accounting_s1_c5": "Xin lưu ý: hướng dẫn này chỉ mang tính thông tin và không được coi là tư vấn thuế.",
+	"accounting_s1_c6": "Nếu bạn cần tư vấn thuế, chúng tôi rất khuyến nghị Satoshi Pacioli Accounting Services, một công ty kế toán chuyên về kế toán Bitcoin.",
+	"accounting_s2": "THEO DÕI GIÁ GỐC CỦA BẠN",
+	"accounting_s2_c1": "Theo dõi giá gốc sẽ là sự khác biệt lớn nhất giữa kế toán đô la và kế toán Bitcoin. Ngay cả khi bạn xem doanh nghiệp hoàn toàn bằng Bitcoin, bạn cần báo cáo giá trị đô la của mỗi giao dịch trong kê khai thuế.",
+	"accounting_s2_c2": "Nếu bạn sử dụng QuickBooks, bạn có thể làm điều này tự động bằng plugin Bitcoin Sync.",
+	"accounting_s2_c3": "Nếu bạn không sử dụng QuickBooks, chúng tôi khuyến nghị Satoshi Pacioli Accounting Services, một công ty kế toán chuyên về kế toán Bitcoin.",
+	"accounting_s2_c4": "Để làm thủ công, bạn chỉ cần theo dõi số lượng Bitcoin nhận được và giá trị đô la của giao dịch Bitcoin vào ngày đó.",
+	"accounting_s2_c5": "Bạn có thể xem giá đô la hiện tại của Bitcoin tại đây.",
+	"accounting_s2_c6": "Theo dõi thông tin này trong bảng tính Excel và giao cho kế toán của bạn.",
+	"accounting_s2_c7": "Bạn cũng có thể nhập dữ liệu này vào Excel tự động.",
+	"accounting_s2_c8": "Bạn cũng có thể xem giá đô la lịch sử của Bitcoin vào những ngày trong quá khứ, vì vậy bạn không cần làm điều này mỗi ngày.",
+	"accounting_s3": "CHI TIÊU HOẶC BÁN BITCOIN CỦA BẠN",
+	"accounting_s3_c1": "Nếu bạn sử dụng Ví Hỗn Hợp từ Hướng Dẫn Ví của chúng tôi và tự động bán 100% Bitcoin nhận được lấy đô la, bạn không cần thay đổi gì trong kế toán hiện tại.",
+	"accounting_s3_c2": "Xem Hướng Dẫn Ví.",
+	"accounting_s3_c3": "Nếu bạn chọn chi tiêu hoặc bán một số Bitcoin nhận được sau khi giữ một thời gian, bạn chỉ cần thêm giá bán vào bảng tính Excel theo dõi giá gốc.",
+	"accounting_s3_c4": "Ví dụ, nếu bạn nhận được $100 Bitcoin vào ngày 1 tháng 1 và quyết định bán hoặc chi tiêu vào ngày 1 tháng 2 với giá trị mới là $110, bạn cần ghi nhận lợi nhuận vốn $10 trong kế toán.",
+	"accounting_s3_c5": "Điều này cũng có thể ngược lại. Ví dụ, nếu bạn nhận được $100 Bitcoin vào ngày 1 tháng 1 và quyết định bán hoặc chi tiêu vào ngày 1 tháng 2 với giá trị mới là $90, bạn cần ghi nhận lỗ vốn $10 trong kế toán.",
+	"accounting_s4": "TÔI CẦN THÊM TRỢ GIÚP",
+	"accounting_s4_c1": "Nếu bạn cần thêm trợ giúp tích hợp Bitcoin vào kế toán doanh nghiệp, chúng tôi rất khuyến nghị Satoshi Pacioli Accounting Services, một công ty kế toán chuyên về kế toán Bitcoin.",
+	"accounting_s4_c2": "Tìm hiểu thêm về Satoshi Pacioli Accounting Services."
+}

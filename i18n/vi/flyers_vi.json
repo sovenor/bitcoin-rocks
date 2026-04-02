@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"free_bitcoin_flyers": "Tờ rơi Bitcoin miễn phí từ bitcoin.rocks",
+	"flyers_description": "In tờ rơi Bitcoin tại nhà và dán ở nơi công cộng để giới thiệu Bitcoin cho mọi người xung quanh.",
+	"flyers_header_1": "IN & DÁN",
+	"flyers_header_2": "TỜ RƠI BITCOIN",
+	"flyers_intro_header": "CÁCH IN & DÁN TỜ RƠI BITCOIN",
+	"flyers_intro_c1": "Sứ mệnh của chúng tôi là giúp bạn giới thiệu Bitcoin cho nhiều người hơn bằng cách dán tờ rơi Bitcoin ở nơi công cộng. Tờ rơi này có mã QR liên kết đến",
+	"flyers_intro_c2": "trang web giáo dục Bitcoin.",
+	"flyers_intro_c3": "lạm phát",
+	"flyers_intro_c4": "In tờ rơi này tại nhà hoặc tiệm in. Sau đó, dán trên bảng thông báo, cột điện thoại quanh phố, và các nơi công cộng nơi mọi người có thể nhìn thấy và tìm hiểu về Bitcoin.",
+	"flyers_intro_c5": "Đồng thời, yêu cầu một gói",
+	"flyers_intro_c6": "nhãn dán Bitcoin miễn phí",
+	"flyers_intro_c7": "để giới thiệu Bitcoin cho nhiều người hơn.",
+	"flyers_btn_download": "TẢI TỜ RƠI",
+	"flyers_btn_print": "IN TỜ RƠI",
+	"flyers_share_header": "CHIA SẺ VỊ TRÍ TỜ RƠI",
+	"flyers_share_c1": "Chia sẻ vị trí dán tờ rơi với chúng tôi trên Nostr và xem những người khác dán tờ rơi ở đâu.",
+	"flyers_btn_share_on_nostr": "CHIA SẺ TRÊN NOSTR",
+	"flyers_btn_what_is_nostr": "NOSTR LÀ GÌ?"
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin so với Nghệ Thuật",
+	"fine_art_header": "SỰ KHÁC BIỆT GIỮA",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "VÀ",
+	"fine_art_header_4": "NGHỆ THUẬT",
+	"fine_art_intro_1": "Nghệ thuật đã là khoản đầu tư xa xỉ hàng thế kỷ và thường được coi là lưu trữ giá trị bởi các nhà sưu tập giàu có.",
+	"fine_art_intro_2": "Bitcoin là tiền kỹ thuật số cũng được nhiều người coi là lưu trữ giá trị và đầu tư.",
+	"fine_art_intro_3": "Nhưng tác phẩm nghệ thuật vật lý khác với tiền kỹ thuật số như Bitcoin như thế nào? Hãy xem sự khác biệt giữa hai hình thức đầu tư: Bitcoin & Nghệ Thuật.",
+	"fine_art": "NGHỆ THUẬT",
+	"fine_art_point_1": "Mỗi tác phẩm là duy nhất",
+	"fine_art_point_2": "Cần đấu giá chuyên biệt",
+	"fine_art_point_3": "Phí đấu giá cao",
+	"fine_art_point_4": "Không thể chia nhỏ",
+	"fine_art_point_5": "Cần chuyên gia xác thực",
+	"fine_art_point_6": "Dễ bị hư hại",
+	"fine_art_point_7": "Giới hạn cho nhà sưu tập giàu có",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Hoàn toàn có thể hoán đổi",
+	"bitcoin_point_2": "Thị trường toàn cầu 24/7",
+	"bitcoin_point_3": "Phí giao dịch thấp",
+	"bitcoin_point_4": "Dễ dàng chia nhỏ",
+	"bitcoin_point_5": "Xác minh bằng mật mã",
+	"bitcoin_point_6": "Khó bị phá hủy",
+	"bitcoin_point_7": "Ai cũng tiếp cận được",
+	"point_1_summary_1": "Bitcoin hoàn toàn có thể hoán đổi, nghĩa là mọi bitcoin đều giống nhau và có thể thay thế lẫn nhau - một bitcoin bằng một bitcoin ở bất kỳ đâu trên thế giới. Nghệ thuật không thể hoán đổi theo bản chất, với mỗi tác phẩm là duy nhất trong sáng tạo, lịch sử, tình trạng, và xuất xứ, khiến việc so sánh và định giá trực tiếp cực kỳ khó khăn.",
+	"point_2_summary_1": "Bitcoin giao dịch trên thị trường toàn cầu 24/7 nơi bất kỳ ai có truy cập internet có thể mua hoặc bán ngay lập tức. Nghệ thuật cần nhà đấu giá chuyên biệt như Sotheby's hoặc Christie's, đại lý tư nhân, hoặc phòng trưng bày độc quyền. Việc bán có thể mất hàng tháng để sắp xếp và hoàn thành, với khả năng tiếp cận thị trường hạn chế và cơ hội giao dịch không thường xuyên.",
+	"point_3_summary_1": "Mua hoặc bán bitcoin thường tốn ít hơn 1% phí, thường ít hơn nhiều. Bán nghệ thuật liên quan đến chi phí đáng kể bao gồm phí người mua (10-25%), hoa hồng người bán (10-15%), bảo hiểm, vận chuyển, lưu trữ, và phí xác thực. Các chi phí kết hợp này có thể dễ dàng vượt quá 30-40% giá trị tác phẩm trong một giao dịch.",
+	"point_4_summary_1": "Bitcoin có thể được chia thành 100 triệu đơn vị nhỏ hơn gọi là satoshis, hoàn hảo cho giao dịch ở mọi quy mô từ vi mô đến lớn. Nghệ thuật không thể chia nhỏ - bạn không thể sở hữu một phần bức tranh hoặc bán chỉ một phần tác phẩm điêu khắc. Sự không thể chia nhỏ này giới hạn tính linh hoạt đầu tư và khả năng thanh khoản.",
+	"point_5_summary_1": "Quyền sở hữu và tính xác thực Bitcoin có thể được xác minh bằng mật mã trên blockchain bởi bất kỳ ai có kiến thức kỹ thuật cơ bản. Nghệ thuật cần xác thực chuyên gia tốn kém, nghiên cứu xuất xứ, và phân tích khoa học. Ngay cả với xác minh chuyên gia, tác phẩm giả thường xuyên đánh lừa giới nghệ thuật, và tranh chấp xác thực có thể phá hủy giá trị tác phẩm qua đêm. Bitcoin, ngược lại, không thể bị làm giả.",
+	"point_6_summary_1": "Bitcoin, khi được sao lưu đúng cách, không thể bị phá hủy bởi lũ lụt, hỏa hoạn, động đất, bão, trộm cắp, hoặc các thảm họa khác. Nghệ thuật dễ bị tổn thương bởi mọi hình thức phá hủy vật lý và suy thoái. Ngay cả với lưu trữ kiểm soát khí hậu tốn kém và bảo hiểm toàn diện, tác phẩm có thể bị hư hại bởi yếu tố môi trường, tai nạn, hoặc thiên tai, có thể mất toàn bộ giá trị.",
+	"point_7_summary_1": "Bitcoin có thể được mua và bán bởi bất kỳ ai có truy cập internet và một số tiền nhỏ để đầu tư. Đầu tư nghệ thuật phần lớn giới hạn cho nhà sưu tập giàu có do giá tối thiểu cao, quyền truy cập đấu giá độc quyền, yêu cầu lưu trữ, chi phí bảo hiểm, và kiến thức chuyên môn cần thiết để điều hướng thị trường nghệ thuật thành công."
+}

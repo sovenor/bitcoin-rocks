@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"sign_success_1": "Bạn sẽ nhận được biển hiệu trong 1 đến 2 tuần. Trong khi chờ đợi, hãy nghĩ về những vị trí tốt để đặt biển hiệu!",
+	"sign_success_3": "Bạn muốn xem những người khác đặt biển hiệu ở đâu?",
+	"signs_share_header": "CHIA SẺ VỊ TRÍ BIỂN HIỆU CỦA BẠN",
+	"signs_share_c1": "Chia sẻ ảnh vị trí đặt biển hiệu của bạn với chúng tôi trên Nostr và chúng tôi sẽ gửi sats cho bạn! Sats là phần nhỏ của một bitcoin.",
+	"signs_btn_share_on_nostr": "CHIA SẺ TRÊN NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR LÀ GÌ?"
+}

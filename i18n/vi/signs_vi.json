@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"signs_description": "Giúp chúng tôi đặt Biển Bitcoin khắp nước Mỹ!",
+	"signs_title": "Biển Bitcoin miễn phí từ bitcoin.rocks",
+	"signs_choose_header": "CẢM ƠN BẠN ĐÃ GIÚP CHÚNG TÔI ĐẶT BIỂN BITCOIN KHẮP NƯỚC MỸ!",
+	"signs_choose_c1": "Chúng tôi đã hết hoàn toàn biển! Sứ mệnh của chúng tôi là thúc đẩy việc áp dụng Bitcoin thông qua giáo dục.",
+	"signs_choose_c2": "Nhiều bạn đã giúp bằng cách đặt biển Bitcoin miễn phí ở nơi công cộng. Tất cả biển có mã QR liên kết đến trang giáo dục về",
+	"signs_choose_c3": "lạm phát",
+	"signs_choose_c4": "Nhờ cộng đồng tuyệt vời, chúng tôi đã tiếp cận hàng nghìn người và giúp họ bắt đầu hành trình tìm hiểu Bitcoin.",
+	"signs_share_header": "CHIA SẺ VỊ TRÍ BIỂN CỦA BẠN",
+	"signs_share_c1": "Chia sẻ ảnh vị trí đặt biển với chúng tôi trên Nostr và xem những người khác đặt biển ở đâu.",
+	"signs_btn_share_on_nostr": "CHIA SẺ TRÊN NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR LÀ GÌ?",
+	"signs_instructions_1": "Nhập địa chỉ gửi thư và chúng tôi sẽ gửi cho bạn hộp 10 biển Bitcoin qua đường bưu điện!",
+	"signs_instructions_2": "Dữ liệu địa chỉ được xóa sau khi biển miễn phí được gửi."
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Tìm hiểu tại sao Bitcoin tốt cho doanh nghiệp",
+	"why_header": "BITCOIN TỐT CHO DOANH NGHIỆP",
+	"why_good_for_you": "BITCOIN CŨNG TỐT CHO BẠN!",
+	"why_learn_more_lowercase": "Tìm hiểu thêm.",
+	"why_s1": "Bitcoin không có lạm phát",
+	"why_s1_c1": "Lạm phát xảy ra khi nhiều tiền hơn được in hoặc tạo ra từ hư không. Điều này làm tiền của bạn mất giá trị theo thời gian.",
+	"why_s1_c2": "Bitcoin có nguồn cung cố định, nghĩa là không ai có thể in thêm Bitcoin.",
+	"why_s2": "Bitcoin không có tình trạng rút tiền hàng loạt",
+	"why_s2_c1": "Nhiều ngân hàng Mỹ đã sụp đổ trong vài năm qua do tình trạng rút tiền hàng loạt.",
+	"why_s2_c2": "Thay vì chỉ giữ tiền cho bạn, ngân hàng đầu tư và cho vay tiền của bạn. Nếu những khoản đầu tư đó không tốt, họ không có đủ để trả lại cho bạn.",
+	"why_s2_c3": "Và quỹ bảo hiểm FDIC chỉ có 1 đô la cho mỗi 100 đô la họ bảo hiểm.",
+	"why_s3": "Bitcoin không cần xin phép",
+	"why_s3_c1": "Không giống như các mạng tài chính truyền thống, Bitcoin không cần xin phép để sử dụng.",
+	"why_s3_c2": "Điều đó có nghĩa là không ai có thể ngăn bạn sử dụng Bitcoin vì bất kỳ lý do nào. Đây là mạng tài chính đầu tiên bạn có thể sử dụng mà không lo bị kiểm duyệt hoặc tịch thu.",
+	"why_s4": "Bitcoin đang xây dựng một thế giới tốt đẹp hơn",
+	"why_s4_c1": "Bitcoin là một công nghệ bị hiểu lầm đang xây dựng một thế giới tốt đẹp hơn.",
+	"why_s4_c2": "Bitcoin đã giúp các nhà hoạt động nhân quyền đấu tranh cho tự do, giảm phát thải khí methane toàn cầu, cứu các vườn quốc gia, và còn nhiều hơn nữa."
+}

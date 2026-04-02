@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"how_to_accept_bitcoin_payments": "Cách Chấp Nhận Thanh Toán Bitcoin",
+	"wallets_header": "TẢI VÍ BITCOIN MIỄN PHÍ ĐỂ CHẤP NHẬN THANH TOÁN BITCOIN",
+	"wallets_intro_1": "Tất cả ví Bitcoin đều tương thích với nhau, vì vậy khách hàng có thể thanh toán cho bạn bằng Bitcoin bất kể họ dùng ví nào.",
+	"wallets_intro_2": "Ví chỉ Bitcoin:",
+	"wallets_intro_3": "Đây là ví Bitcoin thuần túy mở khóa đầy đủ lợi ích của Bitcoin: không trung gian, phí thấp, và không hoàn tiền hay gian lận.",
+	"wallets_intro_4": "Ví hỗn hợp:",
+	"wallets_intro_5": "Cho phép bạn đổi bất kỳ phần nào Bitcoin sang đô la ngay khi khách hàng thanh toán. Phí vẫn thấp hơn thanh toán thẻ tín dụng, nhưng cao hơn thanh toán Bitcoin thuần túy.",
+	"wallets_intro_6": "Cả hai đều là cách tuyệt vời để chấp nhận Bitcoin. Ví cụ thể bạn sử dụng sẽ phụ thuộc vào quy mô và loại hình doanh nghiệp.",
+	"wallets_choice_sole": "ví cho doanh nghiệp cá nhân",
+	"wallets_choice_multiple": "ví cho doanh nghiệp có nhiều nhân viên",
+	"wallets_choice_online": "ví cho doanh nghiệp trực tuyến",
+	"wallets_choice_invoice": "ví cho doanh nghiệp dựa trên hóa đơn",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Bạn có thể chấp nhận thanh toán Bitcoin với thiết bị Square PoS hiện có hoặc tích hợp cửa hàng trực tuyến. Chưa bao giờ việc chấp nhận thanh toán Bitcoin dễ dàng đến thế.",
+	"wallets_feature_bitcoin_only": "Ví chỉ Bitcoin",
+	"wallets_feature_no_info": "Không cần thông tin",
+	"wallets_feature_in_person": "Chỉ thanh toán trực tiếp",
+	"wallets_feature_settles_bitcoin": "Thanh toán 100% bằng Bitcoin",
+	"wallets_feature_hybrid": "Ví hỗn hợp",
+	"wallets_feature_info": "Cần thông tin doanh nghiệp",
+	"wallets_feature_in_person_online": "Thanh toán trực tiếp & trực tuyến",
+	"wallets_feature_settles_both": "Thanh toán bằng Bitcoin & đô la",
+	"wallets_feature_multiple_employees": "Hỗ trợ nhiều nhân viên (BPTs)",
+	"wallets_feature_self_hosted": "Tự lưu trữ = 0% phí",
+	"wallets_feature_online_store": "Tích hợp cửa hàng trực tuyến",
+	"wallets_feature_invoicing": "Phần mềm lập hóa đơn miễn phí",
+	"wallets_get_wallet": "TẢI VÍ"
+}

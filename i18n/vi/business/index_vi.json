@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin tốt cho doanh nghiệp",
+	"biz_header": "BITCOIN TỐT CHO DOANH NGHIỆP",
+	"biz_s1": "Phí thấp không có mức tối thiểu",
+	"biz_s1_c1": "Bitcoin cho phép bạn nhận thanh toán trực tiếp từ khách hàng, giống như tiền mặt. Mạng Bitcoin hoạt động không cần trung gian như ngân hàng và công ty thẻ tín dụng thu phí cao.",
+	"biz_s2": "Thanh toán tức thì",
+	"biz_s2_c1": "Giống như tiền mặt, các khoản thanh toán Bitcoin được xử lý tức thì. Bạn không cần chờ công ty thẻ tín dụng hoặc ngân hàng trả tiền cho bạn. Thay vào đó, bạn có quyền truy cập vào tiền của mình ngay lập tức.",
+	"biz_s3": "Không hoàn tiền hoặc gian lận",
+	"biz_s3_c1": "Vì thanh toán Bitcoin diễn ra trực tiếp giữa bạn và khách hàng, không ai có thể lấy lại tiền của bạn bằng yêu cầu hoàn tiền.",
+	"biz_s3_c2": "Bitcoin giả không thể được gửi trên Mạng Bitcoin, nghĩa là bạn không bao giờ phải lo lắng về các giao dịch gian lận có thể gây thiệt hại cho doanh nghiệp.",
+	"biz_s4": "Thu hút thêm khách hàng",
+	"biz_s4_c1": "Hàng triệu người sở hữu Bitcoin và muốn chi tiêu Bitcoin tại những nơi chấp nhận.",
+	"biz_s4_c2": "Chỉ cần chấp nhận Bitcoin, doanh nghiệp của bạn có thể được liệt kê trên bản đồ thương nhân Bitcoin và tiếp cận miễn phí với khách hàng Bitcoin mới.",
+	"biz_s4_c3": "Chấp nhận Bitcoin hoàn toàn miễn phí. Không có hợp đồng hay phí ẩn."
+}

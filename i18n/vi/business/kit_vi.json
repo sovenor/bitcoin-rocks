@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_business_kit": "Bộ Tài Liệu Doanh Nghiệp Bitcoin",
+	"kit_header": "TỰ IN BỘ TÀI LIỆU DOANH NGHIỆP BITCOIN",
+	"kit_request": "YÊU CẦU BỘ TÀI LIỆU MIỄN PHÍ",
+	"kit_request_details": "Mỗi Bộ Tài Liệu Doanh Nghiệp Bitcoin bao gồm hai tờ rơi để giúp dễ dàng thuyết phục một doanh nghiệp địa phương chấp nhận Bitcoin.",
+	"kit_country_global_print": "Toàn cầu — Tự in bộ tài liệu",
+	"kit_enter_address": "Nhập địa chỉ gửi thư và chúng tôi sẽ gửi cho bạn Bộ Tài Liệu Doanh Nghiệp Bitcoin miễn phí trong phong bì trắng. Dữ liệu địa chỉ được xóa sau khi bộ tài liệu được gửi.",
+	"kit_print_details": "Bạn có thể tham gia bằng cách tự in tờ rơi, bất kể bạn sống ở đâu! Bạn cũng có thể gửi cho doanh nghiệp bộ tài liệu kỹ thuật số của chúng tôi để tránh phải in.",
+	"kit_view_files": "XEM TẬP TIN",
+	"kit_digital_kit": "BỘ TÀI LIỆU KỸ THUẬT SỐ",
+	"kit_resources": "MỖI BỘ TÀI LIỆU LIÊN KẾT ĐẾN CÁC TÀI NGUYÊN MIỄN PHÍ NÀY"
+}

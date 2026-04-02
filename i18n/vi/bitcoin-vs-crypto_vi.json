@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "vi"
+	},
+	"bitcoin_vs_crypto": "Bitcoin so với Tiền Điện Tử",
+	"crypto_header": "SỰ KHÁC BIỆT GIỮA",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "VÀ",
+	"crypto_header_4": "TIỀN ĐIỆN TỬ",
+	"crypto_intro_1": "Không gian tiền điện tử đã bùng nổ với hàng nghìn token và dự án kỹ thuật số khác nhau.",
+	"crypto_intro_2": "Mặc dù Bitcoin là đồng tiền đầu tiên và vẫn được biết đến rộng rãi nhất, nó hoàn toàn khác biệt với phần còn lại của ngành tiền điện tử.",
+	"crypto_intro_3": "Hãy khám phá sự khác biệt chính giữa Bitcoin và hệ sinh thái tiền điện tử rộng lớn hơn.",
+	"crypto": "TIỀN ĐIỆN TỬ",
+	"crypto_point_1": "Thay đổi & fork thường xuyên",
+	"crypto_point_2": "Kiểm soát tập trung",
+	"crypto_point_3": "Nguồn cung không giới hạn hoặc lạm phát",
+	"crypto_point_4": "Giao thức phức tạp",
+	"crypto_point_5": "Đồng thuận thử nghiệm",
+	"crypto_point_6": "Token tiện ích đầu cơ",
+	"crypto_point_7": "Biến động & mong manh",
+	"crypto_point_8": "Doanh nghiệp hỗ trợ",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Giao thức bất biến",
+	"bitcoin_point_2": "Thực sự phi tập trung",
+	"bitcoin_point_3": "Nguồn cung cố định 21 triệu BTC",
+	"bitcoin_point_4": "Đơn giản & dễ tiếp cận",
+	"bitcoin_point_5": "Bằng Chứng Công Việc đã được chứng minh",
+	"bitcoin_point_6": "Tiền kỹ thuật số thuần túy",
+	"bitcoin_point_7": "Chống mong manh",
+	"bitcoin_point_8": "Không có thực thể nào kiểm soát",
+	"point_1_summary_1": "Giao thức của Bitcoin về cơ bản không thay đổi kể từ năm 2009, cung cấp các quy tắc dự đoán được mà không thể dễ dàng thay đổi. Hầu hết các dự án tiền điện tử thường xuyên cập nhật giao thức, thay đổi tokenomics, hoặc fork thành phiên bản mới, tạo ra sự không chắc chắn cho người dùng.",
+	"point_2_summary_1": "Bitcoin hoạt động trên mạng thực sự phi tập trung với hàng chục nghìn nút độc lập trên toàn thế giới. Nhiều dự án tiền điện tử được kiểm soát bởi tổ chức, công ty, hoặc nhóm nhỏ nhà phát triển có thể đưa ra quyết định đơn phương về tương lai giao thức.",
+	"point_3_summary_1": "Bitcoin có giới hạn cứng 21 triệu coin sẽ từng tồn tại, khiến nó là tài sản kỹ thuật số khan hiếm nhất. Hầu hết các dự án tiền điện tử có nguồn cung không giới hạn, cơ chế lạm phát, hoặc có thể tạo token mới tùy ý, làm loãng giá trị của người giữ theo thời gian.",
+	"point_4_summary_1": "Bitcoin có một mục đích đơn giản: tiền kỹ thuật số ngang hàng. Bất kỳ ai cũng có thể hiểu và sử dụng với kiến thức cơ bản. Nhiều dự án tiền điện tử liên quan đến hợp đồng thông minh phức tạp, giao thức DeFi, hoặc cơ chế quản trị đòi hỏi kiến thức kỹ thuật để sử dụng an toàn.",
+	"point_5_summary_1": "Bitcoin sử dụng đồng thuận Bằng Chứng Công Việc, đã được thử nghiệm thực chiến hơn 15 năm mà không có cuộc tấn công thành công nào vào mạng chính. Nhiều dự án tiền điện tử sử dụng cơ chế đồng thuận thử nghiệm như Bằng Chứng Cổ Phần hoặc hệ thống ủy quyền chưa chứng minh được an ninh dài hạn.",
+	"point_6_summary_1": "Bitcoin phục vụ như tiền kỹ thuật số - lưu trữ giá trị và phương tiện trao đổi. Hầu hết các token tiền điện tử là token tiện ích cho nền tảng cụ thể, token quản trị, hoặc tài sản đầu cơ với giá trị thực tế không rõ ràng.",
+	"point_7_summary_1": "Bitcoin trở nên mạnh hơn dưới các cuộc tấn công và đã sống sót qua mọi cuộc khủng hoảng, lệnh cấm, và chỉ trích. Hầu hết các dự án tiền điện tử mong manh và có thể sụp đổ do áp lực pháp lý, lỗi kỹ thuật, hoặc suy thoái thị trường.",
+	"point_8_summary_1": "Bitcoin không có CEO, không có công ty đứng sau, và không có điểm thất bại duy nhất. Nhiều dự án tiền điện tử được hỗ trợ bởi các quỹ đầu tư mạo hiểm, có đội ngũ lãnh đạo có thể nhận dạng, hoặc phụ thuộc vào các công ty cụ thể để tiếp tục hoạt động."
+}
