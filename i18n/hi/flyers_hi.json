@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "hi"
+	},
+	"free_bitcoin_flyers": "bitcoin.rocks से मुफ़्त Bitcoin फ्लायर",
+	"flyers_description": "घर पर Bitcoin फ्लायर प्रिंट करें और सार्वजनिक स्थानों पर लगाकर लोगों को Bitcoin के बारे में जानने में मदद करें।",
+	"flyers_header_1": "प्रिंट और पोस्ट करें",
+	"flyers_header_2": "Bitcoin फ्लायर",
+	"flyers_intro_header": "ये Bitcoin फ्लायर कैसे प्रिंट और पोस्ट करें",
+	"flyers_intro_c1": "हमारा मिशन सार्वजनिक स्थानों पर Bitcoin फ्लायर लगाकर अधिक लोगों को जागरूक करने में आपकी मदद करना है। इस फ्लायर पर QR कोड है जो हमारे",
+	"flyers_intro_c2": "Bitcoin शिक्षा पेज से जुड़ता है।",
+	"flyers_intro_c3": "मुद्रास्फीति",
+	"flyers_intro_c4": "घर पर या प्रिंट शॉप में यह फ्लायर प्रिंट करें। फिर इसे बुलेटिन बोर्ड, खंभों और अन्य सार्वजनिक स्थानों पर लगाएं।",
+	"flyers_intro_c5": "साथ ही, हमारे",
+	"flyers_intro_c6": "मुफ़्त Bitcoin स्टिकर",
+	"flyers_intro_c7": "पैक का अनुरोध करें।",
+	"flyers_btn_download": "फ्लायर डाउनलोड करें",
+	"flyers_btn_print": "फ्लायर प्रिंट करें",
+	"flyers_share_header": "अपनी फ्लायर लोकेशन साझा करें",
+	"flyers_share_c1": "Nostr पर हमारे साथ अपनी फ्लायर लोकेशन साझा करें और देखें दूसरों ने कहाँ लगाए हैं।",
+	"flyers_btn_share_on_nostr": "NOSTR पर साझा करें",
+	"flyers_btn_what_is_nostr": "NOSTR क्या है?"
+}

@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Mandarin Chinese Language Added — April 2026
+## Latest: Hindi Language Added — April 2026
+- Added Hindi (`hi`, हिन्दी) as the 17th language on bitcoin.rocks
+- Created all 90 translation files via 8 scripts in `scripts/hindi/`
+- Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 17 languages
+- Ran SEO content injection successfully
+
+## Mandarin Chinese Language Added — April 2026
 - Added Mandarin Chinese (`zh`, 中文) as the 16th language on bitcoin.rocks
 - Created all 90 translation files via 8 scripts in `scripts/chinese/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

@@ -19,6 +19,7 @@ $(function() {
     { code: 'es', name: 'Español' },
     { code: 'de', name: 'Deutsch' },
     { code: 'fr', name: 'Français' },
+    { code: 'hi', name: 'हिन्दी' },
     { code: 'it', name: 'Italiano' },
     { code: 'pl', name: 'Polski' },
     { code: 'id', name: 'Indonesia' },

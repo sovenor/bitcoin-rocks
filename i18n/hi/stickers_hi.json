@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "hi"
+	},
+	"free_bitcoin_stickers": "bitcoin.rocks से मुफ़्त Bitcoin स्टिकर",
+	"stickers_description": "सार्वजनिक स्थान पर Bitcoin स्टिकर लगाकर आसपास के लोगों को Bitcoin के बारे में जानने में मदद करें।",
+	"stickers_header": "मुफ़्त Bitcoin स्टिकर",
+	"stickers_choose_header": "अपना स्टिकर पैक चुनें",
+	"stickers_choose_c1": "हमारा मिशन सार्वजनिक स्थानों पर Bitcoin स्टिकर लगाकर अधिक लोगों को जागरूक करने में आपकी मदद करना है। हमारे सभी स्टिकर पर QR कोड हैं जो",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "मुद्रास्फीति",
+	"stickers_choose_c4": "के शैक्षिक पेजों से जुड़ते हैं। नीचे एक स्टिकर पैक चुनें",
+	"stickers_text_pack": "टेक्स्ट पैक",
+	"stickers_signs_pack": "साइन पैक",
+	"stickers_instructions_1": "अपना डाक पता दर्ज करें और हम मुफ़्त Bitcoin स्टिकर पैक भेजेंगे! स्टिकर साधारण सफ़ेद लिफ़ाफ़े में आएंगे।",
+	"stickers_instructions_2": "पता जानकारी मुफ़्त स्टिकर भेजने के बाद हटा दी जाती है।",
+	"stickers_share_header": "अपनी स्टिकर लोकेशन साझा करें",
+	"stickers_share_c1": "Nostr पर हमारे साथ अपनी स्टिकर लोकेशन साझा करें और देखें दूसरों ने कहाँ लगाए हैं।",
+	"stickers_btn_share_on_nostr": "NOSTR पर साझा करें",
+	"stickers_btn_what_is_nostr": "NOSTR क्या है?",
+	"stickers_flyers_link_before": "साथ ही, अपने खुद के",
+	"stickers_flyers_link_text": "Bitcoin फ्लायर",
+	"stickers_flyers_link_after": "प्रिंट और पोस्ट करें।",
+	"stickers_country_global_print": "वैश्विक — मैं खुद स्टिकर प्रिंट करूंगा",
+	"stickers_country_global_order": "वैश्विक — थोक में ऑर्डर करें",
+	"placeholder_name_optional": "नाम (वैकल्पिक)",
+	"placeholder_address_line_1": "पता लाइन 1",
+	"placeholder_address_line_2": "पता लाइन 2 (वैकल्पिक)",
+	"placeholder_city": "शहर",
+	"placeholder_state": "राज्य",
+	"placeholder_province": "प्रांत",
+	"placeholder_zip_code": "पिन कोड",
+	"placeholder_postal_code": "डाक कोड",
+	"placeholder_language": "भाषा",
+	"placeholder_which_stickers": "कौन से स्टिकर?",
+	"placeholder_email_optional": "सूचना के लिए ईमेल दर्ज करें (वैकल्पिक)"
+}

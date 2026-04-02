@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "hi"
+	},
+	"how_to_accept_bitcoin_payments": "Bitcoin भुगतान कैसे स्वीकार करें",
+	"wallets_header": "भुगतान स्वीकार करने के लिए मुफ़्त Bitcoin वॉलेट पाएं",
+	"wallets_intro_1": "सभी Bitcoin वॉलेट आपस में संगत हैं, इसलिए ग्राहक किसी भी वॉलेट से आपको Bitcoin भुगतान कर सकता है।",
+	"wallets_intro_2": "शुद्ध Bitcoin वॉलेट:",
+	"wallets_intro_3": "ये शुद्ध Bitcoin वॉलेट हैं जो Bitcoin के सभी लाभ खोलते हैं: कोई मध्यस्थ नहीं, कम शुल्क, कोई चार्जबैक या धोखाधड़ी नहीं।",
+	"wallets_intro_4": "हाइब्रिड वॉलेट:",
+	"wallets_intro_5": "ये वॉलेट ग्राहक द्वारा भुगतान के बाद Bitcoin के किसी भी प्रतिशत को डॉलर में बदलने की अनुमति देते हैं। शुल्क क्रेडिट कार्ड से कम लेकिन शुद्ध Bitcoin भुगतान से अधिक है।",
+	"wallets_intro_6": "दोनों प्रकार Bitcoin स्वीकार करने के अच्छे तरीके हैं। कौन सा उपयोग करें यह आपके व्यवसाय के आकार और प्रकार पर निर्भर करता है।",
+	"wallets_choice_sole": "एकल स्वामी के लिए वॉलेट",
+	"wallets_choice_multiple": "कई कर्मचारियों वाले व्यवसाय के लिए वॉलेट",
+	"wallets_choice_online": "ऑनलाइन व्यवसाय के लिए वॉलेट",
+	"wallets_choice_invoice": "इनवॉइस व्यवसाय के लिए वॉलेट",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "आप Bitcoin भुगतान स्वीकार करने के लिए अपने मौजूदा Square POS टर्मिनल या ऑनलाइन स्टोर इंटीग्रेशन का उपयोग कर सकते हैं। Bitcoin भुगतान स्वीकार करना इतना आसान कभी नहीं रहा।",
+	"wallets_feature_bitcoin_only": "शुद्ध Bitcoin वॉलेट",
+	"wallets_feature_no_info": "कोई जानकारी आवश्यक नहीं",
+	"wallets_feature_in_person": "केवल व्यक्तिगत भुगतान",
+	"wallets_feature_settles_bitcoin": "100% Bitcoin में निपटान",
+	"wallets_feature_hybrid": "हाइब्रिड वॉलेट",
+	"wallets_feature_info": "व्यवसाय जानकारी आवश्यक",
+	"wallets_feature_in_person_online": "व्यक्तिगत और ऑनलाइन भुगतान",
+	"wallets_feature_settles_both": "Bitcoin और डॉलर में निपटान",
+	"wallets_feature_multiple_employees": "कई कर्मचारियों का समर्थन (BPT)",
+	"wallets_feature_self_hosted": "स्व-होस्टेड = 0% शुल्क",
+	"wallets_feature_online_store": "ऑनलाइन स्टोर इंटीग्रेशन",
+	"wallets_feature_invoicing": "मुफ़्त इनवॉइस सॉफ़्टवेयर",
+	"wallets_get_wallet": "वॉलेट पाएं"
+}

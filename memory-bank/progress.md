@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Hindi (hi) Language Added — April 2026
+- Added Hindi (हिन्दी) as the 17th language
+- Created all 90 translation files in `i18n/hi/` mirroring the English directory structure
+- Translation scripts in `scripts/hindi/` (8 scripts broken by category)
+- Updated: language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (16→17)
+- Ran SEO content injection
+
 ## Mandarin Chinese (zh) Language Added — April 2026
 - Added Mandarin Chinese (中文) as the 16th language
 - Created all 90 translation files in `i18n/zh/` mirroring the English directory structure
