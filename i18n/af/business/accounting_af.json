@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"bitcoin_business_accounting_guide": "Bitcoin besigheidsrekeningkundegids",
+	"accounting_description": "Leer hoe om Bitcoin-betalings behoorlik in jou besigheidsrekeningkunde te verantwoord.",
+	"accounting_header": "BITCOIN-REKENINGKUNDEGIDS",
+	"accounting_s1_c1": "Bitcoin-aanvaarding het baie voordele soos laer fooie en meer klante.",
+	"accounting_s1_c2": "As jy 'n hibriede beursie van ons beursiegids gebruik en outomaties 100% van die Bitcoin wat jy ontvang vir dollars verkoop, hoef jy geen veranderinge aan jou huidige rekeningkunde te maak nie.",
+	"accounting_s1_c3": "Bekyk beursiegids.",
+	"accounting_s1_c4": "As jy egter sommige van die Bitcoin-betalings wat jy ontvang as Bitcoin hou, sal jy 'n paar besonderhede vir jou rekeningkunde moet byhou. Dit kan aanvanklik intimiderend lyk, maar is eintlik redelik eenvoudig.",
+	"accounting_s1_c5": "Let asseblief op: hierdie gids is slegs vir inligtingsdoeleindes en moet nie as belastingadvies beskou word nie.",
+	"accounting_s1_c6": "As jy belastingadvies nodig het, beveel ons Satoshi Pacioli Rekeningkundige Dienste sterk aan, 'n rekeningkundige firma wat spesialiseer in Bitcoin-rekeningkunde.",
+	"accounting_s2": "DOPY VAN JOU KOSTEBASIS",
+	"accounting_s2_c1": "Die byhou van jou kostebasis gaan die grootste verskil wees tussen rekeningkunde vir dollars en rekeningkunde vir Bitcoin. Selfs as jy jou besigheid heeltemal in terme van Bitcoin beskou, moet jy die dollarwaarde van elke transaksie op jou belasting rapporteer.",
+	"accounting_s2_c2": "As jy QuickBooks gebruik, kan jy dit outomaties doen met die Bitcoin Sync-inprop.",
+	"accounting_s2_c3": "As jy nie QuickBooks gebruik nie, beveel ons Satoshi Pacioli Rekeningkundige Dienste aan, 'n rekeningkundige firma wat spesialiseer in Bitcoin-rekeningkunde.",
+	"accounting_s2_c4": "Om dit handmatig te doen, hoef jy net die hoeveelheid Bitcoin wat jy ontvang het en die dollarwaarde van die Bitcoin-transaksie op daardie dag by te hou.",
+	"accounting_s2_c5": "Jy kan die huidige dollarprys van Bitcoin hier sien.",
+	"accounting_s2_c6": "Hou hierdie inligting in 'n Excel-sigblad by en gee dit aan jou rekenmeester.",
+	"accounting_s2_c7": "Jy kan hierdie data ook outomaties in Excel invoer.",
+	"accounting_s2_c8": "Jy kan ook die historiese dollarprys van Bitcoin op vorige dae sien, sodat jy dit nie elke dag hoef te doen nie.",
+	"accounting_s3": "BESTEE OF VERKOOP JOU BITCOIN",
+	"accounting_s3_c1": "As jy 'n hibriede beursie van ons beursiegids gebruik en outomaties 100% van die Bitcoin wat jy ontvang vir dollars verkoop, hoef jy geen veranderinge aan jou huidige rekeningkunde te maak nie.",
+	"accounting_s3_c2": "Bekyk beursiegids.",
+	"accounting_s3_c3": "As jy kies om sommige van die Bitcoin wat jy ontvang te bestee of te verkoop nadat jy dit vir 'n rukkie gehou het, hoef jy net die prys waarteen jy dit verkoop het by jou Excel-sigblad te voeg wat jou kostebasis dop.",
+	"accounting_s3_c4": "Byvoorbeeld, as jy $100 se waarde aan Bitcoin op 1 Januarie ontvang het en besluit om dit op 1 Februarie teen 'n nuwe waarde van $110 te verkoop of te bestee, sal jy 'n $10 kapitaalwins in jou rekeningkunde moet aanteken.",
+	"accounting_s3_c5": "Dit kan ook andersom werk. Byvoorbeeld, as jy $100 se waarde aan Bitcoin op 1 Januarie ontvang het en besluit om dit op 1 Februarie teen 'n nuwe waarde van $90 te verkoop of te bestee, sal jy 'n $10 kapitaalverlies in jou rekeningkunde moet aanteken.",
+	"accounting_s4": "EK HET MEER HULP NODIG",
+	"accounting_s4_c1": "As jy meer hulp nodig het om Bitcoin in jou besigheidsrekeningkunde te integreer, beveel ons Satoshi Pacioli Rekeningkundige Dienste sterk aan, 'n rekeningkundige firma wat spesialiseer in Bitcoin-rekeningkunde.",
+	"accounting_s4_c2": "Leer meer oor Satoshi Pacioli Rekeningkundige Dienste."
+}

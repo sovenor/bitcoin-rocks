@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"sign_success_1": "Jy sal jou borde binne 1 tot 2 weke ontvang. Terwyl jy wag, probeer om aan goeie plekke te dink om jou borde te sit!",
+	"sign_success_3": "Wil jy sien waar ander mense hul borde sit?",
+	"signs_share_header": "DEEL JOU BORDPLEKKE",
+	"signs_share_c1": "Deel 'n foto van jou bordplek met ons op Nostr en ons sal jou sats zap! Sats is breuke van 'n bitcoin.",
+	"signs_btn_share_on_nostr": "DEEL OP NOSTR",
+	"signs_btn_what_is_nostr": "WAT IS NOSTR?"
+}

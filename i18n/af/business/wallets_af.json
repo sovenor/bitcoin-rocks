@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"how_to_accept_bitcoin_payments": "Hoe om Bitcoin-betalings te aanvaar",
+	"wallets_header": "KRY 'N GRATIS BITCOIN-BEURSIE OM BITCOIN-BETALINGS TE AANVAAR",
+	"wallets_intro_1": "Alle Bitcoin-beursies is interoperabel, sodat jou klante jou in Bitcoin kan betaal maak nie saak watter beursie hulle gebruik nie.",
+	"wallets_intro_2": "Slegs-Bitcoin-beursies:",
+	"wallets_intro_3": "Dit is suiwer Bitcoin-beursies wat die volle voordele van Bitcoin ontsluit: geen tussengangers, lae fooie, en geen terugbetalings of bedrog nie.",
+	"wallets_intro_4": "Hibriede beursies:",
+	"wallets_intro_5": "Hierdie stel jou in staat om enige gedeelte van jou Bitcoin vir dollars om te ruil sodra 'n klant jou betaal. Fooie is steeds minder as kredietkaartbetalings, maar hoër as suiwer Bitcoin-betalings.",
+	"wallets_intro_6": "Albei is uitstekende maniere om Bitcoin te aanvaar. Die spesifieke beursie wat jy gebruik sal afhang van die grootte en tipe van jou besigheid.",
+	"wallets_choice_sole": "beursies vir individueel-besitte besighede",
+	"wallets_choice_multiple": "beursies vir besighede met verskeie werknemers",
+	"wallets_choice_online": "beursies vir aanlyn besighede",
+	"wallets_choice_invoice": "beursies vir faktuurgebaseerde besighede",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Jy kan Bitcoin-betalings met jou bestaande Square PoS-terminaal of aanlyn winkelintegrasie aanvaar. Dit was nog nooit so maklik om Bitcoin-betalings te aanvaar nie.",
+	"wallets_feature_bitcoin_only": "Slegs-Bitcoin-beursie",
+	"wallets_feature_no_info": "Geen inligting nodig nie",
+	"wallets_feature_in_person": "Slegs persoonlike betalings",
+	"wallets_feature_settles_bitcoin": "Vereffen 100% in Bitcoin",
+	"wallets_feature_hybrid": "Hibriede beursie",
+	"wallets_feature_info": "Besigheidsinligting nodig",
+	"wallets_feature_in_person_online": "Persoonlike en aanlyn betalings",
+	"wallets_feature_settles_both": "Vereffen in Bitcoin en dollars",
+	"wallets_feature_multiple_employees": "Veelvuldige werknemerondersteuning (BPT's)",
+	"wallets_feature_self_hosted": "Self-gehuisves = 0% fooie",
+	"wallets_feature_online_store": "Aanlyn winkelintegrasie",
+	"wallets_feature_invoicing": "Gratis faktuursagteware",
+	"wallets_get_wallet": "KRY BEURSIE"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-beursiegids",
+	"lightning_description": "Lightning-beursies stel jou in staat om Bitcoin vinnig en goedkoop te stuur terwyl jy steeds jou persoonlike selfstandigheid behou.",
+	"lightning_header": "LIGHTNING-BEURSIEGIDS",
+	"lightning_s1_c1": "Lightning stel jou in staat om Bitcoin-betalings vinnig en goedkoop te stuur.",
+	"lightning_s1_c2": "Dit is belangrik om te weet dat die gebruik van Lightning met kompromieë gepaard gaan. In ruil vir vinniger, goedkoper Bitcoin-betalings, offer jy dikwels 'n mate van sekuriteit op.",
+	"lightning_s1_c3": "Oor die algemeen moet Lightning slegs met klein bedrae bitcoin gebruik word. Jy moet slegs ooit groot bedrae bitcoin in 'n hardewarebeursie berg.",
+	"lightning_s1_c4": "Kyk na ons hardewarebeursiegids vir meer inligting.",
+	"lightning_s1_c5": "Nie alle Lightning-beursies is dieselfde nie. Jy kan bepaal watter beursie die regte stel kompromieë vir jou het deur een eenvoudige vraag te vra:",
+	"lightning_question_1": "WATTER KOMPROMIEBALANS IS REG VIR MY?",
+	"lightning_s2_c1": "Een van die innovasies van Bitcoin is die vermoë om dit te berg sonder om op 'n bewaarder, soos 'n bank, staat te maak. Selfbewaringsbeursies ontsluit die volle krag van Bitcoin.",
+	"lightning_s2_c2": "Met 'n selfbewaringsbeursie is jy die enigste een met die vermoë om jou geld te bestee of oor te dra. Niemand kan jou stop, sensureer, of van jou steel wanneer jy 'n selfbewaringsbeursie gebruik nie. Dit word ook nie-bewaardebeursies genoem.",
+	"lightning_s2_c3": "Die mees soewereine manier om Lightning te gebruik is deur jou eie nodus te bedryf.",
+	"lightning_s2_c4": "Hierdie gids fokus op eenvoudige Lightning-beursies wat nie jou eie nodus vereis nie.",
+	"lightning_s2_c5": "Dit is belangrik om te weet dat selfs as jy 'n nie-bewaarder Lightning-beursie gebruik, jy steeds die beursieskeper vertrou om nie 'n kwaadwillige toepassingsopdatering te stuur en jou fondse te steel nie.",
+	"lightning_s3_c1": "Bewaardebeursies is beursies waar jy nie in beheer van jou geld is nie.",
+	"lightning_s3_c2": "Hierdie beursies is meer soortgelyk aan die bankstelsel waar jy 'n derde party moet vertrou om jou toegang tot jou geld te gee. As jou Bitcoin op 'n beurs is, gebruik jy 'n bewaardebeursie.",
+	"lightning_s3_c3": "Bewaardebeursies kan gerieflik lyk, maar die bewaarder het die tegniese vermoë om alle gebruikersfondse enige tyd te steel.",
+	"lightning_s3_c4": "Sommige mense verkies bewaarder Lightning-beursies vir klein bedrae bitcoin weens hul gebruiksgemak. Onthou net: nie jou sleutels nie, nie jou munte nie!",
+	"lightning_question_2": "KIES JOU BEURSIE",
+	"lightning_s4_c1": "Met al hierdie in gedagte kan jy nou die Lightning-beursie kies wat die regte kompromiebalans vir jou het.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Baie kenmerke",
+	"lightning_mobile_app": "Mobiele toepassing",
+	"lightning_free": "100% gratis",
+	"lightning_merchants": "Uitstekend vir handelaars",
+	"lightning_starter": "Uitstekende beginbeursie",
+	"lightning_browser": "Blaaiergebaseer",
+	"lightning_custodial": "Ten volle bewaardebeursie",
+	"lightning_cta_hardware": "Soek jy ons Bitcoin-hardewarebeursiegids?"
+}

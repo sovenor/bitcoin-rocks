@@ -1,10 +1,10 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Zulu (isiZulu) Language Added — April 2026
-- Added Zulu (`zu`) as the 13th language on bitcoin.rocks
-- Created all ~90+ translation files via 10 scripts in `scripts/zu/`
+## Latest: Afrikaans Language Added — April 2026
+- Added Afrikaans (`af`) as the 14th language on bitcoin.rocks
+- Created all 90 translation files via 8 scripts in `scripts/afrikaans/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
-- Updated all about_xx.json files from 12→13 languages
+- Updated all about_xx.json files from 13→14 languages
 - Ran SEO content injection successfully
 
 ## Current Work Focus

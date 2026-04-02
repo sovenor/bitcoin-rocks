@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin het nie bankstormlope nie",
+	"bank_runs_header": "BITCOIN HET NIE BANKSTORMLOPE NIE",
+	"bank_runs_header_2": "MAAR JOU BANK HET DALK",
+	"bank_runs_what": "WAT IS 'N BANKSTORMLOOP?",
+	"bank_runs_what_content_1": "'n Bankstormloop gebeur wanneer te veel mense gelyktydig probeer om hul geld van die bank te onttrek.",
+	"bank_runs_what_content_2": "As banke nie genoeg geld beskikbaar het om onttrekkings te dek nie, kan hulle heeltemal ineenstort wanneer 'n bankstormloop plaasvind.",
+	"bank_runs_how": "HOE GEBEUR BANKSTORMLOPE?",
+	"bank_runs_how_content_1": "Ons bankstelsel is 'fraksionele reserwe' wat beteken die banke hou nie net jou geld in 'n kluis en wag vir jou om dit te bestee of te onttrek nie.",
+	"bank_runs_how_content_2": "In plaas daarvan neem jou bank jou geld en leen dit uit of belê dit. Dit kan jou geld vir lang tydperke vassluit, selfs al belowe die bank jou die vermoë om jou geld enige tyd te onttrek.",
+	"bank_runs_how_content_3": "So wat gebeur as jy probeer om jou geld te onttrek nadat die bank dit reeds uitgeleen of belê het?",
+	"bank_runs_how_content_4": "Dit is nie 'n probleem as jy die enigste een is wat probeer onttrek nie. Die bank sal net iemand anders se geld neem en dit aan jou gee. Maar wat gebeur wanneer te veel mense gelyktydig probeer onttrek?",
+	"bank_runs_how_content_5": "Baie mense in die VSA het uitgevind toe daar in Maart 2023 'n stormloop op Silicon Valley Bank was.",
+	"bank_runs_how_content_6": "Die bank het hul klante se geld in staatseffekte belê wat vir tot 30 jaar vasgesluit was. Erger nog, die waarde van daardie effekte het onlangs dramaties gedaal, so Silicon Valley Bank kon nie net die effekte verkoop om die geld van hul deposante te kry nie. Hulle was insolvent. Hulle het nie genoeg geld gehad om die onttrekkings van hul deposante te dek nie.",
+	"bank_runs_how_content_7": "Soos meer mense uitgevind het, het die probleem net erger geword. Meer onttrekkingsversoeke het ingekom, maar baie is nie verwerk nie. Duisende besighede het besef dat hulle nie hul werknemers sou kon betaal nie weens die bank se mislukking.",
+	"bank_runs_how_content_8": "Die FDIC het ingetree en ooreengekom om deposante heel te maak. Probleem opgelos? Nie regtig nie...",
+	"bank_runs_fdic": "BESKERM FDIC-VERSEKERING MY GELD?",
+	"bank_runs_fdic_content_1": "FDIC-versekering is ontwerp om bankdeposante te beskerm in die geval dat 'n bank misluk. Deposito's is verseker tot $250 000 per deposant. Klink goed, reg?",
+	"bank_runs_fdic_content_2": "Nie regtig nie. As 'n bank misluk, waar kry die FDIC die geld vandaan? Hulle het 'n versekeringsfonds met 125 miljard dollar daarin.",
+	"bank_runs_fdic_content_3": "Dit klink soos baie geld totdat jy dit vergelyk met die bedrag deposito's wat hulle verseker: byna 10 triljoen of 10 000 miljard dollar.",
+	"bank_runs_fdic_content_4": "Die FDIC wys selfs op hul webwerf dat hulle slegs genoeg geld in hul versekeringsfonds het om 'n bietjie meer as 1% van deposito's te dek.",
+	"bank_runs_fdic_content_5": "In die geval van 'n bankmislukking wat die FDIC-versekeringsfonds oorskry, is dit waarskynlik (maar nie gewaarborg nie) dat die Amerikaanse regering geld sal druk om deposante heel te maak.",
+	"bank_runs_fdic_content_6": "Maar gelddrukking veroorsaak inflasie, so dit is nie 'n goeie oplossing nie.",
+	"bank_runs_safe": "IS DAAR BANKE WAT NIE FRAKSIONELE RESERWE GEBRUIK NIE?",
+	"bank_runs_safe_content_1": "Sommige banke het probeer om 'veilige banke' te wees wat nie deposantfondse uitleen of belê nie.",
+	"bank_runs_safe_content_2": "Selfs al sou hierdie veilige banke geen risiko van bankstormlope hê nie, is hul aansoeke deur die Federal Reserve geweier. Dit beteken hulle kan nie wettig as banke werk nie.",
+	"bank_runs_safe_content_3": "Omdat hulle geblokkeer is om te werk, is daar vandag geen banke wat nie fraksionele reserwe gebruik nie.",
+	"bank_runs_safe_content_4": "Gelukkig is daar 'n manier om uit die fraksionele reserwe-stelsel te kies deur jou eie bank te wees. Nee, ons praat nie van kontant onder jou matras stop nie.",
+	"bank_runs_safe_content_5": "Om in kontant te spaar is steeds kwesbaar vir inflasie.",
+	"bank_runs_safe_content_6": "Ons praat van Bitcoin: 'n nuwe finansiële stelsel wat jou in staat stel om jou eie bank te wees.",
+	"bank_runs_protect": "KAN BITCOIN MY TEEN BANKSTORMLOPE BESKERM?",
+	"bank_runs_protect_content_1": "Ja, Bitcoin is 'n volreserwe-finansiële stelsel.",
+	"bank_runs_protect_content_2": "Bankstormlope is onmoontlik in Bitcoin solank jy jou Bitcoin na jou eie beursie onttrek. Moenie jou bitcoin op 'n beurs of in 'n omhulsel soos 'n Bitcoin ETF laat nie.",
+	"bank_runs_protect_content_3": "Kyk na ons eenvoudige Bitcoin-beursiegids om te leer hoe om na jou eie beursie te onttrek.",
+	"bank_runs_protect_content_4": "Met Bitcoin kan jy uiteindelik in beheer van jou geld wees."
+}

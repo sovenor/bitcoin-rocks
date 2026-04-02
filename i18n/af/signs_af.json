@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"signs_description": "Help ons om hierdie Bitcoin-borde regoor Amerika te sit!",
+	"signs_title": "Gratis Bitcoin-borde van bitcoin.rocks",
+	"signs_choose_header": "DANKIE DAT JY ONS GEHELP HET OM HIERDIE BITCOIN-BORDE REGOOR AMERIKA TE SIT!",
+	"signs_choose_c1": "Ons is nou heeltemal uit borde! Ons missie is om Bitcoin-aanvaarding deur onderwys te versnel.",
+	"signs_choose_c2": "Baie van julle het gehelp deur hierdie gratis Bitcoin-borde in die openbaar te sit. Al ons borde het QR-kodes wat skakel na 'n opvoedkundige bladsy oor",
+	"signs_choose_c3": "inflasie",
+	"signs_choose_c4": "Danksy ons wonderlike gemeenskap het ons duisende mense bereik en hulle gehelp om hul eerste stappe in die Bitcoin-konyngat te neem.",
+	"signs_share_header": "DEEL JOU BORDPLEKKE",
+	"signs_share_c1": "Deel 'n foto van jou bordplek met ons op Nostr en sien waar ander mense hul borde sit.",
+	"signs_btn_share_on_nostr": "DEEL OP NOSTR",
+	"signs_btn_what_is_nostr": "WAT IS NOSTR?",
+	"signs_instructions_1": "Voer jou posadres in en ons sal jou 'n boks van 10 Bitcoin-borde in die pos stuur!",
+	"signs_instructions_2": "Adresdata word uitgevee nadat jou gratis borde versend is."
+}

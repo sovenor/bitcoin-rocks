@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"free_bitcoin_stickers": "Gratis Bitcoin-plakkers van bitcoin.rocks",
+	"stickers_description": "Sit 'n bitcoin-plakker in die openbaar om diegene rondom jou te oranjepil.",
+	"stickers_header": "GRATIS BITCOIN-PLAKKERS",
+	"stickers_choose_header": "KIES JOU PLAKKERPAKKET",
+	"stickers_choose_c1": "Ons missie is om jou te help om meer mense te oranjepilder deur Bitcoin-plakkers in die openbaar te sit. Al ons plakkers het QR-kodes wat skakel na opvoedkundige bladsye oor",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflasie",
+	"stickers_choose_c4": "Kies jou plakkerpakket hieronder",
+	"stickers_text_pack": "DIE TEKSPAKKET",
+	"stickers_signs_pack": "DIE BORDE-PAKKET",
+	"stickers_instructions_1": "Voer jou posadres in en ons sal jou 'n gratis Bitcoin-plakkerpakket in die pos stuur! Jou plakkers sal in 'n gewone wit koevert versend word.",
+	"stickers_instructions_2": "Adresdata word uitgevee nadat jou gratis plakkers versend is.",
+	"stickers_share_header": "DEEL JOU PLAKKERSPLEKKE",
+	"stickers_share_c1": "Deel jou plakkersplekke met ons op Nostr en sien waar ander mense hul plakkers sit.",
+	"stickers_btn_share_on_nostr": "DEEL OP NOSTR",
+	"stickers_btn_what_is_nostr": "WAT IS NOSTR?",
+	"stickers_flyers_link_before": "Terwyl jy besig is, druk en plak jou eie ",
+	"stickers_flyers_link_text": "Bitcoin-vlugskrifte",
+	"stickers_flyers_link_after": " om nog meer mense te oranjepilder.",
+	"stickers_country_global_print": "Wêreldwyd — Druk my eie plakkers",
+	"stickers_country_global_order": "Wêreldwyd — Bestel in groot hoeveelhede",
+	"placeholder_name_optional": "Naam (opsioneel)",
+	"placeholder_address_line_1": "Adreslyn 1",
+	"placeholder_address_line_2": "Adreslyn 2 (opsioneel)",
+	"placeholder_city": "Stad",
+	"placeholder_state": "Staat",
+	"placeholder_province": "Provinsie",
+	"placeholder_zip_code": "Poskode",
+	"placeholder_postal_code": "Poskode",
+	"placeholder_language": "Taal",
+	"placeholder_which_stickers": "Watter plakkers?",
+	"placeholder_email_optional": "Voer jou e-pos in om in kennis gestel te word (opsioneel)"
+}

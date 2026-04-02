@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Kripto",
+	"crypto_header": "DIE VERSKIL TUSSEN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "EN",
+	"crypto_header_4": "KRIPTO",
+	"crypto_intro_1": "Die kriptogeldruimte het ontplof met duisende verskillende digitale tokens en projekte.",
+	"crypto_intro_2": "Terwyl Bitcoin die eerste was en die bekendste kriptogeld bly, is dit fundamenteel anders as die res van die kripto-industrie.",
+	"crypto_intro_3": "Kom ons verken die belangrikste verskille tussen Bitcoin en die breër kriptogeld-ekosisteem.",
+	"crypto": "KRIPTO",
+	"crypto_point_1": "Gereelde veranderings en vurke",
+	"crypto_point_2": "Gesentraliseerde beheer",
+	"crypto_point_3": "Onbeperkte of inflasionêre voorraad",
+	"crypto_point_4": "Komplekse protokolle",
+	"crypto_point_5": "Eksperimentele konsensus",
+	"crypto_point_6": "Spekulatiewe nuttigheids-tokens",
+	"crypto_point_7": "Wisselvallig en broos",
+	"crypto_point_8": "Korporatiewe ondersteuning",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Onveranderlike protokol",
+	"bitcoin_point_2": "Werklik gedesentraliseer",
+	"bitcoin_point_3": "Vaste voorraad van 21M BTC",
+	"bitcoin_point_4": "Eenvoudig en toeganklik",
+	"bitcoin_point_5": "Bewese Bewys-van-Werk",
+	"bitcoin_point_6": "Suiwer digitale geld",
+	"bitcoin_point_7": "Antifragiel",
+	"bitcoin_point_8": "Geen enkele entiteit beheer dit nie",
+	"point_1_summary_1": "Bitcoin se protokol het fundamenteel onveranderd gebly sedert 2009, wat voorspelbare reëls bied wat nie maklik gewysig kan word nie. Die meeste kriptoprojekte werk hul protokolle gereeld by, verander tokenomie, of vurk in nuwe weergawes, wat onsekerheid vir gebruikers skep.",
+	"point_2_summary_1": "Bitcoin werk op 'n werklik gedesentraliseerde netwerk met tienduisende onafhanklike nodusse wêreldwyd. Baie kriptoprojekte word beheer deur stigtings, maatskappye, of klein groepe ontwikkelaars wat eensydige besluite oor die protokol se toekoms kan neem.",
+	"point_3_summary_1": "Bitcoin het 'n harde plafon van 21 miljoen munte wat ooit sal bestaan, wat dit die skaarsste digitale bate maak. Die meeste kriptoprojekte het onbeperkte voorrade, inflasionêre meganismes, of kan nuwe tokens na willekeur skep, wat houerwaarde oor tyd verdun.",
+	"point_4_summary_1": "Bitcoin het een eenvoudige doel: eweknie-tot-eweknie digitale geld. Enigiemand kan dit verstaan en met basiese kennis gebruik. Baie kriptoprojekte behels komplekse slim kontrakte, DeFi-protokolle, of bestuurmeganismes wat tegniese kundigheid vereis om veilig te gebruik.",
+	"point_5_summary_1": "Bitcoin gebruik Bewys-van-Werk-konsensus, wat al vir meer as 15 jaar beproef is sonder 'n enkele suksesvolle aanval op die hoofnetwerk. Baie kriptoprojekte gebruik eksperimentele konsensusmeganismes soos Bewys-van-Belang of gedelegeerde stelsels wat nog nie hul langtermynsekuriteit bewys het nie.",
+	"point_6_summary_1": "Bitcoin dien as digitale geld - 'n waardeberg en ruilmiddel. Die meeste kripto-tokens is nuttigheids-tokens vir spesifieke platforms, bestuurstokens, of spekulatiewe bates met onduidelike werklike-wêreld-waarde-voorstelle.",
+	"point_7_summary_1": "Bitcoin word sterker onder aanval en het elke krisis, verbanning, en kritiek wat daarna gegooi is oorleef. Die meeste kriptoprojekte is broos en kan ineenstort weens regulatoriese druk, tegniese mislukkings, of markinsinkings.",
+	"point_8_summary_1": "Bitcoin het geen HUB, geen maatskappy agter dit, en geen enkele punt van mislukking nie. Baie kriptoprojekte word ondersteun deur waagkapitaalfirmas, het identifiseerbare leierskapspanne, of is afhanklik van spesifieke maatskappye vir hul voortgesette werking."
+}

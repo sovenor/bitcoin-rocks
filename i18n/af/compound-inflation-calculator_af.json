@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "af"
+	},
+	"cic_header": "SAAMGESTELDE INFLASIESAKREKENAAR",
+	"cic_description": "Gebruik hierdie saamgestelde inflasiesakrekenaar om uit te vind hoeveel jou salaris moet styg om tred te hou met inflasie.",
+	"what_can_i_do_about": "Wat kan ek doen oor",
+	"what_can_i_do_about_2": "inflasie?",
+	"cic_inflation_cta": "Kies uit inflasie met Bitcoin"
+}

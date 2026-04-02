@@ -1,6 +1,6 @@
 /**
  * Updates the language count in all about_xx.json files.
- * Changes "12 languages" to "13 languages" (or equivalent in each language).
+ * Changes "13 languages" to "14 languages" (or equivalent in each language).
  */
 
 const fs = require('fs');
@@ -11,19 +11,20 @@ const today = new Date().toISOString().split('T')[0];
 
 // Map of language code -> correct translation of "10 languages and growing"
 const translations = {
-	en: "Thanks to our community of volunteer translators, bitcoin.rocks is currently available in 13 languages and growing.",
-	de: "Dank unserer Gemeinschaft freiwilliger Übersetzer ist bitcoin.rocks derzeit in 13 Sprachen verfügbar und wächst weiter.",
-	es: "Gracias a nuestra comunidad de traductores voluntarios, bitcoin.rocks está actualmente disponible en 13 idiomas y sigue creciendo.",
-	fr: "Grâce à notre communauté de traducteurs bénévoles, bitcoin.rocks est actuellement disponible en 13 langues et continue de croître.",
-	it: "Grazie alla nostra comunità di traduttori volontari, bitcoin.rocks è attualmente disponibile in 13 lingue e in continua crescita.",
-	pt: "Graças à nossa comunidade de tradutores voluntários, o bitcoin.rocks está atualmente disponível em 13 idiomas e crescendo.",
-	nl: "Dankzij onze gemeenschap van vrijwillige vertalers is bitcoin.rocks momenteel beschikbaar in 13 talen en groeiende.",
-	bg: "Благодарение на нашата общност от доброволни преводачи, bitcoin.rocks е наличен в момента на 13 езика и продължава да расте.",
-	id: "Berkat komunitas penerjemah sukarelawan kami, bitcoin.rocks saat ini tersedia dalam 13 bahasa dan terus bertambah.",
-	th: "ด้วยชุมชนอาสาสมัครนักแปลของเรา bitcoin.rocks ปัจจุบันมีให้บริการใน 13 ภาษาและเพิ่มขึ้นเรื่อยๆ",
-	pl: "Dzięki naszej społeczności tłumaczy-wolontariuszy, bitcoin.rocks jest obecnie dostępny w 13 językach i wciąż rośnie.",
-	ta: "எங்கள் தன்னார்வ மொழிபெயர்ப்பாளர்கள் சமூகத்திற்கு நன்றி, bitcoin.rocks தற்போது 13 மொழிகளில் கிடைக்கிறது மற்றும் வளர்ந்து வருகிறது.",
-	zu: "Ngokubonga umphakathi wethu wabahumushi abazithandela, i-bitcoin.rocks okwamanje itholakala ngezilimi ezingu-13 futhi iyakhula."
+	en: "Thanks to our community of volunteer translators, bitcoin.rocks is currently available in 14 languages and growing.",
+	af: "Danksy ons gemeenskap van vrywillige vertalers is bitcoin.rocks tans beskikbaar in 14 tale en groeiend.",
+	de: "Dank unserer Gemeinschaft freiwilliger Übersetzer ist bitcoin.rocks derzeit in 14 Sprachen verfügbar und wächst weiter.",
+	es: "Gracias a nuestra comunidad de traductores voluntarios, bitcoin.rocks está actualmente disponible en 14 idiomas y sigue creciendo.",
+	fr: "Grâce à notre communauté de traducteurs bénévoles, bitcoin.rocks est actuellement disponible en 14 langues et continue de croître.",
+	it: "Grazie alla nostra comunità di traduttori volontari, bitcoin.rocks è attualmente disponibile in 14 lingue e in continua crescita.",
+	pt: "Graças à nossa comunidade de tradutores voluntários, o bitcoin.rocks está atualmente disponível em 14 idiomas e crescendo.",
+	nl: "Dankzij onze gemeenschap van vrijwillige vertalers is bitcoin.rocks momenteel beschikbaar in 14 talen en groeiende.",
+	bg: "Благодарение на нашата общност от доброволни преводачи, bitcoin.rocks е наличен в момента на 14 езика и продължава да расте.",
+	id: "Berkat komunitas penerjemah sukarelawan kami, bitcoin.rocks saat ini tersedia dalam 14 bahasa dan terus bertambah.",
+	th: "ด้วยชุมชนอาสาสมัครนักแปลของเรา bitcoin.rocks ปัจจุบันมีให้บริการใน 14 ภาษาและเพิ่มขึ้นเรื่อยๆ",
+	pl: "Dzięki naszej społeczności tłumaczy-wolontariuszy, bitcoin.rocks jest obecnie dostępny w 14 językach i wciąż rośnie.",
+	ta: "எங்கள் தன்னார்வ மொழிபெயர்ப்பாளர்கள் சமூகத்திற்கு நன்றி, bitcoin.rocks தற்போது 14 மொழிகளில் கிடைக்கிறது மற்றும் வளர்ந்து வருகிறது.",
+	zu: "Ngokubonga umphakathi wethu wabahumushi abazithandela, i-bitcoin.rocks okwamanje itholakala ngezilimi ezingu-14 futhi iyakhula."
 };
 
 let updatedCount = 0;

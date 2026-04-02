@@ -13,6 +13,7 @@ $(function() {
 
   // Language switcher
   var languages = [
+    { code: 'af', name: 'Afrikaans' },
     { code: 'en', name: 'English' },
     { code: 'es', name: 'Español' },
     { code: 'de', name: 'Deutsch' },

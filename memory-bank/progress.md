@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Afrikaans (af) Language Added — April 2026
+- Added Afrikaans as the 14th language
+- Created all 90 translation files in `i18n/af/` mirroring the English directory structure
+- Translation scripts in `scripts/afrikaans/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (13→14)
+- Ran SEO content injection
+
 ## Zulu (zu) Language Added — April 2026
 - Added Zulu (isiZulu) as the 13th language
 - Created ~90+ translation files in `i18n/zu/` mirroring the English directory structure
