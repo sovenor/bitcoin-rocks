@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_vs_crypto": "I-Bitcoin vs I-Crypto",
+	"crypto_header": "UMEHLUKO PHAKATHI",
+	"crypto_header_2": "KWE-BITCOIN",
+	"crypto_header_3": "KANYE",
+	"crypto_header_4": "NE-CRYPTO",
+	"crypto_intro_1": "Indawo ye-cryptocurrency ikhule ngokushesha nezinkulungwane zamathokheni ahlukene namaphrojekthi.",
+	"crypto_intro_2": "Nakuba i-Bitcoin yayingeyokuqala futhi isahlala iyaziwa kakhulu, ihlukile kakhulu kuno enye imboni ye-crypto.",
+	"crypto_intro_3": "Ake sihlole umehluko oyinhloko phakathi kwe-Bitcoin nezinhlelo ze-cryptocurrency ezibanzi.",
+	"crypto": "I-CRYPTO",
+	"crypto_point_1": "Izinguquko ezivamile nama-fork",
+	"crypto_point_2": "Ukulawulwa okucentralized",
+	"crypto_point_3": "Inani elingenamkhawulo noma elinfleshini",
+	"crypto_point_4": "Izinqubo eziyinkimbinkimbi",
+	"crypto_point_5": "Ukuvumelana okuhlolwa",
+	"crypto_point_6": "Amathokheni okusebenzisa okuhlolwa",
+	"crypto_point_7": "Iguquguquka futhi ibuthakathaka",
+	"crypto_point_8": "Ukwesekwa kwenkampani",
+	"bitcoin": "I-BITCOIN",
+	"bitcoin_point_1": "Inqubo engaguquki",
+	"bitcoin_point_2": "Engacentralized ngempela",
+	"bitcoin_point_3": "Inani elimisiwe le-21M BTC",
+	"bitcoin_point_4": "Elula nefinyeleleka",
+	"bitcoin_point_5": "I-Proof of Work eqinisekisiwe",
+	"bitcoin_point_6": "Imali yedijithali emsulwa",
+	"bitcoin_point_7": "I-Antifragile",
+	"bitcoin_point_8": "Akukho sizinda esisodwa esiyilawulayo",
+	"point_1_summary_1": "Inqubo ye-Bitcoin ihlele ngokuyisisekelo kusukela ngo-2009, inikeza imithetho elindelekile engeke yashintshwa kalula. Amaphrojekthi amaningi e-crypto avame ukubuyekeza izinqubo zawo, ashintshe i-tokenomics, noma a-fork zibe yizinguqulo ezintsha, okudala ukungaqiniseki kubasebenzisi.",
+	"point_2_summary_1": "I-Bitcoin isebenza kunethiwekhi engacentralized ngempela enezinkulungwane zamashumi ama-node azimele emhlabeni wonke. Amaphrojekthi amaningi e-crypto alawulwa ngama-foundation, izinkampani, noma amaqoqo amancane ababhali abangathatha izinqumo ngokuswela ukusondelana ngekusasa lenqubo.",
+	"point_3_summary_1": "I-Bitcoin inomkhawulo oqinile wezinhlamvu ezingu-21 million ezizokhona, okuyenza ibe yinto yedijithali enqabile kunazo zonke. Amaphrojekthi amaningi e-crypto anamanani angenamkhawulo, izindlela zenfleshini, noma angakha amathokheni amasha ngokukhululeka, okunciphisa inani labanikazi ngokuhamba kwesikhathi.",
+	"point_4_summary_1": "I-Bitcoin inenjongo eyodwa elula: imali yedijithali yontanga-ku-ntanga. Noma ubani angayiqonda futhi ayisebenzise ngolwazi oluyisisekelo. Amaphrojekthi amaningi e-crypto afaka izinkontileka ezihlakaniphile eziyinkimbinkimbi, izinqubo ze-DeFi, noma izindlela zokulawula ezidinga ulwazi lwezobuchwepheshe ukuze usebenzise ngokuphepha.",
+	"point_5_summary_1": "I-Bitcoin isebenzisa ukuvumelana kwe-Proof of Work, okuhlolwe emphini iminyaka engaphezu kwengu-15 ngaphandle kohlaselo oluphumelele olulodwa kunethiwekhi eyinhloko. Amaphrojekthi amaningi e-crypto asebenzisa izindlela zokuvumelana ezihlolwayo efana ne-Proof of Stake noma izinhlelo ezabeliwe ezingakaqinisekisi ukuphepha kwazo kwesikhathi eside.",
+	"point_6_summary_1": "I-Bitcoin isebenza njengomali yedijithali - indawo yokugcina inani kanye nensizakalo yokushintshanisa. Amathokheni amaningi e-crypto angamathokheni okusebenzisa amapulatifomu athile, amathokheni okulawula, noma impahla yokuhlola eneziphakamiso zenani lomhlaba wangempela ezingacacile.",
+	"point_7_summary_1": "I-Bitcoin iba namandla ngaphansi kokuhlasela futhi isindile kuyo yonke inkinga, ukuvalwa, nokusolwa okuthunyelwe kuyo. Amaphrojekthi amaningi e-crypto abuthakathaka futhi angawa ngenxa yengcindezi yezomthetho, izinkinga zobuchwepheshe, noma ukwehla kwezimakethe.",
+	"point_8_summary_1": "I-Bitcoin ayinayo i-CEO, ayinankampani emva kwayo, futhi ayinandawo eyodwa yokuhluleka. Amaphrojekthi amaningi e-crypto aesekwa yizinkampani ze-venture capital, anobuholi obuhlonzekayo, noma ancike ezinkampanini ezithile ukuze aqhubeke nokusebenza."
+}

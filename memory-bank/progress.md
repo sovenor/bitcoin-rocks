@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Zulu (zu) Language Added — April 2026
+- Added Zulu (isiZulu) as the 13th language
+- Created ~90+ translation files in `i18n/zu/` mirroring the English directory structure
+- Translation scripts in `scripts/zu/` (10 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (12→13)
+- Ran SEO content injection
+
 ## Tamil (ta) Language Added — April 2026
 - Added Tamil (தமிழ்) as the 12th language
 - Created ~90+ translation files in `i18n/ta/` mirroring the English directory structure

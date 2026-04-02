@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"free_bitcoin_postcards": "Amakhadi Okuthumela e-Bitcoin Amahhala evela ku-bitcoin.rocks",
+	"postcards_description": "Thola Iphakethe Lamakhadi Okuthumela e-Bitcoin Amahhala futhi wabelane nge-Bitcoin nomuntu omaziyo.",
+	"postcards_header": "UHLELO LWAMAKHADI OKUTHUMELA LUVALIWE",
+	"postcards_program_closed_message": "Uhlelo lwethu lwamakhadi okuthumela e-Bitcoin amahhala seluphelile. Siyabonga kuwo wonke umuntu owabamba iqhaza ekusakazeni imfundo ye-Bitcoin ngeposi!",
+	"postcards_sticker_alternative_header": "THOLA IZITIKA ZE-BITCOIN ZAMAHHALA KUNALOKHO",
+	"postcards_sticker_alternative_message": "Qhubeka nokusabalalisa ukuqwashisa nge-Bitcoin ngohlelo lwethu lwezitika zamahhala! Izitika zethu ze-Bitcoin zinhle zokwabelana ezindaweni zomphakathi futhi zinamakhodi e-QR axhumana nokuqukethwe kwemfundo.",
+	"postcards_sticker_cta": "THOLA IZITIKA ZAMAHHALA",
+	"postcards_step_2": "AMAKHADI OKUTHUMELA ABUKEKA KANJANI",
+	"postcards_instructions_4": "Senze la makhadi okuthumela ukuze kube lula kuwe ukwethula umuntu omaziyo ku-Bitcoin! Faka nje ikheli nesitembu bese ushiya ikhadi lakho lokuthumela eposini.",
+	"postcards_instructions_5": "Umgomo wethu ukusheshisa ukwamukelwa kwe-Bitcoin. Ungasiza ngokuthola izitika zamahhala futhi uzibeke ezindaweni zomphakathi!",
+	"postcards_instructions_6": "Sonke sazi abantu abambalwa abangasizakala ngokufunda kabanzi nge-Bitcoin. Yabelana ngezitika ze-Bitcoin nabo namuhla!"
+}

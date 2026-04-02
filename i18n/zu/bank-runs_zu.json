@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_doesnt_have_bank_runs": "I-Bitcoin Ayinazo Izinkinga Zamabhange",
+	"bank_runs_header": "I-BITCOIN AYINAZO IZINKINGA ZAMABHANGE",
+	"bank_runs_header_2": "KODWA IBHANGE LAKHO LINGABA NAZO",
+	"bank_runs_what": "YINI UKUGIJIMELA EBHANGE?",
+	"bank_runs_what_content_1": "Ukugijimela ebhange kwenzeka lapho abantu abaningi kakhulu bezama ukukhipha imali yabo ebhange ngesikhathi esifanayo.",
+	"bank_runs_what_content_2": "Uma amabhange engenayo imali eyanele ukuhambelana nokukhishwa, angawa ngokuphelele lapho kugijinyelwa ebhange.",
+	"bank_runs_how": "KWENZEKA KANJANI UKUGIJIMELA KWAMABHANGE?",
+	"bank_runs_how_content_1": "Isistimu yethu yamabhange ine-'fractional reserve' okusho ukuthi amabhange awagcini nje imali yakho ehholo ayelindele ukuba uyisebenzise noma uyikhiphe.",
+	"bank_runs_how_content_2": "Kunalokho, ibhange lakho lithatha imali yakho liyikhokhise noma liyitshalomali. Lokhu kungavalela imali yakho isikhathi eside, nakuba ibhange likuthembisa amandla okukhipha imali yakho nganoma yisiphi isikhathi.",
+	"bank_runs_how_content_3": "Ngakho kwenzekani uma uzama ukukhipha imali yakho ngemuva kokuthi ibhange seliyikhokhisile noma seliyitshalomali?",
+	"bank_runs_how_content_4": "Akuyona inkinga uma uwedwa ozama ukukhipha. Ibhange lizothatha imali yomuntu omunye likunike yona. Kodwa kwenzekani lapho abantu abaningi kakhulu bezama ukukhipha ngesikhathi esifanayo?",
+	"bank_runs_how_content_5": "Abantu abaningi e-USA bathola impendulo lapho kugijinyelwa i-Silicon Valley Bank ngoMashi ka-2023.",
+	"bank_runs_how_content_6": "Ibhange lalitshalomali imali yamakhasimende alo emabondini kahulumeni ayevalekele iminyaka engafinyelela ku-30. Ngokulikhulu, inani lawo mabondi lase lehlile kakhulu kamuva, ngakho i-Silicon Valley Bank yayingeke ithengise amabondi ukuthola imali yabafaki bemali. Yayingenayo imali eyanele. Yayingenayo imali eyanele ukuhambelana nokukhishwa kwabafaki bemali.",
+	"bank_runs_how_content_7": "Njengoba abantu abaningi bethola, inkinga yaba yimbi kakhulu. Izicelo zokukhipha ezengeziwe zafika, kodwa eziningi azizange zikhokhelwe. Izinkulungwane zamabhizinisi zabona ukuthi ngeke zikwazi ukukhokha izisebenzi zazo ngenxa yokuwa kwebhange.",
+	"bank_runs_how_content_8": "I-FDIC yangenelela futhi yavuma ukukhokha abafaki bemali ngokuphelele. Inkinga ixazululiwe? Hhayi kangakho...",
+	"bank_runs_fdic": "UMSHWALENSE WE-FDIC UYIVIKELA IMALI YAMI?",
+	"bank_runs_fdic_content_1": "Umshwalense we-FDIC wenzelwe ukuvikela abafaki bemali bamabhange uma kwenzeka ibhange liwa. Imali egcinwe ivikelelwe kufinyelela ku-$250,000 ngomfaki wemali ngamunye. Kuzwakala kahle, angithi?",
+	"bank_runs_fdic_content_2": "Hhayi kangakho. Uma ibhange liwa, i-FDIC iyithola kuphi imali? Inesikhwama somshwalense esinemali engu-$125 billion.",
+	"bank_runs_fdic_content_3": "Lokho kuzwakala njengomali eningi kuze kuyiqhathanise nenani lemali egcinwe eyishwalensayo: cishe angu-$10 trillion noma angu-$10,000 billion.",
+	"bank_runs_fdic_content_4": "I-FDIC ngisho ibonisa kuwebhusayithi yayo ukuthi inemali eyanele esikhwameni sayo somshwalense ukumboza nje ngaphezu kwe-1% yemali egcinwe.",
+	"bank_runs_fdic_content_5": "Uma kwenzeka ibhange liwa ngaphezu kwesikhwama somshwalense se-FDIC, kungenzeka (kodwa akuqinisekisiwe) ukuthi uhulumeni wase-US uzophrinta imali ukuze abafaki bemali bathole imali yabo ngokuphelele.",
+	"bank_runs_fdic_content_6": "Kodwa ukuphrinta imali kubangela infleshini, ngakho akuyona isixazululo esihle.",
+	"bank_runs_safe": "KUKHONA AMABHANGE ANGASEBENZISI I-FRACTIONAL RESERVE?",
+	"bank_runs_safe_content_1": "Amanye amabhange azamile ukuba 'amabhange aphephile' angakhokhisi noma atshalomali imali yabafaki bemali.",
+	"bank_runs_safe_content_2": "Nakuba la mabhange aphephile engaba ngaphandle kwengozi yokugijimela kwamabhange, izicelo zawo zenqatshwe yi-Federal Reserve. Lokhu kusho ukuthi awakwazi ukusebenza ngokomthetho njengamabhange.",
+	"bank_runs_safe_content_3": "Ngoba avinjelwe ekusebenzeni, awekho amabhange namuhla angasebenzisi i-fractional reserve.",
+	"bank_runs_safe_content_4": "Ngenhlanhla, kukhona indlela yokuphuma kule sistimu ye-fractional reserve ngokuba ibhange lakho. Cha, asikhuluml ngokufihla imali engokoqobo ngaphansi komqamelo.",
+	"bank_runs_safe_content_5": "Ukonga ngemali engokoqobo kusasengozini yenfleshini.",
+	"bank_runs_safe_content_6": "Sikhuluma nge-Bitcoin: isistimu entsha yezezimali ekuvumela ukuba ibhange lakho.",
+	"bank_runs_protect": "I-BITCOIN INGANGIVIKELA EKUGIJIMELA KWAMABHANGE?",
+	"bank_runs_protect_content_1": "Yebo, i-Bitcoin iyisistimu yezezimali ye-full reserve.",
+	"bank_runs_protect_content_2": "Ukugijimela kwamabhange akwenzeki ku-Bitcoin uma nje ukhipha i-Bitcoin yakho uyise esikhwameni sakho. Ungashiyi i-bitcoin yakho ku-exchange noma kwi-wrapper efana ne-Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Bheka Umhlahlandlela Wethu Olula Wesikhwama se-Bitcoin ukuze ufunde ukuthi ungakhipha kanjani uyise esikhwameni sakho.",
+	"bank_runs_protect_content_4": "Nge-Bitcoin, ekugcineni ungakwazi ukulawula imali yakho."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_business_kit": "Ikhithi Yebhizinisi le-Bitcoin",
+	"kit_header": "PHRINTA IKHITHI YAKHO YEBHIZINISI LE-BITCOIN",
+	"kit_request": "CELA IKHITHI YAKHO YAMAHHALA",
+	"kit_request_details": "Ikhithi ngayinye yebhizinisi le-Bitcoin ifaka amaphamfulethi amabili ukuze kube lula ukuthola ibhizinisi lendawo ukuba lamukele i-Bitcoin.",
+	"kit_country_global_print": "Umhlaba Wonke — Phrinta amakhithi ami",
+	"kit_enter_address": "Faka ikheli lakho lokuthumela bese sithumela ikhithi ye-Bitcoin Business Kit yamahhala ngemvilophu emhlophe. Idatha yekheli iyasuswa ngemuva kokuthi ikhithi yakho yamahhala ithunyelwe.",
+	"kit_print_details": "Ungabamba iqhaza ngokuphrinta amaphamfulethi akho, noma ngabe uhlala kuphi! Ungathumela futhi amabhizinisi kwikhithi yethu yebhizinisi yedijithali ukugwema ukuphrinta noma yini.",
+	"kit_view_files": "BUKA AMAFAYELA",
+	"kit_digital_kit": "IKHITHI YEDIJITHALI",
+	"kit_resources": "IKHITHI NGAYINYE IXHUMANA NALEZI ZINSIZAKALO ZAMAHHALA"
+}

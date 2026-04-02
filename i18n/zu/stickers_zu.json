@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"free_bitcoin_stickers": "Izitika ze-Bitcoin zamahhala evela ku-bitcoin.rocks",
+	"stickers_description": "Beka isitika se-bitcoin emphakathini ukuze u-orange pill abakuzungezile.",
+	"stickers_header": "IZITIKA ZE-BITCOIN ZAMAHHALA",
+	"stickers_choose_header": "KHETHA IPHAKETHE LAKHO LEZITIKA",
+	"stickers_choose_c1": "Umgomo wethu ukukusiza u-orange pill abantu abaningi ngokubeka izitika ze-Bitcoin emphakathini. Zonke izitika zethu zinamakhodi e-QR axhumana namakhasi emfundo nge",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "infleshini",
+	"stickers_choose_c4": "Khetha iphakethe lakho lezitika ngezansi",
+	"stickers_text_pack": "IPHAKETHE LESIBHALO",
+	"stickers_signs_pack": "IPHAKETHE LEZIMPAWU",
+	"stickers_instructions_1": "Faka ikheli lakho lokuthumela bese sithumela iphakethe lezitika ze-Bitcoin zamahhala ngeposi! Izitika zakho zizothunyelwa ngemvilophu emhlophe.",
+	"stickers_instructions_2": "Idatha yekheli iyasuswa ngemuva kokuthumela izitika zakho zamahhala.",
+	"stickers_share_header": "YABELANA NGEZINDAWO ZAKHO ZEZITIKA",
+	"stickers_share_c1": "Yabelana ngezindawo zakho zezitika nathi ku-Nostr futhi ubone ukuthi abanye abantu babeka kuphi izitika zabo.",
+	"stickers_btn_share_on_nostr": "YABELANA KU-NOSTR",
+	"stickers_btn_what_is_nostr": "YINI I-NOSTR?",
+	"stickers_flyers_link_before": "Ngenkathi ukwenza, phrinta & namathisela ",
+	"stickers_flyers_link_text": "amaphepha e-Bitcoin",
+	"stickers_flyers_link_after": " ukuze usize u-orange pill abantu abaningi.",
+	"stickers_country_global_print": "Umhlaba Wonke — Phrinta izitika zami",
+	"stickers_country_global_order": "Umhlaba Wonke — Odela ngokuningi",
+	"placeholder_name_optional": "Igama (uyazikhethela)",
+	"placeholder_address_line_1": "Umugqa Wekheli 1",
+	"placeholder_address_line_2": "Umugqa Wekheli 2 (uyazikhethela)",
+	"placeholder_city": "Idolobha",
+	"placeholder_state": "Isifundazwe",
+	"placeholder_province": "Isifunda",
+	"placeholder_zip_code": "Ikhodi Yeposi",
+	"placeholder_postal_code": "Ikhodi Yeposi",
+	"placeholder_language": "Ulimi",
+	"placeholder_which_stickers": "Yiziphi izitika?",
+	"placeholder_email_optional": "Faka i-imeyili yakho ukuze waziswe (uyazikhethela)"
+}

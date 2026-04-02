@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_vs_fine_art": "I-Bitcoin vs Ubuciko Obukhethekile",
+	"fine_art_header": "UMEHLUKO PHAKATHI",
+	"fine_art_header_2": "KWE-BITCOIN",
+	"fine_art_header_3": "KANYE",
+	"fine_art_header_4": "NOBUCIKO OBUKHETHEKILE",
+	"fine_art_intro_1": "Ubuciko obukhethekile bube yitshalomali lobukhazikhazi amakhulu eminyaka futhi bubhekwa ngokuvamile njengendawo yokugcina inani ngabaqoqi abacebile.",
+	"fine_art_intro_2": "I-Bitcoin iyimali yedijithali ebhekwa ngabaningi njengendawo yokugcina inani nokutshalomali.",
+	"fine_art_intro_3": "Kodwa ubuciko benyama buhluke kanjani emali yedijithali efana ne-Bitcoin? Ake sibheke umehluko phakathi kwezinhlobo ezimbili zokutshalomali: I-Bitcoin & Ubuciko Obukhethekile.",
+	"fine_art": "UBUCIKO OBUKHETHEKILE",
+	"fine_art_point_1": "Yilowo nalowo ungcono ngokwawo",
+	"fine_art_point_2": "Udinga ama-auction akhethekile",
+	"fine_art_point_3": "Izimali ze-auction eziphezulu",
+	"fine_art_point_4": "Abukwazi ukuhlukaniswa",
+	"fine_art_point_5": "Budinga ukulawulwa yizingcweti",
+	"fine_art_point_6": "Busengozini yokulimala",
+	"fine_art_point_7": "Bulinganiselwe kubaqoqi abacebile",
+	"bitcoin": "I-BITCOIN",
+	"bitcoin_point_1": "Ishintshana ngokuphelele",
+	"bitcoin_point_2": "Imakethe yomhlaba 24/7",
+	"bitcoin_point_3": "Izimali zokwenza eziphansi",
+	"bitcoin_point_4": "Ihlukaniseka kalula",
+	"bitcoin_point_5": "Iqinisekiseka nge-cryptography",
+	"bitcoin_point_6": "Kunzima ukuyibhubhisa",
+	"bitcoin_point_7": "Ifikeleleka kuwo wonke umuntu",
+	"point_1_summary_1": "I-Bitcoin ishintshana ngokuphelele, okusho ukuthi i-bitcoin ngayinye iyafana futhi iyashintshana - i-bitcoin eyodwa ilingana ne-bitcoin eyodwa noma kuphi emhlabeni. Ubuciko obukhethekile abuhlukani ngokwemvelo, ngoba yilowo nalowo umsebenzi ungcono ekudalweni kwawo, emlandweni, esimeni, nasekuthatheni, okwenza ukuqhathanisa nokulinganiswa kube nzima kakhulu.",
+	"point_2_summary_1": "I-Bitcoin ithengiswa emakethe yomhlaba yangu-24/7 lapho noma ubani onokufinyelela ku-inthanethi engathengisa ngokushesha. Ubuciko obukhethekile budinga izindlu ze-auction ezikhethekile efana ne-Sotheby's noma ne-Christie's, abathengisi abangasese, noma amagalari akhethekile. Ukuthengisa kungathatha izinyanga ukulungisa nokuqeda, ngokufinyelela kwemakethe okulinganiselwe namathuba okuthengisa angajwayelekile.",
+	"point_3_summary_1": "Ukuthenga noma ukuthengisa i-bitcoin ngokuvamile kubiza ngaphansi kwe-1% ngezimali, ngokuvamile ngaphansi kakhulu. Ukuthengisa kobuciko obukhethekile kufaka izindleko ezinkulu kufaka i-premium yomthengi (10-25%), ikhomishini yomthengisi (10-15%), umshwalense, ukuthutha, ukugcina, nezimali zokuqinisekisa. Lezi zindleko ezihlangene zingadlula kalula 30-40% yenani lobuciko ngokwenzeka okukodwa.",
+	"point_4_summary_1": "I-Bitcoin ingahlukaniswa izingxenye ezingu-100 million ezincane ezibizwa ngokuthi ama-satoshi, okuyenza ibe yinhle ezinkokhelweni zanoma yisiphi isilinganiso kusukela kwezincane kakhulu kuya ezinkulu. Ubuciko obukhethekile abukwazi ukuhlukaniswa - awukwazi ukuba nesiqephu sepeni noma uthengise ingxenye yesibazi kuphela. Lokhu kungahlukaniseki kunciphisa izinketho zokutshalomali nokuthengiseka.",
+	"point_5_summary_1": "Ubunini be-Bitcoin nobuqiniso bukwazi ukuqinisekiswa nge-cryptography ku-blockchain yinoma ubani onolwazi oluyisisekelo lwezobuchwepheshe. Ubuciko obukhethekile budinga ukuqinisekiswa kwezingcweti okubizayo, ucwaningo lokuthathwa, nokuhlaziya kwesayensi. Ngisho nangokuqinisekiswa kwezingcweti, okokukopisha ngokukhohlisa kuvame ukukhohlisa izwe lobuciko, futhi izimpikiswano zokuqinisekisa zingabhubhisa inani lobuciko ngobusuku obubodwa. I-Bitcoin, ngakolunye uhlangothi, ayikwazi ukukopishwa ngokukhohlisa.",
+	"point_6_summary_1": "I-Bitcoin, lapho igcinwe ngendlela efanele, ayikwazi ukubhujiswa yizikhukhula, imililo, ukuzamazama komhlaba, iziphepho, ukwebiwa, noma ezinye izinhlekelele. Ubuciko obukhethekile busengozini kuzo zonke izinhlobo zokubhubhisa ngokomzimba nokuphelelwa. Ngisho nanokukhishwa okubizayo okuqondene nemvelo nomshwalense ophelele, imisebenzi yobuciko ingalimala yizimo zemvelo, izingozi, noma izinhlekelele zemvelo, okungaholela ekulahlekelweni kwenani lonke.",
+	"point_7_summary_1": "I-Bitcoin ingathengwa futhi ithengiswe yinoma ubani onokungeniswa ku-inthanethi nenani elincane lemali yokutshalomali. Ukutshalomali kobuciko obukhethekile kulinganiselwe kakhulu kubaqoqi abacebile ngenxa yamanani aphezulu amancane, ukufinyelela kwe-auction okukhethekile, izidingo zokugcina, izindleko zomshwalense, nolwazi olukhethekile oludingekayo ukuze uhambe ngempumelelo emakethe yobuciko."
+}

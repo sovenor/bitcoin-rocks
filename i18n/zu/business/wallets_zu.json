@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"how_to_accept_bitcoin_payments": "Indlela Yokwamukela Izinkokhelo ze-Bitcoin",
+	"wallets_header": "THOLA ISIKHWAMA SE-BITCOIN SAMAHHALA UKUZE WAMUKELE IZINKOKHELO ZE-BITCOIN",
+	"wallets_intro_1": "Zonke izikhwama ze-Bitcoin ziyasebenzisana, ngakho amakhasimende akho angakukhokha nge-Bitcoin noma ngabe asebenzisa siphi isikhwama.",
+	"wallets_intro_2": "Izikhwama ze-Bitcoin kuphela:",
+	"wallets_intro_3": "Lezi yizikhwama ze-Bitcoin ezimsulwa ezivula zonke izinzuzo ze-Bitcoin: akukho baphakathi, izimali eziphansi, futhi akukho ukubuyiswa kwemali noma ukukhohliswa.",
+	"wallets_intro_4": "Izikhwama ezihlangene:",
+	"wallets_intro_5": "Lezi zikuvumela ukushintshanisa noma iyiphi ingxenye ye-Bitcoin yakho ngamadola ngokushesha lapho ikhasimende likukhokha. Izimali zisaphansi kunanezinkokhelo zamakhadi esikweletu, kodwa ziphezulu kunanezinkokhelo ze-Bitcoin ezimsulwa.",
+	"wallets_intro_6": "Zombili ziyizindlela ezinhle zokwamukela i-Bitcoin. Isikhwama esithile osisebenzisayo sizoncika ebukhulwini nohlobo lwebhizinisi lakho.",
+	"wallets_choice_sole": "izikhwama zamabhizinisi aphethwe ngabanye",
+	"wallets_choice_multiple": "izikhwama zamabhizinisi anesisebenzi esiningi",
+	"wallets_choice_online": "izikhwama zamabhizinisi aku-inthanethi",
+	"wallets_choice_invoice": "izikhwama zamabhizinisi asebenzisa izinkokhiso",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Ungamukela izinkokhelo ze-Bitcoin ngetheminali yakho ekhona ye-Square PoS noma ukuhlanganiswa kwesitolo saku-inthanethi. Akukaze kube lula kangaka ukwamukela izinkokhelo ze-Bitcoin.",
+	"wallets_feature_bitcoin_only": "Isikhwama se-Bitcoin kuphela",
+	"wallets_feature_no_info": "Akukho lwazi oludingekayo",
+	"wallets_feature_in_person": "Izinkokhelo ngokuqondile kuphela",
+	"wallets_feature_settles_bitcoin": "Ukukhokhelwa nge-Bitcoin engu-100%",
+	"wallets_feature_hybrid": "Isikhwama esihlangene",
+	"wallets_feature_info": "Ulwazi lwebhizinisi ludingeka",
+	"wallets_feature_in_person_online": "Izinkokhelo ngokuqondile naku-inthanethi",
+	"wallets_feature_settles_both": "Ukukhokhelwa nge-Bitcoin namadola",
+	"wallets_feature_multiple_employees": "Ukwesekwa kwezisebenzi eziningi (BPTs)",
+	"wallets_feature_self_hosted": "Ihoste ngokwakho = 0% yezimali",
+	"wallets_feature_online_store": "Ukuhlanganiswa kwesitolo saku-inthanethi",
+	"wallets_feature_invoicing": "Isoftware yokukhokhisa yamahhala",
+	"wallets_get_wallet": "THOLA ISIKHWAMA"
+}

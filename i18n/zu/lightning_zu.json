@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_lightning_wallet_guide": "Umhlahlandlela Wesikhwama se-Bitcoin Lightning",
+	"lightning_description": "Izikhwama ze-Lightning zikuvumela ukuthumela i-Bitcoin ngokushesha nangesimali esiphansi ngenkathi usagcina ubulawuli bakho.",
+	"lightning_header": "UMHLAHLANDLELA WESIKHWAMA SE-LIGHTNING",
+	"lightning_s1_c1": "I-Lightning ikuvumela ukuthumela izinkokhelo ze-Bitcoin ngokushesha nangesimali esiphansi.",
+	"lightning_s1_c2": "Kubalulekile ukwazi ukuthi ukusebenzisa i-lightning kuza nokulahlekelwa. Ngokuguqulwa kwezinkokhelo ze-Bitcoin ezisheshayo, ezishibhile, ngokuvamile ulahlekelwa ukuphepha okuthile.",
+	"lightning_s1_c3": "Ngokuvamile, i-Lightning kumele isetshenziswe ngezinani ezincane ze-bitcoin kuphela. Kumele ugcine izinani ezinkulu ze-bitcoin esikhwameni se-hardware kuphela.",
+	"lightning_s1_c4": "Bheka Umhlahlandlela Wethu Wesikhwama se-Hardware ukuze uthole ulwazi olwengeziwe.",
+	"lightning_s1_c5": "Akuzona zonke izikhwama ze-Lightning ezifanayo. Ungathola ukuthi yisiphi isikhwama esinekuhlangana okufanele kuwe ngokubuza umbuzo owodwa olula:",
+	"lightning_question_1": "YILUPHI UKUHLANGANA OKULUNGELE MINA?",
+	"lightning_s2_c1": "Enye yezinto ezintsha ze-Bitcoin amandla okuyigcina ngaphandle kokuncika kumgcini, njengobhange. Izikhwama zokuzigcinela zivula amandla aphelele e-Bitcoin.",
+	"lightning_s2_c2": "Ngesikhwama sokuzigcinela, nguwe wedwa onamandla okusebenzisa noma ukudlulisela imali yakho. Akekho ongakuvimba, akuvinjeleke, noma akwebe lapho usebenzisa isikhwama sokuzigcinela. Lezi zibizwa futhi ngokuthi izikhwama ezingagciniwe.",
+	"lightning_s2_c3": "Indlela enobuphathimandla kakhulu yokusebenzisa i-Lightning ukusebenzisa i-node yakho.",
+	"lightning_s2_c4": "Lo mhlahlandlela ugxile ezikhwameni ze-Lightning ezilula ezingadingi i-node yakho.",
+	"lightning_s2_c5": "Kubalulekile ukwazi ukuthi ngisho usebenzisa isikhwama se-Lightning esingagciniwe, usamethembe umdali wesikhwama ukuthi angaphusha isibuyekezo sohlelo lokusebenza olubi futhi ebe imali yakho.",
+	"lightning_s3_c1": "Izikhwama ezigciniwe yizikhwama lapho ungalawuli khona imali yakho.",
+	"lightning_s3_c2": "Lezi zikhwama zifana kakhulu nesis-timu yamabhange lapho kumele uthembe umuntu wesithathu ukukunika ukufinyelela emalini yakho. Uma i-Bitcoin yakho iku-exchange, usebenzisa isikhwama esigciniwe.",
+	"lightning_s3_c3": "Izikhwama ezigciniwe zingabonakala zilula, kodwa umgcini unamandla ezobuchwepheshe okweba yonke imali yabasebenzisi nganoma yisiphi isikhathi.",
+	"lightning_s3_c4": "Abanye abantu bakhetha izikhwama ze-Lightning ezigciniwe ngezinani ezincane ze-bitcoin ngenxa yokulula kwazo. Khumbula nje: hhayi okhiye bakho, hhayi izinhlamvu zakho!",
+	"lightning_question_2": "KHETHA ISIKHWAMA SAKHO",
+	"lightning_s4_c1": "Ngako konke lokhu okusemqondweni, ungakhetha manje isikhwama se-lightning esinekuhlangana okufanele kuwe.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Izici eziningi",
+	"lightning_mobile_app": "Uhlelo lokusebenza lweselula",
+	"lightning_free": "Mahhala 100%",
+	"lightning_merchants": "Enhle kubathengisi",
+	"lightning_starter": "Isikhwama esihle sokuqala",
+	"lightning_browser": "Esuselwa ku-browser",
+	"lightning_custodial": "Isikhwama esigciniwe ngokuphelele",
+	"lightning_cta_hardware": "Ufuna Umhlahlandlela Wethu Wesikhwama se-Bitcoin Hardware?"
+}

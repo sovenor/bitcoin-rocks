@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"sticker_success_1": "Uzothola izitika zakho ngeviki ezi-2 kuya kwezi-4. Ngenkathi ulinda, zama ukucabanga ngendawo enhle yokubeka izitika zakho!",
+	"sticker_success_2": "Izindawo ezinhle zezitika yilezi:",
+	"sticker_success_list_1": "emphakathini lapho abantu bezozibona",
+	"sticker_success_list_2": "ezindaweni ezinokuthi zingasuswa ngokushesha (izitika azidali umonakalo oyisimo)",
+	"sticker_success_list_3": "kubuye obungalukhuni ukuzinamathisela (insimbi, ipulastiki, ingilazi)",
+	"sticker_success_list_4": "HHAYI emphahleni yangasese, ukumboza izimpawu, ama-ATM, noma amaphampu kawoyela",
+	"sticker_success_3": "Ufuna ukubona ukuthi abanye abantu babeka kuphi izitika zabo?",
+	"sticker_success_flyers_bar_new": "OKUSHA!",
+	"sticker_success_flyers_bar_cta": "Phrinta & Namathisela Amaphepha e-Bitcoin →"
+}

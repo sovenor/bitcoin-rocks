@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_is_good_for_business": "I-Bitcoin inhle ebhizinisini",
+	"biz_header": "I-BITCOIN INHLE EBHIZINISINI",
+	"biz_s1": "Izimali eziphansi ngaphandle kwezingakanani ezincane",
+	"biz_s1_c1": "I-Bitcoin ikuvumela ukuthola izinkokhelo ngqo kumakhasimende akho, njengokwemali engokoqobo. Inethiwekhi ye-Bitcoin isebenza ngaphandle kwabaphakathi njengamabhange nezinkampani zamakhadi esikweletu ezithatha izimali ezinkulu.",
+	"biz_s2": "Ukukhokhelwa okusheshayo",
+	"biz_s2_c1": "Njengokwemali engokoqobo, izinkokhelo ze-Bitcoin zikhokhelwa ngokushesha. Awudingi ukulinda inkampani yakho yamakhadi esikweletu noma ibhange ukukukhokha. Kunalokho, uthola ukufinyelela emalini yakho ngokushesha.",
+	"biz_s3": "Akukho ukubuyiswa kwemali noma ukukhohliswa",
+	"biz_s3_c1": "Ngoba izinkokhelo ze-Bitcoin zenzeka ngqo phakathi kwakho namakhasimende akho, akwenzeki ukuthi umuntu abuyise imali yakho ngokubuyiswa kwemali.",
+	"biz_s3_c2": "I-Bitcoin eyinkohliso ayikwazi ukuthunyelwa ku-Bitcoin Network, okusho ukuthi awudingi ukukhathazeka ngokwenzeka okukhohliswayo okungabiza ibhizinisi lakho imali.",
+	"biz_s4": "Thola amakhasimende amaningi",
+	"biz_s4_c1": "Izigidi zabantu zinayo i-Bitcoin futhi zifuna ukuyisebenzisa ezindaweni eziyamukelayo.",
+	"biz_s4_c2": "Ngokumane wamukele i-Bitcoin, ibhizinisi lakho lingafakwa kumabalazwe abathengisi be-Bitcoin futhi lithole ukuvezwa kwamahhala kumakhasimende amasha e-Bitcoin.",
+	"biz_s4_c3": "Ukwamukela i-Bitcoin kumahhala ngokuphelele. Azikho izinkontileka noma izimali ezifihliwe."
+}

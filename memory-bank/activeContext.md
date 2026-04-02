@@ -1,5 +1,12 @@
 # Active Context: bitcoin.rocks
 
+## Latest: Zulu (isiZulu) Language Added — April 2026
+- Added Zulu (`zu`) as the 13th language on bitcoin.rocks
+- Created all ~90+ translation files via 10 scripts in `scripts/zu/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files from 12→13 languages
+- Ran SEO content injection successfully
+
 ## Current Work Focus
 
 ### Bulgarian Sticker Files Translation (Completed Mar 31, 2026)

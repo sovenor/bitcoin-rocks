@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"bitcoin_business_accounting_guide": "Umhlahlandlela Wokubala Amabhuku Ebhizinisi le-Bitcoin",
+	"accounting_description": "Funda ukuthi ungabala kanjani ngendlela efanele izinkokhelo ze-Bitcoin ekubaleni amabhuku ebhizinisi lakho.",
+	"accounting_header": "UMHLAHLANDLELA WOKUBALA AMABHUKU E-BITCOIN",
+	"accounting_s1_c1": "Ukwamukela i-Bitcoin kunezinzuzo eziningi njengokwamukela izinkokhelo ngezimali eziphansi nokuThola amakhasimende amaningi.",
+	"accounting_s1_c2": "Uma usebenzisa Isikhwama Esihlangene esivela Kumhlahlandlela Wethu Wesikhwama futhi uthengise ngokuzenzakalelayo i-100% ye-Bitcoin oyitholayo ngamadola, awudingi ukwenza izinguquko ekubaleni amabhuku kwakho okwamanje.",
+	"accounting_s1_c3": "Buka Umhlahlandlela Wesikhwama.",
+	"accounting_s1_c4": "Kodwa-ke, uma ugcina enye ye-Bitcoin ozitholayo njengo-Bitcoin, uzodinga ukuqapha imininingwane embalwa yokubala amabhuku akho. Lokhu kungabonakala kungesabi ekuqaleni, kodwa empeleni kulula kakhulu.",
+	"accounting_s1_c5": "Sicela uqaphele: lo mhlahlandlela ungenxa yolwazi kuphela futhi akufanele uthathwe njengeseluleko sentela.",
+	"accounting_s1_c6": "Uma udinga iseluleko sentela, sincoma kakhulu i-Satoshi Pacioli Accounting Services, inkampani yokubala amabhuku egxile ekubaleni amabhuku e-Bitcoin.",
+	"accounting_s2": "UKULANDELELA ISISEKELO SEZINDLEKO ZAKHO",
+	"accounting_s2_c1": "Ukulandelela isisekelo sezindleko zakho kuzoba umehluko omkhulu kakhulu phakathi kokubala amadola nokubala i-Bitcoin. Ngisho noma ubheka ibhizinisi lakho lonke ngamazwi e-Bitcoin, udinga ukubika inani ledola lokwenzeka ngakunye enteleleni yakho.",
+	"accounting_s2_c2": "Uma usebenzisa i-QuickBooks, ungakwenza lokhu ngokuzenzakalelayo usebenzisa iplagi ye-Bitcoin Sync.",
+	"accounting_s2_c3": "Uma ungasebenzisi i-QuickBooks, sincoma i-Satoshi Pacioli Accounting Services, inkampani yokubala amabhuku egxile ekubaleni amabhuku e-Bitcoin.",
+	"accounting_s2_c4": "Ukwenza lokhu ngesandla, kumane udinge ukulandelela inani le-Bitcoin oyitholile nenani ledola lokwenzeka kwe-Bitcoin ngalolo suku.",
+	"accounting_s2_c5": "Ungabuka intengo yamanje yadola ye-Bitcoin lapha.",
+	"accounting_s2_c6": "Landelela lolu lwazi ku-Excel spreadsheet bese ulunikeza umbalisi wamabhuku akho.",
+	"accounting_s2_c7": "Ungakwazi futhi ukungenisa le datha ku-Excel ngokuzenzakalelayo.",
+	"accounting_s2_c8": "Ungakwazi futhi ukubuka intengo yamadola yakamuva ye-Bitcoin ngezinsuku ezedlule, ngakho awudingi ukwenza lokhu nsuku zonke.",
+	"accounting_s3": "UKUSEBENZISA NOMA UKUTHENGISA I-BITCOIN YAKHO",
+	"accounting_s3_c1": "Uma usebenzisa Isikhwama Esihlangene esivela Kumhlahlandlela Wethu Wesikhwama futhi uthengise ngokuzenzakalelayo i-100% ye-Bitcoin oyitholayo ngamadola, awudingi ukwenza izinguquko ekubaleni amabhuku kwakho okwamanje.",
+	"accounting_s3_c2": "Buka Umhlahlandlela Wesikhwama.",
+	"accounting_s3_c3": "Uma ukhetha ukusebenzisa noma ukuthengisa enye ye-Bitcoin oyitholayo ngemuva kokuyigcina isikhashana, udinga nje ukufaka intengo oyithengise ngayo ku-Excel spreadsheet yakho elandelela isisekelo sezindleko zakho.",
+	"accounting_s3_c4": "Ngokwesibonelo, uma uthole i-Bitcoin engu-$100 ngoJanuwari 1 futhi wanquma ukuyithengisa noma ukuyisebenzisa ngoFebhuwari 1 ngenani elisha langu-$110, uzodinga ukurekhodwa inzuzo yenhlokodolobha engu-$10 ekubaleni amabhuku akho.",
+	"accounting_s3_c5": "Lokhu kungasebenza nangendlela ephambene. Ngokwesibonelo, uma uthole i-Bitcoin engu-$100 ngoJanuwari 1 futhi wanquma ukuyithengisa noma ukuyisebenzisa ngoFebhuwari 1 ngenani elisha langu-$90, uzodinga ukurekhodwa ukulahlekelwa kwenhlokodolobha engu-$10 ekubaleni amabhuku akho.",
+	"accounting_s4": "NGIDINGA USIZO OLWENGEZIWE",
+	"accounting_s4_c1": "Uma udinga usizo olwengeziwe lokuhlanganisa i-Bitcoin ekubaleni amabhuku ebhizinisi lakho, sincoma kakhulu i-Satoshi Pacioli Accounting Services, inkampani yokubala amabhuku egxile ekubaleni amabhuku e-Bitcoin.",
+	"accounting_s4_c2": "Funda kabanzi nge-Satoshi Pacioli Accounting Services."
+}

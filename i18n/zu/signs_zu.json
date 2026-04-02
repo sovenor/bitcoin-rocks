@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"signs_description": "Sisize sibeke lezi Zimpawu ze-Bitcoin kulo lonke i-America!",
+	"signs_title": "Izimpawu ze-Bitcoin Zamahhala evela ku-bitcoin.rocks",
+	"signs_choose_header": "SIYABONGA NGOKUSISIZA UKUBEKA LEZI ZIMPAWU ZE-BITCOIN KULO LONKE I-AMERICA!",
+	"signs_choose_c1": "Manje sesiphelile ngezimpawu! Umgomo wethu ukusheshisa ukwamukelwa kwe-Bitcoin ngemfundo.",
+	"signs_choose_c2": "Abaningi benu basize ngokubeka lezi zimpawu ze-Bitcoin zamahhala emphakathini. Zonke izimpawu zethu zinamakhodi e-QR axhumana nekhasi lemfundo nge",
+	"signs_choose_c3": "infleshini",
+	"signs_choose_c4": "Ngokubonga umphakathi wethu omangalisayo, sifinyelele izinkulungwane zabantu futhi sabasiza bathathe izinyathelo zabo zokuqala emgodini we-Bitcoin.",
+	"signs_share_header": "YABELANA NGEZINDAWO ZEZIMPAWU ZAKHO",
+	"signs_share_c1": "Yabelana ngesithombe sendawo yesimpawu sakho nathi ku-Nostr futhi ubone ukuthi abanye abantu babeka kuphi izimpawu zabo.",
+	"signs_btn_share_on_nostr": "YABELANA KU-NOSTR",
+	"signs_btn_what_is_nostr": "YINI I-NOSTR?",
+	"signs_instructions_1": "Faka ikheli lakho lokuthumela bese sithumela ibhokisi lezimpawu ze-Bitcoin ezingu-10 ngeposi!",
+	"signs_instructions_2": "Idatha yekheli iyasuswa ngemuva kokuthumela izimpawu zakho zamahhala."
+}

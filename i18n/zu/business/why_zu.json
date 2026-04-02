@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Funda ukuthi kungani i-Bitcoin inhle ebhizinisini",
+	"why_header": "I-BITCOIN INHLE EBHIZINISINI",
+	"why_good_for_you": "I-BITCOIN INHLE NAKUWE!",
+	"why_learn_more_lowercase": "Funda kabanzi.",
+	"why_s1": "I-Bitcoin ayinayo infleshini",
+	"why_s1_c1": "Infleshini yenzeka lapho imali eningi iphrintwa noma yakhiwa emoyeni. Lokhu kwenza imali yakho ibe yize ngokuhamba kwesikhathi.",
+	"why_s1_c2": "I-Bitcoin inenani elimisiwe, okusho ukuthi akekho ongaphrinta i-Bitcoin eningi.",
+	"why_s2": "I-Bitcoin ayinazo izinkinga zamabhange",
+	"why_s2_c1": "Amabhange amaningi ase-US awe eminyakeni embalwa edlule ngenxa yokugijimela kwamabhange.",
+	"why_s2_c2": "Esikhundleni sokugcina nje imali yakho, amabhange atshala imali yakho futhi ayikhokhise. Uma lezo zitshalomali zingahambi kahle, awanawo amandla okukukhokha.",
+	"why_s2_c3": "Futhi isikhwama somshwalense se-FDIC sinokwemali engu-$1 ngayo yonke engu-$100 esiyishwalensayo.",
+	"why_s3": "I-Bitcoin ayidingi imvume",
+	"why_s3_c1": "Ngokungafani nezinethiwekhi zezezimali zendabuko, i-Bitcoin ayidingi imvume ukusetshenziswa.",
+	"why_s3_c2": "Lokho kusho ukuthi akekho ongakuvimba ukusebenzisa i-Bitcoin nganoma isiphi isizathu. Iyinethiwekhi yokuqala yezezimali ongayisebenzisa ngaphandle kokwesaba ukuvinjelwa noma ukuthathwa.",
+	"why_s4": "I-Bitcoin yakha umhlaba ongcono",
+	"why_s4_c1": "I-Bitcoin iyithekhinoloji engaqondwa kahle eyakha umhlaba ongcono.",
+	"why_s4_c2": "I-Bitcoin ivumele abalweli bamalungelo abantu ukulwela inkululeko, yanciphisa ukukhishwa kwegesi emhlabeni, yasindisa iziqiwu zezwe, nokunye okuningi."
+}

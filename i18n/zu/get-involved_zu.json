@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"get_involved_and_help_spread_bitcoin": "Bamba iqhaza futhi usize ukusabalalisa i-Bitcoin",
+	"get_involved_description": "Izinsiza zethu zamahhala zenza kube lula ukusabalalisa ukwamukelwa kwe-Bitcoin.",
+	"get_involved_header": "BAMBA IQHAZA",
+	"get_involved_header_2": "SABALALISA I-BITCOIN",
+	"get_involved_intro_1": "Kungadabukisa ukuphila esimweni samanje somhlaba wethu.",
+	"get_involved_intro_2": "Imali yethu iphukile. Ngenxa yalokho, izingxenye eziyisisekelo zomphakathi nazo ziphukile.",
+	"get_involved_intro_3": "Uma usuvele usebenzisa i-Bitcoin, uyayazi imizwa yethemba i-Bitcoin engayiletha. Ithemba lekusasa eliqhakazile elenzeka ngemali engcono.",
+	"get_involved_intro_4": "Kodwa abantu abaningi abakuzungezile abazi nge-Bitcoin. Bahlala emhlabeni ophukile njengawe, kodwa ngaphandle kwekhanyiso lethemba lokubisiza ebumnyameni.",
+	"get_involved_intro_5": "Kodwa ungasiza ukushintsha lokho. Senze izinsiza zamahhala eziningi ukuze kube lula ukusabalalisa ithemba elilethwa yi-Bitcoin kulabo abakuzungezile.",
+	"get_involved_sticker_header": "Beka isitika emphakathini",
+	"get_involved_sticker_content_1": "Ungasiza ukufundisa abakuzungezile nge-Bitcoin ngaphandle kokudinga ukuhlangana naye. Beka nje esinye sezitika zethu ze-Bitcoin zamahhala emphakathini.",
+	"get_involved_sticker_content_2": "Amakhulu abantu askena amakhodi e-QR kule zitika nyanga zonke. Izitika zenfleshini zixhumana nekhasi nge",
+	"get_involved_sticker_content_3": "Bitcoin njengesixazululo senfleshini.",
+	"get_involved_sticker_content_4": "Izinye izitika zixhumana nekhasi lethu lemfundo lasekhaya elibonisa abantu indlela",
+	"get_involved_sticker_content_5": "i-Bitcoin eyakha ngayo umhlaba ongcono.",
+	"get_involved_sticker_content_6": "Ngokubeka lezi zitika emphakathini wakho ezindaweni abantu abazozibona, ungasiza abakuzungezile bathathe izinyathelo zabo zokuqala emgodini we-Bitcoin.",
+	"get_involved_request_a": "CELA",
+	"get_involved_sticker_pack": "IPHAKETHE LEZITIKA",
+	"get_involved_postcard_header": "Thumela ikhadi lokuthumela",
+	"get_involved_postcard_content_1": "Ungasiza ukusabalalisa Ithemba le-Bitcoin kumuntu omaziyo ngokumthumelela elinye lamakhadi ethu okuthumela amahhala.",
+	"get_involved_postcard_content_2": "Ngemuva kwekhadi ngalinye lokuthumela kuneqoqo elithokozisayo nge-Bitcoin kanye nekhodi ye-QR yokufunda kabanzi.",
+	"get_involved_postcard_content_3": "Ngokuthumela umuntu ikhadi lokuthumela le-Bitcoin, ungamsiza abone i-Bitcoin ngendlela entsha.",
+	"get_involved_postcard_pack": "IPHAKETHE LAMAKHADI",
+	"get_involved_business_header": "Faka ibhizinisi",
+	"get_involved_business_content_1": "Ufuna ukusiza ukwakha umnotho wekhulu we-Bitcoin? Ikhithi yethu ye-Bitcoin Business Kit yenza kube lula ukuthinta ibhizinisi ngokwamukela izinkokhelo ze-Bitcoin.",
+	"get_involved_business_content_2": "Ikhithi yebhizinisi ngayinye ifaka amaphepha aveza izinzuzo zokwamukela izinkokhelo ze-Bitcoin. Iphepha ngalinye lixhumana nezinhlobo ezahlukene ze",
+	"get_involved_business_content_3": "zinsiza ze-Bitcoin zamahhala zebhizinisi.",
+	"get_involved_business_kit": "IKHITHI YEBHIZINISI"
+}

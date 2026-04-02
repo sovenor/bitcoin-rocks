@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-01",
+		"locale": "zu"
+	},
+	"sign_success_1": "Uzothola izimpawu zakho ngeviki eli-1 kuya kwama-2. Ngenkathi ulinda, zama ukucabanga ngezindawo ezinhle zokubeka izimpawu zakho!",
+	"sign_success_3": "Ufuna ukubona ukuthi abanye abantu babeka kuphi izimpawu zabo?",
+	"signs_share_header": "YABELANA NGEZINDAWO ZEZIMPAWU ZAKHO",
+	"signs_share_c1": "Yabelana ngesithombe sendawo yesimpawu sakho nathi ku-Nostr bese sikuzapela ama-sats! Ama-sats yizingxenye ze-bitcoin.",
+	"signs_btn_share_on_nostr": "YABELANA KU-NOSTR",
+	"signs_btn_what_is_nostr": "YINI I-NOSTR?"
+}
