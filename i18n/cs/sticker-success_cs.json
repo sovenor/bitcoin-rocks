@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "cs"
+	},
+	"sticker_success_1": "Své nálepky obdržíte za 2 až 4 týdny. Mezitím zkuste vymyslet dobré místo pro vaše nálepky!",
+	"sticker_success_2": "Dobrá místa pro nálepky jsou:",
+	"sticker_success_list_1": "na veřejných místech, kde je lidé uvidí",
+	"sticker_success_list_2": "na místech, odkud pravděpodobně nebudou rychle odstraněny (nálepky nezpůsobují žádné trvalé poškození)",
+	"sticker_success_list_3": "na površích, na které se snadno přilepí (kov, plast, sklo)",
+	"sticker_success_list_4": "NE na soukromém majetku, přes značení, bankomaty nebo čerpací stanice",
+	"sticker_success_3": "Chcete vidět, kam ostatní lidé dávají své nálepky?",
+	"sticker_success_flyers_bar_new": "NOVINKA!",
+	"sticker_success_flyers_bar_cta": "Tiskněte a vylepujte bitcoinové letáky →"
+}

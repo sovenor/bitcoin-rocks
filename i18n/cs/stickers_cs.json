@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "cs"
+	},
+	"free_bitcoin_stickers": "Bezplatné bitcoinové nálepky od bitcoin.rocks",
+	"stickers_description": "Dejte bitcoinovou nálepku na veřejné místo a pomozte přesvědčit lidi kolem vás.",
+	"stickers_header": "BEZPLATNÉ BITCOINOVÉ NÁLEPKY",
+	"stickers_choose_header": "VYBERTE SI SVŮJ BALÍČEK NÁLEPEK",
+	"stickers_choose_c1": "Naším posláním je pomoci vám přesvědčit více lidí tím, že budete dávat bitcoinové nálepky na veřejná místa. Všechny naše nálepky mají QR kódy, které odkazují na vzdělávací stránky o",
+	"stickers_choose_c2": "Bitcoinu",
+	"stickers_choose_c3": "inflaci",
+	"stickers_choose_c4": "Vyberte si balíček nálepek níže",
+	"stickers_text_pack": "TEXTOVÝ BALÍČEK",
+	"stickers_signs_pack": "BALÍČEK ZNAČEK",
+	"stickers_instructions_1": "Zadejte svou poštovní adresu a my vám pošleme bezplatný balíček bitcoinových nálepek! Vaše nálepky budou odeslány v obyčejné bílé obálce.",
+	"stickers_instructions_2": "Údaje o adrese jsou smazány po odeslání bezplatných nálepek.",
+	"stickers_share_header": "SDÍLEJTE SVÁ MÍSTA S NÁLEPKAMI",
+	"stickers_share_c1": "Sdílejte svá místa s nálepkami s námi na Nostru a podívejte se, kam ostatní lidé dávají své nálepky.",
+	"stickers_btn_share_on_nostr": "SDÍLET NA NOSTRU",
+	"stickers_btn_what_is_nostr": "CO JE NOSTR?",
+	"stickers_flyers_link_before": "Mezitím si vytiskněte a vylepte vlastní ",
+	"stickers_flyers_link_text": "bitcoinové letáky",
+	"stickers_flyers_link_after": " a pomozte přesvědčit ještě více lidí.",
+	"stickers_country_global_print": "Celosvětově — Vytisknu si vlastní nálepky",
+	"stickers_country_global_order": "Celosvětově — Objednat ve velkém",
+	"placeholder_name_optional": "Jméno (nepovinné)",
+	"placeholder_address_line_1": "Adresa řádek 1",
+	"placeholder_address_line_2": "Adresa řádek 2 (nepovinné)",
+	"placeholder_city": "Město",
+	"placeholder_state": "Stát",
+	"placeholder_province": "Kraj",
+	"placeholder_zip_code": "PSČ",
+	"placeholder_postal_code": "Poštovní směrovací číslo",
+	"placeholder_language": "Jazyk",
+	"placeholder_which_stickers": "Které nálepky?",
+	"placeholder_email_optional": "Zadejte e-mail pro upozornění (nepovinné)"
+}

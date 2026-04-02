@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "cs"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin nemá bankovní runy",
+	"bank_runs_header": "BITCOIN NEMÁ BANKOVNÍ RUNY",
+	"bank_runs_header_2": "ALE VAŠE BANKA ANO",
+	"bank_runs_what": "CO JE BANKOVNÍ RUN?",
+	"bank_runs_what_content_1": "Bankovní run nastane, když se příliš mnoho lidí pokusí vybrat své peníze z banky ve stejnou dobu.",
+	"bank_runs_what_content_2": "Pokud banky nemají dostatek peněz na pokrytí výběrů, mohou se při bankovním runu úplně zhroutit.",
+	"bank_runs_how": "JAK K BANKOVNÍM RUNŮM DOCHÁZÍ?",
+	"bank_runs_how_content_1": "Náš bankovní systém je 'frakční rezervní', což znamená, že banky vaše peníze jen neuchovávají v trezoru a nečekají, až je utratíte nebo vyberete.",
+	"bank_runs_how_content_2": "Místo toho banka vezme vaše peníze a půjčí je nebo investuje. To může vaše peníze zablokovat na dlouhou dobu, i když vám banka slibuje možnost kdykoli peníze vybrat.",
+	"bank_runs_how_content_3": "Co se stane, když se pokusíte vybrat peníze poté, co je banka už půjčila nebo investovala?",
+	"bank_runs_how_content_4": "Pokud jste to jediný, kdo chce vybírat, není problém. Banka prostě vezme peníze někoho jiného a dá je vám. Ale co se stane, když chce vybírat příliš mnoho lidí najednou?",
+	"bank_runs_how_content_5": "Mnoho lidí v USA se to dozvědělo, když v březnu 2023 proběhl run na Silicon Valley Bank.",
+	"bank_runs_how_content_6": "Banka investovala peníze svých klientů do státních dluhopisů, které byly vázány až na 30 let. Ještě hůře, hodnota těchto dluhopisů nedávno dramaticky klesla, takže Silicon Valley Bank nemohla dluhopisy jednoduše prodat, aby získala peníze svých vkladatelů. Byla insolventní. Neměla dostatek peněz na pokrytí výběrů svých vkladatelů.",
+	"bank_runs_how_content_7": "Jak se o tom dozvědělo více lidí, problém se jen zhoršoval. Přicházelo více žádostí o výběr, ale mnoho z nich nebylo zpracováno. Tisíce firem si uvědomily, že nebudou schopny platit své zaměstnance kvůli selhání banky.",
+	"bank_runs_how_content_8": "FDIC zasáhla a souhlasila s odškodněním vkladatelů. Problém vyřešen? Ne tak docela...",
+	"bank_runs_fdic": "CHRÁNÍ POJIŠTĚNÍ FDIC MÉ PENÍZE?",
+	"bank_runs_fdic_content_1": "Pojištění FDIC je navrženo k ochraně bankovních vkladatelů v případě selhání banky. Vklady jsou pojištěny do výše 250 000 $ na vkladatele. Zní to skvěle, že?",
+	"bank_runs_fdic_content_2": "Ne tak docela. Pokud banka selže, odkud FDIC vezme peníze? Má pojistný fond se 125 miliardami dolarů.",
+	"bank_runs_fdic_content_3": "To zní jako hodně peněz, dokud to nesrovnáte s objemem vkladů, které pojišťují: téměř 10 bilionů neboli 10 000 miliard dolarů.",
+	"bank_runs_fdic_content_4": "FDIC dokonce na svých stránkách ukazuje, že ve svém pojistném fondu má dost peněz na pokrytí jen o něco více než 1 % vkladů.",
+	"bank_runs_fdic_content_5": "V případě selhání banky, které by překročilo pojistný fond FDIC, je pravděpodobné (ale ne zaručené), že americká vláda by vytiskla peníze na odškodnění vkladatelů.",
+	"bank_runs_fdic_content_6": "Ale tisk peněz způsobuje inflaci, takže to není skvělé řešení.",
+	"bank_runs_safe": "EXISTUJÍ BANKY, KTERÉ NEPOUŽÍVAJÍ FRAKČNÍ REZERVU?",
+	"bank_runs_safe_content_1": "Některé banky se pokusily být 'bezpečnými bankami', které nepůjčují ani neinvestují prostředky vkladatelů.",
+	"bank_runs_safe_content_2": "I když by tyto bezpečné banky měly nulové riziko bankovních runů, jejich žádosti byly Federálním rezervním systémem zamítnuty. To znamená, že nemohou legálně fungovat jako banky.",
+	"bank_runs_safe_content_3": "Protože jim bylo zablokováno fungování, dnes neexistují žádné banky, které nepoužívají frakční rezervu.",
+	"bank_runs_safe_content_4": "Naštěstí existuje způsob, jak se z frakčního rezervního systému odhlásit tím, že budete svou vlastní bankou. Ne, nemluvíme o schování hotovosti pod matraci.",
+	"bank_runs_safe_content_5": "Spoření v hotovosti je stále zranitelné vůči inflaci.",
+	"bank_runs_safe_content_6": "Mluvíme o Bitcoinu: novém finančním systému, který vám umožňuje být svou vlastní bankou.",
+	"bank_runs_protect": "MŮŽE MĚ BITCOIN OCHRÁNIT PŘED BANKOVNÍMI RUNY?",
+	"bank_runs_protect_content_1": "Ano, Bitcoin je plně rezervní finanční systém.",
+	"bank_runs_protect_content_2": "Bankovní runy jsou v Bitcoinu nemožné, pokud si vyberete svůj Bitcoin do vlastní peněženky. Nenechávejte svůj bitcoin na burze ani v obalu jako bitcoinové ETF.",
+	"bank_runs_protect_content_3": "Podívejte se na našeho jednoduchého průvodce bitcoinovými peněženkami a zjistěte, jak vybrat do vlastní peněženky.",
+	"bank_runs_protect_content_4": "S Bitcoinem můžete konečně mít kontrolu nad svými penězi."
+}

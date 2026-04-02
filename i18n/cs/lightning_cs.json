@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "cs"
+	},
+	"bitcoin_lightning_wallet_guide": "Průvodce Bitcoin Lightning peněženkami",
+	"lightning_description": "Lightning peněženky vám umožňují posílat Bitcoin rychle a levně při zachování vaší osobní suverenity.",
+	"lightning_header": "PRŮVODCE LIGHTNING PENĚŽENKAMI",
+	"lightning_s1_c1": "Lightning vám umožňuje posílat bitcoinové platby rychle a levně.",
+	"lightning_s1_c2": "Je důležité vědět, že používání Lightning přináší kompromisy. Výměnou za rychlejší a levnější bitcoinové platby často obětujete nějakou bezpečnost.",
+	"lightning_s1_c3": "Obecně by se Lightning měl používat pouze s malými částkami bitcoinu. Velké částky bitcoinu byste měli vždy uchovávat v hardwarové peněžence.",
+	"lightning_s1_c4": "Podívejte se na našeho průvodce hardwarovými peněženkami pro více informací.",
+	"lightning_s1_c5": "Ne všechny Lightning peněženky jsou stejné. Která peněženka má správnou rovnováhu kompromisů pro vás, zjistíte zodpovězením jedné jednoduché otázky:",
+	"lightning_question_1": "JAKÁ ROVNOVÁHA KOMPROMISŮ JE PRO MĚ SPRÁVNÁ?",
+	"lightning_s2_c1": "Jednou z inovací Bitcoinu je schopnost uchovávat ho bez závislosti na správci, jako je banka. Peněženky s vlastní správou odemykají plnou sílu Bitcoinu.",
+	"lightning_s2_c2": "S peněženkou s vlastní správou jste jediný, kdo má schopnost utratit nebo převést vaše peníze. Nikdo vás nemůže zastavit, cenzurovat nebo okrást, když používáte peněženku s vlastní správou. Těm se také říká nekustodní peněženky.",
+	"lightning_s2_c3": "Nejsvrchnější způsob používání Lightning je provozování vlastního uzlu.",
+	"lightning_s2_c4": "Tento průvodce je zaměřen na jednoduché Lightning peněženky, které nevyžadují vlastní uzel.",
+	"lightning_s2_c5": "Je důležité vědět, že i při používání nekustodní Lightning peněženky stále důvěřujete tvůrci peněženky, že neprosadí škodlivou aktualizaci aplikace a neukradne vaše prostředky.",
+	"lightning_s3_c1": "Kustodní peněženky jsou peněženky, kde nemáte kontrolu nad svými penězi.",
+	"lightning_s3_c2": "Tyto peněženky jsou podobnější bankovnímu systému, kde musíte důvěřovat třetí straně, že vám dá přístup k vašim penězům. Pokud je váš Bitcoin na burze, používáte kustodní peněženku.",
+	"lightning_s3_c3": "Kustodní peněženky mohou působit pohodlně, ale správce má technickou schopnost kdykoli ukrást všechny prostředky uživatelů.",
+	"lightning_s3_c4": "Někteří lidé preferují kustodní Lightning peněženky pro malé částky bitcoinu kvůli jejich snadnému použití. Jen nezapomeňte: ne vaše klíče, ne vaše mince!",
+	"lightning_question_2": "VYBERTE SI PENĚŽENKU",
+	"lightning_s4_c1": "Se vším tímto na paměti si nyní můžete vybrat lightning peněženku se správnou rovnováhou kompromisů pro vás.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Mnoho funkcí",
+	"lightning_mobile_app": "Mobilní aplikace",
+	"lightning_free": "100% zdarma",
+	"lightning_merchants": "Skvělá pro obchodníky",
+	"lightning_starter": "Skvělá úvodní peněženka",
+	"lightning_browser": "V prohlížeči",
+	"lightning_custodial": "Plně kustodní peněženka",
+	"lightning_cta_hardware": "Hledáte našeho průvodce hardwarovými bitcoinovými peněženkami?"
+}

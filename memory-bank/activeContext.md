@@ -1,10 +1,10 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Afrikaans Language Added — April 2026
-- Added Afrikaans (`af`) as the 14th language on bitcoin.rocks
-- Created all 90 translation files via 8 scripts in `scripts/afrikaans/`
+## Latest: Czech Language Added — April 2026
+- Added Czech (`cs`, Čeština) as the 15th language on bitcoin.rocks
+- Created all 90 translation files via 8 scripts in `scripts/czech/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
-- Updated all about_xx.json files from 13→14 languages
+- Updated all about_xx.json files from 14→15 languages
 - Ran SEO content injection successfully
 
 ## Current Work Focus

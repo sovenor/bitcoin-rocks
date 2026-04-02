@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Czech (cs) Language Added — April 2026
+- Added Czech (Čeština) as the 15th language
+- Created all 90 translation files in `i18n/cs/` mirroring the English directory structure
+- Translation scripts in `scripts/czech/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (14→15)
+- Ran SEO content injection
+
 ## Afrikaans (af) Language Added — April 2026
 - Added Afrikaans as the 14th language
 - Created all 90 translation files in `i18n/af/` mirroring the English directory structure

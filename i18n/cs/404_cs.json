@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "cs"
+	},
+	"404_title": "Chyba 404 | Stránka nenalezena",
+	"404_message": "TATO ROZBITÁ STRÁNKA NENÍ COOL",
+	"404_home": "ZPĚT NA HLAVNÍ STRÁNKU"
+}
