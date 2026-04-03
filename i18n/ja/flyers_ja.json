@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"free_bitcoin_flyers": "bitcoin.rocksの無料ビットコインチラシ",
+	"flyers_description": "ビットコインチラシを自宅で印刷して公共の場所に掲示し、周りの人をオレンジピルしよう。",
+	"flyers_header_1": "印刷して掲示しよう",
+	"flyers_header_2": "ビットコインチラシ",
+	"flyers_intro_header": "ビットコインチラシの印刷と掲示方法",
+	"flyers_intro_c1": "私たちの使命は、公共の場所にビットコインチラシを掲示することで、より多くの人をオレンジピルするお手伝いをすることです。このチラシには",
+	"flyers_intro_c2": "教育的なビットコインウェブサイト",
+	"flyers_intro_c3": "インフレ",
+	"flyers_intro_c4": "このチラシを自宅や印刷ショップで印刷してください。その後、掲示板、街中の電柱、その他人々が見てビットコインについて学べる公共の場所に掲示してください。",
+	"flyers_intro_c5": "ついでに、私たちの",
+	"flyers_intro_c6": "無料ビットコインステッカー",
+	"flyers_intro_c7": "もリクエストして、さらに多くの人をオレンジピルしましょう。",
+	"flyers_btn_download": "チラシをダウンロード",
+	"flyers_btn_print": "チラシを印刷",
+	"flyers_share_header": "チラシスポットを共有しよう",
+	"flyers_share_c1": "Nostrでチラシスポットを共有し、他の人がチラシをどこに掲示しているか見ましょう。",
+	"flyers_btn_share_on_nostr": "NOSTRで共有する",
+	"flyers_btn_what_is_nostr": "NOSTRとは？"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"free_bitcoin_postcards": "bitcoin.rocksの無料ビットコインポストカード",
+	"postcards_description": "無料のビットコインポストカードパックを入手して、知り合いにビットコインを紹介しよう。",
+	"postcards_header": "ポストカードプログラムは終了しました",
+	"postcards_program_closed_message": "無料ビットコインポストカードプログラムは終了しました。郵便を通じてビットコイン教育を広めることに参加してくださった皆様、ありがとうございました！",
+	"postcards_sticker_alternative_header": "代わりに無料ビットコインステッカーを入手しよう",
+	"postcards_sticker_alternative_message": "無料ステッカープログラムでビットコインの認知度を広め続けましょう！ビットコインステッカーは公共の場所での共有に最適で、教育コンテンツにリンクするQRコードが付いています。",
+	"postcards_sticker_cta": "無料ステッカーを入手",
+	"postcards_step_2": "ポストカードの見た目",
+	"postcards_instructions_4": "知り合いにビットコインを紹介しやすくするために、これらのポストカードを作りました！住所とスタンプを追加してポストカードを投函するだけです。",
+	"postcards_instructions_5": "私たちの使命はビットコインの普及を加速することです。無料ステッカーを入手して公共の場所に貼ることでお手伝いいただけます！",
+	"postcards_instructions_6": "ビットコインについてもっと学ぶことで恩恵を受ける人は周りにいるはずです。今日、ビットコインステッカーを共有しましょう！"
+}

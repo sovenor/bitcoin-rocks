@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"how_to_accept_bitcoin_payments": "ビットコイン決済の受け入れ方",
+	"wallets_header": "無料のビットコインウォレットを入手してビットコイン決済を受け入れよう",
+	"wallets_intro_1": "すべてのビットコインウォレットは相互運用可能なので、顧客はどのウォレットを使っていてもビットコインで支払いができます。",
+	"wallets_intro_2": "ビットコイン専用ウォレット：",
+	"wallets_intro_3": "これらはビットコインの全メリットを引き出す純粋なビットコインウォレットです：仲介者なし、低手数料、チャージバックや不正取引なし。",
+	"wallets_intro_4": "ハイブリッドウォレット：",
+	"wallets_intro_5": "顧客から支払いを受けると同時に、ビットコインの任意の割合をドルに換金できます。手数料はクレジットカードよりも低いですが、純粋なビットコイン決済よりは高くなります。",
+	"wallets_intro_6": "どちらもビットコインを受け入れる優れた方法です。使用する具体的なウォレットは、ビジネスの規模とタイプによって異なります。",
+	"wallets_choice_sole": "個人事業主向けウォレット",
+	"wallets_choice_multiple": "複数従業員のビジネス向けウォレット",
+	"wallets_choice_online": "オンラインビジネス向けウォレット",
+	"wallets_choice_invoice": "請求書ベースのビジネス向けウォレット",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "既存のSquare POSターミナルやオンラインストア連携でビットコイン決済を受け入れられます。ビットコイン決済の受け入れがこれほど簡単になったことはありません。",
+	"wallets_feature_bitcoin_only": "ビットコイン専用ウォレット",
+	"wallets_feature_no_info": "情報入力不要",
+	"wallets_feature_in_person": "対面決済のみ",
+	"wallets_feature_settles_bitcoin": "100%ビットコインで決済",
+	"wallets_feature_hybrid": "ハイブリッドウォレット",
+	"wallets_feature_info": "ビジネス情報の入力が必要",
+	"wallets_feature_in_person_online": "対面＆オンライン決済",
+	"wallets_feature_settles_both": "ビットコイン＆ドルで決済",
+	"wallets_feature_multiple_employees": "複数従業員対応（BPT）",
+	"wallets_feature_self_hosted": "セルフホスティング＝手数料0%",
+	"wallets_feature_online_store": "オンラインストア連携",
+	"wallets_feature_invoicing": "無料の請求書ソフトウェア",
+	"wallets_get_wallet": "ウォレットを入手"
+}

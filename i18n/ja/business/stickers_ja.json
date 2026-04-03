@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"bitcoin_accepted_here_stickers": "「Bitcoin Accepted Here」ステッカー",
+	"stickers_header": "無料の「BITCOIN ACCEPTED HERE」ステッカーを入手しよう",
+	"stickers_request": "無料ステッカーを入手",
+	"stickers_request_details": "これらの無料「Bitcoin Accepted Here」ステッカーで、ビットコイン決済を受け付けていることを顧客に知らせましょう。",
+	"stickers_country_global_print": "グローバル — 自分で印刷する",
+	"stickers_request_instructions": "白い封筒で3枚の「Bitcoin Accepted Here」ステッカーをお届けします。ビジネスに3枚以上必要な場合は、複数回リクエストしてください。住所データはステッカーの発送後に削除されます。",
+	"stickers_print_details": "どこに住んでいても、自分で「Bitcoin Accepted Here」ステッカーを印刷できます！下の言語をクリックしてステッカーファイルと手順を確認してください。",
+	"stickers_request_language": "お探しの言語がありませんか？以下のフォームに記入して、お住まいの言語の「Bitcoin Accepted Here」ステッカーファイルをリクエストしてください。"
+}

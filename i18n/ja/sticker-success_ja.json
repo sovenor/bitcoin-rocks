@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"sticker_success_1": "ステッカーは2〜4週間以内にお届けします。届くまでの間、ステッカーを貼る良い場所を考えてみてください！",
+	"sticker_success_2": "ステッカーを貼るのに良い場所：",
+	"sticker_success_list_1": "人々の目に留まる公共の場所",
+	"sticker_success_list_2": "すぐに剥がされにくい場所（ステッカーは永久的な損傷を与えません）",
+	"sticker_success_list_3": "貼りやすい表面（金属、プラスチック、ガラス）",
+	"sticker_success_list_4": "私有地、標識の上、ATM、ガスポンプには貼らないでください",
+	"sticker_success_3": "他の人がステッカーをどこに貼っているか見たいですか？",
+	"sticker_success_flyers_bar_new": "新着！",
+	"sticker_success_flyers_bar_cta": "ビットコインチラシを印刷して掲示しよう →"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"sign_success_1": "看板は1〜2週間以内にお届けします。届くまでの間、看板を設置する良い場所を考えてみてください！",
+	"sign_success_3": "他の人が看板をどこに設置しているか見たいですか？",
+	"signs_share_header": "看板スポットを共有しよう",
+	"signs_share_c1": "Nostrで看板スポットの写真を共有してくれれば、satsをzapします！satsはビットコインの端数です。",
+	"signs_btn_share_on_nostr": "NOSTRで共有する",
+	"signs_btn_what_is_nostr": "NOSTRとは？"
+}

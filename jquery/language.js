@@ -23,6 +23,7 @@ $(function() {
     { code: 'it', name: 'Italiano' },
     { code: 'pl', name: 'Polski' },
     { code: 'id', name: 'Indonesia' },
+    { code: 'ja', name: '日本語' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'pt', name: 'Português' },

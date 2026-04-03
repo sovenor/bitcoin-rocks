@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"cic_header": "複利インフレ計算機",
+	"cic_description": "この複利インフレ計算機を使って、インフレに追いつくために給与をどれだけ上げる必要があるか確認しましょう。",
+	"what_can_i_do_about": "どうすればいいのか",
+	"what_can_i_do_about_2": "インフレ対策は？",
+	"cic_inflation_cta": "ビットコインでインフレから脱却する"
+}

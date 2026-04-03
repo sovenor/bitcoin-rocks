@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"signs_description": "アメリカ中にビットコインの看板を設置するお手伝いをしてください！",
+	"signs_title": "bitcoin.rocksの無料ビットコイン看板",
+	"signs_choose_header": "アメリカ中にビットコインの看板を設置するお手伝いをしていただき、ありがとうございます！",
+	"signs_choose_c1": "看板はすべてなくなりました！私たちの使命は教育を通じてビットコインの普及を加速することです。",
+	"signs_choose_c2": "多くの皆さんが無料のビットコイン看板を公共の場所に設置することでお手伝いしてくれました。すべての看板には教育ページにリンクするQRコードが付いています：",
+	"signs_choose_c3": "インフレ",
+	"signs_choose_c4": "素晴らしいコミュニティのおかげで、何千人もの人々にリーチし、ビットコインの世界への最初の一歩を踏み出すお手伝いができました。",
+	"signs_share_header": "看板スポットを共有しよう",
+	"signs_share_c1": "Nostrで看板スポットの写真を共有し、他の人がどこに看板を設置しているか見ましょう。",
+	"signs_btn_share_on_nostr": "NOSTRで共有する",
+	"signs_btn_what_is_nostr": "NOSTRとは？",
+	"signs_instructions_1": "住所を入力すると、ビットコイン看板10枚を箱で郵送でお届けします！",
+	"signs_instructions_2": "住所データは看板の発送後に削除されます。"
+}

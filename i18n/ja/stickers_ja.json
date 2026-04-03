@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-02",
+		"locale": "ja"
+	},
+	"free_bitcoin_stickers": "bitcoin.rocksの無料ビットコインステッカー",
+	"stickers_description": "公共の場所にビットコインステッカーを貼って、周りの人をオレンジピルしよう。",
+	"stickers_header": "無料ビットコインステッカー",
+	"stickers_choose_header": "ステッカーパックを選ぼう",
+	"stickers_choose_c1": "私たちの使命は、公共の場所にビットコインステッカーを貼ることで、より多くの人をオレンジピルするお手伝いをすることです。すべてのステッカーには教育ページにリンクするQRコードが付いています：",
+	"stickers_choose_c2": "ビットコイン",
+	"stickers_choose_c3": "インフレ",
+	"stickers_choose_c4": "下からステッカーパックを選んでください",
+	"stickers_text_pack": "テキストパック",
+	"stickers_signs_pack": "サインパック",
+	"stickers_instructions_1": "住所を入力すると、無料のビットコインステッカーパックを郵送でお届けします！ステッカーは白い封筒で発送されます。",
+	"stickers_instructions_2": "住所データはステッカーの発送後に削除されます。",
+	"stickers_share_header": "ステッカースポットを共有しよう",
+	"stickers_share_c1": "Nostrでステッカースポットを共有し、他の人がステッカーをどこに貼っているか見ましょう。",
+	"stickers_btn_share_on_nostr": "NOSTRで共有する",
+	"stickers_btn_what_is_nostr": "NOSTRとは？",
+	"stickers_flyers_link_before": "ついでに、自分で",
+	"stickers_flyers_link_text": "ビットコインチラシ",
+	"stickers_flyers_link_after": "を印刷して掲示し、さらに多くの人をオレンジピルしよう。",
+	"stickers_country_global_print": "グローバル — 自分で印刷する",
+	"stickers_country_global_order": "グローバル — まとめて注文する",
+	"placeholder_name_optional": "名前（任意）",
+	"placeholder_address_line_1": "住所1",
+	"placeholder_address_line_2": "住所2（任意）",
+	"placeholder_city": "市区町村",
+	"placeholder_state": "都道府県",
+	"placeholder_province": "州",
+	"placeholder_zip_code": "郵便番号",
+	"placeholder_postal_code": "郵便番号",
+	"placeholder_language": "言語",
+	"placeholder_which_stickers": "どのステッカー？",
+	"placeholder_email_optional": "通知を受け取るメールアドレスを入力（任意）"
+}
