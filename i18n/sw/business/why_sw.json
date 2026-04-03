@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Jifunze kwa nini Bitcoin ni nzuri kwa biashara",
+	"why_header": "BITCOIN NI NZURI KWA BIASHARA",
+	"why_good_for_you": "BITCOIN NI NZURI KWAKO PIA!",
+	"why_learn_more_lowercase": "Jifunze zaidi.",
+	"why_s1": "Bitcoin haina mfumuko wa bei",
+	"why_s1_c1": "Mfumuko wa bei hutokea wakati pesa zaidi zinachapishwa au kuundwa kutoka hewani. Hii inafanya pesa yako kuwa na thamani ndogo kwa muda.",
+	"why_s1_c2": "Bitcoin ina ugavi uliowekwa, ikimaanisha hakuna mtu anayeweza kuchapisha Bitcoin zaidi.",
+	"why_s2": "Bitcoin haina mikimbilio ya benki",
+	"why_s2_c1": "Benki kadhaa za Marekani zimeanguka katika miaka michache iliyopita kutokana na mikimbilio ya benki.",
+	"why_s2_c2": "Badala ya kushikilia pesa yako tu kwa ajili yako, benki zinawekeza na kukopesha pesa yako. Kama uwekezaji huo haukufanikiwa vizuri, hawana pesa za kutosha kukulipa.",
+	"why_s2_c3": "Na mfuko wa bima wa FDIC una $1 tu kwa kila $100 wanayobima.",
+	"why_s3": "Bitcoin haihitaji ruhusa",
+	"why_s3_c1": "Tofauti na mitandao ya kawaida ya fedha, Bitcoin haihitaji ruhusa kutumika.",
+	"why_s3_c2": "Hiyo inamaanisha hakuna mtu anayeweza kukuzuia kutumia Bitcoin kwa sababu yoyote. Ni mtandao wa kwanza wa fedha unaoweza kutumia bila hofu ya udhibiti au kunyang'anywa.",
+	"why_s4": "Bitcoin inajenga ulimwengu bora",
+	"why_s4_c1": "Bitcoin ni teknolojia isiyoeleweka vizuri ambayo inajenga ulimwengu bora.",
+	"why_s4_c2": "Bitcoin imewezesha wanaharakati wa haki za binadamu kupigania uhuru, imepunguza utoaji wa methane duniani, imehifadhi hifadhi za taifa, na mengi zaidi."
+}

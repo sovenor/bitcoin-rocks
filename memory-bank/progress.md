@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Swahili (sw) Language Added — April 2026
+- Added Swahili (Kiswahili) as the 22nd language
+- Created all 90+ translation files in `i18n/sw/` mirroring the English directory structure
+- Translation scripts in `scripts/swahili/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (21→22)
+- Ran SEO content injection
+
 ## Vietnamese (vi) Language Added — April 2026
 - Added Vietnamese (Tiếng Việt) as the 20th language
 - Created all 90 translation files in `i18n/vi/` mirroring the English directory structure

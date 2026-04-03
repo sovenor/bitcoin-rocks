@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"signs_description": "Tusaidie kuweka Mabango haya ya Bitcoin kote Amerika!",
+	"signs_title": "Mabango ya Bitcoin bure kutoka bitcoin.rocks",
+	"signs_choose_header": "ASANTE KWA KUTUSAIDIA KUWEKA MABANGO HAYA YA BITCOIN KOTE AMERIKA!",
+	"signs_choose_c1": "Sasa tumemaliza mabango kabisa! Dhamira yetu ni kuharakisha kupitishwa kwa Bitcoin kupitia elimu.",
+	"signs_choose_c2": "Wengi wenu mlisaidia kwa kuweka mabango haya ya Bitcoin bure hadharani. Mabango yetu yote yana misimbo ya QR inayounganisha na ukurasa wa elimu kuhusu",
+	"signs_choose_c3": "mfumuko wa bei",
+	"signs_choose_c4": "Shukrani kwa jumuiya yetu ya ajabu, tulifikia maelfu ya watu na kuwasaidia kuchukua hatua zao za kwanza katika shimo la sungura la Bitcoin.",
+	"signs_share_header": "SHIRIKI MAHALI PA MABANGO YAKO",
+	"signs_share_c1": "Shiriki picha ya mahali pa bango lako nasi kwenye Nostr na uone wapi watu wengine wanaweka mabango yao.",
+	"signs_btn_share_on_nostr": "SHIRIKI KWENYE NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR NI NINI?",
+	"signs_instructions_1": "Ingiza anwani yako ya posta na tutakutumia sanduku la mabango 10 ya Bitcoin kwa barua!",
+	"signs_instructions_2": "Data ya anwani inafutwa baada ya mabango yako ya bure kutumwa."
+}

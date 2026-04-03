@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin dhidi ya Sanaa Nzuri",
+	"fine_art_header": "TOFAUTI KATI YA",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "NA",
+	"fine_art_header_4": "SANAA NZURI",
+	"fine_art_intro_1": "Sanaa nzuri imekuwa uwekezaji wa kifahari kwa karne nyingi na mara nyingi inaonekana kama hifadhi ya thamani na wakusanyaji matajiri.",
+	"fine_art_intro_2": "Bitcoin ni pesa za kidijitali ambazo pia zinaonekana na wengi kama hifadhi ya thamani na uwekezaji.",
+	"fine_art_intro_3": "Lakini kazi ya sanaa halisi inatofautianaje na pesa za kidijitali kama Bitcoin? Hebu tuangalie tofauti kati ya aina mbili za uwekezaji: Bitcoin na Sanaa Nzuri.",
+	"fine_art": "SANAA NZURI",
+	"fine_art_point_1": "Kila kipande ni cha kipekee",
+	"fine_art_point_2": "Inahitaji minada maalum",
+	"fine_art_point_3": "Ada za juu za mnada",
+	"fine_art_point_4": "Haiwezi kugawanywa",
+	"fine_art_point_5": "Inahitaji uthibitishaji wa kitaalamu",
+	"fine_art_point_6": "Hatarini kwa uharibifu",
+	"fine_art_point_7": "Imepunguzwa kwa wakusanyaji matajiri",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Inafanana kabisa",
+	"bitcoin_point_2": "Soko la 24/7 duniani kote",
+	"bitcoin_point_3": "Ada ndogo za miamala",
+	"bitcoin_point_4": "Inaweza kugawanywa kwa urahisi",
+	"bitcoin_point_5": "Inathibitishwa kwa kryptografia",
+	"bitcoin_point_6": "Ngumu kuharibiwa",
+	"bitcoin_point_7": "Inapatikana kwa kila mtu",
+	"point_1_summary_1": "Bitcoin inafanana kabisa, ikimaanisha kila bitcoin inafanana na inabadilishana - bitcoin moja ni sawa na bitcoin moja popote duniani. Sanaa nzuri kwa asili haifanani, kila kipande kikiwa cha kipekee katika uumbaji wake, historia, hali, na asili yake, na kuifanya mlinganisho na tathmini za moja kwa moja kuwa ngumu sana.",
+	"point_2_summary_1": "Bitcoin inafanya biashara kwenye soko la 24/7 duniani kote ambapo mtu yeyote mwenye ufikiaji wa mtandao anaweza kununua au kuuza papo hapo. Sanaa nzuri inahitaji nyumba maalum za minada kama Sotheby's au Christie's, wafanyabiashara wa kibinafsi, au matunzio ya kipekee. Mauzo yanaweza kuchukua miezi kupanga na kukamilika, na ufikiaji mdogo wa soko na fursa za biashara zisizo za kawaida.",
+	"point_3_summary_1": "Kununua au kuuza bitcoin kwa kawaida hugharimu chini ya 1% ya ada, mara nyingi chini zaidi. Mauzo ya sanaa nzuri yanahusisha gharama kubwa ikiwa ni pamoja na ada za mnunuzi (10-25%), kamisheni za muuzaji (10-15%), bima, usafirishaji, uhifadhi, na ada za uthibitishaji. Gharama hizi kwa pamoja zinaweza kwa urahisi kuzidi 30-40% ya thamani ya kazi ya sanaa katika muamala mmoja.",
+	"point_4_summary_1": "Bitcoin inaweza kugawanywa kuwa vitengo vidogo milioni 100 vinavyoitwa satoshi, ikiifanya kuwa nzuri kwa miamala ya ukubwa wowote kutoka miamala ndogo hadi ununuzi mkubwa. Sanaa nzuri haiwezi kugawanywa - huwezi kumiliki sehemu ya picha au kuuza sehemu tu ya sanamu. Kutogawanyika huku kunapunguza kubadilika kwa uwekezaji na chaguzi za ukwasi.",
+	"point_5_summary_1": "Umiliki na uhalisi wa Bitcoin unaweza kuthibitishwa kwa kryptografia kwenye blockchain na mtu yeyote mwenye ujuzi wa msingi wa kiufundi. Sanaa nzuri inahitaji uthibitishaji wa kitaalamu wa gharama kubwa, utafiti wa asili, na uchambuzi wa kisayansi. Hata na uthibitishaji wa kitaalamu, bandia mara kwa mara hudanganya ulimwengu wa sanaa, na mizozo ya uthibitishaji inaweza kuharibu thamani ya kazi ya sanaa usiku mmoja. Bitcoin, kwa upande mwingine, haiwezi kughushiwa au kubandiwa.",
+	"point_6_summary_1": "Bitcoin, ikihifadhiwa vizuri, haiwezi kuharibiwa na mafuriko, moto, matetemeko ya ardhi, vimbunga, wizi, au maafa mengine. Sanaa nzuri iko hatarini kwa aina zote za uharibifu wa kimwili na kuzorota. Hata na uhifadhi wa udhibiti wa hali ya hewa wa gharama kubwa na bima kamili, kazi za sanaa zinaweza kuharibiwa na mambo ya mazingira, ajali, au maafa ya asili, na uwezekano wa kupoteza thamani yote.",
+	"point_7_summary_1": "Bitcoin inaweza kununuliwa na kuuzwa na mtu yeyote mwenye ufikiaji wa mtandao na kiasi kidogo cha pesa za kuwekeza. Uwekezaji wa sanaa nzuri kwa kiasi kikubwa umepunguzwa kwa wakusanyaji matajiri kutokana na bei za chini za juu, ufikiaji wa minada wa kipekee, mahitaji ya uhifadhi, gharama za bima, na ujuzi maalum unaohitajika ili kuvinjari soko la sanaa kwa mafanikio."
+}

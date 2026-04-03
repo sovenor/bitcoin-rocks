@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"free_bitcoin_flyers": "Vipeperushi vya Bitcoin bure kutoka bitcoin.rocks",
+	"flyers_description": "Chapisha kipeperushi cha Bitcoin nyumbani na ukiweke hadharani kueneza ufahamu wa Bitcoin kwa watu wanaokuzunguka.",
+	"flyers_header_1": "CHAPISHA NA BANDIKA",
+	"flyers_header_2": "VIPEPERUSHI VYA BITCOIN",
+	"flyers_intro_header": "JINSI YA KUCHAPISHA NA KUBANDIKA VIPEPERUSHI HIVI VYA BITCOIN",
+	"flyers_intro_c1": "Dhamira yetu ni kukusaidia kueneza Bitcoin zaidi kwa kuweka vipeperushi vya Bitcoin hadharani. Kipeperushi hiki kina msimbo wa QR unaoelekeza kwenye",
+	"flyers_intro_c2": "tovuti yetu ya elimu ya Bitcoin.",
+	"flyers_intro_c3": "mfumuko wa bei",
+	"flyers_intro_c4": "Chapisha kipeperushi hiki nyumbani au dukani la uchapishaji. Kisha, kibandike kwenye bodi za matangazo, nguzo za simu mjini, na maeneo mengine ya umma ambapo watu wanaweza kukiona na kujifunza kuhusu Bitcoin.",
+	"flyers_intro_c5": "Huku ukifanya hivyo, omba kifurushi cha",
+	"flyers_intro_c6": "vibandiko vya Bitcoin bure",
+	"flyers_intro_c7": "kusaidia kueneza Bitcoin zaidi.",
+	"flyers_btn_download": "PAKUA KIPEPERUSHI",
+	"flyers_btn_print": "CHAPISHA KIPEPERUSHI",
+	"flyers_share_header": "SHIRIKI MAHALI PA VIPEPERUSHI VYAKO",
+	"flyers_share_c1": "Shiriki mahali pa vipeperushi vyako nasi kwenye Nostr na uone wapi watu wengine wanaweka vipeperushi vyao.",
+	"flyers_btn_share_on_nostr": "SHIRIKI KWENYE NOSTR",
+	"flyers_btn_what_is_nostr": "NOSTR NI NINI?"
+}

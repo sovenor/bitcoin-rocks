@@ -28,6 +28,7 @@ $(function() {
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'pt', name: 'Português' },
     { code: 'sv', name: 'Svenska' },
+    { code: 'sw', name: 'Kiswahili' },
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'bg', name: 'български' },
     { code: 'ta', name: 'தமிழ்' },

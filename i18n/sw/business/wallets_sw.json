@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"how_to_accept_bitcoin_payments": "Jinsi ya Kukubali Malipo ya Bitcoin",
+	"wallets_header": "PATA POCHI YA BITCOIN YA BURE KUKUBALI MALIPO YA BITCOIN",
+	"wallets_intro_1": "Pochi zote za Bitcoin zinafanya kazi pamoja, kwa hivyo wateja wako wanaweza kukulipa kwa Bitcoin bila kujali wanatumia pochi gani.",
+	"wallets_intro_2": "Pochi za Bitcoin pekee:",
+	"wallets_intro_3": "Hizi ni pochi safi za Bitcoin zinazofungua faida zote za Bitcoin: hakuna wasuluhishi, ada ndogo, na hakuna malipo ya kurudishwa au udanganyifu.",
+	"wallets_intro_4": "Pochi za mseto:",
+	"wallets_intro_5": "Hizi zinakuruhusu kubadilisha sehemu yoyote ya Bitcoin yako kuwa dola mara tu mteja anapokulipia. Ada bado ni chini ya malipo ya kadi ya mkopo, lakini ni za juu kuliko malipo safi ya Bitcoin.",
+	"wallets_intro_6": "Zote mbili ni njia nzuri za kukubali Bitcoin. Pochi maalum unayotumia itategemea ukubwa na aina ya biashara yako.",
+	"wallets_choice_sole": "pochi kwa biashara zinazomilikiwa na mtu mmoja",
+	"wallets_choice_multiple": "pochi kwa biashara zenye wafanyakazi wengi",
+	"wallets_choice_online": "pochi kwa biashara za mtandaoni",
+	"wallets_choice_invoice": "pochi kwa biashara zinazotumia ankara",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Unaweza kukubali malipo ya Bitcoin na kituo chako cha Square PoS kilichopo au muunganisho wa duka la mtandaoni. Kamwe haijawahi kuwa rahisi zaidi kukubali malipo ya Bitcoin.",
+	"wallets_feature_bitcoin_only": "Pochi ya Bitcoin pekee",
+	"wallets_feature_no_info": "Hakuna taarifa inayohitajika",
+	"wallets_feature_in_person": "Malipo ya ana kwa ana pekee",
+	"wallets_feature_settles_bitcoin": "Inakamilika 100% katika Bitcoin",
+	"wallets_feature_hybrid": "Pochi ya mseto",
+	"wallets_feature_info": "Taarifa za biashara zinahitajika",
+	"wallets_feature_in_person_online": "Malipo ya ana kwa ana na mtandaoni",
+	"wallets_feature_settles_both": "Kamilisha katika Bitcoin na dola",
+	"wallets_feature_multiple_employees": "Msaada wa wafanyakazi wengi (BPTs)",
+	"wallets_feature_self_hosted": "Unayohost mwenyewe = ada 0%",
+	"wallets_feature_online_store": "Muunganisho wa duka la mtandaoni",
+	"wallets_feature_invoicing": "Programu ya ankara ya bure",
+	"wallets_get_wallet": "PATA POCHI"
+}

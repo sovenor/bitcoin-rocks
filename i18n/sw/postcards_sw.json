@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"free_bitcoin_postcards": "Kadi za Posta za Bitcoin bure kutoka bitcoin.rocks",
+	"postcards_description": "Pata Kifurushi cha Kadi za Posta za Bitcoin bure na ushiriki Bitcoin na mtu unayemjua.",
+	"postcards_header": "PROGRAMU YA KADI ZA POSTA IMEFUNGWA",
+	"postcards_program_closed_message": "Programu yetu ya kadi za posta za Bitcoin bure imeisha. Asante kwa kila mtu aliyeshiriki katika kueneza elimu ya Bitcoin kupitia barua!",
+	"postcards_sticker_alternative_header": "PATA VIBANDIKO VYA BITCOIN BURE BADALA YAKE",
+	"postcards_sticker_alternative_message": "Endelea kueneza ufahamu wa Bitcoin na programu yetu ya vibandiko bure! Vibandiko vyetu vya Bitcoin vinafaa kwa kushiriki mahali pa umma na vina misimbo ya QR inayounganisha na maudhui ya elimu.",
+	"postcards_sticker_cta": "PATA VIBANDIKO BURE",
+	"postcards_step_2": "KADI ZA POSTA ZILIKUWA ZINAVYOONEKANA",
+	"postcards_instructions_4": "Tulitengeneza kadi hizi za posta kurahisisha kumtambulisha mtu unayemjua kwa Bitcoin! Ongeza tu anwani na stempu na utupe kadi yako ya posta kwenye sanduku la barua.",
+	"postcards_instructions_5": "Dhamira yetu ni kuharakisha kupitishwa kwa Bitcoin. Unaweza kusaidia kwa kupata vibandiko bure na kuviweka mahali pa umma!",
+	"postcards_instructions_6": "Sisi sote tunajua watu wachache ambao wangeweza kufaidika kwa kujifunza zaidi kuhusu Bitcoin. Shiriki vibandiko vya Bitcoin nao leo!"
+}

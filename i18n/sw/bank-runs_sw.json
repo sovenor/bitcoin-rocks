@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin Haina Mikimbilio ya Benki",
+	"bank_runs_header": "BITCOIN HAINA MIKIMBILIO YA BENKI",
+	"bank_runs_header_2": "LAKINI BENKI YAKO INAWEZA KUWA NAYO",
+	"bank_runs_what": "MIKIMBILIO YA BENKI NI NINI?",
+	"bank_runs_what_content_1": "Mikimbilio ya benki hutokea wakati watu wengi sana wanajaribu kutoa pesa zao kutoka benki kwa wakati mmoja.",
+	"bank_runs_what_content_2": "Ikiwa benki hazina pesa za kutosha zinazoweza kupatikana kulingana na utolewa, zinaweza kuanguka kabisa wakati mikimbilio ya benki inapotokea.",
+	"bank_runs_how": "MIKIMBILIO YA BENKI HUTOKEA VIPI?",
+	"bank_runs_how_content_1": "Mfumo wetu wa benki ni wa 'akiba ya sehemu' ikimaanisha benki haishikilii pesa yako tu katika kabati na kusubiri uitumie au uitoe.",
+	"bank_runs_how_content_2": "Badala yake, benki yako inachukua pesa yako na kuikopesha au kuiwekeza. Hii inaweza kufunga pesa yako kwa muda mrefu, ingawa benki inakuahidi uwezo wa kutoa pesa yako wakati wowote.",
+	"bank_runs_how_content_3": "Je, kinatokea nini ukijaribu kutoa pesa yako baada ya benki kuishakuikopesha au kuiwekeza?",
+	"bank_runs_how_content_4": "Si shida ikiwa wewe peke yako unajaribu kutoa. Benki itachukua tu pesa ya mtu mwingine na kukupa badala yake. Lakini kinatokea nini watu wengi sana wanajaribu kutoa kwa wakati mmoja?",
+	"bank_runs_how_content_5": "Watu wengi nchini Marekani waligundua wakati kulikuwa na mikimbilio ya Silicon Valley Bank mnamo Machi wa 2023.",
+	"bank_runs_how_content_6": "Benki ilikuwa imewekeza pesa za wateja wao katika dhamana za serikali ambazo zilifungwa kwa hadi miaka 30. Mbaya zaidi, thamani ya dhamana hizo ilikuwa imeshuka sana hivi karibuni, kwa hivyo Silicon Valley Bank haikuweza kuuza tu dhamana kupata pesa za wanaoweka amana. Walikuwa wamefilisika. Hawakuwa na pesa za kutosha kulingana na utolewa wa wanaoweka amana wao.",
+	"bank_runs_how_content_7": "Kadiri watu wengi zaidi walivyogundua, shida ilizidi kuwa mbaya. Maombi zaidi ya kutoa yalikuja, lakini mengi hayakushughulikiwa. Maelfu ya biashara ziligundua hawataweza kulipa wafanyakazi wao kutokana na benki kushindwa.",
+	"bank_runs_how_content_8": "FDIC iliingilia na kukubaliana kuwalipa wanaoweka amana wote. Shida imetatuliwa? Si kabisa...",
+	"bank_runs_fdic": "JE, BIMA YA FDIC INALINDA PESA YANGU?",
+	"bank_runs_fdic_content_1": "Bima ya FDIC imeundwa kulinda wanaoweka amana wa benki iwapo benki itashindwa. Amana zimebimishwa hadi $250,000 kwa kila mweka amana. Inaonekana vizuri, sivyo?",
+	"bank_runs_fdic_content_2": "Si kabisa. Ikiwa benki itashindwa, FDIC inapata pesa wapi? Wana mfuko wa bima wenye dola bilioni 125.",
+	"bank_runs_fdic_content_3": "Hiyo inaonekana kama pesa nyingi hadi ukilinganisha na kiasi cha amana wanazobima: karibu trilioni 10 au bilioni 10,000 za dola.",
+	"bank_runs_fdic_content_4": "FDIC hata inaonyesha kwenye tovuti yao kuwa wana pesa za kutosha tu katika mfuko wao wa bima kufidia zaidi kidogo ya 1% ya amana.",
+	"bank_runs_fdic_content_5": "Iwapo benki itashindwa na kuzidi mfuko wa bima wa FDIC, inawezekana (lakini si uhakika) kuwa serikali ya Marekani itachapisha pesa kuwalipa wanaoweka amana wote.",
+	"bank_runs_fdic_content_6": "Lakini kuchapisha pesa kunasababisha mfumuko wa bei, kwa hivyo si suluhisho zuri.",
+	"bank_runs_safe": "JE, KUNA BENKI AMBAZO HAZITUMII AKIBA YA SEHEMU?",
+	"bank_runs_safe_content_1": "Benki zingine zimejaribu kuwa 'benki salama' ambazo hazikopesha au kuwekeza fedha za wanaoweka amana.",
+	"bank_runs_safe_content_2": "Ingawa benki hizi salama zingekuwa na hatari ya sifuri ya mikimbilio ya benki, maombi yao yamekataliwa na Benki Kuu ya Marekani. Hii inamaanisha haziwezi kufanya kazi kisheria kama benki.",
+	"bank_runs_safe_content_3": "Kwa sababu zimezuiwa kufanya kazi, hakuna benki za sasa ambazo hazitumii akiba ya sehemu.",
+	"bank_runs_safe_content_4": "Kwa bahati nzuri, kuna njia ya kujiondoa katika mfumo wa akiba ya sehemu kwa kuwa benki yako mwenyewe. Hapana, hatuongei kuhusu kuficha fedha taslimu chini ya godoro lako.",
+	"bank_runs_safe_content_5": "Kuhifadhi kwa fedha taslimu bado iko hatarini kwa mfumuko wa bei.",
+	"bank_runs_safe_content_6": "Tunaongea kuhusu Bitcoin: mfumo mpya wa fedha unaokuruhusu kuwa benki yako mwenyewe.",
+	"bank_runs_protect": "JE, BITCOIN INAWEZA KUNILINDA DHIDI YA MIKIMBILIO YA BENKI?",
+	"bank_runs_protect_content_1": "Ndiyo, Bitcoin ni mfumo kamili wa fedha wa akiba.",
+	"bank_runs_protect_content_2": "Mikimbilio ya benki haiwezekani katika Bitcoin mradi tu uitoe Bitcoin yako kwenye pochi yako mwenyewe. Usiache bitcoin yako kwenye soko la kubadilishana au katika kifungashio kama ETF ya Bitcoin.",
+	"bank_runs_protect_content_3": "Angalia Mwongozo wetu rahisi wa Pochi ya Bitcoin kujifunza jinsi ya kutoa kwenye pochi yako mwenyewe.",
+	"bank_runs_protect_content_4": "Na Bitcoin, hatimaye unaweza kudhibiti pesa yako."
+}

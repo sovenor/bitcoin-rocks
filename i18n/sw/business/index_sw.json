@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin ni nzuri kwa biashara",
+	"biz_header": "BITCOIN NI NZURI KWA BIASHARA",
+	"biz_s1": "Ada ndogo bila kima cha chini",
+	"biz_s1_c1": "Bitcoin inakuwezesha kupokea malipo moja kwa moja kutoka kwa wateja wako, kama vile fedha taslimu. Mtandao wa Bitcoin unafanya kazi bila wasuluhishi kama benki na makampuni ya kadi za mkopo ambayo yanachukua ada kubwa.",
+	"biz_s2": "Malipo ya papo hapo",
+	"biz_s2_c1": "Kama fedha taslimu, malipo ya Bitcoin yanakamilika papo hapo. Huhitaji kusubiri kampuni yako ya kadi ya mkopo au benki ikikulipa. Badala yake, unapata ufikiaji wa pesa yako mara moja.",
+	"biz_s3": "Hakuna malipo ya kurudishwa au udanganyifu",
+	"biz_s3_c1": "Kwa sababu malipo ya Bitcoin yanatokea moja kwa moja kati yako na wateja wako, haiwezekani kwa mtu yeyote kurudisha pesa yako kwa malipo ya kurudishwa.",
+	"biz_s3_c2": "Bitcoin bandia haiwezi kutumwa kwenye Mtandao wa Bitcoin, ikimaanisha huhitaji wasiwasi kuhusu miamala ya udanganyifu ambayo inaweza kugharimu biashara yako pesa.",
+	"biz_s4": "Pata wateja zaidi",
+	"biz_s4_c1": "Mamilioni ya watu wanamiliki Bitcoin na wanataka kutumia Bitcoin yao mahali panapokubali.",
+	"biz_s4_c2": "Kwa kukubali tu Bitcoin, biashara yako inaweza kuorodheshwa kwenye ramani za wafanyabiashara wa Bitcoin na kupata uonekano wa bure kwa wateja wapya wa Bitcoin.",
+	"biz_s4_c3": "Kukubali Bitcoin ni bure 100%. Hakuna mikataba au ada zilizofichwa."
+}

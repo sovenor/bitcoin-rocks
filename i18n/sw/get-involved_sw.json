@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"get_involved_and_help_spread_bitcoin": "Shiriki na usaidie kueneza Bitcoin",
+	"get_involved_description": "Rasilimali zetu za bure zinaifanya iwe rahisi kueneza kupitishwa kwa Bitcoin.",
+	"get_involved_header": "SHIRIKI",
+	"get_involved_header_2": "ENEZA BITCOIN",
+	"get_involved_intro_1": "Inaweza kukatisha tamaa kuishi katika hali ya sasa ya ulimwengu wetu.",
+	"get_involved_intro_2": "Pesa yetu imeharibika. Kwa hivyo, sehemu za msingi za jamii zimeharibika pia.",
+	"get_involved_intro_3": "Ikiwa tayari uko katika Bitcoin, unajua hisia ya matumaini ambayo Bitcoin inaweza kuleta. Matumaini ya mustakabali mzuri unaowezeshwa na pesa bora.",
+	"get_involved_intro_4": "Lakini watu wengi walio karibu nawe hawajui kuhusu Bitcoin. Wanaishi katika ulimwengu huo huo ulioharibika kama wewe, lakini bila mwanga wa matumaini kuwasaidia kupitia giza.",
+	"get_involved_intro_5": "Lakini unaweza kusaidia kubadilisha hilo. Tumetengeneza rasilimali kadhaa za bure kurahisisha kueneza matumaini ambayo Bitcoin inaleta kwa watu wanaokuzunguka.",
+	"get_involved_sticker_header": "Weka kibandiko hadharani",
+	"get_involved_sticker_content_1": "Unaweza kusaidia kuelimisha watu wanaokuzunguka kuhusu Bitcoin bila kulazimika kuwasiliana na mtu yeyote. Weka tu mojawapo ya vibandiko vyetu vya Bitcoin bure hadharani.",
+	"get_involved_sticker_content_2": "Mamia ya watu wanaskanisha misimbo ya QR kwenye vibandiko hivi kila mwezi. Vibandiko vya mfumuko wa bei vinaelekeza kwenye ukurasa kuhusu",
+	"get_involved_sticker_content_3": "Bitcoin kama suluhisho la mfumuko wa bei.",
+	"get_involved_sticker_content_4": "Vibandiko vingine vinaelekeza kwenye ukurasa wetu wa elimu wa nyumbani unaowaonyesha watu jinsi",
+	"get_involved_sticker_content_5": "Bitcoin inavyojenga ulimwengu bora.",
+	"get_involved_sticker_content_6": "Kwa kuweka vibandiko hivi katika jamii yako mahali ambapo watu wataona, unaweza kusaidia watu wanaokuzunguka kuchukua hatua zao za kwanza katika shimo la sungura la Bitcoin.",
+	"get_involved_request_a": "OMBA",
+	"get_involved_sticker_pack": "KIFURUSHI CHA VIBANDIKO",
+	"get_involved_postcard_header": "Tuma kadi ya posta",
+	"get_involved_postcard_content_1": "Unaweza kusaidia kueneza Matumaini ya Bitcoin kwa mtu unayemjua kwa kumtumia mojawapo ya kadi zetu za posta bure.",
+	"get_involved_postcard_content_2": "Nyuma ya kila kadi ya posta kuna maelezo ya kuvutia kuhusu Bitcoin pamoja na msimbo wa QR wa kujifunza zaidi.",
+	"get_involved_postcard_content_3": "Kwa kumtumia mtu kadi ya posta ya Bitcoin, unaweza kumsaidia kuona Bitcoin kwa njia mpya.",
+	"get_involved_postcard_pack": "KIFURUSHI CHA KADI ZA POSTA",
+	"get_involved_business_header": "Ingiza biashara",
+	"get_involved_business_content_1": "Unataka kusaidia kujenga uchumi wa mzunguko wa Bitcoin? Kifurushi chetu cha Biashara ya Bitcoin kinafanya iwe rahisi kumkaribia mfanyabiashara kuhusu kukubali malipo ya Bitcoin.",
+	"get_involved_business_content_2": "Kila kifurushi cha biashara kinajumuisha vipeperushi vinavyoonyesha faida za kukubali malipo ya Bitcoin. Kila kipeperushi kinaelekeza kwa aina mbalimbali za",
+	"get_involved_business_content_3": "rasilimali za bure za biashara ya Bitcoin.",
+	"get_involved_business_kit": "KIFURUSHI CHA BIASHARA"
+}

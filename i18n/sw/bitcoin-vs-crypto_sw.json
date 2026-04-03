@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_vs_crypto": "Bitcoin dhidi ya Crypto",
+	"crypto_header": "TOFAUTI KATI YA",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "NA",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "Sekta ya sarafu za kidijitali imelipuka na tokeni na miradi maelfu ya tofauti.",
+	"crypto_intro_2": "Ingawa Bitcoin ilikuwa ya kwanza na inabaki inayojulikana zaidi, ni tofauti kabisa na tasnia nyingine yote ya crypto.",
+	"crypto_intro_3": "Hebu tuchunguze tofauti kuu kati ya Bitcoin na mfumo mpana wa sarafu za kidijitali.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Mabadiliko na utenganishaji wa mara kwa mara",
+	"crypto_point_2": "Udhibiti uliojikita",
+	"crypto_point_3": "Ugavi usio na kikomo au wenye mfumuko",
+	"crypto_point_4": "Itifaki ngumu",
+	"crypto_point_5": "Makubaliano ya majaribio",
+	"crypto_point_6": "Tokeni za matumizi za kudhaniana",
+	"crypto_point_7": "Zenye mabadiliko na dhaifu",
+	"crypto_point_8": "Msaada wa makampuni",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Itifaki isiyobadilika",
+	"bitcoin_point_2": "Imegatuliwa kweli kweli",
+	"bitcoin_point_3": "Ugavi uliowekwa wa BTC milioni 21",
+	"bitcoin_point_4": "Rahisi na inayopatikana",
+	"bitcoin_point_5": "Uthibitisho wa Kazi uliothibitishwa",
+	"bitcoin_point_6": "Pesa safi za kidijitali",
+	"bitcoin_point_7": "Imestahimili mashambulizi",
+	"bitcoin_point_8": "Hakuna taasisi moja inayodhibiti",
+	"point_1_summary_1": "Itifaki ya Bitcoin imebaki bila kubadilishwa kimsingi tangu 2009, ikitoa sheria zinazotabirika ambazo haziwezi kubadilishwa kwa urahisi. Miradi mingi ya crypto mara kwa mara inasasisha itifaki zao, kubadilisha uchumi wa tokeni, au kutenganisha kuwa toleo mpya, na kuunda kutokuwa na uhakika kwa watumiaji.",
+	"point_2_summary_1": "Bitcoin inafanya kazi kwenye mtandao uliogatuliwa kweli kweli na makumi ya maelfu ya nodi huru duniani kote. Miradi mingi ya crypto inadhibitiwa na mashirika, makampuni, au vikundi vidogo vya watengenezaji ambao wanaweza kufanya maamuzi ya upande mmoja kuhusu mustakabali wa itifaki.",
+	"point_3_summary_1": "Bitcoin ina kikomo cha juu cha sarafu milioni 21 ambazo zitawepo, na kuifanya kuwa mali adimu zaidi ya kidijitali. Miradi mingi ya crypto ina ugavi usio na kikomo, taratibu za mfumuko, au inaweza kutengeneza tokeni mpya kwa hiari, ikipunguza thamani ya wenye tokeni kwa muda.",
+	"point_4_summary_1": "Bitcoin ina madhumuni moja rahisi: pesa za kidijitali za rika kwa rika. Mtu yeyote anaweza kuelewa na kuitumia kwa ujuzi wa msingi. Miradi mingi ya crypto inahusisha mikataba ngumu ya smart, itifaki za DeFi, au taratibu za utawala ambazo zinahitaji ujuzi wa kitaalamu kutumia kwa usalama.",
+	"point_5_summary_1": "Bitcoin inatumia makubaliano ya Uthibitisho wa Kazi, ambayo yamejaribiwa vitani kwa zaidi ya miaka 15 bila shambulio moja lililofanikiwa kwenye mtandao mkuu. Miradi mingi ya crypto inatumia taratibu za makubaliano za majaribio kama Uthibitisho wa Hisa au mifumo ya uwakilishi ambayo haijathibitisha usalama wao wa muda mrefu.",
+	"point_6_summary_1": "Bitcoin inatumika kama pesa za kidijitali - hifadhi ya thamani na njia ya kubadilishana. Tokeni nyingi za crypto ni tokeni za matumizi kwa majukwaa maalum, tokeni za utawala, au mali za kudhaniana zenye mapendekezo yasiyo wazi ya thamani halisi.",
+	"point_7_summary_1": "Bitcoin inakuwa na nguvu zaidi chini ya mashambulizi na imenusurika kila mgogoro, marufuku, na ukosoaji ulioshushwa juu yake. Miradi mingi ya crypto ni dhaifu na inaweza kuanguka kutokana na shinikizo la udhibiti, kushindwa kwa kiufundi, au kushuka kwa soko.",
+	"point_8_summary_1": "Bitcoin haina CEO, hakuna kampuni nyuma yake, na hakuna sehemu moja ya kushindikana. Miradi mingi ya crypto inasaidiwa na makampuni ya mtaji wa hatari, ina timu za uongozi zinazotambuliwa, au inategemea makampuni maalum kwa operesheni yao kuendelea."
+}

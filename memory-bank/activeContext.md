@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Vietnamese Language Added — April 2026
+## Latest: Swahili Language Added — April 2026
+- Added Swahili (`sw`, Kiswahili) as the 22nd language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/swahili/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 22 languages
+- Ran SEO content injection successfully
+
+## Vietnamese Language Added — April 2026
 - Added Vietnamese (`vi`, Tiếng Việt) as the 20th language on bitcoin.rocks
 - Created all 90 translation files via 8 scripts in `scripts/vietnamese/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

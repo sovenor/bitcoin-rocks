@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_lightning_wallet_guide": "Mwongozo wa Pochi ya Lightning ya Bitcoin",
+	"lightning_description": "Pochi za Lightning zinakuwezesha kutuma Bitcoin haraka na kwa bei nafuu huku ukidumisha uhuru wako wa kibinafsi.",
+	"lightning_header": "MWONGOZO WA POCHI YA LIGHTNING",
+	"lightning_s1_c1": "Lightning inakuwezesha kutuma malipo ya Bitcoin haraka na kwa bei nafuu.",
+	"lightning_s1_c2": "Ni muhimu kujua kwamba kutumia Lightning kuna maelewano. Kwa kubadilishana na malipo ya haraka, ya bei nafuu ya Bitcoin, mara nyingi unaachia usalama fulani.",
+	"lightning_s1_c3": "Kwa ujumla, Lightning inapaswa kutumika na kiasi kidogo cha bitcoin pekee. Unapaswa kuhifadhi kiasi kikubwa cha bitcoin kwenye pochi ya vifaa tu.",
+	"lightning_s1_c4": "Angalia Mwongozo wetu wa Pochi ya Vifaa kwa maelezo zaidi.",
+	"lightning_s1_c5": "Pochi zote za Lightning si sawa. Unaweza kuamua pochi gani ina maelewano sahihi kwako kwa kuuliza swali moja rahisi:",
+	"lightning_question_1": "USAWA GANI WA MAELEWANO NI SAHIHI KWANGU?",
+	"lightning_s2_c1": "Mojawapo ya uvumbuzi wa Bitcoin ni uwezo wa kuihifadhi bila kutegemea mhifadhiaji, kama benki. Pochi za uhifadhi wa kibinafsi zinafungua nguvu kamili ya Bitcoin.",
+	"lightning_s2_c2": "Na pochi ya uhifadhi wa kibinafsi, wewe ndiye pekee mwenye uwezo wa kutumia au kuhamisha pesa yako. Hakuna anayeweza kukuzuia, kukudhibiti, au kukuibia unapotumia pochi ya uhifadhi wa kibinafsi. Hizi pia huitwa pochi zisizo za mhifadhiaji.",
+	"lightning_s2_c3": "Njia ya uhuru zaidi ya kutumia Lightning ni kuendesha nodi yako mwenyewe.",
+	"lightning_s2_c4": "Mwongozo huu unalenga pochi rahisi za Lightning ambazo hazihitaji nodi yako mwenyewe.",
+	"lightning_s2_c5": "Ni muhimu kujua kwamba hata ukitumia pochi ya Lightning isiyo ya mhifadhiaji, bado unaaminisha mtengenezaji wa pochi asitume sasisho la programu la uovu na kuiba fedha zako.",
+	"lightning_s3_c1": "Pochi za mhifadhiaji ni pochi ambapo wewe haudhibiti pesa yako.",
+	"lightning_s3_c2": "Pochi hizi zinafanana zaidi na mfumo wa benki ambapo lazima uamini mhusika wa tatu kukupa ufikiaji wa pesa yako. Ikiwa Bitcoin yako ipo kwenye soko la kubadilishana, unatumia pochi ya mhifadhiaji.",
+	"lightning_s3_c3": "Pochi za mhifadhiaji zinaweza kuonekana rahisi, lakini mhifadhiaji ana uwezo wa kiufundi wa kuiba fedha zote za watumiaji wakati wowote.",
+	"lightning_s3_c4": "Watu wengine wanapendelea pochi za Lightning za mhifadhiaji kwa kiasi kidogo cha bitcoin kwa sababu ya urahisi wao wa kutumia. Kumbuka tu: si funguo zako, si sarafu zako!",
+	"lightning_question_2": "CHAGUA POCHI YAKO",
+	"lightning_s4_c1": "Ukizingatia haya yote, sasa unaweza kuchagua pochi ya Lightning yenye usawa sahihi wa maelewano kwako.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Vipengele vingi",
+	"lightning_mobile_app": "Programu ya simu",
+	"lightning_free": "Bure 100%",
+	"lightning_merchants": "Nzuri kwa wafanyabiashara",
+	"lightning_starter": "Pochi nzuri ya kuanzia",
+	"lightning_browser": "Inategemea kivinjari",
+	"lightning_custodial": "Pochi kamili ya mhifadhiaji",
+	"lightning_cta_hardware": "Unatafuta Mwongozo wetu wa Pochi ya Vifaa ya Bitcoin?"
+}

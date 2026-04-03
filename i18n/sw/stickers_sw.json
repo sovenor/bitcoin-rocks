@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"free_bitcoin_stickers": "Vibandiko vya Bitcoin bure kutoka bitcoin.rocks",
+	"stickers_description": "Weka kibandiko cha bitcoin hadharani kueneza ufahamu wa Bitcoin kwa watu wanaokuzunguka.",
+	"stickers_header": "VIBANDIKO VYA BITCOIN BURE",
+	"stickers_choose_header": "CHAGUA KIFURUSHI CHAKO CHA VIBANDIKO",
+	"stickers_choose_c1": "Dhamira yetu ni kukusaidia kueneza Bitcoin zaidi kwa kuweka vibandiko vya Bitcoin hadharani. Vibandiko vyetu vyote vina misimbo ya QR inayounganisha na kurasa za elimu kuhusu",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "mfumuko wa bei",
+	"stickers_choose_c4": "Chagua kifurushi chako cha vibandiko hapa chini",
+	"stickers_text_pack": "KIFURUSHI CHA MAANDISHI",
+	"stickers_signs_pack": "KIFURUSHI CHA ALAMA",
+	"stickers_instructions_1": "Ingiza anwani yako ya posta na tutakutumia Kifurushi cha Vibandiko vya Bitcoin bure kwa barua! Vibandiko vyako vitatumwa katika bahasha nyeupe.",
+	"stickers_instructions_2": "Data ya anwani inafutwa baada ya vibandiko vyako vya bure kutumwa.",
+	"stickers_share_header": "SHIRIKI MAHALI PA VIBANDIKO VYAKO",
+	"stickers_share_c1": "Shiriki mahali pa vibandiko vyako nasi kwenye Nostr na uone wapi watu wengine wanaweka vibandiko vyao.",
+	"stickers_btn_share_on_nostr": "SHIRIKI KWENYE NOSTR",
+	"stickers_btn_what_is_nostr": "NOSTR NI NINI?",
+	"stickers_flyers_link_before": "Huku ukifanya hivyo, chapisha na bandika ",
+	"stickers_flyers_link_text": "vipeperushi vya Bitcoin",
+	"stickers_flyers_link_after": " vyako kusaidia kueneza Bitcoin zaidi.",
+	"stickers_country_global_print": "Duniani kote - Chapisha vibandiko vyangu mwenyewe",
+	"stickers_country_global_order": "Duniani kote - Agiza kwa wingi",
+	"placeholder_name_optional": "Jina (si lazima)",
+	"placeholder_address_line_1": "Anwani Mstari wa 1",
+	"placeholder_address_line_2": "Anwani Mstari wa 2 (si lazima)",
+	"placeholder_city": "Jiji",
+	"placeholder_state": "Jimbo",
+	"placeholder_province": "Mkoa",
+	"placeholder_zip_code": "Msimbo wa Posta",
+	"placeholder_postal_code": "Msimbo wa Posta",
+	"placeholder_language": "Lugha",
+	"placeholder_which_stickers": "Vibandiko vipi?",
+	"placeholder_email_optional": "Ingiza barua pepe yako ili ujulishwe (si lazima)"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_business_kit": "Kifurushi cha Biashara ya Bitcoin",
+	"kit_header": "CHAPISHA KIFURUSHI CHAKO CHA BIASHARA YA BITCOIN",
+	"kit_request": "OMBA KIFURUSHI CHAKO CHA BURE",
+	"kit_request_details": "Kila Kifurushi cha Biashara ya Bitcoin kinajumuisha vijitabu viwili kurahisisha kupata biashara ya ndani kukubali Bitcoin.",
+	"kit_country_global_print": "Duniani kote - Chapisha vifurushi vyangu mwenyewe",
+	"kit_enter_address": "Ingiza anwani yako ya posta na tutakutumia Kifurushi cha Biashara ya Bitcoin bure katika bahasha nyeupe. Data ya anwani inafutwa mara tu kifurushi chako kinapotumwa.",
+	"kit_print_details": "Unaweza kushiriki kwa kuchapisha vijitabu vyako mwenyewe, popote unapoishi! Unaweza pia kutuma biashara kwa kifurushi chetu cha biashara cha kidijitali kuepuka kuchapisha chochote.",
+	"kit_view_files": "ANGALIA FAILI",
+	"kit_digital_kit": "KIFURUSHI CHA KIDIJITALI",
+	"kit_resources": "KILA KIFURUSHI KINAELEKEZA KWENYE RASILIMALI HIZI ZA BURE"
+}

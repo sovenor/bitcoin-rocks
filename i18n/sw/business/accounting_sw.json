@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_business_accounting_guide": "Mwongozo wa Uhasibu wa Biashara ya Bitcoin",
+	"accounting_description": "Jifunze jinsi ya kufanya uhasibu sahihi wa malipo ya Bitcoin katika uhasibu wa biashara yako.",
+	"accounting_header": "MWONGOZO WA UHASIBU WA BITCOIN",
+	"accounting_s1_c1": "Kukubali Bitcoin kuna faida nyingi kama kukubali malipo kwa ada ndogo na kupata wateja zaidi.",
+	"accounting_s1_c2": "Ukitumia Pochi ya Mseto kutoka Mwongozo wetu wa Pochi na kuuza moja kwa moja 100% ya Bitcoin unayopokea kwa dola, huhitaji kufanya mabadiliko yoyote katika uhasibu wako wa sasa.",
+	"accounting_s1_c3": "Angalia Mwongozo wa Pochi.",
+	"accounting_s1_c4": "Hata hivyo, ukishikilia baadhi ya malipo ya Bitcoin unayopokea kama Bitcoin, utahitaji kufuatilia maelezo machache kwa uhasibu wako. Hii inaweza kuonekana kuogopesha mwanzoni, lakini ni rahisi kabisa.",
+	"accounting_s1_c5": "Tafadhali kumbuka: mwongozo huu ni kwa madhumuni ya habari pekee na haupaswa kuchukuliwa kama ushauri wa kodi.",
+	"accounting_s1_c6": "Ukihitaji ushauri wa kodi, tunapendekeza sana Satoshi Pacioli Accounting Services, kampuni ya uhasibu inayobobea katika uhasibu wa Bitcoin.",
+	"accounting_s2": "KUFUATILIA MSINGI WAKO WA GHARAMA",
+	"accounting_s2_c1": "Kufuatilia msingi wako wa gharama itakuwa tofauti kubwa zaidi kati ya uhasibu wa dola na uhasibu wa Bitcoin. Hata ukiona biashara yako kabisa kwa Bitcoin, unahitaji kuripoti thamani ya dola ya kila muamala kwenye kodi zako.",
+	"accounting_s2_c2": "Ukitumia QuickBooks, unaweza kufanya hivi kiotomatiki ukitumia programu-jalizi ya Bitcoin Sync.",
+	"accounting_s2_c3": "Usipotumia QuickBooks, tunapendekeza Satoshi Pacioli Accounting Services, kampuni ya uhasibu inayobobea katika uhasibu wa Bitcoin.",
+	"accounting_s2_c4": "Kufanya hivi kwa mikono, unahitaji tu kufuatilia kiasi cha Bitcoin ulichopokea na thamani ya dola ya muamala wa Bitcoin siku hiyo.",
+	"accounting_s2_c5": "Unaweza kuona bei ya sasa ya dola ya Bitcoin hapa.",
+	"accounting_s2_c6": "Fuatilia taarifa hizi katika karatasi ya Excel na umpe mhasibu wako.",
+	"accounting_s2_c7": "Unaweza pia kuingiza data hii katika Excel kiotomatiki.",
+	"accounting_s2_c8": "Unaweza pia kuona bei ya kihistoria ya dola ya Bitcoin siku zilizopita, kwa hivyo huhitaji kufanya hivi kila siku.",
+	"accounting_s3": "KUTUMIA AU KUUZA BITCOIN YAKO",
+	"accounting_s3_c1": "Ukitumia Pochi ya Mseto kutoka Mwongozo wetu wa Pochi na kuuza moja kwa moja 100% ya Bitcoin unayopokea kwa dola, huhitaji kufanya mabadiliko yoyote katika uhasibu wako wa sasa.",
+	"accounting_s3_c2": "Angalia Mwongozo wa Pochi.",
+	"accounting_s3_c3": "Ukichagua kutumia au kuuza baadhi ya Bitcoin unayopokea baada ya kushikilia kwa muda, unahitaji tu kuongeza bei uliyouza kwenye karatasi yako ya Excel inayofuatilia msingi wako wa gharama.",
+	"accounting_s3_c4": "Kwa mfano, ukipokea Bitcoin yenye thamani ya $100 tarehe 1 Januari na kuamua kuuza au kutumia tarehe 1 Februari kwa thamani mpya ya $110, utahitaji kurekodi faida ya mtaji ya $10 katika uhasibu wako.",
+	"accounting_s3_c5": "Hii inaweza pia kufanya kazi kinyume chake. Kwa mfano, ukipokea Bitcoin yenye thamani ya $100 tarehe 1 Januari na kuamua kuuza au kutumia tarehe 1 Februari kwa thamani mpya ya $90, utahitaji kurekodi hasara ya mtaji ya $10 katika uhasibu wako.",
+	"accounting_s4": "NAHITAJI MSAADA ZAIDI",
+	"accounting_s4_c1": "Ukihitaji msaada zaidi wa kuunganisha Bitcoin katika uhasibu wako wa biashara, tunapendekeza sana Satoshi Pacioli Accounting Services, kampuni ya uhasibu inayobobea katika uhasibu wa Bitcoin.",
+	"accounting_s4_c2": "Jifunze zaidi kuhusu Satoshi Pacioli Accounting Services."
+}

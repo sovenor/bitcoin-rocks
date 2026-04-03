@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"sign_success_1": "Utapokea bango lako ndani ya wiki 1 hadi 2. Wakati huo, fikiria kuhusu mahali pazuri pa kuweka bango!",
+	"sign_success_3": "Unataka kuona watu wengine wanaweka mabango wapi?",
+	"signs_share_header": "SHIRIKI MAHALI PA BANGO LAKO",
+	"signs_share_c1": "Shiriki picha ya mahali pa bango lako nasi kwenye Nostr na tutakutumia sats! Sats ni sehemu ndogo za bitcoin.",
+	"signs_btn_share_on_nostr": "SHIRIKI KWENYE NOSTR",
+	"signs_btn_what_is_nostr": "NOSTR NI NINI?"
+}

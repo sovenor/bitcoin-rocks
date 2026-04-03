@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "sw"
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Ramani za Wafanyabiashara wa Bitcoin - Orodhesha biashara yako bure",
+	"maps_header": "ORODHESHWA KWENYE RAMANI ZA WAFANYABIASHARA WA BITCOIN NA UPATE WATEJA ZAIDI",
+	"maps_request_details": "Ingiza taarifa za biashara yako hapa chini na tutakuorodhesha kwenye ramani za wafanyabiashara wa Bitcoin bure. Hii itawezesha Wamiliki wa Bitcoin kupata biashara yako na kutumia Bitcoin yao katika biashara yako!",
+	"maps_view": "Angalia ramani hapa."
+}
