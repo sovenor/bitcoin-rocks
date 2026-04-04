@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Alamin kung bakit maganda ang Bitcoin para sa negosyo",
+	"why_header": "MAGANDA ANG BITCOIN PARA SA NEGOSYO",
+	"why_good_for_you": "MAGANDA DIN ANG BITCOIN PARA SA IYO!",
+	"why_learn_more_lowercase": "Matuto pa.",
+	"why_s1": "Walang inflation ang Bitcoin",
+	"why_s1_c1": "Nangyayari ang inflation kapag mas maraming pera ang na-print o nalikha mula sa wala. Ginagawa nito na mas mababa ang halaga ng iyong pera sa paglipas ng panahon.",
+	"why_s1_c2": "Ang Bitcoin ay may nakapirming supply, na nangangahulugang walang maaaring mag-print ng higit pang Bitcoin.",
+	"why_s2": "Walang bank run ang Bitcoin",
+	"why_s2_c1": "Maraming bangko sa US ang bumagsak sa nakaraang ilang taon dahil sa mga bank run.",
+	"why_s2_c2": "Sa halip na basta hawakan ang iyong pera para sa iyo, ini-invest at ipinapahiram ng mga bangko ang iyong pera. Kung hindi maganda ang resulta ng mga investment na iyon, wala silang sapat na pambayad sa iyo.",
+	"why_s2_c3": "At ang FDIC insurance fund ay mayroon lamang $1 para sa bawat $100 na kanilang insured.",
+	"why_s3": "Ang Bitcoin ay walang kailangan na pahintulot",
+	"why_s3_c1": "Hindi tulad ng mga tradisyunal na financial network, ang Bitcoin ay hindi nangangailangan ng pahintulot upang magamit.",
+	"why_s3_c2": "Nangangahulugan iyan na walang maaaring pumigil sa iyo mula sa paggamit ng Bitcoin sa anumang dahilan. Ito ang unang financial network na maaari mong gamitin nang walang takot sa censorship o seizure.",
+	"why_s4": "Ang Bitcoin ay bumubuo ng mas magandang mundo",
+	"why_s4_c1": "Ang Bitcoin ay isang hindi maunawaan na teknolohiya na bumubuo ng mas magandang mundo.",
+	"why_s4_c2": "Ang Bitcoin ay nakapagbigay-kakayahan sa mga aktibista ng karapatang pantao na lumaban para sa kalayaan, nabawasan ang global methane emissions, naililigtas ang mga national park, at marami pang iba."
+}

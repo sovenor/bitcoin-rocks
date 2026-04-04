@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"sign_success_1": "Ang iyong mga karatula ay darating sa loob ng 1-2 linggo. Habang naghihintay, isipin kung saan magandang lugar para ilagay ang mga ito!",
+	"sign_success_3": "Gusto mong makita kung saan inilalagay ng iba ang kanilang mga karatula?",
+	"signs_share_header": "Ibahagi ang lokasyon ng iyong karatula",
+	"signs_share_c1": "Ibahagi ang litrato ng lokasyon ng iyong karatula sa Nostr at kami ay mag-zap ng sats sa iyo! Ang sats ay mga bahagi ng Bitcoin.",
+	"signs_btn_share_on_nostr": "IBAHAGI SA NOSTR",
+	"signs_btn_what_is_nostr": "ANO ANG NOSTR?"
+}

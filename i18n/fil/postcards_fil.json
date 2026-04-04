@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"free_bitcoin_postcards": "Libreng Bitcoin Postcard mula sa bitcoin.rocks",
+	"postcards_description": "Kumuha ng libreng Bitcoin Postcard Pack at ibahagi ang Bitcoin sa isang taong kilala mo.",
+	"postcards_header": "SARADO NA ANG POSTCARD PROGRAM",
+	"postcards_program_closed_message": "Natapos na ang aming libreng Bitcoin postcard program. Salamat sa lahat ng lumahok sa pagpapakalat ng edukasyon sa Bitcoin sa pamamagitan ng koreo!",
+	"postcards_sticker_alternative_header": "KUMUHA NG LIBRENG BITCOIN STICKER SA HALIP",
+	"postcards_sticker_alternative_message": "Patuloy na magpakalat ng kamalayan sa Bitcoin gamit ang aming libreng sticker program! Ang aming mga Bitcoin sticker ay perpekto para sa pagbabahagi sa mga pampublikong lugar at may mga QR code na naglilink sa edukasyonal na nilalaman.",
+	"postcards_sticker_cta": "KUMUHA NG LIBRENG STICKER",
+	"postcards_step_2": "ANO ANG HITSURA NG MGA POSTCARD",
+	"postcards_instructions_4": "Ginawa namin ang mga postcard na ito upang gawing mas madali para sa iyo na ipakilala ang isang taong kilala mo sa Bitcoin! Ilagay lang ang isang address at selyo at ihulog ang iyong postcard sa koreo.",
+	"postcards_instructions_5": "Ang aming misyon ay pabilisin ang pagtanggap ng Bitcoin. Maaari kang tumulong sa pamamagitan ng pagkuha ng libreng sticker at paglalagay ng mga ito sa mga pampublikong lugar!",
+	"postcards_instructions_6": "Lahat tayo ay may kilalang ilang tao na makikinabang sa pag-aaral ng higit pa tungkol sa Bitcoin. Ibahagi ang mga Bitcoin sticker sa kanila ngayon!"
+}

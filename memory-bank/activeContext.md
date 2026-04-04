@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Malay Language Added — April 2026
+## Latest: Filipino Language Added — April 2026
+- Added Filipino (`fil`) as the 24th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/filipino/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 24 languages
+- Ran SEO content injection successfully
+
+## Malay Language Added — April 2026
 - Added Malay (`ms`, Bahasa Melayu) as the 23rd language on bitcoin.rocks
 - Created all 90+ translation files via 8 scripts in `scripts/malay/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

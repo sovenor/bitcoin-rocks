@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"signs_description": "Tulungan kaming ilagay ang mga Bitcoin Sign na ito sa buong America!",
+	"signs_title": "Libreng Bitcoin Sign mula sa bitcoin.rocks",
+	"signs_choose_header": "SALAMAT SA PAGTULONG NA ILAGAY ANG MGA BITCOIN SIGN NA ITO SA BUONG AMERICA!",
+	"signs_choose_c1": "Ganap na naubos na ang aming mga sign! Ang aming misyon ay pabilisin ang pagtanggap ng Bitcoin sa pamamagitan ng edukasyon.",
+	"signs_choose_c2": "Marami sa inyo ang tumulong sa pamamagitan ng paglalagay ng mga libreng Bitcoin sign na ito sa publiko. Lahat ng aming mga sign ay may mga QR code na naglilink sa isang pahinang pang-edukasyon tungkol sa",
+	"signs_choose_c3": "inflation",
+	"signs_choose_c4": "Salamat sa aming kamangha-manghang komunidad, naabot namin ang libu-libong tao at natulungan sila na magsimula sa kanilang pagbaba sa Bitcoin rabbit hole.",
+	"signs_share_header": "IBAHAGI ANG IYONG MGA SIGN SPOT",
+	"signs_share_c1": "Ibahagi ang litrato ng iyong sign spot sa amin sa Nostr at tingnan kung saan naglalagay ang ibang tao ng kanilang mga sign.",
+	"signs_btn_share_on_nostr": "IBAHAGI SA NOSTR",
+	"signs_btn_what_is_nostr": "ANO ANG NOSTR?",
+	"signs_instructions_1": "Ilagay ang iyong mailing address at ipapadala namin sa iyo ang isang kahon ng 10 Bitcoin sign sa koreo!",
+	"signs_instructions_2": "Ang data ng address ay binubura pagkatapos maipadala ang iyong mga libreng sign."
+}

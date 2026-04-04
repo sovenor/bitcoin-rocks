@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"crypto_header": "ANG PAGKAKAIBA NG",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "AT",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "Ang cryptocurrency space ay sumabog na may libu-libong magkakaibang digital token at proyekto.",
+	"crypto_intro_2": "Habang ang Bitcoin ang una at nananatiling pinakakilala na cryptocurrency, ito ay pundamental na naiiba sa natitirang bahagi ng crypto industry.",
+	"crypto_intro_3": "I-explore natin ang mga pangunahing pagkakaiba sa pagitan ng Bitcoin at ng mas malawak na cryptocurrency ecosystem.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Madalas na pagbabago at fork",
+	"crypto_point_2": "Sentralisadong kontrol",
+	"crypto_point_3": "Walang limitasyon o inflationary supply",
+	"crypto_point_4": "Kumplikadong protocol",
+	"crypto_point_5": "Eksperimental na consensus",
+	"crypto_point_6": "Mga speculative utility token",
+	"crypto_point_7": "Volatile at marupok",
+	"crypto_point_8": "Corporate backing",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Immutable na protocol",
+	"bitcoin_point_2": "Tunay na desentralisado",
+	"bitcoin_point_3": "Nakapirming supply na 21M BTC",
+	"bitcoin_point_4": "Simple at accessible",
+	"bitcoin_point_5": "Napatunayan na Proof of Work",
+	"bitcoin_point_6": "Purong digital na pera",
+	"bitcoin_point_7": "Antifragile",
+	"bitcoin_point_8": "Walang iisang entity na kumokontrol dito",
+	"point_1_summary_1": "Ang protocol ng Bitcoin ay nananatiling pundamental na hindi nagbago mula 2009, na nagbibigay ng predictable na mga patakaran na hindi madaling mabago. Karamihan sa mga crypto project ay madalas na ina-update ang kanilang mga protocol, binabago ang tokenomics, o nagfo-fork sa mga bagong bersyon, na lumilikha ng kawalan ng katiyakan para sa mga user.",
+	"point_2_summary_1": "Ang Bitcoin ay gumagana sa isang tunay na desentralisadong network na may sampu-sampung libong independiyenteng node sa buong mundo. Maraming crypto project ang kontrolado ng mga foundation, kumpanya, o maliliit na grupo ng mga developer na maaaring gumawa ng unilateral na desisyon tungkol sa hinaharap ng protocol.",
+	"point_3_summary_1": "Ang Bitcoin ay may hard cap na 21 milyong barya na kailanman ay iiral, na ginagawa itong pinakascarce na digital asset. Karamihan sa mga crypto project ay may walang limitasyong supply, inflationary mechanism, o maaaring mag-mint ng mga bagong token anumang oras, na nagba-bawal ng halaga ng holder sa paglipas ng panahon.",
+	"point_4_summary_1": "Ang Bitcoin ay may isang simpleng layunin: peer-to-peer na digital na pera. Mauunawaan at magagamit ito ng sinuman sa pamamagitan ng pangunahing kaalaman. Maraming crypto project ang may kumplikadong smart contract, DeFi protocol, o mekanismo ng pamamahala na nangangailangan ng teknikal na kaalaman upang ligtas na magamit.",
+	"point_5_summary_1": "Gumagamit ang Bitcoin ng Proof of Work consensus, na nasubok na sa labanan sa loob ng higit 15 taon nang walang iisang matagumpay na pag-atake sa pangunahing network. Maraming crypto project ang gumagamit ng eksperimental na mekanismo ng consensus tulad ng Proof of Stake o delegated system na hindi pa napatunayan ang kanilang pangmatagalang seguridad.",
+	"point_6_summary_1": "Ang Bitcoin ay nagsisilbi bilang digital na pera - isang store of value at medium of exchange. Karamihan sa mga crypto token ay mga utility token para sa mga partikular na platform, governance token, o speculative asset na may hindi malinaw na real-world na halaga.",
+	"point_7_summary_1": "Ang Bitcoin ay nagiging mas malakas sa ilalim ng pag-atake at nakaligtas sa bawat krisis, pagbabawal, at kritisismo na ibinato dito. Karamihan sa mga crypto project ay marupok at maaaring bumagsak dahil sa regulatory pressure, teknikal na pagkabigo, o pagbagsak ng market.",
+	"point_8_summary_1": "Ang Bitcoin ay walang CEO, walang kumpanya sa likod nito, at walang single point of failure. Maraming crypto project ang sinusuportahan ng mga venture capital firm, may nakikilalang leadership team, o nakadepende sa mga partikular na kumpanya para sa kanilang patuloy na operasyon."
+}

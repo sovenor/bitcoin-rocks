@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"bitcoin_lightning_wallet_guide": "Gabay sa Bitcoin Lightning Wallet",
+	"lightning_description": "Ang mga Lightning wallet ay nagpapahintulot sa iyo na magpadala ng Bitcoin nang mabilis at mura habang pinapanatili ang iyong personal na soberanya.",
+	"lightning_header": "GABAY SA LIGHTNING WALLET",
+	"lightning_s1_c1": "Pinapahintulutan ka ng Lightning na magpadala ng mga bayad sa Bitcoin nang mabilis at mura.",
+	"lightning_s1_c2": "Mahalagang malaman na ang paggamit ng lightning ay may mga trade-off. Kapalit ng mas mabilis at mas murang mga bayad sa Bitcoin, madalas mong isinasakripisyo ang ilang seguridad.",
+	"lightning_s1_c3": "Sa pangkalahatan, ang Lightning ay dapat lamang gamitin sa maliliit na halaga ng bitcoin. Dapat ka lamang mag-imbak ng malalaking halaga ng bitcoin sa isang hardware wallet.",
+	"lightning_s1_c4": "Tingnan ang aming Gabay sa Hardware Wallet para sa higit pang impormasyon.",
+	"lightning_s1_c5": "Hindi lahat ng Lightning wallet ay pareho. Maaari mong matukoy kung aling wallet ang may tamang set ng trade-off para sa iyo sa pamamagitan ng pagtatanong ng isang simpleng tanong:",
+	"lightning_question_1": "ANONG BALANSE NG TRADE-OFF ANG TAMA PARA SA AKIN?",
+	"lightning_s2_c1": "Isa sa mga inobasyon ng Bitcoin ay ang kakayahang iimbak ito nang hindi umaasa sa isang custodian, tulad ng bangko. Ang mga self-custody wallet ay nag-a-unlock ng buong kapangyarihan ng Bitcoin.",
+	"lightning_s2_c2": "Sa isang self-custody wallet, ikaw lamang ang may kakayahang gumastos o maglipat ng iyong pera. Walang maaaring pumigil sa iyo, mag-censor sa iyo, o magnakaw mula sa iyo kapag gumagamit ka ng self-custody wallet. Ang mga ito ay tinatawag din na non-custodial wallet.",
+	"lightning_s2_c3": "Ang pinaka-sovereign na paraan upang gamitin ang Lightning ay sa pamamagitan ng pagpapatakbo ng iyong sariling node.",
+	"lightning_s2_c4": "Ang gabay na ito ay nakatuon sa mga simpleng Lightning wallet na hindi nangangailangan ng sarili mong node.",
+	"lightning_s2_c5": "Mahalagang malaman na kahit gamit ang non-custodial na Lightning wallet, nagtitiwala ka pa rin sa tagalikha ng wallet na hindi mag-push ng malisyosong app update at nakawin ang iyong pondo.",
+	"lightning_s3_c1": "Ang mga custodial wallet ay mga wallet kung saan hindi ka ang may kontrol ng iyong pera.",
+	"lightning_s3_c2": "Ang mga wallet na ito ay mas katulad ng sistema ng pagbabangko kung saan kailangan mong magtiwala sa isang third party upang bigyan ka ng access sa iyong pera. Kung ang iyong Bitcoin ay nasa isang exchange, gumagamit ka ng custodial wallet.",
+	"lightning_s3_c3": "Ang mga custodial wallet ay maaaring mukhang maginhawa, ngunit ang custodian ay may teknikal na kakayahang nakawin ang lahat ng pondo ng user anumang oras.",
+	"lightning_s3_c4": "Ang ilang tao ay mas gusto ang mga custodial Lightning wallet para sa maliliit na halaga ng bitcoin dahil sa kanilang kadalian ng paggamit. Tandaan lang: hindi mo ang susi, hindi mo ang barya!",
+	"lightning_question_2": "PILIIN ANG IYONG WALLET",
+	"lightning_s4_c1": "Sa lahat ng ito sa isip, maaari ka na ngayong pumili ng lightning wallet na may tamang balanse ng trade-off para sa iyo.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Maraming feature",
+	"lightning_mobile_app": "Mobile app",
+	"lightning_free": "100% libre",
+	"lightning_merchants": "Mahusay para sa mga merchant",
+	"lightning_starter": "Mahusay na panimulang wallet",
+	"lightning_browser": "Base sa browser",
+	"lightning_custodial": "Ganap na custodial wallet",
+	"lightning_cta_hardware": "Naghahanap ng aming Gabay sa Bitcoin Hardware Wallet?"
+}

@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Filipino (fil) Language Added — April 2026
+- Added Filipino as the 24th language
+- Created all 90+ translation files in `i18n/fil/` mirroring the English directory structure
+- Translation scripts in `scripts/filipino/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (23→24)
+- Ran SEO content injection
+
 ## Malay (ms) Language Added — April 2026
 - Added Malay (Bahasa Melayu) as the 23rd language
 - Created all 90+ translation files in `i18n/ms/` mirroring the English directory structure

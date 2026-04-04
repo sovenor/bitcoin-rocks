@@ -7,7 +7,7 @@
 - **Founded**: 2022
 - **License**: MIT (open-source)
 - **Focus**: Bitcoin education for beginners — assumes zero prior knowledge
-- **Languages**: Available in 23 languages (Afrikaans, Chichewa, Chinese, Czech, English, German, Spanish, French, Hindi, Italian, Japanese, Malay, Polish, Swahili, Swedish, Tamil, Vietnamese, Zulu, Portuguese, Dutch, Bulgarian, Indonesian, Thai)
+- **Languages**: Available in 24 languages (Afrikaans, Chichewa, Chinese, Czech, English, Filipino, German, Spanish, French, Hindi, Italian, Japanese, Malay, Polish, Swahili, Swedish, Tamil, Vietnamese, Zulu, Portuguese, Dutch, Bulgarian, Indonesian, Thai)
 - **Contact**: hi@bitcoin.rocks
 - **GitHub**: https://github.com/sovenor/bitcoin-rocks
 - **Nostr**: npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"bitcoin_business_kit": "Bitcoin Business Kit",
+	"kit_header": "I-PRINT ANG SARILI MONG BITCOIN BUSINESS KIT",
+	"kit_request": "HUMILING NG IYONG LIBRENG KIT",
+	"kit_request_details": "Bawat Bitcoin Business Kit ay may kasamang dalawang brochure upang maging madali ang paghikayat sa isang lokal na negosyo na tumanggap ng Bitcoin.",
+	"kit_country_global_print": "Global — Mag-print ng sarili kong mga kit",
+	"kit_enter_address": "Ilagay ang iyong mailing address at ipapadala namin sa iyo ang isang libreng Bitcoin Business Kit sa isang plain na puting sobre. Ang data ng address ay binubura pagkatapos maipadala ang iyong kit.",
+	"kit_print_details": "Maaari kang lumahok sa pamamagitan ng pag-print ng sarili mong mga brochure, kahit saan ka man nakatira! Maaari mo ring ipadala ang mga negosyo sa aming digital business kit upang maiwasan ang pag-print ng kahit ano.",
+	"kit_view_files": "TINGNAN ANG MGA FILE",
+	"kit_digital_kit": "DIGITAL KIT",
+	"kit_resources": "BAWAT KIT AY NAGLILINK SA MGA LIBRENG MAPAGKUKUNANG ITO"
+}

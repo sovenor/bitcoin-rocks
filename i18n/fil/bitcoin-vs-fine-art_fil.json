@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "fil"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Fine Art",
+	"fine_art_header": "ANG PAGKAKAIBA NG",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "AT",
+	"fine_art_header_4": "FINE ART",
+	"fine_art_intro_1": "Ang fine art ay naging luxury investment sa loob ng mga siglo at madalas itinuturing bilang store of value ng mga mayayamang kolektor.",
+	"fine_art_intro_2": "Ang Bitcoin ay digital na pera na itinuturing din ng marami bilang store of value at investment.",
+	"fine_art_intro_3": "Ngunit paano nagkakaiba ang pisikal na likhang-sining sa digital na pera tulad ng Bitcoin? Tingnan natin ang mga pagkakaiba sa pagitan ng dalawang anyo ng investment: Bitcoin at Fine Art.",
+	"fine_art": "FINE ART",
+	"fine_art_point_1": "Bawat piraso ay natatangi",
+	"fine_art_point_2": "Nangangailangan ng espesyalisadong auction",
+	"fine_art_point_3": "Mataas na bayarin sa auction",
+	"fine_art_point_4": "Hindi maaaring hatiin",
+	"fine_art_point_5": "Nangangailangan ng ekspertong authentication",
+	"fine_art_point_6": "Vulnerable sa pinsala",
+	"fine_art_point_7": "Limitado sa mga mayayamang kolektor",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perpektong fungible",
+	"bitcoin_point_2": "24/7 global na market",
+	"bitcoin_point_3": "Mababang bayarin sa transaksyon",
+	"bitcoin_point_4": "Madaling hatiin",
+	"bitcoin_point_5": "Cryptographically verifiable",
+	"bitcoin_point_6": "Mahirap sirain",
+	"bitcoin_point_7": "Accessible sa lahat",
+	"point_1_summary_1": "Ang Bitcoin ay perpektong fungible, na nangangahulugang ang bawat bitcoin ay magkapareho at maaaring ipalitan - ang isang bitcoin ay katumbas ng isang bitcoin kahit saan sa mundo. Ang fine art ay likas na non-fungible, na ang bawat piraso ay natatangi sa paglikha, kasaysayan, kondisyon, at pinagmulan, na ginagawang napakahirap ng direktang paghahambing at pagtataya ng halaga.",
+	"point_2_summary_1": "Ang Bitcoin ay naka-trade sa isang global 24/7 na market kung saan ang sinumang may internet access ay maaaring bumili o magbenta agad-agad. Ang fine art ay nangangailangan ng mga espesyalisadong auction house tulad ng Sotheby's o Christie's, mga pribadong dealer, o ekslusibong gallery. Ang mga benta ay maaaring tumagal ng ilang buwan upang ayusin at makumpleto, na may limitadong access sa market at hindi regular na pagkakataon sa pangangalakal.",
+	"point_3_summary_1": "Ang pagbili o pagbenta ng bitcoin ay karaniwang nagkakahalaga ng mas mababa sa 1% sa mga bayarin, madalas mas mababa pa. Ang mga pagbenta ng fine art ay may malaking gastos kabilang ang buyer's premium (10-25%), seller's commission (10-15%), insurance, transportasyon, storage, at authentication fee. Ang mga pinagsamang gastos na ito ay madaling lumampas sa 30-40% ng halaga ng artwork sa isang transaksyon.",
+	"point_4_summary_1": "Ang Bitcoin ay maaaring hatiin sa 100 milyong mas maliliit na yunit na tinatawag na satoshi, na ginagawa itong perpekto para sa mga transaksyon ng anumang sukat mula sa microtransaction hanggang sa malalaking pagbili. Ang fine art ay hindi maaaring hatiin - hindi mo maaaring pag-aari ang isang bahagi ng isang pintura o ibenta ang isang bahagi lamang ng isang eskultura. Ang kawalan ng kakayahang hatiin na ito ay naglilimita sa flexibility ng investment at mga opsyon sa liquidity.",
+	"point_5_summary_1": "Ang pagmamay-ari at pagiging tunay ng Bitcoin ay maaaring cryptographically na i-verify sa blockchain ng sinumang may pangunahing teknikal na kaalaman. Ang fine art ay nangangailangan ng mahal na ekspertong authentication, pananaliksik sa pinagmulan, at siyentipikong pagsusuri. Kahit na may ekspertong verification, ang mga peke ay regular na nanloloko sa mundo ng sining, at ang mga dispute sa authentication ay maaaring sirain ang halaga ng isang artwork sa isang gabi. Ang Bitcoin, sa kabilang banda, ay hindi maaaring pekein o counterfeit.",
+	"point_6_summary_1": "Ang Bitcoin, kapag nai-back up nang maayos, ay hindi maaaring sirain ng mga baha, sunog, lindol, bagyo, pagnanakaw, o iba pang kalamidad. Ang fine art ay vulnerable sa lahat ng anyo ng pisikal na pagkasira at pagkasira. Kahit na may mahal na climate-controlled storage at komprehensibong insurance, ang mga artwork ay maaaring mapinsala ng mga environmental factor, aksidente, o natural na kalamidad, na posibleng mawala ang lahat ng halaga.",
+	"point_7_summary_1": "Ang Bitcoin ay maaaring bilhin at ibenta ng sinumang may internet access at maliit na halaga ng pera para i-invest. Ang investment sa fine art ay halos limitado sa mga mayayamang kolektor dahil sa mataas na minimum na presyo, ekslusibong access sa auction, mga kinakailangan sa storage, gastos sa insurance, at ang espesyalisadong kaalaman na kailangan upang matagumpay na mag-navigate sa art market."
+}
