@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin har ingen bankkriser",
+	"bank_runs_header": "BITCOIN HAR INGEN BANKKRISER",
+	"bank_runs_header_2": "MEN BANKEN DIN KAN HA DET",
+	"bank_runs_what": "HVA ER EN BANKKRISE?",
+	"bank_runs_what_content_1": "En bankkrise oppstår når for mange mennesker prøver å ta ut pengene sine fra banken samtidig.",
+	"bank_runs_what_content_2": "Hvis bankene ikke har nok penger tilgjengelig til å dekke uttakene, kan de kollapse fullstendig under en bankkrise.",
+	"bank_runs_how": "HVORDAN OPPSTÅR BANKKRISER?",
+	"bank_runs_how_content_1": "Banksystemet vårt er «fraksjonelt reservebasert», noe som betyr at bankene ikke bare oppbevarer pengene dine i et hvelv og venter på at du skal bruke dem eller ta dem ut.",
+	"bank_runs_how_content_2": "I stedet tar banken din pengene dine og låner dem ut eller investerer dem. Dette kan låse pengene dine i lange perioder, selv om banken lover deg muligheten til å ta ut pengene dine når som helst.",
+	"bank_runs_how_content_3": "Så hva skjer hvis du prøver å ta ut pengene dine etter at banken allerede har lånt dem ut eller investert dem?",
+	"bank_runs_how_content_4": "Det er ikke et problem hvis du er den eneste som prøver å ta ut. Banken vil bare ta noen andres penger og gi dem til deg i stedet. Men hva skjer når for mange mennesker prøver å ta ut samtidig?",
+	"bank_runs_how_content_5": "Mange i USA fant det ut da det var en krise i Silicon Valley Bank i mars 2023.",
+	"bank_runs_how_content_6": "Banken hadde investert kundenes penger i statsobligasjoner som var låst i opptil 30 år. Enda verre, verdien av disse obligasjonene hadde falt dramatisk nylig, så Silicon Valley Bank kunne ikke bare selge obligasjonene for å få tilbake pengene til innskyterne. De var insolvente. De hadde ikke nok penger til å dekke uttakene til innskyterne.",
+	"bank_runs_how_content_7": "Etter hvert som flere fant ut av det, ble problemet bare verre. Flere uttaksforespørsler kom inn, men mange ble ikke behandlet. Tusenvis av bedrifter innså at de ikke ville kunne betale sine ansatte på grunn av bankens svikt.",
+	"bank_runs_how_content_8": "FDIC grep inn og gikk med på å gjøre innskyterne hele. Problem løst? Ikke helt...",
+	"bank_runs_fdic": "BESKYTTER FDIC-FORSIKRING PENGENE MINE?",
+	"bank_runs_fdic_content_1": "FDIC-forsikring er designet for å beskytte bankinnskytere i tilfelle en bank svikter. Innskudd er forsikret opptil $250 000 per innskyter. Høres bra ut, ikke sant?",
+	"bank_runs_fdic_content_2": "Ikke helt. Hvis en bank svikter, hvor får FDIC pengene fra? De har et forsikringsfond med 125 milliarder dollar i seg.",
+	"bank_runs_fdic_content_3": "Det høres ut som mye penger til du sammenligner det med mengden innskudd de forsikrer: nesten 10 billioner eller 10 000 milliarder dollar.",
+	"bank_runs_fdic_content_4": "FDIC viser til og med på nettsiden sin at de bare har nok penger i forsikringsfondet til å dekke litt mer enn 1% av innskuddene.",
+	"bank_runs_fdic_content_5": "I tilfelle en banksvikt som oversteg FDIC-forsikringsfondet, er det sannsynlig (men ikke garantert) at den amerikanske regjeringen ville trykke penger for å gjøre innskyterne hele.",
+	"bank_runs_fdic_content_6": "Men å trykke penger forårsaker inflasjon, så det er ikke en god løsning.",
+	"bank_runs_safe": "FINNES DET BANKER SOM IKKE BRUKER FRAKSJONELL RESERVE?",
+	"bank_runs_safe_content_1": "Noen banker har prøvd å være «trygge banker» som ikke låner ut eller investerer innskyternes midler.",
+	"bank_runs_safe_content_2": "Selv om disse trygge bankene ville ha null risiko for bankkriser, har søknadene deres blitt avvist av Federal Reserve. Dette betyr at de ikke lovlig kan operere som banker.",
+	"bank_runs_safe_content_3": "Fordi de har blitt blokkert fra å operere, finnes det ingen banker i dag som ikke bruker fraksjonell reserve.",
+	"bank_runs_safe_content_4": "Heldigvis finnes det en måte å velge bort det fraksjonelle reservesystemet ved å være din egen bank. Nei, vi snakker ikke om å stappe kontanter under madrassen.",
+	"bank_runs_safe_content_5": "Å spare i kontanter er fortsatt sårbart for inflasjon.",
+	"bank_runs_safe_content_6": "Vi snakker om Bitcoin: et nytt finansielt system som lar deg være din egen bank.",
+	"bank_runs_protect": "KAN BITCOIN BESKYTTE MEG MOT BANKKRISER?",
+	"bank_runs_protect_content_1": "Ja, Bitcoin er et fullreserve finansielt system.",
+	"bank_runs_protect_content_2": "Bankkriser er umulige i Bitcoin så lenge du tar ut din Bitcoin til din egen lommebok. Ikke la din bitcoin ligge på en børs eller i en wrapper som en Bitcoin-ETF.",
+	"bank_runs_protect_content_3": "Sjekk ut vår enkle Bitcoin-lommebokguide for å lære hvordan du tar ut til din egen lommebok.",
+	"bank_runs_protect_content_4": "Med Bitcoin kan du endelig ha kontroll over pengene dine."
+}

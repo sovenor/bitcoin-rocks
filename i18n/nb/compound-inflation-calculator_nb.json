@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"cic_header": "KALKULATOR FOR SAMMENSATT INFLASJON",
+	"cic_description": "Bruk denne kalkulatoren for sammensatt inflasjon for å finne ut hvor mye lønnen din må øke for å holde tritt med inflasjonen.",
+	"what_can_i_do_about": "Hva kan jeg gjøre med",
+	"what_can_i_do_about_2": "inflasjon?",
+	"cic_inflation_cta": "Velg bort inflasjon med Bitcoin"
+}

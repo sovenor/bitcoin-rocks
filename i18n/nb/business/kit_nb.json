@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"bitcoin_business_kit": "Bitcoin-bedriftspakke",
+	"kit_header": "SKRIV UT DIN EGEN BITCOIN-BEDRIFTSPAKKE",
+	"kit_request": "BESTILL EN GRATIS PAKKE",
+	"kit_request_details": "Hver Bitcoin-bedriftspakke inneholder to flygeblad som gjør det enkelt å overbevise en lokal bedrift om å akseptere Bitcoin.",
+	"kit_country_global_print": "Globalt — Jeg skriver ut mine egne pakker",
+	"kit_enter_address": "Skriv inn postadressen din, så sender vi en gratis Bitcoin-bedriftspakke til deg i en vanlig hvit konvolutt. Adressedata slettes etter at pakken er sendt.",
+	"kit_print_details": "Du kan delta ved å skrive ut dine egne flygeblad uansett hvor du bor! Du kan også henvise bedrifter til vår digitale bedriftspakke for å slippe utskrift.",
+	"kit_view_files": "VIS FILER",
+	"kit_digital_kit": "DIGITALT PAKKE",
+	"kit_resources": "HVER PAKKE LENKER TIL DISSE GRATIS RESSURSENE"
+}

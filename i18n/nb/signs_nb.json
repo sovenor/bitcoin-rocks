@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"signs_description": "Hjelp oss med å sette opp disse Bitcoin-skiltene over hele Amerika!",
+	"signs_title": "Gratis Bitcoin-skilt fra bitcoin.rocks",
+	"signs_choose_header": "TAKK FOR AT DU HJELPER OSS MED Å SETTE OPP DISSE BITCOIN-SKILTENE OVER HELE AMERIKA!",
+	"signs_choose_c1": "Vi er nå helt tomme for skilt! Vårt oppdrag er å akselerere Bitcoin-adopsjon gjennom utdanning.",
+	"signs_choose_c2": "Mange av dere hjalp ved å sette opp disse gratis Bitcoin-skiltene offentlig. Alle skiltene våre har QR-koder som lenker til en utdanningsside om",
+	"signs_choose_c3": "inflasjon",
+	"signs_choose_c4": "Takket være vårt fantastiske fellesskap nådde vi tusenvis av mennesker og hjalp dem med å ta sine første skritt ned i Bitcoin-kaninhullet.",
+	"signs_share_header": "DEL DINE SKILTSTEDER",
+	"signs_share_c1": "Del et bilde av ditt skiltsted med oss på Nostr og se hvor andre setter opp sine skilt.",
+	"signs_btn_share_on_nostr": "DEL PÅ NOSTR",
+	"signs_btn_what_is_nostr": "HVA ER NOSTR?",
+	"signs_instructions_1": "Skriv inn postadressen din, så sender vi deg en boks med 10 Bitcoin-skilt i posten!",
+	"signs_instructions_2": "Adressedata slettes etter at dine gratis skilt er sendt."
+}

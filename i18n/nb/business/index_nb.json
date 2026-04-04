@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin er bra for bedrifter",
+	"biz_header": "BITCOIN ER BRA FOR BEDRIFTER",
+	"biz_s1": "Lave avgifter uten minimumsbeløp",
+	"biz_s1_c1": "Bitcoin lar deg motta betalinger direkte fra kunder, på samme måte som kontanter. Bitcoin-nettverket fungerer uten mellommenn som banker og kredittkortselskaper som tar høye avgifter.",
+	"biz_s2": "Umiddelbar oppgjør",
+	"biz_s2_c1": "Akkurat som kontanter gjøres Bitcoin-betalinger opp umiddelbart. Du trenger ikke vente på at kredittkortselskapet eller banken din skal betale deg. I stedet får du tilgang til pengene dine med en gang.",
+	"biz_s3": "Ingen tilbakebetalinger eller svindel",
+	"biz_s3_c1": "Fordi Bitcoin-betalinger skjer direkte mellom deg og kundene dine, kan ingen ta tilbake pengene gjennom en tilbakebetaling.",
+	"biz_s3_c2": "Falsk Bitcoin kan ikke sendes over Bitcoin-nettverket, noe som betyr at du aldri trenger å bekymre deg for svindelaktige transaksjoner som kan koste bedriften din penger.",
+	"biz_s4": "Få flere kunder",
+	"biz_s4_c1": "Millioner av mennesker eier Bitcoin og ønsker å bruke det hos steder som aksepterer det.",
+	"biz_s4_c2": "Ved å akseptere Bitcoin kan bedriften din listes på kart over Bitcoin-forhandlere og få gratis eksponering for nye kunder.",
+	"biz_s4_c3": "Å akseptere Bitcoin er 100% gratis. Ingen kontrakter eller skjulte avgifter."
+}

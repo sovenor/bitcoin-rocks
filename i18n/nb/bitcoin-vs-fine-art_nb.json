@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs kunst",
+	"fine_art_header": "FORSKJELLEN MELLOM",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "OG",
+	"fine_art_header_4": "KUNST",
+	"fine_art_intro_1": "Kunst har vært en luksuriøs investering i århundrer og blir ofte sett på som et verdilager av velstående samlere.",
+	"fine_art_intro_2": "Bitcoin er digitale penger som også av mange sees på som et verdilager og investering.",
+	"fine_art_intro_3": "Men hvordan skiller fysisk kunstverk seg fra digitale penger som Bitcoin? La oss se på forskjellene mellom to former for investering: Bitcoin og kunst.",
+	"fine_art": "KUNST",
+	"fine_art_point_1": "Hvert stykke er unikt",
+	"fine_art_point_2": "Krever spesialiserte auksjoner",
+	"fine_art_point_3": "Høye auksjonsavgifter",
+	"fine_art_point_4": "Kan ikke deles",
+	"fine_art_point_5": "Krever ekspertautentisering",
+	"fine_art_point_6": "Sårbar for skade",
+	"fine_art_point_7": "Begrenset til velstående samlere",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfekt fungibelt",
+	"bitcoin_point_2": "24/7 globalt marked",
+	"bitcoin_point_3": "Lave transaksjonsavgifter",
+	"bitcoin_point_4": "Enkelt delbart",
+	"bitcoin_point_5": "Kryptografisk verifiserbart",
+	"bitcoin_point_6": "Vanskelig å ødelegge",
+	"bitcoin_point_7": "Tilgjengelig for alle",
+	"point_1_summary_1": "Bitcoin er perfekt fungibelt, noe som betyr at hver bitcoin er identisk og utskiftbar – én bitcoin er lik én bitcoin hvor som helst i verden. Kunst er ikke-fungibel av natur, med hvert stykke unikt i sin skapelse, historie, tilstand og proveniens, noe som gjør direkte sammenligninger og verdivurderinger ekstremt vanskelig.",
+	"point_2_summary_1": "Bitcoin handles på et globalt 24/7-marked der hvem som helst med internettilgang kan kjøpe eller selge umiddelbart. Kunst krever spesialiserte auksjonshus som Sotheby's eller Christie's, private forhandlere eller eksklusive gallerier. Salg kan ta måneder å arrangere og fullføre, med begrenset markedstilgang og uregelmessige handelsmuligheter.",
+	"point_3_summary_1": "Å kjøpe eller selge bitcoin koster typisk mindre enn 1% i avgifter, ofte mye mindre. Kunstsalg involverer betydelige kostnader inkludert kjøperpremier (10-25%), selgerprovisjon (10-15%), forsikring, transport, lagring og autentiseringsavgifter. Disse kombinerte kostnadene kan lett overstige 30-40% av kunstverkets verdi i en enkelt transaksjon.",
+	"point_4_summary_1": "Bitcoin kan deles inn i 100 millioner mindre enheter kalt satoshis, noe som gjør det perfekt for transaksjoner av enhver størrelse fra mikrobetalinger til store kjøp. Kunst kan ikke deles – du kan ikke eie en brøkdel av et maleri eller selge bare en del av en skulptur. Denne udeligheten begrenser investeringsfleksibilitet og likviditetsmuligheter.",
+	"point_5_summary_1": "Bitcoin-eierskap og ekthet kan kryptografisk verifiseres på blokkjeden av hvem som helst med grunnleggende teknisk kunnskap. Kunst krever dyr ekspertautentisering, proveniensforskning og vitenskapelig analyse. Selv med ekspertverifisering lurer forfalskninger regelmessig kunstverdenen, og autentiseringstvister kan ødelegge et kunstverks verdi over natten. Bitcoin kan derimot ikke forfalskes.",
+	"point_6_summary_1": "Bitcoin, når det er sikkerhetskopiert riktig, kan ikke ødelegges av flom, branner, jordskjelv, orkaner, tyveri eller andre katastrofer. Kunst er sårbar for alle former for fysisk ødeleggelse og forringelse. Selv med dyr klimakontrollert lagring og omfattende forsikring, kan kunstverk bli skadet av miljøfaktorer, ulykker eller naturkatastrofer, og potensielt miste all verdi.",
+	"point_7_summary_1": "Bitcoin kan kjøpes og selges av hvem som helst med internettilgang og et lite beløp å investere. Kunstinvestering er i stor grad begrenset til velstående samlere på grunn av høye minimumspriser, eksklusiv auksjonstilgang, lagringskrav, forsikringskostnader og den spesialiserte kunnskapen som trengs for å navigere kunstmarkedet vellykket."
+}

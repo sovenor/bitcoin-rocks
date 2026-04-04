@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"free_bitcoin_flyers": "Gratis Bitcoin-flygeblad fra bitcoin.rocks",
+	"flyers_description": "Skriv ut et Bitcoin-flygeblad hjemme og heng det opp offentlig for å oransjepille de rundt deg.",
+	"flyers_header_1": "SKRIV UT OG HENG OPP",
+	"flyers_header_2": "BITCOIN-FLYGEBLAD",
+	"flyers_intro_header": "HVORDAN SKRIVE UT OG HENGE OPP DISSE BITCOIN-FLYGEBLADENE",
+	"flyers_intro_c1": "Vårt oppdrag er å hjelpe deg med å oransjepille flere mennesker ved å henge opp Bitcoin-flygeblad offentlig. Dette flygebladet har en QR-kode som lenker til vår",
+	"flyers_intro_c2": "pedagogiske Bitcoin-nettside.",
+	"flyers_intro_c3": "inflasjon",
+	"flyers_intro_c4": "Skriv ut dette flygebladet hjemme eller på et trykkeri. Heng det deretter opp på oppslagstavler, telefonstolper rundt om i byen og andre offentlige steder der folk kan se det og lære om Bitcoin.",
+	"flyers_intro_c5": "Mens du er i gang, bestill en pakke med våre",
+	"flyers_intro_c6": "gratis Bitcoin-klistremerker",
+	"flyers_intro_c7": "for å oransjepille enda flere mennesker.",
+	"flyers_btn_download": "LAST NED FLYGEBLAD",
+	"flyers_btn_print": "SKRIV UT FLYGEBLAD",
+	"flyers_share_header": "DEL DINE FLYGEBLADSTEDER",
+	"flyers_share_c1": "Del flygebladstedene dine med oss på Nostr og se hvor andre henger opp sine flygeblad.",
+	"flyers_btn_share_on_nostr": "DEL PÅ NOSTR",
+	"flyers_btn_what_is_nostr": "HVA ER NOSTR?"
+}

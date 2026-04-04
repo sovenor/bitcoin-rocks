@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Norwegian Bokmål (nb) Language Added — April 2026
+- Added Norwegian Bokmål (Norsk) as the 30th language
+- Created 90 translation files in `i18n/nb/` mirroring the English directory structure
+- Translation scripts in `scripts/norwegian/` (8 scripts broken by category)
+- Updated: language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (29→30)
+- Ran SEO content injection
+- Language code: `nb` (Norwegian Bokmål — matches browser auto-detection)
+- Display name: `Norsk` (placed alphabetically between Nederlands and Polski in language switcher)
+
 ## Lithuanian (lt) Language Added — April 2026
 - Added Lithuanian (Lietuvių) as the 29th language
 - Created 87 translation files in `i18n/lt/` mirroring the English directory structure

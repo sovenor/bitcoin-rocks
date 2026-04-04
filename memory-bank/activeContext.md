@@ -1,6 +1,14 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Korean Language Added — April 2026
+## Latest: Norwegian Bokmål Language Added — April 2026
+- Added Norwegian Bokmål (`nb`, Norsk) as the 30th language on bitcoin.rocks
+- Created all 90 translation files via 8 scripts in `scripts/norwegian/`
+- Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 30 languages
+- Norsk placed alphabetically between Nederlands and Polski in language.js
+- Ran SEO content injection successfully
+
+## Korean Language Added — April 2026
 - Added Korean (`ko`, 한국어) as the 28th language on bitcoin.rocks
 - Created all 90+ translation files via 8 scripts in `scripts/korean/`
 - Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt

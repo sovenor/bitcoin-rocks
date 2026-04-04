@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"how_to_accept_bitcoin_payments": "Hvordan akseptere Bitcoin-betalinger",
+	"wallets_header": "SKAFF EN GRATIS BITCOIN-LOMMEBOK FOR Å MOTTA BETALINGER",
+	"wallets_intro_1": "Alle Bitcoin-lommebøker er kompatible med hverandre, slik at kunder kan betale deg i Bitcoin uansett hvilken lommebok de bruker.",
+	"wallets_intro_2": "Rene Bitcoin-lommebøker:",
+	"wallets_intro_3": "Dette er rene Bitcoin-lommebøker som låser opp alle fordelene med Bitcoin: ingen mellommenn, lave avgifter og ingen tilbakebetalinger eller svindel.",
+	"wallets_intro_4": "Hybridlommebøker:",
+	"wallets_intro_5": "Disse lar deg veksle en valgfri andel av din Bitcoin til dollar så snart en kunde betaler deg. Avgiftene er fortsatt lavere enn kredittkort, men høyere enn rene Bitcoin-betalinger.",
+	"wallets_intro_6": "Begge typene er utmerkede måter å akseptere Bitcoin på. Din spesifikke lommebok avhenger av størrelsen og typen bedrift du driver.",
+	"wallets_choice_sole": "lommebøker for enkeltpersonforetak",
+	"wallets_choice_multiple": "lommebøker for bedrifter med flere ansatte",
+	"wallets_choice_online": "lommebøker for nettbedrifter",
+	"wallets_choice_invoice": "lommebøker for faktureringsbedrifter",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Du kan akseptere Bitcoin-betalinger med din eksisterende Square PoS-terminal eller nettbutikkintegrasjon. Å akseptere Bitcoin-betalinger har aldri vært enklere.",
+	"wallets_feature_bitcoin_only": "Ren Bitcoin-lommebok",
+	"wallets_feature_no_info": "Ingen informasjon nødvendig",
+	"wallets_feature_in_person": "Kun personlige betalinger",
+	"wallets_feature_settles_bitcoin": "Oppgjør 100% i Bitcoin",
+	"wallets_feature_hybrid": "Hybridlommebok",
+	"wallets_feature_info": "Bedriftsinformasjon nødvendig",
+	"wallets_feature_in_person_online": "Personlige og nettbetalinger",
+	"wallets_feature_settles_both": "Oppgjør i Bitcoin og dollar",
+	"wallets_feature_multiple_employees": "Støtte for flere ansatte (BPT)",
+	"wallets_feature_self_hosted": "Egen hosting = 0% avgifter",
+	"wallets_feature_online_store": "Nettbutikkintegrasjon",
+	"wallets_feature_invoicing": "Gratis faktureringsprogram",
+	"wallets_get_wallet": "SKAFF LOMMEBOK"
+}

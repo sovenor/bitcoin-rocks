@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"free_bitcoin_postcards": "Gratis Bitcoin-postkort fra bitcoin.rocks",
+	"postcards_description": "Få en gratis Bitcoin-postkortpakke og del Bitcoin med noen du kjenner.",
+	"postcards_header": "POSTKORTPROGRAMMET ER AVSLUTTET",
+	"postcards_program_closed_message": "Vårt gratis Bitcoin-postkortprogram er avsluttet. Takk til alle som deltok i å spre Bitcoin-utdanning gjennom posten!",
+	"postcards_sticker_alternative_header": "FÅ GRATIS BITCOIN-KLISTREMERKER I STEDET",
+	"postcards_sticker_alternative_message": "Fortsett å spre Bitcoin-bevissthet med vårt gratis klistremerkeprogram! Våre Bitcoin-klistremerker er perfekte for deling på offentlige steder og kommer med QR-koder som lenker til utdanningsinnhold.",
+	"postcards_sticker_cta": "FÅ GRATIS KLISTREMERKER",
+	"postcards_step_2": "SLIK SÅ POSTKORTENE UT",
+	"postcards_instructions_4": "Vi laget disse postkortene for å gjøre det enklere for deg å introdusere noen du kjenner for Bitcoin! Bare legg til en adresse og et frimerke og slipp postkortet i posten.",
+	"postcards_instructions_5": "Vårt oppdrag er å akselerere Bitcoin-adopsjon. Du kan hjelpe ved å skaffe gratis klistremerker og plassere dem på offentlige steder!",
+	"postcards_instructions_6": "Vi kjenner alle noen som kunne hatt nytte av å lære mer om Bitcoin. Del Bitcoin-klistremerker med dem i dag!"
+}

@@ -29,6 +29,7 @@ $(function() {
     { code: 'lt', name: 'Lietuvių' },
     { code: 'ms', name: 'Melayu' },
     { code: 'nl', name: 'Nederlands' },
+    { code: 'nb', name: 'Norsk' },
     { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
     { code: 'sk', name: 'Slovenčina' },

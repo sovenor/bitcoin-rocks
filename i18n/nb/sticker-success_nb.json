@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"sticker_success_1": "Du vil motta klistremerkene dine innen 2 til 4 uker. I mellomtiden kan du tenke på et bra sted for klistremerkene dine!",
+	"sticker_success_2": "Gode steder for klistremerker er:",
+	"sticker_success_list_1": "på offentlige steder der folk vil se dem",
+	"sticker_success_list_2": "på steder der de sannsynligvis ikke fjernes raskt (klistremerkene forårsaker ingen permanent skade)",
+	"sticker_success_list_3": "på overflater de lett fester seg til (metall, plast, glass)",
+	"sticker_success_list_4": "IKKE på privat eiendom, over skilt, minibanker eller bensinstasjoner",
+	"sticker_success_3": "Vil du se hvor andre plasserer sine klistremerker?",
+	"sticker_success_flyers_bar_new": "NYTT!",
+	"sticker_success_flyers_bar_cta": "Skriv ut og heng opp Bitcoin-flygeblad →"
+}

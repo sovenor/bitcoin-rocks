@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "nb"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-lommebokguide",
+	"lightning_description": "Lightning-lommebøker gjør det mulig å sende Bitcoin raskt og billig samtidig som du opprettholder din personlige suverenitet.",
+	"lightning_header": "LIGHTNING-LOMMEBOKGUIDE",
+	"lightning_s1_c1": "Lightning gjør det mulig å sende Bitcoin-betalinger raskt og billig.",
+	"lightning_s1_c2": "Det er viktig å vite at bruk av Lightning innebærer kompromisser. I bytte mot raskere, billigere Bitcoin-betalinger ofrer du ofte noe sikkerhet.",
+	"lightning_s1_c3": "Generelt bør Lightning kun brukes med små beløp bitcoin. Du bør bare lagre store beløp bitcoin i en maskinvarelommebok.",
+	"lightning_s1_c4": "Sjekk ut vår maskinvarelommebokguide for mer informasjon.",
+	"lightning_s1_c5": "Ikke alle Lightning-lommebøker er like. Du kan avgjøre hvilken lommebok som har riktig balanse av kompromisser for deg ved å stille ett enkelt spørsmål:",
+	"lightning_question_1": "HVILKEN KOMPROMISSBALANSE ER RIKTIG FOR MEG?",
+	"lightning_s2_c1": "En av innovasjonene til Bitcoin er muligheten til å lagre det uten å stole på en forvalter, som en bank. Selvforvarende lommebøker låser opp den fulle kraften til Bitcoin.",
+	"lightning_s2_c2": "Med en selvforvarende lommebok er du den eneste med muligheten til å bruke eller overføre pengene dine. Ingen kan stoppe deg, sensurere deg eller stjele fra deg når du bruker en selvforvarende lommebok. Disse kalles også ikke-forvarende lommebøker.",
+	"lightning_s2_c3": "Den mest suverene måten å bruke Lightning på er ved å kjøre din egen node.",
+	"lightning_s2_c4": "Denne guiden fokuserer på enkle Lightning-lommebøker som ikke krever din egen node.",
+	"lightning_s2_c5": "Det er viktig å vite at selv ved bruk av en ikke-forvarende Lightning-lommebok, stoler du fortsatt på lommebokskaperen om å ikke sende en ondsinnet appoppdatering og stjele midlene dine.",
+	"lightning_s3_c1": "Forvarende lommebøker er lommebøker der du ikke har kontroll over pengene dine.",
+	"lightning_s3_c2": "Disse lommebøkene ligner mer på banksystemet der du må stole på en tredjepart for å gi deg tilgang til pengene dine. Hvis din Bitcoin er på en børs, bruker du en forvarende lommebok.",
+	"lightning_s3_c3": "Forvarende lommebøker kan virke praktiske, men forvalteren har den tekniske muligheten til å stjele alle brukermidler når som helst.",
+	"lightning_s3_c4": "Noen foretrekker forvarende Lightning-lommebøker for små beløp bitcoin på grunn av brukervennligheten. Bare husk: ikke dine nøkler, ikke dine mynter!",
+	"lightning_question_2": "VELG DIN LOMMEBOK",
+	"lightning_s4_c1": "Med alt dette i bakhodet kan du nå velge lightning-lommeboken som har riktig kompromissbalanse for deg.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Mange funksjoner",
+	"lightning_mobile_app": "Mobilapp",
+	"lightning_free": "100% gratis",
+	"lightning_merchants": "Flott for forhandlere",
+	"lightning_starter": "Flott startlommebok",
+	"lightning_browser": "Nettleserbasert",
+	"lightning_custodial": "Helt forvarende lommebok",
+	"lightning_cta_hardware": "Leter du etter vår Bitcoin-maskinvarelommebokguide?"
+}
