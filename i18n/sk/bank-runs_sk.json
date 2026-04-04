@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin nemá bankové runy",
+	"bank_runs_header": "BITCOIN NEMÁ BANKOVÉ RUNY",
+	"bank_runs_header_2": "ALE VAŠA BANKA ÁNO",
+	"bank_runs_what": "ČO JE BANKOVÝ RUN?",
+	"bank_runs_what_content_1": "Bankový run nastane, keď sa príliš veľa ľudí pokúsi vybrať svoje peniaze z banky v rovnakom čase.",
+	"bank_runs_what_content_2": "Ak banky nemajú dostatok peňazí na pokrytie výberov, môžu sa pri bankovom rune úplne zrútiť.",
+	"bank_runs_how": "AKO K BANKOVÝM RUNOM DOCHÁDZA?",
+	"bank_runs_how_content_1": "Náš bankový systém je 'frakčný rezervný', čo znamená, že banky vaše peniaze len neuchovávajú v trezore a nečakajú, kým ich miniete alebo vyberiete.",
+	"bank_runs_how_content_2": "Namiesto toho banka vezme vaše peniaze a požičia ich alebo investuje. To môže vaše peniaze zablokovať na dlhú dobu, aj keď vám banka sľubuje možnosť kedykoľvek peniaze vybrať.",
+	"bank_runs_how_content_3": "Čo sa stane, keď sa pokúsite vybrať peniaze potom, čo ich banka už požičala alebo investovala?",
+	"bank_runs_how_content_4": "Ak ste to jediný, kto chce vyberať, nie je problém. Banka jednoducho vezme peniaze niekoho iného a dá ich vám. Ale čo sa stane, keď chce vyberať príliš veľa ľudí naraz?",
+	"bank_runs_how_content_5": "Mnoho ľudí v USA sa to dozvedelo, keď v marci 2023 prebehol run na Silicon Valley Bank.",
+	"bank_runs_how_content_6": "Banka investovala peniaze svojich klientov do štátnych dlhopisov, ktoré boli viazané až na 30 rokov. Ešte horšie, hodnota týchto dlhopisov nedávno dramaticky klesla, takže Silicon Valley Bank nemohla dlhopisy jednoducho predať, aby získala peniaze svojich vkladateľov. Bola insolventná. Nemala dostatok peňazí na pokrytie výberov svojich vkladateľov.",
+	"bank_runs_how_content_7": "Ako sa o tom dozvedelo viac ľudí, problém sa len zhoršoval. Prichádzalo viac žiadostí o výber, ale mnoho z nich nebolo spracovaných. Tisíce firiem si uvedomili, že nebudú schopné platiť svojich zamestnancov kvôli zlyhaniu banky.",
+	"bank_runs_how_content_8": "FDIC zasiahla a súhlasila s odškodnením vkladateľov. Problém vyriešený? Nie tak celkom...",
+	"bank_runs_fdic": "CHRÁNI POISTENIE FDIC MOJE PENIAZE?",
+	"bank_runs_fdic_content_1": "Poistenie FDIC je navrhnuté na ochranu bankových vkladateľov v prípade zlyhania banky. Vklady sú poistené do výšky 250 000 $ na vkladateľa. Znie to skvele, však?",
+	"bank_runs_fdic_content_2": "Nie tak celkom. Ak banka zlyhá, odkiaľ FDIC vezme peniaze? Má poistný fond so 125 miliardami dolárov.",
+	"bank_runs_fdic_content_3": "To znie ako veľa peňazí, kým to neporovnáte s objemom vkladov, ktoré poisťujú: takmer 10 biliónov neboli 10 000 miliárd dolárov.",
+	"bank_runs_fdic_content_4": "FDIC dokonca na svojich stránkach ukazuje, že vo svojom poistnom fonde má dosť peňazí na pokrytie len o niečo viac ako 1 % vkladov.",
+	"bank_runs_fdic_content_5": "V prípade zlyhania banky, ktoré by prekročilo poistný fond FDIC, je pravdepodobné (ale nie zaručené), že americká vláda by vytlačila peniaze na odškodnenie vkladateľov.",
+	"bank_runs_fdic_content_6": "Ale tlač peňazí spôsobuje infláciu, takže to nie je skvelé riešenie.",
+	"bank_runs_safe": "EXISTUJÚ BANKY, KTORÉ NEPOUŽÍVAJÚ FRAKČNÚ REZERVU?",
+	"bank_runs_safe_content_1": "Niektoré banky sa pokúsili byť 'bezpečnými bankami', ktoré nepožičiavajú ani neinvestujú prostriedky vkladateľov.",
+	"bank_runs_safe_content_2": "Aj keď by tieto bezpečné banky mali nulové riziko bankových runov, ich žiadosti boli Federálnym rezervným systémom zamietnuté. To znamená, že nemôžu legálne fungovať ako banky.",
+	"bank_runs_safe_content_3": "Pretože im bolo zablokované fungovanie, dnes neexistujú žiadne banky, ktoré nepoužívajú frakčnú rezervu.",
+	"bank_runs_safe_content_4": "Našťastie existuje spôsob, ako sa z frakčného rezervného systému odhlásiť tým, že budete svojou vlastnou bankou. Nie, nehovoríme o schovaní hotovosti pod matrac.",
+	"bank_runs_safe_content_5": "Sporenie v hotovosti je stále zraniteľné voči inflácii.",
+	"bank_runs_safe_content_6": "Hovoríme o Bitcoine: novom finančnom systéme, ktorý vám umožňuje byť svojou vlastnou bankou.",
+	"bank_runs_protect": "MÔŽE MA BITCOIN OCHRÁNIŤ PRED BANKOVÝMI RUNMI?",
+	"bank_runs_protect_content_1": "Áno, Bitcoin je plne rezervný finančný systém.",
+	"bank_runs_protect_content_2": "Bankové runy sú v Bitcoine nemožné, ak si vyberiete svoj Bitcoin do vlastnej peňaženky. Nenechávajte svoj bitcoin na burze ani v obale ako bitcoinové ETF.",
+	"bank_runs_protect_content_3": "Pozrite si nášho jednoduchého sprievodcu bitcoinovými peňaženkami a zistite, ako vybrať do vlastnej peňaženky.",
+	"bank_runs_protect_content_4": "S Bitcoinom môžete konečne mať kontrolu nad svojimi peniazmi."
+}

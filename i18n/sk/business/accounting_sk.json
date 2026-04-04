@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_business_accounting_guide": "Sprievodca účtovníctvom pre Bitcoin v podnikaní",
+	"accounting_description": "Naučte sa správne účtovať bitcoinové platby vo vašom podnikovom účtovníctve.",
+	"accounting_header": "SPRIEVODCA BITCOINOVÝM ÚČTOVNÍCTVOM",
+	"accounting_s1_c1": "Prijímanie Bitcoinu má mnoho výhod, ako je prijímanie platieb s nižšími poplatkami a získavanie viac zákazníkov.",
+	"accounting_s1_c2": "Ak používate hybridnú peňaženku z nášho sprievodcu peňaženkami a automaticky predávate 100 % prijatého Bitcoinu za doláre, nemusíte vo svojom súčasnom účtovníctve nič meniť.",
+	"accounting_s1_c3": "Zobraziť sprievodcu peňaženkami.",
+	"accounting_s1_c4": "Ak si však časť prijatých bitcoinových platieb ponecháte ako Bitcoin, budete musieť pre svoje účtovníctvo sledovať niekoľko údajov. Na prvý pohľad to môže pôsobiť zastrašujúco, ale v skutočnosti je to pomerne jednoduché.",
+	"accounting_s1_c5": "Poznámka: tento sprievodca je iba informatívny a nepredstavuje daňové poradenstvo.",
+	"accounting_s1_c6": "Ak potrebujete daňové poradenstvo, dôrazne odporúčame Satoshi Pacioli Accounting Services, účtovnú firmu špecializujúcu sa na bitcoinové účtovníctvo.",
+	"accounting_s2": "SLEDOVANIE VAŠEJ NÁKLADOVEJ ZÁKLADNE",
+	"accounting_s2_c1": "Sledovanie nákladovej základne bude najväčší rozdiel medzi účtovaním dolárov a účtovaním Bitcoinu. Aj keď na svoje podnikanie nazeráte čisto z pohľadu Bitcoinu, musíte vo svojom daňovom priznaní uviesť dolárovú hodnotu každej transakcie.",
+	"accounting_s2_c2": "Ak používate QuickBooks, môžete to vykonať automaticky pomocou pluginu Bitcoin Sync.",
+	"accounting_s2_c3": "Ak QuickBooks nepoužívate, odporúčame Satoshi Pacioli Accounting Services, účtovnú firmu špecializujúcu sa na bitcoinové účtovníctvo.",
+	"accounting_s2_c4": "Pre ručné sledovanie stačí zaznamenať množstvo prijatého Bitcoinu a dolárovú hodnotu bitcoinovej transakcie v daný deň.",
+	"accounting_s2_c5": "Aktuálnu dolárovú cenu Bitcoinu môžete zobraziť tu.",
+	"accounting_s2_c6": "Tieto informácie sledujte v tabuľke Excel a odovzdajte ich svojmu účtovníkovi.",
+	"accounting_s2_c7": "Tieto dáta môžete do Excelu importovať aj automaticky.",
+	"accounting_s2_c8": "Môžete si tiež zobraziť historickú dolárovú cenu Bitcoinu v predchádzajúcich dňoch, takže to nemusíte robiť každý deň.",
+	"accounting_s3": "MÍŇANIE ALEBO PREDAJ VÁŠHO BITCOINU",
+	"accounting_s3_c1": "Ak používate hybridnú peňaženku z nášho sprievodcu peňaženkami a automaticky predávate 100 % prijatého Bitcoinu za doláre, nemusíte vo svojom súčasnom účtovníctve nič meniť.",
+	"accounting_s3_c2": "Zobraziť sprievodcu peňaženkami.",
+	"accounting_s3_c3": "Ak sa rozhodnete časť prijatého Bitcoinu po nejakej dobe minúť alebo predať, stačí do tabuľky Excel, kde sledujete nákladovú základňu, pridať cenu, za ktorú ste ho predali.",
+	"accounting_s3_c4": "Napríklad, ak ste 1. januára dostali Bitcoin v hodnote 100 dolárov a rozhodli sa ho predať alebo minúť 1. februára pri novej hodnote 110 dolárov, musíte vo svojom účtovníctve zaznamenať kapitálový zisk 10 dolárov.",
+	"accounting_s3_c5": "To môže fungovať aj opačne. Napríklad, ak ste 1. januára dostali Bitcoin v hodnote 100 dolárov a rozhodli sa ho predať alebo minúť 1. februára pri novej hodnote 90 dolárov, musíte vo svojom účtovníctve zaznamenať kapitálovú stratu 10 dolárov.",
+	"accounting_s4": "POTREBUJEM ĎALŠIU POMOC",
+	"accounting_s4_c1": "Ak potrebujete ďalšiu pomoc s integráciou Bitcoinu do vášho podnikového účtovníctva, dôrazne odporúčame Satoshi Pacioli Accounting Services, účtovnú firmu špecializujúcu sa na bitcoinové účtovníctvo.",
+	"accounting_s4_c2": "Zistite viac o Satoshi Pacioli Accounting Services."
+}

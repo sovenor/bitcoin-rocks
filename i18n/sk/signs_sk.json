@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"signs_description": "Pomôžte nám umiestniť tieto bitcoinové cedule po celej Amerike!",
+	"signs_title": "Bezplatné bitcoinové cedule od bitcoin.rocks",
+	"signs_choose_header": "ĎAKUJEME, ŽE NÁM POMÁHATE UMIESTŇOVAŤ TIETO BITCOINOVÉ CEDULE PO CELEJ AMERIKE!",
+	"signs_choose_c1": "Všetky cedule sú teraz rozdané! Naším poslaním je urýchliť prijatie Bitcoinu prostredníctvom vzdelávania.",
+	"signs_choose_c2": "Mnohí z vás pomohli umiestnením týchto bezplatných bitcoinových cedulí na verejné miesta. Všetky naše cedule majú QR kódy, ktoré odkazujú na vzdelávaciu stránku o",
+	"signs_choose_c3": "inflácii",
+	"signs_choose_c4": "Vďaka našej úžasnej komunite sme oslovili tisíce ľudí a pomohli im urobiť prvé kroky do bitcoinovej králičej nory.",
+	"signs_share_header": "ZDIEĽAJTE SVOJE MIESTA S CEDUĽAMI",
+	"signs_share_c1": "Zdieľajte fotku svojho miesta s ceduľou s nami na Nostre a pozrite sa, kam ostatní ľudia umiestňujú svoje cedule.",
+	"signs_btn_share_on_nostr": "ZDIEĽAŤ NA NOSTRE",
+	"signs_btn_what_is_nostr": "ČO JE NOSTR?",
+	"signs_instructions_1": "Zadajte svoju poštovú adresu a my vám pošleme krabicu 10 bitcoinových cedulí!",
+	"signs_instructions_2": "Údaje o adrese sú vymazané po odoslaní bezplatných cedulí."
+}

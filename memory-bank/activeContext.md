@@ -1,6 +1,14 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Russian Language Added — April 2026
+## Latest: Slovak Language Added — April 2026
+- Added Slovak (`sk`, Slovenčina) as the 27th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/slovak/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 27 languages
+- Fixed Cyrillic sort order in language.js (български now before Русский)
+- Ran SEO content injection successfully
+
+## Russian Language Added — April 2026
 - Added Russian (`ru`, Русский) as the 26th language on bitcoin.rocks
 - Created all 90+ translation files via 8 scripts in `scripts/russian/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

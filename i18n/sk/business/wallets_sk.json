@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"how_to_accept_bitcoin_payments": "Ako prijímať bitcoinové platby",
+	"wallets_header": "ZÍSKAJTE BEZPLATNÚ BITCOINOVÚ PEŇAŽENKU PRE PRIJÍMANIE PLATIEB",
+	"wallets_intro_1": "Všetky bitcoinové peňaženky sú vzájomne kompatibilné, takže vám zákazníci môžu platiť v Bitcoine bez ohľadu na to, ktorú peňaženku používajú.",
+	"wallets_intro_2": "Čisto bitcoinové peňaženky:",
+	"wallets_intro_3": "Jedná sa o čisto bitcoinové peňaženky, ktoré odomykajú plné výhody Bitcoinu: žiadni sprostredkovatelia, nízke poplatky a žiadne spätné platby ani podvody.",
+	"wallets_intro_4": "Hybridné peňaženky:",
+	"wallets_intro_5": "Tie vám umožňujú zmeniť ľubovoľnú časť Bitcoinu za doláre, akonáhle vám zákazník zaplatí. Poplatky sú stále nižšie ako u kreditných kariet, ale vyššie ako u čistých bitcoinových platieb.",
+	"wallets_intro_6": "Oba typy sú skvelé spôsoby prijímania Bitcoinu. Konkrétna peňaženka bude závisieť od veľkosti a typu vášho podnikania.",
+	"wallets_choice_sole": "peňaženky pre individuálne vlastnené firmy",
+	"wallets_choice_multiple": "peňaženky pre firmy s viacerými zamestnancami",
+	"wallets_choice_online": "peňaženky pre online firmy",
+	"wallets_choice_invoice": "peňaženky pre firmy s fakturáciou",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Bitcoinové platby môžete prijímať so svojím existujúcim terminálom Square PoS alebo integráciou e-shopu. Prijímanie bitcoinových platieb nebolo nikdy jednoduchšie.",
+	"wallets_feature_bitcoin_only": "Čisto bitcoinová peňaženka",
+	"wallets_feature_no_info": "Nie sú vyžadované žiadne údaje",
+	"wallets_feature_in_person": "Iba osobné platby",
+	"wallets_feature_settles_bitcoin": "Vyrovnanie 100 % v Bitcoine",
+	"wallets_feature_hybrid": "Hybridná peňaženka",
+	"wallets_feature_info": "Vyžadované údaje o firme",
+	"wallets_feature_in_person_online": "Osobné aj online platby",
+	"wallets_feature_settles_both": "Vyrovnanie v Bitcoine aj dolároch",
+	"wallets_feature_multiple_employees": "Podpora viacerých zamestnancov (BPT)",
+	"wallets_feature_self_hosted": "Vlastný hosting = 0 % poplatky",
+	"wallets_feature_online_store": "Integrácia s e-shopom",
+	"wallets_feature_invoicing": "Bezplatný fakturačný softvér",
+	"wallets_get_wallet": "ZÍSKAŤ PEŇAŽENKU"
+}

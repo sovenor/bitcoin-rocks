@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin je dobrý pre podnikanie",
+	"biz_header": "BITCOIN JE DOBRÝ PRE PODNIKANIE",
+	"biz_s1": "Nízke poplatky bez minimálnych limitov",
+	"biz_s1_c1": "Bitcoin vám umožňuje prijímať platby priamo od zákazníkov, podobne ako hotovosť. Bitcoinová sieť funguje bez sprostredkovateľov, ako sú banky a kreditné spoločnosti, ktoré si účtujú vysoké poplatky.",
+	"biz_s2": "Okamžité vyrovnanie",
+	"biz_s2_c1": "Rovnako ako hotovosť sa bitcoinové platby vyrovnávajú okamžite. Nemusíte čakať, kým vám zaplatí vaša kreditná spoločnosť alebo banka. Namiesto toho získate prístup k svojim peniazom hneď.",
+	"biz_s3": "Žiadne spätné platby ani podvody",
+	"biz_s3_c1": "Pretože bitcoinové platby prebiehajú priamo medzi vami a vašimi zákazníkmi, nikto vám nemôže peniaze vziať späť pomocou spätnej platby.",
+	"biz_s3_c2": "Falošný Bitcoin nemožno odoslať po Bitcoinovej sieti, čo znamená, že sa nikdy nemusíte obávať podvodných transakcií, ktoré by mohli stáť vašu firmu peniaze.",
+	"biz_s4": "Získajte viac zákazníkov",
+	"biz_s4_c1": "Milióny ľudí vlastnia Bitcoin a chcú ho minúť na miestach, ktoré ho prijímajú.",
+	"biz_s4_c2": "Samotným prijímaním Bitcoinu môže byť vaša firma uvedená na mapách obchodníkov prijímajúcich Bitcoin a získať zadarmo expozíciu novým zákazníkom.",
+	"biz_s4_c3": "Prijímanie Bitcoinu je 100 % zadarmo. Žiadne zmluvy ani skryté poplatky."
+}

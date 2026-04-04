@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"sign_success_1": "Svoje cedule dostanete za 1 až 2 týždne. Medzitým skúste vymyslieť dobré miesto pre vaše cedule!",
+	"sign_success_3": "Chcete vidieť, kam ostatní ľudia umiestňujú svoje cedule?",
+	"signs_share_header": "ZDIEĽAJTE SVOJE MIESTA S CEDUĽAMI",
+	"signs_share_c1": "Zdieľajte fotku svojho miesta s ceduľou s nami na Nostre a pošleme vám saty! Saty sú zlomky bitcoinu.",
+	"signs_btn_share_on_nostr": "ZDIEĽAŤ NA NOSTRE",
+	"signs_btn_what_is_nostr": "ČO JE NOSTR?"
+}

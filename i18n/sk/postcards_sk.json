@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"free_bitcoin_postcards": "Bezplatné bitcoinové pohľadnice od bitcoin.rocks",
+	"postcards_description": "Získajte bezplatný balíček bitcoinových pohľadníc a zdieľajte Bitcoin s niekým, koho poznáte.",
+	"postcards_header": "PROGRAM POHĽADNÍC UKONČENÝ",
+	"postcards_program_closed_message": "Náš bezplatný program bitcoinových pohľadníc skončil. Ďakujeme všetkým, ktorí sa podieľali na šírení vzdelávania o Bitcoine prostredníctvom pošty!",
+	"postcards_sticker_alternative_header": "ZÍSKAJTE NAMIESTO TOHO BEZPLATNÉ BITCOINOVÉ NÁLEPKY",
+	"postcards_sticker_alternative_message": "Pokračujte v šírení povedomia o Bitcoine s naším bezplatným programom nálepiek! Naše bitcoinové nálepky sú ideálne pre zdieľanie na verejných miestach a obsahujú QR kódy odkazujúce na vzdelávací obsah.",
+	"postcards_sticker_cta": "ZÍSKAŤ BEZPLATNÉ NÁLEPKY",
+	"postcards_step_2": "AKO POHĽADNICE VYZERALI",
+	"postcards_instructions_4": "Tieto pohľadnice sme vytvorili, aby bolo jednoduchšie predstaviť Bitcoinu niekoho, koho poznáte! Stačí pridať adresu a známku a vhodiť pohľadnicu do schránky.",
+	"postcards_instructions_5": "Naším poslaním je urýchliť prijatie Bitcoinu. Môžete pomôcť získaním bezplatných nálepiek a ich umiestnením na verejné miesta!",
+	"postcards_instructions_6": "Všetci poznáme pár ľudí, ktorí by mohli mať prospech z toho, keby sa dozvedeli viac o Bitcoine. Zdieľajte s nimi bitcoinové nálepky ešte dnes!"
+}

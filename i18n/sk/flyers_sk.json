@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"free_bitcoin_flyers": "Bezplatné bitcoinové letáky od bitcoin.rocks",
+	"flyers_description": "Vytlačte si doma bitcoinový leták a umiestnite ho na verejné miesto, aby ste presvedčili ľudí okolo vás.",
+	"flyers_header_1": "TLAČTE A VYLEPUJTE",
+	"flyers_header_2": "BITCOINOVÉ LETÁKY",
+	"flyers_intro_header": "AKO TLAČIŤ A VYLEPOVAŤ TIETO BITCOINOVÉ LETÁKY",
+	"flyers_intro_c1": "Naším poslaním je pomôcť vám presvedčiť viac ľudí tým, že budete dávať bitcoinové letáky na verejné miesta. Tento leták má QR kód, ktorý odkazuje na našu",
+	"flyers_intro_c2": "vzdelávaciu bitcoinovú stránku.",
+	"flyers_intro_c3": "inflácii",
+	"flyers_intro_c4": "Vytlačte tento leták doma alebo v tlačiarni. Potom ho umiestnite na nástenky, telefónne stĺpy v meste a ďalšie verejné miesta, kde ho ľudia uvidia a dozvedia sa o Bitcoine.",
+	"flyers_intro_c5": "Medzitým si požiadajte o balíček našich",
+	"flyers_intro_c6": "bezplatných bitcoinových nálepiek",
+	"flyers_intro_c7": "a pomôžte presvedčiť ešte viac ľudí.",
+	"flyers_btn_download": "STIAHNUŤ LETÁK",
+	"flyers_btn_print": "TLAČIŤ LETÁK",
+	"flyers_share_header": "ZDIEĽAJTE SVOJE MIESTA S LETÁKMI",
+	"flyers_share_c1": "Zdieľajte svoje miesta s letákmi s nami na Nostre a pozrite sa, kam ostatní ľudia dávajú svoje letáky.",
+	"flyers_btn_share_on_nostr": "ZDIEĽAŤ NA NOSTRE",
+	"flyers_btn_what_is_nostr": "ČO JE NOSTR?"
+}

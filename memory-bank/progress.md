@@ -1,5 +1,13 @@
 # Progress: bitcoin.rocks
 
+## Slovak (sk) Language Added — April 2026
+- Added Slovak (Slovenčina) as the 27th language
+- Created all 90+ translation files in `i18n/sk/` mirroring the English directory structure
+- Translation scripts in `scripts/slovak/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (26→27)
+- Fixed Cyrillic sort order in language.js (български now before Русский)
+- Ran SEO content injection
+
 ## Russian (ru) Language Added — April 2026
 - Added Russian (Русский) as the 26th language
 - Created all 90+ translation files in `i18n/ru/` mirroring the English directory structure

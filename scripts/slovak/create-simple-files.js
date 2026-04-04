@@ -1,0 +1,130 @@
+/**
+ * Creates Slovak (sk) translation files for small/simple pages:
+ * 404, about, success pages, calculator, nostr
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const i18nDir = path.join(__dirname, '..', '..', 'i18n');
+const lang = 'sk';
+const today = '2026-04-04';
+
+const meta = {
+	"@metadata": {
+		"authors": ["Satoshi"],
+		"last-updated": today,
+		"locale": lang
+	}
+};
+
+function writeFile(relPath, data) {
+	const filePath = path.join(i18nDir, lang, relPath);
+	fs.mkdirSync(path.dirname(filePath), { recursive: true });
+	fs.writeFileSync(filePath, JSON.stringify({ ...meta, ...data }, null, '\t') + '\n', 'utf8');
+	console.log(`CREATED: ${filePath}`);
+}
+
+// 404
+writeFile(`404_${lang}.json`, {
+	"404_title": "Chyba 404 | Stránka nenájdená",
+	"404_message": "TÁTO NEFUNKČNÁ STRÁNKA NIE JE COOL",
+	"404_home": "SPÄŤ NA HLAVNÚ STRÁNKU"
+});
+
+// about
+writeFile(`about_${lang}.json`, {
+	"about_page_title": "O bitcoin.rocks — Vzdelávanie o Bitcoine od roku 2022",
+	"about_description": "bitcoin.rocks je bezplatná open-source webová stránka o vzdelávaní v oblasti Bitcoinu, založená v roku 2022. Naším poslaním je urýchliť prijatie Bitcoinu prostredníctvom vzdelávania.",
+	"about_header": "O NÁS",
+	"about_header_2": "BITCOIN.ROCKS",
+	"about_mission_header": "Naše poslanie",
+	"about_mission_1": "bitcoin.rocks bol založený v roku 2022 s jednoduchým poslaním: urýchliť prijatie Bitcoinu prostredníctvom vzdelávania.",
+	"about_mission_2": "Existujeme preto, aby sme boli prvým odkazom, ktorý zdieľate s niekým, kto je zvedavý na Bitcoin. Priateľský a prístupný východiskový bod, ktorý vysvetľuje, ako Bitcoin buduje lepší svet.",
+	"about_mission_3": "Príliš veľa ľudí Bitcoinu nerozumie alebo im nikdy nebol správne predstavený. Chceme to zmeniť poskytovaním bezplatného a kvalitného vzdelávacieho obsahu, ktorému môže porozumieť každý.",
+	"about_what_we_do_header": "Čo robíme",
+	"about_what_we_do_1": "Vytvárame bezplatný vzdelávací obsah pre nováčikov v oblasti Bitcoinu. Naše stránky pokrývajú témy ako inflácia, vlastná správa, peňaženky, Lightning Network a porovnanie Bitcoinu s ostatnými aktívami a platobnými systémami.",
+	"about_what_we_do_2a": "Posielame ",
+	"about_what_we_do_2b": "bezplatné bitcoinové nálepky",
+	"about_what_we_do_2c": " až k vašim dverám, aby ste mohli pomôcť šíriť povedomie o Bitcoine vo vašej komunite. Stovky ľudí každý mesiac skenujú QR kódy na týchto nálepkách, aby sa dozvedeli o Bitcoine.",
+	"about_what_we_do_3a": "Poskytujeme tiež ",
+	"about_what_we_do_3b": "tlačiteľné letáky",
+	"about_what_we_do_3c": " a ",
+	"about_what_we_do_3d": "podnikateľské sady",
+	"about_what_we_do_3e": " pre každého, kto chce pomôcť priviesť miestne podniky k prijímaniu bitcoinových platieb.",
+	"about_what_we_do_4": "Všetok náš obsah predpokladá nulové predchádzajúce znalosti o Bitcoine. Či už ste v Bitcoine úplný nováčik alebo skúsený bitcoiner hľadajúci zdroje na zdieľanie, bitcoin.rocks je pre vás.",
+	"about_editorial_header": "Náš redakčný prístup",
+	"about_editorial_1": "Každý obsah na bitcoin.rocks je starostlivo vybraný a overený. Keď odkazujeme na dáta alebo štatistiky, uvádzame naše zdroje, aby ste si mohli informácie overiť sami.",
+	"about_editorial_2": "Odkazujeme na dôveryhodné zdroje ako TIME Magazine, Forbes, MIT Technology Review, Lyn Alden a mnoho ďalších. Veríme, že Bitcoin hovorí sám za seba, keď sú fakty prezentované jasne.",
+	"about_editorial_3": "Náš obsah je pravidelne kontrolovaný a aktualizovaný, aby bola zaistená presnosť a aktuálnosť. Všetok obsah je zameraný výhradne na vzdelávanie o Bitcoine.",
+	"about_open_source_header": "Open Source",
+	"about_open_source_1a": "bitcoin.rocks je bezplatný open-source projekt licencovaný pod licenciou MIT. Celý náš kód je verejne dostupný ",
+	"about_open_source_1b": "na GitHube",
+	"about_open_source_1c": ".",
+	"about_open_source_2": "Ktokoľvek môže prispieť k bitcoin.rocks. Obzvlášť vítame prekladateľov, ktorí pomáhajú sprístupniť náš obsah ľuďom po celom svete.",
+	"about_open_source_3": "Vďaka našej komunite dobrovoľných prekladateľov je bitcoin.rocks v súčasnosti dostupný v 27 jazykoch a stále rastie.",
+	"about_open_source_contribute": "Zistite, ako prispieť.",
+	"about_contact_header": "Kontaktujte nás",
+	"about_contact_1": "Radi od vás počujeme. Či už máte otázku, návrh alebo nám len chcete povedať ahoj, ozvite sa kedykoľvek.",
+	"about_contact_email": "E-mail:",
+	"about_contact_nostr": "Nostr:",
+	"about_contact_github": "GitHub:"
+});
+
+// sticker-success
+writeFile(`sticker-success_${lang}.json`, {
+	"sticker_success_1": "Svoje nálepky dostanete za 2 až 4 týždne. Medzitým skúste vymyslieť dobré miesto pre vaše nálepky!",
+	"sticker_success_2": "Dobré miesta pre nálepky sú:",
+	"sticker_success_list_1": "na verejných miestach, kde ich ľudia uvidia",
+	"sticker_success_list_2": "na miestach, odkiaľ pravdepodobne nebudú rýchlo odstránené (nálepky nespôsobujú žiadne trvalé poškodenie)",
+	"sticker_success_list_3": "na povrchoch, na ktoré sa ľahko prilepia (kov, plast, sklo)",
+	"sticker_success_list_4": "NIE na súkromnom majetku, cez značenie, bankomaty alebo čerpacie stanice",
+	"sticker_success_3": "Chcete vidieť, kam ostatní ľudia dávajú svoje nálepky?",
+	"sticker_success_flyers_bar_new": "NOVINKA!",
+	"sticker_success_flyers_bar_cta": "Tlačte a vylepujte bitcoinové letáky →"
+});
+
+// sticker-language-success
+writeFile(`sticker-language-success_${lang}.json`, {
+	"sticker_language_success_1": "Vašu požiadavku sme úspešne prijali.",
+	"sticker_language_success_2": "Nové súbory zverejňujeme v dávkach, takže môže trvať niekoľko týždňov, kým budú tieto súbory dostupné na stiahnutie. Skontrolujte to znova čoskoro!"
+});
+
+// postcard-success
+writeFile(`postcard-success_${lang}.json`, {
+	"postcard_success_1": "Svoje pohľadnice dostanete za 1 až 2 týždne.",
+	"postcard_success_2": "Ďakujeme, že pomáhate urýchliť prijatie Bitcoinu posielaním týchto pohľadníc niekomu, koho poznáte!"
+});
+
+// sign-success
+writeFile(`sign-success_${lang}.json`, {
+	"sign_success_1": "Svoje cedule dostanete za 1 až 2 týždne. Medzitým skúste vymyslieť dobré miesto pre vaše cedule!",
+	"sign_success_3": "Chcete vidieť, kam ostatní ľudia umiestňujú svoje cedule?",
+	"signs_share_header": "ZDIEĽAJTE SVOJE MIESTA S CEDUĽAMI",
+	"signs_share_c1": "Zdieľajte fotku svojho miesta s ceduľou s nami na Nostre a pošleme vám saty! Saty sú zlomky bitcoinu.",
+	"signs_btn_share_on_nostr": "ZDIEĽAŤ NA NOSTRE",
+	"signs_btn_what_is_nostr": "ČO JE NOSTR?"
+});
+
+// compound-inflation-calculator
+writeFile(`compound-inflation-calculator_${lang}.json`, {
+	"cic_header": "KALKULAČKA ZLOŽENEJ INFLÁCIE",
+	"cic_description": "Pomocou tejto kalkulačky zloženej inflácie zistíte, o koľko musí vzrásť váš plat, aby udržal krok s infláciou.",
+	"what_can_i_do_about": "Čo môžem robiť s",
+	"what_can_i_do_about_2": "infláciou?",
+	"cic_inflation_cta": "Odhláste sa z inflácie pomocou Bitcoinu"
+});
+
+// nostr/index
+writeFile(`nostr/index_${lang}.json`, {
+	"escape_the_matrix_with_nostr": "Uniknite z Matrixu s Nostrom",
+	"nostr_header": "UNIKNITE Z MATRIXU S NOSTROM"
+});
+
+// nostr/what-is-nostr
+writeFile(`nostr/what-is-nostr_${lang}.json`, {
+	"what_is_nostr": "Čo je Nostr?",
+	"what_is_nostr_header": "ČO JE NOSTR?"
+});
+
+console.log(`\nDone! Created 9 simple files.`);

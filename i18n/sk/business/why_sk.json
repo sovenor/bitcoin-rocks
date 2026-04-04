@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Zistite, prečo je Bitcoin dobrý pre podnikanie",
+	"why_header": "BITCOIN JE DOBRÝ PRE PODNIKANIE",
+	"why_good_for_you": "BITCOIN JE DOBRÝ AJ PRE VÁS!",
+	"why_learn_more_lowercase": "Zistite viac.",
+	"why_s1": "Bitcoin nemá infláciu",
+	"why_s1_c1": "Inflácia nastáva, keď sa tlačí alebo vytvára viac peňazí z ničoho. To spôsobuje, že vaše peniaze strácajú hodnotu v čase.",
+	"why_s1_c2": "Bitcoin má pevnú ponuku, čo znamená, že nikto nemôže vytlačiť viac Bitcoinu.",
+	"why_s2": "Bitcoin nemá bankové runy",
+	"why_s2_c1": "Niekoľko amerických bánk sa v posledných rokoch zrútilo kvôli bankovým runom.",
+	"why_s2_c2": "Namiesto toho, aby banky len držali vaše peniaze, investujú ich a požičiavajú. Ak tieto investície nedopadnú dobre, nemajú dosť peňazí na to, aby vám ich vrátili.",
+	"why_s2_c3": "A poistný fond FDIC má iba 1 dolár na každých 100 dolárov, ktoré poisťuje.",
+	"why_s3": "Bitcoin je bez povolenia",
+	"why_s3_c1": "Na rozdiel od tradičných finančných sietí Bitcoin nevyžaduje povolenie na použitie.",
+	"why_s3_c2": "To znamená, že vám nikto nemôže zabrániť v používaní Bitcoinu z akéhokoľvek dôvodu. Je to prvá finančná sieť, ktorú môžete používať bez obáv z cenzúry alebo zabavenia.",
+	"why_s4": "Bitcoin buduje lepší svet",
+	"why_s4_c1": "Bitcoin je nepochopená technológia, ktorá buduje lepší svet.",
+	"why_s4_c2": "Bitcoin umožnil aktivistom za ľudské práva bojovať za slobodu, znížil globálne emisie metánu, zachránil národné parky a mnoho ďalšieho."
+}

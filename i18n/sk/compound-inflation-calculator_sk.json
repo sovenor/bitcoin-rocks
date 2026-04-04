@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"cic_header": "KALKULAČKA ZLOŽENEJ INFLÁCIE",
+	"cic_description": "Pomocou tejto kalkulačky zloženej inflácie zistíte, o koľko musí vzrásť váš plat, aby udržal krok s infláciou.",
+	"what_can_i_do_about": "Čo môžem robiť s",
+	"what_can_i_do_about_2": "infláciou?",
+	"cic_inflation_cta": "Odhláste sa z inflácie pomocou Bitcoinu"
+}

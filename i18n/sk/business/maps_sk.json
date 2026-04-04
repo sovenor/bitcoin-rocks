@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Mapy bitcoinových obchodníkov — Zadarmo zápis vašej firmy",
+	"maps_header": "ZAPÍŠTE SA NA MAPY BITCOINOVÝCH OBCHODNÍKOV A ZÍSKAJTE VIAC ZÁKAZNÍKOV",
+	"maps_request_details": "Zadajte údaje o vašej firme nižšie a my vás zadarmo zapíšeme na mapy bitcoinových obchodníkov. To umožní bitcoinerom nájsť vašu firmu a minúť svoj Bitcoin u vás!",
+	"maps_view": "Zobraziť mapu tu."
+}

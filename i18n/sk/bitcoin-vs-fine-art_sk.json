@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Umenie",
+	"fine_art_header": "ROZDIEL MEDZI",
+	"fine_art_header_2": "BITCOINOM",
+	"fine_art_header_3": "A",
+	"fine_art_header_4": "UMENÍM",
+	"fine_art_intro_1": "Umenie je po stáročia luxusnou investíciou a bohatí zberatelia ho často považujú za uchovávateľa hodnoty.",
+	"fine_art_intro_2": "Bitcoin sú digitálne peniaze, ktoré mnohí tiež považujú za uchovávateľa hodnoty a investíciu.",
+	"fine_art_intro_3": "Ako sa ale fyzické umelecké diela líšia od digitálnych peňazí ako Bitcoin? Pozrime sa na rozdiely medzi dvoma formami investícií: Bitcoinom a Umením.",
+	"fine_art": "UMENIE",
+	"fine_art_point_1": "Každý kus je unikátny",
+	"fine_art_point_2": "Vyžaduje špecializované aukcie",
+	"fine_art_point_3": "Vysoké aukčné poplatky",
+	"fine_art_point_4": "Nemožno rozdeliť",
+	"fine_art_point_5": "Vyžaduje odbornú autentifikáciu",
+	"fine_art_point_6": "Zraniteľné poškodením",
+	"fine_art_point_7": "Iba pre bohatých zberateľov",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Dokonale zameniteľný",
+	"bitcoin_point_2": "Globálny trh 24/7",
+	"bitcoin_point_3": "Nízke transakčné poplatky",
+	"bitcoin_point_4": "Ľahko deliteľný",
+	"bitcoin_point_5": "Kryptograficky overiteľný",
+	"bitcoin_point_6": "Ťažko zničiteľný",
+	"bitcoin_point_7": "Prístupný každému",
+	"point_1_summary_1": "Bitcoin je dokonale zameniteľný, čo znamená, že každý bitcoin je identický a vzájomne zameniteľný — jeden bitcoin sa rovná jednému bitcoinu kdekoľvek na svete. Umenie je zo svojej podstaty nezameniteľné, pričom každé dielo je unikátne svojím vytvorením, históriou, stavom a provenienclou, čo robí priame porovnania a ocenenia extrémne ťažkými.",
+	"point_2_summary_1": "Bitcoin sa obchoduje na globálnom trhu 24/7, kde ktokoľvek s prístupom na internet môže okamžite kupovať alebo predávať. Umenie vyžaduje špecializované aukčné domy ako Sotheby's alebo Christie's, súkromných dílerov alebo exkluzívne galérie. Predaj môže trvať mesiace a prístup na trh je obmedzený.",
+	"point_3_summary_1": "Nákup alebo predaj bitcoinu stojí zvyčajne menej ako 1 % na poplatkoch, často oveľa menej. Predaj umenia zahŕňa značné náklady vrátane prémie kupujúceho (10–25 %), provízie predávajúceho (10–15 %), poistenia, prepravy, skladovania a poplatkov za autentifikáciu. Tieto kombinované náklady môžu ľahko presiahnuť 30–40 % hodnoty diela v jedinej transakcii.",
+	"point_4_summary_1": "Bitcoin možno rozdeliť na 100 miliónov menších jednotiek nazývaných satoshi, čo ho robí ideálnym pre transakcie akejkoľvek veľkosti. Umenie nemožno rozdeliť — nemôžete vlastniť zlomok obrazu alebo predať len časť sochy. Táto nedeliteľnosť obmedzuje investičnú flexibilitu.",
+	"point_5_summary_1": "Vlastníctvo a autentickosť Bitcoinu možno kryptograficky overiť na blockchaine kýmkoľvek so základnými technickými znalosťami. Umenie vyžaduje nákladnú odbornú autentifikáciu, výskum proveniencie a vedeckú analýzu. Aj napriek odbornému overeniu falzifikáty pravidelne klamú svet umenia. Bitcoin naopak nemožno padělať.",
+	"point_6_summary_1": "Bitcoin, ak je správne zálohovaný, nemôže byť zničený povodňami, požiarmi, zemetraseniami, hurikánmi, krádežou ani inými katastrofami. Umenie je zraniteľné voči všetkým formám fyzického zničenia a degradácie.",
+	"point_7_summary_1": "Bitcoin môže kupovať a predávať ktokoľvek s prístupom na internet a malou čiastkou peňazí na investovanie. Investície do umenia sú do značnej miery obmedzené na bohatých zberateľov kvôli vysokým minimálnym cenám, exkluzívnemu prístupu na aukcie, požiadavkám na skladovanie, nákladom na poistenie a špecializovaným znalostiam."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"bitcoin_business_kit": "Bitcoinová podnikateľská sada",
+	"kit_header": "VYTLAČTE SI VLASTNÚ BITCOINOVÚ PODNIKATEĽSKÚ SADU",
+	"kit_request": "POŽIADAJTE O BEZPLATNÚ SADU",
+	"kit_request_details": "Každá bitcoinová podnikateľská sada obsahuje dva letáky, ktoré uľahčujú presvedčiť miestnu firmu, aby prijímala Bitcoin.",
+	"kit_country_global_print": "Celosvetovo — Vytlačím si vlastné sady",
+	"kit_enter_address": "Zadajte svoju poštovú adresu a my vám zadarmo pošleme bitcoinovú podnikateľskú sadu v obyčajnej bielej obálke. Údaje o adrese sú vymazané po odoslaní sady.",
+	"kit_print_details": "Môžete sa zapojiť tlačou vlastných letákov, nech žijete kdekoľvek! Môžete tiež odkázať firmy na našu digitálnu podnikateľskú sadu, aby ste sa vyhli tlači.",
+	"kit_view_files": "ZOBRAZIŤ SÚBORY",
+	"kit_digital_kit": "DIGITÁLNA SADA",
+	"kit_resources": "KAŽDÁ SADA ODKAZUJE NA TIETO BEZPLATNÉ ZDROJE"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "sk"
+	},
+	"get_involved_and_help_spread_bitcoin": "Zapojte sa a pomôžte šíriť Bitcoin",
+	"get_involved_description": "Naše bezplatné zdroje uľahčujú šírenie prijatia Bitcoinu.",
+	"get_involved_header": "ZAPOJTE SA",
+	"get_involved_header_2": "ŠÍRTE BITCOIN",
+	"get_involved_intro_1": "Môže byť deprimujúce žiť v súčasnom stave nášho sveta.",
+	"get_involved_intro_2": "Naše peniaze sú rozbité. V dôsledku toho sú rozbité aj základné časti spoločnosti.",
+	"get_involved_intro_3": "Ak sa už zaujímate o Bitcoin, poznáte ten pocit nádeje, ktorý Bitcoin môže priniesť. Nádeje na lepšiu budúcnosť umožnenú lepšími peniazmi.",
+	"get_involved_intro_4": "Ale toľko ľudí okolo vás o Bitcoine nevie. Žijú v rovnakom rozbítom svete ako vy, ale bez majáku nádeje, ktorý by im pomohol cez temnotu.",
+	"get_involved_intro_5": "Ale vy to môžete zmeniť. Vytvorili sme niekoľko bezplatných zdrojov, ktoré uľahčujú šírenie nádeje, ktorú Bitcoin prináša ľuďom okolo vás.",
+	"get_involved_sticker_header": "Dajte nálepku na verejné miesto",
+	"get_involved_sticker_content_1": "Môžete pomôcť vzdelávať ľudí okolo seba o Bitcoine, bez toho aby ste museli s kýmkoľvek komunikovať. Jednoducho dajte jednu z našich bezplatných bitcoinových nálepiek na verejné miesto.",
+	"get_involved_sticker_content_2": "Stovky ľudí každý mesiac skenujú QR kódy na týchto nálepkách. Inflačné nálepky odkazujú na stránku o",
+	"get_involved_sticker_content_3": "Bitcoine ako riešení inflácie.",
+	"get_involved_sticker_content_4": "Ostatné nálepky odkazujú na našu vzdelávaciu hlavnú stránku, ktorá ľuďom ukazuje, ako",
+	"get_involved_sticker_content_5": "Bitcoin buduje lepší svet.",
+	"get_involved_sticker_content_6": "Umiestnením týchto nálepiek vo vašej komunite na miesta, kde ich ľudia uvidia, môžete pomôcť ľuďom okolo vás urobiť prvé kroky do bitcoinovej králičej nory.",
+	"get_involved_request_a": "POŽIADAJTE O",
+	"get_involved_sticker_pack": "BALÍČEK NÁLEPIEK",
+	"get_involved_postcard_header": "Pošlite pohľadnicu",
+	"get_involved_postcard_content_1": "Môžete pomôcť šíriť nádej Bitcoinu niekomu, koho poznáte, poslaním jednej z našich bezplatných pohľadníc.",
+	"get_involved_postcard_content_2": "Zadná strana každej pohľadnice obsahuje presvedčivý text o Bitcoine spolu s QR kódom pre ďalšie informácie.",
+	"get_involved_postcard_content_3": "Poslaním bitcoinovej pohľadnice môžete pomôcť niekomu vidieť Bitcoin v novom svetle.",
+	"get_involved_postcard_pack": "BALÍČEK POHĽADNÍC",
+	"get_involved_business_header": "Pripojte firmu",
+	"get_involved_business_content_1": "Chcete pomôcť budovať bitcoinovú cirkulárnu ekonomiku? Naša bitcoinová podnikateľská sada uľahčuje oslovenie firmy ohľadom prijímania bitcoinových platieb.",
+	"get_involved_business_content_2": "Každá podnikateľská sada obsahuje letáky, ktoré zdôrazňujú výhody prijímania bitcoinových platieb. Každý leták odkazuje na rôzne",
+	"get_involved_business_content_3": "bezplatné bitcoinové podnikateľské zdroje.",
+	"get_involved_business_kit": "PODNIKATEĽSKÁ SADA"
+}
