@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"bitcoin_business_kit": "비트코인 비즈니스 키트",
+	"kit_header": "비트코인 비즈니스 키트를 직접 인쇄하세요",
+	"kit_request": "무료 키트 요청",
+	"kit_request_details": "각 비트코인 비즈니스 키트에는 지역 비즈니스에 비트코인 수납을 쉽게 소개할 수 있는 2개의 브로셔가 포함되어 있습니다.",
+	"kit_country_global_print": "글로벌 — 직접 인쇄하기",
+	"kit_enter_address": "주소를 입력하시면 무료 비트코인 비즈니스 키트를 흰색 봉투로 보내드립니다. 주소 데이터는 키트 발송 후 삭제됩니다.",
+	"kit_print_details": "어디에 살든 직접 브로셔를 인쇄하여 참여할 수 있습니다! 인쇄를 원하지 않는 경우 디지털 비즈니스 키트를 비즈니스에 보낼 수도 있습니다.",
+	"kit_view_files": "파일 보기",
+	"kit_digital_kit": "디지털 키트",
+	"kit_resources": "각 키트에는 이러한 무료 리소스 링크가 포함되어 있습니다"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"sticker_language_success_1": "요청이 정상적으로 접수되었습니다.",
+	"sticker_language_success_2": "새 파일은 일괄적으로 공개하므로 다운로드 가능해지기까지 몇 주가 걸릴 수 있습니다. 나중에 다시 방문해 주세요!"
+}

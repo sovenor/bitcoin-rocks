@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"signs_description": "미국 전역에 이 비트코인 간판을 설치하는 데 도와주세요!",
+	"signs_title": "bitcoin.rocks의 무료 비트코인 간판",
+	"signs_choose_header": "미국 전역에 이 비트코인 간판을 설치해 주셔서 감사합니다!",
+	"signs_choose_c1": "간판이 모두 소진되었습니다! 우리의 사명은 교육을 통해 비트코인 채택을 가속화하는 것입니다.",
+	"signs_choose_c2": "많은 분들이 공공장소에 이 무료 비트코인 간판을 설치하여 도움을 주셨습니다. 모든 간판에는 교육 페이지로 연결되는 QR 코드가 있습니다:",
+	"signs_choose_c3": "인플레이션",
+	"signs_choose_c4": "놀라운 커뮤니티 덕분에 수천 명의 사람들에게 다가가 비트코인 토끼굴의 첫걸음을 내딛도록 도울 수 있었습니다.",
+	"signs_share_header": "간판 설치 장소 공유하기",
+	"signs_share_c1": "Nostr에서 간판 설치 장소 사진을 공유하고 다른 사람들이 어디에 간판을 설치하는지 확인하세요.",
+	"signs_btn_share_on_nostr": "NOSTR에서 공유하기",
+	"signs_btn_what_is_nostr": "NOSTR란?",
+	"signs_instructions_1": "우편 주소를 입력하시면 비트코인 간판 10개가 든 상자를 배송해 드립니다!",
+	"signs_instructions_2": "주소 데이터는 무료 간판 발송 후 삭제됩니다."
+}

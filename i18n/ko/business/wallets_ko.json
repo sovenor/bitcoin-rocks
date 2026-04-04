@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"how_to_accept_bitcoin_payments": "비트코인 결제 수납 방법",
+	"wallets_header": "무료 비트코인 지갑을 받고 비트코인 결제를 시작하세요",
+	"wallets_intro_1": "모든 비트코인 지갑은 상호 운용이 가능하므로 고객은 어떤 지갑을 사용하든 비트코인으로 결제할 수 있습니다.",
+	"wallets_intro_2": "비트코인 전용 지갑:",
+	"wallets_intro_3": "중개자 없이 비트코인의 모든 이점을 활용하는 순수 비트코인 지갑입니다: 낮은 수수료, 차지백이나 사기 거래 없음.",
+	"wallets_intro_4": "하이브리드 지갑:",
+	"wallets_intro_5": "고객으로부터 결제를 받는 동시에 비트코인의 원하는 비율을 달러로 환전할 수 있습니다. 수수료는 신용카드보다 낮지만 순수 비트코인 결제보다는 높습니다.",
+	"wallets_intro_6": "둘 다 비트코인을 받는 훌륭한 방법입니다. 사용할 지갑은 비즈니스의 규모와 유형에 따라 다릅니다.",
+	"wallets_choice_sole": "개인 사업자용 지갑",
+	"wallets_choice_multiple": "다수 직원 비즈니스용 지갑",
+	"wallets_choice_online": "온라인 비즈니스용 지갑",
+	"wallets_choice_invoice": "송장 기반 비즈니스용 지갑",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "기존 Square POS 단말기나 온라인 스토어 연동으로 비트코인 결제를 받을 수 있습니다. 비트코인 결제 수납이 이렇게 쉬웠던 적이 없습니다.",
+	"wallets_feature_bitcoin_only": "비트코인 전용 지갑",
+	"wallets_feature_no_info": "정보 입력 불필요",
+	"wallets_feature_in_person": "대면 결제만 가능",
+	"wallets_feature_settles_bitcoin": "100% 비트코인으로 정산",
+	"wallets_feature_hybrid": "하이브리드 지갑",
+	"wallets_feature_info": "비즈니스 정보 입력 필요",
+	"wallets_feature_in_person_online": "대면 및 온라인 결제",
+	"wallets_feature_settles_both": "비트코인 및 달러로 정산",
+	"wallets_feature_multiple_employees": "다수 직원 지원 (BPT)",
+	"wallets_feature_self_hosted": "셀프 호스팅 = 수수료 0%",
+	"wallets_feature_online_store": "온라인 스토어 연동",
+	"wallets_feature_invoicing": "무료 송장 소프트웨어",
+	"wallets_get_wallet": "지갑 받기"
+}

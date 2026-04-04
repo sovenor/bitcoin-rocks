@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"free_bitcoin_flyers": "bitcoin.rocks의 무료 비트코인 전단지",
+	"flyers_description": "비트코인 전단지를 집에서 인쇄하여 공공장소에 게시하세요.",
+	"flyers_header_1": "인쇄 & 게시",
+	"flyers_header_2": "비트코인 전단지",
+	"flyers_intro_header": "비트코인 전단지 인쇄 및 게시 방법",
+	"flyers_intro_c1": "우리의 사명은 공공장소에 비트코인 전단지를 붙여 더 많은 사람들이 비트코인에 관심을 갖게 하는 것입니다. 이 전단지에는 저희",
+	"flyers_intro_c2": "교육 비트코인 웹사이트로 연결되는 QR 코드가 있습니다.",
+	"flyers_intro_c3": "인플레이션",
+	"flyers_intro_c4": "이 전단지를 집이나 인쇄소에서 인쇄하세요. 그런 다음 게시판, 전봇대, 사람들이 볼 수 있는 공공장소에 게시하여 비트코인에 대해 알리세요.",
+	"flyers_intro_c5": "전단지를 게시하는 김에",
+	"flyers_intro_c6": "무료 비트코인 스티커",
+	"flyers_intro_c7": "도 요청하여 더 많은 사람들에게 알리세요.",
+	"flyers_btn_download": "전단지 다운로드",
+	"flyers_btn_print": "전단지 인쇄",
+	"flyers_share_header": "전단지 게시 장소 공유하기",
+	"flyers_share_c1": "Nostr에서 전단지 게시 장소를 공유하고 다른 사람들이 어디에 전단지를 붙이는지 확인하세요.",
+	"flyers_btn_share_on_nostr": "NOSTR에서 공유하기",
+	"flyers_btn_what_is_nostr": "NOSTR란?"
+}

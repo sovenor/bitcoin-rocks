@@ -41,6 +41,7 @@ $(function() {
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'zh', name: '中文' },
     { code: 'ja', name: '日本語' },
+    { code: 'ko', name: '한국어' },
     { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
   ];
 

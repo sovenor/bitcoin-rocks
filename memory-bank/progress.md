@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Korean (ko) Language Added — April 2026
+- Added Korean (한국어) as the 28th language
+- Created all 90+ translation files in `i18n/ko/` mirroring the English directory structure
+- Translation scripts in `scripts/korean/` (8 scripts broken by category)
+- Updated: language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (27→28)
+- Ran SEO content injection
+
 ## Slovak (sk) Language Added — April 2026
 - Added Slovak (Slovenčina) as the 27th language
 - Created all 90+ translation files in `i18n/sk/` mirroring the English directory structure

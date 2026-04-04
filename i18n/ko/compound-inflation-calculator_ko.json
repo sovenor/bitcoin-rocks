@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"cic_header": "복리 인플레이션 계산기",
+	"cic_description": "이 복리 인플레이션 계산기를 사용하여 인플레이션에 맞추기 위해 급여가 얼마나 올라야 하는지 확인하세요.",
+	"what_can_i_do_about": "어떻게 하면",
+	"what_can_i_do_about_2": "인플레이션에 대처할 수 있을까요?",
+	"cic_inflation_cta": "비트코인으로 인플레이션에서 벗어나기"
+}

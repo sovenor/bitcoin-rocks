@@ -1,6 +1,14 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Slovak Language Added — April 2026
+## Latest: Korean Language Added — April 2026
+- Added Korean (`ko`, 한국어) as the 28th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/korean/`
+- Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 28 languages
+- Korean placed after Japanese (日本語) in language.js — Hangul follows CJK in Unicode order
+- Ran SEO content injection successfully
+
+## Slovak Language Added — April 2026
 - Added Slovak (`sk`, Slovenčina) as the 27th language on bitcoin.rocks
 - Created all 90+ translation files via 8 scripts in `scripts/slovak/`
 - Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt

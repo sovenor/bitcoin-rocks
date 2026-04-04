@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"sticker_success_1": "2~4주 이내에 스티커를 배송해 드립니다. 그동안 스티커를 붙일 좋은 장소를 생각해 보세요!",
+	"sticker_success_2": "스티커를 붙이기 좋은 장소:",
+	"sticker_success_list_1": "사람들의 눈에 띄는 공공장소",
+	"sticker_success_list_2": "쉽게 떼어지지 않는 곳 (스티커는 영구적 손상을 주지 않습니다)",
+	"sticker_success_list_3": "붙이기 쉬운 표면 (금속, 플라스틱, 유리)",
+	"sticker_success_list_4": "사유지, 표지판 위, ATM, 주유기에는 붙이지 마세요",
+	"sticker_success_3": "다른 사람들이 스티커를 어디에 붙이는지 보고 싶으신가요?",
+	"sticker_success_flyers_bar_new": "새로운 소식!",
+	"sticker_success_flyers_bar_cta": "비트코인 전단지를 인쇄하고 게시하세요 →"
+}

@@ -1,0 +1,130 @@
+/**
+ * Creates Korean (ko) translation files for small/simple pages:
+ * 404, about, success pages, calculator, nostr
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const i18nDir = path.join(__dirname, '..', '..', 'i18n');
+const lang = 'ko';
+const today = '2026-04-04';
+
+const meta = {
+	"@metadata": {
+		"authors": ["Satoshi"],
+		"last-updated": today,
+		"locale": lang
+	}
+};
+
+function writeFile(relPath, data) {
+	const filePath = path.join(i18nDir, lang, relPath);
+	fs.mkdirSync(path.dirname(filePath), { recursive: true });
+	fs.writeFileSync(filePath, JSON.stringify({ ...meta, ...data }, null, '\t') + '\n', 'utf8');
+	console.log(`CREATED: ${filePath}`);
+}
+
+// 404
+writeFile(`404_${lang}.json`, {
+	"404_title": "404 오류 | 페이지를 찾을 수 없습니다",
+	"404_message": "이 깨진 페이지는 전혀 멋지지 않네요",
+	"404_home": "홈으로 돌아가기"
+});
+
+// about
+writeFile(`about_${lang}.json`, {
+	"about_page_title": "bitcoin.rocks 소개 — 2022년부터 비트코인 교육",
+	"about_description": "bitcoin.rocks는 2022년에 설립된 무료 오픈소스 비트코인 교육 웹사이트입니다. 우리의 사명은 교육을 통해 비트코인 채택을 가속화하는 것입니다.",
+	"about_header": "소개",
+	"about_header_2": "BITCOIN.ROCKS",
+	"about_mission_header": "우리의 사명",
+	"about_mission_1": "bitcoin.rocks는 2022년에 간단한 사명을 가지고 설립되었습니다: 교육을 통해 비트코인 채택을 가속화하는 것.",
+	"about_mission_2": "우리는 비트코인에 관심이 있는 사람에게 처음 공유하는 링크로 존재합니다. 비트코인이 어떻게 더 나은 세상을 만들고 있는지 설명하는 친근하고 접근하기 쉬운 출발점입니다.",
+	"about_mission_3": "너무 많은 사람들이 비트코인을 오해하거나 제대로 소개받지 못했습니다. 우리는 누구나 이해할 수 있는 무료 고품질 교육 콘텐츠를 제공하여 이를 바꾸고자 합니다.",
+	"about_what_we_do_header": "우리가 하는 일",
+	"about_what_we_do_1": "우리는 비트코인 초보자를 위한 무료 교육 콘텐츠를 만듭니다. 웹사이트에서는 인플레이션, 셀프 커스터디, 지갑, 라이트닝 네트워크, 비트코인과 다른 자산 및 결제 시스템 비교 등의 주제를 다룹니다.",
+	"about_what_we_do_2a": "우리는 ",
+	"about_what_we_do_2b": "무료 비트코인 스티커",
+	"about_what_we_do_2c": "를 집으로 보내드려 여러분의 커뮤니티에서 비트코인 인식을 확산하는 데 도움을 드립니다. 매달 수백 명이 이 스티커의 QR 코드를 스캔하여 비트코인에 대해 배우고 있습니다.",
+	"about_what_we_do_3a": "또한 ",
+	"about_what_we_do_3b": "인쇄용 전단지",
+	"about_what_we_do_3c": "와 ",
+	"about_what_we_do_3d": "비즈니스 키트",
+	"about_what_we_do_3e": "를 제공하여 지역 비즈니스에 비트코인 결제를 도입하고자 하는 분들을 지원합니다.",
+	"about_what_we_do_4": "모든 콘텐츠는 비트코인에 대한 사전 지식이 전혀 없다고 가정합니다. 비트코인을 처음 접하는 분이든, 공유할 리소스를 찾는 숙련된 비트코이너든, bitcoin.rocks는 여러분을 위한 사이트입니다.",
+	"about_editorial_header": "편집 방침",
+	"about_editorial_1": "bitcoin.rocks의 모든 콘텐츠는 엄선되고 사실 확인을 거칩니다. 데이터나 통계를 인용할 때는 출처를 명시하여 직접 정보를 확인할 수 있도록 합니다.",
+	"about_editorial_2": "TIME 매거진, Forbes, MIT Technology Review, Lyn Alden 등 신뢰할 수 있는 출처에 링크합니다. 사실이 명확하게 제시되면 비트코인은 스스로 말한다고 믿습니다.",
+	"about_editorial_3": "콘텐츠는 정기적으로 검토하고 업데이트하여 정확성과 최신성을 보장합니다. 모든 콘텐츠는 비트코인 교육에만 집중합니다.",
+	"about_open_source_header": "오픈소스",
+	"about_open_source_1a": "bitcoin.rocks는 MIT 라이선스로 공개된 무료 오픈소스 프로젝트입니다. 전체 코드베이스는 ",
+	"about_open_source_1b": "GitHub에서",
+	"about_open_source_1c": " 공개되어 있습니다.",
+	"about_open_source_2": "누구나 bitcoin.rocks에 기여할 수 있습니다. 특히 전 세계 사람들에게 콘텐츠를 제공하는 데 도움을 주는 번역자를 환영합니다.",
+	"about_open_source_3": "자원봉사 번역자 커뮤니티 덕분에 bitcoin.rocks는 현재 28개 언어로 제공되며 계속 늘어나고 있습니다.",
+	"about_open_source_contribute": "기여 방법 알아보기.",
+	"about_contact_header": "문의하기",
+	"about_contact_1": "여러분의 연락을 기다립니다. 질문, 제안 또는 인사를 하고 싶으시면 언제든지 연락해 주세요.",
+	"about_contact_email": "이메일:",
+	"about_contact_nostr": "Nostr:",
+	"about_contact_github": "GitHub:"
+});
+
+// sticker-success
+writeFile(`sticker-success_${lang}.json`, {
+	"sticker_success_1": "2~4주 이내에 스티커를 배송해 드립니다. 그동안 스티커를 붙일 좋은 장소를 생각해 보세요!",
+	"sticker_success_2": "스티커를 붙이기 좋은 장소:",
+	"sticker_success_list_1": "사람들의 눈에 띄는 공공장소",
+	"sticker_success_list_2": "쉽게 떼어지지 않는 곳 (스티커는 영구적 손상을 주지 않습니다)",
+	"sticker_success_list_3": "붙이기 쉬운 표면 (금속, 플라스틱, 유리)",
+	"sticker_success_list_4": "사유지, 표지판 위, ATM, 주유기에는 붙이지 마세요",
+	"sticker_success_3": "다른 사람들이 스티커를 어디에 붙이는지 보고 싶으신가요?",
+	"sticker_success_flyers_bar_new": "새로운 소식!",
+	"sticker_success_flyers_bar_cta": "비트코인 전단지를 인쇄하고 게시하세요 →"
+});
+
+// sticker-language-success
+writeFile(`sticker-language-success_${lang}.json`, {
+	"sticker_language_success_1": "요청이 정상적으로 접수되었습니다.",
+	"sticker_language_success_2": "새 파일은 일괄적으로 공개하므로 다운로드 가능해지기까지 몇 주가 걸릴 수 있습니다. 나중에 다시 방문해 주세요!"
+});
+
+// postcard-success
+writeFile(`postcard-success_${lang}.json`, {
+	"postcard_success_1": "1~2주 이내에 엽서를 배송해 드립니다.",
+	"postcard_success_2": "비트코인 채택을 가속화하기 위해 지인에게 이 엽서를 보내주셔서 감사합니다!"
+});
+
+// sign-success
+writeFile(`sign-success_${lang}.json`, {
+	"sign_success_1": "1~2주 이내에 간판을 배송해 드립니다. 그동안 간판을 설치할 좋은 장소를 생각해 보세요!",
+	"sign_success_3": "다른 사람들이 간판을 어디에 설치하는지 보고 싶으신가요?",
+	"signs_share_header": "간판 설치 장소 공유하기",
+	"signs_share_c1": "Nostr에서 간판 설치 장소 사진을 공유해 주시면 sats를 zap 해드립니다! sats는 비트코인의 소수 단위입니다.",
+	"signs_btn_share_on_nostr": "NOSTR에서 공유하기",
+	"signs_btn_what_is_nostr": "NOSTR란?"
+});
+
+// compound-inflation-calculator
+writeFile(`compound-inflation-calculator_${lang}.json`, {
+	"cic_header": "복리 인플레이션 계산기",
+	"cic_description": "이 복리 인플레이션 계산기를 사용하여 인플레이션에 맞추기 위해 급여가 얼마나 올라야 하는지 확인하세요.",
+	"what_can_i_do_about": "어떻게 하면",
+	"what_can_i_do_about_2": "인플레이션에 대처할 수 있을까요?",
+	"cic_inflation_cta": "비트코인으로 인플레이션에서 벗어나기"
+});
+
+// nostr/index
+writeFile(`nostr/index_${lang}.json`, {
+	"escape_the_matrix_with_nostr": "Nostr로 매트릭스에서 탈출하세요",
+	"nostr_header": "NOSTR로 매트릭스에서 탈출하세요"
+});
+
+// nostr/what-is-nostr
+writeFile(`nostr/what-is-nostr_${lang}.json`, {
+	"what_is_nostr": "Nostr란?",
+	"what_is_nostr_header": "NOSTR란?"
+});
+
+console.log('\nDone! Simple files created for Korean (ko).');

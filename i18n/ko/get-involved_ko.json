@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ko"
+	},
+	"get_involved_and_help_spread_bitcoin": "참여하여 비트코인 확산을 도우세요",
+	"get_involved_description": "무료 리소스로 비트코인 채택 확산을 더 쉽게 할 수 있습니다.",
+	"get_involved_header": "참여하기",
+	"get_involved_header_2": "비트코인을 알리세요",
+	"get_involved_intro_1": "현재 세상의 상태에 살면서 우울해질 수 있습니다.",
+	"get_involved_intro_2": "우리의 화폐가 망가져 있습니다. 그 결과, 사회의 근본적인 부분도 망가져 있습니다.",
+	"get_involved_intro_3": "이미 비트코인을 알고 계시다면, 비트코인이 가져다 줄 수 있는 희망의 느낌을 알고 계실 것입니다. 더 나은 화폐가 가능하게 하는 밝은 미래에 대한 희망.",
+	"get_involved_intro_4": "하지만 주변의 많은 사람들은 비트코인에 대해 모릅니다. 여러분과 같은 망가진 세상에 살고 있지만, 어둠 속에서 길을 밝혀줄 희망의 빛이 없습니다.",
+	"get_involved_intro_5": "하지만 여러분이 그것을 바꿀 수 있습니다. 비트코인이 가져다 주는 희망을 주변 사람들에게 쉽게 전파할 수 있는 여러 무료 리소스를 만들었습니다.",
+	"get_involved_sticker_header": "공공장소에 스티커 붙이기",
+	"get_involved_sticker_content_1": "아무와도 대화하지 않고도 주변 사람들에게 비트코인에 대해 교육할 수 있습니다. 공공장소에 무료 비트코인 스티커를 붙이기만 하면 됩니다.",
+	"get_involved_sticker_content_2": "매달 수백 명이 이 스티커의 QR 코드를 스캔합니다. 인플레이션 스티커는",
+	"get_involved_sticker_content_3": "인플레이션 해결책으로서의 비트코인 페이지로 연결됩니다.",
+	"get_involved_sticker_content_4": "다른 스티커들은 사람들에게",
+	"get_involved_sticker_content_5": "비트코인이 더 나은 세상을 만들고 있다는 것을 보여주는 교육 홈페이지로 연결됩니다.",
+	"get_involved_sticker_content_6": "사람들이 볼 수 있는 커뮤니티 장소에 이 스티커를 붙이면 주변 사람들이 비트코인 토끼굴의 첫걸음을 내딛도록 도울 수 있습니다.",
+	"get_involved_request_a": "요청하기",
+	"get_involved_sticker_pack": "스티커 팩",
+	"get_involved_postcard_header": "엽서 보내기",
+	"get_involved_postcard_content_1": "무료 엽서를 보내 아는 사람에게 비트코인의 희망을 전파할 수 있습니다.",
+	"get_involved_postcard_content_2": "각 엽서 뒷면에는 비트코인에 대한 설득력 있는 설명과 더 알아볼 수 있는 QR 코드가 있습니다.",
+	"get_involved_postcard_content_3": "비트코인 엽서를 보내면 그들이 비트코인을 새로운 시각으로 볼 수 있게 도울 수 있습니다.",
+	"get_involved_postcard_pack": "엽서 팩",
+	"get_involved_business_header": "비즈니스 온보딩",
+	"get_involved_business_content_1": "비트코인 순환경제를 구축하고 싶으신가요? 비트코인 비즈니스 키트를 사용하면 비즈니스에 비트코인 결제 수납을 쉽게 소개할 수 있습니다.",
+	"get_involved_business_content_2": "각 비즈니스 키트에는 비트코인 결제 수납의 장점을 강조하는 전단지가 포함되어 있습니다. 각 전단지는 다양한",
+	"get_involved_business_content_3": "무료 비트코인 비즈니스 리소스로 연결됩니다.",
+	"get_involved_business_kit": "비즈니스 키트"
+}
