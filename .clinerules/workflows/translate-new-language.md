@@ -61,7 +61,7 @@ Run each script individually with `node scripts/[lang]/scriptname.js`. After all
 - **File**: `i18n/en/about_en.json` (and ALL other language `about_xx.json` files)
 - **Key**: `about_open_source_3`
 - **Action**: Increment the language count number (e.g., "10 languages" → "11 languages")
-- **Best approach**: IMPORTANT: You must manually increment the language count in all language arrays in `scripts/update-about-lang-count.js`. Then, add the new language's translation string that includes this language count (about_open_source_3) to the end of the array. Then, run the script to update all arrays at the same time. You MUST do this with every new language you add. This is not optional.
+- **Best approach**: IMPORTANT: You must manually increment the language count in all language arrays in `scripts/update-about-lang-count.js`. Then, you must add the new language's translation string that includes this language count (about_open_source_3) to the end of the array. Then, you must run the script to update all arrays at the same time. You MUST do all of these steps with every new language you add. This is not optional.
 
 ### Step 6: Update llms-full.txt Language Count
 - **File**: `llms-full.txt`
