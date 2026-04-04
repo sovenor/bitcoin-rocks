@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ru"
+	},
+	"how_to_accept_bitcoin_payments": "Как принимать платежи в Биткоине",
+	"wallets_header": "ПОЛУЧИТЕ БЕСПЛАТНЫЙ БИТКОИН-КОШЕЛЁК ДЛЯ ПРИЁМА ПЛАТЕЖЕЙ В БИТКОИНЕ",
+	"wallets_intro_1": "Все биткоин-кошельки совместимы друг с другом, поэтому ваши клиенты могут платить вам в Биткоине независимо от того, какой кошелёк они используют.",
+	"wallets_intro_2": "Кошельки только для Биткоина:",
+	"wallets_intro_3": "Это чистые биткоин-кошельки, которые раскрывают все преимущества Биткоина: без посредников, низкие комиссии, отсутствие возвратов платежей и мошенничества.",
+	"wallets_intro_4": "Гибридные кошельки:",
+	"wallets_intro_5": "Они позволяют обменять любую часть вашего Биткоина на доллары сразу после оплаты клиентом. Комиссии по-прежнему ниже, чем у кредитных карт, но выше, чем у чистых биткоин-платежей.",
+	"wallets_intro_6": "Оба варианта отлично подходят для приёма Биткоина. Конкретный кошелёк, который вы используете, будет зависеть от размера и типа вашего бизнеса.",
+	"wallets_choice_sole": "кошельки для индивидуальных предпринимателей",
+	"wallets_choice_multiple": "кошельки для бизнеса с несколькими сотрудниками",
+	"wallets_choice_online": "кошельки для онлайн-бизнеса",
+	"wallets_choice_invoice": "кошельки для бизнеса на основе счетов",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Вы можете принимать платежи в Биткоине через существующий терминал Square PoS или интеграцию с интернет-магазином. Принимать платежи в Биткоине ещё никогда не было так просто.",
+	"wallets_feature_bitcoin_only": "Кошелёк только для Биткоина",
+	"wallets_feature_no_info": "Не требуется информация",
+	"wallets_feature_in_person": "Только личные платежи",
+	"wallets_feature_settles_bitcoin": "Расчёт 100% в Биткоине",
+	"wallets_feature_hybrid": "Гибридный кошелёк",
+	"wallets_feature_info": "Требуется информация о бизнесе",
+	"wallets_feature_in_person_online": "Личные и онлайн-платежи",
+	"wallets_feature_settles_both": "Расчёт в Биткоине и долларах",
+	"wallets_feature_multiple_employees": "Поддержка нескольких сотрудников (BPT)",
+	"wallets_feature_self_hosted": "Самостоятельный хостинг = 0% комиссий",
+	"wallets_feature_online_store": "Интеграция с интернет-магазином",
+	"wallets_feature_invoicing": "Бесплатное ПО для выставления счетов",
+	"wallets_get_wallet": "ПОЛУЧИТЬ КОШЕЛЁК"
+}

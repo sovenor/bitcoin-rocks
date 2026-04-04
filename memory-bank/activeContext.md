@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Tagalog Language Added — April 2026
+## Latest: Russian Language Added — April 2026
+- Added Russian (`ru`, Русский) as the 26th language on bitcoin.rocks
+- Created all 90+ translation files via 8 scripts in `scripts/russian/`
+- Registered in language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt
+- Updated all about_xx.json files to 26 languages
+- Ran SEO content injection successfully
+
+## Tagalog Language Added — April 2026
 - Added Tagalog (`tl`) as the 25th language on bitcoin.rocks
 - Copied all 90 files from Filipino (`fil`) — Filipino is the standardized form of Tagalog, written forms are virtually identical
 - Script: `scripts/tagalog/copy-from-filipino.js` (copies fil files, renames to tl, updates metadata)

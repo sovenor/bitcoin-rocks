@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ru"
+	},
+	"free_bitcoin_stickers": "Бесплатные стикеры Биткоина от bitcoin.rocks",
+	"stickers_description": "Наклейте стикер с Биткоином в общественном месте, чтобы привлечь внимание окружающих к Биткоину.",
+	"stickers_header": "БЕСПЛАТНЫЕ СТИКЕРЫ БИТКОИНА",
+	"stickers_choose_header": "ВЫБЕРИТЕ СВОЙ НАБОР СТИКЕРОВ",
+	"stickers_choose_c1": "Наша миссия — помочь вам привлечь больше людей к Биткоину, размещая стикеры в общественных местах. Все наши стикеры имеют QR-коды, ведущие на образовательные страницы о",
+	"stickers_choose_c2": "Биткоине",
+	"stickers_choose_c3": "инфляции",
+	"stickers_choose_c4": "Выберите свой набор стикеров ниже",
+	"stickers_text_pack": "ТЕКСТОВЫЙ НАБОР",
+	"stickers_signs_pack": "НАБОР ЗНАКОВ",
+	"stickers_instructions_1": "Введите ваш почтовый адрес, и мы отправим вам бесплатный набор стикеров Биткоина по почте! Стикеры будут отправлены в простом белом конверте.",
+	"stickers_instructions_2": "Данные адреса удаляются после отправки ваших бесплатных стикеров.",
+	"stickers_share_header": "ПОДЕЛИТЕСЬ СВОИМИ МЕСТАМИ ДЛЯ СТИКЕРОВ",
+	"stickers_share_c1": "Поделитесь местами, где вы наклеили стикеры, с нами в Nostr и посмотрите, где другие люди размещают свои стикеры.",
+	"stickers_btn_share_on_nostr": "ПОДЕЛИТЬСЯ В NOSTR",
+	"stickers_btn_what_is_nostr": "ЧТО ТАКОЕ NOSTR?",
+	"stickers_flyers_link_before": "Пока вы этим занимаетесь, распечатайте и расклейте свои собственные ",
+	"stickers_flyers_link_text": "листовки о Биткоине",
+	"stickers_flyers_link_after": ", чтобы привлечь ещё больше людей к Биткоину.",
+	"stickers_country_global_print": "Весь мир — Распечатать свои стикеры",
+	"stickers_country_global_order": "Весь мир — Заказать оптом",
+	"placeholder_name_optional": "Имя (необязательно)",
+	"placeholder_address_line_1": "Адресная строка 1",
+	"placeholder_address_line_2": "Адресная строка 2 (необязательно)",
+	"placeholder_city": "Город",
+	"placeholder_state": "Штат",
+	"placeholder_province": "Провинция",
+	"placeholder_zip_code": "Почтовый индекс",
+	"placeholder_postal_code": "Почтовый код",
+	"placeholder_language": "Язык",
+	"placeholder_which_stickers": "Какие стикеры?",
+	"placeholder_email_optional": "Введите email для уведомления (необязательно)"
+}

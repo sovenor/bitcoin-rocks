@@ -33,6 +33,7 @@ $(function() {
     { code: 'sv', name: 'Svenska' },
     { code: 'tl', name: 'Tagalog' },
     { code: 'vi', name: 'Tiếng Việt' },
+    { code: 'ru', name: 'Русский' },
     { code: 'bg', name: 'български' },
     { code: 'hi', name: 'हिन्दी' },
     { code: 'ta', name: 'தமிழ்' },

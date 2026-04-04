@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Russian (ru) Language Added — April 2026
+- Added Russian (Русский) as the 26th language
+- Created all 90+ translation files in `i18n/ru/` mirroring the English directory structure
+- Translation scripts in `scripts/russian/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (25→26)
+- Ran SEO content injection
+
 ## Tagalog (tl) Language Added — April 2026
 - Added Tagalog as the 25th language
 - Copied all 90 translation files from Filipino (fil) since Filipino is the standardized form of Tagalog — written forms are virtually identical
