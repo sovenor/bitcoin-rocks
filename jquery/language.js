@@ -11,33 +11,34 @@ $(function() {
   var browserLang = navigator.language || navigator.userLanguage;
   var browserLangCode = browserLang.split('-')[0]; // Get language code without region
 
-  // Language switcher
+  // Language switcher — English is always first, then alphabetical by native
+  // display name (Unicode order), with "Add language" always last.
   var languages = [
-    { code: 'af', name: 'Afrikaans' },
-    { code: 'cs', name: 'Čeština' },
     { code: 'en', name: 'English' },
-    { code: 'es', name: 'Español' },
+    { code: 'af', name: 'Afrikaans' },
+    { code: 'ms', name: 'Bahasa Melayu' },
+    { code: 'cs', name: 'Čeština' },
+    { code: 'ny', name: 'Chicheŵa' },
     { code: 'de', name: 'Deutsch' },
+    { code: 'es', name: 'Español' },
     { code: 'fil', name: 'Filipino' },
     { code: 'fr', name: 'Français' },
-    { code: 'hi', name: 'हिन्दी' },
-    { code: 'it', name: 'Italiano' },
-    { code: 'pl', name: 'Polski' },
     { code: 'id', name: 'Indonesia' },
-    { code: 'ja', name: '日本語' },
-    { code: 'ms', name: 'Bahasa Melayu' },
+    { code: 'zu', name: 'isiZulu' },
+    { code: 'it', name: 'Italiano' },
+    { code: 'sw', name: 'Kiswahili' },
     { code: 'nl', name: 'Nederlands' },
-    { code: 'ny', name: 'Chicheŵa' },
+    { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
     { code: 'sv', name: 'Svenska' },
-    { code: 'sw', name: 'Kiswahili' },
-    { code: 'th', name: 'ภาษาไทย' },
     { code: 'tl', name: 'Tagalog' },
-    { code: 'bg', name: 'български' },
-    { code: 'ta', name: 'தமிழ்' },
-    { code: 'zh', name: '中文' },
     { code: 'vi', name: 'Tiếng Việt' },
-    { code: 'zu', name: 'isiZulu' },
+    { code: 'bg', name: 'български' },
+    { code: 'hi', name: 'हिन्दी' },
+    { code: 'ta', name: 'தமிழ்' },
+    { code: 'th', name: 'ภาษาไทย' },
+    { code: 'zh', name: '中文' },
+    { code: 'ja', name: '日本語' },
     { code: 'custom', name: 'Add language', url: 'https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md#translations' }
   ];
 
