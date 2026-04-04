@@ -16,7 +16,6 @@ $(function() {
   var languages = [
     { code: 'en', name: 'English' },
     { code: 'af', name: 'Afrikaans' },
-    { code: 'ms', name: 'Bahasa Melayu' },
     { code: 'cs', name: 'Čeština' },
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'de', name: 'Deutsch' },
@@ -27,6 +26,7 @@ $(function() {
     { code: 'zu', name: 'isiZulu' },
     { code: 'it', name: 'Italiano' },
     { code: 'sw', name: 'Kiswahili' },
+    { code: 'ms', name: 'Melayu' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
