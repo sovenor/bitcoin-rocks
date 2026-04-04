@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"free_bitcoin_postcards": "Nemokami Bitcoin atvirukai iš bitcoin.rocks",
+	"postcards_description": "Gaukite nemokamą Bitcoin atvirukų paką ir pasidalinkite Bitcoin su kuo nors pažįstamu.",
+	"postcards_header": "ATVIRUKŲ PROGRAMA UŽDARYTA",
+	"postcards_program_closed_message": "Mūsų nemokamų Bitcoin atvirukų programa baigėsi. Dėkojame visiems, dalyvavusiems skleidžiant Bitcoin švietimą paštu!",
+	"postcards_sticker_alternative_header": "VIETOJ TO GAUKITE NEMOKAMŲ BITCOIN LIPDUKŲ",
+	"postcards_sticker_alternative_message": "Tęskite Bitcoin žinomumo skleidimą su mūsų nemokama lipdukų programa! Mūsų Bitcoin lipdukai puikiai tinka dalinimuisi viešose vietose ir turi QR kodus, nukreipiančius į šviečiamąjį turinį.",
+	"postcards_sticker_cta": "GAUTI NEMOKAMŲ LIPDUKŲ",
+	"postcards_step_2": "KAIP ATRODĖ ATVIRUKAI",
+	"postcards_instructions_4": "Sukūrėme šiuos atvirukus, kad būtų lengviau supažindinti ką nors pažįstamą su Bitcoin! Tiesiog pridėkite adresą ir pašto ženklą ir įmeskite atviruką į pašto dėžutę.",
+	"postcards_instructions_5": "Mūsų misija — paspartinti Bitcoin priėmimą. Galite padėti gaudami nemokamus lipdukus ir juos klijuodami viešose vietose!",
+	"postcards_instructions_6": "Visi pažįstame kelis žmones, kuriems būtų naudinga sužinoti daugiau apie Bitcoin. Pasidalinkite Bitcoin lipdukais su jais šiandien!"
+}

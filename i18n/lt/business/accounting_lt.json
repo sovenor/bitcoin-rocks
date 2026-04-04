@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_business_accounting_guide": "Bitcoin verslo apskaitos vadovas",
+	"accounting_description": "Sužinokite, kaip teisingai apskaityti Bitcoin mokėjimus savo verslo apskaitoje.",
+	"accounting_header": "BITCOIN APSKAITOS VADOVAS",
+	"accounting_s1_c1": "Bitcoin priėmimas turi daug privalumų, pvz., mokėjimų priėmimas su mažesniais mokesčiais ir daugiau klientų pritraukimas.",
+	"accounting_s1_c2": "Jei naudojate hibridinę piniginę iš mūsų piniginės vadovo ir automatiškai konvertuojate 100% gautų Bitcoin į dolerius, nereikia keisti dabartinei apskaitai.",
+	"accounting_s1_c3": "Peržiūrėti piniginės vadovą.",
+	"accounting_s1_c4": "Tačiau jei dalies gautų Bitcoin mokėjimų neskonvertuojate ir laikote kaip Bitcoin, turėsite sekti keletą detalei apskaitai. Iš pradžių tai gali atrodyti baugiai, bet iš tikrųjų yra gana paprasta.",
+	"accounting_s1_c5": "Pastaba: šis vadovas skirtas tik informaciniais tikslais ir nėra mokestinių patarimų.",
+	"accounting_s1_c6": "Jei reikia mokestinių patarimų, labai rekomenduojame Satoshi Pacioli Accounting Services — apskaitos firmą, kuri specializuojasi Bitcoin apskaitoje.",
+	"accounting_s2": "SAVIKAINŲ SEKIMAS",
+	"accounting_s2_c1": "Savikainų sekimas yra didžiausias skirtumas tarp dolerių ir Bitcoin apskaitos. Net jei žiūrite į verslą vien tik Bitcoin terminais, mokesčių deklaracijoje turėsite nurodyti kiekvienos operacijos vertę doleriais.",
+	"accounting_s2_c2": "Jei naudojate QuickBooks, tai galite atlikti automatiškai naudodami Bitcoin Sync įskiepį.",
+	"accounting_s2_c3": "Jei nenaudojate QuickBooks, rekomenduojame Satoshi Pacioli Accounting Services — apskaitos firmą, kuri specializuojasi Bitcoin apskaitoje.",
+	"accounting_s2_c4": "Tai atlikti rankiniu būdu paprasta: tiesiog fiksuokite gautą Bitcoin kiekį ir tos dienos Bitcoin operacijos vertę doleriais.",
+	"accounting_s2_c5": "Dabartinę Bitcoin kainą doleriais galite pamatyti čia.",
+	"accounting_s2_c6": "Fiksuokite šią informaciją Excel lentelėje ir pateikite ją savo buhalteriui.",
+	"accounting_s2_c7": "Taip pat galite automatiškai importuoti šiuos duomenis į Excel.",
+	"accounting_s2_c8": "Taip pat galite peržiūrėti istorines Bitcoin kainas doleriais už praėjusias dienas, todėl nereikia to daryti kiekvieną dieną.",
+	"accounting_s3": "BITCOIN IŠLEIDIMAS AR PARDAVIMAS",
+	"accounting_s3_c1": "Jei naudojate hibridinę piniginę iš mūsų piniginės vadovo ir automatiškai konvertuojate 100% gautų Bitcoin į dolerius, nereikia keisti dabartinei apskaitai.",
+	"accounting_s3_c2": "Peržiūrėti piniginės vadovą.",
+	"accounting_s3_c3": "Jei nuspręsite išleisti ar parduoti dalį gautų Bitcoin po kurio laiko, tiesiog įrašykite pardavimo kainą į savo savikainų sekimo Excel lentelę.",
+	"accounting_s3_c4": "Pavyzdžiui, jei gavote 100 dolerių vertės Bitcoin sausio 1 d. ir nusprėndėte jį parduoti ar išleisti vasario 1 d. su nauja verte 110 dolerių, turėtumėte užfiksuoti 10 dolerių kapitalo prieaugį savo apskaitoje.",
+	"accounting_s3_c5": "Tai veikia ir atvirkščiai. Pavyzdžiui, jei gavote 100 dolerių vertės Bitcoin sausio 1 d. ir nusprėndėte jį parduoti ar išleisti vasario 1 d. su nauja verte 90 dolerių, turėtumėte užfiksuoti 10 dolerių kapitalo nuostolį savo apskaitoje.",
+	"accounting_s4": "MAN REIKIA DAUGIAU PAGALBOS",
+	"accounting_s4_c1": "Jei reikia daugiau pagalbos integruojant Bitcoin į jūsų verslo apskaitą, labai rekomenduojame Satoshi Pacioli Accounting Services — apskaitos firmą, kuri specializuojasi Bitcoin apskaitoje.",
+	"accounting_s4_c2": "Sužinokite daugiau apie Satoshi Pacioli Accounting Services."
+}

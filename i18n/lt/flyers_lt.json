@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"free_bitcoin_flyers": "Nemokamos Bitcoin skrajutės iš bitcoin.rocks",
+	"flyers_description": "Atsispausdinkite Bitcoin skrajutę namuose ir iškabinkite viešoje vietoje, kad įtrauktumėte aplinkinius.",
+	"flyers_header_1": "ATSISPAUSDINKITE IR IŠKABINKITE",
+	"flyers_header_2": "BITCOIN SKRAJUTES",
+	"flyers_intro_header": "KAIP ATSISPAUSDINTI IR IŠKABINTI ŠIAS BITCOIN SKRAJUTES",
+	"flyers_intro_c1": "Mūsų misija — padėti jums įtraukti daugiau žmonių į Bitcoin iškabinant skrajutes viešose vietose. Šioje skrajutėje yra QR kodas, nukreipiantis į mūsų",
+	"flyers_intro_c2": "šviečiamąją Bitcoin svetainę.",
+	"flyers_intro_c3": "infliaciją",
+	"flyers_intro_c4": "Atsispausdinkite šią skrajutę namuose arba spaustuvėje. Tada iškabinkite ją skelbimų lentose, telefono stulpuose ir kitose viešose vietose, kur žmonės galės ją pamatyti ir sužinoti apie Bitcoin.",
+	"flyers_intro_c5": "Tuo pačiu metu užsakykite mūsų",
+	"flyers_intro_c6": "nemokamų Bitcoin lipdukų",
+	"flyers_intro_c7": "paką, kad įtrauktumėte dar daugiau žmonių.",
+	"flyers_btn_download": "ATSISIŲSTI SKRAJUTĘ",
+	"flyers_btn_print": "SPAUSDINTI SKRAJUTĘ",
+	"flyers_share_header": "PASIDALINKITE SAVO SKRAJUČIŲ VIETOMIS",
+	"flyers_share_c1": "Pasidalinkite savo skrajučių vietomis su mumis Nostr platformoje ir pažiūrėkite, kur kiti kabina savo skrajutes.",
+	"flyers_btn_share_on_nostr": "DALINTIS NOSTR",
+	"flyers_btn_what_is_nostr": "KAS YRA NOSTR?"
+}

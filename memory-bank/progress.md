@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Lithuanian (lt) Language Added — April 2026
+- Added Lithuanian (Lietuvių) as the 29th language
+- Created 87 translation files in `i18n/lt/` mirroring the English directory structure
+- Translation scripts in `scripts/lithuanian/` (8 scripts broken by category + fix-quotes helpers)
+- Updated: language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (28→29)
+- Ran SEO content injection
+
 ## Korean (ko) Language Added — April 2026
 - Added Korean (한국어) as the 28th language
 - Created all 90+ translation files in `i18n/ko/` mirroring the English directory structure

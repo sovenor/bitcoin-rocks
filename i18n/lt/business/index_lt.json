@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin yra naudingas verslui",
+	"biz_header": "BITCOIN YRA NAUDINGAS VERSLUI",
+	"biz_s1": "Maži mokesčiai be minimalių sumų",
+	"biz_s1_c1": "Bitcoin leidžia gauti mokėjimus tiesiogiai iš klientų, panašiai kaip grynaisiais. Bitcoin tinklas veikia be tarpininkų, tokių kaip bankai ir kredito kortių bendrovės, kurie ima didelius mokesčius.",
+	"biz_s2": "Momentinis atsiskaitymas",
+	"biz_s2_c1": "Kaip ir grynaisiais, Bitcoin mokėjimai atsiskaitomi iš karto. Nereikia laukti, kol kredito kortių bendrovė ar bankas jums sumokės. Vietoj to, pinigus gaunate iš karto.",
+	"biz_s3": "Jokių grąžinimų ar suktybių",
+	"biz_s3_c1": "Kadangi Bitcoin mokėjimai vyksta tiesiogiai tarp jūsų ir klientų, niekas negali atsiimti pinigų grąžinimu.",
+	"biz_s3_c2": "Padirbtų Bitcoin negalima siųsti Bitcoin tinkle, todėl nereikia jaudintis dėl suktybių, kurios gali kainuoti jūsų verslui.",
+	"biz_s4": "Pritraukite daugiau klientų",
+	"biz_s4_c1": "Milijonai žmonių turi Bitcoin ir nori jį išleisti vietose, kurios jį priima.",
+	"biz_s4_c2": "Tiesiog priimdami Bitcoin, jūsų verslas gali būti įtrauktas į Bitcoin prekių žemėlapius ir gauti nemokamą matomą naujų Bitcoin klientų.",
+	"biz_s4_c3": "Bitcoin priėmimas yra 100% nemokamas. Jokių sutarčių ar paslėptų mokesčių."
+}

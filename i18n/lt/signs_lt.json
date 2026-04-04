@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"signs_description": "Padėkite mums išstatyti šiuos Bitcoin ženklus visoje Amerikoje!",
+	"signs_title": "Nemokami Bitcoin ženklai iš bitcoin.rocks",
+	"signs_choose_header": "AČIŪ, KAD PADĖJOTE MUMS IŠSTATYTI ŠIUOS BITCOIN ŽENKLUS VISOJE AMERIKOJE!",
+	"signs_choose_c1": "Ženklai jau baigėsi! Mūsų misija — paspartinti Bitcoin priėmimą per švietimą.",
+	"signs_choose_c2": "Daugelis jūsų padėjote išstatydami šiuos nemokamus Bitcoin ženklus viešose vietose. Visuose mūsų ženkluose yra QR kodai, nukreipiantys į šviečiamąjį puslapį apie",
+	"signs_choose_c3": "infliaciją",
+	"signs_choose_c4": "Dėl mūsų nuostabios bendruomenės pasiekėme tūkstančius žmonių ir padėjome jiems žengti pirmuosius žingsnius Bitcoin link.",
+	"signs_share_header": "PASIDALINKITE SAVO ŽENKLO VIETOMIS",
+	"signs_share_c1": "Pasidalinkite savo ženklo vietos nuotrauka su mumis Nostr platformoje ir pažiūrėkite, kur kiti stato savo ženklus.",
+	"signs_btn_share_on_nostr": "DALINTIS NOSTR",
+	"signs_btn_what_is_nostr": "KAS YRA NOSTR?",
+	"signs_instructions_1": "Įveskite savo pašto adresą ir mes atsiųsime jums dėžę su 10 Bitcoin ženklų paštu!",
+	"signs_instructions_2": "Adreso duomenys ištrinami išsiuntus nemokamus ženklus."
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin prieš dailės kūrinius",
+	"fine_art_header": "SKIRTUMAS TARP",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "IR",
+	"fine_art_header_4": "DAILĖS KŪRINIŲ",
+	"fine_art_intro_1": "Dailės kūriniai buvo prabangos investicija šimtmečius ir dažnai laikomi vertės saugykla turtingų kolekcininkų.",
+	"fine_art_intro_2": "Bitcoin yra skaitmeniniai pinigai, kuriuos daugelis taip pat laiko vertės saugykla ir investicija.",
+	"fine_art_intro_3": "Bet kuo fiziniai meno kūriniai skiriasi nuo skaitmeninių pinigų kaip Bitcoin? Pažvelkime į skirtumus tarp dviejų investicijų formų: Bitcoin ir dailės kūrinių.",
+	"fine_art": "DAILĖS KŪRINIAI",
+	"fine_art_point_1": "Kiekvienas kūrinys unikalus",
+	"fine_art_point_2": "Reikia specializuotų aukcionų",
+	"fine_art_point_3": "Dideli aukciono mokesčiai",
+	"fine_art_point_4": "Negalima padalinti",
+	"fine_art_point_5": "Reikia eksperto autentifikavimo",
+	"fine_art_point_6": "Pažeidžiami pažeidimo",
+	"fine_art_point_7": "Prieinama tik turtingiems kolekcininkams",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Tobulai pakeičiamas",
+	"bitcoin_point_2": "24/7 globali rinka",
+	"bitcoin_point_3": "Maži operacijų mokesčiai",
+	"bitcoin_point_4": "Lengvai dalinama",
+	"bitcoin_point_5": "Kriptografiškai patikrinamas",
+	"bitcoin_point_6": "Sunku sunaikinti",
+	"bitcoin_point_7": "Prieinama visiems",
+	"point_1_summary_1": "Bitcoin yra tobulai pakeičiamas — kiekvienas bitcoin yra identiškas ir keičiamas — vienas bitcoin lygus vienam bitcoin bet kur pasaulyje. Dailės kūriniai yra nepakeičiami iš prigimties, kiekvienas kūrinys unikalus.",
+	"point_2_summary_1": "Bitcoin prekiaujama 24/7 globalioje rinkoje, kur bet kas su interneto prieiga gali pirkti ar parduoti akimirksniu. Dailės kūriniams reikia specializuotų aukcionų namų, tokių kaip Sotheby's ar Christie's.",
+	"point_3_summary_1": "Bitcoin pirkimo ar pardavimo mokesčiai paprastai mažesni nei 1%. Dailės kūrinių pardavimas apima didelius mokesčius: pirkėjo premijos (10-25%), pardavėjo komisiniai (10-15%), draudimas, transportavimas ir saugojimas.",
+	"point_4_summary_1": "Bitcoin gali būti padalintas į 100 milijonų mažesnių vienetų, vadinamų satoshi, todėl puikiai tinka bet kokio dydžio operacijoms. Dailės kūrinių negalima padalinti — negalite turėti paveikslo dalies.",
+	"point_5_summary_1": "Bitcoin nuosavybę ir autentiškumą galima kriptografiškai patikrinti blokų grandinėje. Dailės kūriniams reikia brangaus eksperto autentifikavimo. Bitcoin negalima padirbti ar paklastoti.",
+	"point_6_summary_1": "Bitcoin, tinkamai atsarginę kopiją padarius, negali būti sunaikintas potvynių, gaisrų, žemės drebėjimų ar kitų nelaimių. Dailės kūriniai pažeidžiami visomis fizinio sunaikinimo formomis.",
+	"point_7_summary_1": "Bitcoin gali pirkti ir parduoti bet kas su interneto prieiga ir maža suma investuoti. Dailės kūrinių investicijos daugiausiai prieinamos tik turtingiems kolekcininkams dėl didelių minimalių kainų."
+}

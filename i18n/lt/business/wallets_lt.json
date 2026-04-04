@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"how_to_accept_bitcoin_payments": "Kaip priimti Bitcoin mokėjimus",
+	"wallets_header": "GAUKITE NEMOKAMĄ BITCOIN PINIGINĘ IR PRADĖKITE PRIIMTI BITCOIN MOKĖJIMUS",
+	"wallets_intro_1": "Visos Bitcoin piniginės yra suderinamos, todėl jūsų klientai gali mokėti Bitcoin nepriklausomai nuo to, kokią piniginę naudoja.",
+	"wallets_intro_2": "Tik Bitcoin piniginės:",
+	"wallets_intro_3": "Tai grynos Bitcoin piniginės, atleidžiančios visus Bitcoin privalumus: be tarpininkų, maži mokesčiai, be grąžinimų ar suktybių.",
+	"wallets_intro_4": "Hibridinės piniginės:",
+	"wallets_intro_5": "Leidžia keisti bet kokią Bitcoin dalį į dolerius, kai tik klientas sumoka. Mokesčiai vis tiek mažesni nei kredito kortių, bet didesni nei gryno Bitcoin mokėjimo.",
+	"wallets_intro_6": "Abu variantai puikūs priimant Bitcoin. Konkreti piniginė, kurią naudosite, priklausys nuo jūsų verslo dydžio ir tipo.",
+	"wallets_choice_sole": "piniginės individualiems verslams",
+	"wallets_choice_multiple": "piniginės verslams su keliais darbuotojais",
+	"wallets_choice_online": "piniginės internetiniams verslams",
+	"wallets_choice_invoice": "piniginės sąskaitų fakturų pagrindų verslams",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Galite priimti Bitcoin mokėjimus su esamu Square POS terminalu ar internetinės parduotuvės integracija. Bitcoin mokėjimų priėmimas dar niekada nebuvo toks paprastas.",
+	"wallets_feature_bitcoin_only": "Tik Bitcoin piniginė",
+	"wallets_feature_no_info": "Informacija nereikalinga",
+	"wallets_feature_in_person": "Tik gyvieji mokėjimai",
+	"wallets_feature_settles_bitcoin": "Atsiskaito 100% Bitcoin",
+	"wallets_feature_hybrid": "Hibridinė piniginė",
+	"wallets_feature_info": "Reikalinga verslo informacija",
+	"wallets_feature_in_person_online": "Gyvieji ir internetiniai mokėjimai",
+	"wallets_feature_settles_both": "Atsiskaito Bitcoin ir doleriais",
+	"wallets_feature_multiple_employees": "Kelių darbuotojų palaikymas (BPT)",
+	"wallets_feature_self_hosted": "Savę talpinantis = 0% mokesčių",
+	"wallets_feature_online_store": "Internetinės parduotuvės integracija",
+	"wallets_feature_invoicing": "Nemokama sąskaitų programinė įranga",
+	"wallets_get_wallet": "GAUTI PINIGINĘ"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin neturi bankų panikų",
+	"bank_runs_header": "BITCOIN NETURI BANKŲ PANIKŲ",
+	"bank_runs_header_2": "BET JŪSŲ BANKAS GALI TURĖTI",
+	"bank_runs_what": "KAS YRA BANKŲ PANIKA?",
+	"bank_runs_what_content_1": "Bankų panika įvyksta, kai per daug žmonių vienu metu bando išsiimti savo pinigus iš banko.",
+	"bank_runs_what_content_2": "Jei bankai neturi pakankamai pinigų išmokėjimams padengti, jie gali visiškai žlugti.",
+	"bank_runs_how": "KAIP ATSIRANDA BANKŲ PANIKOS?",
+	"bank_runs_how_content_1": "Mūsų bankinė sistema yra „dalinio rezervo“, tai reiškia, kad bankai ne tik laiko jūsų pinigus seife ir laukia, kol juos išleisite ar išsiimsite.",
+	"bank_runs_how_content_2": "Vietoj to, jūsų bankas paima jūsų pinigus ir juos skolina arba investuoja. Tai gali užrakinti jūsų pinigus ilgam laikui, nors bankas žada jums galimybę bet kada išsiimti pinigus.",
+	"bank_runs_how_content_3": "Tai kas nutinka, jei bandote išsiimti savo pinigus, kai bankas juos jau paskolino ar investavo?",
+	"bank_runs_how_content_4": "Tai nėra problema, jei jūs esate vienintelis, bandantis išsiimti. Bankas tiesiog paims kito žmogaus pinigus ir duos jums. Bet kas nutinka, kai per daug žmonių bando išsiimti vienu metu?",
+	"bank_runs_how_content_5": "Daugelis JAV žmonių tai sužinojo, kai 2023 m. kovo mėn. įvyko Silicon Valley Bank panika.",
+	"bank_runs_how_content_6": "Bankas investavo savo klientų pinigus į vyriausybės obligacijas, kurios buvo užrakintos iki 30 metų. Dar blogiau, tų obligacijų vertė neseniai smarkiai krito, todėl Silicon Valley Bank negalėjo tiesiog parduoti obligacijų ir grąžinti indėlininkų pinigų. Jie buvo nemokūs.",
+	"bank_runs_how_content_7": "Kai daugiau žmonių apie tai sužinojo, problema tik pagilė. Daugiau išėmimo prašymų buvo pateikta, bet daugelis nebuvo įvykdyti. Tūkstančiai įmonių suprato, kad negalės sumokėti atlyginimų darbuotojams dėl banko žlugimo.",
+	"bank_runs_how_content_8": "FDIC įsikišo ir sutarė padengti indėlininkams. Problema išspręsta? Ne visai...",
+	"bank_runs_fdic": "AR FDIC DRAUDIMAS SAUGO MANO PINIGUS?",
+	"bank_runs_fdic_content_1": "FDIC draudimas skirtas apsaugoti banko indėlininkus banko žlugimo atveju. Indėliai draudžiami iki 250 000 $ vienam indėlininkui. Skamba puikiai, tiesa?",
+	"bank_runs_fdic_content_2": "Ne visai. Jei bankas žlunga, iš kur FDIC gauna pinigų? Jie turi draudimo fondą su 125 mlrd. dolerių.",
+	"bank_runs_fdic_content_3": "Tai skamba kaip daug pinigų, kol nepalyginate su draudžiamų indėlių suma: beveik 10 trilijonų arba 10 000 mlrd. dolerių.",
+	"bank_runs_fdic_content_4": "FDIC net savo svetainėje rodo, kad jų draudimo fonde užtenka pinigų padengti tik šiek tiek daugiau nei 1% indėlių.",
+	"bank_runs_fdic_content_5": "Banko žlugimo atveju, viršijančiu FDIC draudimo fondą, tikėtina (bet negarantuota), kad JAV vyriausybė atspausdintų pinigų indėlininkams padengti.",
+	"bank_runs_fdic_content_6": "Bet pinigų spausdinimas sukelia infliaciją, todėl tai nėra puikus sprendimas.",
+	"bank_runs_safe": "AR YRA BANKŲ, KURIE NENAUDOJA DALINIO REZERVO?",
+	"bank_runs_safe_content_1": "Kai kurie bankai bandė būti „saugiais bankais“, kurie neskolina ir neinvestuoja indėlininkų lėšų.",
+	"bank_runs_safe_content_2": "Nors šie saugūs bankai neturėtų jokios bankų panikos rizikos, jų paraiškas atmetė Federalinis rezervas. Tai reiškia, kad jie negali teisėtai veikti kaip bankai.",
+	"bank_runs_safe_content_3": "Kadangi jiems užblokuota veikla, šiandien nėra banko, kuris nenaudotų dalinio rezervo.",
+	"bank_runs_safe_content_4": "Laimei, yra būdas atsisak yti dalinio rezervo sistemos būnant savo paties banku. Ne, nekalbame apie grynuosius po čiužiniu.",
+	"bank_runs_safe_content_5": "Taupymas grynaisiais vis tiek pažeidžiamas infliacijos.",
+	"bank_runs_safe_content_6": "Kalbame apie Bitcoin: naują finansinę sistemą, leidžiančią jums būti savo paties banku.",
+	"bank_runs_protect": "AR BITCOIN GALI APSAUGOTI MANE NUO BANKŲ PANIKŲ?",
+	"bank_runs_protect_content_1": "Taip, Bitcoin yra visiško rezervo finansinė sistema.",
+	"bank_runs_protect_content_2": "Bankų panikos Bitcoin sistemoje neįmanomos, jei išsiiimate savo Bitcoin į savo piniginę. Nepalikite bitcoin biržoje ar apvalkale kaip Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Peržiūrėkite mūsų papras tą Bitcoin piniginės vadovą, kad sužinotumėte, kaip išsiimti į savo piniginę.",
+	"bank_runs_protect_content_4": "Su Bitcoin pagaliau galite kontroliuoti savo pinigus."
+}

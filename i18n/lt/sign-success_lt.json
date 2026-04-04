@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"sign_success_1": "Jūsų ženklus išsiųsime per 1–2 savaites. Tuo tarpu pagalvokite apie geras vietas jiems pastatyti!",
+	"sign_success_3": "Norite pamatyti, kur kiti stato savo ženklus?",
+	"signs_share_header": "Pasidalinkite savo ženklo vietomis",
+	"signs_share_c1": "Pasidalinkite savo ženklo vietos nuotrauka su mumis Nostr platformoje ir mes jums atsiųsime sats! Sats yra Bitcoin dalys.",
+	"signs_btn_share_on_nostr": "DALINTIS NOSTR",
+	"signs_btn_what_is_nostr": "KAS YRA NOSTR?"
+}

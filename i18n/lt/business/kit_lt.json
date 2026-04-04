@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_business_kit": "Bitcoin verslo rinkinys",
+	"kit_header": "ATSISPAUSDINKITE SAVO BITCOIN VERSLO RINKINĮ",
+	"kit_request": "Užsakyti nemokamą rinkinį",
+	"kit_request_details": "Kiekviename Bitcoin verslo rinkinyje yra 2 brošiūros, leidžiančios lengvai supažindinti vietinį verslą su Bitcoin priėmimu.",
+	"kit_country_global_print": "Globaliai — atsispausdinti pačiam",
+	"kit_enter_address": "Įveskite savo adresą ir mes atsiųsime nemokamą Bitcoin verslo rinkinį baltame voke. Adreso duomenys ištrinami išsiuntus rinkinį.",
+	"kit_print_details": "Galite dalyvauti atsispausdindami savo brošiūras, nepriklausomai nuo to, kur gyvenate! Jei nenorite spausdinti, taip pat galite išsiųsti skaitmeninį verslo rinkinį verslui.",
+	"kit_view_files": "Peržiūrėti failus",
+	"kit_digital_kit": "Skaitmeninis rinkinys",
+	"kit_resources": "Kiekviename rinkinyje yra nuorodos į šiuos nemokamus resursus"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Sužinokite, kodėl Bitcoin naudingas verslui",
+	"why_header": "BITCOIN YRA NAUDINGAS VERSLUI",
+	"why_good_for_you": "BITCOIN NAUDINGAS IR JUMS!",
+	"why_learn_more_lowercase": "Sužinokite daugiau.",
+	"why_s1": "Bitcoin neturi infliacijos",
+	"why_s1_c1": "Infliacija atsiranda, kai daugiau pinigų atspausdinama ar sukuriama iš nieko. Dėl to jūsų pinigai laikui bėgant praranda vertę.",
+	"why_s1_c2": "Bitcoin turi fiksuotą pasiūlą, todėl niekas negali atspausdinti daugiau Bitcoin.",
+	"why_s2": "Bitcoin neturi bankų panikų",
+	"why_s2_c1": "Per pastaruosius kelerius metus dėl bankų panikų žlugo keli JAV bankai.",
+	"why_s2_c2": "Užuot tiesiog saugoję jūsų pinigus, bankai juos investuoja ir skolina. Jei tos investicijos nepasiteisina, jiems trūksta lėšų grąžinti jums.",
+	"why_s2_c3": "FDIC draudimo fondas turi tik 1 dolarį kiekvienam 100 drahmaų, kuriuos draudžia.",
+	"why_s3": "Bitcoin nereikalauja leidimų",
+	"why_s3_c1": "Skirtingai nuo tradicinių finansinių tinklų, Bitcoin naudojimui nereikia leidimo.",
+	"why_s3_c2": "Tai reiškia, kad niekas negali sustabdyti jūsų naudojant Bitcoin dėl bet kokios priežasties. Tai pirmasis finansinis tinklas, kurį galite naudoti be cenzūros ar konfiskavimo baimės.",
+	"why_s4": "Bitcoin kuria geresnį pasaulį",
+	"why_s4_c1": "Bitcoin yra nesuprantama technologija, kuri kuria geresnį pasaulį.",
+	"why_s4_c2": "Bitcoin įgalino žmogaus teisių aktyvistus kovoti už laisvę, sumažino pasaulines metano emisijas, išgelbėjo nacionalinius parkus ir padarė dar daug daugiau."
+}

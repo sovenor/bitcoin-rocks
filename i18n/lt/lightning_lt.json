@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning piniginių vadovas",
+	"lightning_description": "Lightning piniginės leidžia siųsti Bitcoin greitai ir pigiai, kartu išlaikant asmeninį suverenitetą.",
+	"lightning_header": "LIGHTNING PINIGINIŲ VADOVAS",
+	"lightning_s1_c1": "Lightning leidžia siųsti Bitcoin mokėjimus greitai ir pigiai.",
+	"lightning_s1_c2": "Svarbu žinoti, kad Lightning naudojimas turi kompromisų. Mainais už greitesnius, pigesnius Bitcoin mokėjimus dažnai prarandate šiek tiek saugumo.",
+	"lightning_s1_c3": "Apskritai, Lightning turėtų būti naudojamas tik su mažomis bitcoin sumomis. Dideles bitcoin sumas visada turėtumėte saugoti aparatūrinėje piniginėje.",
+	"lightning_s1_c4": "Peržiūrėkite mūsų aparatūrinių piniginių vadovą daugiau informacijos.",
+	"lightning_s1_c5": "Ne visos Lightning piniginės yra vienodos. Galite nustatyti, kuri piniginė turi tinkamą kompromisų balansą jums, užduodami vieną paprastą klausimą:",
+	"lightning_question_1": "KOKS KOMPROMISŲ BALANSAS MAN TINKAMAS?",
+	"lightning_s2_c1": "Viena iš Bitcoin inovacijų yra galimybė jį saugoti nepasikliaujant saugotoju, pavyzdžiui, banku. Savarankiškos saugyklos piniginės atleidžia visą Bitcoin galią.",
+	"lightning_s2_c2": "Su savarankiškos saugyklos pinigine tik jūs galite išleisti ar pervesti savo pinigus. Niekas negali jūsų sustabdyti, cenzūruoti ar pavogti iš jūsų. Tai dar vadinamos ne globėjiškomis piniginėmis.",
+	"lightning_s2_c3": "Suvereniausias būdas naudoti Lightning yra paleisti savo mazgą.",
+	"lightning_s2_c4": "Šis vadovas orientuotas į paprastas Lightning pinigines, kurioms nereikia savo mazgo.",
+	"lightning_s2_c5": "Svarbu žinoti, kad net naudojant ne globėjišką Lightning piniginę, vis tiek pasitikite piniginės kūrėju, kad jis neišleis kenkėjiško programėlės atnaujinimo ir nepavogs jūsų lėšų.",
+	"lightning_s3_c1": "Globėjiškos piniginės yra piniginės, kur jūs nekontroliuojate savo pinigų.",
+	"lightning_s3_c2": "Šios piniginės labiau panašios į bankų sistemą, kur turite pasitikėti trečiąja šalimi dėl prieigos prie savo pinigų. Jei jūsų Bitcoin yra biržoje, naudojate globėjišką piniginę.",
+	"lightning_s3_c3": "Globėjiškos piniginės gali atrodyti patogios, bet globėjas turi techninę galimybę pavogti visus naudotojų pinigus bet kuriuo metu.",
+	"lightning_s3_c4": "Kai kurie žmonės pageidauja globėjiškų Lightning piniginių mažoms bitcoin sumoms dėl jų naudojimo paprastumo. Tiesiog atsiminkite: ne jūsų raktai, ne jūsų monetos!",
+	"lightning_question_2": "PASIRINKITE SAVO PINIGINĘ",
+	"lightning_s4_c1": "Turint visa tai omenyje, dabar galite pasirinkti Lightning piniginę su tinkamu kompromisų balansu jums.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Daug funkcijų",
+	"lightning_mobile_app": "Mobilioji programėlė",
+	"lightning_free": "100% nemokama",
+	"lightning_merchants": "Puikiai tinka prekiautojams",
+	"lightning_starter": "Puiki pradinė piniginė",
+	"lightning_browser": "Naršyklės pagrindu",
+	"lightning_custodial": "Pilnai globėjiška piniginė",
+	"lightning_cta_hardware": "Ieškote mūsų Bitcoin aparatūrinių piniginių vadovo?"
+}

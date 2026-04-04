@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"bitcoin_vs_crypto": "Bitcoin prieš kriptovaliutas",
+	"crypto_header": "SKIRTUMAS TARP",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "IR",
+	"crypto_header_4": "KRIPTOVALIUTŲ",
+	"crypto_intro_1": "Kriptovaliutų erdvė išsiplėtė su tūkstančiais skirtingų skaitmeninių žetonų ir projektų.",
+	"crypto_intro_2": "Nors Bitcoin buvo pirmasis ir lieka žinomiausias kriptovaliuta, jis iš esmės skiriasi nuo likusios kripto industrijos.",
+	"crypto_intro_3": "Panagrinėkime pagrindinius skirtumus tarp Bitcoin ir platesnės kriptovaliutų ekosistemos.",
+	"crypto": "KRIPTOVALIUTOS",
+	"crypto_point_1": "Dažni pakeitimai ir šakės",
+	"crypto_point_2": "Centralizuota kontrolė",
+	"crypto_point_3": "Neribota ar infliacinė pasiūla",
+	"crypto_point_4": "Sudėtingi protokolai",
+	"crypto_point_5": "Eksperimentinis konsensusas",
+	"crypto_point_6": "Spekuliaciniai naudingumo žetonai",
+	"crypto_point_7": "Nepastovi ir trapi",
+	"crypto_point_8": "Korporacinė parama",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Nekintamas protokolas",
+	"bitcoin_point_2": "Tikrai decentralizuotas",
+	"bitcoin_point_3": "Fiksuota 21M BTC pasiūla",
+	"bitcoin_point_4": "Paprastas ir prieinamas",
+	"bitcoin_point_5": "Įrodytas darbo įrodymas",
+	"bitcoin_point_6": "Grynieji skaitmeniniai pinigai",
+	"bitcoin_point_7": "Antifragilus",
+	"bitcoin_point_8": "Joks subjektas nekontroliuoja",
+	"point_1_summary_1": "Bitcoin protokolas iš esmės nepakito nuo 2009 m., užtikrindamas nuspėjamas taisykles, kurių negalima lengvai pakeisti. Dauguma kripto projektų dažnai atnaujina savo protokolus, keičia tokenomiką ar šakojasi į naujas versijas.",
+	"point_2_summary_1": "Bitcoin veikia tikrai decentralizuotame tinkle su dešimtimis tūkstančių nepriklausomų mazgų visame pasaulyje. Daugelį kripto projektų kontroliuoja fondai, įmonės ar mažos kūrėjų grupės.",
+	"point_3_summary_1": "Bitcoin turi griežtą 21 milijono monetų limitą, padarydamas jį retiausiu skaitmeniniu turtu. Dauguma kripto projektų turi neribotą pasiūlą, infliacijos mechanizmus ar gali sukurti naujų žetonų savo nuožiūra.",
+	"point_4_summary_1": "Bitcoin turi vieną paprastą paskirtį: tarpusavio skaitmeninius pinigus. Bet kas gali jį suprasti ir naudoti turėdamas bazinių žinių. Daugelis kripto projektų apima sudėtingas išmaniąsias sutartis ar DeFi protokolus.",
+	"point_5_summary_1": "Bitcoin naudoja darbo įrodymo konsensusą, kuris buvo išbandytas kovoje daugiau nei 15 metų be vienos sėkmingos atakos prieš pagrindinį tinklą. Daugelis kripto projektų naudoja eksperimentinius konsensuso mechanizmus.",
+	"point_6_summary_1": "Bitcoin tarnauja kaip skaitmeniniai pinigai — vertės saugykla ir mainų priemonė. Dauguma kripto žetonų yra naudingumo žetonai konkrečioms platformoms ar spekuliaciniai aktyvai su neaiškia verte.",
+	"point_7_summary_1": "Bitcoin stiprėja nuo atakų ir išgyveno kiekvieną krizę, draudimą ir kritiką. Dauguma kripto projektų yra trapūs ir gali žlugti dėl reguliavimo spaudimo ar techninių nesėkmių.",
+	"point_8_summary_1": "Bitcoin neturi generalinio direktoriaus, įmonės už jo ir vieno pažeidžiamumo taško. Daugelį kripto projektų remia rizikos kapitalo firmos, turi identifikuojamas vadovų komandas ar priklauso nuo konkrečių įmonių."
+}

@@ -26,6 +26,7 @@ $(function() {
     { code: 'zu', name: 'isiZulu' },
     { code: 'it', name: 'Italiano' },
     { code: 'sw', name: 'Kiswahili' },
+    { code: 'lt', name: 'Lietuvių' },
     { code: 'ms', name: 'Melayu' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'pl', name: 'Polski' },

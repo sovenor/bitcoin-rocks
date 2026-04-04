@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"sticker_success_1": "Jūsų lipdukus išsiųsime per 2–4 savaites. Tuo tarpu pagalvokite apie geras vietas, kur juos priklijuoti!",
+	"sticker_success_2": "Geros vietos lipdukams:",
+	"sticker_success_list_1": "Viešos vietos, kur žmonės juos pastebės",
+	"sticker_success_list_2": "Vietos, kur jie nebus lengvai nuplėšti (lipdukai nepalieka nuolatinių pažeidimų)",
+	"sticker_success_list_3": "Paviršiai, ant kurių lengva priklijuoti (metalas, plastikas, stiklas)",
+	"sticker_success_list_4": "Neklijuokite ant privačios nuosavybės, ženklų, bankomatų ar degalinių kolonėlių",
+	"sticker_success_3": "Norite pamatyti, kur kiti klijuoja savo lipdukus?",
+	"sticker_success_flyers_bar_new": "Naujiena!",
+	"sticker_success_flyers_bar_cta": "Atsispausdinkite ir iškabinkite Bitcoin skrajutes →"
+}

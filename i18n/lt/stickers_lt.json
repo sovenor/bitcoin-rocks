@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "lt"
+	},
+	"free_bitcoin_stickers": "Nemokami Bitcoin lipdukai iš bitcoin.rocks",
+	"stickers_description": "Priklijuokite Bitcoin lipduką viešoje vietoje, kad įtrauktumėte aplinkinius.",
+	"stickers_header": "NEMOKAMI BITCOIN LIPDUKAI",
+	"stickers_choose_header": "PASIRINKITE SAVO LIPDUKŲ PAKĄ",
+	"stickers_choose_c1": "Mūsų misija — padėti jums įtraukti daugiau žmonių į Bitcoin klijuojant lipdukus viešose vietose. Visuose mūsų lipdukuose yra QR kodai, nukreipiantys į šviečiamąsias puslapius apie",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "infliaciją",
+	"stickers_choose_c4": "Pasirinkite savo lipdukų paką žemiau",
+	"stickers_text_pack": "TEKSTO PAKA",
+	"stickers_signs_pack": "ŽENKLŲ PAKA",
+	"stickers_instructions_1": "Įveskite savo pašto adresą ir mes atsiųsime jums nemokamą Bitcoin lipdukų paką paštu! Jūsų lipdukai bus išsiųsti baltame voke.",
+	"stickers_instructions_2": "Adreso duomenys ištrinami išsiuntus nemokamus lipdukus.",
+	"stickers_share_header": "PASIDALINKITE SAVO LIPDUKŲ VIETOMIS",
+	"stickers_share_c1": "Pasidalinkite savo lipdukų vietomis su mumis Nostr platformoje ir pažiūrėkite, kur kiti klijuoja savo lipdukus.",
+	"stickers_btn_share_on_nostr": "DALINTIS NOSTR",
+	"stickers_btn_what_is_nostr": "KAS YRA NOSTR?",
+	"stickers_flyers_link_before": "Tuo pačiu metu atsispausdinkite ir iškabinkite savo ",
+	"stickers_flyers_link_text": "Bitcoin skrajutes",
+	"stickers_flyers_link_after": ", kad įtrauktumėte dar daugiau žmonių.",
+	"stickers_country_global_print": "Globaliai — atsispausdinti savo lipdukus",
+	"stickers_country_global_order": "Globaliai — užsakyti didmenomis",
+	"placeholder_name_optional": "Vardas (neprivaloma)",
+	"placeholder_address_line_1": "Adreso 1 eilutė",
+	"placeholder_address_line_2": "Adreso 2 eilutė (neprivaloma)",
+	"placeholder_city": "Miestas",
+	"placeholder_state": "Valstija",
+	"placeholder_province": "Provincija",
+	"placeholder_zip_code": "Pašto kodas",
+	"placeholder_postal_code": "Pašto kodas",
+	"placeholder_language": "Kalba",
+	"placeholder_which_stickers": "Kuriuos lipdukus?",
+	"placeholder_email_optional": "Įveskite el. paštą pranešimui gauti (neprivaloma)"
+}
