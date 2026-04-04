@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"sign_success_1": "Papan tanda anda akan sampai dalam masa 1-2 minggu. Sementara menunggu, fikirkan tempat yang baik untuk memasangnya!",
+	"sign_success_3": "Mahu lihat di mana orang lain memasang papan tanda mereka?",
+	"signs_share_header": "Kongsi lokasi papan tanda anda",
+	"signs_share_c1": "Kongsi gambar lokasi papan tanda anda di Nostr dan kami akan zap sats kepada anda! Sats ialah pecahan Bitcoin.",
+	"signs_btn_share_on_nostr": "KONGSI DI NOSTR",
+	"signs_btn_what_is_nostr": "APA ITU NOSTR?"
+}

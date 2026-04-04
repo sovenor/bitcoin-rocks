@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin tidak mempunyai krisis bank",
+	"bank_runs_header": "Bitcoin tidak mempunyai krisis bank",
+	"bank_runs_header_2": "Tetapi bank anda mungkin ada",
+	"bank_runs_what": "Apa itu krisis bank?",
+	"bank_runs_what_content_1": "Krisis bank berlaku apabila terlalu ramai orang cuba mengeluarkan wang mereka dari bank pada masa yang sama.",
+	"bank_runs_what_content_2": "Jika bank tidak mempunyai wang yang cukup untuk memenuhi pengeluaran, krisis bank boleh menyebabkan bank runtuh sepenuhnya.",
+	"bank_runs_how": "Bagaimana krisis bank berlaku?",
+	"bank_runs_how_content_1": "Sistem perbankan kita ialah \"rizab pecahan\" — bermakna bank tidak hanya menyimpan wang anda di dalam peti besi menunggu anda menggunakan atau mengeluarkannya.",
+	"bank_runs_how_content_2": "Sebaliknya, bank meminjamkan dan melaburkan wang anda. Ini boleh mengunci wang anda untuk tempoh yang lama, walaupun bank berjanji bahawa anda boleh mengeluarkannya pada bila-bila masa.",
+	"bank_runs_how_content_3": "Jadi apa yang berlaku jika anda cuba mengeluarkan wang anda selepas bank sudah meminjamkan atau melaburkannya?",
+	"bank_runs_how_content_4": "Jika hanya anda seorang yang mengeluarkan, tiada masalah. Bank hanya menggunakan wang orang lain untuk memberikan kepada anda. Tetapi bagaimana jika terlalu ramai orang cuba mengeluarkan pada masa yang sama?",
+	"bank_runs_how_content_5": "Ramai rakyat Amerika mendapat tahu apabila krisis bank berlaku di Silicon Valley Bank pada Mac 2023.",
+	"bank_runs_how_content_6": "Bank itu telah melaburkan wang pelanggan dalam bon kerajaan yang dikunci sehingga 30 tahun. Lebih teruk lagi, bon ini telah kehilangan nilai baru-baru ini, jadi Silicon Valley Bank tidak boleh menjual bon untuk mendapatkan semula wang pendeposit. Ia muflis. Ia tidak mempunyai wang yang cukup untuk memenuhi pengeluaran pendeposit.",
+	"bank_runs_how_content_7": "Apabila lebih ramai orang mengetahui hal ini, masalah menjadi lebih teruk. Lebih banyak permintaan pengeluaran datang, tetapi banyak yang tidak dapat diproses. Ribuan perniagaan mendapati mereka tidak dapat membayar gaji pekerja kerana kegagalan bank.",
+	"bank_runs_how_content_8": "FDIC campur tangan dan bersetuju untuk melindungi pendeposit sepenuhnya. Masalah selesai? Tidak tepat...",
+	"bank_runs_fdic": "Adakah insurans FDIC melindungi wang saya?",
+	"bank_runs_fdic_content_1": "Insurans FDIC direka untuk melindungi pendeposit jika bank gagal. Deposit diinsuranskan sehingga $250,000 setiap pendeposit. Bagus, kan?",
+	"bank_runs_fdic_content_2": "Tidak tepat. Jika bank gagal, dari mana FDIC mendapat wang? Ia mempunyai dana insurans sebanyak $125 bilion.",
+	"bank_runs_fdic_content_3": "Kedengaran banyak, tetapi bandingkan dengan jumlah deposit yang diinsuranskan: kira-kira $10 trilion, atau $10,000 bilion.",
+	"bank_runs_fdic_content_4": "FDIC menunjukkan di laman webnya sendiri bahawa dana insurans hanya mempunyai wang yang cukup untuk menampung lebih sedikit daripada 1% deposit.",
+	"bank_runs_fdic_content_5": "Jika kegagalan bank melebihi dana insurans FDIC, berkemungkinan (tetapi tidak dijamin) kerajaan AS akan mencetak wang untuk melindungi pendeposit sepenuhnya.",
+	"bank_runs_fdic_content_6": "Tetapi pencetakan wang menyebabkan inflasi, jadi ini bukan penyelesaian yang baik.",
+	"bank_runs_safe": "Adakah bank yang tidak menggunakan rizab pecahan?",
+	"bank_runs_safe_content_1": "Beberapa bank telah cuba menjadi \"bank selamat\" yang tidak meminjamkan atau melaburkan dana pendeposit.",
+	"bank_runs_safe_content_2": "Bank-bank selamat ini telah ditolak permohonan mereka oleh Federal Reserve walaupun mereka akan mempunyai risiko krisis bank sifar. Bermakna mereka tidak boleh beroperasi secara sah sebagai bank.",
+	"bank_runs_safe_content_3": "Oleh kerana operasi mereka disekat, tiada bank hari ini yang tidak menggunakan rizab pecahan.",
+	"bank_runs_safe_content_4": "Nasib baik, terdapat cara untuk keluar dari rizab pecahan dengan menjadi bank anda sendiri. Tidak, kami tidak bercakap tentang menyorokkan wang tunai di bawah tilam.",
+	"bank_runs_safe_content_5": "Menyimpan dalam wang tunai masih terdedah kepada inflasi.",
+	"bank_runs_safe_content_6": "Kami bercakap tentang Bitcoin: sistem kewangan baharu yang membolehkan anda menjadi bank anda sendiri.",
+	"bank_runs_protect": "Adakah Bitcoin melindungi saya daripada krisis bank?",
+	"bank_runs_protect_content_1": "Ya, Bitcoin ialah sistem kewangan rizab penuh.",
+	"bank_runs_protect_content_2": "Selagi anda mengeluarkan Bitcoin anda ke dompet anda sendiri, krisis bank adalah mustahil dengan Bitcoin. Jangan simpan Bitcoin anda di bursa atau dalam pembungkus seperti ETF Bitcoin.",
+	"bank_runs_protect_content_3": "Lihat panduan dompet Bitcoin mudah kami untuk mengetahui cara mengeluarkan ke dompet anda sendiri.",
+	"bank_runs_protect_content_4": "Dengan Bitcoin, anda akhirnya mengawal wang anda."
+}

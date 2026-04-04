@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Seni Halus",
+	"fine_art_header": "Apa bezanya",
+	"fine_art_header_2": "Bitcoin",
+	"fine_art_header_3": "dan",
+	"fine_art_header_4": "Seni Halus",
+	"fine_art_intro_1": "Seni halus telah menjadi pelaburan golongan kaya selama berabad-abad, dianggap oleh pengumpul sebagai simpanan nilai.",
+	"fine_art_intro_2": "Bitcoin ialah wang digital yang dianggap oleh ramai sebagai simpanan nilai dan pelaburan.",
+	"fine_art_intro_3": "Jadi apakah perbezaan antara karya seni fizikal dan wang digital seperti Bitcoin? Mari kita lihat perbezaan antara dua bentuk pelaburan ini: Bitcoin dan seni halus.",
+	"fine_art": "Seni Halus",
+	"fine_art_point_1": "Setiap karya adalah unik",
+	"fine_art_point_2": "Memerlukan lelong pakar",
+	"fine_art_point_3": "Yuran lelong tinggi",
+	"fine_art_point_4": "Tidak boleh dibahagikan",
+	"fine_art_point_5": "Memerlukan penilaian pakar",
+	"fine_art_point_6": "Terdedah kepada kerosakan",
+	"fine_art_point_7": "Terhad kepada pengumpul kaya",
+	"bitcoin": "Bitcoin",
+	"bitcoin_point_1": "Boleh ditukar ganti sepenuhnya",
+	"bitcoin_point_2": "Pasaran global 24/7/365",
+	"bitcoin_point_3": "Yuran transaksi rendah",
+	"bitcoin_point_4": "Mudah dibahagikan",
+	"bitcoin_point_5": "Boleh disahkan secara kriptografi",
+	"bitcoin_point_6": "Sukar dimusnahkan",
+	"bitcoin_point_7": "Boleh diakses oleh sesiapa sahaja",
+	"point_1_summary_1": "Bitcoin boleh ditukar ganti sepenuhnya — semua Bitcoin adalah sama dan boleh ditukar. 1 Bitcoin bernilai 1 Bitcoin di mana-mana di dunia. Seni halus pada asasnya tidak boleh ditukar ganti, dengan penciptaan, sejarah, keadaan, dan provenance unik setiap karya menjadikan perbandingan langsung dan penilaian sangat sukar.",
+	"point_2_summary_1": "Bitcoin didagangkan di pasaran global 24/7/365 yang membolehkan sesiapa sahaja dengan sambungan internet membeli atau menjual serta-merta. Seni halus memerlukan rumah lelong pakar seperti Sotheby's atau Christie's, peniaga persendirian, atau galeri eksklusif. Jualan boleh mengambil masa berbulan-bulan untuk diatur dan diselesaikan, dengan akses pasaran yang terhad.",
+	"point_3_summary_1": "Membeli dan menjual Bitcoin biasanya melibatkan yuran kurang daripada 1%, selalunya lebih kurang. Membeli dan menjual seni halus melibatkan kos yang besar termasuk premium pembeli (10-25%), komisen penjual (10-15%), insurans, pengangkutan, penyimpanan, dan yuran penilaian. Jumlah kos ini boleh dengan mudah melebihi 30-40% daripada nilai karya dalam satu transaksi.",
+	"point_4_summary_1": "Bitcoin boleh dibahagikan kepada 100 juta unit kecil yang dipanggil satoshi, menjadikannya sesuai untuk transaksi dalam sebarang saiz dari transaksi mikro hingga pembelian besar. Seni halus tidak boleh dibahagikan. Anda tidak boleh memiliki sebahagian daripada lukisan atau menjual sebahagian daripada arca. Ketidakbolehbahagian ini mengehadkan fleksibiliti pelaburan dan pilihan kecairan.",
+	"point_5_summary_1": "Pemilikan dan keaslian Bitcoin boleh disahkan secara kriptografi pada blockchain oleh sesiapa sahaja yang mempunyai pengetahuan teknikal asas. Seni halus memerlukan penilaian pakar yang mahal, penyelidikan provenance, dan analisis saintifik. Walaupun dengan pengesahan pakar, pemalsuan secara berkala menipu dunia seni, dan pertikaian penilaian boleh memusnahkan nilai karya semalaman. Bitcoin, sebaliknya, mustahil untuk dipalsukan.",
+	"point_6_summary_1": "Bitcoin, jika disandarkan dengan betul, tidak boleh dimusnahkan oleh banjir, kebakaran, gempa bumi, taufan, kecurian, atau bencana lain. Seni halus terdedah kepada semua bentuk kemusnahan fizikal dan kemerosotan. Walaupun dengan penyimpanan suhu terkawal yang mahal dan insurans komprehensif, ia masih boleh rosak akibat faktor persekitaran, kemalangan, atau bencana alam, dan kehilangan semua nilainya.",
+	"point_7_summary_1": "Bitcoin boleh dibeli dan dijual oleh sesiapa sahaja yang mempunyai sambungan internet dan jumlah kecil untuk melabur. Pelaburan seni halus sebahagian besarnya terhad kepada pengumpul kaya kerana harga minimum yang tinggi, akses kepada lelong eksklusif, keperluan penyimpanan, kos insurans, dan kepakaran yang diperlukan untuk mengemudi pasaran seni dengan jayanya."
+}

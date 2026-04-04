@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"free_bitcoin_flyers": "Risalah Bitcoin percuma daripada bitcoin.rocks",
+	"flyers_description": "Cetak risalah Bitcoin di rumah dan tampalkan di tempat awam untuk memperkenalkan Bitcoin kepada orang di sekeliling anda.",
+	"flyers_header_1": "Cetak dan tampal",
+	"flyers_header_2": "risalah Bitcoin",
+	"flyers_intro_header": "Cara mencetak dan menampal risalah Bitcoin",
+	"flyers_intro_c1": "Misi kami adalah membantu memperkenalkan Bitcoin kepada lebih ramai orang dengan menampal risalah Bitcoin di tempat awam. Risalah ini menghubungkan ke",
+	"flyers_intro_c2": "laman web pendidikan Bitcoin",
+	"flyers_intro_c3": "Inflasi",
+	"flyers_intro_c4": "Cetak risalah ini di rumah atau di kedai cetak. Kemudian tampalkan di papan kenyataan, tiang di bandar, dan tempat awam lain di mana orang boleh melihatnya dan belajar tentang Bitcoin.",
+	"flyers_intro_c5": "Sementara itu, minta",
+	"flyers_intro_c6": "pelekat Bitcoin percuma",
+	"flyers_intro_c7": " kami juga untuk memperkenalkan Bitcoin kepada lebih ramai orang.",
+	"flyers_btn_download": "Muat turun risalah",
+	"flyers_btn_print": "Cetak risalah",
+	"flyers_share_header": "Kongsi lokasi risalah anda",
+	"flyers_share_c1": "Kongsi lokasi risalah anda di Nostr dan lihat di mana orang lain menampal risalah mereka.",
+	"flyers_btn_share_on_nostr": "KONGSI DI NOSTR",
+	"flyers_btn_what_is_nostr": "APA ITU NOSTR?"
+}

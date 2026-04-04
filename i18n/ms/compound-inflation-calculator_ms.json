@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"cic_header": "Kalkulator Inflasi Kompaun",
+	"cic_description": "Gunakan kalkulator inflasi kompaun ini untuk melihat berapa banyak gaji anda perlu dinaikkan untuk mengikuti inflasi.",
+	"what_can_i_do_about": "Apa yang boleh saya lakukan tentang",
+	"what_can_i_do_about_2": "inflasi?",
+	"cic_inflation_cta": "Keluar daripada inflasi dengan Bitcoin"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"how_to_accept_bitcoin_payments": "Cara menerima pembayaran Bitcoin",
+	"wallets_header": "DAPATKAN DOMPET BITCOIN PERCUMA DAN MULA MENERIMA PEMBAYARAN BITCOIN",
+	"wallets_intro_1": "Semua dompet Bitcoin boleh beroperasi bersama, jadi pelanggan boleh membayar anda dengan Bitcoin tidak kira dompet apa yang mereka gunakan.",
+	"wallets_intro_2": "Dompet Bitcoin sahaja:",
+	"wallets_intro_3": "Ini adalah dompet Bitcoin tulen yang membuka semua manfaat Bitcoin: tiada perantara, yuran rendah, tiada caj balik atau transaksi palsu.",
+	"wallets_intro_4": "Dompet hibrid:",
+	"wallets_intro_5": "Menukar mana-mana peratusan Bitcoin anda kepada dolar pada masa anda menerima bayaran daripada pelanggan. Yuran lebih rendah daripada kad kredit, tetapi lebih tinggi daripada pembayaran Bitcoin tulen.",
+	"wallets_intro_6": "Kedua-duanya adalah cara yang baik untuk menerima Bitcoin. Dompet khusus yang anda gunakan bergantung pada saiz dan jenis perniagaan anda.",
+	"wallets_choice_sole": "Dompet untuk pemilik tunggal",
+	"wallets_choice_multiple": "Dompet untuk perniagaan berbilang pekerja",
+	"wallets_choice_online": "Dompet untuk perniagaan dalam talian",
+	"wallets_choice_invoice": "Dompet untuk perniagaan berasaskan invois",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Terima pembayaran Bitcoin menggunakan terminal POS Square sedia ada atau integrasi kedai dalam talian. Menerima pembayaran Bitcoin tidak pernah semudah ini.",
+	"wallets_feature_bitcoin_only": "Dompet Bitcoin sahaja",
+	"wallets_feature_no_info": "Tiada maklumat diperlukan",
+	"wallets_feature_in_person": "Pembayaran bersemuka sahaja",
+	"wallets_feature_settles_bitcoin": "Diselesaikan 100% dalam Bitcoin",
+	"wallets_feature_hybrid": "Dompet hibrid",
+	"wallets_feature_info": "Maklumat perniagaan diperlukan",
+	"wallets_feature_in_person_online": "Pembayaran bersemuka & dalam talian",
+	"wallets_feature_settles_both": "Diselesaikan dalam Bitcoin & dolar",
+	"wallets_feature_multiple_employees": "Berbilang pekerja (BPT)",
+	"wallets_feature_self_hosted": "Hos sendiri = yuran 0%",
+	"wallets_feature_online_store": "Integrasi kedai dalam talian",
+	"wallets_feature_invoicing": "Perisian invois percuma",
+	"wallets_get_wallet": "Dapatkan dompet"
+}

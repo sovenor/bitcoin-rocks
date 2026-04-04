@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"signs_description": "Bantu pasang papan tanda Bitcoin di seluruh Amerika!",
+	"signs_title": "Papan tanda Bitcoin percuma daripada bitcoin.rocks",
+	"signs_choose_header": "Terima kasih kerana membantu memasang papan tanda Bitcoin di seluruh Amerika!",
+	"signs_choose_c1": "Semua papan tanda telah habis! Misi kami adalah mempercepatkan penerimaan Bitcoin melalui pendidikan.",
+	"signs_choose_c2": "Ramai daripada anda telah membantu dengan memasang papan tanda Bitcoin percuma di tempat awam. Semua papan tanda mempunyai kod QR yang memautkan ke halaman pendidikan:",
+	"signs_choose_c3": "Inflasi",
+	"signs_choose_c4": "Terima kasih kepada komuniti yang hebat, kami telah menjangkau ribuan orang dan membantu mereka mengambil langkah pertama ke dunia Bitcoin.",
+	"signs_share_header": "Kongsi lokasi papan tanda anda",
+	"signs_share_c1": "Kongsi lokasi papan tanda anda di Nostr dan lihat di mana orang lain memasang papan tanda mereka.",
+	"signs_btn_share_on_nostr": "KONGSI DI NOSTR",
+	"signs_btn_what_is_nostr": "APA ITU NOSTR?",
+	"signs_instructions_1": "Masukkan alamat anda dan kami akan menghantar 10 papan tanda Bitcoin dalam kotak melalui pos!",
+	"signs_instructions_2": "Data alamat dipadamkan selepas papan tanda dihantar."
+}

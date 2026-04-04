@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"bitcoin_business_accounting_guide": "Panduan Perakaunan Perniagaan Bitcoin",
+	"accounting_description": "Ketahui cara mengendalikan pembayaran Bitcoin dengan betul dalam perakaunan perniagaan anda.",
+	"accounting_header": "PANDUAN PERAKAUNAN BITCOIN",
+	"accounting_s1_c1": "Terdapat banyak kelebihan menerima Bitcoin, daripada menerima pembayaran dengan yuran yang lebih rendah hingga mendapat lebih ramai pelanggan.",
+	"accounting_s1_c2": "Jika anda menggunakan dompet hibrid daripada panduan dompet kami dan menukar 100% Bitcoin yang diterima kepada dolar secara automatik, anda tidak perlu mengubah apa-apa dalam proses perakaunan semasa anda.",
+	"accounting_s1_c3": "Lihat panduan dompet.",
+	"accounting_s1_c4": "Walau bagaimanapun, jika anda menyimpan sebahagian daripada Bitcoin yang diterima sebagai Bitcoin, anda perlu merekodkan beberapa butiran untuk perakaunan. Ini mungkin kelihatan rumit pada mulanya, tetapi sebenarnya sangat mudah.",
+	"accounting_s1_c5": "Nota: Panduan ini hanya untuk tujuan maklumat dan tidak boleh dianggap sebagai nasihat cukai.",
+	"accounting_s1_c6": "Jika anda memerlukan nasihat cukai, kami sangat mengesyorkan Satoshi Pacioli Accounting Services, firma perakaunan yang pakar dalam perakaunan Bitcoin.",
+	"accounting_s2": "Menjejak asas kos",
+	"accounting_s2_c1": "Menjejak asas kos ialah perbezaan terbesar antara perakaunan dolar dan perakaunan Bitcoin. Walaupun anda melihat perniagaan anda dari sudut Bitcoin, anda masih perlu melaporkan nilai dolar setiap transaksi untuk pemfailan cukai.",
+	"accounting_s2_c2": "Jika anda menggunakan QuickBooks, anda boleh melakukannya secara automatik dengan pemalam Bitcoin Sync.",
+	"accounting_s2_c3": "Jika anda tidak menggunakan QuickBooks, kami mengesyorkan Satoshi Pacioli Accounting Services, yang pakar dalam perakaunan Bitcoin.",
+	"accounting_s2_c4": "Jika anda melakukannya secara manual, anda hanya perlu merekodkan jumlah Bitcoin yang diterima dan nilai dolar transaksi Bitcoin pada hari itu.",
+	"accounting_s2_c5": "Anda boleh menyemak harga dolar semasa Bitcoin di sini.",
+	"accounting_s2_c6": "Rekodkan maklumat ini dalam hamparan Excel dan berikan kepada akauntan anda.",
+	"accounting_s2_c7": "Anda juga boleh mengimport data ini ke Excel secara automatik.",
+	"accounting_s2_c8": "Anda juga boleh menyemak harga dolar sejarah Bitcoin untuk hari-hari lalu, jadi anda tidak perlu melakukannya setiap hari.",
+	"accounting_s3": "Membelanjakan atau menjual Bitcoin",
+	"accounting_s3_c1": "Jika anda menggunakan dompet hibrid daripada panduan dompet kami dan menukar 100% Bitcoin yang diterima kepada dolar secara automatik, anda tidak perlu mengubah apa-apa dalam proses perakaunan semasa anda.",
+	"accounting_s3_c2": "Lihat panduan dompet.",
+	"accounting_s3_c3": "Jika anda membelanjakan atau menjual sebahagian Bitcoin selepas menyimpannya untuk tempoh tertentu, anda hanya perlu menambah harga jualan ke hamparan Excel penjejakan asas kos anda.",
+	"accounting_s3_c4": "Contohnya, jika anda menerima Bitcoin bernilai $100 pada 1 Januari dan menjual atau membelanjakannya pada 1 Februari pada nilai baharu $110, anda perlu merekodkan keuntungan modal $10 dalam perakaunan anda.",
+	"accounting_s3_c5": "Ini juga berfungsi secara terbalik. Contohnya, jika anda menerima Bitcoin bernilai $100 pada 1 Januari dan menjual atau membelanjakannya pada 1 Februari pada nilai baharu $90, anda perlu merekodkan kerugian modal $10 dalam perakaunan anda.",
+	"accounting_s4": "Perlukan lebih banyak bantuan",
+	"accounting_s4_c1": "Jika anda memerlukan lebih banyak bantuan untuk mengintegrasikan Bitcoin ke dalam perakaunan perniagaan anda, kami sangat mengesyorkan Satoshi Pacioli Accounting Services, firma perakaunan yang pakar dalam perakaunan Bitcoin.",
+	"accounting_s4_c2": "Ketahui lebih lanjut tentang Satoshi Pacioli Accounting Services."
+}

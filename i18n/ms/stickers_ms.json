@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"free_bitcoin_stickers": "Pelekat Bitcoin percuma daripada bitcoin.rocks",
+	"stickers_description": "Lekatkan pelekat Bitcoin di tempat awam untuk memperkenalkan Bitcoin kepada orang di sekeliling anda.",
+	"stickers_header": "Pelekat Bitcoin Percuma",
+	"stickers_choose_header": "Pilih pek pelekat",
+	"stickers_choose_c1": "Misi kami adalah membantu memperkenalkan Bitcoin kepada lebih ramai orang dengan melekatkan pelekat Bitcoin di tempat awam. Semua pelekat mempunyai kod QR yang memautkan ke halaman pendidikan:",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "Inflasi",
+	"stickers_choose_c4": "Pilih pek pelekat di bawah",
+	"stickers_text_pack": "Pek teks",
+	"stickers_signs_pack": "Pek tanda",
+	"stickers_instructions_1": "Masukkan alamat anda dan kami akan menghantar pek pelekat Bitcoin percuma melalui pos! Pelekat dihantar dalam sampul surat putih.",
+	"stickers_instructions_2": "Data alamat dipadamkan selepas pelekat dihantar.",
+	"stickers_share_header": "Kongsi lokasi pelekat anda",
+	"stickers_share_c1": "Kongsi lokasi pelekat anda di Nostr dan lihat di mana orang lain melekatkan pelekat mereka.",
+	"stickers_btn_share_on_nostr": "KONGSI DI NOSTR",
+	"stickers_btn_what_is_nostr": "APA ITU NOSTR?",
+	"stickers_flyers_link_before": "Sementara itu, cetak beberapa",
+	"stickers_flyers_link_text": "risalah Bitcoin",
+	"stickers_flyers_link_after": " dan tampalkannya untuk memperkenalkan Bitcoin kepada lebih ramai orang.",
+	"stickers_country_global_print": "Global — cetak sendiri",
+	"stickers_country_global_order": "Global — pesan secara pukal",
+	"placeholder_name_optional": "Nama (pilihan)",
+	"placeholder_address_line_1": "Alamat baris 1",
+	"placeholder_address_line_2": "Alamat baris 2 (pilihan)",
+	"placeholder_city": "Bandar",
+	"placeholder_state": "Negeri",
+	"placeholder_province": "Wilayah",
+	"placeholder_zip_code": "Poskod",
+	"placeholder_postal_code": "Kod pos",
+	"placeholder_language": "Bahasa",
+	"placeholder_which_stickers": "Pelekat mana?",
+	"placeholder_email_optional": "Masukkan e-mel untuk pemberitahuan (pilihan)"
+}

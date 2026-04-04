@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-03",
+		"locale": "ms"
+	},
+	"free_bitcoin_postcards": "Poskad Bitcoin percuma daripada bitcoin.rocks",
+	"postcards_description": "Dapatkan pek poskad Bitcoin percuma untuk memperkenalkan Bitcoin kepada orang yang anda kenali.",
+	"postcards_header": "Program poskad telah ditutup",
+	"postcards_program_closed_message": "Program poskad Bitcoin percuma telah berakhir. Terima kasih kepada semua yang menyertai dalam menyebarkan pendidikan Bitcoin melalui pos!",
+	"postcards_sticker_alternative_header": "Dapatkan pelekat Bitcoin percuma sebagai ganti",
+	"postcards_sticker_alternative_message": "Teruskan menyebarkan kesedaran Bitcoin dengan program pelekat percuma kami! Pelekat Bitcoin sesuai untuk dikongsi di tempat awam dan mempunyai kod QR yang memautkan ke kandungan pendidikan.",
+	"postcards_sticker_cta": "Dapatkan pelekat percuma",
+	"postcards_step_2": "Rupa poskad",
+	"postcards_instructions_4": "Kami membuat poskad ini untuk memudahkan anda memperkenalkan Bitcoin kepada orang yang anda kenali! Hanya tambah alamat dan setem dan masukkan poskad ke dalam peti mel.",
+	"postcards_instructions_5": "Misi kami adalah mempercepatkan penerimaan Bitcoin. Anda boleh membantu dengan mendapatkan pelekat percuma dan melekatkannya di tempat awam!",
+	"postcards_instructions_6": "Pasti ada seseorang dalam hidup anda yang boleh mendapat manfaat daripada mengetahui lebih lanjut tentang Bitcoin. Kongsi pelekat Bitcoin hari ini!"
+}

@@ -1,5 +1,12 @@
 # Progress: bitcoin.rocks
 
+## Malay (ms) Language Added — April 2026
+- Added Malay (Bahasa Melayu) as the 23rd language
+- Created all 90+ translation files in `i18n/ms/` mirroring the English directory structure
+- Translation scripts in `scripts/malay/` (8 scripts broken by category)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (22→23)
+- Ran SEO content injection
+
 ## Swahili (sw) Language Added — April 2026
 - Added Swahili (Kiswahili) as the 22nd language
 - Created all 90+ translation files in `i18n/sw/` mirroring the English directory structure
