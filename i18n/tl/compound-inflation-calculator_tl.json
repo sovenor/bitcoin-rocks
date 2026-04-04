@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"cic_header": "Compound Inflation Calculator",
+	"cic_description": "Gamitin ang compound inflation calculator na ito upang makita kung magkano ang kailangang dagdag sa iyong sahod upang makasabay sa inflation.",
+	"what_can_i_do_about": "Ano ang magagawa ko tungkol sa",
+	"what_can_i_do_about_2": "inflation?",
+	"cic_inflation_cta": "Lumabas sa inflation gamit ang Bitcoin"
+}

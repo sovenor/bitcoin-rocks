@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"bitcoin_business_accounting_guide": "Gabay sa Accounting ng Bitcoin para sa Negosyo",
+	"accounting_description": "Alamin kung paano maayos na i-account ang mga bayad sa Bitcoin sa accounting ng iyong negosyo.",
+	"accounting_header": "GABAY SA ACCOUNTING NG BITCOIN",
+	"accounting_s1_c1": "Ang pagtanggap ng Bitcoin ay may maraming benepisyo tulad ng pagtanggap ng mga bayad na may mas mababang bayarin at pagkuha ng mas maraming customer.",
+	"accounting_s1_c2": "Kung gumagamit ka ng Hybrid Wallet mula sa aming Gabay sa Wallet at awtomatikong ibinebenta ang 100% ng Bitcoin na natatanggap mo para sa dolyar, hindi mo kailangang gumawa ng anumang pagbabago sa iyong kasalukuyang accounting.",
+	"accounting_s1_c3": "Tingnan ang Gabay sa Wallet.",
+	"accounting_s1_c4": "Gayunpaman, kung itinatago mo ang ilan sa mga bayad na natatanggap mo bilang Bitcoin, kakailanganin mong subaybayan ang ilang detalye para sa iyong accounting. Maaaring mukhang nakakatakot ito sa simula, ngunit talagang napakadali.",
+	"accounting_s1_c5": "Paalala: ang gabay na ito ay para sa mga layuning pang-impormasyon lamang at hindi ito itinuturing na payo sa buwis.",
+	"accounting_s1_c6": "Kung kailangan mo ng payo sa buwis, lubos naming inirerekomenda ang Satoshi Pacioli Accounting Services, isang kumpanya ng accounting na espesyalista sa Bitcoin accounting.",
+	"accounting_s2": "PAGSUBAYBAY NG IYONG COST BASIS",
+	"accounting_s2_c1": "Ang pagsubaybay ng iyong cost basis ay magiging pinakamalaking pagkakaiba sa pagitan ng accounting para sa dolyar at accounting para sa Bitcoin. Kahit na itinuturing mo ang iyong negosyo buong-buo sa terminong Bitcoin, kailangan mong i-report ang dolyar na halaga ng bawat transaksyon sa iyong mga buwis.",
+	"accounting_s2_c2": "Kung gumagamit ka ng QuickBooks, maaari mo itong gawin nang awtomatiko gamit ang Bitcoin Sync plugin.",
+	"accounting_s2_c3": "Kung hindi ka gumagamit ng QuickBooks, inirerekomenda namin ang Satoshi Pacioli Accounting Services, isang kumpanya ng accounting na espesyalista sa Bitcoin accounting.",
+	"accounting_s2_c4": "Upang gawin ito nang manu-mano, kailangan mo lamang subaybayan ang halaga ng Bitcoin na natanggap mo at ang dolyar na halaga ng Bitcoin transaction sa araw na iyon.",
+	"accounting_s2_c5": "Maaari mong tingnan ang kasalukuyang dolyar na presyo ng Bitcoin dito.",
+	"accounting_s2_c6": "Subaybayan ang impormasyong ito sa isang Excel spreadsheet at ibigay ito sa iyong accountant.",
+	"accounting_s2_c7": "Maaari mo ring awtomatikong i-import ang data na ito sa Excel.",
+	"accounting_s2_c8": "Maaari mo ring tingnan ang historikal na dolyar na presyo ng Bitcoin sa mga nakaraang araw, kaya hindi mo kailangan gawin ito araw-araw.",
+	"accounting_s3": "PAGGASTOS O PAGBENTA NG IYONG BITCOIN",
+	"accounting_s3_c1": "Kung gumagamit ka ng Hybrid Wallet mula sa aming Gabay sa Wallet at awtomatikong ibinebenta ang 100% ng Bitcoin na natatanggap mo para sa dolyar, hindi mo kailangang gumawa ng anumang pagbabago sa iyong kasalukuyang accounting.",
+	"accounting_s3_c2": "Tingnan ang Gabay sa Wallet.",
+	"accounting_s3_c3": "Kung pipiliin mong gumastos o magbenta ng ilan sa Bitcoin na natatanggap mo matapos itago ito nang ilang panahon, kailangan mo lamang idagdag ang presyo kung saan mo ito ibinenta sa iyong Excel spreadsheet na sumusubaybay ng iyong cost basis.",
+	"accounting_s3_c4": "Halimbawa, kung nakatanggap ka ng $100 na halaga ng Bitcoin noong Enero 1 at nagdesisyong ibenta o gumastos nito noong Pebrero 1 sa bagong halaga na $110, kakailanganin mong i-record ang $10 capital gain sa iyong accounting.",
+	"accounting_s3_c5": "Maaari ring mangyari ang kabaligtaran nito. Halimbawa, kung nakatanggap ka ng $100 na halaga ng Bitcoin noong Enero 1 at nagdesisyong ibenta o gumastos nito noong Pebrero 1 sa bagong halaga na $90, kakailanganin mong i-record ang $10 capital loss sa iyong accounting.",
+	"accounting_s4": "KAILANGAN KO NG HIGIT PANG TULONG",
+	"accounting_s4_c1": "Kung kailangan mo ng higit pang tulong sa pag-integrate ng Bitcoin sa accounting ng iyong negosyo, lubos naming inirerekomenda ang Satoshi Pacioli Accounting Services, isang kumpanya ng accounting na espesyalista sa Bitcoin accounting.",
+	"accounting_s4_c2": "Matuto pa tungkol sa Satoshi Pacioli Accounting Services."
+}

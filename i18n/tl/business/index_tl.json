@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"bitcoin_is_good_for_business": "Maganda ang Bitcoin para sa negosyo",
+	"biz_header": "MAGANDA ANG BITCOIN PARA SA NEGOSYO",
+	"biz_s1": "Mababang bayarin na walang minimum",
+	"biz_s1_c1": "Pinapahintulutan ka ng Bitcoin na tumanggap ng mga bayad nang direkta mula sa iyong mga customer, katulad ng cash. Ang Bitcoin network ay gumagana nang walang mga tagapamagitan tulad ng mga bangko at credit card company na kumukuha ng malalaking bayarin.",
+	"biz_s2": "Instant na settlement",
+	"biz_s2_c1": "Katulad ng cash, ang mga bayad ng Bitcoin ay agad na nase-settle. Hindi mo kailangang maghintay na bayaran ka ng iyong credit card company o bangko. Sa halip, makukuha mo agad ang iyong pera.",
+	"biz_s3": "Walang chargeback o panloloko",
+	"biz_s3_c1": "Dahil ang mga bayad ng Bitcoin ay direktang nangyayari sa pagitan mo at ng iyong mga customer, imposibleng may kumuha pabalik ng iyong pera gamit ang chargeback.",
+	"biz_s3_c2": "Ang pekeng Bitcoin ay hindi maaaring ipadala sa Bitcoin Network, na nangangahulugang hindi mo kailangang mag-alala tungkol sa mga mapanlinlang na transaksyon na maaaring magdulot ng gastos sa iyong negosyo.",
+	"biz_s4": "Kumuha ng mas maraming customer",
+	"biz_s4_c1": "Milyon-milyong tao ang nagmamay-ari ng Bitcoin at gustong gumastos ng kanilang Bitcoin sa mga lugar na tumatanggap nito.",
+	"biz_s4_c2": "Sa simpleng pagtanggap ng Bitcoin, ang iyong negosyo ay maaaring mailagay sa mga mapa ng Bitcoin merchant at makakuha ng libreng exposure sa mga bagong Bitcoin customer.",
+	"biz_s4_c3": "Ang pagtanggap ng Bitcoin ay 100% libre. Walang mga kontrata o nakatagong bayarin."
+}

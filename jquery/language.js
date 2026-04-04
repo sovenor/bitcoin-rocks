@@ -32,6 +32,7 @@ $(function() {
     { code: 'sv', name: 'Svenska' },
     { code: 'sw', name: 'Kiswahili' },
     { code: 'th', name: 'ภาษาไทย' },
+    { code: 'tl', name: 'Tagalog' },
     { code: 'bg', name: 'български' },
     { code: 'ta', name: 'தமிழ்' },
     { code: 'zh', name: '中文' },

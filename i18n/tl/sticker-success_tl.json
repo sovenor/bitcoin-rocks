@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"sticker_success_1": "Ang iyong mga sticker ay darating sa loob ng 2-4 na linggo. Habang naghihintay, isipin kung saan magandang lugar para idikit ang mga ito!",
+	"sticker_success_2": "Magagandang lugar para idikit ang sticker:",
+	"sticker_success_list_1": "Mga pampublikong lugar kung saan maraming tao ang makakakita",
+	"sticker_success_list_2": "Mga lugar na hindi madaling matanggal (ang mga sticker ay hindi nagdudulot ng permanenteng pinsala)",
+	"sticker_success_list_3": "Mga ibabaw na madaling madikitin (metal, plastik, salamin)",
+	"sticker_success_list_4": "Huwag idikit sa pribadong ari-arian, mga karatula, ATM, o gas pump",
+	"sticker_success_3": "Gusto mong makita kung saan idinadagdag ng iba ang kanilang mga sticker?",
+	"sticker_success_flyers_bar_new": "Bago!",
+	"sticker_success_flyers_bar_cta": "Mag-print at mag-post ng mga Bitcoin flyer →"
+}

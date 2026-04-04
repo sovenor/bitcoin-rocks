@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"free_bitcoin_flyers": "Libreng Bitcoin Flyer mula sa bitcoin.rocks",
+	"flyers_description": "Mag-print ng Bitcoin flyer sa bahay at ilagay ito sa publiko upang ma-orange pill ang mga nasa paligid mo.",
+	"flyers_header_1": "MAG-PRINT AT MAG-POST NG",
+	"flyers_header_2": "MGA BITCOIN FLYER",
+	"flyers_intro_header": "PAANO MAG-PRINT AT MAG-POST NG MGA BITCOIN FLYER NA ITO",
+	"flyers_intro_c1": "Ang aming misyon ay tulungan kang mag-orange pill ng mas maraming tao sa pamamagitan ng paglalagay ng mga Bitcoin flyer sa publiko. Ang flyer na ito ay may QR code na naglilink sa aming",
+	"flyers_intro_c2": "edukasyonal na Bitcoin website.",
+	"flyers_intro_c3": "inflation",
+	"flyers_intro_c4": "I-print ang flyer na ito sa bahay o sa isang print shop. Pagkatapos, i-post ito sa mga bulletin board, mga poste ng telepono sa bayan, at iba pang mga pampublikong lugar kung saan makikita ito ng mga tao at matututo tungkol sa Bitcoin.",
+	"flyers_intro_c5": "Habang nariyan ka na, humiling ng pack ng aming",
+	"flyers_intro_c6": "libreng Bitcoin sticker",
+	"flyers_intro_c7": "upang makatulong na mag-orange pill ng mas maraming tao.",
+	"flyers_btn_download": "I-DOWNLOAD ANG FLYER",
+	"flyers_btn_print": "I-PRINT ANG FLYER",
+	"flyers_share_header": "IBAHAGI ANG IYONG MGA FLYER SPOT",
+	"flyers_share_c1": "Ibahagi ang iyong mga flyer spot sa amin sa Nostr at tingnan kung saan naglalagay ang ibang tao ng kanilang mga flyer.",
+	"flyers_btn_share_on_nostr": "IBAHAGI SA NOSTR",
+	"flyers_btn_what_is_nostr": "ANO ANG NOSTR?"
+}

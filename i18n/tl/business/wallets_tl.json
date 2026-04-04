@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"how_to_accept_bitcoin_payments": "Paano Tumanggap ng mga Bayad sa Bitcoin",
+	"wallets_header": "KUMUHA NG LIBRENG BITCOIN WALLET UPANG TUMANGGAP NG MGA BAYAD SA BITCOIN",
+	"wallets_intro_1": "Lahat ng Bitcoin wallet ay interoperable, kaya ang iyong mga customer ay maaaring magbayad sa iyo gamit ang Bitcoin kahit anong wallet ang ginagamit nila.",
+	"wallets_intro_2": "Mga Bitcoin-only wallet:",
+	"wallets_intro_3": "Ito ay mga purong Bitcoin wallet na nag-a-unlock ng buong benepisyo ng Bitcoin: walang tagapamagitan, mababang bayarin, at walang chargeback o panloloko.",
+	"wallets_intro_4": "Mga Hybrid wallet:",
+	"wallets_intro_5": "Pinapayagan ka ng mga ito na i-exchange ang anumang bahagi ng iyong Bitcoin para sa dolyar sa sandaling magbayad ang customer. Ang mga bayarin ay mas mababa pa rin kaysa sa mga bayad sa credit card, ngunit mas mataas kaysa sa purong Bitcoin payment.",
+	"wallets_intro_6": "Pareho magandang paraan upang tumanggap ng Bitcoin. Ang partikular na wallet na gagamitin mo ay depende sa laki at uri ng iyong negosyo.",
+	"wallets_choice_sole": "mga wallet para sa mga negosyong may iisang may-ari",
+	"wallets_choice_multiple": "mga wallet para sa mga negosyong may maraming empleyado",
+	"wallets_choice_online": "mga wallet para sa mga online na negosyo",
+	"wallets_choice_invoice": "mga wallet para sa mga negosyong base sa invoice",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Maaari kang tumanggap ng mga bayad sa Bitcoin gamit ang iyong umiiral na Square PoS terminal o online store integration. Hindi kailanman naging mas madali ang pagtanggap ng mga bayad sa Bitcoin.",
+	"wallets_feature_bitcoin_only": "Bitcoin-only wallet",
+	"wallets_feature_no_info": "Walang kinakailangang impormasyon",
+	"wallets_feature_in_person": "Mga personal na bayad lamang",
+	"wallets_feature_settles_bitcoin": "100% na nase-settle sa Bitcoin",
+	"wallets_feature_hybrid": "Hybrid wallet",
+	"wallets_feature_info": "Kinakailangan ang impormasyon ng negosyo",
+	"wallets_feature_in_person_online": "Personal at online na mga bayad",
+	"wallets_feature_settles_both": "I-settle sa Bitcoin at dolyar",
+	"wallets_feature_multiple_employees": "Suporta para sa maraming empleyado (BPTs)",
+	"wallets_feature_self_hosted": "Self-hosted = 0% bayarin",
+	"wallets_feature_online_store": "Online store integration",
+	"wallets_feature_invoicing": "Libreng invoicing software",
+	"wallets_get_wallet": "KUMUHA NG WALLET"
+}

@@ -1,5 +1,13 @@
 # Progress: bitcoin.rocks
 
+## Tagalog (tl) Language Added — April 2026
+- Added Tagalog as the 25th language
+- Copied all 90 translation files from Filipino (fil) since Filipino is the standardized form of Tagalog — written forms are virtually identical
+- Script: `scripts/tagalog/copy-from-filipino.js` (copies all fil files, renames to tl, updates metadata)
+- Updated: language.js (v1.2.6), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (24→25)
+- Fixed about.html inline text (was showing "9 languages", updated to "25 languages")
+- Ran SEO content injection
+
 ## Filipino (fil) Language Added — April 2026
 - Added Filipino as the 24th language
 - Created all 90+ translation files in `i18n/fil/` mirroring the English directory structure

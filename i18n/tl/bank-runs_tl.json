@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "tl"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Walang Bank Run ang Bitcoin",
+	"bank_runs_header": "WALANG BANK RUN ANG BITCOIN",
+	"bank_runs_header_2": "PERO ANG IYONG BANGKO AY MAAARING MAGKAROON",
+	"bank_runs_what": "ANO ANG BANK RUN?",
+	"bank_runs_what_content_1": "Nangyayari ang bank run kapag sobrang dami ng tao ang nagsusumikap na mag-withdraw ng kanilang pera mula sa bangko sa parehong oras.",
+	"bank_runs_what_content_2": "Kung ang mga bangko ay walang sapat na pera na available upang tumugma sa mga withdrawal, maaari silang ganap na bumagsak kapag nangyari ang bank run.",
+	"bank_runs_how": "PAANO NANGYAYARI ANG MGA BANK RUN?",
+	"bank_runs_how_content_1": "Ang ating sistema ng pagbabangko ay 'fractional reserve' na nangangahulugang ang mga bangko ay hindi lang basta nagtatago ng iyong pera sa isang vault at naghihintay na gastusin mo ito o i-withdraw.",
+	"bank_runs_how_content_2": "Sa halip, kinukuha ng iyong bangko ang iyong pera at ipinapahiram o ini-invest ito. Maaari itong i-lock ang iyong pera sa mahabang panahon, kahit na ang bangko ay nangangako sa iyo ng kakayahang i-withdraw ang iyong pera anumang oras.",
+	"bank_runs_how_content_3": "Kaya ano ang mangyayari kung susubukan mong i-withdraw ang iyong pera matapos na ipahiram o i-invest na ito ng bangko?",
+	"bank_runs_how_content_4": "Hindi ito problema kung ikaw lang ang nagsusumikap na mag-withdraw. Kukunin lang ng bangko ang pera ng ibang tao at ibibigay sa iyo sa halip. Ngunit ano ang mangyayari kapag sobrang dami ng tao ang nagsusumikap na mag-withdraw sa parehong oras?",
+	"bank_runs_how_content_5": "Maraming tao sa USA ang nalaman nang magkaroon ng bank run sa Silicon Valley Bank noong Marso 2023.",
+	"bank_runs_how_content_6": "Ini-invest ng bangko ang pera ng kanilang mga customer sa mga government bond na naka-lock hanggang 30 taon. Mas masama pa, ang halaga ng mga bond na iyon ay bumagsak nang malaki kamakailan, kaya hindi basta-basta maibebenta ng Silicon Valley Bank ang mga bond upang makuha ang pera ng kanilang mga depositor. Sila ay insolvent. Wala silang sapat na pera upang tumugma sa mga withdrawal ng kanilang mga depositor.",
+	"bank_runs_how_content_7": "Habang mas maraming tao ang nalaman, mas lumala ang problema. Mas maraming withdrawal request ang pumasok, ngunit marami ang hindi naproseso. Libu-libong negosyo ang napagtantong hindi nila kayang bayaran ang kanilang mga empleyado dahil sa pagkabigo ng bangko.",
+	"bank_runs_how_content_8": "Pumasok ang FDIC at sumang-ayon na gawin ang mga depositor na buo. Nasolusyonan na ba ang problema? Hindi eksakto...",
+	"bank_runs_fdic": "PINOPROTEKTAHAN BA NG FDIC INSURANCE ANG AKING PERA?",
+	"bank_runs_fdic_content_1": "Ang FDIC insurance ay dinisenyo upang protektahan ang mga depositor ng bangko sakaling mabigo ang isang bangko. Ang mga deposito ay insured hanggang $250,000 bawat depositor. Maganda pakinggan, diba?",
+	"bank_runs_fdic_content_2": "Hindi eksakto. Kung mabigo ang isang bangko, saan kukuha ng pera ang FDIC? Mayroon silang insurance fund na may 125 bilyong dolyar.",
+	"bank_runs_fdic_content_3": "Mukhang malaking halaga iyan hanggang sa ikumpara mo ito sa halaga ng mga deposito na kanilang insured: halos 10 trilyon o 10,000 bilyong dolyar.",
+	"bank_runs_fdic_content_4": "Ipinakikita pa ng FDIC sa kanilang website na mayroon lamang silang sapat na pera sa kanilang insurance fund upang masaklawan ang kaunti lamang na higit sa 1% ng mga deposito.",
+	"bank_runs_fdic_content_5": "Sa kaso ng pagkabigo ng bangko na lalampas sa FDIC insurance fund, malamang (ngunit hindi garantisado) na ang gobyerno ng US ay magpi-print ng pera upang gawin ang mga depositor na buo.",
+	"bank_runs_fdic_content_6": "Ngunit ang pag-print ng pera ay nagdudulot ng inflation, kaya hindi ito magandang solusyon.",
+	"bank_runs_safe": "MAY MGA BANGKO BANG HINDI GUMAGAMIT NG FRACTIONAL RESERVE?",
+	"bank_runs_safe_content_1": "Ang ilang bangko ay nagsumikap na maging 'safe bank' na hindi nagpapahiram o nag-i-invest ng mga pondo ng depositor.",
+	"bank_runs_safe_content_2": "Kahit na ang mga safe bank na ito ay walang panganib ng bank run, ang kanilang mga aplikasyon ay tinanggihan ng Federal Reserve. Nangangahulugan ito na hindi sila maaaring legal na gumana bilang mga bangko.",
+	"bank_runs_safe_content_3": "Dahil na-block sila sa pagpapatakbo, walang mga bangko ngayon na hindi gumagamit ng fractional reserve.",
+	"bank_runs_safe_content_4": "Sa kabutihang-palad, may paraan upang umalis sa fractional reserve system sa pamamagitan ng pagiging sarili mong bangko. Hindi, hindi namin pinag-uusapan ang pagtatago ng cash sa ilalim ng iyong kama.",
+	"bank_runs_safe_content_5": "Ang pag-iipon sa cash ay vulnerable pa rin sa inflation.",
+	"bank_runs_safe_content_6": "Pinag-uusapan namin ang Bitcoin: isang bagong sistema sa pananalapi na nagpapahintulot sa iyo na maging sarili mong bangko.",
+	"bank_runs_protect": "MAAARI BANG PROTEKTAHAN AKO NG BITCOIN MULA SA MGA BANK RUN?",
+	"bank_runs_protect_content_1": "Oo, ang Bitcoin ay isang full reserve financial system.",
+	"bank_runs_protect_content_2": "Ang mga bank run ay imposible sa Bitcoin basta i-withdraw mo ang iyong Bitcoin sa sarili mong wallet. Huwag iwanan ang iyong bitcoin sa isang exchange o sa isang wrapper tulad ng Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Tingnan ang aming simpleng Gabay sa Bitcoin Wallet upang malaman kung paano mag-withdraw sa iyong sariling wallet.",
+	"bank_runs_protect_content_4": "Sa Bitcoin, maaari ka na sa wakas na maging may kontrol ng iyong pera."
+}
