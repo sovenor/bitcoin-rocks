@@ -1,6 +1,12 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Norwegian Bokmål Language Added — April 2026
+## Latest: Arabic (ar) Language Added — April 4, 2026
+- Added Arabic (العربية) as the 31st language
+- 90 translation files created in `i18n/ar/`
+- 8 translation scripts in `scripts/arabic/`
+- All registration steps completed (language.js, index.html schema, llms.txt, llms-full.txt, about page count 30→31, SEO injection)
+
+## Norwegian Bokmål Language Added — April 2026
 - Added Norwegian Bokmål (`nb`, Norsk) as the 30th language on bitcoin.rocks
 - Created all 90 translation files via 8 scripts in `scripts/norwegian/`
 - Registered in language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt

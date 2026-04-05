@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ar"
+	},
+	"how_to_accept_bitcoin_payments": "كيف تقبل مدفوعات البيتكوين",
+	"wallets_header": "احصل على محفظة بيتكوين مجانية لقبول مدفوعات البيتكوين",
+	"wallets_intro_1": "جميع محافظ البيتكوين متوافقة، لذا يمكن لعملائك الدفع لك بالبيتكوين بغض النظر عن المحفظة التي يستخدمونها.",
+	"wallets_intro_2": "محافظ بيتكوين فقط:",
+	"wallets_intro_3": "هذه محافظ بيتكوين نقية تفتح جميع فوائد البيتكوين: بدون وسطاء، رسوم منخفضة، وبدون استرجاع أو احتيال.",
+	"wallets_intro_4": "محافظ هجينة:",
+	"wallets_intro_5": "تتيح لك تحويل أي نسبة من البيتكوين إلى دولارات فور دفع العميل لك. الرسوم لا تزال أقل من مدفوعات بطاقات الائتمان، لكنها أعلى من مدفوعات البيتكوين النقية.",
+	"wallets_intro_6": "كلاهما طريقتان رائعتان لقبول البيتكوين. المحفظة المحددة التي تستخدمها ستعتمد على حجم ونوع عملك.",
+	"wallets_choice_sole": "محافظ للأعمال المملوكة فردياً",
+	"wallets_choice_multiple": "محافظ للأعمال ذات الموظفين المتعددين",
+	"wallets_choice_online": "محافظ للأعمال عبر الإنترنت",
+	"wallets_choice_invoice": "محافظ للأعمال القائمة على الفواتير",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "يمكنك قبول مدفوعات البيتكوين مع طرفية Square PoS الحالية أو تكامل المتجر الإلكتروني. لم يكن قبول مدفوعات البيتكوين أسهل من أي وقت مضى.",
+	"wallets_feature_bitcoin_only": "محفظة بيتكوين فقط",
+	"wallets_feature_no_info": "لا معلومات مطلوبة",
+	"wallets_feature_in_person": "مدفوعات شخصية فقط",
+	"wallets_feature_settles_bitcoin": "تسوية 100% بالبيتكوين",
+	"wallets_feature_hybrid": "محفظة هجينة",
+	"wallets_feature_info": "معلومات العمل مطلوبة",
+	"wallets_feature_in_person_online": "مدفوعات شخصية وعبر الإنترنت",
+	"wallets_feature_settles_both": "تسوية بالبيتكوين والدولار",
+	"wallets_feature_multiple_employees": "دعم موظفين متعددين (BPTs)",
+	"wallets_feature_self_hosted": "استضافة ذاتية = 0% رسوم",
+	"wallets_feature_online_store": "تكامل المتجر الإلكتروني",
+	"wallets_feature_invoicing": "برنامج فواتير مجاني",
+	"wallets_get_wallet": "احصل على المحفظة"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ar"
+	},
+	"cic_header": "حاسبة التضخم المركب",
+	"cic_description": "استخدم حاسبة التضخم المركب هذه لمعرفة مقدار الزيادة التي يحتاجها راتبك لمواكبة التضخم.",
+	"what_can_i_do_about": "ماذا يمكنني أن أفعل",
+	"what_can_i_do_about_2": "بشأن التضخم؟",
+	"cic_inflation_cta": "تخلص من التضخم مع البيتكوين"
+}

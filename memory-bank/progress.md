@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Arabic (ar) Language Added — April 2026
+- Added Arabic (العربية) as the 31st language
+- Created 90 translation files in `i18n/ar/` mirroring the English directory structure
+- Translation scripts in `scripts/arabic/` (8 scripts broken by category)
+- Updated: language.js (v1.2.7), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (30→31)
+- Ran SEO content injection
+- Language code: `ar` (Arabic)
+- Display name: `العربية` (placed after Русский and before हिन्दी in language switcher per Unicode Arabic script order)
+- Note: Arabic is RTL (right-to-left); all translations written in proper Arabic script
+
 ## Norwegian Bokmål (nb) Language Added — April 2026
 - Added Norwegian Bokmål (Norsk) as the 30th language
 - Created 90 translation files in `i18n/nb/` mirroring the English directory structure

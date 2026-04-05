@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-04",
+		"locale": "ar"
+	},
+	"free_bitcoin_stickers": "ملصقات بيتكوين مجانية من bitcoin.rocks",
+	"stickers_description": "ضع ملصق بيتكوين في مكان عام لتعريف من حولك بالبيتكوين.",
+	"stickers_header": "ملصقات بيتكوين مجانية",
+	"stickers_choose_header": "اختر حزمة ملصقاتك",
+	"stickers_choose_c1": "مهمتنا هي مساعدتك في تعريف المزيد من الناس بالبيتكوين عن طريق وضع ملصقات البيتكوين في الأماكن العامة. جميع ملصقاتنا تحتوي على رموز QR تربط بصفحات تعليمية عن",
+	"stickers_choose_c2": "البيتكوين",
+	"stickers_choose_c3": "التضخم",
+	"stickers_choose_c4": "اختر حزمة ملصقاتك أدناه",
+	"stickers_text_pack": "حزمة النصوص",
+	"stickers_signs_pack": "حزمة العلامات",
+	"stickers_instructions_1": "أدخل عنوانك البريدي وسنرسل لك حزمة ملصقات بيتكوين مجانية بالبريد! ستُشحن ملصقاتك في ظرف أبيض عادي.",
+	"stickers_instructions_2": "يتم حذف بيانات العنوان بعد شحن ملصقاتك المجانية.",
+	"stickers_share_header": "شارك أماكن ملصقاتك",
+	"stickers_share_c1": "شارك أماكن ملصقاتك معنا على Nostr وشاهد أين يضع الآخرون ملصقاتهم.",
+	"stickers_btn_share_on_nostr": "شارك على NOSTR",
+	"stickers_btn_what_is_nostr": "ما هو NOSTR؟",
+	"stickers_flyers_link_before": "بينما أنت في ذلك، اطبع وعلّق ",
+	"stickers_flyers_link_text": "منشورات البيتكوين",
+	"stickers_flyers_link_after": " الخاصة بك لمساعدة المزيد من الناس على التعرف على البيتكوين.",
+	"stickers_country_global_print": "عالمي — اطبع ملصقاتي بنفسي",
+	"stickers_country_global_order": "عالمي — اطلب بالجملة",
+	"placeholder_name_optional": "الاسم (اختياري)",
+	"placeholder_address_line_1": "عنوان السطر 1",
+	"placeholder_address_line_2": "عنوان السطر 2 (اختياري)",
+	"placeholder_city": "المدينة",
+	"placeholder_state": "الولاية",
+	"placeholder_province": "المقاطعة",
+	"placeholder_zip_code": "الرمز البريدي",
+	"placeholder_postal_code": "الرمز البريدي",
+	"placeholder_language": "اللغة",
+	"placeholder_which_stickers": "أي ملصقات؟",
+	"placeholder_email_optional": "أدخل بريدك الإلكتروني ليتم إشعارك (اختياري)"
+}

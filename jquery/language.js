@@ -38,6 +38,7 @@ $(function() {
     { code: 'vi', name: 'Tiếng Việt' },
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },
+    { code: 'ar', name: 'العربية' },
     { code: 'hi', name: 'हिन्दी' },
     { code: 'ta', name: 'தமிழ்' },
     { code: 'th', name: 'ภาษาไทย' },
