@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"signs_description": "Bu Bitcoin Lövhələrini Amerikada hər yerə yaymağımıza kömək edin!",
+	"signs_title": "bitcoin.rocks-dan pulsuz Bitcoin Lövhələri",
+	"signs_choose_header": "BU BITCOIN LÖVHƏLƏRİNİ AMERİKADA HƏR YERƏ YAPMASINIZA KÖMƏK ETDİYİNİZ ÜÇÜN TƏŞƏKKÜR EDİRİK!",
+	"signs_choose_c1": "İndi tamamilə lövhəsiz qaldıq! Missiyamız təhsil vasitəsilə Bitcoin qəbulunu sürətləndirməkdir.",
+	"signs_choose_c2": "Bir çoxunuz bu pulsuz Bitcoin lövhələrini ictimai yerlərdə yerləşdirərək kömək etdiniz. Bütün lövhələrimizdə bu mövzuda təhsil səhifəsinə keçid verən QR kodları var:",
+	"signs_choose_c3": "inflyasiya",
+	"signs_choose_c4": "Əla icmamız sayəsində minlərlə insana çatdıq və Bitcoin dovşan dəliyinin ilk addımlarını atmalarına kömək etdik.",
+	"signs_share_header": "LÖVHƏ YERLƏRİNİZİ PAYLAŞIN",
+	"signs_share_c1": "Nostr-da lövhə yerlərinizin şəklini bizimlə paylaşın və başqalarının lövhələrini harada yerləşdirdiyini görün.",
+	"signs_btn_share_on_nostr": "NOSTR-DA PAYLAŞ",
+	"signs_btn_what_is_nostr": "NOSTR NƏDİR?",
+	"signs_instructions_1": "Poçt ünvanınızı daxil edin və biz sizə poçtla 10 Bitcoin lövhəsi qutusu göndərəcəyik!",
+	"signs_instructions_2": "Pulsuz lövhələriniz göndərildikdən sonra ünvan məlumatları silinir."
+}

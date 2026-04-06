@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning Pul Kisəsi Bələdçisi",
+	"lightning_description": "Lightning pul kisələri şəxsi suverenliyinizi qoruyarkən Bitcoin-i tez və ucuz göndərməyə imkan verir.",
+	"lightning_header": "LIGHTNING PUL KİSƏSİ BƏLƏDÇİSİ",
+	"lightning_s1_c1": "Lightning Bitcoin ödənişlərini tez və ucuz göndərməyə imkan verir.",
+	"lightning_s1_c2": "Lightning istifadə etmənin güzəştlərlə gəldiyini bilmək vacibdir. Daha tez, daha ucuz Bitcoin ödənişləri müqabilində tez-tez bəzi təhlükəsizlikdən güzəşt edirsiniz.",
+	"lightning_s1_c3": "Ümumiyyətlə, Lightning yalnız kiçik məbləğlərla istifadə olunmalıdır. Böyük məbləğləri yalnız avadanlıq pul kisəsində saxlamalısınız.",
+	"lightning_s1_c4": "Daha çox məlumat üçün Avadanlıq Pul Kisəsi Bələdçimizə baxın.",
+	"lightning_s1_c5": "Bütün Lightning pul kisələri eyni deyil. Sadə bir sual verərək sizin üçün doğru güzəşt balansına sahib pul kisəsini müəyyən edə bilərsiniz:",
+	"lightning_question_1": "MƏNİM ÜÇÜN HANSI GÜZƏŞT BALANSI DOĞRUDUR?",
+	"lightning_s2_c1": "Bitcoin-in innovasiyalarından biri onu bank kimi vasitəçiyə güvənmədən saxlama imkanıdır. Özünə saxlama pul kisələri Bitcoin-in tam gücünü açır.",
+	"lightning_s2_c2": "Özünə saxlama pul kisəsi ilə pulunuzu xərcləmək və ya köçürmək qabiliyyətinə yalnız siz sahibsiniz. Heç kim sizi dayandıra, senzura edə və ya sizdən oğurlaya bilməz. Bunlara qeyri-vasitəçi pul kisələri də deyilir.",
+	"lightning_s2_c3": "Lightning-i istifadə etmənin ən suverenlik yolu öz qovşağınızı işlətməkdir.",
+	"lightning_s2_c4": "Bu bələdçi öz qovşağınızı tələb etməyən sadə Lightning pul kisələrinə fokuslanır.",
+	"lightning_s2_c5": "Qeyri-vasitəçi Lightning pul kisəsi istifadə etsəniz belə, hələ də pul kisəsi yaradıcısına zərərli tətbiq yeniləməsi göndərməyəcəyinə və fondlarınızı oğurlamayacağına etibar etdiyinizi bilmək vacibdir.",
+	"lightning_s3_c1": "Vasitəçi pul kisələri pulunuzu idarə etmədiyiniz pul kisələridir.",
+	"lightning_s3_c2": "Bu pul kisələri pulunuza çıxış vermək üçün üçüncü tərəfə etibar etməli olduğunuz bank sisteminə daha çox bənzəyir. Bitcoin-iniz birjadadırsa, vasitəçi pul kisəsi istifadə edirsiniz.",
+	"lightning_s3_c3": "Vasitəçi pul kisələri rahat görünə bilər, lakin vasitəçinin istənilən vaxt bütün istifadəçi fondlarını oğurlamaq texniki qabiliyyəti var.",
+	"lightning_s3_c4": "Bəzi insanlar istifadə asanlığına görə kiçik bitcoin məbləğləri üçün vasitəçi Lightning pul kisələrini üstün tutur. Sadəcə unutmayın: açarlarınız deyil, sikkələriniz deyil!",
+	"lightning_question_2": "PUL KİSƏNİZİ SEÇİN",
+	"lightning_s4_c1": "Bütün bunları nəzərə alaraq, indi sizin üçün doğru güzəşt balansına sahib lightning pul kisəsini seçə bilərsiniz.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Çoxlu funksiyalar",
+	"lightning_mobile_app": "Mobil tətbiq",
+	"lightning_free": "100% pulsuz",
+	"lightning_merchants": "Ticarətçilər üçün əla",
+	"lightning_starter": "Əla başlanğıc pul kisəsi",
+	"lightning_browser": "Brauzer əsaslı",
+	"lightning_custodial": "Tam vasitəçi pul kisəsi",
+	"lightning_cta_hardware": "Bitcoin Avadanlıq Pul Kisəsi Bələdçimizi axtarırsınız?"
+}

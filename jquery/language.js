@@ -16,6 +16,7 @@ $(function() {
   var languages = [
     { code: 'en', name: 'English' },
     { code: 'af', name: 'Afrikaans' },
+    { code: 'az', name: 'Azərbaycanca' },
     { code: 'cs', name: 'Čeština' },
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'de', name: 'Deutsch' },

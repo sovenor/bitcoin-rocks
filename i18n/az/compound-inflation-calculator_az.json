@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"cic_header": "MÜRƏKKƏB İNFLYASİYA KALKULYATORU",
+	"cic_description": "Bu Mürəkkəb İnflyasiya Kalkulyatoru ilə maaşınızın inflyasiya ilə ayaqlaşmaq üçün nə qədər artması lazım olduğunu öyrənin.",
+	"what_can_i_do_about": "İnflyasiya haqqında",
+	"what_can_i_do_about_2": "nə edə bilərəm?",
+	"cic_inflation_cta": "Bitcoin ilə İnflyasiyadan Çıxın"
+}

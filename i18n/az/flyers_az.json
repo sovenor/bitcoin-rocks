@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"free_bitcoin_flyers": "bitcoin.rocks-dan pulsuz Bitcoin Vərəqələri",
+	"flyers_description": "Evdə Bitcoin vərəqəsi çap edin və ətrafınızdakıları Bitcoin-ə yönəltmək üçün ictimai yerə asın.",
+	"flyers_header_1": "ÇAP EDİN VƏ ASIN",
+	"flyers_header_2": "BITCOIN VƏRƏQƏLƏRİ",
+	"flyers_intro_header": "BU BITCOIN VƏRƏQƏLƏRİNİ NECƏ ÇAP ETMƏLİ VƏ ASMALI",
+	"flyers_intro_c1": "Missiyamız ictimai yerlərdə Bitcoin vərəqələri yapışdıraraq daha çox insanı Bitcoin-ə yönəltməyinizə kömək etməkdir. Bu vərəqədə bizim",
+	"flyers_intro_c2": "təhsil Bitcoin veb saytımıza keçid verən QR kodu var.",
+	"flyers_intro_c3": "inflyasiya",
+	"flyers_intro_c4": "Bu vərəqəni evdə və ya çapxanada çap edin. Sonra onu şəhərdəki elan lövhələrinə, telefon dirəklərinə və insanların görüb Bitcoin haqqında öyrənə biləcəyi digər ictimai yerlərdə asın.",
+	"flyers_intro_c5": "Eyni zamanda ",
+	"flyers_intro_c6": "pulsuz Bitcoin etiketləri",
+	"flyers_intro_c7": " sifariş edin ki, daha çox insanı Bitcoin-ə yönəldəsiniz.",
+	"flyers_btn_download": "VƏRƏQƏNİ ENDİR",
+	"flyers_btn_print": "VƏRƏQƏNİ ÇAP ET",
+	"flyers_share_header": "VƏRƏQƏ YERLƏRİNİZİ PAYLAŞIN",
+	"flyers_share_c1": "Nostr-da vərəqə yerlərinizi bizimlə paylaşın və başqalarının vərəqələrini harada asdığını görün.",
+	"flyers_btn_share_on_nostr": "NOSTR-DA PAYLAŞ",
+	"flyers_btn_what_is_nostr": "NOSTR NƏDİR?"
+}

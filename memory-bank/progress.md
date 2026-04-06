@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Azerbaijani (az) Language Added — April 2026
+- Added Azerbaijani (Azərbaycanca) as the 32nd language
+- Created 90+ translation files in `i18n/az/` mirroring the English directory structure
+- Translation scripts in `scripts/azerbaijani/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (31→32)
+- Ran SEO content injection
+- Language code: `az`
+- Display name: `Azərbaycanca` (placed alphabetically after Afrikaans, before Čeština in language switcher)
+
 ## Arabic (ar) Language Added — April 2026
 - Added Arabic (العربية) as the 31st language
 - Created 90 translation files in `i18n/ar/` mirroring the English directory structure

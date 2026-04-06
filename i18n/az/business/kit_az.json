@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"bitcoin_business_kit": "Bitcoin Biznes Dəsti",
+	"kit_header": "ÖZ BITCOIN BİZNES DƏSTİNİZİ ÇAP EDİN",
+	"kit_request": "PULSUZ DƏSTİNİZİ SİFARİŞ EDİN",
+	"kit_request_details": "Hər Bitcoin Biznes Dəstinə yerli biznesi Bitcoin qəbul etməyə asanlaşdırmaq üçün iki broşür daxildir.",
+	"kit_country_global_print": "Qlobal — Öz dəstlərimi çap et",
+	"kit_enter_address": "Poçt ünvanınızı daxil edin və biz sizə düz ağ zərfdə pulsuz Bitcoin Biznes Dəsti göndərəcəyik. Dəstiniz göndərildikdən sonra ünvan məlumatları silinir.",
+	"kit_print_details": "Harada yaşamağınızdan asılı olmayaraq öz broşürlərinizi çap edə bilərsiniz! Heç bir şey çap etməkdən qaçınmaq üçün bizneslərə rəqəmsal biznes dəstimizi də göndərə bilərsiniz.",
+	"kit_view_files": "FAYLLARA BAX",
+	"kit_digital_kit": "RƏQƏMSal DƏSTİ",
+	"kit_resources": "HƏR DƏSTİ BU PULSUZ RESURSLARA KEÇİD VERİR"
+}

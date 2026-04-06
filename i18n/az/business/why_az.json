@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "az"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Bitcoin-in niyə biznes üçün yaxşı olduğunu öyrənin",
+	"why_header": "BITCOIN BİZNES ÜÇÜN YAXŞIDIR",
+	"why_good_for_you": "BITCOIN SİZİN ÜÇÜN DƏ YAXŞIDIR!",
+	"why_learn_more_lowercase": "Daha çox öyrənin.",
+	"why_s1": "Bitcoin-də inflyasiya yoxdur",
+	"why_s1_c1": "İnflyasiya daha çox pul çap edildikdə və ya yoxdan yaradıldıqda baş verir. Bu pulunuzun zamanla dəyərini azaldır.",
+	"why_s1_c2": "Bitcoin-in sabit tədarükü var, yəni heç kim daha çox Bitcoin çap edə bilməz.",
+	"why_s2": "Bitcoin-də bank qaçışları yoxdur",
+	"why_s2_c1": "Son illərdə bank qaçışları səbəbindən ABŞ-da bir neçə bank çökmüşdür.",
+	"why_s2_c2": "Banklar pulunuzu sizin üçün sadəcə saxlamaq əvəzinə, onu investisiya edir və borc verir. Bu investisiyalar yaxşı getməzsə, sizə geri ödəmək üçün kifayət qədər pulları olmur.",
+	"why_s2_c3": "FDIC sığorta fondu sığorta etdiyi hər 100 dollar üçün cəmi 1 dollara sahibdir.",
+	"why_s3": "Bitcoin icazəsizdir",
+	"why_s3_c1": "Ənənəvi maliyyə şəbəkələrindən fərqli olaraq, Bitcoin-dən istifadə etmək üçün icazə lazım deyil.",
+	"why_s3_c2": "Bu o deməkdir ki, heç kim heç bir səbəbdən Bitcoin-dən istifadə etməyinizi dayandıra bilməz. Bu, senzura və ya müsadirə qorxusu olmadan istifadə edə biləcəyiniz ilk maliyyə şəbəkəsidir.",
+	"why_s4": "Bitcoin daha yaxşı dünya qurur",
+	"why_s4_c1": "Bitcoin daha yaxşı dünya quran yanlış başa düşülmüş texnologiyadır.",
+	"why_s4_c2": "Bitcoin insan hüquqları fəallarına azadlıq uğrunda mübarizəyə kömək etmiş, qlobal metan emissiyalarını azaltmış, milli parkları xilas etmiş və daha çox şeylər etmişdir."
+}
