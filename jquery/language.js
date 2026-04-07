@@ -42,6 +42,7 @@ $(function() {
     { code: 'ru', name: 'Русский' },
     { code: 'ar', name: 'العربية' },
     { code: 'hi', name: 'हिन्दी' },
+    { code: 'bn', name: 'বাংলা' },
     { code: 'ta', name: 'தமிழ்' },
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'am', name: 'አማርኛ' },

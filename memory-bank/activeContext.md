@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Basque (eu) Language Added — April 6, 2026
+## Latest: Bengali (bn) Language Added — April 6, 2026
+- Added Bengali (বাংলা) as the 35th language
+- 90+ translation files created in `i18n/bn/`
+- 8 translation scripts in `scripts/bengali/`
+- All registration steps completed (language.js v1.2.8, index.html schema, llms.txt, llms-full.txt, about page count 34→35, SEO injection)
+- বাংলা placed after हिन्दी (Hindi) and before தமிழ் (Tamil) in language.js per Bengali Unicode range
+
+## Basque (eu) Language Added — April 6, 2026
 - Added Basque (Euskara) as the 34th language
 - 90+ translation files created in `i18n/eu/`
 - 8 translation scripts in `scripts/basque/`

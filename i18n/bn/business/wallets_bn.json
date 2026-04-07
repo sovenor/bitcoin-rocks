@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "bn"
+	},
+	"how_to_accept_bitcoin_payments": "কিভাবে Bitcoin পেমেন্ট গ্রহণ করবেন",
+	"wallets_header": "BITCOIN পেমেন্ট গ্রহণ করতে একটি বিনামূল্যে BITCOIN ওয়ালেট পান",
+	"wallets_intro_1": "সমস্ত Bitcoin ওয়ালেট আন্তঃকার্যক্ষম, তাই আপনার গ্রাহকরা যেকোনো ওয়ালেট ব্যবহার করুক না কেন তারা আপনাকে Bitcoin-এ পেমেন্ট করতে পারে।",
+	"wallets_intro_2": "শুধু-Bitcoin ওয়ালেট:",
+	"wallets_intro_3": "এগুলো হলো বিশুদ্ধ Bitcoin ওয়ালেট যা Bitcoin-এর সম্পূর্ণ সুবিধা আনলক করে: কোনো মধ্যস্থতাকারী নেই, কম ফি, এবং কোনো চার্জব্যাক বা জালিয়াতি নেই।",
+	"wallets_intro_4": "হাইব্রিড ওয়ালেট:",
+	"wallets_intro_5": "এগুলো আপনাকে গ্রাহক পেমেন্ট করার সাথে সাথে আপনার Bitcoin-এর যেকোনো অংশ ডলারে রূপান্তর করতে দেয়। ফি এখনও ক্রেডিট কার্ড পেমেন্টের চেয়ে কম, তবে বিশুদ্ধ Bitcoin পেমেন্টের চেয়ে বেশি।",
+	"wallets_intro_6": "দুটোই Bitcoin গ্রহণের দুর্দান্ত উপায়। আপনি কোন ওয়ালেট ব্যবহার করবেন তা আপনার ব্যবসার আকার এবং ধরনের উপর নির্ভর করবে।",
+	"wallets_choice_sole": "ব্যক্তিগত মালিকানাধীন ব্যবসার জন্য ওয়ালেট",
+	"wallets_choice_multiple": "একাধিক কর্মচারীযুক্ত ব্যবসার জন্য ওয়ালেট",
+	"wallets_choice_online": "অনলাইন ব্যবসার জন্য ওয়ালেট",
+	"wallets_choice_invoice": "চালান-ভিত্তিক ব্যবসার জন্য ওয়ালেট",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "আপনি আপনার বিদ্যমান Square PoS টার্মিনাল বা অনলাইন স্টোর ইন্টিগ্রেশন দিয়ে Bitcoin পেমেন্ট গ্রহণ করতে পারেন। Bitcoin পেমেন্ট গ্রহণ করা এত সহজ আগে কখনো হয়নি।",
+	"wallets_feature_bitcoin_only": "শুধু-Bitcoin ওয়ালেট",
+	"wallets_feature_no_info": "কোনো তথ্যের প্রয়োজন নেই",
+	"wallets_feature_in_person": "শুধু সামনাসামনি পেমেন্ট",
+	"wallets_feature_settles_bitcoin": "১০০% Bitcoin-এ নিষ্পত্তি হয়",
+	"wallets_feature_hybrid": "হাইব্রিড ওয়ালেট",
+	"wallets_feature_info": "ব্যবসার তথ্য প্রয়োজন",
+	"wallets_feature_in_person_online": "সামনাসামনি এবং অনলাইন পেমেন্ট",
+	"wallets_feature_settles_both": "Bitcoin এবং ডলারে নিষ্পত্তি",
+	"wallets_feature_multiple_employees": "একাধিক কর্মচারী সমর্থন (BPTs)",
+	"wallets_feature_self_hosted": "স্ব-হোস্টেড = ০% ফি",
+	"wallets_feature_online_store": "অনলাইন স্টোর ইন্টিগ্রেশন",
+	"wallets_feature_invoicing": "বিনামূল্যে ইনভয়েসিং সফটওয়্যার",
+	"wallets_get_wallet": "ওয়ালেট পান"
+}
