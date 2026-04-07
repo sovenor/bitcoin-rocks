@@ -58,10 +58,11 @@ Run each script individually with `node scripts/[lang]/scriptname.js`. After all
 - **Example**: `English, German, Spanish, French, Italian, Portuguese, Dutch, Bulgarian, Indonesian, Thai, Polish`
 
 ### Step 5: Update About Page Language Count
-- **File**: `i18n/en/about_en.json` (and ALL other language `about_xx.json` files)
-- **Key**: `about_open_source_3`
-- **Action**: Increment the language count number (e.g., "10 languages" → "11 languages")
-- **Best approach**: IMPORTANT: You must manually increment the language count in all language arrays in `scripts/update-about-lang-count.js`. Then, you must add the new language's translation string that includes this language count (about_open_source_3) to the end of the array. Then, you must run the script to update all arrays at the same time. You MUST do all of these steps with every new language you add. This is not optional.
+- **Files**: All `i18n/*/about_*.json` files (the `about_open_source_3` key)
+- **Action**: Run `node scripts/update-about-lang-count.js <newCount>` with the new total language count
+- **Example**: `node scripts/update-about-lang-count.js 37`
+- **How it works**: The script auto-discovers every language's about file, detects which numeral system the translation uses (e.g., Western `37`, Burmese `၃၇`, Bengali `৩৭`), and replaces the old number with the new count in the correct numeral system. No hardcoded translation list is needed — the new language's about file (created in Step 1) will be updated automatically along with all existing languages.
+- **Idempotent**: Safe to run multiple times — second run produces 0 changes.
 
 ### Step 6: Update llms-full.txt Language Count
 - **File**: `llms-full.txt`

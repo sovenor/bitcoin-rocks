@@ -123,7 +123,7 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
   2. `jquery/language.js` — Add to the `languages` array with code and native name, inserted in **alphabetical order by native display name** (English first, then all others alphabetically, "Add language" last); bump `TRANSLATION_VERSION`
   3. `index.html` — Add language code to `inLanguage` array in WebSite JSON-LD schema
   4. `llms.txt` — Add language name to the "Languages" line in "About This Site"
-  5. `i18n/*/about_*.json` — Increment the language count in `about_open_source_3` for ALL languages
+  5. `i18n/*/about_*.json` — Run `node scripts/update-about-lang-count.js <newCount>` (auto-discovers all languages, handles native numeral systems)
   6. `llms-full.txt` — Update the "available in X languages" line
   7. Run `node scripts/inject-seo-content.js` — Updates about.html SEO text
   8. Update memory bank — `progress.md` and `activeContext.md`
