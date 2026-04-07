@@ -321,11 +321,42 @@ console.log(`  Keys checked:          ${totalKeysChecked}`);
 console.log(`  Missing files:         ${missingFiles.length}`);
 console.log(`  Missing keys:          ${missingKeys.length}`);
 console.log(`  Identical to English:  ${identicalStrings.length} (review needed)`);
+console.log('');
+
+// Detailed breakdown by file in summary
+if (missingFiles.length > 0) {
+	console.log('  MISSING FILES:');
+	for (const f of missingFiles) {
+		console.log(`    \u2717 ${f.expected}`);
+	}
+	console.log('');
+}
+
+if (missingKeys.length > 0) {
+	console.log('  MISSING KEYS:');
+	for (const k of missingKeys) {
+		const preview = k.enValue.length > 50
+			? k.enValue.substring(0, 50) + '...'
+			: k.enValue;
+		console.log(`    \u2717 ${k.file} → "${k.key}" = "${preview}"`);
+	}
+	console.log('');
+}
+
+if (identicalStrings.length > 0) {
+	console.log('  IDENTICAL TO ENGLISH (may need translation):');
+	for (const s of identicalStrings) {
+		const preview = s.value.length > 50
+			? s.value.substring(0, 50) + '...'
+			: s.value;
+		console.log(`    \u26A0 ${s.file} → "${s.key}" = "${preview}"`);
+	}
+	console.log('');
+}
 
 const hasIssues = missingFiles.length > 0 || missingKeys.length > 0 || identicalStrings.length > 0;
-console.log('');
 if (hasIssues) {
-	console.log(`\u26A0  Audit found issues. Please review the items above.`);
+	console.log(`\u26A0  Audit found issues. Please review the items listed above.`);
 	if (identicalStrings.length > 0) {
 		console.log(`   Note: Some "identical to English" items may be legitimate`);
 		console.log(`   (e.g., proper nouns shared across languages). Review manually.`);
