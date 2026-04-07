@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "my"
+	},
+	"how_to_accept_bitcoin_payments": "Bitcoin ငွေပေးချေမှု ဘယ်လိုလက်ခံမလဲ",
+	"wallets_header": "BITCOIN ငွေပေးချေမှု လက်ခံရန် အခမဲ့ BITCOIN ပိုက်ဆံအိတ် ရယူပါ",
+	"wallets_intro_1": "Bitcoin ပိုက်ဆံအိတ်အားလုံးသည် အပြန်အလှန်အသုံးပြုနိုင်သောကြောင့် သင့်ဖောက်သည်များ မည်သည့်ပိုက်ဆံအိတ်ကိုပဲ သုံးသုံး သင့်ကို Bitcoin ဖြင့် ငွေပေးချေနိုင်ပါသည်။",
+	"wallets_intro_2": "Bitcoin သီးသန့် ပိုက်ဆံအိတ်များ:",
+	"wallets_intro_3": "ဤပိုက်ဆံအိတ်များသည် Bitcoin ၏ အကျိုးကျေးဇူးအပြည့်အဝကို ဖွင့်ပေးသော စစ်မှန်သော Bitcoin ပိုက်ဆံအိတ်များဖြစ်ပါသည်: ကြားခံမရှိ၊ အခကြေးငွေနည်း၊ ငွေပြန်တောင်းခြင်း သို့မဟုတ် လိမ်လည်မှု မရှိ။",
+	"wallets_intro_4": "ဟိုက်ဘရစ် ပိုက်ဆံအိတ်များ:",
+	"wallets_intro_5": "ဤပိုက်ဆံအိတ်များသည် ဖောက်သည် ငွေပေးချေသည်နှင့်တစ်ပြိုင်နက် သင့် Bitcoin ၏ မည်သည့်ရာခိုင်နှုန်းကိုမဆို ဒေါ်လာသို့ ပြောင်းလဲနိုင်စေပါသည်။ အခကြေးငွေသည် အကြွေးဝယ်ကတ်ထက် နည်းသော်လည်း စစ်မှန်သော Bitcoin ငွေပေးချေမှုထက် ပိုများပါသည်။",
+	"wallets_intro_6": "နှစ်ခုစလုံး Bitcoin လက်ခံရန် ကောင်းမွန်သော နည်းလမ်းများဖြစ်ပါသည်။ မည်သည့်ပိုက်ဆံအိတ်ကို ရွေးချယ်ရမည်ကို သင့်စီးပွားရေး၏ အရွယ်အစားနှင့် အမျိုးအစားပေါ် မူတည်ပါမည်။",
+	"wallets_choice_sole": "တစ်ဦးတည်း ပိုင်ဆိုင်သော စီးပွားရေးအတွက် ပိုက်ဆံအိတ်များ",
+	"wallets_choice_multiple": "ဝန်ထမ်းအများအပြားရှိ စီးပွားရေးအတွက် ပိုက်ဆံအိတ်များ",
+	"wallets_choice_online": "အွန်လိုင်းစီးပွားရေးအတွက် ပိုက်ဆံအိတ်များ",
+	"wallets_choice_invoice": "ပြေစာအခြေခံ စီးပွားရေးအတွက် ပိုက်ဆံအိတ်များ",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "သင့်ရှိပြီးသား Square PoS တာမင်နယ် သို့မဟုတ် အွန်လိုင်းစတိုး ပေါင်းစပ်မှုဖြင့် Bitcoin ငွေပေးချေမှု လက်ခံနိုင်ပါသည်။ Bitcoin ငွေပေးချေမှု လက်ခံခြင်းသည် ဤမျှလွယ်ကူဖူးသည် မရှိပါ။",
+	"wallets_feature_bitcoin_only": "Bitcoin သီးသန့် ပိုက်ဆံအိတ်",
+	"wallets_feature_no_info": "အချက်အလက် မလိုပါ",
+	"wallets_feature_in_person": "မျက်နှာချင်းဆိုင် ငွေပေးချေမှုသာ",
+	"wallets_feature_settles_bitcoin": "Bitcoin ဖြင့် ၁၀၀% စာရင်းရှင်း",
+	"wallets_feature_hybrid": "ဟိုက်ဘရစ် ပိုက်ဆံအိတ်",
+	"wallets_feature_info": "စီးပွားရေးအချက်အလက် လိုအပ်သည်",
+	"wallets_feature_in_person_online": "မျက်နှာချင်းဆိုင်နှင့် အွန်လိုင်း ငွေပေးချေမှု",
+	"wallets_feature_settles_both": "Bitcoin နှင့် ဒေါ်လာဖြင့် စာရင်းရှင်း",
+	"wallets_feature_multiple_employees": "ဝန်ထမ်းအများအပြား ပံ့ပိုး (BPTs)",
+	"wallets_feature_self_hosted": "ကိုယ်တိုင်လက်ခံ = အခကြေးငွေ ၀%",
+	"wallets_feature_online_store": "အွန်လိုင်းစတိုး ပေါင်းစပ်မှု",
+	"wallets_feature_invoicing": "အခမဲ့ ပြေစာထုတ်ဆော့ဖ်ဝဲ",
+	"wallets_get_wallet": "ပိုက်ဆံအိတ် ရယူပါ"
+}

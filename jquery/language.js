@@ -44,6 +44,7 @@ $(function() {
     { code: 'hi', name: 'हिन्दी' },
     { code: 'bn', name: 'বাংলা' },
     { code: 'ta', name: 'தமிழ்' },
+    { code: 'my', name: 'မြန်မာ' },
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'am', name: 'አማርኛ' },
     { code: 'zh', name: '中文' },
