@@ -46,7 +46,6 @@ Run each script individually with `node scripts/[lang]/scriptname.js`. After all
   1. **English is always first** (pinned as the default language)
   2. **All other languages sorted alphabetically by their native name** (e.g., "Bahasa Melayu" before "Čeština", "Deutsch" before "Español"). Latin-script names come first naturally, followed by non-Latin scripts (Cyrillic, Devanagari, Tamil, Thai, CJK) via Unicode ordering.
   3. **"Add language" (`custom`) is always last**
-- **Bump the `TRANSLATION_VERSION`** to force cache bust
 
 ### Step 3: Update Homepage WebSite Schema
 - **File**: `index.html`
