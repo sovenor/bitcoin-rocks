@@ -21,6 +21,7 @@ $(function() {
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'de', name: 'Deutsch' },
     { code: 'es', name: 'Español' },
+    { code: 'eu', name: 'Euskara' },
     { code: 'fil', name: 'Filipino' },
     { code: 'fr', name: 'Français' },
     { code: 'id', name: 'Indonesia' },

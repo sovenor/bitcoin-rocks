@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"signs_description": "Lagundu iezaguzu Bitcoin kartel hauek AEB osoan jartzen!",
+	"signs_title": "Bitcoin kartel doakoak bitcoin.rocks-etik",
+	"signs_choose_header": "ESKERRIK ASKO BITCOIN KARTEL HAUEK AEB OSOAN JARTZEN LAGUNTZEAGATIK!",
+	"signs_choose_c1": "Orain guztiz kartelik gabe gaude! Gure helburua Bitcoin adopzioa azkartzea da hezkuntzaren bidez.",
+	"signs_choose_c2": "Askok lagundu duzue doako Bitcoin kartel hauek leku publikoetan jarriz. Gure kartel guztiek QR kodeak dituzte hezkuntza orrialde batera esteka dutenak",
+	"signs_choose_c3": "inflazioa",
+	"signs_choose_c4": "Gure komunitate bikainari esker, milaka pertsonetara iritsi ginen eta Bitcoin zuloan lehen urratsak ematen lagundu genien.",
+	"signs_share_header": "PARTEKATU ZURE KARTEL LEKUAK",
+	"signs_share_c1": "Partekatu zure kartel lekuaren argazki bat gurekin Nostr-en eta ikusi beste jendeak non jartzen dituen bere kartelak.",
+	"signs_btn_share_on_nostr": "PARTEKATU NOSTR-EN",
+	"signs_btn_what_is_nostr": "ZER DA NOSTR?",
+	"signs_instructions_1": "Sartu zure posta-helbidea eta 10 Bitcoin karteleko kutxa bat bidaliko dizugu postaz!",
+	"signs_instructions_2": "Helbide datuak zure doako kartelak bidali ondoren ezabatzen dira."
+}

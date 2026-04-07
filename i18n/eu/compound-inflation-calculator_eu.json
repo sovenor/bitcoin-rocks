@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"cic_header": "INFLAZIO KONPOSATU KALKULAGAILUA",
+	"cic_description": "Erabili Inflazio Konposatu Kalkulagailu hau jakiteko zenbat igo behar duen zure soldata inflazioarekin mantentzeko.",
+	"what_can_i_do_about": "Zer egin dezaket",
+	"what_can_i_do_about_2": "inflazioari buruz?",
+	"cic_inflation_cta": "Irten inflazioaretik Bitcoin-ekin"
+}

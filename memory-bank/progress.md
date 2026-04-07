@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Basque (eu) Language Added — April 2026
+- Added Basque (Euskara) as the 34th language
+- Created 90+ translation files in `i18n/eu/` mirroring the English directory structure
+- Translation scripts in `scripts/basque/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (33→34)
+- Ran SEO content injection
+- Language code: `eu`
+- Display name: `Euskara` (placed alphabetically after Español and before Filipino in language switcher)
+
 ## Amharic (am) Language Added — April 2026
 - Added Amharic (አማርኛ) as the 33rd language
 - Created 90+ translation files in `i18n/am/` mirroring the English directory structure

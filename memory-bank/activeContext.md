@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Amharic (am) Language Added — April 6, 2026
+## Latest: Basque (eu) Language Added — April 6, 2026
+- Added Basque (Euskara) as the 34th language
+- 90+ translation files created in `i18n/eu/`
+- 8 translation scripts in `scripts/basque/`
+- All registration steps completed (language.js v1.2.8, index.html schema, llms.txt, llms-full.txt, about page count 33→34, SEO injection)
+- Euskara placed alphabetically after Español and before Filipino in language.js
+
+## Amharic (am) Language Added — April 6, 2026
 - Added Amharic (አማርኛ) as the 33rd language
 - 90+ translation files created in `i18n/am/`
 - 8 translation scripts in `scripts/amharic/`

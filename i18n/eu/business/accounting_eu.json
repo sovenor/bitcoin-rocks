@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"bitcoin_business_accounting_guide": "Bitcoin negozio kontabilitate gida",
+	"accounting_description": "Ikasi nola behar bezala kontabilizatu Bitcoin ordainketak zure negozioaren kontabilitatean.",
+	"accounting_header": "BITCOIN KONTABILITATE GIDA",
+	"accounting_s1_c1": "Bitcoin onartzeak abantaila asko ditu, hala nola komisio baxuagoekin ordainketak onartzea eta bezero gehiago lortzea.",
+	"accounting_s1_c2": "Gure zorro gidako zorro hibrido bat erabiltzen baduzu eta jasotzen duzun Bitcoin-aren %100 automatikoki dolarretara saltzen baduzu, ez duzu aldaketarik egin behar zure egungo kontabilitatean.",
+	"accounting_s1_c3": "Ikusi zorro gida.",
+	"accounting_s1_c4": "Hala ere, jasotzen dituzun Bitcoin ordainketa batzuk Bitcoin gisa gordetzen badituzu, hainbat xehetasun jarraitu beharko dituzu zure kontabilitaterako. Hasieran beldurgarria iruditu daiteke, baina benetan nahiko sinplea da.",
+	"accounting_s1_c5": "Kontuan izan: gida hau informazio helburuetarako bakarrik da eta ez da zerga-aholkularitza gisa hartu behar.",
+	"accounting_s1_c6": "Zerga-aholkularitza behar baduzu, Satoshi Pacioli Accounting Services oso gomendagarria da, Bitcoin kontabilitatean espezializatutako kontabilitate enpresa bat.",
+	"accounting_s2": "ZURE KOSTU OINARRIA JARRAITZEA",
+	"accounting_s2_c1": "Zure kostu oinarria jarraitzea izango da dolaren eta Bitcoin-en kontabilitatearen arteko desberdintasun handiena. Nahiz eta zure negozioa soilik Bitcoin terminoetan ikusten duzun, transakzio bakoitzaren dolar balioa adierazi behar duzu zure zergetan.",
+	"accounting_s2_c2": "QuickBooks erabiltzen baduzu, hau automatikoki egin dezakezu Bitcoin Sync plugina erabiliz.",
+	"accounting_s2_c3": "QuickBooks erabiltzen ez baduzu, Satoshi Pacioli Accounting Services gomendatzen dugu, Bitcoin kontabilitatean espezializatutako kontabilitate enpresa bat.",
+	"accounting_s2_c4": "Hau eskuz egiteko, jaso duzun Bitcoin kopurua eta egun horretan Bitcoin transakzioaren dolar balioa jarraitu besterik ez duzu behar.",
+	"accounting_s2_c5": "Bitcoin-en egungo dolar prezioa hemen ikus dezakezu.",
+	"accounting_s2_c6": "Jarraitu informazio hau Excel kalkulu-orri batean eta eman zure kontulariari.",
+	"accounting_s2_c7": "Datu hauek automatikoki ere inporta ditzakezu Excel-era.",
+	"accounting_s2_c8": "Iraganeko egunetako Bitcoin-en dolar prezio historikoa ere ikus dezakezu, beraz, ez duzu hau egunero egin behar.",
+	"accounting_s3": "ZURE BITCOIN GASTATZEA EDO SALTZEA",
+	"accounting_s3_c1": "Gure zorro gidako zorro hibrido bat erabiltzen baduzu eta jasotzen duzun Bitcoin-aren %100 automatikoki dolarretara saltzen baduzu, ez duzu aldaketarik egin behar zure egungo kontabilitatean.",
+	"accounting_s3_c2": "Ikusi zorro gida.",
+	"accounting_s3_c3": "Jasotzen duzun Bitcoin batzuk denbora batez eduki ondoren gastatu edo saltzea aukeratzen baduzu, saldu duzun prezioa zure kostu oinarria jarraitze Excel kalkulu-orrian gehitu besterik ez duzu behar.",
+	"accounting_s3_c4": "Adibidez, urtarrilaren 1ean $100 balio zuten Bitcoin jaso bazenuen eta otsailaren 1ean $110-ko balio berri batean saltzea edo gastatzea erabaki bazenuen, $10-ko kapital irabazia erregistratu beharko zenuke zure kontabilitatean.",
+	"accounting_s3_c5": "Hau alderantziz ere gerta daiteke. Adibidez, urtarrilaren 1ean $100 balio zuten Bitcoin jaso bazenuen eta otsailaren 1ean $90-ko balio berri batean saltzea edo gastatzea erabaki bazenuen, $10-ko kapital galera erregistratu beharko zenuke zure kontabilitatean.",
+	"accounting_s4": "LAGUNTZA GEHIAGO BEHAR DUT",
+	"accounting_s4_c1": "Bitcoin zure negozioaren kontabilitatean integratzeko laguntza gehiago behar baduzu, Satoshi Pacioli Accounting Services oso gomendagarria da, Bitcoin kontabilitatean espezializatutako kontabilitate enpresa bat.",
+	"accounting_s4_c2": "Ikasi gehiago Satoshi Pacioli Accounting Services-i buruz."
+}

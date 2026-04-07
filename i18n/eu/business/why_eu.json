@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Ikasi zergatik den Bitcoin negoziorako ona",
+	"why_header": "BITCOIN NEGOZIORAKO ONA DA",
+	"why_good_for_you": "BITCOIN ZURETZAT ERE ONA DA!",
+	"why_learn_more_lowercase": "Ikasi gehiago.",
+	"why_s1": "Bitcoin-ek ez du inflaziorik",
+	"why_s1_c1": "Inflazioa diru gehiago inprimatzen edo ezerezetik sortzen denean gertatzen da. Honek zure dirua gutxiago balio du denborarekin.",
+	"why_s1_c2": "Bitcoin-ek eskaintza finko bat du, eta horrek esan nahi du inork ezin duela Bitcoin gehiago inprimatu.",
+	"why_s2": "Bitcoin-ek ez du banku-ihesik",
+	"why_s2_c1": "AEBetako hainbat banku erori dira azken urteetan banku-ihesen ondorioz.",
+	"why_s2_c2": "Zure dirua zuretzat gordetzeko ordez, bankuek zure dirua inbertitu eta maileguan ematen dute. Inbertsio horiek ondo ez badoaz, ez dute nahikoa zuri itzultzeko.",
+	"why_s2_c3": "Eta FDIC aseguru funtsak $1 besterik ez du aseguratzen duten $100 bakoitzeko.",
+	"why_s3": "Bitcoin baimenik gabekoa da",
+	"why_s3_c1": "Finantza-sare tradizionalek ez bezala, Bitcoin-ek ez du baimenik behar erabiltzeko.",
+	"why_s3_c2": "Horrek esan nahi du inork ezin dizula Bitcoin erabiltzea galarazi inolako arrazoirengatik. Zentsura edo konfiskaziorik gabe erabil dezakezun lehen finantza-sarea da.",
+	"why_s4": "Bitcoin mundu hobea eraikitzen ari da",
+	"why_s4_c1": "Bitcoin gaizki ulertutako teknologia bat da, mundu hobea eraikitzen ari dena.",
+	"why_s4_c2": "Bitcoin-ek giza eskubideen aktibistei askatasunaren alde borrokatzea ahalbidetu die, metano emisio globalak murriztu ditu, parke nazionalak salbatu ditu, eta askoz gehiago."
+}

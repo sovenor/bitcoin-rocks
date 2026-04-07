@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning zorro gida",
+	"lightning_description": "Lightning zorroek Bitcoin azkar eta merke bidaltzeko aukera ematen dizute zure subiranotasun pertsonala mantenduz.",
+	"lightning_header": "LIGHTNING ZORRO GIDA",
+	"lightning_s1_c1": "Lightning-ek Bitcoin ordainketak azkar eta merke bidaltzeko aukera ematen dizu.",
+	"lightning_s1_c2": "Garrantzitsua da jakitea Lightning erabiltzeak truke-konpromisoak dituela. Bitcoin ordainketa azkarrago eta merkeagoen truke, askotan segurtasun pixka bat sakrifikatzen duzu.",
+	"lightning_s1_c3": "Orokorrean, Lightning bitcoin kopuru txikiekin soilik erabili behar da. Bitcoin kopuru handiak soilik hardware zorro batean gorde beharko zenituzke.",
+	"lightning_s1_c4": "Ikusi gure hardware zorro gida informazio gehiagorako.",
+	"lightning_s1_c5": "Lightning zorro guztiak ez dira berdinak. Galdera sinple bat eginez zehaztu dezakezu zein zorrok dituen zuretzat egokiak diren truke-konpromisoak:",
+	"lightning_question_1": "ZEIN TRUKE-KONPROMISO OREKA DA NIRETZAT EGOKIA?",
+	"lightning_s2_c1": "Bitcoin-en berrikuntza bat zaintzaile batean, banku batean bezala, fidatu gabe gordetzeko gaitasuna da. Auto-zaintzako zorroek Bitcoin-en ahalmen osoa desblokeatzen dute.",
+	"lightning_s2_c2": "Auto-zaintzako zorro batekin, zeu zara zure dirua gastatu edo transferitzeko gaitasuna duen bakarra. Inork ez du zure gelditu, zentzuratu edo lapurtzea dezake auto-zaintzako zorro bat erabiltzen duzunean. Hauek zorro ez-kustodialak ere deitzen dira.",
+	"lightning_s2_c3": "Lightning erabiltzeko modurik subiranoena zure nodo propioa exekutatzea da.",
+	"lightning_s2_c4": "Gida hau zure nodorik behar ez duten Lightning zorro sinpleetan zentratzen da.",
+	"lightning_s2_c5": "Garrantzitsua da jakitea Lightning zorro ez-kustodial bat erabiliz ere, oraindik ere zorro-sortzailean fidatzen zarela eguneratze maltzur bat bota eta zure funtsak lapurtzeko.",
+	"lightning_s3_c1": "Zorro kustodialak zure diruaren kontrola ez duzun zorroak dira.",
+	"lightning_s3_c2": "Zorro hauek banku-sistematik antzekoak dira, non hirugarren baten menpe zauden zure dirura sarbidea izateko. Zure Bitcoin truke batean badago, zorro kustodial bat erabiltzen ari zara.",
+	"lightning_s3_c3": "Zorro kustodialak erosoak iruditu daitezke, baina zaintzaileak erabiltzaile guztien funtsak edozein unetan lapurtzeko gaitasun teknikoa du.",
+	"lightning_s3_c4": "Pertsona batzuek Lightning zorro kustodialak nahiago dituzte bitcoin kopuru txikietarako, erabiltzeko errazak direlako. Baina gogoratu: zure gakoak ez, zure txanponak ez!",
+	"lightning_question_2": "AUKERATU ZURE ZORROA",
+	"lightning_s4_c1": "Hau guztia kontuan hartuta, orain zuretzat truke-konpromiso oreka egokia duen Lightning zorroa aukera dezakezu.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Ezaugarri asko",
+	"lightning_mobile_app": "Mugikorreko aplikazioa",
+	"lightning_free": "%100 doakoa",
+	"lightning_merchants": "Merkatarientzat bikaina",
+	"lightning_starter": "Hasierako zorro bikaina",
+	"lightning_browser": "Nabigatzaile bidez",
+	"lightning_custodial": "Guztiz kustodialeko zorroa",
+	"lightning_cta_hardware": "Gure Bitcoin hardware zorro gida bilatzen ari zara?"
+}

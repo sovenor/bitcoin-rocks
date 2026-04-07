@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"get_involved_and_help_spread_bitcoin": "Parte hartu eta lagundu Bitcoin zabaltzen",
+	"get_involved_description": "Gure baliabide doakoek Bitcoin adopzioa zabaltzea errazten dute.",
+	"get_involved_header": "PARTE HARTU",
+	"get_involved_header_2": "ZABALDU BITCOIN",
+	"get_involved_intro_1": "Gure munduaren egungo egoeran bizitzea etsigarria izan daiteke.",
+	"get_involved_intro_2": "Gure dirua hautsita dago. Ondorioz, gizartearen oinarrizko atalak ere hautsita daude.",
+	"get_involved_intro_3": "Dagoeneko Bitcoin munduan bazaude, ezagutzen duzu Bitcoin-ek ekar dezakeen itxaropenaren sentsazioa. Diru hobeagoak ahalbidetutako etorkizun distiratsuago baterako itxaropena.",
+	"get_involved_intro_4": "Baina zure inguruko jende askok ez daki Bitcoin-i buruz. Zu bezala mundu hautsian bizi dira, baina iluntasunean laguntzeko itxaropenaren argirik gabe.",
+	"get_involved_intro_5": "Baina zuk lagundu dezakezu hori aldatzen. Hainbat baliabide doako egin ditugu zure inguruan Bitcoin-ek ekartzen duen itxaropena zabaltzea errazteko.",
+	"get_involved_sticker_header": "Jarri eranskailu bat leku publikoan",
+	"get_involved_sticker_content_1": "Zure ingurukoak Bitcoin-i buruz heztea lagun dezakezu inorekin elkarreragin beharrik gabe. Besterik gabe, jarri gure doako Bitcoin eranskailu bat leku publikoan.",
+	"get_involved_sticker_content_2": "Ehunka pertsonek eskaneatzen dituzte eranskailu hauetako QR kodeak hilero. Inflazio eranskailuek orrialde batera esteka dute",
+	"get_involved_sticker_content_3": "Bitcoin inflazioaren soluzioa gisa.",
+	"get_involved_sticker_content_4": "Beste eranskailuek gure hezkuntza hasiera orrira esteka dute, jendeari erakusten diena",
+	"get_involved_sticker_content_5": "Bitcoin mundu hobea eraikitzen ari dela.",
+	"get_involved_sticker_content_6": "Eranskailu hauek zure komunitatean jendeak ikusiko dituen lekuetan jarriz, zure ingurukoak Bitcoin zuloan lehen urratsak ematen lagundu ditzakezu.",
+	"get_involved_request_a": "ESKATU",
+	"get_involved_sticker_pack": "ERANSKAILU PAKETE BAT",
+	"get_involved_postcard_header": "Bidali postal bat",
+	"get_involved_postcard_content_1": "Bitcoin-en itxaropena ezagutzen duzun norbaiti zabaltzea lagun dezakezu gure doako postal bat bidaliaz.",
+	"get_involved_postcard_content_2": "Postal bakoitzaren atzeko aldean Bitcoin-i buruzko testu erakargarria dago, gehiago ikasteko QR kode batekin.",
+	"get_involved_postcard_content_3": "Norbaiti Bitcoin postal bat bidaliaz, Bitcoin modu berri batean ikusten lagundu diezaiokezu.",
+	"get_involved_postcard_pack": "POSTAL PAKETE BAT",
+	"get_involved_business_header": "Sartu negozio bat",
+	"get_involved_business_content_1": "Bitcoin ekonomia zirkularra eraikitzen lagundu nahi duzu? Gure Bitcoin negozio-kitak erraza egiten du negozio bati Bitcoin ordainketak onartzeko proposatzea.",
+	"get_involved_business_content_2": "Negozio-kit bakoitzak Bitcoin ordainketak onartzeko abantailak nabarmentzen dituzten liburuxkak barneratzen ditu. Liburuxka bakoitzak hainbat",
+	"get_involved_business_content_3": "doako Bitcoin negozio-baliabide",
+	"get_involved_business_kit": "NEGOZIO-KITA"
+}

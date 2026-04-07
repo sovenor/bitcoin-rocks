@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin-ek ez du banku-ihesik",
+	"bank_runs_header": "BITCOIN-EK EZ DU BANKU-IHESIK",
+	"bank_runs_header_2": "BAINA ZURE BANKUAK BAI IZAN DEZAKE",
+	"bank_runs_what": "ZER DA BANKU-IHES BAT?",
+	"bank_runs_what_content_1": "Banku-ihes bat jende askok aldi berean bankutik dirua ateratzea saiatzen denean gertatzen da.",
+	"bank_runs_what_content_2": "Bankuek ez badute nahikoa diru eskuragarri ateratzeei aurre egiteko, guztiz hondoratu daitezke banku-ihes bat gertatzen denean.",
+	"bank_runs_how": "NOLA GERTATZEN DIRA BANKU-IHESAK?",
+	"bank_runs_how_content_1": "Gure banku-sistema 'erreserba zatikaria' da, eta horrek esan nahi du bankuek ez dutela zure dirua ganga batean gordetzen eta itxaroten gastatu edo ateratzeko.",
+	"bank_runs_how_content_2": "Horren ordez, zure bankuak zure dirua hartzen du eta maileguan ematen edo inbertitzen du. Honek zure dirua denbora luzerako blokea dezake, nahiz eta bankuak edozein unetan ateratzeko gaitasuna bermatu dizun.",
+	"bank_runs_how_content_3": "Beraz, zer gertatzen da bankuak zure dirua dagoeneko maileguan eman edo inbertitu ondoren ateratzen saiatzen bazara?",
+	"bank_runs_how_content_4": "Ez da arazoa zuk bakarrik ateratzen saiatzen bazara. Bankuak beste norbaiten dirua hartuko du eta zuri emango dizu. Baina zer gertatzen da jende askok aldi berean ateratzen saiatzen denean?",
+	"bank_runs_how_content_5": "AEBetako jende askok jakin zuen 2023ko martxoan Silicon Valley Bankean banku-ihes bat izan zenean.",
+	"bank_runs_how_content_6": "Bankuak bere bezeroen dirua 30 urte arteko gobernu-bonuetan inbertitu zuen. Are okerrago, bonu horien balioa azkenaldian nabarmen jaitsi zen, beraz, Silicon Valley Bankek ezin zituen bonuak saldu gordailuzaleen dirua atzera lortzeko. Kaudimengabea ziren. Ez zuten nahikoa diru gordailuzaleen ateratzeei aurre egiteko.",
+	"bank_runs_how_content_7": "Jende gehiagok jakin ahala, arazoa larriagotu egin zen. Ateratze-eskaera gehiago iritsi ziren, baina asko ez ziren prozesatu. Milaka enpresak konturatu ziren ezin izango zietela langileei ordaindu bankuaren hutsegiteen ondorioz.",
+	"bank_runs_how_content_8": "FDIC-ak esku hartu zuen eta gordailuzaileei dena itzultzea adostu zuen. Arazoa konponduta? Ez guztiz...",
+	"bank_runs_fdic": "FDIC ASEGURUAK NIRE DIRUA BABESTEN DU?",
+	"bank_runs_fdic_content_1": "FDIC asegurua banku-gordailuzaileak bankuak huts egiten badu babesteko diseinatuta dago. Gordailuak gordailuzaile bakoitzeko $250.000 arte aseguratuta daude. Oso ondo dirudi, ezta?",
+	"bank_runs_fdic_content_2": "Ez guztiz. Banku batek huts egiten badu, nondik ateratzen du FDIC-ak dirua? 125.000 milioi dolarreko aseguru-funts bat dute.",
+	"bank_runs_fdic_content_3": "Diru asko dirudi aseguratzen dituzten gordailu kopuruarekin konparatzen duzun arte: ia 10 bilioi edo 10.000.000 milioi dolar.",
+	"bank_runs_fdic_content_4": "FDIC-ak bere webgunean erakusten du haien aseguru-funtsean gordailuen %1 baino pixka bat gehiago estaltzeko nahikoa dirua bakarrik dutela.",
+	"bank_runs_fdic_content_5": "FDIC aseguru-funtsa gainditzen duen banku-hutsegite baten kasuan, litekeena da (baina ez bermatu) AEBetako gobernuak dirua inprimatzea gordailuzaileei dena itzultzeko.",
+	"bank_runs_fdic_content_6": "Baina dirua inprimatzeak inflazioa eragiten du, beraz, ez da soluzio bikaina.",
+	"bank_runs_safe": "BA AL DIRA ERRESERBA ZATIKARIA ERABILTZEN EZ DUTEN BANKUAK?",
+	"bank_runs_safe_content_1": "Banku batzuk 'banku seguru' izaten saiatu dira, gordailuzaleen funtsak maileguan ematen edo inbertitzen ez dituztenak.",
+	"bank_runs_safe_content_2": "Banku seguru hauek banku-ihesen zero arriskua izango luketen arren, haien eskaerak Erreserba Federalak ukatu ditu. Honek esan nahi du ez dutela legez banku gisa funtziona dezaketenik.",
+	"bank_runs_safe_content_3": "Funtzionatzea galarazi zaiela, gaur egun ez dago erreserba zatikaria erabiltzen ez duen bankurik.",
+	"bank_runs_safe_content_4": "Zorionez, erreserba zatikarien sistematik irteteko modu bat dago zure bankua izanez. Ez, ez gabiltza diru metalikoaz kolchoi azpian gordetzeaz hitz egiten.",
+	"bank_runs_safe_content_5": "Eskudiruan gordetzea oraindik inflazioaren aurrean ahula da.",
+	"bank_runs_safe_content_6": "Bitcoin-ez hitz egiten gabiltza: zure bankua izateko aukera ematen dizun finantza-sistema berri bat.",
+	"bank_runs_protect": "BITCOIN-EK BANKU-IHESETATIK BABESTU NAZAKE?",
+	"bank_runs_protect_content_1": "Bai, Bitcoin erreserba osoko finantza-sistema bat da.",
+	"bank_runs_protect_content_2": "Banku-ihesak ezinezkoak dira Bitcoin-en zure Bitcoin zure zorrora ateratzen duzun bitartean. Ez utzi zure bitcoin truke batean edo ETF bezalako bilgarri batean.",
+	"bank_runs_protect_content_3": "Ikusi gure Bitcoin zorro gida sinplea zure zorrora nola atera ikasteko.",
+	"bank_runs_protect_content_4": "Bitcoin-ekin, azkenik zure diruaren kontrolean egon zaitezke."
+}

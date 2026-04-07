@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "eu"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin negoziorako ona da",
+	"biz_header": "BITCOIN NEGOZIORAKO ONA DA",
+	"biz_s1": "Komisio baxuak gutxieneko gabe",
+	"biz_s1_c1": "Bitcoin-ek zure bezeroen ordainketak zuzenean jasotzeko aukera ematen dizu, eskudirua bezala. Bitcoin sarea bitartekariak gabe funtzionatzen du, hala nola bankuak eta kreditu-txartel konpainiak, komisio handiak hartzen dituztenak.",
+	"biz_s2": "Berehala ordainketa",
+	"biz_s2_c1": "Eskudirua bezala, Bitcoin-en ordainketak berehala likidatzen dira. Ez duzu itxaron behar zure kreditu-txartel konpainiak edo bankuak ordaintzeko. Horren ordez, berehala sarbidea duzu zure dirura.",
+	"biz_s3": "Ez dago itzulketarik edo iruzurrik",
+	"biz_s3_c1": "Bitcoin ordainketak zuzenean zure eta zure bezeroen artean gertatzen direnez, ezinezkoa da inork zure dirua itzulketa batekin atzera hartzea.",
+	"biz_s3_c2": "Bitcoin faltsua ezin da Bitcoin Sarean bidali, eta horrek esan nahi du ez duzula inoiz kezkatu behar zure negozioari dirua kosta diezaioketen transakzio iruzurtzaileez.",
+	"biz_s4": "Lortu bezero gehiago",
+	"biz_s4_c1": "Milioika pertsonak dituzte Bitcoin eta haien Bitcoin gastatu nahi dute onartzen duten lekuetan.",
+	"biz_s4_c2": "Bitcoin onartuz, zure negozioa Bitcoin merkatari-mapetan zerrendatu daiteke eta Bitcoin bezero berriekiko doako esposizioa lortu.",
+	"biz_s4_c3": "Bitcoin onartzea %100 doakoa da. Ez dago kontraturik edo ezkutuko komisiorik."
+}
