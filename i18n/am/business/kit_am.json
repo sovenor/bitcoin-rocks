@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "am"
+	},
+	"bitcoin_business_kit": "የቢትኮይን ንግድ ኪት",
+	"kit_header": "የቢትኮይን ንግድ ኪትዎን ያትሙ",
+	"kit_request": "ነፃ ኪት ይጠይቁ",
+	"kit_request_details": "እያንዳንዱ የቢትኮይን ንግድ ኪት ለአካባቢ ንግዶች ቢትኮይንን መቀበል ቀላል ለማድረግ 2 ብሮሹሮች ይዟል።",
+	"kit_country_global_print": "ዓለም አቀፍ — ራስዎ ያትሙ",
+	"kit_enter_address": "አድራሻዎን ያስገቡ ነፃ የቢትኮይን ንግድ ኪት ነጭ ፖስታ ውስጥ እንልክልዎታለን። የአድራሻ ውሂብ ኪቱ ከተላከ በኋላ ይሰረዛል።",
+	"kit_print_details": "የትም ቢኖሩ ራስዎ ብሮሹሮች አትመው መሳተፍ ይችላሉ! ማተም ካልፈለጉ ዲጂታል ንግድ ኪት ለንግዶች መላክ ይችላሉ።",
+	"kit_view_files": "ፋይሎችን ይመልከቱ",
+	"kit_digital_kit": "ዲጂታል ኪት",
+	"kit_resources": "እያንዳንዱ ኪት ወደ እነዚህ ነፃ ግብዓቶች ማስፈንጠሪያ ይዟል"
+}

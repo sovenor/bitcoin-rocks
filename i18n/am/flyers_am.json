@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "am"
+	},
+	"free_bitcoin_flyers": "ከbitcoin.rocks ነፃ ቢትኮይን በራሪ ወረቀቶች",
+	"flyers_description": "ቢትኮይን በራሪ ወረቀቶች ቤት አትመው በህዝባዊ ቦታዎች ይለጥፉ።",
+	"flyers_header_1": "አትሙ & ይለጥፉ",
+	"flyers_header_2": "ቢትኮይን በራሪ ወረቀቶች",
+	"flyers_intro_header": "ቢትኮይን በራሪ ወረቀቶች እንዴት ማተም እና መለጠፍ እንደሚቻል",
+	"flyers_intro_c1": "ተልዕኮአችን በህዝባዊ ቦታዎች ቢትኮይን በራሪ ወረቀቶች ለጥፎ ብዙ ሰዎች ስለ ቢትኮይን እንዲያውቁ ማድረግ ነው። እነዚህ በራሪ ወረቀቶች ወደ ትምህርታዊ",
+	"flyers_intro_c2": "ቢትኮይን ድር ጣቢያችን QR ኮድ አላቸው።",
+	"flyers_intro_c3": "ዋጋ ግሽበት",
+	"flyers_intro_c4": "እነዚህን በራሪ ወረቀቶች ቤት ወይም ማተሚያ ቤት ያትሙ። ከዚያ በማስታወቂያ ሰሌዳ፣ ምሰሶ ወይም ሰዎች የሚያዩት ህዝባዊ ቦታ ይለጥፉ ስለ ቢትኮይን ያስተምሩ።",
+	"flyers_intro_c5": "በራሪ ወረቀቶች ሲለጥፉ ",
+	"flyers_intro_c6": "ነፃ ቢትኮይን ስቲከሮች",
+	"flyers_intro_c7": " ደግሞ ይጠይቁ ተጨማሪ ሰዎችን ለማስተማር።",
+	"flyers_btn_download": "በራሪ ወረቀት ያውርዱ",
+	"flyers_btn_print": "በራሪ ወረቀት ያትሙ",
+	"flyers_share_header": "በራሪ ወረቀት ቦታዎችዎን ያጋሩ",
+	"flyers_share_c1": "በNostr ላይ በራሪ ወረቀት ቦታዎችዎን ያጋሩ ሌሎች ሰዎች የት እንደሚለጥፉ ይመልከቱ።",
+	"flyers_btn_share_on_nostr": "በNOSTR ላይ ያጋሩ",
+	"flyers_btn_what_is_nostr": "NOSTR ምንድን ነው?"
+}

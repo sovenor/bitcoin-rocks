@@ -43,6 +43,7 @@ $(function() {
     { code: 'hi', name: 'हिन्दी' },
     { code: 'ta', name: 'தமிழ்' },
     { code: 'th', name: 'ภาษาไทย' },
+    { code: 'am', name: 'አማርኛ' },
     { code: 'zh', name: '中文' },
     { code: 'ja', name: '日本語' },
     { code: 'ko', name: '한국어' },

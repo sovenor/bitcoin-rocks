@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "am"
+	},
+	"cic_header": "የተደራራቢ ዋጋ ግሽበት ካልኩሌተር",
+	"cic_description": "ይህን የተደራራቢ ዋጋ ግሽበት ካልኩሌተር ተጠቅመው ደመወዝዎ ከዋጋ ግሽበት ጋር ለመከታተል ምን ያህል መጨመር እንዳለበት ይወቁ።",
+	"what_can_i_do_about": "ስለ ዋጋ ግሽበት",
+	"what_can_i_do_about_2": "ምን ማድረግ እችላለሁ?",
+	"cic_inflation_cta": "በቢትኮይን ከዋጋ ግሽበት ይውጡ"
+}

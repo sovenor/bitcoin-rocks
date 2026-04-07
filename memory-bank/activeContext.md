@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Arabic (ar) Language Added — April 4, 2026
+## Latest: Amharic (am) Language Added — April 6, 2026
+- Added Amharic (አማርኛ) as the 33rd language
+- 90+ translation files created in `i18n/am/`
+- 8 translation scripts in `scripts/amharic/`
+- All registration steps completed (language.js v1.2.8, index.html schema, llms.txt, llms-full.txt, about page count 32→33, SEO injection)
+- Ethiopic script (U+1200) placed after Thai (ภาษาไทย) and before Chinese (中文) in language.js
+
+## Arabic (ar) Language Added — April 4, 2026
 - Added Arabic (العربية) as the 31st language
 - 90 translation files created in `i18n/ar/`
 - 8 translation scripts in `scripts/arabic/`

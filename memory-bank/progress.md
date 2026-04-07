@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Amharic (am) Language Added — April 2026
+- Added Amharic (አማርኛ) as the 33rd language
+- Created 90+ translation files in `i18n/am/` mirroring the English directory structure
+- Translation scripts in `scripts/amharic/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (32→33)
+- Ran SEO content injection
+- Language code: `am`
+- Display name: `አማርኛ` (placed after ภาษาไทย and before 中文 in language switcher per Ethiopic Unicode range)
+
 ## Azerbaijani (az) Language Added — April 2026
 - Added Azerbaijani (Azərbaycanca) as the 32nd language
 - Created 90+ translation files in `i18n/az/` mirroring the English directory structure

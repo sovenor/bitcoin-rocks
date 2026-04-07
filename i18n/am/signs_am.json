@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-06",
+		"locale": "am"
+	},
+	"signs_description": "በአሜሪካ ዙሪያ እነዚህን ቢትኮይን ምልክቶች ለማስቀመጥ ይረዱ!",
+	"signs_title": "ከbitcoin.rocks ነፃ ቢትኮይን ምልክቶች",
+	"signs_choose_header": "በአሜሪካ ዙሪያ እነዚህን ቢትኮይን ምልክቶች ስለሰቀሉ እናመሰግናለን!",
+	"signs_choose_c1": "ምልክቶቹ አልቀዋል! ተልዕኮአችን በትምህርት አማካኝነት ቢትኮይን ተቀባይነትን ማፋጠን ነው።",
+	"signs_choose_c2": "ብዙ ሰዎች እነዚህን ነፃ ቢትኮይን ምልክቶች በህዝባዊ ቦታዎች ሰቅለው ረድተዋል። ሁሉም ምልክቶች ወደ ትምህርት ገጽ QR ኮድ አላቸው:",
+	"signs_choose_c3": "ዋጋ ግሽበት",
+	"signs_choose_c4": "ድንቅ ማህበረሰብ ምስጋና ይግባው ሺዎች ሰዎችን ደርሰው ቢትኮይን ቶሎ ጉድጓድ ውስጥ የመጀመሪያ ቆመት እንዲጀምሩ ረድተዋል።",
+	"signs_share_header": "የምልክት ቦታዎችዎን ያጋሩ",
+	"signs_share_c1": "በNostr ላይ የምልክት ቦታ ፎቶ ያጋሩ ሌሎች ሰዎች ምልክቶቻቸውን የት እንደሚሰቅሉ ይመልከቱ።",
+	"signs_btn_share_on_nostr": "በNOSTR ላይ ያጋሩ",
+	"signs_btn_what_is_nostr": "NOSTR ምንድን ነው?",
+	"signs_instructions_1": "የፖስታ አድራሻዎን ያስገቡ 10 ቢትኮይን ምልክቶች ያለው ሳጥን እንልክልዎታለን!",
+	"signs_instructions_2": "የአድራሻ ውሂብ ነፃ ምልክቶች ከተላኩ በኋላ ይሰረዛል።"
+}
