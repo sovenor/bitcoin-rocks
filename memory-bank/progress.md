@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Catalan (ca) Language Added — April 2026
+- Added Catalan (Català) as the 37th language
+- Created 90+ translation files in `i18n/ca/` mirroring the English directory structure
+- Translation scripts in `scripts/catalan/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (36→37)
+- Ran SEO content injection and translation audit (all clean — only legitimate proper noun matches)
+- Language code: `ca`
+- Display name: `Català` (placed alphabetically between Azərbaycanca and Čeština in language switcher)
+
 ## Bengali (bn) Language Added — April 2026
 - Added Bengali (বাংলা) as the 35th language
 - Created 90+ translation files in `i18n/bn/` mirroring the English directory structure

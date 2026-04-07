@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin no té pànics bancaris",
+	"bank_runs_header": "BITCOIN NO TÉ PÀNICS BANCARIS",
+	"bank_runs_header_2": "PERÒ EL TEU BANC POTSER SÍ",
+	"bank_runs_what": "QUÈ ÉS UN PÀNIC BANCARI?",
+	"bank_runs_what_content_1": "Un pànic bancari passa quan massa gent intenta retirar els seus diners del banc al mateix temps.",
+	"bank_runs_what_content_2": "Si els bancs no tenen prou diners disponibles per cobrir les retirades, poden col·lapsar completament quan es produeix un pànic bancari.",
+	"bank_runs_how": "COM PASSEN ELS PÀNICS BANCARIS?",
+	"bank_runs_how_content_1": "El nostre sistema bancari és de 'reserva fraccionària', la qual cosa significa que els bancs no es limiten a guardar els teus diners en una caixa forta i esperar que els gastis o els retiris.",
+	"bank_runs_how_content_2": "En lloc d'això, el teu banc agafa els teus diners i els presta o els inverteix. Això pot bloquejar els teus diners durant llargs períodes de temps, tot i que el banc et promet la capacitat de retirar els teus diners en qualsevol moment.",
+	"bank_runs_how_content_3": "Llavors, què passa si intentes retirar els teus diners després que el banc ja els hagi prestat o invertit?",
+	"bank_runs_how_content_4": "No és un problema si ets l'únic que intenta retirar. El banc simplement agafarà els diners d'algú altre i te'ls donarà. Però què passa quan massa gent intenta retirar al mateix temps?",
+	"bank_runs_how_content_5": "Molta gent als EUA ho va descobrir quan va haver-hi un pànic al Silicon Valley Bank el març de 2023.",
+	"bank_runs_how_content_6": "El banc havia invertit els diners dels seus clients en bons governamentals que estaven bloquejats fins a 30 anys. Encara pitjor, el valor d'aquests bons havia caigut dràsticament recentment, de manera que Silicon Valley Bank no podia simplement vendre els bons per obtenir els diners dels seus dipositants. Eren insolvents. No tenien prou diners per cobrir les retirades dels seus dipositants.",
+	"bank_runs_how_content_7": "A mesura que més gent ho descobria, el problema només empitjorava. Van arribar més sol·licituds de retirada, però moltes no es van processar. Milers d'empreses es van adonar que no podrien pagar els seus empleats a causa de la fallida del banc.",
+	"bank_runs_how_content_8": "La FDIC va intervenir i va acceptar compensar els dipositants. Problema resolt? No exactament...",
+	"bank_runs_fdic": "L'ASSEGURANÇA DE LA FDIC PROTEGEIX ELS MEUS DINERS?",
+	"bank_runs_fdic_content_1": "L'assegurança de la FDIC està dissenyada per protegir els dipositants bancaris en cas que un banc falli. Els dipòsits estan assegurats fins a 250.000$ per dipositant. Sona bé, oi?",
+	"bank_runs_fdic_content_2": "No exactament. Si un banc falla, d'on treu els diners la FDIC? Tenen un fons d'assegurança amb 125 mil milions de dòlars.",
+	"bank_runs_fdic_content_3": "Sona com molts diners fins que ho compares amb la quantitat de dipòsits que asseguren: gairebé 10 bilions o 10.000 mil milions de dòlars.",
+	"bank_runs_fdic_content_4": "La FDIC fins i tot mostra al seu lloc web que només tenen prou diners al seu fons d'assegurança per cobrir poc més de l'1% dels dipòsits.",
+	"bank_runs_fdic_content_5": "En cas d'una fallida bancària que excedís el fons d'assegurança de la FDIC, és probable (però no garantit) que el govern dels EUA imprimís diners per compensar els dipositants.",
+	"bank_runs_fdic_content_6": "Però imprimir diners causa inflació, de manera que no és una gran solució.",
+	"bank_runs_safe": "HI HA BANCS QUE NO FAN SERVIR RESERVA FRACCIONÀRIA?",
+	"bank_runs_safe_content_1": "Alguns bancs han intentat ser 'bancs segurs' que no presten ni inverteixen els fons dels dipositants.",
+	"bank_runs_safe_content_2": "Tot i que aquests bancs segurs tindrien zero risc de pànics bancaris, les seves sol·licituds han estat denegades per la Reserva Federal. Això significa que no poden operar legalment com a bancs.",
+	"bank_runs_safe_content_3": "Com que se'ls ha bloquejat operar, avui no existeixen bancs que no utilitzin reserva fraccionària.",
+	"bank_runs_safe_content_4": "Afortunadament, hi ha una manera de sortir del sistema de reserva fraccionària sent el teu propi banc. No, no estem parlant d'amagar efectiu sota el matalàs.",
+	"bank_runs_safe_content_5": "Estalviar en efectiu segueix sent vulnerable a la inflació.",
+	"bank_runs_safe_content_6": "Estem parlant de Bitcoin: un nou sistema financer que et permet ser el teu propi banc.",
+	"bank_runs_protect": "BITCOIN POT PROTEGIR-ME DELS PÀNICS BANCARIS?",
+	"bank_runs_protect_content_1": "Sí, Bitcoin és un sistema financer de reserva completa.",
+	"bank_runs_protect_content_2": "Els pànics bancaris són impossibles amb Bitcoin sempre que retiris el teu Bitcoin a la teva pròpia cartera. No deixis el teu bitcoin en una borsa o en un embolcall com un ETF de Bitcoin.",
+	"bank_runs_protect_content_3": "Consulta la nostra senzilla Guia de Carteres Bitcoin per aprendre com retirar a la teva pròpia cartera.",
+	"bank_runs_protect_content_4": "Amb Bitcoin, finalment pots tenir el control dels teus diners."
+}

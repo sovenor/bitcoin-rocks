@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Cripto",
+	"crypto_header": "LA DIFERÈNCIA ENTRE",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "I",
+	"crypto_header_4": "LES CRIPTO",
+	"crypto_intro_1": "L'espai de les criptomonedes ha explotat amb milers de tokens i projectes digitals diferents.",
+	"crypto_intro_2": "Tot i que Bitcoin va ser la primera i segueix sent la criptomoneda més coneguda, és fonamentalment diferent de la resta de la indústria cripto.",
+	"crypto_intro_3": "Explorem les diferències clau entre Bitcoin i l'ecosistema més ampli de les criptomonedes.",
+	"crypto": "CRIPTO",
+	"crypto_point_1": "Canvis i bifurcacions freqüents",
+	"crypto_point_2": "Control centralitzat",
+	"crypto_point_3": "Oferta il·limitada o inflacionària",
+	"crypto_point_4": "Protocols complexos",
+	"crypto_point_5": "Consens experimental",
+	"crypto_point_6": "Tokens d'utilitat especulatius",
+	"crypto_point_7": "Volàtil i fràgil",
+	"crypto_point_8": "Recolzament corporatiu",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Protocol immutable",
+	"bitcoin_point_2": "Veritablement descentralitzat",
+	"bitcoin_point_3": "Oferta fixa de 21M BTC",
+	"bitcoin_point_4": "Senzill i accessible",
+	"bitcoin_point_5": "Prova de Treball provada",
+	"bitcoin_point_6": "Diners digitals purs",
+	"bitcoin_point_7": "Antifràgil",
+	"bitcoin_point_8": "Cap entitat el controla",
+	"point_1_summary_1": "El protocol de Bitcoin ha romàs fonamentalment inalterat des de 2009, proporcionant regles previsibles que no es poden modificar fàcilment. La majoria dels projectes cripto actualitzen freqüentment els seus protocols, canvien la tokenòmica o es bifurquen en noves versions, creant incertesa per als usuaris.",
+	"point_2_summary_1": "Bitcoin funciona en una xarxa veritablement descentralitzada amb desenes de milers de nodes independents a tot el món. Molts projectes cripto estan controlats per fundacions, empreses o petits grups de desenvolupadors que poden prendre decisions unilaterals sobre el futur del protocol.",
+	"point_3_summary_1": "Bitcoin té un límit màxim de 21 milions de monedes que existiran mai, fent-lo l'actiu digital més escàs. La majoria de projectes cripto tenen ofertes il·limitades, mecanismes inflacionaris o poden encunyar nous tokens a voluntat, diluint el valor dels posseïdors amb el temps.",
+	"point_4_summary_1": "Bitcoin té un propòsit senzill: diners digitals entre iguals. Qualsevol pot entendre'l i usar-lo amb coneixements bàsics. Molts projectes cripto impliquen contractes intel·ligents complexos, protocols DeFi o mecanismes de governança que requereixen experiència tècnica per usar-los de manera segura.",
+	"point_5_summary_1": "Bitcoin utilitza el consens de Prova de Treball, que ha estat provat en batalla durant més de 15 anys sense un sol atac reeixit a la xarxa principal. Molts projectes cripto utilitzen mecanismes de consens experimentals com Prova de Participació o sistemes delegats que no han demostrat la seva seguretat a llarg termini.",
+	"point_6_summary_1": "Bitcoin serveix com a diners digitals - una reserva de valor i mitjà d'intercanvi. La majoria dels tokens cripto són tokens d'utilitat per a plataformes específiques, tokens de governança o actius especulatius amb proposicions de valor poc clares en el món real.",
+	"point_7_summary_1": "Bitcoin es torna més fort sota atac i ha sobreviscut a cada crisi, prohibició i crítica que se li ha llançat. La majoria dels projectes cripto són fràgils i poden col·lapsar per pressió regulatòria, fallades tècniques o baixades del mercat.",
+	"point_8_summary_1": "Bitcoin no té CEO, cap empresa darrere i cap punt únic de fallada. Molts projectes cripto estan recolzats per empreses de capital risc, tenen equips de lideratge identificables o depenen d'empreses específiques per al seu funcionament continu."
+}

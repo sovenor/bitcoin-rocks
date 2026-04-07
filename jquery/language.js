@@ -17,6 +17,7 @@ $(function() {
     { code: 'en', name: 'English' },
     { code: 'af', name: 'Afrikaans' },
     { code: 'az', name: 'Azərbaycanca' },
+    { code: 'ca', name: 'Català' },
     { code: 'cs', name: 'Čeština' },
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'de', name: 'Deutsch' },

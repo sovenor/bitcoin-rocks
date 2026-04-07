@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"404_title": "404 Error | Pàgina no trobada",
+	"404_message": "AQUESTA PÀGINA TRENCADA NO TÉ VALOR",
+	"404_home": "TORNA A L'INICI"
+}

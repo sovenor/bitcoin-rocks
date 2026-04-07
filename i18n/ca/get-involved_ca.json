@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"get_involved_and_help_spread_bitcoin": "Participa i ajuda a difondre Bitcoin",
+	"get_involved_description": "Els nostres recursos gratuïts faciliten la difusió de l'adopció de Bitcoin.",
+	"get_involved_header": "PARTICIPA",
+	"get_involved_header_2": "DIFON BITCOIN",
+	"get_involved_intro_1": "Pot ser depriment viure en l'estat actual del nostre món.",
+	"get_involved_intro_2": "Els nostres diners estan trencats. Com a resultat, peces fonamentals de la societat també estan trencades.",
+	"get_involved_intro_3": "Si ja coneixes Bitcoin, coneixes la sensació d'esperança que Bitcoin pot portar. Esperança per a un futur més brillant fet possible per uns diners millors.",
+	"get_involved_intro_4": "Però tanta gent al teu voltant no coneix Bitcoin. Viuen al mateix món trencat que tu, però sense un far d'esperança que els ajudi a travessar la foscor.",
+	"get_involved_intro_5": "Però tu pots ajudar a canviar això. Hem creat diversos recursos gratuïts per facilitar la difusió de l'esperança que Bitcoin porta als que t'envolten.",
+	"get_involved_sticker_header": "Posa un adhesiu en públic",
+	"get_involved_sticker_content_1": "Pots ajudar a educar els que t'envolten sobre Bitcoin sense haver d'interactuar amb ningú. Simplement posa un dels nostres adhesius de Bitcoin gratuïts en públic.",
+	"get_involved_sticker_content_2": "Centenars de persones escanegen els codis QR d'aquests adhesius cada mes. Els adhesius d'inflació enllaçen a una pàgina sobre",
+	"get_involved_sticker_content_3": "Bitcoin com a solució a la inflació.",
+	"get_involved_sticker_content_4": "Els altres adhesius enllaçen a la nostra pàgina d'inici educativa que mostra a la gent com",
+	"get_involved_sticker_content_5": "Bitcoin està construint un món millor.",
+	"get_involved_sticker_content_6": "Posant aquests adhesius a la teva comunitat en llocs on la gent els veurà, pots ajudar els que t'envolten a fer els seus primers passos pel cau del conill de Bitcoin.",
+	"get_involved_request_a": "SOL·LICITA UN",
+	"get_involved_sticker_pack": "PAQUET D'ADHESIUS",
+	"get_involved_postcard_header": "Envia una postal",
+	"get_involved_postcard_content_1": "Pots ajudar a difondre l'esperança de Bitcoin a algú que coneixes enviant-li una de les nostres postals gratuïtes.",
+	"get_involved_postcard_content_2": "El revers de cada postal conté un text convincent sobre Bitcoin juntament amb un codi QR per aprendre'n més.",
+	"get_involved_postcard_content_3": "Enviant a algú una postal de Bitcoin, pots ajudar-lo a veure Bitcoin d'una manera nova.",
+	"get_involved_postcard_pack": "PAQUET DE POSTALS",
+	"get_involved_business_header": "Incorpora un negoci",
+	"get_involved_business_content_1": "Vols ajudar a construir l'economia circular de Bitcoin? El nostre Kit Empresarial Bitcoin facilita apropar-se a un negoci per acceptar pagaments amb Bitcoin.",
+	"get_involved_business_content_2": "Cada kit empresarial inclou fulletons que destaquen els avantatges d'acceptar pagaments amb Bitcoin. Cada fulletó enllaça a una varietat de",
+	"get_involved_business_content_3": "recursos gratuïts per a negocis Bitcoin.",
+	"get_involved_business_kit": "KIT EMPRESARIAL"
+}

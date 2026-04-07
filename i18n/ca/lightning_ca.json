@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"bitcoin_lightning_wallet_guide": "Guia de Carteres Lightning de Bitcoin",
+	"lightning_description": "Les carteres Lightning et permeten enviar Bitcoin ràpidament i a baix cost mantenint la teva sobirania personal.",
+	"lightning_header": "GUIA DE CARTERES LIGHTNING",
+	"lightning_s1_c1": "Lightning et permet enviar pagaments de Bitcoin ràpidament i a baix cost.",
+	"lightning_s1_c2": "És important saber que fer servir Lightning comporta compromisos. A canvi de pagaments de Bitcoin més ràpids i barats, sovint sacrifiques una mica de seguretat.",
+	"lightning_s1_c3": "En general, Lightning s'hauria d'utilitzar només amb petites quantitats de bitcoin. Només hauries d'emmagatzemar grans quantitats de bitcoin en una cartera de maquinari.",
+	"lightning_s1_c4": "Consulta la nostra Guia de Carteres de Maquinari per a més informació.",
+	"lightning_s1_c5": "No totes les carteres Lightning són iguals. Pots determinar quina cartera té el conjunt adequat de compromisos per a tu fent-te una senzilla pregunta:",
+	"lightning_question_1": "QUIN EQUILIBRI DE COMPROMISOS ÉS ADEQUAT PER A MI?",
+	"lightning_s2_c1": "Una de les innovacions de Bitcoin és la capacitat d'emmagatzemar-lo sense dependre d'un custodi, com un banc. Les carteres d'autocustòdia desbloquegen tot el poder de Bitcoin.",
+	"lightning_s2_c2": "Amb una cartera d'autocustòdia, ets l'únic amb la capacitat de gastar o transferir els teus diners. Ningú et pot aturar, censurar o robar quan fas servir una cartera d'autocustòdia. Aquestes també s'anomenen carteres no custodials.",
+	"lightning_s2_c3": "La manera més sobirana d'utilitzar Lightning és executant el teu propi node.",
+	"lightning_s2_c4": "Aquesta guia se centra en carteres Lightning senzilles que no requereixen el teu propi node.",
+	"lightning_s2_c5": "És important saber que fins i tot fent servir una cartera Lightning no custodial, segueixes confiant que el creador de la cartera no enviarà una actualització maliciosa de l'aplicació i robi els teus fons.",
+	"lightning_s3_c1": "Les carteres custodials són carteres on no tens el control dels teus diners.",
+	"lightning_s3_c2": "Aquestes carteres són més similars al sistema bancari on has de confiar en un tercer perquè et doni accés als teus diners. Si el teu Bitcoin està en una borsa, estàs fent servir una cartera custodial.",
+	"lightning_s3_c3": "Les carteres custodials poden semblar còmodes, però el custodi té la capacitat tècnica de robar tots els fons dels usuaris en qualsevol moment.",
+	"lightning_s3_c4": "Algunes persones prefereixen carteres Lightning custodials per a petites quantitats de bitcoin a causa de la seva facilitat d'ús. Només recorda: no les teves claus, no les teves monedes!",
+	"lightning_question_2": "TRIA LA TEVA CARTERA",
+	"lightning_s4_c1": "Amb tot això en ment, ara pots triar la cartera Lightning que tingui l'equilibri de compromisos adequat per a tu.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Moltes funcionalitats",
+	"lightning_mobile_app": "Aplicació mòbil",
+	"lightning_free": "100% gratuïta",
+	"lightning_merchants": "Ideal per a comerciants",
+	"lightning_starter": "Excel·lent cartera per principiants",
+	"lightning_browser": "Basada en navegador",
+	"lightning_custodial": "Cartera totalment custodial",
+	"lightning_cta_hardware": "Busques la nostra Guia de Carteres de Maquinari Bitcoin?"
+}

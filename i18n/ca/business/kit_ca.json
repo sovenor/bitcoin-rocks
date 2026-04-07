@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"bitcoin_business_kit": "Kit Empresarial Bitcoin",
+	"kit_header": "IMPRIMEIX EL TEU PROPI KIT EMPRESARIAL BITCOIN",
+	"kit_request": "SOL·LICITA EL TEU KIT GRATUÏT",
+	"kit_request_details": "Cada Kit Empresarial Bitcoin inclou dos fulletons per facilitar que un negoci local accepti Bitcoin.",
+	"kit_country_global_print": "Global — Imprimeix els meus propis kits",
+	"kit_enter_address": "Introdueix la teva adreça postal i t'enviarem un Kit Empresarial Bitcoin gratuït en un sobre blanc pla. Les dades d'adreça s'eliminen un cop enviat el kit.",
+	"kit_print_details": "Pots participar imprimint els teus propis fulletons, visquis on visquis! També pots enviar negocis al nostre kit empresarial digital per evitar imprimir res.",
+	"kit_view_files": "VEURE FITXERS",
+	"kit_digital_kit": "KIT DIGITAL",
+	"kit_resources": "CADA KIT ENLLAÇA A AQUESTS RECURSOS GRATUÏTS"
+}

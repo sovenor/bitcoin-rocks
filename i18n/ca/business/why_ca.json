@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Descobreix per què Bitcoin és bo per als negocis",
+	"why_header": "BITCOIN ÉS BO PER ALS NEGOCIS",
+	"why_good_for_you": "BITCOIN TAMBÉ ÉS BO PER A TU!",
+	"why_learn_more_lowercase": "Més informació.",
+	"why_s1": "Bitcoin no té inflació",
+	"why_s1_c1": "La inflació passa quan es creen o imprimeixen més diners del no-res. Això fa que els teus diners valguin menys amb el temps.",
+	"why_s1_c2": "Bitcoin té una oferta fixa, la qual cosa significa que ningú pot imprimir més Bitcoin.",
+	"why_s2": "Bitcoin no té pànics bancaris",
+	"why_s2_c1": "Diversos bancs als EUA han col·lapsat en els últims anys a causa de pànics bancaris.",
+	"why_s2_c2": "En lloc de simplement guardar els teus diners, els bancs inverteixen i presten els teus diners. Si aquestes inversions no van bé, no tenen prou per tornar-te'ls.",
+	"why_s2_c3": "I el fons d'assegurança de la FDIC només té 1$ per cada 100$ que assegura.",
+	"why_s3": "Bitcoin no necessita permís",
+	"why_s3_c1": "A diferència de les xarxes financeres tradicionals, Bitcoin no requereix permís per ser utilitzat.",
+	"why_s3_c2": "Això significa que ningú et pot impedir fer servir Bitcoin per cap motiu. És la primera xarxa financera que pots utilitzar sense por a la censura o confiscació.",
+	"why_s4": "Bitcoin està construint un món millor",
+	"why_s4_c1": "Bitcoin és una tecnologia mal entesa que està construint un món millor.",
+	"why_s4_c2": "Bitcoin ha permès als activistes de drets humans lluitar per la llibertat, ha reduït les emissions globals de metà, ha salvat parcs nacionals i molt més."
+}

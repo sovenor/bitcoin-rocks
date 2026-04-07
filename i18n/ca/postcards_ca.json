@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"free_bitcoin_postcards": "Postals de Bitcoin gratuïtes de bitcoin.rocks",
+	"postcards_description": "Aconsegueix un paquet de postals de Bitcoin gratuït i comparteix Bitcoin amb algú que coneixes.",
+	"postcards_header": "PROGRAMA DE POSTALS TANCAT",
+	"postcards_program_closed_message": "El nostre programa gratuït de postals de Bitcoin ha finalitzat. Gràcies a tothom que va participar en la difusió de l'educació sobre Bitcoin per correu!",
+	"postcards_sticker_alternative_header": "ACONSEGUEIX ADHESIUS DE BITCOIN GRATUÏTS EN LLOC D'AIXÒ",
+	"postcards_sticker_alternative_message": "Continua difonent el coneixement de Bitcoin amb el nostre programa gratuït d'adhesius! Els nostres adhesius de Bitcoin són perfectes per compartir en espais públics i inclouen codis QR que enllaçen a contingut educatiu.",
+	"postcards_sticker_cta": "ACONSEGUEIX ADHESIUS GRATUÏTS",
+	"postcards_step_2": "COM EREN LES POSTALS",
+	"postcards_instructions_4": "Vam crear aquestes postals per facilitar-te la presentació de Bitcoin a algú que coneixes! Només afegeix una adreça i un segell i llença la teva postal al correu.",
+	"postcards_instructions_5": "La nostra missió és accelerar l'adopció de Bitcoin. Pots ajudar aconseguint adhesius gratuïts i posant-los en espais públics!",
+	"postcards_instructions_6": "Tots coneixem algunes persones que es beneficiarien d'aprendre més sobre Bitcoin. Comparteix adhesius de Bitcoin amb ells avui!"
+}

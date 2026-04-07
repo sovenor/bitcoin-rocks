@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"how_to_accept_bitcoin_payments": "Com acceptar pagaments amb Bitcoin",
+	"wallets_header": "ACONSEGUEIX UNA CARTERA BITCOIN GRATUÏTA PER ACCEPTAR PAGAMENTS AMB BITCOIN",
+	"wallets_intro_1": "Totes les carteres Bitcoin són interoperables, de manera que els teus clients et poden pagar amb Bitcoin sense importar quina cartera facin servir.",
+	"wallets_intro_2": "Carteres exclusivament Bitcoin:",
+	"wallets_intro_3": "Aquestes són carteres purament de Bitcoin que desbloquegen tots els beneficis de Bitcoin: sense intermediaris, comissions baixes i sense devolucions de càrrec ni frau.",
+	"wallets_intro_4": "Carteres híbrides:",
+	"wallets_intro_5": "Aquestes et permeten canviar qualsevol porció del teu Bitcoin per dòlars tan aviat com un client et pagui. Les comissions segueixen sent menors que les de les targetes de crèdit, però més altes que les de pagaments purament amb Bitcoin.",
+	"wallets_intro_6": "Ambdues són excel·lents maneres d'acceptar Bitcoin. La cartera específica que facis servir dependrà de la mida i el tipus del teu negoci.",
+	"wallets_choice_sole": "carteres per a negocis de propietat individual",
+	"wallets_choice_multiple": "carteres per a negocis amb diversos empleats",
+	"wallets_choice_online": "carteres per a negocis en línia",
+	"wallets_choice_invoice": "carteres per a negocis basats en factures",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Pots acceptar pagaments amb Bitcoin amb el teu terminal Square PoS existent o la integració de la botiga en línia. Mai ha estat tan fàcil acceptar pagaments amb Bitcoin.",
+	"wallets_feature_bitcoin_only": "Cartera exclusivament Bitcoin",
+	"wallets_feature_no_info": "No es requereix informació",
+	"wallets_feature_in_person": "Només pagaments en persona",
+	"wallets_feature_settles_bitcoin": "Liquida 100% en Bitcoin",
+	"wallets_feature_hybrid": "Cartera híbrida",
+	"wallets_feature_info": "Es requereix informació del negoci",
+	"wallets_feature_in_person_online": "Pagaments en persona i en línia",
+	"wallets_feature_settles_both": "Liquida en Bitcoin i dòlars",
+	"wallets_feature_multiple_employees": "Suport per a múltiples empleats (BPTs)",
+	"wallets_feature_self_hosted": "Autoallotjat = 0% comissions",
+	"wallets_feature_online_store": "Integració amb botiga en línia",
+	"wallets_feature_invoicing": "Programari de facturació gratuït",
+	"wallets_get_wallet": "OBTENIR CARTERA"
+}

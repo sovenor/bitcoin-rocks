@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"postcard_success_1": "Rebràs les teves postals en 1-2 setmanes.",
+	"postcard_success_2": "Gràcies per ajudar a accelerar l'adopció de Bitcoin enviant aquestes postals a algú que coneixes!"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "ca"
+	},
+	"sticker_success_1": "Rebràs els teus adhesius en 2-4 setmanes. Mentrestant, intenta pensar en un bon lloc per posar els teus adhesius!",
+	"sticker_success_2": "Bons llocs per als adhesius són:",
+	"sticker_success_list_1": "en llocs públics on la gent els veurà",
+	"sticker_success_list_2": "en llocs on és poc probable que s'eliminin ràpidament (els adhesius no causen danys permanents)",
+	"sticker_success_list_3": "en superfícies on s'enganxaran fàcilment (metall, plàstic, vidre)",
+	"sticker_success_list_4": "NO en propietat privada, cobrint senyalització, en caixers automàtics o gasolineres",
+	"sticker_success_3": "Vols veure on posa la gent els seus adhesius?",
+	"sticker_success_flyers_bar_new": "NOU!",
+	"sticker_success_flyers_bar_cta": "Imprimeix i penja fulletons de Bitcoin →"
+}
