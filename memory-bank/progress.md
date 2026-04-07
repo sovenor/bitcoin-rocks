@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Croatian (hr) Language Added — April 2026
+- Added Croatian (Hrvatski) as the 38th language
+- Created 90+ translation files in `i18n/hr/` mirroring the English directory structure
+- Translation scripts in `scripts/croatian/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (37→38)
+- Ran SEO content injection and translation audit (all clean — only legitimate proper noun matches)
+- Language code: `hr`
+- Display name: `Hrvatski` (placed alphabetically between Français and Indonesia in language switcher)
+
 ## Catalan (ca) Language Added — April 2026
 - Added Catalan (Català) as the 37th language
 - Created 90+ translation files in `i18n/ca/` mirroring the English directory structure

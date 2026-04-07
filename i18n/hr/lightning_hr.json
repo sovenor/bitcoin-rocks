@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"bitcoin_lightning_wallet_guide": "Vodič za Bitcoin Lightning novčanike",
+	"lightning_description": "Lightning novčanici vam omogućuju brzo i jeftino slanje Bitcoina uz očuvanje vaše osobne suverenosti.",
+	"lightning_header": "VODIČ ZA LIGHTNING NOVČANIKE",
+	"lightning_s1_c1": "Lightning vam omogućuje brzo i jeftino slanje Bitcoin plaćanja.",
+	"lightning_s1_c2": "Važno je znati da korištenje Lightninga dolazi s kompromisima. U zamjenu za brža, jeftinija Bitcoin plaćanja, često žrtvujete nešto sigurnosti.",
+	"lightning_s1_c3": "Općenito, Lightning bi se trebao koristiti samo s malim iznosima bitcoina. Velike iznose bitcoina trebali biste uvijek pohranjivati samo u hardverski novčanik.",
+	"lightning_s1_c4": "Pogledajte naš vodič za hardverske novčanike za više informacija.",
+	"lightning_s1_c5": "Nisu svi Lightning novčanici isti. Možete odrediti koji novčanik ima pravu ravnotežu kompromisa za vas postavljanjem jednog jednostavnog pitanja:",
+	"lightning_question_1": "KOJA RAVNOTEŽA KOMPROMISA JE PRAVA ZA MENE?",
+	"lightning_s2_c1": "Jedna od inovacija Bitcoina je mogućnost pohrane bez oslanjanja na skrbnika, poput banke. Novčanici u samoskrbništvu otključavaju punu moć Bitcoina.",
+	"lightning_s2_c2": "S novčanikom u samoskrbništvu, vi ste jedini s mogućnošću trošenja ili prijenosa svog novca. Nitko vas ne može spriječiti, cenzurirati ili krasti od vas kada koristite novčanik u samoskrbništvu. Ovi se također nazivaju nekustodijalni novčanici.",
+	"lightning_s2_c3": "Najsuvereniji način korištenja Lightninga je pokretanje vlastitog čvora.",
+	"lightning_s2_c4": "Ovaj vodič fokusiran je na jednostavne Lightning novčanike koji ne zahtijevaju vlastiti čvor.",
+	"lightning_s2_c5": "Važno je znati da čak i korištenjem nekustodijalnog Lightning novčanika, još uvijek vjerujete tvorcu novčanika da neće objaviti zlonamjerno ažuriranje aplikacije i ukrasti vaša sredstva.",
+	"lightning_s3_c1": "Kustodijalni novčanici su novčanici u kojima nemate kontrolu nad svojim novcem.",
+	"lightning_s3_c2": "Ti novčanici su sličniji bankarskom sustavu gdje morate vjerovati trećoj strani da vam daje pristup vašem novcu. Ako je vaš Bitcoin na burzi, koristite kustodijalni novčanik.",
+	"lightning_s3_c3": "Kustodijalni novčanici mogu djelovati praktično, ali skrbnik ima tehničku mogućnost krasti sva korisnička sredstva u bilo kojem trenutku.",
+	"lightning_s3_c4": "Neki ljudi preferiraju kustodijalne Lightning novčanike za male iznose bitcoina zbog njihove jednostavnosti korištenja. Samo zapamtite: ne vaši ključevi, ne vaše kovanice!",
+	"lightning_question_2": "ODABERITE SVOJ NOVČANIK",
+	"lightning_s4_c1": "Imajući sve ovo na umu, sada možete odabrati lightning novčanik koji ima pravu ravnotežu kompromisa za vas.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Mnogo značajki",
+	"lightning_mobile_app": "Mobilna aplikacija",
+	"lightning_free": "100% besplatan",
+	"lightning_merchants": "Sjajan za trgovce",
+	"lightning_starter": "Sjajan početni novčanik",
+	"lightning_browser": "Baziran na pregledniku",
+	"lightning_custodial": "Potpuno kustodijalni novčanik",
+	"lightning_cta_hardware": "Tražite naš vodič za Bitcoin hardverske novčanike?"
+}

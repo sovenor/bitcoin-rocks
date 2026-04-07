@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin je dobar za poslovanje",
+	"biz_header": "BITCOIN JE DOBAR ZA POSLOVANJE",
+	"biz_s1": "Niske naknade bez minimuma",
+	"biz_s1_c1": "Bitcoin vam omogućuje primanje plaćanja izravno od vaših kupaca, slično gotovini. Bitcoin mreža funkcionira bez posrednika poput banaka i tvrtki za kreditne kartice koji naplaćuju visoke naknade.",
+	"biz_s2": "Trenutačno poravnanje",
+	"biz_s2_c1": "Baš poput gotovine, Bitcoin plaćanja se poravnavaju trenutačno. Ne morate čekati da vam tvrtka za kreditne kartice ili banka isplati novac. Umjesto toga, odmah dobivate pristup svom novcu.",
+	"biz_s3": "Bez povrata sredstava ili prijevara",
+	"biz_s3_c1": "Budući da se Bitcoin plaćanja odvijaju izravno između vas i vaših kupaca, nitko vam ne može vratiti novac putem povrata sredstava.",
+	"biz_s3_c2": "Krivotvoreni Bitcoin ne može se slati putem Bitcoin mreže, što znači da se nikada ne morate brinuti o prijevarnim transakcijama koje bi mogle koštati vaše poslovanje.",
+	"biz_s4": "Privucite više kupaca",
+	"biz_s4_c1": "Milijuni ljudi posjeduju Bitcoin i žele ga potrošiti na mjestima koja ga prihvaćaju.",
+	"biz_s4_c2": "Jednostavnim prihvaćanjem Bitcoina, vaše poslovanje može biti navedeno na kartama Bitcoin trgovaca i besplatno doći do novih kupaca.",
+	"biz_s4_c3": "Prihvaćanje Bitcoina je 100% besplatno. Nema ugovora ni skrivenih naknada."
+}

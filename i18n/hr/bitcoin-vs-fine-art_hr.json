@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Umjetnine",
+	"fine_art_header": "RAZLIKA IZMEĐU",
+	"fine_art_header_2": "BITCOINA",
+	"fine_art_header_3": "I",
+	"fine_art_header_4": "UMJETNINA",
+	"fine_art_intro_1": "Umjetnine su bile luksuzna investicija stoljećima i često se smatraju sredstvom očuvanja vrijednosti među bogatim kolekcionarima.",
+	"fine_art_intro_2": "Bitcoin je digitalni novac koji mnogi također smatraju sredstvom očuvanja vrijednosti i investicijom.",
+	"fine_art_intro_3": "Ali kako se fizička umjetnička djela razlikuju od digitalnog novca poput Bitcoina? Pogledajmo razlike između dva oblika ulaganja: Bitcoina i umjetnina.",
+	"fine_art": "UMJETNINE",
+	"fine_art_point_1": "Svaki komad je jedinstven",
+	"fine_art_point_2": "Zahtijeva specijalizirane aukcije",
+	"fine_art_point_3": "Visoke aukcijske naknade",
+	"fine_art_point_4": "Ne može se dijeliti",
+	"fine_art_point_5": "Zahtijeva stručnu autentifikaciju",
+	"fine_art_point_6": "Ranjivo na oštećenja",
+	"fine_art_point_7": "Ograničeno na bogate kolekcionare",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Savršeno zamjenjiv",
+	"bitcoin_point_2": "Globalno tržište 24/7",
+	"bitcoin_point_3": "Niske naknade za transakcije",
+	"bitcoin_point_4": "Lako djeljiv",
+	"bitcoin_point_5": "Kriptografski provjerljiv",
+	"bitcoin_point_6": "Teško ga je uništiti",
+	"bitcoin_point_7": "Pristupačan svima",
+	"point_1_summary_1": "Bitcoin je savršeno zamjenjiv, što znači da je svaki bitcoin identičan i zamjenjiv - jedan bitcoin jednak je jednom bitcoinu bilo gdje u svijetu. Umjetnine su po prirodi nezamjenjive, svako djelo jedinstveno je po svojoj kreaciji, povijesti, stanju i porijeklu, što čini izravne usporedbe i vrednovanja iznimno teškima.",
+	"point_2_summary_1": "Bitcoin se trguje na globalnom tržištu 24/7 gdje bilo tko s pristupom internetu može kupiti ili prodati trenutačno. Umjetnine zahtijevaju specijalizirane aukcijske kuće poput Sotheby's ili Christie's, privatne trgovce ili ekskluzivne galerije. Prodaja može trajati mjesecima za organiziranje i dovršavanje, s ograničenim pristupom tržištu i nepravilnim prilikama za trgovanje.",
+	"point_3_summary_1": "Kupnja ili prodaja bitcoina obično košta manje od 1% u naknadama, često i mnogo manje. Prodaja umjetnina uključuje znatne troškove uključujući kupčevu premiju (10-25%), prodavateljevu proviziju (10-15%), osiguranje, transport, pohranu i naknade za autentifikaciju. Ovi kombinirani troškovi mogu lako premašiti 30-40% vrijednosti umjetnine u jednoj transakciji.",
+	"point_4_summary_1": "Bitcoin se može podijeliti na 100 milijuna manjih jedinica zvanih satoshi, čineći ga savršenim za transakcije bilo koje veličine od mikrotransakcija do velikih kupnji. Umjetnine se ne mogu dijeliti - ne možete posjedovati djelić slike ili prodati samo dio skulpture. Ova nedjeljivost ograničava fleksibilnost ulaganja i mogućnosti likvidnosti.",
+	"point_5_summary_1": "Vlasništvo i autentičnost Bitcoina mogu se kriptografski provjeriti na blockchainu od strane bilo koga s osnovnim tehničkim znanjem. Umjetnine zahtijevaju skupu stručnu autentifikaciju, istraživanje porijekla i znanstvenu analizu. Čak i uz stručnu verifikaciju, krivotvorine redovito obmanjuju svijet umjetnosti, a sporovi o autentifikaciji mogu uništiti vrijednost umjetnine preko noći. Bitcoin se, s druge strane, ne može krivotvoriti ili lažirati.",
+	"point_6_summary_1": "Bitcoin, kada je pravilno sigurnosno kopiran, ne može biti uništen poplavama, požarima, potresima, uraganima, krađom ili drugim katastrofama. Umjetnine su ranjive na sve oblike fizičkog uništenja i propadanja. Čak i uz skupu klimatski kontroliranu pohranu i sveobuhvatno osiguranje, umjetnička djela mogu biti oštećena okolišnim čimbenicima, nesrećama ili prirodnim katastrofama, potencijalno gubeći svu vrijednost.",
+	"point_7_summary_1": "Bitcoin može kupiti i prodati bilo tko s pristupom internetu i malom količinom novca za ulaganje. Ulaganje u umjetnine uglavnom je ograničeno na bogate kolekcionare zbog visokih minimalnih cijena, ekskluzivnog pristupa aukcijama, zahtjeva za pohranu, troškova osiguranja i specijaliziranog znanja potrebnog za uspješno snalaženje na tržištu umjetnina."
+}

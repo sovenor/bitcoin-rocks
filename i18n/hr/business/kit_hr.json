@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"bitcoin_business_kit": "Bitcoin poslovni paket",
+	"kit_header": "ISPIŠITE VLASTITI BITCOIN POSLOVNI PAKET",
+	"kit_request": "ZATRAŽITE BESPLATNI PAKET",
+	"kit_request_details": "Svaki Bitcoin poslovni paket sadrži dva letka koji olakšavaju uvjeravanje lokalnog poduzeća da prihvati Bitcoin.",
+	"kit_country_global_print": "Globalno — Ispisat ću vlastite pakete",
+	"kit_enter_address": "Unesite svoju poštansku adresu i poslat ćemo vam besplatni Bitcoin poslovni paket u običnoj bijeloj omotnici. Podaci o adresi se brišu nakon slanja paketa.",
+	"kit_print_details": "Možete sudjelovati ispisom vlastitih letaka, bez obzira gdje živite! Također možete uputiti tvrtke na naš digitalni poslovni paket kako biste izbjegli ispis.",
+	"kit_view_files": "POGLEDAJ DATOTEKE",
+	"kit_digital_kit": "DIGITALNI PAKET",
+	"kit_resources": "SVAKI PAKET UPUĆUJE NA OVE BESPLATNE RESURSE"
+}

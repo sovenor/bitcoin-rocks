@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"404_title": "Greška 404 | Stranica nije pronađena",
+	"404_message": "OVA POKVARENA STRANICA NIJE COOL",
+	"404_home": "NATRAG NA POČETNU"
+}

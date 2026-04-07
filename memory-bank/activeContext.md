@@ -140,6 +140,13 @@
 
 ## Current Work Focus
 
+### Croatian (hr) Language — Completed April 7, 2026
+- Added Croatian (Hrvatski) as the 38th language
+- Created 90+ translation files in `i18n/hr/` with 8 scripts in `scripts/croatian/`
+- Registered in language.js, index.html schema, llms.txt, llms-full.txt, all about files updated (37→38)
+
+### Previous Work Focus
+
 ### Bulgarian Sticker Files Translation (Completed Mar 31, 2026)
 - **Status**: ✅ Complete
 - **What**: Translated all 44 remaining Bulgarian sticker-files i18n JSON pages that were still in English.

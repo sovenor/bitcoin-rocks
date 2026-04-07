@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"free_bitcoin_stickers": "Besplatne Bitcoin naljepnice od bitcoin.rocks",
+	"stickers_description": "Stavite Bitcoin naljepnicu na javno mjesto da upoznate ljude oko sebe s Bitcoinom.",
+	"stickers_header": "BESPLATNE BITCOIN NALJEPNICE",
+	"stickers_choose_header": "ODABERITE SVOJ PAKET NALJEPNICA",
+	"stickers_choose_c1": "Naša misija je pomoći vam da više ljudi upoznate s Bitcoinom stavljanjem Bitcoin naljepnica na javna mjesta. Sve naše naljepnice imaju QR kodove koji vode na edukativne stranice o",
+	"stickers_choose_c2": "Bitcoinu",
+	"stickers_choose_c3": "inflaciji",
+	"stickers_choose_c4": "Odaberite svoj paket naljepnica ispod",
+	"stickers_text_pack": "TEKSTUALNI PAKET",
+	"stickers_signs_pack": "PAKET ZNAKOVA",
+	"stickers_instructions_1": "Unesite svoju poštansku adresu i poslat ćemo vam besplatni paket Bitcoin naljepnica poštom! Vaše naljepnice bit će isporučene u običnoj bijeloj omotnici.",
+	"stickers_instructions_2": "Podaci o adresi brišu se nakon slanja besplatnih naljepnica.",
+	"stickers_share_header": "PODIJELITE SVOJA MJESTA S NALJEPNICAMA",
+	"stickers_share_c1": "Podijelite svoja mjesta s naljepnicama s nama na Nostru i pogledajte gdje drugi ljudi stavljaju svoje naljepnice.",
+	"stickers_btn_share_on_nostr": "PODIJELI NA NOSTRU",
+	"stickers_btn_what_is_nostr": "ŠTO JE NOSTR?",
+	"stickers_flyers_link_before": "Dok ste već tu, ispišite i zalijepite vlastite ",
+	"stickers_flyers_link_text": "Bitcoin letke",
+	"stickers_flyers_link_after": " kako biste pomogli upoznati još više ljudi s Bitcoinom.",
+	"stickers_country_global_print": "Globalno — Ispisat ću vlastite naljepnice",
+	"stickers_country_global_order": "Globalno — Naruči u velikim količinama",
+	"placeholder_name_optional": "Ime (neobavezno)",
+	"placeholder_address_line_1": "Adresni red 1",
+	"placeholder_address_line_2": "Adresni red 2 (neobavezno)",
+	"placeholder_city": "Grad",
+	"placeholder_state": "Država",
+	"placeholder_province": "Pokrajina",
+	"placeholder_zip_code": "Poštanski broj",
+	"placeholder_postal_code": "Poštanski broj",
+	"placeholder_language": "Jezik",
+	"placeholder_which_stickers": "Koje naljepnice?",
+	"placeholder_email_optional": "Unesite e-mail za obavijest (neobavezno)"
+}

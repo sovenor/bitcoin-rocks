@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "hr"
+	},
+	"how_to_accept_bitcoin_payments": "Kako prihvaćati Bitcoin plaćanja",
+	"wallets_header": "NABAVITE BESPLATAN BITCOIN NOVČANIK ZA PRIHVAĆANJE PLAĆANJA",
+	"wallets_intro_1": "Svi Bitcoin novčanici su međusobno kompatibilni, tako da vam kupci mogu platiti Bitcoinom bez obzira na to koji novčanik koriste.",
+	"wallets_intro_2": "Čisto Bitcoin novčanici:",
+	"wallets_intro_3": "To su čisti Bitcoin novčanici koji otključavaju pune prednosti Bitcoina: bez posrednika, niske naknade i bez povrata sredstava ili prijevara.",
+	"wallets_intro_4": "Hibridni novčanici:",
+	"wallets_intro_5": "Oni vam omogućuju zamjenu bilo kojeg dijela Bitcoina za dolare čim vam kupac plati. Naknade su i dalje niže od plaćanja kreditnim karticama, ali veće od čistih Bitcoin plaćanja.",
+	"wallets_intro_6": "Obje vrste su sjajni načini prihvaćanja Bitcoina. Konkretni novčanik koji ćete koristiti ovisit će o veličini i vrsti vašeg poslovanja.",
+	"wallets_choice_sole": "novčanici za individualno vođena poslovanja",
+	"wallets_choice_multiple": "novčanici za poslovanja s više zaposlenika",
+	"wallets_choice_online": "novčanici za online poslovanja",
+	"wallets_choice_invoice": "novčanici za poslovanja s fakturiranjem",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Možete prihvaćati Bitcoin plaćanja sa svojim postojećim Square PoS terminalom ili integracijom web trgovine. Nikada nije bilo lakše prihvaćati Bitcoin plaćanja.",
+	"wallets_feature_bitcoin_only": "Čisto Bitcoin novčanik",
+	"wallets_feature_no_info": "Nisu potrebni nikakvi podaci",
+	"wallets_feature_in_person": "Samo osobna plaćanja",
+	"wallets_feature_settles_bitcoin": "Poravnanje 100% u Bitcoinu",
+	"wallets_feature_hybrid": "Hibridni novčanik",
+	"wallets_feature_info": "Potrebni poslovni podaci",
+	"wallets_feature_in_person_online": "Osobna i online plaćanja",
+	"wallets_feature_settles_both": "Poravnanje u Bitcoinu i dolarima",
+	"wallets_feature_multiple_employees": "Podrška za više zaposlenika (BPT)",
+	"wallets_feature_self_hosted": "Vlastiti hosting = 0% naknada",
+	"wallets_feature_online_store": "Integracija web trgovine",
+	"wallets_feature_invoicing": "Besplatni softver za fakturiranje",
+	"wallets_get_wallet": "NABAVI NOVČANIK"
+}
