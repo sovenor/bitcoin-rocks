@@ -1,6 +1,14 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Catalan (ca) Language Added — April 7, 2026
+## Latest: Danish (da) Language Added — April 7, 2026
+- Added Danish (Dansk) as the 39th language
+- 90+ translation files created in `i18n/da/`
+- 8 translation scripts in `scripts/danish/`
+- All registration steps completed (language.js v1.2.8, index.html schema, llms.txt, llms-full.txt, about page count 38→39, SEO injection)
+- Dansk placed alphabetically between Chicheŵa and Deutsch in language.js
+- Audit passed — only legitimate shared-word matches (inflation, EURO, Standard, Type, Fold, CROWDFUNDING, etc.)
+
+## Catalan (ca) Language Added — April 7, 2026
 - Added Catalan (Català) as the 37th language
 - 90+ translation files created in `i18n/ca/`
 - 8 translation scripts in `scripts/catalan/`

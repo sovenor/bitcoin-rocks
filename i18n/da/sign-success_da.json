@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "da"
+	},
+	"sign_success_1": "Du vil modtage dine skilte inden for 1 til 2 uger. I mellemtiden kan du tænke på et godt sted til dine skilte!",
+	"sign_success_3": "Vil du se, hvor andre sætter deres skilte op?",
+	"signs_share_header": "DEL DINE SKILTE-STEDER",
+	"signs_share_c1": "Del et billede af dit skilte-sted med os på Nostr, så sender vi sats til dig! Sats er brøkdele af en bitcoin.",
+	"signs_btn_share_on_nostr": "DEL PÅ NOSTR",
+	"signs_btn_what_is_nostr": "HVAD ER NOSTR?"
+}

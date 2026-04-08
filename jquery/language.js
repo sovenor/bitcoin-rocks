@@ -20,6 +20,7 @@ $(function() {
     { code: 'ca', name: 'Català' },
     { code: 'cs', name: 'Čeština' },
     { code: 'ny', name: 'Chicheŵa' },
+    { code: 'da', name: 'Dansk' },
     { code: 'de', name: 'Deutsch' },
     { code: 'es', name: 'Español' },
     { code: 'eu', name: 'Euskara' },

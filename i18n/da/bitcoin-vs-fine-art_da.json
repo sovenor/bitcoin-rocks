@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "da"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs kunst",
+	"fine_art_header": "FORSKELLEN MELLEM",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "OG",
+	"fine_art_header_4": "KUNST",
+	"fine_art_intro_1": "Kunst har været en luksuriøs investering i århundreder og betragtes ofte som et værdiopbevaringsmiddel af velhavende samlere.",
+	"fine_art_intro_2": "Bitcoin er digitale penge, der også af mange betragtes som et værdiopbevaringsmiddel og investering.",
+	"fine_art_intro_3": "Men hvordan adskiller fysisk kunstvæk sig fra digitale penge som Bitcoin? Lad os se på forskellene mellem to former for investering: Bitcoin og kunst.",
+	"fine_art": "KUNST",
+	"fine_art_point_1": "Hvert stykke er unikt",
+	"fine_art_point_2": "Kræver specialiserede auktioner",
+	"fine_art_point_3": "Høje auktionsgebyrer",
+	"fine_art_point_4": "Kan ikke deles",
+	"fine_art_point_5": "Kræver ekspertautentificering",
+	"fine_art_point_6": "Sårbar over for skade",
+	"fine_art_point_7": "Begrænset til velhavende samlere",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfekt fungibelt",
+	"bitcoin_point_2": "24/7 globalt marked",
+	"bitcoin_point_3": "Lave transaktionsgebyrer",
+	"bitcoin_point_4": "Nemt delbart",
+	"bitcoin_point_5": "Kryptografisk verificerbart",
+	"bitcoin_point_6": "Svært at ødelægge",
+	"bitcoin_point_7": "Tilgængeligt for alle",
+	"point_1_summary_1": "Bitcoin er perfekt fungibelt, hvilket betyder, at hver bitcoin er identisk og udskiftelig – én bitcoin er lig med én bitcoin hvor som helst i verden. Kunst er ikke-fungibel af natur, med hvert stykke unikt i sin skabelse, historie, tilstand og proveniens, hvilket gør direkte sammenligninger og værdiansættelser ekstremt vanskelige.",
+	"point_2_summary_1": "Bitcoin handles på et globalt 24/7-marked, hvor enhver med internetadgang kan købe eller sælge øjeblikkeligt. Kunst kræver specialiserede auktionshuse som Sotheby's eller Christie's, private forhandlere eller eksklusive gallerier. Salg kan tage måneder at arrangere og gennemføre, med begrænset markedsadgang og uregelmæssige handelsmuligheder.",
+	"point_3_summary_1": "At købe eller sælge bitcoin koster typisk mindre end 1% i gebyrer, ofte meget mindre. Kunstsalg involverer betydelige omkostninger inklusive køberpræmier (10-25%), sælgerprovision (10-15%), forsikring, transport, opbevaring og autentificeringsgebyrer. Disse kombinerede omkostninger kan nemt overstige 30-40% af kunstværkets værdi i en enkelt transaktion.",
+	"point_4_summary_1": "Bitcoin kan deles i 100 millioner mindre enheder kaldet satoshis, hvilket gør det perfekt til transaktioner af enhver størrelse fra mikrobetalinger til store køb. Kunst kan ikke deles – du kan ikke eje en brøkdel af et maleri eller sælge kun en del af en skulptur. Denne udelelighed begrænser investeringsfleksibilitet og likviditetsmuligheder.",
+	"point_5_summary_1": "Bitcoin-ejerskab og ægthed kan kryptografisk verificeres på blockchainen af enhver med grundlæggende teknisk viden. Kunst kræver dyr ekspertautentificering, proveniensforskning og videnskabelig analyse. Selv med ekspertverificering narrer forfalskninger regelmæssigt kunstverdenen, og autentificeringstvister kan ødelægge et kunstværks værdi over natten. Bitcoin kan derimod ikke forfalskes.",
+	"point_6_summary_1": "Bitcoin kan, når det er sikkerhedskopieret korrekt, ikke ødelægges af oversvømmelser, brande, jordskælv, orkaner, tyveri eller andre katastrofer. Kunst er sårbar over for alle former for fysisk ødelæggelse og forringelse. Selv med dyr klimakontrolleret opbevaring og omfattende forsikring kan kunstværker blive beskadiget af miljøfaktorer, ulykker eller naturkatastrofer og potentielt miste al værdi.",
+	"point_7_summary_1": "Bitcoin kan købes og sælges af enhver med internetadgang og et lille beløb at investere. Kunstinvestering er i stor grad begrænset til velhavende samlere på grund af høje minimumspriser, eksklusiv auktionstilgang, opbevaringskrav, forsikringsomkostninger og den specialiserede viden, der kræves for at navigere kunstmarkedet med succes."
+}

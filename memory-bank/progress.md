@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Danish (da) Language Added — April 2026
+- Added Danish (Dansk) as the 39th language
+- Created 90+ translation files in `i18n/da/` mirroring the English directory structure
+- Translation scripts in `scripts/danish/` (8 scripts broken by category)
+- Updated: language.js (v1.2.8), index.html schema, llms.txt, llms-full.txt, all about_xx.json files (38→39)
+- Ran SEO content injection and translation audit (all clean — only legitimate shared-word matches like "inflation", "EURO", "Standard")
+- Language code: `da`
+- Display name: `Dansk` (placed alphabetically between Chicheŵa and Deutsch in language switcher)
+
 ## Croatian (hr) Language Added — April 2026
 - Added Croatian (Hrvatski) as the 38th language
 - Created 90+ translation files in `i18n/hr/` mirroring the English directory structure

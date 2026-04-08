@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "da"
+	},
+	"free_bitcoin_stickers": "Gratis Bitcoin-klistermærker fra bitcoin.rocks",
+	"stickers_description": "Sæt et bitcoin-klistermærke op offentligt for at orange-pille dem omkring dig.",
+	"stickers_header": "GRATIS BITCOIN-KLISTERMÆRKER",
+	"stickers_choose_header": "VÆLG DIN KLISTERMÆRKEPAKKE",
+	"stickers_choose_c1": "Vores mission er at hjælpe dig med at orange-pille flere mennesker ved at sætte Bitcoin-klistermærker op offentligt. Alle vores klistermærker har QR-koder, der linker til uddannelsessider om",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflation",
+	"stickers_choose_c4": "Vælg din klistermærkepakke nedenfor",
+	"stickers_text_pack": "TEKSTPAKKEN",
+	"stickers_signs_pack": "SKILTEPAKKEN",
+	"stickers_instructions_1": "Indtast din postadresse, så sender vi dig en gratis Bitcoin-klistermærkepakke med posten! Dine klistermærker sendes i en almindelig hvid kuvert.",
+	"stickers_instructions_2": "Adressedata slettes efter afsendelse af dine gratis klistermærker.",
+	"stickers_share_header": "DEL DINE KLISTERMÆRKESTEDER",
+	"stickers_share_c1": "Del dine klistermærkesteder med os på Nostr og se, hvor andre placerer deres klistermærker.",
+	"stickers_btn_share_on_nostr": "DEL PÅ NOSTR",
+	"stickers_btn_what_is_nostr": "HVAD ER NOSTR?",
+	"stickers_flyers_link_before": "Mens du er i gang, print og hæng dine egne ",
+	"stickers_flyers_link_text": "Bitcoin-flyers",
+	"stickers_flyers_link_after": " op for at orange-pille endnu flere mennesker.",
+	"stickers_country_global_print": "Globalt — Print mine egne klistermærker",
+	"stickers_country_global_order": "Globalt — Bestil i stor mængde",
+	"placeholder_name_optional": "Navn (valgfrit)",
+	"placeholder_address_line_1": "Adresselinje 1",
+	"placeholder_address_line_2": "Adresselinje 2 (valgfrit)",
+	"placeholder_city": "By",
+	"placeholder_state": "Stat",
+	"placeholder_province": "Provins",
+	"placeholder_zip_code": "Postnummer",
+	"placeholder_postal_code": "Postnummer",
+	"placeholder_language": "Sprog",
+	"placeholder_which_stickers": "Hvilke klistermærker?",
+	"placeholder_email_optional": "Indtast din e-mailadresse for at blive underrettet (valgfrit)"
+}
