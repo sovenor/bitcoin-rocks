@@ -22,6 +22,7 @@ $(function() {
     { code: 'ny', name: 'Chicheŵa' },
     { code: 'da', name: 'Dansk' },
     { code: 'de', name: 'Deutsch' },
+    { code: 'et', name: 'Eesti' },
     { code: 'es', name: 'Español' },
     { code: 'eu', name: 'Euskara' },
     { code: 'fil', name: 'Filipino' },

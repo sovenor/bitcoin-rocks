@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"sign_success_1": "Saate oma sildid kätte 1 kuni 2 nädala jooksul. Vahepeal mõelge heale kohale oma siltidele!",
+	"sign_success_3": "Kas soovite näha, kuhu teised oma silte panevad?",
+	"signs_share_header": "JAGAGE OMA SILDIASUKOHTI",
+	"signs_share_c1": "Jagage oma sildikoha pilti meiega Nostris ja me saadame teile satse! Satsid on bitcoini murdosad.",
+	"signs_btn_share_on_nostr": "JAGA NOSTRIS",
+	"signs_btn_what_is_nostr": "MIS ON NOSTR?"
+}

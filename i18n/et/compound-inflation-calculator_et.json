@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"cic_header": "LIITINFLATSIOONI KALKULAATOR",
+	"cic_description": "Kasutage seda liitinflatsiooni kalkulaatorit, et teada saada, kui palju peab teie palk tõusma, et inflatsiooniga sammu pidada.",
+	"what_can_i_do_about": "Mida saan teha",
+	"what_can_i_do_about_2": "inflatsiooni vastu?",
+	"cic_inflation_cta": "Loobu inflatsioonist Bitcoiniga"
+}

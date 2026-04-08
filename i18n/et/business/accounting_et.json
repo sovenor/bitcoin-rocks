@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"bitcoin_business_accounting_guide": "Guide til Bitcoin-regnskab for virksomheder",
+	"accounting_description": "Lær hvordan du korrekt fører regnskab for Bitcoin-betalinger i din virksomhed.",
+	"accounting_header": "GUIDE TIL BITCOIN-REGNSKAB",
+	"accounting_s1_c1": "At acceptere Bitcoin har mange fordele, som at modtage betalinger med lavere gebyrer og få flere kunder.",
+	"accounting_s1_c2": "Hvis du bruger en hybrid-wallet fra vores wallet-guide og automatisk sælger 100% af modtaget Bitcoin for dollar, behøver du ikke ændre noget i dit nuværende regnskab.",
+	"accounting_s1_c3": "Vis wallet-guide.",
+	"accounting_s1_c4": "Hvis du dog vælger at beholde en del af modtagne Bitcoin-betalinger som Bitcoin, skal du spore nogle ting for dit regnskab. Det kan virke overvældende ved første blik, men det er faktisk ret simpelt.",
+	"accounting_s1_c5": "Bemærk: denne guide er kun informativ og udgør ikke skatterådgivning.",
+	"accounting_s1_c6": "Hvis du har brug for skatterådgivning, anbefaler vi stærkt Satoshi Pacioli Accounting Services, et regnskabsfirma specialiseret i Bitcoin-regnskab.",
+	"accounting_s2": "SPOR DIN ANSKAFFELSESPRIS",
+	"accounting_s2_c1": "At spore anskaffelsesprisen bliver den største forskel mellem at føre regnskab i dollar og at føre regnskab i Bitcoin. Selvom du tænker på din virksomhed udelukkende i Bitcoin-termer, skal du rapportere dollarværdien for hver transaktion i din selvangivelse.",
+	"accounting_s2_c2": "Hvis du bruger QuickBooks, kan du gøre dette automatisk med Bitcoin Sync-tilføjelsen.",
+	"accounting_s2_c3": "Hvis du ikke bruger QuickBooks, anbefaler vi Satoshi Pacioli Accounting Services, et regnskabsfirma specialiseret i Bitcoin-regnskab.",
+	"accounting_s2_c4": "For manuel sporing skal du simpelthen registrere mængden af modtaget Bitcoin og dollarværdien af Bitcoin-transaktionen den dag.",
+	"accounting_s2_c5": "Du kan se den aktuelle dollarpris på Bitcoin her.",
+	"accounting_s2_c6": "Spor denne information i et Excel-regneark og aflever det til din revisor.",
+	"accounting_s2_c7": "Du kan også automatisk importere disse data til Excel.",
+	"accounting_s2_c8": "Du kan også se den historiske dollarpris på Bitcoin for tidligere dage, så du ikke behøver at gøre det hver dag.",
+	"accounting_s3": "BRUGE ELLER SÆLGE DIN BITCOIN",
+	"accounting_s3_c1": "Hvis du bruger en hybrid-wallet fra vores wallet-guide og automatisk sælger 100% af modtaget Bitcoin for dollar, behøver du ikke ændre noget i dit nuværende regnskab.",
+	"accounting_s3_c2": "Vis wallet-guide.",
+	"accounting_s3_c3": "Hvis du vælger at bruge eller sælge en del af modtaget Bitcoin på et senere tidspunkt, skal du blot tilføje prisen, du solgte den for, i Excel-regnearket, hvor du sporer anskaffelsesprisen.",
+	"accounting_s3_c4": "For eksempel, hvis du modtog Bitcoin til en værdi af 100 dollar den 1. januar og valgte at sælge eller bruge den den 1. februar til en ny værdi af 110 dollar, skal du registrere en kapitalgevinst på 10 dollar i regnskabet.",
+	"accounting_s3_c5": "Dette kan også fungere omvendt. For eksempel, hvis du modtog Bitcoin til en værdi af 100 dollar den 1. januar og valgte at sælge eller bruge den den 1. februar til en ny værdi af 90 dollar, skal du registrere et kapitaltab på 10 dollar i regnskabet.",
+	"accounting_s4": "JEG HAR BRUG FOR MERE HJÆLP",
+	"accounting_s4_c1": "Hvis du har brug for mere hjælp med at integrere Bitcoin i din virksomheds regnskab, anbefaler vi stærkt Satoshi Pacioli Accounting Services, et regnskabsfirma specialiseret i Bitcoin-regnskab.",
+	"accounting_s4_c2": "Lær mere om Satoshi Pacioli Accounting Services."
+}

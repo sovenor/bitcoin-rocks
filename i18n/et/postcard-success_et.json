@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"postcard_success_1": "Saate oma postkaardid kätte 1 kuni 2 nädala jooksul.",
+	"postcard_success_2": "Täname, et aitate kiirendada Bitcoini kasutuselevõttu, saates need postkaardid kellelegi, keda tunnete!"
+}

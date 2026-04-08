@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs krypto",
+	"crypto_header": "FORSKELLEN MELLEM",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "OG",
+	"crypto_header_4": "KRYPTO",
+	"crypto_intro_1": "Kryptovalutamarkedet er eksploderet med tusindvis af forskellige digitale tokens og projekter.",
+	"crypto_intro_2": "Mens Bitcoin var den første og stadig er den mest kendte kryptovaluta, er den fundamentalt forskellig fra resten af kryptoindustrien.",
+	"crypto_intro_3": "Lad os udforske de vigtigste forskelle mellem Bitcoin og det bredere kryptovalutaøkosystem.",
+	"crypto": "KRYPTO",
+	"crypto_point_1": "Hyppige ændringer og forgreninger",
+	"crypto_point_2": "Centraliseret kontrol",
+	"crypto_point_3": "Ubegrænset eller inflationært udbud",
+	"crypto_point_4": "Komplekse protokoller",
+	"crypto_point_5": "Eksperimentel konsensus",
+	"crypto_point_6": "Spekulative utility-tokens",
+	"crypto_point_7": "Volatil og skrøbelig",
+	"crypto_point_8": "Virksomhedsstøtte",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Uforanderlig protokol",
+	"bitcoin_point_2": "Virkelig decentraliseret",
+	"bitcoin_point_3": "Fast udbud på 21M BTC",
+	"bitcoin_point_4": "Simpel og tilgængelig",
+	"bitcoin_point_5": "Bevist Proof of Work",
+	"bitcoin_point_6": "Rene digitale penge",
+	"bitcoin_point_7": "Antiskrøbelig",
+	"bitcoin_point_8": "Ingen enkelt enhed kontrollerer det",
+	"point_1_summary_1": "Bitcoins protokol er forblevet fundamentalt uændret siden 2009 og giver forudsigelige regler, der ikke nemt kan ændres. De fleste kryptoprojekter opdaterer deres protokoller hyppigt, ændrer tokenøkonomi eller forgrener sig til nye versioner, hvilket skaber usikkerhed for brugerne.",
+	"point_2_summary_1": "Bitcoin fungerer på et virkelig decentraliseret netværk med titusindvis af uafhængige noder over hele verden. Mange kryptoprojekter kontrolleres af stiftelser, virksomheder eller små grupper af udviklere, der kan træffe ensidige beslutninger om protokollens fremtid.",
+	"point_3_summary_1": "Bitcoin har en hård grænse på 21 millioner mønter, der nogensinde vil eksistere, hvilket gør det til det knappeste digitale aktiv. De fleste kryptoprojekter har ubegrænset udbud, inflationsmekanismer eller kan præge nye tokens efter ønske, hvilket udvander ejernes værdi over tid.",
+	"point_4_summary_1": "Bitcoin har ét enkelt formål: peer-to-peer digitale penge. Alle kan forstå og bruge det med grundlæggende viden. Mange kryptoprojekter involverer komplekse smart contracts, DeFi-protokoller eller styringsmekanismer, der kræver teknisk ekspertise for at bruge sikkert.",
+	"point_5_summary_1": "Bitcoin bruger Proof of Work-konsensus, der er kamphærdet i over 15 år uden et eneste vellykket angreb på hovednetværket. Mange kryptoprojekter bruger eksperimentelle konsensusmekanismer som Proof of Stake eller delegerede systemer, der ikke har bevist deres langsigtede sikkerhed.",
+	"point_6_summary_1": "Bitcoin fungerer som digitale penge – et værdiopbevaringsmiddel og byttemiddel. De fleste kryptotokens er utility-tokens for specifikke platforme, styringstokens eller spekulative aktiver med uklare virkelige værdiforslag.",
+	"point_7_summary_1": "Bitcoin bliver stærkere under angreb og har overlevet enhver krise, forbud og kritik, der er blevet kastet mod det. De fleste kryptoprojekter er skrøbelige og kan kollapse under regulatorisk pres, tekniske fejl eller markedsnedgange.",
+	"point_8_summary_1": "Bitcoin har ingen administrerende direktør, ingen virksomhed bag sig og intet enkelt fejlpunkt. Mange kryptoprojekter er støttet af venturekapitalfirmaer, har identificerbare ledelsesteam eller er afhængige af specifikke virksomheder for deres fortsatte drift."
+}

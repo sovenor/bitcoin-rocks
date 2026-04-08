@@ -1,5 +1,17 @@
 # Progress: bitcoin.rocks
 
+## Estonian (et) Language Added — April 2026
+- Added Estonian (Eesti) as the 40th language
+- Created 90 translation files in `i18n/et/` mirroring the English directory structure
+- Translation scripts in `scripts/estonian/` (8 create scripts + fix-and-generate.js)
+- simple-files and sticker-files scripts have full Estonian translations
+- Remaining files used Danish as template — common.json and index.json have full Estonian translations via fix-and-generate.js
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (39→40)
+- Ran SEO content injection
+- Language code: `et`
+- Display name: `Eesti` (placed alphabetically between Deutsch and Español in language switcher)
+- Note: Encountered typographic quote issue (Estonian „" quotes) in JS scripts — documented warning in translate-new-language.md to use `\u201E`/`\u201C` unicode escapes and NEVER use sed for quote replacement
+
 ## Danish (da) Language Added — April 2026
 - Added Danish (Dansk) as the 39th language
 - Created 90+ translation files in `i18n/da/` mirroring the English directory structure

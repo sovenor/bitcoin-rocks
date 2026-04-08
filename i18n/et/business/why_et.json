@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-07",
+		"locale": "et"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Lær hvorfor Bitcoin er godt for virksomheder",
+	"why_header": "BITCOIN ER GODT FOR VIRKSOMHEDER",
+	"why_good_for_you": "BITCOIN ER OGSÅ GODT FOR DIG!",
+	"why_learn_more_lowercase": "Lær mere.",
+	"why_s1": "Bitcoin har ikke inflation",
+	"why_s1_c1": "Inflation opstår, når flere penge trykkes eller skabes ud af intet. Det gør dine penge mindre værd over tid.",
+	"why_s1_c2": "Bitcoin har en fast forsyningsgrænse, hvilket betyder, at ingen kan trykke flere Bitcoin.",
+	"why_s2": "Bitcoin har ingen bankkriser",
+	"why_s2_c1": "Flere amerikanske banker er kollapset på grund af bankkriser i de seneste år.",
+	"why_s2_c2": "I stedet for bare at opbevare dine penge investerer bankerne dem og låner dem ud. Hvis disse investeringer ikke går godt, har de ikke nok penge til at give dig dine tilbage.",
+	"why_s2_c3": "Og FDIC's forsikringsfond har kun 1 dollar for hver 100 dollar, det forsikrer.",
+	"why_s3": "Bitcoin kræver ingen tilladelse",
+	"why_s3_c1": "I modsætning til traditionelle finansielle netværk kræver Bitcoin ingen tilladelse for at bruges.",
+	"why_s3_c2": "Det betyder, at ingen kan forhindre dig i at bruge Bitcoin af nogen grund. Det er det første finansielle netværk, du kan bruge uden at bekymre dig om censur eller beslaglæggelse.",
+	"why_s4": "Bitcoin bygger en bedre verden",
+	"why_s4_c1": "Bitcoin er en misforstået teknologi, der bygger en bedre verden.",
+	"why_s4_c2": "Bitcoin har gjort det muligt for menneskerettighedsaktivister at kæmpe for frihed, reduceret globale metanudledninger, reddet nationalparker og meget mere."
+}
