@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"accept_bitcoin_payments_at_your_business": "Hyväksy Bitcoin-maksut yrityksessäsi",
+	"guide_header": "OLETKO VALMIS HYVÄKSYMÄÄN BITCOININ YRITYKSESSÄSI?"
+}

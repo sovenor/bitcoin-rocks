@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs taide",
+	"fine_art_header": "ERO",
+	"fine_art_header_2": "BITCOININ",
+	"fine_art_header_3": "JA",
+	"fine_art_header_4": "TAITEEN VÄLILLÄ",
+	"fine_art_intro_1": "Taide on ollut ylellisyyssijoitus vuosisatoja.",
+	"fine_art_intro_2": "Bitcoin on digitaalinen raha, jota monet pitävät arvon säilyttäjänä.",
+	"fine_art_intro_3": "Miten fyysinen taideteos eroaa digitaalisesta rahasta? Katsotaan eroja: Bitcoin ja taide.",
+	"fine_art": "TAIDE",
+	"bitcoin": "BITCOIN",
+	"fine_art_point_1": "Jokainen teos on ainutlaatuinen",
+	"fine_art_point_2": "Vaatii erikoishuutokauppoja",
+	"fine_art_point_3": "Korkeat huutokauppamaksut",
+	"fine_art_point_4": "Ei voida jakaa",
+	"fine_art_point_5": "Vaatii asiantuntijan todennuksen",
+	"fine_art_point_6": "Haavoittuva vaurioille",
+	"fine_art_point_7": "Rajoitettu varakkaille keräilijöille",
+	"bitcoin_point_1": "Täydellisesti vaihdettava",
+	"bitcoin_point_2": "Globaali 24/7-markkina",
+	"bitcoin_point_3": "Alhaiset tapahtumamaksut",
+	"bitcoin_point_4": "Helposti jaettava",
+	"bitcoin_point_5": "Kryptografisesti todennettava",
+	"bitcoin_point_6": "Vaikea tuhota",
+	"bitcoin_point_7": "Kaikkien saavutettavissa",
+	"point_1_summary_1": "Jokainen bitcoin on identtinen ja vaihdettava. Taide on luonnostaan ainutlaatuista, mikä tekee arvostuksista erittäin vaikeita.",
+	"point_2_summary_1": "Bitcoinilla käydään kauppaa globaaleilla 24/7-markkinoilla. Taide vaatii erikoishuutokauppataloja ja myynti voi kestää kuukausia.",
+	"point_3_summary_1": "Bitcoinin ostaminen tai myyminen maksaa yleensä alle 1 %. Taidekauppoihin liittyy huomattavia kustannuksia, jotka voivat ylittää 30–40 %.",
+	"point_4_summary_1": "Bitcoin voidaan jakaa 100 miljoonaan pienempään yksikköön. Taidetta ei voida jakaa.",
+	"point_5_summary_1": "Bitcoinin omistus ja aitous voidaan kryptografisesti todentaa. Taide vaatii kalliita asiantuntija-arviointeja, ja väärennökset huijaavat säännöllisesti taidemaailmaa.",
+	"point_6_summary_1": "Bitcoin ei voi tuhoutua oikein varmuuskopioidessa. Taide on haavoittuva kaikille fyysisille tuhoille.",
+	"point_7_summary_1": "Bitcoinia voi ostaa kuka tahansa internet-yhteyden omaava. Taidesijoittaminen on rajoitettu varakkaille keräilijöille."
+}

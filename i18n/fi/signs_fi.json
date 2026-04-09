@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"signs_description": "Auta meitä laittamaan näitä Bitcoin-kylttejä ympäri Amerikkaa!",
+	"signs_title": "Ilmaiset Bitcoin-kyltit bitcoin.rocksilta",
+	"signs_choose_header": "KIITOS, ETTÄ AUTOIT MEITÄ LAITTAMAAN NÄITÄ BITCOIN-KYLTTEJÄ YMPÄRI AMERIKKAA!",
+	"signs_choose_c1": "Meiltä ovat nyt kyltit kokonaan loppuneet! Tehtävänämme on nopeuttaa Bitcoinin käyttöönottoa koulutuksen avulla.",
+	"signs_choose_c2": "Monet teistä auttoivat laittamalla näitä ilmaisia Bitcoin-kylttejä julkisille paikoille. Kaikissa kyltissämme on QR-koodit, jotka linkittävät opetussivulle aiheesta",
+	"signs_choose_c3": "inflaatio",
+	"signs_choose_c4": "Mahtavan yhteisömme ansiosta tavoitimme tuhansia ihmisiä ja autoimme heitä ottamaan ensimmäiset askeleensa Bitcoin-kaninkoloon.",
+	"signs_share_header": "JAA KYLTTIEN SIJOITUSPAIKAT",
+	"signs_share_c1": "Jaa kuva kylttisi sijoituspaikasta meille Nostrissa ja katso, minne muut laittavat kyltejään.",
+	"signs_btn_share_on_nostr": "JAA NOSTRISSA",
+	"signs_btn_what_is_nostr": "MIKÄ ON NOSTR?",
+	"signs_instructions_1": "Syötä postiosoitteesi, niin lähetämme sinulle laatikon, jossa on 10 Bitcoin-kylttiä postissa!",
+	"signs_instructions_2": "Osoitetiedot poistetaan ilmaisten kylttien lähettämisen jälkeen."
+}

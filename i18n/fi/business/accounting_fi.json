@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"bitcoin_business_accounting_guide": "Bitcoin-yrityskirjanpito-opas",
+	"accounting_description": "Opi, miten kirjaat Bitcoin-maksut oikein yrityskirjanpitoosi.",
+	"accounting_header": "BITCOIN-KIRJANPITO-OPAS",
+	"accounting_s1_c1": "Bitcoinin hyväksymisellä on monia etuja, kuten maksujen vastaanottaminen pienemmmillä maksuilla ja uusien asiakkaiden hankkiminen.",
+	"accounting_s1_c2": "Jos käytät hybridilompakkoa lompakko-oppaastamme ja myyt automaattisesti 100 % vastaanotetuista Bitcoineista dollareiksi, sinun ei tarvitse muuttaa mitään nykyisessä kirjanpidossasi.",
+	"accounting_s1_c3": "Näytä lompakko-opas.",
+	"accounting_s1_c4": "Jos kuitenkin valitset pitää osan vastaanotetuista Bitcoin-maksuista Bitcoinina, sinun on seurattava muutamia asioita kirjanpitoa varten. Se voi vaikuttaa ylivoimaiselta aluksi, mutta se on itse asiassa melko yksinkertaista.",
+	"accounting_s1_c5": "Huomautus: tämä opas on vain tiedoksi eikä ole veroneuvontaa.",
+	"accounting_s1_c6": "Jos tarvitset veroneuvontaa, suosittelemme lämpimästi Satoshi Pacioli Accounting Servicesiä, Bitcoin-kirjanpitoon erikoistunutta kirjanpitoyritystä.",
+	"accounting_s2": "SEURAA HANKINTAHINTAASI",
+	"accounting_s2_c1": "Hankintahinnan seuranta on suurin ero dollarien ja Bitcoinin kirjanpidon välillä. Vaikka ajattelisit yrityksesi pelkästään Bitcoin-termein, sinun on raportoitava jokaisen tapahtuman dollariarvo veroilmoituksessasi.",
+	"accounting_s2_c2": "Jos käytät QuickBooksia, voit tehdä tämän automaattisesti Bitcoin Sync -lisäosalla.",
+	"accounting_s2_c3": "Jos et käytä QuickBooksia, suosittelemme Satoshi Pacioli Accounting Servicesiä, Bitcoin-kirjanpitoon erikoistunutta kirjanpitoyritystä.",
+	"accounting_s2_c4": "Manuaalisessa seurannassa kirjaa yksinkertaisesti vastaanotetun Bitcoinin määrä ja Bitcoin-tapahtuman dollariarvo sinä päivänä.",
+	"accounting_s2_c5": "Voit nähdä Bitcoinin nykyisen dollarihinnan täältä.",
+	"accounting_s2_c6": "Seuraa näitä tietoja Excel-taulukossa ja toimita se kirjanpitäjällesi.",
+	"accounting_s2_c7": "Voit myös automaattisesti tuoda nämä tiedot Exceliin.",
+	"accounting_s2_c8": "Voit myös nähdä Bitcoinin historiallisen dollarihinnan aiemmilta päiviltä, joten sinun ei tarvitse tehdä sitä joka päivä.",
+	"accounting_s3": "BITCOININ KÄYTTÄMINEN TAI MYYMINEN",
+	"accounting_s3_c1": "Jos käytät hybridilompakkoa lompakko-oppaastamme ja myyt automaattisesti 100 % vastaanotetuista Bitcoineista dollareiksi, sinun ei tarvitse muuttaa mitään nykyisessä kirjanpidossasi.",
+	"accounting_s3_c2": "Näytä lompakko-opas.",
+	"accounting_s3_c3": "Jos valitset käyttää tai myydä osan vastaanotetuista Bitcoineista myöhemmin, lisää yksinkertaisesti myyntihinta Excel-taulukkoon, jossa seuraat hankintahintaasi.",
+	"accounting_s3_c4": "Esimerkiksi, jos vastaanotit 100 dollarin arvoisen Bitcoinin 1. tammikuuta ja päätit myydä tai käyttää sen 1. helmikuuta uudella arvolla 110 dollaria, sinun on kirjattava 10 dollarin pääomavoitto kirjanpitoosi.",
+	"accounting_s3_c5": "Tämä voi toimia myös toisinpäin. Esimerkiksi, jos vastaanotit 100 dollarin arvoisen Bitcoinin 1. tammikuuta ja päätit myydä tai käyttää sen 1. helmikuuta uudella arvolla 90 dollaria, sinun on kirjattava 10 dollarin pääomatappio kirjanpitoosi.",
+	"accounting_s4": "TARVITSEN LISÄÄ APUA",
+	"accounting_s4_c1": "Jos tarvitset lisää apua Bitcoinin integroimisessa yrityskirjanpitoosi, suosittelemme lämpimästi Satoshi Pacioli Accounting Servicesiä, Bitcoin-kirjanpitoon erikoistunutta kirjanpitoyritystä.",
+	"accounting_s4_c2": "Lue lisää Satoshi Pacioli Accounting Servicesistä."
+}

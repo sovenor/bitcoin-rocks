@@ -1,5 +1,14 @@
 # Progress: bitcoin.rocks
 
+## Finnish (fi) Language Added — April 2026
+- Added Finnish (Suomi) as the 41st language
+- Created 90+ translation files in `i18n/fi/` mirroring the English directory structure
+- Translation scripts in `scripts/finnish/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (40→41)
+- Ran SEO content injection
+- Language code: `fi`
+- Display name: `Suomi` (placed alphabetically between Slovenčina and Svenska in language switcher)
+
 ## Estonian (et) Language Added — April 2026
 - Added Estonian (Eesti) as the 40th language
 - Created 90 translation files in `i18n/et/` mirroring the English directory structure

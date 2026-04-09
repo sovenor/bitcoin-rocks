@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoinissa ei ole talletuspakoja",
+	"bank_runs_header": "BITCOINISSA EI OLE TALLETUSPAKOJA",
+	"bank_runs_header_2": "MUTTA PANKILLASI SAATTAA OLLA",
+	"bank_runs_what": "MIKÄ ON TALLETUSPAKO?",
+	"bank_runs_what_content_1": "Talletuspako tapahtuu, kun liian monet ihmiset yrittävät nostaa rahansa pankista samanaikaisesti.",
+	"bank_runs_what_content_2": "Jos pankeilla ei ole tarpeeksi rahaa nostojen kattamiseen, ne voivat romahtaa kokonaan tallettajapaon tapahtuessa.",
+	"bank_runs_how": "MITEN TALLETTAJAPAOT TAPAHTUVAT?",
+	"bank_runs_how_content_1": "Pankkijärjestelmämme on 'osittaisvarantojärjestelmä', mikä tarkoittaa, että pankit eivät vain säilytä rahojasi holvissa odottaen, että käytät tai nostat ne.",
+	"bank_runs_how_content_2": "Sen sijaan pankkisi ottaa rahasi ja lainaa ne edelleen tai sijoittaa ne. Tämä voi lukita rahasi pitkiksi ajoiksi, vaikka pankki lupaa sinulle mahdollisuuden nostaa rahasi milloin tahansa.",
+	"bank_runs_how_content_3": "Mitä tapahtuu, jos yritat nostaa rahasi sen jälkeen, kun pankki on jo lainannut ne tai sijoittanut ne?",
+	"bank_runs_how_content_4": "Se ei ole ongelma, jos olet ainoa, joka yrittää nostaa. Pankki antaa sinulle jonkun muun rahat. Mutta mitä tapahtuu, kun liian monet yrittävät nostaa samanaikaisesti?",
+	"bank_runs_how_content_5": "Monet ihmiset Yhdysvalloissa saivat tietää, kun Silicon Valley Bankissa tapahtui talletuspako maaliskuussa 2023.",
+	"bank_runs_how_content_6": "Pankki oli sijoittanut asiakkaidensa rahat valtion joukkovelkakirjoihin, jotka olivat lukittuina jopa 30 vuodeksi. Pahempaa oli, että noiden joukkovelkakirjojen arvo oli laskenut dramaattisesti, joten Silicon Valley Bank ei voinut vain myydä niitä saadakseen tallettajiensa rahat. He olivat maksukykyttömiä.",
+	"bank_runs_how_content_7": "Kun useammat ihmiset saivat tietää, ongelma vain paheni. Lisää nostopyyntöjä tuli, mutta monia ei käsitelty. Tuhannet yritykset tajusivat, etteivät pystyisi maksamaan työntekijöidensä palkkoja pankin epäonnistumisen vuoksi.",
+	"bank_runs_how_content_8": "FDIC astui väliin ja suostui korvaamaan tallettajat. Ongelma ratkaistu? Ei aivan...",
+	"bank_runs_fdic": "SUOJAAKO FDIC-VAKUUTUS RAHOJANI?",
+	"bank_runs_fdic_content_1": "FDIC-vakuutus on suunniteltu suojaamaan pankkitallettajia pankin epäonnistuessa. Talletukset on vakuutettu 250 000 dollariin asti tallettajaa kohden. Kuulostaa hyvältä, eikö?",
+	"bank_runs_fdic_content_2": "Ei aivan. Jos pankki epäonnistuu, mistä FDIC saa rahat? Heillä on vakuutusrahasto, jossa on 125 miljardia dollaria.",
+	"bank_runs_fdic_content_3": "Se kuulostaa suurelta summalta, kunnes vertaat sitä vakuuttamiensa talletusten määrään: lähes 10 biljoonaa eli 10 000 miljardia dollaria.",
+	"bank_runs_fdic_content_4": "FDIC näyttää jopa verkkosivuillaan, että heillä on vakuutusrahastossaan vain hieman yli 1 % talletuksista.",
+	"bank_runs_fdic_content_5": "Jos pankin epäonnistuminen ylittäisi FDIC:n vakuutusrahaston, Yhdysvaltain hallitus todennäköisesti (mutta ei taattua) painavisi rahaa korvatakseen tallettajat.",
+	"bank_runs_fdic_content_6": "Mutta rahan painaminen aiheuttaa inflaatiota, joten se ei ole hyvä ratkaisu.",
+	"bank_runs_safe": "ONKO PANKKEJA, JOTKA EIVÄT KÄYTÄ OSITTAISVARANTOA?",
+	"bank_runs_safe_content_1": "Jotkut pankit ovat yrittäneet olla 'turvallisia pankkeja', jotka eivät lainaa tai sijoita tallettajien varoja.",
+	"bank_runs_safe_content_2": "Vaikka näillä turvallisilla pankeilla ei olisi lainkaan tallettajapaon riskiä, niiden hakemukset on hylätty Federal Reserven toimesta.",
+	"bank_runs_safe_content_3": "Koska niiden toiminta on estetty, tänään ei ole pankkeja, jotka eivät käyttäisi osittaisvarantoa.",
+	"bank_runs_safe_content_4": "Onneksi on tapa kieltäytyä osittaisvarantojärjestelmästä olemalla oma pankkisi. Ei, emme puhu käteisen piilottamisesta patjan alle.",
+	"bank_runs_safe_content_5": "Käteiseen säästäminen on silti altis inflaatiolle.",
+	"bank_runs_safe_content_6": "Puhumme Bitcoinista: uudesta rahoitusjärjestelmästä, joka mahdollistaa oman pankkisi olemisen.",
+	"bank_runs_protect": "VOIKO BITCOIN SUOJATA MINUA TALLETTAJAPAOILTA?",
+	"bank_runs_protect_content_1": "Kyllä, Bitcoin on täyden reservin rahoitusjärjestelmä.",
+	"bank_runs_protect_content_2": "Tallettajapaot ovat mahdottomia Bitcoinissa, kunhan nostat Bitcoinisi omaan lompakkoosi. Älä jätä bitcoinejasi pörssiin tai kuten Bitcoin-ETF:iin.",
+	"bank_runs_protect_content_3": "Tutustu yksinkertaiseen Bitcoin-lompakko-oppaaseemme oppiaksesi, miten nostat omaan lompakkoosi.",
+	"bank_runs_protect_content_4": "Bitcoinilla voit vihdoin hallita rahojasi."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"404_title": "Virhe 404 | Sivua ei löydy",
+	"404_message": "TÄMÄ RIKKINÄINEN SIVU EI OLE SIISTI",
+	"404_home": "TAKAISIN ETUSIVULLE"
+}

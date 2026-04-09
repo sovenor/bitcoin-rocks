@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning -lompakko-opas",
+	"lightning_description": "Lightning-lompakot mahdollistavat Bitcoinin lähettämisen nopeasti ja edullisesti säilyttäen samalla henkilökohtaisen suvereniteettisi.",
+	"lightning_header": "LIGHTNING-LOMPAKKO-OPAS",
+	"lightning_s1_c1": "Lightning mahdollistaa Bitcoin-maksujen lähettämisen nopeasti ja edullisesti.",
+	"lightning_s1_c2": "On tärkeää tietää, että Lightningin käyttöön liittyy kompromisseja. Vastineeksi nopeammista ja halvemmista Bitcoin-maksuista uhraat usein hieman turvallisuutta.",
+	"lightning_s1_c3": "Yleisesti ottaen Lightningia tulisi käyttää vain pienillä bitcoin-summilla. Suuria summia tulisi säilyttää vain laitteistolompakossa.",
+	"lightning_s1_c4": "Tutustu laitteistolompakko-oppaaseemme saadaksesi lisätietoja.",
+	"lightning_s1_c5": "Kaikki Lightning-lompakot eivät ole samanlaisia. Voit määrittää, millä lompakolla on oikea kompromissitasapaino sinulle, kysymällä yhden yksinkertaisen kysymyksen:",
+	"lightning_question_1": "MIKÄ KOMPROMISSITASAPAINO ON OIKEA MINULLE?",
+	"lightning_s2_c1": "Yksi Bitcoinin innovaatioista on kyky säilyttää sitä ilman säilyttäjää, kuten pankkia. Omahallintaiset lompakot avaavat Bitcoinin täyden voiman.",
+	"lightning_s2_c2": "Omahallintaisella lompakolla olet ainoa, jolla on kyky käyttää tai siirtää rahojasi. Kukaan ei voi estää, sensuroida tai varastaa sinulta.",
+	"lightning_s2_c3": "Suvereenein tapa käyttää Lightningia on ajaa omaa solmua.",
+	"lightning_s2_c4": "Tämä opas keskittyy yksinkertaisiin Lightning-lompakoihin, jotka eivät vaadi omaa solmua.",
+	"lightning_s2_c5": "On tärkeää tietää, että käyttäessäsi ei-säilytyksellista Lightning-lompakkoa luotat silti lompakon tekijään, ettei hän julkaise haitallista sovelluspäivitystä.",
+	"lightning_s3_c1": "Säilytyslompakot ovat lompakoita, joissa et hallitse rahojasi.",
+	"lightning_s3_c2": "Nämä lompakot ovat enemmän pankkijärjestelmän kaltaisia, joissa sinun on luotettava kolmanteen osapuoleen.",
+	"lightning_s3_c3": "Säilytyslompakot voivat vaikuttaa kätevilta, mutta säilyttäjällä on tekninen kyky varastaa kaikki käyttäjien varat.",
+	"lightning_s3_c4": "Jotkut suosivat säilytyksellisia Lightning-lompakoita pienille bitcoin-summille niiden helppokäyttöisyyden vuoksi. Muista: ei sinun avaimesi, ei sinun kolikkosi!",
+	"lightning_question_2": "VALITSE LOMPAKKOSI",
+	"lightning_s4_c1": "Tämän kaiken huomioon ottaen voit nyt valita Lightning-lompakon, jossa on sinulle oikea kompromissitasapaino.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Paljon ominaisuuksia",
+	"lightning_mobile_app": "Mobiilisovellus",
+	"lightning_free": "100 % ilmainen",
+	"lightning_merchants": "Loistava kauppiaille",
+	"lightning_starter": "Loistava aloituslompakko",
+	"lightning_browser": "Selainpohjainen",
+	"lightning_custodial": "Täysin säilytyksellinen lompakko",
+	"lightning_cta_hardware": "Etsitkö Bitcoin-laitteistolompakko-opastamme?"
+}

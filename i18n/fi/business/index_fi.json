@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin on hyvä yrityksille",
+	"biz_header": "BITCOIN ON HYVÄ YRITYKSILLE",
+	"biz_s1": "Alhaiset maksut ilman vähimmäismääriä",
+	"biz_s1_c1": "Bitcoin mahdollistaa maksujen vastaanottamisen suoraan asiakkailta, kuten käteinen. Bitcoin-verkko toimii ilman välikäsiä, kuten pankkeja ja luottokorttiyhtiöitä, jotka veloittavat suuria maksuja.",
+	"biz_s2": "Välitön selvitys",
+	"biz_s2_c1": "Kuten käteinen, Bitcoin-maksut selvitetään välittömästi. Sinun ei tarvitse odottaa luottokorttiyhtiön tai pankin maksusuoritusta. Sen sijaan saat rahat käyttöösi heti.",
+	"biz_s3": "Ei takaisinperintöjä eikä petoksia",
+	"biz_s3_c1": "Koska Bitcoin-maksut tapahtuvat suoraan sinun ja asiakkaasi välillä, kukaan ei voi ottaa rahoja takaisin takaisinperintänä.",
+	"biz_s3_c2": "Väärennettyä Bitcoinia ei voida lähettää Bitcoin-verkon kautta, mikä tarkoittaa, että sinun ei koskaan tarvitse huolehtia petollisista tapahtumista, jotka voivat maksaa yrityksellesi.",
+	"biz_s4": "Hanki lisää asiakkaita",
+	"biz_s4_c1": "Miljoonat ihmiset omistavat Bitcoinia ja haluavat käyttää sitä paikoissa, jotka hyväksyvät sen.",
+	"biz_s4_c2": "Hyväksymällä Bitcoinin yrityksesi voidaan listata Bitcoin-kauppiaskarttoihin ja saada ilmaista näkyvyyttä uusille asiakkaille.",
+	"biz_s4_c3": "Bitcoinin hyväksyminen on 100 % ilmaista. Ei sopimuksia eikä piilomaksuja."
+}

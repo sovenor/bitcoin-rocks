@@ -39,6 +39,7 @@ $(function() {
     { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
     { code: 'sk', name: 'Slovenčina' },
+    { code: 'fi', name: 'Suomi' },
     { code: 'sv', name: 'Svenska' },
     { code: 'tl', name: 'Tagalog' },
     { code: 'vi', name: 'Tiếng Việt' },

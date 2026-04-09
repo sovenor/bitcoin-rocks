@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-08",
+		"locale": "fi"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Opi, miksi Bitcoin on hyvä yrityksille",
+	"why_header": "BITCOIN ON HYVÄ YRITYKSILLE",
+	"why_good_for_you": "BITCOIN ON HYVÄ MYÖS SINULLE!",
+	"why_learn_more_lowercase": "Lue lisää.",
+	"why_s1": "Bitcoinissa ei ole inflaatiota",
+	"why_s1_c1": "Inflaatio tapahtuu, kun lisää rahaa painetaan tai luodaan tyhjästä. Tämä tekee rahastasi vähempään arvoista ajan myötä.",
+	"why_s1_c2": "Bitcoinin tarjonta on kiinteä, mikä tarkoittaa, että kukaan ei voi painaa lisää Bitcoinia.",
+	"why_s2": "Bitcoinissa ei ole talletuspakoja",
+	"why_s2_c1": "Useat amerikkalaiset pankit ovat romahtaneet talletuspakojen vuoksi viime vuosina.",
+	"why_s2_c2": "Sen sijaan, että pankit vain säilyttäisivät rahasi, ne sijoittavat ja lainaavat ne edelleen. Jos nämä sijoitukset epäonnistuvat, heillä ei ole tarpeeksi rahaa antaakseen sinulle omasi takaisin.",
+	"why_s2_c3": "Ja FDIC:n vakuutusrahastossa on vain 1 dollari jokaista 100:a vakuuttamaansa dollaria kohden.",
+	"why_s3": "Bitcoin ei vaadi lupaa",
+	"why_s3_c1": "Toisin kuin perinteiset rahoitusverkot, Bitcoin ei vaadi lupaa käyttämiseen.",
+	"why_s3_c2": "Tämä tarkoittaa, että kukaan ei voi estää sinua käyttämästä Bitcoinia mistään syystä. Se on ensimmäinen rahoitusverkko, jota voit käyttää ilman sensuurin tai takavarikoinnin pelkoa.",
+	"why_s4": "Bitcoin rakentaa parempaa maailmaa",
+	"why_s4_c1": "Bitcoin on väärinymmärretty teknologia, joka rakentaa parempaa maailmaa.",
+	"why_s4_c2": "Bitcoin on mahdollistanut ihmisoikeusaktivistien taistelun vapauden puolesta, vähentänyt maailmanlaajuisia metaanipäästöjä, pelastanut kansallispuistoja ja paljon muuta."
+}
