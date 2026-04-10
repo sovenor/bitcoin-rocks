@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin yana da kyau ga kasuwanci",
+	"biz_header": "BITCOIN YANA DA KYAU GA KASUWANCI",
+	"biz_s1": "Ƙananan kuɗin aiki ba tare da mafi ƙarancin adadi ba",
+	"biz_s1_c1": "Bitcoin yana ba ka damar karɓar kuɗi kai tsaye daga abokan ciniki, kamar tsabar kuɗi. Cibiyar sadarwar Bitcoin tana aiki ba tare da masu shiga tsakani ba, kamar bankuna da kamfanonin katin kuɗi, waɗanda ke ɗaukar kuɗin aiki mai yawa.",
+	"biz_s2": "Saurin warwarewa",
+	"biz_s2_c1": "Kamar tsabar kuɗi, biyan kuɗin Bitcoin ana warware su nan take. Ba ka buƙatar jiran kamfanin katin kuɗi ko banki ya biya maka ba. A maimakon haka, kana samun kuɗin ka nan da nan.",
+	"biz_s3": "Babu chargebacks kuma babu zamba",
+	"biz_s3_c1": "Saboda biyan kuɗin Bitcoin na faruwa kai tsaye tsakanin ka da abokin ciniki na ka, babu wanda zai iya karɓar kuɗin baya ta hanyar chargeback.",
+	"biz_s3_c2": "Ba za a iya aika jabu Bitcoin ta hanyar cibiyar sadarwar Bitcoin ba, wanda ke nufin ba sai ka damu da ma'amaloli na zamba waɗanda za su iya cutar da kasuwancinka ba.",
+	"biz_s4": "Sami ƙarin abokan ciniki",
+	"biz_s4_c1": "Miliyoyin mutane suna da Bitcoin kuma suna son kashe shi a wuraren da suka karɓe shi.",
+	"biz_s4_c2": "Ta hanyar karɓar Bitcoin kasuwancinka na iya shiga cikin taswirar 'yan kasuwa na Bitcoin kuma a sami bayyanarwa kyauta ga sabbin abokan ciniki.",
+	"biz_s4_c3": "Karɓar Bitcoin kyauta ne 100%. Babu kwangilar kuma babu kuɗin ɓoye."
+}

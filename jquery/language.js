@@ -27,6 +27,7 @@ $(function() {
     { code: 'eu', name: 'Euskara' },
     { code: 'fil', name: 'Filipino' },
     { code: 'fr', name: 'Français' },
+    { code: 'ha', name: 'Hausa' },
     { code: 'hr', name: 'Hrvatski' },
     { code: 'id', name: 'Indonesia' },
     { code: 'zu', name: 'isiZulu' },

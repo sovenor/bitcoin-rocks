@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_vs_crypto": "Bitcoin da Crypto",
+	"crypto_header": "BAMBANCI TSAKANIN",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "DA",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "Masana'antar cryptocurrency ta ɓarke zuwa dubunnan tokens da ayyuka daban-daban na dijital.",
+	"crypto_intro_2": "Yayin da Bitcoin shi ne na farko kuma ya kasance mafi sanannen, ya bambanta ta asali da sauran masana'antar crypto.",
+	"crypto_intro_3": "Bari mu bincika muhimman bambance-bambancen tsakanin Bitcoin da yanayin cryptocurrency mafi girma.",
+	"crypto": "CRYPTO",
+	"bitcoin": "BITCOIN",
+	"crypto_point_1": "Canje-canje da rabuwa na ci gaba",
+	"crypto_point_2": "Gudanarwa tsakaitaccen",
+	"crypto_point_3": "Tanadi mara iyaka ko mai hauhawar farashi",
+	"crypto_point_4": "Tsare-tsare masu rikitarwa",
+	"crypto_point_5": "Hanyoyin yarjejeniya na gwaji",
+	"crypto_point_6": "Tokens na tsammanin amfani",
+	"crypto_point_7": "Mai rauni",
+	"crypto_point_8": "Tallafin kamfanoni",
+	"bitcoin_point_1": "Tsarin da ba ya canzawa",
+	"bitcoin_point_2": "Na gaske mai rarrabawa",
+	"bitcoin_point_3": "Tanadin daidaitaccen 21M BTC",
+	"bitcoin_point_4": "Mai sauƙi kuma mai isa",
+	"bitcoin_point_5": "Tabbacin aiki da aka gwada",
+	"bitcoin_point_6": "Kuɗi na dijital tsantsa",
+	"bitcoin_point_7": "Mai ƙarfin juriya",
+	"bitcoin_point_8": "Babu mai sarrafawa",
+	"point_1_summary_1": "Tsarin Bitcoin ya kasance ba ya canzawa ta asali tun 2009. Yawancin ayyukan crypto suna sabunta tsare-tsarensu akai-akai.",
+	"point_2_summary_1": "Bitcoin yana aiki a cibiyar sadarwa mai rarrabawa da gaske tare da dubban dubban nodes masu zaman kansu. Yawancin ayyukan crypto suna ƙarƙashin gudanarwar gidauniyoyi ko ƙananan ƙungiyoyin masu haɓaka.",
+	"point_3_summary_1": "Bitcoin yana da iyakar 21 miliyan tsabar kuɗi. Yawancin ayyukan crypto suna da tanadi mara iyaka ko za su iya ƙirƙirar sababbin tokens a kowane lokaci.",
+	"point_4_summary_1": "Bitcoin yana da manufa ɗaya mai sauƙi: kuɗi na dijital na mutum-zuwa-mutum. Yawancin ayyukan crypto masu rikitarwa ne.",
+	"point_5_summary_1": "Bitcoin yana amfani da tabbacin aiki, wanda aka gwada cikin nasara fiye da shekaru 15. Yawancin ayyukan crypto suna amfani da hanyoyi na gwaji.",
+	"point_6_summary_1": "Bitcoin yana aiki a matsayin kuɗi na dijital — mai ajiye daraja da kayan musayar. Yawancin crypto tokens na amfani ne ko na tsammanin.",
+	"point_7_summary_1": "Bitcoin yana ƙara ƙarfi daga hare-hare kuma ya tsira daga kowane rikici. Yawancin ayyukan crypto masu rauni ne kuma za su iya rushe.",
+	"point_8_summary_1": "Bitcoin ba shi da shugaban kamfani, babu kamfani a bayansa kuma babu wurin gazawa ɗaya. Yawancin ayyukan crypto masu saka jari ne ke tallafa musu."
+}

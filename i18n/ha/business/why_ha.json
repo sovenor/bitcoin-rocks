@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Koyi dalilin da ya sa Bitcoin ke da kyau ga kasuwanci",
+	"why_header": "BITCOIN YANA DA KYAU GA KASUWANCI",
+	"why_good_for_you": "BITCOIN YANA DA KYAU GAREKA MA!",
+	"why_learn_more_lowercase": "Ƙara koyo.",
+	"why_s1": "Bitcoin ba shi da hauhawar farashi",
+	"why_s1_c1": "Hauhawar farashi tana faruwa ne idan aka buga ko ƙirƙiri ƙarin kuɗi daga wofi. Wannan yana sa kuɗinka su yi ƙarancin daraja da lokaci.",
+	"why_s1_c2": "Bitcoin yana da tanadin daidaitaccen adadi, wanda ke nufin babu wanda zai iya buga ƙarin Bitcoin.",
+	"why_s2": "Bitcoin ba shi da guguwar bankuna",
+	"why_s2_c1": "Bankuna da dama a Amurka sun rushe saboda guguwar bankuna a cikin shekarun baya-bayan nan.",
+	"why_s2_c2": "Maimakon kawai ajiye kuɗinka, bankuna suna saka su da ba da rance. Idan waɗannan jarin sun gaza, ba su da isassun kuɗi su mayar maka da naka.",
+	"why_s2_c3": "Kuma asusun inshorar FDIC yana da dala 1 kawai a kowace dala 100 da suke inshorar su.",
+	"why_s3": "Bitcoin ba ya buƙatar izini",
+	"why_s3_c1": "Ba kamar hanyoyin kuɗi na gargajiya ba, Bitcoin ba ya buƙatar izini don amfani.",
+	"why_s3_c2": "Wannan yana nufin babu wanda zai iya hana ka amfani da Bitcoin saboda wani dalili. Shi ne cibiyar sadarwar kuɗi ta farko da za ka iya amfani da ita ba tare da tsoron tace-tace ko kwace ba.",
+	"why_s4": "Bitcoin yana gina duniya mafi kyau",
+	"why_s4_c1": "Bitcoin fasaha ce da aka rashin fahimta wadda ke gina duniya mafi kyau.",
+	"why_s4_c2": "Bitcoin ya ba da damar masu fafutikar kare haƙƙin ɗan adam su yi faɗa don 'yanci, ya rage fitar da iskar methane a duniya, ya ceci wuraren shakatawa na ƙasa, da ƙari da yawa."
+}

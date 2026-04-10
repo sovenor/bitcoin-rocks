@@ -1,5 +1,18 @@
 # Progress: bitcoin.rocks
 
+## Hausa (ha) Language Added — April 2026
+- Added Hausa as the 43rd language
+- Created 90+ translation files in `i18n/ha/` mirroring the English directory structure
+- Translation scripts in `scripts/hausa/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files
+- Ran SEO content injection
+- Language code: `ha`
+- Display name: `Hausa` (placed alphabetically between Français and Hrvatski in language switcher)
+- Hausa uses Latin script — no special character concerns
+
+## Greek (el) Language Added - April 2026
+- Added as the 42nd language
+
 ## Finnish (fi) Language Added — April 2026
 - Added Finnish (Suomi) as the 41st language
 - Created 90+ translation files in `i18n/fi/` mirroring the English directory structure

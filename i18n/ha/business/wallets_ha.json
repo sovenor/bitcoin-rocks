@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"how_to_accept_bitcoin_payments": "Yadda za a karɓi biyan kuɗi na Bitcoin",
+	"wallets_header": "SAMI WALLET NA BITCOIN KYAUTA DON KARƁAR BIYAN KUƊI",
+	"wallets_intro_1": "Duk wallets na Bitcoin suna aiki tare, don haka abokan ciniki za su iya biya muku da Bitcoin ba tare da la'akari da wane wallet suke amfani da shi ba.",
+	"wallets_intro_2": "Wallets na Bitcoin na gaske:",
+	"wallets_intro_3": "Waɗannan wallets ne na Bitcoin na gaske waɗanda ke buɗe duk fa'idodin Bitcoin: babu masu shiga tsakani, ƙananan kuɗin aiki kuma babu chargebacks ko zamba.",
+	"wallets_intro_4": "Wallets masu haɗe-haɗe:",
+	"wallets_intro_5": "Waɗannan suna ba ku damar canza kowane ɓangare na Bitcoin ɗinku zuwa daloli nan take lokacin da abokin ciniki ya biya maku. Kuɗin aiki har yanzu sun fi ƙanƙanta fiye da katin kuɗi, amma sun fi na biyan kuɗi na Bitcoin na gaske.",
+	"wallets_intro_6": "Iri biyu duka hanyoyi ne masu kyau na karɓar Bitcoin. Wallet ɗin da ya dace ya dogara da girman kasuwancinku da irinsa.",
+	"wallets_choice_sole": "wallets ga kasuwancin mutum ɗaya",
+	"wallets_choice_multiple": "wallets ga kasuwancin ma'aikata da yawa",
+	"wallets_choice_online": "wallets ga kasuwancin yanar gizo",
+	"wallets_choice_invoice": "wallets ga kasuwancin biya bayan aiki",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Kuna iya karɓar biyan kuɗi na Bitcoin tare da na'urar Square PoS da kuke da ita ko haɗin yanar gizo. Karɓar biyan kuɗi na Bitcoin bai taɓa kasancewa mai sauƙi ba.",
+	"wallets_feature_bitcoin_only": "Wallet na Bitcoin na gaske",
+	"wallets_feature_no_info": "Ba a buƙatar bayani",
+	"wallets_feature_in_person": "Biyan kuɗi na kai-da-kai kawai",
+	"wallets_feature_settles_bitcoin": "Warwarewa 100% a Bitcoin",
+	"wallets_feature_hybrid": "Wallet mai haɗe-haɗe",
+	"wallets_feature_info": "Ana buƙatar bayanan kasuwanci",
+	"wallets_feature_in_person_online": "Biyan kuɗi na kai-da-kai da na yanar gizo",
+	"wallets_feature_settles_both": "Warwarewa a Bitcoin da daloli",
+	"wallets_feature_multiple_employees": "Tallafin ma'aikata da yawa (BPT)",
+	"wallets_feature_self_hosted": "Ɗaukar nauyin kanka = 0% kuɗin aiki",
+	"wallets_feature_online_store": "Haɗin shagon yanar gizo",
+	"wallets_feature_invoicing": "Software na biya bayan aiki kyauta",
+	"wallets_get_wallet": "SAMI WALLET"
+}

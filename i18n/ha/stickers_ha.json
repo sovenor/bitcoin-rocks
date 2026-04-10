@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"free_bitcoin_stickers": "Stickers na Bitcoin kyauta daga bitcoin.rocks",
+	"stickers_description": "Liƙa sticker na Bitcoin a wurin jama'a don sa waɗanda ke kewayenka su koyi Bitcoin.",
+	"stickers_header": "STICKERS NA BITCOIN KYAUTA",
+	"stickers_choose_header": "ZAƁI FAKITIN STICKER ƊINKA",
+	"stickers_choose_c1": "Manufarmu ita ce taimaka maka ka sa ƙarin mutane su koyi Bitcoin ta hanyar sanya stickers na Bitcoin a wuraren jama'a. Duk stickers ɗinmu suna da lambobin QR da ke haɗa zuwa shafukan ilimi game da",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "hauhawar farashi",
+	"stickers_choose_c4": "Zaɓi fakitin sticker ɗinka a ƙasa",
+	"stickers_text_pack": "FAKITIN RUBUTU",
+	"stickers_signs_pack": "FAKITIN ALAMOMI",
+	"stickers_instructions_1": "Shigar da adireshin wasiƙar ka kuma za mu aiko maka fakitin sticker na Bitcoin kyauta a wasiƙa! Za a aika stickers ɗinka a cikin ambulan fari mai sauƙi.",
+	"stickers_instructions_2": "Za a share bayanan adireshin bayan an aika stickers na kyauta.",
+	"stickers_share_header": "RABA WURAREN STICKER ƊINKA",
+	"stickers_share_c1": "Raba wuraren sticker ɗinka tare da mu a Nostr kuma ka ga inda wasu ke sanya stickers ɗinsu.",
+	"stickers_btn_share_on_nostr": "RABA A NOSTR",
+	"stickers_btn_what_is_nostr": "MENENE NOSTR?",
+	"stickers_flyers_link_before": "Yayin da kake nan, buga & liƙa ",
+	"stickers_flyers_link_text": "takardun bugu na Bitcoin",
+	"stickers_flyers_link_after": " don taimakawa wajen sa ƙarin mutane su koyi Bitcoin.",
+	"stickers_country_global_print": "Duniya baki ɗaya — Na buga stickers na kaina",
+	"stickers_country_global_order": "Duniya baki ɗaya — Yi odar manyan adadi",
+	"placeholder_name_optional": "Suna (na zaɓi)",
+	"placeholder_address_line_1": "Adireshin Layi na 1",
+	"placeholder_address_line_2": "Adireshin Layi na 2 (na zaɓi)",
+	"placeholder_city": "Birni",
+	"placeholder_state": "Jiha",
+	"placeholder_province": "Lardi",
+	"placeholder_zip_code": "Lambar Gidan Waya",
+	"placeholder_postal_code": "Lambar Gidan Waya",
+	"placeholder_language": "Harshe",
+	"placeholder_which_stickers": "Wane stickers?",
+	"placeholder_email_optional": "Shigar da imel ɗinka don sanarwa (na zaɓi)"
+}

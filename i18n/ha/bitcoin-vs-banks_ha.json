@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_vs_banks": "Bitcoin da Bankuna",
+	"banks_header": "BAMBANCI TSAKANIN",
+	"banks_header_2": "BITCOIN",
+	"banks_header_3": "DA",
+	"banks_header_4": "BANKUNA",
+	"banks_intro_1": "Bankuna sun kasance masu tsaron kuɗinmu tsawon ƙarni da yawa.",
+	"banks_intro_2": "Bitcoin tsarin kuɗi ne na dijital da aka ƙirƙira a 2009 wanda ke ba mutane damar zama bankinsu.",
+	"banks_intro_3": "Bari mu duba bambance-bambancen: Bitcoin da bankuna.",
+	"banks": "BANKUNA",
+	"bitcoin": "BITCOIN",
+	"banks_point_1": "Ana iya daskare asusuna",
+	"banks_point_2": "Ajiye na ɓangare",
+	"banks_point_3": "Lokutan aiki na ƙayyadaddun",
+	"banks_point_4": "Manyan kuɗin aiki",
+	"banks_point_5": "Ana buƙatar izini",
+	"banks_point_6": "Duba ma'amala",
+	"banks_point_7": "Ana iya yin kwace",
+	"bitcoin_point_1": "Ba za a iya daskare ba",
+	"bitcoin_point_2": "Ajiye na cikakke",
+	"bitcoin_point_3": "24/7/365",
+	"bitcoin_point_4": "Ƙananan kuɗin aiki",
+	"bitcoin_point_5": "Ba a buƙatar izini",
+	"bitcoin_point_6": "Tabbaci na lissafi",
+	"bitcoin_point_7": "Ba za a iya kwace ba",
+	"point_1_summary_1": "Bankuna za su iya daskare asusunka a kowane lokaci saboda kowane dalili. Ba za a iya daskare Bitcoin ba idan kana kula da shi da kanka.",
+	"point_2_summary_1": "Bankuna suna ajiye ɓangaren kuɗin tallafin masu ajiya kawai. Bitcoin tsarin ajiye na cikakke ne — bitcoinka na nan ne idan ka ajiye shi a walletka.",
+	"point_3_summary_1": "Bankuna suna aiki a lokutan aiki na ƙayyadaddun. Bitcoin yana aiki 24 sa'o'i, 7 kwanaki, 365 rana a shekara.",
+	"point_4_summary_1": "Bankuna suna ɗaukar kuɗin aiki masu yawa don kula da asusuna da canja wurin kuɗi. Bitcoin yana da ƙananan kuɗin ma'amala.",
+	"point_5_summary_1": "Bankuna suna buƙatar cikakken bayanai don buɗe asusun. Kowa zai iya amfani da Bitcoin ba tare da izini ba.",
+	"point_6_summary_1": "Bankuna suna binciken ma'amala kuma za su iya ƙi su. Bitcoin yana amfani da tabbaci na lissafi maimakon izinin mutane.",
+	"point_7_summary_1": "Gwamnatoci za su iya kwace kuɗin bankinka. Ba za a iya kwace Bitcoin ba idan kana kula da shi a walletka da kanka."
+}

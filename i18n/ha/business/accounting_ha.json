@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_business_accounting_guide": "Jagorar Lissafin Kuɗi na Kasuwancin Bitcoin",
+	"accounting_description": "Koyi yadda za ku rikoɗa biyan kuɗi na Bitcoin daidai a cikin lissafin kuɗin kasuwancinku.",
+	"accounting_header": "JAGORAR LISSAFIN KUƊI NA BITCOIN",
+	"accounting_s1_c1": "Karɓar Bitcoin yana da fa'idodi da yawa, ciki har da karɓar kuɗi tare da ƙananan kuɗin aiki da samun sabbin abokan ciniki.",
+	"accounting_s1_c2": "Idan kuna amfani da wallet mai haɗe-haɗe daga jagorancin wallet ɗinmu kuma kuna sayar da 100% na Bitcoin da kuka karɓa zuwa daloli ta atomatik, ba ku buƙatar canza komai a lissafin kuɗinku na yanzu.",
+	"accounting_s1_c3": "Duba jagorancin wallet.",
+	"accounting_s1_c4": "Amma idan kun zaɓi ajiye wani ɓangare na biyan kuɗin Bitcoin da kuka karɓa a Bitcoin, za ku buƙaci bin diddigin wasu abubuwa don lissafin kuɗi. Yana iya zama kamar mai yawa a farkon, amma ainihin abu ne mai sauƙi.",
+	"accounting_s1_c5": "Lura: wannan jagorar don sanarwa ce kawai kuma ba shawarar haraji ba ce.",
+	"accounting_s1_c6": "Idan kuna buƙatar shawarar haraji, muna ba da shawarar Satoshi Pacioli Accounting Services, kamfanin lissafin kuɗi mai ƙwarewa a lissafin kuɗin Bitcoin.",
+	"accounting_s2": "BI DIDDIGIN FARASHIN SIYAN KU",
+	"accounting_s2_c1": "Bin diddigin farashin siya shine babban bambanci tsakanin lissafin kuɗi a daloli da Bitcoin. Ko da kuna tunani game da kasuwancinku a sharuddan Bitcoin kawai, kuna buƙatar ba da rahoton darajar dala na kowane ma'amala a filin harajin ku.",
+	"accounting_s2_c2": "Idan kuna amfani da QuickBooks, kuna iya yin wannan ta atomatik tare da ƙarin Bitcoin Sync.",
+	"accounting_s2_c3": "Idan ba ku amfani da QuickBooks, muna ba da shawarar Satoshi Pacioli Accounting Services, kamfanin lissafin kuɗi mai ƙwarewa a lissafin kuɗin Bitcoin.",
+	"accounting_s2_c4": "Don bin diddigin hannu, kawai ku rubuta adadin Bitcoin da aka karɓa da darajar dala na ma'amalar Bitcoin a wannan rana.",
+	"accounting_s2_c5": "Kuna iya ganin farashin dala na Bitcoin na yanzu a nan.",
+	"accounting_s2_c6": "Bi diddigin waɗannan bayanai a cikin jadawalin Excel kuma ku ba da shi ga mai lissafin kuɗinku.",
+	"accounting_s2_c7": "Kuna iya kuma shigo da waɗannan bayanai zuwa Excel ta atomatik.",
+	"accounting_s2_c8": "Kuna iya kuma ganin farashin dala na Bitcoin na tarihi na kwanakin baya, don haka ba ku buƙatar yin wannan kowace rana.",
+	"accounting_s3": "KASHE KO SAYAR DA BITCOIN",
+	"accounting_s3_c1": "Idan kuna amfani da wallet mai haɗe-haɗe daga jagorancin wallet ɗinmu kuma kuna sayar da 100% na Bitcoin da kuka karɓa zuwa daloli ta atomatik, ba ku buƙatar canza komai a lissafin kuɗinku na yanzu.",
+	"accounting_s3_c2": "Duba jagorancin wallet.",
+	"accounting_s3_c3": "Idan kun zaɓi kashe ko sayar da wani ɓangare na Bitcoin da kuka karɓa daga baya, kawai ku ƙara farashin sayarwa a jadawalin Excel inda kuke bin diddigin farashin siyanku.",
+	"accounting_s3_c4": "Misali, idan kun karɓi Bitcoin mai darajar $100 a ranar 1 ga Janairu kuma kuka yanke shawarar sayar da ko kashe shi a ranar 1 ga Fabrairu da sabon darajar $110, za ku buƙaci rikoɗa ribar jari ta $10 a cikin lissafin kuɗinku.",
+	"accounting_s3_c5": "Wannan na iya aiki a ɓangarorin biyu. Misali, idan kun karɓi Bitcoin mai darajar $100 a ranar 1 ga Janairu kuma kuka yanke shawarar sayar da ko kashe shi a ranar 1 ga Fabrairu da sabon darajar $90, za ku buƙaci rikoɗa asarar jari ta $10 a cikin lissafin kuɗinku.",
+	"accounting_s4": "INA BUƘATAR ƘARIN TAIMAKO",
+	"accounting_s4_c1": "Idan kuna buƙatar ƙarin taimako wajen haɗa Bitcoin cikin lissafin kuɗin kasuwancinku, muna ba da shawarar Satoshi Pacioli Accounting Services, kamfanin lissafin kuɗi mai ƙwarewa a lissafin kuɗin Bitcoin.",
+	"accounting_s4_c2": "Ƙara koyo game da Satoshi Pacioli Accounting Services."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_business_kit": "Kayan Aikin Kasuwancin Bitcoin",
+	"kit_header": "BUGA KAYAN AIKIN KASUWANCIN BITCOIN NAKU",
+	"kit_request": "NEMAN KAYAN AIKI KYAUTA",
+	"kit_request_details": "Kowane kayan aikin kasuwancin Bitcoin ya ƙunshi takardun bugu guda biyu waɗanda ke sauƙaƙa shawo kan kasuwancin gida su karɓi Bitcoin.",
+	"kit_country_global_print": "Duniya baki ɗaya — Na buga kayan aikina kaina",
+	"kit_enter_address": "Shigar da adireshin wasiƙa kuma za mu aiko muku da kayan aikin kasuwancin Bitcoin kyauta a cikin ambulan fari mai sauƙi. Za a share bayanan adireshin bayan an aika kayan aiki.",
+	"kit_print_details": "Kuna iya shiga ta hanyar buga takardun bugu naku ba tare da la'akari da inda kuke zaune ba! Kuna iya kuma jagoranci kasuwanci zuwa kayan aikin dijital don guje wa bugawa.",
+	"kit_view_files": "DUBA FAYILOLI",
+	"kit_digital_kit": "KAYAN AIKIN DIJITAL",
+	"kit_resources": "KOWANE KAYAN AIKI YA HAƊA DA WAƊANNAN KAYAN AIKI KYAUTA"
+}

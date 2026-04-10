@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"bitcoin_lightning_wallet_guide": "Jagorar Wallet ɗin Lightning na Bitcoin",
+	"lightning_description": "Wallets na Lightning suna ba ka damar aika Bitcoin cikin sauri da arha yayin da kake kula da ikonka na mutum ɗaya.",
+	"lightning_header": "JAGORAR WALLET ɗIN LIGHTNING",
+	"lightning_s1_c1": "Lightning yana ba ka damar aika biyan kuɗi na Bitcoin cikin sauri da arha.",
+	"lightning_s1_c2": "Yana da muhimmanci a sani cewa amfani da Lightning yana zuwa da kompromis. A madadin biyan kuɗi na Bitcoin masu sauri da arha, galibi kana sacrificing wani tsaro.",
+	"lightning_s1_c3": "Gaba ɗaya, ya kamata a yi amfani da Lightning tare da ƙananan adadin bitcoin kawai. Ya kamata a ajiye manyan adadin bitcoin a wallet na hardware kawai.",
+	"lightning_s1_c4": "Duba Jagorar Wallet ɗin Hardware don ƙarin bayani.",
+	"lightning_s1_c5": "Ba duk wallets na Lightning iri ɗaya ba ne. Za ka iya sanin wane wallet ke da daidaituwar kompromis da ta dace da kai ta hanyar yin tambaya ɗaya mai sauƙi:",
+	"lightning_question_1": "WACE DAIDAITUWAR KOMPROMIS CE TA DACE DA NI?",
+	"lightning_s2_c1": "Ɗaya daga cikin sabbin abubuwan Bitcoin shine ikon ajiye shi ba tare da mai ajiya ba, kamar banki. Wallets na kula da kanka suna buɗe cikakken ikon Bitcoin.",
+	"lightning_s2_c2": "Da wallet na kula da kanka, kai ne kaɗai da ke da ikon kashe ko canja wurin kuɗinka. Babu wanda zai iya hana ka, tace maka, ko sata daga gare ka.",
+	"lightning_s2_c3": "Hanya mafi ikon mutum ɗaya ta amfani da Lightning shine gudanar da node ɗinka.",
+	"lightning_s2_c4": "Wannan jagora tana mai da hankali kan wallets na Lightning masu sauƙi waɗanda ba su buƙatar node ɗinka ba.",
+	"lightning_s2_c5": "Yana da muhimmanci a sani cewa ko da kana amfani da wallet na Lightning mara ajiya, har yanzu kana amincewa da mai ƙirƙirar wallet ɗin ya bar buga sabuntawa mai cutarwa.",
+	"lightning_s3_c1": "Wallets na ajiya wallets ne inda ba ka iko da kuɗinka.",
+	"lightning_s3_c2": "Waɗannan wallets sun fi kama da tsarin banki inda dole ne ka amince da ɓangare na uku don samun kuɗinka.",
+	"lightning_s3_c3": "Wallets na ajiya za su iya zama masu sauƙi, amma mai ajiya yana da ikon fasaha na satar duk kuɗin masu amfani a kowane lokaci.",
+	"lightning_s3_c4": "Wasu mutane sun fi son wallets na Lightning na ajiya don ƙananan adadin bitcoin saboda sauƙinsu. Kawai ka tuna: ba makullan ka ba, ba tsabar kuɗin ka ba!",
+	"lightning_question_2": "ZAƁI WALLET ɗINKA",
+	"lightning_s4_c1": "Da duk wannan a zuciya, yanzu za ka iya zaɓar wallet ɗin Lightning da ke da daidaituwar kompromis da ta dace da kai.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Fasaloli da yawa",
+	"lightning_mobile_app": "Manhajar wayar hannu",
+	"lightning_free": "100% kyauta",
+	"lightning_merchants": "Mai kyau ga 'yan kasuwa",
+	"lightning_starter": "Wallet mai kyau na farawa",
+	"lightning_browser": "Na burauzar",
+	"lightning_custodial": "Wallet na ajiya cikakke",
+	"lightning_cta_hardware": "Kana neman Jagorar Wallet ɗin Hardware na Bitcoin?"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "ha"
+	},
+	"signs_description": "Taimaka mana sanya waɗannan alamomin Bitcoin a ko'ina cikin Amurka!",
+	"signs_title": "Alamomin Bitcoin kyauta daga bitcoin.rocks",
+	"signs_choose_header": "MUNGODE DA KUKA TAIMAKA MANA SANYA WAƊANNAN ALAMOMIN BITCOIN A KO'INA CIKIN AMURKA!",
+	"signs_choose_c1": "An ƙare mana alamomi! Manufarmu ita ce hanzarta amfani da Bitcoin ta hanyar ilimi.",
+	"signs_choose_c2": "Da yawa daga cikinku sun taimaka wajen sanya waɗannan alamomin Bitcoin kyauta a wuraren jama'a. Duk alamominmu suna da lambobin QR da ke haɗa zuwa shafin ilimi game da",
+	"signs_choose_c3": "hauhawar farashi",
+	"signs_choose_c4": "Godiya ga al'ummarmu mai ban sha'awa, mun kai ga dubban mutane kuma mun taimaka musu su ɗauki matakan farko zuwa ramin Bitcoin.",
+	"signs_share_header": "RABA WURAREN ALAMOMIN KU",
+	"signs_share_c1": "Raba hoton wurin alama a Nostr kuma ku ga inda wasu ke sanya alamominsu.",
+	"signs_btn_share_on_nostr": "RABA A NOSTR",
+	"signs_btn_what_is_nostr": "MENENE NOSTR?",
+	"signs_instructions_1": "Shigar da adireshin wasiƙar ku kuma za mu aiko muku da akwatin da ke ɗauke da alamomin Bitcoin 10 a wasiƙa!",
+	"signs_instructions_2": "Za a share bayanan adireshin bayan an aika alamomin kyauta."
+}
