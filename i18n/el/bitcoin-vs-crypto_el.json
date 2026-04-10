@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-09",
+		"locale": "el"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs crypto",
+	"crypto_header": "Η ΔΙΑΦΟΡΑ",
+	"crypto_header_2": "ΜΕΤΑΞΥ",
+	"crypto_header_3": "BITCOIN",
+	"crypto_header_4": "ΚΑΙ CRYPTO",
+	"crypto_intro_1": "Ο κλάδος των κρυπτονομισμάτων έχει εκραγεί σε χιλιάδες διαφορετικά ψηφιακά tokens.",
+	"crypto_intro_2": "Ενώ το Bitcoin ήταν το πρώτο και παραμένει το πιο γνωστό, διαφέρει θεμελιωδώς.",
+	"crypto_intro_3": "Ας εξετάσουμε τις διαφορές μεταξύ Bitcoin και crypto.",
+	"crypto": "CRYPTO",
+	"bitcoin": "BITCOIN",
+	"crypto_point_1": "Συνεχείς αλλαγές και forks",
+	"crypto_point_2": "Κεντρικός έλεγχος",
+	"crypto_point_3": "Απεριόριστη ή πληθωριστική προσφορά",
+	"crypto_point_4": "Πολύπλοκα πρωτόκολλα",
+	"crypto_point_5": "Πειραματικοί μηχανισμοί συναίνεσης",
+	"crypto_point_6": "Κερδοσκοπικά utility tokens",
+	"crypto_point_7": "Εύθραυστο",
+	"crypto_point_8": "Υποστήριξη εταιρειών",
+	"bitcoin_point_1": "Αμετάβλητο πρωτόκολλο",
+	"bitcoin_point_2": "Πραγματικά αποκεντρωμένο",
+	"bitcoin_point_3": "Σταθερή προσφορά 21M BTC",
+	"bitcoin_point_4": "Απλό και προσβάσιμο",
+	"bitcoin_point_5": "Δοκιμασμένο Proof of Work",
+	"bitcoin_point_6": "Καθαρό ψηφιακό χρήμα",
+	"bitcoin_point_7": "Αντιεύθραυστο",
+	"bitcoin_point_8": "Κανείς δεν το ελέγχει",
+	"point_1_summary_1": "Το πρωτόκολλο του Bitcoin παραμένει αμετάβλητο από το 2009. Τα περισσότερα crypto αλλάζουν συχνά.",
+	"point_2_summary_1": "Το Bitcoin λειτουργεί σε πραγματικά αποκεντρωμένο δίκτυο. Πολλά crypto ελέγχονται από ιδρύματα ή μικρές ομάδες.",
+	"point_3_summary_1": "Το ανώτατο όριο του Bitcoin είναι 21 εκατομμύρια. Τα περισσότερα crypto έχουν απεριόριστη προσφορά.",
+	"point_4_summary_1": "Το Bitcoin έχει έναν απλό σκοπό: ψηφιακό χρήμα peer-to-peer. Πολλά crypto είναι πολύπλοκα.",
+	"point_5_summary_1": "Το Bitcoin χρησιμοποιεί Proof of Work, δοκιμασμένο επιτυχώς για πάνω από 15 χρόνια. Πολλά crypto χρησιμοποιούν πειραματικούς μηχανισμούς.",
+	"point_6_summary_1": "Το Bitcoin λειτουργεί ως ψηφιακό χρήμα. Τα περισσότερα crypto tokens είναι κερδοσκοπικά.",
+	"point_7_summary_1": "Το Bitcoin ενισχύεται από τις επιθέσεις. Τα περισσότερα crypto είναι εύθραυστα.",
+	"point_8_summary_1": "Το Bitcoin δεν έχει CEO, εταιρεία ούτε μοναδικό σημείο αποτυχίας. Πολλά crypto υποστηρίζονται από venture capital."
+}

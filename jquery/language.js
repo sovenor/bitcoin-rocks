@@ -43,6 +43,7 @@ $(function() {
     { code: 'sv', name: 'Svenska' },
     { code: 'tl', name: 'Tagalog' },
     { code: 'vi', name: 'Tiếng Việt' },
+    { code: 'el', name: 'Ελληνικά' },
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },
     { code: 'ar', name: 'العربية' },

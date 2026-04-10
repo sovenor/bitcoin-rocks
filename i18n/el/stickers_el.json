@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "el"
+	},
+	"free_bitcoin_stickers": "Δωρεάν αυτοκόλλητα Bitcoin από το bitcoin.rocks",
+	"stickers_description": "Βάλτε ένα αυτοκόλλητο Bitcoin σε δημόσιο χώρο για να πείσετε αυτούς γύρω σας.",
+	"stickers_header": "ΔΩΡΕΑΝ ΑΥΤΟΚΟΛΛΗΤΑ BITCOIN",
+	"stickers_choose_header": "ΕΠΙΛΕΞΤΕ ΤΟ ΠΑΚΕΤΟ ΑΥΤΟΚΟΛΛΗΤΩΝ ΣΑΣ",
+	"stickers_choose_c1": "Η αποστολή μας είναι να σας βοηθήσουμε να πείσετε περισσότερους ανθρώπους βάζοντας αυτοκόλλητα Bitcoin σε δημόσιους χώρους. Όλα τα αυτοκόλλητά μας έχουν κωδικούς QR που συνδέονται με εκπαιδευτικές σελίδες για",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "πληθωρισμό",
+	"stickers_choose_c4": "Επιλέξτε το πακέτο αυτοκόλλητων σας παρακάτω",
+	"stickers_text_pack": "ΤΟ ΠΑΚΕΤΟ ΚΕΙΜΕΝΟΥ",
+	"stickers_signs_pack": "ΤΟ ΠΑΚΕΤΟ ΠΙΝΑΚΙΔΩΝ",
+	"stickers_instructions_1": "Εισάγετε τη διεύθυνση αλληλογραφίας σας και θα σας στείλουμε ένα δωρεάν Πακέτο Αυτοκόλλητων Bitcoin ταχυδρομικά! Τα αυτοκόλλητά σας θα αποσταλούν σε απλό λευκό φάκελο.",
+	"stickers_instructions_2": "Τα δεδομένα διεύθυνσης διαγράφονται μετά την αποστολή των δωρεάν αυτοκόλλητων σας.",
+	"stickers_share_header": "ΜΟΙΡΑΣΤΕΙΤΕ ΤΙΣ ΤΟΠΟΘΕΣΙΕΣ ΤΩΝ ΑΥΤΟΚΟΛΛΗΤΩΝ",
+	"stickers_share_c1": "Μοιραστείτε τα σημεία τοποθέτησης αυτοκόλλητων μαζί μας στο Nostr και δείτε πού βάζουν οι άλλοι τα αυτοκόλλητά τους.",
+	"stickers_btn_share_on_nostr": "ΜΟΙΡΑΣΤΕΙΤΕ ΣΤΟ NOSTR",
+	"stickers_btn_what_is_nostr": "ΤΙ ΕΙΝΑΙ ΤΟ NOSTR;",
+	"stickers_flyers_link_before": "Ενόσω είστε εδώ, εκτυπώστε και αναρτήστε τα δικά σας ",
+	"stickers_flyers_link_text": "φυλλάδια Bitcoin",
+	"stickers_flyers_link_after": " για να πείσετε ακόμα περισσότερους ανθρώπους.",
+	"stickers_country_global_print": "Παγκόσμια — Εκτύπωση δικών μου αυτοκόλλητων",
+	"stickers_country_global_order": "Παγκόσμια — Παραγγελία σε μεγάλες ποσότητες",
+	"placeholder_name_optional": "Όνομα (προαιρετικό)",
+	"placeholder_address_line_1": "Γραμμή Διεύθυνσης 1",
+	"placeholder_address_line_2": "Γραμμή Διεύθυνσης 2 (προαιρετικό)",
+	"placeholder_city": "Πόλη",
+	"placeholder_state": "Πολιτεία",
+	"placeholder_province": "Επαρχία",
+	"placeholder_zip_code": "Ταχυδρομικός Κώδικας",
+	"placeholder_postal_code": "Ταχυδρομικός Κώδικας",
+	"placeholder_language": "Γλώσσα",
+	"placeholder_which_stickers": "Ποια αυτοκόλλητα;",
+	"placeholder_email_optional": "Εισάγετε το email σας για ειδοποίηση (προαιρετικό)"
+}

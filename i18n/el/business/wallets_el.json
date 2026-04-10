@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-09",
+		"locale": "el"
+	},
+	"how_to_accept_bitcoin_payments": "Πώς να αποδεχτείτε πληρωμές Bitcoin",
+	"wallets_header": "ΑΠΟΚΤΗΣΤΕ ΔΩΡΕΑΝ ΠΟΡΤΟΦΟΛΙ BITCOIN ΓΙΑ ΛΗΨΗ ΠΛΗΡΩΜΩΝ",
+	"wallets_intro_1": "Όλα τα πορτοφόλια Bitcoin είναι συμβατά μεταξύ τους.",
+	"wallets_intro_2": "Καθαρά πορτοφόλια Bitcoin:",
+	"wallets_intro_3": "Αυτά ξεκλειδώνουν όλα τα πλεονεκτήματα του Bitcoin: χωρίς μεσάζοντες, χαμηλές προμήθειες, καμία αντιστροφή χρεώσεων ή απάτη.",
+	"wallets_intro_4": "Υβριδικά πορτοφόλια:",
+	"wallets_intro_5": "Αυτά σας επιτρέπουν να μετατρέψετε οποιοδήποτε ποσοστό Bitcoin σε δολάρια αμέσως.",
+	"wallets_intro_6": "Και οι δύο τύποι είναι εξαιρετικοί τρόποι αποδοχής Bitcoin.",
+	"wallets_choice_sole": "πορτοφόλια για ατομικές επιχειρήσεις",
+	"wallets_choice_multiple": "πορτοφόλια για επιχειρήσεις με πολλούς υπαλλήλους",
+	"wallets_choice_online": "πορτοφόλια για διαδικτυακές επιχειρήσεις",
+	"wallets_choice_invoice": "πορτοφόλια για τιμολόγηση",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Μπορείτε να δέχεστε πληρωμές Bitcoin με το υπάρχον Square PoS σας.",
+	"wallets_feature_bitcoin_only": "Καθαρό πορτοφόλι Bitcoin",
+	"wallets_feature_no_info": "Δεν απαιτούνται στοιχεία",
+	"wallets_feature_in_person": "Μόνο προσωπικές πληρωμές",
+	"wallets_feature_settles_bitcoin": "Διακανονισμός 100% σε Bitcoin",
+	"wallets_feature_hybrid": "Υβριδικό πορτοφόλι",
+	"wallets_feature_info": "Απαιτούνται στοιχεία επιχείρησης",
+	"wallets_feature_in_person_online": "Προσωπικές και διαδικτυακές πληρωμές",
+	"wallets_feature_settles_both": "Διακανονισμός σε Bitcoin και δολάρια",
+	"wallets_feature_multiple_employees": "Υποστήριξη πολλών υπαλλήλων (BPT)",
+	"wallets_feature_self_hosted": "Ιδιοφιλοξενία = 0% προμήθειες",
+	"wallets_feature_online_store": "Ολοκλήρωση ηλεκτρονικού καταστήματος",
+	"wallets_feature_invoicing": "Δωρεάν λογισμικό τιμολόγησης",
+	"wallets_get_wallet": "ΑΠΟΚΤΗΣΤΕ ΠΟΡΤΟΦΟΛΙ"
+}

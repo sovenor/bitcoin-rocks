@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-09",
+		"locale": "el"
+	},
+	"bitcoin_business_kit": "Πακέτο επιχείρησης Bitcoin",
+	"kit_header": "ΕΚΤΥΠΩΣΤΕ ΤΟ ΔΙΚΟ ΣΑΣ ΠΑΚΕΤΟ ΕΠΙΧΕΙΡΗΣΗΣ BITCOIN",
+	"kit_request": "ΠΑΡΑΓΓΕΙΛΕΤΕ ΔΩΡΕΑΝ ΠΑΚΕΤΟ",
+	"kit_request_details": "Κάθε πακέτο περιλαμβάνει δύο φυλλάδια.",
+	"kit_country_global_print": "Παγκόσμια — Θα εκτυπώσω τα δικά μου",
+	"kit_enter_address": "Εισάγετε τη διεύθυνσή σας και θα σας στείλουμε ένα δωρεάν πακέτο.",
+	"kit_print_details": "Μπορείτε επίσης να εκτυπώσετε τα δικά σας φυλλάδια!",
+	"kit_view_files": "ΔΕΙΤΕ ΑΡΧΕΙΑ",
+	"kit_digital_kit": "ΨΗΦΙΑΚΟ ΠΑΚΕΤΟ",
+	"kit_resources": "ΚΑΘΕ ΠΑΚΕΤΟ ΣΥΝΔΕΕΤΑΙ ΜΕ ΑΥΤΟΥΣ ΤΟΥΣ ΔΩΡΕΑΝ ΠΟΡΟΥΣ"
+}
