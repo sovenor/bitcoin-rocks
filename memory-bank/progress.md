@@ -1,5 +1,17 @@
 # Progress: bitcoin.rocks
 
+## Punjabi (pa) Language Added — April 2026
+- Added Punjabi (ਪੰਜਾਬੀ) as the 48th language
+- Created 90 translation files in `i18n/pa/` mirroring the English directory structure
+- Translation scripts in `scripts/punjabi/` (8 scripts broken by category)
+- Used Devanagari-to-Gurmukhi transliteration from Hindi translations for comparisons, common, index, inflation, and content files (Hindi and Punjabi share vocabulary, +0x100 Unicode offset)
+- Simple files, sticker files, and business files created with direct Gurmukhi translations
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (47→48)
+- Ran SEO content injection
+- Language code: `pa`
+- Display name: `ਪੰਜਾਬੀ` (placed after বাংলা/Bengali and before தமிழ்/Tamil in language switcher per Gurmukhi Unicode range U+0A00)
+- Punjabi uses Gurmukhi script; translations produced via Devanagari-to-Gurmukhi transliteration from Hindi
+
 ## Persian (fa) Language Added — April 2026
 - Added Persian (فارسی) as the 47th language
 - Translation files already existed in `i18n/fa/` (created in previous session via 8 scripts in `scripts/persian/`)
