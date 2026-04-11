@@ -48,6 +48,7 @@ $(function() {
     { code: 'sv', name: 'Svenska' },
     { code: 'tl', name: 'Tagalog' },
     { code: 'vi', name: 'Tiếng Việt' },
+    { code: 'tr', name: 'Türkçe' },
     { code: 'el', name: 'Ελληνικά' },
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },

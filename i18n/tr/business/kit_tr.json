@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "tr"
+	},
+	"bitcoin_business_kit": "Bitcoin işletme kiti",
+	"kit_header": "BİTCOİN İŞLETME KİTİNİZİ BASTIRIR",
+	"kit_request": "ÜCRETSİZ KİT TALEP EDİN",
+	"kit_request_details": "Her Bitcoin işletme kiti, yerel bir işletmeyi Bitcoin kabul etmeye ikna etmenizi kolaylaştıran iki broşür içerir.",
+	"kit_country_global_print": "Dünya geneli — Kendi kitlerimimi basacağım",
+	"kit_enter_address": "Posta adresinizi girin, size düz beyaz bir zarfta ücretsiz bir Bitcoin işletme kiti göndereceğiz. Adres bilgileri kit gönderildikten sonra silinir.",
+	"kit_print_details": "Nerede yaşarsanız yaşayın, kendi broşürlerinizi basarak katılabilirsiniz! Ayrıca baskıdan kaçınmak için işletmeleri dijital işletme kitimize yönlendirebilirsiniz.",
+	"kit_view_files": "DOSYALARI GÖRÜNTÜLE",
+	"kit_digital_kit": "DİJİTAL KİT",
+	"kit_resources": "HER KİT BU ÜCRETSİZ KAYNAKLARA REFERANS VERİR"
+}

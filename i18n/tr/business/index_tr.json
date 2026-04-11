@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "tr"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin işletmeler için iyidir",
+	"biz_header": "BİTCOİN İŞLETMELER İÇİN İYİDİR",
+	"biz_s1": "Minimum tutar olmadan düşük ücretler",
+	"biz_s1_c1": "Bitcoin, tıpkı nakit gibi doğrudan müşterilerinizden ödeme almanızı sağlar. Bitcoin ağı, yüksek ücretler alan bankalar ve kredi kartı şirketleri gibi aracılar olmadan çalışır.",
+	"biz_s2": "Anında ödeme",
+	"biz_s2_c1": "Nakit gibi, Bitcoin ödemeleri de anında gerçekleşir. Kredi kartı şirketinin veya bankanın size para göndermesini beklemenize gerek yok. Bunun yerine, paranıza anında erişirsiniz.",
+	"biz_s3": "Ters ibraz veya dolandırıcılık yok",
+	"biz_s3_c1": "Bitcoin ödemeleri doğrudan sizinle müşterileriniz arasında gerçekleştiğinden, hiç kimse ters ibraz yoluyla paranızı geri alamaz.",
+	"biz_s3_c2": "Sahte Bitcoin, Bitcoin ağı üzerinden gönderilemez, bu da işletmenize maliyet oluşturan dolandırıcılık işlemlerinden endişe etmenize gerek olmadığı anlamına gelir.",
+	"biz_s4": "Daha fazla müşteri kazanın",
+	"biz_s4_c1": "Milyonlarca insan Bitcoin sahibi ve onu kabul eden yerlerde harcamak istiyor.",
+	"biz_s4_c2": "Sadece Bitcoin kabul ederek, işletmeniz Bitcoin kabul eden tüccar haritalarında listelenebilir ve yeni müşterilere ücretsiz olarak ulaşabilir.",
+	"biz_s4_c3": "Bitcoin kabul etmek %100 ücretsizdir. Sözleşme veya gizli ücret yoktur."
+}

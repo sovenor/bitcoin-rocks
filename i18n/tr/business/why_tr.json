@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "tr"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Bitcoin'in işletmeler için neden iyi olduğunu öğrenin",
+	"why_header": "BİTCOİN İŞLETMELER İÇİN İYİDİR",
+	"why_good_for_you": "BİTCOİN SİZİN İÇİN DE İYİDİR!",
+	"why_learn_more_lowercase": "Daha fazla öğrenin.",
+	"why_s1": "Bitcoin'in enflasyonu yoktur",
+	"why_s1_c1": "Enflasyon, yoktan daha fazla para basıldığında veya yaratıldığında ortaya çıkar. Bu, paranızın zamanla değer kaybetmesine neden olur.",
+	"why_s1_c2": "Bitcoin'in sabit arzı vardır, bu da hiç kimsenin daha fazla Bitcoin basamayacağı anlamına gelir.",
+	"why_s2": "Bitcoin'de banka hücumları olmaz",
+	"why_s2_c1": "Son yıllarda birçok Amerikan bankası banka hücumları nedeniyle çökmüştür.",
+	"why_s2_c2": "Bankalar paranızı sadece saklamak yerine, yatırım yapar ve borç verir. Bu yatırımlar başarısız olursa, paranızı iade edecek yeterli fonları kalmaz.",
+	"why_s2_c3": "Ve FDIC sigorta fonu, sigortaladığı her 100 doların yalnızca 1 dolarına sahiptir.",
+	"why_s3": "Bitcoin izinsizdir",
+	"why_s3_c1": "Geleneksel finans ağlarından farklı olarak, Bitcoin kullanmak için izin gerektirmez.",
+	"why_s3_c2": "Bu, hiç kimsenin herhangi bir nedenle Bitcoin kullanmanızı engelleyemeyeceği anlamına gelir. Sansür veya el koyma endişesi olmadan kullanabileceğiniz ilk finansal ağdır.",
+	"why_s4": "Bitcoin daha iyi bir dünya inşa ediyor",
+	"why_s4_c1": "Bitcoin, daha iyi bir dünya inşa eden yanlış anlaşılmış bir teknolojidir.",
+	"why_s4_c2": "Bitcoin, insan hakları savunucularının özgürlük için mücadele etmesini sağlamış, küresel metan emisyonlarını azaltmış, milli parkları kurtarmış ve çok daha fazlasını yapmıştır."
+}

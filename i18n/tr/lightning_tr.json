@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "tr"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning cüzdan rehberi",
+	"lightning_description": "Lightning cüzdanları, kişisel egemenliğinizi korurken Bitcoin'i hızlı ve ucuz göndermenizi sağlar.",
+	"lightning_header": "LIGHTNING CÜZDAN REHBERİ",
+	"lightning_s1_c1": "Lightning, Bitcoin ödemelerini hızlı ve ucuz göndermenizi sağlar.",
+	"lightning_s1_c2": "Lightning kullanmanın ödünleşimler getirdiğini bilmek önemlidir. Daha hızlı ve daha ucuz Bitcoin ödemeleri karşılığında genellikle biraz güvenlikten ödün verirsiniz.",
+	"lightning_s1_c3": "Genel olarak, Lightning yalnızca küçük miktardaki bitcoin ile kullanılmalıdır. Büyük miktardaki bitcoin her zaman bir donanım cüzdanında saklanmalıdır.",
+	"lightning_s1_c4": "Daha fazla bilgi için donanım cüzdan rehberimize göz atın.",
+	"lightning_s1_c5": "Tüm Lightning cüzdanları eşit değildir. Hangi cüzdanın sizin için doğru ödünleşim dengesine sahip olduğunu basit bir soruyu cevaplayarak öğrenin:",
+	"lightning_question_1": "BENİM İÇİN DOĞRU ÖDÜNLEŞİM DENGESİ HANGİSİ?",
+	"lightning_s2_c1": "Bitcoin'in yeniliklerinden biri, banka gibi bir saklayıcıya güvenmeden saklama yeteneğidir. Kendi gözetim cüzdanları Bitcoin'in tam gücünü açığa çıkarır.",
+	"lightning_s2_c2": "Kendi gözetim cüzdanıyla, paranızı harcama veya transfer etme yeteneğine sahip olan tek kişi sizsiniz. Kendi gözetim cüzdanı kullanırken hiç kimse sizi durduramaz, sansürleyemez veya çalamaz. Bunlara emanetsiz cüzdanlar da denir.",
+	"lightning_s2_c3": "Lightning kullanmanın en egemen yolu kendi düğümünüzü çalıştırmaktır.",
+	"lightning_s2_c4": "Bu rehber, kendi düğümünüzü gerektirmeyen basit Lightning cüzdanlarına odaklanmaktadır.",
+	"lightning_s2_c5": "Emanetsiz bir Lightning cüzdanı kullanırken bile, cüzdan geliştiricisinin zararlı bir uygulama güncellemesi uygulayıp fonlarınızı çalmayacağına güvendiğinizi bilmek önemlidir.",
+	"lightning_s3_c1": "Emanet cüzdanları, paranız üzerinde kontrolünüzün olmadığı cüzdanlardır.",
+	"lightning_s3_c2": "Bu cüzdanlar, paranıza erişim için üçüncü bir tarafa güvenmeniz gereken bankacılık sistemine daha çok benzer. Bitcoin'iniz bir borsadaysa, emanet cüzdanı kullanıyorsunuzdur.",
+	"lightning_s3_c3": "Emanet cüzdanları kullanışlı görünebilir, ancak emanetçi teknik olarak tüm kullanıcı fonlarını istediği zaman çalma yeteneğine sahiptir.",
+	"lightning_s3_c4": "Bazı insanlar, kullanım kolaylığı nedeniyle küçük miktarlardaki bitcoin için emanet Lightning cüzdanlarını tercih eder. Sadece unutmayın: sizin anahtarlarınız değilse, sizin coin'leriniz değildir!",
+	"lightning_question_2": "CÜZDANINIZI SEÇİN",
+	"lightning_s4_c1": "Tüm bunları göz önünde bulundurarak, artık sizin için doğru ödünleşim dengesine sahip bir Lightning cüzdanı seçebilirsiniz.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Çok sayıda özellik",
+	"lightning_mobile_app": "Mobil uygulama",
+	"lightning_free": "%100 ücretsiz",
+	"lightning_merchants": "Tüccarlar için harika",
+	"lightning_starter": "Harika başlangıç cüzdanı",
+	"lightning_browser": "Tarayıcıda",
+	"lightning_custodial": "Tamamen emanet cüzdan",
+	"lightning_cta_hardware": "Donanım Bitcoin cüzdan rehberimizi mi arıyorsunuz?"
+}
