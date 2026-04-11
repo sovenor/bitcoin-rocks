@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Persian (fa) Language Added — April 2026
+- Added Persian (فارسی) as the 47th language
+- Translation files already existed in `i18n/fa/` (created in previous session via 8 scripts in `scripts/persian/`)
+- Fixed 15 missing keys and ~100 untranslated strings (country names, platform descriptions, inflation texts, wallet costs) via `scripts/persian/fix-missing-and-untranslated.js`
+- Updated: index.html schema, llms.txt, llms-full.txt, all about_xx.json files (46→47)
+- Ran SEO content injection
+- Language code: `fa`
+- Display name: `فارسی` (already registered in language.js, placed after العربية per Arabic script Unicode range)
+- Persian is RTL (right-to-left), uses Arabic script; all translations in proper Persian
+
 ## Irish (ga) Language Added — April 2026
 - Added Irish (Gaeilge) as the 46th language
 - Created 90+ translation files in `i18n/ga/` mirroring the English directory structure

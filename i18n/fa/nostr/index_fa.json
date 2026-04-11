@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "fa"
+	},
+	"nostr_page_title": "Nostr | bitcoin.rocks",
+	"nostr_description": "Nostr یک پروتکل جدید است که به شما امکان می‌دهد بدون ترس از سانسور آنلاین ارتباط برقرار کنید.",
+	"nostr_header": "به NOSTR بپیوندید",
+	"escape_the_matrix_with_nostr": "با Nostr از ماتریکس فرار کنید"
+}

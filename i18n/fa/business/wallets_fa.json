@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "fa"
+	},
+	"how_to_accept_bitcoin_payments": "چگونه پرداخت‌های بیت‌کوین را بپذیریم",
+	"wallets_header": "یک کیف پول بیت‌کوین رایگان برای پذیرش پرداخت‌های بیت‌کوین دریافت کنید",
+	"wallets_intro_1": "همه کیف پول‌های بیت‌کوین سازگار هستند، بنابراین مشتریان شما می‌توانند با هر کیف پولی که استفاده می‌کنند به شما بیت‌کوین بپردازند.",
+	"wallets_intro_2": "کیف پول‌های فقط بیت‌کوین:",
+	"wallets_intro_3": "اینها کیف پول‌های بیت‌کوین خالص هستند که همه مزایای بیت‌کوین را باز می‌کنند: بدون واسطه، کارمزد کم، و بدون بازگشت یا کلاهبرداری.",
+	"wallets_intro_4": "کیف پول‌های ترکیبی:",
+	"wallets_intro_5": "به شما امکان می‌دهند هر درصدی از بیت‌کوین را بلافاصله پس از پرداخت مشتری به دلار تبدیل کنید. کارمزدها همچنان کمتر از پرداخت‌های کارت اعتباری است، اما بیشتر از پرداخت‌های خالص بیت‌کوین.",
+	"wallets_intro_6": "هر دو روش عالی برای پذیرش بیت‌کوین هستند. کیف پول خاصی که استفاده می‌کنید بستگی به اندازه و نوع کسب‌وکار شما دارد.",
+	"wallets_choice_sole": "کیف پول‌ها برای کسب‌وکارهای انفرادی",
+	"wallets_choice_multiple": "کیف پول‌ها برای کسب‌وکارهای با چند کارمند",
+	"wallets_choice_online": "کیف پول‌ها برای کسب‌وکارهای آنلاین",
+	"wallets_choice_invoice": "کیف پول‌ها برای کسب‌وکارهای فاکتوری",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "می‌توانید پرداخت‌های بیت‌کوین را با پایانه Square PoS موجود یا ادغام فروشگاه آنلاین خود بپذیرید. پذیرش پرداخت‌های بیت‌کوین هرگز آسان‌تر نبوده است.",
+	"wallets_feature_bitcoin_only": "کیف پول فقط بیت‌کوین",
+	"wallets_feature_no_info": "نیازی به اطلاعات نیست",
+	"wallets_feature_in_person": "فقط پرداخت‌های حضوری",
+	"wallets_feature_settles_bitcoin": "تسویه ۱۰۰٪ با بیت‌کوین",
+	"wallets_feature_hybrid": "کیف پول ترکیبی",
+	"wallets_feature_info": "اطلاعات کسب‌وکار لازم است",
+	"wallets_feature_in_person_online": "پرداخت‌های حضوری و آنلاین",
+	"wallets_feature_settles_both": "تسویه با بیت‌کوین و دلار",
+	"wallets_feature_multiple_employees": "پشتیبانی از چند کارمند (BPTs)",
+	"wallets_feature_self_hosted": "میزبانی شخصی = ۰٪ کارمزد",
+	"wallets_feature_online_store": "ادغام فروشگاه آنلاین",
+	"wallets_feature_invoicing": "نرم‌افزار فاکتور رایگان",
+	"wallets_get_wallet": "دریافت کیف پول"
+}

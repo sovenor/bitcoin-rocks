@@ -50,6 +50,7 @@ $(function() {
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },
     { code: 'ar', name: 'العربية' },
+    { code: 'fa', name: 'فارسی' },
     { code: 'he', name: 'עברית' },
     { code: 'hi', name: 'हिन्दी' },
     { code: 'bn', name: 'বাংলা' },

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "fa"
+	},
+	"free_bitcoin_postcards": "کارت‌پستال‌های رایگان بیت‌کوین از bitcoin.rocks",
+	"postcards_description": "یک بسته کارت‌پستال رایگان بیت‌کوین دریافت کنید.",
+	"postcards_header": "برنامه کارت‌پستال بسته شده است",
+	"postcards_program_closed_message": "برنامه کارت‌پستال رایگان بیت‌کوین ما پایان یافته است.",
+	"postcards_sticker_alternative_header": "به جای آن برچسب‌های رایگان بیت‌کوین دریافت کنید",
+	"postcards_sticker_alternative_message": "با برنامه برچسب رایگان ما به گسترش آگاهی از بیت‌کوین ادامه دهید!",
+	"postcards_sticker_cta": "برچسب‌های رایگان دریافت کنید",
+	"postcards_step_2": "کارت‌پستال‌ها چه شکلی بودند",
+	"postcards_instructions_4": "ما این کارت‌پستال‌ها را ساختیم تا معرفی بیت‌کوین را آسان‌تر کنیم!",
+	"postcards_instructions_5": "مأموریت ما تسریع پذیرش بیت‌کوین است.",
+	"postcards_instructions_6": "همه ما چند نفری را می‌شناسیم که می‌توانند از یادگیری بیشتر درباره بیت‌کوین بهره‌مند شوند."
+}

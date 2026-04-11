@@ -1,6 +1,15 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Hebrew (he) Language Added — April 11, 2026
+## Latest: Persian (fa) Language Added — April 11, 2026
+- Added Persian (فارسی) as the 47th language
+- Translation files already existed in `i18n/fa/` from previous session (8 scripts in `scripts/persian/`)
+- Language was already registered in `language.js` from previous session
+- Fixed 15 missing keys and ~100 untranslated strings (country names, platform descriptions, inflation texts, wallet costs) via `scripts/persian/fix-missing-and-untranslated.js`
+- Completed remaining registration: index.html schema (`"fa"` added to inLanguage), llms.txt (Persian added, 46→47), llms-full.txt (46→47), about page count (46→47 across all languages), SEO injection
+- فارسی placed after العربية (Arabic) in language.js per Arabic/Persian script Unicode range
+- Persian is RTL (right-to-left), uses Arabic script with additional letters (پ، چ، ژ، گ)
+
+## Hebrew (he) Language Added — April 11, 2026
 - Added Hebrew (עברית) as the 44th language
 - Translation files already existed in `i18n/he/` from previous session
 - Fixed 7 missing keys, 43 untranslated language names, 31 untranslated inflation currency texts via fix script

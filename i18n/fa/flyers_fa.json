@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "fa"
+	},
+	"free_bitcoin_flyers": "بروشورهای رایگان بیت‌کوین از bitcoin.rocks",
+	"flyers_description": "یک بروشور بیت‌کوین در خانه چاپ کنید و در مکان عمومی نصب کنید.",
+	"flyers_header_1": "چاپ و نصب",
+	"flyers_header_2": "بروشورهای بیت‌کوین",
+	"flyers_intro_header": "چگونه این بروشورهای بیت‌کوین را چاپ و نصب کنیم",
+	"flyers_intro_c1": "مأموریت ما کمک به شماست تا با نصب بروشورهای بیت‌کوین در اماکن عمومی افراد بیشتری را آشنا کنید. این بروشور کد QR دارد که به",
+	"flyers_intro_c2": "وب‌سایت آموزشی بیت‌کوین ما لینک می‌دهد.",
+	"flyers_intro_c3": "تورم",
+	"flyers_intro_c4": "این بروشور را در خانه یا چاپخانه چاپ کنید. سپس روی تابلوهای اعلانات، تیرهای تلفن و فضاهای عمومی نصب کنید.",
+	"flyers_intro_c5": "در همین حین، یک بسته از",
+	"flyers_intro_c6": "برچسب‌های رایگان بیت‌کوین",
+	"flyers_intro_c7": "درخواست کنید.",
+	"flyers_btn_download": "دانلود بروشور",
+	"flyers_btn_print": "چاپ بروشور",
+	"flyers_share_header": "مکان‌های بروشور خود را به اشتراک بگذارید",
+	"flyers_share_c1": "مکان‌های بروشور خود را با ما در Nostr به اشتراک بگذارید.",
+	"flyers_btn_share_on_nostr": "اشتراک در NOSTR",
+	"flyers_btn_what_is_nostr": "NOSTR چیست؟"
+}
