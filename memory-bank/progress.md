@@ -1,5 +1,16 @@
 # Progress: bitcoin.rocks
 
+## Slovenian (sl) Language Added — April 2026
+- Added Slovenian (Slovenščina) as the 51st language
+- Created 90+ translation files in `i18n/sl/` mirroring the English directory structure
+- Translation scripts in `scripts/slovenian/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (50→51)
+- Ran SEO content injection
+- Language code: `sl`
+- Display name: `Slovenščina` (placed alphabetically between Slovenčina/Slovak and Suomi/Finnish in language switcher)
+- Slovenian uses Latin script with diacritics (č, š, ž) — no special character concerns
+- Note: Slovenian (sl, Slovenščina) is distinct from Slovak (sk, Slovenčina) — South Slavic vs West Slavic
+
 ## Sinhala (si) Language Added — April 2026
 - Added Sinhala (සිංහල) as the 50th language
 - Created 90+ translation files in `i18n/si/` mirroring the English directory structure

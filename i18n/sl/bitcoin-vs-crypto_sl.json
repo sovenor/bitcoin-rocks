@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"bitcoin_vs_crypto": "Bitcoin proti kriptu",
+	"crypto_header": "RAZLIKA MED",
+	"crypto_header_2": "BITCOINOM",
+	"crypto_header_3": "IN",
+	"crypto_header_4": "KRIPTOM",
+	"crypto_intro_1": "Prostor kriptovalut je eksplodiral s tisočimi različnih digitalnih žetonov in projektov.",
+	"crypto_intro_2": "Čeprav je bil Bitcoin prvi in ostaja najznamenejša kriptovaluta, se bistveno razlikuje od preostale kripto industrije.",
+	"crypto_intro_3": "Poglejmo ključne razlike med Bitcoinom in širšim ekosistemom kriptovalut.",
+	"crypto": "KRIPTO",
+	"crypto_point_1": "Pogoste spremembe in razcepljenja",
+	"crypto_point_2": "Centraliziran nadzor",
+	"crypto_point_3": "Neomejena ali inflacijska ponudba",
+	"crypto_point_4": "Zapleteni protokoli",
+	"crypto_point_5": "Eksperimentalno soglasje",
+	"crypto_point_6": "Špekulativni uporabniški žetoni",
+	"crypto_point_7": "Nestanovitni in krhki",
+	"crypto_point_8": "Korporativna podpora",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Nespremenljiv protokol",
+	"bitcoin_point_2": "Resnično decentraliziran",
+	"bitcoin_point_3": "Fiksna ponudba 21M BTC",
+	"bitcoin_point_4": "Preprost in dostopen",
+	"bitcoin_point_5": "Preizkušen dokaz dela",
+	"bitcoin_point_6": "Čist digitalni denar",
+	"bitcoin_point_7": "Antifragilen",
+	"bitcoin_point_8": "Nobeden subjekt ga ne nadzoruje",
+	"point_1_summary_1": "Protokol Bitcoina ostaja od leta 2009 v bistvu nespremenjen, kar zagotavlja predvidljiva pravila, ki jih ni mogoče enostavno spremeniti. Večina kripto projektov pogosto posodablja svoje protokole, spreminja ekonomiko žetonov ali se razceplja v nove različice, kar ustvarja negotovost za uporabnike.",
+	"point_2_summary_1": "Bitcoin deluje na resnično decentraliziranem omrežju z desttisoči neodvisnih vozlišč po vsem svetu. Mnoge kripto projekte nadzorujejo fundacije, podjetja ali majhne skupine razvijalcev, ki lahko enostransko odločajo o prihodnosti protokola.",
+	"point_3_summary_1": "Bitcoin ima fiksno zgornjo mejo 21 milijonov kovancev, ki bodo kdaj obstajali, kar ga dela najredkejše digitalno sredstvo. Večina kripto projektov ima neomejeno ponudbo, inflacijske mehanizme ali možnost kovanja novih žetonov po želji, s čimer sčasoma redčijo vrednost imetnikov.",
+	"point_4_summary_1": "Bitcoin ima en preprost namen: enakovrstniški digitalni denar. Kdorkoli ga lahko razume in uporablja z osnovnim znanjem. Mnogi kripto projekti vključujejo zapletene pametne pogodbe, DeFi protokole ali mehanizme upravljanja, ki za varno uporabo zahtevajo tehnično strokovno znanje.",
+	"point_5_summary_1": "Bitcoin uporablja soglasje z dokazom dela, ki je bojno preizkušeno več kot 15 let brez enega samega uspešnega napada na glavno omrežje. Mnogi kripto projekti uporabljajo eksperimentalne mehanizme soglasja, kot je dokaz deleža ali delegirani sistemi, ki dolgoročne varnosti še niso dokazali.",
+	"point_6_summary_1": "Bitcoin služi kot digitalni denar — sredstvo za hrambo vrednosti in menjalno sredstvo. Večina kripto žetonov so uporabniški žetoni za specifične platforme, žetoni za upravljanje ali špekulativna sredstva z nejasno vrednostno ponudbo.",
+	"point_7_summary_1": "Bitcoin postaja pod napadom močnejši in je preživel vsako krizo, prepoved in kritiko, ki so bili usmerjeni nanj. Večina kripto projektov je krhka in se lahko sesuje pod regulativnim pritiskom, tehničnimi napakami ali tržnimi padci.",
+	"point_8_summary_1": "Bitcoin nima nobenega direktorja, nobenega podjetja za seboj in nobene posamezne točke odpovedi. Mnoge kripto projekte podpirajo podjetja tveganega kapitala, imajo prepoznavno vodstvo ali so odvisni od specifičnih podjetij za svoje nadaljnje delovanje."
+}

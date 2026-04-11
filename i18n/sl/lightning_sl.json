@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"bitcoin_lightning_wallet_guide": "Vodič po Bitcoin Lightning denarnicah",
+	"lightning_description": "Lightning denarnice vam omogočajo pošiljanje Bitcoina hitro in poceni ob ohranjanju vaše osebne suverenosti.",
+	"lightning_header": "VODIČ PO LIGHTNING DENARNICAH",
+	"lightning_s1_c1": "Lightning vam omogoča pošiljanje bitcoinovih plačil hitro in poceni.",
+	"lightning_s1_c2": "Pomembno je vedeti, da uporaba Lightninga prinaša kompromise. V zameno za hitrejša in cenejša bitcoinova plačila pogosto žrtvujete nekaj varnosti.",
+	"lightning_s1_c3": "Na splošno bi se Lightning moral uporabljati le z majhnimi zneski bitcoina. Velike zneske bitcoina bi morali vedno shranjevati v strojni denarnici.",
+	"lightning_s1_c4": "Oglejte si naš vodič po strojnih denarnicah za več informacij.",
+	"lightning_s1_c5": "Vse Lightning denarnice niso enake. Katera denarnica ima pravo ravnovesje kompromisov za vas, ugotovite z odgovorom na eno preprosto vprašanje:",
+	"lightning_question_1": "KAKŠNO RAVNOVESJE KOMPROMISOV JE PRAVO ZAME?",
+	"lightning_s2_c1": "Ena od inovacij Bitcoina je sposobnost shranjevanja brez zanašanja na skrbnika, kot je banka. Denarnice z lastno hrambo odklenejo polno moč Bitcoina.",
+	"lightning_s2_c2": "Z denarnico z lastno hrambo ste edini, ki ima sposobnost porabiti ali prenesti vaš denar. Nihče vas ne more ustaviti, cenzurirati ali okrasti, ko uporabljate denarnico z lastno hrambo. Tem se reče tudi ne-skrbniške denarnice.",
+	"lightning_s2_c3": "Najbolj suveren način uporabe Lightninga je poganjanje lastnega vozlišča.",
+	"lightning_s2_c4": "Ta vodič je osredotočen na preproste Lightning denarnice, ki ne zahtevajo lastnega vozlišča.",
+	"lightning_s2_c5": "Pomembno je vedeti, da tudi pri uporabi ne-skrbniške Lightning denarnice še vedno zaupate ustvarjalcu denarnice, da ne bo uveljavil škodljive posodobitve aplikacije in ukradel vaših sredstev.",
+	"lightning_s3_c1": "Skrbniške denarnice so denarnice, kjer nimate nadzora nad svojim denarjem.",
+	"lightning_s3_c2": "Te denarnice so bolj podobne bančnemu sistemu, kjer morate zaupati tretji osebi, da vam da dostop do vašega denarja. Če je vaš Bitcoin na borzi, uporabljate skrbniško denarnico.",
+	"lightning_s3_c3": "Skrbniške denarnice se morda zdijo priročne, toda skrbnik ima tehnično sposobnost kadarkoli ukrasti vsa sredstva uporabnikov.",
+	"lightning_s3_c4": "Nekateri ljudje dajejo prednost skrbniškim Lightning denarnicam za majhne zneske bitcoina zaradi njihove enostavne uporabe. Le ne pozabite: ne vaši ključi, ne vaši kovanci!",
+	"lightning_question_2": "IZBERITE SI DENARNICO",
+	"lightning_s4_c1": "Z vsem tem v mislih si zdaj lahko izberete lightning denarnico s pravim ravnovesjem kompromisov za vas.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Veliko funkcij",
+	"lightning_mobile_app": "Mobilna aplikacija",
+	"lightning_free": "100 % brezplačno",
+	"lightning_merchants": "Odlična za trgovce",
+	"lightning_starter": "Odlična začetna denarnica",
+	"lightning_browser": "V brskalniku",
+	"lightning_custodial": "Polno skrbniška denarnica",
+	"lightning_cta_hardware": "Iščete naš vodič po strojnih bitcoinovih denarnicah?"
+}

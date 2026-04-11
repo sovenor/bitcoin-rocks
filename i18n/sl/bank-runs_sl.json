@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Bitcoin nima bančnih naletov",
+	"bank_runs_header": "BITCOIN NIMA BANČNIH NALETOV",
+	"bank_runs_header_2": "TODA VAŠA BANKA JIH IMA",
+	"bank_runs_what": "KAJ JE BANČNI NALET?",
+	"bank_runs_what_content_1": "Bančni nalet nastane, ko preveč ljudi hkrati poskuša dvigniti svoj denar iz banke.",
+	"bank_runs_what_content_2": "Če banke nimajo dovolj denarja za pokritje dvigov, se lahko ob bančnem naletu popolnoma sesujejo.",
+	"bank_runs_how": "KAKO DO BANČNIH NALETOV PRIDE?",
+	"bank_runs_how_content_1": "Naš bančni sistem je 'delno rezervni', kar pomeni, da banke vašega denarja ne le hranijo v treznorju in čakajo, da ga porabite ali dvignete.",
+	"bank_runs_how_content_2": "Namesto tega banka vzame vaš denar in ga posodi ali investira. To lahko vaš denar zaklene za dolgo časa, čeprav vam banka obljublja možnost dviga kadarkoli.",
+	"bank_runs_how_content_3": "Kaj se zgodi, ko poskusite dvigniti denar, potem ko ga je banka že posodila ali investirala?",
+	"bank_runs_how_content_4": "Če ste edini, ki dviguje, ni problema. Banka preprosto vzame denar nekoga drugega in ga da vam. Toda kaj se zgodi, ko želi dvigniti preveč ljudi naenkrat?",
+	"bank_runs_how_content_5": "Mnogi ljudje v ZDA so to izvedeli, ko je marca 2023 prišlo do naleta na Silicon Valley Bank.",
+	"bank_runs_how_content_6": "Banka je investirala denar svojih strank v državne obveznice, ki so bile vezane do 30 let. Še huje, vrednost teh obveznic je nedavno dramatično padla, tako da Silicon Valley Bank ni mogla obveznic preprosto prodati, da bi dobila denar svojih vlagateljev. Bila je insolventna. Ni imela dovolj denarja za pokritje dvigov svojih vlagateljev.",
+	"bank_runs_how_content_7": "Ko je o tem izvedelo več ljudi, se je problem le poslabšal. Prihajalo je več zahtevkov za dvig, toda mnogi niso bili obdelani. Tisoče podjetij je ugotovilo, da ne bodo mogla plačati svojih zaposlenih zaradi propada banke.",
+	"bank_runs_how_content_8": "FDIC je posredoval in privolil v odškodnino vlagateljev. Problem rešen? Ne ravno...",
+	"bank_runs_fdic": "ALI ZAVAROVANJE FDIC ŠČITI MOJ DENAR?",
+	"bank_runs_fdic_content_1": "Zavarovanje FDIC je zasnovano za zaščito bančnih vlagateljev v primeru propada banke. Vloge so zavarovane do 250.000 $ na vlagatelja. Zveni odlično, kajne?",
+	"bank_runs_fdic_content_2": "Ne ravno. Če banka propade, od kod FDIC vzame denar? Ima zavarovalni sklad s 125 milijardami dolarjev.",
+	"bank_runs_fdic_content_3": "To se sliši kot veliko denarja, dokler tega ne primerjate z obsegom vlog, ki jih zavarujejo: skoraj 10 bilijonov oziroma 10.000 milijard dolarjev.",
+	"bank_runs_fdic_content_4": "FDIC celo na svoji spletni strani kaže, da ima v svojem zavarovalnem skladu dovolj denarja za pokritje le nekaj več kot 1 % vlog.",
+	"bank_runs_fdic_content_5": "V primeru propada banke, ki bi presegel zavarovalni sklad FDIC, je verjetno (toda ne zagotovljeno), da bi ameriška vlada natisnila denar za odškodnino vlagateljev.",
+	"bank_runs_fdic_content_6": "Toda tiskanje denarja povzroča inflacijo, tako da to ni odlična rešitev.",
+	"bank_runs_safe": "ALI OBSTAJAJO BANKE, KI NE UPORABLJAJO DELNE REZERVE?",
+	"bank_runs_safe_content_1": "Nekatere banke so poskušale biti 'varne banke', ki ne posojajo ali investirajo sredstev vlagateljev.",
+	"bank_runs_safe_content_2": "Čeprav bi te varne banke imele ničelno tveganje bančnih naletov, je njihove vloge Federalna rezerva zavrnila. To pomeni, da ne morejo zakonito delovati kot banke.",
+	"bank_runs_safe_content_3": "Ker jim je bilo delovanje blokirano, danes ne obstajajo nobene banke, ki ne bi uporabljale delne rezerve.",
+	"bank_runs_safe_content_4": "Na srečo obstaja način, da izstopite iz sistema delne rezerve tako, da postanete svoja lastna banka. Ne, ne govorimo o skrivanju gotovine pod vzglavnik.",
+	"bank_runs_safe_content_5": "Varčevanje v gotovini je še vedno ranljivo za inflacijo.",
+	"bank_runs_safe_content_6": "Govorimo o Bitcoinu: novem finančnem sistemu, ki vam omogoča, da postanete svoja lastna banka.",
+	"bank_runs_protect": "ALI ME BITCOIN LAHKO ZAŠČITI PRED BANČNIMI NALETI?",
+	"bank_runs_protect_content_1": "Da, Bitcoin je polnorezerven finančni sistem.",
+	"bank_runs_protect_content_2": "Bančni naleti so pri Bitcoinu nemogoči, če prevzamete svoj Bitcoin v lastno denarnico. Ne puščajte svojega bitcoina na borzi ali v ovoju, kot je bitcoinov ETF.",
+	"bank_runs_protect_content_3": "Oglejte si naš preprost vodič po bitcoinovih denarnicah in ugotovite, kako prevzeti v lastno denarnico.",
+	"bank_runs_protect_content_4": "Z Bitcoinom lahko končno imate nadzor nad svojim denarjem."
+}

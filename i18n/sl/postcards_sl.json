@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"free_bitcoin_postcards": "Brezplačne bitcoinove razglednice od bitcoin.rocks",
+	"postcards_description": "Pridobite brezplačen paket bitcoinovih razglednic in delite Bitcoin z nekom, ki ga poznate.",
+	"postcards_header": "PROGRAM RAZGLEDNIC ZAKLJUČEN",
+	"postcards_program_closed_message": "Naš brezplačni program bitcoinovih razglednic se je zaključil. Hvala vsem, ki ste pomagali širiti izobraževanje o Bitcoinu prek pošte!",
+	"postcards_sticker_alternative_header": "PRIDOBITE NAMESTO TEGA BREZPLAČNE BITCOINOVE NALEPKE",
+	"postcards_sticker_alternative_message": "Nadaljujte s širjenjem zavesti o Bitcoinu z našim brezplačnim programom nalepk! Naše bitcoinove nalepke so idealne za deljenje na javnih mestih in vsebujejo QR kode, ki vodijo na izobraževalno vsebino.",
+	"postcards_sticker_cta": "PRIDOBI BREZPLAČNE NALEPKE",
+	"postcards_step_2": "KAKO SO RAZGLEDNICE IZGLEDALE",
+	"postcards_instructions_4": "Te razglednice smo ustvarili, da bi olajšali predstavitev Bitcoina nekomu, ki ga poznate! Preprosto dodajte naslov in znamko ter vrzite razglednico v nabiralnik.",
+	"postcards_instructions_5": "Naše poslanstvo je pospešiti sprejetje Bitcoina. Pomagate lahko s pridobitvijo brezplačnih nalepk in njihovim lepljenjem na javna mesta!",
+	"postcards_instructions_6": "Vsi poznamo par ljudi, ki bi jim koristilo, da bi izvedeli več o Bitcoinu. Delite z njimi bitcoinove nalepke še danes!"
+}

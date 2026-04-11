@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Ugotovite, zakaj je Bitcoin dober za podjetja",
+	"why_header": "BITCOIN JE DOBER ZA PODJETJA",
+	"why_good_for_you": "BITCOIN JE DOBER TUDI ZA VAS!",
+	"why_learn_more_lowercase": "Ugotovite več.",
+	"why_s1": "Bitcoin nima inflacije",
+	"why_s1_c1": "Inflacija nastane, ko se tiska ali ustvarja več denarja iz nič. To povzroča, da vaš denar sčasoma izgublja vrednost.",
+	"why_s1_c2": "Bitcoin ima fiksno ponudbo, kar pomeni, da nihče ne more natisniti več Bitcoina.",
+	"why_s2": "Bitcoin nima bančnih naletov",
+	"why_s2_c1": "Več ameriških bank se je v zadnjih letih sesula zaradi bančnih naletov.",
+	"why_s2_c2": "Namesto da banke le hranijo vaš denar, ga investirajo in posojajo. Če te naložbe propadejo, nimajo dovolj denarja, da bi vam ga vrnile.",
+	"why_s2_c3": "In zavarovalni sklad FDIC ima le 1 dolar za vsakih 100 dolarjev, ki jih zavaruje.",
+	"why_s3": "Bitcoin je brez dovoljenj",
+	"why_s3_c1": "Za razliko od tradicionalnih finančnih omrežij Bitcoin ne zahteva dovoljenja za uporabo.",
+	"why_s3_c2": "To pomeni, da vam nihče ne more preprečiti uporabe Bitcoina iz kakršnega koli razloga. Je prvo finančno omrežje, ki ga lahko uporabljate brez skrbi glede cenzure ali zasega.",
+	"why_s4": "Bitcoin gradi boljši svet",
+	"why_s4_c1": "Bitcoin je napačno razumljena tehnologija, ki gradi boljši svet.",
+	"why_s4_c2": "Bitcoin je aktivistom za človekove pravice omogočil boj za svobodo, zmanjšal globalne emisije metana, rešil nacionalne parke in še veliko več."
+}

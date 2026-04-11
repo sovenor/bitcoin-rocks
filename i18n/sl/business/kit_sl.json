@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"bitcoin_business_kit": "Bitcoinov poslovni komplet",
+	"kit_header": "NATISNITE SVOJ BITCOINOV POSLOVNI KOMPLET",
+	"kit_request": "ZAPROSITE ZA BREZPLAČEN KOMPLET",
+	"kit_request_details": "Vsak bitcoinov poslovni komplet vsebuje dva letaka, ki olajšata prepričevanje lokalnega podjetja, da začne sprejemati Bitcoin.",
+	"kit_country_global_print": "Po vsem svetu — Natisnil bom lastne komplete",
+	"kit_enter_address": "Vnesite svoj poštni naslov in brezplačno vam bomo poslali bitcoinov poslovni komplet v navadni beli ovojnici. Podatki o naslovu se izbrišejo po pošiljanju kompleta.",
+	"kit_print_details": "Sodelujete lahko s tiskanjem lastnih letakov, ne glede na to, kje živite! Podjetja lahko tudi usmerite na naš digitalni poslovni komplet, da se izognete tiskanju.",
+	"kit_view_files": "OGLED DATOTEK",
+	"kit_digital_kit": "DIGITALNI KOMPLET",
+	"kit_resources": "VSAK KOMPLET SE SKLICUJE NA TE BREZPLAČNE VIRE"
+}

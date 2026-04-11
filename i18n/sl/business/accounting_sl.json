@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "sl"
+	},
+	"bitcoin_business_accounting_guide": "Vodič po računovodstvu za Bitcoin v podjetjih",
+	"accounting_description": "Naučite se pravilno obračunavati bitcoinova plačila v vašem poslovnem računovodstvu.",
+	"accounting_header": "VODIČ PO BITCOINOVEM RAČUNOVODSTVU",
+	"accounting_s1_c1": "Sprejemanje Bitcoina ima številne prednosti, kot sta sprejemanje plačil z nižjimi provizijami in pridobivanje več strank.",
+	"accounting_s1_c2": "Če uporabljate hibridno denarnico iz našega vodiča po denarnicah in samodejno prodajate 100 % prejetega Bitcoina za dolarje, vam v vašem trenutnem računovodstvu ni treba ničesar spreminjati.",
+	"accounting_s1_c3": "Ogled vodiča po denarnicah.",
+	"accounting_s1_c4": "Če pa del prejetih bitcoinovih plačil obdržite kot Bitcoin, boste morali za svoje računovodstvo slediti nekaterim podatkom. Na prvi pogled se to morda zdi zastrašujoče, v resnici pa je precej preprosto.",
+	"accounting_s1_c5": "Opomba: ta vodič je zgolj informativen in ne predstavlja davčnega svetovanja.",
+	"accounting_s1_c6": "Če potrebujete davčno svetovanje, toplo priporočamo Satoshi Pacioli Accounting Services, računovodsko podjetje, specializirano za bitcoinovo računovodstvo.",
+	"accounting_s2": "SLEDENJE VAŠI NABAVNI VREDNOSTI",
+	"accounting_s2_c1": "Sledenje nabavni vrednosti bo največja razlika med obračunavanjem dolarjev in obračunavanjem Bitcoina. Tudi če na svoje podjetje gledate povsem z vidika Bitcoina, morate v svoji davčni napovedi navesti dolarsko vrednost vsake transakcije.",
+	"accounting_s2_c2": "Če uporabljate QuickBooks, lahko to storite samodejno z vtičnikom Bitcoin Sync.",
+	"accounting_s2_c3": "Če QuickBooks ne uporabljate, priporočamo Satoshi Pacioli Accounting Services, računovodsko podjetje, specializirano za bitcoinovo računovodstvo.",
+	"accounting_s2_c4": "Za ročno sledenje preprosto zabeležite količino prejetega Bitcoina in dolarsko vrednost bitcoinove transakcije na ta dan.",
+	"accounting_s2_c5": "Trenutno dolarsko ceno Bitcoina si lahko ogledate tukaj.",
+	"accounting_s2_c6": "Te informacije sledite v Excelovi preglednici in jih posredujte svojemu računovodji.",
+	"accounting_s2_c7": "Te podatke lahko v Excel uvozite tudi samodejno.",
+	"accounting_s2_c8": "Ogledate si lahko tudi zgodovinsko dolarsko ceno Bitcoina v prejšnjih dneh, tako da tega ni treba početi vsak dan.",
+	"accounting_s3": "PORABA ALI PRODAJA VAŠEGA BITCOINA",
+	"accounting_s3_c1": "Če uporabljate hibridno denarnico iz našega vodiča po denarnicah in samodejno prodajate 100 % prejetega Bitcoina za dolarje, vam v vašem trenutnem računovodstvu ni treba ničesar spreminjati.",
+	"accounting_s3_c2": "Ogled vodiča po denarnicah.",
+	"accounting_s3_c3": "Če se odločite del prejetega Bitcoina po določenem času porabiti ali prodati, preprosto dodajte ceno, po kateri ste ga prodali, v Excelovo preglednico, kjer sledite nabavni vrednosti.",
+	"accounting_s3_c4": "Na primer, če ste 1. januarja prejeli Bitcoin v vrednosti 100 dolarjev in se ga odločili prodati ali porabiti 1. februarja pri novi vrednosti 110 dolarjev, morate v svojem računovodstvu zabeležiti kapitalski dobiček 10 dolarjev.",
+	"accounting_s3_c5": "To lahko deluje tudi obratno. Na primer, če ste 1. januarja prejeli Bitcoin v vrednosti 100 dolarjev in se ga odločili prodati ali porabiti 1. februarja pri novi vrednosti 90 dolarjev, morate v svojem računovodstvu zabeležiti kapitalsko izgubo 10 dolarjev.",
+	"accounting_s4": "POTREBUJEM DODATNO POMOČ",
+	"accounting_s4_c1": "Če potrebujete dodatno pomoč pri vključitvi Bitcoina v vaše poslovno računovodstvo, toplo priporočamo Satoshi Pacioli Accounting Services, računovodsko podjetje, specializirano za bitcoinovo računovodstvo.",
+	"accounting_s4_c2": "Ugotovite več o Satoshi Pacioli Accounting Services."
+}
