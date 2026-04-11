@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs kripto",
+	"crypto_header": "A KÜLÖNBSÉG A",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "ÉS A",
+	"crypto_header_4": "KRIPTO KÖZÖTT",
+	"crypto_intro_1": "A legtöbb ember úgy gondolja, hogy a Bitcoin ugyanaz, mint a többi kriptovaluta. Ez nem így van.",
+	"crypto_intro_2": "A Bitcoin alapvetően különbözik minden más kriptovalutától számos fontos szempontból.",
+	"crypto_intro_3": "Nézzük meg a legfontosabb különbségeket a Bitcoin és a kripto között.",
+	"crypto": "KRIPTO",
+	"crypto_point_1": "Módosítható szabályok",
+	"crypto_point_2": "Centralizált irányítás",
+	"crypto_point_3": "Változtatható kínálat",
+	"crypto_point_4": "Összetett rendszerek",
+	"crypto_point_5": "Különböző konszenzus-mechanizmusok",
+	"crypto_point_6": "Spekuláció",
+	"crypto_point_7": "Törékenység",
+	"crypto_point_8": "Bennfentes irányítás",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Megváltoztathatatlan szabályok",
+	"bitcoin_point_2": "Decentralizált hálózat",
+	"bitcoin_point_3": "Fix kínálat: 21M BTC",
+	"bitcoin_point_4": "Elegáns egyszerűség",
+	"bitcoin_point_5": "Proof of Work konszenzus",
+	"bitcoin_point_6": "Hosszú távú értékmegőrzés",
+	"bitcoin_point_7": "Antifragilitás",
+	"bitcoin_point_8": "Nincs irányítás",
+	"point_1_summary_1": "A Bitcoin szabályai gyakorlatilag megváltoztathatatlanok, a decentralizált konszenzus biztosítja. A legtöbb kriptovaluta szabályait egy kis csoport módosíthatja.",
+	"point_2_summary_1": "A Bitcoin valóban decentralizált, több tízezer független csomóponttal. A legtöbb kriptovaluta centralizált, egy kis csapat vagy alapítvány irányítja.",
+	"point_3_summary_1": "A Bitcoinnak kemény felső határa van: 21 millió BTC. A legtöbb kriptovaluta kínálata változtatható, ami hígítást és inflációt eredményezhet.",
+	"point_4_summary_1": "A Bitcoin elegánsan egyszerű: digitális pénz fix kínálattal. A legtöbb kriptovaluta összetett rendszereket épít, amelyek növelik a támadási felületet és a meghibásodási pontokat.",
+	"point_5_summary_1": "A Bitcoin Proof of Work konszenzust használ, amely energiát igényel a hálózat biztosítására. Ez a legbiztonságosabb és legbizonyítottabb konszenzus-mechanizmus.",
+	"point_6_summary_1": "A Bitcoint egyre inkább hosszú távú értékmegőrzőként használják. A legtöbb kriptovaluta spekulatív, gyors haszonszerzésre épül.",
+	"point_7_summary_1": "A Bitcoin antifragilis – az évek során minden támadástól erősebb lett. A legtöbb kriptovaluta törékeny, és a kihívások során meghibásodik vagy eltűnik.",
+	"point_8_summary_1": "A Bitcoinnak nincs vezérigazgatója, nincs alapítványa és nincs irányító testülete. A legtöbb kriptovalutát egy azonosítható csapat irányítja, ami irányítási és szabályozási kockázatot jelent."
+}

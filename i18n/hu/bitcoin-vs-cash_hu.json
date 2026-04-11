@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_vs_cash": "Bitcoin vs készpénz",
+	"cash_header": "A KÜLÖNBSÉG A",
+	"cash_header_2": "BITCOIN",
+	"cash_header_3": "ÉS A",
+	"cash_header_4": "KÉSZPÉNZ KÖZÖTT",
+	"cash_intro_1": "A készpénz évszázadok óta a pénz leggyakrabban használt formája.",
+	"cash_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz, amely a hagyományos készpénzhez hasonlóan közvetlenül, közvetítők nélkül használható.",
+	"cash_intro_3": "De miben különbözik a fizikai készpénz a digitális pénztől, mint a Bitcoin? Nézzük meg a különbségeket: Bitcoin vs készpénz.",
+	"cash": "KÉSZPÉNZ",
+	"cash_point_1": "Fizikailag kell szállítani",
+	"cash_point_2": "Korlátozott hatótávolság",
+	"cash_point_3": "Érvénytelenné tehető",
+	"cash_point_4": "Hamisítható",
+	"cash_point_5": "Centralizált",
+	"cash_point_6": "Bank szükséges a tároláshoz",
+	"cash_point_7": "Korlátozott oszthatóság",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Az interneten keresztül küldhető",
+	"bitcoin_point_2": "Globális hatótávolság",
+	"bitcoin_point_3": "Nem tehető érvénytelenné",
+	"bitcoin_point_4": "Nem hamisítható",
+	"bitcoin_point_5": "Decentralizált",
+	"bitcoin_point_6": "Önállóan megőrizhető",
+	"bitcoin_point_7": "Végtelenül osztható",
+	"point_1_summary_1": "A Bitcoin az interneten keresztül bárhová a világon elküldhető, szinte azonnal és nagyon alacsony díjakkal. A készpénzt fizikailag kell szállítani, ami lassú, drága és biztonsági kockázatot jelent.",
+	"point_2_summary_1": "A Bitcoin bármely internet-hozzáféréssel rendelkező személynek elküldhető a világon. A készpénz csak személyesen használható fizikai közelségben.",
+	"point_3_summary_1": "A Bitcoint nem lehet érvényteleníteni. Indiában 2016-ban a kormány egyik napról a másikra érvénytelenítette az 500 és 1000 rúpiás bankjegyeket, ami az ország készpénzállományának 86%-át tette ki. A Bitcoin esetében ilyen nem fordulhat elő.",
+	"point_4_summary_1": "A Bitcoin hálózat automatikusan ellenőrzi minden tranzakció valódiságát, lehetetlenné téve a hamis Bitcoin küldését. A készpénzt viszont hamisítani lehet, és jelentős kihívás a hamis bankjegyek felismerése.",
+	"point_5_summary_1": "A Bitcoin decentralizált, többtízezer független csomóponttal a világ minden tájáról. A készpénzt központi bankok és kormányok bocsátják ki és irányítják.",
+	"point_6_summary_1": "A Bitcoin önállóan megőrizhető egy digitális tárcában, a teljes irányítást biztosítva a pénzed felett. A készpénz nagy összegben történő tárolása nehézkes és biztonsági kockázatot jelent, és a bankba helyezett készpénz partner-kockázatnak van kitéve.",
+	"point_7_summary_1": "A Bitcoin 100 000 000 egységre (sat) osztható, lehetővé téve a mikrotranzakciókat. A készpénz a legkisebb érmére korlátozódik, ami lehetetlenné teszi a kis összegű digitális fizetéseket."
+}

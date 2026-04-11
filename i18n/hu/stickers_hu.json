@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"free_bitcoin_stickers": "Ingyenes Bitcoin matricák a bitcoin.rocks-tól",
+	"stickers_description": "Helyezz el egy Bitcoin matricát nyilvános helyen, hogy meggyőzd a körülötted lévőket.",
+	"stickers_header": "INGYENES BITCOIN MATRICÁK",
+	"stickers_choose_header": "VÁLASZD KI A MATRICACSOMAGODAT",
+	"stickers_choose_c1": "Küldetésünk, hogy segítsünk több embert meggyőzni a Bitcoinról azáltal, hogy Bitcoin matricákat helyezel el nyilvános helyeken. Minden matricánkon QR-kódok vannak, amelyek oktatási oldalakra vezetnek a következőkről:",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "infláció",
+	"stickers_choose_c4": "Válaszd ki a matricacsomagodat lent",
+	"stickers_text_pack": "A SZÖVEGES CSOMAG",
+	"stickers_signs_pack": "A TÁBLÁS CSOMAG",
+	"stickers_instructions_1": "Add meg a levelezési címedet, és küldünk neked egy ingyenes Bitcoin matricácsomagot postán! A matricákat egyszerű fehér borítékban szállítjuk.",
+	"stickers_instructions_2": "A címadatokat töröljük, miután az ingyenes matricáidat feladtuk.",
+	"stickers_share_header": "OSZD MEG A MATRICAHELYEIDET",
+	"stickers_share_c1": "Oszd meg a matricahelyeidet velünk a Nostr-on, és nézd meg, hová ragasztják mások a matricáikat.",
+	"stickers_btn_share_on_nostr": "MEGOSZTÁS A NOSTR-ON",
+	"stickers_btn_what_is_nostr": "MI AZ A NOSTR?",
+	"stickers_flyers_link_before": "Közben nyomtass és ragassz ki a saját ",
+	"stickers_flyers_link_text": "Bitcoin szórólapjaidat",
+	"stickers_flyers_link_after": " is, hogy még több embert győzz meg.",
+	"stickers_country_global_print": "Globális — Nyomtatom a sajátomat",
+	"stickers_country_global_order": "Globális — Tömeges rendelés",
+	"placeholder_name_optional": "Név (opcionális)",
+	"placeholder_address_line_1": "Cím 1. sor",
+	"placeholder_address_line_2": "Cím 2. sor (opcionális)",
+	"placeholder_city": "Város",
+	"placeholder_state": "Állam",
+	"placeholder_province": "Tartomány",
+	"placeholder_zip_code": "Irányítószám",
+	"placeholder_postal_code": "Postai irányítószám",
+	"placeholder_language": "Nyelv",
+	"placeholder_which_stickers": "Mely matricák?",
+	"placeholder_email_optional": "Add meg az e-mail címedet az értesítéshez (opcionális)"
+}

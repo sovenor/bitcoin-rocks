@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_doesnt_have_bank_runs": "A Bitcoinnak nincsenek bankpánikjai",
+	"bank_runs_header": "A BITCOINNAK NINCSENEK BANKPÁNIKJAI",
+	"bank_runs_header_2": "DE A BANKODNAK LEHETNEK",
+	"bank_runs_what": "MI AZ A BANKPÁNIK?",
+	"bank_runs_what_content_1": "A bankpánik akkor történik, amikor túl sokan próbálják egyszerre kivenni a pénzüket a bankból.",
+	"bank_runs_what_content_2": "Ha a bankoknak nincs elég pénzük a kivételekhez, teljesen összeomolhatnak bankpánik esetén.",
+	"bank_runs_how": "HOGYAN TÖRTÉNNEK A BANKPÁNIKOK?",
+	"bank_runs_how_content_1": "A bankrendszerünk 'részleges tartalékolású', ami azt jelenti, hogy a bankok nem egyszerűen megőrzik a pénzedet egy széfben, és várnak, amíg elköltöd vagy kiveszed.",
+	"bank_runs_how_content_2": "Ehelyett a bankod fogja a pénzedet, és kikölcsönzi vagy befekteti. Ez hosszú időre lekötheti a pénzedet, annak ellenére, hogy a bank azt ígéri, bármikor kiveheted.",
+	"bank_runs_how_content_3": "Mi történik tehát, ha megpróbálod kivenni a pénzedet, miután a bank már kikölcsönözte vagy befektette?",
+	"bank_runs_how_content_4": "Nem probléma, ha te vagy az egyetlen, aki kiveszi. A bank egyszerűen más valaki pénzét adja neked helyette. De mi történik, ha túl sokan próbálnak egyszerre kivenni?",
+	"bank_runs_how_content_5": "Sokan megtudtfák ezt az USA-ban, amikor bankpánik volt a Silicon Valley Banknál 2023 márciusában.",
+	"bank_runs_how_content_6": "A bank ügyfelei pénzét államkötvényekbe fektette, amelyek akár 30 évre is le voltak kötve. Még rosszabb, hogy ezeknek a kötvényeknek az értéke nemrég dram atikusan csökkent, így a Silicon Valley Bank nem tudta egyszerűen eladni a kötvényeket, hogy visszakapja a betétesek pénzét. Fizetésképtelenek voltak. Nem volt elég pénzük a betéteseik kivételeinek fedezésére.",
+	"bank_runs_how_content_7": "Ahogy többen tudták meg, a probléma csak rosszabb lett. Több kivételi kérelem érkezett, de sokat nem dolgoztak fel. Ezrek vállalkozások rájöttek, hogy nem tudják kifizetni az alkalmazottaikat a bank csődje miatt.",
+	"bank_runs_how_content_8": "Az FDIC beavatkozott és vállalta, hogy kártalanítja a betéteseket. Probléma megoldva? Nem egészen...",
+	"bank_runs_fdic": "VÉDI-E AZ FDIC BIZTOSÍTÁS A PÉNZEMET?",
+	"bank_runs_fdic_content_1": "Az FDIC biztosítás célja a banki betétesek védelme bankcsőd esetén. A betétek betétesenként 250 000 dollárig vannak biztosítva. Jól hangzik, igaz?",
+	"bank_runs_fdic_content_2": "Nem egészen. Ha egy bank csődbe megy, honnan veszi az FDIC a pénzt? Van egy biztosítási alapjuk 125 milliárd dollárral.",
+	"bank_runs_fdic_content_3": "Ez sok pénznek tűnik, amíg nem hasonlítod össze a biztosított betétek összegével: csaknem 10 billió, azaz 10 000 milliárd dollár.",
+	"bank_runs_fdic_content_4": "Az FDIC a saját weboldalán is mutatja, hogy a biztosítási alapjukban csak a betétek alig több mint 1%-ának fedezésére van elég pénz.",
+	"bank_runs_fdic_content_5": "Olyan bankcsőd esetén, amely meghaladja az FDIC biztosítási alapját, valószínű (de nem garantált), hogy az amerikai kormány pénzt nyomtatna a betétesek kártalanítására.",
+	"bank_runs_fdic_content_6": "De a pénznyomtatás inflációt okoz, tehát nem egy nagyszerű megoldás.",
+	"bank_runs_safe": "VANNAK-E BANKOK, AMELYEK NEM HASZNÁLNAK RÉSZLEGES TARTALÉKOLÁST?",
+	"bank_runs_safe_content_1": "Néhány bank próbált 'biztonságos bank' lenni, amelyek nem kölcsönzik ki és nem fektetik be a betétesek pénzét.",
+	"bank_runs_safe_content_2": "Bár ezeknél a biztonságos bankok nulla kockázatú bankpánikkal rendelkeznének, kérelmüket a Federal Reserve elutasította. Ez azt jelenti, hogy nem működhetnek legálisan bankkként.",
+	"bank_runs_safe_content_3": "Mivel megakadályozták a működésüket, ma nincsenek olyan bankok, amelyek ne használnának részleges tartalékolást.",
+	"bank_runs_safe_content_4": "Szerencsére van mód kilépni a részleges tartalékolású rendszerből azzal, hogy a saját bankod leszel. Nem, nem arról beszélünk, hogy készpénzt dugsz a matrac alá.",
+	"bank_runs_safe_content_5": "A készpénzben való megtakarítás még mindig ki van téve az inflációnak.",
+	"bank_runs_safe_content_6": "A Bitcoinról beszélünk: egy új pénzügyi rendszer, amely lehetővé teszi, hogy a saját bankod legyél.",
+	"bank_runs_protect": "VÉDHET-E A BITCOIN A BANKPÁNIKOKTÓL?",
+	"bank_runs_protect_content_1": "Igen, a Bitcoin egy teljes tartalékolású pénzügyi rendszer.",
+	"bank_runs_protect_content_2": "A bankpánikok lehetetlenek a Bitcoinban, amíg kiveszed a Bitcoinodat a saját tárcádba. Ne hagyd a bitcoinodat egy tőzsdén vagy egy csomagolóban, mint egy Bitcoin ETF.",
+	"bank_runs_protect_content_3": "Nézd meg az egyszerű Bitcoin tárca útmutatónkat, hogy megtudd, hogyan vedd ki a saját tárcádba.",
+	"bank_runs_protect_content_4": "A Bitcoinnal végre te irányíthatod a pénzedet."
+}

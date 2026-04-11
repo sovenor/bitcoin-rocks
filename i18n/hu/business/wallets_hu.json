@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"business_bitcoin_wallet_guide": "Üzleti Bitcoin tárca útmutató",
+	"biz_wallets_description": "Válaszd ki a vállalkozásodnak megfelelő Bitcoin tárcát.",
+	"biz_wallets_header": "ÜZLETI BITCOIN TÁRCA ÚTMUTATÓ",
+	"biz_wallets_intro": "A vállalkozásodnak megfelelő Bitcoin tárca kiválasztása néhány kulcsfontosságú kérdéstől függ.",
+	"biz_wallets_s1": "SZERETNÉD AUTOMATIKUSAN ÁTVÁLTANI A BITCOINT HELYI VALUTÁRA?",
+	"biz_wallets_s1_c1": "Egyes vállalkozások a kapott Bitcoin fizetéseket automatikusan átváltják helyi valutájukra. Ez minimalizálja a Bitcoin árfolyam-ingadozásnak való kitettséget.",
+	"biz_wallets_s1_c2": "Más vállalkozások úgy döntenek, hogy a Bitcoint megtartják, mert hosszú távon egy fix kínálatú eszköz, amelyet nem lehet inflálni.",
+	"biz_wallets_s2": "SZÜKSÉGED VAN SZEMÉLYES ÉS/VAGY ONLINE FIZETÉSEKRE?",
+	"biz_wallets_s2_c1": "Egyes tárcák személyes fizetésekre, mások online fizetésekre, megint mások mindkettőre optimalizáltak.",
+	"biz_wallets_category_hybrid": "HIBRID TÁRCÁK",
+	"biz_wallets_category_hybrid_c1": "A hibrid tárcák lehetővé teszik a Bitcoin és a helyi valuta közötti azonnali átváltást.",
+	"biz_wallets_category_self_custody": "ÖNÁLLÓ MEGŐRZÉSŰ TÁRCÁK",
+	"biz_wallets_category_self_custody_c1": "Az önálló megőrzésű tárcák teljes irányítást biztosítanak a Bitcoin fizetéseid felett.",
+	"biz_wallets_auto_convert": "Automatikus átváltás helyi valutára",
+	"biz_wallets_in_person": "Személyes fizetések",
+	"biz_wallets_online": "Online fizetések",
+	"biz_wallets_full_control": "Teljes irányítás a pénzed felett",
+	"biz_wallets_no_convert": "Nincs automatikus átváltás",
+	"biz_wallets_free": "Ingyenesen használható"
+}

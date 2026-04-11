@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_is_good_for_business": "A Bitcoin jó az üzletnek",
+	"biz_header": "A BITCOIN JÓ AZ ÜZLETNEK",
+	"biz_s1": "Alacsony díjak minimumköltség nélkül",
+	"biz_s1_c1": "A Bitcoin lehetővé teszi, hogy közvetlenül fogadj fizetéseket az ügyfelektől, hasonlóan a készpénzhez. A Bitcoin hálózat közvetítők nélkül működik, mint bankok és hitelkártya-társaságok, amelyek magas díjakat számolnak fel.",
+	"biz_s2": "Azonnali elszámolás",
+	"biz_s2_c1": "A készpénzhez hasonlóan a Bitcoin fizetések azonnal elszámolódnak. Nem kell megvárnod, hogy a hitelkártya-társaság vagy a bankod kifizessen. Ehelyett azonnal hozzáférsz a pénzedhez.",
+	"biz_s3": "Nincs visszaterhelés és csalás",
+	"biz_s3_c1": "Mivel a Bitcoin fizetések közvetlenül közted és az ügyfeleid között történnek, senki nem vonhatja vissza a pénzt visszaterheléssel.",
+	"biz_s3_c2": "Hamis Bitcoint nem lehet küldeni a Bitcoin hálózaton, ami azt jelenti, hogy soha nem kell aggódnod a csalárd tranzakciók miatt, amelyek pénzbe kerülhetnek a vállalkozásodnak.",
+	"biz_s4": "Több ügyfél",
+	"biz_s4_c1": "Több millió ember rendelkezik Bitcoinnal, és olyan helyeken szeretné elkölteni, amelyek elfogadják azt.",
+	"biz_s4_c2": "A Bitcoin elfogadásával vállalkozásod felkerülhet a Bitcoin kereskedők térképére, és ingyenes reklámot kaphatsz új ügyfelek felé.",
+	"biz_s4_c3": "A Bitcoin elfogadása 100%-ban ingyenes. Nincsenek szerződések és rejtett díjak."
+}

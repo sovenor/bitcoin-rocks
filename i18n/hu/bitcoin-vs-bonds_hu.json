@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_vs_bonds": "Bitcoin vs kötvények",
+	"bonds_header": "A KÜLÖNBSÉG A",
+	"bonds_header_2": "BITCOIN",
+	"bonds_header_3": "ÉS A",
+	"bonds_header_4": "KÖTVÉNYEK KÖZÖTT",
+	"bonds_intro_1": "Az államkötvényeket hagyományosan a legbiztonságosabb befektetések egyikének tartják.",
+	"bonds_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz fix kínálattal és decentralizált hálózattal.",
+	"bonds_intro_3": "De miben különbözik az államkötvények tartása a Bitcoin tartásától? Nézzük meg a különbségeket: Bitcoin vs kötvények.",
+	"bonds": "KÖTVÉNYEK",
+	"bonds_point_1": "Partner-kockázat",
+	"bonds_point_2": "Inflációnak kitett",
+	"bonds_point_3": "Korlátozott likviditás",
+	"bonds_point_4": "Aukciós rendszer",
+	"bonds_point_5": "Fix hozam",
+	"bonds_point_6": "Letétkezelő által őrzött",
+	"bonds_point_7": "Kormányfüggő",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Nincs partner-kockázat",
+	"bitcoin_point_2": "Fix kínálat",
+	"bitcoin_point_3": "Magas likviditás",
+	"bitcoin_point_4": "Nyílt piac",
+	"bitcoin_point_5": "Növekedési potenciál",
+	"bitcoin_point_6": "Önállóan megőrizhető",
+	"bitcoin_point_7": "Kormányfüggetlen",
+	"point_1_summary_1": "Az önállóan megőrzött Bitcoinnak nincs partner-kockázata. A kötvényeknél meg kell bíznod abban, hogy a kibocsátó (általában a kormány) vissza fogja fizetni az adósságát. Az államadósság szintje rekordmagasságban van világszerte.",
+	"point_2_summary_1": "A Bitcoinnak fix kínálata van: 21 millió BTC. A kötvényhozamok gyakran nem tudják felülmúlni az inflációt, ami azt jelenti, hogy a kötvénytulajdonosok reálértéken veszítenek.",
+	"point_3_summary_1": "A Bitcoinnal a hét minden napján, napi 24 órában kereskednek a globális tőzsdéken, és bármikor eladható. Egyes kötvények lejáratig lekötöttek, és a korai eladás büntetéssel járhat.",
+	"point_4_summary_1": "A Bitcoin nyílt piacon kereskedik, ahol bárki vásárolhat és eladhat. A kötvényeket gyakran aukciós rendszerben bocsátják ki, korlátozott hozzáféréssel.",
+	"point_5_summary_1": "A Bitcoin értéke jelentősen nőtt fennállása során, míg a kötvényhozamok jellemzően alacsonyak és fixek.",
+	"point_6_summary_1": "A Bitcoin önállóan megőrizhető, valódi tulajdonjogot biztosítva. A kötvényeket harmadik fél letétkezelők kezelik.",
+	"point_7_summary_1": "A Bitcoin bármely kormánytól függetlenül működik. A kötvények értéke közvetlenül függ a kibocsátó kormány fiskális politikájától és hitelképességétől."
+}

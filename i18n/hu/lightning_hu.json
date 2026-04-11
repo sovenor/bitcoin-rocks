@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning tárca útmutató",
+	"lightning_description": "A Lightning tárcák lehetővé teszik a Bitcoin gyors és olcsó küldését, miközben megőrzöd a személyes szuverenitásodat.",
+	"lightning_header": "LIGHTNING TÁRCA ÚTMUTATÓ",
+	"lightning_s1_c1": "A Lightning lehetővé teszi a Bitcoin fizetések gyors és olcsó küldését.",
+	"lightning_s1_c2": "Fontos tudni, hogy a Lightning használata kompromisszumokkal jár. A gyorsabb, olcsóbb Bitcoin fizetésekért cserébe gyakran fel kell áldoznod némi biztonságot.",
+	"lightning_s1_c3": "Általában a Lightningot csak kis összegű bitcoinnal szabad használni. Nagy összegű bitcoint csak hardver tárcában szabad tárolni.",
+	"lightning_s1_c4": "Nézd meg a hardver tárca útmutatónkat további információkért.",
+	"lightning_s1_c5": "Nem minden Lightning tárca egyforma. Egy egyszerű kérdéssel meghatározhatod, melyik tárcának van a számodra megfelelő kompromisszum-egyensúlya:",
+	"lightning_question_1": "MELYIK KOMPROMISSZUM-EGYENSÚLY A MEGFELELŐ SZÁMOMRA?",
+	"lightning_s2_c1": "A Bitcoin egyik innovációja az, hogy letétkezelő, például bank nélkül is tárolhatod. Az önálló megőrzésű tárcák felszabadítják a Bitcoin teljes erejét.",
+	"lightning_s2_c2": "Önálló megőrzésű tárcával te vagy az egyetlen, aki képes elkölteni vagy átutalni a pénzedet. Senki sem akadályozhat meg, cenzúrázhat vagy lophat tőled. Ezeket nem letétkezelői tárcáknak is hívják.",
+	"lightning_s2_c3": "A Lightning legszuverénebb használata a saját csómópont fut tatása.",
+	"lightning_s2_c4": "Ez az útmutató egyszerű Lightning tárcákra fókuszál, amelyek nem igényelnek saját csómópontot.",
+	"lightning_s2_c5": "Fontos tudni, hogy még nem letétkezelői Lightning tárca használatakor is meg kell bíznod a tárca készítőjében, hogy nem küld rosszindulatú alkalmazásfrissítést és nem lopja el a pénzeszközeidet.",
+	"lightning_s3_c1": "A letétkezelői tárcák olyan tárcák, ahol nem te irányítod a pénzedet.",
+	"lightning_s3_c2": "Ezek a tárcák inkább a bankrendszerre hasonlítanak, ahol meg kell bíznod egy harmadik félben. Ha a Bitcoinod egy tőzsdén van, letétkezelői tárcát használsz.",
+	"lightning_s3_c3": "A letétkezelői tárcák kényelmesnek tűnhetnek, de a letétkezelőnek technikai lehetősége van bármikor ellopni az összes felhasználói pénzeszközt.",
+	"lightning_s3_c4": "Néhányan előnyben részesítik a letétkezelői Lightning tárcákat kis összegű bitcoin esetén a könnyű használat miatt. Emlékezz: nem a te kulcsaid, nem a te érméid!",
+	"lightning_question_2": "VÁLASZD KI A TÁRCÁDAT",
+	"lightning_s4_c1": "Mindezek ismeretében most kiválaszthatod a számodra megfelelő kompromisszum-egyensúlyt nyújtó Lightning tárcát.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Sok funkció",
+	"lightning_mobile_app": "Mobil alkalmazás",
+	"lightning_free": "100% ingyenes",
+	"lightning_merchants": "Kiváló kereskedőknek",
+	"lightning_starter": "Kiváló kezdő tárca",
+	"lightning_browser": "Böngésző alapú",
+	"lightning_custodial": "Teljesen letétkezelői tárca",
+	"lightning_cta_hardware": "Bitcoin hardver tárca útmutatót keresel?"
+}

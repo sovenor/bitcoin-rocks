@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Tudd meg, miért jó a Bitcoin az üzletnek",
+	"why_header": "A BITCOIN JÓ AZ ÜZLETNEK",
+	"why_good_for_you": "A BITCOIN NEKED IS JÓ!",
+	"why_learn_more_lowercase": "Tudj meg többet.",
+	"why_s1": "A Bitcoinnak nincs inflációja",
+	"why_s1_c1": "Az infláció akkor következik be, amikor több pénzt nyomtatnak vagy teremtenek a semmiből. Ez idővel csökkenti a pénzed értékét.",
+	"why_s1_c2": "A Bitcoinnak fix kínálati határa van, ami azt jelenti, hogy senki sem tud több Bitcoint nyomtatni.",
+	"why_s2": "A Bitcoinnak nincsenek bankpánikjai",
+	"why_s2_c1": "Több amerikai bank is összeomlott bankpánik miatt az elmúlt években.",
+	"why_s2_c2": "Ahelyett, hogy egyszerűen megőriznék a pénzedet, a bankok befektetik és kölcsönadják. Ha ezek a befektetések nem jönnek be, nem lesz elég pénzük, hogy visszaadják a tiedet.",
+	"why_s2_c3": "Az FDIC biztosítási alapjában mindössze 1 dollár jut minden biztosított 100 dollárra.",
+	"why_s3": "A Bitcoin engedély nélkül használható",
+	"why_s3_c1": "A hagyományos pénzügyi hálózatokkal ellentétben a Bitcoin használatához nincs szükség engedélyre.",
+	"why_s3_c2": "Ez azt jelenti, hogy senki sem akadályozhatja meg a Bitcoin használatát semmilyen okból. Ez az első pénzügyi hálózat, amelyet cenzúra vagy elkobzás miatti aggodalom nélkül használhatsz.",
+	"why_s4": "A Bitcoin egy jobb világot épít",
+	"why_s4_c1": "A Bitcoin egy félreértett technológia, amely egy jobb világot épít.",
+	"why_s4_c2": "A Bitcoin lehetővé tette az emberi jogi aktivisták számára a szabadságért való küzdelmet, csökkentette a globális metánkibocsátást, megmentett nemzeti parkokat és még sok mást tett."
+}

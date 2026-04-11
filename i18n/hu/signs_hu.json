@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"signs_description": "Segíts nekünk elhelyezni ezeket a Bitcoin táblákat szerte Amerikában!",
+	"signs_title": "Ingyenes Bitcoin táblák a bitcoin.rocks-tól",
+	"signs_choose_header": "KÖSZÖNJÜK, HOGY SEGÍTETTÉL ELHELYEZNI EZEKET A BITCOIN TÁBLÁKAT SZERTE AMERIKÁBAN!",
+	"signs_choose_c1": "Teljesen kifogytak a tábláink! Küldetésünk a Bitcoin elfogadás felgyorsítása oktatás révén.",
+	"signs_choose_c2": "Sokan segítettetek azzal, hogy ezeket az ingyenes Bitcoin táblákat nyilvános helyekre helyeztétek. Minden táblánkon QR-kódok vannak, amelyek oktatási oldalra vezetnek a következőről:",
+	"signs_choose_c3": "infláció",
+	"signs_choose_c4": "A csodalatos közösségünknek köszönhetően ezreket értünk el, és segítettük őket megtenni az első lépéseiket a Bitcoin nyúllyukba.",
+	"signs_share_header": "OSZD MEG A TÁBLAHELYEIDET",
+	"signs_share_c1": "Oszd meg a táblahelyed fótóját velünk a Nostr-on, és nézd meg, hová helyezik mások a tábláikat.",
+	"signs_btn_share_on_nostr": "MEGOSZTÁS A NOSTR-ON",
+	"signs_btn_what_is_nostr": "MI AZ A NOSTR?",
+	"signs_instructions_1": "Add meg a levelezési címedet, és küldünk neked 10 Bitcoin táblát postán!",
+	"signs_instructions_2": "A címadatokat töröljük, miután az ingyenes tábláidat feladtuk."
+}

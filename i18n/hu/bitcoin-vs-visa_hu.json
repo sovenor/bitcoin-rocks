@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_vs_visa": "Bitcoin vs Visa",
+	"visa_header": "A KÜLÖNBSÉG A",
+	"visa_header_2": "BITCOIN",
+	"visa_header_3": "ÉS A",
+	"visa_header_4": "VISA KÖZÖTT",
+	"visa_intro_1": "A Visa az egyik legnagyobb fizetési hálózat a világon, évente több milliárd tranzakciót dolgoz fel.",
+	"visa_intro_2": "A Bitcoin egy decentralizált fizetési hálózat, amely közvetítők nélkül működik.",
+	"visa_intro_3": "De miben különbözik a Visa fizetési hálózata a Bitcoin fizetési hálózatától? Nézzük meg a különbségeket.",
+	"visa": "VISA",
+	"visa_point_1": "Zárt hálózat",
+	"visa_point_2": "Magas díjak",
+	"visa_point_3": "Átláthatatlan",
+	"visa_point_4": "Befagyaszthatja a számlát",
+	"visa_point_5": "Hitelkártya-adósság",
+	"visa_point_6": "Letétkezelői megőrzés",
+	"visa_point_7": "Korlátozott elérhetőség",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Nyílt hálózat",
+	"bitcoin_point_2": "Alacsony díjak",
+	"bitcoin_point_3": "Átlátható",
+	"bitcoin_point_4": "Nem fagyasztható be",
+	"bitcoin_point_5": "Nincs adósság",
+	"bitcoin_point_6": "Önálló megőrzés",
+	"bitcoin_point_7": "Mindig elérhető",
+	"point_1_summary_1": "A Bitcoin egy nyílt hálózat, amelyhez bárki internet-hozzáféréssel csatlakozhat engedély nélkül. A Visa egy zárt hálózat, amelyhez a kereskedőknek meg kell felelniük és jelentkezniük kell a hozzáférésért.",
+	"point_2_summary_1": "A Bitcoin tranzakciós díjak jellemzően sokkal alacsonyabbak, mint a Visa feldolgozási díjak. A kereskedők általában 2-3% díjat fizetnek a Visa tranzakciók után, míg a Bitcoin Lightning hálózat szinte nulla díjas fizetéseket tesz lehetővé.",
+	"point_3_summary_1": "A Bitcoin tranzakciók nyilvános blokkláncra kerülnek, amelyet bárki ellenőrizhet. A Visa privát hálózatot működtet átláthatatlan belső folyamatokkal.",
+	"point_4_summary_1": "Az önállóan megőrzött Bitcoint nem lehet befagyasztani. A Visa befagyaszthatja a számládat, visszatarthatja a fizetéseket, és megtagadhatja a szolgáltatást.",
+	"point_5_summary_1": "A Bitcoin nem adósságalapú pénz – csak Bitcoint költhetsz, amelyet valóban birtokolsz. A Visa hitelkártyák adósság felhalmozását teszik lehetővé, magas kamatokkal.",
+	"point_6_summary_1": "A Bitcoin önállóan megőrizhető, ami valódi tulajdonjogot biztosít. A Visa számlák bankjaidtól és pénzintézetektől függenek.",
+	"point_7_summary_1": "A Bitcoin hálózat napi 24 órában, heti 7 napban elérhető. A Visa rendszer időnként leáll karbantartás, technikai problémák vagy ünnepnapok miatt."
+}

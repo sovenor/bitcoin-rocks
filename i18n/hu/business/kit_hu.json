@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"print_your_own_bitcoin_business_kit": "Nyomtasd ki a saját Bitcoin üzleti csomagodat",
+	"kit_description": "Nyomtass ki egy Bitcoin üzleti csomagot, és segíts egy helyi vállalkozásnak elfogadni a Bitcoin fizetéseket.",
+	"kit_header": "BITCOIN ÜZLETI CSOMAG NYOMTATÁSA",
+	"kit_intro_1": "A Bitcoin üzleti csomag egy egyszerű módja annak, hogy bemutasd a Bitcoint egy helyi vállalkozásnak.",
+	"kit_intro_2": "Nyomtasd ki a csomagot, és add oda egy helyi vállalkozás tulajdonosának, hogy megismerje a Bitcoin elfogadásának előnyeit."
+}

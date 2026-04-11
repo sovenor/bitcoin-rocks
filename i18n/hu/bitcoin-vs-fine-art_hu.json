@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs képzőművészet",
+	"art_header": "A KÜLÖNBSÉG A",
+	"art_header_2": "BITCOIN",
+	"art_header_3": "ÉS A",
+	"art_header_4": "KÉPZŐMŰVÉSZET KÖZÖTT",
+	"art_intro_1": "A képzőművészetet évszázadok óta értékmegőrző eszközként és befektetésként használják.",
+	"art_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz fix kínálattal.",
+	"art_intro_3": "De miben különbözik a műtárgyak birtoklása a Bitcoin birtoklásától? Nézzük meg a különbségeket.",
+	"fine_art": "KÉPZŐMŰVÉSZET",
+	"art_point_1": "Nem helyettesíthető",
+	"art_point_2": "Korlátozott piaci hozzáférés",
+	"art_point_3": "Magas díjak",
+	"art_point_4": "Nem osztható",
+	"art_point_5": "Nehéz hitelesíteni",
+	"art_point_6": "Megsemmisíthető",
+	"art_point_7": "Exkluzív",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Helyettesíthető",
+	"bitcoin_point_2": "Nyílt piaci hozzáférés",
+	"bitcoin_point_3": "Alacsony díjak",
+	"bitcoin_point_4": "Végtelenül osztható",
+	"bitcoin_point_5": "Könnyen hitelesíthető",
+	"bitcoin_point_6": "Nem megsemmisíthető",
+	"bitcoin_point_7": "Mindenki számára elérhető",
+	"point_1_summary_1": "Minden bitcoin egyforma és kicserélhető. Minden műalkotás egyedi, ami megnehezíti az összehasonlítást, az árazást és a kereskedést.",
+	"point_2_summary_1": "A Bitcoin nyílt piacon kereskedik, amelyhez bárki hozzáférhet az interneten. A képzőművészeti piac exkluzív, aukciósházak és kereskedők dominálják, korlátozott hozzáféréssel.",
+	"point_3_summary_1": "A Bitcoin tranzakciós díjak alacsonyak. A képzőművészeti tranzakciók magas díjakkal járnak: aukciós jutalékok, biztosítás, szállítás és tárolási költségek.",
+	"point_4_summary_1": "A Bitcoin 100 millió egységre osztható. Egy műalkotás nem osztható kisebb részekre anélkül, hogy megsemmisülne.",
+	"point_5_summary_1": "A Bitcoin hitelességét a hálózat automatikusan ellenőrzi. A műalkotások hitelesítése költséges szakértőket és időt igényel, és a hamisítás jelentős probléma.",
+	"point_6_summary_1": "A Bitcoin nem semmisíthető meg fizikailag. A műalkotásokat tűz, víz, lopás vagy természeti katasztrófák megsemmisíthetik.",
+	"point_7_summary_1": "Bárki vásárolhat Bitcoint, akár néhány forint értékben is. A képzőművészet exkluzív befektetés, amelyhez általában jelentős tőke szükséges."
+}

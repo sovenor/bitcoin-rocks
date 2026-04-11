@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "hu"
+	},
+	"get_involved_and_help_spread_bitcoin": "Csatlakozz és segíts terjeszteni a Bitcoint",
+	"get_involved_description": "Ingyenes forrásaink megkönnyítik a Bitcoin elfogadás terjesztését.",
+	"get_involved_header": "CSATLAKOZZ",
+	"get_involved_header_2": "TERJESZD A BITCOINT",
+	"get_involved_intro_1": "Nyomasztó lehet a jelenlegi világunkban élni.",
+	"get_involved_intro_2": "A pénzünk törött. Ennek eredményeképpen a társadalom alapvető elemei is töröttek.",
+	"get_involved_intro_3": "Ha már ismered a Bitcoint, tudod azt a reményt, amelyet a Bitcoin hozhat. Reményt egy fényesebb jövőre, amelyet jobb pénz tesz lehetővé.",
+	"get_involved_intro_4": "De a körülötted lévők közül sokan nem tudnak a Bitcoinról. Ugyanabban a törött világban élnek, mint te, de a remény fénysugár nélkül, amely segítene átvergődöni a sötétségen.",
+	"get_involved_intro_5": "De segíthetsz változtatni ezen. Több ingyenes forrást készítettünk, hogy megkönnyítsük a Bitcoin által hozott remény terjesztését a körülötted lévők felé.",
+	"get_involved_sticker_header": "Helyezz el egy matricát nyilvános helyen",
+	"get_involved_sticker_content_1": "Segíthetsz oktatni a körülötted lévőket a Bitcoinról anélkül, hogy bárkivel interakcióba kellene lépned. Egyszerűen helyezz el egy ingyenes Bitcoin matricát nyilvános helyen.",
+	"get_involved_sticker_content_2": "Havonta több százan olvassák le a QR-kódokat ezekről a matricákról. Az inflációs matricák egy oldalra mutatnak a",
+	"get_involved_sticker_content_3": "Bitcoinról mint az infláció megoldásáról.",
+	"get_involved_sticker_content_4": "A többi matrica az oktatási főoldalunkra mutat, amely megmutatja az embereknek, hogyan",
+	"get_involved_sticker_content_5": "épít a Bitcoin egy jobb világot.",
+	"get_involved_sticker_content_6": "Ezeket a matricákat a közösségedben olyan helyekre ragasztva, ahol az emberek látják őket, segítheted a körülötted lévőket megtenni az első lépéseiket a Bitcoin nyúllyukba.",
+	"get_involved_request_a": "KÉRJ EGY",
+	"get_involved_sticker_pack": "MATRICACSOMAGOT",
+	"get_involved_postcard_header": "Küldj képeslapot",
+	"get_involved_postcard_content_1": "Segíthetsz terjeszteni a Bitcoin reményét valakinek, akit ismersz, azáltal, hogy elküldesz neki egy ingyenes képeslapot.",
+	"get_involved_postcard_content_2": "Minden képeslap hátoldalán egy meggyőző szöveg van a Bitcoinról, QR-kóddal a további információkhoz.",
+	"get_involved_postcard_content_3": "Egy Bitcoin képeslap elküldésével segítheted őket új szemszögből látni a Bitcoint.",
+	"get_involved_postcard_pack": "KÉPESLAPCSOMAGOT",
+	"get_involved_business_header": "Állíts be egy vállalkozást",
+	"get_involved_business_content_1": "Szeretnéd segíteni építeni a Bitcoin körkörös gazdaságot? A Bitcoin üzleti csomagunk megkönnyíti egy vállalkozás megszólítását a Bitcoin fizetések elfogadásáról.",
+	"get_involved_business_content_2": "Minden üzleti csomag szórólapokat tartalmaz, amelyek kiemelik a Bitcoin fizetések elfogadásának előnyeit. Minden szórólap különböző",
+	"get_involved_business_content_3": "ingyenes Bitcoin üzleti forrásokra mutat.",
+	"get_involved_business_kit": "ÜZLETI CSOMAGOT"
+}

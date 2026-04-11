@@ -34,6 +34,7 @@ $(function() {
     { code: 'it', name: 'Italiano' },
     { code: 'sw', name: 'Kiswahili' },
     { code: 'lt', name: 'Lietuvių' },
+    { code: 'hu', name: 'Magyar' },
     { code: 'ms', name: 'Melayu' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'nb', name: 'Norsk' },
