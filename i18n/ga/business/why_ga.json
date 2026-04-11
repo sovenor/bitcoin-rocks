@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Foghlaim cén fáth go bhfuil Bitcoin go maith don ghnó",
+	"why_header": "TÁ BITCOIN GO MAITH DON GHNÓ",
+	"why_good_for_you": "TÁ BITCOIN GO MAITH DUIT FREISIN!",
+	"why_learn_more_lowercase": "Foghlaim tuilleadh.",
+	"why_s1": "Níl boilsciú ag Bitcoin",
+	"why_s1_c1": "Tarlaíonn boilsciú nuair a phriontáiltear nó a chruthaítear níos mó airgid as an aer. Déanann sé seo d'airgead níos lú luachmhaire le himeacht ama.",
+	"why_s1_c2": "Tá soláthar seasta ag Bitcoin, rud a chiallaíonn nach féidir le haon duine níos mó Bitcoin a phriontáil.",
+	"why_s2": "Níl rith ar bhainc ag Bitcoin",
+	"why_s2_c1": "Tá bainc iolracha SAM tar éis titim sna blianta beaga anuas mar gheall ar rith ar bhainc.",
+	"why_s2_c2": "In ionad d'airgead a choinneáil duit, infheistíonn bainc d'airgead agus tugann siad ar iasacht é. Mura n-éiríonn go maith leis na hinfheistíochtaí sin, níl go leor acu chun tú a aisíoc.",
+	"why_s2_c3": "Agus níl ach $1 ag ciste árachais FDIC as gach $100 atá á árachú acu.",
+	"why_s3": "Tá Bitcoin gan chead",
+	"why_s3_c1": "Murab ionann agus líonraí airgeadais traidisiúnta, ní gá cead chun Bitcoin a úsáid.",
+	"why_s3_c2": "Ciallaíonn sé sin nach féidir le haon duine tú a stopadh ó Bitcoin a úsáid ar chúis ar bith. Is é an chéad líonra airgeadais é is féidir leat a úsáid gan eagla roimh chinsireacht nó urghabháil.",
+	"why_s4": "Tá Bitcoin ag tógáil domhain níos fearr",
+	"why_s4_c1": "Is teicneolaíocht míthuigthe é Bitcoin atá ag tógáil domhain níos fearr.",
+	"why_s4_c2": "Chuir Bitcoin ar chumas gníomhaithe cearta daonna troid ar son na saoirse, laghdaigh sé astaíochtaí meatáin domhanda, shábháil sé páirceanna náisiúnta, agus go leor eile."
+}

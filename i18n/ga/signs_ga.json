@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"signs_description": "Cabhraigh linn na Comharthaí Bitcoin seo a chur ar fud Mheiriceá!",
+	"signs_title": "Comharthaí Bitcoin saor in aisce ó bitcoin.rocks",
+	"signs_choose_header": "GO RAIBH MAITH AGAT AS CABHRÚ LINN NA COMHARTHAÍ BITCOIN SEO A CHUR AR FUD MHEIRICEÁ!",
+	"signs_choose_c1": "Táimid go hiomlán as comharthaí anois! Is é ár misean glacadh le Bitcoin a luathú trí oideachas.",
+	"signs_choose_c2": "Chabhraigh go leor agaibh trí na comharthaí Bitcoin saor in aisce seo a chur in áiteanna poiblí. Tá cóid QR ar ár gcomharthaí ar fad a nascann le leathanach oideachais faoi",
+	"signs_choose_c3": "boilsciú",
+	"signs_choose_c4": "A bhuíochas lenár bpobal iontach, shroicheamar na mílte daoine agus chabh raíomar leo a gcéad chéimeanna a ghlacadh síos poll coinín Bitcoin.",
+	"signs_share_header": "ROINN DO LÁITHREACHA COMHARTHAÍ",
+	"signs_share_c1": "Roinn grianghraf de do láthair chomhartha linn ar Nostr agus féach cá bhfuil daoine eile ag cur a gcuid comharthaí.",
+	"signs_btn_share_on_nostr": "ROINN AR NOSTR",
+	"signs_btn_what_is_nostr": "CÉARD É NOSTR?",
+	"signs_instructions_1": "Cuir do sheoladh poist isteach agus cuirfimid bosca de 10 gcomhartha Bitcoin chugat sa phost!",
+	"signs_instructions_2": "Scriostar sonraí seoltaí tar éis do chomharthaí saor in aisce a sheoladh."
+}

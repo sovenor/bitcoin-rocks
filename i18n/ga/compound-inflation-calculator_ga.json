@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"cic_header": "ÁIREAMHÁN BOILSCITHE IOLRAITHE",
+	"cic_description": "Úsáid an tÁireamhán Boilscithe Iolraithe seo chun a fháil amach cé mhéad a chaithfidh do thuarastal ardú chun coinneáil suas leis an mboilsciú.",
+	"what_can_i_do_about": "Céard is féidir liom a dhéanamh faoin",
+	"what_can_i_do_about_2": "mboilsciú?",
+	"cic_inflation_cta": "Éirigh as Boilsciú le Bitcoin"
+}

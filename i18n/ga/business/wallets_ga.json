@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"how_to_accept_bitcoin_payments": "Conas Glacadh le Híocaíochtaí Bitcoin",
+	"wallets_header": "FAIGH SPARÁN BITCOIN SAOR IN AISCE CHUN GLACADH LE HÍOCAÍOCHTAÍ BITCOIN",
+	"wallets_intro_1": "Tá gach sparán Bitcoin idir-inoibritheach, ionas gur féidir le do chustaiméirí tú a íoc i mBitcoin is cuma cén sparán a úsáideann siad.",
+	"wallets_intro_2": "Sparáin Bitcoin-amháin:",
+	"wallets_intro_3": "Is sparáin ghlana Bitcoin iad seo a osclaíonn buntáistí iomlána Bitcoin: gan idirghabhálaithe, táillí ísle, agus gan aisíocaíochtaí ná calaois.",
+	"wallets_intro_4": "Sparáin hibrideacha:",
+	"wallets_intro_5": "Ligeann siad seo duit aon chion de do Bitcoin a mhalartú ar dollair chomh luath agus a íocann custaiméir thú. Tá táillí fós níos lú ná íocaíochtaí cárta creidmheasa, ach níos airde ná híocaíochtaí glana Bitcoin.",
+	"wallets_intro_6": "Is bealaí iontacha iad an dá cheann chun glacadh le Bitcoin. Beidh an sparán sonrach a úsáideann tú ag brath ar mhéid agus cineál do ghnó.",
+	"wallets_choice_sole": "sparáin do ghnólachtaí faoi úinéireacht aonair",
+	"wallets_choice_multiple": "sparáin do ghnólachtaí le fostaithe iolracha",
+	"wallets_choice_online": "sparáin do ghnólachtaí ar líne",
+	"wallets_choice_invoice": "sparáin do ghnólachtaí bunaithe ar shonraisc",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Is féidir leat glacadh le híocaíochtaí Bitcoin le do theirminéal Square PoS atá ann cheana nó comhtháthú siopa ar líne. Ní raibh sé riamh níos éasca glacadh le híocaíochtaí Bitcoin.",
+	"wallets_feature_bitcoin_only": "Sparán Bitcoin-amháin",
+	"wallets_feature_no_info": "Gan eolas ag teastáil",
+	"wallets_feature_in_person": "Íocaíochtaí pearsanta amháin",
+	"wallets_feature_settles_bitcoin": "Socraíonn 100% i mBitcoin",
+	"wallets_feature_hybrid": "Sparán hibrideach",
+	"wallets_feature_info": "Eolas gnó ag teastáil",
+	"wallets_feature_in_person_online": "Íocaíochtaí pearsanta & ar líne",
+	"wallets_feature_settles_both": "Socraigh i mBitcoin & dollair",
+	"wallets_feature_multiple_employees": "Tacaíocht d'fhostaithe iolracha (BPTanna)",
+	"wallets_feature_self_hosted": "Féin-óstáilte = 0% táillí",
+	"wallets_feature_online_store": "Comhtháthú siopa ar líne",
+	"wallets_feature_invoicing": "Bogearraí sonrasc saor in aisce",
+	"wallets_get_wallet": "FAIGH SPARÁN"
+}

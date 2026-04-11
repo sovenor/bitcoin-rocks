@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Irish (ga) Language Added — April 2026
+- Added Irish (Gaeilge) as the 46th language
+- Created 90+ translation files in `i18n/ga/` mirroring the English directory structure
+- Translation scripts in `scripts/irish/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (45→46)
+- Ran SEO content injection
+- Language code: `ga`
+- Display name: `Gaeilge` (placed alphabetically between Français and Hausa in language switcher)
+- Irish uses Latin script with fadas (á, é, í, ó, ú) — no special character concerns
+
 ## Hebrew (he) Language Added — April 2026
 - Added Hebrew (עברית) as the 44th language
 - Translation files already existed in `i18n/he/` (created in previous session via 8 scripts in `scripts/hebrew/`)

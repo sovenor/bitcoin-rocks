@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"bitcoin_is_good_for_business": "Tá Bitcoin go maith don ghnó",
+	"biz_header": "TÁ BITCOIN GO MAITH DON GHNÓ",
+	"biz_s1": "Táillí ísle gan íosmhéid",
+	"biz_s1_c1": "Éascaíonn Bitcoin duit íocaíochtaí a fháil go díreach ó do chuid custaiméirí, cosúil le hairgead tirim. Oibríonn líonra Bitcoin gan idirghabhálaithe cosúil le bainc agus cuideachtaí cárta creidmheasa a ghearrann táillí troma.",
+	"biz_s2": "Socrú láithreach",
+	"biz_s2_c1": "Díreach cosúil le hairgead tirim, socraíonn íocaíochtaí Bitcoin láithreach. Ní gá duit fanacht ar do chuideachta cárta creidmheasa nó banc chun tú a íoc. Ina ionad sin, faigheann tú rochtain ar d'airgead láithreach.",
+	"biz_s3": "Gan aisíocaíochtaí ná calaois",
+	"biz_s3_c1": "Toisc go dtarlaíonn íocaíochtaí Bitcoin go díreach idir tú féin agus do chuid custaiméirí, ní féidir le haon duine d'airgead a thógáil ar ais le haisíocaíocht.",
+	"biz_s3_c2": "Ní féidir Bitcoin bréige a sheoladh ar an Líonra Bitcoin, rud a chiallaíonn nach gá duit a bheith buartha faoi idirbhearta calaoiseacha a d'fhéadfadh airgead a chosaint ar do ghnó.",
+	"biz_s4": "Faigh níos mó custaiméirí",
+	"biz_s4_c1": "Tá na milliúin daoine a bhfuil Bitcoin acu agus ar mhaith leo a gcuid Bitcoin a chaitheamh in áiteanna a ghlacann leis.",
+	"biz_s4_c2": "Tríd glacadh le Bitcoin, is féidir do ghnó a bheith liostaithe ar léarscáileanna ceannaithe Bitcoin agus nochtadh saor in aisce a fháil do chustaiméirí nua Bitcoin.",
+	"biz_s4_c3": "Tá glacadh le Bitcoin 100% saor in aisce. Níl aon chonarthaí ná táillí folaithe ann."
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ga"
+	},
+	"bitcoin_doesnt_have_bank_runs": "Níl Rith ar Bhainc ag Bitcoin",
+	"bank_runs_header": "NÍL RITH AR BHAINC AG BITCOIN",
+	"bank_runs_header_2": "ACH D'FHÉADFADH GO MBEADH AG DO BHANC",
+	"bank_runs_what": "CÉARD É RITH AR BHANC?",
+	"bank_runs_what_content_1": "Tarlaíonn rith ar bhanc nuair a dhéanann an iomarca daoine iarracht a gcuid airgid a aistarraingt ón mbanc ag an am céanna.",
+	"bank_runs_what_content_2": "Mura bhfuil go leor airgid ar fáil ag bainc chun aistarraingtí a mheaitáil, is féidir leo titim go hiomlán nuair a tharlaíonn rith ar bhanc.",
+	"bank_runs_how": "CONAS A THARLAÍONN RITH AR BHAINC?",
+	"bank_runs_how_content_1": "Is córas 'cúlchiste codach' é ár gcóras baincéireachta rud a chiallaíonn nach gcoinníonn na bainc d'airgead i dtáisce agus fanacht go gcaitheann tú é nó go n-aistarraingíonn tú é.",
+	"bank_runs_how_content_2": "Ina ionad sin, glacann do bhanc d'airgead agus tugann ar iasacht é nó infheistíonn é. Is féidir le seo d'airgead a ghlasáil ar feadh tréimhsí fada ama, cé go ngeallann an banc duit an cumas d'airgead a aistarraingt am ar bith.",
+	"bank_runs_how_content_3": "Mar sin céard a tharlaíonn má dhéanann tú iarracht d'airgead a aistarraingt tar éis don bhanc é a thabhairt ar iasacht nó a infheistiú cheana?",
+	"bank_runs_how_content_4": "Ní fadhb é má tá tú mar an t-aon duine ag iarraidh aistarraingt. Tógfaidh an banc airgead duine eile agus tabharfaidh duit é. Ach céard a tharlaíonn nuair a dhéanann an iomarca daoine iarracht aistarraingt ag an am céanna?",
+	"bank_runs_how_content_5": "Fuair go leor daoine sa SAM amach nuair a bhí rith ar Silicon Valley Bank i Márta 2023.",
+	"bank_runs_how_content_6": "Bhí an banc tar éis airgead a gcustaiméirí a infheistiú i mbannaí rialtais a bhí glasáilte ar feadh suas le 30 bliain. Níos measa fós, bhí luach na mbannaí sin tar éis titim go mór le déanaí, mar sin ní fhéadfadh Silicon Valley Bank na bannaí a dhíol chun airgead a dtaisceolairí a fháil ar ais. Bhí siad dócmhainneach. Ní raibh go leor airgid acu chun aistarraingtí a dtaisceolairí a mheaitseáil.",
+	"bank_runs_how_content_7": "De réir mar a fuair níos mó daoine amach, ní dheachaigh an fhadhb ach in olcas. Tháinig níos mó iarrataí aistarraingthe isteach, ach níor próiseáladh go leor acu. Thuig na mílte gnólacht nach mbeidís in ann a gcuid fostaithe a íoc mar gheall ar theip an bhainc.",
+	"bank_runs_how_content_8": "Chéim an FDIC isteach agus d'aontaigh siad taisceolairí a dhéanamh iomlán. Fadhb réitithe? Ní go díreach...",
+	"bank_runs_fdic": "AN GCOSNAÍONN ÁRACHAS FDIC MO CHUID AIRGID?",
+	"bank_runs_fdic_content_1": "Tá árachas FDIC deartha chun taisceolairí bainc a chosaint sa chás go dteipeann ar bhanc. Tá taiscí árachaithe suas le $250,000 in aghaidh an taisceolaí. Sin go hiontach, nach ea?",
+	"bank_runs_fdic_content_2": "Ní go díreach. Má theipeann ar bhanc, cá bhfaigheann an FDIC an t-airgead? Tá ciste árachais acu le 125 billiún dollar ann.",
+	"bank_runs_fdic_content_3": "Is cosúil gur go leor airgid é sin go dtí go gcuirtear i gcomparáid é leis an méid taiscí a árachaíonn siad: beagnach 10 trilliún nó 10,000 billiún dollar.",
+	"bank_runs_fdic_content_4": "Taispeánann an FDIC fiú ar a suíomh gréasáin nach bhfuil go leor airgid ina gciste árachais ach chun beagán níos mó ná 1% de thaiscí a chlúdach.",
+	"bank_runs_fdic_content_5": "Sa chás go dteipeadh ar bhanc a sháródh an ciste árachais FDIC, is dócha (ach ní cinnte) go bpriontálfadh rialtas SAM airgead chun taisceolairí a dhéanamh iomlán.",
+	"bank_runs_fdic_content_6": "Ach cúisíonn priontáil airgid boilsciú, mar sin ní réiteach iontach é.",
+	"bank_runs_safe": "AN BHFUIL BAINC ANN NACH N-ÚSÁIDEANN CÚLCHISTE CODACH?",
+	"bank_runs_safe_content_1": "Rinne roinnt bainc iarracht a bheith ina 'mbainc shábháilte' nach dtugann airgead taisceolairí ar iasacht ná nach n-infheistíonn é.",
+	"bank_runs_safe_content_2": "Cé nach mbeadh aon riosca rith ar bhainc ag na bainc shábháilte seo, diúltaíodh dá gcuid iarratas ag an gCúlchiste Feidearálach. Ciallaíonn sé seo nach féidir leo oibriú go dlíthiúil mar bhainc.",
+	"bank_runs_safe_content_3": "Toisc gur cuireadh cosc orthu oibriú, níl aon bhanc ann inniu nach n-úsáideann cúlchiste codach.",
+	"bank_runs_safe_content_4": "Ar an dea-uair, tá bealach ann chun éirí as an gcóras cúlchiste codach trí bheith mar do bhanc féin. Ní hé go bhfuilimid ag caint faoi airgead tirim a sháthú faoi do mhairteas.",
+	"bank_runs_safe_content_5": "Tá coigilt in airgead tirim fós leochaileach do bhoilsciú.",
+	"bank_runs_safe_content_6": "Táimid ag caint faoi Bitcoin: córas airgeadais nua a ligeann duit a bheith mar do bhanc féin.",
+	"bank_runs_protect": "AN FÉIDIR LE BITCOIN MÉ A CHOSAINT Ó RITH AR BHAINC?",
+	"bank_runs_protect_content_1": "Is féidir, is córas airgeadais lánchúlchiste é Bitcoin.",
+	"bank_runs_protect_content_2": "Tá rith ar bhainc dodhéanta i mBitcoin chomh fada agus a aistarraingíonn tú do Bitcoin chuig do sparán féin. Ná fág do bitcoin ar mhalartán nó i gclúdach cosúil le ETF Bitcoin.",
+	"bank_runs_protect_content_3": "Féach ar ár dTreoir Sparán Bitcoin simplí chun foghlaim conas aistarraingt chuig do sparán féin.",
+	"bank_runs_protect_content_4": "Le Bitcoin, is féidir leat a bheith i smacht ar d'airgead faoi dheireadh."
+}
