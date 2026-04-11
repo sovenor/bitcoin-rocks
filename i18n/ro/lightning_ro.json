@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"bitcoin_lightning_wallet_guide": "Ghid portofele Bitcoin Lightning",
+	"lightning_description": "Portofelele Lightning îți permit să trimiți Bitcoin rapid și ieftin, menținând în același timp suveranitatea personală.",
+	"lightning_header": "GHID PORTOFELE LIGHTNING",
+	"lightning_s1_c1": "Lightning îți permite să trimiți plăți Bitcoin rapid și ieftin.",
+	"lightning_s1_c2": "Este important să știi că utilizarea Lightning vine cu compromisuri. În schimbul plăților Bitcoin mai rapide și mai ieftine, sacrifici adesea o parte din securitate.",
+	"lightning_s1_c3": "În general, Lightning ar trebui folosit doar cu sume mici de bitcoin. Ar trebui să stochezi sume mari de bitcoin doar într-un portofel hardware.",
+	"lightning_s1_c4": "Consultă ghidul nostru de portofele hardware pentru mai multe informații.",
+	"lightning_s1_c5": "Nu toate portofelele Lightning sunt la fel. Poți determina care portofel are setul potrivit de compromisuri pentru tine punând o simplă întrebare:",
+	"lightning_question_1": "CE ECHILIBRU DE COMPROMISURI ESTE POTRIVIT PENTRU MINE?",
+	"lightning_s2_c1": "Una dintre inovațiile Bitcoin este capacitatea de a-l stoca fără a te baza pe un custod, precum o bancă. Portofelele cu auto-custodie deblochează puterea completă a Bitcoin.",
+	"lightning_s2_c2": "Cu un portofel cu auto-custodie, ești singura persoană cu capacitatea de a cheltui sau transfera banii tăi. Nimeni nu te poate opri, cenzura sau fura de la tine când folosești un portofel cu auto-custodie. Acestea se mai numesc și portofele non-custodiale.",
+	"lightning_s2_c3": "Cel mai suveran mod de a folosi Lightning este prin rularea propriului nod.",
+	"lightning_s2_c4": "Acest ghid se concentrează pe portofele Lightning simple care nu necesită propriul nod.",
+	"lightning_s2_c5": "Este important de știut că, chiar și folosind un portofel Lightning non-custodial, ai încredere în creatorul portofelului că nu va trimite o actualizare malițioasă a aplicației și nu îți va fura fondurile.",
+	"lightning_s3_c1": "Portofelele custodiale sunt portofele în care nu ai controlul banilor tăi.",
+	"lightning_s3_c2": "Aceste portofele sunt mai similare cu sistemul bancar unde trebuie să ai încredere într-o terță parte că îți va oferi acces la banii tăi. Dacă Bitcoin-ul tău este pe un exchange, folosești un portofel custodial.",
+	"lightning_s3_c3": "Portofelele custodiale pot părea convenabile, dar custodul are capacitatea tehnică de a fura toate fondurile utilizatorilor în orice moment.",
+	"lightning_s3_c4": "Unii oameni preferă portofelele Lightning custodiale pentru sume mici de bitcoin datorită ușurinței în utilizare. Ține minte: nu cheile tale, nu monedele tale!",
+	"lightning_question_2": "ALEGE-ȚI PORTOFELUL",
+	"lightning_s4_c1": "Cu toate acestea în minte, acum poți alege portofelul Lightning care are echilibrul potrivit de compromisuri pentru tine.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Multe funcționalități",
+	"lightning_mobile_app": "Aplicație mobilă",
+	"lightning_free": "100% gratuit",
+	"lightning_merchants": "Excelent pentru comercianți",
+	"lightning_starter": "Portofel excelent pentru început",
+	"lightning_browser": "Bazat pe browser",
+	"lightning_custodial": "Portofel complet custodial",
+	"lightning_cta_hardware": "Cauți ghidul nostru de portofele hardware Bitcoin?"
+}

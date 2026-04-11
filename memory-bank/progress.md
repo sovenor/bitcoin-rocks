@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Romanian (ro) Language Added — April 2026
+- Added Romanian (Română) as the 49th language
+- Created 90 translation files in `i18n/ro/` mirroring the English directory structure
+- Translation scripts in `scripts/romanian/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (48→49)
+- Ran SEO content injection
+- Language code: `ro`
+- Display name: `Română` (placed alphabetically between Português and Slovenčina in language switcher)
+- Romanian uses Latin script with diacritics (ă, â, î, ș, ț) — no special character concerns
+
 ## Punjabi (pa) Language Added — April 2026
 - Added Punjabi (ਪੰਜਾਬੀ) as the 48th language
 - Created 90 translation files in `i18n/pa/` mirroring the English directory structure

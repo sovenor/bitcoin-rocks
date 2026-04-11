@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"signs_description": "Ajută-ne să punem aceste Panouri Bitcoin în toată America!",
+	"signs_title": "Panouri Bitcoin gratuite de la bitcoin.rocks",
+	"signs_choose_header": "MULȚUMIM CĂ NE-AI AJUTAT SĂ PUNEM ACESTE PANOURI BITCOIN ÎN TOATĂ AMERICA!",
+	"signs_choose_c1": "Acum nu mai avem panouri! Misiunea noastră este de a accelera adoptarea Bitcoin prin educație.",
+	"signs_choose_c2": "Mulți dintre voi ați ajutat punând aceste panouri Bitcoin gratuite în public. Toate panourile noastre au coduri QR care fac trimitere la o pagină educativă despre",
+	"signs_choose_c3": "inflație",
+	"signs_choose_c4": "Datorită comunității noastre extraordinare, am ajuns la mii de oameni și i-am ajutat să facă primii pași în lumea Bitcoin.",
+	"signs_share_header": "DISTRIBUIE LOCAȚIILE PANOURILOR TALE",
+	"signs_share_c1": "Distribuie o fotografie cu locația panoului tău pe Nostr și vezi unde alți oameni își pun panourile.",
+	"signs_btn_share_on_nostr": "DISTRIBUIE PE NOSTR",
+	"signs_btn_what_is_nostr": "CE ESTE NOSTR?",
+	"signs_instructions_1": "Introdu adresa ta poștală și îți vom trimite o cutie de 10 panouri Bitcoin prin poștă!",
+	"signs_instructions_2": "Datele adresei sunt șterse după expedierea panourilor gratuite."
+}

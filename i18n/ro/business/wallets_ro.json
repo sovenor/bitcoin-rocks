@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"how_to_accept_bitcoin_payments": "Cum să accepți plăți Bitcoin",
+	"wallets_header": "OBȚINE UN PORTOFEL BITCOIN GRATUIT PENTRU A ACCEPTA PLĂȚI BITCOIN",
+	"wallets_intro_1": "Toate portofelele Bitcoin sunt interoperabile, astfel încât clienții tăi îți pot plăti în Bitcoin indiferent de portofelul pe care îl folosesc.",
+	"wallets_intro_2": "Portofele exclusiv Bitcoin:",
+	"wallets_intro_3": "Acestea sunt portofele Bitcoin pure care deblochează toate beneficiile Bitcoin: fără intermediari, comisioane mici și fără estornări sau fraudă.",
+	"wallets_intro_4": "Portofele hibride:",
+	"wallets_intro_5": "Acestea îți permit să schimbi orice procent din Bitcoin pentru dolari imediat ce un client te plătește. Comisioanele sunt totuși mai mici decât plățile cu cardul de credit, dar mai mari decât plățile Bitcoin pure.",
+	"wallets_intro_6": "Ambele sunt modalități excelente de a accepta Bitcoin. Portofelul specific pe care îl folosești va depinde de dimensiunea și tipul afacerii tale.",
+	"wallets_choice_sole": "portofele pentru afaceri cu un singur proprietar",
+	"wallets_choice_multiple": "portofele pentru afaceri cu mai mulți angajați",
+	"wallets_choice_online": "portofele pentru afaceri online",
+	"wallets_choice_invoice": "portofele pentru afaceri bazate pe facturi",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "Poți accepta plăți Bitcoin cu terminalul Square PoS existent sau integrarea magazinului online. Nu a fost niciodată mai ușor să accepți plăți Bitcoin.",
+	"wallets_feature_bitcoin_only": "Portofel exclusiv Bitcoin",
+	"wallets_feature_no_info": "Nu necesită informații",
+	"wallets_feature_in_person": "Doar plăți în persoană",
+	"wallets_feature_settles_bitcoin": "Decontare 100% în Bitcoin",
+	"wallets_feature_hybrid": "Portofel hibrid",
+	"wallets_feature_info": "Informații de afacere necesare",
+	"wallets_feature_in_person_online": "Plăți în persoană și online",
+	"wallets_feature_settles_both": "Decontare în Bitcoin și dolari",
+	"wallets_feature_multiple_employees": "Suport pentru angajați multipli (BPT-uri)",
+	"wallets_feature_self_hosted": "Auto-găzduit = 0% comisioane",
+	"wallets_feature_online_store": "Integrare magazin online",
+	"wallets_feature_invoicing": "Software gratuit de facturare",
+	"wallets_get_wallet": "OBȚINE PORTOFELUL"
+}

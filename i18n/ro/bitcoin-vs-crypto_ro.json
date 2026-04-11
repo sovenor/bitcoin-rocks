@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"crypto_header": "DIFERENȚA DINTRE",
+	"crypto_header_2": "BITCOIN",
+	"crypto_header_3": "ȘI",
+	"crypto_header_4": "CRYPTO",
+	"crypto_intro_1": "Spațiul criptomonedelor a explodat cu mii de token-uri și proiecte digitale diferite.",
+	"crypto_intro_2": "Deși Bitcoin a fost prima și rămâne cea mai cunoscută criptomonedă, este fundamental diferit de restul industriei crypto.",
+	"crypto_intro_3": "Să explorăm diferențele cheie dintre Bitcoin și ecosistemul mai larg al criptomonedelor.",
+	"crypto": "CRYPTO",
+	"crypto_point_1": "Schimbări și bifurcări frecvente",
+	"crypto_point_2": "Control centralizat",
+	"crypto_point_3": "Ofertă nelimitată sau inflaționistă",
+	"crypto_point_4": "Protocoale complexe",
+	"crypto_point_5": "Consens experimental",
+	"crypto_point_6": "Token-uri utilitare speculative",
+	"crypto_point_7": "Volatil și fragil",
+	"crypto_point_8": "Susținere corporativă",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Protocol imuabil",
+	"bitcoin_point_2": "Cu adevărat descentralizat",
+	"bitcoin_point_3": "Ofertă fixă de 21M BTC",
+	"bitcoin_point_4": "Simplu și accesibil",
+	"bitcoin_point_5": "Proof of Work dovedit",
+	"bitcoin_point_6": "Bani digitali puri",
+	"bitcoin_point_7": "Antifragil",
+	"bitcoin_point_8": "Nicio entitate nu îl controlează",
+	"point_1_summary_1": "Protocolul Bitcoin a rămas fundamental neschimbat din 2009, oferind reguli previzibile care nu pot fi ușor modificate. Majoritatea proiectelor crypto își actualizează frecvent protocoalele, schimbă tokenomics-ul sau se bifurcă în versiuni noi, creând incertitudine pentru utilizatori.",
+	"point_2_summary_1": "Bitcoin funcționează pe o rețea cu adevărat descentralizată cu zeci de mii de noduri independente la nivel mondial. Multe proiecte crypto sunt controlate de fundații, companii sau grupuri mici de dezvoltatori care pot lua decizii unilaterale despre viitorul protocolului.",
+	"point_3_summary_1": "Bitcoin are o limită maximă de 21 de milioane de monede care vor exista vreodată, făcându-l cel mai rar activ digital. Majoritatea proiectelor crypto au oferte nelimitate, mecanisme inflaționiste sau pot emite token-uri noi la discreție, diluând valoarea deținătorilor în timp.",
+	"point_4_summary_1": "Bitcoin are un singur scop simplu: bani digitali peer-to-peer. Oricine îl poate înțelege și folosi cu cunoștințe de bază. Multe proiecte crypto implică contracte inteligente complexe, protocoale DeFi sau mecanisme de guvernanță care necesită expertiză tehnică pentru a fi folosite în siguranță.",
+	"point_5_summary_1": "Bitcoin folosește consensul Proof of Work, care a fost testat în bătălie de peste 15 ani fără un singur atac reușit asupra rețelei principale. Multe proiecte crypto folosesc mecanisme de consens experimentale precum Proof of Stake sau sisteme delegate care nu și-au dovedit securitatea pe termen lung.",
+	"point_6_summary_1": "Bitcoin servește ca bani digitali — o rezervă de valoare și un mijloc de schimb. Majoritatea token-urilor crypto sunt token-uri utilitare pentru platforme specifice, token-uri de guvernanță sau active speculative cu propuneri de valoare neclare în lumea reală.",
+	"point_7_summary_1": "Bitcoin devine mai puternic sub atac și a supraviețuit fiecărei crize, interdicții și critici aruncate asupra lui. Majoritatea proiectelor crypto sunt fragile și pot colapse din cauza presiunii de reglementare, eșecurilor tehnice sau scăderilor de piață.",
+	"point_8_summary_1": "Bitcoin nu are CEO, nicio companie în spate și niciun punct unic de eșec. Multe proiecte crypto sunt susținute de firme de capital de risc, au echipe de conducere identificabile sau depind de companii specifice pentru funcționarea lor continuă."
+}

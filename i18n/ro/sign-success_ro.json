@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"sign_success_1": "Vei primi panourile tale în 1 până la 2 săptămâni. Până atunci, încearcă să te gândești la locuri bune unde să pui panourile!",
+	"sign_success_3": "Vrei să vezi unde alți oameni își pun panourile?",
+	"signs_share_header": "DISTRIBUIE LOCAȚIILE PANOURILOR TALE",
+	"signs_share_c1": "Distribuie o fotografie cu locația panoului tău pe Nostr și îți vom trimite satoshi! Satoshi sunt fracțiuni dintr-un bitcoin.",
+	"signs_btn_share_on_nostr": "DISTRIBUIE PE NOSTR",
+	"signs_btn_what_is_nostr": "CE ESTE NOSTR?"
+}

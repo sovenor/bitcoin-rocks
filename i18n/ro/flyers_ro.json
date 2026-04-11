@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"free_bitcoin_flyers": "Fluturași Bitcoin gratuite de la bitcoin.rocks",
+	"flyers_description": "Tipărește un fluturaș Bitcoin acasă și pune-l în public pentru a face orange pill celor din jurul tău.",
+	"flyers_header_1": "TIPĂREȘTE ȘI LIPEȘTE",
+	"flyers_header_2": "FLUTURAȘI BITCOIN",
+	"flyers_intro_header": "CUM SĂ TIPĂREȘTI ȘI LIPEȘTI ACEȘTI FLUTURAȘI BITCOIN",
+	"flyers_intro_c1": "Misiunea noastră este de a te ajuta să faci orange pill mai mulți oameni punând fluturași Bitcoin în public. Acest fluturaș are un cod QR care face trimitere la",
+	"flyers_intro_c2": "site-ul nostru educativ Bitcoin.",
+	"flyers_intro_c3": "inflație",
+	"flyers_intro_c4": "Tipărește acest fluturaș acasă sau la o tipografie. Apoi, lipește-l pe panouri de anunțuri, stâlpi de telefon din oraș și alte spații publice unde oamenii îl pot vedea și învăța despre Bitcoin.",
+	"flyers_intro_c5": "Între timp, solicită un pachet din",
+	"flyers_intro_c6": "autocolantele noastre Bitcoin gratuite",
+	"flyers_intro_c7": "pentru a face orange pill și mai mulți oameni.",
+	"flyers_btn_download": "DESCARCĂ FLUTURAȘUL",
+	"flyers_btn_print": "TIPĂREȘTE FLUTURAȘUL",
+	"flyers_share_header": "DISTRIBUIE LOCAȚIILE FLUTURAȘELOR TALE",
+	"flyers_share_c1": "Distribuie locațiile fluturașelor tale cu noi pe Nostr și vezi unde alți oameni își pun fluturașele.",
+	"flyers_btn_share_on_nostr": "DISTRIBUIE PE NOSTR",
+	"flyers_btn_what_is_nostr": "CE ESTE NOSTR?"
+}

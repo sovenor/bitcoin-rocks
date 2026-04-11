@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Află de ce Bitcoin este bun pentru afaceri",
+	"why_header": "BITCOIN ESTE BUN PENTRU AFACERI",
+	"why_good_for_you": "BITCOIN ESTE BUN ȘI PENTRU TINE!",
+	"why_learn_more_lowercase": "Află mai multe.",
+	"why_s1": "Bitcoin nu are inflație",
+	"why_s1_c1": "Inflația apare când se tipăresc mai mulți bani sau se creează din nimic. Asta face ca banii tăi să valoreze mai puțin în timp.",
+	"why_s1_c2": "Bitcoin are o ofertă fixă, ceea ce înseamnă că nimeni nu poate tipări mai mult Bitcoin.",
+	"why_s2": "Bitcoin nu are crize bancare",
+	"why_s2_c1": "Mai multe bănci americane s-au prăbușit în ultimii ani din cauza crizelor bancare.",
+	"why_s2_c2": "În loc să îți păstreze doar banii, băncile investesc și împrumută banii tăi. Dacă acele investiții nu merg bine, nu au suficienți bani să te plătească înapoi.",
+	"why_s2_c3": "Iar fondul de asigurări FDIC are doar 1 dolar pentru fiecare 100 de dolari pe care îi asigură.",
+	"why_s3": "Bitcoin este fără permisiune",
+	"why_s3_c1": "Spre deosebire de rețelele financiare tradiționale, Bitcoin nu necesită permisiune pentru a fi utilizat.",
+	"why_s3_c2": "Asta înseamnă că nimeni nu te poate opri din a folosi Bitcoin din niciun motiv. Este prima rețea financiară pe care o poți folosi fără teama de cenzură sau confiscare.",
+	"why_s4": "Bitcoin construiește o lume mai bună",
+	"why_s4_c1": "Bitcoin este o tehnologie neînțeleasă care construiește o lume mai bună.",
+	"why_s4_c2": "Bitcoin a permis activiștilor pentru drepturile omului să lupte pentru libertate, a redus emisiile globale de metan, a salvat parcuri naționale și multe altele."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"cic_header": "CALCULATOR DE INFLAȚIE COMPUSĂ",
+	"cic_description": "Folosește acest Calculator de Inflație Compusă pentru a afla cât trebuie să crească salariul tău pentru a ține pasul cu inflația.",
+	"what_can_i_do_about": "Ce pot face în legătură cu",
+	"what_can_i_do_about_2": "inflația?",
+	"cic_inflation_cta": "Scapă de Inflație cu Bitcoin"
+}

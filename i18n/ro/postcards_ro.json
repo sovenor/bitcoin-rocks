@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"free_bitcoin_postcards": "Cărți poștale Bitcoin gratuite de la bitcoin.rocks",
+	"postcards_description": "Obține un pachet gratuit de cărți poștale Bitcoin și distribuie Bitcoin cuiva pe care îl cunoști.",
+	"postcards_header": "PROGRAMUL DE CĂRȚI POȘTALE ÎNCHIS",
+	"postcards_program_closed_message": "Programul nostru gratuit de cărți poștale Bitcoin s-a încheiat. Mulțumim tuturor celor care au participat la răspândirea educației Bitcoin prin poștă!",
+	"postcards_sticker_alternative_header": "OBȚINE AUTOCOLANTE BITCOIN GRATUITE ÎN SCHIMB",
+	"postcards_sticker_alternative_message": "Continuă să răspândești conștientizarea Bitcoin cu programul nostru gratuit de autocolante! Autocolantele noastre Bitcoin sunt perfecte pentru distribuirea în spații publice și vin cu coduri QR care fac trimitere la conținut educativ.",
+	"postcards_sticker_cta": "OBȚINE AUTOCOLANTE GRATUITE",
+	"postcards_step_2": "CUM ARĂTAU CĂRȚILE POȘTALE",
+	"postcards_instructions_4": "Am făcut aceste cărți poștale pentru a facilita introducerea cuiva pe care îl cunoști în Bitcoin! Adaugă doar o adresă și un timbru și aruncă cartea poștală în cutia poștală.",
+	"postcards_instructions_5": "Misiunea noastră este de a accelera adoptarea Bitcoin. Poți ajuta obținând autocolante gratuite și punându-le în spații publice!",
+	"postcards_instructions_6": "Toți cunoaștem câțiva oameni care ar beneficia de a afla mai multe despre Bitcoin. Distribuie autocolante Bitcoin cu ei astăzi!"
+}

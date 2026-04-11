@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"free_bitcoin_stickers": "Autocolante Bitcoin gratuite de la bitcoin.rocks",
+	"stickers_description": "Pune un autocolant Bitcoin în public pentru a face orange pill celor din jurul tău.",
+	"stickers_header": "AUTOCOLANTE BITCOIN GRATUITE",
+	"stickers_choose_header": "ALEGE PACHETUL TĂU DE AUTOCOLANTE",
+	"stickers_choose_c1": "Misiunea noastră este de a te ajuta să faci orange pill mai mulți oameni punând autocolante Bitcoin în locuri publice. Toate autocolantele noastre au coduri QR care fac trimitere la pagini educative despre",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "inflație",
+	"stickers_choose_c4": "Alege pachetul tău de autocolante de mai jos",
+	"stickers_text_pack": "PACHETUL TEXT",
+	"stickers_signs_pack": "PACHETUL SEMNE",
+	"stickers_instructions_1": "Introdu adresa ta poștală și îți vom trimite un Pachet de Autocolante Bitcoin gratuit prin poștă! Autocolantele tale vor fi livrate într-un plic alb simplu.",
+	"stickers_instructions_2": "Datele adresei sunt șterse după expedierea autocolantelor gratuite.",
+	"stickers_share_header": "DISTRIBUIE LOCAȚIILE AUTOCOLANTELOR TALE",
+	"stickers_share_c1": "Distribuie locațiile autocolantelor tale cu noi pe Nostr și vezi unde alți oameni își pun autocolantele.",
+	"stickers_btn_share_on_nostr": "DISTRIBUIE PE NOSTR",
+	"stickers_btn_what_is_nostr": "CE ESTE NOSTR?",
+	"stickers_flyers_link_before": "Între timp, tipărește și lipește propriii tăi ",
+	"stickers_flyers_link_text": "fluturași Bitcoin",
+	"stickers_flyers_link_after": " pentru a face orange pill și mai mulți oameni.",
+	"stickers_country_global_print": "Global — Îmi tipăresc propriile autocolante",
+	"stickers_country_global_order": "Global — Comand în cantitate mare",
+	"placeholder_name_optional": "Nume (opțional)",
+	"placeholder_address_line_1": "Adresa linia 1",
+	"placeholder_address_line_2": "Adresa linia 2 (opțional)",
+	"placeholder_city": "Oraș",
+	"placeholder_state": "Stat",
+	"placeholder_province": "Provincie",
+	"placeholder_zip_code": "Cod poștal",
+	"placeholder_postal_code": "Cod poștal",
+	"placeholder_language": "Limba",
+	"placeholder_which_stickers": "Ce autocolante?",
+	"placeholder_email_optional": "Introdu email-ul pentru a fi notificat (opțional)"
+}

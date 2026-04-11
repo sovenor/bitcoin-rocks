@@ -41,6 +41,7 @@ $(function() {
     { code: 'nb', name: 'Norsk' },
     { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
+    { code: 'ro', name: 'Română' },
     { code: 'sk', name: 'Slovenčina' },
     { code: 'fi', name: 'Suomi' },
     { code: 'sv', name: 'Svenska' },

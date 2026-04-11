@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin este bun pentru afaceri",
+	"biz_header": "BITCOIN ESTE BUN PENTRU AFACERI",
+	"biz_s1": "Comisioane mici fără minimuri",
+	"biz_s1_c1": "Bitcoin îți permite să primești plăți direct de la clienții tăi, la fel ca numerarul. Rețeaua Bitcoin funcționează fără intermediari precum băncile și companiile de carduri de credit care percep comisioane mari.",
+	"biz_s2": "Decontare instantanee",
+	"biz_s2_c1": "La fel ca numerarul, plățile Bitcoin se decontează instantaneu. Nu trebuie să aștepți compania de carduri de credit sau banca să te plătească. În schimb, ai acces la banii tăi imediat.",
+	"biz_s3": "Fără estornări sau fraudă",
+	"biz_s3_c1": "Deoarece plățile Bitcoin au loc direct între tine și clienții tăi, este imposibil ca cineva să îți ia banii înapoi printr-o estornare.",
+	"biz_s3_c2": "Bitcoin falsificat nu poate fi trimis în rețeaua Bitcoin, ceea ce înseamnă că nu trebuie să îți faci niciodată griji cu privire la tranzacțiile frauduloase care pot costa afacerea ta.",
+	"biz_s4": "Obține mai mulți clienți",
+	"biz_s4_c1": "Milioane de oameni dețin Bitcoin și vor să își cheltuiască Bitcoin la locurile care îl acceptă.",
+	"biz_s4_c2": "Prin simpla acceptare a Bitcoin, afacerea ta poate fi listată pe hărțile comercianților Bitcoin și poate obține expunere gratuită la noi clienți Bitcoin.",
+	"biz_s4_c3": "Acceptarea Bitcoin este 100% gratuită. Nu există contracte sau comisioane ascunse."
+}

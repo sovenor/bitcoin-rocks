@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "ro"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin vs Artă",
+	"fine_art_header": "DIFERENȚA DINTRE",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "ȘI",
+	"fine_art_header_4": "ARTĂ",
+	"fine_art_intro_1": "Arta a fost o investiție de lux de secole și este adesea considerată o rezervă de valoare de colecționarii bogați.",
+	"fine_art_intro_2": "Bitcoin sunt bani digitali care sunt, de asemenea, considerați de mulți o rezervă de valoare și o investiție.",
+	"fine_art_intro_3": "Dar cum diferă operele de artă fizice de banii digitali precum Bitcoin? Să analizăm diferențele dintre două forme de investiție: Bitcoin și Artă.",
+	"fine_art": "ARTĂ",
+	"fine_art_point_1": "Fiecare piesă este unică",
+	"fine_art_point_2": "Necesită licitații specializate",
+	"fine_art_point_3": "Comisioane mari de licitație",
+	"fine_art_point_4": "Nu poate fi împărțită",
+	"fine_art_point_5": "Necesită autentificare de expert",
+	"fine_art_point_6": "Vulnerabilă la deteriorare",
+	"fine_art_point_7": "Limitată la colecționari bogați",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Perfect fungibil",
+	"bitcoin_point_2": "Piață globală 24/7",
+	"bitcoin_point_3": "Comisioane mici de tranzacție",
+	"bitcoin_point_4": "Ușor de divizat",
+	"bitcoin_point_5": "Verificabil criptografic",
+	"bitcoin_point_6": "Greu de distrus",
+	"bitcoin_point_7": "Accesibil tuturor",
+	"point_1_summary_1": "Bitcoin este perfect fungibil, ceea ce înseamnă că fiecare bitcoin este identic și interschimbabil — un bitcoin egal un bitcoin oriunde în lume. Arta este non-fungibilă prin natură, fiecare piesă fiind unică în creația, istoria, starea și proveniența sa, făcând comparațiile și evaluările directe extrem de dificile.",
+	"point_2_summary_1": "Bitcoin se tranzacționează pe o piață globală 24/7 unde oricine cu acces la internet poate cumpăra sau vinde instantaneu. Arta necesită case de licitații specializate precum Sotheby's sau Christie's, dealeri privați sau galerii exclusive. Vânzările pot dura luni de zile pentru a fi aranjate și finalizate, cu acces limitat la piață și oportunități de tranzacționare neregulate.",
+	"point_3_summary_1": "Cumpărarea sau vânzarea de bitcoin costă de obicei mai puțin de 1% în comisioane, adesea mult mai puțin. Vânzările de artă implică costuri substanțiale, inclusiv prime de cumpărător (10-25%), comisioane de vânzător (10-15%), asigurare, transport, stocare și taxe de autentificare. Aceste costuri combinate pot depăși cu ușurință 30-40% din valoarea operei de artă într-o singură tranzacție.",
+	"point_4_summary_1": "Bitcoin poate fi împărțit în 100 de milioane de unități mai mici numite satoshi, făcându-l perfect pentru tranzacții de orice dimensiune, de la microplăți la achiziții mari. Arta nu poate fi împărțită — nu poți deține o fracțiune dintr-o pictură sau vinde doar o parte dintr-o sculptură. Această indivizibilitate limitează flexibilitatea investiției și opțiunile de lichiditate.",
+	"point_5_summary_1": "Proprietatea și autenticitatea Bitcoin pot fi verificate criptografic pe blockchain de oricine cu cunoștințe tehnice de bază. Arta necesită autentificare costisitoare de expert, cercetare a provenienței și analiză științifică. Chiar și cu verificare de expert, falsurile păcălesc regulat lumea artei, iar disputele de autentificare pot distruge valoarea unei opere de artă peste noapte. Bitcoin, pe de altă parte, nu poate fi falsificat sau contrafăcut.",
+	"point_6_summary_1": "Bitcoin, când este salvat corespunzător, nu poate fi distrus de inundații, incendii, cutremure, uragane, furt sau alte dezastre. Arta este vulnerabilă la toate formele de distrugere fizică și deteriorare. Chiar și cu stocare costisitoare controlată climatic și asigurare cuprinzătoare, operele de artă pot fi deteriorate de factori de mediu, accidente sau dezastre naturale, pierzând potențial toată valoarea.",
+	"point_7_summary_1": "Bitcoin poate fi cumpărat și vândut de oricine cu acces la internet și o sumă mică de bani de investit. Investiția în artă este în mare parte limitată la colecționari bogați din cauza prețurilor minime ridicate, accesului exclusiv la licitații, cerințelor de stocare, costurilor de asigurare și cunoștințelor specializate necesare pentru a naviga cu succes piața artei."
+}
