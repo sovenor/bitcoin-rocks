@@ -41,6 +41,8 @@ English (`i18n/en/`) is the source of truth from which we translate into all oth
 
 Run each script individually with `node scripts/[lang]/scriptname.js`. After all scripts complete, run the audit: `node scripts/audit-translation.js [lang]`.
 
+**⚠️ NEVER USE `cat` HEREDOC VIA `execute_command` TO CREATE TRANSLATION SCRIPTS.** Large `execute_command` calls containing `cat` heredocs with hundreds of lines of non-ASCII text (Hebrew, Arabic, Chinese, etc.) can hang the Cline session indefinitely, requiring the user to manually kill the task. This happened during the Hebrew (he) translation attempt — the first 3 scripts were created successfully via `write_to_file`, then switching to `cat` heredoc for the 4th script caused a hang that stalled the session for 2+ hours. **Always use `write_to_file` to create translation scripts**, even though Unicode escapes are verbose for non-Latin scripts.
+
 ### Step 2: Register the Language in the Language Switcher
 - **File**: `jquery/language.js`
 - **Action**: Add `{ code: '[lang]', name: '[Native Name]' }` to the `languages` array

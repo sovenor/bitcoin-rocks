@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "he"
+	},
+	"free_bitcoin_stickers": "מדבקות ביטקוין חינמיות מ-bitcoin.rocks",
+	"stickers_description": "הדבק מדבקת ביטקוין במקום ציבורי כדי להפיץ את הכתום שסביבך.",
+	"stickers_header": "מדבקות ביטקוין חינמיות",
+	"stickers_choose_header": "בחר את חבילת המדבקות שלך",
+	"stickers_choose_c1": "המשימה שלנו היא לעזור לך להפיץ יותר אנשים על ידי הדבקת מדבקות ביטקוין במקומות ציבוריים. לכל המדבקות שלנו יש קודי QR שמקשרים לדפים חינוכיים על",
+	"stickers_choose_c2": "ביטקוין",
+	"stickers_choose_c3": "אינפלציה",
+	"stickers_choose_c4": "בחר את חבילת המדבקות שלך למטה",
+	"stickers_text_pack": "חבילת הטקסט",
+	"stickers_signs_pack": "חבילת השלטים",
+	"stickers_instructions_1": "הזן את כתובת הדואר שלך ונשלח לך חבילת מדבקות ביטקוין חינמית בדואר! המדבקות שלך יישלחו במעטפה לבנה רגילה.",
+	"stickers_instructions_2": "נתוני הכתובת נמחקים לאחר שליחת המדבקות החינמיות שלך.",
+	"stickers_share_header": "שתפו את מיקומי המדבקות שלכם",
+	"stickers_share_c1": "שתפו את מיקומי המדבקות שלכם איתנו ב-Nostr וראו איפה אנשים אחרים מדביקים את המדבקות שלהם.",
+	"stickers_btn_share_on_nostr": "שתפו ב-NOSTR",
+	"stickers_btn_what_is_nostr": "מה זה NOSTR?",
+	"stickers_flyers_link_before": "בהזדמנות, הדפיסו ותלו ",
+	"stickers_flyers_link_text": "עלוני ביטקוין",
+	"stickers_flyers_link_after": " כדי להפיץ עוד יותר אנשים.",
+	"stickers_country_global_print": "גלובלי — הדפס מדבקות בעצמך",
+	"stickers_country_global_order": "גלובלי — הזמן בכמות גדולות",
+	"placeholder_name_optional": "שם (אופציונלי)",
+	"placeholder_address_line_1": "שורת כתובת 1",
+	"placeholder_address_line_2": "שורת כתובת 2 (אופציונלי)",
+	"placeholder_city": "עיר",
+	"placeholder_state": "מדינה",
+	"placeholder_province": "מחוז",
+	"placeholder_zip_code": "מיקוד",
+	"placeholder_postal_code": "מיקוד דואר",
+	"placeholder_language": "שפה",
+	"placeholder_which_stickers": "אילו מדבקות?",
+	"placeholder_email_optional": "הזן את האימייל שלך לקבלת עדכון (אופציונלי)"
+}

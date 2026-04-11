@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-10",
+		"locale": "he"
+	},
+	"how_to_accept_bitcoin_payments": "איך לקבל תשלומי ביטקוין",
+	"wallets_header": "קבלו ארנק ביטקוין חינמי לקבלת תשלומים",
+	"wallets_intro_1": "כל ארנקי הביטקוין עובדים יחד, כך שלקוחות יכולים לשלם לכם בביטקוין ללא קשר לאיזה ארנק הם משתמשים.",
+	"wallets_intro_2": "ארנקי ביטקוין טהורים:",
+	"wallets_intro_3": "אלה ארנקי ביטקוין טהורים שפותחים את כל היתרונות של ביטקוין: ללא מתווכים, עמלות נמוכות וללא החזרי חיוב או הונאות.",
+	"wallets_intro_4": "ארנקים היברידיים:",
+	"wallets_intro_5": "אלה מאפשרים לך להמיר כל חלק מהביטקוין שלך לדולרים מידית כשלקוח משלם לך. העמלות עדיין נמוכות יותר מכרטיס אשראי, אבל גבוהות יותר מתשלומי ביטקוין טהורים.",
+	"wallets_intro_6": "שני הסוגים הם דרכים טובות לקבל ביטקוין. הארנק הנכון תלוי בגודל ובסוג העסק שלך.",
+	"wallets_choice_sole": "ארנקים לעסק יחיד",
+	"wallets_choice_multiple": "ארנקים לעסק עם מספר עובדים",
+	"wallets_choice_online": "ארנקים לעסק מקוון",
+	"wallets_choice_invoice": "ארנקים לעסק מבוסס חשבוניות",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "אתה יכול לקבל תשלומי ביטקוין עם המכשיר Square PoS או דרך קישור אינטרנט. קבלת תשלומי ביטקוין מעולם לא הייתה קלה כל כך.",
+	"wallets_feature_bitcoin_only": "ארנק ביטקוין טהור",
+	"wallets_feature_no_info": "לא נדרש מידע",
+	"wallets_feature_in_person": "תשלומים באופן אישי בלבד",
+	"wallets_feature_settles_bitcoin": "סליקה 100% בביטקוין",
+	"wallets_feature_hybrid": "ארנק היברידי",
+	"wallets_feature_info": "נדרשים פרטי עסק",
+	"wallets_feature_in_person_online": "תשלומים באופן אישי ומקוון",
+	"wallets_feature_settles_both": "סליקה בביטקוין ובדולרים",
+	"wallets_feature_multiple_employees": "תמיכה במספר עובדים (BPT)",
+	"wallets_feature_self_hosted": "אירוח עצמי = 0% עמלות",
+	"wallets_feature_online_store": "אינטגרציה עם חנות מקוונת",
+	"wallets_feature_invoicing": "תוכנת חשבוניות חינמית",
+	"wallets_get_wallet": "קבלו ארנק"
+}

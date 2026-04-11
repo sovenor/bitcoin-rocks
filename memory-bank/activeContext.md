@@ -1,6 +1,13 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Danish (da) Language Added — April 7, 2026
+## Latest: Hebrew (he) Language Added — April 11, 2026
+- Added Hebrew (עברית) as the 44th language
+- Translation files already existed in `i18n/he/` from previous session
+- Fixed 7 missing keys, 43 untranslated language names, 31 untranslated inflation currency texts via fix script
+- All registration steps completed (language.js, index.html schema, llms.txt, llms-full.txt, about page count 43→44, SEO injection)
+- עברית placed after العربية (Arabic) and before हिन्दी (Hindi) in language.js per Hebrew Unicode range
+
+## Danish (da) Language Added — April 7, 2026
 - Added Danish (Dansk) as the 39th language
 - 90+ translation files created in `i18n/da/`
 - 8 translation scripts in `scripts/danish/`

@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Hebrew (he) Language Added — April 2026
+- Added Hebrew (עברית) as the 44th language
+- Translation files already existed in `i18n/he/` (created in previous session via 8 scripts in `scripts/hebrew/`)
+- Fixed 7 missing keys (sticker-files keys), 43 untranslated language names in common_he.json, 31 untranslated inflation currency texts in inflation_he.json via `scripts/hebrew/fix-missing-and-untranslated.js`
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (43→44)
+- Ran SEO content injection
+- Language code: `he`
+- Display name: `עברית` (placed after العربية and before हिन्दी in language switcher per Hebrew Unicode range)
+- Hebrew is RTL (right-to-left); all translations written in proper Hebrew script
+
 ## Hausa (ha) Language Added — April 2026
 - Added Hausa as the 43rd language
 - Created 90+ translation files in `i18n/ha/` mirroring the English directory structure
