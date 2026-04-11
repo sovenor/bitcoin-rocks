@@ -57,6 +57,7 @@ $(function() {
     { code: 'bn', name: 'বাংলা' },
     { code: 'pa', name: 'ਪੰਜਾਬੀ' },
     { code: 'ta', name: 'தமிழ்' },
+    { code: 'si', name: 'සිංහල' },
     { code: 'my', name: 'မြန်မာ' },
     { code: 'th', name: 'ภาษาไทย' },
     { code: 'am', name: 'አማርኛ' },

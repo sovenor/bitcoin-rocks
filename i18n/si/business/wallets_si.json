@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "si"
+	},
+	"business_wallets": "ව්‍යාපාර Bitcoin පසුම්බි",
+	"biz_wallets_description": "ඔබේ ව්‍යාපාරය සඳහා හොඳම Bitcoin පසුම්බිය සොයාගන්න.",
+	"biz_wallets_header": "ව්‍යාපාර BITCOIN පසුම්බි",
+	"biz_wallets_intro": "Bitcoin පිළිගැනීම ආරම්භ කිරීමට, ඔබට Bitcoin පසුම්බියක් අවශ්‍යයි. ව්‍යාපාරයන් සඳහා නිර්දේශිත පසුම්බි මෙන්න:",
+	"biz_wallets_personal": "පුද්ගලික පසුම්බි",
+	"biz_wallets_personal_intro": "සරල ව්‍යාපාර භාවිතය සඳහා, පුද්ගලික Bitcoin පසුම්බියක් ආරම්භ කිරීමට හොඳම මාර්ගයයි.",
+	"biz_wallets_pos": "විකුණුම් ලක්ෂ්‍ය පසුම්බි",
+	"biz_wallets_pos_intro": "විකුණුම් ලක්ෂ්‍ය පසුම්බි ව්‍යාපාරයන් සඳහා විශේෂයෙන් නිර්මාණය කර ඇත."
+}

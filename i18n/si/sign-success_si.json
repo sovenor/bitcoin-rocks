@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "si"
+	},
+	"sign_success_1": "සතියක් 1 සිට 2ක් ඇතුළත ඔබේ සින්බෝර්ඩ් ලැබෙනු ඇත. එතෙක්, සින්බෝර්ඩ් තැබීමට හොඳ ස්ථාන ගැන සිතන්න!",
+	"sign_success_3": "වෙනත් අය සින්බෝර්ඩ් තැබූවේ කොහෙදද බැලීමට කමතිද?",
+	"signs_share_header": "ඔබේ සින්බෝර්ඩ් ස්ථාන බෙදාගන්න",
+	"signs_share_c1": "Nostr හි ඔබේ සින්බෝර්ඩ් ස්ථානයේ ඡායාරූපයක් බෙදාගන්න, අපි ඔබට satoshi යවනුයේමු! Satoshi යනු bitcoin කීපයකි.",
+	"signs_btn_share_on_nostr": "NOSTR හි බෙදාගන්න",
+	"signs_btn_what_is_nostr": "NOSTR කියන්ද?"
+}

@@ -1,5 +1,15 @@
 # Progress: bitcoin.rocks
 
+## Sinhala (si) Language Added — April 2026
+- Added Sinhala (සිංහල) as the 50th language
+- Created 90+ translation files in `i18n/si/` mirroring the English directory structure
+- Translation scripts in `scripts/sinhala/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (49→50)
+- Ran SEO content injection
+- Language code: `si`
+- Display name: `සිංහල` (placed between தமிழ்/Tamil and မြန်မာ/Myanmar in language switcher per Sinhala Unicode block U+0D80)
+- Sinhala uses its own unique script (LTR); no special character or RTL concerns
+
 ## Romanian (ro) Language Added — April 2026
 - Added Romanian (Română) as the 49th language
 - Created 90 translation files in `i18n/ro/` mirroring the English directory structure

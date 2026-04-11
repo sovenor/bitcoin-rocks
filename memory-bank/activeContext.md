@@ -1,6 +1,14 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Persian (fa) Language Added — April 11, 2026
+## Latest: Sinhala (si) Language Added — April 11, 2026
+- Added Sinhala (සිංහල) as the 50th language
+- Created 90+ translation files in `i18n/si/` via 8 scripts in `scripts/sinhala/`
+- All registration steps completed (language.js, index.html schema, llms.txt, llms-full.txt, about page count 49→50, SEO injection)
+- සිංහල placed after Tamil (தமிழ்) and before Myanmar (မြန်မာ) in language.js per Sinhala Unicode block U+0D80
+- Sinhala uses its own unique script (LTR); no special character concerns
+- Milestone: 50th language on bitcoin.rocks!
+
+## Persian (fa) Language Added — April 11, 2026
 - Added Persian (فارسی) as the 47th language
 - Translation files already existed in `i18n/fa/` from previous session (8 scripts in `scripts/persian/`)
 - Language was already registered in `language.js` from previous session
