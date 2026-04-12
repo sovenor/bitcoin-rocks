@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"@metadata": {
+			"authors": [
+				"Satoshi"
+			],
+			"last-updated": "2026-04-12",
+			"locale": "yo"
+		}
+	},
+	"free_bitcoin_flyers": "Àwọn Ìwé Pílàńkì Bitcoin Òfẹ́ẹ́ láti bitcoin.rocks",
+	"flyers_description": "Tẹ̀ ìwé pílàńkì Bitcoin ní ilé kí o sì fi sí ibì gbangba láti mú kí àwọn ènìyàn tó yí ọ ká mọ̀ Bitcoin.",
+	"flyers_header_1": "TẸ̀ & FI SÍ",
+	"flyers_header_2": "ÀWỌN ÌWÉ PÍLÀŃKÌ BITCOIN",
+	"flyers_intro_header": "BÍ O ṢE LÈ TẸ̀ & FI ÀWỌN ÌWÉ PÍLÀŃKÌ BITCOIN WỌNYÍ SÍ",
+	"flyers_intro_c1": "Àfàànì wa ni láti ràn ọ́ ló́wó́ láti mú ènìyàn díẹ̀ síì mọ̀ Bitcoin nípà fífi ìwé pílàńkì Bitcoin sí ibì gbangba. Ìwé pílàńkì yìí ní kóódù QR tó so mó́",
+	"flyers_intro_c2": "ojú-ìwé ẹ̀kó̀ Bitcoin wa.",
+	"flyers_intro_c3": "owó ṣíṣé",
+	"flyers_intro_c4": "Tẹ̀ ìwé pílàńkì yìí ní ilé tàbí ní ilé títẹ̀. Léyìn náà, fi sí lórí pákó́ ìṣẹ́, àwọn òpó owó erò ibanisọ̀rọ̀ àdúg¹bò ilú, àti àwọn ibì gbangba mìràn tí ènìyàn lè rí í kí wọn sì kẹ́kọ̀ọ́ nípa Bitcoin.",
+	"flyers_intro_c5": "Lakoko tí o bá ń ṣe, bèèrè fún àkójọ àwọn",
+	"flyers_intro_c6": "àmì àlèmó́ Bitcoin òfẹ́ẹ́",
+	"flyers_intro_c7": "wa láti mú kí ènìyàn díẹ̀ síì mọ̀ Bitcoin.",
+	"flyers_btn_download": "GBÀGBÉ ÌWÉ PÍLÀŃKÌ",
+	"flyers_btn_print": "TẸ̀ ÌWÉ PÍLÀŃKÌ",
+	"flyers_share_header": "PIN ÀWỌN IBÌ ÌWÉ PÍLÀŃKÌ RẸ",
+	"flyers_share_c1": "Pin àwọn ibì ìwé pílàńkì rẹ pẹ̀lú wa lórí Nostr kí o sì rí ibì tí àwọn ènìyàn mìràn ń fi ìwé pílàńkì wọn sí.",
+	"flyers_btn_share_on_nostr": "PIN LÓRÍ NOSTR",
+	"flyers_btn_what_is_nostr": "KÍNÍ NI NOSTR?"
+}

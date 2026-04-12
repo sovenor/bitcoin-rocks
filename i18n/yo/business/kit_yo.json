@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-12",
+		"locale": "yo"
+	},
+	"bitcoin_business_kit": "Ohun-èlò Òwò Iṣẹ́ Bitcoin",
+	"kit_header": "TẸ̀ OHUN-ÈLÒ ÒWÒ IṢẸ́ BITCOIN TIRẸ",
+	"kit_request": "BÈÈRÈ FÚN OHUN-ÈLÒ ÒFẸ́Ẹ́ RẸ",
+	"kit_request_details": "Ohun-èlò Òwò Iṣẹ́ Bitcoin kọ̀ọ̀kan ní àwọn ìwé-ìpalèmó́ méjì láti mú kí ó rọ̀rùn láti mú òwò iṣẹ́ agbègbè gba Bitcoin.",
+	"kit_country_global_print": "Káríayé — Tẹ̀ ohun-èlò mi fúnra mi",
+	"kit_enter_address": "Fi àdírẹ́ṣì fi-létà rẹ síí à ó sì fi Ohun-èlò Òwò Iṣẹ́ Bitcoin òfẹ́ẹ́ ranṣẹ́ sí ọ nínú apoowe funfun. A máa ń pa dátà àdírẹ́ṣì rẹ̀ nígbà tí a bá ti fi ohun-èlò rẹ ranṣẹ́.",
+	"kit_print_details": "O lè kópa nípà títẹ̀ àwọn ìwé-ìpalèmó́ tirẹ, láì ń ṣe àní ibì tí o wà! O tún lè fi àwọn òwò iṣẹ́ ranṣẹ́ sí ohun-èlò òwò iṣẹ́ oni-nọ́míbà wa láti yèra fún títẹ̀ ohúnkóhún.",
+	"kit_view_files": "WO ÀWỌN FÁÌLÌ",
+	"kit_digital_kit": "OHUN-ÈLÒ ONI-NỌMÍBÀ",
+	"kit_resources": "OHUN-ÈLÒ KỌOKAN SO MÓ ÀWỌN OHÚN-ÈLÒ ÒFẸ́Ẹ́ WỌNYÍ"
+}

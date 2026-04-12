@@ -50,6 +50,7 @@ $(function() {
     { code: 'tl', name: 'Tagalog' },
     { code: 'vi', name: 'Tiếng Việt' },
     { code: 'tr', name: 'Türkçe' },
+    { code: 'yo', name: 'Yorùbá' },
     { code: 'el', name: 'Ελληνικά' },
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },

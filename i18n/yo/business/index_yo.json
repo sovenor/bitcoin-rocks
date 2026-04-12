@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-12",
+		"locale": "yo"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin dara fún òwò iṣẹ́",
+	"biz_header": "BITCOIN DARA FÚN ÒWÒ IṢẸ́",
+	"biz_s1": "Owó ìsàn tó kéré láì ní ìṣè̀lẹ̀",
+	"biz_s1_c1": "Bitcoin fún ọ láàyè láti gba ìsàn owó tààrà láti ọ̀dọ̀ àwọn oníbàárà rẹ, bíí owó ààmù. Nẹ́tíwọ́ọ̀kì Bitcoin ń ṣiṣẹ́ láì ní àwọn alárinà bíí àwọn ilé-ìfòwópàmó́ àti àwọn ilé-iṣẹ́ káàdì ifowópàmọ́ tó ń gba owó ìsàn pọ̀.",
+	"biz_s2": "Ìgbàsílẹ̀ lẹ́sẹ̀kẹ̀sẹ̀",
+	"biz_s2_c1": "Bíí owó ààmù, àwọn ìsàn owó Bitcoin máa ń parí lẹ́sẹ̀kẹ̀sẹ̀. O kò nílò láti duro de ilé-iṣẹ́ káàdì ifowópàmọ́ tàbí ilé-ìfòwópàmó́ láti san ọ́ owó. Dípo ììyínjú, o ń ní iràyè sí owó rẹ lẹ́sẹ̀kẹ̀sẹ̀.",
+	"biz_s3": "Kò sí chargebacks tàbí jíbìtì",
+	"biz_s3_c1": "Nítórí pé àwọn ìsàn owó Bitcoin máa ń ṣẹlẹ̀ tààrà láàrìn iwọ àti àwọn oníbàárà rẹ, kò sí ẹ̀níkan tó lè gba owó rẹ padà nípà chargeback.",
+	"biz_s3_c2": "A kò lè fi Bitcoin ìró ran lórí Nẹ́tíwọ́ọ̀kì Bitcoin, èyí túmọ̀ sí pé o kò nílò láti ṣàànù nípa àwọn iṣòwò jíbìtì tí ó lè na òwò iṣẹ́ rẹ lowó.",
+	"biz_s4": "Gba àwọn oníbàárà díẹ̀ síì",
+	"biz_s4_c1": "Miliọ́nù ènìyàn ni ó ní Bitcoin tí wọn sì fẹ́ na Bitcoin wọn ní àwọn ibì tí ó gba à.",
+	"biz_s4_c2": "Nípà gbígbà Bitcoin níkan, òwò iṣẹ́ rẹ lè wà lórí àwọn máàpù oníta Bitcoin kí o sì gba ìṣẹ́-a-mà òfẹ́ẹ́ sí àwọn oníbàárà tuntun.",
+	"biz_s4_c3": "Gbígbà Bitcoin jẹ́ òfẹ́ẹ́ 100%. Kò sí àdéhùn tàbí owó ìsàn ì̀kòkò."
+}

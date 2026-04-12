@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"@metadata": {
+			"authors": [
+				"Satoshi"
+			],
+			"last-updated": "2026-04-12",
+			"locale": "yo"
+		}
+	},
+	"free_bitcoin_stickers": "Àwọn àmì àlèmó́ Bitcoin òfẹ́ẹ́ láti bitcoin.rocks",
+	"stickers_description": "Fi àmì àlèmó́ bitcoin sí ibì gbangba láti mú kí àwọn ènìyàn tó yí ọ ká mọ̀ Bitcoin.",
+	"stickers_header": "ÀWỌN ÀMÌ ÀLÈMÓ BITCOIN ÒFẸ́Ẹ́",
+	"stickers_choose_header": "YAN ÀKÓJỌ ÀMÌ ÀLÈMÓ RẸ",
+	"stickers_choose_c1": "Àfàànì wa ni láti ràn ọ́ ló́wó́ láti mú ènìyàn díẹ̀ síì mọ̀ Bitcoin nípà fífi àmì àlèmó́ Bitcoin sí ibì gbangba. Gbogbo àwọn àmì àlèmó́ wa ní kóódù QR tó so mó́ àwọn ojú-ìwé ẹ̀kó̀ nípa",
+	"stickers_choose_c2": "Bitcoin",
+	"stickers_choose_c3": "owó ṣíṣé",
+	"stickers_choose_c4": "Yan àkójọ àmì àlèmó́ rẹ nísàlẹ̀",
+	"stickers_text_pack": "ÀKÓJỌ ÒRỌ̀",
+	"stickers_signs_pack": "ÀKÓJỌ ÀMÌ",
+	"stickers_instructions_1": "Fi àdírẹ́ṣì fi-létà rẹ síí à ó sì fi Àkójọ Àmì Àlèmó́ Bitcoin òfẹ́ẹ́ ranṣẹ́ sí ọ nínú létà! A ó fi àwọn àmì àlèmó́ rẹ ranṣẹ́ nínú apoowe funfun.",
+	"stickers_instructions_2": "A máa ń pa dátà àdírẹ́ṣì rẹ̀ léyìn tí a bá ti fi àwọn àmì àlèmó́ òfẹ́ẹ́ rẹ ranṣẹ́.",
+	"stickers_share_header": "PIN ÀWỌN IBÌ ÀMÌ ÀLÈMÓ RẸ",
+	"stickers_share_c1": "Pin àwọn ibì àmì àlèmó́ rẹ pẹ̀lú wa lórí Nostr kí o sì rí ibì tí àwọn ènìyàn mìràn ń fi àmì àlèmó́ wọn sí.",
+	"stickers_btn_share_on_nostr": "PIN LÓRÍ NOSTR",
+	"stickers_btn_what_is_nostr": "KÍNÍ NI NOSTR?",
+	"stickers_flyers_link_before": "Lakoko tí o bá ń ṣe, tẹ̀ & fi sí àwọn ",
+	"stickers_flyers_link_text": "ìwé pílàńkì Bitcoin",
+	"stickers_flyers_link_after": " tirẹ láti mú kí ènìyàn díẹ̀ síì mọ̀ Bitcoin.",
+	"stickers_country_global_print": "Káríayé — Tẹ̀ àmì àlèmó́ mi fúnra mi",
+	"stickers_country_global_order": "Káríayé — Paṣẹ ní òpò",
+	"placeholder_name_optional": "Orukọ (àṣàyàn)",
+	"placeholder_address_line_1": "Àdírẹ́ṣì Ilà 1",
+	"placeholder_address_line_2": "Àdírẹ́ṣì Ilà 2 (àṣàyàn)",
+	"placeholder_city": "Ilú",
+	"placeholder_state": "Ìpìnlẹ̀",
+	"placeholder_province": "Ag¹bègbè",
+	"placeholder_zip_code": "Koodu póòsì",
+	"placeholder_postal_code": "Koodu póòsì",
+	"placeholder_language": "Èdè",
+	"placeholder_which_stickers": "Àwọn àmì àlèmó́ wo?",
+	"placeholder_email_optional": "Fi ìmèèlì rẹ síí láti gba ìkiìlọ̀ (àṣàyàn)"
+}

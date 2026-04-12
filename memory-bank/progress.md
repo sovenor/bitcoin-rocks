@@ -1,5 +1,16 @@
 # Progress: bitcoin.rocks
 
+## Yoruba (yo) Language Added — April 2026
+- Added Yoruba (Yorùbá) as the 55th language
+- Translation files partially created in previous session (simple files, sticker files, business, index)
+- Completed remaining files: comparisons (10), common (1), inflation (1), content (9) — fixed 17 invalid `\u00fu` → `\u00fa` Unicode escape sequences across 4 scripts
+- Translation scripts in `scripts/yoruba/` (8 scripts broken by category)
+- Updated: language.js, index.html schema, llms.txt, llms-full.txt, all about_xx.json files (54→55)
+- Ran SEO content injection and translation audit (all clean — only legitimate shared-word matches)
+- Language code: `yo`
+- Display name: `Yorùbá` (placed alphabetically between Türkçe and Ελληνικά in language switcher)
+- Yoruba uses Latin script with diacritics (ẹ, ọ, ṣ, tone marks) — no special character concerns beyond Unicode escapes in JS
+
 ## Slovenian (sl) Language Added — April 2026
 - Added Slovenian (Slovenščina) as the 51st language
 - Created 90+ translation files in `i18n/sl/` mirroring the English directory structure

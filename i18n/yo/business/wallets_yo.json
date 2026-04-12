@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-12",
+		"locale": "yo"
+	},
+	"how_to_accept_bitcoin_payments": "Bí o ṣe lè Gba ÌSàn Owó Bitcoin",
+	"wallets_header": "GBA ÀPÒ OWÓ BITCOIN ÒFẸ́Ẹ́ LÁTI GBA ÌSÀN OWÓ BITCOIN",
+	"wallets_intro_1": "Gbogbo àwọn àpò owó Bitcoin lè ṣiṣẹ́ papọ̀, nítórí náà àwọn oníbàárà rẹ lè san ọ́ nínú Bitcoin láì ń ṣe àní àpò owó wo ni wọn lò.",
+	"wallets_intro_2": "Àwọn àpò owó Bitcoin-níkan:",
+	"wallets_intro_3": "Àwọn wọ̀nyí jẹ́ àpò owó Bitcoin mímó́ tí ó mú kí o gba gbogbo ànfààní Bitcoin: kò sí alárinà, owó ìsàn tó kéré, àti kò sí chargebacks tàbí jíbìtì.",
+	"wallets_intro_4": "Àwọn àpò owó adàpò:",
+	"wallets_intro_5": "Àwọn wọ̀nyí gba ọ́ láàyè láti parọ apá kaǹkaǹ Bitcoin rẹ fún dọ́là lẹ́sẹ̀kẹ̀sẹ̀ tí oníbàárà bá san ọ́. Owó ìsàn ṣìì kéré jù ti ìsàn owó káàdì ifowópàmọ́, ṣùgbọ́n ó ga jù ti ìsàn owó Bitcoin mímó́.",
+	"wallets_intro_6": "Awọn méjèèjì jẹ́ ònà tó dára láti gba Bitcoin. Àpò owó kan pàtó tí o bá lò yoo da lórí ìwọn àti irú òwò iṣẹ́ rẹ.",
+	"wallets_choice_sole": "àwọn àpò owó fún òwò iṣẹ́ tí ẹ̀níkaǹkan ń ṣe",
+	"wallets_choice_multiple": "àwọn àpò owó fún àwọn òwò iṣẹ́ tó ní àwọn oṣiṣẹ́ púpọ̀",
+	"wallets_choice_online": "àwọn àpò owó fún àwọn òwò iṣẹ́ ori aíyélújárà",
+	"wallets_choice_invoice": "àwọn àpò owó fún àwọn òwò iṣẹ́ tó da lórí ìwé-owó",
+	"wallets_name_breez": "BREEZ",
+	"wallets_name_open_node": "OPEN NODE",
+	"wallets_name_ibex_pay": "IBEX PAY",
+	"wallets_name_btcpay_server": "BTCPAY SERVER",
+	"wallets_name_square": "SQUARE",
+	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_square_note": "O lè gba ìsàn owó Bitcoin pẹ̀lú èrọ Square PoS rẹ tó wà tàbí àṣọsì ilé-ìtàjà ori aíyélújárà. Kò tíì rọ̀rùn rí láti gba ìsàn owó Bitcoin.",
+	"wallets_feature_bitcoin_only": "Àpò owó Bitcoin-níkan",
+	"wallets_feature_no_info": "Kò nílò àlàyé",
+	"wallets_feature_in_person": "ÌSàn owó lárínkírí níkan",
+	"wallets_feature_settles_bitcoin": "Gbàsílẹ̀ 100% nínú Bitcoin",
+	"wallets_feature_hybrid": "Àpò owó adàpò",
+	"wallets_feature_info": "Àlàyé òwò iṣẹ́ jẹ́ dándè",
+	"wallets_feature_in_person_online": "ÌSàn owó lárínkírí & lórí aíyélújárà",
+	"wallets_feature_settles_both": "Gbàsílẹ̀ nínú Bitcoin & dọ́là",
+	"wallets_feature_multiple_employees": "Atilẹ́yìn fún àwọn oṣiṣẹ́ púpọ̀ (BPTs)",
+	"wallets_feature_self_hosted": "Tìtójú-arà = 0% owó ìsàn",
+	"wallets_feature_online_store": "Àṣọsì ilé-ìtàjà ori aíyélújárà",
+	"wallets_feature_invoicing": "Sọ́fítìwèà ìwé-owó òfẹ́ẹ́",
+	"wallets_get_wallet": "GBA ÀPÒ OWÓ"
+}

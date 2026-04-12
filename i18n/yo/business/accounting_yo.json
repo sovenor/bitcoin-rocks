@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-12",
+		"locale": "yo"
+	},
+	"bitcoin_business_accounting_guide": "Àmò̀nà Ìṣìrò Òwò Iṣẹ́ Bitcoin",
+	"accounting_description": "Kẹ́kọ̀ọ́ bí o ṣe lè ṣe ìṣìrò àwọn ìsàn owó Bitcoin ní ìṣìrò òwò iṣẹ́ rẹ dáadáa.",
+	"accounting_header": "ÀMÒ̀NÀ ÌṢÌRÒ BITCOIN",
+	"accounting_s1_c1": "Gbígbà Bitcoin ní ànfààní púpọ̀ bíí gbígbà ìsàn owó pẹ̀lú owó ìsàn tó kéré & gbígbà àwọn oníbàárà díẹ̀ síì.",
+	"accounting_s1_c2": "Tí o bá lò Àpò Owó Adàpò láti Àmò̀nà Àpò Owó wa tí o sì ń ta gbogbo Bitcoin tí o gba fún dọ́là láifọ̀wó́yí, o kò nílò láti ṣe ìtẹ̀sí kaǹkan sí ìṣìrò rẹ ló́wó́ló́wó́.",
+	"accounting_s1_c3": "Wo Àmò̀nà Àpò Owó.",
+	"accounting_s1_c4": "Ṣùgbọ́n, tí o bá pa apá kan àwọn ìsàn owó Bitcoin tí o gba mó́ bíí Bitcoin, iwọ nílò láti ṣe àkósílẹ̀ àwọn àlàyé díẹ̀ fún ìṣìrò rẹ. Èyí lè dàbí pé ó ṣòro ní àkọ́kó́, ṣùgbọ́n ó rọ̀rùn gán-an.",
+	"accounting_s1_c5": "Jọ̀wọ́: àmò̀nà yìí jẹ́ fún àlàyé níkan kìí ṣe ìmọ̀ràn orí owó-òyà.",
+	"accounting_s1_c6": "Tí o bá nílò ìmọ̀ràn orí owó-òyà, a gbàníyìn Satoshi Pacioli Accounting Services, ilé-iṣẹ́ ìṣìrò tó ń ṣe amó̀jú nínú ìṣìrò Bitcoin.",
+	"accounting_s2": "ṢÍṢE ÀKÓSÍLẸ̀ OWÓ ÌPÌLẸ̀ṢẸ̀ RẸ",
+	"accounting_s2_c1": "Ṣíṣe àkósílẹ̀ owó ìpìlẹ̀ṣẹ̀ rẹ ni yoo jẹ́ ìyàtọ̀ tó tóbi jùlọ láàrìn ìṣìrò fún dọ́là àti ìṣìrò fún Bitcoin. Pààpàà tí o bá wo òwò iṣẹ́ rẹ láti ojú Bitcoin níkan, o nílò láti jàbọ́ iye dọ́là iṣòwò kọ̀ọ̀kan lórí owó-òyà rẹ.",
+	"accounting_s2_c2": "Tí o bá lò QuickBooks, o lè ṣe èyí láifọ̀wó́yí nípà Bitcoin Sync plugin.",
+	"accounting_s2_c3": "Tí o kò bá lò QuickBooks, a gbàníyìn Satoshi Pacioli Accounting Services, ilé-iṣẹ́ ìṣìrò tó ń ṣe amó̀jú nínú ìṣìrò Bitcoin.",
+	"accounting_s2_c4": "Láti ṣe èyí pelu ọ̀wọ́, o kàn nílò láti ṣe àkósílẹ̀ iye Bitcoin tí o gba àti iye dọ́là iṣòwò Bitcoin náà ní ọ̀jọ́ náà.",
+	"accounting_s2_c5": "O lè wo iye dọ́là Bitcoin ló́wó́ló́wó́ nibí.",
+	"accounting_s2_c6": "Ṣe àkósílẹ̀ àlàyé yìí nínú àmò̀kàlè Excel kí o sì fi fún akọ̀ọ́ntàntì rẹ.",
+	"accounting_s2_c7": "O tún lè gbé dátà yìí wọ̀lé sí Excel láifọ̀wó́yí.",
+	"accounting_s2_c8": "O tún lè wo iye dọ́là Bitcoin ìtàn lórí àwọn ọ̀jọ́ tó ti kọ̀já, nítórí náà o kò nílò láti ṣe èyí lójúmọ́.",
+	"accounting_s3": "NÍNA TÀBÍ TÍTA BITCOIN RẸ",
+	"accounting_s3_c1": "Tí o bá lò Àpò Owó Adàpò láti Àmò̀nà Àpò Owó wa tí o sì ń ta gbogbo Bitcoin tí o gba fún dọ́là láifọ̀wó́yí, o kò nílò láti ṣe ìtẹ̀sí kaǹkan sí ìṣìrò rẹ ló́wó́ló́wó́.",
+	"accounting_s3_c2": "Wo Àmò̀nà Àpò Owó.",
+	"accounting_s3_c3": "Tí o bá yan láti na tàbí ta apá kan Bitcoin tí o gba léyìn tí o ti pa à mó́ fún ìgbà díẹ̀, o kàn nílò láti fi iye tí o ta à síí sínú àmò̀kàlè Excel rẹ tó ń ṣe àkósílẹ̀ owó ìpìlẹ̀ṣẹ̀ rẹ.",
+	"accounting_s3_c4": "Fún àpẹẹrẹ, tí o bá gba $100 iye Bitcoin ní January 1st tí o sì pinnu láti ta tàbí na à ní February 1st ní iye tuntun ti $110, iwọ nílò láti ṣe àkósílẹ̀ $10 èré ibi-ówó nínú ìṣìrò rẹ.",
+	"accounting_s3_c5": "Èyí tún lè ṣiṣẹ́ ní òdì kèèjì. Fún àpẹẹrẹ, tí o bá gba $100 iye Bitcoin ní January 1st tí o sì pinnu láti ta tàbí na à ní February 1st ní iye tuntun ti $90, iwọ nílò láti ṣe àkósílẹ̀ $10 àdánú ibi-ówó nínú ìṣìrò rẹ.",
+	"accounting_s4": "MO NÍLÒ ÌRÀNLÓ́WÓ́ DÍẸ̀ SÍÌ",
+	"accounting_s4_c1": "Tí o bá nílò ìrànló́wó́ díẹ̀ síì láti fi Bitcoin sínú ìṣìrò òwò iṣẹ́ rẹ, a gbàníyìn Satoshi Pacioli Accounting Services, ilé-iṣẹ́ ìṣìrò tó ń ṣe amó̀jú nínú ìṣìrò Bitcoin.",
+	"accounting_s4_c2": "Kẹ́kọ̀ọ́ díẹ̀ síì nípa Satoshi Pacioli Accounting Services."
+}

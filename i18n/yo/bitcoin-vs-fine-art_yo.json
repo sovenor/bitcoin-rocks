@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-12",
+		"locale": "yo"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin pẹ̀lú Awò̀ràn Giga",
+	"fine_art_header": "ÌYÀTỌ̀ LÁÀRÌN",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "ÀTI",
+	"fine_art_header_4": "AWÒRÀN GIGA",
+	"fine_art_intro_1": "Awò̀ràn giga ti jẹ́ idókò olórò fún ọ̀rùndún àti pé ọ̀pọ̀lọ pọ̀ wo ó gégé bí àfi-pamó́ iye.",
+	"fine_art_intro_2": "Bitcoin jẹ́ owó oni-nọ́míbà tí ọ̀pọ̀lọ pọ̀ tún wo ó gégé bí àfi-pamó́ iye àti idókò.",
+	"fine_art_intro_3": "Ṣùgbọ́n báwo ni awò̀ràn giga lárà ṣe yàtọ̀ sí owó oni-nọ́míbà bíí Bitcoin? Ẹ jẹ́ kí a wo àwọn ìyàtọ̀ láàrìn irú idókò méjì: Bitcoin & Awò̀ràn Giga.",
+	"fine_art": "AWÒRÀN GIGA",
+	"fine_art_point_1": "Kọ̀ọ̀kan jẹ́ aláìlẹ́gbẹ́",
+	"fine_art_point_2": "Nílò titaja pàtàkì",
+	"fine_art_point_3": "Owó ìsàn titaja tó ga",
+	"fine_art_point_4": "A kò lè pín",
+	"fine_art_point_5": "Nílò àwọn ogbòn láti ṣàyẹ̀wò",
+	"fine_art_point_6": "Wà ní ewu ìbàjẹ́",
+	"fine_art_point_7": "Àwọn olórò níkan ni ó lè rà",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Alápàrò dáadáa",
+	"bitcoin_point_2": "Ọ̀jà àgbáyé 24/7",
+	"bitcoin_point_3": "Owó ìsàn iṣòwò tó kéré",
+	"bitcoin_point_4": "Ó rọ̀rùn láti pín",
+	"bitcoin_point_5": "A lè ṣàyẹ̀wò nípà cryptography",
+	"bitcoin_point_6": "Ó ṣòro láti pa run",
+	"bitcoin_point_7": "Ẹ̀níkaǹkan lè ní í",
+	"point_1_summary_1": "Bitcoin jẹ́ alápàrò dáadáa, èyí túmọ̀ sí pé bitcoin kọ̀ọ̀kan dabi arà wọn àti pé a lè pàṣípààrọ̀ wọn - bitcoin kan dọ́gba bitcoin kan ní ibìkìbì lágbáyé. Awò̀ràn giga jẹ́ aláì-pàrò láti ibì-àyé, kọ̀ọ̀kan jẹ́ aláìlẹ́gbẹ́ nínú ìlọ̀dá, ìtàn, ipo, àti ìpìlẹ̀ṣẹ̀, tó mú kí àfiwé tààrà àti idiyèlé ṣòro púpọ̀.",
+	"point_2_summary_1": "Bitcoin ń ṣòwò lórí ọ̀jà àgbáyé 24/7 tí ẹ̀níkaǹkan tó ní iràyè intaneti lè ra tàbí ta lẹ́sẹ̀kẹ̀sẹ̀. Awò̀ràn giga nílò àwọn ilé titaja pàtàkì bíí Sotheby's tàbí Christie's, àwọn olùtà àdání, tàbí àwọn ilé-àṣà pàtàkì. Títà lè gba oṣù láti ṣetò àti parí.",
+	"point_3_summary_1": "Rírà tàbí títà bitcoin máa ń jẹ́ kéré jù 1% ní owó ìsàn. Títà awò̀ràn giga kan àwọn ínàowó nlá pẹ̀lú àwọn owó olurà (10-25%), kọ́míṣọ́nù olutà (10-15%), ìrànsí, gbigbe, ìpàmó́, àti owó ìṣẹ́dájú. Àwọn ínàowó wọ̀nyí lè ju 30-40% iye awò̀ràn náà lọ.",
+	"point_4_summary_1": "A lè pín Bitcoin sí èké kékeré miliọ́nù 100 tí a ń pè ní satoshis, tó dara fún iṣòwò ìwọn kaǹkaǹ láti kékeré sí nlá. A kò lè pín awò̀ràn giga - o kò lè ní apá kan awò̀ràn tàbí ta apá kan èrè òkútà.",
+	"point_5_summary_1": "Níní Bitcoin àti òtítọ́ rẹ̀ lè jẹ́ ṣàyẹ̀wò lórí blockchain nípà ẹ̀níkaǹkan tó ní ìmọ̀ imọ̀-ẹ̀rọ̀ ìpìlẹ̀. Awò̀ràn giga nílò ìṣẹ́dájú ogbòn olówó, ìwádìí ìpìlẹ̀ṣẹ̀, àti àtúpàlẹ̀ ìmọ̀-ẹ̀rọ̀. Pààpàà pẹ̀lú ìṣẹ́dájú ogbòn, èké máa ń tan àgbáyé awò̀ràn lórèèkórèè. A kò sì lè dá èké Bitcoin.",
+	"point_6_summary_1": "Bitcoin, tí a bá ṣe àfiípamó́ rẹ̀ dáadáa, a kò lè pa run nípà ìkunomi, iná, ìlù, ìjikoko, olè, tàbí àwọn àjálù mìràn. Awò̀ràn giga wà ní ewu gbogbo irú ìpa run lárà àti ìdíbàjẹ́.",
+	"point_7_summary_1": "Enikaǹkan tó ní iràyè intaneti àti iye owó kékeré láti doko lè ra àti ta Bitcoin. Idókò awò̀ràn giga jẹ́ fun àwọn olórò nikan nitórí iye owó tó ga, iràyè titaja pàtàkì, ohun-èlò ìpàmó́, owó ìsàn ìrànsí, àti ìmọ̀ amó̀jú tí a nílò láti lò ọ̀jà awò̀ràn dáadáa."
+}
