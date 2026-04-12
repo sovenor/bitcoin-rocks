@@ -52,6 +52,7 @@ $(function() {
     { code: 'el', name: 'Ελληνικά' },
     { code: 'bg', name: 'български' },
     { code: 'ru', name: 'Русский' },
+    { code: 'ur', name: 'اردو' },
     { code: 'ar', name: 'العربية' },
     { code: 'fa', name: 'فارسی' },
     { code: 'he', name: 'עברית' },
