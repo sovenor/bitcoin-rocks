@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"bitcoin_vs_fine_art": "Bitcoin va Nozik sanʻat",
+	"fine_art_header": "FARQI",
+	"fine_art_header_2": "BITCOIN",
+	"fine_art_header_3": "VA",
+	"fine_art_header_4": "NOZIK SANʻAT",
+	"fine_art_intro_1": "Nozik sanʻat asrlar davomida hashamatli investitsiya boʻlib kelgan va badavlat kolleksionerlar tomonidan koʻpincha qiymat saqlash vositasi sifatida qabul qilinadi.",
+	"fine_art_intro_2": "Bitcoin ham koʻpchilik tomonidan qiymat saqlash vositasi va investitsiya sifatida qaraladigan raqamli pul.",
+	"fine_art_intro_3": "Jismoniy sanʻat asarlari Bitcoin kabi raqamli puldan qanday farq qiladi? Ikki investitsiya shakli oʻrtasidagi farqlarga qaraylik: Bitcoin va Nozik sanʻat.",
+	"fine_art": "NOZIK SANʻAT",
+	"fine_art_point_1": "Har bir asar noyob",
+	"fine_art_point_2": "Mutaxassis kimoshdi savdolari talab qilinadi",
+	"fine_art_point_3": "Yuqori kimoshdi toʻlovlari",
+	"fine_art_point_4": "Boʻlinmaydi",
+	"fine_art_point_5": "Mutaxassis tasdiqlashi talab qilinadi",
+	"fine_art_point_6": "Zarar koʻrishga himoyasiz",
+	"fine_art_point_7": "Faqat badavlat kolleksionerlar uchun",
+	"bitcoin": "BITCOIN",
+	"bitcoin_point_1": "Toʻliq almashtiriladigan",
+	"bitcoin_point_2": "24/7 global bozor",
+	"bitcoin_point_3": "Past tranzaksiya komissiyalari",
+	"bitcoin_point_4": "Oson boʻlinadi",
+	"bitcoin_point_5": "Kriptografik tasdiqlanadigan",
+	"bitcoin_point_6": "Yoʻq qilish qiyin",
+	"bitcoin_point_7": "Hamma uchun qulay",
+	"point_1_summary_1": "Bitcoin toʻliq almashtiriladigan, yaʼni har bir bitcoin teng va bir-biri bilan almashtirilishi mumkin — dunyoning qayerida boʻlsangiz ham bitta bitcoin bitta bitcoinga teng. Nozik sanʻat tabiatan almashtirib boʻlmaydigan; har bir asar yaratilishi, tarixi, holati va kelib chiqishi bilan noyobdir.",
+	"point_2_summary_1": "Bitcoin internet kirish huquqiga ega har kimning bir zumda oldi-sotdi qilishi mumkin boʻlgan 24/7 global bozorda savdo qilinadi. Nozik sanʻat Sothebyʻs yoki Christieʻs kabi mutaxassis kimoshdi uylari, xususiy dilerlar yoki xususiy galereyalarni talab qiladi.",
+	"point_3_summary_1": "Bitcoin oldi-sotdisi odatda komissiyalarda 1%dan kam boʻlsa, koʻpincha ancha kam boʻladi. Sanʻat sotish xaridor mukofoti (10-25%), sotuvchi komissiyasi (10-15%), sugʻurta, tashish, saqlash va tasdiqlash toʻlovlari kabi sezilarli xarajatlarni oʻz ichiga oladi.",
+	"point_4_summary_1": "Bitcoin satoshi deb ataladigan 100 million kichik birlikka boʻlinishi mumkin, bu uni har qanday hajmdagi tranzaksiya uchun ideal qiladi. Nozik sanʻat boʻlinmaydi — rasmning bir qismiga egalik qilish yoki haykalning faqat bir boʻlagini sotish mumkin emas.",
+	"point_5_summary_1": "Bitcoin mulkchiligi va haqiqiyligi asosiy texnik bilimga ega har kim tomonidan blokcheynda kriptografik tasdiqlanishi mumkin. Nozik sanʻat qimmat mutaxassis tasdiqlashi, kelib chiqish tadqiqoti va ilmiy tahlil talab qiladi. Mutaxassis tasdiqlashiga qaramay, soxta nusxalar muntazam ravishda sanʻat olamini aldab kelmoqda. Bitcoin esa soxta qilib boʻlmaydi.",
+	"point_6_summary_1": "Bitcoin toʻgʻri zaxiralanganida suv toshqini, yongʻin, zilzila, dovul, oʻgʻirlik yoki boshqa ofatlar bilan yoʻq qilib boʻlmaydi. Nozik sanʻat jismoniy yoʻq qilish va buzilishning har bir shakliga himoyasiz.",
+	"point_7_summary_1": "Bitcoin internet kirish huquqi va investitsiya qilish uchun oz miqdordagi puli bor har kim tomonidan oldi-sotdi qilinishi mumkin. Nozik sanʻat investitsiyalari yuqori minimal narxlar, xususiy kimoshdi kirish huquqi, saqlash talablari, sugʻurta xarajatlari va mutaxassis bilimi tufayli katta darajada badavlat kolleksionerlar bilan cheklangan."
+}

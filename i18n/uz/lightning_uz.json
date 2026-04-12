@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning hamyon yoʻriqnomasi",
+	"lightning_description": "Lightning hamyonlari shaxsiy suverenitetingizni saqlab, Bitcoinni tez va arzon yuborish imkonini beradi.",
+	"lightning_header": "LIGHTNING HAMYON YOʻRIQNOMASI",
+	"lightning_s1_c1": "Lightning Bitcoin toʻlovlarini tez va arzon yuborish imkonini beradi.",
+	"lightning_s1_c2": "Lightning ishlatishning murosalar keltirishini bilish muhim. Tezroq va arzonroq Bitcoin toʻlovlari evaziga odatda biroz xavfsizlikdan voz kechasiz.",
+	"lightning_s1_c3": "Umuman olganda, Lightning faqat kichik miqdordagi bitcoin bilan ishlatilishi kerak. Katta miqdordagi bitcoin har doim apparat hamyonda saqlanishi kerak.",
+	"lightning_s1_c4": "Koʻproq maʼlumot uchun apparat hamyon yoʻriqnomamizni koʻring.",
+	"lightning_s1_c5": "Barcha Lightning hamyonlari teng emas. Qaysi hamyon siz uchun toʻgʻri murosa muvozanatiga ega ekanligini oddiy savolga javob berib bilib oling:",
+	"lightning_question_1": "MEN UCHUN TOʻGʻRI MUROSA MUVOZANATI QAYSI?",
+	"lightning_s2_c1": "Bitcoinning innovatsiyalaridan biri bank kabi saqlovchiga ishonmasdan saqlash qobiliyati. Oʻz nazoratidagi hamyonlar Bitcoinning toʻliq kuchini ochadi.",
+	"lightning_s2_c2": "Oʻz nazoratidagi hamyon bilan pulingizni sarflash yoki oʻtkazish qobiliyatiga ega yagona shaxs sizsiz. Oʻz nazoratidagi hamyon ishlatayotganda hech kim sizni toʻxtata, senzura qila yoki oʻgʻirlay olmaydi. Bularga emanatsiz hamyonlar ham deyiladi.",
+	"lightning_s2_c3": "Lightning ishlatishning eng suveren usuli oʻz tuguningizni ishlatishdir.",
+	"lightning_s2_c4": "Bu yoʻriqnoma oʻz tuguningizni talab qilmaydigan oddiy Lightning hamyonlariga qaratilgan.",
+	"lightning_s2_c5": "Emanatsiz Lightning hamyoni ishlatayotganda ham, hamyon dasturchi zararli ilova yangilanmasini kiritib mablagʻlaringizni oʻgʻirlamasligiga ishonayotganingizni bilish muhim.",
+	"lightning_s3_c1": "Emanat hamyonlar pulingiz ustidan nazoratga ega boʻlmagan hamyonlardir.",
+	"lightning_s3_c2": "Bu hamyonlar pulingizga kirish uchun uchinchi tomonga ishonishingiz kerak boʻlgan bankchilik tizimiga koʻproq oʻxshaydi. Bitcoiningiz birzhada boʻlsa, emanat hamyon ishlatyapsiz.",
+	"lightning_s3_c3": "Emanat hamyonlar qulay koʻrinishi mumkin, lekin emanatchi texnik jihatdan barcha foydalanuvchi mablagʻlarini istalgan vaqt oʻgʻirlash qobiliyatiga ega.",
+	"lightning_s3_c4": "Baʼzi odamlar foydalanish qulayligi tufayli kichik miqdordagi bitcoin uchun emanat Lightning hamyonlarini afzal koʻradi. Faqat esda tuting: sizning kalitlaringiz boʻlmasa, sizning tangalaringiz emas!",
+	"lightning_question_2": "HAMYONINGIZNI TANLANG",
+	"lightning_s4_c1": "Bularning barchasini hisobga olib, endi siz uchun toʻgʻri murosa muvozanatiga ega Lightning hamyonini tanlashingiz mumkin.",
+	"phoenix": "PHOENIX",
+	"breez": "BREEZ",
+	"mutiny_wallet": "MUTINY WALLET",
+	"wallet_of_satoshi": "WALLET OF SATOSHI",
+	"lightning_features": "Koʻp sonli xususiyatlar",
+	"lightning_mobile_app": "Mobil ilova",
+	"lightning_free": "100% bepul",
+	"lightning_merchants": "Savdogarlar uchun ajoyib",
+	"lightning_starter": "Ajoyib boshlangʻich hamyon",
+	"lightning_browser": "Brauzerda",
+	"lightning_custodial": "Toʻliq emanat hamyon",
+	"lightning_cta_hardware": "Apparat Bitcoin hamyon yoʻriqnomamizni qidiryapsizmi?"
+}

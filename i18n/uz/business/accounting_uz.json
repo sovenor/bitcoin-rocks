@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"bitcoin_business_accounting_guide": "Bizneslar uchun Bitcoin buxgalteriya yoʻriqnomasi",
+	"accounting_description": "Biznes buxgalteriyangizdagi Bitcoin toʻlovlarini qanday toʻgʻri qayd qilishni oʻrganing.",
+	"accounting_header": "BITCOIN BUXGALTERIYA YOʻRIQNOMASI",
+	"accounting_s1_c1": "Bitcoin qabul qilishning pastroq komissiyalar bilan toʻlov olish va koʻproq mijoz jalb qilish kabi koʻplab afzalliklari bor.",
+	"accounting_s1_c2": "Hamyon yoʻriqnomamizdagi gibrid hamyonni ishlatayotgan va olgan Bitcoinning 100%ini avtomatik dollarga sotayotgan boʻlsangiz, mavjud buxgalteriyangizdagi hech narsani oʻzgartirishingiz shart emas.",
+	"accounting_s1_c3": "Hamyon yoʻriqnomasini koʻring.",
+	"accounting_s1_c4": "Biroq, agar olgan Bitcoin toʻlovlaringizning bir qismini Bitcoin sifatida saqlayotgan boʻlsangiz, buxgalteriyaniz uchun baʼzi maʼlumotlarni kuzatib borishingiz kerak boʻladi. Birinchi qarashda qoʻrqinchli tuyulishi mumkin, lekin aslida juda oddiy.",
+	"accounting_s1_c5": "Eslatma: Bu yoʻriqnoma faqat maʼlumot berish maqsadida va soliq maslahat sifatida emas.",
+	"accounting_s1_c6": "Soliq maslahatiga muhtoj boʻlsangiz, Bitcoin buxgalteriyasi boʻyicha ixtisoslashgan buxgalteriya firmasi Satoshi Pacioli Accounting Services-ni tavsiya qilamiz.",
+	"accounting_s2": "XARAJAT ASOSINI KUZATISH",
+	"accounting_s2_c1": "Xarajat asosini kuzatish dollar buxgalteriyasi va Bitcoin buxgalteriyasi oʻrtasidagi eng katta farq boʻladi. Biznesingizga toʻliq Bitcoin nuqtai nazaridan qarasangiz ham, soliq deklaratsiyangizda har bir tranzaksiyaning dollar qiymatini hisobot qilishingiz kerak.",
+	"accounting_s2_c2": "QuickBooks ishlatayotgan boʻlsangiz, buni Bitcoin Sync plaginasi bilan avtomatik qilishingiz mumkin.",
+	"accounting_s2_c3": "QuickBooks ishlatmayotgan boʻlsangiz, Bitcoin buxgalteriyasi boʻyicha ixtisoslashgan Satoshi Pacioli Accounting Services-ni tavsiya qilamiz.",
+	"accounting_s2_c4": "Qoʻlda kuzatish uchun olgan Bitcoin miqdorini va oʻsha kundagi Bitcoin tranzaksiyasining dollar qiymatini yozib oling.",
+	"accounting_s2_c5": "Joriy Bitcoin dollar narxini bu yerda koʻrishingiz mumkin.",
+	"accounting_s2_c6": "Bu maʼlumotlarni Excel jadvalida kuzating va buxgalteringizga yuboring.",
+	"accounting_s2_c7": "Bu maʼlumotlarni avtomatik ravishda ham Excelga eksport qilishingiz mumkin.",
+	"accounting_s2_c8": "Oʻtgan kunlardagi Bitcoinning tarixiy dollar narxini ham koʻrishingiz mumkin, shuning uchun buni har kuni qilishingiz shart emas.",
+	"accounting_s3": "BITCOININGIZNI SARFLASH YOKI SOTISH",
+	"accounting_s3_c1": "Hamyon yoʻriqnomamizdagi gibrid hamyonni ishlatayotgan va olgan Bitcoinning 100%ini avtomatik dollarga sotayotgan boʻlsangiz, mavjud buxgalteriyangizdagi hech narsani oʻzgartirishingiz shart emas.",
+	"accounting_s3_c2": "Hamyon yoʻriqnomasini koʻring.",
+	"accounting_s3_c3": "Olgan Bitcoinning bir qismini bir muddat keyin sarflash yoki sotishga qaror qilsangiz, xarajat asosini kuzatgan Excel jadvalingizga sotgan narxni qoʻshishingiz kifoya.",
+	"accounting_s3_c4": "Masalan, 1-yanvarda 100 $ qiymatidagi Bitcoin olgan boʻlsangiz va 1-fevralda yangi qiymati 110 $ boʻlganda sotish yoki sarflashga qaror qilsangiz, buxgalteriyangizdagi 10 $ kapital daromadni qayd qilishingiz kerak.",
+	"accounting_s3_c5": "Bu teskari yoʻnalishda ham ishlashi mumkin. Masalan, 1-yanvarda 100 $ qiymatidagi Bitcoin olgan boʻlsangiz va 1-fevralda yangi qiymati 90 $ boʻlganda sotish yoki sarflashga qaror qilsangiz, buxgalteriyangizdagi 10 $ kapital zararni qayd qilishingiz kerak.",
+	"accounting_s4": "QOʻSHIMCHA YORDAMGA MUHTOJMAN",
+	"accounting_s4_c1": "Bitcoinni biznes buxgalteriyangizdagi qoʻshish boʻyicha qoʻshimcha yordamga muhtoj boʻlsangiz, Bitcoin buxgalteriyasi boʻyicha ixtisoslashgan Satoshi Pacioli Accounting Services-ni tavsiya qilamiz.",
+	"accounting_s4_c2": "Satoshi Pacioli Accounting Services haqida koʻproq bilib oling."
+}

@@ -39,6 +39,7 @@ $(function() {
     { code: 'ms', name: 'Melayu' },
     { code: 'nl', name: 'Nederlands' },
     { code: 'nb', name: 'Norsk' },
+    { code: 'uz', name: 'O\u02BBzbekcha' },
     { code: 'pl', name: 'Polski' },
     { code: 'pt', name: 'Português' },
     { code: 'ro', name: 'Română' },

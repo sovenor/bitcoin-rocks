@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"get_involved_and_help_spread_bitcoin": "Ishtirok eting va Bitcoin tarqatishga yordam bering",
+	"get_involved_description": "Bepul resurslarimiz Bitcoin qabul qilishni tarqatishni osonlashtiradi.",
+	"get_involved_header": "ISHTIROK ETING",
+	"get_involved_header_2": "BITCOIN TARQATING",
+	"get_involved_intro_1": "Dunyomizning hozirgi holatida yashash ruhni tushirishi mumkin.",
+	"get_involved_intro_2": "Pulimiz buzilgan. Natijada jamiyatning asosiy qismlari ham buzilgan.",
+	"get_involved_intro_3": "Agar Bitcoin bilan allaqachon tanish boʻlsangiz, Bitcoin keltirgan umid hissini bilasiz. Yaxshiroq pul imkon qilgan yaxshiroq kelajakka umid.",
+	"get_involved_intro_4": "Ammo atrofizda juda koʻp odam Bitcoindan bexabar. Siz bilan bir xil buzilgan dunyoda yashaydi, lekin qorongʻulikda yoʻllarini topishga yordam beradigan umid chiroqisiz.",
+	"get_involved_intro_5": "Ammo siz buni oʻzgartirishingiz mumkin. Bitcoin keltirgan umidni atrofingizdagi odamlarga tarqatishni osonlashtiradigan bir qancha bepul resurslar yaratdik.",
+	"get_involved_sticker_header": "Ommaviy joyga stiker yopishtiring",
+	"get_involved_sticker_content_1": "Hech kim bilan gaplashmasdan ham atrofingizdagi odamlarni Bitcoin haqida xabardor qilishga yordam berishingiz mumkin. Bepul Bitcoin stikerlarimizdan birini ommaviy joyga yopishtirishingiz kifoya.",
+	"get_involved_sticker_content_2": "Har oyda yuzlab odam bu stikerlardagi QR kodlarni skanerlaydi. Inflyatsiya stikerlari quyidagi sahifaga yoʻnaltiradi:",
+	"get_involved_sticker_content_3": "Bitcoin inflyatsiyaga yechim sifatida.",
+	"get_involved_sticker_content_4": "Boshqa stikerlar odamlarga qanday",
+	"get_involved_sticker_content_5": "Bitcoin yaxshiroq dunyo qurayotganini",
+	"get_involved_sticker_content_6": "koʻrsatadigan taʼlim bosh sahifamizga yoʻnaltiradi.",
+	"get_involved_request_a": "SOʻRANG",
+	"get_involved_sticker_pack": "STIKER TOʻPLAMI",
+	"get_involved_postcard_header": "Otkritla yuboring",
+	"get_involved_postcard_content_1": "Bepul otkritlalarimizdan birini yuborib tanishingizga Bitcoin umidini tarqatishga yordam berishingiz mumkin.",
+	"get_involved_postcard_content_2": "Har bir otkritlaning orqa tomonida Bitcoin haqida ishontiruvchi matn va koʻproq maʼlumot uchun QR kod bor.",
+	"get_involved_postcard_content_3": "Bitcoin otkritlasi yuborib birovning Bitcoinni yangi koʻzda koʻrishiga yordam bera olasiz.",
+	"get_involved_postcard_pack": "OTKRITLA TOʻPLAMI",
+	"get_involved_business_header": "Biznesni jalb qiling",
+	"get_involved_business_content_1": "Bitcoin aylana iqtisodiyotini qurishga yordam berishni xohlaysizmi? Bitcoin biznes toʻplami biznesga Bitcoin toʻlovlarini qabul qilish haqida yondashishni osonlashtiradi.",
+	"get_involved_business_content_2": "Har bir biznes toʻplami Bitcoin toʻlovlarini qabul qilishning afzalliklarini taʼkidlaydigan broshyuralarni oʻz ichiga oladi. Har bir broshyura turli",
+	"get_involved_business_content_3": "bepul Bitcoin biznes resurslariga yoʻnaltiradi.",
+	"get_involved_business_kit": "BIZNES TOʻPLAMI"
+}

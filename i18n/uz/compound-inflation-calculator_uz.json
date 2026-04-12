@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"cic_header": "MURAKKAB INFLYATSIYA KALKULYATORI",
+	"cic_description": "Ushbu murakkab inflyatsiya kalkulyatori yordamida maoshingiz inflyatsiyaga mos kelishi uchun qancha oshishi kerakligini bilib oling.",
+	"what_can_i_do_about": "Inflyatsiya haqida",
+	"what_can_i_do_about_2": "nima qila olaman?",
+	"cic_inflation_cta": "Bitcoin yordamida inflyatsiyadan qutulish"
+}

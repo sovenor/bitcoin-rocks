@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin savdogar xaritalari — Biznesingizni bepul roʻyxatga oling",
+	"maps_header": "BITCOIN SAVDOGAR XARITALARIGA ROʻYXATDAN OʻTING VA KOʻPROQ MIJOZ JALB QILING",
+	"maps_request_details": "Biznes maʼlumotlaringizni quyida kiriting va sizni bepul Bitcoin savdogar xaritalariga qoʻshamiz. Bu Bitcoin foydalanuvchilarining biznesingizni topishi va Bitcoinlarini sizda sarflashini taʼminlaydi!",
+	"maps_view": "Xaritani bu yerda koʻring."
+}

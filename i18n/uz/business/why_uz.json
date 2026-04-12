@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"learn_why_bitcoin_is_good_for_business": "Bitcoin biznes uchun nima uchun foydali ekanligini bilib oling",
+	"why_header": "BITCOIN BIZNES UCHUN FOYDALI",
+	"why_good_for_you": "BITCOIN SIZ UCHUN HAM FOYDALI!",
+	"why_learn_more_lowercase": "Koʻproq bilib oling.",
+	"why_s1": "Bitcoinning inflyatsiyasi yoʻq",
+	"why_s1_c1": "Inflyatsiya yoʻqdan koʻproq pul bosilganda yoki yaratilganda yuzaga keladi. Bu pulingizning vaqt oʻtishi bilan qadrsizlanishiga olib keladi.",
+	"why_s1_c2": "Bitcoinning qatʼiy taklifi bor, yaʼni hech kim koʻproq Bitcoin bosa olmaydi.",
+	"why_s2": "Bitcoinda bank hujumlari boʻlmaydi",
+	"why_s2_c1": "Soʻnggi yillarda bir qancha Amerika banklari bank hujumlari tufayli qulab tushdi.",
+	"why_s2_c2": "Banklar pulingizni shunchaki saqlab turish oʻrniga, investitsiya qiladi va qarzga beradi. Agar bu investitsiyalar muvaffaqiyatsiz boʻlsa, pulingizni qaytarib berish uchun yetarli mablagʻlari qolmaydi.",
+	"why_s2_c3": "Va FDIC sugʻurta fondi oʻzi sugʻurtalagan har 100 dollarning atigi 1 dollariga ega.",
+	"why_s3": "Bitcoin ruxsatsiz ishlaydi",
+	"why_s3_c1": "Anʻanaviy moliya tarmoqlaridan farqli oʻlaroq, Bitcoin foydalanish uchun ruxsat talab qilmaydi.",
+	"why_s3_c2": "Bu hech kim hech qanday sababga koʻra sizning Bitcoin ishlatishingizni toʻxtata olmasligini anglatadi. Bu siz senzura yoki musodara qilish xavfisiz foydalanishingiz mumkin boʻlgan birinchi moliyaviy tarmoqdir.",
+	"why_s4": "Bitcoin yaxshiroq dunyo qurayapti",
+	"why_s4_c1": "Bitcoin yaxshiroq dunyo qurayotgan notoʻgʻri tushunilgan texnologiyadir.",
+	"why_s4_c2": "Bitcoin inson huquqlari himoyachilariga ozodlik uchun kurashda yordam berdi, global metan chiqindilarini kamaytirdi, milliy bogʻlarni saqlab qoldi va yana koʻp narsalarni amalga oshirdi."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"bitcoin_is_good_for_business": "Bitcoin biznes uchun foydali",
+	"biz_header": "BITCOIN BIZNES UCHUN FOYDALI",
+	"biz_s1": "Minimal summasi yoʻq past komissiyalar",
+	"biz_s1_c1": "Bitcoin, xuddi naqd pul kabi, mijozlaringizdan bevosita toʻlov olish imkonini beradi. Bitcoin tarmogʻi yuqori komissiyalar oladigan banklar va kredit karta kompaniyalari kabi vositachilarssiz ishlaydi.",
+	"biz_s2": "Bir zumda toʻlov",
+	"biz_s2_c1": "Naqd pul kabi, Bitcoin toʻlovlari ham bir zumda amalga oshiriladi. Kredit karta kompaniyasi yoki bankning sizga pul yuborishini kutishingiz shart emas. Buning oʻrniga, pulingizga darhol kirish huquqiga ega boʻlasiz.",
+	"biz_s3": "Qaytarib olish yoki firibgarlik yoʻq",
+	"biz_s3_c1": "Bitcoin toʻlovlari bevosita siz va mijozlaringiz oʻrtasida amalga oshirilganligi sababli, hech kim qaytarib olish orqali pulingizni qaytarib ololmaydi.",
+	"biz_s3_c2": "Soxta Bitcoin Bitcoin tarmogʻi orqali yuborilishi mumkin emas, bu biznesingizga zarar yetkazadigan firibgarlik operatsiyalari haqida tashvishlanmasligingiz kerakligini anglatadi.",
+	"biz_s4": "Koʻproq mijoz jalb qiling",
+	"biz_s4_c1": "Millionlab odamlar Bitcoin egasi va uni qabul qiladigan joylarda sarflashni xohlaydi.",
+	"biz_s4_c2": "Bitcoin qabul qilish orqali biznesingiz Bitcoin savdogar xaritalarida roʻyxatga olinishi va yangi mijozlarga bepul murojaat qilishi mumkin.",
+	"biz_s4_c3": "Bitcoin qabul qilish 100% bepul. Shartnoma yoki yashirin toʻlov yoʻq."
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-11",
+		"locale": "uz"
+	},
+	"sticker_success_1": "Stikerlaringizni 2 dan 4 haftagacha olasiz. Shu vaqt ichida stikerlaringiz uchun yaxshi joy topishga harakat qiling!",
+	"sticker_success_2": "Stikerlar uchun yaxshi joylar:",
+	"sticker_success_list_1": "odamlar koʻradigan ommaviy joylarda",
+	"sticker_success_list_2": "tez olib tashlanmaydigan joylarda (stikerlar doimiy zarar yetkazmaydi)",
+	"sticker_success_list_3": "oson yopishadigan yuzalarda (metall, plastik, shisha)",
+	"sticker_success_list_4": "xususiy mulkka, belgilarga, bankomatlarga yoki benzin stantsiyalariga EMAS",
+	"sticker_success_3": "Boshqalar stikerlarini qaerga yopishtirayotganini koʻrishni xohlaysizmi?",
+	"sticker_success_flyers_bar_new": "YANGI!",
+	"sticker_success_flyers_bar_cta": "Bitcoin varaqalarini chop eting va yopishtiring →"
+}
