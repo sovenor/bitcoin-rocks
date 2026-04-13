@@ -322,73 +322,71 @@
 
             <div id="USD" class="countries" style="display:none">
 
-                <div class="container-inner">
-
-                    <!-- ═══ HERO STAT CARDS: Bitcoin vs Dollar (4 year) ═══ -->
-                    <div class="stat-cards-grid">
-                        <a href="https://bitcoinpricereport.com/bitcoin-priced-in-usd?chart=4y" target="_blank" rel="noopener noreferrer" class="stat-card">
-                            <div class="stat-card-label">BITCOIN</div>
-                            <div class="stat-card-value success" id="stat-btc-change">+50%</div>
-                            <div class="stat-card-detail">Last 4 years</div>
-                            <div class="stat-card-source">Source: Bitcoin Price Report →</div>
-                        </a>
-                        <a href="https://fred.stlouisfed.org/series/CPIAUCSL" target="_blank" rel="noopener noreferrer" class="stat-card">
-                            <div class="stat-card-label">US DOLLAR</div>
-                            <div class="stat-card-value danger" id="stat-usd-inflation">-15%</div>
-                            <div class="stat-card-detail">Purchasing power lost over 4 years</div>
-                            <div class="stat-card-source">Source: FRED CPI →</div>
-                        </a>
-                    </div>
-
-                    <!-- ═══ DOLLARS IN EXISTENCE (M1 Money Supply) ═══ -->
-                    <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
-                        <div class="stat-comparison-title">DOLLARS IN EXISTENCE</div>
-                        <div class="stat-comparison-label">JAN 2020</div>
-                        <div class="stat-comparison-value" id="stat-m1-baseline">$4.0 trillion</div>
-                        <div class="stat-comparison-arrow">↓</div>
-                        <div class="stat-comparison-label">TODAY</div>
-                        <div class="stat-comparison-value current" id="stat-m1-current">$18.4 trillion</div>
-                        <hr class="stat-comparison-divider" />
-                        <div class="stat-comparison-result" id="stat-m1-change">+360% increase</div>
-                        <div class="stat-comparison-source">Source: FRED M1 Money Supply →</div>
-                    </a>
-
-                    <!-- ═══ TOTAL FEDERAL DEBT ═══ -->
-                    <a href="https://fred.stlouisfed.org/series/GFDEBTN" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
-                        <div class="stat-comparison-title">TOTAL FEDERAL DEBT</div>
-                        <div class="stat-comparison-label">Q1 2020</div>
-                        <div class="stat-comparison-value" id="stat-debt-baseline">$23.2 trillion</div>
-                        <div class="stat-comparison-arrow">↓</div>
-                        <div class="stat-comparison-label">TODAY</div>
-                        <div class="stat-comparison-value current" id="stat-debt-current">$36.2 trillion</div>
-                        <hr class="stat-comparison-divider" />
-                        <div class="stat-comparison-result" id="stat-debt-change">+56% increase</div>
-                        <div class="stat-comparison-source">Source: FRED GFDEBTN →</div>
-                    </a>
-
-                </div><!--/container-inner-->
-
-                <div class="break-micro"></div>
-
-                <!-- ═══ WHAT CAUSES INFLATION (condensed) ═══ -->
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <!-- ═══ SECTION 1: Your money is losing value ═══ -->
+                <div class="text-box intro">
                     <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="inflation_cause_header" itemprop="name">WHAT CAUSES INFLATION?</h2>
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                        <p>
-                        <span data-i18n="inflation_intro_usd">In the United States, there is no fixed limit on how many dollars can be created.</span> <span data-i18n="inflation_cause_c1">While supply chains and some corporations contribute to artificially rising prices, the root cause of inflation is the expansion of the money supply.</span>
-                        </p>
+                        <div class="break-no-title"></div>
+
+                        <p><span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span></p>
+
+                        <p><span data-i18n="inflation_intro_usd">In the United States, there is no fixed limit on how many dollars can be created.</span> <span data-i18n="inflation_cause_c1">While supply chains and some corporations contribute to artificially rising prices, the root cause of inflation is the expansion of the money supply.</span></p>
+
+                        <!-- Hero stat cards: Bitcoin vs Dollar -->
+                        <div class="stat-cards-grid">
+                            <a href="https://bitcoinpricereport.com/bitcoin-priced-in-usd?chart=4y" target="_blank" rel="noopener noreferrer" class="stat-card">
+                                <div class="stat-card-label">BITCOIN</div>
+                                <div class="stat-card-value success" id="stat-btc-change">+50%</div>
+                                <div class="stat-card-detail">Last 4 years</div>
+                                <div class="stat-card-source">Source: Bitcoin Price Report →</div>
+                            </a>
+                            <a href="https://fred.stlouisfed.org/series/CPIAUCSL" target="_blank" rel="noopener noreferrer" class="stat-card">
+                                <div class="stat-card-label">US DOLLAR</div>
+                                <div class="stat-card-value danger" id="stat-usd-inflation">-15%</div>
+                                <div class="stat-card-detail">Purchasing power lost over 4 years</div>
+                                <div class="stat-card-source">Source: FRED CPI →</div>
+                            </a>
+                        </div>
+
+                        <p><span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span></p>
+
+                        <!-- Dollars In Existence comparison card -->
+                        <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
+                            <div class="stat-comparison-title">DOLLARS IN EXISTENCE</div>
+                            <div class="stat-comparison-label">JAN 2020</div>
+                            <div class="stat-comparison-value" id="stat-m1-baseline">$4.0 trillion</div>
+                            <div class="stat-comparison-arrow">↓</div>
+                            <div class="stat-comparison-label">TODAY</div>
+                            <div class="stat-comparison-value current" id="stat-m1-current">$18.4 trillion</div>
+                            <hr class="stat-comparison-divider" />
+                            <div class="stat-comparison-result" id="stat-m1-change">+360% increase</div>
+                            <div class="stat-comparison-source">Source: FRED M1 Money Supply →</div>
+                        </a>
+
                         <p><span data-i18n="inflation_cause_c3">When more money is created from nothing, the price of everything in that money goes up. This includes the raw materials costs companies have to pay for their products, which means higher prices for you.</span></p>
+
                         <p><span data-i18n="inflation_cause_c4">Inflation is not just rising prices. Inflation is when your money becomes worth less over time.</span></p>
-                        </div>
-                        </div>
+
+                        <!-- Total Federal Debt comparison card -->
+                        <a href="https://fred.stlouisfed.org/series/GFDEBTN" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
+                            <div class="stat-comparison-title">TOTAL FEDERAL DEBT</div>
+                            <div class="stat-comparison-label">Q1 2020</div>
+                            <div class="stat-comparison-value" id="stat-debt-baseline">$23.2 trillion</div>
+                            <div class="stat-comparison-arrow">↓</div>
+                            <div class="stat-comparison-label">TODAY</div>
+                            <div class="stat-comparison-value current" id="stat-debt-current">$36.2 trillion</div>
+                            <hr class="stat-comparison-divider" />
+                            <div class="stat-comparison-result" id="stat-debt-change">+56% increase</div>
+                            <div class="stat-comparison-source">Source: FRED GFDEBTN →</div>
+                        </a>
+
+                        <p>More federal debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.</p>
+
                     </div><!--/container-inner-->
                 </div><!--text-box-->
 
                 <div class="break-micro"></div>
 
-                <!-- ═══ COMPOUND INFLATION CALCULATOR ═══ -->
+                <!-- ═══ SECTION 2: Compound Inflation Calculator ═══ -->
                 <div class="text-box intro">
                     <div class="container-inner">
                         <h2 class="h2-section" data-i18n="inflation_cic_header">HOW DOES INFLATION AFFECT ME?</h2>
@@ -420,14 +418,16 @@
 
                 <div class="break-micro"></div>
 
-                <!-- ═══ CAN BITCOIN PROTECT + BITCOIN SUPPLY CARDS ═══ -->
+                <!-- ═══ SECTION 3: Bitcoin is the solution ═══ -->
                 <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <div class="container-inner">
                         <h2 class="h2-section" data-i18n="inflation_protect_header" itemprop="name">CAN BITCOIN PROTECT MY MONEY FROM INFLATION?</h2>
                         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                         <div itemprop="text">
+
                         <p><span data-i18n="inflation_protect_c1">Bitcoin has historically been great at protecting people from the inflation of their local currency. Many people who use Bitcoin as an inflation hedge store money that they can afford to keep as Bitcoin for several years.</span></p>
-                        <p><span data-i18n="inflation_protect_c2">Bitcoin's fixed supply makes it the best way to save your money for the long term.</span> <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span></p>
+
+                        <p><span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span></p>
 
                         <!-- Bitcoin supply stat cards -->
                         <div class="stat-cards-grid">
@@ -445,7 +445,10 @@
                             </a>
                         </div>
 
+                        <p><span data-i18n="inflation_protect_c2">Bitcoin's fixed supply makes it the best way to save your money for the long term.</span> <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span></p>
+
                         <p><a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link"><span data-i18n="inflation_issuance_c6">You can't print more bitcoin.</span></a></p>
+
                         </div>
                         </div>
                     </div><!--/container-inner-->
