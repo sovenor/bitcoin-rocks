@@ -75,6 +75,9 @@
         <!--Script for inflation calculator-->
         <script src="jquery/compound-inflation-calculator.js"></script>
 
+        <!-- Live inflation stat cards -->
+        <script src="jquery/inflation-stats.js"></script>
+
         <!--Script for changing header text based on which sticker QR code was scanned-->
         <script src="jquery/dynamic-header.js"></script>
 
@@ -319,46 +322,65 @@
 
             <div id="USD" class="countries" style="display:none">
 
-                <div class="text-box intro">
-                    <div class="container-inner">
-                        <div class="break-no-title"></div>
-                        <p>
-                        <span data-i18n="inflation_intro_c1">Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_intro_usd">In the United States, there is no fixed limit on how many dollars can be created.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_intro_c2">As more money is created through budget deficits and new spending bills, the money you have buys you less as time goes on. Because so much money was printed over the last few years, the value of the money in your bank account and pocket has decreased significantly over time.</span>
-                        </p>
-                        <div class="inflation-graphic" role="img" aria-label="Global money supply expansion chart">
-                            <div class="inflation-graphic-text inflation-graphic-text-up" data-i18n="inflation_graphic_money_up">As the amount of money printed goes up...</div>
-                            <div class="inflation-graphic-text inflation-graphic-text-down" data-i18n="inflation_graphic_pp_down">...the purchasing power of that money goes down.</div>
-                            <img src="img/inflation/money-in-circulation-v3.png" alt="Money supply expansion vs purchasing power decline" loading="lazy"/>
-                        </div>
-                        <p>
-                        <span data-i18n="inflation_intro_c3">With Bitcoin, there is a fixed limit of 21 million Bitcoin that will ever exist. Because no more Bitcoin can be created, their value has increased significantly over time.</span>
-                        </p>
-                        <iframe src="https://bitcoinpricereport.com/embed/bitcoin-priced-in-usd?timeframe=4y" width="100%" height="450" frameborder="0" style="border-radius: 12px; border: none;" title="Bitcoin Priced in United States Dollars - Live Chart"></iframe>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
+                <div class="container-inner">
+
+                    <!-- ═══ HERO STAT CARDS: Bitcoin vs Dollar (4 year) ═══ -->
+                    <div class="stat-cards-grid">
+                        <a href="https://bitcoinpricereport.com/bitcoin-priced-in-usd?chart=4y" target="_blank" rel="noopener noreferrer" class="stat-card">
+                            <div class="stat-card-label">BITCOIN</div>
+                            <div class="stat-card-value success" id="stat-btc-change">+50%</div>
+                            <div class="stat-card-detail">Last 4 years</div>
+                            <div class="stat-card-source">Source: Bitcoin Price Report →</div>
+                        </a>
+                        <a href="https://fred.stlouisfed.org/series/CPIAUCSL" target="_blank" rel="noopener noreferrer" class="stat-card">
+                            <div class="stat-card-label">US DOLLAR</div>
+                            <div class="stat-card-value danger" id="stat-usd-inflation">-15%</div>
+                            <div class="stat-card-detail">Purchasing power lost over 4 years</div>
+                            <div class="stat-card-source">Source: FRED CPI →</div>
+                        </a>
+                    </div>
+
+                    <!-- ═══ DOLLARS IN EXISTENCE (M1 Money Supply) ═══ -->
+                    <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
+                        <div class="stat-comparison-title">DOLLARS IN EXISTENCE</div>
+                        <div class="stat-comparison-label">JAN 2020</div>
+                        <div class="stat-comparison-value" id="stat-m1-baseline">$4.0 trillion</div>
+                        <div class="stat-comparison-arrow">↓</div>
+                        <div class="stat-comparison-label">TODAY</div>
+                        <div class="stat-comparison-value current" id="stat-m1-current">$18.4 trillion</div>
+                        <hr class="stat-comparison-divider" />
+                        <div class="stat-comparison-result" id="stat-m1-change">+360% increase</div>
+                        <div class="stat-comparison-source">Source: FRED M1 Money Supply →</div>
+                    </a>
+
+                    <!-- ═══ TOTAL FEDERAL DEBT ═══ -->
+                    <a href="https://fred.stlouisfed.org/series/GFDEBTN" target="_blank" rel="noopener noreferrer" class="stat-comparison-card">
+                        <div class="stat-comparison-title">TOTAL FEDERAL DEBT</div>
+                        <div class="stat-comparison-label">Q1 2020</div>
+                        <div class="stat-comparison-value" id="stat-debt-baseline">$23.2 trillion</div>
+                        <div class="stat-comparison-arrow">↓</div>
+                        <div class="stat-comparison-label">TODAY</div>
+                        <div class="stat-comparison-value current" id="stat-debt-current">$36.2 trillion</div>
+                        <hr class="stat-comparison-divider" />
+                        <div class="stat-comparison-result" id="stat-debt-change">+56% increase</div>
+                        <div class="stat-comparison-source">Source: FRED GFDEBTN →</div>
+                    </a>
+
+                </div><!--/container-inner-->
 
                 <div class="break-micro"></div>
 
+                <!-- ═══ WHAT CAUSES INFLATION (condensed) ═══ -->
                 <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <div class="container-inner">
                         <h2 class="h2-section" data-i18n="inflation_cause_header" itemprop="name">WHAT CAUSES INFLATION?</h2>
-
                         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                         <div itemprop="text">
-
                         <p>
-                        <span data-i18n="inflation_cause_c1">While supply chains and some corporations contribute to artificially rising prices, the root cause of inflation is the expansion of the money supply.</span>
-                        <br /><br />
-                        <a href="https://fred.stlouisfed.org/series/M1SL" target="_blank" class="orange-link"><span data-i18n="inflation_cause_usd">Nearly 80% of all US Dollars that exist today were created between 2020 and 2023.</span></a>&nbsp;<span data-i18n="inflation_cause_c2">This was a huge expansion of the money supply and will not be the last time this happens.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_cause_c3">When more money is created from nothing, the price of everything in that money goes up. This includes the raw materials costs companies have to pay for their products, which means higher prices for you.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_cause_c4">Inflation is not just rising prices. Inflation is when your money becomes worth less over time.</span>
+                        <span data-i18n="inflation_intro_usd">In the United States, there is no fixed limit on how many dollars can be created.</span> <span data-i18n="inflation_cause_c1">While supply chains and some corporations contribute to artificially rising prices, the root cause of inflation is the expansion of the money supply.</span>
                         </p>
+                        <p><span data-i18n="inflation_cause_c3">When more money is created from nothing, the price of everything in that money goes up. This includes the raw materials costs companies have to pay for their products, which means higher prices for you.</span></p>
+                        <p><span data-i18n="inflation_cause_c4">Inflation is not just rising prices. Inflation is when your money becomes worth less over time.</span></p>
                         </div>
                         </div>
                     </div><!--/container-inner-->
@@ -366,218 +388,64 @@
 
                 <div class="break-micro"></div>
 
+                <!-- ═══ COMPOUND INFLATION CALCULATOR ═══ -->
                 <div class="text-box intro">
-                  <div class="container-inner">
-                      <h2 class="h2-section" data-i18n="inflation_cic_header">HOW DOES INFLATION AFFECT ME?</h2>
-
-                      <p data-i18n="common_cic_intro_1">Many people know about Compound Interest, but few people know about Compound Inflation.</p>
-                      <p data-i18n="common_cic_intro_2">With our Compound Inflation Calculator, you can easily calculate the amount your salary needs to increase to maintain your purchasing power over time.</p>
-                      <p data-i18n="common_cic_intro_3">Simply enter your current salary, inflation rate, and the number of years you want to calculate for, and our calculator will show you what your salary needs to be to keep up with inflation.</p>
-
-                      <div class="break-micro"></div>
-
-                      <form class="compound-form">
-                          <div class="form-box">
-                              <label class="compound-label" data-i18n="common_current_salary">current salary</label>
-                              <div class="break-tiny-compound"></div>
-                              <input class="compound" type="number" id="currentSalary1" placeholder="55000"/>
-                          </div><!--/form-box-->
-
-                          <div class="form-box middle-form-box">
-                              <label class="compound-label" data-i18n="common_inflation_rate">inflation rate</label>
-                              <div class="break-tiny-compound"></div>
-                              <input class="compound" type="number" id="inflationRate1" placeholder="10"/>
-                          </div><!--/form-box-->
-
-                          <div class="form-box last-form-box">
-                              <label class="compound-label" data-i18n="common_years">years</label>
-                              <div class="break-tiny-compound"></div>
-                              <input class="compound" type="number" id="years1" placeholder="5"/>
-                          </div><!--/form-box-->
-
-                          <input id="button1" class="cic-button calculateButton" type="button" data-result-id="result1" value="" />
-
-                      </form>
-
-                      <p id="result1" class="result" data-i18n="common_result_starting_message">Fill out the form above and click calculate.</p>
-                  </div><!--/container-inner-->
-              </div><!--/text-box-->
-
-                <div class="break-micro"></div>
-
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="inflation_issuance_header" itemprop="name">DOES BITCOIN HAVE INFLATION?</h2>
+                        <h2 class="h2-section" data-i18n="inflation_cic_header">HOW DOES INFLATION AFFECT ME?</h2>
+                        <p data-i18n="common_cic_intro_2">With our Compound Inflation Calculator, you can easily calculate the amount your salary needs to increase to maintain your purchasing power over time.</p>
 
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
+                        <div class="break-nano"></div>
 
-                        <p>
-                        <span data-i18n="inflation_issuance_c1">Inflation is essentially your piece of the 'money pie' getting smaller each year. So does Bitcoin have inflation?</span>
-                        <br /><br />
-                        <span data-i18n="inflation_issuance_c2">Bitcoin has a fixed supply of 21,000,000 (21 million) bitcoin that will ever exist. The 21 million supply limit is fixed in code and secured by the most powerful computing network in the world, called The Bitcoin Network. This limit cannot be changed.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_issuance_c3">While Bitcoin doesn't have inflation, it does have issuance. Issuance is the percent of new Bitcoin mined each year. Bitcoin miners secure the network, process Bitcoin transactions, and get paid for their work. Bitcoin miners get paid with this new issuance (until it runs out) and also get paid transaction fees.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_issuance_c4">More than 95% of all bitcoin have already been mined. More than 99% of all 21 million bitcoin will have been mined by the year 2035, and the remaining less than 1% will be mined by the year 2140.</span>
-                        <br /><br />
-                        <span data-i18n="inflation_issuance_c5">Even though there is still some issuance left until the fixed supply of 21 million bitcoin, the entire point is that your slice of the 21 million bitcoin pie never gets smaller. This is in sharp contrast to the government currencies we use. In those systems, your slice of the pie gets smaller every year when more money is printed from thin air.</span>
-                        <br /><br />
-                        <a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link"><span data-i18n="inflation_issuance_c6">You can't print more bitcoin.</span></a>
-                        </p>
-                        </div>
-                        </div>
+                        <form class="compound-form">
+                            <div class="form-box">
+                                <label class="compound-label" data-i18n="common_current_salary">current salary</label>
+                                <div class="break-tiny-compound"></div>
+                                <input class="compound" type="number" id="currentSalary1" placeholder="55000"/>
+                            </div>
+                            <div class="form-box middle-form-box">
+                                <label class="compound-label" data-i18n="common_inflation_rate">inflation rate</label>
+                                <div class="break-tiny-compound"></div>
+                                <input class="compound" type="number" id="inflationRate1" placeholder="10"/>
+                            </div>
+                            <div class="form-box last-form-box">
+                                <label class="compound-label" data-i18n="common_years">years</label>
+                                <div class="break-tiny-compound"></div>
+                                <input class="compound" type="number" id="years1" placeholder="5"/>
+                            </div>
+                            <input id="button1" class="cic-button calculateButton" type="button" data-result-id="result1" value="" />
+                        </form>
+                        <p id="result1" class="result" data-i18n="common_result_starting_message">Fill out the form above and click calculate.</p>
                     </div><!--/container-inner-->
-                </div><!--text-box-->
+                </div><!--/text-box-->
 
                 <div class="break-micro"></div>
 
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                    <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="common_what_is_bitcoin" itemprop="name">WHAT IS BITCOIN?</h2>
-
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-
-                        <p data-i18n="common_what_is_bitcoin_content_1">Bitcoin is two things: a digital money and a payment network. You can send Bitcoin (the digital money) directly to other people using the Bitcoin network (the payment network).</p>
-                        <p data-i18n="common_what_is_bitcoin_content_2">Bitcoin is a radically new way to store and transact value. Unlike normal financial networks, the Bitcoin network is able to operate without central authorities or trusted administrators. That makes Bitcoin the first ever open and borderless money.</p>
-                        <p data-i18n="common_what_is_bitcoin_content_3">Bitcoin is digital money that gives you complete ownership over your wealth. For the first time in human history everyone can own an asset that is truly scarce, doesn't require permission to be used, and can't be confiscated when stored properly.</p>
-                        <p data-i18n="common_what_is_bitcoin_content_4">Bitcoin can be sent anywhere in the world, quickly and cheaply. It has no need for a 3rd party transmitter, like a bank.</p>
-                        <p data-i18n="common_what_is_bitcoin_content_5">Bitcoin allows anyone to store their wealth safely and securely without worrying about the government stealing it or inflating away its value through money printing.</p>
-                        <p data-i18n="common_what_is_bitcoin_content_6">Governments everywhere can print more paper money, but no one can print more bitcoin.</p>
-                        <p data-i18n="common_what_is_bitcoin_content_7">You can easily self-custody your Bitcoin to take full control of it, giving you full access to the power of Bitcoin.</p>
-
-                        <a href="https://bitcoin.rocks/wallets" class="orange-link">
-                          <p data-i18n="common_what_is_bitcoin_content_8">If you can download an app, you can self-custody Bitcoin and store your wealth without relying on anyone else.</p>
-                        </a>
-
-                        <p data-i18n="common_what_is_bitcoin_content_9">Bitcoin is better money.</p>
-
-                        </div>
-                        </div>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break-micro"></div>
-
+                <!-- ═══ CAN BITCOIN PROTECT + BITCOIN SUPPLY CARDS ═══ -->
                 <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <div class="container-inner">
                         <h2 class="h2-section" data-i18n="inflation_protect_header" itemprop="name">CAN BITCOIN PROTECT MY MONEY FROM INFLATION?</h2>
-
                         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
                         <div itemprop="text">
+                        <p><span data-i18n="inflation_protect_c1">Bitcoin has historically been great at protecting people from the inflation of their local currency. Many people who use Bitcoin as an inflation hedge store money that they can afford to keep as Bitcoin for several years.</span></p>
+                        <p><span data-i18n="inflation_protect_c2">Bitcoin's fixed supply makes it the best way to save your money for the long term.</span> <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span></p>
 
-                        <p>
-                        <span data-i18n="inflation_protect_c1">Bitcoin has historically been great at protecting people from the inflation of their local currency. Many people who use Bitcoin as an inflation hedge store money that they can afford to keep as Bitcoin for several years.</span>
-                        <br /><br />
-                        <span class="bold" data-i18n="inflation_protect_usd">US Dollars have lost 90% of their purchasing power since 1950 as politicians printed more of them.</span>&nbsp;<span data-i18n="inflation_protect_c2">Bitcoin’s fixed supply makes it the best way to save your money for the long term.</span>
-                        <br /><br />
-                            <img loading="lazy" src="img/inflation/chart-pp-usd.png" alt="US Dollar purchasing power decline since 1950" class="inline"/>
-                        <br /><br />
-                        <span data-i18n="inflation_protect_c3">When you save in Bitcoin, everything tends to get cheaper in the long run. When you save in government money that they can print for free, everything tends to get more expensive.</span>
-                        </p>
+                        <!-- Bitcoin supply stat cards -->
+                        <div class="stat-cards-grid">
+                            <a href="https://mempool.space" target="_blank" rel="noopener noreferrer" class="stat-card">
+                                <div class="stat-card-label">BITCOIN MINED</div>
+                                <div class="stat-card-value accent" id="stat-btc-mined">19.8 million</div>
+                                <div class="stat-card-detail">of 21 million total (<span id="stat-btc-percent">94.5%</span>)</div>
+                                <div class="stat-card-source">Source: mempool.space →</div>
+                            </a>
+                            <a href="https://github.com/bitcoin/bitcoin" target="_blank" rel="noopener noreferrer" class="stat-card">
+                                <div class="stat-card-label">FIXED SUPPLY</div>
+                                <div class="stat-card-value accent">21,000,000</div>
+                                <div class="stat-card-detail">Maximum bitcoin that will ever exist</div>
+                                <div class="stat-card-source">Source: Bitcoin source code →</div>
+                            </a>
                         </div>
-                        </div>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
 
-                <div class="break-micro"></div>
-
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                    <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="common_bitcoin_volatile" itemprop="name">I HEARD BITCOIN IS VOLATILE. IS THAT SAFE?</h2>
-
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-
-                        <p data-i18n="common_bitcoin_volatile_content_1">In the short term, the exchange rate of Bitcoin tends to fluctuate. This is called volatility.</p>
-                        <p data-i18n="common_bitcoin_volatile_content_2">But the volatility you see on a day-to-day basis 'disappears' in the long term.</p>
-
-                        <img loading="lazy" src="img/inflation/volatility-small-v2.png" alt="Bitcoin volatility decreasing over time chart" class="inline"/>
-
-                        <p data-i18n="common_bitcoin_volatile_content_3">Bitcoin continues to get less and less volatile over time. As more people use Bitcoin as a long term savings account, the more its value stabilizes.</p>
-                        <p data-i18n="common_bitcoin_volatile_content_4">Many people choose to store value in Bitcoin for many years as a safe way to minimize the risk of volatility and protect their purchasing power over time.</p>
-                        <p data-i18n="common_bitcoin_volatile_content_5">In some countries, such as Venezuela, Sudan, Lebanon, Syria, Argentina, Turkey, Brazil, and so many others, the value of the local currency inflates away so quickly that Bitcoin is seen as the more stable way to save money.</p>
-
-                        </div>
-                        </div>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break-micro"></div>
-
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                    <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="common_bitcoin_afford" itemprop="name">I CAN'T AFFORD A WHOLE BITCOIN</h2>
-
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-
-                        <p data-i18n="common_bitcoin_afford_content_1">
-
-                        <img loading="lazy" src="img/inflation/sats-pill.png" alt="Bitcoin sats denominations explained" class="inline"/>
-
-                        <p data-i18n="common_bitcoin_afford_content_2">You don’t have to own a whole bitcoin. Most people just own sats. Sats are fractions of a bitcoin. For example, if 1 whole bitcoin is $100,000 then $1 buys you 1,000 sats!
-                        </div>
-                        </div>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break-micro"></div>
-
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                    <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="common_bitcoin_hacked" itemprop="name">HAS BITCOIN EVER BEEN HACKED?</h2>
-
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-
-                        <p data-i18n="common_bitcoin_hacked_content_1">You may have heard about a 'Bitcoin hack' online or on the news. Most people read these articles and believe the Bitcoin network has been hacked. However, the Bitcoin network has never been hacked.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_2">What's the Bitcoin network? Well, think of the Bitcoin network as train tracks. The trains riding on the train tracks of the Bitcoin network are Bitcoin transactions.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_3">When you read about a Bitcoin hack in the news, you're reading about a custodian (like FTX) getting hacked or going bankrupt.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_4">Custodians are companies that hold your bitcoin for you. However, that comes with a risk: losing your bitcoin when the company mismanages it, steals it, or goes out of business.</p>
-
-                        <a href="https://cointelegraph.com/news/jury-finds-sbf-guilty-on-all-charges-sentencing-set-for-march-2024-law-decoded-oct-30-to-nov-6" target="_blank" class="orange-link">
-                          <p data-i18n="common_bitcoin_hacked_content_5">This happened most recently with FTX.</p>
-                        </a>
-
-                        <p data-i18n="common_bitcoin_hacked_content_6">Everyone who trusted FTX with their bitcoin lost their bitcoin. Everyone who held their bitcoin in self-custody was completely unaffected by FTX. That is the power of bitcoin in self-custody: true control of your money.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_7">Instead of leaving your bitcoin on an exchange or in a wrapper like an ETF, hold it in your own wallet for all the freedom benefits.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_8">When you self-custody your bitcoin, your money is protected by the Bitcoin network. It's the most secure financial network in the world.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_9">In self-custody, Sam from FTX can't steal your bitcoin from you.</p>
-                        <p data-i18n="common_bitcoin_hacked_content_11">Bitcoin in self-custody is your money, thanks to the power of the Bitcoin network.</p>
-
-                        </div>
-                        </div>
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="break-micro"></div>
-
-                <div class="text-box intro" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                    <div class="container-inner">
-                        <h2 class="h2-section" data-i18n="common_bitcoin_energy" itemprop="name">WHY DOES BITCOIN USE ENERGY?</h2>
-
-                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-
-                        <p data-i18n="common_bitcoin_energy_content_1">Bitcoin uses energy to secure the network and protect your money.</p>
-                        <p data-i18n="common_bitcoin_energy_content_2">Bitcoin uses a significant amount of energy, and this is a great thing for many reasons.</p>
-
-                        <ul>
-                          <a href="https://bitcoin.rocks/bank-runs" class="orange-link"><li data-i18n="common_bitcoin_energy_list_1">Bitcoin doesn't have bank runs.</li></a>
-                          <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" target="_blank" class="orange-link">
-                            <li data-i18n="common_bitcoin_energy_list_2">Bitcoin helps stabilize energy grids with bitcoin mining.</li>
-                          </a>
-                          <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" class="orange-link">
-                            <li data-i18n="common_bitcoin_energy_list_3">Bitcoin reduces emissions from oil drilling.</li>
-                          </a>
-                          <a href="https://hashrateindex.com/blog/bitcoin-mining-council-q3-report/" target="_blank" class="orange-link"><li data-i18n="common_bitcoin_energy_list_4">Bitcoin uses less energy than Americans use for Christmas Lights each year.</li></a>
-                          <a href="https://bitcoinis.green/" target="_blank" class="orange-link">
-                            <li data-i18n="common_bitcoin_energy_list_5">Bitcoin is the greenest industry on Earth!</li>
-                          </a>
-                        </ul>
-
+                        <p><a href="https://voteforbetter.money/learn/bitcoin-is-scarce" target="_blank" class="orange-link"><span data-i18n="inflation_issuance_c6">You can't print more bitcoin.</span></a></p>
                         </div>
                         </div>
                     </div><!--/container-inner-->
@@ -606,7 +474,6 @@
                 <a href="https://bitcoin.rocks/wallets">
                     <div class="text-box middle">
                         <div class="container-inner">
-
                             <div class="item">
                                 <h3 class="h3-item" data-i18n="common_cta_section_title_2">Get your first Bitcoin Wallet</h3>
                                 <div class="type" data-i18n="common_cta_link_type_guide">GUIDE</div>
@@ -620,7 +487,6 @@
                 <a href="https://bitcoin.rocks/buy">
                     <div class="text-box bottom">
                         <div class="container-inner">
-
                             <div class="item">
                                 <h3 class="h3-item" data-i18n="common_cta_section_title_3">How to Buy Bitcoin</h3>
                                 <div class="type" data-i18n="common_cta_link_type_website">WEBSITE</div>
