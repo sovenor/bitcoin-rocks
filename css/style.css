@@ -2343,6 +2343,291 @@ p.choose{
     color: #f0f0f0;
 }
 
+/* ── Inflation Stat Cards ────────────────────────────────────── */
+
+.stat-cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.stat-card{
+    padding: 24px 16px;
+    border-radius: 12px;
+    background: #12121f;
+    border: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+a.stat-card:hover{
+    border-color: rgba(255,149,0,0.4);
+    box-shadow: 0 0 15px rgba(255,149,0,0.1);
+}
+
+.stat-card-label{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+.stat-card-value{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.stat-card-value.success{ color: #4CAF50; }
+.stat-card-value.danger{ color: #FF4444; }
+.stat-card-value.accent{ color: #FF9500; }
+.stat-card-value.muted{ color: #888; }
+
+.stat-card-detail{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 2px;
+}
+
+.stat-card-source{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 10px;
+    color: #666;
+    margin-top: 8px;
+    transition: color 0.2s, transform 0.2s;
+}
+
+a.stat-card:hover .stat-card-source{
+    color: #FF9500;
+}
+
+/* Comparison card (full-width, larger format like M1 supply / debt) */
+.stat-comparison-card{
+    display: block;
+    padding: 32px 24px;
+    border-radius: 12px;
+    background: #12121f;
+    border: 2px solid rgba(255,149,0,0.4);
+    text-align: center;
+    text-decoration: none;
+    margin: 16px 0;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+a.stat-comparison-card:hover{
+    border-color: #FF9500;
+    box-shadow: 0 0 20px rgba(255,149,0,0.15);
+}
+
+.stat-comparison-title{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FF9500;
+    margin-bottom: 20px;
+}
+
+.stat-comparison-label{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 2px;
+}
+
+.stat-comparison-value{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: #888;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.stat-comparison-value.current{
+    color: #f0f0f0;
+}
+
+.stat-comparison-arrow{
+    font-size: 24px;
+    color: #FF9500;
+    margin: 8px 0;
+}
+
+.stat-comparison-divider{
+    border: none;
+    border-top: 1px solid rgba(255,149,0,0.3);
+    margin: 16px 0;
+}
+
+.stat-comparison-result{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #FF4444;
+    margin-bottom: 4px;
+}
+
+.stat-comparison-source{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 11px;
+    color: #666;
+    margin-top: 8px;
+    transition: color 0.2s;
+}
+
+a.stat-comparison-card:hover .stat-comparison-source{
+    color: #FF9500;
+}
+
+/* Responsive: stack cards on mobile */
+@media (max-width: 500px){
+    .stat-cards-grid{
+        grid-template-columns: 1fr;
+    }
+    .stat-card-value{
+        font-size: 24px;
+    }
+    .stat-comparison-value{
+        font-size: 26px;
+    }
+    .stat-comparison-result{
+        font-size: 20px;
+    }
+}
+
+/* ── Inflation FAQ Accordion ─────────────────────────────────── */
+
+.inflation-faq-section{
+    margin-top: 8px;
+}
+
+.inflation-faq-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #12121f;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.inflation-faq-question:hover{
+    background: #1a1a2e;
+    border-color: rgba(255,149,0,0.3);
+    transform: scale(1.01);
+}
+
+.inflation-faq-question.active{
+    border-color: rgba(255,149,0,0.4);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+}
+
+.inflation-faq-question-text{
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.inflation-faq-arrow{
+    display: inline-block;
+    font-size: 14px;
+    color: #FF9500;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.inflation-faq-answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    background: #12121f;
+    border: 1px solid rgba(255,149,0,0.4);
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.inflation-faq-answer.open{
+    max-height: 2000px;
+}
+
+.inflation-faq-answer-inner{
+    padding: 16px 20px 20px;
+}
+
+.inflation-faq-answer-inner p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 12px;
+}
+
+.inflation-faq-answer-inner p:last-child{
+    margin-bottom: 0;
+}
+
+.inflation-faq-answer-inner ul{
+    margin: 8px 0;
+    padding-left: 0;
+}
+
+.inflation-faq-answer-inner ul li{
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* ── Compact Compound Inflation Calculator ──────────────────── */
+
+.cic-compact{
+    background: #12121f;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 16px 0;
+}
+
+.cic-compact .compound-form{
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.cic-compact .form-box{
+    flex: 1;
+    min-width: 100px;
+}
+
+.cic-compact .compound{
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .show-all-button{
     background: none;
 	color: #f0f0f0;
