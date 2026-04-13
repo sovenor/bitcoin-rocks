@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const bcrypt = require('bcrypt');
 const path = require('path');
 const db = require('./database');
+const { getInflationStats } = require('./inflation-stats');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -868,6 +869,24 @@ app.post('/admin/change-password', requireAuth, async (req, res) => {
   } catch (err) {
     console.error('Password change error:', err);
     res.redirect('/admin?error=Failed to change password');
+  }
+});
+
+// ============================================================
+// INFLATION STATS API (public, CORS-enabled)
+// ============================================================
+
+app.get('/api/inflation-stats', async (req, res) => {
+  // Allow cross-origin requests from bitcoin.rocks
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Cache-Control', 'public, max-age=3600'); // Browser cache 1 hour
+
+  try {
+    const stats = await getInflationStats();
+    res.json(stats);
+  } catch (err) {
+    console.error('[inflation-stats] API error:', err);
+    res.status(500).json({ error: 'Failed to fetch stats' });
   }
 });
 
