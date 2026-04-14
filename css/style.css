@@ -2602,6 +2602,81 @@ a.stat-comparison-card:hover .stat-comparison-source{
     line-height: 1.5;
 }
 
+/* ── Inflation Section (borderless, modern layout) ───────────── */
+
+.inflation-section{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.inflation-section:hover{
+    transform: none !important;
+}
+
+/* Section divider: small orange label + gradient line */
+.section-divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 6px;
+    margin-top: 50px;
+}
+
+.section-divider:first-child{
+    margin-top: 20px;
+}
+
+.section-label{
+    font-family: "proxima-soft", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FF9500;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.section-line{
+    flex-grow: 1;
+    height: 1px;
+    background: linear-gradient(to right, #FF9500, transparent);
+}
+
+/* Section H2 — clean, bold, white */
+.inflation-section h2{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #f0f0f0;
+    margin: 8px 0 20px 0;
+    text-transform: none;
+    text-align: left;
+}
+
+.inflation-section p{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ccc;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 500px){
+    .inflation-section h2{
+        font-size: 24px;
+    }
+    .section-label{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+}
+
 /* ── Compact Compound Inflation Calculator ──────────────────── */
 
 .cic-compact{
