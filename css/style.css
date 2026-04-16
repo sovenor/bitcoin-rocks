@@ -2520,100 +2520,6 @@ a.stat-comparison-card:hover .stat-comparison-source{
 
 /* ── Inflation FAQ Accordion ─────────────────────────────────── */
 
-.inflation-faq-section{
-    margin-top: 8px;
-}
-
-.inflation-faq-question{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #12121f;
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 8px;
-    cursor: pointer;
-    transition: background 0.2s, border-color 0.2s, transform 0.15s;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-.inflation-faq-question:hover{
-    background: #1a1a2e;
-    border-color: rgba(255,149,0,0.3);
-    transform: scale(1.01);
-}
-
-.inflation-faq-question.active{
-    border-color: rgba(255,149,0,0.4);
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    margin-bottom: 0;
-}
-
-.inflation-faq-question-text{
-    font-family: "proxima-soft", sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    color: #f0f0f0;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.inflation-faq-arrow{
-    display: inline-block;
-    font-size: 14px;
-    color: #FF9500;
-    transition: transform 0.3s ease;
-    flex-shrink: 0;
-    margin-left: 12px;
-}
-
-.inflation-faq-answer{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease, border-width 0s 0.4s;
-    background: #12121f;
-    border: 0px solid rgba(255,149,0,0.4);
-    border-top: none;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    margin-bottom: 8px;
-}
-
-.inflation-faq-answer.open{
-    max-height: 2000px;
-    border-width: 1px;
-    border-top-width: 0;
-    transition: max-height 0.4s ease, border-width 0s 0s;
-}
-
-.inflation-faq-answer-inner{
-    padding: 16px 20px 20px;
-}
-
-.inflation-faq-answer-inner p{
-    font-size: 15px;
-    line-height: 1.6;
-    color: #ccc;
-    margin-bottom: 12px;
-}
-
-.inflation-faq-answer-inner p:last-child{
-    margin-bottom: 0;
-}
-
-.inflation-faq-answer-inner ul{
-    margin: 8px 0;
-    padding-left: 0;
-}
-
-.inflation-faq-answer-inner ul li{
-    margin-bottom: 8px;
-    font-size: 15px;
-    line-height: 1.5;
-}
 
 /* ── Inflation Section (borderless, modern layout) ───────────── */
 
@@ -3553,10 +3459,18 @@ a.feature-card:hover{
     transform: scale(1.02);
 }
 
-.feature-card-icon{
-    font-size: 24px;
+.feature-card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 8px;
-    color: #FF9500;
+}
+
+svg.feature-card-icon{
+    flex-shrink: 0;
+    width: 21px;
+    height: 21px;
+    margin-top: -8px;
 }
 
 .feature-card-title{
@@ -3617,10 +3531,18 @@ a.story-card:hover{
     transform: scale(1.02);
 }
 
-.story-card-icon{
-    font-size: 24px;
+.story-card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 8px;
-    color: #FF9500;
+}
+
+svg.story-card-icon{
+    flex-shrink: 0;
+    width: 21px;
+    height: 21px;
+    margin-top: -8px;
 }
 
 .story-card-title{

@@ -18,9 +18,6 @@
       $('.countries').hide();
       $('#' + $(this).data('id')).show();
 
-      // Show the shared FAQ + CTA section
-      $('#shared-faq-cta').show();
-
       // Hide all other currency buttons
       $('.inflation-button').not(this).not('.show-all-button').hide();
 
@@ -41,9 +38,6 @@
         // Hide all country sections
         $('.countries').hide();
 
-        // Hide the shared FAQ + CTA section
-        $('#shared-faq-cta').hide();
-
         // Show all currency buttons and the "Choose your money..." text
         $('.inflation-button').show();
         $('.show-all-button .choose-back').hide();
@@ -55,29 +49,6 @@
       }
     });
 
-    // FAQ Accordion toggle
-    $(document).on('click', '.inflation-faq-question', function() {
-      var $question = $(this);
-      var $answer = $question.next('.inflation-faq-answer');
-      var $arrow = $question.find('.inflation-faq-arrow');
-      var isOpen = $answer.hasClass('open');
-
-      // Close all other open answers
-      $('.inflation-faq-answer.open').not($answer).removeClass('open');
-      $('.inflation-faq-question.active').not($question).removeClass('active').attr('aria-expanded', 'false');
-      $('.inflation-faq-question.active').not($question).find('.inflation-faq-arrow').css('transform', 'rotate(0deg)');
-
-      // Toggle current
-      if (isOpen) {
-        $answer.removeClass('open');
-        $question.removeClass('active').attr('aria-expanded', 'false');
-        $arrow.css('transform', 'rotate(0deg)');
-      } else {
-        $answer.addClass('open');
-        $question.addClass('active').attr('aria-expanded', 'true');
-        $arrow.css('transform', 'rotate(90deg)');
-      }
-    });
   });
 
   function animateScrollBy(distance, duration) {
