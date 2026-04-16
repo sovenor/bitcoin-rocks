@@ -166,15 +166,15 @@ $(function() {
     setDynamicHeader();
   });
 
-  // Create select element
+  // Create hidden select element (kept for backwards compatibility)
   const el = document.createElement('select');
   el.id = 'language-switcher';
   document.body.appendChild(el);
 
-  // Add languages options
+  // Add languages options to hidden select
   const languageSwitcher = document.getElementById('language-switcher');
-  languages.forEach(language => {
-    const option = document.createElement('option');
+  languages.forEach(function(language) {
+    var option = document.createElement('option');
     option.value = language.code;
     option.textContent = language.name;
     if (language.code === lang) {
@@ -183,10 +183,89 @@ $(function() {
     languageSwitcher.appendChild(option);
   });
 
-  // Add event listener to handle language change
+  // ── Nav Language Dropdown ──────────────────────────────────────
+  // Find the nav language label and set its text to the current language name
+  var navLangLabel = document.getElementById('nav-language-label');
+  if (navLangLabel) {
+    // Find current language name
+    var currentLangObj = languages.find(function(l) { return l.code === lang; });
+    if (currentLangObj) {
+      navLangLabel.textContent = currentLangObj.name;
+    }
+
+    // Wrap the label in a relative container if not already wrapped
+    var wrapper = navLangLabel.parentElement;
+    if (!wrapper.classList.contains('nav-lang-wrapper')) {
+      var newWrapper = document.createElement('div');
+      newWrapper.className = 'nav-lang-wrapper';
+      wrapper.replaceChild(newWrapper, navLangLabel);
+      newWrapper.appendChild(navLangLabel);
+      wrapper = newWrapper;
+    }
+
+    // Build dropdown menu
+    var dropdown = document.createElement('div');
+    dropdown.className = 'nav-lang-dropdown';
+    dropdown.id = 'nav-lang-dropdown';
+
+    languages.forEach(function(language) {
+      var link = document.createElement('a');
+      link.href = '#';
+      link.textContent = language.name;
+      link.setAttribute('data-lang', language.code);
+      if (language.code === lang) {
+        link.className = 'active-lang';
+      }
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var selectedCode = this.getAttribute('data-lang');
+        if (selectedCode === 'custom') {
+          if (typeof gtag === 'function') {
+            gtag('event', 'language_switch', {
+              'event_category': 'Language',
+              'event_label': 'Add language',
+              'language_selected': 'custom'
+            });
+          }
+          window.location.href = languages.find(function(l) { return l.code === 'custom'; }).url;
+        } else {
+          if (typeof gtag === 'function') {
+            gtag('event', 'language_switch', {
+              'event_category': 'Language',
+              'event_label': selectedCode,
+              'language_selected': selectedCode
+            });
+          }
+          localStorage.setItem('selectedLanguage', selectedCode);
+          location.reload();
+        }
+      });
+      dropdown.appendChild(link);
+    });
+
+    wrapper.appendChild(dropdown);
+
+    // Toggle dropdown on click
+    navLangLabel.addEventListener('click', function(e) {
+      e.stopPropagation();
+      dropdown.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function() {
+      dropdown.classList.remove('open');
+    });
+
+    // Prevent dropdown clicks from closing it
+    dropdown.addEventListener('click', function(e) {
+      e.stopPropagation();
+    });
+  }
+
+  // Add event listener for hidden select (fallback)
   languageSwitcher.addEventListener('change', function() {
     if (this.value === 'custom') {
-      // Track language switch event in Google Analytics
       if (typeof gtag === 'function') {
         gtag('event', 'language_switch', {
           'event_category': 'Language',
@@ -194,10 +273,8 @@ $(function() {
           'language_selected': 'custom'
         });
       }
-      // Redirect to the custom URL when "Add your language" is selected
-      window.location.href = languages.find(lang => lang.code === 'custom').url;
+      window.location.href = languages.find(function(l) { return l.code === 'custom'; }).url;
     } else {
-      // Track language switch event in Google Analytics
       if (typeof gtag === 'function') {
         gtag('event', 'language_switch', {
           'event_category': 'Language',
