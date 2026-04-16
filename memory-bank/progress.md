@@ -1,6 +1,42 @@
 # Progress: bitcoin.rocks
 
+## Inflation Page — Drop HNL + VEF, EUR Debt, Fix PHP CPI — April 16, 2026 (pt. 2)
+- **Dropped HNL (Honduran Lempira) and VEF (Venezuelan Bolívar)** from the inflation page. FRED does not publish usable narrow-money or gross-debt series for Honduras or Venezuela, so those sections always rendered fallback values.
+  - Removed from `jquery/inflation-stats.js` `SUPPORTED_CURRENCIES` array, `forms-backend/inflation-stats.js` `CURRENCIES` config, and `scripts/inflation-multi/rebuild-inflation-html.js` currencies list.
+  - Added HNL/VEF cleanup logic to `scripts/inflation-multi/update-i18n.js`: 52 orphan `inflation_hnl_*` / `inflation_vef_*` / `inflation_honduran_lempira` / `inflation_venezuelan_bolivar` keys deleted from `i18n/en/inflation_en.json`.
+  - HTML sections for HNL + VEF automatically removed when rebuild script re-ran (they're no longer in the currencies list).
+- **EUR: dropped the government-debt stat card + debt paragraphs.** Eurozone aggregate gross-debt series from FRED does not publish at a cadence that matches our Q1 2020 baseline comparison. Set `EUR.debtSeries = null` in backend config; the rebuild script already conditionally renders the debt card only when `SOURCE_URLS.*.debt` is truthy. EUR section now shows only money-supply + CPI comparisons.
+- **PHP: fixed CPI calculation.** The `FPCPITOTLZGPHL` series is an annual inflation rate (% YoY), not a price-level index. The old `fetchFred4yrChange()` treated it as a level. Now:
+  - Added `fetchAnnualCompoundInflation4yr(seriesId)` fetcher in `forms-backend/inflation-stats.js` that compounds 4 annual rates: `∏(1 + rᵢ/100) − 1`
+  - Added `cpiType: 'annualRate'` flag to PHP's config; `fetchCurrencyStats` dispatches on this flag.
+- Re-ran full build pipeline: `update-i18n.js` → `rebuild-inflation-html.js` → `inject-seo-content.js`.
+- `inflation.html` shrank from 3,469 → 3,035 lines.
+- Article schema `dateModified` → 2026-04-16; English JSON `@metadata.last-updated` → 2026-04-16.
+- Inflation page now supports **13 currencies**: USD, CAD, EUR, GBP, BRL, PHP, MXN, INR, JPY, AUD, ILS, THB, NZD.
+
+## Inflation Page — Multi-Currency Dynamic Stat Cards — April 16, 2026
+- Extended the new USD stat-card template across **all 15 currencies** (USD, CAD, EUR, GBP, BRL, PHP, MXN, INR, HNL, VEF, JPY, AUD, ILS, THB, NZD) on `/inflation`.
+- Deleted the old per-currency FAQ / compound-inflation-calculator / volatility / hacked / energy / purchasing-power-image blocks, as well as the 14 per-currency "What's next?" carousels.
+- Introduced a **single** `#global-whats-next` block at the bottom of the page, hidden by default and shown by JS only after a currency is selected; hidden again when the user clicks "← Choose a different money".
+- Added a new **"Calculate your inflation"** card to the What's next grid (replacing "Contribute"), linking to `/compound-inflation-calculator`.
+- Stat-card DOM IDs are now suffixed with the currency code (e.g. `stat-btc-change-CAD`, `stat-m1-current-EUR`, `stat-debt-current-JPY`, `stat-currency-supply-value-BRL`) so every section can be populated independently.
+- `jquery/inflation-stats.js` exposes `window.loadInflationStats(currency)`; `jquery/country-selector-inflation.js` calls it on button click so the right section's cards get live data.
+- `forms-backend/inflation-stats.js` now accepts a `?currency=XXX` query param and fetches per-currency data:
+  - FRED narrow-money (`MANMM101*M189S`) per country for the "money in existence" card
+  - FRED general-government-debt (`GGGDTA*A188N`, as % of GDP) per country for the debt card
+  - FRED CPI per country for the hero "X purchasing power lost" card
+  - TwelveData Pro for BTC/[local] direct pairs; falls back to BTC/USD × USD/[local] forex for the 6 exotic pairs (HNL, VEF, ILS, NZD, PHP, THB)
+  - mempool.space for Bitcoin mined/percent (shared across all currencies)
+  - Per-currency cache in `inflation-stats-cache-v2.json` with 24h TTL
+- Added all new i18n keys to `i18n/en/inflation_en.json` (per-currency intro/proof/btc/freedom copy + per-currency existence/debt card titles) and `i18n/en/common_en.json` (`common_next_calculate`, `common_next_calculate_desc`).
+- Every stat-card label, source line, "TODAY" label, and currency-specific title in the USD section now has a `data-i18n` attribute (previously all hardcoded); the rebuild script emits the same structure for all 14 other currencies.
+- `inflation.html` shrank from ~4,959 lines to ~3,469 lines despite adding 14 full currency blocks (because the duplicated FAQ copy was removed).
+- Bumped Article schema `dateModified` to 2026-04-16; bumped `@metadata.last-updated` in both English JSON files.
+- Ran `node scripts/inject-seo-content.js` — no changes (inline defaults were already injected by the rebuild script).
+- New scripts: `scripts/inflation-multi/update-i18n.js`, `scripts/inflation-multi/rebuild-inflation-html.js`.
+
 ## Yoruba (yo) Language Added — April 2026
+
 - Added Yoruba (Yorùbá) as the 55th language
 - Translation files partially created in previous session (simple files, sticker files, business, index)
 - Completed remaining files: comparisons (10), common (1), inflation (1), content (9) — fixed 17 invalid `\u00fu` → `\u00fa` Unicode escape sequences across 4 scripts

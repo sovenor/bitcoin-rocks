@@ -881,12 +881,15 @@ app.get('/api/inflation-stats', async (req, res) => {
   res.set('Access-Control-Allow-Origin', '*');
   res.set('Cache-Control', 'public, max-age=3600'); // Browser cache 1 hour
 
+  const currency = (req.query.currency || 'USD').toString().toUpperCase();
+
   try {
-    const stats = await getInflationStats();
+    const stats = await getInflationStats(currency);
     res.json(stats);
   } catch (err) {
     console.error('[inflation-stats] API error:', err);
-    res.status(500).json({ error: 'Failed to fetch stats' });
+    const code = /Unsupported currency/i.test(err.message) ? 400 : 500;
+    res.status(code).json({ error: err.message || 'Failed to fetch stats' });
   }
 });
 

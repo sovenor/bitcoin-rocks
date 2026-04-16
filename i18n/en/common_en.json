@@ -235,5 +235,7 @@
 	"common_next_buy_bitcoin_desc": "Learn how to buy Bitcoin safely",
 	"common_next_source": "Source: bitcoin.rocks →",
 	"common_next_contribute": "Contribute",
-	"common_next_contribute_desc": "Get involved and help spread Bitcoin"
+	"common_next_contribute_desc": "Get involved and help spread Bitcoin",
+	"common_next_calculate": "Calculate your inflation",
+	"common_next_calculate_desc": "See how inflation affects your salary over time"
 }
