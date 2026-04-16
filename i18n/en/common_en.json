@@ -233,5 +233,7 @@
 	"common_next_get_wallet_desc": "Get your first Bitcoin wallet — it's free",
 	"common_next_buy_bitcoin": "Buy Bitcoin",
 	"common_next_buy_bitcoin_desc": "Learn how to buy Bitcoin safely",
-	"common_next_source": "Source: bitcoin.rocks →"
+	"common_next_source": "Source: bitcoin.rocks →",
+	"common_next_contribute": "Contribute",
+	"common_next_contribute_desc": "Get involved and help spread Bitcoin"
 }
