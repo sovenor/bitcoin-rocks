@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-16",
 		"locale": "en"
 	},
 	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
@@ -225,5 +225,13 @@
 	"common_footer_tagline": "Accelerating bitcoin adoption through education.",
 	"common_footer_contribute": "Contribute",
 	"common_footer_nostr": "Nostr",
-	"common_sources_heading": "Sources"
+	"common_sources_heading": "Sources",
+	"common_whats_next": "What's next?",
+	"common_next_keep_learning": "Keep learning",
+	"common_next_keep_learning_desc": "See how Bitcoin is improving the world",
+	"common_next_get_wallet": "Get a wallet",
+	"common_next_get_wallet_desc": "Get your first Bitcoin wallet — it's free",
+	"common_next_buy_bitcoin": "Buy Bitcoin",
+	"common_next_buy_bitcoin_desc": "Learn how to buy Bitcoin safely",
+	"common_next_source": "Source: bitcoin.rocks →"
 }
