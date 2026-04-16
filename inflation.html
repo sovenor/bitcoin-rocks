@@ -461,7 +461,6 @@
 
                 <!-- ═══ WHAT'S NEXT? CAROUSEL ═══ -->
                 <div class="whats-next-section">
-                    <div class="container-inner">
                     <div class="whats-next-header">
                         <h2 data-i18n="common_whats_next">What's next?</h2>
                         <div class="whats-next-arrows">
@@ -491,7 +490,6 @@
                             </div>
                             <div class="whats-next-card-source" data-i18n="common_next_source">Source: bitcoin.rocks →</div>
                         </a>
-                    </div>
                     </div>
                 </div>
 
@@ -4923,34 +4921,43 @@
         </div><!--/container-main-->
 
 
-    <!-- Carousel wrap-around helper -->
+    <!-- Carousel transform-based scroll helper (no overflow-x needed) -->
     <script>
     function scrollCarousel(btn, dir) {
         var c = btn.closest('.whats-next-section').querySelector('.whats-next-carousel');
-        var scrollAmount = 440;
-        var maxScroll = c.scrollWidth - c.clientWidth;
-        var before = c.scrollLeft;
+        var firstCard = c.querySelector('.whats-next-card');
+        var gap = parseInt(getComputedStyle(c).gap) || 20;
+        var cardWidth = firstCard ? firstCard.offsetWidth + gap : 320;
 
-        if (dir > 0 && before >= maxScroll - 2) {
-            // At end, wrap to beginning
-            c.scrollTo({ left: 0, behavior: 'smooth' });
-            return;
+        // Total content width vs visible width
+        var totalWidth = 0;
+        var cards = c.querySelectorAll('.whats-next-card');
+        for (var i = 0; i < cards.length; i++) {
+            totalWidth += cards[i].offsetWidth;
+            if (i < cards.length - 1) totalWidth += gap;
+        }
+        var maxShift = Math.max(0, totalWidth - c.clientWidth);
+
+        // Read current translateX from data attribute (more reliable than parsing transform)
+        var currentX = parseFloat(c.getAttribute('data-tx')) || 0;
+
+        // Calculate new position
+        var newX = currentX + (cardWidth * dir);
+
+        // Wrap around at edges
+        if (dir > 0 && currentX >= maxShift - 2) {
+            newX = 0; // at end → wrap to beginning
+        } else if (dir < 0 && currentX <= 2) {
+            newX = maxShift; // at beginning → wrap to end
         }
 
-        // Try the normal scroll
-        c.scrollBy({ left: scrollAmount * dir, behavior: 'smooth' });
+        // Clamp within bounds
+        newX = Math.max(0, Math.min(maxShift, newX));
 
-        // After a short delay, check if scroll actually moved.
-        // If it didn't (we were already at the edge), wrap around.
-        setTimeout(function() {
-            if (Math.abs(c.scrollLeft - before) < 2) {
-                if (dir < 0) {
-                    c.scrollTo({ left: maxScroll, behavior: 'smooth' });
-                } else {
-                    c.scrollTo({ left: 0, behavior: 'smooth' });
-                }
-            }
-        }, 50);
+        // Apply transform with smooth transition
+        c.style.transition = 'transform 0.4s ease';
+        c.style.transform = 'translateX(' + (-newX) + 'px)';
+        c.setAttribute('data-tx', newX);
     }
     </script>
 

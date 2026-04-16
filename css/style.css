@@ -3615,10 +3615,10 @@ svg.story-card-icon{
     display: flex;
     gap: 8px;
     flex-shrink: 0;
+    margin-right: 20px;
 }
 .whats-next-arrow{
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 36px;
     height: 36px;
@@ -3630,19 +3630,23 @@ svg.story-card-icon{
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s;
     padding: 0;
-    line-height: 1;
+    line-height: 30px;
 }
 .whats-next-arrow:hover{
     border-color: #FF9500;
     background: rgba(255,149,0,0.12);
 }
+
 .whats-next-carousel-wrapper{
     position: relative;
+    padding-left: calc(50vw - 50%);
+    margin-right: calc(-50vw + 50%);
+    padding-right: calc(50vw - 50%);
 }
 .whats-next-carousel{
     display: flex;
     gap: 20px;
-    overflow-x: auto;
+
     overflow-y: visible;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -3650,9 +3654,7 @@ svg.story-card-icon{
     padding-bottom: 8px;
     /* Extend carousel to both viewport edges — body clips at screen */
     
-    padding-left: calc(50vw - 50%);
-    margin-right: calc(-50vw + 50%);
-    padding-right: calc(50vw - 50%);
+    
     /* Hide scrollbar across browsers */
     scrollbar-width: none;
     -ms-overflow-style: none;
