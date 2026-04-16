@@ -2429,7 +2429,7 @@ a.stat-card:hover .stat-card-source{
     padding: 32px 24px;
     border-radius: 12px;
     background: #12121f;
-    border: 2px solid rgba(255,149,0,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
     text-align: center;
     text-decoration: none;
     margin: 16px 0;
@@ -2437,8 +2437,8 @@ a.stat-card:hover .stat-card-source{
 }
 
 a.stat-comparison-card:hover{
-    border-color: #FF9500;
-    box-shadow: 0 0 20px rgba(255,149,0,0.15);
+    border-color: rgba(255,149,0,0.4);
+    box-shadow: 0 0 15px rgba(255,149,0,0.1);
 }
 
 .stat-comparison-title{
@@ -2498,11 +2498,12 @@ a.stat-comparison-card:hover{
     font-size: 11px;
     color: #666;
     margin-top: 8px;
-    transition: color 0.2s;
+    transition: color 0.2s, transform 0.2s;
 }
 
 a.stat-comparison-card:hover .stat-comparison-source{
     color: #FF9500;
+    transform: translateX(5px);
 }
 
 /* Responsive: stack cards on mobile */
@@ -3456,7 +3457,11 @@ a.feature-card{
 
 a.feature-card:hover{
     border-color: rgba(255,149,0,0.5);
-    transform: scale(1.02);
+}
+
+a.feature-card:hover .feature-card-link{
+    color: #FF9500;
+    transform: translateX(5px);
 }
 
 .feature-card-header{
@@ -3495,6 +3500,7 @@ svg.feature-card-icon{
     font-weight: 500;
     font-size: 14px;
     color: #FF9500;
+    transition: transform 0.2s;
 }
 
 
@@ -3528,7 +3534,11 @@ a.story-card{
 
 a.story-card:hover{
     border-color: rgba(255,149,0,0.5);
-    transform: scale(1.02);
+}
+
+a.story-card:hover .story-card-link{
+    color: #FF9500;
+    transform: translateX(5px);
 }
 
 .story-card-header{
@@ -3567,6 +3577,7 @@ svg.story-card-icon{
     font-weight: 500;
     font-size: 14px;
     color: #FF9500;
+    transition: transform 0.2s;
 }
 
 
