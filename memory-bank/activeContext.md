@@ -1,6 +1,54 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Homepage v2 Polish — April 17, 2026
+## Latest: Next.js Migration — Phase 1 scaffold complete — April 17, 2026
+
+First commit of the Next.js 16 / React 19 / TypeScript / Tailwind v4 rewrite on the `v2-nextjs-redesign` branch. The static site on `main` is completely untouched — Railway production deploy keeps serving the existing HTML until the cutover commit at the end of Phase 15.
+
+### What Phase 1 delivered
+- **Stack choice**: Next.js 16.2.4 + React 19 + TypeScript 5.6 + Tailwind v4 (matches sibling project `vote-for-better-money`).
+- **Manual scaffold** (no `create-next-app` — wrote each file deterministically): `package.json`, `tsconfig.json`, `next-env.d.ts`, `next.config.ts`, `postcss.config.mjs`, `eslint.config.mjs`.
+- **Design tokens via Tailwind v4 `@theme` block** in `app/globals.css` — v4 is CSS-first, so no `tailwind.config.ts`. All 21 brand/topic accent colors (bitcoin-orange, energy, freedom, money, saving, salary, art, politics, war, coding, ai, networks, self-custody, property-rights, business, environment, crowdfunding, housing, equality, food, payments, gold, cash, human-rights, get-started) are token-driven, usable as `text-energy` / `bg-freedom` / `border-money` utilities. Font tokens: `proxima`, `proxima-soft`. Breakpoints: `xs: 400px`, `md: 700px` (matching old `css/style.css` media queries).
+- **Routing**: `/` → 307 to `/en` (Phase 1 placeholder; Phase 2 middleware will replace with Accept-Language detection). `/[locale]` serves a minimal "Next.js migration in progress" placeholder page.
+- **Root layout** (`app/layout.tsx`): pass-through that forwards `{children}` so per-locale `<html lang dir>` can live in `app/[locale]/layout.tsx`.
+- **Locale layout** (`app/[locale]/layout.tsx`): emits correct `<html lang={locale} dir={ltr|rtl}>`, loads Adobe Typekit kit `ful2oqu.css` (the actual kit used by the live site — NOT `ghu2hdm` as the migration plan originally guessed), GA gtag snippet with `G-18L58W2GTN`, favicon metadata from `/favicons/`. RTL set: `ar`, `fa`, `he`, `ur`.
+- **Static assets**: copied `img/` (69 MB) → `public/img/`, `img/favicons/` (500 KB) → `public/favicons/`. Originals kept on disk for reference until Phase 14 cleanup.
+- **next.config.ts**: `turbopack.root = __dirname`, `images.formats = ["image/webp"]`, security headers (X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy), long-cache headers for `/img/*` and `/favicons/*`, empty `redirects()` (Phase 13 will populate).
+- **Verification**: `npm install` → 359 packages, 0 vulnerabilities. `npm run build` → ✓ compiled in 1615ms, TypeScript clean, routes `/` (static), `/_not-found`, `/[locale]` (dynamic). `npm run dev` → `GET /en` returns 200 with placeholder HTML, `GET /` returns 307 → `/en`.
+- **.gitignore** updated: added `legacy/`, `node_modules/`, `.next/`, `*.tsbuildinfo`, `.turbo/`, `.vercel/`, `.env*` — in addition to the pre-existing `forms-backend/data/` and macOS entries.
+
+### Deliberately left alone
+- All root `*.html` files (index, inflation, bank-runs, all bitcoin-vs-*, business/*, nostr/*, sticker-files/*, *success*, 404) — the old static site still fully works on the local filesystem as source-of-truth reference for each port.
+- `css/style.css` — reference for the brand color palette and V2 component styles; NOT imported by Next.
+- `jquery/` — reference for `home-carousel.js`, `language.js`, `country-selector-*.js`, `compound-inflation-calculator*.js`, `sticker-picker.js`, `buy-flow.js`, `dynamic-header.js`, `inflation-stats.js`. Each will be ported to a React Client Component during Phases 3/5/6/9.
+- `i18n/` directory — the JSON translation files (English + 54 other languages) will be read directly by `next-intl` in Phase 2. No file format change needed.
+- `forms-backend/` — separate Railway service, untouched. Next frontend will POST to its existing URLs from Phase 9b onward.
+- `scripts/inject-*.js` pipeline — still used for the current static site. Phase 4 will replace them with TypeScript helpers that run at page-render time.
+- `main` branch at `origin/main` (`6cb07406`) — frozen. Railway keeps deploying current static site; we only merge to `main` on cutover day (Phase 15).
+
+### Files created in Phase 1
+```
+app/globals.css
+app/layout.tsx
+app/page.tsx
+app/[locale]/layout.tsx
+app/[locale]/page.tsx
+next.config.ts
+next-env.d.ts
+package.json
+postcss.config.mjs
+tsconfig.json
+eslint.config.mjs
+.gitignore               (rewritten)
+public/favicons/…        (copied from img/favicons/)
+public/img/…             (copied from img/)
+```
+
+### Next up: Phase 2 — i18n wiring with `next-intl`
+Install `next-intl`, add `middleware.ts` for Accept-Language detection → locale redirect, mirror the `jquery/language.js` language list into `lib/i18n/config.ts`, build a message loader for the existing `i18n/<lang>/*_<lang>.json` file convention, and verify `/en`, `/es`, `/ar`, `/zh` each render their own translated test string. See `MIGRATION-NEXTJS.md` Phase 2 for full checklist.
+
+---
+
+## Previous: Homepage v2 Polish — April 17, 2026
 Follow-up polish to the v2 homepage that shipped yesterday. Five focused fixes:
 
 1. **Carousel: pill reorder to keep bright-green pills apart.** `energy` (#1DFF4D) and `money` (#19BC38) are both green, so they read as a single smudge when adjacent. Row 1's new order:

@@ -1,5 +1,45 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 1 scaffold — April 17, 2026
+
+Foundational scaffold of the Next.js 16 / React 19 / TypeScript / Tailwind v4 rewrite, committed to the long-lived `v2-nextjs-redesign` branch. `main` is frozen and continues to serve the existing static site on Railway until cutover day (Phase 15 in `MIGRATION-NEXTJS.md`).
+
+**Stack & versions** — Next.js 16.2.4, React 19, TypeScript 5.6 (strict mode), Tailwind v4 via `@tailwindcss/postcss`. Matches sibling project `vote-for-better-money`.
+
+**Files created**
+- `package.json` — `bitcoin-rocks@2.0.0-alpha`, scripts for `dev`/`build`/`start`/`lint`/`typecheck`, engines `node >= 20`
+- `tsconfig.json` — strict TS, paths `@/*`, excludes `legacy/`, `jquery/`, `forms-backend/`, `scripts/`
+- `next-env.d.ts` — standard Next type refs
+- `next.config.ts` — `turbopack.root = __dirname`, `images.formats = ["image/webp"]`, security headers (X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy), long-cache for `/img/*` + `/favicons/*`, empty `redirects()` placeholder
+- `postcss.config.mjs` — Tailwind v4 PostCSS plugin
+- `eslint.config.mjs` — Next flat config, ignores `legacy/`, `jquery/`, `scripts/`, `*.html`
+- `app/globals.css` — `@import "tailwindcss";` + `@theme { … }` block with all 21 brand/topic accent colors harvested from `css/style.css` (bitcoin-orange, energy, freedom, money, saving, salary, art, politics, war, coding, ai, networks, self-custody, property-rights, business, environment, crowdfunding, housing, equality, food, payments, gold, cash, human-rights, get-started, bg, bg-soft, fg, fg-muted, fg-dim, border), font families (`proxima`, `proxima-soft`), breakpoints (`xs: 400px`, `md: 700px`). Tailwind v4 is CSS-first so no `tailwind.config.ts` is needed.
+- `app/layout.tsx` — root pass-through layout; delegates to `app/[locale]/layout.tsx`
+- `app/page.tsx` — temporary 307 redirect `/` → `/en` (Phase 2 middleware will replace)
+- `app/[locale]/layout.tsx` — emits `<html lang={locale} dir={ltr|rtl}>` (RTL set: `ar`, `fa`, `he`, `ur`), Typekit `<link>` to kit `ful2oqu.css` (actual kit ID used by live site), GA gtag snippet with `G-18L58W2GTN`, favicon metadata
+- `app/[locale]/page.tsx` — placeholder "Next.js migration in progress" showing the current locale code
+- `.gitignore` — rewritten: adds `legacy/`, `node_modules/`, `.next/`, `out/`, `build/`, `dist/`, `*.tsbuildinfo`, `.turbo/`, `.vercel/`, `.env*`; keeps `forms-backend/data/` + macOS entries
+
+**Static assets copied to `public/`**
+- `public/img/` — 69 MB, full image library from `img/`
+- `public/favicons/` — 500 KB, all favicon sizes from `img/favicons/`
+
+**Build + dev verification**
+- `npm install` → 359 packages, 0 vulnerabilities
+- `npm run build` → ✓ compiled in 1615ms, TypeScript clean, 3 routes generated: `/` (static), `/_not-found`, `/[locale]` (dynamic)
+- `npm run dev` → `GET /en` serves 200 with placeholder HTML (body contains "Next.js migration in progress" + `en` code); `GET /` 307 → `/en` as expected
+
+**Documentation updated**
+- `MIGRATION-NEXTJS.md` — Phase 1 section flipped to ✅ COMPLETE with the actual checklist of what was delivered; status header + position pointer bumped to "Phase 1 done → starting Phase 2"
+- `memory-bank/activeContext.md` — new leading section documenting Phase 1 + what was deliberately left alone + Phase 2 roadmap
+- `memory-bank/progress.md` — this entry
+
+**Intentionally untouched** — all `*.html` files (production still needs them), `css/style.css`, `jquery/`, `scripts/inject-*.js`, `i18n/` directory, `forms-backend/`, `main` branch at `origin/main` (`6cb07406`). Cutover to Next.js is a single merge commit at the end of Phase 15.
+
+**Next phase** — Phase 2: install `next-intl`, write `middleware.ts` for Accept-Language → locale redirect, mirror `jquery/language.js` language list into `lib/i18n/config.ts`, build message loader for the existing `i18n/<lang>/*_<lang>.json` file convention, wire into `app/[locale]/layout.tsx` via `NextIntlClientProvider`.
+
+---
+
 ## Homepage v2 Polish — April 17, 2026
 Follow-up fixes to yesterday's homepage redesign. Five targeted changes to address issues users flagged after launch:
 

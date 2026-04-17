@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 0 complete · Awaiting Phase 1 scaffold
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits)
+**Status:** Phase 1 complete · Awaiting Phase 2 (next-intl wiring)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 0 done → starting Phase 1 next.
+**Current position pointer:** Phase 1 done → starting Phase 2 next.
 
 ---
 
@@ -69,29 +69,37 @@
 - [x] Write `MIGRATION-NEXTJS.md` (this file)
 - [x] Commit Phase 0 on `v2-nextjs-redesign` and push
 
-## Phase 1 — Scaffold Next.js app (1 task)
+## Phase 1 — Scaffold Next.js app ✅ COMPLETE
 
 Goal: Working `npm run dev` at `localhost:3000/en` with zero pages, but layout + globals + Tailwind wired up.
 
-- [ ] Create Next 16 app in root: `npx create-next-app@latest . --ts --tailwind --app --eslint --no-src-dir --import-alias "@/*"`
-  - Will ask "directory not empty" — answer "yes, continue". It won't overwrite existing `.html` files.
-  - Add `legacy/` to `.gitignore` so old HTML won't be picked up.
-- [ ] Create `next.config.ts` modeled on `../vote-for-better-money/next.config.ts`:
-  - `turbopack.root = __dirname`
-  - `images: { formats: ["image/webp"] }`
-  - Security headers
-  - Empty `redirects()` for now (Phase 13 populates it)
-- [ ] Create `tailwind.config.ts` with brand tokens:
-  - Colors: `bitcoin-orange #FF9500`, bg `#060610`, energy `#1DFF4D`, freedom `#96041C`, money, network, etc.
-  - Font families: Proxima Nova (via Typekit link), Proxima Soft (for home pills)
-- [ ] `app/globals.css` — Tailwind directives only. **Do not import `css/style.css`.**
-- [ ] Minimal `app/[locale]/layout.tsx` stub: html/head/body + Google Analytics script (ID `G-18L58W2GTN`) + Typekit `<link rel="stylesheet" href="https://use.typekit.net/ghu2hdm.css">` (or bitcoin.rocks's own kit — check existing HTML). Placeholder `<main>{children}</main>`.
-- [ ] `app/[locale]/page.tsx` stub rendering "bitcoin.rocks migration in progress" so routing works.
-- [ ] `public/img/` — copy (not move) everything from current `img/` directory.
-- [ ] `public/favicons/` — copy from current `img/favicons/` if that's where they live.
-- [ ] Verify `npm run dev` works and `/en` serves the placeholder.
-- [ ] **Critical:** Don't delete any old `.html` files, jQuery scripts, or `css/style.css` yet. Old static site stays functional on local filesystem as source reference until cutover.
-- [ ] Commit: "Phase 1: scaffold Next.js app"
+- [x] Scaffold Next 16 app manually (no `create-next-app` — deterministic file-by-file) with `package.json`, `tsconfig.json`, `next-env.d.ts`, `eslint.config.mjs`, `postcss.config.mjs`
+  - Using Next 16.2.4 + React 19 + TypeScript 5.6 + Tailwind v4 (matching sibling vote-for-better-money)
+  - Added `legacy/` to `.gitignore` plus the usual Next/TS entries
+- [x] Create `next.config.ts`:
+  - `turbopack.root = __dirname` ✓
+  - `images: { formats: ["image/webp"] }` ✓
+  - Security headers (X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy) ✓
+  - Long-cache headers for `/img/*` + `/favicons/*` ✓
+  - Empty `redirects()` (Phase 13 will populate) ✓
+- [x] Design tokens via **Tailwind v4 `@theme` block in `app/globals.css`** (no `tailwind.config.ts` — v4 is CSS-first):
+  - Brand colors: `bitcoin-orange #FF9500`, bg `#060610`, bg-soft `#090814`, fg/fg-muted/fg-dim/border
+  - All 21 topic accents harvested from `css/style.css`: energy, freedom, money, saving, salary, art, politics, war, coding, ai, networks, self-custody, property-rights, business, environment, crowdfunding, housing, equality, food, payments, gold, cash, human-rights, get-started
+  - Font families: `proxima` (Proxima Nova), `proxima-soft` (for home pills)
+  - Breakpoints: `--breakpoint-xs: 400px` + `--breakpoint-md: 700px` to match old CSS media queries
+- [x] `app/globals.css` — `@import "tailwindcss";` + `@theme {}` + baseline body rules. `css/style.css` NOT imported.
+- [x] `app/layout.tsx` — root pass-through (returns children) so per-locale `<html lang dir>` can live in `app/[locale]/layout.tsx`
+- [x] `app/[locale]/layout.tsx` — emits `<html lang={locale} dir={ltr|rtl}>`, Typekit link (`https://use.typekit.net/ful2oqu.css` — the actual kit ID used on the live site, NOT `ghu2hdm`), GA gtag script (ID `G-18L58W2GTN`), favicon metadata, `<main>{children}</main>`
+  - RTL locale set: `ar`, `fa`, `he`, `ur`
+- [x] `app/[locale]/page.tsx` — placeholder showing "Next.js migration in progress" + current locale code
+- [x] `app/page.tsx` — temporary `redirect('/en')` so `/` works during Phase 1 (Phase 2 middleware will replace this with Accept-Language detection)
+- [x] `public/img/` — copied (69 MB) from `img/`
+- [x] `public/favicons/` — copied (500 KB) from `img/favicons/`
+- [x] `npm install` — 359 packages, 0 vulnerabilities
+- [x] `npm run build` — ✓ Compiled successfully in 1615ms, TypeScript clean, routes: `/` (static) + `/_not-found` + `/[locale]` (dynamic)
+- [x] `npm run dev` verified: `GET /en` → 200 with placeholder HTML (serves "Next.js migration in progress"); `GET /` → 307 to `/en`
+- [x] Kept all old `.html`, `jquery/`, `css/style.css` — static site still works as source reference
+- [x] Commit: "Phase 1: scaffold Next.js app"
 
 ## Phase 2 — i18n wiring with `next-intl` (1 task)
 

@@ -1,4 +1,37 @@
+# macOS
 ._*
 .DS_Store
+
+# Legacy static site (kept on disk as reference until Phase 14 cleanup)
+legacy/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE / tooling caches
+.turbo/
+.vercel/
+.swc/
+
+# Forms backend (separate Railway service — keep its own ignores)
 forms-backend/data/
 forms-backend/node_modules/

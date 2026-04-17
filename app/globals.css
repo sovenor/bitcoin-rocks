@@ -1,0 +1,74 @@
+/*
+ * bitcoin.rocks — Global styles (Next.js / Tailwind v4)
+ * ----------------------------------------------------
+ * Tailwind v4 is CSS-first: design tokens live in `@theme`
+ * instead of `tailwind.config.ts`. Any `--color-*` / `--font-*`
+ * / `--breakpoint-*` token declared here is usable as a
+ * Tailwind utility (e.g. `bg-bitcoin-orange`, `text-energy`,
+ * `font-proxima`).
+ *
+ * Phase 1: token scaffolding only. Page-level CSS comes
+ * later as each page is ported; the old `css/style.css`
+ * is intentionally NOT imported.
+ */
+@import "tailwindcss";
+
+@theme {
+	/* ---- Brand surface + text ---- */
+	--color-bg: #060610;
+	--color-bg-soft: #090814;
+	--color-fg: #ffffff;
+	--color-fg-muted: #cccccc;
+	--color-fg-dim: #999999;
+	--color-border: #3f3f3f;
+
+	/* ---- Bitcoin primary accent ---- */
+	--color-bitcoin-orange: #ff9500;
+
+	/* ---- Topic / category accents (mirrors css/style.css) ---- */
+	--color-human-rights: #ff9500;
+	--color-energy: #1dff4d;
+	--color-food: #ff571d;
+	--color-payments: #ffe91d;
+	--color-money: #19bc38;
+	--color-saving: #f5a9b8;
+	--color-salary: #2274a5;
+	--color-art: #1f1fff;
+	--color-politics: #9500ff;
+	--color-war: #ed1c24;
+	--color-coding: #89fc00;
+	--color-ai: #649df9;
+	--color-networks: #1e3a8a;
+	--color-self-custody: #b3fffc;
+	--color-get-started: #ff9500;
+	--color-gold: #ffe91d;
+	--color-cash: #2bc11f;
+	--color-property-rights: #eb4b98;
+	--color-business: #08b2e3;
+	--color-environment: #5b7553;
+	--color-crowdfunding: #d1d646;
+	--color-housing: #935425;
+	--color-equality: #8c5383;
+	--color-freedom: #96041c;
+
+	/* ---- Typography ---- */
+	--font-proxima: "proxima-nova", ui-sans-serif, system-ui, -apple-system,
+		"Segoe UI", Roboto, sans-serif;
+	--font-proxima-soft: "proxima-soft", "proxima-nova", ui-sans-serif,
+		system-ui, sans-serif;
+	--font-sans: var(--font-proxima);
+
+	/* ---- Breakpoints (match old CSS: 400px + 700px) ---- */
+	--breakpoint-xs: 400px;
+	--breakpoint-md: 700px;
+}
+
+/* Baseline body styling — mirrors the old #060610 dark theme */
+html,
+body {
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+	font-family: var(--font-proxima);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
