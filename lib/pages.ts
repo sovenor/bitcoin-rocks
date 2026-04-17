@@ -85,10 +85,10 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "get-involved", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "get-involved", published: true },
 
 	// === Phase 9a — Educational / info Bucket B ===
-	{ slug: "wallets", phase: 9, priority: 0.8, changeFrequency: "monthly", namespace: "wallets", published: false },
-	{ slug: "lightning", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "lightning", published: false },
-	{ slug: "flyers", phase: 9, priority: 0.5, changeFrequency: "yearly", namespace: "flyers", published: false },
-	{ slug: "compound-inflation-calculator", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "compound-inflation-calculator", published: false },
+	{ slug: "wallets", phase: 9, priority: 0.8, changeFrequency: "monthly", namespace: "wallets", published: true },
+	{ slug: "lightning", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "lightning", published: true },
+	{ slug: "flyers", phase: 9, priority: 0.5, changeFrequency: "yearly", namespace: "flyers", published: true },
+	{ slug: "compound-inflation-calculator", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "compound-inflation-calculator", published: true },
 
 	// === Phase 9b — Form pages + successes ===
 	{ slug: "stickers", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "stickers", published: false },

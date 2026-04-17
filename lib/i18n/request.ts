@@ -54,6 +54,11 @@ const DEFAULT_NAMESPACES = [
 	// Phase 8 — content pages (about + get-involved).
 	"about",
 	"get-involved",
+	// Phase 9a — Bucket B educational pages (V1 faithful port).
+	"wallets",
+	"lightning",
+	"flyers",
+	"compound-inflation-calculator",
 ] as const;
 
 

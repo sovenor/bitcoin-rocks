@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 8 complete · Awaiting Phase 9a (wallets, lightning, flyers, calculator-solo)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved)
+**Status:** Phase 9a complete · Awaiting Phase 9b (sticker/sign/postcard forms + buy-flow + successes)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 8 done → starting Phase 9a next.
+**Current position pointer:** Phase 9a done → starting Phase 9b next.
 
 
 ---
@@ -307,12 +307,21 @@ Port **with** V2 redesign applied during port. Create a shared `app/[locale]/bit
 
 Port **faithfully** in Tailwind; defer V2 redesign.
 
-### Phase 9a — Educational / info Bucket B
-- [ ] `app/[locale]/wallets/page.tsx` ← faithful Tailwind port (997 lines — largest V1 page)
-- [ ] `app/[locale]/lightning/page.tsx` ← faithful Tailwind port
-- [ ] `app/[locale]/flyers/page.tsx` ← faithful Tailwind port
-- [ ] `app/[locale]/compound-inflation-calculator/page.tsx` ← faithful (uses Phase 6b calculator solo variant)
-- [ ] Commit: "Phase 9a: wallets, lightning, flyers, calculator-solo"
+### Phase 9a — Educational / info Bucket B ✅ COMPLETE
+
+- [x] `app/[locale]/wallets/page.tsx` ← faithful Tailwind port (largest V1 page). Ports the 3-accordion intro + 6 wallet-card grid (Blockstream Green/Jade, Coldcard MK5/Q, Foundation Passport, SeedSigner). Inline `toggleAccordion()` JS replaced by `<WalletAccordion>` Client Component. All 3 Get Started CTAs + publisher attribution preserved.
+- [x] `app/[locale]/lightning/page.tsx` ← faithful Tailwind port. Ports the single-accordion intro + 3 wallet-card grid (Phoenix, Breez, Wallet of Satoshi custodial). Reuses `<WalletAccordion>`.
+- [x] `app/[locale]/flyers/page.tsx` ← faithful Tailwind port. Ports the print/download flyer hero + share-on-nostr section + Get Started CTAs. Inline `printFlyer()` JS replaced by `<PrintFlyerButton>` Client Component (creates hidden iframe + `contentWindow.print()` on load).
+- [x] `app/[locale]/compound-inflation-calculator/page.tsx` ← faithful port wrapping the Phase 6b `<CompoundInflationCalculatorSolo>` Client Component. V1 intro + calculator + "What can I do about inflation?" CTA preserved.
+- [x] `components/WalletAccordion.tsx` — NEW Client Component (~55 lines). Orange-pill header with ▼ arrow that toggles the `active` / `open` classes on click + keyboard (Enter/Space). Keeps the server-rendered body content intact — only the visibility state is client-side.
+- [x] `components/PrintFlyerButton.tsx` — NEW Client Component (~55 lines). Imperative hidden-iframe print, graceful fallback on cross-origin block.
+- [x] `scripts/phase9a/append-bucket-b-css.js` — idempotent Node helper that appended ~545 lines of V1 legacy CSS to `app/globals.css` (`.text-box`, `.wallet-q`, `.alert`, `.wallet-box`, `.bounty-button`, `.compound-form`, `.cic-button`, `.break-*` utilities, `.h2-section` / `.h3-item` / `.h2-label` V1 headings). Ported verbatim from `css/style.css` with tabs preserved.
+- [x] `scripts/phase9a/fix-schema-await.js` — idempotent helper that patched 3 of the 4 new pages to `await buildArticleSchema()` (it's `async` — a forgotten `await` caused `<JsonLd>` to serialize the Promise as `{}`). Caught + fixed before commit.
+- [x] `lib/i18n/request.ts` — added `wallets`, `lightning`, `flyers`, `compound-inflation-calculator` to `DEFAULT_NAMESPACES`.
+- [x] `lib/pages.ts` — flipped `published: true` for all 4 slugs; sitemap now emits **220 new URLs** (55 locales × 4 slugs).
+- [x] `npm run build` → ✓ compiled, TypeScript clean, **1049 static pages** (55 locales × 19 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + `/tmp/verify-phase9a.js` — all 6 assertions pass: `/en/wallets` (192 KB, 11 markers including `wallet-q`, `wallet-box`, `BLOCKSTREAM GREEN`, `COLDCARD MK5`, `SEEDSIGNER`, Article + BreadcrumbList JSON-LD, `wallet-accordion-content`, `alert`, `publisher-attribution`), `/en/lightning` (177 KB, 8 markers including `PHOENIX`/`BREEZ`/`WALLET OF SATOSHI`), `/en/flyers` (168 KB, 9 markers including print/download buttons + share-on-nostr), `/en/compound-inflation-calculator` (166 KB, 8 markers including form inputs + calculate button + "Opt Out of Inflation with Bitcoin" CTA), `/ar/wallets` → `<html lang="ar" dir="rtl">`, `/sitemap.xml` contains all 4 new English URLs.
+- [x] Commit: "Phase 9a: wallets, lightning, flyers, calculator-solo"
 
 ### Phase 9b — Form pages + successes
 - [ ] `components/StickerPicker.tsx` ← port `jquery/sticker-picker.js`

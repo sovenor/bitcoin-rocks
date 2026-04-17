@@ -1,6 +1,68 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 8 Content pages (about + get-involved) — April 17, 2026
+## Latest: Next.js Migration — Phase 9a Bucket B Tailwind ports (wallets + lightning + flyers + compound-inflation-calculator) — April 17, 2026
+
+Twelfth commit of the Next.js migration on `v2-nextjs-redesign`. The four Bucket B educational pages are now live with a faithful V1 design port (deferred to post-cutover for V2 redesign). Two new small Client Components (`WalletAccordion`, `PrintFlyerButton`) replace the inline JS that made the legacy pages interactive. `main` is still frozen.
+
+### What Phase 9a delivered
+
+**New Client Components (`components/`)**
+- **`WalletAccordion.tsx`** — ~55 lines. Ports the `toggleAccordion()` inline JS from `wallets.html` + `lightning.html`. Orange-pill header with ▼ arrow rotates 180° when open; body content cross-fades via `max-height` transition. Keyboard-accessible (Enter/Space). `question` + `children` props only — no translation lookups client-side, parent server component passes pre-translated strings.
+- **`PrintFlyerButton.tsx`** — ~55 lines. Ports `printFlyer()` from `flyers.html`. Creates a hidden iframe pointing at the flyer PDF, calls `contentWindow.print()` on load, fails silently on cross-origin block. Keyboard-accessible.
+
+**New pages (4)**
+- **`app/[locale]/wallets/page.tsx`** — V1 `wallets.html` (997 lines → ~450-line page.tsx). Three `<WalletAccordion>`s (self-custody, hot/cold, recovery phrase) + 6 wallet cards in 3 rows of 2. Inline `<WalletCard>` helper component factors out per-card boilerplate (image, custodial/temperature alert chips, feature-line list, learn-more button).
+- **`app/[locale]/lightning/page.tsx`** — V1 `lightning.html` (457 lines → ~300-line page.tsx). Single `<WalletAccordion>` + 3 Lightning wallet cards (Phoenix, Breez non-custodial on row 1; Wallet of Satoshi custodial solo on row 2). Inline `<LightningCard>` helper (slightly different shape than wallet cards — no hot/cold alert).
+- **`app/[locale]/flyers/page.tsx`** — V1 `flyers.html` (360 lines → ~250-line page.tsx). Print + download flyer buttons via `<PrintFlyerButton>` + `<a download>`. Share-on-Nostr section with two bounty-style buttons. Full-size hero image with `marginTop: -200px` legacy offset preserved.
+- **`app/[locale]/compound-inflation-calculator/page.tsx`** — V1 `compound-inflation-calculator.html` (302 lines → ~170-line page.tsx). V1 intro text + the Phase 6b `<CompoundInflationCalculatorSolo>` Client Component + the "What can I do about inflation?" CTA pointing at `/inflation?link=calculator`.
+
+**Files modified**
+- **`lib/i18n/request.ts`** — added 4 new namespaces to `DEFAULT_NAMESPACES`. Namespaces cost ~0 per locale per build (read-once in-memory cache).
+- **`lib/pages.ts`** — flipped `published: true` for all 4 slugs; sitemap now emits **220 new URLs** (55 locales × 4 slugs).
+- **`app/globals.css`** — appended ~545 lines of V1 legacy CSS via `scripts/phase9a/append-bucket-b-css.js` (idempotent, sentinel-marker guarded). Ported verbatim from `css/style.css`: `.text-box` card variants (top/middle/bottom/solo/intro), `.wallet-q` / `.wallet-accordion-content`, `.alert` chips, `.wallet-box` / `.wallet-button`, `.bounty-button`, `.compound-form` / `.cic-button`, `.break-*` utilities, `.h2-section` / `.h3-item` / `.h2-label` V1 headings, `.orange-link`, `.looking-box`, and all the other class names the V1 HTML depends on. Tabs preserved.
+- **`MIGRATION-NEXTJS.md`** — Phase 9a checkboxes complete; status pointer advanced to Phase 9b.
+
+**New utilities**
+- **`scripts/phase9a/append-bucket-b-css.js`** — idempotent CSS appender, same pattern as `scripts/append-comparison-css.js` from Phase 7a.
+- **`scripts/phase9a/fix-schema-await.js`** — idempotent regex-based patcher that caught a forgotten `await` on `buildArticleSchema()`. Initial runtime verify showed `<script type="application/ld+json">` emitting `{}` (the Promise serialized as an empty object) instead of the full Article schema. The script promotes the schema construction out of the JSX and awaits it into a local. Re-running the script is a no-op on already-patched files.
+
+### Build + verification
+- `npm run build` → ✓ compiled, TypeScript clean, **1049 static pages** (55 locales × 19 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- Runtime spot-check via `/tmp/verify-phase9a.js`: all 6 assertions pass. `/en/wallets` (192 KB) contains `wallet-q` accordion headers, `wallet-box` grid, all 6 wallet brand names in H2s, Article + BreadcrumbList JSON-LD, `wallet-accordion-content` bodies, `alert` chips, publisher attribution. `/en/lightning` (177 KB) contains the single accordion + PHOENIX/BREEZ/WALLET OF SATOSHI cards + schemas. `/en/flyers` (168 KB) contains PRINT & POST header + BITCOIN FLYERS subtitle + DOWNLOAD FLYER/PRINT FLYER/SHARE ON NOSTR buttons + `bounty-button` class + schemas. `/en/compound-inflation-calculator` (166 KB) contains the compound form, all three inputs, `cic-button`, and the "Opt Out of Inflation with Bitcoin" CTA. `/ar/wallets` renders `<html lang="ar" dir="rtl">` correctly. `/sitemap.xml` contains all 4 new English URLs.
+
+### Architecture validation
+Phase 9a confirms the faithful-port approach scales: 4 Bucket B pages in one phase with two new small Client Components and one CSS append step. The V1 CSS was decoupled from the new Next tree via an idempotent Node script, so re-running the build still works; and the schema-await bug was caught by runtime verify before commit. The `<WalletAccordion>` component demonstrates the ideal client-component contract: zero translation lookups in the client bundle, parent passes pre-translated `question` + already-rendered `children`, and only the open/closed state is hydrated.
+
+### Intentionally left alone
+- `wallets.html`, `lightning.html`, `flyers.html`, `compound-inflation-calculator.html` at repo root — still shipped by the static site on `main`. Phase 14 deletes them.
+- V2 redesign of these 4 pages — deferred to post-cutover queue (see `MIGRATION-NEXTJS.md` "Post-migration Bucket B redesign queue" section).
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 9a
+```
+components/WalletAccordion.tsx                                 (NEW — Client, ~55 lines)
+components/PrintFlyerButton.tsx                                (NEW — Client, ~55 lines)
+app/[locale]/wallets/page.tsx                                  (NEW — ~450 lines)
+app/[locale]/lightning/page.tsx                                (NEW — ~300 lines)
+app/[locale]/flyers/page.tsx                                   (NEW — ~250 lines)
+app/[locale]/compound-inflation-calculator/page.tsx            (NEW — ~170 lines)
+scripts/phase9a/append-bucket-b-css.js                         (NEW — idempotent CSS appender)
+scripts/phase9a/fix-schema-await.js                            (NEW — idempotent await-patcher)
+scripts/phase9a/update-memory-bank.js                          (NEW — this file's generator)
+app/globals.css                                                (appended ~545 lines of V1 CSS)
+lib/i18n/request.ts                                            (edited — 4 new namespaces)
+lib/pages.ts                                                   (edited — 4 published flags)
+MIGRATION-NEXTJS.md                                            (edited — Phase 9a complete)
+memory-bank/activeContext.md                                   (edited — this file)
+memory-bank/progress.md                                        (edited — progress note)
+```
+
+### Next
+**Phase 9b** — form pages + successes: `stickers`, `signs`, `postcards`, `buy`, plus the 4 `*-success` pages. Requires porting `jquery/sticker-picker.js` (`<StickerPicker>`), `jquery/country-selector-forms.js` (`<CountrySelectorForm>`), and `jquery/buy-flow.js` (`<BuyFlow>` multi-step wizard). Forms POST to existing `forms-backend/` endpoints — no backend changes. `main` stays frozen.
+
+---
+
+## Previous: Next.js Migration — Phase 8 Content pages (about + get-involved) — April 17, 2026
 
 Eleventh commit of the Next.js migration on `v2-nextjs-redesign`. Two more V2 content pages are live, reusing the Phase 7c `ContentPageLayout` + `ContentPageData` pattern with zero new infrastructure. Phases 5–8 are now complete; `main` is still frozen.
 

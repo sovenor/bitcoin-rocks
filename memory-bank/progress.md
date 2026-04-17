@@ -950,3 +950,7 @@ Follow-up fixes to yesterday's homepage redesign. Five targeted changes to addre
 4. **Impact Measurement**: Develop better metrics for measuring educational effectiveness
 
 The bitcoin.rocks platform is in a strong, functional state with clear paths for continued improvement and growth.
+
+## Phase 9a (Next.js migration) — April 17, 2026
+
+Four Bucket B educational pages shipped with a faithful V1 Tailwind port: `/wallets` (the largest V1 page at 997 lines), `/lightning`, `/flyers`, and `/compound-inflation-calculator`. Added 2 small Client Components (`WalletAccordion` for the toggle-accordion UX on wallets/lightning, `PrintFlyerButton` for the print-via-iframe UX on flyers). Ported ~545 lines of V1 legacy CSS from `css/style.css` into `app/globals.css` via an idempotent Node script. All 4 `lib/pages.ts` entries flipped to `published: true` — sitemap now emits 220 new URLs (55 locales × 4 slugs). Build is clean: **1049 static pages** generated (55 × 19 routes + sitemap/robots/404/middleware). Runtime verify: all 6 assertions pass; caught + fixed one forgotten `await` on `buildArticleSchema()` before commit. V2 redesign of these 4 pages deferred to post-cutover queue; `main` still frozen.
