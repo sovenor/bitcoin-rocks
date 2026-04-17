@@ -1,5 +1,75 @@
 # Active Context: bitcoin.rocks
 
+## Latest: Next.js Migration — Phase 12 Nostr section (/nostr + /nostr/what-is-nostr) — April 17, 2026
+
+Sixteenth commit of the Next.js migration on `v2-nextjs-redesign`. The 2-page `/nostr` section — the "Escape the Matrix with Nostr" index + "What is Nostr?" sub-page — is now live as a faithful V1 Tailwind port sharing a single `<NostrPageLayout>` Server Component. V2 redesign deferred to the post-cutover queue. `main` is still frozen.
+
+### What Phase 12 delivered
+
+**New components**
+- **`components/NostrAccordion.tsx`** — Client Component (~65 lines). Ports the V1 inline `toggleDiv()` JS: click on the orange-bg `.expandable` wrapper toggles the `.expanded` class (which reveals the `.additional-text` body via CSS). The DOM walker preserves the legacy behavior that clicks on descendant `<a>` tags DO NOT toggle — they follow the link instead. Keyboard-accessible (Enter/Space, with focus-check so links don't get intercepted).
+- **`components/NostrPageLayout.tsx`** — Server Component (~300 lines). Renders both nostr pages via one tree: hero H1 + "JOIN NOSTR NOW" anchor CTA → 3 intro sections (Protocol/Freedom/Bitcoin is built in) → "DOWNLOAD A FREE CLIENT" H2 → 3 accordions (iPhone: Primal+Damus; Android: Primal+Amethyst; Browser: Iris) → publisher attribution. Accepts `slug` / `titleKey` / `headerKey` / `descriptionKey` so the two pages share the component tree — only those four vary.
+
+**New pages (2)**
+- **`app/[locale]/nostr/page.tsx`** — thin ~65-line page with `slug: "nostr"` + `escape_the_matrix_with_nostr` meta title. OG image `meta-nostr-home-v1.png`.
+- **`app/[locale]/nostr/what-is-nostr/page.tsx`** — thin ~65-line page with `slug: "nostr/what-is-nostr"` + `what_is_nostr` meta title. OG image `meta-nostr-what-v1.png`. Breadcrumb = Home > Nostr > What is Nostr? (Phase 4's `buildBreadcrumbTrail()` already handles the `nostr/` subpath rule correctly).
+
+**New scripts (`scripts/phase12/`)**
+- **`update-en-json.js`** — idempotent; adds 1 new meta-description key per English JSON file (`nostr_page_description` + `what_is_nostr_page_description`) + refreshes `@metadata.last-updated` to 2026-04-17. 2 new keys added.
+- **`append-nostr-css.js`** — idempotent sentinel-marker guarded CSS appender. Adds V1 nostr classes: `.expandable` / `.additional-text` / `.expanded .additional-text`, `.orange-bg`, `.wallet-box-biz img.other`, `.wallet-biz-solo`, `.h3-category` (italic uppercase accordion headers), `.h4-label` (client-name labels), `p.initial-text` / `p.additional-text`, plus a new `.nostr-intro-h2` that replaces V1's non-semantic `<h7>` with a styled `<h2>` for a clean heading hierarchy.
+- **`wire-and-publish.js`** — idempotent helper that adds `nostr/index` + `nostr/what-is-nostr` namespaces to `DEFAULT_NAMESPACES` in `lib/i18n/request.ts` and flips `published: true` for both slugs in `lib/pages.ts`.
+- **`update-memory-bank.js`** — this file's generator.
+
+**Files modified**
+- **`i18n/en/nostr/index_en.json`** — added `nostr_page_description` + refreshed `last-updated`.
+- **`i18n/en/nostr/what-is-nostr_en.json`** — added `what_is_nostr_page_description` + refreshed `last-updated`.
+- **`lib/i18n/request.ts`** — added 2 new namespaces to `DEFAULT_NAMESPACES`.
+- **`lib/pages.ts`** — flipped `published: true` for both nostr slugs; sitemap now emits **110 new URLs** (55 locales × 2 slugs).
+- **`app/globals.css`** — appended ~140 lines of V1 nostr-page CSS via the append script (sentinel-marker guarded).
+- **`MIGRATION-NEXTJS.md`** — Phase 12 checkboxes complete; status pointer advanced to Phase 13.
+
+### Build + verification
+- `npm run build` → ✓ Compiled successfully in 3.9s, TypeScript clean, **4734 static pages** generated (55 locales × 42 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy). Up from 4624 at end of Phase 11. That's **110 new URLs** for Phase 12.
+- Runtime spot-check via `/tmp/verify-phase12.js` — all **4 assertions pass**:
+  - `/en/nostr` (216 KB) — "ESCAPE THE MATRIX WITH NOSTR" H1 + "JOIN NOSTR NOW" anchor CTA + all 3 intro headers + "DOWNLOAD A FREE CLIENT TO JOIN NOSTR" + all 3 accordion titles (iPhone / Android / Browser Clients) + all 4 client brand names (PRIMAL, DAMUS, AMETHYST, IRIS) + `expandable` class + `/img/clients/primal.png` + Article + BreadcrumbList JSON-LD.
+  - `/en/nostr/what-is-nostr` (218 KB) — "WHAT IS NOSTR?" + all 3 accordion titles + Article + BreadcrumbList (Home > Nostr > What is Nostr?).
+  - `/ar/nostr` (207 KB) renders `<html lang="ar" dir="rtl">` correctly.
+  - `/sitemap.xml` (26 MB) contains both new English URLs.
+
+### Architecture validation
+Phase 12 confirms the "one shared page-layout + two thin pages" approach from earlier phases scales cleanly to the nostr section. The only page-specific variation (H1 text / meta / breadcrumb slug / OG image) is passed in as props — the other 95% of the page (3 intro sections + 3 client-picker accordions + publisher attribution) is server-rendered identically. The `<NostrAccordion>` Client Component follows the "zero translation lookups in the client bundle" pattern: the parent renders the translated H3 header + accordion body children on the server, and the client component only owns the open/closed state (~65 lines of JS).
+
+### Intentionally left alone
+- `nostr/index.html` + `nostr/what-is-nostr.html` — still shipped by the static site on `main`. Phase 14 deletes them.
+- V2 redesign of the nostr section — deferred to post-cutover queue.
+- `forms-backend/` — untouched (nostr pages have no forms).
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 12
+```
+components/NostrAccordion.tsx                                   (NEW — Client, ~65 lines)
+components/NostrPageLayout.tsx                                  (NEW — Server, ~300 lines)
+app/[locale]/nostr/page.tsx                                     (NEW — ~65 lines)
+app/[locale]/nostr/what-is-nostr/page.tsx                       (NEW — ~65 lines)
+scripts/phase12/update-en-json.js                               (NEW — idempotent)
+scripts/phase12/append-nostr-css.js                             (NEW — idempotent CSS appender)
+scripts/phase12/wire-and-publish.js                             (NEW — idempotent flipper)
+scripts/phase12/update-memory-bank.js                           (NEW — this file's generator)
+i18n/en/nostr/index_en.json                                     (edited — +1 key, date)
+i18n/en/nostr/what-is-nostr_en.json                             (edited — +1 key, date)
+app/globals.css                                                 (appended ~140 lines of V1 nostr CSS)
+lib/i18n/request.ts                                             (edited — +2 namespaces)
+lib/pages.ts                                                    (edited — 2 slugs → published)
+MIGRATION-NEXTJS.md                                             (edited — Phase 12 complete, pointer → Phase 13)
+memory-bank/activeContext.md                                    (edited — this file)
+memory-bank/progress.md                                         (edited — progress note)
+```
+
+### Next
+**Phase 13** — 404 page + redirects + final sitemap + cleanup of any legacy URLs from `nginx.conf` / `.htaccess`. This is the last content-port phase before Phase 14's cleanup + Phase 15's cutover. `main` stays frozen.
+
+---
+
 ## Latest: Next.js Migration — Phase 11 Sticker-files section (43 languages + index = 44 pages) — April 17, 2026
 
 Fifteenth commit of the Next.js migration on `v2-nextjs-redesign`. The `/sticker-files` section — 43 language-specific downloadable sticker-file pages + the top-level language picker + sticker-language-request form — is now live as a single dynamic route driven by a typed catalog. `main` is still frozen.

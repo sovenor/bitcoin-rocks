@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-17",
 		"locale": "en"
 	},
 	"what_is_nostr": "What is Nostr?",
-	"what_is_nostr_header": "WHAT IS NOSTR?"
+	"what_is_nostr_header": "WHAT IS NOSTR?",
+	"what_is_nostr_page_description": "Nostr is a new decentralized protocol for online communication — no single company controls it, bitcoin zaps are built in natively, and you can move between clients without losing followers."
 }

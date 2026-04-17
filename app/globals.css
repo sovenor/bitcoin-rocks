@@ -2247,3 +2247,109 @@ select option{
 	margin: 8px 0 16px 0;
 }
 
+
+/* ==== PHASE 12 NOSTR CSS ==== */
+/* V1 nostr-page CSS ported verbatim from css/style.css. The nostr
+   pages keep the V1 design system for Phase 12; V2 redesign lives in
+   the post-cutover queue. */
+
+.expandable {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
+	background-color: #FF9500;
+	cursor: pointer;
+	overflow: hidden;
+	transition: background-color 0.3s ease;
+	margin: auto;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.additional-text { display: none; }
+.expanded .additional-text { display: block; }
+
+p.initial-text {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	color: #f0f0f0;
+	margin-left: 30px;
+	margin-right: 30px;
+	line-height: 30px;
+}
+
+p.additional-text {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+
+.orange-bg { background-color: #ff9500; }
+
+/* Wider image variant (iris.png) inside wallet-box-biz — pulls the
+   image closer to the top since it isn't a phone screenshot */
+.wallet-box-biz img.other {
+	width: 100%;
+	height: auto;
+	margin-top: -100px;
+}
+
+/* Solo card layout for Browser Clients section */
+.wallet-biz-solo {
+	margin-top: 50px !important;
+	margin-bottom: 14px;
+}
+
+/* h5 appearance on h3 tags (nostr accordion headers) */
+.h3-category {
+	font-family: proxima-nova, sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 100px !important;
+	text-align: center;
+	overflow: wrap !important;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	color: #f0f0f0;
+}
+
+/* h6 appearance on h4 tags (nostr client names) */
+.h4-label {
+	font-family: "proxima-soft", sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 35px;
+	margin-top: -20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #f0f0f0;
+}
+
+/* Component-specific H2 for the three intro sections. Matches V1's
+   <h7> hack (a made-up tag that inherited body styling + a 30px bold
+   override). We use a real <h2> so the heading hierarchy stays clean,
+   then style it to the same size. */
+.nostr-intro-h2 {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	color: #f0f0f0;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 0;
+	margin-bottom: 12px;
+	line-height: 30px;
+}
+
+/* End of Phase 12 nostr CSS ----------------------------------- */

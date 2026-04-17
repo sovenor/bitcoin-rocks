@@ -162,8 +162,8 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "sticker-files/yoruba", phase: 11, priority: 0.4, changeFrequency: "yearly", namespace: "sticker-files/yoruba/index", published: true },
 
 	// === Phase 12 — Nostr section ===
-	{ slug: "nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/index", published: false },
-	{ slug: "nostr/what-is-nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/what-is-nostr", published: false },
+	{ slug: "nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/index", published: true },
+	{ slug: "nostr/what-is-nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/what-is-nostr", published: true },
 ] as const;
 
 /** Find a page entry by slug. Returns null if not registered. */

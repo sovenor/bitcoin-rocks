@@ -131,6 +131,9 @@ const DEFAULT_NAMESPACES = [
 	"sticker-files/urdu/index",
 	"sticker-files/vietnamese/index",
 	"sticker-files/yoruba/index",
+	// Phase 12 — nostr section.
+	"nostr/index",
+	"nostr/what-is-nostr",
 ] as const;
 
 

@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 11 complete · Awaiting Phase 12 (nostr section)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages))
+**Status:** Phase 12 complete · Awaiting Phase 13 (404 + redirects + final sitemap)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages) + Phase 12 nostr section (/nostr + /nostr/what-is-nostr))
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 11 done → starting Phase 12 next.
+**Current position pointer:** Phase 12 done → starting Phase 13 next.
 
 
 ---
@@ -406,11 +406,28 @@ The `sticker-files/<language>/index.html` pattern was essentially a directory li
   - `/sticker-files/english/bdhi-orange-english.png` serves 200 (569 KB PNG) — static asset routing works
 - [x] Commit: "Phase 11: sticker-files section"
 
-## Phase 12 — Nostr section (1 task)
+## Phase 12 — Nostr section ✅ COMPLETE
 
-- [ ] `app/[locale]/nostr/page.tsx`
-- [ ] `app/[locale]/nostr/what-is-nostr/page.tsx`
-- [ ] Commit: "Phase 12: nostr section"
+Faithful V1 Tailwind port of the 2-page nostr section (`/nostr` + `/nostr/what-is-nostr`) sharing a single `<NostrPageLayout>` Server Component. V2 redesign deferred to the post-cutover queue.
+
+- [x] `components/NostrAccordion.tsx` — NEW Client Component (~65 lines). Ports the V1 `toggleDiv()` inline JS: click on the `.expandable` header toggles the `.expanded` class on the wrapper (which reveals the `.additional-text` body via CSS). Descendant `<a>` clicks bail out of the toggle so wallet-download links work as expected. Keyboard-accessible via Enter/Space (skipping when focus is on a link).
+- [x] `components/NostrPageLayout.tsx` — NEW Server Component (~300 lines). Renders the full nostr page: hero H1 + "JOIN NOSTR NOW" anchor CTA → 3 intro sections (Protocol / Freedom / Bitcoin is built in) → "DOWNLOAD A FREE CLIENT TO JOIN NOSTR" H2 → 3 `<NostrAccordion>`s (iPhone: Primal + Damus; Android: Primal + Amethyst; Browser: Iris) → publisher attribution + reviewed-badge. Emits Article + BreadcrumbList JSON-LD via Phase 4 helpers. Accepts `slug` / `titleKey` / `headerKey` / `descriptionKey` so the two pages share one component tree — only H1 text, meta title, meta description, breadcrumb slug, and OG image differ.
+- [x] `app/[locale]/nostr/page.tsx` — thin ~65-line page. Passes `slug: "nostr"` + hero-header + meta keys to `<NostrPageLayout>`; inline `generateMetadata()` (since nostr data doesn't share the `ComparisonPageData` shape) with full 55-locale hreflang alternates + OpenGraph + Twitter card + `meta-nostr-home-v1.png` share image.
+- [x] `app/[locale]/nostr/what-is-nostr/page.tsx` — thin ~65-line page with `slug: "nostr/what-is-nostr"` + `meta-nostr-what-v1.png` share image. Breadcrumb renders as Home > Nostr > What is Nostr? via Phase 4's `buildBreadcrumbTrail()` (the nostr-subpath rule was already in place from Phase 4, so no schema changes needed).
+- [x] `i18n/en/nostr/index_en.json` + `i18n/en/nostr/what-is-nostr_en.json` — added 1 new key per file (`nostr_page_description` + `what_is_nostr_page_description`) via idempotent `scripts/phase12/update-en-json.js`; `last-updated` refreshed to 2026-04-17. The existing ~33 `common_nostr_*` + page-specific `nostr_header` / `what_is_nostr_header` keys remain unchanged — translators keep working as before, and the 2 new meta-description keys fall back to English gracefully on locales that haven't translated them yet.
+- [x] `scripts/phase12/append-nostr-css.js` — idempotent CSS appender that adds V1 nostr-page classes to `app/globals.css` via sentinel marker: `.expandable` / `.additional-text` / `.expanded .additional-text`, `p.initial-text`, `p.additional-text`, `.orange-bg`, `.wallet-box-biz img.other`, `.wallet-biz-solo`, `.h3-category`, `.h4-label`, plus new `.nostr-intro-h2` (replaces V1's non-semantic `<h7>` with a real `<h2>` styled identically).
+- [x] `scripts/phase12/wire-and-publish.js` — idempotent helper that adds `nostr/index` + `nostr/what-is-nostr` namespaces to `DEFAULT_NAMESPACES` in `lib/i18n/request.ts` and flips `published: true` on both slugs in `lib/pages.ts`. Re-runnable no-op.
+- [x] `lib/i18n/request.ts` — added 2 new namespaces (`nostr/index`, `nostr/what-is-nostr`) to `DEFAULT_NAMESPACES`.
+- [x] `lib/pages.ts` — flipped `published: true` for both nostr slugs; sitemap now emits **110 new URLs** (55 locales × 2 slugs).
+- [x] `npm run build` → ✓ Compiled successfully in 3.9s, TypeScript clean, **4734 static pages** generated (55 locales × 42 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy). Up from 4624 at end of Phase 11.
+- [x] `npm run start` + `/tmp/verify-phase12.js` — all **4 assertions pass**:
+  - `/en/nostr` (216 KB) — "ESCAPE THE MATRIX WITH NOSTR" + "JOIN NOSTR NOW" CTA + all 3 intro section headers + "DOWNLOAD A FREE CLIENT TO JOIN NOSTR" + all 3 accordion titles (iPhone / Android / Browser Clients) + all 4 client brand names (PRIMAL, DAMUS, AMETHYST, IRIS) + `expandable` class + Article + BreadcrumbList JSON-LD + `/img/clients/primal.png` reference.
+  - `/en/nostr/what-is-nostr` (218 KB) — "WHAT IS NOSTR?" H1 + all 3 accordion titles + Article + BreadcrumbList JSON-LD (Home > Nostr > What is Nostr?).
+  - `/ar/nostr` (207 KB) — `<html lang="ar" dir="rtl">` correct.
+  - `/sitemap.xml` (26 MB) — contains `<loc>https://bitcoin.rocks/en/nostr</loc>` + `<loc>https://bitcoin.rocks/en/nostr/what-is-nostr</loc>`.
+- [x] Commit: "Phase 12: nostr section"
+
+**Deferred:** V2 redesign of the nostr section (hero + card grid refresh) lives in the post-cutover queue. The V1 port keeps all behavior + cross-links + JSON-LD intact.
 
 ## Phase 13 — 404, redirects, sitemap, misc (1 task)
 

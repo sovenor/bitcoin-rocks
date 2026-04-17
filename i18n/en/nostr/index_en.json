@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-17",
 		"locale": "en"
 	},
 	"escape_the_matrix_with_nostr": "Escape the Matrix with Nostr",
-	"nostr_header": "ESCAPE THE MATRIX WITH NOSTR"
+	"nostr_header": "ESCAPE THE MATRIX WITH NOSTR",
+	"nostr_page_description": "Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting. Get started with a free client in minutes."
 }
