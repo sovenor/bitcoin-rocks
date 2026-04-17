@@ -3858,19 +3858,16 @@ a.whats-next-card:hover .whats-next-card-source{
 }
 
 .home-carousel-row{
-    /* Native horizontal scroll container — hides scrollbar but
-       allows mouse/touch drag-to-scroll. */
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/legacy Edge */
-    -webkit-overflow-scrolling: touch;
+    /* Fixed viewport — the track inside is positioned with
+       transform: translateX() driven by jquery/home-carousel.js.
+       overflow:hidden lets the track extend beyond the row on both
+       sides without the browser clamping anything. */
+    overflow: hidden;
     padding: 8px 0;
     cursor: grab;
-}
-
-.home-carousel-row::-webkit-scrollbar{
-    display: none; /* Chrome/Safari */
+    /* Allow vertical page scroll on touch devices; horizontal swipes
+       are intercepted by the JS (preventDefault in touchmove). */
+    touch-action: pan-y;
 }
 
 .home-carousel-row.is-dragging{
@@ -3883,16 +3880,17 @@ a.whats-next-card:hover .whats-next-card-source{
 }
 
 /* Track: holds pills + their duplicate set for seamless infinite loop.
-   Scrolling is driven by jquery/home-carousel.js (RAF + scrollLeft
-   with wrap-around), NOT by a CSS @keyframes animation. This allows
-   the user to drag indefinitely in either direction and always have
-   more content to see — true infinite scroll. */
+   Positioned via `transform: translate3d(offset, 0, 0)` from
+   jquery/home-carousel.js (RAF-driven). Because transform takes any
+   float, we can freely wrap the offset around ±halfWidth in both
+   directions — true bidirectional infinite scroll. */
 .home-carousel-track{
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
     padding: 0 10px;
     width: max-content;
+    will-change: transform;
 }
 
 /* Pills: replaces .jump buttons. Proxima Soft font, colored border
