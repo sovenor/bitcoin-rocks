@@ -3635,7 +3635,10 @@ a.whats-next-card:hover{
     font-family: "proxima-nova", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: #FF9500;
+    /* Uses --card-accent CSS variable; falls back to Bitcoin orange
+       on pages that don't set one (e.g., /inflation). Homepage
+       category sections set --card-accent per section. */
+    color: var(--card-accent, #FF9500);
     text-transform: none;
     margin-bottom: 12px;
     letter-spacing: 0.02em;
@@ -3761,3 +3764,258 @@ a.whats-next-card:hover .whats-next-card-source{
     text-transform: uppercase;
     color: #f0f0f0;
 }
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   HOMEPAGE REVAMP (v2) — Matches the /inflation page design system.
+   Reuses: .site-nav--v2, .h1-inflation, .inflation-intro,
+           .whats-next-section / .whats-next-grid / .whats-next-card.
+   Adds: .home-hero, .home-carousel-row, .home-pill, .category-section.
+   Uses CSS variable --card-accent for per-section color theming.
+
+   DEPRECATED v1 homepage classes (still present in this stylesheet
+   so existing/legacy pages don't break, but no longer used on the
+   new homepage):
+     .home-h1, .home-logo, .home-intro, .container-jump, .jump,
+     .text-box .top/.middle/.bottom/.solo, .item, .h3-item (on index),
+     .h2-section.second-line
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Hero section: matches inflation-revamp hero styling */
+.home-revamp .home-hero{
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.home-revamp .h1-inflation{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
+    color: #FF9500;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 12px !important;
+}
+
+.home-revamp .inflation-intro{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    color: #f0f0f0;
+    text-align: center !important;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px){
+    .home-revamp .h1-inflation{
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 90%;
+    }
+    .home-revamp .inflation-intro{
+        font-size: 20px !important;
+        line-height: 28px !important;
+        max-width: 90%;
+    }
+}
+
+
+/* ── Scrolling category carousels ──────────────────────────── */
+
+/* Container: breaks out of the 700px-wide .container-main so the
+   carousel can go edge-to-edge of the viewport. Uses a negative
+   margin-left trick with 100vw to pull beyond the parent. */
+.home-carousel-wrap{
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: hidden;
+}
+
+.home-carousel-row{
+    /* Native horizontal scroll container — hides scrollbar but
+       allows mouse/touch drag-to-scroll. */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/legacy Edge */
+    -webkit-overflow-scrolling: touch;
+    padding: 8px 0;
+    cursor: grab;
+}
+
+.home-carousel-row::-webkit-scrollbar{
+    display: none; /* Chrome/Safari */
+}
+
+.home-carousel-row.is-dragging{
+    cursor: grabbing;
+    user-select: none;
+}
+
+.home-carousel-row + .home-carousel-row{
+    margin-top: 4px;
+}
+
+/* Track: holds pills + their duplicate set for seamless infinite loop */
+.home-carousel-track{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0 10px;
+    width: max-content;
+    animation: home-carousel-scroll-left 120s linear infinite;
+    will-change: transform;
+}
+
+.home-carousel-row[data-direction="right"] .home-carousel-track{
+    animation-name: home-carousel-scroll-right;
+}
+
+/* Pause animation on hover / when user is dragging */
+.home-carousel-row:hover .home-carousel-track,
+.home-carousel-row.is-dragging .home-carousel-track,
+.home-carousel-row.is-paused .home-carousel-track{
+    animation-play-state: paused;
+}
+
+@keyframes home-carousel-scroll-left{
+    0%   { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes home-carousel-scroll-right{
+    0%   { transform: translate3d(-50%, 0, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+
+/* Pills: replaces .jump buttons. Proxima Soft font, colored border
+   and label text using existing category color classes (.money,
+   .freedom, etc.). Default neutral state shown below; color classes
+   override the border + text color. */
+.home-pill{
+    flex: 0 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    height: 52px;
+    padding: 0 28px;
+    background: none;
+    border: 2px solid #3d3d3d;
+    border-radius: 999px;
+    font-family: "proxima-soft", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #f0f0f0;
+    text-transform: lowercase;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    -webkit-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.home-pill:hover{
+    transform: scale(1.05);
+}
+
+/* The existing color classes (.money, .freedom, .energy, etc.)
+   set color with !important, which sets the pill text color.
+   We need to also set border-color to inherit from text color.
+   Since the color classes use `color: #XXX !important`, we use
+   currentColor for border to keep colors in sync. */
+.home-pill.money,
+.home-pill.salary,
+.home-pill.freedom,
+.home-pill.human-rights,
+.home-pill.equality,
+.home-pill.property-rights,
+.home-pill.housing,
+.home-pill.business,
+.home-pill.crowdfunding,
+.home-pill.energy,
+.home-pill.environment,
+.home-pill.food,
+.home-pill.art,
+.home-pill.politics,
+.home-pill.war,
+.home-pill.coding,
+.home-pill.networks,
+.home-pill.payments,
+.home-pill.self-custody,
+.home-pill.get-started{
+    border-color: currentColor;
+}
+
+@media (max-width: 500px){
+    .home-pill{
+        height: 46px;
+        padding: 0 22px;
+        font-size: 16px;
+    }
+    .home-carousel-track{
+        gap: 8px;
+    }
+}
+
+
+/* ── Category sections (Bitcoin & money, Bitcoin & freedom, etc.) ──
+   Reuses .whats-next-section as the outer container. Adds
+   .category-section wrapper for homepage-specific tweaks.
+   Each section sets `style="--card-accent: #XXX"` inline based on
+   its category color; .whats-next-card-label uses that variable
+   (see .whats-next-card-label rule above).
+   ─────────────────────────────────────────────────────────────── */
+
+.category-section{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.category-section .whats-next-header{
+    margin-bottom: 20px;
+}
+
+.category-section h2{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #ffffff;
+    margin: 0;
+    text-transform: none;
+    text-align: left;
+}
+
+.category-section h2 .accent{
+    color: var(--card-accent, #FF9500);
+}
+
+@media (max-width: 500px){
+    .category-section h2{
+        font-size: 26px;
+    }
+}
+
+/* Slight tweak to the card label so it ALSO shows on the card title
+   as a decoration nothing-burger — no, just let --card-accent drive
+   the label, and the title stays white. */
+.category-section a.whats-next-card:hover{
+    border-color: color-mix(in srgb, var(--card-accent, #FF9500) 60%, transparent);
+}
+
+.category-section a.whats-next-card:hover .whats-next-card-source{
+    color: var(--card-accent, #FF9500);
+}
+

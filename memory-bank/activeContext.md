@@ -1,5 +1,75 @@
 # Active Context: bitcoin.rocks
 
+## Latest: Homepage (v2) Redesign — April 16, 2026 (pt. 3)
+- **Rebuilt the entire homepage (`/`)** to match the new `/inflation` page design system. This is the second page to use the new visual language (after `/inflation`) and establishes the pattern other pages will gradually migrate to.
+- **Hero**: now uses a centered Proxima Nova Bold orange H1 (`.h1-inflation`) + grey `.inflation-intro` paragraph — same typography and sizes as `/inflation`. Replaced the old image-logo + `.home-h1`/`.home-intro` layout.
+- **Navigation**: replaced the old v1 site-nav with `.site-nav--v2` (logo-on-top-of-pill) exactly matching `/inflation`.
+- **Category carousels**: two horizontal infinite-scroll rows of lowercase colored "pills" replaced the old static `.container-jump` + `.jump` button grid.
+  - Pure CSS `@keyframes` animation (`home-carousel-scroll-left` / `home-carousel-scroll-right`), 120s linear loop, row 2 starts at `-50%` offset and scrolls the opposite direction.
+  - Pills are **duplicated inline** in the HTML (2× each set) so the keyframes can `translateX(-50%)` seamlessly — no JS required for the loop.
+  - `:hover` pauses the animation via `animation-play-state: paused` (CSS-only).
+  - `overflow-x: auto` + `scrollbar-width: none` + `::-webkit-scrollbar { display: none }` hides the scrollbar while still allowing native touch/mouse scroll.
+  - New `jquery/home-carousel.js` adds drag-to-scroll (mouse + touch), click-suppression after drag, and smooth anchor scroll.
+  - Pills use Proxima Soft (per request) with border + text in the existing category color classes (`.money`, `.freedom`, `.energy`, etc.) — which already existed from v1.
+- **Category sections**: replaced all 20 `.text-box.top/.middle/.bottom` stacks with new `.category-section` wrappers that reuse the `.whats-next-section` / `.whats-next-grid` / `.whats-next-card` pattern from `/inflation`.
+  - Heading format: "Bitcoin & **category**" with the accent word colored via `span.accent { color: var(--card-accent) }`.
+  - Each section sets its color via inline `style="--card-accent: #XXXXXX"`.
+  - Card labels (the colored descriptive text like "Full reserve system") now also inherit from `--card-accent` — the `.whats-next-card-label` rule was updated to `color: var(--card-accent, #FF9500)`, so `/inflation` still gets orange labels by default.
+  - All 50+ original homepage cards + external links preserved, redistributed across the 20 sections (money, your salary, freedom, human rights, equality, property rights, housing, business, crowdfunding, energy, the environment, food, art, politics, war, coding, networks, payments, self-custody, you).
+- **i18n refactor (`i18n/en/index_en.json`)**:
+  - Added `home_nav_learn`, `home_nav_get_involved`, `home_nav_about` for the new pill nav.
+  - Added `home_h1` for the hero headline.
+  - Updated `home_intro` to the shorter "Tap on a category… or just start scrolling" copy.
+  - Updated all `home_btn_*` values to **lowercase sentence-style** ("money", "your salary", "the environment") per mockup.
+  - Added 40+ new `home_card_label_*` keys — one descriptive topic label per card (e.g., "Bitcoin is better money", "Which is better?", "Methane reduction").
+  - Added `home_source_prefix = "Source:"` for the card source lines.
+  - Updated all `home_link_title_*` values to sentence case (no longer Title Case) for consistency with the mockup.
+  - Changed `home_section_bitcoin_and` to "Bitcoin &" (sentence case, was "BITCOIN &").
+  - `@metadata.last-updated` bumped to 2026-04-16. All other language `index_xx.json` files will gracefully fall back to English for the new keys until translated.
+- **CSS additions in `css/style.css`** (appended as new "HOMEPAGE REVAMP (v2)" section near EOF):
+  - `.home-revamp .home-hero`, `.home-revamp .h1-inflation`, `.home-revamp .inflation-intro` (hero)
+  - `.home-carousel-wrap` (viewport-wide breakout), `.home-carousel-row` (scroll container, scrollbar hidden), `.home-carousel-track` (the animated flex track), `@keyframes home-carousel-scroll-left/right`
+  - `.home-pill` (replaces `.jump`): Proxima Soft 900, lowercase, 2px border using `currentColor` so the category color classes drive both border + text color
+  - `.category-section` + `.category-section h2 .accent` for the "Bitcoin & **category**" heading pattern
+  - The existing `.whats-next-card-label` was modified from `color: #FF9500` → `color: var(--card-accent, #FF9500)` — this is backwards-compatible (falls back to orange on `/inflation`).
+- **SEO & schema**: new `WebPage` JSON-LD schema added to `index.html` with `dateModified: 2026-04-16`. `node scripts/inject-seo-content.js` ran clean (0 modifications — HTML is in sync with JSON).
+- **Deprecated v1 homepage classes** (kept in CSS for legacy pages, but no longer used on the new homepage): `.home-h1`, `.home-logo`, `.home-intro`, `.container-jump`, `.jump`, `.text-box.top/.middle/.bottom/.solo`, `.item`, `.h3-item` (as used on the old homepage), `.h2-section.second-line`. These are still referenced by other (older) pages that haven't been migrated yet.
+- **Asset version bumped** to `v=1.3.0` on CSS + JS in `index.html` (forces browser cache invalidation).
+- `index.html`: 1,167 lines → 772 lines (395 fewer, ~34% smaller) despite keeping all 50+ cards.
+
+### New homepage pattern (for future migration of other pages)
+```
+<nav class="site-nav site-nav--v2"> … </nav>
+<div class="container-main home-revamp">
+    <div class="home-hero">
+        <h1 class="h1-inflation">…</h1>
+        <p class="inflation-intro">…</p>
+    </div>
+
+    <!-- (optional: carousels, stat cards, feature cards, etc.) -->
+
+    <section class="whats-next-section category-section" id="X"
+             style="--card-accent: #XXXXXX;">
+        <div class="container-inner">
+            <div class="whats-next-header">
+                <h2>Bitcoin &amp; <span class="accent">category</span></h2>
+            </div>
+            <div class="whats-next-grid">
+                <a href="…" class="whats-next-card">
+                    <div>
+                        <div class="whats-next-card-label">Topic</div>
+                        <div class="whats-next-card-title">Full title</div>
+                    </div>
+                    <div class="whats-next-card-source">Source: author →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer"> … </div>
+</div>
+```
+
 ## Latest: Inflation Page — Drop HNL + VEF, EUR Debt, Fix PHP CPI — April 16, 2026 (pt. 2)
 - **Removed HNL (Honduran Lempira) and VEF (Venezuelan Bolívar)** from the inflation page entirely: FRED does not publish usable narrow-money (`MANMM101HN*` / `MANMM101VE*`) or gross-debt (`GGGDTAHN*` / `GGGDTAVE*`) series for either country, so those sections always rendered fallback (hard-coded) values.
   - Dropped from `scripts/inflation-multi/rebuild-inflation-html.js`'s `CURRENCIES` array (now 13 currencies)

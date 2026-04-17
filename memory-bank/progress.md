@@ -1,5 +1,25 @@
 # Progress: bitcoin.rocks
 
+## Homepage (v2) Redesign — April 16, 2026 (pt. 3)
+- Rebuilt `index.html` to use the new `/inflation`-style design system: `.site-nav--v2` pill nav, orange `.h1-inflation` hero, `.inflation-intro` subtitle, two infinite-scroll category carousels of lowercase colored pills, and 20 category sections built with the `.whats-next-section` / `.whats-next-grid` / `.whats-next-card` pattern.
+- Reusable pattern added: CSS variable `--card-accent` on a `.category-section` inline style drives both the `.whats-next-card-label` color and the hover border color. The `.whats-next-card-label` rule was refactored from `color: #FF9500` → `color: var(--card-accent, #FF9500)` (backwards-compatible — `/inflation` still gets orange labels).
+- New `jquery/home-carousel.js` adds drag-to-scroll (mouse + touch) with click-suppression after drag, plus smooth in-page anchor scroll. The endless loop itself is pure CSS (`@keyframes home-carousel-scroll-left/right` over a 120s linear infinite track, paused on `:hover`).
+- Added `.home-pill` class replacing the old `.jump` buttons: Proxima Soft 900 font (per request), lowercase, 2px border via `currentColor` so the existing color classes (`.money`, `.freedom`, etc.) drive both text and border color.
+- Scrollbar hidden via `scrollbar-width: none` + `::-webkit-scrollbar { display: none }` — no visible scrollbar in any browser, but native scroll still works for users who prefer to scroll manually.
+- Pills are duplicated inline in the HTML (2× each set) so the CSS translateX(-50%) animation produces a seamless marquee without needing JS to clone nodes.
+- `i18n/en/index_en.json` refactor:
+  - `home_btn_*` keys updated to lowercase sentence-style values ("money", "your salary", "the environment")
+  - Added 40+ new `home_card_label_*` keys for per-card descriptive topic labels
+  - Added `home_source_prefix`, `home_h1`, `home_nav_learn/get_involved/about`
+  - Updated all `home_link_title_*` to sentence case for consistency with the mockup
+  - `@metadata.last-updated` bumped to 2026-04-16 (other languages fall back gracefully for new keys)
+- Added `WebPage` JSON-LD schema to `index.html` with `dateModified: 2026-04-16`.
+- All 50+ original homepage cards + external links preserved and redistributed into 20 themed sections.
+- `index.html` shrank from 1,167 → 772 lines (~34% smaller) despite keeping all content.
+- CSS asset version bumped to `v=1.3.0`; JS asset version bumped to `v=1.3.0` on `language.js` and new `home-carousel.js`.
+- Deprecated (but preserved) legacy homepage classes for backwards-compatibility with un-migrated pages: `.home-h1`, `.home-logo`, `.home-intro`, `.container-jump`, `.jump`, `.text-box.top/.middle/.bottom/.solo`, `.item`, `.h3-item`, `.h2-section.second-line`.
+- Ran `node scripts/inject-seo-content.js` — 0 changes (HTML already in sync with JSON).
+
 ## Inflation Page — Drop HNL + VEF, EUR Debt, Fix PHP CPI — April 16, 2026 (pt. 2)
 - **Dropped HNL (Honduran Lempira) and VEF (Venezuelan Bolívar)** from the inflation page. FRED does not publish usable narrow-money or gross-debt series for Honduras or Venezuela, so those sections always rendered fallback values.
   - Removed from `jquery/inflation-stats.js` `SUPPORTED_CURRENCIES` array, `forms-backend/inflation-stats.js` `CURRENCIES` config, and `scripts/inflation-multi/rebuild-inflation-html.js` currencies list.

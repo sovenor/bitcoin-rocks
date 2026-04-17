@@ -31,6 +31,23 @@ This is bitcoin.rocks - a Bitcoin education website founded in 2022 with the mis
 - **Card-Based Layout**: Content in rounded containers with hover effects
 - **Typography**: Proxima Nova font family via Adobe Typekit
 
+### V2 Design System (new pages: `/inflation`, `/` homepage)
+As of April 2026, new pages use a refreshed design system. Other pages will gradually migrate to this pattern. Key building blocks:
+- **Navigation**: `.site-nav.site-nav--v2` — logo-on-top-of-pill nav bar (Learn / Get Involved / About / Language)
+- **Hero H1**: `.h1-inflation` — Proxima Nova Bold, 38px desktop / 28px mobile, orange `#FF9500`, sentence case
+- **Intro paragraph**: `.inflation-intro` — 24px desktop / 20px mobile, white, centered
+- **Section H2**: `.inflation-section h2` or `.category-section h2` — Proxima Nova Bold, 28-32px, sentence case
+- **Body text**: Proxima Nova 400, 16-18px, `#ccc` color
+- **Inline links**: `.body-link` — orange, underlined (`text-underline-offset: 3px`)
+- **Cards**: `.whats-next-card` (generic clickable card) — use `--card-accent` CSS variable for color-coded label/hover colors. Set per-section via `style="--card-accent: #XXXXXX"` on the parent `.category-section`. Falls back to orange when unset.
+- **Card label**: `.whats-next-card-label` — 14px Medium, colored via `--card-accent`
+- **Card title**: `.whats-next-card-title` — 24px Regular, white
+- **Card source**: `.whats-next-card-source` — 14px italic, gray, "Source: $author →" format
+- **Homepage pills**: `.home-pill` (replaces old `.jump`) — Proxima Soft 900, lowercase, 2px border via `currentColor`, color class (`.money`, `.freedom`, etc.) drives both text + border
+- **Homepage carousels**: `.home-carousel-wrap` → `.home-carousel-row` (native scroll, hidden scrollbar, pause on hover) → `.home-carousel-track` (CSS `@keyframes` infinite loop). Pills are inline-duplicated in HTML (2× each) so `translateX(-50%)` produces seamless looping. Drag-to-scroll and smooth anchor scroll come from `jquery/home-carousel.js`.
+- **Deprecated v1 classes** (still in CSS for un-migrated pages): `.home-h1`, `.home-logo`, `.home-intro`, `.container-jump`, `.jump`, `.text-box.top/.middle/.bottom/.solo`, `.item`, `.h3-item` (when used as homepage link title), `.h2-section.second-line`. When migrating a page to v2, prefer the new classes above.
+
+
 ## Development Workflow Patterns
 
 ### File Organization

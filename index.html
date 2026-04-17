@@ -40,7 +40,10 @@
         <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
-        <script src="jquery/language.js?v=1.2.9"></script>
+        <script src="jquery/language.js?v=1.3.0"></script>
+
+        <!-- Homepage carousel (drag-to-scroll + smooth anchor scroll) -->
+        <script src="jquery/home-carousel.js?v=1.3.0"></script>
 
         <!-- Favicons for all devices -->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -65,24 +68,8 @@
         <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
 
         <!-- Main stylesheet + typekit for fonts -->
-        <link id="style-link" rel="stylesheet" href="css/style.css?v=1.2.9">
+        <link id="style-link" rel="stylesheet" href="css/style.css?v=1.3.0">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
-
-        
-
-        <!--Code for jump buttons at top of page to auto-scroll to content-->
-        <script>
-            function scrollToSection(sectionId) {
-              var section = document.getElementById(sectionId);
-              var rect = section.getBoundingClientRect();
-              var sectionPosition = rect.top + window.pageYOffset;
-              var offset = 80; // Fixed offset for both desktop and mobile devices
-              window.scroll({
-                behavior: 'smooth',
-                top: sectionPosition - offset
-              });
-            }
-        </script>
 
     
         <!-- WebSite Schema (JSON-LD) for GEO/SEO -->
@@ -162,990 +149,766 @@
         }
         </script>
 
+        <!-- WebPage Schema (JSON-LD) for GEO/SEO -->
+        <script type="application/ld+json">
+        {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Bitcoin builds a better world.",
+              "headline": "Bitcoin is better money that is building a better world.",
+              "description": "Bitcoin is a misunderstood technology that is building a better world. Bitcoin has protected human rights, saved people from high inflation, supported local farmers, reduced emissions from oil drilling, and so much more.",
+              "url": "https://bitcoin.rocks",
+              "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://bitcoin.rocks"
+              },
+              "publisher": {
+                    "@type": "Organization",
+                    "name": "bitcoin.rocks",
+                    "url": "https://bitcoin.rocks",
+                    "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://bitcoin.rocks/img/logos/rocks-logo-color-v2.png"
+                    }
+              },
+              "datePublished": "2022-01-01",
+              "dateModified": "2026-04-16",
+              "inLanguage": "en",
+              "image": "https://bitcoin.rocks/img/meta/meta-home-v4.png"
+        }
+        </script>
+
     </head>
     <body>
-        <div class="container-main">
-            <div class="container-inner">
-                <h1 class="home-h1"><a href="https://bitcoin.rocks"><img src="img/logos/rocks-logo-color-v2.png" class="home-logo" alt="bitcoin.rocks — Bitcoin Education"/></a></h1>
-            </div><!--/container-inner-->
 
-                <div class="text-box home-intro">
-                    <div class="container-inner" id="intro-container">
-
-                        <p data-i18n="home_intro">Bitcoin is better money that is building a better world. Tap on a category below to learn how Bitcoin makes it better, or just start scrolling to explore.</p>
-
-                    </div><!--/container-inner-->
-                </div><!--text-box-->
-
-                <div class="container-jump">
-                    <button class="jump jump-money" onclick="scrollToSection('money')" data-i18n="home_btn_money">BETTER MONEY</button>
-                    <button class="jump jump-salary" onclick="scrollToSection('salary')" data-i18n="home_btn_salary">YOUR SALARY</button>
-                    <button class="jump jump-freedom" onclick="scrollToSection('freedom')" data-i18n="home_btn_freedom">FREEDOM</button>
-                    <button class="jump jump-human-rights" onclick="scrollToSection('human-rights')" data-i18n="home_btn_human_rights">HUMAN RIGHTS</button>
-                    <button class="jump jump-equality" onclick="scrollToSection('equality')" data-i18n="home_btn_equality">EQUALITY</button>
-                    <button class="jump jump-property-rights" onclick="scrollToSection('property-rights')" data-i18n="home_btn_property_rights">PROPERTY RIGHTS</button>
-                    <button class="jump jump-housing" onclick="scrollToSection('housing')" data-i18n="home_btn_housing">HOUSING</button>
-                    <button class="jump jump-business" onclick="scrollToSection('business')" data-i18n="home_btn_business">BUSINESS</button>
-                    <button class="jump jump-crowdfunding" onclick="scrollToSection('crowdfunding')" data-i18n="home_btn_crowdfunding">CROWDFUNDING</button>
-                    <button class="jump jump-energy" onclick="scrollToSection('energy')" data-i18n="home_btn_energy">ENERGY</button>
-                    <button class="jump jump-environment" onclick="scrollToSection('environment')" data-i18n="home_btn_environment">THE ENVIRONMENT</button>
-                    <button class="jump jump-food" onclick="scrollToSection('food')" data-i18n="home_btn_food">FOOD</button>
-                    <button class="jump jump-art" onclick="scrollToSection('art')" data-i18n="home_btn_art">ART</button>
-                    <button class="jump jump-politics" onclick="scrollToSection('politics')" data-i18n="home_btn_politics">POLITICS</button>
-                    <button class="jump jump-war" onclick="scrollToSection('war')" data-i18n="home_btn_war">WAR</button>
-                    <button class="jump jump-coding" onclick="scrollToSection('coding')" data-i18n="home_btn_coding">CODING</button>
-                    <!--  <button class="jump jump-ai" onclick="scrollToSection('ai')" data-i18n="home_btn_ai"></button> -->
-                    <button class="jump jump-networks" onclick="scrollToSection('networks')" data-i18n="home_btn_networks">NETWORKS</button>
-                    <button class="jump jump-payments" onclick="scrollToSection('payments')" data-i18n="home_btn_payments">PAYMENTS</button>
-                    <button class="jump jump-self-custody" onclick="scrollToSection('self-custody')" data-i18n="home_btn_self_custody">SELF-CUSTODY</button>
-                    <button class="jump jump-get-started" onclick="scrollToSection('get-started')" data-i18n="home_btn_you">YOU</button>
-                </div><!--/container-jump-->
-
-<!-- MONEY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/inflation">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                            <h2 class="h2-section" id="money" data-i18n="home_section_bitcoin_is">BITCOIN IS</h2>
-                            <h2 class="second-line money h2-section" data-i18n="home_btn_money">BETTER MONEY</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_inflation">Bitcoin Doesn't Have Inflation</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bank-runs">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_bank_runs">Bitcoin Doesn't Have Bank Runs</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-gold">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_gold">Bitcoin vs Gold</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-crypto" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_crypto">Bitcoin vs Crypto</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-cash">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_cash">Bitcoin vs Cash</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-bonds">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_bonds">Bitcoin vs Bonds</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/cbdc">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_cbdc">Bitcoin vs CBDCs</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- YOUR SALARY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/compound-inflation-calculator">
-                    <div class="text-box solo">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="salary" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line salary h2-section" data-i18n="home_btn_salary">YOUR SALARY</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_your_salary_1">Find out how much your salary needs to increase to keep up with inflation.</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_cic">Compound Inflation Calculator</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- FREEDOM -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://time.com/5486673/bitcoin-venezuela-authoritarian/" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="freedom" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line freedom h2-section" data-i18n="home_btn_freedom">FREEDOM</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_freedom_1">Why Bitcoin Matters for Freedom</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_time_magazine">TIME Magazine</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://fortune.com/2021/02/18/bitcoin-censorship-political-repression-deplatforming-china-belarus-russia-nigeria-crypto/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_freedom_2">Bitcoin offers freedom from political repression</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_fortune">Fortune</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- HUMAN RIGHTS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://anitaposch.com/bitcoin-enforces-human-rights" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="human-rights" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line human-rights h2-section" data-i18n="home_btn_human_rights">HUMAN RIGHTS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_human_rights_1">How Bitcoin Enforces Human Rights</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_anita_posch">Anita Posch</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=d5AvBsxRMYk" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_human_rights_2">The Silent Bitcoin Revolution of Africa</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=xLYYh4aPXAM" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_human_rights_3">Bitcoin is Protecting Human Rights Around the World</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- EQUALITY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://www.youtube.com/watch?v=P8vlzaDSNY0" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="equality" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line equality h2-section" data-i18n="home_btn_equality">EQUALITY</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_equality_1">Bitcoin is Bringing Hope &amp; Opportunity to South Africans</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=FuKKP5HJ934" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_equality_2">How Bitcoin can be a Game Changer for Black Americans</h3>
-                                <div class="type" data-i18n="home_link_type_podcast">PODCAST</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- PROPERTY RIGHTS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-real-estate">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="property-rights" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line property-rights h2-section" data-i18n="home_btn_property_rights">PROPERTY RIGHTS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_property_rights_2">Bitcoin vs Real Estate</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=mP0f2s39GDs" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_property_rights_1">Bitcoin is the Perfect Form of Property</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- AFFORDABLE HOUSING -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://www.youtube.com/watch?v=OU494py-G8Y" target="_blank">
-                    <div class="text-box solo">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="housing" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line housing h2-section" data-i18n="home_btn_housing">HOUSING</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_housing_1">How Bitcoin Will Make Housing Affordable Again</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- BUSINESS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-stocks">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="business" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line business h2-section" data-i18n="home_btn_business">BUSINESS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_business_3">Bitcoin vs Stocks</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/business/">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_business_1">Learn why Bitcoin is Good for Business</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/business/kit">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_business_2">Get a Local Business to Accept Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- CROWDFUNDING -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://qz.com/africa/1922466/how-bitcoin-powered-nigerias-endsars-protests" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="crowdfunding" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line crowdfunding h2-section" data-i18n="home_btn_crowdfunding">CROWDFUNDING</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_crowdfunding_1">How Bitcoin Powered the Largest Nigerian Protests in a Generation</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_quartz">Quartz</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://finance.yahoo.com/news/canadian-trucker-protest-raises-over-161208767.html" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_crowdfunding_2">Canadian Trucker Protest Raises Money in Bitcoin after GoFundMe Blocks Donations</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_yahoo_finance">Yahoo Finance</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://geyser.fund/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_crowdfunding_3">Geyser = Crowdfund with Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_geyser">Geyser</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- ENERGY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="energy" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line energy h2-section" data-i18n="home_btn_energy">ENERGY</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_1">How Bitcoin Stabilizes the Texas Power Grid</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoinuses.energy/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_2">Why does Bitcoin use energy?</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_uses_energy">BitcoinUses.Energy</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.lynalden.com/bitcoin-energy/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_3">Bitcoin's energy usage isn't a problem. Here's why.</h3>
-                                <div class="type" data-i18n="home_link_type_data">DATA</div>
-                                <div class="author" data-i18n="home_link_author_lyn_alden">Lyn Alden</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.forbes.com/sites/jemmagreen/2023/01/27/why-no-one-saw-the-success-of-demand-response-coming/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_4">Bitcoin mining is stabilizing energy grids through Demand Response</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_forbes">Forbes</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.coindesk.com/consensus-magazine/2023/04/17/gridless-mining-extends-power-in-africa/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_5">Bitcoin miners are bringing hydro power to rural African communities</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_coindesk">CoinDesk</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/shorts/6x_nfuNigI8" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_energy_6">How Bitcoin Incentivizes Renewable Energy</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- ENVIRONMENT -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="environment" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line environment h2-section" data-i18n="home_btn_environment">THE ENVIRONMENT</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_environment_1">How Bitcoin mining is reducing global methane emissions</h3>
-                                <div class="type" data-i18n="home_link_type_research">RESEARCH</div>
-                                <div class="author" data-i18n="home_link_author_daniel_batten">Daniel Batten</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.technologyreview.com/2023/01/13/1066820/cryptocurrency-bitcoin-mining-congo-virunga-national-park/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_environment_2">How Bitcoin mining saved a National Park</h3>
-                                <div class="type" data-i18n="home_link_type_story">STORY</div>
-                                <div class="author" data-i18n="home_link_author_mit_technology_review">MIT Technology Review</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoinis.green/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_environment_3">Bitcoin is the greenest industry on Earth!</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_is_green">BitcoinIs.Green</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://engineering.tamu.edu/news/2022/03/etid-how-two-former-students-started-mining-bitcoin-fueled-by-flared-natural-gas.html" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_environment_4">Bitcoin mining is preventing flared natural gas from polluting the atmosphere</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_texas_am_university">Texas A&amp;M University</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- THE FOOD SUPPLY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://www.youtube.com/watch?v=Q2JrqsFDok0" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="food" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line food h2-section" data-i18n="home_btn_food">FOOD</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_food_1">How Inflation Affects Food Prices</h3>
-                                <div class="type" data-i18n="home_link_type_video">VIDEO</div>
-                                <div class="author" data-i18n="home_link_author_youtube">YouTube</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://saifedean.com/fiatfood/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_food_2">How Fiat Money is Bad for Food, Farms, and Earth's Soil</h3>
-                                <div class="type" data-i18n="home_link_type_book_excerpt">BOOK EXCERPT</div>
-                                <div class="author" data-i18n="home_link_author_saifedean_ammous">Saifedean Ammous</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- ART -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-fine-art">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="art" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line art h2-section" data-i18n="home_btn_art">ART</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_fine_art">Bitcoin vs Fine Art</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/flyers">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_art_3">Print &amp; Post Bitcoin Flyers</h3>
-                                <div class="type" data-i18n="home_link_type_outreach">OUTREACH</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/stickers">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_art_1">Join our Bitcoin Sticker Initiative</h3>
-                                <div class="type" data-i18n="home_link_type_street_art">STREET ART</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- POLITICS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoinmagazine.com/culture/bitcoins-existence-is-a-political-paradox" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="politics" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line politics h2-section" data-i18n="home_btn_politics">POLITICS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_politics_1">Bitcoin is a Political Paradox</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_magazine">Bitcoin Magazine</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://voteforbetter.money/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_politics_2">You can Vote For Better Money</h3>
-                                <div class="type" data-i18n="home_link_type_campaign">CAMPAIGN</div>
-                                <div class="author" data-i18n="home_link_author_vfbm">VoteForBetter.Money</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- WAR -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://medium.com/@MishaGuttentag/how-bitcoin-could-end-endless-war-and-other-big-ideas-from-the-bitcoin-standard-9ec3626fd962" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="war" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line war h2-section" data-i18n="home_btn_war">WAR</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_war_1">How Bitcoin Could End Endless War</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_misha_guttentag">Misha Guttentag</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://weslippman.substack.com/p/bitcoin-and-veterans" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_war_2">Bitcoin &amp; Veterans: A Natural Alignment</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_wes_lippman">Wes Lippman</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.forbes.com/sites/digital-assets/2023/07/05/how-bitcoin-helps-civilians-escape-the-war-in-sudan/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_war_3">How Bitcoin Helps Civilians Escape the War in Sudan</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_forbes">Forbes</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- CODING -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://trybitcoin.satsie.dev/" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="coding" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line coding h2-section" data-i18n="home_btn_coding">CODING</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_coding_1">An Interactive Tutorial about Bitcoin's Technical Side</h3>
-                                <div class="type" data-i18n="home_link_type_software">SOFTWARE</div>
-                                <div class="author" data-i18n="home_link_author_satsie">Satsie</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://savingsatoshi.com/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_coding_3">Code your way through the mysteries of Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_software">SOFTWARE</div>
-                                <div class="author" data-i18n="home_link_author_saving_satoshi">Saving Satoshi</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=QIgzxG-QP3Q" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_coding_2">bitcoinSwitch: retrofit any device to accept Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_hardware">HARDWARE</div>
-                                <div class="author" data-i18n="home_link_author_makerbits">MakerBits</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- NETWORKS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://mempool.space/" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="networks" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line networks h2-section" data-i18n="home_btn_networks">NETWORKS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_networks_1">A live view of the Bitcoin network</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_mempool_space">Mempool.space</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-banks">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_networks_2">Bitcoin vs Banks</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- PAYMENTS -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/bitcoin-vs-visa">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="payments" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line payments h2-section" data-i18n="home_btn_payments">PAYMENTS</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_payments_1">Bitcoin vs Visa</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.swanbitcoin.com/a-look-at-the-lightning-network/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_payments_2">A Look at the Lightning Network (Instant Bitcoin Payments)</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_lyn_alden">Lyn Alden</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://blockworks.co/news/el-salvador-bitcoin-wallet-could-disrupt-traditional-remittance-markets" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_payments_3">El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_blockworks">Blockworks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://lightningaddress.com/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_payments_4">Get Your Lightning Address to Receive Instant Bitcoin Payments</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_lightning_address">LightningAddress.com</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- SELF-CUSTODY -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin.rocks/wallets">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="self-custody" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line self-custody h2-section" data-i18n="home_btn_self_custody">SELF-CUSTODY</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_self_custody_1">How to Safely Store Your Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_guide">GUIDE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://armantheparman.com/withdraw/" target="_blank">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_self_custody_2">6 Reasons to Withdraw Your Bitcoin from Exchanges</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_arman_the_parman">Arman The Parman</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://www.lynalden.com/gold-and-bitcoin/" target="_blank">
-                    <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_self_custody_3">Gold, Bitcoin, and Self-Custody</h3>
-                                <div class="type" data-i18n="home_link_type_article">ARTICLE</div>
-                                <div class="author" data-i18n="home_link_author_lyn_alden">Lyn Alden</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- GET STARTED -->
-
-            <div class="break-micro"></div>
-
-                <a href="https://bitcoin-explorama.com/" target="_blank">
-                    <div class="text-box top">
-                        <div class="container-inner">
-                          <h2 class="h2-section" id="get-started" data-i18n="home_section_bitcoin_and">BITCOIN &amp;</h2>
-                          <h2 class="second-line get-started h2-section" data-i18n="home_btn_you">YOU</h2>
-
-                            <div class="item first">
-                                <h3 class="h3-item" data-i18n="home_link_title_get_started_1">Learn the basics of Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_explorama">Bitcoin Explorama</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-                <a href="https://bitcoin.rocks/wallets">
-                    <div class="text-box middle">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_get_started_2">Get your first Bitcoin Wallet</h3>
-                                <div class="type" data-i18n="home_link_type_guide">GUIDE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-            <a href="https://bitcoin.rocks/buy">
-                <div class="text-box bottom">
-                        <div class="container-inner">
-
-                            <div class="item">
-                                <h3 class="h3-item" data-i18n="home_link_title_get_started_3">How to Buy Bitcoin</h3>
-                                <div class="type" data-i18n="home_link_type_website">WEBSITE</div>
-                                <div class="author" data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</div>
-                                <div class="clear"></div>
-                            </div><!--/item-->
-                        </div><!--/container-inner-->
-                    </div><!--/text-box-->
-                </a>
-
-<!-- FOOTER -->
-
+        <!-- Global Navigation Bar (V2 pill nav — matches /inflation) -->
+        <nav class="site-nav site-nav--v2">
+            <a href="https://bitcoin.rocks" class="site-nav-v2-logo-link">
+                <img src="img/logos/rocks-logo-color-v2.png" class="site-nav-v2-logo" alt="bitcoin.rocks"/>
+            </a>
+            <div class="site-nav-v2-pill">
+                <a href="https://bitcoin.rocks" data-i18n="home_nav_learn">Learn</a>
+                <a href="https://bitcoin.rocks/get-involved" data-i18n="home_nav_get_involved">Get Involved</a>
+                <a href="https://bitcoin.rocks/about" data-i18n="home_nav_about">About</a>
+                <span class="site-nav-lang" id="nav-language-label">English</span>
+            </div>
+        </nav>
+
+        <div class="container-main home-revamp">
+
+            <!-- ═══ HERO ═══ -->
+            <div class="home-hero">
+                <h1 class="h1-inflation" data-i18n="home_h1">Bitcoin is better money that is building a better world.</h1>
+                <p class="inflation-intro" data-i18n="home_intro">Tap on a category below to learn how Bitcoin makes it better, or just start scrolling to explore.</p>
+            </div><!--/home-hero-->
+
+            <!-- ═══ CATEGORY CAROUSELS (two rows, opposite directions, infinite loop) ═══
+                 Pills are duplicated inline (twice) so the CSS @keyframes animation
+                 can loop seamlessly: we translateX(-50%) over 120s and the second
+                 half re-enters from the right, producing an endless marquee.
+                 Row 1 scrolls left; Row 2 scrolls right with a -50% starting offset.
+            -->
+            <div class="home-carousel-wrap">
+
+                <div class="home-carousel-row" data-direction="left">
+                    <div class="home-carousel-track">
+                        <!-- First set -->
+                        <a href="#money" class="home-pill money" data-i18n="home_btn_money">money</a>
+                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary">your salary</a>
+                        <a href="#freedom" class="home-pill freedom" data-i18n="home_btn_freedom">freedom</a>
+                        <a href="#human-rights" class="home-pill human-rights" data-i18n="home_btn_human_rights">human rights</a>
+                        <a href="#equality" class="home-pill equality" data-i18n="home_btn_equality">equality</a>
+                        <a href="#property-rights" class="home-pill property-rights" data-i18n="home_btn_property_rights">property rights</a>
+                        <a href="#housing" class="home-pill housing" data-i18n="home_btn_housing">housing</a>
+                        <a href="#business" class="home-pill business" data-i18n="home_btn_business">business</a>
+                        <a href="#crowdfunding" class="home-pill crowdfunding" data-i18n="home_btn_crowdfunding">crowdfunding</a>
+                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy">energy</a>
+                        <!-- Duplicate set (required for seamless infinite loop) -->
+                        <a href="#money" class="home-pill money" data-i18n="home_btn_money" aria-hidden="true" tabindex="-1">money</a>
+                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary" aria-hidden="true" tabindex="-1">your salary</a>
+                        <a href="#freedom" class="home-pill freedom" data-i18n="home_btn_freedom" aria-hidden="true" tabindex="-1">freedom</a>
+                        <a href="#human-rights" class="home-pill human-rights" data-i18n="home_btn_human_rights" aria-hidden="true" tabindex="-1">human rights</a>
+                        <a href="#equality" class="home-pill equality" data-i18n="home_btn_equality" aria-hidden="true" tabindex="-1">equality</a>
+                        <a href="#property-rights" class="home-pill property-rights" data-i18n="home_btn_property_rights" aria-hidden="true" tabindex="-1">property rights</a>
+                        <a href="#housing" class="home-pill housing" data-i18n="home_btn_housing" aria-hidden="true" tabindex="-1">housing</a>
+                        <a href="#business" class="home-pill business" data-i18n="home_btn_business" aria-hidden="true" tabindex="-1">business</a>
+                        <a href="#crowdfunding" class="home-pill crowdfunding" data-i18n="home_btn_crowdfunding" aria-hidden="true" tabindex="-1">crowdfunding</a>
+                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy" aria-hidden="true" tabindex="-1">energy</a>
+                    </div>
+                </div>
+
+                <div class="home-carousel-row" data-direction="right">
+                    <div class="home-carousel-track">
+                        <!-- First set (different category order so the two rows feel distinct) -->
+                        <a href="#environment" class="home-pill environment" data-i18n="home_btn_environment">the environment</a>
+                        <a href="#food" class="home-pill food" data-i18n="home_btn_food">food</a>
+                        <a href="#art" class="home-pill art" data-i18n="home_btn_art">art</a>
+                        <a href="#politics" class="home-pill politics" data-i18n="home_btn_politics">politics</a>
+                        <a href="#war" class="home-pill war" data-i18n="home_btn_war">war</a>
+                        <a href="#coding" class="home-pill coding" data-i18n="home_btn_coding">coding</a>
+                        <a href="#networks" class="home-pill networks" data-i18n="home_btn_networks">networks</a>
+                        <a href="#payments" class="home-pill payments" data-i18n="home_btn_payments">payments</a>
+                        <a href="#self-custody" class="home-pill self-custody" data-i18n="home_btn_self_custody">self-custody</a>
+                        <a href="#get-started" class="home-pill get-started" data-i18n="home_btn_you">you</a>
+                        <!-- Duplicate set -->
+                        <a href="#environment" class="home-pill environment" data-i18n="home_btn_environment" aria-hidden="true" tabindex="-1">the environment</a>
+                        <a href="#food" class="home-pill food" data-i18n="home_btn_food" aria-hidden="true" tabindex="-1">food</a>
+                        <a href="#art" class="home-pill art" data-i18n="home_btn_art" aria-hidden="true" tabindex="-1">art</a>
+                        <a href="#politics" class="home-pill politics" data-i18n="home_btn_politics" aria-hidden="true" tabindex="-1">politics</a>
+                        <a href="#war" class="home-pill war" data-i18n="home_btn_war" aria-hidden="true" tabindex="-1">war</a>
+                        <a href="#coding" class="home-pill coding" data-i18n="home_btn_coding" aria-hidden="true" tabindex="-1">coding</a>
+                        <a href="#networks" class="home-pill networks" data-i18n="home_btn_networks" aria-hidden="true" tabindex="-1">networks</a>
+                        <a href="#payments" class="home-pill payments" data-i18n="home_btn_payments" aria-hidden="true" tabindex="-1">payments</a>
+                        <a href="#self-custody" class="home-pill self-custody" data-i18n="home_btn_self_custody" aria-hidden="true" tabindex="-1">self-custody</a>
+                        <a href="#get-started" class="home-pill get-started" data-i18n="home_btn_you" aria-hidden="true" tabindex="-1">you</a>
+                    </div>
+                </div>
+
+            </div><!--/home-carousel-wrap-->
+
+            <!-- ══════════════════════════════════════════════════
+                 CATEGORY SECTIONS
+                 Each section reuses the .whats-next-section +
+                 .whats-next-grid + .whats-next-card pattern from
+                 the /inflation page. The --card-accent CSS variable
+                 (set inline on the section) drives the label color
+                 AND the hover border color.
+                 ══════════════════════════════════════════════════ -->
+
+            <!-- ═══ MONEY ═══ -->
+            <section class="whats-next-section category-section" id="money" style="--card-accent: #19BC38;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_money">money</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/inflation" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_inflation">Bitcoin is better money</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_inflation">Bitcoin doesn't have inflation</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bank-runs" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_bank_runs">Full reserve system</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_bank_runs">Bitcoin doesn't have bank runs</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-gold" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_gold">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_gold">Bitcoin vs Gold: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-cbdc" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_cbdc">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_cbdc">Bitcoin vs CBDCs: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-crypto" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_crypto">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_crypto">Bitcoin vs Crypto: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-cash" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_cash">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_cash">Bitcoin vs Cash: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-bonds" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_bonds">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_bonds">Bitcoin vs Bonds: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ YOUR SALARY ═══ -->
+            <section class="whats-next-section category-section" id="salary" style="--card-accent: #2274A5;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_salary">your salary</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/compound-inflation-calculator" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_salary">Protect your salary</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_your_salary_1">Find out how much your salary needs to increase to keep up with inflation</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_cic">Compound Inflation Calculator</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ FREEDOM ═══ -->
+            <section class="whats-next-section category-section" id="freedom" style="--card-accent: #96041C;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_freedom">freedom</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://time.com/5486673/bitcoin-venezuela-authoritarian/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_freedom_1">Authoritarian regimes</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_freedom_1">Why Bitcoin matters for freedom</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_time_magazine">TIME Magazine</span> →</div>
+                        </a>
+                        <a href="https://fortune.com/2021/02/18/bitcoin-censorship-political-repression-deplatforming-china-belarus-russia-nigeria-crypto/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_freedom_2">Political repression</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_freedom_2">Bitcoin offers freedom from political repression</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_fortune">Fortune</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ HUMAN RIGHTS ═══ -->
+            <section class="whats-next-section category-section" id="human-rights" style="--card-accent: #FF9500;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_human_rights">human rights</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://anitaposch.com/bitcoin-enforces-human-rights" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_human_rights_1">Human rights enforcement</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_human_rights_1">How Bitcoin enforces human rights</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_anita_posch">Anita Posch</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=d5AvBsxRMYk" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_human_rights_2">Grassroots adoption</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_human_rights_2">The silent Bitcoin revolution of Africa</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=xLYYh4aPXAM" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_human_rights_3">Global impact</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_human_rights_3">Bitcoin is protecting human rights around the world</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ EQUALITY ═══ -->
+            <section class="whats-next-section category-section" id="equality" style="--card-accent: #8C5383;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_equality">equality</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://www.youtube.com/watch?v=P8vlzaDSNY0" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_equality_1">Hope &amp; opportunity</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_equality_1">Bitcoin is bringing hope &amp; opportunity to South Africans</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=FuKKP5HJ934" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_equality_2">A game changer</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_equality_2">How Bitcoin can be a game changer for Black Americans</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ PROPERTY RIGHTS ═══ -->
+            <section class="whats-next-section category-section" id="property-rights" style="--card-accent: #EB4B98;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_property_rights">property rights</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/bitcoin-vs-real-estate" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_property_rights_1">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_property_rights_2">Bitcoin vs Real Estate: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mP0f2s39GDs" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_property_rights_2">True ownership</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_property_rights_1">Bitcoin is the perfect form of property</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ HOUSING ═══ -->
+            <section class="whats-next-section category-section" id="housing" style="--card-accent: #935425;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_housing">housing</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://www.youtube.com/watch?v=OU494py-G8Y" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_housing_1">Affordable housing</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_housing_1">How Bitcoin will make housing affordable again</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ BUSINESS ═══ -->
+            <section class="whats-next-section category-section" id="business" style="--card-accent: #08B2E3;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_business">business</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/bitcoin-vs-stocks" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_business_1">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_business_3">Bitcoin vs Stocks: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/business/" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_business_2">Accept Bitcoin</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_business_1">Learn why Bitcoin is good for business</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/business/kit" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_business_3">Local business kit</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_business_2">Get a local business to accept Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ CROWDFUNDING ═══ -->
+            <section class="whats-next-section category-section" id="crowdfunding" style="--card-accent: #D1D646;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_crowdfunding">crowdfunding</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://qz.com/africa/1922466/how-bitcoin-powered-nigerias-endsars-protests" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_crowdfunding_1">EndSARS protests</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_crowdfunding_1">How Bitcoin powered the largest Nigerian protests in a generation</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_quartz">Quartz</span> →</div>
+                        </a>
+                        <a href="https://finance.yahoo.com/news/canadian-trucker-protest-raises-over-161208767.html" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_crowdfunding_2">Alternative to GoFundMe</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_crowdfunding_2">Canadian trucker protest raises money in Bitcoin after GoFundMe blocks donations</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_yahoo_finance">Yahoo Finance</span> →</div>
+                        </a>
+                        <a href="https://geyser.fund/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_crowdfunding_3">Fund your project</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_crowdfunding_3">Geyser: crowdfund with Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_geyser">Geyser</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ ENERGY ═══ -->
+            <section class="whats-next-section category-section" id="energy" style="--card-accent: #1DFF4D;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_energy">energy</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://www.youtube.com/watch?v=48EIMlS0cIs" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_1">Grid stabilization</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_1">How Bitcoin stabilizes the Texas power grid</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                        <a href="https://bitcoinuses.energy/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_2">Why energy?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_2">Why does Bitcoin use energy?</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_uses_energy">BitcoinUses.Energy</span> →</div>
+                        </a>
+                        <a href="https://www.lynalden.com/bitcoin-energy/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_3">Not a problem</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_3">Bitcoin's energy usage isn't a problem. Here's why.</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_lyn_alden">Lyn Alden</span> →</div>
+                        </a>
+                        <a href="https://www.forbes.com/sites/jemmagreen/2023/01/27/why-no-one-saw-the-success-of-demand-response-coming/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_4">Demand response</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_4">Bitcoin mining is stabilizing energy grids through demand response</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_forbes">Forbes</span> →</div>
+                        </a>
+                        <a href="https://www.coindesk.com/consensus-magazine/2023/04/17/gridless-mining-extends-power-in-africa/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_5">Rural electrification</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_5">Bitcoin miners are bringing hydro power to rural African communities</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_coindesk">CoinDesk</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/shorts/6x_nfuNigI8" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_6">Renewable incentives</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_6">How Bitcoin incentivizes renewable energy</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ THE ENVIRONMENT ═══ -->
+            <section class="whats-next-section category-section" id="environment" style="--card-accent: #5B7553;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_environment">the environment</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://batcoinz.com/quantifying-the-potential-impact-of-bitcoin-mining-on-global-methane-emissions/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_environment_1">Methane reduction</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_environment_1">How Bitcoin mining is reducing global methane emissions</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_daniel_batten">Daniel Batten</span> →</div>
+                        </a>
+                        <a href="https://www.technologyreview.com/2023/01/13/1066820/cryptocurrency-bitcoin-mining-congo-virunga-national-park/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_environment_2">Saved a national park</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_environment_2">How Bitcoin mining saved a national park</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_mit_technology_review">MIT Technology Review</span> →</div>
+                        </a>
+                        <a href="https://bitcoinis.green/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_environment_3">Greenest industry</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_environment_3">Bitcoin is the greenest industry on Earth</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_is_green">BitcoinIs.Green</span> →</div>
+                        </a>
+                        <a href="https://engineering.tamu.edu/news/2022/03/etid-how-two-former-students-started-mining-bitcoin-fueled-by-flared-natural-gas.html" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_environment_4">Reduces flared gas</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_environment_4">Bitcoin mining is preventing flared natural gas from polluting the atmosphere</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_texas_am_university">Texas A&amp;M University</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ FOOD ═══ -->
+            <section class="whats-next-section category-section" id="food" style="--card-accent: #FF571D;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_food">food</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://www.youtube.com/watch?v=Q2JrqsFDok0" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_food_1">Food prices</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_food_1">How inflation affects food prices</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
+                        </a>
+                        <a href="https://saifedean.com/fiatfood/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_food_2">Farms &amp; soil</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_food_2">How fiat money is bad for food, farms, and Earth's soil</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_saifedean_ammous">Saifedean Ammous</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ ART ═══ -->
+            <section class="whats-next-section category-section" id="art" style="--card-accent: #1F1FFF;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_art">art</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/bitcoin-vs-fine-art" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_art_1">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_fine_art">Bitcoin vs Fine Art: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/flyers" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_art_2">Print flyers</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_art_3">Print &amp; post Bitcoin flyers</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/stickers" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_art_3">Street art</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_art_1">Join our Bitcoin sticker initiative</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ POLITICS ═══ -->
+            <section class="whats-next-section category-section" id="politics" style="--card-accent: #9500FF;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_politics">politics</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoinmagazine.com/culture/bitcoins-existence-is-a-political-paradox" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_politics_1">Political paradox</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_politics_1">Bitcoin is a political paradox</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_magazine">Bitcoin Magazine</span> →</div>
+                        </a>
+                        <a href="https://voteforbetter.money/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_politics_2">Vote for better money</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_politics_2">You can vote for better money</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_vfbm">VoteForBetter.Money</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ WAR ═══ -->
+            <section class="whats-next-section category-section" id="war" style="--card-accent: #ED1C24;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_war">war</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://medium.com/@MishaGuttentag/how-bitcoin-could-end-endless-war-and-other-big-ideas-from-the-bitcoin-standard-9ec3626fd962" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_war_1">End endless war</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_war_1">How Bitcoin could end endless war</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_misha_guttentag">Misha Guttentag</span> →</div>
+                        </a>
+                        <a href="https://weslippman.substack.com/p/bitcoin-and-veterans" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_war_2">Natural alignment</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_war_2">Bitcoin &amp; Veterans: a natural alignment</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_wes_lippman">Wes Lippman</span> →</div>
+                        </a>
+                        <a href="https://www.forbes.com/sites/digital-assets/2023/07/05/how-bitcoin-helps-civilians-escape-the-war-in-sudan/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_war_3">Wartime escape</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_war_3">How Bitcoin helps civilians escape the war in Sudan</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_forbes">Forbes</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ CODING ═══ -->
+            <section class="whats-next-section category-section" id="coding" style="--card-accent: #89FC00;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_coding">coding</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://trybitcoin.satsie.dev/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_coding_1">Interactive tutorial</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_coding_1">An interactive tutorial about Bitcoin's technical side</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_satsie">Satsie</span> →</div>
+                        </a>
+                        <a href="https://savingsatoshi.com/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_coding_3">Coding puzzles</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_coding_3">Code your way through the mysteries of Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_saving_satoshi">Saving Satoshi</span> →</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=QIgzxG-QP3Q" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_coding_2">Build hardware</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_coding_2">bitcoinSwitch: retrofit any device to accept Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_makerbits">MakerBits</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ NETWORKS ═══ -->
+            <section class="whats-next-section category-section" id="networks" style="--card-accent: #1E3A8A;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_networks">networks</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://mempool.space/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_networks_1">Live network view</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_networks_1">A live view of the Bitcoin network</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_mempool_space">Mempool.space</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-banks" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_networks_2">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_networks_2">Bitcoin vs Banks: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ PAYMENTS ═══ -->
+            <section class="whats-next-section category-section" id="payments" style="--card-accent: #FFE91D;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_payments">payments</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/bitcoin-vs-visa" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_payments_1">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_payments_1">Bitcoin vs Visa: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://www.swanbitcoin.com/a-look-at-the-lightning-network/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_payments_2">Lightning Network</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_payments_2">A look at the Lightning Network (instant Bitcoin payments)</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_lyn_alden">Lyn Alden</span> →</div>
+                        </a>
+                        <a href="https://blockworks.co/news/el-salvador-bitcoin-wallet-could-disrupt-traditional-remittance-markets" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_payments_3">Remittances</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_payments_3">El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_blockworks">Blockworks</span> →</div>
+                        </a>
+                        <a href="https://lightningaddress.com/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_payments_4">Receive payments</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_payments_4">Get your Lightning Address to receive instant Bitcoin payments</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_lightning_address">LightningAddress.com</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ SELF-CUSTODY ═══ -->
+            <section class="whats-next-section category-section" id="self-custody" style="--card-accent: #B3FFFC;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_self_custody">self-custody</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/wallets" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_self_custody_1">Store your Bitcoin</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_self_custody_1">How to safely store your Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://armantheparman.com/withdraw/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_self_custody_2">Leave exchanges</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_self_custody_2">6 reasons to withdraw your Bitcoin from exchanges</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_arman_the_parman">Arman The Parman</span> →</div>
+                        </a>
+                        <a href="https://www.lynalden.com/gold-and-bitcoin/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_self_custody_3">Sovereign money</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_self_custody_3">Gold, Bitcoin, and self-custody</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_lyn_alden">Lyn Alden</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ YOU (GET STARTED) ═══ -->
+            <section class="whats-next-section category-section" id="get-started" style="--card-accent: #FF9500;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_you">you</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin-explorama.com/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_get_started_1">Beginner basics</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_get_started_1">Learn the basics of Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_explorama">Bitcoin Explorama</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/wallets" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_get_started_2">Your first wallet</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_get_started_2">Get your first Bitcoin wallet</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/buy" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_get_started_3">Buy Bitcoin</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_get_started_3">How to buy Bitcoin</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
             <div class="footer">
                 <div class="container-inner">
                     <p class="footer-tagline" data-i18n="common_footer_tagline">Accelerating bitcoin adoption through education.</p>
