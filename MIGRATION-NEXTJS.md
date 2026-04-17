@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 9a complete · Awaiting Phase 9b (sticker/sign/postcard forms + buy-flow + successes)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator)
+**Status:** Phase 9b complete · Awaiting Phase 10 (business section)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 9a done → starting Phase 9b next.
+**Current position pointer:** Phase 9b done → starting Phase 10 next.
 
 
 ---
@@ -323,20 +323,31 @@ Port **faithfully** in Tailwind; defer V2 redesign.
 - [x] `npm run start` + `/tmp/verify-phase9a.js` — all 6 assertions pass: `/en/wallets` (192 KB, 11 markers including `wallet-q`, `wallet-box`, `BLOCKSTREAM GREEN`, `COLDCARD MK5`, `SEEDSIGNER`, Article + BreadcrumbList JSON-LD, `wallet-accordion-content`, `alert`, `publisher-attribution`), `/en/lightning` (177 KB, 8 markers including `PHOENIX`/`BREEZ`/`WALLET OF SATOSHI`), `/en/flyers` (168 KB, 9 markers including print/download buttons + share-on-nostr), `/en/compound-inflation-calculator` (166 KB, 8 markers including form inputs + calculate button + "Opt Out of Inflation with Bitcoin" CTA), `/ar/wallets` → `<html lang="ar" dir="rtl">`, `/sitemap.xml` contains all 4 new English URLs.
 - [x] Commit: "Phase 9a: wallets, lightning, flyers, calculator-solo"
 
-### Phase 9b — Form pages + successes
-- [ ] `components/StickerPicker.tsx` ← port `jquery/sticker-picker.js`
-- [ ] `components/CountrySelectorForm.tsx` ← port `jquery/country-selector-forms.js`
-- [ ] `components/BuyFlow.tsx` ← port `jquery/buy-flow.js` (multi-step wizard)
-- [ ] `app/[locale]/stickers/page.tsx`
-- [ ] `app/[locale]/signs/page.tsx`
-- [ ] `app/[locale]/postcards/page.tsx`
-- [ ] `app/[locale]/buy/page.tsx`
-- [ ] `app/[locale]/sticker-success/page.tsx`
-- [ ] `app/[locale]/sign-success/page.tsx`
-- [ ] `app/[locale]/postcard-success/page.tsx`
-- [ ] `app/[locale]/sticker-language-success/page.tsx`
-- [ ] Forms POST to existing `forms-backend/` endpoints — no backend changes
-- [ ] Commit: "Phase 9b: sticker/sign/postcard forms + buy-flow + success pages"
+### Phase 9b — Form pages + successes ✅ COMPLETE
+
+- [x] `components/StickerPicker.tsx` — NEW Client Component (~120 lines). Ports `jquery/sticker-picker.js` 1:1: two pack-tile chooser; clicking one highlights it (orange border, full opacity), dims the other (50% opacity, gray border), and reveals the matching country selector (hidden attribute toggling). Server-rendered HTML keeps both tiles + selectors in the markup so crawlers see everything.
+- [x] `components/CountryFormSelector.tsx` — NEW Client Component (~70 lines). Reusable `<select>` + N forms; picking a value reveals the matching `<div id={VALUE} class="countries" hidden>`. Used twice inside `<StickerPicker>` (one per pack) and standalone on legacy shapes if needed. Replaces the behavior of `jquery/country-selector-forms.js` + the per-pack change handlers in `sticker-picker.js`.
+- [x] `components/BuyFlow.tsx` — NEW Client Component (~260 lines). Ports `jquery/buy-flow.js`: 4-step wizard (country → payment method → recommended platforms → storage guidance). Step 1's 52-button country grid is rendered by the server as `children`; this component delegates click handlers via `root.addEventListener("click", …)` with `target.closest("button.buy-country-button")`, so all 52 buttons stay server-HTML (crawler-visible) while clicks flip local state + reveal the next step. Smooth scroll-between-steps with native `window.scrollTo({ behavior: "smooth" })`. Step-3 platforms come from `lib/buy/platforms.ts` (country → {bank, cash} platform set with i18n-key-based descriptions + feature bullets).
+- [x] `components/StickerAddressForm.tsx` — NEW Server Component (~90 lines). Shared USA/Canada sticker address form (Name / Address 1-2 / City / State-or-Province / Zip-or-Postal + Cloudflare Turnstile + Submit). Variant prop (`usa` | `canada`) picks State+Zip vs Province+PostalCode, and adds the `_gotcha` honeypot on USA. Action URL is passed by the parent — each pack (text/signs) × country (usa/canada) form posts to a different `forms-backend/submit/…` endpoint, matching legacy behavior 1:1.
+- [x] `lib/buy/platforms.ts` — deduped port of the 1366-line `jquery/buy-flow.js` country-by-country map. 5 reusable platform constants (`STRIKE`, `RELAI`, `KRAKEN`, `SWAN`, `RIVER`, `COINSQUARE`, plus `ATM` + `BISQ` for cash) composed into 3 reusable sets (`DEFAULT_SET` = Strike/Relai/Kraken+ATM/Bisq; `US_SET` = Strike/Swan/River+ATM/Bisq; `CA_SET` = Strike/Coinsquare+ATM/Bisq). Countries point at those sets instead of each redefining the object. Also exports `BUY_COUNTRIES` array (all 52 codes + flag emoji + i18n label key) for the Step 1 grid.
+- [x] `lib/sticker-languages.ts` — canonical 43-language list (slug + `common_language_*` i18n key). Consumed by `/stickers` Print-my-own option + future `/business/stickers` + `/sticker-files/` pages.
+- [x] `app/[locale]/stickers/page.tsx` — NEW page (~370 lines). Hero + 2-pack chooser via `<StickerPicker>` wrapping 2 `<CountryFormSelector>` instances (USA mail / Canada mail / Print / Bulk options each). Print option renders the 43-language button grid + sticker-language-request form with Cloudflare Turnstile. Loads the Turnstile script via `<Script strategy="afterInteractive">`. Share-on-Nostr section + 3 Get Started CTAs + publisher attribution.
+- [x] `app/[locale]/signs/page.tsx` — NEW page (~230 lines). Faithful port of `signs.html`; signs program is closed so renders only the "out of signs" message + share-on-nostr block + Get Started CTAs. Sign-header image + sign-tips image preserved.
+- [x] `app/[locale]/postcards/page.tsx` — NEW page (~200 lines, generated by `scripts/phase9b/create-remaining-pages.js`). "POSTCARD PROGRAM CLOSED" notice with "GET FREE BITCOIN STICKERS INSTEAD" CTA linking to `/stickers`. 3 historical postcard preview images (dollar / future / cartoon, front + back each). 3 Get Started CTAs + publisher attribution.
+- [x] `app/[locale]/buy/page.tsx` — NEW page (~130 lines, generated). Wraps the 52-country button grid (server-rendered from `BUY_COUNTRIES` with `data-country` + emoji flag) inside `<BuyFlow>` as its children. `<BuyFlow>` owns Steps 2-4. `country-search-input` filters buttons via event delegation. Publisher attribution at the bottom.
+- [x] `app/[locale]/sticker-success/page.tsx` — NEW page (~150 lines, generated). Thank-you screen after a sticker form submission: "SUCCESS!" banner + 4 "good sticker spot" tips + bulk-order CTA + `<div className="fixed-bottom-bar">` promoting `/flyers`. `robots: { index: false }` since this is a post-submission landing.
+- [x] `app/[locale]/sign-success/page.tsx` — NEW page (~100 lines, generated). Thank-you for sign-request submissions. Signs program is closed but page is kept for future reactivation + link-juice preservation.
+- [x] `app/[locale]/postcard-success/page.tsx` — NEW page (~100 lines, generated). Postcard program closed + thank-you message.
+- [x] `app/[locale]/sticker-language-success/page.tsx` — NEW page (~100 lines, generated). Thank-you after submitting the "Request stickers in my language" form.
+- [x] Forms POST to the existing `forms-backend/` endpoints — `forms-backend/` unchanged. The Turnstile widget uses the existing site-key `0x4AAAAAAClzj7R6NrkNgcsP`.
+- [x] `scripts/phase9b/append-form-css.js` — NEW idempotent Node helper that appends ~450 lines of V1 form-page CSS to `app/globals.css` (sentinel-marker guarded): `.choose-sticker`, `.sticker-box`, `.h2-stickers`, `.button-form`, `.button-sticker`, `input/select` styles, `.buy-country-button` + `.container-buy-button` + `.country-search-input`, `.payment-method-*`, `.buy-platform-box` + `.recommended-badge` + `.platform-features` + `.platform-learn-button` + `.buy-cta-button`, `.fixed-bottom-bar*`, `.h3-label`, `.back-to-home`, `.inline`, `.sign-adjust`, `.postcard-divider`. Ported verbatim from `css/style.css` with tabs preserved.
+- [x] `scripts/phase9b/create-remaining-pages.js` — idempotent generator for the 6 template-heavy pages (postcards + buy + 4 successes). Each page is 100% generated by this script so it can be regenerated to re-apply patterns without manual edits.
+- [x] `scripts/phase9b/flip-published.js` — NEW idempotent helper that flips `published: false` → `true` for the 8 Phase 9b slugs in `lib/pages.ts` via regex replacement. Skips already-flipped slugs.
+- [x] `lib/i18n/request.ts` — added 8 new namespaces to `DEFAULT_NAMESPACES`: `stickers`, `signs`, `postcards`, `buy`, `sticker-success`, `sign-success`, `postcard-success`, `sticker-language-success`.
+- [x] `lib/pages.ts` — flipped `published: true` for all 8 Phase 9b slugs; sitemap now emits **440 new URLs** (55 locales × 8 slugs).
+- [x] `npm run build` → ✓ compiled, TypeScript clean, **1489 static pages** (55 locales × 27 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + `/tmp/verify-phase9b.js` — all 9 assertions pass: `/en/stickers` (233 KB, choose-sticker tiles + text/signs packs + AFRIKAANS/YORUBA language buttons + Article/BreadcrumbList JSON-LD), `/en/signs` (182 KB, out-of-signs message + share-on-nostr), `/en/postcards` (184 KB, program-closed notice + 3 CTA + preview images), `/en/buy` (199 KB, all 4 wizard steps + 52 country buttons including data-country US/GB/JP + country-search input), all 4 success pages (SUCCESS! + h2-stickers classes), `/ar/stickers` renders `<html lang="ar" dir="rtl">` correctly.
+- [x] Commit: "Phase 9b: sticker/sign/postcard forms + buy-flow + success pages"
 
 ## Phase 10 — Bucket C business section (1-2 tasks)
 

@@ -59,6 +59,15 @@ const DEFAULT_NAMESPACES = [
 	"lightning",
 	"flyers",
 	"compound-inflation-calculator",
+	// Phase 9b — form pages + successes.
+	"stickers",
+	"signs",
+	"postcards",
+	"buy",
+	"sticker-success",
+	"sign-success",
+	"postcard-success",
+	"sticker-language-success",
 ] as const;
 
 

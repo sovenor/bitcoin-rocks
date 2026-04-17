@@ -1,3 +1,7 @@
+## Phase 9b complete — April 17, 2026
+
+Shipped 8 form/success pages (stickers, signs, postcards, buy + 4 successes) on `v2-nextjs-redesign` as faithful Tailwind ports. Build emits 1489 static pages (55 locales × 27 routes). 9/9 runtime assertions pass. `main` still frozen. See `MIGRATION-NEXTJS.md` Phase 9b + `activeContext.md` for details.
+
 # Progress: bitcoin.rocks
 
 ## Next.js Migration — Phase 8 Content pages (about + get-involved) — April 17, 2026

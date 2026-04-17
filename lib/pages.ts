@@ -91,14 +91,14 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "compound-inflation-calculator", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "compound-inflation-calculator", published: true },
 
 	// === Phase 9b — Form pages + successes ===
-	{ slug: "stickers", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "stickers", published: false },
-	{ slug: "signs", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "signs", published: false },
-	{ slug: "postcards", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "postcards", published: false },
-	{ slug: "buy", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "buy", published: false },
-	{ slug: "sticker-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-success", published: false },
-	{ slug: "sign-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sign-success", published: false },
-	{ slug: "postcard-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "postcard-success", published: false },
-	{ slug: "sticker-language-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-language-success", published: false },
+	{ slug: "stickers", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "stickers", published: true },
+	{ slug: "signs", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "signs", published: true },
+	{ slug: "postcards", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "postcards", published: true },
+	{ slug: "buy", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "buy", published: true },
+	{ slug: "sticker-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-success", published: true },
+	{ slug: "sign-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sign-success", published: true },
+	{ slug: "postcard-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "postcard-success", published: true },
+	{ slug: "sticker-language-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-language-success", published: true },
 
 	// === Phase 10 — Business section ===
 	{ slug: "business", phase: 10, priority: 0.7, changeFrequency: "monthly", namespace: "business/index", published: false },
