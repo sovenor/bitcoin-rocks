@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 5 complete · Awaiting Phase 6 (Inflation page)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port)
+**Status:** Phase 6a complete · Awaiting Phase 6b (Inflation stats + calculators)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 5 done → starting Phase 6 next.
+**Current position pointer:** Phase 6a done → starting Phase 6b next.
 
 ---
 
@@ -202,10 +202,22 @@ Goal: `/en/` matches current live `bitcoin.rocks/` pixel-for-pixel (it's already
 
 ## Phase 6 — Inflation page (2 tasks — it's huge: 3036 lines)
 
-### Phase 6a — Static shell + country selector
-- [ ] `app/[locale]/inflation/page.tsx` — port all static sections (hero, intro, chart placeholder, stat grid shell, "what's next?" section)
-- [ ] `components/CountrySelector.tsx` — port `jquery/country-selector-inflation.js` (Client Component, emits `gtag('event', 'select_currency', …)`)
-- [ ] Commit: "Phase 6a: Inflation page shell + country selector"
+### Phase 6a — Static shell + country selector ✅ COMPLETE
+
+- [x] `app/[locale]/inflation/page.tsx` — full port of `inflation.html`: hero + country picker + 13 per-currency sections (intro, proof, Bitcoin-doesn't-have-inflation, freedom) + global "What's next?" + Sources block + Publisher Attribution. Each section wraps a `<CurrencySection code={code} … />`.
+- [x] `components/CurrencySection.tsx` — Server Component (~400 lines). Accepts currency code + FRED/BPR URLs, resolves all `inflation_${lower}_*` and `inflation_stat_${lower}_*` keys via `useTranslations()`. Includes 4 inline `FeatureCard` SVG icons (decentralized, permissionless, sovereign, scarce) + 4 `StoryCard` icons (canada, nigeria, texas, pennsylvania) preserved 1:1 from the legacy HTML. Renders placeholder stat values (`+50%`, `-15%`, `—`) — Phase 6b will fill them in by targeting the `stat-*-${code}` DOM ids.
+- [x] `components/CountrySelector.tsx` — Client Component. Ports `jquery/country-selector-inflation.js` 1:1: show-all → click-a-button → hide-the-rest + reveal the matching `<div id={CODE} class="countries">` + reveal `#global-whats-next-wrap`. "← Choose a different money" resets. Smooth scroll-to-top on both actions. `gtag('event', 'select_currency', { event_category: 'inflation', event_label: CODE })` emitted on selection. Visibility toggled imperatively via `useEffect` mutating `hidden` on `.countries` DOM nodes — keeps server-rendered HTML stable (all 13 sections in source for crawlers) while only the active one is visible.
+- [x] Per-currency FRED + Bitcoin-Price-Report URL map mirrors `scripts/inflation-multi/rebuild-inflation-html.js` — same 13 currencies (USD, CAD, EUR, GBP, BRL, PHP, MXN, INR, JPY, AUD, ILS, THB, NZD) + EUR's `debt: null` (FRED doesn't publish Eurozone-level gross-debt).
+- [x] i18n request config (`lib/i18n/request.ts`) — added `inflation` to the default namespaces so the ~480 `inflation_*` keys load alongside `common` + `index` on every request. In-memory cache means the overhead is read-once per locale per build.
+- [x] `app/globals.css` — appended inflation-page CSS section (~400 lines): `.h1-inflation`, `.inflation-intro`, `.inflation-section`, `button.inflation-button` + `.container-inflation-button`, `.stat-cards-grid` + `.stat-card*`, `.stat-comparison-card*`, `.feature-cards-grid` + `.feature-card*`, `.story-cards-grid` + `.story-card*`, `.sources-section` + `.sources-list`, `.publisher-attribution`, `.reviewed-badge`, `.countries[hidden]` — ported verbatim from `css/style.css` with spaces → tabs and dropped the legacy `.inflation-revamp` scoping.
+- [x] Phase 4 schemas wired: `buildArticleSchema({slug: "inflation", …, schemaType: "Article"})` + `buildBreadcrumbSchema({slug: "inflation", …})` emitted as `<JsonLd>` inside the page; `generateMetadata()` returns `alternates: buildAlternates({slug: "inflation", locale})` + OpenGraph + Twitter card.
+- [x] `lib/pages.ts` — flipped `inflation` to `published: true` so the sitemap emits 55 per-locale `/inflation` URLs with full `alternates.languages` maps.
+- [x] `npm run build` → ✓ compiled 2.1s, TypeScript clean, **114 static pages** generated (55 locales × 2 routes + /robots.txt + /sitemap.xml + /_not-found + middleware).
+- [x] `npm run start` + `curl` spot-checks confirmed:
+  - `/en/inflation` → 200; source contains Article + BreadcrumbList JSON-LD, `id="USD"` / `id="CAD"` / `id="EUR"` currency sections, `id="global-whats-next-wrap"`, `class="inflation-button inf-usdollar"`, "DOLLARS IN EXISTENCE" etc. + full 55-locale hreflang alternates in `link:` HTTP header.
+  - `/ar/inflation` → 200, `<html lang="ar" dir="rtl">` — RTL still correct with the inflation tree.
+  - `/sitemap.xml` → 55 `/inflation` entries (one per locale).
+- [x] Commit: "Phase 6a: Inflation page shell + country selector"
 
 ### Phase 6b — Stats + calculators (Client Components)
 - [ ] `components/InflationStats.tsx` — port `jquery/inflation-stats.js` (fetches from `forms-backend/` API)

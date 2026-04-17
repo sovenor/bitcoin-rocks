@@ -1,6 +1,66 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 5 Homepage complete — April 17, 2026
+## Latest: Next.js Migration — Phase 6a Inflation page shell complete — April 17, 2026
+
+Sixth commit of the Next.js migration on `v2-nextjs-redesign`. The 3,035-line inflation page with all 13 per-currency dynamic sections is now a typed React tree: 1 Client Component (`CountrySelector`) + 1 heavy Server Component (`CurrencySection`, rendered 13× for USD/CAD/EUR/GBP/BRL/PHP/MXN/INR/JPY/AUD/ILS/THB/NZD) + the parent `app/[locale]/inflation/page.tsx` shell. Phase 6b will graft the live stat-fetcher + calculator onto this. `main` is still frozen.
+
+### What Phase 6a delivered
+
+**New components (`components/`)**
+- **`components/CountrySelector.tsx`** — Client Component. Drop-in replacement for `jquery/country-selector-inflation.js`. Owns `selected: string | null` state; a `useEffect` toggles the `hidden` attribute on `.countries` DOM nodes (and on `#global-whats-next-wrap`) whenever selection changes. This keeps the server-rendered HTML stable (all 13 currency sections in the initial source so crawlers see everything) while the UI only shows the active one. `gtag('event', 'select_currency', { event_category: 'inflation', event_label: CODE })` fires on select; reset button restores the full button grid. Smooth scroll-to-top on both actions matches the legacy UX exactly.
+- **`components/CurrencySection.tsx`** — Server Component (~400 lines). One instance per currency — renders the full 4-section block: intro (+ BTC gain / currency loss hero cards), "Here's the proof" (money-supply card + optional debt card + prose), "Bitcoin doesn't have inflation" (21M cap vs growing currency supply), "Bitcoin is also a tool for freedom" (4 feature cards + 4 story cards). Resolves all `inflation_${lower}_*` keys via `useTranslations()`. Accepts `btcChartUrl`, `cpiUrl`, `m1Url`, `debtUrl` (nullable — EUR skips the debt card because FRED has no Eurozone aggregate series). SVG icons for the 4 features (decentralized, permissionless, sovereign, scarce) and 4 stories (canada, nigeria, texas, pennsylvania) inlined so each section ships everything crawlers need without client hydration.
+
+**New page (`app/[locale]/inflation/page.tsx`)**
+- Replaces the Phase 5 stub-free inflation absence with the real page: Article + BreadcrumbList JSON-LD via Phase 4 builders, `generateMetadata()` with full hreflang alternates + OpenGraph + Twitter card, hero H1, `<CountrySelector>` wrapping 13 `<CurrencySection>` children + the global What's-next? grid (hidden by default, revealed by the selector effect), sources block (6 links: FRED M1SL, FRED International narrow-money, BLS CPI, mempool.space, Bitcoin source code, Satoshi whitepaper), and publisher attribution with the Reviewed-for-accuracy badge.
+- Per-currency URL map (`CURRENCY_URLS`) is copied from `scripts/inflation-multi/rebuild-inflation-html.js` — same 13-currency set, same FRED / Bitcoin Price Report URLs, EUR's `debt: null` preserved.
+- 13-entry `CURRENCIES` array drives both the button grid (flag emoji + `data-id` + `labelKey`) and the section list. Each entry has a `className` matching the legacy `inf-*` hover color classes (inf-usdollar, inf-caddollar, inf-euro, inf-india, …).
+
+**i18n + CSS infrastructure**
+- **`lib/i18n/request.ts`** — added `inflation` to `DEFAULT_NAMESPACES` so the ~480 `inflation_*` keys load on every request alongside `common` + `index`. In-memory cache means this is read-once per locale per build (no per-request file reads). Comment explains future phases can switch to per-page namespace sets if bundle size becomes an issue, but we're nowhere near that threshold.
+- **`app/globals.css`** — appended the "INFLATION PAGE" section (~400 lines) ported verbatim from `css/style.css`: `.h1-inflation`, `.inflation-intro`, `.inflation-section` + its `h2` / `p` rules, `button.inflation-button` + `.container-inflation-button`, `.stat-cards-grid` + `.stat-card*`, `.stat-comparison-card*`, `.feature-cards-grid` + `.feature-card*`, `.story-cards-grid` + `.story-card*`, `.sources-section` + `.sources-list`, `.publisher-attribution` + `.reviewed-badge`, `.body-link`, `.text-highlight`, `.break-micro`, `.break-nano`, `.money-icon`, and `.countries[hidden] { display: none !important }`. Tabs (not spaces), legacy `.inflation-revamp` scoping dropped (no longer needed since all inflation styles are now page-scoped by component tree).
+
+**Published-flag flip**
+- **`lib/pages.ts`** — `inflation` flipped from `published: false` to `published: true`. The sitemap now emits 55 per-locale `/inflation` URLs, each with a full `alternates.languages` map pointing at all other 54 locale variants. `lastModified` derives from `i18n/en/inflation_en.json` `@metadata.last-updated` via Phase 4's date-modified helper — zero manual date bookkeeping.
+
+### Build + verification
+- `npm run build` → ✓ compiled 2.1s, TypeScript clean, **114 static pages** generated (55 locales × 2 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy). The Turbopack "overly broad patterns" warning on `load-messages.ts` `fs.readFile` is pre-existing from Phase 2 — not a new issue.
+- `npm run start` + live `curl` spot-checks end-to-end:
+  - `/en/inflation` → 200. HTTP `link:` header carries all 55 hreflang alternates (en, af, az, ca, cs, ny, da, de, et, es, eu, fil, fr, ga, ha, hr, id, zu, it, sw, lt, hu, ms, nl, nb, uz, pl, pt, ro, sk, sl, fi, sv, tl, vi, tr, yo, el, bg, ru, ur, ar, fa, he, hi, bn, pa, ta, si, my, th, am, zh, ja, ko + x-default). Body source contains Article + BreadcrumbList JSON-LD, `id="USD"`/`id="CAD"`/`id="EUR"`/`id="global-whats-next-wrap"`, `class="inflation-button inf-usdollar"`, "DOLLARS IN EXISTENCE" hero label.
+  - `/ar/inflation` → 200, `<html lang="ar" dir="rtl">` — RTL still correct with the full inflation tree.
+  - `/sitemap.xml` → grep count confirms exactly 55 `/inflation<` entries (one per locale).
+
+### Decisions locked in
+- **One Client Component, two Server Component trees.** `CountrySelector` is the only piece that touches React state; `CurrencySection` × 13 + the global What's-next wrap + the sources/publisher blocks are pure server-render. No hydration flash on the ~6 kB of stat-card + feature-card HTML per currency.
+- **Visibility via imperative DOM mutation, not re-render.** A `useEffect` in `CountrySelector` walks `.countries` descendants and toggles their `hidden` attribute on selection change. This preserves the initial server-rendered HTML (all 13 currency sections visible to crawlers) without requiring the selector to accept + re-render them via React state — which would have blocked them from being pure Server Components.
+- **`hidden` attribute over `display: none` CSS class.** The HTML5 `hidden` attribute is semantic (a11y tree reflects it), CSS-aware (`display: none !important` applied via `.countries[hidden]` in globals.css) and JS-ergonomic (`sec.hidden = false`). Single source of truth.
+- **`inflation` namespace in the default loader list.** Simpler than adding per-route namespace detection via the middleware; adds ~480 keys × 55 locales to the request payload, but the in-memory cache reads each file once per process start. Revisit in Phase 14 if the site has more namespaces to load.
+- **Per-currency URL map duplicated from rebuild-inflation-html.js** — same FRED + BPR URLs. When Phase 6b wires up the live stats it can import the same map from the Next page rather than re-deriving. Single source of truth for which 13 currencies we support, plus EUR's null debt.
+- **Reviewed-for-accuracy badge via i18n key, not inline year.** `REVIEWED_ACCURACY_I18N_KEY` from Phase 4's `lib/schema/reviewed-badge.ts` points to `common_reviewed_accuracy` which renders "✓ Reviewed for accuracy: 2026". Bump the year by editing the common JSON file once per year; no page-level changes needed.
+- **Stat-card placeholder values preserved.** Phase 6b will fill them in via `document.getElementById(...)`-driven fetch (same pattern as legacy `inflation-stats.js`). For now the server-rendered "+50%" / "-15%" / "—" values are sensible defaults that look correct to crawlers.
+
+### Intentionally left alone
+- `jquery/country-selector-inflation.js`, `jquery/inflation-stats.js`, `jquery/compound-inflation-calculator*.js`, `jquery/dynamic-header.js`, `inflation.html`, `css/style.css` — still shipped by the static site on `main`. Phase 14 deletes them.
+- `forms-backend/inflation-stats.js` — unchanged. Phase 6b's `<InflationStats>` Client Component will `fetch()` from its existing `/api/inflation-stats?currency=XXX` endpoint.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 6a
+```
+components/CountrySelector.tsx        (NEW — Client, 160 lines)
+components/CurrencySection.tsx        (NEW — Server, ~400 lines)
+app/[locale]/inflation/page.tsx       (NEW, ~400 lines)
+app/globals.css                       (appended inflation-page block, ~400 lines)
+lib/i18n/request.ts                   (DEFAULT_NAMESPACES adds "inflation")
+lib/pages.ts                          (inflation.published: false → true)
+MIGRATION-NEXTJS.md                   (Phase 6a marked complete; pointer → Phase 6b)
+```
+
+### Next up: Phase 6b — Inflation stats + calculators
+Port `jquery/inflation-stats.js` → `components/InflationStats.tsx` (Client Component, fetches `forms.bitcoin.rocks/api/inflation-stats?currency=XXX`, writes into the `stat-*-${code}` DOM ids already in place). Then port the two compound-inflation calculators + the dynamic-header sticker/sign URL-param handler. See `MIGRATION-NEXTJS.md` Phase 6b for the full checklist.
+
+---
+
+## Previous: Next.js Migration — Phase 5 Homepage complete — April 17, 2026
+
 
 Fifth commit of the Next.js migration on `v2-nextjs-redesign`. The v2 homepage from `index.html` (942 lines of HTML + 120 lines of CSS + 330 lines of carousel JS) is now a typed React tree composed of small server components plus one tightly-scoped client component for the RAF-driven infinite-scroll carousels. Every one of the ~50 cards and all hero + pill copy is translated at render time across all 55 locales. `main` is still frozen.
 

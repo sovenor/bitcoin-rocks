@@ -21,11 +21,15 @@ import { loadMessages } from "./load-messages";
  * Namespaces loaded for every request right now.
  *
  * The legacy site loads `common` + `<page>` together; mirror that by always
- * including `common`. `index` is the homepage namespace and is small enough
- * (~200 keys) that loading it on every request is fine during Phase 2. Page
- * routes added in later phases can opt into richer namespace lists.
+ * including `common`. `index` is the homepage namespace; `inflation` is added
+ * in Phase 6 because the nav + footer + homepage links reference a few
+ * `inflation_*` keys, and including it across the board keeps the message
+ * loader in one place (in-memory cached per locale so the overhead is read
+ * only once). Future phases may switch to per-page namespace sets via
+ * middleware + `headers()` pathname detection if bundle size becomes an
+ * issue, but at ~1,000 combined keys we're nowhere near that threshold.
  */
-const DEFAULT_NAMESPACES = ["common", "index"] as const;
+const DEFAULT_NAMESPACES = ["common", "index", "inflation"] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {
 	const requested = await requestLocale;

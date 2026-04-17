@@ -62,7 +62,7 @@ export const PAGES: readonly PageEntry[] = [
 		priority: 0.9,
 		changeFrequency: "weekly",
 		namespace: "inflation",
-		published: false,
+		published: true,
 	},
 
 	// === Phase 7 — Comparison pages + bank-runs ===

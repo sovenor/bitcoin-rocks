@@ -430,3 +430,517 @@ a.whats-next-card:hover .whats-next-card-source {
 .category-section a.whats-next-card:hover .whats-next-card-source {
 	color: var(--card-accent, #ff9500);
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   INFLATION PAGE — V2 design system. Shared with Phase 7 comparison
+   pages for the stat-cards, feature-cards, story-cards, and source /
+   publisher blocks. Ported verbatim from `css/style.css` (with tiny
+   tweaks: spaces→tabs, drops of legacy `.inflation-revamp` scoping
+   that's now implicit).
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Hero ───────────────────────────────────────────────────── */
+
+.h1-inflation {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: none;
+	font-size: 38px;
+	line-height: 44px;
+	text-align: center;
+	color: #ff9500;
+	max-width: 80%;
+	margin: 0 auto 12px auto;
+}
+
+.h1-inflation .orange {
+	color: #ff9500;
+}
+
+@media (max-width: 500px) {
+	.h1-inflation {
+		font-size: 28px;
+		line-height: 34px;
+		max-width: 90%;
+	}
+}
+
+/* Hero sibling — intro paragraph below the H1 */
+.inflation-intro {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #f0f0f0;
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.inflation-intro {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+/* ── Spacer utility classes ─────────────────────────────────── */
+.break-micro {
+	clear: both;
+	margin-top: 40px;
+}
+.break-nano {
+	clear: both;
+	margin-top: 20px;
+}
+
+/* ── Container + inflation-section layout ──────────────────── */
+.inflation-section {
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.inflation-section .container-inner {
+	width: 96% !important;
+	padding-left: 2% !important;
+	padding-right: 2% !important;
+}
+.inflation-section h2 {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 28px;
+	line-height: 1.2;
+	color: #f0f0f0;
+	margin: 8px 0 20px 0;
+	text-transform: none;
+	text-align: left;
+}
+.inflation-section p {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #ccc;
+	margin-bottom: 16px;
+}
+@media (max-width: 500px) {
+	.inflation-section h2 {
+		font-size: 22px;
+	}
+}
+
+/* Inline orange highlight (used by `.inflation-intro .text-highlight`) */
+.text-highlight {
+	color: #ff9500;
+}
+
+/* Body link (inline, underlined, orange) */
+.inflation-section p a.body-link {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	color: #ff9500;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.inflation-section p a.body-link:hover {
+	color: #ffb340;
+}
+
+/* ── Currency selector (buttons + container) ──────────────── */
+.container-inflation-button {
+	margin-top: 0;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button.inflation-button {
+	background: none;
+	color: inherit;
+	border: 1px solid #3f3f3f;
+	font-family: "proxima-soft", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	height: 70px;
+	padding: 0 20px;
+	margin-top: 8px;
+	margin-right: 3px;
+	background-color: #090814;
+	border-radius: 20px;
+	transition-duration: 0.3s;
+	text-transform: uppercase;
+	flex-basis: 50%;
+	color: #f0f0f0;
+	cursor: pointer;
+}
+button.inflation-button:hover {
+	transform: scale(1.02);
+	border-color: #ff9500;
+}
+button.inflation-button.show-all-button {
+	border-color: #ff9500;
+	color: #ff9500;
+}
+@media (max-width: 700px) {
+	button.inflation-button {
+		font-size: 16px !important;
+		flex-basis: 100% !important;
+	}
+}
+
+/* Flag emoji sizing */
+.money-icon {
+	font-size: 20px;
+	line-height: 1;
+}
+
+/* ── Stat cards (2-column grid, per-currency stats) ──────── */
+.stat-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 24px 0;
+}
+@media (max-width: 500px) {
+	.stat-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+a.stat-card {
+	display: block;
+	padding: 24px 16px;
+	background: #111119;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 16px;
+	text-decoration: none;
+	color: #fff;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.stat-card:hover {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+.stat-card-label {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 8px;
+}
+.stat-card-value {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1.1;
+}
+.stat-card-value.success,
+.stat-card-detail.success {
+	color: #4caf50;
+}
+.stat-card-value.danger,
+.stat-card-detail.danger {
+	color: #ff4444;
+}
+.stat-card-value.accent {
+	color: #ff9500;
+}
+.stat-card-value.muted {
+	color: #888;
+}
+.stat-card-detail {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #ccc;
+	margin-top: 6px;
+}
+.stat-card-source {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #888;
+	font-style: italic;
+	margin-top: 12px;
+}
+a.stat-card:hover .stat-card-source {
+	color: #ff9500;
+}
+@media (max-width: 500px) {
+	.stat-card-value {
+		font-size: 24px;
+	}
+}
+
+/* ── Comparison card (larger, single-column, baseline → today) ── */
+a.stat-comparison-card {
+	display: block;
+	padding: 24px 16px;
+	background: #111119;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 16px;
+	text-decoration: none;
+	color: #fff;
+	margin: 24px 0;
+	text-align: center;
+	transition: border-color 0.2s;
+}
+a.stat-comparison-card:hover {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+.stat-comparison-title {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 18px;
+}
+.stat-comparison-label {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	color: #888;
+	text-transform: uppercase;
+}
+.stat-comparison-value {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	color: #ccc;
+	margin: 4px 0 10px;
+}
+.stat-comparison-value.current {
+	color: #ff4444;
+}
+.stat-comparison-arrow {
+	font-size: 26px;
+	color: #666;
+	margin: 8px 0;
+}
+.stat-comparison-divider {
+	border: 0;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.08);
+	margin: 18px auto 14px;
+	width: 60%;
+}
+.stat-comparison-result {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	color: #ff4444;
+}
+.stat-comparison-source {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #888;
+	font-style: italic;
+	margin-top: 12px;
+}
+a.stat-comparison-card:hover .stat-comparison-source {
+	color: #ff9500;
+}
+
+/* ── Feature cards (2×2 grid: Decentralized/Permissionless/…) ─── */
+.feature-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+	margin: 24px 0;
+}
+@media (max-width: 500px) {
+	.feature-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+a.feature-card {
+	display: block;
+	padding: 20px;
+	background: #111119;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 16px;
+	text-decoration: none;
+	color: #fff;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.feature-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.feature-card:hover .feature-card-link {
+	color: #ff9500;
+}
+.feature-card-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+svg.feature-card-icon {
+	flex-shrink: 0;
+}
+.feature-card-title {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	color: #f0f0f0;
+}
+.feature-card-desc {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #ccc;
+}
+.feature-card-link {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #888;
+	margin-top: 12px;
+	transition: color 0.2s;
+}
+
+/* ── Story cards (same shape as features; real-world Bitcoin stories) ─ */
+.story-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+	margin: 24px 0;
+}
+@media (max-width: 500px) {
+	.story-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+a.story-card {
+	display: block;
+	padding: 20px;
+	background: #111119;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 16px;
+	text-decoration: none;
+	color: #fff;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.story-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.story-card:hover .story-card-link {
+	color: #ff9500;
+}
+.story-card-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+svg.story-card-icon {
+	flex-shrink: 0;
+}
+.story-card-title {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	color: #f0f0f0;
+}
+.story-card-desc {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #ccc;
+}
+.story-card-link {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #888;
+	margin-top: 12px;
+	transition: color 0.2s;
+}
+
+/* ── Sources section (GEO trust signals) ───────────────────── */
+.sources-section {
+	width: 95%;
+	margin: 40px auto 20px;
+}
+.sources-section .container-inner {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.sources-heading {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #888;
+	margin-bottom: 12px;
+}
+.sources-list {
+	list-style-type: decimal;
+	padding-left: 20px;
+	margin: 0;
+}
+.sources-list li {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #7f7e7d;
+	margin-bottom: 6px;
+}
+.sources-list a {
+	color: #7f7e7d !important;
+	text-decoration: none;
+	border-bottom: 1px dotted rgba(127, 126, 125, 0.5);
+}
+.sources-list a:hover {
+	color: #ff9500 !important;
+	border-bottom-color: #ff9500;
+}
+
+/* ── Publisher attribution (bottom of content pages) ───────── */
+.publisher-attribution {
+	width: 70%;
+	margin: 40px auto 20px;
+	text-align: center;
+	border-top: 1px solid #333;
+	padding-top: 20px;
+}
+.publisher-attribution p {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+	margin: 0;
+}
+.publisher-attribution a.orange-link {
+	color: #ff9500 !important;
+	text-decoration: none;
+}
+.publisher-attribution a.orange-link:hover {
+	text-decoration: underline;
+}
+.reviewed-badge {
+	color: #6c9;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* ── Hiding the inactive currency sections ─────────────────── */
+.countries[hidden] {
+	display: none !important;
+}
