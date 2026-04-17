@@ -418,6 +418,58 @@ a.footer-link:hover{
     padding-bottom: 40px;
 }
 
+    /* Logo with horizontal line that breaks behind it (mirrors v2 nav pattern) */
+    .footer-logo-wrap{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    .footer-logo-wrap::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #555;
+        z-index: 0;
+    }
+    .footer-logo-link{
+        position: relative;
+        z-index: 2;
+        background: #060610;
+        padding: 0 16px;
+        line-height: 0;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .footer-logo{
+        /* Matches header logo: 32px default / 24px mobile (see .site-nav-v2-logo) */
+        height: 32px;
+        display: block;
+        opacity: 1;
+    }
+    /* Keep logo fully opaque even on hover */
+    .footer-logo-link:hover,
+    .footer-logo-link:hover .footer-logo,
+    .footer-logo:hover{
+        opacity: 1 !important;
+    }
+
+    @media (max-width: 500px){
+        .footer-logo{
+            height: 24px;
+        }
+        .footer-logo-link{
+            padding: 0 12px;
+        }
+        .footer-logo-wrap{
+            margin-bottom: 24px;
+        }
+    }
+
     .footer-tagline{
         font-family: "proxima-nova", sans-serif;
         font-weight: 400;
