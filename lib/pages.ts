@@ -74,10 +74,11 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "bitcoin-vs-bonds", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-bonds", published: true },
 	{ slug: "bitcoin-vs-real-estate", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-real-estate", published: true },
 	{ slug: "bitcoin-vs-crypto", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-crypto", published: true },
-	{ slug: "bitcoin-vs-visa", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-visa", published: false },
-	{ slug: "bitcoin-vs-cbdc", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-cbdc", published: false },
-	{ slug: "bitcoin-vs-fine-art", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-fine-art", published: false },
-	{ slug: "bank-runs", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bank-runs", published: false },
+	{ slug: "bitcoin-vs-visa", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-visa", published: true },
+	{ slug: "bitcoin-vs-cbdc", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-cbdc", published: true },
+	{ slug: "bitcoin-vs-fine-art", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-fine-art", published: true },
+	{ slug: "bank-runs", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bank-runs", published: true },
+
 
 	// === Phase 8 — Content pages ===
 	{ slug: "about", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "about", published: false },

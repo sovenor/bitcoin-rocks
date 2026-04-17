@@ -12,10 +12,29 @@ import {
 } from "@/lib/schema/comparison";
 import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 import type {
+	ComparisonHeaderStyle,
 	ComparisonPageData,
 	ComparisonPointData,
 	SummaryFragment,
 } from "@/lib/comparisons/types";
+
+/**
+ * Map a custom-header part's style hint to the CSS class used by the
+ * shared V2 comparison H1. Kept outside the component so it's tree-
+ * shaken even if a page doesn't use a `customHeader`.
+ */
+function headerStyleClass(style: ComparisonHeaderStyle): string {
+	switch (style) {
+		case "orange":
+			return "orange";
+		case "asset":
+			return "asset";
+		case "plain":
+		default:
+			return "";
+	}
+}
+
 
 /**
  * Server Component that renders any Phase 7 comparison page
@@ -94,18 +113,32 @@ export async function ComparisonPageLayout({
 				<div className="inflation-section comparison-hero">
 					<div className="container-inner">
 						<h1 className="h1-inflation comparison-h1">
-							<span>{t(data.headerKeys.part1)}</span>{" "}
-							<span className="orange">
-								{t(data.headerKeys.bitcoin)}
-							</span>
-							<br />
-							<span>{t(data.headerKeys.and)}</span>{" "}
-							<span className="asset">
-								{t(data.headerKeys.asset)}
-							</span>
+							{data.customHeader
+								? data.customHeader.map((part, i) => (
+										<span key={i}>
+											<span className={headerStyleClass(part.style)}>
+												{t(part.key)}
+											</span>
+											{i < data.customHeader!.length - 1 && <br />}
+										</span>
+									))
+								: data.headerKeys && (
+										<>
+											<span>{t(data.headerKeys.part1)}</span>{" "}
+											<span className="orange">
+												{t(data.headerKeys.bitcoin)}
+											</span>
+											<br />
+											<span>{t(data.headerKeys.and)}</span>{" "}
+											<span className="asset">
+												{t(data.headerKeys.asset)}
+											</span>
+										</>
+									)}
 						</h1>
 					</div>
 				</div>
+
 
 				{/* ═══ INTRO ═══ */}
 				<div className="inflation-section comparison-intro">

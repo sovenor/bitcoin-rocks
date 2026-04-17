@@ -46,7 +46,13 @@ const DEFAULT_NAMESPACES = [
 	"bitcoin-vs-bonds",
 	"bitcoin-vs-real-estate",
 	"bitcoin-vs-crypto",
+	// Phase 7c — final three comparisons + bank-runs content page.
+	"bitcoin-vs-visa",
+	"bitcoin-vs-cbdc",
+	"bitcoin-vs-fine-art",
+	"bank-runs",
 ] as const;
+
 
 export default getRequestConfig(async ({ requestLocale }) => {
 	const requested = await requestLocale;

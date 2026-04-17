@@ -1,8 +1,9 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 7b complete · Awaiting Phase 7c (final 3 comparison pages + bank-runs)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto)
+**Status:** Phase 7c complete · Awaiting Phase 8 (about + get-involved)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
+
 
 ---
 
@@ -54,7 +55,8 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 7b done → starting Phase 7c next.
+**Current position pointer:** Phase 7c done → starting Phase 8 next.
+
 
 ---
 
@@ -271,12 +273,23 @@ Port **with** V2 redesign applied during port. Create a shared `app/[locale]/bit
 - [x] `npm run start` + runtime verify via `/tmp/verify-phase7b.js` — all four pages serve 200 with Article + BreadcrumbList + ItemList JSON-LD, comparison-h1/chip/card/sources-list/reviewed-badge classes present, `/ar/bitcoin-vs-banks` renders `<html lang="ar" dir="rtl">`, sitemap contains all 4 English URLs.
 - [x] Commit: "Phase 7b: 4 more comparison pages (banks/bonds/real-estate/crypto)"
 
-### Phase 7c — Remaining comparison + bank-runs
-- [ ] `bitcoin-vs-visa` ← port + V2 redesign
-- [ ] `bitcoin-vs-cbdc` ← port + V2 redesign (713 lines — largest)
-- [ ] `bitcoin-vs-fine-art` ← port + V2 redesign
-- [ ] `bank-runs` ← port + V2 redesign (512 lines, different shape but similar)
-- [ ] Commit: "Phase 7c: Final comparisons + bank-runs"
+### Phase 7c — Remaining comparison + bank-runs ✅ COMPLETE
+
+- [x] `lib/comparisons/bitcoin-vs-visa.ts` — 7 points; asset accent Visa deep blue `#1A1F71`. Localized links to `/business/wallets` (merchant fees) + `/wallets` (self-custody). Sources: Bitcoin whitepaper + source code + Visa fees reference.
+- [x] `lib/comparisons/bitcoin-vs-cbdc.ts` — 10 points (largest comparison page); asset accent muted blue-gray `#5A6B8C`. Uses the new `customHeader` shape ("WHAT SHOULD DIGITAL MONEY LOOK LIKE?" — a 3-part question, not the canonical "DIFFERENCE BETWEEN BITCOIN AND ASSET"). Localized `/inflation` + `/wallets` links. Sources: whitepaper + source code + HRF CBDC tracker.
+- [x] `lib/comparisons/bitcoin-vs-fine-art.ts` — 7 points; asset accent muted gold `#C7A858`. Plain text summaries only. Sources: whitepaper + source code + Sotheby's buyer's premium reference.
+- [x] `lib/comparisons/types.ts` — extended with `ComparisonHeaderStyle` + `ComparisonHeaderPart` + optional `customHeader` array on `ComparisonPageData`. When `customHeader` is supplied, it's rendered instead of the 4-part `headerKeys`. Each part picks a visual style (`plain` / `orange` / `asset`) so the CBDC page's question-mark H1 stays visually aligned with the rest of the comparison design.
+- [x] `components/ComparisonPageLayout.tsx` — hero H1 now renders `customHeader` if present, otherwise falls back to the canonical `headerKeys` layout. Tiny `headerStyleClass()` helper maps the style enum to the shared `.orange` / `.asset` classes already defined in globals.css.
+- [x] `lib/comparisons/bank-runs.ts` — NEW shape (`ContentPageData`): 5 Q&A-style sections (bank-run definition, SVB collapse story, FDIC fund limits, "safe banks" denial, Bitcoin protection) with H2 + paragraph sequences. Each paragraph reuses the same `SummaryFragment[]` type as the comparison pages so inline external + localized links work identically. Sources: FDIC quarterly banking profile, SVB press release, Federal Reserve fractional-reserve docs, Bitcoin whitepaper.
+- [x] `components/ContentPageLayout.tsx` — NEW Server Component (~220 lines). Renders a ContentPageData: two-line hero H1 (title white, subtitle orange), N content-sections (H2 + paragraphs), "What's next?" card grid, Sources ol, publisher attribution + reviewed-badge. Emits Article + BreadcrumbList JSON-LD only (no ItemList — there are no comparison points). Mirrors `ComparisonPageLayout`'s "What's next" + sources + attribution blocks so the two layouts look consistent in the V2 design.
+- [x] `app/[locale]/bitcoin-vs-visa/page.tsx`, `bitcoin-vs-cbdc/page.tsx`, `bitcoin-vs-fine-art/page.tsx` — thin 30-line pages (same pattern as Phase 7a/b), each calls `<ComparisonPageLayout>` with its data.
+- [x] `app/[locale]/bank-runs/page.tsx` — thin page with inline `generateMetadata()` (since ContentPageData doesn't share the `ComparisonPageData` shape — instead of adding a second helper for one caller, the 40-line page builds its own metadata). Calls `<ContentPageLayout>` with the data.
+- [x] `lib/i18n/request.ts` — added the 4 new namespaces (`bitcoin-vs-visa`, `bitcoin-vs-cbdc`, `bitcoin-vs-fine-art`, `bank-runs`) to `DEFAULT_NAMESPACES`.
+- [x] `lib/pages.ts` — flipped `published: true` for all 4 slugs.
+- [x] `npm run build` → ✓ Compiled successfully in 3.0s, TypeScript clean, **719 static pages** (55 locales × 13 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + runtime verify via `/tmp/verify-phase7c.js` — all 6 checks pass: `/en/bitcoin-vs-visa` (183 KB), `/en/bitcoin-vs-cbdc` (193 KB with 10 comparison points), `/en/bitcoin-vs-fine-art` (180 KB), `/en/bank-runs` (168 KB with 5 content sections + no ItemList schema since it's not a chip-pair page), `/ar/bitcoin-vs-cbdc` renders `<html lang="ar" dir="rtl">` correctly, `/sitemap.xml` contains all 4 new English URLs.
+- [x] Commit: "Phase 7c: Final comparisons + bank-runs"
+
 
 ## Phase 8 — Bucket A content pages (1 task)
 

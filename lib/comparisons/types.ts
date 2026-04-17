@@ -57,6 +57,27 @@ export type ComparisonSource = {
 	label: string;
 };
 
+/**
+ * Visual style applied to one segment of a custom H1.
+ *
+ * - `plain`  — white text (default body color).
+ * - `orange` — Bitcoin orange (#FF9500).
+ * - `asset`  — the page's asset accent color (via `--asset-accent`).
+ */
+export type ComparisonHeaderStyle = "plain" | "orange" | "asset";
+
+/**
+ * One part of a `customHeader`.
+ *
+ * Used by pages (like `/bitcoin-vs-cbdc`) whose H1 doesn't follow the
+ * canonical "THE DIFFERENCE BETWEEN BITCOIN AND <ASSET>" four-part shape.
+ * Parts are rendered inline with `<br />` separators between them.
+ */
+export type ComparisonHeaderPart = {
+	key: string;
+	style: ComparisonHeaderStyle;
+};
+
 /** Full per-page data bundle. One file per comparison page. */
 export type ComparisonPageData = {
 	/** URL slug (e.g. `"bitcoin-vs-gold"`). */
@@ -69,15 +90,27 @@ export type ComparisonPageData = {
 	metaImage: string;
 
 	/**
-	 * H1 parts — four translation keys that assemble into
+	 * Standard H1 parts — four translation keys that assemble into
 	 * "THE DIFFERENCE BETWEEN BITCOIN AND <ASSET>".
+	 *
+	 * Ignored when `customHeader` is supplied.
 	 */
-	headerKeys: {
+	headerKeys?: {
 		part1: string; // "THE DIFFERENCE BETWEEN"
 		bitcoin: string; // "BITCOIN"
 		and: string; // "AND"
 		asset: string; // "GOLD" / "STOCKS" / "CASH"
 	};
+
+	/**
+	 * Optional alternative H1 rendering. When present, `headerKeys` is
+	 * ignored and these parts are rendered in order (one `<br />` per
+	 * part boundary). Used by `/bitcoin-vs-cbdc` whose H1 reads
+	 * "WHAT SHOULD DIGITAL MONEY LOOK LIKE?" rather than the standard
+	 * difference-between form.
+	 */
+	customHeader?: readonly ComparisonHeaderPart[];
+
 
 	/**
 	 * Hex color for the asset accent (applied via `--asset-accent`
