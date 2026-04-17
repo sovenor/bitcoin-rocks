@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 7a complete · Awaiting Phase 7b (4 more Bucket A comparison pages)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash)
+**Status:** Phase 7b complete · Awaiting Phase 7c (final 3 comparison pages + bank-runs)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 7a done → starting Phase 7b next.
+**Current position pointer:** Phase 7b done → starting Phase 7c next.
 
 ---
 
@@ -258,12 +258,18 @@ Port **with** V2 redesign applied during port. Create a shared `app/[locale]/bit
 
 **Deferred:** the per-currency `body-link` hover color uses orange `#ff9500` → `#ffb84d` — kept separate from the `--asset-accent` token so the "visit this link" affordance always reads as site-wide Bitcoin orange (not the compared-asset accent). The chips are the only places the asset accent surfaces besides the H1; this keeps the visual hierarchy unambiguous.
 
-### Phase 7b — Next 4 comparison pages
-- [ ] `bitcoin-vs-banks` ← port + V2 redesign
-- [ ] `bitcoin-vs-bonds` ← port + V2 redesign
-- [ ] `bitcoin-vs-real-estate` ← port + V2 redesign
-- [ ] `bitcoin-vs-crypto` ← port + V2 redesign
-- [ ] Commit: "Phase 7b: 4 more comparison pages"
+### Phase 7b — Next 4 comparison pages ✅ COMPLETE
+
+- [x] `lib/comparisons/bitcoin-vs-banks.ts` — 7 points; asset accent red `#C02C3E`; inline `<a>` to voteforbetter.money on permissionless + localize `/wallets` link. Sources: Bitcoin whitepaper + source code + FDIC failed-bank list.
+- [x] `lib/comparisons/bitcoin-vs-bonds.ts` — 7 points; asset accent treasury-green `#4A8C5E`. External links to MarketWatch weak-auction article, TreasuryDirect auctions; localized links to `/inflation`, `/bank-runs`, `/wallets`. Sources include MarketWatch + TreasuryDirect + Bitcoin whitepaper.
+- [x] `lib/comparisons/bitcoin-vs-real-estate.ts` — 9 points (unusual — this is the one comparison page with a 9th "financialization of housing" point); asset accent earth-tone brown `#C99E6E`. Plain text summaries only. Sources: Bitcoin whitepaper + source code + UN housing report.
+- [x] `lib/comparisons/bitcoin-vs-crypto.ts` — 8 points; asset accent "crypto purple" `#B072E8` for strong contrast vs Bitcoin orange. Point 5's translation contains inline `<a>` to the whitepaper — rendered via `dangerouslySetInnerHTML` in ComparisonPageLayout (no fragment split). Sources: Bitcoin whitepaper + source code + Bitnodes.
+- [x] `app/[locale]/bitcoin-vs-banks/page.tsx`, `bitcoin-vs-bonds/page.tsx`, `bitcoin-vs-real-estate/page.tsx`, `bitcoin-vs-crypto/page.tsx` — 4 thin 30-line pages, each a 2-function wrapper around `ComparisonPageLayout` with the matching data bundle.
+- [x] `lib/i18n/request.ts` — added the 4 new namespaces (`bitcoin-vs-banks`, `bitcoin-vs-bonds`, `bitcoin-vs-real-estate`, `bitcoin-vs-crypto`) to the eager-loaded `DEFAULT_NAMESPACES` set.
+- [x] `lib/pages.ts` — flipped `published: true` for all 4 slugs; sitemap now emits 220 new URLs (55 locales × 4 slugs).
+- [x] `npm run build` → ✓ compiled, TypeScript clean, **499 static pages** generated (55 locales × 9 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + runtime verify via `/tmp/verify-phase7b.js` — all four pages serve 200 with Article + BreadcrumbList + ItemList JSON-LD, comparison-h1/chip/card/sources-list/reviewed-badge classes present, `/ar/bitcoin-vs-banks` renders `<html lang="ar" dir="rtl">`, sitemap contains all 4 English URLs.
+- [x] Commit: "Phase 7b: 4 more comparison pages (banks/bonds/real-estate/crypto)"
 
 ### Phase 7c — Remaining comparison + bank-runs
 - [ ] `bitcoin-vs-visa` ← port + V2 redesign

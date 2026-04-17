@@ -1,6 +1,62 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 7a Comparison layout + first 3 comparison pages — April 17, 2026
+## Latest: Next.js Migration — Phase 7b Four more comparison pages (banks / bonds / real-estate / crypto) — April 17, 2026
+
+Ninth commit of the Next.js migration on `v2-nextjs-redesign`. Four more `bitcoin-vs-*` pages are live using the Phase 7a data-driven pipeline — pure additions, no infrastructure changes. Each page is a single data file + a ~30-line page.tsx, confirming the Phase 7a architecture choice was correct. `main` is still frozen.
+
+### What Phase 7b delivered
+
+**New data files (`lib/comparisons/`)**
+- **`bitcoin-vs-banks.ts`** — 7 comparison points, asset accent red `#C02C3E` (echoes the legacy `.freedom` warning-red). Inline `<a>` to `voteforbetter.money/learn/bitcoin-is-permissionless` on point 1, localized `/wallets` link on point 4. Sources: Bitcoin whitepaper + source repo + FDIC failed-bank list.
+- **`bitcoin-vs-bonds.ts`** — 7 points, asset accent treasury-green `#4A8C5E`. External links to MarketWatch 2022 weak-auction article + TreasuryDirect; localized links to `/inflation`, `/bank-runs`, `/wallets`. Sources: TreasuryDirect auctions + MarketWatch + Bitcoin whitepaper + source repo.
+- **`bitcoin-vs-real-estate.ts`** — **9 points** (the one comparison with a 9th "housing financialization" point), asset accent earth-tone brown `#C99E6E`. All-plain-text summaries. Sources: Bitcoin whitepaper + source repo + UN housing financialization report.
+- **`bitcoin-vs-crypto.ts`** — 8 points, asset accent "crypto purple" `#B072E8` (deliberately distinct from Bitcoin orange for instant visual contrast). Point 5's translation embeds an inline `<a>` to the whitepaper inside the translation string itself — not split into a separate fragment — preserved via `dangerouslySetInnerHTML` in `ComparisonPageLayout` (consistent with Phase 7a cash precedent). Sources: Bitcoin whitepaper + source repo + Bitnodes.
+
+**New pages (4)**
+- **`app/[locale]/bitcoin-vs-banks/page.tsx`**, **`bitcoin-vs-bonds/page.tsx`**, **`bitcoin-vs-real-estate/page.tsx`**, **`bitcoin-vs-crypto/page.tsx`** — four ~30-line pages, each a 2-function wrapper over `<ComparisonPageLayout>`. Identical shape to the Phase 7a pages.
+
+**Files modified**
+- **`lib/i18n/request.ts`** — Added the 4 new namespaces to `DEFAULT_NAMESPACES`. Namespace cache overhead stays at ~0 per-page since it's read-once per locale per build.
+- **`lib/pages.ts`** — Flipped `published: true` for the 4 slugs; sitemap now emits **220 new URLs** (55 locales × 4 slugs).
+- **`MIGRATION-NEXTJS.md`** — Phase 7b checkboxes complete; status pointer advanced to Phase 7c.
+
+### Build + verification
+- `npm run build` → ✓ compiled, TypeScript clean, **499 static pages** (55 locales × 9 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- Runtime spot-check via `/tmp/verify-phase7b.js`: all 4 English pages serve 200 (165-176 KB each) with Article + BreadcrumbList + ItemList JSON-LD blocks, `comparison-h1` / `comparison-chip` / `whats-next-card` / `sources-list` / `reviewed-badge` classes present. `/ar/bitcoin-vs-banks` renders `<html lang="ar" dir="rtl">`. Sitemap contains all 4 English URLs.
+
+### Architecture validation
+The Phase 7a decision to split data (TypeScript) from rendering (Server Component) is paying off exactly as predicted — Phase 7b was a 15-minute port per page. No changes needed to `types.ts`, `metadata.ts`, `ComparisonPageLayout.tsx`, or the CSS. The only variability needed was:
+- A typed `ComparisonPageData` literal per page
+- Choice of asset accent color (one hex value)
+- 2-3 inline link fragments with `localize`/`external` flags where the legacy prose had them
+
+Phase 7c should be identical for the final 3 comparison pages (`bitcoin-vs-visa`, `bitcoin-vs-cbdc`, `bitcoin-vs-fine-art`); only `bank-runs` may need a small layout tweak since it's a non-comparison story-shaped page that reuses similar building blocks.
+
+### Intentionally left alone
+- `bitcoin-vs-{banks,bonds,real-estate,crypto}.html` at repo root — still shipped by the static site on `main`. Phase 14 deletes them.
+- The remaining 3 comparison pages + `bank-runs` — Phase 7c.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 7b
+```
+lib/comparisons/bitcoin-vs-banks.ts                 (NEW — ~100 lines)
+lib/comparisons/bitcoin-vs-bonds.ts                 (NEW — ~135 lines)
+lib/comparisons/bitcoin-vs-real-estate.ts           (NEW — ~85 lines)
+lib/comparisons/bitcoin-vs-crypto.ts                (NEW — ~90 lines)
+app/[locale]/bitcoin-vs-banks/page.tsx              (NEW — ~30 lines)
+app/[locale]/bitcoin-vs-bonds/page.tsx              (NEW — ~30 lines)
+app/[locale]/bitcoin-vs-real-estate/page.tsx        (NEW — ~30 lines)
+app/[locale]/bitcoin-vs-crypto/page.tsx             (NEW — ~30 lines)
+lib/i18n/request.ts                                 (edited — added 4 namespaces)
+lib/pages.ts                                        (edited — 4 published flags)
+MIGRATION-NEXTJS.md                                 (edited — Phase 7b marked complete)
+memory-bank/activeContext.md                        (this file)
+memory-bank/progress.md                             (edited)
+```
+
+---
+
+## Previously: Next.js Migration — Phase 7a Comparison layout + first 3 comparison pages — April 17, 2026
 
 Eighth commit of the Next.js migration on `v2-nextjs-redesign`. The first 3 `bitcoin-vs-*` pages (gold, stocks, cash) are now typed React pages built on a shared `<ComparisonPageLayout>` Server Component, with the V2 design system applied during port. `main` is still frozen.
 
