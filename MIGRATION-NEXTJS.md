@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 10 complete · Awaiting Phase 11 (sticker-files section)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages))
+**Status:** Phase 11 complete · Awaiting Phase 12 (nostr section)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages))
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 10 done → starting Phase 11 next.
+**Current position pointer:** Phase 11 done → starting Phase 12 next.
 
 
 ---
@@ -379,13 +379,32 @@ Port **faithfully** in Tailwind; defer V2 redesign.
 - [x] `npm run start` + `/tmp/verify-phase10.js` — all **14 assertions pass**: `/en/business` (196 KB) contains "BITCOIN IS GOOD FOR BUSINESS" + all 4 benefit headings + `biz-box`/`biz-button` classes + Article + BreadcrumbList JSON-LD + reviewed-badge. All 8 other `/en/business/*` pages serve 200 with their expected markers (Q&A headings, wallet brand names, country IDs, Cloudflare Turnstile, forms-backend action URLs, success messages). `/ar/business` renders `<html lang="ar" dir="rtl">` correctly.
 - [x] Commit: "Phase 10: business section"
 
-## Phase 11 — Sticker-files section (1 task)
+## Phase 11 — Sticker-files section ✅ COMPLETE
 
-The `sticker-files/<language>/index.html` pattern is essentially a directory listing of downloadable PNGs/PDFs per language.
+The `sticker-files/<language>/index.html` pattern was essentially a directory listing of downloadable PNGs per language. Ported as a dynamic route `[lang]` + static-filesystem-scanned catalog so future new languages need zero code changes (just add JSON entry + PNG files + update catalog).
 
-- [ ] Decide: dynamic route `app/[locale]/sticker-files/[lang]/page.tsx` driven by filesystem listing, or flat set of pages. Probably dynamic.
-- [ ] `sticker-files/` static assets → move to `public/sticker-files/`
-- [ ] Commit: "Phase 11: sticker-files section"
+- [x] Chose: dynamic route `app/[locale]/sticker-files/[lang]/page.tsx` driven by a static `STICKER_AVAILABILITY` map in `lib/sticker-files/catalog.ts` (generated from the repo's on-disk `sticker-files/<lang>/*.png` filesystem state, embedded into the bundle so there's no runtime `fs.readdir`). `generateStaticParams()` emits every `(locale × lang)` pair → 55 × 43 = **2365 static pages**. Unknown `lang` slugs → 404 via `notFound()`.
+- [x] `sticker-files/` static assets → copied to `public/sticker-files/` via `scripts/phase11/copy-assets.js` (idempotent; 219 PNGs across 43 language directories). Script only copies files missing or with different mtime so re-runs are fast.
+- [x] `lib/sticker-files/catalog.ts` — NEW (~260 lines). Two typed maps:
+  - `STICKER_KINDS`: per-sticker metadata (dimensions key, type key, material key) keyed by stable sticker slug (e.g. `bdhi-orange`, `cure-inflation-v2`, `sticker-danger`, Swedish's `cure-inflation-v2-fixed` variant). Metadata is per-slug and maps to shared `common_stickers_*` i18n keys so translators edit one string per sticker-kind, not one per (sticker × language) pair.
+  - `STICKER_AVAILABILITY`: per-language array of available sticker slugs. English has 11; most languages have 5; Swedish has 7 (including two `-fixed` reprints); Basque/Estonian/Filipino/Hindi/Korean have 4 (the V2-era subset).
+  - Plus helpers: `getStickersForLanguage()`, `getPrintableLanguageSlugs()`, `findLanguage()`, `stickerImageUrl()`, `stickerMuleOneClickUrl()` (English-only "PRINT THESE IN 1 CLICK" StickerMule pack URL).
+- [x] `app/[locale]/sticker-files/page.tsx` — NEW (~220 lines). Index page: hero + mission paragraph + 43-language button grid + sticker-language-request form with Cloudflare Turnstile (posts to `forms-backend/submit/sticker-language-request`). Article + BreadcrumbList JSON-LD via Phase 4 helpers; full 55-locale hreflang alternates.
+- [x] `app/[locale]/sticker-files/[lang]/page.tsx` — NEW (~250 lines). Per-language page: hero (`DOWNLOAD <LANGUAGE> BITCOIN STICKER FILES`), optional StickerMule one-click CTA (English only), shared mission paragraph, one card per available sticker design (image + dimensions/type/material/printer attribution). Handles Swedish's `-fixed` reprint variants as separate cards with their own PNGs. Uses `notFound()` for unknown lang slugs.
+- [x] `lib/i18n/request.ts` — added 44 new namespaces (`sticker-files/index` + `sticker-files/<lang>/index` × 43) to `DEFAULT_NAMESPACES`. Each sticker-language namespace is ~3-4 keys (`<lang>_bitcoin_sticker_files`, `<lang>_header`, `<lang>_description`) so total payload growth is negligible; in-memory cache keeps it read-once per locale per build.
+- [x] `lib/pages.ts` — added 44 Phase 11 entries; all flipped `published: true`. Sitemap emits **55 × 44 = 2420 new URLs** (index + 43 per-language, all 55 locales each).
+- [x] `scripts/phase11/copy-assets.js` — NEW idempotent copier (skip-if-up-to-date via mtime + size check).
+- [x] `npm run build` → ✓ Compiled successfully in 4.1s, TypeScript clean, **4624 static pages** total (up from 2204 at end of Phase 10). That's 2420 new URLs for Phase 11 (55 locales × 44 slugs).
+- [x] `npm run start` + `/tmp/verify-phase11.js` — all **8 assertions pass**:
+  - `/en/sticker-files` (217 KB) — "BITCOIN STICKER FILES" + AFRIKAANS/YORUBA buttons + `cf-turnstile` + `sticker-language-request` form
+  - `/en/sticker-files/english` (228 KB) — "DOWNLOAD ENGLISH BITCOIN STICKER FILES" + "PRINT THESE IN 1 CLICK" button + all 11 sticker PNG refs (`sticker-danger-english.png`, `what-if-english.png`, etc.) + stickermule.com link
+  - `/en/sticker-files/chinese` (213 KB) — "DOWNLOAD CHINESE BITCOIN STICKER FILES" + `bdhi-orange-chinese.png` + `cure-inflation-v2-chinese.png` + `got-inflation-chinese.png`
+  - `/en/sticker-files/spanish` (213 KB) — Spanish variant
+  - `/en/sticker-files/swedish` (218 KB) — Swedish variant including the 2 `-fixed` variants (`cure-inflation-v2-fixed-swedish.png`, `got-inflation-fixed-swedish.png`)
+  - `/ar/sticker-files` renders `<html lang="ar" dir="rtl">` correctly
+  - `/sitemap.xml` (25 MB) contains `/en/sticker-files<`, `/en/sticker-files/english<`, `/en/sticker-files/yoruba<`
+  - `/sticker-files/english/bdhi-orange-english.png` serves 200 (569 KB PNG) — static asset routing works
+- [x] Commit: "Phase 11: sticker-files section"
 
 ## Phase 12 — Nostr section (1 task)
 

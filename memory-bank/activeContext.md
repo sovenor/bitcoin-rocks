@@ -1,6 +1,74 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 10 Business section (13 pages) — April 17, 2026
+## Latest: Next.js Migration — Phase 11 Sticker-files section (43 languages + index = 44 pages) — April 17, 2026
+
+Fifteenth commit of the Next.js migration on `v2-nextjs-redesign`. The `/sticker-files` section — 43 language-specific downloadable sticker-file pages + the top-level language picker + sticker-language-request form — is now live as a single dynamic route driven by a typed catalog. `main` is still frozen.
+
+### What Phase 11 delivered
+
+**New infrastructure (`lib/sticker-files/`)**
+- **`lib/sticker-files/catalog.ts`** — ~260-line typed catalog. Two maps:
+  - `STICKER_KINDS` (~14 entries): per-sticker metadata (dimensions, type, material) keyed by stable sticker slug. Metadata uses shared `common_stickers_*` i18n keys so translators edit one string per design, not per (design × language) pair.
+  - `STICKER_AVAILABILITY`: per-language array of available sticker slugs. English has 11 designs; most languages have 5; Swedish has 7 (with 2 `-fixed` reprint variants); Basque/Estonian/Filipino/Hindi/Korean have 4.
+  - Helpers: `getStickersForLanguage()`, `getPrintableLanguageSlugs()`, `findLanguage()`, `stickerImageUrl()`, `stickerMuleOneClickUrl()` (English-only 1-click StickerMule pack URL).
+
+**New pages (2 route files, 2,420 static URLs)**
+- **`app/[locale]/sticker-files/page.tsx`** (~220 lines) — index page: hero + mission paragraph + 43-language button grid (each links to its per-language page) + "request my language" form (Cloudflare Turnstile → `forms-backend/submit/sticker-language-request`).
+- **`app/[locale]/sticker-files/[lang]/page.tsx`** (~250 lines) — dynamic per-language page. `generateStaticParams()` emits every `(locale × lang)` pair = 55 × 43 = **2365 static pages**. Renders one card per available sticker design (image + dimensions / type / material / printer attribution). English shows an extra "PRINT THESE IN 1 CLICK" StickerMule CTA. Unknown lang slugs → 404 via `notFound()`.
+
+**New scripts (`scripts/phase11/`)**
+- **`copy-assets.js`** — idempotent Node helper that copies 219 PNGs across 43 language directories from `sticker-files/` to `public/sticker-files/`. Skip-if-up-to-date via mtime + size check.
+
+**Files modified**
+- **`lib/i18n/request.ts`** — added 44 new namespaces (`sticker-files/index` + `sticker-files/<lang>/index` × 43). Each language-specific namespace is only 3-4 keys, so total payload growth is negligible; in-memory cache keeps it read-once per locale per build.
+- **`lib/pages.ts`** — added 44 Phase 11 entries (all `published: true`). Sitemap emits **2420 new URLs** (index + 43 per-language, all 55 locales each).
+- **`public/sticker-files/`** — NEW (43 language directories × 4-11 PNGs each = 219 files total).
+- **`MIGRATION-NEXTJS.md`** — Phase 11 checkboxes complete; status pointer advanced to Phase 12.
+
+### Build + verification
+- `npm run build` → ✓ Compiled successfully in 4.1s, TypeScript clean, **4624 static pages** total (up from 2204 at end of Phase 10). That's 2420 new URLs for Phase 11.
+- Runtime spot-check via `/tmp/verify-phase11.js` — all **8 assertions pass**:
+  - `/en/sticker-files` (217 KB) — "BITCOIN STICKER FILES" + AFRIKAANS/YORUBA language buttons + `cf-turnstile` + `sticker-language-request` form.
+  - `/en/sticker-files/english` (228 KB) — "DOWNLOAD ENGLISH BITCOIN STICKER FILES" + "PRINT THESE IN 1 CLICK" StickerMule button + all 11 English PNG refs (`sticker-danger-english.png`, `what-if-english.png`, `fix-english.png`, etc.) + stickermule.com link.
+  - `/en/sticker-files/chinese` (213 KB) — "DOWNLOAD CHINESE BITCOIN STICKER FILES" + all 5 Chinese PNGs (`bdhi-orange-chinese.png`, `cure-inflation-v2-chinese.png`, `got-inflation-chinese.png`, etc.).
+  - `/en/sticker-files/spanish` (213 KB) — Spanish variant (5 PNGs).
+  - `/en/sticker-files/swedish` (218 KB) — Swedish variant (7 PNGs) including the 2 `-fixed` reprint variants (`cure-inflation-v2-fixed-swedish.png`, `got-inflation-fixed-swedish.png`).
+  - `/ar/sticker-files` renders `<html lang="ar" dir="rtl">` correctly.
+  - `/sitemap.xml` (25 MB) contains `/en/sticker-files<`, `/en/sticker-files/english<`, `/en/sticker-files/yoruba<`.
+  - `/sticker-files/english/bdhi-orange-english.png` serves 200 (569 KB PNG) — static asset routing from `public/` works.
+
+### Architecture validation
+Phase 11's key decision — **filesystem-scanned static catalog** instead of runtime `fs.readdir()` — paid off. The dynamic route `[lang]` is driven by the `STICKER_AVAILABILITY` map (derived from on-disk state and embedded in the catalog.ts file) so the entire per-language page tree is statically prerenderable. Adding a new language requires only: (1) create `i18n/<lang>/sticker-files/<new>/index_<lang>.json` with the 3 keys, (2) drop PNGs into `sticker-files/<new>/`, (3) add the language slug to `STICKER_AVAILABILITY` in `catalog.ts` + `STICKER_LANGUAGES` in `sticker-languages.ts`. No component changes needed.
+
+The 4624-page build (up from 2204 at end of Phase 10) completes in 21.1s of static generation + 4.1s compile — well under the tolerance for future phase growth. Next's build-worker parallelism handled the 2365 `[lang]` pages efficiently.
+
+### Intentionally left alone
+- `sticker-files/*/index.html` + `sticker-files/index.html` + `jquery/refresh-css.js` (referenced in legacy sticker-files HTML) — still shipped by the static site on `main`. Phase 14 deletes them.
+- V2 redesign of the sticker-files section — deferred to post-cutover queue.
+- `forms-backend/` — completely untouched. The sticker-language-request form POSTs to the existing `/submit/sticker-language-request` endpoint with the unchanged Turnstile site-key `0x4AAAAAAClzj7R6NrkNgcsP`.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 11
+```
+lib/sticker-files/catalog.ts                                    (NEW — ~260 lines typed catalog)
+app/[locale]/sticker-files/page.tsx                             (NEW — ~220 lines index page)
+app/[locale]/sticker-files/[lang]/page.tsx                      (NEW — ~250 lines dynamic per-language)
+scripts/phase11/copy-assets.js                                  (NEW — idempotent PNG copier)
+public/sticker-files/**                                         (NEW — 219 PNGs, 43 language dirs)
+lib/i18n/request.ts                                             (edited — 44 new namespaces)
+lib/pages.ts                                                    (edited — 44 published entries)
+MIGRATION-NEXTJS.md                                             (edited — Phase 11 complete, pointer → Phase 12)
+memory-bank/activeContext.md                                    (edited — this file)
+memory-bank/progress.md                                         (edited — progress note)
+```
+
+### Next
+**Phase 12** — `/nostr` section. 2 pages (`/nostr` index + `/nostr/what-is-nostr`). Simple content-pages port, likely reusing `ContentPageLayout` or a new `.nostr` stylistic wrapper. `main` stays frozen.
+
+---
+
+## Previous: Next.js Migration — Phase 10 Business section (13 pages) — April 17, 2026
+
 
 Fourteenth commit of the Next.js migration on `v2-nextjs-redesign`. The entire `/business` section — the 13-page Bitcoin Business Kit — is now live as faithful Tailwind ports with V2 redesign deferred. `main` is still frozen.
 
