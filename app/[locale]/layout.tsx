@@ -5,8 +5,10 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { JsonLd } from "@/components/JsonLd";
 import { Navbar } from "@/components/Navbar";
 import { locales, RTL_LOCALES, type Locale } from "@/lib/i18n/config";
+import { buildOrganizationSchema } from "@/lib/schema/organization";
 
 // Typekit kit hosting proxima-nova + proxima-soft. Matches the existing
 // `<link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">`
@@ -69,6 +71,12 @@ export default async function LocaleLayout({
 			<head>
 				{/* Adobe Typekit — Proxima Nova + Proxima Soft */}
 				<link rel="stylesheet" href={TYPEKIT_URL} />
+				{/*
+				 * Site-wide Organization JSON-LD. Every page in every locale gets
+				 * this. Other schemas (Article, Breadcrumb, Comparison, WebSite)
+				 * reference it via `@id` so they don't duplicate the full node.
+				 */}
+				<JsonLd data={buildOrganizationSchema()} />
 			</head>
 			<body className="bg-bg text-fg font-proxima antialiased">
 				<GoogleAnalytics />

@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 3 complete · Awaiting Phase 4 (SEO / JSON-LD / sitemap helpers)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components)
+**Status:** Phase 4 complete · Awaiting Phase 5 (Homepage port)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 3 done → starting Phase 4 next.
+**Current position pointer:** Phase 4 done → starting Phase 5 next.
 
 ---
 
@@ -145,21 +145,37 @@ Goal: Every page inherits the same `<Navbar>` + `<Footer>` via `layout.tsx`. Zer
 
 **Deferred:** `components/ScrollProgress.tsx` is listed as optional in the migration plan; we'll crib it from vote-for-better-money later if any page actually wants it. None of the V2 pages use one today.
 
-## Phase 4 — SEO / JSON-LD / sitemap helpers (1 task)
+## Phase 4 — SEO / JSON-LD / sitemap helpers ✅ COMPLETE
 
 Goal: Replace the `scripts/inject-*.js` pipeline with TypeScript helpers that run at page-render time.
 
-- [ ] `lib/schema/article.ts` — port `scripts/inject-article-schema.js`
-- [ ] `lib/schema/breadcrumb.ts` — port `scripts/inject-breadcrumb-schema.js`
-- [ ] `lib/schema/organization.ts` — port `scripts/inject-organization-schema.js`
-- [ ] `lib/schema/comparison.ts` — port `scripts/inject-comparison-schema.js`
-- [ ] `lib/schema/reviewed-badge.ts` — port `scripts/inject-reviewed-badge.js`
-- [ ] `lib/schema/hreflang.ts` — NEW: generate `<link rel="alternate" hreflang="…">` for every locale × current path, for every page
-- [ ] `app/sitemap.ts` — enumerate all pages × all locales (replaces static `sitemap.xml`)
-- [ ] `app/robots.ts` — port `robots.txt`
-- [ ] Copy `llms.txt` + `llms-full.txt` to `public/` as-is (they're content, no processing needed yet)
-- [ ] Add `Article` / `WebPage` metadata helper that derives `dateModified` from the English JSON's `@metadata.last-updated` field (automated — no more manual date updates)
-- [ ] Commit: "Phase 4: SEO + JSON-LD + sitemap helpers"
+- [x] `lib/site.ts` — canonical site-wide constants (origin, brand, logo, GA id, `buildUrl()` helper)
+- [x] `lib/pages.ts` — canonical page registry (slug, phase, sitemap priority, changeFrequency, English JSON namespace, `published` flag). Pages are listed now so future phases just flip `published: true` when they port; sitemap only emits published pages so the index never advertises 404s.
+- [x] `components/JsonLd.tsx` — tiny `<script type="application/ld+json">` renderer with `</` escape for XSS safety.
+- [x] `lib/schema/organization.ts` — ports `scripts/inject-organization-schema.js`. Exports `buildOrganizationSchema()` (full node) + `ORGANIZATION_REF` (`@id` reference used by every other schema so they don't duplicate the node).
+- [x] `lib/schema/website.ts` — homepage-only WebSite schema with SearchAction + `inLanguage` list sourced from `lib/i18n/config.ts` (all 55 locales).
+- [x] `lib/schema/article.ts` — ports `scripts/inject-article-schema.js`. Picks Article vs WebPage based on slug; reads `dateModified` automatically from `date-modified.ts`.
+- [x] `lib/schema/breadcrumb.ts` — ports `scripts/inject-breadcrumb-schema.js`. Emits `Home > [Section] > Page` trails. Returns `null` for the homepage (no breadcrumb needed).
+- [x] `lib/schema/comparison.ts` — ports `scripts/inject-comparison-schema.js`. Accepts typed `ComparisonPoint[]` data instead of HTML-scraping (caller passes already-translated strings) — type-safe + zero disruption to translator workflow.
+- [x] `lib/schema/reviewed-badge.ts` — ports editorial-rigor semantics of `scripts/inject-reviewed-badge.js` as a helper (not a component) so pages render the badge wherever suits their V2 design.
+- [x] `lib/schema/date-modified.ts` — reads `@metadata.last-updated` from the English JSON for any page slug. In-memory cached per-build. Automates the `dateModified` field so manual schema date edits are no longer needed.
+- [x] `lib/schema/hreflang.ts` — NEW: `buildAlternates({locale, slug})` for the Next.js Metadata API (canonical + all 55 locale `languages`); `buildHreflangMap()` for the sitemap.
+- [x] `app/sitemap.ts` — enumerates `getPublishedPages()` × all 55 locales; each entry includes `alternates.languages` so Next emits proper `<xhtml:link rel="alternate" hreflang="…">` per URL. `lastModified` reads English JSON `@metadata.last-updated`.
+- [x] `app/robots.ts` — ports `robots.txt`. Global `User-agent: *` rules + per-agent entries for all 16 AI crawlers (GPTBot, ChatGPT-User, OAI-SearchBot, Google-Extended, ClaudeBot, anthropic-ai, PerplexityBot, Applebot-Extended, Meta-ExternalAgent, Bingbot, Amazonbot, CCBot, cohere-ai, YouBot, Diffbot, Bytespider).
+- [x] Copied `llms.txt` → `public/llms.txt` and `llms-full.txt` → `public/llms-full.txt` (content-only files, no processing).
+- [x] Wired `<JsonLd data={buildOrganizationSchema()} />` into `app/[locale]/layout.tsx` `<head>` so every page across every locale emits the Organization node.
+- [x] Updated `app/[locale]/page.tsx` to demonstrate the full pattern:
+  - `generateMetadata()` returns `alternates: buildAlternates(...)` so Next emits `<link rel="alternate" hreflang="…">` for all 55 locales in the homepage `<head>`.
+  - Body renders `<JsonLd data={buildWebSiteSchema()} />` (homepage-only WebSite+SearchAction) and `<JsonLd data={buildArticleSchema(...)} />` (per-locale WebPage with auto-derived `dateModified`).
+- [x] `npm run build` → ✓ compiled 2.0s, TypeScript clean, **59 routes** static-generated (55 locale pages + /robots.txt + /sitemap.xml + /_not-found + middleware).
+- [x] `npm run start` + `curl` spot-checks:
+  - `/en` → 3 JSON-LD blocks in source (Organization, WebSite, WebPage), hreflang links for all 55 locales.
+  - `/sitemap.xml` → valid XML with `<xhtml:link rel="alternate" hreflang="…">` per URL for all 55 locales.
+  - `/robots.txt` → expected structure with per-AI-crawler Allow/Disallow blocks.
+  - `/ar` → `<html lang="ar" dir="rtl">` ✓
+- [x] Commit: "Phase 4: SEO + JSON-LD + sitemap helpers"
+
+**Note:** Comparison + breadcrumb + reviewed-badge helpers are built but aren't wired into any page yet — they'll be called by Phase 5 (breadcrumb: no, home has none) / Phase 7 (comparison + breadcrumb on each bitcoin-vs-* page) / Phase 7-8 (reviewed-badge on educational pages). Having them ready means those phases are pure page-porting with no schema infrastructure work.
 
 ## Phase 5 — Homepage (1 task)
 

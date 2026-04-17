@@ -1,5 +1,86 @@
 # Active Context: bitcoin.rocks
 
+## Latest: Next.js Migration — Phase 4 SEO / JSON-LD / sitemap helpers complete — April 17, 2026
+
+Fourth commit of the Next.js migration on `v2-nextjs-redesign`. The entire `scripts/inject-*.js` JSON-LD pipeline from the legacy static site has been ported to TypeScript helpers that run at render time — plus brand-new `hreflang` generation, the Next `MetadataRoute` sitemap + robots handlers, and a `dateModified` helper that automates what was previously a manual dual-source-of-truth dance. `main` is still frozen.
+
+### What Phase 4 delivered
+
+**New infrastructure (`lib/`, `components/`)**
+- **`lib/site.ts`** — site-wide constants (origin, brand, logo, GA id) + `buildUrl(locale, slug)` helper. One source of truth for production URLs.
+- **`lib/pages.ts`** — canonical page registry. Each page has a slug, the phase that ships it, sitemap priority, changeFrequency, English JSON namespace, and a `published: boolean` flag. Phase 5 will flip `index` to `published: true`; Phase 6 flips `inflation`; etc. The sitemap only emits `getPublishedPages()` so the index never advertises URLs that still 404 during the migration.
+- **`components/JsonLd.tsx`** — tiny render-a-`<script type="application/ld+json">` component. Uses `dangerouslySetInnerHTML` with a `</` → `\u003c` escape so a malicious translated string can never break out of the script tag.
+- **`lib/schema/organization.ts`** — ports `scripts/inject-organization-schema.js`. Exports `buildOrganizationSchema()` (full node with `knowsAbout`, contact points, etc.) and `ORGANIZATION_REF` (`@id`-only reference every other schema uses so we don't duplicate the full organization node on every page).
+- **`lib/schema/website.ts`** — NEW (was hand-maintained in `index.html`). Emits `WebSite` + SearchAction + `inLanguage` list (all 55 locales pulled from `lib/i18n/config.ts` so adding a language auto-updates the schema).
+- **`lib/schema/article.ts`** — ports `scripts/inject-article-schema.js`. Picks Article vs WebPage from a slug allow-list. Takes pre-translated `headline` + `description` as input (from the caller's `t()` lookups) — no more HTML scraping at build time.
+- **`lib/schema/breadcrumb.ts`** — ports `scripts/inject-breadcrumb-schema.js` with the same hierarchy rules (`Home > Page`, `Home > Business > Page`, `Home > Nostr > Page`, `Home > Stickers > Sticker Files`). Accepts the translated page title as input; returns `null` for the homepage.
+- **`lib/schema/comparison.ts`** — ports `scripts/inject-comparison-schema.js`. Takes a typed `ComparisonPoint[]` data array (`{bitcoin, asset, explanation}`) rather than scraping HTML — type-safe + means each comparison page in Phase 7 just imports its data file and passes it through.
+- **`lib/schema/reviewed-badge.ts`** — ports the semantics of `scripts/inject-reviewed-badge.js` but deliberately as a `getReviewedAccuracyYear()` + `REVIEWED_ACCURACY_I18N_KEY` helper, not a component. Each Phase 7/8 page decides exactly where in its V2 design to render the badge.
+- **`lib/schema/date-modified.ts`** — NEW automation. Reads `@metadata.last-updated` from each English JSON file. Means the `Article.dateModified` field and the sitemap `<lastmod>` auto-update the moment a translator/editor bumps the JSON metadata. No more dual bookkeeping.
+- **`lib/schema/hreflang.ts`** — NEW. `buildAlternates({locale, slug})` returns the canonical + all-55-locales `languages` map for the Next Metadata API. `buildHreflangMap(slug)` is the raw `{locale: url}` map used inside the XML sitemap. Google's sitelinks-search-box + multilingual SERP preferences rely on this being correct — Phase 4 is where we unlock that.
+
+**New route handlers (`app/`)**
+- **`app/sitemap.ts`** — `MetadataRoute.Sitemap` handler. Emits one entry per `(published page, locale)` pair, each with its full `alternates.languages` map — Next serializes those into the `<xhtml:link rel="alternate" hreflang="…">` Google expects for multilingual sites. `lastModified` comes from `getDateModifiedFromNamespace()`, `changeFrequency` + `priority` from the page registry.
+- **`app/robots.ts`** — `MetadataRoute.Robots` handler. Ports the hand-maintained `robots.txt` including the non-content disallow list (`/i18n/`, `/jquery/`, `/scripts/`, `/memory-bank/`, `/css/`, `/forms-backend/`, `/.github/`) + per-user-agent Allow blocks for all 16 major AI crawlers (GPTBot, ChatGPT-User, OAI-SearchBot, Google-Extended, ClaudeBot, anthropic-ai, PerplexityBot, Applebot-Extended, Meta-ExternalAgent, Bingbot, Amazonbot, CCBot, cohere-ai, YouBot, Diffbot, Bytespider).
+
+**Existing file changes**
+- **`app/[locale]/layout.tsx`** — emits `<JsonLd data={buildOrganizationSchema()} />` inside `<head>` so every page across every locale ships the Organization node (other schemas reference it via `@id` so no duplication).
+- **`app/[locale]/page.tsx`** — updated to demonstrate the full pattern so future phases (and translators/editors wiring up new pages) have a clear reference:
+  - `generateMetadata()` returns `alternates: buildAlternates({locale, slug: ""})` → Next renders `<link rel="alternate" hreflang="…">` for every locale in `<head>`.
+  - Body renders `<JsonLd data={buildWebSiteSchema()} />` (homepage-only) + `<JsonLd data={buildArticleSchema({slug: "", locale, headline, description, schemaType: "WebPage"})} />` (per-locale, with auto-derived `dateModified` from `i18n/en/index_en.json`'s `@metadata.last-updated`).
+
+**Static assets**
+- `llms.txt` and `llms-full.txt` copied into `public/` so they're served at `/llms.txt` / `/llms-full.txt` (AI crawlers expect them at those paths).
+
+### Build + verification
+- `npm run build` → ✓ compiled 2.0s, TypeScript clean, **59 routes** static-generated (55 locale pages + /_not-found + /robots.txt + /sitemap.xml + middleware proxy).
+- Live `curl` spot-checks via `npm run start`:
+  - `/en` HTML source contains 3 JSON-LD blocks (Organization + WebSite + WebPage) and `<link rel="alternate" hreflang="…">` for all 55 locales.
+  - `/sitemap.xml` is valid XML with `<xhtml:link rel="alternate" hreflang="…">` per URL for all 55 locales (one entry per published page so far = just `/`).
+  - `/robots.txt` has the expected structure with per-AI-crawler Allow + Disallow blocks, `Sitemap:` pointer, and `host` directive.
+  - `/ar` → `<html lang="ar" dir="rtl">` still correct with the full Phase 3/4 stack loaded.
+
+### Decisions locked in
+- **Published-flag gate on the sitemap.** The page registry lists all ~45 future URLs right now, but `getPublishedPages()` filters to only those shipped in Next. This means the sitemap stays honest during the long migration without hunting-and-pecking to add each URL later — future phases just flip one `published` bool per page and it appears in the sitemap automatically.
+- **Comparison/breadcrumb helpers take translated strings as inputs**, rather than scraping DOM like the legacy scripts. Reason: pages now render from typed React components, so we already have the translated strings in hand by the time we call the builder. Type-safe + zero translator workflow disruption.
+- **`dateModified` is derived, not written manually** — the old `.clinerules` rule about bumping `Article` schema `dateModified` when bumping English JSON `@metadata.last-updated` becomes automatic. The rule still applies to translators bumping `last-updated`; the HTML schema date no longer needs manual editing.
+- **JsonLd is loosely typed (`data: any`)** deliberately — every schema builder returns a plain `Record<string, unknown>` and a strict union over every possible schema shape just creates assertion noise at the JSX site. The `</ → \u003c` escape inside the component is the safety net.
+- **Breadcrumb + comparison + reviewed-badge helpers aren't wired to any page yet.** They'll be used by Phase 7 (comparison + breadcrumb on each bitcoin-vs-* page), Phase 8 (breadcrumb on about/get-involved), Phase 7-8 (reviewed-badge on educational pages). Phase 4 ends with the infrastructure built; actual usage lands when the pages that need it get ported.
+
+### Intentionally left alone
+- `scripts/inject-*.js` — still used by the static site on `main`. Phase 14 will delete them.
+- All root `*.html` files, `css/style.css`, `jquery/` — legacy static site untouched.
+- `forms-backend/` — still a completely separate Railway service.
+- The stale hand-written `sitemap.xml` in the repo root — Phase 13 (`app/not-found.tsx` + redirects + final sitemap review) will delete it.
+- `main` branch at `origin/main` (`6cb07406`) — Railway keeps serving the static site until cutover (Phase 15).
+
+### Files created/changed in Phase 4
+```
+lib/site.ts                 (NEW)
+lib/pages.ts                (NEW)
+lib/schema/organization.ts  (NEW)
+lib/schema/website.ts       (NEW)
+lib/schema/article.ts       (NEW)
+lib/schema/breadcrumb.ts    (NEW)
+lib/schema/comparison.ts    (NEW)
+lib/schema/reviewed-badge.ts (NEW)
+lib/schema/date-modified.ts (NEW)
+lib/schema/hreflang.ts      (NEW)
+components/JsonLd.tsx       (NEW)
+app/sitemap.ts              (NEW)
+app/robots.ts               (NEW)
+public/llms.txt             (copy)
+public/llms-full.txt        (copy)
+app/[locale]/layout.tsx     (Organization JSON-LD wired into <head>)
+app/[locale]/page.tsx       (WebSite + WebPage JSON-LD + generateMetadata with alternates)
+MIGRATION-NEXTJS.md         (Phase 4 marked complete; position pointer → Phase 5)
+```
+
+### Next up: Phase 5 — Homepage port
+Port `index.html` (943 lines, already V2) to `app/[locale]/page.tsx` in full. Extract `components/HomeCarousel.tsx` (Client — drag-to-scroll + RAF infinite loop) + `components/HomePill.tsx` + `components/WhatsNextCard.tsx` + `components/SavingSection.tsx`. All strings via `t()` from `i18n/en/index_en.json`. Visual parity check against live `bitcoin.rocks/`. Phase 4's SEO helpers + the homepage's existing Phase-4-demo usage of `buildArticleSchema` / `buildWebSiteSchema` / `buildAlternates` stay in place when the stub content is replaced with the full carousels + sections. See `MIGRATION-NEXTJS.md` Phase 5 for the full checklist.
+
+---
+
 ## Latest: Next.js Migration — Phase 3 shared layout components complete — April 17, 2026
 
 Third commit of the Next.js migration on `v2-nextjs-redesign`. Every page now inherits a server-rendered V2 navbar + footer + GA snippet from `app/[locale]/layout.tsx` — zero duplication, zero client-side hydration needed for the shared chrome. `main` is still frozen.

@@ -1,5 +1,54 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 4 SEO / JSON-LD / sitemap helpers — April 17, 2026
+
+Fourth commit of the Next.js migration on `v2-nextjs-redesign`. The legacy `scripts/inject-*.js` pipeline is now reborn as render-time TypeScript helpers, plus NEW `hreflang` + sitemap + robots infrastructure. The old manual `dateModified`-bumping dance is gone — schema dates now derive from English JSON `@metadata.last-updated` automatically.
+
+**Files created**
+- `lib/site.ts` — canonical site-wide constants (`SITE_ORIGIN`, brand, logo, GA id, `buildUrl(locale, slug)` helper).
+- `lib/pages.ts` — canonical page registry. Each slug has phase number, sitemap priority, changeFrequency, English JSON namespace, and a `published: boolean` flag. The sitemap filters to `getPublishedPages()` so during the migration we never advertise URLs that still 404 — future phases just flip `published: true` on the pages they port.
+- `components/JsonLd.tsx` — tiny `<script type="application/ld+json">` renderer with `</` → `\u003c` XSS escape.
+- `lib/schema/organization.ts` — `buildOrganizationSchema()` full node + `ORGANIZATION_REF` (`@id`-only ref used by other schemas so they don't duplicate).
+- `lib/schema/website.ts` — homepage-only WebSite + SearchAction + `inLanguage` (55 locales sourced from `lib/i18n/config.ts`).
+- `lib/schema/article.ts` — Article vs WebPage picker; accepts translated `headline`/`description` strings from the caller; auto-reads `dateModified`.
+- `lib/schema/breadcrumb.ts` — `BreadcrumbList` builder with the same section-hierarchy rules as the legacy script (`Home > Business > Page` etc).
+- `lib/schema/comparison.ts` — `ItemList` comparison schema. Takes typed `ComparisonPoint[]` data instead of HTML-scraping.
+- `lib/schema/reviewed-badge.ts` — helper (not a component) for the "Reviewed for accuracy: YEAR" editorial signal. Pages render it in whatever slot suits their V2 design.
+- `lib/schema/date-modified.ts` — reads `@metadata.last-updated` from any English JSON file. Caches per-build. Automates the `dateModified` + sitemap `<lastmod>` fields.
+- `lib/schema/hreflang.ts` — `buildAlternates({locale, slug})` for the Next Metadata API + `buildHreflangMap(slug)` for the XML sitemap.
+- `app/sitemap.ts` — `MetadataRoute.Sitemap` handler. One entry per `(published page, locale)` with full `alternates.languages` map → Next emits `<xhtml:link rel="alternate" hreflang="…">` per URL.
+- `app/robots.ts` — `MetadataRoute.Robots` handler. Global + per-AI-crawler (16 bots) rules matching the legacy `robots.txt`.
+- `public/llms.txt` + `public/llms-full.txt` — copied as-is from repo root (AI crawlers expect them at those paths).
+
+**Files modified**
+- `app/[locale]/layout.tsx` — renders `<JsonLd data={buildOrganizationSchema()} />` in `<head>` so every page/locale ships the Organization node.
+- `app/[locale]/page.tsx` — demonstrates the full Phase 4 pattern: `generateMetadata()` returns `alternates: buildAlternates({slug:"", locale})` + body renders `<JsonLd data={buildWebSiteSchema()} />` and `<JsonLd data={buildArticleSchema(…)} />` (WebPage with auto-derived `dateModified`).
+- `MIGRATION-NEXTJS.md` — Phase 4 flipped to ✅ COMPLETE with delivered checklist; position pointer → Phase 5.
+
+**Build + verification**
+- `npm run build` → ✓ compiled 2.0s, TypeScript clean, **59 routes** static-generated: 55 locale pages + /_not-found + /robots.txt + /sitemap.xml + middleware.
+- Live `curl` spot-checks via `npm run start`:
+  - `/en` → 3 JSON-LD blocks in source (Organization, WebSite, WebPage) + `<link rel="alternate" hreflang="…">` for every one of the 55 locales
+  - `/sitemap.xml` → valid XML with proper `<xhtml:link rel="alternate" hreflang="…">` per URL
+  - `/robots.txt` → expected User-agent blocks (wildcard + all 16 AI crawlers) with Allow/Disallow + `Sitemap:` pointer
+  - `/ar` → `<html lang="ar" dir="rtl">` still correct
+
+**Decisions locked in**
+- **Published-flag gate on the sitemap** — listing future pages in `lib/pages.ts` now (with `published: false`) means future phases only flip one bool to include the URL. The registry is the single source of truth for "what slug maps to what namespace" across sitemap + schema + (eventually) breadcrumb-lookup.
+- **Translated strings flow through builders as inputs, not scraped from HTML.** Type-safe + works cleanly with React server components + preserves translator workflow.
+- **`dateModified` is derived from English JSON** `@metadata.last-updated` — automates what was previously a `.clinerules` dual-edit requirement.
+- **Breadcrumb/comparison/reviewed-badge helpers intentionally unused so far.** Phase 7 (comparisons) + Phase 8 (about/get-involved) wire them up. Building them now means those phases are pure page-porting with zero schema infrastructure work.
+- **Robots handler per-AI-crawler duplication** — the robots.txt spec says per-agent rules OVERRIDE the global `User-agent: *` block. Each AI crawler entry gets the full Disallow list applied so crawl restrictions for non-content dirs carry over even after the per-agent Allow: /.
+
+**Intentionally left alone**
+- `scripts/inject-*.js` — still used by the static site on `main`. Phase 14 deletes them.
+- Hand-maintained `sitemap.xml` in repo root — Phase 13 will delete it once Next-generated sitemap is verified in production.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15.
+
+**Next phase** — Phase 5: port the full v2 homepage (`index.html`, 943 lines) to `app/[locale]/page.tsx` with extracted `HomeCarousel` (Client Component), `HomePill`, `WhatsNextCard`, `SavingSection`. All strings via `t()` from `i18n/en/index_en.json`. Visual parity check against live `bitcoin.rocks/`.
+
+---
+
 ## Next.js Migration — Phase 3 shared layout components — April 17, 2026
 
 Third commit of the Next.js migration on `v2-nextjs-redesign`. Every page now renders a shared Navbar + Footer + Google Analytics snippet from `app/[locale]/layout.tsx`, entirely on the server — zero duplicated footer HTML across the site, translations baked in per locale, and the only Client Component in the chrome is the language dropdown.
