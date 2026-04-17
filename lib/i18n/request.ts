@@ -68,6 +68,20 @@ const DEFAULT_NAMESPACES = [
 	"sign-success",
 	"postcard-success",
 	"sticker-language-success",
+	// Phase 10 — business section.
+	"business/index",
+	"business/why",
+	"business/faq",
+	"business/guide",
+	"business/wallets",
+	"business/accounting",
+	"business/stickers",
+	"business/maps",
+	"business/kit",
+	"business/kit-success",
+	"business/maps-success",
+	"business/sticker-success",
+	"business/sticker-language-success",
 ] as const;
 
 

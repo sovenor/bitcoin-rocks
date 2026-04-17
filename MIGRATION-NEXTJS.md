@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 9b complete · Awaiting Phase 10 (business section)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages)
+**Status:** Phase 10 complete · Awaiting Phase 11 (sticker-files section)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages))
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 9b done → starting Phase 10 next.
+**Current position pointer:** Phase 10 done → starting Phase 11 next.
 
 
 ---
@@ -349,19 +349,35 @@ Port **faithfully** in Tailwind; defer V2 redesign.
 - [x] `npm run start` + `/tmp/verify-phase9b.js` — all 9 assertions pass: `/en/stickers` (233 KB, choose-sticker tiles + text/signs packs + AFRIKAANS/YORUBA language buttons + Article/BreadcrumbList JSON-LD), `/en/signs` (182 KB, out-of-signs message + share-on-nostr), `/en/postcards` (184 KB, program-closed notice + 3 CTA + preview images), `/en/buy` (199 KB, all 4 wizard steps + 52 country buttons including data-country US/GB/JP + country-search input), all 4 success pages (SUCCESS! + h2-stickers classes), `/ar/stickers` renders `<html lang="ar" dir="rtl">` correctly.
 - [x] Commit: "Phase 9b: sticker/sign/postcard forms + buy-flow + success pages"
 
-## Phase 10 — Bucket C business section (1-2 tasks)
+## Phase 10 — Bucket C business section ✅ COMPLETE
 
-- [ ] `app/[locale]/business/page.tsx`
-- [ ] `app/[locale]/business/accounting/page.tsx`
-- [ ] `app/[locale]/business/faq/page.tsx`
-- [ ] `app/[locale]/business/guide/page.tsx`
-- [ ] `app/[locale]/business/kit/page.tsx` + `kit-success`
-- [ ] `app/[locale]/business/maps/page.tsx` + `maps-success`
-- [ ] `app/[locale]/business/stickers/page.tsx` + `sticker-success` + `sticker-language-success`
-- [ ] `app/[locale]/business/wallets/page.tsx`
-- [ ] `app/[locale]/business/why/page.tsx`
-- [ ] `business/files/` + `business/sticker-files/` static assets → move to `public/`
-- [ ] Commit: "Phase 10: business section"
+- [x] `app/[locale]/business/page.tsx` — hand-authored (unique shape: hero H1 + payment-chart hero image + "ACCEPT BITCOIN PAYMENTS" anchor-scroll CTA + 4 benefit sections [low fees / instant settlement / no chargebacks / more customers] + `<BusinessResourceCards>` + standalone "Print your own Business Kit" CTA).
+- [x] `app/[locale]/business/why/page.tsx` — 4 sections (no inflation / no bank runs / permissionless / building a better world) with localized inline links to `/inflation`, `/bank-runs`, voteforbetter.money + `BusinessResourceCards` excluding "learn".
+- [x] `app/[locale]/business/faq/page.tsx` — 9 Q&A sections (what is Bitcoin, benefits, how to accept, convert to fiat, in-person, online, let customers know, get more customers, cost) with cross-links to `/business/wallets`, `/business/stickers`, `/business/maps`.
+- [x] `app/[locale]/business/guide/page.tsx` — hero + `BusinessResourceCards` grid (shown without header — the H1 already communicates the section) + FAQ CTA.
+- [x] `app/[locale]/business/accounting/page.tsx` — 4 sections (cost basis / calculating price / ledger entries / professional help) with external links to QuickBooks/BlockPath, Satoshi Pacioli, CoinGecko, spreadsheet guide.
+- [x] `app/[locale]/business/wallets/page.tsx` — 4 collapsible wallet-choice categories via `<WalletAccordion>` (sole trader / multiple employees / online / invoicing) each with 1-3 `<BusinessWalletCard>` recommendations (Square, Breez, OpenNode, IBEX Pay, BTCPay Server, Zaprite).
+- [x] `app/[locale]/business/stickers/page.tsx` — hero + `<CountryFormSelector>` (USA mail / Canada mail / Print) wrapping `<StickerAddressForm>` for USA+Canada + English sticker-files link + 43-language request form. Cloudflare Turnstile + `forms-backend/submit/business-stickers-*` action URLs.
+- [x] `app/[locale]/business/maps/page.tsx` — form to list business on BTCMap + external link to btcmap.org + Cloudflare Turnstile + `forms-backend/submit/business-maps` action URL.
+- [x] `app/[locale]/business/kit/page.tsx` — hero + business-kit hero image + `<CountryFormSelector>` (USA / Canada / Print) wrapping `<StickerAddressForm>` for USA+Canada + English pamphlet link.
+- [x] `app/[locale]/business/kit-success/page.tsx` — "SUCCESS!" thank-you + `robots: { index: false }`.
+- [x] `app/[locale]/business/maps-success/page.tsx` — "SUCCESS!" + btcmap.org link + `robots: { index: false }`.
+- [x] `app/[locale]/business/sticker-success/page.tsx` — "SUCCESS!" + 3-to-4-weeks message + `robots: { index: false }`.
+- [x] `app/[locale]/business/sticker-language-success/page.tsx` — "SUCCESS!" + language-request thank-you + `robots: { index: false }`.
+- [x] `components/BusinessPageShell.tsx` — NEW Server Component (~40 lines). Shared hero + publisher-attribution wrapper that every business/* page uses. RTL-aware via its `locale` prop.
+- [x] `components/BusinessResourceCards.tsx` — NEW Server Component (~120 lines). Reusable card grid with configurable `exclude` list + `showHeader` flag; emits Learn / Guide / Accounting / FAQ / Wallets / Stickers / Maps / Kit CTAs with unique color classes per card (matches legacy `.biz-learn`, `.biz-guide`, etc.).
+- [x] `components/BusinessWalletCard.tsx` — NEW Server Component (~80 lines). Renders a single wallet card with image / name / features list / Get Wallet button inside the `wallet-box-biz` shell used by `/business/wallets`.
+- [x] `lib/business/metadata.ts` — NEW shared `buildBusinessMetadata()` helper (like the comparison-page helper): title, description, OpenGraph `article`, Twitter `summary_large_image`, all 55-locale hreflang alternates. Each business page's `generateMetadata()` is a ~8-line wrapper.
+- [x] `components/CountryFormSelector.tsx` — extended in Phase 10 with `placeholderLabel` + typed `options` array so the business-side `stickers`/`kit` forms can drive it the same way as the Phase 9b public forms.
+- [x] `scripts/phase10/append-business-css.js` — idempotent Node helper; appends ~220 lines of legacy `.biz-*` / `.wallet-box-biz` / `.bbk-*` CSS to `app/globals.css` via sentinel marker guard.
+- [x] `scripts/phase10/create-business-pages.js` — generator for 12 of the 13 business pages (all except the hand-authored `/business/page.tsx`). Re-runnable; each page is 100% regenerable.
+- [x] `scripts/phase10/wire-and-publish.js` — idempotent flipper that adds the 13 Phase 10 namespaces to `DEFAULT_NAMESPACES` in `lib/i18n/request.ts` and flips `published: true` on the 13 slugs in `lib/pages.ts`.
+- [x] `business/files/` + `business/sticker-files/` static assets → copied to `public/business/files/` + `public/business/sticker-files/` (bbk-pamphlet-exterior/interior.png + bbk-sticker-english.png + per-language subdirectories).
+- [x] `lib/i18n/request.ts` — added 13 new namespaces to `DEFAULT_NAMESPACES` (`business/index`, `business/why`, `business/faq`, `business/guide`, `business/wallets`, `business/accounting`, `business/stickers`, `business/maps`, `business/kit`, `business/kit-success`, `business/maps-success`, `business/sticker-success`, `business/sticker-language-success`).
+- [x] `lib/pages.ts` — flipped `published: true` for all 13 business slugs; sitemap emits **715 new URLs** (55 locales × 13 slugs).
+- [x] `npm run build` → ✓ Compiled successfully in 4.2s, TypeScript clean, **2204 static pages** generated (55 locales × 40 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy). Up from 1489 at end of Phase 9b.
+- [x] `npm run start` + `/tmp/verify-phase10.js` — all **14 assertions pass**: `/en/business` (196 KB) contains "BITCOIN IS GOOD FOR BUSINESS" + all 4 benefit headings + `biz-box`/`biz-button` classes + Article + BreadcrumbList JSON-LD + reviewed-badge. All 8 other `/en/business/*` pages serve 200 with their expected markers (Q&A headings, wallet brand names, country IDs, Cloudflare Turnstile, forms-backend action URLs, success messages). `/ar/business` renders `<html lang="ar" dir="rtl">` correctly.
+- [x] Commit: "Phase 10: business section"
 
 ## Phase 11 — Sticker-files section (1 task)
 
