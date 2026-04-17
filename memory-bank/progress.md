@@ -1,5 +1,47 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 6b Inflation stats + calculators + dynamic header — April 17, 2026
+
+Seventh commit of the Next.js migration on `v2-nextjs-redesign`. The four remaining jQuery scripts that made the inflation page interactive (`inflation-stats.js`, `compound-inflation-calculator.js`, `compound-inflation-calculator-solo.js`, `dynamic-header.js`) are now typed TypeScript Client Components. `/en/inflation` renders with live stat-card population + URL-param-driven H1 swap, all hydration contained to tiny side-effect components. `main` is still frozen.
+
+**Files created**
+- `components/InflationStats.tsx` — Client, ~220 lines. Ports `jquery/inflation-stats.js` 1:1. Pure side-effect (`return null`): on mount, listens on `document` for `inflation:currency-changed` CustomEvent and auto-loads USD; fetches `https://forms.bitcoin.rocks/api/inflation-stats?currency=XXX` + writes values into `stat-*-${code}` DOM elements via `textContent`. Per-currency cache in `useRef` so repeated clicks don't refetch. Fallback-on-error leaves server-rendered placeholders intact. Exports `CURRENCY_CHANGED_EVENT` constant + `CurrencyChangedEventDetail` type.
+- `components/CompoundInflationCalculator.tsx` — Client, ~190 lines. Ports `jquery/compound-inflation-calculator.js`. 3 controlled inputs (salary / rate % / years), formula `salary × (1 + rate/100)^years`, formatted via `Intl.NumberFormat(locale, { style: "currency", currency })`. `idSuffix` prop appended to all input/result DOM ids (matches legacy `currentSalaryCAD` / `resultCAD` scheme). Result rendered via `dangerouslySetInnerHTML` with `escapeHtml()` on interpolations so `&nbsp;` spacers survive — XSS-safe. Uses `useLocale()` for locale-correct number formatting.
+- `components/CompoundInflationCalculatorSolo.tsx` — 20-line wrapper pinning `currency="USD"` + `idSuffix=""`. Ports `jquery/compound-inflation-calculator-solo.js` so Phase 9a's `/compound-inflation-calculator` page can use it directly.
+- `components/DynamicHeader.tsx` — Client, pure side-effect (`return null`). Ports `jquery/dynamic-header.js`. Reads `?sticker=` / `?sign=` / `?link=` URL params on mount + rewrites `#changing-header` text content. Decision table preserved: `sign=got-inflation` wins over all stickers; `link=calculator|calculator-site` overrides whatever sticker picked; `sticker=cure|cure-v2|got-inflation|what-if|(any)` picks the base; no params → leave server-rendered default alone.
+
+**Files modified**
+- `components/CountrySelector.tsx` — imports `CURRENCY_CHANGED_EVENT` + `CurrencyChangedEventDetail` from `InflationStats` and dispatches `document.dispatchEvent(new CustomEvent(CURRENCY_CHANGED_EVENT, { detail: { currency: selected } }))` from its existing `useEffect` on every selection change (including reset → `null`). Clean single-direction dependency — selector doesn't know about the stats fetcher, fetcher doesn't know about the selector, they only share the event-name constant.
+- `app/[locale]/inflation/page.tsx` — mounts `<InflationStats />` + `<DynamicHeader />` at the top of the return tree (side-effect-only, render no DOM). Hero H1 `<span>` now has `id="changing-header"` so DynamicHeader can target it. Phase 6a's placeholder stat values still ship server-rendered; InflationStats "upgrades" them at runtime.
+- `MIGRATION-NEXTJS.md` — Phase 6b flipped to ✅ COMPLETE with delivered checklist; position pointer → Phase 7.
+
+**Build + verification**
+- `npm run build` → ✓ compiled 2.2s, TypeScript clean, **114 static pages** (55 locales × 2 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- Runtime spot-check via a temporary Node script (`scripts/phase-6b-spotcheck.js`, removed after use) that spawned `npm run start`, polled until ready, fetched `/en/inflation` via `http.get`, and grep-counted expected DOM markers. All 11 pass:
+  - `id="changing-header"` ✓ (DynamicHeader target)
+  - `id="USD"` / `id="CAD"` / `id="EUR"` ✓ (per-currency section anchors)
+  - `class="inflation-button inf-usdollar"` ✓ (CountrySelector button)
+  - `id="stat-btc-change-USD"` / `id="stat-m1-current-USD"` / `id="stat-debt-current-USD"` ✓ (InflationStats write targets)
+  - `id="global-whats-next-wrap"` ✓ (CountrySelector-toggled block)
+  - `"@type":"Article"` / `"@type":"BreadcrumbList"` ✓ (Phase 4 schemas)
+
+**Decisions locked in**
+- **Side-effect-only Client Components.** InflationStats + DynamicHeader both `return null`. All their work is imperative DOM writes into elements the Server Components rendered. This keeps 100% of the page content server-rendered (every translated string, every flag, every card body) and contains hydration to the ~7 KB of event-wiring JS. Zero flash, zero layout shift, zero hydration mismatch risk.
+- **CustomEvent bridge between CountrySelector and InflationStats** instead of sharing React state via context. Reasons: (a) the two components live at sibling positions in the tree, (b) no other component needs the selected currency, (c) Context would force both into a Provider + re-render on every selection. The DOM is already a suitable pub/sub bus here and keeps each component independently testable.
+- **`dangerouslySetInnerHTML` for the calculator result** (with `escapeHtml()` on every interpolated string). The legacy prose template interleaves translated strings + literal `&nbsp;` entities; React strips `&nbsp;` from text nodes. Rendering as HTML preserves the exact legacy output. Every user/translator input is escaped, so no XSS surface.
+- **`useLocale()` for number formatting** instead of reading `navigator.language` + `localStorage`. The legacy script was trying to reconstruct "what locale should I format numbers in" from two signals; next-intl already gives us the active locale in context — one source of truth.
+- **`idSuffix` retained on `<CompoundInflationCalculator>`** even though the inflation page no longer has per-currency calculators inline. Solo variant passes `""`; future pages can reinstate per-currency calculators by passing a suffix. Cleaner than shipping two separate components.
+- **`id="changing-header"` on the H1 `<span>`, not the H1 itself.** Preserves H1 heading semantics — DynamicHeader just rewrites the orange text content, never the heading structure.
+
+**Intentionally left alone**
+- `jquery/inflation-stats.js`, `jquery/compound-inflation-calculator*.js`, `jquery/dynamic-header.js` — still shipped by the static site on `main`. Phase 14 deletes them.
+- `forms-backend/inflation-stats.js` — untouched. `<InflationStats>` fetches from its existing URL + expects the same response shape.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+**Next phase** — Phase 7: Bucket A comparison pages (10 `bitcoin-vs-*` + `bank-runs`). Port with V2 redesign applied during port. Phase 7a builds `<ComparisonPageLayout>` + ports first 3 (gold, stocks, cash).
+
+---
+
 ## Next.js Migration — Phase 6a Inflation page shell — April 17, 2026
 
 Sixth commit of the Next.js migration on `v2-nextjs-redesign`. The 3,035-line `inflation.html` is now a typed React tree: `app/[locale]/inflation/page.tsx` (hero + currency picker + 13 × `<CurrencySection>` + global What's-next + sources + publisher attribution), `components/CountrySelector.tsx` (Client — ports `country-selector-inflation.js`), and `components/CurrencySection.tsx` (Server — per-currency content block). `main` is still frozen.

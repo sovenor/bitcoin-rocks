@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 6a complete · Awaiting Phase 6b (Inflation stats + calculators)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell)
+**Status:** Phase 6b complete · Awaiting Phase 7 (Bucket A comparison pages)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 6a done → starting Phase 6b next.
+**Current position pointer:** Phase 6b done → starting Phase 7 next.
 
 ---
 
@@ -219,12 +219,19 @@ Goal: `/en/` matches current live `bitcoin.rocks/` pixel-for-pixel (it's already
   - `/sitemap.xml` → 55 `/inflation` entries (one per locale).
 - [x] Commit: "Phase 6a: Inflation page shell + country selector"
 
-### Phase 6b — Stats + calculators (Client Components)
-- [ ] `components/InflationStats.tsx` — port `jquery/inflation-stats.js` (fetches from `forms-backend/` API)
-- [ ] `components/CompoundInflationCalculator.tsx` — port `jquery/compound-inflation-calculator.js`
-- [ ] `components/CompoundInflationCalculatorSolo.tsx` — variant for `/compound-inflation-calculator`
-- [ ] `components/DynamicHeader.tsx` — port `jquery/dynamic-header.js` for sticker/sign/link URL params
-- [ ] Commit: "Phase 6b: Inflation stats, calculators, dynamic header"
+### Phase 6b — Stats + calculators (Client Components) ✅ COMPLETE
+
+- [x] `components/InflationStats.tsx` — Client Component, ~220 lines. Ports `jquery/inflation-stats.js` 1:1: fetches `https://forms.bitcoin.rocks/api/inflation-stats?currency=XXX`, populates the `stat-*-${code}` DOM elements on `<CurrencySection>` via `document.getElementById(...)` writes, per-currency in-memory cache, fallback-on-error leaves the server-rendered placeholder values intact. Auto-loads USD on mount; listens on `document` for the `inflation:currency-changed` CustomEvent and refetches for the new currency.
+- [x] `components/CountrySelector.tsx` — updated to dispatch `CustomEvent(CURRENCY_CHANGED_EVENT, { detail: { currency } })` from its `useEffect` on every selection change (including reset → `null`). Decouples the selector from the stats fetcher cleanly — they only share a string constant + `detail` shape.
+- [x] `components/CompoundInflationCalculator.tsx` — Client Component, ~190 lines. Ports `jquery/compound-inflation-calculator.js`: 3 controlled inputs (salary, inflation %, years), `newSalary = salary × (1 + rate/100)^years`, `Intl.NumberFormat(locale, { style: 'currency', currency })` for output. `idSuffix` prop lets multiple calculators coexist on one page (matches legacy `currentSalaryCAD` / `inflationRateCAD` / `resultCAD` ID scheme). Result uses `dangerouslySetInnerHTML` to preserve `&nbsp;` spacers 1:1 with the translated prose.
+- [x] `components/CompoundInflationCalculatorSolo.tsx` — thin wrapper around `<CompoundInflationCalculator>` pinning `currency="USD"` + `idSuffix=""` for `/compound-inflation-calculator`. Matches legacy `compound-inflation-calculator-solo.js` behavior exactly.
+- [x] `components/DynamicHeader.tsx` — Client Component, pure side-effect (returns `null`). Ports `jquery/dynamic-header.js`: reads `?sticker=` / `?sign=` / `?link=` URL params on mount and rewrites `#changing-header` text. Decision table preserved: `sign=got-inflation` > `link=calculator/calculator-site` > `sticker=cure/cure-v2/got-inflation/what-if/other`. When no params present, leaves the server-rendered default H1 text alone.
+- [x] `app/[locale]/inflation/page.tsx` — wired in `<InflationStats />` + `<DynamicHeader />` inside the page; H1 span now has `id="changing-header"` so DynamicHeader can target it.
+- [x] `npm run build` → ✓ compiled 2.2s, TypeScript clean, **114 static pages** (55 locales × 2 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] Runtime spot-check confirmed via Node `http.get` fetch against `npm run start`: `/en/inflation` returns 200 (509 KB) with all 11 expected DOM markers present (`id="changing-header"`, `id="USD"`/`id="CAD"`/`id="EUR"`, `class="inflation-button inf-usdollar"`, `id="stat-btc-change-USD"` / `id="stat-m1-current-USD"` / `id="stat-debt-current-USD"`, `id="global-whats-next-wrap"`, Article + BreadcrumbList JSON-LD).
+- [x] Commit: "Phase 6b: Inflation stats, calculators, dynamic header"
+
+**Deferred:** the per-currency calculators that lived inside each currency's `inflation.html` section (the ones with `idSuffix: "CAD"`/`"EUR"`/…) were already dropped during the April 2026 inflation-page redesign (see `scripts/inflation-multi/rebuild-inflation-html.js` + the What's-next "Calculate your inflation" card that now links out to `/compound-inflation-calculator` instead). `<CompoundInflationCalculator>` is still built in a generic form so Phase 9a's `/compound-inflation-calculator` solo page can use it without any changes, and any future page that wants an inline calculator can pass its own `currency` + `idSuffix`.
 
 ## Phase 7 — Bucket A pages: comparison pages with V2 redesign (2-3 tasks)
 

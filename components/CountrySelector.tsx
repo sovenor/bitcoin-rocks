@@ -2,6 +2,11 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
+import {
+	CURRENCY_CHANGED_EVENT,
+	type CurrencyChangedEventDetail,
+} from "@/components/InflationStats";
+
 /**
  * CountrySelector — Client Component port of `jquery/country-selector-inflation.js`.
  *
@@ -104,6 +109,14 @@ export function CountrySelector({
 		if (whatsNext) {
 			whatsNext.hidden = selected === null;
 		}
+
+		// Notify `<InflationStats>` (mounted elsewhere on the page) that
+		// the active currency changed. It will fetch + populate the
+		// `stat-*-${code}` DOM elements via the legacy ID scheme.
+		const detail: CurrencyChangedEventDetail = { currency: selected };
+		document.dispatchEvent(
+			new CustomEvent(CURRENCY_CHANGED_EVENT, { detail }),
+		);
 	}, [selected]);
 
 	const handleSelect = (code: string) => {

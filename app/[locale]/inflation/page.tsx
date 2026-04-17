@@ -3,6 +3,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { CountrySelector, type CurrencyButton } from "@/components/CountrySelector";
 import { CurrencySection } from "@/components/CurrencySection";
+import { DynamicHeader } from "@/components/DynamicHeader";
+import { InflationStats } from "@/components/InflationStats";
 import { JsonLd } from "@/components/JsonLd";
 import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
@@ -12,12 +14,13 @@ import { buildAlternates } from "@/lib/schema/hreflang";
 import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 
 /**
- * Inflation page (Phase 6a — static shell + country selector).
+ * Inflation page (Phases 6a + 6b complete).
  *
  * Mirrors `inflation.html` structure line-for-line:
- *   1. Orange H1 + "Choose your money" prompt
+ *   1. Orange H1 (with `#changing-header` so `<DynamicHeader>` can swap
+ *      it based on `?sticker=` / `?sign=` / `?link=` URL params)
  *   2. 13 currency picker buttons (USD, CAD, EUR, GBP, BRL, PHP, MXN, INR,
- *      JPY, AUD, ILS, THB, NZD)
+ *      JPY, AUD, ILS, THB, NZD) rendered by `<CountrySelector>`
  *   3. 13 `<CurrencySection>` blocks (one shown at a time, toggled by
  *      `<CountrySelector>`)
  *   4. Global "What's next?" grid (4 cards) — revealed after a currency
@@ -25,10 +28,10 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  *   5. Sources block (GEO trust signals)
  *   6. Publisher attribution + Reviewed-for-accuracy badge
  *
- * Phase 6b will mount `<InflationStats currency={selectedCurrency} />`
- * inside the tree to populate the live stat-card values via `id` lookups.
- * For now the placeholder values ("+50%", "-15%", "—") ship unchanged,
- * which is fine — the legacy page ships them too until the fetch resolves.
+ * Client Components mounted here:
+ *   - `<CountrySelector>`  — wraps all 13 sections, toggles `hidden`
+ *   - `<InflationStats>`   — fetches forms-backend + populates `stat-*-${code}`
+ *   - `<DynamicHeader>`    — reads URL params + rewrites `#changing-header`
  */
 
 // ─── Per-currency FRED + Bitcoin Price Report URLs ───────────────────
@@ -224,12 +227,22 @@ export default async function InflationPage({
 			<JsonLd data={articleSchema} />
 			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 
+			{/* ═══ Phase 6b Client Components ═══
+			    These render nothing themselves but mount side-effects:
+			    - InflationStats: fetches forms-backend + populates stat cards
+			    - DynamicHeader: reads ?sticker/?sign/?link + swaps `#changing-header`
+			    Both are cheap to hydrate (no server-rendered children). */}
+			<InflationStats />
+			<DynamicHeader />
+
 			<div className="container-main">
 				{/* ═══ HERO ═══ */}
 				<div className="inflation-section">
 					<div className="container-inner">
 						<h1 className="h1-inflation">
-							<span className="orange">{t("inflation_h1_orange")}</span>
+							<span id="changing-header" className="orange">
+								{t("inflation_h1_orange")}
+							</span>
 						</h1>
 					</div>
 				</div>
