@@ -236,6 +236,53 @@
             row.addEventListener('touchend', touchEnd, { passive: true });
             row.addEventListener('touchcancel', touchEnd, { passive: true });
 
+            // ── Wheel / trackpad ──
+            // Native horizontal scroll doesn't fire on an overflow:hidden
+            // container, so we translate wheel events into offset
+            // changes ourselves. Handled cases:
+            //   - Mac trackpad two-finger horizontal swipe → deltaX dominates
+            //   - Shift+wheel (Windows/Linux sideways-scroll convention) →
+            //     treat deltaY as horizontal
+            //   - Vertical wheel without shift → ignore (let page scroll)
+            //
+            // Must be a non-passive listener so we can preventDefault()
+            // the browser's default action on horizontal events (e.g., iOS
+            // "swipe back", or horizontal body bounce on some trackpads).
+            var wheelResumeTimer = null;
+            row.addEventListener('wheel', function (e) {
+                var dx = e.deltaX;
+                var dy = e.deltaY;
+                var horizontal = false;
+                var delta = 0;
+                if (e.shiftKey && Math.abs(dy) > 0) {
+                    // Windows/Linux shift+wheel convention.
+                    horizontal = true;
+                    delta = dy;
+                } else if (Math.abs(dx) > Math.abs(dy)) {
+                    // Trackpad two-finger horizontal swipe, or tilt-wheel.
+                    horizontal = true;
+                    delta = dx;
+                }
+                if (!horizontal) return; // vertical scroll — let it through
+
+                e.preventDefault();
+                // Pause auto-scroll briefly so it doesn't fight the user.
+                paused = true;
+                if (wheelResumeTimer) clearTimeout(wheelResumeTimer);
+                wheelResumeTimer = setTimeout(function () {
+                    paused = false;
+                    wheelResumeTimer = null;
+                }, 400);
+
+                // Wheel delta is "how far content should scroll right",
+                // which means offset should decrease by that amount
+                // (content moves left when user scrolls right).
+                offset -= delta;
+                wrap();
+                apply();
+            }, { passive: false });
+
+
             // Recalculate on resize / orientation change / font load.
             window.addEventListener('resize', recalcHalfWidth);
             if (document.fonts && document.fonts.ready) {
