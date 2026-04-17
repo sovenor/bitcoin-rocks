@@ -1,5 +1,43 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 5 Homepage — April 17, 2026
+
+Fifth commit of the Next.js migration on `v2-nextjs-redesign`. The v2 homepage (`index.html`: hero + 2 infinite-scroll carousels + 20 category sections + ~50 cards) is now a typed React tree. 4 new Server Components + 1 Client Component (the carousel) power all 55 locales with server-rendered translated HTML.
+
+**Files created**
+- `components/HomeCarousel.tsx` — Client Component. Ports `jquery/home-carousel.js` 1:1 (RAF-driven `transform: translate3d()`, bidirectional mouse+touch drag, hover pause, trackpad horizontal wheel, click-suppression after drag, recalc on resize + fonts.ready + 500ms settle timer, all listeners cleaned up on unmount).
+- `components/HomePill.tsx` — Server Component. Typed `HomePillColor` union (21 colors). Plain `<a href="#anchor">` so the browser's native smooth-scroll + `scroll-padding-top: 20px` handle in-page jumps. Duplicate pills get `aria-hidden` + `tabIndex=-1`.
+- `components/WhatsNextCard.tsx` — Server Component. Resolves label/title/author keys via `useTranslations()`. `external` prop adds `target="_blank"` + `rel="noopener noreferrer"`.
+- `components/CategorySection.tsx` — Server Component. Renders `<h2>Bitcoin &amp; <span class="accent">topic</span></h2>` + wraps the card grid. Sets `--card-accent` CSS variable via `style` prop; the variable cascades into card labels, h2 accent, and hover borders.
+
+**Files modified**
+- `app/[locale]/page.tsx` — REWRITE from stub to full homepage (~620 lines): hero, two carousels (row 1 with 11 pills, row 2 with 10 pills — bright-green `energy` kept mid-row so it never lands adjacent to bright-green `money`), 20 category sections with ~50 cards mixing internal pages and curated external sources. `generateMetadata()` now emits full OpenGraph + Twitter card data alongside Phase 4's hreflang alternates.
+- `app/globals.css` — lifted entire V2 homepage block from `css/style.css` (~220 lines): all 21 `.home-pill.*` color classes + `border-color: currentColor`; `.home-carousel-wrap` (100vw breakout); `.home-carousel-row` / `.home-carousel-track`; `.home-hero .h1-inflation` / `.home-hero .inflation-intro`; `.whats-next-*` / `a.whats-next-card` + `:only-child { grid-column: 1/-1 }` solo rule; `.category-section` with `--card-accent` indirection. Added `html { scroll-behavior: smooth; scroll-padding-top: 20px; }` — replaces legacy JS smooth-scroll.
+- `MIGRATION-NEXTJS.md` — Phase 5 flipped to ✅ COMPLETE; position pointer → Phase 6.
+
+**Build + verification**
+- `npm run build` → ✓ compiled 2.1s, TypeScript clean, **59 routes** static-generated.
+- Live `curl` via `npm run start`:
+  - `/en` → 200, 183 KB, source contains `home-hero`, `home-carousel-row` (x2), all 20 section IDs, hero + card copy ("Bitcoin is better money…", "Tap on a category…", "Bitcoin doesn't have inflation", etc.).
+  - `/ar` → 200, 197 KB, `<html lang="ar" dir="rtl">` with full homepage tree.
+  - `/es` → 200, 188 KB, English fallback on `home_h1` working as designed (Spanish locale doesn't override it yet).
+
+**Decisions locked in**
+- **One Client Component, four Server Components.** Only the carousel needs RAF + browser event handlers; everything else ships as static HTML. Zero hydration flash on the ~50 cards.
+- **In-page anchors use plain `<a>`, not next-intl `<Link>`.** `<Link>` would rewrite `#money` into cross-page navigation, breaking in-page scroll. Plain `<a href="#money">` + CSS `scroll-behavior: smooth` + `scroll-padding-top: 20px` replace the legacy JS smooth-scroll cleanly.
+- **`renderPillSet()` helper** — single source of truth per carousel row. Emits both the first set and the `duplicate` set that HomeCarousel relies on for its seamless wrap-around.
+- **CSS custom property `--card-accent` over per-card color props.** One inline style on `<CategorySection>` propagates the color to every card inside via CSS cascade — no color prop threading, no Tailwind arbitrary-value explosion.
+- **`SavingSection.tsx` intentionally not created.** The reusable `CategorySection` + `WhatsNextCard` + `HomePill` trio handles saving identically to every other topic — a dedicated component would have been pure ceremony.
+
+**Intentionally left alone**
+- `jquery/home-carousel.js`, `index.html`, `css/style.css` — legacy static site still works. Phase 14 deletes them.
+- `forms-backend/` — untouched.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+**Next phase** — Phase 6: port `inflation.html` (3036 lines — largest page in the codebase). Phase 6a does the static shell + `<CountrySelector>` Client Component; Phase 6b does the stat fetchers (`inflation-stats.js`) + both compound inflation calculators + dynamic header.
+
+---
+
 ## Next.js Migration — Phase 4 SEO / JSON-LD / sitemap helpers — April 17, 2026
 
 Fourth commit of the Next.js migration on `v2-nextjs-redesign`. The legacy `scripts/inject-*.js` pipeline is now reborn as render-time TypeScript helpers, plus NEW `hreflang` + sitemap + robots infrastructure. The old manual `dateModified`-bumping dance is gone — schema dates now derive from English JSON `@metadata.last-updated` automatically.

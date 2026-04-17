@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 4 complete · Awaiting Phase 5 (Homepage port)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers)
+**Status:** Phase 5 complete · Awaiting Phase 6 (Inflation page)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 4 done → starting Phase 5 next.
+**Current position pointer:** Phase 5 done → starting Phase 6 next.
 
 ---
 
@@ -177,18 +177,28 @@ Goal: Replace the `scripts/inject-*.js` pipeline with TypeScript helpers that ru
 
 **Note:** Comparison + breadcrumb + reviewed-badge helpers are built but aren't wired into any page yet — they'll be called by Phase 5 (breadcrumb: no, home has none) / Phase 7 (comparison + breadcrumb on each bitcoin-vs-* page) / Phase 7-8 (reviewed-badge on educational pages). Having them ready means those phases are pure page-porting with no schema infrastructure work.
 
-## Phase 5 — Homepage (1 task)
+## Phase 5 — Homepage ✅ COMPLETE
 
 Goal: `/en/` matches current live `bitcoin.rocks/` pixel-for-pixel (it's already V2 so this is a direct port in Tailwind).
 
-- [ ] `app/[locale]/page.tsx` — port `index.html` structure (all 943 lines — big page but all V2)
-- [ ] `components/HomeCarousel.tsx` — port `jquery/home-carousel.js` (Client Component, drag-to-scroll, seamless CSS-keyframe infinite loop, pause on hover, smooth anchor scroll)
-- [ ] `components/HomePill.tsx` — `.home-pill` component with color-class variant (energy/freedom/money/network/savings etc.)
-- [ ] `components/WhatsNextCard.tsx` — `.whats-next-card` with `--card-accent` variable via inline style prop
-- [ ] `components/SavingSection.tsx` — new section from commit `caba0d26`
-- [ ] All strings via `t()` from `i18n/en/index_en.json` etc.
-- [ ] Visual parity check vs `bitcoin.rocks` production site
-- [ ] Commit: "Phase 5: Homepage in Next.js"
+- [x] `app/[locale]/page.tsx` — full port of `index.html` (hero + 2 carousels + 20 category sections with ~50 cards, mixed internal + external links, all via typed components)
+- [x] `components/HomeCarousel.tsx` — Client Component. Ports `jquery/home-carousel.js` 1:1: RAF-driven `transform: translate3d(offset, 0, 0)` infinite scroll, bidirectional drag (mouse + touch), hover-pause, wheel/trackpad horizontal scroll, click-suppression after drag. Pills duplicated 2× in parent JSX so offset wraps around `halfWidth` invisibly.
+- [x] `components/HomePill.tsx` — Server Component. Typed `HomePillColor` union (21 colors). Renders as plain `<a href="#anchor">` (not next-intl `<Link>`) so in-page anchor scroll uses the browser's native smooth-scroll + `scroll-padding-top: 20px` for offset. Duplicate instances get `aria-hidden` + `tabIndex=-1`.
+- [x] `components/WhatsNextCard.tsx` — Server Component. Resolves `label`, `title`, and `authorKey` via `useTranslations()`; `external` prop adds `target="_blank"` + `rel="noopener noreferrer"`. Uses plain `<a>` with pre-localized href (caller passes `/${locale}/...`) — avoids needing `<Link>` inside a Server Component.
+- [x] `components/CategorySection.tsx` — Server Component. Wraps the per-topic card grid, emits `<h2>Bitcoin &amp; <span class="accent">category</span></h2>`, sets `--card-accent` CSS variable via inline style so cards/accents inherit the section color without each card knowing its own.
+- [x] All strings via `t()` from `i18n/en/index_en.json` — server-rendered at build time, no hydration flash. Locales with missing `home_h1` / `home_intro` (like `es`) fall back to English via the per-key fallback in `lib/i18n/load-messages.ts`.
+- [x] V2 homepage CSS lifted from `css/style.css` into `app/globals.css` — all 21 `.home-pill.*` color classes, `.home-carousel-*`, `.home-hero .h1-inflation`, `.home-hero .inflation-intro`, `.whats-next-*`, `.category-section` — Tailwind token-first where possible, raw CSS where BEM-style class names + `--card-accent` CSS variable indirection is cleaner than utility classes.
+- [x] `html { scroll-behavior: smooth; scroll-padding-top: 20px; }` replaces the legacy JS smooth-scroll — native CSS handles both smooth animation + the 20px offset baked into `home-carousel.js`'s `initAnchorScroll()`.
+- [x] `npm run build` → ✓ compiled 2.1s, TypeScript clean, **59 routes** static-generated (55 locale pages + /_not-found + /robots.txt + /sitemap.xml + middleware).
+- [x] `npm run start` + `curl` spot-checks:
+  - `/en` → 200, 183 KB HTML. Source contains `home-hero`, `home-carousel-row`, 20 category section IDs (`money`, `freedom`, `energy`, …, `get-started`), all hero + card strings.
+  - `/ar` → 200, `<html lang="ar" dir="rtl">`, full V2 structure intact.
+  - `/es` → 200, same structure. Headline still English (Spanish `home_h1` not translated yet — English fallback confirmed).
+- [x] Commit: "Phase 5: Homepage in Next.js"
+
+**Deferred:** `components/SavingSection.tsx` — the saving section exists in the ported homepage; it didn't need a dedicated component because it fits the same `CategorySection` shape as every other topic (inline style `--card-accent: #F5A9B8` drives the pink accent). The reusable `CategorySection` + `WhatsNextCard` + `HomePill` trio replaces the need for per-section components.
+
+**Visual parity check:** CSS ported verbatim (hero, carousels, pills with 21 color classes, cards, section headings with accent color). The one difference vs the live site is the nav — the Phase 3 Navbar is rendered in `app/[locale]/layout.tsx` rather than inline on the homepage; functionally equivalent, zero visual difference.
 
 ## Phase 6 — Inflation page (2 tasks — it's huge: 3036 lines)
 

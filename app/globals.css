@@ -6,10 +6,6 @@
  * / `--breakpoint-*` token declared here is usable as a
  * Tailwind utility (e.g. `bg-bitcoin-orange`, `text-energy`,
  * `font-proxima`).
- *
- * Phase 1: token scaffolding only. Page-level CSS comes
- * later as each page is ported; the old `css/style.css`
- * is intentionally NOT imported.
  */
 @import "tailwindcss";
 
@@ -71,4 +67,366 @@ body {
 	font-family: var(--font-proxima);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Offset hash-anchor scrolling so targets don't land flush against the top
+   of the viewport. The legacy JS did this with a manual window.scroll()
+   call; CSS handles it natively in modern browsers. */
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 20px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   LAYOUT CONTAINERS
+   .container-main: centered ≤700px column used by every page.
+   .container-inner: inner padding helper used inside some sections.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.container-main {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+	padding: 0;
+}
+
+.container-inner {
+	margin: 0 auto;
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   HOMEPAGE V2 — matches the /inflation page design system.
+   Owns: .home-hero, .h1-inflation, .inflation-intro (hero),
+         .home-carousel-*, .home-pill + color classes (carousel),
+         .whats-next-*, .category-section (category grid).
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Hero ───────────────────────────────────────────────────── */
+.home-hero {
+	text-align: center;
+	padding: 30px 0 20px 0;
+}
+
+.home-hero .h1-inflation {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: none;
+	font-size: 38px;
+	line-height: 44px;
+	text-align: center;
+	color: #ff9500;
+	max-width: 80%;
+	margin: 0 auto 12px auto;
+}
+
+.home-hero .inflation-intro {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: #f0f0f0;
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+	.home-hero .h1-inflation {
+		font-size: 28px;
+		line-height: 34px;
+		max-width: 90%;
+	}
+	.home-hero .inflation-intro {
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 90%;
+	}
+}
+
+/* ── Category carousels (full-viewport infinite loop) ────── */
+
+/* Breaks out of the 700px-wide .container-main so the carousel
+   can go edge-to-edge of the viewport. */
+.home-carousel-wrap {
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow: hidden;
+}
+
+/* Fixed viewport; the track inside is positioned with
+   `transform: translate3d(...)` driven by HomeCarousel.tsx. */
+.home-carousel-row {
+	overflow: hidden;
+	padding: 8px 0;
+	cursor: grab;
+	/* Allow vertical page scroll on touch; horizontal swipes are
+	   intercepted by the JS (preventDefault inside touchmove). */
+	touch-action: pan-y;
+}
+
+.home-carousel-row.is-dragging {
+	cursor: grabbing;
+	user-select: none;
+}
+
+.home-carousel-row + .home-carousel-row {
+	margin-top: 4px;
+}
+
+/* Track: holds pills + their duplicate set for seamless loop. */
+.home-carousel-track {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 10px;
+	padding: 0 10px;
+	width: max-content;
+	will-change: transform;
+}
+
+/* Pills: replaces the old .jump buttons. Proxima Soft font, colored
+   border and label text driven by the color class below. */
+.home-pill {
+	flex: 0 0 auto;
+	display: inline-flex;
+	justify-content: center;
+	height: 52px;
+	padding: 0 28px;
+	background: none;
+	border: 2px solid #3d3d3d;
+	border-radius: 999px;
+	font-family: "proxima-soft", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 48px;
+	color: #f0f0f0;
+	text-transform: lowercase;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: transform 0.2s, background-color 0.2s;
+	-webkit-user-select: none;
+	user-select: none;
+	text-decoration: none;
+}
+
+.home-pill:hover {
+	transform: scale(1.05);
+}
+
+/* Category color classes: each sets text color via !important so
+   the pill's `border-color: currentColor` rule below picks it up. */
+.home-pill.money { color: #19bc38 !important; }
+.home-pill.saving { color: #f5a9b8 !important; }
+.home-pill.salary { color: #2274a5 !important; }
+.home-pill.freedom { color: #96041c !important; }
+.home-pill.human-rights { color: #ff9500 !important; }
+.home-pill.equality { color: #8c5383 !important; }
+.home-pill.property-rights { color: #eb4b98 !important; }
+.home-pill.housing { color: #935425 !important; }
+.home-pill.business { color: #08b2e3 !important; }
+.home-pill.crowdfunding { color: #d1d646 !important; }
+.home-pill.energy { color: #1dff4d !important; }
+.home-pill.environment { color: #5b7553 !important; }
+.home-pill.food { color: #ff571d !important; }
+.home-pill.art { color: #1f1fff !important; }
+.home-pill.politics { color: #9500ff !important; }
+.home-pill.war { color: #ed1c24 !important; }
+.home-pill.coding { color: #89fc00 !important; }
+.home-pill.networks { color: #1e3a8a !important; }
+.home-pill.payments { color: #ffe91d !important; }
+.home-pill.self-custody { color: #b3fffc !important; }
+.home-pill.get-started { color: #ff9500 !important; }
+
+/* Colored pills inherit border color from text color. */
+.home-pill.money,
+.home-pill.saving,
+.home-pill.salary,
+.home-pill.freedom,
+.home-pill.human-rights,
+.home-pill.equality,
+.home-pill.property-rights,
+.home-pill.housing,
+.home-pill.business,
+.home-pill.crowdfunding,
+.home-pill.energy,
+.home-pill.environment,
+.home-pill.food,
+.home-pill.art,
+.home-pill.politics,
+.home-pill.war,
+.home-pill.coding,
+.home-pill.networks,
+.home-pill.payments,
+.home-pill.self-custody,
+.home-pill.get-started {
+	border-color: currentColor;
+}
+
+@media (max-width: 500px) {
+	.home-pill {
+		height: 46px;
+		padding: 0 22px;
+		font-size: 16px;
+	}
+	.home-carousel-track {
+		gap: 8px;
+	}
+}
+
+/* ── "What's next?" card grid (reused by homepage + inflation + comparison) ── */
+
+.whats-next-section {
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.whats-next-section .container-inner {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.whats-next-header {
+	margin-bottom: 24px;
+}
+
+.whats-next-section h2 {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	font-style: normal;
+	color: #ffffff;
+	margin: 0;
+	text-transform: none;
+	text-align: left;
+}
+
+@media (max-width: 500px) {
+	.whats-next-section h2 {
+		font-size: 26px;
+	}
+}
+
+.whats-next-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+}
+
+@media (max-width: 600px) {
+	.whats-next-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Solo card spans the full row regardless of screen size. */
+.whats-next-grid > a.whats-next-card:only-child {
+	grid-column: 1 / -1;
+}
+
+a.whats-next-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #111119;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 20px;
+	padding: 32px 28px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: border-color 0.2s, transform 0.2s;
+	box-sizing: border-box;
+}
+
+a.whats-next-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+
+.whats-next-card-label {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	/* --card-accent drives the label color; falls back to Bitcoin
+	   orange on pages that don't set one. Homepage sets it per
+	   category via inline style. */
+	color: var(--card-accent, #ff9500);
+	text-transform: none;
+	margin-bottom: 12px;
+	letter-spacing: 0.02em;
+}
+
+.whats-next-card-title {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 1.25;
+	margin-bottom: 24px;
+}
+
+.whats-next-card-source {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9b9a9a;
+	font-style: italic;
+	transition: color 0.2s, transform 0.2s;
+}
+
+a.whats-next-card:hover .whats-next-card-source {
+	color: #ff9500;
+	transform: translateX(5px);
+}
+
+/* ── Category sections (Bitcoin & money, Bitcoin & freedom, …) ── */
+
+.category-section {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.category-section .whats-next-header {
+	margin-bottom: 20px;
+}
+
+.category-section h2 {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #ffffff;
+	margin: 0;
+	text-transform: none;
+	text-align: left;
+}
+
+.category-section h2 .accent {
+	color: var(--card-accent, #ff9500);
+}
+
+@media (max-width: 500px) {
+	.category-section h2 {
+		font-size: 26px;
+	}
+}
+
+.category-section a.whats-next-card:hover {
+	border-color: color-mix(
+		in srgb,
+		var(--card-accent, #ff9500) 60%,
+		transparent
+	);
+}
+
+.category-section a.whats-next-card:hover .whats-next-card-source {
+	color: var(--card-accent, #ff9500);
 }
