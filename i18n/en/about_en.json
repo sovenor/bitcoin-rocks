@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-17",
 		"locale": "en"
 	},
 	"about_page_title": "About bitcoin.rocks — Bitcoin Education Since 2022",
@@ -40,5 +40,9 @@
 	"about_contact_1": "We would love to hear from you. Whether you have a question, suggestion, or just want to say hello, reach out anytime.",
 	"about_contact_email": "Email:",
 	"about_contact_nostr": "Nostr:",
-	"about_contact_github": "GitHub:"
+	"about_contact_github": "GitHub:",
+	"about_page_description": "bitcoin.rocks is a free, open-source Bitcoin education website founded in 2022. Our mission is to accelerate Bitcoin adoption through education.",
+	"about_contact_email_addr": "hi@bitcoin.rocks",
+	"about_contact_nostr_handle": "hi@bitcoin.rocks",
+	"about_contact_github_url": "github.com/sovenor/bitcoin-rocks"
 }

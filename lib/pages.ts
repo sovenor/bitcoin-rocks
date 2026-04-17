@@ -81,8 +81,8 @@ export const PAGES: readonly PageEntry[] = [
 
 
 	// === Phase 8 — Content pages ===
-	{ slug: "about", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "about", published: false },
-	{ slug: "get-involved", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "get-involved", published: false },
+	{ slug: "about", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "about", published: true },
+	{ slug: "get-involved", phase: 8, priority: 0.7, changeFrequency: "monthly", namespace: "get-involved", published: true },
 
 	// === Phase 9a — Educational / info Bucket B ===
 	{ slug: "wallets", phase: 9, priority: 0.8, changeFrequency: "monthly", namespace: "wallets", published: false },

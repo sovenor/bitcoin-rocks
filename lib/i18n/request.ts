@@ -51,6 +51,9 @@ const DEFAULT_NAMESPACES = [
 	"bitcoin-vs-cbdc",
 	"bitcoin-vs-fine-art",
 	"bank-runs",
+	// Phase 8 — content pages (about + get-involved).
+	"about",
+	"get-involved",
 ] as const;
 
 

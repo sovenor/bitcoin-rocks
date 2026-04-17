@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 7c complete · Awaiting Phase 8 (about + get-involved)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs)
+**Status:** Phase 8 complete · Awaiting Phase 9a (wallets, lightning, flyers, calculator-solo)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 7c done → starting Phase 8 next.
+**Current position pointer:** Phase 8 done → starting Phase 9a next.
 
 
 ---
@@ -291,11 +291,17 @@ Port **with** V2 redesign applied during port. Create a shared `app/[locale]/bit
 - [x] Commit: "Phase 7c: Final comparisons + bank-runs"
 
 
-## Phase 8 — Bucket A content pages (1 task)
+## Phase 8 — Bucket A content pages ✅ COMPLETE
 
-- [ ] `app/[locale]/about/page.tsx` ← port + V2 redesign
-- [ ] `app/[locale]/get-involved/page.tsx` ← port + V2 redesign
-- [ ] Commit: "Phase 8: about + get-involved"
+- [x] `lib/comparisons/about.ts` — ports `about.html` into the `ContentPageData` shape (same as `/bank-runs`). 5 sections (Mission / What We Do / Editorial / Open Source / Contact Us); preserves every legacy inline-link fragment verbatim (stickers, flyers, business kits, GitHub, email, Nostr, contribute guide). Promoted the V1 hardcoded contact strings (`hi@bitcoin.rocks`, `github.com/sovenor/bitcoin-rocks`) to new i18n keys (`about_contact_email_addr`, `about_contact_nostr_handle`, `about_contact_github_url`) so translators can tweak the visible label per locale without touching the TS code. Added `about_page_description` meta key.
+- [x] `lib/comparisons/get-involved.ts` — ports `get-involved.html`. 4 sections (Intro + 3 CTAs: sticker pack / postcard pack / business kit). V2 redesign drops the legacy `<img>` thumbnails + `.get-involved-button` divs; each CTA ends with an inline `.body-link` paragraph to the matching form page (`/stickers`, `/postcards`, `/business/kit`). The "What's next?" grid from `ContentPageLayout` completes the onward-journey funnel (wallets / buy / calculator).
+- [x] `app/[locale]/about/page.tsx` + `app/[locale]/get-involved/page.tsx` — thin 60-line pages (matching `/bank-runs` pattern). Each passes its `ContentPageData` into `<ContentPageLayout>` and builds inline `generateMetadata()` with full 55-locale hreflang alternates + OG/Twitter cards.
+- [x] `lib/i18n/request.ts` — added `about` + `get-involved` namespaces to `DEFAULT_NAMESPACES`.
+- [x] `lib/pages.ts` — flipped `published: true` for both slugs; sitemap now emits 110 new URLs (55 locales × 2 slugs).
+- [x] `scripts/phase8/update-en-json.js` — idempotent Node helper that added the new English keys + refreshed `@metadata.last-updated` to today's date on both English JSON files. Translator workflow is unchanged (they just see 4 new strings to translate next time).
+- [x] `npm run build` → ✓ Compiled successfully in 2.9s, TypeScript clean, **829 static pages** (55 locales × 15 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + `/tmp/verify-phase8.js` — all 7 assertions pass: `/en/about` (168 KB) renders all 5 section headings + "hi@bitcoin.rocks" + reviewed-badge + Article + BreadcrumbList JSON-LD; `/en/get-involved` (164 KB) renders 3 CTA sections + correct localized `/en/stickers` / `/en/postcards` / `/en/business/kit` links + Article + BreadcrumbList; `/ar/about` renders `<html lang="ar" dir="rtl">` correctly; `/sitemap.xml` contains both new English URLs.
+- [x] Commit: "Phase 8: about + get-involved"
 
 ## Phase 9 — Bucket B unique-shape pages (2 tasks)
 

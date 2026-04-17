@@ -1,5 +1,33 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 8 Content pages (about + get-involved) — April 17, 2026
+
+Eleventh commit of the Next.js migration on `v2-nextjs-redesign`. Added `/about` and `/get-involved` using the Phase 7c `ContentPageLayout` + `ContentPageData` pattern — no infrastructure changes. Each page is a typed `ContentPageData` literal + a ~60-line page.tsx wrapping `<ContentPageLayout>`. `main` is still frozen.
+
+**Files created**
+- `lib/comparisons/about.ts` — 5 sections (Mission / What We Do / Editorial / Open Source / Contact Us). Preserves every legacy inline-link fragment verbatim: links to `/stickers`, `/flyers`, `/business/kit`, GitHub repo, `CONTRIBUTING.md`. Promoted V1 hardcoded contact strings to new i18n keys (`about_contact_email_addr`, `about_contact_nostr_handle`, `about_contact_github_url`).
+- `lib/comparisons/get-involved.ts` — 4 sections (Intro + 3 CTAs: sticker pack / postcard pack / business kit). V2 redesign drops legacy `<img>` + button divs; each CTA ends with an inline `.body-link` paragraph.
+- `app/[locale]/about/page.tsx` + `app/[locale]/get-involved/page.tsx` — thin ~60-line pages wrapping `<ContentPageLayout>` with inline `generateMetadata()`.
+- `scripts/phase8/update-en-json.js` — idempotent Node helper for adding the 4 new English keys + refreshing `@metadata.last-updated`.
+
+**Files modified**
+- `i18n/en/about_en.json` — added 4 new keys; refreshed date.
+- `i18n/en/get-involved_en.json` — refreshed date only.
+- `lib/i18n/request.ts` — added `about` + `get-involved` namespaces to `DEFAULT_NAMESPACES`.
+- `lib/pages.ts` — flipped `published: true` for both slugs; sitemap emits 110 new URLs (55 locales × 2).
+- `MIGRATION-NEXTJS.md` — Phase 8 checkboxes complete; status pointer advanced to Phase 9a.
+
+**Verification**
+- `npm run build` → ✓ compiled 2.9s, TypeScript clean, **829 static pages** (55 locales × 15 routes + system routes).
+- Runtime via `/tmp/verify-phase8.js`: all 7 assertions pass. `/en/about` (168 KB) contains all 5 section headings + `hi@bitcoin.rocks` + `reviewed-badge` + Article + BreadcrumbList JSON-LD. `/en/get-involved` (164 KB) contains 3 CTA section headings + localized `/en/stickers` / `/en/postcards` / `/en/business/kit` links. `/ar/about` renders `<html lang="ar" dir="rtl">`. Sitemap contains both new English URLs.
+
+**Architecture validation**
+Phase 7c's `ContentPageLayout` abstraction is correct: both content pages reused `ContentPageData` verbatim with zero layout-component changes. The only additions were two small data files + two 60-line page.tsx wrappers. V2 redesign (drop legacy images + inline button CTAs) landed naturally as `body-link` paragraphs without needing any CSS additions.
+
+**Next up:** Phase 9a — faithful Tailwind port of 4 Bucket B educational pages: `wallets` (largest V1 page), `lightning`, `flyers`, `compound-inflation-calculator` (solo variant). V2 redesign deferred to post-cutover queue.
+
+---
+
 ## Next.js Migration — Phase 7b Four more comparison pages — April 17, 2026
 
 Ninth commit of the Next.js migration on `v2-nextjs-redesign`. Added `bitcoin-vs-banks`, `bitcoin-vs-bonds`, `bitcoin-vs-real-estate`, and `bitcoin-vs-crypto` using the Phase 7a data-driven pipeline — no infrastructure changes. Each page is a typed `ComparisonPageData` literal + a ~30-line page.tsx wrapping `<ComparisonPageLayout>`. `main` is still frozen.

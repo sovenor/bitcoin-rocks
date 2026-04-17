@@ -1,6 +1,62 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 7b Four more comparison pages (banks / bonds / real-estate / crypto) — April 17, 2026
+## Latest: Next.js Migration — Phase 8 Content pages (about + get-involved) — April 17, 2026
+
+Eleventh commit of the Next.js migration on `v2-nextjs-redesign`. Two more V2 content pages are live, reusing the Phase 7c `ContentPageLayout` + `ContentPageData` pattern with zero new infrastructure. Phases 5–8 are now complete; `main` is still frozen.
+
+### What Phase 8 delivered
+
+**New data files (`lib/comparisons/`)**
+- **`about.ts`** — ports `about.html` into the `ContentPageData` shape. 5 sections (Mission / What We Do / Editorial / Open Source / Contact Us). Preserves every legacy inline-link fragment verbatim: links to `/stickers`, `/flyers`, `/business/kit`, GitHub repo, `CONTRIBUTING.md`. Promoted the V1 hardcoded contact strings (`hi@bitcoin.rocks`, `github.com/sovenor/bitcoin-rocks`) to new i18n keys so translators can tweak the visible labels per locale without TS changes. Added `about_page_description` meta key.
+- **`get-involved.ts`** — ports `get-involved.html`. 4 sections (Intro + 3 CTAs: sticker pack / postcard pack / business kit). V2 redesign drops the legacy `<img>` thumbnails + `.get-involved-button` divs. Each CTA section ends with an inline `.body-link` paragraph that localizes to `/stickers`, `/postcards`, `/business/kit`. The "What's next?" card grid (from `ContentPageLayout`) completes the onward-journey funnel (wallets / buy / calculator).
+
+**New pages (2)**
+- **`app/[locale]/about/page.tsx`** + **`app/[locale]/get-involved/page.tsx`** — thin ~60-line pages (same pattern as `/bank-runs`). Each imports its `ContentPageData` and passes it to `<ContentPageLayout>`. `generateMetadata()` is inline (since `ContentPageData` has a different shape than `ComparisonPageData` and we already have one inline precedent for `/bank-runs`) — full 55-locale hreflang alternates + OpenGraph + Twitter card.
+
+**Files modified**
+- **`i18n/en/about_en.json`** — added 4 new keys (`about_page_description`, `about_contact_email_addr`, `about_contact_nostr_handle`, `about_contact_github_url`); refreshed `@metadata.last-updated` to 2026-04-17.
+- **`i18n/en/get-involved_en.json`** — refreshed `@metadata.last-updated` only (no new keys needed — the existing fragment-based prose covers everything).
+- **`lib/i18n/request.ts`** — added `about` + `get-involved` to `DEFAULT_NAMESPACES`.
+- **`lib/pages.ts`** — flipped `published: true` for both slugs; sitemap now emits **110 new URLs** (55 locales × 2 slugs).
+- **`MIGRATION-NEXTJS.md`** — Phase 8 checkboxes complete; status pointer advanced to Phase 9a.
+
+**New utility**
+- **`scripts/phase8/update-en-json.js`** — idempotent Node helper to add new keys + refresh metadata dates. Mirrors the `scripts/phase7*/` pattern: a small script per phase when English JSON files need changes. Translator workflow unchanged — they'll see 4 new untranslated strings next time they update `about_*.json` for their language.
+
+### Build + verification
+- `npm run build` → ✓ Compiled successfully in 2.9s, TypeScript clean, **829 static pages** (55 locales × 15 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- Runtime spot-check via `/tmp/verify-phase8.js`: all 7 assertions pass. `/en/about` (168 KB) contains all 5 section headings + `hi@bitcoin.rocks` + `reviewed-badge` + Article + BreadcrumbList JSON-LD. `/en/get-involved` (164 KB) contains 3 CTA section headings + correctly localized `/en/stickers` / `/en/postcards` / `/en/business/kit` links + Article + BreadcrumbList JSON-LD. `/ar/about` renders `<html lang="ar" dir="rtl">`. Sitemap contains both new English URLs.
+
+### Architecture validation
+Phase 8 confirms the Phase 7c `ContentPageLayout` abstraction is correct: both content pages reused `ContentPageData` verbatim with zero layout-component changes. The only additions were two small data files + two 60-line page.tsx wrappers. V2 redesign (drop legacy images + inline button CTAs) landed naturally as `body-link` paragraphs without needing any CSS additions.
+
+### Intentionally left alone
+- `about.html` + `get-involved.html` at repo root — still shipped by the static site on `main`. Phase 14 deletes them.
+- Non-English translations for the 4 new `about_*` keys — translators pick these up during normal language maintenance; English fallback is graceful.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 8
+```
+lib/comparisons/about.ts                             (NEW — ~170 lines)
+lib/comparisons/get-involved.ts                      (NEW — ~140 lines)
+app/[locale]/about/page.tsx                          (NEW — ~60 lines)
+app/[locale]/get-involved/page.tsx                   (NEW — ~60 lines)
+scripts/phase8/update-en-json.js                     (NEW — ~60 lines)
+i18n/en/about_en.json                                (edited — +4 keys, date)
+i18n/en/get-involved_en.json                         (edited — date only)
+lib/i18n/request.ts                                  (edited — +2 namespaces)
+lib/pages.ts                                         (edited — 2 slugs → published)
+MIGRATION-NEXTJS.md                                  (edited — Phase 8 complete)
+memory-bank/activeContext.md                         (edited — this file)
+memory-bank/progress.md                              (edited — progress note)
+```
+
+### Next
+**Phase 9a** — faithful Tailwind port of 4 Bucket B educational pages: `wallets` (largest V1 page at 997 lines), `lightning`, `flyers`, and the solo `compound-inflation-calculator` page (which reuses the Phase 6b `<CompoundInflationCalculatorSolo>` component). These are Bucket B pages so V2 redesign is deferred to the post-cutover queue; the port just maps V1 HTML → Tailwind classes. `main` stays frozen.
+
+---
+
+## Previous: Next.js Migration — Phase 7b Four more comparison pages (banks / bonds / real-estate / crypto) — April 17, 2026
 
 Ninth commit of the Next.js migration on `v2-nextjs-redesign`. Four more `bitcoin-vs-*` pages are live using the Phase 7a data-driven pipeline — pure additions, no infrastructure changes. Each page is a single data file + a ~30-line page.tsx, confirming the Phase 7a architecture choice was correct. `main` is still frozen.
 
