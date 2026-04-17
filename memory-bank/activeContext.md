@@ -1,6 +1,60 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 1 scaffold complete — April 17, 2026
+## Latest: Next.js Migration — Phase 2 i18n wiring complete — April 17, 2026
+
+Second commit of the Next.js migration on `v2-nextjs-redesign`. All 55 supported locales now server-render translated HTML from the existing `i18n/` JSON files — no client-side hydration required, no change to translator workflow. `main` is still frozen.
+
+### What Phase 2 delivered
+- **`next-intl@4.5.3` installed** (21 packages, 0 vulnerabilities). Matches the sibling projects' approach to i18n in Next.js App Router.
+- **Locale catalog** (`lib/i18n/config.ts`): all 55 locales mirrored exactly from `jquery/language.js` (English first, then alphabetical by native display name). Exports `languages`, `locales`, `Locale` type, `defaultLocale`, `RTL_LOCALES`, `isValidLocale()` helper. Deliberately excludes the `custom` / "Add language" row from the legacy dropdown — that's UI-only.
+- **Message loader** (`lib/i18n/load-messages.ts`): reads existing `i18n/<locale>/<namespace>_<locale>.json` files (including the nested `business/`, `nostr/`, `sticker-files/` sub-paths) with zero filesystem reorganization. Strips `@metadata` before handing messages to next-intl. **English fallback on missing keys** is implemented per-key — matches jquery.i18n's graceful behavior so translators can keep shipping partial files. In-memory cache keyed by `locale::namespace`.
+- **Request config** (`lib/i18n/request.ts`): `getRequestConfig({ requestLocale })` with `hasLocale(locales, …)` validation. During Phase 2 it eagerly loads `common` + `index` namespaces on every request (small enough to always include). Later phases can switch to per-page namespace sets.
+- **Routing** (`lib/i18n/routing.ts`): `defineRouting({ locales, defaultLocale: 'en', localePrefix: 'always', localeDetection: true })`. Accept-Language-aware detection on first visit → 301 to `/<lang>/…`, persisted via cookie. Manual switcher overrides (next-intl writes the cookie on any `<Link>` locale change).
+- **Middleware** (`middleware.ts` at repo root): `createMiddleware(routing)` with matcher `/((?!api|_next|_vercel|.*\\..*).*)`  — skips Next internals + any path with a dot (so `/favicon.ico`, `/img/*`, `/sitemap.xml`, `/robots.txt`, `/llms.txt` all bypass i18n).
+- **`next.config.ts`** now wraps the config with `createNextIntlPlugin('./lib/i18n/request.ts')`. All the existing security/cache headers are preserved.
+- **`app/[locale]/layout.tsx`** updated: validates the locale with `hasLocale()` + `notFound()` for unknown codes, calls `setRequestLocale(locale)` so server components below can use `useTranslations()`, wraps children in `<NextIntlClientProvider locale={locale} messages={messages}>`, and adds `generateStaticParams()` returning all 55 locales so each is prerendered as a static page. RTL still driven from the config's `RTL_LOCALES` set.
+- **`app/[locale]/page.tsx`** now renders `t("home_h1")` + `t("home_intro")` via server-side `getTranslations()` — translated markup is in the initial HTML response (the whole point of the migration for SEO).
+- **Deleted `app/page.tsx`** — the next-intl middleware now handles `/` → Accept-Language-matched locale redirect, replacing the Phase 1 hard-coded `redirect('/en')`.
+
+### Build + verification
+- `npm run build` → ✓ compiled in 1.9 s, TypeScript clean. **57 routes generated**: 1 `/_not-found` + 55 static per-locale pages (`/en`, `/af`, `/az`, …, `/ko`) + middleware proxy.
+- `curl http://localhost:3000/<lang>` confirms end-to-end:
+  - `/en` → `<html lang="en" dir="ltr">` with English H1 + intro
+  - `/es` → `<html lang="es" dir="ltr">` with Spanish intro (English fallback on `home_h1` works — Spanish doesn't have it yet)
+  - `/ar` → `<html lang="ar" dir="rtl">` with Arabic intro (RTL direction correct)
+  - `/zh` → `<html lang="zh" dir="ltr">` with Simplified Chinese intro
+
+### Decisions locked in
+- **Flat snake_case keys preserved** (`home_h1`, `common_footer_about`, etc.). The legacy jquery.i18n format is kept as-is to preserve translator workflow and the existing ~5,250 translated key-values across 55 languages. One JSON file per page = one logical namespace, but we load multiple namespaces into a single flat bag per request. Nested directories use slash paths (`"business/wallets"`, `"nostr/what-is-nostr"`).
+- **Tuple-based `locales` export** rather than deriving from `languages` via `.map()` — `as const` on a literal array gives next-intl the readonly tuple it needs for `hasLocale()` type-narrowing. Tradeoff: adding a new language means editing both `languages` (display) and `locales` (tuple) arrays. Both are right next to each other in the file; the translate-new-language workflow already touches multiple files.
+
+### Intentionally left alone
+- `jquery/` — still used by the static site during the migration period. Phase 3 will start porting individual files (`language.js` → `components/LanguageSwitcher.tsx` first).
+- All `*.html` / `css/style.css` files — static site still serves from `main`.
+- `forms-backend/` — untouched; Next will POST to its existing URLs starting Phase 9b.
+- English JSON keys that aren't yet in translations files (e.g. `home_h1` in `es`) — handled by the English fallback in `load-messages.ts`, so missing keys never error-out at render time.
+
+### Files created/changed in Phase 2
+```
+package.json             (next-intl added)
+next.config.ts           (wrapped with createNextIntlPlugin)
+middleware.ts            (NEW)
+lib/i18n/config.ts       (NEW)
+lib/i18n/load-messages.ts (NEW)
+lib/i18n/request.ts      (NEW)
+lib/i18n/routing.ts      (NEW)
+app/[locale]/layout.tsx  (NextIntlClientProvider + setRequestLocale + generateStaticParams + hasLocale validation)
+app/[locale]/page.tsx    (now renders translated strings)
+app/page.tsx             (DELETED — middleware handles `/`)
+MIGRATION-NEXTJS.md      (Phase 2 marked complete; position pointer advanced)
+```
+
+### Next up: Phase 3 — Shared layout components
+Port the V2 footer + nav + language switcher + GA wrapper into React components and wire them into `app/[locale]/layout.tsx`. The `LanguageSwitcher` needs to port `jquery/language.js` behavior (localStorage persistence, `gtag('event', 'language_switch', …)` + `'language_pageview'` events). See `MIGRATION-NEXTJS.md` Phase 3 for the full checklist.
+
+---
+
+## Previous: Next.js Migration — Phase 1 scaffold complete — April 17, 2026
 
 First commit of the Next.js 16 / React 19 / TypeScript / Tailwind v4 rewrite on the `v2-nextjs-redesign` branch. The static site on `main` is completely untouched — Railway production deploy keeps serving the existing HTML until the cutover commit at the end of Phase 15.
 

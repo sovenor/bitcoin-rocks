@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 1 complete · Awaiting Phase 2 (next-intl wiring)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold)
+**Status:** Phase 2 complete · Awaiting Phase 3 (shared layout components)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 1 done → starting Phase 2 next.
+**Current position pointer:** Phase 2 done → starting Phase 3 next.
 
 ---
 
@@ -101,19 +101,28 @@ Goal: Working `npm run dev` at `localhost:3000/en` with zero pages, but layout +
 - [x] Kept all old `.html`, `jquery/`, `css/style.css` — static site still works as source reference
 - [x] Commit: "Phase 1: scaffold Next.js app"
 
-## Phase 2 — i18n wiring with `next-intl` (1 task)
+## Phase 2 — i18n wiring with `next-intl` ✅ COMPLETE
 
-Goal: `/en/test-key` vs `/es/test-key` serve different translated strings loaded from existing `i18n/` JSON files.
+Goal: `/en/` vs `/es/` vs `/ar/` etc. serve different server-rendered translated strings loaded from the existing `i18n/` JSON files.
 
-- [ ] `npm install next-intl`
-- [ ] `middleware.ts` at root — locale detection + redirect, using existing language list from `jquery/language.js`
-- [ ] `i18n/request.ts` — locale loader
-- [ ] `lib/i18n/config.ts` — full language list (mirror `jquery/language.js` `languages` array exactly, including native names for the switcher)
-- [ ] `lib/i18n/load-messages.ts` — loader that reads from existing `i18n/<lang>/*.json` files (don't move them; just point `next-intl` at the existing directory with its `_<lang>.json` suffix convention)
-- [ ] Wire into `app/[locale]/layout.tsx` via `NextIntlClientProvider` + server `getMessages()`
-- [ ] Test with 3+ locales: `/en`, `/es`, `/de`, `/ar` (RTL), `/zh` (CJK) — each should render their own translation of a test string
-- [ ] Document the key-namespace mapping: current `data-i18n="home_section_title"` becomes `t("home.section.title")` (or keep flat keys — decide and document)
-- [ ] Commit: "Phase 2: i18n wiring with next-intl"
+- [x] `npm install next-intl` — added `next-intl@4.5.3` (21 packages, 0 vulnerabilities)
+- [x] `lib/i18n/config.ts` — full 55-locale list mirroring `jquery/language.js` (English first, then alphabetical by native name); exports `languages`, `locales`, `Locale` type, `defaultLocale`, `RTL_LOCALES`, `isValidLocale()` helper
+- [x] `lib/i18n/load-messages.ts` — reads existing `i18n/<locale>/<namespace>_<locale>.json` files (including nested `business/`, `nostr/`, `sticker-files/` paths), strips `@metadata`, falls back to English per-key when target locale omits a key. In-memory cache keyed by `locale::namespace`.
+- [x] `lib/i18n/request.ts` — `getRequestConfig` using `hasLocale(locales, ...)` for validation; Phase 2 eagerly loads `common` + `index` namespaces; later phases add per-page sets.
+- [x] `lib/i18n/routing.ts` — `defineRouting({ locales, defaultLocale: 'en', localePrefix: 'always', localeDetection: true })` so middleware handles `/` → `/<accept-language>` on first visit and persists the choice in a cookie.
+- [x] `middleware.ts` at root — `createMiddleware(routing)` + matcher `/((?!api|_next|_vercel|.*\\..*).*)` so Next internals + static files (favicon, images, sitemap, robots, llms.txt) bypass i18n.
+- [x] `next.config.ts` wrapped with `createNextIntlPlugin('./lib/i18n/request.ts')`.
+- [x] `app/[locale]/layout.tsx` — validates locale with `hasLocale()` + `notFound()`, calls `setRequestLocale(locale)`, wraps children in `<NextIntlClientProvider locale={locale} messages={messages}>`; adds `generateStaticParams()` so all 55 locales are static-prerendered.
+- [x] `app/[locale]/page.tsx` — renders `t("home_h1")` + `t("home_intro")` via server-side `getTranslations()` so translated HTML is in the initial response (no hydration needed).
+- [x] Deleted `app/page.tsx` — middleware now handles `/` → Accept-Language-matched locale redirect.
+- [x] `npm run build` → ✓ compiled 1.9s, TypeScript clean, **57 routes generated** (1 not-found + middleware proxy + 55 static per-locale pages `/en`, `/af`, `/az`, … `/ko`).
+- [x] Verified via `curl http://localhost:3000/<lang>`:
+  - `/en` → `<html lang="en" dir="ltr">` with English H1 + intro ✓
+  - `/es` → `<html lang="es" dir="ltr">` with Spanish intro ✓ (English fallback on missing keys works)
+  - `/ar` → `<html lang="ar" dir="rtl">` with Arabic intro ✓ (RTL direction correct)
+  - `/zh` → `<html lang="zh" dir="ltr">` with Simplified Chinese intro ✓
+- [x] Key-namespace convention documented: **flat snake_case keys preserved** (`home_h1`, `common_footer_about`, …). One JSON file per page = one logical namespace, but we load multiple namespaces into a single flat bag per request (matches legacy jquery.i18n behavior + zero disruption to the ~60 translator contributors). Nested paths for subdirs are passed as `"business/wallets"`.
+- [x] Commit: "Phase 2: i18n wiring with next-intl"
 
 ## Phase 3 — Shared layout components (1-2 tasks)
 
@@ -375,6 +384,7 @@ After cutover, these Bucket B pages can be V2-redesigned individually. Each is i
 8. **`forms-backend/` stays as-is** — separate Railway service at its current URL. Next POSTs to it the same way.
 9. **SEO during cutover** — Google will take a day or two to reindex with new locale URL structure. `hreflang` tags help. 301 redirects from old URLs preserve link juice. No manual Search Console action needed.
 10. **Railway build config** — may need `nixpacks.toml` update to describe Next.js build (node + npm + `next build` + `next start`). Reference `../vote-for-better-money` if it has a `nixpacks.toml`.
+11. **Long shell commands get stuck** — use Node scripts instead unless the shell command is very short and simple.
 
 ---
 

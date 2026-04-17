@@ -1,4 +1,7 @@
+import createNextIntlPlugin from "next-intl/plugin";
 import type { NextConfig } from "next";
+
+const withNextIntl = createNextIntlPlugin("./lib/i18n/request.ts");
 
 const nextConfig: NextConfig = {
 	// Pin Turbopack to this directory so it doesn't climb to any parent package.json
@@ -51,4 +54,4 @@ const nextConfig: NextConfig = {
 	},
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

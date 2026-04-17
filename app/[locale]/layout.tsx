@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { notFound } from "next/navigation";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
 
-// Right-to-left locales; used to set the `dir` attribute.
-const RTL_LOCALES = new Set(["ar", "fa", "he", "ur"]);
+import { locales, RTL_LOCALES, type Locale } from "@/lib/i18n/config";
 
 const GA_MEASUREMENT_ID = "G-18L58W2GTN";
 // Typekit kit hosting proxima-nova + proxima-soft. This matches
@@ -34,6 +36,13 @@ export const metadata: Metadata = {
 	},
 };
 
+// Pre-render one static page per supported locale. next-intl requires this
+// pairing with `setRequestLocale()` below to enable full server-side
+// rendering of translated markup (the whole point of this migration for SEO).
+export function generateStaticParams() {
+	return locales.map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
 	children,
 	params,
@@ -42,7 +51,17 @@ export default async function LocaleLayout({
 	params: Promise<{ locale: string }>;
 }) {
 	const { locale } = await params;
-	const dir = RTL_LOCALES.has(locale) ? "rtl" : "ltr";
+	if (!hasLocale(locales, locale)) {
+		notFound();
+	}
+
+	// Tell next-intl which locale is active for this request — required so
+	// server components invoked below this layout can call useTranslations()
+	// and friends without an error.
+	setRequestLocale(locale);
+
+	const messages = await getMessages();
+	const dir = RTL_LOCALES.has(locale as Locale) ? "rtl" : "ltr";
 
 	return (
 		<html lang={locale} dir={dir}>
@@ -65,7 +84,9 @@ export default async function LocaleLayout({
 					`}
 				</Script>
 
-				<main>{children}</main>
+				<NextIntlClientProvider locale={locale} messages={messages}>
+					<main>{children}</main>
+				</NextIntlClientProvider>
 			</body>
 		</html>
 	);
