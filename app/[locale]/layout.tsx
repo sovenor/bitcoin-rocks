@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 
+import { Footer } from "@/components/Footer";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { Navbar } from "@/components/Navbar";
 import { locales, RTL_LOCALES, type Locale } from "@/lib/i18n/config";
 
-const GA_MEASUREMENT_ID = "G-18L58W2GTN";
-// Typekit kit hosting proxima-nova + proxima-soft. This matches
-// the existing `<link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">`
-// in the current static index.html.
+// Typekit kit hosting proxima-nova + proxima-soft. Matches the existing
+// `<link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">`
+// in the legacy static site.
 const TYPEKIT_URL = "https://use.typekit.net/ful2oqu.css";
 
 export const metadata: Metadata = {
@@ -70,22 +71,12 @@ export default async function LocaleLayout({
 				<link rel="stylesheet" href={TYPEKIT_URL} />
 			</head>
 			<body className="bg-bg text-fg font-proxima antialiased">
-				{/* Google Analytics (gtag.js) — same measurement ID as the static site */}
-				<Script
-					strategy="afterInteractive"
-					src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-				/>
-				<Script id="gtag-init" strategy="afterInteractive">
-					{`
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-					gtag('config', '${GA_MEASUREMENT_ID}');
-					`}
-				</Script>
+				<GoogleAnalytics />
 
 				<NextIntlClientProvider locale={locale} messages={messages}>
+					<Navbar />
 					<main>{children}</main>
+					<Footer />
 				</NextIntlClientProvider>
 			</body>
 		</html>

@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 2 complete · Awaiting Phase 3 (shared layout components)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring)
+**Status:** Phase 3 complete · Awaiting Phase 4 (SEO / JSON-LD / sitemap helpers)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 2 done → starting Phase 3 next.
+**Current position pointer:** Phase 3 done → starting Phase 4 next.
 
 ---
 
@@ -124,18 +124,26 @@ Goal: `/en/` vs `/es/` vs `/ar/` etc. serve different server-rendered translated
 - [x] Key-namespace convention documented: **flat snake_case keys preserved** (`home_h1`, `common_footer_about`, …). One JSON file per page = one logical namespace, but we load multiple namespaces into a single flat bag per request (matches legacy jquery.i18n behavior + zero disruption to the ~60 translator contributors). Nested paths for subdirs are passed as `"business/wallets"`.
 - [x] Commit: "Phase 2: i18n wiring with next-intl"
 
-## Phase 3 — Shared layout components (1-2 tasks)
+## Phase 3 — Shared layout components ✅ COMPLETE
 
 Goal: Every page inherits the same `<Navbar>` + `<Footer>` via `layout.tsx`. Zero duplication.
 
-- [ ] `components/Footer.tsx` — port the canonical V2 footer from current `index.html` (the one with `.footer-logo-wrap`). All styles in Tailwind. Uses `t()` for translation keys.
-- [ ] `components/Navbar.tsx` — V2 nav (`.site-nav--v2`): logo-on-top-of-pill pattern from `.clinerules`.
-  - Sub-component: `components/LanguageSwitcher.tsx` — ports `jquery/language.js` behavior (localStorage persistence, `gtag('event', 'language_switch', …)` and `'language_pageview'` events, TRANSLATION_VERSION cache-bust).
-- [ ] `components/GoogleAnalytics.tsx` — `<Script strategy="afterInteractive">` wrapper with GA ID constant.
-- [ ] `components/ScrollProgress.tsx` — optional, crib from vote-for-better-money.
-- [ ] Wire all 3 into `app/[locale]/layout.tsx`.
-- [ ] Verify footer shows on every page (once we have Phase 5 homepage). For now, verify on the Phase 1 stub.
-- [ ] Commit: "Phase 3: shared Footer, Navbar, LanguageSwitcher, GA components"
+- [x] `lib/i18n/navigation.ts` — thin wrapper around `next-intl`'s `createNavigation(routing)`, exports locale-aware `Link`, `usePathname`, `useRouter`, `redirect`, `getPathname`. Used by Navbar, Footer, LanguageSwitcher so `/inflation` becomes `/<current-locale>/inflation` automatically.
+- [x] `components/Footer.tsx` — ports the canonical V2 footer from current `index.html` (the one with `.footer-logo-wrap`): centered logo with horizontal line breaking behind it, tagline, dot-separated link row (About · Contribute · Nostr · email). All styles in Tailwind utility classes (including inline hex colors for `#555` dividers to avoid adding theme tokens). Uses `t()` via `getTranslations()` for `common_footer_tagline`, `common_footer_about`, `common_footer_contribute`, `common_footer_nostr`.
+- [x] `components/Navbar.tsx` — V2 pill nav (`.site-nav--v2` equivalent): logo-on-top-of-pill pattern. Server Component that renders translated `home_nav_learn` / `home_nav_get_involved` / `home_nav_about` keys into the pill, plus slots in `<LanguageSwitcher />` as the 4th pill cell.
+- [x] `components/LanguageSwitcher.tsx` — Client Component that ports `jquery/language.js` behavior: reads current locale via `useLocale()`, renders a button with the native display name, opens a dropdown listing all 55 languages + the "Add language" row, on select fires `gtag('event', 'language_switch', { event_category, event_label, language_selected })` and calls `router.replace(pathname, { locale })` (next-intl writes the `NEXT_LOCALE` cookie automatically). Also fires `language_pageview` once on mount with `language_source: 'stored' | 'browser'` derived from the presence of the `NEXT_LOCALE` cookie. Dropdown closes on outside-click via a `document` mousedown listener. `TRANSLATION_VERSION` cache-bust removed — Next's page regeneration handles cache invalidation automatically.
+- [x] `components/GoogleAnalytics.tsx` — `<Script strategy="afterInteractive">` wrapper with the `G-18L58W2GTN` measurement ID baked in as a module constant.
+- [x] Wire all 4 into `app/[locale]/layout.tsx`: GA emits first inside `<body>`, then `<NextIntlClientProvider>` wraps `<Navbar /> <main>{children}</main> <Footer />`.
+- [x] Moved the Typekit `<link>` + GA `<Script>` out of the inline layout and into a clean head / body separation.
+- [x] Updated `app/[locale]/page.tsx` stub to drop its previous `min-h-screen` / flex-centering (nav + footer now sandwich `{children}` — content just needs normal section padding).
+- [x] `npm run build` → ✓ compiled 2.2s, TypeScript clean, **57 routes** generated. The "overly broad patterns" warning on `load-messages.ts` `fs.readFile` is a Turbopack perf hint, not an error.
+- [x] Verified via `npm run start` + `curl`:
+  - `/en` → 200, page source contains "Learn", "Get Involved", "About", "English" (nav labels), "Accelerating bitcoin adoption through education." (footer tagline), "hi@bitcoin.rocks" (footer email), `rocks-logo` (nav + footer logo)
+  - `/ar` → `<html lang="ar" dir="rtl">` — RTL still correct with full nav + footer
+  - `/es` → Spanish footer tagline "Acelerando la adopción de bitcoin a través de la educación." ✓ — confirms `common_footer_tagline` translations are wiring end-to-end
+- [x] Commit: "Phase 3: shared Footer, Navbar, LanguageSwitcher, GA components"
+
+**Deferred:** `components/ScrollProgress.tsx` is listed as optional in the migration plan; we'll crib it from vote-for-better-money later if any page actually wants it. None of the V2 pages use one today.
 
 ## Phase 4 — SEO / JSON-LD / sitemap helpers (1 task)
 

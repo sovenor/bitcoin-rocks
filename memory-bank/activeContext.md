@@ -1,6 +1,65 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 2 i18n wiring complete — April 17, 2026
+## Latest: Next.js Migration — Phase 3 shared layout components complete — April 17, 2026
+
+Third commit of the Next.js migration on `v2-nextjs-redesign`. Every page now inherits a server-rendered V2 navbar + footer + GA snippet from `app/[locale]/layout.tsx` — zero duplication, zero client-side hydration needed for the shared chrome. `main` is still frozen.
+
+### What Phase 3 delivered
+
+- **`lib/i18n/navigation.ts`** — thin wrapper around `next-intl`'s `createNavigation(routing)` that exports locale-aware `Link`, `usePathname`, `useRouter`, `redirect`, `getPathname`. Used by every shared component so `<Link href="/inflation">` becomes `/<current-locale>/inflation` automatically, with cookie-persisted locale switching baked in.
+- **`components/Footer.tsx`** — Server Component. Ports the canonical V2 footer from current `index.html` (the one with `.footer-logo-wrap`): centered logo with a horizontal line breaking behind it, tagline, dot-separated link row (About · Contribute · Nostr · email). All styles in Tailwind utility classes. Reads `common_footer_tagline`, `common_footer_about`, `common_footer_contribute`, `common_footer_nostr` via `getTranslations()` — translations already exist for all 55 locales.
+- **`components/Navbar.tsx`** — Server Component. V2 pill nav (logo-on-top-of-pill pattern). Renders `home_nav_learn` / `home_nav_get_involved` / `home_nav_about` into three pill cells and slots in `<LanguageSwitcher />` as the 4th cell. All links use locale-aware `<Link>`.
+- **`components/LanguageSwitcher.tsx`** — Client Component. Ports the behavior of `jquery/language.js`:
+  - Reads current locale via `useLocale()`, displays native name (e.g. `English`, `Español`, `中文`) in a clickable button.
+  - Click opens a dropdown of all 55 languages + an "Add language" row pointing at the CONTRIBUTING.md translations section.
+  - On select: fires `gtag('event', 'language_switch', { event_category, event_label, language_selected })` then calls `router.replace(pathname, { locale })` — next-intl writes the `NEXT_LOCALE` cookie automatically (no full page reload).
+  - On mount: fires `language_pageview` once with `language_source` derived from presence of the `NEXT_LOCALE` cookie (`'stored'` vs `'browser'`).
+  - Dropdown closes on outside-click via a `document` mousedown listener that's installed only while open.
+  - `TRANSLATION_VERSION` cache-bust is deliberately **removed** — Next.js page regeneration handles cache invalidation at build time.
+- **`components/GoogleAnalytics.tsx`** — `<Script strategy="afterInteractive">` wrapper with the `G-18L58W2GTN` measurement ID exported as a module constant.
+- **`app/[locale]/layout.tsx`** — rewired to compose everything:
+  - `<GoogleAnalytics />` emits inside `<body>` first (after Typekit's `<link>` in `<head>`)
+  - `<NextIntlClientProvider>` wraps `<Navbar /> <main>{children}</main> <Footer />`
+  - Still handles locale validation, `setRequestLocale()`, `generateStaticParams()`, RTL direction, favicon metadata
+- **`app/[locale]/page.tsx`** — simplified. Previously was `min-h-screen` flex-centered (it was the entire page); now just a padded `<section>` since nav + footer live in the layout.
+
+### Build + verification
+- `npm run build` → ✓ Compiled successfully in 2.2s, TypeScript clean, **57 routes** static-generated. Turbopack emitted one perf hint about `fs.readFile(p, 'utf8')` in `load-messages.ts` matching 19k+ files — not an error, just a heads-up about dynamic filename globs. We can tighten this later if build time becomes an issue.
+- `npm run start` + `curl` spot-checks:
+  - `/en` → 200, HTML source contains nav labels ("Learn", "Get Involved", "About", "English"), footer tagline ("Accelerating bitcoin adoption through education."), footer email ("hi@bitcoin.rocks"), `rocks-logo` in both nav + footer.
+  - `/ar` → `<html lang="ar" dir="rtl">` — RTL still correct with the full layout stack.
+  - `/es` → Spanish footer tagline rendered as "Acelerando la adopción de bitcoin a través de la educación." — confirms translations flow through `getTranslations()` end-to-end on every shared component.
+
+### Decisions locked in
+- **Server Components for Navbar + Footer.** Both need translations in the initial HTML response (SEO win + zero hydration flash). The only interactive piece — the language dropdown — is isolated in its own Client Component (`LanguageSwitcher.tsx`), which is the React-server-components best practice.
+- **No legacy CSS leakage.** All spacing / colors / typography in the shared chrome are Tailwind utility classes or design-token references (`bg-bg`, `text-bitcoin-orange`, `text-fg-dim`, `font-proxima`, `xs:` breakpoint). A few exact-hex values like `#555` (divider color) and `#f0f0f0` (hover text) are used as raw Tailwind `[#xxx]` values rather than adding single-use theme tokens.
+- **`router.replace()` over `router.push()`** for language switching — the language choice replaces the current history entry rather than stacking, which matches the old `location.reload()` behavior's "this wasn't navigation, it was the same page in a different language" intent.
+- **`ScrollProgress.tsx` deferred.** Listed as optional in Phase 3; none of the V2 pages actually use a scroll progress bar today. We'll crib it from vote-for-better-money later if any page wants one.
+
+### Intentionally left alone
+- `jquery/language.js` — still used by the static site on `main`. Safe to keep until Phase 14 cleanup.
+- All root `*.html` files, `css/style.css`, `scripts/inject-*.js`, `business/`, `nostr/`, `sticker-files/` directories — static site reference intact.
+- `forms-backend/` — still untouched; Phase 9b will POST to its existing URLs.
+- `main` branch at `origin/main` (`6cb07406`) — frozen; Railway keeps deploying the static site until cutover (Phase 15).
+
+### Files created/changed in Phase 3
+```
+lib/i18n/navigation.ts         (NEW)
+components/Footer.tsx          (NEW)
+components/Navbar.tsx          (NEW)
+components/LanguageSwitcher.tsx (NEW)
+components/GoogleAnalytics.tsx (NEW)
+app/[locale]/layout.tsx        (rewired — GA + Navbar + Footer composition)
+app/[locale]/page.tsx          (stub simplified — nav + footer now in layout)
+MIGRATION-NEXTJS.md            (Phase 3 marked complete; position pointer → Phase 4)
+```
+
+### Next up: Phase 4 — SEO / JSON-LD / sitemap helpers
+Port the `scripts/inject-*.js` pipeline to TypeScript helpers that run at page-render time: article schema, breadcrumb schema, organization schema, comparison schema, reviewed-badge, plus NEW hreflang generation, `app/sitemap.ts` enumerating all pages × 55 locales, `app/robots.ts`, and moving `llms.txt` / `llms-full.txt` into `public/`. See `MIGRATION-NEXTJS.md` Phase 4 for the full checklist.
+
+---
+
+## Previous: Next.js Migration — Phase 2 i18n wiring complete — April 17, 2026
 
 Second commit of the Next.js migration on `v2-nextjs-redesign`. All 55 supported locales now server-render translated HTML from the existing `i18n/` JSON files — no client-side hydration required, no change to translator workflow. `main` is still frozen.
 

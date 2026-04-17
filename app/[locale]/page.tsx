@@ -1,18 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 /**
- * Phase 2 placeholder page.
+ * Phase 3 placeholder home page.
  *
- * Renders a minimal *translated* message at /<locale>/ so we can verify the
- * full i18n pipeline end-to-end: middleware → routing.ts → request.ts →
- * load-messages.ts → <html lang dir> → server-rendered translated HTML.
- *
- * Uses `getTranslations()` (the server-side sibling of `useTranslations`) so
- * the translated markup is present in the initial HTML response — this is
- * exactly what the legacy static site does NOT do, and what makes this
- * migration a big SEO win.
- *
- * Phase 5 replaces this stub with the real homepage content.
+ * Renders the existing translated home_h1 / home_intro strings between
+ * the shared <Navbar> and <Footer> that live in `app/[locale]/layout.tsx`.
+ * Phase 5 replaces this stub with the full ported homepage (carousels,
+ * category sections, cards, etc).
  */
 export default async function LocaleHome({
 	params,
@@ -22,12 +16,13 @@ export default async function LocaleHome({
 	const { locale } = await params;
 	setRequestLocale(locale);
 
-	// We've loaded `common` + `index` in `lib/i18n/request.ts`, so both
-	// namespaces are available via the flat key API.
+	// `common` + `index` namespaces are eagerly loaded in lib/i18n/request.ts
+	// during Phase 2/3, so all home_* and common_* keys are available via
+	// the flat key API.
 	const t = await getTranslations();
 
 	return (
-		<div className="min-h-screen flex items-center justify-center px-6 py-20">
+		<section className="px-6 py-12 md:py-16 flex items-center justify-center">
 			<div className="max-w-2xl text-center">
 				<p className="text-bitcoin-orange text-sm uppercase tracking-widest font-semibold">
 					bitcoin.rocks
@@ -43,12 +38,12 @@ export default async function LocaleHome({
 					<code className="bg-bg-soft border border-border rounded px-2 py-0.5 text-bitcoin-orange">
 						{locale}
 					</code>
-					{" · "}Phase 2 scaffold
+					{" · "}Phase 3 scaffold (shared Navbar + Footer)
 				</p>
 				<p className="mt-6 text-fg-dim text-sm">
 					Tracking: <code>MIGRATION-NEXTJS.md</code>
 				</p>
 			</div>
-		</div>
+		</section>
 	);
 }
