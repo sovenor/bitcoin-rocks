@@ -414,6 +414,7 @@ a.footer-link:hover{
 .footer{
     width: 70%;
     margin-left: 15%;
+    margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -450,6 +451,7 @@ a.footer-link:hover{
         height: 32px;
         display: block;
         opacity: 1;
+        margin-top: -10px;
     }
     /* Keep logo fully opaque even on hover */
     .footer-logo-link:hover,
@@ -467,6 +469,10 @@ a.footer-link:hover{
         }
         .footer-logo-wrap{
             margin-bottom: 24px;
+        }
+        .footer{
+            width: 90%;
+            margin-left: 5%;
         }
     }
 
