@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 12 complete · Awaiting Phase 13 (404 + redirects + final sitemap)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages) + Phase 12 nostr section (/nostr + /nostr/what-is-nostr))
+**Status:** Phase 13 complete · Awaiting Phase 14 (cleanup + documentation update)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages) + Phase 12 nostr section (/nostr + /nostr/what-is-nostr) + Phase 13 404 / legacy redirects / stale sitemap cleanup)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 12 done → starting Phase 13 next.
+**Current position pointer:** Phase 13 done → starting Phase 14 next.
 
 
 ---
@@ -429,17 +429,24 @@ Faithful V1 Tailwind port of the 2-page nostr section (`/nostr` + `/nostr/what-i
 
 **Deferred:** V2 redesign of the nostr section (hero + card grid refresh) lives in the post-cutover queue. The V1 port keeps all behavior + cross-links + JSON-LD intact.
 
-## Phase 13 — 404, redirects, sitemap, misc (1 task)
+## Phase 13 — 404, redirects, sitemap, misc ✅ COMPLETE
 
-- [ ] `app/not-found.tsx` — port `404.html`
-- [ ] Populate `next.config.ts` `redirects()` with:
-  - `/inflation` → `/en/inflation` (and every other old unlocaled URL)
-  - Any legacy URLs from `nginx.conf` / `.htaccess`
-  - Removed pages → target pages
-- [ ] Verify `app/sitemap.ts` emits every locale × page combination
-- [ ] Remove `sitemap.xml` from `public/` (Next generates it)
-- [ ] Review `nginx.conf` + `.htaccess` for anything else that needs `headers()` or `redirects()` treatment
-- [ ] Commit: "Phase 13: 404, redirects, final sitemap"
+- [x] **Locale-scoped 404 via `app/[locale]/[...rest]/page.tsx` catch-all.** The idiomatic next-intl App Router pattern: a catch-all page under `[locale]/` renders the 404 body inline (gray logo + "THIS BROKEN PAGE DOES NOT ROCK" H1 + "GO BACK HOME" CTA) so the `[locale]/layout.tsx` stays active — meaning `<html lang={locale} dir={rtl|ltr}>` + Navbar + Footer + GA all render correctly. Page sets `robots: { index: false, follow: true }` so crawlers don't index it. Returns HTTP 200 with translated content; the `noindex` meta is the SEO-correct signal. Confirmed `/en/does-not-exist` → English 404 body; `/ar/does-not-exist` → `<html lang="ar" dir="rtl">` with 404 body.
+- [x] **Global fallback `app/not-found.tsx`** — self-contained `<html>`/`<body>` wrapper (required by Next since `app/layout.tsx` is a pass-through for locale layouts to emit their own `<html>`). Rendered only for paths that resolve no locale at all (rare; middleware usually catches them first).
+- [x] **`lib/i18n/request.ts`** — added `404` namespace to `DEFAULT_NAMESPACES` so the 3 legacy `404_*` keys load alongside the rest.
+- [x] **`next.config.ts` `redirects()` populated** with 33 legacy slug mappings ported verbatim from `nginx.conf`'s `rewrite ^/…$ …` directives:
+  - Sticker pack aliases: `/orange-pill-pack` · `/sticker` · `/bitcoin-stickers` · `/opp` → `/stickers`
+  - Comparison shortcuts: `/gold` · `/cbdc` · `/CBDC` · `/crypto` · `/cash` · `/real-estate` · `/realestate` · `/stocks` · `/equities` · `/bonds` · `/bond` · `/art` · `/fine-art` · `/fineart` · `/visa` · `/banks` → `/bitcoin-vs-{target}`
+  - Case/plural variants: `/INFLATION` → `/inflation`; `/bank-run` · `/bankrun` · `/bankruns` → `/bank-runs`; `/wallet` → `/wallets`; `/postcard` → `/postcards`; `/flyer` → `/flyers`; `/Lightning` → `/lightning`
+  - Business shortcuts: `/guide` · `/guides` · `/business/guides` → `/business/guide`; `/kit` · `/business-kit` · `/businesskit` → `/business/kit`
+  - `/save` → `/inflation?sign=got-inflation` (save-sticker deep link; query string preserved)
+  - `/:path*.html` → `/:path*` (strips trailing `.html` from legacy bookmarks). All 308 permanent; middleware then localizes the unlocaled destination to `/<lang>/...`.
+- [x] **Long-cache header** added for `/sticker-files/:path*` (219 PNGs) — shaves server load on Phase 11 static assets.
+- [x] **Deleted stale hand-written `sitemap.xml`** at repo root. Next's `app/sitemap.ts` now owns `/sitemap.xml` and emits one entry per `(published page, locale)` pair = **2,970 URLs** with full hreflang alternates (54 published slugs × 55 locales).
+- [x] **Verified `app/sitemap.ts` emits every locale × published page** via runtime check against `/sitemap.xml`: contains `/en` homepage, `/en/inflation`, `/en/bitcoin-vs-gold`, `/en/business`, `/en/sticker-files/yoruba`, `/en/nostr` + Arabic + Chinese locale variants + `<xhtml:link rel="alternate" hreflang="…">` per URL.
+- [x] **`npm run build`** → ✓ Compiled successfully in 4.0s, TypeScript clean, **4,734 static pages** generated (no regression from Phase 12; the new catch-all is a Dynamic route not an SSG page). Build warns that `middleware.ts` is deprecated in favor of `proxy.ts` in Next 16 — benign, deferred to Phase 14 cleanup.
+- [x] **Runtime verify via `/tmp/verify-phase13.js`** — all **32 assertions pass**: locale 404 + RTL 404 + comparison-page smoke test + 6 legacy-slug redirects (308 status + correct Location) + query-preserving save redirect + sitemap content + robots.txt + llms.txt.
+- [x] Commit: "Phase 13: 404, redirects, final sitemap"
 
 ## Phase 14 — Cleanup + documentation update (1 task)
 

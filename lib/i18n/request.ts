@@ -134,6 +134,8 @@ const DEFAULT_NAMESPACES = [
 	// Phase 12 — nostr section.
 	"nostr/index",
 	"nostr/what-is-nostr",
+	// Phase 13 — 404 page strings (`404_title`, `404_message`, `404_home`).
+	"404",
 ] as const;
 
 

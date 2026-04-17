@@ -3,6 +3,66 @@ import type { NextConfig } from "next";
 
 const withNextIntl = createNextIntlPlugin("./lib/i18n/request.ts");
 
+/**
+ * Legacy slug shortcuts the static site shipped via `nginx.conf` + `.htaccess`.
+ *
+ * Each entry maps a historical short URL (what humans typed or shared on
+ * socials — `bitcoin.rocks/gold` → the gold comparison page) to its canonical
+ * unlocalized destination. Next's `redirects()` runs BEFORE middleware, so
+ * after these 301s redirect the short slug to the canonical path (e.g.
+ * `/gold` → `/bitcoin-vs-gold`), next-intl's middleware catches the result
+ * and prepends the Accept-Language-matched locale, yielding the final URL
+ * (`/<lang>/bitcoin-vs-gold`) in a single extra hop.
+ *
+ * Source of truth: `nginx.conf` rewrite directives (lines 130-164). When we
+ * delete `nginx.conf` in Phase 14, these entries are all that remain of it.
+ */
+const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
+	// Sticker pack shortcuts
+	{ source: "/orange-pill-pack", destination: "/stickers" },
+	{ source: "/sticker", destination: "/stickers" },
+	{ source: "/bitcoin-stickers", destination: "/stickers" },
+	{ source: "/opp", destination: "/stickers" },
+	// Comparison page shortcuts
+	{ source: "/gold", destination: "/bitcoin-vs-gold" },
+	{ source: "/cbdc", destination: "/bitcoin-vs-cbdc" },
+	{ source: "/CBDC", destination: "/bitcoin-vs-cbdc" },
+	{ source: "/crypto", destination: "/bitcoin-vs-crypto" },
+	{ source: "/cash", destination: "/bitcoin-vs-cash" },
+	{ source: "/real-estate", destination: "/bitcoin-vs-real-estate" },
+	{ source: "/realestate", destination: "/bitcoin-vs-real-estate" },
+	{ source: "/stocks", destination: "/bitcoin-vs-stocks" },
+	{ source: "/equities", destination: "/bitcoin-vs-stocks" },
+	{ source: "/bonds", destination: "/bitcoin-vs-bonds" },
+	{ source: "/bond", destination: "/bitcoin-vs-bonds" },
+	{ source: "/art", destination: "/bitcoin-vs-fine-art" },
+	{ source: "/fine-art", destination: "/bitcoin-vs-fine-art" },
+	{ source: "/fineart", destination: "/bitcoin-vs-fine-art" },
+	{ source: "/visa", destination: "/bitcoin-vs-visa" },
+	{ source: "/banks", destination: "/bitcoin-vs-banks" },
+	// Case + singular/plural variants
+	{ source: "/INFLATION", destination: "/inflation" },
+	{ source: "/bank-run", destination: "/bank-runs" },
+	{ source: "/bankrun", destination: "/bank-runs" },
+	{ source: "/bankruns", destination: "/bank-runs" },
+	{ source: "/wallet", destination: "/wallets" },
+	{ source: "/postcard", destination: "/postcards" },
+	{ source: "/flyer", destination: "/flyers" },
+	{ source: "/Lightning", destination: "/lightning" },
+	// Business section shortcuts
+	{ source: "/guide", destination: "/business/guide" },
+	{ source: "/guides", destination: "/business/guide" },
+	{ source: "/business/guides", destination: "/business/guide" },
+	{ source: "/kit", destination: "/business/kit" },
+	{ source: "/business-kit", destination: "/business/kit" },
+	{ source: "/businesskit", destination: "/business/kit" },
+	// Save-sticker deep link (preserves the query string)
+	{ source: "/save", destination: "/inflation?sign=got-inflation" },
+	// Trailing `.html` from any legacy bookmark gets stripped (e.g.
+	// `/inflation.html` → `/inflation`, which middleware then localizes).
+	{ source: "/:path*.html", destination: "/:path*" },
+];
+
 const nextConfig: NextConfig = {
 	// Pin Turbopack to this directory so it doesn't climb to any parent package.json
 	turbopack: {
@@ -45,12 +105,29 @@ const nextConfig: NextConfig = {
 					{ key: "Cache-Control", value: "public, max-age=31536000, immutable" },
 				],
 			},
+			{
+				// Sticker-file PNGs are versioned by filename/dir so long-cache
+				// them too. Shaves server load on the 219 PNGs shipped in
+				// `public/sticker-files/`.
+				source: "/sticker-files/:path*",
+				headers: [
+					{ key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+				],
+			},
 		];
 	},
 
-	// Phase 13 will populate legacy-URL → locale-URL redirects here.
+	/**
+	 * 301 redirects for legacy URLs. Permanent so Google updates its index +
+	 * link juice is preserved. See `LEGACY_SLUG_REDIRECTS` above for the
+	 * catalog (ported from `nginx.conf`).
+	 */
 	async redirects() {
-		return [];
+		return LEGACY_SLUG_REDIRECTS.map(({ source, destination }) => ({
+			source,
+			destination,
+			permanent: true,
+		}));
 	},
 };
 
