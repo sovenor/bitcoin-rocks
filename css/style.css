@@ -493,6 +493,15 @@ span.money, .jump-money, .money{
         color: #f0f0f0 !important;
     }
 
+span.saving, .jump-saving, .saving{
+    color: #F5A9B8 !important;
+}
+
+    .jump-saving:hover{
+        background-color: #F5A9B8;
+        color: #f0f0f0 !important;
+    }
+
 span.salary, .jump-salary, .salary{
     color: #2274A5 !important;
 }
@@ -3615,6 +3624,13 @@ svg.story-card-icon{
         grid-template-columns: 1fr;
     }
 }
+/* Solo card in a grid — span the full row on all screen sizes.
+   Applies to sections where there's only one card (e.g., bitcoin &
+   your salary, bitcoin & housing) so they don't look orphaned next
+   to an empty column. */
+.whats-next-grid > a.whats-next-card:only-child{
+    grid-column: 1 / -1;
+}
 a.whats-next-card{
     display: flex;
     flex-direction: column;
@@ -3866,36 +3882,17 @@ a.whats-next-card:hover .whats-next-card-source{
     margin-top: 4px;
 }
 
-/* Track: holds pills + their duplicate set for seamless infinite loop */
+/* Track: holds pills + their duplicate set for seamless infinite loop.
+   Scrolling is driven by jquery/home-carousel.js (RAF + scrollLeft
+   with wrap-around), NOT by a CSS @keyframes animation. This allows
+   the user to drag indefinitely in either direction and always have
+   more content to see — true infinite scroll. */
 .home-carousel-track{
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
     padding: 0 10px;
     width: max-content;
-    animation: home-carousel-scroll-left 120s linear infinite;
-    will-change: transform;
-}
-
-.home-carousel-row[data-direction="right"] .home-carousel-track{
-    animation-name: home-carousel-scroll-right;
-}
-
-/* Pause animation on hover / when user is dragging */
-.home-carousel-row:hover .home-carousel-track,
-.home-carousel-row.is-dragging .home-carousel-track,
-.home-carousel-row.is-paused .home-carousel-track{
-    animation-play-state: paused;
-}
-
-@keyframes home-carousel-scroll-left{
-    0%   { transform: translate3d(0, 0, 0); }
-    100% { transform: translate3d(-50%, 0, 0); }
-}
-
-@keyframes home-carousel-scroll-right{
-    0%   { transform: translate3d(-50%, 0, 0); }
-    100% { transform: translate3d(0, 0, 0); }
 }
 
 /* Pills: replaces .jump buttons. Proxima Soft font, colored border
@@ -3936,6 +3933,7 @@ a.whats-next-card:hover .whats-next-card-source{
    Since the color classes use `color: #XXX !important`, we use
    currentColor for border to keep colors in sync. */
 .home-pill.money,
+.home-pill.saving,
 .home-pill.salary,
 .home-pill.freedom,
 .home-pill.human-rights,

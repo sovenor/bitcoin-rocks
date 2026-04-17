@@ -1,5 +1,34 @@
 # Progress: bitcoin.rocks
 
+## Homepage v2 Polish — April 17, 2026
+Follow-up fixes to yesterday's homepage redesign. Five targeted changes to address issues users flagged after launch:
+
+1. **Carousel pill reorder** — Row 1 pills rearranged so the two bright-green pills (`money` #19BC38 and `energy` #1DFF4D) are never adjacent. `energy` now sits mid-row between property-rights (pink) and housing (brown); `salary` moved to end of row so the infinite-loop seam is `salary`(blue)→`money`(green) — cleanest possible contrast. Reorder applied to both the first set and the duplicate set of pills in `index.html`.
+
+2. **True infinite carousel scroll** — Rewrote `jquery/home-carousel.js` from scratch. Replaced the pure-CSS `@keyframes` animation with a `requestAnimationFrame` loop that drives `row.scrollLeft` directly (~30 px/s) and wraps around `track.scrollWidth / 2` when crossed in either direction. Fixes two UX bugs:
+   - **Drag indefinitely**: users can now grab and drag in either direction without hitting a wall.
+   - **No more empty tail**: the old CSS-only implementation would eventually scroll past the duplicate content and reveal blank space; the new JS wrap-around guarantees pills are always visible.
+   - Removed `@keyframes home-carousel-scroll-left/right` + `animation` + `:hover` pause rules from `css/style.css` (all handled in JS now).
+
+3. **Solo cards full-width** — Added `.whats-next-grid > a.whats-next-card:only-child { grid-column: 1 / -1; }` to `css/style.css`. Sections with a single card (like "bitcoin & your salary" and "bitcoin & housing") now span the full grid width on all screen sizes, not just mobile. Zero HTML changes needed.
+
+4. **Energy section trimmed** — Removed 2nd ("Why does Bitcoin use energy?") and 3rd ("Bitcoin's energy usage isn't a problem") cards from `index.html`. Energy section now has 4 cards: grid stabilization, demand response, rural electrification, renewable incentives. Removed 5 unused i18n keys from `i18n/en/index_en.json`.
+
+5. **Money section split into money + saving** — The money section had 7 cards, which was visually overwhelming. Split into two sections:
+   - **money** (4 cards): Bitcoin doesn't have inflation, Bitcoin doesn't have bank runs, Bitcoin vs Gold, Bitcoin vs Cash — the foundational "what is money and why is Bitcoin better money" topics.
+   - **saving** (3 cards, new section): Bitcoin vs CBDCs, Bitcoin vs Bonds, Bitcoin vs Crypto — the comparisons that are really about storing/investing wealth.
+   - New `saving` pill added to row 1 between `money` and `freedom` using new color `#F5A9B8` (soft pink).
+   - New CSS color classes added: `span.saving`, `.jump-saving`, `.saving`, and `.home-pill.saving` appended to the border-inheritance list.
+   - New i18n key `home_btn_saving = "saving"` added to `i18n/en/index_en.json`.
+
+**Files changed**: `index.html`, `css/style.css`, `jquery/home-carousel.js`, `i18n/en/index_en.json`, `memory-bank/activeContext.md`, `memory-bank/progress.md`. Cache-buster bumped to `v=1.4.0` on both CSS + JS. WebPage JSON-LD `dateModified` bumped to 2026-04-17. `node scripts/inject-seo-content.js` ran clean (0 changes — HTML was already in sync).
+
+**i18n note**: Only the English file was modified. Other 54 languages fall back gracefully to English for `home_btn_saving` until translators provide their translations (same pattern as yesterday's homepage redesign).
+
+**Helper script**: `scripts/update-index-i18n-for-saving.js` — one-shot Node.js script that added the new key and removed 5 unused energy keys from `i18n/en/index_en.json` with proper JSON formatting. Left in place for reference.
+
+---
+
 ## Homepage (v2) Redesign — April 16, 2026 (pt. 3)
 - Rebuilt `index.html` to use the new `/inflation`-style design system: `.site-nav--v2` pill nav, orange `.h1-inflation` hero, `.inflation-intro` subtitle, two infinite-scroll category carousels of lowercase colored pills, and 20 category sections built with the `.whats-next-section` / `.whats-next-grid` / `.whats-next-card` pattern.
 - Reusable pattern added: CSS variable `--card-accent` on a `.category-section` inline style drives both the `.whats-next-card-label` color and the hover border color. The `.whats-next-card-label` rule was refactored from `color: #FF9500` → `color: var(--card-accent, #FF9500)` (backwards-compatible — `/inflation` still gets orange labels).

@@ -1,5 +1,65 @@
 # Active Context: bitcoin.rocks
 
+## Latest: Homepage v2 Polish — April 17, 2026
+Follow-up polish to the v2 homepage that shipped yesterday. Five focused fixes:
+
+1. **Carousel: pill reorder to keep bright-green pills apart.** `energy` (#1DFF4D) and `money` (#19BC38) are both green, so they read as a single smudge when adjacent. Row 1's new order:
+   - `money → saving → freedom → human-rights → equality → property-rights → energy → housing → business → crowdfunding → salary`
+   - `energy` now lives mid-row between property-rights (pink) and housing (brown).
+   - The infinite-loop seam goes `salary` (blue) → `money` (green) — highest-contrast boundary available.
+   - The reorder applies to **both** the first set and the duplicated set of pills (required for seamless loop).
+
+2. **Carousel: true infinite loop driven by JS instead of CSS @keyframes.** Replaced the pure-CSS `@keyframes home-carousel-scroll-left/right` animation with a `requestAnimationFrame` loop in `jquery/home-carousel.js` that:
+   - Drives the track via `row.scrollLeft += AUTO_SPEED_PX_PER_SEC * dt * direction` (30 px/s).
+   - Wraps around when `scrollLeft` crosses `track.scrollWidth / 2` in either direction — invisible because the pills are duplicated 2× in the DOM.
+   - Applies the same wrap-around on `mousemove` + `scroll` events, so **drag works in both directions without hitting a wall** and never reveals empty space (the two bugs in the old CSS-only implementation).
+   - Recalculates `halfWidth` on `resize` + `document.fonts.ready` in case translated pill widths change.
+   - CSS `@keyframes` + `.home-carousel-row:hover` pause rules removed (now handled via JS `paused` flag). Added a comment to `.home-carousel-track` explaining the scroll is now JS-driven.
+
+3. **Solo card full-width on all screen sizes.** Added `.whats-next-grid > a.whats-next-card:only-child { grid-column: 1 / -1; }` so sections like "bitcoin & your salary" and "bitcoin & housing" span the full row at every breakpoint, not just mobile. Zero-code-change to the HTML — purely CSS.
+
+4. **Energy section trimmed from 6 → 4 cards.** Removed:
+   - "Why does Bitcoin use energy?" (bitcoinuses.energy)
+   - "Bitcoin's energy usage isn't a problem. Here's why." (Lyn Alden)
+   - Also removed now-unused keys from `i18n/en/index_en.json`: `home_card_label_energy_2`, `home_card_label_energy_3`, `home_link_title_energy_2`, `home_link_title_energy_3`, `home_link_author_bitcoin_uses_energy`.
+
+5. **"bitcoin & money" split into two sections.** The money section had 7 cards (two were about "which is better" comparisons that are really about savings/investment). Now:
+   - **money** (4 cards): Bitcoin doesn't have inflation, Bitcoin doesn't have bank runs, Bitcoin vs Gold, Bitcoin vs Cash
+   - **saving** (3 cards, new section, color `#F5A9B8` soft pink): Bitcoin vs CBDCs, Bitcoin vs Bonds, Bitcoin vs Crypto
+   - New pill `saving` added in row 1 between `money` and `freedom` (so money-saving-salary form a logical group).
+   - New i18n key `home_btn_saving = "saving"` added.
+   - New `.home-pill.saving` / `span.saving` / `.saving` color class in `css/style.css` (`color: #F5A9B8 !important`).
+   - Added `.home-pill.saving` to the border-inheritance list so the border matches the text color.
+
+### Files changed
+- `jquery/home-carousel.js` — rewritten as RAF-driven infinite scroll
+- `css/style.css`
+  - Removed `@keyframes home-carousel-scroll-left/right` + `animation` rules + `:hover`/`is-dragging`/`is-paused` pause rules
+  - Added `.whats-next-grid > a.whats-next-card:only-child { grid-column: 1 / -1 }`
+  - Added `.saving` color class (soft pink `#F5A9B8`)
+  - Added `.home-pill.saving` to the `border-color: currentColor` list
+- `index.html`
+  - Row 1 carousel reordered (first set + duplicate set)
+  - Added `saving` pill to row 1 in both sets
+  - Money section trimmed to 4 cards
+  - New Saving section with 3 cards (CBDCs, Bonds, Crypto) inserted between money and salary
+  - Energy section trimmed to 4 cards
+  - CSS + JS cache-buster bumped to `v=1.4.0`
+  - WebPage JSON-LD `dateModified` bumped to 2026-04-17
+  - Updated carousel HTML comment to reflect the new JS-driven loop mechanism
+- `i18n/en/index_en.json`
+  - Added `home_btn_saving = "saving"` (inserted right after `home_btn_money`)
+  - Removed 5 unused energy keys
+  - `@metadata.last-updated` bumped to 2026-04-17
+- `scripts/update-index-i18n-for-saving.js` — one-shot helper script (ran once, can be deleted but left in place for reference)
+- `scripts/inject-seo-content.js` ran clean (0 changes — HTML was already in sync)
+- `memory-bank/activeContext.md` + `progress.md` updated
+
+### i18n note
+Only `i18n/en/index_en.json` was modified. Translation files for the other 54 languages retain their existing keys and will gracefully fall back to English for `home_btn_saving` until translators provide their own translations. This matches the established pattern for adding new homepage strings (see Homepage v2 Redesign — Apr 16 for precedent). The removed energy keys are orphaned in other language files but cause no functional issue.
+
+---
+
 ## Latest: Homepage (v2) Redesign — April 16, 2026 (pt. 3)
 - **Rebuilt the entire homepage (`/`)** to match the new `/inflation` page design system. This is the second page to use the new visual language (after `/inflation`) and establishes the pattern other pages will gradually migrate to.
 - **Hero**: now uses a centered Proxima Nova Bold orange H1 (`.h1-inflation`) + grey `.inflation-intro` paragraph — same typography and sizes as `/inflation`. Replaced the old image-logo + `.home-h1`/`.home-intro` layout.

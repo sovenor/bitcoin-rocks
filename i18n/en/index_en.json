@@ -3,20 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-16",
+		"last-updated": "2026-04-17",
 		"locale": "en"
 	},
 	"bitcoin_builds_a_better_world": "Bitcoin builds a better world.",
 	"home_description": "Bitcoin is better money that is building a better world. Bitcoin has protected human rights, saved people from high inflation, supported local farmers, reduced emissions from oil drilling, and so much more.",
-
 	"home_nav_learn": "Learn",
 	"home_nav_get_involved": "Get Involved",
 	"home_nav_about": "About",
-
 	"home_h1": "Bitcoin is better money that is building a better world.",
 	"home_intro": "Tap on a category below to learn how Bitcoin makes it better, or just start scrolling to explore.",
-
 	"home_btn_money": "money",
+	"home_btn_saving": "saving",
 	"home_btn_salary": "your salary",
 	"home_btn_freedom": "freedom",
 	"home_btn_human_rights": "human rights",
@@ -36,11 +34,8 @@
 	"home_btn_payments": "payments",
 	"home_btn_self_custody": "self-custody",
 	"home_btn_you": "you",
-
 	"home_section_bitcoin_and": "Bitcoin &",
-
 	"home_source_prefix": "Source:",
-
 	"home_card_label_inflation": "Bitcoin is better money",
 	"home_card_label_bank_runs": "Full reserve system",
 	"home_card_label_gold": "Which is better?",
@@ -48,78 +43,56 @@
 	"home_card_label_cash": "Which is better?",
 	"home_card_label_bonds": "Which is better?",
 	"home_card_label_cbdc": "Which is better?",
-
 	"home_card_label_salary": "Protect your salary",
-
 	"home_card_label_freedom_1": "Authoritarian regimes",
 	"home_card_label_freedom_2": "Political repression",
-
 	"home_card_label_human_rights_1": "Human rights enforcement",
 	"home_card_label_human_rights_2": "Grassroots adoption",
 	"home_card_label_human_rights_3": "Global impact",
-
 	"home_card_label_equality_1": "Hope & opportunity",
 	"home_card_label_equality_2": "A game changer",
-
 	"home_card_label_property_rights_1": "Which is better?",
 	"home_card_label_property_rights_2": "True ownership",
-
 	"home_card_label_housing_1": "Affordable housing",
-
 	"home_card_label_business_1": "Which is better?",
 	"home_card_label_business_2": "Accept Bitcoin",
 	"home_card_label_business_3": "Local business kit",
-
 	"home_card_label_crowdfunding_1": "EndSARS protests",
 	"home_card_label_crowdfunding_2": "Alternative to GoFundMe",
 	"home_card_label_crowdfunding_3": "Fund your project",
-
 	"home_card_label_energy_1": "Grid stabilization",
-	"home_card_label_energy_2": "Why energy?",
-	"home_card_label_energy_3": "Not a problem",
 	"home_card_label_energy_4": "Demand response",
 	"home_card_label_energy_5": "Rural electrification",
 	"home_card_label_energy_6": "Renewable incentives",
-
 	"home_card_label_environment_1": "Methane reduction",
 	"home_card_label_environment_2": "Saved a national park",
 	"home_card_label_environment_3": "Greenest industry",
 	"home_card_label_environment_4": "Reduces flared gas",
-
 	"home_card_label_food_1": "Food prices",
 	"home_card_label_food_2": "Farms & soil",
-
 	"home_card_label_art_1": "Which is better?",
 	"home_card_label_art_2": "Print flyers",
 	"home_card_label_art_3": "Street art",
-
 	"home_card_label_politics_1": "Political paradox",
 	"home_card_label_politics_2": "Vote for better money",
-
 	"home_card_label_war_1": "End endless war",
 	"home_card_label_war_2": "Natural alignment",
 	"home_card_label_war_3": "Wartime escape",
-
 	"home_card_label_coding_1": "Interactive tutorial",
 	"home_card_label_coding_2": "Build hardware",
 	"home_card_label_coding_3": "Coding puzzles",
-
 	"home_card_label_networks_1": "Live network view",
 	"home_card_label_networks_2": "Which is better?",
-
 	"home_card_label_payments_1": "Which is better?",
 	"home_card_label_payments_2": "Lightning Network",
 	"home_card_label_payments_3": "Remittances",
 	"home_card_label_payments_4": "Receive payments",
-
 	"home_card_label_self_custody_1": "Store your Bitcoin",
 	"home_card_label_self_custody_2": "Leave exchanges",
 	"home_card_label_self_custody_3": "Sovereign money",
-
 	"home_card_label_get_started_1": "Beginner basics",
 	"home_card_label_get_started_2": "Your first wallet",
 	"home_card_label_get_started_3": "Buy Bitcoin",
-
 	"home_link_title_inflation": "Bitcoin doesn't have inflation",
 	"home_link_title_bank_runs": "Bitcoin doesn't have bank runs",
 	"home_link_title_gold": "Bitcoin vs Gold: a comparison",
@@ -145,8 +118,6 @@
 	"home_link_title_crowdfunding_2": "Canadian trucker protest raises money in Bitcoin after GoFundMe blocks donations",
 	"home_link_title_crowdfunding_3": "Geyser: crowdfund with Bitcoin",
 	"home_link_title_energy_1": "How Bitcoin stabilizes the Texas power grid",
-	"home_link_title_energy_2": "Why does Bitcoin use energy?",
-	"home_link_title_energy_3": "Bitcoin's energy usage isn't a problem. Here's why.",
 	"home_link_title_energy_4": "Bitcoin mining is stabilizing energy grids through demand response",
 	"home_link_title_energy_5": "Bitcoin miners are bringing hydro power to rural African communities",
 	"home_link_title_energy_6": "How Bitcoin incentivizes renewable energy",
@@ -189,7 +160,6 @@
 	"home_link_author_quartz": "Quartz",
 	"home_link_author_yahoo_finance": "Yahoo Finance",
 	"home_link_author_geyser": "Geyser",
-	"home_link_author_bitcoin_uses_energy": "BitcoinUses.Energy",
 	"home_link_author_lyn_alden": "Lyn Alden",
 	"home_link_author_forbes": "Forbes",
 	"home_link_author_coindesk": "CoinDesk",

@@ -40,10 +40,10 @@
         <script src="jquery/jquery.i18n/src/jquery.i18n.parser.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.emitter.js"></script>
         <script src="jquery/jquery.i18n/src/jquery.i18n.language.js"></script>
-        <script src="jquery/language.js?v=1.3.0"></script>
+        <script src="jquery/language.js?v=1.4.0"></script>
 
         <!-- Homepage carousel (drag-to-scroll + smooth anchor scroll) -->
-        <script src="jquery/home-carousel.js?v=1.3.0"></script>
+        <script src="jquery/home-carousel.js?v=1.4.0"></script>
 
         <!-- Favicons for all devices -->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -68,7 +68,7 @@
         <meta name="msapplication-square310x310logo" content="img/favicons/mstile-310x310.png" />
 
         <!-- Main stylesheet + typekit for fonts -->
-        <link id="style-link" rel="stylesheet" href="css/style.css?v=1.3.0">
+        <link id="style-link" rel="stylesheet" href="css/style.css?v=1.4.0">
         <link rel="stylesheet" href="https://use.typekit.net/ful2oqu.css">
 
     
@@ -172,7 +172,7 @@
                     }
               },
               "datePublished": "2022-01-01",
-              "dateModified": "2026-04-16",
+              "dateModified": "2026-04-17",
               "inLanguage": "en",
               "image": "https://bitcoin.rocks/img/meta/meta-home-v4.png"
         }
@@ -203,10 +203,18 @@
             </div><!--/home-hero-->
 
             <!-- ═══ CATEGORY CAROUSELS (two rows, opposite directions, infinite loop) ═══
-                 Pills are duplicated inline (twice) so the CSS @keyframes animation
-                 can loop seamlessly: we translateX(-50%) over 120s and the second
-                 half re-enters from the right, producing an endless marquee.
-                 Row 1 scrolls left; Row 2 scrolls right with a -50% starting offset.
+                 Pills are duplicated inline (twice) so jquery/home-carousel.js can
+                 wrap `scrollLeft` by half the track width at each boundary,
+                 producing a seamless infinite loop that also works for drag.
+                 Row 1 scrolls left; Row 2 scrolls right.
+
+                 Row 1 order rationale (as of April 2026):
+                   - `energy` (bright green) sits mid-row between property-rights
+                     (pink) and housing (brown) so it never touches `money`.
+                   - `money` (green) starts the row; `salary` (blue) ends the row,
+                     so the infinite-loop seam goes blue→green — clean contrast.
+                   - `saving` (pink) sits immediately after `money` so the
+                     money-saving-salary cluster reads as a group.
             -->
             <div class="home-carousel-wrap">
 
@@ -214,26 +222,28 @@
                     <div class="home-carousel-track">
                         <!-- First set -->
                         <a href="#money" class="home-pill money" data-i18n="home_btn_money">money</a>
-                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary">your salary</a>
+                        <a href="#saving" class="home-pill saving" data-i18n="home_btn_saving">saving</a>
                         <a href="#freedom" class="home-pill freedom" data-i18n="home_btn_freedom">freedom</a>
                         <a href="#human-rights" class="home-pill human-rights" data-i18n="home_btn_human_rights">human rights</a>
                         <a href="#equality" class="home-pill equality" data-i18n="home_btn_equality">equality</a>
                         <a href="#property-rights" class="home-pill property-rights" data-i18n="home_btn_property_rights">property rights</a>
+                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy">energy</a>
                         <a href="#housing" class="home-pill housing" data-i18n="home_btn_housing">housing</a>
                         <a href="#business" class="home-pill business" data-i18n="home_btn_business">business</a>
                         <a href="#crowdfunding" class="home-pill crowdfunding" data-i18n="home_btn_crowdfunding">crowdfunding</a>
-                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy">energy</a>
+                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary">your salary</a>
                         <!-- Duplicate set (required for seamless infinite loop) -->
                         <a href="#money" class="home-pill money" data-i18n="home_btn_money" aria-hidden="true" tabindex="-1">money</a>
-                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary" aria-hidden="true" tabindex="-1">your salary</a>
+                        <a href="#saving" class="home-pill saving" data-i18n="home_btn_saving" aria-hidden="true" tabindex="-1">saving</a>
                         <a href="#freedom" class="home-pill freedom" data-i18n="home_btn_freedom" aria-hidden="true" tabindex="-1">freedom</a>
                         <a href="#human-rights" class="home-pill human-rights" data-i18n="home_btn_human_rights" aria-hidden="true" tabindex="-1">human rights</a>
                         <a href="#equality" class="home-pill equality" data-i18n="home_btn_equality" aria-hidden="true" tabindex="-1">equality</a>
                         <a href="#property-rights" class="home-pill property-rights" data-i18n="home_btn_property_rights" aria-hidden="true" tabindex="-1">property rights</a>
+                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy" aria-hidden="true" tabindex="-1">energy</a>
                         <a href="#housing" class="home-pill housing" data-i18n="home_btn_housing" aria-hidden="true" tabindex="-1">housing</a>
                         <a href="#business" class="home-pill business" data-i18n="home_btn_business" aria-hidden="true" tabindex="-1">business</a>
                         <a href="#crowdfunding" class="home-pill crowdfunding" data-i18n="home_btn_crowdfunding" aria-hidden="true" tabindex="-1">crowdfunding</a>
-                        <a href="#energy" class="home-pill energy" data-i18n="home_btn_energy" aria-hidden="true" tabindex="-1">energy</a>
+                        <a href="#salary" class="home-pill salary" data-i18n="home_btn_salary" aria-hidden="true" tabindex="-1">your salary</a>
                     </div>
                 </div>
 
@@ -303,20 +313,6 @@
                             </div>
                             <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
                         </a>
-                        <a href="https://bitcoin.rocks/bitcoin-vs-cbdc" class="whats-next-card">
-                            <div>
-                                <div class="whats-next-card-label" data-i18n="home_card_label_cbdc">Which is better?</div>
-                                <div class="whats-next-card-title" data-i18n="home_link_title_cbdc">Bitcoin vs CBDCs: a comparison</div>
-                            </div>
-                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
-                        </a>
-                        <a href="https://bitcoin.rocks/bitcoin-vs-crypto" class="whats-next-card">
-                            <div>
-                                <div class="whats-next-card-label" data-i18n="home_card_label_crypto">Which is better?</div>
-                                <div class="whats-next-card-title" data-i18n="home_link_title_crypto">Bitcoin vs Crypto: a comparison</div>
-                            </div>
-                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
-                        </a>
                         <a href="https://bitcoin.rocks/bitcoin-vs-cash" class="whats-next-card">
                             <div>
                                 <div class="whats-next-card-label" data-i18n="home_card_label_cash">Which is better?</div>
@@ -324,10 +320,35 @@
                             </div>
                             <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
                         </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ SAVING ═══ -->
+            <section class="whats-next-section category-section" id="saving" style="--card-accent: #F5A9B8;">
+                <div class="container-inner">
+                    <div class="whats-next-header">
+                        <h2><span data-i18n="home_section_bitcoin_and">Bitcoin &amp;</span> <span class="accent" data-i18n="home_btn_saving">saving</span></h2>
+                    </div>
+                    <div class="whats-next-grid">
+                        <a href="https://bitcoin.rocks/bitcoin-vs-cbdc" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_cbdc">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_cbdc">Bitcoin vs CBDCs: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
                         <a href="https://bitcoin.rocks/bitcoin-vs-bonds" class="whats-next-card">
                             <div>
                                 <div class="whats-next-card-label" data-i18n="home_card_label_bonds">Which is better?</div>
                                 <div class="whats-next-card-title" data-i18n="home_link_title_bonds">Bitcoin vs Bonds: a comparison</div>
+                            </div>
+                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
+                        </a>
+                        <a href="https://bitcoin.rocks/bitcoin-vs-crypto" class="whats-next-card">
+                            <div>
+                                <div class="whats-next-card-label" data-i18n="home_card_label_crypto">Which is better?</div>
+                                <div class="whats-next-card-title" data-i18n="home_link_title_crypto">Bitcoin vs Crypto: a comparison</div>
                             </div>
                             <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_rocks">bitcoin.rocks</span> →</div>
                         </a>
@@ -555,20 +576,6 @@
                                 <div class="whats-next-card-title" data-i18n="home_link_title_energy_1">How Bitcoin stabilizes the Texas power grid</div>
                             </div>
                             <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_youtube">YouTube</span> →</div>
-                        </a>
-                        <a href="https://bitcoinuses.energy/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
-                            <div>
-                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_2">Why energy?</div>
-                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_2">Why does Bitcoin use energy?</div>
-                            </div>
-                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_bitcoin_uses_energy">BitcoinUses.Energy</span> →</div>
-                        </a>
-                        <a href="https://www.lynalden.com/bitcoin-energy/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
-                            <div>
-                                <div class="whats-next-card-label" data-i18n="home_card_label_energy_3">Not a problem</div>
-                                <div class="whats-next-card-title" data-i18n="home_link_title_energy_3">Bitcoin's energy usage isn't a problem. Here's why.</div>
-                            </div>
-                            <div class="whats-next-card-source"><span data-i18n="home_source_prefix">Source:</span> <span data-i18n="home_link_author_lyn_alden">Lyn Alden</span> →</div>
                         </a>
                         <a href="https://www.forbes.com/sites/jemmagreen/2023/01/27/why-no-one-saw-the-success-of-demand-response-coming/" target="_blank" rel="noopener noreferrer" class="whats-next-card">
                             <div>
