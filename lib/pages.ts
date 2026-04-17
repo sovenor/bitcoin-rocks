@@ -66,9 +66,10 @@ export const PAGES: readonly PageEntry[] = [
 	},
 
 	// === Phase 7 — Comparison pages + bank-runs ===
-	{ slug: "bitcoin-vs-gold", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-gold", published: false },
-	{ slug: "bitcoin-vs-stocks", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-stocks", published: false },
-	{ slug: "bitcoin-vs-cash", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-cash", published: false },
+	// Phase 7a shipped — these three are live.
+	{ slug: "bitcoin-vs-gold", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-gold", published: true },
+	{ slug: "bitcoin-vs-stocks", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-stocks", published: true },
+	{ slug: "bitcoin-vs-cash", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-cash", published: true },
 	{ slug: "bitcoin-vs-banks", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-banks", published: false },
 	{ slug: "bitcoin-vs-bonds", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-bonds", published: false },
 	{ slug: "bitcoin-vs-real-estate", phase: 7, priority: 0.8, changeFrequency: "monthly", namespace: "bitcoin-vs-real-estate", published: false },

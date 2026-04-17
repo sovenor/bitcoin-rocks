@@ -1,7 +1,7 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 6b complete · Awaiting Phase 7 (Bucket A comparison pages)
-**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header)
+**Status:** Phase 7a complete · Awaiting Phase 7b (4 more Bucket A comparison pages)
+**Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
 ---
@@ -54,7 +54,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 6b done → starting Phase 7 next.
+**Current position pointer:** Phase 7a done → starting Phase 7b next.
 
 ---
 
@@ -239,12 +239,24 @@ All 10 `bitcoin-vs-*` pages + `bank-runs` share the comparison-page shape. Templ
 
 Port **with** V2 redesign applied during port. Create a shared `app/[locale]/bitcoin-vs-[target]/page.tsx` pattern (maybe a dynamic route with a data file, or one page.tsx each — TBD).
 
-### Phase 7a — Shared comparison layout + first 3 pages
-- [ ] Design `components/ComparisonPageLayout.tsx` pattern that works for all
-- [ ] `bitcoin-vs-gold` ← port + V2 redesign
-- [ ] `bitcoin-vs-stocks` ← port + V2 redesign
-- [ ] `bitcoin-vs-cash` ← port + V2 redesign
-- [ ] Commit: "Phase 7a: Comparison layout + first 3 comparisons"
+### Phase 7a — Shared comparison layout + first 3 pages ✅ COMPLETE
+
+- [x] `lib/comparisons/types.ts` — typed `ComparisonPageData` bundle: slug, namespace, meta image, H1 key quartet, asset accent color, intro keys, bitcoin/asset label keys, `ComparisonPointData[]`, sources. Fragments support inline `<a>`-with-localization + external/external-blank flags. Translation strings stay in the existing jquery.i18n JSON files — data files reference them by key only, so translator workflow is unchanged.
+- [x] `lib/comparisons/bitcoin-vs-gold.ts` / `bitcoin-vs-stocks.ts` / `bitcoin-vs-cash.ts` — per-page data bundles mirroring the legacy prose 1:1, preserving every `<a class="orange-link">` link with proper `localize` / `external` flags. Asset accents: gold `#EBC61F`, stocks `#1DFF4D`, cash `#85BB65`.
+- [x] `lib/comparisons/metadata.ts` — shared `buildComparisonMetadata()` helper returning `Metadata` with title, description, OpenGraph article card, Twitter `summary_large_image`, + all 55-locale hreflang alternates. Each page.tsx's `generateMetadata()` is a 2-line wrapper around this.
+- [x] `components/ComparisonPageLayout.tsx` — Server Component (~300 lines). Renders the full V2 comparison page: hero H1 (orange BITCOIN + asset-accent asset word), intro paragraphs, N comparison points (each: two side-by-side chips + multi-paragraph explanation), "What's next?" card grid, Sources ol, publisher attribution + reviewed-badge. Emits Article + BreadcrumbList + ItemList JSON-LD inline. `SummaryFragmentSpan` sub-component handles inline `<a class="body-link">` rendering with locale prefixing for internal links.
+- [x] `app/[locale]/bitcoin-vs-gold/page.tsx`, `bitcoin-vs-stocks/page.tsx`, `bitcoin-vs-cash/page.tsx` — thin 2-function pages. Each imports the data + passes it to `<ComparisonPageLayout>`. ~30 lines per page.
+- [x] `lib/i18n/request.ts` — added `bitcoin-vs-gold` / `bitcoin-vs-stocks` / `bitcoin-vs-cash` namespaces to the default bag so all 3 pages have their translations available (cached per-locale, read-once per build).
+- [x] `lib/pages.ts` — flipped `published: true` for the 3 slugs; sitemap now emits 165 new URLs (55 locales × 3 slugs).
+- [x] `app/globals.css` — appended ~120 lines of V2 comparison CSS (`scripts/append-comparison-css.js` — idempotent Node helper): hero spacing, `.comparison-chips` grid (2-col desktop, stacked mobile), `.comparison-chip` dark-bg-with-border tokens, explanation prose with `.body-link` orange-underlined anchors, `--asset-accent` CSS variable drives the per-page asset-word color + asset-chip label without any per-page CSS overrides.
+- [x] `npm run build` → ✓ compiled 2.2s, TypeScript clean, **279 static pages** (55 locales × 5 routes + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- [x] `npm run start` + `node /tmp/verify-phase7a.js` runtime spot-check confirmed:
+  - `/en/bitcoin-vs-gold` (168 KB), `/en/bitcoin-vs-stocks` (166 KB), `/en/bitcoin-vs-cash` (163 KB), `/ar/bitcoin-vs-gold` (164 KB) all serve 200 with ItemList + Article + BreadcrumbList JSON-LD blocks, `comparison-h1` / `comparison-chip` / `whats-next-card` / `sources-list` / `reviewed-badge` / `body-link` classes all present in source.
+  - `/ar/bitcoin-vs-gold` renders `<html lang="ar" dir="rtl">` correctly.
+  - `/sitemap.xml` contains `/en/bitcoin-vs-gold`, `/en/bitcoin-vs-stocks`, `/en/bitcoin-vs-cash` entries (×55 locales).
+- [x] Commit: "Phase 7a: Comparison layout + bitcoin-vs-gold/stocks/cash"
+
+**Deferred:** the per-currency `body-link` hover color uses orange `#ff9500` → `#ffb84d` — kept separate from the `--asset-accent` token so the "visit this link" affordance always reads as site-wide Bitcoin orange (not the compared-asset accent). The chips are the only places the asset accent surfaces besides the H1; this keeps the visual hierarchy unambiguous.
 
 ### Phase 7b — Next 4 comparison pages
 - [ ] `bitcoin-vs-banks` ← port + V2 redesign

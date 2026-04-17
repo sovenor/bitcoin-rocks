@@ -29,7 +29,19 @@ import { loadMessages } from "./load-messages";
  * middleware + `headers()` pathname detection if bundle size becomes an
  * issue, but at ~1,000 combined keys we're nowhere near that threshold.
  */
-const DEFAULT_NAMESPACES = ["common", "index", "inflation"] as const;
+const DEFAULT_NAMESPACES = [
+	"common",
+	"index",
+	"inflation",
+	// Phase 7a — comparison pages ship here so `ComparisonPageLayout`
+	// can resolve every page's strings from the same translations bag.
+	// Adding unused namespaces is cheap (cached in-memory, read-once per
+	// locale per build) and keeps `<Navbar>` / `<Footer>` strings + the
+	// per-page bundle available side-by-side.
+	"bitcoin-vs-gold",
+	"bitcoin-vs-stocks",
+	"bitcoin-vs-cash",
+] as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {
 	const requested = await requestLocale;

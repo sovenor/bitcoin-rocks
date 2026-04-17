@@ -1,6 +1,75 @@
 # Active Context: bitcoin.rocks
 
-## Latest: Next.js Migration — Phase 6b Inflation stats + calculators + dynamic header — April 17, 2026
+## Latest: Next.js Migration — Phase 7a Comparison layout + first 3 comparison pages — April 17, 2026
+
+Eighth commit of the Next.js migration on `v2-nextjs-redesign`. The first 3 `bitcoin-vs-*` pages (gold, stocks, cash) are now typed React pages built on a shared `<ComparisonPageLayout>` Server Component, with the V2 design system applied during port. `main` is still frozen.
+
+### What Phase 7a delivered
+
+**New infrastructure (`lib/comparisons/`)**
+- **`lib/comparisons/types.ts`** — Typed `ComparisonPageData` bundle: slug, namespace, meta image, H1 key quartet (part1/bitcoin/and/asset), asset accent color, intro keys array, bitcoin/asset label keys, ordered `ComparisonPointData[]`, `ComparisonSource[]`. `SummaryFragment` supports inline `<a>` rendering with a `localize` flag (auto-prefix with current locale) + `external` flag (adds `target="_blank" rel="noopener noreferrer"`). Data references translation strings **by key only** — the existing jquery.i18n JSON files stay the source of truth, so translator workflow is unchanged.
+- **`lib/comparisons/bitcoin-vs-gold.ts`** — Data bundle for gold: 7 comparison points, 4 sources (World Gold Council, Bitnodes, Bitcoin whitepaper, bitcoin source repo), asset accent `#EBC61F`. Every legacy `<a class="orange-link">` preserved with proper `localize`/`external` flags.
+- **`lib/comparisons/bitcoin-vs-stocks.ts`** — Data bundle for stocks: 7 comparison points, 3 sources (Bitcoin whitepaper, source repo, SEC stock dilution release), asset accent `#1DFF4D`.
+- **`lib/comparisons/bitcoin-vs-cash.ts`** — Data bundle for cash: 7 comparison points, 3 sources (RBI 2016 demonetization notice, Bitcoin whitepaper, source repo), asset accent `#85BB65`.
+- **`lib/comparisons/metadata.ts`** — Shared `buildComparisonMetadata(data, locale)` returning `Metadata`: title, description, OpenGraph article card, Twitter `summary_large_image`, + all 55-locale hreflang alternates. Each page.tsx's `generateMetadata()` is a 2-line wrapper.
+
+**New component**
+- **`components/ComparisonPageLayout.tsx`** — Server Component (~300 lines). Renders the full V2 comparison page: hero H1 (orange BITCOIN + asset-accent-colored asset word), intro paragraphs, N comparison points (each: two side-by-side chips + multi-paragraph explanation), "What's next?" card grid (4 cards), Sources `<ol>`, publisher attribution + reviewed-badge. Emits Article + BreadcrumbList + ItemList JSON-LD inline via `<JsonLd>`. Two sub-components: `ComparisonPointSection` (chips + explanation) and `SummaryFragmentSpan` (inline `<a class="body-link">` rendering with locale prefixing + external link handling). Uses `dangerouslySetInnerHTML` on fragment text to preserve any inline `<a>` markup legacy translators embedded in prose strings (trusted repo-shipped content — safe).
+
+**New pages (3)**
+- **`app/[locale]/bitcoin-vs-gold/page.tsx`**, **`bitcoin-vs-stocks/page.tsx`**, **`bitcoin-vs-cash/page.tsx`** — Each is a 2-function ~30-line page: `generateMetadata()` delegates to `buildComparisonMetadata`, default export passes the data bundle to `<ComparisonPageLayout>`. Zero duplication.
+
+**Files modified**
+- **`lib/i18n/request.ts`** — Added `bitcoin-vs-gold` / `bitcoin-vs-stocks` / `bitcoin-vs-cash` to `DEFAULT_NAMESPACES`. In-memory namespace cache means adding unused namespaces costs ~0 (read-once per locale per build).
+- **`lib/pages.ts`** — Flipped `published: true` for the 3 slugs so they enter the sitemap.
+- **`app/globals.css`** — Appended ~120 lines of V2 comparison CSS via `scripts/append-comparison-css.js` (idempotent Node helper that detects a sentinel marker and no-ops on a second run). Hero spacing, `.comparison-chips` grid (2-col desktop, 1-col mobile), `.comparison-chip` dark-bg-with-border tokens, `.comparison-explain` prose, `.body-link` orange-underlined anchors, `--asset-accent` CSS variable (set per-page on the `.container-main` wrapper) drives H1 asset-word color + asset-chip label without any per-page CSS overrides.
+
+### Build + verification
+- `npm run build` → ✓ compiled 2.2s, TypeScript clean, **279 static pages** (55 locales × 5 routes [homepage + inflation + 3 comparisons] + /robots.txt + /sitemap.xml + /_not-found + middleware proxy).
+- Runtime spot-check via `/tmp/verify-phase7a.js` (Node `http.get` — avoids shell-escape issues on long commands): all 4 sampled URLs serve 200 with every expected DOM marker:
+  - `/en/bitcoin-vs-gold` (168 KB), `/en/bitcoin-vs-stocks` (166 KB), `/en/bitcoin-vs-cash` (163 KB), `/ar/bitcoin-vs-gold` (164 KB)
+  - `"ItemList"` + `"Article"` + `"BreadcrumbList"` JSON-LD ✓
+  - `comparison-h1`, `comparison-chip`, `whats-next-card`, `sources-list`, `reviewed-badge`, `body-link` classes ✓
+- RTL: `/ar/bitcoin-vs-gold` → `<html lang="ar" dir="rtl">` ✓
+- `/sitemap.xml` contains `/en/bitcoin-vs-gold`, `/en/bitcoin-vs-stocks`, `/en/bitcoin-vs-cash` (×55 locales) ✓
+
+### Decisions locked in
+- **Data-driven comparison pages.** The port was tempting to do as 3 independent page.tsx trees, but they share >95% of structure. Splitting data (`lib/comparisons/*.ts`) from rendering (`components/ComparisonPageLayout.tsx`) means Phase 7b/7c become trivial: one data file + one 30-line page.tsx each, no layout work.
+- **Translation keys stay in JSON, not in TS data files.** Data files reference strings by key; translators keep editing the same jquery.i18n JSON files they always have. The `ComparisonPageLayout` calls `getTranslations()` and resolves each key at render time. Zero translator workflow disruption.
+- **`--asset-accent` CSS variable at the page level** instead of per-comparison stylesheet overrides. Each page sets the variable once on its `.container-main`; the `.comparison-h1 .asset` and `.comparison-chip-asset .comparison-chip-label` rules in globals.css both read from it. Adding the remaining 8 comparison pages only requires setting a different hex in the data file — no new CSS.
+- **`dangerouslySetInnerHTML` on fragment text.** Some legacy translation strings (e.g. `point_3_summary_1` in cash) already contain inline `<a>` markup that translators copied in. Rendering as HTML preserves those exactly. All strings come from the trusted repo-shipped JSON files, so no XSS surface. Links rendered by the fragment's own `href`/`localize` config are separate and type-safe.
+- **Body-link hover stays orange** (`#ff9500` → `#ffb84d`) — not the asset accent. The asset-accent color only surfaces on the H1 asset word + the asset chip's label. Keeping inline links always-orange preserves the visual hierarchy (the asset accent is identity; the link affordance is site-wide Bitcoin orange).
+- **Reused `components/WhatsNextCard`** from Phase 5 for the "What's next?" grid. The inflation page, homepage, and now every comparison page all render the same card component — component reuse is already paying off.
+
+### Intentionally left alone
+- `bitcoin-vs-{gold,stocks,cash}.html` at repo root — still shipped by the static site on `main`. Phase 14 deletes them.
+- Other 7 comparison pages + bank-runs — Phase 7b/7c will port them using the same `ComparisonPageLayout` + per-page data file pattern.
+- `main` at `origin/main` (`6cb07406`) — frozen through Phase 15 cutover.
+
+### Files created/changed in Phase 7a
+```
+lib/comparisons/types.ts                            (NEW — ~115 lines of types)
+lib/comparisons/bitcoin-vs-gold.ts                  (NEW — data bundle)
+lib/comparisons/bitcoin-vs-stocks.ts                (NEW — data bundle)
+lib/comparisons/bitcoin-vs-cash.ts                  (NEW — data bundle)
+lib/comparisons/metadata.ts                         (NEW — shared metadata helper)
+components/ComparisonPageLayout.tsx                 (NEW — Server, ~300 lines)
+app/[locale]/bitcoin-vs-gold/page.tsx               (NEW — ~30 lines)
+app/[locale]/bitcoin-vs-stocks/page.tsx             (NEW — ~30 lines)
+app/[locale]/bitcoin-vs-cash/page.tsx               (NEW — ~30 lines)
+scripts/append-comparison-css.js                    (NEW — idempotent CSS appender)
+lib/i18n/request.ts                                 (add 3 comparison namespaces)
+lib/pages.ts                                        (flip 3 comparisons to published: true)
+app/globals.css                                     (+~120 lines of Phase 7a CSS)
+MIGRATION-NEXTJS.md                                 (Phase 7a marked complete; position pointer → Phase 7b)
+```
+
+### Next up: Phase 7b — 4 more comparison pages
+Port `bitcoin-vs-banks`, `bitcoin-vs-bonds`, `bitcoin-vs-real-estate`, `bitcoin-vs-crypto` using the same pattern: one data file in `lib/comparisons/` + one thin page.tsx. No layout changes needed — the only CSS decision is the `assetAccentColor` hex per page. See `MIGRATION-NEXTJS.md` Phase 7b for the full checklist.
+
+---
+
+## Previous: Next.js Migration — Phase 6b Inflation stats + calculators + dynamic header — April 17, 2026
 
 Seventh commit of the Next.js migration on `v2-nextjs-redesign`. The four remaining jQuery scripts that made the inflation page interactive (`inflation-stats.js`, `compound-inflation-calculator.js`, `compound-inflation-calculator-solo.js`, `dynamic-header.js`) are now TypeScript Client Components. `/en/inflation` renders with live stat-card population + URL-param-driven H1 swap, all hydration contained to the 3 small Client Components that actually need browser APIs. `main` is still frozen.
 

@@ -1,5 +1,30 @@
 # Progress: bitcoin.rocks
 
+## Next.js Migration — Phase 7a Comparison layout + first 3 comparison pages — April 17, 2026
+
+Eighth commit of the Next.js migration on `v2-nextjs-redesign`. The first 3 `bitcoin-vs-*` pages (gold, stocks, cash) are now server-rendered React pages built on a shared `<ComparisonPageLayout>` component, with the V2 design system applied during port. The data-driven architecture means Phase 7b/7c pages are now trivial to add — one data file + one thin page.tsx each. `main` is still frozen.
+
+**Files created**
+- `lib/comparisons/types.ts` — Typed `ComparisonPageData` bundle: slug, namespace, meta image, H1 key quartet, asset accent color, intro keys, bitcoin/asset label keys, `ComparisonPointData[]`, `ComparisonSource[]`. `SummaryFragment` supports inline `<a>` with `localize` (auto-prefix current locale) + `external` (adds `target="_blank"`) flags. Translation strings referenced **by key only** — existing jquery.i18n JSON files stay source of truth.
+- `lib/comparisons/bitcoin-vs-gold.ts` / `bitcoin-vs-stocks.ts` / `bitcoin-vs-cash.ts` — Per-page data bundles mirroring legacy prose 1:1. Asset accents: gold `#EBC61F`, stocks `#1DFF4D`, cash `#85BB65`. Every legacy `<a class="orange-link">` preserved with proper flags.
+- `lib/comparisons/metadata.ts` — Shared `buildComparisonMetadata(data, locale)` returning `Metadata` with title, description, OpenGraph article card, Twitter `summary_large_image`, + all 55-locale hreflang alternates.
+- `components/ComparisonPageLayout.tsx` — Server Component, ~300 lines. Renders full V2 comparison page: hero H1 (orange BITCOIN + asset-accent asset word) + intro + N comparison points (chips + explanation) + "What's next?" grid + Sources `<ol>` + publisher attribution. Emits Article + BreadcrumbList + ItemList JSON-LD inline. `SummaryFragmentSpan` sub-component handles inline link rendering with locale prefixing + `dangerouslySetInnerHTML` to preserve any inline `<a>` markup legacy translators embedded in strings.
+- `app/[locale]/bitcoin-vs-gold/page.tsx` / `bitcoin-vs-stocks/page.tsx` / `bitcoin-vs-cash/page.tsx` — 2-function ~30-line pages. `generateMetadata()` delegates to `buildComparisonMetadata`; default export passes data bundle to `<ComparisonPageLayout>`.
+- `scripts/append-comparison-css.js` — Idempotent Node helper that appends ~120 lines of Phase 7a CSS to `app/globals.css` (hero, chip grid, `.body-link` anchors, `--asset-accent` CSS variable cascade).
+
+**Files modified**
+- `lib/i18n/request.ts` — Added `bitcoin-vs-gold` / `bitcoin-vs-stocks` / `bitcoin-vs-cash` to `DEFAULT_NAMESPACES`. In-memory cache keeps per-request overhead near-zero.
+- `lib/pages.ts` — Flipped `published: true` for the 3 comparison slugs; sitemap now emits 165 new URLs (55 locales × 3).
+- `app/globals.css` — +~120 lines of Phase 7a V2 CSS via the append script.
+
+**Verification**
+- `npm run build` → ✓ compiled 2.2s, TypeScript clean, **279 static pages** (55 locales × 5 routes + system routes).
+- Runtime via `/tmp/verify-phase7a.js` (Node `http.get`): all 4 sampled URLs serve 200 with every expected DOM marker (`"ItemList"`, `"Article"`, `"BreadcrumbList"` JSON-LD; `comparison-h1`, `comparison-chip`, `whats-next-card`, `sources-list`, `reviewed-badge`, `body-link` classes). `/ar/bitcoin-vs-gold` renders `<html dir="rtl">` correctly. `/sitemap.xml` contains all 165 new comparison URLs.
+
+**Next up:** Phase 7b — port `bitcoin-vs-banks` / `bitcoin-vs-bonds` / `bitcoin-vs-real-estate` / `bitcoin-vs-crypto` using the same data-driven pattern.
+
+---
+
 ## Next.js Migration — Phase 6b Inflation stats + calculators + dynamic header — April 17, 2026
 
 Seventh commit of the Next.js migration on `v2-nextjs-redesign`. The four remaining jQuery scripts that made the inflation page interactive (`inflation-stats.js`, `compound-inflation-calculator.js`, `compound-inflation-calculator-solo.js`, `dynamic-header.js`) are now typed TypeScript Client Components. `/en/inflation` renders with live stat-card population + URL-param-driven H1 swap, all hydration contained to tiny side-effect components. `main` is still frozen.
