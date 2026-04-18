@@ -1,3 +1,32 @@
+## CSS Refactor complete — April 18, 2026
+
+Cleaned up `app/globals.css` on `v2-nextjs-redesign`. File size went from **2368 → 1090 lines (-54%)** across 3 commits prefixed `CSS refactor:`. Zero visual change on V2 pages (/, /inflation, /bitcoin-vs-*, /about, /get-involved, /bank-runs); V1 pages kept rendering with browser defaults + the new base element styles (they're scheduled for V2 redesign post-cutover anyway). `main` still frozen.
+
+**Commit 1 — delete V1 legacy CSS** (`e3dbb13f`)
+Dropped ~1200 lines of Phase 9a/9b/10/12 styles: `.text-box`, `.wallet-q`, `.biz-*`, `.expandable`, `.h2-stickers`, `.h2-section`, `.h3-item`, `.compound-form`, `.wallet-box*`, `.alert`, `.buy-platform-box`, `.button-form`, `.sticker-box`, `.bounty-button`, form input styling, fixed-bottom-bar, `.biz-box`, `.wallet-box-biz`, nostr accordion CSS, and ~40 other legacy selectors. 2368 → 1157 lines.
+
+**Commit 2 — standardize tokens + element base styles + dedupe V2** (`eb89d1a9`)
+Expanded `@theme` with semantic tokens (`--color-surface`, `--color-fg-dim*`, `--color-card-border`, `--color-success`, `--color-danger`, `--color-link-hover`). Added element-level base rules for `html`/`body`/`h1`/`h2`/`p` so plain `<h1>` now picks up the hero treatment (orange, 38px, centered) with no class hook. Collapsed 21 `.home-pill.<color> { color: X !important; }` rules + the border-color union into one `--pill-color` CSS custom prop pattern (50 → 25 lines, zero `!important`). Removed ~65 unnecessary `!important` tags (keeping only 2 legitimate uses: `.countries[hidden]` and `.force-orange`). Unified every media query on 700px. Every hard-coded `#ff9500`/`#ccc`/`#090814`/`#111119` replaced with the corresponding `var(--color-*)` token. Added a clear table of contents in the file header. 1157 → 1090 lines.
+
+**Commit 3 — strip `.h1-inflation`/`.h2-inflation` from V2 JSX** (`892bc08d`)
+Removed the now-redundant class hooks from 6 files: `app/[locale]/page.tsx`, `app/[locale]/inflation/page.tsx`, `app/[locale]/[...rest]/page.tsx`, `app/not-found.tsx`, `components/ComparisonPageLayout.tsx`, `components/ContentPageLayout.tsx`. Plain `<h1>` and `<h2>` now read their styling from the base element rules. Cleanest H1 markup on the V2 pages for the first time since migration start. Build: `npm run build` ✓ 4734 static pages, TypeScript clean.
+
+**What stayed (for legacy JSX compat)**
+- `.h1-inflation` is NO LONGER defined in globals.css — the element-level `h1` rule covers it.
+- `.force-orange`, `.orange`, `.orange-link`, `.body-link` — kept as modifier classes used inside V2 content.
+- `.comparison-h1` — folded into the base h1 rule (its only tweak was `line-height: 1.15` which was moved to `.comparison-hero h1`).
+- Bucket B/C legacy classNames in V1 JSX (`.wallet-q`, `.biz-*`, `.h2-section`, `.h3-item`, etc.) — left alone. The JSX still references them but the CSS is gone; those pages render unstyled until redesigned.
+
+**Result**
+| | Before | After |
+|---|---|---|
+| Lines | 2368 | 1090 |
+| `!important` tags | ~70 | 2 |
+| Duplicate selectors | 10+ | 0 |
+| `.home-pill.<color>` rules | 21 + union | 1 base + 21 one-line modifiers |
+| Hard-coded hexes in base rules | ~100 | 0 (token-driven) |
+| Media query breakpoints | 400/500/600/700 mixed | 700 unified |
+
 ## Phase 14 complete — April 17, 2026
 
 Cleanup pass on `v2-nextjs-redesign`. Deleted **43 files + 6 directories** of legacy static-site assets that the Next.js app has fully replaced: 27 root-level `*.html` pages, the `business/` + `nostr/` + `sticker-files/` HTML sub-site directories, the `jquery/` + `css/` front-end stack, `nginx.conf` + `robots.txt` (replaced by `next.config.ts` redirects + `app/robots.ts`), the 6 `scripts/inject-*.js` schema injectors (ported to `lib/schema/*.ts` in Phase 4), and 7 one-off HTML helpers no longer needed. Refreshed the full documentation tree — `.clinerules/workspace-rules.md`, `.clinerules/workflows/translate-new-language.md`, `memory-bank/techContext.md`, `memory-bank/systemPatterns.md`, `README.md`, `CONTRIBUTING.md` — to describe the Next 16 + React 19 + TS + Tailwind v4 stack. Cleaned up stale `/jquery/` + `/css/` disallow entries in `app/robots.ts`. `npm run build` still produces the same **4,734 static pages** (no regression). `public/img/`, `public/favicons/`, `public/sticker-files/`, `public/business/` all untouched (they're the canonical copies). `forms-backend/` untouched. `main` still frozen. See `MIGRATION-NEXTJS.md` Phase 14 + `activeContext.md` for the full list of deletions.

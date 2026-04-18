@@ -49,10 +49,10 @@ As of April 2026 the site runs on **Next.js 16 + React 19 + TypeScript + Tailwin
 The V2 redesign is the current system. New pages should use these classes. Some Bucket B/C pages (`/wallets`, `/lightning`, `/flyers`, business/*, nostr/*, sticker-files/*, form pages) were faithfully ported in V1 style; those get a V2 redesign post-cutover.
 
 - **Navigation:** `<Navbar>` component — logo-on-top-of-pill nav bar (Learn / Get Involved / About / Language)
-- **Hero H1:** `.h1-inflation` — Proxima Nova Bold, 38px desktop / 28px mobile, orange `#FF9500`, sentence case
-- **Intro paragraph:** `.inflation-intro` — 24px desktop / 20px mobile, white, centered
-- **Section H2:** `.inflation-section h2` or `.category-section h2` — Proxima Nova Bold, 28-32px, sentence case
-- **Body text:** Proxima Nova 400, 16-18px, `#ccc` color
+- **Hero H1:** plain `<h1>` — styled by the element-level rule in `app/globals.css`. Proxima Nova Bold, 38px desktop / 28px mobile, `var(--color-bitcoin-orange)`, sentence case. No class hook needed.
+- **Intro paragraph:** plain `<p>` inside `.home-hero` or `.inflation-intro` on the inflation page. 24px desktop / 20px mobile, `#f0f0f0`, centered.
+- **Section H2:** plain `<h2>` — styled by the element-level rule (Proxima Nova 800, 28px desktop / 22px mobile, white, left-aligned). Category grid overrides to 32px via `.category-section h2`.
+- **Body text:** Proxima Nova 400, 16-18px, `var(--color-fg-muted)` (#ccc) color
 - **Inline links:** `.body-link` — orange, underlined (`text-underline-offset: 3px`)
 - **Cards:** `.whats-next-card` (generic clickable card) — use the `--card-accent` CSS variable for color-coded label/hover colors. Set per-section via `style={{"--card-accent": "#XXXXXX"}}` on the parent `<CategorySection>`. Falls back to orange when unset.
 - **Card label:** `.whats-next-card-label` — 14px Medium, colored via `--card-accent`
@@ -146,9 +146,12 @@ Translations are picked up automatically at build time — no regeneration step 
 
 ### CSS Patterns
 - **Tailwind v4 CSS-first config.** All design tokens live in `app/globals.css` under `@theme {}`. Add a new color via `--color-<name>: #XXXXXX;` — it becomes available as `bg-<name>`, `text-<name>`, `border-<name>` automatically.
-- **V1 page CSS** (`.wallet-q`, `.biz-*`, `.expandable`, `.h2-stickers`, etc.) lives in named sections at the bottom of `app/globals.css`, appended verbatim from the legacy `css/style.css` by phase helpers.
-- **Responsive breakpoints** at `xs: 400px` (tight mobile) and `md: 700px` (tablet / desktop transition) — defined as `--breakpoint-xs` / `--breakpoint-md`.
+- **Element-first heading styles.** Plain `<h1>` and `<h2>` pick up their V2 styling from element-level rules at the top of `globals.css` — no `.h1-inflation` / `.h2-inflation` class hook needed. Wrapper-scoped tweaks (like `.category-section h2` at 32px) override the base where needed.
+- **Semantic tokens drive everything.** Hard-coded hex values are a code smell in V2 rules — reach for `var(--color-fg-muted)`, `var(--color-surface)`, `var(--color-card-border)`, `var(--color-success)`, `var(--color-danger)`, `var(--color-link-hover)` etc. before introducing a raw `#XXX`.
+- **V1 page CSS has been REMOVED** from `app/globals.css` as of April 2026. Pages that still reference V1 classes (`.wallet-q`, `.biz-*`, `.expandable`, `.h2-stickers`, `.h2-section`, `.h3-item`, form/sticker styles, etc.) render unstyled until each page's V2 redesign lands post-cutover.
+- **Responsive breakpoints** at `xs: 400px` (tight mobile) and `md: 700px` (tablet / desktop transition) — defined as `--breakpoint-xs` / `--breakpoint-md`. All media queries in globals.css are unified on 700px.
 - **`--card-accent` CSS variable** drives per-section color hierarchy. Parent sets it; cards inherit.
+- **`--pill-color` CSS variable** drives all `.home-pill.<color>` modifiers — each color class is a single `--pill-color: #XXX;` line that the base `.home-pill` rule reads for both text + border.
 - **RTL handling** via `<html dir="rtl">` set in `app/[locale]/layout.tsx` — no per-component logic needed.
 
 ### Performance Considerations

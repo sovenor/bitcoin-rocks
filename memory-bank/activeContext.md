@@ -1,3 +1,55 @@
+## Latest: CSS Refactor — April 18, 2026
+
+First post-migration housekeeping commit on `v2-nextjs-redesign`. `app/globals.css` dropped from 2368 to 1090 lines (-54%) across 3 commits prefixed `CSS refactor:`. Zero visual change on V2 pages; V1 pages temporarily render unstyled (acceptable — they're scheduled for V2 redesign post-cutover anyway).
+
+### What changed
+
+**Commit 1 — delete V1 legacy CSS** (`e3dbb13f` — `CSS refactor: delete V1 legacy CSS (Phase 9a/9b/10/12)`)
+- Dropped the four legacy CSS blocks (Phase 9a Bucket B, Phase 9b forms, Phase 10 business, Phase 12 nostr) — ~1200 lines total.
+- Selectors gone: `.text-box`, `.wallet-q`, `.wallet-box`, `.wallet-button`, `.bounty-button`, `.compound-form`, `.cic-button`, `.alert`, `.biz-box`, `.biz-*` cards, `.wallet-box-biz`, `.expandable`, `.initial-text`/`.additional-text`, `.h2-section`, `.h3-item`, `.h2-label`, `.h2-stickers`, `.h3-label`, `.h4-label`, `.h3-category`, `.h2-category`, `.nostr-intro-h2`, `.biz-h3`, `.wallet-h3`, `.choose-sticker`, `.button-form`, `.button-sticker`, `.buy-platform-box`, `.payment-method-option`, `.fixed-bottom-bar`, all the `.break-*` utilities, plus ~20 small helpers.
+- Affected JSX pages that now render unstyled (deliberate, temporary): `/wallets`, `/lightning`, `/flyers`, `/compound-inflation-calculator`, `/stickers`, `/signs`, `/postcards`, `/buy`, `/business/*` (13 pages), `/nostr/*` (2 pages), `/sticker-files/*` (43 pages + index), all `*-success` pages.
+
+**Commit 2 — standardize tokens + element base styles + dedupe V2** (`eb89d1a9` — `CSS refactor: standardize tokens, element base styles, dedupe V2 rules`)
+- Expanded `@theme` with new semantic tokens: `--color-surface` (#111119 card background), `--color-fg-dim` (#999), `--color-fg-dimmer` (#888), `--color-card-border` (rgba(255,255,255,0.12)), `--color-success` (#4caf50), `--color-danger` (#ff4444), `--color-link-hover` (#ffb84d). These replaced ~100 hard-coded hex occurrences across the V2 rules.
+- Added element-level base styles for `html`/`body`/`h1`/`h2` so every V2 page gets hero + section-heading styling from the element itself, no class hook required.
+- Collapsed 21 `.home-pill.<color> { color: X !important; }` rules + the border-color union into one `--pill-color` CSS custom prop pattern: base rule reads `color: var(--pill-color, #f0f0f0)` + `border-color: var(--pill-color, #3d3d3d)`; each modifier is a single line `--pill-color: #19bc38;`. Went from ~50 lines to 25 lines and zero `!important`.
+- Stripped ~65 unnecessary `!important` tags. Only 2 legitimate `!important` uses remain: `.countries[hidden] { display: none !important }` (CSS attribute-based hiding needs to beat descendant `display:` rules) and `.force-orange` (intentional override for headings that otherwise inherit parent color).
+- Unified all media queries on the `--breakpoint-md` (700px) value. File previously mixed 400/500/600/700 breakpoints with no justification.
+- Added a clear table of contents in the file header describing the 6 sections.
+
+**Commit 3 — strip `.h1-inflation`/`.h2-inflation` from V2 JSX** (`892bc08d` — `CSS refactor: strip redundant h1-inflation/h2-inflation classNames from V2 JSX`)
+- 6 V2 files edited:
+  - `app/[locale]/page.tsx` — `<h1 className="h1-inflation">` → `<h1>` ; `<p className="inflation-intro">` → `<p>` (handled by `.home-hero p` rule)
+  - `app/[locale]/inflation/page.tsx` — `<h1 className="h1-inflation">` → `<h1>` ; removed `className="orange"` on the `#changing-header` `<span>` since it's already an orange H1
+  - `app/[locale]/[...rest]/page.tsx` + `app/not-found.tsx` — same H1 strip; kept `.force-orange` on the H2 since base H2 is white
+  - `components/ComparisonPageLayout.tsx` + `components/ContentPageLayout.tsx` — `<h1 className="h1-inflation comparison-h1">` → `<h1>` ; `.comparison-h1` no longer needed, its `line-height: 1.15` tweak moved to `.comparison-hero h1`
+- Build: `npm run build` ✓ 4734 static pages, TypeScript clean.
+
+### Intentionally left alone
+- V1 JSX classNames (`.wallet-q`, `.biz-*`, `.h2-section`, `.h3-item`, `.h2-stickers`, etc.) — classes still in markup but the CSS is gone. Pages render unstyled until their V2 redesign lands. This was the user's explicit request: don't touch V1 pages since they're being redesigned anyway.
+- `.comparison-h1` class reference — fully removed from JSX. Any legacy code path still passing it gets ignored (no matching CSS selector).
+- `forms-backend/` — untouched.
+- `main` at `origin/main` (`6cb07406`) — still frozen through Phase 15 cutover.
+
+### Files changed in this CSS refactor
+```
+app/globals.css                                (-1278 lines total: 2368 → 1090)
+app/[locale]/page.tsx                          (2 className strips on H1 + P)
+app/[locale]/inflation/page.tsx                (1 className strip on H1; span.orange removed)
+app/[locale]/[...rest]/page.tsx                (2 className strips on H1 + H2)
+app/not-found.tsx                              (2 className strips on H1 + H2)
+components/ComparisonPageLayout.tsx            (1 className strip on H1)
+components/ContentPageLayout.tsx               (1 className strip on H1)
+scripts/css-refactor/update-memory-bank.js     (NEW — idempotent this file's generator)
+memory-bank/activeContext.md                   (this entry prepended)
+memory-bank/progress.md                        (progress note prepended)
+```
+
+### Next
+Nothing scheduled — CSS refactor is a one-off housekeeping commit. The migration plan returns to Phase 15 (pre-cutover QA + cutover merge to `main`) when the user is ready. The per-page V2 redesigns of Bucket B/C pages can happen anytime post-cutover; each one will naturally replace the now-unstyled V1 markup with fresh V2 markup.
+
+---
+
 ## Latest: Next.js Migration — Phase 14 Cleanup + Docs — April 17, 2026
 
 Eighteenth commit of the Next.js migration on `v2-nextjs-redesign`. With all content-porting phases complete (Phases 5-13 shipped 54 published slugs × 55 locales = 4,734 static pages), Phase 14 is the cleanup pass: we deleted every legacy static-site asset the Next app has fully replaced, and refreshed the entire documentation tree (`.clinerules/`, `memory-bank/`, `README.md`, `CONTRIBUTING.md`) to describe the Next 16 + React 19 + TS + Tailwind v4 stack instead of the old HTML/CSS/jQuery site. `main` is still frozen; the next phase (Phase 15) is the cutover merge.
