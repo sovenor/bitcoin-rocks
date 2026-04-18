@@ -45,12 +45,10 @@ export default function NotFound() {
 					</div>
 
 					<div className="container-inner">
-						<h1 className="h1-inflation">
-							THIS BROKEN PAGE DOES NOT ROCK
-						</h1>
+						<h1>THIS BROKEN PAGE DOES NOT ROCK</h1>
 
 						<a href="/en" className="orange-link">
-							<h2 className="h2-inflation force-orange">GO BACK HOME</h2>
+							<h2 className="force-orange">GO BACK HOME</h2>
 						</a>
 					</div>
 				</div>

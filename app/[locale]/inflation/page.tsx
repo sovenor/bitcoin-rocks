@@ -239,8 +239,8 @@ export default async function InflationPage({
 				{/* ═══ HERO ═══ */}
 				<div className="inflation-section">
 					<div className="container-inner">
-						<h1 className="h1-inflation">
-							<span id="changing-header" className="orange">
+						<h1>
+							<span id="changing-header">
 								{t("inflation_h1_orange")}
 							</span>
 						</h1>

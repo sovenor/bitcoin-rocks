@@ -88,10 +88,10 @@ export default async function CatchAllNotFound({
 			</div>
 
 			<div className="container-inner">
-				<h1 className="h1-inflation">{message}</h1>
+				<h1>{message}</h1>
 
 				<Link href="/" className="orange-link">
-					<h2 className="h2-inflation force-orange">{goHome}</h2>
+					<h2 className="force-orange">{goHome}</h2>
 				</Link>
 			</div>
 		</div>

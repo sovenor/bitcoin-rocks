@@ -57,7 +57,7 @@ export async function ContentPageLayout({
 				{/* ═══ HERO ═══ */}
 				<div className="inflation-section comparison-hero">
 					<div className="container-inner">
-						<h1 className="h1-inflation comparison-h1">
+						<h1>
 							<span>{t(data.headerKeys.title)}</span>
 							<br />
 							<span className="orange">

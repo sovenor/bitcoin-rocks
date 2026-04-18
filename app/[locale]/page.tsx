@@ -234,8 +234,8 @@ export default async function LocaleHome({
 			<div className="container-main">
 				{/* ═══ HERO ═══ */}
 				<div className="home-hero">
-					<h1 className="h1-inflation">{headline}</h1>
-					<p className="inflation-intro">{intro}</p>
+					<h1>{headline}</h1>
+					<p>{intro}</p>
 				</div>
 
 				{/* ═══ CATEGORY CAROUSELS (two rows, opposite directions) ═══ */}

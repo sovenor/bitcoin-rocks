@@ -112,7 +112,7 @@ export async function ComparisonPageLayout({
 				{/* ═══ HERO ═══ */}
 				<div className="inflation-section comparison-hero">
 					<div className="container-inner">
-						<h1 className="h1-inflation comparison-h1">
+						<h1>
 							{data.customHeader
 								? data.customHeader.map((part, i) => (
 										<span key={i}>
