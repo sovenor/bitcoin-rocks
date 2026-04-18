@@ -120,7 +120,8 @@ html {
 	text-align: center;
 	color: #ff9500;
 	max-width: 80%;
-	margin: 0 auto 12px auto;
+	margin: 0 auto;
+	margin-bottom: 10px !important;
 }
 
 .home-hero .inflation-intro {
