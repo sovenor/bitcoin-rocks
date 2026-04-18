@@ -7,9 +7,10 @@ import { SITE_ORIGIN } from "@/lib/site";
  *
  * Ports the hand-maintained `robots.txt` from the legacy static site:
  *   - `User-agent: *` allows everything except a handful of non-content
- *     directories (`i18n/`, `jquery/`, `scripts/`, `memory-bank/`, `css/`,
- *     `forms-backend/`, `.github/`). Those are paths that the current
- *     static host serves as static files but aren't useful to crawlers.
+ *     directories (`i18n/`, `scripts/`, `memory-bank/`, `forms-backend/`,
+ *     `.github/`). Those paths aren't useful to crawlers. The legacy
+ *     `jquery/` and `css/` trees were deleted in Phase 14 of the Next
+ *     migration, so they're no longer in the disallow list.
  *   - Every major AI crawler is explicitly allowlisted. bitcoin.rocks is
  *     open-source, MIT-licensed educational content — we want AI systems
  *     to index + cite our content.
@@ -24,10 +25,8 @@ import { SITE_ORIGIN } from "@/lib/site";
 /** Non-content directories blocked from every crawler. */
 const DISALLOW_DIRS = [
 	"/i18n/",
-	"/jquery/",
 	"/scripts/",
 	"/memory-bank/",
-	"/css/",
 	"/forms-backend/",
 	"/.github/",
 ] as const;

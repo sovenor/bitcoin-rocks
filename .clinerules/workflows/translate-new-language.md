@@ -43,41 +43,40 @@ Run each script individually with `node scripts/[lang]/scriptname.js`. After all
 
 **⚠️ NEVER USE `cat` HEREDOC VIA `execute_command` TO CREATE TRANSLATION SCRIPTS.** Large `execute_command` calls containing `cat` heredocs with hundreds of lines of non-ASCII text (Hebrew, Arabic, Chinese, etc.) can hang the Cline session indefinitely, requiring the user to manually kill the task. This happened during the Hebrew (he) translation attempt — the first 3 scripts were created successfully via `write_to_file`, then switching to `cat` heredoc for the 4th script caused a hang that stalled the session for 2+ hours. **Always use `write_to_file` to create translation scripts**, even though Unicode escapes are verbose for non-Latin scripts.
 
-### Step 2: Register the Language in the Language Switcher
-- **File**: `jquery/language.js`
-- **Action**: Add `{ code: '[lang]', name: '[Native Name]' }` to the `languages` array
-- **Placement**: Insert in **alphabetical order by native display name**. The array ordering rules are:
-  1. **English is always first** (pinned as the default language)
+### Step 2: Register the Language in the Locale Config
+- **File**: `lib/i18n/config.ts`
+- **Action**: Add the language to BOTH the `languages` array AND the `locales` readonly tuple:
+  1. Append `{ code: "[lang]", name: "[Native Name]" }` to the `languages` array
+  2. Append `"[lang]"` to the `locales` readonly tuple (the `as const` string literal list)
+- **Placement**: Insert in **alphabetical order by native display name** in both arrays. The ordering rules are:
+  1. **English is always first** (pinned as the default language — `defaultLocale = "en"`)
   2. **All other languages sorted alphabetically by their native name** (e.g., "Bahasa Melayu" before "Čeština", "Deutsch" before "Español"). Latin-script names come first naturally, followed by non-Latin scripts (Cyrillic, Devanagari, Tamil, Thai, CJK) via Unicode ordering.
-  3. **"Add language" (`custom`) is always last**
-  4. There is no need to increment the TRANSLATION_VERSION — the user will manually do this later.
+  3. `next-intl` consumes both arrays at build time, so all 55 locales get static-prerendered as `/[code]` pages automatically — no manifest/index update needed elsewhere.
+- **RTL note**: If the new language is right-to-left (Arabic, Persian, Hebrew, Urdu family), also add its code to the `RTL_LOCALES` set in the same file. This makes `app/[locale]/layout.tsx` emit `<html dir="rtl">` for that locale.
 
-### Step 3: Update Homepage WebSite Schema
-- **File**: `index.html`
-- **Action**: Add `"[lang]"` to the `inLanguage` array in the WebSite JSON-LD schema block
-
-### Step 4: Update llms.txt Language List
-- **File**: `llms.txt`
-- **Action**: Add the new language name to the `Languages` line in the "About This Site" section
-- **Example**: `English, German, Spanish, French, Italian, Portuguese, Dutch, Bulgarian, Indonesian, Thai, Polish`
-
-### Step 5: Update About Page Language Count
+### Step 3: Update About Page Language Count
 - **Files**: All `i18n/*/about_*.json` files (the `about_open_source_3` key)
 - **Action**: Run `node scripts/update-about-lang-count.js <newCount>` with the new total language count
-- **Example**: `node scripts/update-about-lang-count.js 37`
-- **How it works**: The script auto-discovers every language's about file, detects which numeral system the translation uses (e.g., Western `37`, Burmese `၃၇`, Bengali `৩৭`), and replaces the old number with the new count in the correct numeral system. No hardcoded translation list is needed — the new language's about file (created in Step 1) will be updated automatically along with all existing languages.
+- **Example**: `node scripts/update-about-lang-count.js 56`
+- **How it works**: The script auto-discovers every language's about file, detects which numeral system the translation uses (e.g., Western `56`, Burmese `၅၆`, Bengali `৫৬`), and replaces the old number with the new count in the correct numeral system. No hardcoded translation list is needed — the new language's about file (created in Step 1) will be updated automatically along with all existing languages.
 - **Idempotent**: Safe to run multiple times — second run produces 0 changes.
 
-### Step 6: Update llms-full.txt Language Count
+### Step 4: Update llms.txt Language List
+- **File**: `llms.txt` (at repo root — served from `public/llms.txt` at build time via the `public/` copy)
+- **Action**: Add the new language name to the `Languages` line in the "About This Site" section
+- **Example**: `English, German, Spanish, French, Italian, Portuguese, Dutch, Bulgarian, Indonesian, Thai, Polish`
+- **Also**: Update the `public/llms.txt` copy if it's been regenerated separately. (The Next build serves `public/llms.txt`; the repo-root `llms.txt` is the source of truth for edits.)
+
+### Step 5: Update llms-full.txt Language Count
 - **File**: `llms-full.txt`
-- **Action**: Update the "available in X languages" line in the Open Source section
+- **Action**: Update the "available in X languages" line in the Open Source section.
 
-### Step 7: Run SEO Content Injection
-- **Command**: `node scripts/inject-seo-content.js`
-- **Why**: Updates the about.html page with the new English text (updated language count)
+### Step 6: Update Memory Bank
+- Update `memory-bank/progress.md` and `memory-bank/activeContext.md` to reflect the new language addition.
 
-### Step 8: Update Memory Bank
-- Update `memory-bank/progress.md` and `memory-bank/activeContext.md` to reflect the new language addition
+### Step 7: Verify the Build
+- Run `npm run build` to confirm the new locale prerenders cleanly across all pages.
+- The Next build generates ~4,700 static pages (54 published slugs × 55 locales + special routes). Adding one language adds ~54 new URLs to the sitemap automatically.
 
 ## File Structure Reference
 A complete language directory should mirror the English directory exactly:
@@ -144,10 +143,9 @@ i18n/[lang]/
 | # | What | File(s) |
 |---|------|---------|
 | 1 | Translation files | `i18n/[lang]/**/*_[lang].json` |
-| 2 | Language switcher | `jquery/language.js` |
-| 3 | Homepage schema | `index.html` (inLanguage array) |
+| 2 | Locale config | `lib/i18n/config.ts` (`languages` array + `locales` tuple; optional `RTL_LOCALES`) |
+| 3 | About page count | All `about_xx.json` files — via `node scripts/update-about-lang-count.js <newCount>` |
 | 4 | LLM site overview | `llms.txt` (Languages line) |
-| 5 | About page count | All `about_xx.json` files |
-| 6 | LLM full content | `llms-full.txt` (languages count) |
-| 7 | SEO injection | Run `node scripts/inject-seo-content.js` |
-| 8 | Memory bank | `memory-bank/progress.md`, `memory-bank/activeContext.md` |
+| 5 | LLM full content | `llms-full.txt` (languages count) |
+| 6 | Memory bank | `memory-bank/progress.md`, `memory-bank/activeContext.md` |
+| 7 | Verify build | `npm run build` |

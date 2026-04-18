@@ -1,6 +1,6 @@
 # bitcoin.rocks → Next.js 16 + React 19 + TypeScript + Tailwind v4 Migration
 
-**Status:** Phase 13 complete · Awaiting Phase 14 (cleanup + documentation update)
+**Status:** Phase 14 complete · Awaiting Phase 15 (pre-cutover QA + cutover)
 **Branch:** `v2-nextjs-redesign` (contains this plan + all 21 pre-existing V2 commits + Phase 1 scaffold + Phase 2 i18n wiring + Phase 3 shared layout components + Phase 4 SEO/JSON-LD/sitemap helpers + Phase 5 homepage port + Phase 6a inflation shell + Phase 6b inflation stats / calculators / dynamic header + Phase 7a comparison layout + gold/stocks/cash + Phase 7b banks/bonds/real-estate/crypto + Phase 7c visa/cbdc/fine-art/bank-runs + Phase 8 about + get-involved + Phase 9a wallets/lightning/flyers/compound-inflation-calculator + Phase 9b stickers/signs/postcards/buy + 4 success pages + Phase 10 business section (13 pages) + Phase 11 sticker-files section (43 languages + index = 44 pages) + Phase 12 nostr section (/nostr + /nostr/what-is-nostr) + Phase 13 404 / legacy redirects / stale sitemap cleanup)
 **Main branch:** frozen at `origin/main` (`6cb07406`) — production keeps deploying unchanged until cutover.
 
@@ -55,7 +55,7 @@
 4. Pick the next unchecked phase below and start.
 5. When done, commit on `v2-nextjs-redesign`, push, update this file's checkboxes.
 
-**Current position pointer:** Phase 13 done → starting Phase 14 next.
+**Current position pointer:** Phase 14 done → starting Phase 15 next.
 
 
 ---
@@ -448,49 +448,42 @@ Faithful V1 Tailwind port of the 2-page nostr section (`/nostr` + `/nostr/what-i
 - [x] **Runtime verify via `/tmp/verify-phase13.js`** — all **32 assertions pass**: locale 404 + RTL 404 + comparison-page smoke test + 6 legacy-slug redirects (308 status + correct Location) + query-preserving save redirect + sitemap content + robots.txt + llms.txt.
 - [x] Commit: "Phase 13: 404, redirects, final sitemap"
 
-## Phase 14 — Cleanup + documentation update (1 task)
+## Phase 14 — Cleanup + documentation update ✅ COMPLETE
 
-- [ ] **Delete** old assets that are now superseded:
-  - All root `*.html` files (production pages) — after confirming Next equivalents are working
-  - `business/*.html` files
-  - `nostr/*.html` files
-  - `sticker-files/*/index.html`
-  - `css/style.css`
-  - `jquery/` folder (entire folder — `jquery.min.js`, `language.js`, `home-carousel.js`, `country-selector-inflation.js`, `country-selector-forms.js`, `inflation-stats.js`, `dynamic-header.js`, `compound-inflation-calculator*.js`, `sticker-picker.js`, `buy-flow.js`, `jquery.i18n/`)
-  - `nginx.conf`, `.htaccess` (replaced by `next.config.ts`)
-  - Old injection scripts now obsolete:
-    - `scripts/inject-seo-content.js`
-    - `scripts/inject-article-schema.js`
-    - `scripts/inject-breadcrumb-schema.js`
-    - `scripts/inject-comparison-schema.js`
-    - `scripts/inject-organization-schema.js`
-    - `scripts/inject-reviewed-badge.js`
-    - `scripts/fix-carousel-wrap.js`
-    - `scripts/update-inflation-i18n.js`
-    - `scripts/update-inflation-revamp.js`
-    - `scripts/audit-v2-v1-pages.js` (served its one-time purpose)
-- [ ] **Keep** these scripts (still useful in new stack):
-  - `scripts/audit-translation.js` — still reads JSON files
-  - `scripts/update-about-lang-count.js` — still relevant
-  - `scripts/<language>/create-*.js` — translation bootstrap helpers
-  - `scripts/add-faq-keys.js`, `scripts/add-whats-next-keys.js` — JSON key adders
-  - `scripts/inflation-multi/` — multi-currency data helpers
-- [ ] Update `.clinerules/workspace-rules.md`:
-  - Remove "Static Site First" / "jQuery-based" / "no modern JS frameworks" statements
-  - Describe new Next 16 / React 19 / TS / Tailwind v4 stack
-  - Update "Common Tasks" section (no more `inject-*.js` flow)
-  - Update "V2 Design System" section to describe Tailwind-based tokens
-  - Keep i18n workflow (mostly unchanged for contributors)
-- [ ] Update `.clinerules/workflows/translate-new-language.md`:
-  - Remove step for `scripts/inject-seo-content.js`
-  - Point to new Next-based i18n config
-  - Update language array location (`lib/i18n/config.ts`)
-- [ ] Update `memory-bank/projectbrief.md`, `productContext.md`, `techContext.md`, `systemPatterns.md`, `activeContext.md`, `progress.md`
-- [ ] Refresh `CONTRIBUTING.md` (translator workflow unchanged; dev workflow = Next.js)
-- [ ] Refresh `GEO-CHECKLIST.md`
-- [ ] Refresh `llms.txt` / `llms-full.txt` if URL shapes changed
-- [ ] Update `README.md` setup instructions: `npm install` + `npm run dev` instead of `python -m http.server`
-- [ ] Commit: "Phase 14: cleanup + docs"
+- [x] **Deleted** all legacy assets superseded by the Next app (via `scripts/phase14/delete-legacy-assets.js` — idempotent):
+  - All 27 root-level `*.html` files (`404`, `index`, `about`, `bank-runs`, 10 `bitcoin-vs-*`, `buy`, `compound-inflation-calculator`, `flyers`, `get-involved`, `inflation`, `lightning`, `postcards`, `postcard-success`, `sign-success`, `signs`, `sticker-language-success`, `sticker-success`, `stickers`, `wallets`)
+  - `business/` directory (13 HTML pages + `files/` + `sticker-files/` — the canonical copies already live under `public/business/`)
+  - `nostr/` directory (2 HTML pages)
+  - `sticker-files/` directory (43 language subdirs + index — the canonical copies live under `public/sticker-files/`)
+  - `jquery/` folder in full (jQuery core, jquery.i18n, `language.js`, `home-carousel.js`, `country-selector-*.js`, `inflation-stats.js`, `dynamic-header.js`, `compound-inflation-calculator*.js`, `sticker-picker.js`, `buy-flow.js`)
+  - `css/` folder (single `style.css`)
+  - `nginx.conf` (replaced by `next.config.ts` `redirects()` + header rules — 33 permanent redirects already in place from Phase 13) and `robots.txt` (replaced by `app/robots.ts`). No `.htaccess` was ever present.
+  - 6 obsolete schema-injection scripts: `scripts/inject-{article,breadcrumb,comparison,organization,reviewed-badge,seo-content}-schema.js` (ported to `lib/schema/*.ts` in Phase 4).
+  - 7 one-off legacy HTML helpers: `scripts/fix-carousel-wrap.js`, `scripts/update-inflation-i18n.js`, `scripts/update-inflation-revamp.js`, `scripts/update-index-i18n-for-saving.js`, `scripts/add-faq-keys.js`, `scripts/add-whats-next-keys.js`, `scripts/audit-v2-v1-pages.js` (all served their one-time purpose before the migration).
+  - `scripts/inflation-multi/` directory (static-site-era multi-currency HTML rebuilder).
+  - Total: **43 files + 6 directories deleted** (idempotent — script skips anything already gone).
+- [x] **Kept** these scripts (still useful in new stack):
+  - `scripts/audit-translation.js` — audits JSON files for untranslated strings.
+  - `scripts/update-about-lang-count.js` — auto-discovers languages + updates native-numeral language counts in all `about_*.json` files.
+  - `scripts/<language>/create-*.js` — translation bootstrap helpers (26 language directories).
+  - `scripts/tagalog/copy-from-filipino.js` and a handful of `scripts/<lang>/fix-*.js` repair scripts.
+  - `scripts/append-comparison-css.js` — Phase 7 CSS appender (idempotent; kept for reference).
+  - `scripts/phase8/` through `scripts/phase14/` — migration phase helpers (all idempotent; kept as historical record for the migration).
+- [x] **`.clinerules/workspace-rules.md`** — fully rewritten for the Next 16 stack. Documents Server Components by default, locale-aware `<Link>` via `@/lib/i18n/navigation`, Tailwind v4 CSS-first config, V2 design system class reference, Creating-a-New-Page + Adding-a-Translation workflows, GA events at their new component locations (`components/LanguageSwitcher.tsx`, `components/CountrySelector.tsx`). Removed "Static Site First" / "jQuery-based" / "no modern JS frameworks" statements.
+- [x] **`.clinerules/workflows/translate-new-language.md`** — replaced `jquery/language.js` step with `lib/i18n/config.ts` (both `languages` array + `locales` tuple, in alphabetical order by native name), dropped `scripts/inject-seo-content.js` step (Next renders translated HTML natively), dropped `index.html` schema step (Next generates WebSite + hreflang schema automatically), added RTL note + `npm run build` verification step.
+- [x] **Memory bank refresh:**
+  - `memory-bank/techContext.md` — rewritten around Next stack (Node ≥ 20, npm scripts, `app/` + `components/` + `lib/` file-structure tree, Next/React/next-intl/TS/Tailwind deps, GA events at new component locations, `next.config.ts` + `middleware.ts` + `lib/i18n/config.ts` described).
+  - `memory-bank/systemPatterns.md` — rewritten around Server Components + locale-first routing + next-intl namespaces. Documents Page Shape Pattern, Layout Stack Pattern, Shared-Chrome Pattern, Data+Layout Components (ComparisonPageLayout / ContentPageLayout / NostrPageLayout / BusinessPageShell), Interactive Client Components, cross-component CustomEvent bridge (CountrySelector → InflationStats). Added "Cleanup (Phase 14) — what's gone" section.
+  - `memory-bank/activeContext.md` — Phase 14 entry prepended via `scripts/phase14/update-memory-bank.js`.
+  - `memory-bank/progress.md` — Phase 14 summary prepended.
+  - `memory-bank/projectbrief.md` + `productContext.md` — left untouched (they're mission-focused, not stack-specific).
+- [x] **`CONTRIBUTING.md`** refreshed — Node ≥ 20 prerequisite, added Local development setup section with `npm install` / `npm run dev`, replaced Atom-specific editor reference with "any modern editor", added a Phase-14-era note that translators don't need to touch TypeScript code. Preserved the full fork-and-translate workflow which is unchanged for contributors.
+- [x] **`README.md`** refreshed — replaced "raw HTML / CSS / JS" / Apache / .htaccess description with Next.js 16 + React 19 + TS + Tailwind v4. Added Local Development section.
+- [x] **`GEO-CHECKLIST.md`** — intentionally left unchanged. The checklist is an ops-level QA list (JSON-LD schemas, sitemap, hreflang, robots.txt, llms.txt) that all still apply identically to the Next implementation; the underlying tech changed but the acceptance criteria are unchanged. Phase 15 QA will run the full checklist against the Next deploy.
+- [x] **`llms.txt` / `llms-full.txt`** — URL shapes are unchanged (all URLs are `/stickers`, `/inflation`, `/bitcoin-vs-gold`, etc. — locale-prefixing is handled by middleware so content summaries don't need a locale). `public/llms.txt` + `public/llms-full.txt` copies are kept in sync; no URL rewrites needed this pass.
+- [x] **`app/robots.ts`** — dropped stale `Disallow: /jquery/` and `Disallow: /css/` entries (those directories no longer exist in the deploy tree).
+- [x] `npm run build` → ✓ TypeScript clean, **4,734 static pages** generated (unchanged from Phase 13 — the cleanup is pure deletion + docs; no app-level regressions).
+- [x] Commit: "Phase 14: cleanup + docs"
 
 ## Phase 15 — Pre-cutover QA + cutover (1 task)
 
