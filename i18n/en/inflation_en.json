@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-16",
+		"last-updated": "2026-04-18",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
@@ -20,8 +20,8 @@
 	"inflation_sticker_your_money": "but your money does.",
 	"inflation_calculator_opt_out": "Opt out of inflation",
 	"inflation_calculator_with_bitcoin": "with Bitcoin.",
-	"inflation_choose": "Choose your money...",
-	"inflation_choose_another": "Choose another money",
+	"inflation_choose": "Choose your money to see the proof",
+	"inflation_choose_another": "← Choose another money",
 	"inflation_us_dollar": "U.S. DOLLAR",
 	"inflation_australian_dollar": "AUSTRALIAN DOLLAR",
 	"inflation_brazilian_real": "BRAZILIAN REAL",
@@ -132,7 +132,7 @@
 	"inflation_stat_usd_numeric": "(19,400,000,000,000)",
 	"inflation_stat_usd_detail": "And counting...",
 	"inflation_stat_usd_source": "Source: FRED M1 →",
-	"inflation_h1_orange": "Bitcoin doesn't have inflation,",
+	"inflation_h1_orange": "Bitcoin doesn't have inflation, but your money does.",
 	"inflation_h1_white": "but your money does.",
 	"inflation_choose_different": "← Choose a different money",
 	"inflation_usd_intro_1": "If you save in US Dollars, you've probably noticed that they buy you less each year. It takes more dollars to buy the same amount of food. You need more dollars to maintain your quality of life.",

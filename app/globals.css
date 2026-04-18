@@ -452,7 +452,7 @@ a.whats-next-card:hover .whats-next-card-source {
 	text-align: center;
 	color: #ff9500;
 	max-width: 80%;
-	margin: 0 auto 12px auto;
+	margin: 0 auto;
 }
 
 .h1-inflation .orange {
@@ -525,6 +525,14 @@ a.whats-next-card:hover .whats-next-card-source {
 	color: #ccc;
 	margin-bottom: 16px;
 }
+
+.inflation-section .h1-inflation{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 30px;
+	text-transform: none;
+}
+
 @media (max-width: 500px) {
 	.inflation-section h2 {
 		font-size: 22px;
@@ -587,6 +595,35 @@ button.inflation-button.show-all-button {
 	border-color: #ff9500;
 	color: #ff9500;
 }
+/* Grey static prompt shown before a currency is chosen (replaces the
+   former "Choose your money..." button). Also used — on a <button> — as
+   the clickable "← Choose a different money" reset after a currency has
+   been selected (see `.choose-back-text` modifier below). */
+.choose-initial-text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #999;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+/* When rendered as a <button> (the "choose a different money" reset),
+   strip all default button chrome so it reads as plain text. */
+button.choose-initial-text {
+	background: none;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	transition: color 0.2s ease;
+}
+button.choose-initial-text:hover {
+	color: #ff9500;
+}
+
 @media (max-width: 700px) {
 	button.inflation-button {
 		font-size: 16px !important;
@@ -621,6 +658,7 @@ a.stat-card {
 	border-radius: 16px;
 	text-decoration: none;
 	color: #fff;
+	text-align: center;
 	transition: border-color 0.2s, transform 0.2s;
 }
 a.stat-card:hover {
@@ -1258,18 +1296,6 @@ h2.second-line,
 h3.second-line {
 	margin-top: -25px !important;
 }
-.h1-inflation,
-.h2-inflation {
-	font-family: proxima-nova, sans-serif;
-	font-weight: 900;
-	font-style: italic;
-	font-size: 40px;
-	line-height: 40px;
-	margin-bottom: 50px !important;
-	text-align: center;
-	text-transform: uppercase;
-	color: #f0f0f0;
-}
 .force-orange {
 	color: #ff9500 !important;
 }
@@ -1714,20 +1740,6 @@ select option{
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-.h2-inflation,
-.h1-inflation{
-	font-family: proxima-nova, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 38px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 0;
-	padding: 0;
-	color: #fff;
 }
 .h1-inflation.force-orange,
 .h2-inflation.force-orange{

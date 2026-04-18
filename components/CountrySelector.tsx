@@ -147,18 +147,20 @@ export function CountrySelector({
 			<div className="inflation-section">
 				<div className="container-inner">
 					<div className="container-inflation-button">
-						<button
-							type="button"
-							className="inflation-button show-all-button"
-							onClick={hasSelection ? handleReset : undefined}
-							aria-label={hasSelection ? chooseBackLabel : chooseLabel}
-						>
-							{hasSelection ? (
-								<span className="choose-back">{chooseBackLabel}</span>
-							) : (
-								<span className="choose-initial">{chooseLabel}</span>
-							)}
-						</button>
+						{hasSelection ? (
+							<button
+								type="button"
+								className="choose-initial-text choose-back-text"
+								onClick={handleReset}
+								aria-label={chooseBackLabel}
+							>
+								{chooseBackLabel}
+							</button>
+						) : (
+							<span className="choose-initial-text">
+								{chooseLabel}
+							</span>
+						)}
 
 						{currencies.map((cur) => (
 							<button
