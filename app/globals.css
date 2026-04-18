@@ -1,6 +1,6 @@
 /*
  * bitcoin.rocks — Global styles (Next.js / Tailwind v4)
- * ----------------------------------------------------
+ * ====================================================
  * Tailwind v4 is CSS-first: design tokens live in `@theme`
  * instead of `tailwind.config.ts`. Any `--color-*` / `--font-*`
  * / `--breakpoint-*` token declared here is usable as a
@@ -9,7 +9,8 @@
  *
  * File organization
  *   1. @theme       — design tokens (colors, fonts, breakpoints)
- *   2. Base         — element-level defaults (html, body, scroll)
+ *   2. Base         — element-level defaults (html, body, h1/h2/h3,
+ *                     scroll behavior)
  *   3. Layout       — .container-main, .container-inner
  *   4. Homepage V2  — hero, carousel, pills, category grid
  *   5. Inflation V2 — inflation-section, country picker, stat cards,
@@ -18,49 +19,65 @@
  *
  * Legacy V1 CSS (for /wallets /lightning /flyers /stickers /signs
  * /postcards /buy /business/* /nostr/* /compound-inflation-calculator
- * and the sticker-files + form pages) was removed from this file. Those
- * pages are scheduled for V2 redesign post-cutover; until then they
- * render with browser defaults + the base element styles below.
+ * and the sticker-files + form pages) was removed. Those pages are
+ * scheduled for V2 redesign post-cutover; until then they render with
+ * browser defaults + the base element styles below.
  */
 @import "tailwindcss";
 
+/* ═══════════════════════════════════════════════════════════════════
+   1. DESIGN TOKENS
+   Adding a new color here automatically exposes `bg-X`, `text-X`,
+   `border-X` utilities thanks to Tailwind v4's CSS-first config.
+   ═══════════════════════════════════════════════════════════════════ */
 @theme {
 	/* ---- Brand surface + text ---- */
-	--color-bg: #060610;
-	--color-bg-soft: #090814;
-	--color-fg: #ffffff;
-	--color-fg-muted: #cccccc;
-	--color-fg-dim: #999999;
-	--color-border: #3f3f3f;
+	--color-bg:         #060610;
+	--color-bg-soft:    #090814;
+	--color-surface:    #111119;  /* card background */
+	--color-fg:         #ffffff;
+	--color-fg-muted:   #cccccc;
+	--color-fg-dim:     #999999;
+	--color-fg-dimmer:  #888888;
+	--color-border:     #3f3f3f;
+
+	/* Semi-transparent border used by V2 cards (hover state animates it
+	   to an orange-tinted version via color-mix()). */
+	--color-card-border: rgba(255, 255, 255, 0.12);
+
+	/* Semantic states (money-supply numbers, etc.) */
+	--color-success:     #4caf50;
+	--color-danger:      #ff4444;
+	--color-link-hover:  #ffb84d;
 
 	/* ---- Bitcoin primary accent ---- */
 	--color-bitcoin-orange: #ff9500;
 
-	/* ---- Topic / category accents (mirrors css/style.css) ---- */
-	--color-human-rights: #ff9500;
-	--color-energy: #1dff4d;
-	--color-food: #ff571d;
-	--color-payments: #ffe91d;
-	--color-money: #19bc38;
-	--color-saving: #f5a9b8;
-	--color-salary: #2274a5;
-	--color-art: #1f1fff;
-	--color-politics: #9500ff;
-	--color-war: #ed1c24;
-	--color-coding: #89fc00;
-	--color-ai: #649df9;
-	--color-networks: #1e3a8a;
-	--color-self-custody: #b3fffc;
-	--color-get-started: #ff9500;
-	--color-gold: #ffe91d;
-	--color-cash: #2bc11f;
+	/* ---- Topic / category accents (mirrors legacy css/style.css) ---- */
+	--color-human-rights:    #ff9500;
+	--color-energy:          #1dff4d;
+	--color-food:            #ff571d;
+	--color-payments:        #ffe91d;
+	--color-money:           #19bc38;
+	--color-saving:          #f5a9b8;
+	--color-salary:          #2274a5;
+	--color-art:             #1f1fff;
+	--color-politics:        #9500ff;
+	--color-war:             #ed1c24;
+	--color-coding:          #89fc00;
+	--color-ai:              #649df9;
+	--color-networks:        #1e3a8a;
+	--color-self-custody:    #b3fffc;
+	--color-get-started:     #ff9500;
+	--color-gold:            #ffe91d;
+	--color-cash:            #2bc11f;
 	--color-property-rights: #eb4b98;
-	--color-business: #08b2e3;
-	--color-environment: #5b7553;
-	--color-crowdfunding: #d1d646;
-	--color-housing: #935425;
-	--color-equality: #8c5383;
-	--color-freedom: #96041c;
+	--color-business:        #08b2e3;
+	--color-environment:     #5b7553;
+	--color-crowdfunding:    #d1d646;
+	--color-housing:         #935425;
+	--color-equality:        #8c5383;
+	--color-freedom:         #96041c;
 
 	/* ---- Typography ---- */
 	--font-proxima: "proxima-nova", ui-sans-serif, system-ui, -apple-system,
@@ -74,7 +91,13 @@
 	--breakpoint-md: 700px;
 }
 
-/* Baseline body styling — mirrors the old #060610 dark theme */
+/* ═══════════════════════════════════════════════════════════════════
+   2. ELEMENT BASE STYLES
+   Every heading and paragraph the V2 pages produce gets its look from
+   these element-level rules. Pages don't need a `.h1-inflation` or
+   similar class hook — plain `<h1>` picks up the hero styling below.
+   ═══════════════════════════════════════════════════════════════════ */
+
 html,
 body {
 	background-color: var(--color-bg);
@@ -84,16 +107,75 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Offset hash-anchor scrolling so targets don't land flush against the top
-   of the viewport. The legacy JS did this with a manual window.scroll()
-   call; CSS handles it natively in modern browsers. */
+/* Smooth anchor scrolling with a small top offset so hash targets
+   don't land flush against the top of the viewport. */
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 20px;
 }
 
+/* H1 — hero headline (orange, centered). Used on every V2 page. */
+h1 {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 44px;
+	color: var(--color-bitcoin-orange);
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+@media (max-width: 700px) {
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		max-width: 90%;
+	}
+}
+
+/* H2 — section heading (white, left-aligned, 28px). */
+h2 {
+	font-family: var(--font-proxima);
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	margin: 8px 0 20px 0;
+	text-align: left;
+}
+@media (max-width: 700px) {
+	h2 {
+		font-size: 22px;
+	}
+}
+
+/* Inline color accents that override the parent heading's color
+   (e.g. highlighting "BITCOIN" orange inside a black H1). */
+h1 .orange,
+h2 .orange,
+.orange {
+	color: var(--color-bitcoin-orange);
+}
+
+/* `.force-orange` keeps legacy markup compatible — same effect as
+   `.orange`, higher specificity because it was built to override a
+   parent `color:` rule in the V1 codebase. */
+.force-orange {
+	color: var(--color-bitcoin-orange) !important;
+}
+
+/* Shared orange inline link (publisher attribution, sources, etc.). */
+a.orange-link {
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	cursor: pointer;
+}
+a.orange-link:hover {
+	color: var(--color-link-hover);
+}
+
 /* ═══════════════════════════════════════════════════════════════════
-   LAYOUT CONTAINERS
+   3. LAYOUT CONTAINERS
    .container-main: centered ≤700px column used by every page.
    .container-inner: inner padding helper used inside some sections.
    ═══════════════════════════════════════════════════════════════════ */
@@ -102,7 +184,6 @@ html {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 700px;
-	padding: 0;
 }
 
 .container-inner {
@@ -113,34 +194,23 @@ html {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   HOMEPAGE V2 — matches the /inflation page design system.
-   Owns: .home-hero, .h1-inflation, .inflation-intro (hero),
-         .home-carousel-*, .home-pill + color classes (carousel),
-         .whats-next-*, .category-section (category grid).
+   4. HOMEPAGE V2
+   Owns: .home-hero, .home-carousel-*, .home-pill + color modifiers,
+         .whats-next-*, .category-section.
    ═══════════════════════════════════════════════════════════════════ */
 
-/* ── Hero ───────────────────────────────────────────────────── */
+/* ── Hero ──────────────────────────────────────────────────── */
 .home-hero {
 	text-align: center;
 	padding: 30px 0 20px 0;
 }
 
-.home-hero .h1-inflation {
-	font-family: "proxima-nova", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	text-transform: none;
-	font-size: 38px;
-	line-height: 44px;
-	text-align: center;
-	color: #ff9500;
-	max-width: 80%;
-	margin: 0 auto;
-	margin-bottom: 10px !important;
+.home-hero h1 {
+	margin-bottom: 10px;
 }
 
-.home-hero .inflation-intro {
-	font-family: "proxima-nova", sans-serif;
+.home-hero p {
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 32px;
@@ -150,13 +220,8 @@ html {
 	margin: 0 auto;
 }
 
-@media (max-width: 500px) {
-	.home-hero .h1-inflation {
-		font-size: 28px;
-		line-height: 34px;
-		max-width: 90%;
-	}
-	.home-hero .inflation-intro {
+@media (max-width: 700px) {
+	.home-hero p {
 		font-size: 20px;
 		line-height: 28px;
 		max-width: 90%;
@@ -207,8 +272,10 @@ html {
 	will-change: transform;
 }
 
-/* Pills: replaces the old .jump buttons. Proxima Soft font, colored
-   border and label text driven by the color class below. */
+/* Pills: colored link buttons used inside the carousel. The `--pill-color`
+   custom property is set by the `.money` / `.freedom` / etc. modifier
+   classes below; both the text color and the border color read from it,
+   so there's exactly one rule per color instead of 21. */
 .home-pill {
 	flex: 0 0 auto;
 	display: inline-flex;
@@ -216,20 +283,19 @@ html {
 	height: 52px;
 	padding: 0 28px;
 	background: none;
-	border: 2px solid #3d3d3d;
+	border: 2px solid var(--pill-color, #3d3d3d);
 	border-radius: 999px;
-	font-family: "proxima-soft", sans-serif;
+	font-family: var(--font-proxima-soft);
 	font-weight: 900;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 48px;
-	color: #f0f0f0;
+	color: var(--pill-color, #f0f0f0);
 	text-transform: lowercase;
 	white-space: nowrap;
 	cursor: pointer;
 	transition: transform 0.2s, background-color 0.2s;
-	-webkit-user-select: none;
 	user-select: none;
+	-webkit-user-select: none;
 	text-decoration: none;
 }
 
@@ -237,56 +303,30 @@ html {
 	transform: scale(1.05);
 }
 
-/* Category color classes: each sets text color via !important so
-   the pill's `border-color: currentColor` rule below picks it up. */
-.home-pill.money { color: #19bc38 !important; }
-.home-pill.saving { color: #f5a9b8 !important; }
-.home-pill.salary { color: #2274a5 !important; }
-.home-pill.freedom { color: #96041c !important; }
-.home-pill.human-rights { color: #ff9500 !important; }
-.home-pill.equality { color: #8c5383 !important; }
-.home-pill.property-rights { color: #eb4b98 !important; }
-.home-pill.housing { color: #935425 !important; }
-.home-pill.business { color: #08b2e3 !important; }
-.home-pill.crowdfunding { color: #d1d646 !important; }
-.home-pill.energy { color: #1dff4d !important; }
-.home-pill.environment { color: #5b7553 !important; }
-.home-pill.food { color: #ff571d !important; }
-.home-pill.art { color: #1f1fff !important; }
-.home-pill.politics { color: #9500ff !important; }
-.home-pill.war { color: #ed1c24 !important; }
-.home-pill.coding { color: #89fc00 !important; }
-.home-pill.networks { color: #1e3a8a !important; }
-.home-pill.payments { color: #ffe91d !important; }
-.home-pill.self-custody { color: #b3fffc !important; }
-.home-pill.get-started { color: #ff9500 !important; }
+/* Category color modifiers — each sets the single --pill-color var. */
+.home-pill.money           { --pill-color: #19bc38; }
+.home-pill.saving          { --pill-color: #f5a9b8; }
+.home-pill.salary          { --pill-color: #2274a5; }
+.home-pill.freedom         { --pill-color: #96041c; }
+.home-pill.human-rights    { --pill-color: #ff9500; }
+.home-pill.equality        { --pill-color: #8c5383; }
+.home-pill.property-rights { --pill-color: #eb4b98; }
+.home-pill.housing         { --pill-color: #935425; }
+.home-pill.business        { --pill-color: #08b2e3; }
+.home-pill.crowdfunding    { --pill-color: #d1d646; }
+.home-pill.energy          { --pill-color: #1dff4d; }
+.home-pill.environment     { --pill-color: #5b7553; }
+.home-pill.food            { --pill-color: #ff571d; }
+.home-pill.art             { --pill-color: #1f1fff; }
+.home-pill.politics        { --pill-color: #9500ff; }
+.home-pill.war             { --pill-color: #ed1c24; }
+.home-pill.coding          { --pill-color: #89fc00; }
+.home-pill.networks        { --pill-color: #1e3a8a; }
+.home-pill.payments        { --pill-color: #ffe91d; }
+.home-pill.self-custody    { --pill-color: #b3fffc; }
+.home-pill.get-started     { --pill-color: #ff9500; }
 
-/* Colored pills inherit border color from text color. */
-.home-pill.money,
-.home-pill.saving,
-.home-pill.salary,
-.home-pill.freedom,
-.home-pill.human-rights,
-.home-pill.equality,
-.home-pill.property-rights,
-.home-pill.housing,
-.home-pill.business,
-.home-pill.crowdfunding,
-.home-pill.energy,
-.home-pill.environment,
-.home-pill.food,
-.home-pill.art,
-.home-pill.politics,
-.home-pill.war,
-.home-pill.coding,
-.home-pill.networks,
-.home-pill.payments,
-.home-pill.self-custody,
-.home-pill.get-started {
-	border-color: currentColor;
-}
-
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.home-pill {
 		height: 46px;
 		padding: 0 22px;
@@ -315,21 +355,12 @@ html {
 	margin-bottom: 24px;
 }
 
+/* H2 override for whats-next — slightly different from base h2
+   (no bottom margin since it's followed by a .whats-next-grid that
+   owns its own spacing). */
 .whats-next-section h2 {
-	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
-	font-size: 28px;
-	font-style: normal;
-	color: #ffffff;
 	margin: 0;
-	text-transform: none;
-	text-align: left;
-}
-
-@media (max-width: 500px) {
-	.whats-next-section h2 {
-		font-size: 26px;
-	}
 }
 
 .whats-next-grid {
@@ -338,7 +369,7 @@ html {
 	gap: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.whats-next-grid {
 		grid-template-columns: 1fr;
 	}
@@ -353,12 +384,12 @@ a.whats-next-card {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: #111119;
-	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
 	border-radius: 20px;
 	padding: 32px 28px;
 	text-decoration: none;
-	color: #ffffff;
+	color: var(--color-fg);
 	transition: border-color 0.2s, transform 0.2s;
 	box-sizing: border-box;
 }
@@ -368,29 +399,25 @@ a.whats-next-card:hover {
 }
 
 .whats-next-card-label {
-	font-family: "proxima-nova", sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	/* --card-accent drives the label color; falls back to Bitcoin
 	   orange on pages that don't set one. Homepage sets it per
 	   category via inline style. */
-	color: var(--card-accent, #ff9500);
-	text-transform: none;
+	color: var(--card-accent, var(--color-bitcoin-orange));
 	margin-bottom: 12px;
 	letter-spacing: 0.02em;
 }
 
 .whats-next-card-title {
-	font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	color: #ffffff;
+	color: var(--color-fg);
 	line-height: 1.25;
 	margin-bottom: 24px;
 }
 
 .whats-next-card-source {
-	font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #9b9a9a;
@@ -399,7 +426,7 @@ a.whats-next-card:hover {
 }
 
 a.whats-next-card:hover .whats-next-card-source {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 	transform: translateX(5px);
 }
 
@@ -414,22 +441,19 @@ a.whats-next-card:hover .whats-next-card-source {
 	margin-bottom: 20px;
 }
 
+/* Category H2 is larger than default (32px) and has no bottom margin
+   since the grid below owns its own spacing. */
 .category-section h2 {
-	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 	font-size: 32px;
-	line-height: 1.2;
-	color: #ffffff;
 	margin: 0;
-	text-transform: none;
-	text-align: left;
 }
 
 .category-section h2 .accent {
-	color: var(--card-accent, #ff9500);
+	color: var(--card-accent, var(--color-bitcoin-orange));
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.category-section h2 {
 		font-size: 26px;
 	}
@@ -438,53 +462,24 @@ a.whats-next-card:hover .whats-next-card-source {
 .category-section a.whats-next-card:hover {
 	border-color: color-mix(
 		in srgb,
-		var(--card-accent, #ff9500) 60%,
+		var(--card-accent, var(--color-bitcoin-orange)) 60%,
 		transparent
 	);
 }
 
 .category-section a.whats-next-card:hover .whats-next-card-source {
-	color: var(--card-accent, #ff9500);
+	color: var(--card-accent, var(--color-bitcoin-orange));
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   INFLATION PAGE — V2 design system. Shared with Phase 7 comparison
-   pages for the stat-cards, feature-cards, story-cards, and source /
-   publisher blocks. Ported verbatim from `css/style.css` (with tiny
-   tweaks: spaces→tabs, drops of legacy `.inflation-revamp` scoping
-   that's now implicit).
+   5. INFLATION PAGE — V2 design system.
+   Shared with comparison pages for the stat cards, feature/story
+   cards, sources, and publisher-attribution blocks.
    ═══════════════════════════════════════════════════════════════════ */
 
-/* ── Hero ───────────────────────────────────────────────────── */
-
-.h1-inflation {
-	font-family: "proxima-nova", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	text-transform: none;
-	font-size: 38px;
-	line-height: 44px;
-	text-align: center;
-	color: #ff9500;
-	max-width: 80%;
-	margin: 0 auto;
-}
-
-.h1-inflation .orange {
-	color: #ff9500;
-}
-
-@media (max-width: 500px) {
-	.h1-inflation {
-		font-size: 28px;
-		line-height: 34px;
-		max-width: 90%;
-	}
-}
-
-/* Hero sibling — intro paragraph below the H1 */
+/* ── Hero intro paragraph (below the H1) ──────────────────── */
 .inflation-intro {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 30px;
@@ -492,7 +487,7 @@ a.whats-next-card:hover .whats-next-card-source {
 	text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.inflation-intro {
 		font-size: 20px;
 		line-height: 28px;
@@ -509,84 +504,61 @@ a.whats-next-card:hover .whats-next-card-source {
 	margin-top: 20px;
 }
 
-/* ── Container + inflation-section layout ──────────────────── */
+/* ── Inflation section wrapper + body text ─────────────────── */
 .inflation-section {
 	width: 96%;
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
-.inflation-section .container-inner {
-	width: 96% !important;
-	padding-left: 2% !important;
-	padding-right: 2% !important;
-}
-.inflation-section h2 {
-	font-family: "proxima-nova", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-	font-size: 28px;
-	line-height: 1.2;
-	color: #f0f0f0;
-	margin: 8px 0 20px 0;
-	text-transform: none;
-	text-align: left;
-}
+
 .inflation-section p {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
-	font-style: normal;
 	font-size: 18px;
 	line-height: 26px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 	margin-bottom: 16px;
 }
 
-.inflation-section .h1-inflation{
+/* Inflation's hero H1 gets slightly more side padding than the
+   base H1 since it sits directly against container-inner. */
+.inflation-section h1 {
 	max-width: 90%;
 	margin-left: 5%;
 	margin-top: 30px;
-	text-transform: none;
-}
-
-@media (max-width: 500px) {
-	.inflation-section h2 {
-		font-size: 22px;
-	}
 }
 
 /* Inline orange highlight (used by `.inflation-intro .text-highlight`) */
 .text-highlight {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 
-/* Body link (inline, underlined, orange) */
-.inflation-section p a.body-link {
-	font-family: "proxima-nova", sans-serif;
+/* Body link (inline, underlined, orange) — used in prose paragraphs */
+a.body-link {
+	font-family: var(--font-proxima);
 	font-weight: 500;
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 	text-decoration: underline;
 	text-underline-offset: 3px;
 }
-.inflation-section p a.body-link:hover {
-	color: #ffb340;
+a.body-link:hover {
+	color: var(--color-link-hover);
 }
 
 /* ── Currency selector (buttons + container) ──────────────── */
 .container-inflation-button {
-	margin-top: 0;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+	margin: 0 2.5%;
 	width: 95%;
-	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 button.inflation-button {
-	background: none;
-	color: inherit;
-	border: 1px solid #3f3f3f;
-	font-family: "proxima-soft", sans-serif;
+	background-color: var(--color-bg-soft);
+	color: var(--color-fg);
+	border: 1px solid var(--color-border);
+	font-family: var(--font-proxima-soft);
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1;
@@ -594,40 +566,36 @@ button.inflation-button {
 	padding: 0 20px;
 	margin-top: 8px;
 	margin-right: 3px;
-	background-color: #090814;
 	border-radius: 20px;
 	transition-duration: 0.3s;
 	text-transform: uppercase;
 	flex-basis: 50%;
-	color: #f0f0f0;
 	cursor: pointer;
 }
 button.inflation-button:hover {
 	transform: scale(1.02);
-	border-color: #ff9500;
+	border-color: var(--color-bitcoin-orange);
 }
 button.inflation-button.show-all-button {
-	border-color: #ff9500;
-	color: #ff9500;
+	border-color: var(--color-bitcoin-orange);
+	color: var(--color-bitcoin-orange);
 }
-/* Grey static prompt shown before a currency is chosen (replaces the
-   former "Choose your money..." button). Also used — on a <button> — as
-   the clickable "← Choose a different money" reset after a currency has
-   been selected (see `.choose-back-text` modifier below). */
+
+/* Grey static prompt shown before a currency is chosen. Also
+   doubles — on a <button> — as the clickable "← Choose a different
+   money" reset after a currency has been selected. */
 .choose-initial-text {
 	display: block;
 	width: 100%;
 	text-align: center;
-	color: #999;
-	font-family: "proxima-nova", sans-serif;
+	color: var(--color-fg-dim);
+	font-family: var(--font-proxima);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1;
 	margin-top: 8px;
 	margin-bottom: 10px;
 }
-/* When rendered as a <button> (the "choose a different money" reset),
-   strip all default button chrome so it reads as plain text. */
 button.choose-initial-text {
 	background: none;
 	border: 0;
@@ -636,13 +604,12 @@ button.choose-initial-text {
 	transition: color 0.2s ease;
 }
 button.choose-initial-text:hover {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 
 @media (max-width: 700px) {
 	button.inflation-button {
-		font-size: 16px !important;
-		flex-basis: 100% !important;
+		flex-basis: 100%;
 	}
 }
 
@@ -659,7 +626,7 @@ button.choose-initial-text:hover {
 	gap: 16px;
 	margin: 24px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.stat-cards-grid {
 		grid-template-columns: 1fr;
 	}
@@ -668,11 +635,11 @@ button.choose-initial-text:hover {
 a.stat-card {
 	display: block;
 	padding: 24px 16px;
-	background: #111119;
-	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
 	border-radius: 16px;
 	text-decoration: none;
-	color: #fff;
+	color: var(--color-fg);
 	text-align: center;
 	transition: border-color 0.2s, transform 0.2s;
 }
@@ -680,67 +647,67 @@ a.stat-card:hover {
 	border-color: rgba(255, 149, 0, 0.4);
 }
 .stat-card-label {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 700;
 	font-size: 12px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	color: #999;
+	color: var(--color-fg-dim);
 	margin-bottom: 8px;
 }
 .stat-card-value {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 800;
 	font-size: 36px;
 	line-height: 1.1;
 }
 .stat-card-value.success,
 .stat-card-detail.success {
-	color: #4caf50;
+	color: var(--color-success);
 }
 .stat-card-value.danger,
 .stat-card-detail.danger {
-	color: #ff4444;
+	color: var(--color-danger);
 }
 .stat-card-value.accent {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 .stat-card-value.muted {
-	color: #888;
+	color: var(--color-fg-dimmer);
 }
 .stat-card-detail {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 500;
 	font-size: 14px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 	margin-top: 6px;
 }
 .stat-card-source {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 13px;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	font-style: italic;
 	margin-top: 12px;
 }
 a.stat-card:hover .stat-card-source {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.stat-card-value {
 		font-size: 24px;
 	}
 }
 
-/* ── Comparison card (larger, single-column, baseline → today) ── */
+/* ── Comparison card (single-column, baseline → today) ── */
 a.stat-comparison-card {
 	display: block;
 	padding: 24px 16px;
-	background: #111119;
-	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
 	border-radius: 16px;
 	text-decoration: none;
-	color: #fff;
+	color: var(--color-fg);
 	margin: 24px 0;
 	text-align: center;
 	transition: border-color 0.2s;
@@ -749,31 +716,31 @@ a.stat-comparison-card:hover {
 	border-color: rgba(255, 149, 0, 0.4);
 }
 .stat-comparison-title {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 700;
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	color: #999;
+	color: var(--color-fg-dim);
 	margin-bottom: 18px;
 }
 .stat-comparison-label {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 700;
 	font-size: 13px;
 	letter-spacing: 0.06em;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	text-transform: uppercase;
 }
 .stat-comparison-value {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 800;
 	font-size: 32px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 	margin: 4px 0 10px;
 }
 .stat-comparison-value.current {
-	color: #ff4444;
+	color: var(--color-danger);
 }
 .stat-comparison-arrow {
 	font-size: 26px;
@@ -788,31 +755,31 @@ a.stat-comparison-card:hover {
 	width: 60%;
 }
 .stat-comparison-result {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 800;
 	font-size: 20px;
-	color: #ff4444;
+	color: var(--color-danger);
 }
 .stat-comparison-source {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 13px;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	font-style: italic;
 	margin-top: 12px;
 }
 a.stat-comparison-card:hover .stat-comparison-source {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 
-/* ── Feature cards (2×2 grid: Decentralized/Permissionless/…) ─── */
+/* ── Feature cards (2×2: Decentralized/Permissionless/…) ─── */
 .feature-cards-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 12px;
 	margin: 24px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.feature-cards-grid {
 		grid-template-columns: 1fr;
 	}
@@ -820,18 +787,18 @@ a.stat-comparison-card:hover .stat-comparison-source {
 a.feature-card {
 	display: block;
 	padding: 20px;
-	background: #111119;
-	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
 	border-radius: 16px;
 	text-decoration: none;
-	color: #fff;
+	color: var(--color-fg);
 	transition: border-color 0.2s, transform 0.2s;
 }
 a.feature-card:hover {
 	border-color: rgba(255, 149, 0, 0.5);
 }
 a.feature-card:hover .feature-card-link {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 .feature-card-header {
 	display: flex;
@@ -843,35 +810,35 @@ svg.feature-card-icon {
 	flex-shrink: 0;
 }
 .feature-card-title {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 800;
 	font-size: 18px;
 	color: #f0f0f0;
 }
 .feature-card-desc {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 22px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 }
 .feature-card-link {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 500;
 	font-size: 14px;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	margin-top: 12px;
 	transition: color 0.2s;
 }
 
-/* ── Story cards (same shape as features; real-world Bitcoin stories) ─ */
+/* ── Story cards (same shape as features; real-world stories) ─ */
 .story-cards-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 12px;
 	margin: 24px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	.story-cards-grid {
 		grid-template-columns: 1fr;
 	}
@@ -879,18 +846,18 @@ svg.feature-card-icon {
 a.story-card {
 	display: block;
 	padding: 20px;
-	background: #111119;
-	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
 	border-radius: 16px;
 	text-decoration: none;
-	color: #fff;
+	color: var(--color-fg);
 	transition: border-color 0.2s, transform 0.2s;
 }
 a.story-card:hover {
 	border-color: rgba(255, 149, 0, 0.5);
 }
 a.story-card:hover .story-card-link {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 .story-card-header {
 	display: flex;
@@ -902,23 +869,23 @@ svg.story-card-icon {
 	flex-shrink: 0;
 }
 .story-card-title {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 800;
 	font-size: 18px;
 	color: #f0f0f0;
 }
 .story-card-desc {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 22px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 }
 .story-card-link {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 500;
 	font-size: 14px;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	margin-top: 12px;
 	transition: color 0.2s;
 }
@@ -934,12 +901,12 @@ svg.story-card-icon {
 	padding-right: 2%;
 }
 .sources-heading {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 700;
 	font-size: 14px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
-	color: #888;
+	color: var(--color-fg-dimmer);
 	margin-bottom: 12px;
 }
 .sources-list {
@@ -948,7 +915,7 @@ svg.story-card-icon {
 	margin: 0;
 }
 .sources-list li {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 22px;
@@ -956,13 +923,13 @@ svg.story-card-icon {
 	margin-bottom: 6px;
 }
 .sources-list a {
-	color: #7f7e7d !important;
+	color: #7f7e7d;
 	text-decoration: none;
 	border-bottom: 1px dotted rgba(127, 126, 125, 0.5);
 }
 .sources-list a:hover {
-	color: #ff9500 !important;
-	border-bottom-color: #ff9500;
+	color: var(--color-bitcoin-orange);
+	border-bottom-color: var(--color-bitcoin-orange);
 }
 
 /* ── Publisher attribution (bottom of content pages) ───────── */
@@ -974,15 +941,14 @@ svg.story-card-icon {
 	padding-top: 20px;
 }
 .publisher-attribution p {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
-	color: #999;
+	color: var(--color-fg-dim);
 	margin: 0;
 }
 .publisher-attribution a.orange-link {
-	color: #ff9500 !important;
 	text-decoration: none;
 }
 .publisher-attribution a.orange-link:hover {
@@ -994,56 +960,33 @@ svg.story-card-icon {
 	font-size: 13px;
 }
 
-/* ── Hiding the inactive currency sections ─────────────────── */
+/* Hide the inactive currency sections (toggled by CountrySelector). */
 .countries[hidden] {
 	display: none !important;
 }
 
-/* Shared orange inline link (used by publisher attribution + inline
-   prose on comparison pages). Colored orange with a subtle hover. */
-a.orange-link {
-	color: #ff9500;
-	text-decoration: underline;
-	cursor: pointer;
-}
-a.orange-link:hover {
-	color: #ffb84d;
-}
-
-/* Force-orange modifier (used on spans inside hero H1s to keep the
-   "BITCOIN" word orange regardless of parent color). */
-.force-orange {
-	color: #ff9500 !important;
-}
-
 /* ═══════════════════════════════════════════════════════════════════
-   COMPARISON PAGES — V2. Shared by /bitcoin-vs-*, /bank-runs, /about,
-   /get-involved. Reuses `.inflation-section`, `.stat-cards-grid`,
-   `.sources-section`, `.publisher-attribution` from the inflation block.
+   6. COMPARISON PAGES — V2.
+   Shared by /bitcoin-vs-*, /bank-runs, /about, /get-involved. Reuses
+   .inflation-section, .stat-cards-grid, .sources-section, and
+   .publisher-attribution from the inflation block above.
    ═══════════════════════════════════════════════════════════════════ */
 
-/*
- * Hero / intro spacing — comparison pages use shorter hero spacing than
- * the inflation page since there's no country picker between hero + content.
- */
+/* Hero / intro spacing — shorter than the inflation page since
+   there's no country picker between hero and content. */
 .comparison-hero {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-.comparison-hero .comparison-h1 {
-	text-align: center;
+.comparison-hero h1 {
 	line-height: 1.15;
 }
-.comparison-hero .comparison-h1 .orange {
-	color: #ff9500;
-}
-/*
- * The asset word (GOLD / STOCKS / CASH) reads its color from a CSS
- * custom property set per page on the parent container. Falls back to
- * the Bitcoin orange if --asset-accent is unset for whatever reason.
- */
-.comparison-hero .comparison-h1 .asset {
-	color: var(--asset-accent, #ff9500);
+
+/* The asset word (GOLD / STOCKS / CASH) reads its color from a
+   CSS custom property set per page on the parent container. Falls
+   back to Bitcoin orange if --asset-accent is unset. */
+.comparison-hero h1 .asset {
+	color: var(--asset-accent, var(--color-bitcoin-orange));
 }
 
 .comparison-intro {
@@ -1051,18 +994,14 @@ a.orange-link:hover {
 	padding-bottom: 30px;
 }
 .comparison-intro .inflation-intro {
-	text-align: center;
 	margin-bottom: 16px;
 }
 .comparison-intro .inflation-intro:last-child {
 	margin-bottom: 0;
 }
 
-/*
- * One comparison point = a row with two side-by-side chips (Bitcoin + asset)
- * stacked above an explanation paragraph. Chips sit on the dark background
- * with a subtle 1px border + the Bitcoin-orange/asset-accent label color.
- */
+/* One comparison point = two side-by-side chips stacked above an
+   explanation paragraph. */
 .comparison-point {
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -1076,10 +1015,8 @@ a.orange-link:hover {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 16px;
-	margin-bottom: 24px;
+	margin: 0 auto 24px auto;
 	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
 }
 @media (max-width: 700px) {
 	.comparison-chips {
@@ -1089,14 +1026,14 @@ a.orange-link:hover {
 }
 
 .comparison-chip {
-	background: #090814;
+	background: var(--color-bg-soft);
 	border: 1px solid #1a1a24;
 	border-radius: 14px;
 	padding: 20px 24px;
 	text-align: center;
 }
 .comparison-chip-label {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 600;
 	font-size: 13px;
 	letter-spacing: 0.08em;
@@ -1104,33 +1041,31 @@ a.orange-link:hover {
 	margin-bottom: 8px;
 }
 .comparison-chip-bitcoin .comparison-chip-label {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 }
 .comparison-chip-asset .comparison-chip-label {
-	color: var(--asset-accent, #ff9500);
+	color: var(--asset-accent, var(--color-bitcoin-orange));
 }
 .comparison-chip-value {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	color: #fff;
+	color: var(--color-fg);
 }
 
-/*
- * Explanation prose — matches the .inflation-section p body-text treatment:
- * 16-18px, #ccc text, orange-underlined inline links via .body-link.
- */
+/* Explanation prose — matches .inflation-section p body-text
+   treatment (17px, muted color, orange-underlined inline links). */
 .comparison-explain {
 	max-width: 800px;
 	margin: 0 auto;
 }
 .comparison-explain p {
-	font-family: "proxima-nova", sans-serif;
+	font-family: var(--font-proxima);
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 28px;
-	color: #ccc;
+	color: var(--color-fg-muted);
 	margin-bottom: 16px;
 }
 .comparison-explain p:last-child {
@@ -1138,20 +1073,18 @@ a.orange-link:hover {
 }
 .comparison-explain a.body-link,
 .comparison-explain a.orange-link {
-	color: #ff9500;
+	color: var(--color-bitcoin-orange);
 	text-decoration: underline;
 	text-underline-offset: 3px;
 }
 .comparison-explain a.body-link:hover,
 .comparison-explain a.orange-link:hover {
-	color: #ffb84d;
+	color: var(--color-link-hover);
 }
 
-/*
- * The "What's next?" grid on a comparison page shares styling with the
- * homepage + inflation page — the only tweak is adding a comfortable top
- * margin so it doesn't collide with the final comparison point.
- */
+/* What's-next grid on a comparison page shares styling with the
+   homepage; just needs extra top margin so it doesn't collide
+   with the final comparison point. */
 .comparison-whats-next {
 	margin-top: 40px;
 }
