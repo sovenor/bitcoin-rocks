@@ -642,6 +642,12 @@ button.choose-initial-text:hover {
 	text-align: center;
 }
 
+/* Lighter weight for the first section heading on content pages
+   (e.g. the "What is a bank run?" H2 on /bank-runs). */
+.content-section-heading-first {
+	font-weight: 500 !important;
+}
+
 
 a.stat-card {
 	display: block;

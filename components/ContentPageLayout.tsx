@@ -88,7 +88,10 @@ export async function ContentPageLayout({
 						aria-labelledby={`content-section-${i + 1}`}
 					>
 						<div className="container-inner">
-							<h2 id={`content-section-${i + 1}`}>
+							<h2
+								id={`content-section-${i + 1}`}
+								className={i === 0 ? "content-section-heading-first" : undefined}
+							>
 								{t(section.headingKey)}
 							</h2>
 							<div className="comparison-explain">
