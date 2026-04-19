@@ -39,6 +39,7 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [ ] **StickerAddressForm** (`components/StickerAddressForm.tsx`)
 - [ ] **PrintFlyerButton** (`components/PrintFlyerButton.tsx`)
 - [ ] **404 / catch-all page** (`app/not-found.tsx` + `app/[locale]/[...rest]/page.tsx`)
+- [ ] **Verify fonts are loading correctly for all weights and styles**
 
 ### Cross-cutting Patterns (verify per page)
 
