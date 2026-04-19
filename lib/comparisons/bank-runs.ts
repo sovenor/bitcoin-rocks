@@ -87,6 +87,12 @@ export type ContentSection = {
 	paragraphs: readonly SummaryFragment[][];
 	/** Optional card block rendered after the paragraphs. */
 	cards?: readonly ContentCard[];
+	/**
+	 * When true, the section's H2 and paragraphs are center-aligned.
+	 * Used by the "What is a bank run?" intro to give it a more
+	 * explanatory, standout feel.
+	 */
+	centered?: boolean;
 };
 
 /** Source citation displayed in the final "Sources" section. */
@@ -100,10 +106,15 @@ export type ContentPageData = {
 	namespace: string;
 	metaImage: string;
 
-	/** H1 parts: two lines (white title / orange subtitle). */
+	/**
+	 * H1 parts. `title` is always rendered (white). `subtitle`, when
+	 * present, renders on a second line in Bitcoin orange. For pages
+	 * where the whole headline fits in a single translation key,
+	 * just set `title` and leave `subtitle` undefined.
+	 */
 	headerKeys: {
 		title: string;
-		subtitle: string;
+		subtitle?: string;
 	};
 
 	/** Page title (meta, Article headline). */
@@ -139,7 +150,6 @@ export const BANK_RUNS: ContentPageData = {
 	metaImage: "/img/meta/meta-bank-runs-v2.png",
 	headerKeys: {
 		title: "bank_runs_header",
-		subtitle: "bank_runs_header_2",
 	},
 	titleKey: "bitcoin_doesnt_have_bank_runs",
 	descriptionKey: "bank_runs_page_description",
@@ -147,6 +157,7 @@ export const BANK_RUNS: ContentPageData = {
 		// ── 1. What is a bank run? ─────────────────────────────────────────
 		{
 			headingKey: "bank_runs_what",
+			centered: true,
 			paragraphs: [
 				[{ key: "bank_runs_what_p1" }],
 				[{ key: "bank_runs_what_p2" }],
@@ -179,7 +190,15 @@ export const BANK_RUNS: ContentPageData = {
 		{
 			headingKey: "bank_runs_svb_heading",
 			paragraphs: [
-				[{ key: "bank_runs_svb_p1" }],
+				[
+					{ key: "bank_runs_svb_p1_a" },
+					{
+						key: "bank_runs_svb_p1_link",
+						href: "/bitcoin-vs-bonds",
+						localize: true,
+					},
+					{ key: "bank_runs_svb_p1_b" },
+				],
 				[{ key: "bank_runs_svb_p2" }],
 			],
 			cards: [
@@ -199,7 +218,15 @@ export const BANK_RUNS: ContentPageData = {
 			headingKey: "bank_runs_fdic_heading",
 			paragraphs: [
 				[{ key: "bank_runs_fdic_p1" }],
-				[{ key: "bank_runs_fdic_p2" }],
+				[
+					{ key: "bank_runs_fdic_p2_a" },
+					{
+						key: "bank_runs_fdic_p2_link",
+						href: "/inflation",
+						localize: true,
+					},
+					{ key: "bank_runs_fdic_p2_b" },
+				],
 			],
 			cards: [
 				{

@@ -66,10 +66,14 @@ export async function ContentPageLayout({
 					<div className="container-inner">
 						<h1>
 							<span>{t(data.headerKeys.title)}</span>
-							<br />
-							<span className="orange">
-								{t(data.headerKeys.subtitle)}
-							</span>
+							{data.headerKeys.subtitle && (
+								<>
+									<br />
+									<span className="orange">
+										{t(data.headerKeys.subtitle)}
+									</span>
+								</>
+							)}
 						</h1>
 					</div>
 				</div>
@@ -78,7 +82,9 @@ export async function ContentPageLayout({
 				{data.sections.map((section, i) => (
 					<section
 						key={section.headingKey}
-						className="inflation-section content-section"
+						className={`inflation-section content-section${
+							section.centered ? " content-section--centered" : ""
+						}`}
 						aria-labelledby={`content-section-${i + 1}`}
 					>
 						<div className="container-inner">
@@ -254,7 +260,7 @@ function ContentCardsBlock({
 
 			{learnMoreCards.length > 0 && (
 				<div
-					className="whats-next-grid"
+					className="whats-next-grid content-learn-more-grid"
 					style={{ gridTemplateColumns: "1fr" }}
 				>
 					{learnMoreCards.map((card, i) => (

@@ -626,6 +626,23 @@ button.choose-initial-text:hover {
 	}
 }
 
+/* Learn-more card block inside a ContentPageLayout section — sits
+   directly under the paragraphs, so it needs the same top margin
+   as the stat-cards-grid for visual parity. */
+.content-learn-more-grid {
+	margin-top: 24px;
+}
+
+/* Centered variant for a ContentPageLayout section (e.g. the
+   "What is a bank run?" intro). Centers the H2 + paragraph copy
+   within the container; cards below keep their normal layout. */
+.content-section--centered h2,
+.content-section--centered .comparison-explain,
+.content-section--centered .comparison-explain p {
+	text-align: center;
+}
+
+
 a.stat-card {
 	display: block;
 	padding: 24px 16px;
