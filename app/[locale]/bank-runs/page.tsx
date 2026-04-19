@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { ContentPageLayout } from "@/components/ContentPageLayout";
+import { FdicStats } from "@/components/FdicStats";
 import { BANK_RUNS } from "@/lib/comparisons/bank-runs";
 import { type Locale } from "@/lib/i18n/config";
 import { buildAlternates } from "@/lib/schema/hreflang";
@@ -60,5 +61,16 @@ export default async function BankRunsPage({
 }) {
 	const { locale } = await params;
 	setRequestLocale(locale);
-	return <ContentPageLayout data={BANK_RUNS} locale={locale as Locale} />;
+	return (
+		<>
+			{/* Client-side upgrade of the FDIC stat card's value + detail
+			    line to the latest quarterly snapshot from
+			    forms.bitcoin.rocks/api/fdic-stats. Pure side-effect
+			    component — renders no DOM. If the fetch fails, the
+			    server-rendered snapshot (from i18n/en/bank-runs_en.json)
+			    stays visible. */}
+			<FdicStats />
+			<ContentPageLayout data={BANK_RUNS} locale={locale as Locale} />
+		</>
+	);
 }

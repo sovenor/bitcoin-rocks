@@ -29,8 +29,35 @@ Translation fallback: all 54 non-English locales will fall back to the English s
 - `npm run typecheck` → clean.
 - Visual check pending after user reloads `/en/bank-runs`.
 
-### Commit 2 — live FDIC data (follow-up)
-Planned: new `forms-backend/fdic-stats.js` scraping the FDIC Statistics at a Glance page + `/api/fdic-stats` endpoint + `<FdicStats>` Client Component that populates `stat-fdic-coverage-value` / `stat-fdic-coverage-detail` DOM ids at runtime. Same pattern as `components/InflationStats.tsx`. Deferred to a second commit in this task.
+### Commit 2 — live FDIC data (shipped)
+
+End-to-end live-data pipeline for the FDIC coverage stat card.
+
+- **`forms-backend/fdic-stats.js`** (NEW, ~300 lines). Quarterly scraper + file-cache (24h TTL on `fdic-stats-cache.json`, same pattern as `inflation-stats.js`).
+  1. Fetches `https://www.fdic.gov/quarterly-banking-profile/fdic-statistics-glance` HTML.
+  2. Finds the most-recent `statistics-glance-historical-trends-<quarter>.xlsx` link.
+  3. Downloads the xlsx and unpacks it **without any new npm deps** — an xlsx is just a ZIP, so we decode local file headers inline and inflate the two files we need (`xl/sharedStrings.xml` + `xl/worksheets/sheet1.xml`) with Node's built-in `zlib.inflateRawSync`.
+  4. Finds the `Fund Balance` / `Insured Deposits` / `Reserve Ratio` rows by column-A label and pulls the latest data cell (column C).
+  5. Parses "As of <Month> <Day>, <Year>" from the top rows for the date label.
+  6. Falls back to a stale-cache-or-snapshot chain on any error.
+- **`forms-backend/server.js`** — added `/api/fdic-stats` endpoint (CORS `*`, 1h `Cache-Control`, identical contract pattern to `/api/inflation-stats`).
+- **`components/FdicStats.tsx`** (NEW, ~100 lines). Client Component, pure side-effect (`return null`). Fetches the endpoint on mount and writes into `#stat-fdic-coverage-value` + `#stat-fdic-coverage-detail` via `document.getElementById(...)`. Handles `insuredDeposits` unit conversion (B → T when it crosses 1000). Silent fallback leaves the server-rendered snapshot intact — no hydration mismatch, no layout shift.
+- **`app/[locale]/bank-runs/page.tsx`** — mounts `<FdicStats />` at the top of the page (alongside `<ContentPageLayout>`).
+- **`i18n/en/bank-runs_en.json`** — updated the server-rendered snapshot with the real Dec 2025 FDIC data from the historical-trends xlsx: value `1.42%`, detail `$153.9B insurance fund vs $10.82T in insured deposits (Dec 2025)`. The Client Component then replaces these with whatever the live endpoint returns (which, in steady state, will be the same values — but automatically refreshes next quarter).
+
+**Local smoke test (from repo root):**
+```
+DB_PATH=/tmp/fdic-test.db node -e "require('./forms-backend/fdic-stats').getFdicStats().then(s => console.log(JSON.stringify(s, null, 2)))"
+```
+→ `{ reserveRatio: 1.42, fundBalance: 153.9, insuredDeposits: 10822, asOfLabel: "Dec 2025", asOfDate: "2025-12-31", source: "live", ... }`.
+
+**Build verification**
+- `npm run typecheck` → clean.
+- `npm run build` → ✓ TypeScript clean, 4734 static pages (unchanged — `<FdicStats>` is a side-effect Client Component, no new route).
+
+**Railway deploy checklist**
+- The frontend commit is safe to deploy immediately — if the `/api/fdic-stats` endpoint 404s, the server-rendered snapshot stays visible.
+- The `forms-backend` change must be deployed to Railway separately (same service as the existing inflation-stats endpoint). No env var changes required; no DB migration.
 
 ### Files changed in Commit 1
 ```
@@ -39,6 +66,15 @@ components/ContentPageLayout.tsx                    (edited — ContentCardsBloc
 i18n/en/bank-runs_en.json                           (edited — 18 new keys, 2 rewrites, 1 removed, date bump)
 memory-bank/activeContext.md                        (this entry prepended)
 memory-bank/progress.md                             (progress note prepended)
+```
+
+### Files changed in Commit 2
+```
+forms-backend/fdic-stats.js                         (NEW — scraper + xlsx parser + 24h file cache)
+forms-backend/server.js                             (edited — added /api/fdic-stats endpoint)
+components/FdicStats.tsx                            (NEW — Client Component, ~100 lines)
+app/[locale]/bank-runs/page.tsx                     (edited — mount <FdicStats />)
+i18n/en/bank-runs_en.json                           (edited — snapshot values updated to real Dec 2025 data)
 ```
 
 ---

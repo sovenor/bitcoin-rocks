@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt');
 const path = require('path');
 const db = require('./database');
 const { getInflationStats } = require('./inflation-stats');
+const { getFdicStats } = require('./fdic-stats');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -890,6 +891,24 @@ app.get('/api/inflation-stats', async (req, res) => {
     console.error('[inflation-stats] API error:', err);
     const code = /Unsupported currency/i.test(err.message) ? 400 : 500;
     res.status(code).json({ error: err.message || 'Failed to fetch stats' });
+  }
+});
+
+// ============================================================
+// FDIC STATS API (public, CORS-enabled)
+// ============================================================
+
+app.get('/api/fdic-stats', async (req, res) => {
+  // Allow cross-origin requests from bitcoin.rocks
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Cache-Control', 'public, max-age=3600'); // Browser cache 1 hour
+
+  try {
+    const stats = await getFdicStats();
+    res.json(stats);
+  } catch (err) {
+    console.error('[fdic-stats] API error:', err);
+    res.status(500).json({ error: err.message || 'Failed to fetch FDIC stats' });
   }
 });
 

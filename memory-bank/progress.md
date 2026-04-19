@@ -9,8 +9,16 @@ First content update since the CSS refactor. Added stat-card + learn-more-card b
 - `i18n/en/bank-runs_en.json`: 18 new keys across 6 card groups, 2 prose rewrites (`bank_runs_svb_p1`, `bank_runs_fdic_p1`), 1 removed key (`bank_runs_bitcoin_wallet_cta`), `@metadata.last-updated` → 2026-04-19.
 - `typecheck` clean.
 
-**Coming next (Commit 2)**
-Live FDIC data pipeline: a new `forms-backend/fdic-stats.js` (scrapes the Q4 FDIC Statistics at a Glance CSV/HTML, 24h file cache), `/api/fdic-stats` endpoint, and a `<FdicStats>` Client Component that writes the real coverage %/detail into the `stat-fdic-coverage-value` / `stat-fdic-coverage-detail` DOM ids at runtime. Same pattern as `components/InflationStats.tsx`. For now the Q4 2025 snapshot (~1.3%, ~$140B fund vs ~$11T insured) ships server-rendered.
+**What landed (Commit 2) — live FDIC data pipeline**
+- `forms-backend/fdic-stats.js` (NEW). Quarterly scraper: fetches the FDIC Statistics-at-a-Glance HTML, finds the most-recent `statistics-glance-historical-trends-<quarter>.xlsx` link, downloads the xlsx, and parses `Fund Balance` / `Insured Deposits` / `Reserve Ratio` rows + `As of <date>` header. Unpacks the xlsx with native `zlib.inflateRawSync` — zero new npm deps. 24h file cache (`fdic-stats-cache.json`), stale-cache-on-error + hard-coded fallback chain.
+- `forms-backend/server.js` — new `/api/fdic-stats` endpoint (CORS `*`, 1h browser cache).
+- `components/FdicStats.tsx` (NEW, Client Component, ~100 lines). Side-effect-only; on mount, fetches the endpoint and writes real values into `#stat-fdic-coverage-value` + `#stat-fdic-coverage-detail` via `document.getElementById(...)`. Formats `insuredDeposits` as `$X.XXT` when above 1000 billions. Silent fallback leaves server-rendered snapshot intact.
+- `app/[locale]/bank-runs/page.tsx` — mounts `<FdicStats />`.
+- `i18n/en/bank-runs_en.json` — updated the server-rendered snapshot to the real Dec 2025 data pulled from the xlsx: `1.42%`, `$153.9B insurance fund vs $10.82T in insured deposits (Dec 2025)`.
+
+Local smoke test verifies end-to-end: `getFdicStats()` returns `{ reserveRatio: 1.42, fundBalance: 153.9, insuredDeposits: 10822, asOfLabel: "Dec 2025", asOfDate: "2025-12-31", source: "live" }`. `npm run typecheck` + `npm run build` both clean (4734 static pages, unchanged — `<FdicStats>` is side-effect only, no new route).
+
+**Deploy note:** the frontend commit is safe to deploy standalone because the Client Component fails silently if `/api/fdic-stats` 404s. The `forms-backend` commit needs a separate Railway redeploy for the live pipeline to activate.
 
 ---
 
