@@ -122,8 +122,10 @@ h1 {
 	line-height: 44px;
 	color: var(--color-bitcoin-orange);
 	text-align: center;
-	max-width: 80%;
 	margin: 0 auto;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 16px;
 }
 @media (max-width: 700px) {
 	h1 {
@@ -518,14 +520,6 @@ a.whats-next-card:hover .whats-next-card-source {
 	line-height: 26px;
 	color: var(--color-fg-muted);
 	margin-bottom: 16px;
-}
-
-/* Inflation's hero H1 gets slightly more side padding than the
-   base H1 since it sits directly against container-inner. */
-.inflation-section h1 {
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 30px;
 }
 
 /* Inline orange highlight (used by `.inflation-intro .text-highlight`) */
@@ -971,16 +965,6 @@ svg.story-card-icon {
    .inflation-section, .stat-cards-grid, .sources-section, and
    .publisher-attribution from the inflation block above.
    ═══════════════════════════════════════════════════════════════════ */
-
-/* Hero / intro spacing — shorter than the inflation page since
-   there's no country picker between hero and content. */
-.comparison-hero {
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-.comparison-hero h1 {
-	line-height: 1.15;
-}
 
 /* The asset word (GOLD / STOCKS / CASH) reads its color from a
    CSS custom property set per page on the parent container. Falls

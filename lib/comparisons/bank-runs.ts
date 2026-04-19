@@ -2,8 +2,8 @@
  * Data for the `/bank-runs` page.
  *
  * Shape differs from the other comparison pages: there are no "chip
- * pairs", just Q&A-style sections (H2 + prose). `ContentPageLayout`
- * renders these instead of `ComparisonPageLayout`.
+ * pairs", just H2 + prose sections. `ContentPageLayout` renders these
+ * instead of `ComparisonPageLayout`.
  */
 
 import type { SummaryFragment } from "./types";
@@ -32,10 +32,10 @@ export type ContentPageData = {
 	namespace: string;
 	metaImage: string;
 
-	/** H1 parts: two lines ("BITCOIN DOESN'T HAVE BANK RUNS" / "BUT YOUR BANK MIGHT"). */
+	/** H1 parts: two lines (white title / orange subtitle). */
 	headerKeys: {
-		title: string; // First line
-		subtitle: string; // Orange second line
+		title: string;
+		subtitle: string;
 	};
 
 	/** Page title (meta, Article headline). */
@@ -51,14 +51,11 @@ export type ContentPageData = {
 };
 
 /**
- * /bank-runs page data.
- *
- * Mirrors `bank-runs.html` 1:1: 5 main sections covering bank runs,
- * SVB, FDIC limits, "safe banks", and how Bitcoin protects from all
- * of the above. Common "what is bitcoin" / "is it volatile" / "hacked"
- * sections are dropped because the Phase 7 comparison layout surfaces
- * a dedicated "What's next?" + sources flow that better funnels the
- * reader to the deeper pages (/wallets, /buy, /compound-inflation-calculator).
+ * /bank-runs page data — 4 tight sections:
+ *   1. What is a bank run?
+ *   2. Silicon Valley Bank: a real example
+ *   3. FDIC insurance covers about 1% of deposits
+ *   4. Bitcoin doesn't have bank runs
  */
 export const BANK_RUNS: ContentPageData = {
 	slug: "bank-runs",
@@ -69,93 +66,67 @@ export const BANK_RUNS: ContentPageData = {
 		subtitle: "bank_runs_header_2",
 	},
 	titleKey: "bitcoin_doesnt_have_bank_runs",
-	descriptionKey: "bank_runs_what_content_1",
+	descriptionKey: "bank_runs_page_description",
 	sections: [
+		// ── 1. What is a bank run? ─────────────────────────────────────────
 		{
 			headingKey: "bank_runs_what",
 			paragraphs: [
-				[{ key: "bank_runs_what_content_1" }],
-				[{ key: "bank_runs_what_content_2" }],
+				[{ key: "bank_runs_what_p1" }],
+				[{ key: "bank_runs_what_p2" }],
 			],
 		},
+
+		// ── 2. SVB: a real example ─────────────────────────────────────────
 		{
-			headingKey: "bank_runs_how",
+			headingKey: "bank_runs_svb_heading",
 			paragraphs: [
-				[{ key: "bank_runs_how_content_1" }],
-				[{ key: "bank_runs_how_content_2" }],
-				[{ key: "bank_runs_how_content_3" }],
-				[{ key: "bank_runs_how_content_4" }],
 				[
 					{
-						key: "bank_runs_how_content_5",
-						href: "https://www.cnbc.com/2023/03/10/silicon-valley-bank-collapse-how-it-happened.html",
+						key: "bank_runs_svb_p1",
+						href: "https://www.fdic.gov/news/press-releases/2023/pr23016.html",
 						external: true,
 					},
 				],
-				[{ key: "bank_runs_how_content_6" }],
-				[{ key: "bank_runs_how_content_7" }],
-				[{ key: "bank_runs_how_content_8" }],
+				[{ key: "bank_runs_svb_p2" }],
 			],
 		},
+
+		// ── 3. FDIC covers ~1% ─────────────────────────────────────────────
 		{
-			headingKey: "bank_runs_fdic",
+			headingKey: "bank_runs_fdic_heading",
 			paragraphs: [
-				[{ key: "bank_runs_fdic_content_1" }],
-				[{ key: "bank_runs_fdic_content_2" }],
-				[{ key: "bank_runs_fdic_content_3" }],
 				[
 					{
-						key: "bank_runs_fdic_content_4",
-						href: "https://www.fdic.gov/news/speeches/2022/spsep0822.html",
+						key: "bank_runs_fdic_p1",
+						href: "https://www.fdic.gov/analysis/quarterly-banking-profile/statistics-at-a-glance",
 						external: true,
 					},
 				],
-				[{ key: "bank_runs_fdic_content_5" }],
 				[
 					{
-						key: "bank_runs_fdic_content_6",
+						key: "bank_runs_fdic_p2",
 						href: "/inflation",
 						localize: true,
 					},
 				],
 			],
 		},
+
+		// ── 4. Bitcoin is the solution ─────────────────────────────────────
 		{
-			headingKey: "bank_runs_safe",
+			headingKey: "bank_runs_bitcoin_heading",
 			paragraphs: [
-				[{ key: "bank_runs_safe_content_1" }],
+				[{ key: "bank_runs_bitcoin_p1" }],
+				[{ key: "bank_runs_bitcoin_p2" }],
 				[
 					{
-						key: "bank_runs_safe_content_2",
-						href: "https://caitlin-long.com/why-cant-we-just-have-safe-boring-banks/",
-						external: true,
-					},
-				],
-				[{ key: "bank_runs_safe_content_3" }],
-				[{ key: "bank_runs_safe_content_4" }],
-				[
-					{
-						key: "bank_runs_safe_content_5",
-						href: "/inflation",
-						localize: true,
-					},
-				],
-				[{ key: "bank_runs_safe_content_6" }],
-			],
-		},
-		{
-			headingKey: "bank_runs_protect",
-			paragraphs: [
-				[{ key: "bank_runs_protect_content_1" }],
-				[{ key: "bank_runs_protect_content_2" }],
-				[
-					{
-						key: "bank_runs_protect_content_3",
+						key: "bank_runs_bitcoin_wallet_cta",
 						href: "/wallets",
 						localize: true,
 					},
 				],
-				[{ key: "bank_runs_protect_content_4" }],
+				[{ key: "bank_runs_bitcoin_p3" }],
 			],
 		},
 	],
@@ -166,8 +137,7 @@ export const BANK_RUNS: ContentPageData = {
 		},
 		{
 			url: "https://www.fdic.gov/news/press-releases/2023/pr23016.html",
-			label:
-				"FDIC — Press Release: Silicon Valley Bank, Santa Clara, California (March 10, 2023)",
+			label: "FDIC — Press Release: Silicon Valley Bank, Santa Clara, California (March 10, 2023)",
 		},
 		{
 			url: "https://www.fdic.gov/analysis/quarterly-banking-profile",
@@ -175,12 +145,11 @@ export const BANK_RUNS: ContentPageData = {
 		},
 		{
 			url: "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
-			label: "Federal Reserve — Fractional Reserve Banking",
+			label: "Federal Reserve — Reserve Requirements",
 		},
 		{
 			url: "https://bitcoin.org/bitcoin.pdf",
-			label:
-				"Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
+			label: "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 		},
 	],
 };

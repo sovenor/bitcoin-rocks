@@ -23,8 +23,26 @@ import { defaultLocale, type Locale } from "./config";
 /** Flat messages object (strings only — jquery.i18n never nested). */
 export type FlatMessages = Record<string, string>;
 
-/** In-memory cache. Cleared on process restart; Next dev reloads handle re-reads. */
+/**
+ * In-memory cache of parsed message bags.
+ *
+ * Populated on production/build only. In dev we intentionally bypass the cache
+ * so editing an `i18n/<locale>/*.json` file is reflected on the next browser
+ * refresh without restarting the dev server.
+ *
+ * Why the dev bypass is necessary: these JSON files aren't part of Next's
+ * module graph (we `fs.readFile()` them at request time rather than `import`
+ * them), so Turbopack's file watcher doesn't invalidate this module when the
+ * JSON changes. That means without the bypass, the Map would stay populated
+ * for the lifetime of the dev process and stale translations would be served
+ * until the Node process restarted.
+ *
+ * The per-request re-read is cheap — a few KB per namespace, served from the
+ * OS file cache — and only runs for the ~90 default namespaces loaded per
+ * request in `lib/i18n/request.ts`.
+ */
 const cache = new Map<string, FlatMessages>();
+const CACHE_ENABLED = process.env.NODE_ENV === "production";
 
 /** Absolute path to the repo-root `i18n/` directory. */
 const I18N_ROOT = path.join(process.cwd(), "i18n");
@@ -48,8 +66,10 @@ async function readNamespace(
 	namespace: string,
 ): Promise<FlatMessages | null> {
 	const cacheKey = `${locale}::${namespace}`;
-	const cached = cache.get(cacheKey);
-	if (cached) return cached;
+	if (CACHE_ENABLED) {
+		const cached = cache.get(cacheKey);
+		if (cached) return cached;
+	}
 
 	const p = filePath(locale, namespace);
 	let raw: string;
@@ -90,7 +110,7 @@ async function readNamespace(
 		// arrays; none are used as i18n keys so this is safe).
 	}
 
-	cache.set(cacheKey, out);
+	if (CACHE_ENABLED) cache.set(cacheKey, out);
 	return out;
 }
 
