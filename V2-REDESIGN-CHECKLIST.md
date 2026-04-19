@@ -178,7 +178,113 @@ Individual language pages:
 
 ---
 
+## 🌐 i18n Translation Cleanup (post-cutover)
+
+Once **all pages above are V2-complete**, the V2 redesign pass will have left the i18n JSON files in an inconsistent state across the site's 55 locales:
+
+- **Dead keys:** V1-only strings that no longer render anywhere (old section headings, removed FAQ copy, old CTA labels, etc.) are still sitting in every language file.
+- **Stale translations:** keys whose English source text changed during the V2 pass — the other 54 languages still hold the old V1 wording.
+- **Missing keys:** new V2 keys (new card labels, new sources, "What's next" cross-links, etc.) exist in English but are missing from the other 54 languages and currently fall through to the English fallback.
+
+This section tracks the cleanup work needed to bring every language back to parity with V2 English.
+
+### Step 1 — Audit English files to identify dead keys
+
+- [ ] Write an audit script (`scripts/i18n-audit/find-unused-keys.js`) that greps the whole `app/`, `components/`, and `lib/` tree for every key referenced via `t('…')`, `getTranslations()`, `useTranslations()`, etc., then diffs against every key in `i18n/en/**/*.json`.
+- [ ] Produce a per-namespace report of unused English keys (`scripts/i18n-audit/unused-keys-report.json`).
+- [ ] Manually review the report to confirm each "unused" key really is dead (watch out for dynamic keys built via string concatenation / template literals — e.g. `t(\`platform_\${id}_name\`)`).
+- [ ] Flag any dynamic-key patterns so the audit script can be taught to recognize them (allow-list file).
+
+### Step 2 — Delete dead keys from English
+
+- [ ] Write a removal script (`scripts/i18n-audit/remove-unused-keys.js`) that takes the confirmed unused-keys list and strips them from every `i18n/en/**/*.json` file, preserving tab indentation and `@metadata`.
+- [ ] Bump `@metadata.last-updated` on every touched English file.
+- [ ] Run `npm run build` to confirm nothing regresses (no missing-key fallbacks, no broken pages).
+- [ ] Commit the English cleanup as a discrete PR so translators can see a clean diff of what was removed.
+
+### Step 3 — Propagate deletions to all other languages
+
+- [ ] Extend the removal script to iterate over all 54 non-English locales and delete the same key set from each language's JSON files.
+- [ ] Bump `@metadata.last-updated` on every touched file.
+- [ ] Verify no language file is left with orphan keys (audit script re-run).
+
+### Step 4 — Re-translate updated + new keys for every language
+
+For each language, for every namespace: (a) find keys whose English value changed during V2 and update the translation, and (b) find keys present in English but missing in this language and translate them.
+
+- [ ] Write a diff script (`scripts/i18n-audit/language-diff.js <lang>`) that reports, per language: **updated keys** (English source changed since that language was last touched — compare against `@metadata.last-updated` or a snapshot hash) and **missing keys** (present in English, absent here).
+- [ ] For each language below, run the diff, translate everything flagged, update `@metadata.last-updated`, and re-run `scripts/audit-translation.js <lang>` to confirm no English strings leaked in.
+
+Languages (54 non-English — tick each off when its updated + missing keys are fully translated):
+
+- [ ] `af` — Afrikaans
+- [ ] `am` — Amharic
+- [ ] `ar` — Arabic
+- [ ] `az` — Azerbaijani
+- [ ] `bg` — Bulgarian
+- [ ] `bn` — Bengali
+- [ ] `ca` — Catalan
+- [ ] `cs` — Czech
+- [ ] `da` — Danish
+- [ ] `de` — German
+- [ ] `el` — Greek
+- [ ] `es` — Spanish
+- [ ] `et` — Estonian
+- [ ] `eu` — Basque
+- [ ] `fa` — Persian
+- [ ] `fi` — Finnish
+- [ ] `fil` — Filipino
+- [ ] `fr` — French
+- [ ] `ga` — Irish
+- [ ] `ha` — Hausa
+- [ ] `he` — Hebrew
+- [ ] `hi` — Hindi
+- [ ] `hr` — Croatian
+- [ ] `hu` — Hungarian
+- [ ] `id` — Indonesian
+- [ ] `it` — Italian
+- [ ] `ja` — Japanese
+- [ ] `ko` — Korean
+- [ ] `lt` — Lithuanian
+- [ ] `ms` — Malay
+- [ ] `my` — Burmese
+- [ ] `nb` — Norwegian (Bokmål)
+- [ ] `nl` — Dutch
+- [ ] `ny` — Chichewa
+- [ ] `pa` — Punjabi
+- [ ] `pl` — Polish
+- [ ] `pt` — Portuguese
+- [ ] `ro` — Romanian
+- [ ] `ru` — Russian
+- [ ] `si` — Sinhala
+- [ ] `sk` — Slovak
+- [ ] `sl` — Slovenian
+- [ ] `sv` — Swedish
+- [ ] `sw` — Swahili
+- [ ] `ta` — Tamil
+- [ ] `th` — Thai
+- [ ] `tl` — Tagalog
+- [ ] `tr` — Turkish
+- [ ] `ur` — Urdu
+- [ ] `uz` — Uzbek
+- [ ] `vi` — Vietnamese
+- [ ] `yo` — Yoruba
+- [ ] `zh` — Chinese
+- [ ] `zu` — Zulu
+
+### Step 5 — Final verification
+
+- [ ] Run `scripts/audit-translation.js` across **all** non-English locales; zero English-leak findings.
+- [ ] Re-run the unused-keys audit from Step 1 to confirm no new dead keys crept in during the V2 pass.
+- [ ] Spot-check 3–5 random pages in 3–5 random languages (including one RTL) against the live site to confirm rendered copy looks right.
+- [ ] Verify all `@metadata.last-updated` fields are current.
+- [ ] Re-build and check `app/sitemap.ts` still emits every locale × slug combination.
+- [ ] Update `memory-bank/progress.md` + `memory-bank/activeContext.md` to note the i18n cleanup is complete.
+
+---
+
 ## Summary counts
+
 
 | Category | Total | Done |
 |---|---:|---:|
@@ -198,6 +304,13 @@ Individual language pages:
 | Shared components | 25 | ~8 |
 | Cross-cutting patterns | 6 | 2 |
 
+| i18n cleanup | Total | Done |
+|---|---:|---:|
+| English audit + dead-key removal (Steps 1–2) | 6 | 0 |
+| Per-language re-translation (Steps 3–4) | 54 | 0 |
+| Verification & cleanup (Step 5) | 6 | 0 |
+
 ---
 
 _Last updated: 2026-04-19_
+
