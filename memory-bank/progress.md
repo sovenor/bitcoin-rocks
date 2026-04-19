@@ -1,3 +1,19 @@
+## `/bank-runs` stat cards — April 19, 2026
+
+First content update since the CSS refactor. Added stat-card + learn-more-card blocks to every `/bank-runs` section, matching the inflation-page hero stat card style (same `.stat-cards-grid` + `.stat-card` classes, no new CSS).
+
+**What landed (Commit 1)**
+- Extended `ContentSection` (`lib/comparisons/bank-runs.ts`) with `cards?: readonly ContentCard[]`. Two card types: `StatCard` (label / `valueLiteral`|`valueKey` / tone=success|danger|accent|muted / detail / source / href) and `LearnMoreCard` (label / title / source / href). `StatCard` also carries optional `valueDomId`/`detailDomId` for the upcoming live-FDIC client component to target.
+- `components/ContentPageLayout.tsx` renders cards in a new `<ContentCardsBlock>` after each section's paragraphs. Two stat cards → `.stat-cards-grid`. A single learn-more card → full-width `.whats-next-grid`.
+- `BANK_RUNS` data: Section 1 gets 2 stat cards (Bank reserve ratio 0% / Bitcoin reserve ratio 100%); Section 2 drops the inline FDIC link and gains a learn-more card → UW Law SVB explainer; Section 3 drops both inline links and gains 2 stat cards (FDIC coverage ~1.3% / Bitcoin coverage 100%); Section 4 replaces the inline wallet CTA paragraph with a learn-more card → `/wallets`.
+- `i18n/en/bank-runs_en.json`: 18 new keys across 6 card groups, 2 prose rewrites (`bank_runs_svb_p1`, `bank_runs_fdic_p1`), 1 removed key (`bank_runs_bitcoin_wallet_cta`), `@metadata.last-updated` → 2026-04-19.
+- `typecheck` clean.
+
+**Coming next (Commit 2)**
+Live FDIC data pipeline: a new `forms-backend/fdic-stats.js` (scrapes the Q4 FDIC Statistics at a Glance CSV/HTML, 24h file cache), `/api/fdic-stats` endpoint, and a `<FdicStats>` Client Component that writes the real coverage %/detail into the `stat-fdic-coverage-value` / `stat-fdic-coverage-detail` DOM ids at runtime. Same pattern as `components/InflationStats.tsx`. For now the Q4 2025 snapshot (~1.3%, ~$140B fund vs ~$11T insured) ships server-rendered.
+
+---
+
 ## CSS Refactor complete — April 18, 2026
 
 Cleaned up `app/globals.css` on `v2-nextjs-redesign`. File size went from **2368 → 1090 lines (-54%)** across 3 commits prefixed `CSS refactor:`. Zero visual change on V2 pages (/, /inflation, /bitcoin-vs-*, /about, /get-involved, /bank-runs); V1 pages kept rendering with browser defaults + the new base element styles (they're scheduled for V2 redesign post-cutover anyway). `main` still frozen.

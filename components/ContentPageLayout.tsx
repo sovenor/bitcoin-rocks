@@ -7,7 +7,12 @@ import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 import type { SummaryFragment } from "@/lib/comparisons/types";
-import type { ContentPageData } from "@/lib/comparisons/bank-runs";
+import type {
+	ContentCard,
+	ContentPageData,
+	LearnMoreCard,
+	StatCard,
+} from "@/lib/comparisons/bank-runs";
 
 /**
  * Server Component that renders a content-style Phase 7 page
@@ -17,6 +22,8 @@ import type { ContentPageData } from "@/lib/comparisons/bank-runs";
  *   - No per-point chip pairs — just a sequence of H2 + paragraphs.
  *   - Two-line hero H1 (title white, subtitle orange).
  *   - No ItemList schema — only Article + BreadcrumbList.
+ *   - Optional per-section `cards` block (stat cards or a learn-more
+ *     card) rendered after the paragraphs.
  *
  * Shares the `WhatsNextCard` grid, sources list, publisher attribution
  * + reviewed badge structure with `ComparisonPageLayout` so the V2 UX
@@ -93,6 +100,14 @@ export async function ContentPageLayout({
 									</p>
 								))}
 							</div>
+
+							{section.cards && section.cards.length > 0 && (
+								<ContentCardsBlock
+									cards={section.cards}
+									locale={l}
+									tResolve={t}
+								/>
+							)}
 						</div>
 					</section>
 				))}
@@ -195,6 +210,137 @@ export async function ContentPageLayout({
 				</div>
 			</div>
 		</>
+	);
+}
+
+/**
+ * Render a section's card block. Two `StatCard`s land in a side-by-side
+ * `.stat-cards-grid` (collapses to 1-col on mobile — matches the
+ * inflation-page hero cards). A single `LearnMoreCard` is wrapped in
+ * a 1-col `.whats-next-grid` so it picks up the same V2 V2 card styling.
+ */
+function ContentCardsBlock({
+	cards,
+	locale,
+	tResolve,
+}: {
+	cards: readonly ContentCard[];
+	locale: string;
+	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+}) {
+	// Split into stat-cards vs learn-more cards. We currently only ever
+	// render one group at a time per section (2 stat cards OR 1 learn-
+	// more card), but the schema tolerates either/both so we keep the
+	// rendering branched and explicit.
+	const statCards = cards.filter((c): c is StatCard => c.type === "stat");
+	const learnMoreCards = cards.filter(
+		(c): c is LearnMoreCard => c.type === "learn-more",
+	);
+
+	return (
+		<>
+			{statCards.length > 0 && (
+				<div className="stat-cards-grid">
+					{statCards.map((card, i) => (
+						<StatCardView
+							key={i}
+							card={card}
+							locale={locale}
+							tResolve={tResolve}
+						/>
+					))}
+				</div>
+			)}
+
+			{learnMoreCards.length > 0 && (
+				<div
+					className="whats-next-grid"
+					style={{ gridTemplateColumns: "1fr" }}
+				>
+					{learnMoreCards.map((card, i) => (
+						<LearnMoreCardView
+							key={i}
+							card={card}
+							locale={locale}
+							tResolve={tResolve}
+						/>
+					))}
+				</div>
+			)}
+		</>
+	);
+}
+
+function StatCardView({
+	card,
+	locale,
+	tResolve,
+}: {
+	card: StatCard;
+	locale: string;
+	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+}) {
+	const href = card.localize
+		? `/${locale.replace(/^\/+/, "")}${card.href}`
+		: card.href;
+	const externalProps = card.external
+		? { target: "_blank", rel: "noopener noreferrer" }
+		: {};
+	const value = card.valueLiteral ?? (card.valueKey ? tResolve(card.valueKey) : "");
+
+	return (
+		<a href={href} className="stat-card" {...externalProps}>
+			<div className="stat-card-label">{tResolve(card.labelKey)}</div>
+			<div
+				className={`stat-card-value ${card.valueTone}`}
+				id={card.valueDomId}
+			>
+				{value}
+			</div>
+			{card.detailKey && (
+				<div className="stat-card-detail" id={card.detailDomId}>
+					{tResolve(card.detailKey)}
+				</div>
+			)}
+			{card.sourceKey && (
+				<div className="stat-card-source">
+					{tResolve(card.sourceKey)}
+				</div>
+			)}
+		</a>
+	);
+}
+
+function LearnMoreCardView({
+	card,
+	locale,
+	tResolve,
+}: {
+	card: LearnMoreCard;
+	locale: string;
+	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+}) {
+	const href = card.localize
+		? `/${locale.replace(/^\/+/, "")}${card.href}`
+		: card.href;
+	const externalProps = card.external
+		? { target: "_blank", rel: "noopener noreferrer" }
+		: {};
+
+	return (
+		<a href={href} className="whats-next-card" {...externalProps}>
+			<div>
+				<div className="whats-next-card-label">
+					{tResolve(card.labelKey)}
+				</div>
+				<div className="whats-next-card-title">
+					{tResolve(card.titleKey)}
+				</div>
+			</div>
+			<div className="whats-next-card-source">
+				{tResolve(card.sourceKey)}
+			</div>
+		</a>
 	);
 }
 

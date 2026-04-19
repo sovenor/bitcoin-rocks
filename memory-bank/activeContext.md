@@ -1,4 +1,49 @@
-## Latest: CSS Refactor — April 18, 2026
+## Latest: `/bank-runs` stat cards — April 19, 2026
+
+First content update since the CSS refactor. Added stat-card + learn-more-card blocks to the four `/bank-runs` sections, matching the visual style of the inflation page's hero stat cards (same `.stat-cards-grid` + `.stat-card` classes). No new CSS — reused what the inflation page already had.
+
+### Commit 1 — stat cards redesign
+
+**`lib/comparisons/bank-runs.ts`** — extended `ContentSection` schema with an optional `cards: readonly ContentCard[]` field. Two card types:
+- `StatCard` — mirrors the inflation-page hero card. Fields: `labelKey`, `valueLiteral` OR `valueKey`, `valueTone` (`success`/`danger`/`accent`/`muted`), optional `detailKey`, optional `sourceKey`, `href`, `external`/`localize` flags, optional `valueDomId`/`detailDomId` for the upcoming FDIC-live-data client component.
+- `LearnMoreCard` — wraps `WhatsNextCard` shape (`labelKey` + `titleKey` + `sourceKey` + `href`).
+
+**`components/ContentPageLayout.tsx`** — new `<ContentCardsBlock>` helper renders cards after each section's paragraphs. Two stat cards share a `.stat-cards-grid` (2-col → 1-col mobile). A single learn-more card spans full-width via `.whats-next-grid` with inline `gridTemplateColumns: "1fr"`.
+
+**`BANK_RUNS` data** now:
+- Section 1 (What is a bank run?) → 2 stat cards: **Bank reserve ratio 0%** (danger, → federalreserve.gov/monetarypolicy/reservereq.htm) + **Bitcoin reserve ratio 100%** (success, → bitcoin.org/bitcoin.pdf).
+- Section 2 (SVB) → dropped the inline FDIC link in p1; added a full-width learn-more card **"Learn how the Silicon Valley Bank run happened"** (→ law.uw.edu/news-events/news/2023/svb-collapse).
+- Section 3 (FDIC) → dropped both inline links; added 2 stat cards: **FDIC coverage ~1.3%** (danger, with Q4 2025 snapshot detail "~$140B fund vs ~$11T in insured deposits"; both value + detail get DOM ids `stat-fdic-coverage-value` + `stat-fdic-coverage-detail` for the upcoming `<FdicStats>` live-data client component) + **Bitcoin coverage 100%** (success, "Full-reserve system — no deposit insurance needed"). Rewrote p1 to stand alone without the inline link.
+- Section 4 (Bitcoin doesn't have bank runs) → dropped the `bank_runs_bitcoin_wallet_cta` paragraph; added a learn-more card **"Learn how to get your own Bitcoin wallet"** (→ `/wallets`, localized).
+- Added a new entry in `sources` for the UW Law SVB explainer.
+
+**`i18n/en/bank-runs_en.json`**:
+- Bumped `@metadata.last-updated` → `2026-04-19`.
+- Rewrote `bank_runs_svb_p1`, `bank_runs_fdic_p1` to drop the inline-link prose bridges.
+- Removed `bank_runs_bitcoin_wallet_cta` (now embedded in card form).
+- Added 18 new keys across the three card groups (`bank_runs_card_bank_reserve_*`, `bank_runs_card_btc_reserve_*`, `bank_runs_card_svb_*`, `bank_runs_card_fdic_*`, `bank_runs_card_btc_fdic_*`, `bank_runs_card_wallet_*`).
+
+Translation fallback: all 54 non-English locales will fall back to the English strings for the new card keys until translators pick them up via PRs. Existing keys (`bank_runs_svb_p1`, `bank_runs_fdic_p1`) have slightly updated English copy; localized overrides still win where present (the older translated text is a close enough paraphrase that the slight prose difference isn't jarring).
+
+### Build + verification
+- `npm run typecheck` → clean.
+- Visual check pending after user reloads `/en/bank-runs`.
+
+### Commit 2 — live FDIC data (follow-up)
+Planned: new `forms-backend/fdic-stats.js` scraping the FDIC Statistics at a Glance page + `/api/fdic-stats` endpoint + `<FdicStats>` Client Component that populates `stat-fdic-coverage-value` / `stat-fdic-coverage-detail` DOM ids at runtime. Same pattern as `components/InflationStats.tsx`. Deferred to a second commit in this task.
+
+### Files changed in Commit 1
+```
+lib/comparisons/bank-runs.ts                        (edited — schema + 4 sections gain cards)
+components/ContentPageLayout.tsx                    (edited — ContentCardsBlock + StatCardView + LearnMoreCardView)
+i18n/en/bank-runs_en.json                           (edited — 18 new keys, 2 rewrites, 1 removed, date bump)
+memory-bank/activeContext.md                        (this entry prepended)
+memory-bank/progress.md                             (progress note prepended)
+```
+
+---
+
+## Previous: CSS Refactor — April 18, 2026
 
 First post-migration housekeeping commit on `v2-nextjs-redesign`. `app/globals.css` dropped from 2368 to 1090 lines (-54%) across 3 commits prefixed `CSS refactor:`. Zero visual change on V2 pages; V1 pages temporarily render unstyled (acceptable — they're scheduled for V2 redesign post-cutover anyway).
 
