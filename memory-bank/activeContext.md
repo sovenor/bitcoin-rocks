@@ -1,4 +1,49 @@
-## Latest: `/bank-runs` stat cards — April 19, 2026
+## Latest: `/inflation` sources expansion — April 20, 2026
+
+The `/inflation` SOURCES block was ~4 years stale — just 6 generic entries (FRED M1 US, FRED int'l landing page, BLS CPI, Mempool, Bitcoin source code, whitepaper) — while the page body actually cites **~60 outbound URLs** across 13 currencies, 4 real-world stories, and the James Lavish Treasury-auction piece.
+
+### What changed
+
+**`app/[locale]/inflation/page.tsx`**
+- Replaced the single 6-item `<ol className="sources-list">` with **five grouped `<section className="sources-group">` blocks**:
+  1. **Money supply data** — 13 per-currency FRED M1 links (generated from `CURRENCY_URLS` + `CURRENCIES`) + FRED money-supply category index.
+  2. **Inflation / Consumer Price Index** — BLS (US authoritative source) + 13 per-currency FRED CPI links.
+  3. **Government debt** — 12 per-currency FRED general-government-debt links (EUR skipped; already `null` in `CURRENCY_URLS`) + James Lavish "Can a Treasury Auction Fail?".
+  4. **Bitcoin data** — Bitcoin Price Report, the whitepaper, the Core GitHub repo, Mempool.space.
+  5. **Real-world examples** — the four story-card URLs (Canada, Nigeria, Texas, Pennsylvania) that were already linked in the body.
+- The per-currency lists are **generated from `CURRENCY_URLS` + `CURRENCIES`** (the existing constants), so adding a new currency later automatically adds it to the money supply / CPI / debt groups with no extra bookkeeping.
+- Currency names come from the already-existing `inflation_us_dollar` / `inflation_australian_dollar` / etc. picker-button i18n keys (so the sources list is fully translatable for free).
+- Decision: **static, comprehensive list — not per-currency dynamic**. Reason: the sources block is primarily a GEO / E-E-A-T trust signal. Crawlers + LLM answer engines parse the initial server-rendered HTML once; a dynamic swap-out would shrink the visible citation count at any moment to ~6, defeating the purpose. The grouped list stays scannable for human readers.
+- Also extended `buildArticleSchema()` with canonical citations (14 authoritative sources as `CreativeWork` nodes under `citation: [...]` in the Article JSON-LD).
+
+**`lib/schema/article.ts`**
+- New optional `citations?: ArticleCitation[]` field (`{ url, name, publisher? }`). Emits `schema.citation = [{ "@type": "CreativeWork", name, url, publisher: { "@type": "Organization", name } }]`. No breaking changes — every existing caller compiles unchanged.
+
+**`app/globals.css`**
+- Added `.sources-group`, `.sources-group-title`, and a `.sources-group .sources-list { list-style-type: disc }` override under the existing `.sources-section` block. Uses semantic tokens (`var(--color-fg-muted)`, `var(--font-proxima)`) — no new hardcoded hex.
+
+**`i18n/en/common_en.json`** (via `scripts/add-sources-keys.js`)
+- +6 new keys inserted right after `common_sources_heading`:
+  - `common_sources_group_money` — "Money supply data"
+  - `common_sources_group_cpi` — "Inflation / Consumer Price Index"
+  - `common_sources_group_debt` — "Government debt"
+  - `common_sources_group_bitcoin` — "Bitcoin data"
+  - `common_sources_group_stories` — "Real-world examples"
+  - `common_sources_treasury_auction` — James Lavish piece title
+- `@metadata.last-updated` → `2026-04-20`.
+
+**`i18n/en/inflation_en.json`** — `@metadata.last-updated` → `2026-04-20` (the `dateModified` schema field auto-updates from this via `lib/schema/date-modified.ts`).
+
+### Translation fallback
+All 54 non-English locales fall back to the English strings for the 6 new keys until translators pick them up via PRs. The per-currency labels inside the lists already have translations in every language (they're the picker-button labels).
+
+### Build + verification
+- `npm run typecheck` → clean.
+- Files touched: 3 source files + 2 i18n files + 2 throwaway scripts (`scripts/add-sources-keys.js`, `scripts/bump-inflation-last-updated.js`).
+
+---
+
+## `/bank-runs` stat cards — April 19, 2026
 
 First content update since the CSS refactor. Added stat-card + learn-more-card blocks to the four `/bank-runs` sections, matching the visual style of the inflation page's hero stat cards (same `.stat-cards-grid` + `.stat-card` classes). No new CSS — reused what the inflation page already had.
 

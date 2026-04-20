@@ -209,12 +209,90 @@ export default async function InflationPage({
 	}));
 
 	// ── SEO schemas (Phase 4 helpers) ──
+	// Pass the canonical high-authority citations to the Article schema
+	// so Google + AI answer engines can parse the page's authoritative
+	// sources as a strong E-E-A-T / GEO signal. Kept to a focused list
+	// (rather than all ~60 per-currency URLs) to keep the JSON-LD
+	// payload readable — the per-currency FRED URLs are linked in the
+	// visible Sources block below for readers.
 	const articleSchema = await buildArticleSchema({
 		slug: "inflation",
 		locale,
 		headline,
 		description,
 		schemaType: "Article",
+		citations: [
+			{
+				url: "https://fred.stlouisfed.org/series/M1SL",
+				name: "M1 Money Supply (U.S. Dollar)",
+				publisher: "Federal Reserve Bank of St. Louis — FRED",
+			},
+			{
+				url: "https://fred.stlouisfed.org/categories/234",
+				name: "Narrow Money Supply — International Series",
+				publisher: "Federal Reserve Bank of St. Louis — FRED",
+			},
+			{
+				url: "https://fred.stlouisfed.org/series/CPIAUCSL",
+				name: "Consumer Price Index for All Urban Consumers",
+				publisher: "Federal Reserve Bank of St. Louis — FRED",
+			},
+			{
+				url: "https://www.bls.gov/cpi/",
+				name: "Consumer Price Index",
+				publisher: "U.S. Bureau of Labor Statistics",
+			},
+			{
+				url: "https://fred.stlouisfed.org/series/GFDEBTN",
+				name: "Federal Debt: Total Public Debt",
+				publisher: "Federal Reserve Bank of St. Louis — FRED",
+			},
+			{
+				url: "https://bitcoinpricereport.com/",
+				name: "Bitcoin Price Report — 4-year performance charts",
+				publisher: "Bitcoin Price Report",
+			},
+			{
+				url: "https://mempool.space",
+				name: "Bitcoin Supply & Mining Data",
+				publisher: "Mempool.space",
+			},
+			{
+				url: "https://github.com/bitcoin/bitcoin",
+				name: "Bitcoin Source Code — 21 Million Supply Cap",
+				publisher: "Bitcoin Core contributors",
+			},
+			{
+				url: "https://bitcoin.org/bitcoin.pdf",
+				name: "Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
+				publisher: "Satoshi Nakamoto",
+			},
+			{
+				url: "https://www.jameslavish.com/p/can-a-treasury-auction-fail",
+				name: "Can a Treasury Auction Fail?",
+				publisher: "James Lavish — The Informationist",
+			},
+			{
+				url: "https://www.youtube.com/watch?v=-gpaXXHEhQQ",
+				name: "Canadian trucker protest: Bitcoin used to bypass frozen bank accounts",
+				publisher: "YouTube",
+			},
+			{
+				url: "https://qz.com/africa/1922466/how-bitcoin-powered-nigerias-endsars-protests",
+				name: "How Bitcoin powered Nigeria's EndSARS protests",
+				publisher: "Quartz Africa",
+			},
+			{
+				url: "https://www.youtube.com/watch?v=48EIMlS0cIs",
+				name: "Texas Bitcoin mining and the electric grid",
+				publisher: "YouTube",
+			},
+			{
+				url: "https://www.youtube.com/watch?v=GtrhfMacYE4",
+				name: "Pennsylvania Bitcoin mining reclaims waste methane",
+				publisher: "YouTube",
+			},
+		],
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: "inflation",
@@ -311,68 +389,203 @@ export default async function InflationPage({
 
 				<div className="break-micro" />
 
-				{/* ═══ SOURCES (GEO trust signals) ═══ */}
+				{/* ═══ SOURCES (GEO trust signals) ═══
+				    Grouped by data category. The per-currency lists are
+				    generated from CURRENCY_URLS + CURRENCIES above so adding
+				    a new currency automatically adds it to all three
+				    per-currency groups (money supply, CPI, debt). ═══ */}
 				<div className="sources-section">
 					<div className="container-inner">
 						<h2 className="sources-heading">{t("common_sources_heading")}</h2>
-						<ol className="sources-list">
-							<li>
-								<a
-									href="https://fred.stlouisfed.org/series/M1SL"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Federal Reserve Economic Data (FRED) — M1 Money Supply (U.S. Dollar)
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://fred.stlouisfed.org/categories/234"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Federal Reserve Economic Data (FRED) — Narrow Money Supply
-									(International)
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://www.bls.gov/cpi/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									U.S. Bureau of Labor Statistics — Consumer Price Index
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://mempool.space"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Mempool.space — Bitcoin Supply &amp; Mining Data
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://github.com/bitcoin/bitcoin"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Bitcoin Source Code — 21 Million Supply Cap
-								</a>
-							</li>
-							<li>
-								<a
-									href="https://bitcoin.org/bitcoin.pdf"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash
-									System (2008)
-								</a>
-							</li>
-						</ol>
+
+						{/* ── Money supply (M1) — per-currency FRED ─────── */}
+						<section className="sources-group">
+							<h3 className="sources-group-title">
+								{t("common_sources_group_money")}
+							</h3>
+							<ul className="sources-list">
+								{CURRENCIES.map((c) => (
+									<li key={`m1-${c.code}`}>
+										<a
+											href={CURRENCY_URLS[c.code].m1}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Federal Reserve Economic Data (FRED) —{" "}
+											{t(c.labelKey)} ({c.code})
+										</a>
+									</li>
+								))}
+								<li>
+									<a
+										href="https://fred.stlouisfed.org/categories/24"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Federal Reserve Economic Data (FRED) — Money Supply
+										(Category Index)
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						{/* ── Inflation / CPI — per-currency FRED + BLS ─── */}
+						<section className="sources-group">
+							<h3 className="sources-group-title">
+								{t("common_sources_group_cpi")}
+							</h3>
+							<ul className="sources-list">
+								<li>
+									<a
+										href="https://www.bls.gov/cpi/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										U.S. Bureau of Labor Statistics — Consumer Price
+										Index (CPI)
+									</a>
+								</li>
+								{CURRENCIES.map((c) => (
+									<li key={`cpi-${c.code}`}>
+										<a
+											href={CURRENCY_URLS[c.code].cpi}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Federal Reserve Economic Data (FRED) — Consumer
+											Price Index, {t(c.labelKey)} ({c.code})
+										</a>
+									</li>
+								))}
+							</ul>
+						</section>
+
+						{/* ── Government debt — per-currency FRED + Lavish ── */}
+						<section className="sources-group">
+							<h3 className="sources-group-title">
+								{t("common_sources_group_debt")}
+							</h3>
+							<ul className="sources-list">
+								{CURRENCIES.filter(
+									(c) => CURRENCY_URLS[c.code].debt !== null,
+								).map((c) => (
+									<li key={`debt-${c.code}`}>
+										<a
+											href={CURRENCY_URLS[c.code].debt as string}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Federal Reserve Economic Data (FRED) —{" "}
+											General Government Debt, {t(c.labelKey)} ({c.code})
+										</a>
+									</li>
+								))}
+								<li>
+									<a
+										href="https://www.jameslavish.com/p/can-a-treasury-auction-fail"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{t("common_sources_treasury_auction")}
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						{/* ── Bitcoin data ─────────────────────────────────── */}
+						<section className="sources-group">
+							<h3 className="sources-group-title">
+								{t("common_sources_group_bitcoin")}
+							</h3>
+							<ul className="sources-list">
+								<li>
+									<a
+										href="https://bitcoinpricereport.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Bitcoin Price Report — 4-year performance charts
+										(all currencies)
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://bitcoin.org/bitcoin.pdf"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Satoshi Nakamoto — Bitcoin: A Peer-to-Peer
+										Electronic Cash System (2008)
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://github.com/bitcoin/bitcoin"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Bitcoin Source Code — 21 Million Supply Cap
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://mempool.space"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Mempool.space — Bitcoin Supply &amp; Mining Data
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						{/* ── Real-world examples (stories linked on page) ── */}
+						<section className="sources-group">
+							<h3 className="sources-group-title">
+								{t("common_sources_group_stories")}
+							</h3>
+							<ul className="sources-list">
+								<li>
+									<a
+										href="https://www.youtube.com/watch?v=-gpaXXHEhQQ"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Canadian trucker protest — Bitcoin used to bypass
+										frozen bank accounts (YouTube)
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://qz.com/africa/1922466/how-bitcoin-powered-nigerias-endsars-protests"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Quartz Africa — How Bitcoin powered Nigeria&rsquo;s
+										EndSARS protests
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.youtube.com/watch?v=48EIMlS0cIs"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Texas Bitcoin mining and the electric grid (YouTube)
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.youtube.com/watch?v=GtrhfMacYE4"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Pennsylvania Bitcoin mining reclaims waste methane
+										(YouTube)
+									</a>
+								</li>
+							</ul>
+						</section>
 					</div>
 				</div>
 

@@ -948,6 +948,26 @@ svg.story-card-icon {
 	color: var(--color-bitcoin-orange);
 	border-bottom-color: var(--color-bitcoin-orange);
 }
+/* Grouped sources (inflation page) — each <section> is a subgroup. */
+.sources-group {
+	margin-top: 18px;
+}
+.sources-group:first-child {
+	margin-top: 0;
+}
+.sources-group-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color-fg-muted);
+	margin: 0 0 6px;
+}
+.sources-group .sources-list {
+	list-style-type: disc;
+}
+
 
 /* ── Publisher attribution (bottom of content pages) ───────── */
 .publisher-attribution {

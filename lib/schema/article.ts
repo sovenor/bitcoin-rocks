@@ -17,6 +17,20 @@ import { getDateModified } from "./date-modified";
 
 export type ArticleSchemaType = "Article" | "WebPage";
 
+/**
+ * A single citation reference for the Article's `citation` property.
+ * Emitted as a `CreativeWork` node so Google + AI answer engines can
+ * parse the page's authoritative sources.
+ */
+export type ArticleCitation = {
+	/** Absolute URL of the cited source. */
+	url: string;
+	/** Human-readable title of the cited work. */
+	name: string;
+	/** Optional: name of the publishing organization. */
+	publisher?: string;
+};
+
 export type ArticleSchemaInput = {
 	/** Page slug (no leading slash). Empty string = homepage. */
 	slug: string;
@@ -32,6 +46,12 @@ export type ArticleSchemaInput = {
 	image?: string;
 	/** Optional: override `dateModified`. By default we read the English JSON `@metadata.last-updated`. */
 	dateModified?: string;
+	/**
+	 * Optional: list of authoritative sources cited by the page. Each
+	 * entry becomes a `CreativeWork` under the Article's `citation`
+	 * array — a strong GEO / E-E-A-T trust signal.
+	 */
+	citations?: ArticleCitation[];
 };
 
 /**
@@ -114,6 +134,20 @@ export async function buildArticleSchema(input: ArticleSchemaInput) {
 
 	if (image) {
 		schema.image = image;
+	}
+
+	if (input.citations && input.citations.length > 0) {
+		schema.citation = input.citations.map((c) => {
+			const node: Record<string, unknown> = {
+				"@type": "CreativeWork",
+				name: c.name,
+				url: c.url,
+			};
+			if (c.publisher) {
+				node.publisher = { "@type": "Organization", name: c.publisher };
+			}
+			return node;
+		});
 	}
 
 	return schema;

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-16",
+		"last-updated": "2026-04-20",
 		"locale": "en"
 	},
 	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
@@ -226,6 +226,12 @@
 	"common_footer_contribute": "Contribute",
 	"common_footer_nostr": "Nostr",
 	"common_sources_heading": "Sources",
+	"common_sources_group_money": "Money supply data",
+	"common_sources_group_cpi": "Inflation / Consumer Price Index",
+	"common_sources_group_debt": "Government debt",
+	"common_sources_group_bitcoin": "Bitcoin data",
+	"common_sources_group_stories": "Real-world examples",
+	"common_sources_treasury_auction": "James Lavish — \"Can a Treasury Auction Fail?\"",
 	"common_whats_next": "What's next?",
 	"common_next_keep_learning": "Keep learning",
 	"common_next_keep_learning_desc": "See how Bitcoin is improving the world",

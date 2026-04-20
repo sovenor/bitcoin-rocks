@@ -1,3 +1,19 @@
+## `/inflation` sources expansion — April 20, 2026
+
+The `/inflation` SOURCES block was ~4 years stale (just 6 generic entries vs ~60 outbound URLs actually cited on the page). Rewrote it as a grouped, comprehensive list + added `citation` nodes to the Article JSON-LD for GEO.
+
+**What landed**
+- `app/[locale]/inflation/page.tsx` — replaced the single 6-item `<ol>` with 5 grouped `<section className="sources-group">` blocks (Money supply / CPI / Government debt / Bitcoin data / Real-world examples). The 3 per-currency lists are **generated from the existing `CURRENCY_URLS` + `CURRENCIES` constants**, so adding a new currency later automatically adds it to all three groups with no extra bookkeeping. Per-currency labels come from the already-translated picker-button i18n keys (`inflation_us_dollar`, etc.).
+- Also passed 14 canonical high-authority citations to `buildArticleSchema()` — emitted as `CreativeWork` nodes under `citation: [...]` in the Article JSON-LD for Google + AI answer-engine parseability.
+- `lib/schema/article.ts` — new optional `citations?: ArticleCitation[]` field on `ArticleSchemaInput`. Zero breaking changes.
+- `app/globals.css` — added `.sources-group` + `.sources-group-title` styles, and a `.sources-group .sources-list { list-style-type: disc }` override under the existing `.sources-section` block. Semantic tokens only, no hardcoded hex.
+- `i18n/en/common_en.json` — +6 new keys (`common_sources_group_money`, `..._cpi`, `..._debt`, `..._bitcoin`, `..._stories`, `common_sources_treasury_auction`) + bumped `last-updated` → 2026-04-20.
+- `i18n/en/inflation_en.json` — bumped `last-updated` → 2026-04-20 (the schema `dateModified` auto-derives from this).
+
+**Decision:** static comprehensive list, not per-currency dynamic — the Sources block is primarily a GEO / E-E-A-T trust signal, and a dynamic swap-out would shrink the visible citation count at any moment to ~6, defeating the purpose. `npm run typecheck` clean.
+
+---
+
 ## `/bank-runs` stat cards — April 19, 2026
 
 First content update since the CSS refactor. Added stat-card + learn-more-card blocks to every `/bank-runs` section, matching the inflation-page hero stat card style (same `.stat-cards-grid` + `.stat-card` classes, no new CSS).
