@@ -40,15 +40,21 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	{ source: "/fineart", destination: "/bitcoin-vs-fine-art" },
 	{ source: "/visa", destination: "/bitcoin-vs-visa" },
 	{ source: "/banks", destination: "/bitcoin-vs-banks" },
-	// Case + singular/plural variants
-	{ source: "/INFLATION", destination: "/inflation" },
+	// Case + singular/plural variants.
+	// NOTE: Next's redirect matcher (path-to-regexp) is case-insensitive, so
+	// an entry like `/INFLATION → /inflation` creates an infinite 308 loop
+	// (the destination matches the source case-insensitively → redirects to
+	// itself forever). Keep every `source` here DIFFERENT from its
+	// `destination` even under ASCII case folding. Browsers effectively
+	// never emit ALL-CAPS paths anyway — they lowercase the URL bar host
+	// and preserve whatever the link said for the path. The all-caps
+	// aliases aren't worth the redirect-loop footgun.
 	{ source: "/bank-run", destination: "/bank-runs" },
 	{ source: "/bankrun", destination: "/bank-runs" },
 	{ source: "/bankruns", destination: "/bank-runs" },
 	{ source: "/wallet", destination: "/wallets" },
 	{ source: "/postcard", destination: "/postcards" },
 	{ source: "/flyer", destination: "/flyers" },
-	{ source: "/Lightning", destination: "/lightning" },
 	// Business section shortcuts
 	{ source: "/guide", destination: "/business/guide" },
 	{ source: "/guides", destination: "/business/guide" },

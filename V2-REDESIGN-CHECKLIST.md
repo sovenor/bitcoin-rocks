@@ -13,7 +13,7 @@ Legend:
 These are cross-cutting pieces that appear on many/all pages. They should be verified once and then assumed consistent everywhere.
 
 - [x] **Navbar** (`components/Navbar.tsx`) — logo-on-top-of-pill nav bar (Learn / Get Involved / About / Language)
-- [ ] **DynamicHeader** (`components/DynamicHeader.tsx`) — audit whether still used / needs V2 treatment
+- [x] **DynamicHeader** (`components/DynamicHeader.tsx`) — audit whether still used / needs V2 treatment
 - [ ] **Footer** (`components/Footer.tsx`) — V2 styling pass
 - [x] **LanguageSwitcher** (`components/LanguageSwitcher.tsx`)
 - [ ] **CountrySelector** (`components/CountrySelector.tsx`)
