@@ -1,4 +1,58 @@
-## Latest: `/get-involved` V2 redesign — April 20, 2026
+## Latest: Comparison-page translation-collision bugfix — April 20, 2026
+
+Every `/bitcoin-vs-*` comparison page was rendering a Frankenstein mix of explanations pulled from multiple comparison JSON files. The Bitcoin-side chip values, every paragraph underneath each comparison section, and several "intro" lines were all wrong — they showed strings from whichever `bitcoin-vs-*` namespace happened to be merged last into the global next-intl message bag.
+
+### Root cause
+
+`lib/i18n/request.ts` was eagerly loading **every** comparison namespace (`bitcoin-vs-gold`, `bitcoin-vs-stocks`, `bitcoin-vs-cash`, `bitcoin-vs-banks`, `bitcoin-vs-bonds`, `bitcoin-vs-real-estate`, `bitcoin-vs-crypto`, `bitcoin-vs-visa`, `bitcoin-vs-cbdc`, `bitcoin-vs-fine-art`, `bank-runs`, `about`, `get-involved`) for every request via `DEFAULT_NAMESPACES`. `loadMessages()` merges those into one flat object with `Object.assign({}, ...)` — **last-wins semantics on key collision**.
+
+All ten comparison files share the same generic key names: `bitcoin_point_1` … `bitcoin_point_10` plus `point_1_summary_1` … `point_N_summary_M`. Merging them together overwrote earlier values, so e.g. `bitcoin_point_1` on `/bitcoin-vs-banks` rendered the fine-art page's "Perfectly fungible" chip value, and `point_1_summary_1` rendered the CBDC explanation, etc.
+
+(Asset-specific keys like `gold_point_1`, `banks_header_4`, `cbdc` were uniquely named per file and worked correctly — that's why H1s and asset-side chip labels still looked right while everything on the Bitcoin side and every explanation paragraph was scrambled.)
+
+### Fix — per-page isolated translations
+
+New helper `lib/i18n/page-translations.ts`:
+
+```ts
+export async function getPageTranslations(
+  locale: Locale,
+  namespace: string,
+): Promise<PageTranslator> {
+  const messages = await loadMessages(locale, ["common", namespace]);
+  return (key: string) => messages[key] ?? key;
+}
+```
+
+Loads **only** `common` + one page-specific namespace, so generic keys never collide across pages. Returns a `(key) => string` resolver with the same call-site shape as `next-intl`'s `getTranslations()` return value — zero JSX changes required in the layouts.
+
+### Files changed
+
+```
+lib/i18n/page-translations.ts      (NEW — isolated per-page translator)
+components/ComparisonPageLayout.tsx (swap getTranslations() → getPageTranslations())
+components/ContentPageLayout.tsx    (swap getTranslations() → getPageTranslations())
+lib/comparisons/metadata.ts         (swap getTranslations() → getPageTranslations())
+app/[locale]/about/page.tsx         (metadata swap)
+app/[locale]/bank-runs/page.tsx     (metadata swap)
+app/[locale]/get-involved/page.tsx  (metadata swap)
+lib/i18n/request.ts                 (remove 13 now-unneeded namespaces from DEFAULT_NAMESPACES
+                                      — replaced with a big comment explaining why)
+memory-bank/activeContext.md        (this entry prepended)
+```
+
+No JSON / translation-file changes needed — the content on disk was always correct; only the loader was merging namespaces wrongly. Also slightly shrinks the default per-request message bag (13 fewer namespaces × 55 locales).
+
+### Verification
+
+- `npm run typecheck` → clean.
+- Dev-server smoke test against all 10 `/en/bitcoin-vs-*` pages confirmed unique, correct chip values and explanation prose per page.
+- `/es/bitcoin-vs-banks` spot-checked — Spanish chips + H1 render correctly (`"Acceso sin permisos"`, `"Requiere permiso"`, `"LA DIFERENCIA ENTRE"`).
+- `/en/bank-runs` renders its own content (was never visibly broken, but switched to the isolated loader for consistency).
+
+---
+
+## Previous: `/get-involved` V2 redesign — April 20, 2026
 
 Brought `/get-involved` in line with the V2 design system that `/about`, `/inflation`, and `/bank-runs` already use. Four editorial changes landed together:
 

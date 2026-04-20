@@ -33,27 +33,21 @@ const DEFAULT_NAMESPACES = [
 	"common",
 	"index",
 	"inflation",
-	// Phase 7a — comparison pages ship here so `ComparisonPageLayout`
-	// can resolve every page's strings from the same translations bag.
-	// Adding unused namespaces is cheap (cached in-memory, read-once per
-	// locale per build) and keeps `<Navbar>` / `<Footer>` strings + the
-	// per-page bundle available side-by-side.
-	"bitcoin-vs-gold",
-	"bitcoin-vs-stocks",
-	"bitcoin-vs-cash",
-	// Phase 7b — four more comparison pages.
-	"bitcoin-vs-banks",
-	"bitcoin-vs-bonds",
-	"bitcoin-vs-real-estate",
-	"bitcoin-vs-crypto",
-	// Phase 7c — final three comparisons + bank-runs content page.
-	"bitcoin-vs-visa",
-	"bitcoin-vs-cbdc",
-	"bitcoin-vs-fine-art",
-	"bank-runs",
-	// Phase 8 — content pages (about + get-involved).
-	"about",
-	"get-involved",
+	// ─────────────────────────────────────────────────────────────
+	// Note — comparison pages (`bitcoin-vs-*`) + the content pages
+	// that use `ComparisonPageLayout` / `ContentPageLayout`
+	// (`bank-runs`, `about`, `get-involved`) are intentionally NOT
+	// loaded globally. Each of those namespaces reuses the same
+	// generic key names (`bitcoin_point_1` … `point_1_summary_1` …)
+	// so merging them into one flat bag overwrites values with
+	// "last-wins" semantics and scrambles every comparison page's
+	// explanations.
+	//
+	// Those layouts now call `getPageTranslations(locale, namespace)`
+	// from `lib/i18n/page-translations.ts`, which loads `common` +
+	// just that one namespace in isolation. No more cross-namespace
+	// pollution.
+	// ─────────────────────────────────────────────────────────────
 	// Phase 9a — Bucket B educational pages (V1 faithful port).
 	"wallets",
 	"lightning",

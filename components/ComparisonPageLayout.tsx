@@ -1,9 +1,12 @@
 import type { CSSProperties } from "react";
-import { getTranslations } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
 import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
+import {
+	getPageTranslations,
+	type PageTranslator,
+} from "@/lib/i18n/page-translations";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import {
@@ -62,7 +65,11 @@ export async function ComparisonPageLayout({
 	data: ComparisonPageData;
 	locale: Locale;
 }) {
-	const t = await getTranslations({ locale });
+	// Load `common` + this page's namespace in isolation. Using the global
+	// next-intl bag scrambles comparison pages because all ten files share
+	// generic keys like `bitcoin_point_1` / `point_1_summary_1`; see
+	// `lib/i18n/page-translations.ts` for the full story.
+	const t = await getPageTranslations(locale, data.namespace);
 	const l = `/${locale}`;
 
 	// ── Pre-resolve common translations ──
@@ -288,7 +295,7 @@ function ComparisonPointSection({
 	assetLabel: string;
 	locale: Locale;
 	labels: { bitcoin: string; asset: string };
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 }) {
 	const l = `/${locale}`;
 
@@ -353,7 +360,7 @@ function SummaryFragmentSpan({
 }: {
 	frag: SummaryFragment;
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 	isLast: boolean;
 }) {
 	const translated = tResolve(frag.key);

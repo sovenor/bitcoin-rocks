@@ -1,9 +1,12 @@
 import { Fragment } from "react";
-import { getTranslations } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
 import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
+import {
+	getPageTranslations,
+	type PageTranslator,
+} from "@/lib/i18n/page-translations";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
@@ -38,7 +41,10 @@ export async function ContentPageLayout({
 	data: ContentPageData;
 	locale: Locale;
 }) {
-	const t = await getTranslations({ locale });
+	// Per-page isolated translations (common + this namespace). Keeps us out
+	// of the global next-intl message bag so we don't accidentally depend on
+	// keys from unrelated namespaces. See `lib/i18n/page-translations.ts`.
+	const t = await getPageTranslations(locale, data.namespace);
 	const l = `/${locale}`;
 
 	const title = t(data.titleKey);
@@ -252,7 +258,7 @@ function ContentCardsBlock({
 }: {
 	cards: readonly ContentCard[];
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 }) {
 	// Split into stat-cards vs learn-more cards. We currently only ever
 	// render one group at a time per section (2 stat cards OR 1 learn-
@@ -348,7 +354,7 @@ function StatCardView({
 }: {
 	card: StatCard;
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 }) {
 	const href = card.localize
 		? `/${locale.replace(/^\/+/, "")}${card.href}`
@@ -388,7 +394,7 @@ function LearnMoreCardView({
 }: {
 	card: LearnMoreCard;
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 }) {
 	const href = card.localize
 		? `/${locale.replace(/^\/+/, "")}${card.href}`
@@ -428,7 +434,7 @@ function ContentSectionImageView({
 }: {
 	image: ContentSectionImage;
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 }) {
 	const imgStyle = image.maxWidthPx
 		? { maxWidth: `${image.maxWidthPx}px` }
@@ -473,7 +479,7 @@ function SummaryFragmentSpan({
 }: {
 	frag: SummaryFragment;
 	locale: string;
-	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+	tResolve: PageTranslator;
 	isLast: boolean;
 }) {
 	const translated = tResolve(frag.key);

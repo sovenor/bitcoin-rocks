@@ -5,20 +5,24 @@
  * meta description, OpenGraph article card, Twitter summary_large_image,
  * and per-locale hreflang alternates — so centralizing here means each
  * `page.tsx` just calls `buildComparisonMetadata(DATA, params)`.
+ *
+ * Uses `getPageTranslations()` (not the global `getTranslations()` bag) so
+ * comparison pages with shared generic keys like `bitcoin_vs_*` don't
+ * collide across namespaces. See `lib/i18n/page-translations.ts` for why.
  */
 
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 
 import type { ComparisonPageData } from "./types";
 import { type Locale } from "@/lib/i18n/config";
+import { getPageTranslations } from "@/lib/i18n/page-translations";
 import { buildAlternates } from "@/lib/schema/hreflang";
 
 export async function buildComparisonMetadata(
 	data: ComparisonPageData,
 	locale: string,
 ): Promise<Metadata> {
-	const t = await getTranslations({ locale });
+	const t = await getPageTranslations(locale as Locale, data.namespace);
 	const title = t(data.titleKey);
 	const description = t(data.descriptionKey);
 	const image = data.metaImage.startsWith("http")

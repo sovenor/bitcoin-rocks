@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 
 import { ContentPageLayout } from "@/components/ContentPageLayout";
 import { GET_INVOLVED } from "@/lib/comparisons/get-involved";
 import { type Locale } from "@/lib/i18n/config";
+import { getPageTranslations } from "@/lib/i18n/page-translations";
 import { buildAlternates } from "@/lib/schema/hreflang";
 
 /**
@@ -20,7 +21,10 @@ export async function generateMetadata({
 	params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
 	const { locale } = await params;
-	const t = await getTranslations({ locale });
+	const t = await getPageTranslations(
+		locale as Locale,
+		GET_INVOLVED.namespace,
+	);
 	const title = t(GET_INVOLVED.titleKey);
 	const description = t(GET_INVOLVED.descriptionKey);
 	const image = GET_INVOLVED.metaImage.startsWith("http")
