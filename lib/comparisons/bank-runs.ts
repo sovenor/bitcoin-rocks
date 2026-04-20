@@ -56,6 +56,12 @@ export type StatCard = {
 /**
  * One "learn more" card — a full-width V2 card that links to a
  * follow-up resource. Renders via `<WhatsNextCard>`.
+ *
+ * `introParagraphs` is an optional sequence of prose paragraphs that
+ * render directly above the card. When any card in a group has
+ * intros, the layout switches from a side-by-side grid to a stacked
+ * "blurb → card → blurb → card" rhythm (used by the /about page's
+ * What-We-Do cards so each CTA gets its own explanatory lead-in).
  */
 export type LearnMoreCard = {
 	type: "learn-more";
@@ -66,6 +72,12 @@ export type LearnMoreCard = {
 	href: string;
 	external?: boolean;
 	localize?: boolean;
+	/**
+	 * Optional prose paragraphs that render above this card. Each
+	 * paragraph is an array of `SummaryFragment`s (same shape the
+	 * section paragraphs use, so inline links Just Work).
+	 */
+	introParagraphs?: readonly SummaryFragment[][];
 };
 
 export type ContentCard = StatCard | LearnMoreCard;

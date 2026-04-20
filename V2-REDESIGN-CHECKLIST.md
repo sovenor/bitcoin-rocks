@@ -61,7 +61,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Homepage** — `/` (`app/[locale]/page.tsx`)
 - [x] **Inflation** — `/inflation`
 - [x] **Bank Runs** — `/bank-runs`
-- [ ] **About** — `/about`
+- [x] **About** — `/about`
 - [ ] **Get Involved** — `/get-involved`
 
 ### Tier 2 — Bitcoin vs. comparison pages (11)

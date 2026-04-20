@@ -138,7 +138,7 @@ h1 {
 /* H2 — section heading (white, left-aligned, 28px). */
 h2 {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 28px;
 	line-height: 1.2;
 	color: var(--color-fg);
@@ -633,6 +633,45 @@ button.choose-initial-text:hover {
 	margin-top: 24px;
 }
 
+/* Stacked "blurb → card → blurb → card" layout used when LearnMoreCards
+   carry their own `introParagraphs`. Each pair is one `.content-learn-
+   more-block` so the prose and the card stay visually tied together. */
+.content-learn-more-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	margin-top: 24px;
+}
+.content-learn-more-block {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+.content-learn-more-intro {
+	/* Reuse `.comparison-explain` prose sizing/color; this just tightens
+	   the bottom margin on the final paragraph so the card hugs up. */
+	margin: 0;
+}
+.content-learn-more-intro p:last-child {
+	margin-bottom: 0;
+}
+.content-learn-more-block > a.whats-next-card {
+	/* Cards inside the stack are full-width by default (the parent is
+	   flex-column, not a grid). Nothing to do here — this selector is
+	   kept for future tweaks. */
+}
+
+/* Card label on the about page reads in sentence case (e.g.
+   "Printable flyers"), not uppercase. The site-wide `.whats-next-
+   card-label` rule kept its default letter-spacing; this override
+   removes the caps treatment the homepage expects. */
+.content-learn-more-block .whats-next-card-label,
+.content-learn-more-grid .whats-next-card-label {
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+
 /* Centered variant for a ContentPageLayout section (e.g. the
    "What is a bank run?" intro). Centers the H2 + paragraph copy
    within the container; cards below keep their normal layout. */
@@ -640,12 +679,6 @@ button.choose-initial-text:hover {
 .content-section--centered .comparison-explain,
 .content-section--centered .comparison-explain p {
 	text-align: center;
-}
-
-/* Lighter weight for the first section heading on content pages
-   (e.g. the "What is a bank run?" H2 on /bank-runs). */
-.content-section-heading-first {
-	font-weight: 500 !important;
 }
 
 

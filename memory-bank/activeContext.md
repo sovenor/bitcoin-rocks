@@ -1,4 +1,54 @@
-## Latest: `/inflation` sources expansion — April 20, 2026
+## Latest: `/about` redesign + `/bank-runs` first-h2 cleanup — April 20, 2026
+
+Second content update of the day on `v2-nextjs-redesign`. Brought the `/about` page into the V2 card-based design system that `/bank-runs` and `/inflation` already use, and removed the one-off `.content-section-heading-first` class that was lightening the first H2 on `/bank-runs`.
+
+### What changed on `/about`
+
+- **Hero H1** is now a single key (`about_header`) rendered in regular case: **"About bitcoin.rocks"**. The V1 two-line all-caps `"ABOUT" / "BITCOIN.ROCKS"` is gone.
+- **Our Mission** section is centered (`centered: true` on the `ContentSection`) and its first paragraph embeds an inline link to `https://github.com/sovenor` on the word "sovenor" via a `SummaryFragment.href`. Rendered text: *"bitcoin.rocks was founded by **sovenor** in 2022 with a simple mission: accelerate Bitcoin adoption through education."*
+- **Link-in-prose paragraphs → `.whats-next-card` learn-more cards** rendered after each section's prose via the existing `ContentCardsBlock` helper in `ContentPageLayout.tsx`. Three card groups:
+  - *What We Do* → **3 cards** (stickers `/stickers`, flyers `/flyers`, business kit `/business/kit`) — all locale-prefixed.
+  - *Open Source* → **2 cards** (GitHub repo + Contributing guide on GitHub).
+  - *Contact Us* → **3 cards** (email `mailto:hi@bitcoin.rocks`, Nostr via snort.social, GitHub repo).
+- **Trusted sources list updated** in the *Our Editorial Approach* section. `about_editorial_2` no longer mentions TIME Magazine. New list: Federal Reserve (FRED), U.S. Bureau of Labor Statistics, FDIC, United Nations, World Gold Council, Forbes, MIT Technology Review, Lyn Alden, James Lavish — aligned with the actual citations across the site (especially the ~60 outbound URLs on `/inflation`).
+
+### What changed on `/bank-runs`
+
+- **`.content-section-heading-first` is gone**. Removed the conditional className (`i === 0 ? "content-section-heading-first" : undefined`) from `components/ContentPageLayout.tsx` and deleted the `.content-section-heading-first { font-weight: 500 !important }` rule from `app/globals.css`. The "What is a bank run?" H2 now renders with the site-wide base H2 weight (700) just like every other section heading.
+- `centered` stays on the `ContentSection` type — `/about`'s Our Mission section uses it.
+
+### `ContentPageLayout.tsx` tweak
+
+The `<ContentCardsBlock>` learn-more grid previously forced `gridTemplateColumns: "1fr"` inline so a single card filled the row. That inline style is gone; the grid now uses the regular `.whats-next-grid` rules (2-col desktop, 1-col mobile). Single cards still span full width via the existing `.whats-next-grid > a.whats-next-card:only-child { grid-column: 1 / -1 }` rule in globals.css. Multi-card sections (the new `/about` sections) lay out in 2-col desktop; on the *What We Do* section's 3 cards, row 1 fills and the 3rd card anchors row 2. No visual change on `/bank-runs` (all its learn-more sections are single-card only-child cases).
+
+### Files changed
+
+```
+i18n/en/about_en.json                                   (rewritten key set, new card keys, date 2026-04-20)
+i18n/en/bank-runs_en.json                               (date → 2026-04-20, no content change)
+lib/comparisons/about.ts                                (rewritten: mission centered + 3 sections w/ cards)
+components/ContentPageLayout.tsx                        (removed content-section-heading-first className
+                                                         + inline gridTemplateColumns style)
+app/globals.css                                         (removed .content-section-heading-first rule)
+public/llms-full.txt                                    (mission paragraph + trusted-sources list)
+memory-bank/activeContext.md                            (this entry prepended)
+memory-bank/progress.md                                 (progress note prepended)
+```
+
+### Translation fallback
+
+Non-English about_*.json files still contain the old legacy keys (`about_header_2`, `about_mission_1-3`, `about_what_we_do_2a/b/c`, `about_what_we_do_3a-e`, `about_open_source_1a/b/c`, `about_open_source_contribute`, `about_contact_1`, `about_contact_email_addr`, etc.). The rewritten `lib/comparisons/about.ts` doesn't reference any of them, so they render as dead keys in the JSON files but don't break anything — translators will clean them up incrementally. New keys (`about_mission_1a`/`1b`/`1_sovenor`, all `about_card_*` keys, the rewritten `about_editorial_2`) fall back to the English strings until PRs land per-language translations.
+
+### Build + verification
+
+- `npm run typecheck` → clean.
+- `npm run build` → ✓ 4,734 static pages (unchanged), TypeScript clean.
+- Manual spot-check deferred to the user's local dev server.
+
+---
+
+## `/inflation` sources expansion — April 20, 2026
+
 
 The `/inflation` SOURCES block was ~4 years stale — just 6 generic entries (FRED M1 US, FRED int'l landing page, BLS CPI, Mempool, Bitcoin source code, whitepaper) — while the page body actually cites **~60 outbound URLs** across 13 currencies, 4 real-world stories, and the James Lavish Treasury-auction piece.
 

@@ -88,10 +88,7 @@ export async function ContentPageLayout({
 						aria-labelledby={`content-section-${i + 1}`}
 					>
 						<div className="container-inner">
-							<h2
-								id={`content-section-${i + 1}`}
-								className={i === 0 ? "content-section-heading-first" : undefined}
-							>
+							<h2 id={`content-section-${i + 1}`}>
 								{t(section.headingKey)}
 							</h2>
 							<div className="comparison-explain">
@@ -261,21 +258,65 @@ function ContentCardsBlock({
 				</div>
 			)}
 
-			{learnMoreCards.length > 0 && (
-				<div
-					className="whats-next-grid content-learn-more-grid"
-					style={{ gridTemplateColumns: "1fr" }}
-				>
-					{learnMoreCards.map((card, i) => (
-						<LearnMoreCardView
-							key={i}
-							card={card}
-							locale={locale}
-							tResolve={tResolve}
-						/>
-					))}
-				</div>
-			)}
+			{learnMoreCards.length > 0 && (() => {
+				// If *any* card in the group has `introParagraphs`, we
+				// switch to a stacked "blurb → card → blurb → card" layout
+				// so each CTA gets its own explanatory lead-in. Otherwise
+				// keep the side-by-side grid (2-col desktop, 1-col mobile,
+				// full-width solo via the `:only-child` rule in globals.css).
+				const anyIntros = learnMoreCards.some(
+					(c) => c.introParagraphs && c.introParagraphs.length > 0,
+				);
+
+				if (anyIntros) {
+					return (
+						<div className="content-learn-more-stack">
+							{learnMoreCards.map((card, i) => (
+								<div key={i} className="content-learn-more-block">
+									{card.introParagraphs &&
+										card.introParagraphs.length > 0 && (
+											<div className="comparison-explain content-learn-more-intro">
+												{card.introParagraphs.map((paragraph, pi) => (
+													<p key={pi}>
+														{paragraph.map((frag, fi) => (
+															<SummaryFragmentSpan
+																key={fi}
+																frag={frag}
+																locale={locale}
+																tResolve={tResolve}
+																isLast={
+																	fi === paragraph.length - 1
+																}
+															/>
+														))}
+													</p>
+												))}
+											</div>
+										)}
+									<LearnMoreCardView
+										card={card}
+										locale={locale}
+										tResolve={tResolve}
+									/>
+								</div>
+							))}
+						</div>
+					);
+				}
+
+				return (
+					<div className="whats-next-grid content-learn-more-grid">
+						{learnMoreCards.map((card, i) => (
+							<LearnMoreCardView
+								key={i}
+								card={card}
+								locale={locale}
+								tResolve={tResolve}
+							/>
+						))}
+					</div>
+				);
+			})()}
 		</>
 	);
 }
