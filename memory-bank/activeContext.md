@@ -1,4 +1,52 @@
-## Latest: `/about` redesign + `/bank-runs` first-h2 cleanup — April 20, 2026
+## Latest: "What's next?" source-line double-"Source:" bugfix — April 20, 2026
+
+A small but visible rendering bug in the "What's next?" card grids on `/inflation`, `/bank-runs`, `/about`, `/get-involved`, and every `/bitcoin-vs-*` comparison page. The source line was rendering as:
+
+```
+Source: Source: bitcoin.rocks → →
+```
+
+instead of the intended `Source: bitcoin.rocks →`.
+
+### Root cause
+
+`components/WhatsNextCard.tsx` composes the source line as:
+
+```tsx
+<span>{t("home_source_prefix")}</span> <span>{t(authorKey)}</span> →
+```
+
+where `home_source_prefix` resolves to `"Source:"` — i.e. the component itself owns the `"Source:"` prefix and the `" →"` suffix. The `authorKey` is expected to resolve to just an author/brand string like `"bitcoin.rocks"`.
+
+The homepage (`app/[locale]/page.tsx`) gets this right by passing `authorKey="home_link_author_bitcoin_rocks"` (value: `"bitcoin.rocks"`). But three other call-sites were passing `authorKey="common_next_source"` whose value is the full string `"Source: bitcoin.rocks →"`. That doubled both the prefix and the arrow.
+
+### Fix (3 files)
+
+Changed `authorKey="common_next_source"` → `authorKey="common_publisher_name"` (value: `"bitcoin.rocks"`) in every "What's next?" card:
+
+- `components/ContentPageLayout.tsx` — 4 cards (used by `/about`, `/bank-runs`, `/get-involved`)
+- `components/ComparisonPageLayout.tsx` — 4 cards (used by every `/bitcoin-vs-*` page)
+- `app/[locale]/inflation/page.tsx` — 4 cards (used by `/inflation`)
+
+**Deliberately did NOT touch** the `common_next_source` translation key itself. That key still resolves to the full `"Source: bitcoin.rocks →"` string and is correctly consumed as a `sourceKey` prop by `StatCardView` + `LearnMoreCardView` in `ContentPageLayout.tsx` (which render the key verbatim, without wrapping it). Used on `/about`'s learn-more cards (`about_card_*_source`), `/bank-runs` stat cards, etc. Changing the key's value would have broken all of those.
+
+### Files changed
+
+```
+components/ContentPageLayout.tsx     (4 × authorKey swap)
+components/ComparisonPageLayout.tsx  (4 × authorKey swap)
+app/[locale]/inflation/page.tsx      (4 × authorKey swap)
+memory-bank/activeContext.md         (this entry prepended)
+```
+
+### Build + verification
+
+- `npm run typecheck` → clean.
+- grep confirms zero remaining `authorKey="common_next_source"` occurrences.
+
+---
+
+## `/about` redesign + `/bank-runs` first-h2 cleanup — April 20, 2026
 
 Second content update of the day on `v2-nextjs-redesign`. Brought the `/about` page into the V2 card-based design system that `/bank-runs` and `/inflation` already use, and removed the one-off `.content-section-heading-first` class that was lightening the first H2 on `/bank-runs`.
 

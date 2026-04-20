@@ -129,25 +129,25 @@ export async function ContentPageLayout({
 								href={l}
 								label={t("common_next_keep_learning")}
 								title={t("common_next_keep_learning_desc")}
-								authorKey="common_next_source"
+								authorKey="common_publisher_name"
 							/>
 							<WhatsNextCard
 								href={`${l}/wallets`}
 								label={t("common_next_get_wallet")}
 								title={t("common_next_get_wallet_desc")}
-								authorKey="common_next_source"
+								authorKey="common_publisher_name"
 							/>
 							<WhatsNextCard
 								href={`${l}/buy`}
 								label={t("common_next_buy_bitcoin")}
 								title={t("common_next_buy_bitcoin_desc")}
-								authorKey="common_next_source"
+								authorKey="common_publisher_name"
 							/>
 							<WhatsNextCard
 								href={`${l}/compound-inflation-calculator`}
 								label={t("common_next_calculate")}
 								title={t("common_next_calculate_desc")}
-								authorKey="common_next_source"
+								authorKey="common_publisher_name"
 							/>
 						</div>
 					</div>
