@@ -750,7 +750,7 @@ If you're already into Bitcoin, you know the feeling of hope that Bitcoin can br
 
 But so many people around you don't know about Bitcoin. They're living in the same broken world as you, but without a beacon of hope to help them through the darkness.
 
-But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.
+You can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.
 
 ### Put a Sticker in Public
 
@@ -758,13 +758,17 @@ You can help educate those around you about Bitcoin without having to interact w
 
 Hundreds of people scan the QR codes on these stickers each month. The inflation stickers link to a page about Bitcoin as a solution to inflation. The other stickers link to our educational home page that shows people how Bitcoin is building a better world.
 
-### Send a Postcard
+### Print and Post a Flyer
 
-You can help spread the hope of Bitcoin to someone you know by sending them one of our free postcards. The back of each postcard contains a compelling blurb about Bitcoin along with a QR code to learn more.
+Flyers are one of the easiest ways to introduce Bitcoin to your community. Download a free printable Bitcoin flyer, print as many copies as you'd like, and post them on community boards, in coffee shops, at meetups, or anywhere else people gather. Each flyer includes a compelling headline and a QR code that sends curious readers to bitcoin.rocks to learn more. Unlike stickers, flyers can be printed on demand from anywhere in the world — all you need is a printer and a few minutes.
 
 ### Onboard a Business
 
 Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments. Each business kit includes flyers that highlight the pros of accepting Bitcoin payments.
+
+### Contribute on GitHub
+
+bitcoin.rocks is a free, open-source project licensed under the MIT License. Our mission is to accelerate Bitcoin adoption through education — and we can't do it alone. Whether you're a developer, designer, writer, or translator, there's a way for you to help. We especially welcome contributors who can translate our content into more languages so more people around the world can learn about Bitcoin in their native tongue. Fork the repository at github.com/sovenor/bitcoin-rocks, open a pull request, file an issue, or just star the project to show your support.
 
 ---
 

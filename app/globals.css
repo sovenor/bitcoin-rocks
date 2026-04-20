@@ -681,6 +681,22 @@ button.choose-initial-text:hover {
 	text-align: center;
 }
 
+/* Optional illustrative image inside a ContentPageLayout section.
+   Renders between the H2 and the paragraphs. Centered, responsive,
+   capped at 480px by default (overridable via inline style). */
+.content-section-image {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0 24px;
+}
+.content-section-image img {
+	display: block;
+	width: 100%;
+	max-width: 480px;
+	height: auto;
+	border-radius: 12px;
+}
+
 
 a.stat-card {
 	display: block;

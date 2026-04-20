@@ -1,21 +1,20 @@
 /**
  * Data for the `/get-involved` page.
  *
- * Uses the `ContentPageData` shape (same as `/bank-runs` + `/about`).
- * V2 redesign vs V1:
- *   - Hero: two-line `.h1-inflation` H1 (orange subtitle "SPREAD BITCOIN")
- *     instead of the legacy inline-span pattern
- *   - Dropped the inline `<img>` + `<div class="get-involved-button">` CTAs.
- *     The Phase 7 `WhatsNextCard` grid rendered by `ContentPageLayout`
- *     already drives the reader to /wallets, /buy, and
- *     /compound-inflation-calculator. Each on-page section links to its
- *     matching form page (/stickers, /postcards, /business/kit) via an
- *     inline `.body-link` at the end of its closing paragraph — this
- *     keeps the call-to-action present without a second CTA component.
- *   - The reviewed-badge + publisher attribution footer is emitted by
- *     `ContentPageLayout` (same as every Phase 7 page). The sources
- *     block is omitted — /get-involved is a CTA page, not a
- *     fact-heavy reference.
+ * V2 redesign (Apr 2026):
+ *   - Single-line hero H1 "Get involved and spread Bitcoin."
+ *   - Intro (first section) is centered hero-style
+ *   - Each outreach initiative (stickers / flyers / business kit /
+ *     github) ends with a `learn-more` card — same visual pattern as
+ *     the `/about` page's What-We-Do section — instead of the legacy
+ *     inline `.biz-*`-style CTA buttons.
+ *   - Postcards section removed (program retired).
+ *   - New "Contribute on GitHub" section added; bitcoin.rocks is
+ *     an open-source project and we want to recruit contributors.
+ *
+ * `ContentPageLayout` handles the hero, the sections, the learn-more
+ * cards, the global "What's next?" card grid, and the publisher
+ * attribution footer. No sources block — /get-involved is a CTA page.
  */
 
 import type { ContentPageData } from "./bank-runs";
@@ -26,19 +25,18 @@ export const GET_INVOLVED: ContentPageData = {
 	metaImage: "/img/meta/meta-get-involved-v2.png",
 	headerKeys: {
 		title: "get_involved_header",
-		subtitle: "get_involved_header_2",
 	},
 	titleKey: "get_involved_and_help_spread_bitcoin",
 	descriptionKey: "get_involved_description",
 	sections: [
-		// ─── Intro (no H2 heading — rendered via a label-as-heading pattern) ───
-		// The legacy page had a lead-in intro with 5 paragraphs and no
-		// heading. `ContentPageLayout` requires a `headingKey` per section,
-		// so we promote the first intro line ("It can be depressing…") into
-		// that role. It reads naturally as a lead-in H2 and preserves the
-		// original prose verbatim across all languages.
+		// ─── Intro (centered lead-in) ────────────────────────────
+		// The legacy page had a lead-in with no heading. `ContentPageLayout`
+		// requires a `headingKey`, so the first intro line is promoted
+		// to that role. `centered: true` matches the /about "Our Mission"
+		// hero-style treatment.
 		{
 			headingKey: "get_involved_intro_1",
+			centered: true,
 			paragraphs: [
 				[{ key: "get_involved_intro_2" }],
 				[{ key: "get_involved_intro_3" }],
@@ -48,14 +46,16 @@ export const GET_INVOLVED: ContentPageData = {
 		},
 
 		// ─── Put a sticker in public ─────────────────────────────
-		// Legacy had an inline <img> + prose + a "REQUEST A STICKER PACK"
-		// button. V2 keeps the prose verbatim and ends with an inline
-		// "Request a sticker pack →" link that goes to /stickers.
 		{
 			headingKey: "get_involved_sticker_header",
+			image: {
+				src: "/img/stickers/web-sticker-pack-text.png",
+				altKey: "get_involved_sticker_image_alt",
+				href: "/stickers",
+				localize: true,
+			},
 			paragraphs: [
 				[{ key: "get_involved_sticker_content_1" }],
-				// "Hundreds of people scan the QR codes … [Bitcoin as a solution to inflation]."
 				[
 					{ key: "get_involved_sticker_content_2" },
 					{
@@ -64,7 +64,6 @@ export const GET_INVOLVED: ContentPageData = {
 						localize: true,
 					},
 				],
-				// "The other stickers link to our educational home page … [Bitcoin is building a better world]."
 				[
 					{ key: "get_involved_sticker_content_4" },
 					{
@@ -74,31 +73,44 @@ export const GET_INVOLVED: ContentPageData = {
 					},
 				],
 				[{ key: "get_involved_sticker_content_6" }],
-				// Standalone CTA link replacing the V1 button.
-				[
-					{
-						key: "get_involved_sticker_pack",
-						href: "/stickers",
-						localize: true,
-					},
-				],
+			],
+			cards: [
+				{
+					type: "learn-more",
+					labelKey: "get_involved_card_stickers_label",
+					titleKey: "get_involved_card_stickers_title",
+					sourceKey: "get_involved_card_stickers_source",
+					href: "/stickers",
+					localize: true,
+				},
 			],
 		},
 
-		// ─── Send a postcard ─────────────────────────────────────
+		// ─── Print a flyer ──────────────────────────────────────
+		// Replaces the retired postcard section. The flyer campaign
+		// is already a live program with its own page at /flyers.
 		{
-			headingKey: "get_involved_postcard_header",
+			headingKey: "get_involved_flyers_header",
+			image: {
+				src: "/img/flyers/flyer-1-header.png",
+				altKey: "get_involved_flyers_image_alt",
+				href: "/flyers",
+				localize: true,
+			},
 			paragraphs: [
-				[{ key: "get_involved_postcard_content_1" }],
-				[{ key: "get_involved_postcard_content_2" }],
-				[{ key: "get_involved_postcard_content_3" }],
-				[
-					{
-						key: "get_involved_postcard_pack",
-						href: "/postcards",
-						localize: true,
-					},
-				],
+				[{ key: "get_involved_flyers_content_1" }],
+				[{ key: "get_involved_flyers_content_2" }],
+				[{ key: "get_involved_flyers_content_3" }],
+			],
+			cards: [
+				{
+					type: "learn-more",
+					labelKey: "get_involved_card_flyers_label",
+					titleKey: "get_involved_card_flyers_title",
+					sourceKey: "get_involved_card_flyers_source",
+					href: "/flyers",
+					localize: true,
+				},
 			],
 		},
 
@@ -107,7 +119,6 @@ export const GET_INVOLVED: ContentPageData = {
 			headingKey: "get_involved_business_header",
 			paragraphs: [
 				[{ key: "get_involved_business_content_1" }],
-				// "Each business kit includes flyers … [free Bitcoin business resources]."
 				[
 					{ key: "get_involved_business_content_2" },
 					{
@@ -116,17 +127,41 @@ export const GET_INVOLVED: ContentPageData = {
 						localize: true,
 					},
 				],
-				[
-					{
-						key: "get_involved_business_kit",
-						href: "/business/kit",
-						localize: true,
-					},
-				],
+			],
+			cards: [
+				{
+					type: "learn-more",
+					labelKey: "get_involved_card_business_label",
+					titleKey: "get_involved_card_business_title",
+					sourceKey: "get_involved_card_business_source",
+					href: "/business/kit",
+					localize: true,
+				},
+			],
+		},
+
+		// ─── Contribute on GitHub ────────────────────────────────
+		// bitcoin.rocks is open source (MIT) and community-driven.
+		// This section recruits developers, designers, writers, and
+		// translators directly from the Get Involved page.
+		{
+			headingKey: "get_involved_github_header",
+			paragraphs: [
+				[{ key: "get_involved_github_content_1" }],
+				[{ key: "get_involved_github_content_2" }],
+				[{ key: "get_involved_github_content_3" }],
+			],
+			cards: [
+				{
+					type: "learn-more",
+					labelKey: "get_involved_card_github_label",
+					titleKey: "get_involved_card_github_title",
+					sourceKey: "get_involved_card_github_source",
+					href: "https://github.com/sovenor/bitcoin-rocks",
+					external: true,
+				},
 			],
 		},
 	],
-	// No sources block on /get-involved — it's a CTA page, not a
-	// fact-heavy reference. `ContentPageLayout` hides the section
-	// entirely when `sources` is omitted.
+	// No sources block on /get-involved — it's a CTA page.
 };

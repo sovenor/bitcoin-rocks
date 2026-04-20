@@ -92,6 +92,30 @@ export type ContentCard = StatCard | LearnMoreCard;
  * two `StatCard`s are present they share a 2-col grid (collapsing to
  * 1-col on mobile). A single `LearnMoreCard` spans the full width.
  */
+/**
+ * Optional illustrative image rendered inside a content section.
+ * Appears between the H2 heading and the paragraphs. Useful for giving
+ * a section a visual anchor (e.g. the sticker pack image in the
+ * stickers section on /get-involved).
+ */
+export type ContentSectionImage = {
+	/** Image src (served from /public). */
+	src: string;
+	/** Translation key for the image's alt text. */
+	altKey: string;
+	/** Optional max-width in px — defaults to 480. */
+	maxWidthPx?: number;
+	/**
+	 * Optional link target. When set, the image is wrapped in an `<a>`
+	 * tag so readers can click through to a related page.
+	 */
+	href?: string;
+	/** `true` ⇒ add `target="_blank" rel="noopener"`. */
+	external?: boolean;
+	/** `true` ⇒ prefix `href` with the current locale. */
+	localize?: boolean;
+};
+
 export type ContentSection = {
 	/** Translation key for the H2. */
 	headingKey: string;
@@ -105,6 +129,8 @@ export type ContentSection = {
 	 * explanatory, standout feel.
 	 */
 	centered?: boolean;
+	/** Optional illustrative image (between H2 and paragraphs). */
+	image?: ContentSectionImage;
 };
 
 /** Source citation displayed in the final "Sources" section. */

@@ -1,4 +1,41 @@
-## Latest: "What's next?" source-line double-"Source:" bugfix — April 20, 2026
+## Latest: `/get-involved` V2 redesign — April 20, 2026
+
+Brought `/get-involved` in line with the V2 design system that `/about`, `/inflation`, and `/bank-runs` already use. Four editorial changes landed together:
+
+### What changed
+
+- **Single-line hero H1** — `get_involved_header` is now `"Get involved and spread Bitcoin."` (sentence case, no subtitle). The legacy two-line `GET INVOLVED / SPREAD BITCOIN` all-caps split is gone; `headerKeys.subtitle` is no longer set in `lib/comparisons/get-involved.ts`.
+- **Intro section centered** — the opening "It can be depressing to live in the current state of our world." section now has `centered: true`, matching the `/about` "Our Mission" hero-style treatment (the same `.content-section--centered` CSS rule in `app/globals.css`).
+- **Sticker section** — replaced the inline "REQUEST A STICKER PACK" link with a `learn-more` card (same shape as every `/about` card). Card keys: `get_involved_card_stickers_{label,title,source}`, links to `/stickers`.
+- **Flyers replace postcards** — the Postcards section is gone entirely (program retired). New "Print and post a flyer" section with 3 paragraphs describing the flyer campaign + a `learn-more` card linking to `/flyers`. Card keys: `get_involved_card_flyers_{label,title,source}`.
+- **Business kit** — replaced the inline "BUSINESS KIT" link with a `learn-more` card linking to `/business/kit`. Card keys: `get_involved_card_business_{label,title,source}`.
+- **New Contribute on GitHub section** — brand-new final section recruiting developers / designers / writers / translators. 3 paragraphs explaining the MIT-licensed open-source mission + a `learn-more` card linking to `https://github.com/sovenor/bitcoin-rocks` (external). Card keys: `get_involved_card_github_{label,title,source}`.
+
+### Files changed
+
+```
+lib/comparisons/get-involved.ts          (rewritten — 4 sections w/ cards, postcards removed, github added)
+i18n/en/get-involved_en.json             (rewritten key set — flyer + github keys added, postcard keys removed,
+                                          header collapsed to single line, date → 2026-04-20)
+public/llms.txt                          (Get Involved one-liner updated: flyers + github, postcards dropped)
+public/llms-full.txt                     (Get Involved section: flyers + github blocks, postcards block removed)
+llms.txt                                 (mirror of public/llms.txt)
+llms-full.txt                            (mirror of public/llms-full.txt)
+memory-bank/activeContext.md             (this entry prepended)
+```
+
+### Translation fallback
+
+Non-English `get-involved_*.json` files still contain the retired postcard keys + legacy `get_involved_header_2` / `get_involved_request_a` etc. They'll render as dead keys in the JSON and can be cleaned up by translators incrementally. The 11 new card + flyer + github keys fall back to the English strings per-locale until PRs land. The header change (`get_involved_header` value "GET INVOLVED" → "Get involved and spread Bitcoin.") will apply in English-speaking contexts immediately; other locales keep their translated "GET INVOLVED" until re-translated — both read fine in the hero slot.
+
+### Build + verification
+
+- `npm run typecheck` → clean.
+- `npm run build` → ✓ Compiled successfully in 6.0s, **4,734 static pages** (unchanged), TypeScript clean.
+
+---
+
+## Previous: "What's next?" source-line double-"Source:" bugfix — April 20, 2026
 
 A small but visible rendering bug in the "What's next?" card grids on `/inflation`, `/bank-runs`, `/about`, `/get-involved`, and every `/bitcoin-vs-*` comparison page. The source line was rendering as:
 

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { getTranslations } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
@@ -10,6 +11,7 @@ import type { SummaryFragment } from "@/lib/comparisons/types";
 import type {
 	ContentCard,
 	ContentPageData,
+	ContentSectionImage,
 	LearnMoreCard,
 	StatCard,
 } from "@/lib/comparisons/bank-runs";
@@ -93,18 +95,34 @@ export async function ContentPageLayout({
 							</h2>
 							<div className="comparison-explain">
 								{section.paragraphs.map((paragraph, pi) => (
-									<p key={pi}>
-										{paragraph.map((frag, fi) => (
-											<SummaryFragmentSpan
-												key={fi}
-												frag={frag}
+									<Fragment key={pi}>
+										<p>
+											{paragraph.map((frag, fi) => (
+												<SummaryFragmentSpan
+													key={fi}
+													frag={frag}
+													locale={l}
+													tResolve={t}
+													isLast={fi === paragraph.length - 1}
+												/>
+											))}
+										</p>
+										{pi === 0 && section.image && (
+											<ContentSectionImageView
+												image={section.image}
 												locale={l}
 												tResolve={t}
-												isLast={fi === paragraph.length - 1}
 											/>
-										))}
-									</p>
+										)}
+									</Fragment>
 								))}
+								{section.paragraphs.length === 0 && section.image && (
+									<ContentSectionImageView
+										image={section.image}
+										locale={l}
+										tResolve={t}
+									/>
+								)}
 							</div>
 
 							{section.cards && section.cards.length > 0 && (
@@ -394,6 +412,52 @@ function LearnMoreCardView({
 			</div>
 		</a>
 	);
+}
+
+/**
+ * Render an illustrative image inside a content section. When the
+ * `image` carries an `href`, the image is wrapped in an anchor tag so
+ * readers can click through. Locale-relative hrefs are prefixed with
+ * the current locale, mirroring the `SummaryFragmentSpan` + card
+ * helpers.
+ */
+function ContentSectionImageView({
+	image,
+	locale,
+	tResolve,
+}: {
+	image: ContentSectionImage;
+	locale: string;
+	tResolve: Awaited<ReturnType<typeof getTranslations>>;
+}) {
+	const imgStyle = image.maxWidthPx
+		? { maxWidth: `${image.maxWidthPx}px` }
+		: undefined;
+	const imgEl = (
+		<img
+			src={image.src}
+			alt={tResolve(image.altKey)}
+			style={imgStyle}
+		/>
+	);
+
+	if (image.href) {
+		const href = image.localize
+			? `/${locale.replace(/^\/+/, "")}${image.href}`
+			: image.href;
+		const externalProps = image.external
+			? { target: "_blank", rel: "noopener noreferrer" }
+			: {};
+		return (
+			<div className="content-section-image">
+				<a href={href} {...externalProps}>
+					{imgEl}
+				</a>
+			</div>
+		);
+	}
+
+	return <div className="content-section-image">{imgEl}</div>;
 }
 
 /**
