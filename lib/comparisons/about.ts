@@ -176,21 +176,7 @@ export const ABOUT: ContentPageData = {
 			],
 		},
 	],
-	sources: [
-		// About pages don't cite external data — the "sources" here are
-		// the canonical about-page references (GitHub repo + license +
-		// contributing guide).
-		{
-			url: "https://github.com/sovenor/bitcoin-rocks",
-			label: "bitcoin.rocks — Open-source repository on GitHub",
-		},
-		{
-			url: "https://github.com/sovenor/bitcoin-rocks/blob/main/LICENSE.md",
-			label: "bitcoin.rocks — MIT License",
-		},
-		{
-			url: "https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md",
-			label: "bitcoin.rocks — Contributing Guide",
-		},
-	],
+	// No sources block on /about — it's an editorial/organizational page,
+	// not a fact-heavy reference. `ContentPageLayout` hides the section
+	// entirely when `sources` is omitted.
 };

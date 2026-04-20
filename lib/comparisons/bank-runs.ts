@@ -137,8 +137,8 @@ export type ContentPageData = {
 	/** Body sections in order. */
 	sections: readonly ContentSection[];
 
-	/** Sources cited at the bottom. */
-	sources: readonly ContentSource[];
+	/** Sources cited at the bottom. Omit to hide the sources section entirely. */
+	sources?: readonly ContentSource[];
 };
 
 // ─── External URLs used by the card blocks ────────────────────────────

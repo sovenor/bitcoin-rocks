@@ -12,8 +12,10 @@
  *     matching form page (/stickers, /postcards, /business/kit) via an
  *     inline `.body-link` at the end of its closing paragraph — this
  *     keeps the call-to-action present without a second CTA component.
- *   - The reviewed-badge + publisher attribution + sources footer are
- *     emitted by `ContentPageLayout` (same as every Phase 7 page).
+ *   - The reviewed-badge + publisher attribution footer is emitted by
+ *     `ContentPageLayout` (same as every Phase 7 page). The sources
+ *     block is omitted — /get-involved is a CTA page, not a
+ *     fact-heavy reference.
  */
 
 import type { ContentPageData } from "./bank-runs";
@@ -124,22 +126,7 @@ export const GET_INVOLVED: ContentPageData = {
 			],
 		},
 	],
-	sources: [
-		// The V1 page had no sources block — it's a CTA page, not a
-		// fact-heavy reference. We include the canonical bitcoin.rocks
-		// onward-destinations here to keep the Phase 7 page scaffold
-		// consistent (sources → publisher → footer) across all pages.
-		{
-			url: "https://bitcoin.rocks/stickers",
-			label: "bitcoin.rocks — Free Bitcoin Sticker Packs",
-		},
-		{
-			url: "https://bitcoin.rocks/postcards",
-			label: "bitcoin.rocks — Free Bitcoin Postcard Packs",
-		},
-		{
-			url: "https://bitcoin.rocks/business/kit",
-			label: "bitcoin.rocks — Bitcoin Business Kit",
-		},
-	],
+	// No sources block on /get-involved — it's a CTA page, not a
+	// fact-heavy reference. `ContentPageLayout` hides the section
+	// entirely when `sources` is omitted.
 };

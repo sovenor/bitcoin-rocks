@@ -156,26 +156,28 @@ export async function ContentPageLayout({
 				<div className="break-micro" />
 
 				{/* ═══ SOURCES ═══ */}
-				<div className="sources-section">
-					<div className="container-inner">
-						<h2 className="sources-heading">
-							{t("common_sources_heading")}
-						</h2>
-						<ol className="sources-list">
-							{data.sources.map((src) => (
-								<li key={src.url}>
-									<a
-										href={src.url}
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										{src.label}
-									</a>
-								</li>
-							))}
-						</ol>
+				{data.sources && data.sources.length > 0 && (
+					<div className="sources-section">
+						<div className="container-inner">
+							<h2 className="sources-heading">
+								{t("common_sources_heading")}
+							</h2>
+							<ol className="sources-list">
+								{data.sources.map((src) => (
+									<li key={src.url}>
+										<a
+											href={src.url}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											{src.label}
+										</a>
+									</li>
+								))}
+							</ol>
+						</div>
 					</div>
-				</div>
+				)}
 
 				{/* ═══ PUBLISHER ATTRIBUTION ═══ */}
 				<div
