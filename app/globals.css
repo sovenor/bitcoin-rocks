@@ -1810,3 +1810,121 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 }
 
 
+/* ═══════════════════════════════════════════════════════════════════
+   8. FLYERS PAGE — V2 design system.
+   Owns: `.flyer-section`, `.flyer-preview-link`, `.flyer-preview-image`,
+   `.flyer-eyebrow`, `.flyer-actions`, `.flyer-btn` (+ primary/secondary
+   modifiers), `.flyer-sticker-line`. Reuses `.wallet-intro` for surface
+   card chrome, plus `.home-hero`, `.whats-next-section`, and
+   `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Wrap both surface cards in a thin spacer so they stack with breathing
+   room but without the big inflation-section vertical gap. */
+.flyer-section {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/* Centered, slightly bumped-up preview image at the top of the first
+   card. Keeps the clickable hit area obvious with a subtle hover lift. */
+.flyer-preview-link {
+	display: block;
+	text-align: center;
+	margin: -4px 0 20px 0;
+	transition: transform 0.2s;
+}
+.flyer-preview-link:hover {
+	transform: translateY(-2px);
+}
+.flyer-preview-image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+/* Section heading inside a flyer surface card. Inherits everything from
+   the element-level h2 rule (Proxima Nova 700, 28px / 22px mobile, white,
+   left-aligned) — we only tighten the vertical rhythm so the heading
+   hugs the paragraphs that follow it. */
+.flyer-heading {
+	margin: 0 0 12px 0;
+}
+
+/* Action button row: 2 buttons side-by-side on desktop, stacked on
+   mobile. Buttons fill the row via flex. */
+.flyer-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 20px 0 20px 0;
+}
+
+/* Shared button chrome — rounded, padded, clickable, no underline. */
+.flyer-btn {
+	flex: 1 1 180px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 22px;
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	transition: background 0.2s, border-color 0.2s, color 0.2s,
+		transform 0.15s;
+	text-align: center;
+	box-sizing: border-box;
+}
+.flyer-btn:hover {
+	transform: translateY(-1px);
+}
+
+/* Primary = solid Bitcoin-orange fill. */
+.flyer-btn-primary {
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+}
+.flyer-btn-primary:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+}
+
+/* Secondary = outlined on surface. */
+.flyer-btn-secondary {
+	background: transparent;
+	color: var(--color-fg);
+	border: 1px solid var(--color-card-border);
+}
+.flyer-btn-secondary:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	color: var(--color-bitcoin-orange);
+}
+
+/* Trailing "request a pack of stickers" line — sits after the action
+   buttons, muted grey like the body copy. */
+.flyer-sticker-line {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+@media (max-width: 700px) {
+	.flyer-btn {
+		flex: 1 1 100%;
+		padding: 13px 20px;
+		font-size: 14px;
+	}
+	.flyer-preview-image {
+		border-radius: 10px;
+	}
+}
+
+
+

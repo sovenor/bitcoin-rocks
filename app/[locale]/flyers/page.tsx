@@ -3,20 +3,47 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
 import { PrintFlyerButton } from "@/components/PrintFlyerButton";
+import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildAlternates } from "@/lib/schema/hreflang";
 
 /**
- * /[locale]/flyers — Phase 9a Bucket B faithful Tailwind port.
- * Mirrors flyers.html: hero image (links to PDF), print/download buttons,
- * share-on-nostr section, and Get Started CTAs.
+ * /[locale]/flyers — V2 redesign.
+ *
+ * Information flow mirrors the live /flyers page but reskinned in the V2
+ * design system used across /wallets, /lightning, /inflation, /bank-runs,
+ * /about, /get-involved, and the /bitcoin-vs-* pages.
+ *
+ * Sections (top → bottom):
+ *   1. Hero — plain <h1> ("Print & post Bitcoin flyers") + intro
+ *      paragraph describing the mission.
+ *   2. Flyer preview card — surface card containing the flyer preview
+ *      image (clickable → PDF), a "How to print & post" label, the
+ *      explainer paragraphs, and DOWNLOAD / PRINT action buttons.
+ *   3. Share-on-Nostr card — second surface card with the npub + Nostr
+ *      explainer paragraphs and SHARE ON NOSTR / WHAT IS NOSTR? CTAs.
+ *   4. What's next? — 4 WhatsNextCards (stickers, wallets, buy, home).
+ *
+ * No sources section or reviewed-for-accuracy publisher-attribution
+ * block — this is a utility/download page that doesn't make factual
+ * claims that need citations or an accuracy review. (The attribution
+ * pattern on /wallets and /lightning is driven by the wallet recommen-
+ * dations making factual, dated assertions about vendor features.)
+ *
+ * Reuses `.wallet-intro` for the surface card chrome. Introduces a
+ * small `.flyer-*` CSS namespace in globals.css §8 for the centered
+ * preview image + action-button styling.
  */
 
 const SLUG = "flyers";
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-flyers-v1.png";
 const FLYER_PDF = "/img/flyers/flyer-1.pdf";
+const FLYER_PREVIEW_IMG = "/img/flyers/flyer-1-header.png";
+const NOSTR_NPUB = "npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
+const NOSTR_PROFILE_URL = `https://primal.net/p/${NOSTR_NPUB}`;
+const NOSTR_SNORT_URL = `https://snort.social/p/${NOSTR_NPUB}`;
 
 export async function generateMetadata({
 	params,
@@ -60,222 +87,166 @@ export default async function FlyersPage({
 	const description = t("flyers_description");
 
 	const articleSchema = await buildArticleSchema({
-					slug: SLUG,
-					locale: locale as Locale,
-					headline: title,
-					description,
-					image: META_IMAGE,
-				});
+		slug: SLUG,
+		locale: locale as Locale,
+		headline: title,
+		description,
+		image: META_IMAGE,
+		schemaType: "Article",
+	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
-					slug: SLUG,
-					locale: locale as Locale,
-					pageTitle: title,
-				});
+		slug: SLUG,
+		locale: locale as Locale,
+		pageTitle: title,
+	});
 
 	return (
-		<div className="container-main">
+		<>
 			<JsonLd data={articleSchema} />
-			<JsonLd data={breadcrumbSchema} />
+			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 
-			<div className="container-inner">
-				<div style={{ textAlign: "center" }}>
-					<a href={l}>
-						<img
-							src="/img/logos/rocks-logo-gray.png"
-							className="back-to-home"
-							alt="bitcoin.rocks"
-						/>
-					</a>
+			<div className="container-main">
+				{/* ═══ HERO ═══ */}
+				<div className="home-hero inflation-section">
+					<div className="container-inner">
+						<h1>{t("flyers_hero_title")}</h1>
+						<p>{t("flyers_hero_subtitle")}</p>
+					</div>
 				</div>
-				<h1
-					className="h1-inflation"
-					style={{ marginBottom: 0 }}
-				>
-					{t("flyers_header_1")}
-				</h1>
-				<h2
-					className="h2-inflation force-orange"
-					style={{ marginTop: 0 }}
-				>
-					{t("flyers_header_2")}
-				</h2>
-			</div>
 
-			<div className="break-flyer" />
-
-			{/* FLYER IMAGE + HOW-TO */}
-			<div className="text-box intro sticker-box">
-				<div className="container-inner">
-					<div style={{ textAlign: "center" }}>
-						<a href={FLYER_PDF} target="_blank" rel="noopener noreferrer">
+				{/* ═══ FLYER PREVIEW CARD ═══ */}
+				<div className="wallet-intro flyer-section">
+					<div className="container-inner">
+						<a
+							href={FLYER_PDF}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flyer-preview-link"
+							aria-label={t("flyers_btn_download")}
+						>
+							{/* eslint-disable-next-line @next/next/no-img-element */}
 							<img
-								src="/img/flyers/flyer-1-header.png"
-								className="inline"
-								style={{
-									maxWidth: "100%",
-									height: "auto",
-									marginBottom: 20,
-									cursor: "pointer",
-									marginTop: -200,
-								}}
-								alt="Bitcoin flyer preview"
+								src={FLYER_PREVIEW_IMG}
+								alt={t("free_bitcoin_flyers")}
+								className="flyer-preview-image"
+								loading="eager"
 							/>
 						</a>
+
+						<h2 className="flyer-heading">{t("flyers_intro_header")}</h2>
+
+						<p>
+							{t("flyers_intro_c1")}{" "}
+							<a href={l} className="body-link">
+								{t("flyers_intro_c2")}
+							</a>
+						</p>
+						<p>{t("flyers_intro_c4")}</p>
+
+						<div className="flyer-actions">
+							<a
+								href={FLYER_PDF}
+								download="bitcoin-rocks-flyer.pdf"
+								className="flyer-btn flyer-btn-primary"
+							>
+								{t("flyers_btn_download")}
+							</a>
+							<PrintFlyerButton
+								pdfUrl={FLYER_PDF}
+								className="flyer-btn flyer-btn-secondary"
+							>
+								{t("flyers_btn_print")}
+							</PrintFlyerButton>
+						</div>
+
+						<p className="flyer-sticker-line">
+							{t("flyers_intro_c5")}{" "}
+							<a href={`${l}/stickers`} className="body-link">
+								{t("flyers_intro_c6")}
+							</a>{" "}
+							{t("flyers_intro_c7")}
+						</p>
 					</div>
-
-					<p className="step">{t("flyers_intro_header")}</p>
-
-					<p>
-						<br />
-						<span>{t("flyers_intro_c1")}</span>{" "}
-						<a href="https://bitcoin.rocks" className="orange-link">
-							<span>{t("flyers_intro_c2")}</span>
-						</a>
-						<br />
-						<br />
-						<span>{t("flyers_intro_c4")}</span>
-					</p>
-
-					<div className="break-mini" />
-
-					<a href={FLYER_PDF} download="bitcoin-rocks-flyer.pdf">
-						<div className="bounty-button">{t("flyers_btn_download")}</div>
-					</a>
-
-					<PrintFlyerButton pdfUrl={FLYER_PDF}>
-						{t("flyers_btn_print")}
-					</PrintFlyerButton>
-
-					<p>
-						<span>{t("flyers_intro_c5")}</span>&nbsp;
-						<a href={`${l}/stickers`} className="orange-link">
-							<span>{t("flyers_intro_c6")}</span>
-						</a>
-						&nbsp;<span>{t("flyers_intro_c7")}</span>
-					</p>
 				</div>
-			</div>
 
-			<div className="break" />
+				<div className="break-micro" />
 
-			{/* SHARE YOUR FLYER SPOTS */}
-			<div className="text-box intro sticker-box">
-				<div className="container-inner">
-					<p className="step">{t("flyers_share_header")}</p>
-
-					<p>
-						<br />
-						<span>{t("flyers_share_c1")}</span>{" "}
-						<span>{t("common_footer_follow_first_half")}</span>{" "}
-						<a
-							href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4"
-							className="footer-link"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							hi@bitcoin.rocks
-						</a>
-						&nbsp;<span>{t("common_footer_follow_second_half")}</span>
-					</p>
-
-					<div className="break-mini" />
-
-					<a
-						href="https://primal.net/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<div className="bounty-button">
-							{t("flyers_btn_share_on_nostr")}
-						</div>
-					</a>
-
-					<a
-						href={`${l}/nostr/what-is-nostr`}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<div className="bounty-button">
-							{t("flyers_btn_what_is_nostr")}
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<div className="break-micro" />
-
-			{/* GET STARTED CTAs */}
-			<a href={l}>
-				<div className="text-box top">
+				{/* ═══ SHARE-ON-NOSTR CARD ═══ */}
+				<div className="wallet-intro flyer-section">
 					<div className="container-inner">
-						<h2 className="h2-section" id="get-started">
-							{t("common_cta_section_get_started")}
-						</h2>
-						<h2 className="second-line get-started h2-section">
-							{t("common_cta_section_with_bitcoin")}
-						</h2>
-						<div className="item first">
-							<h3 className="h3-item">{t("common_cta_section_title_1_alt")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/wallets`}>
-				<div className="text-box middle">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_2")}</h3>
-							<div className="type">{t("common_cta_link_type_guide")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/buy`}>
-				<div className="text-box bottom">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_3")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
+						<h2 className="flyer-heading">{t("flyers_share_header")}</h2>
 
-			<div
-				className="publisher-attribution"
-				itemProp="publisher"
-				itemScope
-				itemType="https://schema.org/Organization"
-			>
-				<div className="container-inner">
-					<p>
-						<span className="reviewed-badge">{t("common_reviewed_accuracy")}</span>
-						<br />
-						<span>{t("common_published_by")}</span>{" "}
-						<a href={`${l}/about`} className="orange-link" itemProp="url">
-							<span itemProp="name">{t("common_publisher_name")}</span>
-						</a>
-						<br />
-						<span>{t("common_publisher_since")}</span>
-						<br />
-						<a
-							href="https://github.com/sovenor/bitcoin-rocks"
-							className="orange-link"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<span>{t("common_publisher_open_source")}</span>
-						</a>
-					</p>
+						<p>{t("flyers_share_c1")}</p>
+						<p>
+							{t("common_footer_follow_first_half")}{" "}
+							<a
+								href={NOSTR_SNORT_URL}
+								className="body-link"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								hi@bitcoin.rocks
+							</a>{" "}
+							{t("common_footer_follow_second_half")}
+						</p>
+
+						<div className="flyer-actions">
+							<a
+								href={NOSTR_PROFILE_URL}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flyer-btn flyer-btn-primary"
+							>
+								{t("flyers_btn_share_on_nostr")}
+							</a>
+							<a
+								href={`${l}/nostr/what-is-nostr`}
+								className="flyer-btn flyer-btn-secondary"
+							>
+								{t("flyers_btn_what_is_nostr")}
+							</a>
+						</div>
+					</div>
 				</div>
+
+				<div className="break-micro" />
+
+				{/* ═══ WHAT'S NEXT ═══ */}
+				<div className="whats-next-section">
+					<div className="container-inner">
+						<div className="whats-next-header">
+							<h2>{t("common_whats_next")}</h2>
+						</div>
+						<div className="whats-next-grid">
+							<WhatsNextCard
+								href={`${l}/stickers`}
+								label={t("flyers_next_get_stickers")}
+								title={t("flyers_next_get_stickers_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/wallets`}
+								label={t("common_next_get_wallet")}
+								title={t("common_next_get_wallet_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/buy`}
+								label={t("common_next_buy_bitcoin")}
+								title={t("common_next_buy_bitcoin_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={l}
+								label={t("common_next_keep_learning")}
+								title={t("common_next_keep_learning_desc")}
+								authorKey="common_publisher_name"
+							/>
+						</div>
+					</div>
+				</div>
+
 			</div>
-		</div>
+		</>
 	);
 }

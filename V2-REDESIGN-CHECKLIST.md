@@ -38,7 +38,7 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [ ] **BusinessWalletCard** (`components/BusinessWalletCard.tsx`)
 - [ ] **StickerPicker** (`components/StickerPicker.tsx`)
 - [ ] **StickerAddressForm** (`components/StickerAddressForm.tsx`)
-- [ ] **PrintFlyerButton** (`components/PrintFlyerButton.tsx`)
+- [x] **PrintFlyerButton** (`components/PrintFlyerButton.tsx`)
 - [x] **404 / catch-all page** (`app/not-found.tsx` + `app/[locale]/[...rest]/page.tsx`)
 - [ ] **Verify fonts are loading correctly for all weights and styles**
 
@@ -82,7 +82,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 - [x] **Wallets** — `/wallets`
 - [x] **Lightning** — `/lightning`
-- [ ] **Flyers** — `/flyers`
+- [x] **Flyers** — `/flyers`
 
 - [ ] **Compound Inflation Calculator** — `/compound-inflation-calculator`
 - [ ] **Buy** — `/buy`
@@ -292,14 +292,14 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 |---|---:|---:|
 | Top-level content pages | 5 | 5 |
 | Comparison pages | 10 | 10 |
-| Educational / utility | 5 | 2 |
+| Educational / utility | 5 | 3 |
 | Form pages | 3 | 0 |
 | Form success pages | 4 | 0 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **88** | **63** |
+| **Total pages** | **88** | **64** |
 
 
 | Component / pattern | Total | Done |
@@ -315,5 +315,5 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22_
+_Last updated: 2026-04-22 (Flyers page migrated to V2)_
 

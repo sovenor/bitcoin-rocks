@@ -3,14 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-26",
+		"last-updated": "2026-04-22",
 		"locale": "en"
 	},
 	"free_bitcoin_flyers": "Free Bitcoin Flyers from bitcoin.rocks",
 	"flyers_description": "Print a Bitcoin flyer at home and put it in public to orange pill those around you.",
+	"flyers_hero_title": "Print and post Bitcoin flyers",
+	"flyers_hero_subtitle": "Free, printable Bitcoin flyers. Put them up in public to help more people learn about Bitcoin.",
 	"flyers_header_1": "PRINT & POST",
 	"flyers_header_2": "BITCOIN FLYERS",
-	"flyers_intro_header": "HOW TO PRINT & POST THESE BITCOIN FLYERS",
+	"flyers_intro_header": "How to print and post these Bitcoin flyers",
 	"flyers_intro_c1": "Our mission is to help you orange pill more people by putting Bitcoin flyers in public. This flyer has a QR code that links to our",
 	"flyers_intro_c2": "educational Bitcoin website.",
 	"flyers_intro_c3": "inflation",
@@ -18,10 +20,12 @@
 	"flyers_intro_c5": "While you're at it, request a pack of our",
 	"flyers_intro_c6": "free Bitcoin stickers",
 	"flyers_intro_c7": "to help orange pill even more people.",
-	"flyers_btn_download": "DOWNLOAD FLYER",
-	"flyers_btn_print": "PRINT FLYER",
-	"flyers_share_header": "SHARE YOUR FLYER SPOTS",
+	"flyers_btn_download": "Download flyer",
+	"flyers_btn_print": "Print flyer",
+	"flyers_share_header": "Share your flyer spots",
 	"flyers_share_c1": "Share your flyer spots with us on Nostr and see where other people are putting their flyers.",
-	"flyers_btn_share_on_nostr": "SHARE ON NOSTR",
-	"flyers_btn_what_is_nostr": "WHAT IS NOSTR?"
+	"flyers_btn_share_on_nostr": "Share on Nostr",
+	"flyers_btn_what_is_nostr": "What is Nostr?",
+	"flyers_next_get_stickers": "Spread the word",
+	"flyers_next_get_stickers_desc": "Order a free pack of Bitcoin stickers"
 }
