@@ -544,7 +544,8 @@ a.body-link:hover {
 	justify-content: center;
 }
 
-button.inflation-button {
+button.inflation-button,
+a.inflation-button {
 	background-color: var(--color-bg-soft);
 	color: var(--color-fg);
 	border: 1px solid var(--color-border);
@@ -561,8 +562,15 @@ button.inflation-button {
 	text-transform: uppercase;
 	flex-basis: 50%;
 	cursor: pointer;
+	/* Anchor-variant resets */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
 }
-button.inflation-button:hover {
+button.inflation-button:hover,
+a.inflation-button:hover {
 	transform: scale(1.02);
 	border-color: var(--color-bitcoin-orange);
 }
@@ -570,6 +578,25 @@ button.inflation-button.show-all-button {
 	border-color: var(--color-bitcoin-orange);
 	color: var(--color-bitcoin-orange);
 }
+
+/* Colorful variant (used by /sticker-files language picker). Each
+   button sets `--btn-color: var(--color-…)` inline to pick its topic
+   color; this rule reads that variable for the border + text, and
+   tints the fill on hover via `color-mix()`. Falls back to Bitcoin
+   orange when `--btn-color` is unset. */
+a.inflation-button.colorful {
+	border-color: var(--btn-color, var(--color-bitcoin-orange));
+	color: var(--btn-color, var(--color-bitcoin-orange));
+}
+a.inflation-button.colorful:hover {
+	border-color: var(--btn-color, var(--color-bitcoin-orange));
+	background-color: color-mix(
+		in srgb,
+		var(--btn-color, var(--color-bitcoin-orange)) 12%,
+		var(--color-bg-soft)
+	);
+}
+
 
 /* Grey static prompt shown before a currency is chosen. Also
    doubles — on a <button> — as the clickable "← Choose a different

@@ -1,4 +1,4 @@
-import Script from "next/script";
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -11,23 +11,24 @@ import {
 	getPrintableLanguageSlugs,
 	findLanguage,
 } from "@/lib/sticker-files/catalog";
+import { getLanguageColorToken } from "@/lib/sticker-files/language-colors";
 
 /**
- * /[locale]/sticker-files — Phase 11 Bucket C (ported faithfully, V2 redesign deferred).
+ * /[locale]/sticker-files — V2 styling refresh.
  *
- * Mirrors `sticker-files/index.html`:
- *   - Hero: "BITCOIN STICKER FILES"
- *   - Mission paragraph (reused common_sticker_files_mission_* keys)
- *   - 43-language button grid (links to /sticker-files/<lang>)
- *   - Sticker-language-request form with Cloudflare Turnstile, posts to
- *     forms-backend `/submit/sticker-language-request`
+ * Renders:
+ *   - Hero H1 (sentence case) styled by the element-level rule in globals.css
+ *   - Intro + print-instructions text inside a `.inflation-section`, using
+ *     `.inflation-intro` so the copy matches the inflation page's sub-hero.
+ *   - Printable-language picker: language links styled as `.inflation-button
+ *     colorful` pills, each assigned a stable color from the 21 topic-color
+ *     tokens (see `lib/sticker-files/language-colors.ts`).
  *
- * Namespaces used: `sticker-files/index`, `common`.
+ * No sources / reviewed-for-accuracy sub-footer on this page by design.
  */
 
 const SLUG = "sticker-files";
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
-const TURNSTILE_SITEKEY = "0x4AAAAAAClzj7R6NrkNgcsP";
 
 export async function generateMetadata({
 	params,
@@ -87,141 +88,79 @@ export default async function StickerFilesIndexPage({
 	const languageSlugs = getPrintableLanguageSlugs();
 
 	return (
-		<div className="container-main" id="lighten-text-boxes">
+		<div className="container-main comparison-page">
 			<JsonLd data={articleSchema} />
 			<JsonLd data={breadcrumbSchema} />
 
-			{/* Cloudflare Turnstile (form below) */}
-			<Script
-				src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-				strategy="afterInteractive"
-				async
-				defer
-			/>
-
-			<div className="container-inner">
-				<h1 className="h1-inflation">{heading}</h1>
-				<br />
-				<br />
+			{/* ═══ HERO — same wrapper comparison pages use ═══ */}
+			<div className="inflation-section comparison-hero">
+				<div className="container-inner">
+					<h1>{heading}</h1>
+				</div>
 			</div>
 
-			{/* Mission paragraph */}
-			<div className="text-box intro sticker-box">
+			{/* ═══ Intro + print instructions — left-aligned bordered box,
+			    matches the .comparison-intro surface used on /bitcoin-vs-*,
+			    /bank-runs, /about, /get-involved. Wrapper classes + DOM
+			    structure are a 1:1 copy of ComparisonPageLayout's intro. ═══ */}
+			<div className="inflation-section comparison-intro">
 				<div className="container-inner">
-					<div className="break-micro" />
-					<p>
+
+					<p className="inflation-intro">
 						<span>{t("common_sticker_files_mission_1")}</span>{" "}
-						<a
-							href={l}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
+						<a href={l} className="body-link">
 							<span>{t("common_sticker_files_mission_2")}</span>
 						</a>{" "}
 						&amp;{" "}
-						<a
-							href={`${l}/inflation`}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
+						<a href={`${l}/inflation`} className="body-link">
 							<span>{t("common_sticker_files_mission_3")}</span>
 						</a>
 						.
-						<br />
-						<br />
+					</p>
+					<p className="inflation-intro">
 						<span>{t("common_sticker_files_mission_4")}</span>{" "}
-						<a
-							href={`${l}/stickers`}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
+						<a href={`${l}/stickers`} className="body-link">
 							<span>{t("common_sticker_files_mission_5")}</span>
 						</a>
 						.
 					</p>
+					<p className="inflation-intro">
+						{t("common_stickers_print_instructions_1")}
+					</p>
+					<p className="inflation-intro">
+						{t("common_stickers_print_instructions_2")}
+					</p>
 				</div>
 			</div>
 
-			<div className="break" />
 
-			{/* Language picker + request form */}
-			<div className="text-box intro sticker-box">
-				<div className="container-inner">
-					<div id="Print">
-						<div className="break-no-title" />
-						<p>
-							<span>{t("common_stickers_print_instructions_1")}</span>
-							<br />
-							<br />
-							<span>{t("common_stickers_print_instructions_2")}</span>
-							<br />
-							<br />
-						</p>
-
-						{languageSlugs.map((slug) => {
-							const lang = findLanguage(slug);
-							if (!lang) return null;
-							return (
-								<a key={slug} href={`${l}/sticker-files/${slug}`}>
-									<div className="button button-sticker">
-										<p>{t(lang.labelKey)}</p>
-									</div>
-								</a>
-							);
-						})}
-
-						<div className="break-micro" />
-
-						<p>
-							<span>{t("common_stickers_request_language_1")}</span>
-							<br />
-							<br />
-							<span>{t("common_stickers_request_language_2")}</span>
-						</p>
-
-						<form
-							action="https://forms.bitcoin.rocks/submit/sticker-language-request"
-							method="POST"
+			{/* ═══ Language picker — colorful pill per language ═══
+			    Each <a> gets a stable `--btn-color` (one of the 21 topic tokens),
+			    assigned by `getLanguageColorToken()`. The `.colorful` modifier
+			    in globals.css reads that variable for border + text color, and
+			    tints the fill with `color-mix()` on hover. ═══ */}
+			<div className="container-inflation-button">
+				{languageSlugs.map((slug) => {
+					const lang = findLanguage(slug);
+					if (!lang) return null;
+					const token = getLanguageColorToken(slug);
+					const style = {
+						"--btn-color": `var(${token})`,
+					} as CSSProperties;
+					return (
+						<a
+							key={slug}
+							href={`${l}/sticker-files/${slug}`}
+							className="inflation-button colorful"
+							style={style}
 						>
-							<input
-								type="text"
-								name="language"
-								placeholder="Language"
-								required
-							/>
-							<br />
-							<input
-								type="text"
-								name="stickers"
-								placeholder="Which stickers?"
-								required
-							/>
-							<br />
-							<input
-								type="email"
-								name="email"
-								placeholder="Enter your email to be notified (optional)"
-							/>
-							<br />
-
-							<div
-								className="cf-turnstile"
-								data-sitekey={TURNSTILE_SITEKEY}
-								data-theme="dark"
-							/>
-							<button type="submit" className="button-form">
-								<p>{t("common_submit")}</p>
-							</button>
-						</form>
-					</div>
-
-					<br />
-					<br />
-				</div>
+							<span>{t(lang.labelKey)}</span>
+						</a>
+					);
+				})}
 			</div>
+
+			<div className="break-micro" />
 		</div>
 	);
 }

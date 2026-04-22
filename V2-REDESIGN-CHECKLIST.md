@@ -123,7 +123,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 The sticker-files sub-pages share a single template (`app/[locale]/sticker-files/[lang]/page.tsx`), so a single V2 pass on that template should unlock all of them at once. Still tracked individually below for per-locale visual review.
 
-- [ ] **Sticker Files (index)** — `/sticker-files`
+- [x] **Sticker Files (index)** — `/sticker-files`
 - [ ] **Sticker Files template** (`[lang]/page.tsx`) — the shared per-language shell
 
 Individual language pages:
