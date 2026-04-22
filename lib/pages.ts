@@ -92,12 +92,8 @@ export const PAGES: readonly PageEntry[] = [
 
 	// === Phase 9b — Form pages + successes ===
 	{ slug: "stickers", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "stickers", published: true },
-	{ slug: "signs", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "signs", published: true },
-	{ slug: "postcards", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "postcards", published: true },
 	{ slug: "buy", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "buy", published: true },
 	{ slug: "sticker-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-success", published: true },
-	{ slug: "sign-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sign-success", published: true },
-	{ slug: "postcard-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "postcard-success", published: true },
 	{ slug: "sticker-language-success", phase: 9, priority: 0.3, changeFrequency: "yearly", namespace: "sticker-language-success", published: true },
 
 	// === Phase 10 — Business section ===

@@ -90,14 +90,10 @@ These patterns show up inside many pages. Track them globally once the layouts a
 ### Tier 4 — Form pages
 
 - [ ] **Stickers** — `/stickers`
-- [ ] **Signs** — `/signs`
-- [ ] **Postcards** — `/postcards`
 
 ### Tier 5 — Form success pages
 
 - [ ] **Sticker Success** — `/sticker-success`
-- [ ] **Sign Success** — `/sign-success`
-- [ ] **Postcard Success** — `/postcard-success`
 - [ ] **Sticker Language Success** — `/sticker-language-success`
 
 ### Tier 6 — Business section (13)
@@ -293,13 +289,13 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Top-level content pages | 5 | 5 |
 | Comparison pages | 10 | 10 |
 | Educational / utility | 5 | 5 |
-| Form pages | 3 | 0 |
-| Form success pages | 4 | 0 |
+| Form pages | 1 | 0 |
+| Form success pages | 2 | 0 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **88** | **66** |
+| **Total pages** | **84** | **66** |
 
 
 | Component / pattern | Total | Done |
@@ -315,5 +311,5 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (Buy page migrated to V2)_
+_Last updated: 2026-04-22 (Removed /signs, /postcards, /sign-success, /postcard-success)_
 

@@ -51,7 +51,6 @@ All content is curated and fact-checked. Data and statistics cite authoritative 
 - [Get Involved](https://bitcoin.rocks/get-involved): Ways to help spread Bitcoin adoption — free stickers, printable flyers, business kits, and contributing to our open-source project on GitHub.
 - [Bitcoin Stickers](https://bitcoin.rocks/stickers): Free Bitcoin sticker initiative with QR codes linking to educational content.
 - [Bitcoin Flyers](https://bitcoin.rocks/flyers): Printable Bitcoin educational flyers.
-- [Bitcoin Postcards](https://bitcoin.rocks/postcards): Mailable Bitcoin postcards with educational QR codes.
 - [About bitcoin.rocks](https://bitcoin.rocks/about): Our mission, editorial approach, open-source commitment, and contact information.
 
 ### Other

@@ -55,12 +55,8 @@ const DEFAULT_NAMESPACES = [
 	"compound-inflation-calculator",
 	// Phase 9b — form pages + successes.
 	"stickers",
-	"signs",
-	"postcards",
 	"buy",
 	"sticker-success",
-	"sign-success",
-	"postcard-success",
 	"sticker-language-success",
 	// Phase 10 — business section.
 	"business/index",

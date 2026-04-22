@@ -53,7 +53,6 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	{ source: "/bankrun", destination: "/bank-runs" },
 	{ source: "/bankruns", destination: "/bank-runs" },
 	{ source: "/wallet", destination: "/wallets" },
-	{ source: "/postcard", destination: "/postcards" },
 	{ source: "/flyer", destination: "/flyers" },
 	// Business section shortcuts
 	{ source: "/guide", destination: "/business/guide" },

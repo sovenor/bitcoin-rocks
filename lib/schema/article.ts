@@ -78,8 +78,6 @@ const ARTICLE_SLUGS = new Set<string>([
 	"get-involved",
 	"flyers",
 	"stickers",
-	"postcards",
-	"signs",
 	"business",
 	"business/why",
 	"business/faq",
