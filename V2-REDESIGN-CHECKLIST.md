@@ -66,16 +66,16 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 ### Tier 2 — Bitcoin vs. comparison pages (11)
 
-- [ ] **Bitcoin vs Gold** — `/bitcoin-vs-gold`
-- [ ] **Bitcoin vs Stocks** — `/bitcoin-vs-stocks`
-- [ ] **Bitcoin vs Cash** — `/bitcoin-vs-cash`
-- [ ] **Bitcoin vs Banks** — `/bitcoin-vs-banks`
-- [ ] **Bitcoin vs Bonds** — `/bitcoin-vs-bonds`
-- [ ] **Bitcoin vs Real Estate** — `/bitcoin-vs-real-estate`
-- [ ] **Bitcoin vs Crypto** — `/bitcoin-vs-crypto`
-- [ ] **Bitcoin vs Visa** — `/bitcoin-vs-visa`
-- [ ] **Bitcoin vs CBDC** — `/bitcoin-vs-cbdc`
-- [ ] **Bitcoin vs Fine Art** — `/bitcoin-vs-fine-art`
+- [x] **Bitcoin vs Gold** — `/bitcoin-vs-gold`
+- [x] **Bitcoin vs Stocks** — `/bitcoin-vs-stocks`
+- [x] **Bitcoin vs Cash** — `/bitcoin-vs-cash`
+- [x] **Bitcoin vs Banks** — `/bitcoin-vs-banks`
+- [x] **Bitcoin vs Bonds** — `/bitcoin-vs-bonds`
+- [x] **Bitcoin vs Real Estate** — `/bitcoin-vs-real-estate`
+- [x] **Bitcoin vs Crypto** — `/bitcoin-vs-crypto`
+- [x] **Bitcoin vs Visa** — `/bitcoin-vs-visa`
+- [x] **Bitcoin vs CBDC** — `/bitcoin-vs-cbdc`
+- [x] **Bitcoin vs Fine Art** — `/bitcoin-vs-fine-art`
 
 ### Tier 3 — Educational / utility pages
 
