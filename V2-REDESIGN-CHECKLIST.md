@@ -124,53 +124,53 @@ These patterns show up inside many pages. Track them globally once the layouts a
 The sticker-files sub-pages share a single template (`app/[locale]/sticker-files/[lang]/page.tsx`), so a single V2 pass on that template should unlock all of them at once. Still tracked individually below for per-locale visual review.
 
 - [x] **Sticker Files (index)** — `/sticker-files`
-- [ ] **Sticker Files template** (`[lang]/page.tsx`) — the shared per-language shell
+- [x] **Sticker Files template** (`[lang]/page.tsx`) — the shared per-language shell
 
 Individual language pages:
 
-- [ ] `/sticker-files/afrikaans`
-- [ ] `/sticker-files/arabic`
-- [ ] `/sticker-files/basque`
-- [ ] `/sticker-files/bulgarian`
-- [ ] `/sticker-files/catalan`
-- [ ] `/sticker-files/chinese`
-- [ ] `/sticker-files/croatian`
-- [ ] `/sticker-files/czech`
-- [ ] `/sticker-files/danish`
-- [ ] `/sticker-files/dutch`
-- [ ] `/sticker-files/english`
-- [ ] `/sticker-files/estonian`
-- [ ] `/sticker-files/filipino`
-- [ ] `/sticker-files/finnish`
-- [ ] `/sticker-files/french`
-- [ ] `/sticker-files/german`
-- [ ] `/sticker-files/greek`
-- [ ] `/sticker-files/hausa`
-- [ ] `/sticker-files/hebrew`
-- [ ] `/sticker-files/hindi`
-- [ ] `/sticker-files/hungarian`
-- [ ] `/sticker-files/indonesian`
-- [ ] `/sticker-files/irish`
-- [ ] `/sticker-files/italian`
-- [ ] `/sticker-files/japanese`
-- [ ] `/sticker-files/korean`
-- [ ] `/sticker-files/malay`
-- [ ] `/sticker-files/norwegian`
-- [ ] `/sticker-files/persian`
-- [ ] `/sticker-files/polish`
-- [ ] `/sticker-files/portuguese`
-- [ ] `/sticker-files/russian`
-- [ ] `/sticker-files/sinhala`
-- [ ] `/sticker-files/slovak`
-- [ ] `/sticker-files/slovenian`
-- [ ] `/sticker-files/spanish`
-- [ ] `/sticker-files/swahili`
-- [ ] `/sticker-files/swedish`
-- [ ] `/sticker-files/thai`
-- [ ] `/sticker-files/turkish`
-- [ ] `/sticker-files/urdu`
-- [ ] `/sticker-files/vietnamese`
-- [ ] `/sticker-files/yoruba`
+- [x] `/sticker-files/afrikaans`
+- [x] `/sticker-files/arabic`
+- [x] `/sticker-files/basque`
+- [x] `/sticker-files/bulgarian`
+- [x] `/sticker-files/catalan`
+- [x] `/sticker-files/chinese`
+- [x] `/sticker-files/croatian`
+- [x] `/sticker-files/czech`
+- [x] `/sticker-files/danish`
+- [x] `/sticker-files/dutch`
+- [x] `/sticker-files/english`
+- [x] `/sticker-files/estonian`
+- [x] `/sticker-files/filipino`
+- [x] `/sticker-files/finnish`
+- [x] `/sticker-files/french`
+- [x] `/sticker-files/german`
+- [x] `/sticker-files/greek`
+- [x] `/sticker-files/hausa`
+- [x] `/sticker-files/hebrew`
+- [x] `/sticker-files/hindi`
+- [x] `/sticker-files/hungarian`
+- [x] `/sticker-files/indonesian`
+- [x] `/sticker-files/irish`
+- [x] `/sticker-files/italian`
+- [x] `/sticker-files/japanese`
+- [x] `/sticker-files/korean`
+- [x] `/sticker-files/malay`
+- [x] `/sticker-files/norwegian`
+- [x] `/sticker-files/persian`
+- [x] `/sticker-files/polish`
+- [x] `/sticker-files/portuguese`
+- [x] `/sticker-files/russian`
+- [x] `/sticker-files/sinhala`
+- [x] `/sticker-files/slovak`
+- [x] `/sticker-files/slovenian`
+- [x] `/sticker-files/spanish`
+- [x] `/sticker-files/swahili`
+- [x] `/sticker-files/swedish`
+- [x] `/sticker-files/thai`
+- [x] `/sticker-files/turkish`
+- [x] `/sticker-files/urdu`
+- [x] `/sticker-files/vietnamese`
+- [x] `/sticker-files/yoruba`
 
 ### Special routes
 
