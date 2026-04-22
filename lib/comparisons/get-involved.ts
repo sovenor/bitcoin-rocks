@@ -123,7 +123,7 @@ export const GET_INVOLVED: ContentPageData = {
 					{ key: "get_involved_business_content_2" },
 					{
 						key: "get_involved_business_content_3",
-						href: "/business/guide",
+						href: "/business",
 						localize: true,
 					},
 				],

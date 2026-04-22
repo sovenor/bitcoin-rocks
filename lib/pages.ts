@@ -100,7 +100,6 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "business", phase: 10, priority: 0.7, changeFrequency: "monthly", namespace: "business/index", published: true },
 	{ slug: "business/why", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/why", published: true },
 	{ slug: "business/faq", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/faq", published: true },
-	{ slug: "business/guide", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/guide", published: true },
 	{ slug: "business/wallets", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/wallets", published: true },
 	{ slug: "business/accounting", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/accounting", published: true },
 	{ slug: "business/stickers", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/stickers", published: true },

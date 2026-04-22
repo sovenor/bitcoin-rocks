@@ -62,7 +62,6 @@ const DEFAULT_NAMESPACES = [
 	"business/index",
 	"business/why",
 	"business/faq",
-	"business/guide",
 	"business/wallets",
 	"business/accounting",
 	"business/stickers",

@@ -97,7 +97,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Sticker Language Success** — `/sticker-language-success`
 
 
-### Tier 6 — Business section (13)
+### Tier 6 — Business section (12)
 
 > **V2 convention for all `/business/*` pages:** Do **not** render the
 > generic "What's next?" bridge (keep learning / get a wallet / buy
@@ -123,7 +123,6 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business (index)** — `/business`
 - [x] **Business — Why** — `/business/why`
 - [x] **Business — FAQ** — `/business/faq`
-- [ ] **Business — Guide** — `/business/guide`
 - [ ] **Business — Wallets** — `/business/wallets`
 - [ ] **Business — Accounting** — `/business/accounting`
 - [ ] **Business — Stickers** — `/business/stickers`
@@ -313,11 +312,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 13 | 3 |
+| Business section | 12 | 3 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **84** | **72** |
+| **Total pages** | **83** | **72** |
 
 
 

@@ -40,7 +40,6 @@ All content is curated and fact-checked. Data and statistics cite authoritative 
 
 ### Bitcoin for Business
 - [Why Bitcoin is Good for Business](https://bitcoin.rocks/business/why): Bitcoin benefits for businesses including no inflation, no bank runs, permissionless payments, and a better world.
-- [Business Guide](https://bitcoin.rocks/business/guide): Step-by-step guide to accepting Bitcoin payments at your business.
 - [Business FAQ](https://bitcoin.rocks/business/faq): 9 frequently asked questions about accepting Bitcoin payments.
 - [Business Wallets](https://bitcoin.rocks/business/wallets): Bitcoin wallet recommendations specifically for businesses.
 - [Bitcoin Accounting Guide](https://bitcoin.rocks/business/accounting): Guide to Bitcoin accounting for businesses.

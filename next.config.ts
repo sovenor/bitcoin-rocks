@@ -54,10 +54,17 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	{ source: "/bankruns", destination: "/bank-runs" },
 	{ source: "/wallet", destination: "/wallets" },
 	{ source: "/flyer", destination: "/flyers" },
-	// Business section shortcuts
-	{ source: "/guide", destination: "/business/guide" },
-	{ source: "/guides", destination: "/business/guide" },
-	{ source: "/business/guides", destination: "/business/guide" },
+	// Business section shortcuts.
+	// `/business/guide` was folded into `/business` on Apr 22, 2026 — both the
+	// unlocalized (`/business/guide`) and locale-prefixed (`/<locale>/business/guide`)
+	// forms redirect to `/business` so any inbound link from search engines,
+	// socials, or bookmarks still lands on valid content.
+	{ source: "/guide", destination: "/business" },
+	{ source: "/guides", destination: "/business" },
+	{ source: "/business/guide", destination: "/business" },
+	{ source: "/business/guides", destination: "/business" },
+	{ source: "/:locale/business/guide", destination: "/:locale/business" },
+	{ source: "/:locale/business/guides", destination: "/:locale/business" },
 	{ source: "/kit", destination: "/business/kit" },
 	{ source: "/business-kit", destination: "/business/kit" },
 	{ source: "/businesskit", destination: "/business/kit" },
