@@ -8,12 +8,7 @@ export const BITCOIN_VS_BONDS: ComparisonPageData = {
 	slug: "bitcoin-vs-bonds",
 	namespace: "bitcoin-vs-bonds",
 	metaImage: "/img/meta/meta-bonds-v1.png",
-	headerKeys: {
-		part1: "bonds_header",
-		bitcoin: "bonds_header_2",
-		and: "bonds_header_3",
-		asset: "bonds_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Treasury-green / financial-paper tone.
 	assetAccentColor: "#4A8C5E",
 	introKeys: ["bonds_intro_1", "bonds_intro_2", "bonds_intro_3"],
@@ -38,11 +33,7 @@ export const BITCOIN_VS_BONDS: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_2_summary_1" },
-					{
-						key: "point_2_summary_2",
-						href: "/inflation",
-						localize: true,
-					},
+					{ key: "point_2_summary_2", href: "/inflation", localize: true },
 					{ key: "point_2_summary_3" },
 				],
 			],
@@ -53,11 +44,7 @@ export const BITCOIN_VS_BONDS: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_3_summary_1" },
-					{
-						key: "point_3_summary_2",
-						href: "/bank-runs",
-						localize: true,
-					},
+					{ key: "point_3_summary_2", href: "/bank-runs", localize: true },
 					{ key: "point_3_summary_3" },
 				],
 			],
@@ -93,11 +80,8 @@ export const BITCOIN_VS_BONDS: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_6_summary_1" },
-					{
-						key: "point_6_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_6_summary_2", href: "/wallets", localize: true },
+					{ key: "point_6_summary_3" },
 				],
 			],
 		},

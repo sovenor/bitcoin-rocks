@@ -90,31 +90,37 @@ export type ComparisonPageData = {
 	metaImage: string;
 
 	/**
-	 * Standard H1 parts — four translation keys that assemble into
-	 * "THE DIFFERENCE BETWEEN BITCOIN AND <ASSET>".
+	 * Single translation key for the hero H1, rendered in sentence case
+	 * and orange (e.g. "The difference between Bitcoin and Gold").
 	 *
-	 * Ignored when `customHeader` is supplied.
+	 * This is the current standard; the legacy multi-part `headerKeys`
+	 * and `customHeader` options are preserved for backward compatibility
+	 * but no longer used by any shipped page.
+	 */
+	heroTitleKey?: string;
+
+	/**
+	 * Legacy: four translation keys that assemble into "THE DIFFERENCE
+	 * BETWEEN BITCOIN AND <ASSET>". Kept for type-compat but ignored
+	 * when `heroTitleKey` is supplied.
 	 */
 	headerKeys?: {
-		part1: string; // "THE DIFFERENCE BETWEEN"
-		bitcoin: string; // "BITCOIN"
-		and: string; // "AND"
-		asset: string; // "GOLD" / "STOCKS" / "CASH"
+		part1: string;
+		bitcoin: string;
+		and: string;
+		asset: string;
 	};
 
 	/**
-	 * Optional alternative H1 rendering. When present, `headerKeys` is
-	 * ignored and these parts are rendered in order (one `<br />` per
-	 * part boundary). Used by `/bitcoin-vs-cbdc` whose H1 reads
-	 * "WHAT SHOULD DIGITAL MONEY LOOK LIKE?" rather than the standard
-	 * difference-between form.
+	 * Legacy: alternative multi-part H1. Ignored when `heroTitleKey`
+	 * is supplied.
 	 */
 	customHeader?: readonly ComparisonHeaderPart[];
 
 
 	/**
 	 * Hex color for the asset accent (applied via `--asset-accent`
-	 * CSS variable to the H1 asset word + per-point asset labels).
+	 * CSS variable to per-point asset labels; the H1 is always orange).
 	 */
 	assetAccentColor: string;
 

@@ -1,10 +1,10 @@
 /**
  * Data for the `/bitcoin-vs-cbdc` comparison page.
  *
- * Unlike the standard "THE DIFFERENCE BETWEEN BITCOIN AND <ASSET>"
- * shape, this page's H1 asks a question ("WHAT SHOULD DIGITAL MONEY
- * LOOK LIKE?") — so we use `customHeader` instead of `headerKeys`.
- * It also has 10 comparison points (the most of any comparison page).
+ * April 2026 V2 refresh normalizes the H1 to the standard sentence-
+ * case "The difference between Bitcoin and CBDCs" so every comparison
+ * page shares one visual treatment. The legacy multi-part "WHAT
+ * SHOULD DIGITAL MONEY LOOK LIKE?" H1 is gone.
  */
 
 import type { ComparisonPageData } from "./types";
@@ -13,15 +13,7 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 	slug: "bitcoin-vs-cbdc",
 	namespace: "bitcoin-vs-cbdc",
 	metaImage: "/img/meta/meta-cbdc.png",
-	// H1: "WHAT SHOULD DIGITAL MONEY LOOK LIKE?"
-	//   - part1 (white)  → "WHAT SHOULD"
-	//   - part2 (orange) → "DIGITAL MONEY"   (force-orange in legacy)
-	//   - part3 (white)  → "LOOK LIKE?"
-	customHeader: [
-		{ key: "cbdc_header", style: "plain" },
-		{ key: "cbdc_header_2", style: "orange" },
-		{ key: "cbdc_header_3", style: "plain" },
-	],
+	heroTitleKey: "hero_title",
 	// CBDC accent — a muted blue-gray evocative of "government-controlled
 	// digital money" without falling into Bitcoin orange territory.
 	assetAccentColor: "#5A6B8C",
@@ -39,25 +31,12 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_1",
 			assetKey: "cbdc_point_1",
-			summary: [
-				[
-					{ key: "point_1_summary_1" },
-					{ key: "point_1_summary_2" },
-					{ key: "point_1_summary_3" },
-					{ key: "point_1_summary_4" },
-				],
-			],
+			summary: [[{ key: "point_1_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_2",
 			assetKey: "cbdc_point_2",
-			summary: [
-				[
-					{ key: "point_2_summary_1" },
-					{ key: "point_2_summary_2" },
-					{ key: "point_2_summary_3" },
-				],
-			],
+			summary: [[{ key: "point_2_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_3",
@@ -65,12 +44,8 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_3_summary_1" },
-					{ key: "point_3_summary_2" },
-					{
-						key: "point_3_summary_3",
-						href: "/inflation",
-						localize: true,
-					},
+					{ key: "point_3_summary_2", href: "/inflation", localize: true },
+					{ key: "point_3_summary_3" },
 				],
 			],
 		},
@@ -82,13 +57,7 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_5",
 			assetKey: "cbdc_point_5",
-			summary: [
-				[
-					{ key: "point_5_summary_1" },
-					{ key: "point_5_summary_2" },
-					{ key: "point_5_summary_3" },
-				],
-			],
+			summary: [[{ key: "point_5_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_6",
@@ -106,13 +75,8 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_8_summary_1" },
-					{
-						key: "point_8_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_8_summary_2", href: "/wallets", localize: true },
 					{ key: "point_8_summary_3" },
-					{ key: "point_8_summary_4" },
 				],
 			],
 		},
@@ -122,11 +86,8 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_9_summary_1" },
-					{
-						key: "point_9_summary_2",
-						href: "/inflation",
-						localize: true,
-					},
+					{ key: "point_9_summary_2", href: "/inflation", localize: true },
+					{ key: "point_9_summary_3" },
 				],
 			],
 		},
@@ -147,8 +108,12 @@ export const BITCOIN_VS_CBDC: ComparisonPageData = {
 			label: "Bitcoin Source Code — 21 Million Supply Cap",
 		},
 		{
-			url: "https://cbdctracker.hrf.org",
-			label: "Human Rights Foundation — CBDC Tracker",
+			url: "https://www.cbdctracker.org/",
+			label: "CBDC Tracker — Global Central Bank Digital Currency Status",
+		},
+		{
+			url: "https://hrf.org/programs/financial-freedom/",
+			label: "Human Rights Foundation — Financial Freedom Program",
 		},
 	],
 };

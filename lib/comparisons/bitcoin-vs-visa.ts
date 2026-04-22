@@ -8,12 +8,7 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 	slug: "bitcoin-vs-visa",
 	namespace: "bitcoin-vs-visa",
 	metaImage: "/img/meta/meta-visa-v1.png",
-	headerKeys: {
-		part1: "visa_header",
-		bitcoin: "visa_header_2",
-		and: "visa_header_3",
-		asset: "visa_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Visa blue — but pulled darker so the orange Bitcoin word stays dominant.
 	assetAccentColor: "#1A1F71",
 	introKeys: ["visa_intro_1", "visa_intro_2", "visa_intro_3"],
@@ -25,12 +20,7 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_1",
 			assetKey: "visa_point_1",
-			summary: [
-				[
-					{ key: "point_1_summary_1" },
-					{ key: "point_1_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_1_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_2",
@@ -38,11 +28,7 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_2_summary_1" },
-					{
-						key: "point_2_summary_2",
-						href: "/business/wallets",
-						localize: true,
-					},
+					{ key: "point_2_summary_2", href: "/business", localize: true },
 					{ key: "point_2_summary_3" },
 				],
 			],
@@ -50,32 +36,17 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_3",
 			assetKey: "visa_point_3",
-			summary: [
-				[
-					{ key: "point_3_summary_1" },
-					{ key: "point_3_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_3_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_4",
 			assetKey: "visa_point_4",
-			summary: [
-				[
-					{ key: "point_4_summary_1" },
-					{ key: "point_4_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_4_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_5",
 			assetKey: "visa_point_5",
-			summary: [
-				[
-					{ key: "point_5_summary_1" },
-					{ key: "point_5_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_5_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_6",
@@ -83,11 +54,7 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_6_summary_1" },
-					{
-						key: "point_6_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_6_summary_2", href: "/wallets", localize: true },
 					{ key: "point_6_summary_3" },
 				],
 			],
@@ -95,12 +62,7 @@ export const BITCOIN_VS_VISA: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_7",
 			assetKey: "visa_point_7",
-			summary: [
-				[
-					{ key: "point_7_summary_1" },
-					{ key: "point_7_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_7_summary_1" }]],
 		},
 	],
 	sources: [

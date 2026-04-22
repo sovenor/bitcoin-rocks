@@ -8,12 +8,7 @@ export const BITCOIN_VS_REAL_ESTATE: ComparisonPageData = {
 	slug: "bitcoin-vs-real-estate",
 	namespace: "bitcoin-vs-real-estate",
 	metaImage: "/img/meta/meta-real-estate-v1.png",
-	headerKeys: {
-		part1: "real_estate_header",
-		bitcoin: "real_estate_header_2",
-		and: "real_estate_header_3",
-		asset: "real_estate_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Earth-tone brown, evocative of property/land.
 	assetAccentColor: "#C99E6E",
 	introKeys: ["real_estate_intro_1", "real_estate_intro_2", "real_estate_intro_3"],
@@ -79,8 +74,9 @@ export const BITCOIN_VS_REAL_ESTATE: ComparisonPageData = {
 			label: "Bitcoin Source Code — 21 Million Supply Cap",
 		},
 		{
-			url: "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2020_population-facts-housing.pdf",
-			label: "United Nations — Housing and the Financialization of Shelter",
+			url: "https://www.ohchr.org/en/special-procedures/sr-housing/financialization-housing",
+			label:
+				"United Nations Special Rapporteur — Financialization of Housing",
 		},
 	],
 };

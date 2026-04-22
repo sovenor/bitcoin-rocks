@@ -8,12 +8,7 @@ export const BITCOIN_VS_CRYPTO: ComparisonPageData = {
 	slug: "bitcoin-vs-crypto",
 	namespace: "bitcoin-vs-crypto",
 	metaImage: "/img/meta/meta-crypto-v1.png",
-	headerKeys: {
-		part1: "crypto_header",
-		bitcoin: "crypto_header_2",
-		and: "crypto_header_3",
-		asset: "crypto_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Generic "crypto purple" — distinct from Bitcoin orange so
 	// readers immediately see the contrast at a glance.
 	assetAccentColor: "#B072E8",
@@ -46,12 +41,6 @@ export const BITCOIN_VS_CRYPTO: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_5",
 			assetKey: "crypto_point_5",
-			// Note: `point_5_summary_1` embeds an inline `<a>` to the
-			// Bitcoin whitepaper inside the translation string itself.
-			// We render it through `dangerouslySetInnerHTML` in
-			// ComparisonPageLayout so the inline link survives, rather
-			// than splitting the key. Consistent with Phase 7a cash/gold
-			// precedent for inline HTML inside translations.
 			summary: [[{ key: "point_5_summary_1" }]],
 		},
 		{

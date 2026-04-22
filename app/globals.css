@@ -1058,6 +1058,19 @@ svg.story-card-icon {
    .publisher-attribution from the inflation block above.
    ═══════════════════════════════════════════════════════════════════ */
 
+/* Hero H1 on a /bitcoin-vs-* comparison page is white by default so the
+   inline `<span class="orange">Bitcoin</span>` and `<span class="asset">…
+   </span>` markup in `hero_title` can introduce color on a neutral base.
+   Without this override the base H1 rule (`color: var(--color-bitcoin-
+   orange)`) would tint every unspanned word orange.
+
+   Scoped with `:has(.asset)` so /bank-runs, /about, /get-involved (which
+   share `.comparison-hero` but have no inline `.asset` span) keep their
+   original all-orange H1. */
+.comparison-hero h1:has(.asset) {
+	color: var(--color-fg);
+}
+
 /* The asset word (GOLD / STOCKS / CASH) reads its color from a
    CSS custom property set per page on the parent container. Falls
    back to Bitcoin orange if --asset-accent is unset. */
@@ -1065,26 +1078,34 @@ svg.story-card-icon {
 	color: var(--asset-accent, var(--color-bitcoin-orange));
 }
 
+/* Intro "card" — left-aligned prose inside a bordered surface that
+   matches the comparison-chip / whats-next card look. Wraps the one-
+   or-more <p class="inflation-intro"> children. */
 .comparison-intro {
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
+.comparison-intro .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
 .comparison-intro .inflation-intro {
 	margin-bottom: 16px;
+	text-align: left;
 }
 .comparison-intro .inflation-intro:last-child {
 	margin-bottom: 0;
 }
 
 /* One comparison point = two side-by-side chips stacked above an
-   explanation paragraph. */
+   explanation paragraph. No dividing rule between points — the
+   spacing alone carries the section rhythm. */
 .comparison-point {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	border-top: 1px solid #1a1a24;
-}
-.comparison-point:first-of-type {
-	border-top: none;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .comparison-chips {
@@ -1101,20 +1122,30 @@ svg.story-card-icon {
 	}
 }
 
+/* Comparison chips — styled like the inflation-page stat cards for
+   high contrast. Surface background + muted border, rounded corners,
+   subtle hover/focus treatment kept minimal (these are static, not
+   links). */
 .comparison-chip {
-	background: var(--color-bg-soft);
-	border: 1px solid #1a1a24;
-	border-radius: 14px;
-	padding: 20px 24px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px 20px;
 	text-align: center;
 }
 .comparison-chip-label {
 	font-family: var(--font-proxima);
-	font-weight: 600;
-	font-size: 13px;
-	letter-spacing: 0.08em;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 1.15;
+	letter-spacing: 0.04em;
 	text-transform: uppercase;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
+}
+@media (max-width: 700px) {
+	.comparison-chip-label {
+		font-size: 20px;
+	}
 }
 .comparison-chip-bitcoin .comparison-chip-label {
 	color: var(--color-bitcoin-orange);
@@ -1124,7 +1155,7 @@ svg.story-card-icon {
 }
 .comparison-chip-value {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 20px;
 	line-height: 28px;
 	color: var(--color-fg);
@@ -1164,3 +1195,28 @@ svg.story-card-icon {
 .comparison-whats-next {
 	margin-top: 40px;
 }
+
+/* ─────────────────────────────────────────────────────────────
+   Comparison-page alignment
+   Everything below the hero + intro text box should line up with
+   the intro card's outer visible border. By default `.container-
+   inner` insets its content by an extra 2% on each side — fine for
+   a full-bleed section, but on a comparison page it makes the
+   chips / explanation prose / sources / attribution look narrower
+   than the card above them. Pull that padding to 0 (and normalise
+   the two oddly-sized section wrappers to 96%) so everything below
+   the intro text box aligns flush with its outer edges.
+   ───────────────────────────────────────────────────────────── */
+.comparison-page .comparison-point .container-inner,
+.comparison-page .comparison-whats-next .container-inner,
+.comparison-page .sources-section .container-inner,
+.comparison-page .publisher-attribution .container-inner {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.comparison-page .sources-section,
+.comparison-page .publisher-attribution {
+	width: 96%;
+}
+

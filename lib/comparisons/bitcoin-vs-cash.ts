@@ -8,12 +8,7 @@ export const BITCOIN_VS_CASH: ComparisonPageData = {
 	slug: "bitcoin-vs-cash",
 	namespace: "bitcoin-vs-cash",
 	metaImage: "/img/meta/meta-cash-v1.png",
-	headerKeys: {
-		part1: "cash_header",
-		bitcoin: "cash_header_2",
-		and: "cash_header_3",
-		asset: "cash_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Dollar-bill green — the same token as `.cash` in legacy css/style.css.
 	assetAccentColor: "#85BB65",
 	introKeys: ["cash_intro_1", "cash_intro_2", "cash_intro_3"],
@@ -37,20 +32,8 @@ export const BITCOIN_VS_CASH: ComparisonPageData = {
 			assetKey: "cash_point_3",
 			summary: [
 				[
-					{
-						key: "point_3_summary_1",
-						// The legacy page's `point_3_summary_1` string embeds an
-						// inline `<a>` pointing to the RBI 2016 demonetization
-						// notice. We render the whole key as-is (including its
-						// embedded markup) because some translators inserted the
-						// link HTML inline — see the gold-standard Sources
-						// section at the bottom of the page instead.
-					},
-					{
-						key: "point_3_summary_2",
-						href: "/inflation",
-						localize: true,
-					},
+					{ key: "point_3_summary_1" },
+					{ key: "point_3_summary_2", href: "/inflation", localize: true },
 					{ key: "point_3_summary_3" },
 				],
 			],
@@ -71,11 +54,7 @@ export const BITCOIN_VS_CASH: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_6_summary_1" },
-					{
-						key: "point_6_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_6_summary_2", href: "/wallets", localize: true },
 					{ key: "point_6_summary_3" },
 				],
 			],

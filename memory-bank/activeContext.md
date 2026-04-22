@@ -1,4 +1,74 @@
-## Latest: Comparison-page translation-collision bugfix — April 20, 2026
+## Latest: Comparison-page below-intro alignment — April 21, 2026
+
+All ten `/bitcoin-vs-*` comparison pages had a visual inconsistency: the intro "card" (the bordered text box sitting just under the hero H1) was narrower than the content stacked below it. Comparison chips, explanation prose, the What's-next grid, the sources list, and the publisher attribution all appeared ~4-40px more inset than the intro card's outer border, because:
+
+- `.container-inner` applies an extra `2% / 2%` horizontal padding which compounds inside every section wrapper.
+- `.sources-section` was only 95% wide.
+- `.publisher-attribution` was only 70% wide.
+
+### Fix
+
+- Added a `.comparison-page` class hook to the `ComparisonPageLayout` root container.
+- Added scoped overrides in `app/globals.css`:
+  - `.comparison-page .comparison-point .container-inner`, `.comparison-whats-next .container-inner`, `.sources-section .container-inner`, `.publisher-attribution .container-inner` → `padding-left: 0; padding-right: 0;`
+  - `.comparison-page .sources-section`, `.comparison-page .publisher-attribution` → `width: 96%;`
+- Net effect: every section below the hero now aligns flush with the outer edges of the intro text box, giving the page a single continuous left/right margin down the column.
+
+The hero + intro card themselves are untouched. Other pages using the same `.sources-section` / `.publisher-attribution` / `.container-inner` rules (inflation, about, get-involved, bank-runs) are untouched because all overrides are scoped under `.comparison-page`.
+
+### Files changed
+
+```
+components/ComparisonPageLayout.tsx  (add `comparison-page` class to the root .container-main)
+app/globals.css                      (scoped alignment overrides at the bottom of section 6)
+memory-bank/activeContext.md         (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+---
+
+## Previous: Comparison-page hero + intro-card + chip-label polish — April 21, 2026
+
+
+Three coordinated visual tweaks to all ten `/bitcoin-vs-*` comparison pages. No content moves — this is purely a styling + markup refresh on the shared `ComparisonPageLayout`.
+
+### What changed
+
+1. **Tri-color hero H1.** Each `hero_title` (e.g. "The difference between Bitcoin and Gold") now renders with three colors: white base text, orange "Bitcoin", and per-page asset-accent "Gold" / "Stocks" / "Fine Art" / etc. Achieved by embedding `<span class="orange">Bitcoin</span>` + `<span class="asset">Gold</span>` inside the translation string and rendering the H1 via `dangerouslySetInnerHTML`. The `.asset` span reads the same `--asset-accent` CSS var that already colored the per-point asset chip labels, so gold pages get metallic gold (#EBC61F), stocks pages get their dark-blue accent, etc.
+
+2. **Intro "card" treatment.** The first text block on every comparison page — the 2-3 paragraph intro — now sits inside a bordered, left-aligned surface card (`background: var(--color-surface)`, `1px solid var(--color-card-border)`, `border-radius: 16px`) that mirrors the look of the comparison chips below it and the whats-next cards further down. Replaces the previous centered, borderless prose.
+
+3. **Bigger comparison-chip labels.** The "BITCOIN" / "GOLD" / "STOCKS" labels above each comparison point jumped from 12px → 24px (800 weight, 20px on mobile). Same color tokens as before (Bitcoin orange + `--asset-accent`), just much more prominent visually — matches the "big colored words" feel the new hero H1 introduces.
+
+### Files changed
+
+```
+i18n/en/bitcoin-vs-*.json            (10 files — hero_title now embeds inline span markup)
+scripts/update-comparison-hero-titles.js (NEW — idempotent bulk updater)
+components/ComparisonPageLayout.tsx  (render hero H1 via dangerouslySetInnerHTML when heroTitleKey is set)
+app/globals.css                      (scoped `.comparison-hero h1:has(.asset)` white base + new
+                                        `.comparison-intro .container-inner` card styling +
+                                        enlarged `.comparison-chip-label` rule)
+memory-bank/activeContext.md         (this entry prepended)
+```
+
+### Scoping notes
+
+- The H1 white-base override uses `h1:has(.asset)` so `/bank-runs`, `/about`, and `/get-involved` (which share `.comparison-hero` via `ContentPageLayout` but have no `.asset` span in their headline) keep their original all-orange H1.
+- `.comparison-intro` is only emitted by `ComparisonPageLayout`, so the bordered-card styling is automatically isolated to the 10 `/bitcoin-vs-*` pages.
+- Other-language JSON files still fall back per-key to English via `loadNamespaceMessages()`, so every locale immediately picks up the tri-color hero — no 55-language script needed. Translators will adopt the inline span markup naturally when they next edit their `hero_title` string.
+
+### Verification
+
+- `npm run typecheck` → clean.
+- English gold page spot-checked: H1 renders three colors, intro block sits in a bordered card, chip labels read at 24px.
+
+---
+
+## Previous: Comparison-page translation-collision bugfix — April 20, 2026
 
 Every `/bitcoin-vs-*` comparison page was rendering a Frankenstein mix of explanations pulled from multiple comparison JSON files. The Bitcoin-side chip values, every paragraph underneath each comparison section, and several "intro" lines were all wrong — they showed strings from whichever `bitcoin-vs-*` namespace happened to be merged last into the global next-intl message bag.
 

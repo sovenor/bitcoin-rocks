@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-06-29",
+		"last-updated": "2026-04-21",
 		"locale": "en"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Real Estate",
@@ -32,15 +32,16 @@
 	"bitcoin_point_6": "Difficult to destroy",
 	"bitcoin_point_7": "Perfectly fungible",
 	"bitcoin_point_8": "Global 24/7 market",
-	"point_1_summary_1": "Bitcoin can be moved anywhere in the world instantly over the internet. Real estate is permanently fixed to a specific location and cannot be relocated, making it vulnerable to local economic conditions, natural disasters, and political instability.",
-	"point_2_summary_1": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size. Real estate cannot be easily divided - you can't sell just the kitchen of your house or buy half a bedroom.",
-	"point_3_summary_1": "Bitcoin operates on a decentralized network that no government can control. Real estate is subject to extensive government regulation including rent control, eviction moratoriums, zoning laws, and eminent domain where governments can seize your property.",
-	"point_4_summary_1": "Bitcoin requires no maintenance - it exists as digital code on a network. Real estate requires constant upkeep including repairs, renovations, property management, insurance, and dealing with tenants if rented.",
-	"point_5_summary_1": "Bitcoin has no ongoing taxes - you only pay capital gains when you sell. Real estate is subject to annual property taxes that must be paid regardless of whether the property generates income, effectively forcing you to rent your own property from the government forever.",
-	"point_6_summary_1": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, or other natural disasters. Real estate is vulnerable to all forms of physical destruction and requires expensive insurance that may not fully cover losses.",
-	"point_7_summary_1": "Every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Every piece of real estate is unique with different locations, conditions, and characteristics, making it difficult to price and compare properties.",
-	"point_8_summary_1": "Bitcoin can be bought and sold 24/7 by anyone with internet access anywhere in the world. Real estate sales are limited to local buyers, require lengthy processes with lawyers and agents, and can take months to complete.",
+	"point_1_summary_1": "Bitcoin moves anywhere in the world instantly. Real estate is fixed to one location and exposed to local economic, political, and natural risks.",
+	"point_2_summary_1": "Bitcoin divides into 100 million sats. Real estate can't be partly sold — you can't offload just the kitchen or buy half a bedroom.",
+	"point_3_summary_1": "Bitcoin operates on a decentralized network that no government can control. Real estate is heavily regulated — zoning, rent control, eminent domain, and seizure all apply.",
+	"point_4_summary_1": "Bitcoin requires no upkeep. Real estate demands repairs, renovations, insurance, property management, and tenant issues.",
+	"point_5_summary_1": "Bitcoin has no ongoing taxes — you only pay capital gains when you sell. Real estate owes annual property taxes regardless of income.",
+	"point_6_summary_1": "Bitcoin, backed up properly, survives fire, flood, and earthquake. Real estate is vulnerable to every disaster, and insurance rarely covers it all.",
+	"point_7_summary_1": "Every bitcoin is identical and interchangeable. Every property is unique, making pricing and comparisons difficult.",
+	"point_8_summary_1": "Bitcoin trades globally 24/7 by anyone with internet access. Real estate sales are limited to local buyers and can take months of paperwork to close.",
 	"bitcoin_point_9": "Promotes individual ownership",
 	"real_estate_point_9": "Contributes to housing financialization",
-	"point_9_summary_1": "Bitcoin enables direct individual ownership without intermediaries, promoting financial sovereignty for everyone. Buying real estate as an investment beyond your primary residence contributes to the financialization of housing, treating homes as commodities rather than shelter. This drives up prices, reduces affordability for families, and contributes to the housing and homelessness crisis affecting many countries today."
+	"point_9_summary_1": "Bitcoin enables direct individual ownership for anyone. Buying real estate as an investment beyond your primary residence drives up housing prices, reducing affordability and fueling the housing crisis.",
+	"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Real Estate</span>"
 }

@@ -8,12 +8,7 @@ export const BITCOIN_VS_FINE_ART: ComparisonPageData = {
 	slug: "bitcoin-vs-fine-art",
 	namespace: "bitcoin-vs-fine-art",
 	metaImage: "/img/meta/meta-fine-art-v1.png",
-	headerKeys: {
-		part1: "fine_art_header",
-		bitcoin: "fine_art_header_2",
-		and: "fine_art_header_3",
-		asset: "fine_art_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Muted gold / old-master ochre — evokes auction-house prestige.
 	assetAccentColor: "#C7A858",
 	introKeys: [

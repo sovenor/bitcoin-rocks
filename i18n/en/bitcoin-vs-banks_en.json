@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-04-21",
 		"locale": "en"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banks",
@@ -30,16 +30,17 @@
 	"bitcoin_point_5": "Predictable, low fees",
 	"bitcoin_point_6": "Can't overdraft",
 	"bitcoin_point_7": "Censorship resistant",
-	"point_1_summary_1": "Bitcoin is permissionless, meaning anyone with internet access can use it without asking for approval from any authority.",
-	"point_1_summary_2": "Bitcoin operates without gatekeepers",
-	"point_1_summary_3": "- no one can deny you access. Banks, however, can refuse to open accounts, freeze existing accounts, or deny services based on their policies or government regulations.",
-	"point_2_summary_1": "The Bitcoin network operates 24 hours a day, 7 days a week, 365 days a year without maintenance windows or holidays. Banks have limited operating hours, close on weekends and holidays, and often have system maintenance periods when services are unavailable.",
-	"point_3_summary_1": "All Bitcoin transactions are recorded on a public blockchain that anyone can verify and audit.",
+	"point_1_summary_1": "Anyone with an internet connection can use Bitcoin — it's",
+	"point_1_summary_2": "permissionless.",
+	"point_1_summary_3": "Banks can refuse, freeze, or close accounts based on policy or government rules.",
+	"point_2_summary_1": "The Bitcoin network runs 24/7/365 with no maintenance windows or holidays. Banks have limited hours, weekends off, and outage windows.",
+	"point_3_summary_1": "Every Bitcoin transaction is on a public blockchain anyone can audit. Banks run private ledgers customers can't independently verify.",
 	"point_3_summary_2": "Banks operate with private ledgers and opaque internal processes that customers cannot independently verify.",
-	"point_4_summary_1": "With Bitcoin, you can hold your own private keys and have complete control over your money.",
-	"point_4_summary_2": "Learn about Bitcoin wallets",
-	"point_4_summary_3": "to understand self-custody. Banks hold your money in their accounts and can freeze, limit, or restrict access to your funds at any time.",
-	"point_5_summary_1": "Bitcoin transaction fees are transparent, predictable, and typically very low. Banks often have hidden fees, monthly account fees, overdraft charges, wire transfer fees, ATM fees, and other penalties that can add up significantly over time.",
-	"point_6_summary_1": "Bitcoin prevents you from spending money you don't have - you can only spend Bitcoin that you actually own. Banks allow overdrafts (spending more than your account balance) and then charge substantial fees for this 'service,' often leading to cascading penalty charges.",
-	"point_7_summary_1": "Bitcoin transactions are censorship resistant - once broadcast to the network, they cannot be stopped or reversed by any central authority. Banks can block, freeze, reverse, or restrict transactions based on their policies, government orders, or suspicious activity algorithms."
+	"point_4_summary_1": "With Bitcoin, you hold your own private keys — see our simple",
+	"point_4_summary_2": "Bitcoin wallets",
+	"point_4_summary_3": "guide. Banks hold your money and can freeze, limit, or restrict it at any time.",
+	"point_5_summary_1": "Bitcoin fees are transparent and predictable. Banks stack on hidden account, overdraft, wire, and ATM fees over time.",
+	"point_6_summary_1": "Bitcoin only lets you spend what you actually own. Banks allow overdrafts, then charge cascading penalty fees for the privilege.",
+	"point_7_summary_1": "Once broadcast, Bitcoin transactions can't be stopped or reversed. Banks can block, freeze, or reverse transactions based on policy or government orders.",
+	"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Banks</span>"
 }

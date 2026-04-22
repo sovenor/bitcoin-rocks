@@ -8,12 +8,7 @@ export const BITCOIN_VS_STOCKS: ComparisonPageData = {
 	slug: "bitcoin-vs-stocks",
 	namespace: "bitcoin-vs-stocks",
 	metaImage: "/img/meta/meta-stocks-v1.png",
-	headerKeys: {
-		part1: "stocks_header",
-		bitcoin: "stocks_header_2",
-		and: "stocks_header_3",
-		asset: "stocks_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Green — classic stock-market ticker color.
 	assetAccentColor: "#1DFF4D",
 	introKeys: ["stocks_intro_1", "stocks_intro_2", "stocks_intro_3"],
@@ -32,20 +27,9 @@ export const BITCOIN_VS_STOCKS: ComparisonPageData = {
 			assetKey: "stocks_point_2",
 			summary: [
 				[
-					{
-						key: "point_2_summary_1",
-						href: "https://voteforbetter.money/learn/bitcoin-is-scarce",
-						external: true,
-					},
-					{ key: "point_2_summary_2" },
-				],
-				[
-					{
-						key: "point_2_summary_3",
-						href: "/inflation",
-						localize: true,
-					},
-					{ key: "point_2_summary_4" },
+					{ key: "point_2_summary_1" },
+					{ key: "point_2_summary_2", href: "/inflation", localize: true },
+					{ key: "point_2_summary_3" },
 				],
 			],
 		},
@@ -62,18 +46,7 @@ export const BITCOIN_VS_STOCKS: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_5",
 			assetKey: "stocks_point_5",
-			summary: [
-				[
-					{ key: "point_5_summary_1" },
-					{
-						key: "point_5_summary_2",
-						href: "https://voteforbetter.money/learn/bitcoin-is-decentralized",
-						external: true,
-					},
-					{ key: "point_5_summary_3" },
-					{ key: "point_5_summary_4" },
-				],
-			],
+			summary: [[{ key: "point_5_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_6",
@@ -81,14 +54,9 @@ export const BITCOIN_VS_STOCKS: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_6_summary_1" },
-					{
-						key: "point_6_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_6_summary_2", href: "/wallets", localize: true },
+					{ key: "point_6_summary_3" },
 				],
-				[{ key: "point_6_summary_3" }],
-				[{ key: "point_6_summary_4" }],
 			],
 		},
 		{

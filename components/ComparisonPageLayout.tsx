@@ -115,34 +115,47 @@ export async function ComparisonPageLayout({
 			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 			{comparisonSchema !== null && <JsonLd data={comparisonSchema} />}
 
-			<div className="container-main" style={accentStyle}>
+			<div className="container-main comparison-page" style={accentStyle}>
 				{/* ═══ HERO ═══ */}
 				<div className="inflation-section comparison-hero">
 					<div className="container-inner">
-						<h1>
-							{data.customHeader
-								? data.customHeader.map((part, i) => (
-										<span key={i}>
-											<span className={headerStyleClass(part.style)}>
-												{t(part.key)}
+						{data.heroTitleKey ? (
+							// `hero_title` is a trusted string from our own i18n JSON
+							// files that embeds `<span class="orange">Bitcoin</span>`
+							// and `<span class="asset">Asset</span>` markup so the
+							// H1 can mix three colors (white base + orange + asset
+							// accent) while staying a single translatable sentence.
+							<h1
+								dangerouslySetInnerHTML={{
+									__html: t(data.heroTitleKey),
+								}}
+							/>
+						) : (
+							<h1>
+								{data.customHeader
+									? data.customHeader.map((part, i) => (
+											<span key={i}>
+												<span className={headerStyleClass(part.style)}>
+													{t(part.key)}
+												</span>
+												{i < data.customHeader!.length - 1 && <br />}
 											</span>
-											{i < data.customHeader!.length - 1 && <br />}
-										</span>
-									))
-								: data.headerKeys && (
-										<>
-											<span>{t(data.headerKeys.part1)}</span>{" "}
-											<span className="orange">
-												{t(data.headerKeys.bitcoin)}
-											</span>
-											<br />
-											<span>{t(data.headerKeys.and)}</span>{" "}
-											<span className="asset">
-												{t(data.headerKeys.asset)}
-											</span>
-										</>
-									)}
-						</h1>
+										))
+									: data.headerKeys && (
+											<>
+												<span>{t(data.headerKeys.part1)}</span>{" "}
+												<span className="orange">
+													{t(data.headerKeys.bitcoin)}
+												</span>
+												<br />
+												<span>{t(data.headerKeys.and)}</span>{" "}
+												<span className="asset">
+													{t(data.headerKeys.asset)}
+												</span>
+											</>
+										)}
+							</h1>
+						)}
 					</div>
 				</div>
 

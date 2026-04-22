@@ -8,12 +8,7 @@ export const BITCOIN_VS_BANKS: ComparisonPageData = {
 	slug: "bitcoin-vs-banks",
 	namespace: "bitcoin-vs-banks",
 	metaImage: "/img/meta/meta-banks-v1.png",
-	headerKeys: {
-		part1: "banks_header",
-		bitcoin: "banks_header_2",
-		and: "banks_header_3",
-		asset: "banks_header_4",
-	},
+	heroTitleKey: "hero_title",
 	// Red — classic "banks are dangerous" warning accent
 	// (consistent with the `#96041C` freedom token in the legacy palette).
 	assetAccentColor: "#C02C3E",
@@ -46,12 +41,7 @@ export const BITCOIN_VS_BANKS: ComparisonPageData = {
 		{
 			bitcoinKey: "bitcoin_point_3",
 			assetKey: "banks_point_3",
-			summary: [
-				[
-					{ key: "point_3_summary_1" },
-					{ key: "point_3_summary_2" },
-				],
-			],
+			summary: [[{ key: "point_3_summary_1" }]],
 		},
 		{
 			bitcoinKey: "bitcoin_point_4",
@@ -59,11 +49,7 @@ export const BITCOIN_VS_BANKS: ComparisonPageData = {
 			summary: [
 				[
 					{ key: "point_4_summary_1" },
-					{
-						key: "point_4_summary_2",
-						href: "/wallets",
-						localize: true,
-					},
+					{ key: "point_4_summary_2", href: "/wallets", localize: true },
 					{ key: "point_4_summary_3" },
 				],
 			],
@@ -97,6 +83,10 @@ export const BITCOIN_VS_BANKS: ComparisonPageData = {
 		{
 			url: "https://www.fdic.gov/bank-failures/bank-failures-year",
 			label: "FDIC — Failed Bank List",
+		},
+		{
+			url: "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+			label: "Federal Reserve — Reserve Requirements",
 		},
 	],
 };
