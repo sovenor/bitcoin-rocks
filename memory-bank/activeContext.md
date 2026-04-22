@@ -1,4 +1,59 @@
-## Latest: /compound-inflation-calculator V2 redesign — April 22, 2026
+## Latest: /buy V2 redesign — April 22, 2026
+
+`/buy` was still on the V1 design system (centered `.back-to-home` logo link, `.wallet-h3` all-caps hero, `.text-box.intro` boxed copy, `.h2-section` step headers, big `.container-buy-button` country grid with raw `<button>` chips, `.payment-method-option` blocks with `.alert` raster-image callouts, `.buy-platform-box` platform cards, and the `.buy-cta-button` storage CTA). Ported it into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages. Information architecture is unchanged — same 4-step wizard (country → payment method → platform → storage CTA) — only the chrome was replaced.
+
+### What changed
+
+1. **Hero.** Replaced the V1 back-to-home logo + `.wallet-h3` all-caps header with a plain `<h1>` ("How to buy Bitcoin") + `.home-hero`-style intro paragraph. New translation key `buy_header_subtitle` supplies a one-line subtitle under the H1. `buy_header` + `buy_bitcoin_guide` were sentence-cased.
+
+2. **Intro card.** The two-paragraph "Buying Bitcoin for the first time…" blurb now renders inside a `.wallet-intro` bordered surface card (same chrome as `/wallets`, `/lightning`, `/flyers`, `/compound-inflation-calculator`).
+
+3. **Step headers.** Each step now leads with a small uppercase orange `.buy-step-eyebrow` ("STEP 1") + a plain `<h2>` with the step's sentence-cased heading + a muted lead-in paragraph. Four new i18n keys (`buy_step_1_eyebrow`…`buy_step_4_eyebrow`) drive the eyebrows; the existing `buy_step_N_header` strings were sentence-cased ("Select your country", "Choose your payment method", "Your buying options", "Store your Bitcoin safely").
+
+4. **Step 1 (country picker).** New `.buy-search-input` (dark-surface, orange-focus-ring, 12px radius) replaces the legacy `.country-search-input`. The 52 country buttons are now `.buy-country-button` cards — surface background, rounded corners, flag + label in a flex row, hover lift, orange outline when `.is-selected`. Still server-rendered so all 52 entries are crawler-visible. Grid is 2-col desktop / 1-col mobile via `.buy-country-grid`.
+
+5. **Step 2 (payment method).** Replaced the V1 `.payment-method-option` + `.alert` + raster `alert-check-v2.png` / `alert-x-v2.png` icons with two `.buy-method-card` bordered surface cards containing `.wallet-callout` pill badges (✓ green `good`, ✗ red `danger`, ⚠ yellow `warn`) + a solid orange `.buy-method-card-cta` button. Bank card gets ✓ "Fast & easy" + ✗ "Less private"; Cash card gets ✓ "More private" + ⚠ "Limited options". Selected-state inverts the CTA to outlined orange.
+
+6. **Step 3 (platforms).** Replaced the `.buy-platform-box` + inline "RECOMMENDED" ribbon with `a.buy-platform-card` — the whole card is now a clickable link (like V2 wallet cards) with an absolutely-positioned `.buy-platform-badge` orange pill on the top-right for recommended platforms (Strike for bank transfers, ATM for cash). Description + V2-style ✓-prefixed feature bullets + outlined "LEARN MORE →" `.buy-platform-cta` that fills orange on hover. Recommended cards carry a subtle orange linear-gradient top tint.
+
+7. **Step 4 (storage).** Replaced the V1 `.buy-cta-button` with `.buy-storage-card` (bordered surface holding the 3-paragraph "move it to your own wallet" explainer + an emphasized closing line) followed by a `.wallet-lightning-cta`-style single-row link card into `/wallets` ("Next step → View our Bitcoin wallet guide"). New translation key `buy_storage_cta_label` supplies the eyebrow; existing `buy_cta_wallets` was sentence-cased.
+
+8. **What's next grid.** Added a standard V2 `<WhatsNextCard>` grid with 4 cards (Keep learning → `/`, Get a wallet → `/wallets`, Bitcoin doesn't have inflation → `/inflation`, Calculate inflation → `/compound-inflation-calculator`).
+
+9. **Sources + publisher attribution.** Added a new `.sources-section` listing 8 authoritative citations (Strike, Kraken, Relai, Swan, River, CoinATMRadar, Bisq, Satoshi whitepaper). Standard `.publisher-attribution` with the reviewed-for-accuracy badge closes the page (same markup as every other V2 content page).
+
+10. **Schemas.** Kept the V1 HowTo JSON-LD schema (strong GEO signal for "how to buy X" queries). Also still emits Article + BreadcrumbList JSON-LD. The 4 HowTo steps now link to `#country-selection` / `#payment-method-selection` / `#buying-options` / `#storage-guidance` anchors and pull their `text` from the translated step-description + storage-explainer keys so the schema stays in sync with the visible copy.
+
+### BuyFlow component changes
+
+- Signature gained a `walletsHref` prop so the Step 4 CTA can use a locale-prefixed URL (`/${locale}/wallets`) instead of the bare `/wallets` V1 string. Keeps the component pure — no `useLocale()` call in the Client bundle.
+- Event delegation on the Step 1 container is unchanged (one `click` handler for all 52 country buttons, one `input` handler for the search filter). The `.selected` class was renamed to `.is-selected` across country buttons + method cards for consistency with the rest of the V2 system.
+- Method selection still scrolls smoothly to Step 3; country selection still scrolls smoothly to Step 2. Timing is unchanged (50ms settle).
+
+### Files changed
+
+```
+components/BuyFlow.tsx                         (V2 rewrite — `.buy-*` class namespace, V2 callouts, walletsHref prop, `.is-selected` replaces `.selected`)
+app/[locale]/buy/page.tsx                      (full V2 rewrite — hero, intro card, step wizard mount, WhatsNext, sources, publisher + HowTo schema restored)
+app/globals.css                                 (new §10 — `.buy-step`, `.buy-step-header`, `.buy-step-eyebrow`, `.buy-search-*`, `.buy-country-grid`, `.buy-country-button`, `.buy-country-flag`, `.buy-country-label`, `.buy-method-grid`, `.buy-method-card*`, `.buy-platform-stack`, `.buy-platform-card` + `.is-recommended`, `.buy-platform-badge`, `.buy-platform-name/-description/-features/-feature-check/-cta`, `.buy-storage-card*`)
+i18n/en/buy_en.json                            (sentence-cased `buy_bitcoin_guide` + `buy_header` + `buy_step_N_header` + `buy_method_*` + `buy_cta_wallets`, added `buy_header_subtitle`, `buy_meta_description`, `buy_howto_name`, `buy_step_1_eyebrow`–`buy_step_4_eyebrow`, `buy_storage_cta_label`; bumped @metadata.last-updated to 2026-04-22)
+scripts/buy-v2/add-keys.js                     (NEW — idempotent key-updater script)
+V2-REDESIGN-CHECKLIST.md                        (flipped BuyFlow + /buy to [x]; updated summary counts: Educational/utility 5/5, Total pages 66/88)
+memory-bank/activeContext.md                    (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 all-caps values for `buy_header`, `buy_step_N_header`, `buy_method_*_*`, and `buy_cta_wallets`; the 12 new keys (`buy_header_subtitle`, `buy_meta_description`, `buy_howto_name`, 4 × `buy_step_N_eyebrow`, `buy_storage_cta_label`) fall back to English. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- The `alert-check-v2.png` / `alert-x-v2.png` raster icons are no longer referenced on `/buy` (the `.buy-method-card` uses unicode `✓` / `✗` / `⚠` inside `.wallet-callout` pills instead). They're still used on V1 pages that haven't been redesigned yet (business/* and form pages), so the asset itself stays in `public/img/wallets/`.
+
+---
+
+## Previous: /compound-inflation-calculator V2 redesign — April 22, 2026
 
 `/compound-inflation-calculator` was still on the V1 design system (centered `.back-to-home` logo link, `.h1-inflation` single-line uppercase header, V1 `.text-box.intro` wrappers, legacy `compound-form` with `.form-box` + `.cic-button` + `.break-tiny-compound` spacers, V1 `.h2-section`/`.h3-item` CTA card). Ported it into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/bank-runs`, `/about`, `/get-involved`, and all ten `/bitcoin-vs-*` pages.
 

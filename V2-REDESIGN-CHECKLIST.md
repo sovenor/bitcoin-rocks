@@ -28,7 +28,7 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [x] **CompoundInflationCalculatorSolo** (`components/CompoundInflationCalculatorSolo.tsx`) — standalone calc page
 - [x] **InflationStats** (`components/InflationStats.tsx`)
 - [x] **FdicStats** (`components/FdicStats.tsx`)
-- [ ] **BuyFlow** (`components/BuyFlow.tsx`)
+- [x] **BuyFlow** (`components/BuyFlow.tsx`)
 - [x] **WalletAccordion** (`components/WalletAccordion.tsx`)
 
 - [ ] **NostrAccordion** (`components/NostrAccordion.tsx`)
@@ -85,7 +85,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Flyers** — `/flyers`
 
 - [x] **Compound Inflation Calculator** — `/compound-inflation-calculator`
-- [ ] **Buy** — `/buy`
+- [x] **Buy** — `/buy`
 
 ### Tier 4 — Form pages
 
@@ -292,14 +292,14 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 |---|---:|---:|
 | Top-level content pages | 5 | 5 |
 | Comparison pages | 10 | 10 |
-| Educational / utility | 5 | 4 |
+| Educational / utility | 5 | 5 |
 | Form pages | 3 | 0 |
 | Form success pages | 4 | 0 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **88** | **65** |
+| **Total pages** | **88** | **66** |
 
 
 | Component / pattern | Total | Done |
@@ -315,5 +315,5 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (Compound Inflation Calculator page migrated to V2)_
+_Last updated: 2026-04-22 (Buy page migrated to V2)_
 

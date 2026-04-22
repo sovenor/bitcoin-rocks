@@ -1,38 +1,42 @@
 "use client";
 
 /**
- * BuyFlow — ports `jquery/buy-flow.js`.
+ * BuyFlow — V2 redesign (April 22, 2026).
  *
- * Four-step wizard:
- *   1. Select country (buttons grid + filter search)
- *   2. Select payment method (bank / cash)
- *   3. View recommended platforms for that combination
- *   4. Storage guidance (static CTA)
+ * Four-step wizard for `/buy`:
+ *   1. Select country (card-like buttons grid + filter search) — rendered
+ *      by the parent Server Component as `children`, so the 52 country
+ *      buttons stay crawler-visible in the initial HTML response. This
+ *      component delegates click + input events on that subtree.
+ *   2. Choose payment method (bank / cash) — two bordered method cards
+ *      with green ✓ + red ✗ `.buy-callout` badges and an orange CTA.
+ *   3. Recommended platforms for the selected (country × method) combo —
+ *      stacked platform cards reusing the V2 wallet-card chrome.
+ *   4. Storage guidance → CTA into `/wallets` (reuses `.wallet-lightning-
+ *      cta` for the single-row link card look).
  *
- * Steps 2-4 are rendered by this Client Component once the user's made enough
- * selections. Step 1 (the country grid) is rendered as children passed in by
- * the server; we bind click handlers to `.buy-country-button[data-country]`
- * inside the children via ref + event delegation. That keeps the 52 country
- * buttons in the server HTML (crawler-visible) while still wiring interactivity.
+ * Smooth-scroll between steps is imperative (matches legacy jQuery feel).
  *
- * Smooth-scroll between steps is done imperatively with `scrollTo`, matching
- * the legacy `html, body { animate({scrollTop})` jQuery behaviour.
+ * Styling: `.buy-*` classes live in `app/globals.css`. We also reuse
+ * `.wallet-callout`, `.wallet-lightning-cta`, `.wallet-card-cta` look
+ * and the shared `.inflation-section` / `.container-inner` wrappers so
+ * the page visually belongs to the same V2 family as /wallets and
+ * /lightning.
  */
 
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
-import { BUY_COUNTRIES, getPlatformsFor } from "@/lib/buy/platforms";
+import { getPlatformsFor } from "@/lib/buy/platforms";
 
 type Props = {
-	/**
-	 * The Step 1 "country-selection" container, rendered by the server with
-	 * all 52 buttons + the search input inside. We delegate clicks from here.
-	 */
+	/** Locale-prefixed /wallets URL, resolved on the server. */
+	walletsHref: string;
+	/** Step 1 country grid + search input, rendered server-side. */
 	children: React.ReactNode;
 };
 
-export function BuyFlow({ children }: Props) {
+export function BuyFlow({ walletsHref, children }: Props) {
 	const t = useTranslations();
 	const step1Ref = useRef<HTMLDivElement>(null);
 	const step2Ref = useRef<HTMLDivElement>(null);
@@ -42,11 +46,7 @@ export function BuyFlow({ children }: Props) {
 	const [country, setCountry] = useState<string | null>(null);
 	const [method, setMethod] = useState<"bank" | "cash" | null>(null);
 
-	/**
-	 * Wire country button clicks + search input filter via delegation on the
-	 * Step 1 container. Avoids having to duplicate the country list in JS —
-	 * the server renders all 52 buttons once, we attach handlers on mount.
-	 */
+	// Wire country button clicks + search input filter via delegation.
 	useEffect(() => {
 		const root = step1Ref.current;
 		if (!root) return;
@@ -58,21 +58,21 @@ export function BuyFlow({ children }: Props) {
 			const code = btn.dataset.country;
 			if (!code) return;
 
-			// Visual selection — matches jQuery legacy behaviour.
 			root
-				.querySelectorAll<HTMLButtonElement>("button.buy-country-button.selected")
-				.forEach((b) => b.classList.remove("selected"));
-			btn.classList.add("selected");
+				.querySelectorAll<HTMLButtonElement>(
+					"button.buy-country-button.is-selected",
+				)
+				.forEach((b) => b.classList.remove("is-selected"));
+			btn.classList.add("is-selected");
 
 			setCountry(code);
-			// Reset downstream state when country changes mid-flow.
 			setMethod(null);
 
-			// Smooth-scroll to the payment method section.
 			setTimeout(() => {
 				const step2 = step2Ref.current;
 				if (step2) {
-					const top = step2.getBoundingClientRect().top + window.scrollY - 50;
+					const top =
+						step2.getBoundingClientRect().top + window.scrollY - 50;
 					window.scrollTo({ top, behavior: "smooth" });
 				}
 			}, 50);
@@ -112,176 +112,211 @@ export function BuyFlow({ children }: Props) {
 	const platforms =
 		country && method ? getPlatformsFor(country)[method] : [];
 
-	// Find the localized label for the selected country (unused in render — keep
-	// the lookup handy so future tweaks can easily embed it in the Step 3 heading
-	// via a dedicated i18n key).
-	void (country
-		? BUY_COUNTRIES.find((x) => x.code === country)?.labelKey
-		: null);
-
 	return (
 		<>
-			{/* Step 1 — country grid, rendered by parent as children */}
-			<div id="country-selection" className="step-container" ref={step1Ref}>
+			{/* ═══ STEP 1 — country grid (rendered by parent) ═══ */}
+			<div
+				id="country-selection"
+				className="buy-step inflation-section"
+				ref={step1Ref}
+			>
 				{children}
 			</div>
 
-			{/* Step 2 — payment method selection */}
+			{/* ═══ STEP 2 — payment method ═══ */}
 			<div
 				id="payment-method-selection"
-				className="step-container"
+				className="buy-step inflation-section"
 				ref={step2Ref}
 				hidden={!country}
 			>
-				<div className="break-micro" />
-				<div className="text-box intro">
-					<div className="container-inner">
-						<h2 className="h2-section">{t("buy_step_2_header")}</h2>
+				<div className="container-inner">
+					<div className="buy-step-header">
+						<span className="buy-step-eyebrow">
+							{t("buy_step_2_eyebrow")}
+						</span>
+						<h2>{t("buy_step_2_header")}</h2>
 						<p>{t("buy_step_2_description")}</p>
+					</div>
 
-						<div className="break-micro" />
-
-						<div className="payment-method-option">
-							<h3 className="h3-label">{t("buy_method_bank_transfer")}</h3>
-							<div className="payment-method-alerts">
-								<div className="alert green">
-									<img src="/img/wallets/alert-check-v2.png" alt="✓" />
-									<p>{t("buy_method_bank_fast")}</p>
-								</div>
-								<div className="alert red">
-									<img src="/img/wallets/alert-x-v2.png" alt="✗" />
-									<p>{t("buy_method_bank_less_private")}</p>
-								</div>
+					<div className="buy-method-grid">
+						{/* ── Bank ── */}
+						<div
+							className={`buy-method-card${method === "bank" ? " is-selected" : ""}`}
+						>
+							<div className="buy-method-card-title">
+								{t("buy_method_bank_transfer")}
 							</div>
-							<p>{t("buy_method_bank_description")}</p>
-							<div
-								className={`payment-method-button${method === "bank" ? " selected" : ""}`}
+							<div className="buy-method-card-callouts">
+								<span className="wallet-callout good">
+									<span
+										className="wallet-callout-icon"
+										aria-hidden="true"
+									>
+										✓
+									</span>
+									<span>{t("buy_method_bank_fast")}</span>
+								</span>
+								<span className="wallet-callout danger">
+									<span
+										className="wallet-callout-icon"
+										aria-hidden="true"
+									>
+										✗
+									</span>
+									<span>{t("buy_method_bank_less_private")}</span>
+								</span>
+							</div>
+							<p className="buy-method-card-description">
+								{t("buy_method_bank_description")}
+							</p>
+							<button
+								type="button"
+								className="buy-method-card-cta"
 								onClick={() => chooseMethod("bank")}
-								role="button"
-								tabIndex={0}
-								onKeyDown={(e) => {
-									if (e.key === "Enter" || e.key === " ") {
-										e.preventDefault();
-										chooseMethod("bank");
-									}
-								}}
 							>
 								{t("buy_method_choose_bank")}
-							</div>
+							</button>
 						</div>
 
-						<div className="break-micro" />
-
-						<div className="payment-method-option">
-							<h3 className="h3-label">{t("buy_method_cash")}</h3>
-							<div className="payment-method-alerts">
-								<div className="alert green">
-									<img src="/img/wallets/alert-check-v2.png" alt="✓" />
-									<p>{t("buy_method_cash_private")}</p>
-								</div>
-								<div className="alert red">
-									<img src="/img/wallets/alert-x-v2.png" alt="✗" />
-									<p>{t("buy_method_cash_limited")}</p>
-								</div>
+						{/* ── Cash ── */}
+						<div
+							className={`buy-method-card${method === "cash" ? " is-selected" : ""}`}
+						>
+							<div className="buy-method-card-title">
+								{t("buy_method_cash")}
 							</div>
-							<p>{t("buy_method_cash_description")}</p>
-							<div
-								className={`payment-method-button${method === "cash" ? " selected" : ""}`}
+							<div className="buy-method-card-callouts">
+								<span className="wallet-callout good">
+									<span
+										className="wallet-callout-icon"
+										aria-hidden="true"
+									>
+										✓
+									</span>
+									<span>{t("buy_method_cash_private")}</span>
+								</span>
+								<span className="wallet-callout warn">
+									<span
+										className="wallet-callout-icon"
+										aria-hidden="true"
+									>
+										⚠
+									</span>
+									<span>{t("buy_method_cash_limited")}</span>
+								</span>
+							</div>
+							<p className="buy-method-card-description">
+								{t("buy_method_cash_description")}
+							</p>
+							<button
+								type="button"
+								className="buy-method-card-cta"
 								onClick={() => chooseMethod("cash")}
-								role="button"
-								tabIndex={0}
-								onKeyDown={(e) => {
-									if (e.key === "Enter" || e.key === " ") {
-										e.preventDefault();
-										chooseMethod("cash");
-									}
-								}}
 							>
 								{t("buy_method_choose_cash")}
-							</div>
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			{/* Step 3 — buying options */}
+			{/* ═══ STEP 3 — platforms ═══ */}
 			<div
 				id="buying-options"
-				className="step-container"
+				className="buy-step inflation-section"
 				ref={step3Ref}
 				hidden={!country || !method}
 			>
-				<div className="break-micro" />
-				<div className="text-box intro">
-					<div className="container-inner">
-						<h2 className="h2-section" id="buying-options-header">
-							{t("buy_step_3_header")}
-						</h2>
-						<p id="buying-options-description">{t("buy_step_3_description")}</p>
+				<div className="container-inner">
+					<div className="buy-step-header">
+						<span className="buy-step-eyebrow">
+							{t("buy_step_3_eyebrow")}
+						</span>
+						<h2>{t("buy_step_3_header")}</h2>
+						<p>{t("buy_step_3_description")}</p>
+					</div>
 
-						<div className="break-micro" />
-
-						<div id="buying-platforms-container">
-							{platforms.map((p) => (
-								<div
-									key={p.name}
-									className={`buy-platform-box${p.recommended ? " platform-recommended" : ""}`}
-								>
-									{p.recommended && (
-										<div className="recommended-badge">
-											{t("buy_platform_recommended")}
-										</div>
-									)}
-									<div className="container-inner">
-										<div style={{ textAlign: "center" }}>
-											<h6>{p.name}</h6>
-										</div>
-										<p>{t(p.descriptionKey)}</p>
-										<div className="platform-features">
-											{p.featureKeys.map((k) => (
-												<div key={k}>{t(k)}</div>
-											))}
-										</div>
-										<a href={p.link} target="_blank" rel="noopener noreferrer">
-											<div className="platform-learn-button">
-												{t("common_learn_more")}
-											</div>
-										</a>
-									</div>
-								</div>
-							))}
-						</div>
+					<div className="buy-platform-stack">
+						{platforms.map((p) => (
+							<a
+								key={p.name}
+								href={p.link}
+								target="_blank"
+								rel="noopener noreferrer"
+								className={`buy-platform-card${p.recommended ? " is-recommended" : ""}`}
+								aria-label={`${p.name} — ${t("common_learn_more")}`}
+							>
+								{p.recommended && (
+									<span className="buy-platform-badge">
+										{t("buy_platform_recommended")}
+									</span>
+								)}
+								<div className="buy-platform-name">{p.name}</div>
+								<p className="buy-platform-description">
+									{t(p.descriptionKey)}
+								</p>
+								<ul className="buy-platform-features">
+									{p.featureKeys.map((k) => (
+										<li key={k}>
+											<span
+												className="buy-platform-feature-check"
+												aria-hidden="true"
+											>
+												✓
+											</span>
+											<span>{t(k)}</span>
+										</li>
+									))}
+								</ul>
+								<span className="buy-platform-cta">
+									{t("common_learn_more")}
+								</span>
+							</a>
+						))}
 					</div>
 				</div>
 			</div>
 
-			{/* Step 4 — storage guidance */}
+			{/* ═══ STEP 4 — storage ═══ */}
 			<div
 				id="storage-guidance"
-				className="step-container"
+				className="buy-step inflation-section"
 				ref={step4Ref}
 				hidden={!country || !method}
 			>
-				<div className="break-micro" />
-				<div className="text-box intro">
-					<div className="container-inner">
-						<h2 className="h2-section">{t("buy_step_4_header")}</h2>
-						<p>
-							<span>{t("buy_step_4_c1")}</span>
-							<br />
-							<br />
-							<span>{t("buy_step_4_c2")}</span>
-							<br />
-							<br />
-							<span>{t("buy_step_4_c3")}</span>
-						</p>
-						<div className="break-micro" />
-						<p>{t("buy_step_4_c4")}</p>
-						<div className="break-micro" />
-						<a href="/wallets">
-							<div className="buy-cta-button">{t("buy_cta_wallets")}</div>
-						</a>
+				<div className="container-inner">
+					<div className="buy-step-header">
+						<span className="buy-step-eyebrow">
+							{t("buy_step_4_eyebrow")}
+						</span>
+						<h2>{t("buy_step_4_header")}</h2>
 					</div>
+					<div className="buy-storage-card">
+						<p>{t("buy_step_4_c1")}</p>
+						<p>{t("buy_step_4_c2")}</p>
+						<p>{t("buy_step_4_c3")}</p>
+						<p className="buy-storage-card-outro">
+							{t("buy_step_4_c4")}
+						</p>
+					</div>
+
+					<a href={walletsHref} className="wallet-lightning-cta">
+						<div>
+							<div className="wallet-lightning-cta-label">
+								{t("buy_storage_cta_label")}
+							</div>
+							<div className="wallet-lightning-cta-title">
+								{t("buy_cta_wallets")}
+							</div>
+						</div>
+						<span
+							className="wallet-lightning-cta-arrow"
+							aria-hidden="true"
+						>
+							→
+						</span>
+					</a>
 				</div>
 			</div>
 		</>

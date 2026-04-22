@@ -2121,4 +2121,392 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 }
 
 
+/* ═══════════════════════════════════════════════════════════════════
+   10. BUY PAGE — V2 design system.
+   Owns: `.buy-step`, `.buy-step-header`, `.buy-step-eyebrow`,
+   `.buy-search-wrap`, `.buy-search-input`, `.buy-country-grid`,
+   `.buy-country-button` (+ `.is-selected`), `.buy-country-flag`,
+   `.buy-country-label`, `.buy-method-grid`, `.buy-method-card` (+
+   `.is-selected`), `.buy-method-card-title/-callouts/-description/-cta`,
+   `.buy-platform-stack`, `.buy-platform-card` (+ `.is-recommended`),
+   `.buy-platform-badge`, `.buy-platform-name/-description/-features/
+   -feature-check/-cta`, `.buy-storage-card`, `.buy-storage-card-outro`.
+   Reuses `.wallet-intro` for the intro card, `.wallet-callout` for the
+   method ✓/✗/⚠ badges, `.wallet-lightning-cta` for the storage → /
+   wallets link, plus `.home-hero`, `.whats-next-section`, `.sources-
+   section`, and `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Step wrapper + header (eyebrow + H2 + lead paragraph) ──────── */
+.buy-step {
+	padding-top: 10px;
+}
+
+.buy-step-header {
+	margin-bottom: 20px;
+}
+
+.buy-step-eyebrow {
+	display: inline-block;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-bitcoin-orange);
+	margin-bottom: 10px;
+}
+
+.buy-step-header h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.buy-step-header p {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+/* ── Step 1: country search + country grid ──────────────────────── */
+.buy-search-wrap {
+	margin: 4px 0 18px 0;
+}
+
+.buy-search-input {
+	width: 100%;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	padding: 14px 18px;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	transition: border-color 0.2s, box-shadow 0.2s;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.buy-search-input::placeholder {
+	color: var(--color-fg-dim);
+}
+.buy-search-input:focus {
+	outline: none;
+	border-color: rgba(255, 149, 0, 0.6);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+.buy-country-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+@media (max-width: 700px) {
+	.buy-country-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+button.buy-country-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 14px 18px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	transition: border-color 0.2s, background-color 0.2s, transform 0.15s;
+}
+button.buy-country-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+}
+button.buy-country-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.buy-country-button.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	background: rgba(255, 149, 0, 0.08);
+	color: var(--color-fg);
+}
+
+.buy-country-flag {
+	font-size: 20px;
+	line-height: 1;
+	flex-shrink: 0;
+}
+
+.buy-country-label {
+	flex: 1;
+}
+
+/* ── Step 2: payment method cards ───────────────────────────────── */
+.buy-method-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 14px;
+}
+@media (max-width: 700px) {
+	.buy-method-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.buy-method-card {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 24px;
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+.buy-method-card:hover {
+	border-color: rgba(255, 149, 0, 0.35);
+}
+.buy-method-card.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+.buy-method-card-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--color-fg);
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.buy-method-card-callouts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.buy-method-card-description {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+	flex: 1;
+}
+
+button.buy-method-card-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 14px 22px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.2s, transform 0.15s;
+}
+button.buy-method-card-cta:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+button.buy-method-card-cta:active {
+	transform: translateY(0);
+}
+.buy-method-card.is-selected button.buy-method-card-cta {
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+}
+.buy-method-card.is-selected button.buy-method-card-cta:hover {
+	background: rgba(255, 149, 0, 0.08);
+}
+
+/* ── Step 3: platform cards ─────────────────────────────────────── */
+.buy-platform-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+a.buy-platform-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 26px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.15s;
+}
+a.buy-platform-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+}
+a.buy-platform-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+a.buy-platform-card.is-recommended {
+	border-color: rgba(255, 149, 0, 0.35);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 149, 0, 0.04) 0%,
+		var(--color-surface) 80%
+	);
+}
+
+.buy-platform-badge {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	display: inline-block;
+	padding: 4px 10px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border-radius: 999px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.buy-platform-name {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	color: var(--color-fg);
+	letter-spacing: 0.01em;
+	padding-right: 110px; /* leave room for the absolutely-positioned badge */
+}
+
+.buy-platform-description {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+.buy-platform-features {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+.buy-platform-features li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.buy-platform-feature-check {
+	flex-shrink: 0;
+	color: var(--color-success);
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.buy-platform-cta {
+	align-self: flex-start;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 18px;
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transition: background-color 0.2s, color 0.2s, transform 0.15s;
+}
+.buy-platform-cta::after {
+	content: "→";
+	font-size: 15px;
+	line-height: 1;
+	transition: transform 0.2s;
+}
+a.buy-platform-card:hover .buy-platform-cta {
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+}
+a.buy-platform-card:hover .buy-platform-cta::after {
+	transform: translateX(3px);
+}
+
+@media (max-width: 700px) {
+	.buy-platform-name {
+		padding-right: 0;
+		padding-top: 28px; /* badge moves above the name on mobile */
+	}
+	.buy-platform-badge {
+		top: 14px;
+		left: 14px;
+		right: auto;
+	}
+}
+
+/* ── Step 4: storage guidance card ──────────────────────────────── */
+.buy-storage-card {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 26px;
+	margin-bottom: 18px;
+}
+.buy-storage-card p {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+.buy-storage-card p:last-child {
+	margin-bottom: 0;
+}
+.buy-storage-card-outro {
+	color: var(--color-fg) !important;
+	font-weight: 500 !important;
+}
+
+
+
 
