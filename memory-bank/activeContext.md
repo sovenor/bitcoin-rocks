@@ -1,4 +1,41 @@
-## Latest: /sticker-success V2 redesign — April 22, 2026
+## Latest: /sticker-language-success V2 redesign — April 22, 2026
+
+`/sticker-language-success` (the thank-you screen shown after a visitor submits the "Request stickers in my language" form on `/sticker-files`) was still on the V1 design system: centered `.back-to-home` gray-logo link, `.h2-stickers` wrapper around an orange-tinted "SUCCESS!" `<h1>`, `.text-box.intro` blurb with inline `<br><br>` paragraph breaks, and a V1 `.text-box.top/.middle/.bottom` CTA stack (home → wallets → buy). Ported the page into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/stickers`, `/sticker-success`, `/buy`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages. This clears the last item in Tier 5 (Form success pages).
+
+### What changed
+
+1. **Hero.** Replaced the V1 back-to-home logo + `.h2-stickers` "SUCCESS!" wrapper with a plain `<h1>` ("Request received 🎉") + `.home-hero`-style intro paragraph driven by the existing `sticker_language_success_1` key ("We've successfully received your request."). New i18n key `sticker_language_success_hero_title` drives the H1; the old `common_success` page title is no longer rendered.
+
+2. **Batch-release card.** Promoted the batch-release expectation-setting copy (previously a second paragraph of the V1 intro box separated by `<br><br>`) to its own `.wallet-intro.flyer-section` surface card — same chrome as on `/sticker-success` and the other V2 form-success pages. Body reuses the existing `sticker_language_success_2` key.
+
+3. **What's next grid.** Replaced the V1 `.text-box.top/middle/bottom` CTA stack with a standard 2-col V2 `.whats-next-section` grid of 4 `<WhatsNextCard>`s — Sticker files → `/sticker-files` (using the shared `common_sticker_files_next_languages_label`/`_title` keys), Get a wallet → `/wallets`, Buy Bitcoin → `/buy`, Keep learning → `/`. The first card was retargeted from the home page (which doesn't help someone who just requested a new language pack) to `/sticker-files`, so users can immediately browse what files are already available.
+
+4. **Dropped.** No sources section + no `.publisher-attribution` — this is a utility/thank-you page with no factual claims that need citations or an accuracy review (same reasoning applied on `/flyers` and `/sticker-success`). Robots still `noindex, follow` so form-success pages never appear in search results.
+
+### Files changed
+
+```
+app/[locale]/sticker-language-success/page.tsx   (full V2 rewrite — hero, batch-release card, What's next grid; dropped back-to-home logo + h2-stickers hero + text-box CTA stack; added WhatsNextCard imports)
+i18n/en/sticker-language-success_en.json          (bumped @metadata.last-updated to 2026-04-22; added 1 new key — sticker_language_success_hero_title. Kept existing `sticker_language_success_1` + `_2` keys.)
+scripts/sticker-language-success-v2-keys.js       (NEW — idempotent key-updater script)
+V2-REDESIGN-CHECKLIST.md                          (flipped /sticker-language-success to [x]; updated summary counts: Form success 2/2, Total pages 69/84)
+memory-bank/activeContext.md                      (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 strings for `sticker_language_success_1` + `_2`, and fall through to English for the new `sticker_language_success_hero_title` key. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- `/business/sticker-language-success` (Tier 6) still on V1 — same pattern applies; queued behind the broader business-section redesign.
+- Tier 5 (Form success pages) is now fully V2-complete. Next up: Tier 6 business section or Tier 7 nostr section.
+
+---
+
+## Previous: /sticker-success V2 redesign — April 22, 2026
+
 
 `/sticker-success` (the thank-you screen shown after a visitor submits the /stickers address form) was still on the V1 design system: centered `.back-to-home` gray-logo link, `.h2-stickers` wrapper around an orange-tinted "SUCCESS!" `<h1>`, `.text-box.intro` blurb with inline `<br>`-separated `✅` lines, V1 `.text-box.top/.middle/.bottom` CTA stack, and the fixed-bottom "NEW! Print & Post Bitcoin Flyers →" promo bar. Ported the page into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/stickers`, `/buy`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages.
 

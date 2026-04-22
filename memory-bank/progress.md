@@ -1,3 +1,24 @@
+## /sticker-language-success V2 redesign — April 22, 2026
+
+Brought `/sticker-language-success` (the thank-you screen shown after someone submits the "Request stickers in my language" form on `/sticker-files`) into the V2 design system. Replaces the V1 back-to-home gray-logo link + `.h2-stickers` "SUCCESS!" wrapper + `.text-box.intro` prose block + V1 `.text-box.top/.middle/.bottom` CTA stack with a standard V2 page: plain `<h1>` hero ("Request received 🎉") + intro paragraph, a single `.wallet-intro` surface card carrying the batch-release expectation-setting copy, and a standard 4-up `.whats-next-section` grid (sticker-files index / wallets / buy / home). No sources or publisher-attribution block — utility/thank-you page with no factual claims. Robots stays `noindex, follow` so form-success URLs never appear in search results.
+
+One new i18n key: `sticker_language_success_hero_title`. Existing `sticker_language_success_1` + `_2` keys kept as hero subtitle + batch-release card body, so translators don't need to redo anything except the new H1 string. The 54 non-English locales fall back to English for the new key until translators pick it up during the Step 4 translation refresh.
+
+This clears the last item in Tier 5 (Form success pages) on the V2 redesign checklist — both `/sticker-success` and `/sticker-language-success` are now V2. Summary counts bumped to Form success 2/2, Total pages 69/84. `/business/sticker-language-success` (Tier 6) still on V1; queued behind the broader business-section redesign.
+
+**Files changed**
+- `app/[locale]/sticker-language-success/page.tsx` — full V2 rewrite (hero / batch-release card / What's next grid)
+- `i18n/en/sticker-language-success_en.json` — added `sticker_language_success_hero_title`; bumped `@metadata.last-updated` to 2026-04-22
+- `scripts/sticker-language-success-v2-keys.js` — new idempotent key-updater script
+- `V2-REDESIGN-CHECKLIST.md` — flipped slug to [x]; updated summary counts
+- `memory-bank/activeContext.md` — detailed entry prepended
+- `memory-bank/progress.md` — this note prepended
+
+**Verification**
+- `npm run typecheck` → clean.
+
+---
+
 ## `/about` redesign + `/bank-runs` first-h2 cleanup — April 20, 2026
 
 Second content update of the day. Rewrote the `/about` page to align with the V2 card-based design system that `/bank-runs` and `/inflation` use, and cleaned up a one-off `.content-section-heading-first` class on `/bank-runs` so every section H2 now renders with the site-wide 700 weight.

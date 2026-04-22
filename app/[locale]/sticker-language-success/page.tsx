@@ -2,15 +2,33 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
+import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildAlternates } from "@/lib/schema/hreflang";
 
 /**
- * /[locale]/sticker-language-success — Phase 9b faithful port of
- * sticker-language-success.html. Thank-you after submitting the
- * "Request stickers in my language" form.
+ * /[locale]/sticker-language-success — V2 redesign (April 22, 2026).
+ *
+ * Thank-you screen after a successful "request stickers in my language"
+ * form submission. Reskinned in the V2 design system used across
+ * /sticker-success, /stickers, /flyers, /buy, /wallets, /lightning, and
+ * the comparison pages.
+ *
+ * Sections (top → bottom):
+ *   1. Hero — plain <h1> ("Request received 🎉") + intro paragraph
+ *      confirming we got the request and setting expectations.
+ *   2. Batch-release card — V2 `.wallet-intro` surface card explaining
+ *      that files go out in batches (may take several weeks).
+ *   3. What's next? — 4 WhatsNextCards (sticker-files index, wallets,
+ *      buy, home).
+ *
+ * No sources section or publisher-attribution block — this is a
+ * utility/thank-you page with no factual claims that need citations.
+ *
+ * Robots: `noindex, follow` — form-success pages should never appear
+ * in search results.
  */
 
 const SLUG = "sticker-language-success";
@@ -23,7 +41,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale } = await params;
 	const t = await getTranslations({ locale });
-	const title = t("common_success");
+	const title = t("sticker_language_success_hero_title");
 	return {
 		title,
 		alternates: buildAlternates({ locale: locale as Locale, slug: SLUG }),
@@ -40,7 +58,7 @@ export default async function StickerLanguageSuccessPage({
 	setRequestLocale(locale);
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
-	const title = t("common_success");
+	const title = t("sticker_language_success_hero_title");
 
 	const articleSchema = await buildArticleSchema({
 		slug: SLUG,
@@ -56,80 +74,63 @@ export default async function StickerLanguageSuccessPage({
 	});
 
 	return (
-		<div className="container-main">
+		<>
 			<JsonLd data={articleSchema} />
-			<JsonLd data={breadcrumbSchema} />
+			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 
-			<div style={{ textAlign: "center" }}>
-				<a href={l}>
-					<img
-						src="/img/logos/rocks-logo-gray.png"
-						className="back-to-home"
-						alt="bitcoin.rocks"
-					/>
-				</a>
+			<div className="container-main">
+				{/* ═══ HERO ═══ */}
+				<div className="home-hero inflation-section">
+					<div className="container-inner">
+						<h1>{title}</h1>
+						<p>{t("sticker_language_success_1")}</p>
+					</div>
+				</div>
+
+				{/* ═══ BATCH-RELEASE CARD ═══ */}
+				<div className="wallet-intro flyer-section">
+					<div className="container-inner">
+						<p>{t("sticker_language_success_2")}</p>
+					</div>
+				</div>
+
+				<div className="break-micro" />
+
+				{/* ═══ WHAT'S NEXT ═══ */}
+				<div className="whats-next-section">
+					<div className="container-inner">
+						<div className="whats-next-header">
+							<h2>{t("common_whats_next")}</h2>
+						</div>
+						<div className="whats-next-grid">
+							<WhatsNextCard
+								href={`${l}/sticker-files`}
+								label={t("common_sticker_files_next_languages_label")}
+								title={t("common_sticker_files_next_languages_title")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/wallets`}
+								label={t("common_next_get_wallet")}
+								title={t("common_next_get_wallet_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/buy`}
+								label={t("common_next_buy_bitcoin")}
+								title={t("common_next_buy_bitcoin_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={l}
+								label={t("common_next_keep_learning")}
+								title={t("common_next_keep_learning_desc")}
+								authorKey="common_publisher_name"
+							/>
+						</div>
+					</div>
+				</div>
 			</div>
-
-			<h1 className="h2-stickers">
-				<span className="inflation">{t("common_success")}</span>
-			</h1>
-
-			<div className="text-box intro">
-				<div className="container-inner">
-					<div className="break-no-title" />
-					<p>
-						<span>{t("sticker_language_success_1")}</span>
-						<br />
-						<br />
-						<span>{t("sticker_language_success_2")}</span>
-					</p>
-				</div>
-			</div>
-
-			<div className="break-micro" />
-
-			<a href={l}>
-				<div className="text-box top">
-					<div className="container-inner">
-						<h2 className="h2-section" id="get-started">
-							{t("common_cta_section_get_started")}
-						</h2>
-						<h2 className="second-line get-started h2-section">
-							{t("common_cta_section_with_bitcoin")}
-						</h2>
-						<div className="item first">
-							<h3 className="h3-item">{t("common_cta_section_title_1_alt")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/wallets`}>
-				<div className="text-box middle">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_2")}</h3>
-							<div className="type">{t("common_cta_link_type_guide")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/buy`}>
-				<div className="text-box bottom">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_3")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-		</div>
+		</>
 	);
 }
