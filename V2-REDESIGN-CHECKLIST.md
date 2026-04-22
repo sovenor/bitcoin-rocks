@@ -122,7 +122,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 - [x] **Business (index)** — `/business`
 - [x] **Business — Why** — `/business/why`
-- [ ] **Business — FAQ** — `/business/faq`
+- [x] **Business — FAQ** — `/business/faq`
 - [ ] **Business — Guide** — `/business/guide`
 - [ ] **Business — Wallets** — `/business/wallets`
 - [ ] **Business — Accounting** — `/business/accounting`
@@ -313,11 +313,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 13 | 2 |
+| Business section | 13 | 3 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **84** | **71** |
+| **Total pages** | **84** | **72** |
 
 
 
@@ -334,6 +334,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (V2 redesign of /business/why — replaced payment-chart image hero with V2 hero + intro card + "Why Bitcoin is great for this business" (3 benefits) + "Why Bitcoin is great for you too" (4 benefits) + bespoke color-coded 4-card "Where to next?" grid targeted at QR-scanning customers; see `/business/why` exception note in Tier 6 above)_
+_Last updated: 2026-04-22 (V2 redesign of /business/faq — replaced legacy `BusinessPageShell` + 9 always-open `.text-box` FAQ blocks with V2 hero + intro card + 9 collapsible `<WalletAccordion>` FAQs (same component as /wallets + /lightning) + colored business resources grid (reusing the /business index BIZ_RESOURCES cards, `faq` excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
 
 

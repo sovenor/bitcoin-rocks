@@ -1,4 +1,51 @@
-## Latest: /business/why V2 redesign — April 22, 2026
+## Latest: /business/faq V2 redesign — April 22, 2026
+
+`/business/faq` was still on V1: `BusinessPageShell` wrapper, `.h1-inflation` "HAVE QUESTIONS…" hero, nine always-open `.text-box.intro.inflation-box` FAQ blocks with `.h2-section` headings and inline `<br><br>` paragraph breaks, all inline cross-links on `.orange-link`, and the `BusinessResourceCards` 7-card grid at the bottom. Redesigned in the V2 style with **collapsible `<WalletAccordion>`** FAQs (same Client Component that powers the `/wallets` + `/lightning` FAQ accordions). This is the third `/business/*` page to reach V2.
+
+### What changed
+
+1. **Hero.** Replaced `BusinessPageShell` + `.h1-inflation` uppercased "HAVE QUESTIONS ABOUT ACCEPTING BITCOIN PAYMENTS?" with a plain `<h1>` driven by the existing `frequently_asked_questions_about_accepting_bitcoin` key (retitled in English from "FAQs for Accepting Bitcoin" → "FAQs for accepting Bitcoin" for V2 sentence-case consistency) inside a `.home-hero.inflation-section`, plus a new subtitle paragraph (`faq_hero_subtitle` — "The short answers to the questions merchants ask most often before they start accepting Bitcoin — fees, settlement, wallets, chargebacks, cost, and more.").
+
+2. **Intro card.** Added a V2 `.wallet-intro` bordered surface with a single lead-in paragraph (new key `faq_intro_c1`) framing the accordion list and pointing readers at the business resources at the foot of the page.
+
+3. **FAQ accordions.** Converted all nine `.text-box.intro.inflation-box` blocks into collapsible `<WalletAccordion>`s (closed by default, rotating chevron, animated max-height body). Each FAQ:
+   - Renders its question as the accordion header (existing `faq_s1` – `faq_s9` keys preserved verbatim — they're already in sentence case + question form).
+   - Renders its body paragraphs as clean `<p>` tags (V1 had inline `<br><br>` concatenation — the V2 accordion's `.wallet-accordion-body-inner` styles paragraphs natively).
+   - FAQ 4 ("Can I convert to local currency?") gets its two "full reserve financial system / no inflation" bullets rendered as a real `<ul>` instead of V1's `• <br>` pseudo-bullets.
+   - All inline cross-links bumped from `.orange-link` to the V2 `.body-link` (orange + underlined, 3px offset) — same convention as `/wallets` and `/business/why`.
+   - Cross-links preserved: FAQ 2 → `/business`, FAQ 3/5/6/9 → `/business/wallets`, FAQ 4 → `/business/wallets`, FAQ 7 → `/business/stickers` + `/business/maps`, FAQ 8 → `/business/maps`. All routed via the V2 navigation pattern (`${l}/business/…`).
+
+4. **Business resources grid (per the `/business/*` convention).** Replaced the V1 `BusinessResourceCards` component with a hand-rolled V2 `.whats-next-grid` identical in structure to the one on `/business` — six `.whats-next-card`s with per-card `--card-accent` CSS variables (wallets = bitcoin orange, maps = energy green, stickers = pink, rewards = yellow, accounting = blue, kit = bitcoin orange), rendered below a standard `.inflation-section.content-section` header + intro (reusing the shared `business_resources_heading` + `business_resources_intro` keys from `business/index_en.json`, plus the shared `biz_label_*` + `common_biz_*` keys for each card's label and title). The `faq` card from the 7-card grid on `/business` is intentionally excluded since we're on that page. External Oshi rewards card keeps `target="_blank" rel="noopener noreferrer"`. Per the Tier 6 convention, **no generic "keep learning / buy Bitcoin / inflation" bridge is rendered** — this colored resources grid is the cross-link surface for merchants.
+
+5. **Sources section.** Added the standard V2 `.sources-section` with 5 citations (BTC Map, BTCPay Server, Strike for Business, Oshi, Bitcoin whitepaper) — same set as `/business` for consistency across the section.
+
+6. **Publisher attribution.** Inlined the reviewed-for-accuracy badge + publisher-attribution block directly on the page (same as `/business` + `/business/why`), so `/business/faq` no longer depends on `BusinessPageShell`.
+
+7. **Schemas.** Kept the existing `buildArticleSchema()` + `buildBreadcrumbSchema()` JSON-LD wiring and added the `breadcrumbSchema !== null` guard used by every other V2 page. Dropped unused `void l` now that `l` is actually referenced.
+
+### Files changed
+
+```
+app/[locale]/business/faq/page.tsx       (full V2 rewrite — hero, intro card, 9 collapsible <WalletAccordion>s, BIZ_RESOURCES grid with faq excluded, sources, inline publisher attribution; dropped BusinessPageShell + BusinessResourceCards; added WalletAccordion + REVIEWED_ACCURACY_I18N_KEY imports; switched all in-body links from .orange-link to .body-link)
+i18n/en/business/faq_en.json             (bumped @metadata.last-updated to 2026-04-22; retitled frequently_asked_questions_about_accepting_bitcoin from "FAQs for Accepting Bitcoin" to "FAQs for accepting Bitcoin"; added 2 new keys — faq_hero_subtitle, faq_intro_c1; all nine existing faq_s*_c* keys preserved verbatim; legacy faq_header + faq_description kept for backward compat — no longer rendered on the page)
+V2-REDESIGN-CHECKLIST.md                  (flipped /business/faq to [x]; updated summary counts: Business 3/13, Total pages 72/84; updated the "last updated" footnote)
+memory-bank/activeContext.md              (this entry prepended)
+memory-bank/progress.md                   (updated)
+```
+
+### Verification
+
+- `npm run build` → ✓ Compiled successfully in 6.1s; 4,514 static pages generated (unchanged from the /business/why pass — /business/faq was already a route, just re-rendered from V1 → V2). TypeScript clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold V1 copy for the preserved `faq_s*_c*` keys and fall through to English for the 2 new keys (`faq_hero_subtitle`, `faq_intro_c1`). They also hold the old "FAQs for Accepting Bitcoin" title. All handled later in the Step 4 translation refresh.
+- 10 `/business/*` sub-pages remain on V1 (guide, wallets, accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) and still use `BusinessPageShell`. Next up.
+- `BusinessPageShell`, `BusinessResourceCards`, and `BusinessWalletCard` are still required by the 10 un-redesigned sub-pages — will be deleted once Tier 6 is fully V2-complete.
+
+---
+
+## Previous: /business/why V2 redesign — April 22, 2026
 
 `/business/why` (the QR-code landing page customers reach when they scan a "Bitcoin Accepted Here" sticker) was still on V1: `BusinessPageShell` wrapper, `.h1-inflation` "BITCOIN IS GOOD FOR BUSINESS" hero, the `/img/bbk/payment-chart.png` inline comparison image + "LEARN MORE" `.biz-button` anchor-scroll CTA, then four `.text-box.intro.inflation-box` "good for you too" sections (no-inflation, no bank runs, permissionless, better world) with inline `<br><br>` paragraph breaks, and the `BusinessResourceCards` grid at the bottom. Redesigned in the V2 style, mirroring the `/business` index page that was just completed. This is the second `/business/*` page to reach V2 and establishes the **QR-scanning-customer exception** to the Tier 6 convention.
 

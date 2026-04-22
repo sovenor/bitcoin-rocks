@@ -1,4 +1,29 @@
+## /business/faq V2 redesign — April 22, 2026
+
+Brought `/business/faq` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "HAVE QUESTIONS…" hero, 9 always-open `.text-box.intro.inflation-box` FAQ blocks with `.h2-section` headings + inline `<br><br>` paragraph breaks + `.orange-link` cross-links, and the legacy `BusinessResourceCards` 7-card grid — with a standard V2 page: plain `<h1>` hero (retitled to sentence-case "FAQs for accepting Bitcoin") + subtitle, `.wallet-intro` intro card, **9 collapsible `<WalletAccordion>` FAQs** (same Client Component that powers the `/wallets` + `/lightning` FAQ accordions — closed by default, rotating chevron, animated max-height body), and the `/business/*` colored business resources grid (reusing the `BIZ_RESOURCES` shape from `/business` with `faq` excluded since we're on that page — per-card `--card-accent` CSS variables for wallets=orange, maps=green, stickers=pink, rewards=yellow, accounting=blue, kit=orange). Standard 5-entry `.sources-section` (BTC Map, BTCPay Server, Strike for Business, Oshi, Bitcoin whitepaper) + `.publisher-attribution` with reviewed-for-accuracy badge close the page.
+
+All 9 FAQ questions (`faq_s1` – `faq_s9`) and their `_c*` answer paragraphs were preserved verbatim — they already read well in sentence case. The only English-side edit was retitling `frequently_asked_questions_about_accepting_bitcoin` from "FAQs for Accepting Bitcoin" → "FAQs for accepting Bitcoin" for V2 sentence-case consistency. Inline cross-links bumped from `.orange-link` to `.body-link` (V2 convention). FAQ 4's two "full reserve / no inflation" bullets are now rendered as a real `<ul>` instead of V1's `• <br>` pseudo-bullets. All cross-links preserved and routed via the V2 navigation pattern (`${l}/business/…`).
+
+Per the `/business/*` V2 convention (see V2-REDESIGN-CHECKLIST.md Tier 6), the bottom-of-page cross-link surface is the colored business resources grid — **no generic "keep learning / buy Bitcoin / inflation" bridge** is rendered on business sub-pages (merchants flow between business pages, not back into the beginner learning path).
+
+Added 2 new i18n keys: `faq_hero_subtitle`, `faq_intro_c1`. Card label/title keys + the resources heading/intro are **shared from `business/index_en.json`** (`business_resources_heading`, `business_resources_intro`, `biz_label_*`, `common_biz_*`) — no duplication. Legacy `faq_header` + `faq_description` kept for backward compat but no longer rendered. The 54 non-English locales still hold V1 copy for the preserved `faq_s*_c*` keys + the old page title; English fallback fills in the 2 new keys until translators pick them up during the Step 4 translation refresh.
+
+This is the third `/business/*` page to reach V2. Summary counts bumped to Business 3/13, Total pages 72/84. 10 `/business/*` sub-pages remain on V1 (guide, wallets, accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) and still use `BusinessPageShell`.
+
+**Files changed**
+- `app/[locale]/business/faq/page.tsx` — full V2 rewrite (hero / intro card / 9 collapsible `<WalletAccordion>`s / BIZ_RESOURCES grid with `faq` excluded / sources / inline publisher attribution); dropped `BusinessPageShell` + `BusinessResourceCards`; added `WalletAccordion` + `REVIEWED_ACCURACY_I18N_KEY` imports; switched all in-body links from `.orange-link` to `.body-link`
+- `i18n/en/business/faq_en.json` — added 2 new V2 keys (`faq_hero_subtitle`, `faq_intro_c1`); retitled the page title to sentence case; bumped `@metadata.last-updated` to 2026-04-22
+- `V2-REDESIGN-CHECKLIST.md` — flipped `/business/faq` to [x]; updated summary counts (Business 3/13, Total 72/84); updated the "last updated" footnote
+- `memory-bank/activeContext.md` — detailed entry prepended
+- `memory-bank/progress.md` — this note prepended
+
+**Verification**
+- `npm run build` → ✓ Compiled successfully in 6.1s; 4,514 static pages generated; TypeScript clean.
+
+---
+
 ## /business/why V2 redesign — April 22, 2026
+
 
 Brought `/business/why` (the page customers land on when they scan the QR code on a "Bitcoin Accepted Here" sticker) into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` "BITCOIN IS GOOD FOR BUSINESS" hero, `/img/bbk/payment-chart.png` image + "LEARN MORE" `.biz-button` anchor-scroll CTA, four `.text-box.intro.inflation-box` "Bitcoin is good for you too" sections, and the `BusinessResourceCards` merchant grid — with a customer-facing V2 page: plain `<h1>` "Bitcoin is accepted here" + subtitle, `.wallet-intro` intro card, a **"Why Bitcoin is great for this business"** block (intro + 3 benefit sections: Lower fees / Instant settlement / Free to accept) with a small inline CTA into `/business` for anyone running a business, a **"Why Bitcoin is great for you too"** block (intro + 4 benefit sections: no inflation / no bank runs / permissionless / better world — all ported from V1 with copy rewritten for V2 tone, inline `.body-link`s to `/inflation`, `/bank-runs`, external voteforbetter.money, and the homepage), and a bespoke color-coded 4-card **"Where to next?"** grid targeting QR-scanning customers (LEARN MORE → `/`, GET A WALLET → `/wallets`, BUY BITCOIN → `/buy`, ACCEPT BITCOIN → `/business`). Standard `.publisher-attribution` + reviewed-for-accuracy badge closes the page. Dropped the payment-chart image per the task brief — replaced by two self-contained content zones that describe the value prop for merchants and customers much more clearly than the image did.
 
