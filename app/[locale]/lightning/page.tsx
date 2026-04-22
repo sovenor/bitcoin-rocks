@@ -1,16 +1,49 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
 import { WalletAccordion } from "@/components/WalletAccordion";
+import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildAlternates } from "@/lib/schema/hreflang";
+import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 
 /**
- * /[locale]/lightning — Phase 9a Bucket B faithful Tailwind port.
- * Mirrors the V1 design system from `lightning.html`.
+ * /[locale]/lightning — V2 redesign.
+ *
+ * Information flow mirrors the legacy /lightning page but reskinned
+ * in the V2 design system used across /wallets, /inflation, /bank-runs,
+ * /about, /get-involved, and the /bitcoin-vs-* pages.
+ *
+ * Sections (top → bottom):
+ *   1. Hero — plain <h1> ("Bitcoin Lightning Wallet Guide") + intro
+ *      paragraph explaining the speed/security trade-off.
+ *   2. Intro card — "Lightning enables you to send…" lead-in paragraphs
+ *      housed in a bordered surface card (reuses `.wallet-intro`).
+ *   3. FAQ accordion — one V2 accordion ("What trade-off balance is
+ *      right for me?") containing SELF-CUSTODY and NOT-YOUR-KEYS
+ *      callout badges with the explanation copy.
+ *   4. Wallet grid — 3 Lightning wallet cards (Phoenix, Breez, Wallet
+ *      of Satoshi) in a 2-col grid with custody badge + feature bullets
+ *      + "Learn more" CTA.
+ *   5. Hardware wallet CTA — link card to /wallets ("Looking for our
+ *      Bitcoin Hardware Wallet Guide?").
+ *   6. What's next? — 4 WhatsNextCards (homepage, wallets, buy,
+ *      calculator).
+ *   7. Sources — Lightning Network / wallet vendor citations.
+ *   8. Publisher attribution + reviewed-for-accuracy badge.
+ *
+ * Reuses the `.wallet-*` CSS classes defined for the /wallets V2 page
+ * (intro card, accordions, callouts, grid, cards, CTA). The only
+ * difference visually is:
+ *   - Lightning cards drop the temperature badge (all mobile apps, no
+ *     cold/hot distinction).
+ *   - Only one accordion on this page.
+ *   - Card accent color is Lightning-yellow (#F7931A-adjacent) to
+ *     distinguish from the wallets page's orange.
  */
 
 const SLUG = "lightning";
@@ -45,59 +78,154 @@ export async function generateMetadata({
 	};
 }
 
-type LightningCardProps = {
+// ─── Lightning wallet card spec (static, EN-side source of truth) ────
+type LightningWalletSpec = {
+	id: string;
 	image: string;
 	nameKey: string;
-	custodial: "self" | "custodial";
-	lines: string[];
+	/** "self" rendered with ✓ SELF-CUSTODY, "custodial" with ✗ NOT-YOUR-KEYS. */
+	custody: "self" | "custodial";
+	/** Translation keys for the feature bullets (in order). */
+	features: readonly string[];
 	link: string;
-	rightColumn?: boolean;
 };
 
-async function LightningCard({
-	image,
-	nameKey,
-	custodial,
-	lines,
-	link,
-	rightColumn = false,
-}: LightningCardProps) {
-	const t = await getTranslations();
-	const boxClass = rightColumn ? "wallet-box wallet2" : "wallet-box";
+const LIGHTNING_WALLETS: readonly LightningWalletSpec[] = [
+	{
+		id: "phoenix",
+		image: "/img/wallets/phoenix.png",
+		nameKey: "phoenix",
+		custody: "self",
+		features: [
+			"lightning_features",
+			"lightning_mobile_app",
+			"lightning_free",
+		],
+		link: "https://phoenix.acinq.co/",
+	},
+	{
+		id: "breez",
+		image: "/img/wallets/breez.png",
+		nameKey: "breez",
+		custody: "self",
+		features: [
+			"lightning_merchants",
+			"lightning_mobile_app",
+			"lightning_free",
+		],
+		link: "https://breez.technology/mobile/",
+	},
+	{
+		id: "wallet-of-satoshi",
+		image: "/img/wallets/wallet-of-satoshi.png",
+		nameKey: "wallet_of_satoshi",
+		custody: "custodial",
+		features: [
+			"lightning_custodial",
+			"lightning_mobile_app",
+			"lightning_free",
+		],
+		link: "https://walletofsatoshi.com/",
+	},
+];
+
+// ─── Small presentational sub-components ──────────────────────────────
+
+/** Semantic badge rendered inline (in an accordion body or wallet card). */
+function WalletCallout({
+	tone,
+	icon,
+	label,
+}: {
+	tone: "good" | "warn" | "danger";
+	icon: string;
+	label: string;
+}) {
 	return (
-		<div className={boxClass}>
-			<div className="container-inner">
-				<div style={{ textAlign: "center" }}>
-					<img src={image} className="device" alt={t(nameKey)} />
-				</div>
-				<h2 className="h2-label">{t(nameKey)}</h2>
-				<div style={{ textAlign: "center" }}>
-					{custodial === "self" ? (
-						<div className="alert green">
-							<img src="/img/wallets/alert-check-v2.png" alt="" />
-							<p>{t("common_self_custody")}</p>
-						</div>
-					) : (
-						<div className="alert red">
-							<img src="/img/wallets/alert-x-v2.png" alt="" />
-							<p>{t("common_not_your_keys")}</p>
-						</div>
-					)}
-				</div>
-				<div className="break-mini" />
-				<p>
-					{lines.map((line, i) => (
-						<span key={line}>
-							{t(line)}
-							{i < lines.length - 1 ? <br /> : null}
-						</span>
-					))}
-				</p>
-				<a href={link} target="_blank" rel="noopener noreferrer">
-					<div className="wallet-button">{t("common_learn_more")}</div>
-				</a>
+		<span className={`wallet-callout ${tone}`}>
+			<span className="wallet-callout-icon" aria-hidden="true">
+				{icon}
+			</span>
+			<span>{label}</span>
+		</span>
+	);
+}
+
+function CustodyCallout({
+	kind,
+	label,
+}: {
+	kind: "self" | "custodial";
+	label: string;
+}) {
+	return (
+		<WalletCallout
+			tone={kind === "self" ? "good" : "danger"}
+			icon={kind === "self" ? "✓" : "✗"}
+			label={label}
+		/>
+	);
+}
+
+/**
+ * One Lightning wallet card — image, name, custody badge, feature
+ * bullets, "Learn more →" CTA. Whole card is the outbound link; the
+ * inner `.wallet-card-cta` is a styled <span> (no nested anchors).
+ */
+async function LightningCardV2({
+	wallet,
+	t,
+	learnMoreLabel,
+	selfLabel,
+	custodialLabel,
+}: {
+	wallet: LightningWalletSpec;
+	t: Awaited<ReturnType<typeof getTranslations>>;
+	learnMoreLabel: string;
+	selfLabel: string;
+	custodialLabel: string;
+}): Promise<ReactNode> {
+	const name = t(wallet.nameKey);
+
+	return (
+		<a
+			href={wallet.link}
+			className="wallet-card"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label={`${name} — ${learnMoreLabel}`}
+		>
+			<div className="wallet-card-image-wrap">
+				{/* eslint-disable-next-line @next/next/no-img-element */}
+				<img
+					src={wallet.image}
+					alt={name}
+					className="wallet-card-image"
+					loading="lazy"
+				/>
 			</div>
-		</div>
+			<h2 className="wallet-card-name">{name}</h2>
+
+			<div className="wallet-card-badges">
+				<CustodyCallout
+					kind={wallet.custody}
+					label={wallet.custody === "self" ? selfLabel : custodialLabel}
+				/>
+			</div>
+
+			<ul className="wallet-card-features">
+				{wallet.features.map((key) => (
+					<li key={key}>
+						<span className="wallet-card-feature-check" aria-hidden="true">
+							✓
+						</span>
+						<span>{t(key)}</span>
+					</li>
+				))}
+			</ul>
+
+			<span className="wallet-card-cta">{learnMoreLabel}</span>
+		</a>
 	);
 }
 
@@ -113,240 +241,267 @@ export default async function LightningPage({
 	const title = t("bitcoin_lightning_wallet_guide");
 	const description = t("lightning_description");
 
+	// Pre-resolve the callout labels once.
+	const selfLabel = t("common_self_custody");
+	const custodialLabel = t("common_not_your_keys");
+	const learnMoreLabel = t("common_learn_more");
+
 	const articleSchema = await buildArticleSchema({
-					slug: SLUG,
-					locale: locale as Locale,
-					headline: title,
-					description,
-					image: META_IMAGE,
-				});
+		slug: SLUG,
+		locale: locale as Locale,
+		headline: title,
+		description,
+		image: META_IMAGE,
+		schemaType: "Article",
+	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
-					slug: SLUG,
-					locale: locale as Locale,
-					pageTitle: title,
-				});
+		slug: SLUG,
+		locale: locale as Locale,
+		pageTitle: title,
+	});
 
 	return (
-		<div className="container-main">
+		<>
 			<JsonLd data={articleSchema} />
-			<JsonLd data={breadcrumbSchema} />
+			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 
-			<div className="container-inner">
-				<div style={{ textAlign: "center" }}>
-					<a href={l}>
-						<img
-							src="/img/logos/rocks-logo-gray.png"
-							className="back-to-home"
-							alt="bitcoin.rocks"
-						/>
-					</a>
+			<div className="container-main">
+				{/* ═══ HERO ═══ */}
+				<div className="home-hero inflation-section">
+					<div className="container-inner">
+						<h1>{title}</h1>
+						<p>{t("lightning_header_subtitle")}</p>
+					</div>
 				</div>
-			</div>
 
-			<div className="text-box home-intro">
-				<div className="container-inner">
-					<h1 className="h1-inflation">{t("lightning_header")}</h1>
-				</div>
-			</div>
-
-			<div className="text-box intro inflation-box">
-				<div className="container-inner">
-					<div className="break-no-title" />
-					<p>
-						<span>{t("lightning_s1_c1")}</span>
-						<br />
-						<br />
-						<span>{t("lightning_s1_c2")}</span>
-						<br />
-						<br />
-						<span>{t("lightning_s1_c3")}</span>
-						<br />
-						<br />
-						<a href={`${l}/wallets`} className="orange-link">
-							<span>{t("lightning_s1_c4")}</span>
-						</a>
-						<br />
-						<br />
-						<span>{t("lightning_s1_c5")}</span>
-					</p>
-
-					<WalletAccordion question={t("lightning_question_1")}>
-						<div className="break-zero" />
-						<div className="alert green">
-							<img src="/img/wallets/alert-check-v2.png" alt="" />
-							<p>{t("common_self_custody")}</p>
-						</div>
-						<div className="break-zero" />
+				{/* ═══ INTRO CARD ═══ */}
+				<div className="wallet-intro">
+					<div className="container-inner">
+						<p>{t("lightning_s1_c1")}</p>
+						<p>{t("lightning_s1_c2")}</p>
+						<p>{t("lightning_s1_c3")}</p>
 						<p>
-							<span>{t("lightning_s2_c1")}</span>
-							<br />
-							<br />
-							<span>{t("lightning_s2_c2")}</span>
-							<br />
-							<br />
-							<span>{t("lightning_s2_c3")}</span>
-							<br />
-							<br />
-							<span>{t("lightning_s2_c4")}</span>
-							<br />
-							<br />
-							<span>{t("lightning_s2_c5")}</span>
+							{t("lightning_s1_c4")}{" "}
+							<a href={`${l}/wallets`} className="body-link">
+								{t("lightning_s1_c4_link")}
+							</a>{" "}
+							{t("lightning_s1_c4_end")}
 						</p>
-						<div className="break-zero" />
-						<div className="alert red">
-							<img src="/img/wallets/alert-x-v2.png" alt="" />
-							<p>{t("common_not_your_keys")}</p>
+						<p>{t("lightning_s1_c5")}</p>
+					</div>
+				</div>
+
+				{/* ═══ FAQ ACCORDION ═══ */}
+				<div className="inflation-section">
+					<div className="container-inner">
+						<div className="wallet-accordions">
+							<WalletAccordion question={t("lightning_question_1")}>
+								<div className="wallet-callouts-row">
+									<CustodyCallout kind="self" label={selfLabel} />
+								</div>
+								<p>{t("lightning_s2_c1")}</p>
+								<p>{t("lightning_s2_c2")}</p>
+								<p>{t("lightning_s2_c3")}</p>
+								<p>{t("lightning_s2_c4")}</p>
+								<p>{t("lightning_s2_c5")}</p>
+
+								<div
+									className="wallet-callouts-row"
+									style={{ marginTop: 20 }}
+								>
+									<CustodyCallout kind="custodial" label={custodialLabel} />
+								</div>
+								<p>{t("lightning_s3_c1")}</p>
+								<p>{t("lightning_s3_c2")}</p>
+								<p>{t("lightning_s3_c3")}</p>
+								<p>
+									<strong>{t("lightning_s3_c4")}</strong>
+								</p>
+							</WalletAccordion>
 						</div>
-						<div className="break-zero" />
+					</div>
+				</div>
+
+				{/* ═══ WALLET GRID ═══ */}
+				<div className="wallet-grid-section inflation-section">
+					<div className="container-inner">
+						<h2 className="wallet-grid-heading">
+							{t("lightning_grid_heading")}
+						</h2>
+						<div className="wallet-grid">
+							{LIGHTNING_WALLETS.map((w) => (
+								<LightningCardV2
+									key={w.id}
+									wallet={w}
+									t={t}
+									learnMoreLabel={learnMoreLabel}
+									selfLabel={selfLabel}
+									custodialLabel={custodialLabel}
+								/>
+							))}
+						</div>
+					</div>
+				</div>
+
+				{/* ═══ HARDWARE WALLET CTA ═══ */}
+				<div className="inflation-section">
+					<div className="container-inner">
+						<a href={`${l}/wallets`} className="wallet-lightning-cta">
+							<div>
+								<div className="wallet-lightning-cta-label">
+									{t("lightning_hardware_cta_label")}
+								</div>
+								<div className="wallet-lightning-cta-title">
+									{t("lightning_cta_hardware")}
+								</div>
+							</div>
+							<span className="wallet-lightning-cta-arrow" aria-hidden="true">
+								→
+							</span>
+						</a>
+					</div>
+				</div>
+
+				{/* ═══ WHAT'S NEXT ═══ */}
+				<div className="whats-next-section">
+					<div className="container-inner">
+						<div className="whats-next-header">
+							<h2>{t("common_whats_next")}</h2>
+						</div>
+						<div className="whats-next-grid">
+							<WhatsNextCard
+								href={l}
+								label={t("common_next_keep_learning")}
+								title={t("common_next_keep_learning_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/wallets`}
+								label={t("common_next_get_wallet")}
+								title={t("common_next_get_wallet_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/buy`}
+								label={t("common_next_buy_bitcoin")}
+								title={t("common_next_buy_bitcoin_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/compound-inflation-calculator`}
+								label={t("common_next_calculate")}
+								title={t("common_next_calculate_desc")}
+								authorKey="common_publisher_name"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div className="break-micro" />
+
+				{/* ═══ SOURCES ═══ */}
+				<div className="sources-section">
+					<div className="container-inner">
+						<h2 className="sources-heading">
+							{t("common_sources_heading")}
+						</h2>
+						<ol className="sources-list">
+							<li>
+								<a
+									href="https://lightning.network/lightning-network-paper.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Joseph Poon &amp; Thaddeus Dryja — The Bitcoin Lightning
+									Network: Scalable Off-Chain Instant Payments (2016)
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://bitcoin.org/bitcoin.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
+									Cash System (2008)
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://phoenix.acinq.co/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									ACINQ — Phoenix Lightning wallet
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://breez.technology/mobile/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Breez — Self-custodial Lightning wallet
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://walletofsatoshi.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Wallet of Satoshi — Custodial Lightning wallet
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://docs.lightning.engineering/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Lightning Labs — Lightning Network documentation
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+
+				{/* ═══ PUBLISHER ATTRIBUTION ═══ */}
+				<div
+					className="publisher-attribution"
+					itemProp="publisher"
+					itemScope
+					itemType="https://schema.org/Organization"
+				>
+					<div className="container-inner">
 						<p>
-							<span>{t("lightning_s3_c1")}</span>
+							<span className="reviewed-badge">
+								{t(REVIEWED_ACCURACY_I18N_KEY)}
+							</span>
 							<br />
+							<span>{t("common_published_by")}</span>{" "}
+							<a
+								href={`${l}/about`}
+								className="orange-link"
+								itemProp="url"
+							>
+								<span itemProp="name">{t("common_publisher_name")}</span>
+							</a>
 							<br />
-							<span>{t("lightning_s3_c2")}</span>
+							<span>{t("common_publisher_since")}</span>
 							<br />
-							<br />
-							<span>{t("lightning_s3_c3")}</span>
-							<br />
-							<br />
-							<span>{t("lightning_s3_c4")}</span>
+							<a
+								href="https://github.com/sovenor/bitcoin-rocks"
+								className="orange-link"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<span>{t("common_publisher_open_source")}</span>
+							</a>
 						</p>
-					</WalletAccordion>
-					<div className="break-zero" />
-				</div>
-			</div>
-
-			<div className="break" />
-
-			{/* Row 1: Phoenix + Breez */}
-			<div className="vs-container">
-				<LightningCard
-					image="/img/wallets/phoenix.png"
-					nameKey="phoenix"
-					custodial="self"
-					lines={[
-						"lightning_features",
-						"lightning_mobile_app",
-						"lightning_free",
-					]}
-					link="https://phoenix.acinq.co/"
-				/>
-				<LightningCard
-					image="/img/wallets/breez.png"
-					nameKey="breez"
-					custodial="self"
-					lines={[
-						"lightning_merchants",
-						"lightning_mobile_app",
-						"lightning_free",
-					]}
-					link="https://breez.technology/mobile/"
-					rightColumn
-				/>
-				<div className="break" />
-			</div>
-
-			<div className="break-wallet" />
-
-			{/* Row 2: Wallet of Satoshi (solo) */}
-			<div className="vs-container">
-				<LightningCard
-					image="/img/wallets/wallet-of-satoshi.png"
-					nameKey="wallet_of_satoshi"
-					custodial="custodial"
-					lines={[
-						"lightning_custodial",
-						"lightning_mobile_app",
-						"lightning_free",
-					]}
-					link="https://walletofsatoshi.com/"
-				/>
-				<div className="break" />
-			</div>
-
-			<div className="break-micro" />
-
-			<a href={`${l}/wallets`}>
-				<div className="text-box intro inflation-box looking-box">
-					<div className="container-inner">
-						<p className="looking">{t("lightning_cta_hardware")}</p>
 					</div>
 				</div>
-			</a>
-
-			<div className="break-micro" />
-
-			{/* GET STARTED CTAs */}
-			<a href={l}>
-				<div className="text-box top">
-					<div className="container-inner">
-						<h2 className="h2-section" id="get-started">
-							{t("common_cta_section_get_started")}
-						</h2>
-						<h2 className="second-line get-started h2-section">
-							{t("common_cta_section_with_bitcoin")}
-						</h2>
-						<div className="item first">
-							<h3 className="h3-item">{t("common_cta_section_title_1_alt")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/wallets`}>
-				<div className="text-box middle">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_2")}</h3>
-							<div className="type">{t("common_cta_link_type_guide")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/buy`}>
-				<div className="text-box bottom">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_3")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-
-			<div
-				className="publisher-attribution"
-				itemProp="publisher"
-				itemScope
-				itemType="https://schema.org/Organization"
-			>
-				<div className="container-inner">
-					<p>
-						<span className="reviewed-badge">{t("common_reviewed_accuracy")}</span>
-						<br />
-						<span>{t("common_published_by")}</span>{" "}
-						<a href={`${l}/about`} className="orange-link" itemProp="url">
-							<span itemProp="name">{t("common_publisher_name")}</span>
-						</a>
-						<br />
-						<span>{t("common_publisher_since")}</span>
-						<br />
-						<a
-							href="https://github.com/sovenor/bitcoin-rocks"
-							className="orange-link"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<span>{t("common_publisher_open_source")}</span>
-						</a>
-					</p>
-				</div>
 			</div>
-		</div>
+		</>
 	);
 }

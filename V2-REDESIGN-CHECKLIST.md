@@ -81,7 +81,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 ### Tier 3 — Educational / utility pages
 
 - [x] **Wallets** — `/wallets`
-- [ ] **Lightning** — `/lightning`
+- [x] **Lightning** — `/lightning`
 - [ ] **Flyers** — `/flyers`
 
 - [ ] **Compound Inflation Calculator** — `/compound-inflation-calculator`
@@ -292,14 +292,14 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 |---|---:|---:|
 | Top-level content pages | 5 | 5 |
 | Comparison pages | 10 | 10 |
-| Educational / utility | 5 | 1 |
+| Educational / utility | 5 | 2 |
 | Form pages | 3 | 0 |
 | Form success pages | 4 | 0 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **88** | **62** |
+| **Total pages** | **88** | **63** |
 
 
 | Component / pattern | Total | Done |
