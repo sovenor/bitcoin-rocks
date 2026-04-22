@@ -1,4 +1,49 @@
+## /business/why V2 redesign — April 22, 2026
+
+Brought `/business/why` (the page customers land on when they scan the QR code on a "Bitcoin Accepted Here" sticker) into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` "BITCOIN IS GOOD FOR BUSINESS" hero, `/img/bbk/payment-chart.png` image + "LEARN MORE" `.biz-button` anchor-scroll CTA, four `.text-box.intro.inflation-box` "Bitcoin is good for you too" sections, and the `BusinessResourceCards` merchant grid — with a customer-facing V2 page: plain `<h1>` "Bitcoin is accepted here" + subtitle, `.wallet-intro` intro card, a **"Why Bitcoin is great for this business"** block (intro + 3 benefit sections: Lower fees / Instant settlement / Free to accept) with a small inline CTA into `/business` for anyone running a business, a **"Why Bitcoin is great for you too"** block (intro + 4 benefit sections: no inflation / no bank runs / permissionless / better world — all ported from V1 with copy rewritten for V2 tone, inline `.body-link`s to `/inflation`, `/bank-runs`, external voteforbetter.money, and the homepage), and a bespoke color-coded 4-card **"Where to next?"** grid targeting QR-scanning customers (LEARN MORE → `/`, GET A WALLET → `/wallets`, BUY BITCOIN → `/buy`, ACCEPT BITCOIN → `/business`). Standard `.publisher-attribution` + reviewed-for-accuracy badge closes the page. Dropped the payment-chart image per the task brief — replaced by two self-contained content zones that describe the value prop for merchants and customers much more clearly than the image did.
+
+This is the **QR-scanning-customer exception** to the Tier 6 convention: every other `/business/*` page keeps the "no generic What's next bridge, only merchant cross-links to `/business` + siblings" rule, but `/business/why`'s audience is beginner customers (not merchants), so a learning-path bridge is the right call here. The V2 checklist was updated with a second paragraph under the Tier 6 note documenting this exception.
+
+Added 21 new i18n keys: `why_hero_subtitle`, `why_intro_c1`, `_c2`, `why_for_business`, `why_for_business_intro`, `why_biz_s1` / `_c1`, `why_biz_s2` / `_c1`, `why_biz_s3` / `_c1`, `why_business_cta_intro`, `why_business_cta_link`, `why_good_for_you_intro`, `why_whats_next_heading`, `why_whats_next_intro`, and 8 card label/title pairs (`why_next_learn_label` / `_title`, `why_next_wallet_label` / `_title`, `why_next_buy_label` / `_title`, `why_next_business_label` / `_title`). Retitled `learn_why_bitcoin_is_good_for_business` + `why_header` from V1's uppercased "BITCOIN IS GOOD FOR BUSINESS" to sentence-case "Bitcoin is accepted here" — the page's new primary identity as a QR-scan landing page. Rewrote the preserved `why_s1-4` / `_c*` copy to match V2 tone and speak directly to the customer. The 54 non-English locales fall back to English for the new keys + will need a translation refresh on the rewritten legacy keys during Step 4.
+
+Summary counts bumped to Business 2/13, Total pages 71/84. 11 `/business/*` sub-pages remain on V1 (faq, guide, wallets, accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) and still use `BusinessPageShell`.
+
+**Files changed**
+- `app/[locale]/business/why/page.tsx` — full V2 rewrite (hero / intro card / Part 1 (3 merchant benefits) + `/business` CTA / Part 2 (4 customer benefits) / color-coded "Where to next?" grid / inline publisher attribution); dropped `BusinessPageShell` + `BusinessResourceCards` + payment-chart image + biz-button CTA
+- `i18n/en/business/why_en.json` — full key refresh: retitled landing keys, added 21 new V2 keys, rewrote all `why_s*_c*` copy for V2 tone; bumped `@metadata.last-updated` to 2026-04-22
+- `V2-REDESIGN-CHECKLIST.md` — flipped `/business/why` to [x]; added the `/business/why` exception paragraph under the Tier 6 convention note; updated summary counts
+- `memory-bank/activeContext.md` — detailed entry prepended
+- `memory-bank/progress.md` — this note prepended
+
+**Verification**
+- `npm run typecheck` → clean.
+
+---
+
+## /business index V2 redesign — April 22, 2026
+
+Brought `/business` (the merchant section's top-of-funnel hub) into the V2 design system. Replaces the `BusinessPageShell`-wrapped V1 page — centered back-to-home logo, `.h1-inflation` hero, `/img/bbk/payment-chart.png` image, "ACCEPT BITCOIN PAYMENTS" `.biz-button` CTA, 4 `.text-box.intro.inflation-box` benefit sections with `.h2-section` H3s, `BusinessResourceCards` colored-tile grid, and standalone "Print your own Business Kit" `.biz-wallet` CTA — with a standard V2 page: plain `<h1>` hero + subtitle, `.wallet-intro` intro card, 4 `.inflation-section.content-section` benefit blocks (Low fees / Instant settlement / No chargebacks / More customers) with `.comparison-explain` prose, a 7-card `.whats-next-section` "Everything you need to accept Bitcoin" grid where each card uses its own `--card-accent` CSS variable (wallets=orange, maps=green, stickers=pink, rewards=yellow, accounting=blue, faq=purple, kit=orange), a second 4-up `.whats-next-section` bridging non-merchant visitors to `/`, `/wallets`, `/buy`, `/inflation`, a standard 5-entry `.sources-section` (BTC Map, BTCPay Server, Strike for Business, Oshi, Bitcoin whitepaper), and the standard `.publisher-attribution` + reviewed-for-accuracy badge. This is the first page in Tier 6 (Business section) to reach V2.
+
+Dropped the payment-chart image and the "ACCEPT BITCOIN PAYMENTS" anchor-scroll CTA — the hero subtitle communicates the value prop and the resources grid replaces the "scroll to ready section" UX. Kept the "Learn why Bitcoin is good for business" card out of the resources grid (it linked back to the current page). Folded the standalone "Print your own Business Kit" CTA into the main resources grid as its 7th card.
+
+Added 10 new i18n keys: `business_hero_subtitle`, `business_intro_c1`, `business_intro_c2`, `business_resources_heading`, `business_resources_intro`, `biz_label_wallets`, `biz_label_maps`, `biz_label_stickers`, `biz_label_rewards`, `biz_label_accounting`, `biz_label_faq`, `biz_label_kit`. Kept existing `biz_header`, `biz_s1-4`, and `biz_s*_c*` keys — the benefit-section copy is preserved verbatim. Card titles reuse the shared `common_biz_*` keys from `common_en.json`. The 54 non-English locales fall back to English for the new keys until translators pick them up during the Step 4 translation refresh.
+
+Summary counts bumped to Business 1/13, Total pages 70/84. 12 `/business/*` sub-pages still on V1 and still use `BusinessPageShell` — queued up next. The `BusinessPageShell` / `BusinessResourceCards` / `BusinessWalletCard` components are still required by those sub-pages and will be deleted once Tier 6 is fully V2-complete.
+
+**Files changed**
+- `app/[locale]/business/page.tsx` — full V2 rewrite (hero / intro card / 4 benefit sections / color-coded resources grid / What's next grid / sources / inline publisher attribution); dropped `BusinessPageShell` wrapper + payment-chart image + biz-button CTA + `BusinessResourceCards` component + standalone kit CTA
+- `i18n/en/business/index_en.json` — added 10 new V2 keys; bumped `@metadata.last-updated` to 2026-04-22
+- `V2-REDESIGN-CHECKLIST.md` — flipped `/business` slug to [x]; updated summary counts
+- `memory-bank/activeContext.md` — detailed entry prepended
+- `memory-bank/progress.md` — this note prepended
+
+**Verification**
+- `npx tsc --noEmit` → clean.
+
+---
+
 ## /sticker-language-success V2 redesign — April 22, 2026
+
 
 Brought `/sticker-language-success` (the thank-you screen shown after someone submits the "Request stickers in my language" form on `/sticker-files`) into the V2 design system. Replaces the V1 back-to-home gray-logo link + `.h2-stickers` "SUCCESS!" wrapper + `.text-box.intro` prose block + V1 `.text-box.top/.middle/.bottom` CTA stack with a standard V2 page: plain `<h1>` hero ("Request received 🎉") + intro paragraph, a single `.wallet-intro` surface card carrying the batch-release expectation-setting copy, and a standard 4-up `.whats-next-section` grid (sticker-files index / wallets / buy / home). No sources or publisher-attribution block — utility/thank-you page with no factual claims. Robots stays `noindex, follow` so form-success URLs never appear in search results.
 

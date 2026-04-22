@@ -1,4 +1,106 @@
-## Latest: /sticker-language-success V2 redesign — April 22, 2026
+## Latest: /business/why V2 redesign — April 22, 2026
+
+`/business/why` (the QR-code landing page customers reach when they scan a "Bitcoin Accepted Here" sticker) was still on V1: `BusinessPageShell` wrapper, `.h1-inflation` "BITCOIN IS GOOD FOR BUSINESS" hero, the `/img/bbk/payment-chart.png` inline comparison image + "LEARN MORE" `.biz-button` anchor-scroll CTA, then four `.text-box.intro.inflation-box` "good for you too" sections (no-inflation, no bank runs, permissionless, better world) with inline `<br><br>` paragraph breaks, and the `BusinessResourceCards` grid at the bottom. Redesigned in the V2 style, mirroring the `/business` index page that was just completed. This is the second `/business/*` page to reach V2 and establishes the **QR-scanning-customer exception** to the Tier 6 convention.
+
+### What changed
+
+1. **Hero.** Replaced `BusinessPageShell` + `.h1-inflation` with a plain `<h1>` ("Bitcoin is accepted here") and `.home-hero.inflation-section` subtitle. New keys `why_hero_subtitle` ("You just scanned a Bitcoin Accepted Here sticker. Here's why that's great news — for this business, and for you.") and the retitled `learn_why_bitcoin_is_good_for_business` + `why_header` (now sentence-case "Bitcoin is accepted here" — the page's new primary identity as a QR-scan landing page, not a "Why accept?" pitch).
+
+2. **Intro card.** Added a V2 `.wallet-intro` bordered surface with two lead-in paragraphs (`why_intro_c1` + `why_intro_c2`) that frame the page's two halves.
+
+3. **Payment-chart image dropped.** Per the task brief, removed the `/img/bbk/payment-chart.png` image + the `.biz-button` "LEARN MORE" CTA. In their place: two distinct, self-contained content zones — "Why Bitcoin is great for this business" (3 benefit sections) and "Why Bitcoin is great for you too" (4 benefit sections). Much better than an image-led hero for the site's tone, and the prose describes what the image was trying to convey (lower fees + instant settlement + no chargebacks) much more clearly.
+
+4. **Part 1 — "Why Bitcoin is great for this business".** New V2 `.inflation-section.content-section` intro block (heading `why_for_business` + lead-in `why_for_business_intro`), followed by three benefit sections:
+   - `why_biz_s1` / `_c1` — "Lower fees, more for the business" (business keeps more → often means better prices + service for customers)
+   - `why_biz_s2` / `_c1` — "Instant settlement, no chargebacks" (seconds to settle, no fraud disputes)
+   - `why_biz_s3` / `_c1` — "Free to accept, open to everyone" (zero contracts + fees, free exposure to Bitcoin users)
+   
+   Part 1 closes with a small inline CTA (`why_business_cta_intro` + `why_business_cta_link`) pointing merchants who happen to land here to `/business` via a `.body-link`.
+
+5. **Part 2 — "Why Bitcoin is great for you too".** New V2 intro block (heading `why_good_for_you` — rewritten from V1's uppercased "BITCOIN IS GOOD FOR YOU TOO!" to sentence case + `why_good_for_you_intro` lead-in), followed by the four original V1 sections ported to V2 `.inflation-section.content-section` blocks with `.comparison-explain` prose — no-inflation → `/inflation`, no bank runs → `/bank-runs`, permissionless → external voteforbetter.money link, better world → homepage. Bumped the inline learn-more link from `.orange-link` to `.body-link` (V2 convention) and converted V1 `<br><br>` paragraph breaks into clean `<p>` tags. All copy rewritten so the V2 tone matches the rest of the site and addresses the customer directly (e.g. "Your Bitcoin savings hold their value" instead of the V1 generic "Bitcoin has a fixed supply").
+
+6. **"Where to next?" grid (QR-scanning-customer exception).** Replaced the V1 `BusinessResourceCards` 7-card merchant resource grid with a bespoke V2 4-card `.whats-next-grid` targeted at QR-scanning customers — color-coded `--card-accent`s driving four `.whats-next-card`s:
+   - LEARN MORE (`#A67DFF` education purple) → `/` (homepage)
+   - GET A WALLET (`#FF9500` bitcoin orange) → `/wallets`
+   - BUY BITCOIN (`#FFE91D` payments yellow) → `/buy`
+   - ACCEPT BITCOIN (`#1DFF4D` merchant green) → `/business` — sitting in the #4 slot so anyone inspired to accept it still has a direct path
+   
+   New section heading `why_whats_next_heading` ("Where to next?") + intro `why_whats_next_intro`, plus 8 card label/title keys `why_next_learn_label` / `_title`, `why_next_wallet_label` / `_title`, `why_next_buy_label` / `_title`, `why_next_business_label` / `_title`. Uses the same card markup + `home_source_prefix` + `common_publisher_name` pattern as the index page's resources grid.
+
+7. **Tier 6 convention exception documented.** Updated `V2-REDESIGN-CHECKLIST.md` with a second paragraph under the Tier 6 convention note explaining that `/business/why` DOES include a learning-path cross-link grid (unlike every other `/business/*` page) because its primary audience is customers, not merchants. The rest of Tier 6 still follows the original "no generic What's next bridge" rule.
+
+8. **Publisher attribution.** Inlined the reviewed-for-accuracy badge + publisher-attribution block directly on the page (same as `/business` index), so `/business/why` no longer depends on `BusinessPageShell`.
+
+### Files changed
+
+```
+app/[locale]/business/why/page.tsx       (full V2 rewrite — hero, intro card, Part 1 (3 merchant benefits) + /business CTA, Part 2 (4 customer benefits, all ported), color-coded "Where to next?" grid, inline publisher attribution; dropped BusinessPageShell + BusinessResourceCards + payment-chart image + biz-button CTA; added JsonLd + REVIEWED_ACCURACY_I18N_KEY imports)
+i18n/en/business/why_en.json             (bumped @metadata.last-updated to 2026-04-22; full key refresh — retitled learn_why_bitcoin_is_good_for_business + why_header to "Bitcoin is accepted here"; added 21 new keys — why_hero_subtitle, why_intro_c1, _c2, why_for_business, why_for_business_intro, why_biz_s1 / _c1, why_biz_s2 / _c1, why_biz_s3 / _c1, why_business_cta_intro, why_business_cta_link, why_good_for_you_intro, why_whats_next_heading, why_whats_next_intro, why_next_learn_label / _title, why_next_wallet_label / _title, why_next_buy_label / _title, why_next_business_label / _title; rewrote all `why_s1-4` + `_c*` copy for V2 tone; kept why_s1-4 keys + why_learn_more_lowercase + why_good_for_you)
+V2-REDESIGN-CHECKLIST.md                  (flipped /business/why to [x]; added the /business/why exception paragraph under the Tier 6 convention note; updated summary counts: Business 2/13, Total pages 71/84)
+memory-bank/activeContext.md              (this entry prepended)
+memory-bank/progress.md                   (updated)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold V1 strings for the preserved `why_s1-4` / `_c*` keys + `why_learn_more_lowercase` + `why_good_for_you` + `why_header` + `learn_why_bitcoin_is_good_for_business`, and fall through to English for the 21 new keys. Additionally, the preserved keys whose copy was rewritten for V2 (all `why_s*_c*` and the retitled headings) will need the translation refresh too. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- 11 `/business/*` sub-pages remain on V1 (faq, guide, wallets, accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) and still use `BusinessPageShell`. Next up.
+- `BusinessPageShell`, `BusinessResourceCards`, and `BusinessWalletCard` are still required by the 11 un-redesigned sub-pages — will be deleted once Tier 6 is fully V2-complete.
+
+---
+
+## Previous: /business index V2 redesign — April 22, 2026
+
+
+`/business` (the top-of-funnel hub for merchants) was still on the V1 design system: `BusinessPageShell` wrapper with a centered back-to-home gray logo, `.h1-inflation` hero, the `/img/bbk/payment-chart.png` inline image + "ACCEPT BITCOIN PAYMENTS" `.biz-button` anchor-scroll CTA, four `.text-box.intro.inflation-box` benefit sections using `.h2-section` H3s, the `BusinessResourceCards` grid of colored `.biz-box` cards, and a standalone "Print your own Business Kit" `.biz-wallet` CTA. Ported the index page into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/stickers`, `/sticker-success`, `/sticker-language-success`, `/buy`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages. This is the first page in Tier 6 (Business section) to reach V2.
+
+### What changed
+
+1. **Hero.** Replaced the `BusinessPageShell` back-to-home logo + `.h1-inflation` "BITCOIN IS GOOD FOR BUSINESS" hero with a plain `<h1>` (title from the existing `bitcoin_is_good_for_business` key) + `.home-hero.inflation-section` intro paragraph driven by the new `business_hero_subtitle` key ("Accept payments with lower fees, get paid instantly, and reach millions of new customers — with zero contracts and zero hidden costs."). The old uppercased `biz_header` string is kept in i18n for backwards compatibility but no longer rendered.
+
+2. **Intro card.** Added a V2 `.wallet-intro` bordered surface card (same chrome as `/wallets`, `/lightning`, `/flyers`, `/buy`) with two lead-in paragraphs from new keys `business_intro_c1` and `business_intro_c2` that frame what's below.
+
+3. **Payment-chart image + button dropped.** Removed the `/img/bbk/payment-chart.png` inline image (its V1 styling was stripped when the legacy CSS was removed, and the chart itself is a V1-era illustration that didn't port cleanly) plus the `.biz-button` "ACCEPT BITCOIN PAYMENTS" anchor-scroll CTA. The hero subtitle already communicates the value prop and the resources grid below replaces the "scroll to ready section" UX.
+
+4. **Four benefit sections.** Converted the `.text-box.intro.inflation-box` + `.h2-section` H3 blocks into standard V2 `.inflation-section.content-section` sections — plain `<h2>` heading + `.comparison-explain` prose wrapper. Copy preserved verbatim from the existing `biz_s1` / `biz_s2` / `biz_s3` / `biz_s4` keys and their `_c*` paragraph children; the inline `<br><br>` paragraph breaks in s3 and s4 were split into clean `<p>` tags.
+
+5. **Business resources grid.** Replaced the `BusinessResourceCards` component (which rendered 7 `.biz-box.biz-learn/-wallet/-maps/-stickers/-rewards/-accounting/-faq` cards in V1 style) with a V2 `.whats-next-section` containing 7 `.whats-next-card`s — one per downstream resource. Each card sets its own `--card-accent` CSS variable inline (`#FF9500` wallets, `#1DFF4D` maps, `#FF1D8E` stickers, `#FFE91D` rewards, `#4DA6FF` accounting, `#A67DFF` faq, `#FF9500` kit) so the label + hover border color-code the grid the same way the homepage category sections do. The "Learn why Bitcoin is good for business" card is dropped — it linked back to the current page. The "Print your own Business Kit" card is now part of the main grid instead of a standalone CTA below it. New section heading ("Everything you need to accept Bitcoin") and intro ("Work through these resources at your own pace. Each one is a short, practical guide.") live under new keys `business_resources_heading` and `business_resources_intro`; individual card labels use new keys `biz_label_wallets` / `_maps` / `_stickers` / `_rewards` / `_accounting` / `_faq` / `_kit`. Card titles reuse the existing shared `common_biz_wallets` / `_maps` / `_stickers` / `_rewards` / `_accounting` / `_faq` / `_kit` keys from `common_en.json`. External Oshi rewards link keeps `target="_blank" rel="noopener noreferrer"`.
+
+6. **What's next grid.** Added a second V2 `.whats-next-section` below the resources grid with 4 standard `<WhatsNextCard>`s bridging to `/`, `/wallets`, `/buy`, and `/inflation` so readers who aren't ready for the merchant workflow still have a clear next step. Matches the pattern on every other V2 content page.
+
+7. **Sources section.** Added the standard V2 `.sources-section` with 5 citations: BTC Map (merchant directory), BTCPay Server (self-hosted POS), Strike for Business (Lightning payments), Oshi (rewards), and the Bitcoin whitepaper. Matches the pattern on `/wallets`, `/lightning`, `/buy`, `/inflation`, and the comparison pages.
+
+8. **Publisher attribution.** Inlined the reviewed-for-accuracy badge + publisher-attribution block (moved off the `BusinessPageShell` wrapper into the page itself) so the V2 index page no longer depends on `BusinessPageShell`. The shell is still used by all 12 other `/business/*` sub-pages until they're each V2-redesigned; it'll be deleted once Tier 6 is fully V2-complete.
+
+### Files changed
+
+```
+app/[locale]/business/page.tsx          (full V2 rewrite — hero, intro card, 4 benefit sections, color-coded resources grid, What's next grid, sources, inline publisher attribution; dropped BusinessPageShell wrapper + payment-chart image + biz-button CTA + BusinessResourceCards + standalone kit CTA; added WhatsNextCard + JsonLd + REVIEWED_ACCURACY_I18N_KEY imports)
+i18n/en/business/index_en.json           (bumped @metadata.last-updated to 2026-04-22; added 10 new keys — business_hero_subtitle, business_intro_c1, business_intro_c2, business_resources_heading, business_resources_intro, biz_label_wallets, biz_label_maps, biz_label_stickers, biz_label_rewards, biz_label_accounting, biz_label_faq, biz_label_kit. Kept existing biz_header / biz_s1-4 / biz_s*_c* keys.)
+V2-REDESIGN-CHECKLIST.md                 (flipped /business index to [x]; updated summary counts: Business 1/13, Total pages 70/84)
+memory-bank/activeContext.md             (this entry prepended)
+memory-bank/progress.md                  (updated)
+```
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 strings for the preserved `biz_s*` keys, and fall through to English for the 10 new keys. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- 12 `/business/*` sub-pages (why, faq, guide, wallets, accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) are still on V1 and still use `BusinessPageShell`. Next up.
+- `BusinessPageShell`, `BusinessResourceCards`, and `BusinessWalletCard` are still required by the 12 un-redesigned sub-pages — will be deleted once Tier 6 is fully V2-complete.
+- The legacy `biz_header`, `common_biz_learn`, `common_biz_accept_bitcoin_payments`, `common_biz_ready`, `common_biz_more`, and `common_kit_cta_header` keys are no longer rendered by the /business index but still used by the 12 V1 sub-pages; they'll be swept during the Step 1–2 dead-key cleanup after Tier 6 finishes.
+
+---
+
+## Previous: /sticker-language-success V2 redesign — April 22, 2026
+
 
 `/sticker-language-success` (the thank-you screen shown after a visitor submits the "Request stickers in my language" form on `/sticker-files`) was still on the V1 design system: centered `.back-to-home` gray-logo link, `.h2-stickers` wrapper around an orange-tinted "SUCCESS!" `<h1>`, `.text-box.intro` blurb with inline `<br><br>` paragraph breaks, and a V1 `.text-box.top/.middle/.bottom` CTA stack (home → wallets → buy). Ported the page into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/stickers`, `/sticker-success`, `/buy`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages. This clears the last item in Tier 5 (Form success pages).
 

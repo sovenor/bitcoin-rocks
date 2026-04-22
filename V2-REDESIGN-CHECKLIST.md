@@ -99,8 +99,29 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 ### Tier 6 — Business section (13)
 
-- [ ] **Business (index)** — `/business`
-- [ ] **Business — Why** — `/business/why`
+> **V2 convention for all `/business/*` pages:** Do **not** render the
+> generic "What's next?" bridge (keep learning / get a wallet / buy
+> Bitcoin / inflation) at the bottom of business pages. The colored
+> business resources grid (wallets, maps, stickers, rewards,
+> accounting, FAQ, kit) on `/business` already serves as the primary
+> cross-link surface for merchants, and sub-pages should cross-link
+> back to `/business` and to each other — not drop readers back into
+> the beginner learning path. When migrating or redesigning a business
+> page, remove any `common_whats_next` block along with the
+> `WhatsNextCard` imports/usages. ✅ applied to `/business` (2026-04-22).
+>
+> **Exception — `/business/why`:** This page is what customers see
+> when they scan a "Bitcoin Accepted Here" sticker QR code, so its
+> primary audience is beginner customers (not merchants). The V2
+> redesign therefore DOES include a bespoke color-coded 4-card
+> "Where to next?" grid that funnels QR-scanning customers into the
+> learning path (homepage → learn, `/wallets` → get a wallet,
+> `/buy` → buy bitcoin, `/business` → accept bitcoin). Every other
+> `/business/*` page keeps the convention above. ✅ applied to
+> `/business/why` (2026-04-22).
+
+- [x] **Business (index)** — `/business`
+- [x] **Business — Why** — `/business/why`
 - [ ] **Business — FAQ** — `/business/faq`
 - [ ] **Business — Guide** — `/business/guide`
 - [ ] **Business — Wallets** — `/business/wallets`
@@ -292,11 +313,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 13 | 0 |
+| Business section | 13 | 2 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **84** | **69** |
+| **Total pages** | **84** | **71** |
 
 
 
@@ -313,6 +334,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (V2 redesign of /sticker-language-success page — hero + batch-release card + 4-up What's next grid)_
+_Last updated: 2026-04-22 (V2 redesign of /business/why — replaced payment-chart image hero with V2 hero + intro card + "Why Bitcoin is great for this business" (3 benefits) + "Why Bitcoin is great for you too" (4 benefits) + bespoke color-coded 4-card "Where to next?" grid targeted at QR-scanning customers; see `/business/why` exception note in Tier 6 above)_
 
 
