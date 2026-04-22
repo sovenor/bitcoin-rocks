@@ -64,8 +64,8 @@ export default async function CatchAllNotFound({
 		: "en";
 	setRequestLocale(locale);
 
-	let message = "THIS BROKEN PAGE DOES NOT ROCK";
-	let goHome = "GO BACK HOME";
+	let message = "Bitcoin rocks, but this broken page does not.";
+	let goHome = "Back to Home";
 	try {
 		const t = await getTranslations();
 		message = t("404_message");
@@ -77,22 +77,16 @@ export default async function CatchAllNotFound({
 	return (
 		<div className="container-main">
 			<div className="container-inner">
-				<Link href="/">
-					{/* eslint-disable-next-line @next/next/no-img-element */}
-					<img
-						src="/img/logos/rocks-logo-gray.png"
-						alt="bitcoin.rocks"
-						className="rocks-logo"
-					/>
-				</Link>
-			</div>
-
-			<div className="container-inner">
 				<h1>{message}</h1>
 
-				<Link href="/" className="orange-link">
-					<h2 className="force-orange">{goHome}</h2>
-				</Link>
+				<div
+					className="container-inflation-button"
+					style={{ marginTop: "32px" }}
+				>
+					<Link href="/" className="inflation-button">
+						{goHome}
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

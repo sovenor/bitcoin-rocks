@@ -38,7 +38,7 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [ ] **StickerPicker** (`components/StickerPicker.tsx`)
 - [ ] **StickerAddressForm** (`components/StickerAddressForm.tsx`)
 - [ ] **PrintFlyerButton** (`components/PrintFlyerButton.tsx`)
-- [ ] **404 / catch-all page** (`app/not-found.tsx` + `app/[locale]/[...rest]/page.tsx`)
+- [x] **404 / catch-all page** (`app/not-found.tsx` + `app/[locale]/[...rest]/page.tsx`)
 - [ ] **Verify fonts are loading correctly for all weights and styles**
 
 ### Cross-cutting Patterns (verify per page)
@@ -174,7 +174,7 @@ Individual language pages:
 
 ### Special routes
 
-- [ ] **404 page** — `app/not-found.tsx` (root) and `app/[locale]/[...rest]/page.tsx` (locale-aware catch-all)
+- [x] **404 page** — `app/not-found.tsx` (root) and `app/[locale]/[...rest]/page.tsx` (locale-aware catch-all)
 
 ---
 
@@ -296,7 +296,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 0 |
-| Special / 404 | 1 | 0 |
+| Special / 404 | 1 | 1 |
 | **Total pages** | **88** | **3** |
 
 | Component / pattern | Total | Done |
@@ -312,5 +312,5 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-19_
+_Last updated: 2026-04-22_
 

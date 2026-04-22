@@ -6,7 +6,7 @@ import type { Metadata } from "next";
  * Rendered by Next when a request reaches a URL that can't resolve a locale
  * at all (rare — middleware usually redirects `/` → `/<locale>` and catches
  * unlocalized paths). For locale-scoped 404s (the common case), see
- * `app/[locale]/not-found.tsx` which gets proper Navbar/Footer/translations.
+ * `app/[locale]/[...rest]/page.tsx` which gets proper Navbar/Footer/translations.
  *
  * Because `app/layout.tsx` is a pass-through (so per-locale layouts can emit
  * their own `<html lang dir>`), this file must render its own `<html>` and
@@ -34,22 +34,16 @@ export default function NotFound() {
 			<body className="bg-bg text-fg font-proxima antialiased">
 				<div className="container-main">
 					<div className="container-inner">
-						<a href="/en">
-							{/* eslint-disable-next-line @next/next/no-img-element */}
-							<img
-								src="/img/logos/rocks-logo-gray.png"
-								alt="bitcoin.rocks"
-								className="rocks-logo"
-							/>
-						</a>
-					</div>
+						<h1>Bitcoin rocks, but this broken page does not.</h1>
 
-					<div className="container-inner">
-						<h1>THIS BROKEN PAGE DOES NOT ROCK</h1>
-
-						<a href="/en" className="orange-link">
-							<h2 className="force-orange">GO BACK HOME</h2>
-						</a>
+						<div
+							className="container-inflation-button"
+							style={{ marginTop: "32px" }}
+						>
+							<a href="/en" className="inflation-button">
+								Back to Home
+							</a>
+						</div>
 					</div>
 				</div>
 			</body>
