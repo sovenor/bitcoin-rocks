@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-20",
+		"last-updated": "2026-04-22",
 		"locale": "en"
 	},
 	"common_footer_mission_1": "The mission of bitcoin.rocks is to accelerate bitcoin adoption through education.",
@@ -216,7 +216,7 @@
 	"common_sticker_files_mission_2": "Bitcoin",
 	"common_sticker_files_mission_3": "inflation",
 	"common_sticker_files_mission_4": "If you live in the USA or Canada, you can",
-	"common_sticker_files_mission_5": "request a pack of English stickers for free",
+	"common_sticker_files_mission_5": "request a pack",
 	"common_published_by": "Published by",
 	"common_publisher_name": "bitcoin.rocks",
 	"common_publisher_since": "Bitcoin education since 2022",
@@ -243,5 +243,29 @@
 	"common_next_contribute": "Contribute",
 	"common_next_contribute_desc": "Get involved and help spread Bitcoin",
 	"common_next_calculate": "Calculate your inflation",
-	"common_next_calculate_desc": "See how inflation affects your salary over time"
+	"common_next_calculate_desc": "See how inflation affects your salary over time",
+	"common_sticker_tips_heading": "Sticker tips",
+	"common_sticker_tips_intro": "Once you've printed your stickers, put them somewhere they'll be seen! Good sticker spots are:",
+	"common_sticker_tips_list_1": "in public where people will see them",
+	"common_sticker_tips_list_2": "in places that are unlikely to be removed quickly (the stickers don't cause any permanent damage)",
+	"common_sticker_tips_list_3": "on surfaces they will stick to easily (metal, plastic, glass)",
+	"common_sticker_tips_list_4": "NOT on private property, covering signage, ATMs, or gas pumps",
+	"common_sticker_files_next_languages_label": "Sticker files",
+	"common_sticker_files_next_languages_title": "See sticker files in other languages",
+	"common_sticker_files_next_flyers_label": "Flyers",
+	"common_sticker_files_next_flyers_title": "Print a Bitcoin flyer",
+	"common_stickers_printer_prefix": "We use",
+	"common_stickers_printer_name": "StickerMule.com",
+	"common_stickers_printer_suffix": "but you can use any sticker company.",
+	"common_sticker_files_mission_6": "of English stickers for free.",
+	"common_sticker_name_danger": "\"Danger! Inflation Ahead\" Bitcoin Sticker",
+	"common_sticker_name_warning": "\"Warning! Inflation is Stealing Your Savings\" Bitcoin Sticker",
+	"common_sticker_name_caution": "\"Caution! Melting Ice Cube\" Bitcoin Sticker",
+	"common_sticker_name_fix": "\"Fix The Money, Fix The World\" Bitcoin Sticker",
+	"common_sticker_name_study": "\"Study Bitcoin\" Sticker",
+	"common_sticker_name_bdhi_orange": "\"Bitcoin Doesn't Have Inflation\" Sticker (Orange)",
+	"common_sticker_name_bdhi_black": "\"Bitcoin Doesn't Have Inflation\" Sticker (Black)",
+	"common_sticker_name_cure_inflation": "\"Cure Inflation\" Bitcoin Sticker",
+	"common_sticker_name_got_inflation": "\"Got Inflation?\" Bitcoin Sticker",
+	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin Sticker"
 }

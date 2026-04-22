@@ -1243,3 +1243,171 @@ svg.story-card-icon {
 	width: 96%;
 }
 
+/* ─────────────────────────────────────────────────────────────
+   Sticker-files per-language page (V2 redesign)
+   Each sticker sits in a bordered surface card with a capped-
+   width image and a cleanly laid-out meta list. A tips card
+   below mirrors the sticker-success "Good sticker spots are …"
+   content, and two `.whats-next-card`s at the bottom funnel
+   visitors back to the language picker or onward to /flyers.
+   ───────────────────────────────────────────────────────────── */
+
+/* StickerMule 1-click CTA (English page only). Sits inside the
+   `.comparison-intro` card under the mission prose. */
+.sticker-files-cta-row {
+	text-align: center;
+	margin-top: 8px !important;
+	margin-bottom: 0 !important;
+}
+a.sticker-files-cta-button {
+	display: inline-block;
+	background-color: var(--color-bitcoin-orange);
+	color: #ffffff;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 14px 24px;
+	border-radius: 12px;
+	border: 1px solid var(--color-bitcoin-orange);
+	transition:
+		background-color 0.2s,
+		color 0.2s,
+		transform 0.2s;
+}
+a.sticker-files-cta-button:hover {
+	background-color: var(--color-link-hover);
+	border-color: var(--color-link-hover);
+	transform: scale(1.02);
+}
+
+/* Sticker cards — one per available design. Stacked vertically
+   inside a single section wrapper with consistent gap spacing. */
+.sticker-cards-section .container-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 96%;
+}
+.sticker-card {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+.sticker-card-name {
+	/* Matches `.sticker-tips-heading` — both inherit everything else
+	   from the base element-level h2 rule (28px, weight 700, white). */
+	margin: 0 0 4px 0;
+	align-self: stretch;
+}
+.sticker-card-image-link {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	text-decoration: none;
+}
+.sticker-card-image {
+	display: block;
+	max-width: 320px;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+@media (max-width: 700px) {
+	.sticker-card {
+		padding: 20px;
+	}
+	.sticker-card-image {
+		max-width: 260px;
+	}
+}
+.sticker-card-meta {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+}
+.sticker-card-meta li {
+	margin: 0 0 8px 0;
+}
+.sticker-card-meta li:last-child {
+	margin-bottom: 0;
+}
+.sticker-card-meta-label {
+	font-weight: 700;
+	color: var(--color-fg);
+}
+
+/* Sticker tips — bordered card mirroring `.comparison-intro`
+   with a left-aligned H2 + bullet list. */
+.sticker-tips-section {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.sticker-tips-section .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.sticker-tips-heading {
+	/* Inherit base h2 look (28px / 700 / white / left). Only tighten
+	   the bottom margin so the intro paragraph below sits close. */
+	margin: 0 0 12px 0;
+}
+.sticker-tips-intro {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 12px 0;
+}
+.sticker-tips-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+}
+.sticker-tips-list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.sticker-tips-list li:last-child {
+	margin-bottom: 0;
+}
+.sticker-tips-check {
+	flex-shrink: 0;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+/* English page only — center all intro card content + the CTA button. */
+.comparison-intro--center .container-inner {
+	text-align: center;
+}
+.comparison-intro--center .inflation-intro {
+	text-align: center;
+}
+

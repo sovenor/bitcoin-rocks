@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
+import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale, locales } from "@/lib/i18n/config";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
@@ -18,22 +19,40 @@ import {
 } from "@/lib/sticker-files/catalog";
 
 /**
- * /[locale]/sticker-files/[lang] — Phase 11.
+ * /[locale]/sticker-files/[lang] — V2 redesign.
  *
- * Dynamic per-language page: renders every printable sticker design available
- * for the given `lang` (e.g. `spanish`, `chinese`). Data is sourced from the
- * `lib/sticker-files/catalog.ts` static catalog, which is generated from the
- * filesystem state of `sticker-files/<lang>/*.png`.
- *
- * Route params:
- *   - `locale`: site UI locale (e.g. `en`, `es`, `ar`).
- *   - `lang`  : sticker language slug (English lowercase, e.g. `afrikaans`).
- *              These are NOT the same as the site's 55 locale codes; they're
- *              a separate axis (the language printed ON the sticker, vs. the
- *              language of the surrounding UI text).
+ * Renders:
+ *   - Hero H1 in sentence case with the language name title-cased
+ *     ("Download Afrikaans Bitcoin Sticker Files").
+ *   - Intro card (bordered surface) with mission prose. On the English
+ *     page the card is center-aligned and contains the StickerMule 1-click
+ *     CTA button.
+ *   - One `.sticker-card` per design (bordered surface, centered capped
+ *     image ≤320px, sticker name H2, meta list). "Where to print" links
+ *     only the words "StickerMule.com" — English page points at the
+ *     1-click URL, every other language points at stickermule.com root.
+ *   - Sticker-tips card (✅ bulleted list mirroring /sticker-success).
+ *   - Two "What's next?" link cards — back to /sticker-files language
+ *     picker, forward to /flyers.
  */
 
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
+
+/** Generic sticker-printer link used by the per-sticker "Where to print"
+ *  row. English swaps this for the 1-click pack URL (see stickerMuleOneClickUrl). */
+const STICKERMULE_DEFAULT_URL = "https://stickermule.com/";
+
+/** The special printer-link URL requested for English cards — not the 1-click
+ *  pack URL but a longer-form canonical that's the URL specified by the
+ *  product owner for "Where to print" on the English page. */
+const STICKERMULE_ENGLISH_PRINTER_URL =
+	"https://www.stickermule.com/4c84ba884f9c3ae";
+
+/** Title-case a single lowercase English word like `afrikaans` → `Afrikaans`. */
+function titleCaseWord(s: string): string {
+	if (!s) return s;
+	return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+}
 
 /** Generate every (locale × lang) pair at build time. */
 export async function generateStaticParams() {
@@ -49,13 +68,13 @@ export async function generateStaticParams() {
 
 type PageParams = Promise<{ locale: string; lang: string }>;
 
-/** Translated page title like "Download Chinese Bitcoin Sticker Files". */
+/** Translated page title like "Download Afrikaans Bitcoin Sticker Files"
+ *  in sentence case (language name title-cased, not uppercased). */
 function formatHeading(stickerLangName: string): string {
-	// Matches legacy pattern: `DOWNLOAD ${LANGUAGE} BITCOIN STICKER FILES`
 	return `Download ${stickerLangName} Bitcoin Sticker Files`;
 }
 
-/** Translated meta title like "Chinese Bitcoin Sticker Files". */
+/** Translated meta title like "Afrikaans Bitcoin Sticker Files". */
 function formatTitle(stickerLangName: string): string {
 	return `${stickerLangName} Bitcoin Sticker Files`;
 }
@@ -71,7 +90,8 @@ export async function generateMetadata({
 	}
 	const t = await getTranslations({ locale });
 	const langDescriptor = findLanguage(lang);
-	const stickerLangName = langDescriptor ? t(langDescriptor.labelKey) : lang;
+	const rawLangName = langDescriptor ? t(langDescriptor.labelKey) : lang;
+	const stickerLangName = titleCaseWord(rawLangName);
 	const title = formatTitle(stickerLangName);
 	const description = `Download ${stickerLangName} Bitcoin Sticker Files here.`;
 	const slug = `sticker-files/${lang}`;
@@ -111,9 +131,13 @@ export default async function StickerFilesLanguagePage({
 	setRequestLocale(locale);
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
+	const isEnglish = lang === "english";
 
 	const langDescriptor = findLanguage(lang);
-	const stickerLangName = langDescriptor ? t(langDescriptor.labelKey) : lang;
+	const rawLangName = langDescriptor ? t(langDescriptor.labelKey) : lang;
+	// Language labels in `common_language_*` are uppercase (e.g. "AFRIKAANS")
+	// for the picker-button grid. Re-case them for the H1 sentence-case hero.
+	const stickerLangName = titleCaseWord(rawLangName);
 	const heading = formatHeading(stickerLangName);
 	const title = formatTitle(stickerLangName);
 	const description = `Download ${stickerLangName} Bitcoin Sticker Files here.`;
@@ -121,6 +145,9 @@ export default async function StickerFilesLanguagePage({
 
 	const stickers: StickerKind[] = getStickersForLanguage(lang);
 	const oneClickUrl = stickerMuleOneClickUrl(lang);
+	const printerUrl = isEnglish
+		? STICKERMULE_ENGLISH_PRINTER_URL
+		: STICKERMULE_DEFAULT_URL;
 
 	const articleSchema = await buildArticleSchema({
 		slug,
@@ -136,122 +163,186 @@ export default async function StickerFilesLanguagePage({
 	});
 
 	return (
-		<div className="container-main" id="lighten-text-boxes">
+		<div className="container-main comparison-page">
 			<JsonLd data={articleSchema} />
 			<JsonLd data={breadcrumbSchema} />
 
-			<div className="container-inner">
-				<h1 className="h1-inflation">{heading.toUpperCase()}</h1>
-				{oneClickUrl ? (
-					<a href={oneClickUrl} target="_blank" rel="noopener noreferrer">
-						<div className="bounty-button">
-							{t("print_these")}
-						</div>
-					</a>
-				) : null}
-			</div>
-
-			<div className="break" />
-
-			{/* Mission paragraph — same shared copy as the index page */}
-			<div className="text-box intro sticker-box">
+			{/* ═══ HERO ═══ */}
+			<div className="inflation-section comparison-hero">
 				<div className="container-inner">
-					<div className="break-micro" />
-					<p>
-						<span>{t("common_sticker_files_mission_1")}</span>{" "}
-						<a
-							href={l}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
-							<span>{t("common_sticker_files_mission_2")}</span>
-						</a>{" "}
-						&amp;{" "}
-						<a
-							href={`${l}/inflation`}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
-							<span>{t("common_sticker_files_mission_3")}</span>
-						</a>
-						.
-						<br />
-						<br />
-						<span>{t("common_sticker_files_mission_4")}</span>{" "}
-						<a
-							href={`${l}/stickers`}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
-							<span>{t("common_sticker_files_mission_5")}</span>
-						</a>
-						.
-					</p>
+					<h1>{heading}</h1>
 				</div>
 			</div>
 
-			<div className="break" />
+			{/* ═══ Intro — bordered surface card. English gets a center-
+			    aligned variant that pairs the prose with the StickerMule
+			    1-click CTA button. ═══ */}
+			<div
+				className={`inflation-section comparison-intro${
+					isEnglish ? " comparison-intro--center" : ""
+				}`}
+			>
+				<div className="container-inner">
+					<p className="inflation-intro">
+						<span>{t("common_sticker_files_mission_1")}</span>{" "}
+						<a href={l} className="body-link">
+							<span>{t("common_sticker_files_mission_2")}</span>
+						</a>{" "}
+						&amp;{" "}
+						<a href={`${l}/inflation`} className="body-link">
+							<span>{t("common_sticker_files_mission_3")}</span>
+						</a>
+						.
+					</p>
+					<p className="inflation-intro">
+						<span>{t("common_sticker_files_mission_4")}</span>{" "}
+						<a href={`${l}/stickers`} className="body-link">
+							<span>{t("common_sticker_files_mission_5")}</span>
+						</a>{" "}
+						<span>{t("common_sticker_files_mission_6")}</span>
+					</p>
+					{oneClickUrl ? (
+						<p className="inflation-intro sticker-files-cta-row">
+							<a
+								href={oneClickUrl}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="sticker-files-cta-button"
+							>
+								{t("print_these")}
+							</a>
+						</p>
+					) : null}
+				</div>
+			</div>
 
-			{/* One sticker-card per available design. */}
-			{stickers.map((s) => {
-				const imgSrc = stickerImageUrl(lang, s.slug);
-				return (
-					<div key={s.slug}>
-						<div className="text-box intro sticker-box">
-							<div className="container-inner">
-								<br />
-								<br />
-								<br />
-								<a href={imgSrc}>
+			{/* ═══ One `.sticker-card` per available design ═══ */}
+			<div className="inflation-section sticker-cards-section">
+				<div className="container-inner">
+					{stickers.map((s) => {
+						const imgSrc = stickerImageUrl(lang, s.slug);
+						return (
+							<article key={s.slug} className="sticker-card">
+								<h2 className="sticker-card-name">{t(s.nameKey)}</h2>
+								<a
+									href={imgSrc}
+									className="sticker-card-image-link"
+									aria-label={t(s.nameKey)}
+								>
 									{/* eslint-disable-next-line @next/next/no-img-element */}
-									<img src={imgSrc} alt={s.slug} className="inline" />
+									<img
+										src={imgSrc}
+										alt={t(s.nameKey)}
+										className="sticker-card-image"
+									/>
 								</a>
-
-								<p className="left">
-									<span className="bold">
-										{t("common_stickers_dimensions")}
-									</span>
-									&nbsp;<span>{t(s.dimensionsKey)}</span>
-									<br />
-									<br />
+								<ul className="sticker-card-meta">
+									<li>
+										<span className="sticker-card-meta-label">
+											{t("common_stickers_dimensions")}
+										</span>{" "}
+										<span>{t(s.dimensionsKey)}</span>
+									</li>
 									{s.typeKey ? (
-										<>
-											<span className="bold">
+										<li>
+											<span className="sticker-card-meta-label">
 												{t("common_stickers_type")}
-											</span>
-											&nbsp;<span>{t(s.typeKey)}</span>
-											<br />
-											<br />
-										</>
+											</span>{" "}
+											<span>{t(s.typeKey)}</span>
+										</li>
 									) : null}
-									<span className="bold">
-										{t("common_stickers_material")}
-									</span>
-									&nbsp;<span>{t(s.materialKey)}</span>
-									<br />
-									<br />
-									<span className="bold">
-										{t("common_stickers_where_to_print")}
-									</span>
-									&nbsp;
-									<a
-										href="https://stickermule.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<span>{t("common_stickers_printer")}</span>
-									</a>
-								</p>
-							</div>
-						</div>
+									<li>
+										<span className="sticker-card-meta-label">
+											{t("common_stickers_material")}
+										</span>{" "}
+										<span>{t(s.materialKey)}</span>
+									</li>
+									<li>
+										<span className="sticker-card-meta-label">
+											{t("common_stickers_where_to_print")}
+										</span>{" "}
+										<span>
+											{t("common_stickers_printer_prefix")}{" "}
+											<a
+												href={printerUrl}
+												target="_blank"
+												rel="noopener noreferrer"
+												className="body-link"
+											>
+												{t("common_stickers_printer_name")}
+											</a>{" "}
+											{t("common_stickers_printer_suffix")}
+										</span>
+									</li>
+								</ul>
+							</article>
+						);
+					})}
+				</div>
+			</div>
 
-						<div className="break" />
+			{/* ═══ Sticker tips — bordered card with ✅ bullets ═══ */}
+			<div className="inflation-section sticker-tips-section">
+				<div className="container-inner">
+					<h2 className="sticker-tips-heading">
+						{t("common_sticker_tips_heading")}
+					</h2>
+					<p className="sticker-tips-intro">
+						{t("common_sticker_tips_intro")}
+					</p>
+					<ul className="sticker-tips-list">
+						<li>
+							<span className="sticker-tips-check" aria-hidden="true">
+								✅
+							</span>
+							<span>{t("common_sticker_tips_list_1")}</span>
+						</li>
+						<li>
+							<span className="sticker-tips-check" aria-hidden="true">
+								✅
+							</span>
+							<span>{t("common_sticker_tips_list_2")}</span>
+						</li>
+						<li>
+							<span className="sticker-tips-check" aria-hidden="true">
+								✅
+							</span>
+							<span>{t("common_sticker_tips_list_3")}</span>
+						</li>
+						<li>
+							<span className="sticker-tips-check" aria-hidden="true">
+								✅
+							</span>
+							<span>{t("common_sticker_tips_list_4")}</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			{/* ═══ What's next — 2 link cards ═══ */}
+			<div className="whats-next-section comparison-whats-next">
+				<div className="container-inner">
+					<div className="whats-next-header">
+						<h2>{t("common_whats_next")}</h2>
 					</div>
-				);
-			})}
+					<div className="whats-next-grid">
+						<WhatsNextCard
+							href={`${l}/sticker-files`}
+							label={t("common_sticker_files_next_languages_label")}
+							title={t("common_sticker_files_next_languages_title")}
+							authorKey="common_publisher_name"
+						/>
+						<WhatsNextCard
+							href={`${l}/flyers`}
+							label={t("common_sticker_files_next_flyers_label")}
+							title={t("common_sticker_files_next_flyers_title")}
+							authorKey="common_publisher_name"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<div className="break-micro" />
 		</div>
 	);
 }

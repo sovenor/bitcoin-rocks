@@ -4,16 +4,9 @@
  *
  * The legacy `sticker-files/<language>/` directories store one PNG per
  * (sticker, language) pair named `<slug>-<language>.png`. Metadata — the
- * dimensions + type + material strings — is per-slug (not per-language),
- * and rendered via existing `common_stickers_*` i18n keys so translators
+ * name + dimensions + type + material strings — is per-slug (not per-
+ * language), and rendered via `common_stickers_*` i18n keys so translators
  * don't need to re-translate the same sentence 43× per sticker.
- *
- * Each `StickerVariant` is what the per-language page enumerates as its
- * "available stickers in this language" list.
- *
- * Sticker slugs come from `ls sticker-files/<lang>/` after stripping the
- * `-<lang>.png` suffix. This file is the single source of truth for what
- * a slug means visually + in prose.
  */
 import {
 	STICKER_LANGUAGES,
@@ -27,6 +20,8 @@ import {
 export type StickerKind = {
 	/** URL/file slug, e.g. `bdhi-orange`. */
 	slug: string;
+	/** i18n key for the sticker's display name (the H2 on each card). */
+	nameKey: string;
 	/** i18n key for the "Dimensions: …" text (from `common_en.json`). */
 	dimensionsKey: string;
 	/** i18n key for the "Type: …" text (die-cut, etc). `null` → no type row. */
@@ -41,49 +36,62 @@ export type StickerKind = {
  * Extra slugs produced by one-off language variants (e.g. Swedish's
  * `cure-inflation-v2-fixed`, `got-inflation-fixed`) alias onto the same
  * metadata as their base slug.
+ *
+ * The V1 pill-bottle "Cure Inflation" design is retired — its slug
+ * `cure-inflation` is no longer listed in any language's availability
+ * set, so the catalog entry is kept only for historical image lookups.
  */
 export const STICKER_KINDS: Record<string, StickerKind> = {
 	// V2 designs (launched later; most languages have these)
 	"bdhi-orange": {
 		slug: "bdhi-orange",
+		nameKey: "common_sticker_name_bdhi_orange",
 		dimensionsKey: "common_stickers_dimensions_bdhi",
 		typeKey: null,
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"bdhi-black": {
 		slug: "bdhi-black",
+		nameKey: "common_sticker_name_bdhi_black",
 		dimensionsKey: "common_stickers_dimensions_bdhi",
 		typeKey: null,
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"cure-inflation-v2": {
 		slug: "cure-inflation-v2",
+		nameKey: "common_sticker_name_cure_inflation",
 		dimensionsKey: "common_stickers_dimensions_cure_v2",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"got-inflation": {
 		slug: "got-inflation",
+		nameKey: "common_sticker_name_got_inflation",
 		dimensionsKey: "common_stickers_dimensions_got_inflation",
 		typeKey: null,
 		materialKey: "common_stickers_material_vinyl",
 	},
 
-	// V1 / legacy designs (kept for historical languages that already have PNGs)
+	// V1 / legacy designs (kept for historical languages that already have PNGs).
+	// NOTE: the V1 pill-bottle `cure-inflation` is retired — its availability
+	// entries have all been removed. Kept here for backward-compat image lookups.
 	"cure-inflation": {
 		slug: "cure-inflation",
+		nameKey: "common_sticker_name_cure_inflation",
 		dimensionsKey: "common_stickers_dimensions_cure_v2",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"study-bitcoin": {
 		slug: "study-bitcoin",
+		nameKey: "common_sticker_name_study",
 		dimensionsKey: "common_stickers_dimensions_study",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	study: {
 		slug: "study",
+		nameKey: "common_sticker_name_study",
 		dimensionsKey: "common_stickers_dimensions_study",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
@@ -92,30 +100,35 @@ export const STICKER_KINDS: Record<string, StickerKind> = {
 	// English-exclusive extra designs
 	fix: {
 		slug: "fix",
+		nameKey: "common_sticker_name_fix",
 		dimensionsKey: "common_stickers_dimensions_fix",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"sticker-danger": {
 		slug: "sticker-danger",
+		nameKey: "common_sticker_name_danger",
 		dimensionsKey: "common_stickers_dimensions_danger",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"sticker-warning": {
 		slug: "sticker-warning",
+		nameKey: "common_sticker_name_warning",
 		dimensionsKey: "common_stickers_dimensions_warning",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"sticker-caution": {
 		slug: "sticker-caution",
+		nameKey: "common_sticker_name_caution",
 		dimensionsKey: "common_stickers_dimensions_caution",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"what-if": {
 		slug: "what-if",
+		nameKey: "common_sticker_name_what_if",
 		dimensionsKey: "common_stickers_dimensions_what_if",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
@@ -127,12 +140,14 @@ export const STICKER_KINDS: Record<string, StickerKind> = {
 	// separate cards so the file set on disk matches what's displayed.
 	"cure-inflation-v2-fixed": {
 		slug: "cure-inflation-v2-fixed",
+		nameKey: "common_sticker_name_cure_inflation",
 		dimensionsKey: "common_stickers_dimensions_cure_v2",
 		typeKey: "common_stickers_type_die_cut",
 		materialKey: "common_stickers_material_vinyl",
 	},
 	"got-inflation-fixed": {
 		slug: "got-inflation-fixed",
+		nameKey: "common_sticker_name_got_inflation",
 		dimensionsKey: "common_stickers_dimensions_got_inflation",
 		typeKey: null,
 		materialKey: "common_stickers_material_vinyl",
@@ -154,30 +169,28 @@ const ORDER: ReadonlyArray<string> = [
 	"bdhi-black",
 	"cure-inflation-v2",
 	"cure-inflation-v2-fixed",
-	"cure-inflation",
 	"got-inflation",
 	"got-inflation-fixed",
 	"what-if",
 ];
 
 /**
- * Per-language override map. Filesystem scan drives this; each language lists
- * only the sticker slugs that have a corresponding `<slug>-<lang>.png` file.
- *
- * Generated by `scripts/phase11/build-catalog.js` from the filesystem state
- * and embedded here so it ships in the bundle (no runtime `fs.readdir`).
+ * Per-language override map. Each language lists only the sticker slugs that
+ * should render on its page. The retired V1 `cure-inflation` pill-bottle
+ * design has been removed from every list — its PNGs stay on disk for link
+ * back-compat but the card is no longer rendered.
  */
 export const STICKER_AVAILABILITY: Record<string, ReadonlyArray<string>> = {
-	afrikaans: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation", "study-bitcoin"],
-	arabic: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	afrikaans: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation", "study-bitcoin"],
+	arabic: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	basque: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
-	bulgarian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	catalan: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	chinese: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	croatian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	czech: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	danish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	dutch: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	bulgarian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	catalan: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	chinese: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	croatian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	czech: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	danish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	dutch: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	english: [
 		"sticker-danger",
 		"sticker-warning",
@@ -187,50 +200,48 @@ export const STICKER_AVAILABILITY: Record<string, ReadonlyArray<string>> = {
 		"bdhi-orange",
 		"bdhi-black",
 		"cure-inflation-v2",
-		"cure-inflation",
 		"got-inflation",
 		"what-if",
 	],
 	estonian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	filipino: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
-	finnish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	french: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	german: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	greek: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	hausa: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	hebrew: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	finnish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	french: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	german: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	greek: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	hausa: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	hebrew: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	hindi: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
-	hungarian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	indonesian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	irish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	italian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	japanese: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	hungarian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	indonesian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	irish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	italian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	japanese: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	korean: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
-	malay: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	norwegian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	persian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	polish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	portuguese: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	russian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	sinhala: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	malay: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	norwegian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	persian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	polish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	portuguese: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	russian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	sinhala: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	slovak: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation", "study"],
-	slovenian: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	spanish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	swahili: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
+	slovenian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	spanish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	swahili: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	swedish: [
 		"bdhi-black",
 		"bdhi-orange",
-		"cure-inflation",
 		"cure-inflation-v2-fixed",
 		"cure-inflation-v2",
 		"got-inflation-fixed",
 		"got-inflation",
 	],
-	thai: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	turkish: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	urdu: ["bdhi-black", "bdhi-orange", "cure-inflation", "cure-inflation-v2", "got-inflation"],
-	vietnamese: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "cure-inflation", "got-inflation"],
-	yoruba: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "cure-inflation", "got-inflation"],
+	thai: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	turkish: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	urdu: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	vietnamese: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
+	yoruba: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 };
 
 /** Sort slugs into canonical display order. */
