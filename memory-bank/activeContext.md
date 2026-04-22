@@ -1,4 +1,56 @@
-## Latest: /wallets V2 redesign — April 22, 2026
+## Latest: /compound-inflation-calculator V2 redesign — April 22, 2026
+
+`/compound-inflation-calculator` was still on the V1 design system (centered `.back-to-home` logo link, `.h1-inflation` single-line uppercase header, V1 `.text-box.intro` wrappers, legacy `compound-form` with `.form-box` + `.cic-button` + `.break-tiny-compound` spacers, V1 `.h2-section`/`.h3-item` CTA card). Ported it into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/bank-runs`, `/about`, `/get-involved`, and all ten `/bitcoin-vs-*` pages.
+
+### What changed
+
+1. **Hero.** Replaced the V1 back-to-home logo + `.h1-inflation` header with a plain `<h1>` ("Compound Inflation Calculator") + a `.home-hero`-style intro paragraph. New translation key `cic_hero_subtitle` adds a one-line lead-in under the H1.
+
+2. **Intro card.** The three-paragraph "Many people know about compound interest…" blurb now renders inside a `.wallet-intro` bordered surface card (same chrome as /wallets, /lightning, /flyers intro cards).
+
+3. **V2 calculator form.** Fully rewrote the form visual treatment. New `.cic-*` CSS namespace in `app/globals.css` §9:
+    - `.cic-fields` — 3-column grid on desktop, stacks on mobile.
+    - `.cic-field` — label + input pair.
+    - `.cic-label` — 12px uppercase eyebrow (matches stat-card label).
+    - `.cic-input` — dark-surface, subtle-border, orange-focus-ring, 12px radius. Inflation-rate input gets an absolutely-positioned `%` suffix via `.cic-input-wrap` + `.cic-input-suffix`.
+    - `.cic-submit` — solid Bitcoin-orange CTA, full-width on mobile.
+    - `.cic-result` — bordered surface-tinted paragraph with 3 tone modifiers: `--neutral` (idle starting message, muted italic), `--highlight` (successful calc, orange border + tinted background, embedded `<strong class="cic-result-value">` values, and `.cic-result-value--emphasis` orange for the emphasized "new salary" number), `--error` (validation failure, danger red).
+    - Form input lives inside a second `.wallet-intro` surface card for visual consistency with the intro card above.
+
+4. **Inflation CTA.** Replaced the V1 `.text-box.solo` + `.h2-section` + `.h3-item` "What can I do about inflation? → Opt Out of Inflation with Bitcoin" card with a `.wallet-lightning-cta`-style single-row surface card pointing to `/inflation?link=calculator` (keeps the existing `?link=calculator` query param so the /inflation page's `<DynamicHeader>` still picks up the referral).
+
+5. **What's next grid.** Added a standard V2 `<WhatsNextCard>` grid with 4 cards (Learn how inflation works → `/inflation`, Get a wallet → `/wallets`, Buy Bitcoin → `/buy`, Explore more topics → `/`).
+
+6. **Sources + publisher attribution.** Added a new `.sources-section` listing the 4 authoritative CPI + M1 citations (BLS CPI, FRED CPIAUCSL, FRED M1SL, FRED Money Supply category). Standard `.publisher-attribution` with the reviewed-for-accuracy badge closes the page.
+
+7. **Schemas.** Kept Article + BreadcrumbList JSON-LD; Article now carries `citations[]` pointing at BLS + FRED so the calculator page inherits the same GEO-friendly sourcing block the /inflation page uses.
+
+8. **Result formatting.** The Client Component now wraps the formatted salary values in `<strong class="cic-result-value">…</strong>`, with the "new salary" number additionally carrying `cic-result-value--emphasis` for an orange highlight. Makes the numeric takeaway pop visually without re-keying any translation strings.
+
+### Files changed
+
+```
+components/CompoundInflationCalculator.tsx           (V2 rewrite — `.cic-*` class namespace, tone-aware result paragraph, stronger emphasis markup)
+components/CompoundInflationCalculatorSolo.tsx       (unchanged — thin pin-to-USD wrapper)
+app/[locale]/compound-inflation-calculator/page.tsx  (full V2 rewrite — hero, intro card, calculator card, inflation CTA, what's next, sources, publisher)
+app/globals.css                                       (new §9 — `.cic-section`, `.cic-heading`, `.cic-form`, `.cic-fields`, `.cic-field`, `.cic-label`, `.cic-input` + `.cic-input--suffix`, `.cic-input-wrap`, `.cic-input-suffix`, `.cic-submit`, `.cic-result` + 3 tone modifiers, `.cic-result-value` + emphasis)
+i18n/en/compound-inflation-calculator_en.json         (sentence-cased `cic_header` + `cic_inflation_cta`, added `cic_hero_subtitle`, `cic_calculator_heading`, `cic_cta_label`, `cic_next_learn_inflation`, `cic_next_explore_topics`, `cic_next_explore_topics_desc`; bumped @metadata.last-updated)
+V2-REDESIGN-CHECKLIST.md                              (flipped CompoundInflationCalculator + CompoundInflationCalculatorSolo + /compound-inflation-calculator to [x]; updated summary counts)
+memory-bank/activeContext.md                          (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 uppercase values for `cic_header` + `cic_inflation_cta`, and the six new keys fall back to English. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- `/inflation` still mounts `<CompoundInflationCalculator>` per-currency inside each `<CurrencySection>` block. The inflation page already runs the V2 design system so the new `.cic-*` styling will apply cleanly there as well — the per-currency calculators now pick up the same bordered-form look automatically.
+
+---
+
+## Previous: /wallets V2 redesign — April 22, 2026
 
 `/wallets` was still on the V1 design system (gray `.wallet-box` cards, orange-pill accordion headers via `<p class="wallet-q">`, old meta bars with `alert-check-v2.png` raster icons, V1 Get Started CTAs at the bottom). Ported it into the V2 design system used across `/`, `/inflation`, `/bank-runs`, `/about`, `/get-involved`, and all ten `/bitcoin-vs-*` pages.
 

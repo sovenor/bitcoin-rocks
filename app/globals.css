@@ -1927,4 +1927,198 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 }
 
 
+/* ═══════════════════════════════════════════════════════════════════
+   9. COMPOUND INFLATION CALCULATOR — V2 design system.
+   Owns: `.cic-section`, `.cic-heading`, `.cic-form`, `.cic-fields`,
+   `.cic-field`, `.cic-label`, `.cic-input`, `.cic-input-wrap`,
+   `.cic-input-suffix`, `.cic-submit`, `.cic-result` (+ tone modifiers),
+   `.cic-result-value`. Reuses `.wallet-intro` for surface card chrome,
+   `.home-hero`, `.wallet-lightning-cta`, `.whats-next-section`,
+   `.sources-section`, and `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Thin spacer on the surface cards so they stack with breathing room
+   without the big inflation-section gap. Mirrors `.flyer-section`. */
+.cic-section {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/* Section heading inside a calculator surface card. Inherits from the
+   element-level h2 rule (28px / 22px mobile, white, left-aligned); we
+   only tighten vertical rhythm so the heading hugs the form below it. */
+.cic-heading {
+	margin: 0 0 20px 0;
+}
+
+/* Form wrapper — stacks the 3 input fields then the submit button. */
+.cic-form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+/* 3-up field grid on desktop; stacks on mobile. Each cell is a
+   label + input pair (`.cic-field`). */
+.cic-fields {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 14px;
+}
+@media (max-width: 700px) {
+	.cic-fields {
+		grid-template-columns: 1fr;
+	}
+}
+
+.cic-field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+/* Uppercase eyebrow-style label above each input, matches the
+   small-caps treatment on stat cards + wallet-callouts elsewhere. */
+.cic-label {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+}
+
+/* Core input field — dark surface, subtle border, orange focus ring.
+   `type=number` still gets the native spinner on most browsers, which
+   is fine/expected for a money-input experience. */
+.cic-input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	color: var(--color-fg);
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	transition: border-color 0.2s, background-color 0.2s;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cic-input::placeholder {
+	color: var(--color-fg-dimmer);
+	font-weight: 400;
+}
+.cic-input:hover {
+	border-color: rgba(255, 149, 0, 0.35);
+}
+.cic-input:focus {
+	outline: none;
+	border-color: var(--color-bitcoin-orange);
+	background: var(--color-bg);
+}
+
+/* Wrap for an input with an inline suffix (e.g. the `%` on the
+   inflation-rate field). Suffix sits absolutely positioned on the
+   right so the text and the caret still use the full input width. */
+.cic-input-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.cic-input--suffix {
+	padding-right: 36px;
+}
+.cic-input-suffix {
+	position: absolute;
+	right: 14px;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+	font-family: var(--font-proxima);
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--color-fg-dim);
+}
+
+/* Primary CTA — solid Bitcoin-orange fill, full-width at every
+   breakpoint so it visually anchors the form. */
+.cic-submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 16px 28px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	cursor: pointer;
+	user-select: none;
+	transition: background-color 0.2s, transform 0.15s;
+}
+.cic-submit:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+.cic-submit:active {
+	transform: translateY(0);
+}
+
+
+/* Result paragraph — sits below the form in a bordered surface-tinted
+   block so it reads as the calculator's output. Tones:
+     .cic-result--neutral  — idle starting message (muted grey)
+     .cic-result--highlight — after a successful calculation (white body,
+                              orange strong-highlighted numbers)
+     .cic-result--error     — validation failure (danger red) */
+.cic-result {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	margin: 20px 0 0 0 !important;
+	padding: 18px 20px;
+	border-radius: 14px;
+	border: 1px dashed var(--color-card-border);
+	background: rgba(255, 255, 255, 0.02);
+	transition: border-color 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.cic-result--neutral {
+	color: var(--color-fg-dim);
+	font-style: italic;
+}
+.cic-result--highlight {
+	color: var(--color-fg-muted);
+	border-style: solid;
+	border-color: rgba(255, 149, 0, 0.35);
+	background: rgba(255, 149, 0, 0.06);
+	font-style: normal;
+}
+.cic-result--error {
+	color: var(--color-danger);
+	border-style: solid;
+	border-color: rgba(255, 68, 68, 0.45);
+	background: rgba(255, 68, 68, 0.06);
+	font-style: normal;
+}
+.cic-result-value {
+	color: var(--color-fg);
+	font-weight: 700;
+	white-space: nowrap;
+}
+.cic-result-value--emphasis {
+	color: var(--color-bitcoin-orange);
+}
+
+
 

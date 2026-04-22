@@ -4,27 +4,29 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
 /**
- * CompoundInflationCalculator — Client Component port of
- * `jquery/compound-inflation-calculator.js` (per-currency variant, used
- * inside each currency's `/inflation` section) AND the shape of
- * `compound-inflation-calculator-solo.js` when `currency: "USD"` is
- * passed with `idSuffix: ""`.
+ * CompoundInflationCalculator — V2 redesign.
+ *
+ * Client Component port of `jquery/compound-inflation-calculator.js`
+ * (per-currency variant, used inside each currency's `/inflation`
+ * section) AND `compound-inflation-calculator-solo.js` when
+ * `currency: "USD"` + `idSuffix: ""` is passed (solo standalone page).
  *
  * Takes 3 user inputs (salary, inflation %, years) and computes:
  *   newSalary = salary × (1 + inflationRate/100) ^ years
  *
  * Formatting uses `Intl.NumberFormat(locale, { style: "currency", currency })`.
- * The legacy script chose `numberLocale` based on whether the browser
- * language matched the stored UI language; we simplify by just using
- * next-intl's active `useLocale()` so the output uses the same locale the
- * user is currently reading the site in.
+ * We use next-intl's active `useLocale()` for the formatter so the
+ * output uses the same locale the user is reading the site in.
  *
  * `idSuffix` is appended to the DOM ids so multiple calculators can
  * coexist on one page (e.g. inflation.html had per-currency calculator
  * blocks with `currentSalaryCAD`, `inflationRateCAD`, etc). The solo
  * variant passes `idSuffix=""` to use `currentSalary`/`inflationRate`/
- * `years`/`result` (matching legacy behavior + anchor fragments like
- * `#calculator`).
+ * `years`/`result` (matches legacy anchor fragments like `#calculator`).
+ *
+ * Visual treatment: V2 design system (cic-* class namespace defined in
+ * globals.css §9) — bordered surface fields, Bitcoin-orange submit
+ * button, result line sized like `.inflation-section p`.
  */
 
 export type CompoundInflationCalculatorProps = {
@@ -69,12 +71,16 @@ export function CompoundInflationCalculator({
 	// (`&nbsp;`) to produce a single prose paragraph. React strips
 	// `&nbsp;` from text nodes; embedding as HTML preserves them 1:1.
 	const [resultHtml, setResultHtml] = useState<string | null>(null);
+	const [resultTone, setResultTone] = useState<"neutral" | "highlight" | "error">(
+		"neutral",
+	);
 
 	const id = (base: string) => `${base}${idSuffix}`;
 
 	function handleCalculate() {
 		if (salary === "" || rate === "" || years === "") {
 			setResultHtml(escapeHtml(t("common_error_message")));
+			setResultTone("error");
 			return;
 		}
 
@@ -88,6 +94,7 @@ export function CompoundInflationCalculator({
 			!Number.isFinite(yearsNum)
 		) {
 			setResultHtml(escapeHtml(t("common_error_message")));
+			setResultTone("error");
 			return;
 		}
 
@@ -110,11 +117,11 @@ export function CompoundInflationCalculator({
 			"% ",
 			escapeHtml(t("common_result_message_2")),
 			"&nbsp;",
-			escapeHtml(dollarSalary),
+			`<strong class="cic-result-value">${escapeHtml(dollarSalary)}</strong>`,
 			"&nbsp;",
 			escapeHtml(t("common_result_message_3")),
 			"&nbsp;",
-			escapeHtml(newSalary),
+			`<strong class="cic-result-value cic-result-value--emphasis">${escapeHtml(newSalary)}</strong>`,
 			"&nbsp;",
 			escapeHtml(t("common_result_message_in")),
 			"&nbsp;",
@@ -126,80 +133,88 @@ export function CompoundInflationCalculator({
 		];
 
 		setResultHtml(parts.join(""));
+		setResultTone("highlight");
 	}
 
 	const startingMessage = t("common_result_starting_message");
+	const currentResult = resultHtml ?? escapeHtml(startingMessage);
+	const resultClassName = `cic-result cic-result--${resultTone}`;
 
 	return (
 		<>
 			<form
-				className="compound-form"
+				className="cic-form"
 				onSubmit={(e) => {
 					e.preventDefault();
 					handleCalculate();
 				}}
 			>
-				<div className="form-box">
-					<label className="compound-label" htmlFor={id("currentSalary")}>
-						{t("common_current_salary")}
-					</label>
-					<div className="break-tiny-compound" />
-					<input
-						id={id("currentSalary")}
-						className="compound"
-						type="number"
-						placeholder={String(salaryPlaceholder)}
-						value={salary}
-						onChange={(e) => setSalary(e.target.value)}
-						inputMode="decimal"
-					/>
+				<div className="cic-fields">
+					<div className="cic-field">
+						<label className="cic-label" htmlFor={id("currentSalary")}>
+							{t("common_current_salary")}
+						</label>
+						<input
+							id={id("currentSalary")}
+							className="cic-input"
+							type="number"
+							placeholder={String(salaryPlaceholder)}
+							value={salary}
+							onChange={(e) => setSalary(e.target.value)}
+							inputMode="decimal"
+						/>
+					</div>
+
+					<div className="cic-field">
+						<label className="cic-label" htmlFor={id("inflationRate")}>
+							{t("common_inflation_rate")}
+						</label>
+						<div className="cic-input-wrap">
+							<input
+								id={id("inflationRate")}
+								className="cic-input cic-input--suffix"
+								type="number"
+								placeholder={String(ratePlaceholder)}
+								value={rate}
+								onChange={(e) => setRate(e.target.value)}
+								inputMode="decimal"
+							/>
+							<span className="cic-input-suffix" aria-hidden="true">
+								%
+							</span>
+						</div>
+					</div>
+
+					<div className="cic-field">
+						<label className="cic-label" htmlFor={id("years")}>
+							{t("common_years")}
+						</label>
+						<input
+							id={id("years")}
+							className="cic-input"
+							type="number"
+							placeholder={String(yearsPlaceholder)}
+							value={years}
+							onChange={(e) => setYears(e.target.value)}
+							inputMode="decimal"
+						/>
+					</div>
 				</div>
 
-				<div className="form-box middle-form-box">
-					<label className="compound-label" htmlFor={id("inflationRate")}>
-						{t("common_inflation_rate")}
-					</label>
-					<div className="break-tiny-compound" />
-					<input
-						id={id("inflationRate")}
-						className="compound"
-						type="number"
-						placeholder={String(ratePlaceholder)}
-						value={rate}
-						onChange={(e) => setRate(e.target.value)}
-						inputMode="decimal"
-					/>
-				</div>
-
-				<div className="form-box last-form-box">
-					<label className="compound-label" htmlFor={id("years")}>
-						{t("common_years")}
-					</label>
-					<div className="break-tiny-compound" />
-					<input
-						id={id("years")}
-						className="compound"
-						type="number"
-						placeholder={String(yearsPlaceholder)}
-						value={years}
-						onChange={(e) => setYears(e.target.value)}
-						inputMode="decimal"
-					/>
-				</div>
-
-				<input
+				<button
 					id={id("calculateButton")}
-					className="cic-button calculateButton"
+					className="cic-submit"
 					type="submit"
-					value={t("common_calculate_button_text")}
-				/>
+				>
+					{t("common_calculate_button_text")}
+				</button>
 			</form>
 
 			<p
 				id={id("result")}
-				dangerouslySetInnerHTML={{
-					__html: resultHtml ?? escapeHtml(startingMessage),
-				}}
+				className={resultClassName}
+				aria-live="polite"
+				dangerouslySetInnerHTML={{ __html: currentResult }}
 			/>
 		</>
 	);
@@ -207,7 +222,7 @@ export function CompoundInflationCalculator({
 
 // Small helper — translation strings are plain text, not HTML, so escape
 // before injecting into the result block (`dangerouslySetInnerHTML` is
-// used only to preserve `&nbsp;` spacers emitted by our own code).
+// used to preserve `&nbsp;` spacers + our own `<strong>` emphasis tags).
 function escapeHtml(s: string): string {
 	return s
 		.replace(/&/g, "&amp;")
