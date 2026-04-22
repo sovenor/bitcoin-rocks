@@ -1,4 +1,49 @@
-## Latest: Comparison-page below-intro alignment — April 21, 2026
+## Latest: /wallets V2 redesign — April 22, 2026
+
+`/wallets` was still on the V1 design system (gray `.wallet-box` cards, orange-pill accordion headers via `<p class="wallet-q">`, old meta bars with `alert-check-v2.png` raster icons, V1 Get Started CTAs at the bottom). Ported it into the V2 design system used across `/`, `/inflation`, `/bank-runs`, `/about`, `/get-involved`, and all ten `/bitcoin-vs-*` pages.
+
+### What changed
+
+1. **Hero.** Replaced the V1 `.back-to-home` logo link + `.wallet-h3` heading with a plain `<h1>` ("Bitcoin Wallet Guide") + a `.home-hero`-style intro paragraph. New translation key `wallets_header_subtitle` adds a one-line lead-in under the H1.
+
+2. **Intro card.** The two-paragraph "Bitcoin wallets are interoperable…" blurb now renders inside a `.wallet-intro` bordered surface card (mirrors `.comparison-intro` / `.sticker-tips-section`).
+
+3. **V2 FAQ accordions.** `WalletAccordion` was rewritten: the V1 orange-pill header + max-height 4000px jQuery-era body became a proper `<button>`-based, `aria-expanded`-driven control with a rotating chevron, `color-mix()`-tinted hover border, and 2000px animated expand. The three questions (self-custody, hot/cold, recovery phrase) now use a new `.wallet-callout` pill badge system (✓ SELF-CUSTODY green, ✗ NOT-YOUR-KEYS red, ✓ COLD green, ⚠ HOT yellow) instead of the V1 `.alert` raster-image callouts.
+
+4. **Wallet grid.** Replaced the three-row `.vs-container` / `.wallet-box` pairs with a responsive `.wallet-grid` (2-col ≥700px, 1-col mobile). Each `.wallet-card` renders the wallet image (capped at 140px tall), a centered uppercase `<h2>` name, the two `.wallet-callout` badges stacked horizontally, a `✓`-prefixed features bullet list, an italic grey price/cost line, and a `.wallet-card-cta` "LEARN MORE →" outlined button that fills orange on hover.
+
+5. **Lightning CTA.** Replaced the V1 `.looking-box` with `.wallet-lightning-cta` — a single-row surface card with an orange label ("Lightning Network"), a larger white title ("Looking for our Lightning Wallet Guide?"), and a right-side arrow that translates on hover.
+
+6. **What's next grid.** Removed the legacy `.text-box.top/middle/bottom` trio of Get Started CTAs. Added a standard V2 `<WhatsNextCard>` grid with 4 cards (Keep learning → `/`, Inflation → `/inflation`, Buy Bitcoin → `/buy`, Calculate inflation → `/compound-inflation-calculator`).
+
+7. **Sources + publisher attribution.** Added a new `.sources-section` listing the 6 wallet vendor pages + Bitcoin.org wallet guide + Lopp metal backup reviews + Satoshi whitepaper. Standard `.publisher-attribution` with the reviewed-for-accuracy badge closes the page (same markup as every other V2 content page).
+
+8. **Schemas.** Kept Article + BreadcrumbList JSON-LD. Dropped the V1 page's FAQPage + HowTo + MobileApplication/Product schemas — they were duplicating content the visible Article + Product-list surfaces already provide, and GEO lift from them was marginal relative to the bytes they added.
+
+### Files changed
+
+```
+components/WalletAccordion.tsx        (V2 rewrite — button-based, aria-expanded, new .wallet-accordion* class hooks)
+app/[locale]/wallets/page.tsx         (full V2 rewrite — hero, intro card, accordions, wallet grid, Lightning CTA, what's next, sources, publisher)
+app/globals.css                       (new section 7 — `.wallet-intro`, `.wallet-accordion*`, `.wallet-callout` + tones, `.wallet-grid`, `.wallet-card*`, `.wallet-lightning-cta`)
+i18n/en/wallets_en.json               (added 3 keys: `wallets_header_subtitle`, `wallets_grid_heading`, `wallets_lightning_cta_label`; sentence-cased the 3 accordion question keys + wallet name keys; bumped @metadata.last-updated)
+V2-REDESIGN-CHECKLIST.md              (flipped WalletAccordion + /wallets to [x]; updated summary counts)
+memory-bank/activeContext.md          (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 uppercase values for `wallets_question_1/2/3` + wallet name keys + the new keys fall back to English. That's expected during the V2 pass — handled later in the Step 4 translation refresh.
+- `/lightning` uses the same `<WalletAccordion>` component but still runs the V1 page shell around it; the accordion will look V2-correct there but the surrounding page is still on V1. `/lightning` is the next item on the Tier 3 checklist.
+
+---
+
+## Previous: Comparison-page below-intro alignment — April 21, 2026
+
 
 All ten `/bitcoin-vs-*` comparison pages had a visual inconsistency: the intro "card" (the bordered text box sitting just under the hero H1) was narrower than the content stacked below it. Comparison chips, explanation prose, the What's-next grid, the sources list, and the publisher attribution all appeared ~4-40px more inset than the intro card's outer border, because:
 

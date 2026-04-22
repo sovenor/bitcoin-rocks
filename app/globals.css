@@ -1411,3 +1411,402 @@ a.sticker-files-cta-button:hover {
 	text-align: center;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   7. WALLETS PAGE — V2 design system.
+   Owns: `.wallet-intro-card`, `.wallet-accordion*`, `.wallet-callout`,
+   `.wallet-callout-list`, `.wallet-grid`, `.wallet-card*`,
+   `.wallet-badge*`, `.wallet-card-features`, `.wallet-card-cta`,
+   `.wallet-lightning-cta`. Reuses `.inflation-section`, `.whats-next-
+   section`, `.sources-section`, and `.publisher-attribution` above.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Intro card: the "How wallets work + pick the right one" blurb at
+   the top of the page, above the accordions. Mirrors `.comparison-
+   intro` but with left-aligned prose. ─────────────────────────────── */
+.wallet-intro {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.wallet-intro .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.wallet-intro p {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: var(--color-fg-muted);
+	margin: 0 0 16px 0;
+}
+.wallet-intro p:last-child {
+	margin-bottom: 0;
+}
+
+/* ── Accordion (V2 FAQ-style) ──────────────────────────────────────
+   Rendered by `<WalletAccordion>`. The header is a button for proper
+   keyboard a11y; the body animates via max-height. Inside the body
+   we reuse the shared `.comparison-explain` prose styles + the
+   `.wallet-callout` badges below. */
+
+.wallet-accordions {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 20px;
+}
+
+.wallet-accordion {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	overflow: hidden;
+	transition: border-color 0.2s;
+}
+.wallet-accordion.is-open {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+
+button.wallet-accordion-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px 24px;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	text-align: left;
+	color: var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 0.02em;
+	transition: color 0.2s;
+}
+button.wallet-accordion-header:hover {
+	color: var(--color-link-hover);
+}
+
+.wallet-accordion-question {
+	flex: 1;
+	padding-right: 12px;
+	text-transform: uppercase;
+}
+@media (max-width: 700px) {
+	button.wallet-accordion-header {
+		padding: 18px 20px;
+		font-size: 16px;
+	}
+}
+
+.wallet-accordion-chevron {
+	flex-shrink: 0;
+	font-size: 14px;
+	color: var(--color-bitcoin-orange);
+	transition: transform 0.3s ease;
+}
+.wallet-accordion.is-open .wallet-accordion-chevron {
+	transform: rotate(180deg);
+}
+
+.wallet-accordion-body {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.35s ease;
+}
+.wallet-accordion.is-open .wallet-accordion-body {
+	max-height: 2000px;
+}
+
+.wallet-accordion-body-inner {
+	padding: 4px 24px 24px 24px;
+	border-top: 1px solid var(--color-card-border);
+	padding-top: 20px;
+}
+@media (max-width: 700px) {
+	.wallet-accordion-body-inner {
+		padding: 20px 20px 22px;
+	}
+}
+
+/* Prose inside an accordion body. Same sizing as `.comparison-explain p`. */
+.wallet-accordion-body-inner p {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 28px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+.wallet-accordion-body-inner p:last-child {
+	margin-bottom: 0;
+}
+
+/* Inline orange-underline link inside an accordion body. */
+.wallet-accordion-body-inner a.body-link {
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.wallet-accordion-body-inner a.body-link:hover {
+	color: var(--color-link-hover);
+}
+
+/* ── Callout pill (SELF-CUSTODY ✓ / NOT-YOUR-KEYS ✗ / COLD ✓ / HOT ⚠) —
+   Used inline inside an accordion body and inside a wallet card as a
+   small semantic badge. Color comes from `--callout-color` which each
+   tone modifier sets below. ───────────────────────────────────────── */
+.wallet-callout {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 14px;
+	border-radius: 999px;
+	border: 1px solid
+		color-mix(in srgb, var(--callout-color, var(--color-bitcoin-orange)) 45%, transparent);
+	background: color-mix(
+		in srgb,
+		var(--callout-color, var(--color-bitcoin-orange)) 12%,
+		var(--color-surface)
+	);
+	color: var(--callout-color, var(--color-bitcoin-orange));
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.wallet-callout-icon {
+	font-size: 13px;
+	line-height: 1;
+}
+.wallet-callout.good    { --callout-color: var(--color-success); }
+.wallet-callout.warn    { --callout-color: #ffb84d; }
+.wallet-callout.danger  { --callout-color: var(--color-danger); }
+
+/* Wraps two consecutive callouts (e.g. "SELF-CUSTODY" + "HOT WALLET")
+   with a tight gap above the paragraphs that describe them. */
+.wallet-callouts-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 14px;
+}
+
+/* ── Wallet grid (6 cards, 2-col desktop / 1-col mobile) ──────────── */
+.wallet-grid-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.wallet-grid-heading {
+	/* h2 element-level rule gives us 28px / 700. Only tighten spacing
+	   around the grid so the cards hug visually. */
+	margin: 0 0 16px 4px;
+}
+.wallet-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 0;
+}
+@media (max-width: 700px) {
+	.wallet-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* The entire card is now an anchor — the inner `.wallet-card-cta` is a
+   styled <span> (HTML forbids nested anchors). Anchor resets on the card
+   strip inherited link styling so the internal heading/paragraphs look
+   identical to when the card was a <div>. Whole-card hover promotes the
+   fake-CTA's appearance so affordance stays visible. */
+a.wallet-card {
+	display: flex;
+	flex-direction: column;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 20px;
+	padding: 28px 24px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.wallet-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.wallet-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+
+
+.wallet-card-image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 140px;
+	margin-bottom: 16px;
+}
+.wallet-card-image {
+	max-height: 140px;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+.wallet-card-name {
+	/* Override the site-wide h2 element rule (28px/700 left) to a
+	   slightly smaller, centered treatment that works better inside a
+	   card. */
+	font-family: var(--font-proxima);
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	margin: 0 0 14px 0;
+}
+
+.wallet-card-badges {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 18px;
+}
+
+.wallet-card-features {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 22px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex: 1;
+}
+.wallet-card-features li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.wallet-card-feature-check {
+	flex-shrink: 0;
+	color: var(--color-success);
+	font-weight: 700;
+	line-height: 22px;
+}
+
+/* Price highlight inside the feature list — italic, small, muted
+   (e.g. "Costs $79"). */
+.wallet-card-feature-price {
+	color: var(--color-fg-dim);
+	font-style: italic;
+}
+
+/* `.wallet-card-cta` is rendered as a `<span>` (the whole card is the
+   anchor — nested `<a>` isn't valid). Styled to look like an outlined
+   button. Hovering the *parent card* promotes it to the filled variant
+   so the affordance stays visible anywhere on the card. */
+.wallet-card-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	align-self: stretch;
+	padding: 12px 18px;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.2s, color 0.2s;
+}
+.wallet-card-cta::after {
+	content: "→";
+	transition: transform 0.2s;
+}
+a.wallet-card:hover .wallet-card-cta {
+	background: var(--color-bitcoin-orange);
+	color: #ffffff;
+}
+a.wallet-card:hover .wallet-card-cta::after {
+	transform: translateX(3px);
+}
+
+
+/* ── Lightning CTA strip — a single full-width card linking to
+   /lightning, visually tied to the wallet cards above but distinct
+   (no image, just a label + title + arrow). ───────────────────────── */
+a.wallet-lightning-cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 24px 28px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 20px;
+	text-decoration: none;
+	color: var(--color-fg);
+	margin: 12px 0;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.wallet-lightning-cta:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+.wallet-lightning-cta-label {
+	font-family: var(--font-proxima);
+	font-weight: 600;
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-bitcoin-orange);
+	margin-bottom: 6px;
+}
+.wallet-lightning-cta-title {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.3;
+	color: var(--color-fg);
+}
+.wallet-lightning-cta-arrow {
+	flex-shrink: 0;
+	font-size: 22px;
+	color: var(--color-bitcoin-orange);
+	transition: transform 0.2s;
+}
+a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
+	transform: translateX(4px);
+}
+@media (max-width: 700px) {
+	a.wallet-lightning-cta {
+		padding: 20px 22px;
+	}
+	.wallet-lightning-cta-title {
+		font-size: 17px;
+	}
+}
+
+

@@ -29,7 +29,8 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [x] **InflationStats** (`components/InflationStats.tsx`)
 - [x] **FdicStats** (`components/FdicStats.tsx`)
 - [ ] **BuyFlow** (`components/BuyFlow.tsx`)
-- [ ] **WalletAccordion** (`components/WalletAccordion.tsx`)
+- [x] **WalletAccordion** (`components/WalletAccordion.tsx`)
+
 - [ ] **NostrAccordion** (`components/NostrAccordion.tsx`)
 - [ ] **NostrPageLayout** (`components/NostrPageLayout.tsx`)
 - [ ] **BusinessPageShell** (`components/BusinessPageShell.tsx`)
@@ -79,9 +80,10 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 ### Tier 3 — Educational / utility pages
 
-- [ ] **Wallets** — `/wallets`
+- [x] **Wallets** — `/wallets`
 - [ ] **Lightning** — `/lightning`
 - [ ] **Flyers** — `/flyers`
+
 - [ ] **Compound Inflation Calculator** — `/compound-inflation-calculator`
 - [ ] **Buy** — `/buy`
 
@@ -288,16 +290,17 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 | Category | Total | Done |
 |---|---:|---:|
-| Top-level content pages | 5 | 3 |
-| Comparison pages | 10 | 0 |
-| Educational / utility | 5 | 0 |
+| Top-level content pages | 5 | 5 |
+| Comparison pages | 10 | 10 |
+| Educational / utility | 5 | 1 |
 | Form pages | 3 | 0 |
 | Form success pages | 4 | 0 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
-| Sticker-files (index + 44) | 45 | 0 |
+| Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **88** | **3** |
+| **Total pages** | **88** | **62** |
+
 
 | Component / pattern | Total | Done |
 |---|---:|---:|
