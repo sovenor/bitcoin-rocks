@@ -2871,4 +2871,53 @@ a.sticker-language-button:focus-visible {
 }
 
 
+/* ═══════════════════════════════════════════════════════════════════
+   12. STICKER SUCCESS PAGE — V2 design system.
+   Owns: `.sticker-success-tips` (the ✅ checklist of good spots) +
+   `.sticker-success-tip` (one row). Reuses `.wallet-intro` for surface
+   card chrome, `.flyer-heading` for card titles, `.flyer-actions` +
+   `.flyer-btn` for button rows, `.home-hero` for the hero, and
+   `.whats-next-section` + `.whats-next-card` for cross-links.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.sticker-success-tips {
+	list-style: none;
+	padding: 0;
+	margin: 16px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+/* One good-spot / bad-spot row. The ✅ (or 🚫) icon sits in its own
+   fixed column so multi-line body text wraps under itself cleanly. */
+.sticker-success-tip {
+	display: grid;
+	grid-template-columns: 28px 1fr;
+	gap: 10px;
+	align-items: start;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.5;
+	color: var(--color-fg-muted);
+}
+
+.sticker-success-tip-icon {
+	font-size: 18px;
+	line-height: 1.5;
+	user-select: none;
+}
+
+@media (max-width: 700px) {
+	.sticker-success-tip {
+		font-size: 16px;
+		grid-template-columns: 24px 1fr;
+		gap: 8px;
+	}
+	.sticker-success-tip-icon {
+		font-size: 16px;
+	}
+}
+
 

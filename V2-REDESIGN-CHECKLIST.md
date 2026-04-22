@@ -93,8 +93,9 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 ### Tier 5 — Form success pages
 
-- [ ] **Sticker Success** — `/sticker-success`
+- [x] **Sticker Success** — `/sticker-success`
 - [ ] **Sticker Language Success** — `/sticker-language-success`
+
 
 ### Tier 6 — Business section (13)
 
@@ -290,12 +291,13 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Comparison pages | 10 | 10 |
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
-| Form success pages | 2 | 0 |
+| Form success pages | 2 | 1 |
 | Business section | 13 | 0 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **84** | **67** |
+| **Total pages** | **84** | **68** |
+
 
 
 | Component / pattern | Total | Done |
@@ -311,5 +313,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (V2 redesign of /stickers page + added StickerFlow component)_
+_Last updated: 2026-04-22 (V2 redesign of /sticker-success page — good-spots checklist, share-on-Nostr card, bulk-order card, 4-up What's next grid)_
+
 

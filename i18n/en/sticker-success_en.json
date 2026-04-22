@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-22",
 		"locale": "en"
 	},
 	"sticker_success_1": "You will receive your stickers in 2 to 4 weeks. While you wait, try to think of a good spot to put your stickers!",
@@ -14,5 +14,12 @@
 	"sticker_success_list_4": "NOT on private property, covering signage, ATMs, or gas pumps",
 	"sticker_success_3": "Want to see where other people are putting their stickers?",
 	"sticker_success_flyers_bar_new": "NEW!",
-	"sticker_success_flyers_bar_cta": "Print & Post Bitcoin Flyers →"
+	"sticker_success_flyers_bar_cta": "Print & Post Bitcoin Flyers →",
+	"sticker_success_hero_title": "Your stickers are on their way 🎉",
+	"sticker_success_tips_header": "Good sticker spots",
+	"sticker_success_share_header": "Share your sticker spots",
+	"sticker_success_bulk_header": "Want more stickers?",
+	"sticker_success_btn_order_bulk": "Order in bulk",
+	"sticker_success_btn_share_on_nostr": "Share on Nostr",
+	"sticker_success_btn_what_is_nostr": "What is Nostr?"
 }

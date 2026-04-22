@@ -1,4 +1,47 @@
-## Latest: /buy V2 redesign — April 22, 2026
+## Latest: /sticker-success V2 redesign — April 22, 2026
+
+`/sticker-success` (the thank-you screen shown after a visitor submits the /stickers address form) was still on the V1 design system: centered `.back-to-home` gray-logo link, `.h2-stickers` wrapper around an orange-tinted "SUCCESS!" `<h1>`, `.text-box.intro` blurb with inline `<br>`-separated `✅` lines, V1 `.text-box.top/.middle/.bottom` CTA stack, and the fixed-bottom "NEW! Print & Post Bitcoin Flyers →" promo bar. Ported the page into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/stickers`, `/buy`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages.
+
+### What changed
+
+1. **Hero.** Replaced the V1 back-to-home logo + `.h2-stickers` "SUCCESS!" wrapper with a plain `<h1>` ("Your stickers are on their way 🎉") + `.home-hero`-style intro paragraph that now confirms the 2–4 week delivery window in the subtitle instead of buried inside a prose box. New i18n key `sticker_success_hero_title` drives the H1; the old `common_success` page title is no longer rendered (the shipment-confirmation copy in `sticker_success_1` moves up into the hero subtitle).
+
+2. **Good-spots card.** Replaced the inline `<br>`-separated `✅` list with a V2 `.wallet-intro` surface card containing a `<h2 class="flyer-heading">` ("Good sticker spots") + a styled `.sticker-success-tips` unordered list. Each row is a `.sticker-success-tip` CSS grid of `28px 1fr` so multi-line wrap indents cleanly under the icon. Three ✅ rows (public, won't-get-removed, sticks-easily) + one 🚫 row (NOT on private property / signage / ATMs / gas pumps) — the last item visually distinguished from the good spots since the original V1 wording started with "NOT".
+
+3. **Share-on-Nostr card.** Dropped the prose "Want to see where other people are…" paragraph that was mashed into the intro box and promoted it to its own dedicated `.wallet-intro.flyer-section` surface card — matches the pattern used on `/stickers` and `/flyers`. Two `.flyer-btn` buttons: primary orange "Share on Nostr" (opens primal.net profile) + outlined "What is Nostr?" (internal link to `/nostr/what-is-nostr`). Kept the `snort.social` email link inline in the paragraph for anyone who wants to copy the npub directly. Reuses shared keys `common_footer_follow_first_half` / `_second_half`.
+
+4. **Bulk order card.** Promoted the StickerMule bulk-order copy (previously a dashed-divider trailing paragraph) to its own card. Heading: "Want more stickers?". Body reuses `common_stickers_bulk_store` + `common_stickers_bulk_cheaper`. Outlined "Order in bulk" `.flyer-btn` button opens the same `stickermule.com/u/4c84ba884f9c3ae` referral link as `/stickers`.
+
+5. **What's next grid.** Replaced the V1 `.text-box.top/middle/bottom` CTA stack + fixed-bottom flyer promo bar with a standard 2-col V2 `.whats-next-section` grid of 4 `<WhatsNextCard>`s — Print flyers → `/flyers`, Get a wallet → `/wallets`, Buy Bitcoin → `/buy`, Keep learning → `/`. The "NEW! Print & Post Bitcoin Flyers →" fixed-bottom bar and all of its CSS dependencies are gone; the flyers CTA now lives as the first What's next card, which is more discoverable and matches the pattern on every other V2 page.
+
+6. **Dropped.** No sources section + no `.publisher-attribution` — this is a utility/thank-you page with no factual claims that need citations or an accuracy review (same reasoning applied on `/flyers`). Robots still `noindex, follow` so form-success pages never appear in search results.
+
+### Files changed
+
+```
+app/[locale]/sticker-success/page.tsx          (full V2 rewrite — hero, good-spots card, share-on-Nostr card, bulk-order card, What's next grid; dropped fixed-bottom flyer bar + text-box CTA stack; added WhatsNextCard imports)
+app/globals.css                                 (new §12 — `.sticker-success-tips` + `.sticker-success-tip` + `.sticker-success-tip-icon`; reuses `.wallet-intro`, `.flyer-heading`, `.flyer-actions`, `.flyer-btn`, `.home-hero`, `.whats-next-*`)
+i18n/en/sticker-success_en.json                (bumped @metadata.last-updated to 2026-04-22; added 7 new keys — sticker_success_hero_title, sticker_success_tips_header, sticker_success_share_header, sticker_success_bulk_header, sticker_success_btn_order_bulk, sticker_success_btn_share_on_nostr, sticker_success_btn_what_is_nostr. Legacy `sticker_success_flyers_bar_*` keys kept for now — dead-key cleanup deferred to Step 2 of the i18n cleanup workflow.)
+scripts/sticker-success-v2-keys.js             (NEW — idempotent key-updater script)
+V2-REDESIGN-CHECKLIST.md                        (flipped /sticker-success to [x]; updated summary counts: Form success 1/2, Total pages 68/84)
+memory-bank/activeContext.md                    (this entry prepended)
+```
+
+### Verification
+
+- `npm run typecheck` → clean.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 strings for `sticker_success_1`–`_3`, `sticker_success_list_1`–`_4`, and fall through to English for the 7 new keys. Expected during the V2 pass — handled later in the Step 4 translation refresh.
+- Legacy i18n keys `sticker_success_flyers_bar_new` + `sticker_success_flyers_bar_cta` are no longer rendered anywhere; they'll be caught by the unused-keys audit in Step 1 of the i18n cleanup workflow.
+- `/business/sticker-success` (Tier 6) still on V1 — same pattern applies; queued behind the broader business-section redesign.
+- `/sticker-language-success` still on V1 — next-up in Tier 5 (1 of 2 remaining).
+
+---
+
+## Previous: /buy V2 redesign — April 22, 2026
+
 
 `/buy` was still on the V1 design system (centered `.back-to-home` logo link, `.wallet-h3` all-caps hero, `.text-box.intro` boxed copy, `.h2-section` step headers, big `.container-buy-button` country grid with raw `<button>` chips, `.payment-method-option` blocks with `.alert` raster-image callouts, `.buy-platform-box` platform cards, and the `.buy-cta-button` storage CTA). Ported it into the V2 design system used across `/`, `/inflation`, `/wallets`, `/lightning`, `/flyers`, `/bank-runs`, `/about`, `/get-involved`, `/compound-inflation-calculator`, and all ten `/bitcoin-vs-*` pages. Information architecture is unchanged — same 4-step wizard (country → payment method → platform → storage CTA) — only the chrome was replaced.
 

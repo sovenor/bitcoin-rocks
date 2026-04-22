@@ -2,19 +2,56 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
+import { WhatsNextCard } from "@/components/WhatsNextCard";
 import { type Locale } from "@/lib/i18n/config";
 import { buildArticleSchema } from "@/lib/schema/article";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildAlternates } from "@/lib/schema/hreflang";
 
 /**
- * /[locale]/sticker-success — Phase 9b faithful port of sticker-success.html.
- * Thank-you screen after a successful sticker-form submission, plus the
- * fixed-bottom "Print & Post Bitcoin Flyers" promo bar.
+ * /[locale]/sticker-success — V2 redesign (April 22, 2026).
+ *
+ * Thank-you screen after a successful sticker-form submission. The
+ * information flow of the legacy page is preserved (confirmation →
+ * good-sticker-spots checklist → share-your-spots on Nostr → bulk
+ * order link → onward navigation) but reskinned in the V2 design
+ * system used across /stickers, /flyers, /buy, /wallets, /lightning,
+ * and the comparison pages.
+ *
+ * Sections (top → bottom):
+ *   1. Hero — plain <h1> ("Your stickers are on their way 🎉") +
+ *      intro paragraph confirming delivery window + inviting the
+ *      reader to think of a good spot.
+ *   2. Good-spots card — V2 `.wallet-intro` surface card with a
+ *      styled `.sticker-success-tips` checklist of ✅ good / 🚫 bad
+ *      sticker placements.
+ *   3. Share-on-Nostr card — surface card matching the pattern on
+ *      /stickers + /flyers (share spots → SHARE ON NOSTR /
+ *      WHAT IS NOSTR? CTAs).
+ *   4. Bulk order card — "Want more stickers?" → outlined button
+ *      linking to StickerMule bulk page (we use the same referral
+ *      link as /stickers).
+ *   5. What's next? — 4 WhatsNextCards (flyers, wallets, buy, home).
+ *
+ * No sources section or publisher-attribution block — this is a
+ * utility/thank-you page with no factual claims that need citations
+ * or an accuracy review (matching the pattern on /flyers).
+ *
+ * Robots: `noindex, follow` — form-success pages should never appear
+ * in search results.
+ *
+ * CSS: the `.sticker-success-*` classes live in `app/globals.css` §12.
+ * Reuses `.wallet-intro`, `.flyer-heading`, `.flyer-actions`,
+ * `.flyer-btn`, `.whats-next-section`, and `.home-hero` from the
+ * existing V2 families.
  */
 
 const SLUG = "sticker-success";
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
+const NOSTR_NPUB = "npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
+const NOSTR_PROFILE_URL = `https://primal.net/p/${NOSTR_NPUB}`;
+const NOSTR_SNORT_URL = `https://snort.social/p/${NOSTR_NPUB}`;
+const STICKERMULE_URL = "https://stickermule.com/u/4c84ba884f9c3ae";
 
 export async function generateMetadata({
 	params,
@@ -23,7 +60,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale } = await params;
 	const t = await getTranslations({ locale });
-	const title = t("common_success");
+	const title = t("sticker_success_hero_title");
 	return {
 		title,
 		alternates: buildAlternates({ locale: locale as Locale, slug: SLUG }),
@@ -40,7 +77,7 @@ export default async function StickerSuccessPage({
 	setRequestLocale(locale);
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
-	const title = t("common_success");
+	const title = t("sticker_success_hero_title");
 
 	const articleSchema = await buildArticleSchema({
 		slug: SLUG,
@@ -56,131 +93,174 @@ export default async function StickerSuccessPage({
 	});
 
 	return (
-		<div className="container-main">
+		<>
 			<JsonLd data={articleSchema} />
-			<JsonLd data={breadcrumbSchema} />
+			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
 
-			<div style={{ textAlign: "center" }}>
-				<a href={l}>
-					<img
-						src="/img/logos/rocks-logo-gray.png"
-						className="back-to-home"
-						alt="bitcoin.rocks"
-					/>
-				</a>
-			</div>
-
-			<h1 className="h2-stickers">
-				<span className="inflation">{t("common_success")}</span>
-			</h1>
-
-			<div className="text-box intro">
-				<div className="container-inner">
-					<div className="break-no-title" />
-					<p>
-						<span>{t("sticker_success_1")}</span>
-						<br />
-						<br />
-						<span>{t("sticker_success_2")}</span>
-						<br />
-						✅ <span>{t("sticker_success_list_1")}</span>
-						<br />
-						✅ <span>{t("sticker_success_list_2")}</span>
-						<br />
-						✅ <span>{t("sticker_success_list_3")}</span>
-						<br />
-						✅ <span>{t("sticker_success_list_4")}</span>
-						<br />
-						<br />
-						<span>{t("sticker_success_3")}</span>{" "}
-						<span>{t("common_footer_follow_first_half")}</span>
-						&nbsp;
-						<a
-							href="https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4"
-							className="footer-link"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							hi@bitcoin.rocks
-						</a>
-						&nbsp;<span>{t("common_footer_follow_second_half")}</span>
-						<br />
-						<br />
-						————————
-						<br />
-						<br />
-						<span>{t("common_stickers_bulk_want")}</span>{" "}
-						<a
-							href="https://stickermule.com/u/4c84ba884f9c3ae"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="orange-link"
-						>
-							<span>{t("common_stickers_bulk_store")}</span>
-						</a>{" "}
-						<span>{t("common_stickers_bulk_cheaper")}</span>
-					</p>
-				</div>
-			</div>
-
-			<div className="break-micro" />
-
-			<a href={l}>
-				<div className="text-box top">
+			<div className="container-main">
+				{/* ═══ HERO ═══ */}
+				<div className="home-hero inflation-section">
 					<div className="container-inner">
-						<h2 className="h2-section" id="get-started">
-							{t("common_cta_section_get_started")}
+						<h1>{title}</h1>
+						<p>{t("sticker_success_1")}</p>
+					</div>
+				</div>
+
+				{/* ═══ GOOD-SPOTS CARD ═══ */}
+				<div className="wallet-intro flyer-section">
+					<div className="container-inner">
+						<h2 className="flyer-heading">
+							{t("sticker_success_tips_header")}
 						</h2>
-						<h2 className="second-line get-started h2-section">
-							{t("common_cta_section_with_bitcoin")}
-						</h2>
-						<div className="item first">
-							<h3 className="h3-item">{t("common_cta_section_title_1_alt")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/wallets`}>
-				<div className="text-box middle">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_2")}</h3>
-							<div className="type">{t("common_cta_link_type_guide")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
-			<a href={`${l}/buy`}>
-				<div className="text-box bottom">
-					<div className="container-inner">
-						<div className="item">
-							<h3 className="h3-item">{t("common_cta_section_title_3")}</h3>
-							<div className="type">{t("common_cta_link_type_website")}</div>
-							<div className="author">{t("common_cta_author_bitcoin_rocks")}</div>
-							<div className="clear" />
-						</div>
-					</div>
-				</div>
-			</a>
 
-			{/* Fixed bottom bar — flyers promo */}
-			<div className="fixed-bottom-bar">
-				<div className="fixed-bottom-bar-content">
-					<span className="fixed-bottom-bar-text">
-						<span className="fixed-bottom-bar-new">
-							{t("sticker_success_flyers_bar_new")}
-						</span>
-						<a href={`${l}/flyers`} className="fixed-bottom-bar-link">
-							<span>{t("sticker_success_flyers_bar_cta")}</span>
-						</a>
-					</span>
+						<ul className="sticker-success-tips">
+							<li className="sticker-success-tip">
+								<span
+									className="sticker-success-tip-icon"
+									aria-hidden="true"
+								>
+									✅
+								</span>
+								<span>{t("sticker_success_list_1")}</span>
+							</li>
+							<li className="sticker-success-tip">
+								<span
+									className="sticker-success-tip-icon"
+									aria-hidden="true"
+								>
+									✅
+								</span>
+								<span>{t("sticker_success_list_2")}</span>
+							</li>
+							<li className="sticker-success-tip">
+								<span
+									className="sticker-success-tip-icon"
+									aria-hidden="true"
+								>
+									✅
+								</span>
+								<span>{t("sticker_success_list_3")}</span>
+							</li>
+							<li className="sticker-success-tip">
+								<span
+									className="sticker-success-tip-icon"
+									aria-hidden="true"
+								>
+									🚫
+								</span>
+								<span>{t("sticker_success_list_4")}</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				{/* ═══ SHARE-ON-NOSTR CARD ═══ */}
+				<div className="wallet-intro flyer-section">
+					<div className="container-inner">
+						<h2 className="flyer-heading">
+							{t("sticker_success_share_header")}
+						</h2>
+						<p>{t("sticker_success_3")}</p>
+						<p>
+							{t("common_footer_follow_first_half")}{" "}
+							<a
+								href={NOSTR_SNORT_URL}
+								className="body-link"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								hi@bitcoin.rocks
+							</a>{" "}
+							{t("common_footer_follow_second_half")}
+						</p>
+
+						<div className="flyer-actions">
+							<a
+								href={NOSTR_PROFILE_URL}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flyer-btn flyer-btn-primary"
+							>
+								{t("sticker_success_btn_share_on_nostr")}
+							</a>
+							<a
+								href={`${l}/nostr/what-is-nostr`}
+								className="flyer-btn flyer-btn-secondary"
+							>
+								{t("sticker_success_btn_what_is_nostr")}
+							</a>
+						</div>
+					</div>
+				</div>
+
+				{/* ═══ BULK ORDER CARD ═══ */}
+				<div className="wallet-intro flyer-section">
+					<div className="container-inner">
+						<h2 className="flyer-heading">
+							{t("sticker_success_bulk_header")}
+						</h2>
+						<p>
+							<a
+								href={STICKERMULE_URL}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="body-link"
+							>
+								{t("common_stickers_bulk_store")}
+							</a>{" "}
+							{t("common_stickers_bulk_cheaper")}
+						</p>
+
+						<div className="flyer-actions">
+							<a
+								href={STICKERMULE_URL}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flyer-btn flyer-btn-secondary"
+							>
+								{t("sticker_success_btn_order_bulk")}
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div className="break-micro" />
+
+				{/* ═══ WHAT'S NEXT ═══ */}
+				<div className="whats-next-section">
+					<div className="container-inner">
+						<div className="whats-next-header">
+							<h2>{t("common_whats_next")}</h2>
+						</div>
+						<div className="whats-next-grid">
+							<WhatsNextCard
+								href={`${l}/flyers`}
+								label={t("stickers_next_print_flyers")}
+								title={t("stickers_next_print_flyers_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/wallets`}
+								label={t("common_next_get_wallet")}
+								title={t("common_next_get_wallet_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={`${l}/buy`}
+								label={t("common_next_buy_bitcoin")}
+								title={t("common_next_buy_bitcoin_desc")}
+								authorKey="common_publisher_name"
+							/>
+							<WhatsNextCard
+								href={l}
+								label={t("common_next_keep_learning")}
+								title={t("common_next_keep_learning_desc")}
+								authorKey="common_publisher_name"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
