@@ -2508,5 +2508,367 @@ a.buy-platform-card:hover .buy-platform-cta::after {
 }
 
 
+/* ═══════════════════════════════════════════════════════════════════
+   11. STICKERS PAGE — V2 design system.
+   Owns: `.sticker-pack-grid`, `.sticker-pack-card` (+ `.is-selected`),
+   `.sticker-pack-image-wrap`, `.sticker-pack-image`, `.sticker-pack-body`,
+   `.sticker-pack-title` (an <h2>), `.sticker-pack-description`,
+   `.sticker-pack-cta`, `.sticker-option-grid`, `.sticker-option-button`
+   (+ `.is-selected`), `.sticker-option-label`, `.sticker-option-chevron`,
+   `.sticker-panel`, `.sticker-panel-inner`, `.sticker-panel-heading`,
+   `.sticker-panel-subheading`, `.sticker-panel-note`,
+   `.sticker-language-grid`, `.sticker-language-button`,
+   `.sticker-request`, `.sticker-form`, `.sticker-fields--two`,
+   `.sticker-fields--three`.
+   Forms inside the panel reuse the `.cic-*` form system from the
+   compound-inflation-calculator (`.cic-form`, `.cic-fields`,
+   `.cic-field`, `.cic-label`, `.cic-input`, `.cic-submit`).
+   Reuses `.wallet-intro`, `.buy-step-header`, `.buy-step-eyebrow`,
+   `.flyer-btn`, `.flyer-actions`, `.whats-next-section`, and
+   `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Step 1: pack picker ───────────────────────────────────────── */
+/* Each pack is rendered as a single clickable <button> that contains
+   the preview image, <h2> title, description, and the orange CTA
+   "choose this pack" button. The whole tile is clickable; the inline
+   CTA is visual affordance only (the parent <button> handles the
+   actual click). */
+.sticker-pack-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 18px;
+}
+@media (max-width: 700px) {
+	.sticker-pack-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+button.sticker-pack-card {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 0;
+	padding: 0;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	overflow: hidden;
+	transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+	font-family: var(--font-proxima);
+	width: 100%;
+}
+button.sticker-pack-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-2px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+button.sticker-pack-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.sticker-pack-card.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+/* Image frame — subtle dark tinted background matches the look from
+   bitcoin.rocks/stickers. */
+.sticker-pack-image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 28px 24px;
+	background: rgba(255, 255, 255, 0.025);
+	border-bottom: 1px solid var(--color-card-border);
+}
+.sticker-pack-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 360px;
+	max-height: 240px;
+	object-fit: contain;
+	transition: transform 0.25s;
+}
+button.sticker-pack-card:hover .sticker-pack-image {
+	transform: scale(1.03);
+}
+
+.sticker-pack-body {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 24px 26px 26px;
+	align-items: flex-start;
+}
+
+/* .sticker-pack-title is an <h2>. Override the element-level rule so
+   it renders at card scale rather than page-section scale. */
+h2.sticker-pack-title {
+	font-family: var(--font-proxima);
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 1.25;
+	letter-spacing: 0.01em;
+	color: var(--color-fg);
+	margin: 0;
+	text-align: left;
+}
+
+.sticker-pack-description {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+/* Inline "Choose this pack" CTA — styled as a real orange button. */
+.sticker-pack-cta {
+	margin-top: 6px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 22px;
+	border-radius: 12px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transition: background-color 0.2s, border-color 0.2s, transform 0.15s;
+}
+button.sticker-pack-card:hover .sticker-pack-cta {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+button.sticker-pack-card.is-selected .sticker-pack-cta {
+	background: var(--color-bitcoin-orange);
+	border-color: var(--color-bitcoin-orange);
+}
+
+/* ── Step 2: delivery option buttons — one per line, real-button feel.
+   ────────────────────────────────────────────────────────────── */
+.sticker-option-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 8px;
+}
+
+button.sticker-option-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 18px 22px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	width: 100%;
+	transition: border-color 0.2s, background-color 0.2s, transform 0.15s,
+		box-shadow 0.2s, color 0.2s;
+}
+button.sticker-option-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+button.sticker-option-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.sticker-option-button.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	background: rgba(255, 149, 0, 0.1);
+	color: var(--color-fg);
+	box-shadow: 0 0 0 2px rgba(255, 149, 0, 0.15);
+}
+
+.sticker-option-label {
+	flex: 1;
+}
+
+.sticker-option-chevron {
+	flex-shrink: 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--color-fg-dim);
+	transition: color 0.2s, transform 0.15s;
+}
+button.sticker-option-button:hover .sticker-option-chevron {
+	color: var(--color-bitcoin-orange);
+	transform: translateX(2px);
+}
+button.sticker-option-button.is-selected .sticker-option-chevron {
+	color: var(--color-bitcoin-orange);
+	transform: none;
+}
+
+/* ── Revealed panel (form / language grid / bulk CTA) ─────────── */
+.sticker-panel {
+	margin-top: 18px;
+}
+
+.sticker-panel-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 28px 26px;
+}
+
+.sticker-panel-heading {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.25;
+	color: var(--color-fg);
+	margin: 0 0 16px 0;
+}
+
+.sticker-panel-subheading {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	color: var(--color-fg);
+	margin: 0 0 10px 0;
+}
+
+.sticker-panel-inner p {
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+
+.sticker-panel-note {
+	font-size: 15px !important;
+	color: var(--color-fg-dim) !important;
+	font-style: italic;
+}
+
+/* ── Print panel: language button grid ────────────────────────── */
+.sticker-language-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	gap: 8px;
+	margin: 10px 0 28px 0;
+}
+@media (max-width: 700px) {
+	.sticker-language-grid {
+		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	}
+}
+
+a.sticker-language-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 14px;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 600;
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg);
+	text-decoration: none;
+	text-align: center;
+	transition: border-color 0.2s, background-color 0.2s, color 0.2s,
+		transform 0.15s;
+}
+a.sticker-language-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	color: var(--color-bitcoin-orange);
+	transform: translateY(-1px);
+}
+a.sticker-language-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+
+/* ── Print panel: language-request form wrapper ──────────────── */
+.sticker-request {
+	padding-top: 18px;
+	margin-top: 8px;
+	border-top: 1px solid var(--color-card-border);
+}
+
+/* ── Sticker forms (both the address form + the language-request
+   form) use the shared `.cic-*` form system from §9 with a couple
+   of grid-variant modifiers for 2- and 3-column field groupings.
+   ───────────────────────────────────────────────────────────── */
+.sticker-form.cic-form {
+	/* Tighter vertical rhythm than the solo calculator. */
+	gap: 14px;
+}
+
+.cic-fields.sticker-fields--two {
+	grid-template-columns: 1fr 1fr;
+}
+.cic-fields.sticker-fields--three {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 700px) {
+	.cic-fields.sticker-fields--two,
+	.cic-fields.sticker-fields--three {
+		grid-template-columns: 1fr;
+	}
+}
+
+.sticker-panel-inner .cf-turnstile {
+	margin: 6px 0 10px 0;
+}
+
+@media (max-width: 700px) {
+	.sticker-pack-image-wrap {
+		padding: 22px 18px;
+	}
+	.sticker-pack-image {
+		max-height: 200px;
+	}
+	.sticker-pack-body {
+		padding: 20px 20px 22px;
+	}
+	h2.sticker-pack-title {
+		font-size: 22px;
+	}
+	.sticker-pack-cta {
+		width: 100%;
+	}
+	button.sticker-option-button {
+		padding: 16px 18px;
+		font-size: 16px;
+	}
+	.sticker-panel-inner {
+		padding: 22px 20px;
+	}
+	.sticker-panel-heading {
+		font-size: 20px;
+	}
+}
+
 
 
