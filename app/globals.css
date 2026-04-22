@@ -145,11 +145,6 @@ h2 {
 	margin: 8px 0 20px 0;
 	text-align: left;
 }
-@media (max-width: 700px) {
-	h2 {
-		font-size: 22px;
-	}
-}
 
 /* Inline color accents that override the parent heading's color
    (e.g. highlighting "BITCOIN" orange inside a black H1). */
@@ -204,7 +199,7 @@ a.orange-link:hover {
 /* ── Hero ──────────────────────────────────────────────────── */
 .home-hero {
 	text-align: center;
-	padding: 30px 0 20px 0;
+	padding: 0 0 20px 0;
 }
 
 .home-hero h1 {
@@ -333,6 +328,7 @@ a.orange-link:hover {
 		height: 46px;
 		padding: 0 22px;
 		font-size: 16px;
+		line-height: 40px;
 	}
 	.home-carousel-track {
 		gap: 8px;
@@ -451,14 +447,14 @@ a.whats-next-card:hover .whats-next-card-source {
 	margin: 0;
 }
 
-.category-section h2 .accent {
-	color: var(--card-accent, var(--color-bitcoin-orange));
-}
-
 @media (max-width: 700px) {
 	.category-section h2 {
-		font-size: 26px;
+		font-size: 28px;
 	}
+}
+
+.category-section h2 .accent {
+	color: var(--card-accent, var(--color-bitcoin-orange));
 }
 
 .category-section a.whats-next-card:hover {
