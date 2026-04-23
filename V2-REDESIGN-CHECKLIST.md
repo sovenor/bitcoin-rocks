@@ -218,7 +218,6 @@ This section tracks the cleanup work needed to bring every language back to pari
 - [ ] Write a removal script (`scripts/i18n-audit/remove-unused-keys.js`) that takes the confirmed unused-keys list and strips them from every `i18n/en/**/*.json` file, preserving tab indentation and `@metadata`.
 - [ ] Bump `@metadata.last-updated` on every touched English file.
 - [ ] Run `npm run build` to confirm nothing regresses (no missing-key fallbacks, no broken pages).
-- [ ] Commit the English cleanup as a discrete PR so translators can see a clean diff of what was removed.
 
 ### Step 3 — Normalize JSON formatting in English files
 
