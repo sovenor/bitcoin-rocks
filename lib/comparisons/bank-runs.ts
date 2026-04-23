@@ -117,8 +117,11 @@ export type ContentSectionImage = {
 };
 
 export type ContentSection = {
-	/** Translation key for the H2. */
-	headingKey: string;
+	/**
+	 * Translation key for the H2. Omit to render a heading-less section
+	 * (used by the /get-involved intro card that wraps only prose).
+	 */
+	headingKey?: string;
 	/** Paragraphs, each a fragment sequence. */
 	paragraphs: readonly SummaryFragment[][];
 	/** Optional card block rendered after the paragraphs. */
@@ -129,9 +132,17 @@ export type ContentSection = {
 	 * explanatory, standout feel.
 	 */
 	centered?: boolean;
+	/**
+	 * When true, the section's prose is wrapped in a surface card with
+	 * a border, matching the top intro box on `/stickers` (V2
+	 * `.wallet-intro` look). Prose is left-aligned inside the box.
+	 * Used by the /get-involved intro to give it a boxed-lead-in feel.
+	 */
+	boxed?: boolean;
 	/** Optional illustrative image (between H2 and paragraphs). */
 	image?: ContentSectionImage;
 };
+
 
 /** Source citation displayed in the final "Sources" section. */
 export type ContentSource = {

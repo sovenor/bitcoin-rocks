@@ -704,6 +704,29 @@ button.choose-initial-text:hover {
 	text-align: center;
 }
 
+/* Boxed variant for a ContentPageLayout section (e.g. the
+   `/get-involved` intro). Mirrors the `.wallet-intro` surface-card
+   chrome used by the top box on `/stickers`: a surface-tinted card
+   with a border and rounded corners. Prose is left-aligned inside
+   the box. Any cards below the box keep their normal layout. */
+.content-section--boxed {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.content-section--boxed .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.content-section--boxed .comparison-explain,
+.content-section--boxed .comparison-explain p {
+	text-align: left;
+	max-width: none;
+}
+
+
 /* Optional illustrative image inside a ContentPageLayout section.
    Renders between the H2 and the paragraphs. Centered, responsive,
    capped at 480px by default (overridable via inline style). */

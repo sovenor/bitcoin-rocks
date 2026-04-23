@@ -87,19 +87,30 @@ export async function ContentPageLayout({
 				</div>
 
 				{/* ═══ SECTIONS ═══ */}
-				{data.sections.map((section, i) => (
+				{data.sections.map((section, i) => {
+					const sectionId = `content-section-${i + 1}`;
+					const classes = [
+						"inflation-section",
+						"content-section",
+						section.centered ? "content-section--centered" : "",
+						section.boxed ? "content-section--boxed" : "",
+					]
+						.filter(Boolean)
+						.join(" ");
+					return (
 					<section
-						key={section.headingKey}
-						className={`inflation-section content-section${
-							section.centered ? " content-section--centered" : ""
-						}`}
-						aria-labelledby={`content-section-${i + 1}`}
+						key={section.headingKey ?? `section-${i}`}
+						className={classes}
+						aria-labelledby={
+							section.headingKey ? sectionId : undefined
+						}
 					>
 						<div className="container-inner">
-							<h2 id={`content-section-${i + 1}`}>
-								{t(section.headingKey)}
-							</h2>
+							{section.headingKey && (
+								<h2 id={sectionId}>{t(section.headingKey)}</h2>
+							)}
 							<div className="comparison-explain">
+
 								{section.paragraphs.map((paragraph, pi) => (
 									<Fragment key={pi}>
 										<p>
@@ -140,7 +151,9 @@ export async function ContentPageLayout({
 							)}
 						</div>
 					</section>
-				))}
+					);
+				})}
+
 
 				{/* ═══ WHAT'S NEXT ═══ */}
 				<div className="whats-next-section comparison-whats-next">

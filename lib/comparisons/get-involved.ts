@@ -29,21 +29,21 @@ export const GET_INVOLVED: ContentPageData = {
 	titleKey: "get_involved_and_help_spread_bitcoin",
 	descriptionKey: "get_involved_description",
 	sections: [
-		// ─── Intro (centered lead-in) ────────────────────────────
-		// The legacy page had a lead-in with no heading. `ContentPageLayout`
-		// requires a `headingKey`, so the first intro line is promoted
-		// to that role. `centered: true` matches the /about "Our Mission"
-		// hero-style treatment.
+		// ─── Intro (boxed lead-in) ───────────────────────────────
+		// Heading-less intro box matching the top intro card on
+		// `/stickers` — V2 `.wallet-intro`-style surface card with a
+		// border. Prose is left-aligned inside the box.
 		{
-			headingKey: "get_involved_intro_1",
-			centered: true,
+			boxed: true,
 			paragraphs: [
+				[{ key: "get_involved_intro_1" }],
 				[{ key: "get_involved_intro_2" }],
 				[{ key: "get_involved_intro_3" }],
 				[{ key: "get_involved_intro_4" }],
 				[{ key: "get_involved_intro_5" }],
 			],
 		},
+
 
 		// ─── Put a sticker in public ─────────────────────────────
 		{
