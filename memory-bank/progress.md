@@ -1,3 +1,41 @@
+## /business/wallets V2 redesign — April 23, 2026
+
+Brought `/business/wallets` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET A FREE BITCOIN WALLET…" hero, `.text-box.intro` explainer with inline `<br><br>` Bitcoin-only-vs-hybrid copy, four always-collapsed `<WalletAccordion>`s each hiding a `.vs-container` row of `<BusinessWalletCard>` tiles, and the `BusinessResourceCards` 7-card grid — with a standard V2 page. The user explicitly called out that the old accordion-per-business-type UX could be swapped for a `/wallets`-style layout with h2 section headings + intro paragraphs + wallet card grids; that's what shipped.
+
+The new page is: plain `<h1>` "How to accept Bitcoin payments" + subtitle, `.wallet-intro` bordered surface card carrying over the V1 Bitcoin-only vs. hybrid explainer (existing `wallets_intro_1` – `wallets_intro_6` keys, now rendered as 4 clean `<p>` tags with `<strong>` labels instead of V1's inline `<br><br>` concatenation), and **four flat top-to-bottom wallet sections** — each a `.inflation-section.content-section` with an `<h2>` + `.comparison-explain` intro paragraph + a `.wallet-grid` (2-col desktop / 1-col mobile, reused from `/wallets`). Sections:
+
+1. **Wallets for individually-owned businesses** — Square, Strike Business, Breez, OpenNode.
+2. **Wallets for businesses with multiple employees** — Square, Strike Business, IBEX Pay.
+3. **Wallets for online businesses** — Square, Strike Business, OpenNode (online variant), BTCPay Server.
+4. **Wallets for invoice-based businesses** — Zaprite, Strike Business.
+
+Each card is a V2 `.wallet-card` anchor (same chrome as `/wallets`) rendered by a new local `<BizWalletCard>` component. It reuses `.wallet-card-image-wrap` + `.wallet-card-name` + `.wallet-card-features` + `.wallet-card-cta`, but swaps the `/wallets` self-custody / cold-wallet badges for an optional `.biz-wallet-card-note` paragraph — a short elevator-pitch muted-body `<p>` slotted between the name and the feature bullets. Used for Square (existing `wallets_square_note` key) and Strike Business (new `wallets_strike_note` key) to give each platform a one-paragraph pitch. All feature bullets reuse the existing `wallets_feature_*` keys (hybrid / info / in_person_online / settles_both / bitcoin_only / no_info / in_person / settles_bitcoin / self_hosted / online_store / invoicing / multiple_employees).
+
+**Strike Business** was added per the task request (image at `/img/wallets/strike-business.png`, already present in `public/img/wallets/`, links to `https://strike.me/business`). It's the second card in every section because it's the only platform that works for every business type — in-person, online, invoicing, multi-user — with zero fees and instant settlement.
+
+Below the sections sits the `/business/*` colored business resources grid (reusing `BIZ_RESOURCES` from `/business` + `/business/faq` with `wallets` excluded since we're on that page — per-card `--card-accent` CSS variables). Standard 8-entry `.sources-section` (Square, Strike, Breez, OpenNode, IBEX, BTCPay Server, Zaprite, Bitcoin whitepaper) + `.publisher-attribution` with reviewed-for-accuracy badge close the page.
+
+Per the `/business/*` V2 convention (see V2-REDESIGN-CHECKLIST.md Tier 6), the bottom-of-page cross-link surface is the colored business resources grid — **no generic "keep learning / buy Bitcoin / inflation" bridge** is rendered on business sub-pages (merchants flow between business pages, not back into the beginner learning path).
+
+Added 11 new i18n keys: `wallets_hero_subtitle`, 4 × `wallets_section_<id>` + 4 × `wallets_section_<id>_intro` (sole / multiple / online / invoice), `wallets_name_strike`, `wallets_strike_note`. All existing V1 wallet-feature + wallet-name keys preserved; the legacy `wallets_header` + `wallets_choice_*` keys are now orphans (still in JSON for the Step 1 dead-key audit). A small `.biz-wallet-card-note` CSS rule was added to `app/globals.css` (+12 lines next to `.wallet-card-feature-price` — Proxima Nova 400, 14px, 1.5 line-height, `var(--color-fg-muted)`, uses semantic tokens, no new hex values).
+
+This is the fourth `/business/*` page to reach V2. Summary counts bumped to Business 4/12, Total pages 73/83. 8 `/business/*` sub-pages remain on V1 (accounting, stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success) and still use `BusinessPageShell`.
+
+**Files changed**
+- `app/[locale]/business/wallets/page.tsx` — full V2 rewrite (hero / intro card / 4 top-to-bottom wallet sections / BIZ_RESOURCES grid with `wallets` excluded / sources / inline publisher attribution); dropped `BusinessPageShell` + `BusinessResourceCards` + `BusinessWalletCard` + `WalletAccordion` + `.vs-container`; added local `<BizWalletCard>` component
+- `i18n/en/business/wallets_en.json` — added 11 new V2 keys (`wallets_hero_subtitle`, 4 × `wallets_section_*` + 4 × `wallets_section_*_intro`, `wallets_name_strike`, `wallets_strike_note`); bumped `@metadata.last-updated` to 2026-04-23
+- `scripts/business-wallets-v2/add-keys.js` — Node helper that adds the 11 new V2 keys with tab indentation
+- `app/globals.css` — +12 lines `.biz-wallet-card-note` rule next to `.wallet-card-feature-price`
+- `V2-REDESIGN-CHECKLIST.md` — flipped `/business/wallets` to [x]; updated summary counts (Business 4/12, Total 73/83); updated the "last updated" footnote
+- `memory-bank/activeContext.md` — detailed entry prepended
+- `memory-bank/progress.md` — this note prepended
+
+**Verification**
+- `npx tsc --noEmit` → clean (no TypeScript errors).
+- Strike Business image was already present at `public/img/wallets/strike-business.png` (user placed it there before starting the task).
+
+---
+
 ## /business/faq V2 redesign — April 22, 2026
 
 Brought `/business/faq` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "HAVE QUESTIONS…" hero, 9 always-open `.text-box.intro.inflation-box` FAQ blocks with `.h2-section` headings + inline `<br><br>` paragraph breaks + `.orange-link` cross-links, and the legacy `BusinessResourceCards` 7-card grid — with a standard V2 page: plain `<h1>` hero (retitled to sentence-case "FAQs for accepting Bitcoin") + subtitle, `.wallet-intro` intro card, **9 collapsible `<WalletAccordion>` FAQs** (same Client Component that powers the `/wallets` + `/lightning` FAQ accordions — closed by default, rotating chevron, animated max-height body), and the `/business/*` colored business resources grid (reusing the `BIZ_RESOURCES` shape from `/business` with `faq` excluded since we're on that page — per-card `--card-accent` CSS variables for wallets=orange, maps=green, stickers=pink, rewards=yellow, accounting=blue, kit=orange). Standard 5-entry `.sources-section` (BTC Map, BTCPay Server, Strike for Business, Oshi, Bitcoin whitepaper) + `.publisher-attribution` with reviewed-for-accuracy badge close the page.

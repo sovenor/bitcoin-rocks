@@ -1717,6 +1717,19 @@ a.wallet-card:focus-visible {
 	font-style: italic;
 }
 
+/* Short elevator-pitch paragraph between the wallet name and the
+   feature list on `/business/wallets` wallet cards (used for Square +
+   Strike Business). Muted body color, sits inside the `.wallet-card`
+   anchor without breaking the hover affordance. */
+.biz-wallet-card-note {
+	margin: 0 0 12px;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--color-fg-muted);
+}
+
 /* `.wallet-card-cta` is rendered as a `<span>` (the whole card is the
    anchor — nested `<a>` isn't valid). Styled to look like an outlined
    button. Hovering the *parent card* promotes it to the filled variant

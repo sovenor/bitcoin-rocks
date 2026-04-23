@@ -123,7 +123,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business (index)** — `/business`
 - [x] **Business — Why** — `/business/why`
 - [x] **Business — FAQ** — `/business/faq`
-- [ ] **Business — Wallets** — `/business/wallets`
+- [x] **Business — Wallets** — `/business/wallets`
 - [ ] **Business — Accounting** — `/business/accounting`
 - [ ] **Business — Stickers** — `/business/stickers`
 - [ ] **Business — Maps** — `/business/maps`
@@ -312,11 +312,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 12 | 3 |
+| Business section | 12 | 4 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **83** | **72** |
+| **Total pages** | **83** | **73** |
 
 
 
@@ -333,6 +333,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-22 (V2 redesign of /business/faq — replaced legacy `BusinessPageShell` + 9 always-open `.text-box` FAQ blocks with V2 hero + intro card + 9 collapsible `<WalletAccordion>` FAQs (same component as /wallets + /lightning) + colored business resources grid (reusing the /business index BIZ_RESOURCES cards, `faq` excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
+_Last updated: 2026-04-23 (V2 redesign of /business/wallets — replaced legacy `BusinessPageShell` + 4 collapsible `<WalletAccordion>` business-type groups with V2 hero + intro card + 4 top-to-bottom wallet sections (each an h2 + `.comparison-explain` intro + `.wallet-grid` of V2 `.wallet-card`s reusing the `/wallets` card chrome) + added **Strike Business** to every section (image at `/img/wallets/strike-business.png`, links to strike.me/business) + introduced `.biz-wallet-card-note` CSS for the Square/Strike elevator-pitch paragraph above the feature bullets + colored business resources grid (wallets excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
 
 
