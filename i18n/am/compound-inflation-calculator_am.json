@@ -8,5 +8,13 @@
 	},
 	"cic_header": "የተደራራቢ ዋጋ ግሽበት ካልኩሌተር",
 	"cic_description": "ይህን የተደራራቢ ዋጋ ግሽበት ካልኩሌተር ተጠቅመው ደመወዝዎ ከዋጋ ግሽበት ጋር ለመከታተል ምን ያህል መጨመር እንዳለበት ይወቁ።",
-	"cic_inflation_cta": "በቢትኮይን ከዋጋ ግሽበት ይውጡ"
+	"cic_hero_subtitle": "ከዋጋ ግሽበት ጋር ለመከታተል ደመወዝዎ ምን ያህል መጨመር እንዳለበት ይመልከቱ።",
+	"cic_calculator_heading": "የዋጋ ግሽበት ክፍተትዎን ያስሉ",
+	"cic_cta_label": "ቀጣይ እርምጃ",
+	"cic_inflation_cta": "በቢትኮይን ከዋጋ ግሽበት ይውጡ",
+	"cic_next_learn_inflation": "ዋጋ ግሽበት እንዴት እንደሚሠራ ይወቁ",
+	"cic_next_explore_topics": "ተጨማሪ ርዕሶችን ያስሱ",
+	"cic_next_explore_topics_desc": "ቢትኮይን ከገንዘብ፣ ነፃነት፣ ኢነርጂ፣ እና ሌሎች ጋር እንዴት እንደሚገናኝ ይመልከቱ።",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

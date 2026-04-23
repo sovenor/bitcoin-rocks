@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "በቀላሉ የማይነሱ ቦታዎች (ስቲከሮቹ ቋሚ ጉዳት አያደርሱም)",
 	"sticker_success_list_3": "በቀላሉ የሚጣበቁባቸው ገጽታዎች (ብረት፣ ፕላስቲክ፣ መስታወት)",
 	"sticker_success_list_4": "በግል ንብረት፣ ምልክቶች ላይ፣ ኤቲኤም ላይ ወይም የነዳጅ ማደያ ላይ አይለጥፉ",
-	"sticker_success_3": "ሌሎች ሰዎች ስቲከሮቻቸውን የት እንደሚለጥፉ ማየት ይፈልጋሉ?"
+	"sticker_success_3": "ሌሎች ሰዎች ስቲከሮቻቸውን የት እንደሚለጥፉ ማየት ይፈልጋሉ?",
+	"sticker_success_hero_title": "ስቲከሮችዎ በመንገዱ ላይ ናቸው 🎉",
+	"sticker_success_tips_header": "ጥሩ የስቲከር ቦታዎች",
+	"sticker_success_share_header": "የስቲከር ቦታዎችዎን ያጋሩ",
+	"sticker_success_bulk_header": "ተጨማሪ ስቲከሮች ይፈልጋሉ?",
+	"sticker_success_btn_order_bulk": "በብዛት ያዙ",
+	"sticker_success_btn_share_on_nostr": "በ Nostr ላይ ያጋሩ",
+	"sticker_success_btn_what_is_nostr": "Nostr ምንድን ነው?"
 }

@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"bitcoin_wallet_guide": "የቢትኮይን ቦርሳ መመሪያ",
 	"wallets_description": "አስፈላጊ በሆኑ መንገዶች የሚለያዩ የተለያዩ ቢትኮይን ቦርሳዎች አሉ። ቀላል ጥያቄዎች ትክክለኛውን ቦርሳ ለመወሰን ይረዳሉ።",
 	"wallets_header": "ቢትኮይንዎን ደህንነቱ በተጠበቀ ሁኔታ እንዴት ማከማቸት እንደሚቻል",
+	"wallets_header_subtitle": "ዋሌት ለመምረጥ፣ ቁልፎችዎን ለመጠበቅ፣ እና በቢትኮይንዎ ላይ ሙሉ ቁጥጥር ለመውሰድ ደረጃ-በ-ደረጃ መመሪያ።",
 	"wallets_s1_c1": "ቢትኮይን ቦርሳዎች ተስማሚ ናቸው ስለዚህ ማንኛውንም ቦርሳ ተጠቅመው ለማንም ቢትኮይን መላክ ይችላሉ።",
 	"wallets_s1_c2": "አስፈላጊ በሆኑ መንገዶች የሚለያዩ የተለያዩ ቢትኮይን ቦርሳዎች አሉ። ቀላል ጥያቄዎች ትክክለኛውን ቦርሳ ለመወሰን ይረዳሉ:",
 	"wallets_question_1": "ራስ-ጠባቂ ቦርሳ ነው?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp 70 የብረት ጠባቂ ኪቶች ሞክሮ ትክክለኛውን ለመምረጥ ይረዳዎታል።",
 	"wallets_s6_c5": "የJameson ብረት ቢትኮይን ጠባቂ መመሪያ እዚህ ይመልከቱ።",
 	"wallets_s6_c6": "ወይም ቢትኮይን ቦርሳ አማራጮችን ለማየት ወደ ታች ይሸብልሉ።",
+	"wallets_grid_heading": "ታዋቂ የቢትኮይን ዋሌቶች",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "ላይትኒንግ ቦርሳ መመሪያ ይፈልጋሉ?",
 	"wallets_starter_wallet": "ድንቅ የመጀመሪያ ቦርሳ",
 	"wallets_mobile_app": "ሞባይል መተግበሪያ",
@@ -62,5 +65,13 @@
 	"wallets_battery": "ተሞላ ባትሪ",
 	"wallets_build_your_own": "ራስዎ ይገንቡ",
 	"wallets_qwerty_keyboard": "ሙሉ QWERTY ቁልፍ ሰሌዳ",
-	"wallets_qr_scanner": "QR ኮድ አንባቢ"
+	"wallets_qr_scanner": "QR ኮድ አንባቢ",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Choose Your Wallet",
+	"sources_jameson_lopp": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+	"sources_blockstream_green": "Blockstream Green — ራስ-ቁጥጥር የቢትኮይን ዋሌት",
+	"sources_blockstream_jade": "Blockstream Jade — የቢትኮይን ሃርድዌር ዋሌት",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 ሃርድዌር ዋሌት",
+	"sources_coldcard_q": "Coinkite — Coldcard Q ሃርድዌር ዋሌት",
+	"sources_passport": "Foundation Devices — Passport ሃርድዌር ዋሌት",
+	"sources_seedsigner": "SeedSigner — ክፍት ምንጭ DIY የቢትኮይን መፈረሚያ መሣሪያ"
 }

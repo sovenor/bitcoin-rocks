@@ -270,12 +270,17 @@ This step runs the reverse audit (source → JSON) and wires every user-facing l
 
 For each language, for every namespace: (a) find keys whose English value changed during V2 and update the translation, and (b) find keys present in English but missing in this language and translate them.
 
-**Tooling (Phase A — built 2026-04-23, see `memory-bank/activeContext.md`):**
-- `scripts/i18n-audit/snapshot-english.js` — one-time: captures the current English corpus to `english-snapshot.json`.
-- `scripts/i18n-audit/language-diff.js <code>` — generates a per-language work queue at `scripts/i18n-audit/reports/<code>.json` listing only the entries needing attention (`missing` / `untranslated` / `likely-stale`). Typical report is ~220KB / 880–930 entries, fits comfortably in one session.
-- `scripts/i18n-audit/apply-translations.js <code>` — merges the completed report back into the `i18n/<code>/**/*.json` tree, bumps `@metadata.last-updated`, reorders keys to match English, and archives the report to `reports/applied/`.
+**🔄 Tooling refactor — 2026-04-23 (manifest-driven):** The original heuristic-based english-changed detection in `language-diff.js` had a file-level freshness-gate bug that silently skipped stale translations when the target file's `@metadata.last-updated` happened to equal English's (hit `am/bitcoin-vs-gold` after its `hero_title` write bumped the date to match English). Replaced with a deterministic **V2 manifest** (`scripts/i18n-audit/v2-manifest.json`, committed artifact) + per-locale marker (`scripts/i18n-audit/v2-refresh-status/<lang>.json`). See `.clinerules/workflows/manifest-translate-refresh.md` for the new workflow.
 
-**Per-language workflow:** Run `/translate-v2-refresh <Language Name>` — see `.clinerules/workflows/translate-v2-refresh.md` for the full per-session procedure.
+**Tooling (manifest-driven):**
+- `scripts/i18n-audit/snapshot-english.js` — captures current English corpus.
+- `scripts/i18n-audit/build-v2-manifest.js` — builds the canonical manifest from preV2 + current snapshots. Emits `v2-manifest.json` with `changed` (162 entries) + `added` (388 entries) sections, sha256 `manifestVersion` hash.
+- `scripts/i18n-audit/language-diff.js <code>` — manifest-aware diff, includes manifest entries unless the per-locale marker matches the current manifestVersion.
+- `scripts/i18n-audit/apply-translations.js <code>` — applies translations, writes the per-locale marker after full manifest coverage, archives report, auto-runs verify-language.js.
+- `scripts/i18n-audit/verify-language.js <code>` — unified audit (4 checks: marker version, locale-specific coverage, manifest coverage, stale pre-V2 English). Replaces the old `scripts/audit-translation.js` (deleted).
+
+**Per-language workflow:** Run `/translate-manifest-refresh <Language Name>` — see `.clinerules/workflows/manifest-translate-refresh.md` for the full per-session procedure.
+
 
 **Phase A+ follow-up (2026-04-23) — sticker-files namespace consolidation:** The `sticker-files/<lang>/index` per-language namespaces (all 43 slugs) were all empty shells after Step 2 stripped the dead `<lang>_header` / `<lang>_description` / `<lang>_bitcoin_sticker_files` keys — the V2 page at `app/[locale]/sticker-files/[lang]/page.tsx` builds the hero in-code from `common_language_<name>` keys. `scripts/i18n-audit/consolidate-sticker-files-langs.js` (a) lifted the one remaining live key — `print_these` ("PRINT THESE IN 1 CLICK") from `sticker-files/english/index` — into `common_<locale>.json` as `common_sticker_files_print_these`, preserving 29 locale-specific translations and falling back to English for the other 25, and (b) deleted all 2,365 `sticker-files/<lang>/` subdirectories across the 55 locales. Updated `lib/i18n/request.ts` `DEFAULT_NAMESPACES` to drop the 43 dead sticker-files entries, leaving just `sticker-files/index` (picker page). English snapshot regenerated: went from 81 → 38 namespaces / 1,849 keys. `npx tsc --noEmit` + `npm run build` clean. Net effect: Phase B translators no longer waste cycles on 43 empty namespaces per language.
 
@@ -287,7 +292,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 - [x] `af` — Afrikaans (2026-04-23; 916 entries → 0 flagged. Two helper scripts: `translate-inflation.js` (365 entries via templated per-currency translation function × 13 currencies) + `translate-rest.js` (551 entries across 36 namespaces, keyed by `<ns>::<key>` to disambiguate keys like `hero_title` that appear in every comparison namespace). Also expanded audit allow-lists in `scripts/i18n-audit/language-diff.js` + `scripts/audit-translation.js` to cover: home_link_author_* proper nouns, buy_country_* country names, common_language_* (Latin-script locales keep these identical), nostr client + platform brand names, business/wallets uppercase brand labels, inflation_stat_<code>_label currency tokens, dataset citations (FRED/BLS/Bitcoin whitepaper/Lightning paper/Jameson Lopp/James Lavish), and numeric tokens. Tightened `targetHasV2MarkerEquivalent` to skip the length-ratio check when English is ≤ 12 chars (fixes false-positive "likely-stale" on short tokens like "Source:"). `npm run build` clean across 4,349 static pages.)
 
-- [ ] `am` — Amharic
+- [x] `am` — Amharic (2026-04-23; 874 entries → 0 flagged. Report split across 3 helper scripts: `translate-inflation.js` (364 inflation entries via templated per-currency function × 13 currencies + 37 non-currency keys), `translate-rest.js` (502 entries across 37 namespaces keyed by `<ns>::<key>`), `retranslate-english-changed.js` (8 V2-rewritten English keys — 2 on the 404 page, 5 on /buy step headers, 1 on the sticker-files hero). Also tuned `scripts/i18n-audit/language-diff.js`: added `CBDC` to the SHORT_ALLOWED_IDENTICAL set (4-char brand acronym) and lowered `targetHasV2MarkerEquivalent`'s length-ratio lower bound from 0.75 to 0.55 so syllabic/abugida scripts (Ge'ez, Tibetan, etc. — Amharic naturally renders at ~60–70% of English length) don't trigger false-positive "likely-stale" flags on correct translations. Added "Lightning Network" to audit-translation.js's SKIP_VALUES (brand phrase kept verbatim). `npm run build` clean across 4,349 static pages.)
 - [ ] `ar` — Arabic
 - [ ] `az` — Azerbaijani
 - [ ] `bg` — Bulgarian
@@ -382,7 +387,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 1 |
+| Per-language re-translation (Step 5) | 54 | 2 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

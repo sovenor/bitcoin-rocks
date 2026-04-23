@@ -1,4 +1,111 @@
-## Latest: i18n audit tooling — `english-changed` detection added + Afrikaans re-run — April 23, 2026
+## Latest: Manifest-driven i18n refresh refactor + af/am rescue — April 23, 2026
+
+User flagged that `i18n/am/bitcoin-vs-gold_am.json` still had V1 Amharic translations (e.g. `point_3_summary_1`) under V2 English keys, even after the Amharic Step 5 pass had just been "verified clean" earlier the same day. Root-cause investigation revealed a **file-level freshness-gate bug** in the previous `language-diff.js`:
+
+```js
+// language-diff.js (old)
+if (preV2Snapshot && !isTargetFileFresh(enNs, tgNs)) { ... }
+
+function isTargetFileFresh(enNs, tgNs) {
+  return tgDate >= enDate;  // YYYY-MM-DD lexicographic
+}
+```
+
+When `apply-translations.js` bumped `i18n/am/bitcoin-vs-gold_am.json`'s `@metadata.last-updated` to today (same as English's date) after writing `hero_title`, the gate silently marked the whole file as "fresh" and skipped english-changed detection for every other stale key in it. Result: 8 english-changed entries caught in the am report instead of the actual 163.
+
+### Refactor — manifest-driven detection
+
+Replaced the heuristic english-changed + likely-stale tiers with a committed **V2 manifest** (`scripts/i18n-audit/v2-manifest.json`) + per-locale marker (`scripts/i18n-audit/v2-refresh-status/<lang>.json`) pinning the manifestVersion the locale was last refreshed against.
+
+Files created:
+- `scripts/i18n-audit/build-v2-manifest.js` — generates deterministic manifest from preV2 + current English snapshots. Filters brand-identical keys/values (expanded the allow-list vs. before). Emits sha256 `manifestVersion` hash.
+- `scripts/i18n-audit/v2-manifest.json` — committed canonical list: 162 `changed` entries + 388 `added` entries = **550 manifest entries**, same for every locale.
+- `scripts/i18n-audit/v2-refresh-status/<lang>.json` — per-locale marker, written by `apply-translations.js` when all manifest entries in a report are resolved.
+- `scripts/i18n-audit/verify-language.js` — unified audit replacing the old two-audit dance. Four checks: marker version, locale-specific missing/untranslated, outstanding manifest entries, stale pre-V2 English cross-check.
+- `scripts/i18n-audit/rescue-carry-over.js` — one-off helper that carries existing `currentValue` into `targetTranslation` for safely-translated entries (safe for manifest-added, gated by `--trust-changed` for manifest-changed).
+
+Files refactored:
+- `scripts/i18n-audit/language-diff.js` — dropped `isTargetFileFresh()`, `englishMeaningfullyChanged()`, `normalizeForChangeDetection()`, `loadPreV2Snapshot()`, all likely-stale logic + `V2_ERA_MARKERS`. Added manifest + marker loading. New report shape with `manifest-changed` / `manifest-added` reason categories + `markerMatches` field.
+- `scripts/i18n-audit/apply-translations.js` — writes per-locale marker after full manifest coverage, auto-runs `verify-language.js`. Dropped `--no-archive` flag (low value).
+
+Files renamed/deleted:
+- `.clinerules/workflows/v2-translate-refresh.md` → `manifest-translate-refresh.md` — completely rewritten around the manifest. Invocation changes: `/translate-v2-refresh` → `/translate-manifest-refresh`.
+- `scripts/audit-translation.js` — **deleted** (superseded by verify-language.js).
+
+### af + am rescue results
+
+Both locales had the manifest apply the identical 550 entries. Verification clean for both:
+- **af:** 162 manifest-changed carried over from the prior `retranslate-english-changed.js` work + 388 manifest-added carried over from currentValue. Zero translator work needed.
+- **am:** 388 manifest-added carried over safely; 162 manifest-changed translated fresh in two parts (`scripts/am-manifest-refresh/translate-manifest-changed.js` + `-part2.js`). Includes the original user-reported bug: `bitcoin-vs-gold|point_3_summary_1` now correctly translates the NEW English (21M cap + 1.6% gold growth) instead of the old "21 Million BTC that will ever exist."
+
+### Verification
+
+- `npm run build`: clean across 4,349 static pages, zero MISSING_MESSAGE, zero warnings.
+- `node scripts/i18n-audit/verify-language.js af`: ✅ PASS all 4 checks.
+- `node scripts/i18n-audit/verify-language.js am`: ✅ PASS all 4 checks.
+- Pre-V2 snapshot kept as frozen artifact (`english-snapshot-preV2.json` unchanged).
+
+### Handoff notes for remaining 52 locales
+
+- Every other locale's `language-diff.js <code>` report will now include the 550 manifest entries until they're refreshed against the current `manifestVersion`. This is correct and desired — they genuinely need that work, the old tooling was just silently hiding it.
+- Future English rewrites: run `snapshot-english.js` + `build-v2-manifest.js`. New hash → every marker becomes stale → relevant keys re-flag per locale.
+- The translator helper pattern worked: split manifest-changed translations into smaller parts by namespace category when the full list exceeds ~100 entries.
+
+---
+
+## Previous: Step 5 V2 refresh — Amharic (am) — April 23, 2026
+
+
+Second language through the Phase B per-language Step 5 refresh pipeline. Amharic is the first abugida/syllabic-script locale to go through the refresh — uncovered and fixed a false-positive in the `likely-stale` heuristic.
+
+### Stats
+
+- **Total flagged:** 874 entries (vs. Afrikaans 1079).
+  - Missing: 854
+  - Untranslated: 12 (11 common sticker-dimensions + `bitcoin-vs-cbdc::cbdc`)
+  - English-changed: 8 (2 on /404, 5 on /buy step headers, 1 on /sticker-files index hero)
+  - Likely-stale: 0 (before allow-list tuning, would have been ~4 false positives)
+
+### Workflow breakdown
+
+Split across 3 per-category helper scripts in `scripts/amharic-v2-refresh/`:
+
+1. **`retranslate-english-changed.js`** — 8 translations for V2-rewritten English keys. Short pattern; identical shape to Afrikaans template.
+2. **`translate-inflation.js`** — 364 inflation entries. 13-currency templated function (same structure as Afrikaans) × 25 template suffixes (intro_1/2/highlight, proof_p1–p6, btc_p1–p4, freedom_h2/p1/p2, stat_label/existence_title/debt_title/detail_4yr/source_bpr) + 37 non-currency shared keys (freedom cards, story cards, BPR detail, source citations).
+3. **`translate-rest.js`** — 502 entries across 37 non-inflation namespaces, keyed `<ns>::<key>`. Includes the 11 common sticker-dimensions entries (translated cm/in labels to Amharic syllabic equivalents: `ሴ.ሜ` / `ኢንች`). No unmatched keys.
+
+### Tooling tuning — syllabic-script false-positive fix
+
+Amharic uses Ge'ez script — one syllabic glyph per syllable — so its translations are naturally **~60–70% of the English character count**. The old `targetHasV2MarkerEquivalent` length-ratio floor of 0.75 rejected 4 correct Amharic "Source: …" translations (`ምንጭ: …`) as likely-stale:
+
+- `about::about_card_email_source` — ratio 0.73
+- `business/why::why_whats_next_heading` — ratio 0.64
+- `inflation::inflation_stat_btc_source_bpr` — ratio 0.70
+- `inflation::inflation_stat_currency_source_debt` — ratio 0.70
+
+Fix: lowered the lower bound from **0.75 → 0.55** in `scripts/i18n-audit/language-diff.js`. Kept the upper bound at 1.35 (target much longer than English is still a stale signal). Documented in the comment — Ge'ez/Tibetan/certain Thai combinations legitimately land in this range.
+
+Also added to the allow-lists:
+
+- `CBDC` → `SHORT_ALLOWED_IDENTICAL` (language-diff.js) — 4-char brand acronym, legitimately identical across locales
+- `"Lightning Network"` → `SKIP_VALUES` (audit-translation.js) — brand phrase kept verbatim
+
+### Verification
+
+- `language-diff.js am` post-apply: **missing=0, untranslated=0, englishChanged=0, likelyStale=0**.
+- `audit-translation.js am`: **missingFiles=0, missingKeys=0, identical=0, englishChanged=0**.
+- `apply-translations.js am --verify-only`: **both audits ✅ PASS**.
+- `npm run build`: clean across 4,349 static pages, zero `MISSING_MESSAGE`, zero warnings.
+
+### Handoff notes for next locale
+
+- The lower-bound 0.55 ratio fix unblocks every future abugida/syllabic locale (Tibetan, Khmer, Burmese, Sinhala, Hindi/Devanagari and related Indic scripts — though Devanagari tends to render comparable-length to English).
+- The 3-script pattern (english-changed, inflation, rest) is now proven for both Latin-script (Afrikaans) and Ge'ez-script (Amharic). Recommended for all remaining 52 locales.
+- Files touched this session: 38 i18n/am JSON files, 2 allow-list tweaks (language-diff.js + audit-translation.js), and the 3 helper scripts under scripts/amharic-v2-refresh/. Archived report at `scripts/i18n-audit/reports/applied/am-20260423-204033.json`.
+
+---
+
+## Previous: i18n audit tooling — `english-changed` detection added + Afrikaans re-run — April 23, 2026
 
 **Root cause of a bug the user spotted:** on `bitcoin-vs-gold` (and every other V2-redesigned comparison page) the Afrikaans translation was a correct, long, V1-era paragraph — but the English it was translating had been *rewritten in place* during the V2 redesign into a much shorter phrase. Same JSON keys (`point_3_summary_1/2/3`), completely different English copy. The earlier `language-diff.js` didn't flag these because:
 

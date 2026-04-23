@@ -5,5 +5,13 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "am"
-	}
+	},
+	"biz_maps_success_hero_title": "ጥያቄ ደርሶናል 🎉",
+	"biz_maps_success_hero_subtitle": "ንግድዎን ስላቀረቡ እናመሰግናለን። በቅርቡ በቢትኮይን የነጋዴ ካርታዎች ላይ እናስዘረግብልዎታለን።",
+	"biz_maps_success_timeline_header": "ቀጥሎ የሚሆነው",
+	"biz_maps_success_timeline_c1": "ንግድዎ በ BTC Map እና ሌሎች የቢትኮይን ነጋዴ ማውጫዎች ላይ በ1 እስከ 2 ሳምንታት ውስጥ ይዘረዘራል። ካርታዎችን ትክክለኛ ለማድረግ እያንዳንዱን ማቅረብ በእጅ እንገመግማለን።",
+	"biz_maps_success_timeline_c2": "ዝርዝርዎ በቀጥታ ሲሄድ፣ በአቅራቢያ ያሉ ቢትኮይነሮች ንግድዎን አግኝተው ቢትኮይን ለማውጣት ይመጣሉ።",
+	"biz_maps_success_view_header": "የት እንደሚታዩ ይመልከቱ",
+	"biz_maps_success_view_c1": "እየጠበቁ ሳለ፣ በዓለም ዙሪያ ቢትኮይን የሚቀበሉ ንግዶች እያደገ ያለውን አውታረ መረብ ለማየት BTC Map ይመልከቱ።",
+	"biz_maps_success_btn_view_map": "BTC Map ይመልከቱ"
 }

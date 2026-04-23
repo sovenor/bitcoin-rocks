@@ -7,5 +7,20 @@
 		"locale": "am"
 	},
 	"bitcoin_accepted_here_stickers": "«Bitcoin Accepted Here» ስቲከሮች",
+	"biz_stickers_hero_title": "ነፃ የ'Bitcoin Accepted Here' ስቲከሮች",
+	"biz_stickers_hero_subtitle": "ደንበኞችዎ ቢትኮይን እንደሚቀበሉ እንዲያውቁ ያድርጉ። በንግድዎ ላይ ለመለጠፍ ነፃ የ'Bitcoin Accepted Here' ስቲከር ፓኬት ያዙ።",
+	"biz_stickers_intro_c1": "ቢትኮይንን መቀበል ሥራው ግማሽ ብቻ ነው — ደንበኞችዎ እንደሚያደርጉ ማወቅ አለባቸው። እነዚህ ትናንሽ 'Bitcoin Accepted Here' ስቲከሮች ደንበኞች ከመክፈላቸው በፊት በሚያዩባቸው በበርዎ፣ በካሽ ሬጅስተር፣ በምናሌ፣ ወይም በሌላ ቦታ ላይ እንዲለጠፉ የተቀረፁ ናቸው።",
+	"biz_stickers_intro_c2": "በአሜሪካ ወይም በካናዳ ውስጥ የትም ቦታ ነፃ ፓኬት እናላካለን፣ ወይም በዓለም ዙሪያ የራስዎን ማተም ይችላሉ።",
+	"biz_stickers_step_header": "ስቲከሮችዎን እንዴት ማግኘት ይፈልጋሉ?",
+	"biz_stickers_step_description": "በአሜሪካ እና በካናዳ ውስጥ ላሉ አድራሻዎች ነፃ ፓኬት እንልካለን። በዓለም ዙሪያ የትም ቦታ የራስዎን ማተም ይችላሉ።",
+	"biz_stickers_option_usa": "🇺🇸 አሜሪካ — በፖስታ በነፃ",
+	"biz_stickers_option_canada": "🇨🇦 ካናዳ — በፖስታ በነፃ",
+	"biz_stickers_option_print": "🌍 ዓለም አቀፍ — የራሴን አተማለሁ",
+	"biz_stickers_print_header": "የራስዎን ስቲከር ፋይሎች ያትሙ",
+	"biz_stickers_print_c1": "የት ቢኖሩም የራስዎን 'Bitcoin Accepted Here' ስቲከሮች ማተም ይችላሉ። የስቲከር ፋይሎቹን እና የህትመት መመሪያዎችን ለማውረድ ከታች ቋንቋዎን ይጫኑ።",
+	"biz_stickers_request_header": "ቋንቋዎን አያዩም?",
+	"biz_stickers_request_c1": "በአካባቢዎ ቋንቋ 'Bitcoin Accepted Here' ስቲከር ፋይሎችን ለመጠየቅ ከታች ያለውን ቅጽ ይሙሉ። ዝግጁ ሲሆኑ እናሳውቅዎታለን።",
+	"biz_stickers_placeholder_translation1": "ለ 'Bitcoin Accepted Here' ትርጉም",
+	"biz_stickers_placeholder_translation2": "ለ 'Scan to learn why Bitcoin is good for business.' ትርጉም",
 	"stickers_request": "ነፃ ስቲከሮች ያግኙ"
 }

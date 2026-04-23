@@ -5,5 +5,16 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "am"
-	}
+	},
+	"biz_sticker_success_hero_title": "ስቲከሮችዎ በመንገዱ ላይ ናቸው 🎉",
+	"biz_sticker_success_hero_subtitle": "በ2 እስከ 4 ሳምንታት ውስጥ ነፃ 'Bitcoin Accepted Here' ስቲከሮችዎን በተራ ነጭ ኤንቨሎፕ ውስጥ 3 ስቲከሮች ጋር ይቀበላሉ።",
+	"biz_sticker_success_tips_header": "ስቲከሮችዎን የሚያስቀምጡባቸው ጥሩ ቦታዎች",
+	"biz_sticker_success_tip_1": "ደንበኞች ከመግባታቸው በፊት እንዲያዩት በፊት በርዎ ወይም መስኮትዎ ላይ",
+	"biz_sticker_success_tip_2": "ከካሽ ሬጅስተርዎ፣ POS ተርሚናልዎ፣ ወይም የክፍያ ቦታዎ አጠገብ",
+	"biz_sticker_success_tip_3": "በምናሌዎች፣ የዋጋ ዝርዝሮች፣ ወይም በባቄላ ማስቀመጫዎች ላይ",
+	"biz_sticker_success_tip_4": "የእርስዎ ያልሆነ ወይም ለማስቀመጥ ፈቃድ የሌልዎት ቦታ ላይ አይለጥፏቸው",
+	"biz_sticker_success_more_header": "ተጨማሪ ስቲከሮች ያስፈልጉዎታል?",
+	"biz_sticker_success_more_c1": "ለንግድዎ 3 ስቲከሮች በቂ ካልሆኑ፣ ሌላ ነፃ ፓኬት መጠየቅ — ወይም ከምንጠቀመው ተመሳሳይ ማተሚያ ቤት በብዛት ማዘዝ ይችላሉ።",
+	"biz_sticker_success_btn_order_bulk": "በብዛት ያዙ",
+	"biz_sticker_success_btn_request_more": "ሌላ ነፃ ፓኬት ይጠይቁ"
 }

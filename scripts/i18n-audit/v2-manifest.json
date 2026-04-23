@@ -1,0 +1,2929 @@
+{
+	"generatedAt": "2026-04-23T21:43:21.740Z",
+	"preV2Commit": "133d5b984b93c61f40953bcb7819341f6984329c",
+	"preV2CommitShort": "133d5b984b93",
+	"preV2GeneratedAt": "2026-04-23T19:45:23.520Z",
+	"currentSnapshotGeneratedAt": "2026-04-23T21:31:02.503Z",
+	"manifestVersion": "75d5ff1151d50651ec21dbcf2989b30a4df05a6066fff1c183b822bf089da49d",
+	"totals": {
+		"changed": 162,
+		"added": 388,
+		"total": 550
+	},
+	"changed": [
+		{
+			"namespace": "404",
+			"key": "404_home",
+			"englishValueBefore": "GO BACK HOME",
+			"englishValue": "Back to Home"
+		},
+		{
+			"namespace": "404",
+			"key": "404_message",
+			"englishValueBefore": "THIS BROKEN PAGE DOES NOT ROCK",
+			"englishValue": "Bitcoin rocks, but this broken page does not."
+		},
+		{
+			"namespace": "about",
+			"key": "about_editorial_2",
+			"englishValueBefore": "We link to trusted sources like TIME Magazine, Forbes, MIT Technology Review, Lyn Alden, and many others. We believe that Bitcoin speaks for itself when the facts are presented clearly.",
+			"englishValue": "We link to trusted sources like the Federal Reserve (FRED), the U.S. Bureau of Labor Statistics, the FDIC, the United Nations, the World Gold Council, Forbes, MIT Technology Review, Lyn Alden, and James Lavish. We believe Bitcoin speaks for itself when the facts are presented clearly."
+		},
+		{
+			"namespace": "about",
+			"key": "about_header",
+			"englishValueBefore": "ABOUT",
+			"englishValue": "About bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_open_source_2",
+			"englishValueBefore": "Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.",
+			"englishValue": "bitcoin.rocks is a free, open-source project licensed under the MIT License. Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_header",
+			"englishValueBefore": "BITCOIN DOESN'T HAVE BANK RUNS",
+			"englishValue": "Bitcoin doesn't have bank runs, but your bank might."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin is permissionless, meaning anyone with internet access can use it without asking for approval from any authority.",
+			"englishValue": "Anyone with an internet connection can use Bitcoin — it's"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_2",
+			"englishValueBefore": "Bitcoin operates without gatekeepers",
+			"englishValue": "permissionless."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_3",
+			"englishValueBefore": "- no one can deny you access. Banks, however, can refuse to open accounts, freeze existing accounts, or deny services based on their policies or government regulations.",
+			"englishValue": "Banks can refuse, freeze, or close accounts based on policy or government rules."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "The Bitcoin network operates 24 hours a day, 7 days a week, 365 days a year without maintenance windows or holidays. Banks have limited operating hours, close on weekends and holidays, and often have system maintenance periods when services are unavailable.",
+			"englishValue": "The Bitcoin network runs 24/7/365 with no maintenance windows or holidays. Banks have limited hours, weekends off, and outage windows."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "All Bitcoin transactions are recorded on a public blockchain that anyone can verify and audit.",
+			"englishValue": "Every Bitcoin transaction is on a public blockchain anyone can audit. Banks run private ledgers customers can't independently verify."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "With Bitcoin, you can hold your own private keys and have complete control over your money.",
+			"englishValue": "With Bitcoin, you hold your own private keys — see our simple"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_2",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"englishValue": "Bitcoin wallets"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_3",
+			"englishValueBefore": "to understand self-custody. Banks hold your money in their accounts and can freeze, limit, or restrict access to your funds at any time.",
+			"englishValue": "guide. Banks hold your money and can freeze, limit, or restrict it at any time."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bitcoin transaction fees are transparent, predictable, and typically very low. Banks often have hidden fees, monthly account fees, overdraft charges, wire transfer fees, ATM fees, and other penalties that can add up significantly over time.",
+			"englishValue": "Bitcoin fees are transparent and predictable. Banks stack on hidden account, overdraft, wire, and ATM fees over time."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin prevents you from spending money you don't have - you can only spend Bitcoin that you actually own. Banks allow overdrafts (spending more than your account balance) and then charge substantial fees for this 'service,' often leading to cascading penalty charges.",
+			"englishValue": "Bitcoin only lets you spend what you actually own. Banks allow overdrafts, then charge cascading penalty fees for the privilege."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin transactions are censorship resistant - once broadcast to the network, they cannot be stopped or reversed by any central authority. Banks can block, freeze, reverse, or restrict transactions based on their policies, government orders, or suspicious activity algorithms.",
+			"englishValue": "Once broadcast, Bitcoin transactions can't be stopped or reversed. Banks can block, freeze, or reverse transactions based on policy or government orders."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bonds are only 'risk-free' in nominal dollar terms, meaning you'll get your dollars back if you hold to maturity. However, this ignores inflation risk, interest rate risk, and the possibility that those dollars will be worth much less when you get them back.",
+			"englishValue": "Bonds are only 'risk-free' nominally — inflation, interest-rate moves, and default risk all eat real returns."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_2",
+			"englishValueBefore": "Bitcoin has clear, transparent risks (volatility) but no hidden counterparty risk - you either own your Bitcoin or you don't.",
+			"englishValue": "Bitcoin has transparent volatility but no hidden counterparty risk."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "When inflation is higher than bond yields, bondholders lose purchasing power every year. A 2% bond yield with 4% inflation means you're losing 2% of real value annually.",
+			"englishValue": "When"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_2",
+			"englishValueBefore": "Learn more about inflation.",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_3",
+			"englishValueBefore": "Bitcoin's fixed supply of 21 million coins means it can't be inflated away, but bonds can be devalued by money printing.",
+			"englishValue": "outpaces bond yields, bondholders lose real purchasing power every year. Bitcoin's 21-million cap can't be inflated away."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "During financial crises, bond markets can freeze up and become illiquid. Banks like Silicon Valley Bank got stuck holding bonds that lost significant value when interest rates rose, contributing to their collapse.",
+			"englishValue": "Bond markets can freeze in crises — Silicon Valley Bank collapsed partly because it was stuck holding bonds that lost value. See how"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_2",
+			"englishValueBefore": "Learn how Silicon Valley Bank failed and why Bitcoin is different.",
+			"englishValue": "bank runs"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_3",
+			"englishValueBefore": "Bitcoin trades 24/7 globally and has never had a liquidity crisis - you can always find a buyer or seller.",
+			"englishValue": "happen and why Bitcoin avoids them. Bitcoin trades 24/7 globally with no liquidity crises."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Treasury auctions can fail when there aren't enough buyers for government debt. This happened multiple times in recent years, including weak demand for 10-year bonds in 2022 and 30-year bonds in 2023.",
+			"englishValue": "Treasury auctions can fail when there aren't enough buyers — see the"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_2",
+			"englishValueBefore": "Learn more about these failed treasury auctions.",
+			"englishValue": "weak 2022 auction."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_3",
+			"englishValueBefore": "Bitcoin's price is discovered through continuous global markets with no central auction that can fail.",
+			"englishValue": "Bitcoin's price is discovered continuously on open markets with no central auction that can fail."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bond yields are fixed when you buy them. Even if the economy grows rapidly or the currency devalues significantly, your return stays the same.",
+			"englishValue": "Bond yields are fixed at purchase. Even if the economy booms or the currency collapses, your return stays the same."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_2",
+			"englishValueBefore": "Bitcoin has the potential for significant appreciation as adoption grows and the fixed supply meets increasing demand.",
+			"englishValue": "Bitcoin has room for significant appreciation as adoption grows and demand meets fixed supply."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Most people hold bonds through intermediaries like banks, brokers, or funds, creating counterparty risk. You don't actually own the bonds directly.",
+			"englishValue": "Most bonds are held through banks or brokers, adding counterparty risk. Bitcoin can be self-custodied with a"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_2",
+			"englishValueBefore": "With Bitcoin, you can take direct ownership through self-custody, eliminating counterparty risk entirely.",
+			"englishValue": "wallet"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bonds depend entirely on the government's ability and willingness to pay. If the government faces fiscal crisis, defaults, or decides to inflate away the debt, bondholders suffer.",
+			"englishValue": "Bonds depend entirely on governments paying back. If a government defaults or inflates away its debt, bondholders lose."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_2",
+			"englishValueBefore": "Bitcoin operates independently of any government and cannot be controlled, inflated, or defaulted on by political authorities.",
+			"englishValue": "Bitcoin operates independently of any government or political authority."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin can be sent anywhere in the world instantly over the Internet, while cash requires physical presence or trusted intermediaries. You can't email cash, but you can send Bitcoin to anyone with an Internet connection in minutes.",
+			"englishValue": "Bitcoin moves over the internet anywhere in minutes. Cash needs physical presence or trusted couriers — you can't email a $20 bill."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin works the same way everywhere in the world - there are no borders in the Bitcoin network. Cash is limited by geography, exchange rates, and local acceptance. Try using US dollars in rural Thailand or Japanese yen in rural Mexico.",
+			"englishValue": "Bitcoin works the same way everywhere. Cash is limited by geography, exchange rates, and local acceptance."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Governments can and do invalidate cash overnight through demonetization policies, like India did in 2016 when they banned certain banknotes.",
+			"englishValue": "Governments can invalidate cash overnight — India did it in 2016. Even without demonetization, cash loses value to"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_2",
+			"englishValueBefore": "Even without banning certain banknotes, governments constantly devalue cash through inflation.",
+			"englishValue": "inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_3",
+			"englishValueBefore": "Bitcoin cannot be invalidated by any government or authority - it exists on a global, decentralized network that no single entity controls.",
+			"englishValue": "Bitcoin can't be invalidated by any government or authority."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Cash can be counterfeited, and it's often difficult to detect fake bills without special equipment. Even with security features, counterfeit cash continues to circulate. Bitcoin uses cryptographic proof that makes counterfeiting mathematically impossible.",
+			"englishValue": "Cash can be counterfeited, sometimes convincingly. Bitcoin uses cryptography that makes counterfeiting mathematically impossible."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Cash is issued and controlled by governments, who can print more at will, change designs, or declare certain bills invalid. Bitcoin operates on a decentralized network where no single authority has control over the money supply or rules.",
+			"englishValue": "Bitcoin has no central authority. Cash is issued by governments that can print more, change designs, or invalidate notes at will."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Cash must be stored physically, making it vulnerable to theft, loss, fire, or confiscation. Large amounts require expensive security measures.",
+			"englishValue": "Cash is vulnerable to theft, fire, loss, and confiscation. Bitcoin can be securely"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_2",
+			"englishValueBefore": "But Bitcoin can be securely stored in self-custody",
+			"englishValue": "self-custodied"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_3",
+			"englishValueBefore": "using a smartphone app or specialized wallet, giving you complete control over your money without physical storage risks.",
+			"englishValue": "on a phone or hardware device."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Cash has minimum denominations - you can't split a penny into smaller parts. Bitcoin can be divided into 100 million smaller units called satoshis, enabling micropayments and precise transactions of any amount.",
+			"englishValue": "Bitcoin divides into 100 million sats, enabling micropayments of any size. Cash has minimum denominations — you can't split a penny."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_10_summary_1",
+			"englishValueBefore": "Bitcoin is the most secure computing network that has ever existed and has never been hacked. CBDCs rely on governments and banks to secure the network, which have been hacked countless times throughout history.",
+			"englishValue": "Bitcoin is the most secure computing network ever built and has never been hacked. CBDCs rely on banks and governments that have been hacked countless times."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin is designed to give you total control over your money.",
+			"englishValue": "Nobody can stop you from transacting with Bitcoin. CBDCs are designed so governments and central banks can control every payment, limiting your privacy and freedom."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin never expires and has no monthly fees.",
+			"englishValue": "Bitcoin never expires and has no monthly fees. CBDCs can be programmed to expire, preventing you from saving for the future."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. CBDCs have no cap on supply, allowing governments to expand money at will — which causes"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_2",
+			"englishValueBefore": "CBDCs, much like the government currencies we use today, have no cap on total supply. This lack of cap on total supply allows the government to expand the money supply.",
+			"englishValue": "inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Bitcoin addresses are pseudonymous, which means they are not linked to your real name or identity. CBDCs are directly linked to your real name and identity which enables massive financial surveillance and censorship.",
+			"englishValue": "Bitcoin addresses aren't tied to your real identity. CBDCs link directly to government ID, enabling mass financial surveillance and censorship."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"englishValue": "Bitcoin's rules are validated by tens of thousands of independent nodes. CBDCs are centralized in government and central-bank hands, which hold complete control over the network."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin allows anyone to run a node that verifies the rules of the network are being followed. CBDCs don't allow anyone to run nodes and rely on trust in the government and central banks.",
+			"englishValue": "Anyone can run a Bitcoin node to verify the rules of the network. CBDCs don't allow users to run nodes — you have to trust the central authority."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin is designed to make it impossible for others to freeze your money. CBDCs are designed to make it easy for governments and central banks to freeze your money.",
+			"englishValue": "Self-custodied Bitcoin can't be frozen by anyone. CBDCs are designed so governments and central banks can freeze accounts instantly."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_1",
+			"englishValueBefore": "Bitcoin is designed to give you full control over your money.",
+			"englishValue": "Bitcoin gives you full control over your money when you self-custody it with a"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_2",
+			"englishValueBefore": "Just make sure you withdraw it to a self-custody wallet.",
+			"englishValue": "wallet."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_3",
+			"englishValueBefore": "When you self-custody your bitcoin, no one can stop you from accessing your money.",
+			"englishValue": "CBDCs require trusting custodians like banks or governments to hold your money for you."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_1",
+			"englishValueBefore": "Bitcoin has a predictable monetary policy that is fixed in code and can't be changed. CBDCs, like our currencies today, have a monetary policy that can easily be changed.",
+			"englishValue": "Bitcoin's monetary policy is fixed in code and can't be changed. CBDCs can be reprogrammed at will by politicians, causing"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_2",
+			"englishValueBefore": "This results in inflation when politicians print too much money.",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin's protocol has remained fundamentally unchanged since 2009, providing predictable rules that cannot be easily altered. Most crypto projects frequently update their protocols, change tokenomics, or fork into new versions, creating uncertainty for users.",
+			"englishValue": "Bitcoin's protocol has stayed fundamentally the same since 2009, providing predictable rules. Most crypto projects constantly change protocols, tokenomics, or fork into new versions."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin operates on a truly decentralized network with tens of thousands of independent nodes worldwide. Many crypto projects are controlled by foundations, companies, or small groups of developers who can make unilateral decisions about the protocol's future.",
+			"englishValue": "Bitcoin runs on tens of thousands of independent nodes worldwide. Most crypto projects are controlled by foundations, companies, or small dev teams that can make unilateral changes."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million coins that will ever exist, making it the scarcest digital asset. Most crypto projects have unlimited supplies, inflationary mechanisms, or can mint new tokens at will, diluting holder value over time.",
+			"englishValue": "Bitcoin has a hard cap of 21 million coins — the scarcest digital asset. Most crypto projects have unlimited supplies or mechanisms to mint new tokens at will, diluting holders."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Bitcoin has one simple purpose: peer-to-peer digital money. Anyone can understand and use it with basic knowledge. Many crypto projects involve complex smart contracts, DeFi protocols, or governance mechanisms that require technical expertise to use safely.",
+			"englishValue": "Bitcoin has one purpose: peer-to-peer digital money. Anyone can understand and use it. Most crypto involves complex smart contracts or DeFi that require technical expertise to use safely."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bitcoin uses Proof of Work consensus, which has been battle-tested for over 15 years without a single successful attack on the main network. Many crypto projects use experimental consensus mechanisms like Proof of Stake or delegated systems that haven't proven their long-term security.",
+			"englishValue": "Bitcoin's Proof of Work has run without a successful attack on the main network for over 15 years. Most crypto projects use experimental consensus that hasn't been battle-tested."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin serves as digital money - a store of value and medium of exchange. Most crypto tokens are utility tokens for specific platforms, governance tokens, or speculative assets with unclear real-world value propositions.",
+			"englishValue": "Bitcoin is digital money — a store of value and medium of exchange. Most crypto tokens are speculative utility or governance tokens with unclear real-world value."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin becomes stronger under attack and has survived every crisis, ban, and criticism thrown at it. Most crypto projects are fragile and can collapse from regulatory pressure, technical failures, or market downturns.",
+			"englishValue": "Bitcoin grows stronger under attack and has survived every crisis, ban, and criticism. Most crypto projects collapse under regulatory, technical, or market pressure."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_8_summary_1",
+			"englishValueBefore": "Bitcoin has no CEO, no company behind it, and no single point of failure. Many crypto projects are backed by venture capital firms, have identifiable leadership teams, or depend on specific companies for their continued operation.",
+			"englishValue": "Bitcoin has no CEO, no company, no single point of failure. Most crypto projects depend on VCs, specific leadership, or one company's survival."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin is perfectly fungible, meaning every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Fine art is non-fungible by nature, with each piece being unique in its creation, history, condition, and provenance, making direct comparisons and valuations extremely difficult.",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every artwork is unique — different creation, history, condition, and provenance make direct comparisons extremely difficult."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin trades on a global 24/7 market where anyone with internet access can buy or sell instantly. Fine art requires specialized auction houses like Sotheby's or Christie's, private dealers, or exclusive galleries. Sales can take months to arrange and complete, with limited market access and irregular trading opportunities.",
+			"englishValue": "Bitcoin trades 24/7 on a global market accessible to anyone. Fine art requires specialized auction houses, private dealers, or galleries and can take months to sell."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Buying or selling bitcoin typically costs less than 1% in fees, often much less. Fine art sales involve substantial costs including buyer's premiums (10-25%), seller's commissions (10-15%), insurance, transportation, storage, and authentication fees. These combined costs can easily exceed 30-40% of the artwork's value in a single transaction.",
+			"englishValue": "Buying or selling Bitcoin costs under 1% in fees, often much less. Art sales rack up 30–40% in buyer's premiums, commissions, insurance, transport, and authentication fees."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size from microtransactions to large purchases. Fine art cannot be divided - you cannot own a fraction of a painting or sell just part of a sculpture. This indivisibility limits investment flexibility and liquidity options.",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bitcoin ownership and authenticity can be cryptographically verified on the blockchain by anyone with basic technical knowledge. Fine art requires expensive expert authentication, provenance research, and scientific analysis. Even with expert verification, forgeries regularly fool the art world, and authentication disputes can destroy an artwork's value overnight. Bitcoin, on the other hand, cannot be forged or counterfeited.",
+			"englishValue": "Bitcoin ownership and authenticity can be cryptographically verified by anyone on-chain. Art authentication is expensive, slow, and still routinely fooled by forgers — destroying an artwork's value overnight."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, theft, or other disasters. Fine art is vulnerable to all forms of physical destruction and deterioration. Even with expensive climate-controlled storage and comprehensive insurance, artworks can be damaged by environmental factors, accidents, or natural disasters, potentially losing all value.",
+			"englishValue": "Bitcoin, backed up properly, survives floods, fires, earthquakes, and theft. Fine art is vulnerable to every form of physical destruction, and insurance rarely covers it all."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin can be bought and sold by anyone with internet access and a small amount of money to invest. Fine art investment is largely limited to wealthy collectors due to high minimum prices, exclusive auction access, storage requirements, insurance costs, and the specialized knowledge needed to navigate the art market successfully.",
+			"englishValue": "Anyone with an internet connection and a little money can buy Bitcoin. Fine art investment is effectively limited to wealthy collectors with auction access and specialized knowledge."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Because Bitcoin is digital, it can be sent almost instantly for very low fees by anyone with an Internet connection. Because Gold is physical, it cannot be moved across the Internet and must be physically shipped to transfer ownership.",
+			"englishValue": "Bitcoin can be sent instantly over the internet for low fees. Gold must be physically shipped to transfer ownership."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.",
+			"englishValue": "Bitcoin is a digitally native asset you can transfer over the internet. Most online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 Million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_2",
+			"englishValueBefore": "New gold supply is pulled out of the ground each year, resulting in inflation of the total supply. It's estimated that the total supply of gold increases by about 1.6% per year, which means your slice of the pie shrinks by 1.6% per year.",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_3",
+			"englishValueBefore": "This is less than fiat inflation, but still inflation.",
+			"englishValue": "— but still inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Gold has an elastic supply, meaning that as the price of gold rises, there is a greater incentive to mine more gold. This often puts downward pressure on the gold price as new mines come online.",
+			"englishValue": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"englishValue": "Tens of thousands of independent nodes validate the Bitcoin network. Most physical gold sits in a handful of large custodian vaults."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "With Bitcoin, it's incredibly easy to verify that you have real Bitcoin by taking self-custody of your coins and running a full node.",
+			"englishValue": "Anyone can verify real Bitcoin by running a full node — it's just an app. Verifying physical gold requires melting it down; the inside could be tungsten."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Just like there are 100 cents in 1 dollar, there are 100,000,000 sats in 1 Bitcoin. This enables Bitcoin to be used for all scales of purchases, including microtransactions as small as a few cents.",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size purchase. Gold can't be easily divided for small transactions."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin can be moved anywhere in the world instantly over the internet. Real estate is permanently fixed to a specific location and cannot be relocated, making it vulnerable to local economic conditions, natural disasters, and political instability.",
+			"englishValue": "Bitcoin moves anywhere in the world instantly. Real estate is fixed to one location and exposed to local economic, political, and natural risks."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size. Real estate cannot be easily divided - you can't sell just the kitchen of your house or buy half a bedroom.",
+			"englishValue": "Bitcoin divides into 100 million sats. Real estate can't be partly sold — you can't offload just the kitchen or buy half a bedroom."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin operates on a decentralized network that no government can control. Real estate is subject to extensive government regulation including rent control, eviction moratoriums, zoning laws, and eminent domain where governments can seize your property.",
+			"englishValue": "Bitcoin operates on a decentralized network that no government can control. Real estate is heavily regulated — zoning, rent control, eminent domain, and seizure all apply."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Bitcoin requires no maintenance - it exists as digital code on a network. Real estate requires constant upkeep including repairs, renovations, property management, insurance, and dealing with tenants if rented.",
+			"englishValue": "Bitcoin requires no upkeep. Real estate demands repairs, renovations, insurance, property management, and tenant issues."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bitcoin has no ongoing taxes - you only pay capital gains when you sell. Real estate is subject to annual property taxes that must be paid regardless of whether the property generates income, effectively forcing you to rent your own property from the government forever.",
+			"englishValue": "Bitcoin has no ongoing taxes — you only pay capital gains when you sell. Real estate owes annual property taxes regardless of income."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, or other natural disasters. Real estate is vulnerable to all forms of physical destruction and requires expensive insurance that may not fully cover losses.",
+			"englishValue": "Bitcoin, backed up properly, survives fire, flood, and earthquake. Real estate is vulnerable to every disaster, and insurance rarely covers it all."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Every piece of real estate is unique with different locations, conditions, and characteristics, making it difficult to price and compare properties.",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every property is unique, making pricing and comparisons difficult."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_8_summary_1",
+			"englishValueBefore": "Bitcoin can be bought and sold 24/7 by anyone with internet access anywhere in the world. Real estate sales are limited to local buyers, require lengthy processes with lawyers and agents, and can take months to complete.",
+			"englishValue": "Bitcoin trades globally 24/7 by anyone with internet access. Real estate sales are limited to local buyers and can take months of paperwork to close."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_9_summary_1",
+			"englishValueBefore": "Bitcoin enables direct individual ownership without intermediaries, promoting financial sovereignty for everyone. Buying real estate as an investment beyond your primary residence contributes to the financialization of housing, treating homes as commodities rather than shelter. This drives up prices, reduces affordability for families, and contributes to the housing and homelessness crisis affecting many countries today.",
+			"englishValue": "Bitcoin enables direct individual ownership for anyone. Buying real estate as an investment beyond your primary residence drives up housing prices, reducing affordability and fueling the housing crisis."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "When you own Bitcoin, you have direct ownership of the asset itself. When you own stocks, you own a share of a company, which means your investment depends on the company's performance, management decisions, and business success.",
+			"englishValue": "Bitcoin is a direct asset you own outright. Stocks are shares in a company — their value depends on management, performance, and decisions you can't control."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Companies can issue new shares at any time, diluting existing shareholders — similar to how fiat"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_2",
+			"englishValueBefore": "Companies can issue new shares at any time, diluting existing shareholders' ownership percentage. This means your slice of the company gets smaller when new shares are created.",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_3",
+			"englishValueBefore": "This is less than fiat inflation, but still dilution.",
+			"englishValue": " dilutes cash. With Bitcoin, your slice never shrinks."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin operates on a decentralized network with no single point of failure. Stock investments are subject to key person risk - if the CEO or other critical leaders leave, get sick, or make poor decisions, your investment can suffer significantly. Companies depend heavily on their leadership teams.",
+			"englishValue": "Bitcoin has no CEO and no single point of failure. Stocks depend heavily on leadership — one bad decision or departure can tank the price."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Bitcoin's price is determined purely by market supply and demand. Stock prices are often evaluated using P/E ratios (Price-to-Earnings), which show how much investors pay for each dollar of company earnings. High P/E ratios can indicate overvalued stocks, making it harder to determine fair value.",
+			"englishValue": "Bitcoin's price comes from open global markets. Stock valuations rely on metrics like P/E ratios that can mask overpriced shares."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Bitcoin trades 24 hours a day, 7 days a week on global exchanges.",
+			"englishValue": "Bitcoin trades 24/7 around the world. Stock markets are only open during business hours on weekdays."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "With Bitcoin, you can take self-custody of your coins, meaning you truly own them without depending on any third party.",
+			"englishValue": "You can take"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_2",
+			"englishValueBefore": "Self-custody is as simple as downloading an app.",
+			"englishValue": "self-custody"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_3",
+			"englishValueBefore": "Stocks require a brokerage account and you're subject to counterparty risk - if the company goes bankrupt or the brokerage fails, you could lose your investment.",
+			"englishValue": "of Bitcoin with a simple app — no broker needed. Stocks sit with brokerages, exposing you to counterparty risk if they fail."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin is a fixed supply asset with a hard cap of 21 million Bitcoin that will ever exist. This makes it a great inflation hedge. Stocks have variable performance against inflation - some companies do well during inflationary periods while others struggle. There's no guarantee that any particular stock will protect against inflation.",
+			"englishValue": "Bitcoin's fixed supply makes it a reliable inflation hedge. Some stocks beat inflation, others don't — there's no guarantee."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_1_summary_1",
+			"englishValueBefore": "Bitcoin is an open network that anyone can join and use without permission. Credit card networks like Visa are closed systems controlled by financial institutions that can deny access to anyone they choose.",
+			"englishValue": "Bitcoin is an open network anyone can join and use without permission. Visa is a closed system controlled by financial institutions that can deny access — especially to the unbanked and underbanked."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_1",
+			"englishValueBefore": "Bitcoin transactions have no fees for merchants, while credit card companies typically charge merchants around 3% per transaction.",
+			"englishValue": "Bitcoin transactions have no merchant fees. Visa typically charges merchants around 3% per transaction — your business can save money accepting"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_2",
+			"englishValueBefore": "Learn how your business can save money",
+			"englishValue": "Bitcoin payments"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_3",
+			"englishValueBefore": "by accepting Bitcoin payments instead of paying credit card processing fees.",
+			"englishValue": " instead."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_3_summary_1",
+			"englishValueBefore": "Bitcoin operates on a transparent blockchain where all transactions can be verified by anyone. Credit card networks operate as closed, proprietary systems where transaction details are hidden from public view.",
+			"englishValue": "Every Bitcoin transaction is on a public, auditable blockchain. Visa runs a closed, proprietary system where customers can't independently verify anything."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_4_summary_1",
+			"englishValueBefore": "Credit card companies can freeze accounts, block transactions, or deny service at any time. Bitcoin cannot be frozen or controlled by any central authority.",
+			"englishValue": "Bitcoin can't be frozen by any central authority. Visa can freeze accounts, block transactions, or deny service at any time."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_5_summary_1",
+			"englishValueBefore": "Credit cards create debt that can accumulate high interest rates if not paid off quickly, sometimes exceeding 25% annually.",
+			"englishValue": "Bitcoin is final-settlement — you can only spend what you own. Credit cards create debt with interest rates often over 25% a year."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_1",
+			"englishValueBefore": "Bitcoin allows for self-custody, meaning you can hold and control your own money without relying on banks or payment processors.",
+			"englishValue": "Bitcoin lets you take"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_2",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"englishValue": "self-custody"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_3",
+			"englishValueBefore": "to understand how you can take control of your own money. Credit cards always require intermediaries like banks and payment processors.",
+			"englishValue": "with no bank or payment processor needed. Credit cards always require intermediaries."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_7_summary_1",
+			"englishValueBefore": "Bitcoin works 24/7 globally with no business hours or geographic restrictions.",
+			"englishValue": "Bitcoin works 24/7 globally with no business hours. Visa has operating hours, maintenance windows, and geographic restrictions that can block transactions."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_description",
+			"englishValueBefore": "Learn how to properly account for Bitcoin payments in your business accounting.",
+			"englishValue": "A plain-English guide to accepting Bitcoin in your books — hybrid wallets, cost basis, capital gains, and when to call an accountant."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c1",
+			"englishValueBefore": "Accepting Bitcoin has many benefits like accepting payments with lower fees & getting more customers.",
+			"englishValue": "The simplest way to accept Bitcoin is with a hybrid wallet that automatically sells 100% of the Bitcoin you receive for dollars (or your local currency) the instant a payment comes in."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c2",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"englishValue": "With this setup, your books look exactly like they do today — the final number is in dollars, every time. No cost basis, no capital gains, no new spreadsheets."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2",
+			"englishValueBefore": "TRACKING YOUR COST BASIS",
+			"englishValue": "If you keep some Bitcoin: tracking your cost basis"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c1",
+			"englishValueBefore": "Tracking your cost basis is going to be the biggest difference between accounting for dollars and accounting for Bitcoin. Even if you view your business entirely in terms of Bitcoin, you need to report the dollar value of each transaction on your taxes.",
+			"englishValue": "Some businesses choose to keep a portion of the Bitcoin they receive instead of auto-converting it all. If that's you, the main extra step is tracking your cost basis — the dollar value of each Bitcoin payment on the day you received it."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c2",
+			"englishValueBefore": "If you use QuickBooks, you can do this automatically using the Bitcoin Sync plugin.",
+			"englishValue": "Even if you think of your business entirely in Bitcoin, most tax authorities still want the dollar value reported. The good news: it's just two numbers per transaction — the amount of Bitcoin received and its dollar value on that day."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c3",
+			"englishValueBefore": "If you don't use QuickBooks, we recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"englishValue": "Use the tools below to automate the lookup so you don't have to check prices every day."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3",
+			"englishValueBefore": "SPENDING OR SELLING YOUR BITCOIN",
+			"englishValue": "Spending or selling the Bitcoin you've kept"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c1",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"englishValue": "If you auto-convert every payment to dollars, skip this section — it doesn't apply to you."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c2",
+			"englishValueBefore": "View Wallet Guide.",
+			"englishValue": "If you've kept some Bitcoin and later decide to spend or sell it, add the sale price to the same cost-basis spreadsheet. The difference between what the Bitcoin was worth when you received it and what it's worth when you spend or sell it is a capital gain or loss."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c3",
+			"englishValueBefore": "If you choose to spend or sell some of the Bitcoin you receive after holding it for a while, you simply need to add the price you sold it for into your Excel spreadsheet that tracks your cost basis.",
+			"englishValue": "Two quick examples:"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4",
+			"englishValueBefore": "I NEED MORE HELP",
+			"englishValue": "Need a pro who speaks Bitcoin?"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4_c1",
+			"englishValueBefore": "If you need more help integrating Bitcoin into your business accounting, we highly recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"englishValue": "If you'd rather hand this off — or your Bitcoin accounting is more complex than a hybrid wallet can handle — we highly recommend Satoshi Pacioli Accounting Services, a firm that specializes in Bitcoin accounting for businesses."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "bitcoin_business_accounting_guide",
+			"englishValueBefore": "Bitcoin Business Accounting Guide",
+			"englishValue": "Bitcoin accounting for your business"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "english_biz_sticker_files_description",
+			"englishValueBefore": "Download English sticker files to print your own Bitcoin Accepted Here stickers.",
+			"englishValue": "Download English sticker files to print your own 'Bitcoin Accepted Here' stickers."
+		},
+		{
+			"namespace": "business/why",
+			"key": "learn_why_bitcoin_is_good_for_business",
+			"englishValueBefore": "Learn why Bitcoin is good for business",
+			"englishValue": "Bitcoin is accepted here"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_good_for_you",
+			"englishValueBefore": "BITCOIN IS GOOD FOR YOU TOO!",
+			"englishValue": "Why Bitcoin is great for you too"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_learn_more_lowercase",
+			"englishValueBefore": "Learn more.",
+			"englishValue": "Learn more →"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c1",
+			"englishValueBefore": "Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.",
+			"englishValue": "Inflation happens when more money is printed or created from thin air. That makes the money in your pocket worth less over time — and it's why prices keep going up year after year."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c2",
+			"englishValueBefore": "Bitcoin has a fixed supply, which means no one can print more Bitcoin.",
+			"englishValue": "Bitcoin has a fixed supply of 21 million coins. No government, bank, or company can print more of it. Your Bitcoin savings hold their value over time instead of quietly losing it."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c1",
+			"englishValueBefore": "Multiple US banks have collapsed in the past few years due to bank runs.",
+			"englishValue": "Multiple U.S. banks have collapsed in recent years because of bank runs. When too many customers tried to withdraw at once, the banks didn't have the cash to pay everyone back."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c2",
+			"englishValueBefore": "Instead of just holding your money for you, banks invest and lend out your money. If those investments don't do well, they don't have enough to pay you back.",
+			"englishValue": "Instead of just holding your money, banks lend and invest most of it. If those investments go bad — or if depositors lose confidence — the bank can fail, and your deposits can be frozen or lost."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c3",
+			"englishValueBefore": "And the FDIC insurance fund only has $1 for every $100 they're insuring.",
+			"englishValue": "With Bitcoin, you can hold your own money directly in your own wallet. No bank. No intermediary. No bank run."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c1",
+			"englishValueBefore": "Unlike traditional financial networks, Bitcoin doesn't require permission to be used.",
+			"englishValue": "Unlike credit cards, PayPal, or traditional bank accounts, Bitcoin doesn't require anyone's permission to use."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c2",
+			"englishValueBefore": "That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.",
+			"englishValue": "No one can freeze your account, block a payment, or cut you off from the network. It's the first financial system in history you can use freely, without fear of censorship or seizure."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c1",
+			"englishValueBefore": "Bitcoin is a misunderstood technology that is building a better world.",
+			"englishValue": "Bitcoin is often misunderstood, but it's quietly doing a lot of good in the world."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c2",
+			"englishValueBefore": "Bitcoin has enabled human rights activists to fight for freedom, reduced global methane emissions, saved national parks, and so much more.",
+			"englishValue": "It has helped human rights activists fight for freedom, reduced global methane emissions from landfills and oil fields, stabilized electric grids, and funded public goods like national parks."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_bitcoin_guide",
+			"englishValueBefore": "How to Buy Bitcoin - Step by Step Guide",
+			"englishValue": "How to buy Bitcoin"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_1_header",
+			"englishValueBefore": "STEP 1: SELECT YOUR COUNTRY",
+			"englishValue": "Select your country"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_2_header",
+			"englishValueBefore": "STEP 2: CHOOSE YOUR PAYMENT METHOD",
+			"englishValue": "Choose your payment method"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_3_header",
+			"englishValueBefore": "STEP 3: BUYING OPTIONS",
+			"englishValue": "Your buying options"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_4_header",
+			"englishValueBefore": "STEP 4: STORE YOUR BITCOIN SAFELY",
+			"englishValue": "Store your Bitcoin safely"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_5",
+			"englishValueBefore": "request a pack of English stickers for free",
+			"englishValue": "request a pack"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_intro_header",
+			"englishValueBefore": "HOW TO PRINT & POST THESE BITCOIN FLYERS",
+			"englishValue": "How to print and post these Bitcoin flyers"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_and_help_spread_bitcoin",
+			"englishValueBefore": "Get involved and help spread Bitcoin",
+			"englishValue": "Get involved and spread Bitcoin"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_description",
+			"englishValueBefore": "Our free resources make it easier to spread Bitcoin adoption.",
+			"englishValue": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, business kits, and an open-source codebase anyone can contribute to."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_header",
+			"englishValueBefore": "GET INVOLVED",
+			"englishValue": "Get involved and spread Bitcoin."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_intro_5",
+			"englishValueBefore": "But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+			"englishValue": "You can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose",
+			"englishValueBefore": "Choose your money...",
+			"englishValue": "Choose your money to see the proof"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose_another",
+			"englishValueBefore": "Choose another money",
+			"englishValue": "← Choose another money"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_h1_orange",
+			"englishValueBefore": "Bitcoin doesn't have inflation,",
+			"englishValue": "Bitcoin doesn't have inflation, but your money does."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_learn",
+			"englishValueBefore": "Learn how Bitcoin can help",
+			"englishValue": "Learn how Bitcoin can help."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_lets_find_out",
+			"englishValueBefore": "Let's find out",
+			"englishValue": "Let's find out."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4",
+			"englishValueBefore": "Check out our Hardware Wallet Guide for more info.",
+			"englishValue": "Check out our"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_page_description",
+			"englishValueBefore": "Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting. Get started with a free client in minutes.",
+			"englishValue": "Nostr is a new decentralized protocol for online communication — no single company controls it, Bitcoin zaps are built in natively, and you can move between clients without losing followers."
+		},
+		{
+			"namespace": "sticker-files/index",
+			"key": "sticker_files_header",
+			"englishValueBefore": "BITCOIN STICKER FILES",
+			"englishValue": "Print your own Bitcoin stickers with these Bitcoin sticker files."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_flyers_link_before",
+			"englishValueBefore": "While you're at it, print & post your own ",
+			"englishValue": "While you're at it, print and post your own"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_instructions_1",
+			"englishValueBefore": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.",
+			"englishValue": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail. Your stickers will ship in a plain white envelope."
+		}
+	],
+	"added": [
+		{
+			"namespace": "404",
+			"key": "404_not_found_short",
+			"englishValue": "Not Found"
+		},
+		{
+			"namespace": "about",
+			"key": "about_business_blurb",
+			"englishValue": "We provide free business kits that make it easy to onboard local merchants to accept Bitcoin. Each kit includes printable materials explaining the benefits of accepting Bitcoin for their business."
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_label",
+			"englishValue": "Business kit"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_title",
+			"englishValue": "Help local businesses accept Bitcoin payments"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contact_github_source",
+			"englishValue": "Source: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_label",
+			"englishValue": "Contribute"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_source",
+			"englishValue": "Source: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_title",
+			"englishValue": "Learn how to contribute to bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_email_label",
+			"englishValue": "Email"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_email_source",
+			"englishValue": "Source: email →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_label",
+			"englishValue": "Printable flyers"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_title",
+			"englishValue": "Download and print Bitcoin flyers for your community"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_label",
+			"englishValue": "Repository"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_source",
+			"englishValue": "Source: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_title",
+			"englishValue": "View bitcoin.rocks on GitHub"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_nostr_source",
+			"englishValue": "Source: Nostr →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_label",
+			"englishValue": "Free stickers"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_title",
+			"englishValue": "Get free Bitcoin stickers mailed to your door"
+		},
+		{
+			"namespace": "about",
+			"key": "about_flyers_blurb",
+			"englishValue": "We design printable flyers you can hand out at meetups, post on community boards, or drop in letterboxes — a simple way to spark curiosity and send people to bitcoin.rocks to learn more."
+		},
+		{
+			"namespace": "about",
+			"key": "about_mission_1a",
+			"englishValue": "bitcoin.rocks was founded by"
+		},
+		{
+			"namespace": "about",
+			"key": "about_mission_1b",
+			"englishValue": "in 2022 with a simple mission: accelerate Bitcoin adoption through education."
+		},
+		{
+			"namespace": "about",
+			"key": "about_stickers_blurb",
+			"englishValue": "We mail free Bitcoin stickers to your door so you can help spread Bitcoin awareness in your community. Hundreds of people scan the QR codes on these stickers each month to learn about Bitcoin."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_heading",
+			"englishValue": "Bitcoin doesn't have bank runs"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p1",
+			"englishValue": "Bitcoin is a full-reserve system. You're not depositing your money in a bank. You are your own bank. There's no lending out your money without your knowledge because you are the only one who can access your money."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p2",
+			"englishValue": "As long as you hold bitcoin in your own wallet — not on an exchange or wrapped in an ETF — bank runs are impossible."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p3",
+			"englishValue": "With Bitcoin, you're truly in control of your money."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_detail",
+			"englishValue": "Since March 26, 2020, U.S. banks are required to hold 0% in reserves."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_label",
+			"englishValue": "Bank reserve ratio"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_source",
+			"englishValue": "Source: Federal Reserve →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_detail",
+			"englishValue": "Full-reserve system — no deposit insurance needed."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_label",
+			"englishValue": "Bitcoin coverage"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_source",
+			"englishValue": "Source: Bitcoin whitepaper →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_detail",
+			"englishValue": "Every bitcoin exists on-chain — nothing is lent out."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_label",
+			"englishValue": "Bitcoin reserve ratio"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_source",
+			"englishValue": "Source: Bitcoin whitepaper →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_detail",
+			"englishValue": "$153.9B insurance fund vs $10.82T in insured deposits (Dec 2025)."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_label",
+			"englishValue": "FDIC coverage"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_source",
+			"englishValue": "Source: FDIC Statistics at a Glance →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_label",
+			"englishValue": "Case study"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_source",
+			"englishValue": "Source: University of Washington School of Law →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_title",
+			"englishValue": "Learn how the Silicon Valley Bank run happened"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_label",
+			"englishValue": "Next step"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_source",
+			"englishValue": "Start here →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_title",
+			"englishValue": "Learn how to get your own Bitcoin wallet"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_heading",
+			"englishValue": "FDIC insurance covers about 1% of deposits"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p1",
+			"englishValue": "FDIC insurance protects deposits up to $250,000 per depositor. But the insurance fund is tiny compared to the total deposits it's supposed to protect."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p2_a",
+			"englishValue": "In a large-scale bank failure, the government would likely print money to cover the gap — resulting in more"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p2_link",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_page_description",
+			"englishValue": "Banks lend out your deposits under fractional reserve banking. If too many people withdraw at once, banks can fail. Bitcoin is a full-reserve system — bank runs are impossible."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_heading",
+			"englishValue": "Silicon Valley Bank: a real example"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_a",
+			"englishValue": "In March 2023, Silicon Valley Bank failed after investing customer deposits in long-term"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_b",
+			"englishValue": "When those bonds lost value, SVB couldn't cover withdrawals. The bank was insolvent."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_link",
+			"englishValue": "government bonds."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p2",
+			"englishValue": "Thousands of businesses couldn't pay their employees. The FDIC stepped in — but that raised a bigger question: is your money actually safe?"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_what_p1",
+			"englishValue": "Banks don't hold your deposits in a vault. They lend your money out and invest it — that's called fractional reserve banking."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_what_p2",
+			"englishValue": "If too many people try to withdraw at the same time, the bank doesn't have enough cash to pay everyone. That's a bank run — and it can cause banks to collapse entirely."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Banks</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Bonds</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_3",
+			"englishValue": " — eliminating that risk entirely."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Cash</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">CBDCs</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_3",
+			"englishValue": " when too much money gets printed."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Crypto</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Fine Art</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Gold</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Real Estate</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Stocks</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "hero_title",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Visa</span>"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_bpr_label",
+			"englishValue": "BITCOIN PRICE"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_bpr_title",
+			"englishValue": "Look up Bitcoin's current or historical dollar price"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_pacioli_label",
+			"englishValue": "BITCOIN ACCOUNTANTS"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_spreadsheet_label",
+			"englishValue": "EXCEL IMPORT"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_spreadsheet_title",
+			"englishValue": "Pull Bitcoin prices into Excel automatically"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_wallets_label",
+			"englishValue": "HYBRID WALLETS"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_wallets_title",
+			"englishValue": "See our recommended business wallets"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_disclaimer",
+			"englishValue": "This guide is for informational purposes only and is not to be considered tax advice. For tax advice specific to your situation, please consult a qualified accountant."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_disclaimer_label",
+			"englishValue": "Please note"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_feb_1",
+			"englishValue": "Feb 1"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_gain_badge",
+			"englishValue": "Capital gain"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_gain_explain",
+			"englishValue": "You record a $10 capital gain."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_jan_1",
+			"englishValue": "Jan 1"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_loss_badge",
+			"englishValue": "Capital loss"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_loss_explain",
+			"englishValue": "You record a $10 capital loss."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_received_label",
+			"englishValue": "Received"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_sold_label",
+			"englishValue": "Sold or spent"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_hero_subtitle",
+			"englishValue": "Accepting Bitcoin at your business doesn't have to complicate your accounting. Here's the short version — plus the tools and pros to make it painless."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_intro_c1",
+			"englishValue": "If you already accept cash or card, adding Bitcoin to your business books is simpler than it looks. You have two paths: auto-convert every Bitcoin payment to dollars the moment it arrives (no new accounting needed), or keep some as Bitcoin (a few extra numbers to track)."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_intro_c2",
+			"englishValue": "This guide walks you through both — so you can pick the one that fits your business and start accepting Bitcoin with confidence."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1",
+			"englishValue": "The easy path: auto-convert to dollars"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c6",
+			"englishValue": "That's it. The underlying math is identical to how any other appreciating or depreciating asset is accounted for."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_bitcoin_price_report",
+			"englishValue": "Bitcoin Price Report — Bitcoin current & historical dollar price"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_satoshi_pacioli",
+			"englishValue": "Satoshi Pacioli Accounting Services — Bitcoin accounting for businesses"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_spreadsheet_guru",
+			"englishValue": "The Spreadsheet Guru — Import cryptocurrency prices into Excel"
+		},
+		{
+			"namespace": "business/faq",
+			"key": "faq_hero_subtitle",
+			"englishValue": "The short answers to the questions merchants ask most often before they start accepting Bitcoin — fees, settlement, wallets, chargebacks, cost, and more."
+		},
+		{
+			"namespace": "business/faq",
+			"key": "faq_intro_c1",
+			"englishValue": "Tap any question below to expand the answer. When you're ready to start accepting Bitcoin, the business resources at the bottom of the page will walk you through each step."
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_accounting",
+			"englishValue": "ACCOUNTING"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_faq",
+			"englishValue": "FAQ"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_maps",
+			"englishValue": "MERCHANT MAPS"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_rewards",
+			"englishValue": "REWARDS"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_stickers",
+			"englishValue": "STICKERS"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_wallets",
+			"englishValue": "WALLETS"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_meta_description",
+			"englishValue": "Accept Bitcoin at your business for lower fees, instant settlement, no chargebacks, and more customers."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_hero_subtitle",
+			"englishValue": "Accept payments with lower fees, get paid instantly, and reach millions of new customers — with zero contracts and zero hidden costs."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_intro_c1",
+			"englishValue": "Bitcoin gives your business a faster, cheaper, more private way to get paid. No middlemen. No chargebacks. No contracts. Just money that settles in seconds, directly from your customers to you."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_intro_c2",
+			"englishValue": "Below is the short version of why Bitcoin is good for business — and below that, every resource you need to start accepting it today."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_resources_heading",
+			"englishValue": "Everything you need to accept Bitcoin"
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_resources_intro",
+			"englishValue": "Work through these resources at your own pace. Each one is a short, practical guide."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_form_header",
+			"englishValue": "Tell us about your business"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_form_intro",
+			"englishValue": "We only need a few details to get you listed. Address data is kept only long enough to submit your business to the maps."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_hero_subtitle",
+			"englishValue": "List your business for free on BTC Map — the open, worldwide directory of Bitcoin-accepting merchants — so Bitcoiners nearby can find you and spend Bitcoin at your business."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_hero_title",
+			"englishValue": "Get your business on Bitcoin merchant maps"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_intro_c1",
+			"englishValue": "Bitcoiners actively look for places to spend. Getting your business on the map puts you in front of every Bitcoin user searching for somewhere to eat, shop, or stay nearby — at zero cost to you."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_intro_c2",
+			"englishValue": "Just fill out the short form below and we'll submit your business to BTC Map and other Bitcoin merchant maps for you."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_meta_description",
+			"englishValue": "List your business for free on BTC Map and other Bitcoin merchant maps so Bitcoiners nearby can find you."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_address",
+			"englishValue": "Street address"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_category",
+			"englishValue": "Category (e.g. restaurant, cafe, hotel)"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_city",
+			"englishValue": "City"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_country",
+			"englishValue": "Country"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_name",
+			"englishValue": "Business name"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_region",
+			"englishValue": "State / Province / Region"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_website",
+			"englishValue": "Website (optional)"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_view_map_cta",
+			"englishValue": "View the BTC Map"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_btn_view_map",
+			"englishValue": "View the BTC Map"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_hero_subtitle",
+			"englishValue": "Thanks for submitting your business. We'll list you on Bitcoin merchant maps shortly."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_hero_title",
+			"englishValue": "Request received 🎉"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_c1",
+			"englishValue": "Your business will be listed on BTC Map and other Bitcoin merchant directories within 1 to 2 weeks. We review each submission by hand to keep the maps accurate."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_c2",
+			"englishValue": "Once your listing is live, Bitcoiners nearby can find your business and come spend Bitcoin there."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_header",
+			"englishValue": "What happens next"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_view_c1",
+			"englishValue": "While you wait, take a look at BTC Map to see the growing network of businesses that accept Bitcoin around the world."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_view_header",
+			"englishValue": "See where you'll appear"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "biz_stickers_english_hero_subtitle",
+			"englishValue": "Print your own 'Bitcoin Accepted Here' stickers in English to let your customers know you accept Bitcoin."
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "biz_stickers_english_hero_title",
+			"englishValue": "Download English 'Bitcoin Accepted Here' sticker files"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_hero_subtitle",
+			"englishValue": "Thanks for requesting 'Bitcoin Accepted Here' sticker files in your language."
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_hero_title",
+			"englishValue": "Request received 🎉"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_c1",
+			"englishValue": "We'll create and publish your sticker files within 3 to 4 weeks. Once they're ready, you'll be able to download and print them for free from our sticker files page."
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_c2",
+			"englishValue": "Sticker files are released in batches, so it may take a few weeks for your language to go live. Thanks for your patience!"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_header",
+			"englishValue": "What happens next"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_btn_order_bulk",
+			"englishValue": "Order in bulk"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_btn_request_more",
+			"englishValue": "Request another free pack"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_hero_subtitle",
+			"englishValue": "You'll receive your free 'Bitcoin Accepted Here' stickers in 2 to 4 weeks, in a plain white envelope with 3 stickers inside."
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_hero_title",
+			"englishValue": "Your stickers are on their way 🎉"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_more_c1",
+			"englishValue": "If 3 stickers aren't enough for your business, feel free to request another free pack — or order in bulk from the same printer we use."
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_more_header",
+			"englishValue": "Need more stickers?"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_1",
+			"englishValue": "On your front door or window so customers see it before they walk in"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_2",
+			"englishValue": "Near your register, POS terminal, or payment area"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_3",
+			"englishValue": "On menus, price lists, or tip jars"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_4",
+			"englishValue": "Don't stick them anywhere you don't own or have permission to put them"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tips_header",
+			"englishValue": "Good places to put your stickers"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_hero_subtitle",
+			"englishValue": "Let your customers know you accept Bitcoin. Order a free pack of 'Bitcoin Accepted Here' stickers to put up at your business."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_hero_title",
+			"englishValue": "Free 'Bitcoin Accepted Here' stickers"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_intro_c1",
+			"englishValue": "Accepting Bitcoin is only half the job — your customers also need to know that you do. These small 'Bitcoin Accepted Here' stickers are designed to stick on your front door, register, menu, or anywhere else customers will see them before they pay."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_intro_c2",
+			"englishValue": "We'll mail you a free pack anywhere in the USA or Canada, or you can print your own anywhere in the world."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_canada",
+			"englishValue": "🇨🇦 Canada — Free by mail"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_print",
+			"englishValue": "🌍 Global — Print my own"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_usa",
+			"englishValue": "🇺🇸 USA — Free by mail"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_placeholder_translation1",
+			"englishValue": "Translation for 'Bitcoin Accepted Here'"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_placeholder_translation2",
+			"englishValue": "Translation for 'Scan to learn why Bitcoin is good for business.'"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_print_c1",
+			"englishValue": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live. Click your language below to download the sticker files and printing instructions."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_print_header",
+			"englishValue": "Print your own sticker files"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_request_c1",
+			"englishValue": "Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language. We'll let you know once they're ready."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_request_header",
+			"englishValue": "Don't see your language?"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_step_description",
+			"englishValue": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_step_header",
+			"englishValue": "How would you like to get your stickers?"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "biz_wallets_meta_description",
+			"englishValue": "All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_breez_business",
+			"englishValue": "Breez — Bitcoin-only Lightning wallet"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_ibex",
+			"englishValue": "IBEX — Lightning payments infrastructure"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_opennode",
+			"englishValue": "OpenNode — Bitcoin payment processor"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_square",
+			"englishValue": "Square — Accept Bitcoin payments"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_zaprite",
+			"englishValue": "Zaprite — Bitcoin invoicing for businesses"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_hero_subtitle",
+			"englishValue": "Bitcoin wallets are free. Pick one that fits your business — in-person, online, or invoice-based — and start accepting Bitcoin in minutes."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_invoice",
+			"englishValue": "Wallets for invoice-based businesses"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_invoice_intro",
+			"englishValue": "If you invoice clients (consulting, freelancing, B2B services), use a wallet built around invoicing. Your client pays a Bitcoin invoice in a couple of clicks."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_multiple",
+			"englishValue": "Wallets for businesses with multiple employees"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_multiple_intro",
+			"englishValue": "If you have a team taking payments at the register, choose a wallet that supports multiple employee logins — so every employee gets their own PIN and you keep a clean audit trail of who took which payment."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_online",
+			"englishValue": "Wallets for online businesses"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_online_intro",
+			"englishValue": "Selling on a website? These wallets plug into your online store and accept Bitcoin from any customer, anywhere in the world — no chargebacks, no merchant account required."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_sole",
+			"englishValue": "Wallets for individually-owned businesses"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_sole_intro",
+			"englishValue": "If you run a shop, café, studio, or service on your own, any of these wallets will work. Pick based on whether you want to keep payments in Bitcoin or auto-convert part of each payment to your local currency."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_strike_note",
+			"englishValue": "Strike Business lets you accept Bitcoin and Lightning payments with zero fees and instant settlement. Supports in-person, online, and invoice-based payments with optional auto-conversion to your local currency."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s1",
+			"englishValue": "Lower fees, more for the business"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s1_c1",
+			"englishValue": "Bitcoin payments skip the banks and credit card companies that take 2–3% from every sale. The business keeps more of what you pay — which often means better prices and better service for you."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s2",
+			"englishValue": "Instant settlement, no chargebacks"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s2_c1",
+			"englishValue": "Bitcoin payments settle in seconds, directly from your wallet to the business. There's no waiting days for a bank to release funds, and no costly chargeback disputes — so the business can focus on serving customers instead of fighting fraud."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s3",
+			"englishValue": "Free to accept, open to everyone"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s3_c1",
+			"englishValue": "There are no contracts, monthly fees, or setup costs for a business to accept Bitcoin. And millions of Bitcoin users around the world actively seek out merchants that accept it — giving this business free exposure to new customers."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_business_cta_intro",
+			"englishValue": "Run a business and want to start accepting Bitcoin?"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_business_cta_link",
+			"englishValue": "See how it works →"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_for_business",
+			"englishValue": "Why Bitcoin is great for this business"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_for_business_intro",
+			"englishValue": "Accepting Bitcoin lets a business keep more of every sale, get paid instantly with no chargebacks, and reach a global audience of Bitcoin users — all with zero contracts and zero monthly fees."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_good_for_you_intro",
+			"englishValue": "Bitcoin isn't just useful at the cash register — it's a better form of money that protects your savings, your privacy, and your freedom to transact. Here's a quick overview."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_hero_subtitle",
+			"englishValue": "You just scanned a Bitcoin Accepted Here sticker. Here's why that's great news — for this business, and for you."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_intro_c1",
+			"englishValue": "The business you're at accepts Bitcoin — a modern, open-source payment network that anyone can use, anywhere in the world, without banks or middlemen taking a cut."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_intro_c2",
+			"englishValue": "Below is the short version of why accepting Bitcoin is good for this business, plus why using Bitcoin is good for you as a customer."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_business_label",
+			"englishValue": "ACCEPT BITCOIN"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_business_title",
+			"englishValue": "Accept Bitcoin at your business"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_buy_label",
+			"englishValue": "BUY BITCOIN"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_buy_title",
+			"englishValue": "Buy your first Bitcoin"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_learn_label",
+			"englishValue": "LEARN MORE"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_learn_title",
+			"englishValue": "Learn more about Bitcoin"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_wallet_label",
+			"englishValue": "GET A WALLET"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_wallet_title",
+			"englishValue": "Get your own Bitcoin wallet"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_whats_next_heading",
+			"englishValue": "Where to next?"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_whats_next_intro",
+			"englishValue": "If this is your first scan of a Bitcoin sticker, here are the most useful places to go from here."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_header_subtitle",
+			"englishValue": "A simple, step-by-step guide to buying your first Bitcoin."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_howto_name",
+			"englishValue": "How to buy Bitcoin"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_meta_description",
+			"englishValue": "Learn how to buy Bitcoin safely with our step-by-step guide. Choose your country and payment method to find the best Bitcoin buying options for you."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_1_eyebrow",
+			"englishValue": "Step 1"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_2_eyebrow",
+			"englishValue": "Step 2"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_3_eyebrow",
+			"englishValue": "Step 3"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_4_eyebrow",
+			"englishValue": "Step 4"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_storage_cta_label",
+			"englishValue": "Next step"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_bisq",
+			"englishValue": "Bisq — Decentralized peer-to-peer Bitcoin exchange"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_coinatmradar",
+			"englishValue": "Coin ATM Radar — Worldwide Bitcoin ATM directory"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_kraken",
+			"englishValue": "Kraken — Established Bitcoin exchange"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_relai",
+			"englishValue": "Relai — Swiss Bitcoin-only self-custody app"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_river",
+			"englishValue": "River — Bitcoin-only buying, mining, and custody"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_strike_lightning",
+			"englishValue": "Strike — Buy Bitcoin with Lightning Network support"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_swan",
+			"englishValue": "Swan Bitcoin — Bitcoin-only dollar-cost averaging"
+		},
+		{
+			"namespace": "common",
+			"key": "common_site_tagline",
+			"englishValue": "Bitcoin education for everyone."
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_btc_map",
+			"englishValue": "BTC Map — Worldwide directory of Bitcoin-accepting merchants"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_btcpayserver",
+			"englishValue": "BTCPay Server — Free, open-source, self-hosted Bitcoin payment processor"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_oshi",
+			"englishValue": "Oshi — Bitcoin rewards platform for merchants"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_strike_business",
+			"englishValue": "Strike — Bitcoin & Lightning payments for businesses"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_bitcoin",
+			"englishValue": "Bitcoin data"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_cpi",
+			"englishValue": "Inflation / Consumer Price Index"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_debt",
+			"englishValue": "Government debt"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_money",
+			"englishValue": "Money supply data"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_stories",
+			"englishValue": "Real-world examples"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_6",
+			"englishValue": "of English stickers for free."
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_flyers_label",
+			"englishValue": "Flyers"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_flyers_title",
+			"englishValue": "Print a Bitcoin flyer"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_languages_label",
+			"englishValue": "Sticker files"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_languages_title",
+			"englishValue": "See sticker files in other languages"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_print_these",
+			"englishValue": "PRINT THESE IN 1 CLICK"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_bdhi_black",
+			"englishValue": "\"Bitcoin Doesn't Have Inflation\" Sticker (Black)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_bdhi_orange",
+			"englishValue": "\"Bitcoin Doesn't Have Inflation\" Sticker (Orange)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_caution",
+			"englishValue": "\"Caution! Melting Ice Cube\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_cure_inflation",
+			"englishValue": "\"Cure Inflation\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_danger",
+			"englishValue": "\"Danger! Inflation Ahead\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_fix",
+			"englishValue": "\"Fix The Money, Fix The World\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_got_inflation",
+			"englishValue": "\"Got Inflation?\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_study",
+			"englishValue": "\"Study Bitcoin\" Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_warning",
+			"englishValue": "\"Warning! Inflation is Stealing Your Savings\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_what_if",
+			"englishValue": "\"What if your money didn't have inflation?\" Bitcoin Sticker"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_heading",
+			"englishValue": "Sticker tips"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_intro",
+			"englishValue": "Once you've printed your stickers, put them somewhere they'll be seen! Good sticker spots are:"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_1",
+			"englishValue": "in public where people will see them"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_2",
+			"englishValue": "in places that are unlikely to be removed quickly (the stickers don't cause any permanent damage)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_3",
+			"englishValue": "on surfaces they will stick to easily (metal, plastic, glass)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_4",
+			"englishValue": "NOT on private property, covering signage, ATMs, or gas pumps"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_printer_prefix",
+			"englishValue": "We use"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_printer_suffix",
+			"englishValue": "but you can use any sticker company."
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_calculator_heading",
+			"englishValue": "Calculate your inflation gap"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_cta_label",
+			"englishValue": "Next step"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_hero_subtitle",
+			"englishValue": "See how much your salary needs to increase to keep up with inflation."
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_explore_topics",
+			"englishValue": "Explore more topics"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_explore_topics_desc",
+			"englishValue": "See how Bitcoin connects to money, freedom, energy, and more."
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_learn_inflation",
+			"englishValue": "Learn how inflation works"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_hero_subtitle",
+			"englishValue": "Free, printable Bitcoin flyers. Put them up in public to help more people learn about Bitcoin."
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_hero_title",
+			"englishValue": "Print and post Bitcoin flyers"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_next_get_stickers",
+			"englishValue": "Spread the word"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_next_get_stickers_desc",
+			"englishValue": "Order a free pack of Bitcoin stickers"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_label",
+			"englishValue": "Business kit"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_title",
+			"englishValue": "Request a free Bitcoin Business Kit"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_label",
+			"englishValue": "Printable flyers"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_title",
+			"englishValue": "Download and print a free Bitcoin flyer"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_label",
+			"englishValue": "Open source"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_source",
+			"englishValue": "Source: GitHub →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_title",
+			"englishValue": "Contribute to bitcoin.rocks on GitHub"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_label",
+			"englishValue": "Free stickers"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_title",
+			"englishValue": "Request a free Bitcoin sticker pack mailed to your door"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_1",
+			"englishValue": "Flyers are one of the easiest ways to introduce Bitcoin to your community. Download a free printable Bitcoin flyer, print as many copies as you'd like, and post them on community boards, in coffee shops, at meetups, or anywhere else people gather."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_2",
+			"englishValue": "Each flyer includes a compelling headline and a QR code that sends curious readers to bitcoin.rocks to learn more."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_3",
+			"englishValue": "Unlike stickers, flyers can be printed on demand from anywhere in the world — all you need is a printer and a few minutes."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_header",
+			"englishValue": "Print and post a flyer"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_image_alt",
+			"englishValue": "Preview of the free printable Bitcoin flyer from bitcoin.rocks"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_1",
+			"englishValue": "bitcoin.rocks is a free, open-source project licensed under the MIT License. Our mission is to accelerate Bitcoin adoption through education — and we can't do it alone."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_2",
+			"englishValue": "Whether you're a developer, designer, writer, or translator, there's a way for you to help. We especially welcome contributors who can translate our content into more languages so more people around the world can learn about Bitcoin in their native tongue."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_3",
+			"englishValue": "Fork the repository, open a pull request, file an issue, or just star the project to show your support. Every contribution helps Bitcoin reach more people."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_header",
+			"englishValue": "Contribute on GitHub"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_sticker_image_alt",
+			"englishValue": "Free Bitcoin text sticker pack from bitcoin.rocks"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_bitcoin_price_report_4yr",
+			"englishValue": "Bitcoin Price Report — 4-year performance charts (all currencies)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_bitcoin_source_code",
+			"englishValue": "Bitcoin Source Code — 21 Million Supply Cap"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_canadian_trucker",
+			"englishValue": "Canadian trucker protest — Bitcoin used to bypass frozen bank accounts (YouTube)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_mempool_space",
+			"englishValue": "Mempool.space — Bitcoin Supply & Mining Data"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_nigeria_endsars",
+			"englishValue": "Quartz Africa — How Bitcoin powered Nigeria’s EndSARS protests"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_pennsylvania_mining",
+			"englishValue": "Pennsylvania Bitcoin mining reclaims waste methane (YouTube)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_texas_mining",
+			"englishValue": "Texas Bitcoin mining and the electric grid (YouTube)"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_grid_heading",
+			"englishValue": "Popular Lightning wallets"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_hardware_cta_label",
+			"englishValue": "Hardware wallets"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_header_subtitle",
+			"englishValue": "Lightning lets you send Bitcoin in seconds for a fraction of a cent — pick the wallet whose trade-offs match how much Bitcoin you plan to spend."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4_end",
+			"englishValue": "for more info."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4_link",
+			"englishValue": "Bitcoin Hardware Wallet Guide"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_acinq_phoenix",
+			"englishValue": "ACINQ — Phoenix Lightning wallet"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_breez_lightning",
+			"englishValue": "Breez — Self-custodial Lightning wallet"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_lightning_labs",
+			"englishValue": "Lightning Labs — Lightning Network documentation"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_wallet_of_satoshi",
+			"englishValue": "Wallet of Satoshi — Custodial Lightning wallet"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f1",
+			"englishValue": "Lots of features and customization"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f2",
+			"englishValue": "Requires a separate Bitcoin wallet"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f3",
+			"englishValue": "100% free"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f1",
+			"englishValue": "Familiar Twitter-like interface"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f2",
+			"englishValue": "Requires a separate Bitcoin wallet"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f3",
+			"englishValue": "100% free"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_download_heading",
+			"englishValue": "Download a free Nostr client"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_download_intro",
+			"englishValue": "Nostr clients are free apps that let you read and post on the Nostr network. All of them are interoperable — you can switch clients anytime and keep your followers and content."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_hero_subtitle",
+			"englishValue": "Nostr is a new decentralized protocol for communicating online — no single company controls it, Bitcoin zaps are built in, and you can move between apps without losing your followers."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_hero_title",
+			"englishValue": "What is Nostr?"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_intro_c1",
+			"englishValue": "Nostr is similar to email: no one owns the protocol, anyone can build an app on top of it, and you can pick whichever app you like best. Unlike Twitter or Facebook, there's no central company that can censor, deplatform, or deboost you."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_intro_c2",
+			"englishValue": "Below is the short version of why Nostr matters — then every free Nostr client you need to get started today."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f1",
+			"englishValue": "Super simple — no install required"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f2",
+			"englishValue": "Easy way to try Nostr with a test account"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f3",
+			"englishValue": "100% free"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_learn_more_label",
+			"englishValue": "GO DEEPER"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_learn_more_title",
+			"englishValue": "Learn more about Nostr on nostr.how"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f1",
+			"englishValue": "Recommended first client"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f2",
+			"englishValue": "Bitcoin zap wallet built in"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f3",
+			"englishValue": "100% free"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1",
+			"englishValue": "Protocol, not platform"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1_c1",
+			"englishValue": "Nostr is a new protocol that lets you communicate online without fear of censorship, deplatforming, or deboosting."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1_c2",
+			"englishValue": "Platforms like Twitter and Facebook are controlled by a single company, but no one controls the Nostr protocol."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2",
+			"englishValue": "Freedom to move"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c1",
+			"englishValue": "Nostr is similar to email. No one controls the email protocol, and anyone can build a client (like Gmail, Hotmail, etc.) on top of it."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c2",
+			"englishValue": "No one controls the Nostr protocol either, and anyone can build a client (like Damus, Amethyst, etc.) on top of it."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c3",
+			"englishValue": "If you don't like how a certain client works, you can seamlessly move your Nostr account to another client without losing your followers or content."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3",
+			"englishValue": "Bitcoin is built in"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3_c1",
+			"englishValue": "Bitcoin is built in natively to the Nostr protocol. If you see content you like, you can easily zap Bitcoin to someone as a thank you!"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3_c2",
+			"englishValue": "On centralized platforms like Twitter and Facebook, the centralized company earns money from your content. But on open protocols like Nostr, you earn money from your content."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_damus",
+			"englishValue": "Damus — iPhone Nostr client"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_iris",
+			"englishValue": "Iris — Browser-based Nostr client"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_nostr_how",
+			"englishValue": "nostr.how — What is Nostr?"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_nostr_protocol",
+			"englishValue": "Nostr Protocol — Open-source specification"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_primal",
+			"englishValue": "Primal — Nostr client with a built-in Bitcoin zap wallet"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "what_is_nostr",
+			"englishValue": "What is Nostr?"
+		},
+		{
+			"namespace": "sticker-language-success",
+			"key": "sticker_language_success_hero_title",
+			"englishValue": "Request received 🎉"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_order_bulk",
+			"englishValue": "Order in bulk"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_share_on_nostr",
+			"englishValue": "Share on Nostr"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_what_is_nostr",
+			"englishValue": "What is Nostr?"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_bulk_header",
+			"englishValue": "Want more stickers?"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_hero_title",
+			"englishValue": "Your stickers are on their way 🎉"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_share_header",
+			"englishValue": "Share your sticker spots"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_tips_header",
+			"englishValue": "Good sticker spots"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_btn_choose_pack",
+			"englishValue": "Choose this pack"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c1",
+			"englishValue": "Want more than a few stickers?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c2",
+			"englishValue": "Order in bulk from the same printer we use"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c3",
+			"englishValue": "— the more you buy, the cheaper they are per sticker."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_cta",
+			"englishValue": "Shop stickers in bulk"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_header",
+			"englishValue": "Order stickers in bulk"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_hero_subtitle",
+			"englishValue": "Order a free pack of Bitcoin stickers and put them up in public to help more people learn about Bitcoin."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_hero_title",
+			"englishValue": "Free Bitcoin stickers"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c1",
+			"englishValue": "Our mission is to help you orange pill more people by putting Bitcoin stickers in public. All of our stickers have QR codes that link to educational pages about"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c3",
+			"englishValue": "inflation"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c4",
+			"englishValue": "Pick a sticker pack below and choose how you'd like to get them — we'll mail a free pack to anyone in the USA or Canada, or you can print your own anywhere in the world."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_mail_header",
+			"englishValue": "We'll mail your free stickers"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_next_print_flyers",
+			"englishValue": "Keep spreading"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_next_print_flyers_desc",
+			"englishValue": "Print free Bitcoin flyers to post in public"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_bulk",
+			"englishValue": "📦 Global — Order in bulk"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_canada",
+			"englishValue": "🇨🇦 Canada — Free by mail"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_print",
+			"englishValue": "🌍 Global — Print my own"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_usa",
+			"englishValue": "🇺🇸 USA — Free by mail"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_c1",
+			"englishValue": "You can participate by printing your own stickers, no matter where you live. Click your language below to download the sticker files and printing instructions."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_c2",
+			"englishValue": "Not every sticker is available in every language."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_header",
+			"englishValue": "Print your own sticker files"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_request_c1",
+			"englishValue": "Fill out the form below to request sticker files in your local language. We'll let you know once they're ready."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_request_header",
+			"englishValue": "Don't see your language?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_share_c2",
+			"englishValue": "Follow us on Nostr by searching"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_share_c3",
+			"englishValue": "in any Nostr client."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_signs_pack_description",
+			"englishValue": "Warning, danger, and caution-style signs with Bitcoin messages — designed to grab attention and make people stop and read."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_description",
+			"englishValue": "Each pack has a different set of Bitcoin stickers with QR codes that teach people about Bitcoin."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_eyebrow",
+			"englishValue": "STEP 1"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_header",
+			"englishValue": "Choose your sticker pack"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_description",
+			"englishValue": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own or order in bulk."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_eyebrow",
+			"englishValue": "STEP 2"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_header",
+			"englishValue": "How would you like to get your stickers?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_text_pack_description",
+			"englishValue": "A mix of Bitcoin slogans and one-liners designed to spark curiosity in public spaces."
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_blockstream_green",
+			"englishValue": "Blockstream Green — Self-custody Bitcoin wallet"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_blockstream_jade",
+			"englishValue": "Blockstream Jade — Bitcoin hardware wallet"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_coldcard_mk5",
+			"englishValue": "Coinkite — Coldcard MK5 hardware wallet"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_coldcard_q",
+			"englishValue": "Coinkite — Coldcard Q hardware wallet"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_passport",
+			"englishValue": "Foundation Devices — Passport hardware wallet"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_seedsigner",
+			"englishValue": "SeedSigner — Open-source DIY Bitcoin signing device"
+		},
+		{
+			"namespace": "wallets",
+			"key": "wallets_grid_heading",
+			"englishValue": "Popular Bitcoin wallets"
+		},
+		{
+			"namespace": "wallets",
+			"key": "wallets_header_subtitle",
+			"englishValue": "A step-by-step guide to picking a wallet, protecting your keys, and taking full control of your Bitcoin."
+		}
+	]
+}

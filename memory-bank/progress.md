@@ -1,3 +1,131 @@
+## i18n cleanup — Manifest-driven refresh refactor + af/am rescue — 2026-04-23
+
+**Counter:** 2/54 languages complete against the new manifest.
+
+Root-caused a silent staleness bug (file-level freshness gate in
+`language-diff.js` skipped english-changed detection when target file's
+`last-updated` happened to equal English's), refactored the i18n refresh
+pipeline around a committed **V2 manifest** + per-locale marker, and
+rescued both af + am to a clean verification state.
+
+**Manifest** (`scripts/i18n-audit/v2-manifest.json`):
+- 162 `changed` entries — English keys rewritten during V2.
+- 388 `added` entries — new keys since pre-V2 baseline.
+- 550 total, identical work for every locale.
+- sha256 `manifestVersion` pins each per-locale marker.
+
+**New infrastructure:**
+- `scripts/i18n-audit/build-v2-manifest.js` — generates the manifest.
+- `scripts/i18n-audit/v2-manifest.json` — committed canonical list.
+- `scripts/i18n-audit/v2-refresh-status/<lang>.json` — per-locale marker.
+- `scripts/i18n-audit/verify-language.js` — unified 4-check audit.
+- `scripts/i18n-audit/rescue-carry-over.js` — one-off migration helper.
+
+**Refactored:**
+- `scripts/i18n-audit/language-diff.js` — drops freshness gate + likely-stale heuristic; reads from manifest.
+- `scripts/i18n-audit/apply-translations.js` — writes marker; calls verify-language.js.
+
+**Renamed/deleted:**
+- `.clinerules/workflows/v2-translate-refresh.md` → `manifest-translate-refresh.md`.
+- `scripts/audit-translation.js` — deleted (superseded by verify-language.js).
+
+**af + am rescue:**
+- Both locales: 550 entries applied (162 changed + 388 added). Verification ✅ PASS on all 4 checks. Original bug (`am/bitcoin-vs-gold|point_3_summary_1`) confirmed fixed.
+
+**Verification:**
+- `npm run build`: clean across 4,349 static pages, zero warnings.
+- `verify-language.js af` + `verify-language.js am`: all 4 checks PASS.
+
+### Files changed
+```
+scripts/i18n-audit/build-v2-manifest.js        (NEW — ~320 lines)
+scripts/i18n-audit/v2-manifest.json             (NEW, committed — 120KB, 550 entries)
+scripts/i18n-audit/v2-refresh-status/af.json    (NEW — marker)
+scripts/i18n-audit/v2-refresh-status/am.json    (NEW — marker)
+scripts/i18n-audit/verify-language.js           (NEW — ~220 lines)
+scripts/i18n-audit/rescue-carry-over.js         (NEW — migration helper)
+scripts/i18n-audit/language-diff.js             (refactored — manifest-driven)
+scripts/i18n-audit/apply-translations.js         (refactored — marker write + unified verify)
+.clinerules/workflows/manifest-translate-refresh.md  (renamed from v2-translate-refresh.md, rewritten)
+scripts/audit-translation.js                     (DELETED)
+scripts/am-manifest-refresh/translate-manifest-changed.js       (NEW — 115 am translations)
+scripts/am-manifest-refresh/translate-manifest-changed-part2.js (NEW — 47 am translations)
+i18n/af/**/*.json                               (37 files retouched — 550 entries applied)
+i18n/am/**/*.json                               (37 files retouched — 550 entries applied, 162 manifest-changed translated fresh)
+V2-REDESIGN-CHECKLIST.md                        (Step 5 section updated with manifest-refactor note)
+memory-bank/activeContext.md                    (matching entry prepended)
+memory-bank/progress.md                         (this entry prepended)
+```
+
+---
+
+## i18n cleanup Step 5 Phase B — Amharic (am) re-translation complete — 2026-04-23
+
+
+**Counter:** 2/54 languages complete.
+
+Second per-language Phase B session. Ran `/translate-v2-refresh Amharic`
+end-to-end. Diff flagged **874 entries** (854 missing + 12 untranslated
++ 8 english-changed + 0 likely-stale) across 38 namespaces. Amharic is
+the first abugida/syllabic-script locale through the pipeline, which
+uncovered and fixed a false-positive in the `targetHasV2MarkerEquivalent`
+length-ratio heuristic.
+
+Three helper scripts in `scripts/amharic-v2-refresh/`:
+
+1. **`retranslate-english-changed.js`** — 8 V2-rewritten English keys
+   (2 on /404, 5 on /buy step headers, 1 on sticker-files index hero).
+2. **`translate-inflation.js`** — templated `t(code, suffix)` × 13
+   currencies (USD, EUR, AUD, BRL, CAD, GBP, ILS, INR, JPY, MXN, NZD,
+   PHP, THB) + 37 non-currency keys (freedom cards, story cards, BPR
+   detail, source citations). 364 entries. `CURRENCY` table renders
+   Amharic noun / label / existence-title / debt-title for each.
+3. **`translate-rest.js`** — 502 entries across 37 namespaces keyed
+   `"<ns>::<key>"`. Includes 11 `common_stickers_dimensions_*` with
+   Amharic syllabic unit labels (`ሴ.ሜ` / `ኢንች`). 0 unmatched.
+
+**Tooling tuning — syllabic-script false-positive fix.** Ge'ez script
+is one glyph per syllable → Amharic translations run ~60–70% of the
+English character count. The old `targetHasV2MarkerEquivalent` lower
+bound was 0.75 which rejected 4 correct "Source: …" → "ምንጭ: …"
+translations as likely-stale (ratios 0.64–0.73). Fix: lowered lower
+bound from **0.75 → 0.55** in `scripts/i18n-audit/language-diff.js`.
+Kept upper bound at 1.35 (target >> English is still a stale signal).
+Documented in comment — unblocks future Tibetan / Khmer / Burmese / etc.
+
+Also added:
+- `CBDC` → `SHORT_ALLOWED_IDENTICAL` (language-diff.js). 4-char brand
+  acronym, legitimately identical across locales.
+- `"Lightning Network"` → `SKIP_VALUES` (audit-translation.js). Brand
+  phrase kept verbatim.
+
+**Verification**
+
+- `language-diff.js am` post-apply: **missing=0, untranslated=0,
+  englishChanged=0, likelyStale=0**.
+- `audit-translation.js am`: **missingFiles=0, missingKeys=0,
+  identical=0, englishChanged=0**.
+- `apply-translations.js am --verify-only`: **both audits ✅ PASS**.
+- `npm run build`: clean across 4,349 static pages, zero
+  `MISSING_MESSAGE`, zero warnings.
+
+### Files changed
+
+```
+scripts/amharic-v2-refresh/translate-inflation.js         (NEW — ~280 lines, per-currency + 37 non-currency)
+scripts/amharic-v2-refresh/translate-rest.js              (NEW — ~600 lines, ns::key map, 502 entries)
+scripts/amharic-v2-refresh/retranslate-english-changed.js (NEW — ~80 lines, 8 V2-rewritten key translations)
+i18n/am/**/*.json                                         (38 files re-touched; 874 entries added/updated; @metadata.last-updated → 2026-04-23)
+scripts/i18n-audit/reports/applied/am-20260423-204033.json (archived report)
+scripts/i18n-audit/language-diff.js                       (SHORT_ALLOWED_IDENTICAL: + CBDC; targetHasV2MarkerEquivalent: ratio 0.75 → 0.55)
+scripts/audit-translation.js                              (SKIP_VALUES: + "Lightning Network")
+V2-REDESIGN-CHECKLIST.md                                  (Step 5 am ticked with detailed note + Phase B counter 1 → 2)
+memory-bank/activeContext.md                              (matching entry prepended)
+memory-bank/progress.md                                   (this entry prepended)
+```
+
+---
+
 ## i18n cleanup Step 5 Phase B — Afrikaans (af) re-translation complete — 2026-04-23
 
 **Counter:** 1/54 languages complete.

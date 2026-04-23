@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "ራስ-ማስተናገድ = 0% ክፍያ",
 	"wallets_feature_online_store": "የመስመር ላይ ሱቅ ግንኙነት",
 	"wallets_feature_invoicing": "ነፃ የደረሰኝ ሶፍትዌር",
-	"wallets_get_wallet": "ቦርሳ ያግኙ"
+	"wallets_get_wallet": "ቦርሳ ያግኙ",
+	"wallets_hero_subtitle": "የቢትኮይን ዋሌቶች ነፃ ናቸው። ለንግድዎ የሚስማማውን ይምረጡ — በአካል፣ በመስመር ላይ፣ ወይም በደረሰኝ ላይ የተመሠረተ — እና በደቂቃዎች ውስጥ ቢትኮይንን መቀበል ይጀምሩ።",
+	"wallets_section_sole": "በግለሰብ ለተያዙ ንግዶች ዋሌቶች",
+	"wallets_section_sole_intro": "ሱቅ፣ ካፌ፣ ስቱዲዮ፣ ወይም አገልግሎት በራስዎ የሚሠሩ ከሆነ፣ ከእነዚህ ዋሌቶች ማንኛውም ይሠራል። ክፍያዎችን በቢትኮይን ማቆየት ይፈልጋሉ ወይስ የእያንዳንዱን ክፍያ ክፍል በራስ ሰር ወደ አካባቢያዊ ገንዘብዎ መቀየር ይፈልጋሉ በሚለው መሠረት ይምረጡ።",
+	"wallets_section_multiple": "ብዙ ሠራተኞች ላሏቸው ንግዶች ዋሌቶች",
+	"wallets_section_multiple_intro": "በካሽ ሬጅስተር ክፍያዎችን የሚወስድ ቡድን ካለዎት፣ ብዙ የሠራተኛ መግባቶችን የሚደግፍ ዋሌት ይምረጡ — ስለዚህ እያንዳንዱ ሠራተኛ የራሱን PIN ያገኛል እና የትኛው ክፍያ እንደወሰደ ንፁህ የኦዲት ዱካ ይይዛሉ።",
+	"wallets_section_online": "ለመስመር ላይ ንግዶች ዋሌቶች",
+	"wallets_section_online_intro": "በድህረ ገጽ ላይ ይሸጣሉ? እነዚህ ዋሌቶች ወደ የመስመር ላይ መደብርዎ ይገናኛሉ እና በዓለም ዙሪያ ከማንኛውም ደንበኛ ቢትኮይንን ይቀበላሉ — ምንም ተመላሾች፣ ምንም የነጋዴ ሒሳብ አያስፈልግም።",
+	"wallets_section_invoice": "በደረሰኝ ላይ ለተመሠረቱ ንግዶች ዋሌቶች",
+	"wallets_section_invoice_intro": "ደንበኞችን ደረሰኝ የሚልኩ ከሆነ (ምክር፣ ፍሪላንስ፣ B2B አገልግሎቶች)፣ በደረሰኝ ዙሪያ የተገነባ ዋሌት ይጠቀሙ። ደንበኛዎ የቢትኮይን ደረሰኝ በጥቂት ጠቅታዎች ይከፍላል።",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business በዜሮ ክፍያዎች እና ወዲያውኑ ክፍያ መወረድ ቢትኮይን እና Lightning ክፍያዎችን እንዲቀበሉ ያስችልዎታል። በአካል፣ በመስመር ላይ፣ እና በደረሰኝ ላይ የተመሠረቱ ክፍያዎችን ከአማራጭ በራስ ሰር ወደ አካባቢያዊ ገንዘብዎ መለወጥ ጋር ይደግፋል።",
+	"sources_square": "Square — የቢትኮይን ክፍያዎችን ይቀበሉ",
+	"sources_breez_business": "Breez — ቢትኮይን-ብቻ Lightning ዋሌት",
+	"sources_opennode": "OpenNode — የቢትኮይን ክፍያ ፕሮሰሰር",
+	"sources_ibex": "IBEX — Lightning የክፍያ መሠረተ ልማት",
+	"sources_zaprite": "Zaprite — ለንግዶች የቢትኮይን ደረሰኝ",
+	"biz_wallets_meta_description": "ሁሉም የቢትኮይን ዋሌቶች ተጠላላፊ ናቸው — ለንግድዎ የሚስማማውን ይምረጡ። ነፃ፣ ወዲያውኑ ክፍያ መወረድ፣ ምንም ተመላሾች የሉም።"
 }

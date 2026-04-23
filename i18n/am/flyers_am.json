@@ -8,7 +8,9 @@
 	},
 	"free_bitcoin_flyers": "ከbitcoin.rocks ነፃ ቢትኮይን በራሪ ወረቀቶች",
 	"flyers_description": "ቢትኮይን በራሪ ወረቀቶች ቤት አትመው በህዝባዊ ቦታዎች ይለጥፉ።",
-	"flyers_intro_header": "ቢትኮይን በራሪ ወረቀቶች እንዴት ማተም እና መለጠፍ እንደሚቻል",
+	"flyers_hero_title": "የቢትኮይን በራሪ ወረቀቶችን ያትሙ እና ይለጥፉ",
+	"flyers_hero_subtitle": "ነፃ፣ ሊታተሙ የሚችሉ የቢትኮይን በራሪ ወረቀቶች። ብዙ ሰዎች ስለ ቢትኮይን እንዲማሩ ለማገዝ በሕዝብ ቦታ ያስቀምጧቸው።",
+	"flyers_intro_header": "እነዚህን የቢትኮይን ፍላየሮች እንዴት እንደሚያትሙ እና እንደሚለጥፉ",
 	"flyers_intro_c1": "ተልዕኮአችን በህዝባዊ ቦታዎች ቢትኮይን በራሪ ወረቀቶች ለጥፎ ብዙ ሰዎች ስለ ቢትኮይን እንዲያውቁ ማድረግ ነው። እነዚህ በራሪ ወረቀቶች ወደ ትምህርታዊ",
 	"flyers_intro_c2": "ቢትኮይን ድር ጣቢያችን QR ኮድ አላቸው።",
 	"flyers_intro_c4": "እነዚህን በራሪ ወረቀቶች ቤት ወይም ማተሚያ ቤት ያትሙ። ከዚያ በማስታወቂያ ሰሌዳ፣ ምሰሶ ወይም ሰዎች የሚያዩት ህዝባዊ ቦታ ይለጥፉ ስለ ቢትኮይን ያስተምሩ።",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "በራሪ ወረቀት ቦታዎችዎን ያጋሩ",
 	"flyers_share_c1": "በNostr ላይ በራሪ ወረቀት ቦታዎችዎን ያጋሩ ሌሎች ሰዎች የት እንደሚለጥፉ ይመልከቱ።",
 	"flyers_btn_share_on_nostr": "በNOSTR ላይ ያጋሩ",
-	"flyers_btn_what_is_nostr": "NOSTR ምንድን ነው?"
+	"flyers_btn_what_is_nostr": "NOSTR ምንድን ነው?",
+	"flyers_next_get_stickers": "ቃሉን ያሰራጩ",
+	"flyers_next_get_stickers_desc": "ነፃ የቢትኮይን ስቲከር ፓኬት ያዙ"
 }

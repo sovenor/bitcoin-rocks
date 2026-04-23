@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-04-23T18:42:18.629Z",
+	"generatedAt": "2026-04-23T21:31:02.503Z",
 	"totalNamespaces": 38,
 	"totalKeys": 1849,
 	"namespaces": {
@@ -1164,7 +1164,7 @@
 			}
 		},
 		"get-involved": {
-			"lastUpdated": "2026-04-20",
+			"lastUpdated": "2026-04-23",
 			"keys": {
 				"get_involved_and_help_spread_bitcoin": "Get involved and spread Bitcoin",
 				"get_involved_business_content_1": "Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.",
