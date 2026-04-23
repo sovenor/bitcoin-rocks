@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "cs"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Časté dotazy k přijímání Bitcoinu",
 	"faq_description": "Máte otázky ohledně přijímání bitcoinových plateb ve vaší firmě?",
-	"faq_header": "MÁTE OTÁZKY OHLEDNĚ PŘIJÍMÁNÍ BITCOINOVÝCH PLATEB?",
 	"faq_s1": "Co je Bitcoin?",
 	"faq_s1_c1": "Bitcoin jsou dvě věci: digitální peníze a počítačová síť.",
 	"faq_s1_c2": "Můžete posílat bitcoin (digitální peníze) přímo ostatním lidem pomocí Bitcoinové sítě.",

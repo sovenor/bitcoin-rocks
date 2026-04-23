@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"bitcoin_vs_cbdcs": "I-Bitcoin vs Ama-CBDC",
-	"cbdc_header": "KUFANELE IBUKEKE",
-	"cbdc_header_2": "KANJANI IMALI",
-	"cbdc_header_3": "YEDIJITHALI?",
 	"cbdc_intro_1": "Umhlaba wethu uya ngokuya uba yidijithali, kanjalo nemali yethu.",
 	"cbdc_intro_2": "Lokho kuphakamisa umbuzo: sifuna imali yethu yedijithali ibukeke kanjani?",
 	"cbdc_intro_3": "Amazwe amaningi ahlola ukukhipha i-Central Bank Digital Currency (CBDC) okuyinhlobo yedijithali ngokuphelele yemali yethu ekhona kahulumeni.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "I-Bitcoin yenzelwe ukukunika ukulawula okuphelele emalini yakho.",
 	"point_1_summary_2": "Akekho ongakuvimba ukwenza izinkokhelo nge-Bitcoin.",
 	"point_1_summary_3": "Ama-CBDC enzelwe ukunika ohulumeni namabhange omkhulu ukulawula okuphelele emalini yakho.",
-	"point_1_summary_4": "Ama-CBDC anciphisa ubumfihlo nenkululeko yakho.",
 	"point_2_summary_1": "I-Bitcoin ayiphelelwa yisikhathi futhi ayinazimali zenyanga.",
 	"point_2_summary_2": "Ama-CBDC angahlelelwa ukuphelelwa yisikhathi.",
 	"point_2_summary_3": "Lapho ama-CBDC ephelelwa yisikhathi, akuvimbela ukongiwa kwekusasa.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Amakheli e-Bitcoin a-pseudonymous, okusho ukuthi awaxhumene negama lakho langempela noma ubuwena. Ama-CBDC axhumene ngqo negama lakho langempela nobuwena okuvumela ukuqaphwa kwezimali okukhulu nokuvinjelwa.",
 	"point_5_summary_1": "Inethiwekhi ye-Bitcoin engacentralized.",
 	"point_5_summary_2": "Amashumi ezinkulungwane ama-node azimele aqinisekisa imithetho yenethiwekhi.",
-	"point_5_summary_3": "Ama-CBDC acentralized ezandleni zikahulumeni namabhange omkhulu, okuwanika ukulawula okuphelele kunethiwekhi ye-CBDC.",
 	"point_6_summary_1": "I-Bitcoin ivumela noma ubani ukusebenzisa i-node eqinisekisa ukuthi imithetho yenethiwekhi iyalandelwa. Ama-CBDC awavumeli muntu ukusebenzisa ama-node futhi ancike ekuthembeni uhulumeni namabhange omkhulu.",
 	"point_7_summary_1": "I-Bitcoin yenzelwe ukwenza kungabi nako ukuthi abanye bavale imali yakho. Ama-CBDC enzelwe ukwenza kube lula kohulumeni namabhange omkhulu ukuvala imali yakho.",
 	"point_8_summary_1": "I-Bitcoin yenzelwe ukukunika ukulawula okuphelele emalini yakho.",
 	"point_8_summary_2": "Qiniseka nje ukuthi uyikhipha uyise esikhwameni sokuzigcinela.",
 	"point_8_summary_3": "Lapho uzigcinela i-bitcoin yakho, akekho ongakuvimba ukufinyelela emalini yakho.",
-	"point_8_summary_4": "Ama-CBDC adinga ukuba uthembe abagcini, njengelebhange noma uhulumeni, ukugcina imali yakho.",
 	"point_9_summary_1": "I-Bitcoin inenqubomgomo yemali elindelekile emisiwe ekhodini futhi engeke yashintshwa. Ama-CBDC, njengomali yethu yanamuhla, anenqubomgomo yemali engashintshwa kalula.",
 	"point_9_summary_2": "Lokhu kuholela kunfleshini lapho osopolitiki bephrinta imali eningi kakhulu.",
 	"point_10_summary_1": "I-Bitcoin iyinethiwekhi yekhompyutha ephephile kunazo zonke eyake yaba khona futhi ayikaze ihlaselwe. Ama-CBDC ancike kohulumeni namabhange ukuvikela inethiwekhi, abahlaselwe izikhathi ezingenakubalwa emlandweni."

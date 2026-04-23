@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs kulta",
-	"gold_header": "ERO",
-	"gold_header_2": "BITCOININ",
-	"gold_header_3": "JA",
-	"gold_header_4": "KULLAN VÄLILLÄ",
 	"gold_intro_1": "Kultaa on käytetty rahana tuhansia vuosia, ja monet pitävät sitä taloudellisena turvasatamana.",
 	"gold_intro_2": "Bitcoin on vuonna 2009 luotu digitaalinen raha, jota monet pitävät myös taloudellisena turvasatamana.",
 	"gold_intro_3": "Mutta miten fyysinen metalli kuten kulta eroaa digitaalisesta rahasta kuten Bitcoin? Katsotaan eroja kahden rahamuodon välillä: Bitcoin ja kulta.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoinin kova katto on 21 miljoonaa BTC, joita tulee koskaan olemaan.",
 	"point_3_summary_2": "Uutta kultaa kaivetaan maasta joka vuosi, mikä aiheuttaa kokonaistarjonnan inflaatiota. Kullan kokonaistarjonnan arvioidaan kasvavan noin 1,6 % vuodessa, mikä tarkoittaa, että osuutesi piiraasta pienenee 1,6 % vuodessa.",
 	"point_3_summary_3": "Tämä on vähemmän kuin fiat-inflaatio, mutta silti inflaatiota.",
-	"point_3_summary_4": "Bitcoinilla osuutesi piiraasta ei koskaan pienene.",
 	"point_4_summary_1": "Kullalla on joustava tarjonta, mikä tarkoittaa, että kullan hinnan noustessa on suurempi kannustin louhia lisää kultaa. Tämä usein painaa kullan hintaa alas uusien kaivosten avautuessa.",
 	"point_4_summary_2": "Bitcoinilla, riippumatta hinnan noususta, et voi luoda enempää kuin 21M Bitcoinia.",
 	"point_4_summary_3": "Bitcoin on ensimmäinen omaisuuserä, jolla on joustamaton suhde hinnan ja tarjonnan välillä.",
 	"point_5_summary_1": "Bitcoin-verkko on hajautettu.",
 	"point_5_summary_2": "Kymmenettuhannet itsenäiset solmut vahvistavat verkon säännöt.",
-	"point_5_summary_3": "Käyttäjät voivat ottaa Bitcoininsa omaan hallintaan lataamalla sovelluksen.",
-	"point_5_summary_4": "Vaikka fyysisen kullan omahallinta on mahdollista, suurin osa fyysisestä kullasta säilytetään suurissa holveissa, jotka ovat säilyttäjien omistamia, mikä tekee siitä fyysisesti keskitettyä.",
 	"point_6_summary_1": "Bitcoinilla on uskomattoman helppoa todentaa, että sinulla on aitoa Bitcoinia ottamalla kolikot omaan hallintaan ja ajamalla täysi solmu.",
 	"point_6_summary_2": "Oma hallinnointi on yhtä helppoa kuin sovelluksen lataaminen.",
 	"point_6_summary_3": "Täysi solmu on yksinkertainen ohjelmisto, joka varmistaa, että verkon sääntöjä noudatetaan ja todentaa, että sinulla on aitoa Bitcoinia.",
-	"point_6_summary_4": "Fyysisen kullan todentaminen aidoksi voi olla erittäin vaikeaa. Vaikka todentaisit fyysisen kullan ulko-osan aidoksi, sisäpuoli voi olla volframia tai muuta metallia. Ainoa tapa todella todentaa omistamasi fyysinen kulta on sulattaa se.",
 	"point_7_summary_1": "Aivan kuten 1 dollarissa on 100 senttiä, 1 Bitcoinissa on 100 000 000 satsia. Tämä mahdollistaa Bitcoinin käytön kaikenkokoisiin ostoksiin, mukaan lukien mikromaksut, jotka ovat vain muutaman sentin.",
-	"point_7_summary_2": "Tämä tekee Bitcoinista hyvän yrityksille.",
-	"point_7_summary_3": "Koska fyysistä kultaa on vaikea jakaa, sitä ei voi helposti käyttää ostoksiin, varsinkaan pieniin ostoksiin."
+	"point_7_summary_2": "Tämä tekee Bitcoinista hyvän yrityksille."
 }

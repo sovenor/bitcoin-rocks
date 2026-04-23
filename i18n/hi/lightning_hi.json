@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin लाइटनिंग वॉलेट गाइड",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "ये बैंकिंग जैसे हैं जहाँ तीसरे पक्ष पर भरोसा ज़रूरी है। एक्सचेंज पर Bitcoin = कस्टोडियल वॉलेट।",
 	"lightning_s3_c3": "कस्टोडियल वॉलेट सुविधाजनक लगते हैं, लेकिन कस्टोडियन कभी भी फंड चुरा सकता है।",
 	"lightning_s3_c4": "कुछ लोग आसानी के लिए छोटी राशि के लिए कस्टोडियल लाइटनिंग वॉलेट पसंद करते हैं। बस याद रखें: आपकी कुंजी नहीं, आपका कॉइन नहीं!",
-	"lightning_question_2": "अपना वॉलेट चुनें",
-	"lightning_s4_c1": "ऊपर सब जानकर, अब आप अपने लिए सही ट्रेड-ऑफ वाला लाइटनिंग वॉलेट चुन सकते हैं।",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "सुविधा संपन्न",
 	"lightning_mobile_app": "मोबाइल ऐप",
 	"lightning_free": "100% मुफ़्त",
 	"lightning_merchants": "व्यापारियों के लिए उपयुक्त",
-	"lightning_starter": "उत्कृष्ट शुरुआती वॉलेट",
-	"lightning_browser": "ब्राउज़र में",
 	"lightning_custodial": "पूर्ण कस्टोडियल वॉलेट",
 	"lightning_cta_hardware": "हमारी हार्डवेयर Bitcoin वॉलेट गाइड खोज रहे हैं?"
 }

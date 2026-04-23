@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
-	},
-	"escape_the_matrix_with_nostr": "Evadează din Matrix cu Nostr",
-	"nostr_header": "EVADEAZĂ DIN MATRIX CU NOSTR"
+	}
 }

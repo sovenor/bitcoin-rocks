@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "fil"
 	},
 	"bitcoin_lightning_wallet_guide": "Gabay sa Bitcoin Lightning Wallet",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Ang mga wallet na ito ay mas katulad ng sistema ng pagbabangko kung saan kailangan mong magtiwala sa isang third party upang bigyan ka ng access sa iyong pera. Kung ang iyong Bitcoin ay nasa isang exchange, gumagamit ka ng custodial wallet.",
 	"lightning_s3_c3": "Ang mga custodial wallet ay maaaring mukhang maginhawa, ngunit ang custodian ay may teknikal na kakayahang nakawin ang lahat ng pondo ng user anumang oras.",
 	"lightning_s3_c4": "Ang ilang tao ay mas gusto ang mga custodial Lightning wallet para sa maliliit na halaga ng bitcoin dahil sa kanilang kadalian ng paggamit. Tandaan lang: hindi mo ang susi, hindi mo ang barya!",
-	"lightning_question_2": "PILIIN ANG IYONG WALLET",
-	"lightning_s4_c1": "Sa lahat ng ito sa isip, maaari ka na ngayong pumili ng lightning wallet na may tamang balanse ng trade-off para sa iyo.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Maraming feature",
 	"lightning_mobile_app": "Mobile app",
 	"lightning_free": "100% libre",
 	"lightning_merchants": "Mahusay para sa mga merchant",
-	"lightning_starter": "Mahusay na panimulang wallet",
-	"lightning_browser": "Base sa browser",
 	"lightning_custodial": "Ganap na custodial wallet",
 	"lightning_cta_hardware": "Naghahanap ng aming Gabay sa Bitcoin Hardware Wallet?"
 }

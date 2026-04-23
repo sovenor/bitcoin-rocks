@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs ομόλογα",
-	"bonds_header": "Η ΔΙΑΦΟΡΑ",
-	"bonds_header_2": "ΜΕΤΑΞΥ",
-	"bonds_header_3": "BITCOIN",
-	"bonds_header_4": "ΚΑΙ ΟΜΟΛΟΓΩΝ",
 	"bonds_intro_1": "Τα κρατικά ομόλογα συχνά αποκαλούνται «χωρίς ρίσκο».",
 	"bonds_intro_2": "Το Bitcoin είναι ψηφιακό χρήμα ανεξάρτητο από κυβερνήσεις.",
 	"bonds_intro_3": "Είναι τα ομόλογα πραγματικά χωρίς ρίσκο;",

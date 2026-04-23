@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "SKILLNADEN MELLAN",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "OCH",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kreditkort och Bitcoin är båda betalningssystem, men de fungerar väldigt olika.",
 	"visa_intro_2": "Kreditkort som Visa är slutna nätverk kontrollerade av finansiella institutioner, medan Bitcoin är ett öppet nätverk som vem som helst kan använda.",
 	"visa_intro_3": "Låt oss titta på skillnaderna mellan dessa två betalningsinfrastrukturer: Bitcoin och Visa.",

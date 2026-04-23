@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ur"
 	},
 	"bitcoin_vs_visa": "Bitcoin بنام Visa",
-	"visa_header": "فرق",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "اور",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "کریڈٹ کارڈز اور Bitcoin دونوں ادائیگی کے نظام ہیں، لیکن یہ بہت مختلف طریقے سے کام کرتے ہیں۔",
 	"visa_intro_2": "Visa جیسے کریڈٹ کارڈز بند نیٹورکس ہیں جنہیں مالی ادارے کنٹرول کرتے ہیں، جبکہ Bitcoin ایک کھلا نیٹورک ہے جسے کوئی بھی استعمال کر سکتا ہے۔",
 	"visa_intro_3": "آئیے ان دو ادائیگی کے نظاموں کے فرق دیکھیں: Bitcoin اور Visa۔",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-beursiegids",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Hierdie beursies is meer soortgelyk aan die bankstelsel waar jy 'n derde party moet vertrou om jou toegang tot jou geld te gee. As jou Bitcoin op 'n beurs is, gebruik jy 'n bewaardebeursie.",
 	"lightning_s3_c3": "Bewaardebeursies kan gerieflik lyk, maar die bewaarder het die tegniese vermoë om alle gebruikersfondse enige tyd te steel.",
 	"lightning_s3_c4": "Sommige mense verkies bewaarder Lightning-beursies vir klein bedrae bitcoin weens hul gebruiksgemak. Onthou net: nie jou sleutels nie, nie jou munte nie!",
-	"lightning_question_2": "KIES JOU BEURSIE",
-	"lightning_s4_c1": "Met al hierdie in gedagte kan jy nou die Lightning-beursie kies wat die regte kompromiebalans vir jou het.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Baie kenmerke",
 	"lightning_mobile_app": "Mobiele toepassing",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Uitstekend vir handelaars",
-	"lightning_starter": "Uitstekende beginbeursie",
-	"lightning_browser": "Blaaiergebaseer",
 	"lightning_custodial": "Ten volle bewaardebeursie",
 	"lightning_cta_hardware": "Soek jy ons Bitcoin-hardewarebeursiegids?"
 }

@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"get_involved_and_help_spread_bitcoin": "ይሳተፉ ቢትኮይንን ለማስፋፋት ይረዱ",
 	"get_involved_description": "ነፃ ግብዓቶች ቢትኮይን ተቀባይነትን ለማስፋፋት ቀላል ያደርጋሉ።",
 	"get_involved_header": "ይሳተፉ",
-	"get_involved_header_2": "ቢትኮይንን ያስፋፉ",
 	"get_involved_intro_1": "በአሁኑ ዓለም ሁኔታ ውስጥ መኖር ከባድ ሊሆን ይችላል።",
 	"get_involved_intro_2": "ገንዘባችን ተበላሽቷል። ከዚህ የተነሳ የህብረተሰብ መሰረታዊ ክፍሎችም ተበላሽተዋል።",
 	"get_involved_intro_3": "ቢትኮይንን ቀድሞ ካወቁ ቢትኮይን ሊያመጣ የሚችለውን ተስፋ ያውቃሉ። ይበልጥ ጥሩ ገንዘብ ሊያስችለው ስለሚችል ብሩህ ወደፊት ተስፋ።",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "ሌሎች ስቲከሮች ሰዎችን ወደ",
 	"get_involved_sticker_content_5": "ቢትኮይን የተሻለ ዓለም እየገነባ መሆኑን የሚያሳይ ትምህርታዊ ዋና ገጽ ያስፈንጥራሉ።",
 	"get_involved_sticker_content_6": "ሰዎች ያዩዋቸው ቦታዎች ላይ እነዚህን ስቲከሮች ለጥፈው ዙሪያዎ ሰዎች ቢትኮይን ቶሎ ጉድጓድ ውስጥ የመጀመሪያ ቆመት እንዲጀምሩ ይረዳሉ።",
-	"get_involved_request_a": "ይጠይቁ",
-	"get_involved_sticker_pack": "ስቲከር ፓኬጅ",
-	"get_involved_postcard_header": "ፖስት ካርድ ይላኩ",
-	"get_involved_postcard_content_1": "ነፃ ፖስት ካርድ ላክ ለሚያውቋቸው ሰው ቢትኮይን ተስፋ ያስፋፉ።",
-	"get_involved_postcard_content_2": "እያንዳንዱ ፖስት ካርድ ጀርባ ስለ ቢትኮይን አሳማኝ ማብራሪያ እና ተጨማሪ ለመማር QR ኮድ አለው።",
-	"get_involved_postcard_content_3": "ቢትኮይን ፖስት ካርድ ላኩ ቢትኮይንን በአዲስ ዓይን ሊያዩ እንዲችሉ ይረዷቸው።",
-	"get_involved_postcard_pack": "ፖስት ካርድ ፓኬጅ",
 	"get_involved_business_header": "ንግዶችን ያስተዋውቁ",
 	"get_involved_business_content_1": "ቢትኮይን ዙሪያ ኢኮኖሚ ለመገንባት ይፈልጋሉ? ቢትኮይን ንግድ ኪት ለንግዶች ቢትኮይን ክፍያ መቀበል ቀላል ለማድረግ ይረዳል።",
 	"get_involved_business_content_2": "እያንዳንዱ ንግድ ኪት ቢትኮይን ክፍያ መቀበል ጥቅሞችን የሚያሳይ በራሪ ወረቀት ይዟል። እያንዳንዱ በራሪ ወረቀት ወደ የተለያዩ",
-	"get_involved_business_content_3": "ነፃ ቢትኮይን ንግድ ግብዓቶች ያስፈንጥራል።",
-	"get_involved_business_kit": "ንግድ ኪት"
+	"get_involved_business_content_3": "ነፃ ቢትኮይን ንግድ ግብዓቶች ያስፈንጥራል።"
 }

@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"danish_bitcoin_sticker_files": "Dán Bitcoin matricafájlok",
-	"danish_description": "Töltsd le a Bitcoin matricafájlokat dán nyelven.",
-	"danish_header": "DÁN BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

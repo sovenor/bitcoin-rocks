@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "he"
 	},
 	"bitcoin_lightning_wallet_guide": "מדריך ארנקי לייטנינג לביטקוין",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "ארנקים אלה דומים יותר למערכת הבנקאית שבה אתה חייב לסמוך על צד שלישי שייתן לך גישה לכסף שלך. אם הביטקוין שלך בבורסה, אתה משתמש בארנק משמורני.",
 	"lightning_s3_c3": "ארנקים משמורניים עשויים להיראות נוחים, אבל למשמורן יש את היכולת הטכנית לגנוב את כל כספי המשתמשים בכל עת.",
 	"lightning_s3_c4": "חלק מהאנשים מעדיפים ארנקי לייטנינג משמורניים לסכומים קטנים של ביטקוין בגלל קלות השימוש. רק זכרו: לא המפתחות שלך, לא המטבעות שלך!",
-	"lightning_question_2": "בחר את הארנק שלך",
-	"lightning_s4_c1": "עם כל זה בחשבון, אתה יכול עכשיו לבחור את ארנק הלייטנינג שיש לו את האיזון הנכון של פשרות עבורך.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "הרבה תכונות",
 	"lightning_mobile_app": "אפליקציה לנייד",
 	"lightning_free": "חינם לחלוטין 100%",
 	"lightning_merchants": "מצוין לסוחרים",
-	"lightning_starter": "ארנק מעולה למתחילים",
-	"lightning_browser": "מבוסס דפדפן",
 	"lightning_custodial": "ארנק משמורני לחלוטין",
 	"lightning_cta_hardware": "מחפש את מדריך ארנקי החומרה של ביטקוין?"
 }

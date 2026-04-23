@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_vs_crypto": "Bitcoin da Crypto",
-	"crypto_header": "BAMBANCI TSAKANIN",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "DA",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Masana'antar cryptocurrency ta ɓarke zuwa dubunnan tokens da ayyuka daban-daban na dijital.",
 	"crypto_intro_2": "Yayin da Bitcoin shi ne na farko kuma ya kasance mafi sanannen, ya bambanta ta asali da sauran masana'antar crypto.",
 	"crypto_intro_3": "Bari mu bincika muhimman bambance-bambancen tsakanin Bitcoin da yanayin cryptocurrency mafi girma.",

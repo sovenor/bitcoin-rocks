@@ -3,16 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"sticker_success_1": "Çıkartmalarınızı 2 ila 4 hafta içinde alacaksınız. Bu süre içinde çıkartmalarınız için iyi bir yer bulmaya çalışın!",
-	"sticker_success_2": "Çıkartmalar için iyi yerler:",
 	"sticker_success_list_1": "insanların göreceği halka açık yerlerde",
 	"sticker_success_list_2": "muhtemelen hızla kaldırılmayacak yerlerde (çıkartmalar kalıcı hasar vermez)",
 	"sticker_success_list_3": "kolayca yapışacak yüzeylerde (metal, plastik, cam)",
 	"sticker_success_list_4": "özel mülklere, işaretlerin üzerine, ATM'lere veya benzin istasyonlarına DEĞİL",
-	"sticker_success_3": "Başkalarının çıkartmalarını nereye yapıştırdığını görmek ister misiniz?",
-	"sticker_success_flyers_bar_new": "YENİ!",
-	"sticker_success_flyers_bar_cta": "Bitcoin broşürleri yazdırın ve yapıştırın →"
+	"sticker_success_3": "Başkalarının çıkartmalarını nereye yapıştırdığını görmek ister misiniz?"
 }

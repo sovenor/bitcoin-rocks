@@ -3,11 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Χάρτες εμπόρων Bitcoin – Καταχωρήστε την επιχείρησή σας δωρεάν",
-	"maps_header": "ΕΓΓΡΑΦΕΙΤΕ ΣΤΟΥΣ ΧΑΡΤΕΣ ΕΜΠΟΡΩΝ BITCOIN ΚΑΙ ΑΠΟΚΤΗΣΤΕ ΠΕΡΙΣΣΟΤΕΡΟΥΣ ΠΕΛΑΤΕΣ",
-	"maps_request_details": "Εισάγετε τα στοιχεία της επιχείρησής σας και θα σας καταχωρήσουμε δωρεάν!",
 	"maps_view": "Δείτε τον χάρτη εδώ."
 }

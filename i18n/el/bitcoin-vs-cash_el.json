@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs μετρητά",
-	"cash_header": "Η ΔΙΑΦΟΡΑ",
-	"cash_header_2": "ΜΕΤΑΞΥ",
-	"cash_header_3": "BITCOIN",
-	"cash_header_4": "ΚΑΙ ΜΕΤΡΗΤΩΝ",
 	"cash_intro_1": "Τα μετρητά χρησιμοποιούνται ως χρήμα εδώ και αιώνες.",
 	"cash_intro_2": "Το Bitcoin είναι ψηφιακό χρήμα που δημιουργήθηκε το 2009.",
 	"cash_intro_3": "Ας εξετάσουμε τις διαφορές: Bitcoin vs μετρητά.",

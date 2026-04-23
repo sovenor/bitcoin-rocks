@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"free_bitcoin_stickers": "Greamáin Bitcoin saor in aisce ó bitcoin.rocks",
 	"stickers_description": "Cuir greamán bitcoin in áit phoiblí chun iad siúd timpeall ort a oráistephiollú.",
-	"stickers_header": "GREAMÁIN BITCOIN SAOR IN AISCE",
-	"stickers_choose_header": "ROGHNAIGH DO PHACÁISTE GREAMÁN",
-	"stickers_choose_c1": "Is é ár misean cabhrú leat níos mó daoine a oráistephiollú trí ghreamáin Bitcoin a chur in áiteanna poiblí. Tá cóid QR ar ár ngreamáin ar fad a nascann le leathanaigh oideachais faoi",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "boilsciú",
-	"stickers_choose_c4": "Roghnaigh do phacáiste greamán thíos",
 	"stickers_text_pack": "AN PACÁISTE TÉACS",
 	"stickers_signs_pack": "AN PACÁISTE COMHARTHAÍ",
 	"stickers_instructions_1": "Cuir do sheoladh poist isteach agus cuirfimid Pacáiste Greamán Bitcoin saor in aisce chugat sa phost! Seolfar do chuid greamán i gclúdach bán simplí.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Agus tú ag é, priontáil & cuir suas do chuid ",
 	"stickers_flyers_link_text": "bileoga Bitcoin",
 	"stickers_flyers_link_after": " féin chun níos mó daoine fós a oráistephiollú.",
-	"stickers_country_global_print": "Domhanda — Priontáil mo ghreamáin féin",
-	"stickers_country_global_order": "Domhanda — Ordaigh i mbulc",
 	"placeholder_name_optional": "Ainm (roghnach)",
 	"placeholder_address_line_1": "Líne Seolta 1",
 	"placeholder_address_line_2": "Líne Seolta 2 (roghnach)",

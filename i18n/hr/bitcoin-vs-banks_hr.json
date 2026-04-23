@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banke",
-	"banks_header": "RAZLIKA IZMEĐU",
-	"banks_header_2": "BITCOINA",
-	"banks_header_3": "I",
-	"banks_header_4": "BANAKA",
 	"banks_intro_1": "Banke kontroliraju novac već stoljećima, djelujući kao posrednici za financijske transakcije i čuvari monetarnog sustava.",
 	"banks_intro_2": "Bitcoin je peer-to-peer sustav digitalnog novca koji djeluje bez banaka ili središnjih vlasti.",
 	"banks_intro_3": "Ali kako se Bitcoin mreža razlikuje od tradicionalnog bankarskog sustava? Istražimo ključne razlike između ova dva fundamentalno različita pristupa novcu.",

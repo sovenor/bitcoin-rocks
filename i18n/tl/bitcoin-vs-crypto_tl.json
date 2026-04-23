@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
-	"crypto_header": "ANG PAGKAKAIBA NG",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "AT",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Ang cryptocurrency space ay sumabog na may libu-libong magkakaibang digital token at proyekto.",
 	"crypto_intro_2": "Habang ang Bitcoin ang una at nananatiling pinakakilala na cryptocurrency, ito ay pundamental na naiiba sa natitirang bahagi ng crypto industry.",
 	"crypto_intro_3": "I-explore natin ang mga pangunahing pagkakaiba sa pagitan ng Bitcoin at ng mas malawak na cryptocurrency ecosystem.",

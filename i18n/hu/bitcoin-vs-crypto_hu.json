@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs kripto",
-	"crypto_header": "A KÜLÖNBSÉG A",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "ÉS A",
-	"crypto_header_4": "KRIPTO KÖZÖTT",
 	"crypto_intro_1": "A legtöbb ember úgy gondolja, hogy a Bitcoin ugyanaz, mint a többi kriptovaluta. Ez nem így van.",
 	"crypto_intro_2": "A Bitcoin alapvetően különbözik minden más kriptovalutától számos fontos szempontból.",
 	"crypto_intro_3": "Nézzük meg a legfontosabb különbségeket a Bitcoin és a kripto között.",

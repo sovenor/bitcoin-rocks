@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "de"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Bargeld",
-	"cash_header": "DER UNTERSCHIED ZWISCHEN",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "UND",
-	"cash_header_4": "BARGELD",
 	"cash_intro_1": "Bargeld wird seit Jahrhunderten als Geld verwendet und bleibt die häufigste Form von physischem Geld weltweit.",
 	"cash_intro_2": "Bitcoin ist digitales Geld, das 2009 geschaffen wurde und unabhängig von jeder Regierung oder zentralen Behörde funktioniert.",
 	"cash_intro_3": "Aber wie unterscheidet sich physisches Bargeld von digitalem Geld wie Bitcoin? Schauen wir uns die wichtigsten Unterschiede zwischen diesen beiden Geldformen an: Bitcoin & Bargeld.",

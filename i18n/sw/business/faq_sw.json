@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Maswali Yanayoulizwa Mara kwa Mara kuhusu Kukubali Bitcoin",
 	"faq_description": "Una maswali kuhusu kukubali malipo ya Bitcoin katika biashara yako?",
-	"faq_header": "UNA MASWALI KUHUSU KUKUBALI MALIPO YA BITCOIN?",
 	"faq_s1": "Bitcoin ni nini?",
 	"faq_s1_c1": "Bitcoin ni vitu viwili: pesa za kidijitali na mtandao wa kompyuta.",
 	"faq_s1_c2": "Unaweza kutuma bitcoin (pesa za kidijitali) moja kwa moja kwa watu wengine ukitumia Mtandao wa Bitcoin.",

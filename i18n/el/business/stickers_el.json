@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_accepted_here_stickers": "Αυτοκόλλητα «Το Bitcoin γίνεται δεκτό εδώ»",
-	"stickers_header": "ΑΠΟΚΤΗΣΤΕ ΔΩΡΕΑΝ ΑΥΤΟΚΟΛΛΗΤΑ «ΤΟ BITCOIN ΓΙΝΕΤΑΙ ΔΕΚΤΟ ΕΔΩ»",
-	"stickers_request": "Παραγγείλετε δωρεάν αυτοκόλλητα",
-	"stickers_request_details": "Ενημερώστε τους πελάτες σας ότι δέχεστε Bitcoin με αυτά τα δωρεάν αυτοκόλλητα.",
-	"stickers_country_global_print": "Παγκόσμια — Θα εκτυπώσω τα δικά μου",
-	"stickers_request_instructions": "Θα λάβετε τρία αυτοκόλλητα. Οι διευθύνσεις διαγράφονται μετά την αποστολή.",
-	"stickers_print_details": "Μπορείτε να εκτυπώσετε τα δικά σας αυτοκόλλητα!",
-	"stickers_request_language": "Δεν βλέπετε τη γλώσσα σας; Ζητήστε αρχεία στη γλώσσα σας."
+	"stickers_request": "Παραγγείλετε δωρεάν αυτοκόλλητα"
 }

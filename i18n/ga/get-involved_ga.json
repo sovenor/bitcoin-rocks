@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"get_involved_and_help_spread_bitcoin": "Glac páirt agus cabhraigh le Bitcoin a scaipeadh",
 	"get_involved_description": "Déanann ár n-acmhainní saor in aisce é níos éasca glacadh le Bitcoin a scaipeadh.",
 	"get_involved_header": "GLAC PÁIRT",
-	"get_involved_header_2": "SCAIP BITCOIN",
 	"get_involved_intro_1": "Is féidir le sé a bheith gruama a bheith beo i riocht reatha ár ndomhain.",
 	"get_involved_intro_2": "Tá ár n-airgead briste. Dá bharr sin, tá píosaí bunúsacha den tsochaí briste freisin.",
 	"get_involved_intro_3": "Má tá tú i mBitcoin cheana féin, tá a fhios agat an braistint dóchais gur féidir le Bitcoin a thabhairt. Dóchas do thodhchaí níos gile arna fhéidearthú ag airgead níos fearr.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Nascann na greamáin eile lenár leathanach baile oideachais a thaispeánann do dhaoine conas atá",
 	"get_involved_sticker_content_5": "Bitcoin ag tógáil domhain níos fearr.",
 	"get_involved_sticker_content_6": "Trí na greamáin seo a chur suas i do phobal in áiteanna a bhfeicfidh daoine iad, is féidir leat cabhrú le iad siúd timpeall ort a gcéad chéimeanna a ghlacadh síos poll coinín Bitcoin.",
-	"get_involved_request_a": "IARR",
-	"get_involved_sticker_pack": "PACÁISTE GREAMÁN",
-	"get_involved_postcard_header": "Seol cárta poist",
-	"get_involved_postcard_content_1": "Is féidir leat cabhrú le Dóchas Bitcoin a scaipeadh chuig duine a bhfuil aithne agat air trí cheann dár gcártaí poist saor in aisce a sheoladh chucu.",
-	"get_involved_postcard_content_2": "Tá achoimre spreagúil faoi Bitcoin ar chúl gach cárta poist mar aon le cód QR chun tuilleadh a fhoghlaim.",
-	"get_involved_postcard_content_3": "Trí chárta poist Bitcoin a sheoladh chuig duine, is féidir leat cabhrú leo Bitcoin a fheiceáil ar bhealach nua.",
-	"get_involved_postcard_pack": "PACÁISTE CÁRTAÍ POIST",
 	"get_involved_business_header": "Cuir gnó ar bun",
 	"get_involved_business_content_1": "Ar mhaith leat cabhrú le geilleagar ciorclach Bitcoin a thógáil? Déanann ár bPacáiste Gnó Bitcoin é éasca cur chuige a dhéanamh ar ghnó faoi ghlacadh le híocaíochtaí Bitcoin.",
 	"get_involved_business_content_2": "Cuimsíonn gach pacáiste gnó bileoga a aibhsíonn na buntáistí a bhaineann le glacadh le híocaíochtaí Bitcoin. Nascann gach bileog le raon",
-	"get_involved_business_content_3": "acmhainní gnó Bitcoin saor in aisce.",
-	"get_involved_business_kit": "PACÁISTE GNÓ"
+	"get_involved_business_content_3": "acmhainní gnó Bitcoin saor in aisce."
 }

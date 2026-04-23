@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"bitcoin_vs_crypto": "Bitcoin proti kriptu",
-	"crypto_header": "RAZLIKA MED",
-	"crypto_header_2": "BITCOINOM",
-	"crypto_header_3": "IN",
-	"crypto_header_4": "KRIPTOM",
 	"crypto_intro_1": "Prostor kriptovalut je eksplodiral s tisočimi različnih digitalnih žetonov in projektov.",
 	"crypto_intro_2": "Čeprav je bil Bitcoin prvi in ostaja najznamenejša kriptovaluta, se bistveno razlikuje od preostale kripto industrije.",
 	"crypto_intro_3": "Poglejmo ključne razlike med Bitcoinom in širšim ekosistemom kriptovalut.",

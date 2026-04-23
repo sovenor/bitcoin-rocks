@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin biznes uchun foydali",
-	"biz_header": "BITCOIN BIZNES UCHUN FOYDALI",
 	"biz_s1": "Minimal summasi yoʻq past komissiyalar",
 	"biz_s1_c1": "Bitcoin, xuddi naqd pul kabi, mijozlaringizdan bevosita toʻlov olish imkonini beradi. Bitcoin tarmogʻi yuqori komissiyalar oladigan banklar va kredit karta kompaniyalari kabi vositachilarssiz ishlaydi.",
 	"biz_s2": "Bir zumda toʻlov",

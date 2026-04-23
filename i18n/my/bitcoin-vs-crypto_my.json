@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "my"
 	},
 	"bitcoin_vs_crypto": "Bitcoin နှင့် Crypto",
-	"crypto_header": "ကြားက ကွာခြားချက်",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "နှင့်",
-	"crypto_header_4": "Crypto",
 	"crypto_intro_1": "Cryptocurrency နယ်ပယ်သည် ဒစ်ဂျစ်တယ်တိုကင်နှင့် ပရောဂျက်ထောင်ပေါင်းများစွာဖြင့် ပေါက်ကွဲခဲ့ပါသည်။",
 	"crypto_intro_2": "Bitcoin သည် ပထမဆုံးနှင့် အကျော်ကြားဆုံး cryptocurrency ဖြစ်သော်လည်း ကျန်ရှိသော crypto လုပ်ငန်းနှင့် မူလကွဲပြားပါသည်။",
 	"crypto_intro_3": "Bitcoin နှင့် ကျယ်ပြန့်သော cryptocurrency ဂေဟစနစ်ကြား အဓိကကွာခြားချက်များကို ကြည့်ကြပါစို့။",

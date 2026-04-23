@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Zlato",
-	"gold_header": "RAZLIKA IZMEĐU",
-	"gold_header_2": "BITCOINA",
-	"gold_header_3": "I",
-	"gold_header_4": "ZLATA",
 	"gold_intro_1": "Zlato se koristi kao novac tisućama godina i mnogi ga smatraju financijskim utočištem.",
 	"gold_intro_2": "Bitcoin je digitalni novac stvoren 2009. godine i također ga mnogi smatraju financijskim utočištem.",
 	"gold_intro_3": "Ali kako se fizički metal poput zlata razlikuje od digitalnog novca poput Bitcoina? Pogledajmo razlike između dva oblika novca: Bitcoina i zlata.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoin ima strogi limit od 21 milijun BTC-a koji će ikada postojati.",
 	"point_3_summary_2": "Nova ponuda zlata vadi se iz tla svake godine, što rezultira inflacijom ukupne ponude. Procjenjuje se da se ukupna ponuda zlata povećava za oko 1,6% godišnje, što znači da se vaš dio kolača smanjuje za 1,6% godišnje.",
 	"point_3_summary_3": "To je manje od fiat inflacije, ali je još uvijek inflacija.",
-	"point_3_summary_4": "S Bitcoinom, vaš dio kolača se nikada ne smanjuje.",
 	"point_4_summary_1": "Zlato ima elastičnu ponudu, što znači da kako cijena zlata raste, postoji veći poticaj za rudarenje više zlata. To često vrši pritisak na pad cijene zlata dok se novi rudnici otvaraju.",
 	"point_4_summary_2": "S Bitcoinom, bez obzira koliko cijena naraste, ne možete stvoriti više od 21M Bitcoina.",
 	"point_4_summary_3": "Bitcoin je prva imovina s neelastičnim odnosom između cijene i ponude.",
 	"point_5_summary_1": "Bitcoin mreža je decentralizirana.",
 	"point_5_summary_2": "Deseci tisuća neovisnih čvorova potvrđuju pravila mreže.",
-	"point_5_summary_3": "Korisnici mogu preuzeti samoskrbništvo nad svojim Bitcoinom preuzimanjem aplikacije.",
-	"point_5_summary_4": "Iako je moguće samoskrbništvo fizičkog zlata, većina fizičkog zlata pohranjena je u ogromnim trezorima u vlasništvu skrbnika, što ga čini fizički centraliziranim.",
 	"point_6_summary_1": "S Bitcoinom je nevjerojatno lako provjeriti da imate pravi Bitcoin preuzimanjem samoskrbništva nad svojim kovanicama i pokretanjem punog čvora.",
 	"point_6_summary_2": "Samoskrbništvo je jednostavno poput preuzimanja aplikacije.",
 	"point_6_summary_3": "Puni čvor je jednostavan softver koji osigurava da se pravila mreže poštuju i potvrđuje da imate pravi Bitcoin.",
-	"point_6_summary_4": "Fizičko zlato može biti vrlo teško provjeriti kao autentično. Čak i ako provjerite da je vanjski dio fizičkog zlata pravi, unutrašnjost vašeg komada fizičkog zlata mogla bi biti volfram ili drugi metal koji nije zlato. Jedini način da uistinu provjerite da posjedujete fizičko zlato za koje mislite da posjedujete je da ga rastopite.",
 	"point_7_summary_1": "Baš kao što ima 100 centi u 1 dolaru, postoji 100.000.000 satsa u 1 Bitcoinu. To omogućuje korištenje Bitcoina za kupnje svih razmjera, uključujući mikrotransakcije male poput nekoliko centi.",
-	"point_7_summary_2": "To čini Bitcoin dobrim za poslovanje.",
-	"point_7_summary_3": "Budući da je fizičko zlato teško dijeliti, ne može se lako koristiti za kupnje, posebice male kupnje."
+	"point_7_summary_2": "To čini Bitcoin dobrim za poslovanje."
 }

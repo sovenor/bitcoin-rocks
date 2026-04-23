@@ -6,7 +6,8 @@
 			],
 			"last-updated": "2026-04-12",
 			"locale": "yo"
-		}
+		},
+		"last-updated": "2026-04-23"
 	},
 	"bitcoin_lightning_wallet_guide": "Àmò̀nà Àpò Owó Bitcoin Lightning",
 	"lightning_description": "Àwọn àpò owó Lightning gba ọ láàyè láti fi Bitcoin ranṣẹ́ ní kìyà àti pẹ̀lú owó tó kéré lakoko tí o ṣì mú òmìnìra rẹ duro.",
@@ -26,18 +27,13 @@
 	"lightning_s3_c2": "Àwọn àpò owó wọ̀nyí dàbí ètò ilé-ìfòwópàmó́ tí o gbọ̀dọ̀ gbékẹ̀lé ẹ̀léekẹ́ta láti fún ọ ní iràyè sí owó rẹ.",
 	"lightning_s3_c3": "Àwọn àpò owó olùṣọ́ lè dàbí pé ó rọ̀rùn, ṣùgbọ́n olùṣọ́ ní agbára imọ̀-ẹ̀rọ̀ láti jí gbogbo owó olùmúlò ní àkókó kaǹkaǹ.",
 	"lightning_s3_c4": "Àwọn ènìyàn kan fẹ́ràn àwọn àpò owó Lightning olùṣọ́ fún iye bitcoin kékeré nítórí ìrọ̀rùn lílò wọn. Kàn ranti: kò ṣe kókóró rẹ, kò ṣe owó rẹ!",
-	"lightning_question_2": "YAN ÀPÒ OWÓ RẸ",
-	"lightning_s4_c1": "Pẹ̀lú gbogbo èyí lókàn, o lè yan àpò owó lightning tó ní ìparọ̀ tó tó fún ọ.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Àbùdá púpọ̀",
 	"lightning_mobile_app": "Àpù alagbékà",
 	"lightning_free": "Òfẹ́ẹ́ 100%",
 	"lightning_merchants": "Ó dára fún àwọn olutà",
-	"lightning_starter": "Àpò owó àkọ́kó́ tó dára",
-	"lightning_browser": "Da lórí awo-irinajò",
 	"lightning_custodial": "Àpò owó olùṣọ́ kikun",
 	"lightning_cta_hardware": "Ṣé o ń wá Àmò̀nà Àpò Owó Hardware Bitcoin wa?"
 }

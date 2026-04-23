@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "ARTEKO ALDEA",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "ETA",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kreditu-txartelak eta Bitcoin biak ordainketa-sistemak dira, baina oso modu desberdinean funtzionatzen dute.",
 	"visa_intro_2": "Visa bezalako kreditu-txartelak finantza-erakundeek kontrolatutako sare itxiak dira, Bitcoin sare irekia den bitartean edonork erabil dezakeena.",
 	"visa_intro_3": "Ikus ditzagun bi ordainketa-bide hauen arteko desberdintasunak: Bitcoin eta Visa.",

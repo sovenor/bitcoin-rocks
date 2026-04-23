@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks-dan pulsuz Bitcoin etiketləri",
 	"stickers_description": "Ətrafınızdakıları Bitcoin-ə yönəltmək üçün ictimai yerə bitcoin etiketi yapışdırın.",
-	"stickers_header": "PULSUZ BITCOIN ETİKETLƏRİ",
-	"stickers_choose_header": "ETİKET PAKETİNİZİ SEÇİN",
-	"stickers_choose_c1": "Missiyamız ictimai yerlərdə Bitcoin etiketləri yapışdıraraq daha çox insanı Bitcoin-ə yönəltməyinizə kömək etməkdir. Bütün etiketlərimizdə bu mövzularda təhsil səhifələrinə keçid verən QR kodları var:",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflyasiya",
-	"stickers_choose_c4": "Aşağıda etiket paketinizi seçin",
 	"stickers_text_pack": "MƏTN PAKETİ",
 	"stickers_signs_pack": "NİŞANLAR PAKETİ",
 	"stickers_instructions_1": "Poçt ünvanınızı daxil edin və biz sizə poçtla pulsuz Bitcoin Etiket Paketi göndərəcəyik! Etiketləriniz düz ağ zərfdə göndəriləcək.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Eyni zamanda ",
 	"stickers_flyers_link_text": "Bitcoin vərəqələri",
 	"stickers_flyers_link_after": " çap edin və asın ki, daha çox insanı Bitcoin-ə yönəldəsiniz.",
-	"stickers_country_global_print": "Qlobal — Öz etiketlərimi çap et",
-	"stickers_country_global_order": "Qlobal — Toplu sifariş",
 	"placeholder_name_optional": "Ad (isteğe bağlı)",
 	"placeholder_address_line_1": "Ünvan Sətri 1",
 	"placeholder_address_line_2": "Ünvan Sətri 2 (isteğe bağlı)",

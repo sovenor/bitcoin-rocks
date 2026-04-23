@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Dažnai užduodami klausimai apie Bitcoin priėmimą",
 	"faq_description": "Turite klausimų dėl Bitcoin mokėjimų priėmimo jūsų versle?",
-	"faq_header": "TURITE KLAUSIMŲ APIE BITCOIN MOKĖJIMŲ PRIĖMIMĄ?",
 	"faq_s1": "Kas yra Bitcoin?",
 	"faq_s1_c1": "Bitcoin yra du dalykai: skaitmeniniai pinigai ir kompiuterinis tinklas.",
 	"faq_s1_c2": "Galite siųsti bitcoin (skaitmeninius pinigus) tiesiogiai kitiems žmonėms naudodami Bitcoin tinklą.",

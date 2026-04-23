@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
-	},
-	"escape_the_matrix_with_nostr": "Δραπετεύστε από το Matrix με το Nostr",
-	"nostr_header": "ΔΡΑΠΕΤΕΥΣΤΕ ΑΠΟ ΤΟ MATRIX ΜΕ ΤΟ NOSTR"
+	}
 }

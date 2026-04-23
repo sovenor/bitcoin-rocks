@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Bonds",
-	"bonds_header": "ANG PAGKAKAIBA NG",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "AT",
-	"bonds_header_4": "MGA BOND",
 	"bonds_intro_1": "Ang mga government bond ay madalas tinatawag na 'walang panganib' na investment at itinuturing na pinakaligtas na lugar upang mag-imbak ng kayamanan ng tradisyunal na pinansya.",
 	"bonds_intro_2": "Ang Bitcoin ay digital na pera na gumagana nang independiyente sa anumang gobyerno o sentral na awtoridad.",
 	"bonds_intro_3": "Ngunit tunay bang walang panganib ang mga bond? At paano sila ikinukumpara sa Bitcoin bilang store of value? Suriin natin ang mga pangunahing pagkakaiba sa pagitan ng Bitcoin at government bond.",

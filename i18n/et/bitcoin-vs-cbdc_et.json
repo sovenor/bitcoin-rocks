@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC'er",
-	"cbdc_header": "HVORDAN BØR",
-	"cbdc_header_2": "DIGITALE PENGE",
-	"cbdc_header_3": "SE UD?",
 	"cbdc_intro_1": "Vores verden bliver stadig mere digital, og det gælder også vores penge.",
 	"cbdc_intro_2": "Det rejser spørgsmålet: hvordan vil vi have, at vores digitale penge skal se ud?",
 	"cbdc_intro_3": "Mange lande udforsker at udstede en centralbank digital valuta (CBDC), som er en fuldstændig digital form af vores eksisterende statsvaluta.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin er designet til at give dig total kontrol over dine penge.",
 	"point_1_summary_2": "Ingen kan stoppe dig fra at foretage transaktioner med Bitcoin.",
 	"point_1_summary_3": "CBDC'er er designet til at give regeringer og centralbanker total kontrol over dine penge.",
-	"point_1_summary_4": "CBDC'er begrænser dit privatliv og din frihed.",
 	"point_2_summary_1": "Bitcoin udløber aldrig og har ingen månedlige gebyrer.",
 	"point_2_summary_2": "CBDC'er kan programmeres til at udløbe.",
 	"point_2_summary_3": "Når CBDC'er udløber, forhindrer de dig i at spare til fremtiden.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin-adresser er pseudonyme, hvilket betyder, at de ikke er knyttet til dit rigtige navn eller identitet. CBDC'er er direkte knyttet til dit rigtige navn og identitet, hvilket muliggør massiv finansiel overvågning og censur.",
 	"point_5_summary_1": "Bitcoin-netværket er decentraliseret.",
 	"point_5_summary_2": "Titusindvis af uafhængige noder validerer reglerne i netværket.",
-	"point_5_summary_3": "CBDC'er er centraliseret i hænderne på myndighederne og centralbanker, som giver dem fuld kontrol over CBDC-netværket.",
 	"point_6_summary_1": "Bitcoin lader enhver køre en node, der verificerer, at reglerne i netværket følges. CBDC'er lader ingen køre noder og er afhængig af tillid til myndighederne og centralbanker.",
 	"point_7_summary_1": "Bitcoin er designet til at gøre det umuligt for andre at fryse dine penge. CBDC'er er designet til at gøre det nemt for myndigheder og centralbanker at fryse dine penge.",
 	"point_8_summary_1": "Bitcoin er designet til at give dig fuld kontrol over dine penge.",
 	"point_8_summary_2": "Bare sørg for at trække ud til en selvopbevarende wallet.",
 	"point_8_summary_3": "Når du selvopbevarer din bitcoin, kan ingen stoppe dig fra at få adgang til dine penge.",
-	"point_8_summary_4": "CBDC'er kræver, at du stoler på forvaltere, som en bank eller myndighed, til at holde dine penge for dig.",
 	"point_9_summary_1": "Bitcoin har en forudsigelig pengepolitik, der er fastlagt i kode og ikke kan ændres. CBDC'er har, som vores valutaer i dag, en pengepolitik, der nemt kan ændres.",
 	"point_9_summary_2": "Dette resulterer i inflation, når politikere trykker for mange penge.",
 	"point_10_summary_1": "Bitcoin er det mest sikre computernetværk, der nogensinde har eksisteret og er aldrig blevet hacket. CBDC'er er afhængige af myndigheder og banker for at sikre netværket, som er blevet hacket utallige gange gennem historien."

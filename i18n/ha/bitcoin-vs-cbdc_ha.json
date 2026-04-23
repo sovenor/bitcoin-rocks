@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin da CBDCs",
-	"cbdc_header": "YAYA KUƊIN",
-	"cbdc_header_2": "DIJITAL",
-	"cbdc_header_3": "YA KAMATA?",
 	"cbdc_intro_1": "Duniyarmu tana ƙaruwa ta zama ta dijital, haka ma kuɗinmu.",
 	"cbdc_intro_2": "Wannan yana haifar da tambaya: yaya muke son kuɗin dijital ɗinmu ya kasance?",
 	"cbdc_intro_3": "Ƙasashe da yawa suna binciken fitar da Kuɗin Dijital na Babban Banki (CBDC).",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin an tsara shi don ba ka cikakken iko a kan kuɗinka.",
 	"point_1_summary_2": "Babu wanda zai iya hana ka yin ma'amalolin Bitcoin.",
 	"point_1_summary_3": "CBDCs an tsara su don ba gwamnatoci cikakken iko a kan kuɗinka.",
-	"point_1_summary_4": "CBDCs suna taƙaita sirrin ka da 'yancin ka.",
 	"point_2_summary_1": "Bitcoin ba ya taɓa ƙarewa kuma ba shi da kuɗin wata-wata.",
 	"point_2_summary_2": "Za a iya tsara CBDCs su ƙare.",
 	"point_2_summary_3": "Idan CBDCs sun ƙare, suna hana ka adana kuɗi don gaba.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Adiresoshin Bitcoin masu sunan banza ne, wanda ke nufin ba su da alaƙa da sunaye ko asali. CBDCs suna da alaƙa kai tsaye da asalinku.",
 	"point_5_summary_1": "Cibiyar sadarwar Bitcoin mai rarrabawa ce.",
 	"point_5_summary_2": "Dubban dubban nodes masu zaman kansu suna tabbatar da dokokin cibiyar sadarwar.",
-	"point_5_summary_3": "CBDCs tsakaitattun ne a hannun gwamnati da babban banki.",
 	"point_6_summary_1": "Bitcoin yana ba kowa damar gudanar da node wanda ke tabbatar da cewa ana bin dokokin cibiyar sadarwar. CBDCs ba su ba da damar gudanar da nodes.",
 	"point_7_summary_1": "Bitcoin an tsara shi don sa daskare kuɗinka ya zama ba zai yiwu ba. CBDCs an tsara su don sauƙaƙa daskare kuɗinka.",
 	"point_8_summary_1": "Bitcoin an tsara shi don ba ka cikakken iko a kan kuɗinka.",
 	"point_8_summary_2": "Tabbatar kawai ka canza su zuwa kula da kanka.",
 	"point_8_summary_3": "Idan kana kula da bitcoin ɗinka da kanka, babu wanda zai iya hana ka samun kuɗinka.",
-	"point_8_summary_4": "CBDCs suna buƙatar amincewa da masu ajiya, kamar banki ko gwamnati.",
 	"point_9_summary_1": "Bitcoin yana da manufar kuɗi mai tsinkaya, da aka rubuta a cikin lambar, wanda ba za a iya canzawa ba. CBDCs suna da manufar kuɗi da za a iya canza cikin sauƙi.",
 	"point_9_summary_2": "Wannan yana haifar da hauhawar farashi idan 'yan siyasa suka buga kuɗi da yawa.",
 	"point_10_summary_1": "Bitcoin ita ce cibiyar sadarwar kwamfuta mafi aminci da ta taɓa kasancewa, kuma ba a taɓa sace ta ba. CBDCs suna dogaro da gwamnatoci da bankuna don tsaron cibiyar sadarwar."

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"bitcoin_vs_banks": "Bitcoin proti bankam",
-	"banks_header": "RAZLIKA MED",
-	"banks_header_2": "BITCOINOM",
-	"banks_header_3": "IN",
-	"banks_header_4": "BANKAMI",
 	"banks_intro_1": "Banke nadzorujejo denar že stoletja in delujejo kot posredniki finančnih transakcij ter čuvarji denarnega sistema.",
 	"banks_intro_2": "Bitcoin je enakovrstniški sistem digitalnega denarja, ki deluje brez bank ali centralnih organov.",
 	"banks_intro_3": "Kako pa se omrežje Bitcoin razlikuje od tradicionalnega bančnega sistema? Poglejmo ključne razlike med tema dvema bistveno različnima pristopoma k denarju.",

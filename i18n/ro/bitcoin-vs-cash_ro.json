@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Numerar",
-	"cash_header": "DIFERENȚA DINTRE",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "ȘI",
-	"cash_header_4": "NUMERAR",
 	"cash_intro_1": "Numerarul a fost folosit ca bani de secole și rămâne cea mai comună formă de bani fizici la nivel mondial.",
 	"cash_intro_2": "Bitcoin sunt bani digitali creați în 2009 care funcționează independent de orice guvern sau autoritate centrală.",
 	"cash_intro_3": "Dar cum diferă numerarul fizic de banii digitali precum Bitcoin? Să explorăm diferențele cheie dintre aceste două forme de bani: Bitcoin și Numerar.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs kiinteistöt",
-	"real_estate_header": "ERO",
-	"real_estate_header_2": "BITCOININ",
-	"real_estate_header_3": "JA",
-	"real_estate_header_4": "KIINTEISTÖJEN VÄLILLÄ",
 	"real_estate_intro_1": "Kiinteistöt ovat olleet suosittu sijoitusmuoto vuosikymmeniä.",
 	"real_estate_intro_2": "Bitcoin on vuonna 2009 luotu digitaalinen raha, jota monet pitävät arvon säilyttäjänä.",
 	"real_estate_intro_3": "Miten fyysinen omaisuus eroaa digitaalisesta rahasta? Katsotaan eroja: Bitcoin ja kiinteistöt.",

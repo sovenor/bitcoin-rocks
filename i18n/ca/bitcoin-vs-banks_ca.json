@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bancs",
-	"banks_header": "LA DIFERÈNCIA ENTRE",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "I",
-	"banks_header_4": "ELS BANCS",
 	"banks_intro_1": "Els bancs han controlat els diners durant segles, actuant com a intermediaris per a les transaccions financeres i guardians del sistema monetari.",
 	"banks_intro_2": "Bitcoin és un sistema de diners digitals entre iguals que funciona sense bancs ni autoritats centrals.",
 	"banks_intro_3": "Però com es diferencia la xarxa Bitcoin del sistema bancari tradicional? Explorem les diferències clau entre aquests dos enfocaments fonamentalment diferents dels diners.",

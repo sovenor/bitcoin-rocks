@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"how_to_accept_bitcoin_payments": "Πώς να αποδεχτείτε πληρωμές Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Υβριδικά πορτοφόλια:",
 	"wallets_intro_5": "Αυτά σας επιτρέπουν να μετατρέψετε οποιοδήποτε ποσοστό Bitcoin σε δολάρια αμέσως.",
 	"wallets_intro_6": "Και οι δύο τύποι είναι εξαιρετικοί τρόποι αποδοχής Bitcoin.",
-	"wallets_choice_sole": "πορτοφόλια για ατομικές επιχειρήσεις",
-	"wallets_choice_multiple": "πορτοφόλια για επιχειρήσεις με πολλούς υπαλλήλους",
-	"wallets_choice_online": "πορτοφόλια για διαδικτυακές επιχειρήσεις",
-	"wallets_choice_invoice": "πορτοφόλια για τιμολόγηση",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

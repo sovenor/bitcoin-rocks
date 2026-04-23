@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin yra naudingas verslui",
-	"biz_header": "BITCOIN YRA NAUDINGAS VERSLUI",
 	"biz_s1": "Maži mokesčiai be minimalių sumų",
 	"biz_s1_c1": "Bitcoin leidžia gauti mokėjimus tiesiogiai iš klientų, panašiai kaip grynaisiais. Bitcoin tinklas veikia be tarpininkų, tokių kaip bankai ir kredito kortių bendrovės, kurie ima didelius mokesčius.",
 	"biz_s2": "Momentinis atsiskaitymas",

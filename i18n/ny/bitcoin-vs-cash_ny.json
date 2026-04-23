@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_cash": "Bitcoin ndi Ndalama",
-	"cash_header": "KUSIYANA PAKATI PA",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "NDI",
-	"cash_header_4": "NDALAMA",
 	"cash_intro_1": "Ndalama zagwiritsidwa ntchito kwa zaka mazana ndipo ndizo ndalama zamaonekedwe zodziwika kwambiri padziko lonse.",
 	"cash_intro_2": "Bitcoin ndi ndalama zadigitala zomwe zinapangidwa mu 2009 zomwe zimagwira ntchito modziyimira popanda boma kapena olamulira alikulu.",
 	"cash_intro_3": "Koma kodi ndalama zamaonekedwe zimasiyana bwanji ndi ndalama zadigitala ngati Bitcoin? Tiyeni tione kusiyana kwakukulu pakati pa Bitcoin ndi Ndalama.",

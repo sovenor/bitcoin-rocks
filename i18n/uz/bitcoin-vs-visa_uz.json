@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_visa": "Bitcoin va Visa",
-	"visa_header": "FARQI",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "VA",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kredit kartalari va Bitcoin ikkalasi ham toʻlov tizimlari, lekin juda turlicha usullarda ishlaydi.",
 	"visa_intro_2": "Visa kabi kredit kartalari moliya muassasalari tomonidan nazorat qilinadigan yopiq tarmoqlardir, Bitcoin esa hamma foydalanishi mumkin boʻlgan ochiq tarmoq.",
 	"visa_intro_3": "Ikki toʻlov infratuzilmasi oʻrtasidagi farqlarga qaraylik: Bitcoin va Visa.",

@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin er bra for bedrifter",
-	"biz_header": "BITCOIN ER BRA FOR BEDRIFTER",
 	"biz_s1": "Lave avgifter uten minimumsbeløp",
 	"biz_s1_c1": "Bitcoin lar deg motta betalinger direkte fra kunder, på samme måte som kontanter. Bitcoin-nettverket fungerer uten mellommenn som banker og kredittkortselskaper som tar høye avgifter.",
 	"biz_s2": "Umiddelbar oppgjør",

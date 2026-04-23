@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_banks": "Bitcoin ndi Mabanki",
-	"banks_header": "KUSIYANA PAKATI PA",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "NDI",
-	"banks_header_4": "MABANKI",
 	"banks_intro_1": "Mabanki alamulira ndalama kwa zaka mazana, akugwira ntchito ngati anthu apakati a machitidwe a ndalama ndi alonda a dongosolo la ndalama.",
 	"banks_intro_2": "Bitcoin ndi dongosolo la ndalama zadigitala lopanda anthu apakati lomwe limagwira ntchito popanda mabanki kapena olamulira alikulu.",
 	"banks_intro_3": "Koma kodi netiweki ya Bitcoin imasiyana bwanji ndi dongosolo la mabanki achikhalidwe? Tiyeni tifufuze kusiyana kwakukulu pakati pa njira ziwiri zosiyana izi za ndalama.",

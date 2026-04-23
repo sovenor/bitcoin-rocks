@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dobrý pre podnikanie",
-	"biz_header": "BITCOIN JE DOBRÝ PRE PODNIKANIE",
 	"biz_s1": "Nízke poplatky bez minimálnych limitov",
 	"biz_s1_c1": "Bitcoin vám umožňuje prijímať platby priamo od zákazníkov, podobne ako hotovosť. Bitcoinová sieť funguje bez sprostredkovateľov, ako sú banky a kreditné spoločnosti, ktoré si účtujú vysoké poplatky.",
 	"biz_s2": "Okamžité vyrovnanie",

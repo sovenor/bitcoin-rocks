@@ -3,14 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
-	"bitcoin_vs_cbdc": "Bitcoin එදිරිව CBDC",
-	"cbdc_header": "අතර වෙනස",
-	"cbdc_header_2": "BITCOIN",
-	"cbdc_header_3": "සහ",
-	"cbdc_header_4": "CBDCs",
 	"cbdc_intro_1": "CBDCs (මධ්‍යම බැංකු ඩිජිටල් මුදල්) යනු රජයන් විසින් නිර්මාණය කරන ලද ඩිජිටල් මුදල් ය.",
 	"cbdc_intro_2": "Bitcoin යනු කිසිදු රජයකට හෝ සමාගමකට පාලනය කළ නොහැකි විමධ්‍යගත ඩිජිටල් මුදල් ය.",
 	"cbdc_intro_3": "නමුත් රජයේ ඩිජිටල් මුදල් මිනිසුන්ගේ ඩිජිටල් මුදල්වලින් කෙසේ වෙනස් වේද? බලමු.",

@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"escape_the_matrix_with_nostr": "Szabadulj ki a Mátrixból a Nostr-ral",
-	"nostr_header": "SZABADULJ KI A MÁTRIXBÓL A NOSTR-RAL"
+	}
 }

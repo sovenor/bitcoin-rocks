@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"free_bitcoin_stickers": "Gratis Bitcoin stickers van bitcoin.rocks",
 	"stickers_description": "Plak een bitcoin sticker op publieke plaatsen om de mensen rondom je te orangepillen.",
-	"stickers_header": "GRATIS BITCOIN STICKERS",
-	"stickers_choose_header": "KIES JOUW STICKERPAKKET",
-	"stickers_choose_c1": "Onze missie is om jou te helpen bij het orangepillen van mensen, door Bitcoin stickers in het openbaar te plakken. Al onze stickers zijn voorzien van QR-codes die gelinkt zijn naar leerzame pagina's over Bitcoin",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflatie",
-	"stickers_choose_c4": "Kies je sticker pack hieronder",
 	"stickers_text_pack": "DE TEKST VERZAMELING",
 	"stickers_signs_pack": "DE TEKENS VERZAMELING",
 	"stickers_instructions_1": "Voer je adres in en wij bezorgen je een gratis Bitcoin Sticker Pakket! Je stickers worden verzonden in een witte enveloppe.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Terwijl je ermee bezig bent, print en hang ook je eigen ",
 	"stickers_flyers_link_text": "Bitcoin-flyers",
 	"stickers_flyers_link_after": " op om nog meer mensen te orange-pillen.",
-	"stickers_country_global_print": "Global — Print mijn eigen stickers",
-	"stickers_country_global_order": "Global — Bestel in bulk",
 	"placeholder_name_optional": "Naam (optioneel)",
 	"placeholder_address_line_1": "Adresregel 1",
 	"placeholder_address_line_2": "Adresregel 2 (optioneel)",

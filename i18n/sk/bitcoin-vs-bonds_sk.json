@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Dlhopisy",
-	"bonds_header": "ROZDIEL MEDZI",
-	"bonds_header_2": "BITCOINOM",
-	"bonds_header_3": "A",
-	"bonds_header_4": "DLHOPISMI",
 	"bonds_intro_1": "Štátne dlhopisy sú často označované ako 'bezrizikové' investície a tradičné financie ich považujú za najbezpečnejšie miesto na uchovávanie bohatstva.",
 	"bonds_intro_2": "Bitcoin sú digitálne peniaze, ktoré fungujú nezávisle od akejkoľvek vlády alebo centrálnej autority.",
 	"bonds_intro_3": "Sú ale dlhopisy skutočne bezrizikové? A ako sa porovnávajú s Bitcoinom ako uchovávateľom hodnoty? Pozrime sa na kľúčové rozdiely medzi Bitcoinom a štátnymi dlhopismi.",

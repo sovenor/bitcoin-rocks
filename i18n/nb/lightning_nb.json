@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-lommebokguide",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Disse lommebøkene ligner mer på banksystemet der du må stole på en tredjepart for å gi deg tilgang til pengene dine. Hvis din Bitcoin er på en børs, bruker du en forvarende lommebok.",
 	"lightning_s3_c3": "Forvarende lommebøker kan virke praktiske, men forvalteren har den tekniske muligheten til å stjele alle brukermidler når som helst.",
 	"lightning_s3_c4": "Noen foretrekker forvarende Lightning-lommebøker for små beløp bitcoin på grunn av brukervennligheten. Bare husk: ikke dine nøkler, ikke dine mynter!",
-	"lightning_question_2": "VELG DIN LOMMEBOK",
-	"lightning_s4_c1": "Med alt dette i bakhodet kan du nå velge lightning-lommeboken som har riktig kompromissbalanse for deg.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Mange funksjoner",
 	"lightning_mobile_app": "Mobilapp",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Flott for forhandlere",
-	"lightning_starter": "Flott startlommebok",
-	"lightning_browser": "Nettleserbasert",
 	"lightning_custodial": "Helt forvarende lommebok",
 	"lightning_cta_hardware": "Leter du etter vår Bitcoin-maskinvarelommebokguide?"
 }

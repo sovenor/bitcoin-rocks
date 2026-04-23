@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "bn"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin গ্রহণ সম্পর্কে সচরাচর জিজ্ঞাসিত প্রশ্নাবলী",
 	"faq_description": "আপনার ব্যবসায় Bitcoin পেমেন্ট গ্রহণ সম্পর্কে প্রশ্ন আছে?",
-	"faq_header": "BITCOIN পেমেন্ট গ্রহণ সম্পর্কে প্রশ্ন আছে?",
 	"faq_s1": "Bitcoin কী?",
 	"faq_s1_c1": "Bitcoin হলো দুটি জিনিস: ডিজিটাল অর্থ এবং একটি কম্পিউটার নেটওয়ার্ক।",
 	"faq_s1_c2": "আপনি Bitcoin নেটওয়ার্ক ব্যবহার করে সরাসরি অন্য ব্যক্তিদের কাছে bitcoin (ডিজিটাল অর্থ) পাঠাতে পারেন।",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Hotovosť",
-	"cash_header": "ROZDIEL MEDZI",
-	"cash_header_2": "BITCOINOM",
-	"cash_header_3": "A",
-	"cash_header_4": "HOTOVOSŤOU",
 	"cash_intro_1": "Hotovosť sa ako peniaze používa po stáročia a zostáva najbežnejšou formou fyzických peňazí na celom svete.",
 	"cash_intro_2": "Bitcoin sú digitálne peniaze vytvorené v roku 2009, ktoré fungujú nezávisle od akejkoľvek vlády alebo centrálnej autority.",
 	"cash_intro_3": "Ako sa ale fyzická hotovosť líši od digitálnych peňazí ako Bitcoin? Pozrime sa na kľúčové rozdiely medzi týmito dvoma formami peňazí: Bitcoinom a Hotovosťou.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs İstiqrazlar",
-	"bonds_header": "ARASINDAKI FƏRQ",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "VƏ",
-	"bonds_header_4": "İSTİQRAZLAR",
 	"bonds_intro_1": "Dövlət istiqrazları tez-tez 'risksiz' investisiyalar adlandırılır və ənənəvi maliyyə tərəfindən sərvət saxlamaq üçün ən etibarlı yer hesab edilir.",
 	"bonds_intro_2": "Bitcoin hər hansı hökumət və ya mərkəzi hakimiyyətdən asılı olmayaraq işləyən rəqəmsal puldur.",
 	"bonds_intro_3": "Lakin istiqrazlar həqiqətən risksizdir? Və dəyər saxlama vasitəsi kimi Bitcoin ilə necə müqayisə olunur? Bitcoin və dövlət istiqrazları arasındakı əsas fərqləri araşdıraq.",

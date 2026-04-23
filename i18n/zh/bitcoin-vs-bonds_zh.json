@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_vs_bonds": "比特币 vs 债券",
-	"bonds_header": "两者之间的区别",
-	"bonds_header_2": "比特币",
-	"bonds_header_3": "和",
-	"bonds_header_4": "债券",
 	"bonds_intro_1": "国债通常被标记为「无风险」投资，传统金融界认为它们是最安全的财富储存场所。",
 	"bonds_intro_2": "比特币是独立于任何政府或中央权威运行的数字货币。",
 	"bonds_intro_3": "但债券真的是无风险的吗？与比特币相比，它们作为价值储存手段如何？让我们看看比特币和国债之间的关键差异。",

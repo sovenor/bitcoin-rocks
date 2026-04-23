@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"how_to_accept_bitcoin_payments": "Comment accepter les paiements en bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Portefeuilles mixtes :",
 	"wallets_intro_5": "Ils vous permettent d'échanger une partie de vos bitcoin contre des dollars dès qu'un client vous paie. Les frais sont toujours inférieurs aux paiements par carte de crédit, mais plus élevés que les paiements en bitcoin uniquement.",
 	"wallets_intro_6": "Les deux sont d'excellents moyens d'accepter les bitcoin. Le portefeuille que vous utiliserez dépendra de type et de la taille de votre commerce.",
-	"wallets_choice_sole": "Portefeuilles pour un petit commerçant",
-	"wallets_choice_multiple": "Portefeuilles pour les entreprises de plusieurs personnes",
-	"wallets_choice_online": "Portefeuilles pour les commerces en ligne",
-	"wallets_choice_invoice": "Portefeuille pour les entreprises basées sur des factures",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

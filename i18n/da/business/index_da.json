@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "da"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin er godt for virksomheder",
-	"biz_header": "BITCOIN ER GODT FOR VIRKSOMHEDER",
 	"biz_s1": "Lave gebyrer uden minimumsbeløb",
 	"biz_s1_c1": "Bitcoin lader dig modtage betalinger direkte fra kunder, på samme måde som kontanter. Bitcoin-netværket fungerer uden mellemmænd som banker og kreditkortselskaber, der opkræver høje gebyrer.",
 	"biz_s2": "Øjeblikkelig afregning",

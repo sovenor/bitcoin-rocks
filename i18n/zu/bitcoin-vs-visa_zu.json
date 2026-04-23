@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"bitcoin_vs_visa": "I-Bitcoin vs Visa",
-	"visa_header": "UMEHLUKO PHAKATHI",
-	"visa_header_2": "KWE-BITCOIN",
-	"visa_header_3": "KANYE",
-	"visa_header_4": "NE-VISA",
 	"visa_intro_1": "Amakhadi esikweletu ne-Bitcoin kokubili kuyizinhlelo zokukhokha, kodwa kusebenza ngezindlela ezihlukene kakhulu.",
 	"visa_intro_2": "Amakhadi esikweletu afana ne-Visa ayizinethiwekhi ezivalelekile ezilawulwa yizikhungo zezezimali, ngenkathi i-Bitcoin iyinethiwekhi evulekile enoma ubani angayisebenzisa.",
 	"visa_intro_3": "Ake sibheke umehluko phakathi kwalezi zinhlelo ezimbili zokukhokha: I-Bitcoin & Visa.",

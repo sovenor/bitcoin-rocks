@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin on hyvä yrityksille",
-	"biz_header": "BITCOIN ON HYVÄ YRITYKSILLE",
 	"biz_s1": "Alhaiset maksut ilman vähimmäismääriä",
 	"biz_s1_c1": "Bitcoin mahdollistaa maksujen vastaanottamisen suoraan asiakkailta, kuten käteinen. Bitcoin-verkko toimii ilman välikäsiä, kuten pankkeja ja luottokorttiyhtiöitä, jotka veloittavat suuria maksuja.",
 	"biz_s2": "Välitön selvitys",

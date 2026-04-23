@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin negoziorako ona da",
-	"biz_header": "BITCOIN NEGOZIORAKO ONA DA",
 	"biz_s1": "Komisio baxuak gutxieneko gabe",
 	"biz_s1_c1": "Bitcoin-ek zure bezeroen ordainketak zuzenean jasotzeko aukera ematen dizu, eskudirua bezala. Bitcoin sarea bitartekariak gabe funtzionatzen du, hala nola bankuak eta kreditu-txartel konpainiak, komisio handiak hartzen dituztenak.",
 	"biz_s2": "Berehala ordainketa",

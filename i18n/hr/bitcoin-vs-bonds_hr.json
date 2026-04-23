@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Obveznice",
-	"bonds_header": "RAZLIKA IZMEĐU",
-	"bonds_header_2": "BITCOINA",
-	"bonds_header_3": "I",
-	"bonds_header_4": "OBVEZNICA",
 	"bonds_intro_1": "Državne obveznice često se nazivaju 'bezrizičnim' ulaganjima i smatraju se najsigurnijim mjestom za pohranu bogatstva u tradicionalnim financijama.",
 	"bonds_intro_2": "Bitcoin je digitalni novac koji djeluje neovisno o bilo kojoj vladi ili središnjoj vlasti.",
 	"bonds_intro_3": "Ali jesu li obveznice uistinu bezrizične? I kako se uspoređuju s Bitcoinom kao sredstvom očuvanja vrijednosti? Ispitajmo ključne razlike između Bitcoina i državnih obveznica.",

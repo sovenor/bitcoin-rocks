@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin este bun pentru afaceri",
-	"biz_header": "BITCOIN ESTE BUN PENTRU AFACERI",
 	"biz_s1": "Comisioane mici fără minimuri",
 	"biz_s1_c1": "Bitcoin îți permite să primești plăți direct de la clienții tăi, la fel ca numerarul. Rețeaua Bitcoin funcționează fără intermediari precum băncile și companiile de carduri de credit care percep comisioane mari.",
 	"biz_s2": "Decontare instantanee",

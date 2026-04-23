@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_accepted_here_stickers": "Adhesius de 'Bitcoin acceptat aquí'",
-	"stickers_header": "ACONSEGUEIX ELS TEUS ADHESIUS GRATUÏTS DE 'BITCOIN ACCEPTAT AQUÍ'",
-	"stickers_request": "Aconsegueix els teus adhesius gratuïts",
-	"stickers_request_details": "Fes saber als teus clients que acceptes pagaments amb Bitcoin amb aquests adhesius gratuïts de 'Bitcoin acceptat aquí'.",
-	"stickers_country_global_print": "Global — Imprimeix els meus propis adhesius",
-	"stickers_request_instructions": "Rebràs tres adhesius de 'Bitcoin acceptat aquí' en un sobre blanc pla. Si necessites més de tres adhesius per al teu negoci, no dubtis a sol·licitar-ne diversos cops. Les dades d'adreça s'eliminen després que s'enviïn els teus adhesius gratuïts.",
-	"stickers_print_details": "Pots imprimir els teus propis adhesius de 'Bitcoin acceptat aquí', visquis on visquis! Fes clic al teu idioma a continuació per veure els fitxers d'adhesius i les instruccions.",
-	"stickers_request_language": "No veus el teu idioma? Omple el formulari a continuació per sol·licitar fitxers d'adhesius de 'Bitcoin acceptat aquí' en el teu idioma local."
+	"stickers_request": "Aconsegueix els teus adhesius gratuïts"
 }

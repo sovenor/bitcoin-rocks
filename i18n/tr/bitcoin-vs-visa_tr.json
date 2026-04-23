@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_visa": "Bitcoin ve Visa",
-	"visa_header": "ARADAKI FARK",
-	"visa_header_2": "BİTCOİN",
-	"visa_header_3": "VE",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kredi kartları ve Bitcoin her ikisi de ödeme sistemleridir, ancak çok farklı şekillerde çalışırlar.",
 	"visa_intro_2": "Visa gibi kredi kartları finans kurumları tarafından kontrol edilen kapalı ağlardır, Bitcoin ise herkesin kullanabileceği açık bir ağdır.",
 	"visa_intro_3": "İki ödeme altyapısı arasındaki farklara bakalım: Bitcoin ve Visa.",

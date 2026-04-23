@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC-k",
-	"cbdc_header": "HOGYAN NÉZZEN KI",
-	"cbdc_header_2": "A DIGITÁLIS PÉNZEK",
-	"cbdc_header_3": "?",
 	"cbdc_intro_1": "Világunk egyre digitálisabbá válik, és ez igaz a pénzünkre is.",
 	"cbdc_intro_2": "Ez felveti a kérdést: hogyan szeretnénk, hogy a digitális pénzünk kinézzen?",
 	"cbdc_intro_3": "Sok ország vizsgálja a jegybanki digitális valuta (CBDC) kibocsátását, amely a meglévő állami valutánk teljesen digitális formája.",

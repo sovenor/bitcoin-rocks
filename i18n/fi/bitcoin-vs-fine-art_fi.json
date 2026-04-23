@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs taide",
-	"fine_art_header": "ERO",
-	"fine_art_header_2": "BITCOININ",
-	"fine_art_header_3": "JA",
-	"fine_art_header_4": "TAITEEN VÄLILLÄ",
 	"fine_art_intro_1": "Taide on ollut ylellisyyssijoitus vuosisatoja.",
 	"fine_art_intro_2": "Bitcoin on digitaalinen raha, jota monet pitävät arvon säilyttäjänä.",
 	"fine_art_intro_3": "Miten fyysinen taideteos eroaa digitaalisesta rahasta? Katsotaan eroja: Bitcoin ja taide.",

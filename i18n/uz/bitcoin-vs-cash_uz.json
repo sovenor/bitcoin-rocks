@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_cash": "Bitcoin va Naqd pul",
-	"cash_header": "FARQI",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "VA",
-	"cash_header_4": "NAQD PUL",
 	"cash_intro_1": "Naqd pul asrlar davomida pul sifatida ishlatilgan va dunyodagi eng keng tarqalgan jismoniy pul shakli boʻlib qolmoqda.",
 	"cash_intro_2": "Bitcoin 2009-yilda yaratilgan, har qanday hukumat yoki markaziy hokimiyatdan mustaqil ishlaydigan raqamli pul.",
 	"cash_intro_3": "Jismoniy naqd pul Bitcoin kabi raqamli puldan qanday farq qiladi? Ikki pul shakli oʻrtasidagi asosiy farqlarga qaraylik: Bitcoin va Naqd pul.",

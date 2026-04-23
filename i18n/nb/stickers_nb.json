@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"free_bitcoin_stickers": "Gratis Bitcoin-klistremerker fra bitcoin.rocks",
 	"stickers_description": "Sett et bitcoin-klistremerke offentlig for å oransjepille de rundt deg.",
-	"stickers_header": "GRATIS BITCOIN-KLISTREMERKER",
-	"stickers_choose_header": "VELG DIN KLISTREMERKEPAKKE",
-	"stickers_choose_c1": "Vårt oppdrag er å hjelpe deg med å oransjepille flere mennesker ved å sette Bitcoin-klistremerker offentlig. Alle klistremerkene våre har QR-koder som lenker til utdanningssider om",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflasjon",
-	"stickers_choose_c4": "Velg din klistremerkepakke nedenfor",
 	"stickers_text_pack": "TEKSTPAKKEN",
 	"stickers_signs_pack": "SKILTPAKKEN",
 	"stickers_instructions_1": "Skriv inn postadressen din, så sender vi deg en gratis Bitcoin-klistremerkepakke i posten! Klistremerkene dine sendes i en vanlig hvit konvolutt.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Mens du er i gang, skriv ut og heng opp dine egne ",
 	"stickers_flyers_link_text": "Bitcoin-flygeblad",
 	"stickers_flyers_link_after": " for å oransjepille enda flere mennesker.",
-	"stickers_country_global_print": "Globalt — Skriv ut mine egne klistremerker",
-	"stickers_country_global_order": "Globalt — Bestill i bulk",
 	"placeholder_name_optional": "Navn (valgfritt)",
 	"placeholder_address_line_1": "Adresselinje 1",
 	"placeholder_address_line_2": "Adresselinje 2 (valgfritt)",

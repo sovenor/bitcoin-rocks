@@ -3,16 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
 	},
 	"sticker_success_1": "Saate oma kleebised kätte 2 kuni 4 nädala jooksul. Vahepeal mõelge heale kohale oma kleebistele!",
-	"sticker_success_2": "Head kohad kleebistele on:",
 	"sticker_success_list_1": "avalikes kohtades, kus inimesed neid näevad",
 	"sticker_success_list_2": "kohtades, kust neid tõenäoliselt kiiresti ei eemaldata (kleebised ei tekita püsivat kahju)",
 	"sticker_success_list_3": "pindadel, millele need kergesti kleepuvad (metall, plast, klaas)",
 	"sticker_success_list_4": "MITTE eraomandile, siltide peale, sularahaautomaatidele ega tanklatele",
-	"sticker_success_3": "Kas soovite näha, kuhu teised oma kleebiseid panevad?",
-	"sticker_success_flyers_bar_new": "UUS!",
-	"sticker_success_flyers_bar_cta": "Prindi ja riputage Bitcoin-flaiereid üles →"
+	"sticker_success_3": "Kas soovite näha, kuhu teised oma kleebiseid panevad?"
 }

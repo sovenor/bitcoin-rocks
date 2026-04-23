@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Ofte stilte spørsmål om å akseptere Bitcoin",
 	"faq_description": "Har du spørsmål om å akseptere Bitcoin-betalinger i bedriften din?",
-	"faq_header": "HAR DU SPØRSMÅL OM Å AKSEPTERE BITCOIN-BETALINGER?",
 	"faq_s1": "Hva er Bitcoin?",
 	"faq_s1_c1": "Bitcoin er to ting: digitale penger og et datanettverk.",
 	"faq_s1_c2": "Du kan sende bitcoin (digitale penger) direkte til andre mennesker ved hjelp av Bitcoin-nettverket.",

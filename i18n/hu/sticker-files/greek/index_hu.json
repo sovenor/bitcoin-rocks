@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"greek_bitcoin_sticker_files": "Görög Bitcoin matricafájlok",
-	"greek_description": "Töltsd le a Bitcoin matricafájlokat görög nyelven.",
-	"greek_header": "GÖRÖG BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-23",
 		"locale": "de"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-Wallet Anleitung",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Diese Wallets ähneln eher dem Bankensystem, bei dem Du einer dritten Partei vertrauen musst, damit sie Dir Zugang zu Deinem Geld gewährt. Wenn sich deine Bitcoin auf einer Börse befinden, verwendest du eine verwahrte Wallet.",
 	"lightning_s3_c3": "Verwahrte Wallets mögen bequem erscheinen, aber der Verwahrer ist technisch in der Lage, alle Nutzergelder jederzeit zu stehlen.",
 	"lightning_s3_c4": "Einige Leute bevorzugen verwahrte Lightning-Wallets für kleine Bitcoin-Beträge, da sie sehr benutzerfreundlich sind. Bedenke nur: Nicht Deine Schlüssel, nicht Deine Coins – „Not your keys, not your coins!“",
-	"lightning_question_2": "WÄHLE DEINE WALLET",
-	"lightning_s4_c1": "Mit all diesem Wissen kannst Du nun die Lightning-Wallet wählen, die für Dich den richtigen Kompromiss bietet.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Zahlreiche Funktionen",
 	"lightning_mobile_app": "Mobile App",
 	"lightning_free": "100% kostenlos",
 	"lightning_merchants": "Ideal für Händler",
-	"lightning_starter": "Ideale Wallet für Einsteiger",
-	"lightning_browser": "Browserbasiert",
 	"lightning_custodial": "Vollständig verwahrte Wallet",
 	"lightning_cta_hardware": "Suchst Du nach unserer Bitcoin Hardware-Wallet Anleitung?"
 }

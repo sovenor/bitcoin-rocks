@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin is goed voor bedrijven",
-	"biz_header": "BITCOIN IS GOED VOOR BEDRIJVEN",
 	"biz_s1": "Lage transactiekosten zonder minimum",
 	"biz_s1_c1": "Met Bitcoin kunt u betalingen rechtstreeks van uw klanten ontvangen, net als contant geld. Het Bitcoin-netwerk werkt zonder tussenpersonen zoals banken en creditcardmaatschappijen die hoge kosten in rekening brengen.",
 	"biz_s2": "Onmiddelijke afwikkeling",

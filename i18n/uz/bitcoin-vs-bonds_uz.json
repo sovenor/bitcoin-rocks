@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_bonds": "Bitcoin va Obligatsiyalar",
-	"bonds_header": "FARQI",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "VA",
-	"bonds_header_4": "OBLIGATSIYALAR",
 	"bonds_intro_1": "Davlat obligatsiyalari odatda ʻxavfsizʻ deb belgilanadi va anʻanaviy moliya tomonidan aktivlarni saqlashning eng xavfsiz joyi sifatida qaraladi.",
 	"bonds_intro_2": "Bitcoin har qanday hukumat yoki markaziy hokimiyatdan mustaqil ishlaydigan raqamli pul.",
 	"bonds_intro_3": "Obligatsiyalar haqiqatan xavfsizmi? Va qiymat saqlash vositasi sifatida Bitcoin bilan qanday taqqoslanadi? Bitcoin bilan davlat obligatsiyalari oʻrtasidagi asosiy farqlarga qaraylik.",

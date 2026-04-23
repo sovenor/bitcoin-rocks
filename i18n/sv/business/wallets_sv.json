@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"how_to_accept_bitcoin_payments": "Hur man accepterar Bitcoin-betalningar",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hybridplånböcker:",
 	"wallets_intro_5": "Dessa låter dig växla valfri andel av din Bitcoin till dollar så snart en kund betalar dig. Avgifterna är fortfarande lägre än kreditkort, men högre än rena Bitcoin-betalningar.",
 	"wallets_intro_6": "Båda typerna är utmärkta sätt att acceptera Bitcoin. Din specifika plånbok beror på storleken och typen av ditt företag.",
-	"wallets_choice_sole": "plånböcker för enskilda firmor",
-	"wallets_choice_multiple": "plånböcker för företag med flera anställda",
-	"wallets_choice_online": "plånböcker för onlineföretag",
-	"wallets_choice_invoice": "plånböcker för faktureringsföretag",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

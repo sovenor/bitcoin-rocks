@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"bitcoin_lightning_wallet_guide": "ቢትኮይን ላይትኒንግ ቦርሳ መመሪያ",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "እነዚህ ቦርሳዎች ከባንክ ስርዓት ጋር ይመሳሰላሉ ሶስተኛ ወገን ገንዘብ ተደራሽነት ሊሰጥ ይገባል።",
 	"lightning_s3_c3": "ከስቶዲያል ቦርሳ ምቹ ሊመስል ይችላል ግን ተጠባባቂው ሁሉንም ገንዘብ ለመውሰድ ቴክኒካል ችሎታ አለው።",
 	"lightning_s3_c4": "አንዳንድ ሰዎች ለትንሽ ቢትኮይን ቀላል ስለሆነ ከስቶዲያል ላይትኒንግ ቦርሳ ይመርጣሉ። ያስታውሱ: ቁልፎችዎ ካልሆኑ ኮይኖችዎ አይደሉም!",
-	"lightning_question_2": "ቦርሳ ይምረጡ",
-	"lightning_s4_c1": "ይህ ሁሉ ባስተውሉ አሁን ትክክለኛውን ምርጫ ያለው ላይትኒንግ ቦርሳ መምረጥ ይችላሉ።",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "ብዙ ባህሪዎች",
 	"lightning_mobile_app": "ሞባይል መተግበሪያ",
 	"lightning_free": "100% ነፃ",
 	"lightning_merchants": "ለነጋዴዎች ተስማሚ",
-	"lightning_starter": "ድንቅ የመጀመሪያ ቦርሳ",
-	"lightning_browser": "ብራውዘር-ተኮር",
 	"lightning_custodial": "ሙሉ ከስቶዲያል ቦርሳ",
 	"lightning_cta_hardware": "ቢትኮይን ሃርድዌር ቦርሳ መመሪያ ይፈልጋሉ?"
 }

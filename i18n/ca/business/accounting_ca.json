@@ -3,34 +3,21 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_business_accounting_guide": "Guia de comptabilitat empresarial per a Bitcoin",
 	"accounting_description": "Aprèn com comptabilitzar correctament els pagaments amb Bitcoin a la comptabilitat del teu negoci.",
-	"accounting_header": "GUIA DE COMPTABILITAT BITCOIN",
 	"accounting_s1_c1": "Acceptar Bitcoin té molts beneficis com acceptar pagaments amb comissions més baixes i aconseguir més clients.",
 	"accounting_s1_c2": "Si utilitzes una Cartera Híbrida de la nostra Guia de Carteres i vens automàticament el 100% del Bitcoin que reps per dòlars, no necessites fer cap canvi a la teva comptabilitat actual.",
-	"accounting_s1_c3": "Veure Guia de Carteres.",
-	"accounting_s1_c4": "No obstant això, si conserves part dels pagaments de Bitcoin que reps com a Bitcoin, hauràs de fer seguiment d'alguns detalls per a la teva comptabilitat. Això pot semblar intimidant al principi, però en realitat és bastant senzill.",
-	"accounting_s1_c5": "Nota: aquesta guia és només informativa i no s'ha de considerar assessorament fiscal.",
-	"accounting_s1_c6": "Si necessites assessorament fiscal, recomanem molt Satoshi Pacioli Accounting Services, una empresa comptable especialitzada en comptabilitat Bitcoin.",
 	"accounting_s2": "SEGUIMENT DEL TEU COST BASE",
 	"accounting_s2_c1": "Fer seguiment del teu cost base serà la diferència més gran entre comptabilitzar dòlars i comptabilitzar Bitcoin. Fins i tot si veus el teu negoci completament en termes de Bitcoin, has de declarar el valor en dòlars de cada transacció als teus impostos.",
 	"accounting_s2_c2": "Si utilitzes QuickBooks, pots fer-ho automàticament utilitzant el connector Bitcoin Sync.",
 	"accounting_s2_c3": "Si no utilitzes QuickBooks, recomanem Satoshi Pacioli Accounting Services, una empresa comptable especialitzada en comptabilitat Bitcoin.",
-	"accounting_s2_c4": "Per fer-ho manualment, simplement has de fer seguiment de la quantitat de Bitcoin que vas rebre i el valor en dòlars de la transacció de Bitcoin en aquell dia.",
-	"accounting_s2_c5": "Pots veure el preu actual en dòlars de Bitcoin aquí.",
-	"accounting_s2_c6": "Fes seguiment d'aquesta informació en un full de càlcul d'Excel i dona-la al teu comptable.",
-	"accounting_s2_c7": "També pots importar aquestes dades a Excel automàticament.",
-	"accounting_s2_c8": "També pots veure el preu històric en dòlars de Bitcoin en dies passats, de manera que no has de fer-ho cada dia.",
 	"accounting_s3": "GASTAR O VENDRE EL TEU BITCOIN",
 	"accounting_s3_c1": "Si utilitzes una Cartera Híbrida de la nostra Guia de Carteres i vens automàticament el 100% del Bitcoin que reps per dòlars, no necessites fer cap canvi a la teva comptabilitat actual.",
 	"accounting_s3_c2": "Veure Guia de Carteres.",
 	"accounting_s3_c3": "Si tries gastar o vendre part del Bitcoin que reps després de mantenir-lo durant un temps, simplement has d'afegir el preu al qual el vas vendre al teu full de càlcul d'Excel que fa seguiment del teu cost base.",
-	"accounting_s3_c4": "Per exemple, si vas rebre 100$ en Bitcoin l'1 de gener i vas decidir vendre'l o gastar-lo l'1 de febrer a un nou valor de 110$, hauries de registrar un guany de capital de 10$ a la teva comptabilitat.",
-	"accounting_s3_c5": "Això també pot funcionar a l'inrevés. Per exemple, si vas rebre 100$ en Bitcoin l'1 de gener i vas decidir vendre'l o gastar-lo l'1 de febrer a un nou valor de 90$, hauries de registrar una pèrdua de capital de 10$ a la teva comptabilitat.",
 	"accounting_s4": "NECESSITO MÉS AJUDA",
-	"accounting_s4_c1": "Si necessites més ajuda per integrar Bitcoin a la comptabilitat del teu negoci, recomanem molt Satoshi Pacioli Accounting Services, una empresa comptable especialitzada en comptabilitat Bitcoin.",
-	"accounting_s4_c2": "Més informació sobre Satoshi Pacioli Accounting Services."
+	"accounting_s4_c1": "Si necessites més ajuda per integrar Bitcoin a la comptabilitat del teu negoci, recomanem molt Satoshi Pacioli Accounting Services, una empresa comptable especialitzada en comptabilitat Bitcoin."
 }

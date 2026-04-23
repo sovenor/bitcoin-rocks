@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_lightning_wallet_guide": "Ghid portofele Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Aceste portofele sunt mai similare cu sistemul bancar unde trebuie să ai încredere într-o terță parte că îți va oferi acces la banii tăi. Dacă Bitcoin-ul tău este pe un exchange, folosești un portofel custodial.",
 	"lightning_s3_c3": "Portofelele custodiale pot părea convenabile, dar custodul are capacitatea tehnică de a fura toate fondurile utilizatorilor în orice moment.",
 	"lightning_s3_c4": "Unii oameni preferă portofelele Lightning custodiale pentru sume mici de bitcoin datorită ușurinței în utilizare. Ține minte: nu cheile tale, nu monedele tale!",
-	"lightning_question_2": "ALEGE-ȚI PORTOFELUL",
-	"lightning_s4_c1": "Cu toate acestea în minte, acum poți alege portofelul Lightning care are echilibrul potrivit de compromisuri pentru tine.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Multe funcționalități",
 	"lightning_mobile_app": "Aplicație mobilă",
 	"lightning_free": "100% gratuit",
 	"lightning_merchants": "Excelent pentru comercianți",
-	"lightning_starter": "Portofel excelent pentru început",
-	"lightning_browser": "Bazat pe browser",
 	"lightning_custodial": "Portofel complet custodial",
 	"lightning_cta_hardware": "Cauți ghidul nostru de portofele hardware Bitcoin?"
 }

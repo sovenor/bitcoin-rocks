@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_bonds": "Bitcoin prieš obligacijas",
-	"bonds_header": "SKIRTUMAS TARP",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "IR",
-	"bonds_header_4": "OBLIGACIJŲ",
 	"bonds_intro_1": "Vyriausybių obligacijos dažnai vadinamos „nerizikingomis“ investicijomis ir tradicinių finansų laikomos saugiausia turto saugojimo vieta.",
 	"bonds_intro_2": "Bitcoin yra skaitmeniniai pinigai, veikiantys nepriklausomai nuo jokios vyriausybės ar centrinės valdžios.",
 	"bonds_intro_3": "Bet ar obligacijos tikrai nerizikingos? Ir kaip jos lyginasi su Bitcoin kaip vertės saugykla? Išnagrinėkime pagrindinius skirtumus tarp Bitcoin ir vyriausybės obligacijų.",

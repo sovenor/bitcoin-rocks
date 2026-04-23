@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_visa": "Bitcoin ndi Visa",
-	"visa_header": "KUSIYANA PAKATI PA",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "NDI",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Ma khadi a ngongole ndi Bitcoin ndi njira zolipirira, koma zimagwira ntchito mosiyana kwambiri.",
 	"visa_intro_2": "Ma khadi a ngongole monga Visa ndi maukonde otsekeka olamulira ndi mabungwe a ndalama, pomwe Bitcoin ndi ukonde wotseguka womwe aliyense amatha kugwiritsa ntchito.",
 	"visa_intro_3": "Tiyeni tione kusiyana pakati pa njira ziwiri za malipiro izi: Bitcoin ndi Visa.",

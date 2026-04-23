@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocksの無料ビットコインステッカー",
 	"stickers_description": "公共の場所にビットコインステッカーを貼って、周りの人をオレンジピルしよう。",
-	"stickers_header": "無料ビットコインステッカー",
-	"stickers_choose_header": "ステッカーパックを選ぼう",
-	"stickers_choose_c1": "私たちの使命は、公共の場所にビットコインステッカーを貼ることで、より多くの人をオレンジピルするお手伝いをすることです。すべてのステッカーには教育ページにリンクするQRコードが付いています：",
-	"stickers_choose_c2": "ビットコイン",
-	"stickers_choose_c3": "インフレ",
-	"stickers_choose_c4": "下からステッカーパックを選んでください",
 	"stickers_text_pack": "テキストパック",
 	"stickers_signs_pack": "サインパック",
 	"stickers_instructions_1": "住所を入力すると、無料のビットコインステッカーパックを郵送でお届けします！ステッカーは白い封筒で発送されます。",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "ついでに、自分で",
 	"stickers_flyers_link_text": "ビットコインチラシ",
 	"stickers_flyers_link_after": "を印刷して掲示し、さらに多くの人をオレンジピルしよう。",
-	"stickers_country_global_print": "グローバル — 自分で印刷する",
-	"stickers_country_global_order": "グローバル — まとめて注文する",
 	"placeholder_name_optional": "名前（任意）",
 	"placeholder_address_line_1": "住所1",
 	"placeholder_address_line_2": "住所2（任意）",

@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin kabul etme hakkında sıkça sorulan sorular",
 	"faq_description": "İşletmenizde Bitcoin ödemelerini kabul etme hakkında sorularınız mı var?",
-	"faq_header": "BİTCOİN ÖDEMELERİNİ KABUL ETME HAKKINDA SORULARINIZ MI VAR?",
 	"faq_s1": "Bitcoin nedir?",
 	"faq_s1_c1": "Bitcoin iki şeydir: dijital para ve bir bilgisayar ağı.",
 	"faq_s1_c2": "Bitcoin ağı üzerinden doğrudan diğer insanlara bitcoin (dijital para) gönderebilirsiniz.",

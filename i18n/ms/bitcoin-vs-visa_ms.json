@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "ms"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "Apa bezanya",
-	"visa_header_2": "Bitcoin",
-	"visa_header_3": "dan",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kad kredit dan Bitcoin kedua-duanya adalah sistem pembayaran, tetapi ia berfungsi dengan cara yang sangat berbeza.",
 	"visa_intro_2": "Kad kredit seperti Visa ialah rangkaian tertutup yang diuruskan oleh institusi kewangan, manakala Bitcoin ialah rangkaian terbuka yang boleh digunakan oleh sesiapa sahaja.",
 	"visa_intro_3": "Mari kita lihat perbezaan antara dua kaedah pembayaran ini: Bitcoin dan Visa.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"how_to_accept_bitcoin_payments": "Yadda za a karɓi biyan kuɗi na Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Wallets masu haɗe-haɗe:",
 	"wallets_intro_5": "Waɗannan suna ba ku damar canza kowane ɓangare na Bitcoin ɗinku zuwa daloli nan take lokacin da abokin ciniki ya biya maku. Kuɗin aiki har yanzu sun fi ƙanƙanta fiye da katin kuɗi, amma sun fi na biyan kuɗi na Bitcoin na gaske.",
 	"wallets_intro_6": "Iri biyu duka hanyoyi ne masu kyau na karɓar Bitcoin. Wallet ɗin da ya dace ya dogara da girman kasuwancinku da irinsa.",
-	"wallets_choice_sole": "wallets ga kasuwancin mutum ɗaya",
-	"wallets_choice_multiple": "wallets ga kasuwancin ma'aikata da yawa",
-	"wallets_choice_online": "wallets ga kasuwancin yanar gizo",
-	"wallets_choice_invoice": "wallets ga kasuwancin biya bayan aiki",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banken",
-	"banks_header": "HET VERSCHIL TUSSEN",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "EN",
-	"banks_header_4": "BANKEN",
 	"banks_intro_1": "Banken hebben eeuwenlang geld gecontroleerd, fungeerend als tussenpersonen voor financiële transacties en bewakers van het monetaire systeem.",
 	"banks_intro_2": "Bitcoin is een peer-to-peer digitaal geldsysteem dat werkt zonder banken of centrale autoriteiten.",
 	"banks_intro_3": "Maar hoe verschilt het Bitcoin-netwerk van het traditionele banksysteem? Laten we de belangrijkste verschillen tussen deze twee fundamenteel verschillende benaderingen van geld verkennen.",

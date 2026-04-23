@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-23",
 		"locale": "yo"
 	},
 	"bitcoin_vs_stocks": "Bitcoin pẹ̀lú Àwọn Òhún-ìní",
-	"stocks_header": "ÌYÀTỌ̀ LÁÀRÌN",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "ÀTI",
-	"stocks_header_4": "ÀWỌN ÒHÚN-ÌNÍ",
 	"stocks_intro_1": "Àwọn òhún-ìní ti jẹ́ idókò olókìkí fún ọ̀pọ̀lọ pọ̀ ọ̀dún ó sì jẹ́ àṣẹ níní nínú àwọn ilé-iṣẹ́.",
 	"stocks_intro_2": "Bitcoin jẹ́ owó oni-nọ́míbà tí a ṣẹ̀dá ní 2009 tí ó máa ń ṣiṣẹ́ lómìnìra kúrò nínú ilé-iṣẹ́ tàbí ìkálẹ̀ kaǹkaǹ.",
 	"stocks_intro_3": "Ṣùgbọ́n báwo ni níní àṣẹ nínú ilé-iṣẹ́ ṣe yàtọ̀ sí níní owó oni-nọ́míbà bíí Bitcoin? Ẹ jẹ́ kí a wo àwọn ìyàtọ̀ láàrìn irú idókò méjì: Bitcoin & Àwọn Òhún-ìní.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin ní opin lílé ti miliọ́nù 21 BTC tí yoo wà láéláé.",
 	"point_2_summary_2": "Àwọn ilé-iṣẹ́ lè ṣàjàdé àwọn àṣẹ tuntun ní àkókó kaǹkaǹ, tó máa ń din iye níní àwọn oníàṣẹ tó wà tẹ́lẹ̀.",
 	"point_2_summary_3": "Èyí kéré jù owó ṣíṣé fiat, ṣùgbọ́n ó ṣì jẹ́ dídúǹkù.",
-	"point_2_summary_4": "Pẹ̀lú Bitcoin, apá rẹ nínú akàrà kò ní dín kù láéláé.",
 	"point_3_summary_1": "Bitcoin máa ń ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláìpín-ààrìn láì ní ibì kiko kaǹṣoṣo. Idókò òhún-ìní ní ewu ẹ̀níkan pàtàkì - tí CEO tàbí àwọn olòrí pàtàkì mìràn bá kúrò, ṣàìsàn, tàbí ṣe àwọn ìpinnu tó burú, idókò rẹ lè jìyà púpọ̀.",
 	"point_4_summary_1": "Iye Bitcoin jẹ́ ìpinù ọ̀jà ìpese àti ìbèèrè níkan. Iye àwọn òhún-ìní máa ń da lórí P/E ratios (Iye-sí-Èré), tó fi hàn méló ni àwọn oludókò san fún dọ́là kọ̀ọ̀kan èré ilé-iṣẹ́. Àwọn P/E ratios tó ga lè tókà pé àwọn òhún-ìní ga jù, tó mú kí ó ṣòro láti mọ̀ iye òtítọ́.",
 	"point_5_summary_1": "Bitcoin ń ṣòwò wàkàtí 24 lójọ́, ọ̀jọ́ 7 lọ́ṣẹ̀ lórí àwọn àyè pàṣípààrọ̀ àgbáyé.",
 	"point_5_summary_2": "Bitcoin jẹ́ aláìpín-ààrìn",
-	"point_5_summary_3": "ó kìí sùn láéláé.",
-	"point_5_summary_4": "Àwọn ọ̀jà òhún-ìní máa ń ṣí ní àwọn wàkàtí iṣẹ́ ònígà-ọ̀sẹ̀ níkan, tó ń din igba tí o lè ra tàbí ta àwọn idókò rẹ kù.",
 	"point_6_summary_1": "Pẹ̀lú Bitcoin, o lè gba ìṣàkoso-arà àwọn owó rẹ, èyí túmọ̀ sí pé o ní à ní gídi láì gbékẹ̀lé ẹ̀léekẹ́ta kaǹkaǹ.",
 	"point_6_summary_2": "Ìṣàkoso-arà rọ̀rùn bíí gbàgbé àpù.",
 	"point_6_summary_3": "Àwọn òhún-ìní nílò ààkósílẹ̀ oní-àgbàtẹ àti pé o ní ewu alákóṣẹ́ - tí ilé-iṣẹ́ bá di owó-ajé tàbí oní-àgbàtẹ bá kuna, o lè padánú idókò rẹ.",
-	"point_6_summary_4": "O kò ní àwọn ìwé-èrí òhún-ìní tààrà ní gídi.",
 	"point_7_summary_1": "Bitcoin jẹ́ ọ̀rọ̀ ìpese tó wà tèlẹ̀ pẹ̀lú opin lílé ti miliọ́nù 21 Bitcoin tí yoo wà láéláé. Èyí mú kí ó dara gégé bí ààbò owó ṣíṣé. Àwọn òhún-ìní ní iṣẹ́ tó yípadà lòdì sí owó ṣíṣé - àwọn ilé-iṣẹ́ kan máa ń ṣe dáadáa nígbà owó ṣíṣé lakoko tí àwọn mìràn máa ń roxò. Kò sí ìdánìléjú pé òhún-ìní kan pàtó yoo dààbò lọ́dì sí owó ṣíṣé."
 }

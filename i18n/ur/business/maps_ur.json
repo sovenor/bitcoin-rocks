@@ -3,14 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ur"
-	},
-	"get_listed_on_bitcoin_maps": "Bitcoin نقشوں پر درج ہوں",
-	"maps_header": "BITCOIN مرچنٹ نقشوں پر درج ہوں",
-	"maps_c1": "Bitcoin قبول کرنے کے بعد، اپنے کاروبار کو Bitcoin مرچنٹ نقشوں پر درج کروائیں تاکہ نئے گاہک آپ کو تلاش کر سکیں۔",
-	"maps_c2": "نیچے کا فارم بھریں اور ہم آپ کو Bitcoin نقشوں پر درج کروا دیں گے۔",
-	"maps_form_business_name": "کاروبار کا نام",
-	"maps_form_business_address": "کاروبار کا پتہ",
-	"maps_form_email": "آپ کا ایمیل (اختیاری)"
+	}
 }

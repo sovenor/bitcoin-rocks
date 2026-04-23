@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_accepted_here_stickers": "Greamáin 'Glactar le Bitcoin Anseo'",
-	"stickers_header": "FAIGH DO GHREAMÁIN 'GLACTAR LE BITCOIN ANSEO' SAOR IN AISCE",
-	"stickers_request": "Faigh do ghreamáin saor in aisce",
-	"stickers_request_details": "Cuir in iúl do do chustaiméirí go nglacann tú le híocaíochtaí Bitcoin leis na greamáin 'Glactar le Bitcoin Anseo' saor in aisce seo.",
-	"stickers_country_global_print": "Domhanda — Priontáil mo ghreamáin féin",
-	"stickers_request_instructions": "Gheobhaidh tú trí ghreamán 'Glactar le Bitcoin Anseo' i gclúdach bán simplí. Más mó ná trí ghreamán atá de dhíth ort do do ghnó, bíodh deis agat iarraidh arís. Scriostar sonraí seoltaí tar éis do ghreamáin saor in aisce a sheoladh.",
-	"stickers_print_details": "Is féidir leat do ghreamáin 'Glactar le Bitcoin Anseo' féin a phriontáil, is cuma cá bhfuil tú! Cliceáil ar do theanga thíos chun na comhaid ghreamán & treoracha a fheiceáil.",
-	"stickers_request_language": "Nach bhfeiceann tú do theanga? Líon an fhoirm thíos chun comhaid ghreamán 'Glactar le Bitcoin Anseo' i do theanga áitiúil a iarraidh."
+	"stickers_request": "Faigh do ghreamáin saor in aisce"
 }

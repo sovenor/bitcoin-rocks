@@ -3,12 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "el"
-	},
-	"estonian_bitcoin_sticker_files": "Αυτοκόλλητα Bitcoin στα Εσθονικά",
-	"estonian_description": "Κατεβάστε αρχεία αυτοκόλλητων Bitcoin στα Εσθονικά.",
-	"estonian_header": "ΚΑΤΕΒΑΣΤΕ ΑΥΤΟΚΟΛΛΗΤΑ BITCOIN ΣΤΑ ΕΣΘΟΝΙΚΑ",
-	"Estonian_bitcoin_sticker_files": "Αυτοκόλλητα Bitcoin στα Εσθονικά",
-	"Estonian_description": "Κατεβάστε αρχεία αυτοκόλλητων Bitcoin στα Εσθονικά."
+	}
 }

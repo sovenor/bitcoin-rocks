@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin එදිරිව කලා කෘති",
-	"fine_art_header": "අතර වෙනස",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "සහ",
-	"fine_art_header_4": "කලා කෘති",
 	"fine_art_intro_1": "කලා කෘති සියවස් ගණනාවක් වටිනාකමේ ගබඩාවක් ලෙස සැලකී ඇත.",
 	"fine_art_intro_2": "Bitcoin යනු ඩිජිටල් වත්තකමකි.",
 	"fine_art_intro_3": "නමුත් මෙම වත්තකම් ආකාර දෙක කෙසේ වෙනස් වේද? බලමු.",

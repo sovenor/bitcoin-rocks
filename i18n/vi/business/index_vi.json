@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin tốt cho doanh nghiệp",
-	"biz_header": "BITCOIN TỐT CHO DOANH NGHIỆP",
 	"biz_s1": "Phí thấp không có mức tối thiểu",
 	"biz_s1_c1": "Bitcoin cho phép bạn nhận thanh toán trực tiếp từ khách hàng, giống như tiền mặt. Mạng Bitcoin hoạt động không cần trung gian như ngân hàng và công ty thẻ tín dụng thu phí cao.",
 	"biz_s2": "Thanh toán tức thì",

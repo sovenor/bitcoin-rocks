@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Συχνές ερωτήσεις σχετικά με την αποδοχή Bitcoin",
 	"faq_description": "Έχετε ερωτήσεις σχετικά με την αποδοχή πληρωμών Bitcoin στην επιχείρησή σας;",
-	"faq_header": "ΕΧΕΤΕ ΕΡΩΤΗΣΕΙΣ ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΑΠΟΔΟΧΗ BITCOIN;",
 	"faq_s1": "Τι είναι το Bitcoin;",
 	"faq_s1_c1": "Το Bitcoin είναι δύο πράγματα: ψηφιακό χρήμα και δίκτυο υπολογιστών.",
 	"faq_s1_c2": "Μπορείτε να στείλετε bitcoin (ψηφιακό χρήμα) απευθείας σε άλλους ανθρώπους χρησιμοποιώντας το δίκτυο Bitcoin.",

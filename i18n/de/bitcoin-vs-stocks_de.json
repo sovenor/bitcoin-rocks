@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "de"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Aktien",
-	"stocks_header": "DER UNTERSCHIED ZWISCHEN",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "UND",
-	"stocks_header_4": "AKTIEN",
 	"stocks_intro_1": "Aktien sind seit Jahrzehnten eine beliebte Anlageform und repräsentieren Eigentumsanteile an Unternehmen.",
 	"stocks_intro_2": "Bitcoin ist digitales Geld, das 2009 geschaffen wurde und unabhängig von Unternehmen oder Regierungen funktioniert.",
 	"stocks_intro_3": "Aber wie unterscheidet sich der Besitz von Unternehmensanteilen vom Besitz digitalen Geldes wie Bitcoin? Schauen wir uns die Unterschiede zwischen zwei Anlageformen an: Bitcoin & Aktien.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin hat eine feste Obergrenze von 21 Millionen BTC, die jemals existieren werden.",
 	"point_2_summary_2": "Unternehmen können jederzeit neue Aktien ausgeben und damit den Eigentumsanteil bestehender Aktionäre verwässern. Das bedeutet, dein Anteil am Unternehmen wird kleiner, wenn neue Aktien geschaffen werden.",
 	"point_2_summary_3": "Das ist weniger als die Fiat-Inflation, aber immer noch Verwässerung.",
-	"point_2_summary_4": "Bei Bitcoin schrumpft dein Anteil am Kuchen niemals.",
 	"point_3_summary_1": "Bitcoin funktioniert in einem dezentralen Netzwerk ohne einzelnen Ausfallpunkt. Aktieninvestitionen unterliegen dem Schlüsselpersonenrisiko – wenn der CEO oder andere kritische Führungskräfte das Unternehmen verlassen, krank werden oder schlechte Entscheidungen treffen, kann deine Investition erheblich leiden. Unternehmen sind stark von ihren Führungsteams abhängig.",
 	"point_4_summary_1": "Bitcoins Preis wird rein durch Marktangebot und -nachfrage bestimmt. Aktienkurse werden oft mit KGV (Kurs-Gewinn-Verhältnis) bewertet, das zeigt, wie viel Investoren für jeden Euro Unternehmensgewinn zahlen. Hohe KGVs können überbewertete Aktien anzeigen und es schwieriger machen, den fairen Wert zu bestimmen.",
 	"point_5_summary_1": "Bitcoin wird 24 Stunden am Tag, 7 Tage die Woche an globalen Börsen gehandelt.",
 	"point_5_summary_2": "Bitcoin ist dezentralisiert",
-	"point_5_summary_3": "und schläft nie.",
-	"point_5_summary_4": "Aktienmärkte sind nur während der Geschäftszeiten an Wochentagen geöffnet, was begrenzt, wann du deine Investitionen kaufen oder verkaufen kannst.",
 	"point_6_summary_1": "Mit Bitcoin kannst du deine Coins selbst verwahren, was bedeutet, dass du sie wirklich besitzt, ohne auf Dritte angewiesen zu sein.",
 	"point_6_summary_2": "Selbstverwahrung ist so einfach wie das Herunterladen einer App.",
 	"point_6_summary_3": "Aktien erfordern ein Maklerkonto und du unterliegst dem Gegenparteirisiko – wenn das Unternehmen bankrott geht oder der Makler ausfällt, könntest du deine Investition verlieren.",
-	"point_6_summary_4": "Du besitzt niemals wirklich die Aktienzertifikate direkt.",
 	"point_7_summary_1": "Bitcoin ist ein Vermögenswert mit einem festen Angebot von maximal 21 Millionen Bitcoin, die jemals existieren werden. Das macht ihn zu einem großartigen Inflationsschutz. Aktien haben unterschiedliche Leistung bei Inflation – einige Unternehmen schneiden in inflationären Zeiten gut ab, während andere kämpfen. Es gibt keine Garantie, dass eine bestimmte Aktie vor Inflation schützt."
 }

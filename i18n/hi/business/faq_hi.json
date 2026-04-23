@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin स्वीकार करने के बारे में अक्सर पूछे जाने वाले प्रश्न",
 	"faq_description": "अपने व्यवसाय में Bitcoin भुगतान स्वीकार करने के बारे में प्रश्न हैं?",
-	"faq_header": "Bitcoin भुगतान स्वीकार करने के बारे में प्रश्न हैं?",
 	"faq_s1": "Bitcoin क्या है?",
 	"faq_s1_c1": "Bitcoin दो चीज़ें हैं: एक डिजिटल मुद्रा और एक कंप्यूटर नेटवर्क।",
 	"faq_s1_c2": "आप Bitcoin नेटवर्क का उपयोग करके सीधे दूसरों को Bitcoin (डिजिटल मुद्रा) भेज सकते हैं।",

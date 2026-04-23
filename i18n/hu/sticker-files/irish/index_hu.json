@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"irish_bitcoin_sticker_files": "Ír Bitcoin matricafájlok",
-	"irish_description": "Töltsd le a Bitcoin matricafájlokat ír nyelven.",
-	"irish_header": "ÍR BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

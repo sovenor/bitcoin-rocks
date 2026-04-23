@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning tárca útmutató",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Ezek a tárcák inkább a bankrendszerre hasonlítanak, ahol meg kell bíznod egy harmadik félben. Ha a Bitcoinod egy tőzsdén van, letétkezelői tárcát használsz.",
 	"lightning_s3_c3": "A letétkezelői tárcák kényelmesnek tűnhetnek, de a letétkezelőnek technikai lehetősége van bármikor ellopni az összes felhasználói pénzeszközt.",
 	"lightning_s3_c4": "Néhányan előnyben részesítik a letétkezelői Lightning tárcákat kis összegű bitcoin esetén a könnyű használat miatt. Emlékezz: nem a te kulcsaid, nem a te érméid!",
-	"lightning_question_2": "VÁLASZD KI A TÁRCÁDAT",
-	"lightning_s4_c1": "Mindezek ismeretében most kiválaszthatod a számodra megfelelő kompromisszum-egyensúlyt nyújtó Lightning tárcát.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Sok funkció",
 	"lightning_mobile_app": "Mobil alkalmazás",
 	"lightning_free": "100% ingyenes",
 	"lightning_merchants": "Kiváló kereskedőknek",
-	"lightning_starter": "Kiváló kezdő tárca",
-	"lightning_browser": "Böngésző alapú",
 	"lightning_custodial": "Teljesen letétkezelői tárca",
 	"lightning_cta_hardware": "Bitcoin hardver tárca útmutatót keresel?"
 }

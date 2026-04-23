@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "RAZLIKA IZMEĐU",
-	"visa_header_2": "BITCOINA",
-	"visa_header_3": "I",
-	"visa_header_4": "VISE",
 	"visa_intro_1": "Kreditne kartice i Bitcoin oba su platni sustavi, ali funkcioniraju vrlo različito.",
 	"visa_intro_2": "Kreditne kartice poput Vise su zatvorene mreže koje kontroliraju financijske institucije, dok je Bitcoin otvorena mreža koju može koristiti bilo tko.",
 	"visa_intro_3": "Pogledajmo razlike između ova dva platna sustava: Bitcoina i Vise.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Bonuak",
-	"bonds_header": "ARTEKO ALDEA",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "ETA",
-	"bonds_header_4": "BONUAK",
 	"bonds_intro_1": "Gobernu-bonuak askotan 'arriskurik gabeko' inbertsioak deitzen dira eta finantza tradizionalean aberastasuna gordetzeko lekurik seguruena kontsideratzen dira.",
 	"bonds_intro_2": "Bitcoin edozein gobernu edo autoritate zentraletik independenteki funtzionatzen duen diru digitala da.",
 	"bonds_intro_3": "Baina benetan arriskurik gabekoak dira bonuak? Eta nola konparatzen dira Bitcoin-ekin balio-gordailu gisa? Azter ditzagun Bitcoin eta gobernu-bonuen arteko desberdintasun nagusiak.",

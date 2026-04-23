@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"free_bitcoin_flyers": "Ingyenes Bitcoin szórólapok a bitcoin.rocks-tól",
 	"flyers_description": "Nyomtass ki egy Bitcoin szórólapot otthon és helyezd el nyilvános helyen, hogy meggyőzd a körülötted lévőket.",
-	"flyers_header_1": "NYOMTASS ÉS RAGASSZ KI",
-	"flyers_header_2": "BITCOIN SZÓRÓLAPOKAT",
 	"flyers_intro_header": "HOGYAN NYOMTASD ÉS RAGASZD KI EZEKET A BITCOIN SZÓRÓLAPOKAT",
 	"flyers_intro_c1": "Küldetésünk, hogy segítsünk több embert meggyőzni a Bitcoinról azáltal, hogy Bitcoin szórólapokat helyezel el nyilvános helyeken. Ezen a szórólapon egy QR-kód van, amely a",
 	"flyers_intro_c2": "oktatási Bitcoin weboldalunkra mutat.",
-	"flyers_intro_c3": "infláció",
 	"flyers_intro_c4": "Nyomtasd ki ezt a szórólapot otthon vagy egy nyomdában. Ezután ragaszd ki hirdetőtáblákra, villanyoszlopokra a városban és más nyilvános helyekre, ahol az emberek láthatják és megismerhetik a Bitcoint.",
 	"flyers_intro_c5": "Közben kérj egy csomagot az ",
 	"flyers_intro_c6": "ingyenes Bitcoin matricáinkból",

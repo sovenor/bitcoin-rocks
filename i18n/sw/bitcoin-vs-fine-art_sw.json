@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin dhidi ya Sanaa Nzuri",
-	"fine_art_header": "TOFAUTI KATI YA",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "NA",
-	"fine_art_header_4": "SANAA NZURI",
 	"fine_art_intro_1": "Sanaa nzuri imekuwa uwekezaji wa kifahari kwa karne nyingi na mara nyingi inaonekana kama hifadhi ya thamani na wakusanyaji matajiri.",
 	"fine_art_intro_2": "Bitcoin ni pesa za kidijitali ambazo pia zinaonekana na wengi kama hifadhi ya thamani na uwekezaji.",
 	"fine_art_intro_3": "Lakini kazi ya sanaa halisi inatofautianaje na pesa za kidijitali kama Bitcoin? Hebu tuangalie tofauti kati ya aina mbili za uwekezaji: Bitcoin na Sanaa Nzuri.",

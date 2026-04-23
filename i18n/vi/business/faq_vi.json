@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Câu Hỏi Thường Gặp Về Chấp Nhận Bitcoin",
 	"faq_description": "Bạn có câu hỏi về việc chấp nhận thanh toán Bitcoin tại doanh nghiệp?",
-	"faq_header": "BẠN CÓ CÂU HỎI VỀ VIỆC CHẤP NHẬN THANH TOÁN BITCOIN?",
 	"faq_s1": "Bitcoin là gì?",
 	"faq_s1_c1": "Bitcoin là hai thứ: tiền kỹ thuật số và mạng máy tính.",
 	"faq_s1_c2": "Bạn có thể gửi bitcoin (tiền kỹ thuật số) trực tiếp cho người khác bằng Mạng Bitcoin.",

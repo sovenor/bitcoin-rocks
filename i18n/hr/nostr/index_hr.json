@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
-	},
-	"escape_the_matrix_with_nostr": "Pobjegnite iz Matrixa s Nostrom",
-	"nostr_header": "POBJEGNITE IZ MATRIXA S NOSTROM"
+	}
 }

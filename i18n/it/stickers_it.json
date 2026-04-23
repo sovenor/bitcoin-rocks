@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"free_bitcoin_stickers": "Adesivi Bitcoin gratuiti da bitcoin.rocks",
 	"stickers_description": "Metti un adesivo Bitcoin in pubblico per fare l'orange pill a chi ti circonda.",
-	"stickers_header": "ADESIVI BITCOIN GRATUITI",
-	"stickers_choose_header": "SCEGLI IL TUO PACCHETTO DI ADESIVI",
-	"stickers_choose_c1": "La nostra missione è aiutarti a fare l'orange pill a più persone mettendo adesivi Bitcoin in pubblico. Tutti i nostri adesivi hanno codici QR che rimandano a pagine educative su",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflazione",
-	"stickers_choose_c4": "Scegli il tuo pacchetto di adesivi qui sotto",
 	"stickers_text_pack": "IL PACCHETTO TESTO",
 	"stickers_signs_pack": "IL PACCHETTO SEGNALI",
 	"stickers_instructions_1": "Inserisci il tuo indirizzo postale e ti invieremo un pacchetto gratuito di adesivi Bitcoin per posta! I tuoi adesivi saranno spediti in una busta bianca normale.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Già che ci sei, stampa e pubblica i tuoi ",
 	"stickers_flyers_link_text": "volantini Bitcoin",
 	"stickers_flyers_link_after": " per fare l'orange pill a ancora più persone.",
-	"stickers_country_global_print": "Globale — Stampa i miei adesivi",
-	"stickers_country_global_order": "Globale — Ordina in blocco",
 	"placeholder_name_optional": "Nome (opzionale)",
 	"placeholder_address_line_1": "Indirizzo Riga 1",
 	"placeholder_address_line_2": "Indirizzo Riga 2 (opzionale)",

@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin biznes üçün yaxşıdır",
-	"biz_header": "BITCOIN BİZNES ÜÇÜN YAXŞIDIR",
 	"biz_s1": "Minimum olmadan aşağı komissiyalar",
 	"biz_s1_c1": "Bitcoin nağd pul kimi birbaşa müştərilərinizdən ödənişlər almağı təmin edir. Bitcoin şəbəkəsi yüksək komissiya tutan banklar və kredit kartı şirkətləri kimi vasitəçilər olmadan işləyir.",
 	"biz_s2": "Ani hesablaşma",

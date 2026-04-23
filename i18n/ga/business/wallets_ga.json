@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"how_to_accept_bitcoin_payments": "Conas Glacadh le Híocaíochtaí Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Sparáin hibrideacha:",
 	"wallets_intro_5": "Ligeann siad seo duit aon chion de do Bitcoin a mhalartú ar dollair chomh luath agus a íocann custaiméir thú. Tá táillí fós níos lú ná íocaíochtaí cárta creidmheasa, ach níos airde ná híocaíochtaí glana Bitcoin.",
 	"wallets_intro_6": "Is bealaí iontacha iad an dá cheann chun glacadh le Bitcoin. Beidh an sparán sonrach a úsáideann tú ag brath ar mhéid agus cineál do ghnó.",
-	"wallets_choice_sole": "sparáin do ghnólachtaí faoi úinéireacht aonair",
-	"wallets_choice_multiple": "sparáin do ghnólachtaí le fostaithe iolracha",
-	"wallets_choice_online": "sparáin do ghnólachtaí ar líne",
-	"wallets_choice_invoice": "sparáin do ghnólachtaí bunaithe ar shonraisc",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

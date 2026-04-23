@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs pankit",
-	"banks_header": "ERO",
-	"banks_header_2": "BITCOININ",
-	"banks_header_3": "JA",
-	"banks_header_4": "PANKKIEN VÄLILLÄ",
 	"banks_intro_1": "Pankit ovat hallinneet rahaa vuosisatoja toimien välikäsinä rahoitustapahtumissa ja rahajärjestelmän portinvartijoina.",
 	"banks_intro_2": "Bitcoin on vertaisverkoinen digitaalinen rahajärjestelmä, joka toimii ilman pankkeja tai keskusviranomaisia.",
 	"banks_intro_3": "Mutta miten Bitcoin-verkko eroaa perinteisestä pankkijärjestelmästä? Tutkitaan keskeisiä eroja näiden kahden perustavanlaatuisesti erilaisen lähestymistavan välillä.",

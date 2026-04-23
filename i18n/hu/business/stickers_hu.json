@@ -3,14 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"biz_stickers_title": "Ingyenes \"Bitcoin elfogadóhely\" matricák",
-	"biz_stickers_description": "Kérj ingyenes \"Bitcoin elfogadóhely\" matricákat a vállalkozásodnak.",
-	"biz_stickers_header": "INGYENES \"BITCOIN ELFOGADÓHELY\" MATRICÁK",
-	"biz_stickers_intro": "Tudasd ügyfeleiddel, hogy elfogadod a Bitcoint! Ingyen küldünk neked \"Bitcoin elfogadóhely\" matricákat.",
-	"biz_stickers_instructions": "Add meg a levelezési címedet, és ingyenesen küldünk neked \"Bitcoin elfogadóhely\" matricákat!",
-	"biz_stickers_share_header": "OSZD MEG A MATRICÁIDAT",
-	"biz_stickers_share_c1": "Oszd meg a matricáid fotóját velünk a Nostr-on!"
+	}
 }

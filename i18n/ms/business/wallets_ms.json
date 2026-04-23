@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "ms"
 	},
 	"how_to_accept_bitcoin_payments": "Cara menerima pembayaran Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Dompet hibrid:",
 	"wallets_intro_5": "Menukar mana-mana peratusan Bitcoin anda kepada dolar pada masa anda menerima bayaran daripada pelanggan. Yuran lebih rendah daripada kad kredit, tetapi lebih tinggi daripada pembayaran Bitcoin tulen.",
 	"wallets_intro_6": "Kedua-duanya adalah cara yang baik untuk menerima Bitcoin. Dompet khusus yang anda gunakan bergantung pada saiz dan jenis perniagaan anda.",
-	"wallets_choice_sole": "Dompet untuk pemilik tunggal",
-	"wallets_choice_multiple": "Dompet untuk perniagaan berbilang pekerja",
-	"wallets_choice_online": "Dompet untuk perniagaan dalam talian",
-	"wallets_choice_invoice": "Dompet untuk perniagaan berasaskan invois",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

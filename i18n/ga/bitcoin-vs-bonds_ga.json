@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Bannaí",
-	"bonds_header": "AN DIFRÍOCHT IDIR",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "AGUS",
-	"bonds_header_4": "BANNAÍ",
 	"bonds_intro_1": "Tugtar infheistíochtaí 'saor ó riosca' go minic ar bhannaí rialtais agus meastar gurb é an áit is sábháilte chun saibhreas a stóráil de réir airgeadais thraidisiúnta.",
 	"bonds_intro_2": "Is airgead digiteach é Bitcoin a oibríonn go neamhspleách ar aon rialtas nó údarás lárnach.",
 	"bonds_intro_3": "Ach an bhfuil bannaí saor ó riosca i ndáiríre? Agus conas a dhéanann siad comparáid le Bitcoin mar stór luacha? Déanaimis scrúdú ar na príomhdhifríochtaí idir Bitcoin agus bannaí rialtais.",

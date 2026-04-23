@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning පසුම්බි මාර්ගෝපදේශය",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "මෙම පසුම්බි බැංකු පද්ධතියට වඩා සමානය, ඔබ ඔබේ මුදල් වෙත ප්‍රවේශය ලබා දීමට තෙවැනි පාර්ශ්වයක් විශ්වාස කළ යුතුය.",
 	"lightning_s3_c3": "භාරකරු පසුම්බි පහසු බව පෙනිය හැකි නමුත්, භාරකරුට ඕනෑම වේලාවක සියලුම පරිශීලක අරමුදල් සොරකම් කිරීමේ තාක්ෂණික හැකියාව ඇත.",
 	"lightning_s3_c4": "සමහර දෙනෙක් භාවිතා කිරීමේ පහසුව නිසා කුඩා bitcoin ප්‍රමාණ සඳහා භාරකරු Lightning පසුම්බි කැමති වේ. මතක තබා ගන්න: ඔබේ යතුරු නොවේ නම්, ඔබේ කාසි නොවේ!",
-	"lightning_question_2": "ඔබේ පසුම්බිය තෝරන්න",
-	"lightning_s4_c1": "මේ සියල්ල මතකයේ තබාගෙන, ඔබට නිවැරදි හුවමාරු සමතුලිතතාවයක් ඇති lightning පසුම්බිය දැන් තෝරා ගත හැකිය.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "විශේෂාංග රාශියක්",
 	"lightning_mobile_app": "ජංගම යෙදුම",
 	"lightning_free": "100% නිදහස්",
 	"lightning_merchants": "වෙළඳුන් සඳහා විශිෂ්ටයි",
-	"lightning_starter": "විශිෂ්ට ආරම්භක පසුම්බිය",
-	"lightning_browser": "බ්‍රවුසර් පදනම්",
 	"lightning_custodial": "සම්පූර්ණයෙන් භාරකරු පසුම්බිය",
 	"lightning_cta_hardware": "අපේ Bitcoin දෘඩාංග පසුම්බි මාර්ගෝපදේශය සොයනවාද?"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"how_to_accept_bitcoin_payments": "Kako prihvaćati Bitcoin plaćanja",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibridni novčanici:",
 	"wallets_intro_5": "Oni vam omogućuju zamjenu bilo kojeg dijela Bitcoina za dolare čim vam kupac plati. Naknade su i dalje niže od plaćanja kreditnim karticama, ali veće od čistih Bitcoin plaćanja.",
 	"wallets_intro_6": "Obje vrste su sjajni načini prihvaćanja Bitcoina. Konkretni novčanik koji ćete koristiti ovisit će o veličini i vrsti vašeg poslovanja.",
-	"wallets_choice_sole": "novčanici za individualno vođena poslovanja",
-	"wallets_choice_multiple": "novčanici za poslovanja s više zaposlenika",
-	"wallets_choice_online": "novčanici za online poslovanja",
-	"wallets_choice_invoice": "novčanici za poslovanja s fakturiranjem",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

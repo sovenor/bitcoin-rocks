@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "fil"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Cash",
-	"cash_header": "ANG PAGKAKAIBA NG",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "AT",
-	"cash_header_4": "CASH",
 	"cash_intro_1": "Ang cash ay ginamit bilang pera sa loob ng mga siglo at nananatiling pinakakaraniwang anyo ng pisikal na pera sa buong mundo.",
 	"cash_intro_2": "Ang Bitcoin ay digital na pera na nilikha noong 2009 na gumagana nang independiyente sa anumang gobyerno o sentral na awtoridad.",
 	"cash_intro_3": "Ngunit paano nagkakaiba ang pisikal na cash sa digital na pera tulad ng Bitcoin? I-explore natin ang mga pangunahing pagkakaiba sa pagitan ng dalawang anyo ng pera: Bitcoin at Cash.",

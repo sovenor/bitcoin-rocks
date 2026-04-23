@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_cash": "Bitcoin ve Nakit",
-	"cash_header": "ARADAKI FARK",
-	"cash_header_2": "BİTCOİN",
-	"cash_header_3": "VE",
-	"cash_header_4": "NAKİT",
 	"cash_intro_1": "Nakit yüzyıllardır para olarak kullanılmaktadır ve dünyanın en yaygın fiziksel para biçimi olmaya devam etmektedir.",
 	"cash_intro_2": "Bitcoin, 2009 yılında oluşturulan, herhangi bir hükümet veya merkezi otoriteden bağımsız çalışan dijital paradır.",
 	"cash_intro_3": "Peki fiziksel nakit, Bitcoin gibi dijital paradan nasıl farklıdır? İki para biçimi arasındaki temel farklara bakalım: Bitcoin ve Nakit.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"how_to_accept_bitcoin_payments": "Com acceptar pagaments amb Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Carteres híbrides:",
 	"wallets_intro_5": "Aquestes et permeten canviar qualsevol porció del teu Bitcoin per dòlars tan aviat com un client et pagui. Les comissions segueixen sent menors que les de les targetes de crèdit, però més altes que les de pagaments purament amb Bitcoin.",
 	"wallets_intro_6": "Ambdues són excel·lents maneres d'acceptar Bitcoin. La cartera específica que facis servir dependrà de la mida i el tipus del teu negoci.",
-	"wallets_choice_sole": "carteres per a negocis de propietat individual",
-	"wallets_choice_multiple": "carteres per a negocis amb diversos empleats",
-	"wallets_choice_online": "carteres per a negocis en línia",
-	"wallets_choice_invoice": "carteres per a negocis basats en factures",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

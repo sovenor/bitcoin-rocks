@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"bitcoin_vs_bonds": "비트코인 vs 채권",
-	"bonds_header": "차이점 비교",
-	"bonds_header_2": "비트코인",
-	"bonds_header_3": "과",
-	"bonds_header_4": "채권",
 	"bonds_intro_1": "국채는 종종 '무위험' 투자라 불리며 전통 금융에서 가장 안전한 자산 보관 수단으로 여겨집니다.",
 	"bonds_intro_2": "비트코인은 어떤 정부나 중앙 기관과도 독립적으로 운영되는 디지털 화폐입니다.",
 	"bonds_intro_3": "하지만 채권이 정말 무위험일까요? 그리고 가치 저장 수단으로 비트코인과 어떻게 비교될까요? 비트코인과 국채의 주요 차이점을 살펴보겠습니다.",

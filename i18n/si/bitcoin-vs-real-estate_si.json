@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin එදිරිව නිශ්චල දේපළ",
-	"real_estate_header": "අතර වෙනස",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "සහ",
-	"real_estate_header_4": "නිශ්චල දේපළ",
 	"real_estate_intro_1": "නිශ්චල දේපළ සම්ප්‍රදායිකව වටිනාකම ගබඩා කිරීමේ ස්ථානයක් ලෙස සැලකී ඇත.",
 	"real_estate_intro_2": "Bitcoin යනු ඩිජිටල් ස්වදේශික වත්තකමකි.",
 	"real_estate_intro_3": "නමුත් මෙම වත්තකම් ආකාර දෙක කෙසේ වෙනස් වේද? බලමු.",

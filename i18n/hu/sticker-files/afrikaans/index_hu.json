@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"afrikaans_bitcoin_sticker_files": "Afrikaans Bitcoin matricafájlok",
-	"afrikaans_description": "Töltsd le a Bitcoin matricafájlokat afrikaans nyelven.",
-	"afrikaans_header": "AFRIKAANS BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

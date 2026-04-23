@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
 	},
 	"free_bitcoin_flyers": "Gratis Bitcoin-flyers fra bitcoin.rocks",
 	"flyers_description": "Print en Bitcoin-flyer derhjemme og hæng den op offentligt for at orange-pille dem omkring dig.",
-	"flyers_header_1": "PRINT OG HÆNG",
-	"flyers_header_2": "BITCOIN-FLYERS OP",
 	"flyers_intro_header": "SÅDAN PRINTER OG HÆNGER DU DISSE BITCOIN-FLYERS OP",
 	"flyers_intro_c1": "Vores mission er at hjælpe dig med at orange-pille flere mennesker ved at hænge Bitcoin-flyers op offentligt. Denne flyer har en QR-kode, der linker til vores",
 	"flyers_intro_c2": "pædagogiske Bitcoin-hjemmeside.",
-	"flyers_intro_c3": "inflation",
 	"flyers_intro_c4": "Print denne flyer derhjemme eller på et trykkeri. Hæng den derefter op på opslagstavler, telefonpæle rundt i byen og andre offentlige steder, hvor folk kan se den og lære om Bitcoin.",
 	"flyers_intro_c5": "Mens du er i gang, bestil en pakke med vores",
 	"flyers_intro_c6": "gratis Bitcoin-klistermærker",

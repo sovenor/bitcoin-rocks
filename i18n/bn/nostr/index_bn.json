@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "bn"
-	},
-	"escape_the_matrix_with_nostr": "Nostr দিয়ে ম্যাট্রিক্স থেকে বেরিয়ে আসুন",
-	"nostr_header": "NOSTR দিয়ে ম্যাট্রিক্স থেকে বেরিয়ে আসুন"
+	}
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_crypto": "Bitcoin dhidi ya Crypto",
-	"crypto_header": "TOFAUTI KATI YA",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "NA",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Sekta ya sarafu za kidijitali imelipuka na tokeni na miradi maelfu ya tofauti.",
 	"crypto_intro_2": "Ingawa Bitcoin ilikuwa ya kwanza na inabaki inayojulikana zaidi, ni tofauti kabisa na tasnia nyingine yote ya crypto.",
 	"crypto_intro_3": "Hebu tuchunguze tofauti kuu kati ya Bitcoin na mfumo mpana wa sarafu za kidijitali.",

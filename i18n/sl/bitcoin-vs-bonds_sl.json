@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"bitcoin_vs_bonds": "Bitcoin proti obveznicam",
-	"bonds_header": "RAZLIKA MED",
-	"bonds_header_2": "BITCOINOM",
-	"bonds_header_3": "IN",
-	"bonds_header_4": "OBVEZNICAMI",
 	"bonds_intro_1": "Državne obveznice so pogosto označene kot 'brez tveganja' in tradicionalne finance jih smatrajo za najvarnejše mesto za hrambo premoženja.",
 	"bonds_intro_2": "Bitcoin je digitalni denar, ki deluje neodvisno od katere koli vlade ali centralnega organa.",
 	"bonds_intro_3": "Ali so obveznice res brez tveganja? In kako se primerjajo z Bitcoinom kot sredstvom za hrambo vrednosti? Poglejmo ključne razlike med Bitcoinom in državnimi obveznicami.",

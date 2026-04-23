@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs नकदी",
-	"cash_header": "दोनों में क्या अंतर है",
-	"cash_header_2": "Bitcoin",
-	"cash_header_3": "और",
-	"cash_header_4": "नकदी",
 	"cash_intro_1": "नकदी सदियों से मुद्रा के रूप में है और आज भी दुनिया भर में सबसे आम भौतिक मुद्रा है।",
 	"cash_intro_2": "Bitcoin 2009 में बनाई गई डिजिटल मुद्रा है जो किसी भी सरकार से स्वतंत्र रूप से काम करती है।",
 	"cash_intro_3": "लेकिन भौतिक नकदी और डिजिटल Bitcoin में क्या अंतर है?",

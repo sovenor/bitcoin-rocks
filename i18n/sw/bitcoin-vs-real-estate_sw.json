@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin dhidi ya Mali Isiyohamishika",
-	"real_estate_header": "TOFAUTI KATI YA",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "NA",
-	"real_estate_header_4": "MALI ISIYOHAMISHIKA",
 	"real_estate_intro_1": "Mali isiyohamishika imekuwa uwekezaji maarufu kwa miongo kadhaa na mara nyingi inaonekana kama hifadhi thabiti ya thamani.",
 	"real_estate_intro_2": "Bitcoin ni pesa za kidijitali zilizotengenezwa mwaka 2009 na pia zinaonekana na wengi kama hifadhi ya thamani na uwekezaji.",
 	"real_estate_intro_3": "Lakini mali halisi inatofautianaje na pesa za kidijitali kama Bitcoin? Hebu tuangalie tofauti kati ya aina mbili za uwekezaji: Bitcoin na Mali Isiyohamishika.",

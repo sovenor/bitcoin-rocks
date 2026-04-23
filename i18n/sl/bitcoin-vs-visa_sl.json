@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"bitcoin_vs_visa": "Bitcoin proti Visi",
-	"visa_header": "RAZLIKA MED",
-	"visa_header_2": "BITCOINOM",
-	"visa_header_3": "IN",
-	"visa_header_4": "VISO",
 	"visa_intro_1": "Kreditne kartice in Bitcoin sta oba plačilna sistema, vendar delujeta zelo različno.",
 	"visa_intro_2": "Kreditne kartice, kot je Visa, so zaprta omrežja, ki jih nadzorujejo finančne institucije, medtem ko je Bitcoin odprto omrežje, ki ga lahko uporablja kdorkoli.",
 	"visa_intro_3": "Poglejmo razlike med tema dvema plačilnima infrastrukturama: Bitcoinom in Viso.",

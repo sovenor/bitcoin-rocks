@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"how_to_accept_bitcoin_payments": "የቢትኮይን ክፍያዎችን እንዴት መቀበል እንደሚቻል",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "ድብልቅ ቦርሳዎች፡",
 	"wallets_intro_5": "ከደንበኞችዎ ክፍያ ሲቀበሉ በተመሳሳይ ጊዜ የፈለጉትን መጠን ወደ ዶላር መቀየር ይችላሉ። ክፍያዎቹ ከብድር ካርዶች ያነሱ ግን ከንፁህ ቢትኮይን ክፍያ ይበልጣሉ።",
 	"wallets_intro_6": "ሁለቱም ቢትኮይንን ለመቀበል ድንቅ መንገዶች ናቸው። የትኛውን ቦርሳ እንደሚጠቀሙ በንግድዎ መጠን እና ዓይነት ይወሰናል።",
-	"wallets_choice_sole": "ለብቸኛ ባለቤት ቦርሳዎች",
-	"wallets_choice_multiple": "ብዙ ሰራተኛ ላላቸው ንግዶች ቦርሳዎች",
-	"wallets_choice_online": "ለመስመር ላይ ንግዶች ቦርሳዎች",
-	"wallets_choice_invoice": "ለደረሰኝ-ተኮር ንግዶች ቦርሳዎች",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "es"
 	},
 	"free_bitcoin_stickers": "Stickers Bitcoin gratuitos de bitcoin.rocks",
 	"stickers_description": "Coloca una pegatina Bitcoin en público para orange pill a quienes te rodean.",
-	"stickers_header": "STICKERS BITCOIN GRATIS",
-	"stickers_choose_header": "ELIGE TU PACK DE STICKERS",
-	"stickers_choose_c1": "Nuestra misión es ayudarte a orange pill a más personas colocando stickers de Bitcoin en público. Todas nuestras pegatinas tienen códigos QR que enlazan a páginas educativas sobre",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflación",
-	"stickers_choose_c4": "Elige tu pack de stickers a continuación",
 	"stickers_text_pack": "EL PACK DE TEXTO",
 	"stickers_signs_pack": "EL PACK DE LETREROS",
 	"stickers_instructions_1": "Ingresa tu dirección postal (Solo para U.S. y Canada) y te enviaremos un paquete de pegatinas Bitcoin gratis ¡Enviaremos tus stickers por correo en un sobre blanco normal!.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Mientras estás en eso, imprime y publica tus propios ",
 	"stickers_flyers_link_text": "folletos de Bitcoin",
 	"stickers_flyers_link_after": " para ayudar a orange pill a aún más personas.",
-	"stickers_country_global_print": "Global — Imprimir mis propios stickers",
-	"stickers_country_global_order": "Global — Realizar pedidos al por mayor",
 	"placeholder_name_optional": "Nombre (opcional)",
 	"placeholder_address_line_1": "Línea de dirección 1",
 	"placeholder_address_line_2": "Línea de dirección 2 (opcional)",

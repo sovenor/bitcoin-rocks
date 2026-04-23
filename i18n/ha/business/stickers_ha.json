@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_accepted_here_stickers": "Stickers na 'Ana Karɓar Bitcoin a Nan'",
-	"stickers_header": "SAMI STICKERS NA 'ANA KARƁAR BITCOIN A NAN' KYAUTA",
-	"stickers_request": "Neman stickers kyauta",
-	"stickers_request_details": "Sanar da abokan ciniki cewa kuna karɓar biyan kuɗi na Bitcoin da waɗannan stickers na 'Ana Karɓar Bitcoin a Nan' kyauta.",
-	"stickers_country_global_print": "Duniya baki ɗaya — Na buga stickers na kaina",
-	"stickers_request_instructions": "Za ku sami stickers 'Ana Karɓar Bitcoin a Nan' guda uku a cikin ambulan fari mai sauƙi. Idan kuna buƙatar fiye da stickers uku ga kasuwancinku, kuna iya nema sake. Za a share bayanan adireshin bayan an aika stickers na kyauta.",
-	"stickers_print_details": "Kuna iya buga stickers 'Ana Karɓar Bitcoin a Nan' naku ba tare da la'akari da inda kuke zaune ba! Danna harsheku a ƙasa don ganin fayilolin sticker da umarnin.",
-	"stickers_request_language": "Ba ku ga harshenku? Cika takardar a ƙasa don neman fayilolin sticker na 'Ana Karɓar Bitcoin a Nan' a cikin harshenku."
+	"stickers_request": "Neman stickers kyauta"
 }

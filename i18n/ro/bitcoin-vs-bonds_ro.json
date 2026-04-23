@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Obligațiuni",
-	"bonds_header": "DIFERENȚA DINTRE",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "ȘI",
-	"bonds_header_4": "OBLIGAȚIUNI",
 	"bonds_intro_1": "Obligațiunile guvernamentale sunt adesea numite investiții 'fără risc' și sunt considerate cel mai sigur loc de a stoca averea de către finanțele tradiționale.",
 	"bonds_intro_2": "Bitcoin sunt bani digitali care funcționează independent de orice guvern sau autoritate centrală.",
 	"bonds_intro_3": "Dar sunt obligațiunile cu adevărat fără risc? Și cum se compară cu Bitcoin ca rezervă de valoare? Să examinăm diferențele cheie dintre Bitcoin și obligațiunile guvernamentale.",

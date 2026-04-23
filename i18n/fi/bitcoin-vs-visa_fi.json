@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "ERO",
-	"visa_header_2": "BITCOININ",
-	"visa_header_3": "JA",
-	"visa_header_4": "VISAN VÄLILLÄ",
 	"visa_intro_1": "Luottokortit ja Bitcoin ovat molemmat maksujärjestelmiä, mutta ne toimivat hyvin eri tavalla.",
 	"visa_intro_2": "Luottokortit kuten Visa ovat suljettuja verkkoja, kun taas Bitcoin on avoin verkko.",
 	"visa_intro_3": "Katsotaan eroja: Bitcoin ja Visa.",

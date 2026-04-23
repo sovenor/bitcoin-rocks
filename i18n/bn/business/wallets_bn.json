@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "bn"
 	},
 	"how_to_accept_bitcoin_payments": "কিভাবে Bitcoin পেমেন্ট গ্রহণ করবেন",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "হাইব্রিড ওয়ালেট:",
 	"wallets_intro_5": "এগুলো আপনাকে গ্রাহক পেমেন্ট করার সাথে সাথে আপনার Bitcoin-এর যেকোনো অংশ ডলারে রূপান্তর করতে দেয়। ফি এখনও ক্রেডিট কার্ড পেমেন্টের চেয়ে কম, তবে বিশুদ্ধ Bitcoin পেমেন্টের চেয়ে বেশি।",
 	"wallets_intro_6": "দুটোই Bitcoin গ্রহণের দুর্দান্ত উপায়। আপনি কোন ওয়ালেট ব্যবহার করবেন তা আপনার ব্যবসার আকার এবং ধরনের উপর নির্ভর করবে।",
-	"wallets_choice_sole": "ব্যক্তিগত মালিকানাধীন ব্যবসার জন্য ওয়ালেট",
-	"wallets_choice_multiple": "একাধিক কর্মচারীযুক্ত ব্যবসার জন্য ওয়ালেট",
-	"wallets_choice_online": "অনলাইন ব্যবসার জন্য ওয়ালেট",
-	"wallets_choice_invoice": "চালান-ভিত্তিক ব্যবসার জন্য ওয়ালেট",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

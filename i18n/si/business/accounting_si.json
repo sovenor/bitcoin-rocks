@@ -3,12 +3,8 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
-	"business_accounting": "Bitcoin ගිණුම්කරණ මාර්ගෝපදේශය",
-	"accounting_description": "ඔබේ ව්‍යාපාරය සඳහා Bitcoin ගිණුම්කරණය හැසිරවීම ඉගෙන ගන්න.",
-	"accounting_header": "BITCOIN ගිණුම්කරණ මාර්ගෝපදේශය",
-	"accounting_intro_1": "Bitcoin ගෙවීම් පිළිගැනීමේදී, ඔබේ ගිණුම්කරණ නිවැරදිව පවත්වාගැනීම වැදගත්ය.",
-	"accounting_intro_2": "ඔබේ බදු උපදේශකයා සමඟ සාකච්ඡා කර ඔබේ අධිකරණයේ Bitcoin ව්‍යාපාර ගිණුම්කරණය පිළිබඳ නවතම මාර්ගෝපදේශ ලබාගන්න."
+	"accounting_description": "ඔබේ ව්‍යාපාරය සඳහා Bitcoin ගිණුම්කරණය හැසිරවීම ඉගෙන ගන්න."
 }

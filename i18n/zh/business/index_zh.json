@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_is_good_for_business": "比特币对企业有利",
-	"biz_header": "比特币对企业有利",
 	"biz_s1": "低手续费，无最低限额",
 	"biz_s1_c1": "比特币允许您直接从客户那里接收付款，就像现金一样。比特币网络无需银行和信用卡公司等收取高额费用的中间人即可运行。",
 	"biz_s2": "即时结算",

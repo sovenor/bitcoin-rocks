@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Gyakran ismételt kérdések a Bitcoin elfogadásáról",
 	"faq_description": "Kérdéseid vannak a Bitcoin fizetések elfogadásáról a vállalkozásodban?",
-	"faq_header": "KÉRDÉSEID VANNAK A BITCOIN FIZETÉSEK ELFOGADÁSÁRÓL?",
 	"faq_s1": "Mi az a Bitcoin?",
 	"faq_s1_c1": "A Bitcoin két dolog: digitális pénz és számítógépes hálózat.",
 	"faq_s1_c2": "Közvetlenül küldhetsz bitcoint (digitális pénzt) más embereknek a Bitcoin hálózat segítségével.",
@@ -37,7 +36,6 @@
 	"faq_s6": "Fogadhatok online Bitcoin fizetéseket?",
 	"faq_s6_c1": "Igen! Számos Bitcoin tárca és fizetési feldolgozó támogatja az online Bitcoin fizetéseket.",
 	"faq_s6_c2": "Az online Bitcoin fizetések hasonlóan működnek, mint a hitelkártyás fizetések, de alacsonyabb díjakkal, nincs visszaterhelés és azonnali elszámolással.",
-	"faq_s6_c3": "Tekintsd meg az üzleti tárca útmutatónkat a lehetőségekért.",
 	"faq_s7": "Hogyan tudathatom az ügyfelekkel, hogy elfogadok Bitcoint?",
 	"faq_s7_c1": "Számos módon tudathatod ügyfeliddel, hogy elfogadod a Bitcoint:",
 	"faq_s7_c2": "Kérj ingyenes \"Bitcoin elfogadóhely\" matricákat.",
@@ -49,6 +47,5 @@
 	"faq_s8_c3": "Kerülj fel a Bitcoin kereskedők térképére.",
 	"faq_s9": "Mennyibe kerül a Bitcoin elfogadása?",
 	"faq_s9_c1": "A Bitcoin elfogadása teljesen ingyenes. Nincsenek szerződések, havi díjak vagy rejtett költségek.",
-	"faq_s9_c2": "A Bitcoin tranzakciós díjak általában sokkal alacsonyabbak, mint a hitelkártya feldolgozási díjak, különösen a Lightning hálózattal, amely szinte nulla díjas fizetéseket tesz lehetővé.",
-	"faq_s9_c3": "Mindössze egy ingyenes Bitcoin tárca kell az induláshoz."
+	"faq_s9_c2": "A Bitcoin tranzakciós díjak általában sokkal alacsonyabbak, mint a hitelkártya feldolgozási díjak, különösen a Lightning hálózattal, amely szinte nulla díjas fizetéseket tesz lehetővé."
 }

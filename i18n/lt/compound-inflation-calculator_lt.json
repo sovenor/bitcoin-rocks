@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"cic_header": "Sudėtinės infliacijos skaičiuoklė",
 	"cic_description": "Naudokite šią sudėtinės infliacijos skaičiuoklę, kad sužinotumėte, kiek turi padidėti jūsų atlyginimas, kad neatsiliktų nuo infliacijos.",
-	"what_can_i_do_about": "Ką galiu padaryti",
-	"what_can_i_do_about_2": "dėl infliacijos?",
 	"cic_inflation_cta": "Apsisaugokite nuo infliacijos su Bitcoin"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "pl"
 	},
 	"how_to_accept_bitcoin_payments": "Jak przyjmować płatności Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Portfele hybrydowe:",
 	"wallets_intro_5": "Pozwalają ci wymienić dowolną część Bitcoina na dolary natychmiast po zapłaceniu przez klienta. Opłaty są nadal niższe niż płatności kartą kredytową, ale wyższe niż czyste płatności Bitcoin.",
 	"wallets_intro_6": "Oba są świetnymi sposobami na przyjmowanie Bitcoina. Konkretny portfel, którego użyjesz, będzie zależał od wielkości i rodzaju twojej firmy.",
-	"wallets_choice_sole": "portfele dla jednoosobowych firm",
-	"wallets_choice_multiple": "portfele dla firm z wieloma pracownikami",
-	"wallets_choice_online": "portfele dla firm internetowych",
-	"wallets_choice_invoice": "portfele dla firm wystawiających faktury",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

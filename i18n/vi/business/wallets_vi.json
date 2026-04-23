@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"how_to_accept_bitcoin_payments": "Cách Chấp Nhận Thanh Toán Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Ví hỗn hợp:",
 	"wallets_intro_5": "Cho phép bạn đổi bất kỳ phần nào Bitcoin sang đô la ngay khi khách hàng thanh toán. Phí vẫn thấp hơn thanh toán thẻ tín dụng, nhưng cao hơn thanh toán Bitcoin thuần túy.",
 	"wallets_intro_6": "Cả hai đều là cách tuyệt vời để chấp nhận Bitcoin. Ví cụ thể bạn sử dụng sẽ phụ thuộc vào quy mô và loại hình doanh nghiệp.",
-	"wallets_choice_sole": "ví cho doanh nghiệp cá nhân",
-	"wallets_choice_multiple": "ví cho doanh nghiệp có nhiều nhân viên",
-	"wallets_choice_online": "ví cho doanh nghiệp trực tuyến",
-	"wallets_choice_invoice": "ví cho doanh nghiệp dựa trên hóa đơn",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"free_bitcoin_stickers": "Vibandiko vya Bitcoin bure kutoka bitcoin.rocks",
 	"stickers_description": "Weka kibandiko cha bitcoin hadharani kueneza ufahamu wa Bitcoin kwa watu wanaokuzunguka.",
-	"stickers_header": "VIBANDIKO VYA BITCOIN BURE",
-	"stickers_choose_header": "CHAGUA KIFURUSHI CHAKO CHA VIBANDIKO",
-	"stickers_choose_c1": "Dhamira yetu ni kukusaidia kueneza Bitcoin zaidi kwa kuweka vibandiko vya Bitcoin hadharani. Vibandiko vyetu vyote vina misimbo ya QR inayounganisha na kurasa za elimu kuhusu",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "mfumuko wa bei",
-	"stickers_choose_c4": "Chagua kifurushi chako cha vibandiko hapa chini",
 	"stickers_text_pack": "KIFURUSHI CHA MAANDISHI",
 	"stickers_signs_pack": "KIFURUSHI CHA ALAMA",
 	"stickers_instructions_1": "Ingiza anwani yako ya posta na tutakutumia Kifurushi cha Vibandiko vya Bitcoin bure kwa barua! Vibandiko vyako vitatumwa katika bahasha nyeupe.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Huku ukifanya hivyo, chapisha na bandika ",
 	"stickers_flyers_link_text": "vipeperushi vya Bitcoin",
 	"stickers_flyers_link_after": " vyako kusaidia kueneza Bitcoin zaidi.",
-	"stickers_country_global_print": "Duniani kote - Chapisha vibandiko vyangu mwenyewe",
-	"stickers_country_global_order": "Duniani kote - Agiza kwa wingi",
 	"placeholder_name_optional": "Jina (si lazima)",
 	"placeholder_address_line_1": "Anwani Mstari wa 1",
 	"placeholder_address_line_2": "Anwani Mstari wa 2 (si lazima)",

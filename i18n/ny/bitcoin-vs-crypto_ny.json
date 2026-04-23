@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_crypto": "Bitcoin ndi Crypto",
-	"crypto_header": "KUSIYANA PAKATI PA",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "NDI",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Malo a cryptocurrency aphulika ndi ndalama zadigitala zikwizikwi ndi ntchito zosiyanasiyana.",
 	"crypto_intro_2": "Pomwe Bitcoin ndiyo yoyamba ndipo ndiyodziwika kwambiri, imasiyana kwambiri ndi zinthu zina za crypto.",
 	"crypto_intro_3": "Tiyeni tiwunikenso kusiyana kwakukulu pakati pa Bitcoin ndi cryptocurrency zina.",

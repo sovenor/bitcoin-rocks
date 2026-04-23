@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs készpénz",
-	"cash_header": "A KÜLÖNBSÉG A",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "ÉS A",
-	"cash_header_4": "KÉSZPÉNZ KÖZÖTT",
 	"cash_intro_1": "A készpénz évszázadok óta a pénz leggyakrabban használt formája.",
 	"cash_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz, amely a hagyományos készpénzhez hasonlóan közvetlenül, közvetítők nélkül használható.",
 	"cash_intro_3": "De miben különbözik a fizikai készpénz a digitális pénztől, mint a Bitcoin? Nézzük meg a különbségeket: Bitcoin vs készpénz.",

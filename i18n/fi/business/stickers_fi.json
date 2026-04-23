@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_accepted_here_stickers": "Bitcoin hyväksytään täällä -tarrat",
-	"stickers_header": "HANKI ILMAISET 'BITCOIN HYVÄKSYTÄÄN TÄÄLLÄ' -TARRAT",
-	"stickers_request": "Tilaa ilmaiset tarrat",
-	"stickers_request_details": "Kerro asiakkaillesi, että hyväksyt Bitcoin-maksuja näillä ilmaisilla 'Bitcoin hyväksytään täällä' -tarroilla.",
-	"stickers_country_global_print": "Maailmanlaajuinen — Tulostan omat tarrani",
-	"stickers_request_instructions": "Saat kolme 'Bitcoin hyväksytään täällä' -tarraa tavallisessa valkoisessa kirjekuoressa. Jos tarvitset yli kolme tarraa yrityksellesi, voit tilata uudelleen. Osoitetiedot poistetaan ilmaisten tarrojen lähettämisen jälkeen.",
-	"stickers_print_details": "Voit tulostaa omat 'Bitcoin hyväksytään täällä' -tarrasi riippumatta asuinpaikastasi! Klikkaa kieltesi alla nähdäksesi tarratiedostot ja ohjeet.",
-	"stickers_request_language": "Etkö näe kieltesi? Täytä alla oleva lomake pyytääksesi 'Bitcoin hyväksytään täällä' -tarratiedostoja omalla kielelläsi."
+	"stickers_request": "Tilaa ilmaiset tarrat"
 }

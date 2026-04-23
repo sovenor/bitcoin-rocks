@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
-	"crypto_header": "LA DIFFÉRENCE ENTRE",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "ET",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "L'espace des cryptomonnaies a explosé avec des milliers de jetons numériques et de projets différents.",
 	"crypto_intro_2": "Bien que Bitcoin ait été la première et reste la cryptomonnaie la plus connue, elle est fondamentalement différente du reste de l'industrie crypto.",
 	"crypto_intro_3": "Explorons les différences clés entre Bitcoin et l'écosystème plus large des cryptomonnaies.",

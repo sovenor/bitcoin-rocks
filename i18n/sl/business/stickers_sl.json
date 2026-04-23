@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"bitcoin_accepted_here_stickers": "Nalepke Bitcoin sprejet tukaj",
-	"stickers_header": "PRIDOBITE BREZPLAČNE NALEPKE 'BITCOIN SPREJET TUKAJ'",
-	"stickers_request": "Pridobite brezplačne nalepke",
-	"stickers_request_details": "Sporočite svojim strankam, da sprejemate bitcoinova plačila, s temi brezplačnimi nalepkami 'Bitcoin sprejet tukaj'.",
-	"stickers_country_global_print": "Po vsem svetu — Natisnil bom lastne nalepke",
-	"stickers_request_instructions": "Prejeli boste tri nalepke 'Bitcoin sprejet tukaj' v navadni beli ovojnici. Če potrebujete več kot tri nalepke za svoje podjetje, vas prosimo, da zaprosite večkrat. Podatki o naslovu se izbrišejo po pošiljanju brezplačnih nalepk.",
-	"stickers_print_details": "Natisnete lahko lastne nalepke 'Bitcoin sprejet tukaj', ne glede na to, kje živite! Kliknite na svoj jezik spodaj za ogled datotek nalepk in navodil.",
-	"stickers_request_language": "Ne vidite svojega jezika? Izpolnite spodnji obrazec in zaprosite za datoteke nalepk 'Bitcoin sprejet tukaj' v vašem jeziku."
+	"stickers_request": "Pridobite brezplačne nalepke"
 }

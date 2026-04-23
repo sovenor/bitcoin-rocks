@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "A KÜLÖNBSÉG A",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "ÉS A",
-	"visa_header_4": "VISA KÖZÖTT",
 	"visa_intro_1": "A Visa az egyik legnagyobb fizetési hálózat a világon, évente több milliárd tranzakciót dolgoz fel.",
 	"visa_intro_2": "A Bitcoin egy decentralizált fizetési hálózat, amely közvetítők nélkül működik.",
 	"visa_intro_3": "De miben különbözik a Visa fizetési hálózata a Bitcoin fizetési hálózatától? Nézzük meg a különbségeket.",

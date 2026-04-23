@@ -6,12 +6,12 @@
 			],
 			"last-updated": "2026-04-12",
 			"locale": "yo"
-		}
+		},
+		"last-updated": "2026-04-23"
 	},
 	"get_involved_and_help_spread_bitcoin": "Kópa kí o sì ràn ló́wó́ láti tàǹkàlẹ̀ Bitcoin",
 	"get_involved_description": "Àwọn ohún-èlò òfẹ́ẹ́ wa mú kí ó rọ̀rùn láti tàǹkàlẹ̀ gbígbà Bitcoin.",
 	"get_involved_header": "KÓPA",
-	"get_involved_header_2": "TÀǸKÀLẸ̀ BITCOIN",
 	"get_involved_intro_1": "Ó lè mú ìrẹ̀wẹ̀sì láti gbé ní ipò àgbáyé wa ló́wó́ló́wó́.",
 	"get_involved_intro_2": "Owó wa ti bàjẹ́. Gégé bí àbájádé, àwọn apá ìpìlẹ̀ àwùjọ ti bàjẹ́ pẹ̀lú.",
 	"get_involved_intro_3": "Tí o bá ti mọ̀ Bitcoin, o mọ̀ ìrì ìrètí tí Bitcoin lè mú wá. Ìrètí fún ọ̀là tó dára jùlọ tí owó tó dára jùlọ mú ṣèṣè.",
@@ -24,16 +24,8 @@
 	"get_involved_sticker_content_4": "Àwọn àmì àlèmó́ mìràn so mó́ ojú-ìwé ẹ̀kó̀ ilé wa tó fi hàn ènìyàn bí",
 	"get_involved_sticker_content_5": "Bitcoin ṣe ń kó̀ àgbáyé tó dára jùlọ.",
 	"get_involved_sticker_content_6": "Nípà fífi àwọn àmì àlèmó́ wọ̀nyí sí ní àgbẹ̀gbẹ̀ rẹ ní àwọn ibì tí ènìyàn yoo rí wọn, o lè ràn àwọn tó yí ọ ká ló́wó́ láti bẹ̀rẹ̀ ìrìnajò wọn nínú ihò ẹhìnkùlé Bitcoin.",
-	"get_involved_request_a": "BÈÈRÈ FÚN",
-	"get_involved_sticker_pack": "ÀKÓJỌ ÀMÌ ÀLÈMÓ",
-	"get_involved_postcard_header": "Fi káàdì afìranṣẹ́ ranṣẹ́",
-	"get_involved_postcard_content_1": "O lè ràn ló́wó́ láti tàǹkàlẹ̀ Ìrètí Bitcoin sí ẹ̀níkan tí o mọ̀ nípà fifi káàdì afìranṣẹ́ òfẹ́ẹ́ wa ranṣẹ́ sí wọn.",
-	"get_involved_postcard_content_2": "Èyìn káàdì afìranṣẹ́ kọ̀ọ̀kan ní àkó̀ónú tó dara nípa Bitcoin pẹ̀lú kóódù QR láti kẹ́kọ̀ọ́ díẹ̀ síì.",
-	"get_involved_postcard_content_3": "Nípà fifi káàdì afìranṣẹ́ Bitcoin ranṣẹ́ sí ẹ̀níkan, o lè ràn wọn ló́wó́ láti rí Bitcoin ní ònà tuntun.",
-	"get_involved_postcard_pack": "ÀKÓJỌ KÁÀDÌ AFÌRANṢẸ́",
 	"get_involved_business_header": "Mú òwò iṣẹ́ gba",
 	"get_involved_business_content_1": "Ṣé o fẹ́ ràn ló́wó́ láti kó ọ̀rọ̀-ajé àyípò Bitcoin? Ohun-èlò Òwò Iṣẹ́ Bitcoin wa mú kí ó rọ̀rùn láti lò sí òwò iṣẹ́ nípa gbígbà ìsàn owó Bitcoin.",
 	"get_involved_business_content_2": "Ohun-èlò òwò iṣẹ́ kọ̀ọ̀kan ní àwọn ìwé pílàńkì tó fi àwọn ànfààní gbígbà ìsàn owó Bitcoin hàn. Ìwé pílàńkì kọ̀ọ̀kan so mó́ ọ̀pọ̀lọ pọ̀",
-	"get_involved_business_content_3": "ohún-èlò òwò iṣẹ́ Bitcoin òfẹ́ẹ́.",
-	"get_involved_business_kit": "OHUN-ÈLÒ ÒWÒ IṢẸ́"
+	"get_involved_business_content_3": "ohún-èlò òwò iṣẹ́ Bitcoin òfẹ́ẹ́."
 }

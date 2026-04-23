@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "pl"
 	},
 	"bitcoin_lightning_wallet_guide": "Przewodnik po portfelach Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Te portfele są bardziej podobne do systemu bankowego, w którym musisz zaufać trzeciej stronie, że da ci dostęp do twoich pieniędzy. Jeśli twoje Bitcoiny są na giełdzie, używasz portfela powierniczego.",
 	"lightning_s3_c3": "Portfele powiernicze mogą wydawać się wygodne, ale powiernik ma techniczną możliwość kradzieży wszystkich środków użytkowników w dowolnym momencie.",
 	"lightning_s3_c4": "Niektórzy ludzie preferują powiernicze portfele Lightning dla małych kwot bitcoinów ze względu na łatwość użycia. Po prostu pamiętaj: nie twoje klucze, nie twoje monety!",
-	"lightning_question_2": "WYBIERZ SWÓJ PORTFEL",
-	"lightning_s4_c1": "Mając to wszystko na uwadze, możesz teraz wybrać portfel lightning, który ma odpowiedni balans kompromisów dla ciebie.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Wiele funkcji",
 	"lightning_mobile_app": "Aplikacja mobilna",
 	"lightning_free": "100% za darmo",
 	"lightning_merchants": "Świetny dla sprzedawców",
-	"lightning_starter": "Świetny portfel na start",
-	"lightning_browser": "Oparty na przeglądarce",
 	"lightning_custodial": "W pełni powierniczy portfel",
 	"lightning_cta_hardware": "Szukasz naszego Przewodnika po portfelach sprzętowych Bitcoin?"
 }

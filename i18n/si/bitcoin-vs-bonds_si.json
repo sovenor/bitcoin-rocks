@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_bonds": "Bitcoin එදිරිව බැඳුම්කර",
-	"bonds_header": "අතර වෙනස",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "සහ",
-	"bonds_header_4": "බැඳුම්කර",
 	"bonds_intro_1": "බැඳුම්කර සියවස් ගණනාවක් ආරක්ෂිත ආයෝජනයක් ලෙස සැලකී ඇත.",
 	"bonds_intro_2": "Bitcoin යනු 2009 දී නිර්මාණය කරන ලද ඩිජිටල් මුදල් ය.",
 	"bonds_intro_3": "නමුත් රජයේ ණය Bitcoin වැනි ඩිජිටල් මුදලකින් කෙසේ වෙනස් වේද? බලමු.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "pl"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "RÓŻNICA MIĘDZY",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "A",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Karty kredytowe i Bitcoin to systemy płatności, ale działają zupełnie inaczej.",
 	"visa_intro_2": "Karty kredytowe jak Visa to zamknięte sieci kontrolowane przez instytucje finansowe, podczas gdy Bitcoin to otwarta sieć, z której każdy może korzystać.",
 	"visa_intro_3": "Zbadajmy kluczowe różnice między dwoma systemami płatności: Bitcoin i Visa.",

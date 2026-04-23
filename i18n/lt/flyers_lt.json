@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"free_bitcoin_flyers": "Nemokamos Bitcoin skrajutės iš bitcoin.rocks",
 	"flyers_description": "Atsispausdinkite Bitcoin skrajutę namuose ir iškabinkite viešoje vietoje, kad įtrauktumėte aplinkinius.",
-	"flyers_header_1": "ATSISPAUSDINKITE IR IŠKABINKITE",
-	"flyers_header_2": "BITCOIN SKRAJUTES",
 	"flyers_intro_header": "KAIP ATSISPAUSDINTI IR IŠKABINTI ŠIAS BITCOIN SKRAJUTES",
 	"flyers_intro_c1": "Mūsų misija — padėti jums įtraukti daugiau žmonių į Bitcoin iškabinant skrajutes viešose vietose. Šioje skrajutėje yra QR kodas, nukreipiantis į mūsų",
 	"flyers_intro_c2": "šviečiamąją Bitcoin svetainę.",
-	"flyers_intro_c3": "infliaciją",
 	"flyers_intro_c4": "Atsispausdinkite šią skrajutę namuose arba spaustuvėje. Tada iškabinkite ją skelbimų lentose, telefono stulpuose ir kitose viešose vietose, kur žmonės galės ją pamatyti ir sužinoti apie Bitcoin.",
 	"flyers_intro_c5": "Tuo pačiu metu užsakykite mūsų",
 	"flyers_intro_c6": "nemokamų Bitcoin lipdukų",

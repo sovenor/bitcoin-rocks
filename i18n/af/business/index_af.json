@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin is goed vir besigheid",
-	"biz_header": "BITCOIN IS GOED VIR BESIGHEID",
 	"biz_s1": "Lae fooie sonder minimums",
 	"biz_s1_c1": "Bitcoin stel jou in staat om betalings direk van jou klante te ontvang, soortgelyk aan kontant. Die Bitcoin-netwerk werk sonder tussengangers soos banke en kredietkaartmaatskappye wat hoë fooie hef.",
 	"biz_s2": "Onmiddellike verrekening",

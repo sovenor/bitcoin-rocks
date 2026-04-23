@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs ADBLanna",
-	"cbdc_header": "CÉARD BA CHEART",
-	"cbdc_header_2": "D'AIRGEAD DIGITEACH",
-	"cbdc_header_3": "A BHEITH COSÚIL LEIS?",
 	"cbdc_intro_1": "Tá ár ndomhan ag éirí níos digití, agus mar sin atá ár n-airgead.",
 	"cbdc_intro_2": "Ardaíonn sé sin an cheist: céard ba mhaith linn dár n-airgead digiteach a bheith cosúil leis?",
 	"cbdc_intro_3": "Tá go leor tíortha ag fiosrú Airgeadra Digiteach Banc Ceannais (ADBL) a eisiúint, arb é foirm go hiomlán dhigiteach dár n-airgeadra rialtais atá ann cheana.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Tá Bitcoin deartha chun smacht iomlán a thabhairt duit ar d'airgead.",
 	"point_1_summary_2": "Ní féidir le haon duine tú a stopadh ó idirbhearta a dhéanamh le Bitcoin.",
 	"point_1_summary_3": "Tá ADBLanna deartha chun smacht iomlán a thabhairt do rialtais agus do bhainc cheannais ar d'airgead.",
-	"point_1_summary_4": "Cuireann ADBLanna teorainn le do phríobháideachas agus do shaoirse.",
 	"point_2_summary_1": "Ní rachaidh Bitcoin in éag go deo agus níl aon táillí míosúla aige.",
 	"point_2_summary_2": "Is féidir ADBLanna a ríomhchlárú chun dul in éag.",
 	"point_2_summary_3": "Nuair a théann ADBLanna in éag, coiscfidh siad tú ó choigilt don todhchaí.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Tá seoltaí Bitcoin faoi ainm bréige, rud a chiallaíonn nach bhfuil siad nasctha le d'ainm ná d'aitheantas fíor. Tá ADBLanna nasctha go díreach le d'ainm agus d'aitheantas fíor rud a chumasaíonn faireachas airgeadais ollmhór agus cinsireacht.",
 	"point_5_summary_1": "Tá líonra Bitcoin díláraithe.",
 	"point_5_summary_2": "Deimhníonn na mílte nód neamhspleách rialacha an líonra.",
-	"point_5_summary_3": "Tá ADBLanna láraithe i lámha an rialtais agus na mbanc ceannais, rud a thugann smacht iomlán dóibh ar líonra an ADBL.",
 	"point_6_summary_1": "Ligeann Bitcoin d'aon duine nód a rith a fhíoraíonn go bhfuil rialacha an líonra á leanúint. Ní ligeann ADBLanna d'aon duine nóid a rith agus braitheann siad ar mhuinín sa rialtas agus sna bainc cheannais.",
 	"point_7_summary_1": "Tá Bitcoin deartha chun é a dhéanamh dodhéanta do dhaoine eile d'airgead a reo. Tá ADBLanna deartha chun éascú a dhéanamh ar rialtais agus bainc cheannais d'airgead a reo.",
 	"point_8_summary_1": "Tá Bitcoin deartha chun smacht iomlán a thabhairt duit ar d'airgead.",
 	"point_8_summary_2": "Cinntigh go n-aistarraingíonn tú é chuig sparán féinchoimirce.",
 	"point_8_summary_3": "Nuair a dhéanann tú féinchoimirce ar do bitcoin, ní féidir le haon duine tú a stopadh ó rochtain a fháil ar d'airgead.",
-	"point_8_summary_4": "Éilíonn ADBLanna ort muinín a bheith agat as coimhdeachtóirí, cosúil le banc nó rialtas, chun d'airgead a choinneáil duit.",
 	"point_9_summary_1": "Tá polasaí airgeadaíochta intuartha ag Bitcoin atá socraithe i gcód agus ní féidir é a athrú. Tá polasaí airgeadaíochta ag ADBLanna, cosúil lenár n-airgeadraí inniu, is féidir a athrú go héasca.",
 	"point_9_summary_2": "Is é an toradh air seo boilsciú nuair a phriontálann polaiteoirí an iomarca airgid.",
 	"point_10_summary_1": "Is é Bitcoin an líonra ríomhaireachta is sláine a bhí ann riamh agus ní raibh sé haiceáilte riamh. Braitheann ADBLanna ar rialtais agus bainc chun an líonra a dhaingniú, agus tá siad haiceáilte arís agus arís eile ar fud na staire."

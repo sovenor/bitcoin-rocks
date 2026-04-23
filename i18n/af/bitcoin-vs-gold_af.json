@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Goud",
-	"gold_header": "DIE VERSKIL TUSSEN",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "EN",
-	"gold_header_4": "GOUD",
 	"gold_intro_1": "Goud word al duisende jare as geld gebruik en word deur baie beskou as 'n finansiële veilige hawe.",
 	"gold_intro_2": "Bitcoin is digitale geld wat in 2009 geskep is en word ook deur baie as 'n finansiële veilige hawe beskou.",
 	"gold_intro_3": "Maar hoe verskil 'n fisiese metaal soos goud van digitale geld soos Bitcoin? Kom ons kyk na die verskille tussen twee vorme van geld: Bitcoin en Goud.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoin het 'n harde plafon van 21 miljoen BTC wat ooit sal bestaan.",
 	"point_3_summary_2": "Nuwe goudvoorraad word elke jaar uit die grond gehaal, wat inflasie van die totale voorraad veroorsaak. Daar word beraam dat die totale voorraad van goud met ongeveer 1,6% per jaar toeneem, wat beteken jou deel van die koek krimp met 1,6% per jaar.",
 	"point_3_summary_3": "Dit is minder as fiat-inflasie, maar steeds inflasie.",
-	"point_3_summary_4": "Met Bitcoin krimp jou deel van die koek nooit nie.",
 	"point_4_summary_1": "Goud het 'n elastiese voorraad, wat beteken dat soos die prys van goud styg, daar 'n groter aansporing is om meer goud te myn. Dit plaas dikwels afwaartse druk op die goudprys soos nuwe myne begin werk.",
 	"point_4_summary_2": "Met Bitcoin, maak nie saak hoe hoog die prys gaan nie, jy kan nie meer as 21M Bitcoin maak nie.",
 	"point_4_summary_3": "Bitcoin is die eerste bate met 'n onelastiese verhouding tussen prys en voorraad.",
 	"point_5_summary_1": "Die Bitcoin-netwerk is gedesentraliseer.",
 	"point_5_summary_2": "Tienduisende onafhanklike nodusse valideer die reëls van die netwerk.",
-	"point_5_summary_3": "Gebruikers kan selfbewaring van hul Bitcoin neem deur 'n toepassing af te laai.",
-	"point_5_summary_4": "Alhoewel dit moontlik is om fisiese goud self te bewaar, word die meeste fisiese goud in groot kluise gestoor wat aan bewaarders behoort, wat dit fisies gesentraliseer maak.",
 	"point_6_summary_1": "Met Bitcoin is dit ongelooflik maklik om te verifieer dat jy regte Bitcoin het deur selfbewaring van jou munte te neem en 'n volle nodus te bedryf.",
 	"point_6_summary_2": "Selfbewaring is so eenvoudig soos om 'n toepassing af te laai.",
 	"point_6_summary_3": "'n Volle nodus is 'n eenvoudige stuk sagteware wat verseker dat die reëls van die netwerk gevolg word, en verifieer dat jy regte Bitcoin het.",
-	"point_6_summary_4": "Fisiese goud kan baie moeilik wees om as eg te verifieer. Selfs as jy die buitenste gedeelte van fisiese goud verifieer as eg, kan die binnekant van jou fisiese goudstuk Tungsten of 'n ander metaal wees wat nie goud is nie. Die enigste manier om werklik te verifieer dat jy die fisiese goud besit wat jy dink jy doen, is om dit te smelt.",
 	"point_7_summary_1": "Net soos daar 100 sent in 1 dollar is, is daar 100 000 000 sats in 1 Bitcoin. Dit stel Bitcoin in staat om vir alle skale van aankope gebruik te word, insluitend mikrotransaksies so klein as 'n paar sent.",
-	"point_7_summary_2": "Dit maak Bitcoin goed vir besigheid.",
-	"point_7_summary_3": "Omdat fisiese goud moeilik is om te verdeel, kan dit nie maklik vir aankope gebruik word nie, veral klein aankope."
+	"point_7_summary_2": "Dit maak Bitcoin goed vir besigheid."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "es"
 	},
 	"how_to_accept_bitcoin_payments": "Cómo aceptar pagos Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Carteras híbridas:",
 	"wallets_intro_5": "Estas te permiten cambiar cualquier porción de tu Bitcoin por dólares tan pronto como un cliente te paga. Las comisiones siguen siendo menores que los pagos con tarjeta de crédito, pero más altas que los pagos puramente en Bitcoin.",
 	"wallets_intro_6": "Ambas son excelentes formas de aceptar Bitcoin. La cartera específica que uses dependerá del tamaño y tipo de tu negocio.",
-	"wallets_choice_sole": "carteras para negocios de propietario único",
-	"wallets_choice_multiple": "carteras para negocios con múltiples empleados",
-	"wallets_choice_online": "carteras para negocios en línea",
-	"wallets_choice_invoice": "carteras para negocios basados en facturación",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

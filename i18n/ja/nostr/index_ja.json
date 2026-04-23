@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
-	},
-	"escape_the_matrix_with_nostr": "Nostrでマトリックスから脱出しよう",
-	"nostr_header": "NOSTRでマトリックスから脱出しよう"
+	}
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
-	"crypto_header": "DIFERENȚA DINTRE",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "ȘI",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Spațiul criptomonedelor a explodat cu mii de token-uri și proiecte digitale diferite.",
 	"crypto_intro_2": "Deși Bitcoin a fost prima și rămâne cea mai cunoscută criptomonedă, este fundamental diferit de restul industriei crypto.",
 	"crypto_intro_3": "Să explorăm diferențele cheie dintre Bitcoin și ecosistemul mai larg al criptomonedelor.",

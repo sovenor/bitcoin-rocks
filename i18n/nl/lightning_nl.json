@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning Wallet Gids",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Deze wallets zijn gelijkaardig aan het bankensysteem, waarbij een derde partij moet vertrouwen om toegang te krijgen tot jouw eigen geld. Als jouw Bitcoin op een exchange staat, maak je gebruik van een custodial wallet.",
 	"lightning_s3_c3": "Custodial wallets lijken zeer handig, maar de beheerder heeft technisch gezien altijd de mogelijkheid om je fondsen te stelen.",
 	"lightning_s3_c4": "Sommige mensen verkiezen custodial Lightning wallets om kleine bedragen in Bitcoin te bewaren vanwege hun 'ease of use'. Onhoud vooral: Not your keys, not your coins!",
-	"lightning_question_2": "KIES JOUW WALLET",
-	"lightning_s4_c1": "Nu we dit alles weten, kun je een Lightning wallet kiezen die voor jou de juiste wisselwerking heeft.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Veel verschillende functies",
 	"lightning_mobile_app": "Mobiele app",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Goed voor handelaars",
-	"lightning_starter": "Goede voor beginners",
-	"lightning_browser": "Browser based",
 	"lightning_custodial": "Volledige custodial wallet",
 	"lightning_cta_hardware": "Op zoek naar onze Bitcoin Hardware Wallet Gids?"
 }

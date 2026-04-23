@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_banks": "Bitcoin prieš bankus",
-	"banks_header": "SKIRTUMAS TARP",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "IR",
-	"banks_header_4": "BANKŲ",
 	"banks_intro_1": "Bankai šimtmečius kontroliavo pinigus, veikdami kaip tarpininkai finansinėse operacijose ir pinigų sistemos sargai.",
 	"banks_intro_2": "Bitcoin yra tarpusavio skaitmeninių pinigų sistema, veikianti be bankų ar centrinių valdžios institucijų.",
 	"banks_intro_3": "Bet kuo Bitcoin tinklas skiriasi nuo tradicinės bankų sistemos? Išnagrinėkime pagrindinius skirtumus tarp šių dviejų iš esmės skirtingų požiūrių į pinigus.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs krypto",
-	"crypto_header": "FORSKJELLEN MELLOM",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "OG",
-	"crypto_header_4": "KRYPTO",
 	"crypto_intro_1": "Kryptovalutamarkedet har eksplodert med tusenvis av forskjellige digitale tokens og prosjekter.",
 	"crypto_intro_2": "Mens Bitcoin var den første og fortsatt er den mest kjente kryptovalutaen, er den fundamentalt forskjellig fra resten av kryptoindustrien.",
 	"crypto_intro_3": "La oss utforske de viktigste forskjellene mellom Bitcoin og det bredere kryptovalutaøkosystemet.",

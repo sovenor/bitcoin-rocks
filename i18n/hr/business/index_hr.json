@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dobar za poslovanje",
-	"biz_header": "BITCOIN JE DOBAR ZA POSLOVANJE",
 	"biz_s1": "Niske naknade bez minimuma",
 	"biz_s1_c1": "Bitcoin vam omogućuje primanje plaćanja izravno od vaših kupaca, slično gotovini. Bitcoin mreža funkcionira bez posrednika poput banaka i tvrtki za kreditne kartice koji naplaćuju visoke naknade.",
 	"biz_s2": "Trenutačno poravnanje",

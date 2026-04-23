@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "cs"
 	},
 	"bitcoin_lightning_wallet_guide": "Průvodce Bitcoin Lightning peněženkami",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Tyto peněženky jsou podobnější bankovnímu systému, kde musíte důvěřovat třetí straně, že vám dá přístup k vašim penězům. Pokud je váš Bitcoin na burze, používáte kustodní peněženku.",
 	"lightning_s3_c3": "Kustodní peněženky mohou působit pohodlně, ale správce má technickou schopnost kdykoli ukrást všechny prostředky uživatelů.",
 	"lightning_s3_c4": "Někteří lidé preferují kustodní Lightning peněženky pro malé částky bitcoinu kvůli jejich snadnému použití. Jen nezapomeňte: ne vaše klíče, ne vaše mince!",
-	"lightning_question_2": "VYBERTE SI PENĚŽENKU",
-	"lightning_s4_c1": "Se vším tímto na paměti si nyní můžete vybrat lightning peněženku se správnou rovnováhou kompromisů pro vás.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Mnoho funkcí",
 	"lightning_mobile_app": "Mobilní aplikace",
 	"lightning_free": "100% zdarma",
 	"lightning_merchants": "Skvělá pro obchodníky",
-	"lightning_starter": "Skvělá úvodní peněženka",
-	"lightning_browser": "V prohlížeči",
 	"lightning_custodial": "Plně kustodní peněženka",
 	"lightning_cta_hardware": "Hledáte našeho průvodce hardwarovými bitcoinovými peněženkami?"
 }

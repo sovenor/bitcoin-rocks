@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "my"
-	},
-	"bulgarian_bitcoin_sticker_files": "ဘူလ်ဂေးရီးယား Bitcoin စတစ်ကာဖိုင်များ",
-	"bulgarian_description": "ဘူလ်ဂေးရီးယား Bitcoin စတစ်ကာဖိုင်များကို ဤနေရာတွင် ဒေါင်းလုဒ်လုပ်ပါ။",
-	"bulgarian_header": "ဘူလ်ဂေးရီးယား BITCOIN စတစ်ကာဖိုင်များ ဒေါင်းလုဒ်လုပ်ပါ"
+	}
 }

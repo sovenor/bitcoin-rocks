@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC",
-	"cbdc_header": "HUR SKA",
-	"cbdc_header_2": "DIGITALA PENGAR",
-	"cbdc_header_3": "SE UT?",
 	"cbdc_intro_1": "Vår värld blir alltmer digital, och det gäller även våra pengar.",
 	"cbdc_intro_2": "Det väcker frågan: hur vill vi att våra digitala pengar ska se ut?",
 	"cbdc_intro_3": "Många länder undersöker möjligheten att ge ut en digital centralbanksvaluta (CBDC), som är en helt digital form av vår befintliga statliga valuta.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin är utformat för att ge dig full kontroll över dina pengar.",
 	"point_1_summary_2": "Ingen kan hindra dig från att göra transaktioner med Bitcoin.",
 	"point_1_summary_3": "CBDC är utformade för att ge stater och centralbanker full kontroll över dina pengar.",
-	"point_1_summary_4": "CBDC begränsar din integritet och frihet.",
 	"point_2_summary_1": "Bitcoin löper aldrig ut och har inga månatliga avgifter.",
 	"point_2_summary_2": "CBDC kan programmeras att löpa ut.",
 	"point_2_summary_3": "När CBDC löper ut hindras du från att spara för framtiden.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin-adresser är pseudonyma, vilket innebär att de inte är kopplade till ditt riktiga namn eller identitet. CBDC är direkt kopplade till ditt riktiga namn och identitet, vilket möjliggör massiv finansiell övervakning och censur.",
 	"point_5_summary_1": "Bitcoin-nätverket är decentraliserat.",
 	"point_5_summary_2": "Tiotusentals oberoende noder verifierar nätverkets regler.",
-	"point_5_summary_3": "CBDC är centraliserade i händerna på staten och centralbanker som har fullständig kontroll över CBDC-nätverket.",
 	"point_6_summary_1": "Bitcoin låter vem som helst köra en nod som verifierar att nätverkets regler följs. CBDC låter ingen köra noder och förlitar sig på tillit till staten och centralbankerna.",
 	"point_7_summary_1": "Bitcoin är utformat för att göra det omöjligt för andra att frysa dina pengar. CBDC är utformade för att göra det enkelt för stater och centralbanker att frysa dina pengar.",
 	"point_8_summary_1": "Bitcoin är utformat för att ge dig full kontroll över dina pengar.",
 	"point_8_summary_2": "Se bara till att ta ut det till en plånbok med eget förvar.",
 	"point_8_summary_3": "När du har bitcoin i eget förvar kan ingen hindra dig från att komma åt dina pengar.",
-	"point_8_summary_4": "CBDC kräver att du litar på förvaringsinstitut som en bank eller stat att hålla dina pengar åt dig.",
 	"point_9_summary_1": "Bitcoin har en förutsägbar penningpolitik som är fast i koden och inte kan ändras. CBDC har, liksom våra valutor idag, en penningpolitik som enkelt kan ändras.",
 	"point_9_summary_2": "Det resulterar i inflation när politiker trycker för mycket pengar.",
 	"point_10_summary_1": "Bitcoin är det säkraste datornätverket som någonsin funnits och har aldrig hackats. CBDC förlitar sig på stater och banker för att säkra nätverket, och dessa har hackats otaliga gånger genom historien."

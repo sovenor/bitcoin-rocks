@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks से मुफ़्त Bitcoin स्टिकर",
 	"stickers_description": "सार्वजनिक स्थान पर Bitcoin स्टिकर लगाकर आसपास के लोगों को Bitcoin के बारे में जानने में मदद करें।",
-	"stickers_header": "मुफ़्त Bitcoin स्टिकर",
-	"stickers_choose_header": "अपना स्टिकर पैक चुनें",
-	"stickers_choose_c1": "हमारा मिशन सार्वजनिक स्थानों पर Bitcoin स्टिकर लगाकर अधिक लोगों को जागरूक करने में आपकी मदद करना है। हमारे सभी स्टिकर पर QR कोड हैं जो",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "मुद्रास्फीति",
-	"stickers_choose_c4": "के शैक्षिक पेजों से जुड़ते हैं। नीचे एक स्टिकर पैक चुनें",
 	"stickers_text_pack": "टेक्स्ट पैक",
 	"stickers_signs_pack": "साइन पैक",
 	"stickers_instructions_1": "अपना डाक पता दर्ज करें और हम मुफ़्त Bitcoin स्टिकर पैक भेजेंगे! स्टिकर साधारण सफ़ेद लिफ़ाफ़े में आएंगे।",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "साथ ही, अपने खुद के",
 	"stickers_flyers_link_text": "Bitcoin फ्लायर",
 	"stickers_flyers_link_after": "प्रिंट और पोस्ट करें।",
-	"stickers_country_global_print": "वैश्विक — मैं खुद स्टिकर प्रिंट करूंगा",
-	"stickers_country_global_order": "वैश्विक — थोक में ऑर्डर करें",
 	"placeholder_name_optional": "नाम (वैकल्पिक)",
 	"placeholder_address_line_1": "पता लाइन 1",
 	"placeholder_address_line_2": "पता लाइन 2 (वैकल्पिक)",

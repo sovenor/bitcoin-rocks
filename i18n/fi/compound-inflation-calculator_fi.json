@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"cic_header": "KORKOA KOROLLE -INFLAATIOLASKURI",
 	"cic_description": "Käytä tätä korkoa korolle -inflaatiolaskuria selvittääksesi, kuinka paljon palkkasi täytyy nousta pysyäkseen inflaation tahdissa.",
-	"what_can_i_do_about": "Mitä voin tehdä",
-	"what_can_i_do_about_2": "inflaatiolle?",
 	"cic_inflation_cta": "Kieltäydy inflaatiosta Bitcoinilla"
 }

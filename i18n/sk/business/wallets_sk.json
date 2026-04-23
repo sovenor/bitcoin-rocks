@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"how_to_accept_bitcoin_payments": "Ako prijímať bitcoinové platby",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hybridné peňaženky:",
 	"wallets_intro_5": "Tie vám umožňujú zmeniť ľubovoľnú časť Bitcoinu za doláre, akonáhle vám zákazník zaplatí. Poplatky sú stále nižšie ako u kreditných kariet, ale vyššie ako u čistých bitcoinových platieb.",
 	"wallets_intro_6": "Oba typy sú skvelé spôsoby prijímania Bitcoinu. Konkrétna peňaženka bude závisieť od veľkosti a typu vášho podnikania.",
-	"wallets_choice_sole": "peňaženky pre individuálne vlastnené firmy",
-	"wallets_choice_multiple": "peňaženky pre firmy s viacerými zamestnancami",
-	"wallets_choice_online": "peňaženky pre online firmy",
-	"wallets_choice_invoice": "peňaženky pre firmy s fakturáciou",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

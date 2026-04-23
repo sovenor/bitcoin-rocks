@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"how_to_accept_bitcoin_payments": "Hoe om Bitcoin-betalings te aanvaar",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibriede beursies:",
 	"wallets_intro_5": "Hierdie stel jou in staat om enige gedeelte van jou Bitcoin vir dollars om te ruil sodra 'n klant jou betaal. Fooie is steeds minder as kredietkaartbetalings, maar hoër as suiwer Bitcoin-betalings.",
 	"wallets_intro_6": "Albei is uitstekende maniere om Bitcoin te aanvaar. Die spesifieke beursie wat jy gebruik sal afhang van die grootte en tipe van jou besigheid.",
-	"wallets_choice_sole": "beursies vir individueel-besitte besighede",
-	"wallets_choice_multiple": "beursies vir besighede met verskeie werknemers",
-	"wallets_choice_online": "beursies vir aanlyn besighede",
-	"wallets_choice_invoice": "beursies vir faktuurgebaseerde besighede",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

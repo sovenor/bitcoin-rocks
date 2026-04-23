@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
 	},
 	"bitcoin_lightning_wallet_guide": "ビットコインライトニングウォレットガイド",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "これらのウォレットは銀行システムに近く、第三者がお金へのアクセスを提供してくれることを信頼する必要があります。ビットコインが取引所にある場合、カストディアルウォレットを使用しています。",
 	"lightning_s3_c3": "カストディアルウォレットは便利に見えるかもしれませんが、カストディアンはいつでもすべてのユーザー資金を盗む技術的な能力を持っています。",
 	"lightning_s3_c4": "使いやすさのために、少額のビットコインにカストディアルライトニングウォレットを好む人もいます。ただし覚えておいてください：鍵がなければコインもなし！",
-	"lightning_question_2": "ウォレットを選ぶ",
-	"lightning_s4_c1": "これらすべてを念頭に置いて、自分にとって適切なトレードオフのバランスを持つライトニングウォレットを選びましょう。",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "豊富な機能",
 	"lightning_mobile_app": "モバイルアプリ",
 	"lightning_free": "100%無料",
 	"lightning_merchants": "加盟店に最適",
-	"lightning_starter": "おすすめの初心者ウォレット",
-	"lightning_browser": "ブラウザベース",
 	"lightning_custodial": "完全カストディアルウォレット",
 	"lightning_cta_hardware": "ビットコインハードウェアウォレットガイドをお探しですか？"
 }

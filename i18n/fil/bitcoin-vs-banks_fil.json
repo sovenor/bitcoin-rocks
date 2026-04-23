@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "fil"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banks",
-	"banks_header": "ANG PAGKAKAIBA NG",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "AT",
-	"banks_header_4": "MGA BANGKO",
 	"banks_intro_1": "Kinontrol ng mga bangko ang pera sa loob ng mga siglo, na nagsisilbing tagapamagitan para sa mga transaksyong pinansyal at gatekeeper ng monetary system.",
 	"banks_intro_2": "Ang Bitcoin ay isang peer-to-peer na digital money system na gumagana nang walang bangko o sentral na awtoridad.",
 	"banks_intro_3": "Ngunit paano naiiba ang Bitcoin network sa tradisyunal na sistema ng pagbabangko? I-explore natin ang mga pangunahing pagkakaiba sa pagitan ng dalawang pundamental na magkaibang pamamaraan sa pera.",

@@ -3,17 +3,11 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-23",
 		"locale": "id"
 	},
 	"free_bitcoin_stickers": "Stiker Bitcoin gratis dari bitcoin.rocks",
 	"stickers_description": "Tempel stiker Bitcoin di tempat umum untuk memperkenalkan Bitcoin kepada orang-orang di sekitar Anda.",
-	"stickers_header": "STIKER BITCOIN GRATIS",
-	"stickers_choose_header": "PILIH PAKET STIKER ANDA",
-	"stickers_choose_c1": "Misi kami adalah membantu Anda memperkenalkan Bitcoin kepada lebih banyak orang dengan menempelkan stiker Bitcoin di tempat umum. Semua stiker kami memiliki kode QR yang mengarah ke halaman edukasi tentang",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflasi",
-	"stickers_choose_c4": "Pilih paket stiker Anda di bawah ini",
 	"stickers_text_pack": "PAKET TEKS",
 	"stickers_signs_pack": "PAKET TANDA",
 	"stickers_instructions_1": "Masukkan alamat pengiriman Anda, dan kami akan mengirimkan Paket Stiker Bitcoin gratis melalui pos! Stiker Anda akan dikirim dalam amplop putih polos.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Sambil melakukannya, cetak dan pasang ",
 	"stickers_flyers_link_text": "selebaran Bitcoin",
 	"stickers_flyers_link_after": " Anda sendiri untuk membantu memperkenalkan Bitcoin kepada lebih banyak orang.",
-	"stickers_country_global_print": "Global — Cetak stiker saya sendiri",
-	"stickers_country_global_order": "Global — Pesan dalam jumlah besar",
 	"placeholder_name_optional": "Nama (opsional)",
 	"placeholder_address_line_1": "Alamat Baris 1",
 	"placeholder_address_line_2": "Alamat Baris 2 (opsional)",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Akzioak",
-	"stocks_header": "ARTEKO ALDEA",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "ETA",
-	"stocks_header_4": "AKZIOAK",
 	"stocks_intro_1": "Akzioak hamarkadetan zehar inbertsio ezagun bat izan dira eta enpresen jabetza-partaidetzak adierazten dituzte.",
 	"stocks_intro_2": "Bitcoin 2009an sortutako diru digitala da, edozein enpresa edo gobernutik independenteki funtzionatzen duena.",
 	"stocks_intro_3": "Baina nola desberdintzen da enpresa bateko partaidetzak izatea Bitcoin bezalako diru digitala izatetik? Ikus ditzagun bi inbertsio-forma hauen arteko desberdintasunak: Bitcoin eta Akzioak.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin-ek 21 milioi BTC-ko muga zurrun bat du inoiz existituko den guztietan.",
 	"point_2_summary_2": "Enpresek edozein unetan akzio berriak jaulki ditzakete, lehendik dauden akziodunen jabetza-portzentajea diluituz. Horrek esan nahi du enpresaren zure zatia txikitu egiten dela akzio berriak sortzen direnean.",
 	"point_2_summary_3": "Hau fiat inflazioa baino txikiagoa da, baina oraindik ere diluzioa da.",
-	"point_2_summary_4": "Bitcoin-ekin, zure tarta-zatia inoiz ez da txikitzen.",
 	"point_3_summary_1": "Bitcoin hutsegite puntu bakarrik gabeko sare deszentralizatu batean funtzionatzen du. Akzio-inbertsioak pertsona garrantzitsuen arriskuari lotuta daude - zuzendari nagusia edo beste lider garrantzitsua alde egiten badu, gaixotzen bada edo erabaki txarrak hartzen baditu, zure inbertsioak nabarmen kaltetu dezake. Enpresak oso menpekoak dira haien zuzendaritza-taldeekiko.",
 	"point_4_summary_1": "Bitcoin-en prezioa soilik merkatuko eskaintza eta eskariaren arabera zehazten da. Akzio-prezioak sarritan P/E ratioen bidez (Prezioa-Irabaziak) ebaluatzen dira, eta horrek erakusten du inbertitzaileek zenbat ordaintzen duten enpresaren irabazi bakoitzarengatik. P/E ratio altuek akzio gehiegi baloratuak adieraz ditzakete, balio justua zehaztea zailagoa eginez.",
 	"point_5_summary_1": "Bitcoin eguneko 24 orduz, asteko 7 egunez negozia daiteke mundu osoko trukeetetan.",
 	"point_5_summary_2": "Bitcoin deszentralizatua da",
-	"point_5_summary_3": "eta inoiz ez da lo egiten.",
-	"point_5_summary_4": "Burtsa-merkatuak lanegunetan negozio-orduetan soilik irekita daude, zure inbertsioak noiz erosi edo saldu ditzakezun mugatuz.",
 	"point_6_summary_1": "Bitcoin-ekin, zure txanponen auto-zaintza har dezakezu, eta horrek esan nahi du benetan zureak direla hirugarren batean konfiantza jarri gabe.",
 	"point_6_summary_2": "Auto-zaintza aplikazio bat deskargatzea bezain sinplea da.",
 	"point_6_summary_3": "Akzioek artekari-kontu bat behar dute eta alderantziko arriskuari lotuta zaude - enpresa porrot egiten badu edo artekariak huts egiten badu, zure inbertsioa gal dezakezu.",
-	"point_6_summary_4": "Ez duzu inoiz benean akzio-ziurtagiriak zuzenean jabe.",
 	"point_7_summary_1": "Bitcoin eskaintza finkoko aktibo bat da, 21 milioi Bitcoin existituko direla inoiz muga zurrun batekin. Honek inflazioaren aurkako babes bikaina bihurtzen du. Akzioek errendimendu aldakorra dute inflazioaren aurka - enpresa batzuek ondo egiten dute inflazio-aldietan eta beste batzuek borrokatu egiten dute. Ez dago bermerik akzio jakin batek inflazioaretik babestuko zaituenik."
 }

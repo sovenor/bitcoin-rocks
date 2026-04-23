@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Bons",
-	"bonds_header": "LA DIFERÈNCIA ENTRE",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "I",
-	"bonds_header_4": "ELS BONS",
 	"bonds_intro_1": "Els bons governamentals sovint s'anomenen inversions 'sense risc' i es consideren el lloc més segur per emmagatzemar riquesa per les finances tradicionals.",
 	"bonds_intro_2": "Bitcoin són diners digitals que funcionen de manera independent de qualsevol govern o autoritat central.",
 	"bonds_intro_3": "Però els bons són realment sense risc? I com es comparen amb Bitcoin com a reserva de valor? Examinem les diferències clau entre Bitcoin i els bons governamentals.",

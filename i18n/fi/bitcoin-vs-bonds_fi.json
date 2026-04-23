@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs joukkovelkakirjat",
-	"bonds_header": "ERO",
-	"bonds_header_2": "BITCOININ",
-	"bonds_header_3": "JA",
-	"bonds_header_4": "JOUKKOVELKAKIRJOJEN VÄLILLÄ",
 	"bonds_intro_1": "Valtion joukkovelkakirjoja kutsutaan usein 'riskittömiksi' sijoituksiksi.",
 	"bonds_intro_2": "Bitcoin on digitaalinen raha, joka toimii itsenäisesti hallituksista.",
 	"bonds_intro_3": "Mutta ovatko joukkovelkakirjat todella riskittömiä? Ja miten ne vertautuvat Bitcoiniin arvon säilyttäjänä?",

@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"free_bitcoin_flyers": "Takardun bugu na Bitcoin kyauta daga bitcoin.rocks",
 	"flyers_description": "Buga takardar bugu na Bitcoin a gida kuma ka sanya ta a wurin jama'a don sa waɗanda ke kewayenka su koyi Bitcoin.",
-	"flyers_header_1": "BUGA & LIƘA",
-	"flyers_header_2": "TAKARDUN BUGU NA BITCOIN",
 	"flyers_intro_header": "YADDA AKE BUGA & LIƘA WAƊANNAN TAKARDUN BUGU NA BITCOIN",
 	"flyers_intro_c1": "Manufarmu ita ce taimaka maka ka sa ƙarin mutane su koyi Bitcoin ta hanyar sanya takardun bugu na Bitcoin a wuraren jama'a. Wannan takardar bugu tana da lambar QR da ke haɗa zuwa",
 	"flyers_intro_c2": "shafin ilimin Bitcoin.",
-	"flyers_intro_c3": "hauhawar farashi",
 	"flyers_intro_c4": "Buga wannan takardar bugu a gida ko a wurin bugawa. Sannan, ka liƙa ta a allon sanarwa, sandunan tarho a gari, da sauran wuraren jama'a inda mutane za su iya ganin ta su koyi Bitcoin.",
 	"flyers_intro_c5": "Yayin da kake nan, nemi fakitin",
 	"flyers_intro_c6": "stickers na Bitcoin kyauta",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"how_to_accept_bitcoin_payments": "Nola onartu Bitcoin ordainketak",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Zorro hibridoak:",
 	"wallets_intro_5": "Hauek zure Bitcoin-aren edozein zati dolarrengatik trukatzeko aukera ematen dizute bezero batek ordaintzen dizun bezain laster. Komisoak oraindik txikiagoak dira kreditu-txartel ordainketak baino, baina Bitcoin ordainketa puruak baino handiagoak.",
 	"wallets_intro_6": "Biak dira Bitcoin onartzeko modu bikainak. Erabiltzen duzun zorro zehatza zure negozioaren tamainaren eta motaren araberakoa izango da.",
-	"wallets_choice_sole": "bakarka jabetutako negozioetarako zorroak",
-	"wallets_choice_multiple": "langile anitzetako negozioetarako zorroak",
-	"wallets_choice_online": "online negozioetarako zorroak",
-	"wallets_choice_invoice": "faktura bidezko negozioetarako zorroak",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

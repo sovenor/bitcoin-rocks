@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"bitcoin_accepted_here_sticker_files": "Bitcoin hyväksytään täällä -tarratiedostot",
-	"english_bah_files_description": "Lataa tarratiedostot täältä.",
-	"english_header": "LATAA ENGLANNINKIELISET BITCOIN HYVÄKSYTÄÄN TÄÄLLÄ -TARRAT"
+	}
 }

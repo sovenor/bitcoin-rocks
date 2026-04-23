@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_stocks": "Bitcoin va Aksiyalar",
-	"stocks_header": "FARQI",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "VA",
-	"stocks_header_4": "AKSIYALAR",
 	"stocks_intro_1": "Aksiyalar oʻnlab yillar davomida mashhur investitsiya boʻlib, kompaniyalardagi mulkchilik ulushlarini ifodalaydi.",
 	"stocks_intro_2": "Bitcoin 2009-yilda yaratilgan, har qanday kompaniya yoki hukumatdan mustaqil ishlaydigan raqamli pul.",
 	"stocks_intro_3": "Kompaniya aksiyalariga egalik qilish Bitcoin kabi raqamli pulga egalik qilishdan qanday farq qiladi? Ikki investitsiya shakli oʻrtasidagi farqlarga qaraylik: Bitcoin va Aksiyalar.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoinning hamma vaqt mavjud boʻladigan maksimal 21 million BTC qatʼiy chegarasi bor.",
 	"point_2_summary_2": "Kompaniyalar istalgan vaqt yangi aksiyalar chiqarishi va mavjud aksionerlarning foizli mulkchiligini suyultirishi mumkin. Bu yangi aksiyalar yaratilganda kompaniyadagi ulushingiz kamayishini anglatadi.",
 	"point_2_summary_3": "Bu fiat pul inflyatsiyasidan kam boʻlsa-da, baribir suyultirishdir.",
-	"point_2_summary_4": "Bitcoin bilan pirogdagi ulushingiz hech qachon kamaymaydi.",
 	"point_3_summary_1": "Bitcoin yagona muvaffaqiyatsizlik nuqtasi yoʻq markazsizlashtirilgan tarmoqda ishlaydi. Aksiya investitsiyalari kalit shaxs xavfiga boʻysinadi — bosh direktor yoki boshqa kalit rahbarlar ketsa, kasalansa yoki yomon qarorlar qilsa, investitsiyangiz sezilarli darajada zarar koʻrishi mumkin.",
 	"point_4_summary_1": "Bitcoinning narxi toʻliq bozor taklifi va talabi tomonidan belgilanadi. Aksiya narxlari odatda investorlar kompaniya daromadining har bir dollari uchun qancha toʻlayotganini koʻrsatadigan P/E (narx/daromad) nisbati bilan baholanadi.",
 	"point_5_summary_1": "Bitcoin global birzhalarda kuniga 24 soat, haftasiga 7 kun savdo qilinadi.",
 	"point_5_summary_2": "Bitcoin markazsizlashtirilgan",
-	"point_5_summary_3": "va hech qachon uxlamaydi.",
-	"point_5_summary_4": "Fond bozorlari faqat ish kunlari ish soatlarida ochiq, bu investitsiyalaringizni qachon oldi-sotdi qilishingizni cheklaydi.",
 	"point_6_summary_1": "Bitcoin bilan coinlaringizni oʻz nazoratiga olishingiz mumkin, yaʼni uchinchi tomonga bogʻliq boʻlmay ularga haqiqatan ega boʻlasiz.",
 	"point_6_summary_2": "Oʻz nazorati ilova yuklab olishdek oson.",
 	"point_6_summary_3": "Aksiyalar broker hisobi talab qiladi va kontragent xavflariga duch kelasiz — kompaniya bankrot boʻlsa yoki broker qulab tushsa investitsiyangizni yoʻqotishingiz mumkin.",
-	"point_6_summary_4": "Aksiya sertifikatlariga aslida bevosita egalik qilmaysiz.",
 	"point_7_summary_1": "Bitcoin hamma vaqt mavjud boʻladigan maksimal 21 million Bitcoin chegarasiga ega qatʼiy taklifli aktiv. Bu uni mukammal inflyatsiya himoyasi qiladi. Aksiyalarning inflyatsiyaga nisbatan oʻzgaruvchan samaradorligi bor — baʼzi kompaniyalar inflyatsiya davrlarida muvaffaqiyatga erishadi, boshqalari qiyinchilik chekadi."
 }

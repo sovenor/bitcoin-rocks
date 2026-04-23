@@ -3,34 +3,21 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_business_accounting_guide": "İşletmeler için Bitcoin muhasebe rehberi",
 	"accounting_description": "İşletme muhasebenizde Bitcoin ödemelerini doğru şekilde nasıl kaydedeceğinizi öğrenin.",
-	"accounting_header": "BİTCOİN MUHASEBE REHBERİ",
 	"accounting_s1_c1": "Bitcoin kabul etmenin daha düşük ücretlerle ödeme alma ve daha fazla müşteri kazanma gibi birçok avantajı vardır.",
 	"accounting_s1_c2": "Cüzdan rehberimizdeki hibrit cüzdanı kullanıyor ve aldığınız Bitcoin'in %100'ünü otomatik olarak dolara satıyorsanız, mevcut muhasebenizde hiçbir şeyi değiştirmenize gerek yoktur.",
-	"accounting_s1_c3": "Cüzdan rehberine göz atın.",
-	"accounting_s1_c4": "Ancak, aldığınız Bitcoin ödemelerinin bir kısmını Bitcoin olarak tutuyorsanız, muhasebeniz için bazı verileri takip etmeniz gerekecektir. İlk bakışta korkutucu görünebilir, ancak aslında oldukça basittir.",
-	"accounting_s1_c5": "Not: Bu rehber yalnızca bilgilendirme amaçlıdır ve vergi tavsiyesi niteliği taşımaz.",
-	"accounting_s1_c6": "Vergi tavsiyesine ihtiyacınız varsa, Bitcoin muhasebesi konusunda uzmanlaşmış bir muhasebe firması olan Satoshi Pacioli Accounting Services'i öneriyoruz.",
 	"accounting_s2": "MALİYET ESASINIZI TAKİP ETME",
 	"accounting_s2_c1": "Maliyet esası takibi, dolar muhasebesi ile Bitcoin muhasebesi arasındaki en büyük fark olacaktır. İşletmenize tamamen Bitcoin perspektifinden baksanız bile, vergi beyannamenizde her işlemin dolar değerini raporlamanız gerekir.",
 	"accounting_s2_c2": "QuickBooks kullanıyorsanız, bunu Bitcoin Sync eklentisiyle otomatik olarak yapabilirsiniz.",
 	"accounting_s2_c3": "QuickBooks kullanmıyorsanız, Bitcoin muhasebesi konusunda uzmanlaşmış Satoshi Pacioli Accounting Services'i öneriyoruz.",
-	"accounting_s2_c4": "Manuel takip için, aldığınız Bitcoin miktarını ve o günkü Bitcoin işleminin dolar değerini kaydedin.",
-	"accounting_s2_c5": "Güncel Bitcoin dolar fiyatını buradan görüntüleyebilirsiniz.",
-	"accounting_s2_c6": "Bu bilgileri bir Excel tablosunda takip edin ve muhasebecinize iletin.",
-	"accounting_s2_c7": "Bu verileri otomatik olarak da Excel'e aktarabilirsiniz.",
-	"accounting_s2_c8": "Geçmiş günlerdeki Bitcoin'in tarihsel dolar fiyatını da görüntüleyebilirsiniz, böylece bunu her gün yapmanız gerekmez.",
 	"accounting_s3": "BİTCOİN'İNİZİ HARCAMA VEYA SATMA",
 	"accounting_s3_c1": "Cüzdan rehberimizdeki hibrit cüzdanı kullanıyor ve aldığınız Bitcoin'in %100'ünü otomatik olarak dolara satıyorsanız, mevcut muhasebenizde hiçbir şeyi değiştirmenize gerek yoktur.",
 	"accounting_s3_c2": "Cüzdan rehberine göz atın.",
 	"accounting_s3_c3": "Aldığınız Bitcoin'in bir kısmını bir süre sonra harcamaya veya satmaya karar verirseniz, maliyet esasınızı takip ettiğiniz Excel tablosuna sattığınız fiyatı eklemeniz yeterlidir.",
-	"accounting_s3_c4": "Örneğin, 1 Ocak'ta 100 $ değerinde Bitcoin aldıysanız ve 1 Şubat'ta yeni değeri 110 $ iken satmaya veya harcamaya karar verdiyseniz, muhasebenizde 10 $'lık bir sermaye kazancı kaydetmeniz gerekir.",
-	"accounting_s3_c5": "Bu ters yönde de çalışabilir. Örneğin, 1 Ocak'ta 100 $ değerinde Bitcoin aldıysanız ve 1 Şubat'ta yeni değeri 90 $ iken satmaya veya harcamaya karar verdiyseniz, muhasebenizde 10 $'lık bir sermaye kaybı kaydetmeniz gerekir.",
 	"accounting_s4": "EK YARDIMA İHTİYACIM VAR",
-	"accounting_s4_c1": "Bitcoin'i işletme muhasebenize dahil etme konusunda ek yardıma ihtiyacınız varsa, Bitcoin muhasebesi konusunda uzmanlaşmış Satoshi Pacioli Accounting Services'i öneriyoruz.",
-	"accounting_s4_c2": "Satoshi Pacioli Accounting Services hakkında daha fazla bilgi edinin."
+	"accounting_s4_c1": "Bitcoin'i işletme muhasebenize dahil etme konusunda ek yardıma ihtiyacınız varsa, Bitcoin muhasebesi konusunda uzmanlaşmış Satoshi Pacioli Accounting Services'i öneriyoruz."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ar"
 	},
 	"bitcoin_lightning_wallet_guide": "دليل محافظ Lightning للبيتكوين",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "هذه المحافظ أشبه بالنظام المصرفي حيث يجب عليك الوثوق بطرف ثالث لمنحك الوصول إلى أموالك. إذا كان بيتكوينك في بورصة، فأنت تستخدم محفظة حفظية.",
 	"lightning_s3_c3": "قد تبدو المحافظ الحفظية مريحة، لكن أمين الحفظ لديه القدرة التقنية لسرقة جميع أموال المستخدمين في أي وقت.",
 	"lightning_s3_c4": "يفضل بعض الناس محافظ Lightning الحفظية للمبالغ الصغيرة من البيتكوين بسبب سهولة استخدامها. فقط تذكر: ليست مفاتيحك، ليست عملاتك!",
-	"lightning_question_2": "اختر محفظتك",
-	"lightning_s4_c1": "مع كل هذا في الاعتبار، يمكنك الآن اختيار محفظة Lightning التي لديها التوازن المناسب من المقايضات لك.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "الكثير من الميزات",
 	"lightning_mobile_app": "تطبيق هاتف",
 	"lightning_free": "مجاني 100%",
 	"lightning_merchants": "رائع للتجار",
-	"lightning_starter": "محفظة مبتدئين رائعة",
-	"lightning_browser": "يعمل في المتصفح",
 	"lightning_custodial": "محفظة حفظية بالكامل",
 	"lightning_cta_hardware": "تبحث عن دليل محافظ أجهزة البيتكوين؟"
 }

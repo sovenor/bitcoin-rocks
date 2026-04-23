@@ -3,16 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "da"
 	},
 	"sticker_success_1": "Du vil modtage dine klistermærker inden for 2 til 4 uger. I mellemtiden kan du tænke på et godt sted til dine klistermærker!",
-	"sticker_success_2": "Gode steder til klistermærker er:",
 	"sticker_success_list_1": "på offentlige steder, hvor folk vil se dem",
 	"sticker_success_list_2": "på steder, hvor de sandsynligvis ikke fjernes hurtigt (klistermærkerne forårsager ingen permanent skade)",
 	"sticker_success_list_3": "på overflader, de nemt klæber til (metal, plastik, glas)",
 	"sticker_success_list_4": "IKKE på privat ejendom, over skilte, pengeautomater eller tankstationer",
-	"sticker_success_3": "Vil du se, hvor andre placerer deres klistermærker?",
-	"sticker_success_flyers_bar_new": "NYT!",
-	"sticker_success_flyers_bar_cta": "Print og hæng Bitcoin-flyers op →"
+	"sticker_success_3": "Vil du se, hvor andre placerer deres klistermærker?"
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs क्रिप्टोकरेंसी",
-	"crypto_header": "दोनों में क्या अंतर है",
-	"crypto_header_2": "Bitcoin",
-	"crypto_header_3": "और",
-	"crypto_header_4": "क्रिप्टोकरेंसी",
 	"crypto_intro_1": "क्रिप्टोकरेंसी क्षेत्र में हज़ारों अलग-अलग डिजिटल टोकन और प्रोजेक्ट आ चुके हैं।",
 	"crypto_intro_2": "Bitcoin पहली और सबसे प्रसिद्ध क्रिप्टोकरेंसी है, लेकिन यह बाकी क्रिप्टो उद्योग से मौलिक रूप से अलग है।",
 	"crypto_intro_3": "आइए Bitcoin और व्यापक क्रिप्टोकरेंसी पारिस्थितिकी तंत्र के बीच मुख्य अंतर देखें।",

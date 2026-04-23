@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"bitcoin_vs_crypto": "I-Bitcoin vs I-Crypto",
-	"crypto_header": "UMEHLUKO PHAKATHI",
-	"crypto_header_2": "KWE-BITCOIN",
-	"crypto_header_3": "KANYE",
-	"crypto_header_4": "NE-CRYPTO",
 	"crypto_intro_1": "Indawo ye-cryptocurrency ikhule ngokushesha nezinkulungwane zamathokheni ahlukene namaphrojekthi.",
 	"crypto_intro_2": "Nakuba i-Bitcoin yayingeyokuqala futhi isahlala iyaziwa kakhulu, ihlukile kakhulu kuno enye imboni ye-crypto.",
 	"crypto_intro_3": "Ake sihlole umehluko oyinhloko phakathi kwe-Bitcoin nezinhlelo ze-cryptocurrency ezibanzi.",

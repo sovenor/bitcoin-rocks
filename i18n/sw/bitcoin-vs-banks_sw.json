@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_banks": "Bitcoin dhidi ya Benki",
-	"banks_header": "TOFAUTI KATI YA",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "NA",
-	"banks_header_4": "BENKI",
 	"banks_intro_1": "Benki zimedhibiti pesa kwa karne nyingi, zikifanya kazi kama wasuluhishi wa miamala ya fedha na walinzi wa mfumo wa fedha.",
 	"banks_intro_2": "Bitcoin ni mfumo wa pesa za kidijitali wa rika kwa rika unaofanya kazi bila benki au mamlaka kuu.",
 	"banks_intro_3": "Lakini mtandao wa Bitcoin unatofautianaje na mfumo wa kawaida wa benki? Hebu tuchunguze tofauti kuu kati ya mbinu hizi mbili tofauti za pesa.",

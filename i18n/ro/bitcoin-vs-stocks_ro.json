@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Acțiuni",
-	"stocks_header": "DIFERENȚA DINTRE",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "ȘI",
-	"stocks_header_4": "ACȚIUNI",
 	"stocks_intro_1": "Acțiunile au fost o investiție populară de decenii și reprezintă participații în companii.",
 	"stocks_intro_2": "Bitcoin sunt bani digitali creați în 2009 care funcționează independent de orice companie sau guvern.",
 	"stocks_intro_3": "Dar cum diferă deținerea de acțiuni într-o companie de deținerea de bani digitali precum Bitcoin? Să analizăm diferențele dintre două forme de investiție: Bitcoin și Acțiuni.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin are o limită maximă de 21 de milioane de BTC care vor exista vreodată.",
 	"point_2_summary_2": "Companiile pot emite acțiuni noi oricând, diluând procentul de proprietate al acționarilor existenți. Aceasta înseamnă că partea ta din companie se micșorează când sunt create acțiuni noi.",
 	"point_2_summary_3": "Aceasta este mai puțin decât inflația fiat, dar tot diluare.",
-	"point_2_summary_4": "Cu Bitcoin, partea ta din plăcintă nu se micșorează niciodată.",
 	"point_3_summary_1": "Bitcoin funcționează pe o rețea descentralizată fără un singur punct de eșec. Investițiile în acțiuni sunt supuse riscului de persoană-cheie — dacă CEO-ul sau alți lideri critici pleacă, se îmbolnăvesc sau iau decizii proaste, investiția ta poate suferi semnificativ. Companiile depind foarte mult de echipele lor de conducere.",
 	"point_4_summary_1": "Prețul Bitcoin este determinat exclusiv de cererea și oferta pieței. Prețurile acțiunilor sunt adesea evaluate folosind rapoarte P/E (Preț-la-Câștiguri), care arată cât plătesc investitorii pentru fiecare dolar de câștiguri ale companiei. Rapoartele P/E ridicate pot indica acțiuni supraevaluate, făcând mai dificilă determinarea valorii corecte.",
 	"point_5_summary_1": "Bitcoin se tranzacționează 24 de ore pe zi, 7 zile pe săptămână pe burse globale.",
 	"point_5_summary_2": "Bitcoin este descentralizat",
-	"point_5_summary_3": "și nu doarme niciodată.",
-	"point_5_summary_4": "Piețele bursiere sunt deschise doar în timpul orelor de lucru în zilele lucrătoare, limitând când poți cumpăra sau vinde investițiile tale.",
 	"point_6_summary_1": "Cu Bitcoin, poți prelua auto-custodia monedelor tale, ceea ce înseamnă că le deții cu adevărat fără a depinde de nicio terță parte.",
 	"point_6_summary_2": "Auto-custodia este la fel de simplă ca descărcarea unei aplicații.",
 	"point_6_summary_3": "Acțiunile necesită un cont de brokeraj și ești supus riscului de contrapartidă — dacă compania intră în faliment sau brokerul eșuează, ai putea pierde investiția.",
-	"point_6_summary_4": "Nu deții niciodată cu adevărat certificatele de acțiuni direct.",
 	"point_7_summary_1": "Bitcoin este un activ cu ofertă fixă, cu o limită maximă de 21 de milioane de Bitcoin care vor exista vreodată. Aceasta îl face o protecție excelentă contra inflației. Acțiunile au performanțe variabile contra inflației — unele companii se descurcă bine în perioadele inflaționiste, în timp ce altele se luptă. Nu există nicio garanție că o anumită acțiune te va proteja contra inflației."
 }

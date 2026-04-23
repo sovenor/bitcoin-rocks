@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_vs_visa": "比特币 vs Visa",
-	"visa_header": "两者之间的区别",
-	"visa_header_2": "比特币",
-	"visa_header_3": "和",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "信用卡和比特币都是支付系统，但运作方式截然不同。",
 	"visa_intro_2": "像Visa这样的信用卡是由金融机构控制的封闭网络，而比特币是任何人都可以使用的开放网络。",
 	"visa_intro_3": "让我们看看这两种支付基础设施之间的差异：比特币和Visa。",

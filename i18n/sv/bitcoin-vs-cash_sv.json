@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Kontanter",
-	"cash_header": "SKILLNADEN MELLAN",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "OCH",
-	"cash_header_4": "KONTANTER",
 	"cash_intro_1": "Kontanter har använts som pengar i århundraden och förblir den vanligaste formen av fysiska pengar i hela världen.",
 	"cash_intro_2": "Bitcoin är digitala pengar skapade 2009 som fungerar oberoende av någon regering eller central myndighet.",
 	"cash_intro_3": "Men hur skiljer sig fysiska kontanter från digitala pengar som Bitcoin? Låt oss titta på de viktigaste skillnaderna mellan dessa två former av pengar: Bitcoin och Kontanter.",

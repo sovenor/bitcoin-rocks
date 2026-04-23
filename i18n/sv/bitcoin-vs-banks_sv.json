@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banker",
-	"banks_header": "SKILLNADEN MELLAN",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "OCH",
-	"banks_header_4": "BANKER",
 	"banks_intro_1": "Banker har kontrollerat pengar i århundraden och fungerat som mellanhänder för finansiella transaktioner och väktare av det monetära systemet.",
 	"banks_intro_2": "Bitcoin är ett peer-to-peer-system för digitala pengar som fungerar utan banker eller centrala myndigheter.",
 	"banks_intro_3": "Men hur skiljer sig Bitcoin-nätverket från det traditionella banksystemet? Låt oss utforska de viktigaste skillnaderna mellan dessa två fundamentalt olika tillvägagångssätt för pengar.",

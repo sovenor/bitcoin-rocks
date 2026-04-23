@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"how_to_accept_bitcoin_payments": "비트코인 결제 수납 방법",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "하이브리드 지갑:",
 	"wallets_intro_5": "고객으로부터 결제를 받는 동시에 비트코인의 원하는 비율을 달러로 환전할 수 있습니다. 수수료는 신용카드보다 낮지만 순수 비트코인 결제보다는 높습니다.",
 	"wallets_intro_6": "둘 다 비트코인을 받는 훌륭한 방법입니다. 사용할 지갑은 비즈니스의 규모와 유형에 따라 다릅니다.",
-	"wallets_choice_sole": "개인 사업자용 지갑",
-	"wallets_choice_multiple": "다수 직원 비즈니스용 지갑",
-	"wallets_choice_online": "온라인 비즈니스용 지갑",
-	"wallets_choice_invoice": "송장 기반 비즈니스용 지갑",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

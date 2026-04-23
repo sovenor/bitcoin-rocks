@@ -1,4 +1,28 @@
+## i18n cleanup Step 4 (propagate English deletions to all 54 non-English locales) — April 23, 2026
+
+Closed the gap from Steps 2+3 on the English side — the 423-key dead-key removal + JSON normalization pass only touched `i18n/en/`. Step 4 brings the other 54 locales to parity by stripping every orphan key (present in the non-English file but not in English) and re-serializing each file with the canonical tab-indented formatter.
+
+**New tooling** — added one more script to `scripts/i18n-audit/`:
+- `step4-propagate-deletions.js` — for each non-English file, reads the current English key set and filters the non-English file down to it. This catches both the Step 2 deletions AND older drift (keys locales accumulated ahead of English during V0/V1). Re-serialization via `JSON.stringify(obj, null, '\t') + '\n'` collapses stray blank lines as a side effect — so Step 3's formatter is built in. Bumps `@metadata.last-updated` only on touched files. Supports `--dry-run` for preview + `--only=<csv>` for per-locale scoping.
+
+**Results** — single `node scripts/i18n-audit/step4-propagate-deletions.js` run:
+- Touched **4,108 files across 54 locales**, deleting **26,710 orphan keys** (vs. 423 deleted from English in Step 2 — the extra ~26,287 is accumulated translator drift).
+- Per-locale counts cluster around **497** (the Step 2 baseline + ~74 universal orphans). Outliers: **lt = 294** (smaller 78-file set), **sw = 470** (Swahili, 80 files), **hu = 535** (Hungarian, heaviest drift).
+- 3 files were formatting-only rewrites (id × 2, pt × 1); all others had at least one orphan key removed.
+- 262 files reported "already canonical" (mostly smaller sticker-files language files that translate trivially).
+
+**Verification**:
+- Re-run `--dry-run` → **0 changes across all 4,370 files**. Fully idempotent.
+- `npm run build` → clean across all 55 locales × 81 pages. No `MISSING_MESSAGE` errors, no fallback renders.
+- Spot-checked `i18n/de/common_de.json`: 95 orphan keys pre-run (V1 CTA section + kit content + what-is-bitcoin FAQ remnants); 0 post-run; `@metadata.last-updated` bumped; tab indentation + key order preserved.
+- Report written to `scripts/i18n-audit/step4-propagate-report.json` with per-locale + per-namespace breakdowns.
+
+**V2-REDESIGN-CHECKLIST.md** now shows i18n cleanup Steps 1–4 (all 24 sub-items) complete. Steps 5–6 still pending (per-language re-translation of 54 locales for the 51 new Step 3.5 keys + any V2-era keys whose English value changed, then final verification).
+
+---
+
 ## i18n cleanup Step 3.5 (source-side hardcoded-English audit) — April 23, 2026
+
 
 Closed the gap left by Steps 1–3: those audits walked JSON → source ("which English keys does no source file reference?"), so they couldn't detect English text literally embedded in `.tsx` files that never went through `t()` / `getTranslations()` / `useTranslations()` in the first place. Step 3.5 is the reverse direction (source → JSON).
 

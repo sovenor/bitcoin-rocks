@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-wallet-guide",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Disse wallets ligner mere banksystemet, hvor du skal stole på en tredjepart for at give dig adgang til dine penge. Hvis din Bitcoin er på en børs, bruger du en forvarende wallet.",
 	"lightning_s3_c3": "Forvarende wallets kan virke praktiske, men forvalteren har den tekniske mulighed for at stjæle alle brugermidler når som helst.",
 	"lightning_s3_c4": "Nogle foretrækker forvarende Lightning-wallets til små beløb bitcoin på grund af brugervenligheden. Bare husk: ikke dine nøgler, ikke dine mønter!",
-	"lightning_question_2": "VÆLG DIN WALLET",
-	"lightning_s4_c1": "Med alt dette i tankerne kan du nu vælge den lightning-wallet, der har den rette kompromisbalance for dig.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Mange funktioner",
 	"lightning_mobile_app": "Mobilapp",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Fantastisk til forhandlere",
-	"lightning_starter": "Fantastisk startwallet",
-	"lightning_browser": "Browserbaseret",
 	"lightning_custodial": "Helt forvarende wallet",
 	"lightning_cta_hardware": "Leder du efter vores Bitcoin hardware-wallet-guide?"
 }

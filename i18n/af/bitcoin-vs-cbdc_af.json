@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs SDSG's",
-	"cbdc_header": "HOE MOET",
-	"cbdc_header_2": "DIGITALE GELD",
-	"cbdc_header_3": "LYK?",
 	"cbdc_intro_1": "Ons wêreld word toenemend digitaal, en so ook ons geld.",
 	"cbdc_intro_2": "Dit vra die vraag: hoe wil ons hê ons digitale geld moet lyk?",
 	"cbdc_intro_3": "Baie lande ondersoek die uitreiking van 'n Sentrale Bank Digitale Geldeenheid (SDSG) wat 'n ten volle digitale vorm van ons bestaande regeringsgeldeenheid is.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin is ontwerp om jou totale beheer oor jou geld te gee.",
 	"point_1_summary_2": "Niemand kan jou keer om met Bitcoin te transakteer nie.",
 	"point_1_summary_3": "SDSG's is ontwerp om regerings en sentrale banke totale beheer oor jou geld te gee.",
-	"point_1_summary_4": "SDSG's beperk jou privaatheid en vryheid.",
 	"point_2_summary_1": "Bitcoin verval nooit en het geen maandelikse fooie nie.",
 	"point_2_summary_2": "SDSG's kan geprogrammeer word om te verval.",
 	"point_2_summary_3": "Wanneer SDSG's verval, verhoed hulle jou om vir die toekoms te spaar.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin-adresse is pseudoniem, wat beteken hulle is nie aan jou regte naam of identiteit gekoppel nie. SDSG's is direk aan jou regte naam en identiteit gekoppel wat massiewe finansiële toesig en sensuur moontlik maak.",
 	"point_5_summary_1": "Die Bitcoin-netwerk is gedesentraliseer.",
 	"point_5_summary_2": "Tienduisende onafhanklike nodusse valideer die reëls van die netwerk.",
-	"point_5_summary_3": "SDSG's is gesentraliseer in die hande van die regering en sentrale banke, wat hulle volledige beheer oor die SDSG-netwerk gee.",
 	"point_6_summary_1": "Bitcoin stel enigiemand in staat om 'n nodus te bedryf wat verifieer dat die reëls van die netwerk nagekom word. SDSG's laat niemand toe om nodusse te bedryf nie en staatmaak op vertroue in die regering en sentrale banke.",
 	"point_7_summary_1": "Bitcoin is ontwerp om dit onmoontlik te maak vir ander om jou geld te vries. SDSG's is ontwerp om dit maklik te maak vir regerings en sentrale banke om jou geld te vries.",
 	"point_8_summary_1": "Bitcoin is ontwerp om jou volle beheer oor jou geld te gee.",
 	"point_8_summary_2": "Maak net seker jy trek dit na 'n selfbewaringsbeursie.",
 	"point_8_summary_3": "Wanneer jy jou bitcoin self bewaar, kan niemand jou keer om toegang tot jou geld te kry nie.",
-	"point_8_summary_4": "SDSG's vereis dat jy bewaarders, soos 'n bank of regering, vertrou om jou geld vir jou te hou.",
 	"point_9_summary_1": "Bitcoin het 'n voorspelbare monetêre beleid wat in kode vasgelê is en nie verander kan word nie. SDSG's, soos ons geldeenhede vandag, het 'n monetêre beleid wat maklik verander kan word.",
 	"point_9_summary_2": "Dit lei tot inflasie wanneer politici te veel geld druk.",
 	"point_10_summary_1": "Bitcoin is die veiligste rekenaarnetwerk wat ooit bestaan het en is nog nooit gehack nie. SDSG's staatmaak op regerings en banke om die netwerk te beveilig, wat al ontelbare kere deur die geskiedenis gehack is."

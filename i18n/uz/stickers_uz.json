@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks-dan bepul Bitcoin stikerlari",
 	"stickers_description": "Ommaviy joyga Bitcoin stikeri yopishtiring va atrofingizdagi odamlarni xabardor qilishga yordam bering.",
-	"stickers_header": "BEPUL BITCOIN STIKERLARI",
-	"stickers_choose_header": "STIKER TOʻPLAMINGIZNI TANLANG",
-	"stickers_choose_c1": "Bizning vazifamiz Bitcoin stikerlarini ommaviy joylarga yopishtirib, koʻproq odamlarni xabardor qilishga yordam berishdir. Barcha stikerlarimizda quyidagi mavzulardagi taʼlim sahifalariga yoʻnaltiruvchi QR kodlar mavjud:",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflyatsiya",
-	"stickers_choose_c4": "Quyidan stiker toʻplami tanlang",
 	"stickers_text_pack": "MATN TOʻPLAMI",
 	"stickers_signs_pack": "BELGI TOʻPLAMI",
 	"stickers_instructions_1": "Pochta manzilingizni kiriting va sizga bepul Bitcoin stiker toʻplami yuboraylik! Stikerlaringiz oddiy oq konvertda yuboriladi.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Bu orada, oʻzingizga ",
 	"stickers_flyers_link_text": "Bitcoin varaqalari",
 	"stickers_flyers_link_after": " chop etib yopishtirib, koʻproq odamlarni xabardor qilishga yordam bering.",
-	"stickers_country_global_print": "Butun dunyo — Oʻzim chop etaman",
-	"stickers_country_global_order": "Butun dunyo — Ommaviy buyurtma berish",
 	"placeholder_name_optional": "Ism (ixtiyoriy)",
 	"placeholder_address_line_1": "Manzil 1-qator",
 	"placeholder_address_line_2": "Manzil 2-qator (ixtiyoriy)",

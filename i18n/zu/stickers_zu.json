@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"free_bitcoin_stickers": "Izitika ze-Bitcoin zamahhala evela ku-bitcoin.rocks",
 	"stickers_description": "Beka isitika se-bitcoin emphakathini ukuze u-orange pill abakuzungezile.",
-	"stickers_header": "IZITIKA ZE-BITCOIN ZAMAHHALA",
-	"stickers_choose_header": "KHETHA IPHAKETHE LAKHO LEZITIKA",
-	"stickers_choose_c1": "Umgomo wethu ukukusiza u-orange pill abantu abaningi ngokubeka izitika ze-Bitcoin emphakathini. Zonke izitika zethu zinamakhodi e-QR axhumana namakhasi emfundo nge",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "infleshini",
-	"stickers_choose_c4": "Khetha iphakethe lakho lezitika ngezansi",
 	"stickers_text_pack": "IPHAKETHE LESIBHALO",
 	"stickers_signs_pack": "IPHAKETHE LEZIMPAWU",
 	"stickers_instructions_1": "Faka ikheli lakho lokuthumela bese sithumela iphakethe lezitika ze-Bitcoin zamahhala ngeposi! Izitika zakho zizothunyelwa ngemvilophu emhlophe.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Ngenkathi ukwenza, phrinta & namathisela ",
 	"stickers_flyers_link_text": "amaphepha e-Bitcoin",
 	"stickers_flyers_link_after": " ukuze usize u-orange pill abantu abaningi.",
-	"stickers_country_global_print": "Umhlaba Wonke — Phrinta izitika zami",
-	"stickers_country_global_order": "Umhlaba Wonke — Odela ngokuningi",
 	"placeholder_name_optional": "Igama (uyazikhethela)",
 	"placeholder_address_line_1": "Umugqa Wekheli 1",
 	"placeholder_address_line_2": "Umugqa Wekheli 2 (uyazikhethela)",

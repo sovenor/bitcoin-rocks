@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_vs_banks": "比特币 vs 银行",
-	"banks_header": "两者之间的区别",
-	"banks_header_2": "比特币",
-	"banks_header_3": "和",
-	"banks_header_4": "银行",
 	"banks_intro_1": "银行控制货币已有数百年历史，充当金融交易的中间人和货币系统的守门人。",
 	"banks_intro_2": "比特币是一个点对点的数字货币系统，无需银行或中央权威即可运行。",
 	"banks_intro_3": "但比特币网络与传统银行系统有何不同？让我们探索这两种根本不同的货币方式之间的关键差异。",

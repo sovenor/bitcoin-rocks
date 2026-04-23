@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs kötvények",
-	"bonds_header": "A KÜLÖNBSÉG A",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "ÉS A",
-	"bonds_header_4": "KÖTVÉNYEK KÖZÖTT",
 	"bonds_intro_1": "Az államkötvényeket hagyományosan a legbiztonságosabb befektetések egyikének tartják.",
 	"bonds_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz fix kínálattal és decentralizált hálózattal.",
 	"bonds_intro_3": "De miben különbözik az államkötvények tartása a Bitcoin tartásától? Nézzük meg a különbségeket: Bitcoin vs kötvények.",

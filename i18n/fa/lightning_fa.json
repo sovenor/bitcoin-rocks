@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "fa"
 	},
 	"bitcoin_lightning_wallet_guide": "راهنمای کیف پول لایتنینگ بیت‌کوین",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "این کیف پول‌ها بیشتر شبیه سیستم بانکی هستند.",
 	"lightning_s3_c3": "کیف پول‌های امانی راحت به نظر می‌رسند، اما امانتدار توانایی فنی دزدیدن وجوه را دارد.",
 	"lightning_s3_c4": "برخی افراد کیف پول امانی لایتنینگ را برای مقادیر کم ترجیح می‌دهند. فقط یادتان باشد: کلید شما نیست، سکه‌های شما نیست!",
-	"lightning_question_2": "کیف پول خود را انتخاب کنید",
-	"lightning_s4_c1": "اکنون می‌توانید کیف پول لایتنینگی که تعادل مناسبی دارد انتخاب کنید.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "ویژگی‌های فراوان",
 	"lightning_mobile_app": "اپلیکیشن موبایل",
 	"lightning_free": "۱۰۰٪ رایگان",
 	"lightning_merchants": "عالی برای فروشندگان",
-	"lightning_starter": "کیف پول اول عالی",
-	"lightning_browser": "مبتنی بر مرورگر",
 	"lightning_custodial": "کیف پول کاملاً امانی",
 	"lightning_cta_hardware": "به دنبال راهنمای کیف پول سخت‌افزاری بیت‌کوین ما هستید؟"
 }

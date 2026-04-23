@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"free_bitcoin_flyers": "Fulletons de Bitcoin gratuïts de bitcoin.rocks",
 	"flyers_description": "Imprimeix un fulletó de Bitcoin a casa i penja'l en públic per fer que els que t'envolten s'apassionin per Bitcoin.",
-	"flyers_header_1": "IMPRIMEIX I PENJA",
-	"flyers_header_2": "FULLETONS DE BITCOIN",
 	"flyers_intro_header": "COM IMPRIMIR I PENJAR AQUESTS FULLETONS DE BITCOIN",
 	"flyers_intro_c1": "La nostra missió és ajudar-te a fer que més gent s'apassioni per Bitcoin penjant fulletons de Bitcoin en públic. Aquest fulletó té un codi QR que enllaça al nostre",
 	"flyers_intro_c2": "lloc web educatiu sobre Bitcoin.",
-	"flyers_intro_c3": "inflació",
 	"flyers_intro_c4": "Imprimeix aquest fulletó a casa o en una impremta. Després, penja'l en taulers d'anuncis, pals de telèfon del poble i altres espais públics on la gent el pugui veure i aprendre sobre Bitcoin.",
 	"flyers_intro_c5": "Ja que hi ets, sol·licita un paquet dels nostres",
 	"flyers_intro_c6": "adhesius de Bitcoin gratuïts",

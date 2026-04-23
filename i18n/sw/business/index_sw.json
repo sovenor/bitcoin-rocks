@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin ni nzuri kwa biashara",
-	"biz_header": "BITCOIN NI NZURI KWA BIASHARA",
 	"biz_s1": "Ada ndogo bila kima cha chini",
 	"biz_s1_c1": "Bitcoin inakuwezesha kupokea malipo moja kwa moja kutoka kwa wateja wako, kama vile fedha taslimu. Mtandao wa Bitcoin unafanya kazi bila wasuluhishi kama benki na makampuni ya kadi za mkopo ambayo yanachukua ada kubwa.",
 	"biz_s2": "Malipo ya papo hapo",

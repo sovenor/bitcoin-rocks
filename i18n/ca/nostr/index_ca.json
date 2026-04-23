@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
-	},
-	"escape_the_matrix_with_nostr": "Escapa de la Matriu amb Nostr",
-	"nostr_header": "ESCAPA DE LA MATRIU AMB NOSTR"
+	}
 }

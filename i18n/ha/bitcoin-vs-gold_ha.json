@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_vs_gold": "Bitcoin da Zinari",
-	"gold_header": "BAMBANCI TSAKANIN",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "DA",
-	"gold_header_4": "ZINARI",
 	"gold_intro_1": "An yi amfani da zinari a matsayin kuɗi tsawon dubban shekaru kuma mutane da yawa suna ganin sa a matsayin mafakar kuɗi.",
 	"gold_intro_2": "Bitcoin kuɗi ne na dijital da aka ƙirƙira a 2009 kuma mutane da yawa suna ganin sa a matsayin mafakar kuɗi.",
 	"gold_intro_3": "Amma yaya ƙarfe na zahiri kamar zinari ya bambanta da kuɗi na dijital kamar Bitcoin? Bari mu duba bambance-bambance tsakanin nau'ikan kuɗi biyu: Bitcoin da Zinari.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoin yana da iyakar 21 Miliyan BTC da za su taɓa kasancewa.",
 	"point_3_summary_2": "Ana fitar da sabon zinari daga ƙarƙashin ƙasa kowace shekara, wanda ke haifar da hauhawar tanadin gaba ɗaya. An kiyasta cewa tanadin zinari yana ƙaruwa da kusan 1.6% a shekara, wanda ke nufin rabonka na leda yana raguwa da 1.6% a shekara.",
 	"point_3_summary_3": "Wannan ya fi ƙarancin hauhawar farashi ta fiat, amma har yanzu hauhawar farashi ce.",
-	"point_3_summary_4": "Da Bitcoin, rabonka na leda ba ya taɓa raguwa.",
 	"point_4_summary_1": "Zinari yana da tanadi mai sassauƙa, wanda ke nufin yayin da farashin zinari ya haura, akwai ƙarin ƙarfafawa don haƙo ƙarin zinari. Wannan galibi yana matsa farashin zinari ƙasa yayin da sababbin ma'adinai suka fara aiki.",
 	"point_4_summary_2": "Da Bitcoin, ko farashin ya haura nawa, ba za ka iya yin fiye da 21M Bitcoin ba.",
 	"point_4_summary_3": "Bitcoin ita ce kadara ta farko mai alaƙa mara sassauƙa tsakanin farashi da tanadi.",
 	"point_5_summary_1": "Cibiyar sadarwar Bitcoin mai rarrabawa ce.",
 	"point_5_summary_2": "Dubban dubban nodes masu zaman kansu suna tabbatar da dokokin cibiyar sadarwar.",
-	"point_5_summary_3": "Masu amfani za su iya kula da Bitcoin ɗin su da kansu ta hanyar zazzage manhaja.",
-	"point_5_summary_4": "Yayin da za a iya kula da zinari na zahiri da kanka, mafi yawan zinari na zahiri ana ajiye shi a manyan rumbunan da masu ajiya suke mallaka wanda ke sa shi ya zama tsakaitaccen ta zahiri.",
 	"point_6_summary_1": "Da Bitcoin, yana da sauƙi sosai a tabbatar cewa kana da Bitcoin na gaske ta hanyar kula da tsabar kuɗinka da kanka da gudanar da cikakken node.",
 	"point_6_summary_2": "Kula da kanka ya yi sauƙi kamar zazzage manhaja.",
 	"point_6_summary_3": "Cikakken node software ne mai sauƙi da ke tabbatar da cewa ana bin dokokin cibiyar sadarwar, kuma yana tabbatar da cewa kana da Bitcoin na gaske.",
-	"point_6_summary_4": "Zinari na zahiri na iya zama da wahalar tabbatarwa. Ko da ka tabbatar da ɓangaren waje, ciki na zinari na zahiri na iya zama Tungsten ko wani ƙarfe. Hanya guda ɗaya tilo ta gaske ta tabbatarwa ita ce narkad da shi.",
 	"point_7_summary_1": "Kamar yadda akwai senti 100 a cikin dala 1, akwai sats 100,000,000 a cikin Bitcoin 1. Wannan yana ba da damar amfani da Bitcoin don kowane girman saye, ciki har da ƙananan ma'amaloli kamar senti kaɗan.",
-	"point_7_summary_2": "Wannan yana sa Bitcoin ya yi kyau ga kasuwanci.",
-	"point_7_summary_3": "Saboda zinari na zahiri yana da wahalar rabawa, ba za a iya amfani da shi cikin sauƙi don saye ba, musamman ƙananan saye."
+	"point_7_summary_2": "Wannan yana sa Bitcoin ya yi kyau ga kasuwanci."
 }

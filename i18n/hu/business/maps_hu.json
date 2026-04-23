@@ -3,17 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"get_listed_on_bitcoin_merchant_maps": "Kerülj fel a Bitcoin kereskedők térképére",
-	"maps_description": "Kerülj fel a Bitcoin kereskedők térképére, és juttasd el a Bitcoin felhasználókat a vállalkozásodhoz.",
-	"maps_header": "KERÜLJ FEL A BITCOIN KERESKEDŐK TÉRKÉPÉRE",
-	"maps_intro_1": "A Bitcoin kereskedők térképére felkerülve a Bitcoin felhasználók megtalálhatják a vállalkozásodat, amikor Bitcoin-barát helyeket keresnek.",
-	"maps_intro_2": "A népszerű Bitcoin kereskedők térképén való megjelenés ingyenes, és segít a Bitcoin felhasználóknak megtalálni és támogatni a vállalkozásodat.",
-	"maps_add_yourself": "Add hozzá magad ezekhez a térképekhez:",
-	"maps_btcmap": "BTC Térkép",
-	"maps_btcmap_c1": "A BTC Map egy nyílt forráskódú térkép, amely Bitcoin-barát vállalkozásokat mutat világszerte.",
-	"maps_form_header": "SEGÍTSÉGRE VAN SZÜKSÉGED A TÉRKÉPEKRE KERÜLÉSHEZ?",
-	"maps_form_intro": "Töltsd ki az alábbi űrlapot, és mi felvesszük a vállalkozásodat a népszerű Bitcoin kereskedők térképeire."
+	}
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin va Nozik sanʻat",
-	"fine_art_header": "FARQI",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "VA",
-	"fine_art_header_4": "NOZIK SANʻAT",
 	"fine_art_intro_1": "Nozik sanʻat asrlar davomida hashamatli investitsiya boʻlib kelgan va badavlat kolleksionerlar tomonidan koʻpincha qiymat saqlash vositasi sifatida qabul qilinadi.",
 	"fine_art_intro_2": "Bitcoin ham koʻpchilik tomonidan qiymat saqlash vositasi va investitsiya sifatida qaraladigan raqamli pul.",
 	"fine_art_intro_3": "Jismoniy sanʻat asarlari Bitcoin kabi raqamli puldan qanday farq qiladi? Ikki investitsiya shakli oʻrtasidagi farqlarga qaraylik: Bitcoin va Nozik sanʻat.",

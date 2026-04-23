@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"russian_bitcoin_sticker_files": "Bitcoin-tarrat venäjäksi",
-	"russian_description": "Lataa Bitcoin-tarratiedostot venäjäksi.",
-	"russian_header": "LATAA BITCOIN-TARRAT VENÄJÄKSI"
+	}
 }

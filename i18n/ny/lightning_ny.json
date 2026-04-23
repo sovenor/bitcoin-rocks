@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_lightning_wallet_guide": "Gaidi ya Zikwama za Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Zikwama izi zimafanana kwambiri ndi dongosolo la mabanki pomwe mukuyenera kukhulupirira wina kukulolezani kupeza ndalama zanu.",
 	"lightning_s3_c3": "Zikwama za wosunga zingaoneke zosavuta, koma wosungayo ali ndi kuthekera ka teknikaili kuba ndalama zonse za ogwiritsa ntchito nthawi iliyonse.",
 	"lightning_s3_c4": "Anthu ena amakonda zikwama za Lightning za wosunga kwa ndalama zing'onozing'ono za bitcoin chifukwa ndi zosavuta kugwiritsa ntchito. Kumbukirani: makiyi anu osati, ndalama zanu osati!",
-	"lightning_question_2": "SANKHANI CHIKWAMA CHANU",
-	"lightning_s4_c1": "Ndi izi zonse m'maganizo, tsopano mutha kusankha chikwama cha Lightning chokhala ndi kusinthana koyenera kwa inu.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Mwayi wochuluka",
 	"lightning_mobile_app": "Pulogalamu ya foni",
 	"lightning_free": "Yaulere 100%",
 	"lightning_merchants": "Yabwino kwa amalonda",
-	"lightning_starter": "Chikwama chabwino choyambira",
-	"lightning_browser": "Chogwira ntchito pa msakatuli",
 	"lightning_custodial": "Chikwama chathunthu cha wosunga",
 	"lightning_cta_hardware": "Mukufunafuna Gaidi yathu ya Zikwama za Chipangizo za Bitcoin?"
 }

@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"polish_bitcoin_sticker_files": "Lengyel Bitcoin matricafájlok",
-	"polish_description": "Töltsd le a Bitcoin matricafájlokat lengyel nyelven.",
-	"polish_header": "LENGYEL BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

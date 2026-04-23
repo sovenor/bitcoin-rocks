@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"hungarian_bitcoin_sticker_files": "Bitcoin-tarrat unkariksi",
-	"hungarian_description": "Lataa Bitcoin-tarratiedostot unkariksi.",
-	"hungarian_header": "LATAA BITCOIN-TARRAT UNKARIKSI"
+	}
 }

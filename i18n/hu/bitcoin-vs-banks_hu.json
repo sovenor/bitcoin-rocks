@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs bankok",
-	"banks_header": "A KÜLÖNBSÉG A",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "ÉS A",
-	"banks_header_4": "BANKOK KÖZÖTT",
 	"banks_intro_1": "A bankok évszázadok óta irányítják a pénzt, közvetítőként szolgálva a pénzügyi tranzakciókban és kapuőrként a pénzügyi rendszerben.",
 	"banks_intro_2": "A Bitcoin egy peer-to-peer digitális pénzrendszer, amely bankok vagy központi hatóságok nélkül működik.",
 	"banks_intro_3": "De miben különbözik a Bitcoin hálózat a hagyományos bankrendszertől? Nézzük meg a legfontosabb különbségeket e két alapvetően eltérő pénzmegközelítés között.",

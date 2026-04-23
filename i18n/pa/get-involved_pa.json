@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "pa"
 	},
 	"get_involved_and_help_spread_bitcoin": "ਸ਼ਾਮਿਲ ਹੋਂ ਔਰ Bitcoin ਫੈਲਾਨੇ ਮੇਂ ਮਦਦ ਕਰੇਂ",
 	"get_involved_description": "ਹਮਾਰੇ ਮੁਫ਼੍ਤ ਸਂਸਾਧਨ Bitcoin ਅਪਨਾਨੇ ਕੋ ਫੈਲਾਨਾ ਆਸਾਨ ਬਨਾਤੇ ਹੈਂ੤",
 	"get_involved_header": "ਸ਼ਾਮਿਲ ਹੋਂ",
-	"get_involved_header_2": "Bitcoin ਫੈਲਾਏਂ",
 	"get_involved_intro_1": "ਦੁਨਿਯਾ ਕੀ ਵਰ੍ਤਮਾਨ ਸ੍ਥਿਤਿ ਮੇਂ ਰਹਨਾ ਨਿਰਾਸ਼ਾਜਨਕ ਹੋ ਸਕਤਾ ਹੈ੤",
 	"get_involved_intro_2": "ਹਮਾਰੀ ਮੁਦ੍ਰਾ ਟੂਟੀ ਹੁਈ ਹੈ੤ ਇਸਲਿਏ, ਸਮਾਜ ਕੇ ਬੁਨਿਯਾਦੀ ਢਾਂਚੇ ਭੀ ਟੂਟੇ ਹੁਏ ਹੈਂ੤",
 	"get_involved_intro_3": "ਅਗਰ ਆਪ ਪਹਲੇ ਸੇ Bitcoin ਜਾਨਤੇ ਹੈਂ, ਤੋ ਆਪ ਜਾਨਤੇ ਹੈਂ ਕਿ Bitcoin ਕਿਸ ਤਰਹ ਕੀ ਆਸ਼ਾ ਦੇ ਸਕਤਾ ਹੈ੤ ਬੇਹਤਰ ਮੁਦ੍ਰਾ ਸੇ ਸਂਭਵ ਬੇਹਤਰ ਭਵਿ਷੍ਯ ਕੀ ਆਸ਼ਾ੤",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "ਪੇਜ ਸੇ ਜੁਡ਼ਤੇ ਹੈਂ੤ ਅਨ੍ਯ ਸ੍ਟਿਕਰ ਹਮਾਰੇ ਸ਼ੈਕ੍਷ਿਕ ਹੋਮਪੇਜ ਸੇ ਜੁਡ਼ਤੇ ਹੈਂ ਜੋ ਲੋਗੋਂ ਕੋ ਦਿਖਾਤਾ ਹੈ ਕਿ",
 	"get_involved_sticker_content_5": "Bitcoin ਕੈਸੇ ਏਕ ਬੇਹਤਰ ਦੁਨਿਯਾ ਬਨਾ ਰਹਾ ਹੈ੤",
 	"get_involved_sticker_content_6": "ਅਪਨੇ ਸਮੁਦਾਯ ਮੇਂ ਲੋਗੋਂ ਕੋ ਦਿਖਨੇ ਵਾਲੀ ਜਗਹੋਂ ਪਰ ਯੇ ਸ੍ਟਿਕਰ ਲਗਾਕਰ, ਆਪ ਆਸਪਾਸ ਕੇ ਲੋਗੋਂ ਕੋ Bitcoin ਸੀਖਨੇ ਕਾ ਪਹਲਾ ਕਦਮ ਉਠਾਨੇ ਮੇਂ ਮਦਦ ਕਰ ਸਕਤੇ ਹੈਂ੤",
-	"get_involved_request_a": "ਅਨੁਰੋਧ ਕਰੇਂ",
-	"get_involved_sticker_pack": "ਸ੍ਟਿਕਰ ਪੈਕ",
-	"get_involved_postcard_header": "ਪੋਸ੍ਟਕਾਰ੍ਡ ਭੇਜੇਂ",
-	"get_involved_postcard_content_1": "ਆਪ ਜਾਨਨੇ ਵਾਲੋਂ ਕੋ ਹਮਾਰੇ ਮੁਫ਼੍ਤ ਪੋਸ੍ਟਕਾਰ੍ਡ ਭੇਜਕਰ Bitcoin ਕੀ ਆਸ਼ਾ ਫੈਲਾਨੇ ਮੇਂ ਮਦਦ ਕਰ ਸਕਤੇ ਹੈਂ੤",
-	"get_involved_postcard_content_2": "ਹਰ ਪੋਸ੍ਟਕਾਰ੍ਡ ਕੇ ਪੀਛੇ Bitcoin ਕੇ ਬਾਰੇ ਮੇਂ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਟੇਕ੍ਸ੍ਟ ਔਰ ਅਧਿਕ ਜਾਨਨੇ ਕੇ ਲਿਏ QR ਕੋਡ ਹੈ੤",
-	"get_involved_postcard_content_3": "Bitcoin ਪੋਸ੍ਟਕਾਰ੍ਡ ਭੇਜਕਰ, ਆਪ ਕਿਸੀ ਕੋ Bitcoin ਕੋ ਨਈ ਨਜ਼ਰ ਸੇ ਦੇਖਨੇ ਮੇਂ ਮਦਦ ਕਰ ਸਕਤੇ ਹੈਂ੤",
-	"get_involved_postcard_pack": "ਪੋਸ੍ਟਕਾਰ੍ਡ ਪੈਕ",
 	"get_involved_business_header": "ਏਕ ਵ੍ਯਵਸਾਯ ਕੋ ਜੋਡ਼ੇਂ",
 	"get_involved_business_content_1": "Bitcoin ਸਰ੍ਕੁਲਰ ਇਕ੉ਨਮੀ ਬਨਾਨਾ ਚਾਹਤੇ ਹੈਂ? ਹਮਾਰਾ Bitcoin ਬਿਜ਼ਨੇਸ ਕਿਟ ਵ੍ਯਵਸਾਯੋਂ ਕੋ Bitcoin ਭੁਗਤਾਨ ਸ੍ਵੀਕਾਰ ਕਰਨੇ ਕਾ ਪਰਿਚਯ ਦੇਨਾ ਆਸਾਨ ਬਨਾਤਾ ਹੈ੤",
 	"get_involved_business_content_2": "ਹਰ ਬਿਜ਼ਨੇਸ ਕਿਟ ਮੇਂ ਬ੍ਰੋਸ਼ਰ ਹੈਂ ਜੋ Bitcoin ਭੁਗਤਾਨ ਸ੍ਵੀਕਾਰ ਕਰਨੇ ਕੇ ਫ਼ਾਯਦੇ ਬਤਾਤੇ ਹੈਂ੤ ਹਰ ਬ੍ਰੋਸ਼ਰ ਅਲਗ-ਅਲਗ",
-	"get_involved_business_content_3": "ਮੁਫ਼੍ਤ Bitcoin ਵ੍ਯਾਵਸਾਯਿਕ ਸਂਸਾਧਨੋਂ ਸੇ ਜੁਡ਼ਤਾ ਹੈ੤",
-	"get_involved_business_kit": "ਬਿਜ਼ਨੇਸ ਕਿਟ"
+	"get_involved_business_content_3": "ਮੁਫ਼੍ਤ Bitcoin ਵ੍ਯਾਵਸਾਯਿਕ ਸਂਸਾਧਨੋਂ ਸੇ ਜੁਡ਼ਤਾ ਹੈ੤"
 }

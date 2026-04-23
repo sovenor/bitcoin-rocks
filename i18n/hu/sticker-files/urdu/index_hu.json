@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"urdu_bitcoin_sticker_files": "Urdu Bitcoin matricafájlok",
-	"urdu_description": "Töltsd le a Bitcoin matricafájlokat urdu nyelven.",
-	"urdu_header": "URDU BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

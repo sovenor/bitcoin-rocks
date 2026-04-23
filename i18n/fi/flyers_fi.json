@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"free_bitcoin_flyers": "Ilmaiset Bitcoin-lentolehtiset bitcoin.rocksilta",
 	"flyers_description": "Tulosta Bitcoin-lentolehtinen kotona ja laita se julkiselle paikalle oranssipilleröidäksesi ympärilläsi olevat.",
-	"flyers_header_1": "TULOSTA JA KIINNITÄ",
-	"flyers_header_2": "BITCOIN-LENTOLEHTISIÄ",
 	"flyers_intro_header": "MITEN TULOSTAA JA KIINNITTÄÄ BITCOIN-LENTOLEHTISET",
 	"flyers_intro_c1": "Tehtävänämme on auttaa sinua oranssipilleröimään enemmän ihmisiä laittamalla Bitcoin-lentolehtisiä julkisille paikoille. Tässä lentolehtisessä on QR-koodi, joka linkittää",
 	"flyers_intro_c2": "opetukselliselle Bitcoin-verkkosivullemme.",
-	"flyers_intro_c3": "inflaatio",
 	"flyers_intro_c4": "Tulosta tämä lentolehtinen kotona tai painotalossa. Kiinnitä se sitten ilmoitustauluille, puhelinpylväisiin ja muihin julkisiin tiloihin, joissa ihmiset voivat nähdä sen ja oppia Bitcoinista.",
 	"flyers_intro_c5": "Samalla tilaa paketti",
 	"flyers_intro_c6": "ilmaisia Bitcoin-tarroja",

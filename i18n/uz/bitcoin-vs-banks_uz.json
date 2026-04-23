@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_banks": "Bitcoin va Banklar",
-	"banks_header": "FARQI",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "VA",
-	"banks_header_4": "BANKLAR",
 	"banks_intro_1": "Banklar asrlar davomida pulni nazorat qilgan va moliyaviy operatsiyalarning vositachilari hamda pul tizimining qoʻriqchilari sifatida xizmat qilgan.",
 	"banks_intro_2": "Bitcoin banklar yoki markaziy hokimiyatlarsiz ishlaydigan tengdosh-dan-tengdoshga raqamli pul tizimidir.",
 	"banks_intro_3": "Bitcoin tarmogʻi anʻanaviy bankchilik tizimidan qanday farq qiladi? Tubdan farqli ikki pul yondashuvi oʻrtasidagi asosiy farqlarga qaraylik.",

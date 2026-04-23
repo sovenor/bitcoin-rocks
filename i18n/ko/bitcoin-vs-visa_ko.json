@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"bitcoin_vs_visa": "비트코인 vs Visa",
-	"visa_header": "차이점 비교",
-	"visa_header_2": "비트코인",
-	"visa_header_3": "과",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "신용카드와 비트코인은 둘 다 결제 시스템이지만 매우 다르게 작동합니다.",
 	"visa_intro_2": "Visa 같은 신용카드는 금융 기관이 통제하는 폐쇄형 네트워크이고, 비트코인은 누구나 사용할 수 있는 개방형 네트워크입니다.",
 	"visa_intro_3": "두 가지 결제 수단인 비트코인과 Visa의 차이점을 살펴보겠습니다.",

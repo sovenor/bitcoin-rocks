@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks-dan bepul Bitcoin varaqalari",
 	"flyers_description": "Uyda Bitcoin varaqasi chop eting va atrofingizdagi odamlarni xabardor qilish uchun ommaviy joyga yopishtiring.",
-	"flyers_header_1": "CHOP ETING VA YOPISHTIRING",
-	"flyers_header_2": "BITCOIN VARAQALARI",
 	"flyers_intro_header": "BU BITCOIN VARAQALARINI QANDAY CHOP ETISH VA YOPISHTIRISH",
 	"flyers_intro_c1": "Bizning vazifamiz Bitcoin varaqalarini ommaviy joylarga yopishtirib, koʻproq odamlarni xabardor qilishga yordam berishdir. Bu varaqada quyidagi sahifamizga yoʻnaltiruvchi QR kod bor:",
 	"flyers_intro_c2": "taʼlimiy Bitcoin sahifamiz.",
-	"flyers_intro_c3": "inflyatsiya",
 	"flyers_intro_c4": "Bu varaqani uyda yoki matbaada chop eting. Keyin eʻlon taxtalariga, shahardagi telefon ustunlariga va odamlar koʻrib Bitcoin haqida bilib oladigan boshqa ommaviy joylarga yopishtiring.",
 	"flyers_intro_c5": "Bu orada, bir toʻplam",
 	"flyers_intro_c6": "bepul Bitcoin stikerlari",

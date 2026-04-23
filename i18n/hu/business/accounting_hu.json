@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
-	"bitcoin_accounting_guide": "Bitcoin könyvelési útmutató",
 	"accounting_description": "Tudd meg, hogyan kezeld a Bitcoin könyvelést a vállalkozásodban.",
-	"accounting_header": "BITCOIN KÖNYVELÉSI ÚTMUTATÓ",
-	"accounting_intro": "A Bitcoin elfogadása a vállalkozásodban könyvelési szempontokat vet fel. Ez az útmutató segít megérteni az alapokat.",
 	"accounting_s1": "BITCOIN KÖNYVELÉS ALAPJAI",
 	"accounting_s1_c1": "Sok országban a Bitcoint tulajdonként vagy eszközként kezelik adózási szempontból. Ez azt jelenti, hogy amikor Bitcoint fogadsz fizetésként, rögzítened kell az értékét a beérkezéskor.",
 	"accounting_s1_c2": "Fontos, hogy konzultálj egy helyi adószakértővel a Bitcoin fizetések specifikus adókezeléséről az országodban.",

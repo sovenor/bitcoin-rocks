@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"free_bitcoin_stickers": "Brezplačne bitcoinove nalepke od bitcoin.rocks",
 	"stickers_description": "Nalepite bitcoinovo nalepko na javno mesto in pomagajte prepričati ljudi okoli vas.",
-	"stickers_header": "BREZPLAČNE BITCOINOVE NALEPKE",
-	"stickers_choose_header": "IZBERITE SVOJ PAKET NALEPK",
-	"stickers_choose_c1": "Naše poslanstvo je pomagati vam prepričati več ljudi tako, da lepite bitcoinove nalepke na javna mesta. Vse naše nalepke imajo QR kode, ki vodijo na izobraževalne strani o",
-	"stickers_choose_c2": "Bitcoinu",
-	"stickers_choose_c3": "inflaciji",
-	"stickers_choose_c4": "Izberite paket nalepk spodaj",
 	"stickers_text_pack": "BESEDILNI PAKET",
 	"stickers_signs_pack": "PAKET ZNAKOV",
 	"stickers_instructions_1": "Vnesite svoj poštni naslov in poslali vam bomo brezplačen paket bitcoinovih nalepk! Vaše nalepke bodo poslane v navadni beli ovojnici.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Medtem si natisnite in nalepite lastne ",
 	"stickers_flyers_link_text": "bitcoinove letake",
 	"stickers_flyers_link_after": " in pomagajte prepričati še več ljudi.",
-	"stickers_country_global_print": "Po vsem svetu — Natisnil bom lastne nalepke",
-	"stickers_country_global_order": "Po vsem svetu — Naroči v velikih količinah",
 	"placeholder_name_optional": "Ime (neobvezno)",
 	"placeholder_address_line_1": "Naslov vrstica 1",
 	"placeholder_address_line_2": "Naslov vrstica 2 (neobvezno)",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banky",
-	"banks_header": "ROZDIEL MEDZI",
-	"banks_header_2": "BITCOINOM",
-	"banks_header_3": "A",
-	"banks_header_4": "BANKAMI",
 	"banks_intro_1": "Banky kontrolujú peniaze po stáročia a fungujú ako sprostredkovatelia finančných transakcií a strážcovia menového systému.",
 	"banks_intro_2": "Bitcoin je peer-to-peer systém digitálnych peňazí, ktorý funguje bez bánk alebo centrálnych autorít.",
 	"banks_intro_3": "Ako sa ale Bitcoinová sieť líši od tradičného bankového systému? Poďme preskúmať kľúčové rozdiely medzi týmito dvoma zásadne odlišnými prístupmi k peniazom.",

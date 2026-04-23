@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin és bo per als negocis",
-	"biz_header": "BITCOIN ÉS BO PER ALS NEGOCIS",
 	"biz_s1": "Comissions baixes sense mínims",
 	"biz_s1_c1": "Bitcoin et permet rebre pagaments directament dels teus clients, com els diners en efectiu. La xarxa Bitcoin funciona sense intermediaris com bancs i empreses de targetes de crèdit que cobren comissions elevades.",
 	"biz_s2": "Liquidació instantània",

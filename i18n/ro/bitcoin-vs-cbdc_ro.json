@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC-uri",
-	"cbdc_header": "CUM AR TREBUI SĂ ARATE",
-	"cbdc_header_2": "BANII DIGITALI",
-	"cbdc_header_3": "?",
 	"cbdc_intro_1": "Lumea noastră devine din ce în ce mai digitală, la fel și banii noștri.",
 	"cbdc_intro_2": "Asta ridică întrebarea: cum vrem să arate banii noștri digitali?",
 	"cbdc_intro_3": "Multe țări explorează emiterea unei Monede Digitale a Băncii Centrale (CBDC) care este o formă complet digitală a monedei guvernamentale existente.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin este conceput să îți ofere control total asupra banilor tăi.",
 	"point_1_summary_2": "Nimeni nu te poate opri din a tranzacționa cu Bitcoin.",
 	"point_1_summary_3": "CBDC-urile sunt concepute să ofere guvernelor și băncilor centrale control total asupra banilor tăi.",
-	"point_1_summary_4": "CBDC-urile îți limitează confidențialitatea și libertatea.",
 	"point_2_summary_1": "Bitcoin nu expiră niciodată și nu are taxe lunare.",
 	"point_2_summary_2": "CBDC-urile pot fi programate să expire.",
 	"point_2_summary_3": "Când CBDC-urile expiră, te împiedică să economisești pentru viitor.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Adresele Bitcoin sunt pseudonime, ceea ce înseamnă că nu sunt legate de numele tău real sau identitatea ta. CBDC-urile sunt legate direct de numele și identitatea ta reală, ceea ce permite o supraveghere financiară masivă și cenzură.",
 	"point_5_summary_1": "Rețeaua Bitcoin este descentralizată.",
 	"point_5_summary_2": "Zeci de mii de noduri independente validează regulile rețelei.",
-	"point_5_summary_3": "CBDC-urile sunt centralizate în mâinile guvernului și băncilor centrale, ceea ce le oferă control complet asupra rețelei CBDC.",
 	"point_6_summary_1": "Bitcoin permite oricui să ruleze un nod care verifică dacă regulile rețelei sunt respectate. CBDC-urile nu permit nimănui să ruleze noduri și se bazează pe încrederea în guvern și băncile centrale.",
 	"point_7_summary_1": "Bitcoin este conceput pentru a face imposibil ca alții să îți înghețe banii. CBDC-urile sunt concepute pentru a facilita înghețarea banilor tăi de către guverne și bănci centrale.",
 	"point_8_summary_1": "Bitcoin este conceput să îți ofere control complet asupra banilor tăi.",
 	"point_8_summary_2": "Asigură-te doar că îl retragi într-un portofel cu auto-custodie.",
 	"point_8_summary_3": "Când ai auto-custodie asupra bitcoin-ului tău, nimeni nu te poate opri din a-ți accesa banii.",
-	"point_8_summary_4": "CBDC-urile te obligă să ai încredere în custozi, precum o bancă sau un guvern, să îți păstreze banii.",
 	"point_9_summary_1": "Bitcoin are o politică monetară previzibilă care este fixată în cod și nu poate fi schimbată. CBDC-urile, ca și monedele noastre de astăzi, au o politică monetară care poate fi schimbată ușor.",
 	"point_9_summary_2": "Aceasta rezultă în inflație când politicienii tipăresc prea mulți bani.",
 	"point_10_summary_1": "Bitcoin este cea mai sigură rețea de calculatoare care a existat vreodată și nu a fost niciodată spartă. CBDC-urile se bazează pe guverne și bănci pentru a securiza rețeaua, care au fost sparte de nenumărate ori de-a lungul istoriei."

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin prieš nekilnojamąjį turtą",
-	"real_estate_header": "SKIRTUMAS TARP",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "IR",
-	"real_estate_header_4": "NEKILNOJAMOJO TURTO",
 	"real_estate_intro_1": "Nekilnojamasis turtas buvo populiari investicija dešimtmečius ir dažnai laikomas stabilia vertės saugykla.",
 	"real_estate_intro_2": "Bitcoin yra skaitmeniniai pinigai, sukurti 2009 m., ir daugelio laikomi vertės saugykla bei investicija.",
 	"real_estate_intro_3": "Bet kuo fizinė nuosavybė skiriasi nuo skaitmeninių pinigų kaip Bitcoin? Pažvelkime į skirtumus tarp dviejų investicijų formų: Bitcoin ir nekilnojamojo turto.",

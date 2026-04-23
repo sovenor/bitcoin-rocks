@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2026-04-23",
 		"locale": "pt"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin é bom para os negócios",
-	"biz_header": "BITCOIN É BOM PARA OS NEGÓCIOS",
 	"biz_s1": "Taxas baixas sem mínimos",
 	"biz_s1_c1": "O Bitcoin permite-te receber pagamentos diretamente dos teus clientes, tal igual o dinheiro. A rede Bitcoin funciona sem intermediários, como bancos e empresas de serviços financeiros, que cobram taxas elevadas.",
 	"biz_s2": "Resolução instantânea",

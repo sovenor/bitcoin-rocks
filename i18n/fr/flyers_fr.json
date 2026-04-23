@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-26",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"free_bitcoin_flyers": "Dépliants Bitcoin gratuits de bitcoin.rocks",
 	"flyers_description": "Imprimez un dépliant Bitcoin à la maison et mettez-le en public pour orange piller ceux qui vous entourent.",
-	"flyers_header_1": "IMPRIMER ET AFFICHER",
-	"flyers_header_2": "DÉPLIANTS BITCOIN",
 	"flyers_intro_header": "COMMENT IMPRIMER ET AFFICHER CES DÉPLIANTS BITCOIN",
 	"flyers_intro_c1": "Notre mission est de vous aider à orange piller plus de gens en mettant des dépliants Bitcoin en public. Ce dépliant a un code QR qui renvoie à notre",
 	"flyers_intro_c2": "site web éducatif Bitcoin.",
-	"flyers_intro_c3": "l'inflation",
 	"flyers_intro_c4": "Imprimez ce dépliant à la maison ou dans une imprimerie. Ensuite, affichez-le sur des tableaux d'affichage, des poteaux téléphoniques en ville et d'autres espaces publics où les gens peuvent le voir et en apprendre davantage sur Bitcoin.",
 	"flyers_intro_c5": "Pendant que vous y êtes, demandez un paquet de nos",
 	"flyers_intro_c6": "autocollants Bitcoin gratuits",

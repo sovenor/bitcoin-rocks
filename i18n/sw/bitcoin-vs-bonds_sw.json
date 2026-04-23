@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_bonds": "Bitcoin dhidi ya Dhamana",
-	"bonds_header": "TOFAUTI KATI YA",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "NA",
-	"bonds_header_4": "DHAMANA",
 	"bonds_intro_1": "Dhamana za serikali mara nyingi huitwa uwekezaji 'usio na hatari' na zinachukuliwa kuwa mahali salama zaidi pa kuhifadhi mali kwa fedha za kawaida.",
 	"bonds_intro_2": "Bitcoin ni pesa za kidijitali zinazofanya kazi kwa kujitegemea na serikali au mamlaka kuu yoyote.",
 	"bonds_intro_3": "Lakini je, dhamana kweli hazina hatari? Na zinajilinganishaje na Bitcoin kama hifadhi ya thamani? Hebu tuchunguze tofauti kuu kati ya Bitcoin na dhamana za serikali.",

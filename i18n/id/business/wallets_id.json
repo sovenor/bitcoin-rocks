@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-04-23",
 		"locale": "id"
 	},
 	"how_to_accept_bitcoin_payments": "Cara Menerima Pembayaran Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Dompet hibrida:",
 	"wallets_intro_5": "Dompet ini memungkinkan Anda menukar sebagian atau seluruh pembayaran Bitcoin menjadi dolar segera setelah pelanggan membayar. Biayanya tetap lebih rendah dibanding pembayaran kartu kredit, tetapi lebih tinggi dibanding pembayaran Bitcoin murni.",
 	"wallets_intro_6": "Keduanya adalah cara yang baik untuk menerima Bitcoin. Dompet yang Anda pilih akan bergantung pada ukuran dan jenis bisnis Anda.",
-	"wallets_choice_sole": "dompet untuk bisnis perseorangan",
-	"wallets_choice_multiple": "dompet untuk bisnis dengan banyak karyawan",
-	"wallets_choice_online": "dompet untuk bisnis online",
-	"wallets_choice_invoice": "dompet untuk bisnis berbasis faktur",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

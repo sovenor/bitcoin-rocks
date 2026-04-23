@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_lightning_wallet_guide": "Guia de Carteres Lightning de Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Aquestes carteres són més similars al sistema bancari on has de confiar en un tercer perquè et doni accés als teus diners. Si el teu Bitcoin està en una borsa, estàs fent servir una cartera custodial.",
 	"lightning_s3_c3": "Les carteres custodials poden semblar còmodes, però el custodi té la capacitat tècnica de robar tots els fons dels usuaris en qualsevol moment.",
 	"lightning_s3_c4": "Algunes persones prefereixen carteres Lightning custodials per a petites quantitats de bitcoin a causa de la seva facilitat d'ús. Només recorda: no les teves claus, no les teves monedes!",
-	"lightning_question_2": "TRIA LA TEVA CARTERA",
-	"lightning_s4_c1": "Amb tot això en ment, ara pots triar la cartera Lightning que tingui l'equilibri de compromisos adequat per a tu.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Moltes funcionalitats",
 	"lightning_mobile_app": "Aplicació mòbil",
 	"lightning_free": "100% gratuïta",
 	"lightning_merchants": "Ideal per a comerciants",
-	"lightning_starter": "Excel·lent cartera per principiants",
-	"lightning_browser": "Basada en navegador",
 	"lightning_custodial": "Cartera totalment custodial",
 	"lightning_cta_hardware": "Busques la nostra Guia de Carteres de Maquinari Bitcoin?"
 }

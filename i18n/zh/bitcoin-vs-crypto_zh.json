@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_vs_crypto": "比特币 vs 加密货币",
-	"crypto_header": "两者之间的区别",
-	"crypto_header_2": "比特币",
-	"crypto_header_3": "和",
-	"crypto_header_4": "加密货币",
 	"crypto_intro_1": "加密货币领域已经爆发出数千种不同的数字代币和项目。",
 	"crypto_intro_2": "虽然比特币是第一个也是最知名的加密货币，但它与加密货币行业的其他部分有着根本区别。",
 	"crypto_intro_3": "让我们看看比特币和更广泛的加密货币生态系统之间的关键差异。",

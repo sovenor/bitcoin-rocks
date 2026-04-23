@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_bonds": "Bitcoin ndi Ma Bondi",
-	"bonds_header": "KUSIYANA PAKATI PA",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "NDI",
-	"bonds_header_4": "MA BONDI",
 	"bonds_intro_1": "Ma bondi a boma nthawi zambiri amatchedwa chikayikidwe chopanda chiwopsezo ndipo amaonedwa ngati malo otetezeka kwambiri osungira chuma.",
 	"bonds_intro_2": "Bitcoin ndi ndalama zadigitala zomwe zimagwira ntchito modziyimira popanda boma kapena olamulira alikulu.",
 	"bonds_intro_3": "Koma kodi ma bondi ndi opanda chiwopsezo kwenikweni? Ndipo amasiyana bwanji ndi Bitcoin ngati malo osungira chuma? Tiyeni tiwunike kusiyana kwakukulu pakati pa Bitcoin ndi ma bondi a boma.",

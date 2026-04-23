@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"cic_header": "KAMATOS INFLÁCIÓ KALKULÁTOR",
 	"cic_description": "Használd ezt a kamatos infláció kalkulátort, hogy megtudd, mennyivel kell emelkednie a fizetésednek, hogy lépést tartson az inflációval.",
-	"what_can_i_do_about": "Mit tehetek az",
-	"what_can_i_do_about_2": "infláció ellen?",
 	"cic_inflation_cta": "Lépj ki az inflációból a Bitcoinnal"
 }

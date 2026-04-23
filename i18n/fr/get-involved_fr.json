@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"get_involved_and_help_spread_bitcoin": "Impliquez-vous et aidez à faire connaître le Bitcoin",
 	"get_involved_description": "Nos ressources gratuites facilitent l'adoption du Bitcoin.",
 	"get_involved_header": "PARTICIPEZ",
-	"get_involved_header_2": "A L'ADOPTION DU BITCOIN",
 	"get_involved_intro_1": "Il peut être déprimant de vivre dans l'état actuel de notre monde.",
 	"get_involved_intro_2": "Notre argent est fragile. Par conséquent, les éléments fondamentaux de la société sont également fragiles.",
 	"get_involved_intro_3": "Si vous êtes déjà intéressé par le bitcoin, vous connaissez le sentiment d'espoir qu'il peut apporter. L'espoir d'un avenir meilleur rendu possible par une monnaie meilleure.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Les autres autocollants vous envoient à notre page d'accueil éducative qui montre aux gens comment",
 	"get_involved_sticker_content_5": "Le Bitcoin contribue à un monde meilleur.",
 	"get_involved_sticker_content_6": "En posant ces autocollants dans l'espace public, à des endroits où les gens les verront, vous pouvez aider ces personnes à faire leurs premiers pas avec le bitcoin.",
-	"get_involved_request_a": "DEMANDEZ UN",
-	"get_involved_sticker_pack": "PACK D'AUTOCOLLANTS",
-	"get_involved_postcard_header": "Envoyer une carte postale",
-	"get_involved_postcard_content_1": "Vous pouvez aider à répandre l'espoir du Bitcoin à quelqu'un que vous connaissez en lui envoyant une de nos cartes postales gratuites.",
-	"get_involved_postcard_content_2": "Le verso de chaque carte postale contient un texte captivant sur le Bitcoin ainsi qu'un code QR pour en savoir plus.",
-	"get_involved_postcard_content_3": "En envoyant une carte postale Bitcoin à quelqu'un, vous pouvez l'aider à voir le Bitcoin d'une nouvelle manière.",
-	"get_involved_postcard_pack": "PACK DE CARTES POSTALES",
 	"get_involved_business_header": "Intégration d'un commerce",
 	"get_involved_business_content_1": "Vous voulez participer à la construction de l'économie circulaire du Bitcoin ? Notre 'Kit commerçants bitcoin' facilite l'approche d'un commerce pour qu'il accepte les paiements en bitcoin.",
 	"get_involved_business_content_2": "Chaque Kit commerçant comprend des flyers avec les avantages d'accepter les paiements en bitcoin. Chaque brochure renvoie à une variété de",
-	"get_involved_business_content_3": "contenus professionnels gratuits sur le bitcoin.",
-	"get_involved_business_kit": "KIT COMMERÇANTS"
+	"get_involved_business_content_3": "contenus professionnels gratuits sur le bitcoin."
 }

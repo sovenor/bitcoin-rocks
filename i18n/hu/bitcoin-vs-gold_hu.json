@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs arany",
-	"gold_header": "A KÜLÖNBSÉG A",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "ÉS AZ",
-	"gold_header_4": "ARANY KÖZÖTT",
 	"gold_intro_1": "Az aranyat évezredek óta használják pénzként, és sokan pénzügyi menedéknek tekintik.",
 	"gold_intro_2": "A Bitcoin egy 2009-ben létrehozott digitális pénz, amelyet szintén sokan pénzügyi menedéknek tekintenek.",
 	"gold_intro_3": "De miben különbözik egy fizikai fém, mint az arany, a digitális pénztől, mint a Bitcoin? Nézzük meg a különbségeket két pénzforma között: Bitcoin és arany.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "A Bitcoinnak kemény felső határa van: összesen 21 millió BTC létezhet valaha.",
 	"point_3_summary_2": "Minden évben új aranykínálatot bányásznak ki a földből, ami az összesített kínálat inflációját eredményezi. Becslések szerint az arany összesített kínálata évente körülbelül 1,6%-kal nő, ami azt jelenti, hogy a tortaszeletied évente 1,6%-kal zsugorodik.",
 	"point_3_summary_3": "Ez kevesebb, mint a fiat infláció, de még mindig infláció.",
-	"point_3_summary_4": "A Bitcoinnal a tortaszeleted soha nem zsugorodik.",
 	"point_4_summary_1": "Az aranynak rugalmas kínálata van, ami azt jelenti, hogy amikor az arany ára emelkedik, nagyobb ösztönzés van több arany bányászására. Ez gyakran lefelé irányuló nyomást gyakorol az arany árára, amikor új bányákat nyitnak.",
 	"point_4_summary_2": "A Bitcoinnal, bármennyire is emelkedik az ár, nem lehet 21 milliónál több Bitcoint előállítani.",
 	"point_4_summary_3": "A Bitcoin az első olyan eszköz, amelynek rugalmatlan az ár és kínálat közötti viszonya.",
 	"point_5_summary_1": "A Bitcoin hálózat decentralizált.",
 	"point_5_summary_2": "Több tízezer független csomópont érvényesíti a hálózat szabályait.",
-	"point_5_summary_3": "A felhasználók önállóan megőrizhetik Bitcoinjukat egy alkalmazás letöltésével.",
-	"point_5_summary_4": "Bár a fizikai arany önálló megőrzése lehetséges, a legtöbb fizikai aranyat hatalmas tárolókban tartják, amelyeket letétkezelők birtokolnak, ami fizikailag centralizálttá teszi.",
 	"point_6_summary_1": "A Bitcoinnal hihetetlenül egyszerű ellenőrizni, hogy valódi Bitcoinnal rendelkezel-e, ha önállóan megőrzöd az érméidet és futtatsz egy teljes csomópontot.",
 	"point_6_summary_2": "Az önálló megőrzés olyan egyszerű, mint egy alkalmazás letöltése.",
 	"point_6_summary_3": "A teljes csomópont egy egyszerű szoftver, amely biztosítja a hálózat szabályainak betartását, és ellenőrzi, hogy valódi Bitcoinod van.",
-	"point_6_summary_4": "A fizikai aranyat nagyon nehéz hitelesíteni. Még ha ellenőrzöd is, hogy a fizikai arany külső része valódi, a belső része lehet volfrám vagy más, nem arany fém. Az egyetlen módja annak, hogy valóban ellenőrizd, birtoklod-e a fizikai aranyat, amelyről azt hiszed, az az olvasztás.",
 	"point_7_summary_1": "Ahogyan 100 fillér van 1 forintban, úgy 100 000 000 sat van 1 Bitcoinban. Ez lehetővé teszi, hogy a Bitcoint bármilyen méretű vásárlásra használják, beleértve a néhány filléres mikrotranzakciókat is.",
-	"point_7_summary_2": "Ez teszi a Bitcoint alkalmassá az üzleti felhasználásra.",
-	"point_7_summary_3": "Mivel a fizikai aranyat nehéz felosztani, nem használható könnyen vásárlásokra, különösen kis vásárlásokra."
+	"point_7_summary_2": "Ez teszi a Bitcoint alkalmassá az üzleti felhasználásra."
 }

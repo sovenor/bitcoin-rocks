@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Gotovina",
-	"cash_header": "RAZLIKA IZMEĐU",
-	"cash_header_2": "BITCOINA",
-	"cash_header_3": "I",
-	"cash_header_4": "GOTOVINE",
 	"cash_intro_1": "Gotovina se koristi kao novac već stoljećima i ostaje najčešći oblik fizičkog novca u svijetu.",
 	"cash_intro_2": "Bitcoin je digitalni novac stvoren 2009. koji djeluje neovisno o bilo kojoj vladi ili središnjoj vlasti.",
 	"cash_intro_3": "Ali kako se fizička gotovina razlikuje od digitalnog novca poput Bitcoina? Istražimo ključne razlike između ova dva oblika novca: Bitcoina i gotovine.",

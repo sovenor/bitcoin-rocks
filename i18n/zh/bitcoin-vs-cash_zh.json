@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_vs_cash": "比特币 vs 现金",
-	"cash_header": "两者之间的区别",
-	"cash_header_2": "比特币",
-	"cash_header_3": "和",
-	"cash_header_4": "现金",
 	"cash_intro_1": "现金作为货币已有数百年历史，至今仍是全球最常见的实物货币形式。",
 	"cash_intro_2": "比特币是2009年创建的数字货币，独立于任何政府或中央权威运行。",
 	"cash_intro_3": "但实物现金与比特币这种数字货币有何不同？让我们看看两种货币形式之间的关键差异：比特币和现金。",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"bitcoin_vs_banks": "I-Bitcoin vs Amabhange",
-	"banks_header": "UMEHLUKO PHAKATHI",
-	"banks_header_2": "KWE-BITCOIN",
-	"banks_header_3": "KANYE",
-	"banks_header_4": "NAMABHANGE",
 	"banks_intro_1": "Amabhange alawule imali amakhulu eminyaka, esebenza njengabaphakathi bokwenza imali nesango lohlelo lwezimali.",
 	"banks_intro_2": "I-Bitcoin iyisistimu yemali yedijithali yontanga-ku-ntanga esebenza ngaphandle kwamabhange noma iziphathimandla eziyinhloko.",
 	"banks_intro_3": "Kodwa inethiwekhi ye-Bitcoin ihluke kanjani esiStimini samabhange sendabuko? Ake sihlole umehluko oyinhloko phakathi kwalezi zindlela ezimbili ezihlukene kakhulu zemali.",

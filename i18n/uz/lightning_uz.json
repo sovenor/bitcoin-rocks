@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning hamyon yoʻriqnomasi",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Bu hamyonlar pulingizga kirish uchun uchinchi tomonga ishonishingiz kerak boʻlgan bankchilik tizimiga koʻproq oʻxshaydi. Bitcoiningiz birzhada boʻlsa, emanat hamyon ishlatyapsiz.",
 	"lightning_s3_c3": "Emanat hamyonlar qulay koʻrinishi mumkin, lekin emanatchi texnik jihatdan barcha foydalanuvchi mablagʻlarini istalgan vaqt oʻgʻirlash qobiliyatiga ega.",
 	"lightning_s3_c4": "Baʼzi odamlar foydalanish qulayligi tufayli kichik miqdordagi bitcoin uchun emanat Lightning hamyonlarini afzal koʻradi. Faqat esda tuting: sizning kalitlaringiz boʻlmasa, sizning tangalaringiz emas!",
-	"lightning_question_2": "HAMYONINGIZNI TANLANG",
-	"lightning_s4_c1": "Bularning barchasini hisobga olib, endi siz uchun toʻgʻri murosa muvozanatiga ega Lightning hamyonini tanlashingiz mumkin.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Koʻp sonli xususiyatlar",
 	"lightning_mobile_app": "Mobil ilova",
 	"lightning_free": "100% bepul",
 	"lightning_merchants": "Savdogarlar uchun ajoyib",
-	"lightning_starter": "Ajoyib boshlangʻich hamyon",
-	"lightning_browser": "Brauzerda",
 	"lightning_custodial": "Toʻliq emanat hamyon",
 	"lightning_cta_hardware": "Apparat Bitcoin hamyon yoʻriqnomamizni qidiryapsizmi?"
 }

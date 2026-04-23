@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_bonds": "Bitcoin ve Tahviller",
-	"bonds_header": "ARADAKI FARK",
-	"bonds_header_2": "BİTCOİN",
-	"bonds_header_3": "VE",
-	"bonds_header_4": "TAHVİLLER",
 	"bonds_intro_1": "Devlet tahvilleri genellikle 'risksiz' olarak etiketlenir ve geleneksel finans tarafından varlık saklamanın en güvenli yeri olarak kabul edilir.",
 	"bonds_intro_2": "Bitcoin, herhangi bir hükümet veya merkezi otoriteden bağımsız olarak çalışan dijital paradır.",
 	"bonds_intro_3": "Tahviller gerçekten risksiz mi? Ve değer saklama aracı olarak Bitcoin ile nasıl karşılaştırılır? Bitcoin ile devlet tahvilleri arasındaki temel farklara bakalım.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bănci",
-	"banks_header": "DIFERENȚA DINTRE",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "ȘI",
-	"banks_header_4": "BĂNCI",
 	"banks_intro_1": "Băncile au controlat banii de secole, acționând ca intermediari pentru tranzacțiile financiare și portari ai sistemului monetar.",
 	"banks_intro_2": "Bitcoin este un sistem monetar digital peer-to-peer care funcționează fără bănci sau autorități centrale.",
 	"banks_intro_3": "Dar cum diferă rețeaua Bitcoin de sistemul bancar tradițional? Să explorăm diferențele cheie între aceste două abordări fundamental diferite ale banilor.",

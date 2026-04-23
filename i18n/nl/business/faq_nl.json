@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Veelgestelde vragen over het accepteren van Bitcoin",
 	"faq_description": "Heeft u vragen over het accepteren van Bitcoin-betalingen in uw bedrijf?",
-	"faq_header": "HEEFT U VRAGEN OVER HET ACCEPTEREN VAN BITCOIN-BETALINGEN?",
 	"faq_s1": "Wat is Bitcoin?",
 	"faq_s1_c1": "Bitcoin is twee dingen: digitaal geld en een computer netwerk.",
 	"faq_s1_c2": "U kunt bitcoin (het digitale geld) rechtstreeks naar andere mensen sturen via het Bitcoin-netwerk.",

@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "关于接受比特币的常见问题",
 	"faq_description": "对在您的企业接受比特币付款有疑问吗？",
-	"faq_header": "对接受比特币付款有疑问吗？",
 	"faq_s1": "什么是比特币？",
 	"faq_s1_c1": "比特币是两样东西：数字货币和计算机网络。",
 	"faq_s1_c2": "您可以使用比特币网络直接向他人发送比特币（数字货币）。",

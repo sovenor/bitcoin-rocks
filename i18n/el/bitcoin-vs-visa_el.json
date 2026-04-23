@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "Η ΔΙΑΦΟΡΑ",
-	"visa_header_2": "ΜΕΤΑΞΥ",
-	"visa_header_3": "BITCOIN",
-	"visa_header_4": "ΚΑΙ VISA",
 	"visa_intro_1": "Οι πιστωτικές κάρτες και το Bitcoin είναι και τα δύο συστήματα πληρωμών.",
 	"visa_intro_2": "Οι πιστωτικές κάρτες είναι κλειστά δίκτυα, ενώ το Bitcoin είναι ανοιχτό δίκτυο.",
 	"visa_intro_3": "Ας δούμε τις διαφορές: Bitcoin vs Visa.",

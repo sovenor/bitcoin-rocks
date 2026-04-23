@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-04-23",
 		"locale": "pl"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Gotówka",
-	"cash_header": "RÓŻNICA MIĘDZY",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "A",
-	"cash_header_4": "GOTÓWKĄ",
 	"cash_intro_1": "Gotówka była używana jako pieniądz przez wieki i pozostaje najczęstszą formą fizycznego pieniądza na świecie.",
 	"cash_intro_2": "Bitcoin to cyfrowy pieniądz stworzony w 2009 roku, który działa niezależnie od jakiegokolwiek rządu czy centralnej władzy.",
 	"cash_intro_3": "Ale jak fizyczna gotówka różni się od cyfrowego pieniądza jak Bitcoin? Zbadajmy kluczowe różnice między tymi dwoma formami pieniądza: Bitcoin i Gotówka.",

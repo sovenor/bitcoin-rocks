@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Nağd Pul",
-	"cash_header": "ARASINDAKI FƏRQ",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "VƏ",
-	"cash_header_4": "NAĞD PUL",
 	"cash_intro_1": "Nağd pul əsrlərdır pul kimi istifadə olunur və dünya üzrə ən geniş yayılmış fiziki pul forması olaraq qalır.",
 	"cash_intro_2": "Bitcoin 2009-cu ildə yaradılmış və hər hansı hökumət və ya mərkəzi hakimiyyətdən asılı olmayaraq işləyən rəqəmsal puldur.",
 	"cash_intro_3": "Lakin fiziki nağd pul Bitcoin kimi rəqəmsal puldan necə fərqlənir? Bu iki pul forması arasındakı əsas fərqləri araşdıraq: Bitcoin və Nağd Pul.",

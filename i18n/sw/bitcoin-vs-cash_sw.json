@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_cash": "Bitcoin dhidi ya Fedha Taslimu",
-	"cash_header": "TOFAUTI KATI YA",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "NA",
-	"cash_header_4": "FEDHA TASLIMU",
 	"cash_intro_1": "Fedha taslimu imetumika kama pesa kwa karne nyingi na inabaki aina ya kawaida zaidi ya pesa halisi duniani.",
 	"cash_intro_2": "Bitcoin ni pesa za kidijitali zilizotengenezwa mwaka 2009 zinazofanya kazi kwa kujitegemea na serikali au mamlaka kuu yoyote.",
 	"cash_intro_3": "Lakini fedha taslimu halisi inatofautianaje na pesa za kidijitali kama Bitcoin? Hebu tuchunguze tofauti kuu kati ya aina hizi mbili za pesa: Bitcoin na Fedha Taslimu.",

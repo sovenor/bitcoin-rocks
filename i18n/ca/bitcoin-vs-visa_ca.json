@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "LA DIFERÈNCIA ENTRE",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "I",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Les targetes de crèdit i Bitcoin són ambdós sistemes de pagament, però funcionen de manera molt diferent.",
 	"visa_intro_2": "Les targetes de crèdit com Visa són xarxes tancades controlades per institucions financeres, mentre que Bitcoin és una xarxa oberta que qualsevol pot utilitzar.",
 	"visa_intro_3": "Vegem les diferències entre aquests dos rails de pagament: Bitcoin i Visa.",

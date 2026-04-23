@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"cic_header": "CALCULADORA D'INFLACIÓ COMPOSTA",
 	"cic_description": "Utilitza la Calculadora d'Inflació Composta per saber quant ha d'augmentar el teu sou per mantenir-te al dia amb la inflació.",
-	"what_can_i_do_about": "Què puc fer",
-	"what_can_i_do_about_2": "sobre la inflació?",
 	"cic_inflation_cta": "Surt de la inflació amb Bitcoin"
 }

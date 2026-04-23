@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
 	},
 	"bitcoin_accepted_here_stickers": "Klistermærker – Bitcoin accepteres her",
-	"stickers_header": "FÅ GRATIS KLISTERMÆRKER «BITCOIN ACCEPTERES HER»",
-	"stickers_request": "Bestil gratis klistermærker",
-	"stickers_request_details": "Lad dine kunder vide, at du accepterer Bitcoin-betalinger med disse gratis klistermærker «Bitcoin accepteres her».",
-	"stickers_country_global_print": "Globalt — Jeg printer mine egne klistermærker",
-	"stickers_request_instructions": "Du vil modtage tre klistermærker «Bitcoin accepteres her» i en almindelig hvid kuvert. Hvis du har brug for mere end tre klistermærker til din virksomhed, er du velkommen til at bestille flere gange. Adressedata slettes efter afsendelse af gratis klistermærker.",
-	"stickers_print_details": "Du kan printe dine egne klistermærker «Bitcoin accepteres her» uanset hvor du bor! Klik på dit sprog nedenfor for at se klistermærkefiler og instruktioner.",
-	"stickers_request_language": "Kan du ikke se dit sprog? Udfyld formularen nedenfor for at anmode om klistermærkefiler «Bitcoin accepteres her» på dit sprog."
+	"stickers_request": "Bestil gratis klistermærker"
 }

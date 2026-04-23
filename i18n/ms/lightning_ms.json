@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "ms"
 	},
 	"bitcoin_lightning_wallet_guide": "Panduan Dompet Lightning Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Dompet ini lebih dekat dengan sistem perbankan, di mana anda perlu mempercayai pihak ketiga untuk memberikan akses kepada wang anda. Jika Bitcoin anda di bursa, anda menggunakan dompet kustodian.",
 	"lightning_s3_c3": "Walaupun dompet kustodian mungkin kelihatan mudah, penjaga mempunyai keupayaan teknikal untuk mencuri semua dana pengguna pada bila-bila masa.",
 	"lightning_s3_c4": "Sesetengah orang lebih suka dompet Lightning kustodian untuk jumlah kecil Bitcoin demi kemudahan penggunaan. Walau bagaimanapun, ingat: bukan kunci anda, bukan syiling anda!",
-	"lightning_question_2": "Pilih dompet anda",
-	"lightning_s4_c1": "Dengan semua ini dalam fikiran, pilih dompet Lightning yang mempunyai keseimbangan kompromi yang betul untuk anda.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Banyak ciri",
 	"lightning_mobile_app": "Aplikasi mudah alih",
 	"lightning_free": "100% percuma",
 	"lightning_merchants": "Sesuai untuk pedagang",
-	"lightning_starter": "Dompet permulaan yang disyorkan",
-	"lightning_browser": "Berasaskan pelayar",
 	"lightning_custodial": "Dompet kustodian sepenuhnya",
 	"lightning_cta_hardware": "Mencari panduan dompet perkakasan Bitcoin?"
 }

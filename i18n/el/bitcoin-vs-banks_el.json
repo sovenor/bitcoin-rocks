@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs τράπεζες",
-	"banks_header": "Η ΔΙΑΦΟΡΑ",
-	"banks_header_2": "ΜΕΤΑΞΥ",
-	"banks_header_3": "BITCOIN",
-	"banks_header_4": "ΚΑΙ ΤΡΑΠΕΖΩΝ",
 	"banks_intro_1": "Οι τράπεζες είναι ο παραδοσιακός τρόπος αποθήκευσης και μεταφοράς χρημάτων.",
 	"banks_intro_2": "Το Bitcoin είναι ένα νέο χρηματοπιστωτικό δίκτυο που λειτουργεί χωρίς μεσάζοντες.",
 	"banks_intro_3": "Ας δούμε τις διαφορές: Bitcoin vs τράπεζες.",

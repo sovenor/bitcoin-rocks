@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_lightning_wallet_guide": "Jagorar Wallet ɗin Lightning na Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Waɗannan wallets sun fi kama da tsarin banki inda dole ne ka amince da ɓangare na uku don samun kuɗinka.",
 	"lightning_s3_c3": "Wallets na ajiya za su iya zama masu sauƙi, amma mai ajiya yana da ikon fasaha na satar duk kuɗin masu amfani a kowane lokaci.",
 	"lightning_s3_c4": "Wasu mutane sun fi son wallets na Lightning na ajiya don ƙananan adadin bitcoin saboda sauƙinsu. Kawai ka tuna: ba makullan ka ba, ba tsabar kuɗin ka ba!",
-	"lightning_question_2": "ZAƁI WALLET ɗINKA",
-	"lightning_s4_c1": "Da duk wannan a zuciya, yanzu za ka iya zaɓar wallet ɗin Lightning da ke da daidaituwar kompromis da ta dace da kai.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Fasaloli da yawa",
 	"lightning_mobile_app": "Manhajar wayar hannu",
 	"lightning_free": "100% kyauta",
 	"lightning_merchants": "Mai kyau ga 'yan kasuwa",
-	"lightning_starter": "Wallet mai kyau na farawa",
-	"lightning_browser": "Na burauzar",
 	"lightning_custodial": "Wallet na ajiya cikakke",
 	"lightning_cta_hardware": "Kana neman Jagorar Wallet ɗin Hardware na Bitcoin?"
 }

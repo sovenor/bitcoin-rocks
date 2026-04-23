@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"sinhala_bitcoin_sticker_files": "Bitcoin-tarrat singaleesin kielellä",
-	"sinhala_description": "Lataa Bitcoin-tarratiedostot singaleesin kielellä.",
-	"sinhala_header": "LATAA BITCOIN-TARRAT SINGALEESIN KIELELLÄ"
+	}
 }

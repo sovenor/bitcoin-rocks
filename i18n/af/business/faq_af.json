@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Greelgestelde vrae oor Bitcoin-aanvaarding",
 	"faq_description": "Het jy vrae oor die aanvaarding van Bitcoin-betalings by jou besigheid?",
-	"faq_header": "HET JY VRAE OOR DIE AANVAARDING VAN BITCOIN-BETALINGS?",
 	"faq_s1": "Wat is Bitcoin?",
 	"faq_s1_c1": "Bitcoin is twee dinge: digitale geld en 'n rekenaarnetwerk.",
 	"faq_s1_c2": "Jy kan bitcoin (die digitale geld) direk aan ander mense stuur deur die Bitcoin-netwerk te gebruik.",

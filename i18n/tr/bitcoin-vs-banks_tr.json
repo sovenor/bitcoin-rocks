@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_banks": "Bitcoin ve Bankalar",
-	"banks_header": "ARADAKI FARK",
-	"banks_header_2": "BİTCOİN",
-	"banks_header_3": "VE",
-	"banks_header_4": "BANKALAR",
 	"banks_intro_1": "Bankalar yüzyıllardır parayı kontrol ediyor ve finansal işlemlerin aracıları ile parasal sistemin bekçileri olarak hizmet veriyor.",
 	"banks_intro_2": "Bitcoin, bankalar veya merkezi otoriteler olmadan çalışan eşler arası bir dijital para sistemidir.",
 	"banks_intro_3": "Peki Bitcoin ağı geleneksel bankacılık sisteminden nasıl farklıdır? Temelden farklı bu iki para yaklaşımı arasındaki temel farklara bakalım.",

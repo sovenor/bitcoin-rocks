@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"get_involved_and_help_spread_bitcoin": "Prisijunkite ir padėkite skleisti Bitcoin",
 	"get_involved_description": "Mūsų nemokami resursai palengvina Bitcoin priėmimo skleidimą.",
 	"get_involved_header": "PRISIJUNKITE",
-	"get_involved_header_2": "SKLEISKITE BITCOIN",
 	"get_involved_intro_1": "Gali būti slegianti gyventi dabartinėje pasaulio būklėje.",
 	"get_involved_intro_2": "Mūsų pinigai sugadinti. Dėl to pagrindiniai visuomenės elementai taip pat sugadinti.",
 	"get_involved_intro_3": "Jei jau domitės Bitcoin, žinote vilties jausmą, kurį Bitcoin gali atnešti. Viltį šviesnės ateities, kurią įgalina geresni pinigai.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Kiti lipdukai nukreipia į mūsų šviečiamąjį pagrindinį puslapį, kuris rodo žmonėms, kaip",
 	"get_involved_sticker_content_5": "Bitcoin kuria geresnį pasaulį.",
 	"get_involved_sticker_content_6": "Klijuodami šiuos lipdukus savo bendruomenėje vietose, kur žmonės juos matys, galite padėti aplinkiniais žengti pirmuosius žingsnius Bitcoin link.",
-	"get_involved_request_a": "UŽSAKYKITE",
-	"get_involved_sticker_pack": "LIPDUKŲ PAKĄ",
-	"get_involved_postcard_header": "Išsiųskite atviruką",
-	"get_involved_postcard_content_1": "Galite padėti skleisti Bitcoin viltį kam nors pažįstamam, išsiųsdami vieną iš mūsų nemokamų atvirukų.",
-	"get_involved_postcard_content_2": "Kiekvieno atviruko kitoje pusėje yra įtikinamai parašytas tekstas apie Bitcoin kartu su QR kodu sužinoti daugiau.",
-	"get_involved_postcard_content_3": "Siųsdami kam nors Bitcoin atviruką, galite padėti jiems pamatyti Bitcoin nauju kampu.",
-	"get_involved_postcard_pack": "ATVIRUKŲ PAKĄ",
 	"get_involved_business_header": "Įtraukite verslą",
 	"get_involved_business_content_1": "Norite padėti kurti Bitcoin žiedinę ekonomiką? Mūsų Bitcoin verslo rinkinys palengvina pokalbį su verslu apie Bitcoin mokėjimų priėmimą.",
 	"get_involved_business_content_2": "Kiekviename verslo rinkinyje yra skrajutės, išryškinančios Bitcoin mokėjimų priėmimo privalumus. Kiekviena skrajutė nukreipia į įvairius",
-	"get_involved_business_content_3": "nemokamus Bitcoin verslo resursus.",
-	"get_involved_business_kit": "VERSLO RINKINĮ"
+	"get_involved_business_content_3": "nemokamus Bitcoin verslo resursus."
 }

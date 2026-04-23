@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_vs_bonds": "Bitcoin da Takardun Bashi",
-	"bonds_header": "BAMBANCI TSAKANIN",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "DA",
-	"bonds_header_4": "TAKARDUN BASHI",
 	"bonds_intro_1": "Galibi ana kiran takardun bashi na gwamnati saka jari 'mara haɗari'.",
 	"bonds_intro_2": "Bitcoin kuɗi ne na dijital da ke aiki ba tare da dogaro da gwamnatoci ba.",
 	"bonds_intro_3": "Amma shin takardun bashi na gaske mara haɗari ne? Kuma yaya suke kwatankwanci da Bitcoin a matsayin mai ajiye daraja?",

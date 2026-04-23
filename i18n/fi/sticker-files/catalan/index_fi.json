@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"catalan_bitcoin_sticker_files": "Bitcoin-tarrat katalaniksi",
-	"catalan_description": "Lataa Bitcoin-tarratiedostot katalaniksi.",
-	"catalan_header": "LATAA BITCOIN-TARRAT KATALANIKSI"
+	}
 }

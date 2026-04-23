@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_crypto": "Bitcoin va Kripto",
-	"crypto_header": "FARQI",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "VA",
-	"crypto_header_4": "KRIPTO",
 	"crypto_intro_1": "Kripto valyuta sohasi minglab turli raqamli token va loyihalar bilan portladi.",
 	"crypto_intro_2": "Bitcoin birinchi va eng taniqli kripto valyuta boʻlsa-da, kripto sanoatining qolgan qismidan tubdan farq qiladi.",
 	"crypto_intro_3": "Bitcoin bilan kengroq kripto valyuta ekotizimi oʻrtasidagi asosiy farqlarga qaraylik.",

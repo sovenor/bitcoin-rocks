@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC:t",
-	"cbdc_header": "MILTÄ PITÄISI",
-	"cbdc_header_2": "DIGITAALISEN RAHAN",
-	"cbdc_header_3": "NÄYTTÄÄ?",
 	"cbdc_intro_1": "Maailmamme muuttuu yhä digitaalisemmaksi, ja niin myös rahamme.",
 	"cbdc_intro_2": "Tämä herättää kysymyksen: miltä haluamme digitaalisen rahamme näyttävän?",
 	"cbdc_intro_3": "Monet maat tutkivat keskuspankin digitaalisen valuutan (CBDC) liikkeeseenlaskua.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin on suunniteltu antamaan sinulle täydellinen hallinta rahoihisi.",
 	"point_1_summary_2": "Kukaan ei voi estää sinua tekemästä Bitcoin-tapahtumia.",
 	"point_1_summary_3": "CBDC:t on suunniteltu antamaan hallituksille täydellinen hallinta rahoihisi.",
-	"point_1_summary_4": "CBDC:t rajoittavat yksityisyyttäsi ja vapauttasi.",
 	"point_2_summary_1": "Bitcoin ei koskaan vanhene eikä sillä ole kuukausimaksuja.",
 	"point_2_summary_2": "CBDC:t voidaan ohjelmoida vanhenemaan.",
 	"point_2_summary_3": "Kun CBDC:t vanhenevat, ne estävät sinua säästämästä tulevaisuutta varten.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin-osoitteet ovat pseudonyymejä, mikä tarkoittaa, etteivät ne ole yhteydessä nimiin tai henkilöllisyyteen. CBDC:t ovat suoraan yhteydessä henkilöllisyyteesi.",
 	"point_5_summary_1": "Bitcoin-verkko on hajautettu.",
 	"point_5_summary_2": "Kymmenettuhannet itsenäiset solmut vahvistavat verkon säännöt.",
-	"point_5_summary_3": "CBDC:t ovat keskitettyjä hallituksen ja keskuspankkien käsiin.",
 	"point_6_summary_1": "Bitcoin sallii kenen tahansa ajaa solmua, joka todentaa verkon sääntöjen noudattamisen. CBDC:t eivät salli solmujen ajamista.",
 	"point_7_summary_1": "Bitcoin on suunniteltu tekemään rahojesi jäädyttäminen mahdottomaksi. CBDC:t on suunniteltu helpottamaan rahojesi jäädyttämistä.",
 	"point_8_summary_1": "Bitcoin on suunniteltu antamaan sinulle täysi hallinta rahoihisi.",
 	"point_8_summary_2": "Varmista vain, että siirrät ne omahallintaan.",
 	"point_8_summary_3": "Kun hallinnoit bitcoiniasi itse, kukaan ei voi estää pääsyäsi rahoihisi.",
-	"point_8_summary_4": "CBDC:t vaativat luottamaan säilyttäjiin, kuten pankkiin tai hallitukseen.",
 	"point_9_summary_1": "Bitcoinilla on ennustettava, koodiin kirjattu rahapolitiikka, jota ei voi muuttaa. CBDC:illä on rahapolitiikka, jota voidaan helposti muuttaa.",
 	"point_9_summary_2": "Tämä johtaa inflaatioon, kun poliitikot painavat liikaa rahaa.",
 	"point_10_summary_1": "Bitcoin on turvallisin koskaan olemassa ollut tietokoneverkko, eikä sitä ole koskaan hakkeroitu. CBDC:t luottavat hallituksiin ja pankkeihin verkon turvaamisessa."

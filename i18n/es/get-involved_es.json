@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-20",
+		"last-updated": "2026-04-23",
 		"locale": "es"
 	},
 	"get_involved_and_help_spread_bitcoin": "Participa y ayuda a la difusión de Bitcoin",
 	"get_involved_description": "Nuestros recursos gratuitos facilitan la difusión de la adopción de Bitcoin.",
 	"get_involved_header": "PARTICIPA",
-	"get_involved_header_2": "DIFUNDE BITCOIN",
 	"get_involved_intro_1": "Puede ser deprimente vivir en el estado actual de nuestro mundo.",
 	"get_involved_intro_2": "Nuestro dinero está roto. Como resultado, piezas fundamentales de la sociedad también están rotas.",
 	"get_involved_intro_3": "Si ya estás metido en Bitcoin, conoces el sentimiento de esperanza que Bitcoin puede aportar. La esperanza de un futuro más brillante hecho posible por un dinero mejor.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Los otros stickers enlazan a nuestra página de inicio educativa que muestra a la gente cómo",
 	"get_involved_sticker_content_5": "Bitcoin está construyendo un mundo mejor.",
 	"get_involved_sticker_content_6": "Colocando estas pegatinas en tu comunidad en lugares donde la gente las vea, puedes ayudar a los que te rodean a dar sus primeros pasos en la madriguera del conejo Bitcoin.",
-	"get_involved_request_a": "SOLICITAR UN",
-	"get_involved_sticker_pack": "PACK DE STICKERS",
-	"get_involved_postcard_header": "Envía una carta postal",
-	"get_involved_postcard_content_1": "Puedes ayudar a difundir la Esperanza de Bitcoin a alguien que conozcas enviándole una de nuestras cartas postales gratuitas.",
-	"get_involved_postcard_content_2": "El reverso de cada postal contiene una reseña convincente sobre Bitcoin junto con un código QR para obtener más información.",
-	"get_involved_postcard_content_3": "Al enviar a alguien una postal de Bitcoin, puedes ayudarle a ver Bitcoin de una forma nueva.",
-	"get_involved_postcard_pack": "PACK DE POSTALES",
 	"get_involved_business_header": "Involúcrate con un negocio",
 	"get_involved_business_content_1": "¿Quieres ayudar a construir la economía circular de Bitcoin? Nuestro Kit de Negocios Bitcoin hace que sea fácil acercarse a un negocio para aceptar pagos Bitcoin.",
 	"get_involved_business_content_2": "Cada kit de negocio incluye folletos que destacan los pros de aceptar pagos Bitcoin. Cada folleto enlaza con una variedad de",
-	"get_involved_business_content_3": "recursos empresariales gratuitos sobre Bitcoin.",
-	"get_involved_business_kit": "KIT PARA EMPRESAS"
+	"get_involved_business_content_3": "recursos empresariales gratuitos sobre Bitcoin."
 }

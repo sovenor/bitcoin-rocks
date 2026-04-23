@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_lightning_wallet_guide": "Treoir Sparán Lightning Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Tá na sparáin seo níos cosúla leis an gcóras baincéireachta inar gá duit muinín a bheith agat as tríú páirtí chun rochtain ar d'airgead a thabhairt duit. Má tá do Bitcoin ar mhalartán, tá tú ag úsáid sparán coimhdeachta.",
 	"lightning_s3_c3": "D'fhéadfadh sparáin choimhdeachta a bheith áisiúil, ach tá an cumas teicniúil ag an gcoimhdeachtóir cistí úsáideoirí ar fad a ghoid am ar bith.",
 	"lightning_s3_c4": "Is fearr le roinnt daoine sparáin Lightning choimhdeachta do mhéideanna beaga bitcoin mar gheall ar a n-éascaíocht úsáide. Cuimhnigh: ní hé d'eochracha, ní hé do bhoinn!",
-	"lightning_question_2": "ROGHNAIGH DO SPARÁN",
-	"lightning_s4_c1": "Leis an méid sin ar fad i gcuimhne, is féidir leat anois an sparán lightning a roghnú a bhfuil an chothromaíocht chomhbhabhtála ceart agat.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Go leor gnéithe",
 	"lightning_mobile_app": "Aip mhóibíleach",
 	"lightning_free": "100% saor in aisce",
 	"lightning_merchants": "Iontach do cheannaithe",
-	"lightning_starter": "Sparán iontach le tosú",
-	"lightning_browser": "Bunaithe ar bhrabhsálaí",
 	"lightning_custodial": "Sparán go hiomlán coimhdeachta",
 	"lightning_cta_hardware": "Ag lorg ár dTreoir Sparán Crua-earraí Bitcoin?"
 }

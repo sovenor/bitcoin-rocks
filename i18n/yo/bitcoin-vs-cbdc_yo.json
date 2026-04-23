@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-23",
 		"locale": "yo"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin pẹ̀lú Àwọn CBDC",
-	"cbdc_header": "KÍNÍ NI OWÓ",
-	"cbdc_header_2": "ONI-NỌMÍBÀ",
-	"cbdc_header_3": "GBỌ̀DỌ̀ RÌ?",
 	"cbdc_intro_1": "Àgbáyé wa ń di oni-nọ́míbà síì, bẹ́ẹ̀ náà ni owó wa.",
 	"cbdc_intro_2": "Èyí bèèrè ìbèèrè: kíni a fẹ́ kí owó oni-nọ́míbà wa rí?",
 	"cbdc_intro_3": "Ọ̀pọ̀lọ pọ̀ orílẹ̀-èdè ń ṣàwárí ṣíṣàjàdé Owó Oni-nọ́míbà Ilé-ìfòwópàmó́ Ààrìn (CBDC) èyí tí jẹ́ irú owó ìkálẹ̀ wa tó jẹ́ oni-nọ́míbà pátápátá.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin ti ṣẹ̀dá láti fun ọ ní àṣẹ kikun lórí owó rẹ.",
 	"point_1_summary_2": "Kò sí ẹ̀níkan tó lè da ọ́ dúró láti ṣe iṣòwò pẹ̀lú Bitcoin.",
 	"point_1_summary_3": "Àwọn CBDC ti ṣẹ̀dá láti fun àwọn ìkálẹ̀ àti àwọn ilé-ìfòwópàmó́ ààrìn ní àṣẹ kikun lórí owó rẹ.",
-	"point_1_summary_4": "Àwọn CBDC máa ń din àdání rẹ kù àti òmìnìra rẹ.",
 	"point_2_summary_1": "Bitcoin kò parí láéláé kò sì ní owó ìsàn oṣoọ̀ṣè.",
 	"point_2_summary_2": "A lè ṣètò àwọn CBDC láti parí.",
 	"point_2_summary_3": "Nígbà tí àwọn CBDC bá parí, wọn máa ń da ọ́ dúró láti fi pamó́ fún ọ̀là.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Àwọn àdírẹ́ṣì Bitcoin jẹ́ orukọ ì̀kòkò, èyí túmọ̀ sí pé wọn kò so mó́ orukọ gídi rẹ tàbí ìdanimò rẹ. Àwọn CBDC so tààrà mó́ orukọ gídi rẹ àti ìdanimò rẹ èyí tó mú kí àbòjútó owó àti ìṣàkoso nlá ṣèṣè.",
 	"point_5_summary_1": "Nẹ́tíwọ́ọ̀kì Bitcoin jẹ́ aláìpín-ààrìn.",
 	"point_5_summary_2": "Ẹgèbẹrún àwọn ógó̀ òmìnìra máa ń ṣàyẹ̀wò àwọn ofìn nẹ́tíwọ́ọ̀kì náà.",
-	"point_5_summary_3": "Àwọn CBDC jẹ́ akójọ ní ọ̀wọ́ ìkálẹ̀ àti àwọn ilé-ìfòwópàmó́ ààrìn, èyí tó fún wọn ní àṣẹ kikun lórí nẹ́tíwọ́ọ̀kì CBDC.",
 	"point_6_summary_1": "Bitcoin gba ẹ̀níkaǹkan láàyè láti ṣíṣè ógó̀ tó ṣàyẹ̀wò pé àwọn ofìn nẹ́tíwọ́ọ̀kì náà tèlé. Àwọn CBDC kò gba ẹ̀níkaǹkan láàyè láti ṣíṣè ógó̀ ó sì gbékẹ̀lé ìgbékẹ̀lé nínú ìkálẹ̀ àti àwọn ilé-ìfòwópàmó́ ààrìn.",
 	"point_7_summary_1": "Bitcoin ti ṣẹ̀dá láti mú kí ó jẹ́ aìlẹ́ṣe fún àwọn ẹ̀lòmìràn láti dí owó rẹ. Àwọn CBDC ti ṣẹ̀dá láti mú kí ó rọ̀rùn fún àwọn ìkálẹ̀ àti àwọn ilé-ìfòwópàmó́ ààrìn láti dí owó rẹ.",
 	"point_8_summary_1": "Bitcoin ti ṣẹ̀dá láti fun ọ ní àṣẹ kikun lórí owó rẹ.",
 	"point_8_summary_2": "Kàn rí dájú pé o yọ̀ ó kúrò sí àpò owó ìṣàkoso-arà.",
 	"point_8_summary_3": "Nígbà tí o bá ṣe ìṣàkoso-arà bitcoin rẹ, kò sí ẹ̀níkan tó lè da ọ́ dúró láti ní iràyè sí owó rẹ.",
-	"point_8_summary_4": "Àwọn CBDC nílò kí o gbékẹ̀lé àwọn olùṣọ́, bíí ilé-ìfòwópàmó́ tàbí ìkálẹ̀, láti tọ́jú owó rẹ fún ọ.",
 	"point_9_summary_1": "Bitcoin ní ìlànà owó tó hàn tó wà tèlẹ̀ nínú koodu tí a kò lè yí padà. Àwọn CBDC, bíí àwọn owó wa lónìí, ní ìlànà owó tí a lè yí padà ní ìrọ̀rùn.",
 	"point_9_summary_2": "Èyí máa ń fa owó ṣíṣé nígbà tí àwọn oloselu bá tẹ̀ owó púpọ̀ jù.",
 	"point_10_summary_1": "Bitcoin jẹ́ nẹ́tíwọ́ọ̀kì kọ̀mpútà tó ààbò jùlọ tí ó tíì wà rí àti pé a kò tíì hack à. Àwọn CBDC gbékẹ̀lé àwọn ìkálẹ̀ àti àwọn ilé-ìfòwópàmó́ láti ṣe ààbò nẹ́tíwọ́ọ̀kì, èyí tí a ti hack ní ìgbà púpọ̀ nínú ìtàn."

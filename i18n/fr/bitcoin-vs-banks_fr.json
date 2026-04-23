@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banques",
-	"banks_header": "LA DIFFÉRENCE ENTRE",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "ET LES",
-	"banks_header_4": "BANQUES",
 	"banks_intro_1": "Les banques contrôlent l'argent depuis des siècles, agissant comme intermédiaires pour les transactions financières et gardiens du système monétaire.",
 	"banks_intro_2": "Bitcoin est un système d'argent numérique pair-à-pair qui fonctionne sans banques ni autorités centrales.",
 	"banks_intro_3": "Mais comment le réseau Bitcoin diffère-t-il du système bancaire traditionnel ? Explorons les différences clés entre ces deux approches fondamentalement différentes de l'argent.",

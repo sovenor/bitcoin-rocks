@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"how_to_accept_bitcoin_payments": "Kako sprejemati bitcoinova plačila",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibridne denarnice:",
 	"wallets_intro_5": "Te vam omogočajo zamenjavo katerega koli deleža Bitcoina za dolarje, takoj ko vam stranka plača. Provizije so še vedno nižje kot pri kreditnih karticah, vendar višje kot pri čistih bitcoinovih plačilih.",
 	"wallets_intro_6": "Obe vrsti sta odlična načina za sprejemanje Bitcoina. Konkretna denarnica bo odvisna od velikosti in vrste vašega podjetja.",
-	"wallets_choice_sole": "denarnice za podjetja z enim lastnikom",
-	"wallets_choice_multiple": "denarnice za podjetja z več zaposlenimi",
-	"wallets_choice_online": "denarnice za spletna podjetja",
-	"wallets_choice_invoice": "denarnice za podjetja z izdajanjem računov",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

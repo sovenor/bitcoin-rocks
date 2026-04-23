@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-04-23",
 		"locale": "th"
 	},
 	"how_to_accept_bitcoin_payments": "วิธีรับการชำระเงินด้วย Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "กระเป๋าเงินไฮบริด:",
 	"wallets_intro_5": "สิ่งเหล่านี้ช่วยให้คุณสามารถแลกเปลี่ยน Bitcoin ส่วนหนึ่งเป็นดอลลาร์ได้ทันทีที่ลูกค้าจ่ายเงินให้คุณ ค่าธรรมเนียมยังคงน้อยกว่าการชำระเงินด้วยบัตรเครดิต แต่สูงกว่าการชำระเงินด้วย Bitcoin เพียงอย่างเดียว",
 	"wallets_intro_6": "ทั้งสองวิธีเป็นวิธีที่ดีในการรับ Bitcoin กระเป๋าเงินที่คุณใช้จะขึ้นอยู่กับขนาดและประเภทธุรกิจของคุณ",
-	"wallets_choice_sole": "กระเป๋าเงินสำหรับธุรกิจที่เป็นเจ้าของรายบุคคล",
-	"wallets_choice_multiple": "กระเป๋าเงินสำหรับธุรกิจที่มีพนักงานหลายคน",
-	"wallets_choice_online": "กระเป๋าเงินสำหรับธุรกิจออนไลน์",
-	"wallets_choice_invoice": "กระเป๋าเงินสำหรับธุรกิจตามใบแจ้งหนี้",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

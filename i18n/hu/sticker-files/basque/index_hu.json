@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"basque_bitcoin_sticker_files": "Baszk Bitcoin matricafájlok",
-	"basque_description": "Töltsd le a Bitcoin matricafájlokat baszk nyelven.",
-	"basque_header": "BASZK BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

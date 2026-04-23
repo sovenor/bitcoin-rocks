@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Krypto",
-	"crypto_header": "ROZDIEL MEDZI",
-	"crypto_header_2": "BITCOINOM",
-	"crypto_header_3": "A",
-	"crypto_header_4": "KRYPTOM",
 	"crypto_intro_1": "Priestor kryptomien explodoval tisícami rôznych digitálnych tokenov a projektov.",
 	"crypto_intro_2": "Zatiaľ čo Bitcoin bol prvý a zostáva najznámejšou kryptomenou, je zásadne odlišný od zvyšku kryptopriemyslu.",
 	"crypto_intro_3": "Pozrime sa na kľúčové rozdiely medzi Bitcoinom a širším ekosystémom kryptomien.",

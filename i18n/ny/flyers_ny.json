@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"free_bitcoin_flyers": "Mapepala a Bitcoin aulere kuchokera ku bitcoin.rocks",
 	"flyers_description": "Sindikizani pepala la Bitcoin kunyumba ndipo muliyike poyera kuti anthu okhala nawo pafupi aphunzire.",
-	"flyers_header_1": "SINDIKIZANI NDI KUTCHERA",
-	"flyers_header_2": "MAPEPALA A BITCOIN",
 	"flyers_intro_header": "MOMWE MUNGASINDIKIZIRE NDI KUTCHERA MAPEPALA A BITCOIN AWA",
 	"flyers_intro_c1": "Cholinga chathu ndi kukuthandizani kubweretsa anthu ambiri ku Bitcoin poyika mapepala a Bitcoin poyera. Pepala ili ndi QR code yomwe imalumikizana ndi",
 	"flyers_intro_c2": "webusayiti yathu yophunzitsa ya Bitcoin.",
-	"flyers_intro_c3": "kukwera kwa mitengo",
 	"flyers_intro_c4": "Sindikizani pepala ili kunyumba kwanu kapena ku malo osindikizira. Kenako, liyikeni pa mabodo a zizindikiro, mitengo ya foni mdera lanu, ndi malo ena oyera pomwe anthu angathe kuliona ndi kuphunzira za Bitcoin.",
 	"flyers_intro_c5": "Pomwe mukuchita izi, pemphani paketi ya",
 	"flyers_intro_c6": "zitikiti za Bitcoin zaulere",

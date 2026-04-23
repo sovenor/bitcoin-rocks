@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_visa": "Bitcoin prieš Visa",
-	"visa_header": "SKIRTUMAS TARP",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "IR",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kredito kortelės ir Bitcoin yra abi mokėjimų sistemos, bet jos veikia labai skirtingai.",
 	"visa_intro_2": "Kredito kortelės kaip Visa yra uždari tinklai, kontroliuojami finansinių institucijų, o Bitcoin yra atviras tinklas, kurį gali naudoti bet kas.",
 	"visa_intro_3": "Pažvelkime į skirtumus tarp šių dviejų mokėjimų infrastruktūrų: Bitcoin ir Visa.",

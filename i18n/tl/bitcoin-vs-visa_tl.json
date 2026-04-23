@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "ANG PAGKAKAIBA NG",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "AT",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Ang mga credit card at Bitcoin ay parehong sistema ng pagbabayad, ngunit gumagana sila nang ibang-iba.",
 	"visa_intro_2": "Ang mga credit card tulad ng Visa ay mga saradong network na kontrolado ng mga institusyong pinansyal, habang ang Bitcoin ay isang bukas na network na maaaring gamitin ng sinuman.",
 	"visa_intro_3": "Tingnan natin ang mga pagkakaiba sa pagitan ng dalawang payment rail na ito: Bitcoin at Visa.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs İncəsənət",
-	"fine_art_header": "ARASINDAKI FƏRQ",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "VƏ",
-	"fine_art_header_4": "İNCƏSƏNƏT",
 	"fine_art_intro_1": "İncəsənət əsrlərdır lüks investisiya olub və varlıqlı kolleksionerlər tərəfindən dəyər saxlama vasitəsi olaraq görülür.",
 	"fine_art_intro_2": "Bitcoin bir çoxları tərəfindən dəyər saxlama vasitəsi və investisiya olaraq görülən rəqəmsal puldur.",
 	"fine_art_intro_3": "Lakin fiziki sənət əsəri Bitcoin kimi rəqəmsal puldan necə fərqlənir? İki investisiya forması arasındakı fərqlərə nəzər salaq: Bitcoin və İncəsənət.",

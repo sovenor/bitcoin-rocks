@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"bitcoin_lightning_wallet_guide": "比特币闪电钱包指南",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "这些钱包更类似于银行系统，您必须信任第三方来给您使用资金的权限。如果您的比特币在交易所，您使用的就是托管钱包。",
 	"lightning_s3_c3": "托管钱包看起来很方便，但托管人在技术上有能力随时窃取所有用户的资金。",
 	"lightning_s3_c4": "有些人因为易用性而更喜欢用托管闪电钱包存放小额比特币。只是记住：不是您的密钥，不是您的币！",
-	"lightning_question_2": "选择您的钱包",
-	"lightning_s4_c1": "考虑到以上所有因素，您现在可以选择权衡平衡最适合您的闪电钱包。",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "功能丰富",
 	"lightning_mobile_app": "手机应用",
 	"lightning_free": "100%免费",
 	"lightning_merchants": "适合商家",
-	"lightning_starter": "优秀的入门钱包",
-	"lightning_browser": "在浏览器中",
 	"lightning_custodial": "完全托管钱包",
 	"lightning_cta_hardware": "正在寻找我们的硬件比特币钱包指南？"
 }

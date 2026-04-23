@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"bitcoin_vs_visa": "Bitcoin so với Visa",
-	"visa_header": "SỰ KHÁC BIỆT GIỮA",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "VÀ",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Thẻ tín dụng và Bitcoin đều là hệ thống thanh toán, nhưng hoạt động rất khác nhau.",
 	"visa_intro_2": "Thẻ tín dụng như Visa là mạng đóng được kiểm soát bởi các tổ chức tài chính, trong khi Bitcoin là mạng mở mà bất kỳ ai cũng có thể sử dụng.",
 	"visa_intro_3": "Hãy xem sự khác biệt giữa hai hệ thống thanh toán: Bitcoin & Visa.",

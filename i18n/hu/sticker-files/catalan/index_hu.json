@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"catalan_bitcoin_sticker_files": "Katalán Bitcoin matricafájlok",
-	"catalan_description": "Töltsd le a Bitcoin matricafájlokat katalán nyelven.",
-	"catalan_header": "KATALÁN BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

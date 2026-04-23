@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"free_bitcoin_stickers": "Ilmaiset Bitcoin-tarrat bitcoin.rocksilta",
 	"stickers_description": "Laita Bitcoin-tarra julkiselle paikalle oranssipilleröidäksesi ympärilläsi olevat.",
-	"stickers_header": "ILMAISET BITCOIN-TARRAT",
-	"stickers_choose_header": "VALITSE TARRAPAKETTISI",
-	"stickers_choose_c1": "Tehtävänämme on auttaa sinua oranssipilleröimään enemmän ihmisiä laittamalla Bitcoin-tarroja julkisille paikoille. Kaikissa tarroissa on QR-koodit, jotka linkittävät opetussivuille aiheesta",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflaatio",
-	"stickers_choose_c4": "Valitse tarrapakettisi alla",
 	"stickers_text_pack": "TEKSTIPAKETTI",
 	"stickers_signs_pack": "KYLTTIPAKETTI",
 	"stickers_instructions_1": "Syötä postiosoitteesi, niin lähetämme sinulle ilmaisen Bitcoin-tarrapaketin postissa! Tarrasi lähetetään tavallisessa valkoisessa kirjekuoressa.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Samalla tulosta ja kiinnitä omat ",
 	"stickers_flyers_link_text": "Bitcoin-lentolehtisesi",
 	"stickers_flyers_link_after": " auttaaksesi oranssipilleröimään vielä enemmän ihmisiä.",
-	"stickers_country_global_print": "Maailmanlaajuinen — Tulostan omat tarrani",
-	"stickers_country_global_order": "Maailmanlaajuinen — Tilaa suuri erä",
 	"placeholder_name_optional": "Nimi (valinnainen)",
 	"placeholder_address_line_1": "Osoiterivi 1",
 	"placeholder_address_line_2": "Osoiterivi 2 (valinnainen)",

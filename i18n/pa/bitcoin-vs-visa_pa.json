@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "pa"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "ਦੋਨੋਂ ਮੇਂ ਕ੍ਯਾ ਅਂਤਰ ਹੈ",
-	"visa_header_2": "Bitcoin",
-	"visa_header_3": "ਔਰ",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "ਕ੍ਰੇਡਿਟ ਕਾਰ੍ਡ ਔਰ Bitcoin ਦੋਨੋਂ ਭੁਗਤਾਨ ਪ੍ਰਣਾਲਿਯਾਂ ਹੈਂ, ਲੇਕਿਨ ਬਿਲ੍ਕੁਲ ਅਲਗ ਤਰੀਕੇ ਸੇ ਕਾਮ ਕਰਤੀ ਹੈਂ੤",
 	"visa_intro_2": "Visa ਜੈਸੇ ਕ੍ਰੇਡਿਟ ਕਾਰ੍ਡ ਬਂਦ ਨੇਟਵਰ੍ਕ ਹੈਂ, ਜਬਕਿ Bitcoin ਖੁਲਾ ਨੇਟਵਰ੍ਕ ਹੈ੤",
 	"visa_intro_3": "ਆਇਏ ਇਨ ਦੋ ਭੁਗਤਾਨ ਬੁਨਿਯਾਦੀ ਢਾਂਚੋਂ ਕੇ ਅਂਤਰ ਦੇਖੇਂ੤",

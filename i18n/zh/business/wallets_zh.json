@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "zh"
 	},
 	"how_to_accept_bitcoin_payments": "如何接受比特币付款",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "混合钱包：",
 	"wallets_intro_5": "这些钱包允许您在客户付款后，将任意比例的比特币兑换为美元。费用仍然低于信用卡，但高于纯比特币付款。",
 	"wallets_intro_6": "两种类型都是接受比特币的好方法。具体使用哪种钱包取决于您企业的规模和类型。",
-	"wallets_choice_sole": "适合个体经营者的钱包",
-	"wallets_choice_multiple": "适合有多名员工的企业的钱包",
-	"wallets_choice_online": "适合在线企业的钱包",
-	"wallets_choice_invoice": "适合开发票企业的钱包",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

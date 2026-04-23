@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"bitcoin_vs_crypto": "비트코인 vs 암호화폐",
-	"crypto_header": "차이점 비교",
-	"crypto_header_2": "비트코인",
-	"crypto_header_3": "과",
-	"crypto_header_4": "암호화폐",
 	"crypto_intro_1": "암호화폐 분야는 수천 가지의 다양한 디지털 토큰과 프로젝트로 폭발적으로 성장했습니다.",
 	"crypto_intro_2": "비트코인은 최초이자 가장 잘 알려진 암호화폐이지만, 나머지 암호화폐 산업과 근본적으로 다릅니다.",
 	"crypto_intro_3": "비트코인과 더 넓은 암호화폐 생태계의 주요 차이점을 살펴보겠습니다.",

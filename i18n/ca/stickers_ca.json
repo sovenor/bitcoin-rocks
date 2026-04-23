@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"free_bitcoin_stickers": "Adhesius de Bitcoin gratuïts de bitcoin.rocks",
 	"stickers_description": "Posa un adhesiu de Bitcoin en públic per fer que els que t'envolten s'apassionin per Bitcoin.",
-	"stickers_header": "ADHESIUS DE BITCOIN GRATUÏTS",
-	"stickers_choose_header": "TRIA EL TEU PAQUET D'ADHESIUS",
-	"stickers_choose_c1": "La nostra missió és ajudar-te a fer que més gent s'apassioni per Bitcoin posant adhesius de Bitcoin en públic. Tots els nostres adhesius tenen codis QR que enllaçen a pàgines educatives sobre",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflació",
-	"stickers_choose_c4": "Tria el teu paquet d'adhesius a continuació",
 	"stickers_text_pack": "EL PAQUET DE TEXT",
 	"stickers_signs_pack": "EL PAQUET DE CARTELLS",
 	"stickers_instructions_1": "Introdueix la teva adreça postal i t'enviarem un paquet d'adhesius de Bitcoin gratuït per correu! Els teus adhesius s'enviaran en un sobre blanc pla.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Ja que hi ets, imprimeix i penja els teus propis ",
 	"stickers_flyers_link_text": "fulletons de Bitcoin",
 	"stickers_flyers_link_after": " per ajudar a fer que encara més gent s'apassioni per Bitcoin.",
-	"stickers_country_global_print": "Global — Imprimeix els meus propis adhesius",
-	"stickers_country_global_order": "Global — Demana al per major",
 	"placeholder_name_optional": "Nom (opcional)",
 	"placeholder_address_line_1": "Línia d'adreça 1",
 	"placeholder_address_line_2": "Línia d'adreça 2 (opcional)",

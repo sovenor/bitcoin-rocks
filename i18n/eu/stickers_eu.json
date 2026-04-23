@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"free_bitcoin_stickers": "Bitcoin eranskailu doakoak bitcoin.rocks-etik",
 	"stickers_description": "Jarri Bitcoin eranskailu bat leku publikoan zure ingurukoak orange pill egiteko.",
-	"stickers_header": "BITCOIN ERANSKAILU DOAKOAK",
-	"stickers_choose_header": "AUKERATU ZURE ERANSKAILU PAKETEA",
-	"stickers_choose_c1": "Gure helburua jende gehiago orange pill egiten laguntzea da Bitcoin eranskailuak leku publikoetan jarriz. Gure eranskailu guztiek QR kodeak dituzte hezkuntza orrialdetara esteka dutenak",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflazioa",
-	"stickers_choose_c4": "Aukeratu zure eranskailu paketea behean",
 	"stickers_text_pack": "TESTU PAKETEA",
 	"stickers_signs_pack": "SEINALE PAKETEA",
 	"stickers_instructions_1": "Sartu zure posta-helbidea eta doako Bitcoin eranskailu pakete bat bidaliko dizugu postaz! Zure eranskailuak gutun-azal zuri batean bidaliko dira.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Bitartean, inprimatu eta jarri zure ",
 	"stickers_flyers_link_text": "Bitcoin liburuxkak",
 	"stickers_flyers_link_after": " jende gehiago orange pill egiteko.",
-	"stickers_country_global_print": "Mundua — Nire eranskailuak inprimatu",
-	"stickers_country_global_order": "Mundua — Handizkako eskatu",
 	"placeholder_name_optional": "Izena (aukerakoa)",
 	"placeholder_address_line_1": "Helbide 1. lerroa",
 	"placeholder_address_line_2": "Helbide 2. lerroa (aukerakoa)",

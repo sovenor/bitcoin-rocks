@@ -3,16 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
 	},
 	"sticker_success_1": "A matricáidat 2-4 héten belül megkapod. Addig is gondolj egy jó helyre, ahová felragaszthatod őket!",
-	"sticker_success_2": "Jó matricahelyek:",
 	"sticker_success_list_1": "nyilvános helyen, ahol az emberek meglátják őket",
 	"sticker_success_list_2": "olyan helyen, ahonnan valószínűleg nem távolítják el őket gyorsan (a matricák nem okoznak maradandó kárt)",
 	"sticker_success_list_3": "olyan felületen, amelyre könnyen tapadnak (fém, műanyag, üveg)",
 	"sticker_success_list_4": "NEM magántulajdonra, táblákra, bankautomatákra vagy benzinkutakra",
-	"sticker_success_3": "Szeretnéd látni, hová ragasztják mások a matricáikat?",
-	"sticker_success_flyers_bar_new": "ÚJ!",
-	"sticker_success_flyers_bar_cta": "Nyomtasd ki és ragaszd ki a Bitcoin szórólapokat →"
+	"sticker_success_3": "Szeretnéd látni, hová ragasztják mások a matricáikat?"
 }

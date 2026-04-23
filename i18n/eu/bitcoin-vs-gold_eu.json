@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Urrea",
-	"gold_header": "ARTEKO ALDEA",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "ETA",
-	"gold_header_4": "URREA",
 	"gold_intro_1": "Urrea milaka urtez erabili da diru gisa eta askok finantza-babes gisa ikusten dute.",
 	"gold_intro_2": "Bitcoin 2009an sortutako diru digitala da eta askok finantza-babes gisa ere ikusten dute.",
 	"gold_intro_3": "Baina nola desberdintzen da urrea bezalako metal fisikoa Bitcoin bezalako diru digital batetik? Ikus ditzagun bi diru-forma hauen arteko desberdintasunak: Bitcoin eta Urrea.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoin-ek 21 Milioi BTC-ko muga zurrun bat du inoiz existituko den guztietan.",
 	"point_3_summary_2": "Urre-eskaintza berria lurretik ateratzen da urtero, guztizko eskaintzaren inflazioa eraginez. Urtero urrearen guztizko eskaintza %1.6 inguru handitzen dela kalkulatzen da, eta horrek esan nahi du zure tarta-zatia %1.6 txikitzen dela urtero.",
 	"point_3_summary_3": "Hau fiat inflazioa baino txikiagoa da, baina oraindik ere inflazioa da.",
-	"point_3_summary_4": "Bitcoin-ekin, zure tarta-zatia inoiz ez da txikitzen.",
 	"point_4_summary_1": "Urreak eskaintza elastikoa du, eta horrek esan nahi du urrearen prezioa igotzen den heinean, urre gehiago ateratzeko pizgarri handiagoa dagoela. Honek sarritan beheranzko presioa jartzen du urrearen prezioan meatzaritza berri gune berriak martxan jartzen direnean.",
 	"point_4_summary_2": "Bitcoin-ekin, prezioa zenbat igo den axola gabe, ezin duzu 21M Bitcoin baino gehiago egin.",
 	"point_4_summary_3": "Bitcoin prezioaren eta eskaintzaren arteko harreman inelastikoa duen lehen aktiboa da.",
 	"point_5_summary_1": "Bitcoin sarea deszentralizatua da.",
 	"point_5_summary_2": "Hamar milaka nodo independentek sarearen arauak balioztatzen dituzte.",
-	"point_5_summary_3": "Erabiltzaileek haien Bitcoin-en auto-zaintza har dezakete aplikazio bat deskargatuz.",
-	"point_5_summary_4": "Urre fisikoaren auto-zaintza posible den arren, urre fisiko gehiena zaintzaileen jabetzako ganga handietan gordetzen da, fisikoki zentralizatua bihurtuz.",
 	"point_6_summary_1": "Bitcoin-ekin, izugarri erraza da benetako Bitcoin duzula egiaztatzea zure txanponen auto-zaintza hartuz eta nodo osoa exekutatuz.",
 	"point_6_summary_2": "Auto-zaintza aplikazio bat deskargatzea bezain sinplea da.",
 	"point_6_summary_3": "Nodo oso bat sarearen arauak betetzen direla bermatzen duen software sinple bat da, eta benetako Bitcoin duzula egiaztatzen du.",
-	"point_6_summary_4": "Urre fisikoa oso zaila izan daiteke benetakoa dela egiaztatzea. Nahiz eta urre fisikoaren kanpoko zatia benetakoa dela egiaztatu, zure urre fisiko pieza barrukoa Tungsteno edo urrea ez den beste metal bat izan daiteke. Benetan zure uste duzun urre fisikoa duzula egiaztatzeko modu bakarra urtzea da.",
 	"point_7_summary_1": "Dolar 1ean 100 zentimo dauden bezala, Bitcoin 1ean 100.000.000 sat daude. Honek Bitcoin-ek erosketa-eskala guztietarako erabiltzeko aukera ematen du, zentimo gutxi batzuen mikro-transakzioak barne.",
-	"point_7_summary_2": "Honek Bitcoin negoziorako ona bihurtzen du.",
-	"point_7_summary_3": "Urre fisikoa zatitzeko zaila denez, ezin da erraz erabili erosketarako, bereziki erosketa txikietarako."
+	"point_7_summary_2": "Honek Bitcoin negoziorako ona bihurtzen du."
 }

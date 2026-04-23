@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "he"
 	},
 	"cic_header": "מחשבון אינפלציה מצטברת",
 	"cic_description": "השתמשו במחשבון האינפלציה המצטברת כדי לגלות בכמה המשכורת שלך צריכה לעלות כדי לעמוד בקצב האינפלציה.",
-	"what_can_i_do_about": "מה אפשר לעשות לגבי",
-	"what_can_i_do_about_2": "אינפלציה?",
 	"cic_inflation_cta": "צא מהאינפלציה עם ביטקוין"
 }

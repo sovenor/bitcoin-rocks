@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"bitcoin_lightning_wallet_guide": "Hướng Dẫn Ví Lightning Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Các ví này tương tự hệ thống ngân hàng nơi bạn phải tin tưởng bên thứ ba cấp quyền truy cập tiền. Nếu Bitcoin trên sàn giao dịch, bạn đang dùng ví lưu ký.",
 	"lightning_s3_c3": "Ví lưu ký có vẻ tiện lợi, nhưng tổ chức lưu ký có khả năng kỹ thuật đánh cắp tất cả tiền người dùng bất cứ lúc nào.",
 	"lightning_s3_c4": "Một số người thích ví Lightning lưu ký cho số lượng bitcoin nhỏ vì dễ sử dụng. Hãy nhớ: không phải khóa của bạn, không phải coin của bạn!",
-	"lightning_question_2": "CHỌN VÍ CỦA BẠN",
-	"lightning_s4_c1": "Với tất cả những điều này, bây giờ bạn có thể chọn ví lightning có sự cân bằng đánh đổi phù hợp.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Nhiều tính năng",
 	"lightning_mobile_app": "Ứng dụng di động",
 	"lightning_free": "Miễn phí 100%",
 	"lightning_merchants": "Tuyệt vời cho thương nhân",
-	"lightning_starter": "Ví khởi đầu tuyệt vời",
-	"lightning_browser": "Dựa trên trình duyệt",
 	"lightning_custodial": "Ví lưu ký hoàn toàn",
 	"lightning_cta_hardware": "Tìm Hướng Dẫn Ví Phần Cứng Bitcoin?"
 }

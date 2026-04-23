@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin ve Gayrimenkul",
-	"real_estate_header": "ARADAKI FARK",
-	"real_estate_header_2": "BİTCOİN",
-	"real_estate_header_3": "VE",
-	"real_estate_header_4": "GAYRİMENKUL",
 	"real_estate_intro_1": "Gayrimenkul onlarca yıldır popüler bir yatırımdır ve genellikle istikrarlı değer saklama aracı olarak kabul edilir.",
 	"real_estate_intro_2": "Bitcoin, 2009 yılında oluşturulan, birçok kişi tarafından değer saklama aracı ve yatırım olarak da görülen dijital paradır.",
 	"real_estate_intro_3": "Peki fiziksel gayrimenkul, Bitcoin gibi dijital paradan nasıl farklıdır? İki yatırım biçimi arasındaki farklara bakalım: Bitcoin ve Gayrimenkul.",

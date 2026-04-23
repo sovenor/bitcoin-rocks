@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "HET VERSCHIL TUSSEN",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "EN",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Creditcards en Bitcoin zijn beide betalingssystemen, maar ze werken heel anders.",
 	"visa_intro_2": "Creditcards zoals Visa zijn gesloten netwerken die gecontroleerd worden door financiële instellingen, terwijl Bitcoin een open netwerk is dat iedereen kan gebruiken.",
 	"visa_intro_3": "Laten we kijken naar de verschillen tussen deze twee betalingsrails: Bitcoin & Visa.",

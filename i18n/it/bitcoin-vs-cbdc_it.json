@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDCs",
-	"cbdc_header": "COME DOVREBBE",
-	"cbdc_header_2": "ESSERE IL",
-	"cbdc_header_3": "DENARO DIGITALE?",
 	"cbdc_intro_1": "Il nostro mondo sta diventando sempre più digitalizzato, e cosi anche il nostro denaro.",
 	"cbdc_intro_2": "Sorge spontanea una domanda: come vogliamo che sia il nostro denaro digitale?",
 	"cbdc_intro_3": "Molti paesi stanno sperimentando la Valuta Digitale della Banca Centrale (Central Banck Digital Currency o CBDC) che è una versione completamente digitale della valuta di stato attualmente a corso legale.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin è progettato per darti il controllo assoluto dei tuoi soldi.",
 	"point_1_summary_2": "Nessuno può impedirti di fare transazioni in Bitcoin.",
 	"point_1_summary_3": "Le CBDC sono progettate per dare ai governi e alle banche centrali controllo assoluto sui tuoi soldi.",
-	"point_1_summary_4": "Le CBDC limitano la tua privacy e libertà.",
 	"point_2_summary_1": "I Bitcoin non scadono mai e non hanno costi mensili.",
 	"point_2_summary_2": "Le CBDC possono essere programmate per scadere.",
 	"point_2_summary_3": "Quando le CBDC scadono, ti impediscono di risparmiare per il tuo futuro.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Gli indirizzi Bitcoin sono pseudonimi, ovvero non sono connessi alla tua identità. Le CBDC sono direttamente collegate alla tua identità, il che permette sorveglianza finanziara e censura massive.",
 	"point_5_summary_1": "Il network di Bitcoin è decentralizzato.",
 	"point_5_summary_2": "Decine di migliaia di nodi indipendenti validano e applicano le regole del network.",
-	"point_5_summary_3": "Le CBDC sono centralizzate nelle mani dei governi e delle banche centrali, i quali hanno il controllo completo sul network.",
 	"point_6_summary_1": "Bitcoin ti permette di avere un tuo nodo che verifica che le regole del network vengano rispettate. Le CBDC non permettono a nessuno di avere un proprio nodo e ripongono tutta la fiducia nei governi e nelle banche centrali.",
 	"point_7_summary_1": "Bitcoin è progettato per rendere impossibile a tutti gli altri confiscare il tuo denaro. Le CBDC sono progettate per rendere facile a governi e banche centrali confiscare il tuo denaro.",
 	"point_8_summary_1": "Bitcoin è progettato per darti il controllo assoluto dei tuoi soldi.",
 	"point_8_summary_2": "Assicurati soltanto di detenerli in un wallet di tua proprietà.",
 	"point_8_summary_3": "Quando sei custode dei tuoi bitcoin, nessuno può impedirti di accedere al tuo denaro.",
-	"point_8_summary_4": "Le CBDC ti obbligano ad affidarti ad un custode, come una banca o un governo, che custodisce i tuoi soldi per te.",
 	"point_9_summary_1": "Bitcoin ha una politica monetaria prevedibile perchè scritta nel codice e non può essere modificata. Le CBDC, come le valute di oggi, hanno una politica monetaria facile da cambiare.",
 	"point_9_summary_2": "Questo genera l'inflazione quando i politici stampano troppi soldi.",
 	"point_10_summary_1": "Bitcoin è il network più sicuro mai esistito e non è mai stato hackerato. Le CBDC si affidano a governi e banche centrali per la sicurezza del network, i quali sono stati hackerati numerose volte nel corso della storia."

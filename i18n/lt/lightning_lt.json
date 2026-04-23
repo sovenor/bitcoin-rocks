@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning piniginių vadovas",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Šios piniginės labiau panašios į bankų sistemą, kur turite pasitikėti trečiąja šalimi dėl prieigos prie savo pinigų. Jei jūsų Bitcoin yra biržoje, naudojate globėjišką piniginę.",
 	"lightning_s3_c3": "Globėjiškos piniginės gali atrodyti patogios, bet globėjas turi techninę galimybę pavogti visus naudotojų pinigus bet kuriuo metu.",
 	"lightning_s3_c4": "Kai kurie žmonės pageidauja globėjiškų Lightning piniginių mažoms bitcoin sumoms dėl jų naudojimo paprastumo. Tiesiog atsiminkite: ne jūsų raktai, ne jūsų monetos!",
-	"lightning_question_2": "PASIRINKITE SAVO PINIGINĘ",
-	"lightning_s4_c1": "Turint visa tai omenyje, dabar galite pasirinkti Lightning piniginę su tinkamu kompromisų balansu jums.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Daug funkcijų",
 	"lightning_mobile_app": "Mobilioji programėlė",
 	"lightning_free": "100% nemokama",
 	"lightning_merchants": "Puikiai tinka prekiautojams",
-	"lightning_starter": "Puiki pradinė piniginė",
-	"lightning_browser": "Naršyklės pagrindu",
 	"lightning_custodial": "Pilnai globėjiška piniginė",
 	"lightning_cta_hardware": "Ieškote mūsų Bitcoin aparatūrinių piniginių vadovo?"
 }

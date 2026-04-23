@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"get_involved_and_help_spread_bitcoin": "Katılın ve Bitcoin'i yaymaya yardımcı olun",
 	"get_involved_description": "Ücretsiz kaynaklarımız Bitcoin'in benimsenmesini yaymayı kolaylaştırır.",
 	"get_involved_header": "KATILIN",
-	"get_involved_header_2": "BİTCOİN'İ YAYIN",
 	"get_involved_intro_1": "Dünyamızın mevcut durumunda yaşamak moral bozucu olabilir.",
 	"get_involved_intro_2": "Paramız bozuk. Sonuç olarak toplumun temel parçaları da bozuk.",
 	"get_involved_intro_3": "Bitcoin'le zaten ilgileniyorsanız, Bitcoin'in getireceği umut hissini bilirsiniz. Daha iyi paranın mümkün kıldığı daha iyi bir geleceğe umut.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Diğer çıkartmalar, insanlara nasıl",
 	"get_involved_sticker_content_5": "Bitcoin daha iyi bir dünya inşa ediyor",
 	"get_involved_sticker_content_6": "olduğunu gösteren eğitim ana sayfamıza yönlendiriyor.",
-	"get_involved_request_a": "BİR TALEP EDİN",
-	"get_involved_sticker_pack": "ÇIKARTMA PAKETİ",
-	"get_involved_postcard_header": "Bir kartpostal gönderin",
-	"get_involved_postcard_content_1": "Ücretsiz kartpostallarımızdan birini göndererek tanıdığınız birine Bitcoin umudunu yaymaya yardımcı olabilirsiniz.",
-	"get_involved_postcard_content_2": "Her kartpostalın arka yüzünde Bitcoin hakkında ikna edici bir metin ve daha fazla bilgi için bir QR kodu bulunur.",
-	"get_involved_postcard_content_3": "Bir Bitcoin kartpostalı göndererek birinin Bitcoin'i yeni bir ışıkta görmesine yardımcı olabilirsiniz.",
-	"get_involved_postcard_pack": "KARTPOSTAL PAKETİ",
 	"get_involved_business_header": "Bir işletmeyi dahil edin",
 	"get_involved_business_content_1": "Bitcoin döngüsel ekonomisi kurmaya yardımcı olmak ister misiniz? Bitcoin işletme kitimiz, bir işletmeye Bitcoin ödemelerini kabul etme konusunda yaklaşmayı kolaylaştırır.",
 	"get_involved_business_content_2": "Her işletme kiti, Bitcoin ödemelerini kabul etmenin avantajlarını vurgulayan broşürler içerir. Her broşür farklı",
-	"get_involved_business_content_3": "ücretsiz Bitcoin işletme kaynaklarına yönlendirir.",
-	"get_involved_business_kit": "İŞLETME KİTİ"
+	"get_involved_business_content_3": "ücretsiz Bitcoin işletme kaynaklarına yönlendirir."
 }

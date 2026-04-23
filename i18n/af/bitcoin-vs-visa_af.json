@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "DIE VERSKIL TUSSEN",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "EN",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kredietkaarte en Bitcoin is albei betalingstelsels, maar hulle werk baie verskillend.",
 	"visa_intro_2": "Kredietkaarte soos Visa is geslote netwerke wat deur finansiële instellings beheer word, terwyl Bitcoin 'n oop netwerk is wat enigiemand kan gebruik.",
 	"visa_intro_3": "Kom ons kyk na die verskille tussen hierdie twee betalingsrails: Bitcoin en Visa.",

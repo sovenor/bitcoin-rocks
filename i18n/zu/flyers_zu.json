@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"free_bitcoin_flyers": "Amaphepha e-Bitcoin Amahhala evela ku-bitcoin.rocks",
 	"flyers_description": "Phrinta iphepha le-Bitcoin ekhaya bese ulibeka emphakathini ukuze u-orange pill abakuzungezile.",
-	"flyers_header_1": "PHRINTA & NAMATHISELA",
-	"flyers_header_2": "AMAPHEPHA E-BITCOIN",
 	"flyers_intro_header": "INDLELA YOKUPHRINTA & YOKUNAMATHISELA LA MAPHEPHA E-BITCOIN",
 	"flyers_intro_c1": "Umgomo wethu ukukusiza u-orange pill abantu abaningi ngokubeka amaphepha e-Bitcoin emphakathini. Leli phepha linekhodi ye-QR exhumana ne",
 	"flyers_intro_c2": "webhusayithi yethu yemfundo ye-Bitcoin.",
-	"flyers_intro_c3": "infleshini",
 	"flyers_intro_c4": "Phrinta leli phepha ekhaya noma endaweni yokuphrinta. Bese ulibeka emabhodi wezimemezelo, ezinsikeni zocingo edolobheni, nasezinye izindawo zomphakathi lapho abantu bengalibona futhi bafunde nge-Bitcoin.",
 	"flyers_intro_c5": "Ngenkathi ukwenza, cela iphakethe lethu le",
 	"flyers_intro_c6": "zitika ze-Bitcoin zamahhala",

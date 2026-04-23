@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "sk"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "ROZDIEL MEDZI",
-	"visa_header_2": "BITCOINOM",
-	"visa_header_3": "A",
-	"visa_header_4": "VISOU",
 	"visa_intro_1": "Kreditné karty a Bitcoin sú oba platobné systémy, ale fungujú veľmi odlišne.",
 	"visa_intro_2": "Kreditné karty ako Visa sú uzavreté siete kontrolované finančnými inštitúciami, zatiaľ čo Bitcoin je otvorená sieť, ktorú môže používať ktokoľvek.",
 	"visa_intro_3": "Pozrime sa na rozdiely medzi týmito dvoma platobnými infraštruktúrami: Bitcoinom a Visou.",

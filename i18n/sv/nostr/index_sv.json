@@ -3,9 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
-	},
-	"escape_the_matrix_with_nostr": "Fly från Matrisen med Nostr",
-	"nostr_header": "FLY FRÅN MATRISEN MED NOSTR"
+	}
 }

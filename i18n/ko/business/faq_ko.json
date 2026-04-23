@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "비트코인 수납에 관한 자주 묻는 질문",
 	"faq_description": "비즈니스에서 비트코인 결제를 받는 것에 대해 궁금한 점이 있으신가요?",
-	"faq_header": "비트코인 결제 수납에 대해 궁금한 점이 있으신가요?",
 	"faq_s1": "비트코인이란?",
 	"faq_s1_c1": "비트코인에는 두 가지 측면이 있습니다: 디지털 화폐와 컴퓨터 네트워크입니다.",
 	"faq_s1_c2": "비트코인 네트워크를 사용하여 비트코인(디지털 화폐)을 다른 사람에게 직접 보낼 수 있습니다.",

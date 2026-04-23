@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Səhmlər",
-	"stocks_header": "ARASINDAKI FƏRQ",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "VƏ",
-	"stocks_header_4": "SƏHMLƏR",
 	"stocks_intro_1": "Səhmlər onilliklərdir populyar investisiya olub və şirkətlərdə mülkiyyət paylarını təmsil edir.",
 	"stocks_intro_2": "Bitcoin 2009-cu ildə yaradılmış və hər hansı şirkət və ya hökumətdən asılı olmayaraq işləyən rəqəmsal puldur.",
 	"stocks_intro_3": "Lakin şirkətdə pay sahibi olmaq Bitcoin kimi rəqəmsal pula sahib olmaqdan necə fərqlənir? İki investisiya forması arasındakı fərqlərə nəzər salaq: Bitcoin və Səhmlər.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin-in 21 milyon BTC-lik sərt tavanı var.",
 	"point_2_summary_2": "Şirkətlər istənilən vaxt yeni səhmlər buraxa bilərlər ki, bu da mövcud səhmdarların mülkiyyət faizini azaldır. Bu o deməkdir ki, yeni səhmlər yaradıldıqda şirkətdəki pay dilimınız kiçilir.",
 	"point_2_summary_3": "Bu fiat inflyasiyasından azdır, lakin yenə seyrəltmədir.",
-	"point_2_summary_4": "Bitcoin ilə sizin pay diliminiz heç vaxt kiçilmir.",
 	"point_3_summary_1": "Bitcoin tək uğursuzluq nöqtəsi olmayan mərkəzsizləşdirilmiş şəbəkədə işləyir. Səhm investisiyaları əsas şəxs riskinə tabedir - CEO və ya digər əsas liderlər gedərsə, xəstələnərsə və ya pis qərarlar verərsə, investisiyanız əhəmiyyətli dərəcədə zərər görə bilər. Şirkətlər rəhbərlik qruplarından çox asılıdır.",
 	"point_4_summary_1": "Bitcoin-in qiyməti tamamilə bazar tələb və təklifinə görə müəyyən olunur. Səhm qiymətləri tez-tez Q/M nisbətləri (Qiymət-Qazanc) istifadə edərək qiymətləndirilir ki, bu da investorların şirkət gəlirinin hər dolları üçün nə qədər ödədiyini göstərir. Yüksək Q/M nisbətləri aşağı qiymətləndirilmiş səhmləri göstərə bilər ki, bu da ədalətli dəyəri müəyyən etməyi çətinləşdirir.",
 	"point_5_summary_1": "Bitcoin qlobal birjalarda gündə 24 saat, həftədə 7 gün ticarət edilir.",
 	"point_5_summary_2": "Bitcoin mərkəzsizləşdirilibdir",
-	"point_5_summary_3": " və heç vaxt yatmır.",
-	"point_5_summary_4": "Səhm bazarları yalnız həftə günləri iş saatlarında açıqdır ki, bu da investisiyalarınızı nə vaxt alıb-sata biləcəyinizi məhdudlaşdırır.",
 	"point_6_summary_1": "Bitcoin ilə sikkələrinizi özünüz saxlaya bilərsiniz, yəni heç bir üçüncü tərəfə bel bağlamadan həqiqətən onlara sahibsiniz.",
 	"point_6_summary_2": "Özünə saxlama tətbiq endirmək qədər sadədir.",
 	"point_6_summary_3": "Səhmlər broker hesabı tələb edir və qarşı tərəf riskinə tabedir - şirkət müflisləşsə və ya brokerlik uğursuz olsa, investisiyanızı itirə bilərsiniz.",
-	"point_6_summary_4": "Səhm sertifikatlarına birbaşa heç vaxt sahiblik etmirsiniz.",
 	"point_7_summary_1": "Bitcoin 21 milyon Bitcoin-in mövcud olacağı sərt tavan ilə sabit tədarük aktividir. Bu onu əla inflyasiya müdafiəsi edir. Səhmlərin inflyasiyaya qarşı dəyişən performansı var - bəzi şirkətlər inflyasiya dövrlərində yaxşı nəticə göstərir, digərləri isə çətinlik çəkir. Hər hansı xüsusi səhmin inflyasiyadan qoruyacağına zəmanət yoxdur."
 }

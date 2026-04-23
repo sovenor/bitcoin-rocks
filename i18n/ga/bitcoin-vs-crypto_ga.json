@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Cripteá",
-	"crypto_header": "AN DIFRÍOCHT IDIR",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "AGUS",
-	"crypto_header_4": "CRIPTEÁ",
 	"crypto_intro_1": "Tá pléascadh tagtha ar an spás criptea-airgeadra le na mílte comharthaí agus tionscadail dhigiteacha éagsúla.",
 	"crypto_intro_2": "Cé gurb é Bitcoin an chéad cheann agus go bhfuil sé fós ar an gcripteá-airgeadra is cáiliúla, tá sé go bunúsach difriúil ón gcuid eile den tionscal cripteá.",
 	"crypto_intro_3": "Déanaimis iniúchadh ar na príomhdhifríochtaí idir Bitcoin agus an éiceachóras cripteá-airgeadra níos leithne.",

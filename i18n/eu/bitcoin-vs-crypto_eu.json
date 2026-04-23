@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
-	"crypto_header": "ARTEKO ALDEA",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "ETA",
-	"crypto_header_4": "CRYPTO",
 	"crypto_intro_1": "Kriptomoneta-esparrua milaka token eta proiektu digital desberdinekin lehertu da.",
 	"crypto_intro_2": "Bitcoin lehena eta ezagunena den arren, funtsean desberdina da kriptomoneta-industriaren gainerakotik.",
 	"crypto_intro_3": "Aztertu ditzagun Bitcoin eta kriptomoneta ekosistema zabalaren arteko desberdintasun nagusiak.",

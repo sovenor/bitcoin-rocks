@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "vi"
 	},
 	"free_bitcoin_stickers": "Nhãn dán Bitcoin miễn phí từ bitcoin.rocks",
 	"stickers_description": "Dán nhãn dán bitcoin ở nơi công cộng để giới thiệu Bitcoin cho mọi người xung quanh.",
-	"stickers_header": "NHÃN DÁN BITCOIN MIỄN PHÍ",
-	"stickers_choose_header": "CHỌN GÓI NHÃN DÁN CỦA BẠN",
-	"stickers_choose_c1": "Sứ mệnh của chúng tôi là giúp bạn giới thiệu Bitcoin cho nhiều người hơn bằng cách dán nhãn dán Bitcoin ở nơi công cộng. Tất cả nhãn dán có mã QR liên kết đến trang giáo dục về",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "lạm phát",
-	"stickers_choose_c4": "Chọn gói nhãn dán bên dưới",
 	"stickers_text_pack": "GÓI CHỮ",
 	"stickers_signs_pack": "GÓI BIỂN",
 	"stickers_instructions_1": "Nhập địa chỉ gửi thư và chúng tôi sẽ gửi cho bạn Gói Nhãn Dán Bitcoin miễn phí qua đường bưu điện! Nhãn dán sẽ được gửi trong phong bì trắng.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Đồng thời, in & dán ",
 	"stickers_flyers_link_text": "tờ rơi Bitcoin",
 	"stickers_flyers_link_after": " để giới thiệu Bitcoin cho nhiều người hơn.",
-	"stickers_country_global_print": "Toàn cầu — Tự in nhãn dán",
-	"stickers_country_global_order": "Toàn cầu — Đặt số lượng lớn",
 	"placeholder_name_optional": "Tên (tùy chọn)",
 	"placeholder_address_line_1": "Dòng địa chỉ 1",
 	"placeholder_address_line_2": "Dòng địa chỉ 2 (tùy chọn)",

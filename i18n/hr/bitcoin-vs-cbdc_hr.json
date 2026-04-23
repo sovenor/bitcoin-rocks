@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC-i",
-	"cbdc_header": "KAKO BI TREBAO",
-	"cbdc_header_2": "DIGITALNI NOVAC",
-	"cbdc_header_3": "IZGLEDATI?",
 	"cbdc_intro_1": "Naš svijet postaje sve digitalniji, pa tako i naš novac.",
 	"cbdc_intro_2": "To postavlja pitanje: kako želimo da naš digitalni novac izgleda?",
 	"cbdc_intro_3": "Mnoge zemlje istražuju izdavanje digitalne valute središnje banke (CBDC) koja je potpuno digitalni oblik naše postojeće državne valute.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin je dizajniran da vam daje potpunu kontrolu nad vašim novcem.",
 	"point_1_summary_2": "Nitko vas ne može spriječiti u transakcijama s Bitcoinom.",
 	"point_1_summary_3": "CBDC-i su dizajnirani da daju vladama i središnjim bankama potpunu kontrolu nad vašim novcem.",
-	"point_1_summary_4": "CBDC-i ograničavaju vašu privatnost i slobodu.",
 	"point_2_summary_1": "Bitcoin nikada ne istječe i nema mjesečnih naknada.",
 	"point_2_summary_2": "CBDC-i mogu biti programirani da isteknu.",
 	"point_2_summary_3": "Kada CBDC-i isteknu, sprječavaju vas da štedite za budućnost.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin adrese su pseudonimne, što znači da nisu povezane s vašim pravim imenom ili identitetom. CBDC-i su izravno povezani s vašim pravim imenom i identitetom što omogućuje masovni financijski nadzor i cenzuru.",
 	"point_5_summary_1": "Bitcoin mreža je decentralizirana.",
 	"point_5_summary_2": "Deseci tisuća neovisnih čvorova potvrđuju pravila mreže.",
-	"point_5_summary_3": "CBDC-i su centralizirani u rukama vlade i središnjih banaka, što im daje potpunu kontrolu nad CBDC mrežom.",
 	"point_6_summary_1": "Bitcoin dopušta bilo kome pokretanje čvora koji potvrđuje da se pravila mreže poštuju. CBDC-i ne dopuštaju nikome pokretanje čvorova i oslanjaju se na povjerenje u vladu i središnje banke.",
 	"point_7_summary_1": "Bitcoin je dizajniran da onemogući drugima zamrzavanje vašeg novca. CBDC-i su dizajnirani da vladama i središnjim bankama olakšaju zamrzavanje vašeg novca.",
 	"point_8_summary_1": "Bitcoin je dizajniran da vam daje potpunu kontrolu nad vašim novcem.",
 	"point_8_summary_2": "Samo se pobrinite da ga povučete na novčanik u samoskrbništvu.",
 	"point_8_summary_3": "Kada imate samoskrbništvo nad svojim bitcoinom, nitko vas ne može spriječiti u pristupu vašem novcu.",
-	"point_8_summary_4": "CBDC-i zahtijevaju da vjerujete skrbnicima, poput banke ili vlade, da drže vaš novac za vas.",
 	"point_9_summary_1": "Bitcoin ima predvidljivu monetarnu politiku koja je fiksirana u kodu i ne može se mijenjati. CBDC-i, poput naših današnjih valuta, imaju monetarnu politiku koja se lako može mijenjati.",
 	"point_9_summary_2": "To rezultira inflacijom kada političari tiskaju previše novca.",
 	"point_10_summary_1": "Bitcoin je najsigurnija računalna mreža koja je ikada postojala i nikada nije hakirana. CBDC-i se oslanjaju na vlade i banke za osiguranje mreže, koje su hakirane bezbroj puta kroz povijest."

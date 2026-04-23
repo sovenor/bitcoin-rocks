@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"french_bitcoin_sticker_files": "Bitcoin-tarrat ranskaksi",
-	"french_description": "Lataa Bitcoin-tarratiedostot ranskaksi.",
-	"french_header": "LATAA BITCOIN-TARRAT RANSKAKSI"
+	}
 }

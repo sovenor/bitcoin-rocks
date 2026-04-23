@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "fr"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "FAQ à propos du Bitcoin",
 	"faq_description": "Vous voulez savoir comment accepter des paiements en bitcoin dans votre entreprise ?",
-	"faq_header": "VOUS VOULEZ SAVOIR COMMENT ACCEPTER DES PAIEMENTS EN BITCOIN ?",
 	"faq_s1": "le bitcoin c'est quoi ?",
 	"faq_s1_c1": "Le bitcoin est composé de deux éléments : une monnaie numérique et un réseau informatique.",
 	"faq_s1_c2": "Vous pouvez envoyer des bitcoin (la monnaie numérique) directement à d'autres personnes en utilisant le réseau Bitcoin (le réseau informatique).",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"bitcoin_lightning_wallet_guide": "Guida ai Portafogli Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Questi portafogli sono più simili al sistema bancario dove devi fidarti di una terza parte per darti accesso al tuo denaro. Se i tuoi Bitcoin sono su un exchange, stai usando un portafoglio custodiale.",
 	"lightning_s3_c3": "I portafogli custodiali possono sembrare convenienti, ma il custode ha la capacità tecnica di rubare tutti i fondi degli utenti in qualsiasi momento.",
 	"lightning_s3_c4": "Alcune persone preferiscono i portafogli Lightning custodiali per piccole quantità di bitcoin per la loro facilità d'uso. Ricorda solo: non le tue chiavi, non le tue monete!",
-	"lightning_question_2": "SCEGLI IL TUO PORTAFOGLIO",
-	"lightning_s4_c1": "Con tutto questo in mente, puoi ora scegliere il portafoglio Lightning che ha il giusto equilibrio di compromessi per te.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Molte funzionalità",
 	"lightning_mobile_app": "App mobile",
 	"lightning_free": "100% gratuito",
 	"lightning_merchants": "Ottimo per i commercianti",
-	"lightning_starter": "Ottimo portafoglio per iniziare",
-	"lightning_browser": "Basato su browser",
 	"lightning_custodial": "Portafoglio completamente custodiale",
 	"lightning_cta_hardware": "Cerchi la nostra Guida ai Portafogli Hardware Bitcoin?"
 }

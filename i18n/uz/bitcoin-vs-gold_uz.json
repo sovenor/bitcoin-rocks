@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_vs_gold": "Bitcoin va Oltin",
-	"gold_header": "FARQI",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "VA",
-	"gold_header_4": "OLTIN",
 	"gold_intro_1": "Oltin minglab yillar davomida pul sifatida ishlatilgan va koʻpchilik tomonidan moliyaviy xavfsiz boshpana sifatida qabul qilinadi.",
 	"gold_intro_2": "Bitcoin 2009-yilda yaratilgan raqamli pul boʻlib, koʻpchilik tomonidan ham moliyaviy xavfsiz boshpana sifatida qaraladi.",
 	"gold_intro_3": "Oltin kabi jismoniy metall Bitcoin kabi raqamli puldan qanday farq qiladi? Ikki pul shakli oʻrtasidagi farqlarga qaraylik: Bitcoin va Oltin.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Bitcoinning hamma vaqt mavjud boʻladigan maksimal 21 million BTC qatʼiy chegarasi bor.",
 	"point_3_summary_2": "Har yili yangi oltin taklifi yerdan qazib olinadi va umumiy taklifga inflyatsiya keltiradi. Umumiy oltin taklifining yiliga taxminan 1,6% ga oshishi taxmin qilinadi, yaʼni pirogdagi ulushingiz har yili 1,6% ga kamayadi.",
 	"point_3_summary_3": "Bu fiat pul inflyatsiyasidan kam boʻlsada, baribir inflyatsiyadir.",
-	"point_3_summary_4": "Bitcoin bilan pirogdagi ulushingiz hech qachon kamaymaydi.",
 	"point_4_summary_1": "Oltinning elastik taklifi bor, yaʼni oltin narxi koʻtarilgan sayin, koʻproq oltin qazib olish uchun kattaroq motivatsiya paydo boʻladi. Bu yangi konlar ochilganda odatda oltin narxiga pastga bosim oʻtkazadi.",
 	"point_4_summary_2": "Bitcoin bilan narx qanchalik koʻtarilmasin, 21M Bitcoindan koʻproq yaratib boʻlmaysiz.",
 	"point_4_summary_3": "Bitcoin elastik boʻlmagan narx-taklif nisbatiga ega birinchi aktivdir.",
 	"point_5_summary_1": "Bitcoin tarmogʻi markazsizlashtirilgan.",
 	"point_5_summary_2": "Oʻn minglab mustaqil tugunlar tarmoq qoidalarini tasdiqlaydi.",
-	"point_5_summary_3": "Foydalanuvchilar ilovani yuklab olib Bitcoinni oʻz nazoratiga olishlari mumkin.",
-	"point_5_summary_4": "Jismoniy oltinni oʻz nazoratiga olish mumkin boʻlsa-da, jismoniy oltinning katta qismi saqlash muassasalariga tegishli ulkan seyflar saqlanadi, bu uni jismoniy markazlashgan qiladi.",
 	"point_6_summary_1": "Bitcoin bilan coinlaringizni oʻz nazoratiga olib va toʻliq tugun ishlatib, haqiqiy Bitcoinga ega ekanligingizni tasdiqlash nihoyatda oson.",
 	"point_6_summary_2": "Oʻz nazorati ilova yuklab olishdek oson.",
 	"point_6_summary_3": "Toʻliq tugun tarmoq qoidalariga rioya qilinishini taʼminlaydigan va haqiqiy Bitcoinga ega ekanligingizni tasdiqlaydigan oddiy dastur.",
-	"point_6_summary_4": "Jismoniy oltinning haqiqiy ekanligini tasdiqlash juda qiyin boʻlishi mumkin. Jismoniy oltin tashqi tomonining haqiqiy ekanligini tasdiqlasangiz ham, oltin quyma ichida tungsten yoki boshqa metall boʻlishi mumkin. Ega deb oʻylagan jismoniy oltingiz haqiqatan ham sizga tegishli ekanligini tasdiqlashning yagona yoʻli uni eritishdir.",
 	"point_7_summary_1": "1 dollarda 100 sent boʻlgani kabi, 1 Bitcoinda 100,000,000 satoshi bor. Bu Bitcoinni bir necha sent qiymatidagi mikro tranzaksiyalar ham kiradi, har qanday hajmdagi savdolar uchun ishlatish imkonini beradi.",
-	"point_7_summary_2": "Bu Bitcoinni bizneslar uchun yaxshi vosita qiladi.",
-	"point_7_summary_3": "Jismoniy oltin boʻlish qiyin boʻlganligi sababli, ayniqsa kichik savdolar uchun oson ishlatib boʻlmaydi."
+	"point_7_summary_2": "Bu Bitcoinni bizneslar uchun yaxshi vosita qiladi."
 }

@@ -3,15 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"bitcoin_accepted_here_stickers": "ʻBu yerda Bitcoin qabul qilinadiʻ stikerlari",
-	"stickers_header": "BEPUL ʻBU YERDA BITCOIN QABUL QILINADIʻ STIKERLARI OLING",
-	"stickers_request": "Bepul stikerlar oling",
-	"stickers_request_details": "Ushbu bepul ʻBu yerda Bitcoin qabul qilinadiʻ stikerlari bilan mijozlaringizga Bitcoin toʻlovlarini qabul qilishingizni bildiring.",
-	"stickers_country_global_print": "Butun dunyo — Oʻzim chop etaman",
-	"stickers_request_instructions": "Oddiy oq konvertda uchta ʻBu yerda Bitcoin qabul qilinadiʻ stikeri olasiz. Biznesingiz uchun uchdan koʻp stikerga muhtoj boʻlsangiz, iltimos, bir necha marta soʻrang. Manzil maʼlumotlari bepul stikerlar yuborilgandan keyin oʻchiriladi.",
-	"stickers_print_details": "Qaerda yashasangiz ham, oʻzingizning ʻBu yerda Bitcoin qabul qilinadiʻ stikerlaringizni chop etishingiz mumkin! Stiker fayllari va koʻrsatmalarni koʻrish uchun quyida tilingizni bosing.",
-	"stickers_request_language": "Tilingizni koʻrmayapsizmi? Quyidagi formani toʻldirib, oʻz tilingizdagi ʻBu yerda Bitcoin qabul qilinadiʻ stiker fayllarini soʻrang."
+	"stickers_request": "Bepul stikerlar oling"
 }

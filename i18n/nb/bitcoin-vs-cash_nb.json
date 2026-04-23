@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "nb"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs kontanter",
-	"cash_header": "FORSKJELLEN MELLOM",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "OG",
-	"cash_header_4": "KONTANTER",
 	"cash_intro_1": "Kontanter har blitt brukt som penger i århundrer og forblir den vanligste formen for fysiske penger over hele verden.",
 	"cash_intro_2": "Bitcoin er digitale penger skapt i 2009 som opererer uavhengig av enhver myndighet eller sentralmakt.",
 	"cash_intro_3": "Men hvordan skiller fysiske kontanter seg fra digitale penger som Bitcoin? La oss utforske de viktigste forskjellene mellom disse to formene for penger: Bitcoin og kontanter.",

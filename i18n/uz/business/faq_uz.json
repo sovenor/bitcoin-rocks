@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "uz"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin qabul qilish haqida tez-tez beriladigan savollar",
 	"faq_description": "Biznesingizda Bitcoin toʻlovlarini qabul qilish haqida savollaringiz bormi?",
-	"faq_header": "BITCOIN TOʻLOVLARINI QABUL QILISH HAQIDA SAVOLLARINGIZ BORMI?",
 	"faq_s1": "Bitcoin nima?",
 	"faq_s1_c1": "Bitcoin ikki narsadir: raqamli pul va kompyuter tarmogʻi.",
 	"faq_s1_c2": "Bitcoin tarmogʻi orqali boshqa odamlarga bevosita bitcoin (raqamli pul) yuborishingiz mumkin.",

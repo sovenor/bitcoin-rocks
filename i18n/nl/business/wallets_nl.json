@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "nl"
 	},
 	"how_to_accept_bitcoin_payments": "Hoe Bitcoin-betalingen accepteren",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hybrid wallets:",
 	"wallets_intro_5": "Hiermee kunt u elk deel van uw Bitcoin inwisselen voor dollars zodra een klant u betaalt. De kosten zijn nog steeds lager dan bij creditcardbetalingen, maar hoger dan bij pure Bitcoin-betalingen.",
 	"wallets_intro_6": "Beide zijn geweldige manieren om Bitcoin te accepteren. De specifieke wallet die u gebruikt, hangt af van de grootte en het type van uw bedrijf.",
-	"wallets_choice_sole": "wallets voor individuele bedrijven",
-	"wallets_choice_multiple": "wallets voor bedrijven met meerdere werknemers",
-	"wallets_choice_online": "wallets voor online bedrijven",
-	"wallets_choice_invoice": "wallets voor factuurgebaseerde bedrijven",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

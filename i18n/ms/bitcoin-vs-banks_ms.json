@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "ms"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bank",
-	"banks_header": "Apa bezanya",
-	"banks_header_2": "Bitcoin",
-	"banks_header_3": "dan",
-	"banks_header_4": "Bank",
 	"banks_intro_1": "Bank telah menguruskan wang selama berabad-abad, bertindak sebagai perantara untuk transaksi kewangan dan penjaga pintu sistem mata wang.",
 	"banks_intro_2": "Bitcoin ialah sistem wang digital rakan-ke-rakan yang beroperasi tanpa bank atau pihak berkuasa pusat.",
 	"banks_intro_3": "Jadi bagaimana rangkaian Bitcoin berbeza daripada sistem perbankan tradisional? Mari kita terokai perbezaan utama antara dua pendekatan wang yang sangat berbeza ini.",

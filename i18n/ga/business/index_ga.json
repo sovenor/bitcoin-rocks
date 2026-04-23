@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_is_good_for_business": "Tá Bitcoin go maith don ghnó",
-	"biz_header": "TÁ BITCOIN GO MAITH DON GHNÓ",
 	"biz_s1": "Táillí ísle gan íosmhéid",
 	"biz_s1_c1": "Éascaíonn Bitcoin duit íocaíochtaí a fháil go díreach ó do chuid custaiméirí, cosúil le hairgead tirim. Oibríonn líonra Bitcoin gan idirghabhálaithe cosúil le bainc agus cuideachtaí cárta creidmheasa a ghearrann táillí troma.",
 	"biz_s2": "Socrú láithreach",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-04-23",
 		"locale": "pt"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bancos",
-	"banks_header": "A DIFERENÇA ENTRE",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "E",
-	"banks_header_4": "BANCOS",
 	"banks_intro_1": "Os bancos controlam o dinheiro há séculos, atuando como intermediários para transações financeiras e guardiões do sistema monetário.",
 	"banks_intro_2": "Bitcoin é um sistema de dinheiro digital peer-to-peer que opera sem bancos ou autoridades centrais.",
 	"banks_intro_3": "Mas como a rede Bitcoin difere do sistema bancário tradicional? Vamos explorar as principais diferenças entre essas duas abordagens fundamentalmente diferentes do dinheiro.",

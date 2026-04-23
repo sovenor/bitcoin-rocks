@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDCs",
-	"cbdc_header": "ANO ANG DAPAT",
-	"cbdc_header_2": "HITSURA NG",
-	"cbdc_header_3": "DIGITAL NA PERA?",
 	"cbdc_intro_1": "Ang ating mundo ay nagiging mas digital, at ganun din ang ating pera.",
 	"cbdc_intro_2": "Itinatanong nito: ano ang gusto nating hitsura ng ating digital na pera?",
 	"cbdc_intro_3": "Maraming bansa ang nag-e-explore sa pag-issue ng Central Bank Digital Currency (CBDC) na isang ganap na digital na anyo ng ating kasalukuyang pera ng gobyerno.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Ang Bitcoin ay dinisenyo upang bigyan ka ng ganap na kontrol sa iyong pera.",
 	"point_1_summary_2": "Walang maaaring pumigil sa iyo sa pag-transact gamit ang Bitcoin.",
 	"point_1_summary_3": "Ang mga CBDC ay dinisenyo upang bigyan ang mga gobyerno at sentral na bangko ng ganap na kontrol sa iyong pera.",
-	"point_1_summary_4": "Nilimitahan ng mga CBDC ang iyong privacy at kalayaan.",
 	"point_2_summary_1": "Ang Bitcoin ay hindi kailanman nag-e-expire at walang buwanang bayarin.",
 	"point_2_summary_2": "Ang mga CBDC ay maaaring i-program na mag-expire.",
 	"point_2_summary_3": "Kapag nag-expire ang mga CBDC, pinipigilan ka nilang mag-ipon para sa hinaharap.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Ang mga Bitcoin address ay pseudonymous, na nangangahulugang hindi ito nakalink sa iyong tunay na pangalan o pagkakakilanlan. Ang mga CBDC ay direktang nakalink sa iyong tunay na pangalan at pagkakakilanlan na nagpapahintulot ng malawakang surveillance at censorship sa pinansyal.",
 	"point_5_summary_1": "Ang Bitcoin network ay desentralisado.",
 	"point_5_summary_2": "Sampu-sampung libong independiyenteng node ang nagva-validate ng mga patakaran ng network.",
-	"point_5_summary_3": "Ang mga CBDC ay sentralisado sa mga kamay ng gobyerno at sentral na bangko, na nagbibigay sa kanila ng ganap na kontrol sa CBDC network.",
 	"point_6_summary_1": "Pinapayagan ng Bitcoin ang sinuman na mag-run ng node na nagve-verify na sinusunod ang mga patakaran ng network. Ang mga CBDC ay hindi pinapayagan ang sinuman na mag-run ng mga node at umaasa sa tiwala sa gobyerno at sentral na bangko.",
 	"point_7_summary_1": "Ang Bitcoin ay dinisenyo upang gawin itong imposible para sa iba na i-freeze ang iyong pera. Ang mga CBDC ay dinisenyo upang madali para sa mga gobyerno at sentral na bangko na i-freeze ang iyong pera.",
 	"point_8_summary_1": "Ang Bitcoin ay dinisenyo upang bigyan ka ng buong kontrol sa iyong pera.",
 	"point_8_summary_2": "Siguraduhin lamang na i-withdraw ito sa isang self-custody wallet.",
 	"point_8_summary_3": "Kapag nag-self-custody ka ng iyong bitcoin, walang maaaring pumigil sa iyo sa pag-access ng iyong pera.",
-	"point_8_summary_4": "Ang mga CBDC ay nangangailangan na magtiwala ka sa mga custodian, tulad ng bangko o gobyerno, na hawakan ang iyong pera para sa iyo.",
 	"point_9_summary_1": "Ang Bitcoin ay may predictable na monetary policy na nakapirmi sa code at hindi mababago. Ang mga CBDC, tulad ng ating mga pera ngayon, ay may monetary policy na madaling baguhin.",
 	"point_9_summary_2": "Nagreresulta ito sa inflation kapag labis na nag-print ng pera ang mga politiko.",
 	"point_10_summary_1": "Ang Bitcoin ang pinakaligtas na computing network na kailanman ay umiral at hindi kailanman na-hack. Ang mga CBDC ay umaasa sa mga gobyerno at bangko upang i-secure ang network, na na-hack nang hindi mabilang na beses sa buong kasaysayan."

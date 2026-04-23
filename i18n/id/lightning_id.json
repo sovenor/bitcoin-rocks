@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-23",
 		"locale": "id"
 	},
 	"bitcoin_lightning_wallet_guide": "Panduan Dompet Lightning Bitcoin",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Dompet ini lebih mirip dengan sistem perbankan di mana Anda harus mempercayai pihak ketiga untuk memberi Anda akses ke uang Anda. Jika Bitcoin Anda ada di bursa, Anda menggunakan dompet kustodial.",
 	"lightning_s3_c3": "Dompet kustodial mungkin tampak nyaman, tetapi kustodian memiliki kemampuan teknis untuk mencuri semua dana pengguna kapan saja.",
 	"lightning_s3_c4": "Beberapa orang lebih memilih dompet Lightning kustodial untuk jumlah kecil bitcoin karena kemudahan penggunaannya. Ingat saja: bukan kunci Anda, bukan koin Anda!",
-	"lightning_question_2": "PILIH DOMPET ANDA",
-	"lightning_s4_c1": "Dengan semua ini dalam pikiran, Anda sekarang dapat memilih dompet Lightning yang memiliki keseimbangan kompromi yang tepat untuk Anda.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "DOMPET MUTINY",
 	"wallet_of_satoshi": "DOMPET SATOSHI",
 	"lightning_features": "Banyak fitur",
 	"lightning_mobile_app": "Aplikasi seluler",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Bagus untuk pedagang",
-	"lightning_starter": "Dompet pemula yang bagus",
-	"lightning_browser": "Berbasis peramban",
 	"lightning_custodial": "Dompet sepenuhnya kustodial",
 	"lightning_cta_hardware": "Mencari Panduan Dompet Perangkat Keras Bitcoin kami?"
 }

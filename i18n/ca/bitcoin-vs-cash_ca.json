@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Efectiu",
-	"cash_header": "LA DIFERÈNCIA ENTRE",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "I",
-	"cash_header_4": "L'EFECTIU",
 	"cash_intro_1": "L'efectiu s'ha utilitzat com a diners durant segles i segueix sent la forma més comuna de diners físics a tot el món.",
 	"cash_intro_2": "Bitcoin són diners digitals creats el 2009 que funcionen de manera independent de qualsevol govern o autoritat central.",
 	"cash_intro_3": "Però com es diferencia l'efectiu físic dels diners digitals com Bitcoin? Explorem les diferències clau entre aquestes dues formes de diners: Bitcoin i Efectiu.",

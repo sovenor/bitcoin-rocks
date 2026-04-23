@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs बॉन्ड",
-	"bonds_header": "दोनों में क्या अंतर है",
-	"bonds_header_2": "Bitcoin",
-	"bonds_header_3": "और",
-	"bonds_header_4": "बॉन्ड",
 	"bonds_intro_1": "सरकारी बॉन्ड को अक्सर 'जोखिम-मुक्त' निवेश कहा जाता है।",
 	"bonds_intro_2": "Bitcoin किसी भी सरकार या केंद्रीय प्राधिकरण से स्वतंत्र रूप से काम करने वाली डिजिटल मुद्रा है।",
 	"bonds_intro_3": "लेकिन क्या बॉन्ड वास्तव में जोखिम-मुक्त हैं? Bitcoin की तुलना में मूल्य भंडार के रूप में कैसे हैं?",

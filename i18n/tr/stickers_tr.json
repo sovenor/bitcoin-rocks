@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks'tan ücretsiz Bitcoin çıkartmaları",
 	"stickers_description": "Halka açık bir yere Bitcoin çıkartması yapıştırın ve çevrenizdeki insanları bilgilendirmeye yardımcı olun.",
-	"stickers_header": "ÜCRETSİZ BİTCOİN ÇIKARTMALARI",
-	"stickers_choose_header": "ÇIKARTMA PAKETİNİZİ SEÇİN",
-	"stickers_choose_c1": "Misyonumuz, Bitcoin çıkartmalarını halka açık yerlere yapıştırarak daha fazla insanı bilgilendirmenize yardımcı olmaktır. Tüm çıkartmalarımızda şu konulardaki eğitim sayfalarına yönlendiren QR kodları vardır:",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "enflasyon",
-	"stickers_choose_c4": "Aşağıdan bir çıkartma paketi seçin",
 	"stickers_text_pack": "YAZI PAKETİ",
 	"stickers_signs_pack": "İŞARET PAKETİ",
 	"stickers_instructions_1": "Posta adresinizi girin ve size ücretsiz bir Bitcoin çıkartma paketi gönderelim! Çıkartmalarınız düz beyaz bir zarfta gönderilecektir.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Bu arada, kendinize ",
 	"stickers_flyers_link_text": "Bitcoin broşürleri",
 	"stickers_flyers_link_after": " yazdırıp yapıştırarak daha fazla insanı bilgilendirmeye yardımcı olun.",
-	"stickers_country_global_print": "Dünya geneli — Kendi çıkartmalarımı basacağım",
-	"stickers_country_global_order": "Dünya geneli — Toplu sipariş ver",
 	"placeholder_name_optional": "Ad (isteğe bağlı)",
 	"placeholder_address_line_1": "Adres satırı 1",
 	"placeholder_address_line_2": "Adres satırı 2 (isteğe bağlı)",

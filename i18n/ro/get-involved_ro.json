@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"get_involved_and_help_spread_bitcoin": "Implică-te și ajută la răspândirea Bitcoin",
 	"get_involved_description": "Resursele noastre gratuite facilitează răspândirea adoptării Bitcoin.",
 	"get_involved_header": "IMPLICĂ-TE",
-	"get_involved_header_2": "RĂSPÂNDEȘTE BITCOIN",
 	"get_involved_intro_1": "Poate fi deprimant să trăiești în starea actuală a lumii noastre.",
 	"get_involved_intro_2": "Banii noștri sunt stricați. Ca rezultat, piese fundamentale ale societății sunt stricatetde asemenea.",
 	"get_involved_intro_3": "Dacă ești deja în Bitcoin, cunoști sentimentul de speranță pe care Bitcoin îl poate aduce. Speranță pentru un viitor mai luminos făcut posibil de bani mai buni.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Celelalte autocolante fac trimitere la pagina noastră educativă principală care arată oamenilor cum",
 	"get_involved_sticker_content_5": "Bitcoin construiește o lume mai bună.",
 	"get_involved_sticker_content_6": "Punând aceste autocolante în comunitatea ta în locuri unde oamenii le vor vedea, poți ajuta pe cei din jurul tău să facă primii pași în lumea Bitcoin.",
-	"get_involved_request_a": "SOLICITĂ UN",
-	"get_involved_sticker_pack": "PACHET DE AUTOCOLANTE",
-	"get_involved_postcard_header": "Trimite o carte poștală",
-	"get_involved_postcard_content_1": "Poți ajuta la răspândirea speranței Bitcoin cuiva pe care îl cunoști trimițându-i una dintre cărțile noastre poștale gratuite.",
-	"get_involved_postcard_content_2": "Spatele fiecărei cărți poștale conține un text convingător despre Bitcoin împreună cu un cod QR pentru a afla mai multe.",
-	"get_involved_postcard_content_3": "Trimițând cuiva o carte poștală Bitcoin, îl poți ajuta să vadă Bitcoin dintr-o perspectivă nouă.",
-	"get_involved_postcard_pack": "PACHET DE CĂRȚI POȘTALE",
 	"get_involved_business_header": "Integrează o afacere",
 	"get_involved_business_content_1": "Vrei să ajuți la construirea economiei circulare Bitcoin? Kitul nostru Bitcoin pentru Afaceri facilitează abordarea unei afaceri despre acceptarea plăților Bitcoin.",
 	"get_involved_business_content_2": "Fiecare kit de afaceri include fluturași care evidențiază avantajele acceptării plăților Bitcoin. Fiecare fluturaș face trimitere la o varietate de",
-	"get_involved_business_content_3": "resurse gratuite Bitcoin pentru afaceri.",
-	"get_involved_business_kit": "KIT DE AFACERI"
+	"get_involved_business_content_3": "resurse gratuite Bitcoin pentru afaceri."
 }

@@ -3,14 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"sticker_success_1": "Za ku sami stickers ɗinku cikin makonni 2 zuwa 4. Yayin da kuke jira, ku yi tunani game da wuraren da za ku liƙa stickers ɗinku!",
-	"sticker_success_2": "Wuraren sticker mafi kyau su ne:",
 	"sticker_success_list_1": "a bayyane inda mutane za su gan su",
 	"sticker_success_list_2": "a wuraren da ba za a cire su cikin sauƙi ba (stickers ba sa haifar da lalacewa ta dindindin)",
 	"sticker_success_list_3": "a saman da stickers ke manne da kyau (ƙarfe, filastik, gilashi)",
-	"sticker_success_3": "Stickers ɗinku za a aika a cikin ambulan fari mai sauƙi.",
-	"sticker_success_4": "Za a share bayanan adireshin bayan an aika stickers ɗin ku na kyauta."
+	"sticker_success_3": "Stickers ɗinku za a aika a cikin ambulan fari mai sauƙi."
 }

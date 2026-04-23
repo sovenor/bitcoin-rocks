@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-23",
 		"locale": "el"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs crypto",
-	"crypto_header": "Η ΔΙΑΦΟΡΑ",
-	"crypto_header_2": "ΜΕΤΑΞΥ",
-	"crypto_header_3": "BITCOIN",
-	"crypto_header_4": "ΚΑΙ CRYPTO",
 	"crypto_intro_1": "Ο κλάδος των κρυπτονομισμάτων έχει εκραγεί σε χιλιάδες διαφορετικά ψηφιακά tokens.",
 	"crypto_intro_2": "Ενώ το Bitcoin ήταν το πρώτο και παραμένει το πιο γνωστό, διαφέρει θεμελιωδώς.",
 	"crypto_intro_3": "Ας εξετάσουμε τις διαφορές μεταξύ Bitcoin και crypto.",

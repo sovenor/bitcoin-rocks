@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_crypto": "Bitcoin එදිරිව ක්‍රිප්ටෝ",
-	"crypto_header": "අතර වෙනස",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "සහ",
-	"crypto_header_4": "ක්‍රිප්ටෝ",
 	"crypto_intro_1": "ක්‍රිප්ටෝකරන්සි ඩිජිටල් මුදල් සඳහා සාමාන්‍ය යෙදුමක් වී ඇත.",
 	"crypto_intro_2": "Bitcoin යනු 2009 දී නිර්මාණය කරන ලද මුල් ක්‍රිප්ටෝකරන්සියය.",
 	"crypto_intro_3": "නමුත් Bitcoin අනෙක් ක්‍රිප්ටෝකරන්සිවලින් කෙසේ වෙනස් වේද? බලමු.",

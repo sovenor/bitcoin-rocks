@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning Pul Kisəsi Bələdçisi",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Bu pul kisələri pulunuza çıxış vermək üçün üçüncü tərəfə etibar etməli olduğunuz bank sisteminə daha çox bənzəyir. Bitcoin-iniz birjadadırsa, vasitəçi pul kisəsi istifadə edirsiniz.",
 	"lightning_s3_c3": "Vasitəçi pul kisələri rahat görünə bilər, lakin vasitəçinin istənilən vaxt bütün istifadəçi fondlarını oğurlamaq texniki qabiliyyəti var.",
 	"lightning_s3_c4": "Bəzi insanlar istifadə asanlığına görə kiçik bitcoin məbləğləri üçün vasitəçi Lightning pul kisələrini üstün tutur. Sadəcə unutmayın: açarlarınız deyil, sikkələriniz deyil!",
-	"lightning_question_2": "PUL KİSƏNİZİ SEÇİN",
-	"lightning_s4_c1": "Bütün bunları nəzərə alaraq, indi sizin üçün doğru güzəşt balansına sahib lightning pul kisəsini seçə bilərsiniz.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Çoxlu funksiyalar",
 	"lightning_mobile_app": "Mobil tətbiq",
 	"lightning_free": "100% pulsuz",
 	"lightning_merchants": "Ticarətçilər üçün əla",
-	"lightning_starter": "Əla başlanğıc pul kisəsi",
-	"lightning_browser": "Brauzer əsaslı",
 	"lightning_custodial": "Tam vasitəçi pul kisəsi",
 	"lightning_cta_hardware": "Bitcoin Avadanlıq Pul Kisəsi Bələdçimizi axtarırsınız?"
 }

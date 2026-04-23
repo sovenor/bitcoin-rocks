@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "es"
 	},
 	"bitcoin_lightning_wallet_guide": "Guía de carteras Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Estas carteras son más parecidas al sistema bancario donde debes confiar en un tercero para que te dé acceso a tu dinero. Si tu Bitcoin está en un exchange, estás usando una cartera de custodia.",
 	"lightning_s3_c3": "Las carteras de custodia pueden parecer convenientes, pero el custodio tiene la capacidad técnica de robar todos los fondos del usuario en cualquier momento.",
 	"lightning_s3_c4": "Algunas personas prefieren las carteras Lightning de custodia para pequeñas cantidades de bitcoin por su facilidad de uso. Sólo recuerda: ¡No son tus llaves, no son tus monedas!",
-	"lightning_question_2": "ELIGE TU CARTERA",
-	"lightning_s4_c1": "Con todo esto en mente, ya puedes elegir la cartera Lightning más adecuada para ti.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Muchas funcionalidades",
 	"lightning_mobile_app": "App móvil",
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Genial para comerciantes",
-	"lightning_starter": "Genial para empezar",
-	"lightning_browser": "Basado en navegador",
 	"lightning_custodial": "Cartera totalmente custodiada",
 	"lightning_cta_hardware": "¿Buscas nuestra guía de carteras hardware de Bitcoin?"
 }

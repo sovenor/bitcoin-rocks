@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "fa"
 	},
 	"get_involved_and_help_spread_bitcoin": "مشارکت کنید و به گسترش بیت‌کوین کمک کنید",
 	"get_involved_description": "منابع رایگان ما گسترش پذیرش بیت‌کوین را آسان‌تر می‌کنند.",
 	"get_involved_header": "مشارکت کنید",
-	"get_involved_header_2": "بیت‌کوین را گسترش دهید",
 	"get_involved_intro_1": "زندگی در وضعیت فعلی جهان می‌تواند ناامیدکننده باشد.",
 	"get_involved_intro_2": "پول ما خراب است. در نتیجه، بخش‌های اساسی جامعه هم خراب است.",
 	"get_involved_intro_3": "اگر قبلاً با بیت‌کوین آشنا هستید، حس امیدی که بیت‌کوین می‌آورد را می‌شناسید.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "سایر برچسب‌ها به صفحه اصلی آموزشی ما لینک می‌دهند که نشان می‌دهد",
 	"get_involved_sticker_content_5": "بیت‌کوین دنیایی بهتر می‌سازد.",
 	"get_involved_sticker_content_6": "با چسباندن این برچسب‌ها در جامعه‌تان، می‌توانید به اطرافیانتان کمک کنید اولین قدم‌های آشنایی با بیت‌کوین را بردارند.",
-	"get_involved_request_a": "درخواست یک",
-	"get_involved_sticker_pack": "بسته برچسب",
-	"get_involved_postcard_header": "یک کارت‌پستال بفرستید",
-	"get_involved_postcard_content_1": "می‌توانید با ارسال یکی از کارت‌پستال‌های رایگان ما امید بیت‌کوین را گسترش دهید.",
-	"get_involved_postcard_content_2": "پشت هر کارت‌پستال متنی جذاب درباره بیت‌کوین با کد QR دارد.",
-	"get_involved_postcard_content_3": "با ارسال یک کارت‌پستال بیت‌کوین، می‌توانید دید جدیدی از بیت‌کوین به کسی بدهید.",
-	"get_involved_postcard_pack": "بسته کارت‌پستال",
 	"get_involved_business_header": "یک کسب‌وکار را آنبورد کنید",
 	"get_involved_business_content_1": "می‌خواهید به ساختن اقتصاد دایره‌ای بیت‌کوین کمک کنید؟",
 	"get_involved_business_content_2": "هر بسته کسب‌وکار شامل بروشورهایی است که مزایای پذیرش پرداخت بیت‌کوین را نشان می‌دهد. هر بروشور به انواع",
-	"get_involved_business_content_3": "منابع رایگان کسب‌وکار بیت‌کوین لینک می‌دهد.",
-	"get_involved_business_kit": "بسته کسب‌وکار"
+	"get_involved_business_content_3": "منابع رایگان کسب‌وکار بیت‌کوین لینک می‌دهد."
 }

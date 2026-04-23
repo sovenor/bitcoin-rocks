@@ -3,34 +3,21 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_business_accounting_guide": "Bitcoin Biznes Mühasibatlığı Bələdçisi",
 	"accounting_description": "Biznes mühasibatlığınızda Bitcoin ödənişlərini düzgün uçota almağı öyrənin.",
-	"accounting_header": "BITCOIN MÜHASİBATLIQ BƏLƏDÇİSİ",
 	"accounting_s1_c1": "Bitcoin qəbul etmənin daha aşağı komissiyalarla ödənişlər qəbul etmək və daha çox müştəri əldə etmək kimi bir çox üstünlükləri var.",
 	"accounting_s1_c2": "Pul Kisəsi Bələdçimizdən Hibrid Pul Kisəsi istifadə edirsinizsə və qəbul etdiyiniz Bitcoin-in 100%-ni avtomatik olaraq dollarlara satırsınızsa, mövcud mühasibatlığınızda heç bir dəyişiklik etmək lazım deyil.",
-	"accounting_s1_c3": "Pul Kisəsi Bələdçisinə Bax.",
-	"accounting_s1_c4": "Lakin, qəbul etdiyiniz Bitcoin ödənişlərinin bir hissəsini Bitcoin olaraq saxlayırsınızsa, mühasibatlığınız üçün bir neçə detala nəzarət etməlisiniz. Bu ilk baxışda qorxuducu görünə bilər, lakin əslində olduqca sadədir.",
-	"accounting_s1_c5": "Qeyd: bu bələdçi yalnız məlumat məqsədlidir və vergi məsləhəti hesab edilmir.",
-	"accounting_s1_c6": "Vergi məsləhətinə ehtiyacınız varsa, Bitcoin mühasibatlığında ixtisaslaşan mühasibatlıq firması Satoshi Pacioli Mühasibatlıq Xidmətlərini tövsiyə edirik.",
 	"accounting_s2": "MAYA DƏYƏRİNİZİN İZLƏNMƏSİ",
 	"accounting_s2_c1": "Maya dəyərinizi izləmək dollarlar və Bitcoin üçün mühasibatlıq arasındakı ən böyük fərq olacaq. Biznesinizə tamamilə Bitcoin baxımından baxsanız belə, vergiləriniz üzrə hər əməliyyatın dollar dəyərini bildirməlisiniz.",
 	"accounting_s2_c2": "QuickBooks istifadə edirsinizsə, Bitcoin Sync plaqini istifadə edərək bunu avtomatik edə bilərsiniz.",
 	"accounting_s2_c3": "QuickBooks istifadə etmirsinizsə, Bitcoin mühasibatlığında ixtisaslaşan mühasibatlıq firması Satoshi Pacioli Mühasibatlıq Xidmətlərini tövsiyə edirik.",
-	"accounting_s2_c4": "Bunu əl ilə etmək üçün, sadəcə qəbul etdiyiniz Bitcoin miqdarını və həmin gün Bitcoin əməliyyatının dollar dəyərini izləməlisiniz.",
-	"accounting_s2_c5": "Bitcoin-in cari dollar qiymətinə burada baxa bilərsiniz.",
-	"accounting_s2_c6": "Bu məlumatı Excel cədvəlində izləyin və mühasibyə verin.",
-	"accounting_s2_c7": "Bu məlumatları avtomatik olaraq Excel-ə idxal edə bilərsiniz.",
-	"accounting_s2_c8": "Keçmiş günlərdə Bitcoin-in tarixi dollar qiymətinə də baxa bilərsiniz, buna görə bunu hər gün etmək məcburiyyətində deyilsiniz.",
 	"accounting_s3": "BITCOIN-İNİZİ XƏRCLƏMƏ VƏ YA SATMA",
 	"accounting_s3_c1": "Pul Kisəsi Bələdçimizdən Hibrid Pul Kisəsi istifadə edirsinizsə və qəbul etdiyiniz Bitcoin-in 100%-ni avtomatik olaraq dollarlara satırsınızsa, mövcud mühasibatlığınızda heç bir dəyişiklik etmək lazım deyil.",
 	"accounting_s3_c2": "Pul Kisəsi Bələdçisinə Bax.",
 	"accounting_s3_c3": "Qəbul etdiyiniz Bitcoin-in bir hissəsini bir müddət saxladıqdan sonra xərcləmək və ya satmaq qərarına gəlsəniz, sadəcə maya dəyərinizi izləyən Excel cədvəlinə satdığınız qiyməti əlavə etməlisiniz.",
-	"accounting_s3_c4": "Məsələn, yanvarın 1-də 100 dollar dəyərində Bitcoin qəbul etmisinizsə və fevralın 1-də 110 dollarlıq yeni dəyərdə satmaq və ya xərcləmək qərarına gəlmisinizsə, mühasibatlığınızda 10 dollarlıq kapital qazancı qeyd etməlisiniz.",
-	"accounting_s3_c5": "Bu, əks istiqamətdə də işləyə bilər. Məsələn, yanvarın 1-də 100 dollar dəyərində Bitcoin qəbul etmisinizsə və fevralın 1-də 90 dollarlıq yeni dəyərdə satmaq və ya xərcləmək qərarına gəlmisinizsə, mühasibatlığınızda 10 dollarlıq kapital itkisi qeyd etməlisiniz.",
 	"accounting_s4": "DAHA ÇOXKÖMƏK LAZIMDIR",
-	"accounting_s4_c1": "Bitcoin-i biznes mühasibatlığınıza inteqrasiya etmək üçün daha çox kömək lazımdırsa, Bitcoin mühasibatlığında ixtisaslaşan mühasibatlıq firması Satoshi Pacioli Mühasibatlıq Xidmətlərini tövsiyə edirik.",
-	"accounting_s4_c2": "Satoshi Pacioli Mühasibatlıq Xidmətləri haqqında daha çox öyrənin."
+	"accounting_s4_c1": "Bitcoin-i biznes mühasibatlığınıza inteqrasiya etmək üçün daha çox kömək lazımdırsa, Bitcoin mühasibatlığında ixtisaslaşan mühasibatlıq firması Satoshi Pacioli Mühasibatlıq Xidmətlərini tövsiyə edirik."
 }

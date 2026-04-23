@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "hi"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "दोनों में क्या अंतर है",
-	"visa_header_2": "Bitcoin",
-	"visa_header_3": "और",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "क्रेडिट कार्ड और Bitcoin दोनों भुगतान प्रणालियां हैं, लेकिन बिल्कुल अलग तरीके से काम करती हैं।",
 	"visa_intro_2": "Visa जैसे क्रेडिट कार्ड बंद नेटवर्क हैं, जबकि Bitcoin खुला नेटवर्क है।",
 	"visa_intro_3": "आइए इन दो भुगतान बुनियादी ढांचों के अंतर देखें।",

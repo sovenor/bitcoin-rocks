@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "fa"
 	},
 	"free_bitcoin_stickers": "برچسب‌های رایگان بیت‌کوین از bitcoin.rocks",
 	"stickers_description": "یک برچسب بیت‌کوین در مکان عمومی بچسبانید.",
-	"stickers_header": "برچسب‌های رایگان بیت‌کوین",
-	"stickers_choose_header": "بسته برچسب خود را انتخاب کنید",
-	"stickers_choose_c1": "مأموریت ما کمک به شماست تا با چسباندن برچسب‌های بیت‌کوین در اماکن عمومی افراد بیشتری را با بیت‌کوین آشنا کنید. همه برچسب‌ها کد QR دارند که به صفحات آموزشی درباره",
-	"stickers_choose_c2": "بیت‌کوین",
-	"stickers_choose_c3": "تورم",
-	"stickers_choose_c4": "بسته برچسب خود را در زیر انتخاب کنید",
 	"stickers_text_pack": "بسته متنی",
 	"stickers_signs_pack": "بسته تابلویی",
 	"stickers_instructions_1": "آدرس پستی خود را وارد کنید و ما یک بسته برچسب رایگان برایتان پست می‌کنیم!",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "در همین حین، ",
 	"stickers_flyers_link_text": "بروشورهای بیت‌کوین",
 	"stickers_flyers_link_after": " را چاپ و نصب کنید.",
-	"stickers_country_global_print": "جهانی — برچسب‌هایم را خودم چاپ می‌کنم",
-	"stickers_country_global_order": "جهانی — سفارش عمده",
 	"placeholder_name_optional": "نام (اختیاری)",
 	"placeholder_address_line_1": "آدرس خط ۱",
 	"placeholder_address_line_2": "آدرس خط ۲ (اختیاری)",

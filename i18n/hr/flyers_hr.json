@@ -3,17 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"free_bitcoin_flyers": "Besplatni Bitcoin letci od bitcoin.rocks",
 	"flyers_description": "Ispišite Bitcoin letak kod kuće i stavite ga na javno mjesto da upoznate ljude oko sebe s Bitcoinom.",
-	"flyers_header_1": "ISPIŠITE I ZALIJEPITE",
-	"flyers_header_2": "BITCOIN LETKE",
 	"flyers_intro_header": "KAKO ISPISATI I ZALIJEPITI OVE BITCOIN LETKE",
 	"flyers_intro_c1": "Naša misija je pomoći vam da više ljudi upoznate s Bitcoinom stavljanjem Bitcoin letaka na javna mjesta. Ovaj letak ima QR kod koji vodi na našu",
 	"flyers_intro_c2": "edukativnu Bitcoin web stranicu.",
-	"flyers_intro_c3": "inflaciju",
 	"flyers_intro_c4": "Ispišite ovaj letak kod kuće ili u kopirnici. Zatim ga zalijepite na oglasne ploče, telefonske stupove po gradu i druga javna mjesta gdje ga ljudi mogu vidjeti i naučiti o Bitcoinu.",
 	"flyers_intro_c5": "Dok ste već tu, zatražite paket naših",
 	"flyers_intro_c6": "besplatnih Bitcoin naljepnica",

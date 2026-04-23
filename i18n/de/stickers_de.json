@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-23",
 		"locale": "de"
 	},
 	"free_bitcoin_stickers": "Kostenlose Bitcoin-Sticker von bitcoin.rocks",
 	"stickers_description": "Bringe einen Bitcoin-Sticker in der Öffentlichkeit an, um die Menschen um dich herum zu Orange-Pillen.",
-	"stickers_header": "KOSTENLOSE BITCOIN-STICKER",
-	"stickers_choose_header": "WÄHLE DEIN STICKER-PAKET",
-	"stickers_choose_c1": "Unser Ziel ist es, Dir zu helfen, mehr Menschen zu Orange-Pillen, indem Du Bitcoin-Sticker in der Öffentlichkeit anbringst. Alle unsere Sticker haben QR-Codes und verlinken auf informative Seiten über",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "Inflation",
-	"stickers_choose_c4": "Wähle nachfolgend dein Sticker-Paket",
 	"stickers_text_pack": "DAS TEXT-PAKET",
 	"stickers_signs_pack": "DAS SCHILDER-PAKET",
 	"stickers_instructions_1": "Trage deine Postadresse ein und wir schicken dir ein kostenloses Bitcoin- Sticker-Paket per Post zu! Deine Sticker werden in einem schlichten weißen Briefumschlag verschickt.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Drucke und poste nebenbei auch deine eigenen ",
 	"stickers_flyers_link_text": "Bitcoin-Flyer",
 	"stickers_flyers_link_after": ", um noch mehr Menschen zu orange-pillen.",
-	"stickers_country_global_print": "Global – Sticker selber drucken",
-	"stickers_country_global_order": "Global – Sammelbestellung",
 	"placeholder_name_optional": "Name (optional)",
 	"placeholder_address_line_1": "Adresszeile 1",
 	"placeholder_address_line_2": "Adresszeile 2 (optional)",

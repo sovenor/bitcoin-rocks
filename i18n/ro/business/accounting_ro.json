@@ -3,34 +3,21 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_business_accounting_guide": "Ghid contabil Bitcoin pentru afaceri",
 	"accounting_description": "Află cum să contabilizezi corect plățile Bitcoin în contabilitatea afacerii tale.",
-	"accounting_header": "GHID CONTABIL BITCOIN",
 	"accounting_s1_c1": "Acceptarea Bitcoin are multe beneficii, precum acceptarea plăților cu comisioane mai mici și obținerea mai multor clienți.",
 	"accounting_s1_c2": "Dacă folosești un Portofel Hibrid din ghidul nostru de portofele și vinzi automat 100% din Bitcoin-ul primit pentru dolari, nu trebuie să faci nicio modificare în contabilitatea ta actuală.",
-	"accounting_s1_c3": "Vezi ghidul de portofele.",
-	"accounting_s1_c4": "Cu toate acestea, dacă păstrezi o parte din plățile Bitcoin primite ca Bitcoin, va trebui să ții evidența câtorva detalii pentru contabilitate. Poate părea intimidant la început, dar este de fapt destul de simplu.",
-	"accounting_s1_c5": "Atenție: acest ghid este doar în scop informativ și nu trebuie considerat consiliere fiscală.",
-	"accounting_s1_c6": "Dacă ai nevoie de consiliere fiscală, recomandăm cu tărie Satoshi Pacioli Accounting Services, o firmă de contabilitate specializată în contabilitatea Bitcoin.",
 	"accounting_s2": "URMĂRIREA BAZEI DE COST",
 	"accounting_s2_c1": "Urmărirea bazei de cost va fi cea mai mare diferență între contabilitatea în dolari și contabilitatea în Bitcoin. Chiar dacă vezi afacerea ta în întregime în termeni de Bitcoin, trebuie să raportezi valoarea în dolari a fiecărei tranzacții în declarația fiscală.",
 	"accounting_s2_c2": "Dacă folosești QuickBooks, poți face acest lucru automat folosind pluginul Bitcoin Sync.",
 	"accounting_s2_c3": "Dacă nu folosești QuickBooks, recomandăm Satoshi Pacioli Accounting Services, o firmă de contabilitate specializată în contabilitatea Bitcoin.",
-	"accounting_s2_c4": "Pentru a face acest lucru manual, trebuie doar să ții evidența cantității de Bitcoin primită și a valorii în dolari a tranzacției Bitcoin în acea zi.",
-	"accounting_s2_c5": "Poți vedea prețul curent în dolari al Bitcoin aici.",
-	"accounting_s2_c6": "Ține evidența acestor informații într-un tabel Excel și dă-l contabilului tău.",
-	"accounting_s2_c7": "De asemenea, poți importa aceste date în Excel automat.",
-	"accounting_s2_c8": "Poți vedea și prețul istoric în dolari al Bitcoin din zilele trecute, astfel încât nu trebuie să faci asta în fiecare zi.",
 	"accounting_s3": "CHELTUIREA SAU VÂNZAREA BITCOIN-ULUI TĂU",
 	"accounting_s3_c1": "Dacă folosești un Portofel Hibrid din ghidul nostru de portofele și vinzi automat 100% din Bitcoin-ul primit pentru dolari, nu trebuie să faci nicio modificare în contabilitatea ta actuală.",
 	"accounting_s3_c2": "Vezi ghidul de portofele.",
 	"accounting_s3_c3": "Dacă alegi să cheltuiești sau să vinzi o parte din Bitcoin-ul primit după ce l-ai deținut o perioadă, trebuie doar să adaugi prețul la care l-ai vândut în tabelul Excel care urmărește baza de cost.",
-	"accounting_s3_c4": "De exemplu, dacă ai primit Bitcoin în valoare de 100 $ pe 1 ianuarie și ai decis să îl vinzi sau cheltuiești pe 1 februarie la o valoare nouă de 110 $, ar trebui să înregistrezi un câștig de capital de 10 $ în contabilitate.",
-	"accounting_s3_c5": "Acest lucru poate funcționa și invers. De exemplu, dacă ai primit Bitcoin în valoare de 100 $ pe 1 ianuarie și ai decis să îl vinzi sau cheltuiești pe 1 februarie la o valoare nouă de 90 $, ar trebui să înregistrezi o pierdere de capital de 10 $ în contabilitate.",
 	"accounting_s4": "AM NEVOIE DE MAI MULT AJUTOR",
-	"accounting_s4_c1": "Dacă ai nevoie de mai mult ajutor pentru integrarea Bitcoin în contabilitatea afacerii tale, recomandăm cu tărie Satoshi Pacioli Accounting Services, o firmă de contabilitate specializată în contabilitatea Bitcoin.",
-	"accounting_s4_c2": "Află mai multe despre Satoshi Pacioli Accounting Services."
+	"accounting_s4_c1": "Dacă ai nevoie de mai mult ajutor pentru integrarea Bitcoin în contabilitatea afacerii tale, recomandăm cu tărie Satoshi Pacioli Accounting Services, o firmă de contabilitate specializată în contabilitatea Bitcoin."
 }

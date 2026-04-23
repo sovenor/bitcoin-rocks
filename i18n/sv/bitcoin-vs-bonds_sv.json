@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "sv"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Obligationer",
-	"bonds_header": "SKILLNADEN MELLAN",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "OCH",
-	"bonds_header_4": "OBLIGATIONER",
 	"bonds_intro_1": "Statsobligationer kallas ofta 'riskfria' investeringar och betraktas inom traditionell finans som den säkraste platsen att förvara förmögenhet.",
 	"bonds_intro_2": "Bitcoin är digitala pengar som fungerar oberoende av någon regering eller central myndighet.",
 	"bonds_intro_3": "Men är obligationer verkligen riskfria? Och hur jämförs de med Bitcoin som värdebevarare? Låt oss titta på de viktigaste skillnaderna mellan Bitcoin och statsobligationer.",

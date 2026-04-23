@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bainc",
-	"banks_header": "AN DIFRÍOCHT IDIR",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "AGUS",
-	"banks_header_4": "BAINC",
 	"banks_intro_1": "Tá smacht ag bainc ar airgead le na céadta bliain, ag gníomhú mar idirghabhálaithe d'idirbhearta airgeadais agus mar gheataí ar an gcóras airgeadaíochta.",
 	"banks_intro_2": "Is córas airgid dhigitigh piara le piara é Bitcoin a oibríonn gan bhainc nó údaráis lárnach.",
 	"banks_intro_3": "Ach conas a dhéanann líonra Bitcoin difríocht ón gcóras baincéireachta traidisiúnta? Déanaimis iniúchadh ar na príomhdhifríochtaí idir an dá chur chuige go bunúsach difriúil seo maidir le hairgead.",

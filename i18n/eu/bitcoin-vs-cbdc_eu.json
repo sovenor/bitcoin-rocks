@@ -3,13 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_cbdcs": "Bitcoin vs CBDC-ak",
-	"cbdc_header": "NOLAKOA IZAN BEHARKO LUKE",
-	"cbdc_header_2": "DIRU DIGITALAK?",
-	"cbdc_header_3": " ",
 	"cbdc_intro_1": "Gure mundua gero eta digitalagoa da, eta gure dirua ere bai.",
 	"cbdc_intro_2": "Honek galdera bat sortzen du: nolakoa nahi dugu gure diru digitala izatea?",
 	"cbdc_intro_3": "Herrialde askok Banku Zentraleko Moneta Digitala (CBDC) jaulkitzea aztertzen ari dira, gure egungo gobernu-moneta forma guztiz digitala dena.",
@@ -39,7 +36,6 @@
 	"point_1_summary_1": "Bitcoin zure diruaren kontrol osoa emateko diseinatuta dago.",
 	"point_1_summary_2": "Inork ez du Bitcoin-ekin transakzioak egitea galarazi dezake.",
 	"point_1_summary_3": "CBDC-ak gobernuei eta banku zentralei zure diruaren kontrol osoa emateko diseinatuta daude.",
-	"point_1_summary_4": "CBDC-ek zure pribatutasuna eta askatasuna mugatzen dituzte.",
 	"point_2_summary_1": "Bitcoin ez da inoiz iraungitzen eta ez du hileko komisiorik.",
 	"point_2_summary_2": "CBDC-ak iraungi ahal izateko programatu daitezke.",
 	"point_2_summary_3": "CBDC-ak iraungi egiten direnean, etorkizunerako aurreztea eragozten dizute.",
@@ -49,13 +45,11 @@
 	"point_4_summary_1": "Bitcoin helbideak pseudonimoak dira, eta horrek esan nahi du ez daudela zure benetako izenari edo identitateari lotuta. CBDC-ak zuzenean zure benetako izen eta identitateari lotuta daude, finantza-zaintza masibo eta zentsura ahalbidetuz.",
 	"point_5_summary_1": "Bitcoin sarea deszentralizatua da.",
 	"point_5_summary_2": "Hamar milaka nodo independentek sarearen arauak balioztatzen dituzte.",
-	"point_5_summary_3": "CBDC-ak gobernuaren eta banku zentralen eskuetan zentralizatuta daude, eta horrek CBDC sarearen kontrol osoa ematen die.",
 	"point_6_summary_1": "Bitcoin-ek edonori nodo bat exekutatzeko aukera ematen dio, sarearen arauak betetzen direla egiaztatzeko. CBDC-ek ez diote inori nodoak exekutatzeko baimenik eta gobernuan eta banku zentraletan konfiantzan oinarritzen dira.",
 	"point_7_summary_1": "Bitcoin zure dirua besteek izoztea ezinezkoa egiteko diseinatuta dago. CBDC-ak gobernuei eta banku zentralei zure dirua izoztea erraz egiteko diseinatuta daude.",
 	"point_8_summary_1": "Bitcoin zure diruaren kontrol osoa emateko diseinatuta dago.",
 	"point_8_summary_2": "Ziurtatu auto-zaintzako zorro batera ateratzen duzula.",
 	"point_8_summary_3": "Zure bitcoin auto-zaintzan duzunean, inork ezin du zure dirura sarbidea eragotzi.",
-	"point_8_summary_4": "CBDC-ek zaintzaileetan fidatzea eskatzen dizute, hala nola banku edo gobernu batek, zure dirua zuretzat gordetzeko.",
 	"point_9_summary_1": "Bitcoin-ek kodean finkatutako politika monetario aurreikustezina du eta ezin da aldatu. CBDC-ek, gure gaur egungo monetak bezala, erraz alda daitekeen politika monetario bat dute.",
 	"point_9_summary_2": "Honek inflazioa eragiten du politikariek diru gehiegi inprimatzen dutenean.",
 	"point_10_summary_1": "Bitcoin inoiz existitu den konputazio-sare seguruena da eta inoiz ez da hackeatua izan. CBDC-ak gobernuetan eta bankuetan oinarritzen dira sarea babesteko, eta hauek historiako hainbat alditan hackeatuak izan dira."

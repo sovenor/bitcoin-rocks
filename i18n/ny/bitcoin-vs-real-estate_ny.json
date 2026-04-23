@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ny"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin ndi Nyumba",
-	"real_estate_header": "KUSIYANA PAKATI PA",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "NDI",
-	"real_estate_header_4": "NYUMBA",
 	"real_estate_intro_1": "Nyumba zakhala chikayikidwe chodalirika kwa zaka zambiri ndipo nthawi zambiri zimaonedwa ngati malo okhazikika osungira chuma.",
 	"real_estate_intro_2": "Bitcoin ndi ndalama zadigitala zomwe zinapangidwa mu 2009 ndipo anthu ambiriso amayiona ngati malo osungira chuma ndi chikayikidwe.",
 	"real_estate_intro_3": "Koma kodi katundu wooneka umasiyana bwanji ndi ndalama zadigitala ngati Bitcoin? Tiyeni tione kusiyana pakati pa Bitcoin ndi Nyumba.",

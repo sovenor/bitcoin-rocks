@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_crypto": "Bitcoin prieš kriptovaliutas",
-	"crypto_header": "SKIRTUMAS TARP",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "IR",
-	"crypto_header_4": "KRIPTOVALIUTŲ",
 	"crypto_intro_1": "Kriptovaliutų erdvė išsiplėtė su tūkstančiais skirtingų skaitmeninių žetonų ir projektų.",
 	"crypto_intro_2": "Nors Bitcoin buvo pirmasis ir lieka žinomiausias kriptovaliuta, jis iš esmės skiriasi nuo likusios kripto industrijos.",
 	"crypto_intro_3": "Panagrinėkime pagrindinius skirtumus tarp Bitcoin ir platesnės kriptovaliutų ekosistemos.",

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "hr"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Dionice",
-	"stocks_header": "RAZLIKA IZMEĐU",
-	"stocks_header_2": "BITCOINA",
-	"stocks_header_3": "I",
-	"stocks_header_4": "DIONICA",
 	"stocks_intro_1": "Dionice su popularna investicija desetljećima i predstavljaju udjele vlasništva u tvrtkama.",
 	"stocks_intro_2": "Bitcoin je digitalni novac stvoren 2009. koji djeluje neovisno o bilo kojoj tvrtki ili vladi.",
 	"stocks_intro_3": "Ali kako se razlikuje posjedovanje udjela u tvrtki od posjedovanja digitalnog novca poput Bitcoina? Pogledajmo razlike između dva oblika ulaganja: Bitcoina i dionica.",
@@ -34,16 +30,12 @@
 	"point_2_summary_1": "Bitcoin ima strogi limit od 21 milijun BTC-a koji će ikada postojati.",
 	"point_2_summary_2": "Tvrtke mogu izdati nove dionice u bilo kojem trenutku, razrjeđujući postotak vlasništva postojećih dioničara. To znači da se vaš dio tvrtke smanjuje kada se stvore nove dionice.",
 	"point_2_summary_3": "To je manje od fiat inflacije, ali je još uvijek razrjeđivanje.",
-	"point_2_summary_4": "S Bitcoinom, vaš dio kolača se nikada ne smanjuje.",
 	"point_3_summary_1": "Bitcoin djeluje na decentraliziranoj mreži bez jedne točke kvara. Ulaganja u dionice podložna su riziku ključne osobe - ako direktor ili drugi ključni voditelji odu, razbole se ili donesu loše odluke, vaša investicija može značajno patiti. Tvrtke uvelike ovise o svojim upravljačkim timovima.",
 	"point_4_summary_1": "Cijena Bitcoina određena je isključivo tržišnom ponudom i potražnjom. Cijene dionica često se procjenjuju pomoću P/E omjera (cijena-zarada), koji pokazuju koliko ulagači plaćaju za svaki dolar zarade tvrtke. Visoki P/E omjeri mogu ukazivati na precijenjene dionice, što otežava određivanje fer vrijednosti.",
 	"point_5_summary_1": "Bitcoin se trguje 24 sata dnevno, 7 dana u tjednu na globalnim burzama.",
 	"point_5_summary_2": "Bitcoin je decentraliziran",
-	"point_5_summary_3": "i nikada ne spava.",
-	"point_5_summary_4": "Tržišta dionica otvorena su samo tijekom radnog vremena radnim danima, ograničavajući kada možete kupiti ili prodati svoje investicije.",
 	"point_6_summary_1": "S Bitcoinom možete preuzeti samoskrbništvo nad svojim kovanicama, što znači da ih uistinu posjedujete bez ovisnosti o trećoj strani.",
 	"point_6_summary_2": "Samoskrbništvo je jednostavno poput preuzimanja aplikacije.",
 	"point_6_summary_3": "Dionice zahtijevaju brokerski račun i podložni ste riziku druge strane - ako tvrtka propadne ili brokerska kuća propadne, mogli biste izgubiti svoju investiciju.",
-	"point_6_summary_4": "Nikada uistinu ne posjedujete dioničke certifikate izravno.",
 	"point_7_summary_1": "Bitcoin je imovina fiksne ponude sa strogim limitom od 21 milijun Bitcoina koji će ikada postojati. To ga čini sjajnom zaštitom od inflacije. Dionice imaju promjenjive performanse u odnosu na inflaciju - neke tvrtke dobro posluju tijekom inflacijskih razdoblja dok se druge bore. Nema jamstva da će bilo koja određena dionica zaštititi od inflacije."
 }

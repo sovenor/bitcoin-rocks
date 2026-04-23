@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "DIFERENȚA DINTRE",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "ȘI",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Cardurile de credit și Bitcoin sunt ambele sisteme de plată, dar funcționează foarte diferit.",
 	"visa_intro_2": "Cardurile de credit precum Visa sunt rețele închise controlate de instituții financiare, în timp ce Bitcoin este o rețea deschisă pe care oricine o poate folosi.",
 	"visa_intro_3": "Să analizăm diferențele dintre aceste două sisteme de plată: Bitcoin și Visa.",

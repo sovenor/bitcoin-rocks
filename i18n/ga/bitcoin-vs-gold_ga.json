@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Ór",
-	"gold_header": "AN DIFRÍOCHT IDIR",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "AGUS",
-	"gold_header_4": "ÓR",
 	"gold_intro_1": "Tá ór in úsáid mar airgead le na mílte bliain agus feiceann go leor daoine é mar thearmann airgeadais.",
 	"gold_intro_2": "Is airgead digiteach é Bitcoin a cruthaiodh sa bhliain 2009 agus feiceann go leor daoine é freisin mar thearmann airgeadais.",
 	"gold_intro_3": "Ach conas a dhéanann miotal fisiciúil cosúil le hór difríocht ó airgead digiteach cosúil le Bitcoin? Féachaimis ar na difríochtaí idir dhá fhoirm airgid: Bitcoin & Ór.",
@@ -35,19 +31,14 @@
 	"point_3_summary_1": "Tá uasmhéid dhian de 21 Milliún BTC ag Bitcoin a bheidh ann go deo.",
 	"point_3_summary_2": "Tarraingítear soláthar nua óir as an talamh gach bliain, rud a chiallaíonn boilsciú ar an soláthar iomlán. Meastar go méadaíonn soláthar iomlán an óir tuairim is 1.6% in aghaidh na bliana, rud a chiallaíonn go gcrapadh do shlis den phíog 1.6% in aghaidh na bliana.",
 	"point_3_summary_3": "Tá sé seo níos lú ná boilsciú fiat, ach fós boilsciú.",
-	"point_3_summary_4": "Le Bitcoin, ní chrapadh do shlis den phíog go deo.",
 	"point_4_summary_1": "Tá soláthar leaisteach ag ór, rud a chiallaíonn de réir mar a ardóidh praghas an óir, go bhfuil dreasacht níos mó níos mó óir a mhianadóireacht. Cuireann sé seo brú anuas ar phraghas an óir de ghnáth agus mianaigh nua ag teacht ar líne.",
 	"point_4_summary_2": "Le Bitcoin, is cuma cé chomh hard is a théann an praghas, ní féidir níos mó ná 21M Bitcoin a dhéanamh.",
 	"point_4_summary_3": "Is é Bitcoin an chéad shócmhainn le gaol neamhleaisteach idir praghas agus soláthar.",
 	"point_5_summary_1": "Tá líonra Bitcoin dílárnaithe.",
 	"point_5_summary_2": "Deimhníonn na mílte nód neamhspleách rialacha an líonra.",
-	"point_5_summary_3": "Is féidir le húsáideoirí féinchoimirce a ghlacadh ar a gcuid Bitcoin trí aip a íoslódáil.",
-	"point_5_summary_4": "Cé gur féidir féinchoimirce a ghlacadh ar ór fisiciúil, stóráiltear formhór an óir fhisiciúil i dtuamáin ollmhóra atá in úinéireacht coimhdeachtóirí rud a fágann go bhfuil sé lárnaithe go fisiciúil.",
 	"point_6_summary_1": "Le Bitcoin, tá sé thar a bheith éasca a fhírú go bhfuil Bitcoin ceart agat trí féinchoimirce a ghlacadh ar do bhoinn agus nód iomlán a rith.",
 	"point_6_summary_2": "Tá féinchoimirce chomh simplí le aip a íoslódáil.",
 	"point_6_summary_3": "Is píosa simplí bogearraí é nód iomlán a chinntíonn go bhfuil rialacha an líonra á leanúint, agus a fhíoraíonn go bhfuil Bitcoin ceart agat.",
-	"point_6_summary_4": "D'fhéadfadh sé a bheith an-deacair fíorú an bhfuil ór fisiciúil barántúil. Fiú má fhíoraíonn tú go bhfuil an chuid sheachtrach den ór fisiciúil fíor, d'fhéadfadh an taobh istigh de do phíosa óir fisiciúil a bheith Tungsten nó miotal eile nach ór é. Is é an t-aon bhealach chun fíorú i ndáiríre go bhfuil an t-ór fisiciúil agat atá ann ná é a leá.",
 	"point_7_summary_1": "Díreach mar atá 100 cent i $1, tá 100,000,000 sat i 1 Bitcoin. Cumasaíonn sé seo Bitcoin a úsáid do gach scála ceannachán, lena n-áirítear micri-idirbhearta chomh beag le cúpla cent.",
-	"point_7_summary_2": "Déanann sé seo Bitcoin go maith don ghnó.",
-	"point_7_summary_3": "Toisc go bhfuil sé deacair ór fisiciúil a roinnt, ní féidir é a úsáid go héasca do cheannacháin, go háirithe ceannacháin bheaga."
+	"point_7_summary_2": "Déanann sé seo Bitcoin go maith don ghnó."
 }

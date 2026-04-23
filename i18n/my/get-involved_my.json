@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "my"
 	},
 	"get_involved_and_help_spread_bitcoin": "জড়িত হন এবং Bitcoin ছড়াতে সাহায্য করুন",
 	"get_involved_description": "আমাদের বিনামূল্যে সম্পদ Bitcoin গ্রহণ ছড়ানো সহজ করে।",
 	"get_involved_header": "জড়িত হন",
-	"get_involved_header_2": "BITCOIN ছড়ান",
 	"get_involved_intro_1": "আমাদের বিশ্বের বর্তমান অবস্থায় বেঁচে থাকা হতাশাজনক হতে পারে।",
 	"get_involved_intro_2": "আমাদের অর্থ ভাঙা। ফলস্বরূপ, সমাজের মৌলিক অংশগুলোও ভাঙা।",
 	"get_involved_intro_3": "আপনি যদি ইতিমধ্যে Bitcoin-এ থাকেন, আপনি সেই আশার অনুভূতি জানেন যা Bitcoin আনতে পারে। উন্নত অর্থ দ্বারা সম্ভব একটি উজ্জ্বল ভবিষ্যতের আশা।",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "অন্য স্টিকারগুলো আমাদের শিক্ষামূলক হোম পেজে লিংক করে যা মানুষকে দেখায় কিভাবে",
 	"get_involved_sticker_content_5": "Bitcoin একটি উন্নত বিশ্ব গড়ে তুলছে।",
 	"get_involved_sticker_content_6": "আপনার সম্প্রদায়ে মানুষ যেখানে দেখতে পাবে সেসব জায়গায় এই স্টিকার লাগিয়ে, আপনি আপনার চারপাশের মানুষদের Bitcoin র‍্যাবিট হোলে প্রথম পদক্ষেপ নিতে সাহায্য করতে পারেন।",
-	"get_involved_request_a": "একটি অনুরোধ করুন",
-	"get_involved_sticker_pack": "স্টিকার প্যাক",
-	"get_involved_postcard_header": "একটি পোস্টকার্ড পাঠান",
-	"get_involved_postcard_content_1": "আপনি আপনার পরিচিত কাউকে আমাদের বিনামূল্যে পোস্টকার্ডগুলোর একটি পাঠিয়ে Bitcoin-এর আশা ছড়াতে সাহায্য করতে পারেন।",
-	"get_involved_postcard_content_2": "প্রতিটি পোস্টকার্ডের পেছনে Bitcoin সম্পর্কে একটি আকর্ষণীয় ব্লার্ব এবং আরও জানতে একটি QR কোড আছে।",
-	"get_involved_postcard_content_3": "কাউকে একটি Bitcoin পোস্টকার্ড পাঠিয়ে, আপনি তাদের Bitcoin-কে নতুন দৃষ্টিভঙ্গিতে দেখতে সাহায্য করতে পারেন।",
-	"get_involved_postcard_pack": "পোস্টকার্ড প্যাক",
 	"get_involved_business_header": "একটি ব্যবসাকে অনবোর্ড করুন",
 	"get_involved_business_content_1": "Bitcoin সার্কুলার ইকোনমি গড়ে তুলতে চান? আমাদের Bitcoin ব্যবসায়িক কিট একটি ব্যবসাকে Bitcoin পেমেন্ট গ্রহণের বিষয়ে কথা বলা সহজ করে।",
 	"get_involved_business_content_2": "প্রতিটি ব্যবসায়িক কিটে ফ্লায়ার অন্তর্ভুক্ত যা Bitcoin পেমেন্ট গ্রহণের সুবিধাগুলো তুলে ধরে। প্রতিটি ফ্লায়ার বিভিন্ন",
-	"get_involved_business_content_3": "বিনামূল্যে Bitcoin ব্যবসায়িক সম্পদে লিংক করে।",
-	"get_involved_business_kit": "ব্যবসায়িক কিট"
+	"get_involved_business_content_3": "বিনামূল্যে Bitcoin ব্যবসায়িক সম্পদে লিংক করে।"
 }

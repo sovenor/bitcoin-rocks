@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ur"
 	},
 	"free_bitcoin_stickers": "ملصقات بيتكوين مجانية من bitcoin.rocks",
 	"stickers_description": "ضع ملصق بيتكوين في مكان عام لتعريف من حولك بالبيتكوين.",
-	"stickers_header": "ملصقات بيتكوين مجانية",
-	"stickers_choose_header": "اختر حزمة ملصقاتك",
-	"stickers_choose_c1": "مهمتنا هي مساعدتك في تعريف المزيد من الناس بالبيتكوين عن طريق وضع ملصقات البيتكوين في الأماكن العامة. جميع ملصقاتنا تحتوي على رموز QR تربط بصفحات تعليمية عن",
-	"stickers_choose_c2": "البيتكوين",
-	"stickers_choose_c3": "التضخم",
-	"stickers_choose_c4": "اختر حزمة ملصقاتك أدناه",
 	"stickers_text_pack": "حزمة النصوص",
 	"stickers_signs_pack": "حزمة العلامات",
 	"stickers_instructions_1": "أدخل عنوانك البريدي وسنرسل لك حزمة ملصقات بيتكوين مجانية بالبريد! ستُشحن ملصقاتك في ظرف أبيض عادي.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "بينما أنت في ذلك، اطبع وعلّق ",
 	"stickers_flyers_link_text": "منشورات البيتكوين",
 	"stickers_flyers_link_after": " الخاصة بك لمساعدة المزيد من الناس على التعرف على البيتكوين.",
-	"stickers_country_global_print": "عالمي — اطبع ملصقاتي بنفسي",
-	"stickers_country_global_order": "عالمي — اطلب بالجملة",
 	"placeholder_name_optional": "الاسم (اختياري)",
 	"placeholder_address_line_1": "عنوان السطر 1",
 	"placeholder_address_line_2": "عنوان السطر 2 (اختياري)",

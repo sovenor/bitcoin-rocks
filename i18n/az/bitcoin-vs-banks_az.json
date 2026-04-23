@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banklar",
-	"banks_header": "ARASINDAKI FƏRQ",
-	"banks_header_2": "BITCOIN",
-	"banks_header_3": "VƏ",
-	"banks_header_4": "BANKLAR",
 	"banks_intro_1": "Banklar əsrlərdır pulu idarə edir, maliyyə əməliyyatları üçün vasitəçi və pul sisteminin qapıçısı rolunu oynayır.",
 	"banks_intro_2": "Bitcoin banklar və ya mərkəzi hakimiyyətlər olmadan işləyən nəfər-nəfərə rəqəmsal pul sistemidir.",
 	"banks_intro_3": "Lakin Bitcoin şəbəkəsi ənənəvi bank sistemindən necə fərqlənir? Pula bu iki əsaslı fərqli yanaşma arasındakı əsas fərqləri araşdıraq.",

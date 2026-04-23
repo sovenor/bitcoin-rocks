@@ -3,13 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"get_involved_and_help_spread_bitcoin": "Osallistu ja auta levittämään Bitcoinia",
 	"get_involved_description": "Ilmaiset resurssimme helpottavat Bitcoinin levittämistä.",
 	"get_involved_header": "OSALLISTU",
-	"get_involved_header_2": "LEVITÄ BITCOINIA",
 	"get_involved_intro_1": "Voi olla masentavaa elää maailman nykyisessä tilassa.",
 	"get_involved_intro_2": "Rahamme on rikki. Seurauksena yhteiskunnan perusosat ovat myös rikki.",
 	"get_involved_intro_3": "Jos olet jo Bitcoinin parissa, tunnet toivon tunteen, jonka Bitcoin voi tuoda. Toivon paremmasta tulevaisuudesta, jonka parempi raha mahdollistaa.",
@@ -22,16 +21,8 @@
 	"get_involved_sticker_content_4": "Muut tarrat linkittävät opetukselliselle etusivullemme, joka näyttää ihmisille, miten",
 	"get_involved_sticker_content_5": "Bitcoin rakentaa parempaa maailmaa.",
 	"get_involved_sticker_content_6": "Laittamalla näitä tarroja yhteisöösi paikkoihin, joissa ihmiset näkevät ne, voit auttaa heitä ottamaan ensimmäiset askeleensa Bitcoin-kaninkoloon.",
-	"get_involved_request_a": "TILAA",
-	"get_involved_sticker_pack": "TARRAPAKETTI",
-	"get_involved_postcard_header": "Lähetä postikortti",
-	"get_involved_postcard_content_1": "Voit auttaa levittämään Bitcoinin toivoa tuntemallesi henkilölle lähettämällä heille yhden ilmaisista postikorteistamme.",
-	"get_involved_postcard_content_2": "Jokaisen postikortin takapuolella on vakuuttava teksti Bitcoinista sekä QR-koodi lisätietoihin.",
-	"get_involved_postcard_content_3": "Lähettämällä jollekulle Bitcoin-postikortin voit auttaa heitä näkemään Bitcoinin uudessa valossa.",
-	"get_involved_postcard_pack": "POSTIKORTTIPAKETTI",
 	"get_involved_business_header": "Ohjaa yritys mukaan",
 	"get_involved_business_content_1": "Haluatko auttaa rakentamaan Bitcoin-kiertotaloutta? Bitcoin-yrityspakettimme tekee helppoja lähestyä yritystä Bitcoin-maksujen hyväksymisestä.",
 	"get_involved_business_content_2": "Jokainen yrityspaketti sisältää lentolehtisiä, jotka korostavat Bitcoin-maksujen hyväksymisen etuja. Jokainen lentolehtinen linkittää erilaisiin",
-	"get_involved_business_content_3": "ilmaisiin Bitcoin-yritysresursseihin.",
-	"get_involved_business_kit": "YRITYSPAKETTI"
+	"get_involved_business_content_3": "ilmaisiin Bitcoin-yritysresursseihin."
 }

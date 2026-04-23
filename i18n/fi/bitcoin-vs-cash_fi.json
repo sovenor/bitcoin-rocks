@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs käteinen",
-	"cash_header": "ERO",
-	"cash_header_2": "BITCOININ",
-	"cash_header_3": "JA",
-	"cash_header_4": "KÄTEISEN VÄLILLÄ",
 	"cash_intro_1": "Käteistä on käytetty rahana vuosisatoja, ja se on edelleen yleisin fyysisen rahan muoto maailmassa.",
 	"cash_intro_2": "Bitcoin on vuonna 2009 luotu digitaalinen raha, joka toimii itsenäisesti mistään hallituksesta.",
 	"cash_intro_3": "Mutta miten fyysinen käteinen eroaa digitaalisesta rahasta kuten Bitcoin? Tutkitaan keskeisiä eroja: Bitcoin ja käteinen.",

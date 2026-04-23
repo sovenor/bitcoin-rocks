@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"bitcoin_vs_visa": "Bitcoin dhidi ya Visa",
-	"visa_header": "TOFAUTI KATI YA",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "NA",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kadi za mkopo na Bitcoin zote ni mifumo ya malipo, lakini zinafanya kazi tofauti sana.",
 	"visa_intro_2": "Kadi za mkopo kama Visa ni mitandao iliyofungwa inayodhibitiwa na taasisi za fedha, wakati Bitcoin ni mtandao wazi ambao mtu yeyote anaweza kutumia.",
 	"visa_intro_3": "Hebu tuangalie tofauti kati ya njia hizi mbili za malipo: Bitcoin na Visa.",

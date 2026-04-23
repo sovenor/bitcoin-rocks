@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"german_bitcoin_sticker_files": "Német Bitcoin matricafájlok",
-	"german_description": "Töltsd le a Bitcoin matricafájlokat német nyelven.",
-	"german_header": "NÉMET BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

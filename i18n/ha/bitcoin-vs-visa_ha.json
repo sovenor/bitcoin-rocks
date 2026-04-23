@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_vs_visa": "Bitcoin da Visa",
-	"visa_header": "BAMBANCI TSAKANIN",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "DA",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Katin kuɗi da Bitcoin duka tsarin biyan kuɗi ne, amma suna aiki ta hanyoyi daban-daban.",
 	"visa_intro_2": "Katin kuɗi kamar Visa cibiyoyin sadarwa ne rufaffun, yayin da Bitcoin cibiyar sadarwa ce buɗaɗɗiya.",
 	"visa_intro_3": "Bari mu duba bambance-bambancen: Bitcoin da Visa.",

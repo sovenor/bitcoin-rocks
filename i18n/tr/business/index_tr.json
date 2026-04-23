@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin işletmeler için iyidir",
-	"biz_header": "BİTCOİN İŞLETMELER İÇİN İYİDİR",
 	"biz_s1": "Minimum tutar olmadan düşük ücretler",
 	"biz_s1_c1": "Bitcoin, tıpkı nakit gibi doğrudan müşterilerinizden ödeme almanızı sağlar. Bitcoin ağı, yüksek ücretler alan bankalar ve kredi kartı şirketleri gibi aracılar olmadan çalışır.",
 	"biz_s2": "Anında ödeme",

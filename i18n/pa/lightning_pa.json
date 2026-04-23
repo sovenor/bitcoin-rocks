@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "pa"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਗਾਇਡ",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "ਯੇ ਬੈਂਕਿਂਗ ਜੈਸੇ ਹੈਂ ਜਹਾਁ ਤੀਸਰੇ ਪਕ੍਷ ਪਰ ਭਰੋਸਾ ਜ਼ਰੂਰੀ ਹੈ੤ ਏਕ੍ਸਚੇਂਜ ਪਰ Bitcoin = ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ੤",
 	"lightning_s3_c3": "ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ ਸੁਵਿਧਾਜਨਕ ਲਗਤੇ ਹੈਂ, ਲੇਕਿਨ ਕਸ੍ਟੋਡਿਯਨ ਕਭੀ ਭੀ ਫਂਡ ਚੁਰਾ ਸਕਤਾ ਹੈ੤",
 	"lightning_s3_c4": "ਕੁਛ ਲੋਗ ਆਸਾਨੀ ਕੇ ਲਿਏ ਛੋਟੀ ਰਾਸ਼ਿ ਕੇ ਲਿਏ ਕਸ੍ਟੋਡਿਯਲ ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਪਸਂਦ ਕਰਤੇ ਹੈਂ੤ ਬਸ ਯਾਦ ਰਖੇਂ: ਆਪਕੀ ਕੁਂਜੀ ਨਹੀਂ, ਆਪਕਾ ਕ੉ਇਨ ਨਹੀਂ!",
-	"lightning_question_2": "ਅਪਨਾ ਵ੉ਲੇਟ ਚੁਨੇਂ",
-	"lightning_s4_c1": "ਊਪਰ ਸਬ ਜਾਨਕਰ, ਅਬ ਆਪ ਅਪਨੇ ਲਿਏ ਸਹੀ ਟ੍ਰੇਡ-਑ਫ ਵਾਲਾ ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਚੁਨ ਸਕਤੇ ਹੈਂ੤",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "ਸੁਵਿਧਾ ਸਂਪਨ੍ਨ",
 	"lightning_mobile_app": "ਮੋਬਾਇਲ ਐਪ",
 	"lightning_free": "100% ਮੁਫ਼੍ਤ",
 	"lightning_merchants": "ਵ੍ਯਾਪਾਰਿਯੋਂ ਕੇ ਲਿਏ ਉਪਯੁਕ੍ਤ",
-	"lightning_starter": "ਉਤ੍ਕ੃਷੍ਟ ਸ਼ੁਰੁਆਤੀ ਵ੉ਲੇਟ",
-	"lightning_browser": "ਬ੍ਰਾਉਜ਼ਰ ਮੇਂ",
 	"lightning_custodial": "ਪੂਰ੍ਣ ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ",
 	"lightning_cta_hardware": "ਹਮਾਰੀ ਹਾਰ੍ਡਵੇਯਰ Bitcoin ਵ੉ਲੇਟ ਗਾਇਡ ਖੋਜ ਰਹੇ ਹੈਂ?"
 }

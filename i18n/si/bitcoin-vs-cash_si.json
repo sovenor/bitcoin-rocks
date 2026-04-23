@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_cash": "Bitcoin එදිරිව මුදල්",
-	"cash_header": "අතර වෙනස",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "සහ",
-	"cash_header_4": "මුදල්",
 	"cash_intro_1": "මුදල් සියවස් ගණනාවක් දෛනික ගනුදෙනු සඳහා ප්‍රාථමික මාධ්‍යය වී ඇත.",
 	"cash_intro_2": "Bitcoin යනු සම-සම ඩිජිටල් මුදල් වන අතර එය සාම්ප්‍රදායික මුදල් වලට විකල්පයක් ඉදිරිපත් කරයි.",
 	"cash_intro_3": "නමුත් භෞතික මුදල් Bitcoin වැනි ඩිජිටල් මුදලකින් කෙසේ වෙනස් වේද? වෙනස්කම් බලමු.",

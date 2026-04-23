@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
 	},
 	"bitcoin_vs_crypto": "ビットコイン vs 暗号通貨",
-	"crypto_header": "何が違うのか",
-	"crypto_header_2": "ビットコイン",
-	"crypto_header_3": "と",
-	"crypto_header_4": "暗号通貨",
 	"crypto_intro_1": "暗号通貨の世界は何千もの異なるデジタルトークンやプロジェクトで爆発的に拡大しました。",
 	"crypto_intro_2": "ビットコインは最初であり最も有名な暗号通貨ですが、残りの暗号通貨業界とは根本的に異なります。",
 	"crypto_intro_3": "ビットコインとより広い暗号通貨エコシステムの主な違いを探りましょう。",

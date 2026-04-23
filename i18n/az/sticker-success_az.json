@@ -3,16 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"sticker_success_1": "Etiketlərinizi 2-4 həftə ərzində alacaqsınız. Gözləyərkən etiketlərinizi yapışdırmaq üçün yaxşı yer düşünməyə çalışın!",
-	"sticker_success_2": "Yaxşı etiket yerləri:",
 	"sticker_success_list_1": "insanların görəcəyi ictimai yerlərdə",
 	"sticker_success_list_2": "tez çıxarılması ehtimalı az olan yerlərdə (etiketlər heç bir daimi zərər vermir)",
 	"sticker_success_list_3": "asanlıqla yapışacaq səthlərə (metal, plastik, şüşə)",
 	"sticker_success_list_4": "Xüsusi mülkiyyətə, lövhələrin üstünə, bankomatlara və ya yanacaq nasoslarına yapışdırmayın",
-	"sticker_success_3": "Başqalarının etiketlərini harada yapışdırdığını görmək istəyirsiniz?",
-	"sticker_success_flyers_bar_new": "YENİ!",
-	"sticker_success_flyers_bar_cta": "Bitcoin Vərəqələri Çap Edin və Asın →"
+	"sticker_success_3": "Başqalarının etiketlərini harada yapışdırdığını görmək istəyirsiniz?"
 }

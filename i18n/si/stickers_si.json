@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks වෙතින් නිදහස් Bitcoin ස්ටිකර්",
 	"stickers_description": "ඔබ අවට සිටින අයට Bitcoin හඳුන්වා දීමට පොදු ස්ථානවල bitcoin ස්ටිකරයක් තබන්න.",
-	"stickers_header": "නිදහස් BITCOIN ස්ටිකර්",
-	"stickers_choose_header": "ඔබේ ස්ටිකර් පැක් තෝරන්න",
-	"stickers_choose_c1": "පොදු ස්ථානවල Bitcoin ස්ටිකර් තැබීමෙන් තව පුද්ගලයින්ට Bitcoin හඳුන්වා දීමට ඔබට උදවු කිරීම අපේ මෙහෙවරයි. අපේ සියලුම ස්ටිකර්වල අධ්‍යාපනික පිටු වෙත සබැඳෙන QR කේත ඇත",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "මුදල් නිෂ්පාදනය",
-	"stickers_choose_c4": "පහත ඔබේ ස්ටිකර් පැක් තෝරන්න",
 	"stickers_text_pack": "පෙළ පැක්",
 	"stickers_signs_pack": "සංකේත පැක්",
 	"stickers_instructions_1": "ඔබේ තැපැල් ලිපිනය ඇතුළත් කරන්න, අපි ඔබට නිදහස් Bitcoin ස්ටිකර් පැක් එකක් තැපැලෙන් යවන්නම්! ඔබේ ස්ටිකර් සුදු ලියුම් කවරයක නැව්ගත කෙරේ.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "ඒ සමඟම, ඔබේම ",
 	"stickers_flyers_link_text": "Bitcoin ප්‍රචාර පත්‍රිකා",
 	"stickers_flyers_link_after": " මුද්‍රණය කර ඇලීම කර තව පුද්ගලයින්ට Bitcoin හඳුන්වා දෙන්න.",
-	"stickers_country_global_print": "ගෝලීය — මගේම ස්ටිකර් මුද්‍රණය කරන්න",
-	"stickers_country_global_order": "ගෝලීය — තොග ලෙස ඇණවුම් කරන්න",
 	"placeholder_name_optional": "නම (අනිවාර්ය නොවේ)",
 	"placeholder_address_line_1": "ලිපින පේළිය 1",
 	"placeholder_address_line_2": "ලිපින පේළිය 2 (අනිවාර්ය නොවේ)",

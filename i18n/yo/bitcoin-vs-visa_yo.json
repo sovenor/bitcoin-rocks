@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-23",
 		"locale": "yo"
 	},
 	"bitcoin_vs_visa": "Bitcoin pẹ̀lú Visa",
-	"visa_header": "ÌYÀTỌ̀ LÁÀRÌN",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "ÀTI",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Káàdì ifowópàmọ́ àti Bitcoin jẹ́ ètò ìsàn owó méjèèjì, ṣùgbọ́n wọn máa ń ṣiṣẹ́ yàtọ̀.",
 	"visa_intro_2": "Àwọn káàdì ifowópàmọ́ bíí Visa jẹ́ àwọn nẹ́tíwọ́ọ̀kì tí a tì tí àwọn ilé-iṣẹ́ owó ń ṣàkoso, lakoko tí Bitcoin jẹ́ nẹ́tíwọ́ọ̀kì gbangba tí ẹ̀níkaǹkan lè lò.",
 	"visa_intro_3": "Ẹ jẹ́ kí a wo àwọn ìyàtọ̀ láàrìn ètò ìsàn owó méjì wọ̀nyí: Bitcoin & Visa.",

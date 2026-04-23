@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "et"
-	},
-	"estonian_bitcoin_sticker_files": "Bitcoin-kleebised eesti keeles",
-	"estonian_description": "Laadige alla Bitcoin-kleebisefailid eesti keeles.",
-	"estonian_header": "LAADIGE ALLA BITCOIN-KLEEBISED EESTI KEELES"
+	}
 }

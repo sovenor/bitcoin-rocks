@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-08",
+		"last-updated": "2026-04-23",
 		"locale": "id"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "PERBEDAAN ANTARA",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "DAN",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Kartu kredit dan Bitcoin keduanya adalah sistem pembayaran, tetapi cara kerjanya sangat berbeda.",
 	"visa_intro_2": "Kartu kredit seperti Visa adalah jaringan tertutup yang dikontrol oleh institusi keuangan, sedangkan Bitcoin adalah jaringan terbuka yang dapat digunakan siapa saja.",
 	"visa_intro_3": "Mari kita lihat perbedaan antara dua rel pembayaran ini: Bitcoin & Visa.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning zorro gida",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Zorro hauek banku-sistematik antzekoak dira, non hirugarren baten menpe zauden zure dirura sarbidea izateko. Zure Bitcoin truke batean badago, zorro kustodial bat erabiltzen ari zara.",
 	"lightning_s3_c3": "Zorro kustodialak erosoak iruditu daitezke, baina zaintzaileak erabiltzaile guztien funtsak edozein unetan lapurtzeko gaitasun teknikoa du.",
 	"lightning_s3_c4": "Pertsona batzuek Lightning zorro kustodialak nahiago dituzte bitcoin kopuru txikietarako, erabiltzeko errazak direlako. Baina gogoratu: zure gakoak ez, zure txanponak ez!",
-	"lightning_question_2": "AUKERATU ZURE ZORROA",
-	"lightning_s4_c1": "Hau guztia kontuan hartuta, orain zuretzat truke-konpromiso oreka egokia duen Lightning zorroa aukera dezakezu.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Ezaugarri asko",
 	"lightning_mobile_app": "Mugikorreko aplikazioa",
 	"lightning_free": "%100 doakoa",
 	"lightning_merchants": "Merkatarientzat bikaina",
-	"lightning_starter": "Hasierako zorro bikaina",
-	"lightning_browser": "Nabigatzaile bidez",
 	"lightning_custodial": "Guztiz kustodialeko zorroa",
 	"lightning_cta_hardware": "Gure Bitcoin hardware zorro gida bilatzen ari zara?"
 }

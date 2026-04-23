@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "lt"
 	},
 	"bitcoin_vs_cash": "Bitcoin prieš grynuosius",
-	"cash_header": "SKIRTUMAS TARP",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "IR",
-	"cash_header_4": "GRYNŲJŲ",
 	"cash_intro_1": "Grynieji buvo naudojami kaip pinigai šimtmečius ir lieka populiariausia fizinių pinigų forma pasaulyje.",
 	"cash_intro_2": "Bitcoin yra skaitmeniniai pinigai, sukurti 2009 m., veikiantys nepriklausomai nuo jokios vyriausybės ar centrinės valdžios.",
 	"cash_intro_3": "Bet kuo fiziniai grynieji skiriasi nuo skaitmeninių pinigų kaip Bitcoin? Panagrinėkime pagrindinius skirtumus tarp šių dviejų pinigų formų: Bitcoin ir grynųjų.",

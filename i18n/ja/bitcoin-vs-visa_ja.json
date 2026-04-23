@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
 	},
 	"bitcoin_vs_visa": "ビットコイン vs Visa",
-	"visa_header": "何が違うのか",
-	"visa_header_2": "ビットコイン",
-	"visa_header_3": "と",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "クレジットカードとビットコインはどちらも決済システムですが、仕組みは大きく異なります。",
 	"visa_intro_2": "Visaのようなクレジットカードは金融機関が管理するクローズドネットワークですが、ビットコインは誰でも使えるオープンネットワークです。",
 	"visa_intro_3": "この2つの決済手段の違いを見てみましょう：ビットコインとVisa。",

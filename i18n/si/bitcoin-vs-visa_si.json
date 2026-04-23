@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "si"
 	},
 	"bitcoin_vs_visa": "Bitcoin එදිරිව Visa",
-	"visa_header": "අතර වෙනස",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "සහ",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Visa ලෝකයේ විශාලතම ගෙවීම් ජාලවලින් එකකි.",
 	"visa_intro_2": "Bitcoin යනු සම-සම ඩිජිටල් ගෙවීම් ජාලයකි.",
 	"visa_intro_3": "නමුත් මෙම ගෙවීම් ජාල දෙක කෙසේ වෙනස් වේද? බලමු.",

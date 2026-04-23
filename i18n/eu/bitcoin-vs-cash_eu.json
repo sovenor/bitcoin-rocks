@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "eu"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Eskudirua",
-	"cash_header": "ARTEKO ALDEA",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "ETA",
-	"cash_header_4": "ESKUDIRUA",
 	"cash_intro_1": "Eskudirua mendez mende erabili da diru gisa eta mundu osoko diru fisikoaren formarik ohikoena izaten jarraitzen du.",
 	"cash_intro_2": "Bitcoin 2009an sortutako diru digitala da, edozein gobernu edo autoritate zentraletik independenteki funtzionatzen duena.",
 	"cash_intro_3": "Baina nola desberdintzen da eskudiru fisikoa Bitcoin bezalako diru digital batetik? Azter ditzagun bi diru-forma hauen arteko desberdintasun nagusiak: Bitcoin eta Eskudirua.",

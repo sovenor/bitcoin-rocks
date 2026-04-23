@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "pl"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin jest dobry dla biznesu",
-	"biz_header": "BITCOIN JEST DOBRY DLA BIZNESU",
 	"biz_s1": "Niskie opłaty bez minimów",
 	"biz_s1_c1": "Bitcoin umożliwia otrzymywanie płatności bezpośrednio od klientów, podobnie jak gotówka. Sieć Bitcoin działa bez pośredników takich jak banki i firmy obsługujące karty kredytowe, które pobierają wysokie opłaty.",
 	"biz_s2": "Natychmiastowe rozliczenia",

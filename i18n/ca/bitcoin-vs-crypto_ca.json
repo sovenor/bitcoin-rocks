@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "ca"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Cripto",
-	"crypto_header": "LA DIFERÈNCIA ENTRE",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "I",
-	"crypto_header_4": "LES CRIPTO",
 	"crypto_intro_1": "L'espai de les criptomonedes ha explotat amb milers de tokens i projectes digitals diferents.",
 	"crypto_intro_2": "Tot i que Bitcoin va ser la primera i segueix sent la criptomoneda més coneguda, és fonamentalment diferent de la resta de la indústria cripto.",
 	"crypto_intro_3": "Explorem les diferències clau entre Bitcoin i l'ecosistema més ampli de les criptomonedes.",

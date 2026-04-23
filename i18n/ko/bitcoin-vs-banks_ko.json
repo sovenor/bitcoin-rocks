@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ko"
 	},
 	"bitcoin_vs_banks": "비트코인 vs 은행",
-	"banks_header": "차이점 비교",
-	"banks_header_2": "비트코인",
-	"banks_header_3": "과",
-	"banks_header_4": "은행",
 	"banks_intro_1": "은행은 수 세기 동안 금융 거래의 중개자이자 통화 시스템의 문지기 역할을 하며 돈을 통제해 왔습니다.",
 	"banks_intro_2": "비트코인은 은행이나 중앙 기관 없이 운영되는 P2P 디지털 화폐 시스템입니다.",
 	"banks_intro_3": "그렇다면 비트코인 네트워크와 전통적인 은행 시스템은 어떻게 다를까요? 돈에 대한 근본적으로 다른 두 접근 방식의 주요 차이점을 살펴보겠습니다.",

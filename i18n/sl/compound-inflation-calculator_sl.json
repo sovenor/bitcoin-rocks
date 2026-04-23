@@ -3,12 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "sl"
 	},
 	"cic_header": "KALKULATOR SESTAVLJENE INFLACIJE",
 	"cic_description": "S tem kalkulatorjem sestavljene inflacije ugotovite, za koliko se mora vaša plača povečati, da drži korak z inflacijo.",
-	"what_can_i_do_about": "Kaj lahko storim glede",
-	"what_can_i_do_about_2": "inflacije?",
 	"cic_inflation_cta": "Izstopite iz inflacije s pomočjo Bitcoina"
 }

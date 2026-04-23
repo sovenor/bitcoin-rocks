@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"how_to_accept_bitcoin_payments": "Come Accettare Pagamenti Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Portafogli ibridi:",
 	"wallets_intro_5": "Questi ti permettono di scambiare qualsiasi porzione dei tuoi Bitcoin in dollari non appena un cliente ti paga. Le commissioni sono comunque inferiori ai pagamenti con carta di credito, ma superiori ai pagamenti Bitcoin puri.",
 	"wallets_intro_6": "Entrambi sono ottimi modi per accettare Bitcoin. Il portafoglio specifico che usi dipenderà dalla dimensione e dal tipo della tua attività.",
-	"wallets_choice_sole": "portafogli per attività individuali",
-	"wallets_choice_multiple": "portafogli per attività con più dipendenti",
-	"wallets_choice_online": "portafogli per attività online",
-	"wallets_choice_invoice": "portafogli per attività basate su fatture",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

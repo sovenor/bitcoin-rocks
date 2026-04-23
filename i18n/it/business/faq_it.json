@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "FAQ sull'Accettazione di Bitcoin",
 	"faq_description": "Hai domande sull'accettazione di pagamenti Bitcoin nella tua attività?",
-	"faq_header": "HAI DOMANDE SULL'ACCETTAZIONE DI PAGAMENTI BITCOIN?",
 	"faq_s1": "Cos'è Bitcoin?",
 	"faq_s1_c1": "Bitcoin è due cose: denaro digitale e una rete informatica.",
 	"faq_s1_c2": "Puoi inviare bitcoin (il denaro digitale) direttamente ad altre persone usando la Rete Bitcoin.",

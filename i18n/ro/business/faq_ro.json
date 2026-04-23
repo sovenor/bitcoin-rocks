@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Întrebări frecvente despre acceptarea Bitcoin",
 	"faq_description": "Ai întrebări despre acceptarea plăților Bitcoin la afacerea ta?",
-	"faq_header": "AI ÎNTREBĂRI DESPRE ACCEPTAREA PLĂȚILOR BITCOIN?",
 	"faq_s1": "Ce este Bitcoin?",
 	"faq_s1_c1": "Bitcoin este două lucruri: bani digitali și o rețea de calculatoare.",
 	"faq_s1_c2": "Poți trimite bitcoin (banii digitali) direct altor persoane folosind rețeaua Bitcoin.",

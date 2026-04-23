@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning cüzdan rehberi",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Bu cüzdanlar, paranıza erişim için üçüncü bir tarafa güvenmeniz gereken bankacılık sistemine daha çok benzer. Bitcoin'iniz bir borsadaysa, emanet cüzdanı kullanıyorsunuzdur.",
 	"lightning_s3_c3": "Emanet cüzdanları kullanışlı görünebilir, ancak emanetçi teknik olarak tüm kullanıcı fonlarını istediği zaman çalma yeteneğine sahiptir.",
 	"lightning_s3_c4": "Bazı insanlar, kullanım kolaylığı nedeniyle küçük miktarlardaki bitcoin için emanet Lightning cüzdanlarını tercih eder. Sadece unutmayın: sizin anahtarlarınız değilse, sizin coin'leriniz değildir!",
-	"lightning_question_2": "CÜZDANINIZI SEÇİN",
-	"lightning_s4_c1": "Tüm bunları göz önünde bulundurarak, artık sizin için doğru ödünleşim dengesine sahip bir Lightning cüzdanı seçebilirsiniz.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Çok sayıda özellik",
 	"lightning_mobile_app": "Mobil uygulama",
 	"lightning_free": "%100 ücretsiz",
 	"lightning_merchants": "Tüccarlar için harika",
-	"lightning_starter": "Harika başlangıç cüzdanı",
-	"lightning_browser": "Tarayıcıda",
 	"lightning_custodial": "Tamamen emanet cüzdan",
 	"lightning_cta_hardware": "Donanım Bitcoin cüzdan rehberimizi mi arıyorsunuz?"
 }

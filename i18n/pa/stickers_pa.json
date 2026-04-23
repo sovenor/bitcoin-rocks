@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "pa"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks ਸੇ ਮੁਫ਼੍ਤ Bitcoin ਸ੍ਟਿਕਰ",
 	"stickers_description": "ਸਾਰ੍ਵਜਨਿਕ ਸ੍ਥਾਨ ਪਰ Bitcoin ਸ੍ਟਿਕਰ ਲਗਾਕਰ ਆਸਪਾਸ ਕੇ ਲੋਗੋਂ ਕੋ Bitcoin ਕੇ ਬਾਰੇ ਮੇਂ ਜਾਨਨੇ ਮੇਂ ਮਦਦ ਕਰੇਂ੤",
-	"stickers_header": "ਮੁਫ਼੍ਤ Bitcoin ਸ੍ਟਿਕਰ",
-	"stickers_choose_header": "ਅਪਨਾ ਸ੍ਟਿਕਰ ਪੈਕ ਚੁਨੇਂ",
-	"stickers_choose_c1": "ਹਮਾਰਾ ਮਿਸ਼ਨ ਸਾਰ੍ਵਜਨਿਕ ਸ੍ਥਾਨੋਂ ਪਰ Bitcoin ਸ੍ਟਿਕਰ ਲਗਾਕਰ ਅਧਿਕ ਲੋਗੋਂ ਕੋ ਜਾਗਰੂਕ ਕਰਨੇ ਮੇਂ ਆਪਕੀ ਮਦਦ ਕਰਨਾ ਹੈ੤ ਹਮਾਰੇ ਸਭੀ ਸ੍ਟਿਕਰ ਪਰ QR ਕੋਡ ਹੈਂ ਜੋ",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "ਮੁਦ੍ਰਾਸ੍ਫੀਤਿ",
-	"stickers_choose_c4": "ਕੇ ਸ਼ੈਕ੍਷ਿਕ ਪੇਜੋਂ ਸੇ ਜੁਡ਼ਤੇ ਹੈਂ੤ ਨੀਚੇ ਏਕ ਸ੍ਟਿਕਰ ਪੈਕ ਚੁਨੇਂ",
 	"stickers_text_pack": "ਟੇਕ੍ਸ੍ਟ ਪੈਕ",
 	"stickers_signs_pack": "ਸਾਇਨ ਪੈਕ",
 	"stickers_instructions_1": "ਅਪਨਾ ਡਾਕ ਪਤਾ ਦਰ੍ਜ ਕਰੇਂ ਔਰ ਹਮ ਮੁਫ਼੍ਤ Bitcoin ਸ੍ਟਿਕਰ ਪੈਕ ਭੇਜੇਂਗੇ! ਸ੍ਟਿਕਰ ਸਾਧਾਰਣ ਸਫ਼ੇਦ ਲਿਫ਼ਾਫ਼ੇ ਮੇਂ ਆਏਂਗੇ੤",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "ਸਾਥ ਹੀ, ਅਪਨੇ ਖੁਦ ਕੇ",
 	"stickers_flyers_link_text": "Bitcoin ਫ੍ਲਾਯਰ",
 	"stickers_flyers_link_after": "ਪ੍ਰਿਂਟ ਔਰ ਪੋਸ੍ਟ ਕਰੇਂ੤",
-	"stickers_country_global_print": "ਵੈਸ਼੍ਵਿਕ — ਮੈਂ ਖੁਦ ਸ੍ਟਿਕਰ ਪ੍ਰਿਂਟ ਕਰੂਂਗਾ",
-	"stickers_country_global_order": "ਵੈਸ਼੍ਵਿਕ — ਥੋਕ ਮੇਂ ਑ਰ੍ਡਰ ਕਰੇਂ",
 	"placeholder_name_optional": "ਨਾਮ (ਵੈਕਲ੍ਪਿਕ)",
 	"placeholder_address_line_1": "ਪਤਾ ਲਾਇਨ 1",
 	"placeholder_address_line_2": "ਪਤਾ ਲਾਇਨ 2 (ਵੈਕਲ੍ਪਿਕ)",

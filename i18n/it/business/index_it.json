@@ -3,11 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-23",
 		"locale": "it"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin fa bene alle attività",
-	"biz_header": "BITCOIN FA BENE ALLE ATTIVITÀ",
 	"biz_s1": "Commissioni basse senza minimi",
 	"biz_s1_c1": "Bitcoin ti permette di ricevere pagamenti direttamente dai tuoi clienti, proprio come i contanti. La rete Bitcoin opera senza intermediari come banche e compagnie di carte di credito che prendono commissioni elevate.",
 	"biz_s2": "Regolamento istantaneo",

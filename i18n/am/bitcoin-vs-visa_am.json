@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"bitcoin_vs_visa": "ቢትኮይን vs Visa",
-	"visa_header": "ልዩነቶቹን ያወዳድሩ",
-	"visa_header_2": "ቢትኮይን",
-	"visa_header_3": "ከ",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "ክሬዲት ካርዶች እና ቢትኮይን ሁለቱም የክፍያ ስርዓቶች ናቸው ግን በጣም በተለየ መንገድ ይሰራሉ።",
 	"visa_intro_2": "እንደ Visa ያሉ ክሬዲት ካርዶች በፋይናንስ ተቋማት ቁጥጥር ስር ያሉ ዝግ ኔትወርኮች ሲሆኑ ቢትኮይን ማንም ሊጠቀም የሚችል ክፍት ኔትወርክ ነው።",
 	"visa_intro_3": "ሁለቱን የክፍያ ዘዴዎች ቢትኮይን እና Visa እናወዳድር።",

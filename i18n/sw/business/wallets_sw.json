@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-23",
 		"locale": "sw"
 	},
 	"how_to_accept_bitcoin_payments": "Jinsi ya Kukubali Malipo ya Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Pochi za mseto:",
 	"wallets_intro_5": "Hizi zinakuruhusu kubadilisha sehemu yoyote ya Bitcoin yako kuwa dola mara tu mteja anapokulipia. Ada bado ni chini ya malipo ya kadi ya mkopo, lakini ni za juu kuliko malipo safi ya Bitcoin.",
 	"wallets_intro_6": "Zote mbili ni njia nzuri za kukubali Bitcoin. Pochi maalum unayotumia itategemea ukubwa na aina ya biashara yako.",
-	"wallets_choice_sole": "pochi kwa biashara zinazomilikiwa na mtu mmoja",
-	"wallets_choice_multiple": "pochi kwa biashara zenye wafanyakazi wengi",
-	"wallets_choice_online": "pochi kwa biashara za mtandaoni",
-	"wallets_choice_invoice": "pochi kwa biashara zinazotumia ankara",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

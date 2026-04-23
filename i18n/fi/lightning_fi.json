@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning -lompakko-opas",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Nämä lompakot ovat enemmän pankkijärjestelmän kaltaisia, joissa sinun on luotettava kolmanteen osapuoleen.",
 	"lightning_s3_c3": "Säilytyslompakot voivat vaikuttaa kätevilta, mutta säilyttäjällä on tekninen kyky varastaa kaikki käyttäjien varat.",
 	"lightning_s3_c4": "Jotkut suosivat säilytyksellisia Lightning-lompakoita pienille bitcoin-summille niiden helppokäyttöisyyden vuoksi. Muista: ei sinun avaimesi, ei sinun kolikkosi!",
-	"lightning_question_2": "VALITSE LOMPAKKOSI",
-	"lightning_s4_c1": "Tämän kaiken huomioon ottaen voit nyt valita Lightning-lompakon, jossa on sinulle oikea kompromissitasapaino.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Paljon ominaisuuksia",
 	"lightning_mobile_app": "Mobiilisovellus",
 	"lightning_free": "100 % ilmainen",
 	"lightning_merchants": "Loistava kauppiaille",
-	"lightning_starter": "Loistava aloituslompakko",
-	"lightning_browser": "Selainpohjainen",
 	"lightning_custodial": "Täysin säilytyksellinen lompakko",
 	"lightning_cta_hardware": "Etsitkö Bitcoin-laitteistolompakko-opastamme?"
 }

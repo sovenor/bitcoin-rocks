@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"czech_bitcoin_sticker_files": "Cseh Bitcoin matricafájlok",
-	"czech_description": "Töltsd le a Bitcoin matricafájlokat cseh nyelven.",
-	"czech_header": "CSEH BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Airgead Tirim",
-	"cash_header": "AN DIFRÍOCHT IDIR",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "AGUS",
-	"cash_header_4": "AIRGEAD TIRIM",
 	"cash_intro_1": "Tá airgead tirim in úsáid mar airgead le na céadta bliain agus fós is é an fhoirm is coitianta d'airgead fisiciúil ar fud an domhain.",
 	"cash_intro_2": "Is airgead digiteach é Bitcoin a cruthaíodh sa bhliain 2009 a oibríonn go neamhspleách ar aon rialtas nó údarás lárnach.",
 	"cash_intro_3": "Ach conas a dhéanann airgead tirim fisiciúil difríocht ó airgead digiteach cosúil le Bitcoin? Déanaimis iniúchadh ar na príomhdhifríochtaí idir an dá fhoirm airgid seo: Bitcoin & Airgead Tirim.",

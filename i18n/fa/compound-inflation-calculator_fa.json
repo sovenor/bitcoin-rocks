@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "fa"
 	},
-	"compound_inflation_calculator": "ماشین‌حساب تورم مرکب",
 	"cic_description": "با ماشین‌حساب تورم مرکب ما، محاسبه کنید که حقوق شما باید چقدر افزایش یابد تا قدرت خرید خود را حفظ کنید.",
 	"cic_header": "ماشین‌حساب",
-	"cic_header_2": "تورم مرکب",
-	"what_can_i_do_about": "چه کاری می‌توانم درباره",
-	"what_can_i_do_about_2": "تورم انجام دهم؟",
 	"cic_inflation_cta": "با بیت‌کوین از تورم خارج شوید"
 }

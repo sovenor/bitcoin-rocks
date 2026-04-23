@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"how_to_accept_bitcoin_payments": "Paano Tumanggap ng mga Bayad sa Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Mga Hybrid wallet:",
 	"wallets_intro_5": "Pinapayagan ka ng mga ito na i-exchange ang anumang bahagi ng iyong Bitcoin para sa dolyar sa sandaling magbayad ang customer. Ang mga bayarin ay mas mababa pa rin kaysa sa mga bayad sa credit card, ngunit mas mataas kaysa sa purong Bitcoin payment.",
 	"wallets_intro_6": "Pareho magandang paraan upang tumanggap ng Bitcoin. Ang partikular na wallet na gagamitin mo ay depende sa laki at uri ng iyong negosyo.",
-	"wallets_choice_sole": "mga wallet para sa mga negosyong may iisang may-ari",
-	"wallets_choice_multiple": "mga wallet para sa mga negosyong may maraming empleyado",
-	"wallets_choice_online": "mga wallet para sa mga online na negosyo",
-	"wallets_choice_invoice": "mga wallet para sa mga negosyong base sa invoice",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

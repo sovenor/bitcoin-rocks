@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs krypto",
-	"crypto_header": "ERO",
-	"crypto_header_2": "BITCOININ",
-	"crypto_header_3": "JA",
-	"crypto_header_4": "KRYPTON VÄLILLÄ",
 	"crypto_intro_1": "Kryptovaluutta-ala on räjähtänyt tuhansiin erilaisiin digitaalisiin tokeneihin ja projekteihin.",
 	"crypto_intro_2": "Vaikka Bitcoin oli ensimmäinen ja pysyy tunnetuimpana, se eroaa perustavanlaatuisesti muusta kryptoalasta.",
 	"crypto_intro_3": "Tutkitaan keskeisiä eroja Bitcoinin ja laajemman kryptovaluuttaekosysteemin välillä.",

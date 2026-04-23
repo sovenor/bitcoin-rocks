@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"korean_bitcoin_sticker_files": "Koreai Bitcoin matricafájlok",
-	"korean_description": "Töltsd le a Bitcoin matricafájlokat koreai nyelven.",
-	"korean_header": "KOREAI BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

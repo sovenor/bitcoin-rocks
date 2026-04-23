@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "hu"
-	},
-	"chinese_bitcoin_sticker_files": "Kínai Bitcoin matricafájlok",
-	"chinese_description": "Töltsd le a Bitcoin matricafájlokat kínai nyelven.",
-	"chinese_header": "KÍNAI BITCOIN MATRICÁK LETÖLTÉSE"
+	}
 }

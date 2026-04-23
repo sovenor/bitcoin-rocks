@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "tr"
 	},
 	"bitcoin_vs_crypto": "Bitcoin ve Kripto",
-	"crypto_header": "ARADAKI FARK",
-	"crypto_header_2": "BİTCOİN",
-	"crypto_header_3": "VE",
-	"crypto_header_4": "KRİPTO",
 	"crypto_intro_1": "Kripto para alanı binlerce farklı dijital token ve projeyle patladı.",
 	"crypto_intro_2": "Bitcoin ilk ve en tanınmış kripto para olsa da, kripto endüstrisinin geri kalanından temelden farklıdır.",
 	"crypto_intro_3": "Bitcoin ile daha geniş kripto para ekosistemi arasındaki temel farklara bakalım.",

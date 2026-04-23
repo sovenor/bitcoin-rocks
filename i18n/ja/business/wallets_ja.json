@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "ja"
 	},
 	"how_to_accept_bitcoin_payments": "ビットコイン決済の受け入れ方",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "ハイブリッドウォレット：",
 	"wallets_intro_5": "顧客から支払いを受けると同時に、ビットコインの任意の割合をドルに換金できます。手数料はクレジットカードよりも低いですが、純粋なビットコイン決済よりは高くなります。",
 	"wallets_intro_6": "どちらもビットコインを受け入れる優れた方法です。使用する具体的なウォレットは、ビジネスの規模とタイプによって異なります。",
-	"wallets_choice_sole": "個人事業主向けウォレット",
-	"wallets_choice_multiple": "複数従業員のビジネス向けウォレット",
-	"wallets_choice_online": "オンラインビジネス向けウォレット",
-	"wallets_choice_invoice": "請求書ベースのビジネス向けウォレット",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

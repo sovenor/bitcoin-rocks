@@ -3,17 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "tl"
 	},
 	"free_bitcoin_stickers": "Libreng Bitcoin sticker mula sa bitcoin.rocks",
 	"stickers_description": "Maglagay ng bitcoin sticker sa publiko upang ma-orange pill ang mga nasa paligid mo.",
-	"stickers_header": "LIBRENG BITCOIN STICKER",
-	"stickers_choose_header": "PILIIN ANG IYONG STICKER PACK",
-	"stickers_choose_c1": "Ang aming misyon ay tulungan kang mag-orange pill ng mas maraming tao sa pamamagitan ng paglalagay ng mga Bitcoin sticker sa publiko. Lahat ng aming mga sticker ay may mga QR code na naglilink sa mga pahinang pang-edukasyon tungkol sa",
-	"stickers_choose_c2": "Bitcoin",
-	"stickers_choose_c3": "inflation",
-	"stickers_choose_c4": "Piliin ang iyong sticker pack sa ibaba",
 	"stickers_text_pack": "ANG TEXT PACK",
 	"stickers_signs_pack": "ANG SIGNS PACK",
 	"stickers_instructions_1": "Ilagay ang iyong mailing address at ipapadala namin sa iyo ang isang libreng Bitcoin Sticker Pack sa koreo! Ang iyong mga sticker ay ipapadala sa isang plain na puting sobre.",
@@ -25,8 +19,6 @@
 	"stickers_flyers_link_before": "Habang nariyan ka na, mag-print at mag-post ng sarili mong ",
 	"stickers_flyers_link_text": "mga Bitcoin flyer",
 	"stickers_flyers_link_after": " upang makatulong na mag-orange pill ng mas maraming tao.",
-	"stickers_country_global_print": "Global — Mag-print ng sarili kong sticker",
-	"stickers_country_global_order": "Global — Mag-order nang maramihan",
 	"placeholder_name_optional": "Pangalan (opsyonal)",
 	"placeholder_address_line_1": "Address Line 1",
 	"placeholder_address_line_2": "Address Line 2 (opsyonal)",

@@ -3,11 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-23",
 		"locale": "ha"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Taswirar Yan Kasuwa na Bitcoin — Shigar da Kasuwancinku Kyauta",
-	"maps_header": "YI RAJISTA A TASWIRAR YAN KASUWA NA BITCOIN KUMA KU SAMI ƘARIN ABOKAN CINIKI",
-	"maps_request_details": "Shigar da bayanan kasuwancinku a ƙasa kuma za mu shigar da ku cikin taswirar 'yan kasuwa na Bitcoin kyauta. Wannan zai sa masu amfani da Bitcoin su sami kasuwancinku kuma su kashe Bitcoin ɗin su a wurinku!",
 	"maps_view": "Duba taswira a nan."
 }

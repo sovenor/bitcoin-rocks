@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-23",
 		"locale": "zu"
 	},
 	"bitcoin_lightning_wallet_guide": "Umhlahlandlela Wesikhwama se-Bitcoin Lightning",
@@ -24,18 +24,13 @@
 	"lightning_s3_c2": "Lezi zikhwama zifana kakhulu nesis-timu yamabhange lapho kumele uthembe umuntu wesithathu ukukunika ukufinyelela emalini yakho. Uma i-Bitcoin yakho iku-exchange, usebenzisa isikhwama esigciniwe.",
 	"lightning_s3_c3": "Izikhwama ezigciniwe zingabonakala zilula, kodwa umgcini unamandla ezobuchwepheshe okweba yonke imali yabasebenzisi nganoma yisiphi isikhathi.",
 	"lightning_s3_c4": "Abanye abantu bakhetha izikhwama ze-Lightning ezigciniwe ngezinani ezincane ze-bitcoin ngenxa yokulula kwazo. Khumbula nje: hhayi okhiye bakho, hhayi izinhlamvu zakho!",
-	"lightning_question_2": "KHETHA ISIKHWAMA SAKHO",
-	"lightning_s4_c1": "Ngako konke lokhu okusemqondweni, ungakhetha manje isikhwama se-lightning esinekuhlangana okufanele kuwe.",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Izici eziningi",
 	"lightning_mobile_app": "Uhlelo lokusebenza lweselula",
 	"lightning_free": "Mahhala 100%",
 	"lightning_merchants": "Enhle kubathengisi",
-	"lightning_starter": "Isikhwama esihle sokuqala",
-	"lightning_browser": "Esuselwa ku-browser",
 	"lightning_custodial": "Isikhwama esigciniwe ngokuphelele",
 	"lightning_cta_hardware": "Ufuna Umhlahlandlela Wethu Wesikhwama se-Bitcoin Hardware?"
 }

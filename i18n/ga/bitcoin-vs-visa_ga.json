@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ga"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
-	"visa_header": "AN DIFRÍOCHT IDIR",
-	"visa_header_2": "BITCOIN",
-	"visa_header_3": "AGUS",
-	"visa_header_4": "VISA",
 	"visa_intro_1": "Tá cártaí creidmheasa agus Bitcoin ina gcórais íocaíochta araon, ach oibríonn siad go han-difriúil.",
 	"visa_intro_2": "Is líonraí dúnta iad cártaí creidmheasa cosúil le Visa atá faoi smacht institiúidí airgeadais, ach is líonra oscailte é Bitcoin is féidir le haon duine a úsáid.",
 	"visa_intro_3": "Féachaimis ar na difríochtaí idir an dá ráillí íocaíochta seo: Bitcoin & Visa.",

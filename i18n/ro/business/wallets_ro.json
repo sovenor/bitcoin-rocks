@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-23",
 		"locale": "ro"
 	},
 	"how_to_accept_bitcoin_payments": "Cum să accepți plăți Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Portofele hibride:",
 	"wallets_intro_5": "Acestea îți permit să schimbi orice procent din Bitcoin pentru dolari imediat ce un client te plătește. Comisioanele sunt totuși mai mici decât plățile cu cardul de credit, dar mai mari decât plățile Bitcoin pure.",
 	"wallets_intro_6": "Ambele sunt modalități excelente de a accepta Bitcoin. Portofelul specific pe care îl folosești va depinde de dimensiunea și tipul afacerii tale.",
-	"wallets_choice_sole": "portofele pentru afaceri cu un singur proprietar",
-	"wallets_choice_multiple": "portofele pentru afaceri cu mai mulți angajați",
-	"wallets_choice_online": "portofele pentru afaceri online",
-	"wallets_choice_invoice": "portofele pentru afaceri bazate pe facturi",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",

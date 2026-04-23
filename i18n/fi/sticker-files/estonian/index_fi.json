@@ -3,10 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-23",
 		"locale": "fi"
-	},
-	"estonian_bitcoin_sticker_files": "Bitcoin-tarrat viroksi",
-	"estonian_description": "Lataa Bitcoin-tarratiedostot viroksi.",
-	"estonian_header": "LATAA BITCOIN-TARRAT VIROKSI"
+	}
 }

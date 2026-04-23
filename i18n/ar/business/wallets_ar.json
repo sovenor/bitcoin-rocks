@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ar"
 	},
 	"how_to_accept_bitcoin_payments": "كيف تقبل مدفوعات البيتكوين",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "محافظ هجينة:",
 	"wallets_intro_5": "تتيح لك تحويل أي نسبة من البيتكوين إلى دولارات فور دفع العميل لك. الرسوم لا تزال أقل من مدفوعات بطاقات الائتمان، لكنها أعلى من مدفوعات البيتكوين النقية.",
 	"wallets_intro_6": "كلاهما طريقتان رائعتان لقبول البيتكوين. المحفظة المحددة التي تستخدمها ستعتمد على حجم ونوع عملك.",
-	"wallets_choice_sole": "محافظ للأعمال المملوكة فردياً",
-	"wallets_choice_multiple": "محافظ للأعمال ذات الموظفين المتعددين",
-	"wallets_choice_online": "محافظ للأعمال عبر الإنترنت",
-	"wallets_choice_invoice": "محافظ للأعمال القائمة على الفواتير",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
