@@ -1,4 +1,19 @@
-## Latest: Azerbaijani (az) manifest refresh — April 23, 2026
+## Latest: RTL homepage carousel fix — April 23, 2026
+
+Bugfix: on RTL locales (`ar`, `fa`, `he`, `ur`) the homepage's infinite-scroll category pill carousels appeared broken — bars started at the wrong side and the seamless wrap-around seam was visible.
+
+**Root cause.** `HomeCarousel.tsx` drives the track with `transform: translate3d(offset, 0, 0)` and wraps the offset around `track.scrollWidth / 2`. Both assume an LTR coordinate system. When `<html dir="rtl">` is set, the flex-row direction inside `.home-carousel-track` flips, reversing the physical meaning of positive/negative horizontal transforms. The wrap boundary then no longer coincides with the duplicated-pill seam, so the seam becomes visible and the start offset lands at the wrong edge.
+
+**Fix** (`app/globals.css`, §4 Homepage V2):
+1. Added `direction: ltr` to `.home-carousel-wrap`, `.home-carousel-row`, and `.home-carousel-track`. The carousel is a purely visual mechanical element — its internal layout must stay LTR everywhere so the JS translate3d math is consistent.
+2. Added `unicode-bidi: plaintext` to `.home-pill`. Each pill then auto-detects its own text direction from its first strong directional character (equivalent to `dir="auto"`), so a single Arabic/Hebrew/Persian/Urdu label renders RTL as expected, and any mixed-script label (e.g. Arabic + Latin digits) resolves its neutral characters against the pill's own base direction rather than inheriting LTR from the carousel container.
+
+No other RTL page is affected — `<html dir="rtl">` still flips all prose, headings, card grids, navbar, footer, etc. The override is scoped to the carousel primitives only. Documented inline in `app/globals.css` with a block comment explaining why for future editors.
+
+---
+
+## Azerbaijani (az) manifest refresh — April 23, 2026
+
 
 Ran `/translate-manifest-refresh Azerbaijani` end-to-end. Fourth locale through the manifest-driven refresh pipeline, and the first Turkic-language locale (shares Latin script with Turkish/Uzbek/Azerbaijani — the extended diacritics are `ə`, `ğ`, `ı`, `ö`, `ş`, `ü`, `ç`).
 

@@ -228,7 +228,20 @@ a.orange-link:hover {
 /* ── Category carousels (full-viewport infinite loop) ────── */
 
 /* Breaks out of the 700px-wide .container-main so the carousel
-   can go edge-to-edge of the viewport. */
+   can go edge-to-edge of the viewport.
+
+   ⚠ RTL note: the carousel is a purely visual mechanical element
+   (an infinite-scrolling row of colored pills). The JS in
+   HomeCarousel.tsx drives it with `transform: translate3d(offset, 0, 0)`
+   and wraps the offset around `scrollWidth / 2`, both of which assume
+   LTR coordinates. On RTL pages (ar / fa / he / ur) the `<html dir="rtl">`
+   would otherwise reverse the flex-row direction and flip the physical
+   meaning of the transform — the pills start at the wrong side and the
+   seamless wrap breaks. Forcing `direction: ltr` on the wrap + row +
+   track keeps the mechanics LTR everywhere; the Arabic/Hebrew/Persian
+   text inside each pill still renders correctly thanks to the Unicode
+   bidirectional algorithm (strong RTL characters are laid out RTL
+   regardless of container direction). */
 .home-carousel-wrap {
 	position: relative;
 	width: 100vw;
@@ -237,6 +250,7 @@ a.orange-link:hover {
 	margin-left: -50vw;
 	margin-right: -50vw;
 	overflow: hidden;
+	direction: ltr;
 }
 
 /* Fixed viewport; the track inside is positioned with
@@ -248,6 +262,7 @@ a.orange-link:hover {
 	/* Allow vertical page scroll on touch; horizontal swipes are
 	   intercepted by the JS (preventDefault inside touchmove). */
 	touch-action: pan-y;
+	direction: ltr;
 }
 
 .home-carousel-row.is-dragging {
@@ -267,6 +282,7 @@ a.orange-link:hover {
 	padding: 0 10px;
 	width: max-content;
 	will-change: transform;
+	direction: ltr;
 }
 
 /* Pills: colored link buttons used inside the carousel. The `--pill-color`
@@ -294,7 +310,17 @@ a.orange-link:hover {
 	user-select: none;
 	-webkit-user-select: none;
 	text-decoration: none;
+	/* The track + wrap above force `direction: ltr` so the carousel's
+	   translate3d mechanics stay consistent. Each pill opts back into
+	   auto-detected direction so a single translated label (Arabic,
+	   Hebrew, Persian, Urdu, etc.) reads in its own natural script
+	   direction — and any mixed-script labels (Arabic + Latin digits)
+	   resolve their neutrals correctly against the pill's own first
+	   strong directional character instead of inheriting LTR from the
+	   parent. Equivalent to `dir="auto"` on every pill. */
+	unicode-bidi: plaintext;
 }
+
 
 .home-pill:hover {
 	transform: scale(1.05);
