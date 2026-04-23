@@ -544,8 +544,7 @@ export default async function BusinessAccountingPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Pacioli Accounting Services — Bitcoin
-									accounting for businesses
+									{t("sources_satoshi_pacioli")}
 								</a>
 							</li>
 							<li>
@@ -554,8 +553,7 @@ export default async function BusinessAccountingPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Bitcoin Price Report — Bitcoin current &amp; historical
-									dollar price
+									{t("sources_bitcoin_price_report")}
 								</a>
 							</li>
 							<li>
@@ -564,8 +562,7 @@ export default async function BusinessAccountingPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									The Spreadsheet Guru — Import cryptocurrency prices
-									into Excel
+									{t("sources_spreadsheet_guru")}
 								</a>
 							</li>
 							<li>
@@ -574,8 +571,7 @@ export default async function BusinessAccountingPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>

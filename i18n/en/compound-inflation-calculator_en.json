@@ -14,5 +14,7 @@
 	"cic_inflation_cta": "Opt out of inflation with Bitcoin",
 	"cic_next_learn_inflation": "Learn how inflation works",
 	"cic_next_explore_topics": "Explore more topics",
-	"cic_next_explore_topics_desc": "See how Bitcoin connects to money, freedom, energy, and more."
+	"cic_next_explore_topics_desc": "See how Bitcoin connects to money, freedom, energy, and more.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

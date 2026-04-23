@@ -155,5 +155,14 @@
 	"common_sticker_name_bdhi_black": "\"Bitcoin Doesn't Have Inflation\" Sticker (Black)",
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" Bitcoin Sticker",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" Bitcoin Sticker",
-	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin Sticker"
+	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin Sticker",
+	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
+	"common_source_btcpayserver": "BTCPay Server — Free, open-source, self-hosted Bitcoin payment processor",
+	"common_source_btc_map": "BTC Map — Worldwide directory of Bitcoin-accepting merchants",
+	"common_source_strike_business": "Strike — Bitcoin & Lightning payments for businesses",
+	"common_source_oshi": "Oshi — Bitcoin rewards platform for merchants",
+	"common_source_fred_money_supply_index": "Federal Reserve Economic Data (FRED) — Money Supply (Category Index)",
+	"common_source_bls_cpi": "U.S. Bureau of Labor Statistics — Consumer Price Index (CPI)",
+	"common_language_switcher_add_language": "Add language",
+	"common_site_tagline": "Bitcoin education for everyone."
 }

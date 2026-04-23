@@ -45,5 +45,10 @@
 	"nostr_iris_name": "Iris",
 	"nostr_iris_f1": "Super simple — no install required",
 	"nostr_iris_f2": "Easy way to try Nostr with a test account",
-	"nostr_iris_f3": "100% free"
+	"nostr_iris_f3": "100% free",
+	"sources_nostr_how": "nostr.how — What is Nostr?",
+	"sources_nostr_protocol": "Nostr Protocol — Open-source specification",
+	"sources_primal": "Primal — Nostr client with a built-in Bitcoin zap wallet",
+	"sources_damus": "Damus — iPhone Nostr client",
+	"sources_iris": "Iris — Browser-based Nostr client"
 }

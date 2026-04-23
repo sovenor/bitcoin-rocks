@@ -61,8 +61,7 @@ export async function generateMetadata({
 		slug: SLUG,
 		titleKey: "bitcoin_merchant_maps_list_your_business_for_free",
 		image: META_IMAGE,
-		description:
-			"List your business for free on BTC Map and other Bitcoin merchant maps so Bitcoiners nearby can find you.",
+		descriptionKey: "biz_maps_meta_description",
 	});
 }
 
@@ -130,8 +129,7 @@ export default async function BusinessMapsPage({
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
 	const title = t("bitcoin_merchant_maps_list_your_business_for_free");
-	const description =
-		"List your business for free on BTC Map and other Bitcoin merchant maps so Bitcoiners nearby can find you.";
+	const description = t("biz_maps_meta_description");
 
 	const articleSchema = await buildArticleSchema({
 		slug: SLUG,

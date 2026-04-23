@@ -220,8 +220,7 @@ export default async function CompoundInflationCalculatorPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									U.S. Bureau of Labor Statistics — Consumer Price Index
-									(CPI)
+									{t("common_source_bls_cpi")}
 								</a>
 							</li>
 							<li>
@@ -230,8 +229,7 @@ export default async function CompoundInflationCalculatorPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Federal Reserve Economic Data (FRED) — Consumer Price
-									Index for All Urban Consumers
+									{t("sources_fred_cpi_urban")}
 								</a>
 							</li>
 							<li>
@@ -240,8 +238,7 @@ export default async function CompoundInflationCalculatorPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Federal Reserve Economic Data (FRED) — M1 Money
-									Supply
+									{t("sources_fred_m1")}
 								</a>
 							</li>
 							<li>
@@ -250,8 +247,7 @@ export default async function CompoundInflationCalculatorPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Federal Reserve Economic Data (FRED) — Money Supply
-									(Category Index)
+									{t("common_source_fred_money_supply_index")}
 								</a>
 							</li>
 						</ol>

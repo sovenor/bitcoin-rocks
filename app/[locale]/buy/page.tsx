@@ -247,7 +247,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Strike — Buy Bitcoin with Lightning Network support
+									{t("sources_strike_lightning")}
 								</a>
 							</li>
 							<li>
@@ -256,7 +256,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Kraken — Established Bitcoin exchange
+									{t("sources_kraken")}
 								</a>
 							</li>
 							<li>
@@ -265,7 +265,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Relai — Swiss Bitcoin-only self-custody app
+									{t("sources_relai")}
 								</a>
 							</li>
 							<li>
@@ -274,7 +274,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Swan Bitcoin — Bitcoin-only dollar-cost averaging
+									{t("sources_swan")}
 								</a>
 							</li>
 							<li>
@@ -283,7 +283,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									River — Bitcoin-only buying, mining, and custody
+									{t("sources_river")}
 								</a>
 							</li>
 							<li>
@@ -292,7 +292,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Coin ATM Radar — Worldwide Bitcoin ATM directory
+									{t("sources_coinatmradar")}
 								</a>
 							</li>
 							<li>
@@ -301,7 +301,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Bisq — Decentralized peer-to-peer Bitcoin exchange
+									{t("sources_bisq")}
 								</a>
 							</li>
 							<li>
@@ -310,8 +310,7 @@ export default async function BuyPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import { languages, type LanguageEntry } from "@/lib/i18n/config";
 import { usePathname, useRouter } from "@/lib/i18n/navigation";
@@ -48,6 +48,9 @@ export function LanguageSwitcher() {
 	const locale = useLocale();
 	const pathname = usePathname();
 	const router = useRouter();
+	const t = useTranslations();
+
+	const addLanguageLabel = t("common_language_switcher_add_language");
 
 	const [open, setOpen] = useState(false);
 	const wrapperRef = useRef<HTMLDivElement>(null);
@@ -86,6 +89,9 @@ export function LanguageSwitcher() {
 
 		if (entry.code === "custom" && entry.url) {
 			if (gtag) {
+				// Keep the GA `event_label` English so dashboards / funnels
+				// keep consistent grouping across locales. The user-facing
+				// copy is translated via `addLanguageLabel` above.
 				gtag("event", "language_switch", {
 					event_category: "Language",
 					event_label: "Add language",
@@ -160,13 +166,13 @@ export function LanguageSwitcher() {
 						onClick={() =>
 							handleSelect({
 								code: "custom",
-								name: "Add language",
+								name: addLanguageLabel,
 								url: CUSTOM_URL,
 							})
 						}
 						className="block w-full text-left px-4 py-2 font-proxima text-sm whitespace-nowrap text-fg-muted hover:bg-bitcoin-orange/15 hover:text-bitcoin-orange transition-colors"
 					>
-						Add language
+						{addLanguageLabel}
 					</button>
 				</div>
 			)}

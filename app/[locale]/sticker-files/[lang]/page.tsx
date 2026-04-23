@@ -86,7 +86,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
 	const { locale, lang } = await params;
 	if (!STICKER_AVAILABILITY[lang]) {
-		return { title: "Not Found" };
+		// Fire a translated short "Not Found" title when the locale +
+		// namespace resolve; fall back to the English literal only if
+		// next-intl can't provide a translator.
+		let notFoundTitle = "Not Found";
+		try {
+			const tFallback = await getTranslations({ locale });
+			notFoundTitle = tFallback("404_not_found_short");
+		} catch {
+			// English literal fallback above
+		}
+		return { title: notFoundTitle };
 	}
 	const t = await getTranslations({ locale });
 	const langDescriptor = findLanguage(lang);

@@ -1,4 +1,26 @@
+## i18n cleanup Step 3.5 (source-side hardcoded-English audit) — April 23, 2026
+
+Closed the gap left by Steps 1–3: those audits walked JSON → source ("which English keys does no source file reference?"), so they couldn't detect English text literally embedded in `.tsx` files that never went through `t()` / `getTranslations()` / `useTranslations()` in the first place. Step 3.5 is the reverse direction (source → JSON).
+
+**New tooling** — added two more scripts + three remediation helpers to `scripts/i18n-audit/`:
+- `find-hardcoded-strings.js` — regex-based scanner (no TS AST, on purpose — RSC syntax breaks parsers) over every `.tsx`/`.ts` under `app/` + `components/`. Flags 4 finding kinds: JSX text, user-facing attributes (`title`, `alt`, `placeholder`, `aria-label`, `aria-description`, `aria-placeholder`, `aria-valuetext`, `summary`, `label`), Next metadata fields (`title:` / `description:` / `siteName:` / `alt:`), and schema.org builder fields (`headline:` / `description:` / `name:` / `articleBody:` / `text:`). Strips comments + string/template bodies before scanning. Three heuristic filters kill false positives: `IGNORED_STRING_PATTERNS` (URLs, hex colors, CSS lengths, single-word identifiers), `CODE_LIKE_PATTERNS` (TS generic syntax like `useRef<HTMLDivElement>(null)` fools the JSX-text matcher), and a per-snippet alpha-density check.
+- `hardcoded-strings-allowlist.js` — opt-out list with two arrays + regex set. `GLOBAL_ALLOWLIST` carries brand names (bitcoin.rocks, hi@bitcoin.rocks) + schema.org/OpenGraph spec constants (`Article`, `Organization`, `website`, `summary_large_image`, etc). `FILE_SPECIFIC_ALLOWLIST` covers per-file exceptions with justifications: unlocalized root 404 (renders outside next-intl context), English fallbacks inside `try { getTranslations() } catch` recovery paths, and schema.org `CreativeWork.name` canonical dataset titles (FRED CPI, FRED M1, BLS CPI, Bitcoin whitepaper title, external article titles) — translating those would break the schema citation chain to the upstream source. Every entry requires a `reason` field; entries without one are rejected at scan time.
+- `step3.5-add-source-keys.js` — one-shot addition of **51 new English i18n keys** across 9 namespaces. `common` gets the 7 shared source citations that repeat on many pages (Bitcoin whitepaper, BTC Map, BTCPay Server, Strike Business, Oshi, FRED Money Supply Index, BLS CPI) plus `common_language_switcher_add_language` and `common_site_tagline`. Each per-page namespace gets its page-specific sources (e.g. `sources_satoshi_pacioli` in `business/accounting`, `sources_bitcoin_source_code` in `inflation`, `sources_acinq_phoenix` in `lightning`). Bumps `@metadata.last-updated`.
+- `step3.5-rewrite-sources.js` — surgical string-match replacement swapping 55 source-anchor texts across 10 pages to `{t("<key>")}`. Matches on `href="…"` + anchor text so the whitepaper URL (which appears on almost every content page's sources list) is disambiguated per-page.
+- `step3.5-add-misc-keys.js` — adds `biz_meta_description` + `biz_maps_meta_description` + `biz_wallets_meta_description` keys so the three /business page metadata descriptions stop being inline English.
+
+**Initial scan flagged 97 genuine findings across 20 files** (after tightening code-pattern heuristic — raw 127 dropped to 97 signal-only). Fix categories: 10 pages' source-citation `<li>` anchor texts (biggest bucket), 4 pages' metadata `description` literals, 3 pages' 404-page fallbacks, 3 pages' `hi@bitcoin.rocks` brand email, 1 component's "Add language" button, 2 pages' schema.org `citations[].name` dataset titles.
+
+**Hand-edited remediations** (non-scriptable): `app/[locale]/layout.tsx` refactored from a static `metadata` constant into an `async generateMetadata()` that resolves `description` from `common_site_tagline` with an English fallback. `components/LanguageSwitcher.tsx` now uses `useTranslations()` and pulls the "Add language" label via `t()`; GA `event_label` stays English for consistent cross-locale analytics grouping. The locale catch-all (`app/[locale]/[...rest]/page.tsx`) + sticker-files `[lang]/page.tsx` have their English 404 literals wrapped in `try { t() } catch { english }` so the translator attempt runs first. Three /business page metadata descriptions swapped for `descriptionKey`.
+
+**Verification**: re-scan = **0 flagged findings** (down from 97). `find-unused-keys.js` re-run = **0 dead keys** (all 51 new keys wired through `t()`). `npm run typecheck` clean. `npm run build` clean across 55 locales × 81 pages.
+
+**V2-REDESIGN-CHECKLIST.md** now shows i18n cleanup Steps 1–3 (10/10) + 3.5 (10/10) complete. Steps 4–6 still pending (propagate 51 new keys + dead-key deletions to the other 54 locales, per-language re-translation, final verification).
+
+---
+
 ## i18n cleanup Steps 1–3 (English dead-key removal + JSON formatting) — April 23, 2026
+
 
 With the full-site V2 redesign 81/81 complete, started the post-cutover i18n cleanup workflow. Steps 1–3 of `V2-REDESIGN-CHECKLIST.md` § "i18n Translation Cleanup" are done.
 

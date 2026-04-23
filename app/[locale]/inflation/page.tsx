@@ -422,8 +422,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Federal Reserve Economic Data (FRED) — Money Supply
-										(Category Index)
+										{t("common_source_fred_money_supply_index")}
 									</a>
 								</li>
 							</ul>
@@ -441,8 +440,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										U.S. Bureau of Labor Statistics — Consumer Price
-										Index (CPI)
+										{t("common_source_bls_cpi")}
 									</a>
 								</li>
 								{CURRENCIES.map((c) => (
@@ -504,8 +502,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Bitcoin Price Report — 4-year performance charts
-										(all currencies)
+										{t("sources_bitcoin_price_report_4yr")}
 									</a>
 								</li>
 								<li>
@@ -514,8 +511,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Satoshi Nakamoto — Bitcoin: A Peer-to-Peer
-										Electronic Cash System (2008)
+										{t("common_source_whitepaper")}
 									</a>
 								</li>
 								<li>
@@ -524,7 +520,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Bitcoin Source Code — 21 Million Supply Cap
+										{t("sources_bitcoin_source_code")}
 									</a>
 								</li>
 								<li>
@@ -533,7 +529,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Mempool.space — Bitcoin Supply &amp; Mining Data
+										{t("sources_mempool_space")}
 									</a>
 								</li>
 							</ul>
@@ -551,8 +547,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Canadian trucker protest — Bitcoin used to bypass
-										frozen bank accounts (YouTube)
+										{t("sources_canadian_trucker")}
 									</a>
 								</li>
 								<li>
@@ -561,8 +556,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Quartz Africa — How Bitcoin powered Nigeria&rsquo;s
-										EndSARS protests
+										{t("sources_nigeria_endsars")}
 									</a>
 								</li>
 								<li>
@@ -571,7 +565,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Texas Bitcoin mining and the electric grid (YouTube)
+										{t("sources_texas_mining")}
 									</a>
 								</li>
 								<li>
@@ -580,8 +574,7 @@ export default async function InflationPage({
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										Pennsylvania Bitcoin mining reclaims waste methane
-										(YouTube)
+										{t("sources_pennsylvania_mining")}
 									</a>
 								</li>
 							</ul>

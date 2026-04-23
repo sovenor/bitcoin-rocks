@@ -537,7 +537,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Bitcoin.org — Choose Your Wallet
+									{t("sources_bitcoin_org_choose")}
 								</a>
 							</li>
 							<li>
@@ -546,7 +546,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Jameson Lopp — Metal Bitcoin Seed Storage Reviews
+									{t("sources_jameson_lopp")}
 								</a>
 							</li>
 							<li>
@@ -555,8 +555,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 							<li>
@@ -565,7 +564,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Blockstream Green — Self-custody Bitcoin wallet
+									{t("sources_blockstream_green")}
 								</a>
 							</li>
 							<li>
@@ -574,7 +573,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Blockstream Jade — Bitcoin hardware wallet
+									{t("sources_blockstream_jade")}
 								</a>
 							</li>
 							<li>
@@ -583,7 +582,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Coinkite — Coldcard MK5 hardware wallet
+									{t("sources_coldcard_mk5")}
 								</a>
 							</li>
 							<li>
@@ -592,7 +591,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Coinkite — Coldcard Q hardware wallet
+									{t("sources_coldcard_q")}
 								</a>
 							</li>
 							<li>
@@ -601,7 +600,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Foundation Devices — Passport hardware wallet
+									{t("sources_passport")}
 								</a>
 							</li>
 							<li>
@@ -610,7 +609,7 @@ export default async function WalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									SeedSigner — Open-source DIY Bitcoin signing device
+									{t("sources_seedsigner")}
 								</a>
 							</li>
 						</ol>

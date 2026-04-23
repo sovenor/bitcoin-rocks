@@ -376,7 +376,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									nostr.how — What is Nostr?
+									{t("sources_nostr_how")}
 								</a>
 							</li>
 							<li>
@@ -385,7 +385,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Nostr Protocol — Open-source specification
+									{t("sources_nostr_protocol")}
 								</a>
 							</li>
 							<li>
@@ -394,7 +394,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Primal — Nostr client with a built-in Bitcoin zap wallet
+									{t("sources_primal")}
 								</a>
 							</li>
 							<li>
@@ -403,7 +403,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Damus — iPhone Nostr client
+									{t("sources_damus")}
 								</a>
 							</li>
 							<li>
@@ -412,7 +412,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Iris — Browser-based Nostr client
+									{t("sources_iris")}
 								</a>
 							</li>
 							<li>
@@ -421,8 +421,7 @@ export default async function NostrIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>

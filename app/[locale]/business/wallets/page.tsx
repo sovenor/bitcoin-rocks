@@ -62,8 +62,7 @@ export async function generateMetadata({
 		slug: SLUG,
 		titleKey: "how_to_accept_bitcoin_payments",
 		image: META_IMAGE,
-		description:
-			"All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks.",
+		descriptionKey: "biz_wallets_meta_description",
 	});
 }
 
@@ -337,8 +336,7 @@ export default async function BusinessWalletsPage({
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
 	const title = t("how_to_accept_bitcoin_payments");
-	const description =
-		"All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks.";
+	const description = t("biz_wallets_meta_description");
 
 	const getWalletLabel = t("wallets_get_wallet");
 
@@ -492,7 +490,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Square — Accept Bitcoin payments
+									{t("sources_square")}
 								</a>
 							</li>
 							<li>
@@ -501,8 +499,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Strike — Bitcoin &amp; Lightning payments for
-									businesses
+									{t("common_source_strike_business")}
 								</a>
 							</li>
 							<li>
@@ -511,7 +508,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Breez — Bitcoin-only Lightning wallet
+									{t("sources_breez_business")}
 								</a>
 							</li>
 							<li>
@@ -520,7 +517,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									OpenNode — Bitcoin payment processor
+									{t("sources_opennode")}
 								</a>
 							</li>
 							<li>
@@ -529,7 +526,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									IBEX — Lightning payments infrastructure
+									{t("sources_ibex")}
 								</a>
 							</li>
 							<li>
@@ -538,8 +535,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									BTCPay Server — Free, open-source, self-hosted
-									Bitcoin payment processor
+									{t("common_source_btcpayserver")}
 								</a>
 							</li>
 							<li>
@@ -548,7 +544,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Zaprite — Bitcoin invoicing for businesses
+									{t("sources_zaprite")}
 								</a>
 							</li>
 							<li>
@@ -557,8 +553,7 @@ export default async function BusinessWalletsPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>

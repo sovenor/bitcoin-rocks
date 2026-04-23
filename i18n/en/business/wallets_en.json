@@ -44,5 +44,11 @@
 	"wallets_section_invoice": "Wallets for invoice-based businesses",
 	"wallets_section_invoice_intro": "If you invoice clients (consulting, freelancing, B2B services), use a wallet built around invoicing. Your client pays a Bitcoin invoice in a couple of clicks.",
 	"wallets_name_strike": "STRIKE BUSINESS",
-	"wallets_strike_note": "Strike Business lets you accept Bitcoin and Lightning payments with zero fees and instant settlement. Supports in-person, online, and invoice-based payments with optional auto-conversion to your local currency."
+	"wallets_strike_note": "Strike Business lets you accept Bitcoin and Lightning payments with zero fees and instant settlement. Supports in-person, online, and invoice-based payments with optional auto-conversion to your local currency.",
+	"sources_square": "Square — Accept Bitcoin payments",
+	"sources_breez_business": "Breez — Bitcoin-only Lightning wallet",
+	"sources_opennode": "OpenNode — Bitcoin payment processor",
+	"sources_ibex": "IBEX — Lightning payments infrastructure",
+	"sources_zaprite": "Zaprite — Bitcoin invoicing for businesses",
+	"biz_wallets_meta_description": "All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks."
 }

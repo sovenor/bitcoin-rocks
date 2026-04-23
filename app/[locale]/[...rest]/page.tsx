@@ -37,12 +37,16 @@ export async function generateMetadata({
 		: "en";
 	setRequestLocale(locale);
 
+	// The `title` attribute + <title> tag on this page. We try to load
+	// the translated value from `404_en.json` first and fall back to the
+	// English literal only if next-intl can't resolve a translator for
+	// the current request (e.g. during a hot-reload edge case).
 	let title = "404 Error | Page Not Found";
 	try {
 		const t = await getTranslations();
 		title = t("404_title");
 	} catch {
-		// fallback default
+		// fallback default (English literal above)
 	}
 	return {
 		title,

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-22",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"buy_bitcoin_guide": "How to buy Bitcoin",
@@ -124,5 +124,12 @@
 	"buy_step_2_eyebrow": "Step 2",
 	"buy_step_3_eyebrow": "Step 3",
 	"buy_step_4_eyebrow": "Step 4",
-	"buy_storage_cta_label": "Next step"
+	"buy_storage_cta_label": "Next step",
+	"sources_strike_lightning": "Strike — Buy Bitcoin with Lightning Network support",
+	"sources_kraken": "Kraken — Established Bitcoin exchange",
+	"sources_relai": "Relai — Swiss Bitcoin-only self-custody app",
+	"sources_swan": "Swan Bitcoin — Bitcoin-only dollar-cost averaging",
+	"sources_river": "River — Bitcoin-only buying, mining, and custody",
+	"sources_coinatmradar": "Coin ATM Radar — Worldwide Bitcoin ATM directory",
+	"sources_bisq": "Bisq — Decentralized peer-to-peer Bitcoin exchange"
 }

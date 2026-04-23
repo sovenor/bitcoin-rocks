@@ -48,5 +48,8 @@
 	"accounting_s4_c1": "If you'd rather hand this off — or your Bitcoin accounting is more complex than a hybrid wallet can handle — we highly recommend Satoshi Pacioli Accounting Services, a firm that specializes in Bitcoin accounting for businesses.",
 	"accounting_card_pacioli_label": "BITCOIN ACCOUNTANTS",
 	"accounting_card_pacioli_title": "Satoshi Pacioli Accounting Services",
-	"accounting_card_pacioli_source": "satoshipacioli.com"
+	"accounting_card_pacioli_source": "satoshipacioli.com",
+	"sources_satoshi_pacioli": "Satoshi Pacioli Accounting Services — Bitcoin accounting for businesses",
+	"sources_bitcoin_price_report": "Bitcoin Price Report — Bitcoin current & historical dollar price",
+	"sources_spreadsheet_guru": "The Spreadsheet Guru — Import cryptocurrency prices into Excel"
 }

@@ -64,8 +64,7 @@ export async function generateMetadata({
 		slug: SLUG,
 		titleKey: "bitcoin_is_good_for_business",
 		image: META_IMAGE,
-		description:
-			"Accept Bitcoin at your business for lower fees, instant settlement, no chargebacks, and more customers.",
+		descriptionKey: "biz_meta_description",
 	});
 }
 
@@ -142,8 +141,7 @@ export default async function BusinessIndexPage({
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
 	const title = t("bitcoin_is_good_for_business");
-	const description =
-		"Accept Bitcoin at your business for lower fees, instant settlement, no chargebacks, and more customers.";
+	const description = t("biz_meta_description");
 
 	const articleSchema = await buildArticleSchema({
 		slug: SLUG,
@@ -314,8 +312,7 @@ export default async function BusinessIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									BTC Map — Worldwide directory of Bitcoin-accepting
-									merchants
+									{t("common_source_btc_map")}
 								</a>
 							</li>
 							<li>
@@ -324,8 +321,7 @@ export default async function BusinessIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									BTCPay Server — Free, open-source, self-hosted
-									Bitcoin payment processor
+									{t("common_source_btcpayserver")}
 								</a>
 							</li>
 							<li>
@@ -334,8 +330,7 @@ export default async function BusinessIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Strike — Bitcoin & Lightning payments for
-									businesses
+									{t("common_source_strike_business")}
 								</a>
 							</li>
 							<li>
@@ -344,7 +339,7 @@ export default async function BusinessIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Oshi — Bitcoin rewards platform for merchants
+									{t("common_source_oshi")}
 								</a>
 							</li>
 							<li>
@@ -353,8 +348,7 @@ export default async function BusinessIndexPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
@@ -15,11 +15,29 @@ import { buildOrganizationSchema } from "@/lib/schema/organization";
 // in the legacy static site.
 const TYPEKIT_URL = "https://use.typekit.net/ful2oqu.css";
 
-export const metadata: Metadata = {
-	title: "bitcoin.rocks",
-	description: "Bitcoin education for everyone.",
-	metadataBase: new URL("https://bitcoin.rocks"),
-	icons: {
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+	const { locale } = await params;
+	let description = "Bitcoin education for everyone.";
+	try {
+		const t = await getTranslations({ locale });
+		description = t("common_site_tagline");
+	} catch {
+		// English fallback — locale invalid or messages unavailable.
+	}
+	return {
+		title: "bitcoin.rocks",
+		description,
+		metadataBase: new URL("https://bitcoin.rocks"),
+		icons: buildIcons(),
+	};
+}
+
+function buildIcons() {
+	return {
 		icon: [
 			{ url: "/favicons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
 			{ url: "/favicons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -36,8 +54,8 @@ export const metadata: Metadata = {
 			{ url: "/favicons/apple-touch-icon-120x120.png", sizes: "120x120" },
 		],
 		shortcut: ["/favicons/favicon.ico"],
-	},
-};
+	};
+}
 
 // Pre-render one static page per supported locale. next-intl requires this
 // pairing with `setRequestLocale()` below to enable full server-side

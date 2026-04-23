@@ -390,5 +390,12 @@
 	"inflation_nzd_freedom_p2": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
 	"inflation_stat_nzd_label": "NEW ZEALAND DOLLAR",
 	"inflation_stat_nzd_existence_title": "NEW ZEALAND DOLLARS IN EXISTENCE",
-	"inflation_stat_nzd_debt_title": "NEW ZEALAND GOVERNMENT DEBT"
+	"inflation_stat_nzd_debt_title": "NEW ZEALAND GOVERNMENT DEBT",
+	"sources_bitcoin_price_report_4yr": "Bitcoin Price Report — 4-year performance charts (all currencies)",
+	"sources_bitcoin_source_code": "Bitcoin Source Code — 21 Million Supply Cap",
+	"sources_mempool_space": "Mempool.space — Bitcoin Supply & Mining Data",
+	"sources_canadian_trucker": "Canadian trucker protest — Bitcoin used to bypass frozen bank accounts (YouTube)",
+	"sources_nigeria_endsars": "Quartz Africa — How Bitcoin powered Nigeria’s EndSARS protests",
+	"sources_texas_mining": "Texas Bitcoin mining and the electric grid (YouTube)",
+	"sources_pennsylvania_mining": "Pennsylvania Bitcoin mining reclaims waste methane (YouTube)"
 }

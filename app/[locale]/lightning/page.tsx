@@ -412,8 +412,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Joseph Poon &amp; Thaddeus Dryja — The Bitcoin Lightning
-									Network: Scalable Off-Chain Instant Payments (2016)
+									{t("sources_lightning_paper")}
 								</a>
 							</li>
 							<li>
@@ -422,8 +421,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 							<li>
@@ -432,7 +430,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									ACINQ — Phoenix Lightning wallet
+									{t("sources_acinq_phoenix")}
 								</a>
 							</li>
 							<li>
@@ -441,7 +439,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Breez — Self-custodial Lightning wallet
+									{t("sources_breez_lightning")}
 								</a>
 							</li>
 							<li>
@@ -450,7 +448,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Wallet of Satoshi — Custodial Lightning wallet
+									{t("sources_wallet_of_satoshi")}
 								</a>
 							</li>
 							<li>
@@ -459,7 +457,7 @@ export default async function LightningPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Lightning Labs — Lightning Network documentation
+									{t("sources_lightning_labs")}
 								</a>
 							</li>
 						</ol>

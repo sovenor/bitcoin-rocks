@@ -382,8 +382,7 @@ export default async function BusinessFaqPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									BTC Map — Worldwide directory of Bitcoin-accepting
-									merchants
+									{t("common_source_btc_map")}
 								</a>
 							</li>
 							<li>
@@ -392,8 +391,7 @@ export default async function BusinessFaqPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									BTCPay Server — Free, open-source, self-hosted
-									Bitcoin payment processor
+									{t("common_source_btcpayserver")}
 								</a>
 							</li>
 							<li>
@@ -402,8 +400,7 @@ export default async function BusinessFaqPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Strike — Bitcoin & Lightning payments for
-									businesses
+									{t("common_source_strike_business")}
 								</a>
 							</li>
 							<li>
@@ -412,7 +409,7 @@ export default async function BusinessFaqPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Oshi — Bitcoin rewards platform for merchants
+									{t("common_source_oshi")}
 								</a>
 							</li>
 							<li>
@@ -421,8 +418,7 @@ export default async function BusinessFaqPage({
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic
-									Cash System (2008)
+									{t("common_source_whitepaper")}
 								</a>
 							</li>
 						</ol>
