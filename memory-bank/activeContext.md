@@ -1,4 +1,60 @@
-## Latest: i18n cleanup Step 5 Phase A+ — auto-verify after apply-translations — April 23, 2026
+## Latest: i18n cleanup Step 5 Phase A+ — sticker-files/<lang>/ namespace consolidation — April 23, 2026
+
+Between Phase A (tooling) and Phase B (per-language re-translation grind), the user spotted that after Step 2's dead-key deletion pass, every `sticker-files/<lang>/index` namespace was now an empty `@metadata`-only shell. They asked where the per-language-page keys were coming from now, and whether those files could be deleted before Phase B so translators wouldn't waste cycles on them.
+
+### Investigation
+
+The V2 per-language page at `app/[locale]/sticker-files/[lang]/page.tsx` (redesigned earlier in the V2 pass) no longer references any per-language key. The hero is built in JavaScript as `"Download ${titleCaseWord(stickerLangName)} Bitcoin Sticker Files"` — the English phrasing is hard-coded in the page, only the language name is translated via `common_language_<name>` keys in `common_en.json`. Mission paragraphs, sticker-card meta, tips, and what's-next cards all pull from `common_*` too.
+
+The only per-language file still holding a live key was `sticker-files/english/index_<locale>.json` — specifically the `print_these` key ("PRINT THESE IN 1 CLICK") that drives the StickerMule 1-click CTA button on the English page's center-aligned intro card. The `/sticker-files` picker page (at `sticker-files/index_<locale>.json`) still uses 3 keys for its own hero/description, so that namespace stays.
+
+### What changed (Option B — full cleanup)
+
+1. **New script: `scripts/i18n-audit/consolidate-sticker-files-langs.js`** (~210 lines). One-shot Node script that:
+   - For every locale, reads `i18n/<locale>/sticker-files/english/index_<locale>.json` and lifts its `print_these` value into `i18n/<locale>/common_<locale>.json` as `common_sticker_files_print_these`. For the 25 locales that didn't have a translated `print_these` (af, am, az, bn, da, et, eu, fi, fil, ha, hu, ja, ko, lt, ms, my, nb, ny, ru, si, sv, tl, ur, yo, zu), the script falls back to the English string — those will get native translations during Phase B via `/translate-v2-refresh`.
+   - Deletes every `i18n/<locale>/sticker-files/<slug>/` subdirectory (all 43 per-language slugs, including `english/`). The picker-page namespace `sticker-files/index_<locale>.json` is preserved.
+   - Bumps `@metadata.last-updated` on every `common_<locale>.json` that gained the new key.
+   - Idempotent: re-running is a no-op once every `common` file already has `common_sticker_files_print_these` with the same value and no more `sticker-files/<slug>/` directories exist.
+
+2. **Page update.** `app/[locale]/sticker-files/[lang]/page.tsx` line 222: `t("print_these")` → `t("common_sticker_files_print_these")`. Since the button only renders when `stickerMuleOneClickUrl(lang)` returns non-null (which is just English), the key is only read on `/<locale>/sticker-files/english`, but translations work for users visiting that page from any locale.
+
+3. **`lib/i18n/request.ts`.** Removed all 43 `sticker-files/<lang>/index` entries from `DEFAULT_NAMESPACES`, keeping just `sticker-files/index` (the picker page). Rewrote the Phase 11 comment block to explain that per-language sticker-files pages now pull everything from `common`.
+
+4. **`scripts/i18n-audit/english-snapshot.json`** regenerated via `node scripts/i18n-audit/snapshot-english.js`. Went from **81 namespaces → 38 namespaces** (dropped the 43 dead `sticker-files/<lang>/index` entries). Total key count unchanged at 1,849 — the `print_these` key simply moved from `sticker-files/english/index` into `common`.
+
+5. **Unused-keys audit: 0 dead keys** across the 38 post-consolidation namespaces / 1,849 keys. All references to `print_these` now resolve through the new `common_sticker_files_print_these` key.
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+- `npm run build` → clean across all 55 locales × 81 pages, including all 2,365 `/[locale]/sticker-files/[lang]` static paths (55 × 43).
+- `node scripts/i18n-audit/find-unused-keys.js` → "0 unused keys" / "38 English JSON files" / "1,849 keys scanned."
+- Spot-checked `i18n/{en,de,nl}/common_<code>.json` — all three have `common_sticker_files_print_these` with proper values (`"PRINT THESE IN 1 CLICK"` / `"DRUCKE DIESE MIT 1 KLICK"` / `"PRINT DEZE IN 1 KLIK"` respectively). Spot-checked `i18n/{en,nl}/sticker-files/` — only `index_<code>.json` remains; all per-language subdirectories are gone.
+- Dry-run summary: `common_<locale>.json: added=54, already-present=0, skipped-no-common=1` (lt has no `common_lt.json` — a pre-existing incomplete locale documented in earlier activeContext entries). `sticker-files/<lang>/ dirs removed: 2,365 across 55 locales`.
+
+### Why this matters for Phase B
+
+Before this consolidation, `/translate-v2-refresh <Language>` would flag 43 empty-namespace files per language (or ~2,365 files across 54 locales) as needing attention. Translators would waste cycles opening each file just to confirm the `@metadata`-only shell was empty. After consolidation, the `sticker-files/<lang>/` tree only contains `index_<locale>.json` for the picker page — translators see 1 namespace instead of 44 when working through sticker-files.
+
+### Files changed
+
+```
+scripts/i18n-audit/consolidate-sticker-files-langs.js   (NEW — ~210 lines, one-shot migration + cleanup)
+app/[locale]/sticker-files/[lang]/page.tsx               (t("print_these") → t("common_sticker_files_print_these"))
+lib/i18n/request.ts                                       (DEFAULT_NAMESPACES: 43 sticker-files/<lang>/index entries removed; Phase 11 comment rewritten)
+i18n/<54 locales>/common_<code>.json                      (+1 key — common_sticker_files_print_these; 29 locales got their pre-existing translated value, 25 got English fallback; @metadata.last-updated → 2026-04-23)
+i18n/<55 locales>/sticker-files/<43 slugs>/               (DELETED — 2,365 directories)
+scripts/i18n-audit/english-snapshot.json                  (regenerated: 81 → 38 namespaces; 1,849 keys unchanged)
+V2-REDESIGN-CHECKLIST.md                                  (Step 5 gets a "Phase A+ follow-up" paragraph + a new ticked "Phase A+ complete" checkbox)
+memory-bank/activeContext.md                              (this entry prepended)
+memory-bank/progress.md                                   (updated)
+```
+
+Phase B per-language re-translation work can now proceed. The 25 locales that got English-fallback `common_sticker_files_print_these` values will pick up native translations on their next `/translate-v2-refresh <Language>` session — the diff script will flag the key as `untranslated` when English value === target value.
+
+---
+
+## Previous: i18n cleanup Step 5 Phase A+ — auto-verify after apply-translations — April 23, 2026
 
 Quick follow-up to Phase A to address the user's observation: the initial `apply-translations.js` implementation relied on the translator manually running `scripts/audit-translation.js <lang>` + `npm run build` as separate follow-up commands after the apply step. That's error-prone: it's easy to forget, and a partially-translated language could ship if the human skipped step 4.
 

@@ -1,3 +1,17 @@
+## i18n cleanup Step 5 Phase A+ — sticker-files/<lang>/ namespace consolidation (2026-04-23)
+
+Follow-up to Phase A after the user spotted that Step 2's dead-key pass had reduced every `sticker-files/<lang>/index` namespace to an empty `@metadata`-only shell. Confirmed the V2 per-language sticker-files page at `app/[locale]/sticker-files/[lang]/page.tsx` builds its hero in-code (`"Download <LangName> Bitcoin Sticker Files"`) from `common_language_<name>` keys, with all other copy pulled from `common_*` keys. The only live per-language key anywhere was `print_these` ("PRINT THESE IN 1 CLICK") on `sticker-files/english/index`, which drives the StickerMule 1-click CTA button.
+
+**New script: `scripts/i18n-audit/consolidate-sticker-files-langs.js`** (~210 lines, idempotent) — (a) lifts `print_these` into `common_<locale>.json` as `common_sticker_files_print_these` (29 locales kept their pre-existing translation, 25 got English fallback — those will get native translations during Phase B), (b) deletes every `sticker-files/<slug>/` subdirectory across all 55 locales (2,365 directories total — all 43 per-language slugs including `english/`), (c) preserves the picker-page namespace `sticker-files/index_<locale>.json`, (d) bumps `@metadata.last-updated` on every touched `common` file.
+
+**Additional changes**: `app/[locale]/sticker-files/[lang]/page.tsx` swapped `t("print_these")` → `t("common_sticker_files_print_these")`. `lib/i18n/request.ts` `DEFAULT_NAMESPACES` had all 43 dead entries removed — now just `sticker-files/index`. `scripts/i18n-audit/english-snapshot.json` regenerated: **81 → 38 namespaces**, 1,849 keys unchanged. `V2-REDESIGN-CHECKLIST.md` Step 5 got a "Phase A+ follow-up" paragraph + ticked checkbox.
+
+**Verification**: `npx tsc --noEmit` clean. `npm run build` clean (all 2,365 per-language sticker-files static paths still generate). `node scripts/i18n-audit/find-unused-keys.js` → 0 dead keys across 38 namespaces / 1,849 keys. Spot-checked `i18n/{en,de,nl}/common_<code>.json` — new key has proper translations; `i18n/{en,nl}/sticker-files/` — only `index_<code>.json` remains.
+
+**Net effect for Phase B**: translators no longer waste cycles on 43 empty namespace files per language. The `sticker-files/<lang>/` tree now contains exactly one JSON file per locale (the picker page), not 44.
+
+---
+
 ## i18n cleanup Step 5 Phase A — diff/apply tooling + per-language workflow (2026-04-23)
 
 Step 5 of the i18n cleanup workflow is the per-language re-translation pass (the 51 new Step 3.5 keys + any V2-era keys whose English changed, for all 54 non-English locales). Rather than cramming everything into a single session (the full English corpus + 1 target locale is ~850KB and would blow past the chat context window), Phase A builds the tooling so Phase B can run **one locale per session**.

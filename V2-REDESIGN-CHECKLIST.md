@@ -277,7 +277,10 @@ For each language, for every namespace: (a) find keys whose English value change
 
 **Per-language workflow:** Run `/translate-v2-refresh <Language Name>` — see `.clinerules/workflows/translate-v2-refresh.md` for the full per-session procedure.
 
+**Phase A+ follow-up (2026-04-23) — sticker-files namespace consolidation:** The `sticker-files/<lang>/index` per-language namespaces (all 43 slugs) were all empty shells after Step 2 stripped the dead `<lang>_header` / `<lang>_description` / `<lang>_bitcoin_sticker_files` keys — the V2 page at `app/[locale]/sticker-files/[lang]/page.tsx` builds the hero in-code from `common_language_<name>` keys. `scripts/i18n-audit/consolidate-sticker-files-langs.js` (a) lifted the one remaining live key — `print_these` ("PRINT THESE IN 1 CLICK") from `sticker-files/english/index` — into `common_<locale>.json` as `common_sticker_files_print_these`, preserving 29 locale-specific translations and falling back to English for the other 25, and (b) deleted all 2,365 `sticker-files/<lang>/` subdirectories across the 55 locales. Updated `lib/i18n/request.ts` `DEFAULT_NAMESPACES` to drop the 43 dead sticker-files entries, leaving just `sticker-files/index` (picker page). English snapshot regenerated: went from 81 → 38 namespaces / 1,849 keys. `npx tsc --noEmit` + `npm run build` clean. Net effect: Phase B translators no longer waste cycles on 43 empty namespaces per language.
+
 - [x] **Phase A complete (2026-04-23):** Diff script + snapshot + apply-translations tooling + workflow file all in place.
+- [x] **Phase A+ complete (2026-04-23):** 43 dead `sticker-files/<lang>/index` namespaces consolidated into `common_sticker_files_print_these` + `sticker-files/index`.
 - [ ] For each language below, run the workflow, translate everything flagged, update `@metadata.last-updated`, and re-run `scripts/audit-translation.js <lang>` to confirm no English strings leaked in.
 
 Languages (54 non-English — tick each off when its updated + missing keys are fully translated):

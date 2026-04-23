@@ -1,6 +1,6 @@
 {
-	"generatedAt": "2026-04-23T17:42:11.298Z",
-	"totalNamespaces": 81,
+	"generatedAt": "2026-04-23T18:42:18.629Z",
+	"totalNamespaces": 38,
 	"totalKeys": 1849,
 	"namespaces": {
 		"404": {
@@ -1075,6 +1075,7 @@
 				"common_sticker_files_next_flyers_title": "Print a Bitcoin flyer",
 				"common_sticker_files_next_languages_label": "Sticker files",
 				"common_sticker_files_next_languages_title": "See sticker files in other languages",
+				"common_sticker_files_print_these": "PRINT THESE IN 1 CLICK",
 				"common_sticker_name_bdhi_black": "\"Bitcoin Doesn't Have Inflation\" Sticker (Black)",
 				"common_sticker_name_bdhi_orange": "\"Bitcoin Doesn't Have Inflation\" Sticker (Orange)",
 				"common_sticker_name_caution": "\"Caution! Melting Ice Cube\" Bitcoin Sticker",
@@ -1871,92 +1872,6 @@
 				"what_is_nostr": "What is Nostr?"
 			}
 		},
-		"sticker-files/afrikaans/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/arabic/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/basque/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/bulgarian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/catalan/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/chinese/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/croatian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/czech/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/danish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/dutch/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/english/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {
-				"print_these": "PRINT THESE IN 1 CLICK"
-			}
-		},
-		"sticker-files/estonian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/filipino/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/finnish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/french/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/german/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/greek/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/hausa/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/hebrew/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/hindi/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/hungarian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
 		"sticker-files/index": {
 			"lastUpdated": "2026-04-21",
 			"keys": {
@@ -1964,94 +1879,6 @@
 				"sticker_files_description": "Download our easy to use Bitcoin Sticker Files to print your own stickers.",
 				"sticker_files_header": "Print your own Bitcoin stickers with these Bitcoin sticker files."
 			}
-		},
-		"sticker-files/indonesian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/irish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/italian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/japanese/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/korean/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/malay/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/norwegian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/persian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/polish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/portuguese/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/russian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/sinhala/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/slovak/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/slovenian/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/spanish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/swahili/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/swedish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/thai/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/turkish/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/urdu/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/vietnamese/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
-		},
-		"sticker-files/yoruba/index": {
-			"lastUpdated": "2026-04-23",
-			"keys": {}
 		},
 		"sticker-language-success": {
 			"lastUpdated": "2026-04-22",

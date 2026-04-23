@@ -219,7 +219,7 @@ export default async function StickerFilesLanguagePage({
 								rel="noopener noreferrer"
 								className="sticker-files-cta-button"
 							>
-								{t("print_these")}
+								{t("common_sticker_files_print_these")}
 							</a>
 						</p>
 					) : null}

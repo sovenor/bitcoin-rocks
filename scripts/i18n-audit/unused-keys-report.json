@@ -1,7 +1,7 @@
 {
-	"generatedAt": "2026-04-23T17:16:14.031Z",
+	"generatedAt": "2026-04-23T18:42:38.220Z",
 	"summary": {
-		"jsonFilesScanned": 81,
+		"jsonFilesScanned": 38,
 		"keysChecked": 1849,
 		"unusedKeyCount": 0,
 		"namespacesWithUnused": 0

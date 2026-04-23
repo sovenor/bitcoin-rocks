@@ -70,55 +70,16 @@ const DEFAULT_NAMESPACES = [
 	"business/maps-success",
 	"business/sticker-success",
 	"business/sticker-language-success",
-	// Phase 11 — sticker-files index + per-language pages. Each language
-	// has its own `sticker-files/<lang>/index` namespace with
-	// `<lang>_bitcoin_sticker_files` + `<lang>_header` + `<lang>_description`
-	// keys; since they're page-specific we load all 43 at once (they're
-	// each only 3-4 keys, ~200 bytes per locale per namespace — negligible).
+	// Phase 11 — sticker-files picker page. The per-language pages
+	// (`/sticker-files/<lang>`) no longer need their own namespaces — the
+	// V2 page at `app/[locale]/sticker-files/[lang]/page.tsx` builds its
+	// H1 in-code ("Download <LangName> Bitcoin Sticker Files") from the
+	// `common_language_<name>` keys, and everything else on the page is
+	// served from `common` (mission paragraphs, sticker-card meta, tips,
+	// what's-next cards). The English-page-only "PRINT THESE IN 1 CLICK"
+	// CTA was consolidated into `common_sticker_files_print_these` on
+	// 2026-04-23 by `scripts/i18n-audit/consolidate-sticker-files-langs.js`.
 	"sticker-files/index",
-	"sticker-files/afrikaans/index",
-	"sticker-files/arabic/index",
-	"sticker-files/basque/index",
-	"sticker-files/bulgarian/index",
-	"sticker-files/catalan/index",
-	"sticker-files/chinese/index",
-	"sticker-files/croatian/index",
-	"sticker-files/czech/index",
-	"sticker-files/danish/index",
-	"sticker-files/dutch/index",
-	"sticker-files/english/index",
-	"sticker-files/estonian/index",
-	"sticker-files/filipino/index",
-	"sticker-files/finnish/index",
-	"sticker-files/french/index",
-	"sticker-files/german/index",
-	"sticker-files/greek/index",
-	"sticker-files/hausa/index",
-	"sticker-files/hebrew/index",
-	"sticker-files/hindi/index",
-	"sticker-files/hungarian/index",
-	"sticker-files/indonesian/index",
-	"sticker-files/irish/index",
-	"sticker-files/italian/index",
-	"sticker-files/japanese/index",
-	"sticker-files/korean/index",
-	"sticker-files/malay/index",
-	"sticker-files/norwegian/index",
-	"sticker-files/persian/index",
-	"sticker-files/polish/index",
-	"sticker-files/portuguese/index",
-	"sticker-files/russian/index",
-	"sticker-files/sinhala/index",
-	"sticker-files/slovak/index",
-	"sticker-files/slovenian/index",
-	"sticker-files/spanish/index",
-	"sticker-files/swahili/index",
-	"sticker-files/swedish/index",
-	"sticker-files/thai/index",
-	"sticker-files/turkish/index",
-	"sticker-files/urdu/index",
-	"sticker-files/vietnamese/index",
-	"sticker-files/yoruba/index",
 	// Phase 12 — nostr section. (Was 2 namespaces; /nostr/what-is-nostr
 	// was folded into /nostr during the V2 redesign on 2026-04-23.)
 	"nostr/index",
