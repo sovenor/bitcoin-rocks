@@ -1,4 +1,61 @@
-## Latest: /business/kit + /business/kit-success removed — April 23, 2026
+## Latest: 3 remaining /business/* form-success pages V2'd — April 23, 2026
+
+With `/business/kit` + `/business/kit-success` fully deleted earlier today and `/business/maps` freshly V2'd, the three remaining Tier 6 stragglers — `/business/maps-success`, `/business/sticker-success`, and `/business/sticker-language-success` — were all redesigned in the V2 style in one pass. Tier 6 (Business section) is now **11/11 complete**. Only Tier 7 (Nostr section, 2 pages) remains for the full-site V2 redesign.
+
+Per the task brief, these pages are styled to be similar to the main `/sticker-success` V2 page — plain `<h1>` hero + subtitle, `.wallet-intro.flyer-section` surface cards with `.flyer-heading` titles, and the per-`/business/*` colored resources grid as the cross-link surface. Per the Tier 6 convention (V2-REDESIGN-CHECKLIST.md), no generic "keep learning / buy Bitcoin" bridge — these pages are for merchants, so they bridge back into the merchant workflow via the 5-card colored resources grid (the current-page card is excluded from each).
+
+### Shared structure across all three pages
+
+```
+1. Hero (.home-hero.inflation-section)    plain <h1> + subtitle
+2. Surface card(s) (.wallet-intro.flyer-section)   content blocks
+3. Business resources grid                 5 colored .whats-next-card
+4. Publisher attribution                   reviewed badge + link block
+```
+
+- Dropped `BusinessPageShell` + `BusinessResourceCards`. Pages are now self-contained and inline the publisher attribution + reviewed-for-accuracy badge directly (matches every other V2 `/business/*` page).
+- Standard `buildArticleSchema()` + `buildBreadcrumbSchema()` JSON-LD with the `breadcrumbSchema !== null` guard.
+- `robots: { index: false, follow: true }` preserved — form-success pages should never appear in search results.
+- All three pages are server-rendered React Server Components — no Client Components needed.
+
+### Per-page specifics
+
+**`/business/maps-success`** — V1 had an `.h1-inflation` "SUCCESS!" hero + a single `.text-box.intro.inflation-box` containing an `.h2-stickers` line with the 1-2 week timeline, a `<br>`, and an `.orange-link` "View the map here" pointing at btcmap.org. V2 redesign splits this into a proper hero ("Request received 🎉" + subtitle) + two surface cards — **Timeline card** (2-paragraph explainer: 1-2 week review window + what happens when your listing goes live) and **View-the-map card** (1 paragraph + outlined `.flyer-btn` "View the BTC Map" CTA that still opens btcmap.org). BIZ_RESOURCES grid excludes the `maps` card.
+
+**`/business/sticker-success`** — V1 had `.h1-inflation` "SUCCESS!" + a `.text-box.intro.inflation-box` with a dense `.h2-stickers` blurb (3 stickers in a plain white envelope in 1-2 weeks + request-more hint). V2 redesign mirrors the main `/sticker-success` page pretty closely: hero ("Your stickers are on their way 🎉" + subtitle confirming pack size), then a **Good-spots card** reusing the `.sticker-success-tips` + `.sticker-success-tip` CSS from `/sticker-success` (app/globals.css §12) with 3 ✅ good-spot tips tuned for a business (front door/window, register/POS, menus/price lists) + 1 🚫 reminder, then a **Need-more card** with two `.flyer-btn`s: primary orange "Request another free pack" → `/business/stickers` + secondary outlined "Order in bulk" → StickerMule referral. BIZ_RESOURCES grid excludes the `stickers` card. **No new CSS needed** — the `.sticker-success-tips` block was already shipped with the main `/sticker-success` V2 redesign.
+
+**`/business/sticker-language-success`** — V1 had `.h1-inflation` "SUCCESS!" + a `.text-box.intro.inflation-box` with `.h2-stickers` "We will create and publish your sticker file within 3 to 4 weeks. Thanks for your patience!". V2 redesign is the simplest of the three: hero ("Request received 🎉" + subtitle) + a single **Timeline card** with 2 paragraphs (3-4 week creation window + batch-release explainer), then BIZ_RESOURCES grid (excludes `stickers`). Follows the same minimalist "form submitted, wait for it" shape as the main `/sticker-language-success` V2 page.
+
+### Files changed
+
+```
+app/[locale]/business/maps-success/page.tsx              (full V2 rewrite)
+app/[locale]/business/sticker-success/page.tsx           (full V2 rewrite)
+app/[locale]/business/sticker-language-success/page.tsx  (full V2 rewrite)
+
+i18n/en/business/maps-success_en.json            (bumped @metadata.last-updated to 2026-04-23; added 8 new biz_maps_success_* keys — hero_title, hero_subtitle, timeline_header, timeline_c1, timeline_c2, view_header, view_c1, btn_view_map. Legacy kit_success_1/2 keys preserved for the 54 non-English fallbacks.)
+i18n/en/business/sticker-success_en.json         (bumped to 2026-04-23; added 10 new biz_sticker_success_* keys — hero_title, hero_subtitle, tips_header, tip_1/2/3/4, more_header, more_c1, btn_order_bulk, btn_request_more. Legacy sticker_success_details key preserved.)
+i18n/en/business/sticker-language-success_en.json (bumped to 2026-04-23; added 5 new biz_sticker_language_success_* keys — hero_title, hero_subtitle, timeline_header, timeline_c1, timeline_c2. Legacy sticker_language_timeline key preserved.)
+
+V2-REDESIGN-CHECKLIST.md                         (flipped the 3 success pages to [x]; corrected Tier 6 header count from 12 → 11 (kit + kit-success are gone so "12" was stale); updated the summary counts to Business 11/11 + Total 82/80; updated the "_Last updated_" footnote.)
+memory-bank/activeContext.md                     (this entry prepended)
+memory-bank/progress.md                          (updated)
+```
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+- All three pages reuse existing i18n keys for the shared blocks (BIZ_RESOURCES label/title pairs in `common_en.json` + `business/index_en.json`, publisher + reviewed-badge keys in `common_en.json`).
+- No new CSS needed — every class (`home-hero`, `inflation-section`, `wallet-intro`, `flyer-section`, `flyer-heading`, `flyer-actions`, `flyer-btn`, `sticker-success-tips`, `whats-next-grid`, `whats-next-card`, `publisher-attribution`, `reviewed-badge`) is already in `app/globals.css`.
+- Form endpoints unchanged (this task only touched the post-submit success pages, not the forms themselves).
+
+### Tier 6 is DONE (11/11)
+
+The only pages left for the full V2 redesign are Tier 7 — `/nostr` (index) + `/nostr/what-is-nostr` — 2 pages total. After that, the post-cutover i18n cleanup (Steps 1-5 in the V2 checklist) is the remaining work.
+
+---
+
+## Previous: /business/kit + /business/kit-success removed — April 23, 2026
 
 The Bitcoin Business Kit pages — `/business/kit` and `/business/kit-success` — were **fully deleted** from the site. They were deprecated: the merchant education and onboarding story is now carried by `/business` itself (hero + 4 benefit sections) plus the six color-coded business resource cards (wallets, maps, stickers, rewards, accounting, FAQ), which already covers everything the kit page was doing. The printable tri-fold pamphlet was an artifact of the V1 HTML site and the user confirmed it should be removed outright rather than ported to V2.
 

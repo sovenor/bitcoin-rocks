@@ -3,8 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
-	"sticker_success_details": "You will receive your stickers in 1 to 2 weeks in a plain white envelope. Each envelope includes 3 stickers. If you need more than 3 stickers for your business, feel free to request another pack!"
+	"sticker_success_details": "You will receive your stickers in 2 to 4 weeks in a plain white envelope. Each envelope includes 3 stickers. If you need more than 3 stickers for your business, feel free to request another pack!",
+	"biz_sticker_success_hero_title": "Your stickers are on their way 🎉",
+	"biz_sticker_success_hero_subtitle": "You'll receive your free 'Bitcoin Accepted Here' stickers in 2 to 4 weeks, in a plain white envelope with 3 stickers inside.",
+	"biz_sticker_success_tips_header": "Good places to put your stickers",
+	"biz_sticker_success_tip_1": "On your front door or window so customers see it before they walk in",
+	"biz_sticker_success_tip_2": "Near your register, POS terminal, or payment area",
+	"biz_sticker_success_tip_3": "On menus, price lists, or tip jars",
+	"biz_sticker_success_tip_4": "Don't stick them anywhere you don't own or have permission to put them",
+	"biz_sticker_success_more_header": "Need more stickers?",
+	"biz_sticker_success_more_c1": "If 3 stickers aren't enough for your business, feel free to request another free pack — or order in bulk from the same printer we use.",
+	"biz_sticker_success_btn_order_bulk": "Order in bulk",
+	"biz_sticker_success_btn_request_more": "Request another free pack"
 }

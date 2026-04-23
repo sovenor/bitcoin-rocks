@@ -97,7 +97,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Sticker Language Success** — `/sticker-language-success`
 
 
-### Tier 6 — Business section (12)
+### Tier 6 — Business section (11)
 
 > **V2 convention for all `/business/*` pages:** Do **not** render the
 > generic "What's next?" bridge (keep learning / get a wallet / buy
@@ -128,9 +128,9 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business — Stickers** — `/business/stickers`
 - [x] **Business — Sticker Files (English)** — `/business/sticker-files/english` — downloadable merchant "Bitcoin Accepted Here" sticker, linked from `/business/stickers`'s Global — Print option
 - [x] **Business — Maps** — `/business/maps`
-- [ ] **Business — Maps Success** — `/business/maps-success`
-- [ ] **Business — Sticker Success** — `/business/sticker-success`
-- [ ] **Business — Sticker Language Success** — `/business/sticker-language-success`
+- [x] **Business — Maps Success** — `/business/maps-success`
+- [x] **Business — Sticker Success** — `/business/sticker-success`
+- [x] **Business — Sticker Language Success** — `/business/sticker-language-success`
 
 ### Tier 7 — Nostr section
 
@@ -311,11 +311,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 12 | 7 |
+| Business section | 11 | 11 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **83** | **76** |
+| **Total pages** | **82** | **80** |
 
 
 
@@ -332,6 +332,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of /business/maps — replaced legacy `BusinessPageShell` + `.text-box.intro.sticker-box` block + raw `<input>` + `<br />` form with V2 hero + `.wallet-intro` intro card (including a `.body-link` out to BTC Map) + a listing-request form restyled in the V2 `.cic-*` form system to match `/stickers` and `/business/stickers` (labels on every field, 3-up `.sticker-fields--three` grid for city/region/country on desktop, `.cic-submit` button) + colored business resources grid (maps excluded) + publisher attribution; no sources section (utility/form page); follows the `/business/*` convention — no generic "keep learning" bridge. New `biz_maps_*` i18n keys added to `i18n/en/business/maps_en.json`; legacy `maps_header` / `maps_request_details` / `maps_view` keys kept in place for the moment and will be swept up during the post-cutover dead-key audit.)_
+_Last updated: 2026-04-23 (V2 redesign of the three remaining `/business/*` form-success pages — `/business/maps-success`, `/business/sticker-success`, `/business/sticker-language-success`. All three dropped `BusinessPageShell` + `BusinessResourceCards` in favor of the standard V2 form-success layout established by `/sticker-success` + `/sticker-language-success`: plain `<h1>` hero + subtitle inside `.home-hero.inflation-section`, one or more `.wallet-intro.flyer-section` surface cards with `.flyer-heading` titles (timeline, good-sticker-spots checklist, "need more stickers?" with `.flyer-btn` CTAs, "view the BTC Map" CTA), then the per-/business/* colored resources grid (5 cards: the current-page card is excluded from each) as the cross-link surface — no generic "keep learning / buy Bitcoin" bridge per the Tier 6 convention — followed by the inline reviewed-for-accuracy + publisher-attribution block. `/business/sticker-success` reuses the `.sticker-success-tips` CSS from `/sticker-success` (app/globals.css §12) so no new CSS was needed. All three pages are `robots: noindex, follow`. New `biz_*_success_*` i18n keys added to each of the three English JSON files; legacy `kit_success_1/2`, `sticker_success_details`, `sticker_language_timeline` keys preserved for backwards compatibility with the 54 non-English locales until the Step 2/3 dead-key propagation runs. Completes Tier 6: Business section now 10/12 (the 2 non-existent slots are kit + kit-success which were fully deleted earlier today).)_
 
 
