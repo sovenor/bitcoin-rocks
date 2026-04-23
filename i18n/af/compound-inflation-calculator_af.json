@@ -8,5 +8,13 @@
 	},
 	"cic_header": "SAAMGESTELDE INFLASIESAKREKENAAR",
 	"cic_description": "Gebruik hierdie saamgestelde inflasiesakrekenaar om uit te vind hoeveel jou salaris moet styg om tred te hou met inflasie.",
-	"cic_inflation_cta": "Kies uit inflasie met Bitcoin"
+	"cic_hero_subtitle": "Sien hoeveel jou salaris moet styg om tred te hou met inflasie.",
+	"cic_calculator_heading": "Bereken jou inflasiegaping",
+	"cic_cta_label": "Volgende stap",
+	"cic_inflation_cta": "Kies uit inflasie met Bitcoin",
+	"cic_next_learn_inflation": "Leer hoe inflasie werk",
+	"cic_next_explore_topics": "Verken meer onderwerpe",
+	"cic_next_explore_topics_desc": "Sien hoe Bitcoin verbind is met geld, vryheid, energie, en meer.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

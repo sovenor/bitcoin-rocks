@@ -5,5 +5,13 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "af"
-	}
+	},
+	"biz_maps_success_hero_title": "Versoek ontvang 🎉",
+	"biz_maps_success_hero_subtitle": "Dankie dat jy jou besigheid ingedien het. Ons sal jou binnekort op Bitcoin-handelaarskaarte lys.",
+	"biz_maps_success_timeline_header": "Wat volgende gebeur",
+	"biz_maps_success_timeline_c1": "Jou besigheid sal binne 1 tot 2 weke op BTC Map en ander Bitcoin-handelaarsgidse gelys word. Ons hersien elke inskrywing met die hand om die kaarte akkuraat te hou.",
+	"biz_maps_success_timeline_c2": "Sodra jou lysing regstreeks is, kan Bitcoin-gebruikers naby jou besigheid vind en daar Bitcoin kom spandeer.",
+	"biz_maps_success_view_header": "Sien waar jy sal verskyn",
+	"biz_maps_success_view_c1": "Terwyl jy wag, kyk na BTC Map om die groeiende netwerk van besighede te sien wat Bitcoin regoor die wêreld aanvaar.",
+	"biz_maps_success_btn_view_map": "Besigtig BTC Map"
 }

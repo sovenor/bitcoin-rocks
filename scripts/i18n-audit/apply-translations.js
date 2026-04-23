@@ -250,15 +250,21 @@ function runAuditTranslation(lang) {
 	const stderr = result.stderr || "";
 	const combined = stdout + "\n" + stderr;
 
-	// Parse "Missing files: N", "Missing keys: N", "Identical to English: N"
-	// from the SUMMARY block. Spaces may vary.
+	// Parse "Missing files: N", "Missing keys: N", "Identical to English: N",
+	// "English changed: N" from the SUMMARY block. Spaces may vary.
 	const reMissingFiles = /Missing files:\s+(\d+)/;
 	const reMissingKeys = /Missing keys:\s+(\d+)/;
 	const reIdentical = /Identical to English:\s+(\d+)/;
+	const reEnglishChanged = /English changed:\s+(\d+)/;
 
 	const missingFiles = Number((combined.match(reMissingFiles) || [])[1] ?? -1);
 	const missingKeys = Number((combined.match(reMissingKeys) || [])[1] ?? -1);
 	const identical = Number((combined.match(reIdentical) || [])[1] ?? -1);
+	// englishChanged is emitted only when the audit found a pre-V2 snapshot.
+	// Default to 0 so tools that predate the snapshot still parse cleanly.
+	const englishChanged = Number(
+		(combined.match(reEnglishChanged) || [])[1] ?? 0,
+	);
 
 	// If any regex failed we couldn't parse the output — treat as error
 	// so the caller at least surfaces the full stdout.
@@ -271,11 +277,17 @@ function runAuditTranslation(lang) {
 		identical >= 0;
 
 	return {
-		ok: parsedOk && missingFiles === 0 && missingKeys === 0 && identical === 0,
+		ok:
+			parsedOk &&
+			missingFiles === 0 &&
+			missingKeys === 0 &&
+			identical === 0 &&
+			(!Number.isFinite(englishChanged) || englishChanged === 0),
 		parsedOk,
 		missingFiles,
 		missingKeys,
 		identical,
+		englishChanged,
 		stdout,
 		stderr,
 		exitCode: result.status ?? 0,
@@ -304,10 +316,14 @@ function runLanguageDiff(lang) {
 
 	const reMissing = /Missing:\s+(\d+)/;
 	const reUntranslated = /Untranslated:\s+(\d+)/;
+	const reEnglishChanged = /English changed:\s*(\d+)/;
 	const reLikelyStale = /Likely stale:\s+(\d+)/;
 
 	const missing = Number((combined.match(reMissing) || [])[1] ?? -1);
 	const untranslated = Number((combined.match(reUntranslated) || [])[1] ?? -1);
+	const englishChanged = Number(
+		(combined.match(reEnglishChanged) || [])[1] ?? 0,
+	); // defaults 0 when the pre-V2 snapshot is unavailable (line is suppressed)
 	const likelyStale = Number((combined.match(reLikelyStale) || [])[1] ?? 0); // defaults 0 when --no-flag-likely-stale was used
 
 	const parsedOk =
@@ -321,10 +337,12 @@ function runLanguageDiff(lang) {
 			parsedOk &&
 			missing === 0 &&
 			untranslated === 0 &&
+			(!Number.isFinite(englishChanged) || englishChanged === 0) &&
 			(!Number.isFinite(likelyStale) || likelyStale === 0),
 		parsedOk,
 		missing,
 		untranslated,
+		englishChanged,
 		likelyStale,
 		stdout,
 		stderr,
@@ -377,7 +395,7 @@ function runVerification(lang) {
 		}
 	} else {
 		console.log(
-			`  missing=${diff.missing}, untranslated=${diff.untranslated}, likelyStale=${diff.likelyStale}`,
+			`  missing=${diff.missing}, untranslated=${diff.untranslated}, englishChanged=${diff.englishChanged}, likelyStale=${diff.likelyStale}`,
 		);
 		if (!diff.ok) {
 			console.log("");

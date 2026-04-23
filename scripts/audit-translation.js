@@ -33,6 +33,15 @@ const i18nDir = path.join(__dirname, '..', 'i18n');
 const enDir = path.join(i18nDir, 'en');
 const langDir = path.join(i18nDir, lang);
 
+// Frozen pre-V2 English snapshot — used to detect English rewrites
+// where the target locale still reflects the old wording. Kept in
+// sync with scripts/i18n-audit/language-diff.js.
+const PREV2_SNAPSHOT_PATH = path.join(
+	__dirname,
+	'i18n-audit',
+	'english-snapshot-preV2.json',
+);
+
 if (!fs.existsSync(enDir)) {
 	console.error(`English directory not found: ${enDir}`);
 	process.exit(1);
@@ -71,6 +80,10 @@ const SKIP_KEY_PATTERNS = [
 	/^common_nostr_damus$/,
 	/^common_nostr_amethyst$/,
 	/^common_nostr_iris$/,
+	// Nostr client name keys in the nostr/index namespace
+	/^nostr_(primal|damus|amethyst|iris)_name$/,
+	// Nostr platform identifiers (iPhone, Android, Web)
+	/^nostr_platform_(ios|android|web|ios_android_web)$/,
 	// Publisher name
 	/^common_publisher_name$/,
 	/^common_cta_author_/,
@@ -78,6 +91,15 @@ const SKIP_KEY_PATTERNS = [
 	/^common_stickers_dimensions_/,
 	// Link types that are sometimes kept as-is
 	/^home_link_type_/,
+	// Buy-flow country name tokens (proper nouns — Costa Rica, Finland, Israel, Japan, etc.)
+	/^buy_country_/,
+	// Per-currency stat labels used as headings (inflation_stat_usd_label etc.)
+	/^inflation_stat_[a-z]{3}_label$/,
+	// Inflation story titles (proper place names — Canada, Nigeria, Pennsylvania, Texas)
+	/^inflation_story_[a-z_]+_title$/,
+	// Common language name labels — locales that share Latin-script
+	// forms often keep these identical (Afrikaans, Hausa, Yoruba, etc.)
+	/^common_language_/,
 	// Metadata
 	/^@metadata$/,
 ];
@@ -107,6 +129,29 @@ const SKIP_VALUES = new Set([
 	// Technical terms often kept as-is
 	'CBDC', 'QR', 'QWERTY', '2FA', 'BTC',
 	'StickerMule.com', 'VistaPrint.com', 'QuickBooks',
+	'GitHub', 'sovenor', 'github.com/sovenor/bitcoin-rocks',
+	// Business wallet brand labels
+	'Bitcoin Price Report', 'The Spreadsheet Guru',
+	'satoshipacioli.com', 'Satoshi Pacioli Accounting Services',
+	// Nostr + platform names
+	'Primal', 'Damus', 'Amethyst', 'Iris',
+	'Android', 'iPhone',
+	// Per-currency short tokens
+	'EURO', 'VISA', 'Bitcoin vs Visa',
+	// Numeric tokens
+	'(21,000,000)', '+$10', '−$10', '1.42%',
+	// Nigerian protest + place names
+	'Pennsylvania', 'Texas', 'Canada', 'Nigeria',
+	// Dataset names — machine-readable citations; translating breaks the citation chain
+	'U.S. Bureau of Labor Statistics — Consumer Price Index (CPI)',
+	'Federal Reserve Economic Data (FRED) — Money Supply (Category Index)',
+	'Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers',
+	'Federal Reserve Economic Data (FRED) — M1 Money Supply',
+	'Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)',
+	'Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)',
+	'James Lavish — "Can a Treasury Auction Fail?"',
+	'Jameson Lopp — Metal Bitcoin Seed Storage Reviews',
+	'Bitcoin.org — Choose Your Wallet',
 ]);
 
 // ---------------------------------------------------------------------------
@@ -153,6 +198,80 @@ function shouldSkipKey(key) {
 }
 
 /**
+ * Load the frozen pre-V2 English snapshot. Returns a map of
+ *   { namespace → { key → english_value_at_snapshot } }
+ * (where namespace matches the relative path without "_en.json"),
+ * or `null` if the snapshot file is missing. Format matches
+ * scripts/i18n-audit/snapshot-english-at-commit.js output.
+ */
+function loadPreV2Snapshot() {
+	if (!fs.existsSync(PREV2_SNAPSHOT_PATH)) return null;
+	try {
+		const parsed = JSON.parse(fs.readFileSync(PREV2_SNAPSHOT_PATH, 'utf8'));
+		if (!parsed || !parsed.namespaces) return null;
+		const byRelPath = {};
+		for (const [ns, body] of Object.entries(parsed.namespaces)) {
+			if (!body || !body.keys) continue;
+			byRelPath[`${ns}_en.json`] = body.keys;
+		}
+		return {
+			sourceCommitShort: parsed.sourceCommitShort || null,
+			byRelPath,
+		};
+	} catch (err) {
+		console.error(`  Failed to parse pre-V2 snapshot: ${err.message}`);
+		return null;
+	}
+}
+
+/**
+ * Normalize a string for the "is this actually a meaningful English
+ * change?" comparison. Mirrors the helper in
+ * scripts/i18n-audit/language-diff.js so both tools treat the same
+ * whitespace / quote / dash tweaks as non-changes.
+ */
+function normalizeForChangeDetection(s) {
+	return s
+		.normalize('NFC')
+		.replace(/[\u2018\u2019\u02BC]/g, "'")
+		.replace(/[\u201C\u201D]/g, '"')
+		.replace(/[\u2013\u2014\u2212]/g, '-')
+		.replace(/\u00A0/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim()
+		.toLowerCase();
+}
+
+function englishMeaningfullyChanged(oldValue, newValue) {
+	if (oldValue === newValue) return false;
+	return (
+		normalizeForChangeDetection(oldValue) !==
+		normalizeForChangeDetection(newValue)
+	);
+}
+
+/**
+ * Target-file freshness check: returns true when the target locale's
+ * `@metadata.last-updated` is >= the English file's
+ * `@metadata.last-updated`. When true, we assume the translator
+ * already saw the current English copy and re-translated against it,
+ * so the english-changed tier should not re-flag every key in that
+ * file. Mirrors the helper in scripts/i18n-audit/language-diff.js.
+ */
+function isTargetFileFresh(enData, langData) {
+	if (!enData || !langData) return false;
+	const enMeta = enData['@metadata'];
+	const langMeta = langData['@metadata'];
+	const enDate =
+		enMeta && typeof enMeta === 'object' ? enMeta['last-updated'] : null;
+	const langDate =
+		langMeta && typeof langMeta === 'object' ? langMeta['last-updated'] : null;
+	if (typeof enDate !== 'string' || typeof langDate !== 'string') return false;
+	// YYYY-MM-DD, so lexicographic comparison is correct.
+	return langDate >= enDate;
+}
+
+/**
  * Check if a value should be skipped (is a known universal value).
  */
 function shouldSkipValue(val) {
@@ -187,9 +306,21 @@ console.log(`\nAuditing translation: ${lang} (i18n/${lang}/)\n`);
 const enFiles = findJsonFiles(enDir);
 const langFiles = new Set(findJsonFiles(langDir));
 
+const preV2Snapshot = loadPreV2Snapshot();
+if (preV2Snapshot) {
+	console.log(
+		`(using pre-V2 English baseline: ${preV2Snapshot.sourceCommitShort || '(unknown sha)'})`,
+	);
+} else {
+	console.log(
+		`(no pre-V2 snapshot at ${path.relative(path.join(__dirname, '..'), PREV2_SNAPSHOT_PATH)} — english-changed check skipped)`,
+	);
+}
+
 const missingFiles = [];
 const missingKeys = [];
 const identicalStrings = [];
+const englishChangedEntries = [];
 let filesChecked = 0;
 let totalKeysChecked = 0;
 
@@ -243,6 +374,42 @@ for (const enRelPath of enFiles) {
 			if (shouldSkipValue(enVal)) continue;
 
 			identicalStrings.push({ file: expectedLangPath, key, value: enVal });
+			continue;
+		}
+
+		// English-changed check: English value was rewritten since the
+		// frozen pre-V2 snapshot, and the target locale's translation
+		// is neither the old nor the new English — i.e. the translator
+		// still has the V1-era wording in the file. Mirrors the stronger
+		// check in scripts/i18n-audit/language-diff.js.
+		//
+		// Freshness gate: if the target file's @metadata.last-updated
+		// is >= the English file's @metadata.last-updated, the
+		// translator already saw the latest English so we trust the
+		// translation. This prevents every successfully re-translated
+		// file from being re-flagged forever.
+		if (
+			preV2Snapshot &&
+			typeof langVal === 'string' &&
+			!isTargetFileFresh(enData, langData)
+		) {
+			const snapshotKeys = preV2Snapshot.byRelPath[enRelPath];
+			const oldEnVal = snapshotKeys ? snapshotKeys[key] : undefined;
+			if (
+				typeof oldEnVal === 'string' &&
+				englishMeaningfullyChanged(oldEnVal, enVal) &&
+				langVal !== oldEnVal &&
+				!shouldSkipKey(key) &&
+				!shouldSkipValue(enVal)
+			) {
+				englishChangedEntries.push({
+					file: expectedLangPath,
+					key,
+					oldEnValue: oldEnVal,
+					newEnValue: enVal,
+					currentTargetValue: langVal,
+				});
+			}
 		}
 	}
 }
@@ -300,6 +467,27 @@ if (identicalStrings.length > 0) {
 	console.log(`POTENTIALLY UNTRANSLATED: 0 \u2714\n`);
 }
 
+// English-changed (strong stale signal — English rewritten since pre-V2 baseline)
+if (englishChangedEntries.length > 0) {
+	console.log(`ENGLISH CHANGED — target still reflects pre-V2 wording (${englishChangedEntries.length}):`);
+	for (const e of englishChangedEntries) {
+		const previewOld =
+			e.oldEnValue.length > 50
+				? e.oldEnValue.substring(0, 50) + '...'
+				: e.oldEnValue;
+		const previewNew =
+			e.newEnValue.length > 50
+				? e.newEnValue.substring(0, 50) + '...'
+				: e.newEnValue;
+		console.log(`  \u26A0 ${e.file} \u2192 "${e.key}"`);
+		console.log(`      old EN: "${previewOld}"`);
+		console.log(`      new EN: "${previewNew}"`);
+	}
+	console.log('');
+} else if (preV2Snapshot) {
+	console.log(`ENGLISH CHANGED: 0 \u2714\n`);
+}
+
 // Extra files (info only)
 if (extraFiles.length > 0) {
 	console.log(`INFO — Extra files in ${lang} not in English (${extraFiles.length}):`);
@@ -321,6 +509,9 @@ console.log(`  Keys checked:          ${totalKeysChecked}`);
 console.log(`  Missing files:         ${missingFiles.length}`);
 console.log(`  Missing keys:          ${missingKeys.length}`);
 console.log(`  Identical to English:  ${identicalStrings.length} (review needed)`);
+if (preV2Snapshot) {
+	console.log(`  English changed:       ${englishChangedEntries.length} (review needed)`);
+}
 console.log('');
 
 // Detailed breakdown by file in summary
@@ -354,12 +545,32 @@ if (identicalStrings.length > 0) {
 	console.log('');
 }
 
-const hasIssues = missingFiles.length > 0 || missingKeys.length > 0 || identicalStrings.length > 0;
+if (englishChangedEntries.length > 0) {
+	console.log('  ENGLISH CHANGED (re-translation needed for new copy):');
+	for (const e of englishChangedEntries) {
+		const previewNew =
+			e.newEnValue.length > 50
+				? e.newEnValue.substring(0, 50) + '...'
+				: e.newEnValue;
+		console.log(`    \u26A0 ${e.file} → "${e.key}" (EN now: "${previewNew}")`);
+	}
+	console.log('');
+}
+
+const hasIssues =
+	missingFiles.length > 0 ||
+	missingKeys.length > 0 ||
+	identicalStrings.length > 0 ||
+	englishChangedEntries.length > 0;
 if (hasIssues) {
 	console.log(`\u26A0  Audit found issues. Please review the items listed above.`);
 	if (identicalStrings.length > 0) {
 		console.log(`   Note: Some "identical to English" items may be legitimate`);
 		console.log(`   (e.g., proper nouns shared across languages). Review manually.`);
+	}
+	if (englishChangedEntries.length > 0) {
+		console.log(`   Note: "English changed" items mean the English source was rewritten`);
+		console.log(`   since the pre-V2 baseline. Re-translate for the new English copy.`);
 	}
 } else {
 	console.log(`\u2714  Audit passed! All files, keys, and translations look good.`);

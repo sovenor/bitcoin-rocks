@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Self-gehuisves = 0% fooie",
 	"wallets_feature_online_store": "Aanlyn winkelintegrasie",
 	"wallets_feature_invoicing": "Gratis faktuursagteware",
-	"wallets_get_wallet": "KRY BEURSIE"
+	"wallets_get_wallet": "KRY BEURSIE",
+	"wallets_hero_subtitle": "Bitcoin-beursies is gratis. Kies een wat by jou besigheid pas — in persoon, aanlyn of faktuurgebaseerd — en begin binne minute Bitcoin aanvaar.",
+	"wallets_section_sole": "Beursies vir individueel-besit besighede",
+	"wallets_section_sole_intro": "As jy 'n winkel, kafee, ateljee of diens op jou eie bedryf, sal enige van hierdie beursies werk. Kies op grond van of jy betalings in Bitcoin wil hou of deel van elke betaling outomaties na jou plaaslike geldeenheid wil omskakel.",
+	"wallets_section_multiple": "Beursies vir besighede met meerdere werknemers",
+	"wallets_section_multiple_intro": "As jy 'n span het wat betalings by die kasregister neem, kies 'n beursie wat meerdere werknemer-aanmeldings ondersteun — sodat elke werknemer sy eie PIN kry en jy 'n skoon oudit-spoor hou van wie watter betaling geneem het.",
+	"wallets_section_online": "Beursies vir aanlyn-besighede",
+	"wallets_section_online_intro": "Verkoop jy op 'n webwerf? Hierdie beursies sluit aan by jou aanlynwinkel en aanvaar Bitcoin van enige kliënt, enige plek in die wêreld — geen terugvorderings nie, geen handelaarsrekening nodig nie.",
+	"wallets_section_invoice": "Beursies vir faktuurgebaseerde besighede",
+	"wallets_section_invoice_intro": "As jy kliënte faktureer (konsultasie, vryskut, B2B-dienste), gebruik 'n beursie wat rondom fakturering gebou is. Jou kliënt betaal 'n Bitcoin-faktuur in 'n paar klikke.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business laat jou toe om Bitcoin- en Lightning-betalings met nul fooie en onmiddellike vereffening te aanvaar. Ondersteun in-persoon-, aanlyn- en faktuurgebaseerde betalings met opsionele outomatiese omskakeling na jou plaaslike geldeenheid.",
+	"sources_square": "Square — Aanvaar Bitcoin-betalings",
+	"sources_breez_business": "Breez — Bitcoin-gerigte Lightning-beursie",
+	"sources_opennode": "OpenNode — Bitcoin-betalingsverwerker",
+	"sources_ibex": "IBEX — Lightning-betalingsinfrastruktuur",
+	"sources_zaprite": "Zaprite — Bitcoin-fakturering vir besighede",
+	"biz_wallets_meta_description": "Alle Bitcoin-beursies is interoperabel — kies die een wat by jou besigheid pas. Gratis, onmiddellike vereffening, geen terugvorderings nie."
 }

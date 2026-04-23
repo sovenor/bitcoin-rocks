@@ -7,5 +7,20 @@
 		"locale": "af"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin-handelaarskaarte - Lys jou besigheid gratis",
-	"maps_view": "Bekyk die kaart hier."
+	"maps_view": "Bekyk die kaart hier.",
+	"biz_maps_hero_title": "Kry jou besigheid op Bitcoin-handelaarskaarte",
+	"biz_maps_hero_subtitle": "Lys jou besigheid gratis op BTC Map — die oop, wêreldwye gids van handelaars wat Bitcoin aanvaar — sodat Bitcoin-gebruikers naby jou jou kan vind en Bitcoin by jou besigheid kan spandeer.",
+	"biz_maps_intro_c1": "Bitcoin-gebruikers soek aktief na plekke om te spandeer. Om jou besigheid op die kaart te kry, plaas jou voor elke Bitcoin-gebruiker wat naby soek na 'n plek om te eet, in te koop of te bly — teen nul koste vir jou.",
+	"biz_maps_intro_c2": "Vul net die kort vorm hieronder in en ons sal jou besigheid vir jou by BTC Map en ander Bitcoin-handelaarskaarte indien.",
+	"biz_maps_view_map_cta": "Besigtig BTC Map",
+	"biz_maps_form_header": "Vertel ons van jou besigheid",
+	"biz_maps_form_intro": "Ons het net 'n paar besonderhede nodig om jou gelys te kry. Adresdata word net lank genoeg gehou om jou besigheid by die kaarte in te dien.",
+	"biz_maps_placeholder_name": "Besigheidsnaam",
+	"biz_maps_placeholder_category": "Kategorie (bv. restaurant, kafee, hotel)",
+	"biz_maps_placeholder_address": "Straatadres",
+	"biz_maps_placeholder_city": "Stad",
+	"biz_maps_placeholder_region": "Staat / Provinsie / Streek",
+	"biz_maps_placeholder_country": "Land",
+	"biz_maps_placeholder_website": "Webwerf (opsioneel)",
+	"biz_maps_meta_description": "Lys jou besigheid gratis op BTC Map en ander Bitcoin-handelaarskaarte sodat Bitcoin-gebruikers naby jou jou kan vind."
 }

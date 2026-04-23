@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"sticker_language_success_1": "Ons het jou versoek suksesvol ontvang.",
-	"sticker_language_success_2": "Ons publiseer nuwe lêers in groepe, so dit kan 'n paar weke neem voordat hierdie lêers beskikbaar is vir aflaai. Kyk gou weer!"
+	"sticker_language_success_2": "Ons publiseer nuwe lêers in groepe, so dit kan 'n paar weke neem voordat hierdie lêers beskikbaar is vir aflaai. Kyk gou weer!",
+	"sticker_language_success_hero_title": "Versoek ontvang 🎉"
 }

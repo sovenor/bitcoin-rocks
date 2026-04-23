@@ -285,7 +285,8 @@ For each language, for every namespace: (a) find keys whose English value change
 
 Languages (54 non-English — tick each off when its updated + missing keys are fully translated):
 
-- [ ] `af` — Afrikaans
+- [x] `af` — Afrikaans (2026-04-23; 916 entries → 0 flagged. Two helper scripts: `translate-inflation.js` (365 entries via templated per-currency translation function × 13 currencies) + `translate-rest.js` (551 entries across 36 namespaces, keyed by `<ns>::<key>` to disambiguate keys like `hero_title` that appear in every comparison namespace). Also expanded audit allow-lists in `scripts/i18n-audit/language-diff.js` + `scripts/audit-translation.js` to cover: home_link_author_* proper nouns, buy_country_* country names, common_language_* (Latin-script locales keep these identical), nostr client + platform brand names, business/wallets uppercase brand labels, inflation_stat_<code>_label currency tokens, dataset citations (FRED/BLS/Bitcoin whitepaper/Lightning paper/Jameson Lopp/James Lavish), and numeric tokens. Tightened `targetHasV2MarkerEquivalent` to skip the length-ratio check when English is ≤ 12 chars (fixes false-positive "likely-stale" on short tokens like "Source:"). `npm run build` clean across 4,349 static pages.)
+
 - [ ] `am` — Amharic
 - [ ] `ar` — Arabic
 - [ ] `az` — Azerbaijani
@@ -381,8 +382,9 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 0 |
+| Per-language re-translation (Step 5) | 54 | 1 |
 | Verification & cleanup (Step 6) | 7 | 0 |
+
 
 
 ---

@@ -18,6 +18,22 @@ Typical report is ~200–250 KB (one object per entry flagged for
 translation, with English source + current target value + null
 placeholder for the translated value).
 
+## Entry `reason` categories
+
+Every flagged entry has one of four `reason` values, evaluated in
+priority order:
+
+| Reason | Meaning |
+|--------|---------|
+| `missing` | Key is in English but absent from the target file. Translator must add + translate. |
+| `untranslated` | Target value is byte-identical to English. Usually a placeholder the translator forgot to fill. Exempts brand names / URLs / numeric tokens. |
+| `english-changed` | **Strong stale signal.** English was rewritten since the frozen pre-V2 baseline (`../english-snapshot-preV2.json`) AND the target translation reflects the old wording. Entry includes both `englishValue` (current) and `englishValueBefore` (pre-V2) so the translator can see the rewrite. Skips files whose `@metadata.last-updated` is already >= English's (the "freshness gate"). |
+| `likely-stale` | Heuristic. Weak backup signal based on V2-era markers like "Source:" / "What's next". Demoted below `english-changed`; disable with `--no-flag-likely-stale`. |
+
+See `.clinerules/workflows/v2-translate-refresh.md` § "Pre-V2 baseline"
+for why `english-changed` exists.
+
+
 ## Lifecycle
 
 1. `node scripts/i18n-audit/language-diff.js <lang>` → writes `<lang>.json`.

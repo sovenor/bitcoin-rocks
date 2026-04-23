@@ -1,4 +1,87 @@
+## i18n cleanup Step 5 Phase B — Afrikaans (af) re-translation complete — 2026-04-23
+
+**Counter:** 1/54 languages complete.
+
+First per-language Phase B session. Ran `/translate-v2-refresh Afrikaans`
+end-to-end. Diff flagged **916 entries** (854 missing + 62 untranslated + 0
+likely-stale) across 37 namespaces. Inflation namespace alone held 365 of
+those — 13 currencies × 25 templated keys + 38 non-currency keys for
+freedom cards, stat cards, stories, and sources.
+
+Two helper scripts in `scripts/afrikaans-v2-refresh/`:
+
+1. **`translate-inflation.js`** — templated per-currency translation
+   function (`t(code, suffix)`) × 13 currencies (USD, EUR, AUD, BRL, CAD,
+   GBP, ILS, INR, JPY, MXN, NZD, PHP, THB) plus direct map for 38
+   non-currency keys (freedom cards, `inflation_story_*`, FRED/BLS source
+   citations, Bitcoin stat card). Per-currency `CURRENCY` table carries
+   Afrikaans noun / article / label / existence title / debt title for
+   each geldeenheid. Filled all 365 inflation entries in one pass.
+2. **`translate-rest.js`** — 551 entries across 36 namespaces keyed by
+   `"<namespace>::<key>"` to disambiguate the 10 comparison pages that
+   all share a `hero_title` key. 0 unmatched.
+
+**Audit allow-list expansions** (both `scripts/i18n-audit/language-diff.js`
+and `scripts/audit-translation.js`): added regex matchers for
+`home_link_author_*` (27 author proper nouns — Anita Posch, Lyn Alden,
+Forbes, etc.), `buy_country_*` (11 country names kept in Latin script),
+`common_language_*` (language name labels that stay in their English
+form for Latin-script locales), `nostr_(primal|damus|amethyst|iris)_name`
++ `nostr_platform_(ios|android|web|ios_android_web)`,
+`wallets_name_(btcpay_server|ibex_pay|open_node)`,
+`inflation_stat_<code>_label` (currency stat labels like "US DOLLAR"),
+`inflation_story_*_title` (Texas/Pennsylvania/Canada/Nigeria place
+names). Added value-level entries for dataset citations (FRED CPI, FRED
+M1, FRED Money Supply, BLS CPI, Bitcoin whitepaper, Lightning paper,
+Jameson Lopp, James Lavish treasury auction) + numeric tokens
+(`(21,000,000)`, `+$10`, `−$10`).
+
+**Heuristic fix in `language-diff.js`**: the `likely-stale` tier
+previously fired for any translation where target length diverged >25%
+from English — which gave a false positive on `home_source_prefix`
+("Source:" → "Bron:", 71% ratio). Added an early-return in
+`targetHasV2MarkerEquivalent()` that accepts any non-empty target when
+the English source is ≤ 12 chars. Short markers like "Source:" /
+"What's next?" have direct translations that are always short.
+
+**Two hand-fixed translations** (were flagged as identical-to-English
+before the allow-list expansion):
+- `home_source_prefix`: "Source:" → "Bron:"
+- `lightning_s1_c4_link`: "Bitcoin Hardware Wallet Guide" →
+  "Bitcoin-hardeware-beursie-gids"
+
+**Verification**: `apply-translations.js af --verify-only` — both audits
+`✅ PASS`. `npm run build` — clean across all 55 locales × 81 pages =
+4,349 static pages, zero MISSING_MESSAGE or Unable to load warnings.
+
+**Files changed**:
+```
+scripts/afrikaans-v2-refresh/translate-inflation.js   (NEW — 365-entry per-currency translation function + non-currency map)
+scripts/afrikaans-v2-refresh/translate-rest.js        (NEW — 551-entry namespace::key translation map)
+scripts/afrikaans-v2-refresh/fix-remaining.js         (NEW — hand-fixes home_source_prefix + lightning_s1_c4_link)
+i18n/af/**/*.json                                     (38 files touched; 916 entries added/updated; @metadata.last-updated bumped)
+scripts/i18n-audit/reports/applied/af-20260423-191646.json  (archived report)
+scripts/i18n-audit/language-diff.js                   (expanded BRAND_IDENTICAL_VALUES + isBrandIdenticalKey patterns + tightened short-value heuristic)
+scripts/audit-translation.js                          (expanded SKIP_KEY_PATTERNS + SKIP_VALUES)
+V2-REDESIGN-CHECKLIST.md                              (Step 5 af ticked + Phase B counter bumped 0→1 + details noted)
+memory-bank/activeContext.md                          (new entry prepended)
+memory-bank/progress.md                               (this entry)
+```
+
+**Session handoff for next locale**: the audit allow-list expansions
+are one-time work — subsequent Phase B sessions (de, es, fr, …) won't
+need them again unless that language surfaces a new genuinely-shared
+value that's not yet allow-listed. The Afrikaans helper script pattern
+(`translate-inflation.js` with per-currency CURRENCY table +
+`translate-rest.js` with `ns::key` map) is a reusable template for
+other Latin-script Germanic/Romance languages. CJK/RTL locales will
+need different noun-plural handling in the inflation per-currency
+function but the overall structure carries forward.
+
+---
+
 ## i18n cleanup Step 5 Phase A+ — sticker-files/<lang>/ namespace consolidation (2026-04-23)
+
 
 Follow-up to Phase A after the user spotted that Step 2's dead-key pass had reduced every `sticker-files/<lang>/index` namespace to an empty `@metadata`-only shell. Confirmed the V2 per-language sticker-files page at `app/[locale]/sticker-files/[lang]/page.tsx` builds its hero in-code (`"Download <LangName> Bitcoin Sticker Files"`) from `common_language_<name>` keys, with all other copy pulled from `common_*` keys. The only live per-language key anywhere was `print_these` ("PRINT THESE IN 1 CLICK") on `sticker-files/english/index`, which drives the StickerMule 1-click CTA button.
 

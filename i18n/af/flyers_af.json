@@ -8,7 +8,9 @@
 	},
 	"free_bitcoin_flyers": "Gratis Bitcoin-vlugskrifte van bitcoin.rocks",
 	"flyers_description": "Druk 'n Bitcoin-vlugskrif tuis en sit dit in die openbaar om diegene rondom jou te oranjepilder.",
-	"flyers_intro_header": "HOE OM HIERDIE BITCOIN-VLUGSKRIFTE TE DRUK EN TE PLAK",
+	"flyers_hero_title": "Druk en plaas Bitcoin-strooibiljette",
+	"flyers_hero_subtitle": "Gratis, drukbare Bitcoin-strooibiljette. Plaas hulle in die publiek om meer mense te help om oor Bitcoin te leer.",
+	"flyers_intro_header": "Hoe om hierdie Bitcoin-strooibiljette te druk en op te plak",
 	"flyers_intro_c1": "Ons missie is om jou te help om meer mense te oranjepilder deur Bitcoin-vlugskrifte in die openbaar te sit. Hierdie vlugskrif het 'n QR-kode wat skakel na ons",
 	"flyers_intro_c2": "opvoedkundige Bitcoin-webwerf.",
 	"flyers_intro_c4": "Druk hierdie vlugskrif tuis of by 'n drukwinkel. Sit dit dan op kennisgewingborde, telefoonpale rondom die dorp, en ander openbare ruimtes waar mense dit kan sien en oor Bitcoin kan leer.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "DEEL JOU VLUGSKRIFPLEKKE",
 	"flyers_share_c1": "Deel jou vlugskrifplekke met ons op Nostr en sien waar ander mense hul vlugskrifte sit.",
 	"flyers_btn_share_on_nostr": "DEEL OP NOSTR",
-	"flyers_btn_what_is_nostr": "WAT IS NOSTR?"
+	"flyers_btn_what_is_nostr": "WAT IS NOSTR?",
+	"flyers_next_get_stickers": "Versprei die woord",
+	"flyers_next_get_stickers_desc": "Bestel 'n gratis pakkie Bitcoin-plakkers"
 }
