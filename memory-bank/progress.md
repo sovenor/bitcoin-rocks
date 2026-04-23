@@ -1,3 +1,37 @@
+## i18n cleanup Step 5 Phase A — diff/apply tooling + per-language workflow (2026-04-23)
+
+Step 5 of the i18n cleanup workflow is the per-language re-translation pass (the 51 new Step 3.5 keys + any V2-era keys whose English changed, for all 54 non-English locales). Rather than cramming everything into a single session (the full English corpus + 1 target locale is ~850KB and would blow past the chat context window), Phase A builds the tooling so Phase B can run **one locale per session**.
+
+**New tooling** — added to `scripts/i18n-audit/`:
+- `snapshot-english.js` — one-time utility that captures the current English corpus to `english-snapshot.json` (81 namespaces / 1,849 keys, sorted, deterministic output). Consumed by the diff script for future drift detection.
+- `language-diff.js <code> [--namespace=<csv>] [--no-flag-likely-stale]` — generates a per-language "work queue" report at `reports/<code>.json`. Three reason categories: `missing` (key absent in target), `untranslated` (target value byte-identical to English after brand-name/short-token/URL allow-lists apply), `likely-stale` (heuristic — target exists but English contains a V2-era marker like "Source:" and target's length/markers don't match). Includes brand-name allow-list (wallet name keys, `common_publisher_name`, `*_language_name` keys) and value-level allow-list (`Bitcoin`, `Nostr`, `hi@bitcoin.rocks`, etc.) + short-token allow-list (USD, OK, →) + URL exemption + numeric-only exemption.
+- `apply-translations.js <code> [--partial] [--dry-run]` — consumes a completed report (translator fills `targetTranslation` fields) and merges every resolved entry back into the `i18n/<code>/**/*.json` tree. Inserts missing keys at their canonical English position, overwrites untranslated/stale values, bumps `@metadata.last-updated`, round-trips through `JSON.parse()` to verify validity, reorders keys to match English canonical order, and archives the completed report to `reports/applied/<code>-<UTCTimestamp>.json`. Refuses to run unless every entry is resolved OR `--partial` flag is passed.
+- `reports/` directory (+ `applied/` subdir + `README.md`) — report artifacts are committed to git so progress is reviewable across sessions.
+
+**New workflow** — `.clinerules/workflows/translate-v2-refresh.md`, invoked as `/translate-v2-refresh <Language Name>`:
+- Per-language session runbook with a 6-step procedure (Pre-check → Generate diff → Translate entries → Apply → Audit → Build verify → Update checklist + memory bank).
+- Documents the chunk-by-namespace escape hatch for locales too big for a single session, mirrors the per-category helper-script split from `translate-new-language.md`, and carries forward the critical warnings about `cat` heredoc hangs, typographic-quote Unicode escapes, and tab indentation.
+- Includes the full 55-language code reference table (code / native name / English name / RTL flag) + a recommended biggest-audience-first session order (Tier 1: es/fr/de/pt/zh/ja/ru/ar/hi; Tier 2: regional; Tier 3: remaining).
+
+**Dry-run sample** — ran `language-diff.js --dry-run` against 4 representative locales (af, de, zh, ar):
+
+| Locale | Missing | Untranslated | Likely-stale | Total flagged | Report size |
+|--------|--------:|-------------:|-------------:|--------------:|------------:|
+| af     |     855 |           61 |            0 |       **916** |   ~220 KB   |
+| de     |     854 |           72 |            0 |       **926** |   ~220 KB   |
+| zh     |     854 |           31 |            1 |       **886** |   ~220 KB   |
+| ar     |     854 |           30 |            0 |       **884** |   ~220 KB   |
+
+The "missing" count is dominated by the 327 new V2 `inflation_<code>_<suffix>` per-currency keys that every locale needs + ~500 other V2 additions (new source keys, card labels, What's next entries, subtitle paragraphs, etc.). "Untranslated" varies by locale — higher for older/newer locales that left more English fallbacks. "Likely-stale" is nearly always 0 because the heuristic is intentionally conservative.
+
+**Apply-script verification** — synthetic test: hand-filled 2 entries in a copy of `de.json` and ran `apply-translations.js de --report=/tmp/de-test.json --partial --dry-run`. Script correctly reported "Update 2 files, write 2 keys" and listed the exact file paths. Full run also tested end-to-end (create → fill → apply → archive → re-diff returns 0 pending) with a disposable `xx` locale during development.
+
+**V2-REDESIGN-CHECKLIST.md** § Step 5 now includes a "Phase A complete" checkbox + a tooling summary + a pointer to the new workflow file. Phase B (the actual 54-language grind) is user-triggered one language per session.
+
+**Next:** Phase B — each language invocation is an independent ~200-entry-or-more translation pass. Recommended order starts with Tier 1 (Spanish, French, German, Portuguese, Chinese, Japanese, Russian, Arabic, Hindi) for biggest-audience coverage. Each session ends with an `apply-translations.js` run, an `audit-translation.js` verify, an `npm run build` check, and a PR ticking the language off.
+
+---
+
 ## i18n cleanup Step 4 (propagate English deletions to all 54 non-English locales) — April 23, 2026
 
 Closed the gap from Steps 2+3 on the English side — the 423-key dead-key removal + JSON normalization pass only touched `i18n/en/`. Step 4 brings the other 54 locales to parity by stripping every orphan key (present in the non-English file but not in English) and re-serializing each file with the canonical tab-indented formatter.

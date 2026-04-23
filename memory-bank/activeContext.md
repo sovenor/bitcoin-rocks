@@ -1,4 +1,128 @@
-## Latest: i18n cleanup Step 4 (propagate English deletions to all 54 non-English locales) — April 23, 2026
+## Latest: i18n cleanup Step 5 Phase A+ — auto-verify after apply-translations — April 23, 2026
+
+Quick follow-up to Phase A to address the user's observation: the initial `apply-translations.js` implementation relied on the translator manually running `scripts/audit-translation.js <lang>` + `npm run build` as separate follow-up commands after the apply step. That's error-prone: it's easy to forget, and a partially-translated language could ship if the human skipped step 4.
+
+### What changed
+
+**`scripts/i18n-audit/apply-translations.js`** now auto-runs verification after every successful apply (unless `--skip-verify` is passed). Two new flags:
+
+- **`--skip-verify`** — apply + archive without running audits. Useful for quick iterative partial runs when you know more translation work is still pending.
+- **`--verify-only`** — skip the apply step entirely; just run the two audits against whatever's currently in `i18n/<code>/`. Useful for re-checking a previously-completed language, or spot-checking before opening a PR.
+
+Verification spawns two child processes via `spawnSync`:
+
+1. `node scripts/audit-translation.js <code>` — parses the existing "SUMMARY" block for `Missing files`, `Missing keys`, `Identical to English` counts.
+2. `node scripts/i18n-audit/language-diff.js <code> --dry-run` — parses the stats printout for `Missing`, `Untranslated`, `Likely stale` counts.
+
+Prints a combined `───── Verification summary ─────` block with `✅ PASS` / `⚠ ISSUES` per audit, then either `✅ Verification passed. <code> is ready for build + PR.` or `⚠ Verification flagged issues.` **Exits non-zero on failure** so the session can't claim the language is done when issues remain — the terminal command fails loudly.
+
+When a verification fails, the full audit output is re-printed inline so the specific flagged keys (missing key names + "identical to English" values) are visible without re-running either audit manually. Next-steps guidance points at `--verify-only` for the re-check loop.
+
+### Verification
+
+Tested against `af` (known-unfinished locale) via `node scripts/i18n-audit/apply-translations.js af --verify-only`:
+
+- `audit-translation.js`: parsed `missingFiles=0, missingKeys=855, identical=20` → `⚠ ISSUES`
+- `language-diff.js --dry-run`: parsed `missing=855, untranslated=61, likelyStale=0` → `⚠ ISSUES`
+- Combined verdict: `⚠ Verification flagged issues. Review the output above...`
+- Exit code: **1** ✅
+
+Confirmed the full audit output (including the `MISSING KEYS (855):` + `IDENTICAL TO ENGLISH (20):` blocks with every flagged key) re-prints inline for translator review.
+
+### Workflow updates
+
+- **`.clinerules/workflows/translate-v2-refresh.md`** § Step 3 rewritten to describe the new auto-verify flow. Added a flag cheat-sheet table + a "What to do when verification fails" section covering all three typical failure modes (still-missing keys, English placeholders left in the report, legitimately-shared brand names that need allow-list updates). Re-numbered Steps 4-5 (previous Step 4 + 5 collapsed; `npm run build` is now Step 4, memory-bank updates are Step 5). "Quick Summary of Commands" table compressed from 7 rows to 6 since the separate audit command is now implicit.
+- **`V2-REDESIGN-CHECKLIST.md`** Step 5 tooling summary unchanged — the workflow file is the source of truth for the per-session procedure.
+
+### Files changed
+
+```
+scripts/i18n-audit/apply-translations.js         (+~180 lines — verification functions + new flags + main() wiring)
+.clinerules/workflows/translate-v2-refresh.md    (Step 3 rewritten, Steps 4-5 renumbered, cheat-sheet added)
+memory-bank/activeContext.md                     (this entry prepended)
+```
+
+Net effect: `apply-translations.js` is now closer to `npm run build` ergonomics — one command, runs multiple checks, single pass/fail exit code. Phase B sessions get immediate feedback in the same terminal output, no need to remember the manual commands.
+
+---
+
+## Previous: i18n cleanup Step 5 Phase A — per-language diff/apply tooling + `/translate-v2-refresh` workflow — April 23, 2026
+
+With Steps 1–4 complete (English audit + deletion + formatting + Step 3.5 source-side audit + 54-locale propagation), the remaining Step 5 is the per-language re-translation pass. That pass is too big for a single session — each locale has 81 JSON files × ~2,000 keys, and the "missing/untranslated/stale" delta after V2 is ~900 entries per locale. Phase A builds the tooling so Phase B can run one locale per session without hitting the 1M-token chat context ceiling.
+
+### What changed
+
+1. **`scripts/i18n-audit/snapshot-english.js`** (NEW, ~180 lines). One-shot utility that walks every `i18n/en/**/*.json`, concatenates all string-valued keys into a sorted `namespaces: { <ns>: { lastUpdated, keys: { … } } }` tree, and writes to `english-snapshot.json`. Deterministic output (sorted namespaces + sorted keys → byte-identical across runs modulo `generatedAt`). Run once at Step 5 start; re-run only if English drifts before all 54 languages are done.
+
+2. **`scripts/i18n-audit/language-diff.js <code> [--namespace=<csv>] [--dry-run] [--no-flag-likely-stale]`** (NEW, ~340 lines). Generates a per-language work queue at `scripts/i18n-audit/reports/<code>.json`. Three reason categories:
+   - **`missing`** — key present in English, absent from the target locale.
+   - **`untranslated`** — key present in both, target value byte-identical to English. Brand-name allow-list (wallet name keys, `common_publisher_name`, `*_language_name` keys), value-level allow-list (`Bitcoin`, `Nostr`, `Lightning Network`, `Satoshi Nakamoto`, `hi@bitcoin.rocks`, brand URLs, etc.), short-token allow-list (USD/EUR/→/✓/…), URL exemption, numeric-only exemption.
+   - **`likely-stale`** — heuristic for target values that exist and differ from English, but the English contains a V2-era marker like "Source:" or "What's next" and the target's length/content doesn't match. High false-positive rate for CJK/RTL so `--no-flag-likely-stale` disables it.
+
+   Report is sorted deterministically (by namespace, then by reason rank, then by key). Supports `--namespace=common,index,inflation` for chunked runs within a single locale.
+
+3. **`scripts/i18n-audit/apply-translations.js <code> [--partial] [--dry-run] [--no-archive]`** (NEW, ~330 lines). Reads the completed report (translator has filled in `targetTranslation` for every entry), groups resolved entries by namespace, rewrites each `i18n/<code>/<ns>_<code>.json` file with the translations merged in, bumps `@metadata.last-updated`, round-trips through `JSON.parse()` to verify validity, and reorders keys to match the English canonical order. Refuses to run if any entry has `targetTranslation: null` unless `--partial`. On success, deletes the live report and archives a copy to `reports/applied/<code>-<UTCTimestamp>.json`.
+
+4. **`scripts/i18n-audit/reports/`** directory (+ `applied/` subdir + `README.md`). Reports are committed to git so contributors can review progress across sessions + resume across machines. Typical report is ~220KB.
+
+5. **`.clinerules/workflows/translate-v2-refresh.md`** (NEW) — per-language slash-command workflow. Invoked as `/translate-v2-refresh <Language Name>`. Shape mirrors `translate-new-language.md` (numbered steps + critical-rule call-outs + quick-summary table + full 55-language code reference). Steps:
+   1. Pre-check (locale exists + registered in `lib/i18n/config.ts`)
+   2. Run diff (`language-diff.js <code>`) — inspect stats, decide whether to run whole language or chunk by namespace
+   3. Translate (fill `targetTranslation` fields — either in-place for small reports, or via per-category helper scripts in `scripts/<code>-v2-refresh/` mirroring the `translate-new-language.md` category split when >500 entries)
+   4. Apply (`apply-translations.js <code>`)
+   5. Audit (`audit-translation.js <code>`)
+   6. Build verify (`npm run build`)
+   7. Update `V2-REDESIGN-CHECKLIST.md` Step 5 + memory bank
+
+   Also carries forward the critical warnings: ⚠️ `cat` heredoc hangs on non-ASCII payloads (use `write_to_file`), typographic-quote Unicode escapes (`\u201E` / `\u201C` not `„` / `"`), tab indentation mandatory, per-category script size limit.
+
+6. **`V2-REDESIGN-CHECKLIST.md` § Step 5** rewritten: added a Phase-A-complete checkbox, a tooling summary with the three script names + one-line purpose each, and a prominent pointer to the new `/translate-v2-refresh` workflow.
+
+### Dry-run sampling across 4 locales
+
+Ran `language-diff.js --dry-run` against `af`, `de`, `zh`, `ar` to validate the tooling:
+
+| Locale | Missing | Untranslated | Likely-stale | Total flagged | Report size |
+|--------|--------:|-------------:|-------------:|--------------:|------------:|
+| af     |     855 |           61 |            0 |       **916** |    ~220 KB  |
+| de     |     854 |           72 |            0 |       **926** |    ~220 KB  |
+| zh     |     854 |           31 |            1 |       **886** |    ~220 KB  |
+| ar     |     854 |           30 |            0 |       **884** |    ~220 KB  |
+
+The "missing" count is dominated by the 327 new V2 `inflation_<code>_<suffix>` per-currency keys (`components/CurrencySection.tsx` synthesizes these from template literals at runtime for 13 currencies × ~25 suffixes each) + ~500 other V2 additions (new source citations, card labels, What's next entries, subtitle paragraphs, sticker-files V2 headings, etc.). "Untranslated" varies by locale maturity — Latin-script locales tend to have more English fallbacks left behind than CJK/RTL. "Likely-stale" is nearly always 0 because the heuristic is intentionally conservative.
+
+Report at ~220KB per locale × 1-2x for translation drafts fits comfortably within a ~1M-token chat session, so **one language per session** is the right granularity.
+
+### Verification
+
+- `snapshot-english.js` → "Wrote 81 namespaces / 1,849 keys to scripts/i18n-audit/english-snapshot.json."
+- `language-diff.js` × 4 dry-runs → stats printed match expectations; each report is ~220KB.
+- `apply-translations.js` synthetic test: hand-filled 2 entries in a copy of `de.json` via `/tmp/de-test.json`, ran `apply-translations.js de --report=/tmp/de-test.json --dry-run --partial`. Correctly reported "Update 2 file(s), write 2 key(s)" with the exact target paths. Also correctly refused to run without `--partial` when unresolved entries were present (exit 1, sample of 5 unresolved printed).
+- Scripts are idempotent: re-running `snapshot-english.js` on the unchanged English corpus produces a byte-identical file (apart from `generatedAt`); re-running `language-diff.js` on an unchanged locale produces an identical report.
+
+### What's left in the i18n cleanup workflow
+
+- **Phase B: Step 5 per-language grind** — 54 languages, one session each via `/translate-v2-refresh <Language>`. Recommended order (biggest audience first): `es`, `fr`, `de`, `pt`, `zh`, `ja`, `ru`, `ar`, `hi` (Tier 1); `it`, `nl`, `pl`, `tr`, `ko`, `vi`, `id`, `th`, `he`, `fa` (Tier 2); remaining 35 alphabetically (Tier 3). Each session ends with a PR: `i18n: Step 5 V2 refresh — <Name> (<code>)`.
+- **Step 6 — Final verification sweep** — run `audit-translation.js` across all locales, re-run unused-keys audit, spot-check 3–5 pages in 3–5 languages (including one RTL), verify `@metadata.last-updated` currency, re-build.
+
+### Files changed
+
+```
+scripts/i18n-audit/snapshot-english.js            (NEW — ~180 lines, English corpus snapshotter)
+scripts/i18n-audit/english-snapshot.json          (NEW — generated artifact, 81 namespaces / 1,849 keys)
+scripts/i18n-audit/language-diff.js               (NEW — ~340 lines, per-language work queue generator)
+scripts/i18n-audit/apply-translations.js          (NEW — ~330 lines, report→JSON merger)
+scripts/i18n-audit/reports/README.md              (NEW — directory docs)
+scripts/i18n-audit/reports/applied/.gitkeep       (NEW — archive subdir placeholder)
+.clinerules/workflows/translate-v2-refresh.md     (NEW — per-language slash-command workflow; ~270 lines)
+V2-REDESIGN-CHECKLIST.md                          (Step 5 section rewritten with Phase A done + tooling summary + workflow pointer)
+memory-bank/activeContext.md                      (this entry prepended)
+memory-bank/progress.md                           (Step 5 Phase A entry prepended)
+```
+
+---
+
+## Previous: i18n cleanup Step 4 (propagate English deletions to all 54 non-English locales) — April 23, 2026
 
 With Steps 1–3 + 3.5 complete (English JSON cleaned + 51 new keys wired for the source-side hardcoded-English literals), Step 4 of the i18n cleanup workflow propagates the same deletions to the other 54 locales. The goal: bring every non-English locale back to parity with English by stripping orphan keys (keys present in the non-English file but absent from English) and normalizing JSON formatting in one pass.
 

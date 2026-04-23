@@ -268,11 +268,17 @@ This step runs the reverse audit (source → JSON) and wires every user-facing l
 
 ### Step 5 — Re-translate updated + new keys for every language
 
-
 For each language, for every namespace: (a) find keys whose English value changed during V2 and update the translation, and (b) find keys present in English but missing in this language and translate them.
 
-- [ ] Write a diff script (`scripts/i18n-audit/language-diff.js <lang>`) that reports, per language: **updated keys** (English source changed since that language was last touched — compare against `@metadata.last-updated` or a snapshot hash) and **missing keys** (present in English, absent here).
-- [ ] For each language below, run the diff, translate everything flagged, update `@metadata.last-updated`, and re-run `scripts/audit-translation.js <lang>` to confirm no English strings leaked in.
+**Tooling (Phase A — built 2026-04-23, see `memory-bank/activeContext.md`):**
+- `scripts/i18n-audit/snapshot-english.js` — one-time: captures the current English corpus to `english-snapshot.json`.
+- `scripts/i18n-audit/language-diff.js <code>` — generates a per-language work queue at `scripts/i18n-audit/reports/<code>.json` listing only the entries needing attention (`missing` / `untranslated` / `likely-stale`). Typical report is ~220KB / 880–930 entries, fits comfortably in one session.
+- `scripts/i18n-audit/apply-translations.js <code>` — merges the completed report back into the `i18n/<code>/**/*.json` tree, bumps `@metadata.last-updated`, reorders keys to match English, and archives the report to `reports/applied/`.
+
+**Per-language workflow:** Run `/translate-v2-refresh <Language Name>` — see `.clinerules/workflows/translate-v2-refresh.md` for the full per-session procedure.
+
+- [x] **Phase A complete (2026-04-23):** Diff script + snapshot + apply-translations tooling + workflow file all in place.
+- [ ] For each language below, run the workflow, translate everything flagged, update `@metadata.last-updated`, and re-run `scripts/audit-translation.js <lang>` to confirm no English strings leaked in.
 
 Languages (54 non-English — tick each off when its updated + missing keys are fully translated):
 
