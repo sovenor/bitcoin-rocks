@@ -1,4 +1,23 @@
+## /business/maps V2 redesign — April 23, 2026
+
+Brought `/business/maps` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS" header + inline `/img/bbk/payment-chart.png` hero image + a single dense `.text-box.intro.sticker-box` with a "View the map here." orange link and a bare `<form>` of seven raw `<input>` + `<br />` fields — with a standard V2 page in line with the other V2 business pages. The user explicitly called out that the form should be restyled to match the forms on `/stickers` and `/business/stickers`.
+
+The new page is: plain `<h1>` "Get your business on Bitcoin merchant maps" + subtitle, `.wallet-intro` bordered surface with two framing paragraphs + a `.body-link` out to `btcmap.org` (replacing the legacy `.orange-link` "View the map here." with a proper V2 body link + `→` affordance), then a `.inflation-section.content-section` with an h2 + `.comparison-explain` intro paragraph + the listing-request form. The form itself was restyled from raw `<input>` + `<br />` into the shared V2 `.cic-form.sticker-form` class + `.cic-field` / `.cic-label` / `.cic-input` / `.cic-submit` primitives — same system already used by `<StickerAddressForm v2>` and `<BusinessStickerFlow>`. Every field now has a real `<label>` above it (the V1 version relied on `placeholder` attributes only), city/region/country sit in a 3-up `.cic-fields.sticker-fields--three` grid on desktop (stacks on mobile at the 700px breakpoint), and the submit button is a pill-shaped orange `.cic-submit`. Cloudflare Turnstile widget + `_gotcha` honeypot preserved. Form action unchanged (`https://forms.bitcoin.rocks/submit/business-maps`) so the existing backend contract is untouched.
+
+Below the form sits the `/business/*` colored business resources grid (reusing the same `BIZ_RESOURCES` pattern as the other V2 business pages with `maps` excluded since we're on it). No sources section (utility/form page, same convention as `/stickers` and `/business/stickers`). Standard `.publisher-attribution` with the reviewed-for-accuracy badge closes the page.
+
+Per the `/business/*` V2 convention (see V2-REDESIGN-CHECKLIST.md Tier 6), the bottom-of-page cross-link surface is the colored business resources grid — **no generic "keep learning / buy Bitcoin / inflation" bridge** is rendered on business sub-pages.
+
+The English i18n file (`i18n/en/business/maps_en.json`) was bumped to 2026-04-23 and gained 10 new V2 keys (`biz_maps_hero_title`, `biz_maps_hero_subtitle`, `biz_maps_intro_c1`, `biz_maps_intro_c2`, `biz_maps_view_map_cta`, `biz_maps_form_header`, `biz_maps_form_intro`, and 7 placeholders — `biz_maps_placeholder_name/category/address/city/region/country/website`). The four V1 keys (`bitcoin_merchant_maps_list_your_business_for_free`, `maps_header`, `maps_request_details`, `maps_view`) were kept in place; `bitcoin_merchant_maps_list_your_business_for_free` is still used (as the metadata title and the rendered page title string), and the other three are now orphans pending the post-cutover dead-key audit.
+
+Verification: `npx tsc --noEmit` clean.
+
+After this pass, the V2 redesign status is: Business 7/12 done, Total pages 76/83 done. The `/business/*` sub-pages remaining are kit, kit-success, maps-success, sticker-success, sticker-language-success (5 pages).
+
+---
+
 ## /business/stickers V2 redesign — April 23, 2026
+
 
 Brought `/business/stickers` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS" header + inline sticker-pack image + a single dense `.text-box.intro.sticker-box` with a `<CountryFormSelector>` revealing three country panels (USA / Canada / Global-print) and legacy-style `<StickerAddressForm>`s — with a standard V2 page in line with the other V2 business pages. The user explicitly called out that the consumer `/stickers` page's `.sticker-option-grid` / `.sticker-option-button` / `.sticker-panel` / `.cic-*` form system should be reused, but the **Step 1 / "choose this pack" picker should be skipped** since the merchant page only has ONE pack (the "Bitcoin Accepted Here" pack) — that's the key design difference between the two pages.
 

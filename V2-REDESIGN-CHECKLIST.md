@@ -127,7 +127,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business — Accounting** — `/business/accounting`
 - [x] **Business — Stickers** — `/business/stickers`
 - [x] **Business — Sticker Files (English)** — `/business/sticker-files/english` — downloadable merchant "Bitcoin Accepted Here" sticker, linked from `/business/stickers`'s Global — Print option
-- [ ] **Business — Maps** — `/business/maps`
+- [x] **Business — Maps** — `/business/maps`
 - [ ] **Business — Kit** — `/business/kit`
 - [ ] **Business — Kit Success** — `/business/kit-success`
 - [ ] **Business — Maps Success** — `/business/maps-success`
@@ -313,11 +313,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 12 | 6 |
+| Business section | 12 | 7 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **83** | **75** |
+| **Total pages** | **83** | **76** |
 
 
 
@@ -334,6 +334,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of /business/stickers — replaced legacy `BusinessPageShell` + `CountryFormSelector` + dense `.text-box.intro.sticker-box` block with V2 hero + intro card (centered sticker-pack preview image above the intro copy via new `.biz-stickers-hero-image` rule) + new `<BusinessStickerFlow>` client component — a single-step delivery picker (USA / Canada / Global — Print) built on the same `.sticker-option-grid` / `.sticker-option-button` / `.sticker-panel` system as /stickers but with the pack-picker step removed (merchants only have ONE pack, the "Bitcoin Accepted Here" pack, so no Step 1 wizard is needed — that's the key design difference from /stickers) + the V2 `.cic-*` form system for the address + language-request forms + colored business resources grid (stickers excluded) + publisher attribution; no sources section (utility/form page); follows the `/business/*` convention — no generic "keep learning" bridge)_
+_Last updated: 2026-04-23 (V2 redesign of /business/maps — replaced legacy `BusinessPageShell` + `.text-box.intro.sticker-box` block + raw `<input>` + `<br />` form with V2 hero + `.wallet-intro` intro card (including a `.body-link` out to BTC Map) + a listing-request form restyled in the V2 `.cic-*` form system to match `/stickers` and `/business/stickers` (labels on every field, 3-up `.sticker-fields--three` grid for city/region/country on desktop, `.cic-submit` button) + colored business resources grid (maps excluded) + publisher attribution; no sources section (utility/form page); follows the `/business/*` convention — no generic "keep learning" bridge. New `biz_maps_*` i18n keys added to `i18n/en/business/maps_en.json`; legacy `maps_header` / `maps_request_details` / `maps_view` keys kept in place for the moment and will be swept up during the post-cutover dead-key audit.)_
 
 

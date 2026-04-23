@@ -1,4 +1,52 @@
-## Latest: /business/stickers V2 redesign + new /business/sticker-files/english download page — April 23, 2026
+## Latest: /business/maps V2 redesign — April 23, 2026
+
+`/business/maps` was the last remaining form-style `/business/*` page still on V1. It used `BusinessPageShell` + an `.h1-inflation` "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS" header + an inline `/img/bbk/payment-chart.png` hero image + a single dense `.text-box.intro.sticker-box` with a "View the map here." orange link and a bare `<form>` of seven raw `<input>` + `<br />` fields posting to `forms.bitcoin.rocks/submit/business-maps`. This page is where merchants submit their business for listing on BTC Map and other Bitcoin merchant directories.
+
+Redesigned in the V2 style per the task (explicitly asked: "Style the form to be similar to the forms on other business pages like /stickers"). This is the seventh `/business/*` page to reach V2 (after /business, /business/why, /business/faq, /business/wallets, /business/accounting, /business/stickers, /business/sticker-files/english).
+
+### What changed
+
+1. **Hero.** Replaced the `.h1-inflation` uppercased header with a V2 plain `<h1>` ("Get your business on Bitcoin merchant maps") inside a `.home-hero.inflation-section`, plus a new `biz_maps_hero_subtitle` paragraph. The legacy standalone `/img/bbk/payment-chart.png` image was dropped — it never added signal on the V1 page and the new hero copy carries the intent on its own.
+
+2. **Intro card.** V2 `.wallet-intro` bordered surface with two intro paragraphs (`biz_maps_intro_c1`, `biz_maps_intro_c2`) explaining why merchants should get listed + how the form works, followed by a single `.body-link` out to `btcmap.org` (replacing the legacy `.orange-link` "View the map here." with a proper V2 body link + `→` affordance).
+
+3. **Listing-request form — restyled to match `/stickers` and `/business/stickers`.** This was the task's explicit request. The form lives in a normal `.inflation-section.content-section` with an h2 (`biz_maps_form_header`) + `.comparison-explain` intro paragraph (`biz_maps_form_intro`), then the form itself uses the shared V2 `.cic-form.sticker-form` class + `.cic-field` / `.cic-label` / `.cic-input` / `.cic-submit` primitives (same system already used by `<StickerAddressForm v2>` and `<BusinessStickerFlow>`). Visual parity: every field has a real `<label>` above it (the V1 version had none — it relied on `placeholder` attributes only), city/region/country sit in a 3-up `.cic-fields.sticker-fields--three` grid on desktop (stacks on mobile at the 700px breakpoint), and the submit button is a pill-shaped orange `.cic-submit`. Cloudflare Turnstile widget + `_gotcha` honeypot preserved. Form action unchanged: `https://forms.bitcoin.rocks/submit/business-maps`.
+
+4. **Business resources grid.** Same V2 `.whats-next-grid` pattern as the other `/business/*` pages with six cards (wallets, stickers, rewards, accounting, faq, kit) — the `maps` card from the 7-card grid on `/business` is excluded since we're on it. Same per-card `--card-accent` colors as the rest of the section for visual consistency. **No generic "keep learning / buy Bitcoin" bridge** — per the `/business/*` convention, this colored grid IS the cross-link surface.
+
+5. **No sources section.** Same convention as `/stickers`, `/business/stickers`, `/business/sticker-files/english` — utility/form pages don't make factual claims that need citations.
+
+6. **Publisher attribution.** Inlined the reviewed-for-accuracy badge + publisher-attribution block directly on the page so `/business/maps` no longer depends on `BusinessPageShell` or `BusinessResourceCards`.
+
+7. **Schemas.** Standard `buildArticleSchema()` + `buildBreadcrumbSchema()` JSON-LD wiring with the `breadcrumbSchema !== null` guard.
+
+### Files touched
+
+- **`app/[locale]/business/maps/page.tsx`** — full rewrite (~415 lines). Dropped `BusinessPageShell` + `BusinessResourceCards` imports. Added `CSSProperties`, `Script` (for Turnstile), `REVIEWED_ACCURACY_I18N_KEY`. Embedded the BIZ_RESOURCES card spec directly on the page (matches `/business/stickers` — same 6-card catalog minus the maps entry).
+- **`i18n/en/business/maps_en.json`** — bumped `@metadata.last-updated` to 2026-04-23, kept the four V1 keys untouched (`bitcoin_merchant_maps_list_your_business_for_free`, `maps_header`, `maps_request_details`, `maps_view`) so the i18n fallback works during the translation cleanup window, and added 10 new `biz_maps_*` keys: `biz_maps_hero_title`, `biz_maps_hero_subtitle`, `biz_maps_intro_c1`, `biz_maps_intro_c2`, `biz_maps_view_map_cta`, `biz_maps_form_header`, `biz_maps_form_intro`, and six placeholders (`biz_maps_placeholder_name/category/address/city/region/country/website`). The four V1 keys (`maps_header`, `maps_request_details`, `maps_view`) are now unused and will be swept up during the post-cutover dead-key audit.
+- **`V2-REDESIGN-CHECKLIST.md`** — ticked `/business/maps`, bumped the business section counter (6 → 7) + total pages (75 → 76), updated the footer `_Last updated_` line with a summary of this change.
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+- `lib/i18n/request.ts` already had `"business/maps"` in `DEFAULT_NAMESPACES` (since Phase 10), so the new `biz_maps_*` keys resolve without any loader changes.
+- `lib/pages.ts` entry for `business/maps` unchanged (already published at priority 0.6).
+- Breadcrumb schema auto-renders as "Home > Bitcoin for Business > Bitcoin Merchant Maps - List your business for free" via the `slug.startsWith("business/")` branch in `lib/schema/breadcrumb.ts`.
+- Form endpoint (`business-maps`) already registered in `forms-backend/seed.js` — no backend changes needed.
+
+### Remaining in Tier 6 (5 pages)
+
+- `/business/kit`
+- `/business/kit-success`
+- `/business/maps-success`
+- `/business/sticker-success`
+- `/business/sticker-language-success`
+
+All five are form-success or kit pages. The kit page is the last merchant-facing content page still on V1; the four success pages are short thank-you screens and should be quick reskins (compare to the already-V2 `/sticker-success` + `/sticker-language-success`).
+
+---
+
+## /business/stickers V2 redesign + new /business/sticker-files/english download page — April 23, 2026
 
 ### Follow-up (same session)
 
