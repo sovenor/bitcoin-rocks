@@ -184,7 +184,7 @@ export default async function StickerSuccessPage({
 								{t("sticker_success_btn_share_on_nostr")}
 							</a>
 							<a
-								href={`${l}/nostr/what-is-nostr`}
+								href={`${l}/nostr`}
 								className="flyer-btn flyer-btn-secondary"
 							>
 								{t("sticker_success_btn_what_is_nostr")}

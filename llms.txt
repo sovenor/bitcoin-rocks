@@ -53,7 +53,7 @@ All content is curated and fact-checked. Data and statistics cite authoritative 
 - [About bitcoin.rocks](https://bitcoin.rocks/about): Our mission, editorial approach, open-source commitment, and contact information.
 
 ### Other
-- [What is Nostr?](https://bitcoin.rocks/nostr/what-is-nostr): Introduction to the Nostr protocol — a censorship-resistant communication network with built-in Bitcoin payments.
+- [What is Nostr?](https://bitcoin.rocks/nostr): Introduction to the Nostr protocol — a censorship-resistant communication network with built-in Bitcoin payments — plus a guide to downloading a free Nostr client (Primal, Damus, Amethyst, Iris).
 
 ## Detailed Content
 

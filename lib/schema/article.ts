@@ -86,7 +86,6 @@ const ARTICLE_SLUGS = new Set<string>([
 	"business/stickers",
 	"business/maps",
 	"nostr",
-	"nostr/what-is-nostr",
 ]);
 
 /**

@@ -119,9 +119,9 @@ const DEFAULT_NAMESPACES = [
 	"sticker-files/urdu/index",
 	"sticker-files/vietnamese/index",
 	"sticker-files/yoruba/index",
-	// Phase 12 — nostr section.
+	// Phase 12 — nostr section. (Was 2 namespaces; /nostr/what-is-nostr
+	// was folded into /nostr during the V2 redesign on 2026-04-23.)
 	"nostr/index",
-	"nostr/what-is-nostr",
 	// Phase 13 — 404 page strings (`404_title`, `404_message`, `404_home`).
 	"404",
 ] as const;

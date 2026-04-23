@@ -200,7 +200,7 @@ export default async function FlyersPage({
 								{t("flyers_btn_share_on_nostr")}
 							</a>
 							<a
-								href={`${l}/nostr/what-is-nostr`}
+								href={`${l}/nostr`}
 								className="flyer-btn flyer-btn-secondary"
 							>
 								{t("flyers_btn_what_is_nostr")}

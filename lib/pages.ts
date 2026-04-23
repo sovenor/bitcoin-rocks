@@ -159,8 +159,10 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "sticker-files/yoruba", phase: 11, priority: 0.4, changeFrequency: "yearly", namespace: "sticker-files/yoruba/index", published: true },
 
 	// === Phase 12 — Nostr section ===
-	{ slug: "nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/index", published: true },
-	{ slug: "nostr/what-is-nostr", phase: 12, priority: 0.5, changeFrequency: "monthly", namespace: "nostr/what-is-nostr", published: true },
+	// /nostr/what-is-nostr was folded into /nostr on 2026-04-23 during the
+	// V2 redesign of the Nostr section. `/nostr/what-is-nostr` now
+	// 301-redirects to `/nostr` via `next.config.ts`.
+	{ slug: "nostr", phase: 12, priority: 0.6, changeFrequency: "monthly", namespace: "nostr/index", published: true },
 ] as const;
 
 /** Find a page entry by slug. Returns null if not registered. */

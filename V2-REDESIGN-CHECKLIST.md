@@ -31,8 +31,8 @@ These are cross-cutting pieces that appear on many/all pages. They should be ver
 - [x] **BuyFlow** (`components/BuyFlow.tsx`)
 - [x] **WalletAccordion** (`components/WalletAccordion.tsx`)
 
-- [ ] **NostrAccordion** (`components/NostrAccordion.tsx`)
-- [ ] **NostrPageLayout** (`components/NostrPageLayout.tsx`)
+- [x] ~~**NostrAccordion** (`components/NostrAccordion.tsx`)~~ — deleted 2026-04-23 (no longer needed after /nostr V2 redesign)
+- [x] ~~**NostrPageLayout** (`components/NostrPageLayout.tsx`)~~ — deleted 2026-04-23 (no longer needed after /nostr V2 redesign)
 - [ ] **BusinessPageShell** (`components/BusinessPageShell.tsx`)
 - [ ] **BusinessResourceCards** (`components/BusinessResourceCards.tsx`)
 - [ ] **BusinessWalletCard** (`components/BusinessWalletCard.tsx`)
@@ -134,8 +134,8 @@ These patterns show up inside many pages. Track them globally once the layouts a
 
 ### Tier 7 — Nostr section
 
-- [ ] **Nostr (index)** — `/nostr`
-- [ ] **Nostr — What is Nostr** — `/nostr/what-is-nostr`
+- [x] **Nostr (index)** — `/nostr` (V2 redesign 2026-04-23 — absorbs the content of the former `/nostr/what-is-nostr` page)
+- [x] ~~**Nostr — What is Nostr** — `/nostr/what-is-nostr`~~ — **deleted 2026-04-23**, merged into `/nostr`. The slug 301-redirects to `/nostr` via `next.config.ts`.
 
 ### Tier 8 — Sticker-files section (44 language pages + index)
 
@@ -312,10 +312,10 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
 | Business section | 11 | 11 |
-| Nostr section | 2 | 0 |
+| Nostr section | 1 | 1 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **82** | **80** |
+| **Total pages** | **81** | **81** |
 
 
 
@@ -332,6 +332,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of the three remaining `/business/*` form-success pages — `/business/maps-success`, `/business/sticker-success`, `/business/sticker-language-success`. All three dropped `BusinessPageShell` + `BusinessResourceCards` in favor of the standard V2 form-success layout established by `/sticker-success` + `/sticker-language-success`: plain `<h1>` hero + subtitle inside `.home-hero.inflation-section`, one or more `.wallet-intro.flyer-section` surface cards with `.flyer-heading` titles (timeline, good-sticker-spots checklist, "need more stickers?" with `.flyer-btn` CTAs, "view the BTC Map" CTA), then the per-/business/* colored resources grid (5 cards: the current-page card is excluded from each) as the cross-link surface — no generic "keep learning / buy Bitcoin" bridge per the Tier 6 convention — followed by the inline reviewed-for-accuracy + publisher-attribution block. `/business/sticker-success` reuses the `.sticker-success-tips` CSS from `/sticker-success` (app/globals.css §12) so no new CSS was needed. All three pages are `robots: noindex, follow`. New `biz_*_success_*` i18n keys added to each of the three English JSON files; legacy `kit_success_1/2`, `sticker_success_details`, `sticker_language_timeline` keys preserved for backwards compatibility with the 54 non-English locales until the Step 2/3 dead-key propagation runs. Completes Tier 6: Business section now 10/12 (the 2 non-existent slots are kit + kit-success which were fully deleted earlier today).)_
+_Last updated: 2026-04-23 (V2 redesign of the Nostr section. The two former Tier 7 pages — `/nostr` and `/nostr/what-is-nostr` — have been **merged into a single V2 `/nostr` page**. The new page absorbs the content previously split across both legacy pages: hero + intro card, three benefit sections (Protocol, not platform / Freedom to move / Bitcoin is built in), a `.wallet-lightning-cta`-style "GO DEEPER" outbound link card pointing to `https://nostr.how/en/what-is-nostr`, and a "Download a free Nostr client" section styled like `/wallets` — 2-col `.wallet-grid` of V2 `.wallet-card`s for Primal, Damus, Amethyst, and Iris with platform `.wallet-callout` badge + feature bullets + "Learn more →" CTA, followed by a standard What's next grid, sources, and publisher attribution. Dropped `BusinessPageShell`-equivalent `NostrPageLayout` + `NostrAccordion` components (deleted — no longer referenced anywhere). All three pages that used to link to `/nostr/what-is-nostr` (`/stickers`, `/sticker-success`, `/flyers` "What is Nostr?" buttons) now point at `/nostr`. `next.config.ts` 301-redirects `/nostr/what-is-nostr` + `/:locale/nostr/what-is-nostr` → `/nostr` so inbound links from search engines, socials, and bookmarks still land on valid content. `lib/pages.ts` drops the `nostr/what-is-nostr` slug entry; `lib/i18n/request.ts` drops the `nostr/what-is-nostr` namespace from `DEFAULT_NAMESPACES`; `lib/schema/article.ts` drops the slug from `ARTICLE_SLUGS`. All 55 `i18n/<lang>/nostr/what-is-nostr_*.json` files deleted. `i18n/en/nostr/index_en.json` rewritten with new hero/section/client/download keys (35 new keys total) + `@metadata.last-updated` bumped. Completes Tier 7: Nostr section 1/1.)_
 
 

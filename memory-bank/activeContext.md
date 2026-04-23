@@ -1,4 +1,69 @@
-## Latest: 3 remaining /business/* form-success pages V2'd — April 23, 2026
+## Latest: Nostr section V2 redesign + merged /nostr/what-is-nostr into /nostr — April 23, 2026
+
+With Tier 6 (Business section) 11/11 complete as of earlier today, Tier 7 (Nostr section) was the last outstanding V2 work. The two former Nostr pages — `/nostr` and `/nostr/what-is-nostr` — were **merged into a single V2 `/nostr` page**. The new page absorbs the content previously split across both legacy pages and adds a proper client download section styled like `/wallets`. The full-site V2 redesign is now complete.
+
+### What changed
+
+1. **Single merged `/nostr` page** — V2 `app/[locale]/nostr/page.tsx` is now fully self-contained (~440 lines): hero (plain `<h1>` "What is Nostr?" + subtitle), `.wallet-intro` intro card, three benefit sections (Protocol, not platform / Freedom to move / Bitcoin is built in) — each an `.inflation-section.content-section` with `<h2>` + `.comparison-explain` prose — a `.wallet-lightning-cta`-style "GO DEEPER" outbound link card (new i18n keys `nostr_learn_more_label` / `_title`) pointing at `https://nostr.how/en/what-is-nostr`, and a "Download a free Nostr client" section styled like `/wallets` (reuses `.wallet-grid-section` + `.wallet-grid` + `.wallet-card` + `.wallet-card-badges` + `.wallet-card-features` + `.wallet-card-cta`). Four clients in the grid: **Primal** (iPhone/Android/web — recommended first client with zap wallet built in), **Damus** (iPhone), **Amethyst** (Android), **Iris** (web). Each card shows a platform `.wallet-callout good` badge + 3 feature bullets + "Learn more →" CTA. Standard V2 What's next grid (homepage, /wallets, /buy, /inflation), sources section (6 citations incl. nostr.how, nostr-protocol GitHub, each client, Satoshi whitepaper), and publisher attribution with reviewed-for-accuracy badge.
+
+2. **Deleted `/nostr/what-is-nostr` entirely.** The legacy page was a faithful V1 port that only differed from `/nostr` by its H1 and meta title — so absorbing its content into the merged `/nostr` page made the second route redundant. Deleted: `app/[locale]/nostr/what-is-nostr/` directory + all 55 `i18n/<lang>/nostr/what-is-nostr_*.json` files (one per locale).
+
+3. **Deleted `NostrPageLayout` + `NostrAccordion` components.** Both were only used by the two legacy `/nostr/*` pages and had no other callers, so they got deleted outright (not left as dead code).
+
+4. **301 redirects for the old slug.** Added two entries to `LEGACY_SLUG_REDIRECTS` in `next.config.ts`: `/nostr/what-is-nostr` → `/nostr` and `/:locale/nostr/what-is-nostr` → `/:locale/nostr`. So any search-engine links, socials links, and existing bookmarks still land on the merged content.
+
+5. **Updated the 3 pages that link to "What is Nostr?".** `/stickers`, `/sticker-success`, and `/flyers` all have a "WHAT IS NOSTR?" `.flyer-btn flyer-btn-secondary` next to their "SHARE ON NOSTR" button. All three were pointing at `${l}/nostr/what-is-nostr` — now they point at `${l}/nostr`. The existing translation keys (`stickers_btn_what_is_nostr`, `sticker_success_btn_what_is_nostr`, `flyers_btn_what_is_nostr`) are kept verbatim since the button label is still "WHAT IS NOSTR?".
+
+6. **Config updates.** `lib/pages.ts` drops the `nostr/what-is-nostr` slug entry and bumps the `nostr` priority from 0.5 → 0.6 (the merged page now carries the weight of both former pages). `lib/i18n/request.ts` drops `"nostr/what-is-nostr"` from `DEFAULT_NAMESPACES`. `lib/schema/article.ts` drops `"nostr/what-is-nostr"` from `ARTICLE_SLUGS`.
+
+7. **i18n.** `i18n/en/nostr/index_en.json` rewritten with 35 new keys (existing `what_is_nostr` + `escape_the_matrix_with_nostr` + `nostr_header` + `nostr_page_description` kept for backwards compatibility during the cleanup window): `nostr_hero_title`, `nostr_hero_subtitle`, `nostr_intro_c1`/`c2`, three section groups `nostr_s1`/`_c1`/`_c2`, `nostr_s2`/`_c1`/`_c2`/`_c3`, `nostr_s3`/`_c1`/`_c2`, go-deeper card `nostr_learn_more_label`/`_title`, download section `nostr_download_heading`/`_intro`, four platform labels `nostr_platform_ios_android_web`/`_ios`/`_android`/`_web`, four client groups `nostr_primal_name`/`_f1`/`_f2`/`_f3`, `nostr_damus_*`, `nostr_amethyst_*`, `nostr_iris_*`. `@metadata.last-updated` bumped to 2026-04-23.
+
+### Design decisions (why merge?)
+
+The legacy `/nostr` and `/nostr/what-is-nostr` pages shared the same `<NostrPageLayout>` Server Component and only differed by their H1 and meta — both rendered the same three intro paragraphs and the same three accordion-wrapped client download sections. Two SEO surfaces carrying essentially the same content was redundant. Merging lets the one surviving page get a higher sitemap priority (0.6), a cleaner URL for sharing, and the /wallets-style client grid gives readers a real "now what?" action instead of just an explainer. The `/nostr/what-is-nostr` URL still works via 301 redirect so no link rot.
+
+Per the user's explicit task brief: (a) merge content of what-is-nostr into /nostr, (b) style the DOWNLOAD section like the main /wallets page, (c) add a new link to learn more about Nostr at https://nostr.how/en/what-is-nostr. All three were done — the download grid directly mirrors the `/wallets` page's `.wallet-grid` + `.wallet-card` system (just with platform-badge callouts instead of custody/temperature callouts).
+
+### Files changed
+
+```
+app/[locale]/nostr/page.tsx                  (full V2 rewrite — self-contained, merged content; ~440 lines)
+app/[locale]/nostr/what-is-nostr/            (DELETED — entire directory)
+components/NostrPageLayout.tsx                (DELETED)
+components/NostrAccordion.tsx                 (DELETED)
+i18n/en/nostr/index_en.json                  (rewritten — 35 new keys, 4 legacy keys kept, last-updated 2026-04-23)
+i18n/*/nostr/what-is-nostr_*.json             (DELETED — all 55 locale files)
+lib/pages.ts                                  (dropped nostr/what-is-nostr slug; nostr priority 0.5 → 0.6)
+lib/i18n/request.ts                           (dropped nostr/what-is-nostr namespace from DEFAULT_NAMESPACES)
+lib/schema/article.ts                         (dropped nostr/what-is-nostr from ARTICLE_SLUGS)
+next.config.ts                                (added 2 LEGACY_SLUG_REDIRECTS entries for /nostr/what-is-nostr)
+app/[locale]/stickers/page.tsx                (WHAT IS NOSTR? href /nostr/what-is-nostr → /nostr)
+app/[locale]/sticker-success/page.tsx         (same)
+app/[locale]/flyers/page.tsx                  (same)
+V2-REDESIGN-CHECKLIST.md                      (flipped Nostr section to 1/1 done; NostrPageLayout + NostrAccordion marked as deleted; summary counts now 81/81; _Last updated_ footnote rewritten for this change)
+llms.txt + public/llms.txt                    (What is Nostr URL /nostr/what-is-nostr → /nostr; description expanded to mention the client-download guide)
+llms-full.txt + public/llms-full.txt          (Source URL /nostr/what-is-nostr → /nostr; added new "Download a Free Nostr Client" subsection listing Primal/Damus/Amethyst/Iris + nostr.how reference)
+memory-bank/activeContext.md                  (this entry prepended)
+```
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+- All 3 downstream link references (`/stickers`, `/sticker-success`, `/flyers`) now point at `/nostr` — verified via grep (zero remaining `/nostr/what-is-nostr` references in `app/`, `components/`, `lib/`).
+- `/nostr/what-is-nostr` no longer appears in `lib/pages.ts` → sitemap will emit 55 fewer URLs on next build (was 110 for both nostr slugs × 55 locales, now 55).
+- Standard Article + BreadcrumbList JSON-LD still emitted on `/nostr`. Breadcrumb renders as "Home > Nostr" via the existing `slug === "nostr"` branch in `lib/schema/breadcrumb.ts`.
+- Client images (`/img/clients/primal.png`, `damus.png`, `amethyst.png`, `iris.png`) already present in `public/img/clients/` — no new assets needed.
+
+### Tier 7 is DONE (1/1) — full-site V2 redesign complete
+
+All 81 pages across Tier 1-8 are now V2-complete. The only remaining V2 work is:
+- A handful of un-redesigned shared components (BusinessPageShell, BusinessResourceCards, BusinessWalletCard, StickerPicker, StickerAddressForm, Footer, CountrySelector, CountryFormSelector) — these still work on their current V2 pages but could get a dedicated styling pass.
+- The post-cutover i18n cleanup (Steps 1-5 in V2-REDESIGN-CHECKLIST.md): dead-key audit, per-language re-translation of 54 locales.
+
+---
+
+## Previous: 3 remaining /business/* form-success pages V2'd — April 23, 2026
+
 
 With `/business/kit` + `/business/kit-success` fully deleted earlier today and `/business/maps` freshly V2'd, the three remaining Tier 6 stragglers — `/business/maps-success`, `/business/sticker-success`, and `/business/sticker-language-success` — were all redesigned in the V2 style in one pass. Tier 6 (Business section) is now **11/11 complete**. Only Tier 7 (Nostr section, 2 pages) remains for the full-site V2 redesign.
 

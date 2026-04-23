@@ -73,6 +73,12 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	{ source: "/business/kit-success", destination: "/business" },
 	{ source: "/:locale/business/kit", destination: "/:locale/business" },
 	{ source: "/:locale/business/kit-success", destination: "/:locale/business" },
+	// `/nostr/what-is-nostr` was folded into `/nostr` on Apr 23, 2026.
+	// Both the unlocalized and locale-prefixed forms 301-redirect so
+	// inbound links from search engines, socials, or bookmarks land on
+	// the merged content.
+	{ source: "/nostr/what-is-nostr", destination: "/nostr" },
+	{ source: "/:locale/nostr/what-is-nostr", destination: "/:locale/nostr" },
 	// Save-sticker deep link (preserves the query string)
 	{ source: "/save", destination: "/inflation?sign=got-inflation" },
 	// Trailing `.html` from any legacy bookmark gets stripped (e.g.

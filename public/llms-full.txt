@@ -774,7 +774,7 @@ bitcoin.rocks is a free, open-source project licensed under the MIT License. Our
 
 ## What is Nostr?
 
-Source: https://bitcoin.rocks/nostr/what-is-nostr
+Source: https://bitcoin.rocks/nostr
 
 ### Protocol, Not Platform
 
@@ -788,7 +788,17 @@ Nostr is similar to email. No one controls the email protocol, and anyone can bu
 
 Bitcoin is built in natively to the Nostr protocol. If you see content you like, you can easily zap bitcoin to someone as a thank you! On centralized platforms like Twitter and Facebook, the centralized company earns money from your content. But on open protocols like Nostr, you earn money from your content.
 
+### Download a Free Nostr Client
+
+Nostr clients are free apps that let you read and post on the Nostr network. All of them are interoperable — you can switch clients anytime and keep your followers and content. For a deeper technical intro, see [nostr.how](https://nostr.how/en/what-is-nostr).
+
+- **Primal** (iPhone, Android, web) — Recommended first client with a Bitcoin zap wallet built in. 100% free.
+- **Damus** (iPhone) — Familiar Twitter-like interface. Requires a separate Bitcoin wallet. 100% free.
+- **Amethyst** (Android) — Lots of features and customization. Requires a separate Bitcoin wallet. 100% free.
+- **Iris** (Web browser) — Super simple, no install required. Easy way to try Nostr with a test account. 100% free.
+
 ---
+
 
 ## Homepage — Bitcoin Builds a Better World
 
