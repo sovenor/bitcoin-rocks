@@ -1,7 +1,7 @@
 {
-	"generatedAt": "2026-04-23T21:31:02.503Z",
+	"generatedAt": "2026-04-23T22:37:02.673Z",
 	"totalNamespaces": 38,
-	"totalKeys": 1849,
+	"totalKeys": 1848,
 	"namespaces": {
 		"404": {
 			"lastUpdated": "2026-04-23",
@@ -66,7 +66,7 @@
 			}
 		},
 		"bank-runs": {
-			"lastUpdated": "2026-04-20",
+			"lastUpdated": "2026-04-23",
 			"keys": {
 				"bank_runs_bitcoin_heading": "Bitcoin doesn't have bank runs",
 				"bank_runs_bitcoin_p1": "Bitcoin is a full-reserve system. You're not depositing your money in a bank. You are your own bank. There's no lending out your money without your knowledge because you are the only one who can access your money.",
@@ -94,8 +94,7 @@
 				"bank_runs_fdic_heading": "FDIC insurance covers about 1% of deposits",
 				"bank_runs_fdic_p1": "FDIC insurance protects deposits up to $250,000 per depositor. But the insurance fund is tiny compared to the total deposits it's supposed to protect.",
 				"bank_runs_fdic_p2_a": "In a large-scale bank failure, the government would likely print money to cover the gap — resulting in more",
-				"bank_runs_fdic_p2_b": ".",
-				"bank_runs_fdic_p2_link": "inflation",
+				"bank_runs_fdic_p2_link": "inflation.",
 				"bank_runs_header": "Bitcoin doesn't have bank runs, but your bank might.",
 				"bank_runs_page_description": "Banks lend out your deposits under fractional reserve banking. If too many people withdraw at once, banks can fail. Bitcoin is a full-reserve system — bank runs are impossible.",
 				"bank_runs_svb_heading": "Silicon Valley Bank: a real example",

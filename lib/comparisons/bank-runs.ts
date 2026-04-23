@@ -274,7 +274,6 @@ export const BANK_RUNS: ContentPageData = {
 						href: "/inflation",
 						localize: true,
 					},
-					{ key: "bank_runs_fdic_p2_b" },
 				],
 			],
 			cards: [

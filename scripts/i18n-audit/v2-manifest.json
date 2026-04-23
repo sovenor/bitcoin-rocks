@@ -1238,7 +1238,7 @@
 		{
 			"namespace": "bank-runs",
 			"key": "bank_runs_fdic_p2_link",
-			"englishValue": "inflation"
+			"englishValue": "inflation."
 		},
 		{
 			"namespace": "bank-runs",

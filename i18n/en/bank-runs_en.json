@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-20",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_bank_runs": "Bitcoin Doesn't Have Bank Runs",
@@ -29,8 +29,7 @@
 	"bank_runs_fdic_heading": "FDIC insurance covers about 1% of deposits",
 	"bank_runs_fdic_p1": "FDIC insurance protects deposits up to $250,000 per depositor. But the insurance fund is tiny compared to the total deposits it's supposed to protect.",
 	"bank_runs_fdic_p2_a": "In a large-scale bank failure, the government would likely print money to cover the gap — resulting in more",
-	"bank_runs_fdic_p2_link": "inflation",
-	"bank_runs_fdic_p2_b": ".",
+	"bank_runs_fdic_p2_link": "inflation.",
 	"bank_runs_card_fdic_label": "FDIC coverage",
 	"bank_runs_card_fdic_value": "1.42%",
 	"bank_runs_card_fdic_detail": "$153.9B insurance fund vs $10.82T in insured deposits (Dec 2025).",
