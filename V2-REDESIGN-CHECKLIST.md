@@ -220,13 +220,37 @@ This section tracks the cleanup work needed to bring every language back to pari
 - [ ] Run `npm run build` to confirm nothing regresses (no missing-key fallbacks, no broken pages).
 - [ ] Commit the English cleanup as a discrete PR so translators can see a clean diff of what was removed.
 
-### Step 3 — Propagate deletions to all other languages
+### Step 3 — Normalize JSON formatting in English files
+
+During the V2 pass, many English JSON files accumulated **stray blank lines between keys** (often introduced when keys were added/removed in batches by scripts). These blank lines are valid JSON but make diffs noisy and look sloppy. For example:
+
+```jsonc
+"bitcoin_vs_stocks": "Bitcoin vs Stocks",
+
+"stocks_header": "THE DIFFERENCE BETWEEN",
+```
+
+should be collapsed to:
+
+```jsonc
+"bitcoin_vs_stocks": "Bitcoin vs Stocks",
+"stocks_header": "THE DIFFERENCE BETWEEN",
+```
+
+- [ ] Write a formatter script (`scripts/i18n-audit/normalize-json-formatting.js`) that walks every file in `i18n/en/**/*.json`, parses with `JSON.parse()`, re-serializes with `JSON.stringify(obj, null, '\t')` (tab indentation), and writes it back. This naturally removes all blank lines between keys while preserving key order and `@metadata`.
+- [ ] Run the script across all English files; spot-check a handful of large files (e.g. `i18n/en/bitcoin-vs-stocks_en.json`, `i18n/en/inflation_en.json`, `i18n/en/business/why_en.json`) to confirm the output is clean.
+- [ ] Bump `@metadata.last-updated` on every touched file.
+- [ ] `npm run build` to confirm no regressions, then commit as a discrete "i18n: normalize English JSON formatting" PR so the diff is easy to review.
+
+### Step 4 — Propagate deletions to all other languages
 
 - [ ] Extend the removal script to iterate over all 54 non-English locales and delete the same key set from each language's JSON files.
+- [ ] Re-run the formatter from Step 3 across all 54 non-English locales so their blank-line formatting also gets normalized.
 - [ ] Bump `@metadata.last-updated` on every touched file.
 - [ ] Verify no language file is left with orphan keys (audit script re-run).
 
-### Step 4 — Re-translate updated + new keys for every language
+### Step 5 — Re-translate updated + new keys for every language
+
 
 For each language, for every namespace: (a) find keys whose English value changed during V2 and update the translation, and (b) find keys present in English but missing in this language and translate them.
 
@@ -290,10 +314,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [ ] `zh` — Chinese
 - [ ] `zu` — Zulu
 
-### Step 5 — Final verification
+### Step 6 — Final verification
 
 - [ ] Run `scripts/audit-translation.js` across **all** non-English locales; zero English-leak findings.
 - [ ] Re-run the unused-keys audit from Step 1 to confirm no new dead keys crept in during the V2 pass.
+- [ ] Re-run the formatter from Step 3 one more time across `i18n/**/*.json` to catch any blank-line regressions introduced while translating.
 - [ ] Spot-check 3–5 random pages in 3–5 random languages (including one RTL) against the live site to confirm rendered copy looks right.
 - [ ] Verify all `@metadata.last-updated` fields are current.
 - [ ] Re-build and check `app/sitemap.ts` still emits every locale × slug combination.
@@ -327,8 +352,10 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | i18n cleanup | Total | Done |
 |---|---:|---:|
 | English audit + dead-key removal (Steps 1–2) | 6 | 0 |
-| Per-language re-translation (Steps 3–4) | 54 | 0 |
-| Verification & cleanup (Step 5) | 6 | 0 |
+| English JSON formatting normalization (Step 3) | 4 | 0 |
+| Propagate deletions + formatter to other languages (Step 4) | 4 | 0 |
+| Per-language re-translation (Step 5) | 54 | 0 |
+| Verification & cleanup (Step 6) | 7 | 0 |
 
 ---
 
