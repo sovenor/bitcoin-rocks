@@ -124,7 +124,7 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business — Why** — `/business/why`
 - [x] **Business — FAQ** — `/business/faq`
 - [x] **Business — Wallets** — `/business/wallets`
-- [ ] **Business — Accounting** — `/business/accounting`
+- [x] **Business — Accounting** — `/business/accounting`
 - [ ] **Business — Stickers** — `/business/stickers`
 - [ ] **Business — Maps** — `/business/maps`
 - [ ] **Business — Kit** — `/business/kit`
@@ -312,11 +312,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 12 | 4 |
+| Business section | 12 | 5 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **83** | **73** |
+| **Total pages** | **83** | **74** |
 
 
 
@@ -333,6 +333,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of /business/wallets — replaced legacy `BusinessPageShell` + 4 collapsible `<WalletAccordion>` business-type groups with V2 hero + intro card + 4 top-to-bottom wallet sections (each an h2 + `.comparison-explain` intro + `.wallet-grid` of V2 `.wallet-card`s reusing the `/wallets` card chrome) + added **Strike Business** to every section (image at `/img/wallets/strike-business.png`, links to strike.me/business) + introduced `.biz-wallet-card-note` CSS for the Square/Strike elevator-pitch paragraph above the feature bullets + colored business resources grid (wallets excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
+_Last updated: 2026-04-23 (V2 redesign of /business/accounting — replaced legacy `BusinessPageShell` + 4 dense `text-box intro inflation-box` prose blocks (where entire sentences were inline orange-link anchors) with V2 hero + intro card (carrying the prominent "not tax advice" disclaimer with a bolded `Please note:` label) + 4 `.inflation-section content-section` blocks (easy auto-convert path, cost basis tracking, spending/selling Bitcoin, need a pro) where every external/internal reference was lifted out of the prose and into a colored `.whats-next-card` link card slotted beside its section (1 → /business/wallets, 4 → QuickBooks/CoinGecko-live/CoinGecko-history/Spreadsheet-Guru, 1 → Satoshi Pacioli) + per-card `sourceKey` so each card's "Source: $author →" line reflects the real upstream source + colored business resources grid (accounting excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
 
 

@@ -2933,4 +2933,199 @@ a.sticker-language-button:focus-visible {
 	}
 }
 
+/* ═════════════════════════════════════════════════════════════════════
+   § 13. Accounting capital gain/loss examples (/business/accounting)
+   ---------------------------------------------------------------------
+   Two side-by-side cards showing the dollar flow from receive → sell
+   with a green "capital gain" pill (and a red "capital loss" pill) as
+   the result. Uses semantic `--color-success` / `--color-danger`
+   tokens; no new hex. Text color defaults to `var(--color-fg-muted)`
+   (not white) so the graphic matches the rest of the page's tone —
+   only the value ($100/$110/$90) and the result badges carry the
+   emphasis color.
+   ═════════════════════════════════════════════════════════════════════ */
+
+.accounting-examples {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin: 24px 0 20px 0;
+}
+@media (max-width: 700px) {
+	.accounting-examples {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+}
+
+.accounting-example {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 18px;
+	transition: border-color 0.2s;
+}
+.accounting-example--gain {
+	border-color: color-mix(
+		in srgb,
+		var(--color-success) 35%,
+		var(--color-card-border)
+	);
+}
+.accounting-example--loss {
+	border-color: color-mix(
+		in srgb,
+		var(--color-danger) 35%,
+		var(--color-card-border)
+	);
+}
+
+/* Flow row: [step] → [step] */
+.accounting-example-flow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	width: 100%;
+}
+
+.accounting-example-step {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	min-width: 0;
+}
+
+.accounting-example-date {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+}
+
+.accounting-example-label {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	color: var(--color-fg-muted);
+	text-align: center;
+}
+
+.accounting-example-value {
+	font-family: var(--font-proxima);
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 1.1;
+	color: var(--color-fg-muted);
+	letter-spacing: -0.01em;
+}
+
+.accounting-example-arrow {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1;
+	color: var(--color-fg-dim);
+	padding: 0 4px;
+	flex-shrink: 0;
+	align-self: center;
+	margin-top: 18px; /* visually balance with value baseline */
+}
+
+/* Result pill: icon + badge label + delta value */
+.accounting-example-result {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 18px;
+	border-radius: 999px;
+	font-family: var(--font-proxima);
+	line-height: 1;
+}
+.accounting-example-result--gain {
+	background: color-mix(
+		in srgb,
+		var(--color-success) 14%,
+		var(--color-surface)
+	);
+	border: 1px solid
+		color-mix(in srgb, var(--color-success) 50%, transparent);
+}
+.accounting-example-result--loss {
+	background: color-mix(
+		in srgb,
+		var(--color-danger) 14%,
+		var(--color-surface)
+	);
+	border: 1px solid
+		color-mix(in srgb, var(--color-danger) 50%, transparent);
+}
+
+.accounting-example-result-badge {
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+.accounting-example-result--gain .accounting-example-result-badge {
+	color: var(--color-success);
+}
+.accounting-example-result--loss .accounting-example-result-badge {
+	color: var(--color-danger);
+}
+
+.accounting-example-result-delta {
+	font-weight: 800;
+	font-size: 18px;
+	letter-spacing: -0.01em;
+}
+.accounting-example-result--gain .accounting-example-result-delta {
+	color: var(--color-success);
+}
+.accounting-example-result--loss .accounting-example-result-delta {
+	color: var(--color-danger);
+}
+
+.accounting-example-caption {
+	margin: 0;
+	font-family: var(--font-proxima);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--color-fg-dim);
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	.accounting-example {
+		padding: 20px 16px;
+		gap: 14px;
+	}
+	.accounting-example-value {
+		font-size: 22px;
+	}
+	.accounting-example-arrow {
+		font-size: 18px;
+		margin-top: 14px;
+	}
+	.accounting-example-result {
+		padding: 8px 14px;
+		gap: 8px;
+	}
+	.accounting-example-result-delta {
+		font-size: 16px;
+	}
+	.accounting-example-result-badge {
+		font-size: 12px;
+	}
+}
+
 

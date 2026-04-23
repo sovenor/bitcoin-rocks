@@ -1,3 +1,28 @@
+## /business/accounting V2 redesign — April 23, 2026
+
+Brought `/business/accounting` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "BITCOIN ACCOUNTING GUIDE" header + four dense `.text-box.intro` (and `.inflation-box`) prose blocks glued together with `<br><br>` breaks, with **entire sentences** wrapped in `.orange-link` anchors (e.g. the whole "If you use QuickBooks you can do this automatically using the Bitcoin Sync plugin" sentence was one big orange link, "View Wallet Guide." was another, etc.) — with a standard V2 page in line with `/business`, `/business/why`, `/business/faq`, and `/business/wallets`. The user explicitly called out that the V1 had too many entire-sentence inline links, and requested: (a) lift inline references into link cards, (b) make the prose more digestible, (c) **keep the "this is informational, not tax advice" disclaimer**.
+
+The new page is: plain `<h1>` "Bitcoin accounting for your business" + subtitle ("Accepting Bitcoin at your business doesn't have to complicate your accounting. Here's the short version — plus the tools and pros to make it painless."), `.wallet-intro` bordered surface framing the two paths (auto-convert = zero new accounting; keep some Bitcoin = a few extra numbers) with the tax-advice disclaimer rendered as the third paragraph with a bolded `<strong>Please note:</strong>` prefix, and **four `.inflation-section.content-section` sections** — h2 + `.comparison-explain` prose + a `.whats-next-grid` of colored resource cards alongside the sections that need them:
+
+1. **The easy path: auto-convert to dollars** — 1 card → `/business/wallets` (orange).
+2. **If you keep some Bitcoin: tracking your cost basis** — 4 cards: QuickBooks Bitcoin Sync plugin (Intuit green `#2CA01C`), CoinGecko current price (calm blue `#4DA6FF`), CoinGecko historical prices (education purple `#A67DFF`), Spreadsheet Guru Excel import (energy green `#1DFF4D`).
+3. **Spending or selling the Bitcoin you've kept** — pure prose, no cards. The V1 `<br><br>`-separated capital gain + capital loss examples are now a real `<ul>` bullet list.
+4. **Need a pro who speaks Bitcoin?** — 1 card → Satoshi Pacioli Accounting Services (payments yellow `#FFE91D` — stands out as a CTA).
+
+Every V1 external/internal reference that was previously a full-sentence inline orange link is now a colored `.whats-next-card` with its own `--card-accent`, its own label + title, and a per-card `sourceKey` so the "Source: $author →" footer reflects the real upstream publisher (Intuit QuickBooks, CoinGecko, The Spreadsheet Guru, satoshipacioli.com, bitcoin.rocks for the internal wallets link) instead of forcing everything through `common_publisher_name`. A tiny local `<ResourceCard>` component owns the per-card render logic (external-vs-internal href, external `target`/`rel`, `--card-accent` CSS variable).
+
+Below the four sections sits the `/business/*` colored business resources grid (reusing the same `BIZ_RESOURCES` pattern as the other V2 business pages with `accounting` excluded since we're on it). Standard 5-entry `.sources-section` (Satoshi Pacioli, QuickBooks Blockpath plugin, CoinGecko, The Spreadsheet Guru, Bitcoin whitepaper) + `.publisher-attribution` with the reviewed-for-accuracy badge close the page.
+
+Per the `/business/*` V2 convention (see V2-REDESIGN-CHECKLIST.md Tier 6), the bottom-of-page cross-link surface is the colored business resources grid — **no generic "keep learning / buy Bitcoin / inflation" bridge** is rendered on business sub-pages.
+
+The English i18n file (`i18n/en/business/accounting_en.json`) was fully rewritten — dropped 22 V1 keys (`accounting_s1_c1`–`c6`, `_s2_c1`–`c8`, `_s3_c1`–`c5`, `_s4_c1`–`c2`) and added 24 new V2 keys: reworded `bitcoin_business_accounting_guide` + `accounting_description`, `accounting_hero_subtitle`, `accounting_intro_c1`/`c2`, `accounting_disclaimer_label`/`accounting_disclaimer`, `accounting_s1` + 2 paragraphs + 3 wallet-card keys, `accounting_s2` + 3 paragraphs + 12 cost-basis-card keys (4 cards × {label, title, source}), `accounting_s3` + 6 paragraphs, `accounting_s4` + 1 paragraph + 3 pacioli-card keys. The `@metadata.last-updated` is bumped to 2026-04-23 (the page's `Article.dateModified` field auto-picks this up via `lib/schema/date-modified.ts`).
+
+Verification: `npx tsc --noEmit` clean; the disclaimer is explicit, prominent (bolded `Please note:` label in the intro card) and unchanged in substance from the V1 copy; no sentence-long inline orange links remain — every V1 reference is now a colored link card and section prose uses no inline links at all.
+
+After this pass, the V2 redesign status is: Business 5/12 done, Total pages 74/83 done. The `/business/*` sub-pages remaining are stickers, maps, kit, kit-success, maps-success, sticker-success, sticker-language-success (7 pages).
+
+---
+
 ## /business/wallets V2 redesign — April 23, 2026
 
 Brought `/business/wallets` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET A FREE BITCOIN WALLET…" hero, `.text-box.intro` explainer with inline `<br><br>` Bitcoin-only-vs-hybrid copy, four always-collapsed `<WalletAccordion>`s each hiding a `.vs-container` row of `<BusinessWalletCard>` tiles, and the `BusinessResourceCards` 7-card grid — with a standard V2 page. The user explicitly called out that the old accordion-per-business-type UX could be swapped for a `/wallets`-style layout with h2 section headings + intro paragraphs + wallet card grids; that's what shipped.
