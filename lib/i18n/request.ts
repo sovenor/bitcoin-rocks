@@ -67,8 +67,6 @@ const DEFAULT_NAMESPACES = [
 	"business/stickers",
 	"business/sticker-files/english/index",
 	"business/maps",
-	"business/kit",
-	"business/kit-success",
 	"business/maps-success",
 	"business/sticker-success",
 	"business/sticker-language-success",

@@ -764,7 +764,7 @@ Flyers are one of the easiest ways to introduce Bitcoin to your community. Downl
 
 ### Onboard a Business
 
-Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments. Each business kit includes flyers that highlight the pros of accepting Bitcoin payments.
+Want to help build the Bitcoin circular economy? Point merchants to our Bitcoin for Business resources — a curated guide with wallets, merchant maps, stickers, accounting, and FAQs — to show them how easy it is to start accepting Bitcoin payments.
 
 ### Contribute on GitHub
 

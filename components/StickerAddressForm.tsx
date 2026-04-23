@@ -12,8 +12,8 @@ import { useTranslations } from "next-intl";
  *
  * Two visual modes:
  *   - legacy (default): plain `<input>` + `<br />` + `.button-form`.
- *     Still used by `/business/stickers` + `/business/kit` until those
- *     pages get their V2 redesigns.
+ *     Still used by `/business/stickers` until that page gets its V2
+ *     redesign.
  *   - v2: renders fields with labels in the shared `.cic-*` form system
  *     (matches `/compound-inflation-calculator`). Used by the V2
  *     `/stickers` wizard.
@@ -183,7 +183,7 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 		);
 	}
 
-	// Legacy rendering (still used by /business/stickers + /business/kit).
+	// Legacy rendering (still used by /business/stickers).
 	return (
 		<>
 			<p>

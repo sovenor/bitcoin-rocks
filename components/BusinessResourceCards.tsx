@@ -2,12 +2,11 @@ import { getTranslations } from "next-intl/server";
 
 /**
  * Reusable "MORE BUSINESS RESOURCES" grid shown at the bottom of nearly every
- * business/* page. Ports the 7 colored .biz-box cards from the legacy HTML.
+ * business/* page. Ports the colored .biz-box cards from the legacy HTML.
  *
  * `exclude` lets callers drop the card that links back to the current page.
  * `showHeader` controls the "MORE BUSINESS RESOURCES" h2 above the grid.
- * `headerKey` overrides the header i18n key (e.g. `common_kit_cta_header` on
- * the business/index page).
+ * `headerKey` overrides the header i18n key.
  */
 
 export type BusinessResourceKey =
@@ -17,8 +16,7 @@ export type BusinessResourceKey =
 	| "stickers"
 	| "rewards"
 	| "accounting"
-	| "faq"
-	| "kit";
+	| "faq";
 
 type ResourceDef = {
 	key: BusinessResourceKey;
@@ -39,7 +37,6 @@ const RESOURCES: readonly ResourceDef[] = [
 	{ key: "rewards", boxClass: "biz-rewards", titleI18nKey: "common_biz_rewards", external: true, hrefOverride: "https://www.oshi.tech/" },
 	{ key: "accounting", boxClass: "biz-accounting", titleI18nKey: "common_biz_accounting", path: "/business/accounting" },
 	{ key: "faq", boxClass: "biz-faq", titleI18nKey: "common_biz_faq", path: "/business/faq" },
-	{ key: "kit", boxClass: "biz-wallet", titleI18nKey: "common_biz_kit", path: "/business/kit" },
 ];
 
 export async function BusinessResourceCards({
@@ -47,23 +44,16 @@ export async function BusinessResourceCards({
 	exclude = [],
 	showHeader = true,
 	headerKey = "common_biz_more",
-	includeKit = false,
 }: {
 	locale: string;
 	exclude?: readonly BusinessResourceKey[];
 	showHeader?: boolean;
 	headerKey?: string;
-	/** Whether to include the "Print your own Business Kit" card. Default: false (it's shown on /business only). */
-	includeKit?: boolean;
 }) {
 	const t = await getTranslations({ locale });
 	const l = `/${locale}`;
 
-	const visible = RESOURCES.filter((r) => {
-		if (exclude.includes(r.key)) return false;
-		if (r.key === "kit" && !includeKit) return false;
-		return true;
-	});
+	const visible = RESOURCES.filter((r) => !exclude.includes(r.key));
 
 	return (
 		<>

@@ -443,12 +443,6 @@ export default async function LocaleHome({
 						title={t("home_link_title_business_1")}
 						authorKey="home_link_author_bitcoin_rocks"
 					/>
-					<WhatsNextCard
-						href={`${l}/business/kit`}
-						label={t("home_card_label_business_3")}
-						title={t("home_link_title_business_2")}
-						authorKey="home_link_author_bitcoin_rocks"
-					/>
 				</CategorySection>
 
 				{/* ═══ CROWDFUNDING ═══ */}

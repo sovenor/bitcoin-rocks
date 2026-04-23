@@ -4,7 +4,7 @@
  * V2 redesign (Apr 2026):
  *   - Single-line hero H1 "Get involved and spread Bitcoin."
  *   - Intro (first section) is centered hero-style
- *   - Each outreach initiative (stickers / flyers / business kit /
+ *   - Each outreach initiative (stickers / flyers / business /
  *     github) ends with a `learn-more` card — same visual pattern as
  *     the `/about` page's What-We-Do section — instead of the legacy
  *     inline `.biz-*`-style CTA buttons.
@@ -134,7 +134,7 @@ export const GET_INVOLVED: ContentPageData = {
 					labelKey: "get_involved_card_business_label",
 					titleKey: "get_involved_card_business_title",
 					sourceKey: "get_involved_card_business_source",
-					href: "/business/kit",
+					href: "/business",
 					localize: true,
 				},
 			],

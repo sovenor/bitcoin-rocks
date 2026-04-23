@@ -1,4 +1,30 @@
+## /business/kit + /business/kit-success removed — April 23, 2026
+
+The Bitcoin Business Kit pages — `/business/kit` and `/business/kit-success` — were deprecated and fully removed from the site. The merchant onboarding story is now carried entirely by `/business` itself (hero + 4 benefit sections) plus the six color-coded resource cards (wallets, maps, stickers, rewards, accounting, FAQ); the printable tri-fold pamphlet was a V1 artifact and is no longer wanted.
+
+What was deleted in this pass:
+
+- **Routes:** `app/[locale]/business/kit/` + `app/[locale]/business/kit-success/` directories.
+- **i18n files:** 110 per-locale JSON files (`business/kit_<lang>.json` + `business/kit-success_<lang>.json`) across all 55 locales, plus 55 legacy `i18n/<lang>/business/files/` sub-directories (the English pamphlet download page's translations).
+- **i18n keys:** 13 `common_kit_*` keys + `common_biz_kit` stripped from every `common_*.json`; `biz_label_kit` dropped from English `business/index_en.json`; `home_card_label_business_3` + `home_link_title_business_2` dropped from all 53 `index_*.json` files that had them.
+- **Page registry:** `business/kit` + `business/kit-success` removed from `lib/pages.ts` and from `DEFAULT_NAMESPACES` in `lib/i18n/request.ts`.
+- **Schemas / redirects:** `business/kit` dropped from `ARTICLE_SLUGS` in `lib/schema/article.ts`; the three `/kit` / `/business-kit` / `/businesskit` → `/business/kit` legacy redirects removed from `next.config.ts`.
+- **Homepage:** the third `BUSINESS` WhatsNextCard (linking to `/business/kit`) removed from `app/[locale]/page.tsx`. The BUSINESS category now has 2 cards.
+- **Business section:** `BusinessResourceCards` has the `kit` entry + `includeKit` prop removed; `BusinessResourceKey` narrowed from 8 → 7 members. Every `/business/*/page.tsx` (`/business`, `/business/maps`, `/business/accounting`, `/business/stickers`, `/business/faq`, `/business/sticker-files/english`, `/business/wallets`) had its inline `BIZ_RESOURCES` kit entry stripped so those grids now render 6 cards instead of 7.
+- **Cross-page references:** `lib/comparisons/about.ts` + `lib/comparisons/get-involved.ts` — the "business" learn-more cards now point at `/business` instead of `/business/kit`; the component comment blocks no longer mention a "business kit".
+- **Public assets:** `public/business/files/` directory deleted.
+- **Docs:** `README.md`, `V2-REDESIGN-CHECKLIST.md`, `llms.txt`, `public/llms.txt`, `llms-full.txt`, `public/llms-full.txt` — all updated to remove references to the Bitcoin Business Kit, with the Get Involved and About copy now pointing merchants at the Bitcoin for Business resources page instead.
+
+Two short Node helpers (`scripts/remove-business-kit.js` and `scripts/remove-kit-keys.js`) handled the mechanical bulk edits (7 page.tsx files + 110 i18n files + 55 directories) idempotently. Both live in the repo for traceability.
+
+Verification: `grep -r "common_kit\|common_biz_kit\|biz_label_kit\|bitcoin_business_kit\|business/kit" app/ components/ lib/ i18n/` → empty. `V2-REDESIGN-CHECKLIST.md` summary counts updated: Business section shrinks from 12 pages to 10 (2 deleted, 7 done, 3 still on V1). Total pages shrinks from 83 to 81.
+
+After this pass, the V2 redesign status is: Business 7/10 done, Total pages 76/81 done. The `/business/*` sub-pages remaining are maps-success, sticker-success, sticker-language-success (3 pages).
+
+---
+
 ## /business/maps V2 redesign — April 23, 2026
+
 
 Brought `/business/maps` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS" header + inline `/img/bbk/payment-chart.png` hero image + a single dense `.text-box.intro.sticker-box` with a "View the map here." orange link and a bare `<form>` of seven raw `<input>` + `<br />` fields — with a standard V2 page in line with the other V2 business pages. The user explicitly called out that the form should be restyled to match the forms on `/stickers` and `/business/stickers`.
 

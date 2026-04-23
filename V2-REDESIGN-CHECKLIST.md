@@ -128,8 +128,6 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business — Stickers** — `/business/stickers`
 - [x] **Business — Sticker Files (English)** — `/business/sticker-files/english` — downloadable merchant "Bitcoin Accepted Here" sticker, linked from `/business/stickers`'s Global — Print option
 - [x] **Business — Maps** — `/business/maps`
-- [ ] **Business — Kit** — `/business/kit`
-- [ ] **Business — Kit Success** — `/business/kit-success`
 - [ ] **Business — Maps Success** — `/business/maps-success`
 - [ ] **Business — Sticker Success** — `/business/sticker-success`
 - [ ] **Business — Sticker Language Success** — `/business/sticker-language-success`

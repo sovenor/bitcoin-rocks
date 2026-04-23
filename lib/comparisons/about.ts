@@ -57,7 +57,7 @@ export const ABOUT: ContentPageData = {
 		// ─── What We Do ──────────────────────────────────────────
 		// Two lead paragraphs describe the overall "What We Do", then
 		// each of the three outreach initiatives (stickers / flyers /
-		// business kit) gets its own short blurb + learn-more card.
+		// business) gets its own short blurb + learn-more card.
 		// The blurbs render via the card's `introParagraphs` so the
 		// layout flows blurb → card → blurb → card → blurb → card
 		// (see the `.content-learn-more-stack` branch in
@@ -92,7 +92,7 @@ export const ABOUT: ContentPageData = {
 					labelKey: "about_card_business_label",
 					titleKey: "about_card_business_title",
 					sourceKey: "about_card_business_source",
-					href: "/business/kit",
+					href: "/business",
 					localize: true,
 					introParagraphs: [[{ key: "about_business_blurb" }]],
 				},

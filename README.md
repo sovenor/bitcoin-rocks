@@ -7,7 +7,7 @@ We accomplish this with several free resources:
 
 - [An educational website](https://bitcoin.rocks) designed for people who are new to bitcoin.
 - [Bitcoin Stickers](https://bitcoin.rocks/stickers) that enable you to leave an orange pill in public.
-- [Bitcoin Business Kits](https://bitcoin.rocks/business/kit) that enable you to get a local business to accept bitcoin payments.
+- [Bitcoin for Business resources](https://bitcoin.rocks/business) that help you get a local business to accept bitcoin payments.
 
 ## Website Overview
 bitcoin.rocks is an educational website designed for people who are new to bitcoin. The website was founded in 2022 as a "first link" to send to people who ask you about bitcoin.

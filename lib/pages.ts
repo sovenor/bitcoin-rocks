@@ -108,8 +108,6 @@ export const PAGES: readonly PageEntry[] = [
 	// outside USA/Canada.
 	{ slug: "business/sticker-files/english", phase: 10, priority: 0.5, changeFrequency: "yearly", namespace: "business/sticker-files/english", published: true },
 	{ slug: "business/maps", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/maps", published: true },
-	{ slug: "business/kit", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/kit", published: true },
-	{ slug: "business/kit-success", phase: 10, priority: 0.3, changeFrequency: "yearly", namespace: "business/kit-success", published: true },
 	{ slug: "business/maps-success", phase: 10, priority: 0.3, changeFrequency: "yearly", namespace: "business/maps-success", published: true },
 	{ slug: "business/sticker-success", phase: 10, priority: 0.3, changeFrequency: "yearly", namespace: "business/sticker-success", published: true },
 	{ slug: "business/sticker-language-success", phase: 10, priority: 0.3, changeFrequency: "yearly", namespace: "business/sticker-language-success", published: true },

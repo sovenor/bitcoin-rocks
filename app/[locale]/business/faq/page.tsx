@@ -120,13 +120,6 @@ const BIZ_RESOURCES: readonly BizResource[] = [
 		labelKey: "biz_label_accounting",
 		titleKey: "common_biz_accounting",
 	},
-	{
-		key: "kit",
-		href: "/business/kit",
-		accent: "#FF9500", // bitcoin orange
-		labelKey: "biz_label_kit",
-		titleKey: "common_biz_kit",
-	},
 ];
 
 export default async function BusinessFaqPage({

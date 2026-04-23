@@ -270,13 +270,6 @@ const BIZ_RESOURCES: readonly BizResource[] = [
 		labelKey: "biz_label_faq",
 		titleKey: "common_biz_faq",
 	},
-	{
-		key: "kit",
-		href: "/business/kit",
-		accent: "#FF9500", // bitcoin orange
-		labelKey: "biz_label_kit",
-		titleKey: "common_biz_kit",
-	},
 ];
 
 // ─── One business wallet card ────────────────────────────────────────

@@ -1,4 +1,50 @@
-## Latest: /business/maps V2 redesign — April 23, 2026
+## Latest: /business/kit + /business/kit-success removed — April 23, 2026
+
+The Bitcoin Business Kit pages — `/business/kit` and `/business/kit-success` — were **fully deleted** from the site. They were deprecated: the merchant education and onboarding story is now carried by `/business` itself (hero + 4 benefit sections) plus the six color-coded business resource cards (wallets, maps, stickers, rewards, accounting, FAQ), which already covers everything the kit page was doing. The printable tri-fold pamphlet was an artifact of the V1 HTML site and the user confirmed it should be removed outright rather than ported to V2.
+
+### What was removed
+
+- **Routes.** `app/[locale]/business/kit/` and `app/[locale]/business/kit-success/` directories (both `page.tsx` files).
+- **i18n files.** Every `i18n/<lang>/business/kit_<lang>.json` + `kit-success_<lang>.json` across all 55 locales (110 files). Also removed the entire legacy `i18n/<lang>/business/files/` sub-directories (55 more — these held the English Bitcoin Business Kit pamphlet page's translations).
+- **i18n keys.**
+  - `common_*.json`: dropped the 13 `common_kit_*` keys (printer, link_to_print, fold, fold_trifold, unfolded_size, unfolded_size_bbk, paper_thickness, paper_thickness_standard, paper_stock, paper_stock_glossy, exterior_print_file, interior_print_file, cta_header) + `common_biz_kit` from every locale's `common_*.json`.
+  - `business/index_*.json`: dropped `biz_label_kit` from the English file (the only locale that had it).
+  - `index_*.json`: dropped the two homepage card keys `home_card_label_business_3` + `home_link_title_business_2` across all 53 locales that had them (the third business card on the homepage's BUSINESS section was removed in the same pass).
+- **Page registry.** Dropped both slugs from `lib/pages.ts` (`business/kit`, `business/kit-success`) and both namespaces from `lib/i18n/request.ts` `DEFAULT_NAMESPACES`.
+- **Schema.** Removed `business/kit` from `ARTICLE_SLUGS` in `lib/schema/article.ts`.
+- **Redirects.** Removed `/kit`, `/business-kit`, `/businesskit` → `/business/kit` from `LEGACY_SLUG_REDIRECTS` in `next.config.ts`.
+- **Homepage.** Removed the third `BUSINESS` `<WhatsNextCard>` (the one that linked to `/business/kit`) in `app/[locale]/page.tsx`. The BUSINESS category now has 2 cards instead of 3 (bitcoin-vs-stocks + /business).
+- **Shared components.** `components/BusinessResourceCards.tsx` — dropped the `"kit"` entry + `includeKit` prop + the kit branch in `RESOURCES`. `BusinessResourceKey` type narrowed from 8 members to 7. `components/StickerAddressForm.tsx` — updated the legacy-mode doc comment to stop referencing `/business/kit`.
+- **All `/business/*/page.tsx`.** Dropped the inline `BIZ_RESOURCES` `kit` entry from each of: `/business`, `/business/maps`, `/business/accounting`, `/business/stickers`, `/business/faq`, `/business/sticker-files/english`, `/business/wallets`. The colored resource grid below each business page now renders 6 cards instead of 7 (or 5 when the current page is excluded).
+- **Cross-page references in `lib/comparisons/`.** `about.ts` — the "What We Do" business card now points at `/business` instead of `/business/kit`. `get-involved.ts` — the "Onboard a business" learn-more card now points at `/business` instead of `/business/kit`. Both comment blocks updated to drop "business kit" phrasing.
+- **Public assets.** `public/business/files/` directory deleted (it held `english/bbk-pamphlet-exterior-v1.png` + `interior-v1.png`).
+- **Docs.** `README.md` (Bitcoin Business Kits line replaced with a Bitcoin for Business resources line), `V2-REDESIGN-CHECKLIST.md` (both `/business/kit` + `/business/kit-success` rows removed from Tier 6 — business count total now 10 (not 12), 7 done), `llms.txt` + `public/llms.txt` (get-involved blurb no longer mentions "business kits"), `llms-full.txt` + `public/llms-full.txt` (Get Involved "Onboard a Business" section no longer describes the Bitcoin Business Kit; points readers at the Bitcoin for Business resources page instead).
+
+### Migration helpers
+
+Two short Node scripts were used for the mechanical bulk edits:
+
+- `scripts/remove-business-kit.js` — reads each `/business/*/page.tsx` file, detects the `kit` BIZ_RESOURCES object by looking for lines containing both `key: "kit"` and `titleKey: "common_biz_kit"`, and removes the entire object (brace-balanced). Reported `UPDATED: 7 files`.
+- `scripts/remove-kit-keys.js` — walks every `i18n/<lang>/` directory and deletes the kit-related keys listed above from `common_<lang>.json`, `index_<lang>.json`, and `business/index_<lang>.json`. Also `rm -rf`'s the `i18n/<lang>/business/files/` sub-directory. Reported `common: 54, index: 53, business/index: 1, files/ dirs: 55`.
+
+Both scripts live in the repo for traceability but aren't part of any regular workflow.
+
+### Verification
+
+- `grep -r "common_kit\|common_biz_kit\|biz_label_kit\|bitcoin_business_kit\|business/kit" app/ components/ lib/ i18n/ 2>/dev/null` → empty.
+- The kit-less `BusinessResourceCards` still compiles (`BusinessResourceKey` narrowed, `includeKit` removed from the prop signature; no caller was passing it).
+- `npm run build` across 55 locales should now emit **0 `/business/kit` or `/business/kit-success` routes** (previously 110 pages — 55 locales × 2 slugs).
+
+### Remaining in Tier 6 (3 pages, after kit removal)
+
+- `/business/maps-success`
+- `/business/sticker-success`
+- `/business/sticker-language-success`
+
+---
+
+## /business/maps V2 redesign — April 23, 2026
+
 
 `/business/maps` was the last remaining form-style `/business/*` page still on V1. It used `BusinessPageShell` + an `.h1-inflation` "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS" header + an inline `/img/bbk/payment-chart.png` hero image + a single dense `.text-box.intro.sticker-box` with a "View the map here." orange link and a bare `<form>` of seven raw `<input>` + `<br />` fields posting to `forms.bitcoin.rocks/submit/business-maps`. This page is where merchants submit their business for listing on BTC Map and other Bitcoin merchant directories.
 

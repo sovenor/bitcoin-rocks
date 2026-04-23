@@ -65,9 +65,14 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	{ source: "/business/guides", destination: "/business" },
 	{ source: "/:locale/business/guide", destination: "/:locale/business" },
 	{ source: "/:locale/business/guides", destination: "/:locale/business" },
-	{ source: "/kit", destination: "/business/kit" },
-	{ source: "/business-kit", destination: "/business/kit" },
-	{ source: "/businesskit", destination: "/business/kit" },
+	// `/business/kit` and `/business/kit-success` were folded into `/business`
+	// on Apr 23, 2026. Both unlocalized and locale-prefixed forms redirect so
+	// inbound links from search engines, socials, or bookmarks still land on
+	// valid content.
+	{ source: "/business/kit", destination: "/business" },
+	{ source: "/business/kit-success", destination: "/business" },
+	{ source: "/:locale/business/kit", destination: "/:locale/business" },
+	{ source: "/:locale/business/kit-success", destination: "/:locale/business" },
 	// Save-sticker deep link (preserves the query string)
 	{ source: "/save", destination: "/inflation?sign=got-inflation" },
 	// Trailing `.html` from any legacy bookmark gets stripped (e.g.
