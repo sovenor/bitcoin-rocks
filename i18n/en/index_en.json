@@ -3,11 +3,9 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-17",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
-	"bitcoin_builds_a_better_world": "Bitcoin builds a better world.",
-	"home_description": "Bitcoin is better money that is building a better world. Bitcoin has protected human rights, saved people from high inflation, supported local farmers, reduced emissions from oil drilling, and so much more.",
 	"home_nav_learn": "Learn",
 	"home_nav_get_involved": "Get Involved",
 	"home_nav_about": "About",
@@ -127,7 +125,6 @@
 	"home_link_title_food_2": "How fiat money is bad for food, farms, and Earth's soil",
 	"home_link_title_fine_art": "Bitcoin vs Fine Art: a comparison",
 	"home_link_title_art_1": "Join our Bitcoin sticker initiative",
-	"home_link_title_art_2": "Send a Bitcoin postcard to someone you know",
 	"home_link_title_art_3": "Print & post Bitcoin flyers",
 	"home_link_title_politics_1": "Bitcoin is a political paradox",
 	"home_link_title_politics_2": "You can vote for better money",
@@ -163,7 +160,6 @@
 	"home_link_author_coindesk": "CoinDesk",
 	"home_link_author_daniel_batten": "Daniel Batten",
 	"home_link_author_mit_technology_review": "MIT Technology Review",
-	"home_link_author_mit_media_lab": "MIT Media Lab",
 	"home_link_author_bitcoin_is_green": "BitcoinIs.Green",
 	"home_link_author_texas_am_university": "Texas A&M University",
 	"home_link_author_saifedean_ammous": "Saifedean Ammous",
@@ -174,12 +170,9 @@
 	"home_link_author_satsie": "Satsie",
 	"home_link_author_makerbits": "MakerBits",
 	"home_link_author_saving_satoshi": "Saving Satoshi",
-	"home_link_author_kevin_rooke": "Kevin Rooke",
 	"home_link_author_blockworks": "Blockworks",
 	"home_link_author_lightning_address": "LightningAddress.com",
 	"home_link_author_arman_the_parman": "Arman The Parman",
-	"home_link_author_21_days_of_bitcoin": "21 Days of Bitcoin",
-	"home_link_author_strike": "Strike",
 	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
 	"home_link_author_mempool_space": "Mempool.space"
 }

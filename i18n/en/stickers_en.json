@@ -3,74 +3,56 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-22",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"free_bitcoin_stickers": "Free Bitcoin stickers from bitcoin.rocks",
 	"stickers_description": "Put a bitcoin sticker in public to orange pill those around you.",
-	"stickers_header": "FREE BITCOIN STICKERS",
-
 	"stickers_hero_title": "Free Bitcoin stickers",
 	"stickers_hero_subtitle": "Order a free pack of Bitcoin stickers and put them up in public to help more people learn about Bitcoin.",
-
 	"stickers_intro_c1": "Our mission is to help you orange pill more people by putting Bitcoin stickers in public. All of our stickers have QR codes that link to educational pages about",
 	"stickers_intro_c2": "Bitcoin",
 	"stickers_intro_c3": "inflation",
 	"stickers_intro_c4": "Pick a sticker pack below and choose how you'd like to get them — we'll mail a free pack to anyone in the USA or Canada, or you can print your own anywhere in the world.",
-
 	"stickers_step_1_eyebrow": "STEP 1",
 	"stickers_step_1_header": "Choose your sticker pack",
 	"stickers_step_1_description": "Each pack has a different set of Bitcoin stickers with QR codes that teach people about Bitcoin.",
-
 	"stickers_text_pack": "The Text Pack",
 	"stickers_text_pack_description": "A mix of Bitcoin slogans and one-liners designed to spark curiosity in public spaces.",
 	"stickers_signs_pack": "The Signs Pack",
 	"stickers_signs_pack_description": "Warning, danger, and caution-style signs with Bitcoin messages — designed to grab attention and make people stop and read.",
 	"stickers_btn_choose_pack": "Choose this pack",
-
 	"stickers_step_2_eyebrow": "STEP 2",
 	"stickers_step_2_header": "How would you like to get your stickers?",
 	"stickers_step_2_description": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own or order in bulk.",
-
 	"stickers_option_usa": "🇺🇸 USA — Free by mail",
 	"stickers_option_canada": "🇨🇦 Canada — Free by mail",
 	"stickers_option_print": "🌍 Global — Print my own",
 	"stickers_option_bulk": "📦 Global — Order in bulk",
-
-	"stickers_country_global_print": "Global — Print my own stickers",
-	"stickers_country_global_order": "Global — Order in bulk",
-
 	"stickers_mail_header": "We'll mail your free stickers",
 	"stickers_instructions_1": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail. Your stickers will ship in a plain white envelope.",
 	"stickers_instructions_2": "Address data is deleted after your free stickers are shipped.",
-
 	"stickers_print_header": "Print your own sticker files",
 	"stickers_print_c1": "You can participate by printing your own stickers, no matter where you live. Click your language below to download the sticker files and printing instructions.",
 	"stickers_print_c2": "Not every sticker is available in every language.",
 	"stickers_request_header": "Don't see your language?",
 	"stickers_request_c1": "Fill out the form below to request sticker files in your local language. We'll let you know once they're ready.",
-
 	"stickers_bulk_header": "Order stickers in bulk",
 	"stickers_bulk_c1": "Want more than a few stickers?",
 	"stickers_bulk_c2": "Order in bulk from the same printer we use",
 	"stickers_bulk_c3": "— the more you buy, the cheaper they are per sticker.",
 	"stickers_bulk_cta": "Shop stickers in bulk",
-
 	"stickers_share_header": "Share your sticker spots",
 	"stickers_share_c1": "Share your sticker spots with us on Nostr and see where other people are putting their stickers.",
 	"stickers_share_c2": "Follow us on Nostr by searching",
 	"stickers_share_c3": "in any Nostr client.",
-
 	"stickers_btn_share_on_nostr": "Share on Nostr",
 	"stickers_btn_what_is_nostr": "What is Nostr?",
-
 	"stickers_flyers_link_before": "While you're at it, print and post your own",
 	"stickers_flyers_link_text": "Bitcoin flyers",
 	"stickers_flyers_link_after": "to help orange pill even more people.",
-
 	"stickers_next_print_flyers": "Keep spreading",
 	"stickers_next_print_flyers_desc": "Print free Bitcoin flyers to post in public",
-
 	"placeholder_name_optional": "Name (optional)",
 	"placeholder_address_line_1": "Address Line 1",
 	"placeholder_address_line_2": "Address Line 2 (optional)",

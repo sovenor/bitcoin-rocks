@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-21",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Gold",
-	"gold_header": "THE DIFFERENCE BETWEEN",
-	"gold_header_2": "BITCOIN",
-	"gold_header_3": "AND",
-	"gold_header_4": "GOLD",
 	"gold_intro_1": "Gold has been used as money for thousands of years and is seen by many as a financial safe haven.",
 	"gold_intro_2": "Bitcoin is digital money created in 2009 and is also seen by many as a financial safe haven.",
 	"gold_intro_3": "But how does a physical metal like gold differ from a digital money like Bitcoin? Let's take a look at the differences between two forms of money: Bitcoin & Gold.",
@@ -35,20 +31,15 @@
 	"point_3_summary_1": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat",
 	"point_3_summary_2": "inflation",
 	"point_3_summary_3": "— but still inflation.",
-	"point_3_summary_4": "With Bitcoin, your slice of the pie never shrinks.",
 	"point_4_summary_1": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million.",
 	"point_4_summary_2": "With Bitcoin, no matter how high the price goes, you can't make more than 21M Bitcoin.",
 	"point_4_summary_3": "Bitcoin is the first asset with an inelastic relationship between price and supply.",
 	"point_5_summary_1": "Tens of thousands of independent nodes validate the Bitcoin network. Most physical gold sits in a handful of large custodian vaults.",
 	"point_5_summary_2": "Tens of thousands of independent nodes validate the rules of the network.",
-	"point_5_summary_3": "Users can take self-custody of their Bitcoin by downloading an app.",
-	"point_5_summary_4": "While it is possible to self-custody physical gold, most physical gold is stored in huge vaults owned by custodians which makes it physically centralized.",
 	"point_6_summary_1": "Anyone can verify real Bitcoin by running a full node — it's just an app. Verifying physical gold requires melting it down; the inside could be tungsten.",
 	"point_6_summary_2": "Self-custody is as simple as downloading an app.",
 	"point_6_summary_3": "A full node is a simple piece of software that ensures the rules of the network are being followed, and verifies that you have real Bitcoin.",
-	"point_6_summary_4": "Physical gold can be very difficult to verify as authentic. Even if you verify the outer section of physical gold is real, the inside of your physical gold piece could be Tungsten or another metal that is not gold. The only way to truly verify you own the physical gold you think you do is to melt it down.",
 	"point_7_summary_1": "Bitcoin divides into 100 million sats, making it perfect for any size purchase. Gold can't be easily divided for small transactions.",
 	"point_7_summary_2": "This makes Bitcoin good for business.",
-	"point_7_summary_3": "Because physical gold is hard to divide, it can't be easily used for purchases, especially small purchases.",
 	"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Gold</span>"
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-21",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs Bonds",
-	"bonds_header": "THE DIFFERENCE BETWEEN",
-	"bonds_header_2": "BITCOIN",
-	"bonds_header_3": "AND",
-	"bonds_header_4": "BONDS",
 	"bonds_intro_1": "Government bonds are often called 'risk-free' investments and are considered the safest place to store wealth by traditional finance.",
 	"bonds_intro_2": "Bitcoin is digital money that operates independently of any government or central authority.",
 	"bonds_intro_3": "But are bonds really risk-free? And how do they compare to Bitcoin as a store of value? Let's examine the key differences between Bitcoin and government bonds.",

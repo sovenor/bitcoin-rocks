@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-22",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"cic_header": "Compound Inflation Calculator",
@@ -14,7 +14,5 @@
 	"cic_inflation_cta": "Opt out of inflation with Bitcoin",
 	"cic_next_learn_inflation": "Learn how inflation works",
 	"cic_next_explore_topics": "Explore more topics",
-	"cic_next_explore_topics_desc": "See how Bitcoin connects to money, freedom, energy, and more.",
-	"what_can_i_do_about": "What can I do about",
-	"what_can_i_do_about_2": "inflation?"
+	"cic_next_explore_topics_desc": "See how Bitcoin connects to money, freedom, energy, and more."
 }

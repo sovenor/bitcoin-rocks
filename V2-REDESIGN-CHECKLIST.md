@@ -208,16 +208,16 @@ This section tracks the cleanup work needed to bring every language back to pari
 
 ### Step 1 — Audit English files to identify dead keys
 
-- [ ] Write an audit script (`scripts/i18n-audit/find-unused-keys.js`) that greps the whole `app/`, `components/`, and `lib/` tree for every key referenced via `t('…')`, `getTranslations()`, `useTranslations()`, etc., then diffs against every key in `i18n/en/**/*.json`.
-- [ ] Produce a per-namespace report of unused English keys (`scripts/i18n-audit/unused-keys-report.json`).
-- [ ] Manually review the report to confirm each "unused" key really is dead (watch out for dynamic keys built via string concatenation / template literals — e.g. `t(\`platform_\${id}_name\`)`).
-- [ ] Flag any dynamic-key patterns so the audit script can be taught to recognize them (allow-list file).
+- [x] Write an audit script (`scripts/i18n-audit/find-unused-keys.js`) that greps the whole `app/`, `components/`, and `lib/` tree for every key referenced via `t('…')`, `getTranslations()`, `useTranslations()`, etc., then diffs against every key in `i18n/en/**/*.json`.
+- [x] Produce a per-namespace report of unused English keys (`scripts/i18n-audit/unused-keys-report.json`).
+- [x] Manually review the report to confirm each "unused" key really is dead (watch out for dynamic keys built via string concatenation / template literals — e.g. `t(\`platform_\${id}_name\`)`).
+- [x] Flag any dynamic-key patterns so the audit script can be taught to recognize them (allow-list file — `scripts/i18n-audit/dynamic-keys-allowlist.js`, covers the 325 `inflation_<code>_<suffix>` + `inflation_stat_<code>_<suffix>` keys that `components/CurrencySection.tsx` builds at runtime).
 
 ### Step 2 — Delete dead keys from English
 
-- [ ] Write a removal script (`scripts/i18n-audit/remove-unused-keys.js`) that takes the confirmed unused-keys list and strips them from every `i18n/en/**/*.json` file, preserving tab indentation and `@metadata`.
-- [ ] Bump `@metadata.last-updated` on every touched English file.
-- [ ] Run `npm run build` to confirm nothing regresses (no missing-key fallbacks, no broken pages).
+- [x] Write a removal script (`scripts/i18n-audit/remove-unused-keys.js`) that takes the confirmed unused-keys list and strips them from every `i18n/en/**/*.json` file, preserving tab indentation and `@metadata`.
+- [x] Bump `@metadata.last-updated` on every touched English file.
+- [x] Run `npm run build` to confirm nothing regresses (no missing-key fallbacks, no broken pages). Removed **423 dead keys** across **74 namespaces** (incl. 98 in `common`, 98 in `inflation`, 9 in `bitcoin-vs-gold`, 8 in `bitcoin-vs-stocks`, 6 in `business/stickers`, 3 per-language sticker-files `<lang>_header` / `<lang>_description` / `<lang>_bitcoin_sticker_files` keys × 43 languages, and misc V1 leftovers).
 
 ### Step 3 — Normalize JSON formatting in English files
 
@@ -236,10 +236,10 @@ should be collapsed to:
 "stocks_header": "THE DIFFERENCE BETWEEN",
 ```
 
-- [ ] Write a formatter script (`scripts/i18n-audit/normalize-json-formatting.js`) that walks every file in `i18n/en/**/*.json`, parses with `JSON.parse()`, re-serializes with `JSON.stringify(obj, null, '\t')` (tab indentation), and writes it back. This naturally removes all blank lines between keys while preserving key order and `@metadata`.
-- [ ] Run the script across all English files; spot-check a handful of large files (e.g. `i18n/en/bitcoin-vs-stocks_en.json`, `i18n/en/inflation_en.json`, `i18n/en/business/why_en.json`) to confirm the output is clean.
-- [ ] Bump `@metadata.last-updated` on every touched file.
-- [ ] `npm run build` to confirm no regressions, then commit as a discrete "i18n: normalize English JSON formatting" PR so the diff is easy to review.
+- [x] Write a formatter script (`scripts/i18n-audit/normalize-json-formatting.js`) that walks every file in `i18n/en/**/*.json`, parses with `JSON.parse()`, re-serializes with `JSON.stringify(obj, null, '\t')` (tab indentation), and writes it back. This naturally removes all blank lines between keys while preserving key order and `@metadata`.
+- [x] Run the script across all English files; spot-check a handful of large files (e.g. `i18n/en/bitcoin-vs-stocks_en.json`, `i18n/en/inflation_en.json`, `i18n/en/business/why_en.json`) to confirm the output is clean. (All 81 English files reported as already canonical — the Step 2 removal pass already rewrote every touched file via `JSON.stringify(obj, null, '\t')` so no additional normalization was needed. Spot-checked `bitcoin-vs-stocks` / `inflation` / `business/why` / `business/wallets` / `bitcoin-vs-gold`: zero blank lines between keys.)
+- [x] Bump `@metadata.last-updated` on every touched file.
+- [x] `npm run build` to confirm no regressions, then commit as a discrete "i18n: normalize English JSON formatting" PR so the diff is easy to review.
 
 ### Step 4 — Propagate deletions to all other languages
 
@@ -350,14 +350,14 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 | i18n cleanup | Total | Done |
 |---|---:|---:|
-| English audit + dead-key removal (Steps 1–2) | 6 | 0 |
-| English JSON formatting normalization (Step 3) | 4 | 0 |
+| English audit + dead-key removal (Steps 1–2) | 6 | 6 |
+| English JSON formatting normalization (Step 3) | 4 | 4 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 0 |
 | Per-language re-translation (Step 5) | 54 | 0 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of the Nostr section. The two former Tier 7 pages — `/nostr` and `/nostr/what-is-nostr` — have been **merged into a single V2 `/nostr` page**. The new page absorbs the content previously split across both legacy pages: hero + intro card, three benefit sections (Protocol, not platform / Freedom to move / Bitcoin is built in), a `.wallet-lightning-cta`-style "GO DEEPER" outbound link card pointing to `https://nostr.how/en/what-is-nostr`, and a "Download a free Nostr client" section styled like `/wallets` — 2-col `.wallet-grid` of V2 `.wallet-card`s for Primal, Damus, Amethyst, and Iris with platform `.wallet-callout` badge + feature bullets + "Learn more →" CTA, followed by a standard What's next grid, sources, and publisher attribution. Dropped `BusinessPageShell`-equivalent `NostrPageLayout` + `NostrAccordion` components (deleted — no longer referenced anywhere). All three pages that used to link to `/nostr/what-is-nostr` (`/stickers`, `/sticker-success`, `/flyers` "What is Nostr?" buttons) now point at `/nostr`. `next.config.ts` 301-redirects `/nostr/what-is-nostr` + `/:locale/nostr/what-is-nostr` → `/nostr` so inbound links from search engines, socials, and bookmarks still land on valid content. `lib/pages.ts` drops the `nostr/what-is-nostr` slug entry; `lib/i18n/request.ts` drops the `nostr/what-is-nostr` namespace from `DEFAULT_NAMESPACES`; `lib/schema/article.ts` drops the slug from `ARTICLE_SLUGS`. All 55 `i18n/<lang>/nostr/what-is-nostr_*.json` files deleted. `i18n/en/nostr/index_en.json` rewritten with new hero/section/client/download keys (35 new keys total) + `@metadata.last-updated` bumped. Completes Tier 7: Nostr section 1/1.)_
+_Last updated: 2026-04-23 (i18n cleanup Steps 1–3 complete. Added `scripts/i18n-audit/` with three discrete Node scripts: `find-unused-keys.js` grep-scans `app/` + `components/` + `lib/` for literal key references and diffs against every key in `i18n/en/**/*.json`; `remove-unused-keys.js` strips the confirmed dead keys from English files with tab indentation preserved + `@metadata.last-updated` bumped; `normalize-json-formatting.js` re-serializes via `JSON.stringify(obj, null, '\t')` to collapse any stray blank lines. Also added `dynamic-keys-allowlist.js` so the 325 `inflation_<code>_<suffix>` + `inflation_stat_<code>_<suffix>` keys that `components/CurrencySection.tsx` synthesizes at runtime from `inflation_${lower}_${suffix}` template literals aren't false-flagged. **Deleted 423 dead keys across 74 English namespaces** — highlights: 98 in `common_en.json` (legacy FAQ/kit/inflation-cause copy from the V1 homepage and /about), 98 in `inflation_en.json` (old `inflation_cause_*` / `inflation_choose_*` / `inflation_intro_*` / `inflation_stat_source_*` / etc. prose keys replaced by the V2 stat-card system), 9 in `bitcoin-vs-gold` / 8 in `bitcoin-vs-stocks` / 4 each in the other 8 comparison files (the legacy 4-part H1 `<asset>_header` / `_2` / `_3` / `_4` keys and unused `point_N_summary_M` prose fragments), 6 in `business/stickers` (V1 three-country layout), 3 per-language sticker-files keys × 43 languages (`<lang>_header` / `<lang>_description` / `<lang>_bitcoin_sticker_files` — the V2 per-language template builds the H1 in-code via `formatHeading(titleCaseWord(langName))`), plus all 7 orphan `home_link_*` + `home_description` entries in the homepage index and the 3 `sticker_success_flyers_bar_*` + `sticker_success_2` leftovers. `npm run build` green across all 55 locales × 81 pages post-deletion. Step 3's normalizer reports all 81 English files already canonical because Step 2's removal pass re-serialized every touched file with the canonical tab-indented formatter — spot-checked `bitcoin-vs-stocks` / `inflation` / `business/why` / `business/wallets` / `bitcoin-vs-gold` and confirmed zero blank lines between keys. Remaining: Steps 4–6 (propagate same deletions to the other 54 locales, re-translate updated + new V2 keys per-language, final verification).)_
 
 

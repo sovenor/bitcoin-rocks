@@ -1,4 +1,58 @@
-## Latest: Nostr section V2 redesign + merged /nostr/what-is-nostr into /nostr — April 23, 2026
+## Latest: i18n cleanup Steps 1–3 (English dead-key removal + JSON formatting) — April 23, 2026
+
+With Tier 1–8 (all 81 pages) V2-complete and Tier 7 (Nostr section) done earlier today, the next outstanding work was the post-cutover i18n cleanup. Steps 1–3 of the workflow in `V2-REDESIGN-CHECKLIST.md` § "i18n Translation Cleanup" are now complete — the English JSON files have been audited, 423 dead keys deleted, and the JSON formatting canonicalized.
+
+### What changed
+
+1. **New `scripts/i18n-audit/` directory with three discrete Node scripts + one allow-list:**
+	- **`find-unused-keys.js`** — walks every English `*_en.json` under `i18n/en/` (81 files), collects every string-valued key (skipping `@metadata`), then builds a haystack by concatenating every `.ts` / `.tsx` / `.js` / `.mjs` / `.cjs` / `.jsx` file under `app/`, `components/`, and `lib/`. For each key, checks whether it appears as a literal substring anywhere in the haystack. Keys that don't appear AND aren't in the dynamic-keys allow-list are recorded as unused. Writes `scripts/i18n-audit/unused-keys-report.json` with per-namespace arrays + a flat `allUnused` roll-up, and prints a human-readable per-namespace summary.
+	- **`dynamic-keys-allowlist.js`** — enumerates keys built at runtime so they're not false-flagged. The only current case is `components/CurrencySection.tsx` which synthesizes `inflation_<code>_<suffix>` and `inflation_stat_<code>_<suffix>` keys from template literals (`inflation_${lower}_${suffix}`). The allow-list covers 13 currency codes × (22 body-copy suffixes + 3 stat-card suffixes) = **325 dynamic keys** across the inflation + per-currency content. Future dynamic-key patterns should be added here.
+	- **`remove-unused-keys.js`** — reads the report and strips every flagged `(namespace, key)` entry from the matching `i18n/en/**/*_en.json`, preserving `@metadata` (bumped to today's date) + original key order + tab indentation. Supports `--dry-run`.
+	- **`normalize-json-formatting.js`** — walks every `i18n/en/**/*.json` file, parses with `JSON.parse()`, re-serializes with `JSON.stringify(obj, null, '\t')`, and writes back. Removes any stray blank lines between keys while preserving key order + `@metadata`. If the file already serializes identically, it's left untouched (the `--dry-run` + no-op path). Supports `--all` to walk all 55 locales (Step 4 of the cleanup workflow).
+
+2. **Deleted 423 dead keys across 74 English namespaces.** The audit found 2,217 total keys across 81 English JSON files; 423 (19%) are orphans left behind by the V2 pass:
+	- **98 keys in `common_en.json`** — legacy V1 FAQ copy (`common_bitcoin_hacked_*`, `common_bitcoin_volatile_*`, `common_bitcoin_afford_*`, `common_bitcoin_energy_*`) and merchant-kit leftovers (`common_biz_accept_bitcoin_payments`, etc.) that the V2 redesign of `/business` and the homepage removed.
+	- **98 keys in `inflation_en.json`** — the V1 `inflation_cause_*` per-currency prose (Spanish peso / Venezuelan bolivar / Honduran lempira / etc.), `inflation_choose_*` picker prompts, `inflation_intro_*` per-currency intros, and `inflation_stat_source_*` legacy source bylines — all replaced by the V2 stat-card system in `components/CurrencySection.tsx`.
+	- **Comparison pages** — 9 in `bitcoin-vs-gold` (the legacy 4-part H1 `gold_header` / `_2` / `_3` / `_4` plus unused `point_N_summary_M` prose fragments); 8 in `bitcoin-vs-stocks`; 6 in `bitcoin-vs-cbdc`; 4 each in the other 7 comparison files.
+	- **Sticker-files per-language pages** — 3 keys × 43 languages (`<lang>_header`, `<lang>_description`, `<lang>_bitcoin_sticker_files`). The V2 template at `app/[locale]/sticker-files/[lang]/page.tsx` builds the H1 in-code via `formatHeading(titleCaseWord(rawLangName))` and no longer references per-language translation keys for title/description.
+	- **Misc V1 leftovers** — 6 in `business/stickers` (old three-country-layout keys `stickers_country_global_print` / `stickers_request_details` / etc.), 3 in `stickers`, 3 in `sticker-success` (including the 2 `sticker_success_flyers_bar_*` keys from the retired fixed-bottom "NEW! Print & Post Bitcoin Flyers" promo bar), 7 in `index` (orphan `home_link_*` home-link byline keys, `home_description`, `bitcoin_builds_a_better_world`), 2 in `nostr/index` (`escape_the_matrix_with_nostr`, `nostr_header` — replaced by V2 `nostr_hero_title` + subtitle), 2 in `business/maps` (V1 `maps_header` + `maps_request_details`), 4 in `business/wallets` (V1 `wallets_choice_*` accordion headers), plus 1-2 keys each in `about`, `business/accounting`, `business/faq`, `business/index`, `business/why`, `business/maps-success`, `business/sticker-success`, `business/sticker-language-success`, `business/sticker-files/english/index`, `compound-inflation-calculator`, `lightning`, `flyers`.
+
+3. **`@metadata.last-updated` bumped to 2026-04-23** on every touched file (74 files).
+
+4. **Step 3 = no-op.** The normalizer reports all 81 English files already canonical — because Step 2's removal pass re-serialized every touched file via `JSON.stringify(obj, null, '\t')`, and the files that weren't touched were already canonical from earlier V2 work (business kit removal, nostr merge, etc). Spot-checked `bitcoin-vs-stocks_en.json`, `inflation_en.json`, `business/why_en.json`, `business/wallets_en.json`, `bitcoin-vs-gold_en.json`: zero blank lines between keys.
+
+### Verification
+
+- **`npm run build`** → green. All 55 locales × 81 pages (~4,700 static pages) regenerated with zero `MISSING_MESSAGE` errors or missing-key fallbacks. The 2 pre-existing Turbopack warnings about `load-messages.ts` dynamic JSON reads are unrelated (they've been there since Phase 2).
+- Audit re-ran idempotently: 0 unused keys flagged the second time through.
+- `git diff --stat i18n/en` confirms all 74 expected files touched, 423 key lines removed.
+
+### What's left in the i18n cleanup workflow
+
+- **Step 4** — propagate the same deletions to all 54 non-English locales + run the normalizer across them. The `remove-unused-keys.js` script needs a small extension to walk `i18n/<lang>/` instead of just `i18n/en/` — the report is already in the right shape to feed that loop.
+- **Step 5** — write `scripts/i18n-audit/language-diff.js <lang>` to surface (a) keys whose English value changed since that language's `@metadata.last-updated`, and (b) keys present in English but missing from the target. Then re-translate for each of the 54 languages.
+- **Step 6** — final verification sweep: re-run `scripts/audit-translation.js` across all locales, re-run the unused-keys audit, spot-check 3–5 pages in 3–5 languages (including one RTL), verify `@metadata.last-updated` currency, and re-build.
+
+### Files changed
+
+```
+scripts/i18n-audit/find-unused-keys.js             (NEW — audit script; 250 lines)
+scripts/i18n-audit/dynamic-keys-allowlist.js       (NEW — 325-key allow-list for CurrencySection's template-literal keys; 110 lines)
+scripts/i18n-audit/remove-unused-keys.js           (NEW — deletion script; 170 lines)
+scripts/i18n-audit/normalize-json-formatting.js    (NEW — canonical JSON formatter; 180 lines)
+scripts/i18n-audit/unused-keys-report.json         (NEW — generated artifact, 423 entries across 74 namespaces)
+i18n/en/**/*_en.json                                (74 files touched — 423 keys deleted, @metadata.last-updated → 2026-04-23)
+V2-REDESIGN-CHECKLIST.md                            (Steps 1–3 all checked off; summary counts bumped to 6/6 + 4/4; footnote rewritten for this change)
+memory-bank/activeContext.md                        (this entry prepended)
+memory-bank/progress.md                             (updated)
+```
+
+The 4 new scripts are reusable — the audit + normalizer are safe to re-run at any time (both are idempotent no-ops once the repo is clean), and the removal script is driven by the report so it can pick up any future dead keys that accumulate as V2 refinements continue.
+
+---
+
+## Previous: Nostr section V2 redesign + merged /nostr/what-is-nostr into /nostr — April 23, 2026
+
 
 With Tier 6 (Business section) 11/11 complete as of earlier today, Tier 7 (Nostr section) was the last outstanding V2 work. The two former Nostr pages — `/nostr` and `/nostr/what-is-nostr` — were **merged into a single V2 `/nostr` page**. The new page absorbs the content previously split across both legacy pages and adds a proper client download section styled like `/wallets`. The full-site V2 redesign is now complete.
 

@@ -1,0 +1,11 @@
+{
+	"generatedAt": "2026-04-23T16:33:19.864Z",
+	"summary": {
+		"jsonFilesScanned": 81,
+		"keysChecked": 1794,
+		"unusedKeyCount": 0,
+		"namespacesWithUnused": 0
+	},
+	"perNamespace": {},
+	"allUnused": []
+}

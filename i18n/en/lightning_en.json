@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-22",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning Wallet Guide",
@@ -27,19 +27,14 @@
 	"lightning_s3_c2": "These wallets are more similar to the banking system where you must trust a third party to give you access to your money. If your Bitcoin is on an exchange, you are using a custodial wallet.",
 	"lightning_s3_c3": "Custodial wallets can seem convenient, but the custodian has the technical ability to steal all user funds at any time.",
 	"lightning_s3_c4": "Some people prefer custodial Lightning wallets for small amounts of bitcoin because of their ease of use. Just remember: not your keys, not your coins!",
-	"lightning_question_2": "CHOOSE YOUR WALLET",
-	"lightning_s4_c1": "With all of this in mind, you can now choose the lightning wallet that has the right trade-off balance for you.",
 	"lightning_grid_heading": "Popular Lightning wallets",
 	"phoenix": "Phoenix",
 	"breez": "Breez",
-	"mutiny_wallet": "Mutiny Wallet",
 	"wallet_of_satoshi": "Wallet of Satoshi",
 	"lightning_features": "Lots of features",
 	"lightning_mobile_app": "Mobile app",
 	"lightning_free": "100% free",
 	"lightning_merchants": "Great for merchants",
-	"lightning_starter": "Great starter wallet",
-	"lightning_browser": "Browser based",
 	"lightning_custodial": "Fully custodial wallet",
 	"lightning_cta_hardware": "Looking for our Bitcoin Hardware Wallet Guide?",
 	"lightning_hardware_cta_label": "Hardware wallets"

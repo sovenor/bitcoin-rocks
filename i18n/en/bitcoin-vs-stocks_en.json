@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-21",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Stocks",
-	"stocks_header": "THE DIFFERENCE BETWEEN",
-	"stocks_header_2": "BITCOIN",
-	"stocks_header_3": "AND",
-	"stocks_header_4": "STOCKS",
 	"stocks_intro_1": "Stocks have been a popular investment for decades and represent ownership shares in companies.",
 	"stocks_intro_2": "Bitcoin is digital money created in 2009 that operates independently of any company or government.",
 	"stocks_intro_3": "But how does owning shares in a company differ from owning digital money like Bitcoin? Let's take a look at the differences between two forms of investment: Bitcoin & Stocks.",
@@ -34,17 +30,13 @@
 	"point_2_summary_1": "Bitcoin has a hard cap of 21 million BTC. Companies can issue new shares at any time, diluting existing shareholders — similar to how fiat",
 	"point_2_summary_2": "inflation",
 	"point_2_summary_3": " dilutes cash. With Bitcoin, your slice never shrinks.",
-	"point_2_summary_4": "With Bitcoin, your slice of the pie never shrinks.",
 	"point_3_summary_1": "Bitcoin has no CEO and no single point of failure. Stocks depend heavily on leadership — one bad decision or departure can tank the price.",
 	"point_4_summary_1": "Bitcoin's price comes from open global markets. Stock valuations rely on metrics like P/E ratios that can mask overpriced shares.",
 	"point_5_summary_1": "Bitcoin trades 24/7 around the world. Stock markets are only open during business hours on weekdays.",
 	"point_5_summary_2": "Bitcoin is decentralized",
-	"point_5_summary_3": "and never sleeps.",
-	"point_5_summary_4": "Stock markets are only open during business hours on weekdays, limiting when you can buy or sell your investments.",
 	"point_6_summary_1": "You can take",
 	"point_6_summary_2": "self-custody",
 	"point_6_summary_3": "of Bitcoin with a simple app — no broker needed. Stocks sit with brokerages, exposing you to counterparty risk if they fail.",
-	"point_6_summary_4": "You never truly own the stock certificates directly.",
 	"point_7_summary_1": "Bitcoin's fixed supply makes it a reliable inflation hedge. Some stocks beat inflation, others don't — there's no guarantee.",
 	"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Stocks</span>"
 }

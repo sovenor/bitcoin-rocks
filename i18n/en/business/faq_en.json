@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-22",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "FAQs for accepting Bitcoin",
 	"faq_description": "Have questions about accepting Bitcoin payments at your business?",
-	"faq_header": "HAVE QUESTIONS ABOUT ACCEPTING BITCOIN PAYMENTS?",
 	"faq_hero_subtitle": "The short answers to the questions merchants ask most often before they start accepting Bitcoin — fees, settlement, wallets, chargebacks, cost, and more.",
 	"faq_intro_c1": "Tap any question below to expand the answer. When you're ready to start accepting Bitcoin, the business resources at the bottom of the page will walk you through each step.",
 	"faq_s1": "What is Bitcoin?",

@@ -1,4 +1,23 @@
+## i18n cleanup Steps 1–3 (English dead-key removal + JSON formatting) — April 23, 2026
+
+With the full-site V2 redesign 81/81 complete, started the post-cutover i18n cleanup workflow. Steps 1–3 of `V2-REDESIGN-CHECKLIST.md` § "i18n Translation Cleanup" are done.
+
+**New tooling** — added `scripts/i18n-audit/` with 3 discrete Node scripts + a dynamic-keys allow-list:
+- `find-unused-keys.js` — diffs every English key (`i18n/en/**/*.json`) against every literal substring in `app/` + `components/` + `lib/`; writes per-namespace `unused-keys-report.json`.
+- `dynamic-keys-allowlist.js` — enumerates the 325 runtime-built keys from `CurrencySection.tsx`'s `inflation_${code}_${suffix}` template literals so they aren't false-flagged.
+- `remove-unused-keys.js` — strips confirmed dead keys from English files with tab indentation + `@metadata.last-updated` bump preserved; supports `--dry-run`.
+- `normalize-json-formatting.js` — re-serializes every English JSON via `JSON.stringify(obj, null, '\t')` so blank lines between keys collapse; idempotent no-op once clean; supports `--all` for Step 4's 54-locale sweep.
+
+**Deleted 423 dead keys across 74 English namespaces** — 98 in `common` (V1 FAQ/kit copy), 98 in `inflation` (old `inflation_cause_*` / `inflation_choose_*` / `inflation_intro_*` prose replaced by V2 stat-card system), 9 in `bitcoin-vs-gold`, 8 in `bitcoin-vs-stocks`, 4-6 in other comparison files (legacy 4-part H1 keys + unused summary fragments), 3 per-language sticker-files keys × 43 languages (`<lang>_header` / `<lang>_description` / `<lang>_bitcoin_sticker_files` — the V2 template builds the H1 in-code), 7 orphan `home_link_*` keys in the homepage, 2 `nostr/index` keys replaced by V2 hero, 4 `business/wallets` `wallets_choice_*` accordion header keys, 2 `business/maps` V1 keys, 3 `sticker-success` keys including both `sticker_success_flyers_bar_*` leftovers, plus 1-2 keys each in `about`, `business/*`, `flyers`, `lightning`, `compound-inflation-calculator`.
+
+**Verification**: `npm run build` → green, all 55 locales × 81 pages regenerated clean; audit re-run idempotent (0 unused keys flagged the second time). Step 3's normalizer reports all 81 English files already canonical because Step 2's removal pass re-serialized every touched file with the canonical tab-indented formatter — spot-checked `bitcoin-vs-stocks` / `inflation` / `business/why` / `business/wallets` / `bitcoin-vs-gold`: zero blank lines between keys.
+
+**V2-REDESIGN-CHECKLIST.md** now shows i18n cleanup Steps 1–2 complete (6/6) + Step 3 complete (4/4). The 54-locale propagation (Step 4), per-language re-translation (Step 5), and final verification sweep (Step 6) are next.
+
+---
+
 ## /business/kit + /business/kit-success removed — April 23, 2026
+
 
 The Bitcoin Business Kit pages — `/business/kit` and `/business/kit-success` — were deprecated and fully removed from the site. The merchant onboarding story is now carried entirely by `/business` itself (hero + 4 benefit sections) plus the six color-coded resource cards (wallets, maps, stickers, rewards, accounting, FAQ); the printable tri-fold pamphlet was a V1 artifact and is no longer wanted.
 

@@ -6,16 +6,11 @@
 		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
-	"kit_success_1": "Your business will be listed on Bitcoin merchant maps in 1 to 2 weeks.",
-	"kit_success_2": "View the map here.",
-
 	"biz_maps_success_hero_title": "Request received 🎉",
 	"biz_maps_success_hero_subtitle": "Thanks for submitting your business. We'll list you on Bitcoin merchant maps shortly.",
-
 	"biz_maps_success_timeline_header": "What happens next",
 	"biz_maps_success_timeline_c1": "Your business will be listed on BTC Map and other Bitcoin merchant directories within 1 to 2 weeks. We review each submission by hand to keep the maps accurate.",
 	"biz_maps_success_timeline_c2": "Once your listing is live, Bitcoiners nearby can find your business and come spend Bitcoin there.",
-
 	"biz_maps_success_view_header": "See where you'll appear",
 	"biz_maps_success_view_c1": "While you wait, take a look at BTC Map to see the growing network of businesses that accept Bitcoin around the world.",
 	"biz_maps_success_btn_view_map": "View the BTC Map"

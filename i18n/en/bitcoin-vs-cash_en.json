@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-21",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Cash",
-	"cash_header": "THE DIFFERENCE BETWEEN",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "AND",
-	"cash_header_4": "CASH",
 	"cash_intro_1": "Cash has been used as money for centuries and remains the most common form of physical money worldwide.",
 	"cash_intro_2": "Bitcoin is digital money created in 2009 that operates independently of any government or central authority.",
 	"cash_intro_3": "But how does physical cash differ from digital money like Bitcoin? Let's explore the key differences between these two forms of money: Bitcoin & Cash.",

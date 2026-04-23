@@ -7,34 +7,20 @@
 		"locale": "en"
 	},
 	"bitcoin_accepted_here_stickers": "Bitcoin Accepted Here stickers",
-	"stickers_header": "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS",
-
 	"biz_stickers_hero_title": "Free 'Bitcoin Accepted Here' stickers",
 	"biz_stickers_hero_subtitle": "Let your customers know you accept Bitcoin. Order a free pack of 'Bitcoin Accepted Here' stickers to put up at your business.",
-
 	"biz_stickers_intro_c1": "Accepting Bitcoin is only half the job — your customers also need to know that you do. These small 'Bitcoin Accepted Here' stickers are designed to stick on your front door, register, menu, or anywhere else customers will see them before they pay.",
 	"biz_stickers_intro_c2": "We'll mail you a free pack anywhere in the USA or Canada, or you can print your own anywhere in the world.",
-
 	"biz_stickers_step_header": "How would you like to get your stickers?",
 	"biz_stickers_step_description": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own.",
-
 	"biz_stickers_option_usa": "🇺🇸 USA — Free by mail",
 	"biz_stickers_option_canada": "🇨🇦 Canada — Free by mail",
 	"biz_stickers_option_print": "🌍 Global — Print my own",
-
 	"biz_stickers_print_header": "Print your own sticker files",
 	"biz_stickers_print_c1": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live. Click your language below to download the sticker files and printing instructions.",
-
 	"biz_stickers_request_header": "Don't see your language?",
 	"biz_stickers_request_c1": "Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language. We'll let you know once they're ready.",
-
 	"biz_stickers_placeholder_translation1": "Translation for 'Bitcoin Accepted Here'",
 	"biz_stickers_placeholder_translation2": "Translation for 'Scan to learn why Bitcoin is good for business.'",
-
-	"stickers_request": "Get your free stickers",
-	"stickers_request_details": "Let your customers know you accept Bitcoin payments with these free 'Bitcoin Accepted Here' stickers.",
-	"stickers_country_global_print": "Global — Print my own stickers",
-	"stickers_request_instructions": "You will receive three 'Bitcoin Accepted Here' stickers in a plain white envelope. If you need more than three stickers for your business, feel free to request multiple times. Address data is deleted after your free stickers are shipped.",
-	"stickers_print_details": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live! Click on your language below to view the sticker files & instructions.",
-	"stickers_request_language": "Don't see your language? Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language."
+	"stickers_request": "Get your free stickers"
 }
