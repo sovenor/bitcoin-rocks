@@ -8,5 +8,13 @@
 	},
 	"cic_header": "حاسبة التضخم المركب",
 	"cic_description": "استخدم حاسبة التضخم المركب هذه لمعرفة مقدار الزيادة التي يحتاجها راتبك لمواكبة التضخم.",
-	"cic_inflation_cta": "تخلص من التضخم مع البيتكوين"
+	"cic_hero_subtitle": "شاهد كم يحتاج راتبك إلى الزيادة لمواكبة التضخم.",
+	"cic_calculator_heading": "احسب فجوة التضخم الخاصة بك",
+	"cic_cta_label": "الخطوة التالية",
+	"cic_inflation_cta": "تخلص من التضخم مع البيتكوين",
+	"cic_next_learn_inflation": "تعلم كيف يعمل التضخم",
+	"cic_next_explore_topics": "استكشف المزيد من المواضيع",
+	"cic_next_explore_topics_desc": "شاهد كيف يرتبط البيتكوين بالمال والحرية والطاقة والمزيد.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — مؤشر أسعار المستهلك لجميع المستهلكين في المناطق الحضرية",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — عرض النقود M1"
 }

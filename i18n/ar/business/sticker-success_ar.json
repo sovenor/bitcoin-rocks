@@ -5,5 +5,16 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "ar"
-	}
+	},
+	"biz_sticker_success_hero_title": "ملصقاتك في الطريق 🎉",
+	"biz_sticker_success_hero_subtitle": "ستستلم ملصقاتك المجانية \"البيتكوين مقبول هنا\" خلال 2 إلى 4 أسابيع، في مظروف أبيض عادي مع 3 ملصقات بداخله.",
+	"biz_sticker_success_tips_header": "أماكن جيدة لوضع ملصقاتك",
+	"biz_sticker_success_tip_1": "على بابك الأمامي أو نافذتك حتى يراها العملاء قبل الدخول",
+	"biz_sticker_success_tip_2": "بالقرب من الصندوق أو نقطة البيع أو منطقة الدفع",
+	"biz_sticker_success_tip_3": "على القوائم أو قوائم الأسعار أو وعاء الإكراميات",
+	"biz_sticker_success_tip_4": "لا تلصقها في أي مكان لا تملكه أو ليس لديك إذن بوضعها فيه",
+	"biz_sticker_success_more_header": "بحاجة إلى مزيد من الملصقات؟",
+	"biz_sticker_success_more_c1": "إذا لم تكن 3 ملصقات كافية لعملك، فلا تتردد في طلب عبوة مجانية أخرى — أو اطلب بالجملة من نفس الطابعة التي نستخدمها.",
+	"biz_sticker_success_btn_order_bulk": "اطلب بالجملة",
+	"biz_sticker_success_btn_request_more": "اطلب عبوة مجانية أخرى"
 }

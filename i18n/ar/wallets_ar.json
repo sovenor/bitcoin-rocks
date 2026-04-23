@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-23",
 		"locale": "ar"
 	},
 	"bitcoin_wallet_guide": "دليل محافظ البيتكوين",
 	"wallets_description": "هناك العديد من محافظ البيتكوين المختلفة التي تختلف بطرق مهمة. يمكنك تحديد ما إذا كانت المحفظة مناسبة لك بطرح هذه الأسئلة البسيطة.",
 	"wallets_header": "كيف تخزن بيتكوينك بأمان",
+	"wallets_header_subtitle": "دليل خطوة بخطوة لاختيار محفظة، وحماية مفاتيحك، والسيطرة الكاملة على البيتكوين الخاص بك.",
 	"wallets_s1_c1": "محافظ البيتكوين متوافقة، لذا يمكنك إرسال البيتكوين لأي شخص بغض النظر عن المحفظة التي يستخدمها.",
 	"wallets_s1_c2": "هناك العديد من محافظ البيتكوين المختلفة التي تختلف بطرق مهمة. يمكنك تحديد ما إذا كانت المحفظة مناسبة لك بطرح هذه الأسئلة البسيطة:",
 	"wallets_question_1": "هل هي محفظة احتفاظ ذاتي؟",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "اختبر Jameson Lopp 70 حزمة نسخ احتياطي فولاذية لمساعدتك في اختيار المناسبة لك.",
 	"wallets_s6_c5": "اطلع على دليل Jameson للنسخ الاحتياطي المعدني للبيتكوين هنا.",
 	"wallets_s6_c6": "أو تابع التمرير لاستكشاف خيارات محافظ البيتكوين.",
+	"wallets_grid_heading": "محافظ البيتكوين الشائعة",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "شبكة Lightning",
 	"wallets_cta_lightning": "تبحث عن دليل محافظ Lightning؟",
 	"wallets_starter_wallet": "محفظة مبتدئين رائعة",
 	"wallets_mobile_app": "تطبيق هاتف",
@@ -62,5 +65,13 @@
 	"wallets_battery": "بطارية قابلة لإعادة الشحن",
 	"wallets_build_your_own": "ابنِ محفظتك بنفسك",
 	"wallets_qwerty_keyboard": "لوحة مفاتيح QWERTY كاملة",
-	"wallets_qr_scanner": "ماسح رمز QR"
+	"wallets_qr_scanner": "ماسح رمز QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — اختر محفظتك",
+	"sources_jameson_lopp": "Jameson Lopp — مراجعات تخزين بذور البيتكوين المعدنية",
+	"sources_blockstream_green": "Blockstream Green — محفظة بيتكوين للحفظ الذاتي",
+	"sources_blockstream_jade": "Blockstream Jade — محفظة عتاد بيتكوين",
+	"sources_coldcard_mk5": "Coinkite — محفظة عتاد Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — محفظة عتاد Coldcard Q",
+	"sources_passport": "Foundation Devices — محفظة عتاد Passport",
+	"sources_seedsigner": "SeedSigner — جهاز توقيع بيتكوين DIY مفتوح المصدر"
 }

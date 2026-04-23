@@ -5,5 +5,10 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "ar"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "تم استلام الطلب 🎉",
+	"biz_sticker_language_success_hero_subtitle": "شكراً لطلب ملفات ملصقات \"البيتكوين مقبول هنا\" بلغتك.",
+	"biz_sticker_language_success_timeline_header": "ماذا يحدث بعد ذلك",
+	"biz_sticker_language_success_timeline_c1": "سننشئ وننشر ملفات ملصقاتك خلال 3 إلى 4 أسابيع. بمجرد أن تكون جاهزة، ستتمكن من تنزيلها وطباعتها مجاناً من صفحة ملفات الملصقات.",
+	"biz_sticker_language_success_timeline_c2": "تُصدر ملفات الملصقات على دفعات، لذا قد يستغرق الأمر بضعة أسابيع لتفعيل لغتك. شكراً على صبرك!"
 }

@@ -1,4 +1,45 @@
-## Latest: Manifest-driven i18n refresh refactor + af/am rescue — April 23, 2026
+## Latest: Arabic (ar) manifest refresh — April 23, 2026
+
+Ran `/translate-manifest-refresh Arabic` end-to-end. Arabic is the third locale processed against the committed V2 manifest (and the first one where the workflow was exercised from scratch using only the manifest tooling — no rescue/carry-over step needed because `ar` had no pre-existing manifest-era partial work to preserve).
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific — `ar` was genuinely behind on new V2 keys)
+- Untranslated: 0
+- Manifest changed: 162 (same list for every locale)
+- Manifest added: 388 (same list for every locale)
+- → **1,014 entries flagged**
+
+**Work split (three helper scripts under `scripts/ar-manifest-refresh/`):**
+
+1. **`translate-inflation.js`** (368 entries). 327 per-currency keys × 13 currencies (usd, eur, aud, brl, cad, gbp, ils, inr, jpy, mxn, nzd, php, thb) generated from a templated `t(code, suffix)` function covering the full intro / proof / btc / freedom / stat_* suffix set, plus 41 non-currency keys (freedom cards, Bitcoin stat card, shared currency labels, freedom stories for Canada/Nigeria/Pennsylvania/Texas, sources, and the 5 manifest-changed inflation hero/intro keys like `inflation_h1_orange`, `inflation_choose`, etc.).
+
+2. **`translate-rest-part1.js`** (193 entries). 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages. RTL-safe arrow character (`←`) used consistently for "Source: … →" patterns, which become left-pointing arrows in Arabic's RTL flow to keep the visual "outward/forward" semantic correct. Brand names (Silicon Valley Bank, FRED, FDIC, SVB, ETF, BTC, CBDCs, Visa, etc.) preserved verbatim inside Arabic prose.
+
+3. **`translate-rest-part2.js`** (453 entries). Everything else — business/* (accounting, faq, index, maps, maps-success, sticker-files/english/index, sticker-language-success, sticker-success, stickers, wallets, why), buy, common (50 keys including all sticker names + sticker tips), compound-inflation-calculator, flyers, get-involved, index homepage (60+ `home_card_label_*` entries across all topic sections: art, bank-runs, bonds, business, cash, cbdc, coding, crowdfunding, crypto, energy, environment, equality, food, freedom, get-started, gold, housing, human-rights, inflation, networks, payments, politics, property-rights, salary, self-custody, war), lightning, nostr/index (45 entries), sticker-files/index, sticker-language-success, sticker-success, stickers, wallets.
+
+**Application:**
+- `node scripts/i18n-audit/apply-translations.js ar` wrote **1,014 keys across 38 files**.
+- Marker written at `scripts/i18n-audit/v2-refresh-status/ar.json` pinning manifestVersion `75d5ff1151d50651...`.
+- Report archived to `scripts/i18n-audit/reports/applied/ar-20260423-230104.json`.
+
+**Verification (all 4 checks green on first apply):**
+- ✅ Marker matches current manifestVersion.
+- ✅ Locale-specific coverage: missing=0, untranslated=0, manifestChanged=0, manifestAdded=0.
+- ✅ No target values match pre-V2 English (162 manifest-changed entries scanned for stale-English leakage).
+- ✅ `npm run build` clean across 55 locales × 81 pages (~4,349 static pages total).
+
+**RTL handling:** Arabic is one of the four RTL locales (`ar`, `fa`, `he`, `ur`). The `<html dir="rtl">` wrapper is set automatically by `app/[locale]/layout.tsx` via `RTL_LOCALES` in `lib/i18n/config.ts` — no per-component adjustments needed. Typography, card layouts, and navbar all mirror correctly.
+
+**Workflow refinement notes for next session:**
+- The "write a single monolithic `translate-rest.js`" approach used for `af` / `am` scales poorly past ~500 entries. Splitting into `-part1` + `-part2` by logical page groupings (comparison pages vs. business/common/utility pages) produced two well-organized ~200-KB scripts that are easy to scan and review.
+- Report entry count varies significantly with locale freshness: `af` (916 before rescue) was already partially V2-translated; `am` (874) had carry-over from earlier manual work; `ar` (1,014) was the most comprehensive refresh yet because it had accumulated the full manifest-added backlog with zero prior manifest-era work done.
+
+Next up in the tier-1 global-reach queue: `es` (Spanish), `fr` (French), `de` (German), `pt` (Portuguese), `zh` (Chinese Mandarin), `ja` (Japanese), `ru` (Russian), `hi` (Hindi) — then tier-2 regionals.
+
+---
+
+## Manifest-driven i18n refresh refactor + af/am rescue — April 23, 2026
 
 User flagged that `i18n/am/bitcoin-vs-gold_am.json` still had V1 Amharic translations (e.g. `point_3_summary_1`) under V2 English keys, even after the Amharic Step 5 pass had just been "verified clean" earlier the same day. Root-cause investigation revealed a **file-level freshness-gate bug** in the previous `language-diff.js`:
 

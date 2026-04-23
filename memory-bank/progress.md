@@ -1,3 +1,43 @@
+## i18n cleanup Step 5 — Arabic (ar) manifest refresh — 2026-04-23
+
+**Counter:** 3/54 languages complete against the V2 manifest.
+
+Third locale processed against the committed manifest, and the first one to exercise the `/translate-manifest-refresh` workflow end-to-end on a locale with no prior manifest-era work (no rescue/carry-over step needed).
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific)
+- Untranslated: 0
+- Manifest changed: 162 (identical for every locale)
+- Manifest added: 388 (identical for every locale)
+- → 1,014 entries flagged
+
+**Work split (three helper scripts under `scripts/ar-manifest-refresh/`):**
+1. `translate-inflation.js` — 368 entries (327 per-currency × 13 currencies via templated `t(code, suffix)` function + 41 shared/non-currency keys including freedom cards, stories, sources, and the 5 manifest-changed hero/intro keys).
+2. `translate-rest-part1.js` — 193 entries (404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages). RTL-safe arrow characters (`←`) used for "Source: … →" patterns. Brand names (SVB, FRED, FDIC, Silicon Valley Bank, Visa, CBDCs, etc.) preserved verbatim.
+3. `translate-rest-part2.js` — 453 entries (business/*, buy, common 50-key bucket, compound-inflation-calculator, flyers, get-involved, index 60+ homepage card labels, lightning, nostr/index 45 entries, sticker-files/index, sticker-language-success, sticker-success, stickers, wallets).
+
+**Application:**
+- `apply-translations.js ar` wrote **1,014 keys across 38 files**.
+- Marker at `scripts/i18n-audit/v2-refresh-status/ar.json` pinning manifestVersion `75d5ff1151d50651...`.
+- Archived report at `scripts/i18n-audit/reports/applied/ar-20260423-230104.json`.
+
+**Verification:**
+- ✅ Marker matches current manifestVersion.
+- ✅ Locale-specific coverage: missing=0, untranslated=0, manifestChanged=0, manifestAdded=0.
+- ✅ Stale pre-V2 English cross-check passed (162 entries scanned).
+- ✅ `npm run build` clean across 55 locales × 81 pages (~4,349 static pages).
+
+**RTL:** Arabic is RTL. The `<html dir="rtl">` wrapper in `app/[locale]/layout.tsx` (from `RTL_LOCALES` in `lib/i18n/config.ts`) handles layout mirroring automatically — no per-component changes needed.
+
+**Pattern refinement notes:**
+- Splitting `translate-rest.js` into `-part1` + `-part2` by logical groupings (comparison pages vs. everything else) scaled much better than the monolithic approach used for `af` / `am`. Each part is easier to scan, review, and re-translate if the manifest ever changes.
+- Locale report size varies with prior translation state: `af` (916 before rescue, heavily partial), `am` (874, carry-over work), `ar` (1,014, full backlog because no prior manifest-era work existed).
+
+Next up in the tier-1 global-reach queue: `es`, `fr`, `de`, `pt`, `zh`, `ja`, `ru`, `hi`.
+
+---
+
 ## i18n cleanup — Manifest-driven refresh refactor + af/am rescue — 2026-04-23
 
 **Counter:** 2/54 languages complete against the new manifest.
