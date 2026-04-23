@@ -103,6 +103,10 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "business/wallets", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/wallets", published: true },
 	{ slug: "business/accounting", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/accounting", published: true },
 	{ slug: "business/stickers", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/stickers", published: true },
+	// Merchant "Bitcoin Accepted Here" sticker download page — reached
+	// from /business/stickers's "Global — Print my own" flow for anyone
+	// outside USA/Canada.
+	{ slug: "business/sticker-files/english", phase: 10, priority: 0.5, changeFrequency: "yearly", namespace: "business/sticker-files/english", published: true },
 	{ slug: "business/maps", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/maps", published: true },
 	{ slug: "business/kit", phase: 10, priority: 0.6, changeFrequency: "monthly", namespace: "business/kit", published: true },
 	{ slug: "business/kit-success", phase: 10, priority: 0.3, changeFrequency: "yearly", namespace: "business/kit-success", published: true },

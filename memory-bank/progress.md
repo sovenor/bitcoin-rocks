@@ -1,3 +1,29 @@
+## /business/stickers V2 redesign — April 23, 2026
+
+Brought `/business/stickers` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS" header + inline sticker-pack image + a single dense `.text-box.intro.sticker-box` with a `<CountryFormSelector>` revealing three country panels (USA / Canada / Global-print) and legacy-style `<StickerAddressForm>`s — with a standard V2 page in line with the other V2 business pages. The user explicitly called out that the consumer `/stickers` page's `.sticker-option-grid` / `.sticker-option-button` / `.sticker-panel` / `.cic-*` form system should be reused, but the **Step 1 / "choose this pack" picker should be skipped** since the merchant page only has ONE pack (the "Bitcoin Accepted Here" pack) — that's the key design difference between the two pages.
+
+The new page is: plain `<h1>` "Free 'Bitcoin Accepted Here' stickers" + subtitle ("Let your customers know you accept Bitcoin. Order a free pack of 'Bitcoin Accepted Here' stickers to put up at your business."), `.wallet-intro` bordered surface with the sticker-pack preview image centered above two intro paragraphs (via a small new `.biz-stickers-hero-image` CSS rule — max-height 260px desktop / 200px mobile, `border-radius: 12px`), and a new `<BusinessStickerFlow>` client component:
+
+1. **Delivery picker (single step, no pack picker).** Three `.sticker-option-button` rows stacked 1-per-line (🇺🇸 USA — Free by mail, 🇨🇦 Canada — Free by mail, 🌍 Global — Print my own). Selecting an option reveals a `.sticker-panel` below it.
+2. **USA / Canada panels.** Render the shared V2 `<StickerAddressForm variant="usa|canada" action=… v2 />` (same `.cic-*` form system as `/stickers`). Posts to `forms.bitcoin.rocks/submit/business-stickers-{usa|canada}`.
+3. **Global — Print panel.** A `.sticker-language-grid` with a single "English" button linking to `/sticker-files/english` (the only language currently in the merchant sticker-files catalog) + a `.sticker-request` section with the V2 `.cic-*` language-request form (three labeled inputs: language, "Translation for 'Bitcoin Accepted Here'", "Translation for 'Scan to learn why Bitcoin is good for business.'"). Posts to `forms.bitcoin.rocks/submit/business-sticker-language-request`.
+
+Smooth-scrolls the revealed panel into view after selection (same pattern as `<StickerFlow>` on `/stickers`).
+
+Below the delivery picker sits the `/business/*` colored business resources grid (reusing the same `BIZ_RESOURCES` pattern as the other V2 business pages with `stickers` excluded since we're on it). No sources section (utility/form page, same convention as `/stickers`). Standard `.publisher-attribution` with the reviewed-for-accuracy badge closes the page.
+
+Per the `/business/*` V2 convention (see V2-REDESIGN-CHECKLIST.md Tier 6), the bottom-of-page cross-link surface is the colored business resources grid — **no generic "keep learning / buy Bitcoin / inflation" bridge** is rendered on business sub-pages.
+
+The English i18n file (`i18n/en/business/stickers_en.json`) was bumped to 2026-04-23 and gained 11 new V2 keys (`biz_stickers_hero_title`, `biz_stickers_hero_subtitle`, `biz_stickers_intro_c1`/`c2`, `biz_stickers_step_header`/`step_description`, `biz_stickers_option_usa`/`canada`/`print`, `biz_stickers_print_header`/`print_c1`, `biz_stickers_request_header`/`request_c1`, `biz_stickers_placeholder_translation1`/`2`). The V1 `stickers_*` keys were kept in place to avoid breaking unrelated locale rendering; they'll be removed during the Step 2/3 dead-key propagation pass.
+
+Form `action` URLs are preserved unchanged (`/submit/business-stickers-usa|canada`, `/submit/business-sticker-language-request`) so the existing `forms-backend` integration + Cloudflare Turnstile setup keep working untouched. Field names on the language-request form match V1 (`language`, `translation1`, `translation2`) so the backend contract is unchanged.
+
+Verification: `npx tsc --noEmit` clean.
+
+After this pass, the V2 redesign status is: Business 6/12 done, Total pages 75/83 done. The `/business/*` sub-pages remaining are maps, kit, kit-success, maps-success, sticker-success, sticker-language-success (6 pages).
+
+---
+
 ## /business/accounting V2 redesign — April 23, 2026
 
 Brought `/business/accounting` into the V2 design system. Replaces the V1 `BusinessPageShell`-wrapped page — `.h1-inflation` uppercased "BITCOIN ACCOUNTING GUIDE" header + four dense `.text-box.intro` (and `.inflation-box`) prose blocks glued together with `<br><br>` breaks, with **entire sentences** wrapped in `.orange-link` anchors (e.g. the whole "If you use QuickBooks you can do this automatically using the Bitcoin Sync plugin" sentence was one big orange link, "View Wallet Guide." was another, etc.) — with a standard V2 page in line with `/business`, `/business/why`, `/business/faq`, and `/business/wallets`. The user explicitly called out that the V1 had too many entire-sentence inline links, and requested: (a) lift inline references into link cards, (b) make the prose more digestible, (c) **keep the "this is informational, not tax advice" disclaimer**.

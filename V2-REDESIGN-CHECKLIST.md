@@ -125,7 +125,8 @@ These patterns show up inside many pages. Track them globally once the layouts a
 - [x] **Business — FAQ** — `/business/faq`
 - [x] **Business — Wallets** — `/business/wallets`
 - [x] **Business — Accounting** — `/business/accounting`
-- [ ] **Business — Stickers** — `/business/stickers`
+- [x] **Business — Stickers** — `/business/stickers`
+- [x] **Business — Sticker Files (English)** — `/business/sticker-files/english` — downloadable merchant "Bitcoin Accepted Here" sticker, linked from `/business/stickers`'s Global — Print option
 - [ ] **Business — Maps** — `/business/maps`
 - [ ] **Business — Kit** — `/business/kit`
 - [ ] **Business — Kit Success** — `/business/kit-success`
@@ -312,11 +313,11 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | Educational / utility | 5 | 5 |
 | Form pages | 1 | 1 |
 | Form success pages | 2 | 2 |
-| Business section | 12 | 5 |
+| Business section | 12 | 6 |
 | Nostr section | 2 | 0 |
 | Sticker-files (index + 44) | 45 | 45 |
 | Special / 404 | 1 | 1 |
-| **Total pages** | **83** | **74** |
+| **Total pages** | **83** | **75** |
 
 
 
@@ -333,6 +334,6 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ---
 
-_Last updated: 2026-04-23 (V2 redesign of /business/accounting — replaced legacy `BusinessPageShell` + 4 dense `text-box intro inflation-box` prose blocks (where entire sentences were inline orange-link anchors) with V2 hero + intro card (carrying the prominent "not tax advice" disclaimer with a bolded `Please note:` label) + 4 `.inflation-section content-section` blocks (easy auto-convert path, cost basis tracking, spending/selling Bitcoin, need a pro) where every external/internal reference was lifted out of the prose and into a colored `.whats-next-card` link card slotted beside its section (1 → /business/wallets, 4 → QuickBooks/CoinGecko-live/CoinGecko-history/Spreadsheet-Guru, 1 → Satoshi Pacioli) + per-card `sourceKey` so each card's "Source: $author →" line reflects the real upstream source + colored business resources grid (accounting excluded) + sources + publisher attribution; follows the `/business/*` convention — no generic "keep learning" bridge)_
+_Last updated: 2026-04-23 (V2 redesign of /business/stickers — replaced legacy `BusinessPageShell` + `CountryFormSelector` + dense `.text-box.intro.sticker-box` block with V2 hero + intro card (centered sticker-pack preview image above the intro copy via new `.biz-stickers-hero-image` rule) + new `<BusinessStickerFlow>` client component — a single-step delivery picker (USA / Canada / Global — Print) built on the same `.sticker-option-grid` / `.sticker-option-button` / `.sticker-panel` system as /stickers but with the pack-picker step removed (merchants only have ONE pack, the "Bitcoin Accepted Here" pack, so no Step 1 wizard is needed — that's the key design difference from /stickers) + the V2 `.cic-*` form system for the address + language-request forms + colored business resources grid (stickers excluded) + publisher attribution; no sources section (utility/form page); follows the `/business/*` convention — no generic "keep learning" bridge)_
 
 

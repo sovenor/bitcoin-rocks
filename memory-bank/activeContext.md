@@ -1,4 +1,91 @@
-## Latest: /business/accounting V2 redesign — April 23, 2026
+## Latest: /business/stickers V2 redesign + new /business/sticker-files/english download page — April 23, 2026
+
+### Follow-up (same session)
+
+After the initial `/business/stickers` redesign landed, the user pointed out two things:
+
+1. **The "Global — Print my own" English link was broken.** The `<BusinessStickerFlow>` component was pointing at `/sticker-files/english` (the consumer sticker-files page — wrong audience + wrong sticker set). The user asked for it to go to the merchant download page at `/business/sticker-files/english` instead. The legacy static site had an HTML file for this at `public/business/sticker-files/english/index.html`, but it referenced `../../../jquery/…` relative paths that don't exist in the Next.js app, so it rendered unstyled with broken i18n.
+2. **Verify the form endpoints.** Confirmed all three `forms.bitcoin.rocks/submit/business-stickers-{usa,canada}` + `business-sticker-language-request` endpoints are registered in `forms-backend/seed.js` ✅.
+
+### What was added
+
+- **`app/[locale]/business/sticker-files/english/page.tsx`** (NEW, ~300 lines). Full V2 redesign of the merchant sticker-download page. Structure mirrors `/sticker-files/[lang]` (hero + centered intro card with StickerMule 1-click CTA + `.sticker-card` with bordered surface + preview image + dimensions/type/material/where-to-print meta list) but with a `/business/*` hero treatment (plain `<h1>` + subtitle) and the colored business-resources grid (stickers excluded) at the bottom per the Tier 6 convention. Reuses the existing `common_stickers_*` keys for the meta list + the V2 `.sticker-files-cta-button` rule already in globals.css §6 for the StickerMule CTA. Asset served from `public/business/sticker-files/english/bbk-sticker-english-v1.png` (unchanged).
+- **`public/business/sticker-files/english/index.html`** + **`public/business/files/english/index.html`** — deleted (broken jQuery-era static HTML files that can't run in the Next.js app).
+- **`i18n/en/business/sticker-files/english/index_en.json`** — bumped `@metadata.last-updated` to 2026-04-23; added 2 new keys (`biz_stickers_english_hero_title`, `biz_stickers_english_hero_subtitle`). Preserved the V1 `english_*` keys which are reused by the metadata helper + the sticker-card heading.
+- **`lib/i18n/request.ts`** — added `"business/sticker-files/english/index"` to `DEFAULT_NAMESPACES`. **Note:** the namespace string must include the trailing `/index` segment because the JSON file lives at `i18n/en/business/sticker-files/english/index_en.json` (the `index` is the filename stem, not the folder). Initially registered as `"business/sticker-files/english"` which resolved to the non-existent `i18n/en/business/sticker-files/english_en.json` and caused `MISSING_MESSAGE` errors for `biz_stickers_english_hero_title` / `biz_stickers_english_hero_subtitle` — corrected in a follow-up fix on the same day.
+- **`lib/pages.ts`** — added an entry for `business/sticker-files/english` (Phase 10, priority 0.5, changeFrequency yearly). Sitemap now emits 55 new URLs for this route.
+- **`components/BusinessStickerFlow.tsx`** — updated the Global — Print panel's single "English" link from `${localePrefix}/sticker-files/english` → `${localePrefix}/business/sticker-files/english`. Dropped the `target="_blank"` since the new page is an internal V2 route, not a raw PNG.
+- **`V2-REDESIGN-CHECKLIST.md`** — added `/business/sticker-files/english` as a checked item in Tier 6 with a short note explaining it's the downloadable sticker page reached from `/business/stickers`.
+
+### Form-endpoint verification
+
+The three form endpoints used by `<BusinessStickerFlow>` are all properly registered in `forms-backend/seed.js`:
+- `business-stickers-usa` — Business Stickers — USA
+- `business-stickers-canada` — Business Stickers — Canada
+- `business-sticker-language-request` — Business Sticker Language Request
+
+No backend changes needed. Cloudflare Turnstile + CORS config are unchanged from V1.
+
+### Verification
+
+- `npx tsc --noEmit` → clean.
+- Breadcrumb schema auto-renders as "Home > Bitcoin for Business > English 'Bitcoin Accepted Here' Sticker Files" via the existing `slug.startsWith("business/")` branch in `lib/schema/breadcrumb.ts`.
+
+---
+
+## /business/stickers V2 redesign — April 23, 2026
+
+`/business/stickers` was still on V1: `BusinessPageShell` wrapper with an `.h1-inflation` "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS" hero, an inline sticker-pack image, then a single dense `.text-box.intro.sticker-box` containing a `<CountryFormSelector>` that revealed three country panels (USA / Canada / Global-print) with legacy-style `<StickerAddressForm>` instances and a plain-input language-request form. Same page shell as the consumer `/stickers` page but for merchants — one pack (the "Bitcoin Accepted Here" sticker), three ways to get it (USA mail / Canada mail / print your own).
+
+Redesigned in the V2 style per the task: re-skinned with the same `.sticker-option-grid` / `.sticker-option-button` / `.sticker-panel` / `.cic-*` form system used by `/stickers`, but because merchants only have ONE pack we **deliberately skipped the Step 1 / "choose this pack" picker** — the V2 redesign jumps straight to the delivery-option step. This is the sixth `/business/*` page to reach V2.
+
+### What changed
+
+1. **Hero.** Replaced `BusinessPageShell` + `.h1-inflation` uppercased "GET YOUR FREE 'BITCOIN ACCEPTED HERE' STICKERS" header with a V2 plain `<h1>` ("Free 'Bitcoin Accepted Here' stickers") inside a `.home-hero.inflation-section`, plus a new `biz_stickers_hero_subtitle` ("Let your customers know you accept Bitcoin. Order a free pack of 'Bitcoin Accepted Here' stickers to put up at your business.").
+
+2. **Intro card.** V2 `.wallet-intro` bordered surface with the sticker-pack preview image (`/img/bbk/biz-stickers-vertical-v2.png`) centered above two intro paragraphs (`biz_stickers_intro_c1`, `biz_stickers_intro_c2`). A small new `.biz-stickers-hero-image` CSS rule handles the centering + max-height (260px desktop / 200px mobile, with `border-radius: 12px`). This is the single most visible change from V1: the preview image now sits inside the intro card instead of floating above a section break.
+
+3. **New client component: `<BusinessStickerFlow>`.** Lives in `components/BusinessStickerFlow.tsx`. Single-step delivery picker that renders three `.sticker-option-button` rows stacked 1-per-line (🇺🇸 USA, 🇨🇦 Canada, 🌍 Global — Print). Selecting an option reveals a `.sticker-panel` with:
+   - **USA / Canada**: the shared V2 `<StickerAddressForm variant="usa|canada" action=… v2 />` (same address form as `/stickers`), posting to `forms.bitcoin.rocks/submit/business-stickers-usa|canada`.
+   - **Global — Print**: a `.sticker-language-grid` with a single "English" button linking to `/sticker-files/english` (the only language currently available in the merchant sticker-files catalog), followed by a `.sticker-request` section with the V2 `.cic-*` language-request form (three labeled inputs — language, "Translation for 'Bitcoin Accepted Here'", "Translation for 'Scan to learn why Bitcoin is good for business.'"), posting to `forms.bitcoin.rocks/submit/business-sticker-language-request`.
+   
+   Smooth-scrolls the revealed panel into view after selection (same pattern as `<StickerFlow>` on `/stickers`). **The pack-picker step from `<StickerFlow>` is intentionally omitted** — the task explicitly called out that the merchant page has only one pack, so jumping straight to delivery options keeps the UX simpler.
+
+4. **Business resources grid (per the `/business/*` convention).** Same V2 `.whats-next-grid` pattern as `/business`, `/business/faq`, `/business/wallets`, `/business/accounting`. Six cards with the standard per-card `--card-accent` colors (wallets orange, maps energy green, rewards payments yellow, accounting calm blue, faq education purple, kit bitcoin orange). The `stickers` card from the 7-card grid on `/business` is excluded since we're on it. Per the Tier 6 convention, **no generic "keep learning / buy Bitcoin / inflation" bridge is rendered** — this colored resources grid is the cross-link surface for merchants.
+
+5. **No sources section.** Same convention as `/stickers` — this is a utility/form page and doesn't make factual claims that need citations.
+
+6. **Publisher attribution.** Inlined the reviewed-for-accuracy badge + publisher-attribution block directly on the page, so `/business/stickers` no longer depends on `BusinessPageShell` or `BusinessResourceCards`.
+
+7. **Schemas.** Kept `buildArticleSchema()` + `buildBreadcrumbSchema()` JSON-LD wiring with the standard `breadcrumbSchema !== null` guard.
+
+### Files changed
+
+```
+components/BusinessStickerFlow.tsx            (new — single-step delivery picker, no pack picker; wraps <StickerAddressForm v2> for USA/Canada + a language-request .cic-* form + a single English sticker-files link for Print)
+app/[locale]/business/stickers/page.tsx       (full V2 rewrite — hero, intro card with centered preview image, <BusinessStickerFlow>, BIZ_RESOURCES grid with stickers excluded, inline publisher attribution; dropped BusinessPageShell, BusinessResourceCards, CountryFormSelector, and the inline <Script> hoisted into this page)
+i18n/en/business/stickers_en.json             (bumped @metadata.last-updated to 2026-04-23; added 11 new V2 keys: biz_stickers_hero_title, biz_stickers_hero_subtitle, biz_stickers_intro_c1, biz_stickers_intro_c2, biz_stickers_step_header, biz_stickers_step_description, biz_stickers_option_usa/_canada/_print, biz_stickers_print_header, biz_stickers_print_c1, biz_stickers_request_header, biz_stickers_request_c1, biz_stickers_placeholder_translation1/2. Kept the V1 keys — they'll be removed during the dead-key propagation pass.)
+app/globals.css                                (added §11 sub-rule `.biz-stickers-hero-image` + its mobile variant for the centered preview image)
+V2-REDESIGN-CHECKLIST.md                      (flipped /business/stickers to [x]; updated summary counts: Business 6/12, Total pages 75/83; updated the "last updated" footnote)
+memory-bank/activeContext.md                  (this entry prepended)
+memory-bank/progress.md                       (updated)
+```
+
+### Verification
+
+- `npx tsc --noEmit` → clean (no TypeScript errors).
+- Form `action` URLs preserved unchanged (`/submit/business-stickers-usa`, `/submit/business-stickers-canada`, `/submit/business-sticker-language-request`) so the existing `forms-backend` integration keeps working.
+- Cloudflare Turnstile `<Script>` still loads `afterInteractive` at the page level (needed by the forms inside `<BusinessStickerFlow>`).
+- The form-field names on the language-request form match V1 (`language`, `translation1`, `translation2`) so the backend contract is unchanged.
+
+### Known follow-ups
+
+- The 54 non-English locales still hold the V1 `stickers_*` keys and fall through to English for the 11 new `biz_stickers_*` keys. Handled later in the Step 4 translation refresh. Kept the V1 keys in English to avoid breaking unrelated locale rendering; they'll be removed during the Step 2/3 dead-key propagation.
+- 6 `/business/*` sub-pages remain on V1 (maps, kit, kit-success, maps-success, sticker-success, sticker-language-success). Next up.
+
+---
+
+## Earlier: /business/accounting V2 redesign — April 23, 2026
 
 `/business/accounting` was still on V1: a `BusinessPageShell` wrapper with an `.h1-inflation` "BITCOIN ACCOUNTING GUIDE" hero, then four dense `.text-box.intro` (and `.inflation-box` variant) prose blocks glued together with inline `<br><br>` breaks, where **entire sentences** had been turned into single `.orange-link` anchors — e.g. the whole "If you use QuickBooks, you can do this automatically using the Bitcoin Sync plugin" sentence was one orange-underlined phrase, "You can view the current dollar price of Bitcoin here" was another, etc. That pattern makes the page unscannable on mobile and buries the actual referenced resources inside the prose.
 
