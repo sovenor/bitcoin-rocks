@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "tez çıxarılması ehtimalı az olan yerlərdə (etiketlər heç bir daimi zərər vermir)",
 	"sticker_success_list_3": "asanlıqla yapışacaq səthlərə (metal, plastik, şüşə)",
 	"sticker_success_list_4": "Xüsusi mülkiyyətə, lövhələrin üstünə, bankomatlara və ya yanacaq nasoslarına yapışdırmayın",
-	"sticker_success_3": "Başqalarının etiketlərini harada yapışdırdığını görmək istəyirsiniz?"
+	"sticker_success_3": "Başqalarının etiketlərini harada yapışdırdığını görmək istəyirsiniz?",
+	"sticker_success_hero_title": "Stikerləriniz yoldadır 🎉",
+	"sticker_success_tips_header": "Yaxşı stiker yerləri",
+	"sticker_success_share_header": "Stikerlərinizin olduğu yerləri paylaşın",
+	"sticker_success_bulk_header": "Daha çox stiker istəyirsiniz?",
+	"sticker_success_btn_order_bulk": "Toplu sifariş",
+	"sticker_success_btn_share_on_nostr": "Nostr-da paylaşın",
+	"sticker_success_btn_what_is_nostr": "Nostr nədir?"
 }

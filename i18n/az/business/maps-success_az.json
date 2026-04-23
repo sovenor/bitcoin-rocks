@@ -5,5 +5,13 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "az"
-	}
+	},
+	"biz_maps_success_hero_title": "Təqdimat qəbul edildi 🎉",
+	"biz_maps_success_hero_subtitle": "Biznesinizi təqdim etdiyiniz üçün təşəkkür edirik. Sizi tezliklə Bitcoin tacir xəritələrinə əlavə edəcəyik.",
+	"biz_maps_success_timeline_header": "Sonra nə olur",
+	"biz_maps_success_timeline_c1": "Biznesiniz 1-2 həftə ərzində BTC Map və digər Bitcoin tacir kataloqlarında siyahıya alınacaq. Xəritələri dəqiq saxlamaq üçün hər təqdimat əl ilə yoxlanılır.",
+	"biz_maps_success_timeline_c2": "Siyahınız aktiv olduqdan sonra yaxınlıqdakı Bitcoinerlər biznesinizi tapa və Bitcoin xərcləmək üçün gələ bilərlər.",
+	"biz_maps_success_view_header": "Harada görünəcəyinizi görün",
+	"biz_maps_success_view_c1": "Gözləyərkən BTC Map-ə nəzər salın və dünya üzrə Bitcoin qəbul edən bizneslərin artan şəbəkəsini görün.",
+	"biz_maps_success_btn_view_map": "BTC Map-ə baxın"
 }

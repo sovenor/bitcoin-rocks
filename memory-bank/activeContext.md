@@ -1,4 +1,46 @@
-## Latest: Arabic (ar) manifest refresh — April 23, 2026
+## Latest: Azerbaijani (az) manifest refresh — April 23, 2026
+
+Ran `/translate-manifest-refresh Azerbaijani` end-to-end. Fourth locale through the manifest-driven refresh pipeline, and the first Turkic-language locale (shares Latin script with Turkish/Uzbek/Azerbaijani — the extended diacritics are `ə`, `ğ`, `ı`, `ö`, `ş`, `ü`, `ç`).
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific — `az` had the full manifest-era backlog)
+- Untranslated: 1 (`common_stickers_material` was "Material:" byte-identical to English)
+- Manifest changed: 162 (same for every locale)
+- Manifest added: 388 (same for every locale)
+- → **1,015 entries flagged**
+
+**Work split (three helper scripts under `scripts/az-manifest-refresh/` + one final fix):**
+
+1. **`translate-inflation.js`** (368 entries). Matches the Arabic template: 327 per-currency keys × 13 currencies generated from a templated `t(code, suffix)` function + 41 non-currency keys (freedom cards, Bitcoin stat card, shared labels, stories for Kanada/Nigeriya/Pensilvaniya/Texas, sources, 5 manifest-changed inflation hero keys).
+
+2. **`translate-rest-part1.js`** (193 entries). 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages. Brand names (Silicon Valley Bank, FRED, FDIC, SVB, ETF, BTC, CBDCs, Visa, EndSARS, etc.) preserved verbatim inside Azerbaijani prose. Azerbaijani uses the "ABŞ" acronym for "USA" (Amerika Birləşmiş Ştatları) consistently.
+
+3. **`translate-rest-part2.js`** (453 entries). Everything else — business/* (accounting/faq/index/maps/maps-success/sticker-files/english/index/sticker-language-success/sticker-success/stickers/wallets/why), buy, common (52 keys incl. sticker names, tips, sources, currency labels, printer name), compound-inflation-calculator, flyers, get-involved, index homepage (60+ `home_card_label_*` entries), lightning, nostr/index (45 entries), sticker-files/index, sticker-language-success, sticker-success, stickers, wallets.
+
+4. **Final fix** — one `untranslated` entry (`common_stickers_material`, "Material:" → "Material növü:") set inline via a small Node one-liner since the helper scripts don't target untranslated categories.
+
+**Application:**
+- `node scripts/i18n-audit/apply-translations.js az` wrote **1,015 keys across 38 files**.
+- Marker written at `scripts/i18n-audit/v2-refresh-status/az.json` pinning manifestVersion `75d5ff1151d50651...`.
+- Report archived to `scripts/i18n-audit/reports/applied/az-20260423-233650.json`.
+
+**Verification (all 4 checks green on first apply):**
+- ✅ Marker matches current manifestVersion.
+- ✅ Locale-specific coverage: missing=0, untranslated=0, manifestChanged=0, manifestAdded=0.
+- ✅ No target values match pre-V2 English (162 manifest-changed entries scanned for stale-English leakage).
+- ✅ `npm run build` clean across 55 locales × 81 pages (~4,349 static pages total).
+
+**Refinements worth remembering:**
+- The `<asset>` genitive forms need to agree with Azerbaijani vowel harmony — "qızılın" (of gold) vs "nağdın" (of cash) vs "kriptovalyutaların" (of cryptocurrencies). The `hero_title` templates (`<span class="orange">Bitcoin</span> ilə <span class="asset">X</span> arasındakı fərq`) follow the genitive-case pattern naturally.
+- For per-currency templates, kept `noun === nounPlural` for most currencies (Azerbaijani doesn't pluralize after numerals) but kept the distinction in the `CURRENCY` object for future structural consistency with Arabic.
+- Brand name quotation style: Azerbaijani uses "..." (ASCII straight quotes) consistently across the V2 content; no need for German-style „…" lower-upper pairs.
+
+Next up in the queue: `bg` (Bulgarian) → then tier-1 Europeans `de` / `fr` / `es` / `pt`, then Asian `zh` / `ja` / `hi` / `ko` / `vi` / `th` / `id`.
+
+---
+
+## Arabic (ar) manifest refresh — April 23, 2026
 
 Ran `/translate-manifest-refresh Arabic` end-to-end. Arabic is the third locale processed against the committed V2 manifest (and the first one where the workflow was exercised from scratch using only the manifest tooling — no rescue/carry-over step needed because `ar` had no pre-existing manifest-era partial work to preserve).
 

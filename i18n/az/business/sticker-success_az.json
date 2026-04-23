@@ -5,5 +5,16 @@
 		],
 		"last-updated": "2026-04-23",
 		"locale": "az"
-	}
+	},
+	"biz_sticker_success_hero_title": "Stikerləriniz yoldadır 🎉",
+	"biz_sticker_success_hero_subtitle": "Pulsuz \"Bitcoin qəbul olunur\" stikerlərinizi 2-4 həftə ərzində adi ağ zərfin içində 3 stikerlə alacaqsınız.",
+	"biz_sticker_success_tips_header": "Stikerlərinizi qoymaq üçün yaxşı yerlər",
+	"biz_sticker_success_tip_1": "Müştərilər içəri girməzdən əvvəl görə bilmələri üçün ön qapınıza və ya pəncərənizə",
+	"biz_sticker_success_tip_2": "Kassa yaxınlığına, satış nöqtəsinə və ya ödəniş sahəsinə",
+	"biz_sticker_success_tip_3": "Menyulara, qiymət siyahılarına və ya bəxşiş qabına",
+	"biz_sticker_success_tip_4": "Sahibi olmadığınız və ya yerləşdirmək üçün icazəniz olmayan yerlərdə yapışdırmayın",
+	"biz_sticker_success_more_header": "Daha çox stikerə ehtiyacınız var?",
+	"biz_sticker_success_more_c1": "Əgər 3 stiker biznesinizə kifayət etmirsə, başqa bir pulsuz paket istəməkdən çəkinməyin — və ya istifadə etdiyimiz eyni çapxanadan toplu olaraq sifariş verin.",
+	"biz_sticker_success_btn_order_bulk": "Toplu olaraq sifariş edin",
+	"biz_sticker_success_btn_request_more": "Başqa bir pulsuz paket istəyin"
 }

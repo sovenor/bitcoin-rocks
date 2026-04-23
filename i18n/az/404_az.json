@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"404_title": "404 Xəta | Səhifə tapılmadı",
-	"404_message": "BU QIRILMIŞ SƏHİFƏ HEÇ DƏ ƏLADIR",
-	"404_home": "ANA SƏHİFƏYƏ QAYIT"
+	"404_message": "Bitcoin möhtəşəmdir, amma bu xarab səhifə yox.",
+	"404_home": "Ana səhifəyə qayıdın",
+	"404_not_found_short": "Tapılmadı"
 }

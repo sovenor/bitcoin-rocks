@@ -1,3 +1,13 @@
+## i18n cleanup Step 5 — Azerbaijani (az) manifest refresh — 2026-04-23
+
+**Counter:** 4/54 languages complete against the V2 manifest.
+
+Fourth locale (af, am, ar, az) — first Turkic locale. 1,015 entries flagged (464 missing, 1 untranslated, 162 manifest-changed, 388 manifest-added) → 0 flagged after three helper scripts under `scripts/az-manifest-refresh/` + one inline fix for `common_stickers_material`. All 4 verify-language.js checks PASS on first apply. `npm run build` clean across 55 locales × 81 pages. Marker at `scripts/i18n-audit/v2-refresh-status/az.json` pins manifestVersion `75d5ff1151d50651...`. Report archived to `scripts/i18n-audit/reports/applied/az-20260423-233650.json`.
+
+Azerbaijani uses modern Latin script with extended diacritics (`ə`, `ğ`, `ı`, `ö`, `ş`, `ü`, `ç`). Translation process mirrored the Arabic template closely — the hero-title genitive patterns (e.g. "Bitcoin ilə qızılın arasındakı fərq") fall out naturally from Azerbaijani vowel harmony so no per-asset special-casing needed.
+
+---
+
 ## i18n cleanup Step 5 — Arabic (ar) manifest refresh — 2026-04-23
 
 **Counter:** 3/54 languages complete against the V2 manifest.

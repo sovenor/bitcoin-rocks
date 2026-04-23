@@ -7,5 +7,20 @@
 		"locale": "az"
 	},
 	"bitcoin_accepted_here_stickers": "'Burada Bitcoin Qəbul Edilir' etiketləri",
+	"biz_stickers_hero_title": "Pulsuz \"Bitcoin qəbul olunur\" stikerlər",
+	"biz_stickers_hero_subtitle": "Müştərilərinizə Bitcoin qəbul etdiyinizi bildirin. Biznesinizdə yerləşdirmək üçün pulsuz \"Bitcoin qəbul olunur\" stiker paketi sifariş edin.",
+	"biz_stickers_intro_c1": "Bitcoin qəbul etmək işin yalnız yarısıdır — müştərilərinizin də bunu etdiyinizi bilməsi lazımdır. Bu kiçik \"Bitcoin qəbul olunur\" stikerləri ön qapınıza, kassaya, menyuya və ya müştərilərin ödəmədən əvvəl görəcəyi hər hansı digər yerə yapışdırmaq üçün hazırlanıb.",
+	"biz_stickers_intro_c2": "Sizə ABŞ və ya Kanadanın istənilən yerinə pulsuz bir paket poçtla göndərəcəyik və ya dünyanın istənilən yerində özünüz çap edə bilərsiniz.",
+	"biz_stickers_step_header": "Stikerlərinizi necə əldə etmək istərdiniz?",
+	"biz_stickers_step_description": "ABŞ və Kanadadakı ünvanlara pulsuz paket göndərəcəyik. Dünyanın istənilən başqa yerində özünüz çap edə bilərsiniz.",
+	"biz_stickers_option_usa": "🇺🇸 ABŞ — Pulsuz poçt",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Pulsuz poçt",
+	"biz_stickers_option_print": "🌍 Qlobal — Özüm çap edəcəm",
+	"biz_stickers_print_header": "Öz stiker fayllarınızı çap edin",
+	"biz_stickers_print_c1": "Harada yaşadığınızdan asılı olmayaraq öz \"Bitcoin qəbul olunur\" stikerlərinizi çap edə bilərsiniz. Stiker fayllarını və çap təlimatlarını endirmək üçün aşağıdakı dilinizə klikləyin.",
+	"biz_stickers_request_header": "Dilinizi görmürsünüz?",
+	"biz_stickers_request_c1": "Yerli dilinizdə \"Bitcoin qəbul olunur\" stiker faylları istəmək üçün aşağıdakı formu doldurun. Hazır olduqda sizə bildiriş göndərəcəyik.",
+	"biz_stickers_placeholder_translation1": "\"Bitcoin qəbul olunur\" tərcüməsi",
+	"biz_stickers_placeholder_translation2": "\"Bitcoin-in biznes üçün nə üçün yaxşı olduğunu öyrənmək üçün skan edin\" tərcüməsi",
 	"stickers_request": "Pulsuz etiketlərinizi alın"
 }

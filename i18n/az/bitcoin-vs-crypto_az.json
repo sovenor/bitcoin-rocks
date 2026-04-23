@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Saf rəqəmsal pul",
 	"bitcoin_point_7": "Antifragil",
 	"bitcoin_point_8": "Heç bir tək qurum idarə etmir",
-	"point_1_summary_1": "Bitcoin-in protokolu 2009-cu ildən bəri əsaslı olaraq dəyişməyib, asanlıqla dəyişdirilə bilməyən proqnozlaşdırıla bilən qaydalar təmin edir. Əksər kripto layihələri protokollarını tez-tez yeniləyir, tokenomikasını dəyişdirir və ya yeni versiyalara çatallanır, istifadəçilər üçün qeyri-müəyyənlik yaradır.",
-	"point_2_summary_1": "Bitcoin dünya üzrə on minlərlə müstəqil qovşaqla həqiqətən mərkəzsizləşdirilmiş şəbəkədə işləyir. Bir çox kripto layihələri fondlar, şirkətlər və ya protokolun gələcəyi haqqında birtərəfli qərarlar verə bilən kiçik qruplar tərəfindən idarə olunur.",
-	"point_3_summary_1": "Bitcoin-in 21 milyon sikkəlik sərt tavanı var ki, bu da onu ən nadir rəqəmsal aktiv edir. Əksər kripto layihələrinin limitsiz tədarükü, inflyasiya mexanizmləri və ya istəkləri üzrə yeni tokenlər yarada bilmə qabiliyyəti var ki, bu da sahiblərin dəyərini zamanla azaldır.",
-	"point_4_summary_1": "Bitcoin-in bir sadə məqsədi var: nəfər-nəfərə rəqəmsal pul. Hər kəs əsas biliklərlə onu anlayıb istifadə edə bilər. Bir çox kripto layihələri təhlükəsiz istifadə üçün texniki bilik tələb edən mürəkkəb ağıllı müqavilələr, DeFi protokolları və ya idarəetmə mexanizmləri əhatə edir.",
-	"point_5_summary_1": "Bitcoin 15 ildən çox müddətdə əsas şəbəkəyə bir uğurlu hücum olmadan sınaqdan keçirilmiş İş Sübutu konsensusundan istifadə edir. Bir çox kripto layihələri uzunmüddətli təhlükəsizliklərini sübut etməmiş Payçılıq Sübutu və ya delegə edilmiş sistemlər kimi eksperimental konsensus mexanizmlərindən istifadə edir.",
-	"point_6_summary_1": "Bitcoin rəqəmsal pul - dəyər saxlama və dəyişdirmə vasitəsi olaraq xidmət edir. Əksər kripto tokenlər xüsusi platformalar üçün kommunal tokenlər, idarəetmə tokenləri və ya real dünya dəyər təklifləri aydın olmayan spekulyativ aktivlərdir.",
-	"point_7_summary_1": "Bitcoin hücum altında güclənir və ona qarşı atılan hər böhran, qadağa və tənqiddən sağ çıxıb. Əksər kripto layihələri kövrəkdir və tənzimləyici təzyiq, texniki nasazlıqlar və ya bazar geriləmələrindən çökə bilər.",
-	"point_8_summary_1": "Bitcoin-in CEO-su, arxasında şirkəti və tək uğursuzluq nöqtəsi yoxdur. Bir çox kripto layihələri vençur kapitalı firmaları tərəfindən dəstəklənir, tanınan rəhbərlik qruplarına sahibdir və ya davamlı fəaliyyətləri üçün xüsusi şirkətlərdən asılıdır."
+	"point_1_summary_1": "Bitcoin protokolu 2009-cu ildən bəri əsasən dəyişməz qalıb, proqnozlaşdırıla bilən qaydalar təqdim edir. Əksər kripto layihələri davamlı olaraq protokolları və ya token iqtisadiyyatını dəyişdirir və ya yeni versiyalara ayrılır.",
+	"point_2_summary_1": "Bitcoin dünya üzrə on minlərlə müstəqil qovşaqlarda işləyir. Əksər kripto layihələri tək tərəfli dəyişikliklər edə bilən fondlar, şirkətlər və ya kiçik inkişaf komandaları tərəfindən idarə olunur.",
+	"point_3_summary_1": "Bitcoin-in 21 milyon sikkəlik sərt limiti var — ən nadir rəqəmsal aktiv. Əksər kripto layihələrinin qeyri-məhdud təklifi və ya istədikləri vaxt yeni tokenlər zərb etmək mexanizmləri var, bu da sahiblərin paylarını seyrəkləşdirir.",
+	"point_4_summary_1": "Bitcoin-in bir məqsədi var: peer-to-peer rəqəmsal pul. Hər kəs bunu başa düşə və istifadə edə bilər. Əksər kripto mürəkkəb ağıllı müqavilələr və ya təhlükəsiz istifadə üçün texniki təcrübə tələb edən DeFi-ni əhatə edir.",
+	"point_5_summary_1": "Bitcoin-in iş sübutu 15 ildən artıqdır ki, əsas şəbəkədə uğurlu hücum olmadan işləyir. Əksər kripto layihələri döyüşdə sınaqdan keçirilməmiş eksperimental konsensusdan istifadə edir.",
+	"point_6_summary_1": "Bitcoin rəqəmsal puldur — dəyər saxlanışı və mübadilə vasitəsi. Əksər kripto tokenlər qeyri-aydın real dəyərli spekulyativ və ya idarəetmə tokenləridir.",
+	"point_7_summary_1": "Bitcoin hücum altında güclənir və hər böhrandan, qadağadan və tənqiddən sağ çıxıb. Əksər kripto layihələri tənzimləyici, texniki və ya bazar təzyiqi altında çökür.",
+	"point_8_summary_1": "Bitcoin-in icraçı direktoru, şirkəti və ya tək uğursuzluq nöqtəsi yoxdur. Əksər kripto layihələri VC-lərdən, xüsusi liderlikdən və ya tək bir şirkətin sağ qalmasından asılıdır.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ilə <span class=\"asset\">kriptovalyutaların</span> arasındakı fərq"
 }
