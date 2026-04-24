@@ -689,7 +689,7 @@ button.choose-initial-text:hover {
 	display: flex;
 	flex-direction: column;
 	gap: 28px;
-	margin-top: 24px;
+	margin-top: 40px;
 }
 .content-learn-more-block {
 	display: flex;

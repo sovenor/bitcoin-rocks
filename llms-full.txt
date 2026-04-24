@@ -27,7 +27,7 @@ We create free educational content for Bitcoin newcomers. Our website covers top
 
 We mail free Bitcoin stickers to your door so you can help spread Bitcoin awareness in your community. Hundreds of people scan the QR codes on these stickers each month to learn about Bitcoin.
 
-We also provide printable flyers and business kits for anyone who wants to help onboard local businesses to accept Bitcoin payments.
+We also provide printable flyers for anyone who wants to help onboard local businesses to accept Bitcoin payments, and we ship free "Bitcoin Accepted Here" stickers to merchants who already accept Bitcoin. Any business owner can visit our /business page to learn how to start accepting Bitcoin payments today.
 
 All of our content assumes zero prior Bitcoin knowledge. Whether you are brand new to Bitcoin or a seasoned Bitcoiner looking for resources to share, bitcoin.rocks is for you.
 
@@ -764,7 +764,9 @@ Flyers are one of the easiest ways to introduce Bitcoin to your community. Downl
 
 ### Onboard a Business
 
-Want to help build the Bitcoin circular economy? Point merchants to our Bitcoin for Business resources — a curated guide with wallets, merchant maps, stickers, accounting, and FAQs — to show them how easy it is to start accepting Bitcoin payments.
+Want to help build the Bitcoin circular economy? The easiest way is to help local businesses start accepting Bitcoin payments. Know a business that might be open to it? Send the owner to our Bitcoin business page at bitcoin.rocks/business to learn why Bitcoin is good for business, choose a wallet, set up a point-of-sale, and start accepting payments today.
+
+Already accepting Bitcoin? Let customers know with our free "Bitcoin Accepted Here" stickers at bitcoin.rocks/business/stickers. We'll ship a pack to any address in the USA or Canada, or you can print your own anywhere in the world.
 
 ### Contribute on GitHub
 

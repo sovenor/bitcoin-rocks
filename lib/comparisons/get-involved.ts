@@ -115,26 +115,47 @@ export const GET_INVOLVED: ContentPageData = {
 		},
 
 		// ─── Onboard a business ──────────────────────────────────
+		// Two stacked learn-more cards, each with its own lead-in
+		// paragraph (via `introParagraphs`):
+		//   1. /business — the primary hand-off. Instead of the
+		//      retired Bitcoin Business Kit CTA we just point the
+		//      reader at our business page and tell them to send a
+		//      local owner there.
+		//   2. /business/stickers — free "Bitcoin Accepted Here"
+		//      stickers for merchants who already accept Bitcoin.
 		{
 			headingKey: "get_involved_business_header",
 			paragraphs: [
 				[{ key: "get_involved_business_content_1" }],
-				[
-					{ key: "get_involved_business_content_2" },
-					{
-						key: "get_involved_business_content_3",
-						href: "/business",
-						localize: true,
-					},
-				],
 			],
 			cards: [
 				{
 					type: "learn-more",
+					introParagraphs: [
+						[
+							{ key: "get_involved_business_content_2" },
+							{
+								key: "get_involved_business_content_3",
+								href: "/business",
+								localize: true,
+							},
+						],
+					],
 					labelKey: "get_involved_card_business_label",
 					titleKey: "get_involved_card_business_title",
 					sourceKey: "get_involved_card_business_source",
 					href: "/business",
+					localize: true,
+				},
+				{
+					type: "learn-more",
+					introParagraphs: [
+						[{ key: "get_involved_biz_stickers_note" }],
+					],
+					labelKey: "get_involved_card_biz_stickers_label",
+					titleKey: "get_involved_card_biz_stickers_title",
+					sourceKey: "get_involved_card_biz_stickers_source",
+					href: "/business/stickers",
 					localize: true,
 				},
 			],
