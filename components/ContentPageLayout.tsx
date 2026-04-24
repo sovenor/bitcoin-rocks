@@ -109,38 +109,39 @@ export async function ContentPageLayout({
 							{section.headingKey && (
 								<h2 id={sectionId}>{t(section.headingKey)}</h2>
 							)}
-							<div className="comparison-explain">
-
-								{section.paragraphs.map((paragraph, pi) => (
-									<Fragment key={pi}>
-										<p>
-											{paragraph.map((frag, fi) => (
-												<SummaryFragmentSpan
-													key={fi}
-													frag={frag}
+							{(section.paragraphs.length > 0 || section.image) && (
+								<div className="comparison-explain">
+									{section.paragraphs.map((paragraph, pi) => (
+										<Fragment key={pi}>
+											<p>
+												{paragraph.map((frag, fi) => (
+													<SummaryFragmentSpan
+														key={fi}
+														frag={frag}
+														locale={l}
+														tResolve={t}
+														isLast={fi === paragraph.length - 1}
+													/>
+												))}
+											</p>
+											{pi === 0 && section.image && (
+												<ContentSectionImageView
+													image={section.image}
 													locale={l}
 													tResolve={t}
-													isLast={fi === paragraph.length - 1}
 												/>
-											))}
-										</p>
-										{pi === 0 && section.image && (
-											<ContentSectionImageView
-												image={section.image}
-												locale={l}
-												tResolve={t}
-											/>
-										)}
-									</Fragment>
-								))}
-								{section.paragraphs.length === 0 && section.image && (
-									<ContentSectionImageView
-										image={section.image}
-										locale={l}
-										tResolve={t}
-									/>
-								)}
-							</div>
+											)}
+										</Fragment>
+									))}
+									{section.paragraphs.length === 0 && section.image && (
+										<ContentSectionImageView
+											image={section.image}
+											locale={l}
+											tResolve={t}
+										/>
+									)}
+								</div>
+							)}
 
 							{section.cards && section.cards.length > 0 && (
 								<ContentCardsBlock

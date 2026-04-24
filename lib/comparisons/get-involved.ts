@@ -125,13 +125,12 @@ export const GET_INVOLVED: ContentPageData = {
 		//      stickers for merchants who already accept Bitcoin.
 		{
 			headingKey: "get_involved_business_header",
-			paragraphs: [
-				[{ key: "get_involved_business_content_1" }],
-			],
+			paragraphs: [],
 			cards: [
 				{
 					type: "learn-more",
 					introParagraphs: [
+						[{ key: "get_involved_business_content_1" }],
 						[
 							{ key: "get_involved_business_content_2" },
 							{
