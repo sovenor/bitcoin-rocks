@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-04-24T12:38:31.315Z",
+	"generatedAt": "2026-04-24T13:09:59.164Z",
 	"totalNamespaces": 38,
 	"totalKeys": 1852,
 	"namespaces": {
@@ -1163,7 +1163,7 @@
 			}
 		},
 		"get-involved": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
 				"get_involved_and_help_spread_bitcoin": "Get involved and spread Bitcoin",
 				"get_involved_biz_stickers_note": "Already accepting Bitcoin? Let customers know with our free 'Bitcoin Accepted Here' stickers. We'll ship a pack to any address in the USA or Canada, or you can print your own anywhere in the world.",

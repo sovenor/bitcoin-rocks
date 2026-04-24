@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
-	}
+	},
+	"biz_sticker_success_hero_title": "Dine klistermærker er på vej 🎉",
+	"biz_sticker_success_hero_subtitle": "Du modtager dine gratis „Bitcoin modtages her“-klistermærker om 2 til 4 uger i en almindelig hvid konvolut med 3 klistermærker.",
+	"biz_sticker_success_tips_header": "Gode steder at sætte dine klistermærker",
+	"biz_sticker_success_tip_1": "På din hoveddør eller vindue, så kunderne ser dem, før de kommer ind",
+	"biz_sticker_success_tip_2": "Nær kassen, betalingsterminalen eller stedet, hvor kunder betaler",
+	"biz_sticker_success_tip_3": "På menuer, prislister eller drikkepengeglas",
+	"biz_sticker_success_tip_4": "Sæt dem ikke steder, du ikke ejer eller ikke har tilladelse til at sætte klistermærker",
+	"biz_sticker_success_more_header": "Har du brug for flere klistermærker?",
+	"biz_sticker_success_more_c1": "Hvis 3 klistermærker ikke er nok til din virksomhed, er du velkommen til at anmode om en anden gratis pakke — eller bestil i bulk fra samme printer, som vi bruger.",
+	"biz_sticker_success_btn_order_bulk": "Bestil i bulk",
+	"biz_sticker_success_btn_request_more": "Anmod om endnu en gratis pakke"
 }

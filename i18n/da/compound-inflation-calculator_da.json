@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"cic_header": "BEREGNER FOR SAMMENSAT INFLATION",
 	"cic_description": "Brug denne beregner for sammensat inflation til at finde ud af, hvor meget din løn skal stige for at følge med inflationen.",
-	"cic_inflation_cta": "Fravælg inflation med Bitcoin"
+	"cic_hero_subtitle": "Find ud af, hvor meget din løn skal stige for at følge med inflationen.",
+	"cic_calculator_heading": "Beregn dit inflationsgab",
+	"cic_cta_label": "Næste skridt",
+	"cic_inflation_cta": "Fravælg inflation med Bitcoin",
+	"cic_next_learn_inflation": "Lær hvordan inflation fungerer",
+	"cic_next_explore_topics": "Udforsk flere emner",
+	"cic_next_explore_topics_desc": "Se hvordan Bitcoin relaterer sig til penge, frihed, energi og mere.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — forbrugerprisindeks for alle byforbrugere",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1-pengemængde"
 }

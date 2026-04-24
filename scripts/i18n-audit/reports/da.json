@@ -1,0 +1,39 @@
+{
+	"lang": "da",
+	"generatedAt": "2026-04-24T13:21:47.078Z",
+	"englishSnapshotGeneratedAt": "2026-04-24T13:09:59.164Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-24T13:21:40.231Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 2,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1189,
+		"brandIdentical": 104
+	},
+	"entries": [
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_3",
+			"reason": "untranslated",
+			"englishValue": "inflation",
+			"currentValue": "inflation",
+			"targetTranslation": null
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_type",
+			"reason": "untranslated",
+			"englishValue": "Type:",
+			"currentValue": "Type:",
+			"targetTranslation": null
+		}
+	]
+}

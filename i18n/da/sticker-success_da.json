@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"sticker_success_1": "Du vil modtage dine klistermærker inden for 2 til 4 uger. I mellemtiden kan du tænke på et godt sted til dine klistermærker!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "på steder, hvor de sandsynligvis ikke fjernes hurtigt (klistermærkerne forårsager ingen permanent skade)",
 	"sticker_success_list_3": "på overflader, de nemt klæber til (metal, plastik, glas)",
 	"sticker_success_list_4": "IKKE på privat ejendom, over skilte, pengeautomater eller tankstationer",
-	"sticker_success_3": "Vil du se, hvor andre placerer deres klistermærker?"
+	"sticker_success_3": "Vil du se, hvor andre placerer deres klistermærker?",
+	"sticker_success_hero_title": "Dine klistermærker er på vej 🎉",
+	"sticker_success_tips_header": "Gode steder at sætte klistermærker",
+	"sticker_success_share_header": "Del hvor du har sat klistermærkerne op",
+	"sticker_success_bulk_header": "Har du brug for flere klistermærker?",
+	"sticker_success_btn_order_bulk": "Bestil i bulk",
+	"sticker_success_btn_share_on_nostr": "Del på Nostr",
+	"sticker_success_btn_what_is_nostr": "Hvad er Nostr?"
 }

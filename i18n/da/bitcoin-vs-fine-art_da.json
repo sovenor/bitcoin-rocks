@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs kunst",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kryptografisk verificerbart",
 	"bitcoin_point_6": "Svært at ødelægge",
 	"bitcoin_point_7": "Tilgængeligt for alle",
-	"point_1_summary_1": "Bitcoin er perfekt fungibelt, hvilket betyder, at hver bitcoin er identisk og udskiftelig – én bitcoin er lig med én bitcoin hvor som helst i verden. Kunst er ikke-fungibel af natur, med hvert stykke unikt i sin skabelse, historie, tilstand og proveniens, hvilket gør direkte sammenligninger og værdiansættelser ekstremt vanskelige.",
-	"point_2_summary_1": "Bitcoin handles på et globalt 24/7-marked, hvor enhver med internetadgang kan købe eller sælge øjeblikkeligt. Kunst kræver specialiserede auktionshuse som Sotheby's eller Christie's, private forhandlere eller eksklusive gallerier. Salg kan tage måneder at arrangere og gennemføre, med begrænset markedsadgang og uregelmæssige handelsmuligheder.",
-	"point_3_summary_1": "At købe eller sælge bitcoin koster typisk mindre end 1% i gebyrer, ofte meget mindre. Kunstsalg involverer betydelige omkostninger inklusive køberpræmier (10-25%), sælgerprovision (10-15%), forsikring, transport, opbevaring og autentificeringsgebyrer. Disse kombinerede omkostninger kan nemt overstige 30-40% af kunstværkets værdi i en enkelt transaktion.",
-	"point_4_summary_1": "Bitcoin kan deles i 100 millioner mindre enheder kaldet satoshis, hvilket gør det perfekt til transaktioner af enhver størrelse fra mikrobetalinger til store køb. Kunst kan ikke deles – du kan ikke eje en brøkdel af et maleri eller sælge kun en del af en skulptur. Denne udelelighed begrænser investeringsfleksibilitet og likviditetsmuligheder.",
-	"point_5_summary_1": "Bitcoin-ejerskab og ægthed kan kryptografisk verificeres på blockchainen af enhver med grundlæggende teknisk viden. Kunst kræver dyr ekspertautentificering, proveniensforskning og videnskabelig analyse. Selv med ekspertverificering narrer forfalskninger regelmæssigt kunstverdenen, og autentificeringstvister kan ødelægge et kunstværks værdi over natten. Bitcoin kan derimod ikke forfalskes.",
-	"point_6_summary_1": "Bitcoin kan, når det er sikkerhedskopieret korrekt, ikke ødelægges af oversvømmelser, brande, jordskælv, orkaner, tyveri eller andre katastrofer. Kunst er sårbar over for alle former for fysisk ødelæggelse og forringelse. Selv med dyr klimakontrolleret opbevaring og omfattende forsikring kan kunstværker blive beskadiget af miljøfaktorer, ulykker eller naturkatastrofer og potentielt miste al værdi.",
-	"point_7_summary_1": "Bitcoin kan købes og sælges af enhver med internetadgang og et lille beløb at investere. Kunstinvestering er i stor grad begrænset til velhavende samlere på grund af høje minimumspriser, eksklusiv auktionstilgang, opbevaringskrav, forsikringsomkostninger og den specialiserede viden, der kræves for at navigere kunstmarkedet med succes."
+	"point_1_summary_1": "Hver bitcoin er identisk og ombyttelig. Hvert kunstværk er unikt — forskellig oprindelse, historie, tilstand og proveniens gør direkte sammenligning ekstremt vanskelig.",
+	"point_2_summary_1": "Bitcoin handles 24/7 på et globalt marked, der er tilgængeligt for alle. Billedkunst kræver specialiserede auktionshuse, private handlere eller gallerier, og salg kan tage måneder.",
+	"point_3_summary_1": "At købe eller sælge Bitcoin koster mindre end 1 % i gebyrer, ofte langt mindre. Kunstsalg stabler 30-40 % op i buyer's premiums, kommissioner, forsikring, transport og autentificeringsgebyrer.",
+	"point_4_summary_1": "Bitcoin kan deles op i 100 millioner satoshi, hvilket gør det ideelt til transaktioner af enhver størrelse. Du kan ikke eje en del af et maleri eller et hjørne af en skulptur uden modpartsrisiko.",
+	"point_5_summary_1": "Bitcoin-ejerskab og ægthed kan verificeres kryptografisk af enhver på blockchainen. Autentificering af kunst er dyrt, langsomt og bliver regelmæssigt narret af forfalskere — hvilket ødelægger et værks værdi fra den ene dag til den anden.",
+	"point_6_summary_1": "Korrekt backuppet Bitcoin overlever oversvømmelser, brande, jordskælv og tyveri. Billedkunst er sårbar over for alle former for fysisk ødelæggelse, og forsikring dækker sjældent alt.",
+	"point_7_summary_1": "Alle med internetforbindelse og lidt penge kan købe Bitcoin. Kunstinvestering er praktisk talt begrænset til velhavende samlere med adgang til auktioner og specialiseret viden.",
+	"hero_title": "Forskellen mellem <span class=\"orange\">Bitcoin</span> og <span class=\"asset\">billedkunst</span>"
 }

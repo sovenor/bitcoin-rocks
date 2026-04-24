@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs kontanter",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Decentraliseret netværk",
 	"bitcoin_point_6": "Digital selvopbevaring",
 	"bitcoin_point_7": "Nemt delbart",
-	"point_1_summary_1": "Bitcoin kan sendes hvor som helst i verden øjeblikkeligt over internettet, mens kontanter kræver fysisk tilstedeværelse eller betroede mellemmænd. Du kan ikke sende kontanter via e-mail, men du kan sende Bitcoin til enhver med internetforbindelse på minutter.",
-	"point_2_summary_1": "Bitcoin fungerer på samme måde overalt i verden – der er ingen grænser i Bitcoin-netværket. Kontanter er begrænset af geografi, valutakurser og lokal accept. Prøv at bruge amerikanske dollar på landet i Thailand eller japanske yen på landet i Mexico.",
-	"point_3_summary_1": "Myndigheder kan og ugyldiggør kontanter over natten gennem demonetiseringspolitik, som Indien gjorde i 2016, da de forbød visse sedler.",
-	"point_3_summary_2": "Selv uden at forbyde visse sedler devaluerer myndigheder konstant kontanter gennem inflation.",
-	"point_3_summary_3": "Bitcoin kan ikke ugyldiggøres af nogen myndighed – det eksisterer på et globalt, decentraliseret netværk, som ingen enkelt enhed kontrollerer.",
-	"point_4_summary_1": "Kontanter kan forfalskes, og det er ofte svært at opdage falske sedler uden specialudstyr. Selv med sikkerhedsfunktioner fortsætter falske kontanter med at cirkulere. Bitcoin bruger kryptografisk bevis, der gør forfalskning matematisk umuligt.",
-	"point_5_summary_1": "Kontanter udstedes og kontrolleres af myndigheder, der kan trykke flere efter ønske, ændre design eller erklære visse sedler ugyldige. Bitcoin fungerer på et decentraliseret netværk, hvor ingen enkelt myndighed har kontrol over pengemængden eller reglerne.",
-	"point_6_summary_1": "Kontanter skal opbevares fysisk, hvilket gør dem sårbare over for tyveri, tab, brand eller beslaglæggelse. Store beløb kræver dyre sikkerhedsforanstaltninger.",
-	"point_6_summary_2": "Men Bitcoin kan sikkert opbevares i selvopbevaring",
-	"point_6_summary_3": "ved hjælp af en smartphone-app eller en specialiseret wallet, hvilket giver dig fuld kontrol over dine penge uden fysiske opbevaringsrisici.",
-	"point_7_summary_1": "Kontanter har minimumsvalører – du kan ikke dele en øre i mindre dele. Bitcoin kan deles i 100 millioner mindre enheder kaldet satoshis, som muliggør mikrobetalinger og præcise transaktioner af ethvert beløb."
+	"point_1_summary_1": "Bitcoin flytter sig overalt i verden via internettet på minutter. Kontanter kræver fysisk tilstedeværelse eller betroede kurerer — du kan ikke sende en tyverseddel via e-mail.",
+	"point_2_summary_1": "Bitcoin fungerer på samme måde overalt. Kontanter er begrænset af geografi, vekselkurser og lokal accept.",
+	"point_3_summary_1": "Regeringer kan gøre kontanter ugyldige fra den ene dag til den anden — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indien</a> gjorde det i 2016. Men selv uden demonetisering taber kontanter værdi på grund af",
+	"point_3_summary_2": "inflation.",
+	"point_3_summary_3": "Bitcoin kan ikke gøres ugyldig af nogen regering eller myndighed.",
+	"point_4_summary_1": "Kontanter kan forfalskes, nogle gange overbevisende. Bitcoin bruger kryptografi, der gør forfalskning matematisk umulig.",
+	"point_5_summary_1": "Bitcoin har ingen central myndighed. Kontanter udstedes af regeringer, som kan trykke mere, ændre design eller trække sedler ud af cirkulation efter forgodtbefindende.",
+	"point_6_summary_1": "Kontanter er sårbare over for tyveri, brand, tab og konfiskation. Bitcoin kan sikkert ",
+	"point_6_summary_2": "opbevares i selvforvaring",
+	"point_6_summary_3": " på din telefon eller en hardware-enhed.",
+	"point_7_summary_1": "Bitcoin kan deles op i 100 millioner satoshi, hvilket muliggør mikrobetalinger i enhver størrelse. Kontanter har mindste pålydende — du kan ikke opdele en krone.",
+	"hero_title": "Forskellen mellem <span class=\"orange\">Bitcoin</span> og <span class=\"asset\">kontanter</span>"
 }

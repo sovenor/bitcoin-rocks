@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"how_to_accept_bitcoin_payments": "Sådan accepterer du Bitcoin-betalinger",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Egen hosting = 0% gebyrer",
 	"wallets_feature_online_store": "Webshop-integration",
 	"wallets_feature_invoicing": "Gratis faktureringsprogram",
-	"wallets_get_wallet": "FÅ WALLET"
+	"wallets_get_wallet": "FÅ WALLET",
+	"wallets_hero_subtitle": "Bitcoin-wallets er gratis. Vælg den, der passer til din virksomhed — personligt, online eller faktureret — og begynd at tage imod Bitcoin på få minutter.",
+	"wallets_section_sole": "Wallets til enkeltmandsvirksomheder",
+	"wallets_section_sole_intro": "Hvis du driver en butik, café, studie eller service på egen hånd, vil enhver af disse wallets fungere for dig. Vælg baseret på, om du vil beholde betalinger i Bitcoin eller automatisk konvertere noget af hver betaling til din lokale valuta.",
+	"wallets_section_multiple": "Wallets til virksomheder med flere medarbejdere",
+	"wallets_section_multiple_intro": "Hvis du har et team, der tager imod betalinger i kassen, så vælg en wallet, der understøtter flere medarbejderlogin — så hver medarbejder får deres egen PIN, og du holder rene optegnelser over, hvem der tog imod hvilken betaling.",
+	"wallets_section_online": "Wallets til onlinevirksomheder",
+	"wallets_section_online_intro": "Sælger du på nettet? Disse wallets kobles ind i din onlinebutik og tager imod Bitcoin fra enhver kunde overalt i verden — ingen chargebacks og ingen handelskonto nødvendig.",
+	"wallets_section_invoice": "Wallets til virksomheder, der fakturerer kunder",
+	"wallets_section_invoice_intro": "Hvis du fakturerer kunder (rådgivning, freelance, B2B-tjenester), brug en wallet bygget omkring fakturering. Din kunde betaler Bitcoin-fakturaen med et par klik.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business lader dig tage imod Bitcoin- og Lightning-betalinger med nul gebyrer og øjeblikkelig afregning. Det understøtter personlige, online- og fakturabetalinger med valgfri automatisk konvertering til din lokale valuta.",
+	"sources_square": "Square — tag imod Bitcoin-betalinger",
+	"sources_breez_business": "Breez — Bitcoin-only Lightning-wallet",
+	"sources_opennode": "OpenNode — Bitcoin-betalingsbehandler",
+	"sources_ibex": "IBEX — infrastruktur til Lightning-betalinger",
+	"sources_zaprite": "Zaprite — Bitcoin-fakturering for virksomheder",
+	"biz_wallets_meta_description": "Alle Bitcoin-wallets fungerer sammen — vælg den, der passer til din virksomhed. Gratis, øjeblikkelig afregning, ingen chargebacks."
 }

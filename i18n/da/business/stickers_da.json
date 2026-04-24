@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_accepted_here_stickers": "Klistermærker – Bitcoin accepteres her",
+	"biz_stickers_hero_title": "Gratis „Bitcoin modtages her“-klistermærker",
+	"biz_stickers_hero_subtitle": "Lad kunderne vide, at du tager imod Bitcoin. Bestil en gratis pakke „Bitcoin modtages her“-klistermærker at sætte op i din butik.",
+	"biz_stickers_intro_c1": "At tage imod Bitcoin er kun halvdelen af arbejdet — dine kunder skal også vide, at du accepterer det. Disse små „Bitcoin modtages her“-klistermærker er designet til at sidde på din hoveddør, kasse, menu eller hvor som helst kunder vil se dem, før de betaler.",
+	"biz_stickers_intro_c2": "Vi sender dig en gratis pakke til enhver adresse i USA eller Canada, eller du kan printe dine egne hvor som helst i verden.",
+	"biz_stickers_step_header": "Hvordan vil du have dine klistermærker?",
+	"biz_stickers_step_description": "Vi sender en gratis pakke til adresser i USA og Canada. Alle andre steder i verden kan du printe dine egne.",
+	"biz_stickers_option_usa": "🇺🇸 USA — gratis med posten",
+	"biz_stickers_option_canada": "🇨🇦 Canada — gratis med posten",
+	"biz_stickers_option_print": "🌍 Verdensomspændende — print dine egne",
+	"biz_stickers_print_header": "Print dine egne klistermærkefiler",
+	"biz_stickers_print_c1": "Du kan printe dine egne „Bitcoin modtages her“-klistermærker uanset hvor du bor. Klik på dit sprog nedenfor for at downloade klistermærkefilerne og printinstruktioner.",
+	"biz_stickers_request_header": "Kan du ikke se dit sprog?",
+	"biz_stickers_request_c1": "Udfyld formularen nedenfor for at anmode om „Bitcoin modtages her“-klistermærkefiler på dit lokale sprog. Vi giver dig besked, så snart de er klar.",
+	"biz_stickers_placeholder_translation1": "Oversættelse af udtrykket „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Oversættelse af udtrykket „Scan to learn why Bitcoin is good for business.“",
 	"stickers_request": "Bestil gratis klistermærker"
 }

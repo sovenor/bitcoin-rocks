@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-wallet-guide",
 	"lightning_description": "Lightning-wallets gør det muligt at sende Bitcoin hurtigt og billigt, mens du opretholder din personlige suverænitet.",
 	"lightning_header": "LIGHTNING-WALLET-GUIDE",
+	"lightning_header_subtitle": "Lightning lader dig sende Bitcoin på sekunder for en brøkdel af en øre — vælg en wallet, hvis afvejninger matcher, hvor meget Bitcoin du planlægger at bruge.",
 	"lightning_s1_c1": "Lightning gør det muligt at sende Bitcoin-betalinger hurtigt og billigt.",
 	"lightning_s1_c2": "Det er vigtigt at vide, at brug af Lightning indebærer kompromiser. Til gengæld for hurtigere, billigere Bitcoin-betalinger ofrer du ofte noget sikkerhed.",
 	"lightning_s1_c3": "Generelt bør Lightning kun bruges med små beløb bitcoin. Du bør kun opbevare store beløb bitcoin i en hardware-wallet.",
-	"lightning_s1_c4": "Tjek vores hardware-wallet-guide for mere information.",
+	"lightning_s1_c4": "Se vores",
+	"lightning_s1_c4_link": "Guide til Bitcoin-hardware-wallets",
+	"lightning_s1_c4_end": "for mere information.",
 	"lightning_s1_c5": "Ikke alle Lightning-wallets er ens. Du kan afgøre, hvilken wallet der har den rette balance af kompromiser for dig ved at stille ét simpelt spørgsmål:",
 	"lightning_question_1": "HVILKEN KOMPROMISBALANCE ER RIGTIG FOR MIG?",
 	"lightning_s2_c1": "En af innovationerne ved Bitcoin er muligheden for at opbevare det uden at stole på en forvalter, som en bank. Selvopbevarende wallets låser op for den fulde kraft af Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Disse wallets ligner mere banksystemet, hvor du skal stole på en tredjepart for at give dig adgang til dine penge. Hvis din Bitcoin er på en børs, bruger du en forvarende wallet.",
 	"lightning_s3_c3": "Forvarende wallets kan virke praktiske, men forvalteren har den tekniske mulighed for at stjæle alle brugermidler når som helst.",
 	"lightning_s3_c4": "Nogle foretrækker forvarende Lightning-wallets til små beløb bitcoin på grund af brugervenligheden. Bare husk: ikke dine nøgler, ikke dine mønter!",
+	"lightning_grid_heading": "Populære Lightning-wallets",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Fantastisk til forhandlere",
 	"lightning_custodial": "Helt forvarende wallet",
-	"lightning_cta_hardware": "Leder du efter vores Bitcoin hardware-wallet-guide?"
+	"lightning_cta_hardware": "Leder du efter vores Bitcoin hardware-wallet-guide?",
+	"lightning_hardware_cta_label": "Hardware-wallets",
+	"sources_lightning_paper": "Joseph Poon og Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning-wallet",
+	"sources_breez_lightning": "Breez — selvforvaret Lightning-wallet",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — depot-Lightning-wallet",
+	"sources_lightning_labs": "Lightning Labs — dokumentation for Lightning Network"
 }
