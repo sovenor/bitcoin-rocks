@@ -9,8 +9,10 @@
  *
  * V2 redesign notes:
  *   - Single H1 "About bitcoin.rocks" in regular case (not caps)
- *   - "Our Mission" section is centered (`centered: true`) for a
- *     hero-style standout feel
+ *   - "Our Mission" section is boxed (`boxed: true`) — rendered
+ *     inside a V2 surface card with a border, matching the intro
+ *     card on `/get-involved`. The "Our Mission" H2 stays inside
+ *     the box.
  *   - Inline link to `sovenor` (via `SummaryFragment.href`) in the
  *     first paragraph of the mission
  *   - Each section's links become learn-more cards after the prose
@@ -33,12 +35,14 @@ export const ABOUT: ContentPageData = {
 	descriptionKey: "about_page_description",
 	sections: [
 		// ─── Our Mission ─────────────────────────────────────────
-		// Centered hero-style section. First paragraph embeds an
-		// inline link to https://github.com/sovenor on the word
-		// "sovenor".
+		// Boxed intro matching the top intro card on `/get-involved`
+		// and `/stickers`: a V2 surface card with a border wrapping
+		// both the "Our Mission" H2 and the mission prose. First
+		// paragraph embeds an inline link to https://github.com/sovenor
+		// on the word "sovenor".
 		{
 			headingKey: "about_mission_header",
-			centered: true,
+			boxed: true,
 			paragraphs: [
 				[
 					{ key: "about_mission_1a" },
