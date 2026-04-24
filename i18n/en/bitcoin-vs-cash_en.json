@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "en"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Cash",
@@ -28,7 +28,7 @@
 	"bitcoin_point_7": "Easily divisible",
 	"point_1_summary_1": "Bitcoin moves over the internet anywhere in minutes. Cash needs physical presence or trusted couriers — you can't email a $20 bill.",
 	"point_2_summary_1": "Bitcoin works the same way everywhere. Cash is limited by geography, exchange rates, and local acceptance.",
-	"point_3_summary_1": "Governments can invalidate cash overnight — India did it in 2016. Even without demonetization, cash loses value to",
+	"point_3_summary_1": "Governments can invalidate cash overnight — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> did it in 2016. Even without demonetization, cash loses value to",
 	"point_3_summary_2": "inflation.",
 	"point_3_summary_3": "Bitcoin can't be invalidated by any government or authority.",
 	"point_4_summary_1": "Cash can be counterfeited, sometimes convincingly. Bitcoin uses cryptography that makes counterfeiting mathematically impossible.",

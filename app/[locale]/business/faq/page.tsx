@@ -218,8 +218,22 @@ export default async function BusinessFaqPage({
 								</p>
 								<p>{t("faq_s4_c3")}</p>
 								<ul>
-									<li>{t("faq_s4_c4")}</li>
-									<li>{t("faq_s4_c5")}</li>
+									<li>
+										<a
+											href={`${l}/bank-runs`}
+											className="body-link"
+										>
+											{t("faq_s4_c4")}
+										</a>
+									</li>
+									<li>
+										<a
+											href={`${l}/inflation`}
+											className="body-link"
+										>
+											{t("faq_s4_c5")}
+										</a>
+									</li>
 								</ul>
 								<p>{t("faq_s4_c6")}</p>
 								<p>{t("faq_s4_c7")}</p>

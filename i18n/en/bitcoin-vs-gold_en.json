@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "en"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Gold",
@@ -27,8 +27,8 @@
 	"bitcoin_point_6": "Easy to verify",
 	"bitcoin_point_7": "Easy to divide",
 	"point_1_summary_1": "Bitcoin can be sent instantly over the internet for low fees. Gold must be physically shipped to transfer ownership.",
-	"point_2_summary_1": "Bitcoin is a digitally native asset you can transfer over the internet. Most online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
-	"point_3_summary_1": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat",
+	"point_2_summary_1": "Bitcoin is a digitally native asset you can transfer over the internet. Online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
+	"point_3_summary_1": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6% per year</a>, shrinking your slice — less than fiat",
 	"point_3_summary_2": "inflation",
 	"point_3_summary_3": "— but still inflation.",
 	"point_4_summary_1": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million.",
