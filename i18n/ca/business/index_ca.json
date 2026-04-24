@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin és bo per als negocis",
+	"business_hero_subtitle": "Accepta pagaments amb comissions més baixes, rep els teus diners a l'instant i arriba a milions de nous clients — sense contractes ni costos amagats.",
+	"business_intro_c1": "Bitcoin dóna al teu negoci una manera de cobrar més ràpid, més barat i més personal. Sense intermediaris. Sense devolucions. Sense contractes. Només diners que es liquiden directament dels teus clients a tu en qüestió de segons.",
+	"business_intro_c2": "A continuació hi ha la versió curta de per què Bitcoin és bo per als negocis — i a sota, tots els recursos que necessites per començar a acceptar-lo avui.",
 	"biz_s1": "Comissions baixes sense mínims",
 	"biz_s1_c1": "Bitcoin et permet rebre pagaments directament dels teus clients, com els diners en efectiu. La xarxa Bitcoin funciona sense intermediaris com bancs i empreses de targetes de crèdit que cobren comissions elevades.",
 	"biz_s2": "Liquidació instantània",
@@ -17,5 +20,14 @@
 	"biz_s4": "Aconsegueix més clients",
 	"biz_s4_c1": "Milions de persones tenen Bitcoin i volen gastar els seus Bitcoin en llocs que l'acceptin.",
 	"biz_s4_c2": "Simplement acceptant Bitcoin, el teu negoci pot aparèixer als mapes de comerços Bitcoin i obtenir exposició gratuïta a nous clients de Bitcoin.",
-	"biz_s4_c3": "Acceptar Bitcoin és 100% gratuït. No hi ha contractes ni comissions ocultes."
+	"biz_s4_c3": "Acceptar Bitcoin és 100% gratuït. No hi ha contractes ni comissions ocultes.",
+	"business_resources_heading": "Tot el que necessites per acceptar Bitcoin",
+	"business_resources_intro": "Treballa a través d'aquests recursos al teu propi ritme. Cadascun és una guia breu i pràctica.",
+	"biz_label_wallets": "Carteres",
+	"biz_label_maps": "Mapa de comerciants",
+	"biz_label_stickers": "Adhesius",
+	"biz_label_rewards": "Recompenses",
+	"biz_label_accounting": "Comptabilitat",
+	"biz_label_faq": "PMF",
+	"biz_meta_description": "Accepta Bitcoin al teu negoci per obtenir comissions més baixes, liquidació instantània, zero devolucions i més clients."
 }

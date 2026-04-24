@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Bancs",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Comissions previsibles i baixes",
 	"bitcoin_point_6": "No es pot sobrepassar",
 	"bitcoin_point_7": "Resistent a la censura",
-	"point_1_summary_1": "Bitcoin no necessita permís, la qual cosa significa que qualsevol persona amb accés a Internet pot utilitzar-lo sense demanar aprovació a cap autoritat.",
-	"point_1_summary_2": "Bitcoin funciona sense guardians",
-	"point_1_summary_3": "- ningú et pot negar l'accés. Els bancs, en canvi, poden negar-se a obrir comptes, congelar comptes existents o negar serveis basant-se en les seves polítiques o regulacions governamentals.",
-	"point_2_summary_1": "La xarxa Bitcoin funciona les 24 hores del dia, els 7 dies de la setmana, els 365 dies de l'any sense finestres de manteniment ni festius. Els bancs tenen horaris d'operació limitats, tanquen els caps de setmana i festius, i sovint tenen períodes de manteniment del sistema quan els serveis no estan disponibles.",
-	"point_3_summary_1": "Totes les transaccions de Bitcoin es registren en una cadena de blocs pública que qualsevol pot verificar i auditar.",
+	"point_1_summary_1": "Qualsevol persona amb connexió a Internet pot utilitzar Bitcoin — és ",
+	"point_1_summary_2": "sense permisos.",
+	"point_1_summary_3": "Els bancs poden rebutjar, congelar o tancar comptes segons polítiques o normes governamentals.",
+	"point_2_summary_1": "La xarxa Bitcoin funciona 24/7, sense pauses de manteniment ni festius. Els bancs tenen horaris limitats, tanquen els caps de setmana i fan pauses.",
+	"point_3_summary_1": "Cada transacció de Bitcoin es troba en una blockchain pública que qualsevol pot auditar. Els bancs mantenen llibres de comptes privats que els clients no poden verificar de forma independent.",
 	"point_3_summary_2": "Els bancs operen amb llibres comptables privats i processos interns opacs que els clients no poden verificar de manera independent.",
-	"point_4_summary_1": "Amb Bitcoin, pots mantenir les teves pròpies claus privades i tenir el control complet sobre els teus diners.",
-	"point_4_summary_2": "Aprèn sobre les carteres Bitcoin",
-	"point_4_summary_3": "per entendre l'autocustòdia. Els bancs guarden els teus diners als seus comptes i poden congelar, limitar o restringir l'accés als teus fons en qualsevol moment.",
-	"point_5_summary_1": "Les comissions de transacció de Bitcoin són transparents, previsibles i generalment molt baixes. Els bancs sovint tenen comissions ocultes, comissions mensuals de compte, càrrecs per descobert, comissions de transferència bancària, comissions de caixers automàtics i altres penalitzacions que poden sumar significativament amb el temps.",
-	"point_6_summary_1": "Bitcoin impedeix que gastis diners que no tens - només pots gastar Bitcoin que realment posseeixes. Els bancs permeten descoberts (gastar més del saldo del teu compte) i després cobren comissions substancials per aquest 'servei', sovint provocant càrrecs de penalització en cascada.",
-	"point_7_summary_1": "Les transaccions de Bitcoin són resistents a la censura - un cop emeses a la xarxa, no poden ser aturades ni revertides per cap autoritat central. Els bancs poden bloquejar, congelar, revertir o restringir transaccions basant-se en les seves polítiques, ordres governamentals o algorismes d'activitat sospitosa."
+	"point_4_summary_1": "Amb Bitcoin, tu tens les teves claus — mira la nostra guia senzilla sobre ",
+	"point_4_summary_2": "carteres de Bitcoin",
+	"point_4_summary_3": ". Els bancs mantenen els teus diners i poden congelar-los, restringir-los o tallar-te l'accés en qualsevol moment.",
+	"point_5_summary_1": "Les comissions de Bitcoin són transparents i predictibles. Els bancs acumulen comissions amagades amb el temps per comptes, descoberts, transferències i caixers.",
+	"point_6_summary_1": "Bitcoin només et permet gastar el que tens. Els bancs permeten descoberts, i després cobren comissions de penalització recurrents per aquest privilegi.",
+	"point_7_summary_1": "Un cop difoses, les transaccions de Bitcoin no es poden aturar ni revertir. Els bancs poden bloquejar, congelar o revertir transaccions segons polítiques o ordres governamentals.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i els <span class=\"asset\">bancs</span>"
 }

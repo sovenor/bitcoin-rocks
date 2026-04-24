@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Accions",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Negociació 24/7",
 	"bitcoin_point_6": "Autocustòdia possible",
 	"bitcoin_point_7": "Actiu d'oferta fixa",
-	"point_1_summary_1": "Quan posseeixes Bitcoin, tens propietat directa de l'actiu mateix. Quan posseeixes accions, posseeixes una participació d'una empresa, la qual cosa significa que la teva inversió depèn del rendiment de l'empresa, les decisions de gestió i l'èxit del negoci.",
-	"point_2_summary_1": "Bitcoin té un límit màxim de 21 milions de BTC que existiran mai.",
-	"point_2_summary_2": "Les empreses poden emetre noves accions en qualsevol moment, diluint el percentatge de propietat dels accionistes existents. Això significa que la teva part de l'empresa es fa més petita quan es creen noves accions.",
-	"point_2_summary_3": "Això és menys que la inflació fiat, però segueix sent dilució.",
-	"point_3_summary_1": "Bitcoin funciona en una xarxa descentralitzada sense cap punt únic de fallada. Les inversions en accions estan subjectes al risc de persona clau - si el director executiu o altres líders crítics marxen, emmalalteixen o prenen decisions dolentes, la teva inversió pot patir significativament. Les empreses depenen molt dels seus equips directius.",
-	"point_4_summary_1": "El preu de Bitcoin es determina purament per l'oferta i la demanda del mercat. Els preus de les accions sovint s'avaluen utilitzant ràtios P/B (Preu-Benefici), que mostren quant paguen els inversors per cada dòlar de beneficis de l'empresa. Ràtios P/B elevats poden indicar accions sobrevalorades, fent més difícil determinar el valor just.",
-	"point_5_summary_1": "Bitcoin es negocia les 24 hores del dia, els 7 dies de la setmana en mercats globals.",
+	"point_1_summary_1": "Bitcoin és un actiu directe que tu posseeixes completament. Les accions són participacions en una empresa — el seu valor depèn de la gestió, el rendiment i les decisions que no controles.",
+	"point_2_summary_1": "Bitcoin té un límit estricte de 21 milions de BTC. Les empreses poden emetre noves accions en qualsevol moment, diluint els accionistes existents — just com la",
+	"point_2_summary_2": "inflació",
+	"point_2_summary_3": " dilueix el valor del diner en paper. Amb Bitcoin, la teva part mai disminueix.",
+	"point_3_summary_1": "Bitcoin no té CEO ni punt únic de fallada. Les accions depenen fortament de la gestió — les males decisions o la marxa d'una persona poden ensorrar el preu.",
+	"point_4_summary_1": "El preu de Bitcoin prové d'un mercat global obert. Les valoracions d'accions es basen en mètriques com les ràtios preu-benefici que poden emmascarar accions sobrevalorades.",
+	"point_5_summary_1": "Bitcoin cotitza globalment 24/7. Les borses de valors només obren en horari comercial els dies laborables.",
 	"point_5_summary_2": "Bitcoin és descentralitzat",
-	"point_6_summary_1": "Amb Bitcoin, pots fer autocustòdia de les teves monedes, la qual cosa significa que realment les posseeixes sense dependre de cap tercer.",
-	"point_6_summary_2": "L'autocustòdia és tan senzilla com descarregar una aplicació.",
-	"point_6_summary_3": "Les accions requereixen un compte de corretatge i estàs subjecte al risc de contrapart - si l'empresa fa fallida o el corredor falla, podries perdre la teva inversió.",
-	"point_7_summary_1": "Bitcoin és un actiu d'oferta fixa amb un límit màxim de 21 milions de Bitcoin que existiran mai. Això el fa una gran cobertura contra la inflació. Les accions tenen un rendiment variable contra la inflació - algunes empreses ho fan bé durant períodes inflacionaris mentre que altres lluiten. No hi ha garantia que cap acció en particular protegeixi contra la inflació."
+	"point_6_summary_1": "Pots autocustodiar Bitcoin amb",
+	"point_6_summary_2": "programari senzill",
+	"point_6_summary_3": " — sense necessitat de cap corredor. Les accions resideixen a les empreses de corretatge, exposant-te al risc de contrapart si fallen.",
+	"point_7_summary_1": "L'oferta fixa de Bitcoin el converteix en una cobertura fiable contra la inflació. Algunes accions superen la inflació, altres no — no hi ha garanties.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i les <span class=\"asset\">accions</span>"
 }

@@ -297,7 +297,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [x] `az` — Azerbaijani
 - [x] `bg` — Bulgarian
 - [x] `bn` — Bengali
-- [ ] `ca` — Catalan
+- [x] `ca` — Catalan (2026-04-23; 1,016 entries → 0 flagged. Report broken into 4 helper scripts under `scripts/ca-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via templated function + 41 non-currency keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages), `translate-rest-part2.js` (453 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (2 untranslated keys: `common_stickers_dimensions` → "Mides:" and `common_stickers_material` → "Material de l'adhesiu:" — both spelled identically to English in standard Catalan, so needed locale-distinct rewording). All 4 verification checks passed on first apply — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 4,349 static pages.)
 - [ ] `cs` — Czech
 - [ ] `da` — Danish
 - [ ] `de` — German
@@ -387,7 +387,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 6 |
+| Per-language re-translation (Step 5) | 54 | 7 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

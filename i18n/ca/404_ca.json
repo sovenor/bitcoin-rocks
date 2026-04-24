@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"404_title": "404 Error | Pàgina no trobada",
-	"404_message": "AQUESTA PÀGINA TRENCADA NO TÉ VALOR",
-	"404_home": "TORNA A L'INICI"
+	"404_message": "Bitcoin és genial, però aquesta pàgina trencada no ho és.",
+	"404_home": "Tornar a la pàgina d'inici",
+	"404_not_found_short": "No trobat"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Or",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Descentralitzat",
 	"bitcoin_point_6": "Fàcil de verificar",
 	"bitcoin_point_7": "Fàcil de dividir",
-	"point_1_summary_1": "Com que Bitcoin és digital, es pot enviar gairebé instantàniament amb comissions molt baixes per qualsevol persona amb connexió a Internet. Com que l'or és físic, no es pot moure per Internet i s'ha d'enviar físicament per transferir la propietat.",
-	"point_2_summary_1": "Bitcoin és un actiu natiu digital, la qual cosa significa que pots transferir la propietat completa a través d'Internet. Algunes empreses ofereixen la possibilitat de comprar or en línia sense rebre l'or físic real, confiant en canvi en l'empresa per guardar l'or per tu. Això és més com un Pagaré Digital ja que només posseeixes una promesa de l'empresa en lloc de l'actiu real.",
-	"point_3_summary_1": "Bitcoin té un límit màxim de 21 milions de BTC que existiran mai.",
-	"point_3_summary_2": "Cada any s'extreu nou subministrament d'or de la terra, provocant inflació de l'oferta total. S'estima que l'oferta total d'or augmenta aproximadament un 1,6% anual, la qual cosa significa que la teva part del pastís disminueix un 1,6% cada any.",
-	"point_3_summary_3": "Això és menys que la inflació fiat, però segueix sent inflació.",
-	"point_4_summary_1": "L'or té una oferta elàstica, la qual cosa significa que a mesura que el preu de l'or puja, hi ha un major incentiu per extreure més or. Això sovint exerceix pressió a la baixa sobre el preu de l'or a mesura que noves mines entren en funcionament.",
+	"point_1_summary_1": "Bitcoin es pot enviar instantàniament a través d'Internet amb comissions baixes. L'or s'ha d'enviar físicament per transferir la propietat.",
+	"point_2_summary_1": "Bitcoin és un actiu digital nadiu que pots transferir per Internet. La majoria d'or en línia és un rebut digital — només tens la promesa d'un custodi, no el metall en si.",
+	"point_3_summary_1": "Bitcoin té un límit estricte de 21 milions de BTC. L'oferta d'or creix aproximadament un 1,6% anual, reduint la teva part — menys que la",
+	"point_3_summary_2": "inflació",
+	"point_3_summary_3": " dels diners en paper — però encara inflació.",
+	"point_4_summary_1": "Quan el preu de l'or puja, es mina més or, tornant a fer baixar el preu. L'oferta de Bitcoin és inelàstica — per molt alt que arribi el preu, sempre hi haurà només 21 milions.",
 	"point_4_summary_2": "Amb Bitcoin, per molt que pugi el preu, no es poden crear més de 21 milions de Bitcoin.",
 	"point_4_summary_3": "Bitcoin és el primer actiu amb una relació inelàstica entre preu i oferta.",
-	"point_5_summary_1": "La xarxa Bitcoin és descentralitzada.",
+	"point_5_summary_1": "Milers de nodes independents verifiquen la xarxa Bitcoin. La majoria d'or físic es guarda en cambres cuirassades d'alguns grans custodis.",
 	"point_5_summary_2": "Desenes de milers de nodes independents validen les regles de la xarxa.",
-	"point_6_summary_1": "Amb Bitcoin, és increïblement fàcil verificar que tens Bitcoin real fent autocustòdia de les teves monedes i executant un node complet.",
+	"point_6_summary_1": "Qualsevol pot verificar Bitcoin real executant un node complet — és només programari. L'or físic requereix fondre'l per verificar-lo; podria contenir tungstè a dins.",
 	"point_6_summary_2": "L'autocustòdia és tan senzilla com descarregar una aplicació.",
 	"point_6_summary_3": "Un node complet és un programari senzill que assegura que les regles de la xarxa es compleixen i verifica que tens Bitcoin real.",
-	"point_7_summary_1": "Igual que hi ha 100 cèntims en 1 dòlar, hi ha 100.000.000 sats en 1 Bitcoin. Això permet que Bitcoin s'utilitzi per a tota mena de compres, incloses microtransaccions tan petites com uns quants cèntims.",
-	"point_7_summary_2": "Això fa que Bitcoin sigui bo per als negocis."
+	"point_7_summary_1": "Bitcoin es divideix en 100 milions de satoshis, fent-lo perfecte per a compres de qualsevol mida. L'or no es pot dividir fàcilment en transaccions més petites.",
+	"point_7_summary_2": "Això fa que Bitcoin sigui bo per als negocis.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i l'<span class=\"asset\">or</span>"
 }

@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Preguntes freqüents sobre acceptar Bitcoin",
 	"faq_description": "Tens preguntes sobre acceptar pagaments amb Bitcoin al teu negoci?",
+	"faq_hero_subtitle": "Respostes breus a les preguntes més habituals que fan els negocis abans de començar a acceptar Bitcoin — comissions, liquidació, carteres, devolucions, costos i molt més.",
+	"faq_intro_c1": "Clica cada pregunta a continuació per expandir la resposta. Quan estiguis llest per començar a acceptar Bitcoin, els recursos per a empreses al final de la pàgina et guiaran per cada pas.",
 	"faq_s1": "Què és Bitcoin?",
 	"faq_s1_c1": "Bitcoin és dues coses: diners digitals i una xarxa informàtica.",
 	"faq_s1_c2": "Pots enviar bitcoin (els diners digitals) directament a altres persones utilitzant la Xarxa Bitcoin.",

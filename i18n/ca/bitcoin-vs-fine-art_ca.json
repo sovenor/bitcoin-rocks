@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Belles Arts",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Verificable criptogràficament",
 	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Accessible per a tothom",
-	"point_1_summary_1": "Bitcoin és perfectament fungible, la qual cosa significa que cada bitcoin és idèntic i intercanviable - un bitcoin és igual a un bitcoin a qualsevol lloc del món. Les belles arts són no fungibles per naturalesa, amb cada peça sent única en la seva creació, història, condició i procedència, fent que les comparacions directes i valoracions siguin extremadament difícils.",
-	"point_2_summary_1": "Bitcoin es negocia en un mercat global 24/7 on qualsevol persona amb accés a Internet pot comprar o vendre instantàniament. Les belles arts requereixen cases de subhastes especialitzades com Sotheby's o Christie's, marxants privats o galeries exclusives. Les vendes poden trigar mesos a organitzar i completar, amb accés limitat al mercat i oportunitats de negociació irregulars.",
-	"point_3_summary_1": "Comprar o vendre bitcoin normalment costa menys de l'1% en comissions, sovint molt menys. Les vendes de belles arts impliquen costos substancials incloent primes del comprador (10-25%), comissions del venedor (10-15%), assegurança, transport, emmagatzematge i comissions d'autenticació. Aquests costos combinats poden superar fàcilment el 30-40% del valor de l'obra d'art en una sola transacció.",
-	"point_4_summary_1": "Bitcoin es pot dividir en 100 milions d'unitats més petites anomenades satoshis, fent-lo perfecte per a transaccions de qualsevol mida, des de micropagaments fins a grans compres. Les belles arts no es poden dividir - no pots posseir una fracció d'un quadre ni vendre només part d'una escultura. Aquesta indivisibilitat limita la flexibilitat d'inversió i les opcions de liquiditat.",
-	"point_5_summary_1": "La propietat i autenticitat de Bitcoin es poden verificar criptogràficament a la cadena de blocs per qualsevol persona amb coneixements tècnics bàsics. Les belles arts requereixen autenticació experta costosa, investigació de procedència i anàlisi científica. Fins i tot amb verificació experta, les falsificacions engayen regularment el món de l'art, i les disputes d'autenticació poden destruir el valor d'una obra d'art d'un dia per l'altre. Bitcoin, en canvi, no es pot falsificar ni contrafer.",
-	"point_6_summary_1": "Bitcoin, quan es fa una còpia de seguretat correctament, no pot ser destruït per inundacions, incendis, terratrèmols, huracans, robatoris o altres desastres. Les belles arts són vulnerables a totes les formes de destrucció física i deteriorament. Fins i tot amb un emmagatzematge costós amb control climàtic i una assegurança completa, les obres d'art poden ser danyades per factors ambientals, accidents o desastres naturals, perdent potencialment tot el seu valor.",
-	"point_7_summary_1": "Bitcoin pot ser comprat i venut per qualsevol persona amb accés a Internet i una petita quantitat de diners per invertir. La inversió en belles arts està principalment limitada a col·leccionistes adinerats a causa dels alts preus mínims, l'accés exclusiu a subhastes, els requisits d'emmagatzematge, els costos d'assegurança i el coneixement especialitzat necessari per navegar amb èxit pel mercat de l'art."
+	"point_1_summary_1": "Cada Bitcoin és idèntic i intercanviable. Cada obra d'art és única — creacions, històries, condicions i procedències diferents fan que les comparacions directes siguin difícils.",
+	"point_2_summary_1": "Bitcoin cotitza 24/7 en un mercat global accessible a qualsevol. L'art requereix cases de subhastes especialitzades, marxants privats o galeries i pot trigar mesos a vendre's.",
+	"point_3_summary_1": "Comprar o vendre Bitcoin costa menys de l'1%, sovint molt menys. Les vendes d'art acumulen un 30-40% en primes del comprador, comissions, assegurances, enviaments i comissions d'autenticació.",
+	"point_4_summary_1": "Bitcoin es divideix en 100 milions de satoshis, fent-lo perfecte per a transaccions de qualsevol mida. No pots posseir una part d'una pintura o una cantonada d'una escultura.",
+	"point_5_summary_1": "La propietat i l'autenticitat de Bitcoin es poden verificar criptogràficament per qualsevol a la blockchain. L'autenticació d'art és cara, lenta i encara regularment enganyada per falsificadors — destruint el valor d'una peça d'art de la nit al dia.",
+	"point_6_summary_1": "El Bitcoin emmagatzemat correctament sobreviu a inundacions, incendis, terratrèmols i robatoris. L'art és vulnerable a tots els tipus de destrucció física, i l'assegurança rarament ho cobreix tot.",
+	"point_7_summary_1": "Qualsevol persona amb connexió a Internet i una mica de diners pot comprar Bitcoin. La inversió en art està pràcticament limitada als col·leccionistes rics amb accés a subhastes i coneixement especialitzat.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i les <span class=\"asset\">belles arts</span>"
 }

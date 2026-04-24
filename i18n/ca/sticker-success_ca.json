@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"sticker_success_1": "Rebràs els teus adhesius en 2-4 setmanes. Mentrestant, intenta pensar en un bon lloc per posar els teus adhesius!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "en llocs on és poc probable que s'eliminin ràpidament (els adhesius no causen danys permanents)",
 	"sticker_success_list_3": "en superfícies on s'enganxaran fàcilment (metall, plàstic, vidre)",
 	"sticker_success_list_4": "NO en propietat privada, cobrint senyalització, en caixers automàtics o gasolineres",
-	"sticker_success_3": "Vols veure on posa la gent els seus adhesius?"
+	"sticker_success_3": "Vols veure on posa la gent els seus adhesius?",
+	"sticker_success_hero_title": "Els teus adhesius estan en camí 🎉",
+	"sticker_success_tips_header": "Bons llocs per als adhesius",
+	"sticker_success_share_header": "Comparteix on estan els teus adhesius",
+	"sticker_success_bulk_header": "Vols més adhesius?",
+	"sticker_success_btn_order_bulk": "Comprar a l'engròs",
+	"sticker_success_btn_share_on_nostr": "Comparteix a Nostr",
+	"sticker_success_btn_what_is_nostr": "Què és Nostr?"
 }

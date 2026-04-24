@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
-	}
+	},
+	"biz_maps_success_hero_title": "Sol·licitud rebuda 🎉",
+	"biz_maps_success_hero_subtitle": "Gràcies per enviar el teu negoci. Aviat t'afegirem als mapes de comerciants de Bitcoin.",
+	"biz_maps_success_timeline_header": "Què ve a continuació",
+	"biz_maps_success_timeline_c1": "El teu negoci estarà llistat a BTC Map i a altres directoris de comerciants de Bitcoin en 1-2 setmanes. Cada sol·licitud es revisa manualment per mantenir els mapes precisos.",
+	"biz_maps_success_timeline_c2": "Una vegada el teu llistat estigui en línia, els usuaris de Bitcoin propers podran trobar el teu negoci i venir a gastar Bitcoin.",
+	"biz_maps_success_view_header": "Mira on apareixeràs",
+	"biz_maps_success_view_c1": "Mentre esperes, fes una ullada a BTC Map i veu la xarxa creixent de negocis que accepten Bitcoin a tot el món.",
+	"biz_maps_success_btn_view_map": "Veure BTC Map"
 }

@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_accepted_here_stickers": "Adhesius de 'Bitcoin acceptat aquí'",
+	"biz_stickers_hero_title": "Adhesius gratuïts \"Acceptem Bitcoin\"",
+	"biz_stickers_hero_subtitle": "Fes saber als teus clients que acceptes Bitcoin. Demana un paquet gratuït d'adhesius \"Acceptem Bitcoin\" per enganxar al teu negoci.",
+	"biz_stickers_intro_c1": "Acceptar Bitcoin només és la meitat de la feina — els teus clients també necessiten saber que l'acceptes. Aquests petits adhesius \"Acceptem Bitcoin\" estan dissenyats per enganxar a la teva porta d'entrada, caixa, menú o a qualsevol lloc on els clients mirin abans de pagar.",
+	"biz_stickers_intro_c2": "T'enviarem un paquet gratuït a qualsevol lloc dels EUA o el Canadà, o pots imprimir el teu propi a qualsevol lloc del món.",
+	"biz_stickers_step_header": "Com vols rebre els teus adhesius?",
+	"biz_stickers_step_description": "T'enviarem un paquet gratuït als EUA i al Canadà. Pots imprimir el teu propi a qualsevol lloc del món.",
+	"biz_stickers_option_usa": "🇺🇸 Estats Units — enviament gratuït",
+	"biz_stickers_option_canada": "🇨🇦 Canadà — enviament gratuït",
+	"biz_stickers_option_print": "🌍 Tot el món — ho imprimiré jo mateix",
+	"biz_stickers_print_header": "Imprimeix els teus propis fitxers d'adhesius",
+	"biz_stickers_print_c1": "On sigui que visquis, pots imprimir els teus propis adhesius \"Acceptem Bitcoin\". Clica a la teva llengua a continuació per descarregar els fitxers d'adhesius i les instruccions d'impressió.",
+	"biz_stickers_request_header": "No veus la teva llengua?",
+	"biz_stickers_request_c1": "Omple el formulari a continuació per sol·licitar els fitxers d'adhesius \"Acceptem Bitcoin\" en la teva llengua local. T'avisarem quan estiguin llestos.",
+	"biz_stickers_placeholder_translation1": "Traducció de \"Acceptem Bitcoin\"",
+	"biz_stickers_placeholder_translation2": "Traducció de \"Escaneja per saber per què Bitcoin és bo per als negocis\"",
 	"stickers_request": "Aconsegueix els teus adhesius gratuïts"
 }

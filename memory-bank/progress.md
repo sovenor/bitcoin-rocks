@@ -1,3 +1,10 @@
+## i18n cleanup Step 5 — Catalan (ca) manifest refresh — 2026-04-23
+
+**Counter:** 7/54 languages complete against the V2 manifest.
+
+Seventh locale (af, am, ar, az, bg, bn, ca) — first Romance-language locale in this tier, targeting ~10M Catalan speakers across Catalonia, Valencia, the Balearic Islands, and Andorra. 1,016 entries flagged (464 missing, 2 untranslated, 162 manifest-changed, 388 manifest-added) → 0 flagged after four helper scripts under `scripts/ca-manifest-refresh/` (`translate-inflation.js` for 368 per-currency + shared keys, `translate-rest-part1.js` for 193 comparison/bank-runs/about/404 entries, `translate-rest-part2.js` for 453 remaining namespaces) + `fix-remaining.js` for the 2 `common_stickers_{dimensions,material}` keys that happen to be spelled identically to English in standard Catalan (reworded to `Mides:` and `Material de l'adhesiu:`). Apostrophe contractions (`l'euro`, `l'or`) handled via a templated `de `/`d'` branch in the inflation translator. All 4 verify-language.js checks PASS on first apply. `npm run build` clean across 55 locales × 81 pages (~4,349 static pages). Marker at `scripts/i18n-audit/v2-refresh-status/ca.json` pins manifestVersion `75d5ff1151d50651...`. Report archived to `scripts/i18n-audit/reports/applied/ca-20260424-022611.json`.
+
+---
 ## i18n cleanup Step 5 — Bengali (bn) manifest refresh — 2026-04-23
 
 **Counter:** 6/54 languages complete against the V2 manifest.

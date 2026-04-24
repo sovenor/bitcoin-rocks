@@ -1,3 +1,41 @@
+## Catalan (ca) manifest refresh — April 23, 2026
+
+Ran `/translate-manifest-refresh Catalan` end-to-end. Seventh locale through the manifest-driven refresh pipeline, and the first Romance language in this tier — targeting ~10M Catalan speakers across Catalonia, Valencia, the Balearic Islands, Andorra, and parts of southern France / Sardinia.
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific)
+- Untranslated: 2 (`common::common_stickers_dimensions` and `common::common_stickers_material` — both spelled identically to English in standard Catalan, so the byte-level diff flagged them)
+- Manifest changed: 162 (same for every locale)
+- Manifest added: 388 (same for every locale)
+- → **1,016 entries flagged**
+
+**Work split (four helper scripts under `scripts/ca-manifest-refresh/`):**
+
+1. **`translate-inflation.js`** (368 entries). Templated `t(code, suffix)` function × 13 currencies generates 327 per-currency keys + 41 non-currency keys. The `CURRENCY` table uses Catalan grammatical forms — `longName` (prepositional form for "in X dollars": `"dòlars dels EUA"`, `"euros"`, `"lliures esterlines"`) plus nominative `longNameNom` (`"el dòlar dels EUA"`, `"l'euro"` with apostrophe contraction before vowel) for sentences that need the article. All 13 currencies translated with proper Catalan spelling (dòlars, euros, reals brasilers, rupies índies, iens japonesos, pesos mexicans, pesos filipins, lliures esterlines, xéquels israelians, bahts tailandesos). Stories for Canadà / Nigèria / Pennsilvània / Texas translated. 5 manifest-changed inflation hero keys handled.
+
+2. **`translate-rest-part1.js`** (193 entries). 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages. Comparison hero titles follow the idiomatic Catalan pattern `"Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i els/les <span class=\"asset\">X</span>"` with correct articles (`els bancs`, `les accions`, `l'efectiu`, `l'or`, `les criptomonedes`, `les belles arts`, `els béns immobles`, `els bons`, `les monedes digitals del banc central (CBDC)`). Brand names (Silicon Valley Bank, FRED, FDIC, SVB, ETF, BTC, CBDC, Visa, EndSARS, University of Washington School of Law) preserved verbatim. Catalan decimal uses comma (`1,42%`, `10,82 bilions`).
+
+3. **`translate-rest-part2.js`** (453 entries). Everything else — business/* (153 entries: accounting/faq/index/maps/maps-success/sticker-files/english/index/sticker-language-success/sticker-success/stickers/wallets/why), buy (20), common (50), compound-inflation-calculator (8), flyers (5), get-involved (26), index homepage (62 `home_card_label_*` + nav entries), lightning (11), nostr/index (45), sticker-files/index (1), sticker-language-success (1), sticker-success (7), stickers (36), wallets (11).
+
+4. **`fix-remaining.js`** — 2 untranslated strings that happened to be spelled identically in Catalan and English: `common_stickers_dimensions` ("Dimensions:") → `"Mides:"` and `common_stickers_material` ("Material:") → `"Material de l'adhesiu:"`. The diff script flags any byte-equal target as untranslated, so we reworded to Catalan-distinct forms.
+
+**Application:**
+- `node scripts/i18n-audit/apply-translations.js ca` wrote **1,016 keys across 38 files**.
+- Marker written at `scripts/i18n-audit/v2-refresh-status/ca.json` pinning manifestVersion `75d5ff1151d50651...`.
+- All 4 verification checks passed: marker ✅, locale-specific ✅, manifest coverage ✅, stale pre-V2 English ✅.
+- Report archived to `scripts/i18n-audit/reports/applied/ca-20260424-022611.json`.
+
+**Edge cases / lessons:**
+
+- **Latin-script locale with tiny untranslated set.** Catalan, like Afrikaans before it, renders most technical tokens with orthography close enough to English to trigger the byte-level "untranslated" check. But only two keys actually hit it (`Dimensions:` and `Material:`) — the rest of Catalan's vocabulary genuinely diverges. For both false positives we chose a Catalan-distinct rewording rather than adding them to the `SHORT_ALLOWED_IDENTICAL` / `BRAND_IDENTICAL_VALUES` lists, since they're real content strings (not brand/dataset tokens).
+- **Apostrophe contractions in grammatical articles.** Catalan contracts `la`/`el` + vowel into `l'` (e.g. `"l'euro"`, `"l'or"`, `"l'efectiu"`) and uses a templated branch inside `btc_p2_before` to emit `"de "` vs `"d'"` before the longName based on whether it starts with "l'". This keeps the per-currency template correct for all 13 currencies.
+- **All 4,349 static pages built cleanly** — zero MISSING_MESSAGE errors, zero "Unable to load message" warnings.
+
+**Next locale candidates (Tier 1 global-reach):** `de` (German), `es` (Spanish), `fr` (French), `pt` (Portuguese), `zh` (Chinese), `ja` (Japanese), `ru` (Russian), `hi` (Hindi).
+
+---
+
 ## Bengali (bn) manifest refresh — April 23, 2026
 
 Ran `/translate-manifest-refresh Bengali` end-to-end. Sixth locale through the manifest-driven refresh pipeline, and the first **Bengali-script (Bangla / Eastern Nagari)** locale — targeting a massive ~300M-speaker audience across Bangladesh and West Bengal. Numerals rendered in Bengali digits (০১২৩৪৫৬৭৮৯).

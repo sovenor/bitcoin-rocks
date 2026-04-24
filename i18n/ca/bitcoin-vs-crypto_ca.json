@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Cripto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Diners digitals purs",
 	"bitcoin_point_7": "Antifràgil",
 	"bitcoin_point_8": "Cap entitat el controla",
-	"point_1_summary_1": "El protocol de Bitcoin ha romàs fonamentalment inalterat des de 2009, proporcionant regles previsibles que no es poden modificar fàcilment. La majoria dels projectes cripto actualitzen freqüentment els seus protocols, canvien la tokenòmica o es bifurquen en noves versions, creant incertesa per als usuaris.",
-	"point_2_summary_1": "Bitcoin funciona en una xarxa veritablement descentralitzada amb desenes de milers de nodes independents a tot el món. Molts projectes cripto estan controlats per fundacions, empreses o petits grups de desenvolupadors que poden prendre decisions unilaterals sobre el futur del protocol.",
-	"point_3_summary_1": "Bitcoin té un límit màxim de 21 milions de monedes que existiran mai, fent-lo l'actiu digital més escàs. La majoria de projectes cripto tenen ofertes il·limitades, mecanismes inflacionaris o poden encunyar nous tokens a voluntat, diluint el valor dels posseïdors amb el temps.",
-	"point_4_summary_1": "Bitcoin té un propòsit senzill: diners digitals entre iguals. Qualsevol pot entendre'l i usar-lo amb coneixements bàsics. Molts projectes cripto impliquen contractes intel·ligents complexos, protocols DeFi o mecanismes de governança que requereixen experiència tècnica per usar-los de manera segura.",
-	"point_5_summary_1": "Bitcoin utilitza el consens de Prova de Treball, que ha estat provat en batalla durant més de 15 anys sense un sol atac reeixit a la xarxa principal. Molts projectes cripto utilitzen mecanismes de consens experimentals com Prova de Participació o sistemes delegats que no han demostrat la seva seguretat a llarg termini.",
-	"point_6_summary_1": "Bitcoin serveix com a diners digitals - una reserva de valor i mitjà d'intercanvi. La majoria dels tokens cripto són tokens d'utilitat per a plataformes específiques, tokens de governança o actius especulatius amb proposicions de valor poc clares en el món real.",
-	"point_7_summary_1": "Bitcoin es torna més fort sota atac i ha sobreviscut a cada crisi, prohibició i crítica que se li ha llançat. La majoria dels projectes cripto són fràgils i poden col·lapsar per pressió regulatòria, fallades tècniques o baixades del mercat.",
-	"point_8_summary_1": "Bitcoin no té CEO, cap empresa darrere i cap punt únic de fallada. Molts projectes cripto estan recolzats per empreses de capital risc, tenen equips de lideratge identificables o depenen d'empreses específiques per al seu funcionament continu."
+	"point_1_summary_1": "El protocol de Bitcoin ha estat pràcticament sense canvis des de 2009, proporcionant regles predictibles. La majoria de projectes de cripto canvien constantment els seus protocols o economia de tokens o es bifurquen en noves versions.",
+	"point_2_summary_1": "Bitcoin funciona en milers de nodes independents a tot el món. La majoria de projectes de cripto estan controlats per fundacions, empreses o equips de desenvolupament petits que poden fer canvis unilaterals.",
+	"point_3_summary_1": "Bitcoin té un límit estricte de 21 milions de monedes — el bé digital més escàs. La majoria de projectes de cripto tenen oferta il·limitada o mecanismes per encunyar nous tokens a voluntat, diluint la part dels tenedors.",
+	"point_4_summary_1": "Bitcoin té un propòsit: diner digital peer-to-peer. Qualsevol pot entendre'l i utilitzar-lo. La majoria de cripto implica contractes intel·ligents complexos o DeFi que requereixen experiència tècnica per utilitzar de forma segura.",
+	"point_5_summary_1": "La prova de treball de Bitcoin ha funcionat durant més de 15 anys sense cap atac reeixit a la xarxa principal. La majoria de projectes de cripto utilitzen consens experimental no provat en combat.",
+	"point_6_summary_1": "Bitcoin és diner digital — una reserva de valor i un mitjà d'intercanvi. La majoria de tokens de cripto són especulatius o tokens de governança amb valor real poc clar.",
+	"point_7_summary_1": "Bitcoin es reforça amb els atacs i ha sobreviscut a cada crisi, prohibició i crítica. La majoria de projectes de cripto es col·lapsen sota la pressió regulatòria, tècnica o del mercat.",
+	"point_8_summary_1": "Bitcoin no té CEO, empresa ni punt únic de fallada. La majoria de projectes de cripto depenen de capitalistes de risc, lideratges específics o la supervivència d'una sola empresa.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i les <span class=\"asset\">criptomonedes</span>"
 }
