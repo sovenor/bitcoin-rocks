@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Acciones",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Comercio 24/7",
 	"bitcoin_point_6": "Autocustodia posible",
 	"bitcoin_point_7": "Activo de suministro fijo",
-	"point_1_summary_1": "Cuando posees Bitcoin, tienes propiedad directa del activo en sí. Cuando posees acciones, posees una participación en una empresa, lo que significa que tu inversión depende del rendimiento de la empresa, las decisiones de gestión y el éxito empresarial.",
-	"point_2_summary_1": "Bitcoin tiene un límite máximo de 21 millones de BTC que existirán jamás.",
-	"point_2_summary_2": "Las empresas pueden emitir nuevas acciones en cualquier momento, diluyendo el porcentaje de propiedad de los accionistas existentes. Esto significa que tu porción de la empresa se vuelve más pequeña cuando se crean nuevas acciones.",
-	"point_2_summary_3": "Esto es menos que la inflación fiat, pero sigue siendo dilución.",
-	"point_3_summary_1": "Bitcoin opera en una red descentralizada sin un solo punto de falla. Las inversiones en acciones están sujetas al riesgo de persona clave: si el CEO u otros líderes críticos se van, se enferman o toman malas decisiones, tu inversión puede sufrir significativamente. Las empresas dependen mucho de sus equipos de liderazgo.",
-	"point_4_summary_1": "El precio de Bitcoin se determina puramente por la oferta y demanda del mercado. Los precios de las acciones a menudo se evalúan usando ratios P/E (Precio-Ganancias), que muestran cuánto pagan los inversores por cada dólar de ganancias de la empresa. Los ratios P/E altos pueden indicar acciones sobrevaloradas, haciendo más difícil determinar el valor justo.",
-	"point_5_summary_1": "Bitcoin se comercia 24 horas al día, 7 días a la semana en intercambios globales.",
+	"point_1_summary_1": "Bitcoin es un activo directo que posees por completo. Las acciones son participaciones en una empresa — su valor depende de la gestión, el rendimiento y decisiones que tú no controlas.",
+	"point_2_summary_1": "Bitcoin tiene un tope fijo de 21 millones de BTC. Las empresas pueden emitir nuevas acciones en cualquier momento y diluir a los accionistas existentes — igual que la",
+	"point_2_summary_2": "inflación",
+	"point_2_summary_3": " del fiat diluye el efectivo. Con Bitcoin, tu parte nunca se encoge.",
+	"point_3_summary_1": "Bitcoin no tiene CEO ni un único punto de fallo. Las acciones dependen fuertemente de la gestión — una mala decisión o la salida de una persona clave puede hundir el precio.",
+	"point_4_summary_1": "El precio de Bitcoin proviene de mercados globales abiertos. La valoración de acciones se basa en métricas como el P/E que pueden ocultar acciones sobrevaloradas.",
+	"point_5_summary_1": "Bitcoin se negocia 24/7 en todo el mundo. Los mercados bursátiles solo están abiertos los días laborables durante el horario de negociación.",
 	"point_5_summary_2": "Bitcoin está descentralizado",
-	"point_6_summary_1": "Con Bitcoin, puedes tomar autocustodia de tus monedas, lo que significa que realmente las posees sin depender de ningún tercero.",
-	"point_6_summary_2": "La autocustodia es tan simple como descargar una aplicación.",
-	"point_6_summary_3": "Las acciones requieren una cuenta de corretaje y estás sujeto al riesgo de contraparte: si la empresa quiebra o el corredor falla, podrías perder tu inversión.",
-	"point_7_summary_1": "Bitcoin es un activo de suministro fijo con un límite máximo de 21 millones de Bitcoin que existirán jamás. Esto lo convierte en una gran cobertura contra la inflación. Las acciones tienen un rendimiento variable contra la inflación: algunas empresas funcionan bien durante períodos inflacionarios mientras que otras luchan. No hay garantía de que alguna acción en particular proteja contra la inflación."
+	"point_6_summary_1": "Con Bitcoin, puedes pasar a la",
+	"point_6_summary_2": "autocustodia",
+	"point_6_summary_3": " con una simple aplicación — no necesitas corredor. Las acciones se custodian en casas de bolsa, exponiéndote a riesgo de contraparte si colapsan.",
+	"point_7_summary_1": "La oferta fija de Bitcoin lo convierte en una cobertura fiable contra la inflación. Algunas acciones vencen a la inflación, otras no — no hay garantía.",
+	"hero_title": "La diferencia entre <span class=\"orange\">Bitcoin</span> y las <span class=\"asset\">acciones</span>"
 }

@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mapas de comerciantes Bitcoin - Registra tu negocio gratis",
-	"maps_view": "Ver el mapa aquí."
+	"maps_view": "Ver el mapa aquí.",
+	"biz_maps_hero_title": "Pon tu empresa en los mapas de comerciantes de Bitcoin",
+	"biz_maps_hero_subtitle": "Añade tu empresa gratis a BTC Map — un directorio abierto y global de comerciantes que aceptan Bitcoin — para que los usuarios de Bitcoin cercanos te encuentren y gasten Bitcoin contigo.",
+	"biz_maps_intro_c1": "Los usuarios de Bitcoin buscan activamente lugares donde gastar su dinero. Estar en el mapa expone tu empresa a cada usuario de Bitcoin que busca un lugar cercano para comer, comprar o alojarse — completamente gratis.",
+	"biz_maps_intro_c2": "Solo rellena el breve formulario de abajo y enviaremos tu empresa a BTC Map y otros mapas de comerciantes de Bitcoin.",
+	"biz_maps_view_map_cta": "Ver BTC Map",
+	"biz_maps_form_header": "Cuéntanos sobre tu empresa",
+	"biz_maps_form_intro": "Solo necesitamos algunos datos para ponerte en el mapa. Guardamos los datos de dirección solo el tiempo necesario para enviar tu empresa a los mapas.",
+	"biz_maps_placeholder_name": "Nombre de la empresa",
+	"biz_maps_placeholder_category": "Categoría (p. ej. restaurante, cafetería, hotel)",
+	"biz_maps_placeholder_address": "Calle y número",
+	"biz_maps_placeholder_city": "Ciudad",
+	"biz_maps_placeholder_region": "Región / provincia / estado",
+	"biz_maps_placeholder_country": "País",
+	"biz_maps_placeholder_website": "Sitio web (opcional)",
+	"biz_maps_meta_description": "Añade tu empresa gratis a BTC Map y otros mapas de comerciantes de Bitcoin, para que los usuarios de Bitcoin cercanos te encuentren."
 }

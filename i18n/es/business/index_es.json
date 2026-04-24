@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin es bueno para los negocios",
+	"business_hero_subtitle": "Cobra con comisiones más bajas, liquida al instante y llega a millones de nuevos clientes — sin contratos ni costes ocultos.",
+	"business_intro_c1": "Bitcoin le da a tu empresa una forma más rápida, más barata y más privada de cobrar. Sin intermediarios. Sin contracargos. Sin contratos. Solo dinero que se liquida en segundos, directamente del cliente a ti.",
+	"business_intro_c2": "A continuación la versión corta de por qué Bitcoin es bueno para los negocios — y debajo, todos los recursos que necesitas para empezar a aceptarlo hoy.",
 	"biz_s1": "Comisiones bajas sin mínimos",
 	"biz_s1_c1": "Bitcoin te permite recibir pagos directamente de tus clientes, muy parecido al efectivo. La red Bitcoin opera sin intermediarios como bancos y compañías de tarjetas de crédito que cobran comisiones elevadas.",
 	"biz_s2": "Liquidación instantánea",
@@ -17,5 +20,14 @@
 	"biz_s4": "Consigue más clientes",
 	"biz_s4_c1": "Millones de personas poseen Bitcoin y quieren gastar su Bitcoin en lugares que lo acepten.",
 	"biz_s4_c2": "Simplemente aceptando Bitcoin, tu negocio puede aparecer en mapas de comerciantes de Bitcoin y ganar exposición gratuita a nuevos clientes de Bitcoin.",
-	"biz_s4_c3": "Aceptar Bitcoin es 100% gratis. No hay contratos ni cargos ocultos."
+	"biz_s4_c3": "Aceptar Bitcoin es 100% gratis. No hay contratos ni cargos ocultos.",
+	"business_resources_heading": "Todo lo que necesitas para aceptar Bitcoin",
+	"business_resources_intro": "Recorre estos recursos a tu propio ritmo. Cada uno es una guía breve y práctica.",
+	"biz_label_wallets": "CARTERAS",
+	"biz_label_maps": "MAPAS DE COMERCIANTES",
+	"biz_label_stickers": "PEGATINAS",
+	"biz_label_rewards": "RECOMPENSAS",
+	"biz_label_accounting": "CONTABILIDAD",
+	"biz_label_faq": "PREGUNTAS FRECUENTES",
+	"biz_meta_description": "Acepta Bitcoin en tu empresa con comisiones más bajas, liquidación inmediata, sin contracargos, y consigue más clientes."
 }

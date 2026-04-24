@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Bienes Raíces",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Perfectamente fungible",
 	"bitcoin_point_8": "Mercado global 24/7",
-	"point_1_summary_1": "Bitcoin puede moverse a cualquier parte del mundo instantáneamente a través de internet. Los bienes raíces están permanentemente fijados a una ubicación específica y no pueden reubicarse, lo que los hace vulnerables a las condiciones económicas locales, desastres naturales e inestabilidad política.",
-	"point_2_summary_1": "Bitcoin puede dividirse en 100 millones de unidades más pequeñas llamadas satoshis, lo que lo hace perfecto para transacciones de cualquier tamaño. Los bienes raíces no pueden dividirse fácilmente - no puedes vender solo la cocina de tu casa o comprar medio dormitorio.",
-	"point_3_summary_1": "Bitcoin opera en una red descentralizada que ningún gobierno puede controlar. Los bienes raíces están sujetos a una extensa regulación gubernamental incluyendo control de alquileres, moratorias de desalojo, leyes de zonificación y dominio eminente donde los gobiernos pueden confiscar tu propiedad.",
-	"point_4_summary_1": "Bitcoin no requiere mantenimiento - existe como código digital en una red. Los bienes raíces requieren mantenimiento constante incluyendo reparaciones, renovaciones, administración de propiedades, seguros y tratar con inquilinos si se alquilan.",
-	"point_5_summary_1": "Bitcoin no tiene impuestos continuos - solo pagas ganancias de capital cuando vendes. Los bienes raíces están sujetos a impuestos inmobiliarios anuales que deben pagarse independientemente de si la propiedad genera ingresos, efectivamente obligándote a alquilar tu propia propiedad del gobierno para siempre.",
-	"point_6_summary_1": "Bitcoin, cuando se respalda adecuadamente, no puede ser destruido por inundaciones, incendios, terremotos, huracanes u otros desastres naturales. Los bienes raíces son vulnerables a todas las formas de destrucción física y requieren seguros costosos que pueden no cubrir completamente las pérdidas.",
-	"point_7_summary_1": "Cada bitcoin es idéntico e intercambiable - un bitcoin equivale a un bitcoin en cualquier parte del mundo. Cada propiedad inmobiliaria es única con diferentes ubicaciones, condiciones y características, lo que hace difícil valorar y comparar propiedades.",
-	"point_8_summary_1": "Bitcoin puede comprarse y venderse 24/7 por cualquier persona con acceso a internet en cualquier parte del mundo. Las ventas de bienes raíces están limitadas a compradores locales, requieren procesos largos con abogados y agentes, y pueden tomar meses en completarse.",
+	"point_1_summary_1": "Bitcoin se mueve al instante a cualquier lugar del mundo. Los bienes raíces están anclados en una ubicación y expuestos a riesgos económicos, políticos y ambientales locales.",
+	"point_2_summary_1": "Bitcoin se puede dividir en 100 millones de satoshis. Los bienes raíces no se pueden vender parcialmente — no puedes vender una cocina ni comprar medio dormitorio.",
+	"point_3_summary_1": "Bitcoin funciona en una red descentralizada que ningún gobierno puede controlar. Los bienes raíces están fuertemente regulados — zonificación, control de alquileres, expropiación e incautación son todos aplicables.",
+	"point_4_summary_1": "Bitcoin no requiere mantenimiento. Los bienes raíces requieren reparaciones, renovaciones, seguros, gestión de propiedad y lidiar con los problemas de los inquilinos.",
+	"point_5_summary_1": "Bitcoin no está sujeto a impuestos continuos — solo pagas impuestos sobre las ganancias de capital cuando vendes. Los bienes raíces pagan impuestos de propiedad anuales independientemente de los ingresos.",
+	"point_6_summary_1": "Bitcoin correctamente respaldado sobrevive a incendios, inundaciones y terremotos. Los bienes raíces son vulnerables a todos los desastres, y los seguros rara vez cubren todo.",
+	"point_7_summary_1": "Cada bitcoin es idéntico e intercambiable. Cada propiedad inmobiliaria es única, lo que dificulta la valoración y la comparación.",
+	"point_8_summary_1": "Bitcoin se negocia globalmente 24/7 para cualquier persona con acceso a internet. Las ventas de bienes raíces se limitan a compradores locales y pueden tardar meses en cerrarse con papeleo.",
 	"bitcoin_point_9": "Promueve la propiedad individual",
 	"real_estate_point_9": "Contribuye a la financiarización de la vivienda",
-	"point_9_summary_1": "Bitcoin permite la propiedad individual directa sin intermediarios, promoviendo la soberanía financiera para todos. Comprar bienes raíces como inversión más allá de su residencia principal contribuye a la financiarización de la vivienda, tratando las casas como mercancías en lugar de refugio. Esto eleva los precios, reduce la asequibilidad para las familias y contribuye a la crisis de vivienda y sin hogar que afecta a muchos países hoy en día."
+	"point_9_summary_1": "Bitcoin permite la propiedad individual directa para cualquiera. Comprar bienes raíces como inversión más allá de la residencia principal encarece los precios de la vivienda, reduce la disponibilidad y crea una crisis habitacional.",
+	"hero_title": "La diferencia entre <span class=\"orange\">Bitcoin</span> y los <span class=\"asset\">bienes raíces</span>"
 }

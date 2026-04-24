@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"how_to_accept_bitcoin_payments": "Cómo aceptar pagos Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Auto-alojado = 0% comisiones",
 	"wallets_feature_online_store": "Integración con tienda en línea",
 	"wallets_feature_invoicing": "Software de facturación gratuito",
-	"wallets_get_wallet": "OBTENER CARTERA"
+	"wallets_get_wallet": "OBTENER CARTERA",
+	"wallets_hero_subtitle": "Las carteras de Bitcoin son gratis. Elige la que encaje con tu empresa — presencial, en línea o por facturación — y empieza a aceptar Bitcoin en minutos.",
+	"wallets_section_sole": "Carteras para empresas unipersonales",
+	"wallets_section_sole_intro": "Si gestionas una tienda, cafetería, estudio o servicio por tu cuenta, cualquiera de estas carteras te servirá. Elige según si quieres quedarte con los pagos en Bitcoin o convertir automáticamente una parte de cada pago a tu moneda local.",
+	"wallets_section_multiple": "Carteras para empresas con varios empleados",
+	"wallets_section_multiple_intro": "Si tienes un equipo que cobra en la caja, elige una cartera que admita múltiples inicios de sesión de empleados — para que cada empleado tenga su propio PIN y mantengas registros claros de quién recibió cada pago.",
+	"wallets_section_online": "Carteras para empresas en línea",
+	"wallets_section_online_intro": "¿Vendes en línea? Estas carteras se conectan a tu tienda en línea y aceptan Bitcoin de cualquier cliente en cualquier parte del mundo — sin contracargos y sin necesidad de una cuenta de comerciante.",
+	"wallets_section_invoice": "Carteras para empresas que facturan a clientes",
+	"wallets_section_invoice_intro": "Si facturas a clientes (consultoría, autónomos, servicios B2B), usa una cartera construida en torno a la facturación. El cliente paga la factura de Bitcoin con unos pocos clics.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business te permite aceptar pagos en Bitcoin y Lightning con comisiones cero y liquidación instantánea. Admite pagos presenciales, en línea y con facturación, con conversión automática opcional a tu moneda local.",
+	"sources_square": "Square — acepta pagos en Bitcoin",
+	"sources_breez_business": "Breez — cartera Lightning solo Bitcoin",
+	"sources_opennode": "OpenNode — procesador de pagos Bitcoin",
+	"sources_ibex": "IBEX — infraestructura de pagos Lightning",
+	"sources_zaprite": "Zaprite — facturación en Bitcoin para empresas",
+	"biz_wallets_meta_description": "Todas las carteras de Bitcoin funcionan juntas — elige la que encaje con tu empresa. Gratis, liquidación instantánea, sin contracargos."
 }

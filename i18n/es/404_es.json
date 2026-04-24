@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-08-29",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"404_title": "Error 404 | Página no encontrada",
-	"404_message": "ESTA PÁGINA NO FUNCIONA",
-	"404_home": "VOLVER A INICIO"
+	"404_message": "Bitcoin es increíble, pero esta página rota no lo es.",
+	"404_home": "Volver al inicio",
+	"404_not_found_short": "No encontrado"
 }

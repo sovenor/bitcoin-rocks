@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
-	}
+	},
+	"biz_maps_success_hero_title": "Solicitud recibida 🎉",
+	"biz_maps_success_hero_subtitle": "Gracias por enviar tu empresa. Pronto te pondremos en los mapas de comerciantes de Bitcoin.",
+	"biz_maps_success_timeline_header": "Qué sucede ahora",
+	"biz_maps_success_timeline_c1": "Tu empresa se añadirá a BTC Map y a otros directorios de comerciantes de Bitcoin en 1 o 2 semanas. Revisamos cada envío manualmente para mantener la precisión de los mapas.",
+	"biz_maps_success_timeline_c2": "Una vez que tu listado esté en línea, los usuarios de Bitcoin cercanos encontrarán tu empresa y vendrán a gastar Bitcoin.",
+	"biz_maps_success_view_header": "Mira dónde aparecerás",
+	"biz_maps_success_view_c1": "Mientras esperas, echa un vistazo a BTC Map para ver la creciente red de empresas de todo el mundo que aceptan Bitcoin.",
+	"biz_maps_success_btn_view_map": "Ver BTC Map"
 }

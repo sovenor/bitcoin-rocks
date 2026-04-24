@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_accepted_here_stickers": "Pegatinas de 'Bitcoin Accepted Here'",
+	"biz_stickers_hero_title": "Pegatinas gratuitas de «Se acepta Bitcoin aquí»",
+	"biz_stickers_hero_subtitle": "Haz saber a los clientes que aceptas Bitcoin. Pide un paquete gratuito de pegatinas de «Se acepta Bitcoin aquí» para colocar en tu establecimiento.",
+	"biz_stickers_intro_c1": "Aceptar Bitcoin es solo la mitad del trabajo — tus clientes también deben saberlo. Estas pequeñas pegatinas de «Se acepta Bitcoin aquí» están diseñadas para colocarse en la puerta principal, en la caja, en el menú o en cualquier lugar donde los clientes las vean antes de pagar.",
+	"biz_stickers_intro_c2": "Te enviaremos un paquete gratuito a cualquier dirección en EE. UU. o Canadá, o puedes imprimir las tuyas en cualquier parte del mundo.",
+	"biz_stickers_step_header": "¿Cómo quieres tus pegatinas?",
+	"biz_stickers_step_description": "Enviamos paquetes gratuitos a direcciones en EE. UU. y Canadá. En cualquier otro lugar del mundo, puedes imprimir las tuyas.",
+	"biz_stickers_option_usa": "🇺🇸 EE. UU. — gratis por correo",
+	"biz_stickers_option_canada": "🇨🇦 Canadá — gratis por correo",
+	"biz_stickers_option_print": "🌍 En todo el mundo — imprime las tuyas",
+	"biz_stickers_print_header": "Imprime tus propios archivos de pegatinas",
+	"biz_stickers_print_c1": "Puedes imprimir tus propias pegatinas de «Se acepta Bitcoin aquí» vivas donde vivas. Haz clic en tu idioma abajo para descargar los archivos de pegatinas e instrucciones de impresión.",
+	"biz_stickers_request_header": "¿No ves tu idioma?",
+	"biz_stickers_request_c1": "Rellena el formulario de abajo para solicitar archivos de pegatinas de «Se acepta Bitcoin aquí» en tu idioma local. Te avisaremos cuando estén listos.",
+	"biz_stickers_placeholder_translation1": "Traducción de la frase «Bitcoin Accepted Here»",
+	"biz_stickers_placeholder_translation2": "Traducción de la frase «Scan to learn why Bitcoin is good for business.»",
 	"stickers_request": "Consigue tus pegatinas gratis"
 }
