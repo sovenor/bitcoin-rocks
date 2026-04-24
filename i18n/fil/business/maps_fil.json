@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mga Mapa ng Bitcoin Merchant - Ilista ang iyong negosyo nang libre",
-	"maps_view": "Tingnan ang mapa dito."
+	"maps_view": "Tingnan ang mapa dito.",
+	"biz_maps_hero_title": "Ilagay ang iyong negosyo sa bitcoin merchant maps",
+	"biz_maps_hero_subtitle": "Idagdag ang iyong negosyo nang libre sa BTC Map — isang open at global na direktoryo ng mga tumatanggap ng bitcoin merchant — para mahanap ka ng mga lokal na bitcoin user at gastusin ang kanilang bitcoin sa iyong negosyo.",
+	"biz_maps_intro_c1": "Aktibong naghahanap ng mga lugar para gastusin ang kanilang pera ang mga bitcoin user. Ang pagiging nasa mapa ay naglalagay sa iyong negosyo sa harap ng bawat bitcoin user na naghahanap ng lugar na kainan, bilhan, o pagpapahingahan — ganap na libre.",
+	"biz_maps_intro_c2": "I-fill up lamang ang maikling form sa ibaba at isusumite namin ang iyong negosyo sa BTC Map at iba pang bitcoin merchant maps.",
+	"biz_maps_view_map_cta": "Tingnan ang BTC Map",
+	"biz_maps_form_header": "Sabihin sa amin ang tungkol sa iyong negosyo",
+	"biz_maps_form_intro": "Ilang detalye lamang ang kailangan namin para mailagay ka sa mapa. Pinapanatili namin ang impormasyon ng address hangga't kinakailangan para maisumite ang iyong negosyo sa mga mapa.",
+	"biz_maps_placeholder_name": "Pangalan ng negosyo",
+	"biz_maps_placeholder_category": "Kategorya (hal., restaurant, cafe, hotel)",
+	"biz_maps_placeholder_address": "Kalye at numero",
+	"biz_maps_placeholder_city": "Lungsod",
+	"biz_maps_placeholder_region": "Rehiyon / probinsya / estado",
+	"biz_maps_placeholder_country": "Bansa",
+	"biz_maps_placeholder_website": "Website (opsyonal)",
+	"biz_maps_meta_description": "Idagdag ang iyong negosyo nang libre sa BTC Map at iba pang bitcoin merchant maps para mahanap ka ng mga lokal na bitcoin user."
 }

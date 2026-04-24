@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Walang nililikhang utang",
 	"bitcoin_point_6": "Posible ang self-custody",
 	"bitcoin_point_7": "24/7 global na access",
-	"point_1_summary_1": "Ang Bitcoin ay isang bukas na network na maaaring sumali at gamitin ng sinuman nang walang pahintulot. Ang mga credit card network tulad ng Visa ay mga saradong sistema na kontrolado ng mga institusyong pinansyal na maaaring tanggihan ang access sa sinumang piliin nila.",
+	"point_1_summary_1": "Ang bitcoin ay isang open network na maaaring sumali ang sinuman nang walang pahintulot. Ang Visa ay saradong sistema na kontrolado ng mga institusyong pinansyal na maaaring tumanggi ng access — lalo na para sa mga taong walang bangko o may limitadong banking.",
 	"point_1_summary_2": "Ginagawa nitong mas inclusive at accessible ang Bitcoin sa mga tao sa buong mundo, lalo na sa mga walang bank account o kulang ang serbisyo ng bangko.",
-	"point_2_summary_1": "Ang mga Bitcoin transaction ay walang bayarin para sa mga merchant, habang ang mga credit card company ay karaniwang nagsisingil sa mga merchant ng mga 3% bawat transaksyon.",
-	"point_2_summary_2": "Alamin kung paano makakatipid ang iyong negosyo",
-	"point_2_summary_3": "sa pamamagitan ng pagtanggap ng mga bayad sa Bitcoin sa halip na magbayad ng mga bayarin sa credit card processing.",
-	"point_3_summary_1": "Ang Bitcoin ay gumagana sa isang transparent na blockchain kung saan lahat ng transaksyon ay maaaring i-verify ng sinuman. Ang mga credit card network ay gumagana bilang mga sarado, proprietary na sistema kung saan ang mga detalye ng transaksyon ay nakatago mula sa pampublikong view.",
+	"point_2_summary_1": "Ang mga bitcoin transaction ay walang merchant fees. Ang Visa ay naniningil sa mga merchant ng karaniwang mga 3% kada transaksyon — ang iyong negosyo ay maaaring makatipid ng pera sa pamamagitan ng pagtanggap ng",
+	"point_2_summary_2": "mga bayad sa bitcoin",
+	"point_2_summary_3": ".",
+	"point_3_summary_1": "Bawat bitcoin transaction ay nasa publiko at ma-verify na blockchain. Ang Visa ay nagpapatakbo ng saradong at proprietary na sistema kung saan hindi maaaring i-verify ng mga customer ang kahit ano nang nakapag-iisa.",
 	"point_3_summary_2": "Ang transparency na ito ay ginagawang mas mapagkakatiwalaan ang Bitcoin at nagpapahintulot ng independiyenteng pag-verify ng integridad ng network.",
-	"point_4_summary_1": "Ang mga credit card company ay maaaring mag-freeze ng mga account, mag-block ng mga transaksyon, o tanggihan ang serbisyo anumang oras. Ang Bitcoin ay hindi maaaring i-freeze o kontrolin ng anumang sentral na awtoridad.",
+	"point_4_summary_1": "Ang bitcoin ay hindi maaaring ma-freeze ng sentralisadong awtoridad. Maaaring i-freeze ng Visa ang mga account, i-block ang mga transaksyon, o tumanggi ng serbisyo anumang oras.",
 	"point_4_summary_2": "Sa Bitcoin, pinapanatili mo ang kontrol sa iyong pera at hindi ka maaaring putulin mula sa sistema ng pagbabayad.",
-	"point_5_summary_1": "Ang mga credit card ay lumilikha ng utang na maaaring mag-akumula ng mataas na interest rate kung hindi mabilis na nabayaran, minsan ay lumalampas sa 25% taun-taon.",
+	"point_5_summary_1": "Ang bitcoin ay final settlement — gumagastos ka lamang ng mayroon ka. Lumilikha ang mga credit card ng utang na may interest rates na madalas lumampas sa 25% kada taon.",
 	"point_5_summary_2": "Ang mga Bitcoin transaction ay mga final settlement na walang nililikhang utang - maaari ka lamang gumastos ng Bitcoin na talagang pagmamay-ari mo.",
-	"point_6_summary_1": "Pinapayagan ng Bitcoin ang self-custody, na nangangahulugang maaari mong hawakan at kontrolin ang sarili mong pera nang hindi umaasa sa mga bangko o payment processor.",
-	"point_6_summary_2": "Matuto tungkol sa mga Bitcoin wallet",
-	"point_6_summary_3": "upang maunawaan kung paano mo makokontrol ang iyong sariling pera. Ang mga credit card ay laging nangangailangan ng mga tagapamagitan tulad ng mga bangko at payment processor.",
-	"point_7_summary_1": "Ang Bitcoin ay gumagana 24/7 sa buong mundo nang walang oras ng negosyo o heograpikal na limitasyon.",
-	"point_7_summary_2": "Ang mga credit card network ay may oras ng negosyo, maintenance window, at heograpikal na limitasyon na maaaring pumigil sa mga transaksyon na ma-process."
+	"point_6_summary_1": "Pinapayagan ng bitcoin ang paglipat sa",
+	"point_6_summary_2": "self-custody",
+	"point_6_summary_3": " nang walang bangko o payment processor. Ang mga credit card ay palaging nangangailangan ng mga intermediary.",
+	"point_7_summary_1": "Tumatakbo ang bitcoin nang 24/7 sa buong mundo nang walang oras ng operasyon. Ang Visa ay may oras ng operasyon, downtime ng maintenance, at mga heograpikong paghihigpit na maaaring pumigil sa mga transaksyon.",
+	"point_7_summary_2": "Ang mga credit card network ay may oras ng negosyo, maintenance window, at heograpikal na limitasyon na maaaring pumigil sa mga transaksyon na ma-process.",
+	"hero_title": "Ang kaibhan ng <span class=\"orange\">bitcoin</span> at <span class=\"asset\">Visa</span>"
 }

@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
-	}
+	},
+	"biz_sticker_success_hero_title": "Paparating na ang iyong mga stickers 🎉",
+	"biz_sticker_success_hero_subtitle": "Matatanggap mo ang iyong mga libreng \"Tumatanggap kami ng Bitcoin\" na stickers sa loob ng 2–4 na linggo sa isang simpleng puting sobre na may 3 na stickers.",
+	"biz_sticker_success_tips_header": "Magandang lugar para maglagay ng mga stickers",
+	"biz_sticker_success_tip_1": "Malapit sa pangunahing pintuan o storefront, para makita ito ng mga customer bago sila pumasok",
+	"biz_sticker_success_tip_2": "Malapit sa register, tabi ng payment terminal o kung saan nagbabayad ang mga customer",
+	"biz_sticker_success_tip_3": "Sa mga menu, price list, o tip jar",
+	"biz_sticker_success_tip_4": "Huwag ilagay ang mga ito sa mga lugar na hindi pag-aari mo o kung saan wala kang pahintulot na maglagay ng stickers",
+	"biz_sticker_success_more_header": "Kailangan mo ba ng mas maraming sticker?",
+	"biz_sticker_success_more_c1": "Kung hindi sapat ang 3 sticker para sa iyong negosyo, malaya kang humiling ng isa pang libreng pack — o umorder ng bulk sa parehong printer na ginagamit namin.",
+	"biz_sticker_success_btn_order_bulk": "Umorder ng bulk",
+	"biz_sticker_success_btn_request_more": "Humiling ng isa pang libreng pack"
 }

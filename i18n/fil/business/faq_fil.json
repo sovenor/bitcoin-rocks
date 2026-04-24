@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Mga FAQ para sa Pagtanggap ng Bitcoin",
 	"faq_description": "May mga tanong tungkol sa pagtanggap ng mga bayad sa Bitcoin sa iyong negosyo?",
+	"faq_hero_subtitle": "Mga maikling sagot sa mga karaniwang tanong na itinatanong ng mga merchant bago magsimulang tumanggap ng bitcoin — fees, settlement, wallets, chargebacks, gastos at marami pa.",
+	"faq_intro_c1": "I-click ang anumang tanong sa ibaba para buksan ang sagot. Kapag handa ka nang magsimulang tumanggap ng bitcoin, gagabayan ka ng mga business tool sa ibaba ng page nang hakbang-hakbang.",
 	"faq_s1": "Ano ang Bitcoin?",
 	"faq_s1_c1": "Ang Bitcoin ay dalawang bagay: digital na pera at isang computer network.",
 	"faq_s1_c2": "Maaari mong ipadala ang bitcoin (ang digital na pera) nang direkta sa ibang tao gamit ang Bitcoin Network.",

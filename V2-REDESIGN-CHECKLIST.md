@@ -310,7 +310,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [x] `eu` — Basque ✅ 2026-04-24 — manifest refresh (1033 entries; 4 helper scripts in scripts/eu-manifest-refresh/)
 - [x] `fa` — Persian (2026-04-24; 1,031 entries → 0 flagged. Report broken into 4 helper scripts under `scripts/fa-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via templated function using Persian noun forms (`inPhrase` "به X", `noun`, `label`, `existenceTitle`, `debtTitle`) + 41 non-currency keys including freedom cards, stories, sources, and 5 manifest-changed hero/intro keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages with Persian typographic quotation marks «…», ZWNJ (U+200C) between stems and suffixes (بیت‌کوین, می‌کند), Eastern Arabic digits (۰-۹) for body numbers, and brand names like Silicon Valley Bank, FRED, FDIC, Visa preserved verbatim), `translate-rest-part2.js` (460 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (10 `common_stickers_dimensions_*` entries using Eastern Arabic digits + Arabic decimal separator ٫ (U+066B) + "سانتی‌متر"/"اینچ" units — e.g. "۲۱٫۵۹ سانتی‌متر × ۴٫۶۴۸۲ سانتی‌متر (۸٫۵ اینچ × ۱٫۸۳ اینچ)"). Persian is RTL — the `<html dir="rtl">` wrapper in `app/[locale]/layout.tsx` handles layout automatically. All 4 verification checks passed — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 55 locales × 81 pages (~4,349 static pages).)
 - [x] `fi` — Finnish ✅ 2026-04-24 — manifest refresh (1,022 entries; 4 helper scripts in scripts/fi-manifest-refresh/)
-- [ ] `fil` — Filipino
+- [x] `fil` — Filipino ✅ 2026-04-24 — manifest refresh (1,086 entries; 5 helper scripts in scripts/fil-manifest-refresh/: translate-inflation.js, translate-rest-part1.js, translate-rest-part2.js, fix-remaining.js, fix-identical.js)
 - [ ] `fr` — French
 - [ ] `ga` — Irish
 - [ ] `ha` — Hausa
@@ -390,7 +390,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 15 |
+| Per-language re-translation (Step 5) | 54 | 16 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

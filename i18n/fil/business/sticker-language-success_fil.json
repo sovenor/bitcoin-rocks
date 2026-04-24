@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Natanggap ang kahilingan 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Salamat sa paghiling ng mga \"Tumatanggap kami ng Bitcoin\" na sticker files sa iyong wika.",
+	"biz_sticker_language_success_timeline_header": "Ano ang mangyayari sunod",
+	"biz_sticker_language_success_timeline_c1": "Gagawin at ilalabas namin ang iyong sticker files sa loob ng 3–4 na linggo. Kapag handa na, maaari mong i-download ang mga ito nang libre mula sa aming sticker files page at i-print.",
+	"biz_sticker_language_success_timeline_c2": "Nag-re-release kami ng sticker files sa batch, kaya maaaring tumagal ng ilang linggo bago ma-activate ang iyong wika. Salamat sa iyong pasensya!"
 }

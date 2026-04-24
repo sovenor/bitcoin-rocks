@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
-	"bitcoin_vs_stocks": "Bitcoin vs Stocks",
+	"bitcoin_vs_stocks": "Bitcoin vs Mga Stock",
 	"stocks_intro_1": "Ang mga stock ay naging popular na investment sa loob ng mga dekada at kumakatawan sa mga bahagi ng pagmamay-ari sa mga kumpanya.",
 	"stocks_intro_2": "Ang Bitcoin ay digital na pera na nilikha noong 2009 na gumagana nang independiyente sa anumang kumpanya o gobyerno.",
 	"stocks_intro_3": "Ngunit paano naiiba ang pagmamay-ari ng mga bahagi sa isang kumpanya sa pagmamay-ari ng digital na pera tulad ng Bitcoin? Tingnan natin ang mga pagkakaiba sa pagitan ng dalawang anyo ng investment: Bitcoin at Stocks.",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "24/7 na kalakalan",
 	"bitcoin_point_6": "Posible ang self-custody",
 	"bitcoin_point_7": "Asset na may nakapirming supply",
-	"point_1_summary_1": "Kapag nagmamay-ari ka ng Bitcoin, mayroon kang direktang pagmamay-ari ng asset mismo. Kapag nagmamay-ari ka ng stock, nagmamay-ari ka ng bahagi ng isang kumpanya, na nangangahulugang ang iyong investment ay nakadepende sa performance, desisyon sa pamamahala, at tagumpay sa negosyo ng kumpanya.",
-	"point_2_summary_1": "Ang Bitcoin ay may hard cap na 21 milyong BTC na kailanman ay iiral.",
-	"point_2_summary_2": "Maaaring mag-issue ang mga kumpanya ng mga bagong bahagi anumang oras, na nagda-dilute sa porsyento ng pagmamay-ari ng mga kasalukuyang shareholder. Nangangahulugan ito na lumiliit ang iyong hiwa ng kumpanya kapag nagawa ang mga bagong bahagi.",
-	"point_2_summary_3": "Ito ay mas mababa kaysa sa fiat inflation, ngunit dilution pa rin.",
-	"point_3_summary_1": "Ang Bitcoin ay gumagana sa isang desentralisadong network na walang single point of failure. Ang mga stock investment ay may panganib ng key person - kung ang CEO o iba pang kritikal na lider ay umalis, magkasakit, o gumawa ng masamang desisyon, ang iyong investment ay maaaring malubhang maapektuhan. Malaki ang pagdepende ng mga kumpanya sa kanilang mga team ng pamunuan.",
-	"point_4_summary_1": "Ang presyo ng Bitcoin ay pinagpapasyahan ng supply at demand ng market lamang. Ang mga presyo ng stock ay madalas na sine-evaluate gamit ang P/E ratio (Price-to-Earnings), na nagpapakita kung magkano ang binabayaran ng mga investor para sa bawat dolyar ng kita ng kumpanya. Ang mataas na P/E ratio ay maaaring magpahiwatig ng overvalued na stock, na ginagawang mas mahirap matukoy ang patas na halaga.",
-	"point_5_summary_1": "Ang Bitcoin ay naka-trade 24 na oras sa isang araw, 7 araw sa isang linggo sa mga global exchange.",
+	"point_1_summary_1": "Ang bitcoin ay direktang asset na ganap mong pag-aari. Ang mga stock ay piraso ng kumpanya — ang kanilang halaga ay nakasalalay sa pamamahala, performance, at mga desisyong hindi mo kontrolado.",
+	"point_2_summary_1": "Ang bitcoin ay may fixed na limit na 21 milyong BTC. Maaaring mag-issue ang mga kumpanya ng mga bagong share anumang oras at magpuno sa mga existing shareholder — tulad lang ng",
+	"point_2_summary_2": "inflation",
+	"point_2_summary_3": " ng fiat na pumupuno ng cash. Sa bitcoin, hindi kailanman bumababa ang iyong parte.",
+	"point_3_summary_1": "Walang CEO o isang solong failure point ang bitcoin. Ang mga stock ay umaasa nang malaki sa pamamahala — isang masamang desisyon o pag-alis ng isang key person ay maaaring mag-crash sa presyo.",
+	"point_4_summary_1": "Ang presyo ng bitcoin ay nagmumula sa open pandaigdigang markets. Ang valuation ng stock ay nakadepende sa mga metric tulad ng P/E na maaaring magtago ng mga overpriced na stocks.",
+	"point_5_summary_1": "Nagta-trade ang bitcoin nang 24/7 sa buong mundo. Ang stock markets ay bukas lamang tuwing weekday sa oras ng trading.",
 	"point_5_summary_2": "Ang Bitcoin ay desentralisado",
-	"point_6_summary_1": "Sa Bitcoin, maaari mong kunin ang self-custody ng iyong mga barya, na nangangahulugang tunay mong pagmamay-ari ang mga ito nang hindi umaasa sa anumang third party.",
-	"point_6_summary_2": "Ang self-custody ay kasingdali ng pag-download ng app.",
-	"point_6_summary_3": "Ang mga stock ay nangangailangan ng brokerage account at ikaw ay nasa ilalim ng counterparty risk - kung mabangkarote ang kumpanya o mabigo ang brokerage, maaari mong mawala ang iyong investment.",
-	"point_7_summary_1": "Ang Bitcoin ay isang fixed supply asset na may hard cap na 21 milyong Bitcoin na kailanman ay iiral. Ginagawa nito na isang mahusay na inflation hedge. Ang mga stock ay may pabago-bagong performance laban sa inflation - ang ilang kumpanya ay gumagawa ng maayos sa mga panahon ng inflation habang ang iba ay nahihirapan. Walang garantiya na ang anumang partikular na stock ay makakaprotekta laban sa inflation."
+	"point_6_summary_1": "Sa bitcoin, maaari kang lumipat sa",
+	"point_6_summary_2": "self-custody",
+	"point_6_summary_3": " sa pamamagitan ng simpleng app — hindi na kailangan ng broker. Ang mga stock ay itinatago ng mga broker, na nag-e-expose sa iyo sa counterparty risk kung bumagsak sila.",
+	"point_7_summary_1": "Ang fixed supply ng bitcoin ay ginagawa itong maaasahang hedge laban sa inflation. May ilang stock na tinatalo ang inflation, ang iba ay hindi — walang garantiya.",
+	"hero_title": "Ang kaibhan ng <span class=\"orange\">bitcoin</span> at <span class=\"asset\">mga stock</span>"
 }

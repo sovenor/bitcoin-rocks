@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"404_title": "Error 404 | Hindi Nahanap ang Pahina",
-	"404_message": "Ang sirang pahinang ito ay hindi kahanga-hanga",
-	"404_home": "Bumalik sa homepage"
+	"404_message": "Astig ang bitcoin, pero ang sirang page na ito ay hindi.",
+	"404_home": "Bumalik sa home page",
+	"404_not_found_short": "Hindi nahanap"
 }
