@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fa"
 	},
 	"sticker_language_success_1": "ما درخواست شما را دریافت کردیم.",
-	"sticker_language_success_2": "اگر برچسب‌ها به زبان شما موجود شوند، از طریق ایمیل به شما اطلاع می‌دهیم."
+	"sticker_language_success_2": "اگر برچسب‌ها به زبان شما موجود شوند، از طریق ایمیل به شما اطلاع می‌دهیم.",
+	"sticker_language_success_hero_title": "درخواست دریافت شد 🎉"
 }

@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fa"
-	}
+	},
+	"biz_sticker_success_hero_title": "استیکرهای شما در راه هستند 🎉",
+	"biz_sticker_success_hero_subtitle": "شما استیکرهای رایگان «ما بیت‌کوین قبول می‌کنیم» خود را ظرف ۲-۴ هفته در یک پاکت سفید ساده با ۳ استیکر دریافت خواهید کرد.",
+	"biz_sticker_success_tips_header": "مکان‌های خوب برای قرار دادن استیکر",
+	"biz_sticker_success_tip_1": "روی درب اصلی یا ویترین شما، تا مشتریان قبل از ورود آن را ببینند",
+	"biz_sticker_success_tip_2": "کنار صندوق، ترمینال پرداخت یا هر جایی که مشتریان پرداخت می‌کنند",
+	"biz_sticker_success_tip_3": "روی منوها، لیست قیمت‌ها یا ظرف انعام",
+	"biz_sticker_success_tip_4": "استیکرها را در جاهایی که متعلق به شما نیست یا اجازه چسباندن ندارید، قرار ندهید",
+	"biz_sticker_success_more_header": "به استیکرهای بیشتری نیاز دارید؟",
+	"biz_sticker_success_more_c1": "اگر ۳ استیکر برای کسب‌وکار شما کافی نیست، آزادید یک بسته رایگان دیگر درخواست کنید — یا از همان چاپگری که ما استفاده می‌کنیم عمده سفارش دهید.",
+	"biz_sticker_success_btn_order_bulk": "سفارش عمده",
+	"biz_sticker_success_btn_request_more": "درخواست یک بسته رایگان دیگر"
 }

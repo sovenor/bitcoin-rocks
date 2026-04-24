@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fa"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "درخواست دریافت شد 🎉",
+	"biz_sticker_language_success_hero_subtitle": "از درخواست فایل‌های استیکر «ما بیت‌کوین قبول می‌کنیم» به زبان خود متشکریم.",
+	"biz_sticker_language_success_timeline_header": "قدم بعدی چیست",
+	"biz_sticker_language_success_timeline_c1": "ما فایل‌های استیکر شما را ظرف ۳-۴ هفته ایجاد و منتشر می‌کنیم. وقتی آماده شدند، می‌توانید آن‌ها را از صفحه فایل‌های استیکر ما به‌صورت رایگان برای چاپ دانلود کنید.",
+	"biz_sticker_language_success_timeline_c2": "ما فایل‌های استیکر را در دسته‌ها منتشر می‌کنیم، بنابراین ممکن است چند هفته طول بکشد تا زبان شما فعال شود. از صبر شما متشکریم!"
 }
