@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"how_to_accept_bitcoin_payments": "Miten hyväksyä Bitcoin-maksuja",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Oma isännöinti = 0 % maksuja",
 	"wallets_feature_online_store": "Verkkokauppaintegraatio",
 	"wallets_feature_invoicing": "Ilmainen laskutusohjelmisto",
-	"wallets_get_wallet": "HANKI LOMPAKKO"
+	"wallets_get_wallet": "HANKI LOMPAKKO",
+	"wallets_hero_subtitle": "Bitcoin-lompakot ovat ilmaisia. Valitse se, joka sopii yrityksellesi — paikan päällä, verkossa tai laskujen perusteella — ja aloita bitcoinin vastaanottaminen minuuteissa.",
+	"wallets_section_sole": "Lompakot yksinyrittäjille",
+	"wallets_section_sole_intro": "Jos pyörität kauppaa, kahvilaa, studiota tai palvelua yksin, mikä tahansa näistä lompakoista sopii sinulle. Valitse sen mukaan, haluatko pitää bitcoin-maksut itselläsi vai muuntaa osan jokaisesta maksusta automaattisesti paikalliseksi valuutaksesi.",
+	"wallets_section_multiple": "Lompakot usean työntekijän yrityksille",
+	"wallets_section_multiple_intro": "Jos sinulla on tiimi, joka ottaa maksuja vastaan kassalla, valitse lompakko, joka tukee monen työntekijän kirjautumista — jotta jokaisella työntekijällä on oma PIN ja säilytät selkeän kirjauksen siitä, kuka sai minkäkin maksun.",
+	"wallets_section_online": "Lompakot verkkoyrityksille",
+	"wallets_section_online_intro": "Myytkö verkossa? Nämä lompakot yhdistyvät verkkokauppaasi ja ottavat vastaan bitcoinia kaikilta asiakkailta ympäri maailmaa — ilman takaisinmaksuvaatimuksia ja ilman kauppiastilin tarvetta.",
+	"wallets_section_invoice": "Lompakot asiakkaita laskuttaville yrityksille",
+	"wallets_section_invoice_intro": "Jos laskutat asiakkaita (konsultointi, freelance-työ, B2B-palvelut), käytä laskutukseen rakennettua lompakkoa. Asiakas maksaa bitcoin-laskun muutamalla klikkauksella.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business antaa sinun ottaa vastaan bitcoin- ja Lightning-maksuja nollamaksuilla ja välittömillä selvityksillä. Tukee paikan päällä, verkossa ja laskutusmaksuja, valinnaisella automaattisella muunnolla paikalliseksi valuutaksi.",
+	"sources_square": "Square — vastaanota bitcoin-maksuja",
+	"sources_breez_business": "Breez — vain bitcoinia tukeva Lightning-lompakko",
+	"sources_opennode": "OpenNode — bitcoin-maksunkäsittelijä",
+	"sources_ibex": "IBEX — Lightning-maksuinfrastruktuuri",
+	"sources_zaprite": "Zaprite — bitcoin-laskutus yrityksille",
+	"biz_wallets_meta_description": "Kaikki bitcoin-lompakot toimivat keskenään — valitse se, joka sopii yrityksellesi. Ilmainen, välittömillä selvityksillä, ilman takaisinmaksuvaatimuksia."
 }

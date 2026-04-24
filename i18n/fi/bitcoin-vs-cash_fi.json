@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs käteinen",
@@ -11,7 +11,6 @@
 	"cash_intro_2": "Bitcoin on vuonna 2009 luotu digitaalinen raha, joka toimii itsenäisesti mistään hallituksesta.",
 	"cash_intro_3": "Mutta miten fyysinen käteinen eroaa digitaalisesta rahasta kuten Bitcoin? Tutkitaan keskeisiä eroja: Bitcoin ja käteinen.",
 	"cash": "KÄTEINEN",
-	"bitcoin": "BITCOIN",
 	"cash_point_1": "Vaatii fyysistä läsnäoloa",
 	"cash_point_2": "Rajojen rajoittama",
 	"cash_point_3": "Voidaan mitätöidä yön yli",
@@ -19,6 +18,7 @@
 	"cash_point_5": "Hallituksen hallitsema",
 	"cash_point_6": "Fyysisen säilytyksen riskit",
 	"cash_point_7": "Rajoitettu jaettavuus",
+	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Voidaan lähettää internetin kautta",
 	"bitcoin_point_2": "Toimii maailmanlaajuisesti",
 	"bitcoin_point_3": "Ei voida mitätöidä",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Hajautettu verkko",
 	"bitcoin_point_6": "Digitaalinen oma hallinnointi",
 	"bitcoin_point_7": "Helposti jaettava",
-	"point_1_summary_1": "Bitcoinia voidaan lähettää minne tahansa maailmassa välittömästi internetin kautta, kun taas käteinen vaatii fyysistä läsnäoloa.",
-	"point_2_summary_1": "Bitcoin toimii samalla tavalla kaikkialla maailmassa – Bitcoin-verkossa ei ole rajoja. Käteinen on rajoitettu maantieteen, vaihtokurssien ja paikallisen hyväksynnän mukaan.",
-	"point_3_summary_1": "Hallitukset voivat ja mitätöivät käteistä yön yli, kuten Intia teki vuonna 2016.",
-	"point_3_summary_2": "Hallitukset myös jatkuvasti alentavat käteisen arvoa inflaation kautta.",
-	"point_3_summary_3": "Bitcoinia ei voi mitätöidä mikään hallitus – se toimii hajautetulla verkolla.",
-	"point_4_summary_1": "Käteistä voidaan väärentää, ja väärennöksiä on usein vaikea havaita. Bitcoin käyttää kryptografista todistetta, joka tekee väärentämisen matemaattisesti mahdottomaksi.",
-	"point_5_summary_1": "Käteisen laskee liikkeelle ja hallitsee hallitukset. Bitcoin toimii hajautetulla verkolla, jossa mikään yksittäinen taho ei hallitse rahamäärää.",
-	"point_6_summary_1": "Käteinen on säilytettävä fyysisesti, mikä tekee siitä haavoittuvan varkaudelle, katoamiselle tai tulipalossa tuhoutumiselle.",
-	"point_6_summary_2": "Mutta Bitcoin voidaan säilyttää turvallisesti omassa hallinnassa",
-	"point_6_summary_3": "käyttäen älypuhelinsovellusta tai erikoislompakkoa.",
-	"point_7_summary_1": "Käteisellä on vähimmäisarvot – senttiä ei voi jakaa pienempiin osiin. Bitcoin voidaan jakaa 100 miljoonaan pienempään yksikköön nimeltä satoshi."
+	"point_1_summary_1": "Bitcoin liikkuu ympäri maailmaa internetin kautta minuuteissa. Käteinen vaatii fyysistä läsnäoloa tai luotettavia kuriireja — kahdenkympin seteliä ei voi lähettää sähköpostitse.",
+	"point_2_summary_1": "Bitcoin toimii kaikkialla samalla tavalla. Käteistä rajoittaa maantiede, valuuttakurssit ja paikallinen hyväksyntä.",
+	"point_3_summary_1": "Hallitukset voivat mitätöidä käteisen yhdessä yössä — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Intia</a> teki sen 2016. Mutta jopa ilman demonetisaatiota käteinen menettää arvoaan",
+	"point_3_summary_2": "inflaation",
+	"point_3_summary_3": "takia. Bitcoinia ei mikään hallitus tai viranomainen voi mitätöidä.",
+	"point_4_summary_1": "Käteisen voi väärentää, joskus erittäin vakuuttavasti. Bitcoin käyttää kryptografiaa, joka tekee väärentämisestä matemaattisesti mahdotonta.",
+	"point_5_summary_1": "Bitcoinilla ei ole keskitettyä valtaa. Käteisen laskevat liikkeelle hallitukset, jotka voivat painaa lisää, muuttaa muotoilua tai poistaa seteleitä käytöstä oman harkintansa mukaan.",
+	"point_6_summary_1": "Käteinen on altis varkauksille, tulipalolle, häviämiselle ja takavarikoinnille. Bitcoinia voi ",
+	"point_6_summary_2": "säilyttää turvallisesti itse",
+	"point_6_summary_3": " puhelimessasi tai laitelompakossa.",
+	"point_7_summary_1": "Bitcoinin voi jakaa 100 miljoonaksi satoshiksi, mikä mahdollistaa minkä tahansa kokoiset mikromaksut. Käteisellä on pienimmät nimellisarvot — senttiä ei voi leikata puoliksi.",
+	"hero_title": "Ero <span class=\"orange\">bitcoinin</span> ja <span class=\"asset\">käteisen</span> välillä"
 }

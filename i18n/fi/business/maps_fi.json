@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin-kauppiaskartat – Listaa yrityksesi ilmaiseksi",
-	"maps_view": "Näytä kartta täältä."
+	"maps_view": "Näytä kartta täältä.",
+	"biz_maps_hero_title": "Laita yrityksesi bitcoin-kauppiaskartoille",
+	"biz_maps_hero_subtitle": "Lisää yrityksesi ilmaiseksi BTC Mapiin — avoin maailmanlaajuinen bitcoinia hyväksyvien kauppiaiden luettelo — jotta lähellä olevat bitcoin-käyttäjät voivat löytää sinut ja kuluttaa bitcoinia luonasi.",
+	"biz_maps_intro_c1": "Bitcoin-käyttäjät etsivät aktiivisesti paikkoja, joissa kuluttaa rahaansa. Kartalla oleminen laittaa yrityksesi jokaisen bitcoin-käyttäjän silmiin, joka etsii lähellä olevaa paikkaa syödä, ostaa tai yöpyä — täysin ilmaiseksi.",
+	"biz_maps_intro_c2": "Täytä vain alla oleva lyhyt lomake ja lähetämme yrityksesi BTC Mapiin ja muihin bitcoin-kauppiaskarttoihin.",
+	"biz_maps_view_map_cta": "Katso BTC Mapia",
+	"biz_maps_form_header": "Kerro meille yrityksestäsi",
+	"biz_maps_form_intro": "Tarvitsemme vain muutamia tietoja, jotta voimme laittaa sinut kartalle. Säilytämme osoitetietoja vain niin kauan kuin on tarpeen lähettääksemme yrityksesi karttoihin.",
+	"biz_maps_placeholder_name": "Yrityksen nimi",
+	"biz_maps_placeholder_category": "Luokka (esim. ravintola, kahvila, hotelli)",
+	"biz_maps_placeholder_address": "Katu ja talon numero",
+	"biz_maps_placeholder_city": "Kaupunki",
+	"biz_maps_placeholder_region": "Alue / maakunta / osavaltio",
+	"biz_maps_placeholder_country": "Maa",
+	"biz_maps_placeholder_website": "Verkkosivusto (valinnainen)",
+	"biz_maps_meta_description": "Lisää yrityksesi ilmaiseksi BTC Mapiin ja muihin bitcoin-kauppiaskarttoihin, jotta lähellä olevat bitcoin-käyttäjät löytävät sinut."
 }

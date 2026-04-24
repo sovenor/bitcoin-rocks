@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs kiinteistöt",
@@ -11,7 +11,6 @@
 	"real_estate_intro_2": "Bitcoin on vuonna 2009 luotu digitaalinen raha, jota monet pitävät arvon säilyttäjänä.",
 	"real_estate_intro_3": "Miten fyysinen omaisuus eroaa digitaalisesta rahasta? Katsotaan eroja: Bitcoin ja kiinteistöt.",
 	"real_estate": "KIINTEISTÖT",
-	"bitcoin": "BITCOIN",
 	"real_estate_point_1": "Ei voida siirtää",
 	"real_estate_point_2": "Ei voida helposti jakaa",
 	"real_estate_point_3": "Hallituksen sääntelyn alainen",
@@ -20,6 +19,7 @@
 	"real_estate_point_6": "Haavoittuva luonnonkatastrofeille",
 	"real_estate_point_7": "Jokainen kiinteistö on ainutlaatuinen",
 	"real_estate_point_8": "Rajoitettu paikallisiin ostajiin",
+	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Maailmanlaajuisesti siirrettävä",
 	"bitcoin_point_2": "Helposti jaettava",
 	"bitcoin_point_3": "Sensuurinkestävä",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Vaikea tuhota",
 	"bitcoin_point_7": "Täydellisesti vaihdettava",
 	"bitcoin_point_8": "Globaali 24/7-markkina",
-	"point_1_summary_1": "Bitcoinia voidaan siirtää minne tahansa välittömästi internetin kautta. Kiinteistö on pysyvästi sidottu tiettyyn paikkaan.",
-	"point_2_summary_1": "Bitcoin voidaan jakaa 100 miljoonaan pienempään yksikköön. Kiinteistöä ei voi helposti jakaa.",
-	"point_3_summary_1": "Bitcoin toimii hajautetulla verkolla. Kiinteistö on laajan hallituksen sääntelyn alainen.",
-	"point_4_summary_1": "Bitcoin ei vaadi ylläpitoa. Kiinteistö vaatii jatkuvaa huoltoa.",
-	"point_5_summary_1": "Bitcoinissa ei ole jatkuvia veroja. Kiinteistöistä maksetaan vuosittaista kiinteistöveroa.",
-	"point_6_summary_1": "Bitcoin ei voi tuhoutua luonnonkatastrofeissa oikein varmuuskopioidessa. Kiinteistö on haavoittuva kaikille fyysisille tuhoille.",
-	"point_7_summary_1": "Jokainen bitcoin on identtinen ja vaihdettava. Jokainen kiinteistö on ainutlaatuinen.",
-	"point_8_summary_1": "Bitcoinia voidaan ostaa ja myydä 24/7 kenelle tahansa maailmassa. Kiinteistökaupat ovat rajoitettuja paikallisiin ostajiin ja voivat kestää kuukausia.",
+	"point_1_summary_1": "Bitcoin liikkuu välittömästi minne tahansa maailmassa. Kiinteistö on sidottu sijaintiin ja altis paikallisille taloudellisille, poliittisille ja ympäristöuhille.",
+	"point_2_summary_1": "Bitcoinin voi jakaa 100 miljoonaksi satoshiksi. Kiinteistöä ei voi myydä osittain — keittiön myynti tai puolen makuuhuoneen ostaminen ei ole mahdollista.",
+	"point_3_summary_1": "Bitcoin toimii hajautetussa verkossa, jota mikään hallitus ei voi hallita. Kiinteistö on tiukasti säänneltyä — kaavoitus, vuokrasäätely, pakkolunastus ja takavarikointi koskevat kaikki.",
+	"point_4_summary_1": "Bitcoin ei vaadi ylläpitoa. Kiinteistö vaatii korjauksia, remontteja, vakuutuksia, kiinteistönhoitoa ja vuokralaisongelmien ratkaisemista.",
+	"point_5_summary_1": "Bitcoinia ei veroteta jatkuvasti — myyntivoittoverot maksetaan vain kun myyt. Kiinteistöstä on maksettava vuosittaisia kiinteistöveroja riippumatta tuloista.",
+	"point_6_summary_1": "Oikein varmuuskopioitu bitcoin selviää tulipaloista, tulvista ja maanjäristyksistä. Kiinteistö on altis kaikille katastrofeille ja vakuutus kattaa harvoin kaiken.",
+	"point_7_summary_1": "Jokainen bitcoin on samanlainen ja vaihtokelpoinen. Jokainen kiinteistö on ainutlaatuinen, mikä tekee arvioinnista ja vertailusta vaikeaa.",
+	"point_8_summary_1": "Bitcoin käy kauppaa maailmanlaajuisesti 24/7 kaikille, joilla on internetyhteys. Kiinteistöjen myynti on rajoitettu paikallisille ostajille ja voi kestää kuukausia paperien sulkemiseen.",
 	"bitcoin_point_9": "Edistää yksilöllistä omistajuutta",
 	"real_estate_point_9": "Myötävaikuttaa asumisen finansialisoitumiseen",
-	"point_9_summary_1": "Bitcoin mahdollistaa suoran yksilöllisen omistajuuden ilman välikäsiä. Kiinteistösijoittaminen oman asunnon ulkopuolella edistää asumisen finansialisoitumista, nostaa hintoja ja vaikuttaa asumisen kohtuuhintaisuuteen."
+	"point_9_summary_1": "Bitcoin mahdollistaa kaikille suoran yksilöllisen omistuksen. Kiinteistön ostaminen sijoitukseksi ensiasunnon lisäksi nostaa asuntojen hintoja, vähentää saatavuutta ja luo asuntokriisin.",
+	"hero_title": "Ero <span class=\"orange\">bitcoinin</span> ja <span class=\"asset\">kiinteistöjen</span> välillä"
 }

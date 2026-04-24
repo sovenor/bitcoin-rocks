@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"free_bitcoin_flyers": "Ilmaiset Bitcoin-lentolehtiset bitcoin.rocksilta",
 	"flyers_description": "Tulosta Bitcoin-lentolehtinen kotona ja laita se julkiselle paikalle oranssipilleröidäksesi ympärilläsi olevat.",
-	"flyers_intro_header": "MITEN TULOSTAA JA KIINNITTÄÄ BITCOIN-LENTOLEHTISET",
+	"flyers_hero_title": "Tulosta ja laita ylös bitcoin-esitteitä",
+	"flyers_hero_subtitle": "Ilmaiset tulostettavat bitcoin-esitteet. Laita ne julkisille paikoille auttaaksesi useampia ihmisiä oppimaan bitcoinista.",
+	"flyers_intro_header": "Miten tulostaa ja laittaa ylös nämä bitcoin-esitteet",
 	"flyers_intro_c1": "Tehtävänämme on auttaa sinua oranssipilleröimään enemmän ihmisiä laittamalla Bitcoin-lentolehtisiä julkisille paikoille. Tässä lentolehtisessä on QR-koodi, joka linkittää",
 	"flyers_intro_c2": "opetukselliselle Bitcoin-verkkosivullemme.",
 	"flyers_intro_c4": "Tulosta tämä lentolehtinen kotona tai painotalossa. Kiinnitä se sitten ilmoitustauluille, puhelinpylväisiin ja muihin julkisiin tiloihin, joissa ihmiset voivat nähdä sen ja oppia Bitcoinista.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "JAA LENTOLEHTISTEN SIJOITUSPAIKAT",
 	"flyers_share_c1": "Jaa lentolehtisten sijoituspaikat meille Nostrissa ja katso, minne muut laittavat lentolehtisiään.",
 	"flyers_btn_share_on_nostr": "JAA NOSTRISSA",
-	"flyers_btn_what_is_nostr": "MIKÄ ON NOSTR?"
+	"flyers_btn_what_is_nostr": "MIKÄ ON NOSTR?",
+	"flyers_next_get_stickers": "Levitä viestiä",
+	"flyers_next_get_stickers_desc": "Tilaa ilmainen pakkaus bitcoin-tarroja"
 }

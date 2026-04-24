@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_sticker_files_all_languages": "Bitcoin-tarrat: Kaikki kielet",
 	"sticker_files_description": "Lataa helppokäyttöiset Bitcoin-tarratiedostomme ja tulosta omat tarrasi.",
-	"sticker_files_header": "BITCOIN-TARRATIEDOSTOT"
+	"sticker_files_header": "Tulosta bitcoin-tarrasi käyttämällä näitä tiedostoja."
 }

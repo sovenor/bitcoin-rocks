@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Usein kysytyt kysymykset Bitcoinin hyväksymisestä",
 	"faq_description": "Onko sinulla kysymyksiä Bitcoin-maksujen hyväksymisestä yrityksessäsi?",
+	"faq_hero_subtitle": "Lyhyet vastaukset kysymyksiin, joita kauppiaat yleensä esittävät ennen bitcoinin vastaanottamisen aloittamista — maksut, selvitys, lompakot, takaisinmaksuvaatimukset, kulut ja paljon muuta.",
+	"faq_intro_c1": "Klikkaa alla mitä tahansa kysymystä avataksesi vastauksen. Kun olet valmis aloittamaan bitcoinin vastaanottamisen, sivun lopussa olevat yritystyökalut ohjaavat sinua vaihe vaiheelta.",
 	"faq_s1": "Mikä on Bitcoin?",
 	"faq_s1_c1": "Bitcoin on kaksi asiaa: digitaalinen raha ja tietokoneverkko.",
 	"faq_s1_c2": "Voit lähettää bitcoinia (digitaalista rahaa) suoraan muille ihmisille Bitcoin-verkon avulla.",

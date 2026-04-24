@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin on hyvä yrityksille",
+	"business_hero_subtitle": "Ota maksuja vastaan pienemmillä maksuilla, selvitä hetkessä ja tavoita miljoonia uusia asiakkaita — ilman sopimuksia ja piilokuluja.",
+	"business_intro_c1": "Bitcoin antaa yrityksellesi nopeamman, halvemman ja yksityisemmän tavan ottaa maksuja vastaan. Ei välikäsiä. Ei takaisinmaksuvaatimuksia. Ei sopimuksia. Vain rahaa, joka selviää sekunneissa suoraan asiakkaalta sinulle.",
+	"business_intro_c2": "Alla on lyhyt versio siitä, miksi bitcoin on hyödyksi yritykselle — ja alla on kaikki työkalut, joita tarvitset aloittaaksesi sen vastaanottamisen jo tänään.",
 	"biz_s1": "Alhaiset maksut ilman vähimmäismääriä",
 	"biz_s1_c1": "Bitcoin mahdollistaa maksujen vastaanottamisen suoraan asiakkailta, kuten käteinen. Bitcoin-verkko toimii ilman välikäsiä, kuten pankkeja ja luottokorttiyhtiöitä, jotka veloittavat suuria maksuja.",
 	"biz_s2": "Välitön selvitys",
@@ -17,5 +20,14 @@
 	"biz_s4": "Hanki lisää asiakkaita",
 	"biz_s4_c1": "Miljoonat ihmiset omistavat Bitcoinia ja haluavat käyttää sitä paikoissa, jotka hyväksyvät sen.",
 	"biz_s4_c2": "Hyväksymällä Bitcoinin yrityksesi voidaan listata Bitcoin-kauppiaskarttoihin ja saada ilmaista näkyvyyttä uusille asiakkaille.",
-	"biz_s4_c3": "Bitcoinin hyväksyminen on 100 % ilmaista. Ei sopimuksia eikä piilomaksuja."
+	"biz_s4_c3": "Bitcoinin hyväksyminen on 100 % ilmaista. Ei sopimuksia eikä piilomaksuja.",
+	"business_resources_heading": "Kaikki, mitä tarvitset bitcoinin vastaanottamiseen",
+	"business_resources_intro": "Käy nämä työkalut läpi omaan tahtiisi. Jokainen on lyhyt käytännöllinen opas.",
+	"biz_label_wallets": "LOMPAKOT",
+	"biz_label_maps": "KAUPPIASKARTAT",
+	"biz_label_stickers": "TARRAT",
+	"biz_label_rewards": "PALKKIOT",
+	"biz_label_accounting": "KIRJANPITO",
+	"biz_label_faq": "USEIN KYSYTYT KYSYMYKSET",
+	"biz_meta_description": "Ota yrityksessäsi vastaan bitcoinia pienemmillä maksuilla, välittömällä selvityksellä, ilman takaisinmaksuvaatimuksia ja saa lisää asiakkaita."
 }

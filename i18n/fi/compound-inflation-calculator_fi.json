@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"cic_header": "KORKOA KOROLLE -INFLAATIOLASKURI",
 	"cic_description": "Käytä tätä korkoa korolle -inflaatiolaskuria selvittääksesi, kuinka paljon palkkasi täytyy nousta pysyäkseen inflaation tahdissa.",
-	"cic_inflation_cta": "Kieltäydy inflaatiosta Bitcoinilla"
+	"cic_hero_subtitle": "Selvitä, kuinka paljon palkkasi täytyy nousta pitääkseen tahtia inflaation kanssa.",
+	"cic_calculator_heading": "Laske inflaatiokuilusi",
+	"cic_cta_label": "Seuraava askel",
+	"cic_inflation_cta": "Kieltäydy inflaatiosta Bitcoinilla",
+	"cic_next_learn_inflation": "Opi, miten inflaatio toimii",
+	"cic_next_explore_topics": "Tutki lisää aiheita",
+	"cic_next_explore_topics_desc": "Katso, miten bitcoin liittyy rahaan, vapauteen, energiaan ja muuhun.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — kuluttajahintaindeksi kaikille kaupunkikuluttajille",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — rahan tarjonta M1"
 }

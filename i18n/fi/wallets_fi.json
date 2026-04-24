@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-lompakko-opas",
 	"wallets_description": "On monia erilaisia Bitcoin-lompakoita, jotka eroavat toisistaan tärkeillä tavoilla. Voit määrittää, onko lompakko oikea sinulle, kysymällä nämä yksinkertaiset kysymykset.",
 	"wallets_header": "MITEN SÄILYTTÄÄ BITCOINISI TURVALLISESTI",
+	"wallets_header_subtitle": "Vaihe vaiheelta -opas lompakon valintaan, avainten suojaamiseen ja täyden hallinnan ottamiseen bitcoinistasi.",
 	"wallets_s1_c1": "Bitcoin-lompakot ovat yhteentoimivia, joten voit lähettää Bitcoinia kenelle tahansa riippumatta siitä, mitä lompakkoa he käyttävät.",
 	"wallets_s1_c2": "On monia erilaisia Bitcoin-lompakoita, jotka eroavat toisistaan tärkeillä tavoilla. Voit määrittää, onko lompakko oikea sinulle, kysymällä nämä yksinkertaiset kysymykset:",
 	"wallets_question_1": "ONKO SE OMAHALLINTAINEN LOMPAKKO?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp on testannut 70 teräsvarmuuskopiopakettia auttaaksesi sinua valitsemaan sinulle sopivan.",
 	"wallets_s6_c5": "Katso Jamesonin metallinen Bitcoin-varmuuskopio-opas täältä.",
 	"wallets_s6_c6": "Tai jatka vierittämistä tutkiaksesi Bitcoin-lompakkovaihtoehtoja.",
+	"wallets_grid_heading": "Suositut bitcoin-lompakot",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning-verkko",
 	"wallets_cta_lightning": "Etsitkö Lightning-lompakko-opastamme?",
 	"wallets_starter_wallet": "Loistava aloituslompakko",
 	"wallets_mobile_app": "Mobiilisovellus",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Ladattava akku",
 	"wallets_build_your_own": "Rakenna oma",
 	"wallets_qwerty_keyboard": "Täysi QWERTY-näppäimistö",
-	"wallets_qr_scanner": "QR-koodiskanneri"
+	"wallets_qr_scanner": "QR-koodiskanneri",
+	"sources_bitcoin_org_choose": "Bitcoin.org — valitse lompakkosi",
+	"sources_jameson_lopp": "Jameson Lopp — bitcoinin siemen-metallisäilytysten arvostelut",
+	"sources_blockstream_green": "Blockstream Green — itse-hallittava bitcoin-lompakko",
+	"sources_blockstream_jade": "Blockstream Jade — bitcoin-laitelompakko",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 -laitelompakko",
+	"sources_coldcard_q": "Coinkite — Coldcard Q -laitelompakko",
+	"sources_passport": "Foundation Devices — Passport-laitelompakko",
+	"sources_seedsigner": "SeedSigner — avoimen lähdekoodin itse-tehtävä allekirjoituslaite bitcoin-transaktioille"
 }

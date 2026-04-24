@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"404_title": "Virhe 404 | Sivua ei löydy",
-	"404_message": "TÄMÄ RIKKINÄINEN SIVU EI OLE SIISTI",
-	"404_home": "TAKAISIN ETUSIVULLE"
+	"404_message": "Bitcoin rokkaa, mutta tämä rikkinäinen sivu ei.",
+	"404_home": "Takaisin etusivulle",
+	"404_not_found_short": "Ei löytynyt"
 }
