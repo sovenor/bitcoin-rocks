@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Bargeld",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Dezentrales Netzwerk",
 	"bitcoin_point_6": "Digitale Selbstverwahrung",
 	"bitcoin_point_7": "Leicht teilbar",
-	"point_1_summary_1": "Bitcoin kann überall auf der Welt sofort über das Internet gesendet werden, während Bargeld physische Anwesenheit oder vertrauenswürdige Vermittler erfordert. Du kannst kein Bargeld per E-Mail versenden, aber du kannst Bitcoin in Minuten an jeden mit einer Internetverbindung senden.",
-	"point_2_summary_1": "Bitcoin funktioniert überall auf der Welt gleich – es gibt keine Grenzen im Bitcoin-Netzwerk. Bargeld ist durch Geographie, Wechselkurse und lokale Akzeptanz begrenzt. Versuche, US-Dollar im ländlichen Thailand oder japanische Yen im ländlichen Mexiko zu verwenden.",
-	"point_3_summary_1": "Regierungen können und machen Bargeld über Nacht durch Demonetisierungspolitiken ungültig, wie Indien es 2016 tat, als sie bestimmte Banknoten verboten.",
-	"point_3_summary_2": "Auch ohne das Verbot bestimmter Banknoten entwerten Regierungen Bargeld ständig durch Inflation.",
-	"point_3_summary_3": "Bitcoin kann von keiner Regierung oder Behörde ungültig gemacht werden - es existiert in einem globalen, dezentralen Netzwerk, das keine einzelne Entität kontrolliert.",
-	"point_4_summary_1": "Bargeld kann gefälscht werden, und es ist oft schwierig, gefälschte Scheine ohne spezielle Ausrüstung zu erkennen. Selbst mit Sicherheitsmerkmalen zirkuliert weiterhin gefälschtes Bargeld. Bitcoin verwendet kryptographische Beweise, die Fälschungen mathematisch unmöglich machen.",
-	"point_5_summary_1": "Bargeld wird von Regierungen ausgegeben und kontrolliert, die nach Belieben mehr drucken, Designs ändern oder bestimmte Scheine für ungültig erklären können. Bitcoin funktioniert in einem dezentralen Netzwerk, in dem keine einzelne Behörde die Kontrolle über die Geldmenge oder Regeln hat.",
-	"point_6_summary_1": "Bargeld muss physisch gelagert werden, was es anfällig für Diebstahl, Verlust, Feuer oder Beschlagnahme macht. Große Mengen erfordern teure Sicherheitsmaßnahmen.",
-	"point_6_summary_2": "Aber Bitcoin kann sicher in Selbstverwahrung aufbewahrt werden",
-	"point_6_summary_3": "mit einer Smartphone-App oder speziellen Wallet, was dir vollständige Kontrolle über dein Geld ohne physische Lagerungsrisiken gibt.",
-	"point_7_summary_1": "Bargeld hat Mindestdenominationen – du kannst einen Cent nicht in kleinere Teile aufteilen. Bitcoin kann in 100 Millionen kleinere Einheiten namens Satoshis unterteilt werden, was Mikrozahlungen und präzise Transaktionen jeder Höhe ermöglicht."
+	"point_1_summary_1": "Bitcoin bewegt sich über das Internet innerhalb von Minuten überall auf der Welt hin. Bargeld erfordert physische Anwesenheit oder vertrauenswürdige Kuriere — einen Zwanziger kannst Du nicht per E-Mail versenden.",
+	"point_2_summary_1": "Bitcoin funktioniert überall gleich. Bargeld ist durch Geografie, Wechselkurse und lokale Akzeptanz begrenzt.",
+	"point_3_summary_1": "Regierungen können Bargeld über Nacht ungültig machen — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indien</a> tat dies 2016. Aber auch ohne Demonetarisierung verliert Bargeld durch",
+	"point_3_summary_2": "Inflation",
+	"point_3_summary_3": " an Wert. Bitcoin kann von keiner Regierung oder Autorität für ungültig erklärt werden.",
+	"point_4_summary_1": "Bargeld lässt sich fälschen, manchmal sehr überzeugend. Bitcoin nutzt Kryptografie, die das Fälschen mathematisch unmöglich macht.",
+	"point_5_summary_1": "Bitcoin hat keine zentrale Autorität. Bargeld wird von Regierungen ausgegeben, die nach Belieben mehr drucken, das Aussehen ändern oder Scheine entwerten können.",
+	"point_6_summary_1": "Bargeld ist anfällig für Diebstahl, Feuer, Verlust und Beschlagnahmung. Bitcoin kann sicher in ",
+	"point_6_summary_2": "Selbstverwahrung",
+	"point_6_summary_3": " auf einem Handy oder Hardware-Gerät gehalten werden.",
+	"point_7_summary_1": "Bitcoin ist in 100 Millionen Satoshis teilbar, was Mikrozahlungen jeder Größe ermöglicht. Bargeld hat Mindeststückelungen — einen Cent kann man nicht teilen.",
+	"hero_title": "Der Unterschied zwischen <span class=\"orange\">Bitcoin</span> und <span class=\"asset\">Bargeld</span>"
 }

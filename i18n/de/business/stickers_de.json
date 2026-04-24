@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_accepted_here_stickers": "'Bitcoin Accepted Here'-Sticker",
+	"biz_stickers_hero_title": "Kostenlose „Bitcoin wird hier akzeptiert“-Aufkleber",
+	"biz_stickers_hero_subtitle": "Zeige Deinen Kunden, dass Du Bitcoin akzeptierst. Bestelle ein kostenloses Paket „Bitcoin wird hier akzeptiert“-Aufkleber, um sie in Deinem Geschäft anzubringen.",
+	"biz_stickers_intro_c1": "Bitcoin zu akzeptieren ist nur die halbe Miete — Deine Kunden müssen auch wissen, dass Du ihn annimmst. Diese kleinen „Bitcoin wird hier akzeptiert“-Aufkleber sind dafür gedacht, an Deiner Eingangstür, an der Kasse, auf der Speisekarte oder überall dort, wo Kunden sie vor dem Bezahlen sehen, angebracht zu werden.",
+	"biz_stickers_intro_c2": "Wir senden Dir ein kostenloses Paket überall in den USA oder Kanada, oder Du kannst weltweit Deine eigenen drucken.",
+	"biz_stickers_step_header": "Wie möchtest Du Deine Aufkleber bekommen?",
+	"biz_stickers_step_description": "Wir senden ein kostenloses Paket an Adressen in den USA und Kanada. Überall sonst auf der Welt kannst Du Deine eigenen drucken.",
+	"biz_stickers_option_usa": "🇺🇸 USA — kostenlos per Post",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — kostenlos per Post",
+	"biz_stickers_option_print": "🌍 Weltweit — selbst drucken",
+	"biz_stickers_print_header": "Drucke Deine eigenen Aufkleberdateien",
+	"biz_stickers_print_c1": "Du kannst Deine eigenen „Bitcoin wird hier akzeptiert“-Aufkleber drucken, egal wo Du lebst. Tippe unten auf Deine Sprache, um die Aufkleberdateien und Druckhinweise herunterzuladen.",
+	"biz_stickers_request_header": "Siehst Du Deine Sprache nicht?",
+	"biz_stickers_request_c1": "Fülle das Formular unten aus, um „Bitcoin wird hier akzeptiert“-Aufkleberdateien in Deiner lokalen Sprache anzufordern. Wir sagen Bescheid, sobald sie fertig sind.",
+	"biz_stickers_placeholder_translation1": "Übersetzung von „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Übersetzung von „Scan to learn why Bitcoin is good for business.“",
 	"stickers_request": "Deine kostenlosen Sticker erhalten"
 }

@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Anfrage erhalten 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Danke für Deine Anfrage nach „Bitcoin wird hier akzeptiert“-Aufkleberdateien in Deiner Sprache.",
+	"biz_sticker_language_success_timeline_header": "Was als Nächstes passiert",
+	"biz_sticker_language_success_timeline_c1": "Wir erstellen und veröffentlichen Deine Aufkleberdateien innerhalb von 3 bis 4 Wochen. Sobald sie fertig sind, kannst Du sie kostenlos von unserer Aufkleberdateien-Seite herunterladen und drucken.",
+	"biz_sticker_language_success_timeline_c2": "Wir veröffentlichen Aufkleberdateien in Chargen, daher kann es mehrere Wochen dauern, bis Deine Sprache live geht. Danke für Deine Geduld!"
 }

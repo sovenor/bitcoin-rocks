@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Englische 'Bitcoin Accepted Here'-Sticker-Dateien",
-	"english_biz_sticker_files_description": "Lade englische Sticker-Dateien herunter, um deine 'Bitcoin Accepted Here'-Sticker selbst zu drucken."
+	"english_biz_sticker_files_description": "Lade die englischen Aufkleberdateien herunter, damit Du Deine eigenen „Bitcoin wird hier akzeptiert“-Aufkleber drucken kannst.",
+	"biz_stickers_english_hero_title": "Lade die englischen „Bitcoin wird hier akzeptiert“-Aufkleberdateien herunter",
+	"biz_stickers_english_hero_subtitle": "Drucke Deine eigenen „Bitcoin wird hier akzeptiert“-Aufkleber auf Englisch, um Deinen Kunden zu zeigen, dass Du Bitcoin akzeptierst."
 }

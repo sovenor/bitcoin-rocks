@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
-	}
+	},
+	"biz_sticker_success_hero_title": "Deine Aufkleber sind unterwegs 🎉",
+	"biz_sticker_success_hero_subtitle": "Deine kostenlosen „Bitcoin wird hier akzeptiert“-Aufkleber kommen in 2 bis 4 Wochen in einem schlichten weißen Umschlag mit 3 Aufklebern.",
+	"biz_sticker_success_tips_header": "Gute Orte für Deine Aufkleber",
+	"biz_sticker_success_tip_1": "An der Eingangstür oder im Schaufenster, damit Kunden sie vor dem Betreten sehen",
+	"biz_sticker_success_tip_2": "In der Nähe der Kasse, des Zahlungsterminals oder des Bezahlbereichs",
+	"biz_sticker_success_tip_3": "Auf Speisekarten, Preislisten oder Trinkgeldkassen",
+	"biz_sticker_success_tip_4": "Nicht auf Orten anbringen, die Dir nicht gehören oder für die Du keine Erlaubnis hast",
+	"biz_sticker_success_more_header": "Brauchst Du mehr Aufkleber?",
+	"biz_sticker_success_more_c1": "Wenn 3 Aufkleber für Dein Unternehmen nicht reichen, fordere gerne noch ein kostenloses Paket an — oder bestelle in großen Mengen beim selben Drucker, den wir nutzen.",
+	"biz_sticker_success_btn_order_bulk": "In großen Mengen bestellen",
+	"biz_sticker_success_btn_request_more": "Weiteres Paket kostenlos anfordern"
 }

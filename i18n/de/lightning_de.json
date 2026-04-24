@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-Wallet Anleitung",
 	"lightning_description": "Lightning-Wallets ermöglichen es Dir, Bitcoin schnell und kostengünstig zu versenden und gleichzeitig Deine persönliche Souveränität zu wahren.",
 	"lightning_header": "LIGHTNING-WALLET ANLEITUNG",
+	"lightning_header_subtitle": "Lightning erlaubt Dir, Bitcoin in Sekunden für einen Bruchteil eines Cents zu senden — wähle eine Wallet, deren Kompromisse zu dem passen, wie viel Bitcoin Du ausgeben möchtest.",
 	"lightning_s1_c1": "Lightning ermöglicht es Dir, Bitcoin-Zahlungen schnell und kostengünstig zu versenden.",
 	"lightning_s1_c2": "Es ist wichtig zu wissen, dass die Verwendung von Lightning mit Kompromissen verbunden ist. Im Austausch für schnellere, günstigere Bitcoin-Zahlungen, opfert man oft etwas Sicherheit.",
 	"lightning_s1_c3": "Im Allgemeinen sollte Lightning nur mit kleinen Bitcoin-Beträgen verwendet werden. Große Summen solltest du immer nur in einer Hardware-Wallet speichern.",
-	"lightning_s1_c4": "Für weitere Informationen siehe unsere Anleitung zu Hardware-Wallets.",
+	"lightning_s1_c4": "Schau Dir unseren",
+	"lightning_s1_c4_link": "Leitfaden für Bitcoin-Hardware-Wallets",
+	"lightning_s1_c4_end": "für mehr Informationen an.",
 	"lightning_s1_c5": "Nicht alle Lightning-Wallets sind gleich. Du kannst herausfinden, welche Wallet die richtigen Kompromisse für Dich hat, indem Du Dir eine einfache Frage stellst:",
 	"lightning_question_1": "WELCHER KOMPROMISS IST FÜR MICH DER RICHTIGE?",
 	"lightning_s2_c1": "Eine der Innovationen von Bitcoin ist die Möglichkeit, Bitcoin zu halten, ohne auf einen Verwahrer wie eine Bank angewiesen zu sein. Selbstverwahrende (self-custodial) Wallets setzen die volle Stärke von Bitcoin frei.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Diese Wallets ähneln eher dem Bankensystem, bei dem Du einer dritten Partei vertrauen musst, damit sie Dir Zugang zu Deinem Geld gewährt. Wenn sich deine Bitcoin auf einer Börse befinden, verwendest du eine verwahrte Wallet.",
 	"lightning_s3_c3": "Verwahrte Wallets mögen bequem erscheinen, aber der Verwahrer ist technisch in der Lage, alle Nutzergelder jederzeit zu stehlen.",
 	"lightning_s3_c4": "Einige Leute bevorzugen verwahrte Lightning-Wallets für kleine Bitcoin-Beträge, da sie sehr benutzerfreundlich sind. Bedenke nur: Nicht Deine Schlüssel, nicht Deine Coins – „Not your keys, not your coins!“",
+	"lightning_grid_heading": "Beliebte Lightning-Wallets",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% kostenlos",
 	"lightning_merchants": "Ideal für Händler",
 	"lightning_custodial": "Vollständig verwahrte Wallet",
-	"lightning_cta_hardware": "Suchst Du nach unserer Bitcoin Hardware-Wallet Anleitung?"
+	"lightning_cta_hardware": "Suchst Du nach unserer Bitcoin Hardware-Wallet Anleitung?",
+	"lightning_hardware_cta_label": "Hardware-Wallets",
+	"sources_lightning_paper": "Joseph Poon und Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning-Wallet",
+	"sources_breez_lightning": "Breez — Lightning-Wallet mit Selbstverwahrung",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — verwahrte Lightning-Wallet",
+	"sources_lightning_labs": "Lightning Labs — Lightning-Network-Dokumentation"
 }

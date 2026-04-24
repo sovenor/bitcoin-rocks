@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "FAQs zur Annahme von Bitcoin",
 	"faq_description": "Hast du Fragen zur Annahme von Bitcoin-Zahlungen in deinem Unternehmen?",
+	"faq_hero_subtitle": "Kurze Antworten auf die häufigsten Fragen, die Händler stellen, bevor sie Bitcoin akzeptieren — Gebühren, Abwicklung, Wallets, Chargebacks, Kosten und mehr.",
+	"faq_intro_c1": "Tippe unten auf eine Frage, um die Antwort aufzuklappen. Wenn Du bereit bist, Bitcoin zu akzeptieren, führen Dich die Business-Ressourcen am Ende der Seite durch jeden Schritt.",
 	"faq_s1": "Was ist Bitcoin?",
 	"faq_s1_c1": "Bitcoin ist zweierlei: digitales Geld und ein Computernetzwerk.",
 	"faq_s1_c2": "Du kannst Bitcoin (das digitale Geld) direkt an andere Personen über das Bitcoin-Netzwerk senden.",
