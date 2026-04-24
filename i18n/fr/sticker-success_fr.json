@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"sticker_success_1": "Vous recevrez vos autocollants dans 2 à 4 semaines. Pendant ce temps, essayez de trouver un bon endroit pour mettre vos autocollants !",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "dans des espaces où il est peu probable qu'ils soient retirés rapidement (les autocollants ne causent pas de dégâts permanents)",
 	"sticker_success_list_3": "sur des surfaces propres où ils adhèrent facilement (métal, plastique, verre)",
 	"sticker_success_list_4": "NE PAS LES PLACER dans des propriétés privées, ni pour recouvrir des panneaux de signalisation, ou sur des distributeurs automatiques de billets et pompes à essence",
-	"sticker_success_3": "Vous voulez voir où d'autres personnes placent leurs autocollants ?"
+	"sticker_success_3": "Vous voulez voir où d'autres personnes placent leurs autocollants ?",
+	"sticker_success_hero_title": "Tes autocollants sont en route 🎉",
+	"sticker_success_tips_header": "De bons endroits pour coller les autocollants",
+	"sticker_success_share_header": "Partage où tu as collé les autocollants",
+	"sticker_success_bulk_header": "Besoin de plus d’autocollants ?",
+	"sticker_success_btn_order_bulk": "Commander en gros",
+	"sticker_success_btn_share_on_nostr": "Partager sur Nostr",
+	"sticker_success_btn_what_is_nostr": "Qu’est-ce que Nostr ?"
 }

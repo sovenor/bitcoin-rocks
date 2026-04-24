@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Fichiers png d'autocollant 'Bitcoin Accepted Here' en anglais",
-	"english_biz_sticker_files_description": "Téléchargez le fichier d'autocollant en anglais pour imprimer vos propres autocollants Bitcoin Accepted Here."
+	"english_biz_sticker_files_description": "Télécharge les fichiers d’autocollants en anglais pour imprimer tes propres autocollants « Bitcoin accepté ici ».",
+	"biz_stickers_english_hero_title": "Télécharge les fichiers d’autocollants en anglais « Bitcoin Accepted Here »",
+	"biz_stickers_english_hero_subtitle": "Imprime tes propres autocollants « Bitcoin accepté ici » en anglais pour que tes clients sachent que tu acceptes Bitcoin."
 }

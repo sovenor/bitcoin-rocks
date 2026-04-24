@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"bitcoin_is_good_for_business": "Le Bitcoin est bénéfique pour les commerces",
+	"business_hero_subtitle": "Encaisse avec des frais plus bas, règle instantanément et touche des millions de nouveaux clients — sans contrats ni coûts cachés.",
+	"business_intro_c1": "Bitcoin donne à ton entreprise un moyen d’encaisser plus rapide, moins cher et plus confidentiel. Pas d’intermédiaires. Pas de rétrofacturations. Pas de contrats. Juste de l’argent qui se règle en quelques secondes, directement du client à toi.",
+	"business_intro_c2": "Ci-dessous la version courte des raisons pour lesquelles Bitcoin est bon pour le business — et en-dessous, toutes les ressources dont tu as besoin pour commencer à l’accepter dès aujourd’hui.",
 	"biz_s1": "Frais réduits sans minimum d'achat",
 	"biz_s1_c1": "Bitcoin vous permet de recevoir des paiements directement de vos clients, comme de l'argent liquide. Le réseau Bitcoin fonctionne sans intermédiaires, comme les banques et les sociétés de cartes de crédit qui eux prélèvent des frais importants.",
 	"biz_s2": "Règlement instantané",
@@ -17,5 +20,14 @@
 	"biz_s4": "Obtenez plus de clients",
 	"biz_s4_c1": "Des millions de personnes possèdent des bitcoin et veulent les dépenser dans des commerces qui les acceptent.",
 	"biz_s4_c2": "Simplement en acceptant les bitcoin, votre entreprise peut être répertoriée sur les cartes des marchands bitcoin et profiter d'une visibilité gratuite auprès de nouveaux clients.",
-	"biz_s4_c3": "Accepter bitcoin est 100% gratuit. Il n'y a pas de contrat ni de frais cachés."
+	"biz_s4_c3": "Accepter bitcoin est 100% gratuit. Il n'y a pas de contrat ni de frais cachés.",
+	"business_resources_heading": "Tout ce qu’il te faut pour accepter Bitcoin",
+	"business_resources_intro": "Parcours ces ressources à ton rythme. Chacune est un guide court et pratique.",
+	"biz_label_wallets": "WALLETS",
+	"biz_label_maps": "CARTES DES COMMERÇANTS",
+	"biz_label_stickers": "AUTOCOLLANTS",
+	"biz_label_rewards": "RÉCOMPENSES",
+	"biz_label_accounting": "COMPTABILITÉ",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Accepte Bitcoin dans ton entreprise avec des frais plus bas, un règlement instantané, sans rétrofacturations, et attire plus de clients."
 }

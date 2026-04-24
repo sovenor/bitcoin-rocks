@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Demande reçue 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Merci d’avoir demandé des fichiers d’autocollants « Bitcoin accepté ici » dans ta langue.",
+	"biz_sticker_language_success_timeline_header": "Ce qui se passe maintenant",
+	"biz_sticker_language_success_timeline_c1": "Nous créerons et publierons tes fichiers d’autocollants d’ici 3 à 4 semaines. Une fois prêts, tu pourras les télécharger et les imprimer gratuitement depuis notre page des fichiers d’autocollants.",
+	"biz_sticker_language_success_timeline_c2": "Nous publions les fichiers d’autocollants par lots, alors il peut se passer plusieurs semaines avant que ta langue soit disponible. Merci pour ta patience !"
 }

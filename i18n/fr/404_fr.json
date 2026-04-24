@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-12",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"404_title": "Erreur 404 | Page introuvable",
-	"404_message": "OOPS CETTE PAGE NE FONCTIONNE PAS",
-	"404_home": "RETOUR À LA PAGE D'ACCUEIL"
+	"404_message": "Bitcoin est génial, mais cette page cassée, non.",
+	"404_home": "Retour à l’accueil",
+	"404_not_found_short": "Introuvable"
 }

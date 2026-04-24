@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"how_to_accept_bitcoin_payments": "Comment accepter les paiements en bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Auto-hébergé = 0% de frais",
 	"wallets_feature_online_store": "Intégration de votre boutique en ligne",
 	"wallets_feature_invoicing": "Logiciel de facturation gratuit",
-	"wallets_get_wallet": "OBTENEZ UN PORTEFEUILLE"
+	"wallets_get_wallet": "OBTENEZ UN PORTEFEUILLE",
+	"wallets_hero_subtitle": "Les wallets Bitcoin sont gratuits. Choisis celui qui correspond à ton entreprise — en magasin, en ligne ou sur facture — et commence à accepter Bitcoin en quelques minutes.",
+	"wallets_section_sole": "Wallets pour les entreprises individuelles",
+	"wallets_section_sole_intro": "Si tu gères seul une boutique, un café, un studio ou un service, chacun de ces wallets fera l’affaire. Choisis selon que tu veux garder les paiements en Bitcoin ou convertir automatiquement une partie de chaque paiement dans ta monnaie locale.",
+	"wallets_section_multiple": "Wallets pour les entreprises avec plusieurs employés",
+	"wallets_section_multiple_intro": "Si tu as une équipe qui encaisse à la caisse, choisis un wallet qui gère plusieurs connexions d’employés — pour que chaque employé ait son propre code PIN et que tu gardes des traces claires de qui a reçu chaque paiement.",
+	"wallets_section_online": "Wallets pour les entreprises en ligne",
+	"wallets_section_online_intro": "Tu vends en ligne ? Ces wallets se connectent à ta boutique en ligne et acceptent Bitcoin de n’importe quel client dans le monde — sans rétrofacturations et sans besoin de compte marchand.",
+	"wallets_section_invoice": "Wallets pour les entreprises qui facturent leurs clients",
+	"wallets_section_invoice_intro": "Si tu factures des clients (conseil, freelance, services B2B), utilise un wallet conçu autour de la facturation. Le client règle la facture Bitcoin en quelques clics.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business te permet d’accepter les paiements en Bitcoin et Lightning avec des frais nuls et un règlement instantané. Il prend en charge les paiements en magasin, en ligne et sur facture, avec conversion automatique facultative dans ta monnaie locale.",
+	"sources_square": "Square — accepte les paiements en Bitcoin",
+	"sources_breez_business": "Breez — wallet Lightning uniquement Bitcoin",
+	"sources_opennode": "OpenNode — processeur de paiements Bitcoin",
+	"sources_ibex": "IBEX — infrastructure de paiements Lightning",
+	"sources_zaprite": "Zaprite — facturation en Bitcoin pour les entreprises",
+	"biz_wallets_meta_description": "Tous les wallets Bitcoin fonctionnent ensemble — choisis celui qui correspond à ton entreprise. Gratuit, règlement instantané, sans rétrofacturations."
 }

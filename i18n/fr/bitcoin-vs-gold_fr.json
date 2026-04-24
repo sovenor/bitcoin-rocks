@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs OR",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Décentralisé",
 	"bitcoin_point_6": "Facile à vérifier",
 	"bitcoin_point_7": "Facile à diviser",
-	"point_1_summary_1": "Parce que le bitcoin est numérique, il peut être envoyé presque instantanément à des frais très faibles par toute personne disposant d'une connexion Internet. L'or étant physique, il ne peut pas être déplacé sur Internet et doit être physiquement expédié pour en transférer la possession.",
-	"point_2_summary_1": "Le bitcoin est un actif numérique, ce qui signifie qu'il est possible d'en transférer la pleine propriété sur Internet. Certaines sociétés offrent la possibilité d'acheter de l'or en ligne sans recevoir l'or physique, mais en faisant confiance à la société de conserver l'or pour vous. Il s'agit plutôt d'une reconnaissance de dette numérique, puisque vous ne possédez qu'une promesse de l'entreprise au lieu de l'actif réel.",
-	"point_3_summary_1": "Le bitcoin a un plafond de 21 millions de BTC qui existeront pour toujours.",
-	"point_3_summary_2": "De nouvelles réserves d'or sont extraites du sol chaque année, ce qui entraîne une inflation de l'offre totale. On estime que l'offre totale d'or augmente d'environ 1,6 % par an, ce qui signifie que votre part diminue de 1,6 % par an.",
-	"point_3_summary_3": "C'est moins que l'inflation en euros, cependant, cela reste de l'inflation.",
-	"point_4_summary_1": "L'or a une offre flexible, ce qui signifie que lorsque le prix de l'or augmente, il y a une plus grande incitation à extraire plus d'or. Cela exerce souvent une pression à la baisse sur le prix de l'or lorsque de nouvelles mines sont mises en service.",
+	"point_1_summary_1": "Bitcoin peut être envoyé instantanément par internet avec des frais faibles. L’or doit être expédié physiquement pour transférer la propriété.",
+	"point_2_summary_1": "Bitcoin est un actif nativement numérique que tu peux transférer par internet. L’or en ligne est un IOU numérique — tu ne possèdes qu’une promesse d’un dépositaire, pas le métal lui-même.",
+	"point_3_summary_1": "Bitcoin a un plafond fixe de 21 millions de BTC. L’offre d’or croît d’environ <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6 % par an</a>, réduisant ta part — moins que l’",
+	"point_3_summary_2": "inflation",
+	"point_3_summary_3": " des monnaies fiduciaires, mais c’est quand même de l’inflation.",
+	"point_4_summary_1": "Quand les prix de l’or montent, on extrait davantage d’or, ce qui fait baisser à nouveau le prix. L’offre de Bitcoin est inélastique — peu importe à quel point le prix grimpe, il y en aura toujours seulement 21 millions.",
 	"point_4_summary_2": "Avec le bitcoin, peu importe la hausse du prix, vous ne pouvez pas en créer plus de 21 millions.",
 	"point_4_summary_3": "Le bitcoin est le premier actif dont la relation entre le prix et l'offre est inflexible.",
-	"point_5_summary_1": "Le réseau Bitcoin est décentralisé.",
+	"point_5_summary_1": "Le réseau Bitcoin est vérifié par des dizaines de milliers de nœuds indépendants. La majorité de l’or physique se trouve dans quelques grandes chambres fortes.",
 	"point_5_summary_2": "Des dizaines de milliers de nœuds indépendants valident les règles du réseau.",
-	"point_6_summary_1": "Avec Bitcoin, il est très facile de vérifier que vous avez de vrais bitcoin sur votre portefeuille et en exécutant un nœud complet.",
+	"point_6_summary_1": "N’importe qui peut vérifier l’authenticité d’un Bitcoin en faisant tourner un nœud complet — c’est juste une application. Vérifier de l’or physique demande de le faire fondre ; il pourrait contenir du tungstène à l’intérieur.",
 	"point_6_summary_2": "L'auto-détention est aussi simple que le téléchargement d'une application.",
 	"point_6_summary_3": "Un nœud complet est un simple logiciel qui garantit que les règles du réseau sont respectées et vérifie que vous possédez de vrais bitcoin.",
-	"point_7_summary_1": "Tout comme il y a 100 centimes dans 1 euro, il y a 100 000 000 sats dans 1 bitcoin. Cela permet d'utiliser le bitcoin pour tous les types d'achats, y compris les microtransactions de quelques centimes.",
-	"point_7_summary_2": "Cela rend le bitcoin bon pour les activités commerciales."
+	"point_7_summary_1": "Bitcoin est divisible en 100 millions de satoshis, ce qui le rend idéal pour des achats de toute taille. L’or ne peut pas être facilement divisé pour des transactions plus petites.",
+	"point_7_summary_2": "Cela rend le bitcoin bon pour les activités commerciales.",
+	"hero_title": "La différence entre <span class=\"orange\">Bitcoin</span> et l’<span class=\"asset\">or</span>"
 }
