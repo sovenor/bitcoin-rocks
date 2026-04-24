@@ -124,7 +124,7 @@ export function LanguageSwitcher() {
 		<div ref={wrapperRef} className="relative inline-flex">
 			<button
 				type="button"
-				className="inline-flex items-center justify-center whitespace-nowrap font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors cursor-pointer bg-transparent border-0 px-2 py-1 md:text-sm"
+				className="inline-flex items-center justify-center whitespace-nowrap font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors cursor-pointer bg-transparent border-0 py-1 md:text-sm xs:text-xs"
 				onClick={(e) => {
 					e.stopPropagation();
 					setOpen((v) => !v);

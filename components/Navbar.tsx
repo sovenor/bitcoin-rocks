@@ -34,29 +34,33 @@ export async function Navbar() {
 				/>
 			</Link>
 
-			{/* Pill-shaped nav container — logo overlaps its top border */}
-			<div className="-mt-2 flex items-center justify-center border border-[#555] rounded-full px-4 py-5 w-4/5 max-w-[460px] box-border md:py-5 xs:px-2 xs:py-4">
+			{/* Pill-shaped nav container — logo overlaps its top border.
+			    Uses `justify-between` + fixed outer padding so the leftmost
+			    item always sits a fixed distance from the pill's left edge
+			    and the rightmost item always sits the same distance from
+			    the pill's right edge, regardless of which language name is
+			    selected. The two middle items get evenly-distributed space
+			    between them. */}
+			<div className="-mt-2 flex items-center justify-between border border-[#555] rounded-full px-14 py-5 w-4/5 max-w-[460px] box-border md:py-5 xs:px-8 xs:py-4">
 				<Link
 					href="/"
-					className="flex-1 inline-flex items-center justify-center font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors px-2 py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
 				>
 					{t("home_nav_learn")}
 				</Link>
 				<Link
 					href="/get-involved"
-					className="flex-1 inline-flex items-center justify-center font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors px-2 py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
 				>
 					{t("home_nav_get_involved")}
 				</Link>
 				<Link
 					href="/about"
-					className="flex-1 inline-flex items-center justify-center font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors px-2 py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
 				>
 					{t("home_nav_about")}
 				</Link>
-				<div className="flex-1 inline-flex items-center justify-center">
-					<LanguageSwitcher />
-				</div>
+				<LanguageSwitcher />
 			</div>
 		</nav>
 	);
