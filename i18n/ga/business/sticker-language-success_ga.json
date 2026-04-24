@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Faighte an t-iarratas 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Go raibh maith agat as comhaid ghreamán “Bitcoin Accepted Here” a iarraidh i do theanga.",
+	"biz_sticker_language_success_timeline_header": "Cad a tharlóidh anois",
+	"biz_sticker_language_success_timeline_c1": "Cruthóimid agus foilseoimid do chomhaid ghreamán laistigh de 3-4 sheachtain. Nuair a bheidh siad réidh, is féidir leat iad a íoslódáil agus a phriontáil saor in aisce ónár leathanach comhad greamán.",
+	"biz_sticker_language_success_timeline_c2": "Foilsímid comhaid ghreamán i mbaisceanna, mar sin d’fhéadfadh sé cúpla seachtain a thógáil sula mbeidh do theanga ar fáil. Go raibh maith agat as d’fhoighne!"
 }

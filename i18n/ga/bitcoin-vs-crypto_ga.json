@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Cripteá",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Airgead digiteach glan",
 	"bitcoin_point_7": "Frithleochaileach",
 	"bitcoin_point_8": "Ní rialaíonn aon aonán amháin é",
-	"point_1_summary_1": "Tá prótacal Bitcoin gan athrú go bunúsach ó 2009, ag soláthar rialacha intuartha nach féidir a athrú go héasca. Nuashonraíonn an chuid is mó de thionscadail chripteá a bprótacail go minic, athraíonn siad comharthaíocht, nó foircíonn siad i leaganacha nua, ag cruthú éiginnteachta d'úsáideoirí.",
-	"point_2_summary_1": "Oibríonn Bitcoin ar líonra atá díláraithe i ndáiríre le na mílte nód neamhspleách ar fud an domhain. Tá go leor tionscadal cripteá faoi smacht fondúireachtaí, cuideachtaí, nó grúpaí beaga forbróirí is féidir cinntí aontaobhacha a dhéanamh faoi thodhchaí an phrótacail.",
-	"point_3_summary_1": "Tá uasmhéid dhian de 21 milliún bonn ag Bitcoin a bheidh ann go deo, rud a fhágann gurb é an tsócmhainn dhigiteach is ganna é. Tá soláthair gan teorainn ag an gcuid is mó de thionscadail chripteá, meicníochtaí boilscithe, nó is féidir leo comharthaí nua a bhualadh ar mian leo, ag caolú luach sealbhóirí le himeacht ama.",
-	"point_4_summary_1": "Tá cuspóir simplí amháin ag Bitcoin: airgead digiteach piara le piara. Is féidir le haon duine é a thuiscint agus a úsáid le heolas bunúsach. Baineann go leor tionscadal cripteá le conarthaí cliste casta, prótacail DeFi, nó meicníochtaí rialachais a éilíonn saineolas teicniúil chun é a úsáid go sábháilte.",
-	"point_5_summary_1": "Úsáideann Bitcoin comhthoil Cruthúnas Oibre, a ndearnadh tástáil crua air ar feadh breis agus 15 bliana gan ionsaí rathúil amháin ar an bpríomhlíonra. Úsáideann go leor tionscadal cripteá meicníochtaí comhthola turgnamhacha cosúil le Cruthúnas Geallta nó córais tharmligthe nach bhfuil a slándáil fhadtéarmach cruthaithe acu.",
-	"point_6_summary_1": "Feidhmíonn Bitcoin mar airgead digiteach - stór luacha agus meán malairte. Is comharthaí fóntas iad an chuid is mó de chomharthaí cripteá d'ardáin shonracha, comharthaí rialachais, nó sócmhainní tuairimíocha le tairiscintí luacha domhain fíor éiginnte.",
-	"point_7_summary_1": "Éiríonn Bitcoin níos láidre faoi ionsaí agus tá sé tar éis maireachtáil tríd gach géarchéim, cosc, agus cáineadh a caitheadh leis. Tá an chuid is mó de thionscadail chripteá leochaileach agus is féidir leo titim mar gheall ar bhrú rialála, teipeanna teicniúla, nó cúlú margaidh.",
-	"point_8_summary_1": "Níl aon POF ag Bitcoin, aon chuideachta taobh thiar de, agus aon phointe aonair teipe. Tá go leor tionscadal cripteá tacaithe ag gnólachtaí caipitil fiontair, tá foirne ceannaireachta inaitheanta acu, nó braitheann siad ar chuideachtaí sonracha dá n-oibriú leanúnach."
+	"point_1_summary_1": "Is beag athrú atá tagtha ar phrótacal Bitcoin ó 2009 agus tairgeann sé rialacha intuartha. Athraíonn formhór na dtionscadal cripteabhair prótacal, tokenomics nó foirceann i leaganacha nua go leanúnach.",
+	"point_2_summary_1": "Ritheann Bitcoin ar na mílte nód neamhspleách ar fud an domhain. Tá formhór na dtionscadal cripteabhair á rialú ag fondúireachtaí, comhlachtaí nó grúpaí beaga forbróirí ar féidir leo athruithe aontaobhacha a dhéanamh.",
+	"point_3_summary_1": "Tá uasteorainn sheasta 21 milliún bonn ag Bitcoin — an tsócmhainn dhigiteach is annamh. Tá soláthar gan teorainn nó meicníochtaí chun tokens nua a chruthú go treallach ag formhór na dtionscadal cripteabhair, rud a thanaíonn sealbhóirí.",
+	"point_4_summary_1": "Tá aon chuspóir amháin ag Bitcoin: airgead digiteach piara-le-piara. Is féidir le gach duine é a thuiscint agus a úsáid. Áirítear le formhór na gcripteabhair conarthaí cliste nó DeFi casta a éilíonn scileanna teicniúla chun iad a úsáid go sábháilte.",
+	"point_5_summary_1": "Oibríonn Proof of Work Bitcoin gan aon ionsaí rathúil ar an bpríomh-shlabhra le breis is 15 bliain. Úsáideann formhór na dtionscadal cripteabhair meicníochtaí comhthola turgnamhacha nach ndearnadh tástáil dhomhain orthu.",
+	"point_6_summary_1": "Is airgead digiteach é Bitcoin — stór luacha agus modh malartán. Is tokens amhantraíochta úsáide nó rialachais iad formhór na dtokens cripteabhair nach bhfuil fíor-luach soiléir acu.",
+	"point_7_summary_1": "Neartaíonn Bitcoin faoi ionsaithe agus tháinig sé slán ó gach géarchéim, cosc agus cáineadh. Titeann formhór na dtionscadal cripteabhair faoi bhrú rialála, teicniúla nó margaidh.",
+	"point_8_summary_1": "Níl POF, comhlacht ná pointe teipe amháin ag Bitcoin. Braitheann formhór na dtionscadal cripteabhair ar infheisteoirí caipitil fiontair, ar cheannaireacht ar leith nó ar mharthanas comhlachta aonair.",
+	"hero_title": "An difríocht idir <span class=\"orange\">Bitcoin</span> agus <span class=\"asset\">Cripteabhair</span>"
 }

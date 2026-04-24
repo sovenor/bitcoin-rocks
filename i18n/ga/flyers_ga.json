@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"free_bitcoin_flyers": "Bileoga Bitcoin saor in aisce ó bitcoin.rocks",
 	"flyers_description": "Priontáil bileog Bitcoin sa bhaile agus cuir in áit phoiblí í chun iad siúd timpeall ort a oráistephiollú.",
-	"flyers_intro_header": "CONAS NA BILEOGA BITCOIN SEO A PHRIONTÁIL & A CHUR SUAS",
+	"flyers_hero_title": "Priontáil agus croch bileoga Bitcoin",
+	"flyers_hero_subtitle": "Bileoga Bitcoin saor in aisce, inphriontáilte. Croch iad i spásanna poiblí chun cabhrú le níos mó daoine foghlaim faoi Bitcoin.",
+	"flyers_intro_header": "Conas na bileoga Bitcoin seo a phriontáil agus a chrochadh",
 	"flyers_intro_c1": "Is é ár misean cabhrú leat níos mó daoine a oráistephiollú trí bhileoga Bitcoin a chur in áiteanna poiblí. Tá cód QR ar an mbileog seo a nascann lenár",
 	"flyers_intro_c2": "suíomh oideachais Bitcoin.",
 	"flyers_intro_c4": "Priontáil an bhileog seo sa bhaile nó i siopa priontála. Ansin, cuir ar chláir fhógraí, ar chuaillí teileafóin timpeall an bhaile, agus in áiteanna poiblí eile inar féidir le daoine í a fheiceáil agus foghlaim faoi Bitcoin.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "ROINN DO LÁITHREACHA BILEOG",
 	"flyers_share_c1": "Roinn do láithreacha bileog linn ar Nostr agus féach cá bhfuil daoine eile ag cur a gcuid bileog.",
 	"flyers_btn_share_on_nostr": "ROINN AR NOSTR",
-	"flyers_btn_what_is_nostr": "CÉARD É NOSTR?"
+	"flyers_btn_what_is_nostr": "CÉARD É NOSTR?",
+	"flyers_next_get_stickers": "Scaip an focal",
+	"flyers_next_get_stickers_desc": "Ordaigh pacáiste saor in aisce de ghreamáin Bitcoin"
 }

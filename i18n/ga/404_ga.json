@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"404_title": "Earráid 404 | Ní Bhfuarthas an Leathanach",
-	"404_message": "NÍL AN LEATHANACH BRISTE SEO GO MAITH",
-	"404_home": "AR AIS ABHAILE"
+	"404_message": "Tá Bitcoin iontach, ach níl an leathanach briste seo.",
+	"404_home": "Fill ar an mbaile",
+	"404_not_found_short": "Níor aimsíodh"
 }

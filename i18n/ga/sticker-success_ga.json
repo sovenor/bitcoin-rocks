@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"sticker_success_1": "Gheobhaidh tú do chuid greamán i gceann 2 go 4 seachtaine. Agus tú ag fanacht, smaoinigh ar áit mhaith chun do chuid greamán a chur!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "in áiteanna nach dócha go mbainfear go tapa iad (ní dhéanann na greamáin aon damáiste buan)",
 	"sticker_success_list_3": "ar dhromchlaí a ngreamóidh siad go héasca orthu (miotal, plaisteach, gloine)",
 	"sticker_success_list_4": "NÁ cuir iad ar mhaoin phríobháideach, ag clúdach comharthaí, ATManna, nó caidéil peitril",
-	"sticker_success_3": "Ar mhaith leat a fheiceáil cá bhfuil daoine eile ag cur a gcuid greamán?"
+	"sticker_success_3": "Ar mhaith leat a fheiceáil cá bhfuil daoine eile ag cur a gcuid greamán?",
+	"sticker_success_hero_title": "Tá do ghreamáin ar a mbealach 🎉",
+	"sticker_success_tips_header": "Áiteanna maithe chun na greamáin a chur",
+	"sticker_success_share_header": "Roinn cá bhfuil na greamáin curtha agat",
+	"sticker_success_bulk_header": "Ag teastáil níos mó greamán?",
+	"sticker_success_btn_order_bulk": "Ordaigh i mbulc",
+	"sticker_success_btn_share_on_nostr": "Roinn ar Nostr",
+	"sticker_success_btn_what_is_nostr": "Cad é Nostr?"
 }

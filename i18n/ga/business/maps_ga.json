@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Léarscáileanna Ceannaithe Bitcoin - Liostáil do ghnó saor in aisce",
-	"maps_view": "Féach ar an léarscáil anseo."
+	"maps_view": "Féach ar an léarscáil anseo.",
+	"biz_maps_hero_title": "Cuir do ghnó ar léarscáileanna ceannaithe Bitcoin",
+	"biz_maps_hero_subtitle": "Cuir do ghnó le BTC Map saor in aisce — eolaire oscailte domhanda ceannaithe a ghlacann le Bitcoin — ionas go bhfaighidh úsáideoirí Bitcoin in aice láimhe tú agus go gcaithfidh siad Bitcoin leat.",
+	"biz_maps_intro_c1": "Tá úsáideoirí Bitcoin ag lorg go gníomhach áit chun a gcuid airgid a chaitheamh. Fágann bheith ar an léarscáil do ghnó ar taispeáint do gach úsáideoir Bitcoin a bhíonn ag lorg áite le hithe, siopadóireacht nó fanacht — saor in aisce go hiomlán.",
+	"biz_maps_intro_c2": "Líon an fhoirm ghearr thíos agus cuirfimid do ghnó isteach chuig BTC Map agus chuig léarscáileanna eile ceannaithe Bitcoin.",
+	"biz_maps_view_map_cta": "Féach ar BTC Map",
+	"biz_maps_form_header": "Inis dúinn faoi do ghnó",
+	"biz_maps_form_intro": "Ní gá dúinn ach beagán eolais chun tú a chur ar an léarscáil. Ní choinnímid sonraí seolta ach ar feadh na tréimhse a theastaíonn chun do ghnó a chur isteach sna léarscáileanna.",
+	"biz_maps_placeholder_name": "Ainm an ghnó",
+	"biz_maps_placeholder_category": "Catagóir (m.sh. bialann, caifé, óstán)",
+	"biz_maps_placeholder_address": "Sráid agus uimhir",
+	"biz_maps_placeholder_city": "Cathair",
+	"biz_maps_placeholder_region": "Réigiún / contae / stát",
+	"biz_maps_placeholder_country": "Tír",
+	"biz_maps_placeholder_website": "Suíomh gréasáin (roghnach)",
+	"biz_maps_meta_description": "Cuir do ghnó le BTC Map agus le léarscáileanna eile ceannaithe Bitcoin saor in aisce, ionas go bhfaighidh úsáideoirí Bitcoin in aice láimhe tú."
 }

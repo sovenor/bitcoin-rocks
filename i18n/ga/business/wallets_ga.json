@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"how_to_accept_bitcoin_payments": "Conas Glacadh le Híocaíochtaí Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Féin-óstáilte = 0% táillí",
 	"wallets_feature_online_store": "Comhtháthú siopa ar líne",
 	"wallets_feature_invoicing": "Bogearraí sonrasc saor in aisce",
-	"wallets_get_wallet": "FAIGH SPARÁN"
+	"wallets_get_wallet": "FAIGH SPARÁN",
+	"wallets_hero_subtitle": "Tá sparáin Bitcoin saor in aisce. Roghnaigh an ceann a oireann do do ghnó — sa siopa, ar líne nó ar shonrasc — agus tosaigh ag glacadh le Bitcoin i gceann nóiméad.",
+	"wallets_section_sole": "Sparáin do ghnólachtaí aonair",
+	"wallets_section_sole_intro": "Má ritheann tú siopa, caifé, stiúideo nó seirbhís leat féin, oibreoidh gach ceann de na sparáin seo. Roghnaigh de réir má theastaíonn uait íocaíochtaí a choinneáil in Bitcoin nó cuid de gach íocaíocht a athrú go huathoibríoch go d’airgead reatha áitiúil.",
+	"wallets_section_multiple": "Sparáin do ghnólachtaí a bhfuil foirne fostaithe acu",
+	"wallets_section_multiple_intro": "Má tá foireann agat a dhéanann díolacháin ag an bpointe díola, roghnaigh sparán a láimhseálann logáil isteach iomadúla fostaithe — ionas go bhfuil a PIN féin ag gach fostaí agus go gcoinníonn tú taifead soiléir ar cé a fuair gach íocaíocht.",
+	"wallets_section_online": "Sparáin do ghnólachtaí ar líne",
+	"wallets_section_online_intro": "An bhfuil tú ag díol ar líne? Nascann na sparáin seo le do shiopa ar líne agus glacann siad le Bitcoin ó chustaiméir ar bith ar domhan — gan aisíocaíochtaí cártaí agus gan cuntas ceannaí ag teastáil.",
+	"wallets_section_invoice": "Sparáin do ghnólachtaí a sheolann sonraisc chuig custaiméirí",
+	"wallets_section_invoice_intro": "Má sheolann tú sonraisc chuig custaiméirí (comhairleoireacht, saorobair, seirbhísí B2B), úsáid sparán atá tógtha thart ar shonraiscí. Íocann an custaiméir an sonrasc Bitcoin i gcúpla cliceáil.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Ligeann Strike Business duit glacadh le híocaíochtaí Bitcoin agus Lightning le táillí nialasacha agus socrú láithreach. Tacaíonn sé le híocaíochtaí sa siopa, ar líne agus ar shonrasc, le tiontú uathoibríoch roghnach go d’airgead reatha áitiúil.",
+	"sources_square": "Square — glac le híocaíochtaí in Bitcoin",
+	"sources_breez_business": "Breez — sparán Lightning Bitcoin-amháin",
+	"sources_opennode": "OpenNode — próiseálaí íocaíochtaí Bitcoin",
+	"sources_ibex": "IBEX — bonneagar íocaíochtaí Lightning",
+	"sources_zaprite": "Zaprite — sonraisc in Bitcoin do ghnólachtaí",
+	"biz_wallets_meta_description": "Oibríonn gach sparán Bitcoin le chéile — roghnaigh an ceann a oireann do do ghnó. Saor in aisce, socrú láithreach, gan aisíocaíochtaí cártaí."
 }

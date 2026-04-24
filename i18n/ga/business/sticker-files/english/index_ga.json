@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Comhaid Ghreamán 'Glactar le Bitcoin Anseo' Béarla",
-	"english_biz_sticker_files_description": "Íoslódáil comhaid ghreamán Béarla chun do ghreamáin 'Glactar le Bitcoin Anseo' féin a phriontáil."
+	"english_biz_sticker_files_description": "Íoslódáil na comhaid ghreamán i mBéarla chun do ghreamáin féin “Bitcoin Accepted Here” a phriontáil.",
+	"biz_stickers_english_hero_title": "Íoslódáil na comhaid ghreamán “Bitcoin Accepted Here” i mBéarla",
+	"biz_stickers_english_hero_subtitle": "Priontáil do ghreamáin féin “Bitcoin Accepted Here” i mBéarla ionas go mbeidh a fhios ag do chustaiméirí go nglacann tú le Bitcoin."
 }

@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"cic_header": "ÁIREAMHÁN BOILSCITHE IOLRAITHE",
 	"cic_description": "Úsáid an tÁireamhán Boilscithe Iolraithe seo chun a fháil amach cé mhéad a chaithfidh do thuarastal ardú chun coinneáil suas leis an mboilsciú.",
-	"cic_inflation_cta": "Éirigh as Boilsciú le Bitcoin"
+	"cic_hero_subtitle": "Faigh amach cé mhéad a chaithfidh do thuarastal a mhéadú chun fanacht leis an mboilsciú.",
+	"cic_calculator_heading": "Ríomh do bhearna boilscithe",
+	"cic_cta_label": "An chéad chéim eile",
+	"cic_inflation_cta": "Éirigh as Boilsciú le Bitcoin",
+	"cic_next_learn_inflation": "Foghlaim conas a oibríonn boilsciú",
+	"cic_next_explore_topics": "Iniúch ábhair eile",
+	"cic_next_explore_topics_desc": "Féach conas a bhaineann Bitcoin leis an airgead, an tsaoirse, an fuinneamh agus níos mó.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — innéacs praghsanna tomhaltóirí do gach tomhaltóir uirbeach",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — soláthar airgid M1"
 }

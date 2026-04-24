@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Mín-Ealaín",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Infhíoraithe go cripteagrafach",
 	"bitcoin_point_6": "Deacair a scrios",
 	"bitcoin_point_7": "Inrochtana do chách",
-	"point_1_summary_1": "Tá Bitcoin go hiomlán fungaithe, rud a chiallaíonn go bhfuil gach bitcoin comhionann agus in-mhalartaithe - is ionann bitcoin amháin agus bitcoin amháin áit ar bith ar domhan. Tá mín-ealaín neamh-fhungaithe ó nádúr, agus gach píosa uathúil ina chruthú, ina stair, ina riocht, agus ina shliocht, rud a fhágann go bhfuil comparáidí agus luachálacha díreacha thar a bheith deacair.",
-	"point_2_summary_1": "Trádálann Bitcoin ar mhargadh domhanda 24/7 inar féidir le haon duine le rochtain idirlín ceannach nó díol go láithreach. Éilíonn mín-ealaín tithe ceantáil speisialaithe cosúil le Sotheby's nó Christie's, déileálaithe príobháideacha, nó gailearaithe eisiatacha. Féadfaidh sé míonna a thógáil díolacháin a eagrú agus a chríochnú, le rochtain theoranta ar an margadh agus deiseanna trádála neamhrialta.",
-	"point_3_summary_1": "De ghnáth cosnaíonn ceannach nó díol bitcoin níos lú ná 1% i dtáillí, go minic i bhfad níos lú. Baineann costais shuntasacha le díolacháin mhín-ealaíne lena n-áirítear preimheanna ceannaitheora (10-25%), coimisiúin díoltóra (10-15%), árachas, iompar, stóráil, agus táillí fíordheimhnithe. D'fhéadfadh na costais chomhcheangailte seo 30-40% de luach an tsaothair ealaíne a shárú go héasca in idirbheart amháin.",
-	"point_4_summary_1": "Is féidir Bitcoin a roinnt ina 100 milliún aonad níos lú ar a dtugtar satoshi, rud a dhéanann é foirfe d'idirbhearta d'aon mhéid ó mhicri-idirbhearta go ceannacháin mhóra. Ní féidir mín-ealaín a roinnt - ní féidir leat codán de phéintéireacht a bheith agat nó cuid de dhealbhóireacht a dhíol. Cuireann an neamh-inroinnte seo teorainn le solúbthacht infheistíochta agus roghanna leachtachta.",
-	"point_5_summary_1": "Is féidir úinéireacht agus barántúlacht Bitcoin a fhíorú go cripteagrafach ar an mblocshlabhra ag aon duine le heolas teicniúil bunúsach. Éilíonn mín-ealaín fíordheimhniú saineolach costasach, taighde sliotáin, agus anailís eolaíoch. Fiú le fíorú saineolach, cuireann falsuithe dallamullóg ar an domhan ealaíne go rialta, agus is féidir le díospóidí fíordheimhnithe luach saothair ealaíne a scrios thar oíche. Bitcoin, ar an lámh eile, ní féidir é a fhalsú nó a bhrionnú.",
-	"point_6_summary_1": "Ní féidir Bitcoin, nuair a dhéantar cúltaca i gceart, a scrios ag tuilte, dóiteáin, creathanna talún, hairicíní, goid, nó tubaistí eile. Tá mín-ealaín leochaileach do gach foirm scriosta fisiciúla agus meathlaithe. Fiú le stóráil aeráide-rialaithe costasach agus árachas cuimsitheach, is féidir le saothair ealaíne damáiste a fhulaingt ó thosca comhshaoil, timpistí, nó tubaistí nádúrtha, agus d'fhéadfadh gach luach a chailleadh.",
-	"point_7_summary_1": "Is féidir Bitcoin a cheannach agus a dhíol ag aon duine le rochtain idirlín agus méid beag airgid le hinfheistiú. Tá infheistíocht mhín-ealaíne teoranta den chuid is mó do bhailitheorí saibhre mar gheall ar íospraghsanna arda, rochtain eisiach ceantáil, riachtanais stórála, costais árachais, agus an saineolas speisialaithe atá de dhíth chun dul i ngleic le margadh na healaíne go rathúil."
+	"point_1_summary_1": "Tá gach bitcoin mar an gcéanna agus inmhalartaithe. Tá gach saothar ealaíne uathúil — fágann proibhinc, stair, riocht agus líneáil éagsúla comparáid dhíreach thar a bheith deacair.",
+	"point_2_summary_1": "Trádáiltear Bitcoin 24 uair sa ló ar mhargadh domhanda atá ar fáil do gach duine. Éilíonn mínealaín tithe ceant speisialaithe, déileálaithe príobháideacha nó gailearaithe, agus is féidir le díolacháin míonna a thógáil.",
+	"point_3_summary_1": "Cosnaíonn sé níos lú ná 1% i dtáillí Bitcoin a cheannach nó a dhíol, go minic i bhfad níos lú. Cruinníonn díolacháin ealaíne 30-40% i gcoimisiúin cheannaitheora, táillí, árachas, iompar agus táillí fíordheimhnithe.",
+	"point_4_summary_1": "Tá Bitcoin inroinnte go 100 milliún satoshi, rud a fhágann go bhfuil sé idéalach d’idirbhearta ar aon mhéid. Ní féidir leat cuid de phéintéireacht ná cúinne dealbha a shealbhú gan priacal contrapháirtí.",
+	"point_5_summary_1": "Is féidir úinéireacht agus barántúlacht Bitcoin a fhíorú go cripteagrafach ag aon duine ar an mblocshlabhra. Tá fíordheimhniú saothar costasach, am-thógtha, agus cuirtear meabhla ar bhrionnóirí go minic — ag scriosadh luach saothair thar oíche.",
+	"point_6_summary_1": "Maireann Bitcoin a bhfuil cúltaca ceart déanta air tuilte, tinte, creathanna talún agus gadaíochtaí. Tá mínealaín i mbaol ag gach cineál tubaistí fisiciúla, agus is annamh a chlúdaíonn árachas gach rud.",
+	"point_7_summary_1": "Is féidir le duine ar bith a bhfuil ceangal idirlín agus beagán airgid aige Bitcoin a cheannach. Is do bhailitheoirí saibhre a bhfuil rochtain acu ar cheantanna agus saineolas sainiúil go príomha an infheistíocht ealaíne go praiticiúil.",
+	"hero_title": "An difríocht idir <span class=\"orange\">Bitcoin</span> agus <span class=\"asset\">Mínealaín</span>"
 }
