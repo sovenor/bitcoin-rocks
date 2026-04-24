@@ -295,7 +295,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [x] `am` — Amharic (2026-04-23; 874 entries → 0 flagged. Report split across 3 helper scripts: `translate-inflation.js` (364 inflation entries via templated per-currency function × 13 currencies + 37 non-currency keys), `translate-rest.js` (502 entries across 37 namespaces keyed by `<ns>::<key>`), `retranslate-english-changed.js` (8 V2-rewritten English keys — 2 on the 404 page, 5 on /buy step headers, 1 on the sticker-files hero). Also tuned `scripts/i18n-audit/language-diff.js`: added `CBDC` to the SHORT_ALLOWED_IDENTICAL set (4-char brand acronym) and lowered `targetHasV2MarkerEquivalent`'s length-ratio lower bound from 0.75 to 0.55 so syllabic/abugida scripts (Ge'ez, Tibetan, etc. — Amharic naturally renders at ~60–70% of English length) don't trigger false-positive "likely-stale" flags on correct translations. Added "Lightning Network" to audit-translation.js's SKIP_VALUES (brand phrase kept verbatim). `npm run build` clean across 4,349 static pages.)
 - [x] `ar` — Arabic (2026-04-23; 1,014 entries → 0 flagged. First locale refreshed after the manifest-driven refresh workflow was formalized (`.clinerules/workflows/manifest-translate-refresh.md`). Report broken into 3 helper scripts under `scripts/ar-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via a templated function covering intro/proof/btc/freedom/stat suffixes, plus 41 non-currency keys including freedom cards, stories, sources, and 5 manifest-changed hero/intro keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages, with RTL-safe arrow characters and brand names like Silicon Valley Bank, FRED, FDIC preserved verbatim), and `translate-rest-part2.js` (453 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets). All 4 verification checks passed on first apply — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 4,349 static pages. Arabic is RTL — the `<html dir="rtl">` wrapper from `app/[locale]/layout.tsx` handles layout automatically; no per-component changes needed.)
 - [x] `az` — Azerbaijani
-- [ ] `bg` — Bulgarian
+- [x] `bg` — Bulgarian
 - [ ] `bn` — Bengali
 - [ ] `ca` — Catalan
 - [ ] `cs` — Czech
@@ -387,7 +387,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 4 |
+| Per-language re-translation (Step 5) | 54 | 5 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

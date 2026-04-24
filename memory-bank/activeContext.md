@@ -1,3 +1,41 @@
+## Bulgarian (bg) manifest refresh — April 23, 2026
+
+Ran `/translate-manifest-refresh Bulgarian` end-to-end. Fifth locale through the manifest-driven refresh pipeline, and the first Cyrillic-script locale (different from Amharic's Ge'ez abugida and Arabic's RTL Arabic script).
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific — `bg` had the full manifest-era backlog, same volume as `az` and `ar`)
+- Untranslated: 4 (all `business/why::why_s*` section headers — "Bitcoin doesn't have inflation" / "…have bank runs" / "…is permissionless" / "…is building a better world")
+- Manifest changed: 162 (same for every locale)
+- Manifest added: 388 (same for every locale)
+- → **1,018 entries flagged**
+
+**Work split (three helper scripts under `scripts/bg-manifest-refresh/` + one final fix):**
+
+1. **`translate-inflation.js`** (368 entries). Templated `t(code, suffix)` function × 13 currencies generates 327 per-currency keys + 41 non-currency keys (freedom cards, Bitcoin stat card, shared labels, stories for Канада/Нигерия/Пенсилвания/Тексас, sources, 5 manifest-changed inflation hero keys). Bulgarian noun-adjective agreement means each currency needs a full genitive form (`"щатския долар"`) AND a nominative label (`"Щатски долар"`) — the template inserts whichever is grammatically correct for each suffix. Brand/currency codes (Bitcoin, FRED, CPI, BTC, EndSARS, whitepaper) kept in Latin script per allow-list.
+
+2. **`translate-rest-part1.js`** (193 entries). 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages. Brand names (Silicon Valley Bank, FRED, FDIC, SVB, ETF, BTC, CBDCs, Visa, EndSARS, University of Washington School of Law, etc.) preserved verbatim inside Bulgarian prose. Bulgarian uses lowercase for most concept nouns (инфлация, дълг) but capitalizes proper nouns (Канада, Нигерия). Comma is the decimal separator (1,42% not 1.42%).
+
+3. **`translate-rest-part2.js`** (453 entries). Everything else — business/* (accounting/faq/index/maps/maps-success/sticker-files/english/index/sticker-language-success/sticker-success/stickers/wallets/why — 153 entries), buy (20), common (50), compound-inflation-calculator (8), flyers (5), get-involved (26), index homepage (62 `home_card_label_*` + nav entries), lightning (11), nostr/index (45), sticker-files/index (1), sticker-language-success (1), sticker-success (7), stickers (36), wallets (11).
+
+4. **`fix-remaining.js`** — 4 `untranslated` entries (business/why section headers: `why_s1`–`why_s4`). These were byte-identical to English in the pre-refresh state so the diff flagged them as "needs translation". Filled with Bulgarian equivalents: "Bitcoin няма инфлация", "Bitcoin няма банкови паники", "Bitcoin е без разрешения", "Bitcoin изгражда по-добър свят".
+
+**Application:**
+- `node scripts/i18n-audit/apply-translations.js bg` wrote **1,018 keys across 38 files**.
+- Marker written at `scripts/i18n-audit/v2-refresh-status/bg.json` pinning manifestVersion `75d5ff1151d50651...`.
+- All 4 verification checks passed: marker ✅, locale-specific ✅, manifest coverage ✅, stale pre-V2 English ✅.
+- Report archived to `scripts/i18n-audit/reports/applied/bg-20260424-004041.json`.
+
+**Edge cases / lessons:**
+
+- **Byte-identical untranslated entries are distinct from manifest entries.** 4 `business/why::why_s*` headers were untranslated (identical to English in the pre-V2 file). The two main part2 script expects only manifest-added/manifest-changed entries for business/why, so the untranslated ones needed a separate `fix-remaining.js`. This is consistent with the Afrikaans pass's `fix-remaining.js` approach.
+- **Bulgarian plural forms need careful handling.** Most currencies have plural forms that differ from the singular (долар/долара, йена/йени, реал/реала). The CURRENCY table in the inflation script carries separate `noun` / `nounPlural` fields and the template chooses correctly based on the phrase structure ("всеки ${noun}" singular vs "количеството ${nounPlural}" plural).
+- **All 4,349 static pages built cleanly** — zero MISSING_MESSAGE errors, zero "Unable to load message" warnings.
+
+**Next locale candidates (Tier 1 global-reach):** `de` (German), `es` (Spanish), `fr` (French), `pt` (Portuguese), `zh` (Chinese), `ja` (Japanese), `ru` (Russian), `hi` (Hindi). Bengali (`bn`) would also be a good early pick for South Asian audience.
+
+---
+
 ## Latest: RTL homepage carousel fix — April 23, 2026
 
 Bugfix: on RTL locales (`ar`, `fa`, `he`, `ur`) the homepage's infinite-scroll category pill carousels appeared broken — bars started at the wrong side and the seamless wrap-around seam was visible.

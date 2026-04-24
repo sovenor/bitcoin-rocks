@@ -1,3 +1,13 @@
+## i18n cleanup Step 5 — Bulgarian (bg) manifest refresh — 2026-04-23
+
+**Counter:** 5/54 languages complete against the V2 manifest.
+
+Fifth locale (af, am, ar, az, bg) — first Cyrillic-script locale. 1,018 entries flagged (464 missing, 4 untranslated, 162 manifest-changed, 388 manifest-added) → 0 flagged after three helper scripts under `scripts/bg-manifest-refresh/` + `fix-remaining.js` for the 4 `business/why::why_s*` section headers. All 4 verify-language.js checks PASS on first apply. `npm run build` clean across 55 locales × 81 pages. Marker at `scripts/i18n-audit/v2-refresh-status/bg.json` pins manifestVersion `75d5ff1151d50651...`. Report archived to `scripts/i18n-audit/reports/applied/bg-20260424-004041.json`.
+
+Bulgarian uses Cyrillic script with lowercase conventions for concept nouns (инфлация, дълг) and comma as decimal separator (1,42%). Per-currency templates carry both genitive ("щатския долар") and nominative ("Щатски долар") forms since Bulgarian noun-adjective agreement depends on grammatical case. Plural forms distinct from singulars (долар/долара, йена/йени, реал/реала) handled via separate `noun`/`nounPlural` fields in the CURRENCY table.
+
+---
+
 ## i18n cleanup Step 5 — Azerbaijani (az) manifest refresh — 2026-04-23
 
 **Counter:** 4/54 languages complete against the V2 manifest.

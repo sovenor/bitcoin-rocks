@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bg"
 	},
 	"sticker_success_1": "Ще получите вашите стикери след 2 до 4 седмици. Докато чакате, опитайте да помислите за добро място, където да поставите стикерите си!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "на места, които е малко вероятно да бъдат премахнати бързо (стикерите не причиняват трайни повреди)",
 	"sticker_success_list_3": "върху повърхности, към които ще залепнат лесно (метал, пластмаса, стъкло)",
 	"sticker_success_list_4": "НЕ върху частна собственост, покриващи табели, банкомати или бензиноколонки",
-	"sticker_success_3": "Искате ли да видите къде други хора поставят своите стикери?"
+	"sticker_success_3": "Искате ли да видите къде други хора поставят своите стикери?",
+	"sticker_success_hero_title": "Стикерите ви са на път 🎉",
+	"sticker_success_tips_header": "Добри места за стикери",
+	"sticker_success_share_header": "Споделете къде са стикерите ви",
+	"sticker_success_bulk_header": "Искате повече стикери?",
+	"sticker_success_btn_order_bulk": "Поръчка на едро",
+	"sticker_success_btn_share_on_nostr": "Споделете в Nostr",
+	"sticker_success_btn_what_is_nostr": "Какво е Nostr?"
 }

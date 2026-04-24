@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bg"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Заявката е получена 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Благодарим, че поискахте файлове със стикери \"Приемаме Bitcoin\" на вашия език.",
+	"biz_sticker_language_success_timeline_header": "Какво следва",
+	"biz_sticker_language_success_timeline_c1": "Ще създадем и публикуваме файловете ви със стикери в рамките на 3-4 седмици. След като бъдат готови, ще можете да ги изтеглите и разпечатате безплатно от страницата с файлове със стикери.",
+	"biz_sticker_language_success_timeline_c2": "Файловете със стикери се пускат на партиди, така че активирането на вашия език може да отнеме няколко седмици. Благодарим ви за търпението!"
 }

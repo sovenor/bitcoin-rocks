@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bg"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Файлове за английски стикери „Биткойн се приема тук“",
-	"english_biz_sticker_files_description": "Изтеглете файлове за английски стикери, за да отпечатате собствени стикери „Биткойн се приема тук“."
+	"english_biz_sticker_files_description": "Изтеглете файлове със стикери на английски, за да разпечатате свои собствени стикери \"Приемаме Bitcoin\".",
+	"biz_stickers_english_hero_title": "Изтеглете файлове със стикери \"Приемаме Bitcoin\" на английски",
+	"biz_stickers_english_hero_subtitle": "Разпечатайте свои собствени стикери \"Приемаме Bitcoin\" на английски, за да уведомите клиентите си, че приемате Bitcoin."
 }
