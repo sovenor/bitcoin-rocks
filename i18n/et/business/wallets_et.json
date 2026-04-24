@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"how_to_accept_bitcoin_payments": "Sådan accepterer du Bitcoin-betalinger",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Egen hosting = 0% gebyrer",
 	"wallets_feature_online_store": "Webshop-integration",
 	"wallets_feature_invoicing": "Gratis faktureringsprogram",
-	"wallets_get_wallet": "FÅ WALLET"
+	"wallets_get_wallet": "FÅ WALLET",
+	"wallets_hero_subtitle": "Bitcoini rahakotid on tasuta. Vali see, mis sinu ettevõttele sobib — kohapeal, veebis või arvete järgi — ja alusta bitcoini vastuvõtmist minutitega.",
+	"wallets_section_sole": "Rahakotid üksikettevõtjatele",
+	"wallets_section_sole_intro": "Kui juhid poodi, kohvikut, stuudiot või teenust üksinda, sobib sulle ükskõik milline neist rahakottidest. Vali selle järgi, kas tahad bitcoini makseid endale jätta või konverteerida osa igast maksest automaatselt oma kohalikuks valuutaks.",
+	"wallets_section_multiple": "Rahakotid mitme töötajaga ettevõtetele",
+	"wallets_section_multiple_intro": "Kui sul on meeskond, kes kassas makseid vastu võtab, vali rahakott, mis toetab mitme töötaja sisselogimist — nii et igal töötajal on oma PIN ja säilitad selged arvestused, kes iga makse kätte sai.",
+	"wallets_section_online": "Rahakotid veebiettevõtetele",
+	"wallets_section_online_intro": "Müüd veebis? Need rahakotid ühenduvad sinu veebipoega ja võtavad bitcoini vastu kõigilt klientidelt kõikjal maailmas — tagasinõueteta ja ilma et oleks vaja kaupmehe kontot.",
+	"wallets_section_invoice": "Rahakotid klientidele arveid esitavatele ettevõtetele",
+	"wallets_section_invoice_intro": "Kui esitad klientidele arveid (konsultatsioon, vabakutseline töö, B2B-teenused), kasuta arveldamise ümber ehitatud rahakotti. Klient tasub bitcoini arve mõne klõpsuga.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business lubab sul võtta vastu bitcoini ja Lightningu makseid nulltasudega ja koheste arveldustega. Toetab kohapealseid, veebi- ja arveldusmakseid, valikulise automaatse konverteerimisega kohalikuks valuutaks.",
+	"sources_square": "Square — võta vastu bitcoini makseid",
+	"sources_breez_business": "Breez — ainult bitcoini Lightning rahakott",
+	"sources_opennode": "OpenNode — bitcoini makseprotsessor",
+	"sources_ibex": "IBEX — Lightningu makseinfrastruktuur",
+	"sources_zaprite": "Zaprite — bitcoini arveldus ettevõtetele",
+	"biz_wallets_meta_description": "Kõik bitcoini rahakotid töötavad koos — vali see, mis sinu ettevõttele sobib. Tasuta, koheste arvelduste, tagasinõueteta."
 }

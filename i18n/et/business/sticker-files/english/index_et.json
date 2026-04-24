@@ -3,7 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
-	}
+	},
+	"english_bitcoin_accepted_here_sticker_files": "Ingliskeelsed „Bitcoin Accepted Here” kleebisefailid",
+	"english_biz_sticker_files_description": "Lae alla ingliskeelsed kleebisefailid, et printida oma „Siin aktsepteerime bitcoini” kleebised.",
+	"biz_stickers_english_hero_title": "Lae alla ingliskeelsed „Siin aktsepteerime bitcoini” kleebisefailid",
+	"biz_stickers_english_hero_subtitle": "Prindi oma „Siin aktsepteerime bitcoini” kleebised inglise keeles, et klientidele teada anda, et võtad bitcoini vastu."
 }

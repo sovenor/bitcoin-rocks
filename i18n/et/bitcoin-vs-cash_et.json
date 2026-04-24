@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs kontanter",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Decentraliseret netværk",
 	"bitcoin_point_6": "Digital selvopbevaring",
 	"bitcoin_point_7": "Nemt delbart",
-	"point_1_summary_1": "Bitcoin kan sendes hvor som helst i verden øjeblikkeligt over internettet, mens kontanter kræver fysisk tilstedeværelse eller betroede mellemmænd. Du kan ikke sende kontanter via e-mail, men du kan sende Bitcoin til enhver med internetforbindelse på minutter.",
-	"point_2_summary_1": "Bitcoin fungerer på samme måde overalt i verden – der er ingen grænser i Bitcoin-netværket. Kontanter er begrænset af geografi, valutakurser og lokal accept. Prøv at bruge amerikanske dollar på landet i Thailand eller japanske yen på landet i Mexico.",
-	"point_3_summary_1": "Myndigheder kan og ugyldiggør kontanter over natten gennem demonetiseringspolitik, som Indien gjorde i 2016, da de forbød visse sedler.",
-	"point_3_summary_2": "Selv uden at forbyde visse sedler devaluerer myndigheder konstant kontanter gennem inflation.",
-	"point_3_summary_3": "Bitcoin kan ikke ugyldiggøres af nogen myndighed – det eksisterer på et globalt, decentraliseret netværk, som ingen enkelt enhed kontrollerer.",
-	"point_4_summary_1": "Kontanter kan forfalskes, og det er ofte svært at opdage falske sedler uden specialudstyr. Selv med sikkerhedsfunktioner fortsætter falske kontanter med at cirkulere. Bitcoin bruger kryptografisk bevis, der gør forfalskning matematisk umuligt.",
-	"point_5_summary_1": "Kontanter udstedes og kontrolleres af myndigheder, der kan trykke flere efter ønske, ændre design eller erklære visse sedler ugyldige. Bitcoin fungerer på et decentraliseret netværk, hvor ingen enkelt myndighed har kontrol over pengemængden eller reglerne.",
-	"point_6_summary_1": "Kontanter skal opbevares fysisk, hvilket gør dem sårbare over for tyveri, tab, brand eller beslaglæggelse. Store beløb kræver dyre sikkerhedsforanstaltninger.",
-	"point_6_summary_2": "Men Bitcoin kan sikkert opbevares i selvopbevaring",
-	"point_6_summary_3": "ved hjælp af en smartphone-app eller en specialiseret wallet, hvilket giver dig fuld kontrol over dine penge uden fysiske opbevaringsrisici.",
-	"point_7_summary_1": "Kontanter har minimumsvalører – du kan ikke dele en øre i mindre dele. Bitcoin kan deles i 100 millioner mindre enheder kaldet satoshis, som muliggør mikrobetalinger og præcise transaktioner af ethvert beløb."
+	"point_1_summary_1": "Bitcoin liigub kõikjal maailmas interneti kaudu minutitega. Sularaha nõuab füüsilist kohalolekut või usaldatud kullereid — kahekümnerahalist ei saa e-postiga saata.",
+	"point_2_summary_1": "Bitcoin töötab kõikjal ühtemoodi. Sularaha piiravad geograafia, vahetuskursid ja kohalik aktsepteeritus.",
+	"point_3_summary_1": "Valitsused võivad sularaha üleöö kehtetuks kuulutada — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> tegi seda 2016. aastal. Aga isegi ilma demonetiseerimiseta kaotab sularaha",
+	"point_3_summary_2": "inflatsiooni",
+	"point_3_summary_3": "tõttu väärtust. Bitcoini ei saa ükski valitsus ega võim kehtetuks kuulutada.",
+	"point_4_summary_1": "Sularaha saab võltsida, mõnikord väga veenvalt. Bitcoin kasutab krüptograafiat, mis teeb võltsimise matemaatiliselt võimatuks.",
+	"point_5_summary_1": "Bitcoinil ei ole keskset võimu. Sularaha annavad välja valitsused, kes saavad oma äranägemise järgi juurde trükkida, kujundusi muuta või rahatähti kasutuselt kõrvaldada.",
+	"point_6_summary_1": "Sularaha on haavatav varguse, tulekahju, kaotuse ja konfiskeerimise suhtes. Bitcoini saab ",
+	"point_6_summary_2": "turvaliselt ise hoida",
+	"point_6_summary_3": " oma telefonis või riistvararahakotis.",
+	"point_7_summary_1": "Bitcoini saab jagada 100 miljoniks satoshiks, võimaldades mistahes suurusega mikromakseid. Sularahal on minimaalsed nimiväärtused — senti ei saa pooleks lõigata.",
+	"hero_title": "Erinevus <span class=\"orange\">bitcoini</span> ja <span class=\"asset\">sularaha</span> vahel"
 }

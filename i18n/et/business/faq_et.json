@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Ofte stillede spørgsmål om at acceptere Bitcoin",
 	"faq_description": "Har du spørgsmål om at acceptere Bitcoin-betalinger i din virksomhed?",
+	"faq_hero_subtitle": "Lühivastused küsimustele, mida kaupmehed tavaliselt enne bitcoini vastuvõtmise alustamist esitavad — tasud, arveldus, rahakotid, tagasinõuded, kulud ja palju muud.",
+	"faq_intro_c1": "Klõpsa allpool mistahes küsimusel, et vastus avaneb. Kui oled valmis bitcoini vastuvõtmist alustama, juhatavad lehe lõpus olevad ärivahendid sind sammhaaval edasi.",
 	"faq_s1": "Hvad er Bitcoin?",
 	"faq_s1_c1": "Bitcoin er to ting: digitale penge og et computernetværk.",
 	"faq_s1_c2": "Du kan sende bitcoin (digitale penge) direkte til andre mennesker ved hjælp af Bitcoin-netværket.",

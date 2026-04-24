@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs guld",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Decentraliseret",
 	"bitcoin_point_6": "Nemt at verificere",
 	"bitcoin_point_7": "Nemt at dele",
-	"point_1_summary_1": "Fordi Bitcoin er digitalt, kan det sendes næsten øjeblikkeligt med meget lave gebyrer af alle med internetadgang. Fordi guld er fysisk, kan det ikke flyttes over internettet og skal sendes fysisk for at overføre ejerskab.",
-	"point_2_summary_1": "Bitcoin er et digitalt oprindeligt aktiv, hvilket betyder, at du kan overføre fuldt ejerskab over internettet. Nogle virksomheder tilbyder muligheden for at købe guld online uden at modtage det faktiske fysiske guld, men i stedet stole på, at virksomheden opbevarer guldet for dig. Dette er mere som et digitalt gældsbrev, da du kun ejer et løfte fra virksomheden i stedet for det faktiske aktiv.",
-	"point_3_summary_1": "Bitcoin har en hård grænse på 21 millioner BTC, der nogensinde vil eksistere.",
-	"point_3_summary_2": "Nyt guldudbud hentes ud af jorden hvert år, hvilket resulterer i inflation af det samlede udbud. Det anslås, at det samlede udbud af guld stiger med cirka 1,6% om året, hvilket betyder, at din del af kagen skrumper med 1,6% om året.",
-	"point_3_summary_3": "Dette er mindre end fiat-inflation, men det er stadig inflation.",
-	"point_4_summary_1": "Guld har et elastisk udbud, hvilket betyder, at når guldprisen stiger, er der større incitament til at mine mere guld. Dette lægger ofte nedadgående pres på guldprisen, når nye miner åbnes.",
+	"point_1_summary_1": "Bitcoini saab saata koheselt interneti kaudu madalate tasudega. Kuld tuleb omandi üleandmiseks füüsiliselt saata.",
+	"point_2_summary_1": "Bitcoin on natiivselt digitaalne vara, mida saad interneti kaudu üle kanda. Veebipõhine kuld on digitaalne võlakiri — sa omad ainult lubadust hoidjalt, mitte metalli ennast.",
+	"point_3_summary_1": "Bitcoinil on fikseeritud ülempiir 21 miljonit BTC. Kulla pakkumine kasvab umbes <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6 % aastas</a>, vähendades sinu osa — vähem kui fiatraha",
+	"point_3_summary_2": "inflatsioon",
+	"point_3_summary_3": ", aga siiski inflatsioon.",
+	"point_4_summary_1": "Kui kulla hinnad tõusevad, kaevandatakse rohkem kulda, lükates hinna tagasi alla. Bitcoini pakkumine on mitteelastne — ükskõik kui kõrgele hind tõuseb, jääb alati ainult 21 miljonit.",
 	"point_4_summary_2": "Med Bitcoin, uanset hvor høj prisen går, kan du ikke lave mere end 21M Bitcoin.",
 	"point_4_summary_3": "Bitcoin er det første aktiv med et uelastisk forhold mellem pris og udbud.",
-	"point_5_summary_1": "Bitcoin-netværket er decentraliseret.",
+	"point_5_summary_1": "Bitcoini võrku kontrollivad kümned tuhanded sõltumatud sõlmed. Suur osa füüsilisest kullast asub vähestes suurtes varakambrites.",
 	"point_5_summary_2": "Titusindvis af uafhængige noder validerer reglerne i netværket.",
-	"point_6_summary_1": "Med Bitcoin er det utroligt nemt at verificere, at du har ægte Bitcoin ved at selvopbevare dine mønter og køre en fuld node.",
+	"point_6_summary_1": "Igaüks saab autentset bitcoini kontrollida, käivitades täissõlme — see on lihtsalt rakendus. Füüsilise kulla kontrollimiseks tuleb see sulatada; sees võib olla volfram.",
 	"point_6_summary_2": "Selvopbevaring er lige så nemt som at downloade en app.",
 	"point_6_summary_3": "En fuld node er et simpelt software, der sikrer, at reglerne i netværket følges, og verificerer, at du har ægte Bitcoin.",
-	"point_7_summary_1": "Ligesom der er 100 øre i 1 krone, er der 100.000.000 sats i 1 Bitcoin. Dette gør, at Bitcoin kan bruges til alle størrelser af køb, inklusive mikrotransaktioner så små som et par øre.",
-	"point_7_summary_2": "Dette gør Bitcoin godt for virksomheder."
+	"point_7_summary_1": "Bitcoini saab jagada 100 miljoniks satoshiks, mis teeb selle ideaalseks mistahes suurusega ostudeks. Kulda ei saa väiksemate tehingute jaoks lihtsalt jagada.",
+	"point_7_summary_2": "Dette gør Bitcoin godt for virksomheder.",
+	"hero_title": "Erinevus <span class=\"orange\">bitcoini</span> ja <span class=\"asset\">kulla</span> vahel"
 }

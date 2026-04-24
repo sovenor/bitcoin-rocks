@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs aktier",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "24/7 handel",
 	"bitcoin_point_6": "Selvopbevaring mulig",
 	"bitcoin_point_7": "Aktiv med fast udbud",
-	"point_1_summary_1": "Når du ejer Bitcoin, har du direkte ejerskab til selve aktivet. Når du ejer aktier, ejer du en andel af en virksomhed, hvilket betyder, at din investering afhænger af virksomhedens resultater, ledelsesbeslutninger og forretningssucces.",
-	"point_2_summary_1": "Bitcoin har en hård grænse på 21 millioner BTC, der nogensinde vil eksistere.",
-	"point_2_summary_2": "Virksomheder kan udstede nye aktier når som helst, hvilket udvander eksisterende aktionærers ejerandel. Det betyder, at din andel af virksomheden bliver mindre, når nye aktier oprettes.",
-	"point_2_summary_3": "Dette er mindre end fiat-inflation, men det er stadig udvanding.",
-	"point_3_summary_1": "Bitcoin fungerer på et decentraliseret netværk uden noget enkelt fejlpunkt. Aktieinvesteringer er udsat for nøglepersonrisiko – hvis administrerende direktør eller andre vigtige ledere stopper, bliver syge eller træffer dårlige beslutninger, kan din investering lide betydeligt. Virksomheder er stærkt afhængige af deres ledelsesteam.",
-	"point_4_summary_1": "Bitcoins pris bestemmes udelukkende af markedets udbud og efterspørgsel. Aktiepriser evalueres ofte ved hjælp af P/E-forhold (pris-til-indtjening), der viser, hvor meget investorer betaler for hver dollar af virksomhedens indtjening. Høje P/E-forhold kan indikere overvurderede aktier, hvilket gør det sværere at bestemme den rigtige værdi.",
-	"point_5_summary_1": "Bitcoin handles 24 timer i døgnet, 7 dage om ugen på globale børser.",
+	"point_1_summary_1": "Bitcoin on otsene vara, mille omad täielikult. Aktsiad on osalus ettevõttes — nende väärtus sõltub juhtkonnast, tulemuslikkusest ja otsustest, mida sina ei kontrolli.",
+	"point_2_summary_1": "Bitcoinil on fikseeritud ülempiir 21 miljonit BTC. Ettevõtted võivad igal ajal uusi aktsiaid emiteerida ja olemasolevaid aktsionäre lahjendada — nii nagu fiatraha",
+	"point_2_summary_2": "inflatsioon",
+	"point_2_summary_3": " lahjendab sularaha. Bitcoini puhul sinu osa kunagi ei kahane.",
+	"point_3_summary_1": "Bitcoinil pole tegevjuhti ega ühtainust rikkepunkti. Aktsiad sõltuvad tugevalt juhtkonnast — üks halb otsus või võtmeisiku lahkumine võib hinda kokku varistada.",
+	"point_4_summary_1": "Bitcoini hind tuleb avatud globaalsetelt turgudelt. Aktsiate hindamine põhineb mõõdikutel nagu P/E, mis võivad ülehinnatud aktsiaid varjata.",
+	"point_5_summary_1": "Bitcoin kaupleb 24/7 üle kogu maailma. Aktsiaturud on avatud ainult tööpäevadel kauplemisaegadel.",
 	"point_5_summary_2": "Bitcoin er decentraliseret",
-	"point_6_summary_1": "Med Bitcoin kan du selvopbevare dine mønter, hvilket betyder, at du virkelig ejer dem uden at være afhængig af nogen tredjepart.",
-	"point_6_summary_2": "Selvopbevaring er lige så nemt som at downloade en app.",
-	"point_6_summary_3": "Aktier kræver en mæglerkonto, og du er udsat for modpartsrisiko – hvis virksomheden går konkurs eller mægleren fejler, kan du miste din investering.",
-	"point_7_summary_1": "Bitcoin er et aktiv med fast udbud med en hård grænse på 21 millioner Bitcoin, der nogensinde vil eksistere. Dette gør det til en fremragende inflationsbeskyttelse. Aktier har variabel ydeevne mod inflation – nogle virksomheder klarer sig godt i inflationsperioder, mens andre kæmper. Der er ingen garanti for, at nogen bestemt aktie vil beskytte mod inflation."
+	"point_6_summary_1": "Bitcoiniga saad üle minna",
+	"point_6_summary_2": "iseenda hoidmisele",
+	"point_6_summary_3": " lihtsa rakendusega — maaklerit pole vaja. Aktsiaid hoitakse maakleritel, mis avab sind vastaspoole riskile, kui nad kokku varisevad.",
+	"point_7_summary_1": "Bitcoini fikseeritud pakkumine teeb sellest usaldusväärse kaitse inflatsiooni vastu. Mõned aktsiad löövad inflatsiooni, teised mitte — garantiisid ei ole.",
+	"hero_title": "Erinevus <span class=\"orange\">bitcoini</span> ja <span class=\"asset\">aktsiate</span> vahel"
 }

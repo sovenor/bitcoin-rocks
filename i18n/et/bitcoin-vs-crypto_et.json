@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs krypto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Rene digitale penge",
 	"bitcoin_point_7": "Antiskrøbelig",
 	"bitcoin_point_8": "Ingen enkelt enhed kontrollerer det",
-	"point_1_summary_1": "Bitcoins protokol er forblevet fundamentalt uændret siden 2009 og giver forudsigelige regler, der ikke nemt kan ændres. De fleste kryptoprojekter opdaterer deres protokoller hyppigt, ændrer tokenøkonomi eller forgrener sig til nye versioner, hvilket skaber usikkerhed for brugerne.",
-	"point_2_summary_1": "Bitcoin fungerer på et virkelig decentraliseret netværk med titusindvis af uafhængige noder over hele verden. Mange kryptoprojekter kontrolleres af stiftelser, virksomheder eller små grupper af udviklere, der kan træffe ensidige beslutninger om protokollens fremtid.",
-	"point_3_summary_1": "Bitcoin har en hård grænse på 21 millioner mønter, der nogensinde vil eksistere, hvilket gør det til det knappeste digitale aktiv. De fleste kryptoprojekter har ubegrænset udbud, inflationsmekanismer eller kan præge nye tokens efter ønske, hvilket udvander ejernes værdi over tid.",
-	"point_4_summary_1": "Bitcoin har ét enkelt formål: peer-to-peer digitale penge. Alle kan forstå og bruge det med grundlæggende viden. Mange kryptoprojekter involverer komplekse smart contracts, DeFi-protokoller eller styringsmekanismer, der kræver teknisk ekspertise for at bruge sikkert.",
-	"point_5_summary_1": "Bitcoin bruger Proof of Work-konsensus, der er kamphærdet i over 15 år uden et eneste vellykket angreb på hovednetværket. Mange kryptoprojekter bruger eksperimentelle konsensusmekanismer som Proof of Stake eller delegerede systemer, der ikke har bevist deres langsigtede sikkerhed.",
-	"point_6_summary_1": "Bitcoin fungerer som digitale penge – et værdiopbevaringsmiddel og byttemiddel. De fleste kryptotokens er utility-tokens for specifikke platforme, styringstokens eller spekulative aktiver med uklare virkelige værdiforslag.",
-	"point_7_summary_1": "Bitcoin bliver stærkere under angreb og har overlevet enhver krise, forbud og kritik, der er blevet kastet mod det. De fleste kryptoprojekter er skrøbelige og kan kollapse under regulatorisk pres, tekniske fejl eller markedsnedgange.",
-	"point_8_summary_1": "Bitcoin har ingen administrerende direktør, ingen virksomhed bag sig og intet enkelt fejlpunkt. Mange kryptoprojekter er støttet af venturekapitalfirmaer, har identificerbare ledelsesteam eller er afhængige af specifikke virksomheder for deres fortsatte drift."
+	"point_1_summary_1": "Bitcoini protokoll on alates 2009. aastast vaevu muutunud ja pakub etteaimatavaid reegleid. Enamik krüptoprojekte muudab pidevalt protokolle, tokenomikat või forgib uuteks versioonideks.",
+	"point_2_summary_1": "Bitcoin töötab kümnete tuhandete sõltumatute sõlmede peal üle kogu maailma. Enamikku krüptoprojekte kontrollivad fondid, ettevõtted või väikesed arendajate grupid, kes võivad teha ühepoolseid muudatusi.",
+	"point_3_summary_1": "Bitcoinil on fikseeritud ülempiir 21 miljonit münti — kõige nappim digitaalne vara. Enamikul krüptoprojektidel on piiramatu pakkumine või mehhanismid uute tokenite suvaliseks loomiseks, lahjendades omanikke.",
+	"point_4_summary_1": "Bitcoinil on üks eesmärk: võrdõigusvõrgu digiraha. Igaüks saab sellest aru ja saab seda kasutada. Enamik krüptovaluutasid sisaldab keerulisi nutilepinguid või DeFi-d, mille turvaliseks kasutamiseks on vaja tehnilisi teadmisi.",
+	"point_5_summary_1": "Bitcoini tööpõhimõte „tõestus tööga” on üle 15 aasta töötanud ilma eduka põhiahelarünnakuta. Enamik krüptoprojekte kasutab katselisi konsensusmeetodeid, mida pole põhjalikult testitud.",
+	"point_6_summary_1": "Bitcoin on digiraha — väärtuse hoiustus ja vahetusvahend. Enamik krüptotokeneid on spekulatiivsed kasutus- või halduse tokenid, mille tegelik väärtus on ebaselge.",
+	"point_7_summary_1": "Bitcoin tugevneb rünnaku all ja on üle elanud iga kriisi, keelu ja kriitika. Enamik krüptoprojekte variseb regulatiivse, tehnilise või turusurve all kokku.",
+	"point_8_summary_1": "Bitcoinil pole tegevjuhti, ettevõtet ega ühtainust rikkepunkti. Enamik krüptoprojekte sõltub riskikapitali investoritest, konkreetsest juhtkonnast või ühe ettevõtte ellujäämisest.",
+	"hero_title": "Erinevus <span class=\"orange\">bitcoini</span> ja <span class=\"asset\">krüptoraha</span> vahel"
 }
