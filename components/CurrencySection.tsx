@@ -34,6 +34,15 @@ const STORY_URLS = {
 const TREASURY_AUCTION_URL = "https://www.jameslavish.com/p/can-a-treasury-auction-fail";
 const BITCOIN_WHITEPAPER_URL = "https://bitcoin.org/bitcoin.pdf";
 
+// External "Learn more" URLs for each Bitcoin property feature card.
+// All four link to voteforbetter.money deep-dives on the respective topic.
+const FEATURE_URLS = {
+	decentralized: "https://voteforbetter.money/learn/bitcoin-is-decentralized",
+	permissionless: "https://voteforbetter.money/learn/bitcoin-is-permissionless",
+	sovereign: "https://voteforbetter.money/learn/bitcoin-is-sovereign",
+	scarce: "https://voteforbetter.money/learn/bitcoin-is-scarce",
+} as const;
+
 export type CurrencySectionProps = {
 	/** ISO-like currency code (USD, CAD, EUR, …). Used for DOM ids + i18n key prefix. */
 	code: string;
@@ -248,9 +257,7 @@ export function CurrencySection({
 					<p>{t(k("btc_p1"))}</p>
 					<p>
 						<span>{t(k("btc_p2_before"))}</span>{" "}
-						<a href="#" className="body-link">
-							{t(k("btc_p2_link"))}
-						</a>{" "}
+						<span>{t(k("btc_p2_link"))}</span>{" "}
 						<span>{t(k("btc_p2_after"))}</span>
 					</p>
 
@@ -488,13 +495,18 @@ function FeatureCard({
 	titleKey,
 	descKey,
 }: {
-	iconName: string;
+	iconName: keyof typeof FEATURE_URLS;
 	titleKey: string;
 	descKey: string;
 }) {
 	const t = useTranslations();
 	return (
-		<a href="#" className="feature-card">
+		<a
+			href={FEATURE_URLS[iconName]}
+			target="_blank"
+			rel="noopener noreferrer"
+			className="feature-card"
+		>
 			<div className="feature-card-header">
 				<FeatureIcon name={iconName} />
 				<div className="feature-card-title">{t(titleKey)}</div>
