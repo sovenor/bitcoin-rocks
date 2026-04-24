@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "en"
 	},
 	"about_page_title": "About bitcoin.rocks — Bitcoin Education Since 2022",
@@ -26,9 +26,9 @@
 	"about_card_flyers_label": "Printable flyers",
 	"about_card_flyers_title": "Download and print Bitcoin flyers for your community",
 	"about_card_flyers_source": "Source: bitcoin.rocks →",
-	"about_business_blurb": "We provide free business kits that make it easy to onboard local merchants to accept Bitcoin. Each kit includes printable materials explaining the benefits of accepting Bitcoin for their business.",
-	"about_card_business_label": "Business kit",
-	"about_card_business_title": "Help local businesses accept Bitcoin payments",
+	"about_business_blurb": "We provide free business resources that make it easy to onboard local merchants to accept Bitcoin. Our Bitcoin business page covers why Bitcoin is good for business, how to choose a wallet and point-of-sale, and offers free 'Bitcoin Accepted Here' stickers.",
+	"about_card_business_label": "Business resources",
+	"about_card_business_title": "Everything a business needs to start accepting Bitcoin payments",
 	"about_card_business_source": "Source: bitcoin.rocks →",
 	"about_editorial_header": "Our Editorial Approach",
 	"about_editorial_1": "Every piece of content on bitcoin.rocks is curated and fact-checked. When we reference data or statistics, we cite our sources so you can verify the information yourself.",
