@@ -1,3 +1,10 @@
+---
+## i18n cleanup Step 5 — 2026-04-24 delta refresh (7 locales retroactively synced)
+
+**Counter:** 7/54 languages still complete — now synced against the new manifest version `d966f8c780c0c485...`.
+
+Minor English text updates in commits `c88d7273..ef04b2a3` on 2026-04-24 (about / get-involved / bitcoin-vs-cash / bitcoin-vs-fine-art / bitcoin-vs-gold copy edits + `/inflation` feature-card links + `/business/faq` anchor-wrapping) produced 3 changed + 4 added English keys. Manifest was regenerated (162 changed + 388 added → 165 changed + 392 added = 557 total). Wrote `scripts/delta-refresh-2026-04-24/apply-delta.js` to retroactively patch the 7 Step-5-completed locales (af, am, ar, az, bg, bn, ca) with the delta — 13 changed + 4 added translations per locale across 5 namespaces, plus a marker re-pin. All 7 locales PASS verify-language.js against the new manifest. `npm run build` clean across ~4,349 static pages. The 47 remaining locales will pick up the full 557-key manifest naturally when they run through `/translate-manifest-refresh`.
+
 ## i18n cleanup Step 5 — Catalan (ca) manifest refresh — 2026-04-23
 
 **Counter:** 7/54 languages complete against the V2 manifest.

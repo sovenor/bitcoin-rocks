@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "az"
 	},
 	"about_page_title": "bitcoin.rocks haqqında — 2022-ci ildən Bitcoin Təhsili",
@@ -26,9 +26,9 @@
 	"about_card_flyers_label": "Çap olunan vərəqələr",
 	"about_card_flyers_title": "İcmanız üçün Bitcoin vərəqələrini endirin və çap edin",
 	"about_card_flyers_source": "Mənbə: bitcoin.rocks →",
-	"about_business_blurb": "Biz yerli tacirlərə Bitcoin qəbul etməyi asanlaşdıran pulsuz iş dəstləri təqdim edirik. Hər dəst Bitcoin qəbul etməyin bizneslərinə faydalarını izah edən çap olunan materiallar daxildir.",
-	"about_card_business_label": "Biznes dəsti",
-	"about_card_business_title": "Yerli bizneslərə Bitcoin ödənişləri qəbul etməyə kömək edin",
+	"about_business_blurb": "Biz yerli tacirlərə Bitcoin qəbul etməyi asanlaşdıran pulsuz biznes resursları təqdim edirik. Bitcoin biznes səhifəmiz Bitcoin-in biznes üçün nə üçün yaxşı olduğunu, cüzdan və satış nöqtəsinin necə seçiləcəyini əhatə edir və pulsuz 'Burada Bitcoin Qəbul Edilir' stikerləri təklif edir.",
+	"about_card_business_label": "Biznes resursları",
+	"about_card_business_title": "Bitcoin ödənişləri qəbul etməyə başlamaq üçün biznesin ehtiyac duyduğu hər şey",
 	"about_card_business_source": "Mənbə: bitcoin.rocks →",
 	"about_editorial_header": "Redaksiya Yanaşmamız",
 	"about_editorial_1": "bitcoin.rocks-dakı hər bir məzmun seçilmiş və faktlarla yoxlanılmışdır. Məlumat və ya statistikaya istinad etdikdə, mənbələrimizi göstəririk ki, məlumatı özünüz yoxlaya biləsiniz.",

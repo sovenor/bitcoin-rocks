@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "am"
 	},
 	"bitcoin_vs_cash": "ቢትኮይን vs ጥሬ ገንዘብ",
@@ -28,7 +28,7 @@
 	"bitcoin_point_7": "በቀላሉ ይከፋፈላል",
 	"point_1_summary_1": "ቢትኮይን በደቂቃዎች ውስጥ በኢንተርኔት ወደ ማንኛውም ቦታ ይንቀሳቀሳል። ገንዘብ አካላዊ መገኘት ወይም ታማኝ አጓጓዦች ያስፈልገዋል — የ$20 ቢል በኢሜል መላክ አይችሉም።",
 	"point_2_summary_1": "ቢትኮይን በሁሉም ቦታ በተመሳሳይ መንገድ ይሰራል። ገንዘብ በጂኦግራፊ፣ በምንዛሬ ተመን እና በአካባቢያዊ ተቀባይነት የተገደበ ነው።",
-	"point_3_summary_1": "መንግስታት ገንዘብን በአንድ ሌሊት ሊያደርጉት የሚችሉት ዋጋ አልባ ነው — ህንድ በ2016 አደረገች። ያለ demonetization እንኳ፣ ገንዘብ ዋጋውን ወደ ",
+	"point_3_summary_1": "መንግስታት ገንዘብን በአንድ ሌሊት ዋጋ አልባ ሊያደርጉት ይችላሉ — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">ህንድ</a> በ2016 አደረገች። ያለ demonetization እንኳ፣ ገንዘብ ዋጋውን ያጣል ወደ",
 	"point_3_summary_2": "ዋጋ ግሽበት ያጣል።",
 	"point_3_summary_3": "ቢትኮይን በማንኛውም መንግስት ወይም ባለስልጣን ዋጋ አልባ ሊሆን አይችልም።",
 	"point_4_summary_1": "ገንዘብ ሊቀዛዘፍ ይችላል፣ አንዳንዴ በሚያሳምን መንገድ። ቢትኮይን ማጭበርበርን በሒሳብ የማይቻል የሚያደርግ cryptography ይጠቀማል።",

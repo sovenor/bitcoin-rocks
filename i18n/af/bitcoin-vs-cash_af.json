@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "af"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Kontant",
@@ -28,7 +28,7 @@
 	"bitcoin_point_7": "Maklik deelbaar",
 	"point_1_summary_1": "Bitcoin beweeg binne minute oor die internet oral heen. Kontant benodig fisiese teenwoordigheid of vertroude koeriers — jy kan nie 'n $20-noot epos nie.",
 	"point_2_summary_1": "Bitcoin werk oral dieselfde. Kontant word deur geografie, wisselkoerse en plaaslike aanvaarding beperk.",
-	"point_3_summary_1": "Regerings kan kontant oornag ongeldig verklaar — Indië het dit in 2016 gedoen. Selfs sonder demonetisering verloor kontant waarde deur",
+	"point_3_summary_1": "Regerings kan kontant oornag ongeldig verklaar — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indië</a> het dit in 2016 gedoen. Selfs sonder demonetisering verloor kontant waarde deur",
 	"point_3_summary_2": "inflasie.",
 	"point_3_summary_3": "Bitcoin kan deur geen regering of owerheid ongeldig verklaar word nie.",
 	"point_4_summary_1": "Kontant kan vervals word, soms baie oortuigend. Bitcoin gebruik kriptografie wat vervalsing wiskundig onmoontlik maak.",

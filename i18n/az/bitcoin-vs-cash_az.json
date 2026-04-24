@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "az"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Nağd Pul",
@@ -28,7 +28,7 @@
 	"bitcoin_point_7": "Asanlıqla bölünə bilər",
 	"point_1_summary_1": "Bitcoin istənilən yerə dəqiqələr ərzində internet üzərindən hərəkət edir. Nağd fiziki iştirak və ya etibarlı kuryerlər tələb edir — 20 dollarlıq əskinası e-poçtla göndərə bilməzsiniz.",
 	"point_2_summary_1": "Bitcoin hər yerdə eyni şəkildə işləyir. Nağd coğrafiya, məzənnələr və yerli qəbul ilə məhdudlaşır.",
-	"point_3_summary_1": "Hökumətlər nağdı bir gecədə ləğv edə bilər — Hindistan bunu 2016-cı ildə etdi. Hətta valyuta çıxarılması olmadan belə, nağd",
+	"point_3_summary_1": "Hökumətlər nağdı bir gecədə ləğv edə bilər — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Hindistan</a> bunu 2016-cı ildə etdi. Hətta valyuta çıxarılması olmadan belə, nağd dəyərini itirir",
 	"point_3_summary_2": "inflyasiya",
 	"point_3_summary_3": "səbəbindən dəyərini itirir. Bitcoin heç bir hökumət və ya hakimiyyət tərəfindən ləğv edilə bilməz.",
 	"point_4_summary_1": "Nağd saxtalaşdırıla bilər, bəzən inandırıcı şəkildə. Bitcoin saxtalaşdırmanı riyazi cəhətdən qeyri-mümkün edən kriptoqrafiyadan istifadə edir.",

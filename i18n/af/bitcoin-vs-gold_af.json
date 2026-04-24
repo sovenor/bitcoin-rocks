@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "af"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Goud",
@@ -27,8 +27,8 @@
 	"bitcoin_point_6": "Maklik om te verifieer",
 	"bitcoin_point_7": "Maklik om te verdeel",
 	"point_1_summary_1": "Bitcoin kan onmiddellik oor die internet gestuur word teen lae fooie. Goud moet fisies versend word om eienaarskap oor te dra.",
-	"point_2_summary_1": "Bitcoin is 'n digitaal-inheemse bate wat jy oor die internet kan oordra. Die meeste aanlyn goud is 'n Digitale Skuldbekentenis — jy besit net 'n belofte van 'n bewaarder, nie die metaal self nie.",
-	"point_3_summary_1": "Bitcoin het 'n harde plafon van 21 miljoen BTC. Goud se voorraad groei met ongeveer 1,6% per jaar wat jou deel verklein — minder as fiat-",
+	"point_2_summary_1": "Bitcoin is 'n digitaal-inheemse bate wat jy oor die internet kan oordra. Aanlyn goud is 'n Digitale Skuldbekentenis — jy besit net 'n belofte van 'n bewaarder, nie die metaal self nie.",
+	"point_3_summary_1": "Bitcoin het 'n harde plafon van 21 miljoen BTC. Goud se voorraad groei met ongeveer <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6% per jaar</a>, wat jou deel verklein — minder as fiat",
 	"point_3_summary_2": "inflasie",
 	"point_3_summary_3": "— maar steeds inflasie.",
 	"point_4_summary_1": "Wanneer goudpryse styg, word meer goud gemyn, wat die prys weer afdruk. Bitcoin se aanbod is onelasties — maak nie saak hoe hoog die prys styg nie, daar sal ooit slegs 21 miljoen wees.",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "ar"
 	},
 	"about_page_title": "حول bitcoin.rocks — تعليم البيتكوين منذ 2022",
@@ -26,9 +26,9 @@
 	"about_card_flyers_label": "منشورات قابلة للطباعة",
 	"about_card_flyers_title": "نزّل واطبع منشورات البيتكوين لمجتمعك",
 	"about_card_flyers_source": "المصدر: bitcoin.rocks ←",
-	"about_business_blurb": "نوفر حقائب عمل مجانية تسهّل إشراك التجار المحليين لقبول البيتكوين. تشمل كل حقيبة مواد قابلة للطباعة تشرح فوائد قبول البيتكوين لأعمالهم.",
-	"about_card_business_label": "حقيبة الأعمال",
-	"about_card_business_title": "ساعد الأعمال المحلية على قبول مدفوعات البيتكوين",
+	"about_business_blurb": "نوفر موارد أعمال مجانية تسهّل إشراك التجار المحليين لقبول البيتكوين. تغطي صفحة أعمال البيتكوين لدينا لماذا البيتكوين جيد للأعمال، وكيفية اختيار محفظة ونقطة بيع، وتوفر ملصقات مجانية 'البيتكوين مقبول هنا'.",
+	"about_card_business_label": "موارد الأعمال",
+	"about_card_business_title": "كل ما يحتاجه العمل التجاري لبدء قبول مدفوعات البيتكوين",
 	"about_card_business_source": "المصدر: bitcoin.rocks ←",
 	"about_editorial_header": "نهجنا التحريري",
 	"about_editorial_1": "كل محتوى على bitcoin.rocks منسق ومتحقق من صحته. عندما نستشهد ببيانات أو إحصائيات، نذكر مصادرنا حتى تتمكن من التحقق من المعلومات بنفسك.",

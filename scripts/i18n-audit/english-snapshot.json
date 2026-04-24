@@ -1,7 +1,7 @@
 {
-	"generatedAt": "2026-04-24T02:14:19.051Z",
+	"generatedAt": "2026-04-24T12:21:50.798Z",
 	"totalNamespaces": 38,
-	"totalKeys": 1848,
+	"totalKeys": 1852,
 	"namespaces": {
 		"404": {
 			"lastUpdated": "2026-04-23",
@@ -13,12 +13,12 @@
 			}
 		},
 		"about": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
-				"about_business_blurb": "We provide free business kits that make it easy to onboard local merchants to accept Bitcoin. Each kit includes printable materials explaining the benefits of accepting Bitcoin for their business.",
-				"about_card_business_label": "Business kit",
+				"about_business_blurb": "We provide free business resources that make it easy to onboard local merchants to accept Bitcoin. Our Bitcoin business page covers why Bitcoin is good for business, how to choose a wallet and point-of-sale, and offers free 'Bitcoin Accepted Here' stickers.",
+				"about_card_business_label": "Business resources",
 				"about_card_business_source": "Source: bitcoin.rocks →",
-				"about_card_business_title": "Help local businesses accept Bitcoin payments",
+				"about_card_business_title": "Everything a business needs to start accepting Bitcoin payments",
 				"about_card_contact_github_label": "GitHub",
 				"about_card_contact_github_source": "Source: GitHub →",
 				"about_card_contact_github_title": "github.com/sovenor/bitcoin-rocks",
@@ -191,7 +191,7 @@
 			}
 		},
 		"bitcoin-vs-cash": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
 				"bitcoin": "BITCOIN",
 				"bitcoin_point_1": "Can be sent over the Internet",
@@ -216,7 +216,7 @@
 				"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Cash</span>",
 				"point_1_summary_1": "Bitcoin moves over the internet anywhere in minutes. Cash needs physical presence or trusted couriers — you can't email a $20 bill.",
 				"point_2_summary_1": "Bitcoin works the same way everywhere. Cash is limited by geography, exchange rates, and local acceptance.",
-				"point_3_summary_1": "Governments can invalidate cash overnight — India did it in 2016. Even without demonetization, cash loses value to",
+				"point_3_summary_1": "Governments can invalidate cash overnight — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> did it in 2016. Even without demonetization, cash loses value to",
 				"point_3_summary_2": "inflation.",
 				"point_3_summary_3": "Bitcoin can't be invalidated by any government or authority.",
 				"point_4_summary_1": "Cash can be counterfeited, sometimes convincingly. Bitcoin uses cryptography that makes counterfeiting mathematically impossible.",
@@ -344,14 +344,14 @@
 				"point_1_summary_1": "Every bitcoin is identical and interchangeable. Every artwork is unique — different creation, history, condition, and provenance make direct comparisons extremely difficult.",
 				"point_2_summary_1": "Bitcoin trades 24/7 on a global market accessible to anyone. Fine art requires specialized auction houses, private dealers, or galleries and can take months to sell.",
 				"point_3_summary_1": "Buying or selling Bitcoin costs under 1% in fees, often much less. Art sales rack up 30–40% in buyer's premiums, commissions, insurance, transport, and authentication fees.",
-				"point_4_summary_1": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture.",
+				"point_4_summary_1": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture without counterparty risk.",
 				"point_5_summary_1": "Bitcoin ownership and authenticity can be cryptographically verified by anyone on-chain. Art authentication is expensive, slow, and still routinely fooled by forgers — destroying an artwork's value overnight.",
 				"point_6_summary_1": "Bitcoin, backed up properly, survives floods, fires, earthquakes, and theft. Fine art is vulnerable to every form of physical destruction, and insurance rarely covers it all.",
 				"point_7_summary_1": "Anyone with an internet connection and a little money can buy Bitcoin. Fine art investment is effectively limited to wealthy collectors with auction access and specialized knowledge."
 			}
 		},
 		"bitcoin-vs-gold": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
 				"bitcoin": "BITCOIN",
 				"bitcoin_point_1": "Can be sent over the Internet",
@@ -375,8 +375,8 @@
 				"gold_point_7": "Hard to divide",
 				"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Gold</span>",
 				"point_1_summary_1": "Bitcoin can be sent instantly over the internet for low fees. Gold must be physically shipped to transfer ownership.",
-				"point_2_summary_1": "Bitcoin is a digitally native asset you can transfer over the internet. Most online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
-				"point_3_summary_1": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat",
+				"point_2_summary_1": "Bitcoin is a digitally native asset you can transfer over the internet. Online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
+				"point_3_summary_1": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6% per year</a>, shrinking your slice — less than fiat",
 				"point_3_summary_2": "inflation",
 				"point_3_summary_3": "— but still inflation.",
 				"point_4_summary_1": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million.",
@@ -562,7 +562,7 @@
 			}
 		},
 		"business/faq": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
 				"faq_description": "Have questions about accepting Bitcoin payments at your business?",
 				"faq_hero_subtitle": "The short answers to the questions merchants ask most often before they start accepting Bitcoin — fees, settlement, wallets, chargebacks, cost, and more.",
@@ -1166,13 +1166,17 @@
 			"lastUpdated": "2026-04-23",
 			"keys": {
 				"get_involved_and_help_spread_bitcoin": "Get involved and spread Bitcoin",
-				"get_involved_business_content_1": "Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.",
-				"get_involved_business_content_2": "Each business kit includes flyers that highlight the pros of accepting Bitcoin payments. Each flyer links to a variety of",
-				"get_involved_business_content_3": "free Bitcoin business resources.",
+				"get_involved_biz_stickers_note": "Already accepting Bitcoin? Let customers know with our free 'Bitcoin Accepted Here' stickers. We'll ship a pack to any address in the USA or Canada, or you can print your own anywhere in the world.",
+				"get_involved_business_content_1": "Want to help build the Bitcoin circular economy? The easiest way is to help local businesses start accepting Bitcoin payments.",
+				"get_involved_business_content_2": "Know a business that might be open to it? Send the owner to our",
+				"get_involved_business_content_3": "Bitcoin business page.",
 				"get_involved_business_header": "Onboard a business",
-				"get_involved_card_business_label": "Business kit",
+				"get_involved_card_biz_stickers_label": "Accepted here stickers",
+				"get_involved_card_biz_stickers_source": "Source: bitcoin.rocks →",
+				"get_involved_card_biz_stickers_title": "Free 'Bitcoin Accepted Here' stickers for your business",
+				"get_involved_card_business_label": "Bitcoin for business",
 				"get_involved_card_business_source": "Source: bitcoin.rocks →",
-				"get_involved_card_business_title": "Request a free Bitcoin Business Kit",
+				"get_involved_card_business_title": "Everything a business needs to start accepting Bitcoin payments",
 				"get_involved_card_flyers_label": "Printable flyers",
 				"get_involved_card_flyers_source": "Source: bitcoin.rocks →",
 				"get_involved_card_flyers_title": "Download and print a free Bitcoin flyer",
@@ -1182,7 +1186,7 @@
 				"get_involved_card_stickers_label": "Free stickers",
 				"get_involved_card_stickers_source": "Source: bitcoin.rocks →",
 				"get_involved_card_stickers_title": "Request a free Bitcoin sticker pack mailed to your door",
-				"get_involved_description": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, business kits, and an open-source codebase anyone can contribute to.",
+				"get_involved_description": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, 'Bitcoin Accepted Here' stickers for businesses, and an open-source codebase anyone can contribute to.",
 				"get_involved_flyers_content_1": "Flyers are one of the easiest ways to introduce Bitcoin to your community. Download a free printable Bitcoin flyer, print as many copies as you'd like, and post them on community boards, in coffee shops, at meetups, or anywhere else people gather.",
 				"get_involved_flyers_content_2": "Each flyer includes a compelling headline and a QR code that sends curious readers to bitcoin.rocks to learn more.",
 				"get_involved_flyers_content_3": "Unlike stickers, flyers can be printed on demand from anywhere in the world — all you need is a printer and a few minutes.",
@@ -1383,7 +1387,7 @@
 			}
 		},
 		"inflation": {
-			"lastUpdated": "2026-04-23",
+			"lastUpdated": "2026-04-24",
 			"keys": {
 				"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
 				"inflation_aud_btc_h2": "Bitcoin doesn't have inflation",

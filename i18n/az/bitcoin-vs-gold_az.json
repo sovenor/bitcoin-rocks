@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "az"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Qızıl",
@@ -27,8 +27,8 @@
 	"bitcoin_point_6": "Doğrulamaq asandır",
 	"bitcoin_point_7": "Bölmək asandır",
 	"point_1_summary_1": "Bitcoin aşağı haqlarla internet üzərindən dərhal göndərilə bilər. Qızıl mülkiyyəti ötürmək üçün fiziki olaraq göndərilməlidir.",
-	"point_2_summary_1": "Bitcoin internet üzərindən köçürə biləcəyiniz yerli rəqəmsal aktivdir. İnternetdəki qızılın əksəriyyəti rəqəmsal qəbzdir — siz yalnız nəzarətçidən bir vəd sahibsiniz, metalın özü deyil.",
-	"point_3_summary_1": "Bitcoin-in 21 milyon BTC-lik sərt limiti var. Qızılın təklifi ildə təxminən 1.6% artır, payınızı kiçildir — kağız pulun",
+	"point_2_summary_1": "Bitcoin internet üzərindən köçürə biləcəyiniz yerli rəqəmsal aktivdir. İnternetdəki qızıl rəqəmsal qəbzdir — siz yalnız nəzarətçidən bir vəd sahibsiniz, metalın özü deyil.",
+	"point_3_summary_1": "Bitcoin-in 21 milyon BTC-lik sərt limiti var. Qızılın təklifi ildə təxminən <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6%</a> artır, payınızı kiçildir — kağız puldan",
 	"point_3_summary_2": "inflyasiyasından",
 	"point_3_summary_3": "azdır — amma yenə də inflyasiyadır.",
 	"point_4_summary_1": "Qızıl qiymətləri yüksəldikdə daha çox qızıl çıxarılır, qiyməti yenidən aşağı salır. Bitcoin-in təklifi qeyri-elastikdir — qiymət nə qədər yüksək olsa da, yalnız 21 milyon olacaq.",

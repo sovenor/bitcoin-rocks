@@ -1,14 +1,14 @@
 {
-	"generatedAt": "2026-04-23T21:43:21.740Z",
+	"generatedAt": "2026-04-24T12:21:50.846Z",
 	"preV2Commit": "133d5b984b93c61f40953bcb7819341f6984329c",
 	"preV2CommitShort": "133d5b984b93",
 	"preV2GeneratedAt": "2026-04-23T19:45:23.520Z",
-	"currentSnapshotGeneratedAt": "2026-04-23T21:31:02.503Z",
-	"manifestVersion": "75d5ff1151d50651ec21dbcf2989b30a4df05a6066fff1c183b822bf089da49d",
+	"currentSnapshotGeneratedAt": "2026-04-24T12:21:50.798Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"totals": {
-		"changed": 162,
-		"added": 388,
-		"total": 550
+		"changed": 165,
+		"added": 392,
+		"total": 557
 	},
 	"changed": [
 		{
@@ -231,7 +231,7 @@
 			"namespace": "bitcoin-vs-cash",
 			"key": "point_3_summary_1",
 			"englishValueBefore": "Governments can and do invalidate cash overnight through demonetization policies, like India did in 2016 when they banned certain banknotes.",
-			"englishValue": "Governments can invalidate cash overnight — India did it in 2016. Even without demonetization, cash loses value to"
+			"englishValue": "Governments can invalidate cash overnight — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> did it in 2016. Even without demonetization, cash loses value to"
 		},
 		{
 			"namespace": "bitcoin-vs-cash",
@@ -435,7 +435,7 @@
 			"namespace": "bitcoin-vs-fine-art",
 			"key": "point_4_summary_1",
 			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size from microtransactions to large purchases. Fine art cannot be divided - you cannot own a fraction of a painting or sell just part of a sculpture. This indivisibility limits investment flexibility and liquidity options.",
-			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture."
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture without counterparty risk."
 		},
 		{
 			"namespace": "bitcoin-vs-fine-art",
@@ -465,13 +465,13 @@
 			"namespace": "bitcoin-vs-gold",
 			"key": "point_2_summary_1",
 			"englishValueBefore": "Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.",
-			"englishValue": "Bitcoin is a digitally native asset you can transfer over the internet. Most online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself."
+			"englishValue": "Bitcoin is a digitally native asset you can transfer over the internet. Online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself."
 		},
 		{
 			"namespace": "bitcoin-vs-gold",
 			"key": "point_3_summary_1",
 			"englishValueBefore": "Bitcoin has a hard cap of 21 Million BTC that will ever exist.",
-			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat"
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6% per year</a>, shrinking your slice — less than fiat"
 		},
 		{
 			"namespace": "bitcoin-vs-gold",
@@ -907,9 +907,27 @@
 		},
 		{
 			"namespace": "get-involved",
+			"key": "get_involved_business_content_1",
+			"englishValueBefore": "Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.",
+			"englishValue": "Want to help build the Bitcoin circular economy? The easiest way is to help local businesses start accepting Bitcoin payments."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_business_content_2",
+			"englishValueBefore": "Each business kit includes flyers that highlight the pros of accepting Bitcoin payments. Each flyer links to a variety of",
+			"englishValue": "Know a business that might be open to it? Send the owner to our"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_business_content_3",
+			"englishValueBefore": "free Bitcoin business resources.",
+			"englishValue": "Bitcoin business page."
+		},
+		{
+			"namespace": "get-involved",
 			"key": "get_involved_description",
 			"englishValueBefore": "Our free resources make it easier to spread Bitcoin adoption.",
-			"englishValue": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, business kits, and an open-source codebase anyone can contribute to."
+			"englishValue": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, 'Bitcoin Accepted Here' stickers for businesses, and an open-source codebase anyone can contribute to."
 		},
 		{
 			"namespace": "get-involved",
@@ -993,12 +1011,12 @@
 		{
 			"namespace": "about",
 			"key": "about_business_blurb",
-			"englishValue": "We provide free business kits that make it easy to onboard local merchants to accept Bitcoin. Each kit includes printable materials explaining the benefits of accepting Bitcoin for their business."
+			"englishValue": "We provide free business resources that make it easy to onboard local merchants to accept Bitcoin. Our Bitcoin business page covers why Bitcoin is good for business, how to choose a wallet and point-of-sale, and offers free 'Bitcoin Accepted Here' stickers."
 		},
 		{
 			"namespace": "about",
 			"key": "about_card_business_label",
-			"englishValue": "Business kit"
+			"englishValue": "Business resources"
 		},
 		{
 			"namespace": "about",
@@ -1008,7 +1026,7 @@
 		{
 			"namespace": "about",
 			"key": "about_card_business_title",
-			"englishValue": "Help local businesses accept Bitcoin payments"
+			"englishValue": "Everything a business needs to start accepting Bitcoin payments"
 		},
 		{
 			"namespace": "about",
@@ -2312,8 +2330,28 @@
 		},
 		{
 			"namespace": "get-involved",
+			"key": "get_involved_biz_stickers_note",
+			"englishValue": "Already accepting Bitcoin? Let customers know with our free 'Bitcoin Accepted Here' stickers. We'll ship a pack to any address in the USA or Canada, or you can print your own anywhere in the world."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_label",
+			"englishValue": "Accepted here stickers"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_source",
+			"englishValue": "Source: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_title",
+			"englishValue": "Free 'Bitcoin Accepted Here' stickers for your business"
+		},
+		{
+			"namespace": "get-involved",
 			"key": "get_involved_card_business_label",
-			"englishValue": "Business kit"
+			"englishValue": "Bitcoin for business"
 		},
 		{
 			"namespace": "get-involved",
@@ -2323,7 +2361,7 @@
 		{
 			"namespace": "get-involved",
 			"key": "get_involved_card_business_title",
-			"englishValue": "Request a free Bitcoin Business Kit"
+			"englishValue": "Everything a business needs to start accepting Bitcoin payments"
 		},
 		{
 			"namespace": "get-involved",

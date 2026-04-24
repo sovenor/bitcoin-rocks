@@ -90,10 +90,20 @@ Typical volumes:
 
 | Locale  | Missing | Untranslated | Manifest changed | Manifest added | Total |
 |---------|--------:|-------------:|-----------------:|---------------:|------:|
-| af      | 0       | 0            | 163              | 415            | 578   |
-| am      | 0       | 0            | 163              | 415            | 578   |
-| de      | ~100    | ~70          | 163              | 415            | ~750  |
-| *new locale fresh from translate-new-language.md* | 0 | 0 | 163 | 415 | 578 |
+| af      | 0       | 0            | 165              | 392            | 557   |
+| am      | 0       | 0            | 165              | 392            | 557   |
+| de      | ~100    | ~70          | 165              | 392            | ~727  |
+| *new locale fresh from translate-new-language.md* | 0 | 0 | 165 | 392 | 557 |
+
+> **Note — 2026-04-24 manifest regeneration:** The current
+> `v2-manifest.json` (version `d966f8c780c0c485...`) was regenerated
+> after commits `c88d7273..ef04b2a3` added 3 changed + 4 added
+> keys (about / get-involved / bitcoin-vs-cash / bitcoin-vs-fine-art /
+> bitcoin-vs-gold + the new `get_involved_biz_stickers_*` bundle).
+> The 7 already-refreshed locales (af, am, ar, az, bg, bn, ca) were
+> retroactively patched via `scripts/delta-refresh-2026-04-24/apply-delta.js`
+> — their markers now pin the new hash, so running this workflow
+> against them will correctly report 0 manifest entries flagged.
 
 The two manifest numbers are the same for every locale. The
 locale-specific numbers vary based on how complete the locale was
@@ -211,10 +221,10 @@ place of the specific name.
 For big reports, split translation work into per-category helper
 scripts at `scripts/<code>-manifest-refresh/`. Recommended breakdown:
 
-1. `translate-manifest-changed.js` — the 163 `manifest-changed`
+1. `translate-manifest-changed.js` — the 165 `manifest-changed`
    entries. These are the HIGHEST priority because wrong translations
    here are actively visible to users.
-2. `translate-manifest-added.js` — the 415 `manifest-added` entries.
+2. `translate-manifest-added.js` — the 392 `manifest-added` entries.
 3. `translate-locale-specific.js` — `missing` + `untranslated`
    entries. Only exists for locales that were incomplete or had
    placeholder leakage.
