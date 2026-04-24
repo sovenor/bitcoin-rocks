@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"404_title": "404 Errorea | Orria ez da aurkitu",
-	"404_message": "ORRI HAUTSITUA HONEK EZ DU BALIO",
-	"404_home": "ITZULI HASIERARA"
+	"404_message": "Bitcoin bikaina da, baina hondatutako orri hau ez.",
+	"404_home": "Itzuli hasierara",
+	"404_not_found_short": "Ez da aurkitu"
 }

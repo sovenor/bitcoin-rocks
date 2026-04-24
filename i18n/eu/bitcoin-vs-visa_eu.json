@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Ez du zorrik sortzen",
 	"bitcoin_point_6": "Auto-zaintza posiblea",
 	"bitcoin_point_7": "24/7 mundu-mailako sarbidea",
-	"point_1_summary_1": "Bitcoin edonork baimen gabe batu eta erabil dezakeen sare ireki bat da. Visa bezalako kreditu-txartel sareak finantza-erakundeek kontrolatutako sistema itxiak dira, aukeratzen duten edonori sarbidea uka dezaketenak.",
+	"point_1_summary_1": "Bitcoin sare irekia da, edonork baimenik gabe atxiki daiteke. Visa itxita dagoen sistema bat da, finantza-erakundeek kontrolatua, sarbidea uka dezaketenak — bereziki banku-konturik gabekoentzat edo banku-sarbide mugatua dutenentzat.",
 	"point_1_summary_2": "Honek Bitcoin inklusibo eta eskuragarriagoa bihurtzen du mundu osoko jendearentzat, bereziki bankurik gabekoentzat edo bankurik gutxi dutenentzat.",
-	"point_2_summary_1": "Bitcoin transakzioek ez dute komisiorik merkatarientzat, kreditu-txartel konpainiek normalean transakzio bakoitzeko %3 inguru kobratzen duten bitartean.",
-	"point_2_summary_2": "Ikasi nola aurreztu dezake zure negozioak dirua",
-	"point_2_summary_3": "kreditu-txartel prozesatzeko komisoak ordaindu beharrean Bitcoin ordainketak onartuz.",
-	"point_3_summary_1": "Bitcoin bloke-kate garden batean funtzionatzen du, non transakzio guztiak edonork egiaztatu ditzakeen. Kreditu-txartel sareak sistema itxi eta jabetza gisa funtzionatzen dute, non transakzio-xehetasunak ikuspen publikotik ezkutatuta dauden.",
+	"point_2_summary_1": "Bitcoin transakzioek ez dute merkatariaren kuotarik. Visa-k merkatariei % 3 inguru kobratzen die transakzio bakoitzeko — zure enpresak dirua aurreztu dezake",
+	"point_2_summary_2": "Bitcoin ordainketak",
+	"point_2_summary_3": " onartuz.",
+	"point_3_summary_1": "Bitcoin transakzio bakoitza blockchain publiko eta egiaztagarrian dago. Visa-k sistema itxi eta jabedun bat kudeatzen du, non bezeroek ezin duten modu independentean ezer egiaztatu.",
 	"point_3_summary_2": "Gardentasun honek Bitcoin fidagarriagoa bihurtzen du eta sarearen osotasunaren egiaztapen independentea ahalbidetzen du.",
-	"point_4_summary_1": "Kreditu-txartel konpainiek kontuak izoztu, transakzioak blokeatu edo zerbitzua uka dezakete edozein unetan. Bitcoin ezin da inolako autoritate zentralek izoztu edo kontrolatu.",
+	"point_4_summary_1": "Bitcoin ez dago agintaritza zentral batek izoztu ezin duena. Visa-k kontuak izoztu ditzake, transakzioak blokeatu edo zerbitzuari edozein unetan uko egin.",
 	"point_4_summary_2": "Bitcoin-ekin, zure diruaren kontrola mantentzen duzu eta ezin zaituzte ordainketa-sistematik kanpo utzi.",
-	"point_5_summary_1": "Kreditu-txartelak zorra sortzen dute, azkar ordaintzen ez bada interes-tasa altuak metatzen dituztenak, batzuetan urteko %25 gaindituz.",
+	"point_5_summary_1": "Bitcoin azken likidazioa da — duzuna bakarrik gastatzen duzu. Kreditu-txartelek zorra sortzen dute, urteroko % 25 gainditzen duten interes-tasekin.",
 	"point_5_summary_2": "Bitcoin transakzioak azken likidazioak dira, zorrik sortu gabe - soilik benetan duzun Bitcoin gastatu dezakezu.",
-	"point_6_summary_1": "Bitcoin-ek auto-zaintza ahalbidetzen du, eta horrek esan nahi du zure dirua eduki eta kontrola dezakezula bankuetan edo ordainketa-prozesadoreetan fidatu gabe.",
-	"point_6_summary_2": "Ikasi Bitcoin zorroei buruz",
-	"point_6_summary_3": "zure diruaren kontrola nola har dezakezun ulertzeko. Kreditu-txartelak beti bitartekariak behar dituzte, hala nola bankuak eta ordainketa-prozesadoreak.",
-	"point_7_summary_1": "Bitcoin 24/7 funtzionatzen du mundu osoan, negozio-ordurik edo muga geografikorik gabe.",
-	"point_7_summary_2": "Kreditu-txartel sareek negozio-orduak, mantentze-leihoak eta muga geografikoak dituzte, transakzioak prozesatzea eragotzi dezaketenak."
+	"point_6_summary_1": "Bitcoinek aukera ematen dizu",
+	"point_6_summary_2": "norberaren zaintzara",
+	"point_6_summary_3": " igarotzeko, bankurik edo ordainketa-prozesagailurik gabe. Kreditu-txartelek beti eskatzen dituzte bitartekariak.",
+	"point_7_summary_1": "Bitcoinek 24/7 mundu osoan funtzionatzen du, ordutegirik gabe. Visa-k lan-orduak, mantentze-leihoak eta transakzioak blokeatu ditzaketen muga geografikoak ditu.",
+	"point_7_summary_2": "Kreditu-txartel sareek negozio-orduak, mantentze-leihoak eta muga geografikoak dituzte, transakzioak prozesatzea eragotzi dezaketenak.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">Visa</span> arteko aldea"
 }

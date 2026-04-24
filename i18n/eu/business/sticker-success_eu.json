@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
-	}
+	},
+	"biz_sticker_success_hero_title": "Zure pegatinak bidean daude 🎉",
+	"biz_sticker_success_hero_subtitle": "Zure doako «Hemen Bitcoin onartzen dugu» pegatinak 2–4 asteren barruan jasoko dituzu gutun-azal zuri soil batean 3 pegatinekin.",
+	"biz_sticker_success_tips_header": "Pegatinak jartzeko leku onak",
+	"biz_sticker_success_tip_1": "Zure atari nagusian edo erakusleihoan, bezeroek sartu baino lehen ikus dezaten",
+	"biz_sticker_success_tip_2": "Kutxaren ondoan, ordainketa-terminalean edo bezeroek ordaintzen duten lekuan",
+	"biz_sticker_success_tip_3": "Menuetan, prezio-zerrendetan edo eskupeko-ontzian",
+	"biz_sticker_success_tip_4": "Ez jarri zureak ez diren lekuetan edo pegatinak jartzeko baimenik ez duzun lekuetan",
+	"biz_sticker_success_more_header": "Pegatina gehiago behar?",
+	"biz_sticker_success_more_c1": "3 pegatina zure enpresarako nahikoa ez badira, beste pakete doako bat eskatzeko askatasuna duzu — edo handizka eskatu guk erabiltzen dugun inprimategi berberari.",
+	"biz_sticker_success_btn_order_bulk": "Eskatu handizka",
+	"biz_sticker_success_btn_request_more": "Eskatu beste pakete doako bat"
 }

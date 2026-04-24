@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
-	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"bitcoin_vs_crypto": "Bitcoin vs kriptomoneta",
 	"crypto_intro_1": "Kriptomoneta-esparrua milaka token eta proiektu digital desberdinekin lehertu da.",
 	"crypto_intro_2": "Bitcoin lehena eta ezagunena den arren, funtsean desberdina da kriptomoneta-industriaren gainerakotik.",
 	"crypto_intro_3": "Aztertu ditzagun Bitcoin eta kriptomoneta ekosistema zabalaren arteko desberdintasun nagusiak.",
-	"crypto": "CRYPTO",
+	"crypto": "KRIPTOMONETA",
 	"crypto_point_1": "Aldaketa eta fork maiztasuna",
 	"crypto_point_2": "Kontrol zentralizatua",
 	"crypto_point_3": "Eskaintza mugagabea edo inflazionistikoa",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Diru digital hutsa",
 	"bitcoin_point_7": "Antifragilea",
 	"bitcoin_point_8": "Entitate bakar batek ere ez du kontrolatzen",
-	"point_1_summary_1": "Bitcoin-en protokoloa funtsean aldagabea mantentzen da 2009tik, aldatu ezin diren arau aurreikusgarriak eskainiz. Kripto-proiektu gehienek maiz eguneratzen dituzte haien protokoloak, tokenomikak aldatzen edo bertsio berrietan fork egiten, erabiltzaileentzat ziurgabetasuna sortuz.",
-	"point_2_summary_1": "Bitcoin mundu osoko hamar milaka nodo independenteekin benetan deszentralizatutako sare batean funtzionatzen du. Kripto-proiektu asko fundazio, enpresa edo garatzaile-talde txikiek kontrolatzen dituzte, protokoloaren etorkizunari buruzko erabakiak alde bakarretik hartu ditzaketelarik.",
-	"point_3_summary_1": "Bitcoin-ek 21 milioi txanponeko muga zurrun bat du inoiz existituko den guztietan, aktibo digital eskasena bihurtuz. Kripto-proiektu gehienek eskaintza mugagabeak, mekanismo inflazionistak edo token berriak jaulkitzeko gaitasuna dute, edukitzaileen balioa denborarekin diluituz.",
-	"point_4_summary_1": "Bitcoin-ek helburu bakarra du: pertsona arteko diru digitala. Edonork uler eta erabil dezake oinarrizko ezagutzarekin. Kripto-proiektu askok kontratu adimen konplexuak, DeFi protokoloak edo gobernu-mekanismoak barneratzen dituzte, modu seguruan erabiltzeko ezagutza teknikoa behar dutenak.",
-	"point_5_summary_1": "Bitcoin-ek Lanaren Froga kontsentsua erabiltzen du, 15 urte baino gehiagoz probatua sare nagusian eraso arrakastsu bakar bat gabe. Kripto-proiektu askok kontsentsu-mekanismo esperimentalak erabiltzen dituzte, hala nola Partizipazioaren Froga edo sistema delegatuak, haien epe luzeko segurtasuna frogatu gabe.",
-	"point_6_summary_1": "Bitcoin diru digital gisa balio du - balio-gordailua eta truke-bitartekoa. Kripto-token gehienak plataforma jakin baterako utilitate-tokenak, gobernu-tokenak edo mundu errealean proposamen argirik gabeko aktibo espekulatiboak dira.",
-	"point_7_summary_1": "Bitcoin erasoen aurrean indartsuagoa bihurtzen da eta inoiz bota zaion krisi, debeku eta kritika guztiei aurre egin die. Kripto-proiektu gehienak ahulak dira eta arau-presioen, hutsegite teknikoen edo merkatu-beherakadek eragin dezaketen kolapsoen aurrean erori daitezke.",
-	"point_8_summary_1": "Bitcoin-ek ez du zuzendari nagusirik, ez du enpresa bat atzean eta ez du hutsegite-puntu bakar bat. Kripto-proiektu asko arrisku-kapital enpresekin babesten dira, lidergo-talde identifikagarriak dituzte edo enpresa jakin batzuen menpe daude haien funtzionamendu jarraituari dagokionez."
+	"point_1_summary_1": "Bitcoinaren protokoloak gutxi aldatu da 2009az geroztik eta aurreikus daitezkeen arauak ematen ditu. Kripto-proiektu gehienek protokoloak, tokenomika edo forketan etengabe aldatzen dituzte bertsio berrietara.",
+	"point_2_summary_1": "Bitcoinek hamarnaka mila nodo independentetan funtzionatzen du mundu osoan. Kripto-proiektu gehienak fundazioek, enpresek edo garatzaile-talde txikiek kontrolatzen dituzte, aldaketa unilateralak egin ditzaketenak.",
+	"point_3_summary_1": "Bitcoinek 21 milioiko muga finkoa du — ondasun digital urriena. Kripto-proiektu gehienek eskaintza mugagabea dute edo token berriak nahierara sortzeko mekanismoak, jabeak urtuz.",
+	"point_4_summary_1": "Bitcoinek helburu bakarra du: peer-to-peer diru digitala. Edonork ulertzen du eta edonork erabil dezake. Kriptomoneta gehienek kontratu adimendun konplexuak edo DeFi-a dituzte, segurtasunez erabiltzeko ezagutza tekniko berezia eskatzen dutenak.",
+	"point_5_summary_1": "Bitcoinaren lan-froga sistemak 15 urte baino gehiago funtzionatu du arrakastatsu erasorik jaso gabe kate nagusian. Kripto-proiektu gehienek ongi probatu ez diren adostasun-metodo esperimentalak erabiltzen dituzte.",
+	"point_6_summary_1": "Bitcoin diru digitala da — balioaren gordailua eta truke-bidea. Kripto-token gehienak espekulatiboak dira, benetako balio argirik gabeko erabilera- edo gobernantza-tokenak.",
+	"point_7_summary_1": "Bitcoin erasoaren aurrean indartzen da eta krisi, debeku eta kritika guztiak gainditu ditu. Kripto-proiektu gehienak presio arauemaile, tekniko edo merkatuaren aurrean hondoratzen dira.",
+	"point_8_summary_1": "Bitcoinek ez du CEO-rik, enpresarik edo huts-puntu bakarrik. Kripto-proiektu gehienak arrisku-kapitaleko inbertitzaileen, zuzendaritza-talde zehatz baten edo enpresa bakar baten biziraupenaren mende daude.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">kriptomoneten</span> arteko aldea"
 }

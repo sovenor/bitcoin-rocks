@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Arte Fina",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kriptografikoki egiaztagarria",
 	"bitcoin_point_6": "Zaila suntsitzeko",
 	"bitcoin_point_7": "Guztiontzat eskuragarria",
-	"point_1_summary_1": "Bitcoin guztiz fungiblea da, eta horrek esan nahi du bitcoin bakoitza identikoa eta trukagarria dela - bitcoin bat mundu osoan bitcoin bat da. Arte fina ez-fungiblea da izatez, pieza bakoitza bakarra izanda bere sorkuntzan, historian, egoeran eta jatorrian, zuzeneko konparazioak eta balorazioak oso zail bihurtuz.",
-	"point_2_summary_1": "Bitcoin mundu osoko 24/7 merkatu batean negozia daiteke, non Internet sarbidea duen edonork berehala erosi edo sal dezakeen. Arte finak enkante-etxe espezializatuak behar ditu, hala nola Sotheby's edo Christie's, banatzaile pribatuak edo galeria esklusiboak. Salmentak hilabeteak behar ditzakete antolatu eta osatzeko, merkatu-sarbide mugatuarekin eta merkataritza-aukera irregularrekin.",
-	"point_3_summary_1": "Bitcoin erostea edo saltzea normalean komisioetan %1 baino gutxiago kostatzen da, askotan askoz gutxiago. Arte finaren salmentek kostu handiak dakarkite, hala nola eroslearen primak (%10-25), saltzailearen komisioak (%10-15), asegurua, garraioa, biltegiratza eta autentifikazio-komisoak. Kostu konbinatu hauek erraz gainditu dezakete arte-lanaren balioaren %30-40 transakzio bakar batean.",
-	"point_4_summary_1": "Bitcoin 100 milioi unitate txikiagotan zati daiteke, satoshi deitzen direnak, edozein tamainako transakzioetarako ezin hobea eginez, mikro-transakzioetatik erosketa handietara. Arte fina ezin da zatitu - ezin duzu koadro baten zati bat jabe edo eskultura baten zati bat bakarrik saldu. Zatikortasun eza honek inbertsio-malgutasuna eta likidezia-aukerak mugatzen ditu.",
-	"point_5_summary_1": "Bitcoin-en jabetza eta benetakotasuna kriptografikoki egiazta daiteke bloke-katean oinarrizko ezagutza teknikoa duen edonork. Arte finak aditu-autentifikazio garestia, jatorri-ikerketa eta analisi zientifikoa behar ditu. Aditu-egiaztapenarekin ere, faltsifikazioak aldizka arte-mundua engainatzen dute, eta autentifikazio-liskarrek arte-lan baten balioa gauez suntsitu dezakete. Bitcoin-a, bestalde, ezin da faltsutu edo kopiatu.",
-	"point_6_summary_1": "Bitcoin-a, behar bezala babeskopiatuta dagoenean, ezin da uholdeen, suteen, lurrikaren, urakanen, lapurreten edo beste hondamendien bidez suntsitu. Arte fina suntsiketa fisikoaren eta hondatzearen forma guztien aurrean ahula da. Biltegiratzea klima-kontrolatua eta aseguru osoarekin ere, arte-lanak ingurumen-faktoreen, istripuen edo hondamendi naturalen bidez kaltetu daitezke, balio guztia galdu dezaketelarik.",
-	"point_7_summary_1": "Bitcoin Internet sarbidea eta inbertitzeko diru kopuru txiki bat duen edonork erosi eta sal dezake. Arte finaren inbertsioa biltzaile aberatsetara mugatuta dago neurri handi batean, prezio minimoak, enkante-sarbide esklusiboa, biltegiratzea beharrak, aseguru-kostuak eta arte-merkatuan nabigatzeko behar den ezagutza espezializatua direla eta."
+	"point_1_summary_1": "Bitcoin bakoitza berdina eta trukagarria da. Arte-lan bakoitza berezia da — jatorri, historia, egoera eta leinu ezberdinek alderaketa zuzena oso zaila egiten dute.",
+	"point_2_summary_1": "Bitcoinek 24/7 merkatu global batean merkataritza egiten du, edonoren eskura. Arteak enkante-etxe, salerosle pribatu edo galeria espezializatuak behar ditu eta salmentek hilabeteak iraun ditzakete.",
+	"point_3_summary_1": "Bitcoin erostea edo saltzeak % 1 baino gutxiago kostatzen du komisioetan, maiz askoz gutxiago. Arte-salmentek % 30-40 komisioak pilatzen dituzte erosleentzat, bitartekaritzak, aseguruak, garraioak eta autentifikazio-kuotak.",
+	"point_4_summary_1": "Bitcoin 100 milioi satoshitan zati daiteke, edozein tamainatako transakzioetarako ezin hobea dena. Ezin duzu margolan baten zati bat izan edo eskultura baten izkina kontrapartiaren arriskurik gabe.",
+	"point_5_summary_1": "Bitcoinaren jabetza eta benetakotasuna edonork egiazta ditzake kriptografikoki blockchain-ean. Artearen autentifikazioa garestia, geldoa da eta faltsifikatzaileek erregularki iruzurtzen dute — lanaren balioa gauetik goizera suntsituz.",
+	"point_6_summary_1": "Ongi babesturiko Bitcoinek uholdeak, suteak, lurrikarak eta lapurretak gainditzen ditu. Artea edozein hondamendi fisikoren aurrean ahula da eta aseguruak gutxitan estaltzen du dena.",
+	"point_7_summary_1": "Interneteko konexioa eta diru apur bat duen edonork eros dezake Bitcoin. Artean inbertitzea praktikan mugatuta dago enkante eta ezagutza espezializatuetarako sarbidea duten bildumagile aberatsei.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">artearen</span> arteko aldea"
 }

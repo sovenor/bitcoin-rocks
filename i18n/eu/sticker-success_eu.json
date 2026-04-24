@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"sticker_success_1": "Zure eranskailuak 2-4 astetan jasoko dituzu. Bitartean, zure eranskailuak jartzeko leku on bat pentsatzen saiatu!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "azkar kentzeko probabilitate txikia duten lekuetan (eranskailuek ez dute kalte iraunkorrik eragiten)",
 	"sticker_success_list_3": "erraz itsatsiko diren azaleretan (metala, plastikoa, beira)",
 	"sticker_success_list_4": "EZ jabetza pribatuan, seinalizazioa estaliz, kutxazainetan edo gasolina ponpetan",
-	"sticker_success_3": "Ikusi nahi duzu beste jendeak non jartzen dituen bere eranskailuak?"
+	"sticker_success_3": "Ikusi nahi duzu beste jendeak non jartzen dituen bere eranskailuak?",
+	"sticker_success_hero_title": "Zure pegatinak bidean daude 🎉",
+	"sticker_success_tips_header": "Pegatinak jartzeko leku onak",
+	"sticker_success_share_header": "Partekatu non jarri dituzun pegatinak",
+	"sticker_success_bulk_header": "Pegatina gehiago behar?",
+	"sticker_success_btn_order_bulk": "Eskatu handizka",
+	"sticker_success_btn_share_on_nostr": "Partekatu Nostr-en",
+	"sticker_success_btn_what_is_nostr": "Zer da Nostr?"
 }

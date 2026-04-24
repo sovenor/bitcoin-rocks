@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin onartzeko ohiko galderak",
 	"faq_description": "Galderak dituzu zure negozioan Bitcoin ordainketak onartzeko?",
+	"faq_hero_subtitle": "Merkatariek Bitcoin onartzen hasi aurretik normalean egiten dituzten galderei erantzun laburrak — kuotak, likidazioa, zorroak, itzulketak, kostuak eta askoz gehiago.",
+	"faq_intro_c1": "Egin klik beheko edozein galderan erantzuna agertzeko. Bitcoin onartzen hasteko prest zaudenean, orrialdearen amaierako enpresa-tresnek urratsez urrats gidatuko zaituzte.",
 	"faq_s1": "Zer da Bitcoin?",
 	"faq_s1_c1": "Bitcoin bi gauza dira: diru digitala eta sare informatikoa.",
 	"faq_s1_c2": "Bitcoin (diru digitala) zuzenean beste pertsonei bidali diezaiekezu Bitcoin Sarea erabiliz.",

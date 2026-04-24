@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_accepted_here_stickers": "'Bitcoin hemen onartzen da' eranskailuak",
+	"biz_stickers_hero_title": "Doako «Hemen Bitcoin onartzen dugu» pegatinak",
+	"biz_stickers_hero_subtitle": "Jakinarazi zure bezeroei Bitcoin onartzen duzula. Eskatu «Hemen Bitcoin onartzen dugu» pegatina-pakete doakoa zure establezimenduan jartzeko.",
+	"biz_stickers_intro_c1": "Bitcoin onartzea lanaren erdia baino ez da — zure bezeroek ere jakin behar dute. «Hemen Bitcoin onartzen dugu» pegatina txiki hauek atari nagusiaren, kutxaren, menuaren edo bezeroek ordaintzen duten edozein lekuen ondoan jartzeko diseinatuta daude.",
+	"biz_stickers_intro_c2": "AEBetako edo Kanadako edozein helbidera pakete doako bat bidaltzen dugu, edo zure pegatinak ere inprimatu ditzakezu mundu osoan.",
+	"biz_stickers_step_header": "Nola nahi dituzu zure pegatinak?",
+	"biz_stickers_step_description": "Pakete doakoak bidaltzen ditugu AEBetako eta Kanadako helbideetara. Munduko beste leku batzuetan zure pegatinak zerorrek inprimatu ahal izango dituzu.",
+	"biz_stickers_option_usa": "🇺🇸 AEB — doan postaz",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — doan postaz",
+	"biz_stickers_option_print": "🌍 Mundu osoa — inprimatu zerorrek",
+	"biz_stickers_print_header": "Inprimatu zure pegatina-fitxategiak zerorrek",
+	"biz_stickers_print_c1": "Zure «Hemen Bitcoin onartzen dugu» pegatinak inprimatu ahal izango dituzu, edonon bizi zarela. Egin klik behean zure hizkuntzan pegatina-fitxategiak eta inprimatze-argibideak deskargatzeko.",
+	"biz_stickers_request_header": "Ez duzu zure hizkuntza ikusten?",
+	"biz_stickers_request_c1": "Bete beheko formularioa «Hemen Bitcoin onartzen dugu» pegatina-fitxategiak zure tokiko hizkuntzan eskatzeko. Prest daudenean jakinaraziko dizugu.",
+	"biz_stickers_placeholder_translation1": "«Bitcoin Accepted Here» esaldiaren itzulpena",
+	"biz_stickers_placeholder_translation2": "«Scan to learn why Bitcoin is good for business.» esaldiaren itzulpena",
 	"stickers_request": "Lortu zure eranskailu doakoak"
 }

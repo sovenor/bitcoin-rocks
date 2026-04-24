@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Eskudirua",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Sare deszentralizatua",
 	"bitcoin_point_6": "Auto-zaintza digitala",
 	"bitcoin_point_7": "Erraz zatitu daiteke",
-	"point_1_summary_1": "Bitcoin munduko edozein tokitara bidali daiteke berehala Interneten bidez, eskudiruak presentzia fisikoa edo bitartekari fidagarriak behar dituen bitartean. Ezin duzu eskudirua emailez bidali, baina Bitcoin Internet konexioa duen edonori bidali dezakezu minutu gutxitan.",
-	"point_2_summary_1": "Bitcoin mundu osoan berdin funtzionatzen du - Bitcoin sarean ez dago mugarik. Eskudirua geografiak, truke-tasak eta tokiko onarpanak mugatzen dute. Saiatu AEBetako dolarrak Thailandiako landa-eremuan edo Japoniako yenak Mexikoko landa-eremuan erabiltzen.",
-	"point_3_summary_1": "Gobernuek gauez eskudirua baliogabetu dezakete desmonetizazio-politiken bidez, Indiak 2016an egin zuen bezala billete jakin batzuk debekatuz.",
-	"point_3_summary_2": "Billete jakin batzuk debekatu gabe ere, gobernuek etengabe debaluatzen dute eskudirua inflazioaren bidez.",
-	"point_3_summary_3": "Bitcoin-a ezin du inolako gobernu edo agintaritzak baliogabetu - mundu osoko sare deszentralizatu batean existitzen da, entitate bakar batek ere kontrolatzen ez duena.",
-	"point_4_summary_1": "Eskudirua faltsutu daiteke, eta sarritan zaila da billete faltsuak ekipo espezializaturik gabe detektatzea. Segurtasun-neurriekin ere, eskudiru faltsua zirkulatzen jarraitzen du. Bitcoin-ek frogapen kriptografikoa erabiltzen du faltsifikazioa matematikoki ezinezkoa bihurtuz.",
-	"point_5_summary_1": "Eskudirua gobernuek jaulkitzen eta kontrolatzen dute, nahi adina inprimatu, diseinuak aldatu edo billete jakin batzuk baliogabetu ditzaketelarik. Bitcoin sare deszentralizatu batean funtzionatzen du, non autoritate bakar batek ere ez duen diru-eskaintzaren edo arauen gaineko kontrola.",
-	"point_6_summary_1": "Eskudirua fisikoki gorde behar da, lapurreta, galera, sutea edo konfiskazioagazpian bihurtuz. Kopuru handiek segurtasun-neurri garestiak behar dituzte.",
-	"point_6_summary_2": "Baina Bitcoin modu seguruan gorde daiteke auto-zaintzan",
-	"point_6_summary_3": "telefono mugikor aplikazio bat edo zorro espezializatu bat erabiliz, zure diruaren kontrol osoa emanez biltegiratzea fisikoko arriskurik gabe.",
-	"point_7_summary_1": "Eskudiruak gutxieneko izendapenak ditu - ezin duzu zentimo bat zati txikiagotan banatu. Bitcoin 100 milioi unitate txikiagotan zati daiteke, satoshi deitzen direnak, edozein kopuruko mikro-ordainketak eta transakzio zehatzak ahalbidetuz."
+	"point_1_summary_1": "Bitcoin mundu osoan Interneten bidez mugitzen da minutu gutxitan. Eskudirua fisikoki eskatzen du presentzia edo mezulari fidagarriak — ezin duzu billete bat posta elektronikoz bidali.",
+	"point_2_summary_1": "Bitcoinek edonon funtzionatzen du modu berean. Eskudirua geografia, truke-tasa eta onarpen lokalak mugatzen dute.",
+	"point_3_summary_1": "Gobernuek eskudirua gauetik goizera deuseztatu dezakete — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indiak</a> hori egin zuen 2016an. Baina deuseztapenik gabe ere, eskudiruak",
+	"point_3_summary_2": "inflazioaren",
+	"point_3_summary_3": "eraginez balioa galtzen du. Ezin da ezein gobernu edo botererik Bitcoin deuseztatu.",
+	"point_4_summary_1": "Eskudirua faltsutu daiteke, batzuetan modu oso sinesgarrian. Bitcoinek kriptografia erabiltzen du, faltsifikazioa matematikoki ezinezkoa bihurtuz.",
+	"point_5_summary_1": "Bitcoinek ez du botere zentralik. Eskudirua gobernuek jaulkitzen dute, eta horiek gehiago inprima dezakete, diseinuak aldatu edo billeteak kendu beren nahierara.",
+	"point_6_summary_1": "Eskudirua lapurretaren, sutearen, galeraren eta konfiskazioaren aurrean ahula da. Bitcoin ",
+	"point_6_summary_2": "norberak modu seguruan gorde",
+	"point_6_summary_3": " dezake zure telefonoan edo hardware-zorroan.",
+	"point_7_summary_1": "Bitcoin 100 milioi satoshitan zati daiteke, edozein tamainatako mikro-ordainketa ahalbidetzen du. Eskudiruak gutxieneko balio nominalak ditu — ezin duzu zentimo bat erditik moztu.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">eskudiruaren</span> arteko aldea"
 }

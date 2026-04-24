@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"how_to_accept_bitcoin_payments": "Nola onartu Bitcoin ordainketak",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Auto-ostatutua = %0 komisio",
 	"wallets_feature_online_store": "Online denda integrazioa",
 	"wallets_feature_invoicing": "Doako fakturazio softwarea",
-	"wallets_get_wallet": "LORTU ZORROA"
+	"wallets_get_wallet": "LORTU ZORROA",
+	"wallets_hero_subtitle": "Bitcoin zorroak doakoak dira. Aukeratu zure enpresarako egokiena — presentzialki, online edo faktura bidez — eta hasi Bitcoin onartzen minutu gutxitan.",
+	"wallets_section_sole": "Enpresaburu bakarrarentzako zorroak",
+	"wallets_section_sole_intro": "Denda, kafetegia, estudioa edo zerbitzua bakarrik kudeatzen baduzu, zorro hauetako edozein aproposa da zuretzat. Aukeratu Bitcoin ordainketak mantendu nahi dituzun ala ordainketa bakoitzaren zati bat automatikoki zure tokiko monetara bihurtu.",
+	"wallets_section_multiple": "Langile ugariko enpresentzako zorroak",
+	"wallets_section_multiple_intro": "Kutxan ordainketak jasotzen dituen taldea baduzu, aukeratu langile anitzen saioa onartzen duen zorroa — langile bakoitzak bere PINa izan dezan eta zeinek zein ordainketa jaso duen argi jarrai dezazun.",
+	"wallets_section_online": "Online enpresentzako zorroak",
+	"wallets_section_online_intro": "Online saltzen ari zara? Zorro hauek zure sareko dendarekin konektatzen dira eta mundu osoko bezero guztien Bitcoin ordainketak onartzen dituzte — itzulketarik gabe eta merkatari-konturik behar ez izan gabe.",
+	"wallets_section_invoice": "Bezeroei faktura egiten dieten enpresentzako zorroak",
+	"wallets_section_invoice_intro": "Bezeroei faktura egiten badiezu (aholkularitza, lan autonomoa, B2B zerbitzuak), erabili faktura-ingurunean eraikitako zorro bat. Bezeroak Bitcoin faktura ordainduko du klik gutxi batzuekin.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business-ek Bitcoin eta Lightning ordainketak kuotarik gabe eta istantaneoko likidazioekin onartzen uzten dizu. Presentziako, online eta faktura bidezko ordainketak onartzen ditu, tokiko monetara automatikoki bihurtzeko aukerarekin.",
+	"sources_square": "Square — onartu Bitcoin ordainketak",
+	"sources_breez_business": "Breez — Bitcoin soilik den Lightning zorroa",
+	"sources_opennode": "OpenNode — Bitcoin ordainketa-prozesatzailea",
+	"sources_ibex": "IBEX — Lightning ordainketen azpiegitura",
+	"sources_zaprite": "Zaprite — Bitcoin fakturazioa enpresentzat",
+	"biz_wallets_meta_description": "Bitcoin zorro guztiek elkarrekin funtzionatzen dute — aukeratu zure enpresarako egokiena. Doan, istantaneoko likidazioekin, itzulketarik gabe."
 }

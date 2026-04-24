@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Eskaera jasota 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Eskerrik asko «Hemen Bitcoin onartzen dugu» pegatina-fitxategiak zure hizkuntzan eskatzeagatik.",
+	"biz_sticker_language_success_timeline_header": "Zer gertatzen da hurrengo",
+	"biz_sticker_language_success_timeline_c1": "Zure pegatina-fitxategiak sortu eta argitaratuko ditugu 3–4 asteren barruan. Prest daudenean, gure pegatina-fitxategien orritik deskargatu ahal izango dituzu doan inprimatzeko.",
+	"biz_sticker_language_success_timeline_c2": "Pegatina-fitxategiak multzoka argitaratzen ditugu, beraz, astetxo batzuk pasa daitezke zure hizkuntza aktibatu aurretik. Eskerrik asko zure pazientziagatik!"
 }

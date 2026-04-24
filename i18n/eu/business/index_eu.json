@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin negoziorako ona da",
+	"business_hero_subtitle": "Onartu ordainketak kuota baxuagoekin, likidatu istantean eta milioika bezero berrira iritsi — kontraturik edo kostu ezkuturik gabe.",
+	"business_intro_c1": "Bitcoinek zure enpresari ordainketak jasotzeko modu azkarragoa, merkeagoa eta pribatuagoa ematen dio. Bitartekaririk ez. Itzulketarik ez. Konturaturik ez. Segundoetan likidatzen den dirua, bezerorengandik zuzenean zuretzat.",
+	"business_intro_c2": "Behean zergatik den Bitcoin ona enpresa batentzat bertsio laburra dago — eta azpian, gaur bertan hasteko behar dituzun tresna guztiak.",
 	"biz_s1": "Komisio baxuak gutxieneko gabe",
 	"biz_s1_c1": "Bitcoin-ek zure bezeroen ordainketak zuzenean jasotzeko aukera ematen dizu, eskudirua bezala. Bitcoin sarea bitartekariak gabe funtzionatzen du, hala nola bankuak eta kreditu-txartel konpainiak, komisio handiak hartzen dituztenak.",
 	"biz_s2": "Berehala ordainketa",
@@ -17,5 +20,14 @@
 	"biz_s4": "Lortu bezero gehiago",
 	"biz_s4_c1": "Milioika pertsonak dituzte Bitcoin eta haien Bitcoin gastatu nahi dute onartzen duten lekuetan.",
 	"biz_s4_c2": "Bitcoin onartuz, zure negozioa Bitcoin merkatari-mapetan zerrendatu daiteke eta Bitcoin bezero berriekiko doako esposizioa lortu.",
-	"biz_s4_c3": "Bitcoin onartzea %100 doakoa da. Ez dago kontraturik edo ezkutuko komisiorik."
+	"biz_s4_c3": "Bitcoin onartzea %100 doakoa da. Ez dago kontraturik edo ezkutuko komisiorik.",
+	"business_resources_heading": "Bitcoin onartzeko behar duzun guztia",
+	"business_resources_intro": "Zabartu baliabide hauek zure erritmoan. Bakoitza gida praktiko laburra da.",
+	"biz_label_wallets": "ZORROAK",
+	"biz_label_maps": "MERKATARIEN MAPAK",
+	"biz_label_stickers": "PEGATINAK",
+	"biz_label_rewards": "SARIAK",
+	"biz_label_accounting": "KONTABILITATEA",
+	"biz_label_faq": "MAIZ EGITEN DIREN GALDERAK",
+	"biz_meta_description": "Onartu Bitcoin zure enpresan kuota baxuagoekin, istantaneoki likidazio, itzulketarik gabe eta bezero gehiago iritsiz."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Akzioak",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "24/7 merkataritza",
 	"bitcoin_point_6": "Auto-zaintza posiblea",
 	"bitcoin_point_7": "Eskaintza finkoko aktiboa",
-	"point_1_summary_1": "Bitcoin duzunean, aktibo beraren zuzeneko jabetza duzu. Akzioak dituzunean, enpresa bateko partaidetza bat duzu, eta horrek esan nahi du zure inbertsioa enpresaren errendimenduan, kudeaketa-erabakietan eta negozio-arrakastaren menpe dagoela.",
-	"point_2_summary_1": "Bitcoin-ek 21 milioi BTC-ko muga zurrun bat du inoiz existituko den guztietan.",
-	"point_2_summary_2": "Enpresek edozein unetan akzio berriak jaulki ditzakete, lehendik dauden akziodunen jabetza-portzentajea diluituz. Horrek esan nahi du enpresaren zure zatia txikitu egiten dela akzio berriak sortzen direnean.",
-	"point_2_summary_3": "Hau fiat inflazioa baino txikiagoa da, baina oraindik ere diluzioa da.",
-	"point_3_summary_1": "Bitcoin hutsegite puntu bakarrik gabeko sare deszentralizatu batean funtzionatzen du. Akzio-inbertsioak pertsona garrantzitsuen arriskuari lotuta daude - zuzendari nagusia edo beste lider garrantzitsua alde egiten badu, gaixotzen bada edo erabaki txarrak hartzen baditu, zure inbertsioak nabarmen kaltetu dezake. Enpresak oso menpekoak dira haien zuzendaritza-taldeekiko.",
-	"point_4_summary_1": "Bitcoin-en prezioa soilik merkatuko eskaintza eta eskariaren arabera zehazten da. Akzio-prezioak sarritan P/E ratioen bidez (Prezioa-Irabaziak) ebaluatzen dira, eta horrek erakusten du inbertitzaileek zenbat ordaintzen duten enpresaren irabazi bakoitzarengatik. P/E ratio altuek akzio gehiegi baloratuak adieraz ditzakete, balio justua zehaztea zailagoa eginez.",
-	"point_5_summary_1": "Bitcoin eguneko 24 orduz, asteko 7 egunez negozia daiteke mundu osoko trukeetetan.",
+	"point_1_summary_1": "Bitcoin zuzeneko ondasuna da, guztiz jabetzen duzuna. Akzioak enpresa bateko partaidetza dira — beren balioa zuzendaritzaren, etekinaren eta zuk kontrolatu ezin dituzun erabakien araberakoa da.",
+	"point_2_summary_1": "Bitcoinek 21 milioi BTC-ko muga finkoa du. Enpresek akzio berriak jaulki ditzakete edozein unetan eta lehendik dauden akzionistak urtu — diru fiatak",
+	"point_2_summary_2": "inflazioaren",
+	"point_2_summary_3": " bidez eskudirua urtzen duen moduan. Bitcoinekin zure partea inoiz ez da txikitzen.",
+	"point_3_summary_1": "Bitcoinek ez du CEO-rik edo huts-puntu bakarrik. Akzioek zuzendaritzarekiko menpekotasun handia dute — erabaki txar batek edo pertsona giltzarriaren irteerak prezioa hondoratu dezake.",
+	"point_4_summary_1": "Bitcoinaren prezioa merkatu global irekietatik dator. Akzioen balorazioa P/E bezalako metriketan oinarritzen da, gaineko balioa duten akzioak ezkuta ditzaketenak.",
+	"point_5_summary_1": "Bitcoinek 24/7 mundu osoan merkataritza egiten du. Burtsek lanegunetan merkataritza-ordutegietan bakarrik daude irekita.",
 	"point_5_summary_2": "Bitcoin deszentralizatua da",
-	"point_6_summary_1": "Bitcoin-ekin, zure txanponen auto-zaintza har dezakezu, eta horrek esan nahi du benetan zureak direla hirugarren batean konfiantza jarri gabe.",
-	"point_6_summary_2": "Auto-zaintza aplikazio bat deskargatzea bezain sinplea da.",
-	"point_6_summary_3": "Akzioek artekari-kontu bat behar dute eta alderantziko arriskuari lotuta zaude - enpresa porrot egiten badu edo artekariak huts egiten badu, zure inbertsioa gal dezakezu.",
-	"point_7_summary_1": "Bitcoin eskaintza finkoko aktibo bat da, 21 milioi Bitcoin existituko direla inoiz muga zurrun batekin. Honek inflazioaren aurkako babes bikaina bihurtzen du. Akzioek errendimendu aldakorra dute inflazioaren aurka - enpresa batzuek ondo egiten dute inflazio-aldietan eta beste batzuek borrokatu egiten dute. Ez dago bermerik akzio jakin batek inflazioaretik babestuko zaituenik."
+	"point_6_summary_1": "Bitcoinekin",
+	"point_6_summary_2": "norberaren zaintzara",
+	"point_6_summary_3": " igaro zaitezke aplikazio sinple batekin — brokerrik behar ez dugu. Akzioak brokerretan gordetzen dira, kontrapartiaren arriskuaren aurrean jartzen zaituzte hondoratzen badira.",
+	"point_7_summary_1": "Bitcoinaren eskaintza finkoak fidagarritasunez babesten du inflazioaren aurka. Akzio batzuek inflazioa gainditzen dute, beste batzuek ez — ez dago bermerik.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">akzioen</span> arteko aldea"
 }

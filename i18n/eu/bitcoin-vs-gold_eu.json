@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Urrea",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Deszentralizatua",
 	"bitcoin_point_6": "Erraza egiaztatzeko",
 	"bitcoin_point_7": "Erraza zatitzeko",
-	"point_1_summary_1": "Bitcoin digitala denez, ia berehala bidali daiteke komisio oso baxuekin Internet konexioa duen edonork. Urrea fisikoa denez, ezin da Interneten bidez mugitu eta fisikoki bidali behar da jabetza transferitzeko.",
-	"point_2_summary_1": "Bitcoin digitalki natiboa den aktiboa da, eta horrek esan nahi du jabetza osoa Interneten bidez transferitu dezakezula. Enpresa batzuek urrea online erosteko aukera eskaintzen dute benetako urre fisikoa jaso gabe, enpresari konfiantza emanez urrea zuretzat gordetzeko. Hau IOU Digital bat bezalakoa da, aktibo errealaren ordez enpresaren promesa bat besterik ez baitaukazu.",
-	"point_3_summary_1": "Bitcoin-ek 21 Milioi BTC-ko muga zurrun bat du inoiz existituko den guztietan.",
-	"point_3_summary_2": "Urre-eskaintza berria lurretik ateratzen da urtero, guztizko eskaintzaren inflazioa eraginez. Urtero urrearen guztizko eskaintza %1.6 inguru handitzen dela kalkulatzen da, eta horrek esan nahi du zure tarta-zatia %1.6 txikitzen dela urtero.",
-	"point_3_summary_3": "Hau fiat inflazioa baino txikiagoa da, baina oraindik ere inflazioa da.",
-	"point_4_summary_1": "Urreak eskaintza elastikoa du, eta horrek esan nahi du urrearen prezioa igotzen den heinean, urre gehiago ateratzeko pizgarri handiagoa dagoela. Honek sarritan beheranzko presioa jartzen du urrearen prezioan meatzaritza berri gune berriak martxan jartzen direnean.",
+	"point_1_summary_1": "Bitcoin Interneten bidez istantean bidal daiteke kuota txikiekin. Urrea fisikoki bidali behar da jabetza transferitzeko.",
+	"point_2_summary_1": "Bitcoin natiboki ondasun digitala da, Internet bidez transferi dezakezuna. Sareko urrea bonu digitala da — gordetzailearen promesa baino ez duzu, ez metala bera.",
+	"point_3_summary_1": "Bitcoinek 21 milioi BTC-ko muga finkoa du. Urrearen eskaintza <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">% 1,6 hazten da urtero</a>, zure partea txikituz — diru fiatarena baino gutxiago",
+	"point_3_summary_2": "inflazioa",
+	"point_3_summary_3": ", baina hala ere inflazioa.",
+	"point_4_summary_1": "Urrearen prezioak igotzen direnean, urre gehiago meatzen da, prezioa berriro behera bultzatuz. Bitcoinaren eskaintza ez da elastikoa — prezioak gora egin arren, beti 21 milioi besterik ez dira egongo.",
 	"point_4_summary_2": "Bitcoin-ekin, prezioa zenbat igo den axola gabe, ezin duzu 21M Bitcoin baino gehiago egin.",
 	"point_4_summary_3": "Bitcoin prezioaren eta eskaintzaren arteko harreman inelastikoa duen lehen aktiboa da.",
-	"point_5_summary_1": "Bitcoin sarea deszentralizatua da.",
+	"point_5_summary_1": "Bitcoin sarea hamarnaka mila nodo independentek kontrolatzen dute. Urre fisikoaren zati handi bat biltegi handi batzuetan dago.",
 	"point_5_summary_2": "Hamar milaka nodo independentek sarearen arauak balioztatzen dituzte.",
-	"point_6_summary_1": "Bitcoin-ekin, izugarri erraza da benetako Bitcoin duzula egiaztatzea zure txanponen auto-zaintza hartuz eta nodo osoa exekutatuz.",
+	"point_6_summary_1": "Edonork egiazta dezake benetako Bitcoin nodo osoa exekutatuz — aplikazio bat da besterik ez. Urre fisikoa egiaztatzeko urtu egin behar da; barruan tungstenoa egon daiteke.",
 	"point_6_summary_2": "Auto-zaintza aplikazio bat deskargatzea bezain sinplea da.",
 	"point_6_summary_3": "Nodo oso bat sarearen arauak betetzen direla bermatzen duen software sinple bat da, eta benetako Bitcoin duzula egiaztatzen du.",
-	"point_7_summary_1": "Dolar 1ean 100 zentimo dauden bezala, Bitcoin 1ean 100.000.000 sat daude. Honek Bitcoin-ek erosketa-eskala guztietarako erabiltzeko aukera ematen du, zentimo gutxi batzuen mikro-transakzioak barne.",
-	"point_7_summary_2": "Honek Bitcoin negoziorako ona bihurtzen du."
+	"point_7_summary_1": "Bitcoin 100 milioi satoshitan zati daiteke, edozein tamainatako erosketetarako ezin hobea dena. Urrea ezin da erraz zatitu transakzio txikiagoetarako.",
+	"point_7_summary_2": "Honek Bitcoin negoziorako ona bihurtzen du.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">urrearen</span> arteko aldea"
 }
