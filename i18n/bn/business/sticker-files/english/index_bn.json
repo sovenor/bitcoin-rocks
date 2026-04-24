@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "ইংরেজি 'Bitcoin এখানে গ্রহণ করা হয়' স্টিকার ফাইল",
-	"english_biz_sticker_files_description": "আপনার নিজের Bitcoin এখানে গ্রহণ করা হয় স্টিকার প্রিন্ট করতে ইংরেজি স্টিকার ফাইল ডাউনলোড করুন।"
+	"english_biz_sticker_files_description": "আপনার নিজস্ব \"আমরা Bitcoin গ্রহণ করি\" স্টিকার প্রিন্ট করতে ইংরেজিতে স্টিকার ফাইল ডাউনলোড করুন।",
+	"biz_stickers_english_hero_title": "ইংরেজিতে \"আমরা Bitcoin গ্রহণ করি\" স্টিকার ফাইল ডাউনলোড করুন",
+	"biz_stickers_english_hero_subtitle": "আপনার গ্রাহকদের জানাতে ইংরেজিতে আপনার নিজস্ব \"আমরা Bitcoin গ্রহণ করি\" স্টিকার প্রিন্ট করুন যে আপনি Bitcoin গ্রহণ করেন।"
 }

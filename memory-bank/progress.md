@@ -1,3 +1,13 @@
+## i18n cleanup Step 5 — Bengali (bn) manifest refresh — 2026-04-23
+
+**Counter:** 6/54 languages complete against the V2 manifest.
+
+Sixth locale (af, am, ar, az, bg, bn) — first **Bengali-script (Bangla / Eastern Nagari)** locale, targeting ~300M speakers across Bangladesh and West Bengal. 1,024 entries flagged (464 missing, 10 untranslated, 162 manifest-changed, 388 manifest-added) → 0 flagged after three helper scripts under `scripts/bn-manifest-refresh/` (`translate-inflation.js` + `translate-rest-part1.js` + `translate-rest-part2.js`) + `fix-remaining.js` for the 10 `common_stickers_dimensions_*` measurement strings (English "cm"/"in" → Bengali "সেমি"/"ইঞ্চি" with Bengali digits). All 4 verify-language.js checks PASS on first apply. `npm run build` clean across 55 locales × 81 pages (~4,349 static pages). Marker at `scripts/i18n-audit/v2-refresh-status/bn.json` pins manifestVersion `75d5ff1151d50651...`. Report archived to `scripts/i18n-audit/reports/applied/bn-20260424-010601.json`.
+
+Bengali uses its own digit script (০১২৩৪৫৬৭৮৯). Used Bengali digits in body text + stats ("২১ মিলিয়ন", "১.৪২%", "৪ বছর") while keeping Western digits in brand-adjacent contexts (URLs, 21,000,000 parenthetical, "2008" whitepaper year, "B2B"). The CURRENCY table uses a long form with locative case ending (`"মার্কিন ডলারে"` = "in US dollars") vs. nominative labels (`"মার্কিন ডলার"`) — Bengali grammar needs locative for "save in X" constructions.
+
+---
+
 ## i18n cleanup Step 5 — Bulgarian (bg) manifest refresh — 2026-04-23
 
 **Counter:** 5/54 languages complete against the V2 manifest.

@@ -1,3 +1,41 @@
+## Bengali (bn) manifest refresh — April 23, 2026
+
+Ran `/translate-manifest-refresh Bengali` end-to-end. Sixth locale through the manifest-driven refresh pipeline, and the first **Bengali-script (Bangla / Eastern Nagari)** locale — targeting a massive ~300M-speaker audience across Bangladesh and West Bengal. Numerals rendered in Bengali digits (০১২৩৪৫৬৭৮৯).
+
+**Report stats:**
+- Total English keys scanned: 1,848
+- Missing: 464 (locale-specific — `bn` carried the full manifest-era backlog, same volume as `af`, `am`, `ar`, `az`, `bg`)
+- Untranslated: 10 (all `common::common_stickers_dimensions_*` — sticker size strings with raw English "cm" / "in" units)
+- Manifest changed: 162 (same for every locale)
+- Manifest added: 388 (same for every locale)
+- → **1,024 entries flagged**
+
+**Work split (four helper scripts under `scripts/bn-manifest-refresh/`):**
+
+1. **`translate-inflation.js`** (368 entries). Templated `t(code, suffix)` function × 13 currencies generates 327 per-currency keys + 41 non-currency keys. The `CURRENCY` table uses Bengali script for noun/plural (টাকা/টাকা, ডলার/ডলার, রুপি/রুপি, ইয়েন/ইয়েন etc.) plus a long form with locative case ending (`"মার্কিন ডলারে"` = "in US dollars") for sentences that grammatically need it vs. nominative labels (`"মার্কিন ডলার"`). All 13 currencies translated into Bengali script including country names (যুক্তরাজ্য = UK, ইসরায়েল, ভারত, জাপান, মেক্সিকো, নিউজিল্যান্ড, ফিলিপাইন, থাইল্যান্ড, কানাডা, ব্রাজিল, অস্ট্রেলিয়া). Stories for কানাডা / নাইজেরিয়া / পেনসিলভানিয়া / টেক্সাস translated. 5 manifest-changed inflation hero keys handled. Brand/technical terms (Bitcoin, FRED, CPI, BTC, EndSARS, whitepaper, M1) kept in Latin script per allow-list. Number "২১ মিলিয়ন" uses Bengali digits.
+
+2. **`translate-rest-part1.js`** (193 entries). 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages. Brand names (Silicon Valley Bank, FRED, FDIC, SVB, ETF, BTC, CBDC, Visa, EndSARS, University of Washington School of Law) preserved verbatim inside Bengali prose. Bengali-specific digits for numeric values (২৬ মার্চ ২০২০, ১৫৩.৯ বিলিয়ন, ১০.৮২ ট্রিলিয়ন, ১.৪২%). Hindi/Sanskrit-origin financial terms used throughout (ব্যাংক, রিজার্ভ, মুদ্রাস্ফীতি, সঞ্চয়, ঋণ, কেন্দ্রীয় ব্যাংক, পেমেন্ট, লেনদেন, বন্ড, শেয়ার, স্টক).
+
+3. **`translate-rest-part2.js`** (453 entries). Everything else — business/* (153 entries: accounting/faq/index/maps/maps-success/sticker-files/english/index/sticker-language-success/sticker-success/stickers/wallets/why), buy (20), common (50), compound-inflation-calculator (8), flyers (5), get-involved (26), index homepage (62 `home_card_label_*` + nav entries), lightning (11), nostr/index (45), sticker-files/index (1), sticker-language-success (1), sticker-success (7), stickers (36), wallets (11).
+
+4. **`fix-remaining.js`** — 10 `untranslated` sticker-dimension strings (e.g. `"21.59 cm x 4.6482 cm (8.5 in x 1.83 in)"`). These had been kept byte-identical to English when the common_bn.json was generated. Translated with Bengali digits (২১.৫৯ সেমি x ৪.৬৪৮২ সেমি (৮.৫ ইঞ্চি x ১.৮৩ ইঞ্চি)), matching the pattern used by `az` (Latin-with-Azerbaijani-units), `ar` (Arabic script with ×), and `bg` (Cyrillic with see "см"/"инча").
+
+**Application:**
+- `node scripts/i18n-audit/apply-translations.js bn` wrote **1,024 keys across 38 files**.
+- Marker written at `scripts/i18n-audit/v2-refresh-status/bn.json` pinning manifestVersion `75d5ff1151d50651...`.
+- All 4 verification checks passed: marker ✅, locale-specific ✅, manifest coverage ✅, stale pre-V2 English ✅.
+- Report archived to `scripts/i18n-audit/reports/applied/bn-20260424-010601.json`.
+
+**Edge cases / lessons:**
+
+- **Sticker-dimension strings as untranslated vs. manifest-added.** Unlike `bg` (whose 4 untranslated were business/why section headers — copy that had been authored) or `ar` (which didn't have any untranslated), Bengali's 10 untranslated entries were all measurement strings — cm/in values that had been left in English. These are similar to the allow-listed dimension strings in many locales, but Bengali's `common_bn.json` kept the full English text rather than localizing the units. Translation swaps "cm"→"সেমি" and "in"→"ইঞ্চি" while keeping the numeric values as Bengali digits.
+- **Digit script choice.** Bengali has its own digit forms (০১২৩৪৫৬৭৮৯). Used Bengali digits in body text / stats (e.g. "২১ মিলিয়ন", "১.৪২%", "৪ বছর") and parenthesized labels; kept Western digits in brand-adjacent contexts (URLs, code refs, `21,000,000` in the numeric parenthetical, `2008` in Satoshi whitepaper year, `B2B`). Currency codes (USD, EUR) stay Latin.
+- **All 4,349 static pages built cleanly** — zero MISSING_MESSAGE errors, zero "Unable to load message" warnings.
+
+**Next locale candidates (Tier 1 global-reach):** `de` (German), `es` (Spanish), `fr` (French), `pt` (Portuguese), `zh` (Chinese), `ja` (Japanese), `ru` (Russian), `hi` (Hindi, continues South Asian coverage from `bn`).
+
+---
+
 ## Bulgarian (bg) manifest refresh — April 23, 2026
 
 Ran `/translate-manifest-refresh Bulgarian` end-to-end. Fifth locale through the manifest-driven refresh pipeline, and the first Cyrillic-script locale (different from Amharic's Ge'ez abugida and Arabic's RTL Arabic script).

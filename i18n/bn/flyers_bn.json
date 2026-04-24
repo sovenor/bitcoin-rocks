@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks থেকে বিনামূল্যে Bitcoin ফ্লায়ার",
 	"flyers_description": "বাড়িতে একটি Bitcoin ফ্লায়ার প্রিন্ট করুন এবং আপনার চারপাশের মানুষদের অরেঞ্জ পিল করতে জনসমক্ষে লাগান।",
-	"flyers_intro_header": "কিভাবে এই BITCOIN ফ্লায়ার প্রিন্ট করুন ও পোস্ট করুন",
+	"flyers_hero_title": "Bitcoin লিফলেট প্রিন্ট এবং বিতরণ করুন",
+	"flyers_hero_subtitle": "বিনামূল্যে, মুদ্রণযোগ্য Bitcoin লিফলেট। আরও মানুষকে Bitcoin সম্পর্কে জানতে সাহায্য করতে এগুলি সর্বজনীন স্থানে রাখুন।",
+	"flyers_intro_header": "এই Bitcoin লিফলেটগুলি কীভাবে প্রিন্ট এবং বিতরণ করবেন",
 	"flyers_intro_c1": "আমাদের লক্ষ্য হলো জনসমক্ষে Bitcoin ফ্লায়ার লাগিয়ে আরও বেশি মানুষকে অরেঞ্জ পিল করতে আপনাকে সাহায্য করা। এই ফ্লায়ারে একটি QR কোড আছে যা আমাদের",
 	"flyers_intro_c2": "শিক্ষামূলক Bitcoin ওয়েবসাইটে লিংক করে।",
 	"flyers_intro_c4": "বাড়িতে বা প্রিন্ট শপে এই ফ্লায়ার প্রিন্ট করুন। তারপর, শহরের বুলেটিন বোর্ড, টেলিফোন পোল এবং অন্যান্য জনসমক্ষের জায়গায় পোস্ট করুন যেখানে মানুষ এটি দেখতে পারে এবং Bitcoin সম্পর্কে শিখতে পারে।",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "আপনার ফ্লায়ার স্পট শেয়ার করুন",
 	"flyers_share_c1": "Nostr-এ আমাদের সাথে আপনার ফ্লায়ার স্পট শেয়ার করুন এবং অন্যরা কোথায় তাদের ফ্লায়ার লাগাচ্ছে দেখুন।",
 	"flyers_btn_share_on_nostr": "NOSTR-এ শেয়ার করুন",
-	"flyers_btn_what_is_nostr": "NOSTR কী?"
+	"flyers_btn_what_is_nostr": "NOSTR কী?",
+	"flyers_next_get_stickers": "কথা ছড়িয়ে দিন",
+	"flyers_next_get_stickers_desc": "বিনামূল্যে Bitcoin স্টিকারের একটি প্যাকের অর্ডার করুন"
 }

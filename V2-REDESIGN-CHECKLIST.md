@@ -296,7 +296,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [x] `ar` — Arabic (2026-04-23; 1,014 entries → 0 flagged. First locale refreshed after the manifest-driven refresh workflow was formalized (`.clinerules/workflows/manifest-translate-refresh.md`). Report broken into 3 helper scripts under `scripts/ar-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via a templated function covering intro/proof/btc/freedom/stat suffixes, plus 41 non-currency keys including freedom cards, stories, sources, and 5 manifest-changed hero/intro keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages, with RTL-safe arrow characters and brand names like Silicon Valley Bank, FRED, FDIC preserved verbatim), and `translate-rest-part2.js` (453 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets). All 4 verification checks passed on first apply — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 4,349 static pages. Arabic is RTL — the `<html dir="rtl">` wrapper from `app/[locale]/layout.tsx` handles layout automatically; no per-component changes needed.)
 - [x] `az` — Azerbaijani
 - [x] `bg` — Bulgarian
-- [ ] `bn` — Bengali
+- [x] `bn` — Bengali
 - [ ] `ca` — Catalan
 - [ ] `cs` — Czech
 - [ ] `da` — Danish
@@ -387,7 +387,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 5 |
+| Per-language re-translation (Step 5) | 54 | 6 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

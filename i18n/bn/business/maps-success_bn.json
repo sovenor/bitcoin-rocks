@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
-	}
+	},
+	"biz_maps_success_hero_title": "অনুরোধ গ্রহণ করা হয়েছে 🎉",
+	"biz_maps_success_hero_subtitle": "আপনার ব্যবসা জমা দেওয়ার জন্য ধন্যবাদ। আমরা শীঘ্রই আপনাকে Bitcoin বণিক মানচিত্রে যুক্ত করব।",
+	"biz_maps_success_timeline_header": "পরবর্তী কী",
+	"biz_maps_success_timeline_c1": "আপনার ব্যবসা ১-২ সপ্তাহের মধ্যে BTC Map এবং অন্যান্য Bitcoin বণিক ডিরেক্টরিগুলিতে তালিকাভুক্ত হবে। প্রতিটি অনুরোধ মানচিত্রগুলি সঠিক রাখতে ম্যানুয়ালি পর্যালোচনা করা হয়।",
+	"biz_maps_success_timeline_c2": "আপনার তালিকা লাইভ হয়ে গেলে, কাছাকাছি Bitcoin ব্যবহারকারীরা আপনার ব্যবসা খুঁজে পেতে পারে এবং Bitcoin খরচ করতে আসতে পারে।",
+	"biz_maps_success_view_header": "আপনি কোথায় উপস্থিত হবেন তা দেখুন",
+	"biz_maps_success_view_c1": "আপনি অপেক্ষা করার সময়, BTC Map ঘুরে দেখুন এবং Bitcoin গ্রহণকারী বিশ্বব্যাপী ক্রমবর্ধমান ব্যবসার নেটওয়ার্ক দেখুন।",
+	"biz_maps_success_btn_view_map": "BTC Map দেখুন"
 }

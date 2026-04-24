@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
 	"cic_header": "চক্রবৃদ্ধি মুদ্রাস্ফীতি ক্যালকুলেটর",
 	"cic_description": "মুদ্রাস্ফীতির সাথে তাল মিলিয়ে চলতে আপনার বেতন কতটা বাড়াতে হবে তা জানতে এই চক্রবৃদ্ধি মুদ্রাস্ফীতি ক্যালকুলেটর ব্যবহার করুন।",
-	"cic_inflation_cta": "Bitcoin দিয়ে মুদ্রাস্ফীতি থেকে বেরিয়ে আসুন"
+	"cic_hero_subtitle": "মুদ্রাস্ফীতির সাথে তাল মিলিয়ে চলতে আপনার বেতন কতটা বাড়াতে হবে দেখুন।",
+	"cic_calculator_heading": "আপনার মুদ্রাস্ফীতির ফাঁক গণনা করুন",
+	"cic_cta_label": "পরবর্তী ধাপ",
+	"cic_inflation_cta": "Bitcoin দিয়ে মুদ্রাস্ফীতি থেকে বেরিয়ে আসুন",
+	"cic_next_learn_inflation": "মুদ্রাস্ফীতি কীভাবে কাজ করে তা শিখুন",
+	"cic_next_explore_topics": "আরও বিষয় অন্বেষণ করুন",
+	"cic_next_explore_topics_desc": "Bitcoin কীভাবে অর্থ, স্বাধীনতা, শক্তি এবং আরও কিছুর সাথে সম্পর্কিত দেখুন।",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — সমস্ত শহুরে ভোক্তাদের জন্য ভোক্তা মূল্য সূচক",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 অর্থ সরবরাহ"
 }

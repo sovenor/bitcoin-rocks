@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
-	}
+	},
+	"biz_sticker_success_hero_title": "আপনার স্টিকার পথে 🎉",
+	"biz_sticker_success_hero_subtitle": "আপনি ২-৪ সপ্তাহের মধ্যে আপনার বিনামূল্যে \"আমরা Bitcoin গ্রহণ করি\" স্টিকার পাবেন, ভিতরে ৩টি স্টিকার সহ একটি সাধারণ সাদা খামে।",
+	"biz_sticker_success_tips_header": "আপনার স্টিকার লাগানোর জন্য ভাল জায়গা",
+	"biz_sticker_success_tip_1": "আপনার সামনের দরজা বা জানালায়, যাতে গ্রাহকরা প্রবেশের আগে দেখতে পারে",
+	"biz_sticker_success_tip_2": "চেকআউট, বিক্রয়ের পয়েন্ট বা পেমেন্ট এলাকার কাছে",
+	"biz_sticker_success_tip_3": "মেনু, মূল্য তালিকা বা টিপ জারে",
+	"biz_sticker_success_tip_4": "এমন জায়গায় স্টিক করবেন না যা আপনার মালিকানাধীন নয় বা পোস্ট করার অনুমতি নেই",
+	"biz_sticker_success_more_header": "আরও স্টিকার প্রয়োজন?",
+	"biz_sticker_success_more_c1": "৩টি স্টিকার আপনার ব্যবসার জন্য যথেষ্ট না হলে, নিঃসন্দেহে আরেকটি বিনামূল্যে প্যাকের অনুরোধ করুন — অথবা আমরা যে একই প্রিন্ট শপ ব্যবহার করি সেখান থেকে বাল্ক অর্ডার করুন।",
+	"biz_sticker_success_btn_order_bulk": "বাল্ক অর্ডার",
+	"biz_sticker_success_btn_request_more": "আরও একটি বিনামূল্যে প্যাকের অনুরোধ করুন"
 }
