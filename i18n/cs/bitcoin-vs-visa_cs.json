@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Nevytváří dluh",
 	"bitcoin_point_6": "Možnost vlastní správy",
 	"bitcoin_point_7": "Globální přístup 24/7",
-	"point_1_summary_1": "Bitcoin je otevřená síť, ke které se kdokoli může připojit a používat ji bez povolení. Sítě kreditních karet jako Visa jsou uzavřené systémy kontrolované finančními institucemi, které mohou odmítnout přístup komukoli.",
+	"point_1_summary_1": "Bitcoin je otevřená síť, ke které se může kdokoli připojit bez povolení. Visa je uzavřený systém kontrolovaný finančními institucemi, které mohou odepřít přístup — zejména lidem bez bankovního účtu či s omezeným přístupem k bankovním službám.",
 	"point_1_summary_2": "To činí Bitcoin inkluzivnějším a přístupnějším pro lidi po celém světě, zejména pro ty, kteří nemají přístup k bankovním službám.",
-	"point_2_summary_1": "Bitcoinové transakce nemají žádné poplatky pro obchodníky, zatímco společnosti kreditních karet obvykle účtují obchodníkům kolem 3 % za transakci.",
-	"point_2_summary_2": "Zjistěte, jak může vaše firma ušetřit peníze",
-	"point_2_summary_3": "přijímáním bitcoinových plateb místo placení poplatků za zpracování kreditních karet.",
-	"point_3_summary_1": "Bitcoin funguje na transparentním blockchainu, kde všechny transakce může ověřit kdokoli. Sítě kreditních karet fungují jako uzavřené, proprietární systémy, kde jsou detaily transakcí skryty před veřejností.",
+	"point_2_summary_1": "Transakce Bitcoinu nemají žádné obchodnické poplatky. Visa obvykle účtuje obchodníkům kolem 3 % za transakci — vaše firma může ušetřit peníze přijímáním",
+	"point_2_summary_2": "plateb v Bitcoinu",
+	"point_2_summary_3": ".",
+	"point_3_summary_1": "Každá transakce Bitcoinu je na veřejném, ověřitelném blockchainu. Visa provozuje uzavřený, proprietární systém, kde zákazníci nemohou nic nezávisle ověřit.",
 	"point_3_summary_2": "Tato transparentnost činí Bitcoin důvěryhodnějším a umožňuje nezávislé ověření integrity sítě.",
-	"point_4_summary_1": "Společnosti kreditních karet mohou kdykoli zmrazit účty, blokovat transakce nebo odmítnout službu. Bitcoin nemůže být zmrazen ani kontrolován žádnou centrální autoritou.",
+	"point_4_summary_1": "Bitcoin nemůže zmrazit žádná centrální autorita. Visa může kdykoli zmrazit účty, blokovat transakce nebo odepřít službu.",
 	"point_4_summary_2": "S Bitcoinem si udržujete kontrolu nad svými penězi a nemůžete být odříznuti od platebního systému.",
-	"point_5_summary_1": "Kreditní karty vytvářejí dluh, který se může rychle hromadit s vysokými úrokovými sazbami, někdy přesahujícími 25 % ročně.",
+	"point_5_summary_1": "Bitcoin je definitivní vypořádání — utratíte jen to, co vlastníte. Kreditní karty vytvářejí dluh s úroky často přes 25 % ročně.",
 	"point_5_summary_2": "Bitcoinové transakce jsou konečná vypořádání bez vytváření dluhu - můžete utratit pouze Bitcoin, který skutečně vlastníte.",
-	"point_6_summary_1": "Bitcoin umožňuje vlastní správu, což znamená, že můžete držet a kontrolovat své vlastní peníze bez závislosti na bankách nebo platebních zpracovatelích.",
-	"point_6_summary_2": "Zjistěte více o bitcoinových peněženkách",
-	"point_6_summary_3": "abyste pochopili, jak můžete převzít kontrolu nad svými penězi. Kreditní karty vždy vyžadují prostředníky jako banky a platební zpracovatele.",
-	"point_7_summary_1": "Bitcoin funguje globálně 24/7 bez obchodních hodin nebo geografických omezení.",
-	"point_7_summary_2": "Sítě kreditních karet mají obchodní hodiny, období údržby a geografická omezení, která mohou bránit zpracování transakcí."
+	"point_6_summary_1": "Bitcoin vám umožní přejít do",
+	"point_6_summary_2": "samoúschovy",
+	"point_6_summary_3": " bez potřeby banky nebo platebního zpracovatele. Kreditní karty vždy vyžadují prostředníky.",
+	"point_7_summary_1": "Bitcoin funguje 24/7 globálně bez obchodních hodin. Visa má provozní dobu, okna pro údržbu a zeměpisná omezení, která mohou blokovat transakce.",
+	"point_7_summary_2": "Sítě kreditních karet mají obchodní hodiny, období údržby a geografická omezení, která mohou bránit zpracování transakcí.",
+	"hero_title": "Rozdíl mezi <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">Visa</span>"
 }

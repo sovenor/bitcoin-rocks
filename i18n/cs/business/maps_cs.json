@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mapy bitcoinových obchodníků - Zdarma zápis vaší firmy",
-	"maps_view": "Zobrazit mapu zde."
+	"maps_view": "Zobrazit mapu zde.",
+	"biz_maps_hero_title": "Umístěte svou firmu na mapy Bitcoin obchodníků",
+	"biz_maps_hero_subtitle": "Zapište svou firmu zdarma na BTC Map — otevřený celosvětový adresář obchodníků přijímajících Bitcoin — aby vás Bitcoineři ve vašem okolí našli a mohli u vás utratit Bitcoin.",
+	"biz_maps_intro_c1": "Bitcoineři aktivně hledají místa, kde utratit. Když bude vaše firma na mapě, ukážete se každému Bitcoin uživateli, který v okolí hledá, kde se najíst, nakoupit nebo přespat — zcela zdarma.",
+	"biz_maps_intro_c2": "Stačí vyplnit krátký formulář níže a my vaši firmu odešleme na BTC Map a další mapy Bitcoin obchodníků.",
+	"biz_maps_view_map_cta": "Zobrazit BTC Map",
+	"biz_maps_form_header": "Řekněte nám o své firmě",
+	"biz_maps_form_intro": "Potřebujeme jen pár údajů, abychom vás zapsali. Údaje o adrese uchováváme jen po dobu nezbytnou k odeslání vaší firmy do map.",
+	"biz_maps_placeholder_name": "Název firmy",
+	"biz_maps_placeholder_category": "Kategorie (např. restaurace, kavárna, hotel)",
+	"biz_maps_placeholder_address": "Ulice a číslo popisné",
+	"biz_maps_placeholder_city": "Město",
+	"biz_maps_placeholder_region": "Kraj / region / oblast",
+	"biz_maps_placeholder_country": "Země",
+	"biz_maps_placeholder_website": "Webové stránky (nepovinné)",
+	"biz_maps_meta_description": "Zapište svou firmu zdarma na BTC Map a další mapy Bitcoin obchodníků, aby vás Bitcoineři ve vašem okolí našli."
 }

@@ -300,7 +300,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 - [x] `bg` — Bulgarian (+ 2026-04-24 delta refresh: 13 changed + 4 added via `scripts/delta-refresh-2026-04-24/apply-delta.js`; marker re-pinned to `d966f8c780c0c485...`)
 - [x] `bn` — Bengali (+ 2026-04-24 delta refresh: 13 changed + 4 added via `scripts/delta-refresh-2026-04-24/apply-delta.js`; marker re-pinned to `d966f8c780c0c485...`)
 - [x] `ca` — Catalan (2026-04-23; 1,016 entries → 0 flagged. Report broken into 4 helper scripts under `scripts/ca-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via templated function + 41 non-currency keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages), `translate-rest-part2.js` (453 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (2 untranslated keys: `common_stickers_dimensions` → "Mides:" and `common_stickers_material` → "Material de l'adhesiu:" — both spelled identically to English in standard Catalan, so needed locale-distinct rewording). All 4 verification checks passed on first apply — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 4,349 static pages.)
-- [ ] `cs` — Czech
+- [x] `cs` — Czech (2026-04-24; 1,023 entries → 0 flagged. Report broken into 4 helper scripts under `scripts/cs-manifest-refresh/`: `translate-inflation.js` (368 entries — 327 per-currency × 13 currencies via templated function covering intro/proof/btc/freedom/stat suffixes with Czech-specific noun cases like `longNameGen` and `longName` locative plural + 41 non-currency keys including freedom cards, stories, sources, and 5 manifest-changed hero/intro keys), `translate-rest-part1.js` (194 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages with brand names like Silicon Valley Bank, FRED, FDIC preserved verbatim), `translate-rest-part2.js` (461 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (1 untranslated key: `buy_platform_feature_p2p` → "Peer-to-peer (mezi uživateli)" — parenthetical gloss so Czech value is byte-distinct from English). All 4 verification checks passed after fix-remaining — marker, locale-specific coverage, manifest coverage, stale English cross-check. `npm run build` clean across 4,349 static pages.)
 - [ ] `da` — Danish
 - [ ] `de` — German
 - [ ] `el` — Greek
@@ -389,7 +389,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 | English JSON formatting normalization (Step 3) | 4 | 4 |
 | Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
 | Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
-| Per-language re-translation (Step 5) | 54 | 7 |
+| Per-language re-translation (Step 5) | 54 | 8 |
 | Verification & cleanup (Step 6) | 7 | 0 |
 
 

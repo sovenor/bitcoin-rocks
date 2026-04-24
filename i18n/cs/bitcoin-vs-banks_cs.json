@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banky",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Předvídatelné, nízké poplatky",
 	"bitcoin_point_6": "Nelze přečerpat",
 	"bitcoin_point_7": "Odolný vůči cenzuře",
-	"point_1_summary_1": "Bitcoin je bez povolení, což znamená, že ho může používat kdokoli s přístupem k internetu, aniž by žádal o souhlas jakékoli autority.",
-	"point_1_summary_2": "Bitcoin funguje bez strážců",
-	"point_1_summary_3": "- nikdo vám nemůže odmítnout přístup. Banky však mohou odmítnout otevřít účty, zmrazit stávající účty nebo odmítnout služby na základě svých pravidel nebo vládních nařízení.",
-	"point_2_summary_1": "Bitcoinová síť funguje 24 hodin denně, 7 dní v týdnu, 365 dní v roce bez výpadků na údržbu nebo svátků. Banky mají omezené provozní hodiny, o víkendech a svátcích jsou zavřené a často mají období údržby systému, kdy služby nejsou dostupné.",
-	"point_3_summary_1": "Všechny bitcoinové transakce jsou zaznamenány na veřejném blockchainu, který může kdokoli ověřit a auditovat.",
+	"point_1_summary_1": "Bitcoin může používat kdokoli s připojením k internetu — je ",
+	"point_1_summary_2": "bez povolení.",
+	"point_1_summary_3": "Banky mohou odmítat, zmrazovat nebo rušit účty na základě svých pravidel nebo vládních předpisů.",
+	"point_2_summary_1": "Síť Bitcoin běží 24/7/365 bez oken pro údržbu či svátků. Banky mají omezenou otevírací dobu, víkendy zavřené a výpadky.",
+	"point_3_summary_1": "Každá transakce Bitcoinu je na veřejném blockchainu, který si může kdokoli ověřit. Banky vedou soukromé účetní knihy, které zákazníci nemohou nezávisle prověřit.",
 	"point_3_summary_2": "Banky fungují se soukromými účetními knihami a neprůhlednými interními procesy, které zákazníci nemohou nezávisle ověřit.",
-	"point_4_summary_1": "S Bitcoinem si můžete držet vlastní soukromé klíče a mít plnou kontrolu nad svými penězi.",
-	"point_4_summary_2": "Zjistěte více o bitcoinových peněženkách",
-	"point_4_summary_3": "abyste porozuměli vlastní správě. Banky drží vaše peníze na svých účtech a mohou zmrazit, omezit nebo zakázat přístup k vašim prostředkům kdykoli.",
-	"point_5_summary_1": "Bitcoinové transakční poplatky jsou transparentní, předvídatelné a obvykle velmi nízké. Banky mají často skryté poplatky, měsíční poplatky za účet, poplatky za přečerpání, poplatky za převod, poplatky za bankomat a další pokuty, které se mohou v průběhu času výrazně sčítat.",
-	"point_6_summary_1": "Bitcoin vám brání utrácet peníze, které nemáte - můžete utratit pouze Bitcoin, který skutečně vlastníte. Banky umožňují přečerpání (utracení více, než je zůstatek na vašem účtu) a poté si účtují značné poplatky za tuto 'službu', což často vede ke kaskádovým pokutám.",
-	"point_7_summary_1": "Bitcoinové transakce jsou odolné vůči cenzuře - jakmile jsou odeslány do sítě, nemohou být zastaveny nebo zvráceny žádnou centrální autoritou. Banky mohou blokovat, zmrazit, zrušit nebo omezit transakce na základě svých pravidel, vládních příkazů nebo algoritmů podezřelé aktivity."
+	"point_4_summary_1": "U Bitcoinu držíte své soukromé klíče sami — podívejte se na našeho jednoduchého průvodce ",
+	"point_4_summary_2": "Bitcoin peněženkami",
+	"point_4_summary_3": ". Banky drží vaše peníze a mohou je kdykoli zmrazit, omezit nebo zablokovat.",
+	"point_5_summary_1": "Poplatky u Bitcoinu jsou transparentní a předvídatelné. Banky postupně nabalují skryté poplatky za účty, přečerpání, převody a bankomaty.",
+	"point_6_summary_1": "Bitcoin vám umožní utratit jen to, co skutečně vlastníte. Banky povolí přečerpání a pak vám za to účtují řetězové sankční poplatky.",
+	"point_7_summary_1": "Jakmile jsou odeslány, transakce Bitcoinu nelze zastavit ani vrátit. Banky mohou blokovat, zmrazovat nebo rušit transakce na základě pravidel nebo vládních příkazů.",
+	"hero_title": "Rozdíl mezi <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">bankami</span>"
 }

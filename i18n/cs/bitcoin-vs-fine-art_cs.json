@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Umění",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kryptograficky ověřitelný",
 	"bitcoin_point_6": "Obtížně zničitelný",
 	"bitcoin_point_7": "Přístupný každému",
-	"point_1_summary_1": "Bitcoin je dokonale zaměnitelný, což znamená, že každý bitcoin je identický a vzájemně zaměnitelný - jeden bitcoin se rovná jednomu bitcoinu kdekoli na světě. Umění je ze své podstaty nezaměnitelné, přičemž každé dílo je unikátní svým vytvořením, historií, stavem a proveniencí, což činí přímá srovnání a ocenění extrémně obtížnými.",
-	"point_2_summary_1": "Bitcoin se obchoduje na globálním trhu 24/7, kde kdokoli s přístupem k internetu může okamžitě kupovat nebo prodávat. Umění vyžaduje specializované aukční domy jako Sotheby's nebo Christie's, soukromé dealery nebo exkluzivní galerie. Prodej může trvat měsíce a přístup na trh je omezený.",
-	"point_3_summary_1": "Nákup nebo prodej bitcoinu stojí obvykle méně než 1 % na poplatcích, často mnohem méně. Prodej umění zahrnuje značné náklady včetně prémie kupujícího (10-25 %), provize prodávajícího (10-15 %), pojištění, přepravy, skladování a poplatků za autentifikaci. Tyto kombinované náklady mohou snadno přesáhnout 30-40 % hodnoty díla v jediné transakci.",
-	"point_4_summary_1": "Bitcoin lze rozdělit na 100 milionů menších jednotek nazývaných satoshi, což ho činí ideálním pro transakce jakékoli velikosti. Umění nelze rozdělit - nemůžete vlastnit zlomek obrazu nebo prodat jen část sochy. Tato nedělitelnost omezuje investiční flexibilitu.",
-	"point_5_summary_1": "Vlastnictví a autentičnost Bitcoinu lze kryptograficky ověřit na blockchainu kýmkoli se základními technickými znalostmi. Umění vyžaduje nákladnou odbornou autentifikaci, výzkum provenance a vědeckou analýzu. I přes odborné ověření padělky pravidelně klamou svět umění. Bitcoin naopak nelze padělat.",
-	"point_6_summary_1": "Bitcoin, pokud je správně zálohován, nemůže být zničen povodněmi, požáry, zemětřeseními, hurikány, krádeží ani jinými katastrofami. Umění je zranitelné vůči všem formám fyzického zničení a degradace.",
-	"point_7_summary_1": "Bitcoin může kupovat a prodávat kdokoli s přístupem k internetu a malou částkou peněz k investování. Investice do umění je do značné míry omezena na bohaté sběratele kvůli vysokým minimálním cenám, exkluzivnímu přístupu na aukce, požadavkům na skladování, nákladům na pojištění a specializovaným znalostem."
+	"point_1_summary_1": "Každý bitcoin je identický a zaměnitelný. Každé umělecké dílo je jedinečné — jiný vznik, historie, stav a provenience činí přímé srovnání extrémně obtížným.",
+	"point_2_summary_1": "Bitcoin se obchoduje 24/7 na globálním trhu dostupném komukoli. Výtvarné umění vyžaduje specializované aukční domy, soukromé obchodníky nebo galerie a prodej může trvat měsíce.",
+	"point_3_summary_1": "Nákup nebo prodej Bitcoinu stojí méně než 1 % na poplatcích, často mnohem méně. Prodej uměleckých děl nakupí 30–40 % v prémiích kupujícího, provizích, pojištění, přepravě a ověřovacích poplatcích.",
+	"point_4_summary_1": "Bitcoin se dělí na 100 milionů satoshi, takže je ideální pro transakce jakékoli velikosti. Nemůžete vlastnit část obrazu nebo roh sochy bez rizika protistrany.",
+	"point_5_summary_1": "Vlastnictví a pravost Bitcoinu může kdokoli kryptograficky ověřit na blockchainu. Ověřování pravosti uměleckých děl je drahé, pomalé a pravidelně ho matou padělatelé — což ze dne na den ničí hodnotu díla.",
+	"point_6_summary_1": "Správně zálohovaný Bitcoin přežije záplavy, požáry, zemětřesení i krádež. Výtvarné umění je zranitelné vůči všem formám fyzického zničení a pojištění jen zřídka pokryje všechno.",
+	"point_7_summary_1": "Kdokoli s připojením k internetu a trochou peněz může koupit Bitcoin. Investování do výtvarného umění je prakticky omezeno na bohaté sběratele s přístupem k aukcím a specializovanými znalostmi.",
+	"hero_title": "Rozdíl mezi <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">výtvarným uměním</span>"
 }

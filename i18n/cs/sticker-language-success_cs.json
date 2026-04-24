@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"sticker_language_success_1": "Váš požadavek jsme úspěšně přijali.",
-	"sticker_language_success_2": "Nové soubory zveřejňujeme v dávkách, takže může trvat několik týdnů, než budou tyto soubory dostupné ke stažení. Zkontrolujte to znovu brzy!"
+	"sticker_language_success_2": "Nové soubory zveřejňujeme v dávkách, takže může trvat několik týdnů, než budou tyto soubory dostupné ke stažení. Zkontrolujte to znovu brzy!",
+	"sticker_language_success_hero_title": "Žádost přijata 🎉"
 }

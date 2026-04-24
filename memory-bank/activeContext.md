@@ -1,3 +1,29 @@
+## Czech (cs) manifest refresh — April 24, 2026
+
+Ran `/translate-manifest-refresh Czech` end-to-end. Eighth locale through the manifest-driven refresh pipeline, and the first West Slavic language — targeting ~10–13M Czech speakers primarily in Czechia, plus diaspora communities in the U.S., Canada, and Germany.
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...` (post-2026-04-24 regen — 165 changed + 392 added = 557 total)
+- Locale-specific gaps: 464 missing + 2 untranslated (cs landed a lot of V2 content ahead of manifest generation, so everything flagged has to be filled in)
+- Manifest entries: 165 changed + 392 added → **1,023 total entries flagged for translation** (highest of any locale so far)
+
+**Helper-script split:**
+- `scripts/cs-manifest-refresh/translate-inflation.js` — **368 entries**. Per-currency templated translator × 13 currencies (`usd`, `eur`, `aud`, `brl`, `cad`, `gbp`, `ils`, `inr`, `jpy`, `mxn`, `nzd`, `php`, `thb`) covering `intro_1/2/highlight` + `proof_h2/p1–p6` + `btc_h2/p1–p4` + `freedom_h2/p1–p2` + `stat_*` suffixes. Czech has strong morphology so the template ships four case forms per currency: `longName` (locative plural: "v amerických dolarech"), `longNameNom` (nominative singular: "americký dolar"), `longNameGen` (genitive singular: "amerického dolaru"), and `noun` / `nounPlural`. Plus 41 non-currency keys: freedom cards, stories (Canada/Nigeria/Pennsylvania/Texas), sources, and 5 manifest-changed hero/intro keys (`inflation_h1_orange`, `inflation_choose`, `inflation_choose_another`, `inflation_sticker_learn`, `inflation_sticker_lets_find_out`).
+- `scripts/cs-manifest-refresh/translate-rest-part1.js` — **194 entries**. Covers `404` (3) + `about` (35) + `bank-runs` (36) + all 10 `bitcoin-vs-*` comparison pages (120 across banks/bonds/cash/cbdc/crypto/fine-art/gold/real-estate/stocks/visa). Inline `<a class="body-link">` HTML preserved verbatim for Wikipedia India and gold.org supply-and-demand links. Brand names kept verbatim: Silicon Valley Bank, FRED, FDIC, CBDC (the V2 page uses the CBDC acronym inline).
+- `scripts/cs-manifest-refresh/translate-rest-part2.js` — **461 entries**. Covers `business/accounting` (46) + `business/faq` (2) + `business/index` (12) + `business/maps` (15) + `business/maps-success` (8) + `business/sticker-files/english/index` (3) + `business/sticker-language-success` (5) + `business/sticker-success` (11) + `business/stickers` (15) + `business/wallets` (17) + `business/why` (36) + `buy` (21) + `common` (50) + `compound-inflation-calculator` (8) + `flyers` (5) + `get-involved` (33) + `index` (62 — all home card labels) + `lightning` (11) + `nostr/index` (45) + `sticker-files/index` (1) + `sticker-language-success` (1) + `sticker-success` (7) + `stickers` (36) + `wallets` (11). Uses typographic quotes `„“` (Czech convention) for sticker names and brand phrases like „Zde přijímáme Bitcoin“. Home card labels kept short and punchy to fit the carousel cards.
+- `scripts/cs-manifest-refresh/fix-remaining.js` — **1 entry**. `buy_platform_feature_p2p` → "Peer-to-peer (mezi uživateli)" — the first-pass translation left it as just "Peer-to-peer" (unchanged from English), so verify-language flagged it as `untranslated`. Added a parenthetical Czech gloss "(mezi uživateli)" to make the value byte-distinct from English while keeping the technical term recognizable.
+
+**Edge cases:**
+- **Czech plural cases for `mxn`/`php` pesos:** The genitive plural of "peso" in Czech is just "pes" (same form as the word for "dog"!). Accepted as the correct form — Czech genuinely uses this short form after numerals ≥ 5 (e.g. "pět pes" = "five pesos"). Similarly `brl` uses "realů" (gen. pl. of "real").
+- **`inflation_stat_bitcoin_numeric`:** Czech uses space-separated number grouping, so `(21,000,000)` became `(21 000 000)` matching the locale's numeric convention.
+- **Percent sign spacing:** Czech style uses a non-breaking space between number and `%`, so `1.42%` → `1,42 %` in `bank-runs_card_fdic_value` (both decimal separator change + space).
+- **Home pill / carousel labels:** Every `home_card_label_*` key was a fresh translation (62 in total). Kept everything concise — e.g. "Let's compare" → "Porovnejme" (single word), "What's the difference?" → "V čem je rozdíl?", "Fund your project" → "Financujte svůj projekt".
+- **`about_mission_1a` / `about_mission_1b`:** The English splits "bitcoin.rocks was founded by · sovenor · in 2022 with a simple mission…" across three translation keys with `sovenor` as a link. Czech version: "bitcoin.rocks založil uživatel · sovenor · v roce 2022 s jednoduchým posláním…" — standard Czech word order for founder attribution.
+
+**Verification:** All 4 checks PASS after the `fix-remaining.js` pass — marker ✅ / locale-specific ✅ / manifest coverage ✅ / stale pre-V2 English ✅. `npm run build` clean across 55 locales × 81 pages (~4,349 static pages). `i18n/cs/` directory now fully parity with English V2.
+
+---
+
 ## 2026-04-24 delta refresh — 7 locales synced against new manifest
 
 Minor English text updates across 5 commits (`c88d7273..ef04b2a3`) on 2026-04-24 touched 5 content pages:

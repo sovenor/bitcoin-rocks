@@ -1,4 +1,9 @@
 ---
+## i18n cleanup Step 5 — Czech (cs) — 2026-04-24
+
+**Counter:** 8/54 languages complete. Eighth manifest-driven refresh, first West Slavic language. 1,023 entries resolved (464 missing + 2 untranslated + 165 manifest-changed + 392 manifest-added) across 4 helper scripts in `scripts/cs-manifest-refresh/`: `translate-inflation.js` (368 entries — per-currency templated translator × 13 currencies with Czech's four case forms `longName`/`longNameNom`/`longNameGen`/`noun`/`nounPlural` + 41 non-currency keys), `translate-rest-part1.js` (194 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* comparison pages), `translate-rest-part2.js` (461 entries — business/* subtree, buy, common with typographic `„…"` quotes, compound-inflation-calculator, flyers, get-involved, index homepage with all 60 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (1 entry — `buy_platform_feature_p2p` got a parenthetical gloss "(mezi uživateli)" so it's byte-distinct from the English "Peer-to-peer" technical term). Marker pinned at `scripts/i18n-audit/v2-refresh-status/cs.json` to manifestVersion `d966f8c780c0c485...`. All 4 verification checks PASS. `npm run build` clean across 55 locales × 81 pages.
+
+---
 ## i18n cleanup Step 5 — 2026-04-24 delta refresh (7 locales retroactively synced)
 
 **Counter:** 7/54 languages still complete — now synced against the new manifest version `d966f8c780c0c485...`.

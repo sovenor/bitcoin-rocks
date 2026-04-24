@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dobrý pro podnikání",
+	"business_hero_subtitle": "Přijímejte platby s nižšími poplatky, dostávejte zaplaceno okamžitě a získejte miliony nových zákazníků — bez smluv a bez skrytých nákladů.",
+	"business_intro_c1": "Bitcoin dává vaší firmě rychlejší, levnější a soukromější způsob, jak dostat zaplaceno. Žádní prostředníci. Žádné chargebacky. Žádné smlouvy. Jen peníze, které se vypořádají během sekund, přímo od zákazníka k vám.",
+	"business_intro_c2": "Níže je krátká verze toho, proč je Bitcoin dobrý pro podnikání — a pod ní každý zdroj, který potřebujete, abyste ho mohli začít přijímat už dnes.",
 	"biz_s1": "Nízké poplatky bez minimálních limitů",
 	"biz_s1_c1": "Bitcoin vám umožňuje přijímat platby přímo od zákazníků, podobně jako hotovost. Bitcoinová síť funguje bez prostředníků, jako jsou banky a kreditní společnosti, které si účtují vysoké poplatky.",
 	"biz_s2": "Okamžité vypořádání",
@@ -17,5 +20,14 @@
 	"biz_s4": "Získejte více zákazníků",
 	"biz_s4_c1": "Miliony lidí vlastní Bitcoin a chtějí ho utratit na místech, která ho přijímají.",
 	"biz_s4_c2": "Pouhým přijímáním Bitcoinu může být vaše firma uvedena na mapách obchodníků přijímajících Bitcoin a získat zdarma expozici novým zákazníkům.",
-	"biz_s4_c3": "Přijímání Bitcoinu je 100% zdarma. Žádné smlouvy ani skryté poplatky."
+	"biz_s4_c3": "Přijímání Bitcoinu je 100% zdarma. Žádné smlouvy ani skryté poplatky.",
+	"business_resources_heading": "Vše, co potřebujete k přijímání Bitcoinu",
+	"business_resources_intro": "Procházejte tyto zdroje vlastním tempem. Každý je krátký a praktický průvodce.",
+	"biz_label_wallets": "PENĚŽENKY",
+	"biz_label_maps": "MAPY OBCHODNÍKŮ",
+	"biz_label_stickers": "SAMOLEPKY",
+	"biz_label_rewards": "ODMĚNY",
+	"biz_label_accounting": "ÚČETNICTVÍ",
+	"biz_label_faq": "ČASTÉ DOTAZY",
+	"biz_meta_description": "Přijímejte Bitcoin ve své firmě za nižší poplatky, s okamžitým vypořádáním, bez chargebacků a získejte víc zákazníků."
 }

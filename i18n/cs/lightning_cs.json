@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_lightning_wallet_guide": "Průvodce Bitcoin Lightning peněženkami",
 	"lightning_description": "Lightning peněženky vám umožňují posílat Bitcoin rychle a levně při zachování vaší osobní suverenity.",
 	"lightning_header": "PRŮVODCE LIGHTNING PENĚŽENKAMI",
+	"lightning_header_subtitle": "Lightning vám umožňuje posílat Bitcoin během sekund za zlomek haléře — vyberte si peněženku, jejíž kompromisy odpovídají tomu, kolik Bitcoinu plánujete utratit.",
 	"lightning_s1_c1": "Lightning vám umožňuje posílat bitcoinové platby rychle a levně.",
 	"lightning_s1_c2": "Je důležité vědět, že používání Lightning přináší kompromisy. Výměnou za rychlejší a levnější bitcoinové platby často obětujete nějakou bezpečnost.",
 	"lightning_s1_c3": "Obecně by se Lightning měl používat pouze s malými částkami bitcoinu. Velké částky bitcoinu byste měli vždy uchovávat v hardwarové peněžence.",
-	"lightning_s1_c4": "Podívejte se na našeho průvodce hardwarovými peněženkami pro více informací.",
+	"lightning_s1_c4": "Podívejte se na našeho",
+	"lightning_s1_c4_link": "Průvodce Bitcoin hardwarovými peněženkami",
+	"lightning_s1_c4_end": "pro víc informací.",
 	"lightning_s1_c5": "Ne všechny Lightning peněženky jsou stejné. Která peněženka má správnou rovnováhu kompromisů pro vás, zjistíte zodpovězením jedné jednoduché otázky:",
 	"lightning_question_1": "JAKÁ ROVNOVÁHA KOMPROMISŮ JE PRO MĚ SPRÁVNÁ?",
 	"lightning_s2_c1": "Jednou z inovací Bitcoinu je schopnost uchovávat ho bez závislosti na správci, jako je banka. Peněženky s vlastní správou odemykají plnou sílu Bitcoinu.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Tyto peněženky jsou podobnější bankovnímu systému, kde musíte důvěřovat třetí straně, že vám dá přístup k vašim penězům. Pokud je váš Bitcoin na burze, používáte kustodní peněženku.",
 	"lightning_s3_c3": "Kustodní peněženky mohou působit pohodlně, ale správce má technickou schopnost kdykoli ukrást všechny prostředky uživatelů.",
 	"lightning_s3_c4": "Někteří lidé preferují kustodní Lightning peněženky pro malé částky bitcoinu kvůli jejich snadnému použití. Jen nezapomeňte: ne vaše klíče, ne vaše mince!",
+	"lightning_grid_heading": "Oblíbené Lightning peněženky",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% zdarma",
 	"lightning_merchants": "Skvělá pro obchodníky",
 	"lightning_custodial": "Plně kustodní peněženka",
-	"lightning_cta_hardware": "Hledáte našeho průvodce hardwarovými bitcoinovými peněženkami?"
+	"lightning_cta_hardware": "Hledáte našeho průvodce hardwarovými bitcoinovými peněženkami?",
+	"lightning_hardware_cta_label": "Hardwarové peněženky",
+	"sources_lightning_paper": "Joseph Poon a Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning peněženka",
+	"sources_breez_lightning": "Breez — Lightning peněženka s vlastní úschovou",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — custodiální Lightning peněženka",
+	"sources_lightning_labs": "Lightning Labs — dokumentace Lightning Network"
 }
