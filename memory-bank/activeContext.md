@@ -1,3 +1,70 @@
+## Tamil (ta) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Tamil` end-to-end via the
+**parallel-worktree pattern** alongside sw + th in the same parallel
+batch. **Locale 45/54 complete.** Tamil (`தமிழ்`) is a classical
+Dravidian language, one of the oldest still in continuous literary
+use, with ~75M native speakers across India (Tamil Nadu, Puducherry),
+Sri Lanka, Singapore, Malaysia, and the diaspora. Brahmic abugida
+script with rich vowel + consonant cluster system; round-trips
+cleanly through Node UTF-8.
+
+**Report stats:**
+- 464 missing locale-specific keys (drift across home card labels,
+  common subtree, business/* sub-pages, nostr/index)
+- 11 untranslated (10 sticker dimension strings byte-identical to
+  English)
+- 165 manifest-changed + 392 manifest-added → **1,032 total entries**
+
+**4 helper scripts under `scripts/ta-manifest-refresh/`:**
+
+- `translate-inflation.js` — **368 entries**. Per-currency templated
+  translator × 13 currencies with Tamil currency naming (டாலர்,
+  யூரோ, ரூபாய், பாட், பெசோ, etc.) rather than a generic catch-all,
+  polite formal "நீங்கள்" register throughout — the standard
+  register for Tamil educational copy. Plus 41 non-currency keys:
+  freedom cards, stories, sources, 5 manifest-changed hero/intro
+  keys.
+- `translate-rest-part1.js` — **377 entries**. index + common +
+  about + get-involved + bank-runs + 404 + buy +
+  compound-inflation-calculator + all 10 bitcoin-vs-* comparison
+  namespaces. Tamil terminology — "Bitcoin" preserved as Latin
+  loanword (universal in Indian/Sri Lankan crypto press), Western
+  Arabic numerals retained per Tamil convention, Tamil script for
+  body copy. "ட்ரான்ஸ்பேரண்ட் சிஸ்டம்" pattern preserved for
+  technical anglicisms where Tamil-script transliteration matches
+  press convention.
+- `translate-rest-part2.js` — **287 entries**. All 11 business/*
+  sub-pages (accounting, faq, index, maps, maps-success,
+  sticker-files/english/index, sticker-language-success,
+  sticker-success, stickers, wallets, why) + lightning +
+  nostr/index + sticker-files/index + sticker-language-success +
+  sticker-success + stickers + wallets + flyers.
+- `fix-sticker-dimensions.js` — **10 patches**. Byte-identical
+  sticker dimension strings localized — `cm` → `செமீ`, `in` →
+  `அங்குலம்` (Tamil unit names; numeric values intact) so all values
+  are byte-distinct from English.
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+
+**Edge cases / notes:**
+- **Worktree pre-flight quirk:** the ta agent reported its worktree
+  was initially checked out on a stale `main`-derived branch and ran
+  `git reset --hard v2-nextjs-redesign` to align before running the
+  workflow. Worth investigating whether the Agent tool's worktree
+  isolation defaults to `main` rather than the parent agent's
+  current branch — may need to specify the branch explicitly in
+  future dispatches, or have agents `git fetch && git reset --hard
+  origin/<branch>` as a defensive pre-step.
+- Tamil press convention keeps "Bitcoin" in Latin script (matches
+  TheHindu, Maalai Malar, BBC Tamil, Vikatan crypto coverage) —
+  maintained throughout for consistency.
+- The 10 sticker-dimension keys are byte-identical to English in
+  many locales (numeric + Latin units are language-neutral).
+  Localizing the unit suffixes to Tamil script is the cleanest fix.
+
 ## Swahili (sw) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Swahili` end-to-end via the new

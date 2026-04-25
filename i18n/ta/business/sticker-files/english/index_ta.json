@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ta"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "ஆங்கில 'இங்கு பிட்காயின் ஏற்கப்படுகிறது' ஸ்டிக்கர் கோப்புகள்",
-	"english_biz_sticker_files_description": "உங்கள் சொந்த இங்கு பிட்காயின் ஏற்கப்படுகிறது ஸ்டிக்கர்களை அச்சிட ஆங்கில ஸ்டிக்கர் கோப்புகளை பதிவிறக்கவும்."
+	"english_biz_sticker_files_description": "உங்கள் சொந்த 'Bitcoin Accepted Here' ஸ்டிக்கர்களை அச்சிட ஆங்கில ஸ்டிக்கர் கோப்புகளைப் பதிவிறக்கவும்.",
+	"biz_stickers_english_hero_title": "ஆங்கில 'Bitcoin Accepted Here' ஸ்டிக்கர் கோப்புகளைப் பதிவிறக்கவும்",
+	"biz_stickers_english_hero_subtitle": "நீங்கள் Bitcoin ஏற்கிறீர்கள் என்பதை உங்கள் வாடிக்கையாளர்களுக்குத் தெரியப்படுத்த ஆங்கிலத்தில் உங்கள் சொந்த 'Bitcoin Accepted Here' ஸ்டிக்கர்களை அச்சிடுங்கள்."
 }

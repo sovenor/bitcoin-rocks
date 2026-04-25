@@ -1,3 +1,54 @@
+## i18n cleanup Step 5 — Tamil (ta) — 2026-04-25
+
+Ran `/translate-manifest-refresh Tamil` end-to-end via the
+**parallel-worktree pattern** alongside sw + th in the same batch.
+Tamil (`தமிழ்`) is a classical Dravidian language and one of the
+oldest still in continuous literary use, with ~75M native speakers
+(India / Sri Lanka / Singapore / Malaysia + diaspora). Brahmic abugida
+script. **Counter:** 45/54 languages complete. 1,032 entries flagged
+(464 missing locale-specific + 11 untranslated + 165 manifest-changed
++ 392 manifest-added).
+
+**4 helper scripts under `scripts/ta-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — 327 per-currency × 13
+   currencies via templated function with Tamil currency naming
+   (டாலர்/யூரோ/ரூபாய்/பாட்/பெசோ etc.) rather than a generic
+   catch-all, polite formal "நீங்கள்" register throughout — the
+   standard register for Tamil educational copy + 41 non-currency
+   keys including freedom cards, stories, sources, 5 manifest-changed
+   hero/intro keys).
+2. `translate-rest-part1.js` (377 entries — index, common, about,
+   get-involved, bank-runs, 404, buy, compound-inflation-calculator,
+   and all 10 bitcoin-vs-* comparison namespaces with Tamil
+   terminology — "Bitcoin" preserved as Latin loanword (universal in
+   Indian/Sri Lankan crypto press), Western Arabic numerals retained
+   per Tamil convention, Tamil script for body copy).
+3. `translate-rest-part2.js` (287 entries — all 11 business/*
+   sub-pages, lightning, nostr/index, sticker-files/index,
+   sticker-language-success, sticker-success, stickers, wallets,
+   flyers).
+4. `fix-sticker-dimensions.js` (10 byte-identical sticker dimension
+   strings localized — `cm` → `செமீ`, `in` → `அங்குலம்` (Tamil unit
+   names; numeric values intact) so all values are byte-distinct
+   from English).
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+
+**Edge cases / notes:**
+- The 10 sticker-dimension keys are byte-identical to English in many
+  locales (numeric + Latin units are language-neutral). Localizing
+  the unit suffixes to Tamil script (`செமீ`, `அங்குலம்`) is the
+  cleanest fix — preserves the numeric values + still satisfies the
+  audit.
+- Worktree pre-flight note: the agent reported its worktree was
+  initially checked out on a stale `main`-derived branch and ran
+  `git reset --hard v2-nextjs-redesign` to align before running the
+  workflow. Worth investigating whether the Agent tool's worktree
+  isolation defaults to `main` rather than the current branch — may
+  need an explicit branch parameter in future dispatches.
+
 ## i18n cleanup Step 5 — Swahili (sw) — 2026-04-25
 
 Ran `/translate-manifest-refresh Swahili` end-to-end via the new

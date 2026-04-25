@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ta"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "கோரிக்கை பெறப்பட்டது 🎉",
+	"biz_sticker_language_success_hero_subtitle": "உங்கள் மொழியில் 'Bitcoin Accepted Here' ஸ்டிக்கர் கோப்புகளைக் கேட்டதற்கு நன்றி.",
+	"biz_sticker_language_success_timeline_header": "அடுத்து என்ன நடக்கும்",
+	"biz_sticker_language_success_timeline_c1": "3 முதல் 4 வாரங்களுக்குள் உங்கள் ஸ்டிக்கர் கோப்புகளை உருவாக்கி வெளியிடுவோம். அவை தயாரானவுடன், எங்கள் ஸ்டிக்கர் கோப்புகள் பக்கத்திலிருந்து இலவசமாக பதிவிறக்கி அச்சிடலாம்.",
+	"biz_sticker_language_success_timeline_c2": "ஸ்டிக்கர் கோப்புகள் தொகுதிகளாக வெளியிடப்படுகின்றன, எனவே உங்கள் மொழி நேரடியாக ஆக சில வாரங்கள் ஆகலாம். உங்கள் பொறுமைக்கு நன்றி!"
 }
