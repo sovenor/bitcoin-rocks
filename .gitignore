@@ -35,3 +35,7 @@ yarn-error.log*
 # Forms backend (separate Railway service — keep its own ignores)
 forms-backend/data/
 forms-backend/node_modules/
+
+# Claude Code - local only
+.claude/settings.local.json
+.claude/todos.json
