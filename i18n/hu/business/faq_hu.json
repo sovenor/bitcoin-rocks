@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Gyakran ismételt kérdések a Bitcoin elfogadásáról",
 	"faq_description": "Kérdéseid vannak a Bitcoin fizetések elfogadásáról a vállalkozásodban?",
+	"faq_hero_subtitle": "Rövid válaszok azokra a kérdésekre, amelyeket a kereskedők leggyakrabban tesznek fel a Bitcoin elfogadása előtt — díjak, elszámolás, pénztárcák, visszaterhelések, költségek és egyebek.",
+	"faq_intro_c1": "Kattints bármelyik kérdésre alább, hogy lásd a választ. Amikor készen állsz a Bitcoin elfogadására, az oldal alján található üzleti eszközök lépésről lépésre vezetnek végig a folyamaton.",
 	"faq_s1": "Mi az a Bitcoin?",
 	"faq_s1_c1": "A Bitcoin két dolog: digitális pénz és számítógépes hálózat.",
 	"faq_s1_c2": "Közvetlenül küldhetsz bitcoint (digitális pénzt) más embereknek a Bitcoin hálózat segítségével.",

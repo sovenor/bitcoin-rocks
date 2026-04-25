@@ -3,7 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
-	}
+	},
+	"english_bitcoin_accepted_here_sticker_files": "Angol „Bitcoin Accepted Here” matricafájlok",
+	"english_biz_sticker_files_description": "Töltsd le az angol „Bitcoin Accepted Here” matricafájlokat saját nyomtatáshoz.",
+	"biz_stickers_english_hero_title": "Töltsd le az angol „Bitcoin Accepted Here” matricafájlokat",
+	"biz_stickers_english_hero_subtitle": "Nyomtass saját angol „Bitcoin Accepted Here” matricákat, hogy a vásárlóid tudják: elfogadod a Bitcoint."
 }

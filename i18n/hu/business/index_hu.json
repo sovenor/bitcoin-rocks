@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"bitcoin_is_good_for_business": "A Bitcoin jó az üzletnek",
+	"business_hero_subtitle": "Fogadj el fizetéseket alacsonyabb díjakkal, számold el azonnal, és érj el milliónyi új vásárlót — szerződések és rejtett költségek nélkül.",
+	"business_intro_c1": "A Bitcoin gyors, olcsó és magán módot ad a vállalkozásodnak a fizetések fogadására. Közvetítők nélkül. Visszaterhelések nélkül. Meglepetésszerű költségek nélkül. A pénz másodpercek alatt, közvetlenül a vásárlótól hozzád.",
+	"business_intro_c2": "Az alábbi összefoglaló elmondja, miért jó a Bitcoin az üzletnek — és lent megtalálsz minden eszközt, ami ahhoz kell, hogy még ma elkezdd.",
 	"biz_s1": "Alacsony díjak minimumköltség nélkül",
 	"biz_s1_c1": "A Bitcoin lehetővé teszi, hogy közvetlenül fogadj fizetéseket az ügyfelektől, hasonlóan a készpénzhez. A Bitcoin hálózat közvetítők nélkül működik, mint bankok és hitelkártya-társaságok, amelyek magas díjakat számolnak fel.",
 	"biz_s2": "Azonnali elszámolás",
@@ -17,5 +20,14 @@
 	"biz_s4": "Több ügyfél",
 	"biz_s4_c1": "Több millió ember rendelkezik Bitcoinnal, és olyan helyeken szeretné elkölteni, amelyek elfogadják azt.",
 	"biz_s4_c2": "A Bitcoin elfogadásával vállalkozásod felkerülhet a Bitcoin kereskedők térképére, és ingyenes reklámot kaphatsz új ügyfelek felé.",
-	"biz_s4_c3": "A Bitcoin elfogadása 100%-ban ingyenes. Nincsenek szerződések és rejtett díjak."
+	"biz_s4_c3": "A Bitcoin elfogadása 100%-ban ingyenes. Nincsenek szerződések és rejtett díjak.",
+	"business_resources_heading": "Minden, ami a Bitcoin elfogadásához kell",
+	"business_resources_intro": "Haladj a saját tempódban ezekkel az eszközökkel. Mindegyik rövid, gyakorlati útmutató.",
+	"biz_label_wallets": "Pénztárcák",
+	"biz_label_maps": "Kereskedői térképek",
+	"biz_label_stickers": "Matricák",
+	"biz_label_rewards": "Jutalmak",
+	"biz_label_accounting": "Könyvelés",
+	"biz_label_faq": "Gyakori kérdések",
+	"biz_meta_description": "Fogadj el Bitcoint a vállalkozásodban alacsonyabb díjakkal, azonnali elszámolással, visszaterhelések nélkül, és érd el a több vásárlót."
 }

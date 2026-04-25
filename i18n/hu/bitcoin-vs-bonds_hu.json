@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"bitcoin_vs_bonds": "Bitcoin vs kötvények",
@@ -26,11 +26,23 @@
 	"bitcoin_point_5": "Növekedési potenciál",
 	"bitcoin_point_6": "Önállóan megőrizhető",
 	"bitcoin_point_7": "Kormányfüggetlen",
-	"point_1_summary_1": "Az önállóan megőrzött Bitcoinnak nincs partner-kockázata. A kötvényeknél meg kell bíznod abban, hogy a kibocsátó (általában a kormány) vissza fogja fizetni az adósságát. Az államadósság szintje rekordmagasságban van világszerte.",
-	"point_2_summary_1": "A Bitcoinnak fix kínálata van: 21 millió BTC. A kötvényhozamok gyakran nem tudják felülmúlni az inflációt, ami azt jelenti, hogy a kötvénytulajdonosok reálértéken veszítenek.",
-	"point_3_summary_1": "A Bitcoinnal a hét minden napján, napi 24 órában kereskednek a globális tőzsdéken, és bármikor eladható. Egyes kötvények lejáratig lekötöttek, és a korai eladás büntetéssel járhat.",
-	"point_4_summary_1": "A Bitcoin nyílt piacon kereskedik, ahol bárki vásárolhat és eladhat. A kötvényeket gyakran aukciós rendszerben bocsátják ki, korlátozott hozzáféréssel.",
-	"point_5_summary_1": "A Bitcoin értéke jelentősen nőtt fennállása során, míg a kötvényhozamok jellemzően alacsonyak és fixek.",
-	"point_6_summary_1": "A Bitcoin önállóan megőrizhető, valódi tulajdonjogot biztosítva. A kötvényeket harmadik fél letétkezelők kezelik.",
-	"point_7_summary_1": "A Bitcoin bármely kormánytól függetlenül működik. A kötvények értéke közvetlenül függ a kibocsátó kormány fiskális politikájától és hitelképességétől."
+	"point_1_summary_1": "A kötvények csak papíron „kockázatmentesek” — az infláció, a kamatváltozások és a fizetésképtelenségi kockázat felemészti a valós hozamot.",
+	"point_1_summary_2": "A Bitcoin volatilitása átlátható, de nincs rejtett partnerkockázat.",
+	"point_2_summary_1": "Amikor az ",
+	"point_2_summary_2": "infláció",
+	"point_2_summary_3": " magasabb a kötvényhozamoknál, a kötvénytulajdonosok minden évben valós vásárlóerőt veszítenek. A Bitcoin 21 milliós felső határát az infláció nem tudja csökkenteni.",
+	"point_3_summary_1": "A kötvénypiacok válságban befagyhatnak — a Silicon Valley Bank részben azért ment csődbe, mert kötvényei elveszítették értéküket. Nézd meg, hogyan történnek a ",
+	"point_3_summary_2": "bankrohamok",
+	"point_3_summary_3": " és miért kerüli el a Bitcoin a sorsukat. A Bitcoin globálisan 24/7 működik, likviditási válságok nélkül.",
+	"point_4_summary_1": "Az államkötvény-aukciók kudarcot vallhatnak, ha nincs elég vevő — nézd meg a ",
+	"point_4_summary_2": "2022-es gyenge aukciót",
+	"point_4_summary_3": "A Bitcoin árát folyamatosan a globális nyílt piacok határozzák meg, központi aukciók nélkül, amelyek kudarcot vallhatnak.",
+	"point_5_summary_1": "A kötvényhozam a vásárlás pillanatában rögzített. Akár a gazdaság növekszik, akár a valuta összeomlik, a hozamod ugyanaz marad.",
+	"point_5_summary_2": "A Bitcoinnak jelentős növekedési potenciálja van, mert a növekvő elfogadottság a fix kínálatba ütközik.",
+	"point_6_summary_1": "A kötvények nagy részét bankokon vagy brókereken keresztül tartják, ami partnerkockázatot ad hozzá. A Bitcoint ",
+	"point_6_summary_2": "saját megőrzésben",
+	"point_7_summary_1": "A kötvények teljes mértékben attól függnek, hogy a kormányok visszafizetik-e adósságaikat. Ha egy kormány csődbe megy vagy az adósságot inflációval feloldja, a kötvénytulajdonosok veszítenek.",
+	"point_7_summary_2": "A Bitcoin függetlenül működik bármely kormánytól vagy politikai erőtől.",
+	"hero_title": "A különbség a <span class=\"orange\">Bitcoin</span> és a <span class=\"asset\">kötvények</span> között",
+	"point_6_summary_3": " lehet tartani — ami teljesen kiküszöböli ezt a kockázatot."
 }

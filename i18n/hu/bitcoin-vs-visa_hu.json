@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
@@ -26,11 +26,21 @@
 	"bitcoin_point_5": "Nincs adósság",
 	"bitcoin_point_6": "Önálló megőrzés",
 	"bitcoin_point_7": "Mindig elérhető",
-	"point_1_summary_1": "A Bitcoin egy nyílt hálózat, amelyhez bárki internet-hozzáféréssel csatlakozhat engedély nélkül. A Visa egy zárt hálózat, amelyhez a kereskedőknek meg kell felelniük és jelentkezniük kell a hozzáférésért.",
-	"point_2_summary_1": "A Bitcoin tranzakciós díjak jellemzően sokkal alacsonyabbak, mint a Visa feldolgozási díjak. A kereskedők általában 2-3% díjat fizetnek a Visa tranzakciók után, míg a Bitcoin Lightning hálózat szinte nulla díjas fizetéseket tesz lehetővé.",
-	"point_3_summary_1": "A Bitcoin tranzakciók nyilvános blokkláncra kerülnek, amelyet bárki ellenőrizhet. A Visa privát hálózatot működtet átláthatatlan belső folyamatokkal.",
-	"point_4_summary_1": "Az önállóan megőrzött Bitcoint nem lehet befagyasztani. A Visa befagyaszthatja a számládat, visszatarthatja a fizetéseket, és megtagadhatja a szolgáltatást.",
-	"point_5_summary_1": "A Bitcoin nem adósságalapú pénz – csak Bitcoint költhetsz, amelyet valóban birtokolsz. A Visa hitelkártyák adósság felhalmozását teszik lehetővé, magas kamatokkal.",
-	"point_6_summary_1": "A Bitcoin önállóan megőrizhető, ami valódi tulajdonjogot biztosít. A Visa számlák bankjaidtól és pénzintézetektől függenek.",
-	"point_7_summary_1": "A Bitcoin hálózat napi 24 órában, heti 7 napban elérhető. A Visa rendszer időnként leáll karbantartás, technikai problémák vagy ünnepnapok miatt."
+	"point_1_summary_1": "A Bitcoin egy nyílt hálózat, amelyhez bárki engedély nélkül csatlakozhat. A Visa egy zárt rendszer, amelyet pénzügyi intézmények irányítanak, akik megtagadhatják a hozzáférést — különösen azoknak, akiknek nincs bankszámlájuk vagy korlátozott a hozzáférésük a bankokhoz.",
+	"point_1_summary_2": "Ettől a Bitcoin befogadóbb és hozzáférhetőbb az emberek számára szerte a világon, különösen azoknak, akiknek nincs bankszámlájuk vagy korlátozott hozzáférésük van a bankokhoz.",
+	"point_2_summary_1": "A Bitcoin-tranzakcióknak nincsenek kereskedői díjaik. A Visa körülbelül 3 %-ot számít fel a kereskedőknek tranzakciónként — a vállalkozásod pénzt takaríthat meg azzal, hogy",
+	"point_2_summary_2": "elfogadja a Bitcoin-fizetéseket",
+	"point_2_summary_3": ".",
+	"point_3_summary_1": "Minden Bitcoin-tranzakció egy nyilvános blockchainen van, és ellenőrizhető. A Visa zárt, exkluzív rendszert üzemeltet, amelyet az ügyfelek nem auditálhatnak önállóan.",
+	"point_3_summary_2": "Ez az átláthatóság megbízhatóbbá teszi a Bitcoint, és lehetővé teszi a hálózat integritásának független ellenőrzését.",
+	"point_4_summary_1": "Egyetlen központi hatóság sem fagyaszthatja be a Bitcoint. A Visa bármikor befagyaszthatja a számlákat, blokkolhatja a tranzakciókat vagy megtagadhatja a szolgáltatást.",
+	"point_4_summary_2": "A Bitcoinnal megőrződ az irányítást a pénzed felett, és nem zárhatnak ki a fizetési rendszerből.",
+	"point_5_summary_1": "A Bitcoin végleges teljesítés — csak azt költöd el, amid van. A hitelkártyák adósságot teremtenek, évente 25 % feletti kamattal.",
+	"point_5_summary_2": "A Bitcoin-tranzakciók végleges teljesítések adósság létrehozása nélkül — csak olyan Bitcoint költhetsz el, amely valóban a tiéd.",
+	"point_6_summary_1": "A Bitcoin lehetővé teszi a ",
+	"point_6_summary_2": "saját megőrzést",
+	"point_6_summary_3": " bankok vagy fizetésszolgáltatók nélkül. A hitelkártyákhoz mindig közvetítők kellenek.",
+	"point_7_summary_1": "A Bitcoin globálisan 24/7 működik nyitvatartási idő nélkül. A Visának nyitvatartási ideje, karbantartási ablakai és földrajzi határai vannak, amelyek blokkolhatják a tranzakciókat.",
+	"point_7_summary_2": "A hitelkártya-hálózatoknak nyitvatartási idejük, karbantartási ablakaik és földrajzi korlátaik vannak, amelyek megakadályozhatják a tranzakciók feldolgozását.",
+	"hero_title": "A különbség a <span class=\"orange\">Bitcoin</span> és a <span class=\"asset\">Visa</span> között"
 }

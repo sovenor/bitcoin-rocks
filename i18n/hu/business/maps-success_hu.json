@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
-	}
+	},
+	"biz_maps_success_hero_title": "Beküldés megérkezett 🎉",
+	"biz_maps_success_hero_subtitle": "Köszönjük, hogy beküldted a vállalkozásodat. Hamarosan felvesszük a Bitcoin kereskedői térképekre.",
+	"biz_maps_success_timeline_header": "Mi következik",
+	"biz_maps_success_timeline_c1": "A vállalkozásodat 1–2 héten belül felvesszük a BTC Mapre és más Bitcoin kereskedői katalógusokba. Minden beküldést kézzel vizsgálunk át, hogy megőrizzük a térkép pontosságát.",
+	"biz_maps_success_timeline_c2": "Amint a hirdetésed élesedik, a helyi Bitcoin-felhasználók megtalálják a vállalkozásodat, és eljönnek Bitcoint költeni.",
+	"biz_maps_success_view_header": "Nézd meg, hová fogsz felkerülni",
+	"biz_maps_success_view_c1": "Amíg vársz, nézd meg a BTC Mapet, és tekintsd meg a Bitcoint elfogadó vállalkozások növekvő globális hálózatát.",
+	"biz_maps_success_btn_view_map": "Nézd meg a BTC Mapet"
 }

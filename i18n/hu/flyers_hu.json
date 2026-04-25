@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"free_bitcoin_flyers": "Ingyenes Bitcoin szórólapok a bitcoin.rocks-tól",
 	"flyers_description": "Nyomtass ki egy Bitcoin szórólapot otthon és helyezd el nyilvános helyen, hogy meggyőzd a körülötted lévőket.",
-	"flyers_intro_header": "HOGYAN NYOMTASD ÉS RAGASZD KI EZEKET A BITCOIN SZÓRÓLAPOKAT",
+	"flyers_hero_title": "Nyomtass és tegyél ki Bitcoin szórólapokat",
+	"flyers_hero_subtitle": "Ingyenes, nyomtatható Bitcoin szórólapok. Tedd ki őket nyilvános helyekre, hogy több ember megismerje a Bitcoint.",
+	"flyers_intro_header": "Hogyan nyomtasd és tedd ki ezeket a Bitcoin szórólapokat",
 	"flyers_intro_c1": "Küldetésünk, hogy segítsünk több embert meggyőzni a Bitcoinról azáltal, hogy Bitcoin szórólapokat helyezel el nyilvános helyeken. Ezen a szórólapon egy QR-kód van, amely a",
 	"flyers_intro_c2": "oktatási Bitcoin weboldalunkra mutat.",
 	"flyers_intro_c4": "Nyomtasd ki ezt a szórólapot otthon vagy egy nyomdában. Ezután ragaszd ki hirdetőtáblákra, villanyoszlopokra a városban és más nyilvános helyekre, ahol az emberek láthatják és megismerhetik a Bitcoint.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "OSZD MEG A SZÓRÓLAPHELYEIDET",
 	"flyers_share_c1": "Oszd meg a szórólaphelyeidet velünk a Nostr-on, és nézd meg, hová helyezik mások a szórólapjaikat.",
 	"flyers_btn_share_on_nostr": "MEGOSZTÁS A NOSTR-ON",
-	"flyers_btn_what_is_nostr": "MI AZ A NOSTR?"
+	"flyers_btn_what_is_nostr": "MI AZ A NOSTR?",
+	"flyers_next_get_stickers": "Terjeszd az üzenetet még messzebb",
+	"flyers_next_get_stickers_desc": "Kérj egy ingyenes csomag Bitcoin matricát"
 }

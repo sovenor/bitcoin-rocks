@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"404_title": "404 Hiba | Az oldal nem található",
-	"404_message": "EZ A TÖRÖTT OLDAL NEM KIRÁLY",
-	"404_home": "VISSZA A FŐOLDALRA"
+	"404_message": "A Bitcoin remek, de ez az oldal nem működik.",
+	"404_home": "Vissza a kezdőlapra",
+	"404_not_found_short": "Nem található"
 }

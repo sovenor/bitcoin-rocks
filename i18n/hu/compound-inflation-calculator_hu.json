@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"cic_header": "KAMATOS INFLÁCIÓ KALKULÁTOR",
 	"cic_description": "Használd ezt a kamatos infláció kalkulátort, hogy megtudd, mennyivel kell emelkednie a fizetésednek, hogy lépést tartson az inflációval.",
-	"cic_inflation_cta": "Lépj ki az inflációból a Bitcoinnal"
+	"cic_hero_subtitle": "Tudd meg, mennyivel kellene emelkednie a fizetésednek, hogy lépést tartson az inflációval.",
+	"cic_calculator_heading": "Számítsd ki az inflációs különbségedet",
+	"cic_cta_label": "Következő lépés",
+	"cic_inflation_cta": "Lépj ki az inflációból a Bitcoinnal",
+	"cic_next_learn_inflation": "Tanuld meg, hogyan működik az infláció",
+	"cic_next_explore_topics": "Fedezz fel további témákat",
+	"cic_next_explore_topics_desc": "Nézd meg, hogyan kapcsolódik a Bitcoin a pénzhez, szabadsághoz, energiához és sok máshoz.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — fogyasztói árindex minden városi fogyasztóra",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 pénzkínálat"
 }

@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"bitcoin_sticker_files_all_languages": "Bitcoin matricák: Minden nyelv",
 	"sticker_files_description": "Töltsd le felhasználóbarát Bitcoin matricafájljainkat, és nyomtasd ki a saját matricáidat.",
-	"sticker_files_header": "BITCOIN MATRICAFÁJLOK"
+	"sticker_files_header": "Nyomtasd ki a saját Bitcoin matricáidat ezekkel a fájlokkal."
 }
