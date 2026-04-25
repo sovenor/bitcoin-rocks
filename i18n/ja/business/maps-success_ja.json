@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
-	}
+	},
+	"biz_maps_success_hero_title": "リクエストを受け付けました 🎉",
+	"biz_maps_success_hero_subtitle": "ビジネスを送信していただきありがとうございます。まもなくビットコイン加盟店マップに掲載いたします。",
+	"biz_maps_success_timeline_header": "次に何が起こるか",
+	"biz_maps_success_timeline_c1": "あなたのビジネスは 1〜2 週間以内に BTC Map と他のビットコイン加盟店ディレクトリに掲載されます。マップを正確に保つため、すべての送信を手作業で確認しています。",
+	"biz_maps_success_timeline_c2": "掲載が公開されると、近くのビットコイン・ユーザーがあなたのビジネスを見つけて、そこでビットコインを使えるようになります。",
+	"biz_maps_success_view_header": "あなたが表示される場所を見る",
+	"biz_maps_success_view_c1": "待っている間に、世界中で成長するビットコイン受け入れビジネスのネットワークを見るには BTC Map をご覧ください。",
+	"biz_maps_success_btn_view_map": "BTC Map を見る"
 }

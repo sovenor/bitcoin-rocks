@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "ビットコイン加盟店マップ - 無料でビジネスを掲載",
-	"maps_view": "マップをこちらで見る。"
+	"maps_view": "マップをこちらで見る。",
+	"biz_maps_hero_title": "あなたのビジネスをビットコイン加盟店マップに載せる",
+	"biz_maps_hero_subtitle": "BTC Map — ビットコイン受け入れ加盟店のオープンな世界ディレクトリ — にあなたのビジネスを無料で掲載し、近くのビットコイン・ユーザーがあなたを見つけ、あなたのビジネスでビットコインを使えるようにしましょう。",
+	"biz_maps_intro_c1": "ビットコイン・ユーザーは積極的に支出する場所を探しています。マップにあなたのビジネスを載せると、近くで食事、買い物、宿泊する場所を探しているすべてのビットコイン・ユーザーの目の前に置かれます — 完全に無料で。",
+	"biz_maps_intro_c2": "以下の短いフォームに記入していただければ、私たちがあなたのビジネスを BTC Map と他のビットコイン加盟店マップに送信します。",
+	"biz_maps_view_map_cta": "BTC Map を見る",
+	"biz_maps_form_header": "あなたのビジネスについて教えてください",
+	"biz_maps_form_intro": "掲載に必要なのは少しの詳細だけです。住所データはマップにビジネスを送信するのに必要な期間だけ保存されます。",
+	"biz_maps_placeholder_name": "ビジネス名",
+	"biz_maps_placeholder_category": "カテゴリー（例：レストラン、カフェ、ホテル）",
+	"biz_maps_placeholder_address": "番地",
+	"biz_maps_placeholder_city": "市",
+	"biz_maps_placeholder_region": "州／省／地域",
+	"biz_maps_placeholder_country": "国",
+	"biz_maps_placeholder_website": "ウェブサイト（任意）",
+	"biz_maps_meta_description": "BTC Map と他のビットコイン加盟店マップにあなたのビジネスを無料で掲載し、近くのビットコイン・ユーザーがあなたを見つけられるようにしましょう。"
 }

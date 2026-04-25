@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "リクエストを受け付けました 🎉",
+	"biz_sticker_language_success_hero_subtitle": "あなたの言語の「ビットコインで支払えます」ステッカー・ファイルをリクエストしていただきありがとうございます。",
+	"biz_sticker_language_success_timeline_header": "次に何が起こるか",
+	"biz_sticker_language_success_timeline_c1": "3〜4 週間以内にステッカー・ファイルを作成して公開します。準備ができ次第、私たちのステッカー・ファイル・ページから無料でダウンロードして印刷できるようになります。",
+	"biz_sticker_language_success_timeline_c2": "ステッカー・ファイルはバッチでリリースされるため、あなたの言語が公開されるまで数週間かかる場合があります。お待ちいただきありがとうございます！"
 }

@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocksの無料ビットコインチラシ",
 	"flyers_description": "ビットコインチラシを自宅で印刷して公共の場所に掲示し、周りの人をオレンジピルしよう。",
-	"flyers_intro_header": "ビットコインチラシの印刷と掲示方法",
+	"flyers_hero_title": "ビットコイン・チラシを印刷して貼る",
+	"flyers_hero_subtitle": "無料で印刷可能なビットコイン・チラシ。公共の場に掲示して、より多くの人にビットコインについて学んでもらいましょう。",
+	"flyers_intro_header": "これらのビットコイン・チラシを印刷して掲示する方法",
 	"flyers_intro_c1": "私たちの使命は、公共の場所にビットコインチラシを掲示することで、より多くの人をオレンジピルするお手伝いをすることです。このチラシには",
 	"flyers_intro_c2": "教育的なビットコインウェブサイト",
 	"flyers_intro_c4": "このチラシを自宅や印刷ショップで印刷してください。その後、掲示板、街中の電柱、その他人々が見てビットコインについて学べる公共の場所に掲示してください。",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "チラシスポットを共有しよう",
 	"flyers_share_c1": "Nostrでチラシスポットを共有し、他の人がチラシをどこに掲示しているか見ましょう。",
 	"flyers_btn_share_on_nostr": "NOSTRで共有する",
-	"flyers_btn_what_is_nostr": "NOSTRとは？"
+	"flyers_btn_what_is_nostr": "NOSTRとは？",
+	"flyers_next_get_stickers": "広めよう",
+	"flyers_next_get_stickers_desc": "無料のビットコイン・ステッカーパックを注文する"
 }

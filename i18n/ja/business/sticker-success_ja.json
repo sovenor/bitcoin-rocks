@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
-	}
+	},
+	"biz_sticker_success_hero_title": "ステッカーを発送しました 🎉",
+	"biz_sticker_success_hero_subtitle": "無料の「ビットコインで支払えます」ステッカーは、3 枚のステッカーが入った無地の白い封筒で 2〜4 週間で届きます。",
+	"biz_sticker_success_tips_header": "ステッカーを貼るのに良い場所",
+	"biz_sticker_success_tip_1": "顧客が入店する前に見られるよう、玄関や窓に",
+	"biz_sticker_success_tip_2": "レジ、POS 端末、または決済エリアの近くに",
+	"biz_sticker_success_tip_3": "メニュー、価格表、またはチップの瓶に",
+	"biz_sticker_success_tip_4": "所有していない、または貼る許可のない場所には貼らない",
+	"biz_sticker_success_more_header": "もっとステッカーが必要ですか？",
+	"biz_sticker_success_more_c1": "3 枚のステッカーがあなたのビジネスに足りない場合は、別の無料パックをリクエストするか、私たちが使っているのと同じ印刷会社で大量注文してください。",
+	"biz_sticker_success_btn_order_bulk": "大量注文する",
+	"biz_sticker_success_btn_request_more": "別の無料パックをリクエストする"
 }
