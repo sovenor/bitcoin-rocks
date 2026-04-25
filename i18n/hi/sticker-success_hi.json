@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hi"
 	},
 	"sticker_success_1": "आपके स्टिकर 2 से 4 सप्ताह में पहुँचेंगे। इस बीच, स्टिकर लगाने के लिए अच्छी जगहों के बारे में सोचें!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "ऐसी जगहें जहाँ से जल्दी हटाया न जा सके (स्टिकर स्थायी नुकसान नहीं करते)",
 	"sticker_success_list_3": "ऐसी सतहें जहाँ आसानी से चिपक जाएं (धातु, प्लास्टिक, कांच)",
 	"sticker_success_list_4": "निजी संपत्ति, साइनबोर्ड, ATM या पेट्रोल पंप पर न लगाएं",
-	"sticker_success_3": "देखना चाहते हैं कि दूसरों ने अपने स्टिकर कहाँ लगाए हैं?"
+	"sticker_success_3": "देखना चाहते हैं कि दूसरों ने अपने स्टिकर कहाँ लगाए हैं?",
+	"sticker_success_hero_title": "आपके स्टिकर रास्ते में हैं 🎉",
+	"sticker_success_tips_header": "स्टिकर लगाने की अच्छी जगहें",
+	"sticker_success_share_header": "साझा करें कि आपने अपने स्टिकर कहाँ लगाए",
+	"sticker_success_bulk_header": "और स्टिकर चाहिए?",
+	"sticker_success_btn_order_bulk": "थोक में ऑर्डर करें",
+	"sticker_success_btn_share_on_nostr": "Nostr पर साझा करें",
+	"sticker_success_btn_what_is_nostr": "Nostr क्या है?"
 }

@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hi"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "अनुरोध मिल गया 🎉",
+	"biz_sticker_language_success_hero_subtitle": "अपनी भाषा में \"Bitcoin Accepted Here\" स्टिकर फ़ाइलों का अनुरोध करने के लिए धन्यवाद।",
+	"biz_sticker_language_success_timeline_header": "आगे क्या होगा",
+	"biz_sticker_language_success_timeline_c1": "हम आपकी स्टिकर फ़ाइलें 3-4 हफ़्तों में बनाकर पब्लिश करेंगे। जब वे तैयार होंगी, आप उन्हें हमारे स्टिकर फ़ाइल पेज से प्रिंट करने के लिए मुफ़्त में डाउनलोड कर सकेंगे।",
+	"biz_sticker_language_success_timeline_c2": "हम स्टिकर फ़ाइलें बैचों में पब्लिश करते हैं, इसलिए आपकी भाषा को लाइव होने में कुछ हफ़्ते लग सकते हैं। आपके धैर्य के लिए धन्यवाद!"
 }
