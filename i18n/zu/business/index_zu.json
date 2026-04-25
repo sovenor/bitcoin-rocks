@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_is_good_for_business": "I-Bitcoin inhle ebhizinisini",
+	"business_hero_subtitle": "Yamukela izinkokhelo ngezimali eziphansi, ukhokhelwe ngokushesha, futhi ufinyelele izigidi zamakhasimende amasha — ngaphandle kwezinkontileka nezindleko ezifihliwe.",
+	"business_intro_c1": "I-Bitcoin inikeza ibhizinisi lakho indlela esheshayo, eshibhile, eyimfihlo yokukhokhwa. Akekho umphakathi. Akukho ukubuyiselwa. Azikho izinkontileka. Yimali nje exazululayo ngemizuzwana, ngqo isuka kumakhasimende akho iya kuwe.",
+	"business_intro_c2": "Ngezansi kunenguqulo emfushane yokuthi kungani i-Bitcoin inhle ebhizinisini — futhi ngezansi kwalokho, yonke insiza oyidingayo ukuze uqale ukuyamukela namuhla.",
 	"biz_s1": "Izimali eziphansi ngaphandle kwezingakanani ezincane",
 	"biz_s1_c1": "I-Bitcoin ikuvumela ukuthola izinkokhelo ngqo kumakhasimende akho, njengokwemali engokoqobo. Inethiwekhi ye-Bitcoin isebenza ngaphandle kwabaphakathi njengamabhange nezinkampani zamakhadi esikweletu ezithatha izimali ezinkulu.",
 	"biz_s2": "Ukukhokhelwa okusheshayo",
@@ -17,5 +20,14 @@
 	"biz_s4": "Thola amakhasimende amaningi",
 	"biz_s4_c1": "Izigidi zabantu zinayo i-Bitcoin futhi zifuna ukuyisebenzisa ezindaweni eziyamukelayo.",
 	"biz_s4_c2": "Ngokumane wamukele i-Bitcoin, ibhizinisi lakho lingafakwa kumabalazwe abathengisi be-Bitcoin futhi lithole ukuvezwa kwamahhala kumakhasimende amasha e-Bitcoin.",
-	"biz_s4_c3": "Ukwamukela i-Bitcoin kumahhala ngokuphelele. Azikho izinkontileka noma izimali ezifihliwe."
+	"biz_s4_c3": "Ukwamukela i-Bitcoin kumahhala ngokuphelele. Azikho izinkontileka noma izimali ezifihliwe.",
+	"business_resources_heading": "Konke odikingayo ukuze wamukele i-Bitcoin",
+	"business_resources_intro": "Sebenza ngalezi zinsiza ngesilinganiso sakho. Yileyo nayo ingumhlahlandlela omfushane, osebenzayo.",
+	"biz_label_wallets": "IZIKHWAMA",
+	"biz_label_maps": "AMAMEPHU ABATHENGISI",
+	"biz_label_stickers": "IZITIKA",
+	"biz_label_rewards": "IMIVUZO",
+	"biz_label_accounting": "UKUBALWA KWAMABHUKU",
+	"biz_label_faq": "IMIBUZO EVAME UKUBUZWA",
+	"biz_meta_description": "Yamukela i-Bitcoin ebhizinisini lakho ngezimali eziphansi, ukuxazulula ngokushesha, akukho kubuyiselwa, namakhasimende amaningi."
 }

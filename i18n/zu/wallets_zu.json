@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_wallet_guide": "Umhlahlandlela Wesikhwama se-Bitcoin",
 	"wallets_description": "Kunezikhwama ze-Bitcoin eziningi ezihlukene ngezindlela ezibalulekile. Ungathola ukuthi isikhwama sikufanele yini ngokubuza le mibuzo elula.",
 	"wallets_header": "INDLELA YOKUGCINA I-BITCOIN YAKHO NGOKUPHEPHA",
+	"wallets_header_subtitle": "Umhlahlandlela wesinyathelo nesinyathelo wokukhetha isikhwama, ukuvikela okhiye bakho, nokuthatha ukulawula okuphelele kwe-Bitcoin yakho.",
 	"wallets_s1_c1": "Izikhwama ze-Bitcoin ziyasebenzisana, ngakho ungathumela i-Bitcoin kunoma ubani noma ngabe basebenzisa siphi isikhwama.",
 	"wallets_s1_c2": "Kunezikhwama ze-Bitcoin eziningi ezihlukene ngezindlela ezibalulekile. Ungathola ukuthi isikhwama sikufanele yini ngokubuza le mibuzo elula:",
 	"wallets_question_1": "NGABE YISIKHWAMA SOKUZIGCINELA?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "U-Jameson Lopp uhlole amakhithi angu-70 okugcina ensimbini ukuze akusize ukukhetha okukufanele.",
 	"wallets_s6_c5": "Buka umhlahlandlela ka-Jameson wokugcina ensimbini we-Bitcoin lapha.",
 	"wallets_s6_c6": "Noma uqhubeke ukhuphuka ukuze uhlole izinketho zezikhwama ze-Bitcoin.",
+	"wallets_grid_heading": "Izikhwama ze-Bitcoin ezidumile",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Ufuna Umhlahlandlela Wethu Wesikhwama se-Lightning?",
 	"wallets_starter_wallet": "Isikhwama esihle sokuqala",
 	"wallets_mobile_app": "Uhlelo lokusebenza lweselula",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Ibhetri eligcwaliswayo",
 	"wallets_build_your_own": "Yakha okwakho",
 	"wallets_qwerty_keyboard": "Ikhibhodi ephelele ye-QWERTY",
-	"wallets_qr_scanner": "Isiskena sekhodi ye-QR"
+	"wallets_qr_scanner": "Isiskena sekhodi ye-QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Choose Your Wallet",
+	"sources_jameson_lopp": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+	"sources_blockstream_green": "Blockstream Green — Self-custody Bitcoin wallet",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin hardware wallet",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware wallet",
+	"sources_coldcard_q": "Coinkite — Coldcard Q hardware wallet",
+	"sources_passport": "Foundation Devices — Passport hardware wallet",
+	"sources_seedsigner": "SeedSigner — Open-source DIY Bitcoin signing device"
 }

@@ -1,3 +1,94 @@
+## Zulu (zu) manifest refresh — April 25, 2026 — 🎉 Step 5 COMPLETE (54/54)
+
+Ran `/translate-manifest-refresh Zulu` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+54/54 — Step 5 is now COMPLETE.** isiZulu is the official language
+of the South African Zulu people (and one of South Africa's 11
+official languages, alongside Afrikaans, English, etc.), with ~12M
+native speakers. Bantu language family. Latin script.
+
+**Report stats:**
+- 464 missing locale-specific
+- 10 untranslated (sticker dimensions adapted to SA decimal-comma
+  convention)
+- 165 manifest-changed + 392 manifest-added → **1,031 total**
+
+**4 helper scripts under `scripts/zu-manifest-refresh/`:**
+
+- `translate-inflation.js` — 368 entries. Per-currency templated
+  translator × 13 currencies with Bantu noun-class concord — class-9
+  "i-" prefix singular and "ama-" plural prefix: idola, amayuro,
+  amapeso, ireyali, ipawundi, ibhati. Avoids generic catch-all.
+- `translate-rest-part1.js` — 209 entries. 404, about, bank-runs,
+  common, compound-inflation-calculator, lightning, nostr/index,
+  sticker-files/index, wallets, business/wallets shared.
+- `translate-rest-part2.js` — 182 entries. All 10 bitcoin-vs-*
+  comparisons + index homepage.
+- `translate-rest-part3.js` — 272 entries. business/accounting,
+  business/why, business/index, business/maps*, business/stickers*,
+  business/sticker-success, business/faq, get-involved, stickers,
+  sticker-success, flyers, buy.
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **isiZulu agglutinative compound style preserved** —
+  "ngokuhamba kwesikhathi" for "over time", "ngokuzigcinela" for
+  "self-custody". Long surface forms are idiomatic in isiZulu, not
+  awkward.
+- **Dimensions** follow South African convention (commas as decimal
+  separators: "21,59 cm x 4,6482 cm").
+- "Bitcoin" stays Latin/capitalized (matches BusinessTech, IOL Tech,
+  MyBroadband, Daily Maverick).
+- **Worktree path bug recovery:** zu agent's first commit
+  accidentally landed in the main worktree (same path bug as tl).
+  Unlike tl, zu detected the issue and recovered: cherry-picked
+  the commit onto its worktree branch, then `git reset --hard
+  8597b9f9` on the parent's v2-nextjs-redesign to clean up. The
+  recovered commit was then cherry-picked normally by the
+  orchestrator. Self-correcting; the orchestrator's downstream
+  cherry-pick worked transparently.
+
+## 🎯 Step 5 milestone — 2026-04-25
+
+All 54 non-English locales have been refreshed against the V2
+manifest. Step 5 (per-language re-translation) is **54/54
+complete**. The remaining V2 cleanup work is Step 6 (final
+verification — audit-translation across all locales, re-run
+unused-keys audit, re-run formatter, plus 4 more items).
+
+**Parallel-worktree pattern — final lessons learned across 3
+sessions (sv, sw/ta/th, tl/tr/ur/uz/vi/yo/zh/zu):**
+- Worktree isolation works for ~75% of agents — disjoint i18n/
+  files mean no merge conflicts.
+- ~25% of agents trip on absolute-path resolution: they read the
+  working directory from CLAUDE.md (which lists the main repo path)
+  rather than discovering their actual worktree path. This causes
+  writes to leak into the main worktree.
+- Recovery patterns observed:
+  1. Self-correct + report (ta, zu): agent detects the issue and
+     resets/cherry-picks back into its worktree.
+  2. Commit directly to v2-nextjs-redesign in main (tl): agent's
+     work lands but bypasses isolation; orchestrator amends in
+     place.
+  3. Partial leak + orchestrator cleanup (ur, tr): a single Write
+     lands in main; orchestrator deletes the duplicate file before
+     cherry-picking the agent's worktree branch.
+- Mitigations for future batches:
+  1. Pass `$WORKTREE_PATH` explicitly via the agent prompt; instruct
+     the agent to use it for all absolute-path Write/Read calls.
+  2. Have the agent print `pwd` and verify it matches the worktree
+     path before doing any work.
+  3. Orchestrator-level: after each agent reports, run
+     `git status` in main and reject/clean any leaked files before
+     cherry-picking.
+- Performance: 8-language batch took ~22 minutes wall-clock
+  dispatch-to-last-completion. Sequential equivalent: ~2-3 hours.
+  ~6x effective speedup. Pattern is ready for any future
+  large-batch i18n work.
+
+Next phase: **Step 6 — Final verification**.
+
 ## Chinese (zh) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Chinese` end-to-end as part of the

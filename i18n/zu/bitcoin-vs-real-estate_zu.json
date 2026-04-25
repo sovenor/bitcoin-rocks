@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_vs_real_estate": "I-Bitcoin vs Izindlu Nempahla",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Kunzima ukuyibhubhisa",
 	"bitcoin_point_7": "Ishintshana ngokuphelele",
 	"bitcoin_point_8": "Imakethe yomhlaba 24/7",
-	"point_1_summary_1": "I-Bitcoin ingahanjiswa noma kuphi emhlabeni ngokushesha nge-inthanethi. Izindlu nempahla yimiselwe unomphela endaweni ethile futhi ayikwazi ukuhanjiswa, okuyenza ibe sengozini yezimo zomnotho wendawo, izinhlekelele zemvelo, nokungazinzi kwezepolitiki.",
-	"point_2_summary_1": "I-Bitcoin ingahlukaniswa izingxenye ezingu-100 million ezincane ezibizwa ngokuthi ama-satoshi, okuyenza ibe yinhle ezinkokhelweni zanoma yisiphi isilinganiso. Izindlu nempahla azikwazi ukuhlukaniswa kalula - awukwazi ukuthengisa ikhishi lendlu yakho kuphela noma uthenge uhhafu wendlu yokulala.",
-	"point_3_summary_1": "I-Bitcoin isebenza kunethiwekhi engacentralized engekho hulumeni ongayilawula. Izindlu nempahla ziphethwe yimithetho ebanzi kahulumeni kufaka phakathi ukulawula irenti, ukumisa ukuxoshwa, imithetho yokuhlelwa, nomthetho wokuphucwa lapho uhulumeni engathatha impahla yakho.",
-	"point_4_summary_1": "I-Bitcoin ayidingi ukulungiswa - ikhona njengamakhodi edijithali kunethiwekhi. Izindlu nempahla zidinga ukunakekelwa njalo kufaka phakathi ukulungiswa, ukuvuselelwa, ukuphathwa kwempahla, umshwalense, nokuphatha abaqashi uma iqashisiwe.",
-	"point_5_summary_1": "I-Bitcoin ayinantela eqhubekayo - ukhokha intela yenzuzo kuphela lapho uthengisa. Izindlu nempahla ziphethwe yintela yempahla yonyaka ekumele ikhokhwe kungakhathaliseki ukuthi impahla ikhiqiza inzuzo yini, okukukuphoqa ukukhokhela uhulumeni impahla yakho unomphela.",
-	"point_6_summary_1": "I-Bitcoin, lapho igcinwe ngendlela efanele, ayikwazi ukubhujiswa yizikhukhula, imililo, ukuzamazama komhlaba, iziphepho, noma ezinye izinhlekelele zemvelo. Izindlu nempahla zisengozini kuzo zonke izinhlobo zokubhubhisa ngokomzimba futhi zidinga umshwalense obizayo ongase ungambozi ngokuphelele ukulahlekelwa.",
-	"point_7_summary_1": "I-bitcoin ngayinye iyafana futhi iyashintshana - i-bitcoin eyodwa ilingana ne-bitcoin eyodwa noma kuphi emhlabeni. Impahla ngayinye yezindlu ihlukile ngendawo, isimo, nezici, okwenza kunzima ukubeka intengo nokuqhathanisa izimpahla.",
-	"point_8_summary_1": "I-Bitcoin ingathengwa futhi ithengiswe 24/7 yinoma ubani onokufinyelela ku-inthanethi noma kuphi emhlabeni. Ukuthengiswa kwezindlu nempahla kulinganiselwe kubathengi bendawo, kudinga izinqubo ezinde nabameli namajenti, futhi kungathatha izinyanga ukuqeda.",
+	"point_1_summary_1": "I-Bitcoin ihamba noma kuphi emhlabeni ngokushesha. Izindlu nempahla zibekwe endaweni eyodwa futhi zisengozini yezimo zomnotho wendawo, ezepolitiki, nezemvelo.",
+	"point_2_summary_1": "I-Bitcoin yahlukaniswa ngama-sats angu-100 million. Izindlu nempahla azikwazi ukuthengiswa ngokwengxenye — awukwazi ukuthengisa ikhishi kuphela noma uthenge uhhafu wegumbi lokulala.",
+	"point_3_summary_1": "I-Bitcoin isebenza kunethiwekhi engacentralized engelawulwa muntu. Izindlu nempahla zilawulwa kakhulu — ukulinganisa indawo, ukulawulwa kwerenti, umthetho wokuphucwa, nokuthathwa kufaka phakathi.",
+	"point_4_summary_1": "I-Bitcoin ayidingi ukulungiswa. Izindlu zidinga ukulungiswa, ukuvuselelwa, umshwalense, ukuphathwa kwempahla, nezinkinga zabaqashi.",
+	"point_5_summary_1": "I-Bitcoin ayinazintela ezilandelayo — ukhokha intela yenzuzo kuphela uma uthengisa. Izindlu zikweleta intela yempahla yonyaka kungakhathaliseki ukuthi inomholo.",
+	"point_6_summary_1": "I-Bitcoin, igcinwe ngendlela efanele, isinda emlilweni, ezikhukhuleni, nasekuzamazameni komhlaba. Izindlu zisengozini kuyo yonke inhlekelele, futhi umshwalense awumbozi konke.",
+	"point_7_summary_1": "Yonke i-bitcoin iyafana futhi iyashintshana. Yonke impahla yendlu iyahluka, okwenza ukubeka intengo nokuqhathanisa kube nzima.",
+	"point_8_summary_1": "I-Bitcoin ithengiswa emhlabeni 24/7 yinoma ubani onokuxhumana ne-inthanethi. Ukuthengiswa kwezindlu kulinganiselwe kubathengi bendawo futhi kungathatha izinyanga zokuqeda amaphepha.",
 	"bitcoin_point_9": "Ikhuthaza ubunini bomuntu ngamunye",
 	"real_estate_point_9": "Ifaka isandla ekuguqulweni kwezindlu zibe yimali",
-	"point_9_summary_1": "I-Bitcoin ivumela ubunini bomuntu ngamunye ngqo ngaphandle kwabaphakathi, ikhuthaza inkululeko yezezimali yawo wonke umuntu. Ukuthenga izindlu nempahla njengokutshalomali ngaphezu kwekhaya lakho elikhulu kufaka isandla ekuguqulweni kwezindlu zibe yimpahla yezezimali, ukuphatha izindlu njengezinto ezithengwayo kunokuthi zibe yindawo yokulala. Lokhu kuphakamisa intengo, kunciphisa ukukwazi ukuthenga kwemindeni, futhi kufaka isandla enkingeni yezindlu nokuhlala emgwaqeni ethinta amazwe amaningi namuhla."
+	"point_9_summary_1": "I-Bitcoin ivumela ubunini bomuntu ngamunye obuqondile noma ubani. Ukuthenga izindlu njengokutshalomali ngaphezu kwekhaya lakho elikhulu kuphakamisa amanani ezindlu, kunciphise ukukwazi ukuthenga, futhi kufaka isandla enkingeni yezindlu.",
+	"hero_title": "Umehluko phakathi kwe-<span class=\"orange\">Bitcoin</span> ne-<span class=\"asset\">Izindlu Nempahla</span>"
 }

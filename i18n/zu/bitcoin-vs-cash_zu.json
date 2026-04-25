@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_vs_cash": "I-Bitcoin vs Imali Engokoqobo",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Inethiwekhi engacentralized",
 	"bitcoin_point_6": "Ukuzigcinela kwedijithali",
 	"bitcoin_point_7": "Ihlukaniseka kalula",
-	"point_1_summary_1": "I-Bitcoin ingathunyelelwa noma kuphi emhlabeni ngokushesha nge-Inthanethi, ngenkathi imali engokoqobo idinga ukuba khona ngokwenyama noma abaphakathi abathembekile. Awukwazi ukuthumela imali nge-imeyili, kodwa ungathumela i-Bitcoin kunoma ubani onokuxhumana ne-Inthanethi ngemizuzu.",
-	"point_2_summary_1": "I-Bitcoin isebenza ngendlela efanayo emhlabeni wonke - azikho imingcele kunethiwekhi ye-Bitcoin. Imali engokoqobo ilinganiselwe yindawo, amazinga okushintshanisa, nokwamukelwa kwendawo. Zama ukusebenzisa amadola ase-US emaphandleni aseThayilandi noma ama-yen aseJapane emaphandleni aseMexico.",
-	"point_3_summary_1": "Ohulumeni bangachitha futhi bavale imali engokoqobo ubusuku obubodwa ngezinqubomgomo zokuncishiswa kwemali, njengoba i-India yenza ngo-2016 lapho ivala amanothimali athile.",
-	"point_3_summary_2": "Ngisho nangaphandle kokuvala amanothimali athile, ohulumeni behlisa njalo inani lemali engokoqobo ngenfleshini.",
-	"point_3_summary_3": "I-Bitcoin ayikwazi ukuchithwa noma yimuphi uhulumeni noma isiphathimandla - ikhona kunethiwekhi yomhlaba wonke, engacentralized engenasizinda esisodwa esilawulayo.",
-	"point_4_summary_1": "Imali engokoqobo ingakopishwa ngokukhohlisa, futhi ngokuvamile kunzima ukubona amanothimali amanga ngaphandle kwemishini ekhethekile. Ngisho nangezici zokuphepha, imali engokoqobo eyinkohliso iyaqhubeka nokusebenza. I-Bitcoin isebenzisa ubufakazi be-cryptographic obenza ukuphrinta ngokukhohlisa kungabi nako ngokomathemathiki.",
-	"point_5_summary_1": "Imali engokoqobo ikhishwa futhi ilawulwa ohulumeni, abangaphrinta eyengeziwe ngokuthanda, bashintshe imiklamo, noma bamemezele ukuthi amanothimali athile angasasebenzi. I-Bitcoin isebenza kunethiwekhi engacentralized lapho kungekho siphathimandla esisodwa esinolawulo emalini noma emithethweni.",
-	"point_6_summary_1": "Imali engokoqobo kumele igcinwe ngokwenyama, okuyenza ibe sengozini yokwebiwa, ukulahleka, umlilo, noma ukuthathwa. Izinani ezinkulu zidinga izinyathelo zokuphepha ezibizayo.",
-	"point_6_summary_2": "Kodwa i-Bitcoin ingagcinwa ngokuphepha ngokuzigcinela",
-	"point_6_summary_3": "usebenzisa uhlelo lokusebenza lweselula noma isikhwama esikhethekile, okukunika ukulawula okuphelele emalini yakho ngaphandle kwezingozi zokugcina ngokwenyama.",
-	"point_7_summary_1": "Imali engokoqobo inamanani amancane - awukwazi ukuhlukanisa isenti ibe yizingxenye ezincane. I-Bitcoin ingahlukaniswa izingxenye ezingu-100 million ezincane ezibizwa ngokuthi ama-satoshi, okuvumela izinkokhelo ezincane kakhulu nezinkokhelo ezinembile zanoma yisiphi isamba."
+	"point_1_summary_1": "I-Bitcoin ihamba kunoma yiphi indawo emhlabeni nge-inthanethi ngemizuzu. Imali engokoqobo idinga ukuba khona ngokwenyama noma abaphakathi abathembekile — awukwazi ukuthumela inothi le-$20 nge-imeyili.",
+	"point_2_summary_1": "I-Bitcoin isebenza ngendlela efanayo yonke indawo. Imali engokoqobo ilinganiselwe yindawo, amazinga okushintshanisa, nokwamukelwa kwendawo.",
+	"point_3_summary_1": "Ohulumeni bangachitha imali engokoqobo ngobusuku obubodwa — i-<a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> yakwenza ngo-2016. Ngisho nangaphandle kokuvalwa kwamanothimali, imali engokoqobo ilahlekelwa inani nge",
+	"point_3_summary_2": "inkomba yenfleshini.",
+	"point_3_summary_3": "I-Bitcoin ayikwazi ukuchithwa noma yimuphi uhulumeni noma isiphathimandla.",
+	"point_4_summary_1": "Imali engokoqobo ingakopishwa, ngezinye izikhathi ngokukhohlisa. I-Bitcoin isebenzisa i-cryptography eyenza ukukopisha kungenakwenzeka ngokomathemathiki.",
+	"point_5_summary_1": "I-Bitcoin ayinaso isiphathimandla esiyinhloko. Imali engokoqobo ikhishwa ohulumeni abangaphrinta eyengeziwe, bashintshe imiklamo, noma bachithe amanothimali ngokuthanda.",
+	"point_6_summary_1": "Imali engokoqobo isengozini yokwebiwa, umlilo, ukulahleka, nokuthathwa. I-Bitcoin ingagcinwa ngokuphepha",
+	"point_6_summary_2": "ngokuzigcinela",
+	"point_6_summary_3": "efonini noma kwidivayisi yehadiwe.",
+	"point_7_summary_1": "I-Bitcoin yahlukaniswa ngama-sats angu-100 million, ivumela ama-micropayments anoma yiluphi usayizi. Imali engokoqobo inamanani amancane — awukwazi ukuhlukanisa isenti.",
+	"hero_title": "Umehluko phakathi kwe-<span class=\"orange\">Bitcoin</span> ne-<span class=\"asset\">Imali Engokoqobo</span>"
 }

@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
-	}
+	},
+	"biz_maps_success_hero_title": "Isicelo sitholiwe 🎉",
+	"biz_maps_success_hero_subtitle": "Siyabonga ngokuthumela ibhizinisi lakho. Sizokufaka ohlwini emamephini abathengisi be-Bitcoin maduzane.",
+	"biz_maps_success_timeline_header": "Yini ezolandela",
+	"biz_maps_success_timeline_c1": "Ibhizinisi lakho lizofakwa ohlwini ku-BTC Map nakwezinye izindawo zabathengisi be-Bitcoin esikhathini esiphakathi kwesonto eli-1 nezimbili. Sihlola isicelo ngasinye ngezandla ukuze sigcine amamephu eqondile.",
+	"biz_maps_success_timeline_c2": "Lapho uhlu lwakho seluvuliwe, ama-Bitcoiner aseduze angakwazi ukuthola ibhizinisi lakho futhi azochitha i-Bitcoin lapho.",
+	"biz_maps_success_view_header": "Bona lapho uzobonakala khona",
+	"biz_maps_success_view_c1": "Ngenkathi ulinde, bheka i-BTC Map ukuze ubone inethiwekhi ekhulayo yamabhizinisi amukela i-Bitcoin emhlabeni wonke.",
+	"biz_maps_success_btn_view_map": "Buka i-BTC Map"
 }

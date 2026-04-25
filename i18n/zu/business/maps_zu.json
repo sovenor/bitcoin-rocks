@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Amabalazwe Abathengisi be-Bitcoin - Bhalisa ibhizinisi lakho mahhala",
-	"maps_view": "Buka ibalazwe lapha."
+	"maps_view": "Buka ibalazwe lapha.",
+	"biz_maps_hero_title": "Faka ibhizinisi lakho emamephini abathengisi be-Bitcoin",
+	"biz_maps_hero_subtitle": "Faka ibhizinisi lakho mahhala ku-BTC Map — uhlu olwomhlaba wonke, oluvulekile lwabathengisi abamukela i-Bitcoin — ukuze ama-Bitcoiner aseduze akwazi ukukuthola futhi achithe i-Bitcoin ebhizinisini lakho.",
+	"biz_maps_intro_c1": "Ama-Bitcoiner ngempela afuna izindawo zokuchitha. Ukufaka ibhizinisi lakho emaphini kukubeka phambi kwawo wonke umsebenzisi we-Bitcoin osesha indawo yokudla, ukuthenga, noma ukuhlala eduze — ngezindleko ezingu-zero kuwe.",
+	"biz_maps_intro_c2": "Vele ugcwalise ifomu elimfushane elingezansi futhi sizothumela ibhizinisi lakho ku-BTC Map nakwamanye amamephu abathengisi be-Bitcoin esikhundleni sakho.",
+	"biz_maps_view_map_cta": "Buka i-BTC Map",
+	"biz_maps_form_header": "Sitshele ngebhizinisi lakho",
+	"biz_maps_form_intro": "Sidinga kuphela imininingwane embalwa ukuze sikufake ohlwini. Idatha yekheli igcinwa kuphela ngesikhathi esanele sokuthumela ibhizinisi lakho emamephini.",
+	"biz_maps_placeholder_name": "Igama lebhizinisi",
+	"biz_maps_placeholder_category": "Isigaba (e.g. indawo yokudlela, ikhefi, ihhotela)",
+	"biz_maps_placeholder_address": "Ikheli lomgwaqo",
+	"biz_maps_placeholder_city": "Idolobha",
+	"biz_maps_placeholder_region": "Isifunda / Iphrovinsi / Isifundazwe",
+	"biz_maps_placeholder_country": "Izwe",
+	"biz_maps_placeholder_website": "Iwebhusayithi (ngokukhetha)",
+	"biz_maps_meta_description": "Faka ibhizinisi lakho mahhala ku-BTC Map nakwamanye amamephu abathengisi be-Bitcoin ukuze ama-Bitcoiner aseduze akwazi ukukuthola."
 }

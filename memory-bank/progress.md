@@ -1,3 +1,85 @@
+## i18n cleanup Step 5 — Zulu (zu) — 2026-04-25 — 🎉 Step 5 COMPLETE (54/54)
+
+Ran `/translate-manifest-refresh Zulu` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/tr/ur/uz/vi/yo/zh. **This is the final locale.** isiZulu is the
+official language of the South African Zulu people, with ~12M native
+speakers; Bantu language family. Latin script. Step 5
+(per-language re-translation) is now **54/54 complete**.
+
+1,031 entries flagged (464 missing + 10 untranslated + 165
+manifest-changed + 392 manifest-added).
+
+**4 helper scripts under `scripts/zu-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — per-currency × 13
+   currencies via templated function with Bantu noun-class concord
+   (idola, amayuro, amapeso, ireyali, ipawundi, ibhati — class-9 "i-"
+   prefix singular, "ama-" plural prefix) rather than a generic
+   catch-all).
+2. `translate-rest-part1.js` (209 entries — 404, about, bank-runs,
+   common, compound-inflation-calculator, lightning, nostr/index,
+   sticker-files/index, wallets, business/wallets shared).
+3. `translate-rest-part2.js` (182 entries — all 10 bitcoin-vs-*
+   comparisons + index homepage).
+4. `translate-rest-part3.js` (272 entries — business/accounting,
+   business/why, business/index, business/maps*, business/stickers*,
+   business/sticker-success, business/faq, get-involved, stickers,
+   sticker-success, flyers, buy).
+
+**Edge cases / notes:**
+- isiZulu agglutinative compound style preserved
+  ("ngokuhamba kwesikhathi" for "over time", "ngokuzigcinela" for
+  "self-custody").
+- Dimensions follow South African convention (commas as decimal
+  separators: "21,59 cm x 4,6482 cm").
+- "Bitcoin" stays Latin/capitalized (matches BusinessTech, IOL Tech,
+  MyBroadband).
+- **Worktree path bug recovery:** zu agent's first commit
+  accidentally landed in the main worktree (same bug as tl). Agent
+  recovered by cherry-picking to its worktree branch and resetting
+  the parent's v2-nextjs-redesign back to 8597b9f9. Self-correcting,
+  in contrast to tl which left its commit in main.
+
+All 4 verification checks pass.
+
+## 🎯 Step 5 milestone — 2026-04-25
+
+All 54 non-English locales have been refreshed against the V2
+manifest. Completion order: af, am, ar, az, bg, bn, ca, cs, da, de,
+el, es, et, eu, fa, fi, fil, fr, ga, ha, he, hi, hr, hu, id, it, ja,
+ko, lt, ms, my, nb, nl, ny, pa, pl, pt, ro, ru, si, sk, sl, sv, sw,
+ta, th, tl, tr, ur, uz, vi, yo, zh, zu.
+
+**Parallel-worktree pattern lessons learned (across the sv +
+sw/ta/th + tl/tr/ur/uz/vi/yo/zh/zu sessions):**
+- Worktree isolation works for the bulk of agents — disjoint i18n/
+  files mean no merge conflicts.
+- Some agents trip on absolute-path resolution: they read the
+  "working directory" from CLAUDE.md (which lists the main repo
+  path) rather than discovering their actual worktree path. Result:
+  writes leak into the main worktree.
+- Mitigations to add to future agent prompts:
+  1. Pass `$WORKTREE_PATH` explicitly in the prompt and instruct
+     the agent to use it for all absolute-path Write/Read calls.
+  2. Have the agent print `pwd` and verify it matches the worktree
+     path before doing any work.
+  3. Catch the leak case at orchestrator level by checking
+     `git status` in main after each agent reports completion.
+- Cherry-pick + amend pattern works well: orchestrator can preserve
+  one-commit-per-language history while parallelizing the bulk of
+  the translation work.
+- Speedup for an 8-language batch: ~22 minutes wall-clock vs an
+  estimated 2-3 hours sequentially. ~6x effective speedup.
+
+Next phase: **Step 6 — Final verification** (per
+V2-REDESIGN-CHECKLIST.md):
+1. Run `scripts/audit-translation.js` across all non-English
+   locales; zero English-leak findings.
+2. Re-run unused-keys audit from Step 1 to confirm no new dead keys.
+3. Re-run formatter from Step 3 across `i18n/**/*.json` to catch
+   any blank-line regressions.
+4. (And the 4 remaining Step 6 items.)
+
 ## i18n cleanup Step 5 — Chinese (zh) — 2026-04-25
 
 Ran `/translate-manifest-refresh Chinese` end-to-end via the

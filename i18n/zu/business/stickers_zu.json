@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"bitcoin_accepted_here_stickers": "Izitika ze-'Bitcoin Accepted Here'",
+	"biz_stickers_hero_title": "Izitika zamahhala 'I-Bitcoin Yamukelwa Lapha'",
+	"biz_stickers_hero_subtitle": "Yenza amakhasimende akho akwazi ukuthi wamukela i-Bitcoin. Yala iphakethe lamahhala lezitika 'I-Bitcoin Yamukelwa Lapha' uzifake ebhizinisini lakho.",
+	"biz_stickers_intro_c1": "Ukwamukela i-Bitcoin kuyingxenye yomsebenzi nje — amakhasimende akho nawo adinga ukwazi ukuthi uyenza. Lezi zitika ezincane 'I-Bitcoin Yamukelwa Lapha' zidizayinelwe ukuthi unamathele emnyango wakho wangaphambili, kumshini wokukhokha, kumenyu, noma kunoma yikuphi lapho amakhasimende ezozibona ngaphambi kokukhokha.",
+	"biz_stickers_intro_c2": "Sizokuthumelela iphakethe lamahhala kunoma kuphi e-USA noma e-Canada, noma ungaphrinta esakho kunoma kuphi emhlabeni.",
+	"biz_stickers_step_header": "Ufuna ukuthola izitika zakho ngendlela enjani?",
+	"biz_stickers_step_description": "Sizothumela iphakethe lamahhala emakhelini ase-USA naseCanada. Kunoma kuphi emhlabeni, ungaphrinta esakho.",
+	"biz_stickers_option_usa": "🇺🇸 I-USA — Mahhala ngeposi",
+	"biz_stickers_option_canada": "🇨🇦 I-Canada — Mahhala ngeposi",
+	"biz_stickers_option_print": "🌍 Umhlaba — Phrinta okwami",
+	"biz_stickers_print_header": "Phrinta amafayela akho esitika",
+	"biz_stickers_print_c1": "Ungaphrinta izitika zakho 'I-Bitcoin Yamukelwa Lapha', kungakhathaliseki ukuthi uhlalaphi. Chofoza ulimi lwakho ngezansi ukuze ulande amafayela esitika nemiyalelo yokuphrinta.",
+	"biz_stickers_request_header": "Awuluboni ulimi lwakho?",
+	"biz_stickers_request_c1": "Gcwalisa ifomu elingezansi ukuze ucele amafayela esitika 'I-Bitcoin Yamukelwa Lapha' ngolimi lwakho lwendawo. Sizokwazisa lapho selungile.",
+	"biz_stickers_placeholder_translation1": "Inguqulo ka 'Bitcoin Accepted Here'",
+	"biz_stickers_placeholder_translation2": "Inguqulo ka 'Scan to learn why Bitcoin is good for business.'",
 	"stickers_request": "Thola izitika zakho zamahhala"
 }
