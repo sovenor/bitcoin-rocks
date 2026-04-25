@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"cic_header": "KALKULATOR INFLACJI ZŁOŻONEJ",
 	"cic_description": "Użyj tego Kalkulatora Inflacji Złożonej, aby dowiedzieć się, o ile twoja pensja musi wzrosnąć, aby nadążyć za inflacją.",
-	"cic_inflation_cta": "Zrezygnuj z inflacji dzięki Bitcoinowi"
+	"cic_hero_subtitle": "Sprawdź, o ile musi wzrosnąć twoja pensja, by nadążyć za inflacją.",
+	"cic_calculator_heading": "Oblicz swoją lukę inflacyjną",
+	"cic_cta_label": "Następny krok",
+	"cic_inflation_cta": "Zrezygnuj z inflacji dzięki Bitcoinowi",
+	"cic_next_learn_inflation": "Naucz się, jak działa inflacja",
+	"cic_next_explore_topics": "Poznaj więcej tematów",
+	"cic_next_explore_topics_desc": "Zobacz, jak Bitcoin łączy się z pieniądzem, wolnością, energią i innymi tematami.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — wskaźnik cen towarów i usług konsumpcyjnych dla wszystkich konsumentów miejskich",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — podaż pieniądza M1"
 }

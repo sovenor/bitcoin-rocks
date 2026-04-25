@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"bitcoin_wallet_guide": "Przewodnik po portfelach Bitcoin",
 	"wallets_description": "Istnieje wiele różnych portfeli Bitcoin, które różnią się w ważny sposób. Możesz określić, czy portfel jest odpowiedni dla ciebie, zadając te proste pytania.",
 	"wallets_header": "JAK BEZPIECZNIE PRZECHOWYWAĆ BITCOIN",
+	"wallets_header_subtitle": "Przewodnik krok po kroku, jak wybrać portfel, chronić klucze i przejąć pełną kontrolę nad swoim Bitcoinem.",
 	"wallets_s1_c1": "Portfele Bitcoin są interoperacyjne, więc możesz wysłać Bitcoin komukolwiek, niezależnie od tego, jakiego portfela używa.",
 	"wallets_s1_c2": "Istnieje wiele różnych portfeli Bitcoin, które różnią się w ważny sposób. Możesz określić, czy portfel jest odpowiedni dla ciebie, zadając te proste pytania:",
 	"wallets_question_1": "CZY TO PORTFEL Z SAMODZIELNA OPIEKĄ?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp przetestował 70 stalowych zestawów do kopii zapasowych, aby pomóc ci wybrać ten właściwy.",
 	"wallets_s6_c5": "Zobacz przewodnik Jamesona po metalowych kopiach zapasowych Bitcoin tutaj.",
 	"wallets_s6_c6": "Lub przewijaj dalej, aby zapoznać się z opcjami portfeli Bitcoin.",
+	"wallets_grid_heading": "Popularne portfele Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Szukasz naszego Przewodnika po portfelach Lightning?",
 	"wallets_starter_wallet": "Świetny portfel na start",
 	"wallets_mobile_app": "Aplikacja mobilna",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Akumulator",
 	"wallets_build_your_own": "Zbuduj własny",
 	"wallets_qwerty_keyboard": "Pełna klawiatura QWERTY",
-	"wallets_qr_scanner": "Skaner kodów QR"
+	"wallets_qr_scanner": "Skaner kodów QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Wybierz portfel",
+	"sources_jameson_lopp": "Jameson Lopp — recenzje metalowych przechowalni do seedu Bitcoin",
+	"sources_blockstream_green": "Blockstream Green — portfel Bitcoin z samodzielną kustodią",
+	"sources_blockstream_jade": "Blockstream Jade — sprzętowy portfel Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — sprzętowy portfel Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — sprzętowy portfel Coldcard Q",
+	"sources_passport": "Foundation Devices — sprzętowy portfel Passport",
+	"sources_seedsigner": "SeedSigner — otwartoźródłowe DIY-owe urządzenie do podpisywania transakcji Bitcoin"
 }

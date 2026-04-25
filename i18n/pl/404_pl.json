@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"404_title": "Błąd 404 | Strona nie znaleziona",
-	"404_message": "TA USZKODZONA STRONA NIE JEST COOL",
-	"404_home": "WRÓĆ NA STRONĘ GŁÓWNĄ"
+	"404_message": "Bitcoin jest super, ale ta zepsuta strona już nie.",
+	"404_home": "Wróć do strony głównej",
+	"404_not_found_short": "Nie znaleziono"
 }

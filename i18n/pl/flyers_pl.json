@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"free_bitcoin_flyers": "Darmowe ulotki Bitcoin od bitcoin.rocks",
 	"flyers_description": "Wydrukuj ulotkę Bitcoin w domu i umieść ją w miejscu publicznym, aby pomarańczowo-pigułkować tych wokół ciebie.",
-	"flyers_intro_header": "JAK DRUKOWAĆ I ROZWIESZAĆ TE ULOTKI BITCOIN",
+	"flyers_hero_title": "Drukuj i wieszaj ulotki Bitcoinowe",
+	"flyers_hero_subtitle": "Darmowe ulotki Bitcoinowe do druku. Wieszaj je w miejscach publicznych, by więcej osób dowiedziało się o Bitcoinie.",
+	"flyers_intro_header": "Jak wydrukować i powiesić te ulotki Bitcoinowe",
 	"flyers_intro_c1": "Naszą misją jest pomóc ci pomarańczowo-pigułkować więcej osób, umieszczając ulotki Bitcoin w miejscach publicznych. Ta ulotka ma kod QR linkujący do naszej",
 	"flyers_intro_c2": "edukacyjnej strony o Bitcoinie.",
 	"flyers_intro_c4": "Wydrukuj tę ulotkę w domu lub w drukarni. Następnie umieść ją na tablicach ogłoszeń, słupach telefonicznych w okolicy i innych miejscach publicznych, gdzie ludzie mogą ją zobaczyć i dowiedzieć się o Bitcoinie.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "PODZIEL SIĘ SWOIMI MIEJSCAMI Z ULOTKAMI",
 	"flyers_share_c1": "Podziel się swoimi miejscami z ulotkami z nami na Nostr i zobacz, gdzie inni ludzie umieszczają swoje ulotki.",
 	"flyers_btn_share_on_nostr": "UDOSTĘPNIJ NA NOSTR",
-	"flyers_btn_what_is_nostr": "CZYM JEST NOSTR?"
+	"flyers_btn_what_is_nostr": "CZYM JEST NOSTR?",
+	"flyers_next_get_stickers": "Szerz wieść",
+	"flyers_next_get_stickers_desc": "Zamów darmowy zestaw naklejek Bitcoinowych"
 }

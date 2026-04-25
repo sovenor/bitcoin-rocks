@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banki",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Przewidywalne, niskie opłaty",
 	"bitcoin_point_6": "Nie można przekroczyć salda",
 	"bitcoin_point_7": "Odporny na cenzurę",
-	"point_1_summary_1": "Bitcoin jest bezpozwoleniowy, co oznacza, że każdy z dostępem do internetu może go używać bez proszenia o zgodę jakiejkolwiek władzy. Banki mogą odmówić otwarcia kont, zamrozić istniejące konta lub odmówić usług bez wyraźnego powodu, ze względu na lokalizację lub z powodu polityk arbitralnie stosowanych wobec pewnych osób lub firm.",
-	"point_1_summary_2": "Bitcoin działa bez pośredników",
-	"point_1_summary_3": "— nikt nie może odmówić ci dostępu. Banki natomiast mogą odmówić otwarcia kont, zamrozić istniejące konta lub odmówić usług na podstawie swojej polityki lub regulacji rządowych.",
-	"point_2_summary_1": "Bitcoin jest dostępny 24 godziny na dobę, 7 dni w tygodniu, 365 dni w roku. Banki mają ograniczone godziny otwarcia, są zamknięte w weekendy i święta, a przelewy mogą być przetwarzane dniami. Gdy potrzebujesz pilnie swoich pieniędzy, ograniczenia bankowe mogą być poważnym problemem.",
-	"point_3_summary_1": "Wszystkie transakcje Bitcoin są rejestrowane w publicznym blockchainie, który każdy może zweryfikować i skontrolować. Banki działają z prywatnymi księgami i nieprzejrzystymi wewnętrznymi procesami, które nie pozwalają ci zobaczyć, co tak naprawdę robią z twoimi pieniędzmi.",
+	"point_1_summary_1": "Z Bitcoina może korzystać każdy z dostępem do internetu — jest ",
+	"point_1_summary_2": "bezpozwoleniowy.",
+	"point_1_summary_3": "Banki mogą odmawiać, zamrażać lub zamykać konta na podstawie własnych zasad lub przepisów państwowych.",
+	"point_2_summary_1": "Sieć Bitcoin działa 24/7/365 bez okien serwisowych ani świąt. Banki mają ograniczone godziny pracy, są zamknięte w weekendy i miewają awarie.",
+	"point_3_summary_1": "Każda transakcja Bitcoin znajduje się na publicznym blockchainie, który każdy może zweryfikować. Banki prowadzą prywatne księgi, których klienci nie mogą sprawdzić niezależnie.",
 	"point_3_summary_2": "Banki operują z prywatnymi księgami i nieprzejrzystymi wewnętrznymi procesami, których klienci nie mogą niezależnie zweryfikować.",
-	"point_4_summary_1": "Z Bitcoinem kontrolujesz swoje własne pieniądze poprzez samodzielną opiekę. Nie musisz prosić nikogo o pozwolenie na dostęp do nich, wydanie ich lub przeniesienie. Banki mogą zamrozić twoje konto, ograniczyć wypłaty, nałożyć wstrzymania depozytów lub wymagać uzasadnienia dużych transakcji.",
-	"point_4_summary_2": "Dowiedz się o portfelach Bitcoin",
-	"point_4_summary_3": "aby zrozumieć samodzielną opiekę. Banki trzymają twoje pieniądze na swoich kontach i mogą zamrozić, ograniczyć lub zablokować dostęp do twoich środków w dowolnym momencie.",
-	"point_5_summary_1": "Opłaty transakcyjne Bitcoin są przejrzyste, przewidywalne i zazwyczaj bardzo niskie. Banki często mają ukryte opłaty, miesięczne opłaty za prowadzenie konta, opłaty za debet, opłaty za przelewy, opłaty za bankomaty i inne kary, które mogą znacząco obniżyć twoje saldo.",
-	"point_6_summary_1": "Z Bitcoinem możesz wydać tylko tyle, ile masz - nie da się wydać więcej niż posiadasz. Banki pozwalają na debety, które mogą prowadzić do kosztownych opłat i spirali zadłużenia, często naliczając wielokrotne opłaty za debet w jednym dniu, co nieproporcjonalnie dotyka osoby żyjące od wypłaty do wypłaty.",
-	"point_7_summary_1": "Transakcje Bitcoin są odporne na cenzurę — po nadaniu do sieci nie mogą być zatrzymane ani odwrócone przez żaden centralny organ władzy. Banki mogą blokować, zamrażać, cofać lub ograniczać transakcje na podstawie własnej polityki, presji rządowej lub procesów prawnych, potencjalnie odcinając cię od twoich własnych pieniędzy."
+	"point_4_summary_1": "Z Bitcoinem trzymasz klucze prywatne sam — zobacz nasz prosty przewodnik po ",
+	"point_4_summary_2": "portfelach Bitcoin",
+	"point_4_summary_3": ". Banki trzymają twoje pieniądze i mogą je w każdej chwili zamrozić, ograniczyć lub zablokować.",
+	"point_5_summary_1": "Opłaty Bitcoin są przejrzyste i przewidywalne. Banki stopniowo doliczają ukryte opłaty za prowadzenie konta, debet, przelewy i bankomaty.",
+	"point_6_summary_1": "Bitcoin pozwala wydać tylko to, co naprawdę posiadasz. Banki pozwalają wejść w debet, a potem nakładają za to kaskadowe opłaty karne.",
+	"point_7_summary_1": "Po wysłaniu transakcji Bitcoin nie da się ich zatrzymać ani cofnąć. Banki mogą blokować, zamrażać lub anulować transakcje na podstawie zasad lub nakazów rządowych.",
+	"hero_title": "Różnica między <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">bankami</span>"
 }

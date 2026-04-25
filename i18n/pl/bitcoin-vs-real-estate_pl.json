@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Nieruchomości",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Trudny do zniszczenia",
 	"bitcoin_point_7": "Doskonale wymienny",
 	"bitcoin_point_8": "Globalny rynek 24/7",
-	"point_1_summary_1": "Bitcoin można przenieść w dowolne miejsce na świecie natychmiast przez internet. Nieruchomość jest trwale powiązana z konkretną lokalizacją i nie można jej przenieść. Przenoszenie bogactwa za pomocą nieruchomości wymaga złożonych i kosztownych procesów sprzedaży i zakupu.",
-	"point_2_summary_1": "Bitcoin można podzielić na 100 milionów mniejszych jednostek zwanych satoshi, co czyni go idealnym do transakcji każdej wielkości. Nieruchomości nie można łatwo podzielić — nie można posiadać ułamka domu ani sprzedać tylko jednego pokoju.",
-	"point_3_summary_1": "Bitcoin działa w zdecentralizowanej sieci, której nie kontroluje żaden rząd. Nieruchomości podlegają szeroko zakrojonym regulacjom rządowym, w tym kontroli czynszów, moratoriom na eksmisje, prawom dotyczącym zagospodarowania przestrzennego i wywłaszczeniu.",
-	"point_4_summary_1": "Bitcoin nie wymaga żadnej bieżącej konserwacji — po zakupie i zabezpieczeniu jest zero kosztów utrzymania. Nieruchomości wymagają stałej konserwacji, w tym napraw, remontów, ubezpieczenia, zarządzania najemcami i ochrony przed zużyciem.",
-	"point_5_summary_1": "Bitcoin nie ma bieżących podatków — płacisz podatek od zysków kapitałowych tylko wtedy, gdy sprzedajesz. Nieruchomości podlegają corocznym podatkom od nieruchomości, niezależnie od tego, czy generują dochód, co skutecznie oznacza, że nigdy tak naprawdę nie „posiadasz” nieruchomości.",
-	"point_6_summary_1": "Bitcoin, gdy jest odpowiednio zabezpieczony, nie może zostać zniszczony przez powodzie, pożary, trzęsienia ziemi, huragany czy inne klęski żywiołowe. Nieruchomości są podatne na wszystkie formy fizycznego zniszczenia i mogą stracić całą wartość w wyniku klęski żywiołowej.",
-	"point_7_summary_1": "Bitcoin jest doskonale wymienny — jeden bitcoin jest identyczny z każdym innym bitcoinem. Każda nieruchomość jest unikalna pod względem lokalizacji, stanu, rozmiaru i cech, co sprawia, że bezpośrednie porównania i wyceny są trudne.",
-	"point_8_summary_1": "Bitcoin jest handlowany na globalnym rynku 24/7, gdzie każdy z dostępem do internetu może kupować lub sprzedawać natychmiast. Nieruchomości są ograniczone do rynków lokalnych ze znacznymi kosztami transakcyjnymi i mogą wymagać miesięcy lub lat do sprzedaży.",
+	"point_1_summary_1": "Bitcoin natychmiast przemieszcza się w dowolne miejsce na świecie. Nieruchomości są przypisane do jednej lokalizacji i podatne na lokalne ryzyka ekonomiczne, polityczne i przyrodnicze.",
+	"point_2_summary_1": "Bitcoin dzieli się na 100 milionów satoshi. Nieruchomości nie da się sprzedać częściowo — nie sprzedasz samej kuchni ani nie kupisz pół sypialni.",
+	"point_3_summary_1": "Bitcoin działa w zdecentralizowanej sieci, której żaden rząd nie może kontrolować. Nieruchomości są silnie regulowane — strefy, regulacje czynszów, wywłaszczenia i konfiskaty mają zastosowanie.",
+	"point_4_summary_1": "Bitcoin nie wymaga żadnej konserwacji. Nieruchomości wymagają napraw, remontów, ubezpieczenia, zarządzania i radzenia sobie z problemami najemców.",
+	"point_5_summary_1": "Bitcoin nie podlega bieżącym podatkom — podatek od zysków kapitałowych płacisz tylko przy sprzedaży. Nieruchomości płacą roczny podatek od nieruchomości niezależnie od dochodu.",
+	"point_6_summary_1": "Prawidłowo zabezpieczony Bitcoin przetrwa pożar, powódź i trzęsienie ziemi. Nieruchomości są podatne na każdą katastrofę, a ubezpieczenie rzadko pokrywa wszystko.",
+	"point_7_summary_1": "Każdy bitcoin jest identyczny i wymienny. Każda nieruchomość jest wyjątkowa, co utrudnia jej wycenę i porównywanie.",
+	"point_8_summary_1": "Bitcoin handluje globalnie 24/7 dla każdego z dostępem do internetu. Sprzedaż nieruchomości jest ograniczona do lokalnych nabywców, a finalizacja może zająć miesiące papierkowej roboty.",
 	"bitcoin_point_9": "Promuje indywidualną własność",
 	"real_estate_point_9": "Przyczynia się do finansjalizacji mieszkań",
-	"point_9_summary_1": "Bitcoin umożliwia bezpośrednią indywidualną własność bez pośredników. Kupowanie nieruchomości jako inwestycji poza głównym miejscem zamieszkania przyczynia się do finansjalizacji mieszkań, podnosząc ceny, zmniejszając przystępność cenową dla rodzin i przyczyniając się do kryzysu mieszkaniowego i bezdomności."
+	"point_9_summary_1": "Bitcoin pozwala każdemu na bezpośrednią, indywidualną własność. Kupowanie nieruchomości jako inwestycji poza głównym miejscem zamieszkania zawyża ceny mieszkań, zmniejsza dostępność i napędza kryzys mieszkaniowy.",
+	"hero_title": "Różnica między <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">nieruchomościami</span>"
 }

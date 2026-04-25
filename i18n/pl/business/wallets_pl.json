@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"how_to_accept_bitcoin_payments": "Jak przyjmować płatności Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Własny hosting = 0% opłat",
 	"wallets_feature_online_store": "Integracja ze sklepem internetowym",
 	"wallets_feature_invoicing": "Darmowe oprogramowanie do fakturowania",
-	"wallets_get_wallet": "POBIERZ PORTFEL"
+	"wallets_get_wallet": "POBIERZ PORTFEL",
+	"wallets_hero_subtitle": "Portfele Bitcoin są bezpłatne. Wybierz ten, który pasuje do twojej firmy — sprzedaż osobista, online lub fakturowanie — i zacznij akceptować Bitcoina w kilka minut.",
+	"wallets_section_sole": "Portfele dla firm jednoosobowych",
+	"wallets_section_sole_intro": "Jeśli prowadzisz sklep, kawiarnię, studio lub usługę samodzielnie, każdy z tych portfeli wystarczy. Wybierz w zależności od tego, czy chcesz zachowywać płatności w Bitcoinie, czy automatycznie konwertować część każdej płatności na lokalną walutę.",
+	"wallets_section_multiple": "Portfele dla firm z wieloma pracownikami",
+	"wallets_section_multiple_intro": "Jeśli masz zespół przyjmujący płatności w kasie, wybierz portfel obsługujący wiele logowań pracowników — każdy pracownik dostaje własny PIN, a ty masz przejrzysty zapis, kto przyjął jaką płatność.",
+	"wallets_section_online": "Portfele dla biznesu online",
+	"wallets_section_online_intro": "Sprzedajesz w sieci? Te portfele integrują się ze sklepem online i przyjmują Bitcoina od dowolnego klienta z dowolnego miejsca na świecie — bez chargebacków i bez konta sprzedawcy.",
+	"wallets_section_invoice": "Portfele dla firm fakturujących klientów",
+	"wallets_section_invoice_intro": "Jeśli wystawiasz faktury klientom (doradztwo, freelancing, usługi B2B), użyj portfela zbudowanego wokół fakturowania. Klient zapłaci fakturę Bitcoinową kilkoma kliknięciami.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business pozwala akceptować płatności Bitcoin i Lightning z zerowymi opłatami i natychmiastowym rozliczeniem. Obsługuje płatności osobiste, online i fakturowe z opcjonalną automatyczną konwersją na twoją lokalną walutę.",
+	"sources_square": "Square — przyjmuj płatności w Bitcoinie",
+	"sources_breez_business": "Breez — portfel Lightning tylko dla Bitcoina",
+	"sources_opennode": "OpenNode — procesor płatności Bitcoin",
+	"sources_ibex": "IBEX — infrastruktura płatności Lightning",
+	"sources_zaprite": "Zaprite — fakturowanie w Bitcoinie dla firm",
+	"biz_wallets_meta_description": "Wszystkie portfele Bitcoin są wzajemnie kompatybilne — wybierz ten, który pasuje do twojej firmy. Darmowy, natychmiastowe rozliczenie, bez chargebacków."
 }
