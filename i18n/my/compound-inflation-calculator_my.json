@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "my"
 	},
 	"cic_header": "ပေါင်းစပ်ငွေကြေးဖောင်းပွမှု ဂဏန်းတွက်စက်",
 	"cic_description": "ငွေကြေးဖောင်းပွမှုနှင့် ရင်ဘောင်တန်းရန် သင့်လစာ ဘယ်လောက်တိုးရမလဲ သိရှိရန် ဤပေါင်းစပ်ငွေကြေးဖောင်းပွမှု ဂဏန်းတွက်စက်ကို အသုံးပြုပါ။",
-	"cic_inflation_cta": "Bitcoin ဖြင့် ငွေကြေးဖောင်းပွမှုမှ ရွေးချယ်ထွက်ပါ"
+	"cic_hero_subtitle": "ငွေကြေးဖောင်းပွမှုနှင့် ရင်ဘောင်တန်းရန် သင့်လစာ မည်မျှ တိုးရမည်ကို ကြည့်ပါ။",
+	"cic_calculator_heading": "သင့်ငွေကြေးဖောင်းပွမှု ကွာဟချက်ကို တွက်ချက်ပါ",
+	"cic_cta_label": "နောက်တစ်ဆင့်",
+	"cic_inflation_cta": "Bitcoin ဖြင့် ငွေကြေးဖောင်းပွမှုမှ ရွေးချယ်ထွက်ပါ",
+	"cic_next_learn_inflation": "ငွေကြေးဖောင်းပွမှု အလုပ်လုပ်ပုံကို လေ့လာပါ",
+	"cic_next_explore_topics": "အခြေခံ ခေါင်းစဉ်များ ပိုလေ့လာပါ",
+	"cic_next_explore_topics_desc": "Bitcoin သည် ငွေ၊ လွတ်လပ်ခွင့်၊ စွမ်းအင်နှင့် အခြားအရာများနှင့် မည်သို့ ဆက်စပ်နေသည်ကို ကြည့်ပါ။",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

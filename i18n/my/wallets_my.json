@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "my"
 	},
 	"bitcoin_wallet_guide": "Bitcoin ပိုက်ဆံအိတ် လမ်းညွှန်",
 	"wallets_description": "Bitcoin ပိုက်ဆံအိတ် အမျိုးမျိုးရှိပြီး အရေးကြီးသော နည်းလမ်းများဖြင့် ကွာခြားပါသည်။ ဤရိုးရှင်းသော မေးခွန်းများ မေးခြင်းဖြင့် မည်သည့်ပိုက်ဆံအိတ် သင့်အတွက် မှန်ကန်ကြောင်း သိနိုင်ပါသည်။",
 	"wallets_header": "သင့် BITCOIN ကို ဘယ်လို လုံခြုံစွာ သိမ်းဆည်းမလဲ",
+	"wallets_header_subtitle": "ပိုက်ဆံအိတ် ရွေးချယ်ခြင်း၊ သော့ချက်များကို ကာကွယ်ခြင်းနှင့် သင့် Bitcoin အပေါ် အပြည့်အဝ ထိန်းချုပ်ခြင်းအတွက် အဆင့်ဆင့် လမ်းညွှန်။",
 	"wallets_s1_c1": "Bitcoin ပိုက်ဆံအိတ်များသည် အပြန်အလှန်အသုံးပြုနိုင်သောကြောင့် မည်သည့်ပိုက်ဆံအိတ်ကို သုံးသုံး မည်သူ့ကိုမဆို Bitcoin ပို့နိုင်ပါသည်။",
 	"wallets_s1_c2": "Bitcoin ပိုက်ဆံအိတ် အမျိုးမျိုးရှိပြီး အရေးကြီးသော နည်းလမ်းများဖြင့် ကွာခြားပါသည်။ ဤရိုးရှင်းသော မေးခွန်းများ မေးခြင်းဖြင့် မည်သည့်ပိုက်ဆံအိတ် သင့်အတွက် မှန်ကန်ကြောင်း သိနိုင်ပါသည်:",
 	"wallets_question_1": "ကိုယ်ပိုင်ထိန်းသိမ်းခြင်း ပိုက်ဆံအိတ် ဖြစ်ပါသလား?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp আপনার জন্য সঠিকটি বেছে নিতে সাহায্য করতে ৭০টি স্টিল ব্যাকআপ কিট পরীক্ষা করেছেন।",
 	"wallets_s6_c5": "Jameson-এর মেটাল Bitcoin ব্যাকআপ গাইড এখানে দেখুন।",
 	"wallets_s6_c6": "অথবা Bitcoin ওয়ালেট বিকল্পগুলো অন্বেষণ করতে স্ক্রল করতে থাকুন।",
+	"wallets_grid_heading": "လူကြိုက်များသော Bitcoin ပိုက်ဆံအိတ်များ",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "আমাদের লাইটনিং ওয়ালেট গাইড খুঁজছেন?",
 	"wallets_starter_wallet": "দুর্দান্ত স্টার্টার ওয়ালেট",
 	"wallets_mobile_app": "মোবাইল অ্যাপ",
@@ -62,5 +65,13 @@
 	"wallets_battery": "রিচার্জেবল ব্যাটারি",
 	"wallets_build_your_own": "নিজে তৈরি করুন",
 	"wallets_qwerty_keyboard": "পূর্ণ QWERTY কীবোর্ড",
-	"wallets_qr_scanner": "QR কোড স্ক্যানার"
+	"wallets_qr_scanner": "QR কোড স্ক্যানার",
+	"sources_bitcoin_org_choose": "Bitcoin.org — သင့်ပိုက်ဆံအိတ်ကို ရွေးပါ",
+	"sources_jameson_lopp": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+	"sources_blockstream_green": "Blockstream Green — self-custody Bitcoin ပိုက်ဆံအိတ်",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin hardware ပိုက်ဆံအိတ်",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware ပိုက်ဆံအိတ်",
+	"sources_coldcard_q": "Coinkite — Coldcard Q hardware ပိုက်ဆံအိတ်",
+	"sources_passport": "Foundation Devices — Passport hardware ပိုက်ဆံအိတ်",
+	"sources_seedsigner": "SeedSigner — open source DIY Bitcoin လက်မှတ်ထိုးကိရိယာ"
 }
