@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Wang Tunai",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Rangkaian terdesentralisasi",
 	"bitcoin_point_6": "Jagaan sendiri digital",
 	"bitcoin_point_7": "Mudah dibahagikan",
-	"point_1_summary_1": "Bitcoin boleh dihantar serta-merta ke mana-mana di dunia melalui internet, manakala wang tunai memerlukan kehadiran fizikal atau perantara yang dipercayai. Anda tidak boleh menghantar wang tunai melalui e-mel, tetapi anda boleh menghantar Bitcoin kepada sesiapa sahaja dalam beberapa minit dengan sambungan internet.",
-	"point_2_summary_1": "Bitcoin berfungsi sama di mana-mana di dunia. Rangkaian Bitcoin tidak mempunyai sempadan. Wang tunai terhad oleh geografi, kadar pertukaran, dan penerimaan tempatan. Cuba gunakan dolar AS di kawasan luar bandar Thailand atau yen Jepun di kawasan luar bandar Mexico.",
-	"point_3_summary_1": "Kerajaan boleh membatalkan wang tunai semalaman melalui dasar pemansuhan mata wang, seperti ketika India mengharamkan denominasi tertentu pada 2016.",
-	"point_3_summary_2": "Walaupun tanpa mengharamkan denominasi tertentu, kerajaan sentiasa mengurangkan nilai wang tunai melalui inflasi.",
-	"point_3_summary_3": "Bitcoin tidak boleh dimansuhkan oleh mana-mana kerajaan atau institusi. Ia wujud pada rangkaian terdesentralisasi global yang tidak dikawal oleh mana-mana entiti tunggal.",
-	"point_4_summary_1": "Wang tunai boleh dipalsukan, dan sukar untuk membezakan wang palsu tanpa peralatan khusus. Walaupun dengan ciri keselamatan, wang tunai palsu terus beredar. Bitcoin menggunakan bukti kriptografi yang menjadikan pemalsuan mustahil secara matematik.",
-	"point_5_summary_1": "Wang tunai dikeluarkan dan dikawal oleh kerajaan, yang boleh mencetak lebih banyak secara bebas, mengubah reka bentuk, atau membatalkan denominasi tertentu. Bitcoin beroperasi pada rangkaian terdesentralisasi di mana tiada institusi tunggal mengawal bekalan wang atau peraturan.",
-	"point_6_summary_1": "Wang tunai mesti disimpan secara fizikal, menjadikannya terdedah kepada kecurian, kehilangan, kebakaran, dan rampasan. Jumlah yang besar memerlukan langkah keselamatan yang mahal.",
-	"point_6_summary_2": "Tetapi Bitcoin boleh disimpan dengan selamat dalam jagaan sendiri",
-	"point_6_summary_3": " menggunakan aplikasi telefon pintar atau dompet khusus, memberi anda kawalan penuh ke atas wang anda tanpa risiko penyimpanan fizikal.",
-	"point_7_summary_1": "Wang tunai mempunyai unit terkecil. Anda tidak boleh membahagikan 1 sen kepada bahagian yang lebih kecil. Bitcoin boleh dibahagikan kepada 100 juta unit kecil yang dipanggil satoshi, membolehkan pembayaran mikro dan transaksi tepat dalam sebarang jumlah."
+	"point_1_summary_1": "Bitcoin bergerak melalui internet ke mana-mana sahaja dalam beberapa minit. Wang tunai memerlukan kehadiran fizikal atau kurier yang dipercayai — anda tidak boleh menghantar wang tunai $20 melalui e-mel.",
+	"point_2_summary_1": "Bitcoin berfungsi dengan cara yang sama di mana-mana. Wang tunai dihadkan oleh geografi, kadar pertukaran, dan penerimaan tempatan.",
+	"point_3_summary_1": "Kerajaan boleh membatalkan wang tunai dalam sekelip mata — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> melakukannya pada tahun 2016. Walaupun tanpa demonetisasi, wang tunai kehilangan nilainya kerana",
+	"point_3_summary_2": "inflasi.",
+	"point_3_summary_3": "Bitcoin tidak boleh dibatalkan oleh mana-mana kerajaan atau pihak berkuasa.",
+	"point_4_summary_1": "Wang tunai boleh dipalsukan, kadangkala dengan sangat meyakinkan. Bitcoin menggunakan kriptografi yang menjadikan pemalsuan secara matematiknya mustahil.",
+	"point_5_summary_1": "Bitcoin tiada pihak berkuasa pusat. Wang tunai dikeluarkan oleh kerajaan yang boleh mencetak lebih banyak, mengubah reka bentuk, atau membatalkan wang kertas mengikut kehendak.",
+	"point_6_summary_1": "Wang tunai terdedah kepada kecurian, kebakaran, kehilangan, dan rampasan. Bitcoin boleh disimpan dengan selamat",
+	"point_6_summary_2": "secara sendiri",
+	"point_6_summary_3": "di telefon atau peranti perkakasan.",
+	"point_7_summary_1": "Bitcoin dibahagikan kepada 100 juta satoshi, membenarkan pembayaran mikro dalam apa-apa saiz. Wang tunai mempunyai denominasi minimum — anda tidak boleh membahagikan satu sen.",
+	"hero_title": "Perbezaan antara <span class=\"orange\">Bitcoin</span> dan <span class=\"asset\">Wang Tunai</span>"
 }

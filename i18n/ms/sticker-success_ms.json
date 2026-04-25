@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"sticker_success_1": "Pelekat anda akan sampai dalam masa 2-4 minggu. Sementara menunggu, fikirkan tempat yang baik untuk melekatkannya!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "Tempat yang tidak mudah ditanggalkan (pelekat tidak menyebabkan kerosakan kekal)",
 	"sticker_success_list_3": "Permukaan yang mudah dilekatkan (logam, plastik, kaca)",
 	"sticker_success_list_4": "Jangan lekatkan pada harta persendirian, papan tanda, ATM, atau pam minyak",
-	"sticker_success_3": "Mahu lihat di mana orang lain melekatkan pelekat mereka?"
+	"sticker_success_3": "Mahu lihat di mana orang lain melekatkan pelekat mereka?",
+	"sticker_success_hero_title": "Pelekat anda dalam perjalanan 🎉",
+	"sticker_success_tips_header": "Tempat pelekat yang baik",
+	"sticker_success_share_header": "Kongsi tempat anda menampal pelekat",
+	"sticker_success_bulk_header": "Mahu lebih banyak pelekat?",
+	"sticker_success_btn_order_bulk": "Pesan secara pukal",
+	"sticker_success_btn_share_on_nostr": "Kongsi di Nostr",
+	"sticker_success_btn_what_is_nostr": "Apakah Nostr?"
 }

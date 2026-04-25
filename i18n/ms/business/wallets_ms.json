@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"how_to_accept_bitcoin_payments": "Cara menerima pembayaran Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Hos sendiri = yuran 0%",
 	"wallets_feature_online_store": "Integrasi kedai dalam talian",
 	"wallets_feature_invoicing": "Perisian invois percuma",
-	"wallets_get_wallet": "Dapatkan dompet"
+	"wallets_get_wallet": "Dapatkan dompet",
+	"wallets_hero_subtitle": "Dompet Bitcoin percuma. Pilih yang sesuai dengan perniagaan anda — secara langsung, dalam talian, atau berasaskan invois — dan mula menerima Bitcoin dalam beberapa minit.",
+	"wallets_section_sole": "Dompet untuk perniagaan tunggal",
+	"wallets_section_sole_intro": "Jika anda menjalankan kedai, kafe, studio, atau perkhidmatan sendiri, mana-mana dompet ini akan berfungsi. Pilih berdasarkan sama ada anda mahu menyimpan pembayaran dalam Bitcoin atau menukar sebahagian setiap pembayaran secara automatik kepada mata wang tempatan anda.",
+	"wallets_section_multiple": "Dompet untuk perniagaan dengan beberapa pekerja",
+	"wallets_section_multiple_intro": "Jika anda mempunyai pasukan yang menerima pembayaran di daftar tunai, pilih dompet yang menyokong beberapa log masuk pekerja — supaya setiap pekerja mendapat PIN sendiri dan anda menyimpan jejak audit yang bersih tentang siapa yang menerima pembayaran mana.",
+	"wallets_section_online": "Dompet untuk perniagaan dalam talian",
+	"wallets_section_online_intro": "Menjual di laman web? Dompet ini bersambung kepada kedai dalam talian anda dan menerima Bitcoin daripada mana-mana pelanggan, di mana sahaja di dunia — tanpa chargeback, tanpa keperluan akaun peniaga.",
+	"wallets_section_invoice": "Dompet untuk perniagaan berasaskan invois",
+	"wallets_section_invoice_intro": "Jika anda menagih klien (perundingan, kerja bebas, perkhidmatan B2B), gunakan dompet yang dibina di sekitar pengeluaran invois. Klien anda membayar invois Bitcoin dalam beberapa klik.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business membolehkan anda menerima pembayaran Bitcoin dan Lightning dengan yuran sifar dan penyelesaian serta-merta. Menyokong pembayaran secara langsung, dalam talian, dan berasaskan invois dengan penukaran automatik pilihan kepada mata wang tempatan anda.",
+	"sources_square": "Square — Terima pembayaran Bitcoin",
+	"sources_breez_business": "Breez — Dompet Lightning khusus Bitcoin",
+	"sources_opennode": "OpenNode — Pemproses pembayaran Bitcoin",
+	"sources_ibex": "IBEX — Infrastruktur pembayaran Lightning",
+	"sources_zaprite": "Zaprite — Invois Bitcoin untuk perniagaan",
+	"biz_wallets_meta_description": "Semua dompet Bitcoin saling bersambung — pilih yang sesuai dengan perniagaan anda. Percuma, penyelesaian serta-merta, tanpa chargeback."
 }

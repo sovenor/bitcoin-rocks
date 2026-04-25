@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Soalan lazim tentang menerima Bitcoin",
 	"faq_description": "Ada soalan tentang menerima pembayaran Bitcoin untuk perniagaan anda?",
+	"faq_hero_subtitle": "Jawapan ringkas untuk soalan yang paling kerap ditanya peniaga sebelum mereka mula menerima Bitcoin — yuran, penyelesaian, dompet, chargeback, kos, dan banyak lagi.",
+	"faq_intro_c1": "Ketuk mana-mana soalan di bawah untuk mengembangkan jawapan. Apabila anda bersedia untuk mula menerima Bitcoin, sumber perniagaan di bahagian bawah halaman akan memandu anda melalui setiap langkah.",
 	"faq_s1": "Apa itu Bitcoin?",
 	"faq_s1_c1": "Bitcoin mempunyai dua bahagian: wang digital dan rangkaian komputer.",
 	"faq_s1_c2": "Anda boleh menggunakan rangkaian Bitcoin untuk menghantar bitcoin (wang digital) terus kepada orang lain.",

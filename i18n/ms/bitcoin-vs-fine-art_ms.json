@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Seni Halus",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Boleh disahkan secara kriptografi",
 	"bitcoin_point_6": "Sukar dimusnahkan",
 	"bitcoin_point_7": "Boleh diakses oleh sesiapa sahaja",
-	"point_1_summary_1": "Bitcoin boleh ditukar ganti sepenuhnya — semua Bitcoin adalah sama dan boleh ditukar. 1 Bitcoin bernilai 1 Bitcoin di mana-mana di dunia. Seni halus pada asasnya tidak boleh ditukar ganti, dengan penciptaan, sejarah, keadaan, dan provenance unik setiap karya menjadikan perbandingan langsung dan penilaian sangat sukar.",
-	"point_2_summary_1": "Bitcoin didagangkan di pasaran global 24/7/365 yang membolehkan sesiapa sahaja dengan sambungan internet membeli atau menjual serta-merta. Seni halus memerlukan rumah lelong pakar seperti Sotheby's atau Christie's, peniaga persendirian, atau galeri eksklusif. Jualan boleh mengambil masa berbulan-bulan untuk diatur dan diselesaikan, dengan akses pasaran yang terhad.",
-	"point_3_summary_1": "Membeli dan menjual Bitcoin biasanya melibatkan yuran kurang daripada 1%, selalunya lebih kurang. Membeli dan menjual seni halus melibatkan kos yang besar termasuk premium pembeli (10-25%), komisen penjual (10-15%), insurans, pengangkutan, penyimpanan, dan yuran penilaian. Jumlah kos ini boleh dengan mudah melebihi 30-40% daripada nilai karya dalam satu transaksi.",
-	"point_4_summary_1": "Bitcoin boleh dibahagikan kepada 100 juta unit kecil yang dipanggil satoshi, menjadikannya sesuai untuk transaksi dalam sebarang saiz dari transaksi mikro hingga pembelian besar. Seni halus tidak boleh dibahagikan. Anda tidak boleh memiliki sebahagian daripada lukisan atau menjual sebahagian daripada arca. Ketidakbolehbahagian ini mengehadkan fleksibiliti pelaburan dan pilihan kecairan.",
-	"point_5_summary_1": "Pemilikan dan keaslian Bitcoin boleh disahkan secara kriptografi pada blockchain oleh sesiapa sahaja yang mempunyai pengetahuan teknikal asas. Seni halus memerlukan penilaian pakar yang mahal, penyelidikan provenance, dan analisis saintifik. Walaupun dengan pengesahan pakar, pemalsuan secara berkala menipu dunia seni, dan pertikaian penilaian boleh memusnahkan nilai karya semalaman. Bitcoin, sebaliknya, mustahil untuk dipalsukan.",
-	"point_6_summary_1": "Bitcoin, jika disandarkan dengan betul, tidak boleh dimusnahkan oleh banjir, kebakaran, gempa bumi, taufan, kecurian, atau bencana lain. Seni halus terdedah kepada semua bentuk kemusnahan fizikal dan kemerosotan. Walaupun dengan penyimpanan suhu terkawal yang mahal dan insurans komprehensif, ia masih boleh rosak akibat faktor persekitaran, kemalangan, atau bencana alam, dan kehilangan semua nilainya.",
-	"point_7_summary_1": "Bitcoin boleh dibeli dan dijual oleh sesiapa sahaja yang mempunyai sambungan internet dan jumlah kecil untuk melabur. Pelaburan seni halus sebahagian besarnya terhad kepada pengumpul kaya kerana harga minimum yang tinggi, akses kepada lelong eksklusif, keperluan penyimpanan, kos insurans, dan kepakaran yang diperlukan untuk mengemudi pasaran seni dengan jayanya."
+	"point_1_summary_1": "Setiap Bitcoin adalah sama dan boleh ditukar. Setiap karya seni adalah unik — penciptaan, sejarah, keadaan, dan asal usul yang berbeza menjadikan perbandingan langsung sangat sukar.",
+	"point_2_summary_1": "Bitcoin didagangkan 24/7 di pasaran global yang boleh diakses oleh sesiapa sahaja. Seni halus memerlukan rumah lelong khusus, peniaga peribadi, atau galeri dan boleh mengambil masa berbulan-bulan untuk dijual.",
+	"point_3_summary_1": "Membeli atau menjual Bitcoin memerlukan kos kurang daripada 1%, selalunya jauh lebih sedikit. Penjualan seni menambah yuran 30–40% dalam premium pembeli, komisen, insurans, pengangkutan, dan yuran pengesahan.",
+	"point_4_summary_1": "Bitcoin dibahagikan kepada 100 juta satoshi, sempurna untuk transaksi sebarang saiz. Anda tidak boleh memiliki sebahagian daripada lukisan atau sudut arca tanpa risiko pihak lawan.",
+	"point_5_summary_1": "Pemilikan dan keaslian Bitcoin boleh disahkan secara kriptografi oleh sesiapa sahaja di blockchain. Pengesahan seni adalah mahal, lambat, dan masih kerap diperdaya oleh pemalsu — memusnahkan nilai karya seni dalam sekelip mata.",
+	"point_6_summary_1": "Bitcoin yang disandarkan dengan betul boleh bertahan daripada banjir, kebakaran, gempa bumi, dan kecurian. Seni halus terdedah kepada setiap bentuk kerosakan fizikal, dan insurans jarang merangkumi semua.",
+	"point_7_summary_1": "Sesiapa sahaja yang mempunyai sambungan internet dan sedikit wang boleh membeli Bitcoin. Pelaburan seni halus secara berkesan terhad kepada pengumpul kaya dengan akses lelong dan pengetahuan khusus.",
+	"hero_title": "Perbezaan antara <span class=\"orange\">Bitcoin</span> dan <span class=\"asset\">Seni Halus</span>"
 }
