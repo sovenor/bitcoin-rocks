@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
-	}
+	},
+	"biz_sticker_success_hero_title": "Vaše naljepnice su na putu 🎉",
+	"biz_sticker_success_hero_subtitle": "Vaše besplatne naljepnice „Bitcoin Accepted Here“ stići će u 2 – 4 tjedna u običnoj bijeloj omotnici s 3 naljepnice.",
+	"biz_sticker_success_tips_header": "Dobra mjesta za lijepljenje naljepnica",
+	"biz_sticker_success_tip_1": "Na glavnom ulazu ili izlogu, kako bi kupci vidjeli prije ulaska",
+	"biz_sticker_success_tip_2": "Pored blagajne, terminala za plaćanje ili gdje god kupci plaćaju",
+	"biz_sticker_success_tip_3": "Na jelovniku, cjeniku ili posudi za napojnice",
+	"biz_sticker_success_tip_4": "Ne lijepite naljepnice na mjesta koja nisu vaša ili gdje to nije dopušteno",
+	"biz_sticker_success_more_header": "Trebate još naljepnica?",
+	"biz_sticker_success_more_c1": "Ako 3 naljepnice nisu dovoljne za vaše poduzeće, možete zatražiti još jedan besplatan paket — ili naručiti na veliko od istog tiskara koji mi koristimo.",
+	"biz_sticker_success_btn_order_bulk": "Naručite na veliko",
+	"biz_sticker_success_btn_request_more": "Zatražite još jedan besplatan paket"
 }

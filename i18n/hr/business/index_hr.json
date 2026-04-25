@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dobar za poslovanje",
+	"business_hero_subtitle": "Prihvaćajte plaćanja s manjim naknadama, namirite ih trenutačno i dosegnite milijune novih kupaca — bez ugovora i skrivenih troškova.",
+	"business_intro_c1": "Bitcoin vašem poduzeću daje brz, jeftin i privatan način primanja plaćanja. Bez posrednika. Bez povratnih uplata. Bez iznenadnih troškova. Novac u nekoliko sekundi, izravno od kupca do vas.",
+	"business_intro_c2": "U nastavku je sažetak zašto je Bitcoin dobar za posao — i ispod su svi alati potrebni da počnete već danas.",
 	"biz_s1": "Niske naknade bez minimuma",
 	"biz_s1_c1": "Bitcoin vam omogućuje primanje plaćanja izravno od vaših kupaca, slično gotovini. Bitcoin mreža funkcionira bez posrednika poput banaka i tvrtki za kreditne kartice koji naplaćuju visoke naknade.",
 	"biz_s2": "Trenutačno poravnanje",
@@ -17,5 +20,14 @@
 	"biz_s4": "Privucite više kupaca",
 	"biz_s4_c1": "Milijuni ljudi posjeduju Bitcoin i žele ga potrošiti na mjestima koja ga prihvaćaju.",
 	"biz_s4_c2": "Jednostavnim prihvaćanjem Bitcoina, vaše poslovanje može biti navedeno na kartama Bitcoin trgovaca i besplatno doći do novih kupaca.",
-	"biz_s4_c3": "Prihvaćanje Bitcoina je 100% besplatno. Nema ugovora ni skrivenih naknada."
+	"biz_s4_c3": "Prihvaćanje Bitcoina je 100% besplatno. Nema ugovora ni skrivenih naknada.",
+	"business_resources_heading": "Sve što trebate za prihvaćanje Bitcoina",
+	"business_resources_intro": "Radite svojim tempom uz ove resurse. Svaki je kratak, praktičan vodič.",
+	"biz_label_wallets": "Novčanici",
+	"biz_label_maps": "Karte trgovaca",
+	"biz_label_stickers": "Naljepnice",
+	"biz_label_rewards": "Nagrade",
+	"biz_label_accounting": "Računovodstvo",
+	"biz_label_faq": "Često postavljana pitanja",
+	"biz_meta_description": "Prihvaćajte Bitcoin u svom poduzeću s manjim naknadama, trenutačnom namirom, bez povratnih uplata i s pristupom više kupaca."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"sticker_success_1": "Svoje naljepnice ćete primiti za 2 do 4 tjedna. Dok čekate, pokušajte smisliti dobro mjesto za vaše naljepnice!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "na mjestima s kojih ih vjerojatno neće brzo ukloniti (naljepnice ne uzrokuju trajnu štetu)",
 	"sticker_success_list_3": "na površinama na koje se lako lijepe (metal, plastika, staklo)",
 	"sticker_success_list_4": "NE na privatnom vlasništvu, preko oznaka, bankomata ili benzinskih pumpi",
-	"sticker_success_3": "Želite vidjeti gdje drugi ljudi stavljaju svoje naljepnice?"
+	"sticker_success_3": "Želite vidjeti gdje drugi ljudi stavljaju svoje naljepnice?",
+	"sticker_success_hero_title": "Vaše naljepnice su na putu 🎉",
+	"sticker_success_tips_header": "Dobra mjesta za lijepljenje naljepnica",
+	"sticker_success_share_header": "Podijelite gdje ste zalijepili svoje naljepnice",
+	"sticker_success_bulk_header": "Trebate još naljepnica?",
+	"sticker_success_btn_order_bulk": "Naručite na veliko",
+	"sticker_success_btn_share_on_nostr": "Podijelite na Nostru",
+	"sticker_success_btn_what_is_nostr": "Što je Nostr?"
 }

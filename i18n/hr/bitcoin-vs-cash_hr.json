@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Gotovina",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Decentralizirana mreža",
 	"bitcoin_point_6": "Digitalno samoskrbništvo",
 	"bitcoin_point_7": "Lako djeljiv",
-	"point_1_summary_1": "Bitcoin se može poslati bilo kamo u svijetu trenutačno putem interneta, dok gotovina zahtijeva fizičku prisutnost ili pouzdane posrednike. Ne možete poslati gotovinu e-mailom, ali možete poslati Bitcoin bilo kome s internetskom vezom u minutama.",
-	"point_2_summary_1": "Bitcoin funkcionira na isti način svugdje u svijetu - nema granica u Bitcoin mreži. Gotovina je ograničena geografijom, tečajevima i lokalnim prihvaćanjem. Pokušajte koristiti američke dolare u ruralnom Tajlandu ili japanske jene u ruralnom Meksiku.",
-	"point_3_summary_1": "Vlade mogu i poništavaju gotovinu preko noći kroz politike demonetizacije, kao što je Indija učinila 2016. kada je zabranila određene novčanice.",
-	"point_3_summary_2": "Čak i bez zabrane određenih novčanica, vlade stalno devalviraju gotovinu kroz inflaciju.",
-	"point_3_summary_3": "Bitcoin ne može poništiti nijedna vlada ili vlast - postoji na globalnoj, decentraliziranoj mreži koju nijedan subjekt ne kontrolira.",
-	"point_4_summary_1": "Gotovina se može krivotvoriti i često je teško otkriti lažne novčanice bez posebne opreme. Čak i uz sigurnosne značajke, krivotvorena gotovina nastavlja cirkulirati. Bitcoin koristi kriptografski dokaz koji čini krivotvorenje matematički nemogućim.",
-	"point_5_summary_1": "Gotovinu izdaju i kontroliraju vlade koje mogu tiskati više po želji, mijenjati dizajn ili proglasiti određene novčanice nevažećim. Bitcoin djeluje na decentraliziranoj mreži gdje nijedna vlast nema kontrolu nad novčanom masom ili pravilima.",
-	"point_6_summary_1": "Gotovina se mora fizički pohraniti, što je čini ranjivom na krađu, gubitak, požar ili oduzimanje. Velike količine zahtijevaju skupe sigurnosne mjere.",
-	"point_6_summary_2": "Ali Bitcoin se može sigurno pohraniti u samoskrbništvu",
-	"point_6_summary_3": "korištenjem aplikacije na pametnom telefonu ili specijaliziranog novčanika, dajući vam potpunu kontrolu nad vašim novcem bez rizika fizičke pohrane.",
-	"point_7_summary_1": "Gotovina ima minimalne apoene - ne možete podijeliti cent na manje dijelove. Bitcoin se može podijeliti na 100 milijuna manjih jedinica zvanih satoshi, omogućujući mikroplaćanja i precizne transakcije bilo kojeg iznosa."
+	"point_1_summary_1": "Bitcoin se kreće globalno preko interneta u nekoliko minuta. Gotovini je potrebna fizička prisutnost ili pouzdani kuriri — novčanice ne možete poslati e-poštom.",
+	"point_2_summary_1": "Bitcoin radi jednako svugdje. Gotovinu ograničavaju geografija, tečajevi i lokalna prihvaćenost.",
+	"point_3_summary_1": "Vlade mogu preko noći demonetizirati gotovinu — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indija</a> je to učinila 2016. Ali i bez demonetizacije, gotovina gubi vrijednost zbog",
+	"point_3_summary_2": "inflacije",
+	"point_3_summary_3": ". Nijedna vlada ili sila ne može demonetizirati Bitcoin.",
+	"point_4_summary_1": "Gotovina se može krivotvoriti, ponekad i vrlo precizno. Bitcoin koristi kriptografiju i krivotvorenje čini matematički nemogućim.",
+	"point_5_summary_1": "Bitcoin nema središnje tijelo. Gotovinu izdaju vlade koje mogu tiskati još, mijenjati dizajn ili povlačiti novčanice kad god žele.",
+	"point_6_summary_1": "Gotovina je ranjiva na krađu, požar, gubitak i zapljenu. Bitcoin se može ",
+	"point_6_summary_2": "sigurno držati u samostalnoj pohrani",
+	"point_6_summary_3": " na vašem telefonu ili hardverskom novčaniku.",
+	"point_7_summary_1": "Bitcoin se može podijeliti na 100 milijuna satoshija, što omogućuje mikroplaćanja bilo koje veličine. Gotovina ima minimalnu valutu — novac ne možete prepoloviti.",
+	"hero_title": "Razlika između <span class=\"orange\">Bitcoina</span> i <span class=\"asset\">gotovine</span>"
 }

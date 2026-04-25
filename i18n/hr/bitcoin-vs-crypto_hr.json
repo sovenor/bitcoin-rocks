@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Kripto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Čisti digitalni novac",
 	"bitcoin_point_7": "Antifragilan",
 	"bitcoin_point_8": "Nijedan subjekt ga ne kontrolira",
-	"point_1_summary_1": "Bitcoinov protokol ostao je fundamentalno nepromijenjen od 2009., pružajući predvidljiva pravila koja se ne mogu lako izmijeniti. Većina kripto projekata često ažurira svoje protokole, mijenja tokenomiku ili se račva u nove verzije, stvarajući nesigurnost za korisnike.",
-	"point_2_summary_1": "Bitcoin djeluje na uistinu decentraliziranoj mreži s desecima tisuća neovisnih čvorova širom svijeta. Mnogi kripto projekti kontrolirani su od strane zaklada, tvrtki ili malih grupa programera koji mogu donositi jednostrane odluke o budućnosti protokola.",
-	"point_3_summary_1": "Bitcoin ima strogi limit od 21 milijun kovanica koji će ikada postojati, čineći ga najoskudnijom digitalnom imovinom. Većina kripto projekata ima neograničenu ponudu, inflacijske mehanizme ili može tiskati nove tokene po želji, razrjeđujući vrijednost vlasnika tijekom vremena.",
-	"point_4_summary_1": "Bitcoin ima jednu jednostavnu svrhu: peer-to-peer digitalni novac. Svatko ga može razumjeti i koristiti s osnovnim znanjem. Mnogi kripto projekti uključuju složene pametne ugovore, DeFi protokole ili mehanizme upravljanja koji zahtijevaju tehničku stručnost za sigurno korištenje.",
-	"point_5_summary_1": "Bitcoin koristi Proof of Work konsenzus koji je testiran u borbi više od 15 godina bez jednog uspješnog napada na glavnu mrežu. Mnogi kripto projekti koriste eksperimentalne mehanizme konsenzusa poput Proof of Stake ili delegiranih sustava koji nisu dokazali svoju dugoročnu sigurnost.",
-	"point_6_summary_1": "Bitcoin služi kao digitalni novac - sredstvo očuvanja vrijednosti i sredstvo razmjene. Većina kripto tokena su utility tokeni za specifične platforme, tokeni za upravljanje ili špekulativna imovina s nejasnim prijedlozima stvarne vrijednosti.",
-	"point_7_summary_1": "Bitcoin postaje jači pod napadom i preživio je svaku krizu, zabranu i kritiku. Većina kripto projekata je krhka i može propasti pod regulatornim pritiskom, tehničkim kvarovima ili tržišnim padovima.",
-	"point_8_summary_1": "Bitcoin nema izvršnog direktora, tvrtku iza sebe ni jednu točku kvara. Mnogi kripto projekti podržani su od strane fondova rizičnog kapitala, imaju prepoznatljive upravljačke timove ili ovise o specifičnim tvrtkama za svoj nastavak rada."
+	"point_1_summary_1": "Bitcoin protokol jedva se promijenio od 2009. i pruža predvidljiva pravila. Većina kripto projekata redovito mijenja protokol, tokenomiku ili forka u nove verzije.",
+	"point_2_summary_1": "Bitcoin radi na tisućama neovisnih čvorova diljem svijeta. Većinu kripto projekata kontroliraju zaklade, tvrtke ili mali timovi razvojnih programera koji mogu jednostrano provoditi promjene.",
+	"point_3_summary_1": "Bitcoin ima fiksno ograničenje od 21 milijuna — najrjeđa digitalna imovina. Većina kripto projekata ima neograničenu ponudu ili mehanizme za stvaranje novih tokena prema volji, što razrjeđuje vlasnike.",
+	"point_4_summary_1": "Bitcoin ima jednu svrhu: peer-to-peer digitalni novac. Svi ga razumiju, svi ga mogu koristiti. Većina kripto projekata uključuje složene pametne ugovore ili DeFi koji zahtijevaju stručno tehničko znanje za sigurno korištenje.",
+	"point_5_summary_1": "Bitcoinov sustav dokaza rada radi uspješno već 15 godina bez ijednog uspješnog napada na glavni lanac. Većina kripto projekata koristi eksperimentalne metode konsenzusa koje nisu bile rigorozno testirane.",
+	"point_6_summary_1": "Bitcoin je digitalni novac — pohrana vrijednosti i sredstvo razmjene. Većina kripto tokena su špekulativni, uslužni ili upravljački tokeni bez jasne stvarne vrijednosti.",
+	"point_7_summary_1": "Bitcoin je čvrsto stajao pred napadima i preživio svaku krizu, zabranu i kritiku. Većina kripto projekata propada pod regulatornim, tehničkim ili tržišnim pritiskom.",
+	"point_8_summary_1": "Bitcoin nema CEO-a, tvrtku ni jednu točku kvara. Većina kripto projekata ovisi o investitorima rizičnog kapitala, identificiranim vodećim timovima ili o postojanju jedne tvrtke.",
+	"hero_title": "Razlika između <span class=\"orange\">Bitcoina</span> i <span class=\"asset\">kriptovaluta</span>"
 }

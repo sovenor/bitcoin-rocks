@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"cic_header": "KALKULATOR SLOŽENE INFLACIJE",
 	"cic_description": "Koristite ovaj Kalkulator složene inflacije kako biste saznali koliko vaša plaća treba porasti da bi pratila inflaciju.",
-	"cic_inflation_cta": "Izađite iz inflacije s Bitcoinom"
+	"cic_hero_subtitle": "Saznajte koliko bi vaša plaća trebala porasti da bi pratila inflaciju.",
+	"cic_calculator_heading": "Izračunajte svoju inflacijsku razliku",
+	"cic_cta_label": "Sljedeći korak",
+	"cic_inflation_cta": "Izađite iz inflacije s Bitcoinom",
+	"cic_next_learn_inflation": "Naučite kako funkcionira inflacija",
+	"cic_next_explore_topics": "Istražite više tema",
+	"cic_next_explore_topics_desc": "Pogledajte kako je Bitcoin povezan s novcem, slobodom, energijom i još mnogo toga.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — indeks potrošačkih cijena za sve gradske potrošače",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — ponuda novca M1"
 }

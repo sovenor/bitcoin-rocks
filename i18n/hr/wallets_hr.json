@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"bitcoin_wallet_guide": "Vodič za Bitcoin novčanike",
 	"wallets_description": "Postoji mnogo različitih Bitcoin novčanika koji se razlikuju na važne načine. Možete odrediti je li novčanik pravi za vas postavljajući ova jednostavna pitanja.",
 	"wallets_header": "KAKO SIGURNO POHRANITI SVOJ BITCOIN",
+	"wallets_header_subtitle": "Vodič korak po korak za odabir novčanika, izradu sigurnosne kopije ključeva i preuzimanje pune kontrole nad svojim Bitcoinom.",
 	"wallets_s1_c1": "Bitcoin novčanici su međusobno kompatibilni, tako da možete slati Bitcoin bilo kome bez obzira na to koji novčanik koriste.",
 	"wallets_s1_c2": "Postoji mnogo različitih Bitcoin novčanika koji se razlikuju na važne načine. Možete odrediti je li novčanik pravi za vas postavljajući ova jednostavna pitanja:",
 	"wallets_question_1": "JE LI TO NOVČANIK U SAMOSKRBNIŠTVU?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp je testirao 70 čeličnih sigurnosnih kompleta kako bi vam pomogao odabrati pravi za vas.",
 	"wallets_s6_c5": "Pogledajte Jamesonov vodič za metalnu sigurnosnu kopiju Bitcoina ovdje.",
 	"wallets_s6_c6": "Ili nastavite listati da istražite opcije Bitcoin novčanika.",
+	"wallets_grid_heading": "Popularni Bitcoin novčanici",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Tražite naš vodič za Lightning novčanike?",
 	"wallets_starter_wallet": "Sjajan početni novčanik",
 	"wallets_mobile_app": "Mobilna aplikacija",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Punjiva baterija",
 	"wallets_build_your_own": "Sastavite vlastiti",
 	"wallets_qwerty_keyboard": "Puna QWERTY tipkovnica",
-	"wallets_qr_scanner": "Čitač QR kodova"
+	"wallets_qr_scanner": "Čitač QR kodova",
+	"sources_bitcoin_org_choose": "Bitcoin.org — odaberite svoj novčanik",
+	"sources_jameson_lopp": "Jameson Lopp — recenzije metalnog spremišta Bitcoin sjemena",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin novčanik za samostalnu pohranu",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin hardverski novčanik",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardverski novčanik",
+	"sources_coldcard_q": "Coinkite — Coldcard Q hardverski novčanik",
+	"sources_passport": "Foundation Devices — Passport hardverski novčanik",
+	"sources_seedsigner": "SeedSigner — DIY otvoreni uređaj za potpisivanje Bitcoin transakcija"
 }

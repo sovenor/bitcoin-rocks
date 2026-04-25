@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"404_title": "Greška 404 | Stranica nije pronađena",
-	"404_message": "OVA POKVARENA STRANICA NIJE COOL",
-	"404_home": "NATRAG NA POČETNU"
+	"404_message": "Bitcoin je sjajan, ali ova stranica je pokvarena.",
+	"404_home": "Natrag na početnu",
+	"404_not_found_short": "Nije pronađeno"
 }

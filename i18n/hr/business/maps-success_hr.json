@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
-	}
+	},
+	"biz_maps_success_hero_title": "Zahtjev primljen 🎉",
+	"biz_maps_success_hero_subtitle": "Hvala što ste poslali svoje poduzeće. Uskoro ćemo vas dodati na karte Bitcoin trgovaca.",
+	"biz_maps_success_timeline_header": "Što slijedi",
+	"biz_maps_success_timeline_c1": "Dodat ćemo vaše poduzeće na BTC Map i druge kataloge Bitcoin trgovaca u 1 – 2 tjedna. Svaku prijavu pregledavamo ručno kako bismo održali točnost karte.",
+	"biz_maps_success_timeline_c2": "Kad vaš oglas zaživi, lokalni Bitcoin korisnici pronaći će vaše poduzeće i doći potrošiti Bitcoin.",
+	"biz_maps_success_view_header": "Pogledajte gdje ćete se pojaviti",
+	"biz_maps_success_view_c1": "Dok čekate, pogledajte BTC Map i vidite rastuću mrežu poduzeća koja diljem svijeta prihvaćaju Bitcoin.",
+	"biz_maps_success_btn_view_map": "Pogledajte BTC Map"
 }
