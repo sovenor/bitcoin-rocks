@@ -3,9 +3,24 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"bitcoin_accepted_here_stickers": "Stiker 'Bitcoin Diterima di Sini'",
+	"biz_stickers_hero_title": "Stiker 'Bitcoin Diterima di Sini' gratis",
+	"biz_stickers_hero_subtitle": "Beri tahu pelanggan Anda bahwa Anda menerima Bitcoin. Pesan paket stiker 'Bitcoin Diterima di Sini' gratis untuk dipasang di bisnis Anda.",
+	"biz_stickers_intro_c1": "Menerima Bitcoin hanyalah setengah pekerjaan — pelanggan Anda juga perlu tahu bahwa Anda melakukannya. Stiker kecil 'Bitcoin Diterima di Sini' ini dirancang untuk ditempelkan di pintu depan, kasir, menu, atau di mana pun pelanggan akan melihatnya sebelum mereka membayar.",
+	"biz_stickers_intro_c2": "Kami akan mengirimkan paket gratis kepada Anda di mana saja di AS atau Kanada, atau Anda dapat mencetak sendiri di mana saja di dunia.",
+	"biz_stickers_step_header": "Bagaimana Anda ingin mendapatkan stiker Anda?",
+	"biz_stickers_step_description": "Kami akan mengirim paket gratis ke alamat di AS dan Kanada. Di mana pun di dunia, Anda dapat mencetak sendiri.",
+	"biz_stickers_option_usa": "🇺🇸 AS — Gratis melalui pos",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Gratis melalui pos",
+	"biz_stickers_option_print": "🌍 Global — Cetak sendiri",
+	"biz_stickers_print_header": "Cetak sendiri file stiker",
+	"biz_stickers_print_c1": "Anda dapat mencetak sendiri stiker 'Bitcoin Diterima di Sini', tidak peduli di mana Anda tinggal. Klik bahasa Anda di bawah ini untuk mengunduh file stiker dan instruksi pencetakan.",
+	"biz_stickers_request_header": "Tidak melihat bahasa Anda?",
+	"biz_stickers_request_c1": "Isi formulir di bawah ini untuk meminta file stiker 'Bitcoin Diterima di Sini' dalam bahasa lokal Anda. Kami akan memberi tahu Anda setelah siap.",
+	"biz_stickers_placeholder_translation1": "Terjemahan untuk 'Bitcoin Diterima di Sini'",
+	"biz_stickers_placeholder_translation2": "Terjemahan untuk 'Pindai untuk mempelajari mengapa Bitcoin baik untuk bisnis.'",
 	"stickers_request": "Dapatkan stiker gratis Anda"
 }

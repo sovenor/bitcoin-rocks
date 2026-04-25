@@ -3,10 +3,11 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"404_title": "404 Error | Halaman Tidak Ditemukan",
-	"404_message": "HALAMAN INI RUSAK DAN TIDAK KEREN",
-	"404_home": "KEMBALI KE BERANDA"
+	"404_message": "Bitcoin keren, tetapi halaman yang rusak ini tidak.",
+	"404_home": "Kembali ke beranda",
+	"404_not_found_short": "Tidak ditemukan"
 }

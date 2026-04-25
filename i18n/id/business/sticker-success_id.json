@@ -3,7 +3,18 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
-	}
+	},
+	"biz_sticker_success_hero_title": "Stiker Anda sedang dalam perjalanan 🎉",
+	"biz_sticker_success_hero_subtitle": "Anda akan menerima stiker 'Bitcoin Diterima di Sini' gratis Anda dalam 2 hingga 4 minggu, dalam amplop putih polos berisi 3 stiker.",
+	"biz_sticker_success_tips_header": "Tempat yang baik untuk menempelkan stiker Anda",
+	"biz_sticker_success_tip_1": "Di pintu depan atau jendela Anda agar pelanggan melihatnya sebelum mereka masuk",
+	"biz_sticker_success_tip_2": "Di dekat kasir, terminal POS, atau area pembayaran Anda",
+	"biz_sticker_success_tip_3": "Pada menu, daftar harga, atau tip jar",
+	"biz_sticker_success_tip_4": "Jangan menempelkannya di tempat yang tidak Anda miliki atau tidak Anda izinkan",
+	"biz_sticker_success_more_header": "Butuh lebih banyak stiker?",
+	"biz_sticker_success_more_c1": "Jika 3 stiker tidak cukup untuk bisnis Anda, silakan minta paket gratis lainnya — atau pesan dalam jumlah besar dari pencetak yang sama yang kami gunakan.",
+	"biz_sticker_success_btn_order_bulk": "Pesan dalam jumlah besar",
+	"biz_sticker_success_btn_request_more": "Minta paket gratis lainnya"
 }

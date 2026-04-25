@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Kripto",
@@ -26,14 +26,15 @@
 	"bitcoin_point_4": "Sederhana & dapat diakses",
 	"bitcoin_point_5": "Proof of Work terbukti",
 	"bitcoin_point_6": "Uang digital murni",
-	"bitcoin_point_7": "Antifragile",
+	"bitcoin_point_7": "Antifragil",
 	"bitcoin_point_8": "Tidak ada entitas yang mengendalikannya",
-	"point_1_summary_1": "Protokol Bitcoin telah tetap tidak berubah secara fundamental sejak 2009, memberikan aturan yang dapat diprediksi yang tidak dapat diubah dengan mudah. Sebagian besar proyek kripto sering memperbarui protokol mereka, mengubah tokenomics, atau bercabang menjadi versi baru, menciptakan ketidakpastian bagi pengguna.",
-	"point_2_summary_1": "Bitcoin beroperasi pada jaringan yang benar-benar terdesentralisasi dengan puluhan ribu node independen di seluruh dunia. Banyak proyek kripto dikendalikan oleh yayasan, perusahaan, atau kelompok kecil pengembang yang dapat membuat keputusan sepihak tentang masa depan protokol.",
-	"point_3_summary_1": "Bitcoin memiliki batas keras 21 juta koin yang akan pernah ada, menjadikannya aset digital paling langka. Sebagian besar proyek kripto memiliki pasokan tak terbatas, mekanisme inflasi, atau dapat mencetak token baru sesuka hati, mengencerkan nilai pemegang dari waktu ke waktu.",
-	"point_4_summary_1": "Bitcoin memiliki satu tujuan sederhana: uang digital peer-to-peer. Siapa pun dapat memahami dan menggunakannya dengan pengetahuan dasar. Banyak proyek kripto melibatkan kontrak pintar yang kompleks, protokol DeFi, atau mekanisme tata kelola yang memerlukan keahlian teknis untuk digunakan dengan aman.",
-	"point_5_summary_1": "Bitcoin menggunakan konsensus Proof of Work, yang telah diuji dalam pertempuran selama lebih dari 15 tahun tanpa satu pun serangan yang berhasil pada jaringan utama. Banyak proyek kripto menggunakan mekanisme konsensus eksperimental seperti Proof of Stake atau sistem delegasi yang belum membuktikan keamanan jangka panjang mereka.",
-	"point_6_summary_1": "Bitcoin berfungsi sebagai uang digital - penyimpan nilai dan alat tukar. Sebagian besar token kripto adalah token utilitas untuk platform tertentu, token tata kelola, atau aset spekulatif dengan proposisi nilai dunia nyata yang tidak jelas.",
-	"point_7_summary_1": "Bitcoin menjadi lebih kuat di bawah serangan dan telah bertahan dari setiap krisis, larangan, dan kritik yang dilemparkan kepadanya. Sebagian besar proyek kripto rapuh dan dapat runtuh karena tekanan regulasi, kegagalan teknis, atau penurunan pasar.",
-	"point_8_summary_1": "Bitcoin tidak memiliki CEO, tidak ada perusahaan di belakangnya, dan tidak ada satu titik kegagalan. Banyak proyek kripto didukung oleh perusahaan modal ventura, memiliki tim kepemimpinan yang dapat diidentifikasi, atau bergantung pada perusahaan tertentu untuk operasi berkelanjutan mereka."
+	"point_1_summary_1": "Protokol Bitcoin pada dasarnya tetap sama sejak 2009, memberikan aturan yang dapat diprediksi. Sebagian besar proyek kripto terus mengubah protokol, tokenomik, atau bercabang menjadi versi baru.",
+	"point_2_summary_1": "Bitcoin berjalan di puluhan ribu node independen di seluruh dunia. Sebagian besar proyek kripto dikontrol oleh yayasan, perusahaan, atau tim dev kecil yang dapat membuat perubahan sepihak.",
+	"point_3_summary_1": "Bitcoin memiliki batas keras 21 juta koin — aset digital paling langka. Sebagian besar proyek kripto memiliki pasokan tidak terbatas atau mekanisme untuk mencetak token baru sesuka hati, mengencerkan pemegang.",
+	"point_4_summary_1": "Bitcoin memiliki satu tujuan: uang digital peer-to-peer. Siapa pun dapat memahaminya dan menggunakannya. Sebagian besar kripto melibatkan kontrak pintar atau DeFi yang kompleks yang memerlukan keahlian teknis untuk digunakan dengan aman.",
+	"point_5_summary_1": "Proof of Work Bitcoin telah berjalan tanpa serangan yang berhasil di jaringan utama selama lebih dari 15 tahun. Sebagian besar proyek kripto menggunakan konsensus eksperimental yang belum teruji di lapangan.",
+	"point_6_summary_1": "Bitcoin adalah uang digital — penyimpan nilai dan alat tukar. Sebagian besar token kripto adalah token utilitas atau tata kelola spekulatif dengan nilai dunia nyata yang tidak jelas.",
+	"point_7_summary_1": "Bitcoin tumbuh lebih kuat di bawah serangan dan telah bertahan dari setiap krisis, larangan, dan kritik. Sebagian besar proyek kripto runtuh karena tekanan regulasi, teknis, atau pasar.",
+	"point_8_summary_1": "Bitcoin tidak memiliki CEO, tidak ada perusahaan, tidak ada satu titik kegagalan. Sebagian besar proyek kripto bergantung pada VC, kepemimpinan tertentu, atau kelangsungan satu perusahaan.",
+	"hero_title": "Perbedaan antara <span class=\"orange\">Bitcoin</span> dan <span class=\"asset\">Kripto</span>"
 }

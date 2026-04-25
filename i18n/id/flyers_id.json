@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"free_bitcoin_flyers": "Selebaran Bitcoin gratis dari bitcoin.rocks",
 	"flyers_description": "Cetak selebaran Bitcoin di rumah dan letakkan di tempat umum untuk orange pill orang-orang di sekitar Anda.",
-	"flyers_intro_header": "CARA MENCETAK & MEMASANG SELEBARAN BITCOIN INI",
+	"flyers_hero_title": "Cetak dan pasang selebaran Bitcoin",
+	"flyers_hero_subtitle": "Selebaran Bitcoin yang gratis dan dapat dicetak. Pasang di tempat umum untuk membantu lebih banyak orang belajar tentang Bitcoin.",
+	"flyers_intro_header": "Cara mencetak dan memasang selebaran Bitcoin ini",
 	"flyers_intro_c1": "Misi kami adalah membantu Anda orange pill lebih banyak orang dengan menempatkan selebaran Bitcoin di tempat umum. Selebaran ini memiliki kode QR yang mengarah ke",
 	"flyers_intro_c2": "situs web edukasi Bitcoin kami.",
 	"flyers_intro_c4": "Cetak selebaran ini di rumah atau di toko percetakan. Kemudian, pasang di papan pengumuman, tiang telepon di sekitar kota, dan ruang publik lainnya di mana orang dapat melihatnya dan belajar tentang Bitcoin.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "BAGIKAN LOKASI SELEBARAN ANDA",
 	"flyers_share_c1": "Bagikan lokasi selebaran Anda dengan kami di Nostr dan lihat di mana orang lain menempatkan selebaran mereka.",
 	"flyers_btn_share_on_nostr": "BAGIKAN DI NOSTR",
-	"flyers_btn_what_is_nostr": "APA ITU NOSTR?"
+	"flyers_btn_what_is_nostr": "APA ITU NOSTR?",
+	"flyers_next_get_stickers": "Sebarkan kabar",
+	"flyers_next_get_stickers_desc": "Pesan paket stiker Bitcoin gratis"
 }

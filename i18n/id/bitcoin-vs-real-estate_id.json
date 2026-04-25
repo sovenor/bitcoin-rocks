@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Real Estat",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Sulit dihancurkan",
 	"bitcoin_point_7": "Dapat ditukar dengan sempurna",
 	"bitcoin_point_8": "Pasar global 24/7",
-	"point_1_summary_1": "Bitcoin dapat dipindahkan ke mana saja di dunia secara instan melalui internet. Real estat secara permanen terikat pada lokasi tertentu dan tidak dapat dipindahkan, membuatnya rentan terhadap kondisi ekonomi lokal, bencana alam, dan ketidakstabilan politik.",
-	"point_2_summary_1": "Bitcoin dapat dibagi menjadi 100 juta unit yang lebih kecil yang disebut satoshi, membuatnya sempurna untuk transaksi dalam ukuran apa pun. Real estat tidak dapat dibagi dengan mudah - Anda tidak dapat menjual hanya dapur rumah Anda atau membeli setengah kamar tidur.",
-	"point_3_summary_1": "Bitcoin beroperasi pada jaringan terdesentralisasi yang tidak dapat dikontrol oleh pemerintah mana pun. Real estat tunduk pada regulasi pemerintah yang luas termasuk kontrol sewa, moratorium pengusiran, undang-undang zonasi, dan domain eminen di mana pemerintah dapat menyita properti Anda.",
-	"point_4_summary_1": "Bitcoin tidak memerlukan perawatan - ia ada sebagai kode digital di jaringan. Real estat memerlukan perawatan konstan termasuk perbaikan, renovasi, manajemen properti, asuransi, dan berurusan dengan penyewa jika disewakan.",
-	"point_5_summary_1": "Bitcoin tidak memiliki pajak berkelanjutan - Anda hanya membayar capital gain saat menjual. Real estat tunduk pada pajak properti tahunan yang harus dibayar terlepas dari apakah properti menghasilkan pendapatan, secara efektif memaksa Anda menyewa properti Anda sendiri dari pemerintah selamanya.",
-	"point_6_summary_1": "Bitcoin, ketika dicadangkan dengan benar, tidak dapat dihancurkan oleh banjir, kebakaran, gempa bumi, badai, atau bencana alam lainnya. Real estat rentan terhadap semua bentuk kerusakan fisik dan memerlukan asuransi mahal yang mungkin tidak sepenuhnya menutupi kerugian.",
-	"point_7_summary_1": "Setiap bitcoin identik dan dapat dipertukarkan - satu bitcoin sama dengan satu bitcoin di mana pun di dunia. Setiap properti real estat unik dengan lokasi, kondisi, dan karakteristik yang berbeda, membuatnya sulit untuk menilai dan membandingkan properti.",
-	"point_8_summary_1": "Bitcoin dapat dibeli dan dijual 24/7 oleh siapa pun yang memiliki akses internet di mana pun di dunia. Penjualan real estat terbatas pada pembeli lokal, memerlukan proses panjang dengan pengacara dan agen, dan dapat memakan waktu berbulan-bulan untuk diselesaikan.",
+	"point_1_summary_1": "Bitcoin bergerak ke mana saja di dunia secara instan. Real estat terikat di satu lokasi dan terpapar pada risiko ekonomi, politik, dan alam lokal.",
+	"point_2_summary_1": "Bitcoin dibagi menjadi 100 juta satoshi. Real estat tidak dapat dijual sebagian — Anda tidak dapat melepas hanya dapur atau membeli setengah kamar tidur.",
+	"point_3_summary_1": "Bitcoin beroperasi di jaringan terdesentralisasi yang tidak dapat dikontrol oleh pemerintah mana pun. Real estat sangat diatur — zonasi, kontrol sewa, eminent domain, dan penyitaan semuanya berlaku.",
+	"point_4_summary_1": "Bitcoin tidak memerlukan pemeliharaan. Real estat menuntut perbaikan, renovasi, asuransi, manajemen properti, dan masalah penyewa.",
+	"point_5_summary_1": "Bitcoin tidak memiliki pajak berkelanjutan — Anda hanya membayar capital gain saat menjual. Real estat berutang pajak properti tahunan terlepas dari pendapatan.",
+	"point_6_summary_1": "Bitcoin yang dicadangkan dengan benar bertahan dari kebakaran, banjir, dan gempa bumi. Real estat rentan terhadap setiap bencana, dan asuransi jarang menutupi semuanya.",
+	"point_7_summary_1": "Setiap Bitcoin identik dan dapat ditukar. Setiap properti unik, membuat penetapan harga dan perbandingan menjadi sulit.",
+	"point_8_summary_1": "Bitcoin diperdagangkan secara global 24/7 oleh siapa pun yang memiliki akses internet. Penjualan real estat terbatas pada pembeli lokal dan dapat memakan waktu berbulan-bulan dengan dokumen.",
 	"bitcoin_point_9": "Mendorong kepemilikan individu",
 	"real_estate_point_9": "Berkontribusi pada finansialisasi perumahan",
-	"point_9_summary_1": "Bitcoin memungkinkan kepemilikan individu langsung tanpa perantara, mendorong kedaulatan finansial untuk semua orang. Membeli real estat sebagai investasi di luar tempat tinggal utama Anda berkontribusi pada finansialisasi perumahan, memperlakukan rumah sebagai komoditas daripada tempat berlindung. Ini mendorong harga naik, mengurangi keterjangkauan bagi keluarga, dan berkontribusi pada krisis perumahan dan tunawisma yang mempengaruhi banyak negara saat ini."
+	"point_9_summary_1": "Bitcoin memungkinkan kepemilikan individu langsung untuk siapa saja. Membeli real estat sebagai investasi di luar tempat tinggal utama Anda mendorong harga rumah naik, mengurangi keterjangkauan dan memicu krisis perumahan.",
+	"hero_title": "Perbedaan antara <span class=\"orange\">Bitcoin</span> dan <span class=\"asset\">Real Estat</span>"
 }

@@ -3,11 +3,13 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "FAQ tentang Menerima Bitcoin",
 	"faq_description": "Punya pertanyaan tentang menerima pembayaran Bitcoin di bisnis Anda?",
+	"faq_hero_subtitle": "Jawaban singkat untuk pertanyaan yang paling sering ditanyakan pedagang sebelum mereka mulai menerima Bitcoin — biaya, penyelesaian, dompet, chargeback, biaya, dan banyak lagi.",
+	"faq_intro_c1": "Ketuk pertanyaan apa pun di bawah ini untuk mengembangkan jawaban. Saat Anda siap mulai menerima Bitcoin, sumber daya bisnis di bagian bawah halaman akan memandu Anda melalui setiap langkah.",
 	"faq_s1": "Apa itu Bitcoin?",
 	"faq_s1_c1": "Bitcoin adalah dua hal: uang digital dan jaringan komputer.",
 	"faq_s1_c2": "Anda dapat mengirim Bitcoin (uang digital) langsung ke orang lain menggunakan Jaringan Bitcoin.",
