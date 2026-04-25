@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Arte",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Crittograficamente verificabile",
 	"bitcoin_point_6": "Immune alla distruzione fisica",
 	"bitcoin_point_7": "Accessibile a tutti",
-	"point_1_summary_1": "Bitcoin è perfettamente fungibile, il che significa che ogni bitcoin è identico e intercambiabile - un bitcoin equivale a un bitcoin ovunque nel mondo. L'arte è non fungibile per natura, con ogni pezzo unico nella sua creazione, storia, condizione e provenienza, rendendo i confronti diretti e le valutazioni estremamente difficili.",
-	"point_2_summary_1": "Bitcoin viene scambiato su un mercato globale 24/7 dove chiunque abbia accesso a internet può comprare o vendere istantaneamente. L'arte richiede case d'asta specializzate come Sotheby's o Christie's, commercianti privati o gallerie esclusive. Le vendite possono richiedere mesi per essere organizzate e completate, con accesso limitato al mercato e opportunità di trading irregolari.",
-	"point_3_summary_1": "Le transazioni Bitcoin costano tipicamente meno dell'1% in commissioni, spesso molto meno. Le vendite d'arte comportano costi sostanziali inclusi premi dell'acquirente (10-25%), commissioni del venditore (10-15%), assicurazione, trasporto, stoccaggio e tasse di autenticazione. Questi costi combinati possono facilmente superare il 30-40% del valore dell'opera d'arte in una singola transazione.",
-	"point_4_summary_1": "Bitcoin può essere diviso in 100 milioni di unità più piccole chiamate satoshi, rendendolo perfetto per transazioni di qualsiasi dimensione dalle microtransazioni ai grandi acquisti. L'arte non può essere divisa - non puoi possedere una frazione di un dipinto o vendere solo parte di una scultura. Questa indivisibilità limita la flessibilità degli investimenti e le opzioni di liquidità.",
-	"point_5_summary_1": "La proprietà e l'autenticità di Bitcoin possono essere verificate crittograficamente sulla blockchain da chiunque abbia conoscenze tecniche di base. L'arte richiede autenticazione esperta costosa, ricerca sulla provenienza e analisi scientifica. Anche con la verifica esperta, i falsi ingannano regolarmente il mondo dell'arte, e le dispute di autenticazione possono distruggere il valore di un'opera d'arte dall'oggi al domani.",
-	"point_6_summary_1": "Bitcoin, quando adeguatamente protetto, non può essere distrutto da inondazioni, incendi, terremoti, uragani, furti o altri disastri. L'arte è vulnerabile a tutte le forme di distruzione fisica e deterioramento. Anche con costoso stoccaggio a clima controllato e assicurazione completa, le opere d'arte possono essere danneggiate da fattori ambientali, incidenti o disastri naturali, perdendo potenzialmente tutto il valore.",
-	"point_7_summary_1": "Bitcoin può essere comprato e venduto da chiunque abbia accesso a internet e una piccola somma di denaro da investire. L'investimento in arte è largamente limitato a collezionisti facoltosi a causa degli alti prezzi minimi, accesso esclusivo alle aste, requisiti di stoccaggio, costi assicurativi e la conoscenza specializzata necessaria per navigare con successo nel mercato dell'arte."
+	"point_1_summary_1": "Ogni Bitcoin è identico e fungibile. Ogni opera d'arte è unica — creazione, storia, condizioni e provenienza diverse rendono i confronti diretti incredibilmente difficili.",
+	"point_2_summary_1": "Bitcoin viene scambiato 24/7 su mercati globali accessibili a chiunque. Le belle arti richiedono case d'asta specializzate, dealer privati o gallerie e possono richiedere mesi per essere vendute.",
+	"point_3_summary_1": "Comprare o vendere Bitcoin costa meno dell'1%, spesso molto meno. Le vendite d'arte accumulano commissioni del 30–40% in premi del compratore, commissioni, assicurazioni, trasporto e costi di autenticazione.",
+	"point_4_summary_1": "Bitcoin si divide in 100 milioni di satoshi, perfetti per transazioni di qualsiasi dimensione. Non puoi possedere parte di un dipinto o l'angolo di una scultura senza rischio di controparte.",
+	"point_5_summary_1": "La proprietà e l'autenticità di Bitcoin possono essere verificate crittograficamente da chiunque sulla blockchain. L'autenticazione dell'arte è costosa, lenta e ancora regolarmente ingannata dai falsari — distruggendo il valore di un'opera d'arte dall'oggi al domani.",
+	"point_6_summary_1": "Bitcoin correttamente backuppato sopravvive ad alluvioni, incendi, terremoti e furti. Le belle arti sono vulnerabili a ogni forma di danno fisico, e l'assicurazione raramente copre tutto.",
+	"point_7_summary_1": "Chiunque abbia una connessione internet e un po' di soldi può comprare Bitcoin. L'investimento nelle belle arti è di fatto limitato a collezionisti facoltosi con accesso alle aste e conoscenze specializzate.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e le <span class=\"asset\">Belle Arti</span>"
 }

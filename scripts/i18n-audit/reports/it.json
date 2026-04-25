@@ -1,0 +1,39 @@
+{
+	"lang": "it",
+	"generatedAt": "2026-04-25T13:06:31.966Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T12:55:12.012Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-25T13:06:25.110Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 2,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1184,
+		"brandIdentical": 109
+	},
+	"entries": [
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "bitcoin_point_7",
+			"reason": "untranslated",
+			"englishValue": "Antifragile",
+			"currentValue": "Antifragile",
+			"targetTranslation": null
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_platform_feature_p2p",
+			"reason": "untranslated",
+			"englishValue": "Peer-to-peer",
+			"currentValue": "Peer-to-peer",
+			"targetTranslation": null
+		}
+	]
+}

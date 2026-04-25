@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"sticker_success_1": "Riceverai i tuoi adesivi entro 2-4 settimane. Mentre aspetti, prova a pensare a un buon posto dove mettere i tuoi adesivi!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "in posti dove è improbabile che vengano rimossi rapidamente (gli adesivi non causano danni permanenti)",
 	"sticker_success_list_3": "su superfici dove si attaccano facilmente (metallo, plastica, vetro)",
 	"sticker_success_list_4": "NON su proprietà privata, a coprire segnaletica, ATM o pompe di benzina",
-	"sticker_success_3": "Vuoi vedere dove altre persone stanno mettendo i loro adesivi?"
+	"sticker_success_3": "Vuoi vedere dove altre persone stanno mettendo i loro adesivi?",
+	"sticker_success_hero_title": "I tuoi adesivi sono in arrivo 🎉",
+	"sticker_success_tips_header": "Buoni posti per gli adesivi",
+	"sticker_success_share_header": "Condividi dove hai messo i tuoi adesivi",
+	"sticker_success_bulk_header": "Vuoi più adesivi?",
+	"sticker_success_btn_order_bulk": "Ordina in grandi quantità",
+	"sticker_success_btn_share_on_nostr": "Condividi su Nostr",
+	"sticker_success_btn_what_is_nostr": "Cos'è Nostr?"
 }

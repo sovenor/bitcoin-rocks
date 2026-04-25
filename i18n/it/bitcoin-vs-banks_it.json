@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banche",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Commissioni prevedibili e basse",
 	"bitcoin_point_6": "Non può andare in scoperto",
 	"bitcoin_point_7": "Resistente alla censura",
-	"point_1_summary_1": "Bitcoin è senza permesso, il che significa che chiunque abbia accesso a Internet può usarlo senza chiedere l'approvazione di alcuna autorità.",
-	"point_1_summary_2": "Bitcoin opera senza guardiani",
-	"point_1_summary_3": "- nessuno può negarti l'accesso. Le banche, tuttavia, possono rifiutare di aprire conti, congelare conti esistenti o negare servizi in base alle loro politiche o regolamentazioni governative.",
-	"point_2_summary_1": "La rete Bitcoin opera 24 ore al giorno, 7 giorni alla settimana, 365 giorni all'anno senza finestre di manutenzione o festività. Le banche hanno orari di apertura limitati, chiudono nei fine settimana e nelle festività, e spesso hanno periodi di manutenzione del sistema quando i servizi non sono disponibili.",
-	"point_3_summary_1": "Tutte le transazioni Bitcoin sono registrate su una blockchain pubblica che chiunque può verificare e controllare.",
+	"point_1_summary_1": "Chiunque abbia una connessione internet può usare Bitcoin — è",
+	"point_1_summary_2": "senza permessi.",
+	"point_1_summary_3": "Le banche possono rifiutare, congelare o chiudere conti in base a politiche o regole governative.",
+	"point_2_summary_1": "La rete Bitcoin funziona 24/7/365 senza finestre di manutenzione o festività. Le banche hanno orari limitati, chiudono nei weekend e hanno periodi di inattività.",
+	"point_3_summary_1": "Ogni transazione Bitcoin si trova su una blockchain pubblica che chiunque può verificare. Le banche tengono libri contabili privati che i clienti non possono verificare in modo indipendente.",
 	"point_3_summary_2": "Le banche operano con registri privati e processi interni opachi che i clienti non possono verificare indipendentemente.",
-	"point_4_summary_1": "Con Bitcoin, puoi detenere le tue chiavi private e avere il controllo completo sul tuo denaro.",
-	"point_4_summary_2": "Scopri i portafogli Bitcoin",
-	"point_4_summary_3": "per capire l'auto-custodia. Le banche detengono il tuo denaro nei loro conti e possono congelare, limitare o restringere l'accesso ai tuoi fondi in qualsiasi momento.",
-	"point_5_summary_1": "Le commissioni delle transazioni Bitcoin sono trasparenti, prevedibili e tipicamente molto basse. Le banche spesso hanno commissioni nascoste, commissioni mensili del conto, addebiti per scoperto, commissioni per bonifici, commissioni ATM e altre penalità che possono accumularsi significativamente nel tempo.",
-	"point_6_summary_1": "Bitcoin ti impedisce di spendere denaro che non hai - puoi spendere solo Bitcoin che possiedi realmente. Le banche permettono scoperti (spendere più del saldo del tuo conto) e poi addebitano commissioni sostanziali per questo 'servizio', spesso portando a penalità a cascata.",
-	"point_7_summary_1": "Le transazioni Bitcoin sono resistenti alla censura - una volta trasmesse alla rete, non possono essere fermate o annullate da alcuna autorità centrale. Le banche possono bloccare, congelare, annullare o limitare transazioni in base alle loro politiche, ordini governativi o algoritmi di attività sospetta."
+	"point_4_summary_1": "Con Bitcoin, custodisci personalmente le tue chiavi private — vedi la nostra guida semplice ai",
+	"point_4_summary_2": "wallet Bitcoin",
+	"point_4_summary_3": ". Le banche custodiscono i tuoi soldi e possono congelarli, limitarli o trattenerli in qualsiasi momento.",
+	"point_5_summary_1": "Le commissioni Bitcoin sono trasparenti e prevedibili. Le banche accumulano commissioni nascoste per conti, scoperti, bonifici e bancomat nel tempo.",
+	"point_6_summary_1": "Bitcoin ti consente di spendere solo ciò che possiedi davvero. Le banche permettono lo scoperto, poi addebitano penali su penali per quel privilegio.",
+	"point_7_summary_1": "Una volta trasmessa, una transazione Bitcoin non può essere fermata o annullata. Le banche possono bloccare, congelare o annullare transazioni in base a politiche o ordini governativi.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e le <span class=\"asset\">Banche</span>"
 }

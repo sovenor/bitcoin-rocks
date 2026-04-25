@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_vs_visa": "Bitcoin vs Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Nessuna creazione di debito",
 	"bitcoin_point_6": "Auto-custodia possibile",
 	"bitcoin_point_7": "Accesso globale 24/7",
-	"point_1_summary_1": "Bitcoin è una rete aperta a cui chiunque può unirsi e usare senza permesso. Le reti di carte di credito come Visa sono sistemi chiusi controllati da istituzioni finanziarie che possono negare l'accesso a chiunque scelgano.",
+	"point_1_summary_1": "Bitcoin è una rete aperta a cui chiunque può unirsi e che può usare senza permesso. Visa è un sistema chiuso controllato da istituzioni finanziarie che possono negare l'accesso — specialmente a chi non ha o non è servito da una banca.",
 	"point_1_summary_2": "Questo rende Bitcoin più inclusivo e accessibile alle persone in tutto il mondo, specialmente a quelle che non hanno accesso ai servizi bancari.",
-	"point_2_summary_1": "Le transazioni Bitcoin non hanno commissioni per i commercianti, mentre le compagnie di carte di credito addebitano tipicamente ai commercianti circa il 3% per transazione.",
-	"point_2_summary_2": "Scopri come la tua attività può risparmiare",
-	"point_2_summary_3": "accettando pagamenti Bitcoin invece di pagare commissioni di elaborazione carte di credito.",
-	"point_3_summary_1": "Bitcoin opera su una blockchain trasparente dove tutte le transazioni possono essere verificate da chiunque. Le reti di carte di credito operano come sistemi chiusi e proprietari dove i dettagli delle transazioni sono nascosti dalla vista pubblica.",
+	"point_2_summary_1": "Le transazioni Bitcoin non hanno commissioni per i commercianti. Visa addebita tipicamente circa il 3% per transazione ai commercianti — la tua azienda può risparmiare denaro accettando",
+	"point_2_summary_2": "pagamenti Bitcoin",
+	"point_2_summary_3": " invece.",
+	"point_3_summary_1": "Ogni transazione Bitcoin si trova su una blockchain pubblica verificabile. Visa gestisce un sistema chiuso e proprietario in cui i clienti non possono verificare nulla in modo indipendente.",
 	"point_3_summary_2": "Questa trasparenza rende Bitcoin più affidabile e consente la verifica indipendente dell'integrità della rete.",
-	"point_4_summary_1": "Le compagnie di carte di credito possono congelare conti, bloccare transazioni o negare il servizio in qualsiasi momento. Bitcoin non può essere congelato o controllato da alcuna autorità centrale.",
+	"point_4_summary_1": "Bitcoin non può essere congelato da alcuna autorità centrale. Visa può congelare conti, bloccare transazioni o negare il servizio in qualsiasi momento.",
 	"point_4_summary_2": "Con Bitcoin, mantieni il controllo sul tuo denaro e non puoi essere tagliato fuori dal sistema di pagamento.",
-	"point_5_summary_1": "Le carte di credito creano debito che può accumulare tassi di interesse alti se non pagato rapidamente, a volte superiori al 25% annuo.",
+	"point_5_summary_1": "Bitcoin è regolamento finale — puoi spendere solo ciò che possiedi. Le carte di credito creano debito con tassi di interesse spesso superiori al 25% all'anno.",
 	"point_5_summary_2": "Le transazioni Bitcoin sono regolamenti finali senza creazione di debito - puoi spendere solo Bitcoin che possiedi realmente.",
-	"point_6_summary_1": "Bitcoin consente l'auto-custodia, il che significa che puoi detenere e controllare il tuo denaro senza affidarti a banche o processori di pagamento.",
-	"point_6_summary_2": "Scopri i portafogli Bitcoin",
-	"point_6_summary_3": "per capire come puoi prendere il controllo del tuo denaro. Le carte di credito richiedono sempre intermediari come banche e processori di pagamento.",
-	"point_7_summary_1": "Bitcoin funziona 24/7 globalmente senza orari di ufficio o restrizioni geografiche.",
-	"point_7_summary_2": "Le reti di carte di credito hanno orari di ufficio, finestre di manutenzione e limitazioni geografiche che possono impedire l'elaborazione delle transazioni."
+	"point_6_summary_1": "Bitcoin ti permette di prendere",
+	"point_6_summary_2": "l'autocustodia",
+	"point_6_summary_3": "senza bisogno di una banca o di un processore di pagamento. Le carte di credito richiedono sempre intermediari.",
+	"point_7_summary_1": "Bitcoin funziona 24/7 a livello globale senza orari di lavoro. Visa ha orari operativi, finestre di manutenzione e restrizioni geografiche che possono bloccare le transazioni.",
+	"point_7_summary_2": "Le reti di carte di credito hanno orari di ufficio, finestre di manutenzione e limitazioni geografiche che possono impedire l'elaborazione delle transazioni.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e <span class=\"asset\">Visa</span>"
 }

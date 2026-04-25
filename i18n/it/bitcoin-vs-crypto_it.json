@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
-	"bitcoin_vs_crypto": "Bitcoin vs Crypto",
+	"bitcoin_vs_crypto": "Bitcoin contro le crypto",
 	"crypto_intro_1": "Lo spazio delle criptovalute è esploso con migliaia di token digitali e progetti diversi.",
 	"crypto_intro_2": "Sebbene Bitcoin sia stata la prima e rimanga la criptovaluta più conosciuta, è fondamentalmente diversa dal resto dell'industria crypto.",
 	"crypto_intro_3": "Esploriamo le differenze chiave tra Bitcoin e l'ecosistema più ampio delle criptovalute.",
-	"crypto": "CRYPTO",
+	"crypto": "CRYPTO ALTCOIN",
 	"crypto_point_1": "Cambiamenti frequenti e fork",
 	"crypto_point_2": "Controllo centralizzato",
 	"crypto_point_3": "Fornitura illimitata o inflazionistica",
@@ -26,14 +26,15 @@
 	"bitcoin_point_4": "Semplice e accessibile",
 	"bitcoin_point_5": "Proof of Work provato",
 	"bitcoin_point_6": "Denaro digitale puro",
-	"bitcoin_point_7": "Antifragile",
+	"bitcoin_point_7": "Antifragile (resistente)",
 	"bitcoin_point_8": "Nessuna entità lo controlla",
-	"point_1_summary_1": "Il protocollo di Bitcoin è rimasto fondamentalmente invariato dal 2009, fornendo regole prevedibili che non possono essere facilmente alterate. La maggior parte dei progetti crypto aggiorna frequentemente i loro protocolli, cambia le tokenomics o si divide in nuove versioni, creando incertezza per gli utenti.",
-	"point_2_summary_1": "Bitcoin opera su una rete veramente decentralizzata con decine di migliaia di nodi indipendenti in tutto il mondo. Molti progetti crypto sono controllati da fondazioni, aziende o piccoli gruppi di sviluppatori che possono prendere decisioni unilaterali sul futuro del protocollo.",
-	"point_3_summary_1": "Bitcoin ha un limite massimo di 21 milioni di monete che esisteranno mai, rendendolo l'asset digitale più scarso. La maggior parte dei progetti crypto ha forniture illimitate, meccanismi inflazionistici o può coniare nuovi token a piacimento, diluendo il valore dei detentori nel tempo.",
-	"point_4_summary_1": "Bitcoin ha uno scopo semplice: denaro digitale peer-to-peer. Chiunque può capirlo e usarlo con conoscenze di base. Molti progetti crypto coinvolgono smart contract complessi, protocolli DeFi o meccanismi di governance che richiedono competenze tecniche per essere utilizzati in sicurezza.",
-	"point_5_summary_1": "Bitcoin utilizza il consenso Proof of Work, che è stato testato in battaglia per oltre 15 anni senza un singolo attacco riuscito sulla rete principale. Molti progetti crypto utilizzano meccanismi di consenso sperimentali come Proof of Stake o sistemi delegati che non hanno dimostrato la loro sicurezza a lungo termine.",
-	"point_6_summary_1": "Bitcoin serve come denaro digitale - una riserva di valore e mezzo di scambio. La maggior parte dei token crypto sono token di utilità per piattaforme specifiche, token di governance o asset speculativi con proposte di valore del mondo reale poco chiare.",
-	"point_7_summary_1": "Bitcoin diventa più forte sotto attacco e è sopravvissuto a ogni crisi, divieto e critica che gli è stata lanciata contro. La maggior parte dei progetti crypto sono fragili e possono crollare a causa della pressione normativa, guasti tecnici o cali del mercato.",
-	"point_8_summary_1": "Bitcoin non ha CEO, nessuna azienda dietro di esso e nessun singolo punto di fallimento. Molti progetti crypto sono supportati da società di venture capital, hanno team di leadership identificabili o dipendono da aziende specifiche per il loro funzionamento continuo."
+	"point_1_summary_1": "Il protocollo Bitcoin è rimasto fondamentalmente lo stesso dal 2009, fornendo regole prevedibili. La maggior parte dei progetti crypto cambia continuamente protocolli, tokenomics o si dirama in nuove versioni.",
+	"point_2_summary_1": "Bitcoin gira su decine di migliaia di nodi indipendenti in tutto il mondo. La maggior parte dei progetti crypto è controllata da fondazioni, aziende o piccoli team di sviluppatori che possono apportare modifiche unilaterali.",
+	"point_3_summary_1": "Bitcoin ha un limite rigido di 21 milioni di monete — l'asset digitale più scarso. La maggior parte dei progetti crypto ha un'offerta illimitata o meccanismi per coniare nuovi token a piacimento, diluendo i possessori.",
+	"point_4_summary_1": "Bitcoin ha uno scopo: denaro digitale peer-to-peer. Chiunque può capirlo e usarlo. La maggior parte delle crypto coinvolge complessi smart contract o DeFi che richiedono competenze tecniche per essere usati in sicurezza.",
+	"point_5_summary_1": "La Proof of Work di Bitcoin funziona senza un attacco riuscito sulla rete principale da più di 15 anni. La maggior parte dei progetti crypto utilizza meccanismi di consenso sperimentali e non testati sul campo.",
+	"point_6_summary_1": "Bitcoin è denaro digitale — una riserva di valore e un mezzo di scambio. La maggior parte dei token crypto sono token di utilità o governance speculativi con valore reale poco chiaro.",
+	"point_7_summary_1": "Bitcoin diventa più forte sotto attacco e ha resistito a ogni crisi, divieto e critica. La maggior parte dei progetti crypto crolla sotto pressione regolamentare, tecnica o di mercato.",
+	"point_8_summary_1": "Bitcoin non ha CEO, nessuna azienda, nessun singolo punto di fallimento. La maggior parte dei progetti crypto dipende da VC, leadership specifica o dalla sopravvivenza di una singola azienda.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e le <span class=\"asset\">Crypto</span>"
 }

@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Richiesta ricevuta 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Grazie per aver richiesto i file degli adesivi \"Bitcoin Accettato Qui\" nella tua lingua.",
+	"biz_sticker_language_success_timeline_header": "Cosa succede dopo",
+	"biz_sticker_language_success_timeline_c1": "Creeremo e pubblicheremo i tuoi file degli adesivi entro 3–4 settimane. Una volta pronti, potrai scaricarli e stamparli gratuitamente dalla nostra pagina dei file degli adesivi.",
+	"biz_sticker_language_success_timeline_c2": "I file degli adesivi vengono rilasciati a lotti, quindi potrebbero volerci alcune settimane prima che la tua lingua sia attiva. Grazie per la pazienza!"
 }

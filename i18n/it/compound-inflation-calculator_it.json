@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"cic_header": "CALCOLATORE DI INFLAZIONE COMPOSTA",
 	"cic_description": "Usa questo Calcolatore di Inflazione Composta per scoprire quanto il tuo stipendio deve aumentare per stare al passo con l'inflazione.",
-	"cic_inflation_cta": "Esci dall'inflazione con Bitcoin"
+	"cic_hero_subtitle": "Vedi quanto deve aumentare il tuo stipendio per stare al passo con l'inflazione.",
+	"cic_calculator_heading": "Calcola il tuo divario di inflazione",
+	"cic_cta_label": "Prossimo passo",
+	"cic_inflation_cta": "Esci dall'inflazione con Bitcoin",
+	"cic_next_learn_inflation": "Scopri come funziona l'inflazione",
+	"cic_next_explore_topics": "Esplora più argomenti",
+	"cic_next_explore_topics_desc": "Vedi come Bitcoin si collega a denaro, libertà, energia e altro.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

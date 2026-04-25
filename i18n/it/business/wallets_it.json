@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"how_to_accept_bitcoin_payments": "Come Accettare Pagamenti Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Self-hosted = 0% commissioni",
 	"wallets_feature_online_store": "Integrazione negozio online",
 	"wallets_feature_invoicing": "Software di fatturazione gratuito",
-	"wallets_get_wallet": "OTTIENI PORTAFOGLIO"
+	"wallets_get_wallet": "OTTIENI PORTAFOGLIO",
+	"wallets_hero_subtitle": "Wallet Bitcoin gratuiti. Scegli quello adatto alla tua attività — di persona, online o basato su fatture — e inizia ad accettare Bitcoin in pochi minuti.",
+	"wallets_section_sole": "Wallet per ditte individuali",
+	"wallets_section_sole_intro": "Se gestisci un negozio, un caffè, uno studio o un servizio da solo, qualsiasi di questi wallet funzionerà. Scegli in base al fatto che tu voglia tenere i pagamenti in Bitcoin o convertire automaticamente parte di ogni pagamento nella tua valuta locale.",
+	"wallets_section_multiple": "Wallet per aziende con più dipendenti",
+	"wallets_section_multiple_intro": "Se hai un team che accetta pagamenti alla cassa, scegli un wallet che supporti più login dei dipendenti — così ogni dipendente ha il proprio PIN e mantieni una traccia di audit pulita di chi ha accettato quale pagamento.",
+	"wallets_section_online": "Wallet per attività online",
+	"wallets_section_online_intro": "Vendi su un sito web? Questi wallet si collegano al tuo negozio online e accettano Bitcoin da qualsiasi cliente, in qualsiasi parte del mondo — niente chargeback, nessun account commerciante richiesto.",
+	"wallets_section_invoice": "Wallet per aziende basate su fatture",
+	"wallets_section_invoice_intro": "Se fatturi clienti (consulenze, freelance, servizi B2B), usa un wallet costruito attorno alla fatturazione. I tuoi clienti pagano una fattura Bitcoin in pochi clic.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business ti permette di accettare pagamenti Bitcoin e Lightning con commissioni zero e regolamento istantaneo. Supporta pagamenti di persona, online e basati su fatture con conversione automatica opzionale nella tua valuta locale.",
+	"sources_square": "Square — Accetta pagamenti Bitcoin",
+	"sources_breez_business": "Breez — Wallet Lightning solo Bitcoin",
+	"sources_opennode": "OpenNode — Processore di pagamenti Bitcoin",
+	"sources_ibex": "IBEX — Infrastruttura di pagamenti Lightning",
+	"sources_zaprite": "Zaprite — Fatturazione Bitcoin per aziende",
+	"biz_wallets_meta_description": "Tutti i wallet Bitcoin sono interconnessi — scegli quello adatto alla tua attività. Gratuiti, regolamento istantaneo, niente chargeback."
 }

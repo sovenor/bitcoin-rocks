@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_accepted_here_stickers": "Adesivi Bitcoin Accettato Qui",
+	"biz_stickers_hero_title": "Adesivi gratuiti \"Bitcoin Accettato Qui\"",
+	"biz_stickers_hero_subtitle": "Fai sapere ai tuoi clienti che accetti Bitcoin. Ordina un pacchetto gratuito di adesivi \"Bitcoin Accettato Qui\" per esporre nella tua attività.",
+	"biz_stickers_intro_c1": "Accettare Bitcoin è solo metà del lavoro — i tuoi clienti devono anche saperlo. Questi piccoli adesivi \"Bitcoin Accettato Qui\" sono progettati per essere applicati sulla porta d'ingresso, alla cassa, sui menu o ovunque i clienti li vedano prima di pagare.",
+	"biz_stickers_intro_c2": "Ti spediamo gratuitamente un pacchetto ovunque negli Stati Uniti o in Canada, oppure puoi stamparli tu stesso ovunque nel mondo.",
+	"biz_stickers_step_header": "Come vuoi ricevere i tuoi adesivi?",
+	"biz_stickers_step_description": "Spediamo pacchetti gratuiti agli indirizzi in USA e Canada. Ovunque nel mondo, puoi stamparli tu stesso.",
+	"biz_stickers_option_usa": "🇺🇸 USA — Gratis per posta",
+	"biz_stickers_option_canada": "🇨🇦 Canada — Gratis per posta",
+	"biz_stickers_option_print": "🌍 Globale — Stampali tu stesso",
+	"biz_stickers_print_header": "Stampa tu stesso i file degli adesivi",
+	"biz_stickers_print_c1": "Puoi stampare tu stesso gli adesivi \"Bitcoin Accettato Qui\", non importa dove vivi. Clicca sulla tua lingua qui sotto per scaricare i file degli adesivi e le istruzioni di stampa.",
+	"biz_stickers_request_header": "Non vedi la tua lingua?",
+	"biz_stickers_request_c1": "Compila il modulo qui sotto per richiedere file degli adesivi \"Bitcoin Accettato Qui\" nella tua lingua locale. Ti faremo sapere quando saranno pronti.",
+	"biz_stickers_placeholder_translation1": "Traduzione di \"Bitcoin Accettato Qui\"",
+	"biz_stickers_placeholder_translation2": "Traduzione di \"Scansiona per scoprire perché Bitcoin è buono per le aziende.\"",
 	"stickers_request": "Ottieni i tuoi adesivi gratuiti"
 }

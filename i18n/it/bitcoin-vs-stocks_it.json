@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Azioni",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Trading 24/7",
 	"bitcoin_point_6": "Auto-custodia possibile",
 	"bitcoin_point_7": "Asset a offerta fissa",
-	"point_1_summary_1": "Quando possiedi Bitcoin, hai la proprietà diretta dell'asset stesso. Quando possiedi azioni, possiedi una quota in un'azienda, il che significa che il tuo investimento dipende dalle prestazioni dell'azienda, dalle decisioni del management e dal successo aziendale.",
-	"point_2_summary_1": "Bitcoin ha un limite massimo di 21 milioni di BTC che esisteranno mai.",
-	"point_2_summary_2": "Le aziende possono emettere nuove azioni in qualsiasi momento, diluendo la percentuale di proprietà degli azionisti esistenti. Questo significa che la tua fetta dell'azienda diventa più piccola quando vengono create nuove azioni.",
-	"point_2_summary_3": "Questo è meno dell'inflazione fiat, ma è comunque diluizione.",
-	"point_3_summary_1": "Bitcoin opera su una rete decentralizzata senza un singolo punto di fallimento. Gli investimenti azionari sono soggetti al rischio persona chiave - se il CEO o altri leader critici se ne vanno, si ammalano o prendono decisioni sbagliate, il tuo investimento può soffrire significativamente. Le aziende dipendono fortemente dai loro team di leadership.",
-	"point_4_summary_1": "Il prezzo di Bitcoin è determinato puramente dalla domanda e offerta del mercato. I prezzi delle azioni sono spesso valutati usando rapporti P/E (Prezzo-Guadagni), che mostrano quanto gli investitori pagano per ogni euro di guadagni dell'azienda. Rapporti P/E alti possono indicare azioni sopravvalutate, rendendo più difficile determinare il valore equo.",
-	"point_5_summary_1": "Bitcoin viene scambiato 24 ore al giorno, 7 giorni alla settimana su exchange globali.",
+	"point_1_summary_1": "Bitcoin è un asset diretto che possiedi completamente. Le azioni sono frazioni di un'azienda — il loro valore dipende dal management, dalle performance e da decisioni che non puoi controllare.",
+	"point_2_summary_1": "Bitcoin ha un limite rigido di 21 milioni di BTC. Le aziende possono emettere nuove azioni in qualsiasi momento, diluendo gli azionisti esistenti — simile a come l'",
+	"point_2_summary_2": "inflazione",
+	"point_2_summary_3": " fiat diluisce il contante. Con Bitcoin, la tua quota non si restringe mai.",
+	"point_3_summary_1": "Bitcoin non ha CEO e nessun singolo punto di fallimento. Le azioni dipendono fortemente dalla leadership — una decisione sbagliata o una partenza può far crollare il prezzo.",
+	"point_4_summary_1": "Il prezzo di Bitcoin viene da un mercato globale aperto. Le valutazioni delle azioni si basano su metriche come il rapporto P/E che possono nascondere azioni sopravvalutate.",
+	"point_5_summary_1": "Bitcoin viene scambiato 24/7 in tutto il mondo. I mercati azionari aprono solo durante l'orario lavorativo nei giorni feriali.",
 	"point_5_summary_2": "Bitcoin è decentralizzato",
-	"point_6_summary_1": "Con Bitcoin, puoi prendere l'auto-custodia delle tue monete, il che significa che le possiedi veramente senza dipendere da terze parti.",
-	"point_6_summary_2": "L'auto-custodia è semplice come scaricare un'app.",
-	"point_6_summary_3": "Le azioni richiedono un conto di intermediazione e sei soggetto al rischio di controparte - se l'azienda fallisce o l'intermediario fallisce, potresti perdere il tuo investimento.",
-	"point_7_summary_1": "Bitcoin è un asset a offerta fissa con un limite massimo di 21 milioni di Bitcoin che esisteranno mai. Questo lo rende un'ottima copertura contro l'inflazione. Le azioni hanno prestazioni variabili contro l'inflazione - alcune aziende vanno bene durante i periodi inflazionistici mentre altre lottano. Non c'è garanzia che una particolare azione protegga dall'inflazione."
+	"point_6_summary_1": "Puoi",
+	"point_6_summary_2": "autocustodire",
+	"point_6_summary_3": "Bitcoin con un'app semplice — nessun broker richiesto. Le azioni risiedono presso broker, esponendoti al rischio di controparte se falliscono.",
+	"point_7_summary_1": "L'offerta fissa di Bitcoin lo rende una copertura affidabile contro l'inflazione. Alcune azioni battono l'inflazione, altre no — nessuna garanzia.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e le <span class=\"asset\">Azioni</span>"
 }

@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_lightning_wallet_guide": "Guida ai Portafogli Bitcoin Lightning",
 	"lightning_description": "I portafogli Lightning ti permettono di inviare Bitcoin rapidamente e a basso costo mantenendo la tua sovranità personale.",
 	"lightning_header": "GUIDA AI PORTAFOGLI LIGHTNING",
+	"lightning_header_subtitle": "Lightning ti permette di inviare Bitcoin in pochi secondi per meno di un centesimo — scegli un wallet i cui compromessi corrispondano a quanto Bitcoin vuoi spendere.",
 	"lightning_s1_c1": "Lightning ti permette di inviare pagamenti Bitcoin rapidamente e a basso costo.",
 	"lightning_s1_c2": "È importante sapere che usare Lightning comporta dei compromessi. In cambio di pagamenti Bitcoin più veloci e economici, spesso si sacrifica un po' di sicurezza.",
 	"lightning_s1_c3": "In generale, Lightning dovrebbe essere usato solo con piccole quantità di bitcoin. Dovresti conservare grandi quantità di bitcoin solo in un portafoglio hardware.",
-	"lightning_s1_c4": "Consulta la nostra Guida ai Portafogli Hardware per maggiori informazioni.",
+	"lightning_s1_c4": "Vedi la nostra",
+	"lightning_s1_c4_link": "Guida ai Wallet Hardware Bitcoin",
+	"lightning_s1_c4_end": "per maggiori informazioni.",
 	"lightning_s1_c5": "Non tutti i portafogli Lightning sono uguali. Puoi determinare quale portafoglio ha il giusto equilibrio di compromessi per te ponendoti una semplice domanda:",
 	"lightning_question_1": "QUALE EQUILIBRIO DI COMPROMESSI È GIUSTO PER ME?",
 	"lightning_s2_c1": "Una delle innovazioni di Bitcoin è la possibilità di conservarlo senza affidarsi a un custode, come una banca. I portafogli di auto-custodia sbloccano tutto il potere di Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Questi portafogli sono più simili al sistema bancario dove devi fidarti di una terza parte per darti accesso al tuo denaro. Se i tuoi Bitcoin sono su un exchange, stai usando un portafoglio custodiale.",
 	"lightning_s3_c3": "I portafogli custodiali possono sembrare convenienti, ma il custode ha la capacità tecnica di rubare tutti i fondi degli utenti in qualsiasi momento.",
 	"lightning_s3_c4": "Alcune persone preferiscono i portafogli Lightning custodiali per piccole quantità di bitcoin per la loro facilità d'uso. Ricorda solo: non le tue chiavi, non le tue monete!",
+	"lightning_grid_heading": "Wallet Lightning popolari",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% gratuito",
 	"lightning_merchants": "Ottimo per i commercianti",
 	"lightning_custodial": "Portafoglio completamente custodiale",
-	"lightning_cta_hardware": "Cerchi la nostra Guida ai Portafogli Hardware Bitcoin?"
+	"lightning_cta_hardware": "Cerchi la nostra Guida ai Portafogli Hardware Bitcoin?",
+	"lightning_hardware_cta_label": "Wallet hardware",
+	"sources_lightning_paper": "Joseph Poon e Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Wallet Lightning Phoenix",
+	"sources_breez_lightning": "Breez — Wallet Lightning self-custodial",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — Wallet Lightning custodial",
+	"sources_lightning_labs": "Lightning Labs — Documentazione Lightning Network"
 }
