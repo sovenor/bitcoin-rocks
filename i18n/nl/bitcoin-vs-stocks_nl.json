@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Aandelen",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "24/7 handel",
 	"bitcoin_point_6": "Zelfbewaring mogelijk",
 	"bitcoin_point_7": "Deflationair activum",
-	"point_1_summary_1": "Wanneer je Bitcoin bezit, heb je direct eigendom van het activum zelf. Wanneer je aandelen bezit, bezit je een aandeel in een bedrijf, wat betekent dat je investering afhangt van de prestaties van het bedrijf, managementbeslissingen en bedrijfssucces.",
-	"point_2_summary_1": "Bitcoin heeft een vaste limiet van 21 miljoen BTC die ooit zullen bestaan.",
-	"point_2_summary_2": "Bedrijven kunnen op elk moment nieuwe aandelen uitgeven, waardoor het eigendomspercentage van bestaande aandeelhouders wordt verwaterd. Dit betekent dat je deel van het bedrijf kleiner wordt wanneer nieuwe aandelen worden gecreëerd.",
-	"point_2_summary_3": "Dit is minder dan fiat-inflatie, maar nog steeds verwatering.",
-	"point_3_summary_1": "Bitcoin werkt op een gedecentraliseerd netwerk zonder enkel foutpunt. Aandelenvestigingen zijn onderhevig aan sleutelpersoonrisico - als de CEO of andere kritieke leiders vertrekken, ziek worden of slechte beslissingen nemen, kan je investering aanzienlijk lijden. Bedrijven zijn sterk afhankelijk van hun leiderschapsteams.",
-	"point_4_summary_1": "Bitcoin's prijs wordt puur bepaald door marktaanbod en -vraag. Aandelenprijzen worden vaak geëvalueerd met K/W-ratio's (Koers-Winst), die laten zien hoeveel investeerders betalen voor elke euro bedrijfswinst. Hoge K/W-ratio's kunnen overgewaardeerde aandelen aangeven, waardoor het moeilijker wordt om de eerlijke waarde te bepalen.",
-	"point_5_summary_1": "Bitcoin wordt 24 uur per dag, 7 dagen per week verhandeld op wereldwijde beurzen.",
+	"point_1_summary_1": "Bitcoin is een direct activum dat je volledig bezit. Aandelen zijn participaties in een bedrijf — hun waarde hangt af van management, prestaties en beslissingen waarop jij geen invloed hebt.",
+	"point_2_summary_1": "Bitcoin heeft een vaste bovengrens van 21 miljoen BTC. Bedrijven kunnen op elk moment nieuwe aandelen uitgeven en bestaande aandeelhouders verwateren — net zoals fiat-",
+	"point_2_summary_2": "inflatie",
+	"point_2_summary_3": " contant geld verwatert. Bij Bitcoin krimpt jouw aandeel nooit.",
+	"point_3_summary_1": "Bitcoin heeft geen CEO en geen single point of failure. Aandelen zijn sterk afhankelijk van management — één verkeerde beslissing of het vertrek van een sleutelpersoon kan de koers laten kelderen.",
+	"point_4_summary_1": "De prijs van Bitcoin komt van open wereldwijde markten. Aandelenwaarderingen leunen op kengetallen zoals de koers-winstverhouding, die overgewaardeerde aandelen kunnen verhullen.",
+	"point_5_summary_1": "Bitcoin wordt 24/7 wereldwijd verhandeld. Aandelenmarkten zijn alleen geopend op werkdagen tijdens beurstijden.",
 	"point_5_summary_2": "Bitcoin is gedecentraliseerd",
-	"point_6_summary_1": "Met Bitcoin kun je zelfbewaring van je munten nemen, wat betekent dat je ze echt bezit zonder afhankelijk te zijn van een derde partij.",
-	"point_6_summary_2": "Zelfbewaring is zo eenvoudig als het downloaden van een app.",
-	"point_6_summary_3": "Aandelen vereisen een makelaarsrekening en je bent onderhevig aan tegenpartijrisico - als het bedrijf failliet gaat of de makelaar faalt, zou je je investering kunnen verliezen.",
-	"point_7_summary_1": "Bitcoin is een deflationair activum met een afnemende aanboduitgifte over tijd. Aandelen hebben variabele prestaties tegen inflatie - sommige bedrijven presteren goed tijdens inflatoire periodes terwijl anderen worstelen. Er is geen garantie dat een bepaald aandeel beschermt tegen inflatie."
+	"point_6_summary_1": "Bij Bitcoin kun je via een eenvoudige app overstappen naar",
+	"point_6_summary_2": "self-custody",
+	"point_6_summary_3": " — geen broker nodig. Aandelen liggen bij brokers, wat je blootstelt aan tegenpartijrisico als die omvallen.",
+	"point_7_summary_1": "Het vaste aanbod van Bitcoin maakt het een betrouwbare bescherming tegen inflatie. Sommige aandelen verslaan inflatie, andere niet — er is geen garantie.",
+	"hero_title": "Het verschil tussen <span class=\"orange\">Bitcoin</span> en <span class=\"asset\">aandelen</span>"
 }

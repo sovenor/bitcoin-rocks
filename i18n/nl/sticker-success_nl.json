@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"sticker_success_1": "Je ontvangt jouw stickers binnen 1 tot 2 weken. Terwijl je wacht kun je goeie plaatsen bedenken waar je je stickers kan plakken!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "Op plaatsen waar ze waarschijnlijk niet snel zullen verwijderd (de stickers veroorzaken geen permanente schade)",
 	"sticker_success_list_3": "Op oppervlakken waar ze makkelijk te plakken zijn.(metaal, plastic, glas)",
 	"sticker_success_list_4": "NIET op privé terrein, bedekken van wegwijzers, geldautomaten, of benzinepompen",
-	"sticker_success_3": "Wil je zien waar anderen hun stickers plakken?"
+	"sticker_success_3": "Wil je zien waar anderen hun stickers plakken?",
+	"sticker_success_hero_title": "Je stickers zijn onderweg 🎉",
+	"sticker_success_tips_header": "Goede plekken voor stickers",
+	"sticker_success_share_header": "Deel waar je de stickers hebt geplakt",
+	"sticker_success_bulk_header": "Heb je meer stickers nodig?",
+	"sticker_success_btn_order_bulk": "In bulk bestellen",
+	"sticker_success_btn_share_on_nostr": "Delen op Nostr",
+	"sticker_success_btn_what_is_nostr": "Wat is Nostr?"
 }

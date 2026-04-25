@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
-	}
+	},
+	"biz_sticker_success_hero_title": "Je stickers zijn onderweg 🎉",
+	"biz_sticker_success_hero_subtitle": "Je gratis „Bitcoin geaccepteerd hier“-stickers komen binnen 2 tot 4 weken in een eenvoudige witte envelop met 3 stickers.",
+	"biz_sticker_success_tips_header": "Goede plekken voor je stickers",
+	"biz_sticker_success_tip_1": "Op de voordeur of in de etalage, zodat klanten ze zien voordat ze binnenkomen",
+	"biz_sticker_success_tip_2": "Bij de kassa, het betaalterminal of het afrekenpunt",
+	"biz_sticker_success_tip_3": "Op menu's, prijslijsten of fooienpotten",
+	"biz_sticker_success_tip_4": "Niet plakken op plekken die niet van jou zijn of waarvoor je geen toestemming hebt",
+	"biz_sticker_success_more_header": "Heb je meer stickers nodig?",
+	"biz_sticker_success_more_c1": "Als 3 stickers niet genoeg zijn voor je bedrijf, vraag gerust nog een gratis pakket aan — of bestel in bulk bij dezelfde drukkerij die wij gebruiken.",
+	"biz_sticker_success_btn_order_bulk": "In bulk bestellen",
+	"biz_sticker_success_btn_request_more": "Nog een gratis pakket aanvragen"
 }

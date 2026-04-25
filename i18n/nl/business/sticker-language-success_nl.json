@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Verzoek ontvangen 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Bedankt voor je verzoek om „Bitcoin geaccepteerd hier“-stickerbestanden in jouw taal.",
+	"biz_sticker_language_success_timeline_header": "Wat er nu gebeurt",
+	"biz_sticker_language_success_timeline_c1": "We maken en publiceren je stickerbestanden binnen 3 tot 4 weken. Zodra ze klaar zijn, kun je ze gratis downloaden en printen vanaf onze stickerbestanden-pagina.",
+	"biz_sticker_language_success_timeline_c2": "We publiceren stickerbestanden in batches, dus het kan enkele weken duren voordat jouw taal live gaat. Bedankt voor je geduld!"
 }

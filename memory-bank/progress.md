@@ -1,3 +1,47 @@
+## i18n cleanup Step 5 — Dutch (nl) — 2026-04-25
+
+**Counter:** 31/54 languages complete. Thirty-first manifest-driven refresh.
+Dutch (Nederlands) is the dominant written and spoken language of the
+Netherlands and Flemish Belgium, with about 25 million native speakers,
+a strong financial-press tradition (FD, NRC, Het Financieele Dagblad),
+and an unusually large per-capita Bitcoin community — Amsterdam Bitcoin
+City, the Bitcoin Genootschap, the Bitcoin Magazine NL outlet — making
+Dutch a Tier-2 priority audience for the V2 refresh.
+
+**Report stats:** 1,051 entries flagged on first diff (464 missing +
+30 untranslated locale-specific gaps + 165 manifest-changed + 392
+manifest-added). Five helper scripts under `scripts/nl-manifest-refresh/`:
+`translate-inflation.js` (368 entries — per-currency × 13 currencies +
+non-currency keys), `translate-rest-part1.js` (197 entries — 404 +
+about + bank-runs + 10 comparison pages), `translate-rest-part2.js`
+(462 entries — business/* + buy + common + index homepage cards +
+nostr + flyers + lightning + stickers + wallets + sticker-files), 
+`fix-remaining.js` (24 untranslated dimensions/anglicisms with Dutch
+decimal-comma + × multiplication sign), `fix-identical.js` (6 final
+byte-identical anglicisms normalised in-place: "Bitcoin-only wallet"
+→ "Alleen-Bitcoin-wallet", "Peer-to-peer" → "P2P (peer-to-peer)",
+"COLD WALLET" → "COLD WALLET (offline)", "HOT WALLET" → "HOT WALLET
+(online)", "SELF-CUSTODY" → "ZELFBEWAAR (self-custody)").
+
+**Dutch terminology choices:** "Bitcoin" preserved as Latin loanword
+(universal), "wallet" / "blockchain" / "self-custody" / "bank run"
+all kept as anglicisms (universal in Dutch crypto press, no native
+equivalents), "inflatie" (inflation), "vermogenswinst"/"vermogensverlies"
+(capital gain/loss), "permissieloos" (permissionless), "tegenpartijrisico"
+(counterparty risk), "schaars" (scarce), "koopkracht" (purchasing power).
+Numeric format follows Dutch convention: comma decimal + period thousands —
+"$ 153,9 miljard" / "$ 10,82 biljoen" / "1,42 %", with long-scale
+"miljard" (10⁹) and "biljoen" (10¹²) mapped from English short-scale
+"billion"/"trillion".
+
+**Verification:** All 4 `verify-language.js` checks passed — marker ✅
+/ locale-specific ✅ / manifest coverage ✅ / stale pre-V2 English ✅.
+`npm run build` clean across 55 locales × 81 pages.
+
+**What's left in Step 5:** 23 locales (ny, pa, pl, pt, ro, ru, si, sk,
+sl, sv, sw, ta, th, tl, tr, ur, uz, vi, yo, zh, zu) — pl/pt/ru/zh are
+the highest-priority remaining Tier-1/Tier-2 audiences.
+
 ## i18n cleanup Step 5 — Norwegian (nb) — 2026-04-25
 
 **Counter:** 30/54 languages complete. Thirtieth manifest-driven refresh —

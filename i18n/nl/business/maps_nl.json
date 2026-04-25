@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin Handelaarskaart - Vermeld uw bedrijf gratis",
-	"maps_view": "Bekijk hier de kaart."
+	"maps_view": "Bekijk hier de kaart.",
+	"biz_maps_hero_title": "Zet je bedrijf op de Bitcoin-ondernemerskaarten",
+	"biz_maps_hero_subtitle": "Schrijf je bedrijf gratis in op BTC Map — een open, wereldwijde gids van Bitcoin-accepterende ondernemers — zodat bitcoiners in je buurt je kunnen vinden en bij jou Bitcoin kunnen uitgeven.",
+	"biz_maps_intro_c1": "Bitcoiners zoeken actief naar plekken waar ze kunnen uitgeven. Wanneer je bedrijf op de kaart staat, verschijn je bij elke Bitcoin-gebruiker in de buurt die op zoek is naar eten, winkelen of overnachten — volledig gratis.",
+	"biz_maps_intro_c2": "Vul gewoon het korte formulier hieronder in, en wij dienen je bedrijf in bij BTC Map en andere Bitcoin-ondernemerskaarten.",
+	"biz_maps_view_map_cta": "Bekijk BTC Map",
+	"biz_maps_form_header": "Vertel ons over je bedrijf",
+	"biz_maps_form_intro": "We hebben slechts een paar gegevens nodig om je in te schrijven. Adresgegevens bewaren we alleen zo lang als nodig is om je bedrijf bij de kaarten in te dienen.",
+	"biz_maps_placeholder_name": "Bedrijfsnaam",
+	"biz_maps_placeholder_category": "Categorie (bv. restaurant, café, hotel)",
+	"biz_maps_placeholder_address": "Straat en huisnummer",
+	"biz_maps_placeholder_city": "Plaats",
+	"biz_maps_placeholder_region": "Provincie / regio",
+	"biz_maps_placeholder_country": "Land",
+	"biz_maps_placeholder_website": "Website (optioneel)",
+	"biz_maps_meta_description": "Schrijf je bedrijf gratis in op BTC Map en andere Bitcoin-ondernemerskaarten, zodat bitcoiners in je buurt je kunnen vinden."
 }
