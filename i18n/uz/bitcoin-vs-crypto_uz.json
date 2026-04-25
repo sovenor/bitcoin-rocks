@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_crypto": "Bitcoin va Kripto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Sof raqamli pul",
 	"bitcoin_point_7": "Antifragil",
 	"bitcoin_point_8": "Hech qanday subʻekt nazorat qilmaydi",
-	"point_1_summary_1": "Bitcoin protokoli 2009-yildan beri mohiyatan oʻzgarmagan holda qoldi va oson oʻzgartirib boʻlmaydigan bashorat qilinadigan qoidalarni taʼminlaydi. Koʻpchilik kripto loyihalari protokollarini tez-tez yangilaydi, token iqtisodiyotini oʻzgartiradi yoki yangi versiyalarga vilka qiladi, bu foydalanuvchilar uchun noaniqlik yaratadi.",
-	"point_2_summary_1": "Bitcoin butun dunyoda oʻn minglab mustaqil tugunlarga ega haqiqiy markazsizlashtirilgan tarmoqda ishlaydi. Koʻplab kripto loyihalari protokolning kelajagi haqida bir tomonlama qarorlar qabul qila oladigan fondlar, kompaniyalar yoki kichik dasturchi guruhlari tomonidan nazorat qilinadi.",
-	"point_3_summary_1": "Bitcoinning hamma vaqt mavjud boʻladigan maksimal 21 million tangalik qatʼiy chegarasi bor va uni eng nodir raqamli aktivga aylantiradi. Koʻpchilik kripto loyihalarining chegarasiz taklifi, inflyatsion mexanizmlari yoki xohlagan vaqtda yangi token bosish imkoniyati bor va egalari qiymatini vaqt oʻtishi bilan suyultirib boradi.",
-	"point_4_summary_1": "Bitcoinning yagona oddiy maqsadi bor: tengdosh-dan-tengdoshga raqamli pul. Har kim asosiy bilim bilan tushunishi va foydalanishi mumkin. Koʻplab kripto loyihalari xavfsiz foydalanish uchun texnik tajriba talab qiladigan murakkab smart-shartnomalar, DeFi protokollari yoki boshqarish mexanizmlarini oʻz ichiga oladi.",
-	"point_5_summary_1": "Bitcoin asosiy tarmoqqa bitta ham muvaffaqiyatli hujumsiz 15 yildan ortiq vaqt davomida jangovar sharoitlarda sinab koʻrilgan Proof of Work konsensusidan foydalanadi. Koʻplab kripto loyihalari uzoq muddatli xavfsizligini hali isbotlamagan Proof of Stake yoki delegatsiyalangan tizimlar kabi eksperimental konsensus mexanizmlaridan foydalanadi.",
-	"point_6_summary_1": "Bitcoin raqamli pul sifatida xizmat qiladi — qiymat saqlash va almashuv vositasi. Koʻpchilik kripto tokenlari aniq platformalar uchun yordamchi tokenlar, boshqarish tokenlari yoki noaniq qiymat takliflari boʻlgan spekulyativ aktivlardir.",
-	"point_7_summary_1": "Bitcoin hujum ostida kuchayib boradi va unga yoʻnaltirilgan har bir inqiroz, taqiq va tanqiddan omon qoldi. Koʻpchilik kripto loyihalari zaif boʻlib, tartibga solish bosimi, texnik xatolar yoki bozor qulashlari ostida qulab tushishi mumkin.",
-	"point_8_summary_1": "Bitcoinning bosh direktori yoʻq, ortida kompaniya yoʻq va bitta muvaffaqiyatsizlik nuqtasi yoʻq. Koʻplab kripto loyihalari venchur kapital firmalari tomonidan qoʻllab-quvvatlanadi, taniqli rahbariyatga ega yoki davom etayotgan operatsiyalar uchun aniq kompaniyalarga bogʻliq."
+	"point_1_summary_1": "Bitcoin protokoli 2009-yildan beri tubdan oʻzgarmasdan qoldi va bashorat qilinadigan qoidalarni taʼminlaydi. Koʻpchilik kripto loyihalari protokollarini, token iqtisodiyotini doimiy oʻzgartiradi yoki yangi versiyalarga vilka qiladi.",
+	"point_2_summary_1": "Bitcoin butun dunyoda oʻn minglab mustaqil tugunlarga ega. Koʻpchilik kripto loyihalari bir tomonlama oʻzgartirishlar kirita oladigan jamgʻarmalar, kompaniyalar yoki kichik dasturchi jamoalari tomonidan boshqariladi.",
+	"point_3_summary_1": "Bitcoinning qatʼiy 21 million tangalik chegarasi bor — eng tanqis raqamli aktiv. Koʻpchilik kripto loyihalarida cheklanmagan taklif yoki egalari ulushini suyultirib boruvchi yangi tokenlar chiqarish mexanizmlari bor.",
+	"point_4_summary_1": "Bitcoinning bitta maqsadi bor: tengdosh-dan-tengdoshga raqamli pul. Buni har kim tushunishi va ishlatishi mumkin. Koʻpchilik kripto murakkab smart-shartnoma yoki DeFi loyihalarini oʻz ichiga oladi va xavfsiz foydalanish uchun texnik tajriba talab qiladi.",
+	"point_5_summary_1": "Bitcoinning Proof of Work mexanizmi 15 yildan ortiq vaqt davomida asosiy tarmoqqa muvaffaqiyatli hujumsiz ishlab kelmoqda. Koʻpchilik kripto loyihalari hali sinalmagan eksperimental konsensusdan foydalanadi.",
+	"point_6_summary_1": "Bitcoin — raqamli pul, qiymat saqlovchi va ayirboshlash vositasi. Koʻpchilik kripto tokenlari real qiymati noaniq spekulyativ yordamchi yoki boshqaruv tokenlaridir.",
+	"point_7_summary_1": "Bitcoin hujum ostida kuchayadi va har bir inqiroz, taqiq va tanqiddan omon qoldi. Koʻpchilik kripto loyihalari tartibga solish, texnik yoki bozor bosimi ostida qulab tushadi.",
+	"point_8_summary_1": "Bitcoinning bosh direktori, kompaniyasi va yagona muvaffaqiyatsizlik nuqtasi yoʻq. Koʻpchilik kripto loyihalari venchur kapitalga, aniq rahbariyatga yoki bitta kompaniya omon qolishiga bogʻliq.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Kripto</span> oʻrtasidagi farq"
 }

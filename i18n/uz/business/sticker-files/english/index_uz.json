@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Inglizcha ʻBu yerda Bitcoin qabul qilinadiʻ stiker fayllari",
-	"english_biz_sticker_files_description": "Oʻzingizning ʻBu yerda Bitcoin qabul qilinadiʻ stikerlaringizni chop etish uchun inglizcha stiker fayllarini yuklab oling."
+	"english_biz_sticker_files_description": "Oʻzingizning ‘Bu yerda Bitcoin qabul qilinadi’ stikerlaringizni chop etish uchun inglizcha stiker fayllarini yuklab oling.",
+	"biz_stickers_english_hero_title": "Inglizcha ‘Bu yerda Bitcoin qabul qilinadi’ stiker fayllarini yuklab oling",
+	"biz_stickers_english_hero_subtitle": "Mijozlarga Bitcoin qabul qilishingizni bildirish uchun inglizcha ‘Bu yerda Bitcoin qabul qilinadi’ stikerlaringizni chop eting."
 }

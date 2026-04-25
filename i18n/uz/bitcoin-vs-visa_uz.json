@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_visa": "Bitcoin va Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Qarz yaratmaydi",
 	"bitcoin_point_6": "Oʻz nazorati imkoniyati",
 	"bitcoin_point_7": "24/7 global kirish",
-	"point_1_summary_1": "Bitcoin har kim ruxsatsiz qatnashishi va foydalanishi mumkin boʻlgan ochiq tarmoq. Visa kabi kredit karta tarmoqlari moliya muassasalarining herkimga kirishni rad etishi mumkin boʻlgan yopiq tizimlar.",
+	"point_1_summary_1": "Bitcoin har kim ruxsatsiz qoʻshilishi va foydalanishi mumkin boʻlgan ochiq tarmoq. Visa — moliya muassasalari nazoratidagi yopiq tizim va ular kirishni rad etishi mumkin — ayniqsa banklarga ulanmaganlarga.",
 	"point_1_summary_2": "Bu Bitcoinni ayniqsa bank xizmatlari boʻlmaganlar boshlab butun dunyodagi odamlar uchun yanada inklyuziv va qulay qiladi.",
-	"point_2_summary_1": "Bitcoin tranzaksiyalarida savdogar komissiyasi yoʻq, kredit karta kompaniyalari esa odatda savdogarlardan har bir tranzaksiya uchun taxminan 3% komissiya oladi.",
-	"point_2_summary_2": "Biznesingiz qanday tejashini bilib oling",
-	"point_2_summary_3": "kredit karta tranzaksiya komissiyalari oʻrniga Bitcoin toʻlovlarini qabul qilish orqali.",
-	"point_3_summary_1": "Bitcoin har kim barcha tranzaksiyalarni tekshirishi mumkin boʻlgan shaffof blokcheynda ishlaydi. Kredit karta tarmoqlari tranzaksiya tafsilotlari jamoatchilikdan yashirilgan yopiq, xususiy tizimlar sifatida ishlaydi.",
+	"point_2_summary_1": "Bitcoin tranzaksiyalarining savdogar komissiyasi yoʻq. Visa savdogarlardan har bir tranzaksiya uchun odatda 3% atrofida oladi — biznesingiz",
+	"point_2_summary_2": "Bitcoin toʻlovlarini",
+	"point_2_summary_3": " qabul qilish orqali pul tejashi mumkin.",
+	"point_3_summary_1": "Har bir Bitcoin tranzaksiyasi har kim auditdan oʻtkaza oladigan ommaviy blokcheynda. Visa esa yopiq, xususiy tizimda ishlaydi va mijozlar mustaqil hech narsani tekshira olmaydi.",
 	"point_3_summary_2": "Bu shaffoflik Bitcoinni yanada ishonchli qiladi va tarmoq yaxlitligining mustaqil tekshirilishini taʼminlaydi.",
-	"point_4_summary_1": "Kredit karta kompaniyalari istalgan vaqt hisoblarni muzlatishi, tranzaksiyalarni toʻsishi yoki xizmat koʻrsatishni rad etishi mumkin. Bitcoin hech qanday markaziy hokimiyat tomonidan muzlatilishi yoki nazorat qilinishi mumkin emas.",
+	"point_4_summary_1": "Bitcoinni hech qanday markaziy hokimiyat muzlata olmaydi. Visa istalgan vaqtda hisoblarni muzlatishi, tranzaksiyalarni toʻsishi yoki xizmatni rad etishi mumkin.",
 	"point_4_summary_2": "Bitcoin bilan pulingiz nazorati sizning qoʻlingizda qoladi va toʻlov tizimidan uzilishingiz mumkin emas.",
-	"point_5_summary_1": "Kredit kartalari baʼzan yiliga 25%dan oshib ketadigan yuqori foiz stavkalari bilan tezda toʻplanishi mumkin boʻlgan qarz yaratadi.",
+	"point_5_summary_1": "Bitcoin — yakuniy hisob-kitob, faqat oʻzingizniki boʻlgan pulni sarflay olasiz. Kredit kartalari esa koʻpincha yiliga 25%dan oshib ketadigan foiz stavkalari bilan qarz keltirib chiqaradi.",
 	"point_5_summary_2": "Bitcoin tranzaksiyalari qarz yaratmasdan yakuniy toʻlov xarakteriga ega — faqat haqiqatan ega boʻlgan Bitcoiningizni sarflay olasiz.",
-	"point_6_summary_1": "Bitcoin banklar yoki toʻlov qayta ishlash kompaniyalariga bogʻliq boʻlmay pulingizni saqlash va nazorat qilishingiz mumkin boʻlgan oʻz nazoratini imkon qiladi.",
-	"point_6_summary_2": "Bitcoin hamyonlari haqida koʻproq bilib oling",
-	"point_6_summary_3": "va pulingiz nazoratini qanday qoʻlga kiritishni tushuning. Kredit kartalari doimo banklar va toʻlov qayta ishlash kompaniyalari kabi vositachilarni talab qiladi.",
-	"point_7_summary_1": "Bitcoin savdo soatlari yoki geografik cheklovlarsiz 24/7 global miqyosda ishlaydi.",
-	"point_7_summary_2": "Kredit karta tarmoqlarining savdo soatlari, texnik xizmat davrlari va tranzaksiya amalga oshirishga toʻsqinlik qilishi mumkin boʻlgan geografik cheklovlari bor."
+	"point_6_summary_1": "Bitcoin sizga",
+	"point_6_summary_2": "oʻz nazoratiga olish",
+	"point_6_summary_3": "imkonini beradi, bank yoki toʻlov qayta ishlovchisi kerak emas. Kredit kartalari esa har doim vositachilarni talab qiladi.",
+	"point_7_summary_1": "Bitcoin global miqyosda 24/7 ishlaydi va ish soatlari yoʻq. Visa ish soatlari, texnik xizmat oynalari va tranzaksiyalarni toʻsadigan geografik cheklovlarga ega.",
+	"point_7_summary_2": "Kredit karta tarmoqlarining savdo soatlari, texnik xizmat davrlari va tranzaksiya amalga oshirishga toʻsqinlik qilishi mumkin boʻlgan geografik cheklovlari bor.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Visa</span> oʻrtasidagi farq"
 }

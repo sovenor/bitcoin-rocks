@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_gold": "Bitcoin va Oltin",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Markazsizlashtirilgan",
 	"bitcoin_point_6": "Tasdiqlash oson",
 	"bitcoin_point_7": "Boʻlish oson",
-	"point_1_summary_1": "Bitcoin raqamli boʻlganligi sababli, internet aloqasi bor har kim uni deyarli bir zumda juda past komissiyalar bilan yuborishi mumkin. Oltin jismoniy boʻlganligi sababli, internet orqali oʻtkazib boʻlmaydi va mulkchilikni oʻtkazish uchun jismoniy yuborilishi kerak.",
-	"point_2_summary_1": "Bitcoin raqamli mahalliy aktiv boʻlib, toʻliq mulkchilikni internet orqali oʻtkazishingiz mumkin. Baʼzi kompaniyalar jismoniy oltinni olmadan onlayn oltin sotib olish imkonini taklif qiladi; buning oʻrniga kompaniyaning oltinni siz uchun saqlashiga ishonasiz. Bu haqiqiy aktiv emas, balki faqat kompaniya vaʼdasiga ega boʻlganingiz sababli raqamli qarz hujjatiga koʻproq oʻxshaydi.",
-	"point_3_summary_1": "Bitcoinning hamma vaqt mavjud boʻladigan maksimal 21 million BTC qatʼiy chegarasi bor.",
-	"point_3_summary_2": "Har yili yangi oltin taklifi yerdan qazib olinadi va umumiy taklifga inflyatsiya keltiradi. Umumiy oltin taklifining yiliga taxminan 1,6% ga oshishi taxmin qilinadi, yaʼni pirogdagi ulushingiz har yili 1,6% ga kamayadi.",
-	"point_3_summary_3": "Bu fiat pul inflyatsiyasidan kam boʻlsada, baribir inflyatsiyadir.",
-	"point_4_summary_1": "Oltinning elastik taklifi bor, yaʼni oltin narxi koʻtarilgan sayin, koʻproq oltin qazib olish uchun kattaroq motivatsiya paydo boʻladi. Bu yangi konlar ochilganda odatda oltin narxiga pastga bosim oʻtkazadi.",
+	"point_1_summary_1": "Bitcoinni internet orqali bir zumda past komissiyalar bilan yuborish mumkin. Oltin esa mulkchilikni oʻzgartirish uchun jismoniy joʻnatilishi kerak.",
+	"point_2_summary_1": "Bitcoin — internet orqali oʻzgartirish mumkin boʻlgan raqamli aktiv. Onlayn oltin esa raqamli qarz hujjati — siz aslida metallning oʻziga emas, qaramogʻidagi kompaniyaning vaʼdasiga egasiz.",
+	"point_3_summary_1": "Bitcoinning qatʼiy 21 million BTC chegarasi bor. Oltin taklifi yiliga taxminan <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6%</a> oshib boradi va sizning ulushingizni kichraytiradi — fiat",
+	"point_3_summary_2": "inflyatsiyasidan",
+	"point_3_summary_3": "kam, lekin baribir inflyatsiya.",
+	"point_4_summary_1": "Oltin narxi koʻtarilganda koʻproq oltin qazib olinadi va bu narxni tushiradi. Bitcoinning taklifi noelastik — narx qanchalik koʻtarilsa ham, hech qachon 21 milliondan oshmaydi.",
 	"point_4_summary_2": "Bitcoin bilan narx qanchalik koʻtarilmasin, 21M Bitcoindan koʻproq yaratib boʻlmaysiz.",
 	"point_4_summary_3": "Bitcoin elastik boʻlmagan narx-taklif nisbatiga ega birinchi aktivdir.",
-	"point_5_summary_1": "Bitcoin tarmogʻi markazsizlashtirilgan.",
+	"point_5_summary_1": "Oʻn minglab mustaqil tugun Bitcoin tarmogʻini tasdiqlaydi. Koʻp jismoniy oltin esa bir nechta yirik qaramogʻidagi omborlarda yotadi.",
 	"point_5_summary_2": "Oʻn minglab mustaqil tugunlar tarmoq qoidalarini tasdiqlaydi.",
-	"point_6_summary_1": "Bitcoin bilan coinlaringizni oʻz nazoratiga olib va toʻliq tugun ishlatib, haqiqiy Bitcoinga ega ekanligingizni tasdiqlash nihoyatda oson.",
+	"point_6_summary_1": "Har kim toʻliq tugun ishga tushirib haqiqiy Bitcoinni tasdiqlay oladi — bu shunchaki ilova. Jismoniy oltinni tasdiqlash uchun uni eritib koʻrish kerak; ichida volfram boʻlishi mumkin.",
 	"point_6_summary_2": "Oʻz nazorati ilova yuklab olishdek oson.",
 	"point_6_summary_3": "Toʻliq tugun tarmoq qoidalariga rioya qilinishini taʼminlaydigan va haqiqiy Bitcoinga ega ekanligingizni tasdiqlaydigan oddiy dastur.",
-	"point_7_summary_1": "1 dollarda 100 sent boʻlgani kabi, 1 Bitcoinda 100,000,000 satoshi bor. Bu Bitcoinni bir necha sent qiymatidagi mikro tranzaksiyalar ham kiradi, har qanday hajmdagi savdolar uchun ishlatish imkonini beradi.",
-	"point_7_summary_2": "Bu Bitcoinni bizneslar uchun yaxshi vosita qiladi."
+	"point_7_summary_1": "Bitcoin 100 million satoshiga boʻlinadi va har qanday xajmdagi xarid uchun mukammal. Oltinni esa kichik tranzaksiyalar uchun osongina boʻlib boʻlmaydi.",
+	"point_7_summary_2": "Bu Bitcoinni bizneslar uchun yaxshi vosita qiladi.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Oltin</span> oʻrtasidagi farq"
 }

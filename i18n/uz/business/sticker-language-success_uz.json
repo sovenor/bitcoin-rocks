@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Soʻrov qabul qilindi 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Tilingizdagi ‘Bu yerda Bitcoin qabul qilinadi’ stiker fayllarini soʻraganingiz uchun rahmat.",
+	"biz_sticker_language_success_timeline_header": "Keyin nima boʻladi",
+	"biz_sticker_language_success_timeline_c1": "Biz stiker fayllaringizni 3-4 hafta ichida yaratamiz va eʼlon qilamiz. Tayyor boʻlgach, ularni stiker fayllari sahifamizdan bepul yuklab olib, chop etishingiz mumkin boʻladi.",
+	"biz_sticker_language_success_timeline_c2": "Stiker fayllari guruhlarda chiqariladi, shuning uchun tilingizning faollashishiga bir necha hafta vaqt kerak boʻlishi mumkin. Sabringiz uchun rahmat!"
 }

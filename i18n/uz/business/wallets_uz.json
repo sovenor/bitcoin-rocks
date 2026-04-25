@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"how_to_accept_bitcoin_payments": "Bitcoin toʻlovlarini qanday qabul qilish",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Oʻz serveringizda joylash = 0% komissiya",
 	"wallets_feature_online_store": "Onlayn doʻkon integratsiyasi",
 	"wallets_feature_invoicing": "Bepul hisob-faktura dasturi",
-	"wallets_get_wallet": "HAMYON OLING"
+	"wallets_get_wallet": "HAMYON OLING",
+	"wallets_hero_subtitle": "Bitcoin hamyonlari bepul. Biznesingizga mosini tanlang — yuzma-yuz, onlayn yoki invoys asosida — va bir necha daqiqada Bitcoinni qabul qilishni boshlang.",
+	"wallets_section_sole": "Yakka tartibdagi bizneslar uchun hamyonlar",
+	"wallets_section_sole_intro": "Agar yakka tartibda doʻkon, kafe, studiya yoki xizmat yuritsangiz, bu hamyonlarning har biri ishlaydi. Toʻlovlarni Bitcoinda qoldirish yoki har bir toʻlovning bir qismini avtomatik mahalliy valyutaga oʻtkazishga qarab tanlang.",
+	"wallets_section_multiple": "Bir nechta xodimi bor bizneslar uchun hamyonlar",
+	"wallets_section_multiple_intro": "Agar kassada toʻlov qabul qiluvchi jamoangiz boʻlsa, bir nechta xodim kirishini qoʻllab-quvvatlovchi hamyonni tanlang — shunda har bir xodim oʻz PIN-koduga ega boʻladi va kim qaysi toʻlovni olganligi haqida aniq audit qoladi.",
+	"wallets_section_online": "Onlayn bizneslar uchun hamyonlar",
+	"wallets_section_online_intro": "Veb-saytda sotyapsizmi? Ushbu hamyonlar onlayn doʻkoningizga ulanadi va dunyoning istalgan joyidan har qanday mijozdan Bitcoin qabul qiladi — qaytarib olishlarsiz, savdogar hisobini ochish talab qilinmaydi.",
+	"wallets_section_invoice": "Invoys asosidagi bizneslar uchun hamyonlar",
+	"wallets_section_invoice_intro": "Agar mijozlarga invoys yuborsangiz (konsalting, frilans, B2B xizmatlar), invoys atrofida qurilgan hamyondan foydalaning. Mijozingiz bir necha bosish bilan Bitcoin invoysini toʻlaydi.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business sizga Bitcoin va Lightning toʻlovlarini nol komissiya va bir zumda hisob-kitob bilan qabul qilish imkonini beradi. Yuzma-yuz, onlayn va invoys asosidagi toʻlovlarni qoʻllab-quvvatlaydi, ixtiyoriy mahalliy valyutaga avtomatik konvertatsiya qiladi.",
+	"sources_square": "Square — Bitcoin toʻlovlarini qabul qiling",
+	"sources_breez_business": "Breez — faqat Bitcoinga ishlaydigan Lightning hamyoni",
+	"sources_opennode": "OpenNode — Bitcoin toʻlovlarini qayta ishlovchi",
+	"sources_ibex": "IBEX — Lightning toʻlov infratuzilmasi",
+	"sources_zaprite": "Zaprite — bizneslar uchun Bitcoin invoyslari",
+	"biz_wallets_meta_description": "Barcha Bitcoin hamyonlari bir-biri bilan ishlay oladi — biznesingizga mosini tanlang. Bepul, bir zumda hisob-kitob, hech qanday qaytarib olishlar yoʻq."
 }

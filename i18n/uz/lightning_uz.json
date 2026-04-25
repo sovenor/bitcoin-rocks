@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning hamyon yoʻriqnomasi",
 	"lightning_description": "Lightning hamyonlari shaxsiy suverenitetingizni saqlab, Bitcoinni tez va arzon yuborish imkonini beradi.",
 	"lightning_header": "LIGHTNING HAMYON YOʻRIQNOMASI",
+	"lightning_header_subtitle": "Lightning sizga Bitcoinni bir necha soniyada sentning bir qismiga yuborish imkonini beradi — sarflashni rejalashtirgan Bitcoin miqdoringizga mos keladigan kelishuvga ega hamyonni tanlang.",
 	"lightning_s1_c1": "Lightning Bitcoin toʻlovlarini tez va arzon yuborish imkonini beradi.",
 	"lightning_s1_c2": "Lightning ishlatishning murosalar keltirishini bilish muhim. Tezroq va arzonroq Bitcoin toʻlovlari evaziga odatda biroz xavfsizlikdan voz kechasiz.",
 	"lightning_s1_c3": "Umuman olganda, Lightning faqat kichik miqdordagi bitcoin bilan ishlatilishi kerak. Katta miqdordagi bitcoin har doim apparat hamyonda saqlanishi kerak.",
-	"lightning_s1_c4": "Koʻproq maʼlumot uchun apparat hamyon yoʻriqnomamizni koʻring.",
+	"lightning_s1_c4": "Bizning",
+	"lightning_s1_c4_link": "Bitcoin apparat hamyonlari yoʻriqnomasini",
+	"lightning_s1_c4_end": "yoʻriqnomamizni koʻring.",
 	"lightning_s1_c5": "Barcha Lightning hamyonlari teng emas. Qaysi hamyon siz uchun toʻgʻri murosa muvozanatiga ega ekanligini oddiy savolga javob berib bilib oling:",
 	"lightning_question_1": "MEN UCHUN TOʻGʻRI MUROSA MUVOZANATI QAYSI?",
 	"lightning_s2_c1": "Bitcoinning innovatsiyalaridan biri bank kabi saqlovchiga ishonmasdan saqlash qobiliyati. Oʻz nazoratidagi hamyonlar Bitcoinning toʻliq kuchini ochadi.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Bu hamyonlar pulingizga kirish uchun uchinchi tomonga ishonishingiz kerak boʻlgan bankchilik tizimiga koʻproq oʻxshaydi. Bitcoiningiz birzhada boʻlsa, emanat hamyon ishlatyapsiz.",
 	"lightning_s3_c3": "Emanat hamyonlar qulay koʻrinishi mumkin, lekin emanatchi texnik jihatdan barcha foydalanuvchi mablagʻlarini istalgan vaqt oʻgʻirlash qobiliyatiga ega.",
 	"lightning_s3_c4": "Baʼzi odamlar foydalanish qulayligi tufayli kichik miqdordagi bitcoin uchun emanat Lightning hamyonlarini afzal koʻradi. Faqat esda tuting: sizning kalitlaringiz boʻlmasa, sizning tangalaringiz emas!",
+	"lightning_grid_heading": "Mashhur Lightning hamyonlari",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% bepul",
 	"lightning_merchants": "Savdogarlar uchun ajoyib",
 	"lightning_custodial": "Toʻliq emanat hamyon",
-	"lightning_cta_hardware": "Apparat Bitcoin hamyon yoʻriqnomamizni qidiryapsizmi?"
+	"lightning_cta_hardware": "Apparat Bitcoin hamyon yoʻriqnomamizni qidiryapsizmi?",
+	"lightning_hardware_cta_label": "Apparat hamyonlari",
+	"sources_lightning_paper": "Joseph Poon va Thaddeus Dryja — Bitcoin Lightning Network: kengaytiriladigan zanjirdan tashqari bir zumda toʻlovlar (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning hamyoni",
+	"sources_breez_lightning": "Breez — oʻz nazoratidagi Lightning hamyoni",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — qaramogʻidagi Lightning hamyoni",
+	"sources_lightning_labs": "Lightning Labs — Lightning Network hujjatlari"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin va Koʻchmas mulk",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Yoʻq qilish qiyin",
 	"bitcoin_point_7": "Toʻliq almashtiriladigan",
 	"bitcoin_point_8": "24/7 global bozor",
-	"point_1_summary_1": "Bitcoin internet orqali bir zumda dunyoning istalgan joyiga koʻchirilishi mumkin. Koʻchmas mulk maʼlum joyga doimiy oʻrnatilgan va koʻchirib boʻlmaydi.",
-	"point_2_summary_1": "Bitcoin satoshi deb ataladigan 100 million kichik birlikka boʻlinishi mumkin. Koʻchmas mulk oson boʻlinmaydi — uyingizning faqat oshxonasini sotish yoki yotoqxonaning yarmini sotib olish mumkin emas.",
-	"point_3_summary_1": "Bitcoin hech qanday hukumat nazorat qila olmaydigan markazsizlashtirilgan tarmoqda ishlaydi. Koʻchmas mulk ijara tartibga solish, koʻchirib yuborish moratoriyalari, zonalash qonunlari va majburiy sotib olishni oʻz ichiga olgan keng qamrovli davlat tartibga solishiga boʻysinadi.",
-	"point_4_summary_1": "Bitcoin taʼmirlash talab qilmaydi — tarmoqdagi raqamli kod sifatida mavjud. Koʻchmas mulk taʼmirlash, qayta qurish, mulk boshqarish, sugʻurta va ijarachilar bilan muomala qilishni oʻz ichiga olgan doimiy eʻtibor talab qiladi.",
-	"point_5_summary_1": "Bitcoinning davom etadigan soligʻi yoʻq — faqat sotganingizda kapital daromad soligʻini toʻlaysiz. Koʻchmas mulk mulk daromad keltiradimi yoki yoʻqmi, qatʼiy nazar toʻlanishi kerak boʻlgan yillik mulk soligʻiga boʻysinadi.",
-	"point_6_summary_1": "Bitcoin toʻgʻri zaxiralanganida suv toshqini, yongʻin, zilzila, dovul yoki boshqa tabiiy ofatlar bilan yoʻq qilib boʻlmaydi. Koʻchmas mulk jismoniy yoʻq qilishning har bir shakliga himoyasiz.",
-	"point_7_summary_1": "Har bir bitcoin teng va bir-biri bilan almashtirilishi mumkin — dunyoning qayerida boʻlsangiz ham bitta bitcoin bitta bitcoinga teng. Har bir koʻchmas mulk turli joylar, holatlar va xususiyatlar bilan noyobdir.",
-	"point_8_summary_1": "Bitcoin internet kirish huquqiga ega har kim tomonidan dunyoning istalgan joyidan 24/7 oldi-sotdi qilinishi mumkin. Koʻchmas mulk sotish mahalliy xaridorlar bilan cheklangan, advokatlar va agentlar bilan uzoq jarayonlarni talab qiladi va oylar davom etishi mumkin.",
+	"point_1_summary_1": "Bitcoin dunyoning istalgan joyiga bir zumda harakatlanadi. Koʻchmas mulk bitta joyga bogʻlangan va mahalliy iqtisodiy, siyosiy va tabiiy xavflarga ochiq.",
+	"point_2_summary_1": "Bitcoin 100 million satoshiga boʻlinadi. Koʻchmas mulkni qisman sota olmaysiz — faqat oshxonani sotib yoki yotoqxonaning yarmini sotib olib boʻlmaydi.",
+	"point_3_summary_1": "Bitcoin hech bir hukumat nazorat qila olmaydigan markazsizlashtirilgan tarmoqda ishlaydi. Koʻchmas mulk qattiq tartibga solinadi — zonalash, ijara nazorati, majburiy musodara va musodara qilish.",
+	"point_4_summary_1": "Bitcoin parvarish talab qilmaydi. Koʻchmas mulk taʼmirlash, qayta qurish, sugʻurta, mulk boshqarish va ijarachilar bilan bogʻliq muammolarni talab qiladi.",
+	"point_5_summary_1": "Bitcoinning davom etadigan soligʻi yoʻq — faqat sotganda kapital daromadi soligʻini toʻlaysiz. Koʻchmas mulk daromaddan qatʼi nazar yillik mulk soligʻini talab qiladi.",
+	"point_6_summary_1": "Bitcoin toʻgʻri zaxiralanganida yongʻin, suv toshqini va zilziladan omon qoladi. Koʻchmas mulk har qanday ofatga himoyasiz va sugʻurta hammasini qoplamaydi.",
+	"point_7_summary_1": "Har bir bitcoin teng va almashtirilishi mumkin. Har bir mulk noyob va bu narxlash hamda solishtirishni qiyinlashtiradi.",
+	"point_8_summary_1": "Bitcoin internet kirish huquqiga ega har kim tomonidan global miqyosda 24/7 savdo qilinadi. Koʻchmas mulk sotuvi mahalliy xaridorlar bilan cheklangan va yopilishi uchun oylab hujjatlashtirish kerak.",
 	"bitcoin_point_9": "Individual mulkchilikni qoʻllab-quvvatlaydi",
 	"real_estate_point_9": "Uy-joyning moliyaviylashtrilishiga hissa qoʻshadi",
-	"point_9_summary_1": "Bitcoin vositachilarsiz bevosita individual mulkchilikni imkon qiladi va hamma uchun moliyaviy suverenitetni qoʻllab-quvvatlaydi. Asosiy uy-joyingizdan tashqari investitsiya sifatida koʻchmas mulk sotib olish uylarning boshpana oʻrniga tovar boʻladigan uy-joyning moliyaviylashtrilishiga hissa qoʻshadi. Bu narxlarni oshiradi, oilalar uchun arzonlikni kamaytiradi va uy-joy inqirozi va uysizlikka hissa qoʻshadi."
+	"point_9_summary_1": "Bitcoin har kim uchun toʻgʻridan-toʻgʻri individual mulkchilikni imkon qiladi. Asosiy turar joyingizdan tashqari investitsiya sifatida koʻchmas mulk sotib olish uy-joy narxlarini oshiradi, arzonligini kamaytiradi va uy-joy inqiroziga yondoshadi.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Koʻchmas mulk</span> oʻrtasidagi farq"
 }

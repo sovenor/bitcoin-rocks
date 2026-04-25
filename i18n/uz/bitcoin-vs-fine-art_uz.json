@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin va Nozik sanʻat",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kriptografik tasdiqlanadigan",
 	"bitcoin_point_6": "Yoʻq qilish qiyin",
 	"bitcoin_point_7": "Hamma uchun qulay",
-	"point_1_summary_1": "Bitcoin toʻliq almashtiriladigan, yaʼni har bir bitcoin teng va bir-biri bilan almashtirilishi mumkin — dunyoning qayerida boʻlsangiz ham bitta bitcoin bitta bitcoinga teng. Nozik sanʻat tabiatan almashtirib boʻlmaydigan; har bir asar yaratilishi, tarixi, holati va kelib chiqishi bilan noyobdir.",
-	"point_2_summary_1": "Bitcoin internet kirish huquqiga ega har kimning bir zumda oldi-sotdi qilishi mumkin boʻlgan 24/7 global bozorda savdo qilinadi. Nozik sanʻat Sothebyʻs yoki Christieʻs kabi mutaxassis kimoshdi uylari, xususiy dilerlar yoki xususiy galereyalarni talab qiladi.",
-	"point_3_summary_1": "Bitcoin oldi-sotdisi odatda komissiyalarda 1%dan kam boʻlsa, koʻpincha ancha kam boʻladi. Sanʻat sotish xaridor mukofoti (10-25%), sotuvchi komissiyasi (10-15%), sugʻurta, tashish, saqlash va tasdiqlash toʻlovlari kabi sezilarli xarajatlarni oʻz ichiga oladi.",
-	"point_4_summary_1": "Bitcoin satoshi deb ataladigan 100 million kichik birlikka boʻlinishi mumkin, bu uni har qanday hajmdagi tranzaksiya uchun ideal qiladi. Nozik sanʻat boʻlinmaydi — rasmning bir qismiga egalik qilish yoki haykalning faqat bir boʻlagini sotish mumkin emas.",
-	"point_5_summary_1": "Bitcoin mulkchiligi va haqiqiyligi asosiy texnik bilimga ega har kim tomonidan blokcheynda kriptografik tasdiqlanishi mumkin. Nozik sanʻat qimmat mutaxassis tasdiqlashi, kelib chiqish tadqiqoti va ilmiy tahlil talab qiladi. Mutaxassis tasdiqlashiga qaramay, soxta nusxalar muntazam ravishda sanʻat olamini aldab kelmoqda. Bitcoin esa soxta qilib boʻlmaydi.",
-	"point_6_summary_1": "Bitcoin toʻgʻri zaxiralanganida suv toshqini, yongʻin, zilzila, dovul, oʻgʻirlik yoki boshqa ofatlar bilan yoʻq qilib boʻlmaydi. Nozik sanʻat jismoniy yoʻq qilish va buzilishning har bir shakliga himoyasiz.",
-	"point_7_summary_1": "Bitcoin internet kirish huquqi va investitsiya qilish uchun oz miqdordagi puli bor har kim tomonidan oldi-sotdi qilinishi mumkin. Nozik sanʻat investitsiyalari yuqori minimal narxlar, xususiy kimoshdi kirish huquqi, saqlash talablari, sugʻurta xarajatlari va mutaxassis bilimi tufayli katta darajada badavlat kolleksionerlar bilan cheklangan."
+	"point_1_summary_1": "Har bir bitcoin teng va almashtirilishi mumkin. Har bir sanʼat asari noyob — turli yaratilish, tarix, holat va kelib chiqishi toʻgʻridan-toʻgʻri solishtirishni nihoyatda qiyinlashtiradi.",
+	"point_2_summary_1": "Bitcoin har kimga ochiq global bozorda 24/7 savdo qilinadi. Nozik sanʻat ixtisoslashgan kimoshdi uylari, xususiy dilerlar yoki galereyalarni talab qiladi va sotish oylar davom etishi mumkin.",
+	"point_3_summary_1": "Bitcoinni sotib olish yoki sotish komissiyalarda 1%dan kam, koʻpincha undan ham kam turadi. Sanʻat sotuvi xaridor mukofoti, komissiya, sugʻurta, tashish va tasdiqlash toʻlovlarida 30–40% gacha boʻladi.",
+	"point_4_summary_1": "Bitcoin 100 million satoshiga boʻlinadi va har qanday hajmdagi tranzaksiyani amalga oshirish uchun mukammal. Rasmning bir qismiga yoki haykalning burchagiga kontragent xavfsiz egalik qilib boʻlmaydi.",
+	"point_5_summary_1": "Bitcoin mulkchiligi va haqiqiyligini har kim blokcheynda kriptografik tasdiqlay oladi. Sanʻat tasdiqlash qimmat va sekin, soxta nusxalar oʻz ishini qilib turadi — bu sanʻat asarining qiymatini bir kechada yoʻq qilishi mumkin.",
+	"point_6_summary_1": "Bitcoin toʻgʻri zaxiralanganida suv toshqini, yongʻin, zilzila va oʻgʻirlikdan omon qoladi. Nozik sanʻat har qanday jismoniy yoʻq qilish shakllariga himoyasiz va sugʻurta hammasini qoplamaydi.",
+	"point_7_summary_1": "Internet aloqasi va oz miqdordagi puli bor har kim Bitcoin sotib olishi mumkin. Nozik sanʻat investitsiyasi amalda kimoshdi savdosiga kira oladigan va mutaxassis bilimi boʻlgan badavlat kolleksionerlar bilan cheklangan.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Nozik sanʼat</span> oʻrtasidagi farq"
 }

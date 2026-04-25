@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_banks": "Bitcoin va Banklar",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Bashorat qilinadigan, past komissiyalar",
 	"bitcoin_point_6": "Hisob oshishi mumkin emas",
 	"bitcoin_point_7": "Senzuraga chidamli",
-	"point_1_summary_1": "Bitcoin ruxsatsizdir, yaʼni internet kirish huquqiga ega har kim hech qanday hokimiyatdan ruxsat soʻramay foydalanishi mumkin.",
-	"point_1_summary_2": "Bitcoin darvozabonlarsiz ishlaydi",
-	"point_1_summary_3": "— hech kim sizga kirishni rad eta olmaydi. Banklar esa hisob ochishni rad etishi, mavjud hisoblarni muzlatishi yoki oʻz qoidalari yoki davlat tartiblariga asoslanib xizmat koʻrsatishni rad etishi mumkin.",
-	"point_2_summary_1": "Bitcoin tarmogʻi kuniga 24 soat, haftasiga 7 kun, yiliga 365 kun texnik xizmat uzilishi yoki bayram kunlarisiz ishlaydi. Banklarning cheklangan ish soatlari bor, hafta oxirlari va bayramlarda yopiladi va odatda xizmatlar ishlamay qoladigan tizim texnik xizmatlari davrlari boʻladi.",
-	"point_3_summary_1": "Barcha Bitcoin tranzaksiyalari har kim tekshirishi va auditdan oʻtkazishi mumkin boʻlgan ommaviy blokcheynda qayd etiladi.",
+	"point_1_summary_1": "Internet aloqasi bor har kim Bitcoindan foydalanishi mumkin — u",
+	"point_1_summary_2": "ruxsatsizdir.",
+	"point_1_summary_3": "Banklar siyosat yoki davlat qoidalariga asoslanib hisoblarni ochishni rad etishi, muzlatishi yoki yopishi mumkin.",
+	"point_2_summary_1": "Bitcoin tarmogʻi 24/7/365 hech qanday texnik xizmat oynalari yoki bayramlarsiz ishlaydi. Banklarning cheklangan ish soatlari, dam olish kunlarisiz tanaffuslari va uzilish oynalari bor.",
+	"point_3_summary_1": "Har bir Bitcoin tranzaksiyasi har kim auditdan oʻtkaza oladigan ommaviy blokcheynda. Banklar mijozlar mustaqil tasdiqlay olmaydigan xususiy hisob daftarlarini yuritadi.",
 	"point_3_summary_2": "Banklar xususiy daftarlar va mijozlar mustaqil tekshira olmaydigan noaniq ichki jarayonlar bilan ishlaydi.",
-	"point_4_summary_1": "Bitcoin bilan oʻzingizning shaxsiy kalitlaringizni saqlab, pulingiz ustidan toʻliq nazoratga ega boʻlishingiz mumkin.",
-	"point_4_summary_2": "Bitcoin hamyonlari haqida koʻproq bilib oling",
-	"point_4_summary_3": "va oʻz nazoratini tushuning. Banklar pulingizni oʻz hisoblarida saqlaydi va aktivlaringizga kirishni istalgan vaqt muzlatishi, cheklashi yoki taqiqlashi mumkin.",
-	"point_5_summary_1": "Bitcoin tranzaksiya komissiyalari shaffof, bashorat qilinadigan va odatda juda past. Banklarning odatda yashirin komissiyalari, oylik hisob toʻlovlari, hisob oshish toʻlovlari, oʻtkazma toʻlovlari, bankomat toʻlovlari va vaqt oʻtishi bilan sezilarli darajada toʻplanishi mumkin boʻlgan boshqa jarimalari bor.",
-	"point_6_summary_1": "Bitcoin sizda yoʻq pulni sarflashingizga yoʻl qoʻymaydi — faqat haqiqatan ega boʻlgan Bitcoiningizni sarflay olasiz. Banklar hisob oshishiga (hisob balansidan koʻp sarflash) ruxsat beradi va keyin bu ʻxizmatʻ uchun katta toʻlovlar oladi, bu koʻpincha zanjirli jarimalarga olib keladi.",
-	"point_7_summary_1": "Bitcoin tranzaksiyalari senzuraga chidamli — tarmoqqa yuborilgandan keyin hech qanday markaziy hokimiyat tomonidan toʻxtatilishi yoki bekor qilinishi mumkin emas. Banklar tranzaksiyalarni oʻz qoidalari, davlat buyruqlari yoki shubhali faoliyat aniqlash algoritmlariga asoslanib toʻsishi, muzlatishi, bekor qilishi yoki cheklashi mumkin."
+	"point_4_summary_1": "Bitcoin bilan oʻzingizning shaxsiy kalitlaringizni saqlaysiz — bizning oddiy",
+	"point_4_summary_2": "Bitcoin hamyonlari",
+	"point_4_summary_3": "yoʻriqnomamizni koʻring. Banklar pulingizni ushlab turadi va istalgan vaqt muzlatishi, cheklashi yoki taqiqlashi mumkin.",
+	"point_5_summary_1": "Bitcoin komissiyalari shaffof va bashorat qilinadigan. Banklar vaqt oʻtishi bilan yashirin hisob, hisob oshish, oʻtkazma va bankomat toʻlovlarini qoʻshib boradi.",
+	"point_6_summary_1": "Bitcoin sizga faqat ega boʻlgan pulingizni sarflashga ruxsat beradi. Banklar hisob oshishlariga ruxsat beradi va keyin bu uchun zanjirli jarima toʻlovlarini oladi.",
+	"point_7_summary_1": "Bir marta tarmoqqa yuborilgan Bitcoin tranzaksiyalarini toʻxtatib yoki bekor qilib boʻlmaydi. Banklar tranzaksiyalarni siyosat yoki davlat buyrugʻiga asoslanib toʻsishi, muzlatishi yoki bekor qilishi mumkin.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Banklar</span> oʻrtasidagi farq"
 }

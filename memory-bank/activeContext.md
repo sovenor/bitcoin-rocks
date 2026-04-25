@@ -1,3 +1,47 @@
+## Uzbek (uz) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Uzbek` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+50/54 complete.** Uzbek (`Oʻzbekcha`) is the official language of
+Uzbekistan with ~35M native speakers, plus communities in
+Afghanistan, Turkmenistan, Kazakhstan, and the diaspora. Turkic
+language family. Modern Latin orthography (post-1995 official).
+
+**Report stats:**
+- 464 missing locale-specific
+- 1 untranslated ("Material:" cognate)
+- 165 manifest-changed + 392 manifest-added → **1,022 total**
+
+**4 helper scripts under `scripts/uz-manifest-refresh/`:**
+
+- `translate-inflation.js` — 368 entries. Per-currency templated
+  translator × 13 currencies with Uzbek currency naming (dollar,
+  yevro, real, funt, shekel, rupiya, iyena, peso, baxt) rather than
+  a generic catch-all, polite formal "siz" register throughout —
+  the standard register for Uzbek educational copy (matches
+  Daryo.uz, Kun.uz, Gazeta.uz). Plus 41 non-currency keys.
+- `translate-rest-part1.js` — 313 entries. 404, about, bank-runs,
+  business/accounting, business/wallets, common,
+  compound-inflation-calculator, index, lightning, nostr/index.
+- `translate-rest-part2.js` — 341 entries. stickers, business/why,
+  get-involved, buy, all bitcoin-vs-*, business/maps,
+  business/stickers, business/index, wallets, success pages,
+  flyers.
+- `fix-untranslated.js` — 1 patch (`common_stickers_material`
+  "Material:" → "Material turi:" so byte-distinct from English).
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **Modern Uzbek Latin orthography** used throughout, including the
+  special **U+02BB MODIFIER LETTER TURNED COMMA** (`ʻ`) in `Oʻ`/`oʻ`
+  and `Gʻ`/`gʻ` characters — e.g. `oʻzbek`, `gʻalaba`, `koʻproq`.
+  Not the ASCII apostrophe `'` — that would look wrong to native
+  readers and break Unicode-aware search/sort. Round-trips cleanly
+  through Node UTF-8.
+- Numerics in Uzbek convention: comma-decimal ("1,42%", "153,9
+  mlrd USD"). Space-thousands.
+
 ## Urdu (ur) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Urdu` end-to-end as part of the

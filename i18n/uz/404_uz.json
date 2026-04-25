@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"404_title": "404 Xato | Sahifa topilmadi",
-	"404_message": "BU BUZILGAN SAHIFA UMUMAN YAXSHI EMAS",
-	"404_home": "BOSH SAHIFAGA QAYTISH"
+	"404_message": "Bitcoin ajoyib, lekin bu buzilgan sahifa unday emas.",
+	"404_home": "Bosh sahifaga qaytish",
+	"404_not_found_short": "Topilmadi"
 }

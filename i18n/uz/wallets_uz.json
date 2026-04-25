@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_wallet_guide": "Bitcoin hamyon yoʻriqnomasi",
 	"wallets_description": "Muhim jihatlarda farqlanadigan koʻplab turli Bitcoin hamyonlari mavjud. Hamyon siz uchun toʻgʻri ekanligini ushbu oddiy savollarni berish orqali bilishingiz mumkin.",
 	"wallets_header": "BITCOININGIZNI XAVFSIZ QANDAY SAQLASH",
+	"wallets_header_subtitle": "Hamyon tanlash, kalitlaringizni himoya qilish va Bitcoiningiz ustidan toʻliq nazoratni qoʻlga olish uchun bosqichma-bosqich yoʻriqnoma.",
 	"wallets_s1_c1": "Bitcoin hamyonlari bir-biri bilan mos keladi, shuning uchun qaysi hamyonni ishlatsa ham herkimga Bitcoin yuborishingiz mumkin.",
 	"wallets_s1_c2": "Muhim jihatlarda farqlanadigan koʻplab turli Bitcoin hamyonlari mavjud. Hamyon siz uchun toʻgʻri ekanligini ushbu oddiy savollarni berish orqali bilishingiz mumkin:",
 	"wallets_question_1": "OʻZ NAZORATIDAGI HAMYONMI?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp toʻgʻrisini tanlashga yordam berish uchun 70 ta poʻlat zaxira mahsulotini sinab koʻrgan.",
 	"wallets_s6_c5": "Jamesonning metall Bitcoin zaxira yoʻriqnomasini bu yerda koʻring.",
 	"wallets_s6_c6": "Yoki aylantrishni davom ettiring va Bitcoin hamyon variantlarini kashf qiling.",
+	"wallets_grid_heading": "Mashhur Bitcoin hamyonlari",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Lightning hamyon yoʻriqnomamizni qidiryapsizmi?",
 	"wallets_starter_wallet": "Ajoyib boshlangʻich hamyon",
 	"wallets_mobile_app": "Mobil ilova",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Qayta zaryadlanadigan batareya",
 	"wallets_build_your_own": "Oʻzingiz yasang",
 	"wallets_qwerty_keyboard": "Toʻliq QWERTY klaviatura",
-	"wallets_qr_scanner": "QR kod skaneri"
+	"wallets_qr_scanner": "QR kod skaneri",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Hamyoningizni tanlang",
+	"sources_jameson_lopp": "Jameson Lopp — Bitcoin metall urugʻ saqlash sharhlari",
+	"sources_blockstream_green": "Blockstream Green — oʻz nazoratidagi Bitcoin hamyoni",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin apparat hamyoni",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 apparat hamyoni",
+	"sources_coldcard_q": "Coinkite — Coldcard Q apparat hamyoni",
+	"sources_passport": "Foundation Devices — Passport apparat hamyoni",
+	"sources_seedsigner": "SeedSigner — ochiq manbali oʻz qoʻli bilan yigʻiladigan Bitcoin imzolovchi qurilma"
 }

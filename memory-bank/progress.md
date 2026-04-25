@@ -1,3 +1,40 @@
+## i18n cleanup Step 5 — Uzbek (uz) — 2026-04-25
+
+Ran `/translate-manifest-refresh Uzbek` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/tr/ur/vi/yo/zh/zu. Uzbek (`Oʻzbekcha`) is the official language of
+Uzbekistan, with ~35M native speakers; Turkic language family. Modern
+Latin orthography (post-1995 official). **Counter:** 50/54.
+1,022 entries flagged (464 missing + 1 untranslated + 165
+manifest-changed + 392 manifest-added).
+
+**4 helper scripts under `scripts/uz-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — per-currency × 13
+   currencies with Uzbek currency naming (dollar, yevro, real, funt,
+   shekel, rupiya, iyena, peso, baxt) rather than a generic
+   catch-all, polite formal "siz" register throughout — the standard
+   register for Uzbek educational copy (matches Daryo.uz, Kun.uz,
+   Gazeta.uz) + 41 non-currency keys).
+2. `translate-rest-part1.js` (313 entries — 404, about, bank-runs,
+   business/accounting, business/wallets, common,
+   compound-inflation-calculator, index, lightning, nostr/index).
+3. `translate-rest-part2.js` (341 entries — stickers, business/why,
+   get-involved, buy, all bitcoin-vs-*, business/maps,
+   business/stickers, business/index, wallets, success pages,
+   flyers).
+4. `fix-untranslated.js` (1 patch — `common_stickers_material`
+   "Material:" → "Material turi:" so byte-distinct from English).
+
+**Edge cases / notes:**
+- **Modern Uzbek Latin orthography** used throughout, including the
+  special U+02BB MODIFIER LETTER TURNED COMMA in `Oʻ`/`oʻ` and
+  `Gʻ`/`gʻ` (e.g. `oʻzbek`, `gʻalaba`, `koʻproq`). NOT the ASCII
+  apostrophe — that would look wrong to native readers.
+- Numerics in Uzbek convention: comma-decimal ("1,42%", "153,9
+  mlrd USD"). Space-thousands.
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Urdu (ur) — 2026-04-25
 
 Ran `/translate-manifest-refresh Urdu` end-to-end via the

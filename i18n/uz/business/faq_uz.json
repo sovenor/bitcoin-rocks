@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Bitcoin qabul qilish haqida tez-tez beriladigan savollar",
 	"faq_description": "Biznesingizda Bitcoin toʻlovlarini qabul qilish haqida savollaringiz bormi?",
+	"faq_hero_subtitle": "Savdogarlar Bitcoin qabul qilishni boshlashdan oldin koʻp beradigan savollarning qisqa javoblari — komissiyalar, hisob-kitob, hamyonlar, qaytarib olishlar, narx va boshqalar.",
+	"faq_intro_c1": "Javobni kengaytirish uchun quyidagi har qanday savolni bosing. Bitcoinni qabul qilishni boshlashga tayyor boʻlganingizda, sahifaning pastida joylashgan biznes resurslari sizni har bir bosqichdan oʻtkazadi.",
 	"faq_s1": "Bitcoin nima?",
 	"faq_s1_c1": "Bitcoin ikki narsadir: raqamli pul va kompyuter tarmogʻi.",
 	"faq_s1_c2": "Bitcoin tarmogʻi orqali boshqa odamlarga bevosita bitcoin (raqamli pul) yuborishingiz mumkin.",

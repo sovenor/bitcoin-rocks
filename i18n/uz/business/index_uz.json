@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin biznes uchun foydali",
+	"business_hero_subtitle": "Pastroq komissiyalar bilan toʻlov qabul qiling, bir zumda toʻlov oling va Bitcoin foydalanuvchilaridan iborat millionlab yangi mijozlarga yetib boring — nol shartnoma va nol yashirin xarajatlar bilan.",
+	"business_intro_c1": "Bitcoin biznesingizga tezroq, arzonroq va shaxsiyroq toʻlov olish usulini beradi. Vositachilarsiz. Qaytarib olishlarsiz. Shartnomalarsiz. Faqat mijozlardan sizgacha bir necha soniyada hisob-kitob qiluvchi pul.",
+	"business_intro_c2": "Quyida Bitcoinning biznes uchun nima uchun foydali ekanligining qisqa versiyasi va undan keyin bugun qabul qilishni boshlash uchun zarur boʻlgan har bir resurs.",
 	"biz_s1": "Minimal summasi yoʻq past komissiyalar",
 	"biz_s1_c1": "Bitcoin, xuddi naqd pul kabi, mijozlaringizdan bevosita toʻlov olish imkonini beradi. Bitcoin tarmogʻi yuqori komissiyalar oladigan banklar va kredit karta kompaniyalari kabi vositachilarssiz ishlaydi.",
 	"biz_s2": "Bir zumda toʻlov",
@@ -17,5 +20,14 @@
 	"biz_s4": "Koʻproq mijoz jalb qiling",
 	"biz_s4_c1": "Millionlab odamlar Bitcoin egasi va uni qabul qiladigan joylarda sarflashni xohlaydi.",
 	"biz_s4_c2": "Bitcoin qabul qilish orqali biznesingiz Bitcoin savdogar xaritalarida roʻyxatga olinishi va yangi mijozlarga bepul murojaat qilishi mumkin.",
-	"biz_s4_c3": "Bitcoin qabul qilish 100% bepul. Shartnoma yoki yashirin toʻlov yoʻq."
+	"biz_s4_c3": "Bitcoin qabul qilish 100% bepul. Shartnoma yoki yashirin toʻlov yoʻq.",
+	"business_resources_heading": "Bitcoinni qabul qilish uchun zarur boʻlgan hamma narsa",
+	"business_resources_intro": "Ushbu resurslarni oʻz tezligingizda oʻrganing. Har biri qisqa, amaliy yoʻriqnoma.",
+	"biz_label_wallets": "HAMYONLAR",
+	"biz_label_maps": "SAVDOGAR XARITALARI",
+	"biz_label_stickers": "STIKERLAR",
+	"biz_label_rewards": "MUKOFOTLAR",
+	"biz_label_accounting": "BUXGALTERIYA",
+	"biz_label_faq": "TEZ-TEZ BERILADIGAN SAVOLLAR",
+	"biz_meta_description": "Pastroq komissiyalar, bir zumda hisob-kitob, qaytarib olishlarsiz va koʻproq mijozlar uchun biznesingizda Bitcoinni qabul qiling."
 }

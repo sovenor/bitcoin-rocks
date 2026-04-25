@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks-dan bepul Bitcoin varaqalari",
 	"flyers_description": "Uyda Bitcoin varaqasi chop eting va atrofingizdagi odamlarni xabardor qilish uchun ommaviy joyga yopishtiring.",
-	"flyers_intro_header": "BU BITCOIN VARAQALARINI QANDAY CHOP ETISH VA YOPISHTIRISH",
+	"flyers_hero_title": "Bitcoin varaqalarini chop eting va osib qoʻying",
+	"flyers_hero_subtitle": "Bepul, chop etiladigan Bitcoin varaqalari. Koʻproq odamlarning Bitcoin haqida bilib olishiga yordam berish uchun ularni jamoat joylariga osib qoʻying.",
+	"flyers_intro_header": "Bu Bitcoin varaqalarini qanday chop etish va osib qoʻyish",
 	"flyers_intro_c1": "Bizning vazifamiz Bitcoin varaqalarini ommaviy joylarga yopishtirib, koʻproq odamlarni xabardor qilishga yordam berishdir. Bu varaqada quyidagi sahifamizga yoʻnaltiruvchi QR kod bor:",
 	"flyers_intro_c2": "taʼlimiy Bitcoin sahifamiz.",
 	"flyers_intro_c4": "Bu varaqani uyda yoki matbaada chop eting. Keyin eʻlon taxtalariga, shahardagi telefon ustunlariga va odamlar koʻrib Bitcoin haqida bilib oladigan boshqa ommaviy joylarga yopishtiring.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "VARAQA JOYLARINGIZNI ULASHING",
 	"flyers_share_c1": "Varaqa joylaringizni Nostr-da biz bilan ulashing va boshqalarning varaqalarini qaerga yopishtirayotganini koʻring.",
 	"flyers_btn_share_on_nostr": "NOSTR-DA ULASHING",
-	"flyers_btn_what_is_nostr": "NOSTR NIMA?"
+	"flyers_btn_what_is_nostr": "NOSTR NIMA?",
+	"flyers_next_get_stickers": "Xabarni tarqating",
+	"flyers_next_get_stickers_desc": "Bepul Bitcoin stiker toʻplamiga buyurtma bering"
 }

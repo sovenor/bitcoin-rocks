@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"cic_header": "MURAKKAB INFLYATSIYA KALKULYATORI",
 	"cic_description": "Ushbu murakkab inflyatsiya kalkulyatori yordamida maoshingiz inflyatsiyaga mos kelishi uchun qancha oshishi kerakligini bilib oling.",
-	"cic_inflation_cta": "Bitcoin yordamida inflyatsiyadan qutulish"
+	"cic_hero_subtitle": "Inflyatsiyaga yetib borish uchun maoshingiz qancha oshishi kerakligini koʻring.",
+	"cic_calculator_heading": "Inflyatsiya farqingizni hisoblang",
+	"cic_cta_label": "Keyingi qadam",
+	"cic_inflation_cta": "Bitcoin yordamida inflyatsiyadan qutulish",
+	"cic_next_learn_inflation": "Inflyatsiya qanday ishlashini oʻrganing",
+	"cic_next_explore_topics": "Yana mavzularni oʻrganing",
+	"cic_next_explore_topics_desc": "Bitcoin pul, erkinlik, energiya va boshqa mavzular bilan qanday bogʻliqligini koʻring.",
+	"sources_fred_cpi_urban": "Federal zaxira iqtisodiy maʼlumotlari (FRED) — barcha shaharlik isteʼmolchilar uchun isteʼmol narxlari indeksi",
+	"sources_fred_m1": "Federal zaxira iqtisodiy maʼlumotlari (FRED) — M1 pul taklifi"
 }
