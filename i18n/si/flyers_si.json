@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "si"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks වෙතින් නිදහස් Bitcoin ප්‍රචාර පත්‍රිකා",
 	"flyers_description": "Bitcoin ප්‍රචාර පත්‍රිකාවක් ගෙදර මුද්‍රණය කර ඔබ අවට සිටින අයට Bitcoin හඳුන්වා දීමට පොදු ස්ථානවල තබන්න.",
-	"flyers_intro_header": "මෙම BITCOIN ප්‍රචාර පත්‍රිකා මුද්‍රණය කර ඇලීම කරන්නේ කෙසේද",
+	"flyers_hero_title": "Bitcoin අත්පත්‍රිකා මුද්‍රණය සහ බෙදා හරින්න",
+	"flyers_hero_subtitle": "නොමිලේ, මුද්‍රණය කළ හැකි Bitcoin අත්පත්‍රිකා. තවත් මිනිසුන්ට Bitcoin ගැන දැන ගැනීමට උදව් කිරීමට මේවා පොදු ස්ථානවල තබන්න.",
+	"flyers_intro_header": "මෙම Bitcoin අත්පත්‍රිකා මුද්‍රණය සහ බෙදා හරින ආකාරය",
 	"flyers_intro_c1": "පොදු ස්ථානවල Bitcoin ප්‍රචාර පත්‍රිකා තැබීමෙන් තව පුද්ගලයින්ට Bitcoin හඳුන්වා දීමට ඔබට උදවු කිරීම අපේ මෙහෙවරයි. මෙම ප්‍රචාර පත්‍රිකාවේ අපේ",
 	"flyers_intro_c2": "අධ්‍යාපනික Bitcoin වෙබ් අඩවියට සබැඳෙන QR කේතයක් ඇත.",
 	"flyers_intro_c4": "මෙම ප්‍රචාර පත්‍රිකාව ගෙදර හෝ මුද්‍රණාලයක මුද්‍රණය කරන්න. ඉන්පසු, නගරයේ බුලටින් පුවරු, දුරකථන කණු, සහ මිනිසුන්ට දැකිය හැකි වෙනත් පොදු ස්ථානවල ඇලීම කරන්න.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "ඔබේ ප්‍රචාර පත්‍රිකා ස්ථාන බෙදාගන්න",
 	"flyers_share_c1": "Nostr හි ඔබේ ප්‍රචාර පත්‍රිකා ස්ථාන අප සමඟ බෙදාගන්න, අනෙක් අය ඔවුන්ගේ ප්‍රචාර පත්‍රිකා තබන්නේ කොහේදැයි බලන්න.",
 	"flyers_btn_share_on_nostr": "NOSTR හි බෙදාගන්න",
-	"flyers_btn_what_is_nostr": "NOSTR කියන්ද?"
+	"flyers_btn_what_is_nostr": "NOSTR කියන්ද?",
+	"flyers_next_get_stickers": "වචනය ව්‍යාප්ත කරන්න",
+	"flyers_next_get_stickers_desc": "නොමිලේ Bitcoin ස්ටිකර පැකේජයක් ඇණවුම් කරන්න"
 }

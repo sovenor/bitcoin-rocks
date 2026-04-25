@@ -3,7 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "si"
-	}
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin වෙළෙඳ සිතියම් - ඔබේ ව්‍යාපාරය නොමිලේ ලැයිස්තුගත කරන්න",
+	"maps_view": "සිතියම මෙතැන බලන්න.",
+	"biz_maps_hero_title": "Bitcoin වෙළෙඳ සිතියම් වෙත ඔබේ ව්‍යාපාරය එකතු කරන්න",
+	"biz_maps_hero_subtitle": "BTC Map — Bitcoin පිළිගන්නා වෙළෙඳුන්ගේ ගෝලීය විවෘත නාමාවලිය — හි නොමිලේ ඔබේ ව්‍යාපාරය ලැයිස්තුගත කරන්න, එවිට ආසන්නයේ සිටින Bitcoin පරිශීලකයින්ට ඔබව සොයා ගැනීමට සහ ඔබේ ව්‍යාපාරයේ Bitcoin වියදම් කිරීමට හැකිය.",
+	"biz_maps_intro_c1": "Bitcoin පරිශීලකයින් සක්‍රීයව ඔවුන්ගේ මුදල් වියදම් කළ හැකි ස්ථාන සොයමින් සිටී. ඔබේ ව්‍යාපාරය සිතියම මත තැබීම ආසන්නයේ කෑමට, මිලදී ගැනීමට හෝ රැඳී සිටීමට ස්ථානයක් සොයන සෑම Bitcoin පරිශීලකයෙකුම ඉදිරියේ ඔබව තබයි — ඔබට කිසිදු පිරිවැයකින් තොරව.",
+	"biz_maps_intro_c2": "පහත කෙටි පෝරමය පුරවන්න, අපි ඔබේ වෙනුවෙන් BTC Map සහ අනෙකුත් Bitcoin වෙළෙඳ සිතියම්වලට ඔබේ ව්‍යාපාරය ඉදිරිපත් කරන්නෙමු.",
+	"biz_maps_view_map_cta": "BTC Map බලන්න",
+	"biz_maps_form_header": "ඔබේ ව්‍යාපාරය ගැන අපට කියන්න",
+	"biz_maps_form_intro": "ඔබව ලැයිස්තුගත කිරීමට විස්තර කිහිපයක් පමණි. ලිපින තොරතුරු ඔබේ ව්‍යාපාරය සිතියම්වලට ඉදිරිපත් කිරීමට අවශ්‍ය තාක් කල් පමණක් ගබඩා කර ඇත.",
+	"biz_maps_placeholder_name": "ව්‍යාපාරයේ නම",
+	"biz_maps_placeholder_category": "වර්ගය (උදා: අවන්හල, කැෆේ, හෝටලය)",
+	"biz_maps_placeholder_address": "වීදි ලිපිනය",
+	"biz_maps_placeholder_city": "නගරය",
+	"biz_maps_placeholder_region": "ප්‍රාන්තය / පළාත / කලාපය",
+	"biz_maps_placeholder_country": "රට",
+	"biz_maps_placeholder_website": "වෙබ් අඩවිය (විකල්ප)",
+	"biz_maps_meta_description": "BTC Map සහ අනෙකුත් Bitcoin වෙළෙඳ සිතියම්වල නොමිලේ ඔබේ ව්‍යාපාරය ලැයිස්තුගත කරන්න, එවිට ආසන්නයේ සිටින Bitcoin පරිශීලකයින්ට ඔබව සොයා ගත හැකිය."
 }

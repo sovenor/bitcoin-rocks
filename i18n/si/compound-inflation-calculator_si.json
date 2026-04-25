@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "si"
 	},
 	"cic_header": "සංයුක්ත මුදල් නිෂ්පාදන ගණකයනය",
 	"cic_description": "මුදල් නිෂ්පාදනයට සමානව යැමට ඔබේ වේතන කීය පමණක් වැඩිවීම අවශ්‍යදැයි සෙලබීමට මෙම සංයුක්ත මුදල් නිෂ්පාදන ගණකයනය භාවිතා කරන්න.",
-	"cic_inflation_cta": "Bitcoin සමඟ මුදල් නිෂ්පාදනයෙන් මුක්ත වන්න"
+	"cic_hero_subtitle": "උද්ධමනය සමඟ පිය නැගීමට ඔබේ වැටුප කොපමණ වැඩි කළ යුතුද යන්න බලන්න.",
+	"cic_calculator_heading": "ඔබේ උද්ධමන හිඩැස ගණනය කරන්න",
+	"cic_cta_label": "ඊළඟ පියවර",
+	"cic_inflation_cta": "Bitcoin සමඟ මුදල් නිෂ්පාදනයෙන් මුක්ත වන්න",
+	"cic_next_learn_inflation": "උද්ධමනය ක්‍රියා කරන ආකාරය ඉගෙන ගන්න",
+	"cic_next_explore_topics": "තවත් මාතෘකා ගවේෂණය කරන්න",
+	"cic_next_explore_topics_desc": "Bitcoin මුදල්, නිදහස, බලශක්තිය සහ තවත් දේවලට සම්බන්ධ වන ආකාරය බලන්න.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — සියලුම නාගරික පාරිභෝගිකයන් සඳහා පාරිභෝගික මිල දර්ශකය",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 මුදල් සැපයුම"
 }

@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "si"
-	}
+	},
+	"biz_sticker_success_hero_title": "ඔබේ ස්ටිකර මගතොටේ 🎉",
+	"biz_sticker_success_hero_subtitle": "ඔබට සති 2-4 ක් ඇතුළත ඔබේ නොමිලේ \"අපි Bitcoin පිළිගනිමු\" ස්ටිකර ලැබෙනු ඇත, සරල සුදු කවරයක ස්ටිකර 3 ක් සමඟ.",
+	"biz_sticker_success_tips_header": "ඔබේ ස්ටිකර තැබීමට හොඳ ස්ථාන",
+	"biz_sticker_success_tip_1": "ඔබේ ඉදිරිපස දොර හෝ ජනේලයේ, එවිට පාරිභෝගිකයින්ට ඇතුළු වීමට පෙර දැකිය හැකිය",
+	"biz_sticker_success_tip_2": "චෙක්අවුට්, විකුණුම් ස්ථානය හෝ ගෙවීම් ප්‍රදේශය ආසන්නයේ",
+	"biz_sticker_success_tip_3": "මෙනු, මිල ලැයිස්තු හෝ ටිප් භාජන මත",
+	"biz_sticker_success_tip_4": "ඔබේ නොවන හෝ පළ කිරීමට අවසර නැති ස්ථානවල ස්ටික් නොකරන්න",
+	"biz_sticker_success_more_header": "තවත් ස්ටිකර අවශ්‍යද?",
+	"biz_sticker_success_more_c1": "ස්ටිකර 3ක් ඔබේ ව්‍යාපාරයට ප්‍රමාණවත් නොවේ නම්, නිදහසේ තවත් නොමිලේ පැකේජයක් ඉල්ලන්න — හෝ අප භාවිතා කරන මුද්‍රණ ශාලාවෙන්ම තොගයෙන් ඇණවුම් කරන්න.",
+	"biz_sticker_success_btn_order_bulk": "තොග ඇණවුම",
+	"biz_sticker_success_btn_request_more": "තවත් නොමිලේ පැකේජයක් ඉල්ලන්න"
 }

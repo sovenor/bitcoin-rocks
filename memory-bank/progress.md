@@ -3,7 +3,7 @@
 Ran `/translate-manifest-refresh Russian`. Russian (`русский`) is
 the largest single-language Step-5 locale tackled to date (~150M native
 speakers + ~100M second-language speakers across the post-Soviet
-space). **Counter:** 35/54 languages complete. 1,021 entries flagged
+space). **Counter:** 36/54 languages complete. 1,021 entries flagged
 (464 missing locale-specific + 165 manifest-changed + 392
 manifest-added; 0 untranslated) — locale was on V1 with the entire
 `inflation` namespace + all 62 `index::home_card_label_*` keys

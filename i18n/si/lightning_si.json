@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "si"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning පසුම්බි මාර්ගෝපදේශය",
 	"lightning_description": "Lightning පසුම්බි ඔබේ පුද්ගලික ස්වාධිපත්‍යය පවත්වාගෙන යනවාත් සමඟම ඉක්මනින් සහ ලාභදායී ලෙස Bitcoin යැවීමට හැකි කරයි.",
 	"lightning_header": "LIGHTNING පසුම්බි මාර්ගෝපදේශය",
+	"lightning_header_subtitle": "Lightning ඔබට තත්පර කිහිපයකින් ශත ගාස්තුවලින් Bitcoin යැවීමට ඉඩ දෙයි — ඔබ වියදම් කිරීමට අදහස් කරන Bitcoin ප්‍රමාණයට ගැලපෙන වෙළඳාම් සහිත පසුම්බියක් තෝරන්න.",
 	"lightning_s1_c1": "Lightning ඔබට ඉක්මනින් සහ ලාභදායී ලෙස Bitcoin ගෙවීම් යැවීමට හැකි කරයි.",
 	"lightning_s1_c2": "Lightning භාවිතය හුවමාරු සමඟ පැමිණෙන බව දැන ගැනීම වැදගත්ය. ඉක්මන්, ලාභදායී Bitcoin ගෙවීම් වෙනුවට, ඔබ බොහෝ විට යම් ආරක්ෂාවක් කැප කරයි.",
 	"lightning_s1_c3": "සාමාන්‍යයෙන්, Lightning භාවිතා කළ යුත්තේ කුඩා bitcoin ප්‍රමාණ සමඟ පමණි. ඔබ විශාල bitcoin ප්‍රමාණ දෘඩාංග පසුම්බියක පමණක් ගබඩා කළ යුතුය.",
-	"lightning_s1_c4": "වැඩි තොරතුරු සඳහා අපේ දෘඩාංග පසුම්බි මාර්ගෝපදේශය බලන්න.",
+	"lightning_s1_c4": "අපගේ මාර්ගෝපදේශය බලන්න",
+	"lightning_s1_c4_link": "Bitcoin දෘඪාංග පසුම්බි මාර්ගෝපදේශය",
+	"lightning_s1_c4_end": " වැඩි විස්තර සඳහා.",
 	"lightning_s1_c5": "සියලුම Lightning පසුම්බි සමාන නොවේ. එක සරල ප්‍රශ්නයක් ඇසීමෙන් කුමන පසුම්බියට ඔබ සඳහා නිවැරදි හුවමාරු සමතුලිතතාවයක් ඇත්තේ කුමක්දැයි තීරණය කළ හැකිය:",
 	"lightning_question_1": "මට නිවැරදි හුවමාරු සමතුලිතතාවය කුමක්ද?",
 	"lightning_s2_c1": "Bitcoin හි නවෝත්පාදනයක් වන්නේ බැංකුවක් වැනි භාරකරුවකු මත රඳා නොසිට එය ගබඩා කිරීමේ හැකියාවයි. ස්ව-රක්ෂා පසුම්බි Bitcoin හි සම්පූර්ණ බලය මුදාහරියි.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "මෙම පසුම්බි බැංකු පද්ධතියට වඩා සමානය, ඔබ ඔබේ මුදල් වෙත ප්‍රවේශය ලබා දීමට තෙවැනි පාර්ශ්වයක් විශ්වාස කළ යුතුය.",
 	"lightning_s3_c3": "භාරකරු පසුම්බි පහසු බව පෙනිය හැකි නමුත්, භාරකරුට ඕනෑම වේලාවක සියලුම පරිශීලක අරමුදල් සොරකම් කිරීමේ තාක්ෂණික හැකියාව ඇත.",
 	"lightning_s3_c4": "සමහර දෙනෙක් භාවිතා කිරීමේ පහසුව නිසා කුඩා bitcoin ප්‍රමාණ සඳහා භාරකරු Lightning පසුම්බි කැමති වේ. මතක තබා ගන්න: ඔබේ යතුරු නොවේ නම්, ඔබේ කාසි නොවේ!",
+	"lightning_grid_heading": "ජනප්‍රිය Lightning පසුම්බි",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% නිදහස්",
 	"lightning_merchants": "වෙළඳුන් සඳහා විශිෂ්ටයි",
 	"lightning_custodial": "සම්පූර්ණයෙන් භාරකරු පසුම්බිය",
-	"lightning_cta_hardware": "අපේ Bitcoin දෘඩාංග පසුම්බි මාර්ගෝපදේශය සොයනවාද?"
+	"lightning_cta_hardware": "අපේ Bitcoin දෘඩාංග පසුම්බි මාර්ගෝපදේශය සොයනවාද?",
+	"lightning_hardware_cta_label": "දෘඪාංග පසුම්බිය",
+	"sources_lightning_paper": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning පසුම්බිය",
+	"sources_breez_lightning": "Breez — ස්වයං-ආරක්ෂිත Lightning පසුම්බිය",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — භාරකාර Lightning පසුම්බිය",
+	"sources_lightning_labs": "Lightning Labs — Lightning Network ලේඛන"
 }
