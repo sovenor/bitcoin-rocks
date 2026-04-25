@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"bitcoin_lightning_wallet_guide": "Hướng Dẫn Ví Lightning Bitcoin",
 	"lightning_description": "Ví Lightning cho phép bạn gửi Bitcoin nhanh chóng và rẻ trong khi vẫn duy trì chủ quyền cá nhân.",
 	"lightning_header": "HƯỚNG DẪN VÍ LIGHTNING",
+	"lightning_header_subtitle": "Lightning cho phép bạn gửi Bitcoin trong vài giây với chi phí chỉ một phần nhỏ của một xu — chọn ví phù hợp với bạn.",
 	"lightning_s1_c1": "Lightning cho phép bạn gửi thanh toán Bitcoin nhanh chóng và rẻ.",
 	"lightning_s1_c2": "Điều quan trọng là sử dụng lightning có sự đánh đổi. Để đổi lấy thanh toán Bitcoin nhanh và rẻ hơn, bạn thường phải hy sinh một số bảo mật.",
 	"lightning_s1_c3": "Nói chung, Lightning chỉ nên dùng với số lượng bitcoin nhỏ. Bạn chỉ nên lưu trữ số lượng lớn bitcoin trong ví phần cứng.",
-	"lightning_s1_c4": "Xem Hướng Dẫn Ví Phần Cứng để biết thêm.",
+	"lightning_s1_c4": "Hãy xem",
+	"lightning_s1_c4_link": "Hướng dẫn Ví Phần cứng Bitcoin",
+	"lightning_s1_c4_end": "để biết thêm thông tin.",
 	"lightning_s1_c5": "Không phải tất cả ví Lightning đều giống nhau. Bạn có thể xác định ví có bộ đánh đổi phù hợp bằng cách hỏi một câu đơn giản:",
 	"lightning_question_1": "SỰ CÂN BẰNG ĐÁNH ĐỔI NÀO PHÙ HỢP VỚI TÔI?",
 	"lightning_s2_c1": "Một trong những đổi mới của Bitcoin là khả năng lưu trữ mà không cần tổ chức lưu ký, như ngân hàng. Ví tự lưu trữ mở khóa toàn bộ sức mạnh của Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Các ví này tương tự hệ thống ngân hàng nơi bạn phải tin tưởng bên thứ ba cấp quyền truy cập tiền. Nếu Bitcoin trên sàn giao dịch, bạn đang dùng ví lưu ký.",
 	"lightning_s3_c3": "Ví lưu ký có vẻ tiện lợi, nhưng tổ chức lưu ký có khả năng kỹ thuật đánh cắp tất cả tiền người dùng bất cứ lúc nào.",
 	"lightning_s3_c4": "Một số người thích ví Lightning lưu ký cho số lượng bitcoin nhỏ vì dễ sử dụng. Hãy nhớ: không phải khóa của bạn, không phải coin của bạn!",
+	"lightning_grid_heading": "Các ví Lightning phổ biến",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "Miễn phí 100%",
 	"lightning_merchants": "Tuyệt vời cho thương nhân",
 	"lightning_custodial": "Ví lưu ký hoàn toàn",
-	"lightning_cta_hardware": "Tìm Hướng Dẫn Ví Phần Cứng Bitcoin?"
+	"lightning_cta_hardware": "Tìm Hướng Dẫn Ví Phần Cứng Bitcoin?",
+	"lightning_hardware_cta_label": "Ví phần cứng",
+	"sources_lightning_paper": "Joseph Poon & Thaddeus Dryja — Lightning Network của Bitcoin: Thanh toán tức thì có thể mở rộng ngoài chuỗi",
+	"sources_acinq_phoenix": "ACINQ — Ví Lightning Phoenix",
+	"sources_breez_lightning": "Breez — Ví Lightning tự lưu ký",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — Ví Lightning được lưu ký",
+	"sources_lightning_labs": "Lightning Labs — Tài liệu Lightning Network"
 }

@@ -1,3 +1,55 @@
+## Vietnamese (vi) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Vietnamese` end-to-end as part of
+the **8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu).
+**Locale 51/54 complete.** Vietnamese (`Tiếng Việt`) is the official
+language of Vietnam with ~85M native speakers, plus diaspora.
+Austroasiatic language family. Latin script with extensive
+diacritics (every vowel + 6 tones).
+
+**Report stats:**
+- 465 missing locale-specific
+- 0 untranslated
+- 165 manifest-changed + 392 manifest-added → **1,022 total**
+
+**7 helper scripts under `scripts/vi-manifest-refresh/`** (more
+granular than other locales — agent split by namespace cluster):
+
+- `translate-part1-common-content.js` — 128 entries. 404, about,
+  bank-runs, common, compound-inflation-calculator.
+- `translate-part2-content.js` — 95 entries. flyers,
+  sticker-success, stickers, buy, lightning, wallets,
+  sticker-files/index.
+- `translate-part3-index-getinvolved-nostr.js` — 140 entries.
+  index, get-involved, nostr/index.
+- `translate-part4-comparisons.js` — 120 entries. All 10
+  bitcoin-vs-* pages with a shared `heroTitle()` builder.
+- `translate-part5-business.js` — 171 entries. All 11 business/*
+  namespaces.
+- `translate-part6-inflation.js` — 366 entries. Full inflation
+  namespace via 21 per-currency template functions parameterized
+  by `CURRENCIES` map with Vietnamese unit nouns (đô la, real,
+  euro, bảng, shekel, rupee, yên, peso, baht).
+- `translate-part7-finalize.js` — 2 stragglers (`inflation_stat_btc_*`).
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **Diacritics matter.** Vietnamese tone marks are not optional —
+  "bán" (sell) vs "bạn" (friend) vs "ban" (board) are
+  distinguished only by tone. Mistakes are immediately visible to
+  native readers. NFC-normalized composed characters used
+  throughout (JSON.stringify default).
+- Polite "bạn" register throughout (matches VnExpress, Tuổi Trẻ,
+  Thanh Niên crypto coverage). Avoids "anh/chị" (overly intimate)
+  and "quý vị" (overly formal for web educational copy).
+- Numerics: European convention (period-thousands, comma-decimal —
+  "1,42%" / "21.000.000") matching existing
+  `i18n/vi/inflation_vi.json`.
+- Quoted English phrases on sticker art ("Bitcoin Accepted Here",
+  "Bitcoin Doesn't Have Inflation") left in English since they're
+  the literal sticker text.
+
 ## Uzbek (uz) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Uzbek` end-to-end as part of the

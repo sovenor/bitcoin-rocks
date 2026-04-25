@@ -3,7 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
-	}
+	},
+	"english_bitcoin_accepted_here_sticker_files": "Tệp nhãn dán \"Bitcoin Accepted Here\" tiếng Anh",
+	"english_biz_sticker_files_description": "Tải xuống các tệp nhãn dán tiếng Anh để tự in nhãn dán \"Bitcoin Accepted Here\" của bạn.",
+	"biz_stickers_english_hero_title": "Tải xuống tệp nhãn dán \"Bitcoin Accepted Here\" tiếng Anh",
+	"biz_stickers_english_hero_subtitle": "In nhãn dán \"Bitcoin Accepted Here\" của riêng bạn bằng tiếng Anh để cho khách hàng biết bạn chấp nhận Bitcoin."
 }

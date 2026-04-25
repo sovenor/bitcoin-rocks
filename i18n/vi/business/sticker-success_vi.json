@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
-	}
+	},
+	"biz_sticker_success_hero_title": "Nhãn dán của bạn đang trên đường tới 🎉",
+	"biz_sticker_success_hero_subtitle": "Bạn sẽ nhận được nhãn dán \"Bitcoin Accepted Here\" miễn phí trong vòng 2 đến 4 tuần, trong một phong bì trắng đơn giản với 3 nhãn dán bên trong.",
+	"biz_sticker_success_tips_header": "Những nơi tốt để dán nhãn của bạn",
+	"biz_sticker_success_tip_1": "Trên cửa trước hoặc cửa sổ để khách hàng thấy trước khi họ bước vào",
+	"biz_sticker_success_tip_2": "Gần quầy thanh toán, máy POS hoặc khu vực thanh toán",
+	"biz_sticker_success_tip_3": "Trên thực đơn, bảng giá hoặc hộp tiền tip",
+	"biz_sticker_success_tip_4": "Đừng dán ở bất cứ nơi nào bạn không sở hữu hoặc không có sự cho phép",
+	"biz_sticker_success_more_header": "Cần thêm nhãn dán?",
+	"biz_sticker_success_more_c1": "Nếu 3 nhãn dán không đủ cho doanh nghiệp của bạn, đừng ngần ngại yêu cầu thêm một gói miễn phí — hoặc đặt số lượng lớn từ chính nhà in mà chúng tôi sử dụng.",
+	"biz_sticker_success_btn_order_bulk": "Đặt số lượng lớn",
+	"biz_sticker_success_btn_request_more": "Yêu cầu thêm một gói miễn phí"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"bitcoin_vs_banks": "Bitcoin so với Ngân Hàng",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Phí thấp, dự đoán được",
 	"bitcoin_point_6": "Không thể chi vượt",
 	"bitcoin_point_7": "Chống kiểm duyệt",
-	"point_1_summary_1": "Bitcoin không cần xin phép, nghĩa là bất kỳ ai có truy cập internet đều có thể sử dụng mà không cần xin phép bất kỳ cơ quan nào.",
-	"point_1_summary_2": "Bitcoin hoạt động không có người gác cổng",
-	"point_1_summary_3": "- không ai có thể từ chối bạn truy cập. Ngân hàng, tuy nhiên, có thể từ chối mở tài khoản, đóng băng tài khoản hiện có, hoặc từ chối dịch vụ dựa trên chính sách hoặc quy định của chính phủ.",
-	"point_2_summary_1": "Mạng Bitcoin hoạt động 24 giờ một ngày, 7 ngày một tuần, 365 ngày một năm không cần bảo trì hay nghỉ lễ. Ngân hàng có giờ làm việc hạn chế, đóng cửa cuối tuần và ngày lễ, và thường có thời gian bảo trì hệ thống khi dịch vụ không khả dụng.",
-	"point_3_summary_1": "Tất cả giao dịch Bitcoin được ghi lại trên blockchain công khai mà bất kỳ ai cũng có thể xác minh và kiểm toán.",
+	"point_1_summary_1": "Bất kỳ ai có kết nối internet đều có thể sử dụng Bitcoin — nó",
+	"point_1_summary_2": "không cần xin phép.",
+	"point_1_summary_3": "Các ngân hàng có thể từ chối, đóng băng hoặc đóng tài khoản dựa trên chính sách hoặc quy định của chính phủ.",
+	"point_2_summary_1": "Mạng Bitcoin hoạt động 24/7/365 không có thời gian bảo trì hay nghỉ lễ. Các ngân hàng có giờ giới hạn, nghỉ cuối tuần và những khoảng thời gian gián đoạn.",
+	"point_3_summary_1": "Mọi giao dịch Bitcoin đều nằm trên một blockchain công khai mà ai cũng có thể kiểm tra. Các ngân hàng vận hành sổ cái riêng tư mà khách hàng không thể tự xác minh.",
 	"point_3_summary_2": "Ngân hàng hoạt động với sổ cái riêng tư và quy trình nội bộ không minh bạch mà khách hàng không thể xác minh độc lập.",
-	"point_4_summary_1": "Với Bitcoin, bạn có thể giữ khóa riêng tư và có toàn quyền kiểm soát tiền của mình.",
-	"point_4_summary_2": "Tìm hiểu về ví Bitcoin",
-	"point_4_summary_3": "để hiểu về tự lưu trữ. Ngân hàng giữ tiền của bạn trong tài khoản và có thể đóng băng, giới hạn, hoặc hạn chế truy cập vào tiền bất cứ lúc nào.",
-	"point_5_summary_1": "Phí giao dịch Bitcoin minh bạch, dự đoán được, và thường rất thấp. Ngân hàng thường có phí ẩn, phí tài khoản hàng tháng, phí chi vượt, phí chuyển khoản, phí ATM, và các khoản phạt khác có thể tích lũy đáng kể theo thời gian.",
-	"point_6_summary_1": "Bitcoin ngăn bạn chi tiêu tiền mà bạn không có - bạn chỉ có thể chi tiêu Bitcoin mà bạn thực sự sở hữu. Ngân hàng cho phép chi vượt (chi tiêu nhiều hơn số dư tài khoản) và sau đó tính phí đáng kể cho 'dịch vụ' này, thường dẫn đến chuỗi phí phạt liên tiếp.",
-	"point_7_summary_1": "Giao dịch Bitcoin chống kiểm duyệt - một khi phát sóng lên mạng, chúng không thể bị dừng hoặc đảo ngược bởi bất kỳ cơ quan trung ương nào. Ngân hàng có thể chặn, đóng băng, đảo ngược, hoặc hạn chế giao dịch dựa trên chính sách, lệnh của chính phủ, hoặc thuật toán phát hiện hoạt động đáng ngờ."
+	"point_4_summary_1": "Với Bitcoin, bạn nắm giữ khóa riêng của chính mình — xem hướng dẫn",
+	"point_4_summary_2": "ví Bitcoin",
+	"point_4_summary_3": "đơn giản của chúng tôi. Các ngân hàng giữ tiền của bạn và có thể đóng băng, giới hạn hoặc hạn chế bất cứ lúc nào.",
+	"point_5_summary_1": "Phí Bitcoin minh bạch và có thể dự đoán. Các ngân hàng chồng chất các phí tài khoản, phí thấu chi, phí chuyển khoản và phí ATM ẩn theo thời gian.",
+	"point_6_summary_1": "Bitcoin chỉ cho phép bạn chi tiêu những gì bạn thực sự sở hữu. Các ngân hàng cho phép thấu chi, sau đó tính các khoản phí phạt liên tiếp cho đặc quyền đó.",
+	"point_7_summary_1": "Một khi đã được phát đi, các giao dịch Bitcoin không thể bị dừng lại hoặc đảo ngược. Các ngân hàng có thể chặn, đóng băng hoặc đảo ngược giao dịch dựa trên chính sách hoặc lệnh của chính phủ.",
+	"hero_title": "Sự khác biệt giữa <span class=\"orange\">Bitcoin</span> và <span class=\"asset\">Ngân hàng</span>"
 }

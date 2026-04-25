@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
-	}
+	},
+	"biz_maps_success_hero_title": "Đã nhận yêu cầu 🎉",
+	"biz_maps_success_hero_subtitle": "Cảm ơn bạn đã gửi doanh nghiệp của mình. Chúng tôi sẽ liệt kê bạn trên các bản đồ thương nhân Bitcoin trong thời gian ngắn.",
+	"biz_maps_success_timeline_header": "Điều gì xảy ra tiếp theo",
+	"biz_maps_success_timeline_c1": "Doanh nghiệp của bạn sẽ được liệt kê trên BTC Map và các danh bạ thương nhân Bitcoin khác trong vòng 1 đến 2 tuần. Chúng tôi xem xét từng yêu cầu thủ công để giữ cho các bản đồ chính xác.",
+	"biz_maps_success_timeline_c2": "Sau khi danh sách của bạn được kích hoạt, những người dùng Bitcoin gần đó có thể tìm thấy doanh nghiệp của bạn và đến đó chi tiêu Bitcoin.",
+	"biz_maps_success_view_header": "Xem nơi bạn sẽ xuất hiện",
+	"biz_maps_success_view_c1": "Trong khi chờ đợi, hãy xem qua BTC Map để thấy mạng lưới ngày càng phát triển của các doanh nghiệp chấp nhận Bitcoin trên khắp thế giới.",
+	"biz_maps_success_btn_view_map": "Xem BTC Map"
 }

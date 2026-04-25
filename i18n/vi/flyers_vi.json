@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"free_bitcoin_flyers": "Tờ rơi Bitcoin miễn phí từ bitcoin.rocks",
 	"flyers_description": "In tờ rơi Bitcoin tại nhà và dán ở nơi công cộng để giới thiệu Bitcoin cho mọi người xung quanh.",
-	"flyers_intro_header": "CÁCH IN & DÁN TỜ RƠI BITCOIN",
+	"flyers_hero_title": "In và dán tờ rơi Bitcoin",
+	"flyers_hero_subtitle": "Tờ rơi Bitcoin miễn phí, có thể in. Hãy dán chúng ở nơi công cộng để giúp nhiều người tìm hiểu thêm về Bitcoin.",
+	"flyers_intro_header": "Cách in và dán những tờ rơi Bitcoin này",
 	"flyers_intro_c1": "Sứ mệnh của chúng tôi là giúp bạn giới thiệu Bitcoin cho nhiều người hơn bằng cách dán tờ rơi Bitcoin ở nơi công cộng. Tờ rơi này có mã QR liên kết đến",
 	"flyers_intro_c2": "trang web giáo dục Bitcoin.",
 	"flyers_intro_c4": "In tờ rơi này tại nhà hoặc tiệm in. Sau đó, dán trên bảng thông báo, cột điện thoại quanh phố, và các nơi công cộng nơi mọi người có thể nhìn thấy và tìm hiểu về Bitcoin.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "CHIA SẺ VỊ TRÍ TỜ RƠI",
 	"flyers_share_c1": "Chia sẻ vị trí dán tờ rơi với chúng tôi trên Nostr và xem những người khác dán tờ rơi ở đâu.",
 	"flyers_btn_share_on_nostr": "CHIA SẺ TRÊN NOSTR",
-	"flyers_btn_what_is_nostr": "NOSTR LÀ GÌ?"
+	"flyers_btn_what_is_nostr": "NOSTR LÀ GÌ?",
+	"flyers_next_get_stickers": "Lan truyền thông điệp",
+	"flyers_next_get_stickers_desc": "Đặt một gói nhãn dán Bitcoin miễn phí"
 }

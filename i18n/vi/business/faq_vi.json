@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Câu Hỏi Thường Gặp Về Chấp Nhận Bitcoin",
 	"faq_description": "Bạn có câu hỏi về việc chấp nhận thanh toán Bitcoin tại doanh nghiệp?",
+	"faq_hero_subtitle": "Câu trả lời ngắn gọn cho những câu hỏi mà các thương nhân thường hỏi nhất trước khi bắt đầu chấp nhận Bitcoin — phí, thanh toán, ví, chargeback, chi phí và hơn thế nữa.",
+	"faq_intro_c1": "Nhấn vào bất kỳ câu hỏi nào bên dưới để mở rộng câu trả lời. Khi bạn đã sẵn sàng bắt đầu chấp nhận Bitcoin, các tài nguyên kinh doanh ở cuối trang sẽ hướng dẫn bạn từng bước.",
 	"faq_s1": "Bitcoin là gì?",
 	"faq_s1_c1": "Bitcoin là hai thứ: tiền kỹ thuật số và mạng máy tính.",
 	"faq_s1_c2": "Bạn có thể gửi bitcoin (tiền kỹ thuật số) trực tiếp cho người khác bằng Mạng Bitcoin.",

@@ -1,3 +1,44 @@
+## i18n cleanup Step 5 — Vietnamese (vi) — 2026-04-25
+
+Ran `/translate-manifest-refresh Vietnamese` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/tr/ur/uz/yo/zh/zu. Vietnamese (`Tiếng Việt`) is the official
+language of Vietnam, with ~85M native speakers; Austroasiatic
+language family. Latin script with extensive diacritics. **Counter:**
+51/54. 1,022 entries flagged (465 missing + 165 manifest-changed +
+392 manifest-added).
+
+**7 helper scripts under `scripts/vi-manifest-refresh/`:**
+1. `translate-part1-common-content.js` (128 entries — 404, about,
+   bank-runs, common, compound-inflation-calculator).
+2. `translate-part2-content.js` (95 entries — flyers,
+   sticker-success, stickers, buy, lightning, wallets,
+   sticker-files/index).
+3. `translate-part3-index-getinvolved-nostr.js` (140 entries —
+   index, get-involved, nostr/index).
+4. `translate-part4-comparisons.js` (120 entries — all 10
+   bitcoin-vs-* pages with shared `heroTitle()` builder).
+5. `translate-part5-business.js` (171 entries — all business/*
+   namespaces).
+6. `translate-part6-inflation.js` (366 entries — full inflation
+   namespace via 21 per-currency template functions parameterized
+   by `CURRENCIES` map with Vietnamese unit nouns đô la, real,
+   euro, bảng, shekel, rupee, yên, peso, baht).
+7. `translate-part7-finalize.js` (2 stragglers — `inflation_stat_btc_*`).
+
+**Edge cases / notes:**
+- Polite "bạn" register throughout (matches VnExpress, Tuổi Trẻ,
+  Thanh Niên crypto coverage).
+- Numerics: European convention (period-thousands, comma-decimal —
+  "1,42%" / "21.000.000") matching existing inflation_vi.json.
+- NFC-normalized diacritics throughout. JSON.stringify writes NFC
+  by default.
+- Quoted phrases like "Bitcoin Accepted Here", "Bitcoin Doesn't
+  Have Inflation" left in English (shown on stickers in original
+  art).
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Uzbek (uz) — 2026-04-25
 
 Ran `/translate-manifest-refresh Uzbek` end-to-end via the

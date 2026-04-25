@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"cic_header": "MÁY TÍNH LẠM PHÁT GỘP",
 	"cic_description": "Sử dụng Máy Tính Lạm Phát Gộp này để tìm hiểu mức lương của bạn cần tăng bao nhiêu để theo kịp lạm phát.",
-	"cic_inflation_cta": "Thoát Khỏi Lạm Phát Với Bitcoin"
+	"cic_hero_subtitle": "Xem lương của bạn cần tăng bao nhiêu để bắt kịp với lạm phát.",
+	"cic_calculator_heading": "Tính khoảng cách lạm phát của bạn",
+	"cic_cta_label": "Bước tiếp theo",
+	"cic_inflation_cta": "Thoát Khỏi Lạm Phát Với Bitcoin",
+	"cic_next_learn_inflation": "Tìm hiểu cách lạm phát vận hành",
+	"cic_next_explore_topics": "Khám phá thêm các chủ đề",
+	"cic_next_explore_topics_desc": "Xem Bitcoin kết nối với tiền tệ, tự do, năng lượng và hơn thế nào.",
+	"sources_fred_cpi_urban": "Dữ liệu Kinh tế Cục Dự trữ Liên bang (FRED) — Chỉ số Giá Tiêu dùng cho Toàn bộ Người tiêu dùng Đô thị",
+	"sources_fred_m1": "Dữ liệu Kinh tế Cục Dự trữ Liên bang (FRED) — Cung tiền M1"
 }
