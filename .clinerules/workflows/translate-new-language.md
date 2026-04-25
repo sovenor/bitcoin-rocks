@@ -25,7 +25,7 @@ English (`i18n/en/`) is the source of truth from which we translate into all oth
 
 **After creating all files, run the audit script to verify**: `node scripts/audit-translation.js [lang]` — this will flag any strings that are still identical to English and may need translation.
 
-**Important**: Use a Node.js script in `/scripts/` to create/modify JSON files with non-ASCII characters. Never use inline CLI commands or `replace_in_file` for i18n JSON files — special characters get corrupted. All i18n JSON files use **tab indentation** (`JSON.stringify(obj, null, '\t')`).
+**Important**: Use a Node.js script in `/scripts/` to create/modify JSON files with non-ASCII characters. Never use inline shell commands or `Edit` for i18n JSON files — special characters get corrupted. All i18n JSON files use **tab indentation** (`JSON.stringify(obj, null, '\t')`).
 
 **⚠️ TYPOGRAPHIC QUOTES IN JS SCRIPTS**: Some languages use typographic/curly quotation marks like `„"` (German, Estonian), `«»` (French, Russian), or `""` (English curly quotes) inside translation strings. These characters look similar to the regular ASCII `"` (U+0022) used as JS string delimiters, but are different Unicode code points. **NEVER use `sed` to replace typographic quotes** — `sed` cannot reliably distinguish between ASCII `"` and Unicode `"` (U+201C) or `„` (U+201E), and will corrupt JS files by replacing all double quotes including the string delimiters. Instead, use `\u201E` (low-9 quote „) and `\u201C` (left double quote ") **Unicode escape sequences** directly in the JS source code. For example: `"Kleebised \u201EBitcoin aktsepteeritakse siin\u201C"` instead of `"Kleebised „Bitcoin aktsepteeritakse siin""`. The JSON output will contain the proper Unicode characters when `JSON.stringify()` processes the escapes.
 
@@ -41,7 +41,7 @@ English (`i18n/en/`) is the source of truth from which we translate into all oth
 
 Run each script individually with `node scripts/[lang]/scriptname.js`. After all scripts complete, run the audit: `node scripts/audit-translation.js [lang]`.
 
-**⚠️ NEVER USE `cat` HEREDOC VIA `execute_command` TO CREATE TRANSLATION SCRIPTS.** Large `execute_command` calls containing `cat` heredocs with hundreds of lines of non-ASCII text (Hebrew, Arabic, Chinese, etc.) can hang the Cline session indefinitely, requiring the user to manually kill the task. This happened during the Hebrew (he) translation attempt — the first 3 scripts were created successfully via `write_to_file`, then switching to `cat` heredoc for the 4th script caused a hang that stalled the session for 2+ hours. **Always use `write_to_file` to create translation scripts**, even though Unicode escapes are verbose for non-Latin scripts.
+**⚠️ NEVER USE `cat` HEREDOC THROUGH `Bash` TO CREATE TRANSLATION SCRIPTS.** Large `Bash` calls containing `cat` heredocs with hundreds of lines of non-ASCII text (Hebrew, Arabic, Chinese, etc.) can hang the agent session indefinitely. This happened historically during the Hebrew (he) translation attempt — the first 3 scripts were created successfully via the file-write tool, then switching to `cat` heredoc for the 4th script caused a hang that stalled the session for 2+ hours. **Always use `Write` to create translation scripts**, even though Unicode escapes are verbose for non-Latin scripts.
 
 ### Step 2: Register the Language in the Locale Config
 - **File**: `lib/i18n/config.ts`

@@ -217,9 +217,9 @@ Translations are picked up automatically at build time — no regeneration step 
 
 ### Editing i18n JSON Files (IMPORTANT)
 - **Never use inline CLI commands** (e.g., `node -e "..."`) to modify i18n JSON files. Special characters in translations (accented characters, Cyrillic, Thai, checkmarks, etc.) get corrupted by shell escaping.
-- **Never use `replace_in_file`** on i18n JSON files with non-ASCII content — the SEARCH/REPLACE matching breaks on special characters and tab indentation.
+- **Never use `Edit` (or any in-place text replacement)** on i18n JSON files with non-ASCII content — the search/replace matching breaks on special characters and tab indentation.
 - **Best approach:** Create a standalone `.js` script file in `/scripts/` that uses `JSON.parse()` / `JSON.stringify()` with proper tab indentation (`JSON.stringify(obj, null, '\t')`) to read, modify, and write the JSON files. Then run it with `node scripts/your-script.js`. This handles all character encodings correctly.
-- **Alternative:** Use `write_to_file` to write the entire JSON file contents directly. This works but is verbose for large files.
+- **Alternative:** Use `Write` to write the entire JSON file contents directly. This works but is verbose for large files.
 - **Tab indentation:** All i18n JSON files use tab indentation (not spaces). Always preserve this when writing.
 
 ### Google Analytics Custom Events (IMPORTANT)
@@ -255,8 +255,7 @@ Translations are picked up automatically at build time — no regeneration step 
 - All data in the repo (no CMS, no database on the frontend).
 
 ## Tools Guidance
-- Use the git MCP server to query git info, not bash.
-- Shell quoting frequently breaks on translated text; prefer Node scripts for any task that touches i18n JSON.
+- Shell quoting frequently breaks on translated text; prefer Node scripts (or `Write` for whole-file rewrites) for any task that touches i18n JSON. Never `sed` / `awk` / heredoc through non-ASCII content.
 
 ## Success Indicators
 - High engagement with educational content.

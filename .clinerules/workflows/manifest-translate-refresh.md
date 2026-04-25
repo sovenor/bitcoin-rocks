@@ -234,10 +234,10 @@ entries matching its category, and writes back.
 
 ### ⚠️ SCRIPT SIZE + SPECIAL-CHARACTER RULES
 
-- **Always use `write_to_file`** for translation scripts. Never
-  `cat` heredoc via `execute_command` on non-ASCII content — it can
-  hang the session.
-- **Never use inline CLI commands or `replace_in_file`** on i18n JSON
+- **Always use `Write`** for translation scripts. Never
+  `cat` heredoc through `Bash` on non-ASCII content — shell quoting
+  corrupts typographic quotes, RTL marks, and other Unicode.
+- **Never use inline shell commands or `Edit`** on i18n JSON
   files with non-ASCII content. Always go through Node + `JSON.parse` /
   `JSON.stringify(obj, null, "\t")`.
 - **Typographic quotes:** `„` (U+201E), `"` (U+201C), `«» ""` look
@@ -251,7 +251,7 @@ entries matching its category, and writes back.
 ### Manual-translation alternative
 
 For small reports (<100 entries total), editing
-`scripts/i18n-audit/reports/<code>.json` directly via `write_to_file`
+`scripts/i18n-audit/reports/<code>.json` directly via `Write`
 is often faster. The report is a standard JSON file; just fill in
 the `targetTranslation` fields in place.
 
