@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"how_to_accept_bitcoin_payments": "비트코인 결제 수납 방법",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "셀프 호스팅 = 수수료 0%",
 	"wallets_feature_online_store": "온라인 스토어 연동",
 	"wallets_feature_invoicing": "무료 송장 소프트웨어",
-	"wallets_get_wallet": "지갑 받기"
+	"wallets_get_wallet": "지갑 받기",
+	"wallets_hero_subtitle": "비트코인 지갑은 무료입니다. 비즈니스에 맞는 것을 선택하고 — 대면, 온라인 또는 청구서 기반 — 몇 분 안에 비트코인 받기를 시작하세요.",
+	"wallets_section_sole": "개인 운영 비즈니스용 지갑",
+	"wallets_section_sole_intro": "매장, 카페, 스튜디오, 서비스를 직접 운영한다면 이 지갑들 중 어느 것이나 잘 작동합니다. 결제를 비트코인으로 보유하고 싶은지, 아니면 각 결제의 일부를 자동으로 현지 통화로 변환하고 싶은지에 따라 선택하세요.",
+	"wallets_section_multiple": "여러 직원이 있는 비즈니스용 지갑",
+	"wallets_section_multiple_intro": "카운터에서 결제를 받는 팀이 있다면, 여러 직원 로그인을 지원하는 지갑을 선택하세요 — 그러면 모든 직원이 자기 PIN을 가지고, 누가 어떤 결제를 받았는지에 대한 깔끔한 감사 추적을 유지할 수 있습니다.",
+	"wallets_section_online": "온라인 비즈니스용 지갑",
+	"wallets_section_online_intro": "웹사이트에서 판매하시나요? 이 지갑들은 온라인 스토어에 연결되어 전 세계 어디서든 고객으로부터 비트코인을 받을 수 있게 해줍니다 — 차지백 없음, 가맹점 계정 불필요.",
+	"wallets_section_invoice": "청구서 기반 비즈니스용 지갑",
+	"wallets_section_invoice_intro": "고객에게 청구서를 발행한다면 (컨설팅, 프리랜서, B2B 서비스), 청구서 발행을 중심으로 만들어진 지갑을 사용하세요. 고객은 몇 번의 클릭으로 비트코인 청구서를 결제할 수 있습니다.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business를 사용하면 수수료 0원, 즉시 결제로 비트코인 및 Lightning 결제를 받을 수 있습니다. 대면, 온라인, 청구서 기반 결제를 지원하며, 현지 통화로의 선택적 자동 변환도 가능합니다.",
+	"sources_square": "Square — 비트코인 결제 받기",
+	"sources_breez_business": "Breez — 비트코인 전용 Lightning 지갑",
+	"sources_opennode": "OpenNode — 비트코인 결제 처리",
+	"sources_ibex": "IBEX — Lightning 결제 인프라",
+	"sources_zaprite": "Zaprite — 비즈니스용 비트코인 청구서 발행",
+	"biz_wallets_meta_description": "모든 비트코인 지갑은 상호 운용 가능합니다 — 비즈니스에 맞는 것을 선택하세요. 무료, 즉시 결제, 차지백 없음."
 }

@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"cic_header": "복리 인플레이션 계산기",
 	"cic_description": "이 복리 인플레이션 계산기를 사용하여 인플레이션에 맞추기 위해 급여가 얼마나 올라야 하는지 확인하세요.",
-	"cic_inflation_cta": "비트코인으로 인플레이션에서 벗어나기"
+	"cic_hero_subtitle": "인플레이션을 따라잡으려면 급여가 얼마나 올라야 하는지 확인하세요.",
+	"cic_calculator_heading": "인플레이션 격차 계산하기",
+	"cic_cta_label": "다음 단계",
+	"cic_inflation_cta": "비트코인으로 인플레이션에서 벗어나기",
+	"cic_next_learn_inflation": "인플레이션 작동 방식 알아보기",
+	"cic_next_explore_topics": "다른 주제 둘러보기",
+	"cic_next_explore_topics_desc": "비트코인이 화폐, 자유, 에너지 등과 어떻게 연결되는지 확인하세요.",
+	"sources_fred_cpi_urban": "미국 연방준비경제데이터(FRED) — 모든 도시 소비자 대상 소비자물가지수",
+	"sources_fred_m1": "미국 연방준비경제데이터(FRED) — M1 통화공급량"
 }

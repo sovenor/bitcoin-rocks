@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"sticker_success_1": "2~4주 이내에 스티커를 배송해 드립니다. 그동안 스티커를 붙일 좋은 장소를 생각해 보세요!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "쉽게 떼어지지 않는 곳 (스티커는 영구적 손상을 주지 않습니다)",
 	"sticker_success_list_3": "붙이기 쉬운 표면 (금속, 플라스틱, 유리)",
 	"sticker_success_list_4": "사유지, 표지판 위, ATM, 주유기에는 붙이지 마세요",
-	"sticker_success_3": "다른 사람들이 스티커를 어디에 붙이는지 보고 싶으신가요?"
+	"sticker_success_3": "다른 사람들이 스티커를 어디에 붙이는지 보고 싶으신가요?",
+	"sticker_success_hero_title": "스티커가 발송되었습니다 🎉",
+	"sticker_success_tips_header": "스티커를 붙이기 좋은 곳",
+	"sticker_success_share_header": "스티커를 붙인 곳을 공유하세요",
+	"sticker_success_bulk_header": "스티커가 더 필요하신가요?",
+	"sticker_success_btn_order_bulk": "대량 주문하기",
+	"sticker_success_btn_share_on_nostr": "Nostr에서 공유",
+	"sticker_success_btn_what_is_nostr": "Nostr란 무엇인가?"
 }

@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
-	}
+	},
+	"biz_sticker_success_hero_title": "스티커가 발송되었습니다 🎉",
+	"biz_sticker_success_hero_subtitle": "무료 “비트코인으로 결제하세요” 스티커는 스티커 3장이 든 평범한 흰 봉투로 2~4주 안에 도착합니다.",
+	"biz_sticker_success_tips_header": "스티커를 붙이기 좋은 곳",
+	"biz_sticker_success_tip_1": "고객이 입장하기 전에 볼 수 있도록 정문이나 창문에",
+	"biz_sticker_success_tip_2": "카운터, POS 단말기 또는 결제 영역 근처에",
+	"biz_sticker_success_tip_3": "메뉴, 가격표 또는 팁 항아리에",
+	"biz_sticker_success_tip_4": "소유하지 않거나 붙일 허가가 없는 곳에는 붙이지 마세요",
+	"biz_sticker_success_more_header": "스티커가 더 필요하신가요?",
+	"biz_sticker_success_more_c1": "스티커 3장이 비즈니스에 부족하다면, 무료 팩을 추가로 요청하거나 우리가 사용하는 같은 인쇄소에서 대량 주문할 수 있습니다.",
+	"biz_sticker_success_btn_order_bulk": "대량 주문하기",
+	"biz_sticker_success_btn_request_more": "무료 팩 추가 요청하기"
 }

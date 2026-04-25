@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "비트코인 가맹점 지도 - 무료로 비즈니스 등록",
-	"maps_view": "여기서 지도를 확인하세요."
+	"maps_view": "여기서 지도를 확인하세요.",
+	"biz_maps_hero_title": "비즈니스를 비트코인 가맹점 지도에 올리기",
+	"biz_maps_hero_subtitle": "BTC Map — 비트코인을 받는 가맹점의 개방형 전 세계 디렉터리 — 에 비즈니스를 무료로 등록하여 가까운 비트코인 사용자들이 당신을 찾고 비즈니스에서 비트코인을 사용할 수 있게 하세요.",
+	"biz_maps_intro_c1": "비트코인 사용자들은 적극적으로 사용할 곳을 찾고 있습니다. 비즈니스를 지도에 올리면, 가까운 곳에서 식사, 쇼핑, 숙박할 곳을 찾는 모든 비트코인 사용자의 눈앞에 노출됩니다 — 완전 무료로.",
+	"biz_maps_intro_c2": "아래의 짧은 양식을 작성해 주시면 비즈니스를 BTC Map과 다른 비트코인 가맹점 지도에 제출해 드립니다.",
+	"biz_maps_view_map_cta": "BTC Map 보기",
+	"biz_maps_form_header": "비즈니스에 대해 알려주세요",
+	"biz_maps_form_intro": "등록에 필요한 정보는 몇 가지뿐입니다. 주소 데이터는 비즈니스를 지도에 제출하는 데 필요한 기간만큼만 보관됩니다.",
+	"biz_maps_placeholder_name": "비즈니스 이름",
+	"biz_maps_placeholder_category": "카테고리 (예: 레스토랑, 카페, 호텔)",
+	"biz_maps_placeholder_address": "도로명 주소",
+	"biz_maps_placeholder_city": "도시",
+	"biz_maps_placeholder_region": "주 / 도 / 지역",
+	"biz_maps_placeholder_country": "국가",
+	"biz_maps_placeholder_website": "웹사이트 (선택)",
+	"biz_maps_meta_description": "BTC Map과 다른 비트코인 가맹점 지도에 비즈니스를 무료로 등록하여 가까운 비트코인 사용자들이 찾을 수 있게 하세요."
 }

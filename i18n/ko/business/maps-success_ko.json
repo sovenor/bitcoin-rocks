@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
-	}
+	},
+	"biz_maps_success_hero_title": "요청을 받았습니다 🎉",
+	"biz_maps_success_hero_subtitle": "비즈니스를 제출해 주셔서 감사합니다. 곧 비트코인 가맹점 지도에 등록해 드리겠습니다.",
+	"biz_maps_success_timeline_header": "다음에 일어날 일",
+	"biz_maps_success_timeline_c1": "당신의 비즈니스는 1~2주 안에 BTC Map 및 다른 비트코인 가맹점 디렉터리에 등록됩니다. 지도를 정확하게 유지하기 위해 모든 제출을 수동으로 검토합니다.",
+	"biz_maps_success_timeline_c2": "등록이 공개되면 가까운 비트코인 사용자들이 비즈니스를 찾아서 그곳에서 비트코인을 사용할 수 있게 됩니다.",
+	"biz_maps_success_view_header": "당신이 표시될 곳 보기",
+	"biz_maps_success_view_c1": "기다리는 동안 BTC Map을 방문해 전 세계에서 성장하는 비트코인 수용 비즈니스 네트워크를 확인해 보세요.",
+	"biz_maps_success_btn_view_map": "BTC Map 보기"
 }
