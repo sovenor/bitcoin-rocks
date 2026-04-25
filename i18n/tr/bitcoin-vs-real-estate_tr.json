@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin ve Gayrimenkul",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Yok edilmesi zor",
 	"bitcoin_point_7": "Tamamen takas edilebilir",
 	"bitcoin_point_8": "7/24 küresel piyasa",
-	"point_1_summary_1": "Bitcoin internet üzerinden anında dünyanın herhangi bir yerine taşınabilir. Gayrimenkul belirli bir konuma kalıcı olarak sabitlenmiştir ve taşınamaz, bu da onu yerel ekonomik koşullara, doğal afetlere ve siyasi istikrarsızlığa karşı savunmasız kılar.",
-	"point_2_summary_1": "Bitcoin, satoshi adı verilen 100 milyon küçük birime bölünebilir, bu da onu her boyutta işlem için ideal kılar. Gayrimenkul kolayca bölünemez — evinizin sadece mutfağını satamaz veya bir yatak odasının yarısını satın alamazsınız.",
-	"point_3_summary_1": "Bitcoin hiçbir hükümetin kontrol edemediği merkeziyetsiz bir ağda çalışır. Gayrimenkul, kira düzenlemesi, tahliye moratoryumları, imar yasaları ve kamulaştırma dahil kapsamlı devlet düzenlemesine tabidir.",
-	"point_4_summary_1": "Bitcoin bakım gerektirmez — ağ üzerinde dijital kod olarak var olur. Gayrimenkul; onarımlar, tadilatlar, mülk yönetimi, sigorta ve kiracılarla uğraşma dahil sürekli ilgi gerektirir.",
-	"point_5_summary_1": "Bitcoin'in süregelen bir vergisi yoktur — yalnızca sattığınızda sermaye kazancı vergisi ödersiniz. Gayrimenkul, mülkün gelir getirip getirmediğine bakılmaksızın ödenmesi gereken yıllık emlak vergisine tabidir.",
-	"point_6_summary_1": "Bitcoin, doğru şekilde yedeklendiyse, sel, yangın, deprem, kasırga veya diğer doğal afetlerle yok edilemez. Gayrimenkul fiziksel yıkımın her biçimine karşı savunmasızdır.",
-	"point_7_summary_1": "Her bitcoin eşit ve birbirleriyle değiştirilebilirdir — dünyanın neresinde olursa olsun bir bitcoin bir bitcoine eşittir. Her gayrimenkul, farklı konumlar, durumlar ve özelliklerle benzersizdir, bu da değerleme ve karşılaştırmayı zorlaştırır.",
-	"point_8_summary_1": "Bitcoin, internet erişimi olan herkes tarafından dünyanın herhangi bir yerinden 7/24 alınıp satılabilir. Gayrimenkul satışı yerel alıcılarla sınırlıdır, avukatlar ve acentelerle uzun süreçler gerektirir ve aylar sürebilir.",
+	"point_1_summary_1": "Bitcoin dünyanın her yerine anında hareket edebilir. Gayrimenkul tek bir konuma bağlıdır ve yerel ekonomik, siyasi ve doğal risklere maruzdur.",
+	"point_2_summary_1": "Bitcoin 100 milyon sat'a bölünür. Gayrimenkulü kısmen satamazsın — sadece mutfağı elden çıkaramazsın ya da yatak odasının yarısını alamazsın.",
+	"point_3_summary_1": "Bitcoin, hiçbir hükümetin kontrol edemediği merkeziyetsiz bir ağda çalışır. Gayrimenkul ağır biçimde düzenlenir — imar, kira kontrolü, kamulaştırma ve müsadere geçerlidir.",
+	"point_4_summary_1": "Bitcoin'in bakımı gerekmez. Gayrimenkul onarım, tadilat, sigorta, mülk yönetimi ve kiracı sorunları ister.",
+	"point_5_summary_1": "Bitcoin'in sürekli vergileri yoktur — yalnızca sattığında sermaye kazancı vergisi ödersin. Gayrimenkul, gelirden bağımsız olarak yıllık emlak vergisi borçludur.",
+	"point_6_summary_1": "Doğru yedeklenmiş Bitcoin, yangın, sel ve depremden sağ çıkar. Gayrimenkul her felakete karşı savunmasızdır ve sigorta nadiren her şeyi karşılar.",
+	"point_7_summary_1": "Her bitcoin birbirinin aynısı ve değiştirilebilirdir. Her mülk benzersizdir; bu da fiyatlamayı ve karşılaştırmayı zorlaştırır.",
+	"point_8_summary_1": "Bitcoin küresel olarak 7/24, internet erişimi olan herkesçe işlem görür. Gayrimenkul satışları yerel alıcılarla sınırlıdır ve kapanışı aylarca süren evrak işleri gerektirebilir.",
 	"bitcoin_point_9": "Bireysel mülkiyeti destekler",
 	"real_estate_point_9": "Konutun finansallaşmasına katkıda bulunur",
-	"point_9_summary_1": "Bitcoin, aracılar olmadan doğrudan bireysel mülkiyeti mümkün kılar ve herkes için finansal egemenliği destekler. Birincil konutunuzun ötesinde yatırım olarak gayrimenkul satın almak, evlerin barınak yerine emtia haline geldiği konutun finansallaşmasına katkıda bulunur. Bu, fiyatları yükseltir, aileler için satın alınabilirliği azaltır ve konut krizine ve evsizliğe katkıda bulunur."
+	"point_9_summary_1": "Bitcoin, herkes için doğrudan bireysel mülkiyeti mümkün kılar. Birinci konutun ötesinde bir gayrimenkulü yatırım amacıyla almak konut fiyatlarını yukarı iter, satın alınabilirliği azaltır ve konut krizini körükler.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Gayrimenkul</span> arasındaki fark"
 }

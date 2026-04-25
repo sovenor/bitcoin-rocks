@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"cic_header": "BİLEŞİK ENFLASYON HESAPLAYICISI",
 	"cic_description": "Bu bileşik enflasyon hesaplayıcısıyla maaşınızın enflasyona ayak uydurmak için ne kadar artması gerektiğini öğrenin.",
-	"cic_inflation_cta": "Bitcoin yardımıyla enflasyondan kurtulun"
+	"cic_hero_subtitle": "Enflasyona ayak uydurmak için maaşının ne kadar artması gerektiğini gör.",
+	"cic_calculator_heading": "Enflasyon açığını hesapla",
+	"cic_cta_label": "Sıradaki adım",
+	"cic_inflation_cta": "Bitcoin yardımıyla enflasyondan kurtulun",
+	"cic_next_learn_inflation": "Enflasyonun nasıl işlediğini öğren",
+	"cic_next_explore_topics": "Daha fazla konuyu keşfet",
+	"cic_next_explore_topics_desc": "Bitcoin'in para, özgürlük, enerji ve daha fazlasıyla nasıl bağlantılı olduğunu gör.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Tüm Şehirli Tüketiciler için Tüketici Fiyat Endeksi",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Para Arzı"
 }

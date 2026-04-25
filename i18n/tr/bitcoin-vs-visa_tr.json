@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_visa": "Bitcoin ve Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Borç yaratmaz",
 	"bitcoin_point_6": "Kendi gözetim imkanı",
 	"bitcoin_point_7": "7/24 küresel erişim",
-	"point_1_summary_1": "Bitcoin, herkesin izinsiz katılıp kullanabileceği açık bir ağdır. Visa gibi kredi kartı ağları, finans kurumlarının herkese erişimi reddedebileceği kapalı sistemlerdir.",
+	"point_1_summary_1": "Bitcoin, herkesin izinsiz katılıp kullanabileceği açık bir ağdır. Visa ise erişimi reddedebilen finansal kurumların kontrolündeki kapalı bir sistemdir — özellikle bankasız ve yetersiz bankacılık hizmeti alanlar için.",
 	"point_1_summary_2": "Bu, Bitcoin'i özellikle bankacılık hizmetlerinden yoksun olanlar başta olmak üzere dünya genelindeki insanlar için daha kapsayıcı ve erişilebilir kılar.",
-	"point_2_summary_1": "Bitcoin işlemlerinde tüccar ücreti yoktur, ancak kredi kartı şirketleri genellikle tüccarlardan işlem başına yaklaşık %3 ücret alır.",
-	"point_2_summary_2": "İşletmenizin nasıl tasarruf edebileceğini öğrenin",
-	"point_2_summary_3": "kredi kartı işlem ücretleri yerine Bitcoin ödemelerini kabul ederek.",
-	"point_3_summary_1": "Bitcoin, herkesin tüm işlemleri doğrulayabileceği şeffaf bir blokzincirde çalışır. Kredi kartı ağları, işlem detaylarının kamuoyundan gizlendiği kapalı, tescilli sistemler olarak çalışır.",
+	"point_2_summary_1": "Bitcoin işlemlerinde işyeri ücreti yoktur. Visa ise işyerlerinden işlem başına genellikle %3 civarında ücret alır — işin",
+	"point_2_summary_2": "Bitcoin ödemeleri",
+	"point_2_summary_3": "kabul ederek tasarruf edebilir.",
+	"point_3_summary_1": "Her Bitcoin işlemi, kamuya açık ve denetlenebilir bir blokzincir üzerindedir. Visa, müşterilerin hiçbir şeyi bağımsız olarak doğrulayamadığı kapalı, tescilli bir sistem işletir.",
 	"point_3_summary_2": "Bu şeffaflık, Bitcoin'i daha güvenilir kılar ve ağ bütünlüğünün bağımsız doğrulanmasını sağlar.",
-	"point_4_summary_1": "Kredi kartı şirketleri istediği zaman hesapları dondurabilir, işlemleri engelleyebilir veya hizmeti reddedebilir. Bitcoin hiçbir merkezi otorite tarafından dondurulamaz veya kontrol edilemez.",
+	"point_4_summary_1": "Bitcoin, hiçbir merkezi otorite tarafından dondurulamaz. Visa istediği zaman hesapları dondurabilir, işlemleri engelleyebilir ya da hizmeti reddedebilir.",
 	"point_4_summary_2": "Bitcoin ile paranızın kontrolünü elinizde tutarsınız ve ödeme sisteminden kesilemezsiniz.",
-	"point_5_summary_1": "Kredi kartları, bazen yılda %25'i aşan yüksek faiz oranlarıyla hızla birikebilen borç yaratır.",
+	"point_5_summary_1": "Bitcoin nihai uzlaşmalıdır — yalnızca sahip olduğun parayı harcayabilirsin. Kredi kartları, çoğunlukla yıllık %25'in üzerinde faiz oranlarıyla borç oluşturur.",
 	"point_5_summary_2": "Bitcoin işlemleri borç yaratmadan nihai ödeme niteliğindedir — yalnızca gerçekte sahip olduğunuz Bitcoin'i harcayabilirsiniz.",
-	"point_6_summary_1": "Bitcoin, bankalara veya ödeme işlemcilerine bağımlı olmadan paranızı tutup kontrol edebileceğiniz kendi gözetimi mümkün kılar.",
-	"point_6_summary_2": "Bitcoin cüzdanları hakkında daha fazla bilgi edinin",
-	"point_6_summary_3": "ve paranızın kontrolünü nasıl ele alacağınızı anlayın. Kredi kartları her zaman bankalar ve ödeme işlemcileri gibi aracılar gerektirir.",
-	"point_7_summary_1": "Bitcoin işlem saatleri veya coğrafi kısıtlamalar olmadan 7/24 küresel olarak çalışır.",
-	"point_7_summary_2": "Kredi kartı ağlarının işlem saatleri, bakım dönemleri ve işlem gerçekleştirmeyi engelleyebilecek coğrafi kısıtlamaları vardır."
+	"point_6_summary_1": "Bitcoin sana, banka ya da ödeme işlemcisine gerek olmadan",
+	"point_6_summary_2": "öz saklamayı",
+	"point_6_summary_3": "sağlar. Kredi kartları her zaman aracılar gerektirir.",
+	"point_7_summary_1": "Bitcoin küresel olarak 7/24 çalışır, çalışma saati yoktur. Visa'nın çalışma saatleri, bakım pencereleri ve işlemleri engelleyebilen coğrafi kısıtlamaları vardır.",
+	"point_7_summary_2": "Kredi kartı ağlarının işlem saatleri, bakım dönemleri ve işlem gerçekleştirmeyi engelleyebilecek coğrafi kısıtlamaları vardır.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Visa</span> arasındaki fark"
 }

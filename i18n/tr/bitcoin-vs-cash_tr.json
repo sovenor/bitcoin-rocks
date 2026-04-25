@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_cash": "Bitcoin ve Nakit",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Merkeziyetsiz ağ",
 	"bitcoin_point_6": "Dijital kendi gözetim",
 	"bitcoin_point_7": "Kolayca bölünebilir",
-	"point_1_summary_1": "Bitcoin internet üzerinden dünyanın herhangi bir yerine anında gönderilebilirken, nakit fiziksel varlık veya güvenilir aracılar gerektirir. E-posta ile nakit gönderemezsiniz, ancak internet bağlantısı olan herkese dakikalar içinde Bitcoin gönderebilirsiniz.",
-	"point_2_summary_1": "Bitcoin dünyanın her yerinde aynı şekilde çalışır — Bitcoin ağında sınır yoktur. Nakit, coğrafya, döviz kurları ve yerel kabul ile kısıtlıdır. Tayland kırsalında ABD doları veya Meksika kırsalında Japon yeni kullanmayı deneyin.",
-	"point_3_summary_1": "Hükümetler, 2016'da Hindistan'ın belirli banknotları yasakladığındaki gibi demonetizasyon politikalarıyla nakiti bir gecede geçersiz kılabilir ve kılmıştır.",
-	"point_3_summary_2": "Belirli banknotları yasaklamasalar bile, hükümetler sürekli olarak enflasyon yoluyla nakitin değerini düşürür.",
-	"point_3_summary_3": "Bitcoin hiçbir hükümet veya otorite tarafından geçersiz kılınamaz — hiçbir varlığın kontrol etmediği küresel, merkeziyetsiz bir ağda var olur.",
-	"point_4_summary_1": "Nakit sahte yapılabilir ve özel ekipman olmadan sahte banknotları tespit etmek genellikle zordur. Güvenlik özellikleriyle bile, sahte para hâlâ dolaşımdadır. Bitcoin, sahte yapmayı matematiksel olarak imkansız kılan kriptografik kanıt kullanır.",
-	"point_5_summary_1": "Nakit, istediği kadar basabilen, tasarımını değiştirebilen veya belirli banknotları geçersiz ilan edebilen hükümet tarafından çıkarılır ve kontrol edilir. Bitcoin, hiçbir tek otoritenin para arzı veya kurallar üzerinde kontrole sahip olmadığı merkeziyetsiz bir ağda çalışır.",
-	"point_6_summary_1": "Nakit fiziksel olarak saklanmalıdır, bu da onu hırsızlık, kayıp, yangın veya el koymaya karşı savunmasız kılar. Büyük miktarlar pahalı güvenlik önlemleri gerektirir.",
-	"point_6_summary_2": "Ancak Bitcoin kendi gözetimde güvenle saklanabilir",
-	"point_6_summary_3": "akıllı telefondaki bir uygulama veya özel bir cüzdan ile, fiziksel saklama riskleri olmadan paranız üzerinde tam kontrol sağlar.",
-	"point_7_summary_1": "Nakitin minimum birimleri vardır — bir senti daha küçük parçalara bölemezsiniz. Bitcoin, satoshi adı verilen 100 milyon küçük birime bölünebilir, bu da mikro ödemeleri ve herhangi bir miktardaki hassas işlemleri mümkün kılar."
+	"point_1_summary_1": "Bitcoin internet üzerinden dünyanın her yerine dakikalar içinde gönderilir. Nakit ise fiziksel varlık ya da güvenilir kuryeler ister — 20 dolarlık banknotu e-postayla gönderemezsin.",
+	"point_2_summary_1": "Bitcoin her yerde aynı şekilde çalışır. Nakit ise coğrafyaya, döviz kurlarına ve yerel kabule bağlıdır.",
+	"point_3_summary_1": "Hükümetler nakdi bir gecede geçersiz kılabilir — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Hindistan</a> bunu 2016'da yaptı. Demonetizasyon olmasa bile nakit",
+	"point_3_summary_2": "enflasyon",
+	"point_3_summary_3": "yüzünden değer kaybeder. Bitcoin hiçbir hükümet ya da otorite tarafından geçersiz kılınamaz.",
+	"point_4_summary_1": "Nakit, bazen çok inandırıcı biçimde sahtecilik yapılarak çoğaltılabilir. Bitcoin, sahteciliği matematiksel olarak imkânsız kılan kriptografi kullanır.",
+	"point_5_summary_1": "Bitcoin'in merkezi bir otoritesi yoktur. Nakit, daha çoğunu basabilen, tasarımları değiştirebilen ya da banknotları istediği zaman geçersiz kılabilen hükümetler tarafından çıkarılır.",
+	"point_6_summary_1": "Nakit hırsızlık, yangın, kayıp ve müsadereye karşı savunmasızdır. Bitcoin ise telefon ya da donanım cihazında",
+	"point_6_summary_2": "öz saklamada",
+	"point_6_summary_3": "güvenle tutulabilir.",
+	"point_7_summary_1": "Bitcoin 100 milyon sat'a bölünür ve her büyüklükte mikro ödemeyi mümkün kılar. Nakdin asgari kupürleri vardır — bir kuruşu bölemezsin.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Nakit</span> arasındaki fark"
 }

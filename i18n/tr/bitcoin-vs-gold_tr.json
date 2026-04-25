@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_gold": "Bitcoin ve Altın",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Merkeziyetsiz",
 	"bitcoin_point_6": "Doğrulaması kolay",
 	"bitcoin_point_7": "Bölünmesi kolay",
-	"point_1_summary_1": "Bitcoin dijital olduğu için, internet bağlantısı olan herkes onu neredeyse anında çok düşük ücretlerle gönderebilir. Altın fiziksel olduğu için internet üzerinden transfer edilemez ve mülkiyet devri için fiziksel olarak gönderilmelidir.",
-	"point_2_summary_1": "Bitcoin dijital olarak yerel bir varlıktır, yani tam mülkiyeti internet üzerinden transfer edebilirsiniz. Bazı şirketler, fiziksel altını fiilen almadan çevrimiçi altın satın alma imkanı sunar; bunun yerine şirketin altını sizin için saklamasına güvenirsiniz. Bu, gerçek varlık yerine yalnızca şirketin vaadine sahip olduğunuz için dijital bir borç senedine daha çok benzer.",
-	"point_3_summary_1": "Bitcoin'in şimdiye kadar var olacak en fazla 21 milyon BTC'lik sabit bir üst sınırı vardır.",
-	"point_3_summary_2": "Her yıl yeni altın arzı yerden çıkarılır ve toplam arza enflasyon yaratır. Toplam altın arzının yılda yaklaşık %1,6 oranında arttığı tahmin edilmektedir, bu da pastadaki payınızın her yıl %1,6 küçüldüğü anlamına gelir.",
-	"point_3_summary_3": "Bu, itibari para enflasyonundan daha az olsa da, yine de enflasyondur.",
-	"point_4_summary_1": "Altının esnek arzı vardır, yani altın fiyatı yükseldikçe daha fazla altın madenciliği için daha büyük motivasyon oluşur. Bu, yeni madenler açıldığında genellikle altın fiyatı üzerinde aşağı yönlü baskı yaratır.",
+	"point_1_summary_1": "Bitcoin internet üzerinden anında ve düşük ücretlerle gönderilebilir. Altının mülkiyetini devretmek için fiziksel olarak nakledilmesi gerekir.",
+	"point_2_summary_1": "Bitcoin internet üzerinden transfer edebileceğin, dijital olarak doğal bir varlıktır. Çevrimiçi altın ise dijital bir IOU'dur — sadece bir saklayıcının söz verdiği bir vaade sahipsin, metalin kendisine değil.",
+	"point_3_summary_1": "Bitcoin'in 21 milyon BTC'lik kesin bir tavanı vardır. Altının arzı ise yılda yaklaşık <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">%1,6</a> büyür ve dilimini küçültür — fiat",
+	"point_3_summary_2": "enflasyonundan",
+	"point_3_summary_3": "az ama yine de enflasyondur.",
+	"point_4_summary_1": "Altın fiyatları yükseldiğinde daha çok altın çıkarılır ve fiyatı tekrar aşağı iter. Bitcoin'in arzı esnek değildir — fiyat ne kadar yükselirse yükselsin, sonsuza dek yalnızca 21 milyon olacak.",
 	"point_4_summary_2": "Bitcoin ile fiyat ne kadar yükselirse yükselsin, 21M Bitcoin'den fazlasını oluşturamazsınız.",
 	"point_4_summary_3": "Bitcoin, esnek olmayan fiyat-arz oranına sahip ilk varlıktır.",
-	"point_5_summary_1": "Bitcoin ağı merkeziyetsizdir.",
+	"point_5_summary_1": "Bitcoin ağını on binlerce bağımsız düğüm doğrular. Çoğu fiziksel altın, bir avuç büyük saklayıcı kasada durur.",
 	"point_5_summary_2": "On binlerce bağımsız düğüm ağ kurallarını doğrular.",
-	"point_6_summary_1": "Bitcoin ile coinlerinizi kendi gözetiminize alarak ve tam düğüm çalıştırarak gerçek Bitcoin'e sahip olduğunuzu doğrulamak inanılmaz derecede kolaydır.",
+	"point_6_summary_1": "Herkes tam düğüm çalıştırarak gerçek Bitcoin'i doğrulayabilir — bu yalnızca bir uygulamadır. Fiziksel altını doğrulamak için onu eritmek gerekir; içi tungsten olabilir.",
 	"point_6_summary_2": "Kendi gözetim, bir uygulama indirmek kadar kolaydır.",
 	"point_6_summary_3": "Tam düğüm, ağ kurallarına uyulmasını sağlayan ve gerçek Bitcoin'e sahip olduğunuzu doğrulayan basit bir yazılımdır.",
-	"point_7_summary_1": "1 dolarda 100 sent olduğu gibi, 1 Bitcoin'de 100.000.000 satoshi vardır. Bu, Bitcoin'in birkaç sent değerindeki mikro işlemler dahil her boyutta alışveriş için kullanılmasını sağlar.",
-	"point_7_summary_2": "Bu, Bitcoin'i işletmeler için iyi bir araç yapar."
+	"point_7_summary_1": "Bitcoin 100 milyon sat'a bölünür; bu da onu her büyüklükteki alışveriş için mükemmel kılar. Altın küçük işlemler için kolayca bölünemez.",
+	"point_7_summary_2": "Bu, Bitcoin'i işletmeler için iyi bir araç yapar.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Altın</span> arasındaki fark"
 }

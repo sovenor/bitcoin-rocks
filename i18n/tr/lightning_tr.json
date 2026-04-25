@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning cüzdan rehberi",
 	"lightning_description": "Lightning cüzdanları, kişisel egemenliğinizi korurken Bitcoin'i hızlı ve ucuz göndermenizi sağlar.",
 	"lightning_header": "LIGHTNING CÜZDAN REHBERİ",
+	"lightning_header_subtitle": "Lightning, Bitcoin'i saniyeler içinde, bir kuruşun çok altındaki ücretlerle göndermeni sağlar — harcamayı planladığın Bitcoin miktarına uygun ödünleşimleri olan cüzdanı seç.",
 	"lightning_s1_c1": "Lightning, Bitcoin ödemelerini hızlı ve ucuz göndermenizi sağlar.",
 	"lightning_s1_c2": "Lightning kullanmanın ödünleşimler getirdiğini bilmek önemlidir. Daha hızlı ve daha ucuz Bitcoin ödemeleri karşılığında genellikle biraz güvenlikten ödün verirsiniz.",
 	"lightning_s1_c3": "Genel olarak, Lightning yalnızca küçük miktardaki bitcoin ile kullanılmalıdır. Büyük miktardaki bitcoin her zaman bir donanım cüzdanında saklanmalıdır.",
-	"lightning_s1_c4": "Daha fazla bilgi için donanım cüzdan rehberimize göz atın.",
+	"lightning_s1_c4": "Şuna göz at:",
+	"lightning_s1_c4_link": "Bitcoin Donanım Cüzdanı Rehberi",
+	"lightning_s1_c4_end": "daha fazla bilgi için.",
 	"lightning_s1_c5": "Tüm Lightning cüzdanları eşit değildir. Hangi cüzdanın sizin için doğru ödünleşim dengesine sahip olduğunu basit bir soruyu cevaplayarak öğrenin:",
 	"lightning_question_1": "BENİM İÇİN DOĞRU ÖDÜNLEŞİM DENGESİ HANGİSİ?",
 	"lightning_s2_c1": "Bitcoin'in yeniliklerinden biri, banka gibi bir saklayıcıya güvenmeden saklama yeteneğidir. Kendi gözetim cüzdanları Bitcoin'in tam gücünü açığa çıkarır.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Bu cüzdanlar, paranıza erişim için üçüncü bir tarafa güvenmeniz gereken bankacılık sistemine daha çok benzer. Bitcoin'iniz bir borsadaysa, emanet cüzdanı kullanıyorsunuzdur.",
 	"lightning_s3_c3": "Emanet cüzdanları kullanışlı görünebilir, ancak emanetçi teknik olarak tüm kullanıcı fonlarını istediği zaman çalma yeteneğine sahiptir.",
 	"lightning_s3_c4": "Bazı insanlar, kullanım kolaylığı nedeniyle küçük miktarlardaki bitcoin için emanet Lightning cüzdanlarını tercih eder. Sadece unutmayın: sizin anahtarlarınız değilse, sizin coin'leriniz değildir!",
+	"lightning_grid_heading": "Popüler Lightning cüzdanları",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "%100 ücretsiz",
 	"lightning_merchants": "Tüccarlar için harika",
 	"lightning_custodial": "Tamamen emanet cüzdan",
-	"lightning_cta_hardware": "Donanım Bitcoin cüzdan rehberimizi mi arıyorsunuz?"
+	"lightning_cta_hardware": "Donanım Bitcoin cüzdan rehberimizi mi arıyorsunuz?",
+	"lightning_hardware_cta_label": "Donanım cüzdanları",
+	"sources_lightning_paper": "Joseph Poon ve Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning cüzdanı",
+	"sources_breez_lightning": "Breez — Öz saklamalı Lightning cüzdanı",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — Saklayıcılı Lightning cüzdanı",
+	"sources_lightning_labs": "Lightning Labs — Lightning Network belgeleri"
 }

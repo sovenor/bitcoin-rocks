@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_accepted_here_stickers": "Bitcoin Burada Kabul Edilir çıkartmaları",
+	"biz_stickers_hero_title": "Ücretsiz 'Bitcoin Accepted Here' çıkartmaları",
+	"biz_stickers_hero_subtitle": "Müşterilerine Bitcoin kabul ettiğini bildir. İşletmende asmak için ücretsiz bir 'Bitcoin Accepted Here' çıkartma paketi sipariş et.",
+	"biz_stickers_intro_c1": "Bitcoin kabul etmek işin yarısı — müşterilerinin de bunu bilmesi gerekir. Bu küçük 'Bitcoin Accepted Here' çıkartmaları, ön kapına, kasana, menüne ya da müşterilerin ödeme öncesi göreceği başka her yere yapıştırılabilecek şekilde tasarlandı.",
+	"biz_stickers_intro_c2": "ABD veya Kanada'da herhangi bir adrese ücretsiz paketi göndeririz ya da dünyanın her yerinde kendin yazdırabilirsin.",
+	"biz_stickers_step_header": "Çıkartmalarını nasıl almak istersin?",
+	"biz_stickers_step_description": "ABD ve Kanada'daki adreslere ücretsiz paket göndeririz. Dünyanın başka her yerinde kendin yazdırabilirsin.",
+	"biz_stickers_option_usa": "🇺🇸 ABD — Posta ile ücretsiz",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Posta ile ücretsiz",
+	"biz_stickers_option_print": "🌍 Küresel — Kendim yazdırırım",
+	"biz_stickers_print_header": "Kendi çıkartma dosyalarını yazdır",
+	"biz_stickers_print_c1": "Nerede yaşadığın fark etmeksizin kendi 'Bitcoin Accepted Here' çıkartmalarını yazdırabilirsin. Çıkartma dosyalarını ve yazdırma talimatlarını indirmek için aşağıdaki dilini tıkla.",
+	"biz_stickers_request_header": "Dilin listede yok mu?",
+	"biz_stickers_request_c1": "'Bitcoin Accepted Here' çıkartma dosyalarını kendi yerel dilinde istemek için aşağıdaki formu doldur. Hazır olduklarında sana haber veririz.",
+	"biz_stickers_placeholder_translation1": "'Bitcoin Accepted Here' çevirisi",
+	"biz_stickers_placeholder_translation2": "'Scan to learn why Bitcoin is good for business.' çevirisi",
 	"stickers_request": "Ücretsiz çıkartmalar edinin"
 }

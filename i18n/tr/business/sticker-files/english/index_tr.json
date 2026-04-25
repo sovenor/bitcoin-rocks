@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "İngilizce 'Bitcoin Burada Kabul Edilir' Çıkartma Dosyaları",
-	"english_biz_sticker_files_description": "Kendi Bitcoin Burada Kabul Edilir çıkartmalarınızı basmak için İngilizce çıkartma dosyalarını indirin."
+	"english_biz_sticker_files_description": "Kendi 'Bitcoin Burada Kabul Edilir' çıkartmalarını yazdırmak için İngilizce çıkartma dosyalarını indir.",
+	"biz_stickers_english_hero_title": "İngilizce 'Bitcoin Accepted Here' çıkartma dosyalarını indir",
+	"biz_stickers_english_hero_subtitle": "Müşterilerine Bitcoin kabul ettiğini bildirmek için kendi İngilizce 'Bitcoin Accepted Here' çıkartmalarını yazdır."
 }

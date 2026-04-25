@@ -1,3 +1,53 @@
+## Turkish (tr) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Turkish` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+48/54 complete.** Turkish (`Türkçe`) is the official language of
+Türkiye and a co-official language of Cyprus, with ~85M native
+speakers. Turkic language family. Latin script with Turkish
+diacritics (ç ğ ı ö ş ü İ).
+
+**Report stats:**
+- 464 missing locale-specific (drift across home card labels,
+  business/* sub-pages, nostr/index)
+- 0 untranslated
+- 165 manifest-changed + 392 manifest-added → **1,021 total**
+
+**5 helper scripts under `scripts/tr-manifest-refresh/`:**
+
+- `translate-inflation.js` — 368 entries. Per-currency templated
+  translator × 13 currencies with Turkish currency naming (dolar,
+  euro, sterlin, yen, peso, real, rupi, baht, şekel) rather than a
+  generic catch-all, informal "sen" register throughout — the
+  standard register for Turkish crypto press educational copy
+  (BTCTürk, Coinkolik, Kripto Para Haber). Plus 41 non-currency
+  keys.
+- `translate-comparisons.js` — 120 entries. All 10 bitcoin-vs-*
+  pages: gold, banks, bonds, cash, cbdc, crypto, fine-art,
+  real-estate, stocks, visa.
+- `translate-content.js` — 161 entries. about, bank-runs, buy,
+  compound-inflation-calculator, flyers, get-involved, lightning,
+  wallets, 404.
+- `translate-business.js` — 170 entries. All 11 business/*
+  namespaces.
+- `translate-rest.js` — 202 entries. common, index, nostr/index,
+  stickers, sticker-files/index, sticker-language-success,
+  sticker-success.
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **Vowel harmony respected** (a/ı, e/i, o/u, ö/ü) — mistakes here
+  are immediately visible to native readers.
+- **Numerics in Turkish convention:** comma-decimal +
+  period-thousands ("153,9 milyar dolar" / "%1,42" / "21.000.000").
+  Long-scale "milyon"/"milyar"/"trilyon" matching Turkish financial
+  press.
+- **Brief Write-path mishap:** one helper initially landed at main
+  repo root rather than the agent's worktree. Agent recovered with
+  `mv` and verified subsequent writes used the full worktree-prefixed
+  absolute path.
+
 ## Tagalog (tl) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Tagalog` end-to-end as part of an

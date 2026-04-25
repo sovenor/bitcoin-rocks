@@ -1,3 +1,46 @@
+## i18n cleanup Step 5 — Turkish (tr) — 2026-04-25
+
+Ran `/translate-manifest-refresh Turkish` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/ur/uz/vi/yo/zh/zu. Turkish (`Türkçe`) is the official language of
+Türkiye and a co-official language of Cyprus, with ~85M native
+speakers; Turkic language family. Latin script with diacritics.
+**Counter:** 48/54. 1,021 entries flagged (464 missing + 165
+manifest-changed + 392 manifest-added).
+
+**5 helper scripts under `scripts/tr-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — per-currency × 13
+   currencies with Turkish currency naming (dolar, euro, sterlin,
+   yen, peso, real, rupi, baht, şekel) rather than a generic
+   catch-all, informal "sen" register throughout — the standard
+   register for Turkish crypto press educational copy + 41
+   non-currency keys).
+2. `translate-comparisons.js` (120 entries — all 10 bitcoin-vs-*
+   pages).
+3. `translate-content.js` (161 entries — about, bank-runs, buy,
+   compound-inflation-calculator, flyers, get-involved, lightning,
+   wallets, 404).
+4. `translate-business.js` (170 entries — accounting, faq, index,
+   maps, maps-success, sticker-files, sticker-language-success,
+   sticker-success, stickers, wallets, why).
+5. `translate-rest.js` (202 entries — common, index, nostr/index,
+   stickers, sticker-files/index, sticker-language-success,
+   sticker-success).
+
+**Edge cases / notes:**
+- Vowel harmony respected (a/ı, e/i, o/u, ö/ü) — mistakes here are
+  immediately visible to native Turkish readers.
+- Numerics in Turkish convention: comma-decimal + period-thousands
+  ("153,9 milyar dolar" / "%1,42" / "21.000.000"). Long-scale
+  "milyon"/"milyar"/"trilyon".
+- Brand allow-list intact (Bitcoin, Nostr, Lightning, Strike,
+  Square, BTCPay Server, BTC Map, FRED, FDIC, etc.).
+- Brief Write-path mishap reported by the agent (one helper
+  initially landed at main repo root rather than worktree); agent
+  recovered with `mv`.
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Tagalog (tl) — 2026-04-25
 
 Ran `/translate-manifest-refresh Tagalog` end-to-end via the
