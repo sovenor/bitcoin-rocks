@@ -1,3 +1,54 @@
+## i18n cleanup Step 5 — Thai (th) — 2026-04-25
+
+Ran `/translate-manifest-refresh Thai` end-to-end via the
+**parallel-worktree pattern** alongside sw + ta in the same batch.
+Thai (`ภาษาไทย`) is the official language of Thailand, with ~60M
+native speakers; Tai-Kadai language family. Brahmic abugida script
+with no inter-word spacing within sentences. **Counter:** 46/54
+languages complete. 1,046 entries flagged (464 missing locale-specific
++ 25 untranslated + 165 manifest-changed + 392 manifest-added).
+
+**3 helper scripts + 1 review helper under `scripts/th-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — 327 per-currency × 13
+   currencies via templated function with Thai currency naming
+   (ดอลลาร์สหรัฐ, ยูโร, ปอนด์อังกฤษ, ดอลลาร์แคนาดา,
+   ดอลลาร์ออสเตรเลีย, ดอลลาร์นิวซีแลนด์, เยนญี่ปุ่น, รูปีอินเดีย,
+   เปโซเม็กซิโก, เรียลบราซิล, เปโซฟิลิปปินส์, บาทไทย,
+   เชเกลอิสราเอล) rather than a generic catch-all, polite
+   second-person "คุณ" register throughout — the standard register
+   for Thai educational copy + 41 non-currency keys including
+   freedom cards, stories, sources, 5 manifest-changed hero/intro
+   keys).
+2. `translate-rest-part1.js` (385 entries — 404, about, bank-runs,
+   buy, common, compound-inflation-calculator, flyers, get-involved,
+   index (homepage), lightning, nostr/index, sticker-files/index,
+   sticker-language-success, sticker-success, stickers, wallets).
+3. `translate-rest-part2.js` (293 entries — all 10 bitcoin-vs-*
+   comparison pages + all 11 business/* sub-pages with Thai
+   terminology — "Bitcoin" preserved as Latin loanword (matches
+   existing Thai files in the repo and Thai tech/finance press
+   convention), no inter-word spacing within Thai sentences (spaces
+   only at clause/sentence boundaries)).
+4. `dump-remaining.js` (review helper that writes plain-text dump of
+   un-translated entries to a scratch file; left in place for future
+   iteration).
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- No byte-identical Thai/English collisions required patching —
+  Thai script differs from Latin so the `untranslated` check almost
+  never fires for Thai locales.
+
+**Edge cases / notes:**
+- Thai convention: brand names typically kept in Latin script in
+  tech/finance press (matches Thai Rath, BangkokBiz, ThaiCrypto).
+  "บิตคอยน์" Thai-script transliteration also acceptable but
+  consistency matters — agent picked Latin and stuck with it.
+- No inter-word spacing within Thai sentences; spaces appear only at
+  clause/sentence boundaries. This is invisible to the diff/audit
+  tooling but matters for natural reading.
+
 ## i18n cleanup Step 5 — Tamil (ta) — 2026-04-25
 
 Ran `/translate-manifest-refresh Tamil` end-to-end via the

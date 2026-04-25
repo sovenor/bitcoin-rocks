@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
 	"bitcoin_lightning_wallet_guide": "คู่มือกระเป๋าเงิน Bitcoin Lightning",
 	"lightning_description": "กระเป๋าเงิน Lightning ช่วยให้คุณสามารถส่ง Bitcoin ได้อย่างรวดเร็วและราคาถูก ในขณะที่ยังคงรักษาอำนาจอธิปไตยส่วนบุคคลของคุณ.",
 	"lightning_header": "คู่มือ LIGHTNING WALLET",
+	"lightning_header_subtitle": "Lightning ช่วยให้คุณส่ง Bitcoin ภายในไม่กี่วินาทีด้วยค่าธรรมเนียมเสี้ยวเซ็นต์ — เลือกกระเป๋าเงินที่ตรงกับจำนวน Bitcoin ที่คุณวางแผนจะใช้จ่าย",
 	"lightning_s1_c1": "Lightning ช่วยให้คุณสามารถส่งการชำระเงิน Bitcoin ได้อย่างรวดเร็วและราคาถูก.",
 	"lightning_s1_c2": "สิ่งสำคัญคือต้องรู้ว่าการใช้ Lightning มาพร้อมกับข้อด้อย เพื่อแลกกับการชำระเงิน Bitcoin ที่เร็วขึ้นและถูกกว่า คุณมักจะเสียสละความปลอดภัยบางส่วน.",
 	"lightning_s1_c3": "โดยทั่วไปแล้ว Lightning ควรใช้กับ Bitcoin จำนวนเล็กน้อยเท่านั้น คุณควรเก็บ Bitcoin จำนวนมากไว้ในกระเป๋าเงินของฮาร์ดแวร์เท่านั้น.",
-	"lightning_s1_c4": "ดูคู่มือกระเป๋าเงินฮาร์ดแวร์ของเราสำหรับข้อมูลเพิ่มเติม.",
+	"lightning_s1_c4": "ดูคู่มือของเราใน",
+	"lightning_s1_c4_link": "คู่มือกระเป๋าเงินฮาร์ดแวร์ Bitcoin",
+	"lightning_s1_c4_end": "เพื่อดูข้อมูลเพิ่มเติม",
 	"lightning_s1_c5": "กระเป๋าเงิน Lightning บางอันไม่เหมือนกัน คุณสามารถระบุได้ว่ากระเป๋าเงินใบใดมีการแลกเปลี่ยนที่เหมาะสมกับคุณโดยถามคำถามง่ายๆ เพียงคำถามเดียว:",
 	"lightning_question_1": "ยอดดุลการแลกเปลี่ยนใดที่เหมาะกับฉัน?",
 	"lightning_s2_c1": "หนึ่งในนวัตกรรมของ Bitcoin คือความสามารถในการจัดเก็บโดยไม่ต้องพึ่งผู้ดูแล เช่น ธนาคาร กระเป๋าเงินที่ดูแลตนเองจะปลดล็อกพลังเต็มรูปแบบของ Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "กระเป๋าเงินเหล่านี้คล้ายกับระบบธนาคารมากกว่าซึ่งคุณต้องเชื่อถือบุคคลที่สามเพื่อให้คุณสามารถเข้าถึงเงินของคุณได้ หาก Bitcoin ของคุณอยู่ในการแลกเปลี่ยน แสดงว่าคุณกำลังใช้กระเป๋าเงินแบบมีผู้ดูแล",
 	"lightning_s3_c3": "Custodial wallet อาจดูสะดวก แต่ผู้ดูแลมีความสามารถทางเทคนิคในการขโมยเงินของผู้ใช้ทั้งหมดได้ตลอดเวลา.",
 	"lightning_s3_c4": "บางคนชอบ Lightning wallet แบบ Custodial สำหรับ Bitcoin จำนวนเล็กน้อยเนื่องจากใช้งานง่าย เพียงจำไว้ว่า: ไม่ใช่กุญแจของคุณ ไม่ใช่เหรียญของคุณ!",
+	"lightning_grid_heading": "กระเป๋าเงิน Lightning ยอดนิยม",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "ฟรี 100%",
 	"lightning_merchants": "เหมาะสำหรับพ่อค้า",
 	"lightning_custodial": "กระเป๋าเงินแบบมีผู้ดูแลอย่างเต็มรูปแบบ",
-	"lightning_cta_hardware": "กำลังมองหาคู่มือ Bitcoin Hardware wallet ของเรา?"
+	"lightning_cta_hardware": "กำลังมองหาคู่มือ Bitcoin Hardware wallet ของเรา?",
+	"lightning_hardware_cta_label": "กระเป๋าเงินฮาร์ดแวร์",
+	"sources_lightning_paper": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — กระเป๋าเงิน Lightning Phoenix",
+	"sources_breez_lightning": "Breez — กระเป๋าเงิน Lightning เก็บกุญแจเอง",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — กระเป๋าเงิน Lightning แบบฝากกุญแจ",
+	"sources_lightning_labs": "Lightning Labs — เอกสาร Lightning Network"
 }

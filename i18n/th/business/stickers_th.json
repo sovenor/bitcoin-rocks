@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
 	"bitcoin_accepted_here_stickers": "สติ๊กเกอร์ Bitcoin ยอมรับที่นี่",
+	"biz_stickers_hero_title": "สติกเกอร์ 'Bitcoin Accepted Here' ฟรี",
+	"biz_stickers_hero_subtitle": "บอกลูกค้าว่าคุณรับ Bitcoin สั่งแพ็กสติกเกอร์ 'Bitcoin Accepted Here' ฟรีเพื่อติดที่ธุรกิจของคุณ",
+	"biz_stickers_intro_c1": "การรับ Bitcoin เป็นแค่ครึ่งหนึ่งของงาน — ลูกค้าก็ต้องรู้ด้วยว่าคุณรับ สติกเกอร์ 'Bitcoin Accepted Here' ขนาดเล็กเหล่านี้ออกแบบมาเพื่อติดบนประตูหน้า เคาน์เตอร์ เมนู หรือที่ใดก็ตามที่ลูกค้าจะเห็นก่อนชำระเงิน",
+	"biz_stickers_intro_c2": "เราจะส่งแพ็กฟรีไปยังที่ใดก็ได้ในสหรัฐอเมริกาหรือแคนาดา หรือคุณสามารถพิมพ์เองที่ไหนก็ได้ในโลก",
+	"biz_stickers_step_header": "คุณอยากได้สติกเกอร์อย่างไร?",
+	"biz_stickers_step_description": "เราจะจัดส่งแพ็กฟรีไปยังที่อยู่ในสหรัฐอเมริกาและแคนาดา ที่อื่นๆ ในโลก คุณสามารถพิมพ์เองได้",
+	"biz_stickers_option_usa": "🇺🇸 สหรัฐอเมริกา — ส่งฟรีทางไปรษณีย์",
+	"biz_stickers_option_canada": "🇨🇦 แคนาดา — ส่งฟรีทางไปรษณีย์",
+	"biz_stickers_option_print": "🌍 ทั่วโลก — พิมพ์เอง",
+	"biz_stickers_print_header": "พิมพ์ไฟล์สติกเกอร์ของคุณเอง",
+	"biz_stickers_print_c1": "คุณสามารถพิมพ์สติกเกอร์ 'Bitcoin Accepted Here' ของคุณเองได้ ไม่ว่าคุณอยู่ที่ไหน คลิกภาษาของคุณด้านล่างเพื่อดาวน์โหลดไฟล์สติกเกอร์และคำแนะนำการพิมพ์",
+	"biz_stickers_request_header": "ไม่เห็นภาษาของคุณ?",
+	"biz_stickers_request_c1": "กรอกแบบฟอร์มด้านล่างเพื่อขอไฟล์สติกเกอร์ 'Bitcoin Accepted Here' ในภาษาท้องถิ่นของคุณ เราจะแจ้งให้คุณทราบเมื่อพร้อม",
+	"biz_stickers_placeholder_translation1": "คำแปลของ 'Bitcoin Accepted Here'",
+	"biz_stickers_placeholder_translation2": "คำแปลของ 'Scan to learn why Bitcoin is good for business.'",
 	"stickers_request": "รับสติ๊กเกอร์ฟรีของคุณ"
 }

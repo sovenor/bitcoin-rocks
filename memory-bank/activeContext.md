@@ -1,3 +1,71 @@
+## Thai (th) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Thai` end-to-end via the
+**parallel-worktree pattern** alongside sw + ta in the same parallel
+batch. **Locale 46/54 complete.** Thai (`ภาษาไทย`) is the official
+language of Thailand, with ~60M native speakers; Tai-Kadai language
+family. Brahmic abugida script with no inter-word spacing within
+sentences. The 3 parallel agents (sw, ta, th) all completed within
+~20 minutes wall-clock — vs an estimated ~60-75 minutes serial — a
+3x speedup that scales linearly with parallelism. Pattern is sound;
+recommend rolling out to remaining locales (tl, tr, ur, uz, vi, yo,
+zh, zu) in 3-or-more-agent batches.
+
+**Report stats:**
+- 464 missing locale-specific keys
+- 25 untranslated (more than typical — investigated, all are
+  legitimate brand-anglicisms / numeric-only / Latin-script
+  transliterations that pre-V2 Thai had kept in source language;
+  the agent translated them where appropriate or left them in their
+  English form when that matched current Thai press convention)
+- 165 manifest-changed + 392 manifest-added → **1,046 total entries**
+
+**3 helper scripts + 1 review helper under `scripts/th-manifest-refresh/`:**
+
+- `translate-inflation.js` — **368 entries**. Per-currency templated
+  translator × 13 currencies with Thai currency naming
+  (ดอลลาร์สหรัฐ, ยูโร, ปอนด์อังกฤษ, ดอลลาร์แคนาดา,
+  ดอลลาร์ออสเตรเลีย, ดอลลาร์นิวซีแลนด์, เยนญี่ปุ่น, รูปีอินเดีย,
+  เปโซเม็กซิโก, เรียลบราซิล, เปโซฟิลิปปินส์, บาทไทย,
+  เชเกลอิสราเอล) rather than a generic catch-all, polite
+  second-person "คุณ" register throughout — the standard register
+  for Thai educational copy. Plus 41 non-currency keys: freedom
+  cards, stories, sources, 5 manifest-changed hero/intro keys.
+- `translate-rest-part1.js` — **385 entries**. 404 + about +
+  bank-runs + buy + common + compound-inflation-calculator + flyers
+  + get-involved + index (homepage) + lightning + nostr/index +
+  sticker-files/index + sticker-language-success + sticker-success
+  + stickers + wallets.
+- `translate-rest-part2.js` — **293 entries**. All 10 bitcoin-vs-*
+  comparison pages + all 11 business/* sub-pages with Thai
+  terminology — "Bitcoin" preserved as Latin loanword (matches
+  existing Thai files in the repo and Thai tech/finance press
+  convention), no inter-word spacing within Thai sentences (spaces
+  only at clause/sentence boundaries).
+- `dump-remaining.js` — review helper that writes plain-text dump of
+  un-translated entries to a scratch file. Left in place for future
+  iteration; not invoked by the canonical workflow.
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- No byte-identical Thai/English collisions required patching —
+  Thai script differs from Latin so the `untranslated` check almost
+  never fires for Thai locales (unlike sw/ta where sticker
+  dimensions tripped the check).
+
+**Edge cases / notes:**
+- **Brand-name script choice:** Thai convention keeps "Bitcoin" in
+  Latin script in tech/finance press (matches Thai Rath, BangkokBiz,
+  ThaiCrypto). "บิตคอยน์" Thai-script transliteration also
+  acceptable for non-technical audiences but consistency matters —
+  agent picked Latin script (matching existing Thai files in the
+  repo) and stuck with it.
+- **No inter-word spacing** within Thai sentences; spaces appear
+  only at clause/sentence boundaries. Invisible to the diff/audit
+  tooling but matters for natural reading. The agent followed this
+  convention throughout.
+
 ## Tamil (ta) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Tamil` end-to-end via the

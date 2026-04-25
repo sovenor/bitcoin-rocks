@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
 	"cic_header": "เครื่องคิดเลขอัตราเงินเฟ้อแบบผสม",
 	"cic_description": "ใช้เครื่องคำนวณอัตราเงินเฟ้อแบบทบต้นนี้เพื่อดูว่าเงินเดือนของคุณจำเป็นต้องเพิ่มขึ้นเท่าใดเพื่อให้ทันกับอัตราเงินเฟ้อ.",
-	"cic_inflation_cta": "ยกเลิกอัตราเงินเฟ้อด้วย Bitcoin"
+	"cic_hero_subtitle": "ดูว่าเงินเดือนของคุณต้องเพิ่มขึ้นเท่าไหร่เพื่อตามทันเงินเฟ้อ",
+	"cic_calculator_heading": "คำนวณช่องว่างเงินเฟ้อของคุณ",
+	"cic_cta_label": "ขั้นตอนถัดไป",
+	"cic_inflation_cta": "ยกเลิกอัตราเงินเฟ้อด้วย Bitcoin",
+	"cic_next_learn_inflation": "เรียนรู้ว่าเงินเฟ้อทำงานอย่างไร",
+	"cic_next_explore_topics": "สำรวจหัวข้ออื่นๆ",
+	"cic_next_explore_topics_desc": "ดูว่า Bitcoin เชื่อมโยงกับเงิน เสรีภาพ พลังงาน และอื่นๆ อย่างไร",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — ดัชนีราคาผู้บริโภคสำหรับผู้บริโภคในเมืองทั้งหมด",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — ปริมาณเงิน M1"
 }

@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "th"
-	}
+	},
+	"biz_maps_success_hero_title": "ได้รับคำขอแล้ว 🎉",
+	"biz_maps_success_hero_subtitle": "ขอบคุณที่ส่งธุรกิจของคุณ เราจะลงรายการคุณบนแผนที่ร้านค้า Bitcoin ในเร็วๆ นี้",
+	"biz_maps_success_timeline_header": "อะไรจะเกิดขึ้นต่อไป",
+	"biz_maps_success_timeline_c1": "ธุรกิจของคุณจะได้รับการลงรายการบน BTC Map และสารบบร้านค้า Bitcoin อื่นๆ ภายใน 1 ถึง 2 สัปดาห์ เราตรวจสอบทุกการส่งด้วยมือเพื่อให้แผนที่ถูกต้อง",
+	"biz_maps_success_timeline_c2": "เมื่อรายการของคุณเปิดใช้งาน Bitcoiner ใกล้เคียงจะค้นพบธุรกิจของคุณและมาใช้จ่าย Bitcoin ที่นั่น",
+	"biz_maps_success_view_header": "ดูที่ที่คุณจะปรากฏ",
+	"biz_maps_success_view_c1": "ระหว่างที่คุณรอ ลองดู BTC Map เพื่อเห็นเครือข่ายที่กำลังเติบโตของธุรกิจที่รับ Bitcoin ทั่วโลก",
+	"biz_maps_success_btn_view_map": "ดู BTC Map"
 }
