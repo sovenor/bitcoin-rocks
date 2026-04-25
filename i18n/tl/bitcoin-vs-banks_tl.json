@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
-	"bitcoin_vs_banks": "Bitcoin vs Banks",
+	"bitcoin_vs_banks": "Bitcoin laban sa mga Bangko",
 	"banks_intro_1": "Kinontrol ng mga bangko ang pera sa loob ng mga siglo, na nagsisilbing tagapamagitan para sa mga transaksyong pinansyal at gatekeeper ng monetary system.",
 	"banks_intro_2": "Ang Bitcoin ay isang peer-to-peer na digital money system na gumagana nang walang bangko o sentral na awtoridad.",
 	"banks_intro_3": "Ngunit paano naiiba ang Bitcoin network sa tradisyunal na sistema ng pagbabangko? I-explore natin ang mga pangunahing pagkakaiba sa pagitan ng dalawang pundamental na magkaibang pamamaraan sa pera.",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Predictable at mababang bayarin",
 	"bitcoin_point_6": "Hindi maaaring mag-overdraft",
 	"bitcoin_point_7": "Lumalaban sa censorship",
-	"point_1_summary_1": "Ang Bitcoin ay walang kinakailangang pahintulot, na nangangahulugang sinumang may internet access ay maaaring gumamit nito nang hindi humihingi ng pahintulot sa anumang awtoridad.",
-	"point_1_summary_2": "Ang Bitcoin ay gumagana nang walang mga gatekeeper",
-	"point_1_summary_3": "- walang maaaring tanggihan ka ng access. Ang mga bangko, gayunpaman, ay maaaring tumanggi na magbukas ng mga account, i-freeze ang mga umiiral na account, o tanggihan ang mga serbisyo base sa kanilang mga patakaran o mga regulasyon ng gobyerno.",
-	"point_2_summary_1": "Ang Bitcoin network ay gumagana 24 na oras sa isang araw, 7 araw sa isang linggo, 365 araw sa isang taon nang walang maintenance window o holiday. Ang mga bangko ay may limitadong oras ng operasyon, sarado tuwing weekend at holiday, at madalas may mga panahon ng system maintenance kung saan hindi available ang mga serbisyo.",
-	"point_3_summary_1": "Lahat ng Bitcoin transaction ay nakatala sa isang pampublikong blockchain na maaaring i-verify at i-audit ng sinuman.",
+	"point_1_summary_1": "Sinumang may koneksyon sa internet ay maaaring gumamit ng Bitcoin — ito ay",
+	"point_1_summary_2": "walang pahintulot na kailangan.",
+	"point_1_summary_3": "Ang mga bangko ay maaaring tumanggi, mag-freeze, o magsara ng mga account batay sa patakaran o mga panuntunan ng gobyerno.",
+	"point_2_summary_1": "Ang Bitcoin network ay tumatakbo 24/7/365 nang walang maintenance window o holiday. Ang mga bangko ay may limitadong oras, sarado tuwing weekend, at may mga panahon ng outage.",
+	"point_3_summary_1": "Bawat Bitcoin transaction ay nasa pampublikong blockchain na maaaring i-audit ng sinuman. Ang mga bangko ay nagpapatakbo ng pribadong mga ledger na hindi independyenteng ma-verify ng mga kustomer.",
 	"point_3_summary_2": "Ang mga bangko ay gumagana na may mga pribadong ledger at malabong proseso na hindi maaaring independiyenteng i-verify ng mga customer.",
-	"point_4_summary_1": "Sa Bitcoin, maaari mong hawakan ang iyong sariling mga private key at magkaroon ng ganap na kontrol sa iyong pera.",
-	"point_4_summary_2": "Matuto tungkol sa mga Bitcoin wallet",
-	"point_4_summary_3": "upang maunawaan ang self-custody. Hawak ng mga bangko ang iyong pera sa kanilang mga account at maaaring i-freeze, limitahan, o i-restrict ang access sa iyong pondo anumang oras.",
-	"point_5_summary_1": "Ang mga bayarin sa Bitcoin transaction ay transparent, predictable, at karaniwang napakababa. Ang mga bangko ay madalas may mga nakatagong bayarin, buwanang account fee, overdraft charge, wire transfer fee, ATM fee, at iba pang multa na maaaring tumaas nang malaki sa paglipas ng panahon.",
-	"point_6_summary_1": "Pinipigilan ka ng Bitcoin mula sa paggastos ng pera na wala ka - maaari ka lamang gumastos ng Bitcoin na talagang pagmamay-ari mo. Pinapayagan ng mga bangko ang overdraft (paggastos ng higit sa balanse ng iyong account) at pagkatapos ay sisingilin ka ng malaking bayarin para sa serbisyong ito, na kadalasang humahantong sa cascading penalty charge.",
-	"point_7_summary_1": "Ang mga Bitcoin transaction ay lumalaban sa censorship - kapag na-broadcast sa network, hindi ito maaaring ihinto o i-reverse ng anumang sentral na awtoridad. Ang mga bangko ay maaaring mag-block, mag-freeze, mag-reverse, o mag-restrict ng mga transaksyon base sa kanilang mga patakaran, mga utos ng gobyerno, o mga algorithm ng kahina-hinalang aktibidad."
+	"point_4_summary_1": "Sa Bitcoin, ikaw mismo ang humahawak ng iyong mga private key — tingnan ang aming simpleng",
+	"point_4_summary_2": "mga gabay sa Bitcoin wallet",
+	"point_4_summary_3": "Hawak ng mga bangko ang iyong pera at maaari itong i-freeze, limitahan, o i-restrict anumang oras.",
+	"point_5_summary_1": "Ang mga bayarin sa Bitcoin ay transparent at mahuhulaan. Ang mga bangko ay nagdaragdag ng mga nakatagong account, overdraft, wire, at ATM fee sa paglipas ng panahon.",
+	"point_6_summary_1": "Pinapayagan ka lang ng Bitcoin na gumastos ng aktwal mong pag-aari. Pinapayagan ng mga bangko ang overdraft, pagkatapos ay sisingilin ka ng tumataas na penalty fee para sa pribilehiyong iyon.",
+	"point_7_summary_1": "Kapag na-broadcast na, hindi maaaring ihinto o i-reverse ang mga Bitcoin transaction. Maaaring i-block, i-freeze, o i-reverse ng mga bangko ang mga transaksyon batay sa patakaran o utos ng gobyerno.",
+	"hero_title": "Ang pagkakaiba ng <span class=\"orange\">Bitcoin</span> at <span class=\"asset\">mga Bangko</span>"
 }

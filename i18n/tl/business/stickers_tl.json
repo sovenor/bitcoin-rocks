@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
 	"bitcoin_accepted_here_stickers": "Mga sticker na 'Tumatanggap ng Bitcoin Dito'",
+	"biz_stickers_hero_title": "Mga libreng „Bitcoin Accepted Here“ sticker",
+	"biz_stickers_hero_subtitle": "Ipaalam sa iyong mga kustomer na tumatanggap ka ng Bitcoin. Mag-order ng libreng pack ng mga „Bitcoin Accepted Here“ sticker upang ipaskil sa iyong negosyo.",
+	"biz_stickers_intro_c1": "Ang pagtanggap ng Bitcoin ay kalahati lang ng trabaho — kailangan din malaman ng iyong mga kustomer na ginagawa mo ito. Ang maliliit na „Bitcoin Accepted Here“ sticker na ito ay dinisenyo upang dumikit sa iyong harapan ng pintuan, register, menu, o saanman makikita ito ng mga kustomer bago magbayad.",
+	"biz_stickers_intro_c2": "Magpapadala kami ng libreng pack kahit saan sa USA o Canada, o maaari kang mag-print ng iyong sarili kahit saan sa mundo.",
+	"biz_stickers_step_header": "Paano mo gustong makuha ang iyong mga sticker?",
+	"biz_stickers_step_description": "Magpapadala kami ng libreng pack sa mga address sa USA at Canada. Saanman sa mundo, maaari kang mag-print ng iyong sarili.",
+	"biz_stickers_option_usa": "🇺🇸 USA — Libre sa koreo",
+	"biz_stickers_option_canada": "🇨🇦 Canada — Libre sa koreo",
+	"biz_stickers_option_print": "🌍 Pandaigdigan — I-print ang sariling akin",
+	"biz_stickers_print_header": "I-print ang iyong sariling mga sticker file",
+	"biz_stickers_print_c1": "Maaari kang mag-print ng iyong sariling „Bitcoin Accepted Here“ sticker, kahit saan ka nakatira. I-click ang iyong wika sa ibaba upang i-download ang mga sticker file at instruksyon sa pag-print.",
+	"biz_stickers_request_header": "Hindi mo nakikita ang iyong wika?",
+	"biz_stickers_request_c1": "Punan ang form sa ibaba upang humiling ng „Bitcoin Accepted Here“ sticker file sa iyong lokal na wika. Ipapaalam namin sa iyo kapag handa na ang mga ito.",
+	"biz_stickers_placeholder_translation1": "Salin para sa „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Salin para sa „Scan to learn why Bitcoin is good for business.“",
 	"stickers_request": "Kumuha ng iyong libreng sticker"
 }

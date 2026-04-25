@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Mga Ingles na File ng Sticker na 'Tumatanggap ng Bitcoin Dito'",
-	"english_biz_sticker_files_description": "I-download ang mga Ingles na sticker file upang mag-print ng sarili mong Tumatanggap ng Bitcoin Dito sticker."
+	"english_biz_sticker_files_description": "I-download ang mga English na sticker file upang mag-print ng iyong sariling „Bitcoin Accepted Here“ sticker.",
+	"biz_stickers_english_hero_title": "I-download ang English „Bitcoin Accepted Here“ sticker file",
+	"biz_stickers_english_hero_subtitle": "I-print ang iyong sariling „Bitcoin Accepted Here“ sticker sa English upang ipaalam sa iyong mga kustomer na tumatanggap ka ng Bitcoin."
 }

@@ -1,3 +1,53 @@
+## i18n cleanup Step 5 — Tagalog (tl) — 2026-04-25
+
+Ran `/translate-manifest-refresh Tagalog` end-to-end via the
+**parallel-worktree pattern**, in an **8-language parallel batch**
+(tl/tr/ur/uz/vi/yo/zh/zu). Tagalog is the basis of Filipino
+(the standardized national language), spoken natively by ~28M people
+in the Philippines (Luzon area) plus diaspora; Austronesian language,
+Latin script. **Counter:** 47/54 languages complete. 1,086 entries
+flagged (464 missing + 65 untranslated + 165 manifest-changed + 392
+manifest-added).
+
+**4 helper scripts under `scripts/tl-manifest-refresh/`:**
+1. `translate-inflation.js` (375 entries — per-currency keys for 13
+   currencies + the BTC stat card + 48 non-currency labels with
+   templated function pattern using `nameNom`/`nameSaSa`/`nounPlural`/
+   `label`/`existenceTitle`/`debtTitle`).
+2. `translate-rest-part1.js` (322 entries — 404, about, bank-runs,
+   all 10 bitcoin-vs-* comparisons, buy, common,
+   compound-inflation-calculator, flyers).
+3. `translate-rest-part2.js` (389 entries — index, get-involved,
+   lightning, wallets, nostr/index, stickers, sticker-files/index,
+   sticker-(language-)success, all 10 business/* namespaces).
+4. `fix-untranslated.js` (53 byte-identical Tagalog/English collisions
+   patched across 17 files — comparison titles "Bitcoin laban sa
+   &lt;X&gt;" using "laban sa" for "vs", currency labels "PESO NG
+   MEXICO"/"RUPEE NG INDIA"/"YEN NG JAPAN"/etc., parenthetical
+   Tagalog glosses for technical loanwords "COLD WALLET (LAMIG)"/
+   "Air-gap mode (off-line)"/"Compound Inflation Calculator
+   (Calculator ng Tumitipong Inflation)", pulgada units for sticker
+   dimensions).
+
+**Edge cases / notes:**
+- Distinguished from Filipino (`fil`) by preferring native Tagalog
+  roots ("laban sa" not "vs", "ipakalat" not "i-share") where natural.
+- Informal "ikaw" register throughout (matches educational news copy
+  convention).
+- **Worktree path bug:** the tl agent's Bash session prepended
+  `cd /Users/.../bitcoin-rocks` (main worktree path) to every
+  command, so all writes landed in the main worktree rather than the
+  agent's isolated worktree. The agent eventually committed directly
+  to `v2-nextjs-redesign` from the main worktree (which it had write
+  access to via the shared .git directory). Cleanup: orchestrator
+  amended the existing commit with shared-file edits rather than
+  cherry-picking. Same path bug also hit zu (which recovered
+  differently). Future agent prompts should pass the worktree path
+  explicitly rather than relying on CLAUDE.md's "working directory"
+  context.
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Thai (th) — 2026-04-25
 
 Ran `/translate-manifest-refresh Thai` end-to-end via the

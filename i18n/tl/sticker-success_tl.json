@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
 	"sticker_success_1": "Ang iyong mga sticker ay darating sa loob ng 2-4 na linggo. Habang naghihintay, isipin kung saan magandang lugar para idikit ang mga ito!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "Mga lugar na hindi madaling matanggal (ang mga sticker ay hindi nagdudulot ng permanenteng pinsala)",
 	"sticker_success_list_3": "Mga ibabaw na madaling madikitin (metal, plastik, salamin)",
 	"sticker_success_list_4": "Huwag idikit sa pribadong ari-arian, mga karatula, ATM, o gas pump",
-	"sticker_success_3": "Gusto mong makita kung saan idinadagdag ng iba ang kanilang mga sticker?"
+	"sticker_success_3": "Gusto mong makita kung saan idinadagdag ng iba ang kanilang mga sticker?",
+	"sticker_success_hero_title": "Papunta na ang iyong mga sticker 🎉",
+	"sticker_success_tips_header": "Magagandang sticker spot",
+	"sticker_success_share_header": "Ibahagi ang iyong mga sticker spot",
+	"sticker_success_bulk_header": "Gusto mo ng mas maraming sticker?",
+	"sticker_success_btn_order_bulk": "Mag-order in bulk",
+	"sticker_success_btn_share_on_nostr": "Mag-share sa Nostr",
+	"sticker_success_btn_what_is_nostr": "Ano ang Nostr?"
 }

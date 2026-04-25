@@ -1,3 +1,66 @@
+## Tagalog (tl) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Tagalog` end-to-end as part of an
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+47/54 complete.** Tagalog is the basis of Filipino (Philippines'
+standardized national language), spoken natively by ~28M people in
+the Philippines (Luzon area) plus diaspora. Austronesian language,
+Latin script.
+
+**Report stats:**
+- 464 missing locale-specific
+- 65 untranslated (high count — the locale was on V1 with many
+  English-leak strings, including all 10 sticker-dimension keys,
+  comparison-page hero titles, and various technical labels)
+- 165 manifest-changed + 392 manifest-added → **1,086 total entries**
+
+**4 helper scripts under `scripts/tl-manifest-refresh/`:**
+- `translate-inflation.js` — 375 entries. Per-currency templated
+  translator × 13 currencies + the BTC stat card + 48 non-currency
+  labels. Used `nameNom`/`nameSaSa`/`nounPlural`/`label`/
+  `existenceTitle`/`debtTitle` template variables.
+- `translate-rest-part1.js` — 322 entries. 404, about, bank-runs,
+  all 10 bitcoin-vs-* comparisons, buy, common,
+  compound-inflation-calculator, flyers.
+- `translate-rest-part2.js` — 389 entries. index, get-involved,
+  lightning, wallets, nostr/index, stickers, sticker-files/index,
+  sticker-(language-)success, all 10 business/* namespaces.
+- `fix-untranslated.js` — 53 byte-identical Tagalog/English
+  collisions patched across 17 files. Comparison titles "Bitcoin
+  laban sa &lt;X&gt;" using "laban sa" for "vs"; currency labels
+  "PESO NG MEXICO" / "RUPEE NG INDIA" / "YEN NG JAPAN" / etc.;
+  parenthetical Tagalog glosses for technical loanwords ("COLD
+  WALLET (LAMIG)", "Air-gap mode (off-line)", "Compound Inflation
+  Calculator (Calculator ng Tumitipong Inflation)"); pulgada units
+  for sticker dimensions.
+
+**Distinguishing from Filipino (`fil`):** preferred native Tagalog
+roots over Spanish/English loanwords where natural ("laban sa" not
+"vs", "ipakalat" not "i-share").
+
+**Register:** Informal "ikaw" throughout (matches educational news
+copy convention).
+
+**Verification:** all 4 checks pass.
+
+**8-language parallel batch — observations:**
+- 6 of 8 agents committed correctly to their isolated worktree
+  branches: tr, ur, uz, vi, yo, zh.
+- 2 agents (tl, zu) hit a path bug where their Bash session
+  prepended `cd /Users/.../bitcoin-rocks` (main worktree path),
+  causing all writes to land in the main worktree. tl committed
+  directly to v2-nextjs-redesign (effectively bypassing the
+  isolation). zu detected the issue and recovered by cherry-picking
+  its main-worktree commit onto its worktree branch and resetting
+  the parent's v2-nextjs-redesign back.
+- Net result still works: orchestrator cherry-picked the 6 isolated
+  branches plus amended tl's existing direct-to-main commit. All 8
+  landed cleanly. ~22 minutes wall-clock dispatch-to-last-completion.
+- Lesson for future batches: explicitly pass the agent's worktree
+  path via the prompt (e.g. `Your worktree is at $WORKTREE_PATH`)
+  rather than relying on CLAUDE.md's "working directory" context,
+  which lists the main repo path.
+
 ## Thai (th) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Thai` end-to-end via the
