@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Krypto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Čisté digitálne peniaze",
 	"bitcoin_point_7": "Antifragilný",
 	"bitcoin_point_8": "Žiadny subjekt ho nekontroluje",
-	"point_1_summary_1": "Protokol Bitcoinu zostáva od roku 2009 v podstate nezmenený, čo poskytuje predvídateľné pravidlá, ktoré nemožno ľahko upraviť. Väčšina kryptoprojektov často aktualizuje svoje protokoly, mení tokenomiku alebo sa rozdeľuje na nové verzie, čo vytvára neistotu pre používateľov.",
-	"point_2_summary_1": "Bitcoin funguje na skutočne decentralizovanej sieti s desaťtisícami nezávislých uzlov po celom svete. Mnoho kryptoprojektov je kontrolovaných nadáciami, spoločnosťami alebo malými skupinami vývojárov, ktorí môžu jednostranne rozhodovať o budúcnosti protokolu.",
-	"point_3_summary_1": "Bitcoin má pevný strop 21 miliónov mincí, ktoré kedy budú existovať, čo z neho robí najvzácnejšie digitálne aktívum. Väčšina kryptoprojektov má neobmedzenú ponuku, inflačné mechanizmy alebo možnosť raziť nové tokeny ľubovoľne, čím postupom času riedia hodnotu držiteľov.",
-	"point_4_summary_1": "Bitcoin má jeden jednoduchý účel: peer-to-peer digitálne peniaze. Ktokoľvek ho môže pochopiť a používať so základnými znalosťami. Mnoho kryptoprojektov zahŕňa zložité inteligentné kontrakty, DeFi protokoly alebo mechanizmy správy, ktoré vyžadujú technickú odbornosť pre bezpečné použitie.",
-	"point_5_summary_1": "Bitcoin používa konsenzus Proof of Work, ktorý je v boji testovaný viac ako 15 rokov bez jediného úspešného útoku na hlavnú sieť. Mnoho kryptoprojektov používa experimentálne konsenzuálne mechanizmy ako Proof of Stake alebo delegované systémy, ktoré zatiaľ nepreukázali svoju dlhodobú bezpečnosť.",
-	"point_6_summary_1": "Bitcoin slúži ako digitálne peniaze — uchovávateľ hodnoty a prostriedok výmeny. Väčšina kryptotokenov sú utility tokeny pre špecifické platformy, governance tokeny alebo špekulatívne aktíva s nejasnou hodnotovou ponukou.",
-	"point_7_summary_1": "Bitcoin sa stáva silnejším pod útokom a prežil každú krízu, zákaz a kritiku, ktoré naň boli smerované. Väčšina kryptoprojektov je krehká a môže sa zrútiť pod regulačným tlakom, technickými poruchami alebo trhovými poklesmi.",
-	"point_8_summary_1": "Bitcoin nemá žiadneho CEO, žiadnu spoločnosť za sebou a žiadny jediný bod zlyhania. Mnoho kryptoprojektov je podporovaných firmami rizikového kapitálu, má identifikovateľné vedenie alebo závisí od konkrétnych spoločností pre svoj pokračujúci prevádzku."
+	"point_1_summary_1": "Protokol Bitcoinu zostal od roku 2009 v zásade rovnaký a poskytuje predvídateľné pravidlá. Väčšina krypto projektov neustále mení protokoly, tokenomiku alebo sa štiepi do nových verzií.",
+	"point_2_summary_1": "Bitcoin beží na desaťtisícoch nezávislých uzlov po celom svete. Väčšinu krypto projektov ovládajú nadácie, firmy alebo malé vývojárske tímy, ktoré môžu vykonávať jednostranné zmeny.",
+	"point_3_summary_1": "Bitcoin má pevný strop 21 miliónov mincí — najvzácnejšie digitálne aktívum. Väčšina krypto projektov má neobmedzenú ponuku alebo mechanizmy na ľubovoľné vytváranie nových tokenov, ktoré rozrieďujú držiteľov.",
+	"point_4_summary_1": "Bitcoin má jeden účel: peer-to-peer digitálne peniaze. Rozumie mu a používa ho ktokoľvek. Väčšina kryptomien zahŕňa zložité smart kontrakty alebo DeFi, ktoré vyžadujú technické znalosti na bezpečné použitie.",
+	"point_5_summary_1": "Proof of Work Bitcoinu beží bez úspešného útoku na hlavnú sieť už vyše 15 rokov. Väčšina krypto projektov používa experimentálny konsenzus, ktorý nebol ostro testovaný.",
+	"point_6_summary_1": "Bitcoin sú digitálne peniaze — uchovávateľ hodnoty a prostriedok výmeny. Väčšina krypto tokenov sú špekulatívne utility alebo governance tokeny s nejasnou reálnou hodnotou.",
+	"point_7_summary_1": "Bitcoin pod útokom silnie a prežil každú krízu, zákaz aj kritiku. Väčšina krypto projektov padá pod regulačným, technickým alebo trhovým tlakom.",
+	"point_8_summary_1": "Bitcoin nemá CEO, firmu ani jediný bod zlyhania. Väčšina krypto projektov závisí od VC investorov, konkrétneho vedenia alebo prežitia jedinej firmy.",
+	"hero_title": "Rozdiel medzi <span class=\"orange\">Bitcoinom</span> a <span class=\"asset\">kryptom</span>"
 }

@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Žiadosť prijatá 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Ďakujeme, že ste si vyžiadali súbory nálepiek „Tu prijímame Bitcoin“ vo vašom jazyku.",
+	"biz_sticker_language_success_timeline_header": "Čo bude nasledovať",
+	"biz_sticker_language_success_timeline_c1": "Vaše súbory s nálepkami vytvoríme a zverejníme v priebehu 3 až 4 týždňov. Hneď ako budú pripravené, budete si ich môcť zadarmo stiahnuť a vytlačiť z našej stránky so súbormi nálepiek.",
+	"biz_sticker_language_success_timeline_c2": "Súbory nálepiek vydávame po dávkach, takže môže trvať niekoľko týždňov, kým váš jazyk pôjde naživo. Ďakujeme za trpezlivosť!"
 }

@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_wallet_guide": "Sprievodca bitcoinovými peňaženkami",
 	"wallets_description": "Existuje mnoho rôznych bitcoinových peňaženiek, ktoré sa líšia v dôležitých ohľadoch. Môžete zistiť, či je pre vás peňaženka vhodná, položením týchto jednoduchých otázok.",
 	"wallets_header": "AKO BEZPEČNE UCHOVÁVAŤ SVOJ BITCOIN",
+	"wallets_header_subtitle": "Sprievodca krok za krokom, ako si vybrať peňaženku, chrániť svoje kľúče a prevziať plnú kontrolu nad svojím Bitcoinom.",
 	"wallets_s1_c1": "Bitcoinové peňaženky sú vzájomne kompatibilné, takže môžete posielať Bitcoin komukoľvek bez ohľadu na to, ktorú peňaženku používa.",
 	"wallets_s1_c2": "Existuje mnoho rôznych bitcoinových peňaženiek, ktoré sa líšia v dôležitých ohľadoch. Môžete zistiť, či je pre vás peňaženka vhodná, položením týchto jednoduchých otázok:",
 	"wallets_question_1": "JE TO PEŇAŽENKA S VLASTNOU SPRÁVOU?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp otestoval 70 oceľových zálohovacích sád, aby vám pomohol vybrať tú správnu.",
 	"wallets_s6_c5": "Zobraziť Jamesonov sprievodca kovovými bitcoinovými zálohami tu.",
 	"wallets_s6_c6": "Alebo pokračujte scrollovaním a preskúmajte možnosti bitcoinových peňaženiek.",
+	"wallets_grid_heading": "Obľúbené Bitcoin peňaženky",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Hľadáte nášho sprievodcu Lightning peňaženkami?",
 	"wallets_starter_wallet": "Skvelá úvodná peňaženka",
 	"wallets_mobile_app": "Mobilná aplikácia",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Dobíjacia batéria",
 	"wallets_build_your_own": "Zostavte si vlastný",
 	"wallets_qwerty_keyboard": "Plná QWERTY klávesnica",
-	"wallets_qr_scanner": "Skener QR kódov"
+	"wallets_qr_scanner": "Skener QR kódov",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Vyberte si peňaženku",
+	"sources_jameson_lopp": "Jameson Lopp — recenzie kovových úložísk pre Bitcoin seed",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin peňaženka s vlastnou úschovou",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin hardvérová peňaženka",
+	"sources_coldcard_mk5": "Coinkite — hardvérová peňaženka Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — hardvérová peňaženka Coldcard Q",
+	"sources_passport": "Foundation Devices — hardvérová peňaženka Passport",
+	"sources_seedsigner": "SeedSigner — open-source DIY zariadenie na podpisovanie Bitcoin transakcií"
 }

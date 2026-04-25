@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banky",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Predvídateľné, nízke poplatky",
 	"bitcoin_point_6": "Nemožno prečerpať",
 	"bitcoin_point_7": "Odolný voči cenzúre",
-	"point_1_summary_1": "Bitcoin je bez povolenia, čo znamená, že ho môže používať ktokoľvek s prístupom na internet, bez žiadania o súhlas akejkoľvek autority.",
-	"point_1_summary_2": "Bitcoin funguje bez strážcov",
-	"point_1_summary_3": "— nikto vám nemôže odmietnuť prístup. Banky však môžu odmietnuť otvoriť účty, zmraziť existujúce účty alebo odmietnuť služby na základe svojich pravidiel alebo vládnych nariadení.",
-	"point_2_summary_1": "Bitcoinová sieť funguje 24 hodín denne, 7 dní v týždni, 365 dní v roku bez výpadkov na údržbu alebo sviatkov. Banky majú obmedzené prevádzkové hodiny, cez víkendy a sviatky sú zatvorené a často majú obdobia údržby systému, kedy služby nie sú dostupné.",
-	"point_3_summary_1": "Všetky bitcoinové transakcie sú zaznamenané na verejnom blockchaine, ktorý môže ktokoľvek overiť a auditovať.",
+	"point_1_summary_1": "Bitcoin môže používať ktokoľvek s pripojením k internetu — je ",
+	"point_1_summary_2": "bez povolenia.",
+	"point_1_summary_3": "Banky môžu odmietať, zmrazovať alebo rušiť účty na základe svojich pravidiel alebo vládnych predpisov.",
+	"point_2_summary_1": "Sieť Bitcoin beží 24/7/365 bez okien na údržbu či sviatkov. Banky majú obmedzenú otváraciu dobu, víkendy zatvorené a výpadky.",
+	"point_3_summary_1": "Každá transakcia Bitcoinu je na verejnom blockchaine, ktorý si môže ktokoľvek overiť. Banky vedú súkromné účtovné knihy, ktoré zákazníci nemôžu nezávisle preveriť.",
 	"point_3_summary_2": "Banky fungujú so súkromnými účtovnými knihami a nepriehľadnými internými procesmi, ktoré zákazníci nemôžu nezávisle overiť.",
-	"point_4_summary_1": "S Bitcoinom si môžete držať vlastné súkromné kľúče a mať plnú kontrolu nad svojimi peniazmi.",
-	"point_4_summary_2": "Zistite viac o bitcoinových peňaženkách",
-	"point_4_summary_3": "aby ste porozumeli vlastnej správe. Banky držia vaše peniaze na svojich účtoch a môžu zmraziť, obmedziť alebo zakázať prístup k vašim prostriedkom kedykoľvek.",
-	"point_5_summary_1": "Bitcoinové transakčné poplatky sú transparentné, predvídateľné a zvyčajne veľmi nízke. Banky majú často skryté poplatky, mesačné poplatky za účet, poplatky za prečerpanie, poplatky za prevod, poplatky za bankomat a ďalšie pokuty, ktoré sa môžu v priebehu času výrazne sčítať.",
-	"point_6_summary_1": "Bitcoin vám bráni míňať peniaze, ktoré nemáte — môžete minúť iba Bitcoin, ktorý skutočne vlastníte. Banky umožňujú prečerpanie (minutie viac, než je zostatok na vašom účte) a potom si účtujú značné poplatky za túto 'službu', čo často vedie ku kaskádovým pokutám.",
-	"point_7_summary_1": "Bitcoinové transakcie sú odolné voči cenzúre — akonáhle sú odoslané do siete, nemôžu byť zastavené alebo zvrátené žiadnou centrálnou autoritou. Banky môžu blokovať, zmraziť, zrušiť alebo obmedziť transakcie na základe svojich pravidiel, vládnych príkazov alebo algoritmov podozrivej aktivity."
+	"point_4_summary_1": "Pri Bitcoine držíte svoje súkromné kľúče sami — pozrite si nášho jednoduchého sprievodcu ",
+	"point_4_summary_2": "Bitcoin peňaženkami",
+	"point_4_summary_3": ". Banky držia vaše peniaze a môžu ich kedykoľvek zmraziť, obmedziť alebo zablokovať.",
+	"point_5_summary_1": "Poplatky pri Bitcoine sú transparentné a predvídateľné. Banky postupne nabaľujú skryté poplatky za účty, prečerpanie, prevody a bankomaty.",
+	"point_6_summary_1": "Bitcoin vám umožní minúť len to, čo skutočne vlastníte. Banky povolia prečerpanie a potom vám za to účtujú reťazové sankčné poplatky.",
+	"point_7_summary_1": "Akonáhle sú odoslané, transakcie Bitcoinu nemožno zastaviť ani vrátiť. Banky môžu blokovať, zmrazovať alebo rušiť transakcie na základe pravidiel alebo vládnych príkazov.",
+	"hero_title": "Rozdiel medzi <span class=\"orange\">Bitcoinom</span> a <span class=\"asset\">bankami</span>"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_vs_gold": "Bitcoin vs Zlato",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Decentralizovaný",
 	"bitcoin_point_6": "Ľahko overiteľný",
 	"bitcoin_point_7": "Ľahko deliteľný",
-	"point_1_summary_1": "Pretože je Bitcoin digitálny, môže ho ktokoľvek s pripojením na internet odoslať takmer okamžite za veľmi nízke poplatky. Pretože je zlato fyzické, nemožno ho prenášať cez internet a pre prevod vlastníctva musí byť fyzicky odoslané.",
-	"point_2_summary_1": "Bitcoin je digitálne natívne aktívum, čo znamená, že cez internet môžete previesť plné vlastníctvo. Niektoré spoločnosti ponúkajú možnosť kúpiť zlato online bez prijatia skutočného fyzického zlata, namiesto toho dôverujete spoločnosti, že zlato drží za vás. To je skôr ako digitálny dlžobný úpis, pretože vlastníte iba prísľub od spoločnosti namiesto skutočného aktíva.",
-	"point_3_summary_1": "Bitcoin má pevný strop 21 miliónov BTC, ktoré kedy budú existovať.",
-	"point_3_summary_2": "Nová ponuka zlata sa každý rok ťaží zo zeme, čo má za následok infláciu celkovej ponuky. Odhaduje sa, že celková ponuka zlata rastie približne o 1,6 % ročne, čo znamená, že váš podiel koláča sa každý rok zmenší o 1,6 %.",
-	"point_3_summary_3": "To je menej ako fiat inflácia, ale stále je to inflácia.",
-	"point_4_summary_1": "Zlato má elastickú ponuku, čo znamená, že s rastúcou cenou zlata je väčšia motivácia ťažiť viac zlata. To často vytvára tlak na pokles ceny zlata, keď sa spustia nové bane.",
+	"point_1_summary_1": "Bitcoin možno okamžite poslať po internete za nízke poplatky. Zlato treba fyzicky odoslať, aby sa previedlo vlastníctvo.",
+	"point_2_summary_1": "Bitcoin je digitálne natívne aktívum, ktoré môžete prenášať po internete. Online zlato je digitálna dlžobná úpis — vlastníte len sľub depozitára, nie samotný kov.",
+	"point_3_summary_1": "Bitcoin má pevný strop 21 miliónov BTC. Ponuka zlata rastie asi <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">o 1,6 % ročne</a>, čím sa vaše podiely zmenšujú — menej ako pri fiat",
+	"point_3_summary_2": "inflácii",
+	"point_3_summary_3": "— ale predsa inflácia.",
+	"point_4_summary_1": "Keď ceny zlata rastú, ťaží sa viac zlata, čo cenu zase zrazí. Ponuka Bitcoinu je neelastická — nech cena vystúpi akokoľvek vysoko, vždy bude len 21 miliónov.",
 	"point_4_summary_2": "U Bitcoinu, bez ohľadu na to, ako vysoko cena stúpne, nemôžete vytvoriť viac ako 21M Bitcoinov.",
 	"point_4_summary_3": "Bitcoin je prvé aktívum s neelastickým vzťahom medzi cenou a ponukou.",
-	"point_5_summary_1": "Bitcoinová sieť je decentralizovaná.",
+	"point_5_summary_1": "Sieť Bitcoin overujú desaťtisíce nezávislých uzlov. Väčšina fyzického zlata leží v niekoľkých veľkých depozitároch.",
 	"point_5_summary_2": "Desaťtisíce nezávislých uzlov overujú pravidlá siete.",
-	"point_6_summary_1": "U Bitcoinu je neuveriteľne jednoduché overiť, že máte skutočný Bitcoin, tým, že si vezmete svoje mince do vlastnej správy a spustíte plný uzol.",
+	"point_6_summary_1": "Ktokoľvek môže overiť pravý Bitcoin spustením plného uzla — je to len aplikácia. Overenie fyzického zlata vyžaduje jeho roztavenie; vnútri by mohol byť volfrám.",
 	"point_6_summary_2": "Vlastná správa je tak jednoduchá ako stiahnutie aplikácie.",
 	"point_6_summary_3": "Plný uzol je jednoduchý softvér, ktorý zabezpečuje dodržiavanie pravidiel siete a overuje, že máte skutočný Bitcoin.",
-	"point_7_summary_1": "Rovnako ako je 100 centov v 1 dolári, je 100 000 000 satoshi v 1 Bitcoine. To umožňuje použiť Bitcoin na nákupy všetkých veľkostí, vrátane mikrotransakcií v ráde niekoľkých centov.",
-	"point_7_summary_2": "To robí z Bitcoinu dobrý nástroj pre podnikanie."
+	"point_7_summary_1": "Bitcoin sa delí na 100 miliónov satoshi, takže je ideálny pre nákupy akejkoľvek veľkosti. Zlato nemožno ľahko deliť na menšie transakcie.",
+	"point_7_summary_2": "To robí z Bitcoinu dobrý nástroj pre podnikanie.",
+	"hero_title": "Rozdiel medzi <span class=\"orange\">Bitcoinom</span> a <span class=\"asset\">zlatom</span>"
 }

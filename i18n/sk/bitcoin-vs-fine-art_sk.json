@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Umenie",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kryptograficky overiteľný",
 	"bitcoin_point_6": "Ťažko zničiteľný",
 	"bitcoin_point_7": "Prístupný každému",
-	"point_1_summary_1": "Bitcoin je dokonale zameniteľný, čo znamená, že každý bitcoin je identický a vzájomne zameniteľný — jeden bitcoin sa rovná jednému bitcoinu kdekoľvek na svete. Umenie je zo svojej podstaty nezameniteľné, pričom každé dielo je unikátne svojím vytvorením, históriou, stavom a provenienclou, čo robí priame porovnania a ocenenia extrémne ťažkými.",
-	"point_2_summary_1": "Bitcoin sa obchoduje na globálnom trhu 24/7, kde ktokoľvek s prístupom na internet môže okamžite kupovať alebo predávať. Umenie vyžaduje špecializované aukčné domy ako Sotheby's alebo Christie's, súkromných dílerov alebo exkluzívne galérie. Predaj môže trvať mesiace a prístup na trh je obmedzený.",
-	"point_3_summary_1": "Nákup alebo predaj bitcoinu stojí zvyčajne menej ako 1 % na poplatkoch, často oveľa menej. Predaj umenia zahŕňa značné náklady vrátane prémie kupujúceho (10–25 %), provízie predávajúceho (10–15 %), poistenia, prepravy, skladovania a poplatkov za autentifikáciu. Tieto kombinované náklady môžu ľahko presiahnuť 30–40 % hodnoty diela v jedinej transakcii.",
-	"point_4_summary_1": "Bitcoin možno rozdeliť na 100 miliónov menších jednotiek nazývaných satoshi, čo ho robí ideálnym pre transakcie akejkoľvek veľkosti. Umenie nemožno rozdeliť — nemôžete vlastniť zlomok obrazu alebo predať len časť sochy. Táto nedeliteľnosť obmedzuje investičnú flexibilitu.",
-	"point_5_summary_1": "Vlastníctvo a autentickosť Bitcoinu možno kryptograficky overiť na blockchaine kýmkoľvek so základnými technickými znalosťami. Umenie vyžaduje nákladnú odbornú autentifikáciu, výskum proveniencie a vedeckú analýzu. Aj napriek odbornému overeniu falzifikáty pravidelne klamú svet umenia. Bitcoin naopak nemožno padělať.",
-	"point_6_summary_1": "Bitcoin, ak je správne zálohovaný, nemôže byť zničený povodňami, požiarmi, zemetraseniami, hurikánmi, krádežou ani inými katastrofami. Umenie je zraniteľné voči všetkým formám fyzického zničenia a degradácie.",
-	"point_7_summary_1": "Bitcoin môže kupovať a predávať ktokoľvek s prístupom na internet a malou čiastkou peňazí na investovanie. Investície do umenia sú do značnej miery obmedzené na bohatých zberateľov kvôli vysokým minimálnym cenám, exkluzívnemu prístupu na aukcie, požiadavkám na skladovanie, nákladom na poistenie a špecializovaným znalostiam."
+	"point_1_summary_1": "Každý bitcoin je identický a zameniteľný. Každé umelecké dielo je jedinečné — iný vznik, história, stav a proveniencia robia priame porovnanie extrémne ťažkým.",
+	"point_2_summary_1": "Bitcoin sa obchoduje 24/7 na globálnom trhu dostupnom komukoľvek. Výtvarné umenie vyžaduje špecializované aukčné domy, súkromných obchodníkov alebo galérie a predaj môže trvať mesiace.",
+	"point_3_summary_1": "Nákup alebo predaj Bitcoinu stojí menej ako 1 % na poplatkoch, často oveľa menej. Predaj umeleckých diel nakopí 30 – 40 % v prémiách kupujúceho, províziách, poistení, preprave a overovacích poplatkoch.",
+	"point_4_summary_1": "Bitcoin sa delí na 100 miliónov satoshi, takže je ideálny pre transakcie akejkoľvek veľkosti. Nemôžete vlastniť časť obrazu alebo roh sochy bez rizika protistrany.",
+	"point_5_summary_1": "Vlastníctvo a pravosť Bitcoinu môže ktokoľvek kryptograficky overiť na blockchaine. Overovanie pravosti umeleckých diel je drahé, pomalé a pravidelne ho mätú falšovatelia — čo zo dňa na deň ničí hodnotu diela.",
+	"point_6_summary_1": "Správne zálohovaný Bitcoin prežije záplavy, požiare, zemetrasenia aj krádež. Výtvarné umenie je zraniteľné voči všetkým formám fyzického zničenia a poistenie len zriedka pokryje všetko.",
+	"point_7_summary_1": "Ktokoľvek s pripojením k internetu a trochou peňazí môže kúpiť Bitcoin. Investovanie do výtvarného umenia je prakticky obmedzené na bohatých zberateľov s prístupom k aukciám a špecializovaným znalostiam.",
+	"hero_title": "Rozdiel medzi <span class=\"orange\">Bitcoinom</span> a <span class=\"asset\">výtvarným umením</span>"
 }
