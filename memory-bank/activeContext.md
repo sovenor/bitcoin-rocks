@@ -1,3 +1,58 @@
+## Urdu (ur) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Urdu` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+49/54 complete.** Urdu (`اردو`) is the national language of Pakistan
+and a co-official language of several Indian states (Bihar, Delhi,
+Jammu & Kashmir, Telangana, Uttar Pradesh, West Bengal), with ~70M
+native speakers. Indo-Aryan language (closely related to Hindi
+linguistically; sociolinguistically distinct via Perso-Arabic script
++ Persian/Arabic loanword preference). One of 4 RTL locales in this
+repo (ar, fa, he, ur).
+
+**Report stats:**
+- 528 missing locale-specific (largest gap among the 8 batch
+  members)
+- 10 untranslated (sticker dimension strings byte-identical to
+  English)
+- 165 manifest-changed + 392 manifest-added → **1,095 total**
+
+**3 helper scripts + 2 utilities under `scripts/ur-manifest-refresh/`:**
+
+- `translate-inflation.js` — 368 entries. Per-currency templated
+  translator × 13 currencies with Urdu currency naming (امریکی
+  ڈالر, یورو, آسٹریلوی ڈالر, برازیلی ریئل, کینیڈین ڈالر, برطانوی
+  پاؤنڈ, اسرائیلی شیکل, بھارتی روپیہ, جاپانی ین, میکسیکن پیسو,
+  نیوزی لینڈ ڈالر, فلپائنی پیسو, تھائی باہت), formal polite "آپ"
+  register throughout. Plus 41 non-currency keys.
+- `translate-rest-part1.js` — 259 entries. 404, about, bank-runs,
+  common, compound-inflation-calculator, index, lightning, wallets,
+  buy, flyers, stickers, sticker-success, sticker-language-success,
+  sticker-files/index.
+- `translate-rest-part2.js` — 468 entries. business/* (accounting,
+  faq, maps, stickers, wallets, why, index, *-success),
+  nostr/index, get-involved, all 10 bitcoin-vs-* comparison pages.
+- `fix-untranslated.js` — 10 sticker-dimension keys with cm/in
+  units localized to "سم/انچ" (matching Thai's pattern from earlier
+  sessions).
+- `dump-remaining.js` — dev helper for inspecting outstanding
+  entries.
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- "Bitcoin" kept in Latin script (matches BBC Urdu, Dawn, Geo
+  crypto coverage). Urdu-script transliteration "بٹ کوائن" also
+  acceptable for non-technical audiences; agent stuck with Latin
+  throughout for consistency.
+- Western Arabic numerals (0-9) used per existing
+  `i18n/ur/inflation_ur.json` convention. Eastern Arabic (٠-٩) is
+  rarer in Pakistani financial press.
+- **RTL rendering is automatic** via `<html dir="rtl">` set from
+  `RTL_LOCALES` in `lib/i18n/config.ts`; no per-component logic
+  needed. The repo has been rendering ur in RTL since the V2
+  migration.
+
 ## Turkish (tr) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Turkish` end-to-end as part of the

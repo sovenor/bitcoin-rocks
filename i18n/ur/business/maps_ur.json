@@ -3,7 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ur"
-	}
+	},
+	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin تاجروں کی فہرستیں - اپنا کاروبار مفت میں درج کرائیں",
+	"maps_view": "نقشہ یہاں دیکھیں۔",
+	"biz_maps_hero_title": "اپنا کاروبار Bitcoin تاجروں کی فہرستوں پر لائیں",
+	"biz_maps_hero_subtitle": "اپنا کاروبار BTC Map پر مفت درج کریں — Bitcoin قبول کرنے والے تاجروں کی کھلی، عالمی ڈائریکٹری — تاکہ آس پاس کے Bitcoiners آپ کو ڈھونڈ سکیں اور آپ کے کاروبار میں Bitcoin خرچ کریں۔",
+	"biz_maps_intro_c1": "Bitcoiners فعال طور پر خرچ کرنے کی جگہیں ڈھونڈتے ہیں۔ اپنا کاروبار نقشے پر لانا آپ کو ہر اس Bitcoin استعمال کنندہ کے سامنے رکھتا ہے جو آس پاس کھانے، خریداری یا قیام کے لیے کوئی جگہ ڈھونڈ رہا ہے — آپ کے لیے بغیر کسی قیمت کے۔",
+	"biz_maps_intro_c2": "بس نیچے دیا گیا مختصر فارم بھریں اور ہم آپ کے لیے آپ کا کاروبار BTC Map اور دیگر Bitcoin تاجروں کی فہرستوں میں جمع کرا دیں گے۔",
+	"biz_maps_view_map_cta": "BTC Map دیکھیں",
+	"biz_maps_form_header": "اپنے کاروبار کے بارے میں ہمیں بتائیں",
+	"biz_maps_form_intro": "آپ کو فہرست میں شامل کرنے کے لیے ہمیں صرف چند تفصیلات کی ضرورت ہے۔ ایڈریس کا ڈیٹا صرف اتنی دیر کے لیے رکھا جاتا ہے جتنا آپ کے کاروبار کو نقشوں پر جمع کرنے میں لگے۔",
+	"biz_maps_placeholder_name": "کاروبار کا نام",
+	"biz_maps_placeholder_category": "زمرہ (مثلاً ریستوران، کیفے، ہوٹل)",
+	"biz_maps_placeholder_address": "گلی کا پتہ",
+	"biz_maps_placeholder_city": "شہر",
+	"biz_maps_placeholder_region": "ریاست / صوبہ / علاقہ",
+	"biz_maps_placeholder_country": "ملک",
+	"biz_maps_placeholder_website": "ویب سائٹ (اختیاری)",
+	"biz_maps_meta_description": "BTC Map اور دیگر Bitcoin تاجروں کی فہرستوں پر اپنا کاروبار مفت درج کریں تاکہ آس پاس کے Bitcoiners آپ کو ڈھونڈ سکیں۔"
 }

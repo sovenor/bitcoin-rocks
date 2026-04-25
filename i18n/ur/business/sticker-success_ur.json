@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ur"
-	}
+	},
+	"biz_sticker_success_hero_title": "آپ کے سٹیکرز راستے میں ہیں 🎉",
+	"biz_sticker_success_hero_subtitle": "آپ کو 2 سے 4 ہفتوں میں اپنے مفت 'Bitcoin Accepted Here' سٹیکرز موصول ہوں گے، ایک سادہ سفید لفافے میں 3 سٹیکرز کے ساتھ۔",
+	"biz_sticker_success_tips_header": "اپنے سٹیکرز لگانے کی اچھی جگہیں",
+	"biz_sticker_success_tip_1": "اپنے سامنے والے دروازے یا کھڑکی پر تاکہ گاہک اندر آنے سے پہلے دیکھیں",
+	"biz_sticker_success_tip_2": "اپنے رجسٹر، POS ٹرمینل، یا ادائیگی کے علاقے کے قریب",
+	"biz_sticker_success_tip_3": "مینو، قیمت کی فہرستوں، یا ٹپ کے جار پر",
+	"biz_sticker_success_tip_4": "کسی ایسی جگہ نہ لگائیں جس کے آپ مالک نہیں یا جہاں لگانے کی اجازت نہیں",
+	"biz_sticker_success_more_header": "مزید سٹیکرز چاہیے؟",
+	"biz_sticker_success_more_c1": "اگر آپ کے کاروبار کے لیے 3 سٹیکرز کافی نہیں، تو بے فکر ہو کر ایک اور مفت پیکٹ کی درخواست کریں — یا اسی پرنٹر سے تھوک میں آرڈر کریں جو ہم استعمال کرتے ہیں۔",
+	"biz_sticker_success_btn_order_bulk": "تھوک میں آرڈر کریں",
+	"biz_sticker_success_btn_request_more": "ایک اور مفت پیکٹ کی درخواست کریں"
 }

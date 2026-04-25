@@ -1,0 +1,112 @@
+{
+	"lang": "ur",
+	"generatedAt": "2026-04-25T22:56:55.743Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T22:37:14.551Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-25T22:55:58.213Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 10,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1208,
+		"brandIdentical": 77
+	},
+	"entries": [
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_bdhi",
+			"reason": "untranslated",
+			"englishValue": "21.59 cm x 4.6482 cm (8.5 in x 1.83 in)",
+			"currentValue": "21.59 cm x 4.6482 cm (8.5 in x 1.83 in)",
+			"targetTranslation": "21.59 سم x 4.6482 سم (8.5 انچ x 1.83 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_bitcoin_accepted_here",
+			"reason": "untranslated",
+			"englishValue": "20.995 cm x 6.35 cm (8.25 in x 2.5 in)",
+			"currentValue": "20.995 cm x 6.35 cm (8.25 in x 2.5 in)",
+			"targetTranslation": "20.995 سم x 6.35 سم (8.25 انچ x 2.5 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_caution",
+			"reason": "untranslated",
+			"englishValue": "12.0142 cm x 7.9502 cm (4.73 in x 3.13 in)",
+			"currentValue": "12.0142 cm x 7.9502 cm (4.73 in x 3.13 in)",
+			"targetTranslation": "12.0142 سم x 7.9502 سم (4.73 انچ x 3.13 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_cure_v2",
+			"reason": "untranslated",
+			"englishValue": "6.35 cm x 12.7 cm (2.5 in x 5 in)",
+			"currentValue": "6.35 cm x 12.7 cm (2.5 in x 5 in)",
+			"targetTranslation": "6.35 سم x 12.7 سم (2.5 انچ x 5 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_danger",
+			"reason": "untranslated",
+			"englishValue": "11.4544 cm x 8.382 cm (4.51 in x 3.3 in)",
+			"currentValue": "11.4544 cm x 8.382 cm (4.51 in x 3.3 in)",
+			"targetTranslation": "11.4544 سم x 8.382 سم (4.51 انچ x 3.3 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_fix",
+			"reason": "untranslated",
+			"englishValue": "11.3792 cm x 6.8072 cm (4.48 in x 2.68 in)",
+			"currentValue": "11.3792 cm x 6.8072 cm (4.48 in x 2.68 in)",
+			"targetTranslation": "11.3792 سم x 6.8072 سم (4.48 انچ x 2.68 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_got_inflation",
+			"reason": "untranslated",
+			"englishValue": "7.9248 cm x 14.605 cm (3.12 in x 5.75 in)",
+			"currentValue": "7.9248 cm x 14.605 cm (3.12 in x 5.75 in)",
+			"targetTranslation": "7.9248 سم x 14.605 سم (3.12 انچ x 5.75 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_study",
+			"reason": "untranslated",
+			"englishValue": "14.605 cm x 5.1308 cm (5.75 in x 2.02 in)",
+			"currentValue": "14.605 cm x 5.1308 cm (5.75 in x 2.02 in)",
+			"targetTranslation": "14.605 سم x 5.1308 سم (5.75 انچ x 2.02 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_warning",
+			"reason": "untranslated",
+			"englishValue": "10.414 cm x 9.2202 cm (4.1 in x 3.63 in)",
+			"currentValue": "10.414 cm x 9.2202 cm (4.1 in x 3.63 in)",
+			"targetTranslation": "10.414 سم x 9.2202 سم (4.1 انچ x 3.63 انچ)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_dimensions_what_if",
+			"reason": "untranslated",
+			"englishValue": "21.7932 cm x 7.62 cm (8.58 in x 3 in)",
+			"currentValue": "21.7932 cm x 7.62 cm (8.58 in x 3 in)",
+			"targetTranslation": "21.7932 سم x 7.62 سم (8.58 انچ x 3 انچ)"
+		}
+	],
+	"appliedAt": "2026-04-25T22:56:55.801Z",
+	"appliedStats": {
+		"resolved": 10,
+		"unresolved": 0,
+		"filesTouched": 1,
+		"keysWritten": 10,
+		"filesCreated": 0,
+		"markerWritten": false
+	}
+}
