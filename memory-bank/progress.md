@@ -1,3 +1,50 @@
+## i18n cleanup Step 5 — Slovenian (sl) — 2026-04-25
+
+Ran `/translate-manifest-refresh Slovenian`. Slovenian
+(`Slovenščina`) is the official language of Slovenia, ~2.1M native
+speakers; South Slavic, mutually intelligible with Croatian and shares
+case grammar with Slovak/Czech. **Counter:** 42/54 languages complete.
+1,022 entries flagged (464 missing locale-specific + 1 untranslated +
+165 manifest-changed + 392 manifest-added).
+
+**4 helper scripts under `scripts/sl-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — 327 per-currency × 13
+   currencies via templated function with Slovenian noun forms
+   (`longName` locative "in X", `longNameNom`, `nounPlural`
+   genitive plural for compound counting), formal "vi/vaš" register +
+   41 non-currency keys: freedom cards (Redek / Decentraliziran / Brez
+   dovoljenja / Suveren), stories (Kanada/Nigerija/Pensilvanija/Teksas),
+   sources, 5 manifest-changed hero/intro keys including the rewritten
+   H1 "Bitcoin nima inflacije, vaš denar pa.").
+2. `translate-rest-part1.js` (193 entries — 404 + about + bank-runs +
+   all 10 bitcoin-vs-* comparison pages with German-style typographic
+   quotation marks „…", Slovenian diacritics (č, š, ž), inline
+   `<a class="body-link">` HTML preserved for Wikipedia India and
+   gold.org links; Slovenian terminology — "Bitcoin" Latin loanword,
+   "denarnica" wallet, "inflacija" inflation, "naskok na banko" bank run
+   (lit. "attack on the bank"), "lastno skrbništvo" self-custody,
+   "blockchain" loanword, "tveganje nasprotne stranke" counterparty
+   risk; numeric format with comma decimal + period thousands
+   "153,9 mrd. USD" / "10,82 bilijona USD" / "1,42 %" / "21.000.000").
+3. `translate-rest-part2.js` (460 entries — full business/* subtree
+   (accounting "nabavna vrednost" cost-basis, why "Tu sprejemamo
+   Bitcoin" QR landing, wallets/maps/stickers/FAQs/sticker-files/
+   english), buy, common with "Vir:" for "Source:" and "Kaj sledi?"
+   for "What's next?", compound-inflation-calculator, flyers as
+   "letaki", get-involved as "Vključite se", index homepage with all
+   62 home card labels (e.g. "Primerjajmo", "V čem je razlika?",
+   "Ulična umetnost", "Velika prelomnica", "Stabilizacija omrežja",
+   "Konec neskončne vojne", "Suvereni denar"), lightning, nostr/index,
+   sticker-files/index, sticker-language-success, sticker-success,
+   stickers, wallets).
+4. `fix-remaining.js` (1 byte-identical "Material:" → "Snov:" —
+   Slovenian native word for material/substance, byte-distinct from
+   English).
+
+**Verification:** all 4 checks (marker, locale-specific coverage,
+manifest coverage, stale English) pass. `npm run build` clean across
+55 locales × 81 pages.
+
 ## i18n cleanup Step 5 — Slovak (sk) — 2026-04-25
 
 Ran `/translate-manifest-refresh Slovak`. Slovak (`Slovenčina`) is the

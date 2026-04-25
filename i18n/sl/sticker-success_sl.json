@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"sticker_success_1": "Svoje nalepke boste prejeli v 2 do 4 tednih. Medtem poskusite najti dobro mesto za vaše nalepke!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "na mestih, od koder verjetno ne bodo hitro odstranjene (nalepke ne povzročajo nobene trajne škode)",
 	"sticker_success_list_3": "na površinah, na katere se zlahka prilepijo (kovina, plastika, steklo)",
 	"sticker_success_list_4": "NE na zasebni lastnini, čez oznake, bankomate ali bencinske črpalke",
-	"sticker_success_3": "Želite videti, kam drugi ljudje lepijo svoje nalepke?"
+	"sticker_success_3": "Želite videti, kam drugi ljudje lepijo svoje nalepke?",
+	"sticker_success_hero_title": "Vaše nalepke so na poti 🎉",
+	"sticker_success_tips_header": "Dobra mesta za nalepke",
+	"sticker_success_share_header": "Delite mesta, kamor ste namestili nalepke",
+	"sticker_success_bulk_header": "Potrebujete več nalepk?",
+	"sticker_success_btn_order_bulk": "Naroči veleprodajno",
+	"sticker_success_btn_share_on_nostr": "Deli na Nostru",
+	"sticker_success_btn_what_is_nostr": "Kaj je Nostr?"
 }

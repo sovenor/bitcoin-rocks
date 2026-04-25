@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Angleške datoteke nalepk 'Bitcoin sprejet tukaj'",
-	"english_biz_sticker_files_description": "Prenesite angleške datoteke nalepk za tiskanje lastnih nalepk Bitcoin sprejet tukaj."
+	"english_biz_sticker_files_description": "Prenesite angleške datoteke z nalepkami, da lahko natisnete svoje nalepke „Tu sprejemamo Bitcoin“.",
+	"biz_stickers_english_hero_title": "Prenesite angleške datoteke z nalepkami „Tu sprejemamo Bitcoin“",
+	"biz_stickers_english_hero_subtitle": "Natisnite svoje nalepke „Tu sprejemamo Bitcoin“ v angleščini, da strankam sporočite, da sprejemate Bitcoin."
 }

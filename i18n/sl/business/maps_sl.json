@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Zemljevidi bitcoinovih trgovcev — Brezplačen vpis vašega podjetja",
-	"maps_view": "Oglejte si zemljevid tukaj."
+	"maps_view": "Oglejte si zemljevid tukaj.",
+	"biz_maps_hero_title": "Postavite svoje podjetje na zemljevide Bitcoin trgovcev",
+	"biz_maps_hero_subtitle": "Vpišite svoje podjetje brezplačno na BTC Map — odprt globalni imenik trgovcev, ki sprejemajo Bitcoin — da vas Bitcoinarji v vaši okolici najdejo in pri vas porabijo Bitcoin.",
+	"biz_maps_intro_c1": "Bitcoinarji aktivno iščejo kraje, kjer bi porabili. Ko bo vaše podjetje na zemljevidu, se boste pokazali vsakemu Bitcoin uporabniku, ki v okolici išče, kje bi jedel, nakupoval ali prenočil — povsem brezplačno.",
+	"biz_maps_intro_c2": "Samo izpolnite kratek obrazec spodaj in vaše podjetje bomo poslali na BTC Map in druge zemljevide Bitcoin trgovcev.",
+	"biz_maps_view_map_cta": "Pokaži BTC Map",
+	"biz_maps_form_header": "Povejte nam o svojem podjetju",
+	"biz_maps_form_intro": "Potrebujemo le nekaj podatkov, da vas vpišemo. Podatke o naslovu hranimo le toliko časa, kot je potrebno, da vaše podjetje pošljemo na zemljevide.",
+	"biz_maps_placeholder_name": "Ime podjetja",
+	"biz_maps_placeholder_category": "Kategorija (npr. restavracija, kavarna, hotel)",
+	"biz_maps_placeholder_address": "Ulica in hišna številka",
+	"biz_maps_placeholder_city": "Mesto",
+	"biz_maps_placeholder_region": "Regija / pokrajina",
+	"biz_maps_placeholder_country": "Država",
+	"biz_maps_placeholder_website": "Spletna stran (neobvezno)",
+	"biz_maps_meta_description": "Vpišite svoje podjetje brezplačno na BTC Map in druge zemljevide Bitcoin trgovcev, da vas Bitcoinarji v vaši okolici najdejo."
 }

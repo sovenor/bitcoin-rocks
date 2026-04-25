@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"sticker_language_success_1": "Vašo zahtevo smo uspešno prejeli.",
-	"sticker_language_success_2": "Nove datoteke objavljamo v serijah, zato lahko traja nekaj tednov, preden bodo te datoteke na voljo za prenos. Preverite znova kmalu!"
+	"sticker_language_success_2": "Nove datoteke objavljamo v serijah, zato lahko traja nekaj tednov, preden bodo te datoteke na voljo za prenos. Preverite znova kmalu!",
+	"sticker_language_success_hero_title": "Prošnja prejeta 🎉"
 }

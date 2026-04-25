@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_vs_crypto": "Bitcoin proti kriptu",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Čist digitalni denar",
 	"bitcoin_point_7": "Antifragilen",
 	"bitcoin_point_8": "Nobeden subjekt ga ne nadzoruje",
-	"point_1_summary_1": "Protokol Bitcoina ostaja od leta 2009 v bistvu nespremenjen, kar zagotavlja predvidljiva pravila, ki jih ni mogoče enostavno spremeniti. Večina kripto projektov pogosto posodablja svoje protokole, spreminja ekonomiko žetonov ali se razceplja v nove različice, kar ustvarja negotovost za uporabnike.",
-	"point_2_summary_1": "Bitcoin deluje na resnično decentraliziranem omrežju z desttisoči neodvisnih vozlišč po vsem svetu. Mnoge kripto projekte nadzorujejo fundacije, podjetja ali majhne skupine razvijalcev, ki lahko enostransko odločajo o prihodnosti protokola.",
-	"point_3_summary_1": "Bitcoin ima fiksno zgornjo mejo 21 milijonov kovancev, ki bodo kdaj obstajali, kar ga dela najredkejše digitalno sredstvo. Večina kripto projektov ima neomejeno ponudbo, inflacijske mehanizme ali možnost kovanja novih žetonov po želji, s čimer sčasoma redčijo vrednost imetnikov.",
-	"point_4_summary_1": "Bitcoin ima en preprost namen: enakovrstniški digitalni denar. Kdorkoli ga lahko razume in uporablja z osnovnim znanjem. Mnogi kripto projekti vključujejo zapletene pametne pogodbe, DeFi protokole ali mehanizme upravljanja, ki za varno uporabo zahtevajo tehnično strokovno znanje.",
-	"point_5_summary_1": "Bitcoin uporablja soglasje z dokazom dela, ki je bojno preizkušeno več kot 15 let brez enega samega uspešnega napada na glavno omrežje. Mnogi kripto projekti uporabljajo eksperimentalne mehanizme soglasja, kot je dokaz deleža ali delegirani sistemi, ki dolgoročne varnosti še niso dokazali.",
-	"point_6_summary_1": "Bitcoin služi kot digitalni denar — sredstvo za hrambo vrednosti in menjalno sredstvo. Večina kripto žetonov so uporabniški žetoni za specifične platforme, žetoni za upravljanje ali špekulativna sredstva z nejasno vrednostno ponudbo.",
-	"point_7_summary_1": "Bitcoin postaja pod napadom močnejši in je preživel vsako krizo, prepoved in kritiko, ki so bili usmerjeni nanj. Večina kripto projektov je krhka in se lahko sesuje pod regulativnim pritiskom, tehničnimi napakami ali tržnimi padci.",
-	"point_8_summary_1": "Bitcoin nima nobenega direktorja, nobenega podjetja za seboj in nobene posamezne točke odpovedi. Mnoge kripto projekte podpirajo podjetja tveganega kapitala, imajo prepoznavno vodstvo ali so odvisni od specifičnih podjetij za svoje nadaljnje delovanje."
+	"point_1_summary_1": "Protokol Bitcoina je v bistvu ostal enak od leta 2009 in ponuja predvidljiva pravila. Večina kriptoprojektov nenehno spreminja protokole, tokenomijo ali se cepi v nove različice.",
+	"point_2_summary_1": "Bitcoin teče na desettisočih neodvisnih vozliščih po vsem svetu. Večino kriptoprojektov nadzorujejo fundacije, podjetja ali majhne razvojne ekipe, ki lahko izvajajo enostranske spremembe.",
+	"point_3_summary_1": "Bitcoin ima trdno zgornjo mejo 21 milijonov kovancev — najredkejše digitalno premoženje. Večina kriptoprojektov ima neomejeno ponudbo ali mehanizme za poljubno ustvarjanje novih žetonov, ki razredčijo imetnike.",
+	"point_4_summary_1": "Bitcoin ima en sam namen: peer-to-peer digitalni denar. Razume in uporablja ga lahko vsakdo. Večina kripta vključuje zapletene pametne pogodbe ali DeFi, ki za varno uporabo zahtevajo tehnično znanje.",
+	"point_5_summary_1": "Proof of Work Bitcoina deluje brez uspešnega napada na glavno omrežje že več kot 15 let. Večina kriptoprojektov uporablja eksperimentalni konsenz, ki ni bil ostro preizkušen.",
+	"point_6_summary_1": "Bitcoin je digitalni denar — hranilec vrednosti in plačilno sredstvo. Večina kripto žetonov so špekulativni utility ali governance žetoni z nejasno realno vrednostjo.",
+	"point_7_summary_1": "Bitcoin pod napadom postaja močnejši in je preživel vsako krizo, prepoved in kritiko. Večina kriptoprojektov pade pod regulatornim, tehničnim ali tržnim pritiskom.",
+	"point_8_summary_1": "Bitcoin nima izvršnega direktorja, podjetja ali ene same točke odpovedi. Večina kriptoprojektov je odvisna od VC vlagateljev, posameznih voditeljev ali preživetja enega podjetja.",
+	"hero_title": "Razlika med <span class=\"orange\">Bitcoinom</span> in <span class=\"asset\">kriptom</span>"
 }

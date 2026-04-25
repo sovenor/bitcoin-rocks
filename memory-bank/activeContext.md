@@ -1,3 +1,84 @@
+## Slovenian (sl) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Slovenian` end-to-end. **Locale 42/54
+complete.** Slovenian (`Slovenščina`) is the official language of Slovenia,
+spoken natively by ~2.1M people. Slovenian is South Slavic and shares
+case-grammar foundations with Slovak/Czech (West Slavic) — close enough
+that the helper-script structure could mirror `sk-manifest-refresh/`,
+distinct enough that vocabulary, orthography, and the dual-number system
+required separate per-key writing.
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...` (post-2026-04-24 regen — 165
+  changed + 392 added = 557 total)
+- Locale-specific gaps: 464 missing + 1 untranslated (locale was largely
+  V1 with the entire `inflation` namespace and all 62 home card labels
+  in `index` missing; the only byte-identical-to-English value was
+  "Material:")
+- Manifest entries: 165 changed + 392 added → **1,022 total entries
+  flagged**
+
+**Helper-script split (4 scripts under `scripts/sl-manifest-refresh/`):**
+
+- `translate-inflation.js` — **368 entries**. Per-currency templated
+  translator × 13 currencies with Slovenian noun forms (`longName`
+  locative "in X" e.g. "ameriških dolarjih", `longNameNom` nominative
+  "ameriški dolar", `nounPlural` genitive plural for compound counting
+  "dolarjev"), formal "vi/vaš" register throughout — the standard
+  register for Slovenian educational copy. Plus 41 non-currency keys:
+  freedom cards (Redek / Decentraliziran / Brez dovoljenja / Suveren),
+  stories (Kanada / Nigerija / Pensilvanija / Teksas), sources, and 5
+  manifest-changed hero/intro keys including "Bitcoin nima inflacije,
+  vaš denar pa." for the rewritten H1.
+- `translate-rest-part1.js` — **193 entries**. 404 + about + bank-runs
+  + all 10 bitcoin-vs-* comparison pages with German-style low-then-high
+  typographic quotation marks „…" matching Slovenian typography,
+  Slovenian diacritics (č, š, ž), inline `<a class="body-link">` HTML
+  preserved for the Wikipedia India demonetisation and gold.org
+  supply-and-demand links. Slovenian terminology — "Bitcoin" preserved
+  as Latin loanword (universal in Slovenian crypto press), "denarnica"
+  (wallet), "inflacija" (inflation), "kapitalski dobiček/izguba" (capital
+  gain/loss), "naskok na banko" (bank run, lit. "attack on the bank"),
+  "lastno skrbništvo" (self-custody), "blockchain" kept as anglicism,
+  "tveganje nasprotne stranke" (counterparty risk); numeric format with
+  comma decimal + period thousands ("153,9 mrd. USD" / "10,82 bilijona
+  USD" / "1,42 %" / "21.000.000"); long scale "milijon"/"milijarda"/
+  "bilijon".
+- `translate-rest-part2.js` — **460 entries**. Full business/* subtree
+  (accounting with "nabavna vrednost" cost-basis, why as customer-facing
+  QR landing "Tu sprejemamo Bitcoin", wallets with Strike Business +
+  Square + IBEX/OpenNode/Breez/Zaprite, maps with "zemljevidi Bitcoin
+  trgovcev", stickers as "nalepke", FAQs, sticker-files/english) plus
+  buy, common with "Vir:" for Source: and "Kaj sledi?" for What's next?,
+  compound-inflation-calculator, flyers as "letaki", get-involved as
+  "Vključite se", index homepage with all 62 home card labels (e.g.
+  "Primerjajmo" for "Let's compare", "V čem je razlika?" for "What's
+  the difference?", "Ulična umetnost" for "Street art", "Velika
+  prelomnica" for "The great equalizer", "Stabilizacija omrežja" for
+  "Grid stabilization", "Konec neskončne vojne" for "End forever wars",
+  "Suvereni denar" for "Sovereign money"), lightning, nostr/index,
+  sticker-files/index, sticker-language-success, sticker-success,
+  stickers, wallets.
+- `fix-remaining.js` — **1 entry**. The single byte-identical
+  "Material:" cognate patched to "Snov:" — Slovenian native word for
+  material/substance, byte-distinct from English.
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- `npm run build` clean across 55 locales × 81 pages.
+
+**Edge cases / notes:**
+- Slovenian shares its low-then-high "…" quote style with German,
+  Czech, Slovak, and Croatian. Easy to reuse the same template literal.
+- The dual-number grammar (Slovenian is one of three living languages
+  with a fully productive dual) didn't matter for the per-currency
+  template since FRED-rendered figures always exceed 5 → genitive plural.
+- Native vocabulary preferred over anglicisms throughout (denarnica
+  vs wallet, naskok na banko vs bankrun, lastno skrbništvo vs
+  self-custody) — matches dominant style in Slovenian financial press
+  (Finance.si, Delo, Mladina).
+
 ## Slovak (sk) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Slovak` end-to-end. **Locale 41/54
