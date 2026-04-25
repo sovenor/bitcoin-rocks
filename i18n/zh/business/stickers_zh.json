@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"bitcoin_accepted_here_stickers": "「此处接受比特币」贴纸",
+	"biz_stickers_hero_title": "免费的「这里接受比特币」贴纸",
+	"biz_stickers_hero_subtitle": "让您的客户知道您接受比特币。订购一包免费的「这里接受比特币」贴纸，贴在您的店里。",
+	"biz_stickers_intro_c1": "接受比特币只是事情的一半——您的客户也需要知道您接受。这些小小的「这里接受比特币」贴纸专为贴在前门、收银台、菜单或客户付款前能看到的任何地方而设计。",
+	"biz_stickers_intro_c2": "我们会免费寄一包到美国或加拿大境内的任何地址，您也可以在世界任何地方自己打印。",
+	"biz_stickers_step_header": "您希望如何拿到您的贴纸？",
+	"biz_stickers_step_description": "我们会免费寄到美国和加拿大境内的地址。世界其他地方，您可以自己打印。",
+	"biz_stickers_option_usa": "🇺🇸 美国 —— 免费邮寄",
+	"biz_stickers_option_canada": "🇨🇦 加拿大 —— 免费邮寄",
+	"biz_stickers_option_print": "🌍 全球 —— 自己打印",
+	"biz_stickers_print_header": "打印您自己的贴纸文件",
+	"biz_stickers_print_c1": "无论您住在哪里，都可以打印自己的「这里接受比特币」贴纸。点击下面您的语言来下载贴纸文件和打印说明。",
+	"biz_stickers_request_header": "没看到您的语言？",
+	"biz_stickers_request_c1": "填写下面的表格，请求当地语言版本的「这里接受比特币」贴纸文件。准备好后我们会通知您。",
+	"biz_stickers_placeholder_translation1": "「这里接受比特币」的翻译",
+	"biz_stickers_placeholder_translation2": "「扫一扫了解为什么比特币对企业有利」的翻译",
 	"stickers_request": "获取免费贴纸"
 }

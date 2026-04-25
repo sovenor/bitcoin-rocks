@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "关于接受比特币的常见问题",
 	"faq_description": "对在您的企业接受比特币付款有疑问吗？",
+	"faq_hero_subtitle": "商家在开始接受比特币之前最常问的几个问题的简短答案——手续费、结算、钱包、退单、成本等等。",
+	"faq_intro_c1": "点击下面任意一个问题来展开答案。当您准备好开始接受比特币时，页面底部的商业资源会一步步带您走完每个步骤。",
 	"faq_s1": "什么是比特币？",
 	"faq_s1_c1": "比特币是两样东西：数字货币和计算机网络。",
 	"faq_s1_c2": "您可以使用比特币网络直接向他人发送比特币（数字货币）。",

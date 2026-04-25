@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"sticker_success_1": "您将在2到4周内收到贴纸。在此期间，想想贴纸的好去处吧！",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "不太容易被快速撕掉的地方（贴纸不会造成永久损坏）",
 	"sticker_success_list_3": "容易粘贴的表面（金属、塑料、玻璃）",
 	"sticker_success_list_4": "不要贴在私人财产、标识牌、ATM机或加油站上",
-	"sticker_success_3": "想看看其他人把贴纸贴在哪里吗？"
+	"sticker_success_3": "想看看其他人把贴纸贴在哪里吗？",
+	"sticker_success_hero_title": "您的贴纸已经在路上 🎉",
+	"sticker_success_tips_header": "贴贴纸的好地方",
+	"sticker_success_share_header": "分享您贴贴纸的位置",
+	"sticker_success_bulk_header": "想要更多贴纸？",
+	"sticker_success_btn_order_bulk": "批量订购",
+	"sticker_success_btn_share_on_nostr": "在 Nostr 上分享",
+	"sticker_success_btn_what_is_nostr": "Nostr 是什么？"
 }

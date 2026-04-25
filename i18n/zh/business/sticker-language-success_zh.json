@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "已收到您的请求 🎉",
+	"biz_sticker_language_success_hero_subtitle": "感谢您请求您所在语言的「这里接受比特币」贴纸文件。",
+	"biz_sticker_language_success_timeline_header": "接下来会发生什么",
+	"biz_sticker_language_success_timeline_c1": "我们将在 3 到 4 周内创建并发布您的贴纸文件。一旦准备好，您就可以从我们的贴纸文件页面免费下载并打印它们。",
+	"biz_sticker_language_success_timeline_c2": "贴纸文件是分批发布的，所以您所在的语言可能要再过几周才能上线。感谢您的耐心！"
 }

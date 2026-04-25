@@ -1,3 +1,47 @@
+## i18n cleanup Step 5 — Chinese (zh) — 2026-04-25
+
+Ran `/translate-manifest-refresh Chinese` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/tr/ur/uz/vi/yo/zu. Mandarin Chinese (`中文`) is the most-spoken
+language globally with ~1.1B native speakers; Sino-Tibetan family.
+Han logographic script (Simplified used in this repo for the `zh`
+locale, matching mainland convention). **Counter:** 53/54.
+1,021 entries flagged (464 missing + 165 manifest-changed + 392
+manifest-added; 0 untranslated since Han characters differ from
+Latin so the byte-identical check almost never fires).
+
+**3 helper scripts under `scripts/zh-manifest-refresh/`:**
+1. `01-translate-inflation.js` (368 entries — 327 dynamic per-currency
+   × 13 currencies via templated function with Chinese currency
+   naming (美元, 欧元, 英镑, 日元, 澳元, 加元, 新西兰元, 雷亚尔,
+   比索, 卢比, 谢克尔, 泰铢) cycling through ~27 templates each +
+   41 non-currency keys).
+2. `02-translate-index.js` (62 entries — V2 homepage card labels +
+   nav + h1).
+3. `03-translate-rest.js` (591 entries — single big map keyed by
+   `${namespace}::${key}` covering all comparison pages, business/*,
+   nostr/index, about, common, bank-runs, get-involved, wallets,
+   lightning, buy, stickers, etc.).
+
+**Edge cases / notes:**
+- **Translation conventions matched to existing `i18n/zh/*.json`:**
+  formal "您" pronoun, "比特币" for Bitcoin (the universal Chinese
+  name).
+- **Numerics:** Western Arabic numerals with Chinese magnitude
+  separators — "1,539 亿美元" for $153.9B; "10.82 万亿美元" for
+  $10.82T; "2,100 万" for 21M. (Chinese uses 万 = 10,000 and 亿 =
+  100,000,000 as magnitude separators.)
+- **No spaces between Chinese characters** within a clause; spaces
+  only at sentence boundaries and between Chinese and Latin words.
+- Inline-link sentence fragments (e.g. `bitcoin-vs-cash::point_3_summary_1`
+  ends mid-sentence with `point_3_summary_2` being just "通胀。")
+  split correctly to match English fragmentation so the rendered
+  HTML reads naturally.
+- "Bitcoin Accepted Here" rendered as 「这里接受比特币」 (Chinese
+  corner-quote convention).
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Yoruba (yo) — 2026-04-25
 
 Ran `/translate-manifest-refresh Yoruba` end-to-end via the

@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"bitcoin_is_good_for_business": "比特币对企业有利",
+	"business_hero_subtitle": "以更低的手续费收款、立即到账、触及数百万新客户——零合同、零隐藏成本。",
+	"business_intro_c1": "比特币让您的企业用更快、更便宜、更注重隐私的方式收款。没有中间商。没有退单。没有合同。只有几秒钟内就能从客户直接到达您手上的钱。",
+	"business_intro_c2": "下面是为什么比特币对企业有好处的简短版本——再下面是您今天就开始接受比特币所需的全部资源。",
 	"biz_s1": "低手续费，无最低限额",
 	"biz_s1_c1": "比特币允许您直接从客户那里接收付款，就像现金一样。比特币网络无需银行和信用卡公司等收取高额费用的中间人即可运行。",
 	"biz_s2": "即时结算",
@@ -17,5 +20,14 @@
 	"biz_s4": "获得更多客户",
 	"biz_s4_c1": "数百万人拥有比特币，并希望在接受比特币的商家消费。",
 	"biz_s4_c2": "只需接受比特币，您的企业就可以在比特币商户地图上列出，免费获得新客户的曝光。",
-	"biz_s4_c3": "接受比特币100%免费。无合同，无隐藏费用。"
+	"biz_s4_c3": "接受比特币100%免费。无合同，无隐藏费用。",
+	"business_resources_heading": "开始接受比特币所需的一切",
+	"business_resources_intro": "按您自己的节奏完成这些资源。每一个都是简短、实用的指南。",
+	"biz_label_wallets": "钱包",
+	"biz_label_maps": "商家地图",
+	"biz_label_stickers": "贴纸",
+	"biz_label_rewards": "奖励",
+	"biz_label_accounting": "会计",
+	"biz_label_faq": "常见问题",
+	"biz_meta_description": "在您的企业接受比特币：手续费更低、即时结算、没有退单，还能吸引更多客户。"
 }

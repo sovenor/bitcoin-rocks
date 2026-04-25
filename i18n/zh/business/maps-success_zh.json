@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
-	}
+	},
+	"biz_maps_success_hero_title": "已收到您的请求 🎉",
+	"biz_maps_success_hero_subtitle": "感谢您提交您的企业信息。我们很快就会把您列入比特币商家地图。",
+	"biz_maps_success_timeline_header": "接下来会发生什么",
+	"biz_maps_success_timeline_c1": "您的企业将在 1 到 2 周内被列入 BTC Map 和其他比特币商家目录。我们会人工审核每一份提交，以保证地图的准确性。",
+	"biz_maps_success_timeline_c2": "一旦您的列表上线，附近的比特币用户就能找到您的企业，并到那里花比特币。",
+	"biz_maps_success_view_header": "看看您将在哪里出现",
+	"biz_maps_success_view_c1": "在等待期间，看看 BTC Map 吧——上面是世界各地不断壮大的接受比特币的企业网络。",
+	"biz_maps_success_btn_view_map": "查看 BTC Map"
 }

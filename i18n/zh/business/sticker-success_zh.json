@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
-	}
+	},
+	"biz_sticker_success_hero_title": "您的贴纸已经在路上 🎉",
+	"biz_sticker_success_hero_subtitle": "您将在 2 到 4 周内收到您的免费「这里接受比特币」贴纸——装在一个朴素的白色信封里，里面有 3 张贴纸。",
+	"biz_sticker_success_tips_header": "贴贴纸的好地方",
+	"biz_sticker_success_tip_1": "贴在前门或橱窗上，让客户在走进来之前就看到",
+	"biz_sticker_success_tip_2": "贴在收银台、POS 终端或付款区附近",
+	"biz_sticker_success_tip_3": "贴在菜单、价格表或小费罐上",
+	"biz_sticker_success_tip_4": "不要贴在不属于您的或没有得到许可的地方",
+	"biz_sticker_success_more_header": "还需要更多贴纸？",
+	"biz_sticker_success_more_c1": "如果 3 张贴纸不够您的企业用，可以再请求一包免费的——或者从我们用的同一家印刷商那里批量订购。",
+	"biz_sticker_success_btn_order_bulk": "批量订购",
+	"biz_sticker_success_btn_request_more": "再请求一包免费贴纸"
 }

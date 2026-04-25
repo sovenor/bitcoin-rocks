@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "比特币商户地图 — 免费列出您的企业",
-	"maps_view": "在此查看地图。"
+	"maps_view": "在此查看地图。",
+	"biz_maps_hero_title": "把您的企业放上比特币商家地图",
+	"biz_maps_hero_subtitle": "在 BTC Map——一个开放的全球比特币商家目录——免费列出您的企业，让附近的比特币用户能找到您并在您的店里花比特币。",
+	"biz_maps_intro_c1": "比特币用户会主动寻找可以花钱的地方。把您的企业放上地图，就能让每一个在附近寻找吃饭、购物、住宿的比特币用户看到您——而且对您完全免费。",
+	"biz_maps_intro_c2": "只需填写下面这个简短的表格，我们就会把您的企业提交到 BTC Map 和其他比特币商家地图。",
+	"biz_maps_view_map_cta": "查看 BTC Map",
+	"biz_maps_form_header": "告诉我们您的企业信息",
+	"biz_maps_form_intro": "我们只需要几个细节就能把您列出来。地址数据只会保留到把您的企业提交到地图为止。",
+	"biz_maps_placeholder_name": "企业名称",
+	"biz_maps_placeholder_category": "类别（例如餐厅、咖啡馆、酒店）",
+	"biz_maps_placeholder_address": "街道地址",
+	"biz_maps_placeholder_city": "城市",
+	"biz_maps_placeholder_region": "州/省/地区",
+	"biz_maps_placeholder_country": "国家",
+	"biz_maps_placeholder_website": "网站（可选）",
+	"biz_maps_meta_description": "在 BTC Map 和其他比特币商家地图上免费列出您的企业，让附近的比特币用户能找到您。"
 }

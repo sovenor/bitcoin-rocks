@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"bitcoin_lightning_wallet_guide": "比特币闪电钱包指南",
 	"lightning_description": "闪电钱包让您在保持个人主权的同时快速、低费用地发送比特币。",
 	"lightning_header": "闪电钱包指南",
+	"lightning_header_subtitle": "闪电网络让您几秒内以远低于一美分的成本发送比特币——根据您打算花多少比特币，挑一个权衡合适的钱包。",
 	"lightning_s1_c1": "闪电网络让您可以快速、低费用地发送比特币支付。",
 	"lightning_s1_c2": "重要的是要知道，使用闪电网络涉及权衡。为了获得更快、更便宜的比特币支付，您通常需要牺牲一些安全性。",
 	"lightning_s1_c3": "一般来说，闪电网络只应用于小额比特币。大额比特币应始终存储在硬件钱包中。",
-	"lightning_s1_c4": "查看我们的硬件钱包指南了解更多信息。",
+	"lightning_s1_c4": "请查看我们的",
+	"lightning_s1_c4_link": "比特币硬件钱包指南",
+	"lightning_s1_c4_end": "了解更多。",
 	"lightning_s1_c5": "并非所有闪电钱包都是相同的。通过回答一个简单的问题，找出哪种钱包的权衡平衡最适合您：",
 	"lightning_question_1": "什么样的权衡平衡适合我？",
 	"lightning_s2_c1": "比特币的创新之一是无需依赖银行等托管人即可存储比特币。自行保管钱包释放了比特币的全部力量。",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "这些钱包更类似于银行系统，您必须信任第三方来给您使用资金的权限。如果您的比特币在交易所，您使用的就是托管钱包。",
 	"lightning_s3_c3": "托管钱包看起来很方便，但托管人在技术上有能力随时窃取所有用户的资金。",
 	"lightning_s3_c4": "有些人因为易用性而更喜欢用托管闪电钱包存放小额比特币。只是记住：不是您的密钥，不是您的币！",
+	"lightning_grid_heading": "热门闪电网络钱包",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100%免费",
 	"lightning_merchants": "适合商家",
 	"lightning_custodial": "完全托管钱包",
-	"lightning_cta_hardware": "正在寻找我们的硬件比特币钱包指南？"
+	"lightning_cta_hardware": "正在寻找我们的硬件比特币钱包指南？",
+	"lightning_hardware_cta_label": "硬件钱包",
+	"sources_lightning_paper": "Joseph Poon 与 Thaddeus Dryja —— 《比特币闪电网络：可扩展的链下即时支付》（2016）",
+	"sources_acinq_phoenix": "ACINQ —— Phoenix 闪电网络钱包",
+	"sources_breez_lightning": "Breez —— 自托管的闪电网络钱包",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi —— 托管型闪电网络钱包",
+	"sources_lightning_labs": "Lightning Labs —— 闪电网络文档"
 }

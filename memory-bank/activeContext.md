@@ -1,3 +1,64 @@
+## Chinese (zh) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Chinese` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+53/54 complete.** Mandarin Chinese (`中文`) is the most-spoken
+language globally with ~1.1B native speakers (across Mainland China,
+Taiwan, Singapore, plus diaspora). Sino-Tibetan language family. Han
+logographic script — this repo's `zh` locale uses Simplified Chinese
+(简体中文), matching mainland convention.
+
+**Report stats:**
+- 464 missing locale-specific
+- 0 untranslated (Han characters differ from Latin so the
+  byte-identical check almost never fires for zh)
+- 165 manifest-changed + 392 manifest-added → **1,021 total**
+
+**3 helper scripts under `scripts/zh-manifest-refresh/`:**
+
+- `01-translate-inflation.js` — 368 entries. Per-currency templated
+  translator × 13 currencies with Chinese currency naming (美元,
+  欧元, 英镑, 日元, 澳元, 加元, 新西兰元, 雷亚尔, 比索, 卢比,
+  谢克尔, 泰铢) cycling through ~27 templates each. Plus 41
+  non-currency keys (freedom feature cards, story cards, stat
+  labels).
+- `02-translate-index.js` — 62 entries. V2 homepage card labels +
+  nav + h1.
+- `03-translate-rest.js` — 591 entries. Single big map keyed by
+  `${namespace}::${key}` covering all comparison pages, business/*,
+  nostr/index, about, common, bank-runs, get-involved, wallets,
+  lightning, buy, stickers, etc. (The unified-map approach worked
+  cleanly because keys appear in multiple namespaces — `hero_title`,
+  `point_X_summary_Y`, `sources_*` — and namespaced lookup avoids
+  context collisions.)
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **Translation conventions matched to existing `i18n/zh/*.json`:**
+  formal "您" pronoun (vs informal "你"), "比特币" for Bitcoin (the
+  universal Chinese name; matches Cointelegraph 中文版, BlockBeats,
+  ChainNews press convention).
+- **Numerics:** Western Arabic numerals with Chinese magnitude
+  separators. Chinese uses 万 (10,000) and 亿 (100,000,000) as
+  magnitude separators, so "$153.9 billion" becomes "1,539 亿美元",
+  "$10.82 trillion" becomes "10.82 万亿美元", and "21,000,000"
+  becomes "2,100 万".
+- **No spaces between Chinese characters** within a clause; spaces
+  only at sentence-final punctuation (Chinese full stops 。 question
+  marks ？ etc.) and between Chinese and Latin words.
+- Inline-link sentence fragments (e.g.
+  `bitcoin-vs-cash::point_3_summary_1` ends mid-sentence with
+  `point_3_summary_2` being just "通胀。") split correctly to match
+  English fragmentation so the rendered HTML reads naturally.
+- "Bitcoin Accepted Here" → 「这里接受比特币」 using Chinese
+  corner-quote convention.
+- Brand allow-list intact (Bitcoin Price Report, Satoshi Pacioli,
+  BTCPay Server, Lightning Labs, Wallet of Satoshi, BTC Map, FRED,
+  Strike, Square, Breez, OpenNode, IBEX, Zaprite, Coldcard,
+  Passport, SeedSigner, Damus, Amethyst, Iris, Primal, Phoenix,
+  Bisq, Kraken, Relai, River, Swan Bitcoin).
+
 ## Yoruba (yo) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Yoruba` end-to-end as part of the
