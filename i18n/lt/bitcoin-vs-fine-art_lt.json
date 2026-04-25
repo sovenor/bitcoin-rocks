@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin prieš dailės kūrinius",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Kriptografiškai patikrinamas",
 	"bitcoin_point_6": "Sunku sunaikinti",
 	"bitcoin_point_7": "Prieinama visiems",
-	"point_1_summary_1": "Bitcoin yra tobulai pakeičiamas — kiekvienas bitcoin yra identiškas ir keičiamas — vienas bitcoin lygus vienam bitcoin bet kur pasaulyje. Dailės kūriniai yra nepakeičiami iš prigimties, kiekvienas kūrinys unikalus.",
-	"point_2_summary_1": "Bitcoin prekiaujama 24/7 globalioje rinkoje, kur bet kas su interneto prieiga gali pirkti ar parduoti akimirksniu. Dailės kūriniams reikia specializuotų aukcionų namų, tokių kaip Sotheby's ar Christie's.",
-	"point_3_summary_1": "Bitcoin pirkimo ar pardavimo mokesčiai paprastai mažesni nei 1%. Dailės kūrinių pardavimas apima didelius mokesčius: pirkėjo premijos (10-25%), pardavėjo komisiniai (10-15%), draudimas, transportavimas ir saugojimas.",
-	"point_4_summary_1": "Bitcoin gali būti padalintas į 100 milijonų mažesnių vienetų, vadinamų satoshi, todėl puikiai tinka bet kokio dydžio operacijoms. Dailės kūrinių negalima padalinti — negalite turėti paveikslo dalies.",
-	"point_5_summary_1": "Bitcoin nuosavybę ir autentiškumą galima kriptografiškai patikrinti blokų grandinėje. Dailės kūriniams reikia brangaus eksperto autentifikavimo. Bitcoin negalima padirbti ar paklastoti.",
-	"point_6_summary_1": "Bitcoin, tinkamai atsarginę kopiją padarius, negali būti sunaikintas potvynių, gaisrų, žemės drebėjimų ar kitų nelaimių. Dailės kūriniai pažeidžiami visomis fizinio sunaikinimo formomis.",
-	"point_7_summary_1": "Bitcoin gali pirkti ir parduoti bet kas su interneto prieiga ir maža suma investuoti. Dailės kūrinių investicijos daugiausiai prieinamos tik turtingiems kolekcininkams dėl didelių minimalių kainų."
+	"point_1_summary_1": "Kiekvienas Bitcoin yra lygiavertis ir pakeičiamas. Kiekvienas meno kūrinys yra unikalus — kilmė, istorija, būklė ir autentiškumas skiriasi, todėl tiesioginis palyginimas yra labai sunkus.",
+	"point_2_summary_1": "Bitcoin parduodamas pasaulinėje 24/7 rinkoje ir prieinamas visiems. Menas reikalauja aukcionų namų, privačių prekybininkų ar specializuotų galerijų, o pardavimas gali užtrukti mėnesiais.",
+	"point_3_summary_1": "Bitcoin pirkimas ar pardavimas kainuoja mažiau nei 1 % mokesčių, dažnai gerokai mažiau. Meno pardavimas kaupia 30–40 % mokesčių pirkėjams per aukcionų komisinius, draudimą, transportavimą ir autentifikavimo išlaidas.",
+	"point_4_summary_1": "Bitcoin gali būti padalintas į 100 milijonų satoshių ir puikiai tinka bet kokio dydžio sandoriams. Negalite turėti paveikslo dalies ar skulptūros kampo be sandorio šalies rizikos.",
+	"point_5_summary_1": "Bitcoin nuosavybę ir autentiškumą kiekvienas gali kriptografiškai patikrinti blockchain'e. Meno autentifikavimas yra brangus ir lėtas, o klastotojai reguliariai apgaudinėja rinką — meno vertė gali per naktį išnykti.",
+	"point_6_summary_1": "Gerai laikomas Bitcoin išgyvena potvynius, gaisrus, žemės drebėjimus ir vagystes. Menas yra pažeidžiamas bet kokiai fizinei nelaimei, o draudimas retai padengia viską.",
+	"point_7_summary_1": "Bitcoin gali nusipirkti bet kas, turintis interneto ryšį ir šiek tiek pinigų. Investavimas į meną praktiškai apsiriboja turtingais kolekcionieriais, turinčiais prieigą prie aukcionų ir ekspertinių žinių.",
+	"hero_title": "Skirtumas tarp <span class=\"orange\">Bitcoin</span> ir <span class=\"asset\">dailės</span>"
 }

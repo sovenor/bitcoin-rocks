@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"bitcoin_wallet_guide": "Bitcoin piniginių vadovas",
 	"wallets_description": "Yra daug skirtingų Bitcoin piniginių, kurios svarbiais būdais skiriasi. Galite nustatyti, ar piniginė tinka jums, užduodami šiuos paprastus klausimus.",
 	"wallets_header": "KAIP SAUGIAI SAUGOTI SAVO BITCOIN",
+	"wallets_header_subtitle": "Žingsnis po žingsnio vadovas, kaip pasirinkti piniginę, padaryti raktų atsarginę kopiją ir perimti visišką savo Bitcoin kontrolę.",
 	"wallets_s1_c1": "Bitcoin piniginės yra suderinamos, todėl galite siųsti Bitcoin bet kam, nepriklausomai nuo to, kokią piniginę jie naudoja.",
 	"wallets_s1_c2": "Yra daug skirtingų Bitcoin piniginių, kurios svarbiais būdais skiriasi. Galite nustatyti, ar piniginė tinka jums, užduodami šiuos paprastus klausimus:",
 	"wallets_question_1": "AR TAI SAVARANKIŠKOS SAUGYKLOS PINIGINĖ?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp išbandė 70 plieninių atsarginių kopijų rinkinių, kad padėtų jums pasirinkti tinkamiausią.",
 	"wallets_s6_c5": "Peržiūrėkite Jameson metalinio Bitcoin atsarginės kopijos vadovą čia.",
 	"wallets_s6_c6": "Arba tęskite slinkimą, kad pamatytumėte Bitcoin piniginių variantus.",
+	"wallets_grid_heading": "Populiarios Bitcoin piniginės",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Ieškote mūsų Lightning piniginių vadovo?",
 	"wallets_starter_wallet": "Puiki pradinė piniginė",
 	"wallets_mobile_app": "Mobilioji programėlė",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Įkraunamas akumuliatorius",
 	"wallets_build_your_own": "Susirinkite patys",
 	"wallets_qwerty_keyboard": "Pilna QWERTY klaviatūra",
-	"wallets_qr_scanner": "QR kodo skaitytuvas"
+	"wallets_qr_scanner": "QR kodo skaitytuvas",
+	"sources_bitcoin_org_choose": "Bitcoin.org — pasirinkite savo piniginę",
+	"sources_jameson_lopp": "Jameson Lopp — Bitcoin sėklų metalinių saugyklų apžvalgos",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin piniginė savarankiškai saugyklai",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin aparatinė piniginė",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 aparatinė piniginė",
+	"sources_coldcard_q": "Coinkite — Coldcard Q aparatinė piniginė",
+	"sources_passport": "Foundation Devices — Passport aparatinė piniginė",
+	"sources_seedsigner": "SeedSigner — savadarbis atvirojo kodo Bitcoin transakcijų pasirašymo įrenginys"
 }

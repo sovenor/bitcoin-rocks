@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
-	}
+	},
+	"biz_maps_success_hero_title": "Užklausa gauta 🎉",
+	"biz_maps_success_hero_subtitle": "Ačiū, kad pateikėte savo verslą. Greitai įtrauksime jus į Bitcoin prekybininkų žemėlapius.",
+	"biz_maps_success_timeline_header": "Kas toliau",
+	"biz_maps_success_timeline_c1": "Įtrauksime jūsų verslą į BTC Map ir kitus Bitcoin prekybininkų katalogus per 1–2 savaites. Kiekvieną pateikimą peržiūrime rankiniu būdu, kad išlaikytume žemėlapio tikslumą.",
+	"biz_maps_success_timeline_c2": "Kai jūsų sąrašas pradės veikti, vietiniai Bitcoin vartotojai ras jūsų verslą ir ateis išleisti Bitcoin.",
+	"biz_maps_success_view_header": "Pažiūrėkite, kur pasirodysite",
+	"biz_maps_success_view_c1": "Kol laukiate, peržiūrėkite BTC Map ir pamatykite augantį verslo, priimančio Bitcoin visame pasaulyje, tinklą.",
+	"biz_maps_success_btn_view_map": "Peržiūrėkite BTC Map"
 }

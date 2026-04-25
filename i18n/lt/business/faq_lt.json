@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Dažnai užduodami klausimai apie Bitcoin priėmimą",
 	"faq_description": "Turite klausimų dėl Bitcoin mokėjimų priėmimo jūsų versle?",
+	"faq_hero_subtitle": "Trumpi atsakymai į klausimus, kuriuos prekybininkai dažniausiai užduoda prieš pradėdami priimti Bitcoin — mokesčiai, atsiskaitymas, piniginės, grąžinimai, išlaidos ir dar daugiau.",
+	"faq_intro_c1": "Spustelėkite bet kurį žemiau esantį klausimą, kad pamatytumėte atsakymą. Kai būsite pasirengę priimti Bitcoin, puslapio apačioje esantys verslo įrankiai jus ves žingsnis po žingsnio.",
 	"faq_s1": "Kas yra Bitcoin?",
 	"faq_s1_c1": "Bitcoin yra du dalykai: skaitmeniniai pinigai ir kompiuterinis tinklas.",
 	"faq_s1_c2": "Galite siųsti bitcoin (skaitmeninius pinigus) tiesiogiai kitiems žmonėms naudodami Bitcoin tinklą.",

@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin prekiautojų žemėlapiai — įtraukite savo verslą nemokamai",
-	"maps_view": "Peržiūrėkite žemėlapius čia."
+	"maps_view": "Peržiūrėkite žemėlapius čia.",
+	"biz_maps_hero_title": "Įtraukite savo verslą į Bitcoin prekybininkų žemėlapius",
+	"biz_maps_hero_subtitle": "Pridėkite savo verslą į BTC Map nemokamai — atvirą pasaulinį Bitcoin priimančių prekybininkų katalogą — kad vietiniai Bitcoin vartotojai galėtų jus rasti ir išleisti Bitcoin jūsų versle.",
+	"biz_maps_intro_c1": "Bitcoin vartotojai aktyviai ieško vietų, kur galėtų išleisti savo pinigus. Pasirodymas žemėlapyje pristato jūsų verslą kiekvienam Bitcoin vartotojui, ieškančiam vietos pavalgyti, apsipirkti ar apsistoti netoliese — visiškai nemokamai.",
+	"biz_maps_intro_c2": "Užpildykite trumpą formą žemiau, ir mes jūsų verslą įtrauksime į BTC Map ir kitus Bitcoin prekybininkų žemėlapius.",
+	"biz_maps_view_map_cta": "Peržiūrėkite BTC Map",
+	"biz_maps_form_header": "Papasakokite mums šiek tiek apie savo verslą",
+	"biz_maps_form_intro": "Mums reikia tik kelių detalių, kad jus įtrauktume į žemėlapius. Adreso duomenys saugomi tik tiek laiko, kiek reikia, kad jūsų verslą įtrauktume į prekybininkų žemėlapius.",
+	"biz_maps_placeholder_name": "Verslo pavadinimas",
+	"biz_maps_placeholder_category": "Kategorija (pvz., restoranas, kavinė, viešbutis)",
+	"biz_maps_placeholder_address": "Gatvės adresas",
+	"biz_maps_placeholder_city": "Miestas",
+	"biz_maps_placeholder_region": "Regionas / provincija / valstija",
+	"biz_maps_placeholder_country": "Šalis",
+	"biz_maps_placeholder_website": "Svetainė (neprivaloma)",
+	"biz_maps_meta_description": "Pridėkite savo verslą į BTC Map ir kitus Bitcoin prekybininkų žemėlapius nemokamai, kad vietiniai Bitcoin vartotojai galėtų jus rasti."
 }

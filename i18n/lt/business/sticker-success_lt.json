@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
-	}
+	},
+	"biz_sticker_success_hero_title": "Jūsų lipdukai jau pakeliui 🎉",
+	"biz_sticker_success_hero_subtitle": "Jūsų nemokami „Bitcoin Accepted Here“ lipdukai atvyks per 2–4 savaites paprastame baltame voke su 3 lipdukais.",
+	"biz_sticker_success_tips_header": "Geros vietos lipdukams klijuoti",
+	"biz_sticker_success_tip_1": "Ant pagrindinių durų ar vitrinos, kad klientai pamatytų prieš įeidami",
+	"biz_sticker_success_tip_2": "Šalia kasos, mokėjimo terminalo ar ten, kur klientai moka",
+	"biz_sticker_success_tip_3": "Ant meniu, kainoraščio ar arbatpinigių indelio",
+	"biz_sticker_success_tip_4": "Neklijuokite lipdukų vietose, kurios jums nepriklauso arba kur tai nėra leidžiama",
+	"biz_sticker_success_more_header": "Reikia daugiau lipdukų?",
+	"biz_sticker_success_more_c1": "Jei 3 lipdukų jūsų verslui nepakanka, galite paprašyti dar vieno nemokamo paketo arba užsisakyti didmenoje iš to paties spaustuvininko, kurį naudojame mes.",
+	"biz_sticker_success_btn_order_bulk": "Užsisakykite didmenoje",
+	"biz_sticker_success_btn_request_more": "Užsisakykite dar vieną nemokamą paketą"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"bitcoin_vs_cash": "Bitcoin prieš grynuosius",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Decentralizuotas tinklas",
 	"bitcoin_point_6": "Skaitmeninė savarankiška saugykla",
 	"bitcoin_point_7": "Lengvai dalinama",
-	"point_1_summary_1": "Bitcoin gali būti siunčiamas bet kur pasaulyje akimirksniu internetu, o grynųjų reikia fiziškai ar per patikimus tarpininkus. Negalite siųsti grynųjų el. paštu, bet galite siųsti Bitcoin bet kam su interneto ryšiu per kelias minutes.",
-	"point_2_summary_1": "Bitcoin veikia vienodai visur pasaulyje — Bitcoin tinkle nėra sienų. Grynieji ribojami geografijos, valiutų kursų ir vietinio priėmimo.",
-	"point_3_summary_1": "Vyriausybės gali ir anuliuoja grynuosius per naktį demonetizacijos politika, kaip Indija 2016 m., kai uždraudė tam tikrus banknotus.",
-	"point_3_summary_2": "Net nedrausdamos tam tikrų banknotų, vyriausybės nuolat nuvertina grynuosius per infliaciją.",
-	"point_3_summary_3": "Bitcoin negali būti anuliuotas jokios vyriausybės ar valdžios — jis egzistuoja globaliame, decentralizuotame tinkle, kurio nekontroliuoja joks subjektas.",
-	"point_4_summary_1": "Grynuosius galima padirbti, ir dažnai sunku aptikti padirbtus banknotus be specialios įrangos. Bitcoin naudoja kriptografinį įrodymą, dėl kurio padirbinėjimas yra matematiškai neįmanomas.",
-	"point_5_summary_1": "Grynuosius leidžia ir kontroliuoja vyriausybės, kurios gali spausdinti daugiau, keisti dizainą ar paskelbti tam tikrus banknotus negaliojančiais. Bitcoin veikia decentralizuotame tinkle, kur jokia viena valdžia nekontroliuoja pinigų pasiūlos ar taisyklių.",
-	"point_6_summary_1": "Grynieji turi būti saugomi fiziškai, todėl jie pažeidžiami vagystės, praradimo, gaisro ar konfiskavimo.",
-	"point_6_summary_2": "Bet Bitcoin gali būti saugiai saugomas savarankiškai",
-	"point_6_summary_3": "naudojant telefono programėlę ar specializuotą piniginę, suteikiant visišką jūsų pinigų kontrolę be fizinio saugojimo rizikų.",
-	"point_7_summary_1": "Grynieji turi minimalius nominalus — negalite padalinti cento į mažesnes dalis. Bitcoin gali būti padalintas į 100 milijonų mažesnių vienetų, vadinamų satoshi, leidžiant mikromokėjimus ir tikslias bet kokios sumos operacijas."
+	"point_1_summary_1": "Bitcoin per kelias minutes juda visame pasaulyje per internetą. Grynieji reikalauja fizinio buvimo arba patikimų kurjerių — banknotų el. paštu išsiųsti negalima.",
+	"point_2_summary_1": "Bitcoin visur veikia vienodai. Grynuosius riboja geografija, valiutų kursai ir vietinis priėmimas.",
+	"point_3_summary_1": "Vyriausybės gali per naktį demonetizuoti grynuosius — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indija</a> tai padarė 2016 m. Bet net ir be demonetizavimo grynieji praranda vertę dėl",
+	"point_3_summary_2": "infliacijos",
+	"point_3_summary_3": ". Jokia vyriausybė ar jėga negali demonetizuoti Bitcoin.",
+	"point_4_summary_1": "Grynieji gali būti suklastoti, kartais labai tiksliai. Bitcoin naudoja kriptografiją ir padaro klastojimą matematiškai neįmanomą.",
+	"point_5_summary_1": "Bitcoin neturi centrinės valdžios. Grynuosius išleidžia vyriausybės, kurios gali atspausdinti daugiau, keisti dizainą ar atšaukti banknotus, kada tik nori.",
+	"point_6_summary_1": "Grynieji yra pažeidžiami vagystėms, gaisrui, praradimui ir konfiskavimui. Bitcoin galima ",
+	"point_6_summary_2": "saugiai laikyti savarankiškoje saugykloje",
+	"point_6_summary_3": " jūsų telefone arba aparatinėje piniginėje.",
+	"point_7_summary_1": "Bitcoin gali būti padalintas į 100 milijonų satoshių, kas leidžia atlikti bet kokio dydžio mikromokėjimus. Grynieji turi minimalią valiutą — banknoto perpus padalinti negalima.",
+	"hero_title": "Skirtumas tarp <span class=\"orange\">Bitcoin</span> ir <span class=\"asset\">grynųjų</span>"
 }
