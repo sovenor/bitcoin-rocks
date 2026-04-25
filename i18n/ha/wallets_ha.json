@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_wallet_guide": "Jagorar Wallet ɗin Bitcoin",
 	"wallets_description": "Akwai wallets na Bitcoin da yawa masu bambanci a hanyoyi masu muhimmanci. Za ka iya sanin ko wallet ya dace da kai ta hanyar yin waɗannan tambayoyin masu sauƙi.",
 	"wallets_header": "YADDA AKE AJIYE BITCOIN ƊINKA CIKIN AMINCI",
+	"wallets_header_subtitle": "Jagora mataki-mataki don zaɓar walat, kare maɓallan ka da ɗaukar cikakken iko akan Bitcoin ɗinka.",
 	"wallets_s1_c1": "Wallets na Bitcoin suna aiki tare, don haka za ka iya aika Bitcoin ga kowa ba tare da la'akari da wane wallet suke amfani da shi ba.",
 	"wallets_s1_c2": "Akwai wallets na Bitcoin da yawa masu bambanci a hanyoyi masu muhimmanci. Za ka iya sanin ko wallet ya dace da kai ta hanyar yin waɗannan tambayoyin masu sauƙi:",
 	"wallets_question_1": "SHIN WALLET NE NA KULA DA KANKA?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp ya gwada kayan madadin ƙarfe 70 don taimaka maka zaɓar wanda ya dace da kai.",
 	"wallets_s6_c5": "Duba jagorar madadin Bitcoin ta ƙarfe na Jameson a nan.",
 	"wallets_s6_c6": "Ko ci gaba da gogayya don bincika zaɓuɓɓukan wallet na Bitcoin.",
+	"wallets_grid_heading": "Walat na Bitcoin sananne",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Kana neman Jagorar Wallet ɗin Lightning?",
 	"wallets_starter_wallet": "Wallet mai kyau na farawa",
 	"wallets_mobile_app": "Manhajar wayar hannu",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Baturin da ake caji",
 	"wallets_build_your_own": "Gina naka",
 	"wallets_qwerty_keyboard": "Cikakken maɓallin QWERTY",
-	"wallets_qr_scanner": "Mai karanta lambar QR"
+	"wallets_qr_scanner": "Mai karanta lambar QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Zaɓi walat ɗinka",
+	"sources_jameson_lopp": "Jameson Lopp — kimantawa na ajiyar ƙarfe ga jumlolin dawowa na Bitcoin",
+	"sources_blockstream_green": "Blockstream Green — walat ɗin Bitcoin mai riƙe-da-kai",
+	"sources_blockstream_jade": "Blockstream Jade — walat na kayan masarufi na Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — walat na kayan masarufi na Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — walat na kayan masarufi na Coldcard Q",
+	"sources_passport": "Foundation Devices — walat na kayan masarufi na Passport",
+	"sources_seedsigner": "SeedSigner — na'urar sa hannu DIY mai buɗaɗɗen tushe don ma'amalolin Bitcoin"
 }

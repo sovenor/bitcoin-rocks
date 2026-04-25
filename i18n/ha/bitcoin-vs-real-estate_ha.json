@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin da Gidaje",
@@ -11,7 +11,6 @@
 	"real_estate_intro_2": "Bitcoin kuɗi ne na dijital da aka ƙirƙira a 2009 wanda mutane da yawa ke ganin shi a matsayin mai ajiye daraja.",
 	"real_estate_intro_3": "Yaya kadara na zahiri ya bambanta da kuɗi na dijital? Bari mu duba bambance-bambancen: Bitcoin da gidaje.",
 	"real_estate": "GIDAJE",
-	"bitcoin": "BITCOIN",
 	"real_estate_point_1": "Ba za a iya motsa shi ba",
 	"real_estate_point_2": "Ba za a iya raba shi cikin sauƙi ba",
 	"real_estate_point_3": "Ƙarƙashin dokar gwamnati",
@@ -20,6 +19,7 @@
 	"real_estate_point_6": "Mai rauni ga bala'o'i",
 	"real_estate_point_7": "Kowane kadara na musamman ne",
 	"real_estate_point_8": "An ƙayyadaddhe ga masu siye na gida",
+	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Na iya canzawa a duniya",
 	"bitcoin_point_2": "Sauƙin rabawa",
 	"bitcoin_point_3": "Mai juriyar tace-tace",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Wahalar lalacewa",
 	"bitcoin_point_7": "Cikakken musayar",
 	"bitcoin_point_8": "Kasuwar duniya 24/7",
-	"point_1_summary_1": "Za a iya canja Bitcoin ko'ina nan take ta Intanet. Gidaje suna daure a wuri na dindindin.",
-	"point_2_summary_1": "Za a iya raba Bitcoin zuwa sassa 100 miliyan. Ba za a iya raba gidaje cikin sauƙi ba.",
-	"point_3_summary_1": "Bitcoin yana aiki a cibiyar sadarwa mai rarrabawa. Gidaje suna ƙarƙashin dokar gwamnati mai yawa.",
-	"point_4_summary_1": "Bitcoin ba ya buƙatar gyara. Gidaje suna buƙatar gyara na ci gaba.",
-	"point_5_summary_1": "Bitcoin ba shi da haraji na ci gaba. Ana biyan harajin kadara na shekara-shekara a kan gidaje.",
-	"point_6_summary_1": "Bitcoin ba zai iya lalacewa a bala'o'i ba idan an yi adana madadin daidai. Gidaje suna da rauni ga duk wani lalacewar zahiri.",
-	"point_7_summary_1": "Kowanne bitcoin iri ɗaya ne kuma ana iya musayar. Kowanne gida na musamman ne.",
-	"point_8_summary_1": "Za a iya saye da sayar da Bitcoin 24/7 ga kowa a duniya. Cinikin gidaje an ƙayyadaddhe ga masu siye na gida kuma za su iya ɗaukar watanni.",
+	"point_1_summary_1": "Bitcoin yana motsi nan take a duk faɗin duniya. Gidaje suna da alaƙa da wuri kuma suna cikin haɗarin tattalin arziki, siyasa da haɗarin muhalli na cikin gida.",
+	"point_2_summary_1": "Bitcoin za a iya raba shi har zuwa satoshi miliyan 100. Gidaje ba za a iya sayar da su a ɓangare ba — ba za ka iya sayar da ɗakin girki ba ko saye rabin ɗakin kwana ba.",
+	"point_3_summary_1": "Bitcoin yana aiki a kan hanyar sadarwa mara tsakiya wadda babu wata gwamnati da za ta iya sarrafa. Gidaje ana sarrafa su sosai — yanki, kula da haya, sayarwar tilas da kamawa duk sun shafe shi.",
+	"point_4_summary_1": "Bitcoin ba ya buƙatar wani kulawa. Gidaje suna buƙatar gyarawa, sake gyara, inshora, gudanar da masu haya da magance matsalolin masu haya.",
+	"point_5_summary_1": "Babu kuɗin haraji na ci gaba akan Bitcoin — kana biyan harajin riba kawai akan sayarwa. Gidaje suna biyan harajin gida na shekara-shekara ba tare da la'akari da kuɗi ba.",
+	"point_6_summary_1": "Bitcoin da aka adana yadda ya kamata zai tsira daga gobara, ambaliyar ruwa da girgizar ƙasa. Gidaje suna cikin haɗari ga duk bala'i, kuma inshora ba ya rufe komai sau da yawa.",
+	"point_7_summary_1": "Kowane bitcoin daidai yake kuma ana iya musanya. Kowane gida na musamman ne, abin da ke sa shi da wuya a tantance da kwatanta.",
+	"point_8_summary_1": "Bitcoin yana ciniki a duniya sa'o'i 24 a rana ga kowa da ke da intanet. Sayar da gidaje yana iyakance ga masu siye na cikin gida kuma yana iya ɗaukar watanni don kammala takardunsu.",
 	"bitcoin_point_9": "Yana haɓɓaka mallakar mutum ɗaya",
 	"real_estate_point_9": "Yana haifar da canza gidaje zuwa saka jari",
-	"point_9_summary_1": "Bitcoin yana ba da damar mallakar mutum ɗaya kai tsaye ba tare da masu shiga tsakani ba. Saka jari a gidaje bayan gidanka na zama yana haifar da canza gidaje zuwa saka jari, yana ƙara farashi kuma yana shafar ikon siye na gidaje."
+	"point_9_summary_1": "Bitcoin yana ba da damar mallaka kai tsaye da kowa. Sayan gidaje a matsayin saka jari fiye da gidan farko yana ƙara farashin gidaje, yana rage samuwar su kuma yana haifar da rikicin gidaje.",
+	"hero_title": "Bambanci tsakanin <span class=\"orange\">Bitcoin</span> da <span class=\"asset\">Gidaje</span>"
 }

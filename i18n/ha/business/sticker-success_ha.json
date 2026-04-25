@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
-	}
+	},
+	"biz_sticker_success_hero_title": "Labaranka suna kan hanya 🎉",
+	"biz_sticker_success_hero_subtitle": "Za ka karɓi labaran “Bitcoin Accepted Here” na kyauta a cikin makonni 2-4, a cikin ambulan farin mai sauƙi tare da labaru 3.",
+	"biz_sticker_success_tips_header": "Wuraren da suka dace don sa labaranka",
+	"biz_sticker_success_tip_1": "A ƙofar gaba ko taga, don abokan ciniki su gan su kafin su shigo",
+	"biz_sticker_success_tip_2": "Kusa da wurin sayarwa, akan na'urar biya ko inda abokan ciniki ke biya",
+	"biz_sticker_success_tip_3": "Akan menus, jerin farashi ko murafan ba da kuɗi",
+	"biz_sticker_success_tip_4": "Kada ka sa su a wuraren da ba naka ba ne ko kuma ba ka da izinin sa labaru",
+	"biz_sticker_success_more_header": "Kana buƙatar ƙarin labaru?",
+	"biz_sticker_success_more_c1": "Idan labaru 3 ba su isa wa kasuwancinka ba, kada ka ji kunya don neman wani fakiti kyauta — ko yi oda mai yawa daga mai bugawa iri ɗaya da muke amfani da shi.",
+	"biz_sticker_success_btn_order_bulk": "Yi oda mai yawa",
+	"biz_sticker_success_btn_request_more": "Nemi wani fakitin kyauta"
 }

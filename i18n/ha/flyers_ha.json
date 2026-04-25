@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"free_bitcoin_flyers": "Takardun bugu na Bitcoin kyauta daga bitcoin.rocks",
 	"flyers_description": "Buga takardar bugu na Bitcoin a gida kuma ka sanya ta a wurin jama'a don sa waɗanda ke kewayenka su koyi Bitcoin.",
-	"flyers_intro_header": "YADDA AKE BUGA & LIƘA WAƊANNAN TAKARDUN BUGU NA BITCOIN",
+	"flyers_hero_title": "Buga da rataye takardun Bitcoin",
+	"flyers_hero_subtitle": "Takardun Bitcoin kyauta, masu yiwuwar bugawa. Rataye su a wuraren jama'a don taimakawa ƙarin mutane su koyi game da Bitcoin.",
+	"flyers_intro_header": "Yadda ake buga waɗannan takardun Bitcoin da rataye su",
 	"flyers_intro_c1": "Manufarmu ita ce taimaka maka ka sa ƙarin mutane su koyi Bitcoin ta hanyar sanya takardun bugu na Bitcoin a wuraren jama'a. Wannan takardar bugu tana da lambar QR da ke haɗa zuwa",
 	"flyers_intro_c2": "shafin ilimin Bitcoin.",
 	"flyers_intro_c4": "Buga wannan takardar bugu a gida ko a wurin bugawa. Sannan, ka liƙa ta a allon sanarwa, sandunan tarho a gari, da sauran wuraren jama'a inda mutane za su iya ganin ta su koyi Bitcoin.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "RABA WURAREN TAKARDUN BUGU",
 	"flyers_share_c1": "Raba wuraren takardun bugu tare da mu a Nostr kuma ka ga inda wasu ke sanya takardun bugunsu.",
 	"flyers_btn_share_on_nostr": "RABA A NOSTR",
-	"flyers_btn_what_is_nostr": "MENENE NOSTR?"
+	"flyers_btn_what_is_nostr": "MENENE NOSTR?",
+	"flyers_next_get_stickers": "Yaɗa kalmar",
+	"flyers_next_get_stickers_desc": "Yi oda fakitin labaru kyauta na Bitcoin"
 }

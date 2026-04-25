@@ -3,7 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
-	}
+	},
+	"sticker_language_success_1": "Mun karɓi buƙatarka cikin nasara.",
+	"sticker_language_success_2": "Muna buga sabbin fayiloli a rukuni-rukuni, don haka zai iya ɗaukar makonni kafin waɗannan fayilolin su kasance a shirye don saukarwa. Duba nan ba da daɗewa ba!",
+	"sticker_language_success_hero_title": "An karɓi buƙatar 🎉"
 }

@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_accepted_here_stickers": "Stickers na 'Ana Karɓar Bitcoin a Nan'",
+	"biz_stickers_hero_title": "Labaru kyauta na “Bitcoin Accepted Here”",
+	"biz_stickers_hero_subtitle": "Faɗa wa abokan cinikinka kana karɓar Bitcoin. Yi oda fakitin kyauta na labaru “Bitcoin Accepted Here” don sa a kasuwancinka.",
+	"biz_stickers_intro_c1": "Karɓar Bitcoin rabin aiki ne — abokan cinikinka suna buƙatar sani shi ma. An ƙera ƙananan labaru “Bitcoin Accepted Here” don sa a ƙofar gaba, a wurin sayarwa, a kan menu ko ko'ina abokan cinikinka za su gan su kafin su biya.",
+	"biz_stickers_intro_c2": "Za mu aika fakiti kyauta zuwa kowane adireshi a Amurka ko Kanada, ko za ka iya buga naka ko'ina a duniya.",
+	"biz_stickers_step_header": "Yaya kake son labaranka?",
+	"biz_stickers_step_description": "Muna aika fakitoci kyauta zuwa adireshin a Amurka da Kanada. Ko'ina kuma a duniya, za ka iya buga naka.",
+	"biz_stickers_option_usa": "🇺🇸 Amurka — kyauta ta hanyar wasiku",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — kyauta ta hanyar wasiku",
+	"biz_stickers_option_print": "🌍 A duk faɗin duniya — buga naka",
+	"biz_stickers_print_header": "Buga fayilolin labaranka",
+	"biz_stickers_print_c1": "Za ka iya buga labaranka na “Bitcoin Accepted Here” ko'ina kake. Danna harshenka a ƙasa don saukar da fayilolin labaru da umarnin bugawa.",
+	"biz_stickers_request_header": "Ba ka ga harshenka ba?",
+	"biz_stickers_request_c1": "Cika fom ɗin da ke ƙasa don neman fayilolin labaru “Bitcoin Accepted Here” a cikin harshenka na cikin gida. Za mu sanar da kai da zarar sun shirya.",
+	"biz_stickers_placeholder_translation1": "Fassara “Bitcoin Accepted Here”",
+	"biz_stickers_placeholder_translation2": "Fassara “Scan to learn why Bitcoin is good for business.”",
 	"stickers_request": "Neman stickers kyauta"
 }
