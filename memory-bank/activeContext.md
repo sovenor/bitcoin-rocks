@@ -1,3 +1,51 @@
+## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
+
+All 7 items of Step 6 are now ticked off in
+`V2-REDESIGN-CHECKLIST.md`. The full V2 i18n cleanup project
+(Steps 1 through 6) is **done**.
+
+**Step 6 — Final verification breakdown:**
+1. `scripts/audit-translation.js` clean across all 54 non-English
+   locales (zero English-leak findings).
+2. Unused-keys audit re-run — no new dead keys introduced during
+   the V2 pass.
+3. Formatter re-run across `i18n/**/*.json` — no blank-line
+   regressions.
+4. Spot-check of 3-5 random pages in 3-5 random languages
+   (including one RTL) — rendered copy checks out.
+5. All `@metadata.last-updated` fields current.
+6. **`app/sitemap.ts` verification (this session):** ran
+   `npm run build`, then inspected
+   `.next/server/app/sitemap.xml.body`:
+   - 4,345 `<url>` entries = 79 published pages × 55 locales
+     (matches expected exactly).
+   - 243,320 hreflang `xhtml:link` cross-references (≈ 4,345 ×
+     56 — every entry cross-links to all 55 locales plus
+     `x-default`).
+   - All 79 published slugs emit a per-locale URL: homepage,
+     about, bank-runs, all 10 bitcoin-vs-* pages, all 11
+     business/* pages, buy, compound-inflation-calculator, flyers,
+     get-involved, inflation, lightning, nostr,
+     sticker-files (index + 44 per-language sub-pages),
+     sticker-language-success, sticker-success, stickers, wallets.
+7. Memory-bank updated (this entry + the parallel update to
+   `memory-bank/progress.md`).
+
+**Final V2 cleanup state:**
+- 55 locales fully translated against manifest version
+  `d966f8c780c0c485...`.
+- All Step 1-6 items closed in `V2-REDESIGN-CHECKLIST.md`.
+- Build clean across 4,349 prerendered routes.
+- Sitemap emits every (locale, slug) combination.
+- No English-leak findings, no dead keys, no formatting
+  regressions, no stale metadata.
+
+The repo's i18n surface is now in a clean steady state. Any
+future large English rewrites would warrant another
+`build-v2-manifest.js` regeneration → per-locale refresh pass
+(parallel-worktree-batch pattern is the fastest path; ~6× speedup
+over serial when running 8 agents at a time).
+
 ## Zulu (zu) manifest refresh — April 25, 2026 — 🎉 Step 5 COMPLETE (54/54)
 
 Ran `/translate-manifest-refresh Zulu` end-to-end as part of the

@@ -359,13 +359,13 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 ### Step 6 — Final verification
 
-- [ ] Run `scripts/audit-translation.js` across **all** non-English locales; zero English-leak findings.
-- [ ] Re-run the unused-keys audit from Step 1 to confirm no new dead keys crept in during the V2 pass.
-- [ ] Re-run the formatter from Step 3 one more time across `i18n/**/*.json` to catch any blank-line regressions introduced while translating.
-- [ ] Spot-check 3–5 random pages in 3–5 random languages (including one RTL) against the live site to confirm rendered copy looks right.
-- [ ] Verify all `@metadata.last-updated` fields are current.
-- [ ] Re-build and check `app/sitemap.ts` still emits every locale × slug combination.
-- [ ] Update `memory-bank/progress.md` + `memory-bank/activeContext.md` to note the i18n cleanup is complete.
+- [x] Run `scripts/audit-translation.js` across **all** non-English locales; zero English-leak findings.
+- [x] Re-run the unused-keys audit from Step 1 to confirm no new dead keys crept in during the V2 pass.
+- [x] Re-run the formatter from Step 3 one more time across `i18n/**/*.json` to catch any blank-line regressions introduced while translating.
+- [x] Spot-check 3–5 random pages in 3–5 random languages (including one RTL) against the live site to confirm rendered copy looks right.
+- [x] Verify all `@metadata.last-updated` fields are current.
+- [x] Re-build and check `app/sitemap.ts` still emits every locale × slug combination. (2026-04-25; verified 4,345 entries = 79 published pages × 55 locales in `.next/server/app/sitemap.xml.body`. Every (locale, slug) emitted; each entry carries hreflang `xhtml:link` cross-references — 243,320 total alternates.)
+- [x] Update `memory-bank/progress.md` + `memory-bank/activeContext.md` to note the i18n cleanup is complete. (2026-04-25.)
 
 ---
 
@@ -402,7 +402,7 @@ Languages (54 non-English — tick each off when its updated + missing keys are 
 
 
 
-| Verification & cleanup (Step 6) | 7 | 0 |
+| Verification & cleanup (Step 6) | 7 | 7 |
 
 
 

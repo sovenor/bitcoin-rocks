@@ -1,3 +1,43 @@
+## 🏁 V2 i18n cleanup COMPLETE — 2026-04-25
+
+All 7 items in Step 6 are now ticked off. The V2 i18n cleanup
+project (Steps 1 through 6 of `V2-REDESIGN-CHECKLIST.md`) is done.
+
+**Step 6 — Final verification (7/7):**
+1. ✅ `scripts/audit-translation.js` across all 54 non-English
+   locales — zero English-leak findings.
+2. ✅ Unused-keys audit re-run from Step 1 — no new dead keys
+   introduced during the V2 pass.
+3. ✅ Formatter re-run across `i18n/**/*.json` — no blank-line
+   regressions.
+4. ✅ Spot-check of 3-5 random pages in 3-5 random languages
+   (including one RTL) — rendered copy looks right.
+5. ✅ All `@metadata.last-updated` fields are current.
+6. ✅ `app/sitemap.ts` still emits every locale × slug combination
+   (verified 4,345 entries = 79 published pages × 55 locales in
+   the static-built `.next/server/app/sitemap.xml.body`; every
+   entry carries hreflang `xhtml:link` cross-references — 243,320
+   total alternate-language pointers).
+7. ✅ This memory-bank update.
+
+**Final V2 cleanup tally:**
+
+| Category | Total | Done |
+|---|---:|---:|
+| English audit + dead-key removal (Steps 1–2) | 6 | 6 |
+| English JSON formatting normalization (Step 3) | 4 | 4 |
+| Source-side hardcoded-English audit (Step 3.5) | 10 | 10 |
+| Propagate deletions + formatter to other languages (Step 4) | 4 | 4 |
+| Per-language re-translation (Step 5) | 54 | 54 |
+| Verification & cleanup (Step 6) | 7 | 7 |
+
+The repo's i18n is now in a clean, fully-aligned state across all
+55 locales (English + 54 translations) against the V2 manifest at
+`d966f8c780c0c485...`. Future English rewrites that warrant
+re-translation will be propagated by regenerating the manifest +
+running the workflow again per locale (or in parallel batches per
+the pattern documented in this file's recent entries).
+
 ## i18n cleanup Step 5 — Zulu (zu) — 2026-04-25 — 🎉 Step 5 COMPLETE (54/54)
 
 Ran `/translate-manifest-refresh Zulu` end-to-end via the
