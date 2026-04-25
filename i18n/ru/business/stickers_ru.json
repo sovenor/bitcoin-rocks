@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
 	},
 	"bitcoin_accepted_here_stickers": "Стикеры «Здесь принимают Биткоин»",
+	"biz_stickers_hero_title": "Бесплатные наклейки «Принимаем Bitcoin»",
+	"biz_stickers_hero_subtitle": "Покажите клиентам, что вы принимаете Bitcoin. Запросите бесплатный набор наклеек «Принимаем Bitcoin» для своего заведения.",
+	"biz_stickers_intro_c1": "Принимать Bitcoin — это лишь полдела: ваши клиенты тоже должны об этом знать. Эти небольшие наклейки «Принимаем Bitcoin» рассчитаны на то, чтобы клеить их на входной двери, у кассы, на меню или там, где клиенты увидят их перед оплатой.",
+	"biz_stickers_intro_c2": "Мы отправляем бесплатный набор по любому адресу в США или Канаде, или вы можете распечатать собственные где угодно в мире.",
+	"biz_stickers_step_header": "Как вам удобно получить наклейки?",
+	"biz_stickers_step_description": "Мы отправляем бесплатные наборы по адресам в США и Канаде. В любой другой точке мира вы можете распечатать свои.",
+	"biz_stickers_option_usa": "🇺🇸 США — бесплатно по почте",
+	"biz_stickers_option_canada": "🇨🇦 Канада — бесплатно по почте",
+	"biz_stickers_option_print": "🌍 По всему миру — распечатайте сами",
+	"biz_stickers_print_header": "Распечатайте собственные файлы наклеек",
+	"biz_stickers_print_c1": "Вы можете распечатать собственные наклейки «Принимаем Bitcoin» в любой стране. Нажмите на свой язык ниже, чтобы скачать файлы и инструкции по печати.",
+	"biz_stickers_request_header": "Не видите свой язык?",
+	"biz_stickers_request_c1": "Заполните форму ниже, чтобы запросить файлы наклеек «Принимаем Bitcoin» на вашем языке. Мы сообщим, когда они будут готовы.",
+	"biz_stickers_placeholder_translation1": "Перевод фразы «Bitcoin Accepted Here»",
+	"biz_stickers_placeholder_translation2": "Перевод фразы «Scan to learn why Bitcoin is good for business.»",
 	"stickers_request": "Получите бесплатные стикеры"
 }

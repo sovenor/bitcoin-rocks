@@ -1,3 +1,49 @@
+## i18n cleanup Step 5 — Russian (ru) — 2026-04-25
+
+Ran `/translate-manifest-refresh Russian`. Russian (`русский`) is
+the largest single-language Step-5 locale tackled to date (~150M native
+speakers + ~100M second-language speakers across the post-Soviet
+space). **Counter:** 35/54 languages complete. 1,021 entries flagged
+(464 missing locale-specific + 165 manifest-changed + 392
+manifest-added; 0 untranslated) — locale was on V1 with the entire
+`inflation` namespace + all 62 `index::home_card_label_*` keys
++ scattered brand/source keys missing.
+
+**3 helper scripts under `scripts/ru-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — 327 per-currency × 13
+   currencies via templated function with Russian multi-case noun
+   forms (`longName` prepositional, `genPlural` genitive plural,
+   `nounSingular` / `nounPlural` nominative, `label`,
+   `existenceTitle`, `debtTitle`) and formal "вы/ваш" register +
+   41 non-currency keys: freedom cards
+   (Редкий/Децентрализованный/Без разрешений/Суверенный), stories
+   (Канада/Нигерия/Пенсильвания/Техас), sources, 5 manifest-changed
+   hero/intro keys).
+2. `translate-rest-part1.js` (193 entries — 404 + about + bank-runs
+   + all 10 bitcoin-vs-* comparison pages with Cyrillic body, inline
+   `<a class="body-link">` HTML preserved for Wikipedia India and
+   gold.org links; Russian terminology — "Bitcoin" Latin loanword,
+   "кошелёк" wallet, "инфляция" inflation, "набег на банк" bank run,
+   "самостоятельное хранение" self-custody, "блокчейн" loanword,
+   "контрагентский риск" counterparty risk; numeric format with
+   comma decimal + space thousands "153,9 млрд $" / "10,82 трлн $").
+3. `translate-rest-part2.js` (460 entries — full business/* subtree,
+   buy, common with "Источник:" / "Что дальше?", compound-inflation-
+   calculator, flyers, get-involved, index homepage with all 62 home
+   card labels (e.g. "Сравним" / "В чём разница?" / "Уличное
+   искусство" / "Распространяйте идею" / "Положить конец бесконечным
+   войнам"), lightning, nostr/index, sticker-files/index,
+   sticker-language-success, sticker-success, stickers, wallets).
+
+**Verification:** All 4 checks PASS — marker, locale-specific
+coverage, manifest coverage, stale pre-V2 English cross-check. Marker
+`v2-refresh-status/ru.json` pinned to current manifestVersion
+`d966f8c780c0c485...`. `npm run build` clean across 55 locales × 81
+pages (~4,349 static pages).
+
+**What's left in Step 5:** 19 locales (si, sk, sl, sv, sw, ta, th, tl,
+tr, ur, uz, vi, yo, zh, zu).
+
 ## i18n cleanup Step 5 — Romanian (ro) — 2026-04-25
 
 Manifest-driven refresh of `i18n/ro/` (Romanian, the official

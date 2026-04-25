@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
 	},
 	"bitcoin_wallet_guide": "Руководство по биткоин-кошелькам",
 	"wallets_description": "Существует множество различных биткоин-кошельков, которые отличаются важными способами. Вы можете определить, подходит ли вам кошелёк, задав эти простые вопросы.",
 	"wallets_header": "КАК БЕЗОПАСНО ХРАНИТЬ СВОЙ БИТКОИН",
+	"wallets_header_subtitle": "Пошаговый гайд по выбору кошелька, защите ключей и получению полного контроля над своим Bitcoin.",
 	"wallets_s1_c1": "Биткоин-кошельки совместимы друг с другом, поэтому вы можете отправлять Биткоин кому угодно, независимо от того, какой кошелёк они используют.",
 	"wallets_s1_c2": "Существует множество различных биткоин-кошельков, которые отличаются важными способами. Вы можете определить, подходит ли вам кошелёк, задав эти простые вопросы:",
 	"wallets_question_1": "ЭТО КОШЕЛЁК С САМОСТОЯТЕЛЬНЫМ ХРАНЕНИЕМ?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Джеймсон Лопп протестировал 70 наборов для стальных резервных копий, чтобы помочь вам выбрать подходящий.",
 	"wallets_s6_c5": "Посмотрите руководство Джеймсона по металлическим резервным копиям Биткоина здесь.",
 	"wallets_s6_c6": "Или продолжайте прокручивать, чтобы изучить варианты биткоин-кошельков.",
+	"wallets_grid_heading": "Популярные Bitcoin-кошельки",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Ищете наше руководство по Lightning-кошелькам?",
 	"wallets_starter_wallet": "Отличный стартовый кошелёк",
 	"wallets_mobile_app": "Мобильное приложение",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Перезаряжаемый аккумулятор",
 	"wallets_build_your_own": "Соберите сами",
 	"wallets_qwerty_keyboard": "Полноразмерная клавиатура QWERTY",
-	"wallets_qr_scanner": "Сканер QR-кодов"
+	"wallets_qr_scanner": "Сканер QR-кодов",
+	"sources_bitcoin_org_choose": "Bitcoin.org — выберите свой кошелёк",
+	"sources_jameson_lopp": "Jameson Lopp — обзоры металлических хранилищ для Bitcoin-сидов",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin-кошелёк с самостоятельным хранением",
+	"sources_blockstream_jade": "Blockstream Jade — аппаратный Bitcoin-кошелёк",
+	"sources_coldcard_mk5": "Coinkite — аппаратный кошелёк Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — аппаратный кошелёк Coldcard Q",
+	"sources_passport": "Foundation Devices — аппаратный кошелёк Passport",
+	"sources_seedsigner": "SeedSigner — самодельное устройство с открытым исходным кодом для подписи Bitcoin-транзакций"
 }

@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
-	}
+	},
+	"biz_sticker_success_hero_title": "Ваши наклейки в пути 🎉",
+	"biz_sticker_success_hero_subtitle": "Вы получите бесплатные наклейки «Принимаем Bitcoin» в течение 2–4 недель в обычном белом конверте, в котором будет 3 наклейки.",
+	"biz_sticker_success_tips_header": "Хорошие места для наклеек",
+	"biz_sticker_success_tip_1": "На двери или главной витрине, чтобы клиенты увидели до того, как войдут",
+	"biz_sticker_success_tip_2": "Рядом с кассой, на платёжном терминале или там, где клиенты платят",
+	"biz_sticker_success_tip_3": "На меню, прайс-листах или коробках для чаевых",
+	"biz_sticker_success_tip_4": "Не клейте их в местах, которые вам не принадлежат, или там, где у вас нет разрешения",
+	"biz_sticker_success_more_header": "Нужно больше наклеек?",
+	"biz_sticker_success_more_c1": "Если 3 наклеек недостаточно для вашего бизнеса, не стесняйтесь запросить ещё один бесплатный набор — или закажите оптом у того же типографа, что и мы.",
+	"biz_sticker_success_btn_order_bulk": "Заказать оптом",
+	"biz_sticker_success_btn_request_more": "Запросить ещё один бесплатный набор"
 }

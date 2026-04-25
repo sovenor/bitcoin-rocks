@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Заявка получена 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Спасибо за запрос файлов наклеек «Принимаем Bitcoin» на вашем языке.",
+	"biz_sticker_language_success_timeline_header": "Что дальше",
+	"biz_sticker_language_success_timeline_c1": "Мы создадим и опубликуем ваши файлы наклеек в течение 3–4 недель. Как только они будут готовы, вы сможете скачать и распечатать их бесплатно с нашей страницы файлов наклеек.",
+	"biz_sticker_language_success_timeline_c2": "Мы выпускаем файлы наклеек партиями, поэтому до активации вашего языка может пройти несколько недель. Спасибо за терпение!"
 }

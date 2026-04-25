@@ -1,3 +1,99 @@
+## Russian (ru) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Russian` end-to-end. **Locale 35/54
+complete.** Russian (`русский`) is the official language of Russia and
+is widely spoken across the post-Soviet space (Belarus, Kazakhstan,
+Kyrgyzstan, Ukraine, etc.) — roughly 150M native + 100M second-language
+speakers, making it one of the largest single-language markets on the
+site. Russia and the post-Soviet bloc have a deep, technically-literate
+Bitcoin community (RBC Crypto, Forklog, ProBlockchain, BitNovosti).
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...` (post-2026-04-24 regen — 165
+  changed + 392 added = 557 total)
+- Locale-specific gaps: 464 missing + 0 untranslated (locale was on V1
+  with the entire `inflation` namespace + all 62
+  `index::home_card_label_*` + scattered brand/source keys missing
+  across about/common/lightning/nostr/wallets)
+- Manifest entries: 165 changed + 392 added → **1,021 total entries
+  flagged**
+
+**Helper-script split (3 scripts under `scripts/ru-manifest-refresh/`):**
+- `translate-inflation.js` — **368 entries**. Per-currency templated
+  translator × 13 currencies covering `intro_1/2/highlight` +
+  `proof_h2/p1–p6` + `btc_h2/p1–p4` + `freedom_h2/p1–p2` +
+  `stat_*` suffixes. Uses Russian noun forms with multiple cases:
+  `longName` prepositional case ("if you save in X" → "если вы храните
+  сбережения в X" — e.g. "американских долларах" / "евро" / "японских
+  иенах"), `genPlural` genitive plural ("supply of X" / "more X" —
+  e.g. "американских долларов"), `nounSingular` nominative singular
+  ("each X in your account" — e.g. "доллар"), `nounPlural` nominative
+  plural ("X buy you less" — e.g. "доллары"), `label` for the stat
+  card, `existenceTitle` ("X в обращении"), `debtTitle`
+  ("Государственный долг X-genitive"). Formal "вы/ваш" register
+  throughout — the standard register for Russian financial/educational
+  copy. Plus 41 non-currency keys: freedom cards
+  (Редкий/Децентрализованный/Без разрешений/Суверенный), stories
+  (Канада/Нигерия/Пенсильвания/Техас), sources, and 5 manifest-changed
+  hero/intro keys.
+- `translate-rest-part1.js` — **193 entries**. 404 page + about
+  + bank-runs + all 10 bitcoin-vs-* comparison pages. Cyrillic body
+  throughout, mostly straight ASCII quotes (Russian digital convention
+  varies; «» preserved for explicit Russian quotation contexts). Inline
+  `<a class="body-link">` HTML preserved verbatim for the Wikipedia
+  India demonetisation link in bitcoin-vs-cash and the gold.org
+  supply-and-demand link in bitcoin-vs-gold. Russian terminology —
+  "Bitcoin" preserved as Latin loanword (universal in Russian crypto
+  press, e.g. RBC Crypto, Forklog, ProBlockchain), "кошелёк" (wallet),
+  "инфляция" (inflation), "прирост капитала"/"убыток" (capital
+  gain/loss), "набег на банк" (bank run, native calque),
+  "самостоятельное хранение" (self-custody, native term), "блокчейн"
+  (kept as loanword), "контрагентский риск" (counterparty risk),
+  "редкий"/"жёсткий лимит" (scarce/hard cap). Numeric format with
+  comma decimal + space thousands per Russian convention — e.g.
+  "153,9 млрд $" / "10,82 трлн $" / "1,42 %"; short scale
+  "миллион"/"миллиард"/"триллион" matching Russian financial press.
+- `translate-rest-part2.js` — **460 entries**. business/* subtree
+  including all 11 namespaces (accounting with "базовая стоимость"
+  cost-basis tracking, why as customer-facing QR landing "Принимаем
+  Bitcoin", wallets with Strike Business + Square + IBEX/OpenNode/
+  Breez/Zaprite, maps, stickers, FAQs, sticker-files/english, etc.),
+  buy, common with "Источник:" for "Source:" and "Что дальше?" for
+  "What's next?", compound-inflation-calculator, flyers, get-involved,
+  index homepage with all 62 home card labels (e.g. "Сравним" for
+  "Let's compare", "В чём разница?" for "What's the difference?",
+  "Уличное искусство" for "Street art", "Распространяйте идею" for
+  "Spread the word", "Стабилизация электросети" for "Grid
+  stabilization", "Надежда и возможности" for "Hope and opportunity",
+  "Положить конец бесконечным войнам" for "End forever wars",
+  "Суверенные деньги" for "Sovereign money"), lightning, nostr/index,
+  sticker-files/index, sticker-language-success, sticker-success,
+  stickers, wallets.
+
+**Verification:** `apply-translations.js ru` ran clean on first pass.
+All 4 verification checks PASS:
+- Marker `v2-refresh-status/ru.json` pinned to current
+  manifestVersion `d966f8c780c0c485...`.
+- Locale-specific coverage: 0 missing / 0 untranslated.
+- Manifest coverage: 0 outstanding manifest-changed/added entries.
+- Stale pre-V2 English cross-check: 0 target values match pre-V2
+  English (165 changed entries scanned).
+
+**Build:** `npm run build` clean across 55 locales × 81 pages
+(~4,349 static pages). No `MISSING_MESSAGE` errors, no "Unable to
+load message" warnings.
+
+**Edge cases:** Russian is the first major Cyrillic-script locale to go
+through the manifest-driven refresh after Bulgarian (`bg`), so the
+existing manifest tooling handled the per-locale marker, byte-distinct
+checks, and apply pipeline cleanly. Russian's complex morphology
+(6 noun cases) needed a richer per-currency object than most prior
+locales — `longName` (prepositional), `genPlural` (genitive plural),
+`nounSingular` (nominative singular), and `nounPlural` (nominative
+plural) are all referenced from the templated `t(code, suffix)`
+function so the resulting prose reads naturally in Russian rather than
+sounding like a calque.
+
 ## Romanian (ro) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Romanian` end-to-end. **Locale 34/54
