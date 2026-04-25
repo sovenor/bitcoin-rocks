@@ -3,12 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"free_bitcoin_flyers": "Folhetos de Bitcoin grátis do bitcoin.rocks",
 	"flyers_description": "Imprime um folheto de Bitcoin em casa e coloca-o em público para divulgar o Bitcoin às pessoas ao teu redor.",
-	"flyers_intro_header": "COMO IMPRIMIR E PUBLICAR ESTES FOLHETOS DE BITCOIN",
+	"flyers_hero_title": "Imprime e afixa panfletos de Bitcoin",
+	"flyers_hero_subtitle": "Panfletos de Bitcoin gratuitos e imprimíveis. Afixa-os em espaços públicos para ajudares mais pessoas a aprender sobre Bitcoin.",
+	"flyers_intro_header": "Como imprimir e afixar estes panfletos de Bitcoin",
 	"flyers_intro_c1": "A nossa missão é ajudar-te a divulgar o Bitcoin a mais pessoas, colocando folhetos de Bitcoin em público. Este folheto tem um código QR que liga ao nosso",
 	"flyers_intro_c2": "site educacional de Bitcoin.",
 	"flyers_intro_c4": "Imprime este folheto em casa ou numa gráfica. Depois, coloca-o em quadros de avisos, postes pela cidade e outros espaços públicos onde as pessoas possam vê-lo e aprender sobre Bitcoin.",
@@ -20,5 +22,7 @@
 	"flyers_share_header": "PARTILHA OS LOCAIS DOS TEUS FOLHETOS",
 	"flyers_share_c1": "Partilha os locais dos teus folhetos connosco no Nostr e vê onde é que as outras pessoas estão a colocar os seus folhetos.",
 	"flyers_btn_share_on_nostr": "PARTILHAR NO NOSTR",
-	"flyers_btn_what_is_nostr": "O QUE É O NOSTR?"
+	"flyers_btn_what_is_nostr": "O QUE É O NOSTR?",
+	"flyers_next_get_stickers": "Espalha a palavra",
+	"flyers_next_get_stickers_desc": "Pede um pacote gratuito de autocolantes de Bitcoin"
 }

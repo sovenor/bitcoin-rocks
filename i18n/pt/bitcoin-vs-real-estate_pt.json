@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Imóveis",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Perfeitamente fungível",
 	"bitcoin_point_8": "Mercado global 24/7",
-	"point_1_summary_1": "Bitcoin pode ser movido para qualquer lugar do mundo instantaneamente pela internet. Os imóveis estão permanentemente fixados a uma localização específica e não podem ser realocados, tornando-os vulneráveis às condições econômicas locais, desastres naturais e instabilidade política.",
-	"point_2_summary_1": "Bitcoin pode ser dividido em 100 milhões de unidades menores chamadas satoshis, tornando-o perfeito para transações de qualquer tamanho. Os imóveis não podem ser facilmente divididos - você não pode vender apenas a cozinha da sua casa ou comprar meio quarto.",
-	"point_3_summary_1": "Bitcoin opera em uma rede descentralizada que nenhum governo pode controlar. Os imóveis estão sujeitos a extensa regulamentação governamental incluindo controle de aluguéis, moratórias de despejo, leis de zoneamento e domínio eminente onde governos podem confiscar sua propriedade.",
-	"point_4_summary_1": "Bitcoin não requer manutenção - existe como código digital em uma rede. Os imóveis requerem manutenção constante incluindo reparos, renovações, administração predial, seguros e lidar com inquilinos se alugados.",
-	"point_5_summary_1": "Bitcoin não tem impostos contínuos - você só paga ganhos de capital quando vende. Os imóveis estão sujeitos a impostos prediais anuais que devem ser pagos independentemente de a propriedade gerar renda, efetivamente forçando você a alugar sua própria propriedade do governo para sempre.",
-	"point_6_summary_1": "Bitcoin, quando adequadamente protegido, não pode ser destruído por enchentes, incêndios, terremotos, furacões ou outros desastres naturais. Os imóveis são vulneráveis a todas as formas de destruição física e requerem seguros caros que podem não cobrir totalmente as perdas.",
-	"point_7_summary_1": "Cada bitcoin é idêntico e intercambiável - um bitcoin equivale a um bitcoin em qualquer lugar do mundo. Cada propriedade imobiliária é única com diferentes localizações, condições e características, tornando difícil avaliar e comparar propriedades.",
-	"point_8_summary_1": "Bitcoin pode ser comprado e vendido 24/7 por qualquer pessoa com acesso à internet em qualquer lugar do mundo. As vendas de imóveis são limitadas a compradores locais, requerem processos longos com advogados e corretores, e podem levar meses para serem concluídas.",
+	"point_1_summary_1": "O Bitcoin movimenta-se instantaneamente para qualquer lugar do mundo. O imobiliário está fixado a uma localização e exposto a riscos económicos, políticos e ambientais locais.",
+	"point_2_summary_1": "O Bitcoin pode ser dividido em 100 milhões de satoshis. O imobiliário não pode ser vendido parcialmente — não consegues vender uma cozinha nem comprar metade de um quarto.",
+	"point_3_summary_1": "O Bitcoin funciona numa rede descentralizada que nenhum governo pode controlar. O imobiliário é fortemente regulado — zoneamento, controlo de rendas, expropriação e apreensão são tudo aplicáveis.",
+	"point_4_summary_1": "O Bitcoin não exige manutenção. O imobiliário exige reparações, renovações, seguros, gestão de propriedade e lidar com problemas de inquilinos.",
+	"point_5_summary_1": "O Bitcoin não está sujeito a impostos contínuos — só pagas mais-valias quando vendes. O imobiliário paga IMI/imposto de propriedade anual, independentemente do rendimento.",
+	"point_6_summary_1": "O Bitcoin corretamente protegido sobrevive a incêndios, inundações e terramotos. O imobiliário é vulnerável a todos os desastres, e os seguros raramente cobrem tudo.",
+	"point_7_summary_1": "Cada bitcoin é idêntico e intercambiável. Cada propriedade imobiliária é única, o que dificulta a avaliação e a comparação.",
+	"point_8_summary_1": "O Bitcoin é negociado globalmente 24/7 para qualquer pessoa com acesso à Internet. As vendas imobiliárias estão limitadas a compradores locais e podem demorar meses a fechar com burocracia.",
 	"bitcoin_point_9": "Promove a propriedade individual",
 	"real_estate_point_9": "Contribui para a financeirização da habitação",
-	"point_9_summary_1": "Bitcoin permite a propriedade individual direta sem intermediários, promovendo a soberania financeira para todos. Comprar imóveis como investimento além da sua residência principal contribui para a financeirização da habitação, tratando casas como commodities em vez de abrigo. Isso eleva os preços, reduz a acessibilidade para famílias e contribui para a crise habitacional e de pessoas sem-teto que afeta muitos países hoje."
+	"point_9_summary_1": "O Bitcoin permite a propriedade individual direta para qualquer pessoa. Comprar imobiliário como investimento, para além da residência principal, encarece os preços da habitação, reduz a disponibilidade e cria uma crise habitacional.",
+	"hero_title": "A diferença entre <span class=\"orange\">Bitcoin</span> e o <span class=\"asset\">imobiliário</span>"
 }

@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
-	"bitcoin_vs_gold": "Bitcoin vs Gold",
+	"bitcoin_vs_gold": "Bitcoin vs. Ouro",
 	"gold_intro_1": "O ouro é usado como dinheiro há milhares de anos e é visto por muitos como um porto seguro financeiro.",
 	"gold_intro_2": "Bitcoin é um dinheiro digital criado em 2009 e também é visto por muitos como um porto seguro financeiro.",
 	"gold_intro_3": "Mas como é que um metal físico como o ouro difere de um dinheiro digital como o Bitcoin?  Vamos dar uma olhadela às diferenças entre duas formas de dinheiro: Bitcoin e Ouro.",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Descentralizado",
 	"bitcoin_point_6": "Fácil de verificar",
 	"bitcoin_point_7": "Fácil de dividir",
-	"point_1_summary_1": "Como o Bitcoin é digital, pode ser enviado quase instantaneamente por taxas muito baixas, por qualquer pessoa com uma ligação à Internet. Como o ouro é físico, não pode ser movido através da Internet e deve ser enviado fisicamente para transferir a sua propriedade.",
-	"point_2_summary_1": "Bitcoin é um ativo digitalmente nativo, o que significa que podes transferir a tua propriedade através da Internet. Algumas empresas oferecem a possibilidade de comprar ouro online sem receber o ouro físico real, mas acabas por ter de confiar na empresa para guardar o ouro por ti. Isto funciona mais como uma IOU (abreviação de ‘I owe you’) digital, uma vez que apenas possuis uma promessa da empresa em vez do ativo real.",
-	"point_3_summary_1": "Bitcoin tem um limite máximo de 21 milhões de BTC que alguma vez existirão.",
-	"point_3_summary_2": "Todos os anos é extraído novo ouro do solo, o que resulta numa inflação da oferta total. Estima-se que a oferta total de ouro aumente cerca de 1,6% por ano, o que significa que a tua fatia do bolo diminui 1,6% por ano.",
-	"point_3_summary_3": "Isto é menos do que a inflação fiat, mas ainda é inflação.",
-	"point_4_summary_1": "O ouro tem uma oferta elástica, o que significa que, à medida que o preço do ouro aumenta, há um maior incentivo para extrair mais ouro. Este facto exerce frequentemente uma pressão descendente sobre o preço do ouro, à medida que novas minas entram em funcionamento.",
+	"point_1_summary_1": "O Bitcoin pode ser enviado instantaneamente pela Internet com taxas baixas. O ouro tem de ser enviado fisicamente para transferir a propriedade.",
+	"point_2_summary_1": "O Bitcoin é um ativo nativamente digital que podes transferir pela Internet. O ouro online é um IOU digital — apenas possuis uma promessa de um custodiante, não o metal em si.",
+	"point_3_summary_1": "O Bitcoin tem um limite fixo de 21 milhões de BTC. A oferta de ouro cresce cerca de <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6 % por ano</a>, encolhendo a tua fatia — menos do que a",
+	"point_3_summary_2": "inflação",
+	"point_3_summary_3": " do fiat, mas ainda assim inflação.",
+	"point_4_summary_1": "Quando os preços do ouro sobem, é extraído mais ouro, empurrando o preço para baixo. A oferta do Bitcoin é inelástica — por mais que o preço suba, haverá sempre apenas 21 milhões.",
 	"point_4_summary_2": "Com o Bitcoin, não importa o quão alto o preço suba, não se pode fazer mais do que 21M Bitcoin.",
 	"point_4_summary_3": "O Bitcoin é o primeiro ativo com uma relação inelástica entre o preço e a oferta.",
-	"point_5_summary_1": "A rede Bitcoin é descentralizada.",
+	"point_5_summary_1": "A rede Bitcoin é verificada por dezenas de milhares de nós independentes. A maior parte do ouro físico encontra-se em poucos cofres de grande dimensão.",
 	"point_5_summary_2": "Dezenas de milhares de nós independentes validam a rede.",
-	"point_6_summary_1": "Com o Bitcoin, é incrivelmente fácil verificar se tens Bitcoin verdadeiro, assumindo a autocustódia das tuas moedas e executando um nó completo.",
+	"point_6_summary_1": "Qualquer pessoa pode verificar Bitcoin autêntico correndo um nó completo — é apenas uma aplicação. Verificar ouro físico exige fundi-lo; pode ter tungsténio dentro.",
 	"point_6_summary_2": "A autocustódia é tão simples como descarregar uma aplicação.",
 	"point_6_summary_3": "Um nó completo é um pedaço simples de software que garante que as regras da rede estão a ser seguidas e verifica se tens Bitcoin verdadeiro.",
-	"point_7_summary_1": "Tal como existem 100 cêntimos em 1 euro, existem 100.000.000 sats em 1 Bitcoin. Isto permite que o Bitcoin seja utilizado para todas as escalas de compras, incluindo microtransacções tão pequenas como alguns cêntimos.",
-	"point_7_summary_2": "Isto faz com que o Bitcoin seja bom para negócios."
+	"point_7_summary_1": "O Bitcoin pode ser dividido em 100 milhões de satoshis, o que o torna ideal para compras de qualquer dimensão. O ouro não pode ser facilmente dividido para transações mais pequenas.",
+	"point_7_summary_2": "Isto faz com que o Bitcoin seja bom para negócios.",
+	"hero_title": "A diferença entre <span class=\"orange\">Bitcoin</span> e o <span class=\"asset\">ouro</span>"
 }

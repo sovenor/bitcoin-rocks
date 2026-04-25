@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Ficheiros de autocolantes 'Bitcoin Aceita-se' em inglês",
-	"english_biz_sticker_files_description": "Descarrega os ficheiros de autocolantes em inglês para imprimires os teus próprios autocolantes 'Bitcoin Aceita-se'."
+	"english_biz_sticker_files_description": "Descarrega ficheiros de autocolantes em inglês para imprimires os teus próprios autocolantes de «Aceita-se Bitcoin».",
+	"biz_stickers_english_hero_title": "Descarregar ficheiros de autocolantes em inglês de «Aceita-se Bitcoin»",
+	"biz_stickers_english_hero_subtitle": "Imprime os teus próprios autocolantes de «Aceita-se Bitcoin» em inglês para informares os clientes de que aceitas Bitcoin."
 }

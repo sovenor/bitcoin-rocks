@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"cic_header": "CALCULADORA DE INFLAÇÃO COMPOSTA",
 	"cic_description": "Usa esta Calculadora de Inflação Composta para descobrir quanto é que o teu salário precisa de aumentar para acompanhar a inflação.",
-	"cic_inflation_cta": "Opta por dizer não à inflação com Bitcoin"
+	"cic_hero_subtitle": "Descobre quanto o teu salário tem de aumentar para acompanhar a inflação.",
+	"cic_calculator_heading": "Calcula o teu fosso de inflação",
+	"cic_cta_label": "Próximo passo",
+	"cic_inflation_cta": "Opta por dizer não à inflação com Bitcoin",
+	"cic_next_learn_inflation": "Aprende como funciona a inflação",
+	"cic_next_explore_topics": "Explora mais tópicos",
+	"cic_next_explore_topics_desc": "Vê como o Bitcoin se relaciona com o dinheiro, a liberdade, a energia e mais.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — índice de preços no consumidor para todos os consumidores urbanos",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — oferta monetária M1"
 }

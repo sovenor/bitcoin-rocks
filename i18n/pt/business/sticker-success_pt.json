@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
-	}
+	},
+	"biz_sticker_success_hero_title": "Os teus autocolantes estão a caminho 🎉",
+	"biz_sticker_success_hero_subtitle": "Vais receber os teus autocolantes gratuitos de «Aceita-se Bitcoin» em 2 a 4 semanas, num envelope branco simples com 3 autocolantes.",
+	"biz_sticker_success_tips_header": "Bons sítios para colocar os teus autocolantes",
+	"biz_sticker_success_tip_1": "Na tua porta ou na montra principal, para que os clientes os vejam antes de entrarem",
+	"biz_sticker_success_tip_2": "Junto à caixa, no terminal de pagamento ou onde os clientes pagam",
+	"biz_sticker_success_tip_3": "Em ementas, listas de preços ou caixas de gorjetas",
+	"biz_sticker_success_tip_4": "Não os coloques em locais que não te pertencem nem onde não tenhas autorização para colar autocolantes",
+	"biz_sticker_success_more_header": "Precisas de mais autocolantes?",
+	"biz_sticker_success_more_c1": "Se 3 autocolantes não forem suficientes para a tua empresa, sente-te à vontade para pedir outro pacote gratuito — ou encomenda a granel à mesma gráfica que usamos.",
+	"biz_sticker_success_btn_order_bulk": "Encomendar a granel",
+	"biz_sticker_success_btn_request_more": "Pedir outro pacote gratuito"
 }

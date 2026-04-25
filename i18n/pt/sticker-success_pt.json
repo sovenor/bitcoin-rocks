@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"sticker_success_1": "Receberás os teus autocolantes dentro de 1 a 2 semanas. Enquanto esperas, tenta pensar num bom local para colocar os teus autocolantes!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "em locais que dificilmente serão removidos rapidamente (os autocolantes não causam danos permanentes)",
 	"sticker_success_list_3": "em superfícies onde se colam facilmente (metal, plástico, vidro)",
 	"sticker_success_list_4": "NÃO em propriedade privada, a cobrir sinalética, caixas multibanco ou bombas de gasolina",
-	"sticker_success_3": "Queres ver onde é que as outras pessoas estão a colocar os seus autocolantes?"
+	"sticker_success_3": "Queres ver onde é que as outras pessoas estão a colocar os seus autocolantes?",
+	"sticker_success_hero_title": "Os teus autocolantes estão a caminho 🎉",
+	"sticker_success_tips_header": "Bons sítios para colocar autocolantes",
+	"sticker_success_share_header": "Partilha onde colocaste os autocolantes",
+	"sticker_success_bulk_header": "Precisas de mais autocolantes?",
+	"sticker_success_btn_order_bulk": "Encomendar a granel",
+	"sticker_success_btn_share_on_nostr": "Partilhar no Nostr",
+	"sticker_success_btn_what_is_nostr": "O que é o Nostr?"
 }

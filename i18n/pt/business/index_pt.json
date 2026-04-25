@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin é bom para os negócios",
+	"business_hero_subtitle": "Recebe pagamentos com taxas mais baixas, liquidação instantânea e chega a milhões de novos clientes — sem contratos nem custos ocultos.",
+	"business_intro_c1": "O Bitcoin dá à tua empresa uma forma mais rápida, mais barata e mais privada de receber pagamentos. Sem intermediários. Sem estornos. Sem contratos. Apenas dinheiro que liquida em segundos, diretamente do cliente para ti.",
+	"business_intro_c2": "Em baixo, a versão curta de por que é que o Bitcoin é bom para os negócios — e a seguir, todos os recursos de que precisas para começar a aceitá-lo hoje.",
 	"biz_s1": "Taxas baixas sem mínimos",
 	"biz_s1_c1": "O Bitcoin permite-te receber pagamentos diretamente dos teus clientes, tal igual o dinheiro. A rede Bitcoin funciona sem intermediários, como bancos e empresas de serviços financeiros, que cobram taxas elevadas.",
 	"biz_s2": "Resolução instantânea",
@@ -17,5 +20,14 @@
 	"biz_s4": "Obter mais clientes",
 	"biz_s4_c1": "Milhões de pessoas possuem Bitcoin e querem gastar o seu Bitcoin em lugares que o aceitem.",
 	"biz_s4_c2": "Simplesmente aceitando Bitcoin, o teu negócio pode ser incluído em mapas de comerciantes Bitcoin e ganhas exposição gratuita a novos clientes que queiram pagar com Bitcoin.",
-	"biz_s4_c3": "Aceitar Bitcoin é 100% gratuito. Não há contratos ou taxas ocultas."
+	"biz_s4_c3": "Aceitar Bitcoin é 100% gratuito. Não há contratos ou taxas ocultas.",
+	"business_resources_heading": "Tudo o que precisas para aceitar Bitcoin",
+	"business_resources_intro": "Percorre estes recursos ao teu próprio ritmo. Cada um é um guia curto e prático.",
+	"biz_label_wallets": "CARTEIRAS",
+	"biz_label_maps": "MAPAS DE COMERCIANTES",
+	"biz_label_stickers": "AUTOCOLANTES",
+	"biz_label_rewards": "RECOMPENSAS",
+	"biz_label_accounting": "CONTABILIDADE",
+	"biz_label_faq": "PERGUNTAS FREQUENTES",
+	"biz_meta_description": "Aceita Bitcoin na tua empresa com taxas mais baixas, liquidação imediata, sem estornos, e ganha mais clientes."
 }
