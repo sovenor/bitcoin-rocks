@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin ndi Nyumba",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Yovuta kuwonongedwa",
 	"bitcoin_point_7": "Yosinthana kwathunthu",
 	"bitcoin_point_8": "Msika wa 24/7 padziko lonse",
-	"point_1_summary_1": "Bitcoin imatha kuyendetsedwa kulikonse padziko lonse pa intaneti nthawi yomweyo. Nyumba zili pamalo okhazikika ndipo singayendetsedwe.",
-	"point_2_summary_1": "Bitcoin imatha kugawidwa kukhala zigawo 100 miliyoni zomwe zimatchedwa satoshis. Nyumba singagawidwe mosavuta - simungathe kugulitsa khitchini yokha ya nyumba yanu.",
-	"point_3_summary_1": "Bitcoin imagwira ntchito pa netiweki yogawidwa yomwe palibe boma limene lingathe kulamulira. Nyumba zimalamulira ndi malamulo ambiri a boma kuphatikiza kulamulira malipiro a lendi, malamulo a kukhazikitsa, ndi eminent domain pomwe maboma amatha kulanda katundu wanu.",
-	"point_4_summary_1": "Bitcoin sikufuna kukonza chilichonse - imakhala ngati khodi yadigitala pa netiweki. Nyumba zimafuna kukonza nthawi zonse kuphatikiza kukonzakonza, kukonzanso, kusamalira, inshulansi, ndi kugwira ntchito ndi olipira ngati zikubwereketsa.",
-	"point_5_summary_1": "Bitcoin ilibe misonkho yopitirira - mumalipira capital gains mukagulitsa kokha. Nyumba zimaweruzidwa misonkho ya katundu iliyonse yomwe iyenera kulipidwa mosasamala ngati katundowo ukubweretsa ndalama.",
-	"point_6_summary_1": "Bitcoin, ikasungidwa bwino, singawonongeke ndi madzi, moto, zivomezi, mphepo, kapena masoka ena achilengedwe. Nyumba zili pa chiwopsezo cha kuwonongeka kwa mtundu uliwonse.",
-	"point_7_summary_1": "Bitcoin iliyonse ndi yofanana ndi ina iliyonse - bitcoin imodzi ndi bitcoin imodzi kulikonse padziko lonse. Nyumba iliyonse ndi yapadera ndi malo, kuyendera, ndi makhalidwe osiyanasiyana.",
-	"point_8_summary_1": "Bitcoin imatha kugulidwa ndi kugulitsidwa 24/7 ndi aliyense wokhala ndi intaneti kulikonse padziko lonse. Kugulitsa nyumba kumadaliridwa ndi ogula akomweko, kumafuna nthawi yaitali ndi malamulo ambiri.",
+	"point_1_summary_1": "Bitcoin imayenda kulikonse padziko lapansi pomwepo. Malo amamangidwa kumalo amodzi ndipo ali pachiwopsezo cha zachuma, ndale, ndi zachilengedwe za m'deralo.",
+	"point_2_summary_1": "Bitcoin imagawanika m'magawo 100 miliyoni a satoshi. Malo singagulitsidwe pang'ono — simungagulitse khitchini kapena kugula theka la chipinda.",
+	"point_3_summary_1": "Bitcoin imagwira ntchito pa netiweki yopanda wolamulira yomwe palibe boma lingathe kulamulira. Malo amalamulidwa kwambiri — zoning, kuwongolera renti, eminent domain, ndi kulanda zonse zikugwira ntchito.",
+	"point_4_summary_1": "Bitcoin saifuna kusamalidwa. Malo amafunika kukonza, kusintha, inshuwalansi, kasamalidwe ka katundu, ndi mavuto a omwe akukhalamo.",
+	"point_5_summary_1": "Bitcoin ilibe misonkho yopitilizika — mukulipira capital gain pakangogulitsa. Malo amalipira misonkho ya katundu chaka chilichonse mosaganizira ndalama.",
+	"point_6_summary_1": "Bitcoin yokweza moyenera ikhoza kupulumuka pa moto, madzi osefukira, ndi chivomerezi. Malo ali pachiwopsezo cha tsoka lililonse, ndipo inshuwalansi sikufikira pa zonse.",
+	"point_7_summary_1": "Bitcoin iliyonse imafanana ndipo ingasinthidwe. Malo aliwonse ndi apadera, kupangitsa kupanga mitengo ndi kuyerekeza kovuta.",
+	"point_8_summary_1": "Bitcoin imagulitsidwa padziko lonse 24/7 ndi aliyense amene ali ndi internet. Kugulitsa malo kuli kochepa kwa ogula a m'derali ndipo kungatenge miyezi yambiri yokhala ndi mapepala.",
 	"bitcoin_point_9": "Imalimbikitsa umwini wa munthu payekha",
 	"real_estate_point_9": "Imathandizira kulimbitsa nyumba ngati ndalama",
-	"point_9_summary_1": "Bitcoin imalimbikitsa umwini wachindunji popanda anthu apakati. Kugula nyumba ngati chikayikidwe kupitirira nyumba yanu yaikulu kumathandizira kulimbitsa nyumba ngati katundu, zomwe zimakweza mitengo ndi kuchepetsa mwayi wa mabanja, ndipo zikuthandizira vuto la nyumba ndi kusowa kwa pokhala padziko lino lero."
+	"point_9_summary_1": "Bitcoin imathandiza kukhala ndi okha kwa aliyense. Kugula malo ngati ndalama kupitirira nyumba yanu yayikulu kumakulitsa mitengo ya nyumba, kuchepetsa kukwanitsa kwa anthu ena ndikupangitsa zovuta zanyumba.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Malo</span>"
 }

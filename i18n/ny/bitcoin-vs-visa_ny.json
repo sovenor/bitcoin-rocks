@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_visa": "Bitcoin ndi Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Palibe kupanga ngongole",
 	"bitcoin_point_6": "Kusunga wekha n'kotheka",
 	"bitcoin_point_7": "Mwayi wa 24/7 padziko lonse",
-	"point_1_summary_1": "Bitcoin ndi ukonde wotseguka womwe aliyense amatha kulowa ndi kugwiritsa ntchito popanda chilolezo. Maukonde a ma khadi a ngongole monga Visa ndi maukonde otsekeka olamulira ndi mabungwe a ndalama omwe amatha kukana mwayi kwa aliyense.",
+	"point_1_summary_1": "Bitcoin ndi netiweki yotseguka yomwe aliyense angathe kulowamo ndi kugwiritsa ntchito popanda chilolezo. Visa ndi dongosolo lotseka lolamulidwa ndi mabungwe a ndalama omwe akhoza kukana mwayi — makamaka kwa anthu omwe alibe akaunti kapena osasamalidwa bwino ndi mabanki.",
 	"point_1_summary_2": "Izi zimapangitsa Bitcoin kukhala yophatikizira ndi yopezeka kwa anthu padziko lonse.",
-	"point_2_summary_1": "Machitidwe a Bitcoin alibe malipiro kwa amalonda, pomwe makampani a ma khadi a ngongole nthawi zambiri amalandira pafupifupi 3% pa machitidwe aliwonse.",
-	"point_2_summary_2": "Phunzirani momwe bizinesi yanu ingasunge ndalama",
-	"point_2_summary_3": "polandira malipiro a Bitcoin m'malo molipira malipiro a ma khadi a ngongole.",
-	"point_3_summary_1": "Bitcoin imagwira ntchito pa blockchain yoonetsa pomwe machitidwe onse amatha kutsimikizidwa ndi aliyense. Maukonde a ma khadi a ngongole amagwira ntchito ngati maukonde otsekeka.",
+	"point_2_summary_1": "Kugwiritsa ntchito Bitcoin kulibe ndalama za amalonda. Visa nthawi zambiri imalipira amalonda pafupifupi 3% pa kugwiritsa ntchito kulikonse — bizinesi yanu ikhoza kusunga ndalama polandira",
+	"point_2_summary_2": "malipiro a Bitcoin",
+	"point_2_summary_3": " m'malo mwake.",
+	"point_3_summary_1": "Kugwiritsa ntchito kulikonse kwa Bitcoin kuli pa blockchain ya pagulu yomwe imatha kufufuzidwa. Visa imayendetsa dongosolo lotseka komanso lake komwe makasitomala sangathe kutsimikizira kalikonse okha.",
 	"point_3_summary_2": "Kuonetsa kumeneku kumapangitsa Bitcoin kukhala yodalirika kwambiri.",
-	"point_4_summary_1": "Makampani a ma khadi a ngongole amatha kuumitsa akaunti, kuletsa machitidwe, kapena kukana ntchito nthawi iliyonse. Bitcoin singaumitsidwe kapena kulamulira ndi olamulira aliyense.",
+	"point_4_summary_1": "Bitcoin singatsekedwe ndi ulamuliro wapakatikati uliwonse. Visa ikhoza kutseka akaunti, kuletsa zochita, kapena kukana ntchito nthawi iliyonse.",
 	"point_4_summary_2": "Ndi Bitcoin, mumasunga ulamuliro wa ndalama zanu ndipo simungathe kuduka pa dongosolo la malipiro.",
-	"point_5_summary_1": "Ma khadi a ngongole amapanga ngongole yomwe ingadzazike chiwongo chokwera, nthawi zina kupitirira 25% pachaka.",
+	"point_5_summary_1": "Bitcoin ndi kutsiriza komaliza — mungathe kugwiritsa ntchito zomwe muli nazo. Makhadi ongongoletsa amapanga ngongole ndi chiwongolero chomwe nthawi zambiri chimaposa 25% pachaka.",
 	"point_5_summary_2": "Machitidwe a Bitcoin ndi omaliza popanda kupanga ngongole - mutha kugwiritsa ntchito Bitcoin yomwe muli nayo yokha.",
-	"point_6_summary_1": "Bitcoin imalola kusunga wekha, kutanthauza kuti mutha kusunga ndi kulamulira ndalama zanu popanda kudalira mabanki kapena opangitsa malipiro.",
-	"point_6_summary_2": "Phunzirani za zikwama za Bitcoin",
-	"point_6_summary_3": "kuti mumvetsetse momwe mungalangirire ndalama zanu. Ma khadi a ngongole amafuna nthawi zonse anthu apakati monga mabanki ndi opangitsa malipiro.",
-	"point_7_summary_1": "Bitcoin imagwira ntchito 24/7 padziko lonse popanda maola a ntchito kapena malire a madera.",
-	"point_7_summary_2": "Maukonde a ma khadi a ngongole ali ndi maola a ntchito, nthawi yokonzakonza, ndi malire a madera omwe amatha kuletsa machitidwe."
+	"point_6_summary_1": "Bitcoin imakulolani kutenga",
+	"point_6_summary_2": "kusunga nokha",
+	"point_6_summary_3": "popanda banki kapena wopanga malipiro ofunika. Makhadi ongongoletsa nthawi zonse amafuna apakati.",
+	"point_7_summary_1": "Bitcoin imagwira ntchito 24/7 padziko lonse popanda nthawi za bizinesi. Visa ili ndi nthawi zogwirira ntchito, nthawi zokonza, ndi malire amalo omwe akhoza kuletsa zochita.",
+	"point_7_summary_2": "Maukonde a ma khadi a ngongole ali ndi maola a ntchito, nthawi yokonzakonza, ndi malire a madera omwe amatha kuletsa machitidwe.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Visa</span>"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin ndi Zojambula Zapamwamba",
@@ -26,11 +26,12 @@
 	"bitcoin_point_5": "Yotsimikizirika ndi cryptography",
 	"bitcoin_point_6": "Yovuta kuwonongedwa",
 	"bitcoin_point_7": "Yopezeka kwa aliyense",
-	"point_1_summary_1": "Bitcoin imagwira ntchito mofanana - bitcoin imodzi ndi yofanana ndi bitcoin ina iliyonse padziko lonse. Zojambula zapamwamba ndi zapadera pamapangidwe, mbiri, kuyendera, ndi chiyambi, zomwe zimapangitsa kuyerekezera ndi kuwerengera kukhala kovuta kwambiri.",
-	"point_2_summary_1": "Bitcoin imagulitsidwa pa msika wa 24/7 padziko lonse pomwe aliyense wokhala ndi intaneti amatha kugula kapena kugulitsa nthawi yomweyo. Zojambula zapamwamba zimafuna nyumba za malonda zapadera, ndipo malonda amatha kutenga miyezi.",
-	"point_3_summary_1": "Kugula kapena kugulitsa bitcoin nthawi zambiri kumalandira malipiro ochepa kwambiri. Zojambula zapamwamba zimabweretsa ndalama zambirimbiri kuphatikiza malipiro oogula, malipiro a ogulitsa, inshulansi, kuyendetsa, ndi ena.",
-	"point_4_summary_1": "Bitcoin imatha kugawidwa kukhala zigawo 100 miliyoni zomwe zimatchedwa satoshis, zomwe zimapangitsa kukhala yabwino pa malonda a kukula kulikonse. Zojambula zapamwamba singagawidwe.",
-	"point_5_summary_1": "Umwini ndi kunena kwa Bitcoin kumatha kutsimikizidwa pa blockchain ndi aliyense. Zojambula zapamwamba zimafuna otsimikizira akatswiri odula ndipo zachinyengo nthawi zambiri zimanyenga dziko la zojambula.",
-	"point_6_summary_1": "Bitcoin, ikasungidwa bwino, singawonongeke ndi madzi, moto, zivomezi, mphepo, kuba, kapena masoka ena. Zojambula zapamwamba zili pa chiwopsezo cha kuwonongeka kwa mtundu uliwonse.",
-	"point_7_summary_1": "Bitcoin imatha kugulidwa ndi kugulitsidwa ndi aliyense wokhala ndi intaneti ndi ndalama zing'onozing'ono. Chikayikidwe cha zojambula zapamwamba ndi cha anthu olemera chifukwa cha mitengo yokwera."
+	"point_1_summary_1": "Bitcoin iliyonse imafanana ndipo ingasinthidwe. Chojambula chilichonse ndi chapadera — kupangidwa kosiyana, mbiri, mkhalidwe, ndi chiyambi zimapangitsa kuyerekeza kwachindunji kukhala kovuta kwambiri.",
+	"point_2_summary_1": "Bitcoin imagulitsidwa 24/7 pa msika wa padziko lonse womwe ungafikidwe ndi aliyense. Zojambula zapamwamba zimafunika nyumba zapadera za auction, ogulitsa achinsinsi, kapena ma gallery ndipo zikhoza kutenga miyezi kuti zigulitsidwe.",
+	"point_3_summary_1": "Kugula kapena kugulitsa Bitcoin kumawononga ndalama zochepera 1%, nthawi zambiri zochepa kwambiri. Kugulitsa kojambula kumawonjezera 30–40% mu premium ya wogula, ndalama, inshuwalansi, kunyamula, ndi ndalama zotsimikiziridwa.",
+	"point_4_summary_1": "Bitcoin imagawanika m'magawo 100 miliyoni a satoshi, yokwanira kugwiritsa ntchito kulikonse. Simungakhale ndi kachigawo ka chithunzi kapena ngodya ya chosema popanda ngozi ya munthu wina.",
+	"point_5_summary_1": "Kukhala ndi Bitcoin ndi kutsimikizika kwake kungathe kutsimikiziridwa mwa cryptographic ndi aliyense pa blockchain. Kutsimikizika kwa zojambula ndi kokwera mtengo, kochedwa, ndipo amatchedwa kwambiri ndi opanga zabodza — kuwononga mtengo wa zojambula mwadzidzidzi.",
+	"point_6_summary_1": "Bitcoin yokweza moyenera ikhoza kupulumuka pa madzi osefukira, moto, chivomerezi, ndi kuba. Zojambula zapamwamba zili zovuta ku mtundu uliwonse wa kuwonongeka kwa thupi, ndipo inshuwalansi sikukwanira pa zonse.",
+	"point_7_summary_1": "Aliyense amene ali ndi internet ndi ndalama zochepa akhoza kugula Bitcoin. Kugula zojambula zapamwamba kuli kochepa kwa osonkhanitsa olemera okha okhala ndi mwayi wa auction ndi luso lapadera.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Zojambula Zapamwamba</span>"
 }

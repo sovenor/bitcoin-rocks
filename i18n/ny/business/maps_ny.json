@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mapu a Amalonda a Bitcoin - Lembetsani bizinesi yanu kwaulere",
-	"maps_view": "Onani mapu pano."
+	"maps_view": "Onani mapu pano.",
+	"biz_maps_hero_title": "Lembani bizinesi yanu pa Mapu a Amalonda a Bitcoin",
+	"biz_maps_hero_subtitle": "Lembani bizinesi yanu mwaulere pa BTC Map — mndandanda wotseguka wa amalonda padziko lonse omwe amalandira Bitcoin — kuti ogwiritsa ntchito Bitcoin a m'derali apeze inu ndikugwiritsa ntchito Bitcoin pa bizinesi yanu.",
+	"biz_maps_intro_c1": "Anthu ogwiritsa ntchito Bitcoin amafufuza malo ogwiritsa ntchito ndalama zawo. Kuyika bizinesi yanu pa mapuwa kumakuyikani patsogolo pa wogwiritsa ntchito Bitcoin aliyense pafupi yemwe akufuna malo odyera, kugula, kapena kukhala — popanda mtengo kwa inu.",
+	"biz_maps_intro_c2": "Dzazani fomu yosavuta pansipa ndipo tiyika bizinesi yanu pa BTC Map ndi mapu ena a amalonda a Bitcoin.",
+	"biz_maps_view_map_cta": "Onani BTC Map",
+	"biz_maps_form_header": "Tiuzeni za bizinesi yanu",
+	"biz_maps_form_intro": "Tikufuna zambiri zochepa kuti tikhale ndi mwayi wokulemba. Deta ya adilesi yanu imasungidwa kokha mokwanira nthawi yokulowetsa bizinesi yanu pa mapu.",
+	"biz_maps_placeholder_name": "Dzina la bizinesi",
+	"biz_maps_placeholder_category": "Mtundu (mwachitsanzo, malo odyera, malo ogulitsa khofi, hotelo)",
+	"biz_maps_placeholder_address": "Adilesi ya msewu",
+	"biz_maps_placeholder_city": "Mzinda",
+	"biz_maps_placeholder_region": "Chigawo / Boma",
+	"biz_maps_placeholder_country": "Dziko",
+	"biz_maps_placeholder_website": "Webusayiti (osati zofunika)",
+	"biz_maps_meta_description": "Lembani bizinesi yanu mwaulere pa BTC Map ndi mapu ena a amalonda a Bitcoin kuti ogwiritsa ntchito Bitcoin a m'derali akupezeni."
 }

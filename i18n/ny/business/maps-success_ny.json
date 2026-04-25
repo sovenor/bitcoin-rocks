@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
-	}
+	},
+	"biz_maps_success_hero_title": "Pempho lalandiridwa 🎉",
+	"biz_maps_success_hero_subtitle": "Zikomo chifukwa chopereka bizinesi yanu. Tikuyikani pamapu a amalonda a Bitcoin posachedwa.",
+	"biz_maps_success_timeline_header": "Zomwe zikuchitika kenaka",
+	"biz_maps_success_timeline_c1": "Tikuyikani bizinesi yanu pa BTC Map ndi mndandanda wina wa amalonda a Bitcoin mu sabata 1–2. Timasanthula chikalata chilichonse ndi manja kuti tikhalebe ndi mapu olondola.",
+	"biz_maps_success_timeline_c2": "Mlandulo wanu ukatulutsidwa, ogwiritsa ntchito Bitcoin a m'derali akhoza kupeza bizinesi yanu ndi kuyamba kugwiritsa ntchito Bitcoin.",
+	"biz_maps_success_view_header": "Onani komwe mukhalapo",
+	"biz_maps_success_view_c1": "Pamene mukudikira, fufuzani BTC Map kuti muwone netiweki yokulira ya mabizinesi padziko lonse omwe amalandira Bitcoin.",
+	"biz_maps_success_btn_view_map": "Onani BTC Map"
 }

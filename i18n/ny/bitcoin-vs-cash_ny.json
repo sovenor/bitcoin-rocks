@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_cash": "Bitcoin ndi Ndalama",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Netiweki yogawidwa",
 	"bitcoin_point_6": "Kusunga wekha kwadigitala",
 	"bitcoin_point_7": "Yosavuta kugawa",
-	"point_1_summary_1": "Bitcoin imatha kutumizidwa kulikonse padziko lonse pa intaneti, pomwe ndalama zimafuna kukhalapo pamanjanja kapena kukhulupirira anthu apakati.",
-	"point_2_summary_1": "Bitcoin imagwira ntchito mofanana padziko lonse - palibe malire mu netiweki ya Bitcoin. Ndalama zimaweruzidwa ndi madera, mitengo yosinthasintha, ndi kulandiridwa kwakomweko.",
-	"point_3_summary_1": "Maboma amatha kuletsa ndalama usiku umodzi kudzera mwa ndondomeko za demonetization, monga India inachitira mu 2016 pamene analetsa ma noti ena.",
-	"point_3_summary_2": "Ngakhale osaletsa ma noti ena, maboma amawononga ndalama nthawi zonse kudzera mu kukwera kwa mitengo.",
-	"point_3_summary_3": "Bitcoin singaletsereke ndi boma kapena olamulira aliyense - imakhala pa netiweki yogawidwa yapadziko lonse yomwe palibe munthu amene amaiyendetsa yekha.",
-	"point_4_summary_1": "Ndalama zimatha kupangidwa zachinyengo, ndipo nthawi zambiri n'kovuta kuzindikira ma noti achinyengo popanda zipangizo zapadera. Bitcoin imagwiritsa ntchito umboni wa cryptographic womwe umapangitsa kuti kuchinyengo kukhale kosatheka.",
-	"point_5_summary_1": "Ndalama zimatulutsdwa ndi kulamulira ndi maboma, omwe amatha kusindikiza zambiri, kusintha mapangidwe, kapena kunena kuti ma noti ena alibe ntchito. Bitcoin imagwira ntchito pa netiweki yogawidwa pomwe palibe olamulira mmodzi amene ali ndi ulamuliro.",
-	"point_6_summary_1": "Ndalama ziyenera kusungidwa pamanjanja, zomwe zimapangitsa kukhala pa chiwopsezo cha kuba, kutayika, moto, kapena kulanda.",
-	"point_6_summary_2": "Koma Bitcoin imatha kusungidwa motetezeka nokha",
-	"point_6_summary_3": "pogwiritsa ntchito pulogalamu ya foni kapena chikwama chapadera, zomwe zimakupatsani ulamuliro wathunthu wa ndalama zanu popanda ziwopsezo zosungira pamanjanja.",
-	"point_7_summary_1": "Ndalama zili ndi malire ang'onoang'ono - simungathe kugawa senti kukhala zigawo zing'onozing'ono. Bitcoin imatha kugawidwa kukhala zigawo 100 miliyoni zomwe zimatchedwa satoshis, zomwe zimalola malipiro ang'onoang'ono ndi machitidwe olondola a ndalama zilizonse."
+	"point_1_summary_1": "Bitcoin imayenda pa internet kulikonse mu mphindi zochepa. Ndalama zenizeni zimafunika kupezeka pamalo kapena otumiza odalirika — simungatumize ndalama zenizeni za $20 kudzera mu imelo.",
+	"point_2_summary_1": "Bitcoin imagwira ntchito chimodzimodzi kulikonse. Ndalama zenizeni zili zochepa pamalo, mtengo wa kusinthana, ndi kuvomerezeka kwa kumudzi.",
+	"point_3_summary_1": "Maboma akhoza kuthetsa ndalama zenizeni mwadzidzidzi — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> idachita zomwezo mu 2016. Ngakhale popanda kuchotsa, ndalama zenizeni zimataya mtengo wake chifukwa cha",
+	"point_3_summary_2": "kukwera kwa mitengo.",
+	"point_3_summary_3": "Bitcoin singathetsedwe ndi boma lililonse kapena ulamuliro uliwonse.",
+	"point_4_summary_1": "Ndalama zenizeni zikhoza kupangidwa zabodza, nthawi zina mwaluso. Bitcoin imagwiritsa ntchito cryptography yomwe imapangitsa kupanga zabodza kosatheka.",
+	"point_5_summary_1": "Bitcoin ilibe ulamuliro wapakatikati. Ndalama zenizeni zimaperekedwa ndi maboma amene akhoza kusindikiza zambiri, kusintha mawonekedwe, kapena kuthetsa makalata malinga ndi kufuna kwawo.",
+	"point_6_summary_1": "Ndalama zenizeni zili zovuta ku kuba, moto, kutaya, ndi kulanda. Bitcoin imatha kusungidwa motetezeka",
+	"point_6_summary_2": "nokha",
+	"point_6_summary_3": "pa foni kapena chipangizo cha hardware.",
+	"point_7_summary_1": "Bitcoin imagawanika m'magawo 100 miliyoni a satoshi, zomwe zimathandiza malipiro ang'ono akukula kulikonse. Ndalama zenizeni zili ndi malire ang'ono — simungagawane senti imodzi.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Ndalama Zenizeni</span>"
 }

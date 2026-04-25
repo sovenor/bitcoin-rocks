@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Pempho lalandiridwa 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Zikomo chifukwa chopempha mafayilo a zitikiti za 'Bitcoin Imalandiridwa Pano' mu chilankhulo chanu.",
+	"biz_sticker_language_success_timeline_header": "Zomwe zikuchitika kenaka",
+	"biz_sticker_language_success_timeline_c1": "Tikupanga ndi kutulutsa mafayilo anu a zitikiti mu sabata 3–4. Akakhala okonzeka, mukhoza kutsitsa ndi kuwasindikiza mwaulere kuchokera tsamba lathu la mafayilo a zitikiti.",
+	"biz_sticker_language_success_timeline_c2": "Timatulutsa zitikiti m'magulu — chilankhulo chanu chikhoza kutenga sabata yochepa kuti chitulutsidwe. Zikomo chifukwa cha kupirira kwanu."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"how_to_accept_bitcoin_payments": "Momwe Mungalandirire Malipiro a Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Kudzisamalira wekha = malipiro 0%",
 	"wallets_feature_online_store": "Kuphatikiza ndi shopo ya pa intaneti",
 	"wallets_feature_invoicing": "Pulogalamu yaulere yotumizira malipiro",
-	"wallets_get_wallet": "PEZANI CHIKWAMA"
+	"wallets_get_wallet": "PEZANI CHIKWAMA",
+	"wallets_hero_subtitle": "Zikwama zaulere za Bitcoin za mabizinesi. Sankhani yomwe ikugwirizana ndi bizinesi yanu — mwaokha, pa intaneti, kapena yobikidwa pa bilu — ndipo yambani kulandira Bitcoin mu mphindi zochepa.",
+	"wallets_section_sole": "Zikwama za mabizinesi a munthu m'modzi",
+	"wallets_section_sole_intro": "Ngati mukuyendetsa malo ogulitsa, malo ogulitsa khofi, studio, kapena ntchito mwekha, zikwamazi zikugwira ntchito. Sankhani malingana ndi ngati mukufuna kusunga malipiro ngati Bitcoin kapena kusintha mwadzidzidzi ena kukhala ndalama yakuderali.",
+	"wallets_section_multiple": "Zikwama za mabizinesi okhala ndi antchito ambiri",
+	"wallets_section_multiple_intro": "Ngati muli ndi gulu lolandirira ndalama pa kasha, sankhani chikwama chokhala ndi mwayi kwa antchito ambiri — wantchito aliyense amapeza PIN yake yokha, ndipo mumakhalabe ndi maumbiri akumva omveka kuti ndani analandila chiyani.",
+	"wallets_section_online": "Zikwama za mabizinesi a pa intaneti",
+	"wallets_section_online_intro": "Mukugulitsa pa webusayiti? Zikwamazi zimalumikizana ndi malo anu ogulitsa pa intaneti ndipo zimalandira Bitcoin kuchokera kwa makasitomala kulikonse padziko lapansi — popanda ma chargeback, palibe akaunti ya wamalonda yofunika.",
+	"wallets_section_invoice": "Zikwama za mabizinesi okhalitsa ma bilu",
+	"wallets_section_invoice_intro": "Ngati mukutumiza ma bilu kwa olemba upangiri, antchito odzipangira, kapena ntchito za B2B, gwiritsani ntchito chikwama chopangidwira kupanga ma bilu. Kasitomala wanu akhoza kulipira bilu ya Bitcoin ndi madinde ochepa.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business ndiyo yomwe imalimbikitsidwa nthawi zambiri kwa mabizinesi a USA chifukwa cha kuphweka kwake — imasintha 100% ya Bitcoin yomwe mwalandira kukhala madola mwadzidzidzi.",
+	"sources_square": "Square — Landirani malipiro a Bitcoin",
+	"sources_breez_business": "Breez — Chikwama cha Lightning chodzipangira chovomerezedwa ndi mabizinesi",
+	"sources_opennode": "OpenNode — Wokonza malipiro a Bitcoin",
+	"sources_ibex": "IBEX — Maziko a malipiro a Lightning",
+	"sources_zaprite": "Zaprite — Mabilu a Bitcoin a mabizinesi",
+	"biz_wallets_meta_description": "Zikwama zonse za Bitcoin zimalumikizana — sankhani yomwe ikugwirizana ndi bizinesi yanu. Yaulere, kutsiriza pomwepo, palibe ma chargeback."
 }

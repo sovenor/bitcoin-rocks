@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
-	}
+	},
+	"biz_sticker_success_hero_title": "Zitikiti zanu zikupita 🎉",
+	"biz_sticker_success_hero_subtitle": "Zitikiti zanu zaulere za 'Bitcoin Imalandiridwa Pano' zikufika mu sabata 2–4 — mu envelopi yoyera yokhala ndi zitikiti 3.",
+	"biz_sticker_success_tips_header": "Malo abwino oyikira zitikiti",
+	"biz_sticker_success_tip_1": "Pa khomo lanu lakutsogolo kapena pa zenera kuti makasitomala awone asanalowe",
+	"biz_sticker_success_tip_2": "Pafupi ndi kasha yanu, chosanjikiza cha POS, kapena malo olipirira",
+	"biz_sticker_success_tip_3": "Pa menyu, mndandanda wa mitengo, kapena chosanjikiza cha tip",
+	"biz_sticker_success_tip_4": "OSAYIKA pa katundu wopanda chilolezo kapena katundu osati wanu",
+	"biz_sticker_success_more_header": "Mukufuna zitikiti zambiri?",
+	"biz_sticker_success_more_c1": "Ngati zitikiti 3 zilibe ku bizinesi yanu, mukhoza kupempha zambiri zaulere — kapena kuodola zambiri kuchokera kwa wosindikiza yemwe ife timagwiritsa ntchito.",
+	"biz_sticker_success_btn_order_bulk": "Odolani zambiri",
+	"biz_sticker_success_btn_request_more": "Pemphani zambiri zaulere"
 }

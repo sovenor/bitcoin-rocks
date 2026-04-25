@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_accepted_here_stickers": "Zitikiti za Bitcoin Imalandiridwa Pano",
+	"biz_stickers_hero_title": "Zitikiti zaulere za 'Bitcoin Imalandiridwa Pano'",
+	"biz_stickers_hero_subtitle": "Uzeni makasitomala anu kuti mukulandira Bitcoin. Odolani paketi yaulere ya zitikiti za 'Bitcoin Imalandiridwa Pano' kuti muyike pa bizinesi yanu.",
+	"biz_stickers_intro_c1": "Kulandira Bitcoin ndi theka chabe la ntchito — makasitomala anu ayenera kudziwa kuti mukulandira nayo. Zitikiti za 'Bitcoin Imalandiridwa Pano' zinapangidwa kuti ziyikidwe pa khomo, kasha, menyu, kapena malo aliwonse omwe makasitomala adzaona malipiroli.",
+	"biz_stickers_intro_c2": "Tikutumiza mwaulere kulikonse ku USA kapena Canada — kapena mukhoza kusindikiza nokha kulikonse padziko lapansi.",
+	"biz_stickers_step_header": "Mukufuna kulandira zitikiti zanu motani?",
+	"biz_stickers_step_description": "Tikutumiza paketi yaulere ku adilesi za USA ndi Canada. Kulikonse padziko lapansi, mukhoza kusindikiza nokha.",
+	"biz_stickers_option_usa": "🇺🇸 USA — Yaulere mu makalata",
+	"biz_stickers_option_canada": "🇨🇦 Canada — Yaulere mu makalata",
+	"biz_stickers_option_print": "🌍 Padziko lonse — Sindikizani nokha",
+	"biz_stickers_print_header": "Sindikizani nokha mafayilo a zitikiti",
+	"biz_stickers_print_c1": "Mukhoza kusindikiza nokha zitikiti za 'Bitcoin Imalandiridwa Pano' kulikonse komwe muli. Dinani pa chilankhulo chanu pansipa kuti mutsitse mafayilo a zitikiti ndi malangizo.",
+	"biz_stickers_request_header": "Simunaone chilankhulo chanu?",
+	"biz_stickers_request_c1": "Dzadzani fomu yomwe ili pansipa kuti mupemphe mafayilo a zitikiti mu chilankhulo chanu cha m'derali. Tikukuuzani akakhala okonzeka.",
+	"biz_stickers_placeholder_translation1": "Kumasulira kwa 'Bitcoin Accepted Here'",
+	"biz_stickers_placeholder_translation2": "Kumasulira kwa 'Scan to learn why Bitcoin is good for business'",
 	"stickers_request": "Pezani zitikiti zanu zaulere"
 }

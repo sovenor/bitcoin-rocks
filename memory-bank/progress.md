@@ -1,6 +1,6 @@
 ## i18n cleanup Step 5 — Dutch (nl) — 2026-04-25
 
-**Counter:** 31/54 languages complete. Thirty-first manifest-driven refresh.
+**Counter:** 32/54 languages complete. Thirty-first manifest-driven refresh.
 Dutch (Nederlands) is the dominant written and spoken language of the
 Netherlands and Flemish Belgium, with about 25 million native speakers,
 a strong financial-press tradition (FD, NRC, Het Financieele Dagblad),

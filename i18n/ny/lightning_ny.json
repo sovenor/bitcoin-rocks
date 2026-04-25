@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_lightning_wallet_guide": "Gaidi ya Zikwama za Bitcoin Lightning",
 	"lightning_description": "Zikwama za Lightning zimakuthandizani kutumiza Bitcoin mwachangu ndi mwatsika mtengo pomwe mukusunga umwini wanu.",
 	"lightning_header": "GAIDI YA ZIKWAMA ZA LIGHTNING",
+	"lightning_header_subtitle": "Lightning ikuthandizirani kutumiza Bitcoin mu masekondi kwa gawo lochepa la senti — sankhani chikwama chomwe zofunika zake zikugwirizana ndi kuchuluka kwa Bitcoin yomwe mukutumiza ndi mtundu wa malipiro omwe mumachita.",
 	"lightning_s1_c1": "Lightning imakuthandizani kutumiza malipiro a Bitcoin mwachangu ndi mwatsika mtengo.",
 	"lightning_s1_c2": "N'kofunika kudziwa kuti kugwiritsa ntchito Lightning kumabweretsa kusinthana. Posinthirana malipiro a Bitcoin achangu ndi otsika mtengo, nthawi zambiri mumachepetsa chitetezo china.",
 	"lightning_s1_c3": "Nthawi zambiri, Lightning iyenera kugwiritsidwa ntchito ndi ndalama zing'onozing'ono za bitcoin yokha. Ndalama zambiri za bitcoin ziyenera kusungidwa mu chikwama cha chipangizo.",
-	"lightning_s1_c4": "Onani Gaidi yathu ya Zikwama za Chipangizo kuti mudziwe zambiri.",
+	"lightning_s1_c4": "Onani gaidi yathu ya",
+	"lightning_s1_c4_link": "Bitcoin Hardware Wallet Guide",
+	"lightning_s1_c4_end": "kuti mudziwe zambiri.",
 	"lightning_s1_c5": "Zikwama zonse za Lightning si zofanana. Mutha kudziwa chikwama chomwe chili ndi kusinthana koyenera kwa inu pofunsa funso limodzi losavuta:",
 	"lightning_question_1": "NDI KUSINTHANA KOTANI KOMWE NDI KOYENERA KWA INE?",
 	"lightning_s2_c1": "Chimodzi mwa zatsopano za Bitcoin ndi kuthekera kosungira popanda kudalira wosunga, monga banki. Zikwama zokusunga wekha zimatsegula mphamvu yonse ya Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Zikwama izi zimafanana kwambiri ndi dongosolo la mabanki pomwe mukuyenera kukhulupirira wina kukulolezani kupeza ndalama zanu.",
 	"lightning_s3_c3": "Zikwama za wosunga zingaoneke zosavuta, koma wosungayo ali ndi kuthekera ka teknikaili kuba ndalama zonse za ogwiritsa ntchito nthawi iliyonse.",
 	"lightning_s3_c4": "Anthu ena amakonda zikwama za Lightning za wosunga kwa ndalama zing'onozing'ono za bitcoin chifukwa ndi zosavuta kugwiritsa ntchito. Kumbukirani: makiyi anu osati, ndalama zanu osati!",
+	"lightning_grid_heading": "Zikwama zofala za Lightning",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "Yaulere 100%",
 	"lightning_merchants": "Yabwino kwa amalonda",
 	"lightning_custodial": "Chikwama chathunthu cha wosunga",
-	"lightning_cta_hardware": "Mukufunafuna Gaidi yathu ya Zikwama za Chipangizo za Bitcoin?"
+	"lightning_cta_hardware": "Mukufunafuna Gaidi yathu ya Zikwama za Chipangizo za Bitcoin?",
+	"lightning_hardware_cta_label": "Zikwama za hardware",
+	"sources_lightning_paper": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Chikwama cha Lightning cha Phoenix",
+	"sources_breez_lightning": "Breez — Chikwama cha Lightning chodzipangira",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — Chikwama cha Lightning chosungidwa",
+	"sources_lightning_labs": "Lightning Labs — Mapepala a Lightning Network"
 }

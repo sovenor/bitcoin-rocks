@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_stocks": "Bitcoin ndi Ma Share",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Malonda maola 24/7",
 	"bitcoin_point_6": "Kusunga wekha n'kotheka",
 	"bitcoin_point_7": "Chuma chokhazikika",
-	"point_1_summary_1": "Mukakhala ndi Bitcoin, muli ndi umwini wachindunji wa chumachi. Mukakhala ndi ma share, muli ndi gawo la kampani, kutanthauza kuti chikayikidwe chanu chidalira momwe kampaniyo ikuyendera, zisankho za olamulira, ndi kupambana kwa bizinesiyo.",
-	"point_2_summary_1": "Bitcoin ili ndi malire olimba a bitcoin 21 miliyoni yomwe idzakhaleko.",
-	"point_2_summary_2": "Makampani amatha kutulutsa ma share atsopano nthawi iliyonse, kuchepetsa gawo la umwini wa eni ake omwe alipo. Izi zikutanthauza kuti gawo lanu la kampaniyo limachepa ma share atsopano akapangidwa.",
-	"point_2_summary_3": "Izi ndi zochepa kuposa kukwera kwa ndalama za boma, koma kukwera kumene.",
-	"point_3_summary_1": "Bitcoin imagwira ntchito pa netiweki yogawidwa yopanda malo ovutikira amodzi. Ma share akuyikidwa ku chiwopsezo cha anthu ofunika - ngati mkulu wa kampani atachoka, kudwala, kapena kupanga zisankho zoyipa, chikayikidwe chanu chikhoza kuvutika kwambiri.",
-	"point_4_summary_1": "Mtengo wa Bitcoin umasankhidwa ndi kufunika ndi kuchuluka pa msika. Mitengo ya ma share nthawi zambiri imawunikiridwa pogwiritsa ntchito ma P/E ratio (Mtengo-ku-Phindu), omwe amaonetsa ndalama zomwe ogula amalipira pa dola iliyonse ya phindu la kampani.",
-	"point_5_summary_1": "Bitcoin imagulitsidwa maola 24 patsiku, masiku 7 pasabata pa masika apadziko lonse.",
+	"point_1_summary_1": "Bitcoin ndi chuma chachindunji chomwe muli nacho ndi kwathunthu. Masheya ndi magawo a kampani — mtengo wake umadalira utsogoleri, ntchito, ndi zisankho zomwe inu simungazilamulire.",
+	"point_2_summary_1": "Bitcoin ili ndi malire akhwawakhwa a 21 miliyoni ya BTC. Makampani akhoza kupereka masheya atsopano nthawi iliyonse, kuchepetsa eni masheya omwe alipo — ofanana ndi momwe fiat",
+	"point_2_summary_2": "kukwera kwa mitengo",
+	"point_2_summary_3": " kumachepetsa ndalama zenizeni. Ndi Bitcoin, gawo lanu silichepa.",
+	"point_3_summary_1": "Bitcoin ilibe CEO ndipo ilibe malo amodzi olephera. Masheya amadalira kwambiri utsogoleri — chisankho chimodzi cholakwika kapena kuchoka kungapangitse mtengo kugwa.",
+	"point_4_summary_1": "Mtengo wa Bitcoin umachokera ku misika ya padziko lonse yotseguka. Mtengo wa masheya umadalira muyezo monga ma P/E ratio omwe akhoza kubisa masheya okwera mtengo kwambiri.",
+	"point_5_summary_1": "Bitcoin imagulitsidwa 24/7 padziko lonse. Misika ya masheya imatsegulidwa pa nthawi za bizinesi pa masiku a sabata.",
 	"point_5_summary_2": "Bitcoin yogawidwa",
-	"point_6_summary_1": "Ndi Bitcoin, mutha kusunga ndalama zanu nokha, kutanthauza kuti ndinu eni enieni popanda kudalira wina aliyense.",
-	"point_6_summary_2": "Kusunga wekha n'kosavuta ngati kutitsa pulogalamu.",
-	"point_6_summary_3": "Ma share amafuna akaunti ya brokereji ndipo muli pa chiwopsezo - ngati kampani itafa kapena brokereji italephera, mungatasiye chikayikidwe chanu.",
-	"point_7_summary_1": "Bitcoin ndi chuma chokhazikika chokhala ndi malire olimba a Bitcoin 21 miliyoni yomwe idzakhaleko. Izi zimapangitsa chitetezo chabwino pa kukwera kwa mitengo. Ma share ali ndi momwe amagwirira ntchito mosiyanasiyana pa kukwera kwa mitengo - makampani ena amayenda bwino pomwe ena amalephera."
+	"point_6_summary_1": "Mungathe kutenga",
+	"point_6_summary_2": "kusunga nokha",
+	"point_6_summary_3": "kwa Bitcoin ndi pulogalamu yosavuta — palibe broker yofunika. Masheya amakhala ndi ma broker, kukuyikani pachiwopsezo cha munthu wina ngati alephera.",
+	"point_7_summary_1": "Kuchuluka kokhazikika kwa Bitcoin kumayipangitsa kukhala chitetezo chodalirika cha kukwera kwa mitengo. Masheya ena amapitilira kukwera kwa mitengo, ena samatero — palibe chitsimikizo.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Masheya</span>"
 }

@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_vs_crypto": "Bitcoin ndi Crypto",
 	"crypto_intro_1": "Malo a cryptocurrency aphulika ndi ndalama zadigitala zikwizikwi ndi ntchito zosiyanasiyana.",
 	"crypto_intro_2": "Pomwe Bitcoin ndiyo yoyamba ndipo ndiyodziwika kwambiri, imasiyana kwambiri ndi zinthu zina za crypto.",
 	"crypto_intro_3": "Tiyeni tiwunikenso kusiyana kwakukulu pakati pa Bitcoin ndi cryptocurrency zina.",
-	"crypto": "CRYPTO",
+	"crypto": "CRYPTO (cryptocurrency)",
 	"crypto_point_1": "Kusintha ndi kugawa kwakawirikawiri",
 	"crypto_point_2": "Ulamuliro wopakati",
 	"crypto_point_3": "Kuchuluka kosatha kapena kokwera",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Ndalama zadigitala zenizeni",
 	"bitcoin_point_7": "Yolimba",
 	"bitcoin_point_8": "Palibe amene akuyilamulira",
-	"point_1_summary_1": "Njira ya Bitcoin yakhala yosintha kuyambira 2009, ikupereka malamulo odalirika omwe sangasinthidwe mosavuta. Ntchito zambiri za crypto zimasintha nthawi zonse.",
-	"point_2_summary_1": "Bitcoin imagwira ntchito pa netiweki yogawidwa kwenikweni ndi ma node zikwi makumi odziimira okha padziko lonse. Ntchito zambiri za crypto zimalamulira ndi mabungwe, makampani, kapena magulu ang'onoang'ono a opanga mapulogalamu.",
-	"point_3_summary_1": "Bitcoin ili ndi malire olimba a ndalama 21 miliyoni yomwe idzakhaleko, zomwe zimapangitsa kukhala chuma chosakadwa kwambiri. Ntchito zambiri za crypto zili ndi kuchuluka kosatha kapena njira za kukwera.",
-	"point_4_summary_1": "Bitcoin ili ndi cholinga chimodzi chosavuta: ndalama zadigitala zapakati pa anthu. Aliyense angamvetsetse ndi kuigwiritsa ntchito ndi chidziwitso choyambirira. Ntchito zambiri za crypto zimafuna chidziwitso chakuya cha teknoloji.",
-	"point_5_summary_1": "Bitcoin imagwiritsa ntchito Proof of Work yomwe yayesedwa kwa zaka zopitirira 15 popanda kupambana kwa chitukuko. Ntchito zambiri za crypto zimagwiritsa ntchito njira zoyesedwa monga Proof of Stake.",
-	"point_6_summary_1": "Bitcoin imagwira ntchito ngati ndalama zadigitala - malo osungira chuma ndi njira yosinthiranira. Ma token ambiri a crypto ndi a ntchito za mapulatifomu apadera.",
-	"point_7_summary_1": "Bitcoin imalimba mukaukiwa ndipo yapulumuka kwa mavuto onse. Ntchito zambiri za crypto ndi zofooka ndipo zimatha kugwa chifukwa cha malamulo, mavuto ateknikaili, kapena kugwa kwa msika.",
-	"point_8_summary_1": "Bitcoin ilibe CEO, ilibe kampani yomwe ikuyichirikiza, ndipo ilibe malo ovutikira amodzi. Ntchito zambiri za crypto zimachirikizidwa ndi makampani a venture capital kapena zidalira makampani enieni."
+	"point_1_summary_1": "Protocol ya Bitcoin yakhalabe yofanana kuyambira 2009, ndikupereka malamulo oyembekezereka. Ma project ambiri a crypto amasintha protocol, tokenomics, kapena amagawanika m'mabaibulo atsopano.",
+	"point_2_summary_1": "Bitcoin imagwira ntchito pa makumi ambiri a node odziimira padziko lonse. Ma project ambiri a crypto amalamuliridwa ndi mabungwe, makampani, kapena ma dev gulu ang'ono omwe akhoza kupanga zosintha okha.",
+	"point_3_summary_1": "Bitcoin ili ndi malire akhwawakhwa a 21 miliyoni — chuma cha digito chochepa kwambiri. Ma project ambiri a crypto ali ndi kuchuluka kopanda malire kapena njira zopangira ma token atsopano malingana ndi kufuna kwawo, kuchepetsa eni.",
+	"point_4_summary_1": "Bitcoin ili ndi cholinga chimodzi: ndalama za digito za peer-to-peer. Aliyense akhoza kuyimvetsa ndi kuyigwiritsa ntchito. Crypto yambiri imaphatikizapo zopangidwa zophweka kapena DeFi yomwe imafuna luso lapadera kuti igwiritsidwe ntchito motetezeka.",
+	"point_5_summary_1": "Proof of Work ya Bitcoin yakhala ikugwira ntchito popanda kuukira kopambana pa netiweki yaikulu kwa zaka 15 zoposa. Ma project ambiri a crypto amagwiritsa ntchito makonsensasi atsopano osayesedwa pamunda.",
+	"point_6_summary_1": "Bitcoin ndi ndalama za digito — malo osungira phindu ndi njira yosinthana. Ma token ambiri a crypto ndi ma token oyendetsa kapena olamulira osakaza ndi mtengo wokayikitsa wa dziko lenileni.",
+	"point_7_summary_1": "Bitcoin imakula yamphamvu pansi pa kuukira ndipo yapulumuka pa zovuta zonse, zoletsa, ndi kunyoza. Ma project ambiri a crypto amagwa pansi pa zovuta za malamulo, zaukadaulo, kapena za msika.",
+	"point_8_summary_1": "Bitcoin ilibe CEO, ilibe kampani, ilibe malo amodzi olephera. Ma project ambiri a crypto amadalira ma VC, atsogoleri ena, kapena kupulumuka kwa kampani imodzi.",
+	"hero_title": "Kusiyana pakati pa <span class=\"orange\">Bitcoin</span> ndi <span class=\"asset\">Crypto</span>"
 }
