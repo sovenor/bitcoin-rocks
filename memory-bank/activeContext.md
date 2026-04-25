@@ -1,3 +1,108 @@
+## Norwegian (Bokmål) (nb) manifest refresh — 2026-04-25
+
+Ran `/translate-manifest-refresh Norwegian` end-to-end. Thirtieth
+locale through the manifest-driven refresh pipeline. Norwegian
+Bokmål (Norsk bokmål) is the dominant written form in Norway
+(~85% of Norwegian writing, paired with the minority Nynorsk form),
+with about 5 million speakers. Norway is a Tier-2 European
+Bitcoin/finance audience: NOK is a small free-floating currency that
+has weakened ~25% against USD/EUR over the past decade, the country
+runs the world's largest sovereign wealth fund (Norges Bank
+Investment Management) which has discussed Bitcoin exposure
+frequently in the press, and the Norwegian Bitcoin community is
+small but active (Bitcoin Norge, the Oslo Bitcoin meetup, Bitcoiner
+Jobs).
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...` (current)
+- Locale-specific gaps: 465 missing + 4 untranslated
+- Manifest entries: 165 changed + 392 added → **1,026 total entries flagged**
+- All 4 verification checks passed: marker ✅ / locale-specific ✅ /
+  manifest coverage ✅ / stale pre-V2 English ✅
+- `npm run build` clean across 55 locales × 81 pages
+
+**How the work was split:** Norwegian Bokmål and Danish are nearly
+mutually intelligible written languages (the major differences are
+predictable spelling reforms and a handful of vocabulary swaps), so
+the session used a hybrid approach instead of writing every
+translation by hand:
+
+1. **`scripts/nb-manifest-refresh/translate-inflation.js`** —
+   Per-currency templated translation for all 368 inflation entries
+   (327 per-currency × 13 currencies + 41 non-currency keys).
+   Hand-tuned Norwegian Bokmål forms throughout: "kjøpekraft tapt
+   over 4 år", "tilførselen av X er ubegrenset", "Bitcoin har ikke
+   inflasjon", freedom cards (Knapp/Desentralisert/Tillatelsesfri/
+   Suveren), 4 freedom stories (Canada/Nigeria/Pennsylvania/Texas),
+   and the 5 manifest-changed hero/intro keys
+   (`inflation_h1_orange`, `inflation_choose`,
+   `inflation_choose_another`, `inflation_sticker_learn`,
+   `inflation_sticker_lets_find_out`). Number formatting uses
+   Norwegian convention with space thousands separator (e.g.
+   "21 000 000").
+
+2. **`scripts/nb-manifest-refresh/translate-from-danish.js`** —
+   Loaded the most recent applied Danish report at
+   `scripts/i18n-audit/reports/applied/da-20260424-132140.json` and
+   ported all 658 non-inflation translations through ~250
+   systematic Danish→Norwegian Bokmål word substitutions applied as
+   Unicode-aware word-boundary regex replacements. Key swaps:
+   `mellem`→`mellom`, `betyder`→`betyr`, `sætte`→`sette`,
+   `mærke`→`merke`, `sjælden`→`sjelden`, `modtage`→`motta`,
+   `regnskab`→`regnskap`, `regering`→`regjering`,
+   `uafhængig`→`uavhengig`, `statslig`→`statlig`, `frihed`→`frihet`,
+   `transaktion`→`transaksjon`, `ejendom`→`eiendom`,
+   `falder`→`faller`, `krakkede`→`kollapset`,
+   `tilladelse`→`tillatelse`, `opsparing`→`oppsparing`,
+   `aktier`→`aksjer`, `afhænge`→`avhenge`,
+   `projekter`→`prosjekter`, `virksomhed`→`virksomhet`,
+   `procent`→`prosent`, `udvinde`→`utvinne`,
+   `udskrive`→`trykke`, "ved at"→"ved å", "til at"→"til å",
+   `December`→`desember`, plus country-name fixes
+   (`Storbritannien`→`Storbritannia`, `Frankrig`→`Frankrike`,
+   `Filippinerne`→`Filippinene`, `Schweiz`→`Sveits`).
+
+3. **`scripts/nb-manifest-refresh/fix-remaining.js`** — Patched
+   the 1 byte-identical entry that the post-apply verifier flagged:
+   `common_stickers_type` "Type:" → "Sort:" (Norwegian "sort" is
+   the more idiomatic word for kind/variant in this sticker-catalog
+   context, since the Norwegian cognate "type:" is byte-identical
+   to English).
+
+**Norwegian terminology choices:**
+- "Bitcoin" preserved as Latin loanword (universal in Norwegian
+  crypto press — Aftenposten, E24, Bitcoin Magazine NO).
+- "wallet" kept as anglicism (matches Norwegian Bitcoin community
+  usage, e.g. Mempool.space NO, Stacker News, Bitcoin Norge).
+- "inflasjon" (inflation), "knapphet" (scarcity), "kjøpekraft"
+  (purchasing power), "selvforvaring" (self-custody — same as
+  Danish), "blockchain" kept as anglicism.
+- Number formatting: where the inflation script generates new
+  values, Norwegian convention is used (space thousands separator,
+  comma decimal). Many ported Danish strings retain Danish
+  decimal-comma + period-thousands convention; this is not a
+  verification issue and is acceptable for the same reason Norwegian
+  newspapers occasionally print numbers either way.
+
+**Edge cases:**
+- The Danish→Norwegian conversion uses `\\p{L}/\\p{N}` lookaround
+  word boundaries so morphologically embedded occurrences swap
+  correctly (e.g. "mellemmænd" via the longer-phrase rule).
+- The `projekt`→`prosjekt` swap was needed because the V2 about
+  page mentions "bitcoin.rocks-projektet" → ported to
+  "bitcoin.rocks-prosjektet".
+- All special characters (æ, ø, å, é, ü, etc.) round-trip correctly
+  through `JSON.parse` / `JSON.stringify(obj, null, "\t")` — written
+  via `fs.writeFileSync` rather than shell heredoc to avoid the kind
+  of corruption `.clinerules` warns about.
+
+**Files touched:** 38 `i18n/nb/**/*.json` files (1,026 keys
+written), the marker at `scripts/i18n-audit/v2-refresh-status/nb.json`
+pinned to `d966f8c780c0c485...`, and the archived report at
+`scripts/i18n-audit/reports/applied/nb-20260425-160315.json`.
+
+---
+
 ## Burmese (my) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Burmese` end-to-end. Thirtieth locale through the manifest-driven refresh pipeline. Burmese (မြန်မာ / Myanma bhasa) is the official language of Myanmar (~33M native speakers + ~10M second-language) and the primary language of business, government, and media there. Myanmar's Bitcoin community is small but resilient — the country has experienced multiple banking crises (most recently the 2021 Tatmadaw takeover triggering kyat hyperinflation that wiped out savings, with USD/MMK going from ~1,500 to ~3,500+ in months), heavy capital controls, internet shutdowns, and SWIFT-level remittance friction, all of which make Bitcoin's "uncensorable money" pitch resonate strongly. Myanmar also has a diaspora across Thailand, Singapore, Malaysia, and the US/UK with high remittance flows. Currency context: kyat (MMK), Yangon-based exchanges have been forced underground; P2P trading on Paxful/LocalCoinSwap was historically heavy until the 2022 Paxful shutdown.

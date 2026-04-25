@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs eiendom",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Vanskelig å ødelegge",
 	"bitcoin_point_7": "Perfekt fungibelt",
 	"bitcoin_point_8": "Globalt 24/7 marked",
-	"point_1_summary_1": "Bitcoin kan flyttes hvor som helst i verden umiddelbart over internett. Eiendom er permanent bundet til en spesifikk plassering og kan ikke flyttes, noe som gjør det sårbart for lokale økonomiske forhold, naturkatastrofer og politisk ustabilitet.",
-	"point_2_summary_1": "Bitcoin kan deles inn i 100 millioner mindre enheter kalt satoshis, noe som gjør det perfekt for transaksjoner av enhver størrelse. Eiendom kan ikke enkelt deles – du kan ikke selge bare kjøkkenet i huset ditt eller kjøpe halvparten av et soverom.",
-	"point_3_summary_1": "Bitcoin opererer på et desentralisert nettverk som ingen myndighet kan kontrollere. Eiendom er underlagt omfattende myndighetsregulering inkludert husleieregulering, moratorier på utkastelse, sonelover og ekspropriasjon der myndigheter kan beslaglegge eiendommen din.",
-	"point_4_summary_1": "Bitcoin krever ingen vedlikehold – det eksisterer som digital kode på et nettverk. Eiendom krever konstant vedlikehold inkludert reparasjoner, renoveringer, eiendomsforvaltning, forsikring og håndtering av leietakere hvis den leies ut.",
-	"point_5_summary_1": "Bitcoin har ingen løpende skatter – du betaler bare kapitalgevinst når du selger. Eiendom er underlagt årlig eiendomsskatt som må betales uavhengig av om eiendommen genererer inntekt, noe som effektivt tvinger deg til å leie din egen eiendom fra myndighetene for alltid.",
-	"point_6_summary_1": "Bitcoin, når det er sikkerhetskopiert riktig, kan ikke ødelegges av flom, branner, jordskjelv, orkaner eller andre naturkatastrofer. Eiendom er sårbar for alle former for fysisk ødeleggelse og krever dyr forsikring som kanskje ikke fullt dekker tap.",
-	"point_7_summary_1": "Hver bitcoin er identisk og utskiftbar – én bitcoin er lik én bitcoin hvor som helst i verden. Hver eiendom er unik med forskjellige plasseringer, tilstander og egenskaper, noe som gjør det vanskelig å prise og sammenligne eiendommer.",
-	"point_8_summary_1": "Bitcoin kan kjøpes og selges 24/7 av hvem som helst med internettilgang hvor som helst i verden. Eiendomssalg er begrenset til lokale kjøpere, krever langvarige prosesser med advokater og eiendomsmeglere, og kan ta måneder å fullføre.",
+	"point_1_summary_1": "Bitcoin flytter seg øjeblikkeligt overalt i verden. Fast eiendom er fastlåst til ett sted og utsatt for lokale økonomiske, politiske og miljømæssige risici.",
+	"point_2_summary_1": "Bitcoin kan deles op i 100 millioner satoshi. Ejendom kan ikke delvist sælges — du kan ikke sælge et køkken eller kjøpe et halvt soveværelse.",
+	"point_3_summary_1": "Bitcoin fungerer i et desentralisert netværk, som ingen regjering kan kontrollere. Fast eiendom er stærkt reguleret — zoning, huslejekontrol, ekspropriation og beslaglæggelse anvendes alle sammen.",
+	"point_4_summary_1": "Bitcoin kræver ingen vedligeholdelse. Fast eiendom kræver reparationer, renoveringer, forsikring, eiendomsforvaltning og håndtering av lejerproblemer.",
+	"point_5_summary_1": "Bitcoin er ikke underlagt løbende skatter — du betaler kun kapitalgevinstskat, når du sælger. Fast eiendom betaler årlig eiendomsskatt uanset indkomst.",
+	"point_6_summary_1": "Korrekt backuppet Bitcoin overlever brande, oversvømmelser og jordskælv. Fast eiendom er sårbar over for enhver katastrofe, og forsikring dekker sjelden alt.",
+	"point_7_summary_1": "Hver bitcoin er identisk og ombyttelig. Hver eiendom er unik, hvilket gjør værdiansættelse og sammenligning vanskelig.",
+	"point_8_summary_1": "Bitcoin handles globalt 24/7 for alle med internetadgang. Ejendomssalg er begrænset til lokale købere og kan tage måneder å lukke med papirarbejde.",
 	"bitcoin_point_9": "Fremmer individuelt eierskap",
 	"real_estate_point_9": "Bidrar til finansialisering av bolig",
-	"point_9_summary_1": "Bitcoin muliggjør direkte individuelt eierskap uten mellommenn, og fremmer finansiell suverenitet for alle. Å kjøpe eiendom som en investering utover din primærbolig bidrar til finansialiseringen av bolig, og behandler hjem som handelsvarer i stedet for husly. Dette driver opp prisene, reduserer overkommeligheten for familier og bidrar til bolig- og hjemløshetskrisen som påvirker mange land i dag."
+	"point_9_summary_1": "Bitcoin muliggør direkte individuelt eierskap for enhver. Køb av fast eiendom som investering ud over primærbolig presser boligpriserne op, reducerer boligtilgængelighed og skaber boligkrise.",
+	"hero_title": "Forskjellen mellom <span class=\"orange\">Bitcoin</span> og <span class=\"asset\">fast eiendom</span>"
 }

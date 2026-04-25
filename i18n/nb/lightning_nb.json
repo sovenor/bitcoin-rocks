@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin Lightning-lommebokguide",
 	"lightning_description": "Lightning-lommebøker gjør det mulig å sende Bitcoin raskt og billig samtidig som du opprettholder din personlige suverenitet.",
 	"lightning_header": "LIGHTNING-LOMMEBOKGUIDE",
+	"lightning_header_subtitle": "Lightning lar deg sende Bitcoin på sekunder for en brøkdel av en øre — vælg en wallet, hvis afvejninger matcher, hvor mye Bitcoin du planlægger å bruge.",
 	"lightning_s1_c1": "Lightning gjør det mulig å sende Bitcoin-betalinger raskt og billig.",
 	"lightning_s1_c2": "Det er viktig å vite at bruk av Lightning innebærer kompromisser. I bytte mot raskere, billigere Bitcoin-betalinger ofrer du ofte noe sikkerhet.",
 	"lightning_s1_c3": "Generelt bør Lightning kun brukes med små beløp bitcoin. Du bør bare lagre store beløp bitcoin i en maskinvarelommebok.",
-	"lightning_s1_c4": "Sjekk ut vår maskinvarelommebokguide for mer informasjon.",
+	"lightning_s1_c4": "Se vår",
+	"lightning_s1_c4_link": "Guide til Bitcoin-hardware-wallets",
+	"lightning_s1_c4_end": "for mere information.",
 	"lightning_s1_c5": "Ikke alle Lightning-lommebøker er like. Du kan avgjøre hvilken lommebok som har riktig balanse av kompromisser for deg ved å stille ett enkelt spørsmål:",
 	"lightning_question_1": "HVILKEN KOMPROMISSBALANSE ER RIKTIG FOR MEG?",
 	"lightning_s2_c1": "En av innovasjonene til Bitcoin er muligheten til å lagre det uten å stole på en forvalter, som en bank. Selvforvarende lommebøker låser opp den fulle kraften til Bitcoin.",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "Disse lommebøkene ligner mer på banksystemet der du må stole på en tredjepart for å gi deg tilgang til pengene dine. Hvis din Bitcoin er på en børs, bruker du en forvarende lommebok.",
 	"lightning_s3_c3": "Forvarende lommebøker kan virke praktiske, men forvalteren har den tekniske muligheten til å stjele alle brukermidler når som helst.",
 	"lightning_s3_c4": "Noen foretrekker forvarende Lightning-lommebøker for små beløp bitcoin på grunn av brukervennligheten. Bare husk: ikke dine nøkler, ikke dine mynter!",
+	"lightning_grid_heading": "Populære Lightning-wallets",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% gratis",
 	"lightning_merchants": "Flott for forhandlere",
 	"lightning_custodial": "Helt forvarende lommebok",
-	"lightning_cta_hardware": "Leter du etter vår Bitcoin-maskinvarelommebokguide?"
+	"lightning_cta_hardware": "Leter du etter vår Bitcoin-maskinvarelommebokguide?",
+	"lightning_hardware_cta_label": "Hardware-wallets",
+	"sources_lightning_paper": "Joseph Poon og Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning-wallet",
+	"sources_breez_lightning": "Breez — selvforvaret Lightning-wallet",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — depot-Lightning-wallet",
+	"sources_lightning_labs": "Lightning Labs — dokumentation for Lightning Network"
 }

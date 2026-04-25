@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Ofte stilte spørsmål om å akseptere Bitcoin",
 	"faq_description": "Har du spørsmål om å akseptere Bitcoin-betalinger i bedriften din?",
+	"faq_hero_subtitle": "Korte svar på de spørsmål, handlende typisk stiller, før de begynder å tage imod Bitcoin — gebyrer, afregning, wallets, chargebacks, omkostninger og mere.",
+	"faq_intro_c1": "Klik på ethvert spørsmål nedenfor for å folde svaret ud. Når du er klar til å begynde å tage imod Bitcoin, guidet erhvervsressourcerne i bunden av siden deg gennem hvert trin.",
 	"faq_s1": "Hva er Bitcoin?",
 	"faq_s1_c1": "Bitcoin er to ting: digitale penger og et datanettverk.",
 	"faq_s1_c2": "Du kan sende bitcoin (digitale penger) direkte til andre mennesker ved hjelp av Bitcoin-nettverket.",

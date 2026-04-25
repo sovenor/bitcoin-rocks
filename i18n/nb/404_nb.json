@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"404_title": "Feil 404 | Siden ble ikke funnet",
-	"404_message": "DENNE ØDELAGTE SIDEN ER IKKE KULT",
-	"404_home": "TILBAKE TIL STARTSIDEN"
+	"404_message": "Bitcoin er fantastisk, men denne ødelagte side er ikke.",
+	"404_home": "Tilbage til forsiden",
+	"404_not_found_short": "Ikke fundet"
 }

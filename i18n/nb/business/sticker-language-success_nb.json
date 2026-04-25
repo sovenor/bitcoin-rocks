@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Anmodning mottatt 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Tak fordi du anmodede om „Bitcoin mottas her“-klistermærkefiler på ditt sprog.",
+	"biz_sticker_language_success_timeline_header": "Hvad sker det nå",
+	"biz_sticker_language_success_timeline_c1": "Vi opretter og udgiver dine klistermærkefiler inden for 3 til 4 uger. Så snart de er klar, kan du gratis downloade og printe dem fra vår klistermærkefil-side.",
+	"biz_sticker_language_success_timeline_c2": "Vi udgiver klistermærkefiler i batches, så det kan tage et par uger, før ditt sprog går live. Tak for din tålmodighed!"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs krypto",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Rene digitale penger",
 	"bitcoin_point_7": "Antiskjør",
 	"bitcoin_point_8": "Ingen enkelt enhet kontrollerer det",
-	"point_1_summary_1": "Bitcoins protokoll har forblitt fundamentalt uendret siden 2009, og gir forutsigbare regler som ikke enkelt kan endres. De fleste kryptoprosjekter oppdaterer protokollene sine hyppig, endrer tokenøkonomi eller forgrener seg til nye versjoner, noe som skaper usikkerhet for brukerne.",
-	"point_2_summary_1": "Bitcoin opererer på et virkelig desentralisert nettverk med titusenvis av uavhengige noder over hele verden. Mange kryptoprosjekter kontrolleres av stiftelser, selskaper eller små grupper av utviklere som kan ta ensidige beslutninger om protokollens fremtid.",
-	"point_3_summary_1": "Bitcoin har en hard grense på 21 millioner mynter som noensinne vil eksistere, noe som gjør det til den knappeste digitale eiendelen. De fleste kryptoprosjekter har ubegrensede tilbud, inflasjonsmekanismer eller kan prege nye tokens etter eget ønske, noe som vanner ut eiernes verdi over tid.",
-	"point_4_summary_1": "Bitcoin har ett enkelt formål: peer-to-peer digitale penger. Alle kan forstå og bruke det med grunnleggende kunnskap. Mange kryptoprosjekter involverer komplekse smarte kontrakter, DeFi-protokoller eller styringsmekanismer som krever teknisk ekspertise for å bruke trygt.",
-	"point_5_summary_1": "Bitcoin bruker Proof of Work-konsensus, som har blitt kampherdet i over 15 år uten et eneste vellykket angrep på hovednettverket. Mange kryptoprosjekter bruker eksperimentelle konsensusmekanismer som Proof of Stake eller delegerte systemer som ikke har bevist sin langsiktige sikkerhet.",
-	"point_6_summary_1": "Bitcoin fungerer som digitale penger – et verdilager og byttemiddel. De fleste kryptotokens er nyttetokens for spesifikke plattformer, styringstokens eller spekulative eiendeler med uklare virkelige verdiproposisjoner.",
-	"point_7_summary_1": "Bitcoin blir sterkere under angrep og har overlevd hver krise, forbud og kritikk som har blitt kastet mot det. De fleste kryptoprosjekter er skjøre og kan kollapse under regulatorisk press, tekniske feil eller markedsnedganger.",
-	"point_8_summary_1": "Bitcoin har ingen administrerende direktør, inget selskap bak seg og inget enkelt feilpunkt. Mange kryptoprosjekter er støttet av risikokapitalfirmaer, har identifiserbare lederteam eller er avhengige av spesifikke selskaper for sin fortsatte drift."
+	"point_1_summary_1": "Bitcoin-protokollen er stort set uændret siden 2009 og giver forudsigelige regler. De fleste kryptoprojekter ændrer konstant protokoller, tokenomics eller splitter seg i nye versioner.",
+	"point_2_summary_1": "Bitcoin kjører på titusindvis av uafhængige noder verden over. De fleste kryptoprojekter styres av fonde, virksomheter eller små udviklerteams, det kan foretage ensidige ændringer.",
+	"point_3_summary_1": "Bitcoin har et fast tak på 21 millioner mønter — det sjældneste digitale aktiv. De fleste kryptoprojekter har ubegrænset tilførsel eller mekanismer til å skabe nye tokens vilkårligt, hvilket udvander ejerne.",
+	"point_4_summary_1": "Bitcoin har ett formål: peer-to-peer digitale penge. Alle kan forstå og bruge det. De fleste kryptoer involverer komplekse smart contracts eller DeFi, det kræver teknisk viden for å bruges sikkert.",
+	"point_5_summary_1": "Bitcoins Proof of Work har kjørt uden et succesfuldt angreb på hovedkæden i over 15 år. De fleste kryptoprojekter bruger eksperimentel konsensus, det ikke er grundigt afprøvet.",
+	"point_6_summary_1": "Bitcoin er digitale penge — et værdilager og byttemiddel. De fleste kryptotokens er spekulative utility- eller governance-tokens med uklar virkelighedsværdi.",
+	"point_7_summary_1": "Bitcoin blir stærkere under angreb og har overlevet enhver krise, ethvert forbud og enhver kritik. De fleste kryptoprojekter faller sammen under regulativt, teknisk eller markedsmæssigt pres.",
+	"point_8_summary_1": "Bitcoin har ingen CEO, virksomhet eller enkelt failure-punkt. De fleste kryptoprojekter afhænger av VC-investorer, specifik ledelse eller en enkelt virksomheds overlevelse.",
+	"hero_title": "Forskjellen mellom <span class=\"orange\">Bitcoin</span> og <span class=\"asset\">krypto</span>"
 }
