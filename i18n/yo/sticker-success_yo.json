@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"sticker_success_1": "Iwọ gba àwọn àmì àlèmó́ rẹ láàrìn ọ̀sẹ̀ 2 sí 4. Nígbà tí o bá ń duro de, gbíyànjú láti ro ibì tó dára láti fi àwọn àmì àlèmó́ rẹ sí!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "ní àwọn ibì tí a kò ní láti yọ̀ wọn kúrò ní kìyà (àwọn àmì àlèmó́ kìí fa ìbàjẹ́ àyẹráyé)",
 	"sticker_success_list_3": "lórí àwọn ojuirin tí wọn yoo lèmó́ sí ní ìrọ̀rùn (irin, píláàsìtíkì, dígí)",
 	"sticker_success_list_4": "KÌ fi sí ohun-ìní aàrìn, lórí àmì ònà, àwọn ATM, tàbí àwọn èrù eépò pon",
-	"sticker_success_3": "Ṣé o fẹ́ rí ibì tí àwọn ènìyàn mìràn ń fi àmì àlèmó́ wọn sí?"
+	"sticker_success_3": "Ṣé o fẹ́ rí ibì tí àwọn ènìyàn mìràn ń fi àmì àlèmó́ wọn sí?",
+	"sticker_success_hero_title": "Àwọn àlèmọ́ rẹ ti wà ní ọ̀nà 🎉",
+	"sticker_success_tips_header": "Àwọn ibi rere fún àlèmọ́",
+	"sticker_success_share_header": "Pín àwọn ibi àlèmọ́ rẹ",
+	"sticker_success_bulk_header": "Ṣé o fẹ́ àwọn àlèmọ́ síi?",
+	"sticker_success_btn_order_bulk": "Bere ní bulk",
+	"sticker_success_btn_share_on_nostr": "Pín lórí Nostr",
+	"sticker_success_btn_what_is_nostr": "Kíni Nostr?"
 }

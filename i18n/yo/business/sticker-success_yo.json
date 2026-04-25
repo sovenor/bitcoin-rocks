@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
-	}
+	},
+	"biz_sticker_success_hero_title": "Àwọn àlèmọ́ rẹ ti wà ní ọ̀nà 🎉",
+	"biz_sticker_success_hero_subtitle": "O ó gba àwọn àlèmọ́ 'Bitcoin Accepted Here' ọ̀fẹ́ rẹ láàárín ọ̀sẹ̀ 2 sí 4, nínú àpò funfun lásán pẹ̀lú àwọn àlèmọ́ 3 nínú.",
+	"biz_sticker_success_tips_header": "Àwọn ibi rere láti fi àwọn àlèmọ́ rẹ",
+	"biz_sticker_success_tip_1": "Lórí ẹnu-ọ̀nà iwájú rẹ tàbí ojú-fèrèsé kí àwọn oníbàárà lè rí i kí wọ́n tó wọ inú",
+	"biz_sticker_success_tip_2": "Súnmọ́ olùgbasilẹ rẹ, terminal POS, tàbí àyè ìsanwó",
+	"biz_sticker_success_tip_3": "Lórí àwọn menu, àkọsílẹ̀ iye, tàbí àpò òwò",
+	"biz_sticker_success_tip_4": "Má ṣe fi wọ́n sí ibikíbi tí o kò ní tàbí tí o kò ní ìyọ̀ǹda láti fi wọ́n",
+	"biz_sticker_success_more_header": "Ṣé o nílò àwọn àlèmọ́ síi?",
+	"biz_sticker_success_more_c1": "Bí àwọn àlèmọ́ 3 kò bá tó fún iṣẹ́ rẹ, jọ̀wọ́ béèrè àkójọpọ̀ ọ̀fẹ́ mìíràn — tàbí kí o bere ní bulk láti ọ̀dọ̀ ilé-iṣẹ́ tẹ̀-ìpolówó kan náà tí a ń lò.",
+	"biz_sticker_success_btn_order_bulk": "Bere ní bulk",
+	"biz_sticker_success_btn_request_more": "Béèrè àkójọpọ̀ ọ̀fẹ́ mìíràn"
 }

@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"cic_header": "AṢẸ̀ÌṢIRÒ OWÓ ṢÍṢÉ AGBARA-MEJI",
 	"cic_description": "Lo Aṣẹ̀ìṣirò Owó ṢíṢé Agbara-meji yìí láti mọ̀ iye tí owó oṣù rẹ nílò láti pọ̀ sí láti bá owó ṣíṣé mu.",
-	"cic_inflation_cta": "Jáde Kúrò nínú Owó ṢíṢé Pẹ̀lú Bitcoin"
+	"cic_hero_subtitle": "Wo bí owó oṣù rẹ ṣe ní láti pọ̀ sí láti bá owó-ṣíṣẹ́ mu.",
+	"cic_calculator_heading": "Ṣírò ààlà owó-ṣíṣẹ́ rẹ",
+	"cic_cta_label": "Ìgbésẹ̀ tí ó tẹ̀le",
+	"cic_inflation_cta": "Jáde Kúrò nínú Owó ṢíṢé Pẹ̀lú Bitcoin",
+	"cic_next_learn_inflation": "Kẹ́kọ̀ọ́ bí owó-ṣíṣẹ́ ṣe ń ṣiṣẹ́",
+	"cic_next_explore_topics": "Ṣàwárí àwọn àkòrí síi",
+	"cic_next_explore_topics_desc": "Wo bí Bitcoin ṣe sopọ̀ mọ́ owó, òmìnira, agbára, àti síi.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Itọ́ka Iye Olùmúlò fún Gbogbo Olùmúlò Ìlú",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — Ìpèsè Owó M1"
 }

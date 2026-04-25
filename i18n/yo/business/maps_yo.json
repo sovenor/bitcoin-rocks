@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Máàpù Oníta Bitcoin - Fi òwò iṣẹ́ rẹ sí lófẹ̀ẹ́",
-	"maps_view": "Wo máàpù náà nibí."
+	"maps_view": "Wo máàpù náà nibí.",
+	"biz_maps_hero_title": "Fi iṣẹ́ rẹ sórí àwọn map alágbatà Bitcoin",
+	"biz_maps_hero_subtitle": "Fi iṣẹ́ rẹ pamọ́ ní ọ̀fẹ́ lórí BTC Map — atọ́nà àgbáyé ṣíṣí ti àwọn alágbatà tí ó gba Bitcoin — kí àwọn Bitcoiner tí ó súnmọ́ rẹ lè rí ọ kí wọ́n sì ná Bitcoin ní iṣẹ́ rẹ.",
+	"biz_maps_intro_c1": "Àwọn Bitcoiner ń wá àwọn ibi láti ná lóòótọ́. Fífi iṣẹ́ rẹ sórí map fi ọ́ síwájú gbogbo olùmúlò Bitcoin tí ó ń wá ibi láti jẹun, ra, tàbí dúró sí — ní odò iye fún ọ.",
+	"biz_maps_intro_c2": "Kàn kún fọ́mù kúkúrú nísàlẹ̀, a ó sì fi iṣẹ́ rẹ ránṣẹ́ sí BTC Map àti àwọn map alágbatà Bitcoin mìíràn fún ọ.",
+	"biz_maps_view_map_cta": "Wo BTC Map",
+	"biz_maps_form_header": "Sọ fún wa nípa iṣẹ́ rẹ",
+	"biz_maps_form_intro": "A nílò àlàyé díẹ̀ láti fi ọ́ pamọ́. A pa dátà àdírẹ́sì mọ́ nìkan tó láti fi iṣẹ́ rẹ ránṣẹ́ sí àwọn map.",
+	"biz_maps_placeholder_name": "Orúkọ iṣẹ́",
+	"biz_maps_placeholder_category": "Ẹka (fún àpẹẹrẹ ilé-ìjẹun, ilé-kọfí, hotẹ́ẹ̀lì)",
+	"biz_maps_placeholder_address": "Àdírẹ́sì opópónà",
+	"biz_maps_placeholder_city": "Ìlú",
+	"biz_maps_placeholder_region": "Ìpínlẹ̀ / Agbègbè",
+	"biz_maps_placeholder_country": "Orílẹ̀-èdè",
+	"biz_maps_placeholder_website": "Ojú-ìwé (kò pọn dandan)",
+	"biz_maps_meta_description": "Fi iṣẹ́ rẹ pamọ́ ní ọ̀fẹ́ lórí BTC Map àti àwọn map alágbatà Bitcoin mìíràn kí àwọn Bitcoiner tí ó súnmọ́ rẹ lè rí ọ."
 }

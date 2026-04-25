@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"how_to_accept_bitcoin_payments": "Bí o ṣe lè Gba ÌSàn Owó Bitcoin",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Tìtójú-arà = 0% owó ìsàn",
 	"wallets_feature_online_store": "Àṣọsì ilé-ìtàjà ori aíyélújárà",
 	"wallets_feature_invoicing": "Sọ́fítìwèà ìwé-owó òfẹ́ẹ́",
-	"wallets_get_wallet": "GBA ÀPÒ OWÓ"
+	"wallets_get_wallet": "GBA ÀPÒ OWÓ",
+	"wallets_hero_subtitle": "Àwọn àpò Bitcoin jẹ́ ọ̀fẹ́. Yan ọ̀kan tí ó bá iṣẹ́ rẹ mu — lójú-kojú, lórí ìntánẹ́ẹ̀tì, tàbí dá lórí ìfilọ́pò — kí o sì bẹ̀rẹ̀ gbígba Bitcoin láàárín ìṣẹ́jú díẹ̀.",
+	"wallets_section_sole": "Àwọn àpò fún àwọn iṣẹ́ tí ó jẹ́ ti ẹnìkan",
+	"wallets_section_sole_intro": "Bí o bá ń ṣe ilé-ìtàjà, ilé-kọfí, studio, tàbí iṣẹ́ fúnra rẹ, èyíkéyìí àpò wọ̀nyí máa ṣiṣẹ́. Yan dá lórí bí o bá fẹ́ pa àwọn ìsanwó mọ́ ní Bitcoin tàbí kí o yí apá ìsanwó kọ̀ọ̀kan padà sí owó àdúgbò rẹ.",
+	"wallets_section_multiple": "Àwọn àpò fún àwọn iṣẹ́ tí ó ní àwọn òṣìṣẹ́ púpọ̀",
+	"wallets_section_multiple_intro": "Bí o bá ní ẹgbẹ́ tí ó ń gba àwọn ìsanwó ní àyè-tà, yan àpò tí ó ń ṣe àtìlẹyìn fún àwọn ìwọlé òṣìṣẹ́ púpọ̀ — kí òṣìṣẹ́ kọ̀ọ̀kan le ní PIN tirẹ kí o sì pa àkọsílẹ̀ àyẹ̀wò mọ́ kíá nípa ẹni tí ó gba ìsanwó wo.",
+	"wallets_section_online": "Àwọn àpò fún àwọn iṣẹ́ lórí ìntánẹ́ẹ̀tì",
+	"wallets_section_online_intro": "Ṣé o ń tà lórí ojú-ìwé? Àwọn àpò wọ̀nyí ń kàn sínú ilé-ìtàjà rẹ lórí ìntánẹ́ẹ̀tì wọ́n sì ń gba Bitcoin láti ọ̀dọ̀ oníbàárà èyíkéyìí, níbi gbogbo ní àgbáyé — kò sí àwọn chargeback, kò sí àpótí alágbàta tí ó nílò.",
+	"wallets_section_invoice": "Àwọn àpò fún àwọn iṣẹ́ tí ó dá lórí ìfilọ́pò",
+	"wallets_section_invoice_intro": "Bí o bá ń kọ ìfilọ́pò sí àwọn oníbàárà (ìmọ̀ràn, iṣẹ́-ọ̀fẹ́, àwọn iṣẹ́ B2B), lo àpò tí a kọ́ ní àyíká ìfilọ́pò. Oníbàárà rẹ máa san ìfilọ́pò Bitcoin nínú àwọn tẹ̀ díẹ̀.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business jẹ́ kí o gba àwọn ìsanwó Bitcoin àti Lightning pẹ̀lú odò owó àti ìparí lẹ́sẹ̀kẹsẹ̀. Ó ń ṣe àtìlẹyìn fún àwọn ìsanwó lójú-kojú, lórí ìntánẹ́ẹ̀tì, àti dá lórí ìfilọ́pò pẹ̀lú àyàn ìyípadà àdáṣe sí owó àdúgbò rẹ.",
+	"sources_square": "Square — Gba àwọn ìsanwó Bitcoin",
+	"sources_breez_business": "Breez — Àpò Lightning Bitcoin-nìkan",
+	"sources_opennode": "OpenNode — Oníṣẹ́ ìsanwó Bitcoin",
+	"sources_ibex": "IBEX — Ohun-èlò ìsanwó Lightning",
+	"sources_zaprite": "Zaprite — Ìfilọ́pò Bitcoin fún àwọn iṣẹ́",
+	"biz_wallets_meta_description": "Gbogbo àwọn àpò Bitcoin ń bá ara wọn ṣiṣẹ́ — yan ọ̀kan tí ó bá iṣẹ́ rẹ mu. Ọ̀fẹ́, ìparí lẹ́sẹ̀kẹsẹ̀, kò sí àwọn chargeback."
 }

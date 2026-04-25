@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_vs_gold": "Bitcoin pẹ̀lú Goolu",
@@ -26,19 +26,20 @@
 	"bitcoin_point_5": "Aláìpín-ààrìn",
 	"bitcoin_point_6": "Ó rọ̀rùn láti ṣàyẹ̀wò",
 	"bitcoin_point_7": "Ó rọ̀rùn láti pín",
-	"point_1_summary_1": "Nítórí pé Bitcoin jẹ́ oni-nọ́míbà, a lè fi ranṣẹ́ lẹ́sẹ̀kẹ̀sẹ̀ pẹ̀lú owó ìsàn kékeré nípà ẹ̀níkaǹkan tó ní àṣọsì Intaneti. Nítórí pé Goolu jẹ́ tárà, a kò lè gbé è kọ̀já lórí Intaneti a sì gbọ̀dọ̀ fi í ranṣẹ́ lárà láti yí níní padà.",
-	"point_2_summary_1": "Bitcoin jẹ́ ọ̀rọ̀ oni-nọ́míbà láti ibì-àyé, èyí túmọ̀ sí pé o lè yí níní kikun rẹ̀ padà lórí Intaneti. Àwọn ilé-iṣẹ́ kan pèṣè ànfààní rà goolu lórí aíyélújárà láì gba goolu lárà gan-an, dípo kí o gbékẹ̀lé ilé-iṣẹ́ náà láti tójú goolu náà fún ọ. Èyí dàbí IOU Oni-nọ́míbà nítórí pé o ní ìlérí láti ọ̀dọ̀ ilé-iṣẹ́ níkan dípò ọ̀rọ̀ gan-an.",
-	"point_3_summary_1": "Bitcoin ní opin lílé ti Miliọ́nù 21 BTC tí yoo wà láéláé.",
-	"point_3_summary_2": "Ìpese goolu tuntun máa ń jáde lábé̀ ilẹ̀ lóọ̀dún, èyí máa ń fa owó ṣíṣé sí ìpese lápàpọ̀. A ṣe iro pé ìpese goolu lápàpọ̀ máa ń pọ̀ sí ní 1.6% lóọ̀dún, èyí túmọ̀ sí pé apá rẹ nínú akàrà máa ń din kù ní 1.6% lóọ̀dún.",
-	"point_3_summary_3": "Èyí kéré jù owó ṣíṣé fiat, ṣùgbọ́n ó ṣì jẹ́ owó ṣíṣé.",
-	"point_4_summary_1": "Goolu ní ìpese rírọ̀, èyí túmọ̀ sí pé bí iye goolu ṣe ń ga, ìjiyàn díẹ̀ síì ni wà láti wa goolu díẹ̀ síì. Èyí máa ń fa iye goolu sílẹ̀ nígbà tí àwọn ibì iwakusa tuntun bá bẹ̀rẹ̀.",
+	"point_1_summary_1": "A lè rán Bitcoin lẹ́sẹ̀kẹsẹ̀ lórí ìntánẹ́ẹ̀tì pẹ̀lú owó kéré. Goolu ní láti firànṣẹ́ ní ti ara láti gbé ìní gba.",
+	"point_2_summary_1": "Bitcoin jẹ́ ohun-ìní dígítà-bíbí tí o lè gbé lórí ìntánẹ́ẹ̀tì. Goolu lórí ìntánẹ́ẹ̀tì jẹ́ IOU dígítà — o ní ìlérí lọ́wọ́ olùdúró nìkan, kì í ṣe irin náà fúnra rẹ̀.",
+	"point_3_summary_1": "Bitcoin ní ààlà tó dúró tí 21 mílíọ̀nù BTC. Ìpèsè goolu ń pọ̀ sí nípa <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6% ní ọdún kan</a>, èyí ń dín apá rẹ kù — kéré sí",
+	"point_3_summary_2": "owó-ṣíṣẹ́",
+	"point_3_summary_3": "fiat — ṣùgbọ́n òùnń jẹ́ owó-ṣíṣẹ́ síi.",
+	"point_4_summary_1": "Nígbà tí iye goolu bá pọ̀ sí, a ó wa goolu síi, èyí yóò sì tì iye padà sí ìsàlẹ̀. Ìpèsè Bitcoin kò yí — láìbi-kojá iye náà ti ga tó, 21 mílíọ̀nù nìkan ni yóò máa wà títí láé.",
 	"point_4_summary_2": "Pẹ̀lú Bitcoin, láì ń ṣe àní bí iye ṣe ga tó, o kò lè ṣe Bitcoin jù Miliọ́nù 21 lọ.",
 	"point_4_summary_3": "Bitcoin jẹ́ ọ̀rọ̀ àkọ́kó́ tó ní ìbatan tó le láàrìn iye àti ìpese.",
-	"point_5_summary_1": "Nẹ́tíwọ́ọ̀kì Bitcoin jẹ́ aláìpín-ààrìn.",
+	"point_5_summary_1": "Ẹgbẹẹgbẹ̀rún àwọn nodes òmìnira ń jẹ́rìí nẹ́tíwọ́ọ̀kì Bitcoin. Ọ̀pọ̀ goolu ti ara wà ní ọwọ́ àwọn olùdúró ńlá díẹ̀.",
 	"point_5_summary_2": "Ẹgèbẹrún àwọn ógó̀ òmìnìra máa ń ṣàyẹ̀wò àwọn ofìn nẹ́tíwọ́ọ̀kì náà.",
-	"point_6_summary_1": "Pẹ̀lú Bitcoin, ó rọ̀rùn gán láti ṣàyẹ̀wò pé o ní Bitcoin òtítọ́ nípà gbígbà ìṣàkoso-arà àwọn owó rẹ àti ṣíṣẹ ógó̀ kikun.",
+	"point_6_summary_1": "Ẹnikẹ́ni lè jẹ́rìí Bitcoin gidi nípa ṣíṣiṣẹ́ node ní kíkún — ó kàn jẹ́ app. Jíjẹ́rìí goolu ti ara nílò sísún ún sí omi; tungsten lè wà nínú.",
 	"point_6_summary_2": "Ìṣàkoso-arà rọ̀rùn bíí gbàgbé àpù.",
 	"point_6_summary_3": "Ógó̀ kikun jẹ́ sọ́fítìwèà tó rọ̀rùn tó rí dájú pé àwọn ofìn nẹ́tíwọ́ọ̀kì náà tèlé, ó sì ṣàyẹ̀wò pé o ní Bitcoin òtítọ́.",
-	"point_7_summary_1": "Gégé bí senti 100 ṣe wà nínú dọ́là 1, sats 100,000,000 wà nínú Bitcoin 1. Èyí mú kí a lè lo Bitcoin fún gbogbo ìwọn owó rírà, pẹ̀lú àwọn iṣòwò kékeré púpọ̀ tó kéré tó senti díẹ̀.",
-	"point_7_summary_2": "Èyí mú kí Bitcoin dara fún òwò iṣẹ́."
+	"point_7_summary_1": "Bitcoin pín sí 100 mílíọ̀nù sats, èyí jẹ́ kí ó pé fún rírà ti ìwọ̀n èyíkéyìí. Goolu kò lè rọ́rọ̀ pin fún àwọn ìṣòwò kéré.",
+	"point_7_summary_2": "Èyí mú kí Bitcoin dara fún òwò iṣẹ́.",
+	"hero_title": "Iyàtọ̀ láàárín <span class=\"orange\">Bitcoin</span> àti <span class=\"asset\">Goolu</span>"
 }

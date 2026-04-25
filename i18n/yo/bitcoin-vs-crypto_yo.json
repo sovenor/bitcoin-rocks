@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_vs_crypto": "Bitcoin pẹ̀lú Crypto",
 	"crypto_intro_1": "Ayè cryptocurrency ti fẹ́sẹ̀múlẹ̀ pẹ̀lú ẹgèbẹrún àwọn token àti iṣẹ́ àkànṣe.",
 	"crypto_intro_2": "Bó tilẹ̀ jẹ́ pé Bitcoin jẹ́ àkọ́kó́ àti pé ó ṣì jẹ́ èyí tó wọ́pọ̀ jùlọ, ó yàtọ̀ pátápátá sí iyókù ilé-iṣẹ́ crypto.",
 	"crypto_intro_3": "Ẹ jẹ́ kí a ṣàwárí àwọn ìyàtọ̀ pàtàkì láàrìn Bitcoin àti ètò cryptocurrency lápàpọ̀.",
-	"crypto": "CRYPTO",
+	"crypto": "KRÍPÍTÒ",
 	"crypto_point_1": "Ìyípadà àti forks lórèèkórèè",
 	"crypto_point_2": "Ìṣàkoso akójọ",
 	"crypto_point_3": "Ìpese aìlópin tàbí owó ṣíṣé",
@@ -28,12 +28,13 @@
 	"bitcoin_point_6": "Owó oni-nọ́míbà mímó́",
 	"bitcoin_point_7": "Atàkò-aláìtàn",
 	"bitcoin_point_8": "Kò sí ẹ̀da kan tó ń ṣàkoso rẹ̀",
-	"point_1_summary_1": "Ètò Bitcoin ti wà láì yípadà látì 2009, tó máa ń pèṣè àwọn ofìn tó hàn tí a kò lè yí padà ní ìrọ̀rùn. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto máa ń ṣàjú ètò wọn nígbàgbígbà, yípadà tokenomics, tàbí pín sí àwọn ẹ̀yà tuntun, tó máa ń ṣẹ̀dá àì dájú fún àwọn olùmúlò.",
-	"point_2_summary_1": "Bitcoin máa ń ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláìpín-ààrìn òtítọ́ pẹ̀lú ẹgèbẹrún àwọn ógó̀ òmìnìra lágbàyé. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto ni àwọn ìgbìmọ̀, àwọn ilé-iṣẹ́, tàbí àwọn ègbẹ́ kékeré àwọn olupìlẹ̀ṣẹ̀ tó lè ṣe àwọn ìpinnu aláìpín-ààrìn nípa ọ̀là ètò náà ń ṣàkoso.",
-	"point_3_summary_1": "Bitcoin ní opin lílé ti miliọ́nù 21 owó tí yoo wà láéláé, tó mú kí ó jẹ́ ọ̀rọ̀ oni-nọ́míbà tó ṣòwọ́n jùlọ. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto ní ìpese aìlópin, ètò owó ṣíṣé, tàbí lè tẹ̀ àwọn token tuntun nígbà tí wọn bá fẹ́, tó máa ń din iye oníní kù.",
-	"point_4_summary_1": "Bitcoin ní àfàànì kanṣoṣo: owó oni-nọ́míbà ẹ̀nìyàn-sí-ẹ̀nìyàn. Ẹ̀níkaǹkan lè lóyé àti lò pẹ̀lú ìmọ̀ ìpìlẹ̀. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto kan àwọn àdéhùn smart contract, ètò DeFi, tàbí ètò ìṣàkoso tó nílò ìmọ̀ imọ̀-ẹ̀rọ̀ láti lò ní ààbò.",
-	"point_5_summary_1": "Bitcoin lò ìgbàgbọ́ Proof of Work, èyí tí a ti dánwò ní ogun fún ọ̀dún 15 jù láì ní ìkọ̀lù kan lórí nẹ́tíwọ́ọ̀kì àkó̀kó̀. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto lo àwọn ètò ìgbàgbọ́ àdánìwò bíí Proof of Stake tí kò tíì fi hàn ààbò ìgbà pipẹ́.",
-	"point_6_summary_1": "Bitcoin jẹ́ gégé bí owó oni-nọ́míbà - àfi-pamó́ iye àti ìlò pàṣípààrọ̀. Ọ̀pọ̀lọ pọ̀ àwọn crypto token jẹ́ token ìlò fún àwọn pèpè kan pàtó, token ìṣàkoso, tàbí ọ̀rọ̀ amàṣẹ pẹ̀lú ànfààní iye àgbáyé gídi tó kò hàn.",
-	"point_7_summary_1": "Bitcoin máa ń lagbara síì lábé̀ ìkọ̀lù àti pé ó ti yè gbogbo àjàkálẹ̀, fífi ofìn de, àti àtàkò tí a fi sí. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto jẹ́ aláìtàn tí wọn lè wó láti titipa ofìn, ikùna imọ̀-ẹ̀rọ̀, tàbí ìdìnkù ọ̀jà.",
-	"point_8_summary_1": "Bitcoin kò ní CEO, kò ní ilé-iṣẹ́ léyìn rẹ̀, kò sì ní ibì kiko kanṣoṣo. Ọ̀pọ̀lọ pọ̀ àwọn iṣẹ́ àkànṣe crypto ní atilẹ́yìn láti àwọn ile-iṣẹ́ venture capital, ní àwọn ègbẹ́ aláṣẹ tó hàn, tàbí gbékẹ̀lé àwọn ilé-iṣẹ́ pàtó fún iṣẹ́ wọn láti tẹ̀síwájú."
+	"point_1_summary_1": "Ìlànà Bitcoin ti dúró bákan náà látinú ọdún 2009, ó ń pèsè àwọn ìlànà tí a lè sọ àsọtẹ́lẹ̀ rẹ̀. Ọ̀pọ̀ àwọn iṣẹ́-ìṣẹ̀dá crypto ń yí àwọn ìlànà, tokenomics, tàbí kí wọ́n pín sí àwọn ẹ̀dà tuntun léraléra.",
+	"point_2_summary_1": "Bitcoin ń ṣiṣẹ́ lórí ẹgbẹẹgbẹ̀rún àwọn nodes òmìnira ní àgbáyé. Àwọn iṣẹ́-ìṣẹ̀dá crypto ọ̀pọ̀ jùlọ ni a ti darí nípasẹ̀ àwọn ipilẹ̀ṣẹ̀, ilé-iṣẹ́, tàbí àwọn ẹgbẹ́ olùgbé kéré tí wọ́n lè ṣe àwọn ìyípadà fúnra wọn.",
+	"point_3_summary_1": "Bitcoin ní ààlà tó dúró tí 21 mílíọ̀nù coin — ohun ìní oníyebíye dígítà tí ó kéré jùlọ. Ọ̀pọ̀ àwọn iṣẹ́-ìṣẹ̀dá crypto ní ìpèsè aláìlópin tàbí ọ̀nà láti dá àwọn token tuntun ní àkókò tí wọ́n fẹ́, èyí ń dín àwọn olùní kù.",
+	"point_4_summary_1": "Bitcoin ní ète kan ṣoṣo: owó dígítà ẹnikẹ́ni-sí-ẹnikẹ́ni. Ẹnikẹ́ni lè lóye ó sì lò ó. Ọ̀pọ̀ crypto ní àwọn smart contract díjú tàbí DeFi tí ó nílò ìmọ̀-ìmọ̀ ọnà láti lò ní àìséwu.",
+	"point_5_summary_1": "Proof of Work Bitcoin ti ń ṣiṣẹ́ láìsí ìkọlù tí ó ṣàṣeyọrí lórí nẹ́tíwọ́ọ̀kì pàtàkì fún ó ju ọdún 15. Ọ̀pọ̀ àwọn iṣẹ́-ìṣẹ̀dá crypto ń lo ètò àdéhùn àdánwò tí a kò tí ìdánwò ní ogun.",
+	"point_6_summary_1": "Bitcoin jẹ́ owó dígítà — ìfowópamọ́ iye àti ohun-èlò ìparí. Ọ̀pọ̀ àwọn token crypto jẹ́ àwọn token oníṣẹ́ tàbí ìjọba ipò ìparowó pẹ̀lú iye gidi-aiyé tí kò ṣe kedere.",
+	"point_7_summary_1": "Bitcoin ń di alágbára síi nínú ìkọlù, ó sì ti là gbogbo àjálù, ìfòfindè, àti àríwísí kọjá. Ọ̀pọ̀ àwọn iṣẹ́-ìṣẹ̀dá crypto ń ṣubú nínú ìfagilé ìlànà, ìmọ̀-ìmọ̀ ọnà, tàbí ìfagilé ọjà.",
+	"point_8_summary_1": "Bitcoin kò ní CEO, kò ní ilé-iṣẹ́, kò ní ojú-ìkùnà kan. Ọ̀pọ̀ àwọn iṣẹ́-ìṣẹ̀dá crypto dá lórí àwọn VC, àwọn olórí pàtó, tàbí ìwà-ìpè ilé-iṣẹ́ kan.",
+	"hero_title": "Iyàtọ̀ láàárín <span class=\"orange\">Bitcoin</span> àti <span class=\"asset\">Crypto</span>"
 }

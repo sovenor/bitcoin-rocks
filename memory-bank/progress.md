@@ -1,3 +1,54 @@
+## i18n cleanup Step 5 — Yoruba (yo) — 2026-04-25
+
+Ran `/translate-manifest-refresh Yoruba` end-to-end via the
+**parallel-worktree pattern** in the same 8-language batch as
+tl/tr/ur/uz/vi/zh/zu. Yoruba (`Yorùbá`) is a West African
+Niger-Congo language with ~45M native speakers across Nigeria,
+Benin, Togo, plus diaspora. Latin script with tone marks (high/
+mid/low) and subdot diacritics (ọ ẹ ṣ). **Counter:** 52/54.
+1,068 entries flagged (465 missing + 46 untranslated + 165
+manifest-changed + 392 manifest-added).
+
+**5 helper scripts under `scripts/yo-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — per-currency × 14
+   currencies (usd/eur/gbp/cad/aud/nzd/jpy/inr/mxn/brl/php/thb/ils/btc)
+   via templated function with Yorubanized loanword currency naming
+   (dọ́là, yúrò, páùndì, yẹ́nì, rúpí, pẹ́sò, réàlì, báàtì, ṣẹ́kẹ́lì)
+   + stat labels + freedom cards + story cards + sources).
+2. `translate-manifest-changed.js` (160 entries — non-inflation
+   manifest-changed entries across 404, about, bank-runs, all
+   bitcoin-vs-* point summaries, business/accounting,
+   business/sticker-files, business/why, buy step headers, common,
+   flyers, get-involved, lightning, nostr/index, sticker-files,
+   stickers).
+3. `translate-rest-part1.js` (185 entries — about cards, bank-runs
+   full body, business/accounting card labels + disclaimer +
+   examples, business/wallets sources + section intros, common
+   navigation/sources/sticker names, compound-inflation-calculator).
+4. `translate-rest-part2.js` (355 entries — homepage card labels,
+   lightning sources, full nostr/index page, stickers full body,
+   wallets, all 10 bitcoin-vs-* hero titles, buy platform
+   descriptions + features, business/faq, business/index,
+   business/maps + maps-success, business/sticker-success,
+   business/sticker-language-success, business/stickers,
+   business/why full body, flyers, get-involved).
+5. `fix-untranslated-tail.js` (10 sticker-dimension keys "cm" →
+   "sm" (sentimíta) and "in" → "ìnṣì" + "crypto" hero label rendered
+   as "KRÍPÍTÒ").
+
+**Edge cases / notes:**
+- **Tone marks mandatory.** Yoruba is tonal — high (´), mid
+  (unmarked), low (`) — plus subdot diacritics on Ẹ ẹ Ọ ọ Ṣ ṣ.
+  Without tone marks the meaning becomes ambiguous (e.g. "ọkọ"
+  husband / car / boat / hoe — all distinguished only by tone +
+  subdot patterns). Applied consistently throughout in
+  NFC-composed form.
+- "Bitcoin" kept Latin/capitalized per allow-list.
+- Yoruba currency loanword convention matches Premium Times Yoruba
+  and BBC News Yoruba financial coverage.
+
+All 4 verification checks pass.
+
 ## i18n cleanup Step 5 — Vietnamese (vi) — 2026-04-25
 
 Ran `/translate-manifest-refresh Vietnamese` end-to-end via the

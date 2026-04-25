@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_vs_visa": "Bitcoin pẹ̀lú Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Kò ṣẹ̀dá gbèsè",
 	"bitcoin_point_6": "Ìṣàkoso-arà lè ṣe",
 	"bitcoin_point_7": "Iràyè àgbáyé 24/7",
-	"point_1_summary_1": "Bitcoin jẹ́ nẹ́tíwọ́ọ̀kì gbangba tí ẹ̀níkaǹkan lè dara pọ̀ àti lò láì ní àṣẹ. Àwọn nẹ́tíwọ́ọ̀kì káàdì ifowópàmọ́ bíí Visa jẹ́ ètò tí a tì tí àwọn ilé-iṣẹ́ owó ń ṣàkoso tí ó lè kọ à fún ẹ̀níkaǹkan.",
+	"point_1_summary_1": "Bitcoin jẹ́ nẹ́tíwọ́ọ̀kì ṣíṣí tí ẹnikẹ́ni lè dara pọ̀ mọ́ ó sì lò láìní ìyọ̀ǹda. Visa jẹ́ ètò pípa tí àwọn ilé-iṣẹ́ ìnáwó ti darí, tí ó lè kọ̀ ààyè — pàápàá fún àwọn tí kò ní ilé-ìfowópamọ́.",
 	"point_1_summary_2": "Èyí mú kí Bitcoin wa sí gbogbo ènìyàn, pààpàà àwọn tí kò ní ààkósílẹ̀ ilé-ìfòwópàmó́.",
-	"point_2_summary_1": "Àwọn iṣòwò Bitcoin kò ní owó ìsàn fún àwọn olutà, lakoko tí àwọn ilé-iṣẹ́ káàdì ifowópàmọ́ máa ń gba àwọn olutà owó ìsàn 3% fún iṣòwò kọ̀ọ̀kan.",
-	"point_2_summary_2": "Kẹ́kọ̀ọ́ bí òwò iṣẹ́ rẹ ṣe lè fi owó pamó́",
-	"point_2_summary_3": "nípà gbígbà ìsàn owó Bitcoin dípò sísan owó ìsàn káàdì ifowópàmọ́.",
-	"point_3_summary_1": "Bitcoin máa ń ṣiṣẹ́ lórí blockchain gbangba tí ẹ̀níkaǹkan lè ṣàyẹ̀wò gbogbo iṣòwò. Àwọn nẹ́tíwọ́ọ̀kì káàdì ifowópàmọ́ máa ń ṣiṣẹ́ gégé bí ètò tí a tì tí àlàyé iṣòwò ì̀kòkò.",
+	"point_2_summary_1": "Àwọn ìṣòwò Bitcoin kò ní owó alábàwà. Visa sábà ń kó nípa 3% lórí gbogbo ìṣòwò — iṣẹ́ rẹ lè pa owó mọ́ nípa gbígba",
+	"point_2_summary_2": "ìsanwó Bitcoin",
+	"point_2_summary_3": " dípò.",
+	"point_3_summary_1": "Gbogbo ìṣòwò Bitcoin wà lórí blockchain gbangba tí a lè ṣàyẹ̀wò. Visa ń ṣiṣẹ́ pẹ̀lú ètò pípa ti ara wọn níbi tí àwọn oníbàárà kò ti lè jẹ́rìí sí ohunkóhun lọ́tọ̀.",
 	"point_3_summary_2": "Gbangba yìí mú kí Bitcoin wa ní ìgbékẹ̀lé àti gba láàyè fún ìṣẹ́dájú òmìnìra ti nẹ́tíwọ́ọ̀kì.",
-	"point_4_summary_1": "Àwọn ilé-iṣẹ́ káàdì ifowópàmọ́ lè dí ààkósílẹ̀, dá iṣòwò dúró, tàbí kọ láti pèṣè iṣẹ́ ní àkókó kaǹkaǹ. A kò lè dí Bitcoin tàbí ṣàkoso rẹ̀ nípà aláṣẹ ààrìn kaǹkaǹ.",
+	"point_4_summary_1": "Kò sí àṣẹ àárín tí ó lè dí Bitcoin. Visa lè dí àwọn àpótí, dí àwọn ìṣòwò, tàbí kí ó kọ̀ ìpèsè ní àkókò èyíkéyìí.",
 	"point_4_summary_2": "Pẹ̀lú Bitcoin, o máa ń ní àṣẹ lórí owó rẹ a kò sì lè ge ọ kúrò nínú ètò ìsàn owó.",
-	"point_5_summary_1": "Káàdì ifowópàmọ́ máa ń ṣẹ̀dá gbèsè tí ó lè kó elè tó ga tí a kò bá san ní kìyà, nígbà mìràn ó lè ju 25% lóọ̀dún.",
+	"point_5_summary_1": "Bitcoin jẹ́ ìparí-ìpinnu — o lè ná ohun tí o ní nìkan. Àwọn káàdì kírẹ́dítì ń dá gbèsè pẹ̀lú iye ìfowó-yá tí ó sábà jẹ́ ó ju 25% ní ọdún kan.",
 	"point_5_summary_2": "Àwọn iṣòwò Bitcoin jẹ́ ìgbàsílẹ̀ ìparí láì ṣẹ̀dá gbèsè - o lè na Bitcoin tí o ní gídi níkan.",
-	"point_6_summary_1": "Bitcoin gba láàyè fún ìṣàkoso-arà, èyí túmọ̀ sí pé o lè mú àti ṣàkoso owó tirẹ láì gbékẹ̀lé àwọn ilé-ìfòwópàmó́ tàbí àwọn olùṣẹ̀ ìsàn owó.",
-	"point_6_summary_2": "Kẹ́kọ̀ọ́ nípa àwọn àpò owó Bitcoin",
-	"point_6_summary_3": "láti lóyé bí o ṣe lè gba àṣẹ owó tirẹ. Káàdì ifowópàmọ́ nígbàgbógbò nílò alárinà bíí àwọn ilé-ìfòwópàmó́ àti àwọn olùṣẹ̀ ìsàn owó.",
-	"point_7_summary_1": "Bitcoin máa ń ṣiṣẹ́ 24/7 lágbàyé láì ní wàkàtí iṣẹ́ tàbí àdéhùn àgbẹ̀gbẹ̀.",
-	"point_7_summary_2": "Àwọn nẹ́tíwọ́ọ̀kì káàdì ifowópàmọ́ ní wàkàtí iṣẹ́, àkókó ìtòjú, àti àdéhùn àgbẹ̀gbẹ̀ tí ó lè dá iṣòwò dúró."
+	"point_6_summary_1": "Bitcoin jẹ́ kí o gba",
+	"point_6_summary_2": "ìṣàkóso-ara",
+	"point_6_summary_3": "láìní ilé-ìfowópamọ́ tàbí oníṣẹ́ ìsanwó. Àwọn káàdì kírẹ́dítì máa ń nílò àwọn alábàárìn nígbà gbogbo.",
+	"point_7_summary_1": "Bitcoin ń ṣiṣẹ́ 24/7 ní àgbáyé láìní àkókò iṣẹ́. Visa ní àkókò iṣẹ́, àwọn àkókò ìtọ́jú, àti àwọn ààlà ilẹ̀ tí ó lè dí àwọn ìṣòwò.",
+	"point_7_summary_2": "Àwọn nẹ́tíwọ́ọ̀kì káàdì ifowópàmọ́ ní wàkàtí iṣẹ́, àkókó ìtòjú, àti àdéhùn àgbẹ̀gbẹ̀ tí ó lè dá iṣòwò dúró.",
+	"hero_title": "Iyàtọ̀ láàárín <span class=\"orange\">Bitcoin</span> àti <span class=\"asset\">Visa</span>"
 }

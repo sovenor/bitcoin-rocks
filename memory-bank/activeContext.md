@@ -1,3 +1,65 @@
+## Yoruba (yo) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Yoruba` end-to-end as part of the
+**8-language parallel batch** (tl/tr/ur/uz/vi/yo/zh/zu). **Locale
+52/54 complete.** Yoruba (`Yorùbá`) is a West African Niger-Congo
+language with ~45M native speakers across Nigeria, Benin, Togo, plus
+diaspora. Latin script with tone marks (high/mid/low) and subdot
+diacritics (ọ ẹ ṣ).
+
+**Report stats:**
+- 465 missing locale-specific
+- 46 untranslated (high-ish — sticker dimensions + various Latin-
+  identifier keys that pre-V2 Yoruba had kept in source language)
+- 165 manifest-changed + 392 manifest-added → **1,068 total**
+
+**5 helper scripts under `scripts/yo-manifest-refresh/`:**
+
+- `translate-inflation.js` — 368 entries. Per-currency × 14
+  currencies (usd/eur/gbp/cad/aud/nzd/jpy/inr/mxn/brl/php/thb/ils/btc)
+  via templated function with Yorubanized loanword currency naming
+  (dọ́là, yúrò, páùndì, yẹ́nì, rúpí, pẹ́sò, réàlì, báàtì,
+  ṣẹ́kẹ́lì). Plus stat labels, freedom cards, story cards, sources.
+- `translate-manifest-changed.js` — 160 entries. Non-inflation
+  manifest-changed entries across 404, about, bank-runs, all
+  bitcoin-vs-* point summaries, business/accounting,
+  business/sticker-files, business/why, buy step headers, common,
+  flyers, get-involved, lightning, nostr/index, sticker-files,
+  stickers.
+- `translate-rest-part1.js` — 185 entries. about cards, bank-runs
+  full body, business/accounting card labels + disclaimer +
+  examples, business/wallets sources + section intros, common
+  navigation/sources/sticker names, compound-inflation-calculator.
+- `translate-rest-part2.js` — 355 entries. Homepage card labels,
+  lightning sources, full nostr/index page (including client
+  features), stickers full body + tip messages, wallets, all 10
+  bitcoin-vs-* hero titles, buy platform descriptions + features,
+  business/faq, business/index, business/maps + maps-success,
+  business/sticker-success, business/sticker-language-success,
+  business/stickers, business/why full body, flyers, get-involved
+  cards + content + sources.
+- `fix-untranslated-tail.js` — 10 sticker-dimension keys with
+  Yoruba unit names: `cm` → `sm` (sentimíta), `in` → `ìnṣì`. Plus
+  `crypto` hero label rendered as "KRÍPÍTÒ" (Yoruba spelling).
+
+**Verification:** all 4 checks pass.
+
+**Edge cases / notes:**
+- **Tone marks mandatory.** Yoruba is tonal — high (´), mid
+  (unmarked), low (`) — plus subdot diacritics on Ẹ ẹ Ọ ọ Ṣ ṣ.
+  Without tone marks the meaning becomes ambiguous (e.g. "ọkọ"
+  husband / car / boat / hoe — all distinguished only by tone +
+  subdot patterns). Applied consistently throughout in
+  NFC-composed form (which JSON.stringify writes by default).
+- "Bitcoin" kept Latin/capitalized per allow-list.
+- Yoruba currency loanword convention matches Premium Times Yoruba
+  and BBC News Yoruba financial coverage. Naira (NGN) is not in
+  the 13-currency stat list but Yoruba has the native name "náírà"
+  which would be used if it appeared.
+- HTML markup (`<a class="body-link" href=...>`,
+  `<span class="orange">`, etc.) preserved verbatim; only
+  surrounding text translated.
+
 ## Vietnamese (vi) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Vietnamese` end-to-end as part of

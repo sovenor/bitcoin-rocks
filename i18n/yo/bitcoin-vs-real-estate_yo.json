@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin pẹ̀lú Ohun-ìní Ajé",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Ó ṣòro láti pa run",
 	"bitcoin_point_7": "Alápàrò dáadáa",
 	"bitcoin_point_8": "Ọ̀jà àgbáyé 24/7",
-	"point_1_summary_1": "A lè gbé Bitcoin lọ sí ibìkìbì lágbáyé lẹ́sẹ̀kẹ̀sẹ̀ lórí intaneti. Ohun-ìní ajé ti di ibì kan pátó a kò sì lè gbé e lọ.",
-	"point_2_summary_1": "A lè pín Bitcoin sí èké kékeré miliọ́nù 100 tí a ń pè ní satoshis. A kò lè pín ohun-ìní ajé ní ìrọ̀rùn - o kò lè ta idà kan ilé rẹ níkan.",
-	"point_3_summary_1": "Bitcoin máa ń ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláìpín-ààrìn tí ìkálẹ̀ kaǹkaǹ kò lè ṣàkoso. Ohun-ìní ajé wà lábé̀ àwọn ofìn ìkálẹ̀ púpọ̀ pẹ̀lú ìṣàkoso iyalo, eminent domain tí ìkálẹ̀ lè gba ohun-ìní rẹ.",
-	"point_4_summary_1": "Bitcoin kò nílò ìtòjú - ó wà gégé bí koodu oni-nọ́míbà lórí nẹ́tíwọ́ọ̀kì. Ohun-ìní ajé nílò ìtòjú nígbàgbógbò pẹ̀lú àtúnṣe, àtúnṣẹ, ìṣàkoso ohun-ìní, ìrànsí, àti ṣíṣe pẹ̀lú àwọn iyalo.",
-	"point_5_summary_1": "Bitcoin kò ní owó-òyà nígbàgbógbò - o san owó-òyà èré ibi-ówó níkan nígbà tí o bá ta. Ohun-ìní ajé nílò owó-òyà ohun-ìní lóọ̀dún, tó fọ́ kí o san láì ń ṣe àní bóyá ohun-ìní náà máa ń mú owó wá.",
-	"point_6_summary_1": "Bitcoin, tí a bá ṣe àfiípamó́ rẹ̀ dáadáa, a kò lè pa run nípà ìkunomi, iná, ìlù, ìjikoko, tàbí àwọn àjálù mìràn. Ohun-ìní ajé wà ní ewu gbogbo irú ìpa run lárà àti pé ó nílò ìrànsí olówó.",
-	"point_7_summary_1": "Bitcoin kọ̀ọ̀kan jẹ́ bakanna àti pé a lè pàṣípààrọ̀ wọn - bitcoin kan dọ́gba bitcoin kan ní ibìkìbì lágbáyé. Ohun-ìní ajé kọ̀ọ̀kan jẹ́ aláìlẹ́gbẹ́ pẹ̀lú àwọn ibì, ipo, àti àwọn àbùdá tó yàtọ̀.",
-	"point_8_summary_1": "A lè ra àti ta Bitcoin 24/7 nípà ẹ̀níkaǹkan tó ní iràyè intaneti ní ibìkìbì lágbáyé. Títà ohun-ìní ajé jẹ́ tí àwọn olurà agbègbè, ó nílò ìlànà pipẹ́ pẹ̀lú àwọn agèjà àti àwọn aṣòjú, ó sì lè gba oṣù láti parí.",
+	"point_1_summary_1": "Bitcoin ń lọ níbi gbogbo ní àgbáyé lẹ́sẹ̀kẹsẹ̀. Ohun-ìní gbígbé fún ọjà ti múlẹ̀ ní àyè kan ó sì wà ní ewu àwọn ìṣòro ọrọ̀-ajé, òṣèlú, àti tí ti ara ní àdúgbò.",
+	"point_2_summary_1": "Bitcoin pín sí 100 mílíọ̀nù sats. Ohun-ìní gbígbé fún ọjà kò lè jẹ́ títà ní apá — o kò lè ta ile-ìdáná tàbí kí o ra ìdajì yàrá.",
+	"point_3_summary_1": "Bitcoin ń ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláìní-àárín tí kò sí ìjọba tí ó lè darí. Ohun-ìní gbígbé fún ọjà ti ní òfin pípọ̀ — ètò agbègbè, dídarí owó iyalo, àṣẹ ìjọba, àti ìgbà-pa wọn gbogbo.",
+	"point_4_summary_1": "Bitcoin kò nílò ìtọ́jú. Ohun-ìní gbígbé fún ọjà nílò àwọn àtúnṣe, ìpadàṣe, ìdánilójú, ìṣàkóso ohun-ìní, àti àwọn ìṣòro olùyalo.",
+	"point_5_summary_1": "Bitcoin kò ní owó-ọrẹ tí ń tẹ̀síwájú — o kàn ó sanwó owó èrè bí o bá tà. Ohun-ìní gbígbé fún ọjà ní owó-ọrẹ ohun-ìní ọdọọdún láìka iyè.",
+	"point_6_summary_1": "Bitcoin, tí a bá ti dáàbò bo dáadáa, ó là iná, ìkún omi, àti ìmìtìtì ilẹ̀ kọjá. Ohun-ìní gbígbé fún ọjà jẹ́ aláìlágbára sí gbogbo àjálù, ìdánilójú sì sábà ò ní ní bo gbogbo rẹ̀.",
+	"point_7_summary_1": "Bitcoin kọ̀ọ̀kan jẹ́ bákan náà ó sì lè rọ́pò. Ohun-ìní kọ̀ọ̀kan jẹ́ aláìṣe-bákan-náà, èyí ń jẹ́ kí ìpèsè iye àti ìfiwéra ṣòro.",
+	"point_8_summary_1": "Bitcoin ń ṣòwò ní àgbáyé 24/7 nípasẹ̀ ẹnikẹ́ni tí ó ní ìntánẹ́ẹ̀tì. Títà ohun-ìní gbígbé fún ọjà ní ààlà sí àwọn olùrà àdúgbò ó sì lè gba oṣù ti ìwé-iṣẹ́ láti pari.",
 	"bitcoin_point_9": "Gbe níní ènìyàn ga",
 	"real_estate_point_9": "Ṣe igbero ilé di owó",
-	"point_9_summary_1": "Bitcoin mú níní tààrà ẹ̀níkaǹkan ṣèṣè láì ní alárinà, tó máa ń gbe òmìnìra owó ẹ̀níkaǹkan ga. Rírà ohun-ìní ajé gégé bí idókò kurò nínú ilé àkọ́kó́ rẹ máa ń ṣe kí igbero ilé di ọ̀rọ̀ owó, tó máa ń fa iye ga síì, din ànfààní rírà fún àwọn idílé kù, ó sì máa ń ṣe àjàkálẹ̀ ilé àti aìlẹ́gàn tó ń kàn àwọn orílẹ̀-èdè púpọ̀ lónìí."
+	"point_9_summary_1": "Bitcoin jẹ́ kí ìní tààrà nípa ẹnikẹ́ni ṣeéṣe. Rírà ohun-ìní gbígbé fún ọjà gẹ́gẹ́ bí ìnáwó kọjá ilé pàtàkì rẹ ń sọ iye ilé di gígajù, èyí ń dín àfọwọ́ka kù ó sì ń mú àjálù ilé wá.",
+	"hero_title": "Iyàtọ̀ láàárín <span class=\"orange\">Bitcoin</span> àti <span class=\"asset\">Ohun-Ìní Gbígbé Fún Ọjà</span>"
 }

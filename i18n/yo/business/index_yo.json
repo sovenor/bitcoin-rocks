@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin dara fún òwò iṣẹ́",
+	"business_hero_subtitle": "Gba àwọn ìsanwó pẹ̀lú owó kéré, gba ìsanwó lẹ́sẹ̀kẹsẹ̀, kí o sì dé àwọn mílíọ̀nù àwọn oníbàárà tuntun — pẹ̀lú odò àdéhùn àti odò àwọn iye tí ó pamọ́.",
+	"business_intro_c1": "Bitcoin fún iṣẹ́ rẹ ní ọ̀nà tí ó yára, olówó-pọ́ọ́kú, àti àdáni síi láti gba ìsanwó. Kò sí àwọn alábàárìn. Kò sí àwọn chargeback. Kò sí àwọn àdéhùn. Kàn owó tí ó pari ní àwọn ìṣẹ́jú díẹ̀, tààrà láti àwọn oníbàárà rẹ sí ọ.",
+	"business_intro_c2": "Nísàlẹ̀ ni ẹ̀dà kúkúrú ti ìdí tí Bitcoin fi dára fún iṣẹ́ — àti nísàlẹ̀ ni gbogbo ohun-èlò tí o nílò láti bẹ̀rẹ̀ gbígba lónìí.",
 	"biz_s1": "Owó ìsàn tó kéré láì ní ìṣè̀lẹ̀",
 	"biz_s1_c1": "Bitcoin fún ọ láàyè láti gba ìsàn owó tààrà láti ọ̀dọ̀ àwọn oníbàárà rẹ, bíí owó ààmù. Nẹ́tíwọ́ọ̀kì Bitcoin ń ṣiṣẹ́ láì ní àwọn alárinà bíí àwọn ilé-ìfòwópàmó́ àti àwọn ilé-iṣẹ́ káàdì ifowópàmọ́ tó ń gba owó ìsàn pọ̀.",
 	"biz_s2": "Ìgbàsílẹ̀ lẹ́sẹ̀kẹ̀sẹ̀",
@@ -17,5 +20,14 @@
 	"biz_s4": "Gba àwọn oníbàárà díẹ̀ síì",
 	"biz_s4_c1": "Miliọ́nù ènìyàn ni ó ní Bitcoin tí wọn sì fẹ́ na Bitcoin wọn ní àwọn ibì tí ó gba à.",
 	"biz_s4_c2": "Nípà gbígbà Bitcoin níkan, òwò iṣẹ́ rẹ lè wà lórí àwọn máàpù oníta Bitcoin kí o sì gba ìṣẹ́-a-mà òfẹ́ẹ́ sí àwọn oníbàárà tuntun.",
-	"biz_s4_c3": "Gbígbà Bitcoin jẹ́ òfẹ́ẹ́ 100%. Kò sí àdéhùn tàbí owó ìsàn ì̀kòkò."
+	"biz_s4_c3": "Gbígbà Bitcoin jẹ́ òfẹ́ẹ́ 100%. Kò sí àdéhùn tàbí owó ìsàn ì̀kòkò.",
+	"business_resources_heading": "Gbogbo ohun tí o nílò láti gba Bitcoin",
+	"business_resources_intro": "Ṣe iṣẹ́ pẹ̀lú àwọn ohun-èlò wọ̀nyí ní ìwọ̀n rẹ. Kọ̀ọ̀kan jẹ́ ìtọ́sọ́nà kúkúrú, tí ó wúlò.",
+	"biz_label_wallets": "ÀWỌN ÀPÒ",
+	"biz_label_maps": "ÀWỌN MAP ALÁGBATÀ",
+	"biz_label_stickers": "ÀWỌN ÀLÈMỌ́",
+	"biz_label_rewards": "ÀWỌN ẸBÙN",
+	"biz_label_accounting": "ÌṢIRÒ",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Gba Bitcoin ní iṣẹ́ rẹ fún owó kéré, ìparí lẹ́sẹ̀kẹsẹ̀, kò sí àwọn chargeback, àti àwọn oníbàárà síi."
 }
