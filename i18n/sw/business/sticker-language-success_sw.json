@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Ombi limepokelewa 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Asante kwa kuomba faili za stika za 'Bitcoin Inakubaliwa Hapa' katika lugha yako.",
+	"biz_sticker_language_success_timeline_header": "Kinachofuata",
+	"biz_sticker_language_success_timeline_c1": "Tutaunda na kuchapisha faili zako za stika ndani ya wiki 3 hadi 4. Mara zitakapokuwa tayari, utaweza kupakua na kuchapisha bila malipo kutoka kwenye ukurasa wetu wa faili za stika.",
+	"biz_sticker_language_success_timeline_c2": "Faili za stika hutolewa katika makundi, kwa hivyo inaweza kuchukua wiki chache kwa lugha yako kuingia hai. Asante kwa subira yako!"
 }

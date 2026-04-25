@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"bitcoin_vs_visa": "Bitcoin dhidi ya Visa",
@@ -26,20 +26,21 @@
 	"bitcoin_point_5": "Hakuna uundaji wa deni",
 	"bitcoin_point_6": "Uhifadhi wa kibinafsi unawezekana",
 	"bitcoin_point_7": "Ufikiaji wa 24/7 duniani kote",
-	"point_1_summary_1": "Bitcoin ni mtandao wazi ambao mtu yeyote anaweza kujiunge na kutumia bila ruhusa. Mitandao ya kadi za mkopo kama Visa ni mifumo iliyofungwa inayodhibitiwa na taasisi za fedha ambazo zinaweza kumzuia mtu yeyote ufikiaji.",
+	"point_1_summary_1": "Bitcoin haina mamlaka kuu inayoweza kuzuia, kugandamisha, au kurudisha miamala. Visa inaweza na inafanya hivi kila mara kwa amri ya serikali, sera za kampuni, au algorithmu za udanganyifu.",
 	"point_1_summary_2": "Hii inafanya Bitcoin kuwa ya kujumuisha zaidi na kupatikana kwa watu duniani kote, hasa wale ambao hawana akaunti za benki au wana akaunti ndogo.",
-	"point_2_summary_1": "Miamala ya Bitcoin haina ada kwa wafanyabiashara, wakati makampuni ya kadi za mkopo kwa kawaida huwatoza wafanyabiashara takriban 3% kwa kila muamala.",
-	"point_2_summary_2": "Jifunze jinsi biashara yako inavyoweza kuokoa pesa",
-	"point_2_summary_3": "kwa kukubali malipo ya Bitcoin badala ya kulipa ada za usindikaji wa kadi za mkopo.",
-	"point_3_summary_1": "Bitcoin inafanya kazi kwenye blockchain ya uwazi ambapo miamala yote inaweza kuthibitishwa na mtu yeyote. Mitandao ya kadi za mkopo inafanya kazi kama mifumo iliyofungwa, ya kibinafsi ambapo maelezo ya miamala yamefichwa kutoka mtazamo wa umma.",
+	"point_2_summary_1": "Bitcoin haihitaji ya udhibiti — mtu yeyote duniani anaweza kuitumia. Visa ina mahitaji ya udhibiti yanayoweza kuwatenga mabilioni — wasio na akaunti za benki, watu wenye historia mbaya za mikopo, au wasio na karatasi sahihi.",
+	"point_2_summary_2": "malipo ya Bitcoin",
+	"point_2_summary_3": " badala yake.",
+	"point_3_summary_1": "Bitcoin inaweza kufanya biashara papo hapo na ada ndogo, hasa kwa Lightning Network. Visa hutoza wafanyabiashara 1.5–3.5% kwa kila muamala, gharama ambazo huingia kwa wateja.",
 	"point_3_summary_2": "Uwazi huu unafanya Bitcoin kuwa ya kuaminika zaidi na kuruhusu uthibitishaji wa kujitegemea wa uaminifu wa mtandao.",
-	"point_4_summary_1": "Makampuni ya kadi za mkopo yanaweza kugandamisha akaunti, kuzuia miamala, au kukataa huduma wakati wowote. Bitcoin haiwezi kugandamishwa au kudhibitiwa na mamlaka yoyote kuu.",
+	"point_4_summary_1": "Bitcoin haina kazi tena. Visa ina pointi moja ya kushindikana — hata vipindi vifupi vya kuzima kunaweza kupooza biashara duniani kote.",
 	"point_4_summary_2": "Na Bitcoin, unadumisha udhibiti wa pesa yako na huwezi kukataliwa kutoka mfumo wa malipo.",
-	"point_5_summary_1": "Kadi za mkopo zinaunda deni ambalo linaweza kujikusanya riba ya juu kama hailipi haraka, wakati mwingine inazidi 25% kwa mwaka.",
+	"point_5_summary_1": "Bitcoin inalinda faragha yako kwa anwani za kifani. Visa hufuatilia kila ununuzi unaoufanya, kujenga wasifu wa kina wa tabia zako za matumizi.",
 	"point_5_summary_2": "Miamala ya Bitcoin ni makubaliano ya mwisho bila uundaji wa deni - unaweza tu kutumia Bitcoin unayomiliki kweli.",
-	"point_6_summary_1": "Bitcoin inaruhusu uhifadhi wa kibinafsi, ikimaanisha unaweza kushikilia na kudhibiti pesa yako mwenyewe bila kutegemea benki au wasindikaji wa malipo.",
-	"point_6_summary_2": "Jifunze kuhusu pochi za Bitcoin",
-	"point_6_summary_3": "kuelewa jinsi unavyoweza kuchukua udhibiti wa pesa yako mwenyewe. Kadi za mkopo daima zinahitaji wasuluhishi kama benki na wasindikaji wa malipo.",
-	"point_7_summary_1": "Bitcoin inafanya kazi 24/7 duniani kote bila saa za kazi au vikwazo vya kijiografia.",
-	"point_7_summary_2": "Mitandao ya kadi za mkopo ina saa za kazi, vipindi vya matengenezo, na vikwazo vya kijiografia ambavyo vinaweza kuzuia miamala kusindika."
+	"point_6_summary_1": "Bitcoin inafanya kazi bila benki ya tatu. Visa inahitaji benki kutoa kadi, na watu bilioni 1.4 duniani hawana akaunti za benki.",
+	"point_6_summary_2": "uhifadhi wa kibinafsi",
+	"point_6_summary_3": "bila benki au mchakataji wa malipo unaohitajika. Kadi za mkopo daima zinahitaji wasuluhishi.",
+	"point_7_summary_1": "Miamala ya Bitcoin ni ya mwisho mara baada ya kuthibitishwa. Mlipaji wa Visa anaweza kupinga malipo hadi siku 120, akiwaachia wafanyabiashara katika mvuto wa kifedha.",
+	"point_7_summary_2": "Mitandao ya kadi za mkopo ina saa za kazi, vipindi vya matengenezo, na vikwazo vya kijiografia ambavyo vinaweza kuzuia miamala kusindika.",
+	"hero_title": "Tofauti kati ya <span class=\"orange\">Bitcoin</span> na <span class=\"asset\">Visa</span>"
 }

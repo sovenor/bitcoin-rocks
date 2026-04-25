@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"bitcoin_wallet_guide": "Mwongozo wa Pochi ya Bitcoin",
 	"wallets_description": "Kuna pochi nyingi tofauti za Bitcoin zinazotofautiana kwa njia muhimu. Unaweza kuamua kama pochi inafaa kwako kwa kuuliza maswali haya rahisi.",
 	"wallets_header": "JINSI YA KUHIFADHI BITCOIN YAKO KWA USALAMA",
+	"wallets_header_subtitle": "Mwongozo wa hatua kwa hatua wa kuchagua pochi, kulinda funguo zako, na kuchukua udhibiti kamili wa Bitcoin yako.",
 	"wallets_s1_c1": "Pochi za Bitcoin zinafanya kazi pamoja, kwa hivyo unaweza kutuma Bitcoin kwa mtu yeyote bila kujali wanatumia pochi gani.",
 	"wallets_s1_c2": "Kuna pochi nyingi tofauti za Bitcoin zinazotofautiana kwa njia muhimu. Unaweza kuamua kama pochi inafaa kwako kwa kuuliza maswali haya rahisi:",
 	"wallets_question_1": "JE, NI POCHI YA UHIFADHI WA KIBINAFSI?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp amejaribu vifurushi 70 vya kuhifadhi kwa chuma kukusaidia kuchagua kinachofaa kwako.",
 	"wallets_s6_c5": "Angalia mwongozo wa Jameson wa kuhifadhi Bitcoin kwa chuma hapa.",
 	"wallets_s6_c6": "Au endelea kusogeza kuchunguza chaguzi za pochi za Bitcoin.",
+	"wallets_grid_heading": "Pochi maarufu za Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Unatafuta Mwongozo wetu wa Pochi ya Lightning?",
 	"wallets_starter_wallet": "Pochi nzuri ya kuanzia",
 	"wallets_mobile_app": "Programu ya simu",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Betri inayochajika",
 	"wallets_build_your_own": "Jitengenezee mwenyewe",
 	"wallets_qwerty_keyboard": "Kibodi kamili ya QWERTY",
-	"wallets_qr_scanner": "Skana ya msimbo wa QR"
+	"wallets_qr_scanner": "Skana ya msimbo wa QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Choose Your Wallet",
+	"sources_jameson_lopp": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+	"sources_blockstream_green": "Blockstream Green — Pochi ya Bitcoin ya uhifadhi wa kibinafsi",
+	"sources_blockstream_jade": "Blockstream Jade — Pochi ya vifaa vya Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — Pochi ya vifaa Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — Pochi ya vifaa Coldcard Q",
+	"sources_passport": "Foundation Devices — Pochi ya vifaa Passport",
+	"sources_seedsigner": "SeedSigner — Kifaa cha kusaini Bitcoin cha DIY chenye chanzo huria"
 }

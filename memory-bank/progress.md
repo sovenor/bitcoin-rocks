@@ -1,3 +1,69 @@
+## i18n cleanup Step 5 — Swahili (sw) — 2026-04-25
+
+Ran `/translate-manifest-refresh Swahili` end-to-end via the new
+**parallel-worktree pattern** (first locale to use it). Swahili
+(`Kiswahili`) is the official language of Tanzania and Kenya, and a
+co-official language of Uganda, Rwanda, and the DRC, with ~80M total
+speakers (native + L2). Bantu language family. Latin script with no
+diacritics. **Counter:** 44/54 languages complete. 1,139 entries
+flagged (571 missing locale-specific + 11 untranslated + 165
+manifest-changed + 392 manifest-added).
+
+**Parallel-worktree dispatch:** Orchestrator launched 3 background
+subagents simultaneously, each in its own `git worktree` branched from
+`v2-nextjs-redesign`. The sw agent ran the full single-language
+workflow (`language-diff` → translate → `apply-translations` with full
+verify) and committed only per-language files (`i18n/sw/**`,
+`scripts/sw-manifest-refresh/`, marker, archive). Orchestrator
+cherry-picked the agent's commit onto v2-nextjs-redesign and amended
+the shared-file edits (this checklist tick + memory-bank entries) into
+the same commit via `git commit --amend --no-edit` so the final history
+keeps one-commit-per-language. No file-write race conditions —
+worktrees fully isolated.
+
+**4 helper scripts under `scripts/sw-manifest-refresh/`:**
+1. `translate-inflation.js` (368 entries — 327 per-currency × 13
+   currencies via templated function with Swahili currency naming
+   (dola, yuro, paundi, peso, rupia, yeni, shekeli, baht, etc.)
+   rather than a generic catch-all, polite second-person "wewe"
+   register throughout — the standard register for Swahili
+   educational copy + 41 non-currency keys including freedom cards,
+   stories, sources, 5 manifest-changed hero/intro keys).
+2. `translate-rest-part1.js` (314 entries — index pills, all 62 home
+   card labels, link titles, hero copy, common sources/next-step
+   keys, all 10 bitcoin-vs-* comparison summary points; "Bitcoin"
+   preserved as Latin loanword (universal in East African crypto
+   press), "pochi"/"mkoba" wallet, "mfumuko wa bei" inflation, "pesa
+   za kidijitali" digital money, "matumizi ya rejareja" merchant
+   accept).
+3. `translate-rest-part2.js` (457 entries — comparison hero titles,
+   all 11 business/* namespaces, full nostr/index,
+   about/bank-runs/get-involved/buy/lightning/wallets/flyers/stickers/
+   success-pages plus all manifest-added long-form copy).
+4. `fix-untranslated.js` (11 patches — the 10
+   `common_stickers_dimensions_*` keys rewritten in Swahili
+   convention as "21,59 sm x 4,6482 sm (8,5 in x 1,83 in)" with
+   comma-decimal and "sm" abbreviation for sentimita, plus
+   `bitcoin-vs-crypto::crypto` "CRYPTO" → "KRIPTO" so all values are
+   byte-distinct from English).
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- `npm run build` runs once at the end of the parallel batch (after
+  ta + th also land), not per-language.
+
+**Edge cases / notes:**
+- `index_sw.json` was entirely missing pre-refresh — agent created it
+  from scratch with all 62 home card labels translated.
+- "CRYPTO" (`bitcoin-vs-crypto::crypto`) is a generic abbreviation
+  that's identical-by-default in many languages; translated to
+  "KRIPTO" (Swahili spelling) to make it byte-distinct.
+- Swahili currency naming choices reflect East African financial
+  press convention (TBC, Daily News, The Citizen) — currency-specific
+  forms ("dola za Marekani", "yuro za Ulaya") rather than generic
+  "fedha yako".
+
 ## i18n cleanup Step 5 — Swedish (sv) — 2026-04-25
 
 Ran `/translate-manifest-refresh Swedish`. Swedish (`Svenska`) is the

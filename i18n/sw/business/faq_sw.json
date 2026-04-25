@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Maswali Yanayoulizwa Mara kwa Mara kuhusu Kukubali Bitcoin",
 	"faq_description": "Una maswali kuhusu kukubali malipo ya Bitcoin katika biashara yako?",
+	"faq_hero_subtitle": "Majibu mafupi kwa maswali ambayo wafanyabiashara huuliza mara nyingi kabla ya kuanza kukubali Bitcoin — ada, makazi, pochi, kurudisha malipo, gharama, na zaidi.",
+	"faq_intro_c1": "Bonyeza swali lolote hapa chini kupanua jibu. Ukiwa tayari kuanza kukubali Bitcoin, nyenzo za biashara chini ya ukurasa zitakuongoza kupitia kila hatua.",
 	"faq_s1": "Bitcoin ni nini?",
 	"faq_s1_c1": "Bitcoin ni vitu viwili: pesa za kidijitali na mtandao wa kompyuta.",
 	"faq_s1_c2": "Unaweza kutuma bitcoin (pesa za kidijitali) moja kwa moja kwa watu wengine ukitumia Mtandao wa Bitcoin.",

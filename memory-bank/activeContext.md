@@ -1,3 +1,83 @@
+## Swahili (sw) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Swahili` end-to-end via the new
+**parallel-worktree pattern** — first locale to use it (alongside ta
++ th in the same parallel batch). **Locale 44/54 complete.** Swahili
+(`Kiswahili`) is the official language of Tanzania and Kenya and a
+co-official language of Uganda, Rwanda, and the DRC, with ~80M total
+speakers (native + L2). Bantu language family. Latin script with no
+diacritics; pronunciation is highly regular.
+
+**Parallel-worktree dispatch — pattern notes:**
+
+Orchestrator launched 3 background subagents simultaneously (sw + ta +
+th), each in its own `git worktree` (Agent tool's
+`isolation: "worktree"` mode) branched from `v2-nextjs-redesign`. Each
+agent ran the full single-language workflow in its own worktree:
+`language-diff` → translate → `apply-translations` with full verify →
+commit per-language files only. Agents did **not** touch shared files
+(`V2-REDESIGN-CHECKLIST.md`, `memory-bank/*`) — those are
+orchestrator-managed. Orchestrator then cherry-picked each agent's
+commit onto `v2-nextjs-redesign` sequentially and amended the
+shared-file edits (checklist tick + memory-bank entries) into the same
+commit via `git commit --amend --no-edit` so the final commit history
+preserves one-commit-per-language. No file-write race conditions
+because worktrees are fully isolated. Counter increments cleanly
+(43→44→45→46) as each cherry-pick + amend lands.
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...`
+- 571 missing locale-specific (the entire `index_sw.json` file was
+  missing, plus drift across home card labels, common subtree,
+  nostr/index, business/* sub-pages)
+- 11 untranslated (10 sticker dimension strings + "CRYPTO" cognate)
+- 165 manifest-changed + 392 manifest-added → **1,139 total entries**
+
+**4 helper scripts under `scripts/sw-manifest-refresh/`:**
+
+- `translate-inflation.js` — **368 entries**. Per-currency templated
+  translator × 13 currencies with Swahili currency naming (dola,
+  yuro, paundi, peso, rupia, yeni, shekeli, baht, etc.) rather than
+  a generic "fedha yako" catch-all, polite second-person "wewe"
+  register throughout — the standard register for Swahili
+  educational copy. Plus 41 non-currency keys: freedom cards,
+  stories, sources, 5 manifest-changed hero/intro keys.
+- `translate-rest-part1.js` — **314 entries**. Index pills, all 62
+  home card labels (created from scratch since `index_sw.json` was
+  entirely missing), link titles, hero copy, common sources/next-step
+  keys, all 10 bitcoin-vs-* comparison summary points. Swahili
+  terminology — "Bitcoin" preserved as Latin loanword (universal in
+  East African crypto press), "pochi"/"mkoba" (wallet), "mfumuko wa
+  bei" (inflation), "pesa za kidijitali" (digital money), "matumizi
+  ya rejareja" (merchant accept).
+- `translate-rest-part2.js` — **457 entries**. Comparison hero
+  titles + all 11 business/* namespaces + full nostr/index +
+  about/bank-runs/get-involved/buy/lightning/wallets/flyers/stickers/
+  success-pages plus all manifest-added long-form copy.
+- `fix-untranslated.js` — **11 patches**. 10
+  `common_stickers_dimensions_*` keys rewritten in Swahili
+  convention as `"21,59 sm x 4,6482 sm (8,5 in x 1,83 in)"` with
+  comma-decimal and "sm" abbreviation for sentimita, plus
+  `bitcoin-vs-crypto::crypto` "CRYPTO" → "KRIPTO" so values are
+  byte-distinct from English.
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- `npm run build` runs once at the end of the parallel batch.
+
+**Edge cases / notes:**
+- `index_sw.json` was entirely missing pre-refresh — the agent
+  created it from scratch with all 62 home card labels translated.
+- The 10 sticker-dimension entries trip the byte-identical check in
+  most locales (numeric values + Latin units are language-neutral).
+  Swahili's "sm" / "sentimita" abbreviation is a clean way to make
+  them byte-distinct without changing meaning.
+- Swahili currency naming reflects East African financial press
+  convention (TBC, Daily News, The Citizen) — currency-specific
+  forms ("dola za Marekani", "yuro za Ulaya") rather than generic
+  "fedha yako".
+
 ## Swedish (sv) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Swedish` end-to-end. **Locale 43/54

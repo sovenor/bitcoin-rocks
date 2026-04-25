@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"bitcoin_accepted_here_stickers": "Vibandiko vya Bitcoin Inakubaliwa Hapa",
+	"biz_stickers_hero_title": "Stika za bure za 'Bitcoin Inakubaliwa Hapa'",
+	"biz_stickers_hero_subtitle": "Wajulishe wateja wako kwamba unakubali Bitcoin. Agiza pakiti ya bure ya stika za 'Bitcoin Inakubaliwa Hapa' za kuweka kwenye biashara yako.",
+	"biz_stickers_intro_c1": "Kukubali Bitcoin ni nusu tu ya kazi — wateja wako pia wanahitaji kujua kuwa unakubali. Stika hizi ndogo za 'Bitcoin Inakubaliwa Hapa' zimeundwa kushikamana kwenye mlango wako wa mbele, rejista, menyu, au mahali pengine ambapo wateja wataziona kabla ya kulipa.",
+	"biz_stickers_intro_c2": "Tutakutumia pakiti ya bure popote nchini Marekani au Kanada, au unaweza kuchapisha zako popote duniani.",
+	"biz_stickers_step_header": "Ungependa kupata stika zako vipi?",
+	"biz_stickers_step_description": "Tutatuma pakiti ya bure kwa anwani nchini Marekani na Kanada. Popote pengine duniani, unaweza kuchapisha zako mwenyewe.",
+	"biz_stickers_option_usa": "🇺🇸 Marekani — Bure kwa barua",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Bure kwa barua",
+	"biz_stickers_option_print": "🌍 Kimataifa — Chapisha mwenyewe",
+	"biz_stickers_print_header": "Chapisha faili zako mwenyewe za stika",
+	"biz_stickers_print_c1": "Unaweza kuchapisha stika zako mwenyewe za 'Bitcoin Inakubaliwa Hapa', popote uishipo. Bonyeza lugha yako hapa chini ili kupakua faili za stika na maagizo ya kuchapisha.",
+	"biz_stickers_request_header": "Hauoni lugha yako?",
+	"biz_stickers_request_c1": "Jaza fomu hapa chini kuomba faili za stika za 'Bitcoin Inakubaliwa Hapa' katika lugha yako ya ndani. Tutakujulisha mara zitakapokuwa tayari.",
+	"biz_stickers_placeholder_translation1": "Tafsiri ya 'Bitcoin Accepted Here'",
+	"biz_stickers_placeholder_translation2": "Tafsiri ya 'Scan to learn why Bitcoin is good for business.'",
 	"stickers_request": "Pata vibandiko vyako bure"
 }

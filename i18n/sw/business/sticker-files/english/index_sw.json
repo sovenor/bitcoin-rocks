@@ -3,9 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Faili za Vibandiko vya 'Bitcoin Inakubaliwa Hapa' kwa Kiingereza",
-	"english_biz_sticker_files_description": "Pakua faili za vibandiko kwa Kiingereza kuchapisha vibandiko vyako vya Bitcoin Inakubaliwa Hapa."
+	"english_biz_sticker_files_description": "Pakua faili za stika za Kiingereza ili kuchapisha stika zako mwenyewe za 'Bitcoin Inakubaliwa Hapa'.",
+	"biz_stickers_english_hero_title": "Pakua faili za stika za Kiingereza za 'Bitcoin Inakubaliwa Hapa'",
+	"biz_stickers_english_hero_subtitle": "Chapisha stika zako mwenyewe za 'Bitcoin Inakubaliwa Hapa' kwa Kiingereza ili kuwajulisha wateja wako kwamba unakubali Bitcoin."
 }
