@@ -1,3 +1,44 @@
+## i18n cleanup Step 5 — Romanian (ro) — 2026-04-25
+
+Manifest-driven refresh of `i18n/ro/` (Romanian, the official
+language of Romania and the Republic of Moldova; ~24M native
+speakers). **Counter:** 34/54 languages complete. 1,028 entries
+resolved (464 missing + 7 untranslated + 165 manifest-changed + 392
+manifest-added) across 5 helper scripts in
+`scripts/ro-manifest-refresh/`: `translate-inflation.js` (368
+entries — per-currency templated translator × 13 currencies using
+Romanian noun forms (`inIn` "în X" prepositional, `noun`,
+`nounPl`, `label`, `existenceTitle`, `debtTitle`) with
+friendly "tu" register + 41 non-currency keys),
+`translate-rest-part1.js` (193 entries — 404 + about + bank-runs
++ all 10 bitcoin-vs-* with Romanian low-then-high quotation marks
+„…", Romanian diacritics ă/â/î/ș/ț using modern comma-below
+variants, numeric format `1,42%` / `10,82 trilioane dolari`
+short scale matching English, post-2007 Unicode-revision
+spelling), `translate-rest-part2.js` (461 entries — business/*
+subtree, buy, common, compound-inflation-calculator, flyers
+("pliante"), get-involved, index homepage with all 62 home card
+labels (e.g. "Să comparăm" / "Care este diferența?" / "Artă
+stradală" / "Răspândește vestea" / "Bani suverani" / "Sfârșitul
+războaielor nesfârșite"), lightning, nostr/index, sticker-files/index,
+sticker-language-success, sticker-success, stickers
+("autocolante"), wallets), `fix-remaining.js` (6 untranslated
+short labels — `about_open_source_header` "Open Source" →
+"Sursă deschisă", `bitcoin_vs_crypto` → "Bitcoin vs. Crypto",
+`crypto` "CRYPTO" (later patched), `bitcoin_point_4` "Inelastic"
+/ `gold_point_4` "Elastic" (deferred), `common_stickers_material`
+"Material:"), and `fix-identical.js` (5 final byte-identical
+entries patched in-place — `crypto` → "CRIPTO" (Romanian
+spelling), `bitcoin_point_4` → "Inelastic (ofertă fixă)",
+`gold_point_4` → "Elastic (extracție continuă)",
+`buy_platform_feature_p2p` → "De la egal la egal (P2P)",
+`common_stickers_material` → "Material adeziv:"). Marker pinned
+at `scripts/i18n-audit/v2-refresh-status/ro.json` to
+manifestVersion `d966f8c780c0c485...`. All 4 verification checks
+PASS. `npm run build` clean across 55 locales × 81 pages.
+
+---
+
 ## i18n cleanup Step 5 — Portuguese (pt) — 2026-04-25
 
 Manifest-driven refresh of `i18n/pt/` (Portuguese, European-PT register). Targets ~270M native PT speakers across Portugal, Brazil, Angola, Mozambique, Cape Verde, Guinea-Bissau, São Tomé and Príncipe, Macau, Timor-Leste, and the Lusophone diaspora. 1,036 entries resolved (464 missing + 15 untranslated + 165 manifest-changed + 392 manifest-added) across 4 helper scripts in `scripts/pt-manifest-refresh/`: `translate-inflation.js` (368 entries — per-currency templated translator × 13 currencies using PT noun forms (`longName`, `noun`, `nounPlural`) with informal "tu/teu" register matching the pre-V2 European-PT files + 41 non-currency keys), `translate-rest-part1.js` (193 entries — 404 + about + bank-runs + all 10 bitcoin-vs-* with Portuguese guillemets «…», numeric format `1,42 %` / `10,82 biliões` long scale, post-2009 acordo ortográfico spelling), `translate-rest-part2.js` (461 entries — business/* subtree, buy, common, compound-inflation-calculator, flyers, get-involved, index homepage with all 62 home card labels, lightning, nostr/index, sticker-files/*, sticker-language-success, sticker-success, stickers, wallets), and `fix-remaining.js` (15 locale-specific entries — `bitcoin-vs-cbdc::bitcoin_vs_cbdcs` → "Bitcoin vs. CBDC", `bitcoin-vs-gold::bitcoin_vs_gold` → "Bitcoin vs. Ouro", `common_cold_wallet`/`common_hot_wallet` → "CARTEIRA FRIA"/"CARTEIRA QUENTE", 10 `common_stickers_dimensions_*` with PT decimal commas, `common_stickers_type_die_cut` → "autocolante recortado", `common_stickers_material` → "Material do produto:" since the cognate "Material:" was byte-identical to English). Marker pinned at `scripts/i18n-audit/v2-refresh-status/pt.json` to manifestVersion `d966f8c780c0c485...`. All 4 verification checks PASS. `npm run build` clean across 55 locales × 81 pages.

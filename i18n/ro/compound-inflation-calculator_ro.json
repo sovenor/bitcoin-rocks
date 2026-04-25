@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"cic_header": "CALCULATOR DE INFLAȚIE COMPUSĂ",
 	"cic_description": "Folosește acest Calculator de Inflație Compusă pentru a afla cât trebuie să crească salariul tău pentru a ține pasul cu inflația.",
-	"cic_inflation_cta": "Scapă de Inflație cu Bitcoin"
+	"cic_hero_subtitle": "Vezi cu cât trebuie să crească salariul tău pentru a ține pasul cu inflația.",
+	"cic_calculator_heading": "Calculează-ți decalajul de inflație",
+	"cic_cta_label": "Pasul următor",
+	"cic_inflation_cta": "Scapă de Inflație cu Bitcoin",
+	"cic_next_learn_inflation": "Află cum funcționează inflația",
+	"cic_next_explore_topics": "Explorează mai multe subiecte",
+	"cic_next_explore_topics_desc": "Vezi cum se conectează Bitcoin cu banii, libertatea, energia și altele.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

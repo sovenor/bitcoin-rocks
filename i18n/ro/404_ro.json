@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"404_title": "Eroare 404 | Pagina nu a fost găsită",
-	"404_message": "ACEASTĂ PAGINĂ STRICATĂ NU E GROZAVĂ",
-	"404_home": "ÎNAPOI ACASĂ"
+	"404_message": "Bitcoin este grozav, dar pagina asta stricată nu este.",
+	"404_home": "Înapoi la pagina principală",
+	"404_not_found_short": "Negăsit"
 }

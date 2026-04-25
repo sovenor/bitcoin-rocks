@@ -3,7 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
-	}
+	},
+	"biz_maps_success_hero_title": "Cerere primită 🎉",
+	"biz_maps_success_hero_subtitle": "Mulțumim că ne-ai trimis afacerea ta. Curând o vom adăuga pe hărțile comercianților Bitcoin.",
+	"biz_maps_success_timeline_header": "Ce urmează",
+	"biz_maps_success_timeline_c1": "Afacerea ta va fi listată pe BTC Map și alte directoare ale comercianților Bitcoin în decurs de 1–2 săptămâni. Examinăm manual fiecare trimitere pentru a păstra hărțile precise.",
+	"biz_maps_success_timeline_c2": "Odată ce listarea ta este activă, Bitcoinerii din apropiere îți pot descoperi afacerea și pot veni să cheltuiască Bitcoin acolo.",
+	"biz_maps_success_view_header": "Vezi unde vei apărea",
+	"biz_maps_success_view_c1": "Cât timp aștepți, aruncă o privire pe BTC Map ca să vezi rețeaua în creștere de afaceri care acceptă Bitcoin în întreaga lume.",
+	"biz_maps_success_btn_view_map": "Vezi BTC Map"
 }

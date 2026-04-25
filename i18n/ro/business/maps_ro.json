@@ -3,9 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Hărți comercianți Bitcoin - Listează-ți afacerea gratuit",
-	"maps_view": "Vezi harta aici."
+	"maps_view": "Vezi harta aici.",
+	"biz_maps_hero_title": "Adaugă afacerea ta pe harta comercianților Bitcoin",
+	"biz_maps_hero_subtitle": "Înregistrează-ți gratuit afacerea pe BTC Map — directorul deschis al comercianților care acceptă Bitcoin în întreaga lume — astfel încât Bitcoinerii din apropiere să te poată găsi și să cheltuiască Bitcoin în afacerea ta.",
+	"biz_maps_intro_c1": "Bitcoinerii caută activ locuri unde să cheltuiască. Punerea afacerii tale pe hartă te plasează în fața fiecărui utilizator Bitcoin care caută un loc unde să mănânce, să cumpere sau să rămână peste noapte în apropiere — fără niciun cost pentru tine.",
+	"biz_maps_intro_c2": "Completează formularul scurt de mai jos și vom transmite afacerea ta la BTC Map și la alte hărți de comercianți Bitcoin în numele tău.",
+	"biz_maps_view_map_cta": "Vezi BTC Map",
+	"biz_maps_form_header": "Spune-ne despre afacerea ta",
+	"biz_maps_form_intro": "Avem nevoie doar de câteva detalii pentru a te înregistra. Datele de adresă sunt păstrate doar suficient timp pentru a transmite afacerea ta la hartă.",
+	"biz_maps_placeholder_name": "Numele afacerii",
+	"biz_maps_placeholder_category": "Categorie (ex. restaurant, cafenea, hotel)",
+	"biz_maps_placeholder_address": "Adresă",
+	"biz_maps_placeholder_city": "Oraș",
+	"biz_maps_placeholder_region": "Județ / Regiune",
+	"biz_maps_placeholder_country": "Țară",
+	"biz_maps_placeholder_website": "Site web (opțional)",
+	"biz_maps_meta_description": "Înregistrează-ți gratuit afacerea pe BTC Map și alte hărți de comercianți Bitcoin, astfel încât Bitcoinerii din apropiere să te poată găsi."
 }

@@ -3,10 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin este bun pentru afaceri",
+	"business_hero_subtitle": "Acceptă plăți cu comisioane mai mici, fii plătit instantaneu și ajunge la milioane de clienți noi — fără contracte și fără costuri ascunse.",
+	"business_intro_c1": "Bitcoin oferă afacerii tale o modalitate mai rapidă, mai ieftină și mai privată de a fi plătită. Niciun intermediar. Niciun chargeback. Niciun contract. Doar bani care se decontează în câteva secunde, direct de la clientul tău la tine.",
+	"business_intro_c2": "Mai jos, versiunea scurtă a motivului pentru care Bitcoin este bun pentru afaceri — iar dedesubt, fiecare resursă de care ai nevoie pentru a începe să-l accepți astăzi.",
 	"biz_s1": "Comisioane mici fără minimuri",
 	"biz_s1_c1": "Bitcoin îți permite să primești plăți direct de la clienții tăi, la fel ca numerarul. Rețeaua Bitcoin funcționează fără intermediari precum băncile și companiile de carduri de credit care percep comisioane mari.",
 	"biz_s2": "Decontare instantanee",
@@ -17,5 +20,14 @@
 	"biz_s4": "Obține mai mulți clienți",
 	"biz_s4_c1": "Milioane de oameni dețin Bitcoin și vor să își cheltuiască Bitcoin la locurile care îl acceptă.",
 	"biz_s4_c2": "Prin simpla acceptare a Bitcoin, afacerea ta poate fi listată pe hărțile comercianților Bitcoin și poate obține expunere gratuită la noi clienți Bitcoin.",
-	"biz_s4_c3": "Acceptarea Bitcoin este 100% gratuită. Nu există contracte sau comisioane ascunse."
+	"biz_s4_c3": "Acceptarea Bitcoin este 100% gratuită. Nu există contracte sau comisioane ascunse.",
+	"business_resources_heading": "Tot ce îți trebuie pentru a accepta Bitcoin",
+	"business_resources_intro": "Lucrează prin aceste resurse în ritmul tău. Fiecare este un ghid scurt și practic.",
+	"biz_label_wallets": "PORTOFELE",
+	"biz_label_maps": "HARTA COMERCIANȚILOR",
+	"biz_label_stickers": "AUTOCOLANTE",
+	"biz_label_rewards": "RECOMPENSE",
+	"biz_label_accounting": "CONTABILITATE",
+	"biz_label_faq": "ÎNTREBĂRI FRECVENTE",
+	"biz_meta_description": "Acceptă Bitcoin în afacerea ta pentru comisioane mai mici, decontare instantanee, fără chargeback-uri și mai mulți clienți."
 }

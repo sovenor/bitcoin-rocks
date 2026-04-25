@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"sticker_success_1": "Vei primi autocolantele tale în 2 până la 4 săptămâni. Între timp, încearcă să te gândești la un loc bun unde să pui autocolantele!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "în locuri unde este puțin probabil să fie îndepărtate rapid (autocolantele nu cauzează daune permanente)",
 	"sticker_success_list_3": "pe suprafețe pe care se lipesc ușor (metal, plastic, sticlă)",
 	"sticker_success_list_4": "NU pe proprietate privată, acoperind indicatoare, bancomate sau pompe de benzină",
-	"sticker_success_3": "Vrei să vezi unde alți oameni își pun autocolantele?"
+	"sticker_success_3": "Vrei să vezi unde alți oameni își pun autocolantele?",
+	"sticker_success_hero_title": "Autocolantele tale sunt pe drum 🎉",
+	"sticker_success_tips_header": "Locuri bune pentru autocolante",
+	"sticker_success_share_header": "Distribuie unde ți-ai pus autocolantele",
+	"sticker_success_bulk_header": "Vrei mai multe autocolante?",
+	"sticker_success_btn_order_bulk": "Comandă în cantități mari",
+	"sticker_success_btn_share_on_nostr": "Distribuie pe Nostr",
+	"sticker_success_btn_what_is_nostr": "Ce este Nostr?"
 }

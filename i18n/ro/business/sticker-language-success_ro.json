@@ -3,7 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
-	}
+	},
+	"biz_sticker_language_success_hero_title": "Cerere primită 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Mulțumim că ai cerut fișierele autocolantelor „Bitcoin acceptat aici” în limba ta.",
+	"biz_sticker_language_success_timeline_header": "Ce urmează",
+	"biz_sticker_language_success_timeline_c1": "Vom crea și publica fișierele autocolantelor tale în decurs de 3–4 săptămâni. Odată gata, le poți descărca și tipări gratuit de pe pagina noastră de fișiere ale autocolantelor.",
+	"biz_sticker_language_success_timeline_c2": "Fișierele autocolantelor sunt eliberate în loturi, deci ar putea dura câteva săptămâni până ca limba ta să fie disponibilă. Mulțumim pentru răbdare!"
 }

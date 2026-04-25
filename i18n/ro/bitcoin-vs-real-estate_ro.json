@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Imobiliare",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Greu de distrus",
 	"bitcoin_point_7": "Perfect fungibil",
 	"bitcoin_point_8": "Piață globală 24/7",
-	"point_1_summary_1": "Bitcoin poate fi mutat oriunde în lume instantaneu prin internet. Imobiliarele sunt fixate permanent într-o locație specifică și nu pot fi relocate, făcându-le vulnerabile la condițiile economice locale, dezastrele naturale și instabilitatea politică.",
-	"point_2_summary_1": "Bitcoin poate fi împărțit în 100 de milioane de unități mai mici numite satoshi, făcându-l perfect pentru tranzacții de orice dimensiune. Imobiliarele nu pot fi ușor de împărțit — nu poți vinde doar bucătăria casei tale sau cumpăra jumătate din dormitor.",
-	"point_3_summary_1": "Bitcoin funcționează pe o rețea descentralizată pe care niciun guvern nu o poate controla. Imobiliarele sunt supuse reglementărilor guvernamentale extinse, inclusiv controlul chiriilor, moratorii de evacuare, legi de zonare și expropriere prin care guvernele îți pot confisca proprietatea.",
-	"point_4_summary_1": "Bitcoin nu necesită întreținere — există ca cod digital într-o rețea. Imobiliarele necesită întreținere constantă, inclusiv reparații, renovări, administrare a proprietății, asigurare și gestionarea chiriașilor dacă sunt închiriate.",
-	"point_5_summary_1": "Bitcoin nu are impozite continue — plătești doar impozitul pe câștiguri de capital când vinzi. Imobiliarele sunt supuse impozitelor anuale pe proprietate care trebuie plătite indiferent dacă proprietatea generează venituri, forțându-te efectiv să închiriezi propria proprietate de la guvern pentru totdeauna.",
-	"point_6_summary_1": "Bitcoin, când este salvat corespunzător, nu poate fi distrus de inundații, incendii, cutremure, uragane sau alte dezastre naturale. Imobiliarele sunt vulnerabile la toate formele de distrugere fizică și necesită asigurări costisitoare care pot să nu acopere complet pierderile.",
-	"point_7_summary_1": "Fiecare bitcoin este identic și interschimbabil — un bitcoin egal un bitcoin oriunde în lume. Fiecare proprietate imobiliară este unică cu locații, condiții și caracteristici diferite, făcând dificilă evaluarea și compararea proprietăților.",
-	"point_8_summary_1": "Bitcoin poate fi cumpărat și vândut 24/7 de oricine cu acces la internet oriunde în lume. Vânzările imobiliare sunt limitate la cumpărători locali, necesită procese îndelungate cu avocați și agenți și pot dura luni de zile pentru a fi finalizate.",
+	"point_1_summary_1": "Bitcoin se mișcă oriunde în lume instantaneu. Imobiliarele sunt legate de o locație și expuse la riscuri economice, politice și naturale locale.",
+	"point_2_summary_1": "Bitcoin se împarte în 100 de milioane de satoshi. Imobiliarele nu pot fi vândute parțial — nu poți ceda doar bucătăria sau cumpăra jumătate de dormitor.",
+	"point_3_summary_1": "Bitcoin operează pe o rețea descentralizată pe care niciun guvern nu o poate controla. Imobiliarele sunt puternic reglementate — zonificare, controlul chiriei, expropriere și confiscare se aplică toate.",
+	"point_4_summary_1": "Bitcoin nu necesită întreținere. Imobiliarele necesită reparații, renovări, asigurări, gestionarea proprietății și probleme cu chiriașii.",
+	"point_5_summary_1": "Bitcoin nu are taxe continue — plătești doar impozit pe câștigurile de capital când vinzi. Imobiliarele trebuie să plătească impozite pe proprietate anuale indiferent de venit.",
+	"point_6_summary_1": "Bitcoin cu backup corespunzător supraviețuiește incendiilor, inundațiilor și cutremurelor. Imobiliarele sunt vulnerabile la orice dezastru, iar asigurarea acoperă rareori totul.",
+	"point_7_summary_1": "Fiecare Bitcoin este identic și fungibil. Fiecare proprietate este unică, ceea ce face dificile prețul și comparațiile.",
+	"point_8_summary_1": "Bitcoin este tranzacționat la nivel global 24/7 de oricine are acces la internet. Vânzările imobiliare sunt limitate la cumpărătorii locali și pot dura luni de hârțogărie.",
 	"bitcoin_point_9": "Promovează proprietatea individuală",
 	"real_estate_point_9": "Contribuie la financializarea locuințelor",
-	"point_9_summary_1": "Bitcoin permite proprietatea individuală directă fără intermediari, promovând suveranitatea financiară pentru toți. Cumpărarea imobiliarelor ca investiție dincolo de locuința principală contribuie la financializarea locuințelor, tratând casele ca pe mărfuri în loc de adăpost. Aceasta crește prețurile, reduce accesibilitatea pentru familii și contribuie la criza locuințelor și a persoanelor fără adăpost care afectează multe țări astăzi."
+	"point_9_summary_1": "Bitcoin permite proprietatea individuală directă oricui. Cumpărarea de imobile ca investiție dincolo de propria reședință principală împinge prețurile locuințelor în sus, reducând accesibilitatea și alimentând crize de locuințe.",
+	"hero_title": "Diferența dintre <span class=\"orange\">Bitcoin</span> și <span class=\"asset\">Imobiliare</span>"
 }

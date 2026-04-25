@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_vs_stocks": "Bitcoin vs Acțiuni",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Tranzacționare 24/7",
 	"bitcoin_point_6": "Auto-custodie posibilă",
 	"bitcoin_point_7": "Activ cu ofertă fixă",
-	"point_1_summary_1": "Când deții Bitcoin, ai proprietate directă asupra activului în sine. Când deții acțiuni, deții o participație într-o companie, ceea ce înseamnă că investiția ta depinde de performanța companiei, deciziile managementului și succesul afacerii.",
-	"point_2_summary_1": "Bitcoin are o limită maximă de 21 de milioane de BTC care vor exista vreodată.",
-	"point_2_summary_2": "Companiile pot emite acțiuni noi oricând, diluând procentul de proprietate al acționarilor existenți. Aceasta înseamnă că partea ta din companie se micșorează când sunt create acțiuni noi.",
-	"point_2_summary_3": "Aceasta este mai puțin decât inflația fiat, dar tot diluare.",
-	"point_3_summary_1": "Bitcoin funcționează pe o rețea descentralizată fără un singur punct de eșec. Investițiile în acțiuni sunt supuse riscului de persoană-cheie — dacă CEO-ul sau alți lideri critici pleacă, se îmbolnăvesc sau iau decizii proaste, investiția ta poate suferi semnificativ. Companiile depind foarte mult de echipele lor de conducere.",
-	"point_4_summary_1": "Prețul Bitcoin este determinat exclusiv de cererea și oferta pieței. Prețurile acțiunilor sunt adesea evaluate folosind rapoarte P/E (Preț-la-Câștiguri), care arată cât plătesc investitorii pentru fiecare dolar de câștiguri ale companiei. Rapoartele P/E ridicate pot indica acțiuni supraevaluate, făcând mai dificilă determinarea valorii corecte.",
-	"point_5_summary_1": "Bitcoin se tranzacționează 24 de ore pe zi, 7 zile pe săptămână pe burse globale.",
+	"point_1_summary_1": "Bitcoin este un activ direct pe care îl deții complet. Acțiunile sunt fracțiuni dintr-o companie — valoarea lor depinde de management, performanță și decizii pe care nu le poți controla.",
+	"point_2_summary_1": "Bitcoin are un plafon strict de 21 de milioane BTC. Companiile pot emite oricând noi acțiuni, diluându-i pe acționarii existenți — similar cu modul în care",
+	"point_2_summary_2": "inflația",
+	"point_2_summary_3": " fiat diluează numerarul. Cu Bitcoin, cota ta nu se micșorează niciodată.",
+	"point_3_summary_1": "Bitcoin nu are CEO și niciun punct unic de eșec. Acțiunile depind puternic de conducere — o decizie greșită sau o plecare poate prăbuși prețul.",
+	"point_4_summary_1": "Prețul Bitcoin vine de la o piață globală deschisă. Evaluările acțiunilor se bazează pe metrici precum raportul P/E, care pot ascunde acțiuni supraevaluate.",
+	"point_5_summary_1": "Bitcoin este tranzacționat 24/7 în întreaga lume. Piețele de acțiuni sunt deschise doar în timpul programului de lucru, în zilele lucrătoare.",
 	"point_5_summary_2": "Bitcoin este descentralizat",
-	"point_6_summary_1": "Cu Bitcoin, poți prelua auto-custodia monedelor tale, ceea ce înseamnă că le deții cu adevărat fără a depinde de nicio terță parte.",
-	"point_6_summary_2": "Auto-custodia este la fel de simplă ca descărcarea unei aplicații.",
-	"point_6_summary_3": "Acțiunile necesită un cont de brokeraj și ești supus riscului de contrapartidă — dacă compania intră în faliment sau brokerul eșuează, ai putea pierde investiția.",
-	"point_7_summary_1": "Bitcoin este un activ cu ofertă fixă, cu o limită maximă de 21 de milioane de Bitcoin care vor exista vreodată. Aceasta îl face o protecție excelentă contra inflației. Acțiunile au performanțe variabile contra inflației — unele companii se descurcă bine în perioadele inflaționiste, în timp ce altele se luptă. Nu există nicio garanție că o anumită acțiune te va proteja contra inflației."
+	"point_6_summary_1": "Poți",
+	"point_6_summary_2": "auto-custodia",
+	"point_6_summary_3": "Bitcoin cu o aplicație simplă — niciun broker necesar. Acțiunile rămân la brokeri, expunându-te la riscul de contraparte dacă aceștia dau faliment.",
+	"point_7_summary_1": "Oferta fixă a Bitcoin îl face o protecție de încredere împotriva inflației. Unele acțiuni bat inflația, altele nu — nicio garanție.",
+	"hero_title": "Diferența dintre <span class=\"orange\">Bitcoin</span> și <span class=\"asset\">Acțiuni</span>"
 }
