@@ -1,0 +1,2063 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:27:42.120Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": false,
+	"markerManifestVersion": null,
+	"markerAppliedAt": null,
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 465,
+		"untranslated": 4,
+		"manifestChanged": 165,
+		"manifestAdded": 392,
+		"manifestAlreadyPresentInTarget": 1,
+		"manifestSkippedByMarker": 0,
+		"upToDate": 753,
+		"brandIdentical": 73
+	},
+	"entries": [
+		{
+			"namespace": "about",
+			"key": "about_card_contact_github_label",
+			"reason": "missing",
+			"englishValue": "GitHub",
+			"currentValue": null,
+			"targetTranslation": "GitHub"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contact_github_title",
+			"reason": "missing",
+			"englishValue": "github.com/sovenor/bitcoin-rocks",
+			"currentValue": null,
+			"targetTranslation": "github.com/sovenor/bitcoin-rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_email_title",
+			"reason": "missing",
+			"englishValue": "hi@bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "hi@bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_nostr_label",
+			"reason": "missing",
+			"englishValue": "Nostr",
+			"currentValue": null,
+			"targetTranslation": "Nostr"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_nostr_title",
+			"reason": "missing",
+			"englishValue": "hi@bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "hi@bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_mission_1_sovenor",
+			"reason": "missing",
+			"englishValue": "sovenor",
+			"currentValue": null,
+			"targetTranslation": "sovenor"
+		},
+		{
+			"namespace": "about",
+			"key": "about_page_description",
+			"reason": "missing",
+			"englishValue": "bitcoin.rocks is a free, open-source Bitcoin education website founded in 2022. Our mission is to accelerate Bitcoin adoption through education.",
+			"currentValue": null,
+			"targetTranslation": "bitcoin.rocks är en kostnadsfri utbildningssajt om Bitcoin med öppen källkod, grundad 2022. Vårt uppdrag är att accelerera Bitcoin-adoption genom utbildning."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_value",
+			"reason": "missing",
+			"englishValue": "1.42%",
+			"currentValue": null,
+			"targetTranslation": "1,42 %"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "sources_fred_cpi_urban",
+			"reason": "missing",
+			"englishValue": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+			"currentValue": null,
+			"targetTranslation": "Federal Reserve Economic Data (FRED) — Konsumentprisindex för alla stadsbor"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "sources_fred_m1",
+			"reason": "missing",
+			"englishValue": "Federal Reserve Economic Data (FRED) — M1 Money Supply",
+			"currentValue": null,
+			"targetTranslation": "Federal Reserve Economic Data (FRED) — M1 penningmängd"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_lightning_paper",
+			"reason": "missing",
+			"englishValue": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+			"currentValue": null,
+			"targetTranslation": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_name",
+			"reason": "missing",
+			"englishValue": "Amethyst",
+			"currentValue": null,
+			"targetTranslation": "Amethyst"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_name",
+			"reason": "missing",
+			"englishValue": "Damus",
+			"currentValue": null,
+			"targetTranslation": "Damus"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_name",
+			"reason": "missing",
+			"englishValue": "Iris",
+			"currentValue": null,
+			"targetTranslation": "Iris"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_platform_android",
+			"reason": "missing",
+			"englishValue": "Android",
+			"currentValue": null,
+			"targetTranslation": "Android"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_platform_ios",
+			"reason": "missing",
+			"englishValue": "iPhone",
+			"currentValue": null,
+			"targetTranslation": "iPhone"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_platform_ios_android_web",
+			"reason": "missing",
+			"englishValue": "iPhone, Android & web",
+			"currentValue": null,
+			"targetTranslation": "iPhone, Android och webb"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_platform_web",
+			"reason": "missing",
+			"englishValue": "Web browser",
+			"currentValue": null,
+			"targetTranslation": "Webbläsare"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_name",
+			"reason": "missing",
+			"englishValue": "Primal",
+			"currentValue": null,
+			"targetTranslation": "Primal"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c2",
+			"reason": "missing",
+			"englishValue": "Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_bitcoin_org_choose",
+			"reason": "missing",
+			"englishValue": "Bitcoin.org — Choose Your Wallet",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin.org — Välj din plånbok"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_jameson_lopp",
+			"reason": "missing",
+			"englishValue": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+			"currentValue": null,
+			"targetTranslation": "Jameson Lopp — Recensioner av seedförvaring i metall för Bitcoin"
+		},
+		{
+			"namespace": "wallets",
+			"key": "wallets_lightning_cta_label",
+			"reason": "missing",
+			"englishValue": "Lightning Network",
+			"currentValue": null,
+			"targetTranslation": "Lightning Network"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_platform_feature_p2p",
+			"reason": "untranslated",
+			"englishValue": "Peer-to-peer",
+			"currentValue": "Peer-to-peer",
+			"targetTranslation": "Peer-to-peer"
+		},
+		{
+			"namespace": "404",
+			"key": "404_home",
+			"reason": "manifest-changed",
+			"englishValueBefore": "GO BACK HOME",
+			"englishValue": "Back to Home",
+			"currentValue": "TILLBAKA TILL STARTSIDAN",
+			"targetTranslation": "Tillbaka till startsidan"
+		},
+		{
+			"namespace": "404",
+			"key": "404_message",
+			"reason": "manifest-changed",
+			"englishValueBefore": "THIS BROKEN PAGE DOES NOT ROCK",
+			"englishValue": "Bitcoin rocks, but this broken page does not.",
+			"currentValue": "DENNA TRASIGA SIDA ÄR INTE COOL",
+			"targetTranslation": "Bitcoin är grymt, men den här trasiga sidan är det inte."
+		},
+		{
+			"namespace": "about",
+			"key": "about_editorial_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "We link to trusted sources like TIME Magazine, Forbes, MIT Technology Review, Lyn Alden, and many others. We believe that Bitcoin speaks for itself when the facts are presented clearly.",
+			"englishValue": "We link to trusted sources like the Federal Reserve (FRED), the U.S. Bureau of Labor Statistics, the FDIC, the United Nations, the World Gold Council, Forbes, MIT Technology Review, Lyn Alden, and James Lavish. We believe Bitcoin speaks for itself when the facts are presented clearly.",
+			"currentValue": "Vi länkar till pålitliga källor som TIME Magazine, Forbes, MIT Technology Review, Lyn Alden och många andra. Vi tror att Bitcoin talar för sig själv när fakta presenteras tydligt.",
+			"targetTranslation": "Vi länkar till pålitliga källor som Federal Reserve (FRED), U.S. Bureau of Labor Statistics, FDIC, Förenta nationerna, World Gold Council, Forbes, MIT Technology Review, Lyn Alden och James Lavish. Vi tror att Bitcoin talar för sig självt när fakta presenteras tydligt."
+		},
+		{
+			"namespace": "about",
+			"key": "about_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "ABOUT",
+			"englishValue": "About bitcoin.rocks",
+			"currentValue": "OM OSS",
+			"targetTranslation": "Om bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_open_source_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.",
+			"englishValue": "bitcoin.rocks is a free, open-source project licensed under the MIT License. Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.",
+			"currentValue": "Vem som helst kan bidra till bitcoin.rocks. Vi välkomnar särskilt översättare som hjälper till att göra vårt innehåll tillgängligt för människor över hela världen.",
+			"targetTranslation": "bitcoin.rocks är ett kostnadsfritt projekt med öppen källkod under MIT-licens. Vem som helst kan bidra till bitcoin.rocks. Vi välkomnar särskilt översättare som hjälper till att göra vårt innehåll tillgängligt för människor runt om i världen."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "BITCOIN DOESN'T HAVE BANK RUNS",
+			"englishValue": "Bitcoin doesn't have bank runs, but your bank might.",
+			"currentValue": "BITCOIN HAR INGA BANKRUSNINGAR",
+			"targetTranslation": "Bitcoin har inga bankrusningar, men din bank kan ha det."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_bitcoin_guide",
+			"reason": "manifest-changed",
+			"englishValueBefore": "How to Buy Bitcoin - Step by Step Guide",
+			"englishValue": "How to buy Bitcoin",
+			"currentValue": "Hur man köper Bitcoin – Steg-för-steg-guide",
+			"targetTranslation": "Hur du köper Bitcoin"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_1_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "STEP 1: SELECT YOUR COUNTRY",
+			"englishValue": "Select your country",
+			"currentValue": "STEG 1: VÄLJ DITT LAND",
+			"targetTranslation": "Välj ditt land"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_2_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "STEP 2: CHOOSE YOUR PAYMENT METHOD",
+			"englishValue": "Choose your payment method",
+			"currentValue": "STEG 2: VÄLJ BETALNINGSMETOD",
+			"targetTranslation": "Välj betalningsmetod"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_3_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "STEP 3: BUYING OPTIONS",
+			"englishValue": "Your buying options",
+			"currentValue": "STEG 3: KÖPALTERNATIV",
+			"targetTranslation": "Dina köpalternativ"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_4_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "STEP 4: STORE YOUR BITCOIN SAFELY",
+			"englishValue": "Store your Bitcoin safely",
+			"currentValue": "STEG 4: FÖRVARA DIN BITCOIN SÄKERT",
+			"targetTranslation": "Förvara din Bitcoin säkert"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_intro_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "HOW TO PRINT & POST THESE BITCOIN FLYERS",
+			"englishValue": "How to print and post these Bitcoin flyers",
+			"currentValue": "HUR MAN SKRIVER UT OCH SÄTTER UPP DESSA BITCOIN-FLYGBLAD",
+			"targetTranslation": "Hur du skriver ut och sätter upp dessa Bitcoin-flygblad"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_and_help_spread_bitcoin",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Get involved and help spread Bitcoin",
+			"englishValue": "Get involved and spread Bitcoin",
+			"currentValue": "Engagera dig och hjälp till att sprida Bitcoin",
+			"targetTranslation": "Engagera dig och sprid Bitcoin"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_business_content_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Want to help build the Bitcoin circular economy? Our Bitcoin Business Kit makes it easy to approach a business about accepting Bitcoin payments.",
+			"englishValue": "Want to help build the Bitcoin circular economy? The easiest way is to help local businesses start accepting Bitcoin payments.",
+			"currentValue": "Vill du hjälpa till att bygga en cirkulär Bitcoin-ekonomi? Vårt Bitcoin-företagspaket gör det enkelt att kontakta ett företag om att acceptera Bitcoin-betalningar.",
+			"targetTranslation": "Vill du hjälpa till att bygga den cirkulära Bitcoin-ekonomin? Det enklaste sättet är att hjälpa lokala företag att börja ta emot Bitcoin-betalningar."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_business_content_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Each business kit includes flyers that highlight the pros of accepting Bitcoin payments. Each flyer links to a variety of",
+			"englishValue": "Know a business that might be open to it? Send the owner to our",
+			"currentValue": "Varje företagspaket innehåller flygblad som framhäver fördelarna med att acceptera Bitcoin-betalningar. Varje flygblad länkar till olika",
+			"targetTranslation": "Känner du till ett företag som kan vara öppet för det? Skicka ägaren till vår"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_business_content_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "free Bitcoin business resources.",
+			"englishValue": "Bitcoin business page.",
+			"currentValue": "gratis Bitcoin-företagsresurser.",
+			"targetTranslation": "sida om Bitcoin för företag."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_description",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Our free resources make it easier to spread Bitcoin adoption.",
+			"englishValue": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, 'Bitcoin Accepted Here' stickers for businesses, and an open-source codebase anyone can contribute to.",
+			"currentValue": "Våra gratis resurser gör det enkelt att sprida Bitcoinanvändningen.",
+			"targetTranslation": "Våra kostnadsfria resurser gör det lättare att sprida Bitcoin-adoption. Klistermärken, flygblad, ”Bitcoin accepteras här”-klistermärken för företag och en kodbas med öppen källkod som vem som helst kan bidra till."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "GET INVOLVED",
+			"englishValue": "Get involved and spread Bitcoin.",
+			"currentValue": "ENGAGERA DIG",
+			"targetTranslation": "Engagera dig och sprid Bitcoin."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_intro_5",
+			"reason": "manifest-changed",
+			"englishValueBefore": "But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+			"englishValue": "You can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+			"currentValue": "Men du kan ändra på det. Vi har skapat flera gratis resurser som gör det enkelt att sprida hoppet som Bitcoin ger till människorna omkring dig.",
+			"targetTranslation": "Du kan hjälpa till att förändra det. Vi har skapat flera kostnadsfria resurser för att göra det enklare att sprida hoppet som Bitcoin ger till människorna runt omkring dig."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Check out our Hardware Wallet Guide for more info.",
+			"englishValue": "Check out our",
+			"currentValue": "Kolla in vår guide till hårdvaruplånböcker för mer information.",
+			"targetTranslation": "Kolla in vår"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_page_description",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting. Get started with a free client in minutes.",
+			"englishValue": "Nostr is a new decentralized protocol for online communication — no single company controls it, Bitcoin zaps are built in natively, and you can move between clients without losing followers.",
+			"currentValue": null,
+			"targetTranslation": "Nostr är ett nytt decentraliserat protokoll för online-kommunikation — inget enskilt företag kontrollerar det, Bitcoin-zaps är inbyggda från grunden, och du kan flytta mellan klienter utan att förlora dina följare."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_flyers_link_before",
+			"reason": "manifest-changed",
+			"englishValueBefore": "While you're at it, print & post your own ",
+			"englishValue": "While you're at it, print and post your own",
+			"currentValue": "Under tiden, skriv ut och sätt upp dina egna ",
+			"targetTranslation": "När du ändå håller på, skriv ut och sätt upp dina egna"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_instructions_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.",
+			"englishValue": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail. Your stickers will ship in a plain white envelope.",
+			"currentValue": "Ange din postadress så skickar vi ett gratis paket Bitcoin-klistermärken till dig! Dina klistermärken skickas i ett vanligt vitt kuvert.",
+			"targetTranslation": "Fyll i din postadress så skickar vi ett gratis paket med Bitcoin-klistermärken till dig. Klistermärkena skickas i ett enkelt vitt kuvert."
+		},
+		{
+			"namespace": "404",
+			"key": "404_not_found_short",
+			"reason": "manifest-added",
+			"englishValue": "Not Found",
+			"currentValue": null,
+			"targetTranslation": "Hittades inte"
+		},
+		{
+			"namespace": "about",
+			"key": "about_business_blurb",
+			"reason": "manifest-added",
+			"englishValue": "We provide free business resources that make it easy to onboard local merchants to accept Bitcoin. Our Bitcoin business page covers why Bitcoin is good for business, how to choose a wallet and point-of-sale, and offers free 'Bitcoin Accepted Here' stickers.",
+			"currentValue": null,
+			"targetTranslation": "Vi tillhandahåller kostnadsfria företagsresurser som gör det enkelt för lokala handlare att börja ta emot Bitcoin. Vår sida om Bitcoin för företag förklarar varför Bitcoin är bra för affärerna, hur du väljer plånbok och kassasystem, och erbjuder gratis ”Bitcoin accepteras här”-klistermärken."
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_label",
+			"reason": "manifest-added",
+			"englishValue": "Business resources",
+			"currentValue": null,
+			"targetTranslation": "Företagsresurser"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_business_title",
+			"reason": "manifest-added",
+			"englishValue": "Everything a business needs to start accepting Bitcoin payments",
+			"currentValue": null,
+			"targetTranslation": "Allt ett företag behöver för att börja ta emot Bitcoin-betalningar"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contact_github_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: GitHub →",
+			"currentValue": null,
+			"targetTranslation": "Källa: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_label",
+			"reason": "manifest-added",
+			"englishValue": "Contribute",
+			"currentValue": null,
+			"targetTranslation": "Bidra"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: GitHub →",
+			"currentValue": null,
+			"targetTranslation": "Källa: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_contribute_title",
+			"reason": "manifest-added",
+			"englishValue": "Learn how to contribute to bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur du bidrar till bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_email_label",
+			"reason": "manifest-added",
+			"englishValue": "Email",
+			"currentValue": null,
+			"targetTranslation": "E-post"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_email_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: email →",
+			"currentValue": null,
+			"targetTranslation": "Källa: e-post →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_label",
+			"reason": "manifest-added",
+			"englishValue": "Printable flyers",
+			"currentValue": null,
+			"targetTranslation": "Utskrivbara flygblad"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_flyers_title",
+			"reason": "manifest-added",
+			"englishValue": "Download and print Bitcoin flyers for your community",
+			"currentValue": null,
+			"targetTranslation": "Ladda ner och skriv ut Bitcoin-flygblad för din community"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_label",
+			"reason": "manifest-added",
+			"englishValue": "Repository",
+			"currentValue": null,
+			"targetTranslation": "Repository"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: GitHub →",
+			"currentValue": null,
+			"targetTranslation": "Källa: GitHub →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_github_title",
+			"reason": "manifest-added",
+			"englishValue": "View bitcoin.rocks on GitHub",
+			"currentValue": null,
+			"targetTranslation": "Se bitcoin.rocks på GitHub"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_nostr_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: Nostr →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Nostr →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_label",
+			"reason": "manifest-added",
+			"englishValue": "Free stickers",
+			"currentValue": null,
+			"targetTranslation": "Gratis klistermärken"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "about",
+			"key": "about_card_stickers_title",
+			"reason": "manifest-added",
+			"englishValue": "Get free Bitcoin stickers mailed to your door",
+			"currentValue": null,
+			"targetTranslation": "Få gratis Bitcoin-klistermärken hemskickade till din dörr"
+		},
+		{
+			"namespace": "about",
+			"key": "about_flyers_blurb",
+			"reason": "manifest-added",
+			"englishValue": "We design printable flyers you can hand out at meetups, post on community boards, or drop in letterboxes — a simple way to spark curiosity and send people to bitcoin.rocks to learn more.",
+			"currentValue": null,
+			"targetTranslation": "Vi designar utskrivbara flygblad som du kan dela ut på meetups, sätta upp på anslagstavlor i din community eller släppa i brevlådor — ett enkelt sätt att väcka nyfikenhet och leda människor till bitcoin.rocks för att lära sig mer."
+		},
+		{
+			"namespace": "about",
+			"key": "about_mission_1a",
+			"reason": "manifest-added",
+			"englishValue": "bitcoin.rocks was founded by",
+			"currentValue": null,
+			"targetTranslation": "bitcoin.rocks grundades av"
+		},
+		{
+			"namespace": "about",
+			"key": "about_mission_1b",
+			"reason": "manifest-added",
+			"englishValue": "in 2022 with a simple mission: accelerate Bitcoin adoption through education.",
+			"currentValue": null,
+			"targetTranslation": "år 2022 med ett enkelt uppdrag: att accelerera Bitcoin-adoption genom utbildning."
+		},
+		{
+			"namespace": "about",
+			"key": "about_stickers_blurb",
+			"reason": "manifest-added",
+			"englishValue": "We mail free Bitcoin stickers to your door so you can help spread Bitcoin awareness in your community. Hundreds of people scan the QR codes on these stickers each month to learn about Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Vi skickar gratis Bitcoin-klistermärken hem till dig så att du kan hjälpa till att sprida medvetenhet om Bitcoin i din community. Hundratals människor skannar QR-koderna på dessa klistermärken varje månad för att lära sig om Bitcoin."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_heading",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin doesn't have bank runs",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inga bankrusningar"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin is a full-reserve system. You're not depositing your money in a bank. You are your own bank. There's no lending out your money without your knowledge because you are the only one who can access your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är ett system med full reservtäckning. Du sätter inte in dina pengar på en bank. Du är din egen bank. Det finns ingen som lånar ut dina pengar utan din vetskap, eftersom du är den enda som har tillgång till dina pengar."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p2",
+			"reason": "manifest-added",
+			"englishValue": "As long as you hold bitcoin in your own wallet — not on an exchange or wrapped in an ETF — bank runs are impossible.",
+			"currentValue": null,
+			"targetTranslation": "Så länge du förvarar bitcoin i din egen plånbok — inte på en växlingsplattform eller paketerad i en ETF — är bankrusningar omöjliga."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_bitcoin_p3",
+			"reason": "manifest-added",
+			"englishValue": "With Bitcoin, you're truly in control of your money.",
+			"currentValue": null,
+			"targetTranslation": "Med Bitcoin har du verkligen kontroll över dina pengar."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_detail",
+			"reason": "manifest-added",
+			"englishValue": "Since March 26, 2020, U.S. banks are required to hold 0% in reserves.",
+			"currentValue": null,
+			"targetTranslation": "Sedan den 26 mars 2020 är amerikanska banker inte skyldiga att hålla några reserver alls."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_label",
+			"reason": "manifest-added",
+			"englishValue": "Bank reserve ratio",
+			"currentValue": null,
+			"targetTranslation": "Bankernas reservkrav"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_bank_reserve_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: Federal Reserve →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Federal Reserve →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_detail",
+			"reason": "manifest-added",
+			"englishValue": "Full-reserve system — no deposit insurance needed.",
+			"currentValue": null,
+			"targetTranslation": "System med full reservtäckning — ingen insättningsgaranti behövs."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_label",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin coverage",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-täckning"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_fdic_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: Bitcoin whitepaper →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Bitcoin whitepaper →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_detail",
+			"reason": "manifest-added",
+			"englishValue": "Every bitcoin exists on-chain — nothing is lent out.",
+			"currentValue": null,
+			"targetTranslation": "Varje bitcoin finns på blockkedjan — ingenting lånas ut."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_label",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin reserve ratio",
+			"currentValue": null,
+			"targetTranslation": "Bitcoins reservtäckning"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_btc_reserve_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: Bitcoin whitepaper →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Bitcoin whitepaper →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_detail",
+			"reason": "manifest-added",
+			"englishValue": "$153.9B insurance fund vs $10.82T in insured deposits (Dec 2025).",
+			"currentValue": null,
+			"targetTranslation": "153,9 miljarder USD i försäkringsfond mot 10,82 biljoner USD i försäkrade insättningar (dec 2025)."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_label",
+			"reason": "manifest-added",
+			"englishValue": "FDIC coverage",
+			"currentValue": null,
+			"targetTranslation": "FDIC-täckning"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_fdic_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: FDIC Statistics at a Glance →",
+			"currentValue": null,
+			"targetTranslation": "Källa: FDIC Statistics at a Glance →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_label",
+			"reason": "manifest-added",
+			"englishValue": "Case study",
+			"currentValue": null,
+			"targetTranslation": "Fallstudie"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: University of Washington School of Law →",
+			"currentValue": null,
+			"targetTranslation": "Källa: University of Washington School of Law →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_svb_title",
+			"reason": "manifest-added",
+			"englishValue": "Learn how the Silicon Valley Bank run happened",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur bankrusningen mot Silicon Valley Bank gick till"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_label",
+			"reason": "manifest-added",
+			"englishValue": "Next step",
+			"currentValue": null,
+			"targetTranslation": "Nästa steg"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_source",
+			"reason": "manifest-added",
+			"englishValue": "Start here →",
+			"currentValue": null,
+			"targetTranslation": "Börja här →"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_card_wallet_title",
+			"reason": "manifest-added",
+			"englishValue": "Learn how to get your own Bitcoin wallet",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur du skaffar din egen Bitcoin-plånbok"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_heading",
+			"reason": "manifest-added",
+			"englishValue": "FDIC insurance covers about 1% of deposits",
+			"currentValue": null,
+			"targetTranslation": "FDIC-försäkringen täcker omkring 1 % av insättningarna"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p1",
+			"reason": "manifest-added",
+			"englishValue": "FDIC insurance protects deposits up to $250,000 per depositor. But the insurance fund is tiny compared to the total deposits it's supposed to protect.",
+			"currentValue": null,
+			"targetTranslation": "FDIC-försäkringen skyddar insättningar upp till 250 000 USD per insättare. Men försäkringsfonden är liten i jämförelse med de totala insättningar som den ska skydda."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p2_a",
+			"reason": "manifest-added",
+			"englishValue": "In a large-scale bank failure, the government would likely print money to cover the gap — resulting in more",
+			"currentValue": null,
+			"targetTranslation": "Vid en storskalig bankkollaps skulle staten sannolikt trycka pengar för att täcka skillnaden — vilket leder till mer"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_fdic_p2_link",
+			"reason": "manifest-added",
+			"englishValue": "inflation.",
+			"currentValue": null,
+			"targetTranslation": "inflation."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_page_description",
+			"reason": "manifest-added",
+			"englishValue": "Banks lend out your deposits under fractional reserve banking. If too many people withdraw at once, banks can fail. Bitcoin is a full-reserve system — bank runs are impossible.",
+			"currentValue": null,
+			"targetTranslation": "Bankerna lånar ut dina insättningar genom fraktionell reservbankverksamhet. Om för många människor tar ut pengar samtidigt kan banker kollapsa. Bitcoin är ett system med full reservtäckning — bankrusningar är omöjliga."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_heading",
+			"reason": "manifest-added",
+			"englishValue": "Silicon Valley Bank: a real example",
+			"currentValue": null,
+			"targetTranslation": "Silicon Valley Bank: ett verkligt exempel"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_a",
+			"reason": "manifest-added",
+			"englishValue": "In March 2023, Silicon Valley Bank failed after investing customer deposits in long-term",
+			"currentValue": null,
+			"targetTranslation": "I mars 2023 kollapsade Silicon Valley Bank efter att ha investerat kundernas insättningar i långa"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_b",
+			"reason": "manifest-added",
+			"englishValue": "When those bonds lost value, SVB couldn't cover withdrawals. The bank was insolvent.",
+			"currentValue": null,
+			"targetTranslation": "När dessa obligationer förlorade i värde kunde SVB inte täcka uttagen. Banken var insolvent."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p1_link",
+			"reason": "manifest-added",
+			"englishValue": "government bonds.",
+			"currentValue": null,
+			"targetTranslation": "statsobligationer."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_svb_p2",
+			"reason": "manifest-added",
+			"englishValue": "Thousands of businesses couldn't pay their employees. The FDIC stepped in — but that raised a bigger question: is your money actually safe?",
+			"currentValue": null,
+			"targetTranslation": "Tusentals företag kunde inte betala ut löner till sina anställda. FDIC ingrep — men det väckte en större fråga: är dina pengar verkligen säkra?"
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_what_p1",
+			"reason": "manifest-added",
+			"englishValue": "Banks don't hold your deposits in a vault. They lend your money out and invest it — that's called fractional reserve banking.",
+			"currentValue": null,
+			"targetTranslation": "Banker förvarar inte dina insättningar i ett valv. De lånar ut dina pengar och investerar dem — det kallas fraktionell reservbankverksamhet."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_what_p2",
+			"reason": "manifest-added",
+			"englishValue": "If too many people try to withdraw at the same time, the bank doesn't have enough cash to pay everyone. That's a bank run — and it can cause banks to collapse entirely.",
+			"currentValue": null,
+			"targetTranslation": "Om för många människor försöker ta ut pengar samtidigt har banken inte tillräckligt med kontanter för att betala alla. Det är en bankrusning — och den kan få banker att kollapsa helt."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_header_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "A simple, step-by-step guide to buying your first Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "En enkel steg-för-steg-guide för att köpa din första Bitcoin."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_howto_name",
+			"reason": "manifest-added",
+			"englishValue": "How to buy Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Hur du köper Bitcoin"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_meta_description",
+			"reason": "manifest-added",
+			"englishValue": "Learn how to buy Bitcoin safely with our step-by-step guide. Choose your country and payment method to find the best Bitcoin buying options for you.",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur du köper Bitcoin tryggt med vår steg-för-steg-guide. Välj ditt land och betalningsmetod för att hitta de bästa alternativen för att köpa Bitcoin."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_1_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "Step 1",
+			"currentValue": null,
+			"targetTranslation": "Steg 1"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_2_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "Step 2",
+			"currentValue": null,
+			"targetTranslation": "Steg 2"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_3_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "Step 3",
+			"currentValue": null,
+			"targetTranslation": "Steg 3"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_4_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "Step 4",
+			"currentValue": null,
+			"targetTranslation": "Steg 4"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_storage_cta_label",
+			"reason": "manifest-added",
+			"englishValue": "Next step",
+			"currentValue": null,
+			"targetTranslation": "Nästa steg"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_bisq",
+			"reason": "manifest-added",
+			"englishValue": "Bisq — Decentralized peer-to-peer Bitcoin exchange",
+			"currentValue": null,
+			"targetTranslation": "Bisq — Decentraliserad peer-to-peer-växlingsplattform för Bitcoin"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_coinatmradar",
+			"reason": "manifest-added",
+			"englishValue": "Coin ATM Radar — Worldwide Bitcoin ATM directory",
+			"currentValue": null,
+			"targetTranslation": "Coin ATM Radar — Världsomfattande katalog över Bitcoin-bankomater"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_kraken",
+			"reason": "manifest-added",
+			"englishValue": "Kraken — Established Bitcoin exchange",
+			"currentValue": null,
+			"targetTranslation": "Kraken — Etablerad Bitcoin-växlingsplattform"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_relai",
+			"reason": "manifest-added",
+			"englishValue": "Relai — Swiss Bitcoin-only self-custody app",
+			"currentValue": null,
+			"targetTranslation": "Relai — Schweizisk Bitcoin-only-app för självförvaring"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_river",
+			"reason": "manifest-added",
+			"englishValue": "River — Bitcoin-only buying, mining, and custody",
+			"currentValue": null,
+			"targetTranslation": "River — Bitcoin-only för köp, mining och förvaring"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_strike_lightning",
+			"reason": "manifest-added",
+			"englishValue": "Strike — Buy Bitcoin with Lightning Network support",
+			"currentValue": null,
+			"targetTranslation": "Strike — Köp Bitcoin med stöd för Lightning"
+		},
+		{
+			"namespace": "buy",
+			"key": "sources_swan",
+			"reason": "manifest-added",
+			"englishValue": "Swan Bitcoin — Bitcoin-only dollar-cost averaging",
+			"currentValue": null,
+			"targetTranslation": "Swan Bitcoin — Bitcoin-only med dollar-cost averaging"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_calculator_heading",
+			"reason": "manifest-added",
+			"englishValue": "Calculate your inflation gap",
+			"currentValue": null,
+			"targetTranslation": "Räkna ut ditt inflationsgap"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_cta_label",
+			"reason": "manifest-added",
+			"englishValue": "Next step",
+			"currentValue": null,
+			"targetTranslation": "Nästa steg"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "See how much your salary needs to increase to keep up with inflation.",
+			"currentValue": null,
+			"targetTranslation": "Se hur mycket din lön behöver öka för att hålla jämna steg med inflationen."
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_explore_topics",
+			"reason": "manifest-added",
+			"englishValue": "Explore more topics",
+			"currentValue": null,
+			"targetTranslation": "Utforska fler ämnen"
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_explore_topics_desc",
+			"reason": "manifest-added",
+			"englishValue": "See how Bitcoin connects to money, freedom, energy, and more.",
+			"currentValue": null,
+			"targetTranslation": "Se hur Bitcoin hänger ihop med pengar, frihet, energi och mycket mer."
+		},
+		{
+			"namespace": "compound-inflation-calculator",
+			"key": "cic_next_learn_inflation",
+			"reason": "manifest-added",
+			"englishValue": "Learn how inflation works",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur inflation fungerar"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Free, printable Bitcoin flyers. Put them up in public to help more people learn about Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Gratis, utskrivbara Bitcoin-flygblad. Sätt upp dem på offentliga platser för att hjälpa fler människor att lära sig om Bitcoin."
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Print and post Bitcoin flyers",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut och sätt upp Bitcoin-flygblad"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_next_get_stickers",
+			"reason": "manifest-added",
+			"englishValue": "Spread the word",
+			"currentValue": null,
+			"targetTranslation": "Sprid budskapet"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_next_get_stickers_desc",
+			"reason": "manifest-added",
+			"englishValue": "Order a free pack of Bitcoin stickers",
+			"currentValue": null,
+			"targetTranslation": "Beställ ett gratis paket med Bitcoin-klistermärken"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_biz_stickers_note",
+			"reason": "manifest-added",
+			"englishValue": "Already accepting Bitcoin? Let customers know with our free 'Bitcoin Accepted Here' stickers. We'll ship a pack to any address in the USA or Canada, or you can print your own anywhere in the world.",
+			"currentValue": null,
+			"targetTranslation": "Tar du redan emot Bitcoin? Låt kunderna veta det med våra gratis ”Bitcoin accepteras här”-klistermärken. Vi skickar ett paket till valfri adress i USA eller Kanada, eller så kan du skriva ut dina egna var som helst i världen."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_label",
+			"reason": "manifest-added",
+			"englishValue": "Accepted here stickers",
+			"currentValue": null,
+			"targetTranslation": "”Accepteras här”-klistermärken"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_biz_stickers_title",
+			"reason": "manifest-added",
+			"englishValue": "Free 'Bitcoin Accepted Here' stickers for your business",
+			"currentValue": null,
+			"targetTranslation": "Gratis ”Bitcoin accepteras här”-klistermärken till ditt företag"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_label",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin for business",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin för företag"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_business_title",
+			"reason": "manifest-added",
+			"englishValue": "Everything a business needs to start accepting Bitcoin payments",
+			"currentValue": null,
+			"targetTranslation": "Allt ett företag behöver för att börja ta emot Bitcoin-betalningar"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_label",
+			"reason": "manifest-added",
+			"englishValue": "Printable flyers",
+			"currentValue": null,
+			"targetTranslation": "Utskrivbara flygblad"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_flyers_title",
+			"reason": "manifest-added",
+			"englishValue": "Download and print a free Bitcoin flyer",
+			"currentValue": null,
+			"targetTranslation": "Ladda ner och skriv ut ett gratis Bitcoin-flygblad"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_label",
+			"reason": "manifest-added",
+			"englishValue": "Open source",
+			"currentValue": null,
+			"targetTranslation": "Öppen källkod"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: GitHub →",
+			"currentValue": null,
+			"targetTranslation": "Källa: GitHub →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_github_title",
+			"reason": "manifest-added",
+			"englishValue": "Contribute to bitcoin.rocks on GitHub",
+			"currentValue": null,
+			"targetTranslation": "Bidra till bitcoin.rocks på GitHub"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_label",
+			"reason": "manifest-added",
+			"englishValue": "Free stickers",
+			"currentValue": null,
+			"targetTranslation": "Gratis klistermärken"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_source",
+			"reason": "manifest-added",
+			"englishValue": "Source: bitcoin.rocks →",
+			"currentValue": null,
+			"targetTranslation": "Källa: bitcoin.rocks →"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_card_stickers_title",
+			"reason": "manifest-added",
+			"englishValue": "Request a free Bitcoin sticker pack mailed to your door",
+			"currentValue": null,
+			"targetTranslation": "Beställ ett gratis paket Bitcoin-klistermärken hem till din dörr"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_1",
+			"reason": "manifest-added",
+			"englishValue": "Flyers are one of the easiest ways to introduce Bitcoin to your community. Download a free printable Bitcoin flyer, print as many copies as you'd like, and post them on community boards, in coffee shops, at meetups, or anywhere else people gather.",
+			"currentValue": null,
+			"targetTranslation": "Flygblad är ett av de enklaste sätten att introducera Bitcoin för din community. Ladda ner ett gratis utskrivbart Bitcoin-flygblad, skriv ut så många kopior du vill och sätt upp dem på anslagstavlor, på kaféer, på meetups eller där andra människor samlas."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_2",
+			"reason": "manifest-added",
+			"englishValue": "Each flyer includes a compelling headline and a QR code that sends curious readers to bitcoin.rocks to learn more.",
+			"currentValue": null,
+			"targetTranslation": "Varje flygblad innehåller en slagkraftig rubrik och en QR-kod som leder nyfikna läsare till bitcoin.rocks för att lära sig mer."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_content_3",
+			"reason": "manifest-added",
+			"englishValue": "Unlike stickers, flyers can be printed on demand from anywhere in the world — all you need is a printer and a few minutes.",
+			"currentValue": null,
+			"targetTranslation": "Till skillnad från klistermärken kan flygblad skrivas ut på begäran var som helst i världen — allt du behöver är en skrivare och några minuter."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_header",
+			"reason": "manifest-added",
+			"englishValue": "Print and post a flyer",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut och sätt upp ett flygblad"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_flyers_image_alt",
+			"reason": "manifest-added",
+			"englishValue": "Preview of the free printable Bitcoin flyer from bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "Förhandsvisning av det gratis utskrivbara Bitcoin-flygbladet från bitcoin.rocks"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_1",
+			"reason": "manifest-added",
+			"englishValue": "bitcoin.rocks is a free, open-source project licensed under the MIT License. Our mission is to accelerate Bitcoin adoption through education — and we can't do it alone.",
+			"currentValue": null,
+			"targetTranslation": "bitcoin.rocks är ett kostnadsfritt projekt med öppen källkod under MIT-licens. Vårt uppdrag är att accelerera Bitcoin-adoption genom utbildning — och det klarar vi inte ensamma."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_2",
+			"reason": "manifest-added",
+			"englishValue": "Whether you're a developer, designer, writer, or translator, there's a way for you to help. We especially welcome contributors who can translate our content into more languages so more people around the world can learn about Bitcoin in their native tongue.",
+			"currentValue": null,
+			"targetTranslation": "Oavsett om du är utvecklare, designer, skribent eller översättare finns det ett sätt för dig att hjälpa till. Vi välkomnar särskilt bidragsgivare som kan översätta vårt innehåll till fler språk så att fler människor runt om i världen kan lära sig om Bitcoin på sitt modersmål."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_content_3",
+			"reason": "manifest-added",
+			"englishValue": "Fork the repository, open a pull request, file an issue, or just star the project to show your support. Every contribution helps Bitcoin reach more people.",
+			"currentValue": null,
+			"targetTranslation": "Forka repositoryt, öppna en pull request, skapa ett issue eller stjärnmärk projektet för att visa ditt stöd. Varje bidrag hjälper Bitcoin att nå fler människor."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_github_header",
+			"reason": "manifest-added",
+			"englishValue": "Contribute on GitHub",
+			"currentValue": null,
+			"targetTranslation": "Bidra på GitHub"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_sticker_image_alt",
+			"reason": "manifest-added",
+			"englishValue": "Free Bitcoin text sticker pack from bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "Gratis Bitcoin-textklistermärkespaket från bitcoin.rocks"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_grid_heading",
+			"reason": "manifest-added",
+			"englishValue": "Popular Lightning wallets",
+			"currentValue": null,
+			"targetTranslation": "Populära Lightning-plånböcker"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_hardware_cta_label",
+			"reason": "manifest-added",
+			"englishValue": "Hardware wallets",
+			"currentValue": null,
+			"targetTranslation": "Hårdvaruplånböcker"
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_header_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Lightning lets you send Bitcoin in seconds for a fraction of a cent — pick the wallet whose trade-offs match how much Bitcoin you plan to spend.",
+			"currentValue": null,
+			"targetTranslation": "Lightning låter dig skicka Bitcoin på några sekunder för en bråkdel av ett öre — välj den plånbok vars avvägningar passar hur mycket Bitcoin du planerar att spendera."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4_end",
+			"reason": "manifest-added",
+			"englishValue": "for more info.",
+			"currentValue": null,
+			"targetTranslation": "för mer information."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4_link",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin Hardware Wallet Guide",
+			"currentValue": null,
+			"targetTranslation": "guide till Bitcoin-hårdvaruplånböcker"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_acinq_phoenix",
+			"reason": "manifest-added",
+			"englishValue": "ACINQ — Phoenix Lightning wallet",
+			"currentValue": null,
+			"targetTranslation": "ACINQ — Phoenix Lightning-plånbok"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_breez_lightning",
+			"reason": "manifest-added",
+			"englishValue": "Breez — Self-custodial Lightning wallet",
+			"currentValue": null,
+			"targetTranslation": "Breez — Lightning-plånbok med självförvaring"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_lightning_labs",
+			"reason": "manifest-added",
+			"englishValue": "Lightning Labs — Lightning Network documentation",
+			"currentValue": null,
+			"targetTranslation": "Lightning Labs — Dokumentation om Lightning Network"
+		},
+		{
+			"namespace": "lightning",
+			"key": "sources_wallet_of_satoshi",
+			"reason": "manifest-added",
+			"englishValue": "Wallet of Satoshi — Custodial Lightning wallet",
+			"currentValue": null,
+			"targetTranslation": "Wallet of Satoshi — Förvarad Lightning-plånbok"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f1",
+			"reason": "manifest-added",
+			"englishValue": "Lots of features and customization",
+			"currentValue": null,
+			"targetTranslation": "Många funktioner och anpassningsmöjligheter"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f2",
+			"reason": "manifest-added",
+			"englishValue": "Requires a separate Bitcoin wallet",
+			"currentValue": null,
+			"targetTranslation": "Kräver en separat Bitcoin-plånbok"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_amethyst_f3",
+			"reason": "manifest-added",
+			"englishValue": "100% free",
+			"currentValue": null,
+			"targetTranslation": "100 % gratis"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f1",
+			"reason": "manifest-added",
+			"englishValue": "Familiar Twitter-like interface",
+			"currentValue": null,
+			"targetTranslation": "Bekant Twitter-liknande gränssnitt"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f2",
+			"reason": "manifest-added",
+			"englishValue": "Requires a separate Bitcoin wallet",
+			"currentValue": null,
+			"targetTranslation": "Kräver en separat Bitcoin-plånbok"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_damus_f3",
+			"reason": "manifest-added",
+			"englishValue": "100% free",
+			"currentValue": null,
+			"targetTranslation": "100 % gratis"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_download_heading",
+			"reason": "manifest-added",
+			"englishValue": "Download a free Nostr client",
+			"currentValue": null,
+			"targetTranslation": "Ladda ner en gratis Nostr-klient"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_download_intro",
+			"reason": "manifest-added",
+			"englishValue": "Nostr clients are free apps that let you read and post on the Nostr network. All of them are interoperable — you can switch clients anytime and keep your followers and content.",
+			"currentValue": null,
+			"targetTranslation": "Nostr-klienter är gratis appar där du kan läsa och publicera på Nostr-nätverket. Alla är interoperabla — du kan byta klient när som helst och behålla dina följare och ditt innehåll."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Nostr is a new decentralized protocol for communicating online — no single company controls it, Bitcoin zaps are built in, and you can move between apps without losing your followers.",
+			"currentValue": null,
+			"targetTranslation": "Nostr är ett nytt decentraliserat protokoll för att kommunicera online — inget enskilt företag kontrollerar det, Bitcoin-zaps är inbyggda, och du kan flytta mellan appar utan att förlora dina följare."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "What is Nostr?",
+			"currentValue": null,
+			"targetTranslation": "Vad är Nostr?"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Nostr is similar to email: no one owns the protocol, anyone can build an app on top of it, and you can pick whichever app you like best. Unlike Twitter or Facebook, there's no central company that can censor, deplatform, or deboost you.",
+			"currentValue": null,
+			"targetTranslation": "Nostr liknar e-post: ingen äger protokollet, vem som helst kan bygga en app ovanpå det och du kan välja den app du gillar bäst. Till skillnad från Twitter eller Facebook finns det inget centralt företag som kan censurera, plattformsbanna eller nedprioritera dig."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "Below is the short version of why Nostr matters — then every free Nostr client you need to get started today.",
+			"currentValue": null,
+			"targetTranslation": "Nedan följer den korta versionen av varför Nostr spelar roll — och sedan varje gratis Nostr-klient du behöver för att komma igång idag."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f1",
+			"reason": "manifest-added",
+			"englishValue": "Super simple — no install required",
+			"currentValue": null,
+			"targetTranslation": "Superenkel — ingen installation krävs"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f2",
+			"reason": "manifest-added",
+			"englishValue": "Easy way to try Nostr with a test account",
+			"currentValue": null,
+			"targetTranslation": "Enkelt sätt att prova Nostr med ett testkonto"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_iris_f3",
+			"reason": "manifest-added",
+			"englishValue": "100% free",
+			"currentValue": null,
+			"targetTranslation": "100 % gratis"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_learn_more_label",
+			"reason": "manifest-added",
+			"englishValue": "GO DEEPER",
+			"currentValue": null,
+			"targetTranslation": "GÅ DJUPARE"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_learn_more_title",
+			"reason": "manifest-added",
+			"englishValue": "Learn more about Nostr on nostr.how",
+			"currentValue": null,
+			"targetTranslation": "Läs mer om Nostr på nostr.how"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f1",
+			"reason": "manifest-added",
+			"englishValue": "Recommended first client",
+			"currentValue": null,
+			"targetTranslation": "Rekommenderad första klient"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f2",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin zap wallet built in",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-zap-plånbok inbyggd"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_primal_f3",
+			"reason": "manifest-added",
+			"englishValue": "100% free",
+			"currentValue": null,
+			"targetTranslation": "100 % gratis"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1",
+			"reason": "manifest-added",
+			"englishValue": "Protocol, not platform",
+			"currentValue": null,
+			"targetTranslation": "Protokoll, inte plattform"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1_c1",
+			"reason": "manifest-added",
+			"englishValue": "Nostr is a new protocol that lets you communicate online without fear of censorship, deplatforming, or deboosting.",
+			"currentValue": null,
+			"targetTranslation": "Nostr är ett nytt protokoll som låter dig kommunicera online utan rädsla för censur, plattformsavstängning eller nedprioritering."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s1_c2",
+			"reason": "manifest-added",
+			"englishValue": "Platforms like Twitter and Facebook are controlled by a single company, but no one controls the Nostr protocol.",
+			"currentValue": null,
+			"targetTranslation": "Plattformar som Twitter och Facebook kontrolleras av ett enskilt företag, men ingen kontrollerar Nostr-protokollet."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2",
+			"reason": "manifest-added",
+			"englishValue": "Freedom to move",
+			"currentValue": null,
+			"targetTranslation": "Frihet att flytta"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c1",
+			"reason": "manifest-added",
+			"englishValue": "Nostr is similar to email. No one controls the email protocol, and anyone can build a client (like Gmail, Hotmail, etc.) on top of it.",
+			"currentValue": null,
+			"targetTranslation": "Nostr liknar e-post. Ingen kontrollerar e-postprotokollet, och vem som helst kan bygga en klient (som Gmail, Hotmail osv.) ovanpå det."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c2",
+			"reason": "manifest-added",
+			"englishValue": "No one controls the Nostr protocol either, and anyone can build a client (like Damus, Amethyst, etc.) on top of it.",
+			"currentValue": null,
+			"targetTranslation": "Ingen kontrollerar heller Nostr-protokollet, och vem som helst kan bygga en klient (som Damus, Amethyst osv.) ovanpå det."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s2_c3",
+			"reason": "manifest-added",
+			"englishValue": "If you don't like how a certain client works, you can seamlessly move your Nostr account to another client without losing your followers or content.",
+			"currentValue": null,
+			"targetTranslation": "Om du inte gillar hur en viss klient fungerar kan du sömlöst flytta ditt Nostr-konto till en annan klient utan att förlora dina följare eller ditt innehåll."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin is built in",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är inbyggt"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3_c1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin is built in natively to the Nostr protocol. If you see content you like, you can easily zap Bitcoin to someone as a thank you!",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är inbyggt från grunden i Nostr-protokollet. Om du ser innehåll du gillar kan du enkelt zappa Bitcoin till någon som ett tack!"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_s3_c2",
+			"reason": "manifest-added",
+			"englishValue": "On centralized platforms like Twitter and Facebook, the centralized company earns money from your content. But on open protocols like Nostr, you earn money from your content.",
+			"currentValue": null,
+			"targetTranslation": "På centraliserade plattformar som Twitter och Facebook tjänar det centraliserade företaget pengar på ditt innehåll. Men på öppna protokoll som Nostr tjänar du själv pengar på ditt innehåll."
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_damus",
+			"reason": "manifest-added",
+			"englishValue": "Damus — iPhone Nostr client",
+			"currentValue": null,
+			"targetTranslation": "Damus — Nostr-klient för iPhone"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_iris",
+			"reason": "manifest-added",
+			"englishValue": "Iris — Browser-based Nostr client",
+			"currentValue": null,
+			"targetTranslation": "Iris — Webbläsarbaserad Nostr-klient"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_nostr_how",
+			"reason": "manifest-added",
+			"englishValue": "nostr.how — What is Nostr?",
+			"currentValue": null,
+			"targetTranslation": "nostr.how — Vad är Nostr?"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_nostr_protocol",
+			"reason": "manifest-added",
+			"englishValue": "Nostr Protocol — Open-source specification",
+			"currentValue": null,
+			"targetTranslation": "Nostr Protocol — Specifikation med öppen källkod"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "sources_primal",
+			"reason": "manifest-added",
+			"englishValue": "Primal — Nostr client with a built-in Bitcoin zap wallet",
+			"currentValue": null,
+			"targetTranslation": "Primal — Nostr-klient med inbyggd Bitcoin-zap-plånbok"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "what_is_nostr",
+			"reason": "manifest-added",
+			"englishValue": "What is Nostr?",
+			"currentValue": null,
+			"targetTranslation": "Vad är Nostr?"
+		},
+		{
+			"namespace": "sticker-language-success",
+			"key": "sticker_language_success_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Request received 🎉",
+			"currentValue": null,
+			"targetTranslation": "Förfrågan mottagen 🎉"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_order_bulk",
+			"reason": "manifest-added",
+			"englishValue": "Order in bulk",
+			"currentValue": null,
+			"targetTranslation": "Beställ i större antal"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_share_on_nostr",
+			"reason": "manifest-added",
+			"englishValue": "Share on Nostr",
+			"currentValue": null,
+			"targetTranslation": "Dela på Nostr"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_btn_what_is_nostr",
+			"reason": "manifest-added",
+			"englishValue": "What is Nostr?",
+			"currentValue": null,
+			"targetTranslation": "Vad är Nostr?"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_bulk_header",
+			"reason": "manifest-added",
+			"englishValue": "Want more stickers?",
+			"currentValue": null,
+			"targetTranslation": "Vill du ha fler klistermärken?"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Your stickers are on their way 🎉",
+			"currentValue": null,
+			"targetTranslation": "Dina klistermärken är på väg 🎉"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_share_header",
+			"reason": "manifest-added",
+			"englishValue": "Share your sticker spots",
+			"currentValue": null,
+			"targetTranslation": "Dela platserna där du satt upp klistermärken"
+		},
+		{
+			"namespace": "sticker-success",
+			"key": "sticker_success_tips_header",
+			"reason": "manifest-added",
+			"englishValue": "Good sticker spots",
+			"currentValue": null,
+			"targetTranslation": "Bra platser för klistermärken"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_btn_choose_pack",
+			"reason": "manifest-added",
+			"englishValue": "Choose this pack",
+			"currentValue": null,
+			"targetTranslation": "Välj detta paket"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c1",
+			"reason": "manifest-added",
+			"englishValue": "Want more than a few stickers?",
+			"currentValue": null,
+			"targetTranslation": "Vill du ha fler än några få klistermärken?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c2",
+			"reason": "manifest-added",
+			"englishValue": "Order in bulk from the same printer we use",
+			"currentValue": null,
+			"targetTranslation": "Beställ i större antal från samma tryckeri som vi använder"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_c3",
+			"reason": "manifest-added",
+			"englishValue": "— the more you buy, the cheaper they are per sticker.",
+			"currentValue": null,
+			"targetTranslation": "— ju fler du köper, desto billigare blir de per klistermärke."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_cta",
+			"reason": "manifest-added",
+			"englishValue": "Shop stickers in bulk",
+			"currentValue": null,
+			"targetTranslation": "Handla klistermärken i större antal"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_bulk_header",
+			"reason": "manifest-added",
+			"englishValue": "Order stickers in bulk",
+			"currentValue": null,
+			"targetTranslation": "Beställ klistermärken i större antal"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Order a free pack of Bitcoin stickers and put them up in public to help more people learn about Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Beställ ett gratis paket med Bitcoin-klistermärken och sätt upp dem på offentliga platser för att hjälpa fler människor att lära sig om Bitcoin."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Free Bitcoin stickers",
+			"currentValue": null,
+			"targetTranslation": "Gratis Bitcoin-klistermärken"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Our mission is to help you orange pill more people by putting Bitcoin stickers in public. All of our stickers have QR codes that link to educational pages about",
+			"currentValue": null,
+			"targetTranslation": "Vårt uppdrag är att hjälpa dig orange-pilla fler människor genom att sätta upp Bitcoin-klistermärken på offentliga platser. Alla våra klistermärken har QR-koder som länkar till utbildningssidor om"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c3",
+			"reason": "manifest-added",
+			"englishValue": "inflation",
+			"currentValue": null,
+			"targetTranslation": "inflation"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_intro_c4",
+			"reason": "manifest-added",
+			"englishValue": "Pick a sticker pack below and choose how you'd like to get them — we'll mail a free pack to anyone in the USA or Canada, or you can print your own anywhere in the world.",
+			"currentValue": null,
+			"targetTranslation": "Välj ett klistermärkespaket nedan och välj hur du vill få dem — vi skickar ett gratis paket till vem som helst i USA eller Kanada, eller så kan du skriva ut dina egna var som helst i världen."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_mail_header",
+			"reason": "manifest-added",
+			"englishValue": "We'll mail your free stickers",
+			"currentValue": null,
+			"targetTranslation": "Vi skickar dina gratis klistermärken med posten"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_next_print_flyers",
+			"reason": "manifest-added",
+			"englishValue": "Keep spreading",
+			"currentValue": null,
+			"targetTranslation": "Fortsätt sprida budskapet"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_next_print_flyers_desc",
+			"reason": "manifest-added",
+			"englishValue": "Print free Bitcoin flyers to post in public",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut gratis Bitcoin-flygblad att sätta upp på offentliga platser"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_bulk",
+			"reason": "manifest-added",
+			"englishValue": "📦 Global — Order in bulk",
+			"currentValue": null,
+			"targetTranslation": "📦 Globalt — Beställ i större antal"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_canada",
+			"reason": "manifest-added",
+			"englishValue": "🇨🇦 Canada — Free by mail",
+			"currentValue": null,
+			"targetTranslation": "🇨🇦 Kanada — Gratis med posten"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_print",
+			"reason": "manifest-added",
+			"englishValue": "🌍 Global — Print my own",
+			"currentValue": null,
+			"targetTranslation": "🌍 Globalt — Skriv ut själv"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_option_usa",
+			"reason": "manifest-added",
+			"englishValue": "🇺🇸 USA — Free by mail",
+			"currentValue": null,
+			"targetTranslation": "🇺🇸 USA — Gratis med posten"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_c1",
+			"reason": "manifest-added",
+			"englishValue": "You can participate by printing your own stickers, no matter where you live. Click your language below to download the sticker files and printing instructions.",
+			"currentValue": null,
+			"targetTranslation": "Du kan delta genom att skriva ut dina egna klistermärken, oavsett var du bor. Klicka på ditt språk nedan för att ladda ner klistermärkesfilerna och utskriftsanvisningarna."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_c2",
+			"reason": "manifest-added",
+			"englishValue": "Not every sticker is available in every language.",
+			"currentValue": null,
+			"targetTranslation": "Alla klistermärken finns inte tillgängliga på alla språk."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_print_header",
+			"reason": "manifest-added",
+			"englishValue": "Print your own sticker files",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut dina egna klistermärkesfiler"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_request_c1",
+			"reason": "manifest-added",
+			"englishValue": "Fill out the form below to request sticker files in your local language. We'll let you know once they're ready.",
+			"currentValue": null,
+			"targetTranslation": "Fyll i formuläret nedan för att begära klistermärkesfiler på ditt lokala språk. Vi hör av oss när de är klara."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_request_header",
+			"reason": "manifest-added",
+			"englishValue": "Don't see your language?",
+			"currentValue": null,
+			"targetTranslation": "Saknar du ditt språk?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_share_c2",
+			"reason": "manifest-added",
+			"englishValue": "Follow us on Nostr by searching",
+			"currentValue": null,
+			"targetTranslation": "Följ oss på Nostr genom att söka efter"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_share_c3",
+			"reason": "manifest-added",
+			"englishValue": "in any Nostr client.",
+			"currentValue": null,
+			"targetTranslation": "i valfri Nostr-klient."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_signs_pack_description",
+			"reason": "manifest-added",
+			"englishValue": "Warning, danger, and caution-style signs with Bitcoin messages — designed to grab attention and make people stop and read.",
+			"currentValue": null,
+			"targetTranslation": "Skyltar i varnings-, fara- och uppmärksamhetsstil med Bitcoin-budskap — designade för att fånga blickar och få människor att stanna upp och läsa."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_description",
+			"reason": "manifest-added",
+			"englishValue": "Each pack has a different set of Bitcoin stickers with QR codes that teach people about Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Varje paket innehåller en egen uppsättning Bitcoin-klistermärken med QR-koder som lär människor om Bitcoin."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "STEP 1",
+			"currentValue": null,
+			"targetTranslation": "STEG 1"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_1_header",
+			"reason": "manifest-added",
+			"englishValue": "Choose your sticker pack",
+			"currentValue": null,
+			"targetTranslation": "Välj ditt klistermärkespaket"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_description",
+			"reason": "manifest-added",
+			"englishValue": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own or order in bulk.",
+			"currentValue": null,
+			"targetTranslation": "Vi skickar ett gratis paket till adresser i USA och Kanada. Var som helst annars i världen kan du skriva ut dina egna eller beställa i större antal."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_eyebrow",
+			"reason": "manifest-added",
+			"englishValue": "STEP 2",
+			"currentValue": null,
+			"targetTranslation": "STEG 2"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_step_2_header",
+			"reason": "manifest-added",
+			"englishValue": "How would you like to get your stickers?",
+			"currentValue": null,
+			"targetTranslation": "Hur vill du få dina klistermärken?"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_text_pack_description",
+			"reason": "manifest-added",
+			"englishValue": "A mix of Bitcoin slogans and one-liners designed to spark curiosity in public spaces.",
+			"currentValue": null,
+			"targetTranslation": "En blandning av Bitcoin-slogans och one-liners designade för att väcka nyfikenhet på offentliga platser."
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_blockstream_green",
+			"reason": "manifest-added",
+			"englishValue": "Blockstream Green — Self-custody Bitcoin wallet",
+			"currentValue": null,
+			"targetTranslation": "Blockstream Green — Bitcoin-plånbok med självförvaring"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_blockstream_jade",
+			"reason": "manifest-added",
+			"englishValue": "Blockstream Jade — Bitcoin hardware wallet",
+			"currentValue": null,
+			"targetTranslation": "Blockstream Jade — Bitcoin-hårdvaruplånbok"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_coldcard_mk5",
+			"reason": "manifest-added",
+			"englishValue": "Coinkite — Coldcard MK5 hardware wallet",
+			"currentValue": null,
+			"targetTranslation": "Coinkite — Coldcard MK5-hårdvaruplånbok"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_coldcard_q",
+			"reason": "manifest-added",
+			"englishValue": "Coinkite — Coldcard Q hardware wallet",
+			"currentValue": null,
+			"targetTranslation": "Coinkite — Coldcard Q-hårdvaruplånbok"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_passport",
+			"reason": "manifest-added",
+			"englishValue": "Foundation Devices — Passport hardware wallet",
+			"currentValue": null,
+			"targetTranslation": "Foundation Devices — Passport-hårdvaruplånbok"
+		},
+		{
+			"namespace": "wallets",
+			"key": "sources_seedsigner",
+			"reason": "manifest-added",
+			"englishValue": "SeedSigner — Open-source DIY Bitcoin signing device",
+			"currentValue": null,
+			"targetTranslation": "SeedSigner — DIY-signeringsenhet för Bitcoin med öppen källkod"
+		},
+		{
+			"namespace": "wallets",
+			"key": "wallets_grid_heading",
+			"reason": "manifest-added",
+			"englishValue": "Popular Bitcoin wallets",
+			"currentValue": null,
+			"targetTranslation": "Populära Bitcoin-plånböcker"
+		},
+		{
+			"namespace": "wallets",
+			"key": "wallets_header_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "A step-by-step guide to picking a wallet, protecting your keys, and taking full control of your Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "En steg-för-steg-guide för att välja en plånbok, skydda dina nycklar och ta full kontroll över din Bitcoin."
+		}
+	],
+	"appliedAt": "2026-04-25T21:36:22.812Z",
+	"appliedStats": {
+		"resolved": 251,
+		"unresolved": 0,
+		"filesTouched": 13,
+		"keysWritten": 251,
+		"filesCreated": 0,
+		"markerWritten": true
+	}
+}

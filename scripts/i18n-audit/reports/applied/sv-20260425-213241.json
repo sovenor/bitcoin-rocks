@@ -1,0 +1,41 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:27:42.120Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": false,
+	"markerManifestVersion": null,
+	"markerAppliedAt": null,
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 465,
+		"untranslated": 4,
+		"manifestChanged": 165,
+		"manifestAdded": 392,
+		"manifestAlreadyPresentInTarget": 1,
+		"manifestSkippedByMarker": 0,
+		"upToDate": 753,
+		"brandIdentical": 73
+	},
+	"entries": [
+		{
+			"namespace": "sticker-files/index",
+			"key": "sticker_files_header",
+			"reason": "manifest-changed",
+			"englishValueBefore": "BITCOIN STICKER FILES",
+			"englishValue": "Print your own Bitcoin stickers with these Bitcoin sticker files.",
+			"currentValue": "BITCOIN-KLISTERMÄRKESFILER",
+			"targetTranslation": "Skriv ut dina egna Bitcoin-klistermärken med dessa Bitcoin-klistermärkesfiler."
+		}
+	],
+	"appliedAt": "2026-04-25T21:32:41.072Z",
+	"appliedStats": {
+		"resolved": 1,
+		"unresolved": 0,
+		"filesTouched": 1,
+		"keysWritten": 1,
+		"filesCreated": 0,
+		"markerWritten": true
+	}
+}

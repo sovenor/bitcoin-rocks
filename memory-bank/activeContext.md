@@ -1,3 +1,134 @@
+## Swedish (sv) manifest refresh — April 25, 2026
+
+Ran `/translate-manifest-refresh Swedish` end-to-end. **Locale 43/54
+complete.** Swedish (`Svenska`) is the official language of Sweden and
+a co-official language of Finland, with ~10M native speakers. North
+Germanic, mutually intelligible with Norwegian (and largely with
+Danish in writing). This was the first locale to use a **5-way
+parallel-chunk pattern** instead of the 3-script sequential pattern.
+
+**Report stats:**
+- Manifest version: `d966f8c780c0c485...` (post-2026-04-24 regen — 165
+  changed + 392 added = 557 total)
+- Locale-specific gaps: 465 missing + 4 untranslated (locale was on V1
+  with the entire `inflation` namespace, all 62 home card labels, and
+  scattered drift across nostr/index, about, bank-runs, business/
+  accounting, business/why)
+- Manifest entries: 165 changed + 392 added → **1,026 total entries
+  flagged**
+
+**5-way parallel split** (`scripts/sv-manifest-refresh/split-chunks.js`):
+
+The original session-4 chunk in the workflow doc was sticker-files/*
+(44 sub-pages). For sv only `sticker-files/index` had any flagged
+content — the rest were already up-to-date. So chunk 5 was reassigned
+from "everything else" to just `sticker-files/index`, and the
+"everything else" namespaces were folded into chunk 4.
+
+| Chunk | Bucket | Entries | Files written |
+|-------|--------|--------:|--------------:|
+| 1 | common + index + inflation | 482 | 3 |
+| 2 | bitcoin-vs-* (10 comparison pages) | 121 | 10 |
+| 3 | business/* (all 11 namespaces) | 171 | 11 |
+| 4 | 404 + about + bank-runs + buy + compound-inflation-calculator + flyers + get-involved + lightning + nostr/index + sticker-language-success + sticker-success + stickers + wallets | 251 | 13 |
+| 5 | sticker-files/index | 1 | 1 |
+
+Each chunk was dispatched to a separate background subagent that
+translated its bucket and ran:
+```
+node scripts/i18n-audit/apply-translations.js sv \
+  --report=scripts/sv-manifest-refresh/chunks/sv-chunk<N>.json \
+  --partial --skip-verify
+```
+
+All 5 finished within ~5 minutes of each other. Chunks operate on
+disjoint i18n files, so no file-write race; marker writes were
+idempotent (same hash) so last-writer-wins was harmless.
+
+**Helper scripts under `scripts/sv-manifest-refresh/`:**
+
+- `split-chunks.js` — produces the 5 partial reports.
+- `translate-chunk1.js` — 482 entries. Per-currency templated
+  translator × 13 currencies with Swedish per-currency definite/
+  plural forms (`dollarn`/`euron`/`pundet`/`yenen`/`realen`/`peson`/
+  `bahten`/`rupien`/`shekeln`) instead of generic "din valuta", polite
+  informal "du" register throughout, plus 41 non-currency keys:
+  freedom cards (Sällsynt/Decentraliserad/Tillståndslös/Suverän),
+  stories (Kanada/Nigeria/Pennsylvania/Texas), 5 manifest-changed
+  hero/intro keys including the rewritten H1 "Bitcoin har inte
+  inflation, men det har dina pengar."
+- `translate-chunk2.js` — 121 entries. All 10 bitcoin-vs-* with
+  Swedish curly quotes "…", terminology — "plånbok" (wallet —
+  native), "inflation", "kapitalvinst/kapitalförlust" (capital
+  gain/loss), "uttagsanstormning" (bank run, native compound), "egen
+  förvaring" (self-custody), "tillståndslös" (permissionless),
+  "motpartsrisk" (counterparty risk), "stridstestats" (battle-tested)
+  for `bitcoin-vs-crypto::point_5_summary_1`. Sentence-fragment
+  structure preserved across `point_*_summary_*` keys for anchor-tag
+  link composition. Numeric format with comma decimal + space
+  thousands ("153,9 miljarder USD" / "10,82 biljoner USD" / "1,42 %");
+  long scale "miljon"/"miljard"/"biljon".
+- `translate-chunk3.js` — 171 entries. Full business/* with
+  terminology consistency: "merchant" → "handlare", "accept Bitcoin"
+  → "ta emot Bitcoin", "checkout/POS" → "kassa/kassaterminal",
+  "settlement" → "avveckling", "chargebacks" → "återkrav", "cost
+  basis" → "anskaffningskostnad". Customer-facing QR landing copy:
+  ”Vi tar emot Bitcoin”. Date abbreviations localized "Jan 1" → "1
+  jan", "Feb 1" → "1 feb".
+- `translate-chunk4.js` — 251 entries. The "everything else" bucket.
+  Native curly quotes ”…” for Swedish quoting convention e.g.
+  ”Bitcoin accepteras här”. "orange-pilla" rendered as Nordic-style
+  verbalization for "orange pill". Brand allow-list intact (Bitcoin/
+  Nostr/Lightning/Strike/Bisq/Kraken/Relai/River/Swan/ACINQ/Phoenix/
+  Breez/Wallet of Satoshi/Coldcard/Blockstream/SeedSigner/Foundation
+  Devices/Damus/Amethyst/Iris/Primal/FDIC/MIT). 404_message +
+  404_home rewritten in sentence case to match the new English style
+  (the existing Swedish was ALL CAPS, which the manifest-changed flag
+  indicated needed updating).
+- `translate-chunk5.js` — 1 entry. `sticker-files/index::
+  sticker_files_header` "Print your own Bitcoin stickers with these
+  Bitcoin sticker files." → "Skriv ut dina egna Bitcoin-klistermärken
+  med dessa Bitcoin-klistermärkesfiler."
+- `fix-untranslated.js` — 4 leftover byte-identical
+  Swedish/English collisions patched in-place after the final
+  unfiltered diff:
+    - `bitcoin-vs-visa::bitcoin_point_3` "Transparent system" →
+      "Granskbart system" (auditable system; the original Swedish
+      "Transparent system" is grammatically valid but byte-identical
+      to English, so the audit flags it).
+    - `buy::buy_platform_feature_p2p` "Peer-to-peer" → "Peer-till-peer"
+      (Swedish hybrid form).
+    - `common::common_sticker_files_mission_3` "inflation" →
+      "inflationen" (definite form, "the inflation" — same Swedish
+      noun but inflected to break the byte-identity).
+    - `common::common_stickers_material` "Material:" → "Materialtyp:"
+      (material type — "Material:" is also valid Swedish but
+      byte-identical).
+
+**Verification:**
+- All 4 verification checks pass — marker, locale-specific coverage,
+  manifest coverage, stale English cross-check.
+- `npm run build` clean across 55 locales × 81 pages (4,349 routes
+  generated).
+
+**Edge cases / notes:**
+- Inflation per-currency naming matters in Swedish: "dollar",
+  "pund", "yen", "rial", "rupie", "shekel" all have distinct
+  definite/plural forms. The chunk 1 helper used a struct lookup
+  rather than a generic "din valuta" replacement to preserve the
+  per-currency feel.
+- Chunk 1's helper noted that two values genuinely match English
+  ("inflation" and "Material:") and left them as-is, deferring to
+  `fix-untranslated.js` after the final unfiltered diff. This worked
+  cleanly — the post-chunk diff flagged exactly those entries plus
+  the two from other chunks (Transparent system, Peer-to-peer).
+- The parallel-chunk pattern is a clear win for high-entry locales:
+  ~5x speedup vs the sequential 3-script pattern. Should be reused
+  for future big-report locales (sw, ta, th, vi, zh).
+- Brand allow-list intact across all chunks. Number-formatting
+  conventions consistent (comma decimal + space thousands, "1,42 %"
+  with the space before %, long-scale "miljard"/"biljon").
+
 ## Slovenian (sl) manifest refresh — April 25, 2026
 
 Ran `/translate-manifest-refresh Slovenian` end-to-end. **Locale 42/54

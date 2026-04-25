@@ -1,0 +1,1427 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:27:42.120Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": false,
+	"markerManifestVersion": null,
+	"markerAppliedAt": null,
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 465,
+		"untranslated": 4,
+		"manifestChanged": 165,
+		"manifestAdded": 392,
+		"manifestAlreadyPresentInTarget": 1,
+		"manifestSkippedByMarker": 0,
+		"upToDate": 753,
+		"brandIdentical": 73
+	},
+	"entries": [
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_bpr_source",
+			"reason": "missing",
+			"englishValue": "Bitcoin Price Report",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin Price Report"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_pacioli_source",
+			"reason": "missing",
+			"englishValue": "satoshipacioli.com",
+			"currentValue": null,
+			"targetTranslation": "satoshipacioli.com"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_pacioli_title",
+			"reason": "missing",
+			"englishValue": "Satoshi Pacioli Accounting Services",
+			"currentValue": null,
+			"targetTranslation": "Bokföringstjänster från Satoshi Pacioli"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_spreadsheet_source",
+			"reason": "missing",
+			"englishValue": "The Spreadsheet Guru",
+			"currentValue": null,
+			"targetTranslation": "The Spreadsheet Guru"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_wallets_source",
+			"reason": "missing",
+			"englishValue": "bitcoin.rocks",
+			"currentValue": null,
+			"targetTranslation": "bitcoin.rocks"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_gain_result",
+			"reason": "missing",
+			"englishValue": "+$10",
+			"currentValue": null,
+			"targetTranslation": "+10 USD"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_loss_result",
+			"reason": "missing",
+			"englishValue": "−$10",
+			"currentValue": null,
+			"targetTranslation": "−10 USD"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "english_bitcoin_accepted_here_sticker_files",
+			"reason": "missing",
+			"englishValue": "English 'Bitcoin Accepted Here' Sticker Files",
+			"currentValue": null,
+			"targetTranslation": "Engelska klistermärkesfiler ”Bitcoin Accepted Here”"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_name_strike",
+			"reason": "missing",
+			"englishValue": "STRIKE BUSINESS",
+			"currentValue": null,
+			"targetTranslation": "STRIKE BUSINESS"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_description",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn how to properly account for Bitcoin payments in your business accounting.",
+			"englishValue": "A plain-English guide to accepting Bitcoin in your books — hybrid wallets, cost basis, capital gains, and when to call an accountant.",
+			"currentValue": "Lär dig hur du korrekt redovisar Bitcoin-betalningar i ditt företags bokföring.",
+			"targetTranslation": "En lättförståelig guide för att ta emot Bitcoin i din bokföring – hybridplånböcker, anskaffningskostnad, kapitalvinster och när det är dags att ringa en revisor."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Accepting Bitcoin has many benefits like accepting payments with lower fees & getting more customers.",
+			"englishValue": "The simplest way to accept Bitcoin is with a hybrid wallet that automatically sells 100% of the Bitcoin you receive for dollars (or your local currency) the instant a payment comes in.",
+			"currentValue": "Att acceptera Bitcoin har många fördelar, som att ta emot betalningar med lägre avgifter och få fler kunder.",
+			"targetTranslation": "Det enklaste sättet att ta emot Bitcoin är med en hybridplånbok som automatiskt säljer 100 % av den Bitcoin du tar emot mot dollar (eller din lokala valuta) i samma stund som betalningen kommer in."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"englishValue": "With this setup, your books look exactly like they do today — the final number is in dollars, every time. No cost basis, no capital gains, no new spreadsheets.",
+			"currentValue": "Om du använder en hybridplånbok från vår plånboksguide och automatiskt säljer 100% av mottagen Bitcoin för dollar behöver du inte ändra något i din nuvarande bokföring.",
+			"targetTranslation": "Med den här lösningen ser din bokföring exakt likadan ut som idag – slutsumman är alltid i dollar, varje gång. Ingen anskaffningskostnad, inga kapitalvinster, inga nya kalkylblad."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "TRACKING YOUR COST BASIS",
+			"englishValue": "If you keep some Bitcoin: tracking your cost basis",
+			"currentValue": "SPÅRA DIN ANSKAFFNINGSKOSTNAD",
+			"targetTranslation": "Om du behåller en del Bitcoin: spåra din anskaffningskostnad"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Tracking your cost basis is going to be the biggest difference between accounting for dollars and accounting for Bitcoin. Even if you view your business entirely in terms of Bitcoin, you need to report the dollar value of each transaction on your taxes.",
+			"englishValue": "Some businesses choose to keep a portion of the Bitcoin they receive instead of auto-converting it all. If that's you, the main extra step is tracking your cost basis — the dollar value of each Bitcoin payment on the day you received it.",
+			"currentValue": "Att spåra anskaffningskostnaden blir den största skillnaden mellan att bokföra dollar och att bokföra Bitcoin. Även om du tänker på ditt företag enbart i Bitcoin-termer måste du rapportera dollarvärdet för varje transaktion i din skattedeklaration.",
+			"targetTranslation": "En del företag väljer att behålla en del av den Bitcoin de tar emot istället för att växla allt automatiskt. Om det stämmer in på dig är det främsta extra steget att spåra din anskaffningskostnad – dollarvärdet för varje Bitcoin-betalning den dag du tog emot den."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you use QuickBooks, you can do this automatically using the Bitcoin Sync plugin.",
+			"englishValue": "Even if you think of your business entirely in Bitcoin, most tax authorities still want the dollar value reported. The good news: it's just two numbers per transaction — the amount of Bitcoin received and its dollar value on that day.",
+			"currentValue": "Om du använder QuickBooks kan du göra detta automatiskt med tillägget Bitcoin Sync.",
+			"targetTranslation": "Även om du tänker på ditt företag helt och hållet i Bitcoin, vill de flesta skattemyndigheter fortfarande att dollarvärdet rapporteras. Den goda nyheten: det är bara två siffror per transaktion – mängden mottagen Bitcoin och dess dollarvärde den dagen."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you don't use QuickBooks, we recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"englishValue": "Use the tools below to automate the lookup so you don't have to check prices every day.",
+			"currentValue": "Om du inte använder QuickBooks rekommenderar vi Satoshi Pacioli Accounting Services, en revisionsbyrå specialiserad på Bitcoin-bokföring.",
+			"targetTranslation": "Använd verktygen nedan för att automatisera uppslagningen så att du slipper kontrollera priser varje dag."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "SPENDING OR SELLING YOUR BITCOIN",
+			"englishValue": "Spending or selling the Bitcoin you've kept",
+			"currentValue": "SPENDERA ELLER SÄLJA DIN BITCOIN",
+			"targetTranslation": "Att spendera eller sälja den Bitcoin du har behållit"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"englishValue": "If you auto-convert every payment to dollars, skip this section — it doesn't apply to you.",
+			"currentValue": "Om du använder en hybridplånbok från vår plånboksguide och automatiskt säljer 100% av mottagen Bitcoin för dollar behöver du inte ändra något i din nuvarande bokföring.",
+			"targetTranslation": "Om du växlar varje betalning till dollar automatiskt kan du hoppa över det här avsnittet – det gäller inte dig."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "View Wallet Guide.",
+			"englishValue": "If you've kept some Bitcoin and later decide to spend or sell it, add the sale price to the same cost-basis spreadsheet. The difference between what the Bitcoin was worth when you received it and what it's worth when you spend or sell it is a capital gain or loss.",
+			"currentValue": "Visa plånboksguide.",
+			"targetTranslation": "Om du har behållit en del Bitcoin och senare bestämmer dig för att spendera eller sälja den, lägg till försäljningspriset i samma kalkylblad för anskaffningskostnad. Skillnaden mellan vad din Bitcoin var värd när du tog emot den och vad den är värd när du spenderar eller säljer den är en kapitalvinst eller kapitalförlust."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you choose to spend or sell some of the Bitcoin you receive after holding it for a while, you simply need to add the price you sold it for into your Excel spreadsheet that tracks your cost basis.",
+			"englishValue": "Two quick examples:",
+			"currentValue": "Om du väljer att spendera eller sälja en del av mottagen Bitcoin vid ett senare tillfälle, lägg helt enkelt till priset du sålde den för i Excel-kalkylbladet där du spårar din anskaffningskostnad.",
+			"targetTranslation": "Två snabba exempel:"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4",
+			"reason": "manifest-changed",
+			"englishValueBefore": "I NEED MORE HELP",
+			"englishValue": "Need a pro who speaks Bitcoin?",
+			"currentValue": "JAG BEHÖVER MER HJÄLP",
+			"targetTranslation": "Behöver du en revisor som förstår Bitcoin?"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "If you need more help integrating Bitcoin into your business accounting, we highly recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"englishValue": "If you'd rather hand this off — or your Bitcoin accounting is more complex than a hybrid wallet can handle — we highly recommend Satoshi Pacioli Accounting Services, a firm that specializes in Bitcoin accounting for businesses.",
+			"currentValue": "Om du behöver mer hjälp med att integrera Bitcoin i din företagsbokföring rekommenderar vi starkt Satoshi Pacioli Accounting Services, en revisionsbyrå specialiserad på Bitcoin-bokföring.",
+			"targetTranslation": "Om du hellre vill lämna över det här – eller om din Bitcoin-bokföring är mer komplex än vad en hybridplånbok klarar av – rekommenderar vi varmt Satoshi Pacioli Accounting Services, en byrå som specialiserar sig på Bitcoin-bokföring för företag."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "bitcoin_business_accounting_guide",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin Business Accounting Guide",
+			"englishValue": "Bitcoin accounting for your business",
+			"currentValue": "Guide för Bitcoin-bokföring i företag",
+			"targetTranslation": "Bitcoin-bokföring för ditt företag"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "english_biz_sticker_files_description",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Download English sticker files to print your own Bitcoin Accepted Here stickers.",
+			"englishValue": "Download English sticker files to print your own 'Bitcoin Accepted Here' stickers.",
+			"currentValue": null,
+			"targetTranslation": "Ladda ner engelska klistermärkesfiler för att skriva ut dina egna ”Bitcoin Accepted Here”-klistermärken."
+		},
+		{
+			"namespace": "business/why",
+			"key": "learn_why_bitcoin_is_good_for_business",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn why Bitcoin is good for business",
+			"englishValue": "Bitcoin is accepted here",
+			"currentValue": "Lär dig varför Bitcoin är bra för företag",
+			"targetTranslation": "Bitcoin tas emot här"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_good_for_you",
+			"reason": "manifest-changed",
+			"englishValueBefore": "BITCOIN IS GOOD FOR YOU TOO!",
+			"englishValue": "Why Bitcoin is great for you too",
+			"currentValue": "BITCOIN ÄR BRA FÖR DIG OCKSÅ!",
+			"targetTranslation": "Varför Bitcoin är bra för dig också"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_learn_more_lowercase",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn more.",
+			"englishValue": "Learn more →",
+			"currentValue": "Lär dig mer.",
+			"targetTranslation": "Läs mer →"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.",
+			"englishValue": "Inflation happens when more money is printed or created from thin air. That makes the money in your pocket worth less over time — and it's why prices keep going up year after year.",
+			"currentValue": "Inflation uppstår när mer pengar trycks eller skapas ur tomma intet. Detta gör att dina pengar tappar i värde över tid.",
+			"targetTranslation": "Inflation uppstår när mer pengar trycks eller skapas ur tomma intet. Det gör att pengarna i din ficka blir värda mindre över tid – och det är därför priserna fortsätter att stiga år efter år."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a fixed supply, which means no one can print more Bitcoin.",
+			"englishValue": "Bitcoin has a fixed supply of 21 million coins. No government, bank, or company can print more of it. Your Bitcoin savings hold their value over time instead of quietly losing it.",
+			"currentValue": "Bitcoin har ett fast utbud, vilket innebär att ingen kan trycka mer Bitcoin.",
+			"targetTranslation": "Bitcoin har ett fast utbud på 21 miljoner mynt. Ingen regering, bank eller företag kan trycka mer av det. Ditt sparande i Bitcoin behåller sitt värde över tid istället för att tyst tappa det."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Multiple US banks have collapsed in the past few years due to bank runs.",
+			"englishValue": "Multiple U.S. banks have collapsed in recent years because of bank runs. When too many customers tried to withdraw at once, the banks didn't have the cash to pay everyone back.",
+			"currentValue": "Flera amerikanska banker har kollapsat på grund av bankrusningar de senaste åren.",
+			"targetTranslation": "Flera amerikanska banker har kollapsat de senaste åren på grund av bankrusningar. När för många kunder försökte ta ut sina pengar samtidigt hade bankerna inte tillräckligt med likvida medel för att betala tillbaka alla."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Instead of just holding your money for you, banks invest and lend out your money. If those investments don't do well, they don't have enough to pay you back.",
+			"englishValue": "Instead of just holding your money, banks lend and invest most of it. If those investments go bad — or if depositors lose confidence — the bank can fail, and your deposits can be frozen or lost.",
+			"currentValue": "Istället för att bara förvara dina pengar investerar bankerna dem och lånar ut dem. Om dessa investeringar inte går bra har de inte tillräckligt med pengar för att ge dig tillbaka dina.",
+			"targetTranslation": "Istället för att bara förvara dina pengar lånar och investerar bankerna ut det mesta. Om de investeringarna går dåligt – eller om insättarna tappar förtroendet – kan banken gå omkull, och dina insättningar kan frysas eller gå förlorade."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "And the FDIC insurance fund only has $1 for every $100 they're insuring.",
+			"englishValue": "With Bitcoin, you can hold your own money directly in your own wallet. No bank. No intermediary. No bank run.",
+			"currentValue": "Och FDIC:s försäkringsfond har bara 1 dollar för varje 100 dollar den försäkrar.",
+			"targetTranslation": "Med Bitcoin kan du förvara dina egna pengar direkt i din egen plånbok. Ingen bank. Ingen mellanhand. Ingen bankrusning."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Unlike traditional financial networks, Bitcoin doesn't require permission to be used.",
+			"englishValue": "Unlike credit cards, PayPal, or traditional bank accounts, Bitcoin doesn't require anyone's permission to use.",
+			"currentValue": "Till skillnad från traditionella finansiella nätverk kräver Bitcoin inget tillstånd för att användas.",
+			"targetTranslation": "Till skillnad från kreditkort, PayPal eller traditionella bankkonton kräver Bitcoin inte någons tillstånd för att användas."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.",
+			"englishValue": "No one can freeze your account, block a payment, or cut you off from the network. It's the first financial system in history you can use freely, without fear of censorship or seizure.",
+			"currentValue": "Det betyder att ingen kan hindra dig från att använda Bitcoin av någon anledning. Det är det första finansiella nätverket du kan använda utan oro för censur eller konfiskering.",
+			"targetTranslation": "Ingen kan frysa ditt konto, blockera en betalning eller stänga av dig från nätverket. Det är det första finansiella systemet i historien som du kan använda fritt, utan oro för censur eller konfiskering."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is a misunderstood technology that is building a better world.",
+			"englishValue": "Bitcoin is often misunderstood, but it's quietly doing a lot of good in the world.",
+			"currentValue": "Bitcoin är en missförstådd teknik som bygger en bättre värld.",
+			"targetTranslation": "Bitcoin missförstås ofta, men gör i tysthet mycket gott i världen."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has enabled human rights activists to fight for freedom, reduced global methane emissions, saved national parks, and so much more.",
+			"englishValue": "It has helped human rights activists fight for freedom, reduced global methane emissions from landfills and oil fields, stabilized electric grids, and funded public goods like national parks.",
+			"currentValue": "Bitcoin har gjort det möjligt för människorättsaktivister att kämpa för frihet, minskat globala metanutsläpp, räddat nationalparker och mycket mer.",
+			"targetTranslation": "Det har hjälpt människorättsaktivister att kämpa för frihet, minskat globala metanutsläpp från soptippar och oljefält, stabiliserat elnät och finansierat allmännyttiga ändamål som nationalparker."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_bpr_label",
+			"reason": "manifest-added",
+			"englishValue": "BITCOIN PRICE",
+			"currentValue": null,
+			"targetTranslation": "BITCOIN-PRIS"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_bpr_title",
+			"reason": "manifest-added",
+			"englishValue": "Look up Bitcoin's current or historical dollar price",
+			"currentValue": null,
+			"targetTranslation": "Slå upp Bitcoins aktuella eller historiska dollarpris"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_pacioli_label",
+			"reason": "manifest-added",
+			"englishValue": "BITCOIN ACCOUNTANTS",
+			"currentValue": null,
+			"targetTranslation": "BITCOIN-REVISORER"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_spreadsheet_label",
+			"reason": "manifest-added",
+			"englishValue": "EXCEL IMPORT",
+			"currentValue": null,
+			"targetTranslation": "EXCEL-IMPORT"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_spreadsheet_title",
+			"reason": "manifest-added",
+			"englishValue": "Pull Bitcoin prices into Excel automatically",
+			"currentValue": null,
+			"targetTranslation": "Hämta Bitcoin-priser till Excel automatiskt"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_wallets_label",
+			"reason": "manifest-added",
+			"englishValue": "HYBRID WALLETS",
+			"currentValue": null,
+			"targetTranslation": "HYBRIDPLÅNBÖCKER"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_card_wallets_title",
+			"reason": "manifest-added",
+			"englishValue": "See our recommended business wallets",
+			"currentValue": null,
+			"targetTranslation": "Se våra rekommenderade företagsplånböcker"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_disclaimer",
+			"reason": "manifest-added",
+			"englishValue": "This guide is for informational purposes only and is not to be considered tax advice. For tax advice specific to your situation, please consult a qualified accountant.",
+			"currentValue": null,
+			"targetTranslation": "Den här guiden är endast i informationssyfte och ska inte ses som skatterådgivning. För skatteråd som passar din situation, kontakta en kvalificerad revisor."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_disclaimer_label",
+			"reason": "manifest-added",
+			"englishValue": "Please note",
+			"currentValue": null,
+			"targetTranslation": "Observera"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_feb_1",
+			"reason": "manifest-added",
+			"englishValue": "Feb 1",
+			"currentValue": null,
+			"targetTranslation": "1 feb"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_gain_badge",
+			"reason": "manifest-added",
+			"englishValue": "Capital gain",
+			"currentValue": null,
+			"targetTranslation": "Kapitalvinst"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_gain_explain",
+			"reason": "manifest-added",
+			"englishValue": "You record a $10 capital gain.",
+			"currentValue": null,
+			"targetTranslation": "Du bokför en kapitalvinst på 10 USD."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_jan_1",
+			"reason": "manifest-added",
+			"englishValue": "Jan 1",
+			"currentValue": null,
+			"targetTranslation": "1 jan"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_loss_badge",
+			"reason": "manifest-added",
+			"englishValue": "Capital loss",
+			"currentValue": null,
+			"targetTranslation": "Kapitalförlust"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_loss_explain",
+			"reason": "manifest-added",
+			"englishValue": "You record a $10 capital loss.",
+			"currentValue": null,
+			"targetTranslation": "Du bokför en kapitalförlust på 10 USD."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_received_label",
+			"reason": "manifest-added",
+			"englishValue": "Received",
+			"currentValue": null,
+			"targetTranslation": "Mottaget"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_example_sold_label",
+			"reason": "manifest-added",
+			"englishValue": "Sold or spent",
+			"currentValue": null,
+			"targetTranslation": "Sålt eller spenderat"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Accepting Bitcoin at your business doesn't have to complicate your accounting. Here's the short version — plus the tools and pros to make it painless.",
+			"currentValue": null,
+			"targetTranslation": "Att ta emot Bitcoin i ditt företag behöver inte krångla till bokföringen. Här kommer kortversionen – plus verktygen och proffsen som gör det smärtfritt."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "If you already accept cash or card, adding Bitcoin to your business books is simpler than it looks. You have two paths: auto-convert every Bitcoin payment to dollars the moment it arrives (no new accounting needed), or keep some as Bitcoin (a few extra numbers to track).",
+			"currentValue": null,
+			"targetTranslation": "Om du redan tar emot kontanter eller kort är det enklare än det ser ut att lägga till Bitcoin i företagets bokföring. Du har två vägar: växla varje Bitcoin-betalning till dollar automatiskt i samma stund den kommer in (ingen ny bokföring krävs), eller behåll en del som Bitcoin (några extra siffror att hålla koll på)."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "This guide walks you through both — so you can pick the one that fits your business and start accepting Bitcoin with confidence.",
+			"currentValue": null,
+			"targetTranslation": "Den här guiden går igenom båda – så att du kan välja det som passar ditt företag och börja ta emot Bitcoin med självförtroende."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1",
+			"reason": "manifest-added",
+			"englishValue": "The easy path: auto-convert to dollars",
+			"currentValue": null,
+			"targetTranslation": "Den enkla vägen: växla automatiskt till dollar"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c6",
+			"reason": "manifest-added",
+			"englishValue": "That's it. The underlying math is identical to how any other appreciating or depreciating asset is accounted for.",
+			"currentValue": null,
+			"targetTranslation": "Det är allt. Den underliggande matematiken är identisk med hur vilken annan tillgång som helst som ökar eller minskar i värde bokförs."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_bitcoin_price_report",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin Price Report — Bitcoin current & historical dollar price",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin Price Report — Bitcoins aktuella och historiska dollarpris"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_satoshi_pacioli",
+			"reason": "manifest-added",
+			"englishValue": "Satoshi Pacioli Accounting Services — Bitcoin accounting for businesses",
+			"currentValue": null,
+			"targetTranslation": "Satoshi Pacioli Accounting Services — Bitcoin-bokföring för företag"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "sources_spreadsheet_guru",
+			"reason": "manifest-added",
+			"englishValue": "The Spreadsheet Guru — Import cryptocurrency prices into Excel",
+			"currentValue": null,
+			"targetTranslation": "The Spreadsheet Guru — Importera kryptovalutapriser till Excel"
+		},
+		{
+			"namespace": "business/faq",
+			"key": "faq_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "The short answers to the questions merchants ask most often before they start accepting Bitcoin — fees, settlement, wallets, chargebacks, cost, and more.",
+			"currentValue": null,
+			"targetTranslation": "De korta svaren på frågorna som handlare ställer oftast innan de börjar ta emot Bitcoin – avgifter, avveckling, plånböcker, återkrav, kostnad och mer."
+		},
+		{
+			"namespace": "business/faq",
+			"key": "faq_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Tap any question below to expand the answer. When you're ready to start accepting Bitcoin, the business resources at the bottom of the page will walk you through each step.",
+			"currentValue": null,
+			"targetTranslation": "Tryck på en fråga nedan för att se svaret. När du är redo att börja ta emot Bitcoin guidar företagsresurserna längst ner på sidan dig genom varje steg."
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_accounting",
+			"reason": "manifest-added",
+			"englishValue": "ACCOUNTING",
+			"currentValue": null,
+			"targetTranslation": "BOKFÖRING"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_faq",
+			"reason": "manifest-added",
+			"englishValue": "FAQ",
+			"currentValue": null,
+			"targetTranslation": "VANLIGA FRÅGOR"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_maps",
+			"reason": "manifest-added",
+			"englishValue": "MERCHANT MAPS",
+			"currentValue": null,
+			"targetTranslation": "HANDLARKARTOR"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_rewards",
+			"reason": "manifest-added",
+			"englishValue": "REWARDS",
+			"currentValue": null,
+			"targetTranslation": "BELÖNINGAR"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_stickers",
+			"reason": "manifest-added",
+			"englishValue": "STICKERS",
+			"currentValue": null,
+			"targetTranslation": "KLISTERMÄRKEN"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_label_wallets",
+			"reason": "manifest-added",
+			"englishValue": "WALLETS",
+			"currentValue": null,
+			"targetTranslation": "PLÅNBÖCKER"
+		},
+		{
+			"namespace": "business/index",
+			"key": "biz_meta_description",
+			"reason": "manifest-added",
+			"englishValue": "Accept Bitcoin at your business for lower fees, instant settlement, no chargebacks, and more customers.",
+			"currentValue": null,
+			"targetTranslation": "Ta emot Bitcoin i ditt företag för lägre avgifter, omedelbar avveckling, inga återkrav och fler kunder."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Accept payments with lower fees, get paid instantly, and reach millions of new customers — with zero contracts and zero hidden costs.",
+			"currentValue": null,
+			"targetTranslation": "Ta emot betalningar med lägre avgifter, få betalt direkt och nå miljontals nya kunder – utan kontrakt och utan dolda kostnader."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin gives your business a faster, cheaper, more private way to get paid. No middlemen. No chargebacks. No contracts. Just money that settles in seconds, directly from your customers to you.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin ger ditt företag ett snabbare, billigare och mer privat sätt att få betalt. Inga mellanhänder. Inga återkrav. Inga kontrakt. Bara pengar som avvecklas på sekunder, direkt från dina kunder till dig."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "Below is the short version of why Bitcoin is good for business — and below that, every resource you need to start accepting it today.",
+			"currentValue": null,
+			"targetTranslation": "Nedan kommer kortversionen av varför Bitcoin är bra för företag – och därunder alla resurser du behöver för att börja ta emot det idag."
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_resources_heading",
+			"reason": "manifest-added",
+			"englishValue": "Everything you need to accept Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Allt du behöver för att ta emot Bitcoin"
+		},
+		{
+			"namespace": "business/index",
+			"key": "business_resources_intro",
+			"reason": "manifest-added",
+			"englishValue": "Work through these resources at your own pace. Each one is a short, practical guide.",
+			"currentValue": null,
+			"targetTranslation": "Gå igenom dessa resurser i din egen takt. Var och en är en kort, praktisk guide."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_form_header",
+			"reason": "manifest-added",
+			"englishValue": "Tell us about your business",
+			"currentValue": null,
+			"targetTranslation": "Berätta om ditt företag"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_form_intro",
+			"reason": "manifest-added",
+			"englishValue": "We only need a few details to get you listed. Address data is kept only long enough to submit your business to the maps.",
+			"currentValue": null,
+			"targetTranslation": "Vi behöver bara några få uppgifter för att lägga upp dig. Adressuppgifter sparas bara så länge det krävs för att skicka in ditt företag till kartorna."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "List your business for free on BTC Map — the open, worldwide directory of Bitcoin-accepting merchants — so Bitcoiners nearby can find you and spend Bitcoin at your business.",
+			"currentValue": null,
+			"targetTranslation": "Lägg upp ditt företag gratis på BTC Map – den öppna, världsomfattande katalogen över handlare som tar emot Bitcoin – så att Bitcoin-användare i närheten kan hitta dig och spendera Bitcoin hos dig."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Get your business on Bitcoin merchant maps",
+			"currentValue": null,
+			"targetTranslation": "Få ditt företag på Bitcoin-handlarkartor"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoiners actively look for places to spend. Getting your business on the map puts you in front of every Bitcoin user searching for somewhere to eat, shop, or stay nearby — at zero cost to you.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-användare letar aktivt efter ställen att spendera på. Att få ditt företag på kartan placerar dig framför varje Bitcoin-användare som söker efter någonstans att äta, handla eller bo i närheten – utan kostnad för dig."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "Just fill out the short form below and we'll submit your business to BTC Map and other Bitcoin merchant maps for you.",
+			"currentValue": null,
+			"targetTranslation": "Fyll bara i det korta formuläret nedan så skickar vi in ditt företag till BTC Map och andra Bitcoin-handlarkartor åt dig."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_meta_description",
+			"reason": "manifest-added",
+			"englishValue": "List your business for free on BTC Map and other Bitcoin merchant maps so Bitcoiners nearby can find you.",
+			"currentValue": null,
+			"targetTranslation": "Lägg upp ditt företag gratis på BTC Map och andra Bitcoin-handlarkartor så att Bitcoin-användare i närheten kan hitta dig."
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_address",
+			"reason": "manifest-added",
+			"englishValue": "Street address",
+			"currentValue": null,
+			"targetTranslation": "Gatuadress"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_category",
+			"reason": "manifest-added",
+			"englishValue": "Category (e.g. restaurant, cafe, hotel)",
+			"currentValue": null,
+			"targetTranslation": "Kategori (t.ex. restaurang, kafé, hotell)"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_city",
+			"reason": "manifest-added",
+			"englishValue": "City",
+			"currentValue": null,
+			"targetTranslation": "Stad"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_country",
+			"reason": "manifest-added",
+			"englishValue": "Country",
+			"currentValue": null,
+			"targetTranslation": "Land"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_name",
+			"reason": "manifest-added",
+			"englishValue": "Business name",
+			"currentValue": null,
+			"targetTranslation": "Företagsnamn"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_region",
+			"reason": "manifest-added",
+			"englishValue": "State / Province / Region",
+			"currentValue": null,
+			"targetTranslation": "Län / Delstat / Region"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_placeholder_website",
+			"reason": "manifest-added",
+			"englishValue": "Website (optional)",
+			"currentValue": null,
+			"targetTranslation": "Webbplats (valfritt)"
+		},
+		{
+			"namespace": "business/maps",
+			"key": "biz_maps_view_map_cta",
+			"reason": "manifest-added",
+			"englishValue": "View the BTC Map",
+			"currentValue": null,
+			"targetTranslation": "Visa BTC Map"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_btn_view_map",
+			"reason": "manifest-added",
+			"englishValue": "View the BTC Map",
+			"currentValue": null,
+			"targetTranslation": "Visa BTC Map"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Thanks for submitting your business. We'll list you on Bitcoin merchant maps shortly.",
+			"currentValue": null,
+			"targetTranslation": "Tack för att du skickade in ditt företag. Vi lägger upp dig på Bitcoin-handlarkartor inom kort."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Request received 🎉",
+			"currentValue": null,
+			"targetTranslation": "Begäran mottagen 🎉"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_c1",
+			"reason": "manifest-added",
+			"englishValue": "Your business will be listed on BTC Map and other Bitcoin merchant directories within 1 to 2 weeks. We review each submission by hand to keep the maps accurate.",
+			"currentValue": null,
+			"targetTranslation": "Ditt företag kommer att läggas upp på BTC Map och andra Bitcoin-handlarkataloger inom 1 till 2 veckor. Vi granskar varje inskickning manuellt för att hålla kartorna korrekta."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_c2",
+			"reason": "manifest-added",
+			"englishValue": "Once your listing is live, Bitcoiners nearby can find your business and come spend Bitcoin there.",
+			"currentValue": null,
+			"targetTranslation": "När din annons är publicerad kan Bitcoin-användare i närheten hitta ditt företag och komma och spendera Bitcoin där."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_timeline_header",
+			"reason": "manifest-added",
+			"englishValue": "What happens next",
+			"currentValue": null,
+			"targetTranslation": "Vad händer härnäst"
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_view_c1",
+			"reason": "manifest-added",
+			"englishValue": "While you wait, take a look at BTC Map to see the growing network of businesses that accept Bitcoin around the world.",
+			"currentValue": null,
+			"targetTranslation": "Medan du väntar kan du ta en titt på BTC Map och se det växande nätverket av företag som tar emot Bitcoin runt om i världen."
+		},
+		{
+			"namespace": "business/maps-success",
+			"key": "biz_maps_success_view_header",
+			"reason": "manifest-added",
+			"englishValue": "See where you'll appear",
+			"currentValue": null,
+			"targetTranslation": "Se var du kommer att synas"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "biz_stickers_english_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Print your own 'Bitcoin Accepted Here' stickers in English to let your customers know you accept Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut dina egna ”Bitcoin Accepted Here”-klistermärken på engelska för att visa kunderna att du tar emot Bitcoin."
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "biz_stickers_english_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Download English 'Bitcoin Accepted Here' sticker files",
+			"currentValue": null,
+			"targetTranslation": "Ladda ner engelska klistermärkesfiler ”Bitcoin Accepted Here”"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Thanks for requesting 'Bitcoin Accepted Here' sticker files in your language.",
+			"currentValue": null,
+			"targetTranslation": "Tack för att du efterfrågade ”Bitcoin Accepted Here”-klistermärkesfiler på ditt språk."
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Request received 🎉",
+			"currentValue": null,
+			"targetTranslation": "Begäran mottagen 🎉"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_c1",
+			"reason": "manifest-added",
+			"englishValue": "We'll create and publish your sticker files within 3 to 4 weeks. Once they're ready, you'll be able to download and print them for free from our sticker files page.",
+			"currentValue": null,
+			"targetTranslation": "Vi skapar och publicerar dina klistermärkesfiler inom 3 till 4 veckor. När de är klara kan du ladda ner och skriva ut dem gratis från vår sida för klistermärkesfiler."
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_c2",
+			"reason": "manifest-added",
+			"englishValue": "Sticker files are released in batches, so it may take a few weeks for your language to go live. Thanks for your patience!",
+			"currentValue": null,
+			"targetTranslation": "Klistermärkesfiler släpps i omgångar, så det kan ta några veckor innan ditt språk publiceras. Tack för ditt tålamod!"
+		},
+		{
+			"namespace": "business/sticker-language-success",
+			"key": "biz_sticker_language_success_timeline_header",
+			"reason": "manifest-added",
+			"englishValue": "What happens next",
+			"currentValue": null,
+			"targetTranslation": "Vad händer härnäst"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_btn_order_bulk",
+			"reason": "manifest-added",
+			"englishValue": "Order in bulk",
+			"currentValue": null,
+			"targetTranslation": "Beställ i större mängd"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_btn_request_more",
+			"reason": "manifest-added",
+			"englishValue": "Request another free pack",
+			"currentValue": null,
+			"targetTranslation": "Begär ett nytt gratispaket"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "You'll receive your free 'Bitcoin Accepted Here' stickers in 2 to 4 weeks, in a plain white envelope with 3 stickers inside.",
+			"currentValue": null,
+			"targetTranslation": "Du får dina gratis ”Bitcoin Accepted Here”-klistermärken inom 2 till 4 veckor, i ett vanligt vitt kuvert med 3 klistermärken inuti."
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Your stickers are on their way 🎉",
+			"currentValue": null,
+			"targetTranslation": "Dina klistermärken är på väg 🎉"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_more_c1",
+			"reason": "manifest-added",
+			"englishValue": "If 3 stickers aren't enough for your business, feel free to request another free pack — or order in bulk from the same printer we use.",
+			"currentValue": null,
+			"targetTranslation": "Om 3 klistermärken inte räcker för ditt företag är du välkommen att begära ett nytt gratispaket – eller beställa i större mängd från samma tryckeri som vi använder."
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_more_header",
+			"reason": "manifest-added",
+			"englishValue": "Need more stickers?",
+			"currentValue": null,
+			"targetTranslation": "Behöver du fler klistermärken?"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_1",
+			"reason": "manifest-added",
+			"englishValue": "On your front door or window so customers see it before they walk in",
+			"currentValue": null,
+			"targetTranslation": "På din ytterdörr eller fönster så att kunderna ser det innan de går in"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_2",
+			"reason": "manifest-added",
+			"englishValue": "Near your register, POS terminal, or payment area",
+			"currentValue": null,
+			"targetTranslation": "Nära din kassa, kassaterminal eller betalningsyta"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_3",
+			"reason": "manifest-added",
+			"englishValue": "On menus, price lists, or tip jars",
+			"currentValue": null,
+			"targetTranslation": "På menyer, prislistor eller dricksburkar"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tip_4",
+			"reason": "manifest-added",
+			"englishValue": "Don't stick them anywhere you don't own or have permission to put them",
+			"currentValue": null,
+			"targetTranslation": "Sätt dem inte någonstans där du inte äger eller har tillstånd att placera dem"
+		},
+		{
+			"namespace": "business/sticker-success",
+			"key": "biz_sticker_success_tips_header",
+			"reason": "manifest-added",
+			"englishValue": "Good places to put your stickers",
+			"currentValue": null,
+			"targetTranslation": "Bra ställen att sätta upp dina klistermärken på"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Let your customers know you accept Bitcoin. Order a free pack of 'Bitcoin Accepted Here' stickers to put up at your business.",
+			"currentValue": null,
+			"targetTranslation": "Visa kunderna att du tar emot Bitcoin. Beställ ett gratispaket med ”Bitcoin Accepted Here”-klistermärken att sätta upp i ditt företag."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_hero_title",
+			"reason": "manifest-added",
+			"englishValue": "Free 'Bitcoin Accepted Here' stickers",
+			"currentValue": null,
+			"targetTranslation": "Gratis ”Bitcoin Accepted Here”-klistermärken"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "Accepting Bitcoin is only half the job — your customers also need to know that you do. These small 'Bitcoin Accepted Here' stickers are designed to stick on your front door, register, menu, or anywhere else customers will see them before they pay.",
+			"currentValue": null,
+			"targetTranslation": "Att ta emot Bitcoin är bara halva jobbet – dina kunder behöver också veta att du gör det. De här små ”Bitcoin Accepted Here”-klistermärkena är gjorda för att sättas på ytterdörren, kassan, menyn eller någon annanstans där kunderna ser dem innan de betalar."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "We'll mail you a free pack anywhere in the USA or Canada, or you can print your own anywhere in the world.",
+			"currentValue": null,
+			"targetTranslation": "Vi skickar ett gratispaket till dig var som helst i USA eller Kanada, eller så kan du skriva ut dina egna var som helst i världen."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_canada",
+			"reason": "manifest-added",
+			"englishValue": "🇨🇦 Canada — Free by mail",
+			"currentValue": null,
+			"targetTranslation": "🇨🇦 Kanada — Gratis per post"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_print",
+			"reason": "manifest-added",
+			"englishValue": "🌍 Global — Print my own",
+			"currentValue": null,
+			"targetTranslation": "🌍 Globalt — Skriv ut själv"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_option_usa",
+			"reason": "manifest-added",
+			"englishValue": "🇺🇸 USA — Free by mail",
+			"currentValue": null,
+			"targetTranslation": "🇺🇸 USA — Gratis per post"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_placeholder_translation1",
+			"reason": "manifest-added",
+			"englishValue": "Translation for 'Bitcoin Accepted Here'",
+			"currentValue": null,
+			"targetTranslation": "Översättning av ”Bitcoin Accepted Here”"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_placeholder_translation2",
+			"reason": "manifest-added",
+			"englishValue": "Translation for 'Scan to learn why Bitcoin is good for business.'",
+			"currentValue": null,
+			"targetTranslation": "Översättning av ”Skanna för att se varför Bitcoin är bra för företag.”"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_print_c1",
+			"reason": "manifest-added",
+			"englishValue": "You can print your own 'Bitcoin Accepted Here' stickers, no matter where you live. Click your language below to download the sticker files and printing instructions.",
+			"currentValue": null,
+			"targetTranslation": "Du kan skriva ut dina egna ”Bitcoin Accepted Here”-klistermärken oavsett var du bor. Klicka på ditt språk nedan för att ladda ner klistermärkesfilerna och utskriftsanvisningar."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_print_header",
+			"reason": "manifest-added",
+			"englishValue": "Print your own sticker files",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut dina egna klistermärkesfiler"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_request_c1",
+			"reason": "manifest-added",
+			"englishValue": "Fill out the form below to request 'Bitcoin Accepted Here' sticker files in your local language. We'll let you know once they're ready.",
+			"currentValue": null,
+			"targetTranslation": "Fyll i formuläret nedan för att begära ”Bitcoin Accepted Here”-klistermärkesfiler på ditt lokala språk. Vi hör av oss när de är klara."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_request_header",
+			"reason": "manifest-added",
+			"englishValue": "Don't see your language?",
+			"currentValue": null,
+			"targetTranslation": "Hittar du inte ditt språk?"
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_step_description",
+			"reason": "manifest-added",
+			"englishValue": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own.",
+			"currentValue": null,
+			"targetTranslation": "Vi skickar ett gratispaket till adresser i USA och Kanada. Var som helst annars i världen kan du skriva ut dina egna."
+		},
+		{
+			"namespace": "business/stickers",
+			"key": "biz_stickers_step_header",
+			"reason": "manifest-added",
+			"englishValue": "How would you like to get your stickers?",
+			"currentValue": null,
+			"targetTranslation": "Hur vill du få dina klistermärken?"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "biz_wallets_meta_description",
+			"reason": "manifest-added",
+			"englishValue": "All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks.",
+			"currentValue": null,
+			"targetTranslation": "Alla Bitcoin-plånböcker fungerar tillsammans – välj den som passar ditt företag. Gratis, omedelbar avveckling, inga återkrav."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_breez_business",
+			"reason": "manifest-added",
+			"englishValue": "Breez — Bitcoin-only Lightning wallet",
+			"currentValue": null,
+			"targetTranslation": "Breez — Bitcoin-only Lightning-plånbok"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_ibex",
+			"reason": "manifest-added",
+			"englishValue": "IBEX — Lightning payments infrastructure",
+			"currentValue": null,
+			"targetTranslation": "IBEX — Infrastruktur för Lightning-betalningar"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_opennode",
+			"reason": "manifest-added",
+			"englishValue": "OpenNode — Bitcoin payment processor",
+			"currentValue": null,
+			"targetTranslation": "OpenNode — Betalleverantör för Bitcoin"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_square",
+			"reason": "manifest-added",
+			"englishValue": "Square — Accept Bitcoin payments",
+			"currentValue": null,
+			"targetTranslation": "Square — Ta emot Bitcoin-betalningar"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "sources_zaprite",
+			"reason": "manifest-added",
+			"englishValue": "Zaprite — Bitcoin invoicing for businesses",
+			"currentValue": null,
+			"targetTranslation": "Zaprite — Bitcoin-fakturering för företag"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin wallets are free. Pick one that fits your business — in-person, online, or invoice-based — and start accepting Bitcoin in minutes.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-plånböcker är gratis. Välj en som passar ditt företag – på plats, online eller fakturabaserad – och börja ta emot Bitcoin på några minuter."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_invoice",
+			"reason": "manifest-added",
+			"englishValue": "Wallets for invoice-based businesses",
+			"currentValue": null,
+			"targetTranslation": "Plånböcker för fakturabaserade företag"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_invoice_intro",
+			"reason": "manifest-added",
+			"englishValue": "If you invoice clients (consulting, freelancing, B2B services), use a wallet built around invoicing. Your client pays a Bitcoin invoice in a couple of clicks.",
+			"currentValue": null,
+			"targetTranslation": "Om du fakturerar kunder (konsulttjänster, frilansuppdrag, B2B-tjänster), använd en plånbok som är byggd kring fakturering. Din kund betalar en Bitcoin-faktura med ett par klick."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_multiple",
+			"reason": "manifest-added",
+			"englishValue": "Wallets for businesses with multiple employees",
+			"currentValue": null,
+			"targetTranslation": "Plånböcker för företag med flera anställda"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_multiple_intro",
+			"reason": "manifest-added",
+			"englishValue": "If you have a team taking payments at the register, choose a wallet that supports multiple employee logins — so every employee gets their own PIN and you keep a clean audit trail of who took which payment.",
+			"currentValue": null,
+			"targetTranslation": "Om du har ett team som tar emot betalningar i kassan, välj en plånbok som stöder inloggning för flera anställda – så att varje anställd får sin egen PIN-kod och du behåller en tydlig spårbarhet över vem som tagit emot vilken betalning."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_online",
+			"reason": "manifest-added",
+			"englishValue": "Wallets for online businesses",
+			"currentValue": null,
+			"targetTranslation": "Plånböcker för onlineföretag"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_online_intro",
+			"reason": "manifest-added",
+			"englishValue": "Selling on a website? These wallets plug into your online store and accept Bitcoin from any customer, anywhere in the world — no chargebacks, no merchant account required.",
+			"currentValue": null,
+			"targetTranslation": "Säljer du via en webbplats? Dessa plånböcker kopplas in i din webbutik och tar emot Bitcoin från vilken kund som helst, var som helst i världen – inga återkrav, inget säljkonto krävs."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_sole",
+			"reason": "manifest-added",
+			"englishValue": "Wallets for individually-owned businesses",
+			"currentValue": null,
+			"targetTranslation": "Plånböcker för enskilda näringsidkare"
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_section_sole_intro",
+			"reason": "manifest-added",
+			"englishValue": "If you run a shop, café, studio, or service on your own, any of these wallets will work. Pick based on whether you want to keep payments in Bitcoin or auto-convert part of each payment to your local currency.",
+			"currentValue": null,
+			"targetTranslation": "Om du driver en butik, ett kafé, en studio eller en tjänst på egen hand fungerar vilken som helst av dessa plånböcker. Välj utifrån om du vill behålla betalningarna i Bitcoin eller automatiskt växla en del av varje betalning till din lokala valuta."
+		},
+		{
+			"namespace": "business/wallets",
+			"key": "wallets_strike_note",
+			"reason": "manifest-added",
+			"englishValue": "Strike Business lets you accept Bitcoin and Lightning payments with zero fees and instant settlement. Supports in-person, online, and invoice-based payments with optional auto-conversion to your local currency.",
+			"currentValue": null,
+			"targetTranslation": "Strike Business låter dig ta emot Bitcoin- och Lightning-betalningar med noll avgifter och omedelbar avveckling. Stöder betalningar på plats, online och fakturabaserade, med valfri automatisk växling till din lokala valuta."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s1",
+			"reason": "manifest-added",
+			"englishValue": "Lower fees, more for the business",
+			"currentValue": null,
+			"targetTranslation": "Lägre avgifter, mer kvar för företaget"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s1_c1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin payments skip the banks and credit card companies that take 2–3% from every sale. The business keeps more of what you pay — which often means better prices and better service for you.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-betalningar går förbi bankerna och kreditkortsbolagen som tar 2–3 % av varje försäljning. Företaget får behålla mer av det du betalar – vilket ofta innebär bättre priser och bättre service för dig."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s2",
+			"reason": "manifest-added",
+			"englishValue": "Instant settlement, no chargebacks",
+			"currentValue": null,
+			"targetTranslation": "Omedelbar avveckling, inga återkrav"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s2_c1",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin payments settle in seconds, directly from your wallet to the business. There's no waiting days for a bank to release funds, and no costly chargeback disputes — so the business can focus on serving customers instead of fighting fraud.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-betalningar avvecklas på några sekunder, direkt från din plånbok till företaget. Det finns ingen väntetid på dagar för att en bank ska frigöra pengarna, och inga kostsamma tvister om återkrav – så att företaget kan fokusera på att betjäna kunder istället för att bekämpa bedrägerier."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s3",
+			"reason": "manifest-added",
+			"englishValue": "Free to accept, open to everyone",
+			"currentValue": null,
+			"targetTranslation": "Gratis att ta emot, öppet för alla"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_biz_s3_c1",
+			"reason": "manifest-added",
+			"englishValue": "There are no contracts, monthly fees, or setup costs for a business to accept Bitcoin. And millions of Bitcoin users around the world actively seek out merchants that accept it — giving this business free exposure to new customers.",
+			"currentValue": null,
+			"targetTranslation": "Det finns inga kontrakt, månadsavgifter eller startkostnader för ett företag att ta emot Bitcoin. Och miljontals Bitcoin-användare runt om i världen söker aktivt efter handlare som tar emot det – vilket ger det här företaget gratis exponering mot nya kunder."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_business_cta_intro",
+			"reason": "manifest-added",
+			"englishValue": "Run a business and want to start accepting Bitcoin?",
+			"currentValue": null,
+			"targetTranslation": "Driver du ett företag och vill börja ta emot Bitcoin?"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_business_cta_link",
+			"reason": "manifest-added",
+			"englishValue": "See how it works →",
+			"currentValue": null,
+			"targetTranslation": "Se hur det fungerar →"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_for_business",
+			"reason": "manifest-added",
+			"englishValue": "Why Bitcoin is great for this business",
+			"currentValue": null,
+			"targetTranslation": "Varför Bitcoin är fantastiskt för det här företaget"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_for_business_intro",
+			"reason": "manifest-added",
+			"englishValue": "Accepting Bitcoin lets a business keep more of every sale, get paid instantly with no chargebacks, and reach a global audience of Bitcoin users — all with zero contracts and zero monthly fees.",
+			"currentValue": null,
+			"targetTranslation": "Att ta emot Bitcoin gör att ett företag får behålla mer av varje försäljning, får betalt direkt utan återkrav och når en global publik av Bitcoin-användare – allt utan kontrakt och utan månadsavgifter."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_good_for_you_intro",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin isn't just useful at the cash register — it's a better form of money that protects your savings, your privacy, and your freedom to transact. Here's a quick overview.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är inte bara användbart i kassan – det är en bättre form av pengar som skyddar ditt sparande, din integritet och din frihet att göra transaktioner. Här kommer en snabb översikt."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_hero_subtitle",
+			"reason": "manifest-added",
+			"englishValue": "You just scanned a Bitcoin Accepted Here sticker. Here's why that's great news — for this business, and for you.",
+			"currentValue": null,
+			"targetTranslation": "Du har precis skannat ett ”Bitcoin Accepted Here”-klistermärke. Här är varför det är goda nyheter – för det här företaget och för dig."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_intro_c1",
+			"reason": "manifest-added",
+			"englishValue": "The business you're at accepts Bitcoin — a modern, open-source payment network that anyone can use, anywhere in the world, without banks or middlemen taking a cut.",
+			"currentValue": null,
+			"targetTranslation": "Företaget du befinner dig hos tar emot Bitcoin – ett modernt, öppet betalningsnätverk som vem som helst kan använda, var som helst i världen, utan att banker eller mellanhänder tar en del."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_intro_c2",
+			"reason": "manifest-added",
+			"englishValue": "Below is the short version of why accepting Bitcoin is good for this business, plus why using Bitcoin is good for you as a customer.",
+			"currentValue": null,
+			"targetTranslation": "Nedan följer kortversionen av varför det är bra för det här företaget att ta emot Bitcoin, och varför det är bra för dig som kund att använda Bitcoin."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_business_label",
+			"reason": "manifest-added",
+			"englishValue": "ACCEPT BITCOIN",
+			"currentValue": null,
+			"targetTranslation": "TA EMOT BITCOIN"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_business_title",
+			"reason": "manifest-added",
+			"englishValue": "Accept Bitcoin at your business",
+			"currentValue": null,
+			"targetTranslation": "Ta emot Bitcoin i ditt företag"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_buy_label",
+			"reason": "manifest-added",
+			"englishValue": "BUY BITCOIN",
+			"currentValue": null,
+			"targetTranslation": "KÖP BITCOIN"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_buy_title",
+			"reason": "manifest-added",
+			"englishValue": "Buy your first Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Köp din första Bitcoin"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_learn_label",
+			"reason": "manifest-added",
+			"englishValue": "LEARN MORE",
+			"currentValue": null,
+			"targetTranslation": "LÄS MER"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_learn_title",
+			"reason": "manifest-added",
+			"englishValue": "Learn more about Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Lär dig mer om Bitcoin"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_wallet_label",
+			"reason": "manifest-added",
+			"englishValue": "GET A WALLET",
+			"currentValue": null,
+			"targetTranslation": "SKAFFA EN PLÅNBOK"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_next_wallet_title",
+			"reason": "manifest-added",
+			"englishValue": "Get your own Bitcoin wallet",
+			"currentValue": null,
+			"targetTranslation": "Skaffa en egen Bitcoin-plånbok"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_whats_next_heading",
+			"reason": "manifest-added",
+			"englishValue": "Where to next?",
+			"currentValue": null,
+			"targetTranslation": "Vart ska du härnäst?"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_whats_next_intro",
+			"reason": "manifest-added",
+			"englishValue": "If this is your first scan of a Bitcoin sticker, here are the most useful places to go from here.",
+			"currentValue": null,
+			"targetTranslation": "Om det är första gången du skannar ett Bitcoin-klistermärke är det här de mest användbara platserna att gå vidare till."
+		}
+	],
+	"appliedAt": "2026-04-25T21:34:49.658Z",
+	"appliedStats": {
+		"resolved": 171,
+		"unresolved": 0,
+		"filesTouched": 11,
+		"keysWritten": 171,
+		"filesCreated": 0,
+		"markerWritten": true
+	}
+}

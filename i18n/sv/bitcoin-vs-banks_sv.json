@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"bitcoin_vs_banks": "Bitcoin vs Banker",
@@ -26,16 +26,17 @@
 	"bitcoin_point_5": "Förutsägbara, låga avgifter",
 	"bitcoin_point_6": "Kan inte övertrasseras",
 	"bitcoin_point_7": "Censurresistent",
-	"point_1_summary_1": "Bitcoin är tillståndsfritt, vilket innebär att det kan användas av vem som helst med internetåtkomst utan att be om tillåtelse från någon myndighet.",
-	"point_1_summary_2": "Bitcoin fungerar utan grindvakter",
-	"point_1_summary_3": "— ingen kan neka dig åtkomst. Banker kan dock vägra att öppna konton, frysa befintliga konton eller neka tjänster baserat på sina policyer eller myndighetskrav.",
-	"point_2_summary_1": "Bitcoin-nätverket fungerar 24 timmar om dygnet, 7 dagar i veckan, 365 dagar om året utan underhållsavbrott eller helgdagar. Banker har begränsade öppettider, är stängda på helger och helgdagar och har ofta systemunderhållsperioder då tjänster inte är tillgängliga.",
-	"point_3_summary_1": "Alla Bitcoin-transaktioner registreras på en offentlig blockkedja som vem som helst kan verifiera och granska.",
+	"point_1_summary_1": "Vem som helst med en internetanslutning kan använda Bitcoin — det är",
+	"point_1_summary_2": "tillståndsfritt.",
+	"point_1_summary_3": "Banker kan vägra, frysa eller stänga konton baserat på policy eller myndighetsregler.",
+	"point_2_summary_1": "Bitcoin-nätverket körs 24/7/365 utan underhållsavbrott eller helgdagar. Banker har begränsade öppettider, är stängda på helger och har avbrott.",
+	"point_3_summary_1": "Varje Bitcoin-transaktion ligger på en publik blockkedja som vem som helst kan granska. Banker driver privata huvudböcker som kunder inte kan verifiera självständigt.",
 	"point_3_summary_2": "Banker fungerar med privata redovisningssystem och ogenomskinliga interna processer som kunder inte kan verifiera oberoende.",
-	"point_4_summary_1": "Med Bitcoin kan du hålla dina egna privata nycklar och ha full kontroll över dina pengar.",
-	"point_4_summary_2": "Lär dig mer om Bitcoin-plånböcker",
-	"point_4_summary_3": "för att förstå eget förvar. Banker håller dina pengar på sina konton och kan frysa, begränsa eller förbjuda åtkomst till dina medel när som helst.",
-	"point_5_summary_1": "Bitcoin-transaktionsavgifter är transparenta, förutsägbara och vanligtvis mycket låga. Banker har ofta dolda avgifter, månatliga kontoavgifter, övertrasseringsavgifter, överföringsavgifter, bankomatavgifter och andra straffavgifter som kan ackumuleras avsevärt över tid.",
-	"point_6_summary_1": "Bitcoin hindrar dig från att spendera pengar du inte har — du kan bara spendera Bitcoin som du faktiskt äger. Banker tillåter övertrassering (att spendera mer än ditt kontosaldo) och tar sedan ut betydande avgifter för denna 'tjänst', vilket ofta leder till kaskaderande straffavgifter.",
-	"point_7_summary_1": "Bitcoin-transaktioner är censurresistenta — när de väl har skickats till nätverket kan de inte stoppas eller ångras av någon central myndighet. Banker kan blockera, frysa, avbryta eller begränsa transaktioner baserat på sina policyer, myndighetsbeslut eller algoritmer för misstänkt aktivitet."
+	"point_4_summary_1": "Med Bitcoin håller du dina egna privata nycklar — se vår enkla guide om",
+	"point_4_summary_2": "Bitcoin-plånböcker",
+	"point_4_summary_3": ". Banker håller dina pengar och kan frysa, begränsa eller spärra dem när som helst.",
+	"point_5_summary_1": "Bitcoin-avgifter är transparenta och förutsägbara. Banker staplar dolda konto-, övertrasserings-, överförings- och bankomatavgifter över tid.",
+	"point_6_summary_1": "Bitcoin låter dig bara spendera det du faktiskt äger. Banker tillåter övertrassering och tar sedan ut kaskaderande straffavgifter för privilegiet.",
+	"point_7_summary_1": "När en Bitcoin-transaktion väl är skickad kan den inte stoppas eller ångras. Banker kan blockera, frysa eller ångra transaktioner baserat på policy eller myndighetsbeslut.",
+	"hero_title": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">banker</span>"
 }

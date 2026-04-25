@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Kontanter",
@@ -26,15 +26,16 @@
 	"bitcoin_point_5": "Decentraliserat nätverk",
 	"bitcoin_point_6": "Digitalt eget förvar",
 	"bitcoin_point_7": "Lätt att dela upp",
-	"point_1_summary_1": "Bitcoin kan skickas vart som helst i världen omedelbart via internet, medan kontanter kräver fysisk närvaro eller pålitliga mellanhänder. Du kan inte e-posta kontanter, men du kan skicka Bitcoin till vem som helst med internetanslutning på några minuter.",
-	"point_2_summary_1": "Bitcoin fungerar överallt i världen likadant — det finns inga gränser i Bitcoin-nätverket. Kontanter begränsas av geografi, växelkurser och lokalt godkännande. Försök att använda amerikanska dollar på landsbygden i Thailand eller japanska yen på landsbygden i Mexiko.",
-	"point_3_summary_1": "Stater kan och har ogiltigförklarat kontanter över en natt genom demonetiseringspolicyer, som Indien gjorde 2016 när de förbjöd vissa sedlar.",
-	"point_3_summary_2": "Även utan att förbjuda specifika sedlar urholkar stater ständigt kontanternas värde genom inflation.",
-	"point_3_summary_3": "Bitcoin kan inte ogiltigförklaras av någon stat eller myndighet — det existerar på ett globalt, decentraliserat nätverk som ingen entitet kontrollerar.",
-	"point_4_summary_1": "Kontanter kan förfalskas och att upptäcka falska sedlar är ofta svårt utan specialutrustning. Även med säkerhetsdetaljer cirkulerar fortfarande förfalskade pengar. Bitcoin använder kryptografiska bevis som gör förfalskning matematiskt omöjligt.",
-	"point_5_summary_1": "Kontanter utfärdas och kontrolleras av stater som kan trycka mer efter behag, ändra design eller förklara vissa sedlar ogiltiga. Bitcoin fungerar på ett decentraliserat nätverk där ingen enskild myndighet har kontroll över penningmängden eller reglerna.",
-	"point_6_summary_1": "Kontanter måste förvaras fysiskt, vilket gör dem sårbara för stöld, förlust, brand eller konfiskering. Stora belopp kräver kostsamma säkerhetsåtgärder.",
-	"point_6_summary_2": "Men Bitcoin kan förvaras säkert i eget förvar",
-	"point_6_summary_3": "med en smartphone-app eller en specialiserad plånbok, vilket ger dig full kontroll över dina pengar utan fysiska förvaringsrisker.",
-	"point_7_summary_1": "Kontanter har lägsta valörer — ett öre kan inte delas i mindre delar. Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket möjliggör mikrobetalningar och exakta transaktioner av valfritt belopp."
+	"point_1_summary_1": "Bitcoin rör sig över internet vart som helst på några minuter. Kontanter kräver fysisk närvaro eller pålitliga kurirer — du kan inte e-posta en 20-dollarssedel.",
+	"point_2_summary_1": "Bitcoin fungerar likadant överallt. Kontanter begränsas av geografi, växelkurser och lokal acceptans.",
+	"point_3_summary_1": "Stater kan ogiltigförklara kontanter över en natt — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indien</a> gjorde det 2016. Även utan demonetisering förlorar kontanter värde till",
+	"point_3_summary_2": "inflation.",
+	"point_3_summary_3": "Bitcoin kan inte ogiltigförklaras av någon stat eller myndighet.",
+	"point_4_summary_1": "Kontanter kan förfalskas, ibland övertygande. Bitcoin använder kryptografi som gör förfalskning matematiskt omöjligt.",
+	"point_5_summary_1": "Bitcoin har ingen central myndighet. Kontanter ges ut av stater som kan trycka mer, ändra design eller ogiltigförklara sedlar efter behag.",
+	"point_6_summary_1": "Kontanter är sårbara för stöld, brand, förlust och konfiskering. Bitcoin kan säkert",
+	"point_6_summary_2": "förvaras i eget förvar",
+	"point_6_summary_3": "på en telefon eller en hårdvaruenhet.",
+	"point_7_summary_1": "Bitcoin delas i 100 miljoner sats, vilket möjliggör mikrobetalningar i alla storlekar. Kontanter har lägsta valörer — du kan inte dela ett öre.",
+	"hero_title": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">kontanter</span>"
 }

@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"cic_header": "KALKYLATOR FÖR SAMMANSATT INFLATION",
 	"cic_description": "Använd denna kalkylator för sammansatt inflation för att ta reda på hur mycket din lön behöver öka för att hålla jämna steg med inflationen.",
-	"cic_inflation_cta": "Välj bort inflation med Bitcoin"
+	"cic_hero_subtitle": "Se hur mycket din lön behöver öka för att hålla jämna steg med inflationen.",
+	"cic_calculator_heading": "Räkna ut ditt inflationsgap",
+	"cic_cta_label": "Nästa steg",
+	"cic_inflation_cta": "Välj bort inflation med Bitcoin",
+	"cic_next_learn_inflation": "Lär dig hur inflation fungerar",
+	"cic_next_explore_topics": "Utforska fler ämnen",
+	"cic_next_explore_topics_desc": "Se hur Bitcoin hänger ihop med pengar, frihet, energi och mycket mer.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Konsumentprisindex för alla stadsbor",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 penningmängd"
 }

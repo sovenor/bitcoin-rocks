@@ -3,7 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
-	}
+	},
+	"biz_sticker_success_hero_title": "Dina klistermärken är på väg 🎉",
+	"biz_sticker_success_hero_subtitle": "Du får dina gratis ”Bitcoin Accepted Here”-klistermärken inom 2 till 4 veckor, i ett vanligt vitt kuvert med 3 klistermärken inuti.",
+	"biz_sticker_success_tips_header": "Bra ställen att sätta upp dina klistermärken på",
+	"biz_sticker_success_tip_1": "På din ytterdörr eller fönster så att kunderna ser det innan de går in",
+	"biz_sticker_success_tip_2": "Nära din kassa, kassaterminal eller betalningsyta",
+	"biz_sticker_success_tip_3": "På menyer, prislistor eller dricksburkar",
+	"biz_sticker_success_tip_4": "Sätt dem inte någonstans där du inte äger eller har tillstånd att placera dem",
+	"biz_sticker_success_more_header": "Behöver du fler klistermärken?",
+	"biz_sticker_success_more_c1": "Om 3 klistermärken inte räcker för ditt företag är du välkommen att begära ett nytt gratispaket – eller beställa i större mängd från samma tryckeri som vi använder.",
+	"biz_sticker_success_btn_order_bulk": "Beställ i större mängd",
+	"biz_sticker_success_btn_request_more": "Begär ett nytt gratispaket"
 }

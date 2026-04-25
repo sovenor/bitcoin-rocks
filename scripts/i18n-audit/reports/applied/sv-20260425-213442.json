@@ -1,0 +1,1108 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:27:42.120Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": false,
+	"markerManifestVersion": null,
+	"markerAppliedAt": null,
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 465,
+		"untranslated": 4,
+		"manifestChanged": 165,
+		"manifestAdded": 392,
+		"manifestAlreadyPresentInTarget": 1,
+		"manifestSkippedByMarker": 0,
+		"upToDate": 753,
+		"brandIdentical": 73
+	},
+	"entries": [
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "bitcoin_point_3",
+			"reason": "untranslated",
+			"englishValue": "Transparent system",
+			"currentValue": "Transparent system",
+			"targetTranslation": "Transparent system"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is permissionless, meaning anyone with internet access can use it without asking for approval from any authority.",
+			"englishValue": "Anyone with an internet connection can use Bitcoin — it's",
+			"currentValue": "Bitcoin är tillståndsfritt, vilket innebär att det kan användas av vem som helst med internetåtkomst utan att be om tillåtelse från någon myndighet.",
+			"targetTranslation": "Vem som helst med en internetanslutning kan använda Bitcoin — det är"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates without gatekeepers",
+			"englishValue": "permissionless.",
+			"currentValue": "Bitcoin fungerar utan grindvakter",
+			"targetTranslation": "tillståndsfritt."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "- no one can deny you access. Banks, however, can refuse to open accounts, freeze existing accounts, or deny services based on their policies or government regulations.",
+			"englishValue": "Banks can refuse, freeze, or close accounts based on policy or government rules.",
+			"currentValue": "— ingen kan neka dig åtkomst. Banker kan dock vägra att öppna konton, frysa befintliga konton eller neka tjänster baserat på sina policyer eller myndighetskrav.",
+			"targetTranslation": "Banker kan vägra, frysa eller stänga konton baserat på policy eller myndighetsregler."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "The Bitcoin network operates 24 hours a day, 7 days a week, 365 days a year without maintenance windows or holidays. Banks have limited operating hours, close on weekends and holidays, and often have system maintenance periods when services are unavailable.",
+			"englishValue": "The Bitcoin network runs 24/7/365 with no maintenance windows or holidays. Banks have limited hours, weekends off, and outage windows.",
+			"currentValue": "Bitcoin-nätverket fungerar 24 timmar om dygnet, 7 dagar i veckan, 365 dagar om året utan underhållsavbrott eller helgdagar. Banker har begränsade öppettider, är stängda på helger och helgdagar och har ofta systemunderhållsperioder då tjänster inte är tillgängliga.",
+			"targetTranslation": "Bitcoin-nätverket körs 24/7/365 utan underhållsavbrott eller helgdagar. Banker har begränsade öppettider, är stängda på helger och har avbrott."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "All Bitcoin transactions are recorded on a public blockchain that anyone can verify and audit.",
+			"englishValue": "Every Bitcoin transaction is on a public blockchain anyone can audit. Banks run private ledgers customers can't independently verify.",
+			"currentValue": "Alla Bitcoin-transaktioner registreras på en offentlig blockkedja som vem som helst kan verifiera och granska.",
+			"targetTranslation": "Varje Bitcoin-transaktion ligger på en publik blockkedja som vem som helst kan granska. Banker driver privata huvudböcker som kunder inte kan verifiera självständigt."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "With Bitcoin, you can hold your own private keys and have complete control over your money.",
+			"englishValue": "With Bitcoin, you hold your own private keys — see our simple",
+			"currentValue": "Med Bitcoin kan du hålla dina egna privata nycklar och ha full kontroll över dina pengar.",
+			"targetTranslation": "Med Bitcoin håller du dina egna privata nycklar — se vår enkla guide om"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"englishValue": "Bitcoin wallets",
+			"currentValue": "Lär dig mer om Bitcoin-plånböcker",
+			"targetTranslation": "Bitcoin-plånböcker"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "to understand self-custody. Banks hold your money in their accounts and can freeze, limit, or restrict access to your funds at any time.",
+			"englishValue": "guide. Banks hold your money and can freeze, limit, or restrict it at any time.",
+			"currentValue": "för att förstå eget förvar. Banker håller dina pengar på sina konton och kan frysa, begränsa eller förbjuda åtkomst till dina medel när som helst.",
+			"targetTranslation": ". Banker håller dina pengar och kan frysa, begränsa eller spärra dem när som helst."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin transaction fees are transparent, predictable, and typically very low. Banks often have hidden fees, monthly account fees, overdraft charges, wire transfer fees, ATM fees, and other penalties that can add up significantly over time.",
+			"englishValue": "Bitcoin fees are transparent and predictable. Banks stack on hidden account, overdraft, wire, and ATM fees over time.",
+			"currentValue": "Bitcoin-transaktionsavgifter är transparenta, förutsägbara och vanligtvis mycket låga. Banker har ofta dolda avgifter, månatliga kontoavgifter, övertrasseringsavgifter, överföringsavgifter, bankomatavgifter och andra straffavgifter som kan ackumuleras avsevärt över tid.",
+			"targetTranslation": "Bitcoin-avgifter är transparenta och förutsägbara. Banker staplar dolda konto-, övertrasserings-, överförings- och bankomatavgifter över tid."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin prevents you from spending money you don't have - you can only spend Bitcoin that you actually own. Banks allow overdrafts (spending more than your account balance) and then charge substantial fees for this 'service,' often leading to cascading penalty charges.",
+			"englishValue": "Bitcoin only lets you spend what you actually own. Banks allow overdrafts, then charge cascading penalty fees for the privilege.",
+			"currentValue": "Bitcoin hindrar dig från att spendera pengar du inte har — du kan bara spendera Bitcoin som du faktiskt äger. Banker tillåter övertrassering (att spendera mer än ditt kontosaldo) och tar sedan ut betydande avgifter för denna 'tjänst', vilket ofta leder till kaskaderande straffavgifter.",
+			"targetTranslation": "Bitcoin låter dig bara spendera det du faktiskt äger. Banker tillåter övertrassering och tar sedan ut kaskaderande straffavgifter för privilegiet."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin transactions are censorship resistant - once broadcast to the network, they cannot be stopped or reversed by any central authority. Banks can block, freeze, reverse, or restrict transactions based on their policies, government orders, or suspicious activity algorithms.",
+			"englishValue": "Once broadcast, Bitcoin transactions can't be stopped or reversed. Banks can block, freeze, or reverse transactions based on policy or government orders.",
+			"currentValue": "Bitcoin-transaktioner är censurresistenta — när de väl har skickats till nätverket kan de inte stoppas eller ångras av någon central myndighet. Banker kan blockera, frysa, avbryta eller begränsa transaktioner baserat på sina policyer, myndighetsbeslut eller algoritmer för misstänkt aktivitet.",
+			"targetTranslation": "När en Bitcoin-transaktion väl är skickad kan den inte stoppas eller ångras. Banker kan blockera, frysa eller ångra transaktioner baserat på policy eller myndighetsbeslut."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bonds are only 'risk-free' in nominal dollar terms, meaning you'll get your dollars back if you hold to maturity. However, this ignores inflation risk, interest rate risk, and the possibility that those dollars will be worth much less when you get them back.",
+			"englishValue": "Bonds are only 'risk-free' nominally — inflation, interest-rate moves, and default risk all eat real returns.",
+			"currentValue": "Obligationer är 'riskfria' bara i nominella dollartermer, vilket innebär att du får tillbaka dina dollar om du håller till förfall. Men detta ignorerar inflationsrisk, ränterisk och möjligheten att dessa dollar kan vara mycket mindre värda när de återbetalas.",
+			"targetTranslation": "Obligationer är 'riskfria' bara nominellt — inflation, ränterörelser och fallissemangsrisk äter alla upp den reella avkastningen."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has clear, transparent risks (volatility) but no hidden counterparty risk - you either own your Bitcoin or you don't.",
+			"englishValue": "Bitcoin has transparent volatility but no hidden counterparty risk.",
+			"currentValue": "Bitcoin har tydliga, transparenta risker (volatilitet) men ingen dold motpartsrisk — antingen äger du din Bitcoin eller inte.",
+			"targetTranslation": "Bitcoin har transparent volatilitet men ingen dold motpartsrisk."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "When inflation is higher than bond yields, bondholders lose purchasing power every year. A 2% bond yield with 4% inflation means you're losing 2% of real value annually.",
+			"englishValue": "When",
+			"currentValue": "När inflationen är högre än obligationsavkastningen förlorar obligationsinnehavare köpkraft varje år. En obligationsavkastning på 2% vid 4% inflation innebär att du förlorar 2% i reellt värde per år.",
+			"targetTranslation": "När"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn more about inflation.",
+			"englishValue": "inflation",
+			"currentValue": "Lär dig mer om inflation.",
+			"targetTranslation": "inflationen"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin's fixed supply of 21 million coins means it can't be inflated away, but bonds can be devalued by money printing.",
+			"englishValue": "outpaces bond yields, bondholders lose real purchasing power every year. Bitcoin's 21-million cap can't be inflated away.",
+			"currentValue": "Bitcoins fasta utbud på 21 miljoner mynt innebär att det inte kan urholkas av inflation, men obligationer kan urholkas genom penningtryckande.",
+			"targetTranslation": "överstiger obligationsavkastningen förlorar obligationsinnehavare reell köpkraft varje år. Bitcoins tak på 21 miljoner kan inte urholkas av inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "During financial crises, bond markets can freeze up and become illiquid. Banks like Silicon Valley Bank got stuck holding bonds that lost significant value when interest rates rose, contributing to their collapse.",
+			"englishValue": "Bond markets can freeze in crises — Silicon Valley Bank collapsed partly because it was stuck holding bonds that lost value. See how",
+			"currentValue": "Under finanskriser kan obligationsmarknaderna frysa och bli illikvida. Banker som Silicon Valley Bank satt fast med obligationsinnehav som tappade avsevärt i värde när räntorna steg, vilket bidrog till deras kollaps.",
+			"targetTranslation": "Obligationsmarknader kan frysa under kriser — Silicon Valley Bank kollapsade delvis för att de satt fast med obligationer som tappade värde. Se hur"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn how Silicon Valley Bank failed and why Bitcoin is different.",
+			"englishValue": "bank runs",
+			"currentValue": "Lär dig hur Silicon Valley Bank kollapsade och varför Bitcoin är annorlunda.",
+			"targetTranslation": "bankrusningar"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin trades 24/7 globally and has never had a liquidity crisis - you can always find a buyer or seller.",
+			"englishValue": "happen and why Bitcoin avoids them. Bitcoin trades 24/7 globally with no liquidity crises.",
+			"currentValue": "Bitcoin handlas 24/7 globalt och har aldrig upplevt en likviditetskris — du kan alltid hitta en köpare eller säljare.",
+			"targetTranslation": "uppstår och varför Bitcoin undgår dem. Bitcoin handlas globalt 24/7 utan likviditetskriser."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Treasury auctions can fail when there aren't enough buyers for government debt. This happened multiple times in recent years, including weak demand for 10-year bonds in 2022 and 30-year bonds in 2023.",
+			"englishValue": "Treasury auctions can fail when there aren't enough buyers — see the",
+			"currentValue": "Auktioner av statsobligationer kan misslyckas när det inte finns tillräckligt med köpare för statsskulden. Detta har hänt flera gånger de senaste åren, inklusive svag efterfrågan på 10-åriga obligationer 2022 och 30-åriga obligationer 2023.",
+			"targetTranslation": "Auktioner av statsobligationer kan misslyckas när det inte finns tillräckligt med köpare — se den"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn more about these failed treasury auctions.",
+			"englishValue": "weak 2022 auction.",
+			"currentValue": "Lär dig mer om dessa misslyckade auktioner av statsobligationer.",
+			"targetTranslation": "svaga auktionen 2022."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin's price is discovered through continuous global markets with no central auction that can fail.",
+			"englishValue": "Bitcoin's price is discovered continuously on open markets with no central auction that can fail.",
+			"currentValue": "Bitcoins pris bestäms genom kontinuerliga globala marknader utan en central auktion som kan misslyckas.",
+			"targetTranslation": "Bitcoins pris bestäms kontinuerligt på öppna marknader utan en central auktion som kan misslyckas."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bond yields are fixed when you buy them. Even if the economy grows rapidly or the currency devalues significantly, your return stays the same.",
+			"englishValue": "Bond yields are fixed at purchase. Even if the economy booms or the currency collapses, your return stays the same.",
+			"currentValue": "Obligationsavkastningar är fasta vid köptillfället. Även om ekonomin växer snabbt eller valutan deprecierar avsevärt förblir din avkastning densamma.",
+			"targetTranslation": "Obligationsavkastningar är fasta vid köptillfället. Även om ekonomin blomstrar eller valutan kollapsar förblir din avkastning densamma."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has the potential for significant appreciation as adoption grows and the fixed supply meets increasing demand.",
+			"englishValue": "Bitcoin has room for significant appreciation as adoption grows and demand meets fixed supply.",
+			"currentValue": "Bitcoin har potential för betydande värdestegring när användningen ökar och det fasta utbudet möter ökande efterfrågan.",
+			"targetTranslation": "Bitcoin har utrymme för betydande värdestegring när användningen växer och efterfrågan möter ett fast utbud."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Most people hold bonds through intermediaries like banks, brokers, or funds, creating counterparty risk. You don't actually own the bonds directly.",
+			"englishValue": "Most bonds are held through banks or brokers, adding counterparty risk. Bitcoin can be self-custodied with a",
+			"currentValue": "De flesta människor håller obligationer genom mellanhänder som banker, mäklare eller fonder, vilket skapar motpartsrisk. Du äger egentligen inte obligationerna direkt.",
+			"targetTranslation": "De flesta obligationer hålls via banker eller mäklare, vilket lägger till motpartsrisk. Bitcoin kan förvaras i eget förvar med en"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "With Bitcoin, you can take direct ownership through self-custody, eliminating counterparty risk entirely.",
+			"englishValue": "wallet",
+			"currentValue": "Med Bitcoin kan du ta direkt ägande genom eget förvar, vilket helt eliminerar motpartsrisk.",
+			"targetTranslation": "plånbok"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bonds depend entirely on the government's ability and willingness to pay. If the government faces fiscal crisis, defaults, or decides to inflate away the debt, bondholders suffer.",
+			"englishValue": "Bonds depend entirely on governments paying back. If a government defaults or inflates away its debt, bondholders lose.",
+			"currentValue": "Obligationer är helt beroende av statens förmåga och vilja att betala. Om staten möter en fiskalkris, fallerar eller väljer att inflatera bort skulden drabbas obligationsinnehavarna.",
+			"targetTranslation": "Obligationer är helt beroende av att stater betalar tillbaka. Om en stat fallerar eller urholkar sin skuld med inflation förlorar obligationsinnehavarna."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates independently of any government and cannot be controlled, inflated, or defaulted on by political authorities.",
+			"englishValue": "Bitcoin operates independently of any government or political authority.",
+			"currentValue": "Bitcoin fungerar oberoende av någon stat och kan inte kontrolleras, infleras eller urholkas av politiska myndigheter.",
+			"targetTranslation": "Bitcoin fungerar oberoende av varje stat eller politisk myndighet."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be sent anywhere in the world instantly over the Internet, while cash requires physical presence or trusted intermediaries. You can't email cash, but you can send Bitcoin to anyone with an Internet connection in minutes.",
+			"englishValue": "Bitcoin moves over the internet anywhere in minutes. Cash needs physical presence or trusted couriers — you can't email a $20 bill.",
+			"currentValue": "Bitcoin kan skickas vart som helst i världen omedelbart via internet, medan kontanter kräver fysisk närvaro eller pålitliga mellanhänder. Du kan inte e-posta kontanter, men du kan skicka Bitcoin till vem som helst med internetanslutning på några minuter.",
+			"targetTranslation": "Bitcoin rör sig över internet vart som helst på några minuter. Kontanter kräver fysisk närvaro eller pålitliga kurirer — du kan inte e-posta en 20-dollarssedel."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin works the same way everywhere in the world - there are no borders in the Bitcoin network. Cash is limited by geography, exchange rates, and local acceptance. Try using US dollars in rural Thailand or Japanese yen in rural Mexico.",
+			"englishValue": "Bitcoin works the same way everywhere. Cash is limited by geography, exchange rates, and local acceptance.",
+			"currentValue": "Bitcoin fungerar överallt i världen likadant — det finns inga gränser i Bitcoin-nätverket. Kontanter begränsas av geografi, växelkurser och lokalt godkännande. Försök att använda amerikanska dollar på landsbygden i Thailand eller japanska yen på landsbygden i Mexiko.",
+			"targetTranslation": "Bitcoin fungerar likadant överallt. Kontanter begränsas av geografi, växelkurser och lokal acceptans."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Governments can and do invalidate cash overnight through demonetization policies, like India did in 2016 when they banned certain banknotes.",
+			"englishValue": "Governments can invalidate cash overnight — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> did it in 2016. Even without demonetization, cash loses value to",
+			"currentValue": "Stater kan och har ogiltigförklarat kontanter över en natt genom demonetiseringspolicyer, som Indien gjorde 2016 när de förbjöd vissa sedlar.",
+			"targetTranslation": "Stater kan ogiltigförklara kontanter över en natt — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indien</a> gjorde det 2016. Även utan demonetisering förlorar kontanter värde till"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Even without banning certain banknotes, governments constantly devalue cash through inflation.",
+			"englishValue": "inflation.",
+			"currentValue": "Även utan att förbjuda specifika sedlar urholkar stater ständigt kontanternas värde genom inflation.",
+			"targetTranslation": "inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin cannot be invalidated by any government or authority - it exists on a global, decentralized network that no single entity controls.",
+			"englishValue": "Bitcoin can't be invalidated by any government or authority.",
+			"currentValue": "Bitcoin kan inte ogiltigförklaras av någon stat eller myndighet — det existerar på ett globalt, decentraliserat nätverk som ingen entitet kontrollerar.",
+			"targetTranslation": "Bitcoin kan inte ogiltigförklaras av någon stat eller myndighet."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Cash can be counterfeited, and it's often difficult to detect fake bills without special equipment. Even with security features, counterfeit cash continues to circulate. Bitcoin uses cryptographic proof that makes counterfeiting mathematically impossible.",
+			"englishValue": "Cash can be counterfeited, sometimes convincingly. Bitcoin uses cryptography that makes counterfeiting mathematically impossible.",
+			"currentValue": "Kontanter kan förfalskas och att upptäcka falska sedlar är ofta svårt utan specialutrustning. Även med säkerhetsdetaljer cirkulerar fortfarande förfalskade pengar. Bitcoin använder kryptografiska bevis som gör förfalskning matematiskt omöjligt.",
+			"targetTranslation": "Kontanter kan förfalskas, ibland övertygande. Bitcoin använder kryptografi som gör förfalskning matematiskt omöjligt."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Cash is issued and controlled by governments, who can print more at will, change designs, or declare certain bills invalid. Bitcoin operates on a decentralized network where no single authority has control over the money supply or rules.",
+			"englishValue": "Bitcoin has no central authority. Cash is issued by governments that can print more, change designs, or invalidate notes at will.",
+			"currentValue": "Kontanter utfärdas och kontrolleras av stater som kan trycka mer efter behag, ändra design eller förklara vissa sedlar ogiltiga. Bitcoin fungerar på ett decentraliserat nätverk där ingen enskild myndighet har kontroll över penningmängden eller reglerna.",
+			"targetTranslation": "Bitcoin har ingen central myndighet. Kontanter ges ut av stater som kan trycka mer, ändra design eller ogiltigförklara sedlar efter behag."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Cash must be stored physically, making it vulnerable to theft, loss, fire, or confiscation. Large amounts require expensive security measures.",
+			"englishValue": "Cash is vulnerable to theft, fire, loss, and confiscation. Bitcoin can be securely",
+			"currentValue": "Kontanter måste förvaras fysiskt, vilket gör dem sårbara för stöld, förlust, brand eller konfiskering. Stora belopp kräver kostsamma säkerhetsåtgärder.",
+			"targetTranslation": "Kontanter är sårbara för stöld, brand, förlust och konfiskering. Bitcoin kan säkert"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "But Bitcoin can be securely stored in self-custody",
+			"englishValue": "self-custodied",
+			"currentValue": "Men Bitcoin kan förvaras säkert i eget förvar",
+			"targetTranslation": "förvaras i eget förvar"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "using a smartphone app or specialized wallet, giving you complete control over your money without physical storage risks.",
+			"englishValue": "on a phone or hardware device.",
+			"currentValue": "med en smartphone-app eller en specialiserad plånbok, vilket ger dig full kontroll över dina pengar utan fysiska förvaringsrisker.",
+			"targetTranslation": "på en telefon eller en hårdvaruenhet."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Cash has minimum denominations - you can't split a penny into smaller parts. Bitcoin can be divided into 100 million smaller units called satoshis, enabling micropayments and precise transactions of any amount.",
+			"englishValue": "Bitcoin divides into 100 million sats, enabling micropayments of any size. Cash has minimum denominations — you can't split a penny.",
+			"currentValue": "Kontanter har lägsta valörer — ett öre kan inte delas i mindre delar. Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket möjliggör mikrobetalningar och exakta transaktioner av valfritt belopp.",
+			"targetTranslation": "Bitcoin delas i 100 miljoner sats, vilket möjliggör mikrobetalningar i alla storlekar. Kontanter har lägsta valörer — du kan inte dela ett öre."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_10_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is the most secure computing network that has ever existed and has never been hacked. CBDCs rely on governments and banks to secure the network, which have been hacked countless times throughout history.",
+			"englishValue": "Bitcoin is the most secure computing network ever built and has never been hacked. CBDCs rely on banks and governments that have been hacked countless times.",
+			"currentValue": "Bitcoin är det säkraste datornätverket som någonsin funnits och har aldrig hackats. CBDC förlitar sig på stater och banker för att säkra nätverket, och dessa har hackats otaliga gånger genom historien.",
+			"targetTranslation": "Bitcoin är det säkraste datornätverk som någonsin byggts och har aldrig hackats. CBDC:er förlitar sig på banker och stater som har hackats otaliga gånger."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is designed to give you total control over your money.",
+			"englishValue": "Nobody can stop you from transacting with Bitcoin. CBDCs are designed so governments and central banks can control every payment, limiting your privacy and freedom.",
+			"currentValue": "Bitcoin är utformat för att ge dig full kontroll över dina pengar.",
+			"targetTranslation": "Ingen kan hindra dig från att transagera med Bitcoin. CBDC:er är utformade så att stater och centralbanker kan kontrollera varje betalning, vilket begränsar din integritet och frihet."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin never expires and has no monthly fees.",
+			"englishValue": "Bitcoin never expires and has no monthly fees. CBDCs can be programmed to expire, preventing you from saving for the future.",
+			"currentValue": "Bitcoin löper aldrig ut och har inga månatliga avgifter.",
+			"targetTranslation": "Bitcoin löper aldrig ut och har inga månatliga avgifter. CBDC:er kan programmeras att löpa ut, vilket hindrar dig från att spara för framtiden."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. CBDCs have no cap on supply, allowing governments to expand money at will — which causes",
+			"currentValue": "Bitcoin har ett fast tak på 21 miljoner BTC som någonsin kommer att finnas.",
+			"targetTranslation": "Bitcoin har ett fast tak på 21 miljoner BTC. CBDC:er har inget tak på utbudet, vilket låter stater expandera penningmängden efter behag — vilket orsakar"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "CBDCs, much like the government currencies we use today, have no cap on total supply. This lack of cap on total supply allows the government to expand the money supply.",
+			"englishValue": "inflation.",
+			"currentValue": "CBDC har, liksom de statliga valutor vi använder idag, ingen gräns för det totala utbudet. Denna avsaknad av tak gör det möjligt för staten att expandera penningmängden.",
+			"targetTranslation": "inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin addresses are pseudonymous, which means they are not linked to your real name or identity. CBDCs are directly linked to your real name and identity which enables massive financial surveillance and censorship.",
+			"englishValue": "Bitcoin addresses aren't tied to your real identity. CBDCs link directly to government ID, enabling mass financial surveillance and censorship.",
+			"currentValue": "Bitcoin-adresser är pseudonyma, vilket innebär att de inte är kopplade till ditt riktiga namn eller identitet. CBDC är direkt kopplade till ditt riktiga namn och identitet, vilket möjliggör massiv finansiell övervakning och censur.",
+			"targetTranslation": "Bitcoin-adresser är inte kopplade till din riktiga identitet. CBDC:er kopplas direkt till statligt ID, vilket möjliggör massiv finansiell övervakning och censur."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"englishValue": "Bitcoin's rules are validated by tens of thousands of independent nodes. CBDCs are centralized in government and central-bank hands, which hold complete control over the network.",
+			"currentValue": "Bitcoin-nätverket är decentraliserat.",
+			"targetTranslation": "Bitcoins regler valideras av tiotusentals oberoende noder. CBDC:er är centraliserade hos staten och centralbanker, som har full kontroll över nätverket."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin allows anyone to run a node that verifies the rules of the network are being followed. CBDCs don't allow anyone to run nodes and rely on trust in the government and central banks.",
+			"englishValue": "Anyone can run a Bitcoin node to verify the rules of the network. CBDCs don't allow users to run nodes — you have to trust the central authority.",
+			"currentValue": "Bitcoin låter vem som helst köra en nod som verifierar att nätverkets regler följs. CBDC låter ingen köra noder och förlitar sig på tillit till staten och centralbankerna.",
+			"targetTranslation": "Vem som helst kan köra en Bitcoin-nod och verifiera nätverkets regler. CBDC:er låter inte användare köra noder — du måste lita på den centrala myndigheten."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is designed to make it impossible for others to freeze your money. CBDCs are designed to make it easy for governments and central banks to freeze your money.",
+			"englishValue": "Self-custodied Bitcoin can't be frozen by anyone. CBDCs are designed so governments and central banks can freeze accounts instantly.",
+			"currentValue": "Bitcoin är utformat för att göra det omöjligt för andra att frysa dina pengar. CBDC är utformade för att göra det enkelt för stater och centralbanker att frysa dina pengar.",
+			"targetTranslation": "Bitcoin i eget förvar kan inte frysas av någon. CBDC:er är utformade så att stater och centralbanker kan frysa konton omedelbart."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is designed to give you full control over your money.",
+			"englishValue": "Bitcoin gives you full control over your money when you self-custody it with a",
+			"currentValue": "Bitcoin är utformat för att ge dig full kontroll över dina pengar.",
+			"targetTranslation": "Bitcoin ger dig full kontroll över dina pengar när du har det i eget förvar med en"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Just make sure you withdraw it to a self-custody wallet.",
+			"englishValue": "wallet.",
+			"currentValue": "Se bara till att ta ut det till en plånbok med eget förvar.",
+			"targetTranslation": "plånbok."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "When you self-custody your bitcoin, no one can stop you from accessing your money.",
+			"englishValue": "CBDCs require trusting custodians like banks or governments to hold your money for you.",
+			"currentValue": "När du har bitcoin i eget förvar kan ingen hindra dig från att komma åt dina pengar.",
+			"targetTranslation": "CBDC:er kräver att du litar på förvarare som banker eller stater för att hålla dina pengar åt dig."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a predictable monetary policy that is fixed in code and can't be changed. CBDCs, like our currencies today, have a monetary policy that can easily be changed.",
+			"englishValue": "Bitcoin's monetary policy is fixed in code and can't be changed. CBDCs can be reprogrammed at will by politicians, causing",
+			"currentValue": "Bitcoin har en förutsägbar penningpolitik som är fast i koden och inte kan ändras. CBDC har, liksom våra valutor idag, en penningpolitik som enkelt kan ändras.",
+			"targetTranslation": "Bitcoins penningpolitik är fast i koden och kan inte ändras. CBDC:er kan omprogrammeras efter behag av politiker, vilket orsakar"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "This results in inflation when politicians print too much money.",
+			"englishValue": "inflation",
+			"currentValue": "Det resulterar i inflation när politiker trycker för mycket pengar.",
+			"targetTranslation": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin's protocol has remained fundamentally unchanged since 2009, providing predictable rules that cannot be easily altered. Most crypto projects frequently update their protocols, change tokenomics, or fork into new versions, creating uncertainty for users.",
+			"englishValue": "Bitcoin's protocol has stayed fundamentally the same since 2009, providing predictable rules. Most crypto projects constantly change protocols, tokenomics, or fork into new versions.",
+			"currentValue": "Bitcoins protokoll har förblivit i stort sett oförändrat sedan 2009, vilket ger förutsägbara regler som inte enkelt kan ändras. De flesta kryptoprojekt uppdaterar ofta sina protokoll, ändrar tokenomics eller förgrenar sig till nya versioner, vilket skapar osäkerhet för användare.",
+			"targetTranslation": "Bitcoins protokoll har varit i grunden detsamma sedan 2009 och ger förutsägbara regler. De flesta kryptoprojekt ändrar ständigt protokoll, tokenomics eller förgrenar sig till nya versioner."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates on a truly decentralized network with tens of thousands of independent nodes worldwide. Many crypto projects are controlled by foundations, companies, or small groups of developers who can make unilateral decisions about the protocol's future.",
+			"englishValue": "Bitcoin runs on tens of thousands of independent nodes worldwide. Most crypto projects are controlled by foundations, companies, or small dev teams that can make unilateral changes.",
+			"currentValue": "Bitcoin fungerar på ett genuint decentraliserat nätverk med tiotusentals oberoende noder över hela världen. Många kryptoprojekt kontrolleras av stiftelser, företag eller små grupper av utvecklare som ensidigt kan fatta beslut om protokollets framtid.",
+			"targetTranslation": "Bitcoin körs på tiotusentals oberoende noder över hela världen. De flesta kryptoprojekt kontrolleras av stiftelser, företag eller små utvecklarteam som kan göra ensidiga ändringar."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million coins that will ever exist, making it the scarcest digital asset. Most crypto projects have unlimited supplies, inflationary mechanisms, or can mint new tokens at will, diluting holder value over time.",
+			"englishValue": "Bitcoin has a hard cap of 21 million coins — the scarcest digital asset. Most crypto projects have unlimited supplies or mechanisms to mint new tokens at will, diluting holders.",
+			"currentValue": "Bitcoin har ett fast tak på 21 miljoner mynt som någonsin kommer att finnas, vilket gör det till den mest knappa digitala tillgången. De flesta kryptoprojekt har obegränsat utbud, inflationsmekanismer eller möjlighet att prägla nya tokens godtyckligt, vilket späder ut innehavarnas värde över tid.",
+			"targetTranslation": "Bitcoin har ett fast tak på 21 miljoner mynt — den knappaste digitala tillgången. De flesta kryptoprojekt har obegränsat utbud eller mekanismer för att prägla nya tokens efter behag, vilket späder ut innehavarna."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has one simple purpose: peer-to-peer digital money. Anyone can understand and use it with basic knowledge. Many crypto projects involve complex smart contracts, DeFi protocols, or governance mechanisms that require technical expertise to use safely.",
+			"englishValue": "Bitcoin has one purpose: peer-to-peer digital money. Anyone can understand and use it. Most crypto involves complex smart contracts or DeFi that require technical expertise to use safely.",
+			"currentValue": "Bitcoin har ett enda enkelt syfte: peer-to-peer digitala pengar. Vem som helst kan förstå och använda det med grundläggande kunskap. Många kryptoprojekt involverar komplexa smarta kontrakt, DeFi-protokoll eller styrningsmekanismer som kräver teknisk expertis för säker användning.",
+			"targetTranslation": "Bitcoin har ett enda syfte: peer-to-peer digitala pengar. Vem som helst kan förstå och använda det. Det mesta inom krypto involverar komplexa smarta kontrakt eller DeFi som kräver teknisk expertis för säker användning."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin uses Proof of Work consensus, which has been battle-tested for over 15 years without a single successful attack on the main network. Many crypto projects use experimental consensus mechanisms like Proof of Stake or delegated systems that haven't proven their long-term security.",
+			"englishValue": "Bitcoin's Proof of Work has run without a successful attack on the main network for over 15 years. Most crypto projects use experimental consensus that hasn't been battle-tested.",
+			"currentValue": "Bitcoin använder Proof of Work-konsensus som har stridstestats i över 15 år utan en enda framgångsrik attack på huvudnätverket. Många kryptoprojekt använder experimentella konsensusmekanismer som Proof of Stake eller delegerade system som ännu inte har bevisat sin långsiktiga säkerhet.",
+			"targetTranslation": "Bitcoins Proof of Work har körts utan en framgångsrik attack på huvudnätverket i över 15 år. De flesta kryptoprojekt använder experimentell konsensus som inte stridstestats."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin serves as digital money - a store of value and medium of exchange. Most crypto tokens are utility tokens for specific platforms, governance tokens, or speculative assets with unclear real-world value propositions.",
+			"englishValue": "Bitcoin is digital money — a store of value and medium of exchange. Most crypto tokens are speculative utility or governance tokens with unclear real-world value.",
+			"currentValue": "Bitcoin fungerar som digitala pengar — en värdebevarare och ett bytesmedel. De flesta kryptotokens är nyttotokens för specifika plattformar, styrningstokens eller spekulativa tillgångar med oklart värdeerbjudande.",
+			"targetTranslation": "Bitcoin är digitala pengar — en värdebevarare och ett bytesmedel. De flesta kryptotokens är spekulativa nytto- eller styrningstokens med oklart värde i den verkliga världen."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin becomes stronger under attack and has survived every crisis, ban, and criticism thrown at it. Most crypto projects are fragile and can collapse from regulatory pressure, technical failures, or market downturns.",
+			"englishValue": "Bitcoin grows stronger under attack and has survived every crisis, ban, and criticism. Most crypto projects collapse under regulatory, technical, or market pressure.",
+			"currentValue": "Bitcoin blir starkare under attack och har överlevt varje kris, förbud och kritik som riktats mot det. De flesta kryptoprojekt är bräckliga och kan kollapsa under regulatoriskt tryck, tekniska fel eller marknadsnedgångar.",
+			"targetTranslation": "Bitcoin blir starkare under attack och har överlevt varje kris, förbud och kritik. De flesta kryptoprojekt kollapsar under regulatoriskt, tekniskt eller marknadstryck."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_8_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has no CEO, no company behind it, and no single point of failure. Many crypto projects are backed by venture capital firms, have identifiable leadership teams, or depend on specific companies for their continued operation.",
+			"englishValue": "Bitcoin has no CEO, no company, no single point of failure. Most crypto projects depend on VCs, specific leadership, or one company's survival.",
+			"currentValue": "Bitcoin har ingen VD, inget företag bakom sig och ingen enskild felkälla. Många kryptoprojekt stöds av riskkapitalbolag, har identifierbart ledarskap eller är beroende av specifika företag för sin fortsatta drift.",
+			"targetTranslation": "Bitcoin har ingen VD, inget företag, ingen enskild felkälla. De flesta kryptoprojekt är beroende av riskkapitalbolag, specifikt ledarskap eller ett enda företags överlevnad."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is perfectly fungible, meaning every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Fine art is non-fungible by nature, with each piece being unique in its creation, history, condition, and provenance, making direct comparisons and valuations extremely difficult.",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every artwork is unique — different creation, history, condition, and provenance make direct comparisons extremely difficult.",
+			"currentValue": "Bitcoin är perfekt utbytbar, vilket innebär att varje bitcoin är identisk och utbytbar mot en annan — en bitcoin är lika med en bitcoin var som helst i världen. Konst är av naturen icke-utbytbar, där varje verk är unikt i sitt skapande, historia, skick och proveniens, vilket gör direkta jämförelser och värderingar extremt svåra.",
+			"targetTranslation": "Varje bitcoin är identisk och utbytbar. Varje konstverk är unikt — olika skapande, historia, skick och proveniens gör direkta jämförelser extremt svåra."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin trades on a global 24/7 market where anyone with internet access can buy or sell instantly. Fine art requires specialized auction houses like Sotheby's or Christie's, private dealers, or exclusive galleries. Sales can take months to arrange and complete, with limited market access and irregular trading opportunities.",
+			"englishValue": "Bitcoin trades 24/7 on a global market accessible to anyone. Fine art requires specialized auction houses, private dealers, or galleries and can take months to sell.",
+			"currentValue": "Bitcoin handlas på en global marknad 24/7 där vem som helst med internetåtkomst kan köpa eller sälja omedelbart. Konst kräver specialiserade auktionshus som Sotheby's eller Christie's, privata handlare eller exklusiva gallerier. Försäljning kan ta månader och marknadstillgången är begränsad.",
+			"targetTranslation": "Bitcoin handlas 24/7 på en global marknad som är tillgänglig för vem som helst. Konst kräver specialiserade auktionshus, privata handlare eller gallerier och kan ta månader att sälja."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Buying or selling bitcoin typically costs less than 1% in fees, often much less. Fine art sales involve substantial costs including buyer's premiums (10-25%), seller's commissions (10-15%), insurance, transportation, storage, and authentication fees. These combined costs can easily exceed 30-40% of the artwork's value in a single transaction.",
+			"englishValue": "Buying or selling Bitcoin costs under 1% in fees, often much less. Art sales rack up 30–40% in buyer's premiums, commissions, insurance, transport, and authentication fees.",
+			"currentValue": "Att köpa eller sälja bitcoin kostar vanligtvis mindre än 1% i avgifter, ofta mycket mindre. Att sälja konst innebär betydande kostnader inklusive köparpremie (10–25%), säljarens provision (10–15%), försäkring, frakt, förvaring och autentiseringsavgifter. Dessa kombinerade kostnader kan lätt överstiga 30–40% av verkets värde i en enda transaktion.",
+			"targetTranslation": "Att köpa eller sälja Bitcoin kostar mindre än 1% i avgifter, ofta mycket mindre. Konstförsäljning drar på sig 30–40% i köparpremier, provisioner, försäkring, frakt och autentiseringsavgifter."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size from microtransactions to large purchases. Fine art cannot be divided - you cannot own a fraction of a painting or sell just part of a sculpture. This indivisibility limits investment flexibility and liquidity options.",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture without counterparty risk.",
+			"currentValue": "Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket gör det idealiskt för transaktioner i alla storlekar. Konst kan inte delas — du kan inte äga en bråkdel av en målning eller sälja bara en del av en skulptur. Denna odelbarhet begränsar investeringsflexibiliteten.",
+			"targetTranslation": "Bitcoin delas i 100 miljoner sats, vilket gör det perfekt för transaktioner i alla storlekar. Du kan inte äga en bråkdel av en målning eller ett hörn av en skulptur utan motpartsrisk."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin ownership and authenticity can be cryptographically verified on the blockchain by anyone with basic technical knowledge. Fine art requires expensive expert authentication, provenance research, and scientific analysis. Even with expert verification, forgeries regularly fool the art world, and authentication disputes can destroy an artwork's value overnight. Bitcoin, on the other hand, cannot be forged or counterfeited.",
+			"englishValue": "Bitcoin ownership and authenticity can be cryptographically verified by anyone on-chain. Art authentication is expensive, slow, and still routinely fooled by forgers — destroying an artwork's value overnight.",
+			"currentValue": "Bitcoins ägande och äkthet kan verifieras kryptografiskt på blockkedjan av vem som helst med grundläggande teknisk kunskap. Konst kräver kostsam expertautentisering, proveniensförskning och vetenskaplig analys. Trots expertverifiering lurar förfalskningar regelbundet konstvärlden. Bitcoin kan däremot inte förfalskas.",
+			"targetTranslation": "Bitcoins ägande och äkthet kan verifieras kryptografiskt av vem som helst on-chain. Konstautentisering är dyr, långsam och luras fortfarande regelbundet av förfalskare — vilket kan förstöra ett verks värde över en natt."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, theft, or other disasters. Fine art is vulnerable to all forms of physical destruction and deterioration. Even with expensive climate-controlled storage and comprehensive insurance, artworks can be damaged by environmental factors, accidents, or natural disasters, potentially losing all value.",
+			"englishValue": "Bitcoin, backed up properly, survives floods, fires, earthquakes, and theft. Fine art is vulnerable to every form of physical destruction, and insurance rarely covers it all.",
+			"currentValue": "Bitcoin kan, om det är korrekt säkerhetskopierat, inte förstöras av översvämningar, bränder, jordbävningar, orkaner, stöld eller andra katastrofer. Konst är sårbar för alla former av fysisk förstörelse och nedbrytning.",
+			"targetTranslation": "Bitcoin överlever, om det är korrekt säkerhetskopierat, översvämningar, bränder, jordbävningar och stöld. Konst är sårbar för alla former av fysisk förstörelse, och försäkring täcker sällan allt."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be bought and sold by anyone with internet access and a small amount of money to invest. Fine art investment is largely limited to wealthy collectors due to high minimum prices, exclusive auction access, storage requirements, insurance costs, and the specialized knowledge needed to navigate the art market successfully.",
+			"englishValue": "Anyone with an internet connection and a little money can buy Bitcoin. Fine art investment is effectively limited to wealthy collectors with auction access and specialized knowledge.",
+			"currentValue": "Bitcoin kan köpas och säljas av vem som helst med internetåtkomst och en liten summa pengar att investera. Konstinvesteringar är till stor del begränsade till förmögna samlare på grund av höga minimipriser, exklusiv auktionstillgång, förvaringskrav, försäkringskostnader och specialiserad kunskap.",
+			"targetTranslation": "Vem som helst med en internetanslutning och lite pengar kan köpa Bitcoin. Konstinvesteringar är i praktiken begränsade till förmögna samlare med auktionstillgång och specialiserad kunskap."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Because Bitcoin is digital, it can be sent almost instantly for very low fees by anyone with an Internet connection. Because Gold is physical, it cannot be moved across the Internet and must be physically shipped to transfer ownership.",
+			"englishValue": "Bitcoin can be sent instantly over the internet for low fees. Gold must be physically shipped to transfer ownership.",
+			"currentValue": "Eftersom Bitcoin är digitalt kan vem som helst med internetanslutning skicka det nästan omedelbart till mycket låga avgifter. Eftersom guld är fysiskt kan det inte överföras via internet och måste skickas fysiskt för att överföra ägande.",
+			"targetTranslation": "Bitcoin kan skickas omedelbart över internet till låga avgifter. Guld måste fraktas fysiskt för att överföra ägande."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.",
+			"englishValue": "Bitcoin is a digitally native asset you can transfer over the internet. Online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
+			"currentValue": "Bitcoin är en digitalt nativ tillgång, vilket innebär att du kan överföra fullt ägande via internet. Vissa företag erbjuder möjligheten att köpa guld online utan att ta emot det faktiska fysiska guldet, istället litar du på att företaget förvarar guldet åt dig. Det liknar mer en digital skuldsedel, eftersom du äger ett löfte från ett företag istället för den faktiska tillgången.",
+			"targetTranslation": "Bitcoin är en digitalt nativ tillgång som du kan överföra över internet. Online-guld är en digital skuldsedel — du äger bara ett löfte från en förvarare, inte själva metallen."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 Million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1.6% per year</a>, shrinking your slice — less than fiat",
+			"currentValue": "Bitcoin har ett fast tak på 21 miljoner BTC som någonsin kommer att finnas.",
+			"targetTranslation": "Bitcoin har ett fast tak på 21 miljoner BTC. Guldets utbud växer med ungefär <a class=\"body-link\" href=\"https://www.gold.org/goldhub/data/gold-supply-and-demand-statistics\" target=\"_blank\" rel=\"noopener noreferrer\">1,6% per år</a>, vilket krymper din andel — mindre än fiat-"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "New gold supply is pulled out of the ground each year, resulting in inflation of the total supply. It's estimated that the total supply of gold increases by about 1.6% per year, which means your slice of the pie shrinks by 1.6% per year.",
+			"englishValue": "inflation",
+			"currentValue": "Nytt guldutbud bryts ur jorden varje år, vilket resulterar i inflation av det totala utbudet. Det uppskattas att det totala guldutbudet växer med cirka 1,6% per år, vilket innebär att din del av kakan krymper med 1,6% varje år.",
+			"targetTranslation": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "This is less than fiat inflation, but still inflation.",
+			"englishValue": "— but still inflation.",
+			"currentValue": "Det är mindre än fiatinflation, men det är fortfarande inflation.",
+			"targetTranslation": "— men fortfarande inflation."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Gold has an elastic supply, meaning that as the price of gold rises, there is a greater incentive to mine more gold. This often puts downward pressure on the gold price as new mines come online.",
+			"englishValue": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million.",
+			"currentValue": "Guld har ett elastiskt utbud, vilket innebär att när guldpriset stiger finns det mer incitament att bryta mer guld. Detta skapar ofta nedåtpress på guldpriset när nya gruvor öppnas.",
+			"targetTranslation": "När guldpriset stiger bryts mer guld, vilket pressar tillbaka priset. Bitcoins utbud är oelastiskt — oavsett hur högt priset går kommer det aldrig att finnas mer än 21 miljoner."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"englishValue": "Tens of thousands of independent nodes validate the Bitcoin network. Most physical gold sits in a handful of large custodian vaults.",
+			"currentValue": "Bitcoin-nätverket är decentraliserat.",
+			"targetTranslation": "Tiotusentals oberoende noder validerar Bitcoin-nätverket. Det mesta fysiska guldet ligger i en handfull stora förvaringsvalv."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "With Bitcoin, it's incredibly easy to verify that you have real Bitcoin by taking self-custody of your coins and running a full node.",
+			"englishValue": "Anyone can verify real Bitcoin by running a full node — it's just an app. Verifying physical gold requires melting it down; the inside could be tungsten.",
+			"currentValue": "Med Bitcoin är det otroligt enkelt att verifiera att du har äkta Bitcoin genom att ta dina mynt i eget förvar och köra en fullständig nod.",
+			"targetTranslation": "Vem som helst kan verifiera äkta Bitcoin genom att köra en fullständig nod — det är bara en app. Att verifiera fysiskt guld kräver att man smälter ner det; insidan kan vara wolfram."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Just like there are 100 cents in 1 dollar, there are 100,000,000 sats in 1 Bitcoin. This enables Bitcoin to be used for all scales of purchases, including microtransactions as small as a few cents.",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size purchase. Gold can't be easily divided for small transactions.",
+			"currentValue": "Precis som det finns 100 ören i 1 krona finns det 100 000 000 satoshi i 1 Bitcoin. Detta gör det möjligt att använda Bitcoin för köp i alla storlekar, inklusive mikrotransaktioner på bara några ören.",
+			"targetTranslation": "Bitcoin delas i 100 miljoner sats, vilket gör det perfekt för köp i alla storlekar. Guld kan inte enkelt delas för små transaktioner."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be moved anywhere in the world instantly over the internet. Real estate is permanently fixed to a specific location and cannot be relocated, making it vulnerable to local economic conditions, natural disasters, and political instability.",
+			"englishValue": "Bitcoin moves anywhere in the world instantly. Real estate is fixed to one location and exposed to local economic, political, and natural risks.",
+			"currentValue": "Bitcoin kan flyttas vart som helst i världen omedelbart via internet. Fastigheter är permanent fixerade på en specifik plats och kan inte flyttas, vilket gör dem sårbara för lokala ekonomiska förhållanden, naturkatastrofer och politisk instabilitet.",
+			"targetTranslation": "Bitcoin flyttas vart som helst i världen omedelbart. Fastigheter är fixerade på en plats och exponerade för lokala ekonomiska, politiska och naturliga risker."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size. Real estate cannot be easily divided - you can't sell just the kitchen of your house or buy half a bedroom.",
+			"englishValue": "Bitcoin divides into 100 million sats. Real estate can't be partly sold — you can't offload just the kitchen or buy half a bedroom.",
+			"currentValue": "Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket gör det idealiskt för transaktioner i alla storlekar. Fastigheter kan inte enkelt delas — du kan inte sälja bara köket i ditt hus eller köpa ett halvt sovrum.",
+			"targetTranslation": "Bitcoin delas i 100 miljoner sats. Fastigheter kan inte säljas i delar — du kan inte göra dig av med bara köket eller köpa ett halvt sovrum."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates on a decentralized network that no government can control. Real estate is subject to extensive government regulation including rent control, eviction moratoriums, zoning laws, and eminent domain where governments can seize your property.",
+			"englishValue": "Bitcoin operates on a decentralized network that no government can control. Real estate is heavily regulated — zoning, rent control, eminent domain, and seizure all apply.",
+			"currentValue": "Bitcoin fungerar på ett decentraliserat nätverk som ingen stat kan kontrollera. Fastigheter är underkastade omfattande statlig reglering inklusive hyresreglering, vräkningsmoratorier, zonlagar och expropriation.",
+			"targetTranslation": "Bitcoin fungerar på ett decentraliserat nätverk som ingen stat kan kontrollera. Fastigheter är hårt reglerade — zonindelning, hyresreglering, expropriation och beslag gäller alla."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin requires no maintenance - it exists as digital code on a network. Real estate requires constant upkeep including repairs, renovations, property management, insurance, and dealing with tenants if rented.",
+			"englishValue": "Bitcoin requires no upkeep. Real estate demands repairs, renovations, insurance, property management, and tenant issues.",
+			"currentValue": "Bitcoin kräver inget underhåll — det existerar som digital kod på ett nätverk. Fastigheter kräver ständig omvårdnad inklusive reparationer, renoveringar, fastighetsförvaltning, försäkring och hantering av hyresgäster.",
+			"targetTranslation": "Bitcoin kräver inget underhåll. Fastigheter kräver reparationer, renoveringar, försäkring, fastighetsförvaltning och hyresgästproblem."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has no ongoing taxes - you only pay capital gains when you sell. Real estate is subject to annual property taxes that must be paid regardless of whether the property generates income, effectively forcing you to rent your own property from the government forever.",
+			"englishValue": "Bitcoin has no ongoing taxes — you only pay capital gains when you sell. Real estate owes annual property taxes regardless of income.",
+			"currentValue": "Bitcoin har inga löpande skatter — du betalar bara kapitalvinstskatt vid försäljning. Fastigheter är underkastade årlig fastighetsskatt som måste betalas oavsett om fastigheten genererar inkomst.",
+			"targetTranslation": "Bitcoin har inga löpande skatter — du betalar bara kapitalvinstskatt vid försäljning. Fastigheter ådrar sig årlig fastighetsskatt oavsett inkomst."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, or other natural disasters. Real estate is vulnerable to all forms of physical destruction and requires expensive insurance that may not fully cover losses.",
+			"englishValue": "Bitcoin, backed up properly, survives fire, flood, and earthquake. Real estate is vulnerable to every disaster, and insurance rarely covers it all.",
+			"currentValue": "Bitcoin kan, om det är korrekt säkerhetskopierat, inte förstöras av översvämningar, bränder, jordbävningar, orkaner eller andra naturkatastrofer. Fastigheter är sårbara för alla former av fysisk förstörelse.",
+			"targetTranslation": "Bitcoin överlever, om det är korrekt säkerhetskopierat, brand, översvämning och jordbävning. Fastigheter är sårbara för varje katastrof, och försäkring täcker sällan allt."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Every piece of real estate is unique with different locations, conditions, and characteristics, making it difficult to price and compare properties.",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every property is unique, making pricing and comparisons difficult.",
+			"currentValue": "Varje bitcoin är identisk och utbytbar mot en annan — en bitcoin är lika med en bitcoin var som helst i världen. Varje fastighet är unik med olika läge, skick och egenskaper, vilket gör värdering och jämförelse svårt.",
+			"targetTranslation": "Varje bitcoin är identisk och utbytbar. Varje fastighet är unik, vilket gör prissättning och jämförelser svåra."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_8_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin can be bought and sold 24/7 by anyone with internet access anywhere in the world. Real estate sales are limited to local buyers, require lengthy processes with lawyers and agents, and can take months to complete.",
+			"englishValue": "Bitcoin trades globally 24/7 by anyone with internet access. Real estate sales are limited to local buyers and can take months of paperwork to close.",
+			"currentValue": "Bitcoin kan köpas och säljas 24/7 av vem som helst med internetåtkomst var som helst i världen. Fastighetsförsäljning är begränsad till lokala köpare, kräver långdragna processer med advokater och mäklare och kan ta månader.",
+			"targetTranslation": "Bitcoin handlas globalt 24/7 av vem som helst med internetåtkomst. Fastighetsförsäljningar är begränsade till lokala köpare och kan ta månader av pappersarbete att slutföra."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_9_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin enables direct individual ownership without intermediaries, promoting financial sovereignty for everyone. Buying real estate as an investment beyond your primary residence contributes to the financialization of housing, treating homes as commodities rather than shelter. This drives up prices, reduces affordability for families, and contributes to the housing and homelessness crisis affecting many countries today.",
+			"englishValue": "Bitcoin enables direct individual ownership for anyone. Buying real estate as an investment beyond your primary residence drives up housing prices, reducing affordability and fueling the housing crisis.",
+			"currentValue": "Bitcoin möjliggör direkt individuellt ägande utan mellanhänder och stöder finansiell suveränitet för alla. Att köpa fastigheter som investering utöver din primära bostad bidrar till finansialisering av boende, där hem blir handelsvaror snarare än tak över huvudet. Detta driver upp priserna, minskar tillgängligheten för familjer och bidrar till bostadskrisen och hemlöshet.",
+			"targetTranslation": "Bitcoin möjliggör direkt individuellt ägande för vem som helst. Att köpa fastigheter som investering utöver din primära bostad driver upp bostadspriserna, minskar tillgängligheten och eldar på bostadskrisen."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "When you own Bitcoin, you have direct ownership of the asset itself. When you own stocks, you own a share of a company, which means your investment depends on the company's performance, management decisions, and business success.",
+			"englishValue": "Bitcoin is a direct asset you own outright. Stocks are shares in a company — their value depends on management, performance, and decisions you can't control.",
+			"currentValue": "När du äger Bitcoin har du direkt ägande av själva tillgången. När du äger aktier äger du en andel i ett företag, vilket innebär att din investering beror på företagets prestation, ledningens beslut och affärsframgång.",
+			"targetTranslation": "Bitcoin är en direkt tillgång du äger fullständigt. Aktier är andelar i ett företag — deras värde beror på ledning, prestation och beslut som du inte kan kontrollera."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Companies can issue new shares at any time, diluting existing shareholders — similar to how fiat",
+			"currentValue": "Bitcoin har ett fast tak på 21 miljoner BTC som någonsin kommer att finnas.",
+			"targetTranslation": "Bitcoin har ett fast tak på 21 miljoner BTC. Företag kan ge ut nya aktier när som helst och späda ut befintliga aktieägare — på liknande sätt som fiat-"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Companies can issue new shares at any time, diluting existing shareholders' ownership percentage. This means your slice of the company gets smaller when new shares are created.",
+			"englishValue": "inflation",
+			"currentValue": "Företag kan ge ut nya aktier när som helst och därmed späda ut befintliga aktieägares procentuella ägande. Det innebär att din andel av företaget minskar när nya aktier skapas.",
+			"targetTranslation": "inflation"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "This is less than fiat inflation, but still dilution.",
+			"englishValue": " dilutes cash. With Bitcoin, your slice never shrinks.",
+			"currentValue": "Det är mindre än fiatinflation, men det är fortfarande utspädning.",
+			"targetTranslation": "späder ut kontanter. Med Bitcoin krymper din andel aldrig."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates on a decentralized network with no single point of failure. Stock investments are subject to key person risk - if the CEO or other critical leaders leave, get sick, or make poor decisions, your investment can suffer significantly. Companies depend heavily on their leadership teams.",
+			"englishValue": "Bitcoin has no CEO and no single point of failure. Stocks depend heavily on leadership — one bad decision or departure can tank the price.",
+			"currentValue": "Bitcoin fungerar på ett decentraliserat nätverk utan enskild felkälla. Aktieinvesteringar är föremål för nyckelpersonsrisk — om VD:n eller andra nyckelpersoner lämnar, blir sjuka eller fattar dåliga beslut kan din investering påverkas avsevärt.",
+			"targetTranslation": "Bitcoin har ingen VD och ingen enskild felkälla. Aktier är starkt beroende av ledarskap — ett enda dåligt beslut eller en avhopp kan få priset att rasa."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin's price is determined purely by market supply and demand. Stock prices are often evaluated using P/E ratios (Price-to-Earnings), which show how much investors pay for each dollar of company earnings. High P/E ratios can indicate overvalued stocks, making it harder to determine fair value.",
+			"englishValue": "Bitcoin's price comes from open global markets. Stock valuations rely on metrics like P/E ratios that can mask overpriced shares.",
+			"currentValue": "Bitcoins pris bestäms enbart av marknadens utbud och efterfrågan. Aktiepriser värderas ofta med P/E-talet (pris/vinst) som visar hur mycket investerare betalar för varje dollar av ett företags vinst.",
+			"targetTranslation": "Bitcoins pris kommer från öppna globala marknader. Aktievärderingar förlitar sig på mått som P/E-tal som kan dölja övervärderade aktier."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin trades 24 hours a day, 7 days a week on global exchanges.",
+			"englishValue": "Bitcoin trades 24/7 around the world. Stock markets are only open during business hours on weekdays.",
+			"currentValue": "Bitcoin handlas 24 timmar om dygnet, 7 dagar i veckan på globala börser.",
+			"targetTranslation": "Bitcoin handlas 24/7 över hela världen. Aktiemarknader är bara öppna under kontorstid på vardagar."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "With Bitcoin, you can take self-custody of your coins, meaning you truly own them without depending on any third party.",
+			"englishValue": "You can take",
+			"currentValue": "Med Bitcoin kan du ta dina mynt i eget förvar, vilket innebär att du verkligen äger dem utan beroende av tredje part.",
+			"targetTranslation": "Du kan ta"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Self-custody is as simple as downloading an app.",
+			"englishValue": "self-custody",
+			"currentValue": "Eget förvar är lika enkelt som att ladda ner en app.",
+			"targetTranslation": "eget förvar"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Stocks require a brokerage account and you're subject to counterparty risk - if the company goes bankrupt or the brokerage fails, you could lose your investment.",
+			"englishValue": "of Bitcoin with a simple app — no broker needed. Stocks sit with brokerages, exposing you to counterparty risk if they fail.",
+			"currentValue": "Aktier kräver ett mäklarkonto och du är exponerad för motpartsrisker — om företaget går i konkurs eller mäklaren fallerar kan du förlora din investering.",
+			"targetTranslation": "av Bitcoin med en enkel app — ingen mäklare behövs. Aktier ligger hos mäklarhus, vilket exponerar dig för motpartsrisk om de fallerar."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is a fixed supply asset with a hard cap of 21 million Bitcoin that will ever exist. This makes it a great inflation hedge. Stocks have variable performance against inflation - some companies do well during inflationary periods while others struggle. There's no guarantee that any particular stock will protect against inflation.",
+			"englishValue": "Bitcoin's fixed supply makes it a reliable inflation hedge. Some stocks beat inflation, others don't — there's no guarantee.",
+			"currentValue": "Bitcoin är en tillgång med fast utbud med ett tak på 21 miljoner Bitcoin som någonsin kommer att finnas. Det gör det till ett utmärkt skydd mot inflation. Aktier har varierande resultat mot inflation — vissa företag presterar bra under inflationsperioder, andra kämpar. Det finns ingen garanti att en specifik aktie skyddar mot inflation.",
+			"targetTranslation": "Bitcoins fasta utbud gör det till ett pålitligt skydd mot inflation. Vissa aktier slår inflationen, andra inte — det finns ingen garanti."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_1_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin is an open network that anyone can join and use without permission. Credit card networks like Visa are closed systems controlled by financial institutions that can deny access to anyone they choose.",
+			"englishValue": "Bitcoin is an open network anyone can join and use without permission. Visa is a closed system controlled by financial institutions that can deny access — especially to the unbanked and underbanked.",
+			"currentValue": "Bitcoin är ett öppet nätverk som vem som helst kan ansluta sig till och använda utan tillstånd. Kreditkortsnätverk som Visa är slutna system kontrollerade av finansiella institutioner som kan neka åtkomst till vem som helst.",
+			"targetTranslation": "Bitcoin är ett öppet nätverk som vem som helst kan ansluta sig till och använda utan tillstånd. Visa är ett slutet system kontrollerat av finansinstitut som kan neka åtkomst — särskilt till de bank- och underbanklösa."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin transactions have no fees for merchants, while credit card companies typically charge merchants around 3% per transaction.",
+			"englishValue": "Bitcoin transactions have no merchant fees. Visa typically charges merchants around 3% per transaction — your business can save money accepting",
+			"currentValue": "Bitcoin-transaktioner har inga handlaravgifter, medan kreditkortsföretag vanligtvis tar ut cirka 3% per transaktion från handlare.",
+			"targetTranslation": "Bitcoin-transaktioner har inga handlaravgifter. Visa tar vanligtvis ut cirka 3% per transaktion av handlare — ditt företag kan spara pengar genom att acceptera"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn how your business can save money",
+			"englishValue": "Bitcoin payments",
+			"currentValue": "Lär dig hur ditt företag kan spara pengar",
+			"targetTranslation": "Bitcoin-betalningar"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "by accepting Bitcoin payments instead of paying credit card processing fees.",
+			"englishValue": " instead.",
+			"currentValue": "genom att acceptera Bitcoin-betalningar istället för att betala kreditkortsavgifter.",
+			"targetTranslation": "istället."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_3_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin operates on a transparent blockchain where all transactions can be verified by anyone. Credit card networks operate as closed, proprietary systems where transaction details are hidden from public view.",
+			"englishValue": "Every Bitcoin transaction is on a public, auditable blockchain. Visa runs a closed, proprietary system where customers can't independently verify anything.",
+			"currentValue": "Bitcoin fungerar på en transparent blockkedja där alla transaktioner kan verifieras av vem som helst. Kreditkortsnätverk fungerar som slutna, proprietära system där transaktionsdetaljer döljs för allmänheten.",
+			"targetTranslation": "Varje Bitcoin-transaktion ligger på en publik, granskningsbar blockkedja. Visa driver ett slutet, proprietärt system där kunder inte kan verifiera något självständigt."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_4_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Credit card companies can freeze accounts, block transactions, or deny service at any time. Bitcoin cannot be frozen or controlled by any central authority.",
+			"englishValue": "Bitcoin can't be frozen by any central authority. Visa can freeze accounts, block transactions, or deny service at any time.",
+			"currentValue": "Kreditkortsföretag kan när som helst frysa konton, blockera transaktioner eller neka service. Bitcoin kan inte frysas eller kontrolleras av någon central myndighet.",
+			"targetTranslation": "Bitcoin kan inte frysas av någon central myndighet. Visa kan frysa konton, blockera transaktioner eller neka service när som helst."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_5_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Credit cards create debt that can accumulate high interest rates if not paid off quickly, sometimes exceeding 25% annually.",
+			"englishValue": "Bitcoin is final-settlement — you can only spend what you own. Credit cards create debt with interest rates often over 25% a year.",
+			"currentValue": "Kreditkort skapar skuld som kan ackumuleras snabbt med höga räntor, ibland överstigande 25% per år.",
+			"targetTranslation": "Bitcoin är slutbetalning — du kan bara spendera det du äger. Kreditkort skapar skuld med räntor som ofta överstiger 25% per år."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin allows for self-custody, meaning you can hold and control your own money without relying on banks or payment processors.",
+			"englishValue": "Bitcoin lets you take",
+			"currentValue": "Bitcoin möjliggör eget förvar, vilket innebär att du kan hålla och kontrollera dina egna pengar utan beroende av banker eller betalningsförmedlare.",
+			"targetTranslation": "Bitcoin låter dig ta"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_2",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"englishValue": "self-custody",
+			"currentValue": "Lär dig mer om Bitcoin-plånböcker",
+			"targetTranslation": "eget förvar"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_3",
+			"reason": "manifest-changed",
+			"englishValueBefore": "to understand how you can take control of your own money. Credit cards always require intermediaries like banks and payment processors.",
+			"englishValue": "with no bank or payment processor needed. Credit cards always require intermediaries.",
+			"currentValue": "för att förstå hur du kan ta kontroll över dina pengar. Kreditkort kräver alltid mellanhänder som banker och betalningsförmedlare.",
+			"targetTranslation": "utan att behöva en bank eller betalningsförmedlare. Kreditkort kräver alltid mellanhänder."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_7_summary_1",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin works 24/7 globally with no business hours or geographic restrictions.",
+			"englishValue": "Bitcoin works 24/7 globally with no business hours. Visa has operating hours, maintenance windows, and geographic restrictions that can block transactions.",
+			"currentValue": "Bitcoin fungerar globalt 24/7 utan handelstider eller geografiska begränsningar.",
+			"targetTranslation": "Bitcoin fungerar globalt 24/7 utan handelstider. Visa har öppettider, underhållsavbrott och geografiska begränsningar som kan blockera transaktioner."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Banks</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">banker</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Bonds</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">obligationer</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_3",
+			"reason": "manifest-added",
+			"englishValue": " — eliminating that risk entirely.",
+			"currentValue": null,
+			"targetTranslation": " — vilket eliminerar den risken helt."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Cash</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">kontanter</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">CBDCs</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">CBDC:er</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_3",
+			"reason": "manifest-added",
+			"englishValue": " when too much money gets printed.",
+			"currentValue": null,
+			"targetTranslation": " när alltför mycket pengar trycks."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Crypto</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">krypto</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Fine Art</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">konst</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Gold</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">guld</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Real Estate</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">fastigheter</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Stocks</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">aktier</span>"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "hero_title",
+			"reason": "manifest-added",
+			"englishValue": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Visa</span>",
+			"currentValue": null,
+			"targetTranslation": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">Visa</span>"
+		}
+	],
+	"appliedAt": "2026-04-25T21:34:42.970Z",
+	"appliedStats": {
+		"resolved": 121,
+		"unresolved": 0,
+		"filesTouched": 10,
+		"keysWritten": 121,
+		"filesCreated": 0,
+		"markerWritten": true
+	}
+}

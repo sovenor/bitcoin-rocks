@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Fastigheter",
@@ -28,15 +28,16 @@
 	"bitcoin_point_6": "Svår att förstöra",
 	"bitcoin_point_7": "Perfekt utbytbar",
 	"bitcoin_point_8": "Global marknad 24/7",
-	"point_1_summary_1": "Bitcoin kan flyttas vart som helst i världen omedelbart via internet. Fastigheter är permanent fixerade på en specifik plats och kan inte flyttas, vilket gör dem sårbara för lokala ekonomiska förhållanden, naturkatastrofer och politisk instabilitet.",
-	"point_2_summary_1": "Bitcoin kan delas i 100 miljoner mindre enheter kallade satoshi, vilket gör det idealiskt för transaktioner i alla storlekar. Fastigheter kan inte enkelt delas — du kan inte sälja bara köket i ditt hus eller köpa ett halvt sovrum.",
-	"point_3_summary_1": "Bitcoin fungerar på ett decentraliserat nätverk som ingen stat kan kontrollera. Fastigheter är underkastade omfattande statlig reglering inklusive hyresreglering, vräkningsmoratorier, zonlagar och expropriation.",
-	"point_4_summary_1": "Bitcoin kräver inget underhåll — det existerar som digital kod på ett nätverk. Fastigheter kräver ständig omvårdnad inklusive reparationer, renoveringar, fastighetsförvaltning, försäkring och hantering av hyresgäster.",
-	"point_5_summary_1": "Bitcoin har inga löpande skatter — du betalar bara kapitalvinstskatt vid försäljning. Fastigheter är underkastade årlig fastighetsskatt som måste betalas oavsett om fastigheten genererar inkomst.",
-	"point_6_summary_1": "Bitcoin kan, om det är korrekt säkerhetskopierat, inte förstöras av översvämningar, bränder, jordbävningar, orkaner eller andra naturkatastrofer. Fastigheter är sårbara för alla former av fysisk förstörelse.",
-	"point_7_summary_1": "Varje bitcoin är identisk och utbytbar mot en annan — en bitcoin är lika med en bitcoin var som helst i världen. Varje fastighet är unik med olika läge, skick och egenskaper, vilket gör värdering och jämförelse svårt.",
-	"point_8_summary_1": "Bitcoin kan köpas och säljas 24/7 av vem som helst med internetåtkomst var som helst i världen. Fastighetsförsäljning är begränsad till lokala köpare, kräver långdragna processer med advokater och mäklare och kan ta månader.",
+	"point_1_summary_1": "Bitcoin flyttas vart som helst i världen omedelbart. Fastigheter är fixerade på en plats och exponerade för lokala ekonomiska, politiska och naturliga risker.",
+	"point_2_summary_1": "Bitcoin delas i 100 miljoner sats. Fastigheter kan inte säljas i delar — du kan inte göra dig av med bara köket eller köpa ett halvt sovrum.",
+	"point_3_summary_1": "Bitcoin fungerar på ett decentraliserat nätverk som ingen stat kan kontrollera. Fastigheter är hårt reglerade — zonindelning, hyresreglering, expropriation och beslag gäller alla.",
+	"point_4_summary_1": "Bitcoin kräver inget underhåll. Fastigheter kräver reparationer, renoveringar, försäkring, fastighetsförvaltning och hyresgästproblem.",
+	"point_5_summary_1": "Bitcoin har inga löpande skatter — du betalar bara kapitalvinstskatt vid försäljning. Fastigheter ådrar sig årlig fastighetsskatt oavsett inkomst.",
+	"point_6_summary_1": "Bitcoin överlever, om det är korrekt säkerhetskopierat, brand, översvämning och jordbävning. Fastigheter är sårbara för varje katastrof, och försäkring täcker sällan allt.",
+	"point_7_summary_1": "Varje bitcoin är identisk och utbytbar. Varje fastighet är unik, vilket gör prissättning och jämförelser svåra.",
+	"point_8_summary_1": "Bitcoin handlas globalt 24/7 av vem som helst med internetåtkomst. Fastighetsförsäljningar är begränsade till lokala köpare och kan ta månader av pappersarbete att slutföra.",
 	"bitcoin_point_9": "Stöder individuellt ägande",
 	"real_estate_point_9": "Bidrar till finansialisering av boende",
-	"point_9_summary_1": "Bitcoin möjliggör direkt individuellt ägande utan mellanhänder och stöder finansiell suveränitet för alla. Att köpa fastigheter som investering utöver din primära bostad bidrar till finansialisering av boende, där hem blir handelsvaror snarare än tak över huvudet. Detta driver upp priserna, minskar tillgängligheten för familjer och bidrar till bostadskrisen och hemlöshet."
+	"point_9_summary_1": "Bitcoin möjliggör direkt individuellt ägande för vem som helst. Att köpa fastigheter som investering utöver din primära bostad driver upp bostadspriserna, minskar tillgängligheten och eldar på bostadskrisen.",
+	"hero_title": "Skillnaden mellan <span class=\"orange\">Bitcoin</span> och <span class=\"asset\">fastigheter</span>"
 }

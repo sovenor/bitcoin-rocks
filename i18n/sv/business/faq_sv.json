@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Vanliga frågor om att acceptera Bitcoin",
 	"faq_description": "Har du frågor om att acceptera Bitcoin-betalningar i ditt företag?",
+	"faq_hero_subtitle": "De korta svaren på frågorna som handlare ställer oftast innan de börjar ta emot Bitcoin – avgifter, avveckling, plånböcker, återkrav, kostnad och mer.",
+	"faq_intro_c1": "Tryck på en fråga nedan för att se svaret. När du är redo att börja ta emot Bitcoin guidar företagsresurserna längst ner på sidan dig genom varje steg.",
 	"faq_s1": "Vad är Bitcoin?",
 	"faq_s1_c1": "Bitcoin är två saker: digitala pengar och ett datornätverk.",
 	"faq_s1_c2": "Du kan skicka bitcoin (digitala pengar) direkt till andra människor med hjälp av Bitcoin-nätverket.",

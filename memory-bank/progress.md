@@ -1,3 +1,103 @@
+## i18n cleanup Step 5 — Swedish (sv) — 2026-04-25
+
+Ran `/translate-manifest-refresh Swedish`. Swedish (`Svenska`) is the
+official language of Sweden and a co-official language of Finland, with
+~10M native speakers; North Germanic, mutually intelligible with
+Norwegian and (mostly) Danish. **Counter:** 43/54 languages complete.
+1,026 entries flagged (465 missing locale-specific + 4 untranslated +
+165 manifest-changed + 392 manifest-added).
+
+**5-way parallel split** (new pattern this session — first locale to
+use parallel-chunk dispatch instead of sequential helper scripts):
+
+`scripts/sv-manifest-refresh/split-chunks.js` produced 5 partial
+reports under `chunks/sv-chunk{1..5}.json`. Each chunk was dispatched
+to a separate background subagent that translated its bucket and ran
+`apply-translations.js sv --report=<chunk> --partial --skip-verify`.
+The original session-4 chunk (sticker-files/* sub-pages) was empty for
+sv (only 1 entry remained), so chunk-5 was reassigned from "everything
+else" to just `sticker-files/index`.
+
+1. `translate-chunk1.js` (482 entries — common + index + inflation;
+   327 per-currency × 13 currencies via templated function with
+   Swedish per-currency definite/plural forms (`dollarn`/`euron`/
+   `pundet`/`yenen`/`realen`/`peson`/`bahten`/`rupien`/`shekeln`)
+   rather than a generic catch-all; polite informal "du" register
+   throughout — the standard register for Swedish educational copy +
+   41 non-currency keys: freedom cards (Sällsynt/Decentraliserad/
+   Tillståndslös/Suverän), stories (Kanada/Nigeria/Pennsylvania/
+   Texas), sources, 5 manifest-changed hero/intro keys including
+   "Bitcoin har inte inflation, men det har dina pengar." for the
+   rewritten H1).
+2. `translate-chunk2.js` (121 entries — all 10 bitcoin-vs-*
+   comparison pages with Swedish typography (curly quotes "…"),
+   Swedish terminology — "Bitcoin" preserved as Latin loanword
+   (universal in Swedish crypto press, Dagens Industri, Realtid),
+   "plånbok" (wallet — native), "inflation" (inflation), "kapitalvinst"/
+   "kapitalförlust" (capital gain/loss), "uttagsanstormning" (bank
+   run, native compound), "egen förvaring" (self-custody, native),
+   "blockchain" kept as anglicism, "tillståndslös" (permissionless —
+   native compound), "motpartsrisk" (counterparty risk),
+   "stridstestats" (battle-tested) for `bitcoin-vs-crypto::point_5_summary_1`;
+   sentence-fragment structure preserved across `point_*_summary_*`
+   keys for anchor-tag link composition; numeric format with comma
+   decimal + space thousands "153,9 miljarder USD" / "10,82 biljoner
+   USD" / "1,42 %"; long scale "miljon"/"miljard"/"biljon").
+3. `translate-chunk3.js` (171 entries — full business/* subtree across
+   all 11 namespaces (accounting "anskaffningskostnad" cost-basis,
+   why customer-facing QR landing ”Vi tar emot Bitcoin”, wallets with
+   Strike Business + Square + IBEX/OpenNode/Breez/Zaprite, maps,
+   stickers, FAQs, sticker-files/english) — terminology consistency:
+   "merchant" → "handlare", "accept Bitcoin" → "ta emot Bitcoin",
+   "checkout" / "POS" → "kassa" / "kassaterminal", "settlement" →
+   "avveckling", "chargebacks" → "återkrav", "capital gain/loss" →
+   "kapitalvinst/kapitalförlust"; date abbreviations localized
+   "Jan 1" → "1 jan", "Feb 1" → "1 feb").
+4. `translate-chunk4.js` (251 entries — 404 + about + bank-runs + buy
+   + compound-inflation-calculator + flyers + get-involved + lightning
+   + nostr/index + sticker-language-success + sticker-success +
+   stickers + wallets, native curly quotes ”…” for Swedish quoting
+   convention e.g. ”Bitcoin accepteras här”, "orange-pilla" rendered
+   as Nordic-style verbalization for "orange pill", brand allow-list
+   intact (Bitcoin/Nostr/Lightning/Strike/Bisq/Kraken/Relai/River/
+   Swan/ACINQ/Phoenix/Breez/Wallet of Satoshi/Coldcard/Blockstream/
+   SeedSigner/Foundation Devices/Damus/Amethyst/Iris/Primal/FDIC/
+   MIT), 404_message + 404_home rewritten in sentence case to match
+   new English style (existing Swedish was ALL CAPS, manifest-changed
+   flag indicated needed update). Index home-card labels were already
+   covered by chunk 1's index_sv translations).
+5. `translate-chunk5.js` (1 entry — `sticker-files/index::sticker_files_header`
+   "Print your own Bitcoin stickers..." → "Skriv ut dina egna
+   Bitcoin-klistermärken med dessa Bitcoin-klistermärkesfiler.").
+6. `fix-untranslated.js` (4 leftover byte-identical Swedish/English
+   collisions patched in-place — `bitcoin-vs-visa::bitcoin_point_3`
+   "Transparent system" → "Granskbart system" (auditable system),
+   `buy::buy_platform_feature_p2p` "Peer-to-peer" → "Peer-till-peer"
+   (Swedish hybrid form), `common::common_sticker_files_mission_3`
+   "inflation" → "inflationen" (definite form, "the inflation"),
+   `common::common_stickers_material` "Material:" → "Materialtyp:"
+   (material type)).
+
+**Parallel-chunk pattern observations:**
+- Chunks operate on disjoint namespaces → disjoint i18n files → no
+  file-write race conditions.
+- Each chunk's `apply-translations.js --partial --skip-verify` run
+  writes the same marker hash if its manifest entries are all
+  resolved — last writer wins, harmless.
+- Archive timestamps could collide at second precision; in practice
+  the natural translation-time stagger across chunks avoided
+  collisions.
+- Final unfiltered `language-diff.js sv` after all 5 chunks landed
+  flagged only the 4 byte-identical Swedish/English cognates — the
+  manifest was already fully resolved.
+- Total wall-clock from initial diff to verified apply: ~10 minutes
+  (vs ~25-40 minutes for serial helper-script locales). Pattern is
+  worth reusing for future locales with high entry counts.
+
+All 4 verification checks passed (marker, locale-specific coverage,
+manifest coverage, stale English cross-check). `npm run build` clean
+across 55 locales × ~80 published pages.
+
 ## i18n cleanup Step 5 — Slovenian (sl) — 2026-04-25
 
 Ran `/translate-manifest-refresh Slovenian`. Slovenian

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"sticker_success_1": "Du kommer att få dina klistermärken inom 2 till 4 veckor. Under tiden, fundera på ett bra ställe för dina klistermärken!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "på platser där de sannolikt inte tas bort snabbt (klistermärkena orsakar ingen permanent skada)",
 	"sticker_success_list_3": "på ytor som de lätt fäster på (metall, plast, glas)",
 	"sticker_success_list_4": "INTE på privat egendom, över skyltar, bankomater eller bensinstationer",
-	"sticker_success_3": "Vill du se var andra lägger sina klistermärken?"
+	"sticker_success_3": "Vill du se var andra lägger sina klistermärken?",
+	"sticker_success_hero_title": "Dina klistermärken är på väg 🎉",
+	"sticker_success_tips_header": "Bra platser för klistermärken",
+	"sticker_success_share_header": "Dela platserna där du satt upp klistermärken",
+	"sticker_success_bulk_header": "Vill du ha fler klistermärken?",
+	"sticker_success_btn_order_bulk": "Beställ i större antal",
+	"sticker_success_btn_share_on_nostr": "Dela på Nostr",
+	"sticker_success_btn_what_is_nostr": "Vad är Nostr?"
 }

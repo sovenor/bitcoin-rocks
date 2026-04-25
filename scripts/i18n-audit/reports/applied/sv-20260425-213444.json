@@ -1,0 +1,3894 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:27:42.120Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": false,
+	"markerManifestVersion": null,
+	"markerAppliedAt": null,
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 465,
+		"untranslated": 4,
+		"manifestChanged": 165,
+		"manifestAdded": 392,
+		"manifestAlreadyPresentInTarget": 1,
+		"manifestSkippedByMarker": 0,
+		"upToDate": 753,
+		"brandIdentical": 73
+	},
+	"entries": [
+		{
+			"namespace": "common",
+			"key": "common_language_switcher_add_language",
+			"reason": "missing",
+			"englishValue": "Add language",
+			"currentValue": null,
+			"targetTranslation": "Lägg till språk"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_buy_bitcoin",
+			"reason": "missing",
+			"englishValue": "Buy Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Köp Bitcoin"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_buy_bitcoin_desc",
+			"reason": "missing",
+			"englishValue": "Learn how to buy Bitcoin safely",
+			"currentValue": null,
+			"targetTranslation": "Lär dig hur du köper Bitcoin på ett säkert sätt"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_calculate",
+			"reason": "missing",
+			"englishValue": "Calculate your inflation",
+			"currentValue": null,
+			"targetTranslation": "Räkna ut din inflation"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_calculate_desc",
+			"reason": "missing",
+			"englishValue": "See how inflation affects your salary over time",
+			"currentValue": null,
+			"targetTranslation": "Se hur inflation påverkar din lön över tid"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_get_wallet",
+			"reason": "missing",
+			"englishValue": "Get a wallet",
+			"currentValue": null,
+			"targetTranslation": "Skaffa en plånbok"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_get_wallet_desc",
+			"reason": "missing",
+			"englishValue": "Get your first Bitcoin wallet — it's free",
+			"currentValue": null,
+			"targetTranslation": "Skaffa din första Bitcoin-plånbok — den är gratis"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_keep_learning",
+			"reason": "missing",
+			"englishValue": "Keep learning",
+			"currentValue": null,
+			"targetTranslation": "Fortsätt lära dig"
+		},
+		{
+			"namespace": "common",
+			"key": "common_next_keep_learning_desc",
+			"reason": "missing",
+			"englishValue": "See how Bitcoin is improving the world",
+			"currentValue": null,
+			"targetTranslation": "Se hur Bitcoin förbättrar världen"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_bls_cpi",
+			"reason": "missing",
+			"englishValue": "U.S. Bureau of Labor Statistics — Consumer Price Index (CPI)",
+			"currentValue": null,
+			"targetTranslation": "U.S. Bureau of Labor Statistics — Konsumentprisindex (KPI)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_fred_money_supply_index",
+			"reason": "missing",
+			"englishValue": "Federal Reserve Economic Data (FRED) — Money Supply (Category Index)",
+			"currentValue": null,
+			"targetTranslation": "Federal Reserve Economic Data (FRED) — Penningmängd (kategoriindex)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_whitepaper",
+			"reason": "missing",
+			"englishValue": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
+			"currentValue": null,
+			"targetTranslation": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_treasury_auction",
+			"reason": "missing",
+			"englishValue": "James Lavish — \"Can a Treasury Auction Fail?\"",
+			"currentValue": null,
+			"targetTranslation": "James Lavish — “Can a Treasury Auction Fail?”"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_printer_name",
+			"reason": "missing",
+			"englishValue": "StickerMule.com",
+			"currentValue": null,
+			"targetTranslation": "StickerMule.com"
+		},
+		{
+			"namespace": "common",
+			"key": "common_whats_next",
+			"reason": "missing",
+			"englishValue": "What's next?",
+			"currentValue": null,
+			"targetTranslation": "Vad händer nu?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_btn_saving",
+			"reason": "missing",
+			"englishValue": "saving",
+			"currentValue": null,
+			"targetTranslation": "SPARA"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_art_1",
+			"reason": "missing",
+			"englishValue": "Let's compare",
+			"currentValue": null,
+			"targetTranslation": "Låt oss jämföra"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_art_2",
+			"reason": "missing",
+			"englishValue": "Spread the word",
+			"currentValue": null,
+			"targetTranslation": "Sprid budskapet"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_art_3",
+			"reason": "missing",
+			"englishValue": "Street art",
+			"currentValue": null,
+			"targetTranslation": "Gatukonst"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_bank_runs",
+			"reason": "missing",
+			"englishValue": "Full reserve system",
+			"currentValue": null,
+			"targetTranslation": "Fullreservsystem"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_bonds",
+			"reason": "missing",
+			"englishValue": "Let's compare",
+			"currentValue": null,
+			"targetTranslation": "Låt oss jämföra"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_business_1",
+			"reason": "missing",
+			"englishValue": "What's the difference?",
+			"currentValue": null,
+			"targetTranslation": "Vad är skillnaden?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_business_2",
+			"reason": "missing",
+			"englishValue": "Accept Bitcoin payments",
+			"currentValue": null,
+			"targetTranslation": "Acceptera Bitcoin-betalningar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_cash",
+			"reason": "missing",
+			"englishValue": "Let's compare",
+			"currentValue": null,
+			"targetTranslation": "Låt oss jämföra"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_cbdc",
+			"reason": "missing",
+			"englishValue": "Open or closed?",
+			"currentValue": null,
+			"targetTranslation": "Öppet eller stängt?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_coding_1",
+			"reason": "missing",
+			"englishValue": "Interactive tutorial",
+			"currentValue": null,
+			"targetTranslation": "Interaktiv handledning"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_coding_2",
+			"reason": "missing",
+			"englishValue": "Build hardware",
+			"currentValue": null,
+			"targetTranslation": "Bygg hårdvara"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_coding_3",
+			"reason": "missing",
+			"englishValue": "Coding puzzles",
+			"currentValue": null,
+			"targetTranslation": "Kodningspussel"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_crowdfunding_1",
+			"reason": "missing",
+			"englishValue": "EndSARS protests",
+			"currentValue": null,
+			"targetTranslation": "EndSARS-protesterna"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_crowdfunding_2",
+			"reason": "missing",
+			"englishValue": "Unstoppable money",
+			"currentValue": null,
+			"targetTranslation": "Ostoppbara pengar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_crowdfunding_3",
+			"reason": "missing",
+			"englishValue": "Fund your project",
+			"currentValue": null,
+			"targetTranslation": "Finansiera ditt projekt"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_crypto",
+			"reason": "missing",
+			"englishValue": "What's the difference?",
+			"currentValue": null,
+			"targetTranslation": "Vad är skillnaden?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_energy_1",
+			"reason": "missing",
+			"englishValue": "Grid stabilization",
+			"currentValue": null,
+			"targetTranslation": "Stabilisering av elnätet"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_energy_4",
+			"reason": "missing",
+			"englishValue": "Demand response",
+			"currentValue": null,
+			"targetTranslation": "Efterfrågestyrning"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_energy_5",
+			"reason": "missing",
+			"englishValue": "Rural electrification",
+			"currentValue": null,
+			"targetTranslation": "Elektrifiering av landsbygden"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_energy_6",
+			"reason": "missing",
+			"englishValue": "Renewable incentives",
+			"currentValue": null,
+			"targetTranslation": "Incitament för förnybart"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_environment_1",
+			"reason": "missing",
+			"englishValue": "Methane reduction",
+			"currentValue": null,
+			"targetTranslation": "Minskning av metan"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_environment_2",
+			"reason": "missing",
+			"englishValue": "Saved a national park",
+			"currentValue": null,
+			"targetTranslation": "Räddade en nationalpark"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_environment_3",
+			"reason": "missing",
+			"englishValue": "Greenest industry",
+			"currentValue": null,
+			"targetTranslation": "Grönaste industrin"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_environment_4",
+			"reason": "missing",
+			"englishValue": "Reduces flared gas",
+			"currentValue": null,
+			"targetTranslation": "Minskar facklad gas"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_equality_1",
+			"reason": "missing",
+			"englishValue": "Hope & opportunity",
+			"currentValue": null,
+			"targetTranslation": "Hopp och möjligheter"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_equality_2",
+			"reason": "missing",
+			"englishValue": "A game changer",
+			"currentValue": null,
+			"targetTranslation": "En spelförändrare"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_food_1",
+			"reason": "missing",
+			"englishValue": "Food prices",
+			"currentValue": null,
+			"targetTranslation": "Matpriser"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_food_2",
+			"reason": "missing",
+			"englishValue": "Farms & soil",
+			"currentValue": null,
+			"targetTranslation": "Gårdar och jord"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_freedom_1",
+			"reason": "missing",
+			"englishValue": "Authoritarian regimes",
+			"currentValue": null,
+			"targetTranslation": "Auktoritära regimer"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_freedom_2",
+			"reason": "missing",
+			"englishValue": "A unique tool",
+			"currentValue": null,
+			"targetTranslation": "Ett unikt verktyg"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_get_started_1",
+			"reason": "missing",
+			"englishValue": "Beginner basics",
+			"currentValue": null,
+			"targetTranslation": "Grunderna för nybörjare"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_get_started_2",
+			"reason": "missing",
+			"englishValue": "Your first wallet",
+			"currentValue": null,
+			"targetTranslation": "Din första plånbok"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_get_started_3",
+			"reason": "missing",
+			"englishValue": "Buy Bitcoin",
+			"currentValue": null,
+			"targetTranslation": "Köp Bitcoin"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_gold",
+			"reason": "missing",
+			"englishValue": "Which is better?",
+			"currentValue": null,
+			"targetTranslation": "Vilket är bättre?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_housing_1",
+			"reason": "missing",
+			"englishValue": "Affordable housing",
+			"currentValue": null,
+			"targetTranslation": "Överkomligt boende"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_human_rights_1",
+			"reason": "missing",
+			"englishValue": "Human rights enforcement",
+			"currentValue": null,
+			"targetTranslation": "Skydd av mänskliga rättigheter"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_human_rights_2",
+			"reason": "missing",
+			"englishValue": "Grassroots adoption",
+			"currentValue": null,
+			"targetTranslation": "Gräsrotsadoption"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_human_rights_3",
+			"reason": "missing",
+			"englishValue": "Global impact",
+			"currentValue": null,
+			"targetTranslation": "Globala effekter"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_inflation",
+			"reason": "missing",
+			"englishValue": "Bitcoin is better money",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är bättre pengar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_networks_1",
+			"reason": "missing",
+			"englishValue": "Live network view",
+			"currentValue": null,
+			"targetTranslation": "Livevy av nätverket"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_networks_2",
+			"reason": "missing",
+			"englishValue": "Let's compare",
+			"currentValue": null,
+			"targetTranslation": "Låt oss jämföra"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_payments_1",
+			"reason": "missing",
+			"englishValue": "What's the difference?",
+			"currentValue": null,
+			"targetTranslation": "Vad är skillnaden?"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_payments_2",
+			"reason": "missing",
+			"englishValue": "Fast & cheap payments",
+			"currentValue": null,
+			"targetTranslation": "Snabba och billiga betalningar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_payments_3",
+			"reason": "missing",
+			"englishValue": "Remittances",
+			"currentValue": null,
+			"targetTranslation": "Remitteringar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_payments_4",
+			"reason": "missing",
+			"englishValue": "Receive payments",
+			"currentValue": null,
+			"targetTranslation": "Ta emot betalningar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_politics_1",
+			"reason": "missing",
+			"englishValue": "Political paradox",
+			"currentValue": null,
+			"targetTranslation": "Politisk paradox"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_politics_2",
+			"reason": "missing",
+			"englishValue": "Take action",
+			"currentValue": null,
+			"targetTranslation": "Vidta åtgärder"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_property_rights_1",
+			"reason": "missing",
+			"englishValue": "Let's compare",
+			"currentValue": null,
+			"targetTranslation": "Låt oss jämföra"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_property_rights_2",
+			"reason": "missing",
+			"englishValue": "True ownership",
+			"currentValue": null,
+			"targetTranslation": "Verkligt ägande"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_salary",
+			"reason": "missing",
+			"englishValue": "Protect your salary",
+			"currentValue": null,
+			"targetTranslation": "Skydda din lön"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_self_custody_1",
+			"reason": "missing",
+			"englishValue": "Bitcoin wallet guide",
+			"currentValue": null,
+			"targetTranslation": "Guide till Bitcoin-plånböcker"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_self_custody_2",
+			"reason": "missing",
+			"englishValue": "The most important step",
+			"currentValue": null,
+			"targetTranslation": "Det viktigaste steget"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_self_custody_3",
+			"reason": "missing",
+			"englishValue": "Sovereign money",
+			"currentValue": null,
+			"targetTranslation": "Suveräna pengar"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_war_1",
+			"reason": "missing",
+			"englishValue": "End endless war",
+			"currentValue": null,
+			"targetTranslation": "Avsluta eviga krig"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_war_2",
+			"reason": "missing",
+			"englishValue": "Helping veterans",
+			"currentValue": null,
+			"targetTranslation": "Hjälpa veteraner"
+		},
+		{
+			"namespace": "index",
+			"key": "home_card_label_war_3",
+			"reason": "missing",
+			"englishValue": "Wartime escape",
+			"currentValue": null,
+			"targetTranslation": "Krigstida flykt"
+		},
+		{
+			"namespace": "index",
+			"key": "home_h1",
+			"reason": "missing",
+			"englishValue": "Bitcoin is better money that is building a better world.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är bättre pengar som bygger en bättre värld."
+		},
+		{
+			"namespace": "index",
+			"key": "home_nav_about",
+			"reason": "missing",
+			"englishValue": "About",
+			"currentValue": null,
+			"targetTranslation": "Om"
+		},
+		{
+			"namespace": "index",
+			"key": "home_nav_get_involved",
+			"reason": "missing",
+			"englishValue": "Get Involved",
+			"currentValue": null,
+			"targetTranslation": "Engagera dig"
+		},
+		{
+			"namespace": "index",
+			"key": "home_nav_learn",
+			"reason": "missing",
+			"englishValue": "Learn",
+			"currentValue": null,
+			"targetTranslation": "Lär dig"
+		},
+		{
+			"namespace": "index",
+			"key": "home_source_prefix",
+			"reason": "missing",
+			"englishValue": "Source:",
+			"currentValue": null,
+			"targetTranslation": "Källa:"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Dollars have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Dollar har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the dollar has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan dollarn har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in dollars that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i dollar som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Australian Dollars, you've probably noticed that they buy you less each year. It takes more dollars to buy the same amount of food. You need more dollars to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i australiska dollar har du säkert märkt att de köper dig mindre för varje år. Det krävs fler dollar för att köpa samma mängd mat. Du behöver fler dollar för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p1",
+			"reason": "missing",
+			"englishValue": "The dollars in your bank account buy you less every year. That's because there is no fixed limit on how many dollars can be created.",
+			"currentValue": null,
+			"targetTranslation": "Dollar på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många dollar som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of dollars in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden dollar i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_aud_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Reais have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Real har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the real has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan realen har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in reais that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i real som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Brazilian Reais, you've probably noticed that they buy you less each year. It takes more reais to buy the same amount of food. You need more reais to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i brasilianska real har du säkert märkt att de köper dig mindre för varje år. Det krävs fler real för att köpa samma mängd mat. Du behöver fler real för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p1",
+			"reason": "missing",
+			"englishValue": "The reais in your bank account buy you less every year. That's because there is no fixed limit on how many reais can be created.",
+			"currentValue": null,
+			"targetTranslation": "Real på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många real som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of reais in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden real i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_brl_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Dollars have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Dollar har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the dollar has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan dollarn har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in dollars that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i dollar som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Canadian Dollars, you've probably noticed that they buy you less each year. It takes more dollars to buy the same amount of food. You need more dollars to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i kanadensiska dollar har du säkert märkt att de köper dig mindre för varje år. Det krävs fler dollar för att köpa samma mängd mat. Du behöver fler dollar för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p1",
+			"reason": "missing",
+			"englishValue": "The dollars in your bank account buy you less every year. That's because there is no fixed limit on how many dollars can be created.",
+			"currentValue": null,
+			"targetTranslation": "Dollar på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många dollar som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of dollars in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden dollar i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_cad_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Euros have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Euro har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the euro has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan euron har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in euros that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i euro som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Euros, you've probably noticed that they buy you less each year. It takes more euros to buy the same amount of food. You need more euros to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i euro har du säkert märkt att de köper dig mindre för varje år. Det krävs fler euro för att köpa samma mängd mat. Du behöver fler euro för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p1",
+			"reason": "missing",
+			"englishValue": "The euros in your bank account buy you less every year. That's because there is no fixed limit on how many euros can be created.",
+			"currentValue": null,
+			"targetTranslation": "Euro på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många euro som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of euros in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden euro i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_eur_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_decentralized_desc",
+			"reason": "missing",
+			"englishValue": "No single entity — no government, no corporation — controls Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "Ingen enskild aktör — ingen regering, inget företag — kontrollerar Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_decentralized_title",
+			"reason": "missing",
+			"englishValue": "Decentralized",
+			"currentValue": null,
+			"targetTranslation": "Decentraliserat"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_learn_more",
+			"reason": "missing",
+			"englishValue": "Learn more →",
+			"currentValue": null,
+			"targetTranslation": "Läs mer →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_permissionless_desc",
+			"reason": "missing",
+			"englishValue": "Anyone, anywhere can join the network. No one can stop you.",
+			"currentValue": null,
+			"targetTranslation": "Vem som helst, var som helst kan ansluta till nätverket. Ingen kan stoppa dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_permissionless_title",
+			"reason": "missing",
+			"englishValue": "Permissionless",
+			"currentValue": null,
+			"targetTranslation": "Tillståndsfritt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_scarce_desc",
+			"reason": "missing",
+			"englishValue": "There will only ever be 21 million Bitcoin. No one can print more.",
+			"currentValue": null,
+			"targetTranslation": "Det kommer aldrig att finnas mer än 21 miljoner Bitcoin. Ingen kan trycka mer."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_scarce_title",
+			"reason": "missing",
+			"englishValue": "Scarce",
+			"currentValue": null,
+			"targetTranslation": "Knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_sovereign_desc",
+			"reason": "missing",
+			"englishValue": "A new system, independent from politicians and their broken promises.",
+			"currentValue": null,
+			"targetTranslation": "Ett nytt system, oberoende av politiker och deras brutna löften."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_freedom_sovereign_title",
+			"reason": "missing",
+			"englishValue": "Sovereign",
+			"currentValue": null,
+			"targetTranslation": "Suveränt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Pounds have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Pund har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the pound has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan pundet har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in pounds that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i pund som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in British Pounds, you've probably noticed that they buy you less each year. It takes more pounds to buy the same amount of food. You need more pounds to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i brittiska pund har du säkert märkt att de köper dig mindre för varje år. Det krävs fler pund för att köpa samma mängd mat. Du behöver fler pund för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p1",
+			"reason": "missing",
+			"englishValue": "The pounds in your bank account buy you less every year. That's because there is no fixed limit on how many pounds can be created.",
+			"currentValue": null,
+			"targetTranslation": "Pund på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många pund som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of pounds in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden pund i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_gbp_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Shekels have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Shekel har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the shekel has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan shekeln har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in shekels that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i shekel som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Israeli Shekels, you've probably noticed that they buy you less each year. It takes more shekels to buy the same amount of food. You need more shekels to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i israeliska shekel har du säkert märkt att de köper dig mindre för varje år. Det krävs fler shekel för att köpa samma mängd mat. Du behöver fler shekel för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p1",
+			"reason": "missing",
+			"englishValue": "The shekels in your bank account buy you less every year. That's because there is no fixed limit on how many shekels can be created.",
+			"currentValue": null,
+			"targetTranslation": "Shekel på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många shekel som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of shekels in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden shekel i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_ils_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Rupees have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Rupier har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the rupee has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan rupien har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in rupees that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i rupier som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Indian Rupees, you've probably noticed that they buy you less each year. It takes more rupees to buy the same amount of food. You need more rupees to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i indiska rupier har du säkert märkt att de köper dig mindre för varje år. Det krävs fler rupier för att köpa samma mängd mat. Du behöver fler rupier för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p1",
+			"reason": "missing",
+			"englishValue": "The rupees in your bank account buy you less every year. That's because there is no fixed limit on how many rupees can be created.",
+			"currentValue": null,
+			"targetTranslation": "Rupier på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många rupier som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of rupees in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden rupier i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_inr_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Yen have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Yen har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the yen has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan yenen har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in yen that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i yen som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Japanese Yen, you've probably noticed that they buy you less each year. It takes more yen to buy the same amount of food. You need more yen to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i japanska yen har du säkert märkt att de köper dig mindre för varje år. Det krävs fler yen för att köpa samma mängd mat. Du behöver fler yen för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p1",
+			"reason": "missing",
+			"englishValue": "The yen in your bank account buy you less every year. That's because there is no fixed limit on how many yen can be created.",
+			"currentValue": null,
+			"targetTranslation": "Yen på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många yen som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of yen in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden yen i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_jpy_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Pesos have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Peso har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the peso has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan peson har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in pesos that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i peso som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Mexican Pesos, you've probably noticed that they buy you less each year. It takes more pesos to buy the same amount of food. You need more pesos to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i mexikanska peso har du säkert märkt att de köper dig mindre för varje år. Det krävs fler peso för att köpa samma mängd mat. Du behöver fler peso för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p1",
+			"reason": "missing",
+			"englishValue": "The pesos in your bank account buy you less every year. That's because there is no fixed limit on how many pesos can be created.",
+			"currentValue": null,
+			"targetTranslation": "Peso på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många peso som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of pesos in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden peso i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_mxn_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Dollars have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Dollar har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the dollar has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan dollarn har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in dollars that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i dollar som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in New Zealand Dollars, you've probably noticed that they buy you less each year. It takes more dollars to buy the same amount of food. You need more dollars to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i nyzeeländska dollar har du säkert märkt att de köper dig mindre för varje år. Det krävs fler dollar för att köpa samma mängd mat. Du behöver fler dollar för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p1",
+			"reason": "missing",
+			"englishValue": "The dollars in your bank account buy you less every year. That's because there is no fixed limit on how many dollars can be created.",
+			"currentValue": null,
+			"targetTranslation": "Dollar på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många dollar som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of dollars in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden dollar i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_nzd_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Pesos have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Peso har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the peso has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan peson har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in pesos that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i peso som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Philippine Pesos, you've probably noticed that they buy you less each year. It takes more pesos to buy the same amount of food. You need more pesos to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i filippinska peso har du säkert märkt att de köper dig mindre för varje år. Det krävs fler peso för att köpa samma mängd mat. Du behöver fler peso för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p1",
+			"reason": "missing",
+			"englishValue": "The pesos in your bank account buy you less every year. That's because there is no fixed limit on how many pesos can be created.",
+			"currentValue": null,
+			"targetTranslation": "Peso på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många peso som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of pesos in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden peso i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_php_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_aud_debt_title",
+			"reason": "missing",
+			"englishValue": "AUSTRALIAN GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "AUSTRALIENS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_aud_existence_title",
+			"reason": "missing",
+			"englishValue": "AUSTRALIAN DOLLARS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "AUSTRALISKA DOLLAR I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_aud_label",
+			"reason": "missing",
+			"englishValue": "AUSTRALIAN DOLLAR",
+			"currentValue": null,
+			"targetTranslation": "AUSTRALISK DOLLAR"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_bitcoin_detail",
+			"reason": "missing",
+			"englishValue": "Fixed forever",
+			"currentValue": null,
+			"targetTranslation": "Fast för alltid"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_bitcoin_label",
+			"reason": "missing",
+			"englishValue": "BITCOIN",
+			"currentValue": null,
+			"targetTranslation": "BITCOIN"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_bitcoin_numeric",
+			"reason": "missing",
+			"englishValue": "(21,000,000)",
+			"currentValue": null,
+			"targetTranslation": "(21,000,000)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_bitcoin_source",
+			"reason": "missing",
+			"englishValue": "Source: Bitcoin Whitepaper →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Bitcoin Whitepaper →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_bitcoin_value",
+			"reason": "missing",
+			"englishValue": "21 Million",
+			"currentValue": null,
+			"targetTranslation": "21 miljoner"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_brl_debt_title",
+			"reason": "missing",
+			"englishValue": "BRAZILIAN GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "BRASILIENS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_brl_existence_title",
+			"reason": "missing",
+			"englishValue": "BRAZILIAN REAIS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "BRASILIANSKA REAL I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_brl_label",
+			"reason": "missing",
+			"englishValue": "BRAZILIAN REAL",
+			"currentValue": null,
+			"targetTranslation": "BRASILIANSK REAL"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_btc_detail_4yr",
+			"reason": "missing",
+			"englishValue": "Purchasing power gained over 4 years",
+			"currentValue": null,
+			"targetTranslation": "Köpkraft som vunnits över 4 år"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_btc_source_bpr",
+			"reason": "missing",
+			"englishValue": "Source: Bitcoin Price Report →",
+			"currentValue": null,
+			"targetTranslation": "Källa: Bitcoin Price Report →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_cad_debt_title",
+			"reason": "missing",
+			"englishValue": "CANADIAN GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "KANADAS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_cad_existence_title",
+			"reason": "missing",
+			"englishValue": "CANADIAN DOLLARS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "KANADENSISKA DOLLAR I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_cad_label",
+			"reason": "missing",
+			"englishValue": "CANADIAN DOLLAR",
+			"currentValue": null,
+			"targetTranslation": "KANADENSISK DOLLAR"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_comparison_today",
+			"reason": "missing",
+			"englishValue": "TODAY",
+			"currentValue": null,
+			"targetTranslation": "IDAG"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_counting",
+			"reason": "missing",
+			"englishValue": "And counting...",
+			"currentValue": null,
+			"targetTranslation": "Och fortsätter..."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_detail_4yr_lost",
+			"reason": "missing",
+			"englishValue": "Purchasing power lost over 4 years",
+			"currentValue": null,
+			"targetTranslation": "Köpkraft som förlorats över 4 år"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_source_cpi",
+			"reason": "missing",
+			"englishValue": "Source: FRED CPI →",
+			"currentValue": null,
+			"targetTranslation": "Källa: FRED KPI →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_source_debt",
+			"reason": "missing",
+			"englishValue": "Source: FRED Government Debt →",
+			"currentValue": null,
+			"targetTranslation": "Källa: FRED Statsskuld →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_source_m1",
+			"reason": "missing",
+			"englishValue": "Source: FRED Narrow Money Supply →",
+			"currentValue": null,
+			"targetTranslation": "Källa: FRED Smal penningmängd →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_currency_source_m1_short",
+			"reason": "missing",
+			"englishValue": "Source: FRED →",
+			"currentValue": null,
+			"targetTranslation": "Källa: FRED →"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_eur_debt_title",
+			"reason": "missing",
+			"englishValue": "EUROZONE GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "EUROOMRÅDETS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_eur_existence_title",
+			"reason": "missing",
+			"englishValue": "EUROS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "EURO I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_eur_label",
+			"reason": "missing",
+			"englishValue": "EURO",
+			"currentValue": null,
+			"targetTranslation": "EURO"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_gbp_debt_title",
+			"reason": "missing",
+			"englishValue": "UK GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "STORBRITANNIENS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_gbp_existence_title",
+			"reason": "missing",
+			"englishValue": "BRITISH POUNDS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "BRITTISKA PUND I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_gbp_label",
+			"reason": "missing",
+			"englishValue": "BRITISH POUND",
+			"currentValue": null,
+			"targetTranslation": "BRITTISKT PUND"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_ils_debt_title",
+			"reason": "missing",
+			"englishValue": "ISRAELI GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "ISRAELS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_ils_existence_title",
+			"reason": "missing",
+			"englishValue": "ISRAELI SHEKELS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "ISRAELISKA SHEKEL I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_ils_label",
+			"reason": "missing",
+			"englishValue": "ISRAELI SHEKEL",
+			"currentValue": null,
+			"targetTranslation": "ISRAELISK SHEKEL"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_inr_debt_title",
+			"reason": "missing",
+			"englishValue": "INDIAN GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "INDIENS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_inr_existence_title",
+			"reason": "missing",
+			"englishValue": "INDIAN RUPEES IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "INDISKA RUPIER I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_inr_label",
+			"reason": "missing",
+			"englishValue": "INDIAN RUPEE",
+			"currentValue": null,
+			"targetTranslation": "INDISK RUPIE"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_jpy_debt_title",
+			"reason": "missing",
+			"englishValue": "JAPANESE GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "JAPANS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_jpy_existence_title",
+			"reason": "missing",
+			"englishValue": "JAPANESE YEN IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "JAPANSKA YEN I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_jpy_label",
+			"reason": "missing",
+			"englishValue": "JAPANESE YEN",
+			"currentValue": null,
+			"targetTranslation": "JAPANSK YEN"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_mxn_debt_title",
+			"reason": "missing",
+			"englishValue": "MEXICAN GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "MEXIKOS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_mxn_existence_title",
+			"reason": "missing",
+			"englishValue": "MEXICAN PESOS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "MEXIKANSKA PESO I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_mxn_label",
+			"reason": "missing",
+			"englishValue": "MEXICAN PESO",
+			"currentValue": null,
+			"targetTranslation": "MEXIKANSK PESO"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_nzd_debt_title",
+			"reason": "missing",
+			"englishValue": "NEW ZEALAND GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "NYA ZEELANDS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_nzd_existence_title",
+			"reason": "missing",
+			"englishValue": "NEW ZEALAND DOLLARS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "NYZEELÄNDSKA DOLLAR I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_nzd_label",
+			"reason": "missing",
+			"englishValue": "NEW ZEALAND DOLLAR",
+			"currentValue": null,
+			"targetTranslation": "NYZEELÄNDSK DOLLAR"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_php_debt_title",
+			"reason": "missing",
+			"englishValue": "PHILIPPINE GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "FILIPPINERNAS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_php_existence_title",
+			"reason": "missing",
+			"englishValue": "PHILIPPINE PESOS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "FILIPPINSKA PESO I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_php_label",
+			"reason": "missing",
+			"englishValue": "PHILIPPINE PESO",
+			"currentValue": null,
+			"targetTranslation": "FILIPPINSK PESO"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_thb_debt_title",
+			"reason": "missing",
+			"englishValue": "THAI GOVERNMENT DEBT",
+			"currentValue": null,
+			"targetTranslation": "THAILANDS STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_thb_existence_title",
+			"reason": "missing",
+			"englishValue": "THAI BAHT IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "THAILÄNDSKA BAHT I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_thb_label",
+			"reason": "missing",
+			"englishValue": "THAI BAHT",
+			"currentValue": null,
+			"targetTranslation": "THAILÄNDSK BAHT"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_usd_debt_title",
+			"reason": "missing",
+			"englishValue": "TOTAL FEDERAL DEBT",
+			"currentValue": null,
+			"targetTranslation": "TOTAL FEDERAL STATSSKULD"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_usd_existence_title",
+			"reason": "missing",
+			"englishValue": "DOLLARS IN EXISTENCE",
+			"currentValue": null,
+			"targetTranslation": "DOLLAR I OMLOPP"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_stat_usd_label",
+			"reason": "missing",
+			"englishValue": "US DOLLAR",
+			"currentValue": null,
+			"targetTranslation": "AMERIKANSK DOLLAR"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_canada_desc",
+			"reason": "missing",
+			"englishValue": "Workers used Bitcoin to access money after their bank accounts were frozen.",
+			"currentValue": null,
+			"targetTranslation": "Arbetare använde Bitcoin för att komma åt pengar efter att deras bankkonton frystes."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_canada_title",
+			"reason": "missing",
+			"englishValue": "Canada",
+			"currentValue": null,
+			"targetTranslation": "Kanada"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_nigeria_desc",
+			"reason": "missing",
+			"englishValue": "Protesters used Bitcoin to fund their movement after banks cut them off.",
+			"currentValue": null,
+			"targetTranslation": "Demonstranter använde Bitcoin för att finansiera sin rörelse efter att bankerna stängde av dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_nigeria_title",
+			"reason": "missing",
+			"englishValue": "Nigeria",
+			"currentValue": null,
+			"targetTranslation": "Nigeria"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_pennsylvania_desc",
+			"reason": "missing",
+			"englishValue": "Bitcoin mining cleaned up coal waste the government refused to handle.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-mining sanerade kolavfall som regeringen vägrade hantera."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_pennsylvania_title",
+			"reason": "missing",
+			"englishValue": "Pennsylvania",
+			"currentValue": null,
+			"targetTranslation": "Pennsylvania"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_texas_desc",
+			"reason": "missing",
+			"englishValue": "Bitcoin mining helped keep the lights on during a massive storm.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-mining bidrog till att hålla strömmen igång under en kraftig storm."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_story_texas_title",
+			"reason": "missing",
+			"englishValue": "Texas",
+			"currentValue": null,
+			"targetTranslation": "Texas"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Baht have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Baht har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the baht has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan bahten har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in baht that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i baht som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in Thai Baht, you've probably noticed that they buy you less each year. It takes more baht to buy the same amount of food. You need more baht to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i thailändska baht har du säkert märkt att de köper dig mindre för varje år. Det krävs fler baht för att köpa samma mängd mat. Du behöver fler baht för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p1",
+			"reason": "missing",
+			"englishValue": "The baht in your bank account buy you less every year. That's because there is no fixed limit on how many baht can be created.",
+			"currentValue": null,
+			"targetTranslation": "Baht på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många baht som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of baht in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden baht i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_thb_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin doesn't have inflation",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p1",
+			"reason": "missing",
+			"englishValue": "Inflation means your money buys you less over time. Bitcoin is better money because it doesn't have inflation.",
+			"currentValue": null,
+			"targetTranslation": "Inflation innebär att dina pengar köper dig mindre med tiden. Bitcoin är bättre pengar eftersom det inte har inflation."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p2_after",
+			"reason": "missing",
+			"englishValue": "because it has a maximum supply of 21 million Bitcoin. No one can print more Bitcoin.",
+			"currentValue": null,
+			"targetTranslation": "eftersom det har ett maxutbud på 21 miljoner Bitcoin. Ingen kan trycka mer Bitcoin."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p2_before",
+			"reason": "missing",
+			"englishValue": "Dollars have an unlimited supply, which means more can be printed at any time.",
+			"currentValue": null,
+			"targetTranslation": "Dollar har ett obegränsat utbud, vilket betyder att fler kan tryckas när som helst."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p2_link",
+			"reason": "missing",
+			"englishValue": "Bitcoin is scarce",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är knappt"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p3",
+			"reason": "missing",
+			"englishValue": "Historically, Bitcoin has gained purchasing power over time while the dollar has lost it. Many people use Bitcoin as their long-term savings account: money that they can leave alone and let grow for several years.",
+			"currentValue": null,
+			"targetTranslation": "Historiskt sett har Bitcoin ökat i köpkraft över tid medan dollarn har förlorat sin. Många använder Bitcoin som sitt långsiktiga sparkonto: pengar som de kan låta vara ifred och växa i flera år."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_btc_p4",
+			"reason": "missing",
+			"englishValue": "Would you rather save in dollars that buy you less over time? Or save in Bitcoin that has historically bought you more over time?",
+			"currentValue": null,
+			"targetTranslation": "Vill du hellre spara i dollar som köper dig mindre med tiden? Eller spara i Bitcoin som historiskt sett har köpt dig mer med tiden?"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_freedom_h2",
+			"reason": "missing",
+			"englishValue": "Bitcoin is also a tool for freedom",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin är också ett verktyg för frihet"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_freedom_p1",
+			"reason": "missing",
+			"englishValue": "The Bitcoin network isn't owned by anyone. It isn't controlled by any government or corporation. It's designed to uphold your freedom and protect your money.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-nätverket ägs inte av någon. Det kontrolleras inte av någon regering eller något företag. Det är utformat för att upprätthålla din frihet och skydda dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_freedom_p2",
+			"reason": "missing",
+			"englishValue": "People around the world are already using Bitcoin to protect their freedom — even when their own governments refused to help or tried to stop them.",
+			"currentValue": null,
+			"targetTranslation": "Människor runtom i världen använder redan Bitcoin för att skydda sin frihet — även när deras egna regeringar vägrade hjälpa eller försökte stoppa dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_intro_1",
+			"reason": "missing",
+			"englishValue": "If you save in US Dollars, you've probably noticed that they buy you less each year. It takes more dollars to buy the same amount of food. You need more dollars to maintain your quality of life.",
+			"currentValue": null,
+			"targetTranslation": "Om du sparar i amerikanska dollar har du säkert märkt att de köper dig mindre för varje år. Det krävs fler dollar för att köpa samma mängd mat. Du behöver fler dollar för att behålla din livskvalitet."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_intro_2",
+			"reason": "missing",
+			"englishValue": "But it doesn't have to be this way.",
+			"currentValue": null,
+			"targetTranslation": "Men det behöver inte vara så här."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_intro_highlight",
+			"reason": "missing",
+			"englishValue": "People who saved in Bitcoin over the last 4 years saw life get cheaper.",
+			"currentValue": null,
+			"targetTranslation": "De som sparat i Bitcoin de senaste 4 åren har sett livet bli billigare."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_h2",
+			"reason": "missing",
+			"englishValue": "Here's the proof: your money is losing value",
+			"currentValue": null,
+			"targetTranslation": "Här är beviset: dina pengar tappar värde"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p1",
+			"reason": "missing",
+			"englishValue": "The dollars in your bank account buy you less every year. That's because there is no fixed limit on how many dollars can be created.",
+			"currentValue": null,
+			"targetTranslation": "Dollar på ditt bankkonto köper dig mindre för varje år. Det beror på att det inte finns någon fast gräns för hur många dollar som kan skapas."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p2",
+			"reason": "missing",
+			"englishValue": "This unlimited supply is the root cause of inflation. Over recent years, the total amount of dollars in existence has increased dramatically.",
+			"currentValue": null,
+			"targetTranslation": "Detta obegränsade utbud är grundorsaken till inflation. Under de senaste åren har den totala mängden dollar i omlopp ökat dramatiskt."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p3",
+			"reason": "missing",
+			"englishValue": "When more money is created from nothing, the price of everything goes up. This includes the raw materials that companies buy to make their products — which means higher prices for you.",
+			"currentValue": null,
+			"targetTranslation": "När mer pengar skapas ur tomma intet stiger priset på allt. Det inkluderar de råvaror som företag köper för att tillverka sina produkter — vilket innebär högre priser för dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p4",
+			"reason": "missing",
+			"englishValue": "And when the government continues to increase their debt, even more money is printed because less people want to lend them money.",
+			"currentValue": null,
+			"targetTranslation": "Och när regeringen fortsätter att öka sin skuld trycks ännu mer pengar, eftersom färre vill låna ut till dem."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p5_after",
+			"reason": "missing",
+			"englishValue": ", they just print the money.",
+			"currentValue": null,
+			"targetTranslation": ", trycker de helt enkelt pengarna."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p5_before",
+			"reason": "missing",
+			"englishValue": "If you can't get a loan, you can't spend money. But if the government",
+			"currentValue": null,
+			"targetTranslation": "Om du inte kan få ett lån kan du inte spendera pengar. Men om regeringen"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p5_link",
+			"reason": "missing",
+			"englishValue": "can't get a loan",
+			"currentValue": null,
+			"targetTranslation": "inte kan få ett lån"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_usd_proof_p6",
+			"reason": "missing",
+			"englishValue": "More government debt means more money printing. More money printing means more inflation. And there's no sign of it stopping.",
+			"currentValue": null,
+			"targetTranslation": "Mer statsskuld betyder mer pengatryckande. Mer pengatryckande betyder mer inflation. Och det finns inget tecken på att det ska sluta."
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_3",
+			"reason": "untranslated",
+			"englishValue": "inflation",
+			"currentValue": "inflation",
+			"targetTranslation": "inflation"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_material",
+			"reason": "untranslated",
+			"englishValue": "Material:",
+			"currentValue": "Material:",
+			"targetTranslation": "Material:"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_5",
+			"reason": "manifest-changed",
+			"englishValueBefore": "request a pack of English stickers for free",
+			"englishValue": "request a pack",
+			"currentValue": "beställa ett gratis paket engelska klistermärken",
+			"targetTranslation": "beställa ett paket"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Choose your money...",
+			"englishValue": "Choose your money to see the proof",
+			"currentValue": "Välj din valuta...",
+			"targetTranslation": "Välj din valuta för att se beviset"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose_another",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Choose another money",
+			"englishValue": "← Choose another money",
+			"currentValue": "Välj en annan valuta",
+			"targetTranslation": "← Välj en annan valuta"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_h1_orange",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Bitcoin doesn't have inflation,",
+			"englishValue": "Bitcoin doesn't have inflation, but your money does.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin har inte inflation, men det har dina pengar."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_learn",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Learn how Bitcoin can help",
+			"englishValue": "Learn how Bitcoin can help.",
+			"currentValue": "LÄR DIG HUR BITCOIN KAN HJÄLPA DIG",
+			"targetTranslation": "Lär dig hur Bitcoin kan hjälpa dig."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_lets_find_out",
+			"reason": "manifest-changed",
+			"englishValueBefore": "Let's find out",
+			"englishValue": "Let's find out.",
+			"currentValue": "LÅT OSS TA REDA PÅ DET",
+			"targetTranslation": "Låt oss ta reda på det."
+		},
+		{
+			"namespace": "common",
+			"key": "common_site_tagline",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin education for everyone.",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-utbildning för alla."
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_btc_map",
+			"reason": "manifest-added",
+			"englishValue": "BTC Map — Worldwide directory of Bitcoin-accepting merchants",
+			"currentValue": null,
+			"targetTranslation": "BTC Map — Världsomspännande katalog över Bitcoin-accepterande handlare"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_btcpayserver",
+			"reason": "manifest-added",
+			"englishValue": "BTCPay Server — Free, open-source, self-hosted Bitcoin payment processor",
+			"currentValue": null,
+			"targetTranslation": "BTCPay Server — Gratis, öppen källkod, självhostad Bitcoin-betalningsbehandlare"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_oshi",
+			"reason": "manifest-added",
+			"englishValue": "Oshi — Bitcoin rewards platform for merchants",
+			"currentValue": null,
+			"targetTranslation": "Oshi — Bitcoin-belöningsplattform för handlare"
+		},
+		{
+			"namespace": "common",
+			"key": "common_source_strike_business",
+			"reason": "manifest-added",
+			"englishValue": "Strike — Bitcoin & Lightning payments for businesses",
+			"currentValue": null,
+			"targetTranslation": "Strike — Bitcoin- och Lightning-betalningar för företag"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_bitcoin",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin data",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-data"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_cpi",
+			"reason": "manifest-added",
+			"englishValue": "Inflation / Consumer Price Index",
+			"currentValue": null,
+			"targetTranslation": "Inflation / Konsumentprisindex"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_debt",
+			"reason": "manifest-added",
+			"englishValue": "Government debt",
+			"currentValue": null,
+			"targetTranslation": "Statsskuld"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_money",
+			"reason": "manifest-added",
+			"englishValue": "Money supply data",
+			"currentValue": null,
+			"targetTranslation": "Data om penningmängd"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sources_group_stories",
+			"reason": "manifest-added",
+			"englishValue": "Real-world examples",
+			"currentValue": null,
+			"targetTranslation": "Verkliga exempel"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_6",
+			"reason": "manifest-added",
+			"englishValue": "of English stickers for free.",
+			"currentValue": null,
+			"targetTranslation": "engelska klistermärken gratis."
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_flyers_label",
+			"reason": "manifest-added",
+			"englishValue": "Flyers",
+			"currentValue": null,
+			"targetTranslation": "Flygblad"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_flyers_title",
+			"reason": "manifest-added",
+			"englishValue": "Print a Bitcoin flyer",
+			"currentValue": null,
+			"targetTranslation": "Skriv ut ett Bitcoin-flygblad"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_languages_label",
+			"reason": "manifest-added",
+			"englishValue": "Sticker files",
+			"currentValue": null,
+			"targetTranslation": "Klistermärkesfiler"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_next_languages_title",
+			"reason": "manifest-added",
+			"englishValue": "See sticker files in other languages",
+			"currentValue": null,
+			"targetTranslation": "Se klistermärkesfiler på andra språk"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_print_these",
+			"reason": "manifest-added",
+			"englishValue": "PRINT THESE IN 1 CLICK",
+			"currentValue": "PRINT THESE IN 1 CLICK",
+			"targetTranslation": "SKRIV UT DESSA MED 1 KLICK"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_bdhi_black",
+			"reason": "manifest-added",
+			"englishValue": "\"Bitcoin Doesn't Have Inflation\" Sticker (Black)",
+			"currentValue": null,
+			"targetTranslation": "“Bitcoin har inte inflation”-klistermärke (svart)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_bdhi_orange",
+			"reason": "manifest-added",
+			"englishValue": "\"Bitcoin Doesn't Have Inflation\" Sticker (Orange)",
+			"currentValue": null,
+			"targetTranslation": "“Bitcoin har inte inflation”-klistermärke (orange)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_caution",
+			"reason": "manifest-added",
+			"englishValue": "\"Caution! Melting Ice Cube\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Varning! Smältande iskub” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_cure_inflation",
+			"reason": "manifest-added",
+			"englishValue": "\"Cure Inflation\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Bota inflation” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_danger",
+			"reason": "manifest-added",
+			"englishValue": "\"Danger! Inflation Ahead\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Fara! Inflation framöver” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_fix",
+			"reason": "manifest-added",
+			"englishValue": "\"Fix The Money, Fix The World\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Fix the Money, Fix the World” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_got_inflation",
+			"reason": "manifest-added",
+			"englishValue": "\"Got Inflation?\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Har du inflation?” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_study",
+			"reason": "manifest-added",
+			"englishValue": "\"Study Bitcoin\" Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Studera Bitcoin”-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_warning",
+			"reason": "manifest-added",
+			"englishValue": "\"Warning! Inflation is Stealing Your Savings\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Varning! Inflation stjäl ditt sparande” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_name_what_if",
+			"reason": "manifest-added",
+			"englishValue": "\"What if your money didn't have inflation?\" Bitcoin Sticker",
+			"currentValue": null,
+			"targetTranslation": "“Tänk om dina pengar inte hade inflation?” Bitcoin-klistermärke"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_heading",
+			"reason": "manifest-added",
+			"englishValue": "Sticker tips",
+			"currentValue": null,
+			"targetTranslation": "Tips för klistermärken"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_intro",
+			"reason": "manifest-added",
+			"englishValue": "Once you've printed your stickers, put them somewhere they'll be seen! Good sticker spots are:",
+			"currentValue": null,
+			"targetTranslation": "När du har skrivit ut dina klistermärken — sätt upp dem där de syns! Bra platser för klistermärken är:"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_1",
+			"reason": "manifest-added",
+			"englishValue": "in public where people will see them",
+			"currentValue": null,
+			"targetTranslation": "på offentliga platser där människor kommer att se dem"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_2",
+			"reason": "manifest-added",
+			"englishValue": "in places that are unlikely to be removed quickly (the stickers don't cause any permanent damage)",
+			"currentValue": null,
+			"targetTranslation": "på platser där de sannolikt inte kommer att tas bort snabbt (klistermärkena orsakar ingen permanent skada)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_3",
+			"reason": "manifest-added",
+			"englishValue": "on surfaces they will stick to easily (metal, plastic, glass)",
+			"currentValue": null,
+			"targetTranslation": "på ytor där de fastnar enkelt (metall, plast, glas)"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_tips_list_4",
+			"reason": "manifest-added",
+			"englishValue": "NOT on private property, covering signage, ATMs, or gas pumps",
+			"currentValue": null,
+			"targetTranslation": "INTE på privat egendom, över skyltar, bankomater eller bensinpumpar"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_printer_prefix",
+			"reason": "manifest-added",
+			"englishValue": "We use",
+			"currentValue": null,
+			"targetTranslation": "Vi använder"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_printer_suffix",
+			"reason": "manifest-added",
+			"englishValue": "but you can use any sticker company.",
+			"currentValue": null,
+			"targetTranslation": "men du kan använda valfritt klistermärkesföretag."
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_bitcoin_price_report_4yr",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin Price Report — 4-year performance charts (all currencies)",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin Price Report — Utvecklingsdiagram för 4 år (alla valutor)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_bitcoin_source_code",
+			"reason": "manifest-added",
+			"englishValue": "Bitcoin Source Code — 21 Million Supply Cap",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin Source Code — Utbudstaket på 21 miljoner"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_canadian_trucker",
+			"reason": "manifest-added",
+			"englishValue": "Canadian trucker protest — Bitcoin used to bypass frozen bank accounts (YouTube)",
+			"currentValue": null,
+			"targetTranslation": "Kanadensisk lastbilsförarprotest — Bitcoin användes för att kringgå frysta bankkonton (YouTube)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_mempool_space",
+			"reason": "manifest-added",
+			"englishValue": "Mempool.space — Bitcoin Supply & Mining Data",
+			"currentValue": null,
+			"targetTranslation": "Mempool.space — Bitcoin-utbud och miningdata"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_nigeria_endsars",
+			"reason": "manifest-added",
+			"englishValue": "Quartz Africa — How Bitcoin powered Nigeria’s EndSARS protests",
+			"currentValue": null,
+			"targetTranslation": "Quartz Africa — Hur Bitcoin drev Nigerias EndSARS-protester"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_pennsylvania_mining",
+			"reason": "manifest-added",
+			"englishValue": "Pennsylvania Bitcoin mining reclaims waste methane (YouTube)",
+			"currentValue": null,
+			"targetTranslation": "Pennsylvania-baserad Bitcoin-mining återvinner metan från avfall (YouTube)"
+		},
+		{
+			"namespace": "inflation",
+			"key": "sources_texas_mining",
+			"reason": "manifest-added",
+			"englishValue": "Texas Bitcoin mining and the electric grid (YouTube)",
+			"currentValue": null,
+			"targetTranslation": "Bitcoin-mining i Texas och elnätet (YouTube)"
+		}
+	],
+	"appliedAt": "2026-04-25T21:34:44.811Z",
+	"appliedStats": {
+		"resolved": 482,
+		"unresolved": 0,
+		"filesTouched": 3,
+		"keysWritten": 482,
+		"filesCreated": 0,
+		"markerWritten": true
+	}
+}

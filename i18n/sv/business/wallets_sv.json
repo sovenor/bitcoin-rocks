@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"how_to_accept_bitcoin_payments": "Hur man accepterar Bitcoin-betalningar",
@@ -33,5 +33,22 @@
 	"wallets_feature_self_hosted": "Egen hosting = 0% avgifter",
 	"wallets_feature_online_store": "Integration med webbutik",
 	"wallets_feature_invoicing": "Gratis faktureringsprogram",
-	"wallets_get_wallet": "SKAFFA PLÅNBOK"
+	"wallets_get_wallet": "SKAFFA PLÅNBOK",
+	"wallets_hero_subtitle": "Bitcoin-plånböcker är gratis. Välj en som passar ditt företag – på plats, online eller fakturabaserad – och börja ta emot Bitcoin på några minuter.",
+	"wallets_section_sole": "Plånböcker för enskilda näringsidkare",
+	"wallets_section_sole_intro": "Om du driver en butik, ett kafé, en studio eller en tjänst på egen hand fungerar vilken som helst av dessa plånböcker. Välj utifrån om du vill behålla betalningarna i Bitcoin eller automatiskt växla en del av varje betalning till din lokala valuta.",
+	"wallets_section_multiple": "Plånböcker för företag med flera anställda",
+	"wallets_section_multiple_intro": "Om du har ett team som tar emot betalningar i kassan, välj en plånbok som stöder inloggning för flera anställda – så att varje anställd får sin egen PIN-kod och du behåller en tydlig spårbarhet över vem som tagit emot vilken betalning.",
+	"wallets_section_online": "Plånböcker för onlineföretag",
+	"wallets_section_online_intro": "Säljer du via en webbplats? Dessa plånböcker kopplas in i din webbutik och tar emot Bitcoin från vilken kund som helst, var som helst i världen – inga återkrav, inget säljkonto krävs.",
+	"wallets_section_invoice": "Plånböcker för fakturabaserade företag",
+	"wallets_section_invoice_intro": "Om du fakturerar kunder (konsulttjänster, frilansuppdrag, B2B-tjänster), använd en plånbok som är byggd kring fakturering. Din kund betalar en Bitcoin-faktura med ett par klick.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business låter dig ta emot Bitcoin- och Lightning-betalningar med noll avgifter och omedelbar avveckling. Stöder betalningar på plats, online och fakturabaserade, med valfri automatisk växling till din lokala valuta.",
+	"sources_square": "Square — Ta emot Bitcoin-betalningar",
+	"sources_breez_business": "Breez — Bitcoin-only Lightning-plånbok",
+	"sources_opennode": "OpenNode — Betalleverantör för Bitcoin",
+	"sources_ibex": "IBEX — Infrastruktur för Lightning-betalningar",
+	"sources_zaprite": "Zaprite — Bitcoin-fakturering för företag",
+	"biz_wallets_meta_description": "Alla Bitcoin-plånböcker fungerar tillsammans – välj den som passar ditt företag. Gratis, omedelbar avveckling, inga återkrav."
 }
