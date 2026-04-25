@@ -3,10 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pa"
 	},
 	"cic_header": "ਚੱਕਰਵਿੱਢੀ ਮਹਿੰਗਾਈ ਕੈਲਕੂਲੇਟਰ",
 	"cic_description": "ਇਸ ਚੱਕਰਵਿੱਢੀ ਮਹਿੰਗਾਈ ਕੈਲਕੂਲੇਟਰ ਦੀ ਵਰਤੋਂ ਕਰੋ ਇਹ ਜਾਣਨ ਲਈ ਕਿ ਮਹਿੰਗਾਈ ਦੇ ਨਾਲ ਤਾਲਮੇਲ ਰੱਖਣ ਲਈ ਤੁਹਾਡੀ ਤਨਖਾਹ ਕਿੰਨੀ ਵਧਣੀ ਚਾਹੀਦੀ ਹੈ।",
-	"cic_inflation_cta": "Bitcoin ਨਾਲ ਮਹਿੰਗਾਈ ਤੋਂ ਬਾਹਰ ਆਓ"
+	"cic_hero_subtitle": "ਜਾਣੋ ਮਹਿੰਗਾਈ ਦੀ ਰਫ਼ਤਾਰ ਨਾਲ ਕਦਮ ਮਿਲਾਉਣ ਲਈ ਤੁਹਾਡੀ ਤਨਖ਼ਾਹ ਨੂੰ ਕਿੰਨਾ ਵਧਣਾ ਚਾਹੀਦਾ ਹੈ।",
+	"cic_calculator_heading": "ਆਪਣੀ ਮਹਿੰਗਾਈ ਦਾ ਫ਼ਰਕ ਕੱਢੋ",
+	"cic_cta_label": "ਅਗਲਾ ਕਦਮ",
+	"cic_inflation_cta": "Bitcoin ਨਾਲ ਮਹਿੰਗਾਈ ਤੋਂ ਬਾਹਰ ਆਓ",
+	"cic_next_learn_inflation": "ਮਹਿੰਗਾਈ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ, ਸਿੱਖੋ",
+	"cic_next_explore_topics": "ਹੋਰ ਵਿਸ਼ੇ ਖੋਜੋ",
+	"cic_next_explore_topics_desc": "ਦੇਖੋ ਬਿਟਕੌਇਨ ਦਾ ਪੈਸੇ, ਆਜ਼ਾਦੀ, ਊਰਜਾ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਨਾਲ ਕੀ ਨਾਤਾ ਹੈ।",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — ਸਾਰੇ ਸ਼ਹਿਰੀ ਖਪਤਕਾਰਾਂ ਲਈ ਖਪਤਕਾਰ ਮੁੱਲ ਸੂਚਕਾਂਕ",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 ਮਨੀ ਸਪਲਾਈ"
 }

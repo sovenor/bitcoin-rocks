@@ -3,16 +3,19 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pa"
 	},
 	"bitcoin_lightning_wallet_guide": "Bitcoin ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਗਾਇਡ",
 	"lightning_description": "ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਆਪਕੋ ਵ੍ਯਕ੍ਤਿਗਤ ਸਂਪ੍ਰਭੁਤਾ ਬਨਾਏ ਰਖਤੇ ਹੁਏ ਤੇਜ਼, ਕਮ ਸ਼ੁਲ੍ਕ ਪਰ Bitcoin ਭੇਜਨੇ ਦੇਤੇ ਹੈਂ੤",
 	"lightning_header": "ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਗਾਇਡ",
+	"lightning_header_subtitle": "Lightning ਤੁਹਾਨੂੰ ਇੱਕ ਸੈਂਟ ਤੋਂ ਘੱਟ ਵਿੱਚ ਸਕਿੰਟਾਂ ਵਿੱਚ ਬਿਟਕੌਇਨ ਭੇਜਣ ਦਿੰਦਾ ਹੈ — ਤੁਸੀਂ ਜਿੰਨਾ ਖ਼ਰਚਣਾ ਚਾਹੁੰਦੇ ਹੋ ਉਸ ਲਈ ਸਹੀ ਵਾਲਿਟ ਚੁਣੋ।",
 	"lightning_s1_c1": "ਲਾਇਟਨਿਂਗ ਨੇਟਵਰ੍ਕ ਆਪਕੋ ਤੇਜ਼, ਕਮ ਸ਼ੁਲ੍ਕ ਪਰ Bitcoin ਭੁਗਤਾਨ ਭੇਜਨੇ ਦੇਤਾ ਹੈ੤",
 	"lightning_s1_c2": "ਯਹ ਜਾਨਨਾ ਮਹਤ੍ਵਪੂਰ੍ਣ ਹੈ ਕਿ ਲਾਇਟਨਿਂਗ ਨੇਟਵਰ੍ਕ ਮੇਂ ਟ੍ਰੇਡ-਑ਫ ਹੈਂ੤ ਤੇਜ਼ ਔਰ ਸਸ੍ਤੇ ਭੁਗਤਾਨ ਕੇ ਲਿਏ, ਆਮ ਤੌਰ ਪਰ ਕੁਛ ਸੁਰਕ੍਷ਾ ਕਾ ਤ੍ਯਾਗ ਕਰਨਾ ਹੋਤਾ ਹੈ੤",
 	"lightning_s1_c3": "ਸਾਮਾਨ੍ਯਤਃ, ਲਾਇਟਨਿਂਗ ਨੇਟਵਰ੍ਕ ਕੇਵਲ ਛੋਟੀ ਰਾਸ਼ਿ ਕੇ Bitcoin ਕੇ ਲਿਏ ਉਪਯੋਗ ਕਰਨਾ ਚਾਹਿਏ੤ ਬਡ਼ੀ ਰਾਸ਼ਿ ਹਮੇਸ਼ਾ ਹਾਰ੍ਡਵੇਯਰ ਵ੉ਲੇਟ ਮੇਂ ਰਖਨੀ ਚਾਹਿਏ੤",
-	"lightning_s1_c4": "ਅਧਿਕ ਜਾਨਕਾਰੀ ਕੇ ਲਿਏ ਹਮਾਰੀ ਹਾਰ੍ਡਵੇਯਰ ਵ੉ਲੇਟ ਗਾਇਡ ਦੇਖੇਂ੤",
+	"lightning_s1_c4": "ਦੇਖੋ",
+	"lightning_s1_c4_link": "ਬਿਟਕੌਇਨ ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ ਗਾਈਡ",
+	"lightning_s1_c4_end": "ਹੋਰ ਜਾਣਨ ਲਈ।",
 	"lightning_s1_c5": "ਸਭੀ ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਏਕ ਜੈਸੇ ਨਹੀਂ ਹੈਂ੤ ਏਕ ਸਰਲ ਪ੍ਰਸ਼੍ਨ ਸੇ ਜਾਨੇਂ ਕਿ ਕੌਨ ਸਾ ਟ੍ਰੇਡ-਑ਫ ਆਪਕੇ ਲਿਏ ਸਹੀ ਹੈ:",
 	"lightning_question_1": "ਕੌਨ ਸਾ ਟ੍ਰੇਡ-਑ਫ ਮੇਰੇ ਲਿਏ ਸਹੀ ਹੈ?",
 	"lightning_s2_c1": "Bitcoin ਕੀ ਨਵੀਨਤਾ ਹੈ ਕਿ ਬੈਂਕ ਜੈਸੇ ਕਸ੍ਟੋਡਿਯਨ ਪਰ ਨਿਰ੍ਭਰ ਹੁਏ ਬਿਨਾ Bitcoin ਸ੍ਟੋਰ ਕਿਯਾ ਜਾ ਸਕਤਾ ਹੈ੤ ਸ੍ਵ-ਸਂਰਕ੍਷ਣ Bitcoin ਕੀ ਪੂਰੀ ਸ਼ਕ੍ਤਿ ਖੋਲਤਾ ਹੈ੤",
@@ -24,6 +27,7 @@
 	"lightning_s3_c2": "ਯੇ ਬੈਂਕਿਂਗ ਜੈਸੇ ਹੈਂ ਜਹਾਁ ਤੀਸਰੇ ਪਕ੍਷ ਪਰ ਭਰੋਸਾ ਜ਼ਰੂਰੀ ਹੈ੤ ਏਕ੍ਸਚੇਂਜ ਪਰ Bitcoin = ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ੤",
 	"lightning_s3_c3": "ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ ਸੁਵਿਧਾਜਨਕ ਲਗਤੇ ਹੈਂ, ਲੇਕਿਨ ਕਸ੍ਟੋਡਿਯਨ ਕਭੀ ਭੀ ਫਂਡ ਚੁਰਾ ਸਕਤਾ ਹੈ੤",
 	"lightning_s3_c4": "ਕੁਛ ਲੋਗ ਆਸਾਨੀ ਕੇ ਲਿਏ ਛੋਟੀ ਰਾਸ਼ਿ ਕੇ ਲਿਏ ਕਸ੍ਟੋਡਿਯਲ ਲਾਇਟਨਿਂਗ ਵ੉ਲੇਟ ਪਸਂਦ ਕਰਤੇ ਹੈਂ੤ ਬਸ ਯਾਦ ਰਖੇਂ: ਆਪਕੀ ਕੁਂਜੀ ਨਹੀਂ, ਆਪਕਾ ਕ੉ਇਨ ਨਹੀਂ!",
+	"lightning_grid_heading": "ਪ੍ਰਸਿੱਧ Lightning ਵਾਲਿਟ",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
@@ -32,5 +36,11 @@
 	"lightning_free": "100% ਮੁਫ਼੍ਤ",
 	"lightning_merchants": "ਵ੍ਯਾਪਾਰਿਯੋਂ ਕੇ ਲਿਏ ਉਪਯੁਕ੍ਤ",
 	"lightning_custodial": "ਪੂਰ੍ਣ ਕਸ੍ਟੋਡਿਯਲ ਵ੉ਲੇਟ",
-	"lightning_cta_hardware": "ਹਮਾਰੀ ਹਾਰ੍ਡਵੇਯਰ Bitcoin ਵ੉ਲੇਟ ਗਾਇਡ ਖੋਜ ਰਹੇ ਹੈਂ?"
+	"lightning_cta_hardware": "ਹਮਾਰੀ ਹਾਰ੍ਡਵੇਯਰ Bitcoin ਵ੉ਲੇਟ ਗਾਇਡ ਖੋਜ ਰਹੇ ਹੈਂ?",
+	"lightning_hardware_cta_label": "ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ",
+	"sources_lightning_paper": "Joseph Poon ਅਤੇ Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Phoenix Lightning ਵਾਲਿਟ",
+	"sources_breez_lightning": "Breez — ਸੈਲਫ਼-ਕਸਟਡੀ Lightning ਵਾਲਿਟ",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — ਕਸਟੋਡੀਅਲ Lightning ਵਾਲਿਟ",
+	"sources_lightning_labs": "Lightning Labs — Lightning Network ਦਸਤਾਵੇਜ਼"
 }

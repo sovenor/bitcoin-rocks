@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-25",
 		"locale": "pa"
 	},
 	"sticker_success_1": "ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸਟਿੱਕਰ 2 ਤੋਂ 4 ਹਫ਼ਤੇ ਵਿੱਚ ਮਿਲ ਜਾਣਗੇ। ਜਦੋਂ ਤੁਸੀਂ ਉਡੀਕ ਕਰੋ, ਆਪਣੇ ਸਟਿੱਕਰ ਲਗਾਉਣ ਲਈ ਚੰਗੀਆਂ ਥਾਵਾਂ ਬਾਰੇ ਸੋਚੋ!",
@@ -11,5 +11,12 @@
 	"sticker_success_list_2": "ਅਜਿਹੀਆਂ ਥਾਵਾਂ ਉੱਤੇ ਜਿੱਥੋਂ ਜਲਦੀ ਹਟਾਇਆ ਨਾ ਜਾ ਸਕੇ (ਸਟਿੱਕਰ ਕੋਈ ਸਥਾਈ ਨੁਕਸਾਨ ਨਹੀਂ ਕਰਦੇ)",
 	"sticker_success_list_3": "ਅਜਿਹੀਆਂ ਸਤਹਾਂ ਉੱਤੇ ਜਿੱਥੇ ਆਸਾਨੀ ਨਾਲ ਚਿਪਕ ਜਾਣ (ਧਾਤ, ਪਲਾਸਟਿਕ, ਸ਼ੀਸ਼ਾ)",
 	"sticker_success_list_4": "ਨਿੱਜੀ ਜਾਇਦਾਦ, ਸਾਈਨਬੋਰਡ, ATM, ਜਾਂ ਗੈਸ ਪੰਪਾਂ ਉੱਤੇ ਨਾ ਲਗਾਓ",
-	"sticker_success_3": "ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਹੋਰ ਲੋਕ ਆਪਣੇ ਸਟਿੱਕਰ ਕਿੱਥੇ ਲਗਾ ਰਹੇ ਹਨ?"
+	"sticker_success_3": "ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਹੋਰ ਲੋਕ ਆਪਣੇ ਸਟਿੱਕਰ ਕਿੱਥੇ ਲਗਾ ਰਹੇ ਹਨ?",
+	"sticker_success_hero_title": "ਤੁਹਾਡੇ ਸਟਿੱਕਰ ਰਾਹ ਵਿੱਚ ਹਨ 🎉",
+	"sticker_success_tips_header": "ਸਟਿੱਕਰ ਲਗਾਉਣ ਦੀਆਂ ਚੰਗੀਆਂ ਥਾਵਾਂ",
+	"sticker_success_share_header": "ਸਾਂਝਾ ਕਰੋ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਸਟਿੱਕਰ ਕਿੱਥੇ ਲਗਾਏ",
+	"sticker_success_bulk_header": "ਹੋਰ ਸਟਿੱਕਰ ਚਾਹੀਦੇ?",
+	"sticker_success_btn_order_bulk": "ਥੋਕ ਵਿੱਚ ਆਰਡਰ ਕਰੋ",
+	"sticker_success_btn_share_on_nostr": "Nostr 'ਤੇ ਸਾਂਝਾ ਕਰੋ",
+	"sticker_success_btn_what_is_nostr": "Nostr ਕੀ ਹੈ?"
 }
