@@ -157,12 +157,12 @@ export function BuyFlow({ walletsHref, children }: Props) {
 									</span>
 									<span>{t("buy_method_bank_fast")}</span>
 								</span>
-								<span className="wallet-callout danger">
+								<span className="wallet-callout warn">
 									<span
 										className="wallet-callout-icon"
 										aria-hidden="true"
 									>
-										✗
+										⚠
 									</span>
 									<span>{t("buy_method_bank_less_private")}</span>
 								</span>
