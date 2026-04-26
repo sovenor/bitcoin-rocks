@@ -32,7 +32,10 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v2.json');
+// v3 — bumped after the supplyValueLabel/supplyNumericLabel rewrite
+// (was v2 when those fields were sourced from cfg.fallback.*). The old
+// v2 file is left orphaned on the persistent volume; harmless.
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v3.json');
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
 const API_TIMEOUT = 15000; // 15 seconds
 
