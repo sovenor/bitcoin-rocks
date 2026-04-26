@@ -32,10 +32,12 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
-// v3 — bumped after the supplyValueLabel/supplyNumericLabel rewrite
-// (was v2 when those fields were sourced from cfg.fallback.*). The old
-// v2 file is left orphaned on the persistent volume; harmless.
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v3.json');
+// v4 — bumped after the AUD M1 source switched from the stale
+// FRED MANMM101AUM189S to RBA D3 directly. v3 entries had the old
+// stale ~1.6T figure cached for AUD; v4 entries reflect live RBA
+// data. Old v2/v3 files are orphaned on the persistent volume;
+// harmless.
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v4.json');
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
 const API_TIMEOUT = 15000; // 15 seconds
 
@@ -195,12 +197,18 @@ const CURRENCIES = {
 		symbol: 'A$',
 		btcPair: 'BTC/AUD',
 		forexPair: null,
-		m1Series: 'MANMM101AUM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 1.4,   label: 'JAN 2020' },
+		// FRED's MANMM101AUM189S stopped publishing after Nov 2023 (IMF
+		// IFS feed broke on RBA's series-break events). Routing through
+		// RBA's own D3 monetary aggregates CSV instead — fresher and
+		// authoritative. m1Series stays null so fetchFredLatest is never
+		// called; m1CustomFetcher names the registry entry to use.
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'rbaD3',
+		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAAUA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 47,   label: '2019' },
 		cpiSeries: 'CPALTT01AUM659N',
-		fallback: { btcChange: '+60', cpiChange: '-17', m1Current: 2.1, debtCurrent: 57, supplyValueLabel: '2.1 Trillion', supplyNumericLabel: '(2,100,000,000,000)' },
 	},
 	ILS: {
 		symbol: '₪',
@@ -265,6 +273,107 @@ function isFresh(entry) {
 	const age = Date.now() - new Date(entry.lastUpdated).getTime();
 	return age < CACHE_TTL;
 }
+
+// ── Custom narrow-money fetchers ──────────────────────────────────────
+//
+// FRED's IMF-mirrored MANMM101* series stopped updating for most non-USD
+// currencies around late 2023 — the IMF's automated feed couldn't handle
+// series-break events in the source central banks' reporting. Currencies
+// flagged with `m1CustomFetcher: '<key>'` route to one of the entries in
+// CUSTOM_M1_FETCHERS instead of fetchFredLatest().
+//
+// Each fetcher exposes:
+//   fetchLatest()      → { value, date } | null
+//   fetchAt(yearMonth) → { value, date } | null  (yearMonth is 'YYYY-MM')
+// where `value` is in raw native currency units (consistent with what
+// FRED returns for MANMM101*) so the existing m1DivideBy normalization
+// in fetchCurrencyStats applies unchanged.
+
+const RBA_D3_URL = 'https://www.rba.gov.au/statistics/tables/csv/d3-data.csv';
+const M1_FETCHER_CACHE_TTL = 60 * 60 * 1000; // 1 hour — RBA publishes monthly
+
+function parseRbaD3(csv) {
+	// RBA D3 CSV layout (as of Mar 2026):
+	//   Row 1: "D3 MONETARY AGGREGATES" (table title, BOM-prefixed)
+	//   Rows 2–6: Title / Description / Frequency / Type / Units headers
+	//   Rows 7–8: blank
+	//   Row 9: Source
+	//   Row 10: Publication date
+	//   Row 11: Series ID  ← we read this to find DMAM1S column index
+	//   Row 12+: data, dates as DD/MM/YYYY, values as $ billions
+	const lines = csv.split(/\r?\n/);
+	let m1ColIdx = -1;
+	for (const line of lines) {
+		if (line.startsWith('Series ID')) {
+			const cols = line.split(',');
+			m1ColIdx = cols.indexOf('DMAM1S');
+			break;
+		}
+	}
+	if (m1ColIdx < 1) return null;
+
+	const rows = [];
+	for (const line of lines) {
+		if (!/^\d{2}\/\d{2}\/\d{4}/.test(line)) continue;
+		const cols = line.split(',');
+		const valueStr = cols[m1ColIdx];
+		if (!valueStr) continue;
+		const billions = parseFloat(valueStr);
+		if (!isFinite(billions)) continue;
+		const [d, m, y] = cols[0].split('/');
+		// Return in raw AUD (RBA reports in billions; multiply by 1e9 so
+		// the existing cfg.m1DivideBy: 1e12 yields trillions on display).
+		rows.push({ date: `${y}-${m}-${d}`, value: billions * 1e9 });
+	}
+	return rows;
+}
+
+function createRbaD3Fetcher() {
+	let cached = null;
+	let cachedAt = 0;
+
+	async function loadRows() {
+		if (cached && (Date.now() - cachedAt) < M1_FETCHER_CACHE_TTL) return cached;
+		try {
+			const res = await fetch(RBA_D3_URL, {
+				signal: AbortSignal.timeout(API_TIMEOUT),
+				headers: { 'user-agent': 'bitcoin.rocks/inflation-stats' },
+			});
+			if (!res.ok) return null;
+			const csv = await res.text();
+			const rows = parseRbaD3(csv);
+			if (!rows || !rows.length) return null;
+			cached = rows;
+			cachedAt = Date.now();
+			return rows;
+		} catch {
+			return null;
+		}
+	}
+
+	return {
+		async fetchLatest() {
+			const rows = await loadRows();
+			if (!rows || !rows.length) return null;
+			return rows[rows.length - 1];
+		},
+		async fetchAt(yearMonth) {
+			const rows = await loadRows();
+			if (!rows || !rows.length) return null;
+			const matches = rows.filter((r) => r.date.startsWith(yearMonth));
+			if (!matches.length) return null;
+			return matches[matches.length - 1];
+		},
+	};
+}
+
+// Registry of pluggable narrow-money fetchers, keyed by the value of
+// cfg.m1CustomFetcher. Add new entries here when wiring up a fresh
+// central-bank source for a stale-FRED currency (e.g. BoE for GBP, ECB
+// for EUR, BoJ for JPY).
+const CUSTOM_M1_FETCHERS = {
+	rbaD3: createRbaD3Fetcher(),
+};
 
 // ── External fetchers ─────────────────────────────────────────────────
 
@@ -467,20 +576,51 @@ async function fetchCurrencyStats(code) {
 		? fetchAnnualCompoundInflation4yr(cfg.cpiSeries)
 		: fetchFred4yrChange(cfg.cpiSeries);
 
+	// Narrow money: route to the custom fetcher when configured, otherwise
+	// fall through to FRED's MANMM101* / M1SL series. Custom fetchers also
+	// return the baseline value (pulled from the same source so the
+	// comparison-card math uses a single consistent series).
+	const customM1 = cfg.m1CustomFetcher
+		? CUSTOM_M1_FETCHERS[cfg.m1CustomFetcher]
+		: null;
+	const m1LatestPromise = customM1
+		? customM1.fetchLatest()
+		: fetchFredLatest(cfg.m1Series);
+	const m1BaselinePromise = customM1 && cfg.m1Baseline.yearMonth
+		? customM1.fetchAt(cfg.m1Baseline.yearMonth)
+		: Promise.resolve(null);
+
 	// Parallel fetch everything
-	const [m1Raw, debtRaw, cpiChange, btcChange] = await Promise.all([
-		fetchFredLatest(cfg.m1Series),
+	const [m1LatestRaw, m1BaselineRaw, debtRaw, cpiChange, btcChange] = await Promise.all([
+		m1LatestPromise,
+		m1BaselinePromise,
 		fetchFredLatest(cfg.debtSeries),
 		cpiFetcher,
 		fetchBtcChange4yr(cfg),
 	]);
 
+	// FRED returns a number directly; custom fetchers return { value, date }.
+	// Normalize to a single raw number in native currency units.
+	const m1Raw = m1LatestRaw !== null && typeof m1LatestRaw === 'object'
+		? m1LatestRaw.value
+		: m1LatestRaw;
+
 	// m1DivideBy may be 1 for currencies where the raw value is already in
-	// the chosen display unit. Otherwise the raw FRED value is in the
-	// country's units; dividing gives trillions/billions display value.
+	// the chosen display unit. Otherwise the raw FRED/RBA value is in the
+	// country's native units; dividing gives trillions/billions display value.
 	let m1Current = null;
-	if (m1Raw !== null) {
+	if (m1Raw !== null && isFinite(m1Raw)) {
 		m1Current = m1Raw / cfg.m1DivideBy;
+	}
+
+	// Baseline: prefer the custom-fetcher-provided value (so the comparison
+	// card math is internally consistent — same series, same definitional
+	// rules across baseline and current). Fall back to the static value
+	// configured on the currency (used by FRED-backed currencies whose
+	// series is still publishing).
+	let m1BaselineValue = cfg.m1Baseline.value;
+	if (m1BaselineRaw && typeof m1BaselineRaw.value === 'number' && isFinite(m1BaselineRaw.value)) {
+		m1BaselineValue = m1BaselineRaw.value / cfg.m1DivideBy;
 	}
 
 	let debtCurrent = null;
@@ -528,7 +668,7 @@ async function fetchCurrencyStats(code) {
 
 		// Money supply comparison card
 		m1SupplyTrillions:    fmt(m1Current, 1),
-		m1BaselineTrillions:  fmt(cfg.m1Baseline.value, 1),
+		m1BaselineTrillions:  fmt(m1BaselineValue, 1),
 		m1BaselineLabel:      cfg.m1Baseline.label,
 		m1Unit:               cfg.m1Unit,
 
