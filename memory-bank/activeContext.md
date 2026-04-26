@@ -64,6 +64,31 @@ that were NOT in scope for this session:
 
 ---
 
+## Burmese (my) Bengali contamination fix — April 26, 2026
+
+The Burmese locale's V2 refresh had picked up Bengali-script values
+from a source mismatch in 5 namespaces. This pass cleaned them up:
+
+| File                       | Keys re-translated |
+|----------------------------|-------------------:|
+| `flyers_my.json`           |                 14 |
+| `get-involved_my.json`     |                 12 |
+| `lightning_my.json`        |                 23 |
+| `stickers_my.json`         |                 22 |
+| `wallets_my.json`          |                 33 |
+
+Replacements were authored against `i18n/en/<ns>_en.json` as the
+canonical source of meaning, then written via Node scripts in
+`scripts/my-fix-additional/` (one per file) using
+`JSON.parse` / `JSON.stringify(obj, null, "\t")`. Each file's
+`@metadata.last-updated` bumped to `2026-04-26`. A scan over all 5
+files confirms zero residual Bengali codepoints (U+0980–U+09FF).
+`npm run typecheck` passes. `verify-language.js my` flags only the
+pre-existing `about_open_source_header` "Open Source" untranslated
+entry, which is unrelated to this fix.
+
+---
+
 ## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
 
 All 7 items of Step 6 are now ticked off in
