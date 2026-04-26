@@ -3,13 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "fi"
 	},
 	"biz_maps_success_hero_title": "Pyyntö vastaanotettu 🎉",
 	"biz_maps_success_hero_subtitle": "Kiitos, että lähetit yrityksesi. Laitamme sinut pian bitcoin-kauppiaskartoille.",
 	"biz_maps_success_timeline_header": "Mitä tapahtuu seuraavaksi",
-	"biz_maps_success_timeline_c1": "Yrityksesi lisätään BTC Mapiin ja muihin bitcoin-kauppiasluetteloihin 1–2 viikon sisällä. Tarkistamme jokaisen ilmoituksen manuaalisesti säilyttääksemme karttojen tarkkuuden.",
+	"biz_maps_success_timeline_c1": "Yrityksesi lisätään BTC Mapiin ja muihin bitcoin-kauppiasluetteloihin 2–4 viikon sisällä. Tarkistamme jokaisen ilmoituksen manuaalisesti säilyttääksemme karttojen tarkkuuden.",
 	"biz_maps_success_timeline_c2": "Kun ilmoituksesi on verkossa, lähellä olevat bitcoin-käyttäjät löytävät yrityksesi ja tulevat kuluttamaan bitcoinia.",
 	"biz_maps_success_view_header": "Katso, missä tulet näkyviin",
 	"biz_maps_success_view_c1": "Kun odotat, katso BTC Mapia nähdäksesi kasvavan yritysverkoston ympäri maailmaa, jotka ottavat vastaan bitcoinia.",

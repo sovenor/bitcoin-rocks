@@ -3,13 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "sk"
 	},
 	"biz_maps_success_hero_title": "Žiadosť prijatá 🎉",
 	"biz_maps_success_hero_subtitle": "Ďakujeme za odoslanie vašej firmy. Čoskoro vás zapíšeme na mapy Bitcoin obchodníkov.",
 	"biz_maps_success_timeline_header": "Čo bude nasledovať",
-	"biz_maps_success_timeline_c1": "Vaša firma bude zapísaná na BTC Map a ďalšie adresáre Bitcoin obchodníkov v priebehu 1 až 2 týždňov. Každú prihlášku kontrolujeme manuálne, aby sme udržali mapy presné.",
+	"biz_maps_success_timeline_c1": "Vaša firma bude zapísaná na BTC Map a ďalšie adresáre Bitcoin obchodníkov v priebehu 2 až 4 týždňov. Každú prihlášku kontrolujeme manuálne, aby sme udržali mapy presné.",
 	"biz_maps_success_timeline_c2": "Hneď ako bude vaše zapísanie naživo, Bitcoineri vo vašom okolí si vašu firmu nájdu a prídu tam minúť Bitcoin.",
 	"biz_maps_success_view_header": "Pozrite sa, kde sa objavíte",
 	"biz_maps_success_view_c1": "Kým čakáte, pozrite si BTC Map a uvidíte rastúcu sieť firiem po celom svete, ktoré prijímajú Bitcoin.",
