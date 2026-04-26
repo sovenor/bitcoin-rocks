@@ -208,7 +208,7 @@ a.orange-link:hover {
 
 .home-hero p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 24px;
 	line-height: 32px;
 	color: #f0f0f0;
@@ -434,7 +434,7 @@ a.whats-next-card:hover {
 }
 
 .whats-next-card-title {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 24px;
 	color: var(--color-fg);
 	line-height: 1.25;
@@ -442,7 +442,7 @@ a.whats-next-card:hover {
 }
 
 .whats-next-card-source {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	color: #9b9a9a;
 	font-style: italic;
@@ -504,7 +504,7 @@ a.whats-next-card:hover .whats-next-card-source {
 /* ── Hero intro paragraph (below the H1) ──────────────────── */
 .inflation-intro {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 24px;
 	line-height: 30px;
 	color: #f0f0f0;
@@ -537,7 +537,7 @@ a.whats-next-card:hover .whats-next-card-source {
 
 .inflation-section p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -576,7 +576,7 @@ a.inflation-button {
 	color: var(--color-fg);
 	border: 1px solid var(--color-border);
 	font-family: var(--font-proxima-soft);
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 16px;
 	line-height: 1;
 	height: 70px;
@@ -795,7 +795,7 @@ a.stat-card:hover {
 }
 .stat-card-value {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
 }
@@ -822,7 +822,7 @@ a.stat-card:hover {
 }
 .stat-card-source {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 13px;
 	color: var(--color-fg-dimmer);
 	font-style: italic;
@@ -872,7 +872,7 @@ a.stat-comparison-card:hover {
 }
 .stat-comparison-value {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 32px;
 	color: var(--color-fg-muted);
 	margin: 4px 0 10px;
@@ -894,13 +894,13 @@ a.stat-comparison-card:hover {
 }
 .stat-comparison-result {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 20px;
 	color: var(--color-danger);
 }
 .stat-comparison-source {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 13px;
 	color: var(--color-fg-dimmer);
 	font-style: italic;
@@ -949,13 +949,13 @@ svg.feature-card-icon {
 }
 .feature-card-title {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	color: #f0f0f0;
 }
 .feature-card-desc {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 15px;
 	line-height: 22px;
 	color: var(--color-fg-muted);
@@ -1008,13 +1008,13 @@ svg.story-card-icon {
 }
 .story-card-title {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	color: #f0f0f0;
 }
 .story-card-desc {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 15px;
 	line-height: 22px;
 	color: var(--color-fg-muted);
@@ -1054,7 +1054,7 @@ svg.story-card-icon {
 }
 .sources-list li {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 22px;
 	color: #7f7e7d;
@@ -1100,7 +1100,7 @@ svg.story-card-icon {
 }
 .publisher-attribution p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 20px;
 	color: var(--color-fg-dim);
@@ -1114,7 +1114,7 @@ svg.story-card-icon {
 }
 .reviewed-badge {
 	color: #6c9;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 13px;
 }
 
@@ -1207,7 +1207,7 @@ svg.story-card-icon {
 }
 .comparison-chip-label {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.15;
 	letter-spacing: 0.04em;
@@ -1227,7 +1227,7 @@ svg.story-card-icon {
 }
 .comparison-chip-value {
 	font-family: var(--font-proxima);
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 28px;
 	color: var(--color-fg);
@@ -1241,7 +1241,7 @@ svg.story-card-icon {
 }
 .comparison-explain p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 28px;
 	color: var(--color-fg-muted);
@@ -1385,7 +1385,7 @@ a.sticker-files-cta-button:hover {
 	margin: 0;
 	width: 100%;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--color-fg-muted);
@@ -1421,7 +1421,7 @@ a.sticker-files-cta-button:hover {
 }
 .sticker-tips-intro {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -1432,7 +1432,7 @@ a.sticker-files-cta-button:hover {
 	margin: 0;
 	padding: 0;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -1485,7 +1485,7 @@ a.sticker-files-cta-button:hover {
 }
 .wallet-intro p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 28px;
 	color: var(--color-fg-muted);
@@ -1586,7 +1586,7 @@ button.wallet-accordion-header:hover {
 /* Prose inside an accordion body. Same sizing as `.comparison-explain p`. */
 .wallet-accordion-body-inner p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 28px;
 	color: var(--color-fg-muted);
@@ -1715,7 +1715,7 @@ a.wallet-card:focus-visible {
 	   slightly smaller, centered treatment that works better inside a
 	   card. */
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 22px;
 	line-height: 1.2;
 	color: var(--color-fg);
@@ -1747,7 +1747,7 @@ a.wallet-card:focus-visible {
 	align-items: flex-start;
 	gap: 10px;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 22px;
 	color: var(--color-fg-muted);
@@ -1773,7 +1773,7 @@ a.wallet-card:focus-visible {
 .biz-wallet-card-note {
 	margin: 0 0 12px;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.5;
 	color: var(--color-fg-muted);
@@ -1839,7 +1839,7 @@ a.wallet-lightning-cta:hover {
 }
 .wallet-lightning-cta-label {
 	font-family: var(--font-proxima);
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
@@ -2071,7 +2071,7 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 }
 .cic-input::placeholder {
 	color: var(--color-fg-dimmer);
-	font-weight: 400;
+	font-weight: 500;
 }
 .cic-input:hover {
 	border-color: rgba(255, 149, 0, 0.35);
@@ -2100,7 +2100,7 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 	transform: translateY(-50%);
 	pointer-events: none;
 	font-family: var(--font-proxima);
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	color: var(--color-fg-dim);
 }
@@ -2144,7 +2144,7 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
      .cic-result--error     — validation failure (danger red) */
 .cic-result {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 26px;
 	margin: 20px 0 0 0 !important;
@@ -2227,7 +2227,7 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 
 .buy-step-header p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -2246,7 +2246,7 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 	border-radius: 12px;
 	padding: 14px 18px;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.2;
 	color: var(--color-fg);
@@ -2364,7 +2364,7 @@ button.buy-country-button.is-selected {
 
 .buy-method-card-description {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--color-fg-muted);
@@ -2470,7 +2470,7 @@ a.buy-platform-card.is-recommended {
 
 .buy-platform-description {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--color-fg-muted);
@@ -2490,7 +2490,7 @@ a.buy-platform-card.is-recommended {
 	align-items: flex-start;
 	gap: 10px;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 15px;
 	line-height: 22px;
 	color: var(--color-fg-muted);
@@ -2555,7 +2555,7 @@ a.buy-platform-card:hover .buy-platform-cta::after {
 }
 .buy-storage-card p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -2673,7 +2673,7 @@ button.sticker-pack-card:hover .sticker-pack-image {
    it renders at card scale rather than page-section scale. */
 h2.sticker-pack-title {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.25;
 	letter-spacing: 0.01em;
@@ -2684,7 +2684,7 @@ h2.sticker-pack-title {
 
 .sticker-pack-description {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--color-fg-muted);
@@ -2738,7 +2738,7 @@ button.sticker-option-button {
 	border: 1px solid var(--color-card-border);
 	border-radius: 14px;
 	font-family: var(--font-proxima);
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 1.2;
 	color: var(--color-fg);
@@ -2816,7 +2816,7 @@ button.sticker-option-button.is-selected .sticker-option-chevron {
 
 .sticker-panel-inner p {
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 26px;
 	color: var(--color-fg-muted);
@@ -2851,7 +2851,7 @@ a.sticker-language-button {
 	border: 1px solid var(--color-card-border);
 	border-radius: 12px;
 	font-family: var(--font-proxima);
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 13px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
@@ -2984,7 +2984,7 @@ a.sticker-language-button:focus-visible {
 	gap: 10px;
 	align-items: start;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 1.5;
 	color: var(--color-fg-muted);
@@ -3095,7 +3095,7 @@ a.sticker-language-button:focus-visible {
 
 .accounting-example-value {
 	font-family: var(--font-proxima);
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 28px;
 	line-height: 1.1;
 	color: var(--color-fg-muted);
@@ -3157,7 +3157,7 @@ a.sticker-language-button:focus-visible {
 }
 
 .accounting-example-result-delta {
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	letter-spacing: -0.01em;
 }
@@ -3171,7 +3171,7 @@ a.sticker-language-button:focus-visible {
 .accounting-example-caption {
 	margin: 0;
 	font-family: var(--font-proxima);
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.5;
 	color: var(--color-fg-dim);
