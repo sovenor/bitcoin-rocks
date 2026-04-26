@@ -492,22 +492,45 @@ async function fetchCurrencyStats(code) {
 		return n >= 0 ? '+' + s : s;
 	};
 
+	// Derive the "X Trillion" / "(X,XXX,XXX,XXX,XXX)" labels for the
+	// "Bitcoin doesn't have inflation" supply card directly from the
+	// live m1Current. Returns null when no live data is available so
+	// the frontend can fall back to its placeholder ("—") rather than
+	// rendering stale fixture values.
+	const supplyValueLabel = (() => {
+		if (m1Current === null || !isFinite(m1Current)) return null;
+		const unitLabel = cfg.m1Unit === 'billion' ? 'Billion' : 'Trillion';
+		return `${m1Current.toFixed(1)} ${unitLabel}`;
+	})();
+
+	const supplyNumericLabel = (() => {
+		if (m1Current === null || !isFinite(m1Current)) return null;
+		// m1Current is already in the display unit (trillions or billions).
+		// Multiply back to raw currency units, then group with thousand
+		// separators. The grouping comma is locale-neutral here — it's
+		// just digit grouping for visual readability across all 13
+		// currencies.
+		const multiplier = cfg.m1Unit === 'billion' ? 1e9 : 1e12;
+		const rawUnits = Math.round(m1Current * multiplier);
+		return `(${rawUnits.toLocaleString('en-US')})`;
+	})();
+
 	const stats = {
 		currency:             code,
 		currencySymbol:       cfg.symbol,
 
-		// Hero cards
-		btcChange4yr:         btcChange !== null ? signed(btcChange, 1) : cfg.fallback.btcChange,
-		cpiChange4yr:         cpiChange !== null ? (cpiChange >= 0 ? '-' : '+') + Math.abs(cpiChange).toFixed(1) : cfg.fallback.cpiChange,
+		// Hero cards. Null when live data missing — frontend renders "—".
+		btcChange4yr:         signed(btcChange, 1),
+		cpiChange4yr:         cpiChange !== null ? (cpiChange >= 0 ? '-' : '+') + Math.abs(cpiChange).toFixed(1) : null,
 
 		// Money supply comparison card
-		m1SupplyTrillions:    m1Current !== null ? fmt(m1Current, 1) : String(cfg.fallback.m1Current),
+		m1SupplyTrillions:    fmt(m1Current, 1),
 		m1BaselineTrillions:  fmt(cfg.m1Baseline.value, 1),
 		m1BaselineLabel:      cfg.m1Baseline.label,
 		m1Unit:               cfg.m1Unit,
 
 		// Debt comparison card
-		nationalDebtTrillions:  debtCurrent !== null ? fmt(debtCurrent, 1) : String(cfg.fallback.debtCurrent),
+		nationalDebtTrillions:  fmt(debtCurrent, 1),
 		debtBaselineTrillions:  fmt(cfg.debtBaseline.value, 1),
 		debtBaselineLabel:      cfg.debtBaseline.label,
 		debtUnit:               cfg.debtUnit,
@@ -516,9 +539,10 @@ async function fetchCurrencyStats(code) {
 		bitcoinMined:         null, // filled in below
 		bitcoinPercentMined:  null,
 
-		// "And counting" supply card (Bitcoin doesn't have inflation section)
-		supplyValueLabel:     cfg.fallback.supplyValueLabel,   // UI copy overrides
-		supplyNumericLabel:   cfg.fallback.supplyNumericLabel,
+		// "And counting" supply card (Bitcoin doesn't have inflation section).
+		// Derived live from m1Current; null if FRED fetch failed.
+		supplyValueLabel,
+		supplyNumericLabel,
 
 		lastUpdated: new Date().toISOString(),
 	};
