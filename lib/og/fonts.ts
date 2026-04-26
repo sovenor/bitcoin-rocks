@@ -167,6 +167,27 @@ async function loadFontsourceWoff(
 	return ab;
 }
 
+// Locally-licensed brand font. Used for all Latin-script locales as the
+// primary heading face; Noto Sans is loaded alongside as a coverage
+// fallback so any glyph Proxima Nova doesn't have (Cyrillic, Greek,
+// extended diacritics) still renders cleanly via satori's per-glyph
+// font selection.
+const PROXIMA_BOLD_PATH = path.join(
+	process.cwd(),
+	"app/fonts/og/ProximaNova-Bold.woff",
+);
+
+let proximaBoldCache: ArrayBuffer | null = null;
+async function loadProximaBold(): Promise<ArrayBuffer> {
+	if (proximaBoldCache) return proximaBoldCache;
+	const buf = await fs.readFile(PROXIMA_BOLD_PATH);
+	proximaBoldCache = buf.buffer.slice(
+		buf.byteOffset,
+		buf.byteOffset + buf.byteLength,
+	) as ArrayBuffer;
+	return proximaBoldCache;
+}
+
 /**
  * Load the heading font (bold, weight 700, normal style) subsetted to
  * exactly the glyphs in `title`.
@@ -175,6 +196,15 @@ async function loadFontsourceWoff(
  * a single weight is all we need. Italic is dropped to match the
  * website's actual H1 styling (`app/globals.css :: h1` is bold, not
  * italic).
+ *
+ * Font selection by locale:
+ *   - ar / fa / ur:   Cairo Bold (from @fontsource on disk)
+ *   - non-Latin scripts (he, hi, bn, pa, ta, si, my, th, am, zh, ja, ko):
+ *                     Noto Sans <Script> Bold (Google Fonts text-subset)
+ *   - everything else (Latin / Cyrillic / Greek):
+ *                     Proxima Nova Bold (licensed, on disk) +
+ *                     Noto Sans Bold fallback (Google Fonts text-subset)
+ *                     so Cyrillic / Greek / rare diacritics still render
  */
 export async function loadOgFonts(
 	locale: Locale,
@@ -187,6 +217,19 @@ export async function loadOgFonts(
 		// The `arabic` subset covers all three locales' character set.
 		const bold = await loadFontsourceWoff("cairo", "arabic", 700);
 		return [{ name: family, data: bold, weight: 700, style: "normal" }];
+	}
+
+	if (family === "Noto Sans") {
+		// Latin / Cyrillic / Greek — Proxima Nova primary, Noto Sans
+		// secondary for any glyph outside Proxima's coverage.
+		const [proxima, noto] = await Promise.all([
+			loadProximaBold(),
+			fetchGoogleFontWoff("Noto Sans", 700, "normal", title),
+		]);
+		return [
+			{ name: "Proxima Nova", data: proxima, weight: 700, style: "normal" },
+			{ name: "Noto Sans", data: noto, weight: 700, style: "normal" },
+		];
 	}
 
 	const bold = await fetchGoogleFontWoff(family, 700, "normal", title);

@@ -121,6 +121,7 @@ export async function renderOgImage({
 						maxWidth: 1040,
 						textAlign: "center",
 						color: TITLE_COLOR,
+						fontFamily: fonts.map((f) => `"${f.name}"`).join(", "),
 						fontWeight: 700,
 						fontSize: titleSize,
 						lineHeight: 1.05,
