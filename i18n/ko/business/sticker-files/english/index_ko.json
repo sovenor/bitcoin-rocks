@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "영어 「Bitcoin Accepted Here」 스티커 파일",
-	"english_biz_sticker_files_description": "영어 스티커 파일을 다운로드하여 직접 Bitcoin Accepted Here 스티커를 인쇄하세요.",
-	"english_header": "영어 「BITCOIN ACCEPTED HERE」 스티커 파일 다운로드"
+	"english_biz_sticker_files_description": "영어 스티커 파일을 다운로드해 직접 “비트코인으로 결제하세요” 스티커를 인쇄하세요.",
+	"biz_stickers_english_hero_title": "영어 “비트코인으로 결제하세요” 스티커 파일 다운로드",
+	"biz_stickers_english_hero_subtitle": "직접 영어 “비트코인으로 결제하세요” 스티커를 인쇄해 고객에게 비트코인을 받고 있음을 알리세요."
 }

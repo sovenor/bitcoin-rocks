@@ -1,0 +1,3205 @@
+/*
+ * bitcoin.rocks — Global styles (Next.js / Tailwind v4)
+ * ====================================================
+ * Tailwind v4 is CSS-first: design tokens live in `@theme`
+ * instead of `tailwind.config.ts`. Any `--color-*` / `--font-*`
+ * / `--breakpoint-*` token declared here is usable as a
+ * Tailwind utility (e.g. `bg-bitcoin-orange`, `text-energy`,
+ * `font-proxima`).
+ *
+ * File organization
+ *   1. @theme       — design tokens (colors, fonts, breakpoints)
+ *   2. Base         — element-level defaults (html, body, h1/h2/h3,
+ *                     scroll behavior)
+ *   3. Layout       — .container-main, .container-inner
+ *   4. Homepage V2  — hero, carousel, pills, category grid
+ *   5. Inflation V2 — inflation-section, country picker, stat cards,
+ *                     feature/story cards, sources, publisher
+ *   6. Comparison   — hero variant, chips, explanation prose
+ *
+ * Legacy V1 CSS (for /wallets /lightning /flyers /stickers /signs
+ * /postcards /buy /business/* /nostr/* /compound-inflation-calculator
+ * and the sticker-files + form pages) was removed. Those pages are
+ * scheduled for V2 redesign post-cutover; until then they render with
+ * browser defaults + the base element styles below.
+ */
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════════
+   1. DESIGN TOKENS
+   Adding a new color here automatically exposes `bg-X`, `text-X`,
+   `border-X` utilities thanks to Tailwind v4's CSS-first config.
+   ═══════════════════════════════════════════════════════════════════ */
+@theme {
+	/* ---- Brand surface + text ---- */
+	--color-bg:         #060610;
+	--color-bg-soft:    #090814;
+	--color-surface:    #111119;  /* card background */
+	--color-fg:         #ffffff;
+	--color-fg-muted:   #cccccc;
+	--color-fg-dim:     #999999;
+	--color-fg-dimmer:  #888888;
+	--color-border:     #3f3f3f;
+
+	/* Semi-transparent border used by V2 cards (hover state animates it
+	   to an orange-tinted version via color-mix()). */
+	--color-card-border: rgba(255, 255, 255, 0.12);
+
+	/* Semantic states (money-supply numbers, etc.) */
+	--color-success:     #4caf50;
+	--color-danger:      #ff4444;
+	--color-link-hover:  #ffb84d;
+
+	/* ---- Bitcoin primary accent ---- */
+	--color-bitcoin-orange: #ff9500;
+
+	/* ---- Topic / category accents (mirrors legacy css/style.css) ---- */
+	--color-human-rights:    #ff9500;
+	--color-energy:          #1dff4d;
+	--color-food:            #ff571d;
+	--color-payments:        #ffe91d;
+	--color-money:           #19bc38;
+	--color-saving:          #f5a9b8;
+	--color-salary:          #2274a5;
+	--color-art:             #1f1fff;
+	--color-politics:        #9500ff;
+	--color-war:             #ed1c24;
+	--color-coding:          #89fc00;
+	--color-ai:              #649df9;
+	--color-networks:        #1e3a8a;
+	--color-self-custody:    #b3fffc;
+	--color-get-started:     #ff9500;
+	--color-gold:            #ffe91d;
+	--color-cash:            #2bc11f;
+	--color-property-rights: #eb4b98;
+	--color-business:        #08b2e3;
+	--color-environment:     #5b7553;
+	--color-crowdfunding:    #d1d646;
+	--color-housing:         #935425;
+	--color-equality:        #8c5383;
+	--color-freedom:         #96041c;
+
+	/* ---- Typography ---- */
+	--font-proxima: "proxima-nova", ui-sans-serif, system-ui, -apple-system,
+		"Segoe UI", Roboto, sans-serif;
+	--font-proxima-soft: "proxima-soft", "proxima-nova", ui-sans-serif,
+		system-ui, sans-serif;
+	--font-sans: var(--font-proxima);
+
+	/* ---- Breakpoints (match old CSS: 400px + 700px) ---- */
+	--breakpoint-xs: 400px;
+	--breakpoint-md: 700px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   2. ELEMENT BASE STYLES
+   Every heading and paragraph the V2 pages produce gets its look from
+   these element-level rules. Pages don't need a `.h1-inflation` or
+   similar class hook — plain `<h1>` picks up the hero styling below.
+   ═══════════════════════════════════════════════════════════════════ */
+
+html,
+body {
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+	font-family: var(--font-proxima);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth anchor scrolling with a small top offset so hash targets
+   don't land flush against the top of the viewport. */
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 20px;
+}
+
+/* H1 — hero headline (orange, centered). Used on every V2 page. */
+h1 {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 44px;
+	color: var(--color-bitcoin-orange);
+	text-align: center;
+	margin: 0 auto;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 16px;
+}
+@media (max-width: 700px) {
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		max-width: 90%;
+	}
+}
+
+/* H2 — section heading (white, left-aligned, 28px). */
+h2 {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	margin: 8px 0 20px 0;
+	text-align: left;
+}
+
+/* Inline color accents that override the parent heading's color
+   (e.g. highlighting "BITCOIN" orange inside a black H1). */
+h1 .orange,
+h2 .orange,
+.orange {
+	color: var(--color-bitcoin-orange);
+}
+
+/* `.force-orange` keeps legacy markup compatible — same effect as
+   `.orange`, higher specificity because it was built to override a
+   parent `color:` rule in the V1 codebase. */
+.force-orange {
+	color: var(--color-bitcoin-orange) !important;
+}
+
+/* Shared orange inline link (publisher attribution, sources, etc.). */
+a.orange-link {
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	cursor: pointer;
+}
+a.orange-link:hover {
+	color: var(--color-link-hover);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   3. LAYOUT CONTAINERS
+   .container-main: centered ≤700px column used by every page.
+   .container-inner: inner padding helper used inside some sections.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.container-main {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+}
+
+.container-inner {
+	margin: 0 auto;
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   4. HOMEPAGE V2
+   Owns: .home-hero, .home-carousel-*, .home-pill + color modifiers,
+         .whats-next-*, .category-section.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Hero ──────────────────────────────────────────────────── */
+.home-hero {
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.home-hero h1 {
+	margin-bottom: 10px;
+}
+
+.home-hero p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #f0f0f0;
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+	.home-hero p {
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 90%;
+	}
+}
+
+/* ── Category carousels (full-viewport infinite loop) ────── */
+
+/* Breaks out of the 700px-wide .container-main so the carousel
+   can go edge-to-edge of the viewport.
+
+   ⚠ RTL note: the carousel is a purely visual mechanical element
+   (an infinite-scrolling row of colored pills). The JS in
+   HomeCarousel.tsx drives it with `transform: translate3d(offset, 0, 0)`
+   and wraps the offset around `scrollWidth / 2`, both of which assume
+   LTR coordinates. On RTL pages (ar / fa / he / ur) the `<html dir="rtl">`
+   would otherwise reverse the flex-row direction and flip the physical
+   meaning of the transform — the pills start at the wrong side and the
+   seamless wrap breaks. Forcing `direction: ltr` on the wrap + row +
+   track keeps the mechanics LTR everywhere; the Arabic/Hebrew/Persian
+   text inside each pill still renders correctly thanks to the Unicode
+   bidirectional algorithm (strong RTL characters are laid out RTL
+   regardless of container direction). */
+.home-carousel-wrap {
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow: hidden;
+	direction: ltr;
+}
+
+/* Fixed viewport; the track inside is positioned with
+   `transform: translate3d(...)` driven by HomeCarousel.tsx. */
+.home-carousel-row {
+	overflow: hidden;
+	padding: 8px 0;
+	cursor: grab;
+	/* Allow vertical page scroll on touch; horizontal swipes are
+	   intercepted by the JS (preventDefault inside touchmove). */
+	touch-action: pan-y;
+	direction: ltr;
+}
+
+.home-carousel-row.is-dragging {
+	cursor: grabbing;
+	user-select: none;
+}
+
+.home-carousel-row + .home-carousel-row {
+	margin-top: 4px;
+}
+
+/* Track: holds pills + their duplicate set for seamless loop. */
+.home-carousel-track {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 10px;
+	padding: 0 10px;
+	width: max-content;
+	will-change: transform;
+	direction: ltr;
+}
+
+/* Pills: colored link buttons used inside the carousel. The `--pill-color`
+   custom property is set by the `.money` / `.freedom` / etc. modifier
+   classes below; both the text color and the border color read from it,
+   so there's exactly one rule per color instead of 21. */
+.home-pill {
+	flex: 0 0 auto;
+	display: inline-flex;
+	justify-content: center;
+	height: 52px;
+	padding: 0 28px;
+	background: none;
+	border: 2px solid var(--pill-color, #3d3d3d);
+	border-radius: 999px;
+	font-family: var(--font-proxima-soft);
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 48px;
+	color: var(--pill-color, #f0f0f0);
+	text-transform: lowercase;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: transform 0.2s, background-color 0.2s;
+	user-select: none;
+	-webkit-user-select: none;
+	text-decoration: none;
+	/* The track + wrap above force `direction: ltr` so the carousel's
+	   translate3d mechanics stay consistent. Each pill opts back into
+	   auto-detected direction so a single translated label (Arabic,
+	   Hebrew, Persian, Urdu, etc.) reads in its own natural script
+	   direction — and any mixed-script labels (Arabic + Latin digits)
+	   resolve their neutrals correctly against the pill's own first
+	   strong directional character instead of inheriting LTR from the
+	   parent. Equivalent to `dir="auto"` on every pill. */
+	unicode-bidi: plaintext;
+}
+
+
+.home-pill:hover {
+	transform: scale(1.05);
+}
+
+/* Category color modifiers — each sets the single --pill-color var. */
+.home-pill.money           { --pill-color: #19bc38; }
+.home-pill.saving          { --pill-color: #f5a9b8; }
+.home-pill.salary          { --pill-color: #2274a5; }
+.home-pill.freedom         { --pill-color: #96041c; }
+.home-pill.human-rights    { --pill-color: #ff9500; }
+.home-pill.equality        { --pill-color: #8c5383; }
+.home-pill.property-rights { --pill-color: #eb4b98; }
+.home-pill.housing         { --pill-color: #935425; }
+.home-pill.business        { --pill-color: #08b2e3; }
+.home-pill.crowdfunding    { --pill-color: #d1d646; }
+.home-pill.energy          { --pill-color: #1dff4d; }
+.home-pill.environment     { --pill-color: #5b7553; }
+.home-pill.food            { --pill-color: #ff571d; }
+.home-pill.art             { --pill-color: #1f1fff; }
+.home-pill.politics        { --pill-color: #9500ff; }
+.home-pill.war             { --pill-color: #ed1c24; }
+.home-pill.coding          { --pill-color: #89fc00; }
+.home-pill.networks        { --pill-color: #1e3a8a; }
+.home-pill.payments        { --pill-color: #ffe91d; }
+.home-pill.self-custody    { --pill-color: #b3fffc; }
+.home-pill.get-started     { --pill-color: #ff9500; }
+
+@media (max-width: 700px) {
+	.home-pill {
+		height: 46px;
+		padding: 0 22px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.home-carousel-track {
+		gap: 8px;
+	}
+}
+
+/* ── "What's next?" card grid (reused by homepage + inflation + comparison) ── */
+
+.whats-next-section {
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.whats-next-section .container-inner {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.whats-next-header {
+	margin-bottom: 24px;
+}
+
+/* H2 override for whats-next — slightly different from base h2
+   (no bottom margin since it's followed by a .whats-next-grid that
+   owns its own spacing). */
+.whats-next-section h2 {
+	font-weight: 700;
+	margin: 0;
+}
+
+.whats-next-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+}
+
+@media (max-width: 700px) {
+	.whats-next-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Solo card spans the full row regardless of screen size. */
+.whats-next-grid > a.whats-next-card:only-child {
+	grid-column: 1 / -1;
+}
+
+a.whats-next-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 20px;
+	padding: 32px 28px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.2s;
+	box-sizing: border-box;
+}
+
+a.whats-next-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+
+.whats-next-card-label {
+	font-weight: 500;
+	font-size: 14px;
+	/* --card-accent drives the label color; falls back to Bitcoin
+	   orange on pages that don't set one. Homepage sets it per
+	   category via inline style. */
+	color: var(--card-accent, var(--color-bitcoin-orange));
+	margin-bottom: 12px;
+	letter-spacing: 0.02em;
+}
+
+.whats-next-card-title {
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--color-fg);
+	line-height: 1.25;
+	margin-bottom: 24px;
+}
+
+.whats-next-card-source {
+	font-weight: 500;
+	font-size: 14px;
+	color: #9b9a9a;
+	font-style: italic;
+	transition: color 0.2s, transform 0.2s;
+}
+
+a.whats-next-card:hover .whats-next-card-source {
+	color: var(--color-bitcoin-orange);
+	transform: translateX(5px);
+}
+
+/* ── Category sections (Bitcoin & money, Bitcoin & freedom, …) ── */
+
+.category-section {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.category-section .whats-next-header {
+	margin-bottom: 20px;
+}
+
+/* Category H2 is larger than default (32px) and has no bottom margin
+   since the grid below owns its own spacing. */
+.category-section h2 {
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0;
+}
+
+@media (max-width: 700px) {
+	.category-section h2 {
+		font-size: 28px;
+	}
+}
+
+.category-section h2 .accent {
+	color: var(--card-accent, var(--color-bitcoin-orange));
+}
+
+.category-section a.whats-next-card:hover {
+	border-color: color-mix(
+		in srgb,
+		var(--card-accent, var(--color-bitcoin-orange)) 60%,
+		transparent
+	);
+}
+
+.category-section a.whats-next-card:hover .whats-next-card-source {
+	color: var(--card-accent, var(--color-bitcoin-orange));
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   5. INFLATION PAGE — V2 design system.
+   Shared with comparison pages for the stat cards, feature/story
+   cards, sources, and publisher-attribution blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Hero intro paragraph (below the H1) ──────────────────── */
+.inflation-intro {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #f0f0f0;
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	.inflation-intro {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+/* ── Spacer utility classes ─────────────────────────────────── */
+.break-micro {
+	clear: both;
+	margin-top: 40px;
+}
+.break-nano {
+	clear: both;
+	margin-top: 20px;
+}
+
+/* ── Inflation section wrapper + body text ─────────────────── */
+.inflation-section {
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.inflation-section p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin-bottom: 16px;
+}
+
+/* Inline orange highlight (used by `.inflation-intro .text-highlight`) */
+.text-highlight {
+	color: var(--color-bitcoin-orange);
+}
+
+/* Body link (inline, underlined, orange) — used in prose paragraphs */
+a.body-link {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+a.body-link:hover {
+	color: var(--color-link-hover);
+}
+
+/* ── Currency selector (buttons + container) ──────────────── */
+.container-inflation-button {
+	margin: 0 2.5%;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+button.inflation-button,
+a.inflation-button {
+	background-color: var(--color-bg-soft);
+	color: var(--color-fg);
+	border: 1px solid var(--color-border);
+	font-family: var(--font-proxima-soft);
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 1;
+	height: 70px;
+	padding: 0 20px;
+	margin-top: 8px;
+	margin-right: 3px;
+	border-radius: 20px;
+	transition-duration: 0.3s;
+	text-transform: uppercase;
+	flex-basis: 50%;
+	cursor: pointer;
+	/* Anchor-variant resets */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+button.inflation-button:hover,
+a.inflation-button:hover {
+	transform: scale(1.02);
+	border-color: var(--color-bitcoin-orange);
+}
+button.inflation-button.show-all-button {
+	border-color: var(--color-bitcoin-orange);
+	color: var(--color-bitcoin-orange);
+}
+
+/* Colorful variant (used by /sticker-files language picker). Each
+   button sets `--btn-color: var(--color-…)` inline to pick its topic
+   color; this rule reads that variable for the border + text, and
+   tints the fill on hover via `color-mix()`. Falls back to Bitcoin
+   orange when `--btn-color` is unset. */
+a.inflation-button.colorful {
+	border-color: var(--btn-color, var(--color-bitcoin-orange));
+	color: var(--btn-color, var(--color-bitcoin-orange));
+}
+a.inflation-button.colorful:hover {
+	border-color: var(--btn-color, var(--color-bitcoin-orange));
+	background-color: color-mix(
+		in srgb,
+		var(--btn-color, var(--color-bitcoin-orange)) 12%,
+		var(--color-bg-soft)
+	);
+}
+
+
+/* Grey static prompt shown before a currency is chosen. Also
+   doubles — on a <button> — as the clickable "← Choose a different
+   money" reset after a currency has been selected. */
+.choose-initial-text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: var(--color-fg-dim);
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+button.choose-initial-text {
+	background: none;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	transition: color 0.2s ease;
+}
+button.choose-initial-text:hover {
+	color: var(--color-bitcoin-orange);
+}
+
+@media (max-width: 700px) {
+	button.inflation-button {
+		flex-basis: 100%;
+	}
+}
+
+/* Flag emoji sizing */
+.money-icon {
+	font-size: 20px;
+	line-height: 1;
+}
+
+/* ── Stat cards (2-column grid, per-currency stats) ──────── */
+.stat-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 24px 0;
+}
+@media (max-width: 700px) {
+	.stat-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Learn-more card block inside a ContentPageLayout section — sits
+   directly under the paragraphs, so it needs the same top margin
+   as the stat-cards-grid for visual parity. */
+.content-learn-more-grid {
+	margin-top: 24px;
+}
+
+/* Stacked "blurb → card → blurb → card" layout used when LearnMoreCards
+   carry their own `introParagraphs`. Each pair is one `.content-learn-
+   more-block` so the prose and the card stay visually tied together. */
+.content-learn-more-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	margin-top: 40px;
+}
+.content-learn-more-block {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+.content-learn-more-intro {
+	/* Reuse `.comparison-explain` prose sizing/color; this just tightens
+	   the bottom margin on the final paragraph so the card hugs up. */
+	margin: 0;
+}
+.content-learn-more-intro p:last-child {
+	margin-bottom: 0;
+}
+.content-learn-more-block > a.whats-next-card {
+	/* Cards inside the stack are full-width by default (the parent is
+	   flex-column, not a grid). Nothing to do here — this selector is
+	   kept for future tweaks. */
+}
+
+/* Card label on the about page reads in sentence case (e.g.
+   "Printable flyers"), not uppercase. The site-wide `.whats-next-
+   card-label` rule kept its default letter-spacing; this override
+   removes the caps treatment the homepage expects. */
+.content-learn-more-block .whats-next-card-label,
+.content-learn-more-grid .whats-next-card-label {
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+
+/* Centered variant for a ContentPageLayout section (e.g. the
+   "What is a bank run?" intro). Centers the H2 + paragraph copy
+   within the container; cards below keep their normal layout. */
+.content-section--centered h2,
+.content-section--centered .comparison-explain,
+.content-section--centered .comparison-explain p {
+	text-align: center;
+}
+
+/* Boxed variant for a ContentPageLayout section (e.g. the
+   `/get-involved` intro). Mirrors the `.wallet-intro` surface-card
+   chrome used by the top box on `/stickers`: a surface-tinted card
+   with a border and rounded corners. Prose is left-aligned inside
+   the box. Any cards below the box keep their normal layout. */
+.content-section--boxed {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.content-section--boxed .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.content-section--boxed .comparison-explain,
+.content-section--boxed .comparison-explain p {
+	text-align: left;
+	max-width: none;
+}
+
+
+/* Optional illustrative image inside a ContentPageLayout section.
+   Renders between the H2 and the paragraphs. Centered, responsive,
+   capped at 480px by default (overridable via inline style). */
+.content-section-image {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0 24px;
+}
+.content-section-image img {
+	display: block;
+	width: 100%;
+	max-width: 480px;
+	height: auto;
+	border-radius: 12px;
+}
+
+
+a.stat-card {
+	display: block;
+	padding: 24px 16px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	text-decoration: none;
+	color: var(--color-fg);
+	text-align: center;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.stat-card:hover {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+.stat-card-label {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+	margin-bottom: 8px;
+}
+.stat-card-value {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+}
+.stat-card-value.success,
+.stat-card-detail.success {
+	color: var(--color-success);
+}
+.stat-card-value.danger,
+.stat-card-detail.danger {
+	color: var(--color-danger);
+}
+.stat-card-value.accent {
+	color: var(--color-bitcoin-orange);
+}
+.stat-card-value.muted {
+	color: var(--color-fg-dimmer);
+}
+.stat-card-detail {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--color-fg-muted);
+	margin-top: 6px;
+}
+.stat-card-source {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	color: var(--color-fg-dimmer);
+	font-style: italic;
+	margin-top: 12px;
+}
+a.stat-card:hover .stat-card-source {
+	color: var(--color-bitcoin-orange);
+}
+@media (max-width: 700px) {
+	.stat-card-value {
+		font-size: 24px;
+	}
+}
+
+/* ── Comparison card (single-column, baseline → today) ── */
+a.stat-comparison-card {
+	display: block;
+	padding: 24px 16px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	text-decoration: none;
+	color: var(--color-fg);
+	margin: 24px 0;
+	text-align: center;
+	transition: border-color 0.2s;
+}
+a.stat-comparison-card:hover {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+.stat-comparison-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+	margin-bottom: 18px;
+}
+.stat-comparison-label {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	color: var(--color-fg-dimmer);
+	text-transform: uppercase;
+}
+.stat-comparison-value {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-fg-muted);
+	margin: 4px 0 10px;
+}
+.stat-comparison-value.current {
+	color: var(--color-danger);
+}
+.stat-comparison-arrow {
+	font-size: 26px;
+	color: #666;
+	margin: 8px 0;
+}
+.stat-comparison-divider {
+	border: 0;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.08);
+	margin: 18px auto 14px;
+	width: 60%;
+}
+.stat-comparison-result {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--color-danger);
+}
+.stat-comparison-source {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	color: var(--color-fg-dimmer);
+	font-style: italic;
+	margin-top: 12px;
+}
+a.stat-comparison-card:hover .stat-comparison-source {
+	color: var(--color-bitcoin-orange);
+}
+
+/* ── Feature cards (2×2: Decentralized/Permissionless/…) ─── */
+.feature-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+	margin: 24px 0;
+}
+@media (max-width: 700px) {
+	.feature-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+a.feature-card {
+	display: block;
+	padding: 20px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.feature-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.feature-card:hover .feature-card-link {
+	color: var(--color-bitcoin-orange);
+}
+.feature-card-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+svg.feature-card-icon {
+	flex-shrink: 0;
+}
+.feature-card-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	color: #f0f0f0;
+}
+.feature-card-desc {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.feature-card-link {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--color-fg-dimmer);
+	margin-top: 12px;
+	transition: color 0.2s;
+}
+
+/* ── Story cards (same shape as features; real-world stories) ─ */
+.story-cards-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+	margin: 24px 0;
+}
+@media (max-width: 700px) {
+	.story-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+a.story-card {
+	display: block;
+	padding: 20px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.story-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.story-card:hover .story-card-link {
+	color: var(--color-bitcoin-orange);
+}
+.story-card-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+svg.story-card-icon {
+	flex-shrink: 0;
+}
+.story-card-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	color: #f0f0f0;
+}
+.story-card-desc {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.story-card-link {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--color-fg-dimmer);
+	margin-top: 12px;
+	transition: color 0.2s;
+}
+
+/* ── Sources section (GEO trust signals) ───────────────────── */
+.sources-section {
+	width: 95%;
+	margin: 40px auto 20px;
+}
+.sources-section .container-inner {
+	width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.sources-heading {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dimmer);
+	margin-bottom: 12px;
+}
+.sources-list {
+	list-style-type: decimal;
+	padding-left: 20px;
+	margin: 0;
+}
+.sources-list li {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	color: #7f7e7d;
+	margin-bottom: 6px;
+}
+.sources-list a {
+	color: #7f7e7d;
+	text-decoration: none;
+	border-bottom: 1px dotted rgba(127, 126, 125, 0.5);
+}
+.sources-list a:hover {
+	color: var(--color-bitcoin-orange);
+	border-bottom-color: var(--color-bitcoin-orange);
+}
+/* Grouped sources (inflation page) — each <section> is a subgroup. */
+.sources-group {
+	margin-top: 18px;
+}
+.sources-group:first-child {
+	margin-top: 0;
+}
+.sources-group-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color-fg-muted);
+	margin: 0 0 6px;
+}
+.sources-group .sources-list {
+	list-style-type: disc;
+}
+
+
+/* ── Publisher attribution (bottom of content pages) ───────── */
+.publisher-attribution {
+	width: 70%;
+	margin: 40px auto 20px;
+	text-align: center;
+	border-top: 1px solid #333;
+	padding-top: 20px;
+}
+.publisher-attribution p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--color-fg-dim);
+	margin: 0;
+}
+.publisher-attribution a.orange-link {
+	text-decoration: none;
+}
+.publisher-attribution a.orange-link:hover {
+	text-decoration: underline;
+}
+.reviewed-badge {
+	color: #6c9;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+/* Hide the inactive currency sections (toggled by CountrySelector). */
+.countries[hidden] {
+	display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   6. COMPARISON PAGES — V2.
+   Shared by /bitcoin-vs-*, /bank-runs, /about, /get-involved. Reuses
+   .inflation-section, .stat-cards-grid, .sources-section, and
+   .publisher-attribution from the inflation block above.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Hero H1 on a /bitcoin-vs-* comparison page is white by default so the
+   inline `<span class="orange">Bitcoin</span>` and `<span class="asset">…
+   </span>` markup in `hero_title` can introduce color on a neutral base.
+   Without this override the base H1 rule (`color: var(--color-bitcoin-
+   orange)`) would tint every unspanned word orange.
+
+   Scoped with `:has(.asset)` so /bank-runs, /about, /get-involved (which
+   share `.comparison-hero` but have no inline `.asset` span) keep their
+   original all-orange H1. */
+.comparison-hero h1:has(.asset) {
+	color: var(--color-fg);
+}
+
+/* The asset word (GOLD / STOCKS / CASH) reads its color from a
+   CSS custom property set per page on the parent container. Falls
+   back to Bitcoin orange if --asset-accent is unset. */
+.comparison-hero h1 .asset {
+	color: var(--asset-accent, var(--color-bitcoin-orange));
+}
+
+/* Intro "card" — left-aligned prose inside a bordered surface that
+   matches the comparison-chip / whats-next card look. Wraps the one-
+   or-more <p class="inflation-intro"> children. */
+.comparison-intro {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.comparison-intro .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.comparison-intro .inflation-intro {
+	margin-bottom: 16px;
+	text-align: left;
+}
+.comparison-intro .inflation-intro:last-child {
+	margin-bottom: 0;
+}
+
+/* One comparison point = two side-by-side chips stacked above an
+   explanation paragraph. No dividing rule between points — the
+   spacing alone carries the section rhythm. */
+.comparison-point {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.comparison-chips {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 0 auto 24px auto;
+	max-width: 900px;
+}
+@media (max-width: 700px) {
+	.comparison-chips {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+}
+
+/* Comparison chips — styled like the inflation-page stat cards for
+   high contrast. Surface background + muted border, rounded corners,
+   subtle hover/focus treatment kept minimal (these are static, not
+   links). */
+.comparison-chip {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px 20px;
+	text-align: center;
+}
+.comparison-chip-label {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.15;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+@media (max-width: 700px) {
+	.comparison-chip-label {
+		font-size: 20px;
+	}
+}
+.comparison-chip-bitcoin .comparison-chip-label {
+	color: var(--color-bitcoin-orange);
+}
+.comparison-chip-asset .comparison-chip-label {
+	color: var(--asset-accent, var(--color-bitcoin-orange));
+}
+.comparison-chip-value {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--color-fg);
+}
+
+/* Explanation prose — matches .inflation-section p body-text
+   treatment (17px, muted color, orange-underlined inline links). */
+.comparison-explain {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.comparison-explain p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 28px;
+	color: var(--color-fg-muted);
+	margin-bottom: 16px;
+}
+.comparison-explain p:last-child {
+	margin-bottom: 0;
+}
+.comparison-explain a.body-link,
+.comparison-explain a.orange-link {
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.comparison-explain a.body-link:hover,
+.comparison-explain a.orange-link:hover {
+	color: var(--color-link-hover);
+}
+
+/* What's-next grid on a comparison page shares styling with the
+   homepage; just needs extra top margin so it doesn't collide
+   with the final comparison point. */
+.comparison-whats-next {
+	margin-top: 40px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Comparison-page alignment
+   Everything below the hero + intro text box should line up with
+   the intro card's outer visible border. By default `.container-
+   inner` insets its content by an extra 2% on each side — fine for
+   a full-bleed section, but on a comparison page it makes the
+   chips / explanation prose / sources / attribution look narrower
+   than the card above them. Pull that padding to 0 (and normalise
+   the two oddly-sized section wrappers to 96%) so everything below
+   the intro text box aligns flush with its outer edges.
+   ───────────────────────────────────────────────────────────── */
+.comparison-page .comparison-point .container-inner,
+.comparison-page .comparison-whats-next .container-inner,
+.comparison-page .sources-section .container-inner,
+.comparison-page .publisher-attribution .container-inner {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.comparison-page .sources-section,
+.comparison-page .publisher-attribution {
+	width: 96%;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Sticker-files per-language page (V2 redesign)
+   Each sticker sits in a bordered surface card with a capped-
+   width image and a cleanly laid-out meta list. A tips card
+   below mirrors the sticker-success "Good sticker spots are …"
+   content, and two `.whats-next-card`s at the bottom funnel
+   visitors back to the language picker or onward to /flyers.
+   ───────────────────────────────────────────────────────────── */
+
+/* StickerMule 1-click CTA (English page only). Sits inside the
+   `.comparison-intro` card under the mission prose. */
+.sticker-files-cta-row {
+	text-align: center;
+	margin-top: 8px !important;
+	margin-bottom: 0 !important;
+}
+a.sticker-files-cta-button {
+	display: inline-block;
+	background-color: var(--color-bitcoin-orange);
+	color: #ffffff;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 14px 24px;
+	border-radius: 12px;
+	border: 1px solid var(--color-bitcoin-orange);
+	transition:
+		background-color 0.2s,
+		color 0.2s,
+		transform 0.2s;
+}
+a.sticker-files-cta-button:hover {
+	background-color: var(--color-link-hover);
+	border-color: var(--color-link-hover);
+	transform: scale(1.02);
+}
+
+/* Sticker cards — one per available design. Stacked vertically
+   inside a single section wrapper with consistent gap spacing. */
+.sticker-cards-section .container-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 96%;
+}
+.sticker-card {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+.sticker-card-name {
+	/* Matches `.sticker-tips-heading` — both inherit everything else
+	   from the base element-level h2 rule (28px, weight 700, white). */
+	margin: 0 0 4px 0;
+	align-self: stretch;
+}
+.sticker-card-image-link {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	text-decoration: none;
+}
+.sticker-card-image {
+	display: block;
+	max-width: 320px;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+@media (max-width: 700px) {
+	.sticker-card {
+		padding: 20px;
+	}
+	.sticker-card-image {
+		max-width: 260px;
+	}
+}
+.sticker-card-meta {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+}
+.sticker-card-meta li {
+	margin: 0 0 8px 0;
+}
+.sticker-card-meta li:last-child {
+	margin-bottom: 0;
+}
+.sticker-card-meta-label {
+	font-weight: 700;
+	color: var(--color-fg);
+}
+
+/* Sticker tips — bordered card mirroring `.comparison-intro`
+   with a left-aligned H2 + bullet list. */
+.sticker-tips-section {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.sticker-tips-section .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.sticker-tips-heading {
+	/* Inherit base h2 look (28px / 700 / white / left). Only tighten
+	   the bottom margin so the intro paragraph below sits close. */
+	margin: 0 0 12px 0;
+}
+.sticker-tips-intro {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 12px 0;
+}
+.sticker-tips-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+}
+.sticker-tips-list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.sticker-tips-list li:last-child {
+	margin-bottom: 0;
+}
+.sticker-tips-check {
+	flex-shrink: 0;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+/* English page only — center all intro card content + the CTA button. */
+.comparison-intro--center .container-inner {
+	text-align: center;
+}
+.comparison-intro--center .inflation-intro {
+	text-align: center;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   7. WALLETS PAGE — V2 design system.
+   Owns: `.wallet-intro-card`, `.wallet-accordion*`, `.wallet-callout`,
+   `.wallet-callout-list`, `.wallet-grid`, `.wallet-card*`,
+   `.wallet-badge*`, `.wallet-card-features`, `.wallet-card-cta`,
+   `.wallet-lightning-cta`. Reuses `.inflation-section`, `.whats-next-
+   section`, `.sources-section`, and `.publisher-attribution` above.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Intro card: the "How wallets work + pick the right one" blurb at
+   the top of the page, above the accordions. Mirrors `.comparison-
+   intro` but with left-aligned prose. ─────────────────────────────── */
+.wallet-intro {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.wallet-intro .container-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 28px 24px;
+	width: 96%;
+}
+.wallet-intro p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: var(--color-fg-muted);
+	margin: 0 0 16px 0;
+}
+.wallet-intro p:last-child {
+	margin-bottom: 0;
+}
+
+/* ── Accordion (V2 FAQ-style) ──────────────────────────────────────
+   Rendered by `<WalletAccordion>`. The header is a button for proper
+   keyboard a11y; the body animates via max-height. Inside the body
+   we reuse the shared `.comparison-explain` prose styles + the
+   `.wallet-callout` badges below. */
+
+.wallet-accordions {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 20px;
+}
+
+.wallet-accordion {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	overflow: hidden;
+	transition: border-color 0.2s;
+}
+.wallet-accordion.is-open {
+	border-color: rgba(255, 149, 0, 0.4);
+}
+
+button.wallet-accordion-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px 24px;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	text-align: left;
+	color: var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 0.02em;
+	transition: color 0.2s;
+}
+button.wallet-accordion-header:hover {
+	color: var(--color-link-hover);
+}
+
+.wallet-accordion-question {
+	flex: 1;
+	padding-right: 12px;
+	text-transform: uppercase;
+}
+@media (max-width: 700px) {
+	button.wallet-accordion-header {
+		padding: 18px 20px;
+		font-size: 16px;
+	}
+}
+
+.wallet-accordion-chevron {
+	flex-shrink: 0;
+	font-size: 14px;
+	color: var(--color-bitcoin-orange);
+	transition: transform 0.3s ease;
+}
+.wallet-accordion.is-open .wallet-accordion-chevron {
+	transform: rotate(180deg);
+}
+
+.wallet-accordion-body {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.35s ease;
+}
+.wallet-accordion.is-open .wallet-accordion-body {
+	max-height: 2000px;
+}
+
+.wallet-accordion-body-inner {
+	padding: 4px 24px 24px 24px;
+	border-top: 1px solid var(--color-card-border);
+	padding-top: 20px;
+}
+@media (max-width: 700px) {
+	.wallet-accordion-body-inner {
+		padding: 20px 20px 22px;
+	}
+}
+
+/* Prose inside an accordion body. Same sizing as `.comparison-explain p`. */
+.wallet-accordion-body-inner p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 28px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+.wallet-accordion-body-inner p:last-child {
+	margin-bottom: 0;
+}
+
+/* Inline orange-underline link inside an accordion body. */
+.wallet-accordion-body-inner a.body-link {
+	color: var(--color-bitcoin-orange);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+.wallet-accordion-body-inner a.body-link:hover {
+	color: var(--color-link-hover);
+}
+
+/* ── Callout pill (SELF-CUSTODY ✓ / NOT-YOUR-KEYS ✗ / COLD ✓ / HOT ⚠) —
+   Used inline inside an accordion body and inside a wallet card as a
+   small semantic badge. Color comes from `--callout-color` which each
+   tone modifier sets below. ───────────────────────────────────────── */
+.wallet-callout {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 14px;
+	border-radius: 999px;
+	border: 1px solid
+		color-mix(in srgb, var(--callout-color, var(--color-bitcoin-orange)) 45%, transparent);
+	background: color-mix(
+		in srgb,
+		var(--callout-color, var(--color-bitcoin-orange)) 12%,
+		var(--color-surface)
+	);
+	color: var(--callout-color, var(--color-bitcoin-orange));
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.wallet-callout-icon {
+	font-size: 13px;
+	line-height: 1;
+}
+.wallet-callout.good    { --callout-color: var(--color-success); }
+.wallet-callout.warn    { --callout-color: #ffb84d; }
+.wallet-callout.danger  { --callout-color: var(--color-danger); }
+
+/* Wraps two consecutive callouts (e.g. "SELF-CUSTODY" + "HOT WALLET")
+   with a tight gap above the paragraphs that describe them. */
+.wallet-callouts-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 14px;
+}
+
+/* ── Wallet grid (6 cards, 2-col desktop / 1-col mobile) ──────────── */
+.wallet-grid-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.wallet-grid-heading {
+	/* h2 element-level rule gives us 28px / 700. Only tighten spacing
+	   around the grid so the cards hug visually. */
+	margin: 0 0 16px 4px;
+}
+.wallet-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 0;
+}
+@media (max-width: 700px) {
+	.wallet-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* The entire card is now an anchor — the inner `.wallet-card-cta` is a
+   styled <span> (HTML forbids nested anchors). Anchor resets on the card
+   strip inherited link styling so the internal heading/paragraphs look
+   identical to when the card was a <div>. Whole-card hover promotes the
+   fake-CTA's appearance so affordance stays visible. */
+a.wallet-card {
+	display: flex;
+	flex-direction: column;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 20px;
+	padding: 28px 24px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.wallet-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+a.wallet-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+
+
+.wallet-card-image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 140px;
+	margin-bottom: 16px;
+}
+.wallet-card-image {
+	max-height: 140px;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+.wallet-card-name {
+	/* Override the site-wide h2 element rule (28px/700 left) to a
+	   slightly smaller, centered treatment that works better inside a
+	   card. */
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	margin: 0 0 14px 0;
+}
+
+.wallet-card-badges {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 18px;
+}
+
+.wallet-card-features {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 22px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex: 1;
+}
+.wallet-card-features li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.wallet-card-feature-check {
+	flex-shrink: 0;
+	color: var(--color-success);
+	font-weight: 700;
+	line-height: 22px;
+}
+
+/* Price highlight inside the feature list — italic, small, muted
+   (e.g. "Costs $79"). */
+.wallet-card-feature-price {
+	color: var(--color-fg-dim);
+	font-style: italic;
+}
+
+/* Short elevator-pitch paragraph between the wallet name and the
+   feature list on `/business/wallets` wallet cards (used for Square +
+   Strike Business). Muted body color, sits inside the `.wallet-card`
+   anchor without breaking the hover affordance. */
+.biz-wallet-card-note {
+	margin: 0 0 12px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--color-fg-muted);
+}
+
+/* `.wallet-card-cta` is rendered as a `<span>` (the whole card is the
+   anchor — nested `<a>` isn't valid). Styled to look like an outlined
+   button. Hovering the *parent card* promotes it to the filled variant
+   so the affordance stays visible anywhere on the card. */
+.wallet-card-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	align-self: stretch;
+	padding: 12px 18px;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.2s, color 0.2s;
+}
+.wallet-card-cta::after {
+	content: "→";
+	transition: transform 0.2s;
+}
+a.wallet-card:hover .wallet-card-cta {
+	background: var(--color-bitcoin-orange);
+	color: #ffffff;
+}
+a.wallet-card:hover .wallet-card-cta::after {
+	transform: translateX(3px);
+}
+
+
+/* ── Lightning CTA strip — a single full-width card linking to
+   /lightning, visually tied to the wallet cards above but distinct
+   (no image, just a label + title + arrow). ───────────────────────── */
+a.wallet-lightning-cta {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 24px 28px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 20px;
+	text-decoration: none;
+	color: var(--color-fg);
+	margin: 12px 0;
+	transition: border-color 0.2s, transform 0.2s;
+}
+a.wallet-lightning-cta:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+}
+.wallet-lightning-cta-label {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-bitcoin-orange);
+	margin-bottom: 6px;
+}
+.wallet-lightning-cta-title {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.3;
+	color: var(--color-fg);
+}
+.wallet-lightning-cta-arrow {
+	flex-shrink: 0;
+	font-size: 22px;
+	color: var(--color-bitcoin-orange);
+	transition: transform 0.2s;
+}
+a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
+	transform: translateX(4px);
+}
+@media (max-width: 700px) {
+	a.wallet-lightning-cta {
+		padding: 20px 22px;
+	}
+	.wallet-lightning-cta-title {
+		font-size: 17px;
+	}
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   8. FLYERS PAGE — V2 design system.
+   Owns: `.flyer-section`, `.flyer-preview-link`, `.flyer-preview-image`,
+   `.flyer-eyebrow`, `.flyer-actions`, `.flyer-btn` (+ primary/secondary
+   modifiers), `.flyer-sticker-line`. Reuses `.wallet-intro` for surface
+   card chrome, plus `.home-hero`, `.whats-next-section`, and
+   `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Wrap both surface cards in a thin spacer so they stack with breathing
+   room but without the big inflation-section vertical gap. */
+.flyer-section {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/* Centered, slightly bumped-up preview image at the top of the first
+   card. Keeps the clickable hit area obvious with a subtle hover lift. */
+.flyer-preview-link {
+	display: block;
+	text-align: center;
+	margin: -4px 0 20px 0;
+	transition: transform 0.2s;
+}
+.flyer-preview-link:hover {
+	transform: translateY(-2px);
+}
+.flyer-preview-image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+/* Section heading inside a flyer surface card. Inherits everything from
+   the element-level h2 rule (Proxima Nova 700, 28px / 22px mobile, white,
+   left-aligned) — we only tighten the vertical rhythm so the heading
+   hugs the paragraphs that follow it. */
+.flyer-heading {
+	margin: 0 0 12px 0;
+}
+
+/* Action button row: 2 buttons side-by-side on desktop, stacked on
+   mobile. Buttons fill the row via flex. */
+.flyer-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 20px 0 20px 0;
+}
+
+/* Shared button chrome — rounded, padded, clickable, no underline. */
+.flyer-btn {
+	flex: 1 1 180px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 22px;
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	transition: background 0.2s, border-color 0.2s, color 0.2s,
+		transform 0.15s;
+	text-align: center;
+	box-sizing: border-box;
+}
+.flyer-btn:hover {
+	transform: translateY(-1px);
+}
+
+/* Primary = solid Bitcoin-orange fill. */
+.flyer-btn-primary {
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+}
+.flyer-btn-primary:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+}
+
+/* Secondary = outlined on surface. */
+.flyer-btn-secondary {
+	background: transparent;
+	color: var(--color-fg);
+	border: 1px solid var(--color-card-border);
+}
+.flyer-btn-secondary:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	color: var(--color-bitcoin-orange);
+}
+
+/* Trailing "request a pack of stickers" line — sits after the action
+   buttons, muted grey like the body copy. */
+.flyer-sticker-line {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+@media (max-width: 700px) {
+	.flyer-btn {
+		flex: 1 1 100%;
+		padding: 13px 20px;
+		font-size: 14px;
+	}
+	.flyer-preview-image {
+		border-radius: 10px;
+	}
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   9. COMPOUND INFLATION CALCULATOR — V2 design system.
+   Owns: `.cic-section`, `.cic-heading`, `.cic-form`, `.cic-fields`,
+   `.cic-field`, `.cic-label`, `.cic-input`, `.cic-input-wrap`,
+   `.cic-input-suffix`, `.cic-submit`, `.cic-result` (+ tone modifiers),
+   `.cic-result-value`. Reuses `.wallet-intro` for surface card chrome,
+   `.home-hero`, `.wallet-lightning-cta`, `.whats-next-section`,
+   `.sources-section`, and `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Thin spacer on the surface cards so they stack with breathing room
+   without the big inflation-section gap. Mirrors `.flyer-section`. */
+.cic-section {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/* Section heading inside a calculator surface card. Inherits from the
+   element-level h2 rule (28px / 22px mobile, white, left-aligned); we
+   only tighten vertical rhythm so the heading hugs the form below it. */
+.cic-heading {
+	margin: 0 0 20px 0;
+}
+
+/* Form wrapper — stacks the 3 input fields then the submit button. */
+.cic-form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+/* 3-up field grid on desktop; stacks on mobile. Each cell is a
+   label + input pair (`.cic-field`). */
+.cic-fields {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 14px;
+}
+@media (max-width: 700px) {
+	.cic-fields {
+		grid-template-columns: 1fr;
+	}
+}
+
+.cic-field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+/* Uppercase eyebrow-style label above each input, matches the
+   small-caps treatment on stat cards + wallet-callouts elsewhere. */
+.cic-label {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+}
+
+/* Core input field — dark surface, subtle border, orange focus ring.
+   `type=number` still gets the native spinner on most browsers, which
+   is fine/expected for a money-input experience. */
+.cic-input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	color: var(--color-fg);
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	transition: border-color 0.2s, background-color 0.2s;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cic-input::placeholder {
+	color: var(--color-fg-dimmer);
+	font-weight: 500;
+}
+.cic-input:hover {
+	border-color: rgba(255, 149, 0, 0.35);
+}
+.cic-input:focus {
+	outline: none;
+	border-color: var(--color-bitcoin-orange);
+	background: var(--color-bg);
+}
+
+/* Wrap for an input with an inline suffix (e.g. the `%` on the
+   inflation-rate field). Suffix sits absolutely positioned on the
+   right so the text and the caret still use the full input width. */
+.cic-input-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.cic-input--suffix {
+	padding-right: 36px;
+}
+.cic-input-suffix {
+	position: absolute;
+	right: 14px;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--color-fg-dim);
+}
+
+/* Primary CTA — solid Bitcoin-orange fill, full-width at every
+   breakpoint so it visually anchors the form. */
+.cic-submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 16px 28px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	cursor: pointer;
+	user-select: none;
+	transition: background-color 0.2s, transform 0.15s;
+}
+.cic-submit:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+.cic-submit:active {
+	transform: translateY(0);
+}
+
+
+/* Result paragraph — sits below the form in a bordered surface-tinted
+   block so it reads as the calculator's output. Tones:
+     .cic-result--neutral  — idle starting message (muted grey)
+     .cic-result--highlight — after a successful calculation (white body,
+                              orange strong-highlighted numbers)
+     .cic-result--error     — validation failure (danger red) */
+.cic-result {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	margin: 20px 0 0 0 !important;
+	padding: 18px 20px;
+	border-radius: 14px;
+	border: 1px dashed var(--color-card-border);
+	background: rgba(255, 255, 255, 0.02);
+	transition: border-color 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.cic-result--neutral {
+	color: var(--color-fg-dim);
+	font-style: italic;
+}
+.cic-result--highlight {
+	color: var(--color-fg-muted);
+	border-style: solid;
+	border-color: rgba(255, 149, 0, 0.35);
+	background: rgba(255, 149, 0, 0.06);
+	font-style: normal;
+}
+.cic-result--error {
+	color: var(--color-danger);
+	border-style: solid;
+	border-color: rgba(255, 68, 68, 0.45);
+	background: rgba(255, 68, 68, 0.06);
+	font-style: normal;
+}
+.cic-result-value {
+	color: var(--color-fg);
+	font-weight: 700;
+	white-space: nowrap;
+}
+.cic-result-value--emphasis {
+	color: var(--color-bitcoin-orange);
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   10. BUY PAGE — V2 design system.
+   Owns: `.buy-step`, `.buy-step-header`, `.buy-step-eyebrow`,
+   `.buy-search-wrap`, `.buy-search-input`, `.buy-country-grid`,
+   `.buy-country-button` (+ `.is-selected`), `.buy-country-flag`,
+   `.buy-country-label`, `.buy-method-grid`, `.buy-method-card` (+
+   `.is-selected`), `.buy-method-card-title/-callouts/-description/-cta`,
+   `.buy-platform-stack`, `.buy-platform-card` (+ `.is-recommended`),
+   `.buy-platform-badge`, `.buy-platform-name/-description/-features/
+   -feature-check/-cta`, `.buy-storage-card`, `.buy-storage-card-outro`.
+   Reuses `.wallet-intro` for the intro card, `.wallet-callout` for the
+   method ✓/✗/⚠ badges, `.wallet-lightning-cta` for the storage → /
+   wallets link, plus `.home-hero`, `.whats-next-section`, `.sources-
+   section`, and `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Step wrapper + header (eyebrow + H2 + lead paragraph) ──────── */
+.buy-step {
+	padding-top: 10px;
+}
+
+.buy-step-header {
+	margin-bottom: 20px;
+}
+
+.buy-step-eyebrow {
+	display: inline-block;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-bitcoin-orange);
+	margin-bottom: 10px;
+}
+
+.buy-step-header h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.buy-step-header p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+/* ── Step 1: country search + country grid ──────────────────────── */
+.buy-search-wrap {
+	margin: 4px 0 18px 0;
+}
+
+.buy-search-input {
+	width: 100%;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	padding: 14px 18px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	transition: border-color 0.2s, box-shadow 0.2s;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.buy-search-input::placeholder {
+	color: var(--color-fg-dim);
+}
+.buy-search-input:focus {
+	outline: none;
+	border-color: rgba(255, 149, 0, 0.6);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+.buy-country-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+@media (max-width: 700px) {
+	.buy-country-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+button.buy-country-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 14px 18px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	transition: border-color 0.2s, background-color 0.2s, transform 0.15s;
+}
+button.buy-country-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+}
+button.buy-country-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.buy-country-button.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	background: rgba(255, 149, 0, 0.08);
+	color: var(--color-fg);
+}
+
+.buy-country-flag {
+	font-size: 20px;
+	line-height: 1;
+	flex-shrink: 0;
+}
+
+.buy-country-label {
+	flex: 1;
+}
+
+/* ── Step 2: payment method cards ───────────────────────────────── */
+.buy-method-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 14px;
+}
+@media (max-width: 700px) {
+	.buy-method-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.buy-method-card {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 24px;
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+.buy-method-card:hover {
+	border-color: rgba(255, 149, 0, 0.35);
+}
+.buy-method-card.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+.buy-method-card-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--color-fg);
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.buy-method-card-callouts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.buy-method-card-description {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+	flex: 1;
+}
+
+button.buy-method-card-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 14px 22px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.2s, transform 0.15s;
+}
+button.buy-method-card-cta:hover {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+button.buy-method-card-cta:active {
+	transform: translateY(0);
+}
+.buy-method-card.is-selected button.buy-method-card-cta {
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+}
+.buy-method-card.is-selected button.buy-method-card-cta:hover {
+	background: rgba(255, 149, 0, 0.08);
+}
+
+/* ── Step 3: platform cards ─────────────────────────────────────── */
+.buy-platform-stack {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+a.buy-platform-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 26px;
+	text-decoration: none;
+	color: var(--color-fg);
+	transition: border-color 0.2s, transform 0.15s;
+}
+a.buy-platform-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+}
+a.buy-platform-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+a.buy-platform-card.is-recommended {
+	border-color: rgba(255, 149, 0, 0.35);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 149, 0, 0.04) 0%,
+		var(--color-surface) 80%
+	);
+}
+
+.buy-platform-badge {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	display: inline-block;
+	padding: 4px 10px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border-radius: 999px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.buy-platform-name {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	color: var(--color-fg);
+	letter-spacing: 0.01em;
+	padding-right: 110px; /* leave room for the absolutely-positioned badge */
+}
+
+.buy-platform-description {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+.buy-platform-features {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+.buy-platform-features li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: var(--color-fg-muted);
+}
+.buy-platform-feature-check {
+	flex-shrink: 0;
+	color: var(--color-success);
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.buy-platform-cta {
+	align-self: flex-start;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 18px;
+	background: transparent;
+	color: var(--color-bitcoin-orange);
+	border: 1px solid var(--color-bitcoin-orange);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transition: background-color 0.2s, color 0.2s, transform 0.15s;
+}
+.buy-platform-cta::after {
+	content: "→";
+	font-size: 15px;
+	line-height: 1;
+	transition: transform 0.2s;
+}
+a.buy-platform-card:hover .buy-platform-cta {
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+}
+a.buy-platform-card:hover .buy-platform-cta::after {
+	transform: translateX(3px);
+}
+
+@media (max-width: 700px) {
+	.buy-platform-name {
+		padding-right: 0;
+		padding-top: 28px; /* badge moves above the name on mobile */
+	}
+	.buy-platform-badge {
+		top: 14px;
+		left: 14px;
+		right: auto;
+	}
+}
+
+/* ── Step 4: storage guidance card ──────────────────────────────── */
+.buy-storage-card {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 26px;
+	margin-bottom: 18px;
+}
+.buy-storage-card p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+.buy-storage-card p:last-child {
+	margin-bottom: 0;
+}
+.buy-storage-card-outro {
+	color: var(--color-fg) !important;
+	font-weight: 500 !important;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   11. STICKERS PAGE — V2 design system.
+   Owns: `.sticker-pack-grid`, `.sticker-pack-card` (+ `.is-selected`),
+   `.sticker-pack-image-wrap`, `.sticker-pack-image`, `.sticker-pack-body`,
+   `.sticker-pack-title` (an <h2>), `.sticker-pack-description`,
+   `.sticker-pack-cta`, `.sticker-option-grid`, `.sticker-option-button`
+   (+ `.is-selected`), `.sticker-option-label`, `.sticker-option-chevron`,
+   `.sticker-panel`, `.sticker-panel-inner`, `.sticker-panel-heading`,
+   `.sticker-panel-subheading`, `.sticker-panel-note`,
+   `.sticker-language-grid`, `.sticker-language-button`,
+   `.sticker-request`, `.sticker-form`, `.sticker-fields--two`,
+   `.sticker-fields--three`.
+   Forms inside the panel reuse the `.cic-*` form system from the
+   compound-inflation-calculator (`.cic-form`, `.cic-fields`,
+   `.cic-field`, `.cic-label`, `.cic-input`, `.cic-submit`).
+   Reuses `.wallet-intro`, `.buy-step-header`, `.buy-step-eyebrow`,
+   `.flyer-btn`, `.flyer-actions`, `.whats-next-section`, and
+   `.publisher-attribution` from earlier blocks.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Step 1: pack picker ───────────────────────────────────────── */
+/* Each pack is rendered as a single clickable <button> that contains
+   the preview image, <h2> title, description, and the orange CTA
+   "choose this pack" button. The whole tile is clickable; the inline
+   CTA is visual affordance only (the parent <button> handles the
+   actual click). */
+.sticker-pack-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 18px;
+}
+@media (max-width: 700px) {
+	.sticker-pack-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+button.sticker-pack-card {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 0;
+	padding: 0;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	overflow: hidden;
+	transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+	font-family: var(--font-proxima);
+	width: 100%;
+}
+button.sticker-pack-card:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-2px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+button.sticker-pack-card:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.sticker-pack-card.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.15);
+}
+
+/* Image frame — subtle dark tinted background matches the look from
+   bitcoin.rocks/stickers. */
+.sticker-pack-image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 28px 24px;
+	background: rgba(255, 255, 255, 0.025);
+	border-bottom: 1px solid var(--color-card-border);
+}
+.sticker-pack-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 360px;
+	max-height: 240px;
+	object-fit: contain;
+	transition: transform 0.25s;
+}
+button.sticker-pack-card:hover .sticker-pack-image {
+	transform: scale(1.03);
+}
+
+.sticker-pack-body {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 24px 26px 26px;
+	align-items: flex-start;
+}
+
+/* .sticker-pack-title is an <h2>. Override the element-level rule so
+   it renders at card scale rather than page-section scale. */
+h2.sticker-pack-title {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.25;
+	letter-spacing: 0.01em;
+	color: var(--color-fg);
+	margin: 0;
+	text-align: left;
+}
+
+.sticker-pack-description {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-fg-muted);
+	margin: 0;
+}
+
+/* Inline "Choose this pack" CTA — styled as a real orange button. */
+.sticker-pack-cta {
+	margin-top: 6px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 22px;
+	border-radius: 12px;
+	background: var(--color-bitcoin-orange);
+	color: #060610;
+	border: 1px solid var(--color-bitcoin-orange);
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	transition: background-color 0.2s, border-color 0.2s, transform 0.15s;
+}
+button.sticker-pack-card:hover .sticker-pack-cta {
+	background: #ffa826;
+	border-color: #ffa826;
+	transform: translateY(-1px);
+}
+button.sticker-pack-card.is-selected .sticker-pack-cta {
+	background: var(--color-bitcoin-orange);
+	border-color: var(--color-bitcoin-orange);
+}
+
+/* ── Step 2: delivery option buttons — one per line, real-button feel.
+   ────────────────────────────────────────────────────────────── */
+.sticker-option-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 8px;
+}
+
+button.sticker-option-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 18px 22px;
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 14px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 1.2;
+	color: var(--color-fg);
+	text-align: left;
+	cursor: pointer;
+	width: 100%;
+	transition: border-color 0.2s, background-color 0.2s, transform 0.15s,
+		box-shadow 0.2s, color 0.2s;
+}
+button.sticker-option-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	transform: translateY(-1px);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+button.sticker-option-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+button.sticker-option-button.is-selected {
+	border-color: var(--color-bitcoin-orange);
+	background: rgba(255, 149, 0, 0.1);
+	color: var(--color-fg);
+	box-shadow: 0 0 0 2px rgba(255, 149, 0, 0.15);
+}
+
+.sticker-option-label {
+	flex: 1;
+}
+
+.sticker-option-chevron {
+	flex-shrink: 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--color-fg-dim);
+	transition: color 0.2s, transform 0.15s;
+}
+button.sticker-option-button:hover .sticker-option-chevron {
+	color: var(--color-bitcoin-orange);
+	transform: translateX(2px);
+}
+button.sticker-option-button.is-selected .sticker-option-chevron {
+	color: var(--color-bitcoin-orange);
+	transform: none;
+}
+
+/* ── Revealed panel (form / language grid / bulk CTA) ─────────── */
+.sticker-panel {
+	margin-top: 18px;
+}
+
+.sticker-panel-inner {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 18px;
+	padding: 28px 26px;
+}
+
+.sticker-panel-heading {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.25;
+	color: var(--color-fg);
+	margin: 0 0 16px 0;
+}
+
+.sticker-panel-subheading {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	color: var(--color-fg);
+	margin: 0 0 10px 0;
+}
+
+.sticker-panel-inner p {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: var(--color-fg-muted);
+	margin: 0 0 14px 0;
+}
+
+.sticker-panel-note {
+	font-size: 15px !important;
+	color: var(--color-fg-dim) !important;
+	font-style: italic;
+}
+
+/* ── Print panel: language button grid ────────────────────────── */
+.sticker-language-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	gap: 8px;
+	margin: 10px 0 28px 0;
+}
+@media (max-width: 700px) {
+	.sticker-language-grid {
+		grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	}
+}
+
+a.sticker-language-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 14px;
+	background: var(--color-bg-soft);
+	border: 1px solid var(--color-card-border);
+	border-radius: 12px;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg);
+	text-decoration: none;
+	text-align: center;
+	transition: border-color 0.2s, background-color 0.2s, color 0.2s,
+		transform 0.15s;
+}
+a.sticker-language-button:hover {
+	border-color: rgba(255, 149, 0, 0.5);
+	color: var(--color-bitcoin-orange);
+	transform: translateY(-1px);
+}
+a.sticker-language-button:focus-visible {
+	outline: 2px solid var(--color-bitcoin-orange);
+	outline-offset: 2px;
+}
+
+/* ── Print panel: language-request form wrapper ──────────────── */
+.sticker-request {
+	padding-top: 18px;
+	margin-top: 8px;
+	border-top: 1px solid var(--color-card-border);
+}
+
+/* ── Sticker forms (both the address form + the language-request
+   form) use the shared `.cic-*` form system from §9 with a couple
+   of grid-variant modifiers for 2- and 3-column field groupings.
+   ───────────────────────────────────────────────────────────── */
+.sticker-form.cic-form {
+	/* Tighter vertical rhythm than the solo calculator. */
+	gap: 14px;
+}
+
+.cic-fields.sticker-fields--two {
+	grid-template-columns: 1fr 1fr;
+}
+.cic-fields.sticker-fields--three {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 700px) {
+	.cic-fields.sticker-fields--two,
+	.cic-fields.sticker-fields--three {
+		grid-template-columns: 1fr;
+	}
+}
+
+.sticker-panel-inner .cf-turnstile {
+	margin: 6px 0 10px 0;
+}
+
+@media (max-width: 700px) {
+	.sticker-pack-image-wrap {
+		padding: 22px 18px;
+	}
+	.sticker-pack-image {
+		max-height: 200px;
+	}
+	.sticker-pack-body {
+		padding: 20px 20px 22px;
+	}
+	h2.sticker-pack-title {
+		font-size: 22px;
+	}
+	.sticker-pack-cta {
+		width: 100%;
+	}
+	button.sticker-option-button {
+		padding: 16px 18px;
+		font-size: 16px;
+	}
+	.sticker-panel-inner {
+		padding: 22px 20px;
+	}
+	.sticker-panel-heading {
+		font-size: 20px;
+	}
+}
+
+/* ── /business/stickers — hero sticker-pack preview image ──────
+   The merchant sticker pack has only one product, so the V2
+   redesign puts a centered preview image inside the `.wallet-intro`
+   card above the intro copy (rather than inside a wizard pack tile
+   like /stickers). Scoped class keeps it from interfering with any
+   other `<img>` inside a `.wallet-intro`. */
+.biz-stickers-hero-image {
+	display: flex;
+	justify-content: center;
+	padding: 4px 0 18px 0;
+}
+.biz-stickers-hero-image img {
+	display: block;
+	max-width: 100%;
+	max-height: 260px;
+	width: auto;
+	height: auto;
+	border-radius: 12px;
+}
+@media (max-width: 700px) {
+	.biz-stickers-hero-image img {
+		max-height: 200px;
+	}
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   12. STICKER SUCCESS PAGE — V2 design system.
+   Owns: `.sticker-success-tips` (the ✅ checklist of good spots) +
+   `.sticker-success-tip` (one row). Reuses `.wallet-intro` for surface
+   card chrome, `.flyer-heading` for card titles, `.flyer-actions` +
+   `.flyer-btn` for button rows, `.home-hero` for the hero, and
+   `.whats-next-section` + `.whats-next-card` for cross-links.
+   ═══════════════════════════════════════════════════════════════════ */
+
+.sticker-success-tips {
+	list-style: none;
+	padding: 0;
+	margin: 16px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+/* One good-spot / bad-spot row. The ✅ (or 🚫) icon sits in its own
+   fixed column so multi-line body text wraps under itself cleanly. */
+.sticker-success-tip {
+	display: grid;
+	grid-template-columns: 28px 1fr;
+	gap: 10px;
+	align-items: start;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 1.5;
+	color: var(--color-fg-muted);
+}
+
+.sticker-success-tip-icon {
+	font-size: 18px;
+	line-height: 1.5;
+	user-select: none;
+}
+
+@media (max-width: 700px) {
+	.sticker-success-tip {
+		font-size: 16px;
+		grid-template-columns: 24px 1fr;
+		gap: 8px;
+	}
+	.sticker-success-tip-icon {
+		font-size: 16px;
+	}
+}
+
+/* ═════════════════════════════════════════════════════════════════════
+   § 13. Accounting capital gain/loss examples (/business/accounting)
+   ---------------------------------------------------------------------
+   Two side-by-side cards showing the dollar flow from receive → sell
+   with a green "capital gain" pill (and a red "capital loss" pill) as
+   the result. Uses semantic `--color-success` / `--color-danger`
+   tokens; no new hex. Text color defaults to `var(--color-fg-muted)`
+   (not white) so the graphic matches the rest of the page's tone —
+   only the value ($100/$110/$90) and the result badges carry the
+   emphasis color.
+   ═════════════════════════════════════════════════════════════════════ */
+
+.accounting-examples {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin: 24px 0 20px 0;
+}
+@media (max-width: 700px) {
+	.accounting-examples {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+}
+
+.accounting-example {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 24px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 18px;
+	transition: border-color 0.2s;
+}
+.accounting-example--gain {
+	border-color: color-mix(
+		in srgb,
+		var(--color-success) 35%,
+		var(--color-card-border)
+	);
+}
+.accounting-example--loss {
+	border-color: color-mix(
+		in srgb,
+		var(--color-danger) 35%,
+		var(--color-card-border)
+	);
+}
+
+/* Flow row: [step] → [step] */
+.accounting-example-flow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	width: 100%;
+}
+
+.accounting-example-step {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	min-width: 0;
+}
+
+.accounting-example-date {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-fg-dim);
+}
+
+.accounting-example-label {
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 13px;
+	color: var(--color-fg-muted);
+	text-align: center;
+}
+
+.accounting-example-value {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.1;
+	color: var(--color-fg-muted);
+	letter-spacing: -0.01em;
+}
+
+.accounting-example-arrow {
+	font-family: var(--font-proxima);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1;
+	color: var(--color-fg-dim);
+	padding: 0 4px;
+	flex-shrink: 0;
+	align-self: center;
+	margin-top: 18px; /* visually balance with value baseline */
+}
+
+/* Result pill: icon + badge label + delta value */
+.accounting-example-result {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 18px;
+	border-radius: 999px;
+	font-family: var(--font-proxima);
+	line-height: 1;
+}
+.accounting-example-result--gain {
+	background: color-mix(
+		in srgb,
+		var(--color-success) 14%,
+		var(--color-surface)
+	);
+	border: 1px solid
+		color-mix(in srgb, var(--color-success) 50%, transparent);
+}
+.accounting-example-result--loss {
+	background: color-mix(
+		in srgb,
+		var(--color-danger) 14%,
+		var(--color-surface)
+	);
+	border: 1px solid
+		color-mix(in srgb, var(--color-danger) 50%, transparent);
+}
+
+.accounting-example-result-badge {
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+.accounting-example-result--gain .accounting-example-result-badge {
+	color: var(--color-success);
+}
+.accounting-example-result--loss .accounting-example-result-badge {
+	color: var(--color-danger);
+}
+
+.accounting-example-result-delta {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: -0.01em;
+}
+.accounting-example-result--gain .accounting-example-result-delta {
+	color: var(--color-success);
+}
+.accounting-example-result--loss .accounting-example-result-delta {
+	color: var(--color-danger);
+}
+
+.accounting-example-caption {
+	margin: 0;
+	font-family: var(--font-proxima);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--color-fg-dim);
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	.accounting-example {
+		padding: 20px 16px;
+		gap: 14px;
+	}
+	.accounting-example-value {
+		font-size: 22px;
+	}
+	.accounting-example-arrow {
+		font-size: 18px;
+		margin-top: 14px;
+	}
+	.accounting-example-result {
+		padding: 8px 14px;
+		gap: 8px;
+	}
+	.accounting-example-result-delta {
+		font-size: 16px;
+	}
+	.accounting-example-result-badge {
+		font-size: 12px;
+	}
+}
+
+

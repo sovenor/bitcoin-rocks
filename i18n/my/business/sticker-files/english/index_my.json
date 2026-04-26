@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "my"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "အင်္ဂလိပ် 'Bitcoin ဤနေရာတွင် လက်ခံပါသည်' စတစ်ကာဖိုင်များ",
-	"english_biz_sticker_files_description": "သင့်ကိုယ်ပိုင် Bitcoin ဤနေရာတွင် လက်ခံပါသည် စတစ်ကာ ပုံနှိပ်ရန် အင်္ဂလိပ် စတစ်ကာဖိုင်များ ဒေါင်းလုဒ်လုပ်ပါ။",
-	"english_header": "အင်္ဂလိပ် 'BITCOIN ဤနေရာတွင် လက်ခံပါသည်' စတစ်ကာဖိုင်များ ဒေါင်းလုဒ်လုပ်ပါ"
+	"english_biz_sticker_files_description": "ကိုယ်ပိုင် 'Bitcoin လက်ခံသည်' စတစ်ကာများ ပုံနှိပ်ရန် အင်္ဂလိပ်ဘာသာ စတစ်ကာဖိုင်များကို ဒေါင်းလုဒ်ဆွဲပါ။",
+	"biz_stickers_english_hero_title": "အင်္ဂလိပ်ဘာသာ 'Bitcoin လက်ခံသည်' စတစ်ကာဖိုင်များကို ဒေါင်းလုဒ်ဆွဲပါ",
+	"biz_stickers_english_hero_subtitle": "ဖောက်သည်များကို Bitcoin လက်ခံကြောင်း ပြောရန် အင်္ဂလိပ်ဘာသာ 'Bitcoin လက်ခံသည်' စတစ်ကာများကို ကိုယ်တိုင် ပုံနှိပ်ပါ။"
 }

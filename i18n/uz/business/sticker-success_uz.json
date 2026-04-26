@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
-	"sticker_success_details": "Stikerlaringizni 1 dan 2 hafta ichida oddiy oq konvertda olasiz. Har bir konvertda 3 ta stiker boʻladi. Biznesingiz uchun 3 tadan koʻp stikerga muhtoj boʻlsangiz, iltimos, qoʻshimcha toʻplam soʻrang!"
+	"biz_sticker_success_hero_title": "Stikerlaringiz yoʻlda 🎉",
+	"biz_sticker_success_hero_subtitle": "Bepul ‘Bu yerda Bitcoin qabul qilinadi’ stikerlaringizni 2-4 hafta ichida olasiz, ichida 3 ta stiker bilan oddiy oq konvertda.",
+	"biz_sticker_success_tips_header": "Stikerlarni qoʻyish uchun yaxshi joylar",
+	"biz_sticker_success_tip_1": "Mijozlar kirishdan oldin koʻrishi uchun eshigingiz yoki derazangizga",
+	"biz_sticker_success_tip_2": "Kassangiz, POS terminalingiz yoki toʻlov hududingiz yaqinida",
+	"biz_sticker_success_tip_3": "Menyularga, narx roʻyxatlariga yoki choychaqa qutilariga",
+	"biz_sticker_success_tip_4": "Egasi boʻlmagan yoki ruxsatingiz boʻlmagan joylarga yopishtirmang",
+	"biz_sticker_success_more_header": "Yana stikerlar kerakmi?",
+	"biz_sticker_success_more_c1": "Agar 3 ta stiker biznesingiz uchun yetarli boʻlmasa, yana bepul toʻplam soʻrang — yoki biz foydalanadigan bosmaxonadan ulgurji buyurtma bering.",
+	"biz_sticker_success_btn_order_bulk": "Ulgurji buyurtma berish",
+	"biz_sticker_success_btn_request_more": "Yana bepul toʻplam soʻrash"
 }

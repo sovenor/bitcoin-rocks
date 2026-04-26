@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
-	"sticker_language_timeline": "Parengsime lipdukų failus ir juos publikuosime per 3–4 savaites. Dėkojame už kantrybę!"
+	"biz_sticker_language_success_hero_title": "Užklausa gauta 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Ačiū, kad paprašėte „Bitcoin Accepted Here“ lipdukų failų savo kalba.",
+	"biz_sticker_language_success_timeline_header": "Kas toliau",
+	"biz_sticker_language_success_timeline_c1": "Lipdukų failus paruošime ir paskelbsime per artimiausias 3–4 savaites. Kai jie bus paruošti, galėsite juos nemokamai atsisiųsti ir atsispausdinti iš mūsų lipdukų failų puslapio.",
+	"biz_sticker_language_success_timeline_c2": "Lipdukų failus skelbiame partijomis, todėl gali užtrukti kelias savaites, kol jūsų kalba pradės veikti. Ačiū už kantrybę!"
 }

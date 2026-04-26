@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
-	"sticker_language_timeline": "Váš soubor nálepek vytvoříme a zveřejníme do 3 až 4 týdnů. Děkujeme za trpělivost!"
+	"biz_sticker_language_success_hero_title": "Žádost přijata 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Děkujeme, že jste si vyžádali soubory samolepek „Zde přijímáme Bitcoin“ ve vašem jazyce.",
+	"biz_sticker_language_success_timeline_header": "Co bude následovat",
+	"biz_sticker_language_success_timeline_c1": "Vaše soubory se samolepkami vytvoříme a zveřejníme během 3 až 4 týdnů. Jakmile budou připraveny, budete si je moci zdarma stáhnout a vytisknout z naší stránky se soubory samolepek.",
+	"biz_sticker_language_success_timeline_c2": "Soubory samolepek vydáváme po dávkách, takže může trvat několik týdnů, než váš jazyk půjde naživo. Děkujeme za trpělivost!"
 }

@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin ist gut für Unternehmen",
-	"biz_header": "BITCOIN IST GUT FÜR UNTERNEHMEN",
+	"business_hero_subtitle": "Nimm Zahlungen mit niedrigeren Gebühren entgegen, werde sofort bezahlt und gewinne Millionen neuer Kunden — ohne Verträge und versteckte Kosten.",
+	"business_intro_c1": "Bitcoin gibt Deinem Unternehmen eine schnellere, günstigere und privatere Möglichkeit, bezahlt zu werden. Keine Vermittler. Keine Chargebacks. Keine Verträge. Nur Geld, das in Sekunden abwickelt, direkt vom Kunden zu Dir.",
+	"business_intro_c2": "Unten findest Du die Kurzfassung, warum Bitcoin gut fürs Geschäft ist — und darunter alle Ressourcen, die Du brauchst, um heute damit zu beginnen.",
 	"biz_s1": "Niedrige Gebühren ohne Mindestbeträge",
 	"biz_s1_c1": "Bitcoin ermöglicht es dir, Zahlungen direkt von deinen Kunden zu erhalten, ähnlich wie Bargeld. Das Bitcoin-Netzwerk funktioniert ohne Mittelsmänner wie Banken und Kreditkartenunternehmen, die üppige Gebühren verlangen.",
 	"biz_s2": "Sofortige Abwicklung",
@@ -18,5 +20,14 @@
 	"biz_s4": "Mehr Kunden gewinnen",
 	"biz_s4_c1": "Millionen von Menschen besitzen Bitcoin und wollen ihre Bitcoin an Orten ausgeben, die sie akzeptieren.",
 	"biz_s4_c2": "Einfach durch das Akzeptieren von Bitcoin kann dein Unternehmen auf Bitcoin-Händlerkarten gelistet werden und so kostenlos neue Bitcoin-Kunden erreichen.",
-	"biz_s4_c3": "Die Annahme von Bitcoin ist 100% kostenlos. Es gibt keine Verträge oder versteckte Gebühren."
+	"biz_s4_c3": "Die Annahme von Bitcoin ist 100% kostenlos. Es gibt keine Verträge oder versteckte Gebühren.",
+	"business_resources_heading": "Alles, was Du brauchst, um Bitcoin zu akzeptieren",
+	"business_resources_intro": "Gehe diese Ressourcen in Deinem eigenen Tempo durch. Jede ist eine kurze, praktische Anleitung.",
+	"biz_label_wallets": "WALLETS",
+	"biz_label_maps": "HÄNDLERKARTEN",
+	"biz_label_stickers": "AUFKLEBER",
+	"biz_label_rewards": "BELOHNUNGEN",
+	"biz_label_accounting": "BUCHHALTUNG",
+	"biz_label_faq": "HÄUFIGE FRAGEN",
+	"biz_meta_description": "Akzeptiere Bitcoin in Deinem Unternehmen mit niedrigeren Gebühren, sofortiger Abwicklung, ohne Chargebacks und gewinne mehr Kunden."
 }

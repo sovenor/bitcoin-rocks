@@ -1,0 +1,31 @@
+{
+	"lang": "pl",
+	"generatedAt": "2026-04-25T18:41:52.323Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T18:03:47.555Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-25T18:41:46.534Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 1,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1210,
+		"brandIdentical": 84
+	},
+	"entries": [
+		{
+			"namespace": "buy",
+			"key": "buy_platform_feature_p2p",
+			"reason": "untranslated",
+			"englishValue": "Peer-to-peer",
+			"currentValue": "Peer-to-peer",
+			"targetTranslation": null
+		}
+	]
+}

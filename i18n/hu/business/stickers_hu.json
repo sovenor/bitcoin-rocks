@@ -3,14 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
-	"biz_stickers_title": "Ingyenes \"Bitcoin elfogadóhely\" matricák",
-	"biz_stickers_description": "Kérj ingyenes \"Bitcoin elfogadóhely\" matricákat a vállalkozásodnak.",
-	"biz_stickers_header": "INGYENES \"BITCOIN ELFOGADÓHELY\" MATRICÁK",
-	"biz_stickers_intro": "Tudasd ügyfeleiddel, hogy elfogadod a Bitcoint! Ingyen küldünk neked \"Bitcoin elfogadóhely\" matricákat.",
-	"biz_stickers_instructions": "Add meg a levelezési címedet, és ingyenesen küldünk neked \"Bitcoin elfogadóhely\" matricákat!",
-	"biz_stickers_share_header": "OSZD MEG A MATRICÁIDAT",
-	"biz_stickers_share_c1": "Oszd meg a matricáid fotóját velünk a Nostr-on!"
+	"bitcoin_accepted_here_stickers": "„Bitcoin Accepted Here” matricák",
+	"biz_stickers_hero_title": "Ingyenes „Bitcoin Accepted Here” matricák",
+	"biz_stickers_hero_subtitle": "Mondd meg a vásárlóidnak, hogy elfogadod a Bitcoint. Kérj egy csomag ingyenes „Bitcoin Accepted Here” matricát az üzletedbe.",
+	"biz_stickers_intro_c1": "A Bitcoin elfogadása csak a munka fele — a vásárlóknak is tudniuk kell róla. Ezeket a kis „Bitcoin Accepted Here” matricákat úgy tervezték, hogy a főbejáratra, pénztárhoz, étlapra vagy bárhol, ahol a vásárlók fizetnek, fel lehessen ragasztani.",
+	"biz_stickers_intro_c2": "Ingyen küldünk csomagot bármely amerikai vagy kanadai címre, vagy magad is kinyomtathatod a matricákat bárhol a világon.",
+	"biz_stickers_step_header": "Hogyan szeretnéd a matricáidat?",
+	"biz_stickers_step_description": "Ingyen csomagokat küldünk amerikai és kanadai címekre. A világ többi részén magad is kinyomtathatod a matricákat.",
+	"biz_stickers_option_usa": "🇺🇸 USA — ingyenes postázás",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — ingyenes postázás",
+	"biz_stickers_option_print": "🌍 Globális — saját nyomtatás",
+	"biz_stickers_print_header": "Nyomtasd ki a saját matricafájljaidat",
+	"biz_stickers_print_c1": "Bárhol is élsz a világon, magad is kinyomtathatod a „Bitcoin Accepted Here” matricáidat. Kattints a nyelvedre alább, hogy letöltsd a matricafájlokat és a nyomtatási útmutatót.",
+	"biz_stickers_request_header": "Nem látod a nyelvedet?",
+	"biz_stickers_request_c1": "Töltsd ki az alábbi űrlapot, hogy a saját nyelveden kérj „Bitcoin Accepted Here” matricafájlokat. Tudatjuk veled, amint elkészülnek.",
+	"biz_stickers_placeholder_translation1": "„Bitcoin Accepted Here” fordítása",
+	"biz_stickers_placeholder_translation2": "„Scan to learn why Bitcoin is good for business.” fordítása",
+	"stickers_request": "Igényeld az ingyenes matricáidat"
 }

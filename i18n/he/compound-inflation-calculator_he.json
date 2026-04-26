@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
 	"cic_header": "מחשבון אינפלציה מצטברת",
 	"cic_description": "השתמשו במחשבון האינפלציה המצטברת כדי לגלות בכמה המשכורת שלך צריכה לעלות כדי לעמוד בקצב האינפלציה.",
-	"what_can_i_do_about": "מה אפשר לעשות לגבי",
-	"what_can_i_do_about_2": "אינפלציה?",
-	"cic_inflation_cta": "צא מהאינפלציה עם ביטקוין"
+	"cic_hero_subtitle": "דע בכמה המשכורת שלך צריכה לעלות כדי לעמוד בקצב האינפלציה.",
+	"cic_calculator_heading": "חשב את פער האינפלציה שלך",
+	"cic_cta_label": "הצעד הבא",
+	"cic_inflation_cta": "צא מהאינפלציה עם ביטקוין",
+	"cic_next_learn_inflation": "למד איך אינפלציה עובדת",
+	"cic_next_explore_topics": "חקור עוד נושאים",
+	"cic_next_explore_topics_desc": "ראה איך ביטקוין קשור לכסף, חירות, אנרגיה ועוד.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — מדד מחירים לצרכן לכל הצרכנים העירוניים",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — אספקת כסף M1"
 }

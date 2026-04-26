@@ -3,11 +3,13 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin baik untuk bisnis",
-	"biz_header": "BITCOIN BAIK UNTUK BISNIS",
+	"business_hero_subtitle": "Terima pembayaran dengan biaya lebih rendah, dapatkan bayaran secara instan, dan jangkau jutaan pelanggan baru — tanpa kontrak dan tanpa biaya tersembunyi.",
+	"business_intro_c1": "Bitcoin memberi bisnis Anda cara yang lebih cepat, lebih murah, dan lebih privat untuk dibayar. Tanpa perantara. Tanpa chargeback. Tanpa kontrak. Hanya uang yang diselesaikan dalam hitungan detik, langsung dari pelanggan Anda kepada Anda.",
+	"business_intro_c2": "Di bawah ini adalah versi singkat mengapa Bitcoin baik untuk bisnis — dan di bawahnya, setiap sumber daya yang Anda butuhkan untuk mulai menerimanya hari ini.",
 	"biz_s1": "Biaya rendah tanpa minimum",
 	"biz_s1_c1": "Bitcoin memungkinkan Anda menerima pembayaran langsung dari pelanggan, seperti uang tunai. Jaringan Bitcoin beroperasi tanpa perantara seperti bank dan perusahaan kartu kredit yang mengenakan biaya tinggi.",
 	"biz_s2": "Penyelesaian instan",
@@ -18,5 +20,14 @@
 	"biz_s4": "Dapatkan lebih banyak pelanggan",
 	"biz_s4_c1": "Jutaan orang memiliki Bitcoin dan ingin membelanjakannya di tempat yang menerimanya.",
 	"biz_s4_c2": "Dengan hanya menerima Bitcoin, bisnis Anda dapat terdaftar di peta pedagang Bitcoin dan mendapatkan eksposur gratis ke pelanggan Bitcoin baru.",
-	"biz_s4_c3": "Menerima Bitcoin 100% gratis. Tidak ada kontrak atau biaya tersembunyi."
+	"biz_s4_c3": "Menerima Bitcoin 100% gratis. Tidak ada kontrak atau biaya tersembunyi.",
+	"business_resources_heading": "Semua yang Anda butuhkan untuk menerima Bitcoin",
+	"business_resources_intro": "Kerjakan sumber daya ini sesuai kecepatan Anda sendiri. Setiap satu adalah panduan singkat dan praktis.",
+	"biz_label_wallets": "DOMPET",
+	"biz_label_maps": "PETA PEDAGANG",
+	"biz_label_stickers": "STIKER",
+	"biz_label_rewards": "REWARDS",
+	"biz_label_accounting": "AKUNTANSI",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Terima Bitcoin di bisnis Anda untuk biaya lebih rendah, penyelesaian instan, tanpa chargeback, dan lebih banyak pelanggan."
 }

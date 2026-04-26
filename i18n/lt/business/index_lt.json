@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin yra naudingas verslui",
-	"biz_header": "BITCOIN YRA NAUDINGAS VERSLUI",
+	"business_hero_subtitle": "Priimkite mokėjimus su mažesniais mokesčiais, atsiskaitykite akimirksniu ir pasiekite milijonus naujų klientų — be sutarčių ir paslėptų išlaidų.",
+	"business_intro_c1": "Bitcoin suteikia jūsų verslui greitą, pigų ir privatų būdą priimti mokėjimus. Be tarpininkų. Be grąžinimų. Be netikėtų išlaidų. Pinigai per kelias sekundes, tiesiai iš kliento jums.",
+	"business_intro_c2": "Žemiau yra santrauka, kodėl Bitcoin yra naudingas verslui — o po ja yra visi įrankiai, kurių reikia, kad pradėtumėte jau šiandien.",
 	"biz_s1": "Maži mokesčiai be minimalių sumų",
 	"biz_s1_c1": "Bitcoin leidžia gauti mokėjimus tiesiogiai iš klientų, panašiai kaip grynaisiais. Bitcoin tinklas veikia be tarpininkų, tokių kaip bankai ir kredito kortių bendrovės, kurie ima didelius mokesčius.",
 	"biz_s2": "Momentinis atsiskaitymas",
@@ -18,5 +20,14 @@
 	"biz_s4": "Pritraukite daugiau klientų",
 	"biz_s4_c1": "Milijonai žmonių turi Bitcoin ir nori jį išleisti vietose, kurios jį priima.",
 	"biz_s4_c2": "Tiesiog priimdami Bitcoin, jūsų verslas gali būti įtrauktas į Bitcoin prekių žemėlapius ir gauti nemokamą matomą naujų Bitcoin klientų.",
-	"biz_s4_c3": "Bitcoin priėmimas yra 100% nemokamas. Jokių sutarčių ar paslėptų mokesčių."
+	"biz_s4_c3": "Bitcoin priėmimas yra 100% nemokamas. Jokių sutarčių ar paslėptų mokesčių.",
+	"business_resources_heading": "Viskas, ko reikia Bitcoin priimti",
+	"business_resources_intro": "Dirbkite savo tempu su šiais ištekliais. Kiekvienas yra trumpas, praktiškas vadovas.",
+	"biz_label_wallets": "Piniginės",
+	"biz_label_maps": "Prekybininkų žemėlapiai",
+	"biz_label_stickers": "Lipdukai",
+	"biz_label_rewards": "Atlygiai",
+	"biz_label_accounting": "Apskaita",
+	"biz_label_faq": "Dažniausiai užduodami klausimai",
+	"biz_meta_description": "Priimkite Bitcoin savo versle su mažesniais mokesčiais, momentiniu atsiskaitymu, be grąžinimų ir su prieiga prie daugiau klientų."
 }

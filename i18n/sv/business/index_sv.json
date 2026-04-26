@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin är bra för företag",
-	"biz_header": "BITCOIN ÄR BRA FÖR FÖRETAG",
+	"business_hero_subtitle": "Ta emot betalningar med lägre avgifter, få betalt direkt och nå miljontals nya kunder – utan kontrakt och utan dolda kostnader.",
+	"business_intro_c1": "Bitcoin ger ditt företag ett snabbare, billigare och mer privat sätt att få betalt. Inga mellanhänder. Inga återkrav. Inga kontrakt. Bara pengar som avvecklas på sekunder, direkt från dina kunder till dig.",
+	"business_intro_c2": "Nedan kommer kortversionen av varför Bitcoin är bra för företag – och därunder alla resurser du behöver för att börja ta emot det idag.",
 	"biz_s1": "Låga avgifter utan minimumbelopp",
 	"biz_s1_c1": "Bitcoin låter dig ta emot betalningar direkt från kunder, liknande kontanter. Bitcoin-nätverket fungerar utan mellanhänder som banker och kreditkortsföretag som tar ut höga avgifter.",
 	"biz_s2": "Omedelbar avräkning",
@@ -18,5 +20,14 @@
 	"biz_s4": "Få fler kunder",
 	"biz_s4_c1": "Miljontals människor äger Bitcoin och vill spendera det på platser som accepterar det.",
 	"biz_s4_c2": "Genom att helt enkelt acceptera Bitcoin kan ditt företag listas på kartor över Bitcoin-handlare och få gratis exponering för nya kunder.",
-	"biz_s4_c3": "Att acceptera Bitcoin är 100% gratis. Inga kontrakt eller dolda avgifter."
+	"biz_s4_c3": "Att acceptera Bitcoin är 100% gratis. Inga kontrakt eller dolda avgifter.",
+	"business_resources_heading": "Allt du behöver för att ta emot Bitcoin",
+	"business_resources_intro": "Gå igenom dessa resurser i din egen takt. Var och en är en kort, praktisk guide.",
+	"biz_label_wallets": "PLÅNBÖCKER",
+	"biz_label_maps": "HANDLARKARTOR",
+	"biz_label_stickers": "KLISTERMÄRKEN",
+	"biz_label_rewards": "BELÖNINGAR",
+	"biz_label_accounting": "BOKFÖRING",
+	"biz_label_faq": "VANLIGA FRÅGOR",
+	"biz_meta_description": "Ta emot Bitcoin i ditt företag för lägre avgifter, omedelbar avveckling, inga återkrav och fler kunder."
 }

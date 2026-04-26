@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
-	"sticker_success_details": "Rebràs els teus adhesius en 1 a 2 setmanes en un sobre blanc pla. Cada sobre inclou 3 adhesius. Si necessites més de 3 adhesius per al teu negoci, no dubtis a sol·licitar-ne un altre paquet!"
+	"biz_sticker_success_hero_title": "Els teus adhesius estan en camí 🎉",
+	"biz_sticker_success_hero_subtitle": "Rebràs els teus adhesius gratuïts \"Acceptem Bitcoin\" en 2-4 setmanes, en un sobre blanc senzill amb 3 adhesius dins.",
+	"biz_sticker_success_tips_header": "Bons llocs on enganxar els teus adhesius",
+	"biz_sticker_success_tip_1": "A la porta d'entrada o a la finestra, perquè els clients ho vegin abans d'entrar",
+	"biz_sticker_success_tip_2": "A prop del punt de caixa, de venda o de pagament",
+	"biz_sticker_success_tip_3": "Als menús, llistes de preus o pots de propines",
+	"biz_sticker_success_tip_4": "No els enganxis en llocs que no siguin teus o on no tinguis permís per fixar coses",
+	"biz_sticker_success_more_header": "Necessites més adhesius?",
+	"biz_sticker_success_more_c1": "Si 3 adhesius no són prou per al teu negoci, no dubtis a sol·licitar un altre paquet gratuït — o a fer una comanda a l'engròs de la mateixa impremta que fem servir nosaltres.",
+	"biz_sticker_success_btn_order_bulk": "Comprar a l'engròs",
+	"biz_sticker_success_btn_request_more": "Sol·licita un altre paquet gratuït"
 }

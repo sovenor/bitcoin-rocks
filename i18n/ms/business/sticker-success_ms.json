@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
-	"sticker_success_details": "Pelekat anda akan sampai dalam masa 1-2 minggu dalam sampul surat putih. Setiap sampul surat mengandungi 3 pelekat. Jika perniagaan anda memerlukan lebih daripada 3, minta pek lain!"
+	"biz_sticker_success_hero_title": "Pelekat anda dalam perjalanan 🎉",
+	"biz_sticker_success_hero_subtitle": "Anda akan menerima pelekat 'Bitcoin Diterima Di Sini' percuma anda dalam masa 2 hingga 4 minggu, dalam sampul putih kosong yang mengandungi 3 pelekat.",
+	"biz_sticker_success_tips_header": "Tempat yang baik untuk menampal pelekat anda",
+	"biz_sticker_success_tip_1": "Di pintu hadapan atau tingkap anda supaya pelanggan melihatnya sebelum mereka masuk",
+	"biz_sticker_success_tip_2": "Berhampiran daftar tunai, terminal POS, atau kawasan pembayaran anda",
+	"biz_sticker_success_tip_3": "Pada menu, senarai harga, atau balang tip",
+	"biz_sticker_success_tip_4": "Jangan tampalkan di tempat yang anda tidak miliki atau tidak diberi kebenaran",
+	"biz_sticker_success_more_header": "Perlukan lebih banyak pelekat?",
+	"biz_sticker_success_more_c1": "Jika 3 pelekat tidak mencukupi untuk perniagaan anda, sila minta pek percuma lain — atau pesan secara pukal daripada pencetak yang sama yang kami gunakan.",
+	"biz_sticker_success_btn_order_bulk": "Pesan secara pukal",
+	"biz_sticker_success_btn_request_more": "Minta pek percuma lain"
 }

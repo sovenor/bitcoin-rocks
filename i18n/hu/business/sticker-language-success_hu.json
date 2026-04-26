@@ -3,9 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
-	"biz_sticker_language_success_1": "Sikeresen megkaptuk a kérésedet.",
-	"biz_sticker_language_success_2": "Az új fájlokat kötegekben tesszük közzé, ezért több hétbe is telhet, mire elérhetők lesznek. Nézz vissza hamarosan!"
+	"biz_sticker_language_success_hero_title": "Kérés megérkezett 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Köszönjük, hogy a saját nyelveden kérted a „Bitcoin Accepted Here” matricafájlokat.",
+	"biz_sticker_language_success_timeline_header": "Mi következik",
+	"biz_sticker_language_success_timeline_c1": "A matricafájlokat a következő 3–4 hétben elkészítjük és közzétesszük. Amint elkészülnek, ingyen letöltheted és kinyomtathatod őket a matricafájlok oldalunkról.",
+	"biz_sticker_language_success_timeline_c2": "A matricafájlokat csoportosan tesszük közzé, így néhány hétbe telhet, mire a te nyelved élesedik. Köszönjük a türelmedet!"
 }

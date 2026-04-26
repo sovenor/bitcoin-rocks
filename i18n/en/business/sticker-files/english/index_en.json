@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "English 'Bitcoin Accepted Here' Sticker Files",
-	"english_biz_sticker_files_description": "Download English sticker files to print your own Bitcoin Accepted Here stickers.",
-	"english_header": "DOWNLOAD ENGLISH 'BITCOIN ACCEPTED HERE' STICKER FILES"
+	"english_biz_sticker_files_description": "Download English sticker files to print your own 'Bitcoin Accepted Here' stickers.",
+	"biz_stickers_english_hero_title": "Download English 'Bitcoin Accepted Here' sticker files",
+	"biz_stickers_english_hero_subtitle": "Print your own 'Bitcoin Accepted Here' stickers in English to let your customers know you accept Bitcoin."
 }

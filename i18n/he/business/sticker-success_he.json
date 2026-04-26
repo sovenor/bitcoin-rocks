@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
-	"sticker_success_details": "תקבלו את המדבקות תוך שבוע עד שבועיים במעטפה לבנה פשוטה. כל מעטפה מכילה 3 מדבקות. אם אתה צריך יותר מ-3 מדבקות לעסק, אתה יכול לבקש חבילה נוספת!"
+	"biz_sticker_success_hero_title": "המדבקות שלך בדרך 🎉",
+	"biz_sticker_success_hero_subtitle": "תקבל את המדבקות החינמיות שלך \"מקבלים כאן ביטקוין\" תוך 2-4 שבועות במעטפה לבנה פשוטה עם 3 מדבקות.",
+	"biz_sticker_success_tips_header": "מקומות טובים לשים מדבקה",
+	"biz_sticker_success_tip_1": "על דלת הכניסה הראשית או חלון הראווה שלך, כדי שלקוחות יראו את זה לפני שהם נכנסים",
+	"biz_sticker_success_tip_2": "ליד הקופה, מסוף התשלום או כל מקום שלקוחות משלמים בו",
+	"biz_sticker_success_tip_3": "על תפריטים, רשימות מחירים או קופסת הטיפ",
+	"biz_sticker_success_tip_4": "אל תשים מדבקות במקומות שאינם שלך או שאין לך רשות להדביק בהם",
+	"biz_sticker_success_more_header": "צריך עוד מדבקות?",
+	"biz_sticker_success_more_c1": "אם 3 מדבקות לא מספיק לעסק שלך, אתה חופשי לבקש עוד חבילה חינמית — או להזמין בכמות גדולה מאותה מדפסת שאנחנו משתמשים בה.",
+	"biz_sticker_success_btn_order_bulk": "הזמנה בכמות גדולה",
+	"biz_sticker_success_btn_request_more": "בקש חבילה חינמית נוספת"
 }

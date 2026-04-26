@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_accepted_here_stickers": "Nálepky Bitcoin přijímán",
-	"stickers_header": "ZÍSKEJTE BEZPLATNÉ NÁLEPKY 'BITCOIN PŘIJÍMÁN'",
-	"stickers_request": "Získejte bezplatné nálepky",
-	"stickers_request_details": "Dejte svým zákazníkům vědět, že přijímáte bitcoinové platby, pomocí těchto bezplatných nálepek 'Bitcoin přijímán'.",
-	"stickers_country_global_print": "Celosvětově — Vytisknu si vlastní nálepky",
-	"stickers_request_instructions": "Obdržíte tři nálepky 'Bitcoin přijímán' v obyčejné bílé obálce. Pokud potřebujete více než tři nálepky pro svou firmu, klidně si požádejte vícekrát. Údaje o adrese jsou smazány po odeslání bezplatných nálepek.",
-	"stickers_print_details": "Můžete si vytisknout vlastní nálepky 'Bitcoin přijímán', ať žijete kdekoli! Klikněte na svůj jazyk níže pro zobrazení souborů nálepek a pokynů.",
-	"stickers_request_language": "Nevidíte svůj jazyk? Vyplňte formulář níže a požádejte o soubory nálepek 'Bitcoin přijímán' ve vašem jazyce."
+	"biz_stickers_hero_title": "Samolepky „Zde přijímáme Bitcoin“ zdarma",
+	"biz_stickers_hero_subtitle": "Dejte zákazníkům vědět, že přijímáte Bitcoin. Objednejte si balíček samolepek „Zde přijímáme Bitcoin“ zdarma, abyste je vyvěsili ve své provozovně.",
+	"biz_stickers_intro_c1": "Přijímání Bitcoinu je jen polovina práce — vaši zákazníci také musí vědět, že ho přijímáte. Tyto malé samolepky „Zde přijímáme Bitcoin“ jsou navrženy tak, aby se daly nalepit na vaše vchodové dveře, pokladnu, menu nebo kamkoli, kde je zákazníci uvidí, než zaplatí.",
+	"biz_stickers_intro_c2": "Pošleme vám balíček zdarma kamkoli v USA nebo Kanadě, nebo si můžete vytisknout vlastní kdekoli na světě.",
+	"biz_stickers_step_header": "Jak si chcete samolepky pořídit?",
+	"biz_stickers_step_description": "Balíček zdarma pošleme na adresy v USA a Kanadě. Kdekoli jinde na světě si můžete vytisknout vlastní.",
+	"biz_stickers_option_usa": "🇺🇸 USA — zdarma poštou",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — zdarma poštou",
+	"biz_stickers_option_print": "🌍 Celosvětově — vytisknu si vlastní",
+	"biz_stickers_print_header": "Vytiskněte si vlastní soubory samolepek",
+	"biz_stickers_print_c1": "Vlastní samolepky „Zde přijímáme Bitcoin“ si můžete vytisknout bez ohledu na to, kde žijete. Klepnutím na svůj jazyk níže stáhnete soubory samolepek a pokyny k tisku.",
+	"biz_stickers_request_header": "Nevidíte svůj jazyk?",
+	"biz_stickers_request_c1": "Vyplňte formulář níže a vyžádejte si soubory samolepek „Zde přijímáme Bitcoin“ ve vašem místním jazyce. Dáme vám vědět, jakmile budou připraveny.",
+	"biz_stickers_placeholder_translation1": "Překlad fráze „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Překlad fráze „Scan to learn why Bitcoin is good for business.“",
+	"stickers_request": "Získejte bezplatné nálepky"
 }

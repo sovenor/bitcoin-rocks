@@ -3,9 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
-	"biz_sticker_success_1": "A \"Bitcoin elfogadóhely\" matricáidat 2-4 héten belül megkapod.",
-	"biz_sticker_success_2": "Addig is nézd meg a többi ingyenes üzleti erőforrásunkat!"
+	"biz_sticker_success_hero_title": "A matricáid úton vannak 🎉",
+	"biz_sticker_success_hero_subtitle": "Az ingyenes „Bitcoin Accepted Here” matricáid 2–4 héten belül megérkeznek egy egyszerű fehér borítékban 3 matricával.",
+	"biz_sticker_success_tips_header": "Jó helyek matricák ragasztásához",
+	"biz_sticker_success_tip_1": "A főbejárat vagy kirakat, hogy a vásárlók már belépés előtt lássák",
+	"biz_sticker_success_tip_2": "A pénztár, fizetési terminál mellett vagy bárhol, ahol a vásárlók fizetnek",
+	"biz_sticker_success_tip_3": "Az étlapon, árlistán vagy borravalóstálcán",
+	"biz_sticker_success_tip_4": "Ne ragaszd a matricákat olyan helyekre, amelyek nem a tieid vagy ahol nem megengedett",
+	"biz_sticker_success_more_header": "Több matricára van szükséged?",
+	"biz_sticker_success_more_c1": "Ha 3 matrica nem elég a vállalkozásodhoz, kérhetsz még egy ingyenes csomagot — vagy nagy tételben rendelhetsz attól a nyomdától, amelyet mi is használunk.",
+	"biz_sticker_success_btn_order_bulk": "Rendelj nagy tételben",
+	"biz_sticker_success_btn_request_more": "Kérj még egy ingyenes csomagot"
 }

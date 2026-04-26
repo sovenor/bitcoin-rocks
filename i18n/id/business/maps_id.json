@@ -3,11 +3,24 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Peta Pedagang Bitcoin - Daftarkan bisnis Anda secara gratis",
-	"maps_header": "DAFTARKAN BISNIS ANDA DI PETA PEDAGANG BITCOIN & DAPATKAN LEBIH BANYAK PELANGGAN",
-	"maps_request_details": "Masukkan informasi bisnis Anda di bawah ini, dan kami akan mendaftarkannya di peta pedagang Bitcoin secara gratis. Ini akan memungkinkan pengguna Bitcoin menemukan bisnis Anda dan membelanjakan Bitcoin mereka di tempat Anda!",
-	"maps_view": "Lihat peta di sini."
+	"maps_view": "Lihat peta di sini.",
+	"biz_maps_hero_title": "Daftarkan bisnis Anda di peta pedagang Bitcoin",
+	"biz_maps_hero_subtitle": "Daftarkan bisnis Anda gratis di BTC Map — direktori terbuka pedagang yang menerima Bitcoin di seluruh dunia — sehingga Bitcoiner di sekitar dapat menemukan Anda dan membelanjakan Bitcoin di bisnis Anda.",
+	"biz_maps_intro_c1": "Bitcoiner aktif mencari tempat untuk membelanjakan. Memasukkan bisnis Anda ke peta menempatkan Anda di hadapan setiap pengguna Bitcoin yang mencari tempat untuk makan, berbelanja, atau menginap di sekitar — tanpa biaya bagi Anda.",
+	"biz_maps_intro_c2": "Cukup isi formulir singkat di bawah ini dan kami akan mengirimkan bisnis Anda ke BTC Map dan peta pedagang Bitcoin lainnya untuk Anda.",
+	"biz_maps_view_map_cta": "Lihat BTC Map",
+	"biz_maps_form_header": "Beri tahu kami tentang bisnis Anda",
+	"biz_maps_form_intro": "Kami hanya membutuhkan beberapa detail untuk mendaftarkan Anda. Data alamat hanya disimpan cukup lama untuk mengirimkan bisnis Anda ke peta.",
+	"biz_maps_placeholder_name": "Nama bisnis",
+	"biz_maps_placeholder_category": "Kategori (mis. restoran, kafe, hotel)",
+	"biz_maps_placeholder_address": "Alamat jalan",
+	"biz_maps_placeholder_city": "Kota",
+	"biz_maps_placeholder_region": "Provinsi / Wilayah",
+	"biz_maps_placeholder_country": "Negara",
+	"biz_maps_placeholder_website": "Situs web (opsional)",
+	"biz_maps_meta_description": "Daftarkan bisnis Anda gratis di BTC Map dan peta pedagang Bitcoin lainnya sehingga Bitcoiner di sekitar dapat menemukan Anda."
 }

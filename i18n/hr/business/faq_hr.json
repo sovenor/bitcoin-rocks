@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Često postavljana pitanja o prihvaćanju Bitcoina",
 	"faq_description": "Imate pitanja o prihvaćanju Bitcoin plaćanja u vašem poslovanju?",
-	"faq_header": "IMATE PITANJA O PRIHVAĆANJU BITCOIN PLAĆANJA?",
+	"faq_hero_subtitle": "Kratki odgovori na pitanja koja trgovci najčešće postavljaju prije nego što počnu prihvaćati Bitcoin — naknade, namira, novčanici, povratne uplate, troškovi i još mnogo toga.",
+	"faq_intro_c1": "Kliknite na bilo koje pitanje u nastavku da biste vidjeli odgovor. Kad budete spremni prihvaćati Bitcoin, poslovni alati pri dnu stranice vodit će vas korak po korak.",
 	"faq_s1": "Što je Bitcoin?",
 	"faq_s1_c1": "Bitcoin su dvije stvari: digitalni novac i računalna mreža.",
 	"faq_s1_c2": "Možete slati bitcoin (digitalni novac) izravno drugim ljudima koristeći Bitcoin mrežu.",

@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"bitcoin_is_good_for_business": "Maganda ang Bitcoin para sa negosyo",
-	"biz_header": "MAGANDA ANG BITCOIN PARA SA NEGOSYO",
+	"business_hero_subtitle": "Tumanggap ng bayad nang may mas mababang fees, mag-settle sa ilang segundo, at maabot ang milyun-milyong bagong customer — walang mga kontrata at walang nakatagong gastos.",
+	"business_intro_c1": "Binibigyan ng bitcoin ang iyong negosyo ng mas mabilis, mas mura, at mas pribadong paraan para tanggapin ang mga bayad. Walang intermediary. Walang chargebacks. Walang mga kontrata. Pera lamang na nag-sesettle sa ilang segundo direkta mula sa iyong customer patungo sa iyo.",
+	"business_intro_c2": "Sa ibaba ay ang maikling bersyon kung bakit kapaki-pakinabang ang bitcoin para sa negosyo — at sa ibaba nito ay ang lahat ng mga tool na kailangan mo para simulan itong tanggapin ngayon.",
 	"biz_s1": "Mababang bayarin na walang minimum",
 	"biz_s1_c1": "Pinapahintulutan ka ng Bitcoin na tumanggap ng mga bayad nang direkta mula sa iyong mga customer, katulad ng cash. Ang Bitcoin network ay gumagana nang walang mga tagapamagitan tulad ng mga bangko at credit card company na kumukuha ng malalaking bayarin.",
 	"biz_s2": "Instant na settlement",
@@ -18,5 +20,14 @@
 	"biz_s4": "Kumuha ng mas maraming customer",
 	"biz_s4_c1": "Milyon-milyong tao ang nagmamay-ari ng Bitcoin at gustong gumastos ng kanilang Bitcoin sa mga lugar na tumatanggap nito.",
 	"biz_s4_c2": "Sa simpleng pagtanggap ng Bitcoin, ang iyong negosyo ay maaaring mailagay sa mga mapa ng Bitcoin merchant at makakuha ng libreng exposure sa mga bagong Bitcoin customer.",
-	"biz_s4_c3": "Ang pagtanggap ng Bitcoin ay 100% libre. Walang mga kontrata o nakatagong bayarin."
+	"biz_s4_c3": "Ang pagtanggap ng Bitcoin ay 100% libre. Walang mga kontrata o nakatagong bayarin.",
+	"business_resources_heading": "Lahat ng kailangan mo para tanggapin ang bitcoin",
+	"business_resources_intro": "Pagdaanan ang mga tool na ito sa sarili mong pace. Ang bawat isa ay isang maikling praktikal na gabay.",
+	"biz_label_wallets": "MGA WALLET",
+	"biz_label_maps": "MGA MERCHANT MAP",
+	"biz_label_stickers": "MGA STICKER",
+	"biz_label_rewards": "MGA GANTIMPALA",
+	"biz_label_accounting": "ACCOUNTING",
+	"biz_label_faq": "MADALAS NA TANONG",
+	"biz_meta_description": "Tumanggap ng bitcoin sa iyong negosyo nang may mas mababang fees, agarang settlement, walang chargebacks, at makakuha ng mas maraming customer."
 }

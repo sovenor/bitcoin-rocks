@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin tốt cho doanh nghiệp",
-	"biz_header": "BITCOIN TỐT CHO DOANH NGHIỆP",
+	"business_hero_subtitle": "Chấp nhận thanh toán với phí thấp hơn, được trả tiền ngay lập tức và tiếp cận hàng triệu khách hàng mới — không hợp đồng và không có chi phí ẩn.",
+	"business_intro_c1": "Bitcoin mang đến cho doanh nghiệp của bạn một cách thanh toán nhanh hơn, rẻ hơn và riêng tư hơn. Không trung gian. Không chargeback. Không hợp đồng. Chỉ là tiền được thanh toán trong vài giây, trực tiếp từ khách hàng đến bạn.",
+	"business_intro_c2": "Dưới đây là phiên bản ngắn gọn về lý do Bitcoin tốt cho doanh nghiệp — và bên dưới đó là mọi tài nguyên bạn cần để bắt đầu chấp nhận nó ngay hôm nay.",
 	"biz_s1": "Phí thấp không có mức tối thiểu",
 	"biz_s1_c1": "Bitcoin cho phép bạn nhận thanh toán trực tiếp từ khách hàng, giống như tiền mặt. Mạng Bitcoin hoạt động không cần trung gian như ngân hàng và công ty thẻ tín dụng thu phí cao.",
 	"biz_s2": "Thanh toán tức thì",
@@ -18,5 +20,14 @@
 	"biz_s4": "Thu hút thêm khách hàng",
 	"biz_s4_c1": "Hàng triệu người sở hữu Bitcoin và muốn chi tiêu Bitcoin tại những nơi chấp nhận.",
 	"biz_s4_c2": "Chỉ cần chấp nhận Bitcoin, doanh nghiệp của bạn có thể được liệt kê trên bản đồ thương nhân Bitcoin và tiếp cận miễn phí với khách hàng Bitcoin mới.",
-	"biz_s4_c3": "Chấp nhận Bitcoin hoàn toàn miễn phí. Không có hợp đồng hay phí ẩn."
+	"biz_s4_c3": "Chấp nhận Bitcoin hoàn toàn miễn phí. Không có hợp đồng hay phí ẩn.",
+	"business_resources_heading": "Mọi thứ bạn cần để chấp nhận Bitcoin",
+	"business_resources_intro": "Tham khảo các tài nguyên này theo nhịp độ của riêng bạn. Mỗi tài nguyên là một hướng dẫn ngắn, thực tế.",
+	"biz_label_wallets": "VÍ",
+	"biz_label_maps": "BẢN ĐỒ THƯƠNG NHÂN",
+	"biz_label_stickers": "NHÃN DÁN",
+	"biz_label_rewards": "PHẦN THƯỞNG",
+	"biz_label_accounting": "KẾ TOÁN",
+	"biz_label_faq": "CÂU HỎI THƯỜNG GẶP",
+	"biz_meta_description": "Chấp nhận Bitcoin tại doanh nghiệp của bạn để có phí thấp hơn, thanh toán tức thì, không có chargeback và thêm nhiều khách hàng."
 }

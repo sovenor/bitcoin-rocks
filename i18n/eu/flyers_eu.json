@@ -3,17 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"free_bitcoin_flyers": "Bitcoin liburuxka doakoak bitcoin.rocks-etik",
 	"flyers_description": "Inprimatu Bitcoin liburuxka bat etxean eta jarri leku publikoan zure ingurukoak orange pill egiteko.",
-	"flyers_header_1": "INPRIMATU ETA JARRI",
-	"flyers_header_2": "BITCOIN LIBURUXKAK",
-	"flyers_intro_header": "NOLA INPRIMATU ETA JARRI BITCOIN LIBURUXKA HAUEK",
+	"flyers_hero_title": "Inprimatu eta jarri Bitcoin esku-orriak",
+	"flyers_hero_subtitle": "Doako Bitcoin esku-orri inprimagarriak. Jarri toki publikoetan jende gehiagok Bitcoini buruz ikas dezan.",
+	"flyers_intro_header": "Nola inprimatu eta jarri Bitcoin esku-orri hauek",
 	"flyers_intro_c1": "Gure helburua jende gehiago orange pill egiten laguntzea da Bitcoin liburuxkak leku publikoetan jarriz. Liburuxka honek QR kode bat du gure",
 	"flyers_intro_c2": "Bitcoin hezkuntza webgunera.",
-	"flyers_intro_c3": "inflazioa",
 	"flyers_intro_c4": "Inprimatu liburuxka hau etxean edo inprimategi batean. Gero, jarri iragarki-tauletan, telefono-zutabeetan eta jendeak ikus dezakeen eta Bitcoin-i buruz ikas dezakeen beste leku publikoetan.",
 	"flyers_intro_c5": "Bitartean, eskatu gure",
 	"flyers_intro_c6": "doako Bitcoin eranskailu",
@@ -23,5 +22,7 @@
 	"flyers_share_header": "PARTEKATU ZURE LIBURUXKA LEKUAK",
 	"flyers_share_c1": "Partekatu zure liburuxka lekuak gurekin Nostr-en eta ikusi beste jendeak non jartzen dituen bere liburuxkak.",
 	"flyers_btn_share_on_nostr": "PARTEKATU NOSTR-EN",
-	"flyers_btn_what_is_nostr": "ZER DA NOSTR?"
+	"flyers_btn_what_is_nostr": "ZER DA NOSTR?",
+	"flyers_next_get_stickers": "Zabaldu mezua",
+	"flyers_next_get_stickers_desc": "Eskatu Bitcoin pegatina-pakete doakoa"
 }

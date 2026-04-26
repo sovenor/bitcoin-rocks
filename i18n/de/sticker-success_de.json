@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"sticker_success_1": "Du wirst deine Sticker innerhalb von 2 bis 4 Wochen erhalten. Während du wartest, überlege dir schon mal einen schönen Platz für deine Sticker!",
-	"sticker_success_2": "Gute Spots für Sticker sind:",
 	"sticker_success_list_1": "in der Öffentlichkeit, wo Menschen sie sehen können",
 	"sticker_success_list_2": "an Orten, die wahrscheinlich nicht so bald entfernt werden (die Sticker verursachen keine dauerhaften Schäden)",
 	"sticker_success_list_3": "auf Oberflächen, an denen sie leicht haften bleiben (Metall, Kunststoff, Glas)",
 	"sticker_success_list_4": "NICHT auf Privatgrundstücken, Hinweisschildern, Geldautomaten oder Zapfsäulen",
 	"sticker_success_3": "Möchtest du sehen, wo andere Leute ihre Sticker anbringen?",
-	"sticker_success_flyers_bar_new": "NEU!",
-	"sticker_success_flyers_bar_cta": "Bitcoin-Flyer drucken & aufhängen →"
+	"sticker_success_hero_title": "Deine Aufkleber sind unterwegs 🎉",
+	"sticker_success_tips_header": "Gute Orte für Aufkleber",
+	"sticker_success_share_header": "Teile, wo Du die Aufkleber angebracht hast",
+	"sticker_success_bulk_header": "Brauchst Du mehr Aufkleber?",
+	"sticker_success_btn_order_bulk": "In großen Mengen bestellen",
+	"sticker_success_btn_share_on_nostr": "Auf Nostr teilen",
+	"sticker_success_btn_what_is_nostr": "Was ist Nostr?"
 }

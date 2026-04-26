@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
-	"sticker_success_details": "Uzothola izitika zakho ngeviki eli-1 kuya kwama-2 ngemvilophu emhlophe. Imvilophu ngayinye ifaka izitika ezi-3. Uma udinga izitika ezingaphezu kwezi-3 zebhizinisi lakho, khululeka ucele elinye iphakethe!"
+	"biz_sticker_success_hero_title": "Izitika zakho ziseluhambeni 🎉",
+	"biz_sticker_success_hero_subtitle": "Uzothola izitika zakho zamahhala 'I-Bitcoin Yamukelwa Lapha' esikhathini esiphakathi kwamasonto angu-2 ne-4, emvilophu emhlophe enezitika ezi-3 ngaphakathi.",
+	"biz_sticker_success_tips_header": "Izindawo ezinhle zokufaka izitika zakho",
+	"biz_sticker_success_tip_1": "Emnyango wakho wangaphambili noma efasiteleni ukuze amakhasimende abone ngaphambi kokungena",
+	"biz_sticker_success_tip_2": "Eduze komshini wokukhokha, i-POS terminal, noma indawo yokukhokha",
+	"biz_sticker_success_tip_3": "Kumamenyu, kumalisti amanani, noma kuma-tip jars",
+	"biz_sticker_success_tip_4": "Ungazinameli endaweni ongayiphethe noma ongenayo imvume yokuzifaka",
+	"biz_sticker_success_more_header": "Udinga izitika ezengeziwe?",
+	"biz_sticker_success_more_c1": "Uma izitika ezi-3 zinganele ebhizinisini lakho, ungakhulula ucele elinye iphakethe lamahlala — noma u-oda ngobuningi kwiprinta efanayo esiyisebenzisayo.",
+	"biz_sticker_success_btn_order_bulk": "Oda ngobuningi",
+	"biz_sticker_success_btn_request_more": "Cela elinye iphakethe lamahhala"
 }

@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
-	"kit_success_1": "Uw bedrijf wordt binnen 1 tot 2 weken vermeld op de Bitcoin Merchant Maps.",
-	"kit_success_2": "Bekijk hier de kaart."
+	"biz_maps_success_hero_title": "Inzending ontvangen 🎉",
+	"biz_maps_success_hero_subtitle": "Bedankt voor het indienen van je bedrijf. We zetten je binnenkort op de Bitcoin-ondernemerskaarten.",
+	"biz_maps_success_timeline_header": "Wat er nu gebeurt",
+	"biz_maps_success_timeline_c1": "Je bedrijf wordt binnen 1 tot 2 weken op BTC Map en andere Bitcoin-ondernemersgidsen geplaatst. We controleren elke inzending handmatig om de kaarten nauwkeurig te houden.",
+	"biz_maps_success_timeline_c2": "Zodra je vermelding live is, vinden bitcoiners in je buurt je bedrijf en komen ze langs om Bitcoin uit te geven.",
+	"biz_maps_success_view_header": "Bekijk waar je verschijnt",
+	"biz_maps_success_view_c1": "Bekijk ondertussen BTC Map om het groeiende netwerk te zien van bedrijven wereldwijd die Bitcoin accepteren.",
+	"biz_maps_success_btn_view_map": "Bekijk BTC Map"
 }

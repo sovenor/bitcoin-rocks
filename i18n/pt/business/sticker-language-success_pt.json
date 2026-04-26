@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
-	"sticker_language_timeline": "Criaremos e publicaremos o teu ficheiro do autocolante no prazo de 3 a 4 semanas. Obrigado pela paciência!"
+	"biz_sticker_language_success_hero_title": "Pedido recebido 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Obrigado por solicitares ficheiros de autocolantes de «Aceita-se Bitcoin» na tua língua.",
+	"biz_sticker_language_success_timeline_header": "O que acontece a seguir",
+	"biz_sticker_language_success_timeline_c1": "Vamos criar e publicar os teus ficheiros de autocolantes em 3 a 4 semanas. Assim que estiverem prontos, podes descarregá-los e imprimi-los gratuitamente a partir da nossa página de ficheiros de autocolantes.",
+	"biz_sticker_language_success_timeline_c2": "Publicamos os ficheiros de autocolantes em lotes, por isso podem passar várias semanas até a tua língua ser ativada. Obrigado pela paciência!"
 }

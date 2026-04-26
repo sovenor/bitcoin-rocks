@@ -3,17 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"free_bitcoin_flyers": "Brezplačni bitcoinovi letaki od bitcoin.rocks",
 	"flyers_description": "Doma si natisnite bitcoinov letak in ga nalepite na javno mesto, da prepričate ljudi okoli vas.",
-	"flyers_header_1": "TISKAJTE IN LEPITE",
-	"flyers_header_2": "BITCOINOVE LETAKE",
-	"flyers_intro_header": "KAKO TISKATI IN LEPITI TE BITCOINOVE LETAKE",
+	"flyers_hero_title": "Tiskajte in razobešajte Bitcoin letake",
+	"flyers_hero_subtitle": "Brezplačni Bitcoin letaki za tisk. Razobesite jih na javnih mestih, da pomagate več ljudem izvedeti za Bitcoin.",
+	"flyers_intro_header": "Kako natisniti in razobesiti te Bitcoin letake",
 	"flyers_intro_c1": "Naše poslanstvo je pomagati vam prepričati več ljudi tako, da lepite bitcoinove letake na javna mesta. Ta letak ima QR kodo, ki vodi na našo",
 	"flyers_intro_c2": "izobraževalno bitcoinovo stran.",
-	"flyers_intro_c3": "inflaciji",
 	"flyers_intro_c4": "Natisnite ta letak doma ali v tiskarni. Nato ga nalepite na oglasne deske, telefonske drogove v mestu in druga javna mesta, kjer ga bodo ljudje videli in izvedeli o Bitcoinu.",
 	"flyers_intro_c5": "Medtem zaprosite za paket naših",
 	"flyers_intro_c6": "brezplačnih bitcoinovih nalepk",
@@ -23,5 +22,7 @@
 	"flyers_share_header": "DELITE SVOJE LOKACIJE Z LETAKI",
 	"flyers_share_c1": "Delite svoje lokacije z letaki z nami na Nostru in poglejte, kam drugi ljudje lepijo svoje letake.",
 	"flyers_btn_share_on_nostr": "DELI NA NOSTRU",
-	"flyers_btn_what_is_nostr": "KAJ JE NOSTR?"
+	"flyers_btn_what_is_nostr": "KAJ JE NOSTR?",
+	"flyers_next_get_stickers": "Širite vest",
+	"flyers_next_get_stickers_desc": "Naročite brezplačen paket Bitcoin nalepk"
 }

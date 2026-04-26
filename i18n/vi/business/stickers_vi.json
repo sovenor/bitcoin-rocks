@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"bitcoin_accepted_here_stickers": "Nhãn dán Chấp Nhận Bitcoin Tại Đây",
-	"stickers_header": "NHẬN NHÃN DÁN MIỄN PHÍ 'CHẤP NHẬN BITCOIN TẠI ĐÂY'",
-	"stickers_request": "Nhận nhãn dán miễn phí",
-	"stickers_request_details": "Thông báo cho khách hàng rằng bạn chấp nhận thanh toán Bitcoin với những nhãn dán miễn phí 'Chấp Nhận Bitcoin Tại Đây'.",
-	"stickers_country_global_print": "Toàn cầu — Tự in nhãn dán",
-	"stickers_request_instructions": "Bạn sẽ nhận được ba nhãn dán 'Chấp Nhận Bitcoin Tại Đây' trong phong bì trắng. Nếu bạn cần nhiều hơn ba nhãn dán cho doanh nghiệp, hãy yêu cầu nhiều lần. Dữ liệu địa chỉ được xóa sau khi nhãn dán miễn phí được gửi.",
-	"stickers_print_details": "Bạn có thể tự in nhãn dán 'Chấp Nhận Bitcoin Tại Đây', bất kể bạn sống ở đâu! Nhấp vào ngôn ngữ bên dưới để xem tập tin nhãn dán & hướng dẫn.",
-	"stickers_request_language": "Không thấy ngôn ngữ của bạn? Điền biểu mẫu bên dưới để yêu cầu tập tin nhãn dán 'Chấp Nhận Bitcoin Tại Đây' bằng ngôn ngữ địa phương."
+	"biz_stickers_hero_title": "Nhãn dán \"Bitcoin Accepted Here\" miễn phí",
+	"biz_stickers_hero_subtitle": "Hãy để khách hàng biết bạn chấp nhận Bitcoin. Đặt một gói nhãn dán \"Bitcoin Accepted Here\" miễn phí để dán tại doanh nghiệp của bạn.",
+	"biz_stickers_intro_c1": "Chấp nhận Bitcoin chỉ là một nửa công việc — khách hàng của bạn cũng cần biết rằng bạn chấp nhận. Những nhãn dán nhỏ \"Bitcoin Accepted Here\" này được thiết kế để dán trên cửa trước, quầy thanh toán, thực đơn hay bất cứ nơi nào khách hàng sẽ thấy trước khi họ thanh toán.",
+	"biz_stickers_intro_c2": "Chúng tôi sẽ gửi cho bạn một gói miễn phí ở bất cứ đâu tại Hoa Kỳ hoặc Canada, hoặc bạn có thể tự in ở bất cứ đâu trên thế giới.",
+	"biz_stickers_step_header": "Bạn muốn nhận nhãn dán bằng cách nào?",
+	"biz_stickers_step_description": "Chúng tôi sẽ gửi miễn phí một gói đến địa chỉ ở Hoa Kỳ và Canada. Ở bất cứ nơi nào khác trên thế giới, bạn có thể tự in.",
+	"biz_stickers_option_usa": "🇺🇸 Hoa Kỳ — Miễn phí qua thư",
+	"biz_stickers_option_canada": "🇨🇦 Canada — Miễn phí qua thư",
+	"biz_stickers_option_print": "🌍 Toàn cầu — Tự in",
+	"biz_stickers_print_header": "In tệp nhãn dán của riêng bạn",
+	"biz_stickers_print_c1": "Bạn có thể tự in nhãn dán \"Bitcoin Accepted Here\" của riêng mình, bất kể bạn sống ở đâu. Nhấp vào ngôn ngữ của bạn bên dưới để tải xuống các tệp nhãn dán và hướng dẫn in.",
+	"biz_stickers_request_header": "Không thấy ngôn ngữ của bạn?",
+	"biz_stickers_request_c1": "Điền vào biểu mẫu bên dưới để yêu cầu các tệp nhãn dán \"Bitcoin Accepted Here\" bằng ngôn ngữ địa phương của bạn. Chúng tôi sẽ thông báo khi chúng đã sẵn sàng.",
+	"biz_stickers_placeholder_translation1": "Bản dịch cho \"Bitcoin Accepted Here\"",
+	"biz_stickers_placeholder_translation2": "Bản dịch cho \"Quét để biết vì sao Bitcoin tốt cho doanh nghiệp.\"",
+	"stickers_request": "Nhận nhãn dán miễn phí"
 }

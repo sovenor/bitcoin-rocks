@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_sticker_files_all_languages": "Bitcoin Çıkartmaları: Tüm Diller",
 	"sticker_files_description": "Basit Bitcoin çıkartma dosyalarımızı indirin ve kendi çıkartmalarınızı basın.",
-	"sticker_files_header": "BİTCOİN ÇIKARTMA DOSYALARI"
+	"sticker_files_header": "Bu Bitcoin çıkartma dosyalarıyla kendi Bitcoin çıkartmalarını yazdır."
 }

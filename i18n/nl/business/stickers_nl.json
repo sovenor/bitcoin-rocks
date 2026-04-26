@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
-	"bitcoin_accepted_here_stickers": "Bitcoin Accepted Here stickers",
-	"stickers_header": "KRIJG UW GRATIS 'BITCOIN ACCEPTED HERE' STICKERS",
-	"stickers_request": "Krijg uw gratis stickers",
-	"stickers_request_details": "Laat uw klanten weten dat u Bitcoin-betalingen accepteert met deze gratis 'Bitcoin accepted here'-stickers.",
-	"stickers_country_global_print": "Wereldwijd — Mijn eigen stickers printen",
-	"stickers_request_instructions": "U ontvangt drie 'Bitcoin Accepted Here'-stickers in een effen witte envelop. Als u meer dan drie stickers voor uw bedrijf nodig hebt, kunt u gerust meerdere keren een aanvraag indienen. Adresgegevens worden verwijderd nadat uw gratis stickers zijn verzonden.",
-	"stickers_print_details": "U kunt uw eigen 'Bitcoin Accepted Here'-stickers printen, ongeacht waar u woont! Klik hieronder op uw taal om de stickerbestanden en instructies te bekijken.",
-	"stickers_request_language": "Staat uw taal er niet bij? Vul het onderstaande formulier in om 'Bitcoin Accepted Here'-stickerbestanden in uw lokale taal aan te vragen."
+	"bitcoin_accepted_here_stickers": "„Bitcoin geaccepteerd hier“-stickers",
+	"biz_stickers_hero_title": "Gratis „Bitcoin geaccepteerd hier“-stickers",
+	"biz_stickers_hero_subtitle": "Laat je klanten zien dat je Bitcoin accepteert. Bestel een gratis pakket „Bitcoin geaccepteerd hier“-stickers om in je bedrijf op te plakken.",
+	"biz_stickers_intro_c1": "Bitcoin accepteren is maar de helft — je klanten moeten ook weten dat je het aanneemt. Deze kleine „Bitcoin geaccepteerd hier“-stickers zijn bedoeld om op je voordeur, bij de kassa, op het menu of overal waar klanten ze zien voor het afrekenen, op te plakken.",
+	"biz_stickers_intro_c2": "We sturen je gratis een pakket overal in de VS of Canada, of je kunt wereldwijd je eigen exemplaren printen.",
+	"biz_stickers_step_header": "Hoe wil je je stickers ontvangen?",
+	"biz_stickers_step_description": "We sturen een gratis pakket naar adressen in de VS en Canada. Overal anders ter wereld kun je je eigen exemplaren printen.",
+	"biz_stickers_option_usa": "🇺🇸 VS — gratis per post",
+	"biz_stickers_option_canada": "🇨🇦 Canada — gratis per post",
+	"biz_stickers_option_print": "🌍 Wereldwijd — zelf printen",
+	"biz_stickers_print_header": "Print je eigen stickerbestanden",
+	"biz_stickers_print_c1": "Je kunt je eigen „Bitcoin geaccepteerd hier“-stickers printen, waar je ook woont. Tik hieronder op je taal om de stickerbestanden en printinstructies te downloaden.",
+	"biz_stickers_request_header": "Zie je je taal niet?",
+	"biz_stickers_request_c1": "Vul het formulier hieronder in om „Bitcoin geaccepteerd hier“-stickerbestanden aan te vragen in je lokale taal. We laten het je weten zodra ze klaar zijn.",
+	"biz_stickers_placeholder_translation1": "Vertaling van „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Vertaling van „Scan to learn why Bitcoin is good for business.“",
+	"stickers_request": "Krijg uw gratis stickers"
 }

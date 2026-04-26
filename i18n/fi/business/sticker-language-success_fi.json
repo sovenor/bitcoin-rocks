@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
-	"sticker_language_timeline": "Luomme ja julkaisemme tarratiedostosi 3–4 viikon kuluessa. Kiitos kärsivällisyydestäsi!"
+	"biz_sticker_language_success_hero_title": "Pyyntö vastaanotettu 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Kiitos, että pyysit ”Hyväksymme bitcoinin” -tarratiedostoja kielelläsi.",
+	"biz_sticker_language_success_timeline_header": "Mitä tapahtuu seuraavaksi",
+	"biz_sticker_language_success_timeline_c1": "Luomme ja julkaisemme tarratiedostosi 3–4 viikon sisällä. Kun ne ovat valmiit, voit ladata ne ilmaiseksi tarratiedostosivultamme ja tulostaa.",
+	"biz_sticker_language_success_timeline_c2": "Julkaisemme tarratiedostoja erissä, joten voi kestää useita viikkoja ennen kuin kielesi aktivoituu. Kiitos kärsivällisyydestäsi!"
 }

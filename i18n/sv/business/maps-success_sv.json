@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
-	"kit_success_1": "Ditt företag kommer att listas på kartor över Bitcoin-handlare inom 1 till 2 veckor.",
-	"kit_success_2": "Visa kartan här."
+	"biz_maps_success_hero_title": "Begäran mottagen 🎉",
+	"biz_maps_success_hero_subtitle": "Tack för att du skickade in ditt företag. Vi lägger upp dig på Bitcoin-handlarkartor inom kort.",
+	"biz_maps_success_timeline_header": "Vad händer härnäst",
+	"biz_maps_success_timeline_c1": "Ditt företag kommer att läggas upp på BTC Map och andra Bitcoin-handlarkataloger inom 1 till 2 veckor. Vi granskar varje inskickning manuellt för att hålla kartorna korrekta.",
+	"biz_maps_success_timeline_c2": "När din annons är publicerad kan Bitcoin-användare i närheten hitta ditt företag och komma och spendera Bitcoin där.",
+	"biz_maps_success_view_header": "Se var du kommer att synas",
+	"biz_maps_success_view_c1": "Medan du väntar kan du ta en titt på BTC Map och se det växande nätverket av företag som tar emot Bitcoin runt om i världen.",
+	"biz_maps_success_btn_view_map": "Visa BTC Map"
 }

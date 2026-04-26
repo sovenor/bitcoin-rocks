@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
-	"sticker_success_details": "Saat tarrasi 1–2 viikon kuluessa tavallisessa valkoisessa kirjekuoressa. Jokaisessa kirjekuoressa on 3 tarraa. Jos tarvitset yli 3 tarraa yrityksellesi, voit tilata toisen paketin!"
+	"biz_sticker_success_hero_title": "Tarrasi ovat matkalla 🎉",
+	"biz_sticker_success_hero_subtitle": "Saat ilmaiset ”Hyväksymme bitcoinin” -tarrasi 2–4 viikon sisällä yksinkertaisessa valkoisessa kirjekuoressa 3 tarran kera.",
+	"biz_sticker_success_tips_header": "Hyviä paikkoja tarrojen laittamiseen",
+	"biz_sticker_success_tip_1": "Pääoven tai näyteikkunan viereen, jotta asiakkaat näkevät sen ennen sisääntuloa",
+	"biz_sticker_success_tip_2": "Kassan lähelle, maksupäätteen viereen tai sinne, missä asiakkaat maksavat",
+	"biz_sticker_success_tip_3": "Ruokalistoille, hintalistoille tai tippipurkkiin",
+	"biz_sticker_success_tip_4": "Älä laita niitä paikkoihin, jotka eivät kuulu sinulle tai joihin sinulla ei ole lupaa laittaa tarroja",
+	"biz_sticker_success_more_header": "Tarvitsetko lisää tarroja?",
+	"biz_sticker_success_more_c1": "Jos 3 tarraa ei riitä yrityksellesi, voit rohkeasti pyytää vielä yhden ilmaisen pakkauksen — tai tilata suurerin samasta painotalosta, jota me käytämme.",
+	"biz_sticker_success_btn_order_bulk": "Tilaa suurerin",
+	"biz_sticker_success_btn_request_more": "Pyydä vielä yksi ilmainen pakkaus"
 }

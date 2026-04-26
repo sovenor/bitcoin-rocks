@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"bitcoin_accepted_here_stickers": "Naljepnice 'Bitcoin prihvaćen ovdje'",
-	"stickers_header": "NABAVITE BESPLATNE NALJEPNICE 'BITCOIN PRIHVAĆEN OVDJE'",
-	"stickers_request": "Nabavite besplatne naljepnice",
-	"stickers_request_details": "Obavijestite svoje kupce da prihvaćate Bitcoin plaćanja ovim besplatnim naljepnicama 'Bitcoin prihvaćen ovdje'.",
-	"stickers_country_global_print": "Globalno — Ispisat ću vlastite naljepnice",
-	"stickers_request_instructions": "Dobit ćete tri naljepnice 'Bitcoin prihvaćen ovdje' u običnoj bijeloj omotnici. Ako trebate više od tri naljepnice za svoje poslovanje, slobodno zatražite ponovno. Podaci o adresi se brišu nakon slanja besplatnih naljepnica.",
-	"stickers_print_details": "Možete ispisati vlastite naljepnice 'Bitcoin prihvaćen ovdje', bez obzira gdje živite! Kliknite na svoj jezik ispod za prikaz datoteka naljepnica i uputa.",
-	"stickers_request_language": "Ne vidite svoj jezik? Ispunite obrazac ispod za zahtjev datoteka naljepnica 'Bitcoin prihvaćen ovdje' na vašem jeziku."
+	"biz_stickers_hero_title": "Besplatne naljepnice „Bitcoin Accepted Here“",
+	"biz_stickers_hero_subtitle": "Recite svojim kupcima da prihvaćate Bitcoin. Zatražite paket besplatnih naljepnica „Bitcoin Accepted Here“ za svoj prostor.",
+	"biz_stickers_intro_c1": "Prihvaćanje Bitcoina samo je pola posla — vaši kupci to također moraju znati. Ove male naljepnice „Bitcoin Accepted Here“ dizajnirane su da ih zalijepite na glavni ulaz, blagajnu, jelovnik ili gdje god kupci plaćaju.",
+	"biz_stickers_intro_c2": "Šaljemo besplatan paket na bilo koju adresu u SAD-u ili Kanadi, ili možete sami tiskati naljepnice bilo gdje u svijetu.",
+	"biz_stickers_step_header": "Kako želite svoje naljepnice?",
+	"biz_stickers_step_description": "Šaljemo besplatne pakete na adrese u SAD-u i Kanadi. U ostalom dijelu svijeta možete sami tiskati naljepnice.",
+	"biz_stickers_option_usa": "🇺🇸 SAD — besplatna pošta",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — besplatna pošta",
+	"biz_stickers_option_print": "🌍 Globalno — sami tiskajte",
+	"biz_stickers_print_header": "Tiskajte vlastite datoteke naljepnica",
+	"biz_stickers_print_c1": "Bilo gdje u svijetu da živite, možete sami tiskati svoje naljepnice „Bitcoin Accepted Here“. Kliknite na svoj jezik u nastavku da preuzmete datoteke naljepnica i upute za tiskanje.",
+	"biz_stickers_request_header": "Ne vidite svoj jezik?",
+	"biz_stickers_request_c1": "Ispunite obrazac u nastavku da biste zatražili datoteke naljepnica „Bitcoin Accepted Here“ na svom lokalnom jeziku. Obavijestit ćemo vas kad budu spremne.",
+	"biz_stickers_placeholder_translation1": "Prijevod fraze „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Prijevod fraze „Scan to learn why Bitcoin is good for business.“",
+	"stickers_request": "Nabavite besplatne naljepnice"
 }

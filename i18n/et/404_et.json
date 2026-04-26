@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"404_title": "Viga 404 | Lehte ei leitud",
-	"404_message": "SEE KATKINE LEHT EI OLE LAHE",
-	"404_home": "TAGASI AVALEHELE"
+	"404_message": "Bitcoin on vinge, aga see katkine leht mitte.",
+	"404_home": "Tagasi avalehele",
+	"404_not_found_short": "Ei leitud"
 }

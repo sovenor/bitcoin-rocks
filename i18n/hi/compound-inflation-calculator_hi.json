@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "hi"
 	},
 	"cic_header": "चक्रवृद्धि मुद्रास्फीति कैलकुलेटर",
 	"cic_description": "इस चक्रवृद्धि मुद्रास्फीति कैलकुलेटर का उपयोग करके जानें कि मुद्रास्फीति के साथ बने रहने के लिए आपकी सैलरी को कितना बढ़ना चाहिए।",
-	"what_can_i_do_about": "मैं",
-	"what_can_i_do_about_2": "मुद्रास्फीति के बारे में क्या कर सकता हूँ?",
-	"cic_inflation_cta": "Bitcoin के साथ मुद्रास्फीति से बाहर निकलें"
+	"cic_hero_subtitle": "जानें मुद्रास्फीति की रफ़्तार से क़दम मिलाने के लिए आपके वेतन को कितना बढ़ना चाहिए।",
+	"cic_calculator_heading": "अपनी मुद्रास्फीति का अंतर निकालें",
+	"cic_cta_label": "अगला कदम",
+	"cic_inflation_cta": "Bitcoin के साथ मुद्रास्फीति से बाहर निकलें",
+	"cic_next_learn_inflation": "मुद्रास्फीति कैसे काम करती है, सीखें",
+	"cic_next_explore_topics": "और विषय खोजें",
+	"cic_next_explore_topics_desc": "देखें बिटकॉइन का पैसे, आज़ादी, ऊर्जा और बहुत कुछ से क्या नाता है।",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — सभी शहरी उपभोक्ताओं के लिए उपभोक्ता मूल्य सूचकांक",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 मनी सप्लाई"
 }

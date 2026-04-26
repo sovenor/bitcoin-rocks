@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"how_to_accept_bitcoin_payments": "Yadda za a karɓi biyan kuɗi na Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Wallets masu haɗe-haɗe:",
 	"wallets_intro_5": "Waɗannan suna ba ku damar canza kowane ɓangare na Bitcoin ɗinku zuwa daloli nan take lokacin da abokin ciniki ya biya maku. Kuɗin aiki har yanzu sun fi ƙanƙanta fiye da katin kuɗi, amma sun fi na biyan kuɗi na Bitcoin na gaske.",
 	"wallets_intro_6": "Iri biyu duka hanyoyi ne masu kyau na karɓar Bitcoin. Wallet ɗin da ya dace ya dogara da girman kasuwancinku da irinsa.",
-	"wallets_choice_sole": "wallets ga kasuwancin mutum ɗaya",
-	"wallets_choice_multiple": "wallets ga kasuwancin ma'aikata da yawa",
-	"wallets_choice_online": "wallets ga kasuwancin yanar gizo",
-	"wallets_choice_invoice": "wallets ga kasuwancin biya bayan aiki",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Ɗaukar nauyin kanka = 0% kuɗin aiki",
 	"wallets_feature_online_store": "Haɗin shagon yanar gizo",
 	"wallets_feature_invoicing": "Software na biya bayan aiki kyauta",
-	"wallets_get_wallet": "SAMI WALLET"
+	"wallets_get_wallet": "SAMI WALLET",
+	"wallets_hero_subtitle": "Walat na Bitcoin kyauta ne. Zaɓi wanda ya dace da kasuwancinka — a shago, akan layi ko ta hanyar biya — kuma fara karɓar Bitcoin a cikin minti ɗaya.",
+	"wallets_section_sole": "Walat ga kasuwanci na mutum ɗaya",
+	"wallets_section_sole_intro": "Idan kana gudanar da shago, kafe, ɗakin studio ko sabis kai kaɗai, kowane ɗayan waɗannan walat zai yi aiki. Zaɓi bisa ga ko kana son riƙe biyan kuɗi a Bitcoin ko canja ɓangare na kowane biyan ta atomatik zuwa kuɗin gida.",
+	"wallets_section_multiple": "Walat ga kasuwanci da ke da ƙungiyoyin ma'aikata",
+	"wallets_section_multiple_intro": "Idan kana da ƙungiya da ke yin sayarwa a wurin sayarwa, zaɓi walat da ke ɗaukar shiga ma'aikata da yawa — don kowane ma'aikaci yana da PIN ɗinsa kuma ka kiyaye rikodi mai bayyane na wanda ya karɓa kowane biyan.",
+	"wallets_section_online": "Walat ga kasuwanci akan layi",
+	"wallets_section_online_intro": "Kana sayarwa akan layi? Waɗannan walat suna haɗawa da shagonka akan layi kuma suna karɓar Bitcoin daga kowane abokin ciniki a duniya — babu dawowar katuna kuma babu buƙatar asusun ɗan kasuwa.",
+	"wallets_section_invoice": "Walat ga kasuwanci da ke aika biyan kuɗi ga abokan ciniki",
+	"wallets_section_invoice_intro": "Idan kana aika biyan kuɗi ga abokan ciniki (shawarwari, aiki kyauta, ayyukan B2B), yi amfani da walat da aka gina a kewayen biyan kuɗi. Abokin ciniki yana biyan biyan Bitcoin a cikin danna kaɗan.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business yana ba ka damar karɓar biyan Bitcoin da Lightning tare da kuɗi sifili da saitawa nan take. Yana goyan bayan biyan a shago, akan layi da ta hanyar biya, tare da canja atomatik zaɓi zuwa kuɗin gida.",
+	"sources_square": "Square — karɓi biyan kuɗi a Bitcoin",
+	"sources_breez_business": "Breez — walat na Lightning Bitcoin-kawai",
+	"sources_opennode": "OpenNode — mai sarrafa biyan kuɗin Bitcoin",
+	"sources_ibex": "IBEX — kayan aikin biyan kuɗi na Lightning",
+	"sources_zaprite": "Zaprite — biyan kuɗi a Bitcoin ga kasuwanci",
+	"biz_wallets_meta_description": "Duk walat na Bitcoin suna aiki tare — zaɓi wanda ya dace da kasuwancinka. Kyauta, saitawa nan take, babu dawowar katuna."
 }

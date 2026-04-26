@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin Baik untuk Perniagaan",
-	"biz_header": "BITCOIN BAIK UNTUK PERNIAGAAN",
+	"business_hero_subtitle": "Terima pembayaran dengan yuran lebih rendah, dapat dibayar serta-merta, dan jangkau berjuta-juta pelanggan baharu — tanpa kontrak dan tanpa kos tersembunyi.",
+	"business_intro_c1": "Bitcoin memberi perniagaan anda cara yang lebih cepat, lebih murah, dan lebih peribadi untuk dibayar. Tiada perantara. Tiada chargeback. Tiada kontrak. Hanya wang yang diselesaikan dalam beberapa saat, terus daripada pelanggan anda kepada anda.",
+	"business_intro_c2": "Di bawah ialah versi ringkas mengapa Bitcoin baik untuk perniagaan — dan di bawahnya, setiap sumber yang anda perlukan untuk mula menerimanya hari ini.",
 	"biz_s1": "Yuran rendah tanpa jumlah minimum",
 	"biz_s1_c1": "Dengan Bitcoin, anda menerima bayaran terus daripada pelanggan anda, sama seperti wang tunai. Rangkaian Bitcoin beroperasi tanpa perantara seperti bank atau syarikat kad kredit yang mengenakan yuran yang mahal.",
 	"biz_s2": "Penyelesaian serta-merta",
@@ -18,5 +20,14 @@
 	"biz_s4": "Dapatkan lebih ramai pelanggan",
 	"biz_s4_c1": "Berjuta-juta orang memiliki Bitcoin dan mahu membelanjakannya di tempat yang menerimanya.",
 	"biz_s4_c2": "Hanya dengan menerima Bitcoin, perniagaan anda akan disenaraikan di peta pedagang Bitcoin, memberikan anda pendedahan percuma kepada pelanggan Bitcoin baharu.",
-	"biz_s4_c3": "Menerima Bitcoin adalah 100% percuma. Tiada kontrak atau yuran tersembunyi."
+	"biz_s4_c3": "Menerima Bitcoin adalah 100% percuma. Tiada kontrak atau yuran tersembunyi.",
+	"business_resources_heading": "Semua yang anda perlukan untuk menerima Bitcoin",
+	"business_resources_intro": "Lalui sumber-sumber ini mengikut kelajuan anda sendiri. Setiap satu adalah panduan ringkas dan praktikal.",
+	"biz_label_wallets": "DOMPET",
+	"biz_label_maps": "PETA PENIAGA",
+	"biz_label_stickers": "PELEKAT",
+	"biz_label_rewards": "GANJARAN",
+	"biz_label_accounting": "PERAKAUNAN",
+	"biz_label_faq": "SOALAN LAZIM",
+	"biz_meta_description": "Terima Bitcoin di perniagaan anda untuk yuran lebih rendah, penyelesaian serta-merta, tanpa chargeback, dan lebih ramai pelanggan."
 }

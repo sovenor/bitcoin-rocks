@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_vs_cash": "Bitcoin pẹ̀lú Owó Ààmù",
-	"cash_header": "ÌYÀTỌ̀ LÁÀRÌN",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "ÀTI",
-	"cash_header_4": "OWÓ ÀÀMÙ",
 	"cash_intro_1": "A ti lo owó ààmù gégé bí owó fún ọ̀rùndún àti pé ó ṣì jẹ́ irú owó lárà tó wọ́pọ̀ jùlọ lágbàyé.",
 	"cash_intro_2": "Bitcoin jẹ́ owó oni-nọ́míbà tí a ṣẹ̀dá ní 2009 tí ó máa ń ṣiṣẹ́ lómìnìra kúrò nínú ìkálẹ̀ tàbí aláṣẹ ààrìn kaǹkaǹ.",
 	"cash_intro_3": "Ṣùgbọ́n báwo ni owó ààmù lárà ṣe yàtọ̀ sí owó oni-nọ́míbà bíí Bitcoin? Ẹ jẹ́ kí a ṣàwárí àwọn ìyàtọ̀ pàtàkì láàrìn irú owó méjì wọ̀nyí: Bitcoin & Owó Ààmù.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Nẹ́tíwọ́ọ̀kì aláìpín-ààrìn",
 	"bitcoin_point_6": "Ìṣàkoso-arà oni-nọ́míbà",
 	"bitcoin_point_7": "Ó rọ̀rùn láti pín",
-	"point_1_summary_1": "A lè fi Bitcoin ranṣẹ́ sí ibìkìbì lágbàyé lẹ́sẹ̀kẹ̀sẹ̀ lórí Intaneti, lakoko tí owó ààmù nílò wíwà lárà tàbí alárinà tí a gbékẹ̀lé. O kò lè fi ìmèèlì fi owó ààmù, ṣùgbọ́n o lè fi Bitcoin ranṣẹ́ sí ẹ̀níkaǹkan tó ní àṣọsì Intaneti ní iṣẹ́jú díẹ̀.",
-	"point_2_summary_1": "Bitcoin máa ń ṣiṣẹ́ bákan náà ní ibìkìbì lágbàyé - kò sí àlà nínú nẹ́tíwọ́ọ̀kì Bitcoin. Owó ààmù ní àlà àgbẹ̀gbẹ̀, iye pàṣípààrọ̀, àti gbígbà ag¹bègbè. Gbíyànjú láti lo dọ́là Amẹ́ríkà ní àwọn àgbẹ̀gbẹ̀ Thai tàbí yen Japáànù ní àgbẹ̀gbẹ̀ Mẹ́síkò.",
-	"point_3_summary_1": "Àwọn ìkálẹ̀ lè, wọn sì máa ń, pa owó ààmù tì lórú nípà àwọn òfìn ìfowó-yìgaga, bíí India ti ṣe ní 2016 nígbà tí wọn fi ofìn de àwọn ìwé-owó kan.",
-	"point_3_summary_2": "Pààpàà láì fi ofìn de àwọn ìwé-owó, àwọn ìkálẹ̀ máa ń din iye owó ààmù nígbàgbógbò nípà owó ṣíṣé.",
-	"point_3_summary_3": "A kò lè pa Bitcoin tì nípà ìkálẹ̀ tàbí aláṣẹ kaǹkaǹ - ó wà lórí nẹ́tíwọ́ọ̀kì aláìpín-ààrìn lágbàyé tí ẹ̀da kanṣoṣo kò lè ṣàkoso.",
-	"point_4_summary_1": "A lè dá èké owó ààmù, ó sì máa ń ṣòro láti mọ̀ àwọn ìwé-owó ìró láì ní èrọ pàtàkì. Pààpàà pẹ̀lú àwọn èṣò ààbò, èké owó ààmù ṣì ń kààkìrí. Bitcoin lo èrí cryptographic tó jẹ́ kí dídá èké rẹ̀ jẹ́ aìléṣe ní mathematics.",
-	"point_5_summary_1": "Àwọn ìkálẹ̀ ni ó máa ń ṣàjàdé àti ṣàkoso owó ààmù, wọn lè tẹ̀ díẹ̀ síì nígbà tí wọn bá fẹ́, yí àpẹẹrẹ padà, tàbí kèdè pé àwọn ìwé-owó kan kò wúlò mọ́. Bitcoin máa ń ṣiṣẹ́ lórí nẹ́tíwọ́ọ̀kì aláìpín-ààrìn tí aláṣẹ kanṣoṣo kò lè ṣàkoso ìpese owó tàbí àwọn ofìn.",
-	"point_6_summary_1": "A gbọ̀dọ̀ pamó́ owó ààmù lárà, èyí tó mú kí ó wà ní ewu olè, pàdánú, iná, tàbí gbage. Àwọn iye owó nlá nílò ààbò olówó.",
-	"point_6_summary_2": "Ṣùgbọ́n a lè pamó́ Bitcoin ní ààbò nínú ìṣàkoso-arà",
-	"point_6_summary_3": "nípà lílò àpù fóónù alagbékà tàbí àpò owó pàtàkì, èyí tó fún ọ ní àṣẹ kikun lórí owó rẹ láì ní ewu ìpàmó́ lárà.",
-	"point_7_summary_1": "Owó ààmù ní ìṣè̀lẹ̀ - o kò lè pín senti sí apá kékeré. A lè pín Bitcoin sí èké kékeré miliọ́nù 100 tí a ń pè ní satoshis, tó mú kí a lè ṣe àwọn ìsàn owó kékeré púpọ̀ àti iṣòwò tó pé ní iye kaǹkaǹ."
+	"point_1_summary_1": "Bitcoin ń lọ lórí ìntánẹ́ẹ̀tì níbi gbogbo láàárín ìṣẹ́jú díẹ̀. Owó ààmù nílò wíwà ní ti ara tàbí àwọn alámojúkùrò tí a gbẹ́kẹ̀lé — o kò lè fi ímeèlì rán owó dọ́là $20.",
+	"point_2_summary_1": "Bitcoin ń ṣiṣẹ́ ní ọ̀nà kan náà níbi gbogbo. Owó ààmù ní ààlà nípasẹ̀ ilẹ̀, iye ìparí, àti ìtẹ́wọ́gbà àdúgbò.",
+	"point_3_summary_1": "Àwọn ìjọba lè ṣe owó ààmù ní aláìwúlò ní alẹ́ kan ṣoṣo — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indíà</a> ṣe é ní 2016. Kódà láìní ìpa-iye, owó ààmù pàdánù iye sí",
+	"point_3_summary_2": "owó-ṣíṣẹ́.",
+	"point_3_summary_3": "Kò sí ìjọba tàbí àṣẹ tí ó lè sọ Bitcoin di aláìwúlò.",
+	"point_4_summary_1": "A lè kọ owó ààmù dáni tàbí lè ṣe é ní àwòkọ, nígbà mìíràn ní ọ̀nà tí ó dájú. Bitcoin lo cryptography tí ó sọ àwòkọ di aláìṣeéṣe ní ọ̀nà ìṣirò.",
+	"point_5_summary_1": "Bitcoin kò ní àṣẹ àárín. Àwọn ìjọba ń tẹ̀ owó ààmù tí wọ́n lè tẹ̀ síi, yí àpẹẹrẹ rẹ̀ padà, tàbí kí wọ́n sọ ọ́ di aláìwúlò ní àkókò tí wọ́n bá fẹ́.",
+	"point_6_summary_1": "Owó ààmù lè jẹ́ jíjí, jíjóná, sísọnù, àti ìgbà-pa. Bitcoin lè wà ní ààbò pẹ̀lú",
+	"point_6_summary_2": "ìṣàkóso-ara",
+	"point_6_summary_3": "lórí ẹ̀rọ ìbánisọ̀rọ̀ tàbí ohun-èlò amúnaláti.",
+	"point_7_summary_1": "Bitcoin pin sí 100 mílíọ̀nù sats, tí ó ṣe àwọn ìsanwó kéré-kéré ti ìwọ̀n èyíkéyìí. Owó ààmù ní àwọn iye tí ó kéré jùlọ — o kò lè pin pení kan.",
+	"hero_title": "Iyàtọ̀ láàárín <span class=\"orange\">Bitcoin</span> àti <span class=\"asset\">Owó Ààmù</span>"
 }

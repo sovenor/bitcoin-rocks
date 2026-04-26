@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
-	"sticker_success_details": "Recibirás tus pegatinas en 1 o 2 semanas en un sobre blanco normal. Cada sobre incluye 3 pegatinas. Si necesitas más de 3 pegatinas para tu negocio, ¡no dudes en solicitar otro paquete!"
+	"biz_sticker_success_hero_title": "Tus pegatinas están en camino 🎉",
+	"biz_sticker_success_hero_subtitle": "Recibirás tus pegatinas gratuitas de «Se acepta Bitcoin aquí» en 2 a 4 semanas en un sobre blanco sencillo con 3 pegatinas.",
+	"biz_sticker_success_tips_header": "Buenos lugares para poner tus pegatinas",
+	"biz_sticker_success_tip_1": "En tu puerta o escaparate principal, para que los clientes las vean antes de entrar",
+	"biz_sticker_success_tip_2": "Cerca de la caja, en el terminal de pago o donde los clientes paguen",
+	"biz_sticker_success_tip_3": "En menús, listas de precios o botes de propina",
+	"biz_sticker_success_tip_4": "No las pongas en lugares que no te pertenezcan o donde no tengas permiso para pegar pegatinas",
+	"biz_sticker_success_more_header": "¿Necesitas más pegatinas?",
+	"biz_sticker_success_more_c1": "Si 3 pegatinas no son suficientes para tu empresa, no dudes en solicitar otro paquete gratis — o pide al por mayor a la misma imprenta que usamos nosotros.",
+	"biz_sticker_success_btn_order_bulk": "Pedir al por mayor",
+	"biz_sticker_success_btn_request_more": "Solicitar otro paquete gratis"
 }

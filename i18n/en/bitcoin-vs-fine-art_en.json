@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Fine Art",
-	"fine_art_header": "THE DIFFERENCE BETWEEN",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "AND",
-	"fine_art_header_4": "FINE ART",
 	"fine_art_intro_1": "Fine art has been a luxury investment for centuries and is often seen as a store of value by wealthy collectors.",
 	"fine_art_intro_2": "Bitcoin is digital money that is also seen by many as a store of value and investment.",
 	"fine_art_intro_3": "But how does physical artwork differ from digital money like Bitcoin? Let's take a look at the differences between two forms of investment: Bitcoin & Fine Art.",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Cryptographically verifiable",
 	"bitcoin_point_6": "Difficult to destroy",
 	"bitcoin_point_7": "Accessible to everyone",
-	"point_1_summary_1": "Bitcoin is perfectly fungible, meaning every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Fine art is non-fungible by nature, with each piece being unique in its creation, history, condition, and provenance, making direct comparisons and valuations extremely difficult.",
-	"point_2_summary_1": "Bitcoin trades on a global 24/7 market where anyone with internet access can buy or sell instantly. Fine art requires specialized auction houses like Sotheby's or Christie's, private dealers, or exclusive galleries. Sales can take months to arrange and complete, with limited market access and irregular trading opportunities.",
-	"point_3_summary_1": "Buying or selling bitcoin typically costs less than 1% in fees, often much less. Fine art sales involve substantial costs including buyer's premiums (10-25%), seller's commissions (10-15%), insurance, transportation, storage, and authentication fees. These combined costs can easily exceed 30-40% of the artwork's value in a single transaction.",
-	"point_4_summary_1": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size from microtransactions to large purchases. Fine art cannot be divided - you cannot own a fraction of a painting or sell just part of a sculpture. This indivisibility limits investment flexibility and liquidity options.",
-	"point_5_summary_1": "Bitcoin ownership and authenticity can be cryptographically verified on the blockchain by anyone with basic technical knowledge. Fine art requires expensive expert authentication, provenance research, and scientific analysis. Even with expert verification, forgeries regularly fool the art world, and authentication disputes can destroy an artwork's value overnight. Bitcoin, on the other hand, cannot be forged or counterfeited.",
-	"point_6_summary_1": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, theft, or other disasters. Fine art is vulnerable to all forms of physical destruction and deterioration. Even with expensive climate-controlled storage and comprehensive insurance, artworks can be damaged by environmental factors, accidents, or natural disasters, potentially losing all value.",
-	"point_7_summary_1": "Bitcoin can be bought and sold by anyone with internet access and a small amount of money to invest. Fine art investment is largely limited to wealthy collectors due to high minimum prices, exclusive auction access, storage requirements, insurance costs, and the specialized knowledge needed to navigate the art market successfully."
+	"point_1_summary_1": "Every bitcoin is identical and interchangeable. Every artwork is unique — different creation, history, condition, and provenance make direct comparisons extremely difficult.",
+	"point_2_summary_1": "Bitcoin trades 24/7 on a global market accessible to anyone. Fine art requires specialized auction houses, private dealers, or galleries and can take months to sell.",
+	"point_3_summary_1": "Buying or selling Bitcoin costs under 1% in fees, often much less. Art sales rack up 30–40% in buyer's premiums, commissions, insurance, transport, and authentication fees.",
+	"point_4_summary_1": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture without counterparty risk.",
+	"point_5_summary_1": "Bitcoin ownership and authenticity can be cryptographically verified by anyone on-chain. Art authentication is expensive, slow, and still routinely fooled by forgers — destroying an artwork's value overnight.",
+	"point_6_summary_1": "Bitcoin, backed up properly, survives floods, fires, earthquakes, and theft. Fine art is vulnerable to every form of physical destruction, and insurance rarely covers it all.",
+	"point_7_summary_1": "Anyone with an internet connection and a little money can buy Bitcoin. Fine art investment is effectively limited to wealthy collectors with auction access and specialized knowledge.",
+	"hero_title": "The difference between <span class=\"orange\">Bitcoin</span> and <span class=\"asset\">Fine Art</span>"
 }

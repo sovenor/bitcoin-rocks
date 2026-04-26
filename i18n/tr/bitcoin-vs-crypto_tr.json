@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_crypto": "Bitcoin ve Kripto",
-	"crypto_header": "ARADAKI FARK",
-	"crypto_header_2": "BİTCOİN",
-	"crypto_header_3": "VE",
-	"crypto_header_4": "KRİPTO",
 	"crypto_intro_1": "Kripto para alanı binlerce farklı dijital token ve projeyle patladı.",
 	"crypto_intro_2": "Bitcoin ilk ve en tanınmış kripto para olsa da, kripto endüstrisinin geri kalanından temelden farklıdır.",
 	"crypto_intro_3": "Bitcoin ile daha geniş kripto para ekosistemi arasındaki temel farklara bakalım.",
@@ -32,12 +28,13 @@
 	"bitcoin_point_6": "Saf dijital para",
 	"bitcoin_point_7": "Antifrajil",
 	"bitcoin_point_8": "Hiçbir varlık kontrol etmez",
-	"point_1_summary_1": "Bitcoin protokolü 2009'dan bu yana özünde değişmeden kalmıştır ve kolayca değiştirilemeyen öngörülebilir kurallar sağlar. Çoğu kripto projesi protokollerini sık sık günceller, token ekonomisini değiştirir veya yeni sürümlere çatallanır, bu da kullanıcılar için belirsizlik yaratır.",
-	"point_2_summary_1": "Bitcoin dünya genelinde on binlerce bağımsız düğüme sahip gerçekten merkeziyetsiz bir ağda çalışır. Birçok kripto projesi, protokolün geleceği hakkında tek taraflı kararlar alabilen vakıflar, şirketler veya küçük geliştirici grupları tarafından kontrol edilir.",
-	"point_3_summary_1": "Bitcoin'in şimdiye kadar var olacak en fazla 21 milyon coin'lik sabit bir üst sınırı vardır ve onu en nadir dijital varlık yapar. Çoğu kripto projesinin sınırsız arzı, enflasyonist mekanizmaları veya istediği zaman yeni token basma imkanı vardır ve sahiplerin değerini zamanla sulandırır.",
-	"point_4_summary_1": "Bitcoin'in tek bir basit amacı vardır: eşler arası dijital para. Herkes temel bilgiyle anlayabilir ve kullanabilir. Birçok kripto projesi, güvenle kullanmak için teknik uzmanlık gerektiren karmaşık akıllı sözleşmeler, DeFi protokolleri veya yönetim mekanizmaları içerir.",
-	"point_5_summary_1": "Bitcoin, ana ağa tek bir başarılı saldırı olmadan 15 yılı aşkın süredir savaşta test edilmiş iş ispatı uzlaşmasını kullanır. Birçok kripto projesi, uzun vadeli güvenliğini henüz kanıtlamamış hisse ispatı veya delegeli sistemler gibi deneysel uzlaşma mekanizmaları kullanır.",
-	"point_6_summary_1": "Bitcoin dijital para olarak hizmet eder — bir değer saklama aracı ve değişim aracı. Çoğu kripto token'ı belirli platformlar için yardımcı token'lar, yönetim token'ları veya belirsiz değer önermelerine sahip spekülatif varlıklardır.",
-	"point_7_summary_1": "Bitcoin saldırı altında daha güçlü hale gelir ve kendisine yöneltilen her kriz, yasak ve eleştiriden sağ çıkmıştır. Çoğu kripto projesi kırılgandır ve düzenleyici baskı, teknik hatalar veya piyasa çöküşleri altında çökebilir.",
-	"point_8_summary_1": "Bitcoin'in CEO'su yoktur, arkasında şirket yoktur ve tek bir başarısızlık noktası yoktur. Birçok kripto projesi risk sermayesi şirketleri tarafından desteklenir, tanınabilir liderliğe sahiptir veya devam eden operasyonları için belirli şirketlere bağımlıdır."
+	"point_1_summary_1": "Bitcoin protokolü 2009'dan beri temelde aynı kaldı; bu da öngörülebilir kurallar sunar. Çoğu kripto projesi protokollerini, tokenomiklerini sürekli değiştirir ya da yeni sürümlere çatallanır.",
+	"point_2_summary_1": "Bitcoin, dünya genelinde on binlerce bağımsız düğüm üzerinde çalışır. Çoğu kripto projesi, tek taraflı değişiklikler yapabilen vakıflar, şirketler ya da küçük geliştirici ekipleri tarafından kontrol edilir.",
+	"point_3_summary_1": "Bitcoin'in 21 milyon coinlik kesin bir tavanı vardır — en nadir dijital varlık. Çoğu kripto projesinin arzı sınırsızdır ya da istedikleri zaman yeni token basacak mekanizmaları vardır; bu da sahipleri sulandırır.",
+	"point_4_summary_1": "Bitcoin'in tek bir amacı vardır: eşler arası dijital para. Herkes onu anlayıp kullanabilir. Çoğu kriptoda güvenli kullanmak için teknik uzmanlık gerektiren karmaşık akıllı sözleşmeler ya da DeFi yer alır.",
+	"point_5_summary_1": "Bitcoin'in İş Kanıtı (Proof of Work) ana ağı 15 yıldan uzun süredir başarılı bir saldırıya uğramadan çalıştı. Çoğu kripto projesi, kendini kanıtlamamış deneysel uzlaşı yöntemleri kullanır.",
+	"point_6_summary_1": "Bitcoin dijital paradır — bir değer saklama aracı ve değişim aracıdır. Çoğu kripto token, gerçek dünya değeri belirsiz olan spekülatif yarar ya da yönetişim tokenıdır.",
+	"point_7_summary_1": "Bitcoin saldırı altında daha da güçlenir ve her krizden, yasaktan ve eleştiriden sağ çıktı. Çoğu kripto projesi düzenleyici, teknik ya da piyasa baskısı altında çöker.",
+	"point_8_summary_1": "Bitcoin'in CEO'su yoktur, şirketi yoktur, tek bir kırılma noktası yoktur. Çoğu kripto projesi VC'lere, belirli liderlere ya da tek bir şirketin ayakta kalmasına bağlıdır.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Kripto</span> arasındaki fark"
 }

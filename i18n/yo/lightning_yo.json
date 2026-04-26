@@ -1,20 +1,21 @@
 {
 	"@metadata": {
-		"@metadata": {
-			"authors": [
-				"Satoshi"
-			],
-			"last-updated": "2026-04-12",
-			"locale": "yo"
-		}
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-25",
+		"locale": "yo"
 	},
 	"bitcoin_lightning_wallet_guide": "Àmò̀nà Àpò Owó Bitcoin Lightning",
 	"lightning_description": "Àwọn àpò owó Lightning gba ọ láàyè láti fi Bitcoin ranṣẹ́ ní kìyà àti pẹ̀lú owó tó kéré lakoko tí o ṣì mú òmìnìra rẹ duro.",
 	"lightning_header": "ÀMÒ̀NÀ ÀPÒ OWÓ LIGHTNING",
+	"lightning_header_subtitle": "Lightning jẹ́ kí o rán Bitcoin nínú ìṣẹ́jú díẹ̀ pẹ̀lú ìpín kéré ti pení — yan àpò tí àwọn ìpinnu rẹ̀ bá iye Bitcoin tí o pinnu láti ná mu.",
 	"lightning_s1_c1": "Lightning gba ọ láàyè láti fi ìsàn owó Bitcoin ranṣẹ́ ní kìyà àti pẹ̀lú owó tó kéré.",
 	"lightning_s1_c2": "Ó ṣe pàtàkì láti mọ̀ pé lílò Lightning wà pẹ̀lú àwọn ìparọ̀. Ni parọ ìsàn owó Bitcoin yárá tó kéré, o máa ń fi apá ààbò silẹ̀.",
 	"lightning_s1_c3": "Ní gbogbògbò, a gbọ̀dọ̀ lo Lightning pẹ̀lú iye bitcoin tó kéré níkan. O gbọ̀dọ̀ fi iye nlá bitcoin pamó́ nínú àpò owó hardware níkan.",
-	"lightning_s1_c4": "Ṣàyẹ̀wò Àmò̀nà Àpò Owó Hardware wa fún àlàyé díẹ̀ síì.",
+	"lightning_s1_c4": "Wo wa",
+	"lightning_s1_c4_link": "Ìtọ́sọ́nà Àpò Ohun-èlò Bitcoin",
+	"lightning_s1_c4_end": "fún àlàyé síi.",
 	"lightning_s1_c5": "Kìí ṣe gbogbo àpò owó Lightning ni ó jọ̀rà. O lè mọ̀ èyí tó ní ìparọ̀ tó tó fún ọ nípà bíbèèrè ìbèèrè kanṣoṣo:",
 	"lightning_question_1": "ÌPARỌ̀ WO NI Ó TÓ FÚN MI?",
 	"lightning_s2_c1": "Ọ̀kaǹ nínú àwọn ìṣẹ̀dá tuntun Bitcoin ni agbára láti fi í pamó́ láì gbékẹ̀lé olùṣọ́, bíí ilé-ìfòwópàmó́. Àwọn àpò owó ìṣàkoso-arà ṣí agbára kikun Bitcoin.",
@@ -26,18 +27,20 @@
 	"lightning_s3_c2": "Àwọn àpò owó wọ̀nyí dàbí ètò ilé-ìfòwópàmó́ tí o gbọ̀dọ̀ gbékẹ̀lé ẹ̀léekẹ́ta láti fún ọ ní iràyè sí owó rẹ.",
 	"lightning_s3_c3": "Àwọn àpò owó olùṣọ́ lè dàbí pé ó rọ̀rùn, ṣùgbọ́n olùṣọ́ ní agbára imọ̀-ẹ̀rọ̀ láti jí gbogbo owó olùmúlò ní àkókó kaǹkaǹ.",
 	"lightning_s3_c4": "Àwọn ènìyàn kan fẹ́ràn àwọn àpò owó Lightning olùṣọ́ fún iye bitcoin kékeré nítórí ìrọ̀rùn lílò wọn. Kàn ranti: kò ṣe kókóró rẹ, kò ṣe owó rẹ!",
-	"lightning_question_2": "YAN ÀPÒ OWÓ RẸ",
-	"lightning_s4_c1": "Pẹ̀lú gbogbo èyí lókàn, o lè yan àpò owó lightning tó ní ìparọ̀ tó tó fún ọ.",
+	"lightning_grid_heading": "Àwọn àpò Lightning gbajúmọ̀",
 	"phoenix": "PHOENIX",
 	"breez": "BREEZ",
-	"mutiny_wallet": "MUTINY WALLET",
 	"wallet_of_satoshi": "WALLET OF SATOSHI",
 	"lightning_features": "Àbùdá púpọ̀",
 	"lightning_mobile_app": "Àpù alagbékà",
 	"lightning_free": "Òfẹ́ẹ́ 100%",
 	"lightning_merchants": "Ó dára fún àwọn olutà",
-	"lightning_starter": "Àpò owó àkọ́kó́ tó dára",
-	"lightning_browser": "Da lórí awo-irinajò",
 	"lightning_custodial": "Àpò owó olùṣọ́ kikun",
-	"lightning_cta_hardware": "Ṣé o ń wá Àmò̀nà Àpò Owó Hardware Bitcoin wa?"
+	"lightning_cta_hardware": "Ṣé o ń wá Àmò̀nà Àpò Owó Hardware Bitcoin wa?",
+	"lightning_hardware_cta_label": "Àwọn àpò ohun-èlò",
+	"sources_lightning_paper": "Joseph Poon & Thaddeus Dryja — The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments (2016)",
+	"sources_acinq_phoenix": "ACINQ — Àpò Lightning Phoenix",
+	"sources_breez_lightning": "Breez — Àpò Lightning oníṣàkóso-ara",
+	"sources_wallet_of_satoshi": "Wallet of Satoshi — Àpò Lightning olùdúró",
+	"sources_lightning_labs": "Lightning Labs — Àkọsílẹ̀ Lightning Network"
 }

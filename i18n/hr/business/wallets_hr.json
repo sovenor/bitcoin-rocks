@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"how_to_accept_bitcoin_payments": "Kako prihvaćati Bitcoin plaćanja",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibridni novčanici:",
 	"wallets_intro_5": "Oni vam omogućuju zamjenu bilo kojeg dijela Bitcoina za dolare čim vam kupac plati. Naknade su i dalje niže od plaćanja kreditnim karticama, ali veće od čistih Bitcoin plaćanja.",
 	"wallets_intro_6": "Obje vrste su sjajni načini prihvaćanja Bitcoina. Konkretni novčanik koji ćete koristiti ovisit će o veličini i vrsti vašeg poslovanja.",
-	"wallets_choice_sole": "novčanici za individualno vođena poslovanja",
-	"wallets_choice_multiple": "novčanici za poslovanja s više zaposlenika",
-	"wallets_choice_online": "novčanici za online poslovanja",
-	"wallets_choice_invoice": "novčanici za poslovanja s fakturiranjem",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Vlastiti hosting = 0% naknada",
 	"wallets_feature_online_store": "Integracija web trgovine",
 	"wallets_feature_invoicing": "Besplatni softver za fakturiranje",
-	"wallets_get_wallet": "NABAVI NOVČANIK"
+	"wallets_get_wallet": "NABAVI NOVČANIK",
+	"wallets_hero_subtitle": "Bitcoin novčanici su besplatni. Odaberite najbolji za svoje poduzeće — uživo, online ili putem računa — i počnite prihvaćati Bitcoin u nekoliko minuta.",
+	"wallets_section_sole": "Novčanici za samostalne trgovce",
+	"wallets_section_sole_intro": "Ako vodite trgovinu, kafić, studio ili uslugu sami, bilo koji od ovih novčanika prikladan je za vas. Odaberite hoćete li zadržati Bitcoin ili automatski pretvoriti dio svake uplate u lokalnu valutu.",
+	"wallets_section_multiple": "Novčanici za poduzeća s više zaposlenika",
+	"wallets_section_multiple_intro": "Ako vaš tim prima plaćanja na blagajni, odaberite novčanik koji podržava prijave više zaposlenika — kako bi svaki zaposlenik imao svoj kod i mogli ste pratiti tko je primio koje plaćanje.",
+	"wallets_section_online": "Novčanici za internetska poduzeća",
+	"wallets_section_online_intro": "Prodajete online? Ovi se novčanici povezuju s vašom internetskom trgovinom i prihvaćaju Bitcoin plaćanja od kupaca diljem svijeta — bez povratnih uplata i bez potrebe za trgovačkim računom.",
+	"wallets_section_invoice": "Novčanici za poduzeća koja kupcima šalju račune",
+	"wallets_section_invoice_intro": "Ako svojim kupcima šaljete račune (savjetovanje, freelance, B2B usluge), koristite novčanik dizajniran za okruženje s računima. Kupac plaća Bitcoin račun u nekoliko klikova.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business omogućuje vam prihvaćanje Bitcoin i Lightning plaćanja bez naknada i s trenutačnom namirom. Podržava plaćanja uživo, online i putem računa, s mogućnošću automatske pretvorbe u lokalnu valutu.",
+	"sources_square": "Square — prihvaćajte Bitcoin plaćanja",
+	"sources_breez_business": "Breez — Bitcoin Lightning novčanik samo za Bitcoin",
+	"sources_opennode": "OpenNode — procesor Bitcoin plaćanja",
+	"sources_ibex": "IBEX — infrastruktura za Lightning plaćanja",
+	"sources_zaprite": "Zaprite — Bitcoin računovodstvo za poduzeća",
+	"biz_wallets_meta_description": "Svi Bitcoin novčanici rade zajedno — odaberite najbolji za svoje poduzeće. Besplatno, trenutačna namira, bez povratnih uplata."
 }

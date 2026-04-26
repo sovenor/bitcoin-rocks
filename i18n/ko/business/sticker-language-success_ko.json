@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
-	"sticker_language_timeline": "3~4주 이내에 스티커 파일을 제작하여 공개합니다. 기다려 주셔서 감사합니다!"
+	"biz_sticker_language_success_hero_title": "요청을 받았습니다 🎉",
+	"biz_sticker_language_success_hero_subtitle": "당신의 언어로 된 “비트코인으로 결제하세요” 스티커 파일을 요청해 주셔서 감사합니다.",
+	"biz_sticker_language_success_timeline_header": "다음에 일어날 일",
+	"biz_sticker_language_success_timeline_c1": "3~4주 이내에 스티커 파일을 만들어 공개하겠습니다. 준비되는 대로 우리의 스티커 파일 페이지에서 무료로 다운로드해 인쇄할 수 있게 됩니다.",
+	"biz_sticker_language_success_timeline_c2": "스티커 파일은 일괄적으로 출시되므로 당신의 언어가 공개되기까지 몇 주가 걸릴 수 있습니다. 기다려 주셔서 감사합니다!"
 }

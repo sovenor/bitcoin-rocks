@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs Krypto",
-	"crypto_header": "ROZDÍL MEZI",
-	"crypto_header_2": "BITCOINEM",
-	"crypto_header_3": "A",
-	"crypto_header_4": "KRYPTEM",
 	"crypto_intro_1": "Prostor kryptoměn explodoval tisíci různých digitálních tokenů a projektů.",
 	"crypto_intro_2": "Zatímco Bitcoin byl první a zůstává nejznámější kryptoměnou, je zásadně odlišný od zbytku kryptoprůmyslu.",
 	"crypto_intro_3": "Podívejme se na klíčové rozdíly mezi Bitcoinem a širším ekosystémem kryptoměn.",
@@ -32,12 +28,13 @@
 	"bitcoin_point_6": "Čisté digitální peníze",
 	"bitcoin_point_7": "Antifragilní",
 	"bitcoin_point_8": "Žádný subjekt ho nekontroluje",
-	"point_1_summary_1": "Protokol Bitcoinu zůstává od roku 2009 v podstatě nezměněný, což poskytuje předvídatelná pravidla, která nelze snadno upravit. Většina kryptoprojektů často aktualizuje své protokoly, mění tokenomiku nebo se rozděluje na nové verze, což vytváří nejistotu pro uživatele.",
-	"point_2_summary_1": "Bitcoin funguje na skutečně decentralizované síti s desítkami tisíc nezávislých uzlů po celém světě. Mnoho kryptoprojektů je kontrolováno nadacemi, společnostmi nebo malými skupinami vývojářů, kteří mohou jednostranně rozhodovat o budoucnosti protokolu.",
-	"point_3_summary_1": "Bitcoin má pevný strop 21 milionů mincí, které kdy budou existovat, což z něj činí nejvzácnější digitální aktivum. Většina kryptoprojektů má neomezenou nabídku, inflační mechanismy nebo možnost razit nové tokeny libovolně, čímž postupem času ředí hodnotu držitelů.",
-	"point_4_summary_1": "Bitcoin má jeden jednoduchý účel: peer-to-peer digitální peníze. Kdokoli ho může pochopit a používat se základními znalostmi. Mnoho kryptoprojektů zahrnuje složité chytré kontrakty, DeFi protokoly nebo mechanismy správy, které vyžadují technickou odbornost pro bezpečné použití.",
-	"point_5_summary_1": "Bitcoin používá konsenzus Proof of Work, který je v boji testován více než 15 let bez jediného úspěšného útoku na hlavní síť. Mnoho kryptoprojektů používá experimentální konsenzuální mechanismy jako Proof of Stake nebo delegované systémy, které zatím neprokázaly svou dlouhodobou bezpečnost.",
-	"point_6_summary_1": "Bitcoin slouží jako digitální peníze - uchovatel hodnoty a prostředek směny. Většina kryptotokenů jsou utility tokeny pro specifické platformy, governance tokeny nebo spekulativní aktiva s nejasnou hodnotovou nabídkou.",
-	"point_7_summary_1": "Bitcoin se stává silnějším pod útokem a přežil každou krizi, zákaz a kritiku, které na něj byly směřovány. Většina kryptoprojektů je křehká a může se zhroutit pod regulačním tlakem, technickými poruchami nebo tržními poklesy.",
-	"point_8_summary_1": "Bitcoin nemá žádného CEO, žádnou společnost za sebou a žádný jediný bod selhání. Mnoho kryptoprojektů je podporováno firmami rizikového kapitálu, má identifikovatelné vedení nebo závisí na konkrétních společnostech pro svůj pokračující provoz."
+	"point_1_summary_1": "Protokol Bitcoinu zůstal od roku 2009 v zásadě stejný a poskytuje předvídatelná pravidla. Většina krypto projektů neustále mění protokoly, tokenomiku, nebo se štěpí do nových verzí.",
+	"point_2_summary_1": "Bitcoin běží na desítkách tisíc nezávislých uzlů po celém světě. Většinu krypto projektů ovládají nadace, firmy nebo malé vývojářské týmy, které mohou provádět jednostranné změny.",
+	"point_3_summary_1": "Bitcoin má pevný strop 21 milionů mincí — nejvzácnější digitální aktivum. Většina krypto projektů má neomezenou nabídku nebo mechanismy pro libovolné vytváření nových tokenů, které ředí držitele.",
+	"point_4_summary_1": "Bitcoin má jeden účel: peer-to-peer digitální peníze. Rozumí mu a používá ho kdokoli. Většina krypto zahrnuje složité chytré kontrakty nebo DeFi, které vyžadují technické znalosti k bezpečnému použití.",
+	"point_5_summary_1": "Proof of Work Bitcoinu běží bez úspěšného útoku na hlavní síť už přes 15 let. Většina krypto projektů používá experimentální konsensus, který nebyl ostře testován.",
+	"point_6_summary_1": "Bitcoin jsou digitální peníze — uchovatel hodnoty a prostředek směny. Většina krypto tokenů jsou spekulativní utility nebo governance tokeny s nejasnou reálnou hodnotou.",
+	"point_7_summary_1": "Bitcoin pod útokem sílí a přežil každou krizi, zákaz i kritiku. Většina krypto projektů padá pod regulačním, technickým nebo tržním tlakem.",
+	"point_8_summary_1": "Bitcoin nemá CEO, firmu ani jediný bod selhání. Většina krypto projektů závisí na VC investorech, konkrétním vedení nebo přežití jediné firmy.",
+	"hero_title": "Rozdíl mezi <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">krypto</span>"
 }

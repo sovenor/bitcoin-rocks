@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Immobles",
-	"real_estate_header": "LA DIFERÈNCIA ENTRE",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "I",
-	"real_estate_header_4": "ELS IMMOBLES",
 	"real_estate_intro_1": "Els immobles han estat una inversió popular durant dècades i sovint es consideren una reserva de valor estable.",
 	"real_estate_intro_2": "Bitcoin són diners digitals creats el 2009 i també és considerat per molts com una reserva de valor i inversió.",
 	"real_estate_intro_3": "Però com es diferencia la propietat física dels diners digitals com Bitcoin? Vegem les diferències entre dues formes d'inversió: Bitcoin i Immobles.",
@@ -32,15 +28,16 @@
 	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Perfectament fungible",
 	"bitcoin_point_8": "Mercat global 24/7",
-	"point_1_summary_1": "Bitcoin es pot moure a qualsevol lloc del món instantàniament per Internet. Els immobles estan permanentment fixats a una ubicació específica i no es poden reubicar, fent-los vulnerables a les condicions econòmiques locals, desastres naturals i inestabilitat política.",
-	"point_2_summary_1": "Bitcoin es pot dividir en 100 milions d'unitats més petites anomenades satoshis, fent-lo perfecte per a transaccions de qualsevol mida. Els immobles no es poden dividir fàcilment - no pots vendre només la cuina de casa teva ni comprar la meitat d'un dormitori.",
-	"point_3_summary_1": "Bitcoin funciona en una xarxa descentralitzada que cap govern pot controlar. Els immobles estan subjectes a una extensa regulació governamental incloent controls de lloguers, moratòries de desnonaments, lleis de zonificació i expropiació on els governs poden confiscar la teva propietat.",
-	"point_4_summary_1": "Bitcoin no requereix manteniment - existeix com a codi digital en una xarxa. Els immobles requereixen un manteniment constant incloent reparacions, renovacions, gestió de la propietat, assegurança i tractar amb llogaters si es lloga.",
-	"point_5_summary_1": "Bitcoin no té impostos continuats - només pagues plusvàlues quan vens. Els immobles estan subjectes a impostos anuals sobre la propietat que s'han de pagar independentment de si la propietat genera ingressos, forçant-te efectivament a llogar la teva pròpia propietat al govern per sempre.",
-	"point_6_summary_1": "Bitcoin, quan es fa una còpia de seguretat correctament, no pot ser destruït per inundacions, incendis, terratrèmols, huracans o altres desastres naturals. Els immobles són vulnerables a totes les formes de destrucció física i requereixen una assegurança costosa que pot no cobrir completament les pèrdues.",
-	"point_7_summary_1": "Cada bitcoin és idèntic i intercanviable - un bitcoin és igual a un bitcoin a qualsevol lloc del món. Cada peça d'immoble és única amb diferents ubicacions, condicions i característiques, fent difícil valorar i comparar propietats.",
-	"point_8_summary_1": "Bitcoin es pot comprar i vendre les 24 hores del dia, els 7 dies de la setmana per qualsevol persona amb accés a Internet a qualsevol lloc del món. Les vendes d'immobles estan limitades a compradors locals, requereixen processos llargs amb advocats i agents, i poden trigar mesos a completar-se.",
+	"point_1_summary_1": "Bitcoin es mou a qualsevol lloc del món instantàniament. Els béns immobles estan ancorats a una ubicació i són vulnerables als riscos econòmics, polítics i naturals locals.",
+	"point_2_summary_1": "Bitcoin es divideix en 100 milions de satoshis. Els béns immobles no es poden vendre parcialment — no pots simplement excloure la cuina o comprar la meitat d'un dormitori.",
+	"point_3_summary_1": "Bitcoin funciona en una xarxa descentralitzada que cap govern pot controlar. Els béns immobles estan fortament regulats — zonificació, control de lloguers, poders de desnonament i confiscacions s'apliquen tots.",
+	"point_4_summary_1": "Bitcoin no requereix manteniment. Els béns immobles necessiten reparacions, renovacions, assegurances, gestió de la propietat i problemes amb inquilins.",
+	"point_5_summary_1": "Bitcoin no té impostos continus — només pagues plusvàlues quan vens. Els béns immobles paguen impostos de propietat anuals independentment dels ingressos.",
+	"point_6_summary_1": "El Bitcoin emmagatzemat correctament sobreviu a incendis, inundacions, terratrèmols. Els béns immobles són vulnerables a qualsevol desastre, i l'assegurança rarament ho cobreix tot.",
+	"point_7_summary_1": "Cada Bitcoin és idèntic i intercanviable. Cada propietat és única, fent que la valoració i la comparació siguin difícils.",
+	"point_8_summary_1": "Bitcoin cotitza 24/7 globalment per qualsevol amb connexió a Internet. Les vendes de béns immobles estan limitades a compradors locals i poden trigar mesos de paperassa a completar-se.",
 	"bitcoin_point_9": "Promou la propietat individual",
 	"real_estate_point_9": "Contribueix a la financiarització de l'habitatge",
-	"point_9_summary_1": "Bitcoin permet la propietat individual directa sense intermediaris, promovent la sobirania financera per a tothom. Comprar immobles com a inversió més enllà de la teva residència principal contribueix a la financiarització de l'habitatge, tractant les llars com a mercaderies en lloc de refugis. Això fa pujar els preus, redueix l'assequibilitat per a les famílies i contribueix a la crisi d'habitatge i sense llar que afecta molts països avui."
+	"point_9_summary_1": "Bitcoin permet la propietat personal directa per a tothom. Comprar béns immobles com a inversió, fora de la teva residència principal, augmenta els preus dels habitatges, redueix l'assequibilitat i fomenta la crisi de l'habitatge.",
+	"hero_title": "Quina és la diferència entre <span class=\"orange\">Bitcoin</span> i els <span class=\"asset\">béns immobles</span>"
 }

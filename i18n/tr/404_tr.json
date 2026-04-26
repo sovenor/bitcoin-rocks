@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"404_title": "404 Hatası | Sayfa Bulunamadı",
-	"404_message": "BU BOZUK SAYFA HİÇ HAVALICA DEĞİL",
-	"404_home": "ANA SAYFAYA DÖN"
+	"404_message": "Bitcoin harika ama bu bozuk sayfa değil.",
+	"404_home": "Ana sayfaya dön",
+	"404_not_found_short": "Bulunamadı"
 }

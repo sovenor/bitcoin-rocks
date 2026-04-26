@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Ceisteanna Coitianta faoi Ghlacadh le Bitcoin",
 	"faq_description": "An bhfuil ceisteanna agat faoi ghlacadh le híocaíochtaí Bitcoin ag do ghnó?",
-	"faq_header": "AN BHFUIL CEISTEANNA AGAT FAOI GHLACADH LE HÍOCAÍOCHTAÍ BITCOIN?",
+	"faq_hero_subtitle": "Freagraí tapa ar na ceisteanna is minice a bhíonn ag ceannaithe sula nglacann siad le Bitcoin — táillí, socrú, sparáin, aisíoc cártaí, costais agus níos mó.",
+	"faq_intro_c1": "Cliceáil ar cheist ar bith thíos chun an freagra a leathnú. Nuair a bheidh tú réidh le tosú ag glacadh le Bitcoin, treoraíonn na hacmhainní gnó ag bun an leathanaigh tú céim ar chéim.",
 	"faq_s1": "Céard é Bitcoin?",
 	"faq_s1_c1": "Is dhá rud é Bitcoin: airgead digiteach agus líonra ríomhaire.",
 	"faq_s1_c2": "Is féidir leat bitcoin (an t-airgead digiteach) a sheoladh go díreach chuig daoine eile ag úsáid an Líonra Bitcoin.",

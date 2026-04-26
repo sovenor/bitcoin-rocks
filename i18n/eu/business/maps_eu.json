@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin merkatari-mapak - Zerrendatu zure negozioa doako",
-	"maps_header": "ZERRENDATU ZURE NEGOZIOA BITCOIN MERKATARI-MAPETAN ETA LORTU BEZERO GEHIAGO",
-	"maps_request_details": "Sartu zure negozio informazioa behean eta Bitcoin merkatari-mapetan doako zerrendatuko zaitugu. Honek Bitcoiner-ei zure negozioa aurkitzeko eta Bitcoin gastatzeko aukera emango die!",
-	"maps_view": "Ikusi mapa hemen."
+	"maps_view": "Ikusi mapa hemen.",
+	"biz_maps_hero_title": "Jarri zure enpresa Bitcoin merkatarien mapetan",
+	"biz_maps_hero_subtitle": "Gehitu zure enpresa BTC Map doako mapan — Bitcoin onartzen duten merkatarien direktorio global irekia — hurbil dauden Bitcoin erabiltzaileek zu aurki eta zure enpresan Bitcoin gasta dezaten.",
+	"biz_maps_intro_c1": "Bitcoin erabiltzaileek aktiboki bilatzen dituzte beren dirua gastatzeko lekuak. Mapan egoteak zure enpresa hurbil dagoen eta jateko, erosteko edo geratzeko lekuren bat bilatzen ari den Bitcoin erabiltzaile guztien bistan jartzen du — guztiz doan.",
+	"biz_maps_intro_c2": "Bete beheko formulario laburra eta zure enpresa BTC Map-en eta beste Bitcoin merkatarien mapetan aurkeztuko dugu.",
+	"biz_maps_view_map_cta": "Ikusi BTC Map",
+	"biz_maps_form_header": "Esan iezaguzu zure enpresari buruz",
+	"biz_maps_form_intro": "Zure xehetasun gutxi batzuk behar ditugu mapan jartzeko. Helbide-datuak zure enpresa mapetara bidaltzeko behar den bitartean bakarrik gordetzen ditugu.",
+	"biz_maps_placeholder_name": "Enpresaren izena",
+	"biz_maps_placeholder_category": "Kategoria (adibidez jatetxea, kafetegia, hotela)",
+	"biz_maps_placeholder_address": "Kalea eta etxe-zenbakia",
+	"biz_maps_placeholder_city": "Hiria",
+	"biz_maps_placeholder_region": "Eskualdea / probintzia / estatua",
+	"biz_maps_placeholder_country": "Herrialdea",
+	"biz_maps_placeholder_website": "Webgunea (aukerakoa)",
+	"biz_maps_meta_description": "Gehitu zure enpresa BTC Map doako mapan eta beste Bitcoin merkatarien mapetan, hurbil dauden Bitcoin erabiltzaileek zu aurki zaitzaten."
 }

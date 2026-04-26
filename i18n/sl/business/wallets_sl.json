@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"how_to_accept_bitcoin_payments": "Kako sprejemati bitcoinova plačila",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibridne denarnice:",
 	"wallets_intro_5": "Te vam omogočajo zamenjavo katerega koli deleža Bitcoina za dolarje, takoj ko vam stranka plača. Provizije so še vedno nižje kot pri kreditnih karticah, vendar višje kot pri čistih bitcoinovih plačilih.",
 	"wallets_intro_6": "Obe vrsti sta odlična načina za sprejemanje Bitcoina. Konkretna denarnica bo odvisna od velikosti in vrste vašega podjetja.",
-	"wallets_choice_sole": "denarnice za podjetja z enim lastnikom",
-	"wallets_choice_multiple": "denarnice za podjetja z več zaposlenimi",
-	"wallets_choice_online": "denarnice za spletna podjetja",
-	"wallets_choice_invoice": "denarnice za podjetja z izdajanjem računov",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Lastno gostovanje = 0 % provizije",
 	"wallets_feature_online_store": "Integracija s spletno trgovino",
 	"wallets_feature_invoicing": "Brezplačna programska oprema za izdajanje računov",
-	"wallets_get_wallet": "PRIDOBI DENARNICO"
+	"wallets_get_wallet": "PRIDOBI DENARNICO",
+	"wallets_hero_subtitle": "Bitcoin denarnice so brezplačne. Izberite tisto, ki ustreza vašemu podjetju — osebna prodaja, splet ali računi — in začnite sprejemati Bitcoin v nekaj minutah.",
+	"wallets_section_sole": "Denarnice za samostojno podjetništvo",
+	"wallets_section_sole_intro": "Če sami vodite trgovino, kavarno, studio ali storitev, vam bo zadostovala katera koli od teh denarnic. Izberite glede na to, ali želite plačila obdržati v Bitcoinu ali del vsakega plačila samodejno pretvoriti v lokalno valuto.",
+	"wallets_section_multiple": "Denarnice za podjetja z več zaposlenimi",
+	"wallets_section_multiple_intro": "Če imate ekipo, ki sprejema plačila pri blagajni, izberite denarnico, ki podpira več prijav zaposlenih — tako vsak zaposleni dobi svoj PIN, vi pa ohranite jasen pregled, kdo je prejel katero plačilo.",
+	"wallets_section_online": "Denarnice za spletne posle",
+	"wallets_section_online_intro": "Prodajate na spletu? Te denarnice se povežejo z vašo spletno trgovino in sprejemajo Bitcoin od katere koli stranke, kjer koli na svetu — brez chargebackov in brez potrebe po trgovskem računu.",
+	"wallets_section_invoice": "Denarnice za podjetja, ki strankam izstavljajo račune",
+	"wallets_section_invoice_intro": "Če strankam izstavljate račune (svetovanje, prosta praksa, B2B storitve), uporabite denarnico, zgrajeno okoli izstavljanja računov. Stranka plača Bitcoin račun z nekaj kliki.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business vam omogoča sprejemanje Bitcoin in Lightning plačil z ničelnimi provizijami in takojšnjo poravnavo. Podpira osebna, spletna in računovodska plačila z izbirno samodejno pretvorbo v lokalno valuto.",
+	"sources_square": "Square — sprejemajte Bitcoin plačila",
+	"sources_breez_business": "Breez — Lightning denarnica samo za Bitcoin",
+	"sources_opennode": "OpenNode — procesor Bitcoin plačil",
+	"sources_ibex": "IBEX — infrastruktura za Lightning plačila",
+	"sources_zaprite": "Zaprite — izstavljanje računov v Bitcoinu za podjetja",
+	"biz_wallets_meta_description": "Vse Bitcoin denarnice so med seboj združljive — izberite tisto, ki ustreza vašemu podjetju. Brezplačno, takojšnja poravnava, brez chargebackov."
 }

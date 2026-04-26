@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ur"
 	},
 	"sticker_success_1": "آپ کو اپنے سٹکرز 2 سے 4 ہفتوں میں ملیں گے۔ انتظار کے دوران، اپنے سٹکرز لگانے کے لیے اچھی جگہ سوچیں!",
-	"sticker_success_2": "سٹکرز کے لیے اچھی جگہیں:",
 	"sticker_success_list_1": "عوامی مقامات پر جہاں لوگ انہیں دیکھیں",
 	"sticker_success_list_2": "ایسی جگہوں پر جہاں انہیں جلدی ہٹایا نہ جا سکے (سٹکرز کوئی مستقل نقصان نہیں پہنچاتے)",
 	"sticker_success_list_3": "ایسی سطحوں پر جہاں وہ آسانی سے چپک جائیں (دھات، پلاسٹک، شیشہ)",
 	"sticker_success_list_4": "نجی جائداد پر نہیں، نشانیاں کو ڈھانپتے ہوئے نہیں، ATM یا گیس پمپس پر نہیں",
 	"sticker_success_3": "دیکھنا چاہتے ہیں کہ دوسرے لوگ اپنے سٹکرز کہاں لگا رہے ہیں؟",
-	"sticker_success_flyers_bar_new": "نیا!",
-	"sticker_success_flyers_bar_cta": "Bitcoin فلائرز پرنٹ اور لگائیں ←"
+	"sticker_success_hero_title": "آپ کے سٹیکرز راستے میں ہیں 🎉",
+	"sticker_success_tips_header": "اچھی سٹیکر جگہیں",
+	"sticker_success_share_header": "اپنی سٹیکر جگہیں شیئر کریں",
+	"sticker_success_bulk_header": "مزید سٹیکرز چاہیے؟",
+	"sticker_success_btn_order_bulk": "تھوک میں آرڈر کریں",
+	"sticker_success_btn_share_on_nostr": "Nostr پر شیئر کریں",
+	"sticker_success_btn_what_is_nostr": "Nostr کیا ہے؟"
 }

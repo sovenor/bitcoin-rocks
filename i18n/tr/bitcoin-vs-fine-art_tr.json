@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin ve Güzel Sanatlar",
-	"fine_art_header": "ARADAKI FARK",
-	"fine_art_header_2": "BİTCOİN",
-	"fine_art_header_3": "VE",
-	"fine_art_header_4": "GÜZEL SANATLAR",
 	"fine_art_intro_1": "Güzel sanatlar yüzyıllardır lüks bir yatırım olmuştur ve varlıklı koleksiyoncular tarafından genellikle bir değer saklama aracı olarak kabul edilir.",
 	"fine_art_intro_2": "Bitcoin, birçok kişi tarafından değer saklama aracı ve yatırım olarak da görülen dijital paradır.",
 	"fine_art_intro_3": "Peki fiziksel sanat eserleri, Bitcoin gibi dijital paradan nasıl farklıdır? İki yatırım biçimi arasındaki farklara bakalım: Bitcoin ve Güzel Sanatlar.",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Kriptografik olarak doğrulanabilir",
 	"bitcoin_point_6": "Yok edilmesi zor",
 	"bitcoin_point_7": "Herkes için erişilebilir",
-	"point_1_summary_1": "Bitcoin tamamen takas edilebilirdir, yani her bitcoin eşit ve birbirleriyle değiştirilebilirdir — dünyanın neresinde olursa olsun bir bitcoin bir bitcoine eşittir. Güzel sanatlar doğası gereği takas edilemez; her eser yaratılışı, tarihi, durumu ve provenansıyla benzersizdir, bu da doğrudan karşılaştırmaları ve değerlemeyi son derece zorlaştırır.",
-	"point_2_summary_1": "Bitcoin, internet erişimi olan herkesin anında alım satım yapabildiği 7/24 küresel bir piyasada işlem görür. Güzel sanatlar Sotheby's veya Christie's gibi uzman müzayede evleri, özel satıcılar veya özel galeriler gerektirir. Satışlar aylar sürebilir ve piyasaya erişim sınırlıdır.",
-	"point_3_summary_1": "Bitcoin alım satımı genellikle ücretlerde %1'den az tutarken, çoğu zaman çok daha azdır. Sanat satışı alıcı primi (%10-25), satıcı komisyonu (%10-15), sigorta, nakliye, saklama ve doğrulama ücretleri dahil önemli maliyetler içerir. Bu birleşik maliyetler tek bir işlemde eserin değerinin %30-40'ını kolayca aşabilir.",
-	"point_4_summary_1": "Bitcoin, satoshi adı verilen 100 milyon küçük birime bölünebilir, bu da onu her boyutta işlem için ideal kılar. Güzel sanatlar bölünemez — bir resmin bir parçasına sahip olamaz veya bir heykelin sadece bir bölümünü satamazsınız. Bu bölünemezlik yatırım esnekliğini sınırlar.",
-	"point_5_summary_1": "Bitcoin mülkiyeti ve gerçekliği, temel teknik bilgiye sahip herkes tarafından blokzincirde kriptografik olarak doğrulanabilir. Güzel sanatlar pahalı uzman doğrulaması, provenance araştırması ve bilimsel analiz gerektirir. Uzman doğrulamasına rağmen, sahteler düzenli olarak sanat dünyasını aldatmaktadır. Bitcoin ise sahte yapılamaz.",
-	"point_6_summary_1": "Bitcoin, doğru şekilde yedeklendiyse, sel, yangın, deprem, kasırga, hırsızlık veya diğer felaketlerle yok edilemez. Güzel sanatlar, fiziksel yıkım ve bozulmanın her biçimine karşı savunmasızdır.",
-	"point_7_summary_1": "Bitcoin, internet erişimi ve yatırım yapacak küçük bir miktarı olan herkes tarafından alınıp satılabilir. Güzel sanat yatırımları, yüksek minimum fiyatlar, özel müzayede erişimi, saklama gereksinimleri, sigorta maliyetleri ve uzman bilgisi nedeniyle büyük ölçüde varlıklı koleksiyoncularla sınırlıdır."
+	"point_1_summary_1": "Her bitcoin birbirinin aynısı ve değiştirilebilirdir. Her sanat eseri benzersizdir — yaratım, geçmiş, durum ve köken farklılığı, doğrudan karşılaştırmaları son derece zorlaştırır.",
+	"point_2_summary_1": "Bitcoin, herkesin erişebildiği küresel bir piyasada 7/24 işlem görür. Güzel sanatlar uzman müzayede evlerini, özel satıcıları ya da galerileri gerektirir ve satılması aylar alabilir.",
+	"point_3_summary_1": "Bitcoin alıp satmak %1'in altında ücretle, çoğu zaman çok daha azına olur. Sanat satışları alıcı primi, komisyon, sigorta, taşıma ve özgünlük doğrulama ücretlerinde %30–40'a ulaşır.",
+	"point_4_summary_1": "Bitcoin 100 milyon sat'a bölünür; bu da onu her büyüklükte işlem için mükemmel kılar. Bir tablonun bir kısmına ya da bir heykelin köşesine, karşı taraf riski olmadan sahip olamazsın.",
+	"point_5_summary_1": "Bitcoin sahipliği ve özgünlüğü zincir üzerinde herkes tarafından kriptografik olarak doğrulanabilir. Sanat özgünlüğünü doğrulamak pahalı ve yavaştır ve hâlâ rutin olarak sahtecilerce kandırılır — bu da bir eserin değerini bir gecede yok edebilir.",
+	"point_6_summary_1": "Doğru yedeklenmiş Bitcoin sel, yangın, deprem ve hırsızlıktan sağ çıkar. Güzel sanat ise her tür fiziksel yıkıma karşı savunmasızdır ve sigorta nadiren her şeyi karşılar.",
+	"point_7_summary_1": "İnternet bağlantısı ve biraz parası olan herkes Bitcoin alabilir. Güzel sanat yatırımı, fiilen müzayede erişimi ve uzmanlığı olan zengin koleksiyonerlerle sınırlıdır.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ile <span class=\"asset\">Güzel Sanatlar</span> arasındaki fark"
 }

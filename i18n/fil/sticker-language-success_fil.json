@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
 	"sticker_language_success_1": "Matagumpay na natanggap ang iyong kahilingan.",
-	"sticker_language_success_2": "Ang mga bagong file ay nai-publish nang sabay-sabay, kaya maaaring tumagal ng ilang linggo bago ito ma-download. Mangyaring bumalik muli!"
+	"sticker_language_success_2": "Ang mga bagong file ay nai-publish nang sabay-sabay, kaya maaaring tumagal ng ilang linggo bago ito ma-download. Mangyaring bumalik muli!",
+	"sticker_language_success_hero_title": "Natanggap ang kahilingan 🎉"
 }

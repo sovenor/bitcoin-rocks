@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-24",
 		"locale": "el"
 	},
 	"sticker_success_1": "Θα λάβετε τα αυτοκόλλητά σας σε 2–4 εβδομάδες. Στο μεταξύ, σκεφτείτε ένα καλό μέρος για τα αυτοκόλλητά σας!",
-	"sticker_success_2": "Καλά μέρη για αυτοκόλλητα είναι:",
 	"sticker_success_list_1": "σε δημόσιους χώρους όπου οι άνθρωποι θα τα δουν",
 	"sticker_success_list_2": "σε μέρη όπου δεν θα αφαιρεθούν γρήγορα (τα αυτοκόλλητα δεν προκαλούν μόνιμη ζημιά)",
 	"sticker_success_list_3": "σε επιφάνειες στις οποίες κολλούν εύκολα (μέταλλο, πλαστικό, γυαλί)",
 	"sticker_success_list_4": "ΟΧΙ σε ιδιωτική περιουσία, πάνω σε πινακίδες, ATM ή βενζινάδικα",
 	"sticker_success_3": "Θέλετε να δείτε πού βάζουν οι άλλοι τα αυτοκόλλητά τους;",
-	"sticker_success_flyers_bar_new": "ΝΕΟ!",
-	"sticker_success_flyers_bar_cta": "Εκτυπώστε και κολλήστε φυλλάδια Bitcoin →"
+	"sticker_success_hero_title": "Τα αυτοκόλλητά σας είναι καθ' οδόν 🎉",
+	"sticker_success_tips_header": "Καλά μέρη για να βάλετε αυτοκόλλητα",
+	"sticker_success_share_header": "Μοιραστείτε πού βάλατε τα αυτοκόλλητα",
+	"sticker_success_bulk_header": "Χρειάζεστε περισσότερα αυτοκόλλητα;",
+	"sticker_success_btn_order_bulk": "Παραγγείλτε χονδρικά",
+	"sticker_success_btn_share_on_nostr": "Μοιραστείτε στο Nostr",
+	"sticker_success_btn_what_is_nostr": "Τι είναι το Nostr;"
 }

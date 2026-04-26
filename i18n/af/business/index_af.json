@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin is goed vir besigheid",
-	"biz_header": "BITCOIN IS GOED VIR BESIGHEID",
+	"business_hero_subtitle": "Aanvaar betalings met laer fooie, word onmiddellik betaal en bereik miljoene nuwe kliënte — met nul kontrakte en nul verborge koste.",
+	"business_intro_c1": "Bitcoin gee jou besigheid 'n vinniger, goedkoper en meer private manier om betaal te word. Geen tussengangers nie. Geen terugvorderings nie. Geen kontrakte nie. Net geld wat in sekondes vereffen word, direk van jou kliënte na jou.",
+	"business_intro_c2": "Hieronder is die kort weergawe van hoekom Bitcoin goed vir besigheid is — en daaronder elke hulpbron wat jy nodig het om dit vandag te begin aanvaar.",
 	"biz_s1": "Lae fooie sonder minimums",
 	"biz_s1_c1": "Bitcoin stel jou in staat om betalings direk van jou klante te ontvang, soortgelyk aan kontant. Die Bitcoin-netwerk werk sonder tussengangers soos banke en kredietkaartmaatskappye wat hoë fooie hef.",
 	"biz_s2": "Onmiddellike verrekening",
@@ -18,5 +20,14 @@
 	"biz_s4": "Kry meer klante",
 	"biz_s4_c1": "Miljoene mense besit Bitcoin en wil hul Bitcoin bestee by plekke wat dit aanvaar.",
 	"biz_s4_c2": "Deur bloot Bitcoin te aanvaar, kan jou besigheid op Bitcoin-handelaarskaarte gelys word en gratis blootstelling aan nuwe Bitcoin-klante kry.",
-	"biz_s4_c3": "Bitcoin-aanvaarding is 100% gratis. Daar is geen kontrakte of versteekte fooie nie."
+	"biz_s4_c3": "Bitcoin-aanvaarding is 100% gratis. Daar is geen kontrakte of versteekte fooie nie.",
+	"business_resources_heading": "Alles wat jy nodig het om Bitcoin te aanvaar",
+	"business_resources_intro": "Werk teen jou eie pas deur hierdie hulpbronne. Elkeen is 'n kort, praktiese gids.",
+	"biz_label_wallets": "BEURSIES",
+	"biz_label_maps": "HANDELAARSKAARTE",
+	"biz_label_stickers": "PLAKKERS",
+	"biz_label_rewards": "BELONINGS",
+	"biz_label_accounting": "REKENINGKUNDE",
+	"biz_label_faq": "VRAE",
+	"biz_meta_description": "Aanvaar Bitcoin by jou besigheid vir laer fooie, onmiddellike vereffening, geen terugvorderings nie, en meer kliënte."
 }

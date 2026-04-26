@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Anglų „Bitcoin Accepted Here“ lipdukų failai",
-	"english_biz_sticker_files_description": "Atsisiųskite anglų lipdukų failus ir atsispausdinkite savo „Bitcoin Accepted Here“ lipdukus.",
-	"english_header": "ATSISIŲSKITE ANGLŲ „BITCOIN ACCEPTED HERE“ LIPDUKŲ FAILUS"
+	"english_biz_sticker_files_description": "Atsisiųskite anglų kalbos „Bitcoin Accepted Here“ lipdukų failus, kad patys atsispausdintumėte.",
+	"biz_stickers_english_hero_title": "Atsisiųskite anglų kalbos „Bitcoin Accepted Here“ lipdukų failus",
+	"biz_stickers_english_hero_subtitle": "Atsispausdinkite savo „Bitcoin Accepted Here“ lipdukus anglų kalba, kad jūsų klientai žinotų, kad priimate Bitcoin."
 }

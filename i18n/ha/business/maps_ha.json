@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Taswirar Yan Kasuwa na Bitcoin — Shigar da Kasuwancinku Kyauta",
-	"maps_header": "YI RAJISTA A TASWIRAR YAN KASUWA NA BITCOIN KUMA KU SAMI ƘARIN ABOKAN CINIKI",
-	"maps_request_details": "Shigar da bayanan kasuwancinku a ƙasa kuma za mu shigar da ku cikin taswirar 'yan kasuwa na Bitcoin kyauta. Wannan zai sa masu amfani da Bitcoin su sami kasuwancinku kuma su kashe Bitcoin ɗin su a wurinku!",
-	"maps_view": "Duba taswira a nan."
+	"maps_view": "Duba taswira a nan.",
+	"biz_maps_hero_title": "Ƙara kasuwancinka a kan taswiroyin 'yan kasuwar Bitcoin",
+	"biz_maps_hero_subtitle": "Ƙara kasuwancinka a BTC Map kyauta — jagorar duniya mai buɗewa ta 'yan kasuwa da ke karɓar Bitcoin — don masu amfani da Bitcoin na kusa su sami ka kuma su kashe Bitcoin tare da kai.",
+	"biz_maps_intro_c1": "Masu amfani da Bitcoin suna neman wuri don kashe kuɗinsu. Kasancewa a kan taswira yana sa kasuwancinka a bayyane ga kowane mai amfani da Bitcoin da ke neman wurin cin abinci, siyayya ko zama — kyauta gabaɗaya.",
+	"biz_maps_intro_c2": "Cika ƙaramin fom ɗin da ke ƙasa kuma za mu shigar da kasuwancinka zuwa BTC Map da sauran taswiroyin 'yan kasuwar Bitcoin.",
+	"biz_maps_view_map_cta": "Duba BTC Map",
+	"biz_maps_form_header": "Faɗa mana game da kasuwancinka",
+	"biz_maps_form_intro": "Muna buƙatar ɗan ƙaramin bayani kawai don sa ka a kan taswira. Muna riƙe bayanan adireshi ne kawai a yayin da ake buƙata don shigar da kasuwancinka cikin taswiroyin.",
+	"biz_maps_placeholder_name": "Sunan kasuwanci",
+	"biz_maps_placeholder_category": "Rukuni (misali, gidan abinci, kafe, otal)",
+	"biz_maps_placeholder_address": "Titi da lamba",
+	"biz_maps_placeholder_city": "Birni",
+	"biz_maps_placeholder_region": "Yanki / lardi / jiha",
+	"biz_maps_placeholder_country": "Ƙasa",
+	"biz_maps_placeholder_website": "Shafin yanar gizo (ƙarin)",
+	"biz_maps_meta_description": "Ƙara kasuwancinka a BTC Map da sauran taswiroyin 'yan kasuwar Bitcoin kyauta, don masu amfani da Bitcoin na kusa su sami ka."
 }

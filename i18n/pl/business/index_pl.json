@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin jest dobry dla biznesu",
-	"biz_header": "BITCOIN JEST DOBRY DLA BIZNESU",
+	"business_hero_subtitle": "Przyjmuj płatności z niższymi opłatami, otrzymuj zapłatę natychmiast i zdobądź miliony nowych klientów — bez umów i ukrytych kosztów.",
+	"business_intro_c1": "Bitcoin daje twojej firmie szybszy, tańszy i bardziej prywatny sposób otrzymywania zapłaty. Bez pośredników. Bez chargebacków. Bez umów. Tylko pieniądze, które rozliczają się w sekundy, bezpośrednio od klienta do ciebie.",
+	"business_intro_c2": "Poniżej krótka wersja, dlaczego Bitcoin jest dobry dla biznesu — a pod nią wszystkie zasoby, których potrzebujesz, by zacząć go akceptować już dziś.",
 	"biz_s1": "Niskie opłaty bez minimów",
 	"biz_s1_c1": "Bitcoin umożliwia otrzymywanie płatności bezpośrednio od klientów, podobnie jak gotówka. Sieć Bitcoin działa bez pośredników takich jak banki i firmy obsługujące karty kredytowe, które pobierają wysokie opłaty.",
 	"biz_s2": "Natychmiastowe rozliczenia",
@@ -18,5 +20,14 @@
 	"biz_s4": "Zdobądź więcej klientów",
 	"biz_s4_c1": "Miliony osób posiada Bitcoin i chce wydawać go w miejscach, które go przyjmują.",
 	"biz_s4_c2": "Po prostu przyjmując Bitcoin, twoja firma może zostać umieszczona na mapach akceptantów Bitcoin i zyskać darmową ekspozycję na nowych klientów Bitcoin.",
-	"biz_s4_c3": "Przyjmowanie Bitcoina jest w 100% darmowe. Nie ma umów ani ukrytych opłat."
+	"biz_s4_c3": "Przyjmowanie Bitcoina jest w 100% darmowe. Nie ma umów ani ukrytych opłat.",
+	"business_resources_heading": "Wszystko, czego potrzebujesz, by akceptować Bitcoina",
+	"business_resources_intro": "Przeglądaj te zasoby we własnym tempie. Każdy to krótki, praktyczny przewodnik.",
+	"biz_label_wallets": "PORTFELE",
+	"biz_label_maps": "MAPY OBCHODNIKÓW",
+	"biz_label_stickers": "NAKLEJKI",
+	"biz_label_rewards": "NAGRODY",
+	"biz_label_accounting": "KSIĘGOWOŚĆ",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Akceptuj Bitcoina w swojej firmie z niższymi opłatami, natychmiastowym rozliczeniem, bez chargebacków i pozyskaj więcej klientów."
 }

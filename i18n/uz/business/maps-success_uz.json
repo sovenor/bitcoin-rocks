@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
-	"kit_success_1": "Biznesingiz 1 dan 2 hafta ichida Bitcoin savdogar xaritalariga qoʻshiladi.",
-	"kit_success_2": "Xaritani bu yerda koʻring."
+	"biz_maps_success_hero_title": "Soʻrov qabul qilindi 🎉",
+	"biz_maps_success_hero_subtitle": "Biznesingizni taqdim etganingiz uchun rahmat. Tez orada sizni Bitcoin savdogar xaritalariga joylaymiz.",
+	"biz_maps_success_timeline_header": "Keyin nima boʻladi",
+	"biz_maps_success_timeline_c1": "Biznesingiz BTC Map va boshqa Bitcoin savdogar kataloglarida 1-2 hafta ichida roʻyxatga olinadi. Har bir taqdim etilgan maʼlumotni xaritalarni aniq saqlash uchun qoʻlda koʻrib chiqamiz.",
+	"biz_maps_success_timeline_c2": "Roʻyxatingiz faollashgach, yaqindagi Bitcoinerlar biznesingizni topib, u yerda Bitcoin sarflashga kelishlari mumkin.",
+	"biz_maps_success_view_header": "Qayerda paydo boʻlishingizni koʻring",
+	"biz_maps_success_view_c1": "Kutib turganingizda, dunyoda Bitcoinni qabul qiluvchi bizneslarning oʻsib borayotgan tarmogʻini koʻrish uchun BTC Map saytiga koʻz tashlang.",
+	"biz_maps_success_btn_view_map": "BTC Map xaritasini koʻring"
 }

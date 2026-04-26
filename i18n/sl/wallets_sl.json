@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_wallet_guide": "Vodič po bitcoinovih denarnicah",
 	"wallets_description": "Obstaja veliko različnih bitcoinovih denarnic, ki se razlikujejo na pomembne načine. Ali je denarnica prava za vas, lahko ugotovite z zastavitvijo teh preprostih vprašanj.",
 	"wallets_header": "KAKO VARNO SHRANITI SVOJ BITCOIN",
+	"wallets_header_subtitle": "Vodnik korak za korakom, kako izbrati denarnico, zaščititi svoje ključe in prevzeti popoln nadzor nad svojim Bitcoinom.",
 	"wallets_s1_c1": "Bitcoinove denarnice so medsebojno združljive, tako da lahko pošljete Bitcoin komurkoli ne glede na to, katero denarnico uporablja.",
 	"wallets_s1_c2": "Obstaja veliko različnih bitcoinovih denarnic, ki se razlikujejo na pomembne načine. Ali je denarnica prava za vas, lahko ugotovite z zastavitvijo teh preprostih vprašanj:",
 	"wallets_question_1": "ALI JE TO DENARNICA Z LASTNO HRAMBO?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp je preizkusil 70 jeklenih varnostnih kopij, da vam pomaga izbrati pravo.",
 	"wallets_s6_c5": "Oglejte si Jamesonov vodič po kovinskih bitcoinovih varnostnih kopijah tukaj.",
 	"wallets_s6_c6": "Ali pa nadaljujte z drsenjem in raziščite možnosti bitcoinovih denarnic.",
+	"wallets_grid_heading": "Priljubljene Bitcoin denarnice",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Iščete naš vodič po Lightning denarnicah?",
 	"wallets_starter_wallet": "Odlična začetna denarnica",
 	"wallets_mobile_app": "Mobilna aplikacija",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Polnilna baterija",
 	"wallets_build_your_own": "Sestavite sami",
 	"wallets_qwerty_keyboard": "Polna QWERTY tipkovnica",
-	"wallets_qr_scanner": "Čitalec QR kod"
+	"wallets_qr_scanner": "Čitalec QR kod",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Izberite denarnico",
+	"sources_jameson_lopp": "Jameson Lopp — pregledi kovinskih shrambo za Bitcoin seed",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin denarnica z lastno hrambo",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin strojna denarnica",
+	"sources_coldcard_mk5": "Coinkite — strojna denarnica Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — strojna denarnica Coldcard Q",
+	"sources_passport": "Foundation Devices — strojna denarnica Passport",
+	"sources_seedsigner": "SeedSigner — odprtokodna naredi-sam naprava za podpisovanje Bitcoin transakcij"
 }

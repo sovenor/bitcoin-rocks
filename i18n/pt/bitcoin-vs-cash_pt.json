@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Dinheiro",
-	"cash_header": "A DIFERENÇA ENTRE",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "E",
-	"cash_header_4": "DINHEIRO",
 	"cash_intro_1": "O dinheiro tem sido usado como moeda há séculos e continua sendo a forma mais comum de dinheiro físico no mundo.",
 	"cash_intro_2": "Bitcoin é dinheiro digital criado em 2009 que opera independentemente de qualquer governo ou autoridade central.",
 	"cash_intro_3": "Mas como o dinheiro físico difere do dinheiro digital como Bitcoin? Vamos explorar as principais diferenças entre essas duas formas de dinheiro: Bitcoin e Dinheiro.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Rede descentralizada",
 	"bitcoin_point_6": "Auto-custódia digital",
 	"bitcoin_point_7": "Facilmente divisível",
-	"point_1_summary_1": "Bitcoin pode ser enviado para qualquer lugar do mundo instantaneamente pela Internet, enquanto o dinheiro requer presença física ou intermediários confiáveis. Você não pode enviar dinheiro por e-mail, mas pode enviar Bitcoin para qualquer pessoa com conexão à Internet em minutos.",
-	"point_2_summary_1": "Bitcoin funciona da mesma forma em todo o mundo - não há fronteiras na rede Bitcoin. O dinheiro é limitado por geografia, taxas de câmbio e aceitação local. Tente usar dólares americanos na Tailândia rural ou ienes japoneses no México rural.",
-	"point_3_summary_1": "Governos podem e invalidam dinheiro da noite para o dia através de políticas de desmonetização, como a Índia fez em 2016 quando proibiu certas notas.",
-	"point_3_summary_2": "Mesmo sem proibir certas notas, governos constantemente desvalorizam o dinheiro através da inflação.",
-	"point_3_summary_3": "Bitcoin não pode ser invalidado por nenhum governo ou autoridade - existe em uma rede global descentralizada que nenhuma entidade única controla.",
-	"point_4_summary_1": "Dinheiro pode ser falsificado, e muitas vezes é difícil detectar notas falsas sem equipamento especial. Mesmo com recursos de segurança, dinheiro falsificado continua circulando. Bitcoin usa prova criptográfica que torna a falsificação matematicamente impossível.",
-	"point_5_summary_1": "Dinheiro é emitido e controlado por governos, que podem imprimir mais à vontade, mudar designs ou declarar certas notas inválidas. Bitcoin opera em uma rede descentralizada onde nenhuma autoridade única tem controle sobre a oferta monetária ou regras.",
-	"point_6_summary_1": "Dinheiro deve ser armazenado fisicamente, tornando-o vulnerável a roubo, perda, incêndio ou confisco. Grandes quantidades requerem medidas de segurança caras.",
-	"point_6_summary_2": "Mas Bitcoin pode ser armazenado com segurança em auto-custódia",
-	"point_6_summary_3": "usando um aplicativo de smartphone ou carteira especializada, dando-lhe controle completo sobre seu dinheiro sem riscos de armazenamento físico.",
-	"point_7_summary_1": "Dinheiro tem denominações mínimas - você não pode dividir um centavo em partes menores. Bitcoin pode ser dividido em 100 milhões de unidades menores chamadas satoshis, permitindo micropagamentos e transações precisas de qualquer valor."
+	"point_1_summary_1": "O Bitcoin viaja para qualquer lugar do mundo pela Internet em minutos. O dinheiro físico exige presença física ou mensageiros de confiança — não consegues enviar uma nota de vinte por e-mail.",
+	"point_2_summary_1": "O Bitcoin funciona da mesma forma em todo o lado. O dinheiro está limitado pela geografia, pelas taxas de câmbio e pela aceitação local.",
+	"point_3_summary_1": "Os governos podem invalidar o dinheiro de um dia para o outro — a <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Índia</a> fê-lo em 2016. Mas mesmo sem desmonetização, o dinheiro perde valor devido à",
+	"point_3_summary_2": "inflação.",
+	"point_3_summary_3": "O Bitcoin não pode ser invalidado por nenhum governo nem autoridade.",
+	"point_4_summary_1": "O dinheiro pode ser falsificado, por vezes de forma convincente. O Bitcoin usa criptografia que torna a falsificação matematicamente impossível.",
+	"point_5_summary_1": "O Bitcoin não tem autoridade central. O dinheiro é emitido por governos que podem imprimir mais, alterar designs ou retirar notas de circulação à vontade.",
+	"point_6_summary_1": "O dinheiro físico é vulnerável ao roubo, ao fogo, à perda e ao confisco. O Bitcoin pode ser ",
+	"point_6_summary_2": "guardado em autocustódia em segurança",
+	"point_6_summary_3": " no teu telemóvel ou num dispositivo de hardware.",
+	"point_7_summary_1": "O Bitcoin pode ser dividido em 100 milhões de satoshis, permitindo micropagamentos de qualquer dimensão. O dinheiro físico tem denominações mínimas — não consegues partir um cêntimo.",
+	"hero_title": "A diferença entre <span class=\"orange\">Bitcoin</span> e o <span class=\"asset\">dinheiro</span>"
 }

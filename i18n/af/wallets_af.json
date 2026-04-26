@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-beursiegids",
 	"wallets_description": "Daar is baie verskillende Bitcoin-beursies wat op belangrike maniere verskil. Jy kan bepaal of 'n beursie reg is vir jou deur hierdie eenvoudige vrae te vra.",
 	"wallets_header": "HOE OM JOU BITCOIN VEILIG TE BERG",
+	"wallets_header_subtitle": "'n Stap-vir-stap gids om 'n beursie te kies, jou sleutels te beskerm en volle beheer oor jou Bitcoin te neem.",
 	"wallets_s1_c1": "Bitcoin-beursies is interoperabel, sodat jy Bitcoin aan enigiemand kan stuur, maak nie saak watter beursie hulle gebruik nie.",
 	"wallets_s1_c2": "Daar is baie verskillende Bitcoin-beursies wat op belangrike maniere verskil. Jy kan bepaal of 'n beursie reg is vir jou deur hierdie eenvoudige vrae te vra:",
 	"wallets_question_1": "IS DIT 'N SELFBEWARINGSBEURSIE?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp het 70 staalrugsteunpakkette getoets om jou te help die regte een vir jou te kies.",
 	"wallets_s6_c5": "Bekyk Jameson se metaal Bitcoin-rugsteungids hier.",
 	"wallets_s6_c6": "Of hou aan blaai om Bitcoin-beursie-opsies te verken.",
+	"wallets_grid_heading": "Gewilde Bitcoin-beursies",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning-netwerk",
 	"wallets_cta_lightning": "Soek jy ons Lightning-beursiegids?",
 	"wallets_starter_wallet": "Uitstekende beginbeursie",
 	"wallets_mobile_app": "Mobiele toepassing",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Herlaaibare battery",
 	"wallets_build_your_own": "Bou jou eie",
 	"wallets_qwerty_keyboard": "Volle QWERTY-sleutelbord",
-	"wallets_qr_scanner": "QR-kode-skandeerder"
+	"wallets_qr_scanner": "QR-kode-skandeerder",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Choose Your Wallet",
+	"sources_jameson_lopp": "Jameson Lopp — Metal Bitcoin Seed Storage Reviews",
+	"sources_blockstream_green": "Blockstream Green — Selfbewaring Bitcoin-beursie",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin-hardeware-beursie",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5-hardeware-beursie",
+	"sources_coldcard_q": "Coinkite — Coldcard Q-hardeware-beursie",
+	"sources_passport": "Foundation Devices — Passport-hardeware-beursie",
+	"sources_seedsigner": "SeedSigner — Oopbron-doen-dit-self Bitcoin-tekentoestel"
 }

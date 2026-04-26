@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
-	"sticker_language_timeline": "Çıkartma dosyanızı 3 ila 4 hafta içinde oluşturup yayınlayacağız. Sabrınız için teşekkürler!"
+	"biz_sticker_language_success_hero_title": "İstek alındı 🎉",
+	"biz_sticker_language_success_hero_subtitle": "'Bitcoin Burada Kabul Edilir' çıkartma dosyalarını kendi dilinde istediğin için teşekkürler.",
+	"biz_sticker_language_success_timeline_header": "Sıradaki ne",
+	"biz_sticker_language_success_timeline_c1": "Çıkartma dosyalarını 3-4 hafta içinde oluşturup yayımlayacağız. Hazır olduklarında bunları çıkartma dosyaları sayfamızdan ücretsiz indirip yazdırabileceksin.",
+	"biz_sticker_language_success_timeline_c2": "Çıkartma dosyaları gruplar hâlinde yayımlanıyor; bu yüzden senin dilinin yayına girmesi birkaç hafta sürebilir. Sabrın için teşekkürler!"
 }

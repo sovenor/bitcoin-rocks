@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"bitcoin_accepted_here_stickers": "Àwọn àmì àlèmó́ 'A Gba Bitcoin Nibí'",
-	"stickers_header": "GBA ÀWỌN ÀMÌ ÀLÈMÓ 'A GBA BITCOIN NIBÍ' ÒFẸ́Ẹ́ RẸ",
-	"stickers_request": "Gba àwọn àmì àlèmó́ rẹ òfẹ́ẹ́",
-	"stickers_request_details": "Jẹ́ kí àwọn oníbàárà rẹ mọ̀ pé o gba ìsàn owó Bitcoin pẹ̀lú àwọn àmì àlèmó́ 'A Gba Bitcoin Nibí' òfẹ́ẹ́ wọ̀nyí.",
-	"stickers_country_global_print": "Káríayé — Tẹ̀ àmì àlèmó́ mi fúnra mi",
-	"stickers_request_instructions": "Iwọ gba àmì àlèmó́ 'A Gba Bitcoin Nibí' mẹ́ta nínú apoowe funfun. Tí o bá nílò jù mẹ́ta lọ fún òwò iṣẹ́ rẹ, má tiì bèèrè lèèkèèjì. A máa ń pa dátà àdírẹ́ṣì rẹ̀ nígbà tí a bá ti fi àwọn àmì àlèmó́ rẹ ranṣẹ́.",
-	"stickers_print_details": "O lè tẹ̀ àwọn àmì àlèmó́ 'A Gba Bitcoin Nibí' tirẹ, láì ń ṣe àní ibì tí o wà! Tẹ̀ èdè rẹ nísàlẹ̀ láti wo àwọn fáìlì àmì àlèmó́ & àwọn ì̀tó̀sọ́nà.",
-	"stickers_request_language": "Kò rí èdè rẹ? Kùn fọ́ọ̀mù nísàlẹ̀ láti bèèrè fún fáìlì àmì àlèmó́ 'A Gba Bitcoin Nibí' ní èdè ag¹bègbè rẹ."
+	"biz_stickers_hero_title": "Àwọn àlèmọ́ 'Bitcoin Accepted Here' ọ̀fẹ́",
+	"biz_stickers_hero_subtitle": "Jẹ́ kí àwọn oníbàárà rẹ mọ̀ pé o gba Bitcoin. Bere àkójọpọ̀ àlèmọ́ 'Bitcoin Accepted Here' ọ̀fẹ́ kan láti fi sí iṣẹ́ rẹ.",
+	"biz_stickers_intro_c1": "Gbígba Bitcoin jẹ́ ìdajì iṣẹ́ nìkan — àwọn oníbàárà rẹ pẹ̀lú nílò láti mọ̀ pé o ṣe é. Àwọn àlèmọ́ kéré 'Bitcoin Accepted Here' wọ̀nyí ni a ṣe láti so mọ́ ẹnu-ọ̀nà iwájú rẹ, olùgbasilẹ, menu, tàbí ibi mìíràn tí àwọn oníbàárà yóò rí i kí wọ́n tó sanwó.",
+	"biz_stickers_intro_c2": "A ó fi àkójọpọ̀ ọ̀fẹ́ ránṣẹ́ sí ọ ní àyè èyíkéyìí ní USA tàbí Kánádà, tàbí o lè tẹ tirẹ ní àyè èyíkéyìí ní àgbáyé.",
+	"biz_stickers_step_header": "Báwo ni o ṣe fẹ́ gba àwọn àlèmọ́ rẹ?",
+	"biz_stickers_step_description": "A ó rán àkójọpọ̀ ọ̀fẹ́ sí àwọn àdírẹ́sì ní USA àti Kánádà. Níbi mìíràn ní àgbáyé, o lè tẹ tirẹ.",
+	"biz_stickers_option_usa": "🇺🇸 USA — Ọ̀fẹ́ nípa ìfírànṣẹ́",
+	"biz_stickers_option_canada": "🇨🇦 Kánádà — Ọ̀fẹ́ nípa ìfírànṣẹ́",
+	"biz_stickers_option_print": "🌍 Àgbáyé — Tẹ tirẹ",
+	"biz_stickers_print_header": "Tẹ àwọn àkójọpọ̀ àlèmọ́ tirẹ",
+	"biz_stickers_print_c1": "O lè tẹ àwọn àlèmọ́ 'Bitcoin Accepted Here' tirẹ, láìka ibi tí o ń gbé. Tẹ̀ èdè rẹ nísàlẹ̀ láti gba àwọn àkójọpọ̀ àlèmọ́ àti àwọn ìtọ́ni títẹ̀.",
+	"biz_stickers_request_header": "Ṣé o kò rí èdè rẹ?",
+	"biz_stickers_request_c1": "Kún fọ́mù tí ó wà nísàlẹ̀ láti béèrè àwọn àkójọpọ̀ àlèmọ́ 'Bitcoin Accepted Here' ní èdè àdúgbò rẹ. A ó jẹ́ kí o mọ̀ nígbà tí wọ́n bá ti ṣetán.",
+	"biz_stickers_placeholder_translation1": "Ìtumọ̀ fún 'Bitcoin Accepted Here'",
+	"biz_stickers_placeholder_translation2": "Ìtumọ̀ fún 'Scan to learn why Bitcoin is good for business.'",
+	"stickers_request": "Gba àwọn àmì àlèmó́ rẹ òfẹ́ẹ́"
 }

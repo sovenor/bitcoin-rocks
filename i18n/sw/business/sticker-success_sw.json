@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
-	"sticker_success_details": "Utapokea vibandiko vyako ndani ya wiki 1 hadi 2 katika bahasha nyeupe. Kila bahasha inajumuisha vibandiko 3. Ukihitaji zaidi ya vibandiko 3 kwa biashara yako, jisikie huru kuomba kifurushi kingine!"
+	"biz_sticker_success_hero_title": "Stika zako ziko njiani 🎉",
+	"biz_sticker_success_hero_subtitle": "Utapokea stika zako za bure za 'Bitcoin Inakubaliwa Hapa' ndani ya wiki 2 hadi 4, katika bahasha nyeupe ya kawaida ikiwa na stika 3 ndani.",
+	"biz_sticker_success_tips_header": "Maeneo mazuri ya kuweka stika zako",
+	"biz_sticker_success_tip_1": "Kwenye mlango wako wa mbele au dirisha ili wateja waione kabla ya kuingia",
+	"biz_sticker_success_tip_2": "Karibu na rejista yako, kituo cha POS, au eneo la malipo",
+	"biz_sticker_success_tip_3": "Kwenye menyu, orodha za bei, au mitungi ya bahasha",
+	"biz_sticker_success_tip_4": "Usizibandike popote ambapo huimiliki au huna ruhusa ya kuziweka",
+	"biz_sticker_success_more_header": "Unahitaji stika zaidi?",
+	"biz_sticker_success_more_c1": "Ikiwa stika 3 hazitoshi kwa biashara yako, jisikie huru kuomba pakiti nyingine ya bure — au agiza kwa wingi kutoka kwa printa yule yule tunayotumia.",
+	"biz_sticker_success_btn_order_bulk": "Agiza kwa wingi",
+	"biz_sticker_success_btn_request_more": "Omba pakiti nyingine ya bure"
 }

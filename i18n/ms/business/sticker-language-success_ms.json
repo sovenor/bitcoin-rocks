@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
-	"sticker_language_timeline": "Kami akan mencipta dan menerbitkan fail pelekat dalam masa 3-4 minggu. Terima kasih atas kesabaran anda!"
+	"biz_sticker_language_success_hero_title": "Permintaan diterima 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Terima kasih kerana meminta fail pelekat 'Bitcoin Diterima Di Sini' dalam bahasa anda.",
+	"biz_sticker_language_success_timeline_header": "Apa yang berlaku seterusnya",
+	"biz_sticker_language_success_timeline_c1": "Kami akan mencipta dan menerbitkan fail pelekat anda dalam masa 3 hingga 4 minggu. Setelah siap, anda akan dapat memuat turun dan mencetaknya secara percuma daripada halaman fail pelekat kami.",
+	"biz_sticker_language_success_timeline_c2": "Fail pelekat dikeluarkan dalam kelompok, jadi mungkin mengambil masa beberapa minggu untuk bahasa anda menjadi aktif. Terima kasih atas kesabaran anda!"
 }

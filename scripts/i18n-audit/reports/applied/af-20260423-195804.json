@@ -1,0 +1,1498 @@
+{
+	"lang": "af",
+	"generatedAt": "2026-04-23T19:48:10.435Z",
+	"englishSnapshotGeneratedAt": "2026-04-23T18:42:18.629Z",
+	"preV2SnapshotCommit": "133d5b984b93",
+	"preV2SnapshotGeneratedAt": "2026-04-23T19:45:23.520Z",
+	"namespaceFilter": null,
+	"flags": {
+		"likelyStaleEnabled": true,
+		"englishChangedEnabled": true
+	},
+	"stats": {
+		"totalEnglishKeys": 1849,
+		"missing": 0,
+		"untranslated": 0,
+		"englishChanged": 163,
+		"likelyStale": 0,
+		"upToDate": 1581,
+		"brandIdentical": 105
+	},
+	"entries": [
+		{
+			"namespace": "404",
+			"key": "404_home",
+			"reason": "english-changed",
+			"englishValue": "Back to Home",
+			"englishValueBefore": "GO BACK HOME",
+			"currentValue": "GAAN TERUG HUIS TOE",
+			"targetTranslation": "Terug tuis toe"
+		},
+		{
+			"namespace": "404",
+			"key": "404_message",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin rocks, but this broken page does not.",
+			"englishValueBefore": "THIS BROKEN PAGE DOES NOT ROCK",
+			"currentValue": "HIERDIE STUKKENDE BLADSY IS NIE FANTASTIES NIE",
+			"targetTranslation": "Bitcoin rock, maar hierdie gebroke bladsy doen beslis nie."
+		},
+		{
+			"namespace": "about",
+			"key": "about_editorial_2",
+			"reason": "english-changed",
+			"englishValue": "We link to trusted sources like the Federal Reserve (FRED), the U.S. Bureau of Labor Statistics, the FDIC, the United Nations, the World Gold Council, Forbes, MIT Technology Review, Lyn Alden, and James Lavish. We believe Bitcoin speaks for itself when the facts are presented clearly.",
+			"englishValueBefore": "We link to trusted sources like TIME Magazine, Forbes, MIT Technology Review, Lyn Alden, and many others. We believe that Bitcoin speaks for itself when the facts are presented clearly.",
+			"currentValue": "Ons skakel na betroubare bronne soos TIME Magazine, Forbes, MIT Technology Review, Lyn Alden, en baie ander. Ons glo dat Bitcoin vir homself praat wanneer die feite duidelik aangebied word.",
+			"targetTranslation": "Ons skakel na betroubare bronne soos die Federal Reserve (FRED), die U.S. Bureau of Labor Statistics, die FDIC, die Verenigde Nasies, die World Gold Council, Forbes, MIT Technology Review, Lyn Alden en James Lavish. Ons glo Bitcoin spreek vir homself wanneer die feite duidelik aangebied word."
+		},
+		{
+			"namespace": "about",
+			"key": "about_header",
+			"reason": "english-changed",
+			"englishValue": "About bitcoin.rocks",
+			"englishValueBefore": "ABOUT",
+			"currentValue": "OOR",
+			"targetTranslation": "Aangaande bitcoin.rocks"
+		},
+		{
+			"namespace": "about",
+			"key": "about_open_source_2",
+			"reason": "english-changed",
+			"englishValue": "bitcoin.rocks is a free, open-source project licensed under the MIT License. Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.",
+			"englishValueBefore": "Anyone can contribute to bitcoin.rocks. We especially welcome translators who help make our content accessible to people around the world.",
+			"currentValue": "Enigiemand kan bydra tot bitcoin.rocks. Ons verwelkom veral vertalers wat help om ons inhoud toeganklik te maak vir mense regoor die wêreld.",
+			"targetTranslation": "bitcoin.rocks is 'n gratis, oopbron-projek onder die MIT-lisensie. Enigiemand kan tot bitcoin.rocks bydra. Ons verwelkom veral vertalers wat help om ons inhoud vir mense regoor die wêreld toeganklik te maak."
+		},
+		{
+			"namespace": "bank-runs",
+			"key": "bank_runs_header",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin doesn't have bank runs, but your bank might.",
+			"englishValueBefore": "BITCOIN DOESN'T HAVE BANK RUNS",
+			"currentValue": "BITCOIN HET NIE BANKSTORMLOPE NIE",
+			"targetTranslation": "Bitcoin het geen banklopies nie, maar jou bank het dalk."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Anyone with an internet connection can use Bitcoin — it's",
+			"englishValueBefore": "Bitcoin is permissionless, meaning anyone with internet access can use it without asking for approval from any authority.",
+			"currentValue": "Bitcoin is toestemmingsloos, wat beteken enigiemand met internettoegang kan dit gebruik sonder om goedkeuring van enige owerheid te vra.",
+			"targetTranslation": "Enigeen met 'n internetverbinding kan Bitcoin gebruik — dis"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_2",
+			"reason": "english-changed",
+			"englishValue": "permissionless.",
+			"englishValueBefore": "Bitcoin operates without gatekeepers",
+			"currentValue": "Bitcoin werk sonder hekwagters",
+			"targetTranslation": "toestemmingsvry."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_1_summary_3",
+			"reason": "english-changed",
+			"englishValue": "Banks can refuse, freeze, or close accounts based on policy or government rules.",
+			"englishValueBefore": "- no one can deny you access. Banks, however, can refuse to open accounts, freeze existing accounts, or deny services based on their policies or government regulations.",
+			"currentValue": "- niemand kan jou toegang weier nie. Banke kan egter weier om rekeninge oop te maak, bestaande rekeninge vries, of dienste weier op grond van hul beleide of regeringsregulasies.",
+			"targetTranslation": "Banke kan rekeninge weier, vries of sluit gebaseer op beleid of regeringsreëls."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "The Bitcoin network runs 24/7/365 with no maintenance windows or holidays. Banks have limited hours, weekends off, and outage windows.",
+			"englishValueBefore": "The Bitcoin network operates 24 hours a day, 7 days a week, 365 days a year without maintenance windows or holidays. Banks have limited operating hours, close on weekends and holidays, and often have system maintenance periods when services are unavailable.",
+			"currentValue": "Die Bitcoin-netwerk werk 24 uur per dag, 7 dae per week, 365 dae per jaar sonder onderhoudsvensters of vakansiedae. Banke het beperkte bedryfsure, sluit oor naweke en vakansiedae, en het dikwels stelselonderhoudstydperke wanneer dienste onbeskikbaar is.",
+			"targetTranslation": "Die Bitcoin-netwerk loop 24/7/365 sonder onderhoudsvensters of vakansiedae. Banke het beperkte ure, naweke af en onderbrekingsperiodes."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Every Bitcoin transaction is on a public blockchain anyone can audit. Banks run private ledgers customers can't independently verify.",
+			"englishValueBefore": "All Bitcoin transactions are recorded on a public blockchain that anyone can verify and audit.",
+			"currentValue": "Alle Bitcoin-transaksies word op 'n openbare blokketting aangeteken wat enigiemand kan verifieer en ouditeer.",
+			"targetTranslation": "Elke Bitcoin-transaksie is op 'n openbare blokketting wat enigeen kan oudit. Banke bedryf private grootboeke wat kliënte nie onafhanklik kan verifieer nie."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "With Bitcoin, you hold your own private keys — see our simple",
+			"englishValueBefore": "With Bitcoin, you can hold your own private keys and have complete control over your money.",
+			"currentValue": "Met Bitcoin kan jy jou eie private sleutels hou en volledige beheer oor jou geld hê.",
+			"targetTranslation": "Met Bitcoin hou jy jou eie privaatsleutels — sien ons eenvoudige"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin wallets",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"currentValue": "Leer oor Bitcoin-beursies",
+			"targetTranslation": "Bitcoin-beursies"
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_4_summary_3",
+			"reason": "english-changed",
+			"englishValue": "guide. Banks hold your money and can freeze, limit, or restrict it at any time.",
+			"englishValueBefore": "to understand self-custody. Banks hold your money in their accounts and can freeze, limit, or restrict access to your funds at any time.",
+			"currentValue": "om selfbewaring te verstaan. Banke hou jou geld in hul rekeninge en kan toegang tot jou fondse enige tyd vries, beperk, of inkort.",
+			"targetTranslation": "gids. Banke hou jou geld en kan dit te eniger tyd vries, beperk of weerhou."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin fees are transparent and predictable. Banks stack on hidden account, overdraft, wire, and ATM fees over time.",
+			"englishValueBefore": "Bitcoin transaction fees are transparent, predictable, and typically very low. Banks often have hidden fees, monthly account fees, overdraft charges, wire transfer fees, ATM fees, and other penalties that can add up significantly over time.",
+			"currentValue": "Bitcoin-transaksiegelde is deursigtig, voorspelbaar, en tipies baie laag. Banke het dikwels versteekte fooie, maandelikse rekeningfooie, oortrekkingskoste, oorplasingskoste, OTM-fooie, en ander boetes wat oor tyd aansienlik kan optel.",
+			"targetTranslation": "Bitcoin-fooie is deursigtig en voorspelbaar. Banke stapel mettertyd versteekte rekening-, oortrekkings-, oorplasings- en OTM-fooie op."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin only lets you spend what you actually own. Banks allow overdrafts, then charge cascading penalty fees for the privilege.",
+			"englishValueBefore": "Bitcoin prevents you from spending money you don't have - you can only spend Bitcoin that you actually own. Banks allow overdrafts (spending more than your account balance) and then charge substantial fees for this 'service,' often leading to cascading penalty charges.",
+			"currentValue": "Bitcoin verhoed jou om geld te bestee wat jy nie het nie - jy kan slegs Bitcoin bestee wat jy werklik besit. Banke laat oortrekkings toe (meer bestee as jou rekeningsaldo) en hef dan aansienlike fooie vir hierdie 'diens', wat dikwels lei tot kaskadering van boetegelde.",
+			"targetTranslation": "Bitcoin laat jou net spandeer wat jy werklik besit. Banke laat oortrekkings toe en hef dan kaskaderende strafboetes vir die voorreg."
+		},
+		{
+			"namespace": "bitcoin-vs-banks",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Once broadcast, Bitcoin transactions can't be stopped or reversed. Banks can block, freeze, or reverse transactions based on policy or government orders.",
+			"englishValueBefore": "Bitcoin transactions are censorship resistant - once broadcast to the network, they cannot be stopped or reversed by any central authority. Banks can block, freeze, reverse, or restrict transactions based on their policies, government orders, or suspicious activity algorithms.",
+			"currentValue": "Bitcoin-transaksies is sensuurbestand - sodra dit na die netwerk uitgesaai is, kan dit nie gestop of omgekeer word deur enige sentrale owerheid nie. Banke kan transaksies blokkeer, vries, omkeer, of beperk op grond van hul beleide, regeringsbevele, of verdagte aktiwiteitsalgoritmes.",
+			"targetTranslation": "Sodra Bitcoin-transaksies uitgesaai is, kan hulle nie gestop of omgekeer word nie. Banke kan transaksies blok, vries of omkeer op grond van beleid of regeringsbevele."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bonds are only 'risk-free' nominally — inflation, interest-rate moves, and default risk all eat real returns.",
+			"englishValueBefore": "Bonds are only 'risk-free' in nominal dollar terms, meaning you'll get your dollars back if you hold to maturity. However, this ignores inflation risk, interest rate risk, and the possibility that those dollars will be worth much less when you get them back.",
+			"currentValue": "Effekte is slegs 'risikovry' in nominale dollarterme, wat beteken jy sal jou dollars terugkry as jy tot vervaldatum hou. Dit ignoreer egter inflasierisiko, rentekoersrisiko, en die moontlikheid dat daardie dollars baie minder werd sal wees wanneer jy hulle terugkry.",
+			"targetTranslation": "Effekte is net nominaal 'risikovry' — inflasie, rentekoersbewegings en wanbetalingsrisiko vreet almal aan werklike opbrengste."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_1_summary_2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has transparent volatility but no hidden counterparty risk.",
+			"englishValueBefore": "Bitcoin has clear, transparent risks (volatility) but no hidden counterparty risk - you either own your Bitcoin or you don't.",
+			"currentValue": "Bitcoin het duidelike, deursigtige risiko's (wisselvalligheid) maar geen versteekte teenpartyrisiko nie - jy besit óf jou Bitcoin óf jy besit dit nie.",
+			"targetTranslation": "Bitcoin het deursigtige volatiliteit, maar geen verskuilde teenpartyrisiko nie."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "When",
+			"englishValueBefore": "When inflation is higher than bond yields, bondholders lose purchasing power every year. A 2% bond yield with 4% inflation means you're losing 2% of real value annually.",
+			"currentValue": "Wanneer inflasie hoër is as effekte-opbrengste, verloor effektehouers elke jaar koopkrag. 'n 2% effekte-opbrengs met 4% inflasie beteken jy verloor 2% van werklike waarde jaarliks.",
+			"targetTranslation": "Wanneer"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation",
+			"englishValueBefore": "Learn more about inflation.",
+			"currentValue": "Leer meer oor inflasie.",
+			"targetTranslation": "inflasie"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_2_summary_3",
+			"reason": "english-changed",
+			"englishValue": "outpaces bond yields, bondholders lose real purchasing power every year. Bitcoin's 21-million cap can't be inflated away.",
+			"englishValueBefore": "Bitcoin's fixed supply of 21 million coins means it can't be inflated away, but bonds can be devalued by money printing.",
+			"currentValue": "Bitcoin se vaste voorraad van 21 miljoen munte beteken dit kan nie weg-geïnfleer word nie, maar effekte kan deur gelddrukking gedevalueer word.",
+			"targetTranslation": "effekteopbrengste verbystreef, verloor effektehouers jaar na jaar werklike koopkrag. Bitcoin se plafon van 21 miljoen kan nie weg-geïnflateer word nie."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bond markets can freeze in crises — Silicon Valley Bank collapsed partly because it was stuck holding bonds that lost value. See how",
+			"englishValueBefore": "During financial crises, bond markets can freeze up and become illiquid. Banks like Silicon Valley Bank got stuck holding bonds that lost significant value when interest rates rose, contributing to their collapse.",
+			"currentValue": "Tydens finansiële krisisse kan effektemarkte vasloop en onlikied word. Banke soos Silicon Valley Bank het vasgesit met effekte wat aansienlike waarde verloor het toe rentekoerse gestyg het, wat tot hul ineenstorting bygedra het.",
+			"targetTranslation": "Effektemarkte kan tydens krisisse bevries — Silicon Valley Bank het deels ineengestort omdat hy vasgeval was met effekte wat waarde verloor het. Sien hoe"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_2",
+			"reason": "english-changed",
+			"englishValue": "bank runs",
+			"englishValueBefore": "Learn how Silicon Valley Bank failed and why Bitcoin is different.",
+			"currentValue": "Leer hoe Silicon Valley Bank misluk het en hoekom Bitcoin anders is.",
+			"targetTranslation": "banklopies"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_3_summary_3",
+			"reason": "english-changed",
+			"englishValue": "happen and why Bitcoin avoids them. Bitcoin trades 24/7 globally with no liquidity crises.",
+			"englishValueBefore": "Bitcoin trades 24/7 globally and has never had a liquidity crisis - you can always find a buyer or seller.",
+			"currentValue": "Bitcoin verhandel 24/7 wêreldwyd en het nog nooit 'n likiditeitskrisis gehad nie - jy kan altyd 'n koper of verkoper vind.",
+			"targetTranslation": "gebeur en hoekom Bitcoin dit vermy. Bitcoin verhandel 24/7 wêreldwyd sonder likiditeitskrisisse."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Treasury auctions can fail when there aren't enough buyers — see the",
+			"englishValueBefore": "Treasury auctions can fail when there aren't enough buyers for government debt. This happened multiple times in recent years, including weak demand for 10-year bonds in 2022 and 30-year bonds in 2023.",
+			"currentValue": "Tesourieveilings kan misluk wanneer daar nie genoeg kopers vir staatskuld is nie. Dit het in onlangse jare verskeie kere gebeur, insluitend swak vraag na 10-jaar effekte in 2022 en 30-jaar effekte in 2023.",
+			"targetTranslation": "Tesourie-veilings kan misluk wanneer daar nie genoeg kopers is nie — sien die"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_2",
+			"reason": "english-changed",
+			"englishValue": "weak 2022 auction.",
+			"englishValueBefore": "Learn more about these failed treasury auctions.",
+			"currentValue": "Leer meer oor hierdie mislukte tesourieveilings.",
+			"targetTranslation": "swak 2022-veiling."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_4_summary_3",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's price is discovered continuously on open markets with no central auction that can fail.",
+			"englishValueBefore": "Bitcoin's price is discovered through continuous global markets with no central auction that can fail.",
+			"currentValue": "Bitcoin se prys word deur deurlopende globale markte ontdek sonder 'n sentrale veiling wat kan misluk.",
+			"targetTranslation": "Bitcoin se prys word deurlopend op oop markte ontdek sonder 'n sentrale veiling wat kan misluk."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bond yields are fixed at purchase. Even if the economy booms or the currency collapses, your return stays the same.",
+			"englishValueBefore": "Bond yields are fixed when you buy them. Even if the economy grows rapidly or the currency devalues significantly, your return stays the same.",
+			"currentValue": "Effekte-opbrengste word vasgestel wanneer jy hulle koop. Selfs as die ekonomie vinnig groei of die geldeenheid aansienlik devalueer, bly jou opbrengs dieselfde.",
+			"targetTranslation": "Effekteopbrengste is by aankoop vasgestel. Selfs as die ekonomie oplewe of die geldeenheid ineenstort, bly jou opbrengs dieselfde."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_5_summary_2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has room for significant appreciation as adoption grows and demand meets fixed supply.",
+			"englishValueBefore": "Bitcoin has the potential for significant appreciation as adoption grows and the fixed supply meets increasing demand.",
+			"currentValue": "Bitcoin het die potensiaal vir beduidende waardering soos aanvaarding groei en die vaste voorraad toenemende vraag ontmoet.",
+			"targetTranslation": "Bitcoin het ruimte vir aansienlike waardevermeerdering soos aanneming groei en vraag die vaste aanbod ontmoet."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Most bonds are held through banks or brokers, adding counterparty risk. Bitcoin can be self-custodied with a",
+			"englishValueBefore": "Most people hold bonds through intermediaries like banks, brokers, or funds, creating counterparty risk. You don't actually own the bonds directly.",
+			"currentValue": "Die meeste mense hou effekte deur tussengangers soos banke, makelaars, of fondse, wat teenpartyrisiko skep. Jy besit nie die effekte direk nie.",
+			"targetTranslation": "Die meeste effekte word deur banke of makelaars gehou, wat teenpartyrisiko byvoeg. Bitcoin kan in selfbewaring gehou word met 'n"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_6_summary_2",
+			"reason": "english-changed",
+			"englishValue": "wallet",
+			"englishValueBefore": "With Bitcoin, you can take direct ownership through self-custody, eliminating counterparty risk entirely.",
+			"currentValue": "Met Bitcoin kan jy direkte eienaarskap neem deur selfbewaring, wat teenpartyrisiko heeltemal uitskakel.",
+			"targetTranslation": "beursie"
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bonds depend entirely on governments paying back. If a government defaults or inflates away its debt, bondholders lose.",
+			"englishValueBefore": "Bonds depend entirely on the government's ability and willingness to pay. If the government faces fiscal crisis, defaults, or decides to inflate away the debt, bondholders suffer.",
+			"currentValue": "Effekte hang heeltemal af van die regering se vermoë en bereidwilligheid om te betaal. As die regering 'n fiskale krisis in die gesig staar, wanbetaal, of besluit om die skuld weg te infleer, ly effektehouers.",
+			"targetTranslation": "Effekte hang heeltemal af van regerings wat terugbetaal. As 'n regering wanbetaal of sy skuld weg-inflateer, verloor effektehouers."
+		},
+		{
+			"namespace": "bitcoin-vs-bonds",
+			"key": "point_7_summary_2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin operates independently of any government or political authority.",
+			"englishValueBefore": "Bitcoin operates independently of any government and cannot be controlled, inflated, or defaulted on by political authorities.",
+			"currentValue": "Bitcoin werk onafhanklik van enige regering en kan nie beheer, geïnfleer, of wanbetaal word deur politieke owerhede nie.",
+			"targetTranslation": "Bitcoin funksioneer onafhanklik van enige regering of politieke owerheid."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin moves over the internet anywhere in minutes. Cash needs physical presence or trusted couriers — you can't email a $20 bill.",
+			"englishValueBefore": "Bitcoin can be sent anywhere in the world instantly over the Internet, while cash requires physical presence or trusted intermediaries. You can't email cash, but you can send Bitcoin to anyone with an Internet connection in minutes.",
+			"currentValue": "Bitcoin kan oral ter wêreld onmiddellik oor die internet gestuur word, terwyl kontant fisiese teenwoordigheid of betroubare tussengangers vereis. Jy kan nie kontant e-pos nie, maar jy kan Bitcoin aan enigiemand met 'n internetverbinding stuur binne minute.",
+			"targetTranslation": "Bitcoin beweeg binne minute oor die internet oral heen. Kontant benodig fisiese teenwoordigheid of vertroude koeriers — jy kan nie 'n $20-noot epos nie."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin works the same way everywhere. Cash is limited by geography, exchange rates, and local acceptance.",
+			"englishValueBefore": "Bitcoin works the same way everywhere in the world - there are no borders in the Bitcoin network. Cash is limited by geography, exchange rates, and local acceptance. Try using US dollars in rural Thailand or Japanese yen in rural Mexico.",
+			"currentValue": "Bitcoin werk oral ter wêreld op dieselfde manier - daar is geen grense in die Bitcoin-netwerk nie. Kontant word beperk deur geografie, wisselkoerse, en plaaslike aanvaarding. Probeer om Amerikaanse dollars in landelike Thailand of Japannese jen in landelike Mexiko te gebruik.",
+			"targetTranslation": "Bitcoin werk oral dieselfde. Kontant word deur geografie, wisselkoerse en plaaslike aanvaarding beperk."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Governments can invalidate cash overnight — India did it in 2016. Even without demonetization, cash loses value to",
+			"englishValueBefore": "Governments can and do invalidate cash overnight through demonetization policies, like India did in 2016 when they banned certain banknotes.",
+			"currentValue": "Regerings kan en maak kontant oornag ongeldig deur demonetarisasiebeleid, soos Indië in 2016 gedoen het toe hulle sekere banknote verbied het.",
+			"targetTranslation": "Regerings kan kontant oornag ongeldig verklaar — Indië het dit in 2016 gedoen. Selfs sonder demonetisering verloor kontant waarde deur"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation.",
+			"englishValueBefore": "Even without banning certain banknotes, governments constantly devalue cash through inflation.",
+			"currentValue": "Selfs sonder die verbanning van sekere banknote, devalueer regerings voortdurend kontant deur inflasie.",
+			"targetTranslation": "inflasie."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_3_summary_3",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin can't be invalidated by any government or authority.",
+			"englishValueBefore": "Bitcoin cannot be invalidated by any government or authority - it exists on a global, decentralized network that no single entity controls.",
+			"currentValue": "Bitcoin kan nie deur enige regering of owerheid ongeldig gemaak word nie - dit bestaan op 'n globale, gedesentraliseerde netwerk wat geen enkele entiteit beheer nie.",
+			"targetTranslation": "Bitcoin kan deur geen regering of owerheid ongeldig verklaar word nie."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Cash can be counterfeited, sometimes convincingly. Bitcoin uses cryptography that makes counterfeiting mathematically impossible.",
+			"englishValueBefore": "Cash can be counterfeited, and it's often difficult to detect fake bills without special equipment. Even with security features, counterfeit cash continues to circulate. Bitcoin uses cryptographic proof that makes counterfeiting mathematically impossible.",
+			"currentValue": "Kontant kan nagemaak word, en dit is dikwels moeilik om vals note sonder spesiale toerusting op te spoor. Selfs met sekuriteitskenmerke bly nagemaakte kontant in omloop. Bitcoin gebruik kriptografiese bewys wat namaak wiskundig onmoontlik maak.",
+			"targetTranslation": "Kontant kan vervals word, soms baie oortuigend. Bitcoin gebruik kriptografie wat vervalsing wiskundig onmoontlik maak."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has no central authority. Cash is issued by governments that can print more, change designs, or invalidate notes at will.",
+			"englishValueBefore": "Cash is issued and controlled by governments, who can print more at will, change designs, or declare certain bills invalid. Bitcoin operates on a decentralized network where no single authority has control over the money supply or rules.",
+			"currentValue": "Kontant word deur regerings uitgereik en beheer, wat na willekeur meer kan druk, ontwerpe kan verander, of sekere note ongeldig kan verklaar. Bitcoin werk op 'n gedesentraliseerde netwerk waar geen enkele owerheid beheer het oor die geldvoorraad of reëls nie.",
+			"targetTranslation": "Bitcoin het geen sentrale owerheid nie. Kontant word uitgereik deur regerings wat na willekeur meer kan druk, ontwerpe kan verander of note ongeldig kan verklaar."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Cash is vulnerable to theft, fire, loss, and confiscation. Bitcoin can be securely",
+			"englishValueBefore": "Cash must be stored physically, making it vulnerable to theft, loss, fire, or confiscation. Large amounts require expensive security measures.",
+			"currentValue": "Kontant moet fisies geberg word, wat dit kwesbaar maak vir diefstal, verlies, vuur, of beslaglegging. Groot bedrae vereis duur sekuriteitsmaatreëls.",
+			"targetTranslation": "Kontant is kwesbaar vir diefstal, brand, verlies en konfiskasie. Bitcoin kan veilig in"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_2",
+			"reason": "english-changed",
+			"englishValue": "self-custodied",
+			"englishValueBefore": "But Bitcoin can be securely stored in self-custody",
+			"currentValue": "Maar Bitcoin kan veilig in selfbewaring geberg word",
+			"targetTranslation": "selfbewaring"
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_6_summary_3",
+			"reason": "english-changed",
+			"englishValue": "on a phone or hardware device.",
+			"englishValueBefore": "using a smartphone app or specialized wallet, giving you complete control over your money without physical storage risks.",
+			"currentValue": "deur 'n slimfoontoepassing of gespesialiseerde beursie te gebruik, wat jou volledige beheer oor jou geld gee sonder fisiese bergingsrisiko's.",
+			"targetTranslation": "gehou word op 'n foon of hardewaretoestel."
+		},
+		{
+			"namespace": "bitcoin-vs-cash",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin divides into 100 million sats, enabling micropayments of any size. Cash has minimum denominations — you can't split a penny.",
+			"englishValueBefore": "Cash has minimum denominations - you can't split a penny into smaller parts. Bitcoin can be divided into 100 million smaller units called satoshis, enabling micropayments and precise transactions of any amount.",
+			"currentValue": "Kontant het minimum denominasies - jy kan nie 'n sent in kleiner dele verdeel nie. Bitcoin kan in 100 miljoen kleiner eenhede genaamd satoshis verdeel word, wat mikrobetalings en presiese transaksies van enige bedrag moontlik maak.",
+			"targetTranslation": "Bitcoin word in 100 miljoen sats verdeel, wat mikrobetalings van enige grootte moontlik maak. Kontant het minimum denominasies — jy kan nie 'n sent opdeel nie."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_10_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is the most secure computing network ever built and has never been hacked. CBDCs rely on banks and governments that have been hacked countless times.",
+			"englishValueBefore": "Bitcoin is the most secure computing network that has ever existed and has never been hacked. CBDCs rely on governments and banks to secure the network, which have been hacked countless times throughout history.",
+			"currentValue": "Bitcoin is die veiligste rekenaarnetwerk wat ooit bestaan het en is nog nooit gehack nie. SDSG's staatmaak op regerings en banke om die netwerk te beveilig, wat al ontelbare kere deur die geskiedenis gehack is.",
+			"targetTranslation": "Bitcoin is die veiligste rekenaarnetwerk ooit gebou en is nog nooit gekraak nie. SBDG's staatmaak op banke en regerings wat al ontelbare kere gekraak is."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Nobody can stop you from transacting with Bitcoin. CBDCs are designed so governments and central banks can control every payment, limiting your privacy and freedom.",
+			"englishValueBefore": "Bitcoin is designed to give you total control over your money.",
+			"currentValue": "Bitcoin is ontwerp om jou totale beheer oor jou geld te gee.",
+			"targetTranslation": "Niemand kan jou keer om met Bitcoin te transakteer nie. SBDG's is ontwerp sodat regerings en sentrale banke elke betaling kan beheer en sodoende jou privaatheid en vryheid kan beperk."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin never expires and has no monthly fees. CBDCs can be programmed to expire, preventing you from saving for the future.",
+			"englishValueBefore": "Bitcoin never expires and has no monthly fees.",
+			"currentValue": "Bitcoin verval nooit en het geen maandelikse fooie nie.",
+			"targetTranslation": "Bitcoin verval nooit nie en het geen maandelikse fooie nie. SBDG's kan geprogrammeer word om te verval, wat jou keer om vir die toekoms te spaar."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. CBDCs have no cap on supply, allowing governments to expand money at will — which causes",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"currentValue": "Bitcoin het 'n harde plafon van 21 miljoen BTC wat ooit sal bestaan.",
+			"targetTranslation": "Bitcoin het 'n harde plafon van 21 miljoen BTC. SBDG's het geen aanbodperk nie, wat regerings toelaat om geld na willekeur uit te brei — wat lei tot"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation.",
+			"englishValueBefore": "CBDCs, much like the government currencies we use today, have no cap on total supply. This lack of cap on total supply allows the government to expand the money supply.",
+			"currentValue": "SDSG's, net soos die regeringsgeldeenhede wat ons vandag gebruik, het geen plafon op totale voorraad nie. Hierdie gebrek aan 'n plafon op totale voorraad stel die regering in staat om die geldvoorraad uit te brei.",
+			"targetTranslation": "inflasie."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_3_summary_3",
+			"reason": "english-changed",
+			"englishValue": "",
+			"englishValueBefore": "This causes inflation.",
+			"currentValue": "Dit veroorsaak inflasie.",
+			"targetTranslation": ""
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin addresses aren't tied to your real identity. CBDCs link directly to government ID, enabling mass financial surveillance and censorship.",
+			"englishValueBefore": "Bitcoin addresses are pseudonymous, which means they are not linked to your real name or identity. CBDCs are directly linked to your real name and identity which enables massive financial surveillance and censorship.",
+			"currentValue": "Bitcoin-adresse is pseudoniem, wat beteken hulle is nie aan jou regte naam of identiteit gekoppel nie. SDSG's is direk aan jou regte naam en identiteit gekoppel wat massiewe finansiële toesig en sensuur moontlik maak.",
+			"targetTranslation": "Bitcoin-adresse is nie aan jou werklike identiteit gekoppel nie. SBDG's koppel direk aan regerings-ID's en maak massa-finansiële toesig en sensuur moontlik."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's rules are validated by tens of thousands of independent nodes. CBDCs are centralized in government and central-bank hands, which hold complete control over the network.",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"currentValue": "Die Bitcoin-netwerk is gedesentraliseer.",
+			"targetTranslation": "Bitcoin se reëls word deur tienduisende onafhanklike nodes gevalideer. SBDG's is gesentraliseer in regerings en sentrale banke se hande, wat volledige beheer oor die netwerk het."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Anyone can run a Bitcoin node to verify the rules of the network. CBDCs don't allow users to run nodes — you have to trust the central authority.",
+			"englishValueBefore": "Bitcoin allows anyone to run a node that verifies the rules of the network are being followed. CBDCs don't allow anyone to run nodes and rely on trust in the government and central banks.",
+			"currentValue": "Bitcoin stel enigiemand in staat om 'n nodus te bedryf wat verifieer dat die reëls van die netwerk nagekom word. SDSG's laat niemand toe om nodusse te bedryf nie en staatmaak op vertroue in die regering en sentrale banke.",
+			"targetTranslation": "Enigeen kan 'n Bitcoin-node laat loop om die reëls van die netwerk te verifieer. SBDG's laat gebruikers nie toe om nodes te laat loop nie — jy moet die sentrale owerheid vertrou."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Self-custodied Bitcoin can't be frozen by anyone. CBDCs are designed so governments and central banks can freeze accounts instantly.",
+			"englishValueBefore": "Bitcoin is designed to make it impossible for others to freeze your money. CBDCs are designed to make it easy for governments and central banks to freeze your money.",
+			"currentValue": "Bitcoin is ontwerp om dit onmoontlik te maak vir ander om jou geld te vries. SDSG's is ontwerp om dit maklik te maak vir regerings en sentrale banke om jou geld te vries.",
+			"targetTranslation": "Self-bewaarde Bitcoin kan deur niemand gevries word nie. SBDG's is ontwerp sodat regerings en sentrale banke rekeninge onmiddellik kan vries."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin gives you full control over your money when you self-custody it with a",
+			"englishValueBefore": "Bitcoin is designed to give you full control over your money.",
+			"currentValue": "Bitcoin is ontwerp om jou volle beheer oor jou geld te gee.",
+			"targetTranslation": "Bitcoin gee jou volle beheer oor jou geld wanneer jy dit self bewaar met 'n"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_2",
+			"reason": "english-changed",
+			"englishValue": "wallet.",
+			"englishValueBefore": "Just make sure you withdraw it to a self-custody wallet.",
+			"currentValue": "Maak net seker jy trek dit na 'n selfbewaringsbeursie.",
+			"targetTranslation": "beursie."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_8_summary_3",
+			"reason": "english-changed",
+			"englishValue": "CBDCs require trusting custodians like banks or governments to hold your money for you.",
+			"englishValueBefore": "When you self-custody your bitcoin, no one can stop you from accessing your money.",
+			"currentValue": "Wanneer jy jou bitcoin self bewaar, kan niemand jou keer om toegang tot jou geld te kry nie.",
+			"targetTranslation": "SBDG's vereis dat jy bewaarders soos banke of regerings vertrou om jou geld vir jou te hou."
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's monetary policy is fixed in code and can't be changed. CBDCs can be reprogrammed at will by politicians, causing",
+			"englishValueBefore": "Bitcoin has a predictable monetary policy that is fixed in code and can't be changed. CBDCs, like our currencies today, have a monetary policy that can easily be changed.",
+			"currentValue": "Bitcoin het 'n voorspelbare monetêre beleid wat in kode vasgelê is en nie verander kan word nie. SDSG's, soos ons geldeenhede vandag, het 'n monetêre beleid wat maklik verander kan word.",
+			"targetTranslation": "Bitcoin se monetêre beleid is in kode vasgelê en kan nie verander word nie. SBDG's kan na willekeur deur politici herprogrammeer word, wat lei tot"
+		},
+		{
+			"namespace": "bitcoin-vs-cbdc",
+			"key": "point_9_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation",
+			"englishValueBefore": "This results in inflation when politicians print too much money.",
+			"currentValue": "Dit lei tot inflasie wanneer politici te veel geld druk.",
+			"targetTranslation": "inflasie"
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's protocol has stayed fundamentally the same since 2009, providing predictable rules. Most crypto projects constantly change protocols, tokenomics, or fork into new versions.",
+			"englishValueBefore": "Bitcoin's protocol has remained fundamentally unchanged since 2009, providing predictable rules that cannot be easily altered. Most crypto projects frequently update their protocols, change tokenomics, or fork into new versions, creating uncertainty for users.",
+			"currentValue": "Bitcoin se protokol het fundamenteel onveranderd gebly sedert 2009, wat voorspelbare reëls bied wat nie maklik gewysig kan word nie. Die meeste kriptoprojekte werk hul protokolle gereeld by, verander tokenomie, of vurk in nuwe weergawes, wat onsekerheid vir gebruikers skep.",
+			"targetTranslation": "Bitcoin se protokol is sedert 2009 fundamenteel dieselfde, wat voorspelbare reëls verskaf. Die meeste kripto-projekte verander voortdurend protokolle, tokenomika of vurk in nuwe weergawes."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin runs on tens of thousands of independent nodes worldwide. Most crypto projects are controlled by foundations, companies, or small dev teams that can make unilateral changes.",
+			"englishValueBefore": "Bitcoin operates on a truly decentralized network with tens of thousands of independent nodes worldwide. Many crypto projects are controlled by foundations, companies, or small groups of developers who can make unilateral decisions about the protocol's future.",
+			"currentValue": "Bitcoin werk op 'n werklik gedesentraliseerde netwerk met tienduisende onafhanklike nodusse wêreldwyd. Baie kriptoprojekte word beheer deur stigtings, maatskappye, of klein groepe ontwikkelaars wat eensydige besluite oor die protokol se toekoms kan neem.",
+			"targetTranslation": "Bitcoin loop op tienduisende onafhanklike nodes wêreldwyd. Die meeste kripto-projekte word beheer deur stigtings, maatskappye of klein ontwikkelingspanne wat eensydig veranderings kan maak."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has a hard cap of 21 million coins — the scarcest digital asset. Most crypto projects have unlimited supplies or mechanisms to mint new tokens at will, diluting holders.",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million coins that will ever exist, making it the scarcest digital asset. Most crypto projects have unlimited supplies, inflationary mechanisms, or can mint new tokens at will, diluting holder value over time.",
+			"currentValue": "Bitcoin het 'n harde plafon van 21 miljoen munte wat ooit sal bestaan, wat dit die skaarsste digitale bate maak. Die meeste kriptoprojekte het onbeperkte voorrade, inflasionêre meganismes, of kan nuwe tokens na willekeur skep, wat houerwaarde oor tyd verdun.",
+			"targetTranslation": "Bitcoin het 'n harde plafon van 21 miljoen munte — die skaarste digitale bate. Die meeste kripto-projekte het onbeperkte aanbod of meganismes om na willekeur nuwe tokens te skep wat houers verdun."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has one purpose: peer-to-peer digital money. Anyone can understand and use it. Most crypto involves complex smart contracts or DeFi that require technical expertise to use safely.",
+			"englishValueBefore": "Bitcoin has one simple purpose: peer-to-peer digital money. Anyone can understand and use it with basic knowledge. Many crypto projects involve complex smart contracts, DeFi protocols, or governance mechanisms that require technical expertise to use safely.",
+			"currentValue": "Bitcoin het een eenvoudige doel: eweknie-tot-eweknie digitale geld. Enigiemand kan dit verstaan en met basiese kennis gebruik. Baie kriptoprojekte behels komplekse slim kontrakte, DeFi-protokolle, of bestuurmeganismes wat tegniese kundigheid vereis om veilig te gebruik.",
+			"targetTranslation": "Bitcoin het een doel: portuur-tot-portuur digitale geld. Enigeen kan dit verstaan en gebruik. Die meeste kripto behels komplekse slim kontrakte of DeFi wat tegniese kundigheid vereis om veilig te gebruik."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's Proof of Work has run without a successful attack on the main network for over 15 years. Most crypto projects use experimental consensus that hasn't been battle-tested.",
+			"englishValueBefore": "Bitcoin uses Proof of Work consensus, which has been battle-tested for over 15 years without a single successful attack on the main network. Many crypto projects use experimental consensus mechanisms like Proof of Stake or delegated systems that haven't proven their long-term security.",
+			"currentValue": "Bitcoin gebruik Bewys-van-Werk-konsensus, wat al vir meer as 15 jaar beproef is sonder 'n enkele suksesvolle aanval op die hoofnetwerk. Baie kriptoprojekte gebruik eksperimentele konsensusmeganismes soos Bewys-van-Belang of gedelegeerde stelsels wat nog nie hul langtermynsekuriteit bewys het nie.",
+			"targetTranslation": "Bitcoin se Proof of Work loop al meer as 15 jaar sonder 'n suksesvolle aanval op die hoofnetwerk. Die meeste kripto-projekte gebruik eksperimentele konsensus wat nog nie in die praktyk getoets is nie."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is digital money — a store of value and medium of exchange. Most crypto tokens are speculative utility or governance tokens with unclear real-world value.",
+			"englishValueBefore": "Bitcoin serves as digital money - a store of value and medium of exchange. Most crypto tokens are utility tokens for specific platforms, governance tokens, or speculative assets with unclear real-world value propositions.",
+			"currentValue": "Bitcoin dien as digitale geld - 'n waardeberg en ruilmiddel. Die meeste kripto-tokens is nuttigheids-tokens vir spesifieke platforms, bestuurstokens, of spekulatiewe bates met onduidelike werklike-wêreld-waarde-voorstelle.",
+			"targetTranslation": "Bitcoin is digitale geld — 'n waardebewaarder en ruilmiddel. Die meeste kripto-tokens is spekulatiewe nuts- of bestuurstokens met onduidelike werklike waarde."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin grows stronger under attack and has survived every crisis, ban, and criticism. Most crypto projects collapse under regulatory, technical, or market pressure.",
+			"englishValueBefore": "Bitcoin becomes stronger under attack and has survived every crisis, ban, and criticism thrown at it. Most crypto projects are fragile and can collapse from regulatory pressure, technical failures, or market downturns.",
+			"currentValue": "Bitcoin word sterker onder aanval en het elke krisis, verbanning, en kritiek wat daarna gegooi is oorleef. Die meeste kriptoprojekte is broos en kan ineenstort weens regulatoriese druk, tegniese mislukkings, of markinsinkings.",
+			"targetTranslation": "Bitcoin word sterker onder aanval en het elke krisis, verbod en kritiek oorleef. Die meeste kripto-projekte stort ineen onder regulerings-, tegniese of markdruk."
+		},
+		{
+			"namespace": "bitcoin-vs-crypto",
+			"key": "point_8_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has no CEO, no company, no single point of failure. Most crypto projects depend on VCs, specific leadership, or one company's survival.",
+			"englishValueBefore": "Bitcoin has no CEO, no company behind it, and no single point of failure. Many crypto projects are backed by venture capital firms, have identifiable leadership teams, or depend on specific companies for their continued operation.",
+			"currentValue": "Bitcoin het geen HUB, geen maatskappy agter dit, en geen enkele punt van mislukking nie. Baie kriptoprojekte word ondersteun deur waagkapitaalfirmas, het identifiseerbare leierskapspanne, of is afhanklik van spesifieke maatskappye vir hul voortgesette werking.",
+			"targetTranslation": "Bitcoin het geen HUB, geen maatskappy, geen enkele punt van mislukking nie. Die meeste kripto-projekte hang van waagkapitaliste, spesifieke leierskap of een maatskappy se oorlewing af."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every artwork is unique — different creation, history, condition, and provenance make direct comparisons extremely difficult.",
+			"englishValueBefore": "Bitcoin is perfectly fungible, meaning every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Fine art is non-fungible by nature, with each piece being unique in its creation, history, condition, and provenance, making direct comparisons and valuations extremely difficult.",
+			"currentValue": "Bitcoin is perfek fungibel, wat beteken elke bitcoin is identies en uitruilbaar - een bitcoin is gelyk aan een bitcoin oral ter wêreld. Beeldende kuns is van nature nie-fungibel, met elke stuk uniek in sy skepping, geskiedenis, toestand, en herkomsbewys, wat direkte vergelykings en waardasies uiters moeilik maak.",
+			"targetTranslation": "Elke bitcoin is identies en uitruilbaar. Elke kunswerk is uniek — verskillende skepping, geskiedenis, toestand en herkoms maak direkte vergelykings uiters moeilik."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin trades 24/7 on a global market accessible to anyone. Fine art requires specialized auction houses, private dealers, or galleries and can take months to sell.",
+			"englishValueBefore": "Bitcoin trades on a global 24/7 market where anyone with internet access can buy or sell instantly. Fine art requires specialized auction houses like Sotheby's or Christie's, private dealers, or exclusive galleries. Sales can take months to arrange and complete, with limited market access and irregular trading opportunities.",
+			"currentValue": "Bitcoin verhandel op 'n globale 24/7-mark waar enigiemand met internettoegang onmiddellik kan koop of verkoop. Beeldende kuns vereis gespesialiseerde veilinghuise soos Sotheby's of Christie's, private handelaars, of eksklusiewe galerye. Verkope kan maande neem om te reël en te voltooi, met beperkte marktoegang en onreëlmatige handelsgeleenthede.",
+			"targetTranslation": "Bitcoin verhandel 24/7 op 'n wêreldmark wat vir enigeen toeganklik is. Goeie kuns vereis gespesialiseerde veilingshuise, private handelaars of galerye en kan maande neem om te verkoop."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Buying or selling Bitcoin costs under 1% in fees, often much less. Art sales rack up 30–40% in buyer's premiums, commissions, insurance, transport, and authentication fees.",
+			"englishValueBefore": "Buying or selling bitcoin typically costs less than 1% in fees, often much less. Fine art sales involve substantial costs including buyer's premiums (10-25%), seller's commissions (10-15%), insurance, transportation, storage, and authentication fees. These combined costs can easily exceed 30-40% of the artwork's value in a single transaction.",
+			"currentValue": "Die koop of verkoop van bitcoin kos tipies minder as 1% in fooie, dikwels baie minder. Beeldende kuns-verkope behels aansienlike koste insluitend koperspremies (10-25%), verkoperskommissies (10-15%), versekering, vervoer, berging, en verifikasiekoste. Hierdie gekombineerde koste kan maklik 30-40% van die kunswerk se waarde in 'n enkele transaksie oorskry.",
+			"targetTranslation": "Die koop of verkoop van Bitcoin kos minder as 1% in fooie, dikwels veel minder. Kunsverkope stapel 30–40% in koperspremies, kommissies, versekering, vervoer en egtheidsertifisering-fooie op."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size transaction. You can't own a fraction of a painting or a corner of a sculpture.",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size from microtransactions to large purchases. Fine art cannot be divided - you cannot own a fraction of a painting or sell just part of a sculpture. This indivisibility limits investment flexibility and liquidity options.",
+			"currentValue": "Bitcoin kan in 100 miljoen kleiner eenhede genaamd satoshis verdeel word, wat dit perfek maak vir transaksies van enige grootte van mikrotransaksies tot groot aankope. Beeldende kuns kan nie verdeel word nie - jy kan nie 'n breukdeel van 'n skildery besit of net 'n deel van 'n beeldhouwerk verkoop nie. Hierdie ondeelbaarheid beperk beleggingsbuigsaamheid en likiditeitopsies.",
+			"targetTranslation": "Bitcoin word in 100 miljoen sats verdeel, wat dit perfek maak vir transaksies van enige grootte. Jy kan nie 'n fraksie van 'n skildery of 'n hoek van 'n beeldhouwerk besit nie."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin ownership and authenticity can be cryptographically verified by anyone on-chain. Art authentication is expensive, slow, and still routinely fooled by forgers — destroying an artwork's value overnight.",
+			"englishValueBefore": "Bitcoin ownership and authenticity can be cryptographically verified on the blockchain by anyone with basic technical knowledge. Fine art requires expensive expert authentication, provenance research, and scientific analysis. Even with expert verification, forgeries regularly fool the art world, and authentication disputes can destroy an artwork's value overnight. Bitcoin, on the other hand, cannot be forged or counterfeited.",
+			"currentValue": "Bitcoin-eienaarskap en egtheid kan kriptografies op die blokketting deur enigiemand met basiese tegniese kennis geverifieer word. Beeldende kuns vereis duur kundige verifikasie, herkomsnavorsing, en wetenskaplike ontleding. Selfs met kundige verifikasie mislei vervalse werke gereeld die kunswêreld, en verifikasiegeskille kan 'n kunswerk se waarde oornag vernietig. Bitcoin kan daarenteen nie vervals of nagemaak word nie.",
+			"targetTranslation": "Bitcoin-eienaarskap en egtheid kan kriptografies op die ketting deur enigeen geverifieer word. Kunsegtheid is duur, stadig en word steeds gereeld deur vervalsers mislei — wat 'n kunswerk se waarde oornag kan vernietig."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin, backed up properly, survives floods, fires, earthquakes, and theft. Fine art is vulnerable to every form of physical destruction, and insurance rarely covers it all.",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, theft, or other disasters. Fine art is vulnerable to all forms of physical destruction and deterioration. Even with expensive climate-controlled storage and comprehensive insurance, artworks can be damaged by environmental factors, accidents, or natural disasters, potentially losing all value.",
+			"currentValue": "Bitcoin, wanneer behoorlik gerugsteun, kan nie deur vloede, vure, aardbewings, orkane, diefstal, of ander rampe vernietig word nie. Beeldende kuns is kwesbaar vir alle vorme van fisiese vernietiging en verval. Selfs met duur klimaatbeheerde berging en omvattende versekering, kan kunswerke deur omgewingsfaktore, ongelukke, of natuurrampe beskadig word, wat potensieel alle waarde verloor.",
+			"targetTranslation": "Bitcoin, reg gerugsteun, oorleef vloede, brande, aardbewings en diefstal. Goeie kuns is kwesbaar vir elke vorm van fisieke vernietiging, en versekering dek dit selde alles."
+		},
+		{
+			"namespace": "bitcoin-vs-fine-art",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Anyone with an internet connection and a little money can buy Bitcoin. Fine art investment is effectively limited to wealthy collectors with auction access and specialized knowledge.",
+			"englishValueBefore": "Bitcoin can be bought and sold by anyone with internet access and a small amount of money to invest. Fine art investment is largely limited to wealthy collectors due to high minimum prices, exclusive auction access, storage requirements, insurance costs, and the specialized knowledge needed to navigate the art market successfully.",
+			"currentValue": "Bitcoin kan deur enigiemand met internettoegang en 'n klein bedrag geld om te belê, gekoop en verkoop word. Beeldende kuns-belegging is grootliks beperk tot ryk versamelaars weens hoë minimumpryse, eksklusiewe veilingtoegang, bergingsvereistes, versekeringskoste, en die gespesialiseerde kennis wat nodig is om die kunsmark suksesvol te navigeer.",
+			"targetTranslation": "Enigeen met 'n internetverbinding en 'n bietjie geld kan Bitcoin koop. Beleggings in goeie kuns is effektief beperk tot welgestelde versamelaars met veilingstoegang en gespesialiseerde kennis."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin can be sent instantly over the internet for low fees. Gold must be physically shipped to transfer ownership.",
+			"englishValueBefore": "Because Bitcoin is digital, it can be sent almost instantly for very low fees by anyone with an Internet connection. Because Gold is physical, it cannot be moved across the Internet and must be physically shipped to transfer ownership.",
+			"currentValue": "Omdat Bitcoin digitaal is, kan dit byna onmiddellik gestuur word vir baie lae fooie deur enigiemand met 'n internetverbinding. Omdat goud fisies is, kan dit nie oor die internet beweeg word nie en moet fisies versend word om eienaarskap oor te dra.",
+			"targetTranslation": "Bitcoin kan onmiddellik oor die internet gestuur word teen lae fooie. Goud moet fisies versend word om eienaarskap oor te dra."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is a digitally native asset you can transfer over the internet. Most online gold is a Digital IOU — you only own a promise from a custodian, not the metal itself.",
+			"englishValueBefore": "Bitcoin is a digitally native asset, which means you can transfer full ownership of it over the Internet. Some companies offer the ability to buy gold online without receiving the actual physical gold, instead trusting the company to hold the gold for you. This is more like a Digital IOU since you only own a promise from the company instead of the actual asset.",
+			"currentValue": "Bitcoin is 'n digitaal-inheemse bate, wat beteken jy kan volle eienaarskap daarvan oor die internet oordra. Sommige maatskappye bied die vermoë om goud aanlyn te koop sonder om die werklike fisiese goud te ontvang, en eerder die maatskappy te vertrou om die goud vir jou te hou. Dit is meer soos 'n digitale skuldbekentenis aangesien jy slegs 'n belofte van die maatskappy besit in plaas van die werklike bate.",
+			"targetTranslation": "Bitcoin is 'n digitaal-inheemse bate wat jy oor die internet kan oordra. Die meeste aanlyn goud is 'n Digitale Skuldbekentenis — jy besit net 'n belofte van 'n bewaarder, nie die metaal self nie."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Gold's supply grows about 1.6% per year, shrinking your slice — less than fiat",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 Million BTC that will ever exist.",
+			"currentValue": "Bitcoin het 'n harde plafon van 21 miljoen BTC wat ooit sal bestaan.",
+			"targetTranslation": "Bitcoin het 'n harde plafon van 21 miljoen BTC. Goud se voorraad groei met ongeveer 1,6% per jaar wat jou deel verklein — minder as fiat-"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation",
+			"englishValueBefore": "New gold supply is pulled out of the ground each year, resulting in inflation of the total supply. It's estimated that the total supply of gold increases by about 1.6% per year, which means your slice of the pie shrinks by 1.6% per year.",
+			"currentValue": "Nuwe goudvoorraad word elke jaar uit die grond gehaal, wat inflasie van die totale voorraad veroorsaak. Daar word beraam dat die totale voorraad van goud met ongeveer 1,6% per jaar toeneem, wat beteken jou deel van die koek krimp met 1,6% per jaar.",
+			"targetTranslation": "inflasie"
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_3_summary_3",
+			"reason": "english-changed",
+			"englishValue": "— but still inflation.",
+			"englishValueBefore": "This is less than fiat inflation, but still inflation.",
+			"currentValue": "Dit is minder as fiat-inflasie, maar steeds inflasie.",
+			"targetTranslation": "— maar steeds inflasie."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "When gold prices rise, more gold gets mined, pushing the price back down. Bitcoin's supply is inelastic — no matter how high the price goes, there will only ever be 21 million.",
+			"englishValueBefore": "Gold has an elastic supply, meaning that as the price of gold rises, there is a greater incentive to mine more gold. This often puts downward pressure on the gold price as new mines come online.",
+			"currentValue": "Goud het 'n elastiese voorraad, wat beteken dat soos die prys van goud styg, daar 'n groter aansporing is om meer goud te myn. Dit plaas dikwels afwaartse druk op die goudprys soos nuwe myne begin werk.",
+			"targetTranslation": "Wanneer goudpryse styg, word meer goud gemyn, wat die prys weer afdruk. Bitcoin se aanbod is onelasties — maak nie saak hoe hoog die prys styg nie, daar sal ooit slegs 21 miljoen wees."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Tens of thousands of independent nodes validate the Bitcoin network. Most physical gold sits in a handful of large custodian vaults.",
+			"englishValueBefore": "The Bitcoin network is decentralized.",
+			"currentValue": "Die Bitcoin-netwerk is gedesentraliseer.",
+			"targetTranslation": "Tienduisende onafhanklike nodes valideer die Bitcoin-netwerk. Die meeste fisiese goud lê in 'n handvol groot bewaarderskluise."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Anyone can verify real Bitcoin by running a full node — it's just an app. Verifying physical gold requires melting it down; the inside could be tungsten.",
+			"englishValueBefore": "With Bitcoin, it's incredibly easy to verify that you have real Bitcoin by taking self-custody of your coins and running a full node.",
+			"currentValue": "Met Bitcoin is dit ongelooflik maklik om te verifieer dat jy regte Bitcoin het deur selfbewaring van jou munte te neem en 'n volle nodus te bedryf.",
+			"targetTranslation": "Enigeen kan regte Bitcoin verifieer deur 'n volle node te laat loop — dis net 'n toepassing. Om fisiese goud te verifieer, vereis dat jy dit afsmelt; die binnekant kan wolfram wees."
+		},
+		{
+			"namespace": "bitcoin-vs-gold",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin divides into 100 million sats, making it perfect for any size purchase. Gold can't be easily divided for small transactions.",
+			"englishValueBefore": "Just like there are 100 cents in 1 dollar, there are 100,000,000 sats in 1 Bitcoin. This enables Bitcoin to be used for all scales of purchases, including microtransactions as small as a few cents.",
+			"currentValue": "Net soos daar 100 sent in 1 dollar is, is daar 100 000 000 sats in 1 Bitcoin. Dit stel Bitcoin in staat om vir alle skale van aankope gebruik te word, insluitend mikrotransaksies so klein as 'n paar sent.",
+			"targetTranslation": "Bitcoin word in 100 miljoen sats verdeel, wat dit perfek maak vir aankope van enige grootte. Goud kan nie maklik vir klein transaksies verdeel word nie."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin moves anywhere in the world instantly. Real estate is fixed to one location and exposed to local economic, political, and natural risks.",
+			"englishValueBefore": "Bitcoin can be moved anywhere in the world instantly over the internet. Real estate is permanently fixed to a specific location and cannot be relocated, making it vulnerable to local economic conditions, natural disasters, and political instability.",
+			"currentValue": "Bitcoin kan oral ter wêreld onmiddellik oor die internet geskuif word. Vaste eiendom is permanent aan 'n spesifieke ligging vasgelê en kan nie verskuif word nie, wat dit kwesbaar maak vir plaaslike ekonomiese toestande, natuurrampe, en politieke onstabiliteit.",
+			"targetTranslation": "Bitcoin beweeg onmiddellik oral in die wêreld. Vaste eiendom is aan een ligging vasgepen en blootgestel aan plaaslike ekonomiese, politieke en natuurlike risiko's."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin divides into 100 million sats. Real estate can't be partly sold — you can't offload just the kitchen or buy half a bedroom.",
+			"englishValueBefore": "Bitcoin can be divided into 100 million smaller units called satoshis, making it perfect for transactions of any size. Real estate cannot be easily divided - you can't sell just the kitchen of your house or buy half a bedroom.",
+			"currentValue": "Bitcoin kan in 100 miljoen kleiner eenhede genaamd satoshis verdeel word, wat dit perfek maak vir transaksies van enige grootte. Vaste eiendom kan nie maklik verdeel word nie - jy kan nie net die kombuis van jou huis verkoop of die helfte van 'n slaapkamer koop nie.",
+			"targetTranslation": "Bitcoin word in 100 miljoen sats verdeel. Vaste eiendom kan nie gedeeltelik verkoop word nie — jy kan nie net die kombuis afgee of 'n halwe slaapkamer koop nie."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin operates on a decentralized network that no government can control. Real estate is heavily regulated — zoning, rent control, eminent domain, and seizure all apply.",
+			"englishValueBefore": "Bitcoin operates on a decentralized network that no government can control. Real estate is subject to extensive government regulation including rent control, eviction moratoriums, zoning laws, and eminent domain where governments can seize your property.",
+			"currentValue": "Bitcoin werk op 'n gedesentraliseerde netwerk wat geen regering kan beheer nie. Vaste eiendom is onderworpe aan uitgebreide regeringsregulasie insluitend huurbeheer, uitsettingsmoratoriums, soneringswette, en eminente domein waar regerings jou eiendom kan beslaglê.",
+			"targetTranslation": "Bitcoin funksioneer op 'n gedesentraliseerde netwerk wat geen regering kan beheer nie. Vaste eiendom is swaar gereguleer — soneringsreëls, huurbeheer, dominium eminens en beslaglegging is almal van toepassing."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin requires no upkeep. Real estate demands repairs, renovations, insurance, property management, and tenant issues.",
+			"englishValueBefore": "Bitcoin requires no maintenance - it exists as digital code on a network. Real estate requires constant upkeep including repairs, renovations, property management, insurance, and dealing with tenants if rented.",
+			"currentValue": "Bitcoin vereis geen onderhoud nie - dit bestaan as digitale kode op 'n netwerk. Vaste eiendom vereis konstante instandhouding insluitend herstelwerk, renovasies, eiendomsbestuur, versekering, en die hantering van huurders as dit verhuur word.",
+			"targetTranslation": "Bitcoin verg geen instandhouding nie. Vaste eiendom vereis herstelwerk, opknappings, versekering, eiendomsbestuur en huurdervraagstukke."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has no ongoing taxes — you only pay capital gains when you sell. Real estate owes annual property taxes regardless of income.",
+			"englishValueBefore": "Bitcoin has no ongoing taxes - you only pay capital gains when you sell. Real estate is subject to annual property taxes that must be paid regardless of whether the property generates income, effectively forcing you to rent your own property from the government forever.",
+			"currentValue": "Bitcoin het geen lopende belasting nie - jy betaal slegs kapitaalwinsbelasting wanneer jy verkoop. Vaste eiendom is onderworpe aan jaarlikse eiendomsbelasting wat betaal moet word ongeag of die eiendom inkomste genereer, wat jou effektief dwing om jou eie eiendom vir altyd van die regering te huur.",
+			"targetTranslation": "Bitcoin het geen deurlopende belasting nie — jy betaal net kapitaalwinsbelasting wanneer jy verkoop. Vaste eiendom verskuldig jaarlikse eiendomsbelasting ongeag inkomste."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin, backed up properly, survives fire, flood, and earthquake. Real estate is vulnerable to every disaster, and insurance rarely covers it all.",
+			"englishValueBefore": "Bitcoin, when backed up properly, cannot be destroyed by floods, fires, earthquakes, hurricanes, or other natural disasters. Real estate is vulnerable to all forms of physical destruction and requires expensive insurance that may not fully cover losses.",
+			"currentValue": "Bitcoin, wanneer behoorlik gerugsteun, kan nie deur vloede, vure, aardbewings, orkane, of ander natuurrampe vernietig word nie. Vaste eiendom is kwesbaar vir alle vorme van fisiese vernietiging en vereis duur versekering wat dalk nie verliese ten volle dek nie.",
+			"targetTranslation": "Bitcoin, reg gerugsteun, oorleef brand, vloed en aardbewing. Vaste eiendom is kwesbaar vir elke ramp, en versekering dek dit selde alles."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Every bitcoin is identical and interchangeable. Every property is unique, making pricing and comparisons difficult.",
+			"englishValueBefore": "Every bitcoin is identical and interchangeable - one bitcoin equals one bitcoin anywhere in the world. Every piece of real estate is unique with different locations, conditions, and characteristics, making it difficult to price and compare properties.",
+			"currentValue": "Elke bitcoin is identies en uitruilbaar - een bitcoin is gelyk aan een bitcoin oral ter wêreld. Elke stuk vaste eiendom is uniek met verskillende liggings, toestande, en eienskappe, wat dit moeilik maak om eiendomme te prys en te vergelyk.",
+			"targetTranslation": "Elke bitcoin is identies en uitruilbaar. Elke eiendom is uniek, wat pryse en vergelykings moeilik maak."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_8_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin trades globally 24/7 by anyone with internet access. Real estate sales are limited to local buyers and can take months of paperwork to close.",
+			"englishValueBefore": "Bitcoin can be bought and sold 24/7 by anyone with internet access anywhere in the world. Real estate sales are limited to local buyers, require lengthy processes with lawyers and agents, and can take months to complete.",
+			"currentValue": "Bitcoin kan 24/7 deur enigiemand met internettoegang oral ter wêreld gekoop en verkoop word. Vaste eiendomverkope is beperk tot plaaslike kopers, vereis langdurige prosesse met prokureurs en agente, en kan maande neem om te voltooi.",
+			"targetTranslation": "Bitcoin verhandel wêreldwyd 24/7 deur enigeen met internettoegang. Vaste-eiendom-verkope is beperk tot plaaslike kopers en kan maande se papierwerk neem om af te sluit."
+		},
+		{
+			"namespace": "bitcoin-vs-real-estate",
+			"key": "point_9_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin enables direct individual ownership for anyone. Buying real estate as an investment beyond your primary residence drives up housing prices, reducing affordability and fueling the housing crisis.",
+			"englishValueBefore": "Bitcoin enables direct individual ownership without intermediaries, promoting financial sovereignty for everyone. Buying real estate as an investment beyond your primary residence contributes to the financialization of housing, treating homes as commodities rather than shelter. This drives up prices, reduces affordability for families, and contributes to the housing and homelessness crisis affecting many countries today.",
+			"currentValue": "Bitcoin maak direkte individuele eienaarskap sonder tussengangers moontlik, wat finansiële selfstandigheid vir almal bevorder. Die koop van vaste eiendom as 'n belegging bo en behalwe jou primêre woning dra by tot die finansialisering van behuising, waar huise as kommoditeite eerder as skuiling behandel word. Dit dryf pryse op, verminder bekostigbaarheid vir gesinne, en dra by tot die behuisings- en haweloosheidskrisis wat baie lande vandag raak.",
+			"targetTranslation": "Bitcoin maak direkte individuele eienaarskap vir enigeen moontlik. Om vaste eiendom as belegging buite jou primêre woning te koop, dryf behuisingspryse op, verminder bekostigbaarheid en dra by tot die behuisingskrisis."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is a direct asset you own outright. Stocks are shares in a company — their value depends on management, performance, and decisions you can't control.",
+			"englishValueBefore": "When you own Bitcoin, you have direct ownership of the asset itself. When you own stocks, you own a share of a company, which means your investment depends on the company's performance, management decisions, and business success.",
+			"currentValue": "Wanneer jy Bitcoin besit, het jy direkte eienaarskap van die bate self. Wanneer jy aandele besit, besit jy 'n aandeel in 'n maatskappy, wat beteken jou belegging hang af van die maatskappy se prestasie, bestuursbesluite, en besigheidsukses.",
+			"targetTranslation": "Bitcoin is 'n direkte bate wat jy heeltemal besit. Aandele is belange in 'n maatskappy — hul waarde hang af van bestuur, prestasie en besluite waaroor jy geen beheer het nie."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has a hard cap of 21 million BTC. Companies can issue new shares at any time, diluting existing shareholders — similar to how fiat",
+			"englishValueBefore": "Bitcoin has a hard cap of 21 million BTC that will ever exist.",
+			"currentValue": "Bitcoin het 'n harde plafon van 21 miljoen BTC wat ooit sal bestaan.",
+			"targetTranslation": "Bitcoin het 'n harde plafon van 21 miljoen BTC. Maatskappye kan te eniger tyd nuwe aandele uitreik, wat bestaande aandeelhouers verdun — soortgelyk aan hoe fiat-"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_2",
+			"reason": "english-changed",
+			"englishValue": "inflation",
+			"englishValueBefore": "Companies can issue new shares at any time, diluting existing shareholders' ownership percentage. This means your slice of the company gets smaller when new shares are created.",
+			"currentValue": "Maatskappye kan enige tyd nuwe aandele uitreik, wat bestaande aandeelhouers se eienaarskappersentasie verdun. Dit beteken jou deel van die maatskappy word kleiner wanneer nuwe aandele geskep word.",
+			"targetTranslation": "inflasie"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_2_summary_3",
+			"reason": "english-changed",
+			"englishValue": " dilutes cash. With Bitcoin, your slice never shrinks.",
+			"englishValueBefore": "This is less than fiat inflation, but still dilution.",
+			"currentValue": "Dit is minder as fiat-inflasie, maar steeds verwatering.",
+			"targetTranslation": "kontant verdun. Met Bitcoin krimp jou deel nooit nie."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has no CEO and no single point of failure. Stocks depend heavily on leadership — one bad decision or departure can tank the price.",
+			"englishValueBefore": "Bitcoin operates on a decentralized network with no single point of failure. Stock investments are subject to key person risk - if the CEO or other critical leaders leave, get sick, or make poor decisions, your investment can suffer significantly. Companies depend heavily on their leadership teams.",
+			"currentValue": "Bitcoin werk op 'n gedesentraliseerde netwerk sonder 'n enkele punt van mislukking. Aandeelbeleggings is onderworpe aan sleutelpersoonrisiko - as die HUB of ander kritieke leiers vertrek, siek word, of swak besluite neem, kan jou belegging aansienlik ly. Maatskappye is sterk afhanklik van hul leierskapspanne.",
+			"targetTranslation": "Bitcoin het geen HUB en geen enkele punt van mislukking nie. Aandele hang sterk af van leierskap — een slegte besluit of vertrek kan die prys inkelder."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's price comes from open global markets. Stock valuations rely on metrics like P/E ratios that can mask overpriced shares.",
+			"englishValueBefore": "Bitcoin's price is determined purely by market supply and demand. Stock prices are often evaluated using P/E ratios (Price-to-Earnings), which show how much investors pay for each dollar of company earnings. High P/E ratios can indicate overvalued stocks, making it harder to determine fair value.",
+			"currentValue": "Bitcoin se prys word suiwer deur markvraag en -aanbod bepaal. Aandelepryse word dikwels geëvalueer met P/V-verhoudings (Prys-tot-Verdienste), wat wys hoeveel beleggers vir elke dollar van maatskappyverdienste betaal. Hoë P/V-verhoudings kan oorgewaardeerde aandele aandui, wat dit moeiliker maak om billike waarde te bepaal.",
+			"targetTranslation": "Bitcoin se prys kom uit oop wêreldmarkte. Aandelewaardasies steun op maatstawwe soos P/E-verhoudings wat oorgeprysde aandele kan verberg."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin trades 24/7 around the world. Stock markets are only open during business hours on weekdays.",
+			"englishValueBefore": "Bitcoin trades 24 hours a day, 7 days a week on global exchanges.",
+			"currentValue": "Bitcoin verhandel 24 uur per dag, 7 dae per week op globale beurse.",
+			"targetTranslation": "Bitcoin verhandel 24/7 regoor die wêreld. Aandelemarkte is net tydens kantoorure op weeksdae oop."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "You can take",
+			"englishValueBefore": "With Bitcoin, you can take self-custody of your coins, meaning you truly own them without depending on any third party.",
+			"currentValue": "Met Bitcoin kan jy selfbewaring van jou munte neem, wat beteken jy besit hulle werklik sonder om van enige derde party afhanklik te wees.",
+			"targetTranslation": "Jy kan"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_2",
+			"reason": "english-changed",
+			"englishValue": "self-custody",
+			"englishValueBefore": "Self-custody is as simple as downloading an app.",
+			"currentValue": "Selfbewaring is so eenvoudig soos om 'n toepassing af te laai.",
+			"targetTranslation": "selfbewaring"
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_6_summary_3",
+			"reason": "english-changed",
+			"englishValue": "of Bitcoin with a simple app — no broker needed. Stocks sit with brokerages, exposing you to counterparty risk if they fail.",
+			"englishValueBefore": "Stocks require a brokerage account and you're subject to counterparty risk - if the company goes bankrupt or the brokerage fails, you could lose your investment.",
+			"currentValue": "Aandele vereis 'n makelaarsrekening en jy is onderworpe aan teenpartyrisiko - as die maatskappy bankrot gaan of die makelaar misluk, kan jy jou belegging verloor.",
+			"targetTranslation": "van Bitcoin neem met 'n eenvoudige toepassing — geen makelaar nodig nie. Aandele sit by makelaarshuise, wat jou aan teenpartyrisiko blootstel as hulle ineenstort."
+		},
+		{
+			"namespace": "bitcoin-vs-stocks",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin's fixed supply makes it a reliable inflation hedge. Some stocks beat inflation, others don't — there's no guarantee.",
+			"englishValueBefore": "Bitcoin is a fixed supply asset with a hard cap of 21 million Bitcoin that will ever exist. This makes it a great inflation hedge. Stocks have variable performance against inflation - some companies do well during inflationary periods while others struggle. There's no guarantee that any particular stock will protect against inflation.",
+			"currentValue": "Bitcoin is 'n vaste-voorraad-bate met 'n harde plafon van 21 miljoen Bitcoin wat ooit sal bestaan. Dit maak dit 'n uitstekende inflasie-beskerming. Aandele het wisselende prestasie teen inflasie - sommige maatskappye vaar goed tydens inflasionêre tydperke terwyl ander sukkel. Daar is geen waarborg dat enige spesifieke aandeel teen inflasie sal beskerm nie.",
+			"targetTranslation": "Bitcoin se vaste aanbod maak dit 'n betroubare skans teen inflasie. Sommige aandele klop inflasie, ander nie — daar is geen waarborg nie."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_1_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is an open network anyone can join and use without permission. Visa is a closed system controlled by financial institutions that can deny access — especially to the unbanked and underbanked.",
+			"englishValueBefore": "Bitcoin is an open network that anyone can join and use without permission. Credit card networks like Visa are closed systems controlled by financial institutions that can deny access to anyone they choose.",
+			"currentValue": "Bitcoin is 'n oop netwerk waarby enigiemand kan aansluit en sonder toestemming kan gebruik. Kredietkaartnetwerke soos Visa is geslote stelsels wat deur finansiële instellings beheer word wat toegang kan weier aan enigiemand wat hulle kies.",
+			"targetTranslation": "Bitcoin is 'n oop netwerk wat enigeen sonder toestemming kan aansluit en gebruik. Visa is 'n geslote stelsel onder beheer van finansiële instellings wat toegang kan weier — veral aan die wat geen of beperkte banktoegang het."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin transactions have no merchant fees. Visa typically charges merchants around 3% per transaction — your business can save money accepting",
+			"englishValueBefore": "Bitcoin transactions have no fees for merchants, while credit card companies typically charge merchants around 3% per transaction.",
+			"currentValue": "Bitcoin-transaksies het geen fooie vir handelaars nie, terwyl kredietkaartmaatskappye tipies ongeveer 3% per transaksie van handelaars hef.",
+			"targetTranslation": "Bitcoin-transaksies het geen handelaarsfooie nie. Visa vra handelaars gewoonlik ongeveer 3% per transaksie — jou besigheid kan geld bespaar deur"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin payments",
+			"englishValueBefore": "Learn how your business can save money",
+			"currentValue": "Leer hoe jou besigheid geld kan spaar",
+			"targetTranslation": "Bitcoin-betalings"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_2_summary_3",
+			"reason": "english-changed",
+			"englishValue": " instead.",
+			"englishValueBefore": "by accepting Bitcoin payments instead of paying credit card processing fees.",
+			"currentValue": "deur Bitcoin-betalings te aanvaar in plaas van kredietkaart-verwerkingsfooie te betaal.",
+			"targetTranslation": "eerder te aanvaar."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_3_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Every Bitcoin transaction is on a public, auditable blockchain. Visa runs a closed, proprietary system where customers can't independently verify anything.",
+			"englishValueBefore": "Bitcoin operates on a transparent blockchain where all transactions can be verified by anyone. Credit card networks operate as closed, proprietary systems where transaction details are hidden from public view.",
+			"currentValue": "Bitcoin werk op 'n deursigtige blokketting waar alle transaksies deur enigiemand geverifieer kan word. Kredietkaartnetwerke werk as geslote, eiendomsregstelsels waar transaksiebesonderhede van openbare siening versteek is.",
+			"targetTranslation": "Elke Bitcoin-transaksie is op 'n openbare, ouditeerbare blokketting. Visa loop 'n geslote, bemarkte stelsel waar kliënte niks onafhanklik kan verifieer nie."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_4_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin can't be frozen by any central authority. Visa can freeze accounts, block transactions, or deny service at any time.",
+			"englishValueBefore": "Credit card companies can freeze accounts, block transactions, or deny service at any time. Bitcoin cannot be frozen or controlled by any central authority.",
+			"currentValue": "Kredietkaartmaatskappye kan rekeninge vries, transaksies blokkeer, of diens enige tyd weier. Bitcoin kan nie bevries of beheer word deur enige sentrale owerheid nie.",
+			"targetTranslation": "Bitcoin kan deur geen sentrale owerheid gevries word nie. Visa kan rekeninge vries, transaksies blok of diens te eniger tyd weier."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_5_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is final-settlement — you can only spend what you own. Credit cards create debt with interest rates often over 25% a year.",
+			"englishValueBefore": "Credit cards create debt that can accumulate high interest rates if not paid off quickly, sometimes exceeding 25% annually.",
+			"currentValue": "Kredietkaarte skep skuld wat hoë rentekoerse kan ophoop as dit nie vinnig afbetaal word nie, soms meer as 25% jaarliks.",
+			"targetTranslation": "Bitcoin is 'n finale vereffening — jy kan net spandeer wat jy besit. Kredietkaarte skep skuld met rentekoerse wat dikwels meer as 25% per jaar is."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin lets you take",
+			"englishValueBefore": "Bitcoin allows for self-custody, meaning you can hold and control your own money without relying on banks or payment processors.",
+			"currentValue": "Bitcoin maak selfbewaring moontlik, wat beteken jy kan jou eie geld hou en beheer sonder om op banke of betalingsverwerkers staat te maak.",
+			"targetTranslation": "Bitcoin laat jou"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_2",
+			"reason": "english-changed",
+			"englishValue": "self-custody",
+			"englishValueBefore": "Learn about Bitcoin wallets",
+			"currentValue": "Leer oor Bitcoin-beursies",
+			"targetTranslation": "selfbewaring"
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_6_summary_3",
+			"reason": "english-changed",
+			"englishValue": "with no bank or payment processor needed. Credit cards always require intermediaries.",
+			"englishValueBefore": "to understand how you can take control of your own money. Credit cards always require intermediaries like banks and payment processors.",
+			"currentValue": "om te verstaan hoe jy beheer van jou eie geld kan neem. Kredietkaarte vereis altyd tussengangers soos banke en betalingsverwerkers.",
+			"targetTranslation": "neem sonder 'n bank of betalingsverwerker. Kredietkaarte vereis altyd tussengangers."
+		},
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "point_7_summary_1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin works 24/7 globally with no business hours. Visa has operating hours, maintenance windows, and geographic restrictions that can block transactions.",
+			"englishValueBefore": "Bitcoin works 24/7 globally with no business hours or geographic restrictions.",
+			"currentValue": "Bitcoin werk 24/7 wêreldwyd sonder besigheidsure of geografiese beperkings.",
+			"targetTranslation": "Bitcoin werk 24/7 wêreldwyd sonder besigheidsure. Visa het bedryfsure, onderhoudsvensters en geografiese beperkings wat transaksies kan blok."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_description",
+			"reason": "english-changed",
+			"englishValue": "A plain-English guide to accepting Bitcoin in your books — hybrid wallets, cost basis, capital gains, and when to call an accountant.",
+			"englishValueBefore": "Learn how to properly account for Bitcoin payments in your business accounting.",
+			"currentValue": "Leer hoe om Bitcoin-betalings behoorlik in jou besigheidsrekeningkunde te verantwoord.",
+			"targetTranslation": "'n Eenvoudige gids om Bitcoin in jou boeke te aanvaar — hibriede beursies, kosprysbasis, kapitaalwins, en wanneer om 'n rekenmeester te roep."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c1",
+			"reason": "english-changed",
+			"englishValue": "The simplest way to accept Bitcoin is with a hybrid wallet that automatically sells 100% of the Bitcoin you receive for dollars (or your local currency) the instant a payment comes in.",
+			"englishValueBefore": "Accepting Bitcoin has many benefits like accepting payments with lower fees & getting more customers.",
+			"currentValue": "Bitcoin-aanvaarding het baie voordele soos laer fooie en meer klante.",
+			"targetTranslation": "Die eenvoudigste manier om Bitcoin te aanvaar is met 'n hibriede beursie wat outomaties 100% van die Bitcoin wat jy ontvang vir dollar (of jou plaaslike geldeenheid) verkoop die oomblik 'n betaling inkom."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s1_c2",
+			"reason": "english-changed",
+			"englishValue": "With this setup, your books look exactly like they do today — the final number is in dollars, every time. No cost basis, no capital gains, no new spreadsheets.",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"currentValue": "As jy 'n hibriede beursie van ons beursiegids gebruik en outomaties 100% van die Bitcoin wat jy ontvang vir dollars verkoop, hoef jy geen veranderinge aan jou huidige rekeningkunde te maak nie.",
+			"targetTranslation": "Met hierdie opstelling lyk jou boeke presies soos vandag — die finale syfer is elke keer in dollar. Geen kosprysbasis, geen kapitaalwins, geen nuwe sigblaaie nie."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2",
+			"reason": "english-changed",
+			"englishValue": "If you keep some Bitcoin: tracking your cost basis",
+			"englishValueBefore": "TRACKING YOUR COST BASIS",
+			"currentValue": "DOPY VAN JOU KOSTEBASIS",
+			"targetTranslation": "As jy 'n deel Bitcoin behou: jou kosprysbasis dop"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c1",
+			"reason": "english-changed",
+			"englishValue": "Some businesses choose to keep a portion of the Bitcoin they receive instead of auto-converting it all. If that's you, the main extra step is tracking your cost basis — the dollar value of each Bitcoin payment on the day you received it.",
+			"englishValueBefore": "Tracking your cost basis is going to be the biggest difference between accounting for dollars and accounting for Bitcoin. Even if you view your business entirely in terms of Bitcoin, you need to report the dollar value of each transaction on your taxes.",
+			"currentValue": "Die byhou van jou kostebasis gaan die grootste verskil wees tussen rekeningkunde vir dollars en rekeningkunde vir Bitcoin. Selfs as jy jou besigheid heeltemal in terme van Bitcoin beskou, moet jy die dollarwaarde van elke transaksie op jou belasting rapporteer.",
+			"targetTranslation": "Sommige besighede kies om 'n gedeelte van die Bitcoin wat hulle ontvang te hou eerder as om alles outomaties om te skakel. As dit jy is, is die hoof ekstra stap om jou kosprysbasis te dop — die dollarwaarde van elke Bitcoin-betaling op die dag wat jy dit ontvang het."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c2",
+			"reason": "english-changed",
+			"englishValue": "Even if you think of your business entirely in Bitcoin, most tax authorities still want the dollar value reported. The good news: it's just two numbers per transaction — the amount of Bitcoin received and its dollar value on that day.",
+			"englishValueBefore": "If you use QuickBooks, you can do this automatically using the Bitcoin Sync plugin.",
+			"currentValue": "As jy QuickBooks gebruik, kan jy dit outomaties doen met die Bitcoin Sync-inprop.",
+			"targetTranslation": "Selfs as jy aan jou besigheid heeltemal in Bitcoin dink, wil die meeste belastingowerhede steeds die dollarwaarde gerapporteer hê. Die goeie nuus: dis net twee syfers per transaksie — die bedrag Bitcoin wat ontvang is en die dollarwaarde daarvan op daardie dag."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s2_c3",
+			"reason": "english-changed",
+			"englishValue": "Use the tools below to automate the lookup so you don't have to check prices every day.",
+			"englishValueBefore": "If you don't use QuickBooks, we recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"currentValue": "As jy nie QuickBooks gebruik nie, beveel ons Satoshi Pacioli Rekeningkundige Dienste aan, 'n rekeningkundige firma wat spesialiseer in Bitcoin-rekeningkunde.",
+			"targetTranslation": "Gebruik die gereedskap hieronder om die opsoek te outomatiseer sodat jy nie elke dag pryse hoef na te gaan nie."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3",
+			"reason": "english-changed",
+			"englishValue": "Spending or selling the Bitcoin you've kept",
+			"englishValueBefore": "SPENDING OR SELLING YOUR BITCOIN",
+			"currentValue": "BESTEE OF VERKOOP JOU BITCOIN",
+			"targetTranslation": "Om die Bitcoin wat jy behou het te spandeer of te verkoop"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c1",
+			"reason": "english-changed",
+			"englishValue": "If you auto-convert every payment to dollars, skip this section — it doesn't apply to you.",
+			"englishValueBefore": "If you use a Hybrid Wallet from our Wallet Guide and automatically sell 100% of the Bitcoin you receive for dollars, you don't need to make any changes to your current accounting.",
+			"currentValue": "As jy 'n hibriede beursie van ons beursiegids gebruik en outomaties 100% van die Bitcoin wat jy ontvang vir dollars verkoop, hoef jy geen veranderinge aan jou huidige rekeningkunde te maak nie.",
+			"targetTranslation": "As jy elke betaling outomaties na dollar omskakel, slaan hierdie afdeling oor — dit is nie op jou van toepassing nie."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c2",
+			"reason": "english-changed",
+			"englishValue": "If you've kept some Bitcoin and later decide to spend or sell it, add the sale price to the same cost-basis spreadsheet. The difference between what the Bitcoin was worth when you received it and what it's worth when you spend or sell it is a capital gain or loss.",
+			"englishValueBefore": "View Wallet Guide.",
+			"currentValue": "Bekyk beursiegids.",
+			"targetTranslation": "As jy 'n deel Bitcoin behou het en later besluit om dit te spandeer of te verkoop, voeg die verkoopprys by dieselfde kosprysbasis-sigblad. Die verskil tussen die Bitcoin se waarde toe jy dit ontvang het en sy waarde toe jy dit spandeer of verkoop, is 'n kapitaalwins of -verlies."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s3_c3",
+			"reason": "english-changed",
+			"englishValue": "Two quick examples:",
+			"englishValueBefore": "If you choose to spend or sell some of the Bitcoin you receive after holding it for a while, you simply need to add the price you sold it for into your Excel spreadsheet that tracks your cost basis.",
+			"currentValue": "As jy kies om sommige van die Bitcoin wat jy ontvang te bestee of te verkoop nadat jy dit vir 'n rukkie gehou het, hoef jy net die prys waarteen jy dit verkoop het by jou Excel-sigblad te voeg wat jou kostebasis dop.",
+			"targetTranslation": "Twee vinnige voorbeelde:"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4",
+			"reason": "english-changed",
+			"englishValue": "Need a pro who speaks Bitcoin?",
+			"englishValueBefore": "I NEED MORE HELP",
+			"currentValue": "EK HET MEER HULP NODIG",
+			"targetTranslation": "Het jy 'n kenner nodig wat Bitcoin ken?"
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "accounting_s4_c1",
+			"reason": "english-changed",
+			"englishValue": "If you'd rather hand this off — or your Bitcoin accounting is more complex than a hybrid wallet can handle — we highly recommend Satoshi Pacioli Accounting Services, a firm that specializes in Bitcoin accounting for businesses.",
+			"englishValueBefore": "If you need more help integrating Bitcoin into your business accounting, we highly recommend Satoshi Pacioli Accounting Services, an accounting firm that specializes in Bitcoin accounting.",
+			"currentValue": "As jy meer hulp nodig het om Bitcoin in jou besigheidsrekeningkunde te integreer, beveel ons Satoshi Pacioli Rekeningkundige Dienste sterk aan, 'n rekeningkundige firma wat spesialiseer in Bitcoin-rekeningkunde.",
+			"targetTranslation": "As jy dit eerder wil oorhandig — of jou Bitcoin-rekeningkunde is meer kompleks as wat 'n hibriede beursie kan hanteer — beveel ons Satoshi Pacioli Accounting Services, 'n firma wat in Bitcoin-rekeningkunde vir besighede spesialiseer, sterk aan."
+		},
+		{
+			"namespace": "business/accounting",
+			"key": "bitcoin_business_accounting_guide",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin accounting for your business",
+			"englishValueBefore": "Bitcoin Business Accounting Guide",
+			"currentValue": "Bitcoin besigheidsrekeningkundegids",
+			"targetTranslation": "Bitcoin-rekeningkunde vir jou besigheid"
+		},
+		{
+			"namespace": "business/sticker-files/english/index",
+			"key": "english_biz_sticker_files_description",
+			"reason": "english-changed",
+			"englishValue": "Download English sticker files to print your own 'Bitcoin Accepted Here' stickers.",
+			"englishValueBefore": "Download English sticker files to print your own Bitcoin Accepted Here stickers.",
+			"currentValue": "Laai Engelse plakkerlêers af om jou eie 'Bitcoin Word Hier Aanvaar'-plakkers te druk.",
+			"targetTranslation": "Laai Engelse plakkerlêers af om jou eie 'Bitcoin Accepted Here'-plakkers te druk."
+		},
+		{
+			"namespace": "business/why",
+			"key": "learn_why_bitcoin_is_good_for_business",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is accepted here",
+			"englishValueBefore": "Learn why Bitcoin is good for business",
+			"currentValue": "Leer hoekom Bitcoin goed is vir besigheid",
+			"targetTranslation": "Bitcoin word hier aanvaar"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_good_for_you",
+			"reason": "english-changed",
+			"englishValue": "Why Bitcoin is great for you too",
+			"englishValueBefore": "BITCOIN IS GOOD FOR YOU TOO!",
+			"currentValue": "BITCOIN IS OOK GOED VIR JOU!",
+			"targetTranslation": "Hoekom Bitcoin ook uitstekend is vir jou"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_learn_more_lowercase",
+			"reason": "english-changed",
+			"englishValue": "Learn more →",
+			"englishValueBefore": "Learn more.",
+			"currentValue": "Leer meer.",
+			"targetTranslation": "Leer meer →"
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c1",
+			"reason": "english-changed",
+			"englishValue": "Inflation happens when more money is printed or created from thin air. That makes the money in your pocket worth less over time — and it's why prices keep going up year after year.",
+			"englishValueBefore": "Inflation happens when more money is printed or created from thin air. This makes your money worth less over time.",
+			"currentValue": "Inflasie gebeur wanneer meer geld gedruk of uit niks geskep word. Dit maak jou geld oor tyd minder werd.",
+			"targetTranslation": "Inflasie vind plaas wanneer meer geld uit die niet gedruk of geskep word. Dit maak dat die geld in jou sak mettertyd minder werd word — en dis hoekom pryse jaar na jaar styg."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s1_c2",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin has a fixed supply of 21 million coins. No government, bank, or company can print more of it. Your Bitcoin savings hold their value over time instead of quietly losing it.",
+			"englishValueBefore": "Bitcoin has a fixed supply, which means no one can print more Bitcoin.",
+			"currentValue": "Bitcoin het 'n vaste voorraad, wat beteken niemand kan meer Bitcoin druk nie.",
+			"targetTranslation": "Bitcoin het 'n vaste aanbod van 21 miljoen munte. Geen regering, bank of maatskappy kan meer daarvan druk nie. Jou Bitcoin-spaargeld hou mettertyd sy waarde in plaas daarvan om dit stilweg te verloor."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c1",
+			"reason": "english-changed",
+			"englishValue": "Multiple U.S. banks have collapsed in recent years because of bank runs. When too many customers tried to withdraw at once, the banks didn't have the cash to pay everyone back.",
+			"englishValueBefore": "Multiple US banks have collapsed in the past few years due to bank runs.",
+			"currentValue": "Verskeie Amerikaanse banke het in die afgelope paar jaar ineengestort weens bankstormlope.",
+			"targetTranslation": "Verskeie Amerikaanse banke het in onlangse jare ineengestort weens banklopies. Toe te veel kliënte op 'n slag wou onttrek, het die banke nie genoeg kontant gehad om almal terug te betaal nie."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c2",
+			"reason": "english-changed",
+			"englishValue": "Instead of just holding your money, banks lend and invest most of it. If those investments go bad — or if depositors lose confidence — the bank can fail, and your deposits can be frozen or lost.",
+			"englishValueBefore": "Instead of just holding your money for you, banks invest and lend out your money. If those investments don't do well, they don't have enough to pay you back.",
+			"currentValue": "In plaas daarvan om net jou geld vir jou te hou, belê en leen banke jou geld uit. As daardie beleggings nie goed vaar nie, het hulle nie genoeg om jou terug te betaal nie.",
+			"targetTranslation": "In plaas daarvan om jou geld net te hou, leen en belê banke die meeste daarvan. As daardie beleggings sleg verloop — of as deposante hul vertroue verloor — kan die bank faal, en jou deposito's kan gevries of verloor word."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s2_c3",
+			"reason": "english-changed",
+			"englishValue": "With Bitcoin, you can hold your own money directly in your own wallet. No bank. No intermediary. No bank run.",
+			"englishValueBefore": "And the FDIC insurance fund only has $1 for every $100 they're insuring.",
+			"currentValue": "En die FDIC-versekeringsfonds het slegs $1 vir elke $100 wat hulle verseker.",
+			"targetTranslation": "Met Bitcoin kan jy jou eie geld direk in jou eie beursie hou. Geen bank. Geen tussenganger. Geen banklopie nie."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c1",
+			"reason": "english-changed",
+			"englishValue": "Unlike credit cards, PayPal, or traditional bank accounts, Bitcoin doesn't require anyone's permission to use.",
+			"englishValueBefore": "Unlike traditional financial networks, Bitcoin doesn't require permission to be used.",
+			"currentValue": "Anders as tradisionele finansiële netwerke, het Bitcoin nie toestemming nodig om gebruik te word nie.",
+			"targetTranslation": "Anders as kredietkaarte, PayPal of tradisionele bankrekeninge, vereis Bitcoin niemand se toestemming om te gebruik nie."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s3_c2",
+			"reason": "english-changed",
+			"englishValue": "No one can freeze your account, block a payment, or cut you off from the network. It's the first financial system in history you can use freely, without fear of censorship or seizure.",
+			"englishValueBefore": "That means no one can stop you from using Bitcoin for any reason. It's the first financial network you can use without fear of censorship or seizure.",
+			"currentValue": "Dit beteken niemand kan jou keer om Bitcoin te gebruik vir enige rede nie. Dit is die eerste finansiële netwerk wat jy kan gebruik sonder vrees vir sensuur of beslaglegging.",
+			"targetTranslation": "Niemand kan jou rekening vries, 'n betaling blok of jou van die netwerk afsny nie. Dit is die eerste finansiële stelsel in die geskiedenis wat jy vrylik kan gebruik, sonder vrees vir sensuur of beslaglegging."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c1",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin is often misunderstood, but it's quietly doing a lot of good in the world.",
+			"englishValueBefore": "Bitcoin is a misunderstood technology that is building a better world.",
+			"currentValue": "Bitcoin is 'n misverstane tegnologie wat 'n beter wêreld bou.",
+			"targetTranslation": "Bitcoin word dikwels verkeerd verstaan, maar dit doen stilweg baie goed in die wêreld."
+		},
+		{
+			"namespace": "business/why",
+			"key": "why_s4_c2",
+			"reason": "english-changed",
+			"englishValue": "It has helped human rights activists fight for freedom, reduced global methane emissions from landfills and oil fields, stabilized electric grids, and funded public goods like national parks.",
+			"englishValueBefore": "Bitcoin has enabled human rights activists to fight for freedom, reduced global methane emissions, saved national parks, and so much more.",
+			"currentValue": "Bitcoin het menseregte-aktiviste in staat gestel om vir vryheid te veg, globale metaanvrystellings verminder, nasionale parke gered, en soveel meer.",
+			"targetTranslation": "Dit het menseregte-aktiviste gehelp om vir vryheid te veg, wêreldwye metaanuitlaatgasse vanaf stortingsterreine en oliebronne verminder, kragnetwerke gestabiliseer, en openbare goedere soos nasionale parke befonds."
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_bitcoin_guide",
+			"reason": "english-changed",
+			"englishValue": "How to buy Bitcoin",
+			"englishValueBefore": "How to Buy Bitcoin - Step by Step Guide",
+			"currentValue": "Hoe om Bitcoin te koop - Stap-vir-stap-gids",
+			"targetTranslation": "Hoe om Bitcoin te koop"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_1_header",
+			"reason": "english-changed",
+			"englishValue": "Select your country",
+			"englishValueBefore": "STEP 1: SELECT YOUR COUNTRY",
+			"currentValue": "STAP 1: KIES JOU LAND",
+			"targetTranslation": "Kies jou land"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_2_header",
+			"reason": "english-changed",
+			"englishValue": "Choose your payment method",
+			"englishValueBefore": "STEP 2: CHOOSE YOUR PAYMENT METHOD",
+			"currentValue": "STAP 2: KIES JOU BETALINGSMETODE",
+			"targetTranslation": "Kies jou betaalmetode"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_3_header",
+			"reason": "english-changed",
+			"englishValue": "Your buying options",
+			"englishValueBefore": "STEP 3: BUYING OPTIONS",
+			"currentValue": "STAP 3: KOOPOPSIES",
+			"targetTranslation": "Jou koopopsies"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_step_4_header",
+			"reason": "english-changed",
+			"englishValue": "Store your Bitcoin safely",
+			"englishValueBefore": "STEP 4: STORE YOUR BITCOIN SAFELY",
+			"currentValue": "STAP 4: BERG JOU BITCOIN VEILIG",
+			"targetTranslation": "Bêre jou Bitcoin veilig"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_5",
+			"reason": "english-changed",
+			"englishValue": "request a pack",
+			"englishValueBefore": "request a pack of English stickers for free",
+			"currentValue": "'n pakket Engelse plakkers gratis aanvra",
+			"targetTranslation": "versoek 'n pak"
+		},
+		{
+			"namespace": "flyers",
+			"key": "flyers_intro_header",
+			"reason": "english-changed",
+			"englishValue": "How to print and post these Bitcoin flyers",
+			"englishValueBefore": "HOW TO PRINT & POST THESE BITCOIN FLYERS",
+			"currentValue": "HOE OM HIERDIE BITCOIN-VLUGSKRIFTE TE DRUK EN TE PLAK",
+			"targetTranslation": "Hoe om hierdie Bitcoin-strooibiljette te druk en op te plak"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_and_help_spread_bitcoin",
+			"reason": "english-changed",
+			"englishValue": "Get involved and spread Bitcoin",
+			"englishValueBefore": "Get involved and help spread Bitcoin",
+			"currentValue": "Raak betrokke en help om Bitcoin te versprei",
+			"targetTranslation": "Raak betrokke en versprei Bitcoin"
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_description",
+			"reason": "english-changed",
+			"englishValue": "Our free resources make it easier to spread Bitcoin adoption. Stickers, flyers, business kits, and an open-source codebase anyone can contribute to.",
+			"englishValueBefore": "Our free resources make it easier to spread Bitcoin adoption.",
+			"currentValue": "Ons gratis hulpbronne maak dit makliker om Bitcoin-aanvaarding te versprei.",
+			"targetTranslation": "Ons gratis hulpbronne maak dit makliker om Bitcoin-aanneming te versprei. Plakkers, strooibiljette, besigheidspakkette en 'n oopbron-kodebasis waartoe enigeen kan bydra."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_header",
+			"reason": "english-changed",
+			"englishValue": "Get involved and spread Bitcoin.",
+			"englishValueBefore": "GET INVOLVED",
+			"currentValue": "RAAK BETROKKE",
+			"targetTranslation": "Raak betrokke en versprei Bitcoin."
+		},
+		{
+			"namespace": "get-involved",
+			"key": "get_involved_intro_5",
+			"reason": "english-changed",
+			"englishValue": "You can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+			"englishValueBefore": "But you can help change that. We've made several free resources to make it easier to spread the hope that Bitcoin brings to those around you.",
+			"currentValue": "Maar jy kan help om dit te verander. Ons het verskeie gratis hulpbronne gemaak om dit makliker te maak om die hoop wat Bitcoin bring aan diegene rondom jou te versprei.",
+			"targetTranslation": "Jy kan help om dit te verander. Ons het verskeie gratis hulpbronne geskep om dit makliker te maak om die hoop wat Bitcoin bring, aan die mense om jou te versprei."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose",
+			"reason": "english-changed",
+			"englishValue": "Choose your money to see the proof",
+			"englishValueBefore": "Choose your money...",
+			"currentValue": "Kies jou geld...",
+			"targetTranslation": "Kies jou geld om die bewyse te sien"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_choose_another",
+			"reason": "english-changed",
+			"englishValue": "← Choose another money",
+			"englishValueBefore": "Choose another money",
+			"currentValue": "Kies 'n ander geld",
+			"targetTranslation": "← Kies 'n ander geld"
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_h1_orange",
+			"reason": "english-changed",
+			"englishValue": "Bitcoin doesn't have inflation, but your money does.",
+			"englishValueBefore": "Bitcoin doesn't have inflation,",
+			"currentValue": "Bitcoin het nie inflasie nie, maar jou geld wel.",
+			"targetTranslation": "Bitcoin het geen inflasie nie, maar jou geld wel."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_learn",
+			"reason": "english-changed",
+			"englishValue": "Learn how Bitcoin can help.",
+			"englishValueBefore": "Learn how Bitcoin can help",
+			"currentValue": "LEER HOE BITCOIN KAN HELP",
+			"targetTranslation": "Leer hoe Bitcoin kan help."
+		},
+		{
+			"namespace": "inflation",
+			"key": "inflation_sticker_lets_find_out",
+			"reason": "english-changed",
+			"englishValue": "Let's find out.",
+			"englishValueBefore": "Let's find out",
+			"currentValue": "KOM ONS VIND UIT",
+			"targetTranslation": "Kom ons vind uit."
+		},
+		{
+			"namespace": "lightning",
+			"key": "lightning_s1_c4",
+			"reason": "english-changed",
+			"englishValue": "Check out our",
+			"englishValueBefore": "Check out our Hardware Wallet Guide for more info.",
+			"currentValue": "Kyk na ons hardewarebeursiegids vir meer inligting.",
+			"targetTranslation": "Gaan kyk na ons"
+		},
+		{
+			"namespace": "nostr/index",
+			"key": "nostr_page_description",
+			"reason": "english-changed",
+			"englishValue": "Nostr is a new decentralized protocol for online communication — no single company controls it, Bitcoin zaps are built in natively, and you can move between clients without losing followers.",
+			"englishValueBefore": "Nostr is a new protocol that allows you to communicate online without fear of censorship, deplatforming, or deboosting. Get started with a free client in minutes.",
+			"currentValue": "Nostr is 'n nuwe gedesentraliseerde protokol vir aanlynkommunikasie — geen enkele maatskappy beheer dit nie, Bitcoin-zaps is inheems ingebou, en jy kan tussen kliënte beweeg sonder om volgelinge te verloor.",
+			"targetTranslation": "Nostr is 'n nuwe gedesentraliseerde protokol vir aanlynkommunikasie — geen enkele maatskappy beheer dit nie, Bitcoin-zaps is natuurlik ingebou, en jy kan tussen kliënte beweeg sonder om volgelinge te verloor."
+		},
+		{
+			"namespace": "sticker-files/index",
+			"key": "sticker_files_header",
+			"reason": "english-changed",
+			"englishValue": "Print your own Bitcoin stickers with these Bitcoin sticker files.",
+			"englishValueBefore": "BITCOIN STICKER FILES",
+			"currentValue": "BITCOIN-PLAKKERLÊERS",
+			"targetTranslation": "Druk jou eie Bitcoin-plakkers met hierdie Bitcoin-plakkerlêers."
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_flyers_link_before",
+			"reason": "english-changed",
+			"englishValue": "While you're at it, print and post your own",
+			"englishValueBefore": "While you're at it, print & post your own ",
+			"currentValue": "Terwyl jy besig is, druk en plak jou eie ",
+			"targetTranslation": "Terwyl jy daarmee besig is, druk en plak jou eie"
+		},
+		{
+			"namespace": "stickers",
+			"key": "stickers_instructions_1",
+			"reason": "english-changed",
+			"englishValue": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail. Your stickers will ship in a plain white envelope.",
+			"englishValueBefore": "Enter your mailing address and we'll send you a free Bitcoin Sticker Pack in the mail! Your stickers will be shipped in a plain white envelope.",
+			"currentValue": "Voer jou posadres in en ons sal jou 'n gratis Bitcoin-plakkerpakket in die pos stuur! Jou plakkers sal in 'n gewone wit koevert versend word.",
+			"targetTranslation": "Voer jou posadres in en ons stuur 'n gratis Bitcoin-plakkerpak per pos. Jou plakkers word in 'n gewone wit koevert versend."
+		}
+	],
+	"appliedAt": "2026-04-23T19:58:04.212Z",
+	"appliedStats": {
+		"resolved": 163,
+		"unresolved": 0,
+		"filesTouched": 25,
+		"keysWritten": 163,
+		"filesCreated": 0
+	}
+}

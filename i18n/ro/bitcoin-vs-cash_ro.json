@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Numerar",
-	"cash_header": "DIFERENȚA DINTRE",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "ȘI",
-	"cash_header_4": "NUMERAR",
 	"cash_intro_1": "Numerarul a fost folosit ca bani de secole și rămâne cea mai comună formă de bani fizici la nivel mondial.",
 	"cash_intro_2": "Bitcoin sunt bani digitali creați în 2009 care funcționează independent de orice guvern sau autoritate centrală.",
 	"cash_intro_3": "Dar cum diferă numerarul fizic de banii digitali precum Bitcoin? Să explorăm diferențele cheie dintre aceste două forme de bani: Bitcoin și Numerar.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Rețea descentralizată",
 	"bitcoin_point_6": "Auto-custodie digitală",
 	"bitcoin_point_7": "Ușor de divizat",
-	"point_1_summary_1": "Bitcoin poate fi trimis oriunde în lume instantaneu prin Internet, în timp ce numerarul necesită prezență fizică sau intermediari de încredere. Nu poți trimite numerar prin email, dar poți trimite Bitcoin oricui are o conexiune la Internet în câteva minute.",
-	"point_2_summary_1": "Bitcoin funcționează la fel oriunde în lume — nu există frontiere în rețeaua Bitcoin. Numerarul este limitat de geografie, cursuri de schimb și acceptare locală. Încearcă să folosești dolari americani în zona rurală din Thailanda sau yeni japonezi în zona rurală din Mexic.",
-	"point_3_summary_1": "Guvernele pot și chiar invalidează numerarul peste noapte prin politici de demonetizare, așa cum a făcut India în 2016 când a interzis anumite bancnote.",
-	"point_3_summary_2": "Chiar și fără interzicerea anumitor bancnote, guvernele devalorizează constant numerarul prin inflație.",
-	"point_3_summary_3": "Bitcoin nu poate fi invalidat de niciun guvern sau autoritate — există pe o rețea globală, descentralizată pe care nicio entitate nu o controlează.",
-	"point_4_summary_1": "Numerarul poate fi falsificat și este adesea dificil de detectat bancnotele false fără echipament special. Chiar și cu elemente de securitate, numerarul falsificat continuă să circule. Bitcoin folosește dovada criptografică care face falsificarea imposibilă matematic.",
-	"point_5_summary_1": "Numerarul este emis și controlat de guverne, care pot tipări mai mult la discreție, schimba designul sau declara anumite bancnote invalide. Bitcoin funcționează pe o rețea descentralizată unde nicio autoritate nu are control asupra ofertei de bani sau regulilor.",
-	"point_6_summary_1": "Numerarul trebuie stocat fizic, făcându-l vulnerabil la furt, pierdere, incendiu sau confiscare. Sumele mari necesită măsuri de securitate costisitoare.",
-	"point_6_summary_2": "Dar Bitcoin poate fi stocat în siguranță în auto-custodie",
-	"point_6_summary_3": "folosind o aplicație de smartphone sau un portofel specializat, oferindu-ți control complet asupra banilor tăi fără riscurile stocării fizice.",
-	"point_7_summary_1": "Numerarul are denominări minime — nu poți împărți un bănuț în părți mai mici. Bitcoin poate fi împărțit în 100 de milioane de unități mai mici numite satoshi, permițând microplăți și tranzacții precise de orice sumă."
+	"point_1_summary_1": "Bitcoin se mișcă oriunde prin internet în câteva minute. Numerarul necesită prezență fizică sau un curier de încredere — nu poți trimite prin e-mail 20 de dolari în numerar.",
+	"point_2_summary_1": "Bitcoin funcționează la fel oriunde. Numerarul este limitat de geografie, cursuri de schimb și acceptarea locală.",
+	"point_3_summary_1": "Guvernele pot anula numerarul peste noapte — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> a făcut-o în 2016. Chiar și fără demonetizare, numerarul își pierde valoarea din cauza",
+	"point_3_summary_2": "inflației.",
+	"point_3_summary_3": "Bitcoin nu poate fi anulat de niciun guvern sau autoritate.",
+	"point_4_summary_1": "Numerarul poate fi falsificat, uneori foarte convingător. Bitcoin folosește criptografia care face falsificarea imposibilă din punct de vedere matematic.",
+	"point_5_summary_1": "Bitcoin nu are o autoritate centrală. Numerarul este emis de guverne care pot tipări mai mult, schimba modelele sau anula bancnotele după bunul plac.",
+	"point_6_summary_1": "Numerarul este vulnerabil la furt, incendiu, pierdere și confiscare. Bitcoin poate fi",
+	"point_6_summary_2": "auto-custodiat",
+	"point_6_summary_3": "în siguranță pe un telefon sau un dispozitiv hardware.",
+	"point_7_summary_1": "Bitcoin se împarte în 100 de milioane de satoshi, permițând micro-plăți de orice mărime. Numerarul are o denominație minimă — nu poți rupe un ban în două.",
+	"hero_title": "Diferența dintre <span class=\"orange\">Bitcoin</span> și <span class=\"asset\">Numerar</span>"
 }

@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
-	"sticker_success_details": "Çıkartmalarınızı 1 ila 2 hafta içinde düz beyaz bir zarfta alacaksınız. Her zarfta 3 çıkartma bulunur. İşletmeniz için 3'ten fazla çıkartmaya ihtiyacınız varsa, lütfen ek bir paket talep edin!"
+	"biz_sticker_success_hero_title": "Çıkartmaların yola çıktı 🎉",
+	"biz_sticker_success_hero_subtitle": "Ücretsiz 'Bitcoin Accepted Here' çıkartmaların 2-4 hafta içinde, içinde 3 çıkartma bulunan düz beyaz bir zarfla sana ulaşacak.",
+	"biz_sticker_success_tips_header": "Çıkartmalarını yapıştırmak için iyi yerler",
+	"biz_sticker_success_tip_1": "Müşteriler içeri girmeden görsünler diye ön kapına ya da camına",
+	"biz_sticker_success_tip_2": "Yazar kasa, POS terminali ya da ödeme alanın yakınına",
+	"biz_sticker_success_tip_3": "Menülere, fiyat listelerine ya da bahşiş kavanozlarına",
+	"biz_sticker_success_tip_4": "Sahibi olmadığın ya da yapıştırmaya iznin olmayan hiçbir yere yapıştırma",
+	"biz_sticker_success_more_header": "Daha fazla çıkartmaya mı ihtiyacın var?",
+	"biz_sticker_success_more_c1": "3 çıkartma işletmen için yetmiyorsa, çekinmeden bir paket daha ücretsiz iste — ya da kullandığımız basımevinden toplu sipariş ver.",
+	"biz_sticker_success_btn_order_bulk": "Toplu sipariş ver",
+	"biz_sticker_success_btn_request_more": "Bir paket daha ücretsiz iste"
 }

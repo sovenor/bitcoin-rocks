@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
-	"sticker_language_timeline": "A ó ṣẹ̀dá àti ṣàjàdé fáìlì àmì àlèmó́ rẹ láàrìn ọ̀sẹ̀ 3 sí 4. A dupẹ́ fún sùúrù rẹ!"
+	"biz_sticker_language_success_hero_title": "A gba ìbéèrè 🎉",
+	"biz_sticker_language_success_hero_subtitle": "O ṣé fún bíbéèrè àwọn àkójọpọ̀ àlèmọ́ 'Bitcoin Accepted Here' ní èdè rẹ.",
+	"biz_sticker_language_success_timeline_header": "Kíni yóò ṣẹlẹ̀ tó kàn",
+	"biz_sticker_language_success_timeline_c1": "A ó dá àwọn àkójọpọ̀ àlèmọ́ rẹ kí a sì tẹ̀ wọ́n jáde láàárín ọ̀sẹ̀ 3 sí 4. Lẹ́yìn tí wọ́n bá ti ṣetán, ìwọ ó lè ṣe ìgbàsílẹ̀ wọn láti ojú-ìwé àkójọpọ̀ àlèmọ́ wa kí o sì tẹ̀ wọ́n ní ọ̀fẹ́.",
+	"biz_sticker_language_success_timeline_c2": "A tu àwọn àkójọpọ̀ àlèmọ́ jáde ní àwọn ìpín, nítorí náà ó lè gba ọ̀sẹ̀ díẹ̀ fún èdè rẹ láti wà lórí ojú-ìwé. O ṣé fún sùúrù rẹ!"
 }

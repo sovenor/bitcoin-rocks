@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Perguntas frequentes sobre aceitares Bitcoin",
 	"faq_description": "Tens dúvidas sobre aceitares pagamentos em Bitcoin no teu negócio?",
-	"faq_header": "TENS DÚVIDAS SOBRE COMO ACEITAR PAGAMENTOS EM BITCOIN?",
+	"faq_hero_subtitle": "Respostas curtas às perguntas que os comerciantes costumam fazer antes de começar a aceitar Bitcoin — taxas, liquidação, carteiras, estornos, custos e mais.",
+	"faq_intro_c1": "Clica em qualquer pergunta abaixo para abrir a resposta. Quando estiveres pronto para começar a aceitar Bitcoin, os recursos para empresas no fim da página guiam-te passo a passo.",
 	"faq_s1": "O que é Bitcoin?",
 	"faq_s1_c1": "Bitcoin é duas coisas: dinheiro digital e uma rede de computadores",
 	"faq_s1_c2": "Podes enviar bitcoin (o dinheiro digital) diretamente para outras pessoas através da rede Bitcoin",

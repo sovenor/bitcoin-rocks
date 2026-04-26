@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin er godt for virksomheder",
-	"biz_header": "BITCOIN ER GODT FOR VIRKSOMHEDER",
+	"business_hero_subtitle": "Võta makseid vastu madalamate tasudega, arvelda hetkega ja jõua miljonite uute klientideni — ilma lepingute ja varjatud kuludeta.",
+	"business_intro_c1": "Bitcoin annab sinu ettevõttele kiirema, odavama ja privaatsema viisi maksete vastuvõtmiseks. Pole vahemehi. Pole tagasinõudeid. Pole lepinguid. Ainult raha, mis arveldub sekunditega, otse kliendilt sinule.",
+	"business_intro_c2": "Allpool on lühike versioon sellest, miks on bitcoin ettevõttele kasulik — ja all on kõik vahendid, mida vajad, et juba täna selle vastuvõtmist alustada.",
 	"biz_s1": "Lave gebyrer uden minimumsbeløb",
 	"biz_s1_c1": "Bitcoin lader dig modtage betalinger direkte fra kunder, på samme måde som kontanter. Bitcoin-netværket fungerer uden mellemmænd som banker og kreditkortselskaber, der opkræver høje gebyrer.",
 	"biz_s2": "Øjeblikkelig afregning",
@@ -18,5 +20,14 @@
 	"biz_s4": "Få flere kunder",
 	"biz_s4_c1": "Millioner af mennesker ejer Bitcoin og ønsker at bruge det hos steder, der accepterer det.",
 	"biz_s4_c2": "Ved at acceptere Bitcoin kan din virksomhed blive opført på kort over Bitcoin-forhandlere og få gratis eksponering for nye kunder.",
-	"biz_s4_c3": "At acceptere Bitcoin er 100% gratis. Ingen kontrakter eller skjulte gebyrer."
+	"biz_s4_c3": "At acceptere Bitcoin er 100% gratis. Ingen kontrakter eller skjulte gebyrer.",
+	"business_resources_heading": "Kõik, mida vajad bitcoini vastuvõtmiseks",
+	"business_resources_intro": "Käi need vahendid oma tempos läbi. Igaüks on lühike praktiline juhend.",
+	"biz_label_wallets": "RAHAKOTID",
+	"biz_label_maps": "KAUPMEESTE KAARDID",
+	"biz_label_stickers": "KLEEBISED",
+	"biz_label_rewards": "PREEMIAD",
+	"biz_label_accounting": "RAAMATUPIDAMINE",
+	"biz_label_faq": "KORDUMA KIPPUVAD KÜSIMUSED",
+	"biz_meta_description": "Võta oma ettevõttes vastu bitcoini madalamate tasudega, kohese arveldusega, ilma tagasinõueteta ja saa rohkem kliente."
 }

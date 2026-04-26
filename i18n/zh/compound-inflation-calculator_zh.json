@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"cic_header": "复合通胀计算器",
 	"cic_description": "使用此复合通胀计算器了解您的工资需要增长多少才能跟上通胀。",
-	"what_can_i_do_about": "我能对",
-	"what_can_i_do_about_2": "通胀做什么？",
-	"cic_inflation_cta": "通过比特币摆脱通胀"
+	"cic_hero_subtitle": "看看您的工资需要增长多少才能跟上通胀。",
+	"cic_calculator_heading": "计算您的通胀缺口",
+	"cic_cta_label": "下一步",
+	"cic_inflation_cta": "通过比特币摆脱通胀",
+	"cic_next_learn_inflation": "了解通胀是如何运作的",
+	"cic_next_explore_topics": "探索更多话题",
+	"cic_next_explore_topics_desc": "看看比特币如何与货币、自由、能源等领域相连。",
+	"sources_fred_cpi_urban": "美联储经济数据（FRED）—— 城市消费者价格指数",
+	"sources_fred_m1": "美联储经济数据（FRED）—— M1 货币供应量"
 }

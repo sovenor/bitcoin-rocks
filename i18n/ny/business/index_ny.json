@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin ndi yabwino kwa bizinesi",
-	"biz_header": "BITCOIN NDI YABWINO KWA BIZINESI",
+	"business_hero_subtitle": "Landirani malipiro ndi ndalama zochepa, mulandire ndalama pomwepo, ndipo fikirani makasitomala atsopano mamiliyoni — popanda mapangano kapena ndalama zobisika.",
+	"business_intro_c1": "Bitcoin imapatsa bizinesi yanu njira yofulumira, yotsika mtengo, komanso yachinsinsi yolandilira ndalama. Palibe apakati. Palibe ma chargeback. Palibe mapangano. Ndalama yokhazikika kuchokera kwa kasitomala kupita kwa inu mu masekondi ochepa.",
+	"business_intro_c2": "Pansipa pali baibulo losavuta lokhudza chifukwa chake Bitcoin ndi yabwino kwa bizinesi — ndi zothandizira zonse zomwe mukufunika kuti muyambe kulandira Bitcoin lero.",
 	"biz_s1": "Malipiro ochepa opanda kachepe",
 	"biz_s1_c1": "Bitcoin imakuthandizani kulandira malipiro mwachindunji kuchokera kwa makasitomala anu, mofanana ndi ndalama. Netiweki ya Bitcoin imagwira ntchito popanda anthu apakati monga mabanki ndi makampani a ma khadi a ngongole omwe amalandira ndalama zambiri.",
 	"biz_s2": "Kulipidwa msanga",
@@ -18,5 +20,14 @@
 	"biz_s4": "Pezani makasitomala ambiri",
 	"biz_s4_c1": "Anthu mamiliyoni ali ndi Bitcoin ndipo akufuna kuwagwiritsa ntchito pamalo omwe amalandiridwa.",
 	"biz_s4_c2": "Polandirangosimba Bitcoin, bizinesi yanu ingalembedwe pa mapu a amalonda a Bitcoin ndipo ingathe kupeza makasitomala atsopano a Bitcoin kwaulere.",
-	"biz_s4_c3": "Kulandira Bitcoin ndi kwaulere 100%. Palibe mapangano obisika kapena malipiro obisika."
+	"biz_s4_c3": "Kulandira Bitcoin ndi kwaulere 100%. Palibe mapangano obisika kapena malipiro obisika.",
+	"business_resources_heading": "Zonse zomwe mukufunika kuti mulandire Bitcoin",
+	"business_resources_intro": "Sangalalani ndi zothandizirazi pa liwiro lanu. Iliyonse ndi gaidi yochepa, yothandiza yolimbitsidwa pa zochita.",
+	"biz_label_wallets": "Zikwama",
+	"biz_label_maps": "Mapu a amalonda",
+	"biz_label_stickers": "Zitikiti",
+	"biz_label_rewards": "Mphotho",
+	"biz_label_accounting": "Kasamalidwe ka ndalama",
+	"biz_label_faq": "Mafunso ofunsidwa kawirikawiri",
+	"biz_meta_description": "Landirani Bitcoin m'bizinesi yanu kuti mukhale ndi ndalama zochepa, kutsiriza pomwepo, palibe ma chargeback, ndi kupeza ogula ambiri."
 }

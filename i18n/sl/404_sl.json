@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"404_title": "Napaka 404 | Stran ni najdena",
-	"404_message": "TA NEDELUJOČA STRAN NI KUL",
-	"404_home": "NAZAJ NA DOMAČO STRAN"
+	"404_message": "Bitcoin je odličen, ta zlomljena stran pa ni.",
+	"404_home": "Nazaj na domačo stran",
+	"404_not_found_short": "Ni najdeno"
 }

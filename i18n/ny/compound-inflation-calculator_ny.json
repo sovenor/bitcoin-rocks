@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"cic_header": "CHIPANGIZO CHOWERENGERA KUKWERA KWA MITENGO KOWONJEZEKA",
 	"cic_description": "Gwiritsani ntchito Chipangizo Chowerengera Kukwera kwa Mitengo Kowonjezeka kuti mudziwe kuti malipiro anu akuyenera kukwera bwanji kuti muyende ndi kukwera kwa mitengo.",
-	"what_can_i_do_about": "Ndingachitepo chiyani za",
-	"what_can_i_do_about_2": "kukwera kwa mitengo?",
-	"cic_inflation_cta": "Tulukani ku Kukwera kwa Mitengo ndi Bitcoin"
+	"cic_hero_subtitle": "Onani kuchuluka komwe malipiro anu akuyenera kukwera kuti agonjetsane ndi kukwera kwa mitengo.",
+	"cic_calculator_heading": "Werengani kusiyana kwanu kwa kukwera kwa mitengo",
+	"cic_cta_label": "Sitepe yotsatira",
+	"cic_inflation_cta": "Tulukani ku Kukwera kwa Mitengo ndi Bitcoin",
+	"cic_next_learn_inflation": "Phunzirani momwe kukwera kwa mitengo kumagwirira ntchito",
+	"cic_next_explore_topics": "Fufuzani mitu yambiri",
+	"cic_next_explore_topics_desc": "Onani momwe Bitcoin imalumikizirana ndi ndalama, ufulu, mphamvu, ndi zambiri.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

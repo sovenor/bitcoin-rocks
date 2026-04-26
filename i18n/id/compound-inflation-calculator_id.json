@@ -3,12 +3,18 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"cic_header": "KALKULATOR INFLASI MAJEMUK",
 	"cic_description": "Gunakan Kalkulator Inflasi Majemuk ini untuk mengetahui seberapa banyak gaji Anda perlu meningkat agar sesuai dengan inflasi.",
-	"what_can_i_do_about": "Apa yang bisa saya lakukan tentang",
-	"what_can_i_do_about_2": "inflasi?",
-	"cic_inflation_cta": "Keluar dari Inflasi dengan Bitcoin"
+	"cic_hero_subtitle": "Lihat seberapa banyak gaji Anda perlu meningkat untuk mengimbangi inflasi.",
+	"cic_calculator_heading": "Hitung kesenjangan inflasi Anda",
+	"cic_cta_label": "Langkah berikutnya",
+	"cic_inflation_cta": "Keluar dari Inflasi dengan Bitcoin",
+	"cic_next_learn_inflation": "Pelajari cara kerja inflasi",
+	"cic_next_explore_topics": "Jelajahi lebih banyak topik",
+	"cic_next_explore_topics_desc": "Lihat bagaimana Bitcoin terhubung dengan uang, kebebasan, energi, dan lainnya.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

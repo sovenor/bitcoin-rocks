@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"bitcoin_vs_crypto": "Bitcoin vs kripto",
-	"crypto_header": "A KÜLÖNBSÉG A",
-	"crypto_header_2": "BITCOIN",
-	"crypto_header_3": "ÉS A",
-	"crypto_header_4": "KRIPTO KÖZÖTT",
 	"crypto_intro_1": "A legtöbb ember úgy gondolja, hogy a Bitcoin ugyanaz, mint a többi kriptovaluta. Ez nem így van.",
 	"crypto_intro_2": "A Bitcoin alapvetően különbözik minden más kriptovalutától számos fontos szempontból.",
 	"crypto_intro_3": "Nézzük meg a legfontosabb különbségeket a Bitcoin és a kripto között.",
@@ -32,12 +28,13 @@
 	"bitcoin_point_6": "Hosszú távú értékmegőrzés",
 	"bitcoin_point_7": "Antifragilitás",
 	"bitcoin_point_8": "Nincs irányítás",
-	"point_1_summary_1": "A Bitcoin szabályai gyakorlatilag megváltoztathatatlanok, a decentralizált konszenzus biztosítja. A legtöbb kriptovaluta szabályait egy kis csoport módosíthatja.",
-	"point_2_summary_1": "A Bitcoin valóban decentralizált, több tízezer független csomóponttal. A legtöbb kriptovaluta centralizált, egy kis csapat vagy alapítvány irányítja.",
-	"point_3_summary_1": "A Bitcoinnak kemény felső határa van: 21 millió BTC. A legtöbb kriptovaluta kínálata változtatható, ami hígítást és inflációt eredményezhet.",
-	"point_4_summary_1": "A Bitcoin elegánsan egyszerű: digitális pénz fix kínálattal. A legtöbb kriptovaluta összetett rendszereket épít, amelyek növelik a támadási felületet és a meghibásodási pontokat.",
-	"point_5_summary_1": "A Bitcoin Proof of Work konszenzust használ, amely energiát igényel a hálózat biztosítására. Ez a legbiztonságosabb és legbizonyítottabb konszenzus-mechanizmus.",
-	"point_6_summary_1": "A Bitcoint egyre inkább hosszú távú értékmegőrzőként használják. A legtöbb kriptovaluta spekulatív, gyors haszonszerzésre épül.",
-	"point_7_summary_1": "A Bitcoin antifragilis – az évek során minden támadástól erősebb lett. A legtöbb kriptovaluta törékeny, és a kihívások során meghibásodik vagy eltűnik.",
-	"point_8_summary_1": "A Bitcoinnak nincs vezérigazgatója, nincs alapítványa és nincs irányító testülete. A legtöbb kriptovalutát egy azonosítható csapat irányítja, ami irányítási és szabályozási kockázatot jelent."
+	"point_1_summary_1": "A Bitcoin protokoll alig változott 2009 óta, és kiszámítható szabályokat ad. A legtöbb kriptoprojekt rendszeresen módosítja a protokollt, a tokenomikát, vagy új verziókba forkol.",
+	"point_2_summary_1": "A Bitcoin több ezer független csomóponton fut világszerte. A legtöbb kriptoprojektet alapítványok, vállalatok vagy fejlesztői kiscsapatok irányítják, amelyek egyoldalúan hozhatnak változtatásokat.",
+	"point_3_summary_1": "A Bitcoin felső határa 21 millió — a legritkább digitális vagyon. A legtöbb kriptoprojekt korlátlan kínálatú, vagy mechanizmusokkal rendelkezik új tokenek tetszés szerinti létrehozásához, ami felhígítja a tulajdonosokat.",
+	"point_4_summary_1": "A Bitcoinnak egy célja van: peer-to-peer digitális pénz. Mindenki érti, mindenki használhatja. A legtöbb kriptoprojekt összetett okosszerződéseket vagy DeFi-t tartalmaz, amelyek szakértői technikai tudást igényelnek a biztonságos használathoz.",
+	"point_5_summary_1": "A Bitcoin proof-of-work rendszere 15 éve sikeresen működik a fő láncon végrehajtott sikeres támadás nélkül. A legtöbb kriptoprojekt kísérleti konszenzusmódszereket használ, amelyeket nem teszteltek szigorúan.",
+	"point_6_summary_1": "A Bitcoin digitális pénz — értékőrző és csereeszköz. A legtöbb kriptotoken spekulatív, használati vagy irányítási token, világos valós értékkel.",
+	"point_7_summary_1": "A Bitcoin szilárdan megállta a támadásokat, és túlélt minden válságot, tilalmat és kritikát. A legtöbb kriptoprojekt összeomlik szabályozási, technikai vagy piaci nyomás alatt.",
+	"point_8_summary_1": "A Bitcoinnak nincs vezérigazgatója, vállalata vagy egyetlen ponton elbukási lehetősége. A legtöbb kriptoprojekt kockázatitőke-befektetőktől, azonosított vezető csapatoktól vagy egyetlen vállalat létezésétől függ.",
+	"hero_title": "A különbség a <span class=\"orange\">Bitcoin</span> és a <span class=\"asset\">kriptovaluták</span> között"
 }

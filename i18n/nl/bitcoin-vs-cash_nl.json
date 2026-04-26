@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Contant Geld",
-	"cash_header": "HET VERSCHIL TUSSEN",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "EN",
-	"cash_header_4": "CONTANT GELD",
 	"cash_intro_1": "Contant geld wordt al eeuwen gebruikt als geld en blijft de meest voorkomende vorm van fysiek geld wereldwijd.",
 	"cash_intro_2": "Bitcoin is digitaal geld dat in 2009 werd gecreëerd en onafhankelijk van elke regering of centrale autoriteit werkt.",
 	"cash_intro_3": "Maar hoe verschilt fysiek contant geld van digitaal geld zoals Bitcoin? Laten we de belangrijkste verschillen tussen deze twee vormen van geld verkennen: Bitcoin & Contant Geld.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Gedecentraliseerd netwerk",
 	"bitcoin_point_6": "Digitale zelfbewaring",
 	"bitcoin_point_7": "Gemakkelijk deelbaar",
-	"point_1_summary_1": "Bitcoin kan overal ter wereld onmiddellijk via internet worden verzonden, terwijl contant geld fysieke aanwezigheid of vertrouwde tussenpersonen vereist. Je kunt geen contant geld e-mailen, maar je kunt Bitcoin in minuten naar iedereen met een internetverbinding sturen.",
-	"point_2_summary_1": "Bitcoin werkt overal ter wereld hetzelfde - er zijn geen grenzen in het Bitcoin-netwerk. Contant geld is beperkt door geografie, wisselkoersen en lokale acceptatie. Probeer maar eens Amerikaanse dollars te gebruiken in ruraal Thailand of Japanse yen in ruraal Mexico.",
-	"point_3_summary_1": "Regeringen kunnen en maken contant geld van de ene op de andere dag ongeldig door demonetiseringsbeleid, zoals India deed in 2016 toen ze bepaalde bankbiljetten verboden.",
-	"point_3_summary_2": "Zelfs zonder het verbieden van bepaalde bankbiljetten, devalueren regeringen contant geld voortdurend door inflatie.",
-	"point_3_summary_3": "Bitcoin kan niet ongeldig worden gemaakt door enige regering of autoriteit - het bestaat op een wereldwijd, gedecentraliseerd netwerk dat geen enkele entiteit controleert.",
-	"point_4_summary_1": "Contant geld kan worden vervalst, en het is vaak moeilijk om valse biljetten te detecteren zonder speciale apparatuur. Zelfs met beveiligingskenmerken blijft vals contant geld circuleren. Bitcoin gebruikt cryptografisch bewijs dat vervalsing wiskundig onmogelijk maakt.",
-	"point_5_summary_1": "Contant geld wordt uitgegeven en gecontroleerd door regeringen, die naar believen meer kunnen drukken, ontwerpen kunnen wijzigen of bepaalde biljetten ongeldig kunnen verklaren. Bitcoin werkt op een gedecentraliseerd netwerk waar geen enkele autoriteit controle heeft over de geldvoorraad of regels.",
-	"point_6_summary_1": "Contant geld moet fysiek worden opgeslagen, waardoor het kwetsbaar is voor diefstal, verlies, brand of confiscatie. Grote hoeveelheden vereisen dure beveiligingsmaatregelen.",
-	"point_6_summary_2": "Maar Bitcoin kan veilig worden opgeslagen in zelfbewaring",
-	"point_6_summary_3": "met behulp van een smartphone-app of gespecialiseerde portemonnee, waardoor je volledige controle over je geld hebt zonder fysieke opslagrisico's.",
-	"point_7_summary_1": "Contant geld heeft minimale denominaties - je kunt een cent niet in kleinere delen splitsen. Bitcoin kan worden verdeeld in 100 miljoen kleinere eenheden genaamd satoshis, waardoor microbetalingen en precieze transacties van elk bedrag mogelijk zijn."
+	"point_1_summary_1": "Bitcoin verplaatst zich binnen enkele minuten over het internet naar elke plek ter wereld. Contant geld vereist fysieke aanwezigheid of betrouwbare koeriers — een briefje van twintig kun je niet e-mailen.",
+	"point_2_summary_1": "Bitcoin werkt overal hetzelfde. Contant geld is beperkt door geografie, wisselkoersen en lokale acceptatie.",
+	"point_3_summary_1": "Overheden kunnen contant geld van de ene op de andere dag ongeldig verklaren — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> deed dat in 2016. Maar zelfs zonder demonetarisering verliest contant geld waarde door",
+	"point_3_summary_2": "inflatie",
+	"point_3_summary_3": ". Bitcoin kan door geen enkele overheid of autoriteit ongeldig worden verklaard.",
+	"point_4_summary_1": "Contant geld kan worden vervalst, soms heel overtuigend. Bitcoin gebruikt cryptografie die vervalsing wiskundig onmogelijk maakt.",
+	"point_5_summary_1": "Bitcoin heeft geen centrale autoriteit. Contant geld wordt uitgegeven door overheden, die er naar believen meer kunnen drukken, het uiterlijk veranderen of biljetten ongeldig verklaren.",
+	"point_6_summary_1": "Contant geld is kwetsbaar voor diefstal, brand, verlies en inbeslagname. Bitcoin kan veilig in ",
+	"point_6_summary_2": "self-custody",
+	"point_6_summary_3": " worden bewaard op een telefoon of hardwareapparaat.",
+	"point_7_summary_1": "Bitcoin is deelbaar tot 100 miljoen satoshi's, waardoor microbetalingen van elke omvang mogelijk zijn. Contant geld kent minimale coupures — een cent kun je niet opdelen.",
+	"hero_title": "Het verschil tussen <span class=\"orange\">Bitcoin</span> en <span class=\"asset\">contant geld</span>"
 }

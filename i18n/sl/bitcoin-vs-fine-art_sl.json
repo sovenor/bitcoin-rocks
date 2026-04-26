@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin proti umetnosti",
-	"fine_art_header": "RAZLIKA MED",
-	"fine_art_header_2": "BITCOINOM",
-	"fine_art_header_3": "IN",
-	"fine_art_header_4": "UMETNOSTJO",
 	"fine_art_intro_1": "Umetnost je že stoletja luksuzna naložba in premožni zbiratelji jo pogosto smatrajo za sredstvo za hrambo vrednosti.",
 	"fine_art_intro_2": "Bitcoin je digitalni denar, ki ga mnogi prav tako smatrajo za sredstvo za hrambo vrednosti in naložbo.",
 	"fine_art_intro_3": "Kako pa se fizična umetniška dela razlikujejo od digitalnega denarja, kot je Bitcoin? Poglejmo razlike med dvema oblikama naložb: Bitcoinom in umetnostjo.",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Kriptografsko preverljiv",
 	"bitcoin_point_6": "Težko uničljiv",
 	"bitcoin_point_7": "Dostopen vsem",
-	"point_1_summary_1": "Bitcoin je popolnoma zamenljiv, kar pomeni, da je vsak bitcoin enak in medsebojno zamenljiv — en bitcoin je enak enemu bitcoinu kjerkoli na svetu. Umetnost je po svoji naravi nezamenljiva, vsako delo je edinstveno po svojem nastanku, zgodovini, stanju in provenienčnosti, kar dela neposredne primerjave in vrednotenja izredno težke.",
-	"point_2_summary_1": "Bitcoin se trguje na globalnem trgu 24/7, kjer lahko kdorkoli z dostopom do interneta takoj kupuje ali prodaja. Umetnost zahteva specializirane dražbene hiše, kot sta Sotheby's ali Christie's, zasebne trgovce ali ekskluzivne galerije. Prodaja lahko traja mesece in dostop do trga je omejen.",
-	"point_3_summary_1": "Nakup ali prodaja bitcoina ponavadi stane manj kot 1 % v provizijah, pogosto veliko manj. Prodaja umetnosti vključuje znatne stroške, vključno s premijo kupca (10–25 %), provizijo prodajalca (10–15 %), zavarovanjem, pošiljanjem, shranjevanjem in provizijami za avtentikacijo. Ti kombinirani stroški lahko v eni sami transakciji zlahka presežejo 30–40 % vrednosti dela.",
-	"point_4_summary_1": "Bitcoin se lahko razdeli na 100 milijonov manjših enot, imenovanih satoši, kar ga dela idealnega za transakcije katere koli velikosti. Umetnosti ni mogoče razdeliti — ne morete imeti delčka slike ali prodati le del skulpture. Ta nedeljivost omejuje naložbeno prilagodljivost.",
-	"point_5_summary_1": "Lastništvo in pristnost Bitcoina se lahko kriptografsko preveri na verigi blokov s strani kogar koli z osnovnim tehničnim znanjem. Umetnost zahteva drago strokovno avtentikacijo, raziskavo provenienčnosti in znanstveno analizo. Kljub strokovnemu preverjanju ponaredki redno zavajajo svet umetnosti. Bitcoina pa ni mogoče ponarediti.",
-	"point_6_summary_1": "Bitcoin, če je pravilno varnostno kopiran, ne more biti uničen s povodmi, požari, potresi, orkani, krajo ali drugimi katastrofami. Umetnost je ranljiva za vse oblike fizičnega uničenja in degradacije.",
-	"point_7_summary_1": "Bitcoin lahko kupuje in prodaja kdorkoli z dostopom do interneta in majhnim zneskom denarja za naložbo. Naložbe v umetnost so v veliki meri omejene na premožne zbiratelje zaradi visokih minimalnih cen, ekskluzivnega dostopa do dražb, zahtev za shranjevanje, stroškov zavarovanja in specializiranega znanja."
+	"point_1_summary_1": "Vsak bitcoin je enak in zamenljiv. Vsako umetniško delo je edinstveno — različen nastanek, zgodovina, stanje in provenienca neposredno primerjanje izjemno otežijo.",
+	"point_2_summary_1": "Bitcoin se trguje 24/7 na globalnem trgu, dostopnem komur koli. Likovna umetnost zahteva specializirane dražbene hiše, zasebne trgovce ali galerije, prodaja pa lahko traja mesece.",
+	"point_3_summary_1": "Nakup ali prodaja Bitcoina stane manj kot 1 % v provizijah, pogosto veliko manj. Pri prodaji umetnin se nakopiči 30 – 40 % v premijah kupca, provizijah, zavarovanjih, prevozih in stroških overjanja pristnosti.",
+	"point_4_summary_1": "Bitcoin je deljiv na 100 milijonov satoshijev, zato je idealen za transakcije katere koli velikosti. Ne morete imeti dela slike ali kota kipa brez tveganja nasprotne stranke.",
+	"point_5_summary_1": "Lastništvo in pristnost Bitcoina lahko vsakdo kriptografsko preveri na blockchainu. Preverjanje pristnosti umetnin je drago, počasno in ga redno zmedejo ponarejevalci — kar čez noč uniči vrednost dela.",
+	"point_6_summary_1": "Pravilno varnostno kopiran Bitcoin preživi poplave, požare, potrese in tatvino. Likovna umetnost je ranljiva za vse oblike fizičnega uničenja, zavarovanje pa redko pokrije vse.",
+	"point_7_summary_1": "Vsakdo s povezavo na internet in nekaj denarja lahko kupi Bitcoin. Vlaganje v likovno umetnost je v praksi omejeno na premožne zbiralce z dostopom do dražb in specializirano znanje.",
+	"hero_title": "Razlika med <span class=\"orange\">Bitcoinom</span> in <span class=\"asset\">likovno umetnostjo</span>"
 }

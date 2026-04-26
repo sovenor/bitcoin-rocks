@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
-	"kit_success_1": "Òwò iṣẹ́ rẹ yoo wà lórí máàpù oníta Bitcoin láàrìn ọ̀sẹ̀ 1 sí 2.",
-	"kit_success_2": "Wo máàpù náà nibí."
+	"biz_maps_success_hero_title": "A gba ìbéèrè 🎉",
+	"biz_maps_success_hero_subtitle": "O ṣé fún fífi iṣẹ́ rẹ ránṣẹ́. A ó pamọ́ rẹ lórí àwọn map alágbatà Bitcoin láìpẹ́.",
+	"biz_maps_success_timeline_header": "Kíni yóò ṣẹlẹ̀ tó kàn",
+	"biz_maps_success_timeline_c1": "A ó pamọ́ iṣẹ́ rẹ lórí BTC Map àti àwọn atọ́nà alágbatà Bitcoin mìíràn láàárín ọ̀sẹ̀ 1 sí 2. A ń ṣe àyẹ̀wò fífiránṣẹ́ kọ̀ọ̀kan ní ọwọ́ kí àwọn map lè péye.",
+	"biz_maps_success_timeline_c2": "Lẹ́yìn tí a bá ti pamọ́ rẹ, àwọn Bitcoiner tí ó súnmọ́ rẹ lè rí iṣẹ́ rẹ kí wọ́n sì wá ná Bitcoin níbẹ̀.",
+	"biz_maps_success_view_header": "Wo ibi tí ìwọ ó wà",
+	"biz_maps_success_view_c1": "Bí o ṣe ń dúró, wo BTC Map láti rí nẹ́tíwọ́ọ̀kì àwọn iṣẹ́ tí ó ń pọ̀ sí tí wọ́n ń gba Bitcoin ní àgbáyé.",
+	"biz_maps_success_btn_view_map": "Wo BTC Map"
 }

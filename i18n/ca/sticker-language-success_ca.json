@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"sticker_language_success_1": "La teva sol·licitud s'ha rebut correctament.",
-	"sticker_language_success_2": "Publiquem fitxers nous per lots, de manera que pot trigar unes setmanes fins que aquests fitxers estiguin disponibles per descarregar. Torna-hi aviat!"
+	"sticker_language_success_2": "Publiquem fitxers nous per lots, de manera que pot trigar unes setmanes fins que aquests fitxers estiguin disponibles per descarregar. Torna-hi aviat!",
+	"sticker_language_success_hero_title": "Sol·licitud rebuda 🎉"
 }

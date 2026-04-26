@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Kart over Bitcoin-forhandlere – List bedriften din gratis",
-	"maps_header": "REGISTRER DEG PÅ KART OVER BITCOIN-FORHANDLERE OG FÅ FLERE KUNDER",
-	"maps_request_details": "Skriv inn bedriftsdetaljene dine nedenfor, så lister vi deg gratis på kart over Bitcoin-forhandlere. Dette gjør det mulig for bitcoinere å finne bedriften din og bruke sin Bitcoin hos deg!",
-	"maps_view": "Vis kartet her."
+	"maps_view": "Vis kartet her.",
+	"biz_maps_hero_title": "Sæt din virksomhet på Bitcoin-handelskort",
+	"biz_maps_hero_subtitle": "Tilføj din virksomhet gratis til BTC Map — et åbent, verdensomspændende register over handlende, det tager imod Bitcoin — så Bitcoin-brugere i nærheden kan finde deg og bruge Bitcoin hos deg.",
+	"biz_maps_intro_c1": "Bitcoin-brugere søger aktivt efter steder å bruge deres penge. At være på kortet eksponerer din virksomhet over for enhver Bitcoin-bruger, det søger et sted å spise, handle eller bo i nærheden — helt gratis.",
+	"biz_maps_intro_c2": "Udfyld bare den korte formular nedenfor, så indsender vi din virksomhet til BTC Map og andre Bitcoin-handelskort.",
+	"biz_maps_view_map_cta": "Se BTC Map",
+	"biz_maps_form_header": "Fortæl os om din virksomhet",
+	"biz_maps_form_intro": "Vi har bare brug for noen få oplysninger for å få deg på kortet. Vi gemmer kun adresseoplysninger så længe som nødvendigt for å sende din virksomhet til kortene.",
+	"biz_maps_placeholder_name": "Virksomhedsnavn",
+	"biz_maps_placeholder_category": "Kategori (f.eks. restaurant, café, hotel)",
+	"biz_maps_placeholder_address": "Gade og husnummer",
+	"biz_maps_placeholder_city": "By",
+	"biz_maps_placeholder_region": "Stat / region / provins",
+	"biz_maps_placeholder_country": "Land",
+	"biz_maps_placeholder_website": "Hjemmeside (valgfri)",
+	"biz_maps_meta_description": "Tilføj din virksomhet gratis til BTC Map og andre Bitcoin-handelskort, så Bitcoin-brugere i nærheden kan finde deg."
 }

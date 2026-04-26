@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-11",
+		"last-updated": "2026-04-25",
 		"locale": "pt"
 	},
 	"bitcoin_accepted_here_stickers": "Autocolantes Bitcoin Aceitamos",
-	"stickers_header": "OBTÉM OS TEUS AUTOCOLANTES GRATUITOS ‘BITCOIN ACEITAMOS’",
-	"stickers_request": "Obtém os teus autocolantes gratuitos",
-	"stickers_request_details": "Informa os teus clientes que aceitas pagamentos em Bitcoin com estes autocolantes gratuitos ‘Bitcoin Aceitamos’",
-	"stickers_country_global_print": "Global — Imprimir os meus próprios autocolantes",
-	"stickers_request_instructions": "Irás receber três autocolantes ‘Bitcoin Aceitamos’ num envelope branco simples. Se precisares de mais do que três autocolantes para o teu negócio, não hesites em pedir várias vezes. Os dados da morada são eliminados após o envio dos autocolantes gratuitos.",
-	"stickers_print_details": "Podes imprimir os teus próprios autocolantes ‘Bitcoin Aceitamos’, independentemente do teu local de residência! Clica no teu idioma abaixo para veres os ficheiros dos autocolantes e as instruções.",
-	"stickers_request_language": "Não estás a ver o teu idioma? Preenche o formulário abaixo para solicitares ficheiros de autocolantes ‘BITCOIN ACEITAMOS’ no teu idioma local."
+	"biz_stickers_hero_title": "Autocolantes gratuitos de «Aceita-se Bitcoin»",
+	"biz_stickers_hero_subtitle": "Mostra aos clientes que aceitas Bitcoin. Pede um pacote gratuito de autocolantes de «Aceita-se Bitcoin» para colocares no teu estabelecimento.",
+	"biz_stickers_intro_c1": "Aceitar Bitcoin é só metade do trabalho — os teus clientes também precisam de saber. Estes pequenos autocolantes de «Aceita-se Bitcoin» foram concebidos para serem colocados na porta principal, na caixa, no menu ou em qualquer sítio onde os clientes os vejam antes de pagarem.",
+	"biz_stickers_intro_c2": "Enviamos-te um pacote gratuito para qualquer morada nos EUA ou no Canadá, ou podes imprimir os teus em qualquer parte do mundo.",
+	"biz_stickers_step_header": "Como queres os teus autocolantes?",
+	"biz_stickers_step_description": "Enviamos pacotes gratuitos para moradas nos EUA e no Canadá. Em qualquer outro lugar do mundo, podes imprimir os teus.",
+	"biz_stickers_option_usa": "🇺🇸 EUA — gratuito por correio",
+	"biz_stickers_option_canada": "🇨🇦 Canadá — gratuito por correio",
+	"biz_stickers_option_print": "🌍 Em todo o mundo — imprime os teus",
+	"biz_stickers_print_header": "Imprime os teus próprios ficheiros de autocolantes",
+	"biz_stickers_print_c1": "Podes imprimir os teus próprios autocolantes de «Aceita-se Bitcoin» onde quer que vivas. Clica na tua língua em baixo para descarregar os ficheiros e instruções de impressão.",
+	"biz_stickers_request_header": "Não vês a tua língua?",
+	"biz_stickers_request_c1": "Preenche o formulário em baixo para solicitares ficheiros de autocolantes de «Aceita-se Bitcoin» na tua língua local. Avisamos-te quando estiverem prontos.",
+	"biz_stickers_placeholder_translation1": "Tradução da expressão «Bitcoin Accepted Here»",
+	"biz_stickers_placeholder_translation2": "Tradução da expressão «Scan to learn why Bitcoin is good for business.»",
+	"stickers_request": "Obtém os teus autocolantes gratuitos"
 }

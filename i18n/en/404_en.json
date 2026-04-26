@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"404_title": "404 Error | Page Not Found",
-	"404_message": "THIS BROKEN PAGE DOES NOT ROCK",
-	"404_home": "GO BACK HOME"
+	"404_message": "Bitcoin rocks, but this broken page does not.",
+	"404_home": "Back to Home",
+	"404_not_found_short": "Not Found"
 }

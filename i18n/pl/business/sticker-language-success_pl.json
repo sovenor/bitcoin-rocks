@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
-	"sticker_language_timeline": "Stworzymy i opublikujemy twój plik naklejek w ciągu 3 do 4 tygodni. Dziękujemy za twój wkład!"
+	"biz_sticker_language_success_hero_title": "Zgłoszenie przyjęte 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Dziękujemy za zamówienie plików naklejek „Akceptujemy Bitcoina” w twoim języku.",
+	"biz_sticker_language_success_timeline_header": "Co dalej",
+	"biz_sticker_language_success_timeline_c1": "Stworzymy i opublikujemy twoje pliki naklejek w ciągu 3–4 tygodni. Gdy będą gotowe, będziesz mógł je pobrać i wydrukować bezpłatnie z naszej strony plików naklejek.",
+	"biz_sticker_language_success_timeline_c2": "Pliki naklejek wydajemy partiami, więc twój język może iść na żywo dopiero po kilku tygodniach. Dziękujemy za cierpliwość!"
 }

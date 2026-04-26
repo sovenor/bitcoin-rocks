@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-24",
 		"locale": "el"
 	},
 	"bitcoin_wallet_guide": "Οδηγός πορτοφολιού Bitcoin",
 	"wallets_description": "Υπάρχουν πολλά διαφορετικά πορτοφόλια Bitcoin που διαφέρουν σε σημαντικά σημεία. Μπορείτε να προσδιορίσετε αν ένα πορτοφόλι είναι κατάλληλο για εσάς κάνοντας αυτές τις απλές ερωτήσεις.",
 	"wallets_header": "ΠΩΣ ΝΑ ΑΠΟΘΗΚΕΥΣΕΤΕ ΤΟ BITCOIN ΣΑΣ ΜΕ ΑΣΦΑΛΕΙΑ",
+	"wallets_header_subtitle": "Ένας οδηγός βήμα προς βήμα για να επιλέξετε πορτοφόλι, να προστατέψετε τα κλειδιά σας και να πάρετε πλήρη έλεγχο του Bitcoin σας.",
 	"wallets_s1_c1": "Τα πορτοφόλια Bitcoin είναι διαλειτουργικά, οπότε μπορείτε να στείλετε Bitcoin σε οποιονδήποτε, ανεξάρτητα από το πορτοφόλι που χρησιμοποιεί.",
 	"wallets_s1_c2": "Υπάρχουν πολλά διαφορετικά πορτοφόλια Bitcoin που διαφέρουν σε σημαντικά σημεία. Μπορείτε να προσδιορίσετε αν ένα πορτοφόλι είναι κατάλληλο για εσάς κάνοντας αυτές τις απλές ερωτήσεις:",
 	"wallets_question_1": "ΕΙΝΑΙ ΠΟΡΤΟΦΟΛΙ ΑΥΤΟ-ΦΥΛΑΞΗΣ;",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Ο Jameson Lopp έχει δοκιμάσει 70 κιτ ατσάλινου αντιγράφου ασφαλείας για να σας βοηθήσει να επιλέξετε αυτό που σας ταιριάζει.",
 	"wallets_s6_c5": "Δείτε τον οδηγό μεταλλικού αντιγράφου ασφαλείας Bitcoin του Jameson εδώ.",
 	"wallets_s6_c6": "Ή συνεχίστε να κάνετε κύλιση για να εξερευνήσετε τις επιλογές πορτοφολιών Bitcoin.",
+	"wallets_grid_heading": "Δημοφιλή πορτοφόλια Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Ψάχνετε τον Οδηγό Πορτοφολιών Lightning;",
 	"wallets_starter_wallet": "Εξαιρετικό πορτοφόλι για αρχάριους",
 	"wallets_mobile_app": "Εφαρμογή κινητού",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Επαναφορτιζόμενη μπαταρία",
 	"wallets_build_your_own": "Κατασκευάστε το δικό σας",
 	"wallets_qwerty_keyboard": "Πλήρες πληκτρολόγιο QWERTY",
-	"wallets_qr_scanner": "Σαρωτής κωδικού QR"
+	"wallets_qr_scanner": "Σαρωτής κωδικού QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Επιλέξτε το πορτοφόλι σας",
+	"sources_jameson_lopp": "Jameson Lopp — κριτικές μεταλλικής αποθήκευσης για Bitcoin seed",
+	"sources_blockstream_green": "Blockstream Green — αυτο-φυλασσόμενο πορτοφόλι Bitcoin",
+	"sources_blockstream_jade": "Blockstream Jade — hardware πορτοφόλι Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — hardware πορτοφόλι Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — hardware πορτοφόλι Coldcard Q",
+	"sources_passport": "Foundation Devices — hardware πορτοφόλι Passport",
+	"sources_seedsigner": "SeedSigner — συσκευή υπογραφής DIY ανοιχτού κώδικα για συναλλαγές Bitcoin"
 }

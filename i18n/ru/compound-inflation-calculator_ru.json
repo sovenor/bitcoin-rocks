@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
 	},
 	"cic_header": "КАЛЬКУЛЯТОР СЛОЖНОЙ ИНФЛЯЦИИ",
 	"cic_description": "Используйте этот калькулятор сложной инфляции, чтобы узнать, насколько должна вырасти ваша зарплата, чтобы не отставать от инфляции.",
-	"what_can_i_do_about": "Что я могу сделать с",
-	"what_can_i_do_about_2": "инфляцией?",
-	"cic_inflation_cta": "Откажитесь от инфляции с помощью Биткоина"
+	"cic_hero_subtitle": "Узнайте, насколько должна вырасти ваша зарплата, чтобы поспевать за инфляцией.",
+	"cic_calculator_heading": "Посчитайте свой инфляционный разрыв",
+	"cic_cta_label": "Следующий шаг",
+	"cic_inflation_cta": "Откажитесь от инфляции с помощью Биткоина",
+	"cic_next_learn_inflation": "Узнайте, как работает инфляция",
+	"cic_next_explore_topics": "Изучите больше тем",
+	"cic_next_explore_topics_desc": "Посмотрите, как Bitcoin связан с деньгами, свободой, энергией и не только.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — индекс потребительских цен для всех городских потребителей",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — денежная масса M1"
 }

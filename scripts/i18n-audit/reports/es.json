@@ -1,0 +1,31 @@
+{
+	"lang": "es",
+	"generatedAt": "2026-04-24T18:21:26.542Z",
+	"englishSnapshotGeneratedAt": "2026-04-24T18:09:51.642Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-24T18:21:19.750Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 1,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1161,
+		"brandIdentical": 133
+	},
+	"entries": [
+		{
+			"namespace": "common",
+			"key": "common_stickers_material",
+			"reason": "untranslated",
+			"englishValue": "Material:",
+			"currentValue": "Material:",
+			"targetTranslation": null
+		}
+	]
+}

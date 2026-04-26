@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "am"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "እንግሊዝኛ «Bitcoin Accepted Here» ስቲከር ፋይሎች",
-	"english_biz_sticker_files_description": "እንግሊዝኛ ስቲከር ፋይሎችን አውርደው የራስዎን Bitcoin Accepted Here ስቲከሮች ያትሙ።",
-	"english_header": "እንግሊዝኛ «BITCOIN ACCEPTED HERE» ስቲከር ፋይሎችን ያውርዱ"
+	"english_biz_sticker_files_description": "የራስዎን 'ቢትኮይን ተቀባይ' ስቲከሮች ለማተም የእንግሊዝኛ ስቲከር ፋይሎችን ያውርዱ።",
+	"biz_stickers_english_hero_title": "የእንግሊዝኛ 'Bitcoin Accepted Here' ስቲከር ፋይሎችን ያውርዱ",
+	"biz_stickers_english_hero_subtitle": "ደንበኞችዎ ቢትኮይን እንደሚቀበሉ እንዲያውቁ የራስዎን 'Bitcoin Accepted Here' ስቲከሮች በእንግሊዝኛ ያትሙ።"
 }

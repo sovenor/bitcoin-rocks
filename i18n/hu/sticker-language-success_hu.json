@@ -3,9 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
 	"sticker_language_success_1": "Sikeresen megkaptuk a kérésedet.",
-	"sticker_language_success_2": "Az új fájlokat kötegekben tesszük közzé, ezért több hétbe is telhet, mire ezek a fájlok letölthetők lesznek. Nézz vissza hamarosan!"
+	"sticker_language_success_2": "Az új fájlokat kötegekben tesszük közzé, ezért több hétbe is telhet, mire ezek a fájlok letölthetők lesznek. Nézz vissza hamarosan!",
+	"sticker_language_success_hero_title": "Kérés megérkezett 🎉"
 }

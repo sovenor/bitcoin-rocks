@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Efectivo",
-	"cash_header": "LA DIFERENCIA ENTRE",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "Y",
-	"cash_header_4": "EFECTIVO",
 	"cash_intro_1": "El efectivo se ha utilizado como dinero durante siglos y sigue siendo la forma más común de dinero físico en todo el mundo.",
 	"cash_intro_2": "Bitcoin es dinero digital creado en 2009 que opera independientemente de cualquier gobierno o autoridad central.",
 	"cash_intro_3": "¿Pero cómo difiere el efectivo físico del dinero digital como Bitcoin? Exploremos las diferencias clave entre estas dos formas de dinero: Bitcoin y Efectivo.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Red descentralizada",
 	"bitcoin_point_6": "Autocustodia digital",
 	"bitcoin_point_7": "Fácilmente divisible",
-	"point_1_summary_1": "Bitcoin puede enviarse a cualquier parte del mundo instantáneamente por Internet, mientras que el efectivo requiere presencia física o intermediarios de confianza. No puedes enviar efectivo por correo electrónico, pero puedes enviar Bitcoin a cualquier persona con conexión a Internet en minutos.",
-	"point_2_summary_1": "Bitcoin funciona de la misma manera en todo el mundo: no hay fronteras en la red Bitcoin. El efectivo está limitado por geografía, tipos de cambio y aceptación local. Intenta usar dólares estadounidenses en la Tailandia rural o yenes japoneses en el México rural.",
-	"point_3_summary_1": "Los gobiernos pueden y sí invalidan el efectivo de la noche a la mañana a través de políticas de desmonetización, como hizo India en 2016 cuando prohibió ciertos billetes.",
-	"point_3_summary_2": "Incluso sin prohibir ciertos billetes, los gobiernos constantemente devalúan el efectivo a través de la inflación.",
-	"point_3_summary_3": "Bitcoin no puede ser invalidado por ningún gobierno o autoridad: existe en una red global descentralizada que ninguna entidad individual controla.",
-	"point_4_summary_1": "El efectivo puede ser falsificado, y a menudo es difícil detectar billetes falsos sin equipo especial. Incluso con características de seguridad, el efectivo falsificado continúa circulando. Bitcoin utiliza prueba criptográfica que hace la falsificación matemáticamente imposible.",
-	"point_5_summary_1": "El efectivo es emitido y controlado por gobiernos, que pueden imprimir más a voluntad, cambiar diseños o declarar ciertos billetes inválidos. Bitcoin opera en una red descentralizada donde ninguna autoridad individual tiene control sobre la oferta monetaria o las reglas.",
-	"point_6_summary_1": "El efectivo debe almacenarse físicamente, haciéndolo vulnerable al robo, pérdida, incendio o confiscación. Las grandes cantidades requieren medidas de seguridad costosas.",
-	"point_6_summary_2": "Pero Bitcoin puede almacenarse de forma segura en autocustodia",
-	"point_6_summary_3": "usando una aplicación de smartphone o billetera especializada, dándote control completo sobre tu dinero sin riesgos de almacenamiento físico.",
-	"point_7_summary_1": "El efectivo tiene denominaciones mínimas: no puedes dividir un centavo en partes más pequeñas. Bitcoin puede dividirse en 100 millones de unidades más pequeñas llamadas satoshis, permitiendo micropagos y transacciones precisas de cualquier cantidad."
+	"point_1_summary_1": "Bitcoin viaja a cualquier lugar del mundo por internet en minutos. El efectivo requiere presencia física o mensajeros de confianza — no puedes enviar un billete de veinte por correo electrónico.",
+	"point_2_summary_1": "Bitcoin funciona igual en todas partes. El efectivo está limitado por la geografía, los tipos de cambio y la aceptación local.",
+	"point_3_summary_1": "Los gobiernos pueden invalidar el efectivo de la noche a la mañana — la <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> lo hizo en 2016. Pero incluso sin desmonetización, el efectivo pierde valor debido a la",
+	"point_3_summary_2": "inflación.",
+	"point_3_summary_3": "Bitcoin no puede ser invalidado por ningún gobierno ni autoridad.",
+	"point_4_summary_1": "El efectivo puede falsificarse, a veces de forma convincente. Bitcoin usa criptografía que hace la falsificación matemáticamente imposible.",
+	"point_5_summary_1": "Bitcoin no tiene autoridad central. El efectivo es emitido por gobiernos que pueden imprimir más, cambiar diseños o retirar billetes a voluntad.",
+	"point_6_summary_1": "El efectivo es vulnerable al robo, al fuego, a la pérdida y a la confiscación. Bitcoin puede ",
+	"point_6_summary_2": "autocustodiarse con seguridad",
+	"point_6_summary_3": " en tu teléfono o en un dispositivo de hardware.",
+	"point_7_summary_1": "Bitcoin se puede dividir en 100 millones de satoshis, permitiendo micropagos de cualquier tamaño. El efectivo tiene denominaciones mínimas — no se puede partir un céntimo.",
+	"hero_title": "La diferencia entre <span class=\"orange\">Bitcoin</span> y el <span class=\"asset\">efectivo</span>"
 }

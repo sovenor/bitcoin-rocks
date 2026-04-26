@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"sticker_success_1": "Saat tarrasi 2–4 viikon kuluessa. Sillä välin mieti hyvää paikkaa tarroillesi!",
-	"sticker_success_2": "Hyviä paikkoja tarroille ovat:",
 	"sticker_success_list_1": "julkisilla paikoilla, joissa ihmiset näkevät ne",
 	"sticker_success_list_2": "paikoissa, joista niitä ei todennäköisesti poisteta nopeasti (tarrat eivät aiheuta pysyvää vahinkoa)",
 	"sticker_success_list_3": "pinnoilla, joihin ne tarttuvat helposti (metalli, muovi, lasi)",
 	"sticker_success_list_4": "EI yksityiselle omaisuudelle, kylttien päälle, pankkiautomaateille tai huoltoasemille",
 	"sticker_success_3": "Haluatko nähdä, minne muut laittavat tarransa?",
-	"sticker_success_flyers_bar_new": "UUTTA!",
-	"sticker_success_flyers_bar_cta": "Tulosta ja kiinnitä Bitcoin-lentolehtisiä →"
+	"sticker_success_hero_title": "Tarrasi ovat matkalla 🎉",
+	"sticker_success_tips_header": "Hyviä paikkoja tarrojen laittamiseen",
+	"sticker_success_share_header": "Jaa, minne laitoit tarrasi",
+	"sticker_success_bulk_header": "Tarvitsetko lisää tarroja?",
+	"sticker_success_btn_order_bulk": "Tilaa suurerin",
+	"sticker_success_btn_share_on_nostr": "Jaa Nostrissa",
+	"sticker_success_btn_what_is_nostr": "Mikä on Nostr?"
 }

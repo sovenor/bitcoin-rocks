@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
-	"sticker_language_timeline": "Vašu datoteku naljepnica izradit ćemo i objaviti za 3 do 4 tjedna. Hvala na strpljenju!"
+	"biz_sticker_language_success_hero_title": "Zahtjev primljen 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Hvala što ste zatražili datoteke naljepnica „Bitcoin Accepted Here“ na svom jeziku.",
+	"biz_sticker_language_success_timeline_header": "Što slijedi",
+	"biz_sticker_language_success_timeline_c1": "Datoteke naljepnica izradit ćemo i objaviti u sljedećih 3 – 4 tjedna. Kad budu spremne, moći ćete ih besplatno preuzeti i tiskati s naše stranice s datotekama naljepnica.",
+	"biz_sticker_language_success_timeline_c2": "Datoteke naljepnica objavljujemo u skupinama, pa može potrajati nekoliko tjedana dok vaš jezik ne zaživi. Hvala na strpljenju!"
 }

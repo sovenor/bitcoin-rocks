@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
-	"sticker_language_timeline": "Chúng tôi sẽ tạo và xuất bản tập tin nhãn dán của bạn trong 3 đến 4 tuần. Cảm ơn sự kiên nhẫn của bạn!"
+	"biz_sticker_language_success_hero_title": "Đã nhận yêu cầu 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Cảm ơn bạn đã yêu cầu các tệp nhãn dán \"Bitcoin Accepted Here\" bằng ngôn ngữ của bạn.",
+	"biz_sticker_language_success_timeline_header": "Điều gì xảy ra tiếp theo",
+	"biz_sticker_language_success_timeline_c1": "Chúng tôi sẽ tạo và xuất bản các tệp nhãn dán của bạn trong vòng 3 đến 4 tuần. Sau khi chúng đã sẵn sàng, bạn sẽ có thể tải xuống và in chúng miễn phí từ trang tệp nhãn dán của chúng tôi.",
+	"biz_sticker_language_success_timeline_c2": "Các tệp nhãn dán được phát hành theo lô, vì vậy có thể mất vài tuần để ngôn ngữ của bạn được phát hành. Cảm ơn sự kiên nhẫn của bạn!"
 }

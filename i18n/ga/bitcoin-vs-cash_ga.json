@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Airgead Tirim",
-	"cash_header": "AN DIFRÍOCHT IDIR",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "AGUS",
-	"cash_header_4": "AIRGEAD TIRIM",
 	"cash_intro_1": "Tá airgead tirim in úsáid mar airgead le na céadta bliain agus fós is é an fhoirm is coitianta d'airgead fisiciúil ar fud an domhain.",
 	"cash_intro_2": "Is airgead digiteach é Bitcoin a cruthaíodh sa bhliain 2009 a oibríonn go neamhspleách ar aon rialtas nó údarás lárnach.",
 	"cash_intro_3": "Ach conas a dhéanann airgead tirim fisiciúil difríocht ó airgead digiteach cosúil le Bitcoin? Déanaimis iniúchadh ar na príomhdhifríochtaí idir an dá fhoirm airgid seo: Bitcoin & Airgead Tirim.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Líonra díláraithe",
 	"bitcoin_point_6": "Féinchoimirce dhigiteach",
 	"bitcoin_point_7": "Inroinnte go héasca",
-	"point_1_summary_1": "Is féidir Bitcoin a sheoladh áit ar bith ar domhan go láithreach thar an Idirlíon, ach éilíonn airgead tirim bheith i láthair go fisiciúil nó idirghabhálaithe iontaofa. Ní féidir leat airgead tirim a sheoladh trí ríomhphost, ach is féidir leat Bitcoin a sheoladh chuig aon duine le nasc Idirlín laistigh de nóiméid.",
-	"point_2_summary_1": "Oibríonn Bitcoin ar an mbealach céanna i ngach áit ar domhan - níl aon teorainneacha i líonra Bitcoin. Tá airgead tirim teoranta ag tíreolaíocht, rátaí malairte, agus glacadh áitiúil. Bain triail as dollair SAM a úsáid i gceantar tuaithe na Téalainne nó yen Seapánach i gceantar tuaithe Mheicsiceo.",
-	"point_3_summary_1": "Is féidir le rialtais agus déanann siad airgead tirim a chur ar neamhní thar oíche trí pholasaithe dí-airgeadaithe, cosúil leis an méid a rinne an India sa bhliain 2016 nuair a chuir siad cosc ar nótaí bainc áirithe.",
-	"point_3_summary_2": "Fiú gan nótaí bainc áirithe a thoirmeasc, déanann rialtais airgead tirim a dhímheas go leanúnach trí bhoilsciú.",
-	"point_3_summary_3": "Ní féidir le haon rialtas ná údarás Bitcoin a chur ar neamhní - tá sé ann ar líonra domhanda, díláraithe nach bhfuil faoi smacht aon aonáin amháin.",
-	"point_4_summary_1": "Is féidir airgead tirim a bhrionnú, agus go minic is deacair billí bréige a bhrath gan trealamh speisialta. Fiú le gnéithe slándála, leanann airgead tirim brionnaithe ag timpeallú. Úsáideann Bitcoin cruthúnas cripteagrafach a dhéanann brionnú dodhéanta go matamaiticiúil.",
-	"point_5_summary_1": "Eisíonn agus smachtaíonn rialtais airgead tirim, agus is féidir leo níos mó a phriontáil mar is mian leo, dearaí a athrú, nó billí áirithe a fhógairt neamhbhailí. Oibríonn Bitcoin ar líonra díláraithe nach bhfuil smacht ag aon údarás amháin ar an soláthar airgid ná ar na rialacha.",
-	"point_6_summary_1": "Caithfear airgead tirim a stóráil go fisiciúil, rud a fhágann go bhfuil sé leochaileach do ghoid, caillteanas, tine, nó urghabháil. Éilíonn méideanna móra bearta slándála costasacha.",
-	"point_6_summary_2": "Ach is féidir Bitcoin a stóráil go sábháilte le féinchoimirce",
-	"point_6_summary_3": "ag úsáid aip fóin chliste nó sparán speisialaithe, ag tabhairt smacht iomlán duit ar d'airgead gan rioscaí stórála fisiciúla.",
-	"point_7_summary_1": "Tá íosainmníochtaí ag airgead tirim - ní féidir leat pingin a roinnt ina codanna níos lú. Is féidir Bitcoin a roinnt ina 100 milliún aonad níos lú ar a dtugtar satoshi, ag cumasú micri-íocaíochtaí agus idirbhearta beachta d'aon mhéid."
+	"point_1_summary_1": "Taistealaíonn Bitcoin áit ar bith ar domhan tríd an idirlíon, i gceann nóiméad. Éilíonn airgead tirim láithreacht fhisiciúil nó teachtairí iontaofa — ní féidir leat nóta fiche a sheoladh trí ríomhphost.",
+	"point_2_summary_1": "Oibríonn Bitcoin mar an gcéanna i ngach áit. Tá airgead tirim teoranta ag tíreolaíocht, rátaí malairte agus glacadh áitiúil.",
+	"point_3_summary_1": "Is féidir le rialtais airgead tirim a neamhbhailigh thar oíche — rinne an <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> é sin in 2016. Ach fiú gan dí-airgeadú, cailleann airgead tirim luach mar gheall ar ",
+	"point_3_summary_2": "bhoilsciú.",
+	"point_3_summary_3": "Ní féidir le haon rialtas nó údarás Bitcoin a neamhbhailigh.",
+	"point_4_summary_1": "Is féidir airgead tirim a bhrionnú, uaireanta go hinchreidte. Úsáideann Bitcoin cripteagrafaíocht a fhágann brionnú mar rud dodhéanta ó thaobh na matamaitice de.",
+	"point_5_summary_1": "Níl aon údarás lárnach ag Bitcoin. Eisíonn rialtais airgead tirim ar féidir leo tuilleadh a chlóbhualadh, dearaí a athrú nó nótaí a tharraingt siar de réir mar is mian leo.",
+	"point_6_summary_1": "Tá airgead tirim i mbaol goid, dóiteáin, caillteanais agus coigistíochta. Is féidir Bitcoin a ",
+	"point_6_summary_2": "chóimheá agat féin go sábháilte",
+	"point_6_summary_3": " ar do ghuthán nó ar ghléas crua-earraí.",
+	"point_7_summary_1": "Tá Bitcoin inroinnte go 100 milliún satoshi, rud a cheadaíonn micreamhéidíocachtaí ar aon mhéid. Tá íosluachanna ag airgead tirim — ní féidir leat pingin a roinnt.",
+	"hero_title": "An difríocht idir <span class=\"orange\">Bitcoin</span> agus <span class=\"asset\">Airgead tirim</span>"
 }

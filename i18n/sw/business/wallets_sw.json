@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"how_to_accept_bitcoin_payments": "Jinsi ya Kukubali Malipo ya Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Pochi za mseto:",
 	"wallets_intro_5": "Hizi zinakuruhusu kubadilisha sehemu yoyote ya Bitcoin yako kuwa dola mara tu mteja anapokulipia. Ada bado ni chini ya malipo ya kadi ya mkopo, lakini ni za juu kuliko malipo safi ya Bitcoin.",
 	"wallets_intro_6": "Zote mbili ni njia nzuri za kukubali Bitcoin. Pochi maalum unayotumia itategemea ukubwa na aina ya biashara yako.",
-	"wallets_choice_sole": "pochi kwa biashara zinazomilikiwa na mtu mmoja",
-	"wallets_choice_multiple": "pochi kwa biashara zenye wafanyakazi wengi",
-	"wallets_choice_online": "pochi kwa biashara za mtandaoni",
-	"wallets_choice_invoice": "pochi kwa biashara zinazotumia ankara",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Unayohost mwenyewe = ada 0%",
 	"wallets_feature_online_store": "Muunganisho wa duka la mtandaoni",
 	"wallets_feature_invoicing": "Programu ya ankara ya bure",
-	"wallets_get_wallet": "PATA POCHI"
+	"wallets_get_wallet": "PATA POCHI",
+	"wallets_hero_subtitle": "Pochi za Bitcoin ni za bure. Chagua inayofaa biashara yako — ana kwa ana, mtandaoni, au kwa msingi wa ankara — na uanze kukubali Bitcoin ndani ya dakika.",
+	"wallets_section_sole": "Pochi kwa biashara zinazomilikiwa kibinafsi",
+	"wallets_section_sole_intro": "Ikiwa unaendesha duka, mkahawa wa kahawa, studio, au huduma peke yako, pochi yoyote ya hizi itafanya kazi. Chagua kulingana na ikiwa unataka kuweka malipo katika Bitcoin au kubadilisha kiotomatiki sehemu ya kila malipo kuwa sarafu yako ya ndani.",
+	"wallets_section_multiple": "Pochi kwa biashara zenye wafanyakazi wengi",
+	"wallets_section_multiple_intro": "Ikiwa una timu inayopokea malipo kwenye rejista, chagua pochi inayosaidia kuingia kwa wafanyakazi wengi — ili kila mfanyakazi apate PIN yake mwenyewe na uweke kumbukumbu safi ya nani alichukua malipo gani.",
+	"wallets_section_online": "Pochi kwa biashara za mtandaoni",
+	"wallets_section_online_intro": "Unauza kwenye tovuti? Pochi hizi zinaunganisha kwenye duka lako la mtandaoni na kukubali Bitcoin kutoka kwa mteja yeyote, popote duniani — bila kurudisha malipo, bila akaunti ya mfanyabiashara inayohitajika.",
+	"wallets_section_invoice": "Pochi kwa biashara za msingi wa ankara",
+	"wallets_section_invoice_intro": "Ikiwa unatuma ankara kwa wateja (ushauri, kazi za kujitegemea, huduma za B2B), tumia pochi iliyoundwa kuzunguka utengenezaji wa ankara. Mteja wako analipa ankara ya Bitcoin kwa kubonyeza mara kadhaa.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business hukuruhusu kukubali malipo ya Bitcoin na Lightning bila ada na makazi ya papo hapo. Inasaidia malipo ya ana kwa ana, mtandaoni, na ya msingi wa ankara na ubadilishaji wa hiari kuwa sarafu yako ya ndani.",
+	"sources_square": "Square — Kubali malipo ya Bitcoin",
+	"sources_breez_business": "Breez — Pochi ya Lightning ya Bitcoin pekee",
+	"sources_opennode": "OpenNode — Mchakataji wa malipo wa Bitcoin",
+	"sources_ibex": "IBEX — Miundombinu ya malipo ya Lightning",
+	"sources_zaprite": "Zaprite — Ankara za Bitcoin kwa biashara",
+	"biz_wallets_meta_description": "Pochi zote za Bitcoin zinaweza kufanya kazi pamoja — chagua moja inayofaa biashara yako. Bure, makazi ya papo hapo, hakuna kurudisha malipo."
 }

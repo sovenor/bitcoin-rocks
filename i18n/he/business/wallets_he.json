@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
 	"how_to_accept_bitcoin_payments": "איך לקבל תשלומי ביטקוין",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "ארנקים היברידיים:",
 	"wallets_intro_5": "אלה מאפשרים לך להמיר כל חלק מהביטקוין שלך לדולרים מידית כשלקוח משלם לך. העמלות עדיין נמוכות יותר מכרטיס אשראי, אבל גבוהות יותר מתשלומי ביטקוין טהורים.",
 	"wallets_intro_6": "שני הסוגים הם דרכים טובות לקבל ביטקוין. הארנק הנכון תלוי בגודל ובסוג העסק שלך.",
-	"wallets_choice_sole": "ארנקים לעסק יחיד",
-	"wallets_choice_multiple": "ארנקים לעסק עם מספר עובדים",
-	"wallets_choice_online": "ארנקים לעסק מקוון",
-	"wallets_choice_invoice": "ארנקים לעסק מבוסס חשבוניות",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "אירוח עצמי = 0% עמלות",
 	"wallets_feature_online_store": "אינטגרציה עם חנות מקוונת",
 	"wallets_feature_invoicing": "תוכנת חשבוניות חינמית",
-	"wallets_get_wallet": "קבלו ארנק"
+	"wallets_get_wallet": "קבלו ארנק",
+	"wallets_hero_subtitle": "ארנקי ביטקוין הם חינם. בחר את הטוב ביותר לעסק שלך — פנים אל פנים, אונליין או דרך חשבונית — והתחל לקבל ביטקוין תוך דקות.",
+	"wallets_section_sole": "ארנקים לעצמאי יחיד",
+	"wallets_section_sole_intro": "אם אתה מנהל לבד חנות, בית קפה, סטודיו או שירות, כל אחד מהארנקים האלה מתאים לך. בחר אם לשמור את הביטקוין או להמיר חלק מכל תשלום אוטומטית למטבע המקומי שלך.",
+	"wallets_section_multiple": "ארנקים לעסקים עם כמה עובדים",
+	"wallets_section_multiple_intro": "אם יש לך צוות שמקבל תשלומים בקופה, בחר ארנק שתומך בכניסה של מספר עובדים — כך שכל עובד יוכל להיות עם הקוד שלו, ותוכל לעקוב מי קיבל איזה תשלום.",
+	"wallets_section_online": "ארנקים לעסקים אונליין",
+	"wallets_section_online_intro": "אתה מוכר אונליין? הארנקים האלה מתחברים לחנות האונליין שלך ומקבלים תשלומי ביטקוין מלקוחות בכל העולם — ללא החזרים וללא צורך בחשבון סוחר.",
+	"wallets_section_invoice": "ארנקים לעסקים שמחייבים את הלקוחות בחשבוניות",
+	"wallets_section_invoice_intro": "אם אתה מחייב את הלקוחות שלך בחשבוניות (ייעוץ, פרילנס, שירותי B2B), השתמש בארנק שבנוי לסביבת חשבוניות. הלקוח משלם את חשבונית הביטקוין בכמה קליקים.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business מאפשר לך לקבל תשלומי ביטקוין ו-Lightning ללא עמלות ועם סילוק מיידי. תומך בתשלומים פנים אל פנים, אונליין ובחשבוניות, עם אפשרות המרה אוטומטית למטבע המקומי.",
+	"sources_square": "Square — קבל תשלומי ביטקוין",
+	"sources_breez_business": "Breez — ארנק Lightning ביטקוין-בלבד",
+	"sources_opennode": "OpenNode — מעבד תשלומי ביטקוין",
+	"sources_ibex": "IBEX — תשתית תשלומי Lightning",
+	"sources_zaprite": "Zaprite — חשבונאות ביטקוין לעסקים",
+	"biz_wallets_meta_description": "כל ארנקי הביטקוין עובדים יחד — בחר את הטוב ביותר לעסק שלך. חינם, עם סילוק מיידי, ללא החזרים."
 }

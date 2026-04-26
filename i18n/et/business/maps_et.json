@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Kort over Bitcoin-forhandlere – Opfør din virksomhed gratis",
-	"maps_header": "TILMELD DIG KORT OVER BITCOIN-FORHANDLERE OG FÅ FLERE KUNDER",
-	"maps_request_details": "Indtast dine virksomhedsoplysninger nedenfor, så opfører vi dig gratis på kort over Bitcoin-forhandlere. Dette gør det muligt for bitcoinere at finde din virksomhed og bruge deres Bitcoin hos dig!",
-	"maps_view": "Se kortet her."
+	"maps_view": "Se kortet her.",
+	"biz_maps_hero_title": "Pane oma ettevõte bitcoini kaupmeeste kaartidele",
+	"biz_maps_hero_subtitle": "Lisa oma ettevõte tasuta BTC Mapile — avatud globaalne bitcoini vastu võtvate kaupmeeste kataloog — et lähedal olevad bitcoini kasutajad saaksid sind leida ja sinu juures bitcoini kulutada.",
+	"biz_maps_intro_c1": "Bitcoini kasutajad otsivad aktiivselt kohti, kus oma raha kulutada. Kaardil olemine paneb sinu ettevõtte iga bitcoini kasutaja silma, kes otsib lähedal kohta söömiseks, ostmiseks või peatumiseks — täiesti tasuta.",
+	"biz_maps_intro_c2": "Täida lihtsalt allolev lühike vorm ja me esitame sinu ettevõtte BTC Mapile ja teistele bitcoini kaupmeeste kaartidele.",
+	"biz_maps_view_map_cta": "Vaata BTC Mapi",
+	"biz_maps_form_header": "Räägi meile oma ettevõttest",
+	"biz_maps_form_intro": "Vajame ainult mõned üksikasjad, et saaksime sind kaardile panna. Hoiame aadressi andmeid ainult nii kaua, kui on vaja sinu ettevõtte kaartidele saatmiseks.",
+	"biz_maps_placeholder_name": "Ettevõtte nimi",
+	"biz_maps_placeholder_category": "Kategooria (nt restoran, kohvik, hotell)",
+	"biz_maps_placeholder_address": "Tänav ja maja number",
+	"biz_maps_placeholder_city": "Linn",
+	"biz_maps_placeholder_region": "Piirkond / maakond / osariik",
+	"biz_maps_placeholder_country": "Riik",
+	"biz_maps_placeholder_website": "Veebisait (valikuline)",
+	"biz_maps_meta_description": "Lisa oma ettevõte tasuta BTC Mapile ja teistele bitcoini kaupmeeste kaartidele, et lähedal olevad bitcoini kasutajad sind leiaksid."
 }

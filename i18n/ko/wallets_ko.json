@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ko"
 	},
 	"bitcoin_wallet_guide": "비트코인 지갑 가이드",
 	"wallets_description": "중요한 면에서 차이가 나는 다양한 비트코인 지갑이 있습니다. 간단한 질문을 통해 적합한 지갑을 결정할 수 있습니다.",
 	"wallets_header": "비트코인을 안전하게 보관하는 방법",
+	"wallets_header_subtitle": "지갑을 선택하고, 키를 보호하고, 비트코인을 완전히 통제하기 위한 단계별 가이드.",
 	"wallets_s1_c1": "비트코인 지갑은 상호 운용이 가능하므로 어떤 지갑을 사용하든 누구에게나 비트코인을 보낼 수 있습니다.",
 	"wallets_s1_c2": "중요한 면에서 차이가 나는 다양한 비트코인 지갑이 있습니다. 간단한 질문을 통해 적합한 지갑을 결정할 수 있습니다:",
 	"wallets_question_1": "셀프 커스터디 지갑인가요?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp이 70개의 스틸 백업 키트를 테스트하여 적합한 것을 선택하는 데 도움을 줍니다.",
 	"wallets_s6_c5": "Jameson의 금속 비트코인 백업 가이드를 여기서 확인하세요.",
 	"wallets_s6_c6": "또는 계속 스크롤하여 비트코인 지갑 옵션을 살펴보세요.",
+	"wallets_grid_heading": "인기 있는 비트코인 지갑",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning 네트워크",
 	"wallets_cta_lightning": "라이트닝 지갑 가이드를 찾고 계신가요?",
 	"wallets_starter_wallet": "훌륭한 입문 지갑",
 	"wallets_mobile_app": "모바일 앱",
@@ -62,5 +65,13 @@
 	"wallets_battery": "충전식 배터리",
 	"wallets_build_your_own": "직접 조립",
 	"wallets_qwerty_keyboard": "풀 QWERTY 키보드",
-	"wallets_qr_scanner": "QR 코드 스캐너"
+	"wallets_qr_scanner": "QR 코드 스캐너",
+	"sources_bitcoin_org_choose": "Bitcoin.org — 지갑 선택하기",
+	"sources_jameson_lopp": "Jameson Lopp — 메탈 비트코인 시드 보관 리뷰",
+	"sources_blockstream_green": "Blockstream Green — 자기 보관형 비트코인 지갑",
+	"sources_blockstream_jade": "Blockstream Jade — 비트코인 하드웨어 지갑",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 하드웨어 지갑",
+	"sources_coldcard_q": "Coinkite — Coldcard Q 하드웨어 지갑",
+	"sources_passport": "Foundation Devices — Passport 하드웨어 지갑",
+	"sources_seedsigner": "SeedSigner — 오픈 소스 DIY 비트코인 서명 장치"
 }

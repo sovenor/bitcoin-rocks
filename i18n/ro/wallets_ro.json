@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_wallet_guide": "Ghid portofele Bitcoin",
 	"wallets_description": "Există multe portofele Bitcoin diferite care diferă în moduri importante. Poți determina dacă un portofel este potrivit pentru tine punând aceste întrebări simple.",
 	"wallets_header": "CUM SĂ STOCHEZI BITCOIN ÎN SIGURANȚĂ",
+	"wallets_header_subtitle": "Un ghid pas cu pas pentru a alege un portofel, a-ți proteja cheile și a prelua control deplin asupra Bitcoin-ului tău.",
 	"wallets_s1_c1": "Portofelele Bitcoin sunt interoperabile, deci poți trimite Bitcoin oricui indiferent de portofelul pe care îl folosesc.",
 	"wallets_s1_c2": "Există multe portofele Bitcoin diferite care diferă în moduri importante. Poți determina dacă un portofel este potrivit pentru tine punând aceste întrebări simple:",
 	"wallets_question_1": "ESTE UN PORTOFEL CU AUTO-CUSTODIE?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp a testat 70 de kituri de backup pe oțel pentru a te ajuta să alegi cel potrivit pentru tine.",
 	"wallets_s6_c5": "Vezi ghidul de backup pe metal Bitcoin al lui Jameson aici.",
 	"wallets_s6_c6": "Sau continuă să derulezi pentru a explora opțiunile de portofele Bitcoin.",
+	"wallets_grid_heading": "Portofele Bitcoin populare",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Cauți ghidul nostru de portofele Lightning?",
 	"wallets_starter_wallet": "Portofel excelent pentru început",
 	"wallets_mobile_app": "Aplicație mobilă",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Baterie reîncărcabilă",
 	"wallets_build_your_own": "Construiește-l singur",
 	"wallets_qwerty_keyboard": "Tastatură QWERTY completă",
-	"wallets_qr_scanner": "Scanner de coduri QR"
+	"wallets_qr_scanner": "Scanner de coduri QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Alege-ți portofelul",
+	"sources_jameson_lopp": "Jameson Lopp — Recenzia stocării seed-urilor Bitcoin în metal",
+	"sources_blockstream_green": "Blockstream Green — Portofel Bitcoin auto-custodial",
+	"sources_blockstream_jade": "Blockstream Jade — Portofel hardware Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — Portofel hardware Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — Portofel hardware Coldcard Q",
+	"sources_passport": "Foundation Devices — Portofel hardware Passport",
+	"sources_seedsigner": "SeedSigner — Dispozitiv de semnare Bitcoin DIY open source"
 }

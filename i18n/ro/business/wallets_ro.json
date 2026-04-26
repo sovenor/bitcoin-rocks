@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"how_to_accept_bitcoin_payments": "Cum să accepți plăți Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Portofele hibride:",
 	"wallets_intro_5": "Acestea îți permit să schimbi orice procent din Bitcoin pentru dolari imediat ce un client te plătește. Comisioanele sunt totuși mai mici decât plățile cu cardul de credit, dar mai mari decât plățile Bitcoin pure.",
 	"wallets_intro_6": "Ambele sunt modalități excelente de a accepta Bitcoin. Portofelul specific pe care îl folosești va depinde de dimensiunea și tipul afacerii tale.",
-	"wallets_choice_sole": "portofele pentru afaceri cu un singur proprietar",
-	"wallets_choice_multiple": "portofele pentru afaceri cu mai mulți angajați",
-	"wallets_choice_online": "portofele pentru afaceri online",
-	"wallets_choice_invoice": "portofele pentru afaceri bazate pe facturi",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Auto-găzduit = 0% comisioane",
 	"wallets_feature_online_store": "Integrare magazin online",
 	"wallets_feature_invoicing": "Software gratuit de facturare",
-	"wallets_get_wallet": "OBȚINE PORTOFELUL"
+	"wallets_get_wallet": "OBȚINE PORTOFELUL",
+	"wallets_hero_subtitle": "Portofele Bitcoin gratuite. Alege-l pe cel potrivit afacerii tale — în persoană, online sau bazat pe facturi — și începe să accepți Bitcoin în câteva minute.",
+	"wallets_section_sole": "Portofele pentru afaceri individuale",
+	"wallets_section_sole_intro": "Dacă conduci singur un magazin, o cafenea, un studio sau un serviciu, oricare dintre aceste portofele va funcționa. Alege în funcție de cum vrei să păstrezi plățile în Bitcoin sau să convertești automat o parte din fiecare plată în moneda ta locală.",
+	"wallets_section_multiple": "Portofele pentru afaceri cu mai mulți angajați",
+	"wallets_section_multiple_intro": "Dacă ai o echipă care acceptă plăți la casă, alege un portofel care suportă autentificări multiple ale angajaților — astfel încât fiecare angajat să-și aibă propriul PIN și să păstrezi o pistă de audit curată despre cine a acceptat ce plată.",
+	"wallets_section_online": "Portofele pentru afaceri online",
+	"wallets_section_online_intro": "Vinzi pe un site web? Aceste portofele se conectează la magazinul tău online și acceptă Bitcoin de la orice client, oriunde în lume — fără chargeback-uri, fără cont de comerciant necesar.",
+	"wallets_section_invoice": "Portofele pentru afaceri bazate pe facturi",
+	"wallets_section_invoice_intro": "Dacă facturezi clienți (consultanță, freelancing, servicii B2B), folosește un portofel construit în jurul facturării. Clienții tăi plătesc o factură Bitcoin în câteva clicuri.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business îți permite să accepți plăți Bitcoin și Lightning cu zero comisioane și decontare instantanee. Suportă plăți în persoană, online și bazate pe facturi cu conversie automată opțională în moneda ta locală.",
+	"sources_square": "Square — Acceptă plăți Bitcoin",
+	"sources_breez_business": "Breez — Portofel Lightning doar Bitcoin",
+	"sources_opennode": "OpenNode — Procesator de plăți Bitcoin",
+	"sources_ibex": "IBEX — Infrastructură de plăți Lightning",
+	"sources_zaprite": "Zaprite — Facturare Bitcoin pentru afaceri",
+	"biz_wallets_meta_description": "Toate portofelele Bitcoin sunt interconectate — alege-l pe cel potrivit afacerii tale. Gratuite, decontare instantanee, fără chargeback-uri."
 }

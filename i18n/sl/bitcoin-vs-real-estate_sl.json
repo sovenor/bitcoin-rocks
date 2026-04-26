@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin proti nepremičninam",
-	"real_estate_header": "RAZLIKA MED",
-	"real_estate_header_2": "BITCOINOM",
-	"real_estate_header_3": "IN",
-	"real_estate_header_4": "NEPREMIČNINAMI",
 	"real_estate_intro_1": "Nepremičnine so že desetletja priljubljena naložba in se pogosto smatrajo za stabilna sredstva za hrambo vrednosti.",
 	"real_estate_intro_2": "Bitcoin je digitalni denar, ustvarjen leta 2009, in mnogi ga prav tako smatrajo za sredstvo za hrambo vrednosti in naložbo.",
 	"real_estate_intro_3": "Kako pa se fizična nepremičnina razlikuje od digitalnega denarja, kot je Bitcoin? Poglejmo razlike med dvema oblikama naložb: Bitcoinom in nepremičninami.",
@@ -32,15 +28,16 @@
 	"bitcoin_point_6": "Težko uničljiv",
 	"bitcoin_point_7": "Popolnoma zamenljiv",
 	"bitcoin_point_8": "Globalni trg 24/7",
-	"point_1_summary_1": "Bitcoin se lahko premakne kamorkoli na svetu takoj prek interneta. Nepremičnine so trajno fiksirane na določeni lokaciji in jih ni mogoče premakniti, kar jih dela ranljive za lokalne gospodarske razmere, naravne nesreče in politično nestabilnost.",
-	"point_2_summary_1": "Bitcoin se lahko razdeli na 100 milijonov manjših enot, imenovanih satoši, kar ga dela idealnega za transakcije katere koli velikosti. Nepremičnin ni mogoče enostavno razdeliti — ne morete prodati le kuhinje svoje hiše ali kupiti polovico spalnice.",
-	"point_3_summary_1": "Bitcoin deluje na decentraliziranem omrežju, ki ga nobena vlada ne more nadzorovati. Nepremičnine so podvržene obsežni vladni regulaciji, vključno z regulacijo najemnin, moratoriji na deložacije, prostorskimi zakoni in razlastitvijo.",
-	"point_4_summary_1": "Bitcoin ne zahteva vzdrževanja — obstaja kot digitalna koda na omrežju. Nepremičnine zahtevajo nenehno skrb, vključno s popravili, prenovami, upravljanjem nepremičnin, zavarovanjem in delom z najemniki.",
-	"point_5_summary_1": "Bitcoin nima nobenih tekočih davkov — davek na kapitalski dobiček plačate le ob prodaji. Nepremičnine so podvržene letnemu davku na nepremičnine, ki ga je treba plačati ne glede na to, ali nepremičnina prinaša dohodek.",
-	"point_6_summary_1": "Bitcoin, če je pravilno varnostno kopiran, ne more biti uničen s povodmi, požari, potresi, orkani ali drugimi naravnimi nesrečami. Nepremičnine so ranljive za vse oblike fizičnega uničenja.",
-	"point_7_summary_1": "Vsak bitcoin je enak in medsebojno zamenljiv — en bitcoin je enak enemu bitcoinu kjerkoli na svetu. Vsaka nepremičnina je edinstvena z različnimi lokacijami, stanji in značilnostmi, kar otežuje vrednotenje in primerjavo.",
-	"point_8_summary_1": "Bitcoin lahko kdorkoli kupuje in prodaja 24/7 z dostopom do interneta kjerkoli na svetu. Prodaja nepremičnin je omejena na lokalne kupce, zahteva dolgotrajne postopke z odvetniki in agenti ter lahko traja mesece.",
+	"point_1_summary_1": "Bitcoin se takoj prenese kamor koli na svetu. Nepremičnine so vezane na eno lokacijo in izpostavljene lokalnim ekonomskim, političnim in naravnim tveganjem.",
+	"point_2_summary_1": "Bitcoin je deljiv na 100 milijonov satoshijev. Nepremičnine ni mogoče delno prodati — ne morete prodati samo kuhinje ali kupiti polovico spalnice.",
+	"point_3_summary_1": "Bitcoin deluje v decentraliziranem omrežju, ki ga nobena vlada ne more nadzorovati. Nepremičnine so močno regulirane — prostorsko načrtovanje, regulacije najemnin, razlastitve in zaplembe veljajo za vse.",
+	"point_4_summary_1": "Bitcoin ne zahteva vzdrževanja. Nepremičnine zahtevajo popravila, prenove, zavarovanja, upravljanje in obvladovanje težav z najemniki.",
+	"point_5_summary_1": "Bitcoin ni predmet stalnih davkov — davek na kapitalske dobičke plačate šele ob prodaji. Pri nepremičninah plačujete letni davek na nepremičnine ne glede na dohodek.",
+	"point_6_summary_1": "Pravilno varnostno kopiran Bitcoin preživi požar, poplavo in potres. Nepremičnine so ranljive za vsako katastrofo, zavarovanje pa redko pokrije vse.",
+	"point_7_summary_1": "Vsak bitcoin je enak in zamenljiv. Vsaka nepremičnina je edinstvena, kar otežuje vrednotenje in primerjavo.",
+	"point_8_summary_1": "Bitcoin se trguje globalno 24/7 za vsakogar z dostopom do interneta. Prodaja nepremičnin je omejena na lokalne kupce, zaključek pa lahko traja mesece papirnate dokumentacije.",
 	"bitcoin_point_9": "Podpira individualno lastništvo",
 	"real_estate_point_9": "Prispeva k financializaciji stanovanj",
-	"point_9_summary_1": "Bitcoin omogoča neposredno individualno lastništvo brez posrednikov in podpira finančno suverenost za vsakogar. Nakup nepremičnin kot naložba onkraj vašega primarnega bivališča prispeva k financializaciji stanovanj, kjer domovi postanejo blago namesto zatočišča. To zvišuje cene, zmanjšuje dostopnost za družine in prispeva h krizi stanovanj in brezdomstva."
+	"point_9_summary_1": "Bitcoin omogoča neposredno individualno lastništvo za vsakogar. Nakup nepremičnin za naložbo onkraj primarnega bivališča viša cene stanovanj, znižuje dostopnost in podpihuje stanovanjsko krizo.",
+	"hero_title": "Razlika med <span class=\"orange\">Bitcoinom</span> in <span class=\"asset\">nepremičninami</span>"
 }

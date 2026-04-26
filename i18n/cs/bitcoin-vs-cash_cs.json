@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Hotovost",
-	"cash_header": "ROZDÍL MEZI",
-	"cash_header_2": "BITCOINEM",
-	"cash_header_3": "A",
-	"cash_header_4": "HOTOVOSTÍ",
 	"cash_intro_1": "Hotovost se jako peníze používá po staletí a zůstává nejběžnější formou fyzických peněz na celém světě.",
 	"cash_intro_2": "Bitcoin jsou digitální peníze vytvořené v roce 2009, které fungují nezávisle na jakékoli vládě nebo centrální autoritě.",
 	"cash_intro_3": "Jak se ale fyzická hotovost liší od digitálních peněz jako Bitcoin? Podívejme se na klíčové rozdíly mezi těmito dvěma formami peněz: Bitcoinem a Hotovostí.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Decentralizovaná síť",
 	"bitcoin_point_6": "Digitální vlastní správa",
 	"bitcoin_point_7": "Snadno dělitelný",
-	"point_1_summary_1": "Bitcoin lze odeslat kamkoli na světě okamžitě přes internet, zatímco hotovost vyžaduje fyzickou přítomnost nebo důvěryhodné prostředníky. Hotovost nemůžete poslat e-mailem, ale Bitcoin můžete poslat komukoli s připojením k internetu během minut.",
-	"point_2_summary_1": "Bitcoin funguje všude na světě stejně - v Bitcoinové síti neexistují žádné hranice. Hotovost je omezena geografií, směnnými kurzy a místním přijetím. Zkuste použít americké dolary na venkově v Thajsku nebo japonské jeny na venkově v Mexiku.",
-	"point_3_summary_1": "Vlády mohou a zneplatňují hotovost přes noc prostřednictvím politik demonetizace, jako to Indie udělala v roce 2016, když zakázala určité bankovky.",
-	"point_3_summary_2": "I bez zákazu určitých bankovek vlády neustále znehodnocují hotovost prostřednictvím inflace.",
-	"point_3_summary_3": "Bitcoin nemůže být zneplatněn žádnou vládou ani autoritou - existuje na globální, decentralizované síti, kterou žádný subjekt nekontroluje.",
-	"point_4_summary_1": "Hotovost lze padělat a detekce falešných bankovek je bez speciálního vybavení často obtížná. I s bezpečnostními prvky padělané peníze stále kolují. Bitcoin používá kryptografický důkaz, který činí padělání matematicky nemožným.",
-	"point_5_summary_1": "Hotovost je vydávána a kontrolována vládami, které mohou tisknout více podle libosti, měnit design nebo prohlásit určité bankovky za neplatné. Bitcoin funguje na decentralizované síti, kde žádná jednotlivá autorita nemá kontrolu nad nabídkou peněz ani pravidly.",
-	"point_6_summary_1": "Hotovost musí být uchovávána fyzicky, což ji činí zranitelnou vůči krádeži, ztrátě, požáru nebo zabavení. Velké částky vyžadují nákladná bezpečnostní opatření.",
-	"point_6_summary_2": "Ale Bitcoin lze bezpečně uchovávat ve vlastní správě",
-	"point_6_summary_3": "pomocí aplikace na smartphonu nebo specializované peněženky, což vám dává plnou kontrolu nad vašimi penězi bez rizik fyzického uchovávání.",
-	"point_7_summary_1": "Hotovost má minimální nominální hodnoty - penny nelze rozdělit na menší díly. Bitcoin lze rozdělit na 100 milionů menších jednotek nazývaných satoshi, což umožňuje mikroplatby a přesné transakce libovolné částky."
+	"point_1_summary_1": "Bitcoin se přes internet přesouvá kamkoli na světě během minut. Hotovost vyžaduje fyzickou přítomnost nebo důvěryhodné kurýry — dvacetidolarovku nemůžete poslat e-mailem.",
+	"point_2_summary_1": "Bitcoin funguje stejně všude. Hotovost je omezena zeměpisem, směnnými kurzy a místním přijímáním.",
+	"point_3_summary_1": "Vlády mohou hotovost ze dne na den zneplatnit — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Indie</a> to udělala v roce 2016. Ale i bez demonetizace hotovost ztrácí hodnotu kvůli",
+	"point_3_summary_2": "inflaci.",
+	"point_3_summary_3": "Bitcoin nelze zneplatnit žádnou vládou ani autoritou.",
+	"point_4_summary_1": "Hotovost lze padělat, někdy velmi věrně. Bitcoin používá kryptografii, která padělání matematicky znemožňuje.",
+	"point_5_summary_1": "Bitcoin nemá žádnou centrální autoritu. Hotovost vydávají vlády, které mohou tisknout další, měnit vzhled nebo rušit bankovky podle libosti.",
+	"point_6_summary_1": "Hotovost je zranitelná krádeží, požárem, ztrátou i zabavením. Bitcoin lze bezpečně ",
+	"point_6_summary_2": "uchovat v samoúschově",
+	"point_6_summary_3": " v telefonu nebo hardwarovém zařízení.",
+	"point_7_summary_1": "Bitcoin se dělí na 100 milionů satoshi, což umožňuje mikroplatby jakékoli velikosti. Hotovost má minimální nominální hodnoty — haléř rozdělit nemůžete.",
+	"hero_title": "Rozdíl mezi <span class=\"orange\">Bitcoinem</span> a <span class=\"asset\">hotovostí</span>"
 }

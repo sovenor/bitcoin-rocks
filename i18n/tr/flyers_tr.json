@@ -3,17 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks'tan ücretsiz Bitcoin broşürleri",
 	"flyers_description": "Evde bir Bitcoin broşürü yazdırın ve çevrenizdeki insanları bilgilendirmek için halka açık bir yere yapıştırın.",
-	"flyers_header_1": "YAZDIR VE YAPIŞTIR",
-	"flyers_header_2": "BİTCOİN BROŞÜRLERİ",
-	"flyers_intro_header": "BU BİTCOİN BROŞÜRLERİNİ NASIL YAZDIRIR VE YAPIŞTIRIRSINIZ",
+	"flyers_hero_title": "Bitcoin broşürlerini yazdır ve as",
+	"flyers_hero_subtitle": "Ücretsiz, yazdırılabilir Bitcoin broşürleri. Daha çok insanın Bitcoin'i öğrenmesine yardım etmek için bunları kamuya açık yerlere as.",
+	"flyers_intro_header": "Bu Bitcoin broşürlerini nasıl yazdırıp asarsın",
 	"flyers_intro_c1": "Misyonumuz, Bitcoin broşürlerini halka açık yerlere yapıştırarak daha fazla insanı bilgilendirmenize yardımcı olmaktır. Bu broşürde şu konudaki sayfamıza yönlendiren bir QR kodu var:",
 	"flyers_intro_c2": "eğitici Bitcoin sayfamız.",
-	"flyers_intro_c3": "enflasyon",
 	"flyers_intro_c4": "Bu broşürü evde veya bir matbaada yazdırın. Ardından ilan tahtalarına, şehirdeki telefon direklerine ve insanların göreceği ve Bitcoin hakkında bilgi edineceği diğer halka açık yerlere yapıştırın.",
 	"flyers_intro_c5": "Bu arada, bir paket",
 	"flyers_intro_c6": "ücretsiz Bitcoin çıkartması",
@@ -23,5 +22,7 @@
 	"flyers_share_header": "BROŞÜR KONUMLARINIZI PAYLAŞIN",
 	"flyers_share_c1": "Broşür konumlarınızı Nostr'da bizimle paylaşın ve başkalarının broşürlerini nereye yapıştırdığını görün.",
 	"flyers_btn_share_on_nostr": "NOSTR'DA PAYLAŞ",
-	"flyers_btn_what_is_nostr": "NOSTR NEDİR?"
+	"flyers_btn_what_is_nostr": "NOSTR NEDİR?",
+	"flyers_next_get_stickers": "Sözü yay",
+	"flyers_next_get_stickers_desc": "Ücretsiz bir Bitcoin çıkartma paketi sipariş et"
 }

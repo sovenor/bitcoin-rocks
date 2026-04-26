@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
 	"bitcoin_accepted_here_stickers": "Naklejki „Bitcoin akceptowany tutaj\"",
-	"stickers_header": "ZDOBĄDŹ DARMOWE NAKLEJKI „BITCOIN AKCEPTOWANY TUTAJ\"",
-	"stickers_request": "Zdobądź darmowe naklejki",
-	"stickers_request_details": "Poinformuj swoich klientów, że przyjmujesz płatności Bitcoin, dzięki tym darmowym naklejkom „Bitcoin akceptowany tutaj\".",
-	"stickers_country_global_print": "Globalnie — Wydrukuj własne naklejki",
-	"stickers_request_instructions": "Otrzymasz trzy naklejki „Bitcoin akceptowany tutaj\" w zwykłej białej kopercie.",
-	"stickers_print_details": "Możesz wydrukować własne naklejki „Bitcoin akceptowany tutaj\", bez względu na to, gdzie mieszkasz! Kliknij na swój język poniżej, aby pobrać pliki naklejek.",
-	"stickers_request_language": "Nie widzisz swojego języka? Wypełnij poniższy formularz, aby poprosić o pliki naklejek „Bitcoin akceptowany tutaj\" w swoim języku."
+	"biz_stickers_hero_title": "Darmowe naklejki „Akceptujemy Bitcoina”",
+	"biz_stickers_hero_subtitle": "Daj klientom znać, że akceptujesz Bitcoina. Zamów darmowy zestaw naklejek „Akceptujemy Bitcoina”, by powiesić je w swojej lokalizacji.",
+	"biz_stickers_intro_c1": "Akceptowanie Bitcoina to tylko połowa pracy — twoi klienci też muszą wiedzieć, że go akceptujesz. Te małe naklejki „Akceptujemy Bitcoina” są zaprojektowane tak, by przykleić je na drzwiach wejściowych, kasie, menu lub gdziekolwiek indziej, gdzie klienci je zobaczą przed zapłatą.",
+	"biz_stickers_intro_c2": "Wyślemy ci darmowy zestaw w dowolne miejsce w USA lub Kanadzie, albo możesz wydrukować własne gdziekolwiek na świecie.",
+	"biz_stickers_step_header": "Jak chcesz zdobyć naklejki?",
+	"biz_stickers_step_description": "Darmowy zestaw wyślemy na adresy w USA i Kanadzie. W każdym innym miejscu na świecie możesz wydrukować własne.",
+	"biz_stickers_option_usa": "🇺🇸 USA — darmowo pocztą",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — darmowo pocztą",
+	"biz_stickers_option_print": "🌍 Cały świat — wydrukuję własne",
+	"biz_stickers_print_header": "Wydrukuj własne pliki naklejek",
+	"biz_stickers_print_c1": "Możesz wydrukować własne naklejki „Akceptujemy Bitcoina”, niezależnie od tego, gdzie mieszkasz. Kliknij swój język poniżej, aby pobrać pliki naklejek i instrukcje druku.",
+	"biz_stickers_request_header": "Nie widzisz swojego języka?",
+	"biz_stickers_request_c1": "Wypełnij formularz poniżej, by zamówić pliki naklejek „Akceptujemy Bitcoina” w twoim lokalnym języku. Damy ci znać, gdy będą gotowe.",
+	"biz_stickers_placeholder_translation1": "Tłumaczenie wyrażenia „Bitcoin Accepted Here”",
+	"biz_stickers_placeholder_translation2": "Tłumaczenie wyrażenia „Scan to learn why Bitcoin is good for business.”",
+	"stickers_request": "Zdobądź darmowe naklejki"
 }

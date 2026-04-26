@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"how_to_accept_bitcoin_payments": "How to Accept Bitcoin Payments",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hybrid wallets:",
 	"wallets_intro_5": "These allow you to exchange any portion of your Bitcoin for dollars as soon as a customer pays you. Fees are still less than credit card payments, but higher than pure Bitcoin payments.",
 	"wallets_intro_6": "Both are great ways to accept Bitcoin. The specific wallet you use will depend on the size and type of your business.",
-	"wallets_choice_sole": "wallets for individually owned businesses",
-	"wallets_choice_multiple": "wallets for businesses with multiple employees",
-	"wallets_choice_online": "wallets for online businesses",
-	"wallets_choice_invoice": "wallets for invoice-based businesses",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Self-hosted = 0% fees",
 	"wallets_feature_online_store": "Online store integration",
 	"wallets_feature_invoicing": "Free invoicing software",
-	"wallets_get_wallet": "GET WALLET"
+	"wallets_get_wallet": "GET WALLET",
+	"wallets_hero_subtitle": "Bitcoin wallets are free. Pick one that fits your business — in-person, online, or invoice-based — and start accepting Bitcoin in minutes.",
+	"wallets_section_sole": "Wallets for individually-owned businesses",
+	"wallets_section_sole_intro": "If you run a shop, café, studio, or service on your own, any of these wallets will work. Pick based on whether you want to keep payments in Bitcoin or auto-convert part of each payment to your local currency.",
+	"wallets_section_multiple": "Wallets for businesses with multiple employees",
+	"wallets_section_multiple_intro": "If you have a team taking payments at the register, choose a wallet that supports multiple employee logins — so every employee gets their own PIN and you keep a clean audit trail of who took which payment.",
+	"wallets_section_online": "Wallets for online businesses",
+	"wallets_section_online_intro": "Selling on a website? These wallets plug into your online store and accept Bitcoin from any customer, anywhere in the world — no chargebacks, no merchant account required.",
+	"wallets_section_invoice": "Wallets for invoice-based businesses",
+	"wallets_section_invoice_intro": "If you invoice clients (consulting, freelancing, B2B services), use a wallet built around invoicing. Your client pays a Bitcoin invoice in a couple of clicks.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business lets you accept Bitcoin and Lightning payments with zero fees and instant settlement. Supports in-person, online, and invoice-based payments with optional auto-conversion to your local currency.",
+	"sources_square": "Square — Accept Bitcoin payments",
+	"sources_breez_business": "Breez — Bitcoin-only Lightning wallet",
+	"sources_opennode": "OpenNode — Bitcoin payment processor",
+	"sources_ibex": "IBEX — Lightning payments infrastructure",
+	"sources_zaprite": "Zaprite — Bitcoin invoicing for businesses",
+	"biz_wallets_meta_description": "All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks."
 }

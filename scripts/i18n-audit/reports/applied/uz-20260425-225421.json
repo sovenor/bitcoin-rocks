@@ -1,0 +1,40 @@
+{
+	"lang": "uz",
+	"generatedAt": "2026-04-25T22:54:10.886Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T22:37:35.474Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-25T22:54:04.982Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 1,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1215,
+		"brandIdentical": 79
+	},
+	"entries": [
+		{
+			"namespace": "common",
+			"key": "common_stickers_material",
+			"reason": "untranslated",
+			"englishValue": "Material:",
+			"currentValue": "Material:",
+			"targetTranslation": "Material turi:"
+		}
+	],
+	"appliedAt": "2026-04-25T22:54:21.393Z",
+	"appliedStats": {
+		"resolved": 1,
+		"unresolved": 0,
+		"filesTouched": 1,
+		"keysWritten": 1,
+		"filesCreated": 0,
+		"markerWritten": false
+	}
+}

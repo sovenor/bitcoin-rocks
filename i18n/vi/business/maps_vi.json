@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bản Đồ Thương Nhân Bitcoin - Đăng ký doanh nghiệp miễn phí",
-	"maps_header": "ĐĂNG KÝ TRÊN BẢN ĐỒ THƯƠNG NHÂN BITCOIN & THU HÚT THÊM KHÁCH HÀNG",
-	"maps_request_details": "Nhập thông tin doanh nghiệp bên dưới và chúng tôi sẽ đăng ký bạn miễn phí trên bản đồ thương nhân Bitcoin. Điều này giúp người dùng Bitcoin tìm thấy doanh nghiệp của bạn và chi tiêu Bitcoin tại đó!",
-	"maps_view": "Xem bản đồ tại đây."
+	"maps_view": "Xem bản đồ tại đây.",
+	"biz_maps_hero_title": "Đưa doanh nghiệp của bạn lên các bản đồ thương nhân Bitcoin",
+	"biz_maps_hero_subtitle": "Liệt kê doanh nghiệp của bạn miễn phí trên BTC Map — danh bạ mở, toàn cầu của các thương nhân chấp nhận Bitcoin — để những người dùng Bitcoin gần đó có thể tìm thấy bạn và chi tiêu Bitcoin tại doanh nghiệp của bạn.",
+	"biz_maps_intro_c1": "Người dùng Bitcoin chủ động tìm những nơi để chi tiêu. Đưa doanh nghiệp của bạn lên bản đồ giúp bạn xuất hiện trước mọi người dùng Bitcoin đang tìm nơi để ăn, mua sắm hoặc lưu trú gần đó — hoàn toàn miễn phí cho bạn.",
+	"biz_maps_intro_c2": "Chỉ cần điền vào biểu mẫu ngắn bên dưới và chúng tôi sẽ gửi doanh nghiệp của bạn đến BTC Map và các bản đồ thương nhân Bitcoin khác giúp bạn.",
+	"biz_maps_view_map_cta": "Xem BTC Map",
+	"biz_maps_form_header": "Cho chúng tôi biết về doanh nghiệp của bạn",
+	"biz_maps_form_intro": "Chúng tôi chỉ cần một vài thông tin để liệt kê bạn. Dữ liệu địa chỉ chỉ được giữ đủ lâu để gửi doanh nghiệp của bạn đến các bản đồ.",
+	"biz_maps_placeholder_name": "Tên doanh nghiệp",
+	"biz_maps_placeholder_category": "Danh mục (ví dụ: nhà hàng, quán cà phê, khách sạn)",
+	"biz_maps_placeholder_address": "Địa chỉ đường",
+	"biz_maps_placeholder_city": "Thành phố",
+	"biz_maps_placeholder_region": "Bang / Tỉnh / Vùng",
+	"biz_maps_placeholder_country": "Quốc gia",
+	"biz_maps_placeholder_website": "Trang web (tùy chọn)",
+	"biz_maps_meta_description": "Liệt kê doanh nghiệp của bạn miễn phí trên BTC Map và các bản đồ thương nhân Bitcoin khác để những người dùng Bitcoin gần đó có thể tìm thấy bạn."
 }

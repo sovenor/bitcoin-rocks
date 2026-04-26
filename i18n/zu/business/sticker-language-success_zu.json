@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
-	"sticker_language_timeline": "Sizodala futhi sishicilele ifayela lakho lesitika ngeviki ezi-3 kuya kwezi-4. Siyabonga ngokubekezela kwakho!"
+	"biz_sticker_language_success_hero_title": "Isicelo sitholiwe 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Siyabonga ngokucela amafayela esitika 'I-Bitcoin Yamukelwa Lapha' ngolimi lwakho.",
+	"biz_sticker_language_success_timeline_header": "Yini ezolandela",
+	"biz_sticker_language_success_timeline_c1": "Sizodala futhi sishicilele amafayela akho esitika esikhathini esiphakathi kwamasonto angu-3 ne-4. Lapho selungile, uzokwazi ukuwalanda futhi uwaphrinte mahhala ekhasini lethu lamafayela esitika.",
+	"biz_sticker_language_success_timeline_c2": "Amafayela esitika ekhishwa ngamaqembu, ngakho kungase kuthathe amasonto ambalwa ukuze ulimi lwakho luvuleke. Siyabonga ngokubekezela kwakho!"
 }

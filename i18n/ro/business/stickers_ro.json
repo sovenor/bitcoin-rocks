@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"bitcoin_accepted_here_stickers": "Autocolante 'Bitcoin acceptat aici'",
-	"stickers_header": "OBȚINE AUTOCOLANTELE GRATUITE 'BITCOIN ACCEPTAT AICI'",
-	"stickers_request": "Obține autocolantele gratuite",
-	"stickers_request_details": "Anunță clienții tăi că accepți plăți Bitcoin cu aceste autocolante gratuite 'Bitcoin acceptat aici'.",
-	"stickers_country_global_print": "Global — Îmi tipăresc propriile autocolante",
-	"stickers_request_instructions": "Vei primi trei autocolante 'Bitcoin acceptat aici' într-un plic alb simplu. Dacă ai nevoie de mai mult de trei autocolante pentru afacerea ta, nu ezita să soliciți de mai multe ori. Datele adresei sunt șterse după expedierea autocolantelor gratuite.",
-	"stickers_print_details": "Poți tipări propriile autocolante 'Bitcoin acceptat aici', indiferent unde locuiești! Apasă pe limba ta de mai jos pentru a vedea fișierele autocolantelor și instrucțiunile.",
-	"stickers_request_language": "Nu vezi limba ta? Completează formularul de mai jos pentru a solicita fișierele autocolantelor 'Bitcoin acceptat aici' în limba ta locală."
+	"biz_stickers_hero_title": "Autocolante gratuite „Bitcoin acceptat aici”",
+	"biz_stickers_hero_subtitle": "Anunță-ți clienții că accepți Bitcoin. Comandă un pachet gratuit de autocolante „Bitcoin acceptat aici” pentru a le afișa în afacerea ta.",
+	"biz_stickers_intro_c1": "Acceptarea Bitcoin este doar jumătate din muncă — clienții tăi trebuie să știe și ei. Aceste autocolante mici „Bitcoin acceptat aici” sunt proiectate să fie aplicate pe ușa de intrare, la casă, pe meniuri sau oriunde clienții le văd înainte să plătească.",
+	"biz_stickers_intro_c2": "Îți vom expedia un pachet gratuit oriunde în Statele Unite sau Canada, sau le poți tipări singur oriunde în lume.",
+	"biz_stickers_step_header": "Cum vrei să-ți primești autocolantele?",
+	"biz_stickers_step_description": "Expediem pachete gratuite la adresele din SUA și Canada. Oriunde în lume, le poți tipări singur.",
+	"biz_stickers_option_usa": "🇺🇸 SUA — Gratuit prin poștă",
+	"biz_stickers_option_canada": "🇨🇦 Canada — Gratuit prin poștă",
+	"biz_stickers_option_print": "🌍 Global — Tipărește-le singur",
+	"biz_stickers_print_header": "Tipărește singur fișierele autocolantelor",
+	"biz_stickers_print_c1": "Poți tipări singur autocolantele „Bitcoin acceptat aici”, indiferent unde locuiești. Apasă pe limba ta de mai jos pentru a descărca fișierele autocolantelor și instrucțiunile de tipărire.",
+	"biz_stickers_request_header": "Nu îți vezi limba?",
+	"biz_stickers_request_c1": "Completează formularul de mai jos pentru a cere fișiere ale autocolantelor „Bitcoin acceptat aici” în limba ta locală. Te vom anunța când vor fi gata.",
+	"biz_stickers_placeholder_translation1": "Traducerea pentru „Bitcoin acceptat aici”",
+	"biz_stickers_placeholder_translation2": "Traducerea pentru „Scanează pentru a afla de ce Bitcoin este bun pentru afaceri.”",
+	"stickers_request": "Obține autocolantele gratuite"
 }

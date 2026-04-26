@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dobrý pre podnikanie",
-	"biz_header": "BITCOIN JE DOBRÝ PRE PODNIKANIE",
+	"business_hero_subtitle": "Prijímajte platby s nižšími poplatkami, dostávajte zaplatené okamžite a získajte milióny nových zákazníkov — bez zmlúv a bez skrytých nákladov.",
+	"business_intro_c1": "Bitcoin dáva vašej firme rýchlejší, lacnejší a súkromnejší spôsob, ako dostať zaplatené. Žiadni sprostredkovatelia. Žiadne chargebacky. Žiadne zmluvy. Iba peniaze, ktoré sa vyrovnajú za sekundy, priamo od zákazníka k vám.",
+	"business_intro_c2": "Nižšie je krátka verzia toho, prečo je Bitcoin dobrý pre podnikanie — a pod ňou každý zdroj, ktorý potrebujete, aby ste ho mohli začať prijímať už dnes.",
 	"biz_s1": "Nízke poplatky bez minimálnych limitov",
 	"biz_s1_c1": "Bitcoin vám umožňuje prijímať platby priamo od zákazníkov, podobne ako hotovosť. Bitcoinová sieť funguje bez sprostredkovateľov, ako sú banky a kreditné spoločnosti, ktoré si účtujú vysoké poplatky.",
 	"biz_s2": "Okamžité vyrovnanie",
@@ -18,5 +20,14 @@
 	"biz_s4": "Získajte viac zákazníkov",
 	"biz_s4_c1": "Milióny ľudí vlastnia Bitcoin a chcú ho minúť na miestach, ktoré ho prijímajú.",
 	"biz_s4_c2": "Samotným prijímaním Bitcoinu môže byť vaša firma uvedená na mapách obchodníkov prijímajúcich Bitcoin a získať zadarmo expozíciu novým zákazníkom.",
-	"biz_s4_c3": "Prijímanie Bitcoinu je 100 % zadarmo. Žiadne zmluvy ani skryté poplatky."
+	"biz_s4_c3": "Prijímanie Bitcoinu je 100 % zadarmo. Žiadne zmluvy ani skryté poplatky.",
+	"business_resources_heading": "Všetko, čo potrebujete na prijímanie Bitcoinu",
+	"business_resources_intro": "Prechádzajte tieto zdroje vlastným tempom. Každý je krátky a praktický sprievodca.",
+	"biz_label_wallets": "PEŇAŽENKY",
+	"biz_label_maps": "MAPY OBCHODNÍKOV",
+	"biz_label_stickers": "NÁLEPKY",
+	"biz_label_rewards": "ODMENY",
+	"biz_label_accounting": "ÚČTOVNÍCTVO",
+	"biz_label_faq": "ČASTÉ OTÁZKY",
+	"biz_meta_description": "Prijímajte Bitcoin vo svojej firme za nižšie poplatky, s okamžitým vyrovnaním, bez chargebackov a získajte viac zákazníkov."
 }

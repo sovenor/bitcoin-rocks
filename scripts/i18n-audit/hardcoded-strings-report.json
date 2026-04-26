@@ -1,0 +1,12 @@
+{
+	"generatedAt": "2026-04-23T17:16:48.938Z",
+	"summary": {
+		"filesScanned": 72,
+		"rawFindings": 31,
+		"allowListed": 31,
+		"flaggedFindings": 0,
+		"filesWithFindings": 0
+	},
+	"perFile": {},
+	"allFindings": []
+}

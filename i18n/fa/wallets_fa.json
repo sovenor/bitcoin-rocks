@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "fa"
 	},
 	"bitcoin_wallet_guide": "راهنمای کیف پول بیت‌کوین",
 	"wallets_description": "کیف پول‌های بیت‌کوین مختلفی وجود دارند که از جهات مهمی متفاوت هستند.",
 	"wallets_header": "چگونه بیت‌کوین خود را به طور امن ذخیره کنید",
+	"wallets_header_subtitle": "راهنمای گام‌به‌گام برای انتخاب کیف پول، پشتیبان‌گیری از کلیدهای خود و گرفتن کنترل کامل بر بیت‌کوین خود.",
 	"wallets_s1_c1": "کیف پول‌های بیت‌کوین سازگار هستند، بنابراین می‌توانید با هر کیف پولی به هر کسی بیت‌کوین بفرستید.",
 	"wallets_s1_c2": "کیف پول‌های بیت‌کوین مختلفی وجود دارند. می‌توانید با این سؤالات ساده تعیین کنید کدام برای شما مناسب است:",
 	"wallets_question_1": "آیا کیف پول نگهداری شخصی است؟",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp ۷۰ کیت پشتیبان‌گیری فولادی را تست کرده است.",
 	"wallets_s6_c5": "راهنمای پشتیبان‌گیری فلزی بیت‌کوین Jameson را اینجا ببینید.",
 	"wallets_s6_c6": "یا به اسکرول ادامه دهید تا گزینه‌های کیف پول را بررسی کنید.",
+	"wallets_grid_heading": "کیف پول‌های محبوب بیت‌کوین",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "شبکه Lightning",
 	"wallets_cta_lightning": "به دنبال راهنمای کیف پول لایتنینگ ما هستید؟",
 	"wallets_starter_wallet": "کیف پول اول عالی",
 	"wallets_mobile_app": "اپلیکیشن موبایل",
@@ -62,5 +65,13 @@
 	"wallets_battery": "باتری قابل شارژ",
 	"wallets_build_your_own": "خودتان بسازید",
 	"wallets_qwerty_keyboard": "کیبورد کامل QWERTY",
-	"wallets_qr_scanner": "اسکنر کد QR"
+	"wallets_qr_scanner": "اسکنر کد QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — کیف پول خود را انتخاب کنید",
+	"sources_jameson_lopp": "Jameson Lopp — بررسی نگهداری بذر فلزی بیت‌کوین",
+	"sources_blockstream_green": "Blockstream Green — کیف پول بیت‌کوین خودمدیریتی",
+	"sources_blockstream_jade": "Blockstream Jade — کیف پول سخت‌افزاری بیت‌کوین",
+	"sources_coldcard_mk5": "Coinkite — کیف پول سخت‌افزاری Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — کیف پول سخت‌افزاری Coldcard Q",
+	"sources_passport": "Foundation Devices — کیف پول سخت‌افزاری Passport",
+	"sources_seedsigner": "SeedSigner — دستگاه امضای DIY متن‌باز برای تراکنش‌های بیت‌کوین"
 }

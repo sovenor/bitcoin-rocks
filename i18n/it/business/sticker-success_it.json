@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
-	"sticker_success_details": "Riceverai i tuoi adesivi entro 1-2 settimane in una busta bianca normale. Ogni busta include 3 adesivi. Se hai bisogno di più di 3 adesivi per la tua attività, sentiti libero di richiedere un altro pacchetto!"
+	"biz_sticker_success_hero_title": "I tuoi adesivi sono in arrivo 🎉",
+	"biz_sticker_success_hero_subtitle": "Riceverai i tuoi adesivi gratuiti \"Bitcoin Accettato Qui\" entro 2–4 settimane, in una busta bianca anonima contenente 3 adesivi.",
+	"biz_sticker_success_tips_header": "Buoni posti dove attaccare i tuoi adesivi",
+	"biz_sticker_success_tip_1": "Sulla porta d'ingresso o sulla vetrina, così i clienti li vedono prima di entrare",
+	"biz_sticker_success_tip_2": "Vicino alla cassa, al terminale POS o all'area di pagamento",
+	"biz_sticker_success_tip_3": "Su menu, listini prezzi o salvadanai per le mance",
+	"biz_sticker_success_tip_4": "Non attaccarli dove non ti è permesso o non hai il diritto di farlo",
+	"biz_sticker_success_more_header": "Hai bisogno di più adesivi?",
+	"biz_sticker_success_more_c1": "Se 3 adesivi non bastano per la tua attività, sentiti libero di richiedere un altro pacchetto gratuito — o ordina in grandi quantità dalla stessa stamperia che usiamo noi.",
+	"biz_sticker_success_btn_order_bulk": "Ordina in grandi quantità",
+	"biz_sticker_success_btn_request_more": "Richiedi un altro pacchetto gratuito"
 }

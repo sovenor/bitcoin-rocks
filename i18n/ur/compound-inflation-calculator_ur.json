@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ur"
 	},
 	"cic_header": "مرکب مہنگائی کیلکولیٹر",
 	"cic_description": "یہ مرکب مہنگائی کیلکولیٹر استعمال کریں یہ جاننے کے لیے کہ مہنگائی سے نمٹنے کے لیے آپ کی تنخواہ کتنی بڑھنی چاہیے۔",
-	"what_can_i_do_about": "میں کیا کر سکتا ہوں",
-	"what_can_i_do_about_2": "مہنگائی کے بارے میں؟",
-	"cic_inflation_cta": "Bitcoin کے ساتھ مہنگائی سے باہر نکلیں"
+	"cic_hero_subtitle": "دیکھیں کہ آپ کی تنخواہ کو مہنگائی کے ساتھ چلنے کے لیے کتنا بڑھنا چاہیے۔",
+	"cic_calculator_heading": "اپنی مہنگائی کا فرق نکالیں",
+	"cic_cta_label": "اگلا قدم",
+	"cic_inflation_cta": "Bitcoin کے ساتھ مہنگائی سے باہر نکلیں",
+	"cic_next_learn_inflation": "جانیں مہنگائی کیسے کام کرتی ہے",
+	"cic_next_explore_topics": "مزید موضوعات دریافت کریں",
+	"cic_next_explore_topics_desc": "دیکھیں Bitcoin پیسے، آزادی، توانائی اور مزید سے کیسے جڑتا ہے۔",
+	"sources_fred_cpi_urban": "فیڈرل ریزرو اکنامک ڈیٹا (FRED) — تمام شہری صارفین کے لیے کنزیومر پرائس انڈیکس",
+	"sources_fred_m1": "فیڈرل ریزرو اکنامک ڈیٹا (FRED) — M1 منی سپلائی"
 }

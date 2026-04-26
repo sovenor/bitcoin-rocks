@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin Ticarətçi Xəritələri - Biznesinizi pulsuz siyahıya salın",
-	"maps_header": "BITCOIN TİCARƏTÇİ XƏRİTƏLƏRİNDƏ SİYAHIYA DÜŞÜN VƏ DAHA ÇOX MÜŞTƏRİ QAZANIN",
-	"maps_request_details": "Biznes məlumatlarınızı aşağıda daxil edin və biz sizi pulsuz olaraq Bitcoin ticarətçi xəritələrində siyahıya salacağıq. Bu, Bitcoinçilərin biznesinizi tapmasına və Bitcoin-lərini sizin biznesdə xərcləməsinə imkan verəcək!",
-	"maps_view": "Xəritəyə burada baxın."
+	"maps_view": "Xəritəyə burada baxın.",
+	"biz_maps_hero_title": "Biznesinizi Bitcoin tacir xəritələrinə əlavə edin",
+	"biz_maps_hero_subtitle": "BTC Map — Bitcoin qəbul edən tacirlərin qlobal açıq kataloqu — üzərində biznesinizi pulsuz siyahıya salın, belə ki yaxınlıqdakı Bitcoinerlər sizi tapa və biznesinizdə Bitcoin xərcləyə bilər.",
+	"biz_maps_intro_c1": "Bitcoinerlər pullarını xərcləmək üçün yerlər aktiv şəkildə axtarırlar. Biznesinizi xəritəyə yerləşdirmək onu yaxınlıqda yemək, alış-veriş və ya qalmaq üçün yer axtaran hər Bitcoin istifadəçisinin qarşısına qoyur — sizə heç bir xərc olmadan.",
+	"biz_maps_intro_c2": "Aşağıdakı qısa formu doldurun və biz biznesinizi BTC Map və digər Bitcoin tacir xəritələrinə sizin adınıza təqdim edəcəyik.",
+	"biz_maps_view_map_cta": "BTC Map-ə baxın",
+	"biz_maps_form_header": "Biznesinizi bizə bildirin",
+	"biz_maps_form_intro": "Sizi siyahıya salmaq üçün yalnız bir neçə təfərrüat lazımdır. Ünvan məlumatları yalnız biznesinizi xəritələrə təqdim etmək üçün kifayət qədər saxlanılır.",
+	"biz_maps_placeholder_name": "Biznes adı",
+	"biz_maps_placeholder_category": "Kateqoriya (məs: restoran, kafe, otel)",
+	"biz_maps_placeholder_address": "Küçə ünvanı",
+	"biz_maps_placeholder_city": "Şəhər",
+	"biz_maps_placeholder_region": "Əyalət / Vilayət / Region",
+	"biz_maps_placeholder_country": "Ölkə",
+	"biz_maps_placeholder_website": "Veb sayt (istəyə bağlı)",
+	"biz_maps_meta_description": "Yaxınlıqdakı Bitcoinerlərin sizi tapa bilməsi üçün biznesinizi BTC Map və digər Bitcoin tacir xəritələrinə pulsuz siyahıya salın."
 }

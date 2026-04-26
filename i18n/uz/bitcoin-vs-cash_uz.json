@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_vs_cash": "Bitcoin va Naqd pul",
-	"cash_header": "FARQI",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "VA",
-	"cash_header_4": "NAQD PUL",
 	"cash_intro_1": "Naqd pul asrlar davomida pul sifatida ishlatilgan va dunyodagi eng keng tarqalgan jismoniy pul shakli boʻlib qolmoqda.",
 	"cash_intro_2": "Bitcoin 2009-yilda yaratilgan, har qanday hukumat yoki markaziy hokimiyatdan mustaqil ishlaydigan raqamli pul.",
 	"cash_intro_3": "Jismoniy naqd pul Bitcoin kabi raqamli puldan qanday farq qiladi? Ikki pul shakli oʻrtasidagi asosiy farqlarga qaraylik: Bitcoin va Naqd pul.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Markazsizlashtirilgan tarmoq",
 	"bitcoin_point_6": "Raqamli oʻz nazorati",
 	"bitcoin_point_7": "Oson boʻlinadi",
-	"point_1_summary_1": "Bitcoin internet orqali dunyoning istalgan joyiga bir zumda yuborilishi mumkin, naqd pul esa jismoniy mavjudlik yoki ishonchli vositachilar talab qiladi. Pochta orqali naqd pul yubora olmaysiz, lekin internet aloqasi bor herkimga bir necha daqiqada Bitcoin yuborishingiz mumkin.",
-	"point_2_summary_1": "Bitcoin dunyoning hamma joyida bir xil ishlaydi — Bitcoin tarmogʻida chegara yoʻq. Naqd pul geografiya, valyuta kurslari va mahalliy qabul qilish bilan cheklangan. Tailand qishloqlarida AQSh dollarini yoki Meksika qishloqlarida Yapon iyenini ishlatib koʻring.",
-	"point_3_summary_1": "Hukumatlar 2016-yilda Hindiston maʼlum banknotlarni taqiqlganidek demonetizatsiya siyosatlari bilan naqd pulni bir kechada bekor qilishi va qilgan.",
-	"point_3_summary_2": "Maʼlum banknotlarni taqiqlamasalar ham, hukumatlar doimiy ravishda inflyatsiya orqali naqd pulning qiymatini pasaytiradi.",
-	"point_3_summary_3": "Bitcoin hech qanday hukumat yoki hokimiyat tomonidan bekor qilinishi mumkin emas — hech qanday subʻekt nazorat qilmaydigan global, markazsizlashtirilgan tarmoqda mavjud.",
-	"point_4_summary_1": "Naqd pul soxta qilinishi mumkin va maxsus jihozlarsiz soxta banknotlarni aniqlash koʻpincha qiyin. Xavfsizlik xususiyatlari bilan ham soxta pul hali ham muomalada. Bitcoin soxta qilishni matematik jihatdan imkonsiz qiladigan kriptografik isbotdan foydalanadi.",
-	"point_5_summary_1": "Naqd pul xohlagan miqdorda bosa oladigan, dizaynini oʻzgartira oladigan yoki maʼlum banknotlarni yaroqsiz deb eʻlon qila oladigan hukumat tomonidan chiqariladi va nazorat qilinadi. Bitcoin hech qanday yagona hokimiyat pul taklifi yoki qoidalar ustidan nazoratga ega boʻlmagan markazsizlashtirilgan tarmoqda ishlaydi.",
-	"point_6_summary_1": "Naqd pul jismoniy saqlanishi kerak, bu uni oʻgʻirlik, yoʻqotish, yongʻin yoki musodara qilishga nisbatan himoyasiz qiladi. Katta miqdorlar qimmat xavfsizlik choralarini talab qiladi.",
-	"point_6_summary_2": "Biroq Bitcoin oʻz nazoratida xavfsiz saqlanishi mumkin",
-	"point_6_summary_3": "smartfondagi ilova yoki maxsus hamyon bilan, jismoniy saqlash xavflarisiz pulingiz ustidan toʻliq nazoratni taʼminlaydi.",
-	"point_7_summary_1": "Naqd pulning minimal birliklari bor — bir sentni kichikroq qismlarga boʻla olmaysiz. Bitcoin satoshi deb ataladigan 100 million kichik birlikka boʻlinishi mumkin, bu mikro toʻlovlar va har qanday miqdordagi aniq tranzaksiyalarni amalga oshirish imkonini beradi."
+	"point_1_summary_1": "Bitcoin internet orqali bir necha daqiqada istalgan joyga oʻtadi. Naqd pul jismoniy mavjudlik yoki ishonchli kuryer talab qiladi — 20 USDlik banknotni email orqali yubora olmaysiz.",
+	"point_2_summary_1": "Bitcoin hamma joyda bir xil ishlaydi. Naqd pul geografiya, valyuta kursi va mahalliy qabul qilish bilan cheklangan.",
+	"point_3_summary_1": "Hukumatlar naqd pulni bir kechada bekor qila oladi — <a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">Hindiston</a> buni 2016-yilda qildi. Demonetizatsiyasiz ham naqd pul",
+	"point_3_summary_2": "inflyatsiya bilan qadrsizlanadi.",
+	"point_3_summary_3": "Bitcoinni hech qanday hukumat yoki hokimiyat bekor qila olmaydi.",
+	"point_4_summary_1": "Naqd pulni soxta qilish mumkin, baʼzan juda ishonarli tarzda. Bitcoin esa soxta qilishni matematik jihatdan imkonsiz qiladigan kriptografiyadan foydalanadi.",
+	"point_5_summary_1": "Bitcoinning markaziy hokimiyati yoʻq. Naqd pulni koʻproq bosa, dizaynini oʻzgartira yoki banknotlarni xohishga koʻra bekor qila oladigan hukumat chiqaradi.",
+	"point_6_summary_1": "Naqd pul oʻgʻrilik, yongʻin, yoʻqotish va musodaraga himoyasiz. Bitcoinni esa",
+	"point_6_summary_2": "oʻz nazoratiga olib",
+	"point_6_summary_3": "telefon yoki apparat qurilmasida xavfsiz saqlash mumkin.",
+	"point_7_summary_1": "Bitcoin 100 million satoshiga boʻlinadi va har qanday hajmdagi mikrotoʻlovni amalga oshirishga imkon beradi. Naqd pulning minimal birliklari bor — bir tiyinni boʻla olmaysiz.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> va <span class=\"asset\">Naqd pul</span> oʻrtasidagi farq"
 }

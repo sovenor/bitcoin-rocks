@@ -3,17 +3,16 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "pa"
 	},
 	"free_bitcoin_flyers": "bitcoin.rocks ਸੇ ਮੁਫ਼੍ਤ Bitcoin ਫ੍ਲਾਯਰ",
 	"flyers_description": "ਘਰ ਪਰ Bitcoin ਫ੍ਲਾਯਰ ਪ੍ਰਿਂਟ ਕਰੇਂ ਔਰ ਸਾਰ੍ਵਜਨਿਕ ਸ੍ਥਾਨੋਂ ਪਰ ਲਗਾਕਰ ਲੋਗੋਂ ਕੋ Bitcoin ਕੇ ਬਾਰੇ ਮੇਂ ਜਾਨਨੇ ਮੇਂ ਮਦਦ ਕਰੇਂ੤",
-	"flyers_header_1": "ਪ੍ਰਿਂਟ ਔਰ ਪੋਸ੍ਟ ਕਰੇਂ",
-	"flyers_header_2": "Bitcoin ਫ੍ਲਾਯਰ",
-	"flyers_intro_header": "ਯੇ Bitcoin ਫ੍ਲਾਯਰ ਕੈਸੇ ਪ੍ਰਿਂਟ ਔਰ ਪੋਸ੍ਟ ਕਰੇਂ",
+	"flyers_hero_title": "ਬਿਟਕੌਇਨ ਫਲਾਇਰ ਪ੍ਰਿੰਟ ਕਰੋ ਅਤੇ ਲਗਾਓ",
+	"flyers_hero_subtitle": "ਮੁਫ਼ਤ, ਪ੍ਰਿੰਟ ਕਰਨ ਯੋਗ ਬਿਟਕੌਇਨ ਫਲਾਇਰ। ਉਨ੍ਹਾਂ ਨੂੰ ਜਨਤਕ ਥਾਵਾਂ 'ਤੇ ਲਗਾਓ ਤਾਂ ਜੋ ਹੋਰ ਲੋਕ ਬਿਟਕੌਇਨ ਬਾਰੇ ਜਾਣ ਸਕਣ।",
+	"flyers_intro_header": "ਇਨ੍ਹਾਂ ਬਿਟਕੌਇਨ ਫਲਾਇਰਾਂ ਨੂੰ ਕਿਵੇਂ ਪ੍ਰਿੰਟ ਕਰਨਾ ਅਤੇ ਲਗਾਉਣਾ ਹੈ",
 	"flyers_intro_c1": "ਹਮਾਰਾ ਮਿਸ਼ਨ ਸਾਰ੍ਵਜਨਿਕ ਸ੍ਥਾਨੋਂ ਪਰ Bitcoin ਫ੍ਲਾਯਰ ਲਗਾਕਰ ਅਧਿਕ ਲੋਗੋਂ ਕੋ ਜਾਗਰੂਕ ਕਰਨੇ ਮੇਂ ਆਪਕੀ ਮਦਦ ਕਰਨਾ ਹੈ੤ ਇਸ ਫ੍ਲਾਯਰ ਪਰ QR ਕੋਡ ਹੈ ਜੋ ਹਮਾਰੇ",
 	"flyers_intro_c2": "Bitcoin ਸ਼ਿਕ੍਷ਾ ਪੇਜ ਸੇ ਜੁਡ਼ਤਾ ਹੈ੤",
-	"flyers_intro_c3": "ਮੁਦ੍ਰਾਸ੍ਫੀਤਿ",
 	"flyers_intro_c4": "ਘਰ ਪਰ ਯਾ ਪ੍ਰਿਂਟ ਸ਼੉ਪ ਮੇਂ ਯਹ ਫ੍ਲਾਯਰ ਪ੍ਰਿਂਟ ਕਰੇਂ੤ ਫਿਰ ਇਸੇ ਬੁਲੇਟਿਨ ਬੋਰ੍ਡ, ਖਂਭੋਂ ਔਰ ਅਨ੍ਯ ਸਾਰ੍ਵਜਨਿਕ ਸ੍ਥਾਨੋਂ ਪਰ ਲਗਾਏਂ੤",
 	"flyers_intro_c5": "ਸਾਥ ਹੀ, ਹਮਾਰੇ",
 	"flyers_intro_c6": "ਮੁਫ਼੍ਤ Bitcoin ਸ੍ਟਿਕਰ",
@@ -23,5 +22,7 @@
 	"flyers_share_header": "ਅਪਨੀ ਫ੍ਲਾਯਰ ਲੋਕੇਸ਼ਨ ਸਾਝਾ ਕਰੇਂ",
 	"flyers_share_c1": "Nostr ਪਰ ਹਮਾਰੇ ਸਾਥ ਅਪਨੀ ਫ੍ਲਾਯਰ ਲੋਕੇਸ਼ਨ ਸਾਝਾ ਕਰੇਂ ਔਰ ਦੇਖੇਂ ਦੂਸਰੋਂ ਨੇ ਕਹਾਁ ਲਗਾਏ ਹੈਂ੤",
 	"flyers_btn_share_on_nostr": "NOSTR ਪਰ ਸਾਝਾ ਕਰੇਂ",
-	"flyers_btn_what_is_nostr": "NOSTR ਕ੍ਯਾ ਹੈ?"
+	"flyers_btn_what_is_nostr": "NOSTR ਕ੍ਯਾ ਹੈ?",
+	"flyers_next_get_stickers": "ਸੰਦੇਸ਼ ਨੂੰ ਹੋਰ ਦੂਰ ਫੈਲਾਓ",
+	"flyers_next_get_stickers_desc": "ਬਿਟਕੌਇਨ ਸਟਿੱਕਰਾਂ ਦੇ ਇੱਕ ਮੁਫ਼ਤ ਪੈਕ ਦੀ ਬੇਨਤੀ ਕਰੋ"
 }

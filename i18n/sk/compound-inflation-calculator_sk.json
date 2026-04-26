@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"cic_header": "KALKULAČKA ZLOŽENEJ INFLÁCIE",
 	"cic_description": "Pomocou tejto kalkulačky zloženej inflácie zistíte, o koľko musí vzrásť váš plat, aby udržal krok s infláciou.",
-	"what_can_i_do_about": "Čo môžem robiť s",
-	"what_can_i_do_about_2": "infláciou?",
-	"cic_inflation_cta": "Odhláste sa z inflácie pomocou Bitcoinu"
+	"cic_hero_subtitle": "Zistite, o koľko potrebuje váš plat narásť, aby držal krok s infláciou.",
+	"cic_calculator_heading": "Spočítajte si svoju inflačnú medzeru",
+	"cic_cta_label": "Ďalší krok",
+	"cic_inflation_cta": "Odhláste sa z inflácie pomocou Bitcoinu",
+	"cic_next_learn_inflation": "Naučte sa, ako funguje inflácia",
+	"cic_next_explore_topics": "Preskúmajte ďalšie témy",
+	"cic_next_explore_topics_desc": "Pozrite sa, ako Bitcoin súvisí s peniazmi, slobodou, energiou a ďalším.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — index spotrebiteľských cien pre všetkých mestských spotrebiteľov",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — peňažná zásoba M1"
 }

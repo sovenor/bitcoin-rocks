@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"404_title": "404-fout | Bladsy nie gevind nie",
-	"404_message": "HIERDIE STUKKENDE BLADSY IS NIE FANTASTIES NIE",
-	"404_home": "GAAN TERUG HUIS TOE"
+	"404_message": "Bitcoin rock, maar hierdie gebroke bladsy doen beslis nie.",
+	"404_home": "Terug tuis toe",
+	"404_not_found_short": "Nie gevind nie"
 }

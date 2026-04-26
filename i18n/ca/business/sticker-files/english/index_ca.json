@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Fitxers d'adhesius 'Bitcoin acceptat aquí' en anglès",
-	"english_biz_sticker_files_description": "Descarrega fitxers d'adhesius en anglès per imprimir els teus propis adhesius de 'Bitcoin acceptat aquí'.",
-	"english_header": "DESCARREGA FITXERS D'ADHESIUS 'BITCOIN ACCEPTAT AQUÍ' EN ANGLÈS"
+	"english_biz_sticker_files_description": "Descarrega els fitxers dels adhesius en anglès per imprimir els teus propis adhesius \"Acceptem Bitcoin\".",
+	"biz_stickers_english_hero_title": "Descarrega els fitxers dels adhesius \"Acceptem Bitcoin\" en anglès",
+	"biz_stickers_english_hero_subtitle": "Imprimeix els teus propis adhesius \"Acceptem Bitcoin\" en anglès per fer saber als teus clients que acceptes Bitcoin."
 }

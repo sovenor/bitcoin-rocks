@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"sticker_success_1": "Jy sal jou plakkers binne 2 tot 4 weke ontvang. Terwyl jy wag, probeer om aan 'n goeie plek te dink om jou plakkers te sit!",
-	"sticker_success_2": "Goeie plakkersplekke is:",
 	"sticker_success_list_1": "in die openbaar waar mense hulle sal sien",
 	"sticker_success_list_2": "op plekke waar hulle nie gou verwyder sal word nie (die plakkers veroorsaak geen permanente skade nie)",
 	"sticker_success_list_3": "op oppervlaktes waaraan hulle maklik sal kleef (metaal, plastiek, glas)",
 	"sticker_success_list_4": "NIE op privaat eiendom, wat tekens bedek, by OTM's, of by petrolpompe nie",
 	"sticker_success_3": "Wil jy sien waar ander mense hul plakkers sit?",
-	"sticker_success_flyers_bar_new": "NUUT!",
-	"sticker_success_flyers_bar_cta": "Druk en plak Bitcoin-vlugskrifte →"
+	"sticker_success_hero_title": "Jou plakkers is op pad 🎉",
+	"sticker_success_tips_header": "Goeie plakkerplekke",
+	"sticker_success_share_header": "Deel jou plakkerplekke",
+	"sticker_success_bulk_header": "Wil jy meer plakkers hê?",
+	"sticker_success_btn_order_bulk": "Bestel in grootmaat",
+	"sticker_success_btn_share_on_nostr": "Deel op Nostr",
+	"sticker_success_btn_what_is_nostr": "Wat is Nostr?"
 }

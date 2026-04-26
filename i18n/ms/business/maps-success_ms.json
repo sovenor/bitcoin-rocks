@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
-	"kit_success_1": "Perniagaan anda akan disenaraikan di peta pedagang Bitcoin dalam masa 1-2 minggu.",
-	"kit_success_2": "Lihat peta di sini."
+	"biz_maps_success_hero_title": "Permintaan diterima 🎉",
+	"biz_maps_success_hero_subtitle": "Terima kasih kerana menghantar perniagaan anda. Kami akan mendaftarkan anda di peta peniaga Bitcoin tidak lama lagi.",
+	"biz_maps_success_timeline_header": "Apa yang berlaku seterusnya",
+	"biz_maps_success_timeline_c1": "Perniagaan anda akan didaftarkan di BTC Map dan direktori peniaga Bitcoin yang lain dalam masa 1 hingga 2 minggu. Kami menyemak setiap penghantaran secara manual untuk mengekalkan ketepatan peta.",
+	"biz_maps_success_timeline_c2": "Setelah penyenaraian anda aktif, pengguna Bitcoin yang berdekatan boleh menemui perniagaan anda dan datang membelanjakan Bitcoin di sana.",
+	"biz_maps_success_view_header": "Lihat di mana anda akan muncul",
+	"biz_maps_success_view_c1": "Sementara anda menunggu, lihat BTC Map untuk melihat rangkaian perniagaan yang berkembang yang menerima Bitcoin di seluruh dunia.",
+	"biz_maps_success_btn_view_map": "Lihat BTC Map"
 }

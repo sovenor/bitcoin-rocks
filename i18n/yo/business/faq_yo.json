@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-12",
+		"last-updated": "2026-04-25",
 		"locale": "yo"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Àwọn ìbèèrè tí a máa ń bèèrè nípa gbígbà Bitcoin",
 	"faq_description": "Ṣé o ní àwọn ìbèèrè nípa gbígbà ìsàn owó Bitcoin ní òwò iṣẹ́ rẹ?",
-	"faq_header": "ṢÉ O NÍ ÀWỌN ÌBÈÈRÈ NÍPA GBÍGBÀ ÌSÀN OWÓ BITCOIN?",
+	"faq_hero_subtitle": "Àwọn ìdáhùn kúkúrú sí àwọn ìbéèrè tí àwọn alágbatà sábà béèrè jùlọ kí wọ́n tó bẹ̀rẹ̀ gbígba Bitcoin — owó, ìparí, àwọn àpò, chargeback, iye, àti síi.",
+	"faq_intro_c1": "Tẹ̀ ìbéèrè èyíkéyìí nísàlẹ̀ láti fẹ̀ ìdáhùn náà. Nígbà tí o bá tí múratán láti bẹ̀rẹ̀ gbígba Bitcoin, àwọn ohun-èlò iṣẹ́ ní ìsàlẹ̀ ojú-ìwé yóò gbà ọ kọjá ìgbésẹ̀ kọ̀ọ̀kan.",
 	"faq_s1": "Kíni Bitcoin?",
 	"faq_s1_c1": "Bitcoin jẹ́ nńkan méjì: owó oni-nọ́míbà àti nẹ́tíwọ́ọ̀kì kọ́mpútà.",
 	"faq_s1_c2": "O lè fi bitcoin (owó oni-nọ́míbà) ranṣẹ́ tààrà sí àwọn ènìyàn mìràn nípà Nẹ́tíwọ́ọ̀kì Bitcoin.",

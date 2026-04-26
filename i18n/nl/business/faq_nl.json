@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Veelgestelde vragen over het accepteren van Bitcoin",
 	"faq_description": "Heeft u vragen over het accepteren van Bitcoin-betalingen in uw bedrijf?",
-	"faq_header": "HEEFT U VRAGEN OVER HET ACCEPTEREN VAN BITCOIN-BETALINGEN?",
+	"faq_hero_subtitle": "Korte antwoorden op de meest gestelde vragen die ondernemers stellen voordat ze Bitcoin accepteren — kosten, afwikkeling, wallets, chargebacks, kosten en meer.",
+	"faq_intro_c1": "Tik hieronder op een vraag om het antwoord uit te klappen. Wanneer je klaar bent om Bitcoin te accepteren, leiden de zakelijke bronnen onderaan de pagina je door elke stap.",
 	"faq_s1": "Wat is Bitcoin?",
 	"faq_s1_c1": "Bitcoin is twee dingen: digitaal geld en een computer netwerk.",
 	"faq_s1_c2": "U kunt bitcoin (het digitale geld) rechtstreeks naar andere mensen sturen via het Bitcoin-netwerk.",

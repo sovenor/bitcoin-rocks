@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
 	"sticker_success_1": "תקבלו את המדבקות שלכם תוך 2 עד 4 שבועות. בזמן שאתם מחכים, נסו לחשוב על מקום טוב להדביק את המדבקות!",
-	"sticker_success_2": "מקומות טובים למדבקות:",
 	"sticker_success_list_1": "במקום ציבורי שבו אנשים יראו אותם",
 	"sticker_success_list_2": "במקומות שסביר לא יוסרו מהר (המדבקות לא גורמות נזק קבוע)",
 	"sticker_success_list_3": "על משטחים שהם נדבקים בקלות (מתכת, פלסטיק, זכוכית)",
 	"sticker_success_list_4": "לא על רכוש פרטי, לא לכסות שלטים, כספומטים או משאבות דלק",
 	"sticker_success_3": "רוצה לראות איפה אנשים אחרים מדביקים את המדבקות שלהם?",
-	"sticker_success_flyers_bar_new": "חדש!",
-	"sticker_success_flyers_bar_cta": "הדפיסו ותלו עלוני ביטקוין ←"
+	"sticker_success_hero_title": "המדבקות שלך בדרך 🎉",
+	"sticker_success_tips_header": "מקומות טובים לשים מדבקה",
+	"sticker_success_share_header": "שתף איפה שמת את המדבקות שלך",
+	"sticker_success_bulk_header": "צריך עוד מדבקות?",
+	"sticker_success_btn_order_bulk": "הזמנה בכמות גדולה",
+	"sticker_success_btn_share_on_nostr": "שתף ב-Nostr",
+	"sticker_success_btn_what_is_nostr": "מה זה Nostr?"
 }

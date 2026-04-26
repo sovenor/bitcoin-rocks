@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
-	"kit_success_1": "Din virksomhed vil blive opført på kort over Bitcoin-forhandlere inden for 1 til 2 uger.",
-	"kit_success_2": "Se kortet her."
+	"biz_maps_success_hero_title": "Taotlus kätte saadud 🎉",
+	"biz_maps_success_hero_subtitle": "Aitäh, et saatsid oma ettevõtte. Paneme su peagi bitcoini kaupmeeste kaartidele.",
+	"biz_maps_success_timeline_header": "Mis juhtub edasi",
+	"biz_maps_success_timeline_c1": "Sinu ettevõte lisatakse BTC Mapile ja teistele bitcoini kaupmeeste kataloogidele 1–2 nädala jooksul. Vaatame iga esildise käsitsi üle, et kaartide täpsust säilitada.",
+	"biz_maps_success_timeline_c2": "Kui sinu kanne on võrgus, leiavad lähedal olevad bitcoini kasutajad sinu ettevõtte ja tulevad bitcoini kulutama.",
+	"biz_maps_success_view_header": "Vaata, kus sa avaldud",
+	"biz_maps_success_view_c1": "Samal ajal, kui ootad, vaata BTC Mapi, et näha kasvavat ettevõtete võrku üle kogu maailma, kes võtavad vastu bitcoini.",
+	"biz_maps_success_btn_view_map": "Vaata BTC Mapi"
 }

@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
-	"sticker_success_details": "Vous recevrez vos autocollants sous 1 à 2 semaines dans une enveloppe blanche. Chaque enveloppe contient 3 autocollants. Si vous avez besoin de plus de 3 autocollants pour votre commerce, n'hésitez pas à demander un autre pack !"
+	"biz_sticker_success_hero_title": "Tes autocollants sont en route 🎉",
+	"biz_sticker_success_hero_subtitle": "Tu recevras tes autocollants gratuits « Bitcoin accepté ici » sous 2 à 4 semaines, dans une enveloppe blanche simple contenant 3 autocollants.",
+	"biz_sticker_success_tips_header": "De bons endroits pour coller tes autocollants",
+	"biz_sticker_success_tip_1": "Sur ta porte principale ou ta vitrine, pour que les clients les voient avant d’entrer",
+	"biz_sticker_success_tip_2": "Près de la caisse, sur le terminal de paiement ou là où les clients règlent",
+	"biz_sticker_success_tip_3": "Sur les menus, les listes de prix ou les pots à pourboires",
+	"biz_sticker_success_tip_4": "Ne les colle pas dans des lieux qui ne t’appartiennent pas ou où tu n’as pas l’autorisation de coller des autocollants",
+	"biz_sticker_success_more_header": "Besoin de plus d’autocollants ?",
+	"biz_sticker_success_more_c1": "Si 3 autocollants ne suffisent pas pour ton entreprise, n’hésite pas à demander un autre pack gratuit — ou commande en gros chez le même imprimeur que nous.",
+	"biz_sticker_success_btn_order_bulk": "Commander en gros",
+	"biz_sticker_success_btn_request_more": "Demander un autre pack gratuit"
 }

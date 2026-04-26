@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin tüccar haritaları — İşletmenizi ücretsiz listeleyin",
-	"maps_header": "BİTCOİN TÜCCAR HARİTALARINA KAYDOLUN VE DAHA FAZLA MÜŞTERİ KAZANIN",
-	"maps_request_details": "İşletme bilgilerinizi aşağıya girin ve sizi ücretsiz olarak Bitcoin tüccar haritalarına ekleyelim. Bu, Bitcoin kullanıcılarının işletmenizi bulmasını ve Bitcoin'lerini sizde harcamasını sağlayacaktır!",
-	"maps_view": "Haritayı buradan görüntüleyin."
+	"maps_view": "Haritayı buradan görüntüleyin.",
+	"biz_maps_hero_title": "İşletmeni Bitcoin işyeri haritalarına ekle",
+	"biz_maps_hero_subtitle": "Bitcoin kabul eden işyerlerinin açık, dünya çapındaki rehberi olan BTC Map'te işletmeni ücretsiz listele — böylece yakındaki Bitcoin'ciler seni bulup işletmende Bitcoin harcayabilsin.",
+	"biz_maps_intro_c1": "Bitcoin'ciler aktif olarak harcayacak yer arıyor. İşletmeni haritaya eklemek, yakında yiyecek, alışveriş ya da konaklama yeri arayan her Bitcoin kullanıcısının önüne çıkarır — sana hiçbir maliyeti olmadan.",
+	"biz_maps_intro_c2": "Aşağıdaki kısa formu doldurman yeterli; işletmeni senin adına BTC Map ve diğer Bitcoin işyeri haritalarına biz iletiriz.",
+	"biz_maps_view_map_cta": "BTC Map'i görüntüle",
+	"biz_maps_form_header": "Bize işletmeni anlat",
+	"biz_maps_form_intro": "Seni listeye almak için yalnızca birkaç ayrıntıya ihtiyacımız var. Adres verileri yalnızca işletmeni haritalara göndermeye yetecek kadar saklanır.",
+	"biz_maps_placeholder_name": "İşletme adı",
+	"biz_maps_placeholder_category": "Kategori (örn. restoran, kafe, otel)",
+	"biz_maps_placeholder_address": "Açık adres",
+	"biz_maps_placeholder_city": "Şehir",
+	"biz_maps_placeholder_region": "İl / Eyalet / Bölge",
+	"biz_maps_placeholder_country": "Ülke",
+	"biz_maps_placeholder_website": "İnternet sitesi (isteğe bağlı)",
+	"biz_maps_meta_description": "İşletmeni BTC Map ve diğer Bitcoin işyeri haritalarına ücretsiz listele; böylece yakındaki Bitcoin'ciler seni bulabilsin."
 }

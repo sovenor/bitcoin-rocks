@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2025-07-03",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_vs_cash": "Bitcoin vs Contanti",
-	"cash_header": "LA DIFFERENZA TRA",
-	"cash_header_2": "BITCOIN",
-	"cash_header_3": "E",
-	"cash_header_4": "CONTANTI",
 	"cash_intro_1": "I contanti sono stati usati come denaro per secoli e rimangono la forma più comune di denaro fisico nel mondo.",
 	"cash_intro_2": "Bitcoin è denaro digitale creato nel 2009 che opera indipendentemente da qualsiasi governo o autorità centrale.",
 	"cash_intro_3": "Ma come differiscono i contanti fisici dal denaro digitale come Bitcoin? Esploriamo le differenze chiave tra queste due forme di denaro: Bitcoin e Contanti.",
@@ -30,15 +26,16 @@
 	"bitcoin_point_5": "Rete decentralizzata",
 	"bitcoin_point_6": "Auto-custodia digitale",
 	"bitcoin_point_7": "Facilmente divisibile",
-	"point_1_summary_1": "Bitcoin può essere inviato ovunque nel mondo istantaneamente su Internet, mentre i contanti richiedono presenza fisica o intermediari fidati. Non puoi inviare contanti via email, ma puoi inviare Bitcoin a chiunque con una connessione Internet in pochi minuti.",
-	"point_2_summary_1": "Bitcoin funziona allo stesso modo ovunque nel mondo - non ci sono confini nella rete Bitcoin. I contanti sono limitati da geografia, tassi di cambio e accettazione locale. Prova a usare dollari americani nella Thailandia rurale o yen giapponesi nel Messico rurale.",
-	"point_3_summary_1": "I governi possono e invalidano i contanti dall'oggi al domani attraverso politiche di demonetizzazione, come ha fatto l'India nel 2016 quando ha vietato certe banconote.",
-	"point_3_summary_2": "Anche senza vietare certe banconote, i governi svalutano costantemente i contanti attraverso l'inflazione.",
-	"point_3_summary_3": "Bitcoin non può essere invalidato da nessun governo o autorità - esiste su una rete globale decentralizzata che nessuna singola entità controlla.",
-	"point_4_summary_1": "I contanti possono essere contraffatti, ed è spesso difficile rilevare banconote false senza attrezzature speciali. Anche con caratteristiche di sicurezza, i contanti contraffatti continuano a circolare. Bitcoin usa prove crittografiche che rendono la contraffazione matematicamente impossibile.",
-	"point_5_summary_1": "I contanti sono emessi e controllati dai governi, che possono stamparne di più a piacimento, cambiare design o dichiarare certe banconote invalide. Bitcoin opera su una rete decentralizzata dove nessuna singola autorità ha controllo sull'offerta monetaria o le regole.",
-	"point_6_summary_1": "I contanti devono essere conservati fisicamente, rendendoli vulnerabili a furto, perdita, incendio o confisca. Grandi quantità richiedono misure di sicurezza costose.",
-	"point_6_summary_2": "Ma Bitcoin può essere conservato in sicurezza in auto-custodia",
-	"point_6_summary_3": "usando un'app per smartphone o un portafoglio specializzato, dandoti controllo completo sul tuo denaro senza rischi di conservazione fisica.",
-	"point_7_summary_1": "I contanti hanno denominazioni minime - non puoi dividere un centesimo in parti più piccole. Bitcoin può essere diviso in 100 milioni di unità più piccole chiamate satoshi, permettendo micropagamenti e transazioni precise di qualsiasi importo."
+	"point_1_summary_1": "Bitcoin si muove via internet ovunque in pochi minuti. I contanti richiedono presenza fisica o un corriere fidato — non puoi inviare via email 20 dollari in contanti.",
+	"point_2_summary_1": "Bitcoin funziona allo stesso modo ovunque. I contanti sono limitati dalla geografia, dai tassi di cambio e dall'accettazione locale.",
+	"point_3_summary_1": "I governi possono annullare i contanti dall'oggi al domani — l'<a class=\"body-link\" href=\"https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation\" target=\"_blank\" rel=\"noopener noreferrer\">India</a> lo ha fatto nel 2016. Anche senza demonetizzazione, i contanti perdono valore a causa dell'",
+	"point_3_summary_2": "inflazione.",
+	"point_3_summary_3": "Bitcoin non può essere annullato da alcun governo o autorità.",
+	"point_4_summary_1": "I contanti possono essere falsificati, a volte in modo molto convincente. Bitcoin usa la crittografia che rende la falsificazione matematicamente impossibile.",
+	"point_5_summary_1": "Bitcoin non ha un'autorità centrale. I contanti sono emessi dai governi che possono stamparne di più, cambiare i disegni o annullare le banconote a piacimento.",
+	"point_6_summary_1": "I contanti sono vulnerabili a furti, incendi, perdite e confisca. Bitcoin può essere",
+	"point_6_summary_2": "autocustodito",
+	"point_6_summary_3": "in sicurezza su un telefono o un dispositivo hardware.",
+	"point_7_summary_1": "Bitcoin si divide in 100 milioni di satoshi, consentendo micropagamenti di qualsiasi dimensione. I contanti hanno una denominazione minima — non puoi dividere un centesimo.",
+	"hero_title": "La differenza tra <span class=\"orange\">Bitcoin</span> e i <span class=\"asset\">Contanti</span>"
 }

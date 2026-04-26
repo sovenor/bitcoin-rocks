@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-08",
+		"last-updated": "2026-04-24",
 		"locale": "fi"
 	},
 	"bitcoin_accepted_here_stickers": "Bitcoin hyväksytään täällä -tarrat",
-	"stickers_header": "HANKI ILMAISET 'BITCOIN HYVÄKSYTÄÄN TÄÄLLÄ' -TARRAT",
-	"stickers_request": "Tilaa ilmaiset tarrat",
-	"stickers_request_details": "Kerro asiakkaillesi, että hyväksyt Bitcoin-maksuja näillä ilmaisilla 'Bitcoin hyväksytään täällä' -tarroilla.",
-	"stickers_country_global_print": "Maailmanlaajuinen — Tulostan omat tarrani",
-	"stickers_request_instructions": "Saat kolme 'Bitcoin hyväksytään täällä' -tarraa tavallisessa valkoisessa kirjekuoressa. Jos tarvitset yli kolme tarraa yrityksellesi, voit tilata uudelleen. Osoitetiedot poistetaan ilmaisten tarrojen lähettämisen jälkeen.",
-	"stickers_print_details": "Voit tulostaa omat 'Bitcoin hyväksytään täällä' -tarrasi riippumatta asuinpaikastasi! Klikkaa kieltesi alla nähdäksesi tarratiedostot ja ohjeet.",
-	"stickers_request_language": "Etkö näe kieltesi? Täytä alla oleva lomake pyytääksesi 'Bitcoin hyväksytään täällä' -tarratiedostoja omalla kielelläsi."
+	"biz_stickers_hero_title": "Ilmaiset ”Hyväksymme bitcoinin” -tarrat",
+	"biz_stickers_hero_subtitle": "Kerro asiakkaille, että otat bitcoinia vastaan. Tilaa ilmainen pakkaus ”Hyväksymme bitcoinin” -tarroja laitettavaksi toimipisteessäsi.",
+	"biz_stickers_intro_c1": "Bitcoinin vastaanottaminen on vain puolet työstä — asiakkaidesi täytyy myös tietää siitä. Nämä pienet ”Hyväksymme bitcoinin” -tarrat on suunniteltu laitettavaksi pääoveen, kassaan, ruokalistaan tai mihin tahansa paikkaan, jossa asiakkaat näkevät ne ennen maksamista.",
+	"biz_stickers_intro_c2": "Lähetämme ilmaisen pakkauksen mihin tahansa osoitteeseen Yhdysvalloissa tai Kanadassa, tai voit myös tulostaa tarrasi itse missä tahansa maailmassa.",
+	"biz_stickers_step_header": "Miten haluat tarrasi?",
+	"biz_stickers_step_description": "Lähetämme ilmaisia pakkauksia osoitteisiin Yhdysvalloissa ja Kanadassa. Muualla maailmassa voit tulostaa tarrasi itse.",
+	"biz_stickers_option_usa": "🇺🇸 Yhdysvallat — ilmainen postitse",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — ilmainen postitse",
+	"biz_stickers_option_print": "🌍 Maailmanlaajuisesti — tulosta itse",
+	"biz_stickers_print_header": "Tulosta tarratiedostosi itse",
+	"biz_stickers_print_c1": "Voit tulostaa ”Hyväksymme bitcoinin” -tarrasi missä tahansa asut. Klikkaa alla olevaa kieltäsi ladataksesi tarratiedostot ja tulostusohjeet.",
+	"biz_stickers_request_header": "Eikö kieltäsi näy?",
+	"biz_stickers_request_c1": "Täytä alla oleva lomake pyytääksesi ”Hyväksymme bitcoinin” -tarratiedostoja paikallisella kielelläsi. Ilmoitamme, kun ne ovat valmiit.",
+	"biz_stickers_placeholder_translation1": "Käännös lauseesta ”Bitcoin Accepted Here”",
+	"biz_stickers_placeholder_translation2": "Käännös lauseesta ”Scan to learn why Bitcoin is good for business.”",
+	"stickers_request": "Tilaa ilmaiset tarrat"
 }

@@ -1,0 +1,32 @@
+{
+	"name": "bitcoin-rocks",
+	"version": "2.0.0-alpha",
+	"private": true,
+	"description": "bitcoin.rocks — Bitcoin education website (Next.js migration)",
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"next": "^16.0.0",
+		"next-intl": "^4.9.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4.0.0",
+		"@types/node": "^22.0.0",
+		"@types/react": "^19.0.0",
+		"@types/react-dom": "^19.0.0",
+		"eslint": "^9.0.0",
+		"eslint-config-next": "^16.0.0",
+		"tailwindcss": "^4.0.0",
+		"typescript": "^5.6.0"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}

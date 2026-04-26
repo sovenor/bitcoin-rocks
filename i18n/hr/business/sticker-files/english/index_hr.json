@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-25",
 		"locale": "hr"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Engleske datoteke naljepnica 'Bitcoin prihvaćen ovdje'",
-	"english_biz_sticker_files_description": "Preuzmite engleske datoteke naljepnica za ispis vlastitih naljepnica 'Bitcoin prihvaćen ovdje'.",
-	"english_header": "PREUZMITE ENGLESKE DATOTEKE NALJEPNICA 'BITCOIN PRIHVAĆEN OVDJE'"
+	"english_biz_sticker_files_description": "Preuzmite engleske datoteke naljepnica „Bitcoin Accepted Here“ za samostalno tiskanje.",
+	"biz_stickers_english_hero_title": "Preuzmite engleske datoteke naljepnica „Bitcoin Accepted Here“",
+	"biz_stickers_english_hero_subtitle": "Tiskajte vlastite naljepnice „Bitcoin Accepted Here“ na engleskom kako bi vaši kupci znali da prihvaćate Bitcoin."
 }

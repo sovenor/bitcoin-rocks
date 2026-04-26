@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin savdogar xaritalari — Biznesingizni bepul roʻyxatga oling",
-	"maps_header": "BITCOIN SAVDOGAR XARITALARIGA ROʻYXATDAN OʻTING VA KOʻPROQ MIJOZ JALB QILING",
-	"maps_request_details": "Biznes maʼlumotlaringizni quyida kiriting va sizni bepul Bitcoin savdogar xaritalariga qoʻshamiz. Bu Bitcoin foydalanuvchilarining biznesingizni topishi va Bitcoinlarini sizda sarflashini taʼminlaydi!",
-	"maps_view": "Xaritani bu yerda koʻring."
+	"maps_view": "Xaritani bu yerda koʻring.",
+	"biz_maps_hero_title": "Biznesingizni Bitcoin savdogar xaritalariga joylang",
+	"biz_maps_hero_subtitle": "Bitcoinni qabul qiluvchi savdogarlarning ochiq, butun dunyo katalogi — BTC Map saytida biznesingizni bepul roʻyxatga oling, shunda yaqindagi Bitcoinerlar sizni topa olishi va biznesingizda Bitcoin sarflashi mumkin.",
+	"biz_maps_intro_c1": "Bitcoinerlar sarflash uchun joylar faol qidirib yurishadi. Biznesingizni xaritaga joylash sizni atrofdagi yegulik, doʻkon yoki turar joy qidirayotgan har bir Bitcoin foydalanuvchisi oldida koʻrsatadi — siz uchun nol xarajat bilan.",
+	"biz_maps_intro_c2": "Quyidagi qisqa shaklni toʻldiring va biz biznesingizni siz uchun BTC Map va boshqa Bitcoin savdogar xaritalariga taqdim etamiz.",
+	"biz_maps_view_map_cta": "BTC Map xaritasini koʻring",
+	"biz_maps_form_header": "Biznesingiz haqida bizga ayting",
+	"biz_maps_form_intro": "Sizni roʻyxatga olish uchun bir necha tafsilot kerak. Manzil maʼlumotlari biznesingizni xaritalarga taqdim etish uchun zarur boʻlgan vaqtgacha saqlanadi.",
+	"biz_maps_placeholder_name": "Biznes nomi",
+	"biz_maps_placeholder_category": "Kategoriya (masalan, restoran, kafe, mehmonxona)",
+	"biz_maps_placeholder_address": "Koʻcha manzili",
+	"biz_maps_placeholder_city": "Shahar",
+	"biz_maps_placeholder_region": "Shtat / Viloyat / Hudud",
+	"biz_maps_placeholder_country": "Mamlakat",
+	"biz_maps_placeholder_website": "Veb-sayt (ixtiyoriy)",
+	"biz_maps_meta_description": "BTC Map va boshqa Bitcoin savdogar xaritalarida biznesingizni bepul roʻyxatga oling, shunda yaqindagi Bitcoinerlar sizni topa olishi mumkin."
 }

@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"cic_header": "ISIBALI SOKWENYUKA KWENTENGO ESIHLANGENE",
 	"cic_description": "Sebenzisa lesi Sibali Sokwenyuka Kwentengo Esihlangene ukuthola ukuthi umholo wakho udinga ukukhula kangakanani ukuze uhambelane nokwenyuka kwentengo.",
-	"what_can_i_do_about": "Ngingenzani nge",
-	"what_can_i_do_about_2": "nfleshini?",
-	"cic_inflation_cta": "Phuma Kunfleshini Nge-Bitcoin"
+	"cic_hero_subtitle": "Bona ukuthi umholo wakho udinga ukukhula ngakanani ukuze uhambisane nenfleshini.",
+	"cic_calculator_heading": "Bala igebe lakho lenfleshini",
+	"cic_cta_label": "Isinyathelo esilandelayo",
+	"cic_inflation_cta": "Phuma Kunfleshini Nge-Bitcoin",
+	"cic_next_learn_inflation": "Funda indlela inkomba yenfleshini esebenza ngayo",
+	"cic_next_explore_topics": "Hlola ezinye izindikimba",
+	"cic_next_explore_topics_desc": "Bona indlela i-Bitcoin exhumeka ngayo nemali, inkululeko, amandla, nokunye.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
-	"sticker_language_timeline": "Etiket faylınızı 3-4 həftə ərzində yaradıb dərc edəcəyik. Səbriniz üçün təşəkkür edirik!"
+	"biz_sticker_language_success_hero_title": "Sorğu qəbul edildi 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Dilinizdə \"Bitcoin qəbul olunur\" stiker faylları istədiyiniz üçün təşəkkür edirik.",
+	"biz_sticker_language_success_timeline_header": "Sonra nə olur",
+	"biz_sticker_language_success_timeline_c1": "Stiker fayllarınızı 3-4 həftə ərzində yaradıb dərc edəcəyik. Hazır olduqdan sonra stiker faylları səhifəsindən pulsuz endirə və çap edə biləcəksiniz.",
+	"biz_sticker_language_success_timeline_c2": "Stiker faylları partiyalarla buraxılır, buna görə dilinizin aktivləşdirilməsi bir neçə həftə çəkə bilər. Səbriniz üçün təşəkkür edirik!"
 }

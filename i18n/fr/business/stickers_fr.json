@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-16",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"bitcoin_accepted_here_stickers": "autocollants Bitcoin Accepted Here",
-	"stickers_header": "COMMANDER VOS AUTOCOLLANTS 'BITCOIN ACCEPTED HERE'",
-	"stickers_request": "Commander des autocollant gratuits",
-	"stickers_request_details": "Faites savoir à vos clients que vous acceptez les paiements en bitcoin grâce à ces autocollants gratuits 'Bitcoin Accepted Here'.",
-	"stickers_country_global_print": "Global — Imprimez vos propres autocollants",
-	"stickers_request_instructions": "Vous recevrez 3 autocollants 'Bitcoin Accepted Here' dans une enveloppe blanche. Si vous avez besoin de plus de 3 autocollants pour votre entreprise, n'hésitez pas à faire plusieurs demandes. Les données d'adresse sont supprimées après l'envoi de vos autocollants gratuits.",
-	"stickers_print_details": "Vous pouvez imprimer vos propres autocollants 'Bitcoin Accepted Here', quel que soit votre pays ! Cliquez sur votre langue ci-dessous pour voir les fichiers png et les instructions.",
-	"stickers_request_language": "Votre langue n'est pas disponible ? Remplissez le formulaire ci-dessous pour demander des fichiers d'autocollants 'Bitcoin Accepted Here' dans votre langue locale."
+	"biz_stickers_hero_title": "Autocollants gratuits « Bitcoin accepté ici »",
+	"biz_stickers_hero_subtitle": "Fais savoir à tes clients que tu acceptes Bitcoin. Commande un pack gratuit d’autocollants « Bitcoin accepté ici » à coller dans ton commerce.",
+	"biz_stickers_intro_c1": "Accepter Bitcoin, c’est à moitié le travail — tes clients doivent aussi le savoir. Ces petits autocollants « Bitcoin accepté ici » sont conçus pour être collés sur la porte d’entrée, à la caisse, sur le menu ou partout où les clients les verront avant de payer.",
+	"biz_stickers_intro_c2": "Nous t’envoyons un pack gratuit à n’importe quelle adresse aux États-Unis ou au Canada, ou tu peux imprimer les tiens n’importe où dans le monde.",
+	"biz_stickers_step_header": "Comment veux-tu tes autocollants ?",
+	"biz_stickers_step_description": "Nous envoyons des packs gratuits aux adresses aux États-Unis et au Canada. Partout ailleurs dans le monde, tu peux imprimer les tiens.",
+	"biz_stickers_option_usa": "🇺🇸 États-Unis — gratuit par la poste",
+	"biz_stickers_option_canada": "🇨🇦 Canada — gratuit par la poste",
+	"biz_stickers_option_print": "🌍 Dans le monde entier — imprime les tiens",
+	"biz_stickers_print_header": "Imprime tes propres fichiers d’autocollants",
+	"biz_stickers_print_c1": "Tu peux imprimer tes propres autocollants « Bitcoin accepté ici » où que tu vives. Clique sur ta langue ci-dessous pour télécharger les fichiers d’autocollants et les instructions d’impression.",
+	"biz_stickers_request_header": "Tu ne vois pas ta langue ?",
+	"biz_stickers_request_c1": "Remplis le formulaire ci-dessous pour demander des fichiers d’autocollants « Bitcoin accepté ici » dans ta langue locale. Nous te préviendrons dès qu’ils seront prêts.",
+	"biz_stickers_placeholder_translation1": "Traduction de la phrase « Bitcoin Accepted Here »",
+	"biz_stickers_placeholder_translation2": "Traduction de la phrase « Scan to learn why Bitcoin is good for business. »",
+	"stickers_request": "Commander des autocollant gratuits"
 }

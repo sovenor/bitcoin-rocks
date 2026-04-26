@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
 	},
 	"bitcoin_accepted_here_stickers": "「Bitcoin Accepted Here」ステッカー",
-	"stickers_header": "無料の「BITCOIN ACCEPTED HERE」ステッカーを入手しよう",
-	"stickers_request": "無料ステッカーを入手",
-	"stickers_request_details": "これらの無料「Bitcoin Accepted Here」ステッカーで、ビットコイン決済を受け付けていることを顧客に知らせましょう。",
-	"stickers_country_global_print": "グローバル — 自分で印刷する",
-	"stickers_request_instructions": "白い封筒で3枚の「Bitcoin Accepted Here」ステッカーをお届けします。ビジネスに3枚以上必要な場合は、複数回リクエストしてください。住所データはステッカーの発送後に削除されます。",
-	"stickers_print_details": "どこに住んでいても、自分で「Bitcoin Accepted Here」ステッカーを印刷できます！下の言語をクリックしてステッカーファイルと手順を確認してください。",
-	"stickers_request_language": "お探しの言語がありませんか？以下のフォームに記入して、お住まいの言語の「Bitcoin Accepted Here」ステッカーファイルをリクエストしてください。"
+	"biz_stickers_hero_title": "無料の「ビットコインで支払えます」ステッカー",
+	"biz_stickers_hero_subtitle": "顧客にビットコインを受け入れていることを知らせましょう。あなたのビジネスに貼るための「ビットコインで支払えます」ステッカーの無料パックを注文してください。",
+	"biz_stickers_intro_c1": "ビットコインを受け入れるのは仕事の半分にすぎません — 顧客もそれを知る必要があります。これらの小さな「ビットコインで支払えます」ステッカーは、玄関、レジ、メニュー、または顧客が支払う前に見るその他の場所に貼るようデザインされています。",
+	"biz_stickers_intro_c2": "米国またはカナダ国内のどこにでも無料パックを郵送します。または、世界中どこでも自分で印刷できます。",
+	"biz_stickers_step_header": "ステッカーをどう受け取りますか？",
+	"biz_stickers_step_description": "米国とカナダの住所には無料パックを発送します。世界中の他の場所では、自分で印刷できます。",
+	"biz_stickers_option_usa": "🇺🇸 米国 — 郵送無料",
+	"biz_stickers_option_canada": "🇨🇦 カナダ — 郵送無料",
+	"biz_stickers_option_print": "🌍 グローバル — 自分で印刷",
+	"biz_stickers_print_header": "自分でステッカー・ファイルを印刷する",
+	"biz_stickers_print_c1": "どこに住んでいても、自分で「ビットコインで支払えます」ステッカーを印刷できます。下の言語をクリックすると、ステッカー・ファイルと印刷の説明をダウンロードできます。",
+	"biz_stickers_request_header": "あなたの言語が見当たりませんか？",
+	"biz_stickers_request_c1": "あなたの母国語の「ビットコインで支払えます」ステッカー・ファイルをリクエストするには、下のフォームに記入してください。準備ができ次第お知らせします。",
+	"biz_stickers_placeholder_translation1": "「Bitcoin Accepted Here」の翻訳",
+	"biz_stickers_placeholder_translation2": "「Scan to learn why Bitcoin is good for business.」の翻訳",
+	"stickers_request": "無料ステッカーを入手"
 }

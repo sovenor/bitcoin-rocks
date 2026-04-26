@@ -3,13 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
-	"bitcoin_accepted_here_sticker_files": "קבצי מדבקות 'כאן מקבלים ביטקוין'",
-	"english_biz_sticker_description": "הורידו קבצי מדבקות 'כאן מקבלים ביטקוין' כאן.",
-	"english_biz_sticker_header": "הורידו קבצי מדבקות 'כאן מקבלים ביטקוין' באנגלית",
 	"english_bitcoin_accepted_here_sticker_files": "קבצי מדבקות 'כאן מקבלים ביטקוין' באנגלית",
-	"english_biz_sticker_files_description": "הורידו קבצי מדבקות באנגלית להדפסת מדבקות 'כאן מקבלים ביטקוין' משלכם.",
-	"english_header": "הורידו קבצי מדבקות 'כאן מקבלים ביטקוין' באנגלית"
+	"english_biz_sticker_files_description": "הורד את קבצי המדבקות האנגליים של \"מקבלים כאן ביטקוין\" כדי להדפיס מדבקות משלך.",
+	"biz_stickers_english_hero_title": "הורד קבצי מדבקות אנגליות של \"מקבלים כאן ביטקוין\"",
+	"biz_stickers_english_hero_subtitle": "הדפס את המדבקות שלך \"מקבלים כאן ביטקוין\" באנגלית, כדי לתת ללקוחות שלך לדעת שאתה מקבל ביטקוין."
 }

@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "pl"
 	},
-	"sticker_success_details": "Otrzymasz naklejki w ciągu 1 do 2 tygodni w zwykłej białej kopercie. Każda koperta zawiera trzy naklejki „Bitcoin akceptowany tutaj\"."
+	"biz_sticker_success_hero_title": "Twoje naklejki są w drodze 🎉",
+	"biz_sticker_success_hero_subtitle": "Twoje darmowe naklejki „Akceptujemy Bitcoina” dotrą za 2–4 tygodnie w zwykłej białej kopercie z 3 naklejkami.",
+	"biz_sticker_success_tips_header": "Dobre miejsca na twoje naklejki",
+	"biz_sticker_success_tip_1": "Na drzwiach wejściowych lub w witrynie, by klienci je zobaczyli przed wejściem",
+	"biz_sticker_success_tip_2": "W okolicy kasy, terminala płatniczego lub miejsca płatności",
+	"biz_sticker_success_tip_3": "Na menu, cennikach lub puszkach na napiwki",
+	"biz_sticker_success_tip_4": "NIE umieszczaj ich w miejscach, których nie posiadasz lub nie masz pozwolenia na umieszczenie naklejek",
+	"biz_sticker_success_more_header": "Potrzebujesz więcej naklejek?",
+	"biz_sticker_success_more_c1": "Jeśli 3 naklejki to za mało dla twojej firmy, poproś o kolejny darmowy zestaw — albo zamów hurtowo u tej samej drukarni, której używamy my.",
+	"biz_sticker_success_btn_order_bulk": "Zamów hurtowo",
+	"biz_sticker_success_btn_request_more": "Poproś o kolejny darmowy zestaw"
 }

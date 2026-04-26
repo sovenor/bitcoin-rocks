@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"how_to_accept_bitcoin_payments": "Kaip priimti Bitcoin mokėjimus",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibridinės piniginės:",
 	"wallets_intro_5": "Leidžia keisti bet kokią Bitcoin dalį į dolerius, kai tik klientas sumoka. Mokesčiai vis tiek mažesni nei kredito kortių, bet didesni nei gryno Bitcoin mokėjimo.",
 	"wallets_intro_6": "Abu variantai puikūs priimant Bitcoin. Konkreti piniginė, kurią naudosite, priklausys nuo jūsų verslo dydžio ir tipo.",
-	"wallets_choice_sole": "piniginės individualiems verslams",
-	"wallets_choice_multiple": "piniginės verslams su keliais darbuotojais",
-	"wallets_choice_online": "piniginės internetiniams verslams",
-	"wallets_choice_invoice": "piniginės sąskaitų fakturų pagrindų verslams",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Savę talpinantis = 0% mokesčių",
 	"wallets_feature_online_store": "Internetinės parduotuvės integracija",
 	"wallets_feature_invoicing": "Nemokama sąskaitų programinė įranga",
-	"wallets_get_wallet": "GAUTI PINIGINĘ"
+	"wallets_get_wallet": "GAUTI PINIGINĘ",
+	"wallets_hero_subtitle": "Bitcoin piniginės yra nemokamos. Pasirinkite geriausią savo verslui — gyvai, internete arba per sąskaitas faktūras — ir pradėkite priimti Bitcoin per kelias minutes.",
+	"wallets_section_sole": "Piniginės individualiems prekybininkams",
+	"wallets_section_sole_intro": "Jei vienas valdote parduotuvę, kavinę, studiją ar paslaugą, bet kuri iš šių piniginių jums tinka. Pasirinkite, ar laikyti Bitcoin, ar automatiškai konvertuoti dalį kiekvieno mokėjimo į vietinę valiutą.",
+	"wallets_section_multiple": "Piniginės verslui su keliais darbuotojais",
+	"wallets_section_multiple_intro": "Jei jūsų komanda priima mokėjimus prie kasos, pasirinkite piniginę, palaikančią kelių darbuotojų prisijungimus — kad kiekvienas darbuotojas turėtų savo kodą ir galėtumėte sekti, kas gavo kokį mokėjimą.",
+	"wallets_section_online": "Piniginės internetiniam verslui",
+	"wallets_section_online_intro": "Parduodate internetu? Šios piniginės jungiasi prie jūsų internetinės parduotuvės ir priima Bitcoin mokėjimus iš klientų visame pasaulyje — be grąžinimų ir be prekybos sąskaitos poreikio.",
+	"wallets_section_invoice": "Piniginės verslui, kuris klientams siunčia sąskaitas faktūras",
+	"wallets_section_invoice_intro": "Jei savo klientams siunčiate sąskaitas faktūras (konsultacijos, laisvai samdomi darbuotojai, B2B paslaugos), naudokite piniginę, sukurtą sąskaitų faktūrų aplinkai. Klientas apmoka Bitcoin sąskaitą faktūrą per kelis paspaudimus.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business leidžia priimti Bitcoin ir Lightning mokėjimus be mokesčių ir su momentiniu atsiskaitymu. Palaiko mokėjimus gyvai, internete ir per sąskaitas faktūras, su galimybe automatiškai konvertuoti į vietinę valiutą.",
+	"sources_square": "Square — priimkite Bitcoin mokėjimus",
+	"sources_breez_business": "Breez — Bitcoin Lightning piniginė tik Bitcoin",
+	"sources_opennode": "OpenNode — Bitcoin mokėjimų procesorius",
+	"sources_ibex": "IBEX — Lightning mokėjimų infrastruktūra",
+	"sources_zaprite": "Zaprite — Bitcoin apskaita verslui",
+	"biz_wallets_meta_description": "Visos Bitcoin piniginės veikia kartu — pasirinkite geriausią savo verslui. Nemokama, momentinis atsiskaitymas, be grąžinimų."
 }

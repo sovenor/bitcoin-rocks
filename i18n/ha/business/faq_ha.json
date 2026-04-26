@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Tambayoyin da ake yawan yi game da karɓar Bitcoin",
 	"faq_description": "Kuna da tambayoyi game da karɓar biyan kuɗi na Bitcoin a kasuwancinku?",
-	"faq_header": "KUNA DA TAMBAYOYI GAME DA KARƁAR BIYAN KUƊI NA BITCOIN?",
+	"faq_hero_subtitle": "Amsoshi cikin sauri ga tambayoyin da kasuwanci ke yi sau da yawa kafin karɓar Bitcoin — kuɗi, saitawa, walat, dawowar katuna, farashi da ƙari.",
+	"faq_intro_c1": "Danna kowace tambaya ƙasa don faɗaɗa amsar. Lokacin da kake shirye don fara karɓar Bitcoin, albarkatun kasuwanci a ƙarshen shafin za su jagorance ka mataki-mataki.",
 	"faq_s1": "Menene Bitcoin?",
 	"faq_s1_c1": "Bitcoin abubuwa biyu ne: kuɗi na dijital da cibiyar sadarwa ta kwamfuta.",
 	"faq_s1_c2": "Kuna iya aika bitcoin (kuɗi na dijital) kai tsaye ga wasu mutane ta amfani da cibiyar sadarwar Bitcoin.",

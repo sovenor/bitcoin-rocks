@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mapes de comerços Bitcoin - Llista el teu negoci gratis",
-	"maps_header": "LLISTA'T ALS MAPES DE COMERÇOS BITCOIN I ACONSEGUEIX MÉS CLIENTS",
-	"maps_request_details": "Introdueix la informació del teu negoci a continuació i et llistarem als mapes de comerços Bitcoin de forma gratuïta. Això permetrà als Bitcoiners trobar el teu negoci i gastar els seus Bitcoin al teu negoci!",
-	"maps_view": "Veure el mapa aquí."
+	"maps_view": "Veure el mapa aquí.",
+	"biz_maps_hero_title": "Afegeix el teu negoci al mapa de comerciants de Bitcoin",
+	"biz_maps_hero_subtitle": "Llista el teu negoci gratuïtament a BTC Map — el catàleg obert global de comerciants que accepten Bitcoin — perquè els usuaris de Bitcoin propers puguin trobar-te i gastar Bitcoin al teu negoci.",
+	"biz_maps_intro_c1": "Els usuaris de Bitcoin busquen activament llocs on gastar els seus diners. Posar el teu negoci al mapa el situa davant de cada usuari de Bitcoin que busqui un lloc on menjar, comprar o allotjar-se a prop — sense cap cost per a tu.",
+	"biz_maps_intro_c2": "Omple el formulari breu a continuació i enviarem el teu negoci a BTC Map i a altres mapes de comerciants de Bitcoin en nom teu.",
+	"biz_maps_view_map_cta": "Veure BTC Map",
+	"biz_maps_form_header": "Explica'ns sobre el teu negoci",
+	"biz_maps_form_intro": "Només uns quants detalls per llistar-te. La informació de l'adreça es guarda només durant el temps necessari per enviar el teu negoci al mapa.",
+	"biz_maps_placeholder_name": "Nom del negoci",
+	"biz_maps_placeholder_category": "Categoria (p. ex. restaurant, cafeteria, hotel)",
+	"biz_maps_placeholder_address": "Adreça",
+	"biz_maps_placeholder_city": "Ciutat",
+	"biz_maps_placeholder_region": "Estat / província / regió",
+	"biz_maps_placeholder_country": "País",
+	"biz_maps_placeholder_website": "Lloc web (opcional)",
+	"biz_maps_meta_description": "Llista el teu negoci gratuïtament a BTC Map i a altres mapes de comerciants de Bitcoin, perquè els usuaris de Bitcoin propers puguin trobar-te."
 }

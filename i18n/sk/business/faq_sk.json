@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Často kladené otázky o prijímaní Bitcoinu",
 	"faq_description": "Máte otázky ohľadom prijímania bitcoinových platieb vo vašej firme?",
-	"faq_header": "MÁTE OTÁZKY OHĽADOM PRIJÍMANIA BITCOINOVÝCH PLATIEB?",
+	"faq_hero_subtitle": "Stručné odpovede na otázky, ktoré si obchodníci kladú najčastejšie, predtým ako začnú prijímať Bitcoin — poplatky, vyrovnanie, peňaženky, chargebacky, náklady a ďalšie.",
+	"faq_intro_c1": "Kliknutím na ľubovoľnú otázku nižšie sa rozbalí odpoveď. Keď budete pripravení začať prijímať Bitcoin, zdroje pre firmy v dolnej časti stránky vás prevedú každým krokom.",
 	"faq_s1": "Čo je Bitcoin?",
 	"faq_s1_c1": "Bitcoin sú dve veci: digitálne peniaze a počítačová sieť.",
 	"faq_s1_c2": "Môžete posielať bitcoin (digitálne peniaze) priamo ostatným ľuďom pomocou Bitcoinovej siete.",

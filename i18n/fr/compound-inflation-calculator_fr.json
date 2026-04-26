@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "fr"
 	},
 	"cic_header": "CALCULATEUR D'INFLATION COMPOSÉE",
 	"cic_description": "Utilisez ce calculateur d'inflation composée pour trouver de combien votre salaire devrait augmenter pour faire face à l'inflation.",
-	"what_can_i_do_about": "Que dois-je faire ?",
-	"what_can_i_do_about_2": "inflation ?",
-	"cic_inflation_cta": "Sortir de l'inflation avec le bitcoin"
+	"cic_hero_subtitle": "Découvre de combien ton salaire doit augmenter pour rester au niveau de l’inflation.",
+	"cic_calculator_heading": "Calcule ton écart d’inflation",
+	"cic_cta_label": "Prochaine étape",
+	"cic_inflation_cta": "Sortir de l'inflation avec le bitcoin",
+	"cic_next_learn_inflation": "Apprends comment fonctionne l’inflation",
+	"cic_next_explore_topics": "Explore d’autres sujets",
+	"cic_next_explore_topics_desc": "Vois comment Bitcoin se rapporte à la monnaie, la liberté, l’énergie et plus.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — indice des prix à la consommation pour tous les consommateurs urbains",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — masse monétaire M1"
 }

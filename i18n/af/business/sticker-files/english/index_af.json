@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-23",
 		"locale": "af"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "Engelse 'Bitcoin Word Hier Aanvaar'-plakkerlêers",
-	"english_biz_sticker_files_description": "Laai Engelse plakkerlêers af om jou eie 'Bitcoin Word Hier Aanvaar'-plakkers te druk.",
-	"english_header": "LAAI ENGELSE 'BITCOIN WORD HIER AANVAAR'-PLAKKERLÊERS AF"
+	"english_biz_sticker_files_description": "Laai Engelse plakkerlêers af om jou eie 'Bitcoin Accepted Here'-plakkers te druk.",
+	"biz_stickers_english_hero_title": "Laai Engelse 'Bitcoin Accepted Here'-plakkerlêers af",
+	"biz_stickers_english_hero_subtitle": "Druk jou eie 'Bitcoin Accepted Here'-plakkers in Engels om jou kliënte te laat weet dat jy Bitcoin aanvaar."
 }

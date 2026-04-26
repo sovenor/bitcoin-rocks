@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
 	"bitcoin_wallet_guide": "Bitcoin ওয়ালেট গাইড",
 	"wallets_description": "অনেক বিভিন্ন Bitcoin ওয়ালেট আছে যা গুরুত্বপূর্ণ উপায়ে আলাদা। এই সহজ প্রশ্নগুলো জিজ্ঞাসা করে আপনি নির্ধারণ করতে পারেন কোন ওয়ালেট আপনার জন্য সঠিক।",
 	"wallets_header": "কিভাবে নিরাপদে আপনার BITCOIN সংরক্ষণ করবেন",
+	"wallets_header_subtitle": "একটি ওয়ালেট বেছে নেওয়া, আপনার চাবি রক্ষা করা এবং আপনার Bitcoin-এর সম্পূর্ণ নিয়ন্ত্রণ নেওয়ার জন্য ধাপে ধাপে গাইড।",
 	"wallets_s1_c1": "Bitcoin ওয়ালেট আন্তঃকার্যক্ষম, তাই আপনি যেকোনো ওয়ালেট ব্যবহার করুক না কেন যে কাউকে Bitcoin পাঠাতে পারেন।",
 	"wallets_s1_c2": "অনেক বিভিন্ন Bitcoin ওয়ালেট আছে যা গুরুত্বপূর্ণ উপায়ে আলাদা। এই সহজ প্রশ্নগুলো জিজ্ঞাসা করে আপনি নির্ধারণ করতে পারেন কোন ওয়ালেট আপনার জন্য সঠিক:",
 	"wallets_question_1": "এটি কি একটি স্ব-হেফাজত ওয়ালেট?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp আপনার জন্য সঠিকটি বেছে নিতে সাহায্য করতে ৭০টি স্টিল ব্যাকআপ কিট পরীক্ষা করেছেন।",
 	"wallets_s6_c5": "Jameson-এর মেটাল Bitcoin ব্যাকআপ গাইড এখানে দেখুন।",
 	"wallets_s6_c6": "অথবা Bitcoin ওয়ালেট বিকল্পগুলো অন্বেষণ করতে স্ক্রল করতে থাকুন।",
+	"wallets_grid_heading": "জনপ্রিয় Bitcoin ওয়ালেট",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning নেটওয়ার্ক",
 	"wallets_cta_lightning": "আমাদের লাইটনিং ওয়ালেট গাইড খুঁজছেন?",
 	"wallets_starter_wallet": "দুর্দান্ত স্টার্টার ওয়ালেট",
 	"wallets_mobile_app": "মোবাইল অ্যাপ",
@@ -62,5 +65,13 @@
 	"wallets_battery": "রিচার্জেবল ব্যাটারি",
 	"wallets_build_your_own": "নিজে তৈরি করুন",
 	"wallets_qwerty_keyboard": "পূর্ণ QWERTY কীবোর্ড",
-	"wallets_qr_scanner": "QR কোড স্ক্যানার"
+	"wallets_qr_scanner": "QR কোড স্ক্যানার",
+	"sources_bitcoin_org_choose": "Bitcoin.org — আপনার ওয়ালেট বেছে নিন",
+	"sources_jameson_lopp": "Jameson Lopp — Bitcoin ধাতু সিড পর্যালোচনা",
+	"sources_blockstream_green": "Blockstream Green — স্ব-সংরক্ষিত Bitcoin ওয়ালেট",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin হার্ডওয়্যার ওয়ালেট",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 হার্ডওয়্যার ওয়ালেট",
+	"sources_coldcard_q": "Coinkite — Coldcard Q হার্ডওয়্যার ওয়ালেট",
+	"sources_passport": "Foundation Devices — Passport হার্ডওয়্যার ওয়ালেট",
+	"sources_seedsigner": "SeedSigner — ওপেন সোর্স, DIY Bitcoin সাইনিং ডিভাইস"
 }

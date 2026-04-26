@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin yana da kyau ga kasuwanci",
-	"biz_header": "BITCOIN YANA DA KYAU GA KASUWANCI",
+	"business_hero_subtitle": "Karɓi biyan kuɗi tare da ƙananan kuɗi, saitawa nan take kuma kai miliyoyin sabbin abokan ciniki — babu kwangila ko farashi a ɓoye.",
+	"business_intro_c1": "Bitcoin yana ba da hanya wa kasuwancinka don karɓar biyan kuɗi waɗanda suka fi sauri, sauƙi da sirri. Babu 'yan tsaka. Babu dawowar katuna. Babu kwangila. Kuɗi kawai wanda ke biya cikin daƙiƙa, kai tsaye daga abokin ciniki zuwa gareka.",
+	"business_intro_c2": "Ƙasa akwai ɗan gajeren bayani na me yasa Bitcoin yake da kyau ga kasuwanci — kuma ƙasa da haka, dukkan albarkatun da kake buƙata don fara karɓa yau.",
 	"biz_s1": "Ƙananan kuɗin aiki ba tare da mafi ƙarancin adadi ba",
 	"biz_s1_c1": "Bitcoin yana ba ka damar karɓar kuɗi kai tsaye daga abokan ciniki, kamar tsabar kuɗi. Cibiyar sadarwar Bitcoin tana aiki ba tare da masu shiga tsakani ba, kamar bankuna da kamfanonin katin kuɗi, waɗanda ke ɗaukar kuɗin aiki mai yawa.",
 	"biz_s2": "Saurin warwarewa",
@@ -18,5 +20,14 @@
 	"biz_s4": "Sami ƙarin abokan ciniki",
 	"biz_s4_c1": "Miliyoyin mutane suna da Bitcoin kuma suna son kashe shi a wuraren da suka karɓe shi.",
 	"biz_s4_c2": "Ta hanyar karɓar Bitcoin kasuwancinka na iya shiga cikin taswirar 'yan kasuwa na Bitcoin kuma a sami bayyanarwa kyauta ga sabbin abokan ciniki.",
-	"biz_s4_c3": "Karɓar Bitcoin kyauta ne 100%. Babu kwangilar kuma babu kuɗin ɓoye."
+	"biz_s4_c3": "Karɓar Bitcoin kyauta ne 100%. Babu kwangilar kuma babu kuɗin ɓoye.",
+	"business_resources_heading": "Duk abin da kake buƙata don karɓar Bitcoin",
+	"business_resources_intro": "Aiki ta cikin waɗannan albarkatun ta saurinka. Kowanne jagora ne mai sauƙi mai amfani.",
+	"biz_label_wallets": "WALAT",
+	"biz_label_maps": "TASWIROYIN 'YAN KASUWA",
+	"biz_label_stickers": "LABARU",
+	"biz_label_rewards": "LADA",
+	"biz_label_accounting": "LISSAFIN KUƊI",
+	"biz_label_faq": "TAMBAYOYI",
+	"biz_meta_description": "Karɓi Bitcoin a kasuwancinka tare da ƙananan kuɗi, saitawa nan take, babu dawowar katuna, kuma jawo ƙarin abokan ciniki."
 }

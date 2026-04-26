@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_accepted_here_stickers": "Nalepke Bitcoin sprejet tukaj",
-	"stickers_header": "PRIDOBITE BREZPLAČNE NALEPKE 'BITCOIN SPREJET TUKAJ'",
-	"stickers_request": "Pridobite brezplačne nalepke",
-	"stickers_request_details": "Sporočite svojim strankam, da sprejemate bitcoinova plačila, s temi brezplačnimi nalepkami 'Bitcoin sprejet tukaj'.",
-	"stickers_country_global_print": "Po vsem svetu — Natisnil bom lastne nalepke",
-	"stickers_request_instructions": "Prejeli boste tri nalepke 'Bitcoin sprejet tukaj' v navadni beli ovojnici. Če potrebujete več kot tri nalepke za svoje podjetje, vas prosimo, da zaprosite večkrat. Podatki o naslovu se izbrišejo po pošiljanju brezplačnih nalepk.",
-	"stickers_print_details": "Natisnete lahko lastne nalepke 'Bitcoin sprejet tukaj', ne glede na to, kje živite! Kliknite na svoj jezik spodaj za ogled datotek nalepk in navodil.",
-	"stickers_request_language": "Ne vidite svojega jezika? Izpolnite spodnji obrazec in zaprosite za datoteke nalepk 'Bitcoin sprejet tukaj' v vašem jeziku."
+	"biz_stickers_hero_title": "Brezplačne nalepke „Tu sprejemamo Bitcoin“",
+	"biz_stickers_hero_subtitle": "Sporočite strankam, da sprejemate Bitcoin. Naročite brezplačen paket nalepk „Tu sprejemamo Bitcoin“ za izobesitev v svojem lokalu.",
+	"biz_stickers_intro_c1": "Sprejemanje Bitcoina je le polovica dela — vaše stranke morajo tudi vedeti, da ga sprejemate. Te majhne nalepke „Tu sprejemamo Bitcoin“ so zasnovane tako, da jih nalepite na vhodna vrata, blagajno, jedilnik ali kamor koli, kjer jih stranke vidijo, preden plačajo.",
+	"biz_stickers_intro_c2": "Brezplačno vam bomo poslali paket kamor koli v ZDA ali Kanado, ali pa lahko natisnete svoje kjer koli na svetu.",
+	"biz_stickers_step_header": "Kako želite priti do nalepk?",
+	"biz_stickers_step_description": "Brezplačen paket bomo poslali na naslove v ZDA in Kanadi. Kjer koli drugje na svetu lahko natisnete svoje.",
+	"biz_stickers_option_usa": "🇺🇸 ZDA — brezplačno po pošti",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — brezplačno po pošti",
+	"biz_stickers_option_print": "🌍 Po vsem svetu — natisnil bom svoje",
+	"biz_stickers_print_header": "Natisnite svoje datoteke nalepk",
+	"biz_stickers_print_c1": "Lastne nalepke „Tu sprejemamo Bitcoin“ lahko natisnete ne glede na to, kje živite. S klikom na svoj jezik spodaj prenesete datoteke nalepk in navodila za tisk.",
+	"biz_stickers_request_header": "Ne vidite svojega jezika?",
+	"biz_stickers_request_c1": "Izpolnite spodnji obrazec, da zaprosite za datoteke nalepk „Tu sprejemamo Bitcoin“ v vašem lokalnem jeziku. Sporočili vam bomo, takoj ko bodo pripravljene.",
+	"biz_stickers_placeholder_translation1": "Prevod fraze „Bitcoin Accepted Here“",
+	"biz_stickers_placeholder_translation2": "Prevod fraze „Scan to learn why Bitcoin is good for business.“",
+	"stickers_request": "Pridobite brezplačne nalepke"
 }

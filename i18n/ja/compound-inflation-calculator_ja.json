@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
 	},
 	"cic_header": "複利インフレ計算機",
 	"cic_description": "この複利インフレ計算機を使って、インフレに追いつくために給与をどれだけ上げる必要があるか確認しましょう。",
-	"what_can_i_do_about": "どうすればいいのか",
-	"what_can_i_do_about_2": "インフレ対策は？",
-	"cic_inflation_cta": "ビットコインでインフレから脱却する"
+	"cic_hero_subtitle": "インフレに追いつくには給与をどれだけ上げる必要があるかを見ましょう。",
+	"cic_calculator_heading": "インフレギャップを計算する",
+	"cic_cta_label": "次のステップ",
+	"cic_inflation_cta": "ビットコインでインフレから脱却する",
+	"cic_next_learn_inflation": "インフレの仕組みを学ぶ",
+	"cic_next_explore_topics": "他のトピックを探す",
+	"cic_next_explore_topics_desc": "ビットコインがお金、自由、エネルギー、その他にどう関係しているかを見ましょう。",
+	"sources_fred_cpi_urban": "米連邦準備経済データ（FRED） — 全都市消費者向け消費者物価指数",
+	"sources_fred_m1": "米連邦準備経済データ（FRED） — M1 マネーサプライ"
 }

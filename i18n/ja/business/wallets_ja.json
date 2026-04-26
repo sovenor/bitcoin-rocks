@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ja"
 	},
 	"how_to_accept_bitcoin_payments": "ビットコイン決済の受け入れ方",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "ハイブリッドウォレット：",
 	"wallets_intro_5": "顧客から支払いを受けると同時に、ビットコインの任意の割合をドルに換金できます。手数料はクレジットカードよりも低いですが、純粋なビットコイン決済よりは高くなります。",
 	"wallets_intro_6": "どちらもビットコインを受け入れる優れた方法です。使用する具体的なウォレットは、ビジネスの規模とタイプによって異なります。",
-	"wallets_choice_sole": "個人事業主向けウォレット",
-	"wallets_choice_multiple": "複数従業員のビジネス向けウォレット",
-	"wallets_choice_online": "オンラインビジネス向けウォレット",
-	"wallets_choice_invoice": "請求書ベースのビジネス向けウォレット",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "セルフホスティング＝手数料0%",
 	"wallets_feature_online_store": "オンラインストア連携",
 	"wallets_feature_invoicing": "無料の請求書ソフトウェア",
-	"wallets_get_wallet": "ウォレットを入手"
+	"wallets_get_wallet": "ウォレットを入手",
+	"wallets_hero_subtitle": "ビットコイン・ウォレットは無料です。あなたのビジネスに合うものを選び — 対面、オンライン、または請求書ベース — 数分でビットコインの受け入れを始めましょう。",
+	"wallets_section_sole": "個人経営のビジネス向けウォレット",
+	"wallets_section_sole_intro": "自分で店舗、カフェ、スタジオ、サービスを運営しているなら、これらのウォレットのどれでも機能します。決済をビットコインで保持したいか、各決済の一部を現地通貨に自動変換したいかで選びましょう。",
+	"wallets_section_multiple": "複数の従業員がいるビジネス向けウォレット",
+	"wallets_section_multiple_intro": "レジで決済を受けるチームがいる場合、複数の従業員ログインをサポートするウォレットを選びましょう — そうすればすべての従業員が独自の PIN を持ち、誰がどの決済を受けたかの監査証跡をクリーンに保てます。",
+	"wallets_section_online": "オンライン・ビジネス向けウォレット",
+	"wallets_section_online_intro": "ウェブサイトで販売していますか？これらのウォレットはオンラインストアに接続し、世界中どこからでも顧客からビットコインを受け入れられます — チャージバックなし、加盟店アカウント不要。",
+	"wallets_section_invoice": "請求書ベースのビジネス向けウォレット",
+	"wallets_section_invoice_intro": "クライアントに請求書を発行する場合（コンサルティング、フリーランス、B2B サービス）、請求書発行を中心に作られたウォレットを使いましょう。クライアントは数クリックでビットコイン請求書を支払えます。",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business なら、手数料ゼロで即時決済のビットコインと Lightning 決済を受け入れられます。対面、オンライン、請求書ベースの決済をサポートし、現地通貨へのオプションの自動変換も可能です。",
+	"sources_square": "Square — ビットコイン決済を受け入れる",
+	"sources_breez_business": "Breez — ビットコイン専用 Lightning ウォレット",
+	"sources_opennode": "OpenNode — ビットコイン決済処理",
+	"sources_ibex": "IBEX — Lightning 決済インフラ",
+	"sources_zaprite": "Zaprite — ビジネス向けビットコイン請求書発行",
+	"biz_wallets_meta_description": "すべてのビットコイン・ウォレットは相互運用可能です — あなたのビジネスに合うものを選びましょう。無料、即時決済、チャージバックなし。"
 }

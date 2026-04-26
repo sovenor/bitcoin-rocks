@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin je dober za podjetja",
-	"biz_header": "BITCOIN JE DOBER ZA PODJETJA",
+	"business_hero_subtitle": "Sprejemajte plačila z nižjimi provizijami, dobite plačano takoj in pridobite milijone novih strank — brez pogodb in brez skritih stroškov.",
+	"business_intro_c1": "Bitcoin daje vašemu podjetju hitrejši, cenejši in bolj zaseben način, da dobi plačano. Brez posrednikov. Brez chargebackov. Brez pogodb. Le denar, ki se poravna v sekundah, neposredno od stranke do vas.",
+	"business_intro_c2": "Spodaj je kratka različica, zakaj je Bitcoin dober za posel — in pod njo vsak vir, ki ga potrebujete, da ga lahko začnete sprejemati že danes.",
 	"biz_s1": "Nizke provizije brez minimalnih omejitev",
 	"biz_s1_c1": "Bitcoin vam omogoča sprejemanje plačil neposredno od strank, podobno kot gotovina. Omrežje Bitcoin deluje brez posrednikov, kot so banke in podjetja za kreditne kartice, ki zaračunavajo visoke provizije.",
 	"biz_s2": "Takojšnja poravnava",
@@ -18,5 +20,14 @@
 	"biz_s4": "Pridobite več strank",
 	"biz_s4_c1": "Milijoni ljudi imajo Bitcoin in ga želijo porabiti na mestih, ki ga sprejemajo.",
 	"biz_s4_c2": "Samo s sprejemanjem Bitcoina je lahko vaše podjetje uvrščeno na zemljevide trgovcev, ki sprejemajo Bitcoin, in brezplačno pridobi izpostavljenost novim strankam.",
-	"biz_s4_c3": "Sprejemanje Bitcoina je 100 % brezplačno. Brez pogodb ali skritih provizij."
+	"biz_s4_c3": "Sprejemanje Bitcoina je 100 % brezplačno. Brez pogodb ali skritih provizij.",
+	"business_resources_heading": "Vse, kar potrebujete za sprejemanje Bitcoina",
+	"business_resources_intro": "Te vire prehodite v lastnem tempu. Vsak je kratek in praktičen vodnik.",
+	"biz_label_wallets": "DENARNICE",
+	"biz_label_maps": "ZEMLJEVIDI TRGOVCEV",
+	"biz_label_stickers": "NALEPKE",
+	"biz_label_rewards": "NAGRADE",
+	"biz_label_accounting": "RAČUNOVODSTVO",
+	"biz_label_faq": "POGOSTA VPRAŠANJA",
+	"biz_meta_description": "Sprejemajte Bitcoin v svojem podjetju z nižjimi provizijami, takojšnjo poravnavo, brez chargebackov in pridobite več strank."
 }

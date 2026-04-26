@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mga Mapa ng Bitcoin Merchant - Ilista ang iyong negosyo nang libre",
-	"maps_header": "MAGPALISTA SA MGA MAPA NG BITCOIN MERCHANT AT MAKAKUHA NG MAS MARAMING CUSTOMER",
-	"maps_request_details": "Ilagay ang impormasyon ng iyong negosyo sa ibaba at ililista ka namin sa mga mapa ng Bitcoin merchant nang libre. Ito ay magpapahintulot sa mga Bitcoiner na mahanap ang iyong negosyo at gumastos ng kanilang Bitcoin sa iyong negosyo!",
-	"maps_view": "Tingnan ang mapa dito."
+	"maps_view": "Tingnan ang mapa dito.",
+	"biz_maps_hero_title": "Ipalista ang iyong negosyo sa mga Bitcoin merchant map",
+	"biz_maps_hero_subtitle": "Ipalista ang iyong negosyo nang libre sa BTC Map — ang bukas, pandaigdigang directory ng mga merchant na tumatanggap ng Bitcoin — para mahanap ka ng mga Bitcoiner sa malapit at gumastos ng Bitcoin sa iyong negosyo.",
+	"biz_maps_intro_c1": "Aktibong naghahanap ang mga Bitcoiner ng mga lugar na pwedeng pagastusan. Ang pagpapalista ng iyong negosyo sa mapa ay naglalagay sa iyo sa harap ng bawat Bitcoin user na naghahanap ng kainan, tindahan, o tirahan sa malapit — sa walang halaga sa iyo.",
+	"biz_maps_intro_c2": "Punan lang ang maikling form sa ibaba at imimbita namin ang iyong negosyo sa BTC Map at iba pang mga Bitcoin merchant map para sa iyo.",
+	"biz_maps_view_map_cta": "Tingnan ang BTC Map",
+	"biz_maps_form_header": "Sabihin sa amin ang tungkol sa iyong negosyo",
+	"biz_maps_form_intro": "Kakaunting detalye lamang ang kailangan namin upang maipalista ka. Ang datos ng address ay itinatago lamang nang sapat upang mai-submit ang iyong negosyo sa mga mapa.",
+	"biz_maps_placeholder_name": "Pangalan ng negosyo",
+	"biz_maps_placeholder_category": "Kategorya (hal. restawran, café, hotel)",
+	"biz_maps_placeholder_address": "Address ng kalye",
+	"biz_maps_placeholder_city": "Lungsod",
+	"biz_maps_placeholder_region": "Estado / Probinsya / Rehiyon",
+	"biz_maps_placeholder_country": "Bansa",
+	"biz_maps_placeholder_website": "Website (opsyonal)",
+	"biz_maps_meta_description": "Ipalista ang iyong negosyo nang libre sa BTC Map at iba pang mga Bitcoin merchant map para mahanap ka ng mga Bitcoiner sa malapit."
 }

@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "eu"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Higiezinak",
-	"real_estate_header": "ARTEKO ALDEA",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "ETA",
-	"real_estate_header_4": "HIGIEZINAK",
 	"real_estate_intro_1": "Higiezinak hamarkadetan zehar inbertsio ezagun bat izan dira eta askotan balio-gordailu egonkor gisa ikusten dira.",
 	"real_estate_intro_2": "Bitcoin 2009an sortutako diru digitala da eta askok balio-gordailu eta inbertsio gisa ere ikusten dute.",
 	"real_estate_intro_3": "Baina nola desberdintzen da jabetza fisikoa Bitcoin bezalako diru digital batetik? Ikus ditzagun bi inbertsio-forma hauen arteko desberdintasunak: Bitcoin eta Higiezinak.",
@@ -32,15 +28,16 @@
 	"bitcoin_point_6": "Zaila suntsitzeko",
 	"bitcoin_point_7": "Guztiz fungiblea",
 	"bitcoin_point_8": "24/7 mundu-mailako merkatua",
-	"point_1_summary_1": "Bitcoin mundu osoan berehala mugi daiteke Interneten bidez. Higiezinak betirako kokapen zehatz bati lotuta daude eta ezin dira lekuz aldatu, tokiko baldintza ekonomikoen, hondamendi naturalen eta ezegonkortasun politikoaren aurrean ahul bihurtuz.",
-	"point_2_summary_1": "Bitcoin 100 milioi unitate txikiagotan zati daiteke, satoshi deitzen direnak, edozein tamainako transakzioetarako ezin hobea bihurtuz. Higiezinak ezin dira erraz zatitu - ezin duzu zure etxeko sukaldea soilik saldu edo logela erdi bat bakarrik erosi.",
-	"point_3_summary_1": "Bitcoin inork kontrolatu ezin duen sare deszentralizatu batean funtzionatzen du. Higiezinak gobernu-erregulazio zabalaren menpe daude, alokairu-kontrola, desahutze-moratoriak, zonifikazio-legeak eta jabari eminentea barne, non gobernuek zure jabetza konfiskatu dezaketen.",
-	"point_4_summary_1": "Bitcoin-ek ez du mantentzerik behar - sare bateko kode digital gisa existitzen da. Higiezinek etengabeko mantentzea behar dute, konponketak, berritzeak, jabetza-kudeaketa, asegurua eta alokatuz gero maizterrekin aurre egitea barne.",
-	"point_5_summary_1": "Bitcoin-ek ez du zerga jarraiturik - kapital-irabazien zerga soilik ordaintzen duzu saltzen duzunean. Higiezinak urtero jabetza-zergak ordaindu behar dira, jabetzak diru-sarrerak sortzen dituen ala ez axola gabe, betirako gobernuari zure jabetza alokatzen ari zarela eraginez.",
-	"point_6_summary_1": "Bitcoin-a, behar bezala babeskopiatuta dagoenean, ezin da uholdeen, suteen, lurrikaren, urakanen edo beste hondamendi naturalen bidez suntsitu. Higiezinak suntsiketa fisikoaren forma guztien aurrean ahulak dira eta aseguru garestia behar dute, galerak guztiz estali ez dezakeena.",
-	"point_7_summary_1": "Bitcoin bakoitza identikoa eta trukagarria da - bitcoin bat mundu osoan bitcoin bat da. Higiezin bakoitza bakarra da kokapen, egoera eta ezaugarri desberdinekin, jabetzak preziatzea eta konparatzea zaila bihurtuz.",
-	"point_8_summary_1": "Bitcoin mundu osoan 24/7 erosi eta sal daiteke Internet sarbidea duen edonork. Higiezinen salmentak tokiko erosleei mugatuta daude, prozesu luzeak behar dituzte abokatu eta agenteekin, eta hilabeteak behar ditzakete osatzeko.",
+	"point_1_summary_1": "Bitcoin istantean mugitzen da mundu osoan. Higiezinak kokapen zehatz batera lotuta daude eta arrisku ekonomiko, politiko eta ingurumenekoen aurrean zabalik.",
+	"point_2_summary_1": "Bitcoin 100 milioi satoshitan zati daiteke. Higiezinak ezin dira partzialki saldu — ezin duzu sukaldea saldu edo logela erdia erosi.",
+	"point_3_summary_1": "Bitcoinek sare deszentralizatu batean funtzionatzen du, ezein gobernuk kontrola ezin duena. Higiezinak oso erregulatuta daude — zonifikazioa, alokairuaren kontrola, nahitaezko desjabetzea eta konfiskazioa, guztiak aplikagarri dira.",
+	"point_4_summary_1": "Bitcoinek ez du mantenurik behar. Higiezinek konponketak, berritzeak, aseguruak, jabetza-kudeaketa eta maizterren arazoak behar dituzte.",
+	"point_5_summary_1": "Bitcoin ez dago etengabe zergapetuta — kapital-irabazien zergak saltzerakoan bakarrik ordaindu behar dira. Higiezinek urteroko jabetza-zergak ordaindu behar dira, diru-sarreraren berri gabe.",
+	"point_6_summary_1": "Ongi babesturiko Bitcoinek suteak, uholdeak eta lurrikarak gainditzen ditu. Higiezinak hondamendi guztien aurrean ahulak dira eta aseguruak gutxitan estaltzen du dena.",
+	"point_7_summary_1": "Bitcoin bakoitza berdina eta trukagarria da. Higiezin bakoitza berezia da, prezioa eta alderaketa zailduz.",
+	"point_8_summary_1": "Bitcoinek globalki 24/7 merkataritza egiten du Interneteko konexioa duen edonorentzat. Higiezinen salmentak tokiko erosleei mugatuta daude eta hilabeteak iraun ditzakete paperak ixteko.",
 	"bitcoin_point_9": "Banakako jabetza sustatzen du",
 	"real_estate_point_9": "Etxebizitzaren finantzarizazioari laguntzen dio",
-	"point_9_summary_1": "Bitcoin-ek bitartekariak gabeko banakako jabetza zuzena ahalbidetzen du, guztientzako finantza-subiranotasuna sustatuz. Zure etxebizitza nagusitik haratago inbertsio gisa higiezinak erosteak etxebizitzaren finantzarizazioari laguntzen dio, etxeak ondasun gisa tratatuz aterpea baino. Honek prezioak igotzen ditu, familientzako irisgarritasuna murrizten du eta gaur egun herrialde askori eragiten dien etxebizitza eta etxerik gabeko krisian laguntzen du."
+	"point_9_summary_1": "Bitcoinek norbanako bakoitzari jabetza indibidual zuzena ahalbidetzen dio. Higiezinak inbertsio gisa erostea, bizileku nagusiaz gain, etxebizitzen prezioak igotzen ditu, eskuragarritasuna murrizten du eta etxebizitza-krisia sortzen du.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> eta <span class=\"asset\">higiezinen</span> arteko aldea"
 }

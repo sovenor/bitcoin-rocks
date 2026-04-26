@@ -1,0 +1,64 @@
+{
+	"lang": "sv",
+	"generatedAt": "2026-04-25T21:36:45.792Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
+	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerMatches": true,
+	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
+	"markerAppliedAt": "2026-04-25T21:36:22.811Z",
+	"namespaceFilter": null,
+	"stats": {
+		"totalEnglishKeys": 1852,
+		"missing": 0,
+		"untranslated": 4,
+		"manifestChanged": 0,
+		"manifestAdded": 0,
+		"manifestAlreadyPresentInTarget": 0,
+		"manifestSkippedByMarker": 557,
+		"upToDate": 1190,
+		"brandIdentical": 101
+	},
+	"entries": [
+		{
+			"namespace": "bitcoin-vs-visa",
+			"key": "bitcoin_point_3",
+			"reason": "untranslated",
+			"englishValue": "Transparent system",
+			"currentValue": "Transparent system",
+			"targetTranslation": "Granskbart system"
+		},
+		{
+			"namespace": "buy",
+			"key": "buy_platform_feature_p2p",
+			"reason": "untranslated",
+			"englishValue": "Peer-to-peer",
+			"currentValue": "Peer-to-peer",
+			"targetTranslation": "Peer-till-peer"
+		},
+		{
+			"namespace": "common",
+			"key": "common_sticker_files_mission_3",
+			"reason": "untranslated",
+			"englishValue": "inflation",
+			"currentValue": "inflation",
+			"targetTranslation": "inflationen"
+		},
+		{
+			"namespace": "common",
+			"key": "common_stickers_material",
+			"reason": "untranslated",
+			"englishValue": "Material:",
+			"currentValue": "Material:",
+			"targetTranslation": "Materialtyp:"
+		}
+	],
+	"appliedAt": "2026-04-25T21:38:01.727Z",
+	"appliedStats": {
+		"resolved": 4,
+		"unresolved": 0,
+		"filesTouched": 3,
+		"keysWritten": 4,
+		"filesCreated": 0,
+		"markerWritten": false
+	}
+}

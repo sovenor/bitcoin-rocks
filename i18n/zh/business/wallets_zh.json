@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"how_to_accept_bitcoin_payments": "如何接受比特币付款",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "混合钱包：",
 	"wallets_intro_5": "这些钱包允许您在客户付款后，将任意比例的比特币兑换为美元。费用仍然低于信用卡，但高于纯比特币付款。",
 	"wallets_intro_6": "两种类型都是接受比特币的好方法。具体使用哪种钱包取决于您企业的规模和类型。",
-	"wallets_choice_sole": "适合个体经营者的钱包",
-	"wallets_choice_multiple": "适合有多名员工的企业的钱包",
-	"wallets_choice_online": "适合在线企业的钱包",
-	"wallets_choice_invoice": "适合开发票企业的钱包",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "自托管 = 0%手续费",
 	"wallets_feature_online_store": "在线商店集成",
 	"wallets_feature_invoicing": "免费发票软件",
-	"wallets_get_wallet": "获取钱包"
+	"wallets_get_wallet": "获取钱包",
+	"wallets_hero_subtitle": "比特币钱包是免费的。挑一个适合您企业的——线下、线上或基于发票——几分钟内就能开始接受比特币。",
+	"wallets_section_sole": "面向个体经营企业的钱包",
+	"wallets_section_sole_intro": "如果您一个人经营一家店、咖啡馆、工作室或服务，下面这些钱包都可以用。根据您是想保留比特币还是把每笔款的一部分自动换成本地货币来选。",
+	"wallets_section_multiple": "面向多员工企业的钱包",
+	"wallets_section_multiple_intro": "如果您有团队在收银台收款，就选一个支持多员工登录的钱包——这样每个员工都有自己的 PIN，您也能保留一份谁收了哪笔款的清晰审计记录。",
+	"wallets_section_online": "面向线上企业的钱包",
+	"wallets_section_online_intro": "在网站上销售？这些钱包可以接入您的线上商店，从世界任何地方的客户那里接受比特币——没有退单，也不需要商户账户。",
+	"wallets_section_invoice": "面向开票型企业的钱包",
+	"wallets_section_invoice_intro": "如果您给客户开发票（咨询、自由职业、B2B 服务），就用一个围绕开票设计的钱包。您的客户只需点几下就能支付一张比特币发票。",
+	"wallets_name_strike": "STRIKE 商务版",
+	"wallets_strike_note": "Strike 商务版让您接受比特币和闪电网络支付，零手续费、即时结算。支持线下、线上和基于发票的支付，可选自动换成本地货币。",
+	"sources_square": "Square —— 接受比特币支付",
+	"sources_breez_business": "Breez —— 仅限比特币的闪电网络钱包",
+	"sources_opennode": "OpenNode —— 比特币支付处理商",
+	"sources_ibex": "IBEX —— 闪电网络支付基础设施",
+	"sources_zaprite": "Zaprite —— 面向企业的比特币开票工具",
+	"biz_wallets_meta_description": "所有比特币钱包都可互通——选一个适合您企业的就行。免费、即时结算、没有退单。"
 }

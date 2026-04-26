@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"cic_header": "Kalkulator Inflasi Kompaun",
 	"cic_description": "Gunakan kalkulator inflasi kompaun ini untuk melihat berapa banyak gaji anda perlu dinaikkan untuk mengikuti inflasi.",
-	"what_can_i_do_about": "Apa yang boleh saya lakukan tentang",
-	"what_can_i_do_about_2": "inflasi?",
-	"cic_inflation_cta": "Keluar daripada inflasi dengan Bitcoin"
+	"cic_hero_subtitle": "Lihat berapa banyak gaji anda perlu meningkat untuk mengimbangi inflasi.",
+	"cic_calculator_heading": "Kira jurang inflasi anda",
+	"cic_cta_label": "Langkah seterusnya",
+	"cic_inflation_cta": "Keluar daripada inflasi dengan Bitcoin",
+	"cic_next_learn_inflation": "Ketahui cara inflasi berfungsi",
+	"cic_next_explore_topics": "Terokai lebih banyak topik",
+	"cic_next_explore_topics_desc": "Lihat bagaimana Bitcoin berhubung dengan wang, kebebasan, tenaga, dan banyak lagi.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Consumer Price Index for All Urban Consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 Money Supply"
 }

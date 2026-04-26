@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
-	"sticker_language_timeline": "ניצור והדפסת קבצי המדבקות שלכם ייקחו 3 עד 4 שבועות. תודה על הסבלנות!"
+	"biz_sticker_language_success_hero_title": "הבקשה התקבלה 🎉",
+	"biz_sticker_language_success_hero_subtitle": "תודה שביקשת קבצי מדבקות \"מקבלים כאן ביטקוין\" בשפה שלך.",
+	"biz_sticker_language_success_timeline_header": "מה הצעד הבא",
+	"biz_sticker_language_success_timeline_c1": "אנחנו ניצור ונפרסם את קבצי המדבקות שלך תוך 3-4 שבועות. כשהם יהיו מוכנים, תוכל להוריד אותם בחינם להדפסה מדף קבצי המדבקות שלנו.",
+	"biz_sticker_language_success_timeline_c2": "אנחנו מפרסמים קבצי מדבקות במנות, אז זה עשוי לקחת כמה שבועות עד שהשפה שלך תופעל. תודה על הסבלנות!"
 }

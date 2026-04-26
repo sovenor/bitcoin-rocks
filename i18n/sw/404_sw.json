@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"404_title": "Kosa 404 | Ukurasa Haupatikani",
-	"404_message": "UKURASA HUU WA KOSA HAUPENDEZI HATA KIDOGO",
-	"404_home": "RUDI NYUMBANI"
+	"404_message": "Bitcoin inafurahisha, lakini ukurasa huu uliovunjika hauna furaha.",
+	"404_home": "Rudi nyumbani",
+	"404_not_found_short": "Haijapatikana"
 }

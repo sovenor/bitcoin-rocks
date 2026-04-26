@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs Arte",
-	"fine_art_header": "LA DIFERENCIA ENTRE",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "Y",
-	"fine_art_header_4": "ARTE",
 	"fine_art_intro_1": "El arte ha sido una inversión de lujo durante siglos y a menudo es visto como una reserva de valor por coleccionistas adinerados.",
 	"fine_art_intro_2": "Bitcoin es dinero digital creado en 2009 y también es visto por muchos como una reserva de valor e inversión.",
 	"fine_art_intro_3": "¿Pero cómo difieren las obras de arte físicas del dinero digital como Bitcoin? Echemos un vistazo a las diferencias entre dos formas de inversión: Bitcoin y Arte.",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Criptográficamente verificable",
 	"bitcoin_point_6": "Difícil de destruir",
 	"bitcoin_point_7": "Accesible para todos",
-	"point_1_summary_1": "Bitcoin es perfectamente fungible, lo que significa que cada bitcoin es idéntico e intercambiable - un bitcoin equivale a un bitcoin en cualquier parte del mundo. El arte es no fungible por naturaleza, con cada pieza siendo única en su creación, historia, condición y procedencia, haciendo que las comparaciones directas y valoraciones sean extremadamente difíciles.",
-	"point_2_summary_1": "Bitcoin se negocia en un mercado global 24/7 donde cualquier persona con acceso a internet puede comprar o vender instantáneamente. El arte requiere casas de subastas especializadas como Sotheby's o Christie's, comerciantes privados o galerías exclusivas. Las ventas pueden tomar meses para organizarse y completarse, con acceso limitado al mercado y oportunidades de comercio irregulares.",
-	"point_3_summary_1": "Las transacciones de Bitcoin típicamente cuestan menos del 1% en comisiones, a menudo mucho menos. Las ventas de arte involucran costos sustanciales incluyendo primas del comprador (10-25%), comisiones del vendedor (10-15%), seguro, transporte, almacenamiento y tarifas de autenticación. Estos costos combinados pueden fácilmente exceder el 30-40% del valor de la obra de arte en una sola transacción.",
-	"point_4_summary_1": "Bitcoin puede dividirse en 100 millones de unidades más pequeñas llamadas satoshis, haciéndolo perfecto para transacciones de cualquier tamaño desde microtransacciones hasta grandes compras. El arte no puede dividirse - no puedes poseer una fracción de una pintura o vender solo parte de una escultura. Esta indivisibilidad limita la flexibilidad de inversión y las opciones de liquidez.",
-	"point_5_summary_1": "La propiedad y autenticidad de Bitcoin puede verificarse criptográficamente en la blockchain por cualquier persona con conocimientos técnicos básicos. El arte requiere autenticación experta costosa, investigación de procedencia y análisis científico. Incluso con verificación experta, las falsificaciones regularmente engañan al mundo del arte, y las disputas de autenticación pueden destruir el valor de una obra de arte de la noche a la mañana.",
-	"point_6_summary_1": "Bitcoin, cuando se respalda adecuadamente, no puede ser destruido por inundaciones, incendios, terremotos, huracanes, robo u otros desastres. El arte es vulnerable a todas las formas de destrucción física y deterioro. Incluso con almacenamiento costoso con clima controlado y seguro integral, las obras de arte pueden dañarse por factores ambientales, accidentes o desastres naturales, perdiendo potencialmente todo su valor.",
-	"point_7_summary_1": "Bitcoin puede ser comprado y vendido por cualquier persona con acceso a internet y una pequeña cantidad de dinero para invertir. La inversión en arte está en gran medida limitada a coleccionistas adinerados debido a los altos precios mínimos, acceso exclusivo a subastas, requisitos de almacenamiento, costos de seguro y el conocimiento especializado necesario para navegar exitosamente en el mercado del arte."
+	"point_1_summary_1": "Cada bitcoin es idéntico e intercambiable. Cada obra de arte es única — diferente procedencia, historia, condición y linaje hacen que la comparación directa sea extremadamente difícil.",
+	"point_2_summary_1": "Bitcoin se negocia 24/7 en un mercado global accesible para todos. Las bellas artes requieren casas de subastas especializadas, marchantes privados o galerías, y las ventas pueden tardar meses.",
+	"point_3_summary_1": "Comprar o vender Bitcoin cuesta menos del 1 % en comisiones, a menudo mucho menos. Las ventas de arte acumulan un 30-40 % en primas del comprador, comisiones, seguros, transporte y tasas de autenticación.",
+	"point_4_summary_1": "Bitcoin se puede dividir en 100 millones de satoshis, lo que lo hace ideal para transacciones de cualquier tamaño. No puedes poseer parte de un cuadro o una esquina de una escultura sin riesgo de contraparte.",
+	"point_5_summary_1": "La propiedad y autenticidad de Bitcoin pueden verificarse criptográficamente por cualquiera en la blockchain. La autenticación del arte es cara, lenta y regularmente engañada por falsificadores — destruyendo el valor de una obra de la noche a la mañana.",
+	"point_6_summary_1": "Bitcoin correctamente respaldado sobrevive a inundaciones, incendios, terremotos y robos. Las bellas artes son vulnerables a todo tipo de desastre físico, y los seguros rara vez cubren todo.",
+	"point_7_summary_1": "Cualquiera con conexión a internet y un poco de dinero puede comprar Bitcoin. La inversión en arte se limita en la práctica a coleccionistas adinerados con acceso a subastas y conocimientos especializados.",
+	"hero_title": "La diferencia entre <span class=\"orange\">Bitcoin</span> y las <span class=\"asset\">bellas artes</span>"
 }

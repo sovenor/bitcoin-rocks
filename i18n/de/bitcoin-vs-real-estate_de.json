@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs Immobilien",
-	"real_estate_header": "DER UNTERSCHIED ZWISCHEN",
-	"real_estate_header_2": "BITCOIN",
-	"real_estate_header_3": "UND",
-	"real_estate_header_4": "IMMOBILIEN",
 	"real_estate_intro_1": "Immobilien sind seit Jahrzehnten eine beliebte Investition und gelten oft als stabiler Wertspeicher.",
 	"real_estate_intro_2": "Bitcoin ist digitales Geld, das 2009 geschaffen wurde und von vielen auch als Wertspeicher und Investition angesehen wird.",
 	"real_estate_intro_3": "Aber wie unterscheiden sich physische Immobilien von digitalem Geld wie Bitcoin? Schauen wir uns die Unterschiede zwischen zwei Anlageformen an: Bitcoin & Immobilien.",
@@ -32,15 +28,16 @@
 	"bitcoin_point_6": "Schwer zu zerstören",
 	"bitcoin_point_7": "Perfekt fungibel",
 	"bitcoin_point_8": "Globaler 24/7-Markt",
-	"point_1_summary_1": "Bitcoin kann sofort überall auf der Welt über das Internet bewegt werden. Immobilien sind dauerhaft an einen bestimmten Ort gebunden und können nicht verlegt werden, was sie anfällig für lokale Wirtschaftsbedingungen, Naturkatastrophen und politische Instabilität macht.",
-	"point_2_summary_1": "Bitcoin kann in 100 Millionen kleinere Einheiten namens Satoshis unterteilt werden, was es perfekt für Transaktionen jeder Größe macht. Immobilien können nicht einfach geteilt werden - man kann nicht nur die Küche seines Hauses verkaufen oder ein halbes Schlafzimmer kaufen.",
-	"point_3_summary_1": "Bitcoin funktioniert in einem dezentralen Netzwerk, das keine Regierung kontrollieren kann. Immobilien unterliegen umfangreichen staatlichen Regulierungen einschließlich Mietpreisbremsen, Räumungsmoratorien, Bebauungsvorschriften und Enteignungen, bei denen Regierungen dein Eigentum beschlagnahmen können.",
-	"point_4_summary_1": "Bitcoin erfordert keine Wartung - es existiert als digitaler Code in einem Netzwerk. Immobilien erfordern ständige Instandhaltung einschließlich Reparaturen, Renovierungen, Immobilienverwaltung, Versicherungen und den Umgang mit Mietern bei Vermietung.",
-	"point_5_summary_1": "Bitcoin hat keine laufenden Steuern - Sie zahlen nur Kapitalertragssteuern beim Verkauf. Immobilien unterliegen jährlichen Grundsteuern, die unabhängig davon gezahlt werden müssen, ob die Immobilie Einkommen generiert, was Sie effektiv dazu zwingt, Ihr eigenes Eigentum für immer von der Regierung zu mieten.",
-	"point_6_summary_1": "Bitcoin kann, wenn es ordnungsgemäß gesichert ist, nicht durch Überschwemmungen, Brände, Erdbeben, Hurrikane oder andere Naturkatastrophen zerstört werden. Immobilien sind anfällig für alle Formen physischer Zerstörung und erfordern teure Versicherungen, die möglicherweise nicht alle Verluste abdecken.",
-	"point_7_summary_1": "Jeder Bitcoin ist identisch und austauschbar - ein Bitcoin entspricht überall auf der Welt einem Bitcoin. Jede Immobilie ist einzigartig mit unterschiedlichen Standorten, Zuständen und Eigenschaften, was es schwierig macht, Immobilien zu bewerten und zu vergleichen.",
-	"point_8_summary_1": "Bitcoin kann 24/7 von jedem mit Internetzugang überall auf der Welt gekauft und verkauft werden. Immobilienverkäufe sind auf lokale Käufer beschränkt, erfordern langwierige Prozesse mit Anwälten und Maklern und können Monate dauern.",
+	"point_1_summary_1": "Bitcoin bewegt sich sofort überall auf der Welt hin. Immobilien sind an einen Ort gebunden und lokalen wirtschaftlichen, politischen und natürlichen Risiken ausgesetzt.",
+	"point_2_summary_1": "Bitcoin ist in 100 Millionen Satoshis teilbar. Eine Immobilie kann nicht teilweise verkauft werden — Du kannst nicht nur die Küche verkaufen oder ein halbes Schlafzimmer kaufen.",
+	"point_3_summary_1": "Bitcoin läuft auf einem dezentralen Netzwerk, das keine Regierung kontrollieren kann. Immobilien sind stark reguliert — Zonierung, Mietpreisbremsen, Enteignung und Beschlagnahmung greifen alle.",
+	"point_4_summary_1": "Bitcoin erfordert keine Wartung. Immobilien erfordern Reparaturen, Renovierungen, Versicherungen, Verwaltung und den Umgang mit Mieterproblemen.",
+	"point_5_summary_1": "Bitcoin unterliegt keinen laufenden Steuern — Kapitalertragssteuer zahlst Du nur beim Verkauf. Auf Immobilien zahlst Du jährlich Grundsteuer, unabhängig vom Einkommen.",
+	"point_6_summary_1": "Richtig gesicherter Bitcoin übersteht Feuer, Hochwasser und Erdbeben. Immobilien sind jeder Katastrophe ausgesetzt, und Versicherungen decken selten alles ab.",
+	"point_7_summary_1": "Jeder Bitcoin ist identisch und austauschbar. Jede Immobilie ist einzigartig, was Bewertungen und Vergleiche erschwert.",
+	"point_8_summary_1": "Bitcoin wird 24/7 global für jeden mit Internetzugang gehandelt. Immobilienverkäufe sind auf lokale Käufer beschränkt und der Abschluss kann Monate mit Papierkram dauern.",
 	"bitcoin_point_9": "Fördert individuelles Eigentum",
 	"real_estate_point_9": "Trägt zur Wohnungsfinanzialisierung bei",
-	"point_9_summary_1": "Bitcoin ermöglicht direktes individuelles Eigentum ohne Zwischenhändler und fördert finanzielle Souveränität für alle. Der Kauf von Immobilien als Investition über den Hauptwohnsitz hinaus trägt zur Finanzialisierung des Wohnens bei und behandelt Häuser als Waren statt als Schutzraum. Dies treibt die Preise in die Höhe, reduziert die Erschwinglichkeit für Familien und trägt zur Wohnungs- und Obdachlosigkeitskrise bei, die heute viele Länder betrifft."
+	"point_9_summary_1": "Bitcoin erlaubt direkten Einzelbesitz für jedermann. Der Kauf von Immobilien als Investment über den Eigenbedarf hinaus treibt Wohnpreise hoch, senkt die Bezahlbarkeit und befeuert Wohnkrisen.",
+	"hero_title": "Der Unterschied zwischen <span class=\"orange\">Bitcoin</span> und <span class=\"asset\">Immobilien</span>"
 }

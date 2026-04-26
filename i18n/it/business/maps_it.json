@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mappe Commercianti Bitcoin - Elenca la tua attività gratuitamente",
-	"maps_header": "FATTI ELENCARE SULLE MAPPE DEI COMMERCIANTI BITCOIN E OTTIENI PIÙ CLIENTI",
-	"maps_request_details": "Inserisci le informazioni della tua attività qui sotto e ti elencheremo sulle mappe dei commercianti Bitcoin gratuitamente. Questo permetterà ai Bitcoiner di trovare la tua attività e spendere i loro Bitcoin da te!",
-	"maps_view": "Vedi la mappa qui."
+	"maps_view": "Vedi la mappa qui.",
+	"biz_maps_hero_title": "Aggiungi la tua attività alla mappa dei commercianti Bitcoin",
+	"biz_maps_hero_subtitle": "Registra gratuitamente la tua attività su BTC Map — la directory aperta dei commercianti che accettano Bitcoin in tutto il mondo — così i Bitcoiner vicini possono trovarti e spendere Bitcoin nella tua attività.",
+	"biz_maps_intro_c1": "I Bitcoiner cercano attivamente posti dove spendere. Mettere la tua attività sulla mappa ti mette davanti a ogni utente Bitcoin che cerca un posto dove mangiare, fare acquisti o pernottare nelle vicinanze — senza alcun costo per te.",
+	"biz_maps_intro_c2": "Compila il modulo breve qui sotto e invieremo noi la tua attività a BTC Map e ad altre mappe di commercianti Bitcoin per te.",
+	"biz_maps_view_map_cta": "Visualizza BTC Map",
+	"biz_maps_form_header": "Parlaci della tua attività",
+	"biz_maps_form_intro": "Ci servono solo alcuni dettagli per registrarti. I dati dell'indirizzo vengono conservati solo abbastanza a lungo per inviare la tua attività alla mappa.",
+	"biz_maps_placeholder_name": "Nome dell'attività",
+	"biz_maps_placeholder_category": "Categoria (es. ristorante, caffè, hotel)",
+	"biz_maps_placeholder_address": "Indirizzo",
+	"biz_maps_placeholder_city": "Città",
+	"biz_maps_placeholder_region": "Provincia / Regione",
+	"biz_maps_placeholder_country": "Paese",
+	"biz_maps_placeholder_website": "Sito web (opzionale)",
+	"biz_maps_meta_description": "Registra gratuitamente la tua attività su BTC Map e altre mappe di commercianti Bitcoin così i Bitcoiner vicini possono trovarti."
 }

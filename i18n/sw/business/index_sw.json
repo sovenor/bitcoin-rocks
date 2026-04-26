@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin ni nzuri kwa biashara",
-	"biz_header": "BITCOIN NI NZURI KWA BIASHARA",
+	"business_hero_subtitle": "Kubali malipo kwa ada za chini, lipa papo hapo, na ufikie mamilioni ya wateja wapya — bila mikataba na bila gharama zilizofichwa.",
+	"business_intro_c1": "Bitcoin huipa biashara yako njia ya haraka, ya bei nafuu, na ya faragha zaidi ya kupokea malipo. Hakuna wasuluhishi. Hakuna kurudisha malipo. Hakuna mikataba. Pesa tu zinazokaa ndani ya sekunde, moja kwa moja kutoka kwa wateja wako kwako.",
+	"business_intro_c2": "Hapa chini ni toleo fupi la kwa nini Bitcoin ni nzuri kwa biashara — na chini yake, kila nyenzo unayohitaji kuanza kukubali leo.",
 	"biz_s1": "Ada ndogo bila kima cha chini",
 	"biz_s1_c1": "Bitcoin inakuwezesha kupokea malipo moja kwa moja kutoka kwa wateja wako, kama vile fedha taslimu. Mtandao wa Bitcoin unafanya kazi bila wasuluhishi kama benki na makampuni ya kadi za mkopo ambayo yanachukua ada kubwa.",
 	"biz_s2": "Malipo ya papo hapo",
@@ -18,5 +20,14 @@
 	"biz_s4": "Pata wateja zaidi",
 	"biz_s4_c1": "Mamilioni ya watu wanamiliki Bitcoin na wanataka kutumia Bitcoin yao mahali panapokubali.",
 	"biz_s4_c2": "Kwa kukubali tu Bitcoin, biashara yako inaweza kuorodheshwa kwenye ramani za wafanyabiashara wa Bitcoin na kupata uonekano wa bure kwa wateja wapya wa Bitcoin.",
-	"biz_s4_c3": "Kukubali Bitcoin ni bure 100%. Hakuna mikataba au ada zilizofichwa."
+	"biz_s4_c3": "Kukubali Bitcoin ni bure 100%. Hakuna mikataba au ada zilizofichwa.",
+	"business_resources_heading": "Kila kitu unachohitaji kukubali Bitcoin",
+	"business_resources_intro": "Pitia nyenzo hizi kwa kasi yako mwenyewe. Kila moja ni mwongozo mfupi, wa vitendo.",
+	"biz_label_wallets": "POCHI",
+	"biz_label_maps": "RAMANI ZA WAFANYABIASHARA",
+	"biz_label_stickers": "STIKA",
+	"biz_label_rewards": "ZAWADI",
+	"biz_label_accounting": "UHASIBU",
+	"biz_label_faq": "MASWALI YA MARA KWA MARA",
+	"biz_meta_description": "Kubali Bitcoin katika biashara yako kwa ada za chini, makazi ya papo hapo, hakuna kurudisha malipo, na wateja zaidi."
 }

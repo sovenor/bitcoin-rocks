@@ -3,8 +3,12 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2025-03-05",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
-	"sticker_language_timeline": "Kami akan membuat dan menerbitkan file stiker Anda dalam 3 hingga 4 minggu. Terima kasih atas kesabaran Anda!"
+	"biz_sticker_language_success_hero_title": "Permintaan diterima 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Terima kasih telah meminta file stiker 'Bitcoin Diterima di Sini' dalam bahasa Anda.",
+	"biz_sticker_language_success_timeline_header": "Apa yang terjadi selanjutnya",
+	"biz_sticker_language_success_timeline_c1": "Kami akan membuat dan mempublikasikan file stiker Anda dalam 3 hingga 4 minggu. Setelah siap, Anda akan dapat mengunduh dan mencetaknya gratis dari halaman file stiker kami.",
+	"biz_sticker_language_success_timeline_c2": "File stiker dirilis dalam batch, jadi mungkin perlu beberapa minggu untuk bahasa Anda agar aktif. Terima kasih atas kesabaran Anda!"
 }

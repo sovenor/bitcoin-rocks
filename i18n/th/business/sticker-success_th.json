@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
-	"sticker_success_details": "คุณจะได้รับสติกเกอร์ภายใน 1 ถึง 2 สัปดาห์ในซองสีขาวธรรมดา แต่ละซองมีสติกเกอร์ 3 ชิ้น หากคุณต้องการสติกเกอร์สำหรับธุรกิจของคุณมากกว่า 3 ชิ้น คุณสามารถขอชุดใหม่ได้!"
+	"biz_sticker_success_hero_title": "สติกเกอร์ของคุณกำลังจัดส่ง 🎉",
+	"biz_sticker_success_hero_subtitle": "คุณจะได้รับสติกเกอร์ 'Bitcoin Accepted Here' ฟรีภายใน 2 ถึง 4 สัปดาห์ ในซองสีขาวธรรมดาพร้อมสติกเกอร์ 3 แผ่น",
+	"biz_sticker_success_tips_header": "จุดที่ดีในการติดสติกเกอร์ของคุณ",
+	"biz_sticker_success_tip_1": "บนประตูหน้าหรือกระจกหน้าร้าน เพื่อให้ลูกค้าเห็นก่อนเดินเข้าร้าน",
+	"biz_sticker_success_tip_2": "ใกล้เคาน์เตอร์ชำระเงิน เครื่อง POS หรือพื้นที่ชำระเงิน",
+	"biz_sticker_success_tip_3": "บนเมนู รายการราคา หรือกระปุกทิป",
+	"biz_sticker_success_tip_4": "ห้ามติดในที่ที่คุณไม่ได้เป็นเจ้าของหรือไม่ได้รับอนุญาต",
+	"biz_sticker_success_more_header": "ต้องการสติกเกอร์เพิ่ม?",
+	"biz_sticker_success_more_c1": "หาก 3 แผ่นไม่พอสำหรับธุรกิจของคุณ ขอแพ็กฟรีอีกแพ็กได้ — หรือสั่งจำนวนมากจากผู้พิมพ์รายเดียวกับที่เราใช้",
+	"biz_sticker_success_btn_order_bulk": "สั่งจำนวนมาก",
+	"biz_sticker_success_btn_request_more": "ขอแพ็กฟรีอีกแพ็ก"
 }

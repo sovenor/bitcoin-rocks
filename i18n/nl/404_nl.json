@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-25",
 		"locale": "nl"
 	},
 	"404_title": "404 Fout | Pagina Niet Gevonden",
-	"404_message": "DEZE KAPOTTE PAGINA ROCKT NIET",
-	"404_home": "GA TERUG NAAR HOME"
+	"404_message": "Bitcoin is geweldig, maar deze kapotte pagina niet.",
+	"404_home": "Terug naar de homepage",
+	"404_not_found_short": "Niet gevonden"
 }

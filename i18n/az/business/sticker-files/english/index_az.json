@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "İngiliscə 'Burada Bitcoin Qəbul Edilir' Etiket Faylları",
-	"english_biz_sticker_files_description": "Öz 'Burada Bitcoin Qəbul Edilir' etiketlərini çap etmək üçün ingiliscə etiket fayllarını endirin.",
-	"english_header": "İNGİLİSCƏ 'BURADA BITCOIN QƏBUL EDİLİR' ETİKET FAYLLARINI ENDİRİN"
+	"english_biz_sticker_files_description": "Öz \"Bitcoin qəbul olunur\" stikerlərinizi çap etmək üçün ingilis dilində stiker fayllarını endirin.",
+	"biz_stickers_english_hero_title": "İngilis dilində \"Bitcoin qəbul olunur\" stiker fayllarını endirin",
+	"biz_stickers_english_hero_subtitle": "Müştərilərinizə Bitcoin qəbul etdiyinizi bildirmək üçün öz \"Bitcoin qəbul olunur\" stikerlərinizi ingilis dilində çap edin."
 }

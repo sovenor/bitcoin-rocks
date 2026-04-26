@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
 	"bitcoin_wallet_guide": "מדריך ארנקי ביטקוין",
 	"wallets_description": "יש ארנקי ביטקוין רבים ושונים שנבדלים בדרכים חשובות. אתה יכול לקבוע אם ארנק מתאים לך על ידי שאלת שאלות פשוטות אלה.",
 	"wallets_header": "איך לאחסן את הביטקוין שלך בבטחה",
+	"wallets_header_subtitle": "מדריך צעד אחר צעד לבחירת ארנק, גיבוי המפתחות שלך ולקיחת שליטה מלאה על הביטקוין שלך.",
 	"wallets_s1_c1": "ארנקי ביטקוין הם אינטראופרביליים, כך שאתה יכול לשלוח ביטקוין לכל אחד ללא קשר לארנק שהוא משתמש בו.",
 	"wallets_s1_c2": "יש ארנקי ביטקוין רבים ושונים שנבדלים בדרכים חשובות. אתה יכול לקבוע אם ארנק מתאים לך על ידי שאלת שאלות פשוטות אלה:",
 	"wallets_question_1": "האם זה ארנק אחסון עצמי?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp בדק 70 ערכות גיבוי פלדה כדי לעזור לך לבחור את המתאימה לך.",
 	"wallets_s6_c5": "צפו במדריך הגיבוי לביטקוין של Jameson כאן.",
 	"wallets_s6_c6": "או המשיכו לגלול כדי לחקור אפשרויות ארנקי ביטקוין.",
+	"wallets_grid_heading": "ארנקי ביטקוין פופולריים",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "רשת Lightning",
 	"wallets_cta_lightning": "מחפש את מדריך ארנקי הלייטנינג שלנו?",
 	"wallets_starter_wallet": "ארנק מעולה למתחילים",
 	"wallets_mobile_app": "אפליקציה לנייד",
@@ -62,5 +65,13 @@
 	"wallets_battery": "סוללה נטענת",
 	"wallets_build_your_own": "בנה בעצמך",
 	"wallets_qwerty_keyboard": "מקלדת QWERTY מלאה",
-	"wallets_qr_scanner": "סורק קודי QR"
+	"wallets_qr_scanner": "סורק קודי QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — בחר את הארנק שלך",
+	"sources_jameson_lopp": "Jameson Lopp — סקירת אחסון זרעי מתכת של ביטקוין",
+	"sources_blockstream_green": "Blockstream Green — ארנק ביטקוין בניהול עצמי",
+	"sources_blockstream_jade": "Blockstream Jade — ארנק חומרה ביטקוין",
+	"sources_coldcard_mk5": "Coinkite — ארנק חומרה Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — ארנק חומרה Coldcard Q",
+	"sources_passport": "Foundation Devices — ארנק חומרה Passport",
+	"sources_seedsigner": "SeedSigner — מכשיר חתימה DIY בקוד פתוח לעסקאות ביטקוין"
 }

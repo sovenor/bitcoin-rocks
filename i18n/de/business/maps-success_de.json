@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
-	"kit_success_1": "Dein Unternehmen wird innerhalb von 1 bis 2 Wochen in der Bitcoin-Händlerkarte aufgelistet.",
-	"kit_success_2": "Die Karte findest du hier."
+	"biz_maps_success_hero_title": "Einreichung erhalten 🎉",
+	"biz_maps_success_hero_subtitle": "Danke, dass Du Dein Unternehmen eingereicht hast. Wir tragen Dich bald in die Bitcoin-Händlerkarten ein.",
+	"biz_maps_success_timeline_header": "Was als Nächstes passiert",
+	"biz_maps_success_timeline_c1": "Dein Unternehmen wird innerhalb von 1 bis 2 Wochen auf BTC Map und anderen Bitcoin-Händlerverzeichnissen eingetragen. Wir prüfen jede Einreichung manuell, damit die Karten genau bleiben.",
+	"biz_maps_success_timeline_c2": "Sobald Dein Eintrag live ist, finden Bitcoiner in Deiner Nähe Dein Unternehmen und kommen vorbei, um Bitcoin auszugeben.",
+	"biz_maps_success_view_header": "Schau, wo Du erscheinen wirst",
+	"biz_maps_success_view_c1": "Während Du wartest, schau Dir BTC Map an, um das wachsende Netzwerk von Unternehmen weltweit zu sehen, die Bitcoin akzeptieren.",
+	"biz_maps_success_btn_view_map": "BTC Map ansehen"
 }

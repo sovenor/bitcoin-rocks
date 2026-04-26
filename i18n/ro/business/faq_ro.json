@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Întrebări frecvente despre acceptarea Bitcoin",
 	"faq_description": "Ai întrebări despre acceptarea plăților Bitcoin la afacerea ta?",
-	"faq_header": "AI ÎNTREBĂRI DESPRE ACCEPTAREA PLĂȚILOR BITCOIN?",
+	"faq_hero_subtitle": "Răspunsuri rapide la întrebările pe care comercianții le pun cel mai des înainte de a începe să accepte Bitcoin — comisioane, decontare, portofele, chargeback-uri, costuri și altele.",
+	"faq_intro_c1": "Atinge orice întrebare de mai jos pentru a extinde răspunsul. Când ești gata să începi să accepți Bitcoin, resursele de afaceri din partea de jos a paginii te vor ghida pas cu pas.",
 	"faq_s1": "Ce este Bitcoin?",
 	"faq_s1_c1": "Bitcoin este două lucruri: bani digitali și o rețea de calculatoare.",
 	"faq_s1_c2": "Poți trimite bitcoin (banii digitali) direct altor persoane folosind rețeaua Bitcoin.",

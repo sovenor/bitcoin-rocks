@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-24",
 		"locale": "cs"
 	},
 	"how_to_accept_bitcoin_payments": "Jak přijímat bitcoinové platby",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hybridní peněženky:",
 	"wallets_intro_5": "Ty vám umožňují směnit libovolnou část Bitcoinu za dolary, jakmile vám zákazník zaplatí. Poplatky jsou stále nižší než u kreditních karet, ale vyšší než u čistých bitcoinových plateb.",
 	"wallets_intro_6": "Oba typy jsou skvělé způsoby přijímání Bitcoinu. Konkrétní peněženka bude záviset na velikosti a typu vašeho podnikání.",
-	"wallets_choice_sole": "peněženky pro individuálně vlastněné firmy",
-	"wallets_choice_multiple": "peněženky pro firmy s více zaměstnanci",
-	"wallets_choice_online": "peněženky pro online firmy",
-	"wallets_choice_invoice": "peněženky pro firmy s fakturací",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Vlastní hosting = 0% poplatky",
 	"wallets_feature_online_store": "Integrace s e-shopem",
 	"wallets_feature_invoicing": "Bezplatný fakturační software",
-	"wallets_get_wallet": "ZÍSKAT PENĚŽENKU"
+	"wallets_get_wallet": "ZÍSKAT PENĚŽENKU",
+	"wallets_hero_subtitle": "Bitcoin peněženky jsou zdarma. Vyberte si tu, která vyhovuje vaší firmě — osobní prodej, online nebo faktury — a začněte přijímat Bitcoin během pár minut.",
+	"wallets_section_sole": "Peněženky pro samostatně vlastněné firmy",
+	"wallets_section_sole_intro": "Pokud provozujete obchod, kavárnu, studio nebo službu sami, bude vám stačit kterákoli z těchto peněženek. Vyberte si podle toho, zda si chcete platby ponechat v Bitcoinu, nebo část každé platby automaticky konvertovat do místní měny.",
+	"wallets_section_multiple": "Peněženky pro firmy s více zaměstnanci",
+	"wallets_section_multiple_intro": "Pokud máte tým, který přijímá platby na pokladně, vyberte peněženku, která podporuje více přihlášení zaměstnanců — takže každý zaměstnanec dostane vlastní PIN a vy si udržíte přehlednou evidenci, kdo jakou platbu přijal.",
+	"wallets_section_online": "Peněženky pro online podnikání",
+	"wallets_section_online_intro": "Prodáváte na webu? Tyto peněženky se napojí na váš online obchod a přijímají Bitcoin od kteréhokoli zákazníka, kdekoli na světě — bez chargebacků a bez nutnosti mít obchodnický účet.",
+	"wallets_section_invoice": "Peněženky pro firmy fakturující klientům",
+	"wallets_section_invoice_intro": "Pokud fakturujete klientům (poradenství, freelancing, B2B služby), použijte peněženku postavenou kolem fakturace. Klient zaplatí Bitcoin fakturu několika kliknutími.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business vám umožňuje přijímat Bitcoin a Lightning platby s nulovými poplatky a okamžitým vypořádáním. Podporuje osobní, online i fakturační platby s volitelnou automatickou konverzí do vaší místní měny.",
+	"sources_square": "Square — přijímejte Bitcoin platby",
+	"sources_breez_business": "Breez — Lightning peněženka pouze pro Bitcoin",
+	"sources_opennode": "OpenNode — zpracovatel Bitcoin plateb",
+	"sources_ibex": "IBEX — infrastruktura pro Lightning platby",
+	"sources_zaprite": "Zaprite — fakturace v Bitcoinu pro firmy",
+	"biz_wallets_meta_description": "Všechny Bitcoin peněženky jsou vzájemně kompatibilní — vyberte si tu, která sedí vaší firmě. Zdarma, okamžité vypořádání, bez chargebacků."
 }

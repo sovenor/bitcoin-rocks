@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "et"
 	},
-	"sticker_language_timeline": "Vi laver og udgiver din klistermærkefil inden for 3 til 4 uger. Tak for din tålmodighed!"
+	"biz_sticker_language_success_hero_title": "Taotlus kätte saadud 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Aitäh, et taotlesid „Siin aktsepteerime bitcoini” kleebisefaile oma keeles.",
+	"biz_sticker_language_success_timeline_header": "Mis juhtub edasi",
+	"biz_sticker_language_success_timeline_c1": "Loome ja avaldame sinu kleebisefailid 3–4 nädala jooksul. Kui need valmis saavad, saad need meie kleebisefailide lehelt tasuta alla laadida ja välja printida.",
+	"biz_sticker_language_success_timeline_c2": "Avaldame kleebisefaile hulgakaupa, seega võib enne sinu keele aktiveerumist mööduda mitu nädalat. Aitäh sinu kannatuse eest!"
 }

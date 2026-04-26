@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"bitcoin_wallet_guide": "Guia de Carteres Bitcoin",
 	"wallets_description": "Hi ha moltes carteres Bitcoin diferents que difereixen en aspectes importants. Pots determinar si una cartera és adequada per a tu fent-te aquestes senzilles preguntes.",
 	"wallets_header": "COM EMMAGATZEMAR EL TEU BITCOIN DE MANERA SEGURA",
+	"wallets_header_subtitle": "Una guia pas a pas per triar una cartera, protegir les teves claus i prendre el control total del teu Bitcoin.",
 	"wallets_s1_c1": "Les carteres Bitcoin són interoperables, de manera que pots enviar Bitcoin a qualsevol persona sense importar quina cartera faci servir.",
 	"wallets_s1_c2": "Hi ha moltes carteres Bitcoin diferents que difereixen en aspectes importants. Pots determinar si una cartera és adequada per a tu fent-te aquestes senzilles preguntes:",
 	"wallets_question_1": "ÉS UNA CARTERA D'AUTOCUSTÒDIA?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp ha provat 70 kits de còpia de seguretat en acer per ajudar-te a escollir el que és adequat per a tu.",
 	"wallets_s6_c5": "Veure la guia de còpies de seguretat en metall de Bitcoin de Jameson aquí.",
 	"wallets_s6_c6": "O continua desplaçant-te per explorar les opcions de carteres Bitcoin.",
+	"wallets_grid_heading": "Carteres populars de Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Xarxa Lightning",
 	"wallets_cta_lightning": "Busques la nostra Guia de Carteres Lightning?",
 	"wallets_starter_wallet": "Excel·lent cartera per principiants",
 	"wallets_mobile_app": "Aplicació mòbil",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Bateria recarregable",
 	"wallets_build_your_own": "Construeix la teva pròpia",
 	"wallets_qwerty_keyboard": "Teclat QWERTY complet",
-	"wallets_qr_scanner": "Escàner de codis QR"
+	"wallets_qr_scanner": "Escàner de codis QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — tria la teva cartera",
+	"sources_jameson_lopp": "Jameson Lopp — revisió de llavors metàl·liques de Bitcoin",
+	"sources_blockstream_green": "Blockstream Green — cartera de Bitcoin d'autocustòdia",
+	"sources_blockstream_jade": "Blockstream Jade — cartera de maquinari de Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — cartera de maquinari Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — cartera de maquinari Coldcard Q",
+	"sources_passport": "Foundation Devices — cartera de maquinari Passport",
+	"sources_seedsigner": "SeedSigner — dispositiu de signatura de Bitcoin de codi obert i DIY"
 }

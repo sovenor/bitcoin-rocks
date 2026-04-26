@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Kort over Bitcoin-forhandlere – Opfør din virksomhed gratis",
-	"maps_header": "TILMELD DIG KORT OVER BITCOIN-FORHANDLERE OG FÅ FLERE KUNDER",
-	"maps_request_details": "Indtast dine virksomhedsoplysninger nedenfor, så opfører vi dig gratis på kort over Bitcoin-forhandlere. Dette gør det muligt for bitcoinere at finde din virksomhed og bruge deres Bitcoin hos dig!",
-	"maps_view": "Se kortet her."
+	"maps_view": "Se kortet her.",
+	"biz_maps_hero_title": "Sæt din virksomhed på Bitcoin-handelskort",
+	"biz_maps_hero_subtitle": "Tilføj din virksomhed gratis til BTC Map — et åbent, verdensomspændende register over handlende, der tager imod Bitcoin — så Bitcoin-brugere i nærheden kan finde dig og bruge Bitcoin hos dig.",
+	"biz_maps_intro_c1": "Bitcoin-brugere søger aktivt efter steder at bruge deres penge. At være på kortet eksponerer din virksomhed over for enhver Bitcoin-bruger, der søger et sted at spise, handle eller bo i nærheden — helt gratis.",
+	"biz_maps_intro_c2": "Udfyld bare den korte formular nedenfor, så indsender vi din virksomhed til BTC Map og andre Bitcoin-handelskort.",
+	"biz_maps_view_map_cta": "Se BTC Map",
+	"biz_maps_form_header": "Fortæl os om din virksomhed",
+	"biz_maps_form_intro": "Vi har bare brug for nogle få oplysninger for at få dig på kortet. Vi gemmer kun adresseoplysninger så længe som nødvendigt for at sende din virksomhed til kortene.",
+	"biz_maps_placeholder_name": "Virksomhedsnavn",
+	"biz_maps_placeholder_category": "Kategori (f.eks. restaurant, café, hotel)",
+	"biz_maps_placeholder_address": "Gade og husnummer",
+	"biz_maps_placeholder_city": "By",
+	"biz_maps_placeholder_region": "Stat / region / provins",
+	"biz_maps_placeholder_country": "Land",
+	"biz_maps_placeholder_website": "Hjemmeside (valgfri)",
+	"biz_maps_meta_description": "Tilføj din virksomhed gratis til BTC Map og andre Bitcoin-handelskort, så Bitcoin-brugere i nærheden kan finde dig."
 }

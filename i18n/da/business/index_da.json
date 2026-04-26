@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin er godt for virksomheder",
-	"biz_header": "BITCOIN ER GODT FOR VIRKSOMHEDER",
+	"business_hero_subtitle": "Modtag betalinger med lavere gebyrer, få udbetalt øjeblikkeligt og nå millioner af nye kunder — ingen kontrakter og ingen skjulte omkostninger.",
+	"business_intro_c1": "Bitcoin giver din virksomhed en hurtigere, billigere og mere privat måde at blive betalt på. Ingen mellemmænd. Ingen chargebacks. Ingen kontrakter. Bare penge, der afregnes på sekunder, direkte fra kunden til dig.",
+	"business_intro_c2": "Nedenfor er den korte version af, hvorfor Bitcoin er godt for forretning — og derunder hver eneste ressource, du har brug for for at begynde at tage imod det i dag.",
 	"biz_s1": "Lave gebyrer uden minimumsbeløb",
 	"biz_s1_c1": "Bitcoin lader dig modtage betalinger direkte fra kunder, på samme måde som kontanter. Bitcoin-netværket fungerer uden mellemmænd som banker og kreditkortselskaber, der opkræver høje gebyrer.",
 	"biz_s2": "Øjeblikkelig afregning",
@@ -18,5 +20,14 @@
 	"biz_s4": "Få flere kunder",
 	"biz_s4_c1": "Millioner af mennesker ejer Bitcoin og ønsker at bruge det hos steder, der accepterer det.",
 	"biz_s4_c2": "Ved at acceptere Bitcoin kan din virksomhed blive opført på kort over Bitcoin-forhandlere og få gratis eksponering for nye kunder.",
-	"biz_s4_c3": "At acceptere Bitcoin er 100% gratis. Ingen kontrakter eller skjulte gebyrer."
+	"biz_s4_c3": "At acceptere Bitcoin er 100% gratis. Ingen kontrakter eller skjulte gebyrer.",
+	"business_resources_heading": "Alt du har brug for for at tage imod Bitcoin",
+	"business_resources_intro": "Gennemgå disse ressourcer i dit eget tempo. Hver er en kort, praktisk guide.",
+	"biz_label_wallets": "WALLETS",
+	"biz_label_maps": "HANDELSKORT",
+	"biz_label_stickers": "KLISTERMÆRKER",
+	"biz_label_rewards": "BELØNNINGER",
+	"biz_label_accounting": "REGNSKAB",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Tag imod Bitcoin i din virksomhed med lavere gebyrer, øjeblikkelig afregning, ingen chargebacks, og få flere kunder."
 }

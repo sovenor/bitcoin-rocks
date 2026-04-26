@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"how_to_accept_bitcoin_payments": "Bitcoin Ödənişlərini Necə Qəbul Etmək Olar",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Hibrid pul kisələri:",
 	"wallets_intro_5": "Bunlar müştəri sizə ödəniş etdikdə Bitcoin-in istənilən hissəsini dərhal dollarlara dəyişdirməyə imkan verir. Komissiyalar kredit kartı ödənişlərindən az, lakin saf Bitcoin ödənişlərindən çoxdur.",
 	"wallets_intro_6": "Hər ikisi Bitcoin qəbul etmək üçün əla üsuldur. İstifadə edəcəyiniz xüsusi pul kisəsi biznesinizin ölçüsü və növündən asılıdır.",
-	"wallets_choice_sole": "fərdi sahiblik bizneslər üçün pul kisələri",
-	"wallets_choice_multiple": "çoxlu işçisi olan bizneslər üçün pul kisələri",
-	"wallets_choice_online": "onlayn bizneslər üçün pul kisələri",
-	"wallets_choice_invoice": "faktura əsaslı bizneslər üçün pul kisələri",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Öz hostinqi = 0% komissiya",
 	"wallets_feature_online_store": "Onlayn mağaza inteqrasiyası",
 	"wallets_feature_invoicing": "Pulsuz faktura proqramı",
-	"wallets_get_wallet": "PUL KİSƏSİ AL"
+	"wallets_get_wallet": "PUL KİSƏSİ AL",
+	"wallets_hero_subtitle": "Bitcoin pulqabları pulsuzdur. Biznesinizə uyğun olanı seçin — şəxsən, onlayn və ya fakturaya əsaslanan — və dəqiqələr ərzində Bitcoin qəbul etməyə başlayın.",
+	"wallets_section_sole": "Fərdi bizneslər üçün pulqabları",
+	"wallets_section_sole_intro": "Mağaza, kafe, studiya və ya xidməti təkbaşına idarə edirsinizsə, bu pulqablarından hər hansı biri işləyəcək. Ödənişləri Bitcoin olaraq saxlamaq istədiyinizə və ya hər ödənişin bir hissəsini avtomatik olaraq yerli valyutanıza çevirmək istədiyinizə əsasən seçin.",
+	"wallets_section_multiple": "Çoxlu işçisi olan bizneslər üçün pulqabları",
+	"wallets_section_multiple_intro": "Kassada ödənişləri qəbul edən komandanız varsa, çoxlu işçi girişini dəstəkləyən pulqabı seçin — hər işçinin öz PIN kodu olur və kimin hansı ödənişi aldığını təmiz audit jurnalında saxlayırsınız.",
+	"wallets_section_online": "Onlayn bizneslər üçün pulqabları",
+	"wallets_section_online_intro": "Veb saytda satırsınız? Bu pulqabları elektron mağazanıza qoşulur və dünyanın istənilən yerindəki istənilən müştəridən Bitcoin qəbul edir — geri ödəmələr yoxdur və tacir hesabı tələb olunmur.",
+	"wallets_section_invoice": "Fakturaya əsaslanan bizneslər üçün pulqabları",
+	"wallets_section_invoice_intro": "Müştərilərə faktura göndərirsinizsə (konsaltinq, frilans, B2B xidmətləri), fakturaya əsaslanan pulqabı istifadə edin. Müştəriniz bir neçə klikləmə ilə Bitcoin fakturasını ödəyir.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business sizə Bitcoin və Lightning ödənişlərini haqqsız qəbul etməyə və dərhal hesablaşmağa imkan verir. Şəxsən, onlayn və fakturaya əsaslanan ödənişləri, yerli valyutanıza istəyə bağlı avtomatik çevirmə ilə dəstəkləyir.",
+	"sources_square": "Square — Bitcoin ödənişlərini qəbul edin",
+	"sources_breez_business": "Breez — yalnız Bitcoin Lightning pulqabı",
+	"sources_opennode": "OpenNode — Bitcoin ödəniş prosessoru",
+	"sources_ibex": "IBEX — Lightning ödəniş infrastrukturu",
+	"sources_zaprite": "Zaprite — bizneslər üçün Bitcoin fakturası",
+	"biz_wallets_meta_description": "Bütün Bitcoin pulqabları qarşılıqlı işləyir — biznesinizə uyğun olanı seçin. Pulsuz, dərhal hesablaşma, geri ödəmələr yoxdur."
 }

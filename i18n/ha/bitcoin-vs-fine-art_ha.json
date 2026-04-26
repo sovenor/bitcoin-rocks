@@ -3,19 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin da Fasaha",
-	"fine_art_header": "BAMBANCI TSAKANIN",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "DA",
-	"fine_art_header_4": "FASAHA",
 	"fine_art_intro_1": "Fasaha ta kasance saka jari na alatu tsawon ƙarni da yawa.",
 	"fine_art_intro_2": "Bitcoin kuɗi ne na dijital da mutane da yawa ke ganin shi a matsayin mai ajiye daraja.",
 	"fine_art_intro_3": "Yaya aikin fasaha na zahiri ya bambanta da kuɗi na dijital? Bari mu duba bambance-bambancen: Bitcoin da fasaha.",
 	"fine_art": "FASAHA",
-	"bitcoin": "BITCOIN",
 	"fine_art_point_1": "Kowane aiki na musamman ne",
 	"fine_art_point_2": "Ana buƙatar gwanjon musamman",
 	"fine_art_point_3": "Manyan kuɗin gwanjo",
@@ -23,6 +18,7 @@
 	"fine_art_point_5": "Ana buƙatar gwanin tabbatarwa",
 	"fine_art_point_6": "Mai rauni ga lalacewa",
 	"fine_art_point_7": "An ƙayyadaddhe ga attajirai",
+	"bitcoin": "BITCOIN",
 	"bitcoin_point_1": "Cikakken musayar",
 	"bitcoin_point_2": "Kasuwar duniya 24/7",
 	"bitcoin_point_3": "Ƙananan kuɗin ma'amala",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Ana tabbatarwa ta lissafi",
 	"bitcoin_point_6": "Wahalar lalacewa",
 	"bitcoin_point_7": "Kowa zai iya samu",
-	"point_1_summary_1": "Kowanne bitcoin iri ɗaya ne kuma ana iya musayar. Fasaha ta musamman ce ta dabi'a, wanda ke sa ƙima ta zama da wahala sosai.",
-	"point_2_summary_1": "Ana ciniki da Bitcoin a kasuwannin duniya 24/7. Fasaha tana buƙatar gidajen gwanjo na musamman kuma sayarwa na iya ɗaukar watanni.",
-	"point_3_summary_1": "Siye ko sayar da Bitcoin galibi yana ɗaukar ƙasa da 1%. Cinikin fasaha yana ɗauke da kuɗin da za su iya wucewa 30-40%.",
-	"point_4_summary_1": "Za a iya raba Bitcoin zuwa sassa 100 miliyan. Ba za a iya raba fasaha ba.",
-	"point_5_summary_1": "Ana iya tabbatar da mallakar Bitcoin da ingancin sa ta lissafi. Fasaha tana buƙatar tsadar binciken kwararru, kuma jabun suna yaudara cikin duniyar fasaha akai-akai.",
-	"point_6_summary_1": "Bitcoin ba zai iya lalacewa ba idan an yi adana madadin daidai. Fasaha tana da rauni ga duk wani lalacewar zahiri.",
-	"point_7_summary_1": "Kowa mai haɗin Intanet zai iya siyan Bitcoin. Saka jari a fasaha an ƙayyadaddhe ga attajiran masu tattarawa."
+	"point_1_summary_1": "Kowane bitcoin daidai yake kuma ana iya musanya. Kowane aiki na fasaha na musamman ne — asali, tarihi, yanayi da zuriya daban-daban suna sa kwatancen kai tsaye yana da matuƙar wahala.",
+	"point_2_summary_1": "Bitcoin yana ciniki sa'o'i 24 a rana a kasuwa ta duniya da ake samuwa ga kowa. Fasaha mai daraja tana buƙatar gidajen gwanjo na musamman, dillalai masu zaman kansu ko gallery, kuma sayarwa zai iya ɗaukar watanni.",
+	"point_3_summary_1": "Yana kashe ƙasa da 1% a cikin kuɗi don saye ko sayar da Bitcoin, sau da yawa ƙasa sosai. Sayar da fasaha tana tara 30-40% a cikin kwamishinan masu siye, kuɗi, inshora, jigilar kaya da kuɗin tabbatar da gaskiya.",
+	"point_4_summary_1": "Bitcoin za a iya raba shi har zuwa satoshi miliyan 100, abin da ke sa shi cikakke don ma'amaloli na kowane girma. Ba za ka iya mallakar ɓangaren zane ko kusurwar mutum-mutumi ba tare da haɗarin sashi.",
+	"point_5_summary_1": "Mallaka da gaskiyar Bitcoin za a iya tabbatar da su ta hanyar cryptography ta kowa a kan blockchain. Tabbatar da ayyukan fasaha yana da tsada, yana ɗaukar lokaci, kuma ana yaudarar masana akai-akai — yana lalata darajar aiki cikin dare.",
+	"point_6_summary_1": "Bitcoin da aka adana yadda ya kamata zai iya tsira daga ambaliyar ruwa, gobara, girgizar ƙasa da sata. Fasaha mai daraja tana cikin haɗari ga duk nau'ikan bala'o'i na zahiri, kuma inshora ba ya rufe komai sau da yawa.",
+	"point_7_summary_1": "Kowa da ke da haɗin intanet da ƙananan kuɗi zai iya saye Bitcoin. Zuba jari a fasaha mai amfani galibi don masu tarawa masu arziki da ke da damar zuwa gwanji da ƙwarewar musamman.",
+	"hero_title": "Bambanci tsakanin <span class=\"orange\">Bitcoin</span> da <span class=\"asset\">Fasaha mai daraja</span>"
 }

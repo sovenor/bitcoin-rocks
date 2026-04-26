@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
-	"sticker_success_details": "Svoje nálepky dostanete za 1 až 2 týždne v obyčajnej bielej obálke. Každá obálka obsahuje 3 nálepky. Ak potrebujete viac ako 3 nálepky pre svoju firmu, pokojne si požiadajte o ďalší balíček!"
+	"biz_sticker_success_hero_title": "Vaše nálepky sú na ceste 🎉",
+	"biz_sticker_success_hero_subtitle": "Vaše nálepky „Tu prijímame Bitcoin“ zadarmo dostanete za 2 až 4 týždne v obyčajnej bielej obálke s 3 nálepkami.",
+	"biz_sticker_success_tips_header": "Dobré miesta pre vaše nálepky",
+	"biz_sticker_success_tip_1": "Na vchodové dvere alebo do výkladu, aby ich zákazníci videli, kým vstúpia dnu",
+	"biz_sticker_success_tip_2": "Pri pokladni, platobnom termináli alebo mieste na platenie",
+	"biz_sticker_success_tip_3": "Na jedálne lístky, cenníky alebo pokladničky na sprepitné",
+	"biz_sticker_success_tip_4": "Neumiestňujte ich na miesta, ktoré nevlastníte alebo nemáte povolenie tam nálepky umiestniť",
+	"biz_sticker_success_more_header": "Potrebujete viac nálepiek?",
+	"biz_sticker_success_more_c1": "Ak 3 nálepky pre vašu firmu nestačia, pokojne si vyžiadajte ďalší balíček zadarmo — alebo si objednajte hromadne u toho istého tlačiara, akého používame my.",
+	"biz_sticker_success_btn_order_bulk": "Objednať hromadne",
+	"biz_sticker_success_btn_request_more": "Vyžiadať ďalší balíček zadarmo"
 }

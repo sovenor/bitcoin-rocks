@@ -3,9 +3,15 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "he"
 	},
-	"kit_success_1": "העסק שלכם יוסף למפות סוחרים של ביטקוין תוך שבוע עד שבועיים.",
-	"kit_success_2": "צפו במפה כאן."
+	"biz_maps_success_hero_title": "הבקשה התקבלה 🎉",
+	"biz_maps_success_hero_subtitle": "תודה ששלחת את העסק שלך. בקרוב נשים אותך על מפות סוחרי הביטקוין.",
+	"biz_maps_success_timeline_header": "מה הצעד הבא",
+	"biz_maps_success_timeline_c1": "אנחנו נוסיף את העסק שלך ל-BTC Map ולמדריכי סוחרי ביטקוין אחרים בתוך 1-2 שבועות. אנחנו בודקים כל הגשה ידנית כדי לשמור על דיוק המפות.",
+	"biz_maps_success_timeline_c2": "כשהרישום שלך יעלה לאוויר, משתמשי ביטקוין מקומיים ימצאו את העסק שלך ויבואו להוציא ביטקוין שם.",
+	"biz_maps_success_view_header": "ראה איפה תופיע",
+	"biz_maps_success_view_c1": "בזמן שאתה מחכה, תסתכל ב-BTC Map כדי לראות את הרשת הגדלה של עסקים שמקבלים ביטקוין ברחבי העולם.",
+	"biz_maps_success_btn_view_map": "צפה ב-BTC Map"
 }

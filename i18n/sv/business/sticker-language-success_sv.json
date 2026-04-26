@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "sv"
 	},
-	"sticker_language_timeline": "Vi skapar och publicerar din klistermärkesfil inom 3 till 4 veckor. Tack för ditt tålamod!"
+	"biz_sticker_language_success_hero_title": "Begäran mottagen 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Tack för att du efterfrågade ”Bitcoin Accepted Here”-klistermärkesfiler på ditt språk.",
+	"biz_sticker_language_success_timeline_header": "Vad händer härnäst",
+	"biz_sticker_language_success_timeline_c1": "Vi skapar och publicerar dina klistermärkesfiler inom 3 till 4 veckor. När de är klara kan du ladda ner och skriva ut dem gratis från vår sida för klistermärkesfiler.",
+	"biz_sticker_language_success_timeline_c2": "Klistermärkesfiler släpps i omgångar, så det kan ta några veckor innan ditt språk publiceras. Tack för ditt tålamod!"
 }

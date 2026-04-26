@@ -3,10 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ur"
 	},
-	"biz_stickers_header": "مفت 'Bitcoin یہاں قبول ہے' سٹکرز",
-	"biz_stickers_description": "اپنے کاروبار کے لیے مفت 'Bitcoin Accepted Here' سٹکرز حاصل کریں۔",
-	"biz_stickers_c1": "اپنے کھڑکی یا دروازے پر 'Bitcoin Accepted Here' سٹکر لگا کر اپنے گاہکوں کو بتائیں کہ آپ Bitcoin قبول کرتے ہیں۔"
+	"bitcoin_accepted_here_stickers": "Bitcoin Accepted Here سٹیکرز",
+	"biz_stickers_hero_title": "مفت 'Bitcoin Accepted Here' سٹیکرز",
+	"biz_stickers_hero_subtitle": "اپنے گاہکوں کو بتائیں کہ آپ Bitcoin قبول کرتے ہیں۔ اپنے کاروبار میں لگانے کے لیے 'Bitcoin Accepted Here' سٹیکرز کا مفت پیکٹ آرڈر کریں۔",
+	"biz_stickers_intro_c1": "Bitcoin قبول کرنا کام کا صرف نصف ہے — آپ کے گاہکوں کو بھی یہ جاننے کی ضرورت ہے کہ آپ ایسا کرتے ہیں۔ یہ چھوٹے 'Bitcoin Accepted Here' سٹیکرز آپ کے سامنے والے دروازے، رجسٹر، مینو، یا کسی بھی جگہ لگانے کے لیے ڈیزائن کیے گئے ہیں جہاں گاہک ادائیگی سے پہلے انہیں دیکھیں۔",
+	"biz_stickers_intro_c2": "ہم آپ کو امریکہ یا کینیڈا میں کہیں بھی مفت پیکٹ ڈاک کر دیں گے، یا آپ دنیا میں کہیں بھی اپنے خود بھی پرنٹ کر سکتے ہیں۔",
+	"biz_stickers_step_header": "آپ اپنے سٹیکرز کیسے حاصل کرنا چاہیں گے؟",
+	"biz_stickers_step_description": "ہم امریکہ اور کینیڈا کے پتوں پر مفت پیکٹ بھیجیں گے۔ دنیا میں کہیں اور، آپ خود پرنٹ کر سکتے ہیں۔",
+	"biz_stickers_option_usa": "🇺🇸 امریکہ — ڈاک سے مفت",
+	"biz_stickers_option_canada": "🇨🇦 کینیڈا — ڈاک سے مفت",
+	"biz_stickers_option_print": "🌍 عالمی — خود پرنٹ کریں",
+	"biz_stickers_print_header": "اپنی سٹیکر فائلیں خود پرنٹ کریں",
+	"biz_stickers_print_c1": "آپ اپنے 'Bitcoin Accepted Here' سٹیکرز خود پرنٹ کر سکتے ہیں، چاہے آپ کہیں بھی رہتے ہوں۔ سٹیکر فائلیں اور پرنٹنگ کی ہدایات ڈاؤن لوڈ کرنے کے لیے نیچے اپنی زبان پر کلک کریں۔",
+	"biz_stickers_request_header": "اپنی زبان نہیں دیکھ رہے؟",
+	"biz_stickers_request_c1": "اپنی مقامی زبان میں 'Bitcoin Accepted Here' سٹیکر فائلوں کی درخواست کے لیے نیچے دیا گیا فارم بھریں۔ تیار ہونے پر ہم آپ کو بتا دیں گے۔",
+	"biz_stickers_placeholder_translation1": "'Bitcoin Accepted Here' کا ترجمہ",
+	"biz_stickers_placeholder_translation2": "'Scan to learn why Bitcoin is good for business.' کا ترجمہ",
+	"stickers_request": "اپنے مفت سٹیکرز حاصل کریں"
 }

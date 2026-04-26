@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "ta"
 	},
 	"bitcoin_wallet_guide": "பிட்காயின் வாலெட் வழிகாட்டி",
 	"wallets_description": "முக்கியமான வழிகளில் வேறுபடும் பல்வேறு பிட்காயின் வாலெட்கள் உள்ளன. இந்த எளிய கேள்விகளைக் கேட்பதன் மூலம் ஒரு வாலெட் உங்களுக்கு சரியானதா என்பதை தீர்மானிக்கலாம்.",
 	"wallets_header": "உங்கள் பிட்காயினை பாதுகாப்பாக சேமிப்பது எப்படி",
+	"wallets_header_subtitle": "ஒரு பணப்பையைத் தேர்வுசெய்வது, உங்கள் விசைகளைப் பாதுகாப்பது மற்றும் உங்கள் Bitcoin-இன் முழுக் கட்டுப்பாட்டையும் எடுப்பதற்கான படிப்படியான வழிகாட்டி.",
 	"wallets_s1_c1": "பிட்காயின் வாலெட்கள் ஒன்றிணைக்கக்கூடியவை, எனவே அவர்கள் எந்த வாலெட்டைப் பயன்படுத்தினாலும் யாருக்கும் பிட்காயின் அனுப்பலாம்.",
 	"wallets_s1_c2": "முக்கியமான வழிகளில் வேறுபடும் பல்வேறு பிட்காயின் வாலெட்கள் உள்ளன. இந்த எளிய கேள்விகளைக் கேட்பதன் மூலம் ஒரு வாலெட் உங்களுக்கு சரியானதா என்பதை தீர்மானிக்கலாம்:",
 	"wallets_question_1": "இது சுய-பாதுகாப்பு வாலெட்டா?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp உங்களுக்கு சரியானதை தேர்ந்தெடுக்க 70 எஃகு காப்பு கருவித்தொகுப்புகளை சோதித்துள்ளார்.",
 	"wallets_s6_c5": "Jameson இன் உலோக பிட்காயின் காப்பு வழிகாட்டியை இங்கே காண்க.",
 	"wallets_s6_c6": "அல்லது பிட்காயின் வாலெட் விருப்பங்களை ஆராய தொடர்ந்து கீழே உருட்டவும்.",
+	"wallets_grid_heading": "பிரபலமான Bitcoin பணப்பைகள்",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "எங்கள் லைட்னிங் வாலெட் வழிகாட்டியைத் தேடுகிறீர்களா?",
 	"wallets_starter_wallet": "சிறந்த தொடக்க வாலெட்",
 	"wallets_mobile_app": "மொபைல் ஆப்",
@@ -62,5 +65,13 @@
 	"wallets_battery": "மறுசார்ஜ் செய்யக்கூடிய பேட்டரி",
 	"wallets_build_your_own": "உங்களே உருவாக்கவும்",
 	"wallets_qwerty_keyboard": "முழு QWERTY கீபோர்டு",
-	"wallets_qr_scanner": "QR குறியீடு ஸ்கேனர்"
+	"wallets_qr_scanner": "QR குறியீடு ஸ்கேனர்",
+	"sources_bitcoin_org_choose": "Bitcoin.org — உங்கள் பணப்பையைத் தேர்வுசெய்யவும்",
+	"sources_jameson_lopp": "Jameson Lopp — உலோக Bitcoin விதை சேமிப்பு மதிப்புரைகள்",
+	"sources_blockstream_green": "Blockstream Green — சுய-காப்பு Bitcoin பணப்பை",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin வன்பொருள் பணப்பை",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 வன்பொருள் பணப்பை",
+	"sources_coldcard_q": "Coinkite — Coldcard Q வன்பொருள் பணப்பை",
+	"sources_passport": "Foundation Devices — Passport வன்பொருள் பணப்பை",
+	"sources_seedsigner": "SeedSigner — திறந்த-மூல DIY Bitcoin கையொப்பமிடும் சாதனம்"
 }

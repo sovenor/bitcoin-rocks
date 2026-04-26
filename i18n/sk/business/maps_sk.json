@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "sk"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Mapy bitcoinových obchodníkov — Zadarmo zápis vašej firmy",
-	"maps_header": "ZAPÍŠTE SA NA MAPY BITCOINOVÝCH OBCHODNÍKOV A ZÍSKAJTE VIAC ZÁKAZNÍKOV",
-	"maps_request_details": "Zadajte údaje o vašej firme nižšie a my vás zadarmo zapíšeme na mapy bitcoinových obchodníkov. To umožní bitcoinerom nájsť vašu firmu a minúť svoj Bitcoin u vás!",
-	"maps_view": "Zobraziť mapu tu."
+	"maps_view": "Zobraziť mapu tu.",
+	"biz_maps_hero_title": "Umiestnite svoju firmu na mapy Bitcoin obchodníkov",
+	"biz_maps_hero_subtitle": "Zapíšte svoju firmu zadarmo na BTC Map — otvorený celosvetový adresár obchodníkov prijímajúcich Bitcoin — aby vás Bitcoineri vo vašom okolí našli a mohli u vás minúť Bitcoin.",
+	"biz_maps_intro_c1": "Bitcoineri aktívne hľadajú miesta, kde minúť. Keď bude vaša firma na mape, ukážete sa každému Bitcoin používateľovi, ktorý v okolí hľadá, kde sa najesť, nakúpiť alebo prespať — úplne zadarmo.",
+	"biz_maps_intro_c2": "Stačí vyplniť krátky formulár nižšie a my vašu firmu odošleme na BTC Map a ďalšie mapy Bitcoin obchodníkov.",
+	"biz_maps_view_map_cta": "Zobraziť BTC Map",
+	"biz_maps_form_header": "Povedzte nám o svojej firme",
+	"biz_maps_form_intro": "Potrebujeme len pár údajov, aby sme vás zapísali. Údaje o adrese uchovávame len po dobu nevyhnutnú na odoslanie vašej firmy do máp.",
+	"biz_maps_placeholder_name": "Názov firmy",
+	"biz_maps_placeholder_category": "Kategória (napr. reštaurácia, kaviareň, hotel)",
+	"biz_maps_placeholder_address": "Ulica a popisné číslo",
+	"biz_maps_placeholder_city": "Mesto",
+	"biz_maps_placeholder_region": "Kraj / región / oblasť",
+	"biz_maps_placeholder_country": "Krajina",
+	"biz_maps_placeholder_website": "Webové stránky (nepovinné)",
+	"biz_maps_meta_description": "Zapíšte svoju firmu zadarmo na BTC Map a ďalšie mapy Bitcoin obchodníkov, aby vás Bitcoineri vo vašom okolí našli."
 }

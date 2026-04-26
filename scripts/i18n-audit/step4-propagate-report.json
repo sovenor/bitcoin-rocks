@@ -1,0 +1,54 @@
+{
+	"generatedAt": "2026-04-23T17:31:29.533Z",
+	"dryRun": true,
+	"scope": [
+		"hu",
+		"lt",
+		"sw"
+	],
+	"summary": {
+		"localesProcessed": 3,
+		"totalFilesScanned": 239,
+		"totalFilesChanged": 0,
+		"totalFormattingOnly": 0,
+		"totalKeysRemoved": 0,
+		"totalIdentical": 239,
+		"totalMissingCounterpart": 0,
+		"totalParseErrors": 0
+	},
+	"perLocale": [
+		{
+			"lang": "hu",
+			"files": 81,
+			"changed": 0,
+			"formattingOnly": 0,
+			"keysRemoved": 0,
+			"identical": 81,
+			"missingCounterpart": 0,
+			"parseErrors": 0,
+			"perNamespaceRemovals": {}
+		},
+		{
+			"lang": "lt",
+			"files": 78,
+			"changed": 0,
+			"formattingOnly": 0,
+			"keysRemoved": 0,
+			"identical": 78,
+			"missingCounterpart": 0,
+			"parseErrors": 0,
+			"perNamespaceRemovals": {}
+		},
+		{
+			"lang": "sw",
+			"files": 80,
+			"changed": 0,
+			"formattingOnly": 0,
+			"keysRemoved": 0,
+			"identical": 80,
+			"missingCounterpart": 0,
+			"parseErrors": 0,
+			"perNamespaceRemovals": {}
+		}
+	]
+}

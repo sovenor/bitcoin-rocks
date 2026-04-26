@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"frequently_asked_questions_about_accepting_bitcoin": "Imibuzo Evame Ukubuzwa Ngokwamukela i-Bitcoin",
 	"faq_description": "Unemibuzo ngokwamukela izinkokhelo ze-Bitcoin ebhizinisini lakho?",
-	"faq_header": "UNEMIBUZO NGOKWAMUKELA IZINKOKHELO ZE-BITCOIN?",
+	"faq_hero_subtitle": "Izimpendulo ezimfushane emibuzweni abathengisi abayibuzayo kakhulu ngaphambi kokuqala ukwamukela i-Bitcoin — izimali, ukuxazulula, izikhwama, ukubuyiselwa, izindleko, nokunye.",
+	"faq_intro_c1": "Thepha noma yimuphi umbuzo ongezansi ukuze unwebule impendulo. Lapho usukulungele ukuqala ukwamukela i-Bitcoin, izinsiza zebhizinisi ezisezansi zekhasi zizokuhambisa kuwo wonke umkhondo.",
 	"faq_s1": "Yini i-Bitcoin?",
 	"faq_s1_c1": "I-Bitcoin izinto ezimbili: imali yedijithali nenethiwekhi yekhompyutha.",
 	"faq_s1_c2": "Ungathumela i-bitcoin (imali yedijithali) ngqo kwabanye abantu usebenzisa i-Bitcoin Network.",

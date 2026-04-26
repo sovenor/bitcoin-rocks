@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "nb"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-lommebokguide",
 	"wallets_description": "Det finnes mange forskjellige Bitcoin-lommebøker som skiller seg på viktige måter. Du kan avgjøre om en lommebok passer for deg ved å stille disse enkle spørsmålene.",
 	"wallets_header": "HVORDAN LAGRE DIN BITCOIN TRYGT",
+	"wallets_header_subtitle": "En trin-for-trin guide til å vælge en wallet, beskytte dine nøgler og tage fuld kontrol over din Bitcoin.",
 	"wallets_s1_c1": "Bitcoin-lommebøker er kompatible med hverandre, slik at du kan sende Bitcoin til hvem som helst uansett hvilken lommebok de bruker.",
 	"wallets_s1_c2": "Det finnes mange forskjellige Bitcoin-lommebøker som skiller seg på viktige måter. Du kan avgjøre om en lommebok passer for deg ved å stille disse enkle spørsmålene:",
 	"wallets_question_1": "ER DET EN SELVFORVARENDE LOMMEBOK?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp har testet 70 stål-sikkerhetskopisett for å hjelpe deg å velge det som passer for deg.",
 	"wallets_s6_c5": "Se Jamesons guide for metallsikkerhetskopiering av Bitcoin her.",
 	"wallets_s6_c6": "Eller fortsett å scrolle for å utforske Bitcoin-lommebokalternativer.",
+	"wallets_grid_heading": "Populære Bitcoin-wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Leter du etter vår Lightning-lommebokguide?",
 	"wallets_starter_wallet": "Flott startlommebok",
 	"wallets_mobile_app": "Mobilapp",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Oppladbart batteri",
 	"wallets_build_your_own": "Bygg din egen",
 	"wallets_qwerty_keyboard": "Fullt QWERTY-tastatur",
-	"wallets_qr_scanner": "QR-kodeskanner"
+	"wallets_qr_scanner": "QR-kodeskanner",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Vælg din wallet",
+	"sources_jameson_lopp": "Jameson Lopp — anmeldelser av metalopbevaring til Bitcoin-seed",
+	"sources_blockstream_green": "Blockstream Green — selvforvaret Bitcoin-wallet",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin-hardware-wallet",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware-wallet",
+	"sources_coldcard_q": "Coinkite — Coldcard Q hardware-wallet",
+	"sources_passport": "Foundation Devices — Passport hardware-wallet",
+	"sources_seedsigner": "SeedSigner — open source-DIY-signeringsenhed til Bitcoin-transaksjoner"
 }

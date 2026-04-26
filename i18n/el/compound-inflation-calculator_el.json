@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-09",
+		"last-updated": "2026-04-24",
 		"locale": "el"
 	},
 	"cic_header": "ΥΠΟΛΟΓΙΣΤΗΣ ΣΥΝΘΕΤΟΥ ΠΛΗΘΩΡΙΣΜΟΥ",
 	"cic_description": "Χρησιμοποιήστε αυτόν τον υπολογιστή σύνθετου πληθωρισμού για να βρείτε πόσο πρέπει να αυξηθεί ο μισθός σας για να συμβαδίζει με τον πληθωρισμό.",
-	"what_can_i_do_about": "Τι μπορώ να κάνω",
-	"what_can_i_do_about_2": "για τον πληθωρισμό;",
-	"cic_inflation_cta": "Αρνηθείτε τον πληθωρισμό με το Bitcoin"
+	"cic_hero_subtitle": "Ανακαλύψτε πόσο πρέπει να αυξηθεί ο μισθός σας για να συμβαδίζει με τον πληθωρισμό.",
+	"cic_calculator_heading": "Υπολογίστε το χάσμα πληθωρισμού σας",
+	"cic_cta_label": "Επόμενο βήμα",
+	"cic_inflation_cta": "Αρνηθείτε τον πληθωρισμό με το Bitcoin",
+	"cic_next_learn_inflation": "Μάθετε πώς λειτουργεί ο πληθωρισμός",
+	"cic_next_explore_topics": "Εξερευνήστε περισσότερα θέματα",
+	"cic_next_explore_topics_desc": "Δείτε πώς το Bitcoin σχετίζεται με τα χρήματα, την ελευθερία, την ενέργεια και άλλα.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — δείκτης τιμών καταναλωτή για όλους τους αστικούς καταναλωτές",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — προσφορά χρήματος M1"
 }

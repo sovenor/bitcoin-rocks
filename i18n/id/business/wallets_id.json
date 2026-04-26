@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-01-21",
+		"last-updated": "2026-04-25",
 		"locale": "id"
 	},
 	"how_to_accept_bitcoin_payments": "Cara Menerima Pembayaran Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Dompet hibrida:",
 	"wallets_intro_5": "Dompet ini memungkinkan Anda menukar sebagian atau seluruh pembayaran Bitcoin menjadi dolar segera setelah pelanggan membayar. Biayanya tetap lebih rendah dibanding pembayaran kartu kredit, tetapi lebih tinggi dibanding pembayaran Bitcoin murni.",
 	"wallets_intro_6": "Keduanya adalah cara yang baik untuk menerima Bitcoin. Dompet yang Anda pilih akan bergantung pada ukuran dan jenis bisnis Anda.",
-	"wallets_choice_sole": "dompet untuk bisnis perseorangan",
-	"wallets_choice_multiple": "dompet untuk bisnis dengan banyak karyawan",
-	"wallets_choice_online": "dompet untuk bisnis online",
-	"wallets_choice_invoice": "dompet untuk bisnis berbasis faktur",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Self-hosted = 0% biaya",
 	"wallets_feature_online_store": "Integrasi dengan toko online",
 	"wallets_feature_invoicing": "Perangkat lunak faktur gratis",
-	"wallets_get_wallet": "DAPATKAN DOMPET"
+	"wallets_get_wallet": "DAPATKAN DOMPET",
+	"wallets_hero_subtitle": "Dompet Bitcoin gratis. Pilih yang sesuai dengan bisnis Anda — langsung, online, atau berbasis faktur — dan mulai menerima Bitcoin dalam hitungan menit.",
+	"wallets_section_sole": "Dompet untuk bisnis perorangan",
+	"wallets_section_sole_intro": "Jika Anda menjalankan toko, kafe, studio, atau layanan sendiri, dompet mana pun ini akan berfungsi. Pilih berdasarkan apakah Anda ingin menyimpan pembayaran dalam Bitcoin atau mengkonversi otomatis sebagian dari setiap pembayaran ke mata uang lokal Anda.",
+	"wallets_section_multiple": "Dompet untuk bisnis dengan beberapa karyawan",
+	"wallets_section_multiple_intro": "Jika Anda memiliki tim yang menerima pembayaran di kasir, pilih dompet yang mendukung beberapa login karyawan — sehingga setiap karyawan mendapat PIN sendiri dan Anda menyimpan jejak audit yang bersih tentang siapa yang menerima pembayaran mana.",
+	"wallets_section_online": "Dompet untuk bisnis online",
+	"wallets_section_online_intro": "Menjual di situs web? Dompet ini terhubung ke toko online Anda dan menerima Bitcoin dari pelanggan mana pun, di mana saja di dunia — tanpa chargeback, tanpa akun pedagang yang diperlukan.",
+	"wallets_section_invoice": "Dompet untuk bisnis berbasis faktur",
+	"wallets_section_invoice_intro": "Jika Anda menagih klien (konsultasi, pekerjaan lepas, layanan B2B), gunakan dompet yang dibangun di sekitar penagihan. Klien Anda membayar faktur Bitcoin dalam beberapa klik.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business memungkinkan Anda menerima pembayaran Bitcoin dan Lightning dengan biaya nol dan penyelesaian instan. Mendukung pembayaran langsung, online, dan berbasis faktur dengan konversi otomatis opsional ke mata uang lokal Anda.",
+	"sources_square": "Square — Terima pembayaran Bitcoin",
+	"sources_breez_business": "Breez — Dompet Lightning khusus Bitcoin",
+	"sources_opennode": "OpenNode — Pemroses pembayaran Bitcoin",
+	"sources_ibex": "IBEX — Infrastruktur pembayaran Lightning",
+	"sources_zaprite": "Zaprite — Faktur Bitcoin untuk bisnis",
+	"biz_wallets_meta_description": "Semua dompet Bitcoin saling terhubung — pilih yang sesuai dengan bisnis Anda. Gratis, penyelesaian instan, tanpa chargeback."
 }

@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
-	"bitcoin_accepted_here_sticker_files": "Fayilolin Sticker na 'Ana Karɓar Bitcoin a Nan'",
-	"english_biz_sticker_description": "Zazzage fayilolin sticker na 'Ana Karɓar Bitcoin a Nan' a nan.",
-	"english_biz_sticker_header": "ZAZZAGE FAYILOLIN STICKER NA 'ANA KARƁAR BITCOIN A NAN' NA TURANCI"
+	"english_bitcoin_accepted_here_sticker_files": "Fayilolin Labaru na 'Bitcoin Accepted Here' a Turanci",
+	"english_biz_sticker_files_description": "Saukar da fayilolin labaru a Turanci don buga labaranka na “Bitcoin Accepted Here”.",
+	"biz_stickers_english_hero_title": "Saukar da fayilolin labaru na “Bitcoin Accepted Here” a Turanci",
+	"biz_stickers_english_hero_subtitle": "Buga labaranka na “Bitcoin Accepted Here” a Turanci don abokan cinikinka su san kana karɓar Bitcoin."
 }

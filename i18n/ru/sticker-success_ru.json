@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "ru"
 	},
 	"sticker_success_1": "Вы получите свои стикеры через 2–4 недели. Пока вы ждёте, подумайте о хорошем месте для наклеивания стикеров!",
-	"sticker_success_2": "Хорошие места для стикеров:",
 	"sticker_success_list_1": "в общественных местах, где их увидят люди",
 	"sticker_success_list_2": "в местах, где их вряд ли быстро уберут (стикеры не оставляют постоянных повреждений)",
 	"sticker_success_list_3": "на поверхностях, к которым они легко прилипают (металл, пластик, стекло)",
 	"sticker_success_list_4": "НЕ на частной собственности, не закрывая вывески, банкоматы или бензоколонки",
 	"sticker_success_3": "Хотите посмотреть, где другие люди размещают свои стикеры?",
-	"sticker_success_flyers_bar_new": "НОВИНКА!",
-	"sticker_success_flyers_bar_cta": "Распечатайте и расклейте листовки о Биткоине →"
+	"sticker_success_hero_title": "Ваши наклейки в пути 🎉",
+	"sticker_success_tips_header": "Хорошие места для наклеек",
+	"sticker_success_share_header": "Поделитесь, где разместили наклейки",
+	"sticker_success_bulk_header": "Нужно больше наклеек?",
+	"sticker_success_btn_order_bulk": "Заказать оптом",
+	"sticker_success_btn_share_on_nostr": "Поделиться на Nostr",
+	"sticker_success_btn_what_is_nostr": "Что такое Nostr?"
 }

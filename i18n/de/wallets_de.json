@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-30",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-Wallet Anleitung",
 	"wallets_description": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du diese einfachen Fragen stellst.",
 	"wallets_header": "WIE DU DEINE BITCOIN SICHER VERWAHRST",
+	"wallets_header_subtitle": "Eine Schritt-für-Schritt-Anleitung, wie Du eine Wallet auswählst, Deine Schlüssel schützt und die volle Kontrolle über Deinen Bitcoin übernimmst.",
 	"wallets_s1_c1": "Bitcoin-Wallets sind interoperabel, d.h. Du kannst Bitcoin an jeden schicken, egal welche Wallet er benutzt.",
 	"wallets_s1_c2": "Es gibt viele verschiedene Bitcoin-Wallets, die sich in wichtigen Punkten unterscheiden. Du kannst herausfinden, ob eine Wallet die richtige für Dich ist, indem Du diese einfachen Fragen stellst:",
 	"wallets_question_1": "IST ES EINE SELBSTVERWAHRENDE WALLET?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp hat 70 Stahl-Backup-Kits getestet, um Dir bei der Auswahl des richtigen zu helfen.",
 	"wallets_s6_c5": "Sieh Dir hier Jamesons Metall-Bitcoin-Backup-Guide an.",
 	"wallets_s6_c6": "Oder scrolle weiter, um Bitcoin-Wallet-Optionen zu entdecken.",
+	"wallets_grid_heading": "Beliebte Bitcoin-Wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "Suchst du nach unserer Lightning-Wallet Anleitung?",
 	"wallets_starter_wallet": "Ideale Wallet für Einsteiger",
 	"wallets_mobile_app": "Mobile App",
@@ -62,5 +65,13 @@
 	"wallets_battery": "Wiederaufladbarer Akku",
 	"wallets_build_your_own": "Baue dein Eigenes",
 	"wallets_qwerty_keyboard": "Vollständige QWERTY-Tastatur",
-	"wallets_qr_scanner": "QR-Code-Scanner"
+	"wallets_qr_scanner": "QR-Code-Scanner",
+	"sources_bitcoin_org_choose": "Bitcoin.org — Wähle Deine Wallet",
+	"sources_jameson_lopp": "Jameson Lopp — Bewertungen von Metall-Backups für Bitcoin-Seeds",
+	"sources_blockstream_green": "Blockstream Green — Bitcoin-Wallet mit Selbstverwahrung",
+	"sources_blockstream_jade": "Blockstream Jade — Bitcoin-Hardware-Wallet",
+	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 Hardware-Wallet",
+	"sources_coldcard_q": "Coinkite — Coldcard Q Hardware-Wallet",
+	"sources_passport": "Foundation Devices — Passport Hardware-Wallet",
+	"sources_seedsigner": "SeedSigner — Open-Source-DIY-Gerät zum Signieren von Bitcoin-Transaktionen"
 }

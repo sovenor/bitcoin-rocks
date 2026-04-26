@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "hi"
 	},
 	"bitcoin_accepted_here_stickers": "'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर",
-	"stickers_header": "मुफ़्त 'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर पाएं",
-	"stickers_request": "मुफ़्त स्टिकर पाएं",
-	"stickers_request_details": "इन मुफ़्त 'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर से अपने ग्राहकों को बताएं कि आप Bitcoin भुगतान स्वीकार करते हैं।",
-	"stickers_country_global_print": "वैश्विक — मैं खुद स्टिकर प्रिंट करूंगा",
-	"stickers_request_instructions": "आपको साधारण सफ़ेद लिफ़ाफ़े में तीन 'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर मिलेंगे। अगर आपके व्यवसाय को तीन से अधिक स्टिकर चाहिए, तो बेझिझक कई बार अनुरोध करें। पता जानकारी मुफ़्त स्टिकर भेजने के बाद हटा दी जाती है।",
-	"stickers_print_details": "आप कहीं भी रहें, अपने खुद के 'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर प्रिंट कर सकते हैं! स्टिकर फ़ाइलें और निर्देश देखने के लिए नीचे अपनी भाषा पर क्लिक करें।",
-	"stickers_request_language": "अपनी भाषा नहीं दिख रही? नीचे फ़ॉर्म भरकर अपनी भाषा में 'यहाँ Bitcoin स्वीकार किया जाता है' स्टिकर फ़ाइलों का अनुरोध करें।"
+	"biz_stickers_hero_title": "मुफ़्त \"Bitcoin Accepted Here\" स्टिकर",
+	"biz_stickers_hero_subtitle": "अपने ग्राहकों को बताएँ कि आप बिटकॉइन स्वीकार करते हैं। अपनी जगह पर लगाने के लिए मुफ़्त \"Bitcoin Accepted Here\" स्टिकरों के एक पैक का अनुरोध करें।",
+	"biz_stickers_intro_c1": "बिटकॉइन स्वीकार करना केवल आधा काम है — आपके ग्राहकों को भी इसका पता होना चाहिए। ये छोटे \"Bitcoin Accepted Here\" स्टिकर मुख्य प्रवेश द्वार, रजिस्टर, मेन्यू या जहाँ कहीं ग्राहक भुगतान करते हैं वहाँ चिपकाने के लिए डिज़ाइन किए गए हैं।",
+	"biz_stickers_intro_c2": "हम अमेरिका या कनाडा के हर पते पर एक मुफ़्त पैक भेजते हैं, या आप दुनिया में कहीं भी ख़ुद अपने स्टिकर प्रिंट कर सकते हैं।",
+	"biz_stickers_step_header": "आप अपने स्टिकर कैसे चाहते हैं?",
+	"biz_stickers_step_description": "हम अमेरिका और कनाडा के पतों पर मुफ़्त पैक भेजते हैं। दुनिया के बाकी हिस्सों में आप अपने स्टिकर ख़ुद प्रिंट कर सकते हैं।",
+	"biz_stickers_option_usa": "🇺🇸 अमेरिका — मुफ़्त मेल",
+	"biz_stickers_option_canada": "🇨🇦 कनाडा — मुफ़्त मेल",
+	"biz_stickers_option_print": "🌍 वैश्विक — ख़ुद प्रिंट करें",
+	"biz_stickers_print_header": "अपनी स्टिकर फ़ाइलें ख़ुद प्रिंट करें",
+	"biz_stickers_print_c1": "दुनिया में कहीं भी आप रहते हों, आप ख़ुद अपने \"Bitcoin Accepted Here\" स्टिकर प्रिंट कर सकते हैं। स्टिकर फ़ाइलें और प्रिंटिंग निर्देश डाउनलोड करने के लिए नीचे अपनी भाषा पर क्लिक करें।",
+	"biz_stickers_request_header": "अपनी भाषा नहीं देख रहे?",
+	"biz_stickers_request_c1": "अपनी स्थानीय भाषा में \"Bitcoin Accepted Here\" स्टिकर फ़ाइलों का अनुरोध करने के लिए नीचे दिया गया फ़ॉर्म भरें। तैयार होने पर हम आपको बताएँगे।",
+	"biz_stickers_placeholder_translation1": "\"Bitcoin Accepted Here\" वाक्यांश का अनुवाद",
+	"biz_stickers_placeholder_translation2": "\"Scan to learn why Bitcoin is good for business.\" वाक्यांश का अनुवाद",
+	"stickers_request": "मुफ़्त स्टिकर पाएं"
 }

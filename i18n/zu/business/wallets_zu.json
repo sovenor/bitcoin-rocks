@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-01",
+		"last-updated": "2026-04-25",
 		"locale": "zu"
 	},
 	"how_to_accept_bitcoin_payments": "Indlela Yokwamukela Izinkokhelo ze-Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Izikhwama ezihlangene:",
 	"wallets_intro_5": "Lezi zikuvumela ukushintshanisa noma iyiphi ingxenye ye-Bitcoin yakho ngamadola ngokushesha lapho ikhasimende likukhokha. Izimali zisaphansi kunanezinkokhelo zamakhadi esikweletu, kodwa ziphezulu kunanezinkokhelo ze-Bitcoin ezimsulwa.",
 	"wallets_intro_6": "Zombili ziyizindlela ezinhle zokwamukela i-Bitcoin. Isikhwama esithile osisebenzisayo sizoncika ebukhulwini nohlobo lwebhizinisi lakho.",
-	"wallets_choice_sole": "izikhwama zamabhizinisi aphethwe ngabanye",
-	"wallets_choice_multiple": "izikhwama zamabhizinisi anesisebenzi esiningi",
-	"wallets_choice_online": "izikhwama zamabhizinisi aku-inthanethi",
-	"wallets_choice_invoice": "izikhwama zamabhizinisi asebenzisa izinkokhiso",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Ihoste ngokwakho = 0% yezimali",
 	"wallets_feature_online_store": "Ukuhlanganiswa kwesitolo saku-inthanethi",
 	"wallets_feature_invoicing": "Isoftware yokukhokhisa yamahhala",
-	"wallets_get_wallet": "THOLA ISIKHWAMA"
+	"wallets_get_wallet": "THOLA ISIKHWAMA",
+	"wallets_hero_subtitle": "Izikhwama ze-Bitcoin zimahhala. Khetha esihambelana nebhizinisi lakho — phambili komuntu, online, noma esekelwe ezi-invoyisi — futhi uqale ukwamukela i-Bitcoin ngemizuzu.",
+	"wallets_section_sole": "Izikhwama zamabhizinisi aphethwe ngabantu ngabodwana",
+	"wallets_section_sole_intro": "Uma uphethe isitolo, ikhefi, isitudiyo, noma insizakalo wedwa, noma yisiphi salezi zikhwama sizosebenza. Khetha kusekelwe ekutheni ufuna ukugcina izinkokhelo nge-Bitcoin noma ushintshele ngokuzenzakalelayo ingxenye yenkokhelo nganye eye kumali yakho yendawo.",
+	"wallets_section_multiple": "Izikhwama zamabhizinisi anabasebenzi abaningi",
+	"wallets_section_multiple_intro": "Uma uneqembu elithatha izinkokhelo emshinini wokukhokha, khetha isikhwama esivumela ukungena kwabasebenzi abaningi — ngakho wonke umsebenzi uthola i-PIN yakhe futhi ugcine umkhondo ohlanzekile wokuhlola wokuthi ngubani othathe yiphi inkokhelo.",
+	"wallets_section_online": "Izikhwama zamabhizinisi e-online",
+	"wallets_section_online_intro": "Uthengisa kuwebhusayithi? Lezi zikhwama ziyaxhumana esitolo sakho se-online futhi zamukela i-Bitcoin kunoma yiliphi ikhasimende, kunoma kuphi emhlabeni — akukho kubuyiselwa, akudingeki i-akhawunti yomthengisi.",
+	"wallets_section_invoice": "Izikhwama zamabhizinisi asekelwe ezi-invoyisi",
+	"wallets_section_invoice_intro": "Uma uthumela izi-invoyisi kumakhasimende (ukucebisa, ukusebenza ngokuzimela, izinsizakalo ze-B2B), sebenzisa isikhwama esakhelwe ekuthumeleni izi-invoyisi. Ikhasimende lakho likhokha i-invoyisi ye-Bitcoin ngokuchofoza okumbalwa.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "I-Strike Business ikuvumela ukwamukela izinkokhelo ze-Bitcoin ne-Lightning ngezimali ezingu-zero futhi nokuxazulula ngokushesha. Isekela izinkokhelo zomuntu obonayo, e-online, nezisekelwe ezi-invoyisi nge-conversion ezenzakalelayo eya kumali yakho yendawo.",
+	"sources_square": "Square — Accept Bitcoin payments",
+	"sources_breez_business": "Breez — Bitcoin-only Lightning wallet",
+	"sources_opennode": "OpenNode — Bitcoin payment processor",
+	"sources_ibex": "IBEX — Lightning payments infrastructure",
+	"sources_zaprite": "Zaprite — Bitcoin invoicing for businesses",
+	"biz_wallets_meta_description": "Zonke izikhwama ze-Bitcoin ziyasebenzelana — khetha esihambelana nebhizinisi lakho. Mahhala, ukuxazulula ngokushesha, akukho kubuyiselwa."
 }

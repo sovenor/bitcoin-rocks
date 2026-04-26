@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "ms"
 	},
 	"bitcoin_accepted_here_stickers": "Pelekat 'Bitcoin Accepted Here'",
-	"stickers_header": "DAPATKAN PELEKAT 'BITCOIN ACCEPTED HERE' PERCUMA",
-	"stickers_request": "Dapatkan pelekat percuma",
-	"stickers_request_details": "Beritahu pelanggan anda bahawa anda menerima pembayaran Bitcoin dengan pelekat 'Bitcoin Accepted Here' percuma ini.",
-	"stickers_country_global_print": "Global — cetak sendiri",
-	"stickers_request_instructions": "Kami akan menghantar 3 pelekat 'Bitcoin Accepted Here' dalam sampul surat putih. Jika perniagaan anda memerlukan lebih daripada 3, sila minta beberapa kali. Data alamat dipadamkan selepas pelekat dihantar.",
-	"stickers_print_details": "Tidak kira di mana anda tinggal, anda boleh mencetak pelekat 'Bitcoin Accepted Here' anda sendiri! Klik pada bahasa di bawah untuk melihat fail pelekat dan arahan.",
-	"stickers_request_language": "Tidak nampak bahasa anda? Isi borang di bawah untuk meminta fail pelekat 'Bitcoin Accepted Here' dalam bahasa anda."
+	"biz_stickers_hero_title": "Pelekat 'Bitcoin Diterima Di Sini' percuma",
+	"biz_stickers_hero_subtitle": "Beritahu pelanggan anda bahawa anda menerima Bitcoin. Pesan pek pelekat 'Bitcoin Diterima Di Sini' percuma untuk dipasang di perniagaan anda.",
+	"biz_stickers_intro_c1": "Menerima Bitcoin hanyalah separuh kerja — pelanggan anda juga perlu tahu bahawa anda melakukannya. Pelekat kecil 'Bitcoin Diterima Di Sini' ini direka untuk ditampal di pintu hadapan, daftar tunai, menu, atau di mana sahaja pelanggan akan melihatnya sebelum mereka membayar.",
+	"biz_stickers_intro_c2": "Kami akan menghantar pek percuma kepada anda di mana sahaja di AS atau Kanada, atau anda boleh mencetak sendiri di mana sahaja di dunia.",
+	"biz_stickers_step_header": "Bagaimana anda mahu mendapatkan pelekat anda?",
+	"biz_stickers_step_description": "Kami akan menghantar pek percuma ke alamat di AS dan Kanada. Di mana sahaja di dunia, anda boleh mencetak sendiri.",
+	"biz_stickers_option_usa": "🇺🇸 AS — Percuma melalui pos",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Percuma melalui pos",
+	"biz_stickers_option_print": "🌍 Global — Cetak sendiri",
+	"biz_stickers_print_header": "Cetak sendiri fail pelekat",
+	"biz_stickers_print_c1": "Anda boleh mencetak sendiri pelekat 'Bitcoin Diterima Di Sini', tidak kira di mana anda tinggal. Klik bahasa anda di bawah untuk memuat turun fail pelekat dan arahan pencetakan.",
+	"biz_stickers_request_header": "Tidak nampak bahasa anda?",
+	"biz_stickers_request_c1": "Isi borang di bawah untuk meminta fail pelekat 'Bitcoin Diterima Di Sini' dalam bahasa tempatan anda. Kami akan memberitahu anda apabila ia siap.",
+	"biz_stickers_placeholder_translation1": "Terjemahan untuk 'Bitcoin Diterima Di Sini'",
+	"biz_stickers_placeholder_translation2": "Terjemahan untuk 'Imbas untuk mengetahui mengapa Bitcoin baik untuk perniagaan.'",
+	"stickers_request": "Dapatkan pelekat percuma"
 }

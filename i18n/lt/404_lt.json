@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "lt"
 	},
 	"404_title": "404 klaida | Puslapis nerastas",
-	"404_message": "Šis sugedęs puslapis visiškai neatrodo šauniai",
-	"404_home": "Grįžti į pagrindinį puslapį"
+	"404_message": "Bitcoin yra puikus, bet šis puslapis neveikia.",
+	"404_home": "Grįžti į pradžią",
+	"404_not_found_short": "Nerasta"
 }

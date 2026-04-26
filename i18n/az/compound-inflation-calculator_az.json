@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-23",
 		"locale": "az"
 	},
 	"cic_header": "MÜRƏKKƏB İNFLYASİYA KALKULYATORU",
 	"cic_description": "Bu Mürəkkəb İnflyasiya Kalkulyatoru ilə maaşınızın inflyasiya ilə ayaqlaşmaq üçün nə qədər artması lazım olduğunu öyrənin.",
-	"what_can_i_do_about": "İnflyasiya haqqında",
-	"what_can_i_do_about_2": "nə edə bilərəm?",
-	"cic_inflation_cta": "Bitcoin ilə İnflyasiyadan Çıxın"
+	"cic_hero_subtitle": "Maaşınızın inflyasiya ilə ayaqlaşması üçün nə qədər artması lazım olduğunu görün.",
+	"cic_calculator_heading": "İnflyasiya boşluğunuzu hesablayın",
+	"cic_cta_label": "Növbəti addım",
+	"cic_inflation_cta": "Bitcoin ilə İnflyasiyadan Çıxın",
+	"cic_next_learn_inflation": "İnflyasiyanın necə işlədiyini öyrənin",
+	"cic_next_explore_topics": "Daha çox mövzu kəşf edin",
+	"cic_next_explore_topics_desc": "Bitcoin-in pul, azadlıq, enerji və daha çoxu ilə necə əlaqəli olduğunu görün.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — şəhər bölgələrindəki bütün istehlakçılar üçün istehlak qiymətləri indeksi",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — M1 pul təklifi"
 }

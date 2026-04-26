@@ -3,16 +3,20 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
 	"sticker_success_1": "আপনার স্টিকার ২ থেকে ৪ সপ্তাহের মধ্যে পৌঁছাবে। অপেক্ষা করার সময়, আপনার স্টিকার লাগানোর জন্য ভালো জায়গা ভাবুন!",
-	"sticker_success_2": "ভালো স্টিকার স্পট হলো:",
 	"sticker_success_list_1": "জনসমক্ষে যেখানে মানুষ দেখতে পাবে",
 	"sticker_success_list_2": "এমন জায়গায় যেখান থেকে দ্রুত সরানো হবে না (স্টিকারগুলো কোনো স্থায়ী ক্ষতি করে না)",
 	"sticker_success_list_3": "এমন পৃষ্ঠতলে যেখানে সহজে লাগবে (ধাতু, প্লাস্টিক, কাচ)",
 	"sticker_success_list_4": "ব্যক্তিগত সম্পত্তি, সাইনবোর্ড, ATM, বা গ্যাস পাম্পে নয়",
 	"sticker_success_3": "অন্যরা তাদের স্টিকার কোথায় লাগাচ্ছে দেখতে চান?",
-	"sticker_success_flyers_bar_new": "নতুন!",
-	"sticker_success_flyers_bar_cta": "Bitcoin ফ্লায়ার প্রিন্ট করুন ও পোস্ট করুন →"
+	"sticker_success_hero_title": "আপনার স্টিকার পথে 🎉",
+	"sticker_success_tips_header": "স্টিকারের জন্য ভাল জায়গা",
+	"sticker_success_share_header": "আপনার স্টিকার কোথায় তা শেয়ার করুন",
+	"sticker_success_bulk_header": "আরও স্টিকার চান?",
+	"sticker_success_btn_order_bulk": "বাল্ক অর্ডার",
+	"sticker_success_btn_share_on_nostr": "Nostr-এ শেয়ার করুন",
+	"sticker_success_btn_what_is_nostr": "Nostr কী?"
 }

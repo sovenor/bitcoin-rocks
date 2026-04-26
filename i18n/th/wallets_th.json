@@ -3,12 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-14",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
 	"bitcoin_wallet_guide": "คู่มือกระเป๋าเงิน Bitcoin",
 	"wallets_description": "มีกระเป๋าเงิน Bitcoin มากมายที่แตกต่างกันในลักษณะที่สำคัญ คุณสามารถระบุได้ว่ากระเป๋าเงินนั้นเหมาะกับคุณหรือไม่โดยถามคำถามง่ายๆ ข้อ",
 	"wallets_header": "วิธีจัดเก็บ BITCOIN ของคุณอย่างปลอดภัย",
+	"wallets_header_subtitle": "คู่มือทีละขั้นตอนในการเลือกกระเป๋าเงิน ปกป้องกุญแจของคุณ และควบคุม Bitcoin ของคุณอย่างเต็มที่",
 	"wallets_s1_c1": "Bitcoin wallets ทำงานร่วมกันได้ ดังนั้นคุณจึงสามารถส่ง Bitcoin ไปให้ใครก็ได้ไม่ว่าพวกเขาจะใช้กระเป๋าเงินใบใดก็ตาม.",
 	"wallets_s1_c2": "มีกระเป๋าเงิน Bitcoin มากมายที่แตกต่างกันในลักษณะที่สำคัญ คุณสามารถระบุได้ว่ากระเป๋าเงินนั้นเหมาะกับคุณหรือไม่โดยถามคำถามง่ายๆ ข้อ:",
 	"wallets_question_1": "มันเป็นกระเป๋าเงินที่ดูแลตนเองหรือไม่?",
@@ -37,12 +38,14 @@
 	"wallets_s6_c4": "Jameson Lopp ได้ทดสอบชุดสำรองข้อมูลเหล็ก 70 ชุดเพื่อช่วยให้คุณเลือกชุดที่เหมาะกับคุณ.",
 	"wallets_s6_c5": "ดูคู่มือสำรองข้อมูล Bitcoin บนโลหะของ Jameson ที่นี่.",
 	"wallets_s6_c6": "หรือเลื่อนต่อเพื่อสำรวจตัวเลือกกระเป๋าเงิน Bitcoin.",
+	"wallets_grid_heading": "กระเป๋าเงิน Bitcoin ยอดนิยม",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
 	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
+	"wallets_lightning_cta_label": "Lightning Network",
 	"wallets_cta_lightning": "กำลังมองหาคู่มือ Lightning Wallet ของเราอยู่ใช่ไหม?",
 	"wallets_starter_wallet": "กระเป๋าสตางค์ที่ดีสำหรับมือใหม่",
 	"wallets_mobile_app": "แอพมือถือ",
@@ -62,5 +65,13 @@
 	"wallets_battery": "แบตเตอรี่แบบชาร์จไฟได้",
 	"wallets_build_your_own": "ประกอบของคุณเอง",
 	"wallets_qwerty_keyboard": "คีย์บอร์ด QWERTY เต็มรูปแบบ",
-	"wallets_qr_scanner": "เครื่องสแกนรหัส QR"
+	"wallets_qr_scanner": "เครื่องสแกนรหัส QR",
+	"sources_bitcoin_org_choose": "Bitcoin.org — เลือกกระเป๋าเงินของคุณ",
+	"sources_jameson_lopp": "Jameson Lopp — รีวิวที่เก็บเมล็ดพันธุ์ Bitcoin แบบโลหะ",
+	"sources_blockstream_green": "Blockstream Green — กระเป๋าเงิน Bitcoin เก็บกุญแจเอง",
+	"sources_blockstream_jade": "Blockstream Jade — กระเป๋าเงินฮาร์ดแวร์ Bitcoin",
+	"sources_coldcard_mk5": "Coinkite — กระเป๋าเงินฮาร์ดแวร์ Coldcard MK5",
+	"sources_coldcard_q": "Coinkite — กระเป๋าเงินฮาร์ดแวร์ Coldcard Q",
+	"sources_passport": "Foundation Devices — กระเป๋าเงินฮาร์ดแวร์ Passport",
+	"sources_seedsigner": "SeedSigner — อุปกรณ์เซ็น Bitcoin แบบ DIY โอเพนซอร์ส"
 }

@@ -3,9 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
-	"compound_inflation_calculator": "Na'urar Lissafin Hauhawar Farashi ta Tara",
-	"cic_description": "Mutane da yawa sun san game da Ribar Tara, amma kaɗan ne suka san game da Hauhawar Farashi ta Tara. Yi amfani da na'urar lissafin hauhawar farashi ta tara don ganin yadda albashinku ke buƙatar ƙaruwa don kula da ikon sayan ku."
+	"cic_header": "Na'urar Lissafin Hauhawar Farashi ta Tara",
+	"cic_description": "Mutane da yawa sun san game da Ribar Tara, amma kaɗan ne suka san game da Hauhawar Farashi ta Tara. Yi amfani da na'urar lissafin hauhawar farashi ta tara don ganin yadda albashinku ke buƙatar ƙaruwa don kula da ikon sayan ku.",
+	"cic_hero_subtitle": "Gano nawa albashinka ya kamata ya ƙaru don ci gaba da hauhawar farashi.",
+	"cic_calculator_heading": "Lissafa giɓin hauhawar farashinka",
+	"cic_cta_label": "Mataki na gaba",
+	"cic_inflation_cta": "Fita daga hauhawar farashi tare da Bitcoin",
+	"cic_next_learn_inflation": "Koyi yadda hauhawar farashi ke aiki",
+	"cic_next_explore_topics": "Bincika wasu batutuwa",
+	"cic_next_explore_topics_desc": "Duba yadda Bitcoin ke da alaƙa da kuɗi, 'yanci, makamashi da ƙari.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — fihirisar farashin masu siye ga duk masu sayan birane",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — wadatar kuɗin M1"
 }

@@ -3,9 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "si"
 	},
-	"biz_sticker_language_success_1": "ඔබේ ඉල්ලීම සාර්ථකව ලැබුණි.",
-	"biz_sticker_language_success_2": "අපි අලුත් පිලිගැන්වීම් කටස්වලින් ප්‍රකාශනය කරන බැවින් මෙම පිලිගැන්වීම් බාගත හැකි වන්නට සති කිපයක් ගතවීම පුළුවන්. කරුණාකර නැවත පැමිණෙන්න!"
+	"biz_sticker_language_success_hero_title": "ඉල්ලීම ලැබුණා 🎉",
+	"biz_sticker_language_success_hero_subtitle": "ඔබේ භාෂාවෙන් \"අපි Bitcoin පිළිගනිමු\" ස්ටිකර ගොනු ඉල්ලීම සඳහා ස්තූතියි.",
+	"biz_sticker_language_success_timeline_header": "ඊළඟට කුමක්ද",
+	"biz_sticker_language_success_timeline_c1": "අපි සති 3-4 ක් ඇතුළත ඔබේ ස්ටිකර ගොනු සාදා පළ කරන්නෙමු. ඒවා සූදානම් වූ පසු, ඔබට ස්ටිකර ගොනු පිටුවෙන් නොමිලේ බාගත කර මුද්‍රණය කළ හැකිය.",
+	"biz_sticker_language_success_timeline_c2": "ස්ටිකර ගොනු කණ්ඩායම්වලින් නිකුත් කෙරේ, එබැවින් ඔබේ භාෂාව සක්‍රීය වීමට සති කිහිපයක් ගත විය හැකිය. ඉවසීමට ස්තූතියි!"
 }

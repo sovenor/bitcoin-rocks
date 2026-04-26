@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-25",
 		"locale": "tl"
 	},
-	"sticker_success_details": "Matatanggap mo ang iyong mga sticker sa loob ng 1 hanggang 2 linggo sa isang plain na puting sobre. Bawat sobre ay may kasamang 3 sticker. Kung kailangan mo ng higit sa 3 sticker para sa iyong negosyo, huwag mag-atubiling humiling ng isa pang pack!"
+	"biz_sticker_success_hero_title": "Papunta na ang iyong mga sticker 🎉",
+	"biz_sticker_success_hero_subtitle": "Matatanggap mo ang iyong mga libreng „Bitcoin Accepted Here“ sticker sa loob ng 2 hanggang 4 na linggo, sa isang plain na puting sobre na may 3 sticker sa loob.",
+	"biz_sticker_success_tips_header": "Magagandang lugar na paglagyan ng iyong mga sticker",
+	"biz_sticker_success_tip_1": "Sa harap ng iyong pintuan o bintana para makita ng mga kustomer bago sila pumasok",
+	"biz_sticker_success_tip_2": "Malapit sa iyong register, POS terminal, o lugar ng pagbabayad",
+	"biz_sticker_success_tip_3": "Sa mga menu, listahan ng presyo, o tip jar",
+	"biz_sticker_success_tip_4": "Huwag idikit ang mga ito sa lugar na hindi mo pag-aari o walang pahintulot na ilagay ang mga ito",
+	"biz_sticker_success_more_header": "Kailangan ng mas maraming sticker?",
+	"biz_sticker_success_more_c1": "Kung hindi sapat ang 3 sticker para sa iyong negosyo, malaya kang humiling ng isa pang libreng pack — o mag-order in bulk mula sa parehong printer na ginagamit namin.",
+	"biz_sticker_success_btn_order_bulk": "Mag-order in bulk",
+	"biz_sticker_success_btn_request_more": "Humiling ng isa pang libreng pack"
 }

@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-09-28",
+		"last-updated": "2026-04-24",
 		"locale": "es"
 	},
-	"sticker_language_timeline": "Crearemos y publicaremos tu archivo de sticker en un plazo de 3 a 4 semanas. Gracias por tu paciencia!"
+	"biz_sticker_language_success_hero_title": "Solicitud recibida 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Gracias por solicitar archivos de pegatinas de «Se acepta Bitcoin aquí» en tu idioma.",
+	"biz_sticker_language_success_timeline_header": "Qué sucede ahora",
+	"biz_sticker_language_success_timeline_c1": "Crearemos y publicaremos tus archivos de pegatinas en 3 o 4 semanas. Una vez estén listos, podrás descargarlos e imprimirlos gratis desde nuestra página de archivos de pegatinas.",
+	"biz_sticker_language_success_timeline_c2": "Publicamos los archivos de pegatinas en lotes, así que pueden pasar varias semanas antes de que tu idioma se active. ¡Gracias por tu paciencia!"
 }

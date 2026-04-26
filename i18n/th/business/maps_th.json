@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-25",
 		"locale": "th"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "แผนที่ผู้ค้า Bitcoin - รายชื่อธุรกิจของคุณฟรี",
-	"maps_header": "รับรายชื่อบนแผนที่ร้านค้า BITCOIN และรับลูกค้ามากขึ้น",
-	"maps_request_details": "ป้อนข้อมูลธุรกิจของคุณด้านล่าง แล้วเราจะแสดงรายการคุณบนแผนที่ผู้ค้า Bitcoin ฟรี สิ่งนี้จะช่วยให้ชาว Bitcoin สามารถค้นหาธุรกิจของคุณและใช้ Bitcoin กับธุรกิจของคุณได้!",
-	"maps_view": "ดูแผนที่ได้ที่นี่"
+	"maps_view": "ดูแผนที่ได้ที่นี่",
+	"biz_maps_hero_title": "ลงรายการธุรกิจของคุณบนแผนที่ร้านค้า Bitcoin",
+	"biz_maps_hero_subtitle": "ลงรายการธุรกิจของคุณฟรีบน BTC Map — สารบบเปิดทั่วโลกของร้านค้าที่รับ Bitcoin — เพื่อให้ Bitcoiner ใกล้เคียงค้นพบและใช้จ่าย Bitcoin ที่ธุรกิจของคุณได้",
+	"biz_maps_intro_c1": "Bitcoiner กำลังหาที่ใช้จ่ายอย่างจริงจัง การลงธุรกิจของคุณบนแผนที่ทำให้คุณปรากฏต่อหน้าผู้ใช้ Bitcoin ทุกคนที่กำลังค้นหาที่กิน ที่ช้อป หรือที่พักใกล้เคียง — โดยไม่มีค่าใช้จ่ายสำหรับคุณ",
+	"biz_maps_intro_c2": "แค่กรอกแบบฟอร์มสั้นๆ ด้านล่าง แล้วเราจะส่งธุรกิจของคุณไปยัง BTC Map และแผนที่ร้านค้า Bitcoin อื่นๆ ให้คุณ",
+	"biz_maps_view_map_cta": "ดู BTC Map",
+	"biz_maps_form_header": "บอกเราเกี่ยวกับธุรกิจของคุณ",
+	"biz_maps_form_intro": "เราต้องการรายละเอียดเพียงไม่กี่อย่างเพื่อให้คุณได้รับการลงรายการ ข้อมูลที่อยู่จะถูกเก็บเพียงนานพอที่จะส่งธุรกิจของคุณไปยังแผนที่",
+	"biz_maps_placeholder_name": "ชื่อธุรกิจ",
+	"biz_maps_placeholder_category": "หมวดหมู่ (เช่น ร้านอาหาร คาเฟ่ โรงแรม)",
+	"biz_maps_placeholder_address": "ที่อยู่",
+	"biz_maps_placeholder_city": "เมือง",
+	"biz_maps_placeholder_region": "รัฐ / จังหวัด / ภูมิภาค",
+	"biz_maps_placeholder_country": "ประเทศ",
+	"biz_maps_placeholder_website": "เว็บไซต์ (ไม่บังคับ)",
+	"biz_maps_meta_description": "ลงรายการธุรกิจของคุณฟรีบน BTC Map และแผนที่ร้านค้า Bitcoin อื่นๆ เพื่อให้ Bitcoiner ใกล้เคียงค้นพบคุณได้"
 }

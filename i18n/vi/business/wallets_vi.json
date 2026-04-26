@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "vi"
 	},
 	"how_to_accept_bitcoin_payments": "Cách Chấp Nhận Thanh Toán Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Ví hỗn hợp:",
 	"wallets_intro_5": "Cho phép bạn đổi bất kỳ phần nào Bitcoin sang đô la ngay khi khách hàng thanh toán. Phí vẫn thấp hơn thanh toán thẻ tín dụng, nhưng cao hơn thanh toán Bitcoin thuần túy.",
 	"wallets_intro_6": "Cả hai đều là cách tuyệt vời để chấp nhận Bitcoin. Ví cụ thể bạn sử dụng sẽ phụ thuộc vào quy mô và loại hình doanh nghiệp.",
-	"wallets_choice_sole": "ví cho doanh nghiệp cá nhân",
-	"wallets_choice_multiple": "ví cho doanh nghiệp có nhiều nhân viên",
-	"wallets_choice_online": "ví cho doanh nghiệp trực tuyến",
-	"wallets_choice_invoice": "ví cho doanh nghiệp dựa trên hóa đơn",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Tự lưu trữ = 0% phí",
 	"wallets_feature_online_store": "Tích hợp cửa hàng trực tuyến",
 	"wallets_feature_invoicing": "Phần mềm lập hóa đơn miễn phí",
-	"wallets_get_wallet": "TẢI VÍ"
+	"wallets_get_wallet": "TẢI VÍ",
+	"wallets_hero_subtitle": "Ví Bitcoin là miễn phí. Chọn cái phù hợp với doanh nghiệp của bạn — trực tiếp, trực tuyến hoặc dựa trên hóa đơn — và bắt đầu chấp nhận Bitcoin trong vài phút.",
+	"wallets_section_sole": "Ví cho doanh nghiệp do cá nhân sở hữu",
+	"wallets_section_sole_intro": "Nếu bạn điều hành một cửa hàng, quán cà phê, studio hoặc dịch vụ một mình, bất kỳ chiếc ví nào trong số này đều sẽ hoạt động. Hãy chọn dựa trên việc bạn muốn giữ thanh toán bằng Bitcoin hay tự động chuyển một phần mỗi thanh toán sang đồng tiền địa phương của bạn.",
+	"wallets_section_multiple": "Ví cho doanh nghiệp có nhiều nhân viên",
+	"wallets_section_multiple_intro": "Nếu bạn có một đội ngũ nhận thanh toán tại quầy, hãy chọn một chiếc ví hỗ trợ nhiều đăng nhập của nhân viên — để mỗi nhân viên có PIN riêng và bạn duy trì được dấu vết kiểm toán rõ ràng về ai đã nhận thanh toán nào.",
+	"wallets_section_online": "Ví cho doanh nghiệp trực tuyến",
+	"wallets_section_online_intro": "Bán hàng trên một trang web? Những chiếc ví này tích hợp vào cửa hàng trực tuyến của bạn và chấp nhận Bitcoin từ bất kỳ khách hàng nào, ở bất cứ đâu trên thế giới — không chargeback, không cần tài khoản thương nhân.",
+	"wallets_section_invoice": "Ví cho doanh nghiệp dựa trên hóa đơn",
+	"wallets_section_invoice_intro": "Nếu bạn lập hóa đơn cho khách hàng (tư vấn, freelance, dịch vụ B2B), hãy sử dụng một chiếc ví được xây dựng xoay quanh việc lập hóa đơn. Khách hàng của bạn thanh toán hóa đơn Bitcoin chỉ trong vài cú nhấp chuột.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business cho phép bạn chấp nhận thanh toán Bitcoin và Lightning với phí bằng không và thanh toán tức thì. Hỗ trợ thanh toán trực tiếp, trực tuyến và dựa trên hóa đơn với tùy chọn tự động chuyển sang đồng tiền địa phương của bạn.",
+	"sources_square": "Square — Chấp nhận thanh toán Bitcoin",
+	"sources_breez_business": "Breez — Ví Lightning chỉ dành cho Bitcoin",
+	"sources_opennode": "OpenNode — Đơn vị xử lý thanh toán Bitcoin",
+	"sources_ibex": "IBEX — Hạ tầng thanh toán Lightning",
+	"sources_zaprite": "Zaprite — Lập hóa đơn Bitcoin cho doanh nghiệp",
+	"biz_wallets_meta_description": "Tất cả các ví Bitcoin đều có thể tương tác với nhau — chọn cái phù hợp với doanh nghiệp của bạn. Miễn phí, thanh toán tức thì, không chargeback."
 }

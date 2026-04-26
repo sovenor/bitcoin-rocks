@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "uz"
 	},
 	"bitcoin_accepted_here_stickers": "ʻBu yerda Bitcoin qabul qilinadiʻ stikerlari",
-	"stickers_header": "BEPUL ʻBU YERDA BITCOIN QABUL QILINADIʻ STIKERLARI OLING",
-	"stickers_request": "Bepul stikerlar oling",
-	"stickers_request_details": "Ushbu bepul ʻBu yerda Bitcoin qabul qilinadiʻ stikerlari bilan mijozlaringizga Bitcoin toʻlovlarini qabul qilishingizni bildiring.",
-	"stickers_country_global_print": "Butun dunyo — Oʻzim chop etaman",
-	"stickers_request_instructions": "Oddiy oq konvertda uchta ʻBu yerda Bitcoin qabul qilinadiʻ stikeri olasiz. Biznesingiz uchun uchdan koʻp stikerga muhtoj boʻlsangiz, iltimos, bir necha marta soʻrang. Manzil maʼlumotlari bepul stikerlar yuborilgandan keyin oʻchiriladi.",
-	"stickers_print_details": "Qaerda yashasangiz ham, oʻzingizning ʻBu yerda Bitcoin qabul qilinadiʻ stikerlaringizni chop etishingiz mumkin! Stiker fayllari va koʻrsatmalarni koʻrish uchun quyida tilingizni bosing.",
-	"stickers_request_language": "Tilingizni koʻrmayapsizmi? Quyidagi formani toʻldirib, oʻz tilingizdagi ʻBu yerda Bitcoin qabul qilinadiʻ stiker fayllarini soʻrang."
+	"biz_stickers_hero_title": "Bepul ‘Bu yerda Bitcoin qabul qilinadi’ stikerlari",
+	"biz_stickers_hero_subtitle": "Mijozlarga Bitcoinni qabul qilishingizni bildiring. Biznesingizga osib qoʻyish uchun bepul ‘Bu yerda Bitcoin qabul qilinadi’ stiker toʻplamiga buyurtma bering.",
+	"biz_stickers_intro_c1": "Bitcoinni qabul qilish — vazifaning faqat yarmi; mijozlaringiz buni qilayotganingizni ham bilishlari kerak. Bu kichik ‘Bu yerda Bitcoin qabul qilinadi’ stikerlari eshigingiz, kassangiz, menyungiz yoki toʻlovdan oldin mijozlar koʻrishi mumkin boʻlgan boshqa joylarga yopishtirish uchun moʻljallangan.",
+	"biz_stickers_intro_c2": "Biz AQSh yoki Kanadaning istalgan joyiga bepul toʻplam yuboramiz, yoki dunyoning istalgan joyida oʻzingiz chop etishingiz mumkin.",
+	"biz_stickers_step_header": "Stikerlaringizni qanday olishni xohlaysiz?",
+	"biz_stickers_step_description": "AQSh va Kanadadagi manzillarga bepul toʻplam yuboramiz. Dunyoning boshqa joylarida oʻzingiz chop etishingiz mumkin.",
+	"biz_stickers_option_usa": "🇺🇸 AQSh — Pochta orqali bepul",
+	"biz_stickers_option_canada": "🇨🇦 Kanada — Pochta orqali bepul",
+	"biz_stickers_option_print": "🌍 Global — Oʻzim chop etaman",
+	"biz_stickers_print_header": "Oʻz stiker fayllaringizni chop eting",
+	"biz_stickers_print_c1": "Qayerda yashashingizdan qatʼi nazar oʻzingizning ‘Bu yerda Bitcoin qabul qilinadi’ stikerlaringizni chop etishingiz mumkin. Stiker fayllari va chop etish koʻrsatmalarini yuklab olish uchun quyida tilingizni bosing.",
+	"biz_stickers_request_header": "Tilingizni koʻrmayapsizmi?",
+	"biz_stickers_request_c1": "Mahalliy tilingizdagi ‘Bu yerda Bitcoin qabul qilinadi’ stiker fayllarini soʻrash uchun quyidagi shaklni toʻldiring. Tayyor boʻlgach sizga xabar beramiz.",
+	"biz_stickers_placeholder_translation1": "‘Bu yerda Bitcoin qabul qilinadi’ uchun tarjima",
+	"biz_stickers_placeholder_translation2": "‘Bitcoin biznes uchun nima uchun foydali ekanligini bilish uchun skan qiling.’ uchun tarjima",
+	"stickers_request": "Bepul stikerlar oling"
 }

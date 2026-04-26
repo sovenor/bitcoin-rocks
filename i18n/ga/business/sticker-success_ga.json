@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
-	"sticker_success_details": "Gheobhaidh tú do chuid greamán i gceann 1 go 2 seachtaine i gclúdach bán simplí. Cuimsíonn gach clúdach 3 ghreamán. Más mó ná 3 ghreamán atá de dhíth ort do do ghnó, bíodh deis agat pacáiste eile a iarraidh!"
+	"biz_sticker_success_hero_title": "Tá do ghreamáin ar a mbealach 🎉",
+	"biz_sticker_success_hero_subtitle": "Gheobhaidh tú do ghreamáin saor in aisce “Bitcoin Accepted Here” laistigh de 2-4 sheachtain, in imchlúdach bán simplí le 3 ghreamán.",
+	"biz_sticker_success_tips_header": "Áiteanna maithe chun do ghreamáin a chur",
+	"biz_sticker_success_tip_1": "Ar do phríomhdhoras nó ar d’fhuinneog, ionas go bhfeicfidh custaiméirí iad sula dtiocfaidh siad isteach",
+	"biz_sticker_success_tip_2": "In aice leis an bpointe díola, ar an teirminéal íocaíochta nó san áit a n-íocann custaiméirí",
+	"biz_sticker_success_tip_3": "Ar bhiachláir, liostaí praghsanna nó árthaigh síntiúis",
+	"biz_sticker_success_tip_4": "Ná cuir iad in áiteanna nach leatsa iad nó nach bhfuil cead agat greamáin a chur",
+	"biz_sticker_success_more_header": "Ag teastáil níos mó greamán?",
+	"biz_sticker_success_more_c1": "Má tá 3 ghreamán gan a bheith ag teastáil go leor do do ghnó, ná bíodh leisce ort pacáiste saor in aisce eile a iarraidh — nó ordaigh i mbulc ón gclódóir céanna a úsáidimid.",
+	"biz_sticker_success_btn_order_bulk": "Ordaigh i mbulc",
+	"biz_sticker_success_btn_request_more": "Iarr pacáiste saor in aisce eile"
 }

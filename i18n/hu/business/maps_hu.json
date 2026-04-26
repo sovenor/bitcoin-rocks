@@ -3,17 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "hu"
 	},
-	"get_listed_on_bitcoin_merchant_maps": "Kerülj fel a Bitcoin kereskedők térképére",
-	"maps_description": "Kerülj fel a Bitcoin kereskedők térképére, és juttasd el a Bitcoin felhasználókat a vállalkozásodhoz.",
-	"maps_header": "KERÜLJ FEL A BITCOIN KERESKEDŐK TÉRKÉPÉRE",
-	"maps_intro_1": "A Bitcoin kereskedők térképére felkerülve a Bitcoin felhasználók megtalálhatják a vállalkozásodat, amikor Bitcoin-barát helyeket keresnek.",
-	"maps_intro_2": "A népszerű Bitcoin kereskedők térképén való megjelenés ingyenes, és segít a Bitcoin felhasználóknak megtalálni és támogatni a vállalkozásodat.",
-	"maps_add_yourself": "Add hozzá magad ezekhez a térképekhez:",
-	"maps_btcmap": "BTC Térkép",
-	"maps_btcmap_c1": "A BTC Map egy nyílt forráskódú térkép, amely Bitcoin-barát vállalkozásokat mutat világszerte.",
-	"maps_form_header": "SEGÍTSÉGRE VAN SZÜKSÉGED A TÉRKÉPEKRE KERÜLÉSHEZ?",
-	"maps_form_intro": "Töltsd ki az alábbi űrlapot, és mi felvesszük a vállalkozásodat a népszerű Bitcoin kereskedők térképeire."
+	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin kereskedői térképek — Add hozzá a vállalkozásodat ingyen",
+	"maps_view": "Nézd meg a térképet itt.",
+	"biz_maps_hero_title": "Tedd fel a vállalkozásodat a Bitcoin kereskedői térképekre",
+	"biz_maps_hero_subtitle": "Add hozzá a vállalkozásodat ingyen a BTC Maphez — a Bitcoint elfogadó kereskedők nyílt globális katalógusához —, hogy a helyi Bitcoin-felhasználók megtaláljanak, és a vállalkozásodban költhessék el a Bitcoinjukat.",
+	"biz_maps_intro_c1": "A Bitcoin-felhasználók aktívan keresnek olyan helyeket, ahol elkölthetik a pénzüket. A térképen való megjelenés a vállalkozásodat minden Bitcoin-felhasználó elé teszi, aki a közelben keres helyet enni, vásárolni vagy megszállni — teljesen ingyen.",
+	"biz_maps_intro_c2": "Töltsd ki az alábbi rövid űrlapot, és felvesszük a vállalkozásodat a BTC Mapre és más Bitcoin kereskedői térképekre.",
+	"biz_maps_view_map_cta": "Nézd meg a BTC Mapet",
+	"biz_maps_form_header": "Mondj valamit a vállalkozásodról",
+	"biz_maps_form_intro": "Csak néhány adatra van szükségünk, hogy felvegyünk a térképekre. A címadatokat csak addig őrizzük, ameddig szükséges ahhoz, hogy a vállalkozásodat felküldjük a kereskedői térképekre.",
+	"biz_maps_placeholder_name": "Vállalkozás neve",
+	"biz_maps_placeholder_category": "Kategória (pl. étterem, kávézó, szálloda)",
+	"biz_maps_placeholder_address": "Utca, házszám",
+	"biz_maps_placeholder_city": "Város",
+	"biz_maps_placeholder_region": "Régió / megye / állam",
+	"biz_maps_placeholder_country": "Ország",
+	"biz_maps_placeholder_website": "Weboldal (opcionális)",
+	"biz_maps_meta_description": "Add hozzá a vállalkozásodat ingyen a BTC Maphez és más Bitcoin kereskedői térképekhez, hogy a helyi Bitcoin-felhasználók megtaláljanak."
 }

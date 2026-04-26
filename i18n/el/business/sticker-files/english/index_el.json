@@ -3,12 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-24",
 		"locale": "el"
 	},
-	"bitcoin_accepted_here_sticker_files": "Αρχεία αυτοκόλλητων «To Bitcoin γίνεται δεκτό εδώ»",
-	"english_bah_files_description": "Κατεβάστε τα αρχεία αυτοκόλλητων από εδώ.",
-	"english_header": "ΚΑΤΕΒΑΣΤΕ ΑΥΤΟΚΟΛΛΗΤΑ «TO BITCOIN ΓΙΝΕΤΑΙ ΔΕΚΤΟ ΕΔΩ» ΣΤΑ ΑΓΓΛΙΚΑ",
 	"english_bitcoin_accepted_here_sticker_files": "Αρχεία αυτοκόλλητων «Εδώ γίνεται δεκτό το Bitcoin» στα Αγγλικά",
-	"english_biz_sticker_files_description": "Κατεβάστε αρχεία αυτοκόλλητων στα Αγγλικά για να εκτυπώσετε τα δικά σας αυτοκόλλητα «Εδώ γίνεται δεκτό το Bitcoin»."
+	"english_biz_sticker_files_description": "Κατεβάστε αγγλικά αρχεία αυτοκόλλητων για να εκτυπώσετε τα δικά σας αυτοκόλλητα «Bitcoin γίνεται δεκτό εδώ».",
+	"biz_stickers_english_hero_title": "Κατεβάστε αγγλικά αρχεία αυτοκόλλητων «Bitcoin γίνεται δεκτό εδώ»",
+	"biz_stickers_english_hero_subtitle": "Εκτυπώστε τα δικά σας αυτοκόλλητα «Bitcoin γίνεται δεκτό εδώ» στα αγγλικά για να ενημερώσετε τους πελάτες ότι δέχεστε Bitcoin."
 }

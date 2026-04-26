@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "tr"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin işletmeler için iyidir",
-	"biz_header": "BİTCOİN İŞLETMELER İÇİN İYİDİR",
+	"business_hero_subtitle": "Daha düşük ücretlerle ödeme al, paranı anında al ve milyonlarca yeni müşteriye ulaş — sözleşme ve gizli maliyet yok.",
+	"business_intro_c1": "Bitcoin işine, ödeme almanın daha hızlı, daha ucuz ve daha gizli bir yolunu sunar. Aracı yok. Ters ibraz yok. Sözleşme yok. Sadece müşterilerinden doğrudan sana, saniyeler içinde uzlaşan para.",
+	"business_intro_c2": "Aşağıda Bitcoin'in işletmeler için neden iyi olduğunun kısa hâli ve onun altında bugün kabul etmeye başlamak için ihtiyacın olan tüm kaynaklar var.",
 	"biz_s1": "Minimum tutar olmadan düşük ücretler",
 	"biz_s1_c1": "Bitcoin, tıpkı nakit gibi doğrudan müşterilerinizden ödeme almanızı sağlar. Bitcoin ağı, yüksek ücretler alan bankalar ve kredi kartı şirketleri gibi aracılar olmadan çalışır.",
 	"biz_s2": "Anında ödeme",
@@ -18,5 +20,14 @@
 	"biz_s4": "Daha fazla müşteri kazanın",
 	"biz_s4_c1": "Milyonlarca insan Bitcoin sahibi ve onu kabul eden yerlerde harcamak istiyor.",
 	"biz_s4_c2": "Sadece Bitcoin kabul ederek, işletmeniz Bitcoin kabul eden tüccar haritalarında listelenebilir ve yeni müşterilere ücretsiz olarak ulaşabilir.",
-	"biz_s4_c3": "Bitcoin kabul etmek %100 ücretsizdir. Sözleşme veya gizli ücret yoktur."
+	"biz_s4_c3": "Bitcoin kabul etmek %100 ücretsizdir. Sözleşme veya gizli ücret yoktur.",
+	"business_resources_heading": "Bitcoin'i kabul etmek için ihtiyacın olan her şey",
+	"business_resources_intro": "Bu kaynakları kendi hızında çalış. Her biri kısa, pratik bir rehberdir.",
+	"biz_label_wallets": "CÜZDANLAR",
+	"biz_label_maps": "İŞYERİ HARİTALARI",
+	"biz_label_stickers": "ÇIKARTMALAR",
+	"biz_label_rewards": "ÖDÜLLER",
+	"biz_label_accounting": "MUHASEBE",
+	"biz_label_faq": "SSS",
+	"biz_meta_description": "İşletmende Bitcoin kabul et: daha düşük ücretler, anında ödeme, ters ibraz yok ve daha çok müşteri."
 }

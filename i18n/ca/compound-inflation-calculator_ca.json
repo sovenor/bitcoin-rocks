@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"cic_header": "CALCULADORA D'INFLACIÓ COMPOSTA",
 	"cic_description": "Utilitza la Calculadora d'Inflació Composta per saber quant ha d'augmentar el teu sou per mantenir-te al dia amb la inflació.",
-	"what_can_i_do_about": "Què puc fer",
-	"what_can_i_do_about_2": "sobre la inflació?",
-	"cic_inflation_cta": "Surt de la inflació amb Bitcoin"
+	"cic_hero_subtitle": "Mira quant ha d'augmentar el teu sou per mantenir-se al dia amb la inflació.",
+	"cic_calculator_heading": "Calcula la teva bretxa d'inflació",
+	"cic_cta_label": "Següent pas",
+	"cic_inflation_cta": "Surt de la inflació amb Bitcoin",
+	"cic_next_learn_inflation": "Aprèn com funciona la inflació",
+	"cic_next_explore_topics": "Explora més temes",
+	"cic_next_explore_topics_desc": "Mira com Bitcoin es relaciona amb els diners, la llibertat, l'energia i més.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Índex de Preus al Consum per a tots els consumidors urbans",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — oferta monetària M1"
 }

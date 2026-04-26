@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "zh"
 	},
 	"english_bitcoin_accepted_here_sticker_files": "英语「此处接受比特币」贴纸文件",
-	"english_biz_sticker_files_description": "下载英语贴纸文件，打印您自己的「此处接受比特币」贴纸。",
-	"english_header": "下载英语「此处接受比特币」贴纸文件"
+	"english_biz_sticker_files_description": "下载英文贴纸文件，自己打印「这里接受比特币」贴纸。",
+	"biz_stickers_english_hero_title": "下载英文「这里接受比特币」贴纸文件",
+	"biz_stickers_english_hero_subtitle": "打印您自己的英文「这里接受比特币」贴纸，让客户知道您接受比特币。"
 }

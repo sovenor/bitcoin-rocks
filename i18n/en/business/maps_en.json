@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-04-07",
+		"last-updated": "2026-04-23",
 		"locale": "en"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Bitcoin Merchant Maps - List your business for free",
-	"maps_header": "GET LISTED ON BITCOIN MERCHANT MAPS & GET MORE CUSTOMERS",
-	"maps_request_details": "Enter your business info below and we'll list you on Bitcoin merchant maps for free. This will enable Bitcoiners to find your business and spend their Bitcoin at your business!",
-	"maps_view": "View the map here."
+	"maps_view": "View the map here.",
+	"biz_maps_hero_title": "Get your business on Bitcoin merchant maps",
+	"biz_maps_hero_subtitle": "List your business for free on BTC Map — the open, worldwide directory of Bitcoin-accepting merchants — so Bitcoiners nearby can find you and spend Bitcoin at your business.",
+	"biz_maps_intro_c1": "Bitcoiners actively look for places to spend. Getting your business on the map puts you in front of every Bitcoin user searching for somewhere to eat, shop, or stay nearby — at zero cost to you.",
+	"biz_maps_intro_c2": "Just fill out the short form below and we'll submit your business to BTC Map and other Bitcoin merchant maps for you.",
+	"biz_maps_view_map_cta": "View the BTC Map",
+	"biz_maps_form_header": "Tell us about your business",
+	"biz_maps_form_intro": "We only need a few details to get you listed. Address data is kept only long enough to submit your business to the maps.",
+	"biz_maps_placeholder_name": "Business name",
+	"biz_maps_placeholder_category": "Category (e.g. restaurant, cafe, hotel)",
+	"biz_maps_placeholder_address": "Street address",
+	"biz_maps_placeholder_city": "City",
+	"biz_maps_placeholder_region": "State / Province / Region",
+	"biz_maps_placeholder_country": "Country",
+	"biz_maps_placeholder_website": "Website (optional)",
+	"biz_maps_meta_description": "List your business for free on BTC Map and other Bitcoin merchant maps so Bitcoiners nearby can find you."
 }

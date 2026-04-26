@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-02",
+		"last-updated": "2026-04-25",
 		"locale": "ny"
 	},
 	"404_title": "Cholakwika 404 | Tsamba Sinapezeke",
-	"404_message": "TSAMBA YOTHASIKAYI SINDIYABWINO NGAKHALE PANG'ONO",
-	"404_home": "BWERERANI KU TSAMBA LALIKULU"
+	"404_message": "Bitcoin ndi yabwino, koma tsamba lothasikali silili choncho.",
+	"404_home": "Bwerera ku Tsamba Lalikulu",
+	"404_not_found_short": "Sapezeka"
 }

@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "bn"
 	},
-	"sticker_language_timeline": "আমরা ৩ থেকে ৪ সপ্তাহের মধ্যে আপনার স্টিকার ফাইল তৈরি এবং প্রকাশ করবো। আপনার ধৈর্যের জন্য ধন্যবাদ!"
+	"biz_sticker_language_success_hero_title": "অনুরোধ গ্রহণ করা হয়েছে 🎉",
+	"biz_sticker_language_success_hero_subtitle": "আপনার ভাষায় \"আমরা Bitcoin গ্রহণ করি\" স্টিকার ফাইল অনুরোধের জন্য ধন্যবাদ।",
+	"biz_sticker_language_success_timeline_header": "পরবর্তী কী",
+	"biz_sticker_language_success_timeline_c1": "আমরা ৩-৪ সপ্তাহের মধ্যে আপনার স্টিকার ফাইল তৈরি এবং পোস্ট করব। সেগুলি প্রস্তুত হয়ে গেলে, আপনি স্টিকার ফাইল পৃষ্ঠা থেকে বিনামূল্যে ডাউনলোড এবং প্রিন্ট করতে পারবেন।",
+	"biz_sticker_language_success_timeline_c2": "স্টিকার ফাইলগুলি ব্যাচে প্রকাশিত হয়, তাই আপনার ভাষা সক্রিয় হতে কয়েক সপ্তাহ সময় লাগতে পারে। ধৈর্যের জন্য ধন্যবাদ!"
 }

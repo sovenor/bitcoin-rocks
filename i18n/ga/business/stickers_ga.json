@@ -3,15 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-24",
 		"locale": "ga"
 	},
 	"bitcoin_accepted_here_stickers": "Greamáin 'Glactar le Bitcoin Anseo'",
-	"stickers_header": "FAIGH DO GHREAMÁIN 'GLACTAR LE BITCOIN ANSEO' SAOR IN AISCE",
-	"stickers_request": "Faigh do ghreamáin saor in aisce",
-	"stickers_request_details": "Cuir in iúl do do chustaiméirí go nglacann tú le híocaíochtaí Bitcoin leis na greamáin 'Glactar le Bitcoin Anseo' saor in aisce seo.",
-	"stickers_country_global_print": "Domhanda — Priontáil mo ghreamáin féin",
-	"stickers_request_instructions": "Gheobhaidh tú trí ghreamán 'Glactar le Bitcoin Anseo' i gclúdach bán simplí. Más mó ná trí ghreamán atá de dhíth ort do do ghnó, bíodh deis agat iarraidh arís. Scriostar sonraí seoltaí tar éis do ghreamáin saor in aisce a sheoladh.",
-	"stickers_print_details": "Is féidir leat do ghreamáin 'Glactar le Bitcoin Anseo' féin a phriontáil, is cuma cá bhfuil tú! Cliceáil ar do theanga thíos chun na comhaid ghreamán & treoracha a fheiceáil.",
-	"stickers_request_language": "Nach bhfeiceann tú do theanga? Líon an fhoirm thíos chun comhaid ghreamán 'Glactar le Bitcoin Anseo' i do theanga áitiúil a iarraidh."
+	"biz_stickers_hero_title": "Greamáin saor in aisce “Bitcoin Accepted Here”",
+	"biz_stickers_hero_subtitle": "Cuir in iúl do chustaiméirí go nglacann tú le Bitcoin. Ordaigh pacáiste saor in aisce de ghreamáin “Bitcoin Accepted Here” le cur i do ghnó.",
+	"biz_stickers_intro_c1": "Is leath den obair é glacadh le Bitcoin — ní mór do do chustaiméirí é a fhios freisin. Tá na greamáin bheaga “Bitcoin Accepted Here” deartha le cur ar an doras tosaigh, ag an bpointe díola, ar an mbiachlár nó áit ar bith a fheicfidh custaiméirí iad sula n-íocann siad.",
+	"biz_stickers_intro_c2": "Cuirfimid pacáiste saor in aisce chugat chuig seoladh ar bith sna Stáit Aontaithe nó i gCeanada, nó is féidir leat do chinn féin a phriontáil áit ar bith ar domhan.",
+	"biz_stickers_step_header": "Conas ar mhaith leat do ghreamáin?",
+	"biz_stickers_step_description": "Cuirimid pacáistí saor in aisce chuig seoltaí sna Stáit Aontaithe agus i gCeanada. Áit ar bith eile ar domhan, is féidir leat do chinn féin a phriontáil.",
+	"biz_stickers_option_usa": "🇺🇸 Stáit Aontaithe — saor in aisce sa phost",
+	"biz_stickers_option_canada": "🇨🇦 Ceanada — saor in aisce sa phost",
+	"biz_stickers_option_print": "🌍 Ar fud an domhain — priontáil do chinn féin",
+	"biz_stickers_print_header": "Priontáil do chomhaid ghreamán féin",
+	"biz_stickers_print_c1": "Is féidir leat do ghreamáin féin “Bitcoin Accepted Here” a phriontáil cibé áit a bhfuil tú. Cliceáil ar do theanga thíos chun na comhaid ghreamán agus na treoracha priontála a íoslódáil.",
+	"biz_stickers_request_header": "Nach bhfeiceann tú do theanga?",
+	"biz_stickers_request_c1": "Líon an fhoirm thíos chun comhaid ghreamán “Bitcoin Accepted Here” i do theanga áitiúil a iarraidh. Cuirfimid ar an eolas thú a luaithe a bheidh siad réidh.",
+	"biz_stickers_placeholder_translation1": "Aistriúchán ar “Bitcoin Accepted Here”",
+	"biz_stickers_placeholder_translation2": "Aistriúchán ar “Scan to learn why Bitcoin is good for business.”",
+	"stickers_request": "Faigh do ghreamáin saor in aisce"
 }

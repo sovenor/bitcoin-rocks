@@ -3,11 +3,24 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-03",
+		"last-updated": "2026-04-25",
 		"locale": "sw"
 	},
 	"bitcoin_merchant_maps_list_your_business_for_free": "Ramani za Wafanyabiashara wa Bitcoin - Orodhesha biashara yako bure",
-	"maps_header": "ORODHESHWA KWENYE RAMANI ZA WAFANYABIASHARA WA BITCOIN NA UPATE WATEJA ZAIDI",
-	"maps_request_details": "Ingiza taarifa za biashara yako hapa chini na tutakuorodhesha kwenye ramani za wafanyabiashara wa Bitcoin bure. Hii itawezesha Wamiliki wa Bitcoin kupata biashara yako na kutumia Bitcoin yao katika biashara yako!",
-	"maps_view": "Angalia ramani hapa."
+	"maps_view": "Angalia ramani hapa.",
+	"biz_maps_hero_title": "Pata biashara yako kwenye ramani za wafanyabiashara wa Bitcoin",
+	"biz_maps_hero_subtitle": "Orodhesha biashara yako bure kwenye BTC Map — orodha ya wazi, ya kimataifa ya wafanyabiashara wanaokubali Bitcoin — ili Wabitcoiners walio karibu wakupate na watumie Bitcoin kwenye biashara yako.",
+	"biz_maps_intro_c1": "Wabitcoiners hutafuta kikamilifu mahali pa kutumia. Kupata biashara yako kwenye ramani kunakuweka mbele ya kila mtumiaji wa Bitcoin anayetafuta mahali pa kula, kununua, au kukaa karibu — bila gharama yoyote kwako.",
+	"biz_maps_intro_c2": "Jaza tu fomu fupi hapa chini na tutawasilisha biashara yako kwa BTC Map na ramani nyingine za wafanyabiashara wa Bitcoin kwa niaba yako.",
+	"biz_maps_view_map_cta": "Tazama BTC Map",
+	"biz_maps_form_header": "Tueleze kuhusu biashara yako",
+	"biz_maps_form_intro": "Tunahitaji maelezo machache tu ili kukuorodhesha. Data ya anwani huhifadhiwa kwa muda wa kutosha tu kuwasilisha biashara yako kwenye ramani.",
+	"biz_maps_placeholder_name": "Jina la biashara",
+	"biz_maps_placeholder_category": "Kategoria (mfano: mkahawa, kafe, hoteli)",
+	"biz_maps_placeholder_address": "Anwani ya barabara",
+	"biz_maps_placeholder_city": "Jiji",
+	"biz_maps_placeholder_region": "Jimbo / Mkoa / Eneo",
+	"biz_maps_placeholder_country": "Nchi",
+	"biz_maps_placeholder_website": "Tovuti (hiari)",
+	"biz_maps_meta_description": "Orodhesha biashara yako bure kwenye BTC Map na ramani nyingine za wafanyabiashara wa Bitcoin ili Wabitcoiners walio karibu wakupate."
 }

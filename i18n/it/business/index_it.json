@@ -3,11 +3,13 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-03-28",
+		"last-updated": "2026-04-25",
 		"locale": "it"
 	},
 	"bitcoin_is_good_for_business": "Bitcoin fa bene alle attività",
-	"biz_header": "BITCOIN FA BENE ALLE ATTIVITÀ",
+	"business_hero_subtitle": "Accetta pagamenti con commissioni più basse, fatti pagare istantaneamente e raggiungi milioni di nuovi clienti — senza contratti e senza costi nascosti.",
+	"business_intro_c1": "Bitcoin offre alla tua azienda un modo più veloce, economico e privato per essere pagata. Nessun intermediario. Nessun chargeback. Nessun contratto. Solo denaro che si regola in pochi secondi, direttamente dal tuo cliente a te.",
+	"business_intro_c2": "Qui sotto la versione breve sul perché Bitcoin è buono per le aziende — e sotto, ogni risorsa di cui hai bisogno per iniziare ad accettarlo oggi.",
 	"biz_s1": "Commissioni basse senza minimi",
 	"biz_s1_c1": "Bitcoin ti permette di ricevere pagamenti direttamente dai tuoi clienti, proprio come i contanti. La rete Bitcoin opera senza intermediari come banche e compagnie di carte di credito che prendono commissioni elevate.",
 	"biz_s2": "Regolamento istantaneo",
@@ -18,5 +20,14 @@
 	"biz_s4": "Ottieni più clienti",
 	"biz_s4_c1": "Milioni di persone possiedono Bitcoin e vogliono spenderli nei posti che li accettano.",
 	"biz_s4_c2": "Semplicemente accettando Bitcoin, la tua attività può essere elencata sulle mappe dei commercianti Bitcoin e ottenere visibilità gratuita verso nuovi clienti Bitcoin.",
-	"biz_s4_c3": "Accettare Bitcoin è 100% gratuito. Non ci sono contratti o commissioni nascoste."
+	"biz_s4_c3": "Accettare Bitcoin è 100% gratuito. Non ci sono contratti o commissioni nascoste.",
+	"business_resources_heading": "Tutto ciò di cui hai bisogno per accettare Bitcoin",
+	"business_resources_intro": "Lavora su queste risorse al tuo ritmo. Ognuna è una guida breve e pratica.",
+	"biz_label_wallets": "WALLET",
+	"biz_label_maps": "MAPPA COMMERCIANTI",
+	"biz_label_stickers": "ADESIVI",
+	"biz_label_rewards": "RICOMPENSE",
+	"biz_label_accounting": "CONTABILITÀ",
+	"biz_label_faq": "FAQ",
+	"biz_meta_description": "Accetta Bitcoin nella tua azienda per commissioni più basse, regolamento istantaneo, nessun chargeback e più clienti."
 }

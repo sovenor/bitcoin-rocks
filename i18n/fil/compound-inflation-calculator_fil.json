@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-04",
+		"last-updated": "2026-04-24",
 		"locale": "fil"
 	},
-	"cic_header": "Compound Inflation Calculator",
+	"cic_header": "Kalkuladora ng Compound na Inflation",
 	"cic_description": "Gamitin ang compound inflation calculator na ito upang makita kung magkano ang kailangang dagdag sa iyong sahod upang makasabay sa inflation.",
-	"what_can_i_do_about": "Ano ang magagawa ko tungkol sa",
-	"what_can_i_do_about_2": "inflation?",
-	"cic_inflation_cta": "Lumabas sa inflation gamit ang Bitcoin"
+	"cic_hero_subtitle": "Alamin kung gaano dapat tumaas ang iyong sahod para makasabay sa inflation.",
+	"cic_calculator_heading": "Kalkulahin ang iyong inflation gap",
+	"cic_cta_label": "Susunod na hakbang",
+	"cic_inflation_cta": "Lumabas sa inflation gamit ang Bitcoin",
+	"cic_next_learn_inflation": "Alamin kung paano gumagana ang inflation",
+	"cic_next_explore_topics": "Mag-explore ng mas maraming paksa",
+	"cic_next_explore_topics_desc": "Tingnan kung paano konektado ang bitcoin sa pera, kalayaan, enerhiya, at marami pa.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — consumer price index para sa lahat ng urban consumers",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — money supply M1"
 }

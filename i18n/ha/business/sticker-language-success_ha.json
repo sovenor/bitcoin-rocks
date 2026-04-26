@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-10",
+		"last-updated": "2026-04-25",
 		"locale": "ha"
 	},
-	"sticker_language_timeline": "Za mu ƙirƙira kuma mu buga fayilolin sticker ɗinku cikin makonni 3 zuwa 4. Mun gode da haƙurinku!"
+	"biz_sticker_language_success_hero_title": "An karɓi buƙatar 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Mun gode da neman fayilolin labaru na “Bitcoin Accepted Here” a cikin harshenka.",
+	"biz_sticker_language_success_timeline_header": "Abin da zai biyo baya",
+	"biz_sticker_language_success_timeline_c1": "Za mu ƙirƙira kuma mu buga fayilolin labaranka a cikin makonni 3-4. Da zarar sun shirya, za ka iya saukar da su kuma ka buga su kyauta daga shafin fayilolin labaranmu.",
+	"biz_sticker_language_success_timeline_c2": "Muna buga fayilolin labaru a rukuni-rukuni, don haka zai iya ɗaukar makonni kafin harshenka ya kasance. Mun gode da haƙurinka!"
 }

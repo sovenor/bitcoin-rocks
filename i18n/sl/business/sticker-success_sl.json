@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "sl"
 	},
-	"sticker_success_details": "Svoje nalepke boste prejeli v 1 do 2 tednih v navadni beli ovojnici. Vsaka ovojnica vsebuje 3 nalepke. Če potrebujete več kot 3 nalepke za svoje podjetje, vas prosimo, da zaprosite za dodaten paket!"
+	"biz_sticker_success_hero_title": "Vaše nalepke so na poti 🎉",
+	"biz_sticker_success_hero_subtitle": "Vaše brezplačne nalepke „Tu sprejemamo Bitcoin“ boste prejeli v 2 do 4 tednih v navadni beli kuverti s 3 nalepkami.",
+	"biz_sticker_success_tips_header": "Dobra mesta za vaše nalepke",
+	"biz_sticker_success_tip_1": "Na vhodna vrata ali izložbo, da jih stranke vidijo, preden vstopijo",
+	"biz_sticker_success_tip_2": "Pri blagajni, plačilnem terminalu ali plačilnem mestu",
+	"biz_sticker_success_tip_3": "Na jedilnike, cenike ali škatle za napitnino",
+	"biz_sticker_success_tip_4": "Ne lepite jih na mesta, ki niso vaša last ali za katera nimate dovoljenja",
+	"biz_sticker_success_more_header": "Potrebujete več nalepk?",
+	"biz_sticker_success_more_c1": "Če 3 nalepke za vaše podjetje ne zadostujejo, lahko mirno zaprosite za nov brezplačen paket — ali pa naročite veleprodajno pri istem tiskarju, kot ga uporabljamo mi.",
+	"biz_sticker_success_btn_order_bulk": "Naroči veleprodajno",
+	"biz_sticker_success_btn_request_more": "Zaprosi za nov brezplačen paket"
 }

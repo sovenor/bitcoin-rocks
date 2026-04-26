@@ -3,10 +3,11 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "da"
 	},
-	"bitcoin_accepted_here_sticker_files": "Klistermærkefiler til Bitcoin accepteres her",
-	"english_bah_files_description": "Download klistermærkefilerne her.",
-	"english_header": "DOWNLOAD ENGELSKE KLISTERMÆRKER TIL BITCOIN ACCEPTERES HER"
+	"english_bitcoin_accepted_here_sticker_files": "Engelske „Bitcoin modtages her“-klistermærkefiler",
+	"english_biz_sticker_files_description": "Download engelske klistermærkefiler til at printe dine egne „Bitcoin modtages her“-klistermærker.",
+	"biz_stickers_english_hero_title": "Download engelske „Bitcoin modtages her“-klistermærkefiler",
+	"biz_stickers_english_hero_subtitle": "Print dine egne „Bitcoin modtages her“-klistermærker på engelsk for at lade kunderne vide, at du tager imod Bitcoin."
 }

@@ -3,12 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2024-05-10",
+		"last-updated": "2026-04-24",
 		"locale": "de"
 	},
 	"cic_header": "INFLATIONSRECHNER FÜR ZUSAMMENGESETZTE INFLATION",
 	"cic_description": "Finde mit diesem Inflationsrechner für zusammengesetzte Inflation heraus, um wie viel dein Gehalt steigen muss, um mit der Inflation Schritt zu halten.",
-	"what_can_i_do_about": "Was kann ich tun gegen",
-	"what_can_i_do_about_2": "Inflation?",
-	"cic_inflation_cta": "Mit Bitcoin aus der Inflation aussteigen"
+	"cic_hero_subtitle": "Finde heraus, um wie viel Dein Gehalt steigen muss, um mit der Inflation Schritt zu halten.",
+	"cic_calculator_heading": "Berechne Deine Inflationslücke",
+	"cic_cta_label": "Nächster Schritt",
+	"cic_inflation_cta": "Mit Bitcoin aus der Inflation aussteigen",
+	"cic_next_learn_inflation": "Lerne, wie Inflation funktioniert",
+	"cic_next_explore_topics": "Weitere Themen entdecken",
+	"cic_next_explore_topics_desc": "Sieh, wie Bitcoin mit Geld, Freiheit, Energie und mehr zusammenhängt.",
+	"sources_fred_cpi_urban": "Federal Reserve Economic Data (FRED) — Verbraucherpreisindex für alle städtischen Verbraucher",
+	"sources_fred_m1": "Federal Reserve Economic Data (FRED) — Geldmenge M1"
 }

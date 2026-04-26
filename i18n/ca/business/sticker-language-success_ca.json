@@ -3,8 +3,12 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
-	"sticker_language_timeline": "Crearem i publicarem el teu fitxer d'adhesiu en 3 a 4 setmanes. Gràcies per la teva paciència!"
+	"biz_sticker_language_success_hero_title": "Sol·licitud rebuda 🎉",
+	"biz_sticker_language_success_hero_subtitle": "Gràcies per sol·licitar els fitxers dels adhesius \"Acceptem Bitcoin\" en la teva llengua.",
+	"biz_sticker_language_success_timeline_header": "Què ve a continuació",
+	"biz_sticker_language_success_timeline_c1": "Crearem i publicarem els teus fitxers d'adhesius en 3-4 setmanes. Quan estiguin llestos, podràs descarregar-los i imprimir-los gratuïtament des de la pàgina de fitxers d'adhesius.",
+	"biz_sticker_language_success_timeline_c2": "Els fitxers d'adhesius es publiquen per lots, de manera que pot trigar unes setmanes abans que la teva llengua estigui activa. Gràcies per la teva paciència!"
 }

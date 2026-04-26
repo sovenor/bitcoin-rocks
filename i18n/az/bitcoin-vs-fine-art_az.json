@@ -3,14 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-06",
+		"last-updated": "2026-04-24",
 		"locale": "az"
 	},
 	"bitcoin_vs_fine_art": "Bitcoin vs İncəsənət",
-	"fine_art_header": "ARASINDAKI FƏRQ",
-	"fine_art_header_2": "BITCOIN",
-	"fine_art_header_3": "VƏ",
-	"fine_art_header_4": "İNCƏSƏNƏT",
 	"fine_art_intro_1": "İncəsənət əsrlərdır lüks investisiya olub və varlıqlı kolleksionerlər tərəfindən dəyər saxlama vasitəsi olaraq görülür.",
 	"fine_art_intro_2": "Bitcoin bir çoxları tərəfindən dəyər saxlama vasitəsi və investisiya olaraq görülən rəqəmsal puldur.",
 	"fine_art_intro_3": "Lakin fiziki sənət əsəri Bitcoin kimi rəqəmsal puldan necə fərqlənir? İki investisiya forması arasındakı fərqlərə nəzər salaq: Bitcoin və İncəsənət.",
@@ -30,11 +26,12 @@
 	"bitcoin_point_5": "Kriptoqrafik olaraq doğrulanır",
 	"bitcoin_point_6": "Məhv etmək çətindir",
 	"bitcoin_point_7": "Hər kəs üçün əlçatandır",
-	"point_1_summary_1": "Bitcoin mükəmməl şəkildə əvəzolunandır, yəni hər bitcoin eyni və bir-birinin əvəzi olan — bir bitcoin dünya üzrə hər yerdə bir bitcoin-ə bərabərdir. İncəsənət təbiət etibarilə əvəzolunmaz olub, hər əsərin yaradılışı, tarixi, vəziyyəti və mənşəyi unikaldır ki, bu da birbaşa müqayisələri və qiymətləndirmələri son dərəcə çətinləşdirir.",
-	"point_2_summary_1": "Bitcoin İnternet çıxışı olan hər kəsin ani alıb-sata biləcəyi qlobal 24/7 bazarda ticarət edilir. İncəsənət Sotheby's və ya Christie's kimi ixtisaslaşdırılmış hərrac evləri, xüsusi dilerlər və ya eksklüziv qalereyalar tələb edir. Satışların təşkili və tamamlanması aylar çəkə bilər, məhdud bazar girişi və qeyri-müntəzəm ticarət imkanları ilə.",
-	"point_3_summary_1": "Bitcoin alıb-satmaq adətən komissiyalarda 1%-dən az, tez-tez daha da az başa gəlir. İncəsənət satışları alıcı mükafatları (10-25%), satıcı komissiyaları (10-15%), sığorta, nəqliyyat, saxlama və autentifikasiya komissiyaları da daxil olmaqla əhəmiyyətli xərclər ehtiva edir. Bu birləşdirilmiş xərclər tək əməliyyatda sənət əsərinin dəyərinin 30-40%-ni asanlıqla keçə bilər.",
-	"point_4_summary_1": "Bitcoin satoshi adlanan 100 milyon kiçik vahidə bölünə bilər ki, bu da onu mikro əməliyyatlardan böyük alışlara qədər hər ölçüdə əməliyyatlar üçün mükəmməl edir. İncəsənət bölünə bilməz - tablonun fraksiyasına sahib ola və ya heykəlin bir hissəsini sata bilməzsiniz. Bu bölünməzlik investisiya çevikliyini və likvidlik seçimlərini məhdudlaşdırır.",
-	"point_5_summary_1": "Bitcoin-in mülkiyyəti və həqiqiliyi blokçeyndə əsas texniki biliyə sahib hər kəs tərəfindən kriptoqrafik olaraq yoxlanıla bilər. İncəsənət bahalı mütəxəssis autentifikasiyası, mənşə araşdırması və elmi analiz tələb edir. Mütəxəssis yoxlaması ilə belə, saxtakarlıqlar mütəmadi olaraq sənət dünyasını aldadır və autentifikasiya mübahisələri sənət əsərinin dəyərini bir gecədə məhv edə bilər. Bitcoin isə saxtalaşdırıla və ya əlaltılıq edilə bilməz.",
-	"point_6_summary_1": "Bitcoin, düzgün ehtiyat nüsxəsi çıxarıldıqda, sel, yanğın, zəlzələ, qasırğa, oğurluq və ya digər fəlakətlərlə məhv edilə bilməz. İncəsənət bütün fiziki dağıdılma və pisləşmə formalarına həssasdır. Bahalı iqlim nəzarətli saxlama və hərtərəfli sığorta ilə belə, sənət əsərləri ətraf mühit amilləri, qəzalar və ya təbii fəlakətlərdən zərər görə bilər və potensial olaraq bütün dəyərini itirə bilər.",
-	"point_7_summary_1": "Bitcoin İnternet çıxışı və investisiya etmək üçün kiçik məbləğ olan hər kəs tərəfindən alınıb-satıla bilər. İncəsənət investisiyası yüksək minimum qiymətlər, eksklüziv hərrac girişi, saxlama tələbləri, sığorta xərcləri və sənət bazarında uğurla naviqasiya etmək üçün lazım olan ixtisaslaşdırılmış bilik səbəbindən əsasən varlıqlı kolleksionerlərlə məhduddur."
+	"point_1_summary_1": "Hər Bitcoin eynidir və dəyişdirilə biləndir. Hər sənət əsəri unikaldır — fərqli yaradılış, tarix, vəziyyət və mənşə birbaşa müqayisələri çətinləşdirir.",
+	"point_2_summary_1": "Bitcoin qlobal bazarda 24/7 ticarət olunur, hər kəs çıxış əldə edə bilər. İncəsənət ixtisaslaşmış auksion evləri, şəxsi dilerlər və ya qalereya tələb edir və satmaq aylar çəkə bilər.",
+	"point_3_summary_1": "Bitcoin almaq və ya satmaq 1%-dən az, çox vaxt daha az haqq tutur. Sənət satışları alıcı mükafatlarında, komissiyalarda, sığortada, daşınmada və autentifikasiya haqlarında 30-40% yığır.",
+	"point_4_summary_1": "Bitcoin 100 milyon satoshi-yə bölünür, istənilən tranzaksiya ölçüsü üçün ideal edir. Qarşı tərəf riski olmadan rəsmin hissəsinə və ya heykəlin küncünə sahib ola bilməzsiniz.",
+	"point_5_summary_1": "Bitcoin sahibliyi və orijinallığı hər kəs tərəfindən zəncirdə kriptoqrafik olaraq yoxlanıla bilər. Sənət autentifikasiyası baha, yavaşdır və hələ də saxtakarlar tərəfindən müntəzəm olaraq aldadılır — sənət əsərinin dəyərini bir gecədə məhv edir.",
+	"point_6_summary_1": "Düzgün saxlanıldığı təqdirdə Bitcoin daşqınlardan, yanğınlardan, zəlzələlərdən və oğurluqlardan sağ çıxır. İncəsənət hər cür fiziki məhvə məruz qalır və sığorta nadir hallarda hər şeyi əhatə edir.",
+	"point_7_summary_1": "İnternet bağlantısı və bir az pulu olan hər kəs Bitcoin ala bilər. İncəsənət investisiyası faktiki olaraq auksionlara çıxışı və ixtisaslaşdırılmış bilikləri olan varlı kolleksionerlərlə məhduddur.",
+	"hero_title": "<span class=\"orange\">Bitcoin</span> ilə <span class=\"asset\">incəsənətin</span> arasındakı fərq"
 }

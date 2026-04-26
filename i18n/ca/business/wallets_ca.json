@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-07",
+		"last-updated": "2026-04-24",
 		"locale": "ca"
 	},
 	"how_to_accept_bitcoin_payments": "Com acceptar pagaments amb Bitcoin",
@@ -14,10 +14,6 @@
 	"wallets_intro_4": "Carteres híbrides:",
 	"wallets_intro_5": "Aquestes et permeten canviar qualsevol porció del teu Bitcoin per dòlars tan aviat com un client et pagui. Les comissions segueixen sent menors que les de les targetes de crèdit, però més altes que les de pagaments purament amb Bitcoin.",
 	"wallets_intro_6": "Ambdues són excel·lents maneres d'acceptar Bitcoin. La cartera específica que facis servir dependrà de la mida i el tipus del teu negoci.",
-	"wallets_choice_sole": "carteres per a negocis de propietat individual",
-	"wallets_choice_multiple": "carteres per a negocis amb diversos empleats",
-	"wallets_choice_online": "carteres per a negocis en línia",
-	"wallets_choice_invoice": "carteres per a negocis basats en factures",
 	"wallets_name_breez": "BREEZ",
 	"wallets_name_open_node": "OPEN NODE",
 	"wallets_name_ibex_pay": "IBEX PAY",
@@ -37,5 +33,22 @@
 	"wallets_feature_self_hosted": "Autoallotjat = 0% comissions",
 	"wallets_feature_online_store": "Integració amb botiga en línia",
 	"wallets_feature_invoicing": "Programari de facturació gratuït",
-	"wallets_get_wallet": "OBTENIR CARTERA"
+	"wallets_get_wallet": "OBTENIR CARTERA",
+	"wallets_hero_subtitle": "Les carteres de Bitcoin són gratuïtes. Tria una que s'ajusti al teu negoci — en persona, en línia o basada en factures — i comença a acceptar Bitcoin en qüestió de minuts.",
+	"wallets_section_sole": "Carteres de negoci individual",
+	"wallets_section_sole_intro": "Si gestiones una botiga, cafeteria, estudi o servei tu sol, qualsevol d'aquestes carteres funcionarà. Tria segons si vols mantenir els pagaments com a Bitcoin o convertir automàticament una part de cada pagament a la teva moneda local.",
+	"wallets_section_multiple": "Carteres de negoci amb múltiples empleats",
+	"wallets_section_multiple_intro": "Si tens un equip que accepta pagaments a la caixa, tria una cartera que suporti l'inici de sessió de múltiples empleats — cada treballador té el seu propi PIN, i mantens un registre d'auditoria clar de qui ha acceptat quins pagaments.",
+	"wallets_section_online": "Carteres de negoci en línia",
+	"wallets_section_online_intro": "Véns en un lloc web? Aquestes carteres es connecten a la teva botiga en línia i accepten Bitcoin de qualsevol client, des de qualsevol lloc del món — sense devolucions ni necessitat d'un compte de comerciant.",
+	"wallets_section_invoice": "Carteres de negoci basades en factures",
+	"wallets_section_invoice_intro": "Si envies factures als clients (consultoria, autònoms, serveis B2B), utilitza una cartera basada en factures. El teu client paga una factura de Bitcoin amb uns quants clics.",
+	"wallets_name_strike": "STRIKE BUSINESS",
+	"wallets_strike_note": "Strike Business et permet acceptar pagaments de Bitcoin i Lightning sense comissions i liquidar-los a l'instant. Suporta pagaments en persona, en línia i basats en factures, amb conversió automàtica opcional a la teva moneda local.",
+	"sources_square": "Square — accepta pagaments de Bitcoin",
+	"sources_breez_business": "Breez — cartera Lightning només-Bitcoin",
+	"sources_opennode": "OpenNode — processador de pagaments de Bitcoin",
+	"sources_ibex": "IBEX — infraestructura de pagaments Lightning",
+	"sources_zaprite": "Zaprite — facturació en Bitcoin per a empreses",
+	"biz_wallets_meta_description": "Totes les carteres de Bitcoin interoperen — tria una que s'ajusti al teu negoci. Gratuït, liquidació instantània, zero devolucions."
 }

@@ -3,8 +3,18 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-11",
+		"last-updated": "2026-04-25",
 		"locale": "ro"
 	},
-	"sticker_success_details": "Vei primi autocolantele în 1 până la 2 săptămâni într-un plic alb simplu. Fiecare plic include 3 autocolante. Dacă ai nevoie de mai mult de 3 autocolante pentru afacerea ta, nu ezita să soliciți un alt set!"
+	"biz_sticker_success_hero_title": "Autocolantele tale sunt pe drum 🎉",
+	"biz_sticker_success_hero_subtitle": "Vei primi autocolantele gratuite „Bitcoin acceptat aici” în decurs de 2–4 săptămâni, într-un plic alb anonim ce conține 3 autocolante.",
+	"biz_sticker_success_tips_header": "Locuri bune pentru a-ți pune autocolantele",
+	"biz_sticker_success_tip_1": "Pe ușa de intrare sau pe vitrină, ca să le vadă clienții înainte să intre",
+	"biz_sticker_success_tip_2": "Lângă casă, terminalul POS sau zona de plată",
+	"biz_sticker_success_tip_3": "Pe meniuri, liste de prețuri sau cutii pentru bacșiș",
+	"biz_sticker_success_tip_4": "Nu le lipi unde nu îți este permis sau nu ai dreptul să o faci",
+	"biz_sticker_success_more_header": "Ai nevoie de mai multe autocolante?",
+	"biz_sticker_success_more_c1": "Dacă 3 autocolante nu sunt suficiente pentru afacerea ta, simte-te liber să ceri un alt pachet gratuit — sau comandă în cantități mari de la aceeași tipografie pe care o folosim noi.",
+	"biz_sticker_success_btn_order_bulk": "Comandă în cantități mari",
+	"biz_sticker_success_btn_request_more": "Cere un alt pachet gratuit"
 }
