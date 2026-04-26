@@ -77,7 +77,7 @@ npm run typecheck  # TypeScript strict mode
 node scripts/i18n-audit/snapshot-english.js     # refresh English snapshot
 node scripts/i18n-audit/language-diff.js <code> # generate per-locale work queue
 node scripts/i18n-audit/apply-translations.js <code>  # merge + verify
-node scripts/audit-translation.js <code>        # audit a locale for English leakage
+node scripts/i18n-audit/verify-language.js <code> # verify locale (manifest + coverage + stale-English)
 ```
 
 ## Repo layout pointers
