@@ -1,3 +1,23 @@
+## Estonian (et) locale — Danish contamination cleanup — April 26, 2026
+
+Re-translated `i18n/et/buy_et.json` + `i18n/et/inflation_et.json` to scrub
+Danish values that had leaked in from a copy-paste bootstrap off `i18n/da/`.
+- `buy_et.json` — 92 keys re-translated (header, intro, all 52 country
+  names, payment-method copy, all step-3 platform descriptions/features,
+  step-4 storage paragraphs, CTA).
+- `inflation_et.json` — 130 keys re-translated (top-of-file sticker /
+  calculator strings, all 14 currency labels, every `*_label` /
+  `*_existence_title` / `*_debt_title` stat, plus grammar cleanup on
+  `*_btc_p2_before` / `*_btc_p2_after` / `*_btc_p3` / `*_btc_p4` /
+  `*_proof_p1` / `*_proof_p2` for all 13 currencies — replaces mangled
+  forms like "USA dollaritdel", "eurodd", "naeladdel", "ruupiatdel").
+- Both files: `@metadata.last-updated` bumped to `2026-04-26`.
+- Verified with `node scripts/i18n-audit/verify-language.js et` — all 4
+  checks PASS. `npm run typecheck` clean.
+- Other et namespaces (index, common, accounting, 404, comparisons,
+  business/*, nostr/*, sticker-files/*) untouched.
+- Fix scripts kept under `scripts/et-fix/` for reproducibility.
+
 ## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
 
 All 7 items of Step 6 are now ticked off in
