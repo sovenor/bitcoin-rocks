@@ -89,6 +89,40 @@ entry, which is unrelated to this fix.
 
 ---
 
+## Norwegian Bokmål (nb) locale: Danish contamination cleanup — April 26, 2026
+
+Re-translated 8 contaminated nb i18n files where Danish copy had bled
+into the Bokmål locale (substituting `Vælg`/`Sådan`/`køb`/`hæveautomat`
+/`klistermærke`/etc. with proper NB equivalents `Velg`/`Slik`/`kjøp`
+/`minibank`/`klistremerke`/etc., doubling consonants where NB requires
+it: `oppbevar`, `trinn`, `Sett`, etc.):
+
+- `i18n/nb/buy_nb.json` — 19 keys
+- `i18n/nb/index_nb.json` — 50 keys (49 + 1 follow-up: `Sandt` → `Sant`)
+- `i18n/nb/common_nb.json` — 47 keys
+- `i18n/nb/404_nb.json` — 3 keys
+- `i18n/nb/business/sticker-success_nb.json` — 11 keys
+- `i18n/nb/about_nb.json` — 17 keys (spot-check turned up contamination)
+- `i18n/nb/get-involved_nb.json` — 26 keys (spot-check turned up contamination)
+- `i18n/nb/bank-runs_nb.json` — 25 keys (24 + 1 follow-up: `inflation.` → `inflasjon.`)
+- `i18n/nb/business/why_nb.json` — 35 keys (spot-check turned up contamination)
+
+`@metadata.last-updated` bumped to `2026-04-26` on every modified file.
+
+`inflation_nb.json` was *listed* in the cleanup brief but inspection
+showed it was already clean Bokmål (uses `kjøper`/`Slik`/`Velg`/etc.) —
+left untouched.
+
+`scripts/i18n-audit/verify-language.js nb` post-run: marker ✅,
+manifest ✅, stale English ✅, locale-specific ⚠ 1 entry
+(`common_stickers_type` = "Type:", which is the correct NB form even
+though it equals English). `npm run typecheck` passes.
+
+Helper scripts left in `scripts/nb-fix/` (per-file, idempotent —
+safe to re-run).
+
+---
+
 ## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
 
 All 7 items of Step 6 are now ticked off in
