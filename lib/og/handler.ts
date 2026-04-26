@@ -28,9 +28,8 @@ export async function ogHandler(slug: string, rawLocale: string) {
 
 		const t = await getPageTranslations(locale, strings.namespace);
 		const title = t(strings.titleKey);
-		const subtitle = t(strings.subtitleKey);
 
-		return await renderOgImage({ locale, title, subtitle });
+		return await renderOgImage({ locale, title });
 	} catch (err) {
 		console.error("[opengraph-image] generation failed", { slug, rawLocale }, err);
 		throw err;

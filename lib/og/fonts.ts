@@ -168,39 +168,27 @@ async function loadFontsourceWoff(
 }
 
 /**
- * Load the two fonts the OG layout needs (heading bold + subtitle regular)
- * subsetted to exactly the glyphs in `title + subtitle`.
+ * Load the heading font (bold, weight 700, normal style) subsetted to
+ * exactly the glyphs in `title`.
+ *
+ * The OG layout only renders one piece of text now — the page H1 — so
+ * a single weight is all we need. Italic is dropped to match the
+ * website's actual H1 styling (`app/globals.css :: h1` is bold, not
+ * italic).
  */
 export async function loadOgFonts(
 	locale: Locale,
 	title: string,
-	subtitle: string,
 ): Promise<OgFont[]> {
-	const { family, supportsItalic } = fontFamilyForLocale(locale);
-	const headingStyle: "normal" | "italic" = supportsItalic ? "italic" : "normal";
-	const subStyle: "normal" | "italic" = supportsItalic ? "italic" : "normal";
-	const text = `${title}\n${subtitle}`;
+	const { family } = fontFamilyForLocale(locale);
 
 	if (DISK_FONT_LOCALES.has(locale)) {
-		// Arabic / Persian / Urdu — Cairo WOFF from @fontsource. The
-		// `arabic` subset covers all three locales' character set.
-		const [bold, regular] = await Promise.all([
-			loadFontsourceWoff("cairo", "arabic", 700),
-			loadFontsourceWoff("cairo", "arabic", 400),
-		]);
-		return [
-			{ name: family, data: bold, weight: 700, style: "normal" },
-			{ name: family, data: regular, weight: 400, style: "normal" },
-		];
+		// Arabic / Persian / Urdu — Cairo Bold WOFF from @fontsource.
+		// The `arabic` subset covers all three locales' character set.
+		const bold = await loadFontsourceWoff("cairo", "arabic", 700);
+		return [{ name: family, data: bold, weight: 700, style: "normal" }];
 	}
 
-	const [bold, regular] = await Promise.all([
-		fetchGoogleFontWoff(family, 700, headingStyle, text),
-		fetchGoogleFontWoff(family, 400, subStyle, text),
-	]);
-
-	return [
-		{ name: family, data: bold, weight: 700, style: headingStyle },
-		{ name: family, data: regular, weight: 400, style: subStyle },
-	];
+	const bold = await fetchGoogleFontWoff(family, 700, "normal", title);
+	return [{ name: family, data: bold, weight: 700, style: "normal" }];
 }

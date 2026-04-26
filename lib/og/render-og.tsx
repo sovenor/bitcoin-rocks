@@ -11,7 +11,11 @@ export const OG_CONTENT_TYPE = "image/png";
 
 const BG = "#060610";
 const TITLE_COLOR = "#ffffff";
-const SUBTITLE_COLOR = "#9b9b9b";
+
+// Source asset is 700 x 249 (aspect ratio ~2.811). Keep the rendered
+// dimensions on that ratio so the logo never skews.
+const LOGO_WIDTH = 280;
+const LOGO_HEIGHT = 100; // 280 / 2.811 ≈ 99.6
 
 const LOGO_PATH = path.join(
 	process.cwd(),
@@ -28,31 +32,60 @@ async function getLogoDataUrl(): Promise<string> {
 
 /**
  * Pick a heading font size that fits the title in the 1200×630 frame
- * without wrapping past two lines or overflowing horizontally. The
- * thresholds are tuned against Noto Sans Bold's average glyph width;
- * CJK and Arabic shapes will land in the same buckets fine because
- * they're proportionally similar at these sizes.
+ * without overflowing horizontally or wrapping past three lines.
+ *
+ * CJK ideographs and Hangul render at roughly twice the advance width
+ * of an average Latin glyph, so each one counts as 2 toward the layout
+ * budget. Combining marks count as 0 so Devanagari / Thai / Arabic
+ * vowel-mark stacks don't get falsely punished.
  */
 function titleFontSize(title: string): number {
-	const len = title.length;
-	if (len <= 14) return 130;
-	if (len <= 22) return 110;
-	if (len <= 32) return 92;
-	if (len <= 48) return 76;
-	return 64;
+	let weighted = 0;
+	for (const ch of title) {
+		const cp = ch.codePointAt(0)!;
+		// CJK unified ideographs, Hiragana/Katakana, Hangul, full-width forms
+		if (
+			(cp >= 0x3040 && cp <= 0x30ff) ||
+			(cp >= 0x3400 && cp <= 0x4dbf) ||
+			(cp >= 0x4e00 && cp <= 0x9fff) ||
+			(cp >= 0xac00 && cp <= 0xd7af) ||
+			(cp >= 0xf900 && cp <= 0xfaff) ||
+			(cp >= 0xff00 && cp <= 0xffef)
+		) {
+			weighted += 2;
+			continue;
+		}
+		// Combining marks (Devanagari, Arabic, Hebrew, Thai vowel marks, etc.)
+		if (
+			(cp >= 0x0300 && cp <= 0x036f) ||
+			(cp >= 0x064b && cp <= 0x065f) ||
+			(cp >= 0x0670 && cp <= 0x0670) ||
+			(cp >= 0x06d6 && cp <= 0x06ed) ||
+			(cp >= 0x0900 && cp <= 0x094f && (cp === 0x093c || cp === 0x094d || (cp >= 0x0941 && cp <= 0x0948))) ||
+			(cp >= 0x0e30 && cp <= 0x0e3a) ||
+			(cp >= 0x0e47 && cp <= 0x0e4e)
+		) {
+			continue;
+		}
+		weighted += 1;
+	}
+	if (weighted <= 14) return 150;
+	if (weighted <= 22) return 124;
+	if (weighted <= 32) return 104;
+	if (weighted <= 48) return 84;
+	if (weighted <= 64) return 70;
+	return 60;
 }
 
 export async function renderOgImage({
 	locale,
 	title,
-	subtitle,
 }: {
 	locale: Locale;
 	title: string;
-	subtitle: string;
 }): Promise<ImageResponse> {
 	const [fonts, logoDataUrl] = await Promise.all([
-		loadOgFonts(locale, title, subtitle),
+		loadOgFonts(locale, title),
 		getLogoDataUrl(),
 	]);
 
@@ -74,50 +107,27 @@ export async function renderOgImage({
 					direction: isRtl ? "rtl" : "ltr",
 				}}
 			>
-				{/* Logo */}
 				<img
 					src={logoDataUrl}
 					alt=""
-					width={220}
-					height={88}
-					style={{ marginBottom: 48 }}
+					width={LOGO_WIDTH}
+					height={LOGO_HEIGHT}
+					style={{ marginBottom: 56 }}
 				/>
 
-				{/* Title */}
 				<div
 					style={{
 						display: "flex",
-						width: "100%",
-						justifyContent: "center",
+						maxWidth: 1040,
 						textAlign: "center",
 						color: TITLE_COLOR,
 						fontWeight: 700,
-						fontStyle: fonts[0]!.style,
 						fontSize: titleSize,
 						lineHeight: 1.05,
 						letterSpacing: "-0.01em",
-						marginBottom: 32,
 					}}
 				>
 					{title}
-				</div>
-
-				{/* Subtitle */}
-				<div
-					style={{
-						display: "flex",
-						width: "100%",
-						justifyContent: "center",
-						textAlign: "center",
-						color: SUBTITLE_COLOR,
-						fontWeight: 400,
-						fontStyle: fonts[1]!.style,
-						fontSize: 38,
-						lineHeight: 1.25,
-						maxWidth: 1000,
-					}}
-				>
-					{subtitle}
 				</div>
 			</div>
 		),
