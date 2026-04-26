@@ -1,0 +1,226 @@
+#!/usr/bin/env node
+/**
+ * Fix Bengali-script contamination in i18n/my/buy_my.json.
+ *
+ * Many values in buy_my.json were copy-pasted from i18n/bn/buy_bn.json and
+ * therefore contain Bengali (U+0980-U+09FF) instead of Burmese
+ * (U+1000-U+109F). This script replaces every Bengali-script value with a
+ * proper, idiomatic Burmese translation.
+ *
+ * The script reads buy_my.json, replaces values for each contaminated key
+ * with a Burmese translation (sourced from English semantics in
+ * buy_en.json), preserves all already-correct Burmese values verbatim,
+ * updates the @metadata.last-updated date, and writes the file back with
+ * tab indentation.
+ */
+
+const fs = require("node:fs");
+const path = require("node:path");
+
+const REPO_ROOT = path.resolve(__dirname, "..", "..");
+const MY_PATH = path.join(REPO_ROOT, "i18n", "my", "buy_my.json");
+
+// Detect Bengali codepoints (U+0980-U+09FF). Used as a final safety check.
+function containsBengali(str) {
+	if (typeof str !== "string") return false;
+	for (let i = 0; i < str.length; i++) {
+		const cp = str.charCodeAt(i);
+		if (cp >= 0x0980 && cp <= 0x09ff) return true;
+	}
+	return false;
+}
+
+// Burmese re-translations for every Bengali-contaminated key. Keys that
+// were already in Burmese (or are proper nouns / metadata) are intentionally
+// not listed here.
+const BURMESE_TRANSLATIONS = {
+	buy_header: "Bitcoin ဝယ်ယူနည်း",
+	buy_intro_c1:
+		"ပထမဆုံးအကြိမ် Bitcoin ဝယ်ယူရတာ ရှုပ်ထွေးသလို ခံစားရနိုင်ပေမဲ့၊ အဆင့်တစ်ဆင့်ချင်းစီ ခွဲကြည့်လိုက်ရင် တကယ်တော့ အတော်လေးရိုးရှင်းပါတယ်။",
+	buy_intro_c2:
+		"ဤလမ်းညွှန်က Bitcoin ကို လုံခြုံစွာ ဝယ်ယူပြီး သင့်ကိုယ်ပိုင် ပိုက်ဆံအိတ်ထဲမှာ သိမ်းဆည်းမည့် လုပ်ငန်းစဉ်ကို သင့်အား လမ်းညွှန်ပေးပါမည်။",
+	buy_step_1_description:
+		"နိုင်ငံတစ်ခုနှင့်တစ်ခု Bitcoin ဝယ်ယူနိုင်သည့် ရွေးချယ်စရာများ ကွဲပြားကြသည်။ သင့်အတွက် အကောင်းဆုံး ရွေးချယ်စရာများကို ကြည့်ရှုရန် သင့်နိုင်ငံကို ရွေးချယ်ပါ။",
+	buy_search_countries: "သင့်နိုင်ငံကို ရှာဖွေပါ",
+
+	// Country names (52 keys)
+	buy_country_united_states: "အမေရိကန်ပြည်ထောင်စု",
+	buy_country_australia: "ဩစတြေးလျ",
+	buy_country_austria: "ဩစတြီးယား",
+	buy_country_belgium: "ဘယ်လ်ဂျီယံ",
+	buy_country_brazil: "ဘရာဇီး",
+	buy_country_canada: "ကနေဒါ",
+	buy_country_france: "ပြင်သစ်",
+	buy_country_germany: "ဂျာမနီ",
+	buy_country_ireland: "အိုင်ယာလန်",
+	buy_country_italy: "အီတလီ",
+	buy_country_netherlands: "နယ်သာလန်",
+	buy_country_new_zealand: "နယူးဇီလန်",
+	buy_country_spain: "စပိန်",
+	buy_country_united_kingdom: "ယူနိုက်တက်ကင်းဒမ်း",
+	buy_country_argentina: "အာဂျင်တီးနား",
+	buy_country_chile: "ချီလီ",
+	buy_country_colombia: "ကိုလံဘီယာ",
+	buy_country_costa_rica: "ကော့စတာရီကာ",
+	buy_country_czech_republic: "ချက်သမ္မတနိုင်ငံ",
+	buy_country_denmark: "ဒိန်းမတ်",
+	buy_country_el_salvador: "အယ်လ်ဆာဗေဒို",
+	buy_country_estonia: "အက်စတိုးနီးယား",
+	buy_country_finland: "ဖင်လန်",
+	buy_country_greece: "ဂရိ",
+	buy_country_guatemala: "ဂွါတီမာလာ",
+	buy_country_hong_kong: "ဟောင်ကောင်",
+	buy_country_hungary: "ဟန်ဂေရီ",
+	buy_country_iceland: "အိုက်စလန်",
+	buy_country_india: "အိန္ဒိယ",
+	buy_country_israel: "အစ္စရေး",
+	buy_country_japan: "ဂျပန်",
+	buy_country_latvia: "လတ်ဗီးယား",
+	buy_country_lithuania: "လစ်သူယေးနီးယား",
+	buy_country_luxembourg: "လူဇင်ဘတ်",
+	buy_country_malta: "မော်လ်တာ",
+	buy_country_mexico: "မက္ကဆီကို",
+	buy_country_norway: "နော်ဝေ",
+	buy_country_panama: "ပနားမား",
+	buy_country_poland: "ပိုလန်",
+	buy_country_portugal: "ပေါ်တူဂီ",
+	buy_country_romania: "ရိုမေးနီးယား",
+	buy_country_singapore: "စင်္ကာပူ",
+	buy_country_slovakia: "ဆလိုဗက်ကီးယား",
+	buy_country_slovenia: "ဆလိုဗေးနီးယား",
+	buy_country_south_africa: "တောင်အာဖရိက",
+	buy_country_south_korea: "တောင်ကိုရီးယား",
+	buy_country_sweden: "ဆွီဒင်",
+	buy_country_switzerland: "ဆွစ်ဇာလန်",
+	buy_country_thailand: "ထိုင်း",
+	buy_country_turkey: "တူရကီ",
+	buy_country_ukraine: "ယူကရိန်း",
+	buy_country_uruguay: "ဥရုဂွေး",
+
+	// Step 2
+	buy_step_2_description:
+		"Bitcoin ဝယ်ယူရန် အဓိကနည်းလမ်း နှစ်ခုရှိသည်- အွန်လိုင်းဖြင့် ဝယ်ခြင်း သို့မဟုတ် ကိုယ်တိုင်တွေ့ဆုံ၍ ဝယ်ခြင်း။ တစ်ခုစီတွင် မတူညီသော အားသာချက်များ ရှိသည်။",
+	buy_method_bank_transfer: "အွန်လိုင်းမှ ဝယ်ယူခြင်း",
+	buy_method_bank_fast: "မြန်ဆန် လွယ်ကူ",
+	buy_method_bank_less_private: "ကိုယ်ရေးကိုယ်တာ နည်းသည်",
+	buy_method_bank_description:
+		"အွန်လိုင်းမှ ဝယ်ယူခြင်းသည် Bitcoin ဝယ်ယူရာတွင် အသုံးအများဆုံးနည်းလမ်းဖြစ်သည်။ မြန်ဆန်၊ အဆင်ပြေပြီး ဝန်ဆောင်ခများလည်း များသောအားဖြင့် နည်းသည်။",
+	buy_method_choose_bank: "အွန်လိုင်းမှ ဝယ်ယူခြင်းကို ရွေးပါ",
+	buy_method_cash: "ကိုယ်တိုင်တွေ့ဆုံ၍ ဝယ်ခြင်း",
+	buy_method_cash_private: "ကိုယ်ရေးကိုယ်တာ ပိုလုံခြုံ",
+	buy_method_cash_limited: "ရွေးချယ်စရာ အကန့်အသတ်ရှိ",
+	buy_method_cash_description:
+		"ငွေသားဖြင့် ဝယ်ယူခြင်းက ကိုယ်ရေးကိုယ်တာ ပိုမိုလုံခြုံစေသော်လည်း ရွေးချယ်စရာ နည်းပြီး တစ်စုံတစ်ယောက်နှင့် ကိုယ်တိုင် တွေ့ဆုံရန် သို့မဟုတ် Bitcoin ATM ကို အသုံးပြုရန် လိုအပ်နိုင်သည်။",
+	buy_method_choose_cash: "ကိုယ်တိုင်တွေ့ဆုံ၍ ဝယ်ခြင်းကို ရွေးပါ",
+
+	// Step 3
+	buy_step_3_description:
+		"သင့်နိုင်ငံနှင့် ငွေပေးချေမှုနည်းအတွက် အကောင်းဆုံး Bitcoin ဝယ်ယူနိုင်သည့် ရွေးချယ်စရာများ ဤနေရာတွင် ဖော်ပြထားသည်-",
+	buy_platform_recommended: "အကြံပြုထားသည်",
+	buy_platform_strike_description:
+		"Strike သည် ဝန်ဆောင်ခနည်းပြီး ချက်ခြင်းအသုံးပြုနိုင်သော Lightning Network ပံ့ပိုးမှုဖြင့် Bitcoin ဝယ်ယူရန် အမြန်ဆုံးနှင့် အလွယ်ကူဆုံးနည်းလမ်းဖြစ်သည်။",
+	buy_platform_swan_description:
+		"Swan Bitcoin သည် ပုံမှန်ပမာဏဖြင့် ရင်းနှီးမြှုပ်နှံခြင်း (DCA) နှင့် ပညာရေးဆိုင်ရာ အရင်းအမြစ်များပါဝင်သော Bitcoin သီးသန့် ဝန်ဆောင်မှုများတွင် အထူးပြုထားသည်။",
+	buy_platform_river_description:
+		"River သည် ပညာရေးနှင့် လုံခြုံရေးကို ဦးစားပေးပြီး Bitcoin ဝယ်ယူခြင်း၊ တူးဖော်ခြင်းနှင့် ထိန်းသိမ်းခြင်း ဝန်ဆောင်မှုများ ပေးဆောင်သည်။",
+	buy_platform_coinsquare_description:
+		"Coinsquare သည် ခိုင်မာသော စည်းမျဉ်းလိုက်နာမှုနှင့် ဖောက်သည်ဝန်ဆောင်မှုပါဝင်သော ကနေဒါနိုင်ငံ၏ Bitcoin အပြန်အလှန်ဖလှယ်ရေး ပလက်ဖောင်းဖြစ်သည်။",
+	buy_platform_kraken_description:
+		"Kraken သည် အဆင့်မြင့်ရောင်းဝယ်မှုဆိုင်ရာ လုပ်ဆောင်ချက်များနှင့် ခိုင်မာသော လုံခြုံရေးပါဝင်သော တည်တံ့သော Bitcoin အပြန်အလှန်ဖလှယ်ရေး ပလက်ဖောင်းဖြစ်သည်။",
+	buy_platform_atm_description:
+		"Bitcoin ATM များက ငွေသားဖြင့် Bitcoin ကို ချက်ခြင်း ဝယ်ယူနိုင်စေသည်။ Coin ATM Radar ကို အသုံးပြု၍ သင့်အနီးအပါးရှိ စက်တစ်ခုကို ရှာဖွေပါ။",
+	buy_platform_bisq_description:
+		"Bisq သည် KYC မလိုဘဲ ကိုယ်ရေးကိုယ်တာ Bitcoin ရောင်းဝယ်မှုကို ခွင့်ပြုသော ဗဟိုချုပ်ကိုင်မှုမရှိသည့် peer-to-peer အပြန်အလှန်ဖလှယ်ရေးဖြစ်သည်။",
+
+	buy_platform_feature_instant: "ချက်ခြင်း ဝယ်ယူနိုင်သည်",
+	buy_platform_feature_low_fees: "ဝန်ဆောင်ခ နည်းပါးသည်",
+	buy_platform_feature_lightning: "Lightning Network",
+	buy_platform_feature_dca: "ပုံမှန်ပမာဏဖြင့် ရင်းနှီးမြှုပ်နှံခြင်း",
+	buy_platform_feature_education: "ပညာရေးဆိုင်ရာ အရင်းအမြစ်များ",
+	buy_platform_feature_withdrawal: "လွယ်ကူသော ငွေထုတ်ယူခြင်း",
+	buy_platform_feature_mining: "Bitcoin တူးဖော်ခြင်း",
+	buy_platform_feature_custody: "ထိန်းသိမ်းမှု ဝန်ဆောင်မှုများ",
+	buy_platform_feature_canadian: "ကနေဒါ ဦးစားပေး",
+	buy_platform_feature_regulated: "စည်းမျဉ်းရှိ အပြန်အလှန်ဖလှယ်ရေး",
+	buy_platform_feature_support: "ဖောက်သည် ဝန်ဆောင်မှု",
+	buy_platform_feature_established: "တည်တံ့သော ပလက်ဖောင်း",
+	buy_platform_feature_security: "ခိုင်မာသော လုံခြုံရေး",
+	buy_platform_feature_advanced: "အဆင့်မြင့် လုပ်ဆောင်ချက်များ",
+	buy_platform_feature_cash: "ငွေသားဖြင့် ဝယ်ယူခြင်း",
+	buy_platform_feature_anonymous: "အမည်ဝှက်မှု ပိုမို",
+	buy_platform_feature_p2p: "ပီးယားတူပီးယား (Peer-to-peer)",
+	buy_platform_feature_private: "ကိုယ်ရေးကိုယ်တာ ရောင်းဝယ်ခြင်း",
+	buy_platform_feature_decentralized: "ဗဟိုချုပ်ကိုင်မှု မရှိ",
+
+	buy_platform_relai_description:
+		"Relai သည် ကိုယ်ပိုင်ထိန်းသိမ်းသည့် ပိုက်ဆံအိတ်၊ အလိုအလျောက် ရင်းနှီးမြှုပ်နှံမှုလုပ်ဆောင်ချက်များနှင့် ဥရောပအသုံးပြုသူများအတွက် ဝန်ဆောင်ခနည်းပါးသော ဆွစ်ဇာလန် Bitcoin သီးသန့် application တစ်ခုဖြစ်သည်။",
+	buy_platform_feature_bitcoin_only: "Bitcoin သာ",
+	buy_platform_feature_self_custody: "ကိုယ်ပိုင် ထိန်းသိမ်းသည့် ပိုက်ဆံအိတ်",
+	buy_platform_feature_auto_invest: "အလိုအလျောက် ရင်းနှီးမြှုပ်နှံမှု အစီအစဉ်များ",
+	buy_platform_feature_european: "ဥရောပ ဦးစားပေး",
+
+	// Step 4
+	buy_step_4_c1:
+		"Bitcoin ဝယ်ယူပြီးနောက်၊ အရေးအကြီးဆုံးအဆင့်သည် ၎င်းကို သင့်ကိုယ်ပိုင် private key များကို ထိန်းချုပ်နိုင်သည့် ကိုယ်ပိုင် ပိုက်ဆံအိတ်ထဲသို့ ရွှေ့ပြောင်းခြင်းဖြစ်သည်။",
+	buy_step_4_c2:
+		"Bitcoin ကို အပြန်အလှန်ဖလှယ်ရေး (exchange) တွင် ထားရှိခြင်းသည် အန္တရာယ်များသည်၊ အဘယ်ကြောင့်ဆိုသော် သင်သည် Bitcoin ကို တကယ်ပိုင်ဆိုင်ထားသူ မဟုတ်ပါ — အပြန်အလှန်ဖလှယ်ရေးက ပိုင်ဆိုင်နေခြင်းဖြစ်သည်။",
+	buy_step_4_c3:
+		"သင့်ကိုယ်ပိုင် private key များကို ထိန်းချုပ်ထားသောအခါ၊ သင့် Bitcoin ပေါ်တွင် စစ်မှန်သော ပိုင်ဆိုင်မှု ရှိနေပြီး မည်သူမျှ သင့်ထံမှ ယူသွားနိုင်မည် မဟုတ်ပါ။",
+	buy_step_4_c4: "သင့်လိုအပ်ချက်အတွက် မှန်ကန်သော Bitcoin ပိုက်ဆံအိတ်ကို ရွေးချယ်နည်း လေ့လာပါ-",
+	buy_cta_wallets: "ကျွန်ုပ်တို့၏ Bitcoin ပိုက်ဆံအိတ် လမ်းညွှန်ကို ကြည့်ပါ",
+};
+
+function main() {
+	const raw = fs.readFileSync(MY_PATH, "utf8");
+	const data = JSON.parse(raw);
+
+	// Sanity-check that every key we want to fix actually exists.
+	const missing = Object.keys(BURMESE_TRANSLATIONS).filter(
+		(k) => !(k in data),
+	);
+	if (missing.length > 0) {
+		console.error(
+			"Aborting: the following keys are not in buy_my.json:",
+			missing,
+		);
+		process.exit(1);
+	}
+
+	// Apply Burmese translations.
+	let replaced = 0;
+	for (const [key, value] of Object.entries(BURMESE_TRANSLATIONS)) {
+		if (data[key] !== value) {
+			data[key] = value;
+			replaced++;
+		}
+	}
+
+	// Update last-updated metadata.
+	if (!data["@metadata"]) data["@metadata"] = {};
+	data["@metadata"]["last-updated"] = "2026-04-26";
+
+	// Verify no Bengali codepoints remain.
+	const stillBengali = [];
+	for (const [k, v] of Object.entries(data)) {
+		if (k === "@metadata") continue;
+		if (containsBengali(v)) stillBengali.push(k);
+	}
+	if (stillBengali.length > 0) {
+		console.error(
+			"Bengali characters still present in keys:",
+			stillBengali,
+		);
+		process.exit(1);
+	}
+
+	// Write back with tab indentation + trailing newline.
+	fs.writeFileSync(MY_PATH, JSON.stringify(data, null, "\t") + "\n", "utf8");
+
+	console.log(
+		`Replaced ${replaced} keys in i18n/my/buy_my.json with Burmese translations.`,
+	);
+	console.log("@metadata.last-updated set to 2026-04-26.");
+	console.log("No Bengali codepoints remain.");
+}
+
+main();

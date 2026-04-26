@@ -1,7 +1,7 @@
 {
 	"lang": "my",
-	"generatedAt": "2026-04-25T15:26:52.504Z",
-	"englishSnapshotGeneratedAt": "2026-04-25T15:00:36.607Z",
+	"generatedAt": "2026-04-26T18:10:03.231Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
 	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
@@ -10,29 +10,21 @@
 	"stats": {
 		"totalEnglishKeys": 1852,
 		"missing": 0,
-		"untranslated": 2,
+		"untranslated": 1,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
 		"upToDate": 1212,
-		"brandIdentical": 81
+		"brandIdentical": 82
 	},
 	"entries": [
 		{
-			"namespace": "about",
-			"key": "about_open_source_header",
+			"namespace": "buy",
+			"key": "buy_platform_feature_p2p",
 			"reason": "untranslated",
-			"englishValue": "Open Source",
-			"currentValue": "Open Source",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-crypto",
-			"key": "bitcoin_point_7",
-			"reason": "untranslated",
-			"englishValue": "Antifragile",
-			"currentValue": "Antifragile",
+			"englishValue": "Peer-to-peer",
+			"currentValue": "Peer-to-peer",
 			"targetTranslation": null
 		}
 	]

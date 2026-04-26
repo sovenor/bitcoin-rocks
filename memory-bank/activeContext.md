@@ -41,6 +41,29 @@ also reports zero remaining Arabic markers in `buy_ur.json`.
 
 ---
 
+## Burmese (my) locale: re-translated buy_my.json — Bengali script contamination cleanup — April 26, 2026
+
+`i18n/my/buy_my.json` had ~106 values that were copy-pasted from
+`i18n/bn/buy_bn.json` and contained Bengali script (U+0980–U+09FF)
+instead of Burmese (U+1000–U+109F). All contaminated values
+(buy_header, buy_intro_c1/c2, buy_step_1_description, all 52
+buy_country_* keys, buy_search_countries, buy_step_2_description, all
+10 buy_method_* keys, all step-3 platform descriptions and feature
+labels, buy_step_4_c1–c4, buy_cta_wallets, buy_platform_feature_p2p)
+were replaced with proper Burmese translations via
+`scripts/my-fix/fix-buy-bengali-contamination.js`. `@metadata.last-updated`
+bumped to 2026-04-26. `verify-language.js my` is clean (missing=0,
+untranslated=0). `npm run typecheck` passes.
+
+**Heads-up:** a follow-up sweep for Bengali codepoints across the rest of
+`i18n/my/` revealed additional contamination in five other namespaces
+that were NOT in scope for this session:
+`flyers_my.json` (636 codepoints), `get-involved_my.json` (824),
+`lightning_my.json` (1,689), `stickers_my.json` (412), and
+`wallets_my.json` (1,454). These need a separate re-translation pass.
+
+---
+
 ## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
 
 All 7 items of Step 6 are now ticked off in
