@@ -174,7 +174,10 @@ export function CurrencySection({
 						<div className="stat-comparison-result" id={`stat-m1-change-${code}`}>
 							—
 						</div>
-						<div className="stat-comparison-source">
+						<div
+							className="stat-comparison-source"
+							id={`stat-m1-source-${code}`}
+						>
 							{t("inflation_stat_currency_source_m1")}
 						</div>
 					</a>

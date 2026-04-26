@@ -59,6 +59,7 @@ type StatsResponse = {
 	m1BaselineTrillions?: number | string;
 	m1SupplyTrillions?: number | string;
 	m1Unit?: string;
+	m1SourceLabel?: string | null;
 	debtBaselineLabel?: string;
 	debtBaselineTrillions?: number | string;
 	nationalDebtTrillions?: number | string;
@@ -142,6 +143,16 @@ function populateCards(code: string, data: StatsResponse) {
 		`stat-m1-change-${code}`,
 		percentChange(data.m1BaselineTrillions, data.m1SupplyTrillions),
 	);
+
+	// Per-currency source-attribution override. Only write when the
+	// backend supplies one (AUD/CAD/EUR/GBP/BRL route through central-
+	// bank APIs, not FRED). For null we leave the server-rendered
+	// "Source: FRED Narrow Money Supply →" placeholder in place — never
+	// overwrite it with the universal "—" placeholder.
+	if (data.m1SourceLabel) {
+		const el = document.getElementById(`stat-m1-source-${code}`);
+		if (el) el.textContent = data.m1SourceLabel;
+	}
 
 	// Government debt comparison card
 	setText(`stat-debt-baseline-label-${code}`, data.debtBaselineLabel);

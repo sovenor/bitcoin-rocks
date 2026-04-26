@@ -32,13 +32,17 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
+// v6 — bumped after adding per-currency m1SourceLabel overrides so the
+// frontend can swap "Source: FRED Narrow Money Supply →" for the actual
+// central-bank source string on AUD/CAD/EUR/GBP/BRL cards. v5 cached
+// responses lack the new field.
 // v5 — bumped after the M1 sources for AUD/CAD/EUR/GBP/BRL switched
 // from stale FRED MANMM101* series to direct central-bank APIs (RBA
 // D3, Bank of Canada Valet, ECB Data Portal, BoE IADB, BCB SGS).
 // BRL's m1Unit also flipped from 'trillion' to 'billion' since the
 // Brazilian M1 (~R$ 600B) reads more naturally as a billion figure.
 // Older cache files are orphaned on the persistent volume; harmless.
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v5.json');
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v6.json');
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
 const API_TIMEOUT = 15000; // 15 seconds
 
@@ -100,6 +104,7 @@ const CURRENCIES = {
 		m1Series: null,
 		m1Unit: 'trillion', m1DivideBy: 1000000000000,
 		m1CustomFetcher: 'bocValet',
+		m1SourceLabel: 'Bank of Canada — M1+ →',
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTACAA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 87,   label: '2019' },
@@ -114,6 +119,7 @@ const CURRENCIES = {
 		m1Series: null,
 		m1Unit: 'trillion', m1DivideBy: 1000000000000,
 		m1CustomFetcher: 'ecbBsi',
+		m1SourceLabel: 'ECB — Monetary Aggregate M1 →',
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		// FRED does not publish an aggregated Eurozone gross-debt series
 		// that tracks monthly or even cleanly annually, so we drop the
@@ -136,6 +142,7 @@ const CURRENCIES = {
 		m1Series: null,
 		m1Unit: 'trillion', m1DivideBy: 1000000000000,
 		m1CustomFetcher: 'boeIadb',
+		m1SourceLabel: 'Bank of England — M4 →',
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAGBA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 85,   label: '2019' },
@@ -153,6 +160,7 @@ const CURRENCIES = {
 		m1Series: null,
 		m1Unit: 'billion', m1DivideBy: 1000000000,
 		m1CustomFetcher: 'bcbSgs',
+		m1SourceLabel: 'Banco Central do Brasil — M1 →',
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTABRA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 74,   label: '2019' },
@@ -225,6 +233,7 @@ const CURRENCIES = {
 		m1Series: null,
 		m1Unit: 'trillion', m1DivideBy: 1000000000000,
 		m1CustomFetcher: 'rbaD3',
+		m1SourceLabel: 'RBA D3 — Monetary Aggregates →',
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAAUA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 47,   label: '2019' },
@@ -901,6 +910,12 @@ async function fetchCurrencyStats(code) {
 		m1BaselineTrillions:  fmt(m1BaselineValue, 1),
 		m1BaselineLabel:      cfg.m1Baseline.label,
 		m1Unit:               cfg.m1Unit,
+		// Per-currency source-attribution override. Null for FRED-backed
+		// currencies (USD, PHP, MXN, INR, JPY, ILS, THB, NZD) — frontend
+		// keeps the server-rendered "Source: FRED Narrow Money Supply →"
+		// placeholder when null. Populated for AUD/CAD/EUR/GBP/BRL where
+		// the M1 number actually comes from the listed central bank.
+		m1SourceLabel:        cfg.m1SourceLabel || null,
 
 		// Debt comparison card
 		nationalDebtTrillions:  fmt(debtCurrent, 1),
