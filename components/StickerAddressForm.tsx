@@ -1,5 +1,7 @@
 import { useTranslations } from "next-intl";
 
+import { TurnstileWidget } from "@/components/TurnstileWidget";
+
 /**
  * Sticker address form — shared layout for USA / Canada (and extensible).
  *
@@ -170,11 +172,7 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 							style={{ display: "none" }}
 						/>
 					)}
-					<div
-						className="cf-turnstile"
-						data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-						data-theme="dark"
-					/>
+					<TurnstileWidget />
 					<button type="submit" className="cic-submit">
 						{t("common_submit")}
 					</button>
@@ -256,11 +254,7 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 						style={{ display: "none" }}
 					/>
 				)}
-				<div
-					className="cf-turnstile"
-					data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-					data-theme="dark"
-				/>
+				<TurnstileWidget />
 				<button type="submit" className="button-form">
 					<p>{t("common_submit")}</p>
 				</button>
