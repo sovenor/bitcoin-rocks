@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["nginx"]
-
-[phases.build]
-cmds = ["echo 'Static site - no build required'"]
-
-[start]
-cmd = "nginx -c /app/nginx.conf"
