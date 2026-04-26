@@ -37,5 +37,4 @@ forms-backend/data/
 forms-backend/node_modules/
 
 # Claude Code - local only
-.claude/settings.local.json
-.claude/todos.json
+.claude/
