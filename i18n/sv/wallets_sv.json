@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "sv"
 	},
 	"bitcoin_wallet_guide": "Guide till Bitcoin-plånböcker",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HUR SÄKERHETSKOPIERAR JAG MIN ÅTERSTÄLLNINGSFRAS?",
 	"wallets_s6_c1": "När du sätter upp en Bitcoin-plånbok genererar din enhet en återställningsfras. Denna återställningsfras (även kallad seed-fras) innehåller 12 eller 24 ord.",
 	"wallets_s6_c2": "Om du förlorar åtkomsten till din plånbok eller din enhet slutar fungera kan du ange denna återställningsfras i en ny plånbok och återfå åtkomst till din Bitcoin.",
-	"wallets_s6_c3": "De flesta plånböcker inkluderar ett papper för att skriva ner återställningsfrasen, men många föredrar att säkerhetskopiera denna fras på stål. Det minskar avsevärt risken att förlora återställningsfrasen vid en naturkatastrof som brand eller översvämning.",
-	"wallets_s6_c4": "Jameson Lopp har testat 70 säkerhetskopieringsset i stål för att hjälpa dig välja rätt.",
-	"wallets_s6_c5": "Se Jamesons guide till Bitcoin-säkerhetskopior i metall här.",
-	"wallets_s6_c6": "Eller fortsätt scrolla för att utforska alternativ för Bitcoin-plånböcker.",
+	"wallets_s6_c3": "Din återställningsfras är det allra viktigaste lösenordet — skydda den till varje pris. Vem som helst som får tillgång till den kan komma åt din bitcoin, så det är avgörande att förvara den säkert och aldrig på nätet (inga foton, ingen molnlagring, ingen e-post, inga anteckningsappar).",
+	"wallets_s6_c4": "De flesta plånböcker inkluderar ett papper för att skriva ner återställningsfrasen, men många föredrar att säkerhetskopiera denna fras på stål. Det minskar avsevärt risken att förlora återställningsfrasen vid en naturkatastrof som brand eller översvämning.",
+	"wallets_s6_c5": "Jameson Lopp har testat 70 säkerhetskopieringsset i stål för att hjälpa dig välja rätt.",
+	"wallets_s6_c6": "Se Jamesons guide till Bitcoin-säkerhetskopior i metall här.",
+	"wallets_s6_c7": "Eller fortsätt scrolla för att utforska alternativ för Bitcoin-plånböcker.",
 	"wallets_grid_heading": "Populära Bitcoin-plånböcker",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

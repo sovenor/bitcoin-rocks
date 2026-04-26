@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "fil"
 	},
 	"bitcoin_wallet_guide": "Gabay sa Bitcoin Wallet",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "PAANO AKO MAGBA-BACK UP NG AKING RECOVERY PHRASE?",
 	"wallets_s6_c1": "Kapag na-set up mo ang iyong Bitcoin wallet, gagawa ang iyong device ng recovery phrase. Ang recovery phrase na ito (na tinatawag ding seed phrase) ay naglalaman ng 12 o 24 na salita.",
 	"wallets_s6_c2": "Kung mawala ang access mo sa iyong wallet o huminto sa paggana ang iyong device, maaari mong i-input ang recovery phrase na ito sa isang bagong wallet upang makuha muli ang access sa iyong Bitcoin.",
-	"wallets_s6_c3": "Karamihan sa mga wallet ay may kasamang papel upang isulat ang iyong recovery phrase, ngunit maraming tao ang mas gustong i-back up ang phrase na ito sa bakal sa halip. Ginagawa nitong mas mababa ang posibilidad na mawala ang iyong recovery phrase sa kaso ng natural na kalamidad tulad ng sunog o baha.",
-	"wallets_s6_c4": "Si Jameson Lopp ay nasubok ang 70 steel backup kit upang matulungan kang piliin ang tamang para sa iyo.",
-	"wallets_s6_c5": "Tingnan ang metal na gabay sa pag-backup ng Bitcoin ni Jameson dito.",
-	"wallets_s6_c6": "O patuloy na mag-scroll upang i-explore ang mga opsyon ng Bitcoin wallet.",
+	"wallets_s6_c3": "Ang iyong recovery phrase ang pinakaimportanteng password mo — protektahan mo ito anuman ang mangyari. Kahit sino ang makakakuha nito ay maaaring ma-access ang iyong bitcoin, kaya napakahalagang itago ito nang ligtas at hindi kailanman online (walang litrato, walang cloud storage, walang email, walang notes app).",
+	"wallets_s6_c4": "Karamihan sa mga wallet ay may kasamang papel upang isulat ang iyong recovery phrase, ngunit maraming tao ang mas gustong i-back up ang phrase na ito sa bakal sa halip. Ginagawa nitong mas mababa ang posibilidad na mawala ang iyong recovery phrase sa kaso ng natural na kalamidad tulad ng sunog o baha.",
+	"wallets_s6_c5": "Si Jameson Lopp ay nasubok ang 70 steel backup kit upang matulungan kang piliin ang tamang para sa iyo.",
+	"wallets_s6_c6": "Tingnan ang metal na gabay sa pag-backup ng Bitcoin ni Jameson dito.",
+	"wallets_s6_c7": "O patuloy na mag-scroll upang i-explore ang mga opsyon ng Bitcoin wallet.",
 	"wallets_grid_heading": "Mga sikat na bitcoin wallet",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

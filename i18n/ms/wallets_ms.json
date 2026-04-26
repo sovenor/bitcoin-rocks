@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "ms"
 	},
 	"bitcoin_wallet_guide": "Panduan Dompet Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "Bagaimana cara membuat sandaran frasa pemulihan?",
 	"wallets_s6_c1": "Apabila anda menyediakan dompet Bitcoin, peranti anda akan menjana frasa pemulihan. Frasa pemulihan ini (juga dipanggil frasa seed) mengandungi 12 atau 24 perkataan.",
 	"wallets_s6_c2": "Jika anda kehilangan akses kepada dompet anda atau peranti berhenti berfungsi, anda boleh memasukkan frasa pemulihan ini ke dalam dompet baharu untuk mendapatkan semula akses kepada Bitcoin anda.",
-	"wallets_s6_c3": "Kebanyakan dompet datang dengan kertas untuk menulis frasa pemulihan anda, tetapi ramai orang lebih suka membuat sandaran frasa ini pada keluli. Ini mengurangkan dengan drastik kemungkinan kehilangan frasa pemulihan anda akibat bencana alam seperti kebakaran atau banjir.",
-	"wallets_s6_c4": "Jameson Lopp telah menguji 70 kit sandaran keluli untuk membantu anda memilih yang sesuai.",
-	"wallets_s6_c5": "Panduan sandaran logam Bitcoin Jameson di sini.",
-	"wallets_s6_c6": "Atau teruskan menatal untuk meneroka pilihan dompet Bitcoin.",
+	"wallets_s6_c3": "Frasa pemulihan anda ialah kata laluan paling utama — lindunginya pada semua kos. Sesiapa sahaja yang mendapat akses kepadanya boleh mengakses Bitcoin anda, jadi sangat penting untuk menyimpannya dengan selamat dan jangan sekali-kali dalam talian (tiada gambar, tiada storan awan, tiada e-mel, tiada aplikasi nota).",
+	"wallets_s6_c4": "Kebanyakan dompet datang dengan kertas untuk menulis frasa pemulihan anda, tetapi ramai orang lebih suka membuat sandaran frasa ini pada keluli. Ini mengurangkan dengan drastik kemungkinan kehilangan frasa pemulihan anda akibat bencana alam seperti kebakaran atau banjir.",
+	"wallets_s6_c5": "Jameson Lopp telah menguji 70 kit sandaran keluli untuk membantu anda memilih yang sesuai.",
+	"wallets_s6_c6": "Panduan sandaran logam Bitcoin Jameson di sini.",
+	"wallets_s6_c7": "Atau teruskan menatal untuk meneroka pilihan dompet Bitcoin.",
 	"wallets_grid_heading": "Dompet Bitcoin popular",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

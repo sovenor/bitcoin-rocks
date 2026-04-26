@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "ca"
 	},
 	"bitcoin_wallet_guide": "Guia de Carteres Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "COM FARÉ UNA CÒPIA DE SEGURETAT DE LA MEVA FRASE DE RECUPERACIÓ?",
 	"wallets_s6_c1": "Quan configures la teva cartera Bitcoin, el teu dispositiu generarà una frase de recuperació. Aquesta frase de recuperació (també anomenada frase llavor) conté 12 o 24 paraules.",
 	"wallets_s6_c2": "Si alguna vegada perds l'accés a la teva cartera o el teu dispositiu deixa de funcionar, pots introduir aquesta frase de recuperació en una nova cartera per recuperar l'accés al teu Bitcoin.",
-	"wallets_s6_c3": "La majoria de carteres inclouen un full de paper per escriure la teva frase de recuperació, però molta gent prefereix fer una còpia de seguretat d'aquesta frase en acer. Això fa molt menys probable perdre la teva frase de recuperació en cas de desastre natural com un incendi o una inundació.",
-	"wallets_s6_c4": "Jameson Lopp ha provat 70 kits de còpia de seguretat en acer per ajudar-te a escollir el que és adequat per a tu.",
-	"wallets_s6_c5": "Veure la guia de còpies de seguretat en metall de Bitcoin de Jameson aquí.",
-	"wallets_s6_c6": "O continua desplaçant-te per explorar les opcions de carteres Bitcoin.",
+	"wallets_s6_c3": "La teva frase de recuperació és la contrasenya definitiva: protegeix-la a tota costa. Qualsevol persona que hi tingui accés podrà accedir al teu Bitcoin, així que és crucial guardar-la de manera segura i mai en línia (cap fotografia, cap emmagatzematge al núvol, cap correu electrònic, cap aplicació de notes).",
+	"wallets_s6_c4": "La majoria de carteres inclouen un full de paper per escriure la teva frase de recuperació, però molta gent prefereix fer una còpia de seguretat d'aquesta frase en acer. Això fa molt menys probable perdre la teva frase de recuperació en cas de desastre natural com un incendi o una inundació.",
+	"wallets_s6_c5": "Jameson Lopp ha provat 70 kits de còpia de seguretat en acer per ajudar-te a escollir el que és adequat per a tu.",
+	"wallets_s6_c6": "Veure la guia de còpies de seguretat en metall de Bitcoin de Jameson aquí.",
+	"wallets_s6_c7": "O continua desplaçant-te per explorar les opcions de carteres Bitcoin.",
 	"wallets_grid_heading": "Carteres populars de Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

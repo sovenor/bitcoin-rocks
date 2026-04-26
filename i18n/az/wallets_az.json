@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-26",
 		"locale": "az"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Pul Kisəsi Bələdçisi",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "BƏRPA İFADƏMİ NECƏ EHTİYAT NÜSXƏSİNİ ÇIXARACAĞAM?",
 	"wallets_s6_c1": "Bitcoin pul kisənizi quraşdırdığınızda, cihazınız bərpa ifadəsi yaradacaq. Bu bərpa ifadəsi (həmçinin toxum ifadəsi adlanır) 12 və ya 24 sözdən ibarətdir.",
 	"wallets_s6_c2": "Pul kisənizə çıxışınızı itirsəniz və ya cihazınız işləməsini dayandırsa, Bitcoin-inzə yenidən çıxış əldə etmək üçün bu bərpa ifadəsini yeni pul kisəsinə daxil edə bilərsiniz.",
-	"wallets_s6_c3": "Əksər pul kisələri bərpa ifadənizi yazmaq üçün kağız vərəqi ehtiva edir, lakin çox insanlar bu ifadəni kağız əvəzinə polad üzərində ehtiyat nüsxə çıxarmağı üstün tutur. Bu, yanğın və ya sel kimi təbii fəlakət zamanı bərpa ifadənizi itirmə ehtimalını azaldır.",
-	"wallets_s6_c4": "Jameson Lopp sizin üçün doğru olanı seçməyinizə kömək etmək üçün 70 polad ehtiyat dəstini sınaqdan keçirib.",
-	"wallets_s6_c5": "Jameson-un metal Bitcoin ehtiyat bələdçisinə burada baxın.",
-	"wallets_s6_c6": "Və ya Bitcoin pul kisəsi seçimlərini araşdırmaq üçün aşağı sürüşdürməyə davam edin.",
+	"wallets_s6_c3": "Bərpa ifadəniz ən vacib paroldur — onu nəyin bahasına olursa olsun qoruyun. Ona çıxış əldə edən hər kəs Bitcoin-inizə çıxa bilər, ona görə də onu təhlükəsiz şəkildə və heç vaxt onlayn saxlamamaq vacibdir (heç bir foto, heç bir bulud yaddaşı, heç bir e-poçt, heç bir qeyd tətbiqi).",
+	"wallets_s6_c4": "Əksər pul kisələri bərpa ifadənizi yazmaq üçün kağız vərəqi ehtiva edir, lakin çox insanlar bu ifadəni kağız əvəzinə polad üzərində ehtiyat nüsxə çıxarmağı üstün tutur. Bu, yanğın və ya sel kimi təbii fəlakət zamanı bərpa ifadənizi itirmə ehtimalını azaldır.",
+	"wallets_s6_c5": "Jameson Lopp sizin üçün doğru olanı seçməyinizə kömək etmək üçün 70 polad ehtiyat dəstini sınaqdan keçirib.",
+	"wallets_s6_c6": "Jameson-un metal Bitcoin ehtiyat bələdçisinə burada baxın.",
+	"wallets_s6_c7": "Və ya Bitcoin pul kisəsi seçimlərini araşdırmaq üçün aşağı sürüşdürməyə davam edin.",
 	"wallets_grid_heading": "Məşhur Bitcoin pulqabları",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

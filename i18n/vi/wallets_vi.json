@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "vi"
 	},
 	"bitcoin_wallet_guide": "Hướng Dẫn Ví Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "TÔI SẼ SAO LƯU CỤM TỪ KHÔI PHỤC NHƯ THẾ NÀO?",
 	"wallets_s6_c1": "Khi thiết lập ví Bitcoin, thiết bị sẽ tạo cụm từ khôi phục. Cụm từ khôi phục này (còn gọi là seed phrase) chứa 12 hoặc 24 từ.",
 	"wallets_s6_c2": "Nếu bạn mất quyền truy cập ví hoặc thiết bị ngừng hoạt động, bạn có thể nhập cụm từ khôi phục vào ví mới để lấy lại quyền truy cập Bitcoin.",
-	"wallets_s6_c3": "Hầu hết ví bao gồm tờ giấy để viết cụm từ khôi phục, nhưng nhiều người thích sao lưu trên thép. Điều này giảm đáng kể khả năng mất cụm từ khôi phục trong trường hợp thiên tai như cháy hoặc lũ.",
-	"wallets_s6_c4": "Jameson Lopp đã thử nghiệm 70 bộ sao lưu thép để giúp bạn chọn bộ phù hợp.",
-	"wallets_s6_c5": "Xem hướng dẫn sao lưu Bitcoin bằng kim loại của Jameson tại đây.",
-	"wallets_s6_c6": "Hoặc tiếp tục cuộn xuống để khám phá các tùy chọn ví Bitcoin.",
+	"wallets_s6_c3": "Cụm từ khôi phục của bạn là mật khẩu quan trọng nhất — hãy bảo vệ nó bằng mọi giá. Bất kỳ ai có được nó đều có thể truy cập Bitcoin của bạn, vì vậy điều cốt yếu là phải lưu trữ nó an toàn và không bao giờ trực tuyến (không chụp ảnh, không lưu trên đám mây, không gửi email, không dùng ứng dụng ghi chú).",
+	"wallets_s6_c4": "Hầu hết ví bao gồm tờ giấy để viết cụm từ khôi phục, nhưng nhiều người thích sao lưu trên thép. Điều này giảm đáng kể khả năng mất cụm từ khôi phục trong trường hợp thiên tai như cháy hoặc lũ.",
+	"wallets_s6_c5": "Jameson Lopp đã thử nghiệm 70 bộ sao lưu thép để giúp bạn chọn bộ phù hợp.",
+	"wallets_s6_c6": "Xem hướng dẫn sao lưu Bitcoin bằng kim loại của Jameson tại đây.",
+	"wallets_s6_c7": "Hoặc tiếp tục cuộn xuống để khám phá các tùy chọn ví Bitcoin.",
 	"wallets_grid_heading": "Các ví Bitcoin phổ biến",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

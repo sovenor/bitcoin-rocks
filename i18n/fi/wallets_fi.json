@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "fi"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-lompakko-opas",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "MITEN VARMUUSKOPIOIN PALAUTUSLAUSEENI?",
 	"wallets_s6_c1": "Kun perustat Bitcoin-lompakon, laitteesi luo palautuslauseen. Tämä palautuslause (kutsutaan myös siemenlauseeksi) sisältää 12 tai 24 sanaa.",
 	"wallets_s6_c2": "Jos menetät pääsyn lompakkoosi tai laitteesi lakkaa toimimasta, voit syöttää tämän palautuslauseen uuteen lompakkoon päästäksesi Bitcoineihisi käsiksi.",
-	"wallets_s6_c3": "Useimpiin lompakoihin kuuluu paperi palautuslauseen kirjoittamiseen, mutta monet preferoivat varmuuskopioida lauseen teräkselle. Tämä tekee palautuslauseen menettämisestä epätodennäköisempää luonnonkatastrofin kuten tulipalon tai tulvan yhteydessä.",
-	"wallets_s6_c4": "Jameson Lopp on testannut 70 teräsvarmuuskopiopakettia auttaaksesi sinua valitsemaan sinulle sopivan.",
-	"wallets_s6_c5": "Katso Jamesonin metallinen Bitcoin-varmuuskopio-opas täältä.",
-	"wallets_s6_c6": "Tai jatka vierittämistä tutkiaksesi Bitcoin-lompakkovaihtoehtoja.",
+	"wallets_s6_c3": "Palautuslauseesi on tärkein salasanasi – suojele sitä kaikin keinoin. Jokainen, joka pääsee siihen käsiksi, voi käyttää bitcoinejasi, joten on ratkaisevan tärkeää säilyttää se turvallisesti eikä koskaan verkossa (ei valokuvia, ei pilvitallennusta, ei sähköpostia, ei muistiinpanosovelluksia).",
+	"wallets_s6_c4": "Useimpiin lompakoihin kuuluu paperi palautuslauseen kirjoittamiseen, mutta monet preferoivat varmuuskopioida lauseen teräkselle. Tämä tekee palautuslauseen menettämisestä epätodennäköisempää luonnonkatastrofin kuten tulipalon tai tulvan yhteydessä.",
+	"wallets_s6_c5": "Jameson Lopp on testannut 70 teräsvarmuuskopiopakettia auttaaksesi sinua valitsemaan sinulle sopivan.",
+	"wallets_s6_c6": "Katso Jamesonin metallinen Bitcoin-varmuuskopio-opas täältä.",
+	"wallets_s6_c7": "Tai jatka vierittämistä tutkiaksesi Bitcoin-lompakkovaihtoehtoja.",
 	"wallets_grid_heading": "Suositut bitcoin-lompakot",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

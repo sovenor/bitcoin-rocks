@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "ga"
 	},
 	"bitcoin_wallet_guide": "Treoir Sparán Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "CONAS A DHÉANFAIDH MÉ CÚLTACA DE MO FHRÁSA AISGHABHÁLA?",
 	"wallets_s6_c1": "Nuair a bhunóidh tú do sparán Bitcoin, ginfidh do ghléas frása aisghabhála. Tá 12 nó 24 focal san fhrása aisghabhála seo (ar a dtugtar frása síl freisin).",
 	"wallets_s6_c2": "Má chailleann tú rochtain ar do sparán nó má stopann do ghléas ag obair, is féidir leat an frása aisghabhála seo a ionchur i sparán nua chun rochtain ar do Bitcoin a fháil ar ais.",
-	"wallets_s6_c3": "Áiríonn an chuid is mó de sparáin bileog pháipéir chun d'fhrása aisghabhála a scríobh síos, ach is fearr le go leor daoine cúltaca a dhéanamh den fhrása seo ar chruach ina ionad. Déanann sé seo i bhfad níos lú dóchúil d'fhrása aisghabhála a chailleadh i gcás tubaiste nádúrtha cosúil le dóiteán nó tuile.",
-	"wallets_s6_c4": "Tá 70 pacáiste cúltaca cruach tástáilte ag Jameson Lopp chun cabhrú leat an ceann ceart duit a roghnú.",
-	"wallets_s6_c5": "Féach ar threoir chúltaca miotail Bitcoin Jameson anseo.",
-	"wallets_s6_c6": "Nó lean ort ag scrollú chun roghanna sparán Bitcoin a fhiosrú.",
+	"wallets_s6_c3": "Is é d'fhrása aisghabhála an pasfhocal is tábhachtaí atá agat — cosain é ar gach bealach. Is féidir le duine ar bith a fhaigheann rochtain air do bitcoin a rochtain, mar sin tá sé ríthábhachtach é a stóráil go sábháilte agus riamh ar líne (gan grianghraif, gan stóráil scamall, gan ríomhphost, gan aipeanna nótaí).",
+	"wallets_s6_c4": "Áiríonn an chuid is mó de sparáin bileog pháipéir chun d'fhrása aisghabhála a scríobh síos, ach is fearr le go leor daoine cúltaca a dhéanamh den fhrása seo ar chruach ina ionad. Déanann sé seo i bhfad níos lú dóchúil d'fhrása aisghabhála a chailleadh i gcás tubaiste nádúrtha cosúil le dóiteán nó tuile.",
+	"wallets_s6_c5": "Tá 70 pacáiste cúltaca cruach tástáilte ag Jameson Lopp chun cabhrú leat an ceann ceart duit a roghnú.",
+	"wallets_s6_c6": "Féach ar threoir chúltaca miotail Bitcoin Jameson anseo.",
+	"wallets_s6_c7": "Nó lean ort ag scrollú chun roghanna sparán Bitcoin a fhiosrú.",
 	"wallets_grid_heading": "Sparáin Bitcoin a bhfuil tóir orthu",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

@@ -428,6 +428,7 @@ export default async function WalletsPage({
 								<p>{t("wallets_s6_c2")}</p>
 								<p>{t("wallets_s6_c3")}</p>
 								<p>{t("wallets_s6_c4")}</p>
+								<p>{t("wallets_s6_c5")}</p>
 								<p>
 									<a
 										href="https://jlopp.github.io/metal-bitcoin-storage-reviews/"
@@ -435,9 +436,9 @@ export default async function WalletsPage({
 										rel="noopener noreferrer"
 										className="body-link"
 									>
-										{t("wallets_s6_c5")}
+										{t("wallets_s6_c6")}
 									</a>{" "}
-									{t("wallets_s6_c6")}
+									{t("wallets_s6_c7")}
 								</p>
 							</WalletAccordion>
 						</div>

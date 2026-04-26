@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "id"
 	},
 	"bitcoin_wallet_guide": "Panduan Dompet Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "BAGAIMANA SAYA AKAN MENCADANGKAN FRASE PEMULIHAN SAYA?",
 	"wallets_s6_c1": "Saat Anda mengatur dompet Bitcoin, perangkat Anda akan menghasilkan frase pemulihan. Frase pemulihan ini (juga disebut seed phrase) terdiri dari 12 atau 24 kata.",
 	"wallets_s6_c2": "Jika Anda kehilangan akses ke dompet atau perangkat Anda rusak, Anda dapat memasukkan frase pemulihan ini ke dompet baru untuk mendapatkan kembali akses ke Bitcoin Anda.",
-	"wallets_s6_c3": "Sebagian besar dompet menyertakan lembaran kertas untuk mencatat frase pemulihan Anda, tetapi banyak orang lebih memilih mencadangkannya di plat baja. Ini mengurangi risiko kehilangan frase pemulihan akibat bencana alam seperti kebakaran atau banjir.",
-	"wallets_s6_c4": "Jameson Lopp telah menguji 70 kit pencadangan baja untuk membantu Anda memilih yang terbaik.",
-	"wallets_s6_c5": "Lihat panduan pencadangan Bitcoin berbasis logam dari Jameson di sini.",
-	"wallets_s6_c6": "Atau lanjutkan menggulir untuk menjelajahi opsi dompet Bitcoin.",
+	"wallets_s6_c3": "Frase pemulihan Anda adalah kata sandi paling utama — lindungi dengan segala cara. Siapa pun yang mendapatkan akses ke frase ini dapat mengakses Bitcoin Anda, jadi sangat penting untuk menyimpannya dengan aman dan tidak pernah secara online (tidak ada foto, tidak ada penyimpanan cloud, tidak ada email, tidak ada aplikasi catatan).",
+	"wallets_s6_c4": "Sebagian besar dompet menyertakan lembaran kertas untuk mencatat frase pemulihan Anda, tetapi banyak orang lebih memilih mencadangkannya di plat baja. Ini mengurangi risiko kehilangan frase pemulihan akibat bencana alam seperti kebakaran atau banjir.",
+	"wallets_s6_c5": "Jameson Lopp telah menguji 70 kit pencadangan baja untuk membantu Anda memilih yang terbaik.",
+	"wallets_s6_c6": "Lihat panduan pencadangan Bitcoin berbasis logam dari Jameson di sini.",
+	"wallets_s6_c7": "Atau lanjutkan menggulir untuk menjelajahi opsi dompet Bitcoin.",
 	"wallets_grid_heading": "Dompet Bitcoin populer",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

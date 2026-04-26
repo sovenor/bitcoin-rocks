@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-26",
 		"locale": "af"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-beursiegids",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HOE SAL EK MY HERSTELFRASE RUGSTEUN?",
 	"wallets_s6_c1": "Wanneer jy jou Bitcoin-beursie opstel, sal jou toestel 'n herstelfrase genereer. Hierdie herstelfrase (ook 'n saadwoord genoem) bevat 12 of 24 woorde.",
 	"wallets_s6_c2": "As jy ooit toegang tot jou beursie verloor of jou toestel ophou werk, kan jy hierdie herstelfrase in 'n nuwe beursie invoer om weer toegang tot jou Bitcoin te kry.",
-	"wallets_s6_c3": "Die meeste beursies sluit 'n vel papier in om jou herstelfrase op te skryf, maar baie mense verkies om hierdie frase op staal te rugsteun. Dit maak dit baie minder waarskynlik dat jy jou herstelfrase sal verloor in die geval van 'n natuurramp soos 'n brand of 'n vloed.",
-	"wallets_s6_c4": "Jameson Lopp het 70 staalrugsteunpakkette getoets om jou te help die regte een vir jou te kies.",
-	"wallets_s6_c5": "Bekyk Jameson se metaal Bitcoin-rugsteungids hier.",
-	"wallets_s6_c6": "Of hou aan blaai om Bitcoin-beursie-opsies te verken.",
+	"wallets_s6_c3": "Jou herstelfrase is die belangrikste wagwoord — beskerm dit teen alle koste. Enigiemand wat toegang daartoe kry, kan toegang tot jou Bitcoin kry, daarom is dit noodsaaklik om dit veilig te berg en nooit aanlyn nie (geen foto's, geen wolkberging, geen e-pos, geen notatoepassings nie).",
+	"wallets_s6_c4": "Die meeste beursies sluit 'n vel papier in om jou herstelfrase op te skryf, maar baie mense verkies om hierdie frase op staal te rugsteun. Dit maak dit baie minder waarskynlik dat jy jou herstelfrase sal verloor in die geval van 'n natuurramp soos 'n brand of 'n vloed.",
+	"wallets_s6_c5": "Jameson Lopp het 70 staalrugsteunpakkette getoets om jou te help die regte een vir jou te kies.",
+	"wallets_s6_c6": "Bekyk Jameson se metaal Bitcoin-rugsteungids hier.",
+	"wallets_s6_c7": "Of hou aan blaai om Bitcoin-beursie-opsies te verken.",
 	"wallets_grid_heading": "Gewilde Bitcoin-beursies",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

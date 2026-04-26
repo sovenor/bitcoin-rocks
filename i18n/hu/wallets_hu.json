@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "hu"
 	},
 	"bitcoin_wallet_guide": "Bitcoin tárca útmutató",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HOGYAN MENTEM EL A HELYREÁLLÍTÁSI KIFEJEZÉSEMET?",
 	"wallets_s6_c1": "Amikor beállítod a Bitcoin tárcádat, az eszközöd létrehoz egy helyreállítási kifejezést. Ez a helyreállítási kifejezés (seed phrase) 12 vagy 24 szóból áll.",
 	"wallets_s6_c2": "Ha valaha elveszted a hozzáférést a tárcádhoz, vagy az eszközöd leáll, beírhatod ezt a helyreállítási kifejezést egy új tárcába, hogy visszakapd a hozzáférést a Bitcoinodhoz.",
-	"wallets_s6_c3": "A legtöbb tárca tartalmaz egy papírlapot a helyreállítási kifejezés leírásához, de sokan inkább acélra mentik. Ez sokkal kevesebbé valószínűvé teszi, hogy elveszted a helyreállítási kifejezésedet természeti katasztrófa, például tűz vagy árvíz esetén.",
-	"wallets_s6_c4": "Jameson Lopp 70 acél biztonsági mentési készletet tesztelt, hogy segítsen kiválasztani a számodra megfelelőt.",
-	"wallets_s6_c5": "Nézd meg Jameson fém Bitcoin mentési útmutatóját itt.",
-	"wallets_s6_c6": "Vagy görgess tovább a Bitcoin tárca lehetőségek felfedezéséhez.",
+	"wallets_s6_c3": "A helyreállítási kifejezésed a legfontosabb jelszavad — védd meg minden áron. Bárki, aki hozzáfér, hozzáférhet a Bitcoinodhoz is, ezért elengedhetetlen, hogy biztonságosan tárold, és soha ne online (semmi fénykép, semmi felhőtárhely, semmi e-mail, semmi jegyzetalkalmazás).",
+	"wallets_s6_c4": "A legtöbb tárca tartalmaz egy papírlapot a helyreállítási kifejezés leírásához, de sokan inkább acélra mentik. Ez sokkal kevesebbé valószínűvé teszi, hogy elveszted a helyreállítási kifejezésedet természeti katasztrófa, például tűz vagy árvíz esetén.",
+	"wallets_s6_c5": "Jameson Lopp 70 acél biztonsági mentési készletet tesztelt, hogy segítsen kiválasztani a számodra megfelelőt.",
+	"wallets_s6_c6": "Nézd meg Jameson fém Bitcoin mentési útmutatóját itt.",
+	"wallets_s6_c7": "Vagy görgess tovább a Bitcoin tárca lehetőségek felfedezéséhez.",
 	"wallets_grid_heading": "Népszerű Bitcoin pénztárcák",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

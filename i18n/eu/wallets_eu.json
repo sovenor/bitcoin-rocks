@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "eu"
 	},
 	"bitcoin_wallet_guide": "Bitcoin zorro gida",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "NOLA EGINGO DUT NIRE BERRESKURATZE-ESALDIAREN BABESKOPIA?",
 	"wallets_s6_c1": "Zure Bitcoin zorroa konfiguratzen duzunean, zure gailuak berreskuratze-esaldi bat sortuko du. Berreskuratze-esaldi honek (hazi-esaldia ere deitua) 12 edo 24 hitz ditu.",
 	"wallets_s6_c2": "Inoiz zure zorrora sarbidea galtzen baduzu edo zure gailuak funtzionatzeari uzten badio, berreskuratze-esaldi hau zorro berri batean sar dezakezu zure Bitcoin-era berriro sarbidea izateko.",
-	"wallets_s6_c3": "Zorro gehienek zure berreskuratze-esaldia idazteko paper orri bat barneratzen dute, baina jende askok esaldi honen babeskopia altzairuan egitea nahiago du. Honek askoz gutxiagoko probabilitatea du zure berreskuratze-esaldia galtzeko hondamendi natural baten kasuan, hala nola sute edo uholde baten kasuan.",
-	"wallets_s6_c4": "Jameson Lopp-ek 70 altzairuzko babeskopia kit probatu ditu zuretzat egokiena dena aukeratzen laguntzeko.",
-	"wallets_s6_c5": "Ikusi hemen Jameson-en metalezko Bitcoin babeskopia gida.",
-	"wallets_s6_c6": "Edo jarraitu beherantz Bitcoin zorro aukerak esploratzeko.",
+	"wallets_s6_c3": "Zure berreskuratze-esaldia behin betiko pasahitza da: babestu edozein preziotan. Bertara sarbidea lortzen duen edonork zure Bitcoin-era sar daiteke, beraz funtsezkoa da modu seguruan gordetzea eta inoiz ez online (argazkirik ez, hodeiko biltegiratzerik ez, postarik ez, ohar-aplikaziorik ez).",
+	"wallets_s6_c4": "Zorro gehienek zure berreskuratze-esaldia idazteko paper orri bat barneratzen dute, baina jende askok esaldi honen babeskopia altzairuan egitea nahiago du. Honek askoz gutxiagoko probabilitatea du zure berreskuratze-esaldia galtzeko hondamendi natural baten kasuan, hala nola sute edo uholde baten kasuan.",
+	"wallets_s6_c5": "Jameson Lopp-ek 70 altzairuzko babeskopia kit probatu ditu zuretzat egokiena dena aukeratzen laguntzeko.",
+	"wallets_s6_c6": "Ikusi hemen Jameson-en metalezko Bitcoin babeskopia gida.",
+	"wallets_s6_c7": "Edo jarraitu beherantz Bitcoin zorro aukerak esploratzeko.",
 	"wallets_grid_heading": "Bitcoin zorro ezagunak",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

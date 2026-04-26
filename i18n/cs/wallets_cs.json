@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "cs"
 	},
 	"bitcoin_wallet_guide": "Průvodce bitcoinovými peněženkami",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "JAK ZÁLOHOVAT OBNOVOVACÍ FRÁZI?",
 	"wallets_s6_c1": "Při nastavení bitcoinové peněženky vaše zařízení vygeneruje obnovovací frázi. Tato obnovovací fráze (také nazývaná seed fráze) obsahuje 12 nebo 24 slov.",
 	"wallets_s6_c2": "Pokud ztratíte přístup ke své peněžence nebo vaše zařízení přestane fungovat, můžete tuto obnovovací frázi zadat do nové peněženky a znovu získat přístup ke svému Bitcoinu.",
-	"wallets_s6_c3": "Většina peněženek obsahuje list papíru pro zapsání obnovovací fráze, ale mnoho lidí raději tuto frázi zálohuje na ocel. To výrazně snižuje pravděpodobnost ztráty obnovovací fráze v případě přírodní katastrofy jako požár nebo povodeň.",
-	"wallets_s6_c4": "Jameson Lopp otestoval 70 ocelových zálohovacích sad, aby vám pomohl vybrat tu správnou.",
-	"wallets_s6_c5": "Zobrazit Jamesonův průvodce kovovými bitcoinovými zálohami zde.",
-	"wallets_s6_c6": "Nebo pokračujte scrollováním a prozkoumejte možnosti bitcoinových peněženek.",
+	"wallets_s6_c3": "Vaše obnovovací fráze je tím nejdůležitějším heslem — chraňte ji za každou cenu. Kdokoli k ní získá přístup, získá přístup i k vašemu Bitcoinu, proto je zásadní ji uchovávat bezpečně a nikdy online (žádné fotografie, žádné cloudové úložiště, žádné e-maily, žádné poznámkové aplikace).",
+	"wallets_s6_c4": "Většina peněženek obsahuje list papíru pro zapsání obnovovací fráze, ale mnoho lidí raději tuto frázi zálohuje na ocel. To výrazně snižuje pravděpodobnost ztráty obnovovací fráze v případě přírodní katastrofy jako požár nebo povodeň.",
+	"wallets_s6_c5": "Jameson Lopp otestoval 70 ocelových zálohovacích sad, aby vám pomohl vybrat tu správnou.",
+	"wallets_s6_c6": "Zobrazit Jamesonův průvodce kovovými bitcoinovými zálohami zde.",
+	"wallets_s6_c7": "Nebo pokračujte scrollováním a prozkoumejte možnosti bitcoinových peněženek.",
 	"wallets_grid_heading": "Oblíbené Bitcoin peněženky",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

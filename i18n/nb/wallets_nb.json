@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "nb"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-lommebokguide",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HVORDAN VIL JEG SIKKERHETSKOPIERE GJENOPPRETTINGSFRASEN MIN?",
 	"wallets_s6_c1": "Når du setter opp din Bitcoin-lommebok, vil enheten din generere en gjenopprettingsfrase. Denne gjenopprettingsfrasen (også kalt en frøfrase) inneholder 12 eller 24 ord.",
 	"wallets_s6_c2": "Hvis du noen gang mister tilgangen til lommeboken din eller enheten din slutter å fungere, kan du skrive inn denne gjenopprettingsfrasen i en ny lommebok for å gjenopprette tilgangen til din Bitcoin.",
-	"wallets_s6_c3": "De fleste lommebøker inkluderer et ark papir for å skrive ned gjenopprettingsfrasen, men mange foretrekker å sikkerhetskopiere denne frasen på stål i stedet. Dette gjør det mye mindre sannsynlig å miste gjenopprettingsfrasen i tilfelle en naturkatastrofe som brann eller flom.",
-	"wallets_s6_c4": "Jameson Lopp har testet 70 stål-sikkerhetskopisett for å hjelpe deg å velge det som passer for deg.",
-	"wallets_s6_c5": "Se Jamesons guide for metallsikkerhetskopiering av Bitcoin her.",
-	"wallets_s6_c6": "Eller fortsett å scrolle for å utforske Bitcoin-lommebokalternativer.",
+	"wallets_s6_c3": "Gjenopprettingsfrasen din er det aller viktigste passordet — beskytt den for enhver pris. Alle som får tak i den, kan få tilgang til din Bitcoin, så det er avgjørende å oppbevare den trygt og aldri på nett (ingen bilder, ingen skylagring, ingen e-post, ingen notatapper).",
+	"wallets_s6_c4": "De fleste lommebøker inkluderer et ark papir for å skrive ned gjenopprettingsfrasen, men mange foretrekker å sikkerhetskopiere denne frasen på stål i stedet. Dette gjør det mye mindre sannsynlig å miste gjenopprettingsfrasen i tilfelle en naturkatastrofe som brann eller flom.",
+	"wallets_s6_c5": "Jameson Lopp har testet 70 stål-sikkerhetskopisett for å hjelpe deg å velge det som passer for deg.",
+	"wallets_s6_c6": "Se Jamesons guide for metallsikkerhetskopiering av Bitcoin her.",
+	"wallets_s6_c7": "Eller fortsett å scrolle for å utforske Bitcoin-lommebokalternativer.",
 	"wallets_grid_heading": "Populære Bitcoin-wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

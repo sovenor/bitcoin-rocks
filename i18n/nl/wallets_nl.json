@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "nl"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Wallet Gids",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HOE MAAK IK EEN BACK-UP VAN MIJN HERSTELZIN?",
 	"wallets_s6_c1": "Wanneer je jouw Bitcoin wallet instelt, genereert je apparaat een herstelzin. Deze herstelzin (ook wel seed phrase genoemd) bevat 12 of 24 woorden.",
 	"wallets_s6_c2": "Als je ooit de toegang tot je wallet verliest of je apparaat niet meer werkt, kun je deze herstelzin invoeren in een nieuwe wallet om weer toegang te krijgen tot je Bitcoin.",
-	"wallets_s6_c3": "De meeste wallets bevatten een vel papier om je herstelzin op te schrijven, maar veel mensen geven er de voorkeur aan om deze zin op staal te bewaren. Dit maakt het veel minder waarschijnlijk dat je je herstelzin verliest bij een natuurramp zoals een brand of overstroming.",
-	"wallets_s6_c4": "Jameson Lopp heeft 70 stalen back-up kits getest om je te helpen de juiste te kiezen.",
-	"wallets_s6_c5": "Bekijk hier Jameson's gids voor metalen Bitcoin back-ups.",
-	"wallets_s6_c6": "Of scroll verder om Bitcoin wallet opties te verkennen.",
+	"wallets_s6_c3": "Je herstelzin is het allerbelangrijkste wachtwoord — bescherm hem koste wat het kost. Iedereen die er toegang toe krijgt, kan bij jouw Bitcoin, dus het is cruciaal om hem veilig op te bergen en nooit online te zetten (geen foto's, geen cloudopslag, geen e-mail, geen notitie-apps).",
+	"wallets_s6_c4": "De meeste wallets bevatten een vel papier om je herstelzin op te schrijven, maar veel mensen geven er de voorkeur aan om deze zin op staal te bewaren. Dit maakt het veel minder waarschijnlijk dat je je herstelzin verliest bij een natuurramp zoals een brand of overstroming.",
+	"wallets_s6_c5": "Jameson Lopp heeft 70 stalen back-up kits getest om je te helpen de juiste te kiezen.",
+	"wallets_s6_c6": "Bekijk hier Jameson's gids voor metalen Bitcoin back-ups.",
+	"wallets_s6_c7": "Of scroll verder om Bitcoin wallet opties te verkennen.",
 	"wallets_grid_heading": "Populaire Bitcoin-wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

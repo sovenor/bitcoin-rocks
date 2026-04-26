@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "hr"
 	},
 	"bitcoin_wallet_guide": "Vodič za Bitcoin novčanike",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "KAKO ĆU SIGURNOSNO KOPIRATI SVOJU FRAZU ZA OPORAVAK?",
 	"wallets_s6_c1": "Kada postavite svoj Bitcoin novčanik, vaš uređaj će generirati frazu za oporavak. Ova fraza za oporavak (također nazvana seed fraza) sadrži 12 ili 24 riječi.",
 	"wallets_s6_c2": "Ako ikada izgubite pristup svom novčaniku ili vaš uređaj prestane raditi, možete unijeti ovu frazu za oporavak u novi novčanik kako biste ponovno dobili pristup svom Bitcoinu.",
-	"wallets_s6_c3": "Većina novčanika uključuje list papira za zapisivanje fraze za oporavak, ali mnogi ljudi preferiraju sigurnosnu kopiju ove fraze na čeliku. To znatno smanjuje mogućnost gubitka fraze za oporavak u slučaju prirodne katastrofe poput požara ili poplave.",
-	"wallets_s6_c4": "Jameson Lopp je testirao 70 čeličnih sigurnosnih kompleta kako bi vam pomogao odabrati pravi za vas.",
-	"wallets_s6_c5": "Pogledajte Jamesonov vodič za metalnu sigurnosnu kopiju Bitcoina ovdje.",
-	"wallets_s6_c6": "Ili nastavite listati da istražite opcije Bitcoin novčanika.",
+	"wallets_s6_c3": "Vaša fraza za oporavak je najvažnija lozinka — zaštitite je pod svaku cijenu. Svatko tko joj dobije pristup može pristupiti vašem Bitcoinu, pa je ključno pohraniti je sigurno i nikada online (bez fotografija, bez pohrane u oblaku, bez e-pošte, bez aplikacija za bilješke).",
+	"wallets_s6_c4": "Većina novčanika uključuje list papira za zapisivanje fraze za oporavak, ali mnogi ljudi preferiraju sigurnosnu kopiju ove fraze na čeliku. To znatno smanjuje mogućnost gubitka fraze za oporavak u slučaju prirodne katastrofe poput požara ili poplave.",
+	"wallets_s6_c5": "Jameson Lopp je testirao 70 čeličnih sigurnosnih kompleta kako bi vam pomogao odabrati pravi za vas.",
+	"wallets_s6_c6": "Pogledajte Jamesonov vodič za metalnu sigurnosnu kopiju Bitcoina ovdje.",
+	"wallets_s6_c7": "Ili nastavite listati da istražite opcije Bitcoin novčanika.",
 	"wallets_grid_heading": "Popularni Bitcoin novčanici",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

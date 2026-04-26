@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "ha"
 	},
 	"bitcoin_wallet_guide": "Jagorar Wallet ɗin Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "YAYA ZAN YI MADADIN KALMAR DAWOWA TA?",
 	"wallets_s6_c1": "Idan ka kafa wallet ɗin Bitcoin, na'urarka za ta ƙirƙira kalmar dawowa. Wannan kalmar dawowa (da ake kuma kira kalmar iri) tana ɗauke da kalmomi 12 ko 24.",
 	"wallets_s6_c2": "Idan ka rasa damar shiga wallet ɗinka ko na'urarka ta daina aiki, za ka iya shigar da wannan kalmar dawowa zuwa sabon wallet don sake samun damar shiga Bitcoin ɗinka.",
-	"wallets_s6_c3": "Yawancin wallets suna haɗa da takardar rubuta kalmar dawowa, amma mutane da yawa sun fi son yin madadin wannan kalma a kan ƙarfe. Wannan yana sa rasa kalmar dawowa ta zama ƙasa da yiwuwa a lokacin bala'i kamar gobara ko ambaliya.",
-	"wallets_s6_c4": "Jameson Lopp ya gwada kayan madadin ƙarfe 70 don taimaka maka zaɓar wanda ya dace da kai.",
-	"wallets_s6_c5": "Duba jagorar madadin Bitcoin ta ƙarfe na Jameson a nan.",
-	"wallets_s6_c6": "Ko ci gaba da gogayya don bincika zaɓuɓɓukan wallet na Bitcoin.",
+	"wallets_s6_c3": "Kalmar dawowa taka ita ce mafi muhimmancin kalmar sirri da kake da ita — ka kiyaye ta a kowane hali. Duk wanda ya samu damar shiga gare ta zai iya samun damar shiga Bitcoin ɗinka, don haka yana da matuƙar muhimmanci a ajiye ta cikin aminci kuma kada a taɓa ajiye ta a kan layi (ba hotuna, ba ajiyar girgije, ba imel, ba manhajojin bayanan kula).",
+	"wallets_s6_c4": "Yawancin wallets suna haɗa da takardar rubuta kalmar dawowa, amma mutane da yawa sun fi son yin madadin wannan kalma a kan ƙarfe. Wannan yana sa rasa kalmar dawowa ta zama ƙasa da yiwuwa a lokacin bala'i kamar gobara ko ambaliya.",
+	"wallets_s6_c5": "Jameson Lopp ya gwada kayan madadin ƙarfe 70 don taimaka maka zaɓar wanda ya dace da kai.",
+	"wallets_s6_c6": "Duba jagorar madadin Bitcoin ta ƙarfe na Jameson a nan.",
+	"wallets_s6_c7": "Ko ci gaba da gogayya don bincika zaɓuɓɓukan wallet na Bitcoin.",
 	"wallets_grid_heading": "Walat na Bitcoin sananne",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "ro"
 	},
 	"bitcoin_wallet_guide": "Ghid portofele Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "CUM VEI FACE BACKUP LA FRAZA DE RECUPERARE?",
 	"wallets_s6_c1": "Când configurezi portofelul Bitcoin, dispozitivul tău va genera o frază de recuperare. Această frază de recuperare (numită și seed phrase) conține 12 sau 24 de cuvinte.",
 	"wallets_s6_c2": "Dacă pierzi vreodată accesul la portofel sau dispozitivul tău nu mai funcționează, poți introduce această frază de recuperare într-un portofel nou pentru a recăpăta accesul la Bitcoin.",
-	"wallets_s6_c3": "Majoritatea portofelelor includ o foaie de hârtie pentru a nota fraza de recuperare, dar mulți oameni preferă să facă backup pe oțel. Aceasta face mult mai puțin probabil să pierzi fraza de recuperare în cazul unui dezastru natural precum un incendiu sau o inundație.",
-	"wallets_s6_c4": "Jameson Lopp a testat 70 de kituri de backup pe oțel pentru a te ajuta să alegi cel potrivit pentru tine.",
-	"wallets_s6_c5": "Vezi ghidul de backup pe metal Bitcoin al lui Jameson aici.",
-	"wallets_s6_c6": "Sau continuă să derulezi pentru a explora opțiunile de portofele Bitcoin.",
+	"wallets_s6_c3": "Fraza ta de recuperare este parola supremă — protejeaz-o cu orice preț. Oricine obține acces la ea poate accesa Bitcoin-ul tău, așa că este esențial să o păstrezi în siguranță și niciodată online (fără fotografii, fără stocare în cloud, fără e-mail, fără aplicații de notițe).",
+	"wallets_s6_c4": "Majoritatea portofelelor includ o foaie de hârtie pentru a nota fraza de recuperare, dar mulți oameni preferă să facă backup pe oțel. Aceasta face mult mai puțin probabil să pierzi fraza de recuperare în cazul unui dezastru natural precum un incendiu sau o inundație.",
+	"wallets_s6_c5": "Jameson Lopp a testat 70 de kituri de backup pe oțel pentru a te ajuta să alegi cel potrivit pentru tine.",
+	"wallets_s6_c6": "Vezi ghidul de backup pe metal Bitcoin al lui Jameson aici.",
+	"wallets_s6_c7": "Sau continuă să derulezi pentru a explora opțiunile de portofele Bitcoin.",
 	"wallets_grid_heading": "Portofele Bitcoin populare",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
