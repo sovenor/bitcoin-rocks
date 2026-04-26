@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { TurnstileWidget } from "@/components/TurnstileWidget";
@@ -5,20 +8,19 @@ import { TurnstileWidget } from "@/components/TurnstileWidget";
 /**
  * Sticker address form — shared layout for USA / Canada (and extensible).
  *
- * Server Component. Submits to `forms-backend` endpoints untouched from the
- * legacy site. Uses the existing `common_*` + `placeholder_*` translation
- * keys.
+ * Client Component (tracks Turnstile token state to gate submit). Submits to
+ * `forms-backend` endpoints untouched from the legacy site. Uses the existing
+ * `common_*` + `placeholder_*` translation keys.
  *
  * `variant = "usa"` renders the State / Zip fields + the `_gotcha` honeypot.
  * `variant = "canada"` renders Province / Postal Code.
  *
  * Two visual modes:
  *   - legacy (default): plain `<input>` + `<br />` + `.button-form`.
- *     Still used by `/business/stickers` until that page gets its V2
- *     redesign.
+ *     Currently unused; kept for reference.
  *   - v2: renders fields with labels in the shared `.cic-*` form system
  *     (matches `/compound-inflation-calculator`). Used by the V2
- *     `/stickers` wizard.
+ *     `/stickers` wizard and `/business/stickers`.
  */
 
 type Props = {
@@ -30,6 +32,7 @@ type Props = {
 
 export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 	const t = useTranslations();
+	const [token, setToken] = useState<string | null>(null);
 
 	if (v2) {
 		return (
@@ -172,8 +175,12 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 							style={{ display: "none" }}
 						/>
 					)}
-					<TurnstileWidget />
-					<button type="submit" className="cic-submit">
+					<TurnstileWidget onTokenChange={setToken} />
+					<button
+						type="submit"
+						className="cic-submit"
+						disabled={!token}
+					>
 						{t("common_submit")}
 					</button>
 				</form>
@@ -181,7 +188,7 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 		);
 	}
 
-	// Legacy rendering (still used by /business/stickers).
+	// Legacy rendering (currently unused).
 	return (
 		<>
 			<p>

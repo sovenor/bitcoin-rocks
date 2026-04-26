@@ -6,11 +6,18 @@ const SITE_KEY = "0x4AAAAAAClzj7R6NrkNgcsP";
 
 type TurnstileTheme = "light" | "dark" | "auto";
 
+type TurnstileRenderOptions = {
+	sitekey: string;
+	theme?: TurnstileTheme;
+	"refresh-expired"?: "auto" | "manual" | "never";
+	callback?: (token: string) => void;
+	"expired-callback"?: () => void;
+	"error-callback"?: () => void;
+	"timeout-callback"?: () => void;
+};
+
 type TurnstileApi = {
-	render: (
-		el: HTMLElement,
-		options: { sitekey: string; theme?: TurnstileTheme },
-	) => string;
+	render: (el: HTMLElement, options: TurnstileRenderOptions) => string;
 	remove: (widgetId: string) => void;
 };
 
@@ -28,14 +35,26 @@ declare global {
  * Pages that include this widget must also load the Turnstile script:
  *   <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js"
  *           strategy="afterInteractive" async defer />
+ *
+ * Parents can pass `onTokenChange` to track the captcha lifecycle (token
+ * issued / expired / errored) and gate form submission on a live token.
  */
 export function TurnstileWidget({
 	theme = "dark",
+	onTokenChange,
 }: {
 	theme?: TurnstileTheme;
+	onTokenChange?: (token: string | null) => void;
 }) {
 	const ref = useRef<HTMLDivElement>(null);
 	const widgetIdRef = useRef<string | null>(null);
+	const onTokenChangeRef = useRef(onTokenChange);
+
+	// Keep the latest callback in a ref so render-effect identity stays
+	// stable across parent re-renders.
+	useEffect(() => {
+		onTokenChangeRef.current = onTokenChange;
+	}, [onTokenChange]);
 
 	useEffect(() => {
 		const el = ref.current;
@@ -48,7 +67,15 @@ export function TurnstileWidget({
 			if (cancelled || widgetIdRef.current) return false;
 			const api = window.turnstile;
 			if (!api) return false;
-			widgetIdRef.current = api.render(el, { sitekey: SITE_KEY, theme });
+			widgetIdRef.current = api.render(el, {
+				sitekey: SITE_KEY,
+				theme,
+				"refresh-expired": "auto",
+				callback: (token) => onTokenChangeRef.current?.(token),
+				"expired-callback": () => onTokenChangeRef.current?.(null),
+				"error-callback": () => onTokenChangeRef.current?.(null),
+				"timeout-callback": () => onTokenChangeRef.current?.(null),
+			});
 			return true;
 		};
 
@@ -70,6 +97,7 @@ export function TurnstileWidget({
 				}
 			}
 			widgetIdRef.current = null;
+			onTokenChangeRef.current?.(null);
 		};
 	}, [theme]);
 

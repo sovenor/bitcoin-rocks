@@ -143,87 +143,88 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 										</a>
 									</div>
 
-									<div className="sticker-request">
-										<h3 className="sticker-panel-subheading">
-											{t("biz_stickers_request_header")}
-										</h3>
-										<p>{t("biz_stickers_request_c1")}</p>
-										<form
-											action={ACTIONS.languageRequest}
-											method="POST"
-											className="cic-form sticker-form"
-										>
-											<div className="cic-field">
-												<label
-													className="cic-label"
-													htmlFor="biz-sticker-language"
-												>
-													{t("placeholder_language")}
-												</label>
-												<input
-													id="biz-sticker-language"
-													className="cic-input"
-													type="text"
-													name="language"
-													placeholder={t("placeholder_language")}
-													required
-												/>
-											</div>
-											<div className="cic-field">
-												<label
-													className="cic-label"
-													htmlFor="biz-sticker-translation1"
-												>
-													{t(
-														"biz_stickers_placeholder_translation1",
-													)}
-												</label>
-												<input
-													id="biz-sticker-translation1"
-													className="cic-input"
-													type="text"
-													name="translation1"
-													placeholder={t(
-														"biz_stickers_placeholder_translation1",
-													)}
-													required
-												/>
-											</div>
-											<div className="cic-field">
-												<label
-													className="cic-label"
-													htmlFor="biz-sticker-translation2"
-												>
-													{t(
-														"biz_stickers_placeholder_translation2",
-													)}
-												</label>
-												<input
-													id="biz-sticker-translation2"
-													className="cic-input"
-													type="text"
-													name="translation2"
-													placeholder={t(
-														"biz_stickers_placeholder_translation2",
-													)}
-													required
-												/>
-											</div>
-											<TurnstileWidget />
-											<button
-												type="submit"
-												className="cic-submit"
-											>
-												{t("common_submit")}
-											</button>
-										</form>
-									</div>
+									<BizLanguageRequestForm />
 								</>
 							)}
 						</div>
 					</div>
 				)}
 			</div>
+		</div>
+	);
+}
+
+function BizLanguageRequestForm() {
+	const t = useTranslations();
+	const [token, setToken] = useState<string | null>(null);
+	return (
+		<div className="sticker-request">
+			<h3 className="sticker-panel-subheading">
+				{t("biz_stickers_request_header")}
+			</h3>
+			<p>{t("biz_stickers_request_c1")}</p>
+			<form
+				action={ACTIONS.languageRequest}
+				method="POST"
+				className="cic-form sticker-form"
+			>
+				<div className="cic-field">
+					<label
+						className="cic-label"
+						htmlFor="biz-sticker-language"
+					>
+						{t("placeholder_language")}
+					</label>
+					<input
+						id="biz-sticker-language"
+						className="cic-input"
+						type="text"
+						name="language"
+						placeholder={t("placeholder_language")}
+						required
+					/>
+				</div>
+				<div className="cic-field">
+					<label
+						className="cic-label"
+						htmlFor="biz-sticker-translation1"
+					>
+						{t("biz_stickers_placeholder_translation1")}
+					</label>
+					<input
+						id="biz-sticker-translation1"
+						className="cic-input"
+						type="text"
+						name="translation1"
+						placeholder={t("biz_stickers_placeholder_translation1")}
+						required
+					/>
+				</div>
+				<div className="cic-field">
+					<label
+						className="cic-label"
+						htmlFor="biz-sticker-translation2"
+					>
+						{t("biz_stickers_placeholder_translation2")}
+					</label>
+					<input
+						id="biz-sticker-translation2"
+						className="cic-input"
+						type="text"
+						name="translation2"
+						placeholder={t("biz_stickers_placeholder_translation2")}
+						required
+					/>
+				</div>
+				<TurnstileWidget onTokenChange={setToken} />
+				<button
+					type="submit"
+					className="cic-submit"
+					disabled={!token}
+				>
+					{t("common_submit")}
+				</button>
+			</form>
 		</div>
 	);
 }
