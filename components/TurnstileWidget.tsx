@@ -73,7 +73,8 @@ export function TurnstileWidget({
 		};
 	}, [theme]);
 
-	// Keep `.cf-turnstile` on the wrapper so existing CSS spacing rules
-	// (e.g. `.sticker-panel-inner .cf-turnstile`) still apply.
-	return <div ref={ref} className="cf-turnstile" />;
+	// Use a non-`cf-turnstile` class so the Cloudflare loader's auto-render
+	// scan / MutationObserver leaves this element alone — we render into it
+	// explicitly in the effect above.
+	return <div ref={ref} className="turnstile-mount" />;
 }
