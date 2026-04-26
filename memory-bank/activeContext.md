@@ -1,3 +1,24 @@
+## Urdu (ur) locale: re-translated buy_ur.json — Arabic contamination cleanup — April 26, 2026
+
+A previous translation pass had copy-pasted ~50+ values from
+`i18n/ar/buy_ar.json` into `i18n/ur/buy_ur.json`, leaving the
+buy-page header, intro paragraphs, step descriptions, payment-
+method callouts, all 52 country names, all step-3 platform
+descriptions/features, and step-4 storage paragraphs in Arabic
+script (markers: ة taa marbuta, ي Arabic yaa, ك Arabic kaaf,
+words like في / من / هذا). Repaired all contaminated values
+into idiomatic Nastaliq Urdu (using ہ ی ک ٹ ڈ ڑ ں ے etc.) via
+`scripts/ur-fix/fix-buy-arabic-contamination.js` — 106 values
+rewritten in total (105 contaminated + the
+`buy_step_2_description` callout that was also Arabic despite
+the initial brief). `@metadata.last-updated` bumped to
+2026-04-26. Verified: `node scripts/i18n-audit/verify-language.js
+ur` → ✅ PASS on all four checks; `npm run typecheck` → clean.
+A residual-Arabic scanner (`scripts/ur-fix/scan-arabic-markers.js`)
+also reports zero remaining Arabic markers in `buy_ur.json`.
+
+---
+
 ## 🏁 V2 i18n cleanup COMPLETE — April 25, 2026
 
 All 7 items of Step 6 are now ticked off in
