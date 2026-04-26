@@ -2126,13 +2126,20 @@ a.wallet-lightning-cta:hover .wallet-lightning-cta-arrow {
 	user-select: none;
 	transition: background-color 0.2s, transform 0.15s;
 }
-.cic-submit:hover {
+.cic-submit:hover:not(:disabled) {
 	background: #ffa826;
 	border-color: #ffa826;
 	transform: translateY(-1px);
 }
-.cic-submit:active {
+.cic-submit:active:not(:disabled) {
 	transform: translateY(0);
+}
+.cic-submit:disabled {
+	background: var(--color-fg-dim);
+	border-color: var(--color-fg-dim);
+	color: var(--color-fg-muted);
+	cursor: not-allowed;
+	opacity: 0.6;
 }
 
 
