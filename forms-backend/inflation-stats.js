@@ -32,12 +32,13 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
-// v4 — bumped after the AUD M1 source switched from the stale
-// FRED MANMM101AUM189S to RBA D3 directly. v3 entries had the old
-// stale ~1.6T figure cached for AUD; v4 entries reflect live RBA
-// data. Old v2/v3 files are orphaned on the persistent volume;
-// harmless.
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v4.json');
+// v5 — bumped after the M1 sources for AUD/CAD/EUR/GBP/BRL switched
+// from stale FRED MANMM101* series to direct central-bank APIs (RBA
+// D3, Bank of Canada Valet, ECB Data Portal, BoE IADB, BCB SGS).
+// BRL's m1Unit also flipped from 'trillion' to 'billion' since the
+// Brazilian M1 (~R$ 600B) reads more naturally as a billion figure.
+// Older cache files are orphaned on the persistent volume; harmless.
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v5.json');
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
 const API_TIMEOUT = 15000; // 15 seconds
 
@@ -93,47 +94,66 @@ const CURRENCIES = {
 		symbol: 'C$',
 		btcPair: 'BTC/CAD',
 		forexPair: null,
-		m1Series: 'MANMM101CAM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 1.7,   label: 'JAN 2020' },
+		// FRED's MANMM101CAM189S is stale (IMF feed broken). Routed to
+		// Bank of Canada Valet API directly, series V37151 = M1+ (gross)
+		// seasonally adjusted, in CAD millions.
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'bocValet',
+		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTACAA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 87,   label: '2019' },
 		cpiSeries: 'CPALTT01CAM659N',
-		fallback: { btcChange: '+45', cpiChange: '-16', m1Current: 2.5, debtCurrent: 107, supplyValueLabel: '2.5 Trillion', supplyNumericLabel: '(2,500,000,000,000)' },
 	},
 	EUR: {
 		symbol: '€',
 		btcPair: 'BTC/EUR',
 		forexPair: null,
-		m1Series: 'MANMM101EZM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 9.1,   label: 'JAN 2020' },
+		// FRED's MANMM101EZM189S is stale. Routed to ECB Data Portal
+		// SDMX-CSV directly, M1 stocks for the euro area in EUR millions.
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'ecbBsi',
+		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		// FRED does not publish an aggregated Eurozone gross-debt series
 		// that tracks monthly or even cleanly annually, so we drop the
-		// debt card for EUR. The rebuild-inflation-html.js script already
-		// conditionally omits the debt card + debt paragraphs when the
-		// URL config entry is null; the JSON returned here keeps null
-		// values so the frontend simply doesn't render that card.
+		// debt card for EUR. The frontend conditionally omits the debt
+		// card + debt paragraphs when the URL config entry is null; the
+		// JSON returned here keeps null values so the card simply doesn't
+		// render.
 		debtSeries: null,            debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: null, label: null },
 		cpiSeries: 'CP0000EZ19M086NEST',
-		fallback: { btcChange: '+45', cpiChange: '-18', m1Current: 11.2, debtCurrent: null, supplyValueLabel: '11.2 Trillion', supplyNumericLabel: '(11,200,000,000,000)' },
 	},
 	GBP: {
 		symbol: '£',
 		btcPair: 'BTC/GBP',
 		forexPair: null,
-		m1Series: 'MANMM101GBM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 1.9,   label: 'JAN 2020' },
+		// FRED's MANMM101GBM189S is stale. The UK discontinued M1 in
+		// 2006 — broad-money M4 (LPMAUYN, seasonally adjusted) is the
+		// closest published equivalent and is what BoE publishes monthly,
+		// in £ millions. Routed to BoE IADB directly.
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'boeIadb',
+		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAGBA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 85,   label: '2019' },
 		cpiSeries: 'CPALTT01GBM659N',
-		fallback: { btcChange: '+48', cpiChange: '-17', m1Current: 2.5, debtCurrent: 104, supplyValueLabel: '2.5 Trillion', supplyNumericLabel: '(2,500,000,000,000)' },
 	},
 	BRL: {
 		symbol: 'R$',
 		btcPair: 'BTC/BRL',
 		forexPair: null,
-		m1Series: 'MANMM101BRM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 0.43,  label: 'JAN 2020' },
+		// FRED's MANMM101BRM189S is stale. Routed to Banco Central do
+		// Brasil SGS API, series 27791 = M1 saldo, in R$ thousand.
+		// Brazilian M1 sits at ~R$ 600B (well under 1 trillion) so we
+		// display in 'billion' for readability; m1DivideBy adjusts so
+		// raw R$ → billions.
+		m1Series: null,
+		m1Unit: 'billion', m1DivideBy: 1000000000,
+		m1CustomFetcher: 'bcbSgs',
+		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTABRA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 74,   label: '2019' },
 		cpiSeries: 'CPALTT01BRM659N',
@@ -367,12 +387,222 @@ function createRbaD3Fetcher() {
 	};
 }
 
+// ── Bank of Canada Valet API (M1+ gross SA, V37151) ───────────────────
+// Returns CAD millions; multiply by 1e6 to get raw CAD.
+
+async function fetchBocValetAt(seriesId, startDate, endDate) {
+	try {
+		const url = `https://www.bankofcanada.ca/valet/observations/${seriesId}/json?start_date=${startDate}&end_date=${endDate}`;
+		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
+		if (!res.ok) return null;
+		const data = await res.json();
+		const obs = data?.observations;
+		if (!obs || !obs.length) return null;
+		const last = obs[obs.length - 1];
+		const valueStr = last?.[seriesId]?.v;
+		if (!valueStr) return null;
+		const millions = parseFloat(valueStr);
+		if (!isFinite(millions)) return null;
+		return { date: last.d, value: millions * 1e6 };
+	} catch {
+		return null;
+	}
+}
+
+const bocValetFetcher = {
+	async fetchLatest() {
+		// BoC publishes M1+ with a ~2-month lag and dates each observation
+		// at the FIRST of the month, so we need a window long enough to
+		// catch the most recent stamp from "today". 120 days is comfortably
+		// safe even if BoC slips a release.
+		const today = new Date();
+		const startMs = today.getTime() - 120 * 24 * 60 * 60 * 1000;
+		const start = new Date(startMs).toISOString().slice(0, 10);
+		const end = today.toISOString().slice(0, 10);
+		return fetchBocValetAt('V37151', start, end);
+	},
+	async fetchAt(yearMonth) {
+		// yearMonth = 'YYYY-MM' → fetch that month's range.
+		const [y, m] = yearMonth.split('-');
+		const lastDay = new Date(parseInt(y), parseInt(m), 0).getDate();
+		return fetchBocValetAt('V37151', `${yearMonth}-01`, `${yearMonth}-${String(lastDay).padStart(2, '0')}`);
+	},
+};
+
+// ── ECB Data Portal SDMX-CSV (Euro area M1) ───────────────────────────
+// Series M.U2.Y.V.M10.X.1.U2.2300.Z01.E → "Monetary aggregate M1, Stocks"
+// Returns EUR millions; multiply by 1e6 to get raw EUR.
+
+async function fetchEcbBsiM1(startPeriod, endPeriod) {
+	try {
+		const url = `https://data-api.ecb.europa.eu/service/data/BSI/M.U2.Y.V.M10.X.1.U2.2300.Z01.E?startPeriod=${startPeriod}&endPeriod=${endPeriod}`;
+		const res = await fetch(url, {
+			signal: AbortSignal.timeout(API_TIMEOUT),
+			headers: { Accept: 'application/vnd.ecb.data+csv;version=1.0.0' },
+		});
+		if (!res.ok) return null;
+		const csv = await res.text();
+		const lines = csv.split(/\r?\n/);
+		// Header is row 0, data starts at row 1. Use the LAST data row.
+		// Date is at column index 12 ("Time period or range"), value at 13.
+		// Use a CSV-aware splitter since some columns contain commas inside quotes.
+		const dataLines = lines.slice(1).filter((l) => l.trim().length > 0);
+		if (!dataLines.length) return null;
+		const lastLine = dataLines[dataLines.length - 1];
+		const cols = parseCsvLine(lastLine);
+		const date = cols[12];
+		const millions = parseFloat(cols[13]);
+		if (!date || !isFinite(millions)) return null;
+		return { date, value: millions * 1e6 };
+	} catch {
+		return null;
+	}
+}
+
+// Minimal CSV line parser handling quoted fields (good enough for ECB output).
+function parseCsvLine(line) {
+	const out = [];
+	let cur = '';
+	let inQuotes = false;
+	for (let i = 0; i < line.length; i++) {
+		const ch = line[i];
+		if (ch === '"') {
+			inQuotes = !inQuotes;
+		} else if (ch === ',' && !inQuotes) {
+			out.push(cur);
+			cur = '';
+		} else {
+			cur += ch;
+		}
+	}
+	out.push(cur);
+	return out;
+}
+
+const ecbBsiFetcher = {
+	async fetchLatest() {
+		const today = new Date();
+		const start = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000)
+			.toISOString().slice(0, 10);
+		const end = today.toISOString().slice(0, 10);
+		return fetchEcbBsiM1(start, end);
+	},
+	async fetchAt(yearMonth) {
+		const [y, m] = yearMonth.split('-');
+		const lastDay = new Date(parseInt(y), parseInt(m), 0).getDate();
+		return fetchEcbBsiM1(`${yearMonth}-01`, `${yearMonth}-${String(lastDay).padStart(2, '0')}`);
+	},
+};
+
+// ── Bank of England IADB (M4 amounts outstanding SA, LPMAUYN) ─────────
+// UK discontinued M1 in 2006; M4 (broad money) is the closest published
+// equivalent and is what BoE publishes monthly. Returns £ millions.
+
+async function fetchBoeIadbAt(seriesCode, dateFrom, dateTo) {
+	try {
+		// BoE date format: DD/MMM/YYYY (e.g. "01/Feb/2026")
+		const url = `https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?CSVF=TT&csv.x=yes&Datefrom=${dateFrom}&Dateto=${dateTo}&SeriesCodes=${seriesCode}&UsingCodes=Y`;
+		const res = await fetch(url, {
+			signal: AbortSignal.timeout(API_TIMEOUT),
+			headers: { 'user-agent': 'bitcoin.rocks/inflation-stats' },
+		});
+		if (!res.ok) return null;
+		const csv = await res.text();
+		// Format: 4 header lines, then "DATE,<code>" header, then data rows
+		// like "28 Feb 2026,3228393". Pick the last non-empty data row.
+		const lines = csv.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+		const dataRowRe = /^(\d{1,2}\s+[A-Za-z]{3}\s+\d{4}),(.+)$/;
+		let last = null;
+		for (const line of lines) {
+			const m = dataRowRe.exec(line);
+			if (m) last = m;
+		}
+		if (!last) return null;
+		const millions = parseFloat(last[2]);
+		if (!isFinite(millions)) return null;
+		// Convert "28 Feb 2026" → "2026-02-28" for ISO consistency.
+		const months = { Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+			Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12' };
+		const [d, mon, y] = last[1].split(/\s+/);
+		return {
+			date: `${y}-${months[mon] || '01'}-${d.padStart(2, '0')}`,
+			value: millions * 1e6,
+		};
+	} catch {
+		return null;
+	}
+}
+
+function formatBoeDate(d) {
+	const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	return `${String(d.getDate()).padStart(2, '0')}/${months[d.getMonth()]}/${d.getFullYear()}`;
+}
+
+const boeIadbFetcher = {
+	async fetchLatest() {
+		const today = new Date();
+		const from = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000);
+		return fetchBoeIadbAt('LPMAUYN', formatBoeDate(from), formatBoeDate(today));
+	},
+	async fetchAt(yearMonth) {
+		const [y, m] = yearMonth.split('-');
+		const start = new Date(parseInt(y), parseInt(m) - 1, 1);
+		const end = new Date(parseInt(y), parseInt(m), 0);
+		return fetchBoeIadbAt('LPMAUYN', formatBoeDate(start), formatBoeDate(end));
+	},
+};
+
+// ── Banco Central do Brasil SGS (M1 saldo, series 27791) ──────────────
+// Returns R$ thousand (milhares de reais); multiply by 1e3 to get raw R$.
+
+async function fetchBcbSgsAt(seriesId, dataInicial, dataFinal) {
+	try {
+		const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${seriesId}/dados?dataInicial=${dataInicial}&dataFinal=${dataFinal}&formato=json`;
+		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
+		if (!res.ok) return null;
+		const data = await res.json();
+		if (!Array.isArray(data) || !data.length) return null;
+		const last = data[data.length - 1];
+		const thousands = parseFloat(last.valor);
+		if (!isFinite(thousands)) return null;
+		// "01/02/2026" → "2026-02-01"
+		const [d, m, y] = (last.data || '').split('/');
+		return {
+			date: `${y}-${m}-${d}`,
+			value: thousands * 1e3,
+		};
+	} catch {
+		return null;
+	}
+}
+
+function formatBcbDate(d) {
+	return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
+}
+
+const bcbSgsFetcher = {
+	async fetchLatest() {
+		const today = new Date();
+		const from = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000);
+		return fetchBcbSgsAt('27791', formatBcbDate(from), formatBcbDate(today));
+	},
+	async fetchAt(yearMonth) {
+		const [y, m] = yearMonth.split('-');
+		const start = new Date(parseInt(y), parseInt(m) - 1, 1);
+		const end = new Date(parseInt(y), parseInt(m), 0);
+		return fetchBcbSgsAt('27791', formatBcbDate(start), formatBcbDate(end));
+	},
+};
+
 // Registry of pluggable narrow-money fetchers, keyed by the value of
-// cfg.m1CustomFetcher. Add new entries here when wiring up a fresh
-// central-bank source for a stale-FRED currency (e.g. BoE for GBP, ECB
-// for EUR, BoJ for JPY).
+// cfg.m1CustomFetcher. Each entry implements fetchLatest() and
+// fetchAt(yearMonth) per the contract above.
 const CUSTOM_M1_FETCHERS = {
-	rbaD3: createRbaD3Fetcher(),
+	rbaD3: createRbaD3Fetcher(),    // AUD — RBA D3 monetary aggregates CSV
+	bocValet: bocValetFetcher,       // CAD — Bank of Canada Valet API (M1+ gross SA)
+	ecbBsi: ecbBsiFetcher,           // EUR — ECB SDMX (Euro area M1)
+	boeIadb: boeIadbFetcher,         // GBP — Bank of England IADB (M4 SA; UK has no M1)
+	bcbSgs: bcbSgsFetcher,           // BRL — Banco Central do Brasil SGS (M1 saldo)
 };
 
 // ── External fetchers ─────────────────────────────────────────────────
