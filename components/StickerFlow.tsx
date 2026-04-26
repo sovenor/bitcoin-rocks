@@ -247,6 +247,7 @@ function MailPanel({
 
 function PrintPanel({ localePrefix }: { localePrefix: string }) {
 	const t = useTranslations();
+	const [token, setToken] = useState<string | null>(null);
 	return (
 		<Panel title={t("stickers_print_header")}>
 			<p>{t("stickers_print_c1")}</p>
@@ -314,8 +315,12 @@ function PrintPanel({ localePrefix }: { localePrefix: string }) {
 							placeholder={t("placeholder_email_optional")}
 						/>
 					</div>
-					<TurnstileWidget />
-					<button type="submit" className="cic-submit">
+					<TurnstileWidget onTokenChange={setToken} />
+					<button
+						type="submit"
+						className="cic-submit"
+						disabled={!token}
+					>
 						{t("common_submit")}
 					</button>
 				</form>
