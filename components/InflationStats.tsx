@@ -67,33 +67,46 @@ type StatsResponse = {
 	supplyNumericLabel?: string;
 };
 
+// Universal placeholder shown when live data is missing / unavailable.
+// Server-rendered i18n placeholders also use this string so the UX is
+// consistent across loading / failure / no-data states.
+const PLACEHOLDER = "—";
+
 function setText(id: string, value: string | undefined | null) {
 	const el = document.getElementById(id);
-	if (el && value !== undefined && value !== null && value !== "") {
+	if (!el) return;
+	if (value === undefined || value === null || value === "") {
+		el.textContent = PLACEHOLDER;
+	} else {
 		el.textContent = value;
 	}
 }
 
 function percentChange(
-	baseline: number | string | undefined,
-	current: number | string | undefined,
-): string {
+	baseline: number | string | undefined | null,
+	current: number | string | undefined | null,
+): string | null {
 	const b = parseFloat(String(baseline));
 	const c = parseFloat(String(current));
-	if (!Number.isFinite(b) || !Number.isFinite(c) || b === 0) return "";
+	if (!Number.isFinite(b) || !Number.isFinite(c) || b === 0) return null;
 	const pct = ((c - b) / b) * 100;
 	const sign = pct >= 0 ? "+" : "";
 	return `${sign}${Math.round(pct)}% increase`;
 }
 
 // e.g. formatSupply('18.4', '$', 'trillion') => '$18.4 trillion'
+// For ratio-style units like '% of GDP', the value is a percentage so
+// the currency symbol is dropped and spacing tightened ("84% of GDP").
 function formatSupply(
-	value: number | string | undefined,
+	value: number | string | undefined | null,
 	symbol: string | undefined,
 	unit: string | undefined,
-): string {
-	if (value === undefined || value === null || value === "") return "";
+): string | null {
+	if (value === undefined || value === null || value === "") return null;
 	const u = unit || "trillion";
+	if (u.includes("%") || u.toLowerCase().includes("gdp")) {
+		return `${value}${u}`;
+	}
 	return `${symbol || ""}${value} ${u}`;
 }
 
@@ -104,11 +117,15 @@ function populateCards(code: string, data: StatsResponse) {
 	// Hero cards (BTC gain / currency CPI loss)
 	setText(
 		`stat-btc-change-${code}`,
-		data.btcChange4yr !== undefined ? `${data.btcChange4yr}%` : "",
+		data.btcChange4yr !== undefined && data.btcChange4yr !== null
+			? `${data.btcChange4yr}%`
+			: null,
 	);
 	setText(
 		`stat-currency-inflation-${code}`,
-		data.cpiChange4yr !== undefined ? `${data.cpiChange4yr}%` : "",
+		data.cpiChange4yr !== undefined && data.cpiChange4yr !== null
+			? `${data.cpiChange4yr}%`
+			: null,
 	);
 
 	// Money supply comparison card

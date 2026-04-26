@@ -101,7 +101,7 @@ export function CurrencySection({
 								className="stat-card-value success"
 								id={`stat-btc-change-${code}`}
 							>
-								+50%
+								—
 							</div>
 							<div className="stat-card-detail">
 								{t("inflation_stat_btc_detail_4yr")}
@@ -121,7 +121,7 @@ export function CurrencySection({
 								className="stat-card-value danger"
 								id={`stat-currency-inflation-${code}`}
 							>
-								-15%
+								—
 							</div>
 							<div className="stat-card-detail">
 								{t("inflation_stat_currency_detail_4yr_lost")}
