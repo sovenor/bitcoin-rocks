@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "pl"
 	},
 	"bitcoin_wallet_guide": "Przewodnik po portfelach Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "JAK ZROBIĘ KOPIĘ ZAPASOWĄ FRAZY ODZYSKIWANIA?",
 	"wallets_s6_c1": "Podczas konfiguracji portfela Bitcoin, twoje urządzenie wygeneruje frazę odzyskiwania. Ta fraza odzyskiwania (zwana również frazą seed) zawiera 12 lub 24 słowa.",
 	"wallets_s6_c2": "Jeśli kiedykolwiek stracisz dostęp do portfela lub urządzenie przestanie działać, możesz wpisać tę frazę odzyskiwania w nowym portfelu, aby odzyskać dostęp do swoich Bitcoinów.",
-	"wallets_s6_c3": "Większość portfeli zawiera kartkę papieru do zapisania frazy odzyskiwania, ale wiele osób woli zrobić kopię zapasową tej frazy na stali. To znacznie zmniejsza ryzyko utraty frazy odzyskiwania w przypadku klęski żywiołowej, takiej jak pożar lub powódź.",
-	"wallets_s6_c4": "Jameson Lopp przetestował 70 stalowych zestawów do kopii zapasowych, aby pomóc ci wybrać ten właściwy.",
-	"wallets_s6_c5": "Zobacz przewodnik Jamesona po metalowych kopiach zapasowych Bitcoin tutaj.",
-	"wallets_s6_c6": "Lub przewijaj dalej, aby zapoznać się z opcjami portfeli Bitcoin.",
+	"wallets_s6_c3": "Twoja fraza odzyskiwania to najważniejsze hasło — chroń ją za wszelką cenę. Każdy, kto uzyska do niej dostęp, może sięgnąć po twoje Bitcoiny, dlatego ważne jest, aby przechowywać ją bezpiecznie i nigdy online (żadnych zdjęć, żadnej chmury, żadnych e-maili, żadnych aplikacji do notatek).",
+	"wallets_s6_c4": "Większość portfeli zawiera kartkę papieru do zapisania frazy odzyskiwania, ale wiele osób woli zrobić kopię zapasową tej frazy na stali. To znacznie zmniejsza ryzyko utraty frazy odzyskiwania w przypadku klęski żywiołowej, takiej jak pożar lub powódź.",
+	"wallets_s6_c5": "Jameson Lopp przetestował 70 stalowych zestawów do kopii zapasowych, aby pomóc ci wybrać ten właściwy.",
+	"wallets_s6_c6": "Zobacz przewodnik Jamesona po metalowych kopiach zapasowych Bitcoin tutaj.",
+	"wallets_s6_c7": "Lub przewijaj dalej, aby zapoznać się z opcjami portfeli Bitcoin.",
 	"wallets_grid_heading": "Popularne portfele Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

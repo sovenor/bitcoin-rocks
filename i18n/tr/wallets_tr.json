@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "tr"
 	},
 	"bitcoin_wallet_guide": "Bitcoin cüzdan rehberi",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "KURTARMA İFADESİ NASIL YEDEKLENİR?",
 	"wallets_s6_c1": "Bir Bitcoin cüzdanı kurduğunuzda, cihazınız bir kurtarma ifadesi oluşturur. Bu kurtarma ifadesi (tohum ifadesi olarak da bilinir) 12 veya 24 kelime içerir.",
 	"wallets_s6_c2": "Cüzdanınıza erişiminizi kaybederseniz veya cihazınız bozulursa, bu kurtarma ifadesini yeni bir cüzdana girerek Bitcoin'inize yeniden erişebilirsiniz.",
-	"wallets_s6_c3": "Çoğu cüzdan, kurtarma ifadesini yazmak için bir kağıt içerir, ancak birçok insan bu ifadeyi çeliğe yedeklemeyi tercih eder. Bu, yangın veya sel gibi doğal afet durumunda kurtarma ifadesini kaybetme olasılığını önemli ölçüde azaltır.",
-	"wallets_s6_c4": "Jameson Lopp, doğru olanı seçmenize yardımcı olmak için 70 çelik yedekleme ürününü test etmiştir.",
-	"wallets_s6_c5": "Jameson'ın metal Bitcoin yedekleme rehberine buradan göz atın.",
-	"wallets_s6_c6": "Veya kaydırmaya devam edin ve Bitcoin cüzdan seçeneklerini keşfedin.",
+	"wallets_s6_c3": "Kurtarma ifadeniz nihai paroladır — onu ne pahasına olursa olsun koruyun. Ona erişim sağlayan herkes Bitcoin'inize erişebilir, bu yüzden onu güvenli bir şekilde ve asla çevrimiçi olmayacak şekilde saklamak çok önemlidir (fotoğraf yok, bulut depolama yok, e-posta yok, not uygulaması yok).",
+	"wallets_s6_c4": "Çoğu cüzdan, kurtarma ifadesini yazmak için bir kağıt içerir, ancak birçok insan bu ifadeyi çeliğe yedeklemeyi tercih eder. Bu, yangın veya sel gibi doğal afet durumunda kurtarma ifadesini kaybetme olasılığını önemli ölçüde azaltır.",
+	"wallets_s6_c5": "Jameson Lopp, doğru olanı seçmenize yardımcı olmak için 70 çelik yedekleme ürününü test etmiştir.",
+	"wallets_s6_c6": "Jameson'ın metal Bitcoin yedekleme rehberine buradan göz atın.",
+	"wallets_s6_c7": "Veya kaydırmaya devam edin ve Bitcoin cüzdan seçeneklerini keşfedin.",
 	"wallets_grid_heading": "Popüler Bitcoin cüzdanları",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

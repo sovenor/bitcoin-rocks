@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "it"
 	},
 	"bitcoin_wallet_guide": "Guida ai Portafogli Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "COME FARÒ IL BACKUP DELLA MIA FRASE DI RECUPERO?",
 	"wallets_s6_c1": "Quando configuri il tuo portafoglio Bitcoin, il tuo dispositivo genererà una frase di recupero. Questa frase di recupero (chiamata anche seed phrase) contiene 12 o 24 parole.",
 	"wallets_s6_c2": "Se perdi l'accesso al tuo portafoglio o il tuo dispositivo smette di funzionare, puoi inserire questa frase di recupero in un nuovo portafoglio per riottenere l'accesso ai tuoi Bitcoin.",
-	"wallets_s6_c3": "La maggior parte dei portafogli include un foglio di carta per scrivere la tua frase di recupero, ma molte persone preferiscono fare il backup di questa frase su acciaio. Questo rende molto meno probabile perdere la frase di recupero in caso di disastro naturale come un incendio o un'alluvione.",
-	"wallets_s6_c4": "Jameson Lopp ha testato 70 kit di backup in acciaio per aiutarti a scegliere quello giusto per te.",
-	"wallets_s6_c5": "Vedi la guida di Jameson ai backup in metallo per Bitcoin qui.",
-	"wallets_s6_c6": "Oppure continua a scorrere per esplorare le opzioni di portafogli Bitcoin.",
+	"wallets_s6_c3": "La tua frase di recupero è la password definitiva: proteggila a tutti i costi. Chiunque vi acceda può accedere ai tuoi Bitcoin, quindi è fondamentale conservarla in modo sicuro e mai online (niente foto, niente cloud, niente email, niente app per appunti).",
+	"wallets_s6_c4": "La maggior parte dei portafogli include un foglio di carta per scrivere la tua frase di recupero, ma molte persone preferiscono fare il backup di questa frase su acciaio. Questo rende molto meno probabile perdere la frase di recupero in caso di disastro naturale come un incendio o un'alluvione.",
+	"wallets_s6_c5": "Jameson Lopp ha testato 70 kit di backup in acciaio per aiutarti a scegliere quello giusto per te.",
+	"wallets_s6_c6": "Vedi la guida di Jameson ai backup in metallo per Bitcoin qui.",
+	"wallets_s6_c7": "Oppure continua a scorrere per esplorare le opzioni di portafogli Bitcoin.",
 	"wallets_grid_heading": "Wallet Bitcoin popolari",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

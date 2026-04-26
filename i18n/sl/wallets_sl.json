@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "sl"
 	},
 	"bitcoin_wallet_guide": "Vodič po bitcoinovih denarnicah",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "KAKO VARNOSTNO KOPIRATI OBNOVITVENO FRAZO?",
 	"wallets_s6_c1": "Pri nastavitvi bitcoinove denarnice vaša naprava ustvari obnovitveno frazo. Ta obnovitvena fraza (imenovana tudi seed fraza) vsebuje 12 ali 24 besed.",
 	"wallets_s6_c2": "Če izgubite dostop do svoje denarnice ali vaša naprava preneha delovati, lahko to obnovitveno frazo vnesete v novo denarnico in znova pridobite dostop do svojega Bitcoina.",
-	"wallets_s6_c3": "Večina denarnic vključuje list papirja za zapis obnovitvene fraze, toda mnogi ljudje raje to frazo varnostno kopirajo na jeklo. To znatno zmanjša verjetnost izgube obnovitvene fraze v primeru naravne nesreče, kot je požar ali poplava.",
-	"wallets_s6_c4": "Jameson Lopp je preizkusil 70 jeklenih varnostnih kopij, da vam pomaga izbrati pravo.",
-	"wallets_s6_c5": "Oglejte si Jamesonov vodič po kovinskih bitcoinovih varnostnih kopijah tukaj.",
-	"wallets_s6_c6": "Ali pa nadaljujte z drsenjem in raziščite možnosti bitcoinovih denarnic.",
+	"wallets_s6_c3": "Vaša obnovitvena fraza je najpomembnejše geslo od vseh — zaščitite jo za vsako ceno. Kdor koli pridobi dostop do nje, lahko dostopa tudi do vašega bitcoina, zato jo je nujno hraniti varno in nikoli na spletu (brez fotografij, brez shrambe v oblaku, brez elektronske pošte, brez aplikacij za zapiske).",
+	"wallets_s6_c4": "Večina denarnic vključuje list papirja za zapis obnovitvene fraze, toda mnogi ljudje raje to frazo varnostno kopirajo na jeklo. To znatno zmanjša verjetnost izgube obnovitvene fraze v primeru naravne nesreče, kot je požar ali poplava.",
+	"wallets_s6_c5": "Jameson Lopp je preizkusil 70 jeklenih varnostnih kopij, da vam pomaga izbrati pravo.",
+	"wallets_s6_c6": "Oglejte si Jamesonov vodič po kovinskih bitcoinovih varnostnih kopijah tukaj.",
+	"wallets_s6_c7": "Ali pa nadaljujte z drsenjem in raziščite možnosti bitcoinovih denarnic.",
 	"wallets_grid_heading": "Priljubljene Bitcoin denarnice",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

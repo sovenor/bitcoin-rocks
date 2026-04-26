@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "uz"
 	},
 	"bitcoin_wallet_guide": "Bitcoin hamyon yoʻriqnomasi",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "TIKLASH IBORASI QANDAY ZAXIRALANADI?",
 	"wallets_s6_c1": "Bitcoin hamyon oʻrnatganingizda, qurilmangiz tiklash iborasi yaratadi. Bu tiklash iborasi (urugʻ iborasi deb ham ataladi) 12 yoki 24 soʻzdan iborat.",
 	"wallets_s6_c2": "Hamyoningizga kirishni yoʻqotsangiz yoki qurilmangiz buzilsa, bu tiklash iborasini yangi hamyonga kiritib Bitcoiningizga qayta kirishingiz mumkin.",
-	"wallets_s6_c3": "Koʻpchilik hamyonlar tiklash iborasini yozish uchun qogʻoz oʻz ichiga oladi, lekin koʻplab odamlar bu iborani poʻlat metall yuzaga zaxiralashni afzal koʻradi. Bu yongʻin yoki suv toshqini kabi tabiiy ofat holatida tiklash iborasini yoʻqotish ehtimolini sezilarli darajada kamaytiradi.",
-	"wallets_s6_c4": "Jameson Lopp toʻgʻrisini tanlashga yordam berish uchun 70 ta poʻlat zaxira mahsulotini sinab koʻrgan.",
-	"wallets_s6_c5": "Jamesonning metall Bitcoin zaxira yoʻriqnomasini bu yerda koʻring.",
-	"wallets_s6_c6": "Yoki aylantrishni davom ettiring va Bitcoin hamyon variantlarini kashf qiling.",
+	"wallets_s6_c3": "Tiklash iborangiz eng muhim parol — uni har qanday holatda himoya qiling. Unga kira oladigan har qanday shaxs sizning Bitcoiningizga ham kira oladi, shuning uchun uni xavfsiz va hech qachon onlayn saqlamaslik juda muhim (suratga olmang, bulutli saqlashda saqlamang, elektron pochtaga yubormang, eslatma ilovalarida saqlamang).",
+	"wallets_s6_c4": "Koʻpchilik hamyonlar tiklash iborasini yozish uchun qogʻoz oʻz ichiga oladi, lekin koʻplab odamlar bu iborani poʻlat metall yuzaga zaxiralashni afzal koʻradi. Bu yongʻin yoki suv toshqini kabi tabiiy ofat holatida tiklash iborasini yoʻqotish ehtimolini sezilarli darajada kamaytiradi.",
+	"wallets_s6_c5": "Jameson Lopp toʻgʻrisini tanlashga yordam berish uchun 70 ta poʻlat zaxira mahsulotini sinab koʻrgan.",
+	"wallets_s6_c6": "Jamesonning metall Bitcoin zaxira yoʻriqnomasini bu yerda koʻring.",
+	"wallets_s6_c7": "Yoki aylantrishni davom ettiring va Bitcoin hamyon variantlarini kashf qiling.",
 	"wallets_grid_heading": "Mashhur Bitcoin hamyonlari",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

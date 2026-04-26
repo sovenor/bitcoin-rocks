@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "fr"
 	},
 	"bitcoin_wallet_guide": "Guide des portefeuilles Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "COMMENT CONSERVER MA PHRASE DE RÉCUPÉRATION ?",
 	"wallets_s6_c1": "Lorsque vous configurez votre portefeuille Bitcoin, votre appareil génère une phrase de récupération. Cette phrase de récupération (également appelée phrase secrète ou seed phrase) contient 12 ou 24 mots.",
 	"wallets_s6_c2": "Si vous perdez l'accès à votre portefeuille ou si votre appareil ne fonctionne plus, vous pouvez saisir cette phrase de récupération dans un nouveau portefeuille pour retrouver l'accès à vos bitcoins.",
-	"wallets_s6_c3": "La plupart des portefeuilles incluent une feuille de papier pour écrire votre phrase de récupération, mais beaucoup de gens préfèrent sauvegarder cette phrase sur de l'acier. Cela réduit considérablement le risque de perdre votre phrase de récupération en cas de catastrophe naturelle, comme un incendie ou une inondation.",
-	"wallets_s6_c4": "Jameson Lopp a testé 70 kits de sauvegarde en acier pour vous aider à choisir celui qui vous convient le mieux.",
-	"wallets_s6_c5": "Consultez le guide de Jameson sur les sauvegardes Bitcoin en métal ici.",
-	"wallets_s6_c6": "Ou continuez à scroller pour explorer les différentes options de portefeuilles Bitcoin.",
+	"wallets_s6_c3": "Votre phrase de récupération est le mot de passe ultime : protégez-la à tout prix. Toute personne qui y accède peut accéder à vos bitcoins, il est donc essentiel de la conserver en toute sécurité et jamais en ligne (pas de photos, pas de stockage cloud, pas d'e-mail, pas d'applications de notes).",
+	"wallets_s6_c4": "La plupart des portefeuilles incluent une feuille de papier pour écrire votre phrase de récupération, mais beaucoup de gens préfèrent sauvegarder cette phrase sur de l'acier. Cela réduit considérablement le risque de perdre votre phrase de récupération en cas de catastrophe naturelle, comme un incendie ou une inondation.",
+	"wallets_s6_c5": "Jameson Lopp a testé 70 kits de sauvegarde en acier pour vous aider à choisir celui qui vous convient le mieux.",
+	"wallets_s6_c6": "Consultez le guide de Jameson sur les sauvegardes Bitcoin en métal ici.",
+	"wallets_s6_c7": "Ou continuez à scroller pour explorer les différentes options de portefeuilles Bitcoin.",
 	"wallets_grid_heading": "Wallets Bitcoin populaires",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

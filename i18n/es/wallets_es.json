@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "es"
 	},
 	"bitcoin_wallet_guide": "Guía de cartera Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "¿CÓMO HAGO UNA COPIA DE SEGURIDAD DE MI FRASE DE RECUPERACIÓN?",
 	"wallets_s6_c1": "Cuando configures tu cartera Bitcoin, tu dispositivo generará una frase de recuperación. Esta frase de recuperación (también llamada frase semilla o seed phrase) contiene 12 o 24 palabras.",
 	"wallets_s6_c2": "Si alguna vez pierdes el acceso a tu cartera o tu dispositivo deja de funcionar, puedes introducir esta frase de recuperación en una nueva cartera para recuperar el acceso a tus Bitcoin.",
-	"wallets_s6_c3": "La mayoría de las carteras incluyen una hoja de papel para escribir tu frase de recuperación, pero mucha gente prefiere hacer una copia de seguridad de esta frase en acero. Esto hace que sea mucho menos probable perder tu frase de recuperación en caso de un desastre natural como un incendio o una inundación.",
-	"wallets_s6_c4": "Jameson Lopp ha probado 70 kits de copia de seguridad de acero para ayudarte a elegir el más adecuado para ti.",
-	"wallets_s6_c5": "Consulta la guía de copias de seguridad de Bitcoin en metal de Jameson aquí.",
-	"wallets_s6_c6": "O sigue deslizando para explorar las opciones de carteras Bitcoin.",
+	"wallets_s6_c3": "Tu frase de recuperación es la contraseña definitiva: protégela a toda costa. Cualquiera que tenga acceso a ella puede acceder a tus Bitcoin, así que es crucial guardarla de forma segura y nunca en línea (sin fotos, sin almacenamiento en la nube, sin correo electrónico, sin aplicaciones de notas).",
+	"wallets_s6_c4": "La mayoría de las carteras incluyen una hoja de papel para escribir tu frase de recuperación, pero mucha gente prefiere hacer una copia de seguridad de esta frase en acero. Esto hace que sea mucho menos probable perder tu frase de recuperación en caso de un desastre natural como un incendio o una inundación.",
+	"wallets_s6_c5": "Jameson Lopp ha probado 70 kits de copia de seguridad de acero para ayudarte a elegir el más adecuado para ti.",
+	"wallets_s6_c6": "Consulta la guía de copias de seguridad de Bitcoin en metal de Jameson aquí.",
+	"wallets_s6_c7": "O sigue deslizando para explorar las opciones de carteras Bitcoin.",
 	"wallets_grid_heading": "Carteras populares de Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "zh"
 	},
 	"bitcoin_wallet_guide": "比特币钱包指南",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "如何备份恢复短语？",
 	"wallets_s6_c1": "设置比特币钱包时，您的设备会生成一个恢复短语。这个恢复短语（也称为种子短语）包含12或24个单词。",
 	"wallets_s6_c2": "如果您失去了对钱包的访问权限或设备损坏，您可以在新钱包中输入此恢复短语来重新获取您的比特币。",
-	"wallets_s6_c3": "大多数钱包附带一张纸用于写下恢复短语，但许多人更喜欢将此短语备份在钢板上。这大大降低了在火灾或洪水等自然灾害中丢失恢复短语的可能性。",
-	"wallets_s6_c4": "Jameson Lopp测试了70种钢制备份套件，帮助您选择合适的。",
-	"wallets_s6_c5": "在此查看Jameson的金属比特币备份指南。",
-	"wallets_s6_c6": "或继续滚动浏览比特币钱包选项。",
+	"wallets_s6_c3": "您的恢复短语是最重要的密码，请不惜一切代价保护它。任何获得它的人都可以访问您的比特币，因此务必将其安全地保管，绝对不要存放在网上（不要拍照、不要存云端、不要发邮件、不要用记事本应用）。",
+	"wallets_s6_c4": "大多数钱包附带一张纸用于写下恢复短语，但许多人更喜欢将此短语备份在钢板上。这大大降低了在火灾或洪水等自然灾害中丢失恢复短语的可能性。",
+	"wallets_s6_c5": "Jameson Lopp测试了70种钢制备份套件，帮助您选择合适的。",
+	"wallets_s6_c6": "在此查看Jameson的金属比特币备份指南。",
+	"wallets_s6_c7": "或继续滚动浏览比特币钱包选项。",
 	"wallets_grid_heading": "热门比特币钱包",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

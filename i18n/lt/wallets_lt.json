@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "lt"
 	},
 	"bitcoin_wallet_guide": "Bitcoin piniginių vadovas",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "KAIP PADARYTI ATSARGINĘ ATKŪRIMO FRAZĖS KOPIJĄ?",
 	"wallets_s6_c1": "Kai nustatote savo Bitcoin piniginę, jūsų įrenginys sugeneruos atkūrimo frazę. Ši atkūrimo frazė (dar vadinama pradinė frazė) turi 12 ar 24 žodžius.",
 	"wallets_s6_c2": "Jei kada nors prarasite prieigą prie savo piniginės ar jūsų įrenginys nustos veikti, galite įvesti šią atkūrimo frazę į naują piniginę ir atgauti prieigą prie savo Bitcoin.",
-	"wallets_s6_c3": "Dauguma piniginių prideda popieriaus lapą atkūrimo frazei užrašyti, bet daugelis žmonių pageidauja šią frazę atsarginėje kopijoje laikyti ant plieno. Tai žymiai sumažina tikimybę prarasti atkūrimo frazę gamtos nelaimės, pvz., gaisro ar potvynio, atveju.",
-	"wallets_s6_c4": "Jameson Lopp išbandė 70 plieninių atsarginių kopijų rinkinių, kad padėtų jums pasirinkti tinkamiausią.",
-	"wallets_s6_c5": "Peržiūrėkite Jameson metalinio Bitcoin atsarginės kopijos vadovą čia.",
-	"wallets_s6_c6": "Arba tęskite slinkimą, kad pamatytumėte Bitcoin piniginių variantus.",
+	"wallets_s6_c3": "Jūsų atkūrimo frazė yra svarbiausias slaptažodis – saugokite ją bet kokia kaina. Bet kas, kas prie jos prieis, galės pasiekti jūsų Bitcoin, todėl labai svarbu ją laikyti saugiai ir niekada internete (jokių nuotraukų, jokios debesų saugyklos, jokių el. laiškų, jokių užrašinių programėlių).",
+	"wallets_s6_c4": "Dauguma piniginių prideda popieriaus lapą atkūrimo frazei užrašyti, bet daugelis žmonių pageidauja šią frazę atsarginėje kopijoje laikyti ant plieno. Tai žymiai sumažina tikimybę prarasti atkūrimo frazę gamtos nelaimės, pvz., gaisro ar potvynio, atveju.",
+	"wallets_s6_c5": "Jameson Lopp išbandė 70 plieninių atsarginių kopijų rinkinių, kad padėtų jums pasirinkti tinkamiausią.",
+	"wallets_s6_c6": "Peržiūrėkite Jameson metalinio Bitcoin atsarginės kopijos vadovą čia.",
+	"wallets_s6_c7": "Arba tęskite slinkimą, kad pamatytumėte Bitcoin piniginių variantus.",
 	"wallets_grid_heading": "Populiarios Bitcoin piniginės",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

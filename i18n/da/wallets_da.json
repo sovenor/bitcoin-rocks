@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "da"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-wallet-guide",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "HVORDAN VIL JEG SIKKERHEDSKOPIERE MIN GENDANNELSESFRASE?",
 	"wallets_s6_c1": "Når du opretter din Bitcoin-wallet, vil din enhed generere en gendannelsesfrase. Denne gendannelsesfrase (også kaldet en frøfrase) indeholder 12 eller 24 ord.",
 	"wallets_s6_c2": "Hvis du nogensinde mister adgangen til din wallet, eller din enhed holder op med at fungere, kan du indtaste denne gendannelsesfrase i en ny wallet for at gendanne adgangen til din Bitcoin.",
-	"wallets_s6_c3": "De fleste wallets inkluderer et ark papir til at skrive gendannelsesfrasen ned, men mange foretrækker at sikkerhedskopiere denne frase på stål i stedet. Dette gør det meget mindre sandsynligt at miste gendannelsesfrasen i tilfælde af en naturkatastrofe som brand eller oversvømmelse.",
-	"wallets_s6_c4": "Jameson Lopp har testet 70 stål-sikkerhedskopisæt for at hjælpe dig med at vælge det, der passer til dig.",
-	"wallets_s6_c5": "Se Jamesons guide til metal-sikkerhedskopiering af Bitcoin her.",
-	"wallets_s6_c6": "Eller fortsæt med at scrolle for at udforske Bitcoin-wallet-muligheder.",
+	"wallets_s6_c3": "Din gendannelsesfrase er det ultimative kodeord — beskyt den for enhver pris. Enhver, der får adgang til den, kan få adgang til din Bitcoin, så det er afgørende at opbevare den sikkert og aldrig online (ingen billeder, ingen cloud-lagring, ingen e-mail, ingen note-apps).",
+	"wallets_s6_c4": "De fleste wallets inkluderer et ark papir til at skrive gendannelsesfrasen ned, men mange foretrækker at sikkerhedskopiere denne frase på stål i stedet. Dette gør det meget mindre sandsynligt at miste gendannelsesfrasen i tilfælde af en naturkatastrofe som brand eller oversvømmelse.",
+	"wallets_s6_c5": "Jameson Lopp har testet 70 stål-sikkerhedskopisæt for at hjælpe dig med at vælge det, der passer til dig.",
+	"wallets_s6_c6": "Se Jamesons guide til metal-sikkerhedskopiering af Bitcoin her.",
+	"wallets_s6_c7": "Eller fortsæt med at scrolle for at udforske Bitcoin-wallet-muligheder.",
 	"wallets_grid_heading": "Populære Bitcoin-wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

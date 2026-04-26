@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "sw"
 	},
 	"bitcoin_wallet_guide": "Mwongozo wa Pochi ya Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "NITAHIFADHI VIPI MANENO YANGU YA UREJESHAJI?",
 	"wallets_s6_c1": "Unapoanzisha pochi yako ya Bitcoin, kifaa chako kitatengeneza maneno ya urejeshaji. Maneno haya ya urejeshaji (pia yanaitwa maneno ya mbegu) yana maneno 12 au 24.",
 	"wallets_s6_c2": "Ukipoteza ufikiaji wa pochi yako au kifaa chako kikiacha kufanya kazi, unaweza kuingiza maneno haya ya urejeshaji kwenye pochi mpya kupata ufikiaji wa Bitcoin yako tena.",
-	"wallets_s6_c3": "Pochi nyingi zinajumuisha karatasi ya kuandika maneno yako ya urejeshaji, lakini watu wengi wanapendelea kuhifadhi maneno haya kwenye chuma badala yake. Hii inafanya iwe vigumu zaidi kupoteza maneno yako ya urejeshaji iwapo maafa ya asili kama moto au mafuriko.",
-	"wallets_s6_c4": "Jameson Lopp amejaribu vifurushi 70 vya kuhifadhi kwa chuma kukusaidia kuchagua kinachofaa kwako.",
-	"wallets_s6_c5": "Angalia mwongozo wa Jameson wa kuhifadhi Bitcoin kwa chuma hapa.",
-	"wallets_s6_c6": "Au endelea kusogeza kuchunguza chaguzi za pochi za Bitcoin.",
+	"wallets_s6_c3": "Maneno yako ya urejeshaji ndiyo nenosiri muhimu kuliko yote — yalinde kwa gharama yoyote. Yeyote anayepata maneno haya anaweza kufikia bitcoin yako, kwa hivyo ni muhimu kuyahifadhi mahali salama na kamwe si mtandaoni (hakuna picha, hakuna hifadhi ya wingu, hakuna barua pepe, hakuna programu za maandishi).",
+	"wallets_s6_c4": "Pochi nyingi zinajumuisha karatasi ya kuandika maneno yako ya urejeshaji, lakini watu wengi wanapendelea kuhifadhi maneno haya kwenye chuma badala yake. Hii inafanya iwe vigumu zaidi kupoteza maneno yako ya urejeshaji iwapo maafa ya asili kama moto au mafuriko.",
+	"wallets_s6_c5": "Jameson Lopp amejaribu vifurushi 70 vya kuhifadhi kwa chuma kukusaidia kuchagua kinachofaa kwako.",
+	"wallets_s6_c6": "Angalia mwongozo wa Jameson wa kuhifadhi Bitcoin kwa chuma hapa.",
+	"wallets_s6_c7": "Au endelea kusogeza kuchunguza chaguzi za pochi za Bitcoin.",
 	"wallets_grid_heading": "Pochi maarufu za Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

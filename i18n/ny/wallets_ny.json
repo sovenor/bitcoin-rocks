@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "ny"
 	},
 	"bitcoin_wallet_guide": "Gaidi ya Zikwama za Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "NDIDZASUNGA BWANJI MAWU ANGA OBWEZERETSA?",
 	"wallets_s6_c1": "Mukakonza chikwama chanu cha Bitcoin, chipangizo chanu chidzapanga mawu obwezeretsa. Mawu obwezeretsa awa (omwe amatchedwa mawu oyambirira) ali ndi mawu 12 kapena 24.",
 	"wallets_s6_c2": "Ngati mutayirira mwayi wopeza chikwama chanu kapena chipangizo chanu chiimirira kugwira ntchito, mutha kulowa mawu obwezeretsa awa mu chikwama chatsopano kuti mupeze Bitcoin yanu.",
-	"wallets_s6_c3": "Zikwama zambiri zimaphatikiza pepala lolemba mawu anu obwezeretsa, koma anthu ambiri amakonda kusunga mawu awa pa chitsulo. Izi zimapangitsa kukhala kosatheka kutayirira mawu anu obwezeretsa pagwa masoka achilengedwe monga moto kapena chigumula.",
-	"wallets_s6_c4": "Jameson Lopp wayesa zipangizo 70 zosunga pa chitsulo kuti akuthandizeni kusankha choyenera kwa inu.",
-	"wallets_s6_c5": "Onani gaidi ya Jameson ya kusungira Bitcoin pa chitsulo pano.",
-	"wallets_s6_c6": "Kapena pitirizani kumavina kuti mufufuze zikwama za Bitcoin.",
+	"wallets_s6_c3": "Mawu anu obwezeretsa ndi achinsinsi ofunika kwambiri kuposa zonse — atetezeni mosakayikira. Aliyense amene angawapeze atha kupeza Bitcoin yanu, choncho ndikofunika kwambiri kuwasunga mwachitetezo ndipo osawasunga pa intaneti konse (osajambula zithunzi, osasunga pa cloud, osatumiza pa imelo, osalemba pa mapulogalamu a zolembera).",
+	"wallets_s6_c4": "Zikwama zambiri zimaphatikiza pepala lolemba mawu anu obwezeretsa, koma anthu ambiri amakonda kusunga mawu awa pa chitsulo. Izi zimapangitsa kukhala kosatheka kutayirira mawu anu obwezeretsa pagwa masoka achilengedwe monga moto kapena chigumula.",
+	"wallets_s6_c5": "Jameson Lopp wayesa zipangizo 70 zosunga pa chitsulo kuti akuthandizeni kusankha choyenera kwa inu.",
+	"wallets_s6_c6": "Onani gaidi ya Jameson ya kusungira Bitcoin pa chitsulo pano.",
+	"wallets_s6_c7": "Kapena pitirizani kumavina kuti mufufuze zikwama za Bitcoin.",
 	"wallets_grid_heading": "Zikwama zofala za Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

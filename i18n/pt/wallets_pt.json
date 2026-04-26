@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "pt"
 	},
 	"bitcoin_wallet_guide": "Guia de Carteira Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "COMO É QUE FAÇO UMA CÓPIA DE SEGURANÇA DA MINHA FRASE DE RECUPERAÇÃO?",
 	"wallets_s6_c1": "Quando configuras a tua carteira Bitcoin, o teu dispositivo irá gerar uma frase de recuperação. Essa frase de recuperação (também chamada de frase-semente) contém 12 ou 24 palavras.",
 	"wallets_s6_c2": "Se alguma vez perderes o acesso à tua carteira ou se o teu dispositivo deixar de funcionar, podes introduzir esta frase de recuperação numa nova carteira para recuperares o acesso à tua Bitcoin.",
-	"wallets_s6_c3": "A maioria das carteiras inclui uma folha de papel para escreveres a tua frase de recuperação, mas muitas pessoas preferem fazer uma cópia de segurança desta frase em metal. Desta forma, é muito menos provável que se perca a frase de recuperação em caso de catástrofe natural, como um incêndio ou uma inundação.",
-	"wallets_s6_c4": "Jameson Lopp testou 70 kits de reserva em aço para te ajudar a escolher o mais adequado para ti.",
-	"wallets_s6_c5": "Vê o guia de backup em metal Bitcoin de Jameson aqui.",
-	"wallets_s6_c6": "Ou continua a fazer scroll para explorares as opções de carteiras Bitcoin.",
+	"wallets_s6_c3": "A tua frase de recuperação é a palavra-passe suprema — protege-a a todo o custo. Qualquer pessoa que tenha acesso a ela pode aceder ao teu Bitcoin, por isso é fundamental guardá-la em segurança e nunca online (sem fotografias, sem armazenamento na nuvem, sem e-mail, sem aplicações de notas).",
+	"wallets_s6_c4": "A maioria das carteiras inclui uma folha de papel para escreveres a tua frase de recuperação, mas muitas pessoas preferem fazer uma cópia de segurança desta frase em metal. Desta forma, é muito menos provável que se perca a frase de recuperação em caso de catástrofe natural, como um incêndio ou uma inundação.",
+	"wallets_s6_c5": "Jameson Lopp testou 70 kits de reserva em aço para te ajudar a escolher o mais adequado para ti.",
+	"wallets_s6_c6": "Vê o guia de backup em metal Bitcoin de Jameson aqui.",
+	"wallets_s6_c7": "Ou continua a fazer scroll para explorares as opções de carteiras Bitcoin.",
 	"wallets_grid_heading": "Carteiras populares de Bitcoin",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

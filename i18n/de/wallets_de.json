@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-26",
 		"locale": "de"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-Wallet Anleitung",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "WIE SICHERE ICH MEINE WIEDERHERSTELLUNGSPHRASE?",
 	"wallets_s6_c1": "Wenn Du Deine Bitcoin-Wallet einrichtest, generiert Dein Gerät eine Wiederherstellungsphrase. Diese Wiederherstellungsphrase (auch Seed-Phrase genannt) enthält 12 oder 24 Wörter.",
 	"wallets_s6_c2": "Wenn Du jemals den Zugang zu Deiner Wallet verlierst oder Dein Gerät nicht mehr funktioniert, kannst Du diese Wiederherstellungsphrase in eine neue Wallet eingeben, um wieder Zugang zu Deinen Bitcoin zu erhalten.",
-	"wallets_s6_c3": "Die meisten Wallets enthalten ein Blatt Papier, auf dem Du Deine Wiederherstellungsphrase aufschreiben kannst, aber viele Leute ziehen es vor, diese Phrase stattdessen auf Stahl zu sichern. Dadurch ist es viel unwahrscheinlicher, Deine Wiederherstellungsphrase bei einer Naturkatastrophe wie einem Brand oder einer Überschwemmung zu verlieren.",
-	"wallets_s6_c4": "Jameson Lopp hat 70 Stahl-Backup-Kits getestet, um Dir bei der Auswahl des richtigen zu helfen.",
-	"wallets_s6_c5": "Sieh Dir hier Jamesons Metall-Bitcoin-Backup-Guide an.",
-	"wallets_s6_c6": "Oder scrolle weiter, um Bitcoin-Wallet-Optionen zu entdecken.",
+	"wallets_s6_c3": "Deine Wiederherstellungsphrase ist das ultimative Passwort – schütze sie um jeden Preis. Jeder, der Zugriff darauf erhält, kann auf Deine Bitcoin zugreifen, deshalb ist es entscheidend, sie sicher und niemals online aufzubewahren (keine Fotos, kein Cloud-Speicher, keine E-Mails, keine Notiz-Apps).",
+	"wallets_s6_c4": "Die meisten Wallets enthalten ein Blatt Papier, auf dem Du Deine Wiederherstellungsphrase aufschreiben kannst, aber viele Leute ziehen es vor, diese Phrase stattdessen auf Stahl zu sichern. Dadurch ist es viel unwahrscheinlicher, Deine Wiederherstellungsphrase bei einer Naturkatastrophe wie einem Brand oder einer Überschwemmung zu verlieren.",
+	"wallets_s6_c5": "Jameson Lopp hat 70 Stahl-Backup-Kits getestet, um Dir bei der Auswahl des richtigen zu helfen.",
+	"wallets_s6_c6": "Sieh Dir hier Jamesons Metall-Bitcoin-Backup-Guide an.",
+	"wallets_s6_c7": "Oder scrolle weiter, um Bitcoin-Wallet-Optionen zu entdecken.",
 	"wallets_grid_heading": "Beliebte Bitcoin-Wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",

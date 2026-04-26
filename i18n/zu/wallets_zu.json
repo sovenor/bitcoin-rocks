@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "zu"
 	},
 	"bitcoin_wallet_guide": "Umhlahlandlela Wesikhwama se-Bitcoin",
@@ -34,10 +34,11 @@
 	"wallets_question_3": "NGIZOYIGCINA KANJANI IMISHO YAMI YOKUBUYISA?",
 	"wallets_s6_c1": "Lapho usetha isikhwama sakho se-Bitcoin, idivayisi yakho izodala umshwana wokubuyisa. Lo mushwana wokubuyisa (obizwa futhi ngokuthi i-seed phrase) unezwi ezingu-12 noma ezingu-24.",
 	"wallets_s6_c2": "Uma ulahlekelwa ukufinyelela esikhwameni sakho noma idivayisi yakho iyeka ukusebenza, ungafaka lo mushwana wokubuyisa esikhwameni esisha ukuze uphinde uthole ukufinyelela ku-Bitcoin yakho.",
-	"wallets_s6_c3": "Izikhwama eziningi zifaka iphephe lokubhala umshwana wakho wokubuyisa, kodwa abantu abaningi bakhetha ukugcina lo mushwana ensimbini kunalokho. Lokhu kwenza kube ngcono kancane ukulahlekelwa umushwana wakho wokubuyisa uma kwenzeka inhlekelele yemvelo efana nomlilo noma isikhukhula.",
-	"wallets_s6_c4": "U-Jameson Lopp uhlole amakhithi angu-70 okugcina ensimbini ukuze akusize ukukhetha okukufanele.",
-	"wallets_s6_c5": "Buka umhlahlandlela ka-Jameson wokugcina ensimbini we-Bitcoin lapha.",
-	"wallets_s6_c6": "Noma uqhubeke ukhuphuka ukuze uhlole izinketho zezikhwama ze-Bitcoin.",
+	"wallets_s6_c3": "Umshwana wakho wokubuyisa uyiphasiwedi ebaluleke kakhulu — uvikele ngazo zonke izindleko. Noma ngubani othola ukufinyelela kuwo angafinyelela ku-Bitcoin yakho, ngakho kubalulekile kakhulu ukuwugcina ngokuphephile futhi ungaze uwubeke ku-inthanethi (akukho zithombe, akukho ukugcinwa kwefu, akukho i-imeyili, akukho izinhlelo zokusebenza zamanothi).",
+	"wallets_s6_c4": "Izikhwama eziningi zifaka iphephe lokubhala umshwana wakho wokubuyisa, kodwa abantu abaningi bakhetha ukugcina lo mushwana ensimbini kunalokho. Lokhu kwenza kube ngcono kancane ukulahlekelwa umushwana wakho wokubuyisa uma kwenzeka inhlekelele yemvelo efana nomlilo noma isikhukhula.",
+	"wallets_s6_c5": "U-Jameson Lopp uhlole amakhithi angu-70 okugcina ensimbini ukuze akusize ukukhetha okukufanele.",
+	"wallets_s6_c6": "Buka umhlahlandlela ka-Jameson wokugcina ensimbini we-Bitcoin lapha.",
+	"wallets_s6_c7": "Noma uqhubeke ukhuphuka ukuze uhlole izinketho zezikhwama ze-Bitcoin.",
 	"wallets_grid_heading": "Izikhwama ze-Bitcoin ezidumile",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
 	"wallets_coldcard_mk5": "COLDCARD MK5",
