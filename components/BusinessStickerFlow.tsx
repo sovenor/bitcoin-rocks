@@ -31,6 +31,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { StickerAddressForm } from "@/components/StickerAddressForm";
+import { TurnstileWidget } from "@/components/TurnstileWidget";
 
 type OptionId = "usa" | "canada" | "print";
 
@@ -208,11 +209,7 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 													required
 												/>
 											</div>
-											<div
-												className="cf-turnstile"
-												data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-												data-theme="dark"
-											/>
+											<TurnstileWidget />
 											<button
 												type="submit"
 												className="cic-submit"
