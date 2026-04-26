@@ -45,25 +45,35 @@ const CURRENCY_URLS: Record<string, CurrencyUrls> = {
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-usd?chart=4y",
 	},
 	CAD: {
-		m1: "https://fred.stlouisfed.org/series/MANMM101CAM189S",
+		// M1 number now sourced from Bank of Canada Valet (V37151 = M1+ gross
+		// SA), not the stale FRED MANMM101CAM189S mirror — link to the BoC
+		// series page so the source attribution matches.
+		m1: "https://www.bankofcanada.ca/valet/series/V37151",
 		debt: "https://fred.stlouisfed.org/series/GGGDTACAA188N",
 		cpi: "https://fred.stlouisfed.org/series/CPALTT01CAM659N",
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-canadian-dollars?chart=4y",
 	},
 	EUR: {
-		m1: "https://fred.stlouisfed.org/series/MANMM101EZM189S",
+		// M1 number now sourced from ECB Data Portal BSI dataset (M1 stocks),
+		// not the stale FRED MANMM101EZM189S mirror.
+		m1: "https://data.ecb.europa.eu/data/datasets/BSI",
 		debt: null,
 		cpi: "https://fred.stlouisfed.org/series/CP0000EZ19M086NEST",
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-euros?chart=4y",
 	},
 	GBP: {
-		m1: "https://fred.stlouisfed.org/series/MANMM101GBM189S",
+		// M1 number now sourced from Bank of England IADB (LPMAUYN = M4 SA;
+		// UK discontinued M1 in 2006). Link to the IADB landing — the
+		// underlying database we actually query.
+		m1: "https://www.bankofengland.co.uk/boeapps/database/",
 		debt: "https://fred.stlouisfed.org/series/GGGDTAGBA188N",
 		cpi: "https://fred.stlouisfed.org/series/CPALTT01GBM659N",
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-british-pounds?chart=4y",
 	},
 	BRL: {
-		m1: "https://fred.stlouisfed.org/series/MANMM101BRM189S",
+		// M1 number now sourced from Banco Central do Brasil SGS (series
+		// 27791 = M1 saldo), not the stale FRED MANMM101BRM189S mirror.
+		m1: "https://www.bcb.gov.br/en/statistics/monetaryaggregates",
 		debt: "https://fred.stlouisfed.org/series/GGGDTABRA188N",
 		cpi: "https://fred.stlouisfed.org/series/CPALTT01BRM659N",
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-brazilian-real?chart=4y",
@@ -93,7 +103,10 @@ const CURRENCY_URLS: Record<string, CurrencyUrls> = {
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-japanese-yen?chart=4y",
 	},
 	AUD: {
-		m1: "https://fred.stlouisfed.org/series/MANMM101AUM189S",
+		// M1 number now sourced from RBA Statistical Table D3 (DMAM1S =
+		// M1 seasonally adjusted), not the stale FRED MANMM101AUM189S
+		// mirror. RBA tables index lists D3 prominently.
+		m1: "https://www.rba.gov.au/statistics/tables/",
 		debt: "https://fred.stlouisfed.org/series/GGGDTAAUA188N",
 		cpi: "https://fred.stlouisfed.org/series/CPALTT01AUM659N",
 		btcChart: "https://bitcoinpricereport.com/bitcoin-priced-in-australian-dollars?chart=4y",
