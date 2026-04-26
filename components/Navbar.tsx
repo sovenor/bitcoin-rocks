@@ -22,7 +22,7 @@ export async function Navbar() {
 			{/* Logo — sits on top of the pill border */}
 			<Link
 				href="/"
-				className="relative z-[2] block bg-bg px-4 pb-[2px] mt-5 -mb-[1px] leading-[0] no-underline xs:px-3"
+				className="relative z-[2] block bg-bg px-3 pb-[2px] mt-5 -mb-[1px] leading-[0] no-underline xs:px-4"
 			>
 				{/* Using <img> rather than next/image to keep the simple SSR
 				    footprint; homepage logo is small + already WebP-optimized. */}
@@ -30,7 +30,7 @@ export async function Navbar() {
 				<img
 					src="/img/logos/rocks-logo-color-v2.png"
 					alt="bitcoin.rocks"
-					className="h-8 xs:h-6 hover:opacity-85 transition-opacity"
+					className="h-6 xs:h-8 hover:opacity-85 transition-opacity"
 				/>
 			</Link>
 
@@ -41,22 +41,22 @@ export async function Navbar() {
 			    the pill's right edge, regardless of which language name is
 			    selected. The two middle items get evenly-distributed space
 			    between them. */}
-			<div className="-mt-2 flex items-center justify-between border border-[#555] rounded-full px-14 py-5 w-4/5 max-w-[460px] box-border md:py-5 xs:px-8 xs:py-4">
+			<div className="-mt-2 flex items-center justify-between border border-[#555] rounded-full px-6 py-4 w-4/5 max-w-[460px] box-border xs:px-10 md:px-14 md:py-5">
 				<Link
 					href="/"
-					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-xs text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm"
 				>
 					{t("home_nav_learn")}
 				</Link>
 				<Link
 					href="/get-involved"
-					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-xs text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm"
 				>
 					{t("home_nav_get_involved")}
 				</Link>
 				<Link
 					href="/about"
-					className="font-proxima text-[15px] text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm xs:text-xs"
+					className="font-proxima text-xs text-[#999] hover:text-[#f0f0f0] transition-colors py-1 whitespace-nowrap md:text-sm"
 				>
 					{t("home_nav_about")}
 				</Link>
