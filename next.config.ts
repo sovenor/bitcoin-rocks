@@ -68,7 +68,16 @@ const LEGACY_SLUG_REDIRECTS: Array<{ source: string; destination: string }> = [
 	// `/business/kit` and `/business/kit-success` were folded into `/business`
 	// on Apr 23, 2026. Both unlocalized and locale-prefixed forms redirect so
 	// inbound links from search engines, socials, or bookmarks still land on
-	// valid content.
+	// valid content. The historical short aliases (`/kit`, `/business-kit`,
+	// `/businesskit`) used to point at `/business/kit`; they now redirect
+	// straight to `/business` so they don't dead-end on the locale-prefixed
+	// `/<lang>/kit` (which 404s — there's no such route).
+	{ source: "/kit", destination: "/business" },
+	{ source: "/business-kit", destination: "/business" },
+	{ source: "/businesskit", destination: "/business" },
+	{ source: "/:locale/kit", destination: "/:locale/business" },
+	{ source: "/:locale/business-kit", destination: "/:locale/business" },
+	{ source: "/:locale/businesskit", destination: "/:locale/business" },
 	{ source: "/business/kit", destination: "/business" },
 	{ source: "/business/kit-success", destination: "/business" },
 	{ source: "/:locale/business/kit", destination: "/:locale/business" },
