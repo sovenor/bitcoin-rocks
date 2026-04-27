@@ -10,6 +10,7 @@ type TurnstileRenderOptions = {
 	sitekey: string;
 	theme?: TurnstileTheme;
 	"refresh-expired"?: "auto" | "manual" | "never";
+	"response-field"?: boolean;
 	callback?: (token: string) => void;
 	"expired-callback"?: () => void;
 	"error-callback"?: () => void;
@@ -71,6 +72,11 @@ export function TurnstileWidget({
 				sitekey: SITE_KEY,
 				theme,
 				"refresh-expired": "auto",
+				// Suppress Cloudflare's auto-injected hidden input — the parent
+				// renders its own controlled `<input name="cf-turnstile-response">`
+				// fed by the `onTokenChange` callback below, so we know exactly
+				// what value the form POSTs.
+				"response-field": false,
 				callback: (token) => onTokenChangeRef.current?.(token),
 				"expired-callback": () => onTokenChangeRef.current?.(null),
 				"error-callback": () => onTokenChangeRef.current?.(null),
