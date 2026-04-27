@@ -41,9 +41,8 @@ const SLUG = "flyers";
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-flyers-v1.png";
 const FLYER_PDF = "/img/flyers/flyer-1.pdf";
 const FLYER_PREVIEW_IMG = "/img/flyers/flyer-1-header.png";
-const NOSTR_NPUB = "npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
-const NOSTR_PROFILE_URL = `https://primal.net/p/${NOSTR_NPUB}`;
-const NOSTR_SNORT_URL = `https://snort.social/p/${NOSTR_NPUB}`;
+const NOSTR_URL =
+	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 
 export async function generateMetadata({
 	params,
@@ -180,7 +179,7 @@ export default async function FlyersPage({
 						<p>
 							{t("common_footer_follow_first_half")}{" "}
 							<a
-								href={NOSTR_SNORT_URL}
+								href={NOSTR_URL}
 								className="body-link"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -192,7 +191,7 @@ export default async function FlyersPage({
 
 						<div className="flyer-actions">
 							<a
-								href={NOSTR_PROFILE_URL}
+								href={NOSTR_URL}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="flyer-btn flyer-btn-primary"
