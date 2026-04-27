@@ -316,6 +316,11 @@ function PrintPanel({ localePrefix }: { localePrefix: string }) {
 						/>
 					</div>
 					<TurnstileWidget onTokenChange={setToken} />
+					<input
+						type="hidden"
+						name="cf-turnstile-response"
+						value={token ?? ""}
+					/>
 					<button
 						type="submit"
 						className="cic-submit"

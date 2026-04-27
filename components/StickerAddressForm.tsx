@@ -176,6 +176,11 @@ export function StickerAddressForm({ variant, action, v2 = false }: Props) {
 						/>
 					)}
 					<TurnstileWidget onTokenChange={setToken} />
+					<input
+						type="hidden"
+						name="cf-turnstile-response"
+						value={token ?? ""}
+					/>
 					<button
 						type="submit"
 						className="cic-submit"
