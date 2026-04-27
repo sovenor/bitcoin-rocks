@@ -3,10 +3,10 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "nb"
 	},
-	"bitcoin_sticker_files_all_languages": "Bitcoin-klistremerker: Alle språk",
-	"sticker_files_description": "Last ned våre brukervennlige Bitcoin-klistremerkefiler og skriv ut dine egne klistremerker.",
-	"sticker_files_header": "Print dine egne Bitcoin-klistermærker ved hjælp av disse filer."
+	"bitcoin_sticker_files_all_languages": "Bitcoin-klistremerkefiler: Alle språk",
+	"sticker_files_description": "Last ned våre brukervennlige Bitcoin-klistremerkefiler for å skrive ut dine egne klistremerker.",
+	"sticker_files_header": "Skriv ut dine egne Bitcoin-klistremerker med disse Bitcoin-klistremerkefilene."
 }
