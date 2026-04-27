@@ -146,6 +146,17 @@ const nextConfig: NextConfig = {
 					{ key: "Cache-Control", value: "public, max-age=31536000, immutable" },
 				],
 			},
+			{
+				// NIP-05 verification: Nostr clients fetch this cross-origin to
+				// resolve `name@bitcoin.rocks` identifiers, so it needs an open
+				// CORS header. Explicit Content-Type guards against any future
+				// MIME-detection regression.
+				source: "/.well-known/nostr.json",
+				headers: [
+					{ key: "Access-Control-Allow-Origin", value: "*" },
+					{ key: "Content-Type", value: "application/json" },
+				],
+			},
 		];
 	},
 
