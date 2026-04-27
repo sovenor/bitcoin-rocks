@@ -15,11 +15,8 @@
  *      card beneath.
  *
  * All form-bearing panels (4 mail forms + 1 print/language-request) are
- * rendered in the initial HTML and toggled with the `hidden` attribute
- * so Cloudflare's Turnstile auto-render scan picks up every static
- * `.cf-turnstile[data-sitekey]` div at page load. Explicit JS-API
- * rendering of Turnstile gave inconsistent token-form binding; this
- * matches the V1 behavior that worked.
+ * rendered in the initial HTML and toggled with the `hidden` attribute,
+ * which keeps the wizard's revealed-form animation smooth.
  *
  * Smooth-scroll between steps to match the `/buy` V2 feel.
  */
@@ -155,10 +152,6 @@ export function StickerFlow({ localePrefix }: Props) {
 						))}
 					</div>
 
-					{/* All panels are rendered in the initial HTML so each form's
-					    static .cf-turnstile div is present for Cloudflare's
-					    auto-render scan at page load. Visibility is toggled
-					    with `hidden` based on the (pack, option) selection. */}
 					<div ref={panelRef} className="sticker-panel">
 						<MailPanel
 							pack="text"
@@ -327,11 +320,6 @@ function PrintPanel({
 							placeholder={t("placeholder_email_optional")}
 						/>
 					</div>
-					<div
-						className="cf-turnstile"
-						data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-						data-theme="dark"
-					/>
 					<button type="submit" className="cic-submit">
 						{t("common_submit")}
 					</button>

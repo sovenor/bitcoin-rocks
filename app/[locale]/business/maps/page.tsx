@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import Script from "next/script";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
@@ -148,14 +147,6 @@ export default async function BusinessMapsPage({
 		<>
 			<JsonLd data={articleSchema} />
 			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
-
-			{/* Cloudflare Turnstile — needed for the listing request form. */}
-			<Script
-				src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-				strategy="afterInteractive"
-				async
-				defer
-			/>
 
 			<div className="container-main">
 				{/* ═══ HERO ═══ */}
@@ -335,11 +326,6 @@ export default async function BusinessMapsPage({
 								style={{ display: "none" }}
 							/>
 
-							<div
-								className="cf-turnstile"
-								data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-								data-theme="dark"
-							/>
 							<button type="submit" className="cic-submit">
 								{t("common_submit")}
 							</button>

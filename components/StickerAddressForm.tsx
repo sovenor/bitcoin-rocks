@@ -9,13 +9,6 @@ import { useTranslations } from "next-intl";
  *
  * `variant = "usa"` renders the State / Zip fields + the `_gotcha` honeypot.
  * `variant = "canada"` renders Province / Postal Code.
- *
- * Captcha: a static `<div className="cf-turnstile" data-sitekey="...">`
- * picked up by Cloudflare's auto-render scan at page load. The host page
- * must (a) load the Turnstile script via `<Script src=".../turnstile/v0/api.js">`
- * and (b) keep this form rendered in the initial HTML (so the scan finds
- * the div) — even when the form is visually hidden via the `hidden`
- * attribute on an ancestor.
  */
 
 type Props = {
@@ -162,11 +155,6 @@ export function StickerAddressForm({ variant, action }: Props) {
 						style={{ display: "none" }}
 					/>
 				)}
-				<div
-					className="cf-turnstile"
-					data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-					data-theme="dark"
-				/>
 				<button type="submit" className="cic-submit">
 					{t("common_submit")}
 				</button>

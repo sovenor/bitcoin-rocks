@@ -12,7 +12,6 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const SITE_URL = process.env.SITE_URL || 'https://bitcoin.rocks';
 const SESSION_SECRET = process.env.SESSION_SECRET || 'change-me-in-production-' + Math.random().toString(36);
-const TURNSTILE_SECRET_KEY = process.env.TURNSTILE_SECRET_KEY || '';
 
 // ============================================================
 // MIDDLEWARE
@@ -197,30 +196,6 @@ function levenshteinDistance(a, b) {
   return matrix[b.length][a.length];
 }
 
-// Verify Cloudflare Turnstile CAPTCHA token
-async function verifyTurnstile(token, ip) {
-  if (!TURNSTILE_SECRET_KEY) {
-    console.warn('TURNSTILE_SECRET_KEY not set — skipping CAPTCHA verification');
-    return true;
-  }
-  try {
-    const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        secret: TURNSTILE_SECRET_KEY,
-        response: token,
-        remoteip: ip
-      })
-    });
-    const data = await response.json();
-    return data.success === true;
-  } catch (err) {
-    console.error('Turnstile verification error:', err);
-    return false;
-  }
-}
-
 // Check if two addresses are similar enough to be considered duplicates
 function isSimilarAddress(newAddr, existingAddr, threshold = 0.85) {
   const normNew = normalizeAddress(newAddr);
@@ -263,16 +238,7 @@ app.post('/submit/:slug', async (req, res) => {
       return res.redirect(form.success_redirect);
     }
 
-    // Cloudflare Turnstile CAPTCHA verification
-    const turnstileToken = req.body['cf-turnstile-response'] || '';
     const clientIP = getClientIP(req);
-    const captchaValid = await verifyTurnstile(turnstileToken, clientIP);
-    if (!captchaValid) {
-      return res.status(403).render('error', {
-        title: 'CAPTCHA Failed',
-        message: 'Please complete the CAPTCHA challenge and try again.'
-      });
-    }
 
     // Extract only defined fields (strip unknown fields)
     const allowedFields = JSON.parse(form.fields);

@@ -52,7 +52,6 @@ In the service's **Variables** tab, add these:
 | `SITE_URL` | `https://bitcoin.rocks` | Your main site URL (no trailing slash) |
 | `DB_PATH` | `/data/forms.db` | Points to the persistent volume |
 | `NODE_ENV` | `production` | Enables secure cookies |
-| `TURNSTILE_SECRET_KEY` | `0x4AAAAAAClzj...` | Cloudflare Turnstile secret (paired with the public site key in `lib/site.ts`); validates form submissions server-side |
 | `FRED_API_KEY` | `your-fred-key` | Required for `/api/inflation-stats` — fetches CPI / M1 / public-debt series. Free key at https://fred.stlouisfed.org/docs/api/api_key.html. If unset, the endpoint silently returns null for FRED-derived fields (inflation page falls back to server-rendered placeholder values). |
 | `TWELVEDATA_API_KEY` | `your-twelvedata-key` | Required for `/api/inflation-stats` — fetches BTC/{currency} prices for the 13 supported currencies. Pro tier recommended for exotic pairs (BTC/HNL, BTC/VEF, BTC/ILS). https://twelvedata.com. If unset, BTC-price fields return null. |
 

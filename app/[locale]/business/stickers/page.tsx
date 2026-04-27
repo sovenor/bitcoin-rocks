@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import Script from "next/script";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { BusinessStickerFlow } from "@/components/BusinessStickerFlow";
@@ -153,15 +152,6 @@ export default async function BusinessStickersPage({
 		<>
 			<JsonLd data={articleSchema} />
 			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
-
-			{/* Cloudflare Turnstile — needed for form widgets inside
-			   BusinessStickerFlow. */}
-			<Script
-				src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-				strategy="afterInteractive"
-				async
-				defer
-			/>
 
 			<div className="container-main">
 				{/* ═══ HERO ═══ */}
