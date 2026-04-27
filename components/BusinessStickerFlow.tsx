@@ -15,10 +15,9 @@
  * Selecting an option reveals a matching panel (`.sticker-panel`) with
  * the address form, print instructions, or language-request form.
  *
- * Styling reuses the V2 sticker system (`.sticker-option-grid`,
- * `.sticker-option-button`, `.sticker-panel`, `.sticker-panel-inner`)
- * plus the `.cic-*` form system — same as /stickers — so the two
- * pages feel visually consistent.
+ * All form-bearing panels are rendered in the initial HTML and toggled
+ * with the `hidden` attribute so Cloudflare's Turnstile auto-render scan
+ * picks up every static `.cf-turnstile[data-sitekey]` div at page load.
  *
  * Forms POST to the existing `forms-backend` endpoints unchanged from
  * the legacy /business/stickers page:
@@ -31,7 +30,6 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import { StickerAddressForm } from "@/components/StickerAddressForm";
-import { TurnstileWidget } from "@/components/TurnstileWidget";
 
 type OptionId = "usa" | "canada" | "print";
 
@@ -85,9 +83,7 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 							className={`sticker-option-button${option === o.id ? " is-selected" : ""}`}
 							onClick={() => setOption(o.id)}
 						>
-							<span className="sticker-option-label">
-								{t(o.labelKey)}
-							</span>
+							<span className="sticker-option-label">{t(o.labelKey)}</span>
 							<span
 								className="sticker-option-chevron"
 								aria-hidden="true"
@@ -98,57 +94,52 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 					))}
 				</div>
 
-				{option && (
-					<div ref={panelRef} className="sticker-panel">
-						<div className="sticker-panel-inner">
-							{option === "usa" && (
-								<>
-									<h3 className="sticker-panel-heading">
-										{t("stickers_mail_header")}
-									</h3>
-									<StickerAddressForm
-										variant="usa"
-										action={ACTIONS.usa}
-										v2
-									/>
-								</>
-							)}
-
-							{option === "canada" && (
-								<>
-									<h3 className="sticker-panel-heading">
-										{t("stickers_mail_header")}
-									</h3>
-									<StickerAddressForm
-										variant="canada"
-										action={ACTIONS.canada}
-										v2
-									/>
-								</>
-							)}
-
-							{option === "print" && (
-								<>
-									<h3 className="sticker-panel-heading">
-										{t("biz_stickers_print_header")}
-									</h3>
-									<p>{t("biz_stickers_print_c1")}</p>
-
-									<div className="sticker-language-grid">
-										<a
-											href={`${localePrefix}/business/sticker-files/english`}
-											className="sticker-language-button"
-										>
-											{t("common_language_english")}
-										</a>
-									</div>
-
-									<BizLanguageRequestForm />
-								</>
-							)}
-						</div>
+				{/* All panels are rendered in the initial HTML so each form's
+				    static .cf-turnstile div is present for Cloudflare's
+				    auto-render scan at page load. Visibility is toggled with
+				    `hidden` based on the selected option. */}
+				<div ref={panelRef} className="sticker-panel">
+					<div
+						className="sticker-panel-inner"
+						hidden={option !== "usa"}
+					>
+						<h3 className="sticker-panel-heading">
+							{t("stickers_mail_header")}
+						</h3>
+						<StickerAddressForm variant="usa" action={ACTIONS.usa} />
 					</div>
-				)}
+
+					<div
+						className="sticker-panel-inner"
+						hidden={option !== "canada"}
+					>
+						<h3 className="sticker-panel-heading">
+							{t("stickers_mail_header")}
+						</h3>
+						<StickerAddressForm variant="canada" action={ACTIONS.canada} />
+					</div>
+
+					<div
+						className="sticker-panel-inner"
+						hidden={option !== "print"}
+					>
+						<h3 className="sticker-panel-heading">
+							{t("biz_stickers_print_header")}
+						</h3>
+						<p>{t("biz_stickers_print_c1")}</p>
+
+						<div className="sticker-language-grid">
+							<a
+								href={`${localePrefix}/business/sticker-files/english`}
+								className="sticker-language-button"
+							>
+								{t("common_language_english")}
+							</a>
+						</div>
+
+						<BizLanguageRequestForm />
+					</div>
+				</div>
 			</div>
 		</div>
 	);
@@ -156,7 +147,6 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 
 function BizLanguageRequestForm() {
 	const t = useTranslations();
-	const [token, setToken] = useState<string | null>(null);
 	return (
 		<div className="sticker-request">
 			<h3 className="sticker-panel-subheading">
@@ -169,10 +159,7 @@ function BizLanguageRequestForm() {
 				className="cic-form sticker-form"
 			>
 				<div className="cic-field">
-					<label
-						className="cic-label"
-						htmlFor="biz-sticker-language"
-					>
+					<label className="cic-label" htmlFor="biz-sticker-language">
 						{t("placeholder_language")}
 					</label>
 					<input
@@ -216,17 +203,12 @@ function BizLanguageRequestForm() {
 						required
 					/>
 				</div>
-				<TurnstileWidget onTokenChange={setToken} />
-				<input
-					type="hidden"
-					name="cf-turnstile-response"
-					value={token ?? ""}
+				<div
+					className="cf-turnstile"
+					data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
+					data-theme="dark"
 				/>
-				<button
-					type="submit"
-					className="cic-submit"
-					disabled={!token}
-				>
+				<button type="submit" className="cic-submit">
 					{t("common_submit")}
 				</button>
 			</form>

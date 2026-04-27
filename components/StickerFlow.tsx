@@ -14,12 +14,12 @@
  *      form / language grid / bulk CTA in a `.sticker-panel` surface
  *      card beneath.
  *
- * Forms inside the panel use the `.cic-*` field/label/input system
- * shared with `/compound-inflation-calculator` for a consistent form
- * look across the site.
- *
- * Each pack has its own set of form action URLs (text pack vs signs
- * pack) so the sticker-fulfillment backend knows which pack to ship.
+ * All form-bearing panels (4 mail forms + 1 print/language-request) are
+ * rendered in the initial HTML and toggled with the `hidden` attribute
+ * so Cloudflare's Turnstile auto-render scan picks up every static
+ * `.cf-turnstile[data-sitekey]` div at page load. Explicit JS-API
+ * rendering of Turnstile gave inconsistent token-form binding; this
+ * matches the V1 behavior that worked.
  *
  * Smooth-scroll between steps to match the `/buy` V2 feel.
  */
@@ -28,7 +28,6 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 
 import { StickerAddressForm } from "@/components/StickerAddressForm";
-import { TurnstileWidget } from "@/components/TurnstileWidget";
 import { STICKER_LANGUAGES } from "@/lib/sticker-languages";
 
 type PackId = "text" | "signs";
@@ -88,6 +87,9 @@ export function StickerFlow({ localePrefix }: Props) {
 		{ id: "bulk", labelKey: "stickers_option_bulk" },
 	];
 
+	const showMail = (p: PackId, v: "usa" | "canada") =>
+		pack === p && option === v;
+
 	return (
 		<>
 			{/* ═══ STEP 1 — pack picker ═══ */}
@@ -125,11 +127,7 @@ export function StickerFlow({ localePrefix }: Props) {
 			</div>
 
 			{/* ═══ STEP 2 — delivery option ═══ */}
-			<div
-				ref={step2Ref}
-				className="inflation-section"
-				hidden={!pack}
-			>
+			<div ref={step2Ref} className="inflation-section" hidden={!pack}>
 				<div className="container-inner">
 					<div className="buy-step-header">
 						<span className="buy-step-eyebrow">
@@ -157,28 +155,37 @@ export function StickerFlow({ localePrefix }: Props) {
 						))}
 					</div>
 
-					{pack && option && (
-						<div ref={panelRef} className="sticker-panel">
-							{option === "usa" && (
-								<MailPanel
-									pack={pack}
-									variant="usa"
-									titleKey="stickers_mail_header"
-								/>
-							)}
-							{option === "canada" && (
-								<MailPanel
-									pack={pack}
-									variant="canada"
-									titleKey="stickers_mail_header"
-								/>
-							)}
-							{option === "print" && (
-								<PrintPanel localePrefix={localePrefix} />
-							)}
-							{option === "bulk" && <BulkPanel />}
-						</div>
-					)}
+					{/* All panels are rendered in the initial HTML so each form's
+					    static .cf-turnstile div is present for Cloudflare's
+					    auto-render scan at page load. Visibility is toggled
+					    with `hidden` based on the (pack, option) selection. */}
+					<div ref={panelRef} className="sticker-panel">
+						<MailPanel
+							pack="text"
+							variant="usa"
+							hidden={!showMail("text", "usa")}
+						/>
+						<MailPanel
+							pack="text"
+							variant="canada"
+							hidden={!showMail("text", "canada")}
+						/>
+						<MailPanel
+							pack="signs"
+							variant="usa"
+							hidden={!showMail("signs", "usa")}
+						/>
+						<MailPanel
+							pack="signs"
+							variant="canada"
+							hidden={!showMail("signs", "canada")}
+						/>
+						<PrintPanel
+							localePrefix={localePrefix}
+							hidden={option !== "print"}
+						/>
+						<BulkPanel hidden={option !== "bulk"} />
+					</div>
 				</div>
 			</div>
 		</>
@@ -230,26 +237,31 @@ function PackCard({
 function MailPanel({
 	pack,
 	variant,
-	titleKey,
+	hidden,
 }: {
 	pack: PackId;
 	variant: "usa" | "canada";
-	titleKey: string;
+	hidden: boolean;
 }) {
 	const t = useTranslations();
 	const action = ACTIONS[pack][variant];
 	return (
-		<Panel title={t(titleKey)}>
-			<StickerAddressForm variant={variant} action={action} v2 />
+		<Panel title={t("stickers_mail_header")} hidden={hidden}>
+			<StickerAddressForm variant={variant} action={action} />
 		</Panel>
 	);
 }
 
-function PrintPanel({ localePrefix }: { localePrefix: string }) {
+function PrintPanel({
+	localePrefix,
+	hidden,
+}: {
+	localePrefix: string;
+	hidden: boolean;
+}) {
 	const t = useTranslations();
-	const [token, setToken] = useState<string | null>(null);
 	return (
-		<Panel title={t("stickers_print_header")}>
+		<Panel title={t("stickers_print_header")} hidden={hidden}>
 			<p>{t("stickers_print_c1")}</p>
 			<p className="sticker-panel-note">{t("stickers_print_c2")}</p>
 
@@ -315,17 +327,12 @@ function PrintPanel({ localePrefix }: { localePrefix: string }) {
 							placeholder={t("placeholder_email_optional")}
 						/>
 					</div>
-					<TurnstileWidget onTokenChange={setToken} />
-					<input
-						type="hidden"
-						name="cf-turnstile-response"
-						value={token ?? ""}
+					<div
+						className="cf-turnstile"
+						data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
+						data-theme="dark"
 					/>
-					<button
-						type="submit"
-						className="cic-submit"
-						disabled={!token}
-					>
+					<button type="submit" className="cic-submit">
 						{t("common_submit")}
 					</button>
 				</form>
@@ -334,10 +341,10 @@ function PrintPanel({ localePrefix }: { localePrefix: string }) {
 	);
 }
 
-function BulkPanel() {
+function BulkPanel({ hidden }: { hidden: boolean }) {
 	const t = useTranslations();
 	return (
-		<Panel title={t("stickers_bulk_header")}>
+		<Panel title={t("stickers_bulk_header")} hidden={hidden}>
 			<p>
 				{t("stickers_bulk_c1")}{" "}
 				<a
@@ -364,9 +371,17 @@ function BulkPanel() {
 	);
 }
 
-function Panel({ title, children }: { title: string; children: ReactNode }) {
+function Panel({
+	title,
+	children,
+	hidden,
+}: {
+	title: string;
+	children: ReactNode;
+	hidden: boolean;
+}) {
 	return (
-		<div className="sticker-panel-inner">
+		<div className="sticker-panel-inner" hidden={hidden}>
 			<h3 className="sticker-panel-heading">{title}</h3>
 			{children}
 		</div>
