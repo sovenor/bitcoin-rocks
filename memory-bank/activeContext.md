@@ -1,3 +1,46 @@
+## Cloudflare Turnstile removed from all forms — April 26, 2026
+
+After several iterations couldn't get Turnstile to bind reliably to the
+React-mounted sticker forms (visible ✓ but POSTs reaching the backend with
+an empty `cf-turnstile-response` and getting rejected as "CAPTCHA Failed"),
+removed Turnstile site-wide rather than ship partial protection. Existing
+defenses are deemed sufficient for this site's risk profile: honeypot
+`_gotcha` field, per-IP duplicate-submission blocking, address dedup
+(fuzzy-match via Levenshtein), and a region-based blacklist.
+
+What changed:
+- Frontend: dropped the static `<div class="cf-turnstile">` from
+  `StickerAddressForm`, `StickerFlow`'s PrintPanel, `BusinessStickerFlow`'s
+  `BizLanguageRequestForm`, and the `/business/maps` listing form. Dropped
+  the `<Script src=".../turnstile/v0/api.js">` tag from `/stickers`,
+  `/business/stickers`, and `/business/maps`. Dropped the orphan
+  `.sticker-panel-inner .cf-turnstile` CSS rule.
+- Backend (`forms-backend/server.js`): removed the `verifyTurnstile()`
+  helper and the per-submission captcha check from the `/submit/:slug`
+  handler. Removed `TURNSTILE_SECRET_KEY` env var from `.env.example` and
+  `RAILWAY-SETUP.md` (leaving the env var set on Railway is harmless —
+  nothing reads it now).
+- Memory bank: `techContext.md` and `systemPatterns.md` updated to reflect
+  the new defense layout. Older historical entries below mentioning
+  Turnstile reflect what was true AT THE TIME — they're correct as
+  historical records and are deliberately left in place.
+
+Migration backstory in case Turnstile needs to come back: in V1 (legacy
+static site) every form had its own page, and Cloudflare's implicit
+auto-render scan reliably bound the hidden `cf-turnstile-response` input
+to the surrounding form. In V2 the sticker forms moved into a wizard with
+conditional mounting, which broke implicit render's "find at script load"
+assumption; explicit `turnstile.render()` then rendered the visible widget
+but didn't reliably inject the hidden input into the form. Series of
+attempts (explicit render → controlled hidden input → preload-with-`hidden`
+panels) all failed for at least some users. If this ever needs to come
+back, the right fix is per-form-on-its-own-route (V1 layout) where
+implicit auto-render works without the wizard / `display:none` gymnastics.
+
+Removal landed in commit `2d412d04` (merge of `claude/remove-turnstile`).
+
+---
+
 ## Estonian (et) locale — Danish contamination cleanup — April 26, 2026
 
 Re-translated `i18n/et/buy_et.json` + `i18n/et/inflation_et.json` to scrub
