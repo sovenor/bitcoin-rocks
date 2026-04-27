@@ -148,7 +148,7 @@ export const ABOUT: ContentPageData = {
 		// ─── Contact Us ──────────────────────────────────────────
 		// Three contact rows promoted from plain `<p>` prose into
 		// learn-more cards so they match every other section's visual
-		// rhythm. Email uses `mailto:`, Nostr points at snort.social,
+		// rhythm. Email uses `mailto:`, Nostr points at primal.net,
 		// GitHub points at the repo.
 		{
 			headingKey: "about_contact_header",
@@ -166,7 +166,7 @@ export const ABOUT: ContentPageData = {
 					labelKey: "about_card_nostr_label",
 					titleKey: "about_card_nostr_title",
 					sourceKey: "about_card_nostr_source",
-					href: "https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4",
+					href: "https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2",
 					external: true,
 				},
 				{

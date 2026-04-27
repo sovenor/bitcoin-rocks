@@ -18,7 +18,7 @@ import { Link } from "@/lib/i18n/navigation";
  */
 
 const NOSTR_URL =
-	"https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
+	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 const CONTRIBUTE_URL =
 	"https://github.com/sovenor/bitcoin-rocks/blob/main/CONTRIBUTING.md";
 const CONTACT_EMAIL = "hi@bitcoin.rocks";

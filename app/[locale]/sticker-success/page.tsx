@@ -48,9 +48,8 @@ import { buildAlternates } from "@/lib/schema/hreflang";
 
 const SLUG = "sticker-success";
 const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
-const NOSTR_NPUB = "npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
-const NOSTR_PROFILE_URL = `https://primal.net/p/${NOSTR_NPUB}`;
-const NOSTR_SNORT_URL = `https://snort.social/p/${NOSTR_NPUB}`;
+const NOSTR_URL =
+	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 const STICKERMULE_URL = "https://stickermule.com/u/4c84ba884f9c3ae";
 
 export async function generateMetadata({
@@ -164,7 +163,7 @@ export default async function StickerSuccessPage({
 						<p>
 							{t("common_footer_follow_first_half")}{" "}
 							<a
-								href={NOSTR_SNORT_URL}
+								href={NOSTR_URL}
 								className="body-link"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -176,7 +175,7 @@ export default async function StickerSuccessPage({
 
 						<div className="flyer-actions">
 							<a
-								href={NOSTR_PROFILE_URL}
+								href={NOSTR_URL}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="flyer-btn flyer-btn-primary"

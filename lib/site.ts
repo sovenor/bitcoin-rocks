@@ -20,7 +20,7 @@ export const SITE_CONTACT_EMAIL = "hi@bitcoin.rocks";
 
 export const GITHUB_URL = "https://github.com/sovenor/bitcoin-rocks";
 export const NOSTR_URL =
-	"https://snort.social/p/npub18kpw3akvdsyk239lx0jgwksr74sq4nlha3r8u9g2rnrhztfpfhysy469c4";
+	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 
 export const GA_MEASUREMENT_ID = "G-18L58W2GTN";
 
