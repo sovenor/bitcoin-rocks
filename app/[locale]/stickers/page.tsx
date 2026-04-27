@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { JsonLd } from "@/components/JsonLd";
@@ -106,14 +105,6 @@ export default async function StickersPage({
 		<>
 			<JsonLd data={articleSchema} />
 			{breadcrumbSchema !== null && <JsonLd data={breadcrumbSchema} />}
-
-			{/* Cloudflare Turnstile — needed for form widgets inside StickerFlow. */}
-			<Script
-				src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-				strategy="afterInteractive"
-				async
-				defer
-			/>
 
 			<div className="container-main">
 				{/* ═══ HERO ═══ */}

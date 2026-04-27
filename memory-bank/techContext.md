@@ -26,7 +26,6 @@ As of April 2026, bitcoin.rocks runs on **Next.js 16 + React 19 + TypeScript + T
 ### Third-Party Services
 - **Google Analytics 4** (gtag.js via `components/GoogleAnalytics.tsx`, measurement ID `G-18L58W2GTN`)
 - **Adobe Typekit** (Proxima Nova font family, kit ID `ful2oqu`)
-- **Cloudflare Turnstile** (CAPTCHA on all form submissions, site-key `0x4AAAAAAClzj7R6NrkNgcsP`)
 - **FRED / BLS / mempool.space** (data sources for inflation stats, proxied through `forms-backend/inflation-stats.js`)
 
 ## Development Environment Setup
@@ -228,7 +227,7 @@ No jQuery. No jquery.i18n. No static-site HTML injection scripts. All the legacy
 ## Security Considerations
 
 ### Content Security
-- **No server-side code execution from user data** — all inputs (form submissions) go to the separate `forms-backend/` service which has its own CSRF/Turnstile protection
+- **No server-side code execution from user data** — all inputs (form submissions) go to the separate `forms-backend/` service, which uses honeypot fields, per-IP duplicate-submission blocking, address dedup, and a blacklist (no captcha — removed April 2026 after migration-time integration issues; existing defenses are deemed sufficient for this site's risk profile)
 - **External Links**: Curated and verified external resources
 - **No User Data** on the frontend: GA4 analytics only; no cookies besides `NEXT_LOCALE` (the locale preference cookie written by next-intl)
 - **HTTPS**: Secure connection for all traffic (Railway defaults)

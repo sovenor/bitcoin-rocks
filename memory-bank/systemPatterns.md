@@ -190,14 +190,13 @@ scripts/                         # dev helpers
 ### Third-Party Services
 - **Analytics:** Google Analytics 4 (`G-18L58W2GTN`) via `components/GoogleAnalytics.tsx`. Custom events registered manually as GA4 Custom Dimensions.
 - **Fonts:** Adobe Typekit (kit `ful2oqu`) — loaded via `<link>` in `app/[locale]/layout.tsx`.
-- **Forms backend:** `forms-backend/` on Railway handles all form submissions + the inflation-stats API. Cloudflare Turnstile on every form (`0x4AAAAAAClzj7R6NrkNgcsP`).
+- **Forms backend:** `forms-backend/` on Railway handles all form submissions + the inflation-stats API.
 - **External Links:** Curated external resource integration (TIME, Fortune, Forbes, Lyn Alden, Anita Posch, etc.). `target="_blank" rel="noopener noreferrer"` on every external link.
 - **Social Sharing:** `generateMetadata()` returns full OpenGraph + Twitter card data per page.
 
 ### Form Handling
 - **Server-rendered forms** with a few Client Component wrappers for progressive disclosure (country pickers, sticker-pack chooser).
-- **Cloudflare Turnstile** on every form submission (scripted via `<Script strategy="afterInteractive">`).
-- **Honeypot fields** (`_gotcha`) where legacy backend expected them.
+- **Honeypot fields** (`_gotcha`) where legacy backend expected them. Backend layers per-IP duplicate-submission blocking, address dedup, and a blacklist on top.
 - **Form action URLs** point at `forms-backend/submit/<endpoint>` — unchanged from the legacy site.
 
 ## Performance Patterns
@@ -211,13 +210,13 @@ scripts/                         # dev helpers
 
 ### Loading Patterns
 - **Critical CSS inline via Tailwind**: Next emits minimal per-route CSS bundles.
-- **Script strategy:** `afterInteractive` for Google Analytics + Cloudflare Turnstile (loads once the page is interactive).
+- **Script strategy:** `afterInteractive` for Google Analytics (loads once the page is interactive).
 - **Image formats:** `images.formats = ["image/webp"]` in `next.config.ts`.
 
 ## Security Patterns
 
 ### Content Security
-- **No user input on the frontend** that isn't forwarded to `forms-backend/`. All form submissions go through a CSRF/Turnstile-protected endpoint on a separate Railway service.
+- **No user input on the frontend** that isn't forwarded to `forms-backend/`. The backend uses honeypot, per-IP duplicate-submission blocking, address dedup, and a blacklist; no captcha (Turnstile was removed April 2026).
 - **External Link Validation**: Curated external resource links; `rel="noopener"` everywhere.
 - **Privacy Protection**: GA4 + `NEXT_LOCALE` cookie are the only client-side data.
 - **JsonLd XSS safety**: `components/JsonLd.tsx` escapes `</` → `\u003c` so a malicious translated string can never break out of `<script type="application/ld+json">`.

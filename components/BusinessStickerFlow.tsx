@@ -15,10 +15,6 @@
  * Selecting an option reveals a matching panel (`.sticker-panel`) with
  * the address form, print instructions, or language-request form.
  *
- * All form-bearing panels are rendered in the initial HTML and toggled
- * with the `hidden` attribute so Cloudflare's Turnstile auto-render scan
- * picks up every static `.cf-turnstile[data-sitekey]` div at page load.
- *
  * Forms POST to the existing `forms-backend` endpoints unchanged from
  * the legacy /business/stickers page:
  *   - /submit/business-stickers-usa
@@ -94,10 +90,6 @@ export function BusinessStickerFlow({ localePrefix }: Props) {
 					))}
 				</div>
 
-				{/* All panels are rendered in the initial HTML so each form's
-				    static .cf-turnstile div is present for Cloudflare's
-				    auto-render scan at page load. Visibility is toggled with
-				    `hidden` based on the selected option. */}
 				<div ref={panelRef} className="sticker-panel">
 					<div
 						className="sticker-panel-inner"
@@ -203,11 +195,6 @@ function BizLanguageRequestForm() {
 						required
 					/>
 				</div>
-				<div
-					className="cf-turnstile"
-					data-sitekey="0x4AAAAAAClzj7R6NrkNgcsP"
-					data-theme="dark"
-				/>
 				<button type="submit" className="cic-submit">
 					{t("common_submit")}
 				</button>
