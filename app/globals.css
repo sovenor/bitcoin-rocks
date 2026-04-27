@@ -2907,7 +2907,7 @@ a.sticker-language-button:focus-visible {
 	}
 }
 
-.sticker-panel-inner .turnstile-mount {
+.sticker-panel-inner .cf-turnstile {
 	margin: 6px 0 10px 0;
 }
 
