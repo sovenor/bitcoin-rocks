@@ -3,14 +3,14 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "nb"
 	},
 	"free_bitcoin_flyers": "Gratis Bitcoin-flygeblad fra bitcoin.rocks",
 	"flyers_description": "Skriv ut et Bitcoin-flygeblad hjemme og heng det opp offentlig for å oransjepille de rundt deg.",
-	"flyers_hero_title": "Print og hæng Bitcoin-flyers op",
-	"flyers_hero_subtitle": "Gratis, printbare Bitcoin-flyers. Hæng dem op på offentlige steder for å hjælpe flere med å lære om Bitcoin.",
-	"flyers_intro_header": "Sådan printer og henger du disse Bitcoin-flyers op",
+	"flyers_hero_title": "Skriv ut og heng opp Bitcoin-flygeblad",
+	"flyers_hero_subtitle": "Gratis, utskrivbare Bitcoin-flygeblad. Heng dem opp på offentlige steder for å hjelpe flere med å lære om Bitcoin.",
+	"flyers_intro_header": "Slik skriver du ut og henger opp disse Bitcoin-flygebladene",
 	"flyers_intro_c1": "Vårt oppdrag er å hjelpe deg med å oransjepille flere mennesker ved å henge opp Bitcoin-flygeblad offentlig. Dette flygebladet har en QR-kode som lenker til vår",
 	"flyers_intro_c2": "pedagogiske Bitcoin-nettside.",
 	"flyers_intro_c4": "Skriv ut dette flygebladet hjemme eller på et trykkeri. Heng det deretter opp på oppslagstavler, telefonstolper rundt om i byen og andre offentlige steder der folk kan se det og lære om Bitcoin.",
@@ -23,6 +23,6 @@
 	"flyers_share_c1": "Del flygebladstedene dine med oss på Nostr og se hvor andre henger opp sine flygeblad.",
 	"flyers_btn_share_on_nostr": "DEL PÅ NOSTR",
 	"flyers_btn_what_is_nostr": "HVA ER NOSTR?",
-	"flyers_next_get_stickers": "Spred budskabet",
-	"flyers_next_get_stickers_desc": "Bestil en gratis pakke Bitcoin-klistermærker"
+	"flyers_next_get_stickers": "Spre budskapet",
+	"flyers_next_get_stickers_desc": "Bestill en gratis pakke Bitcoin-klistremerker"
 }

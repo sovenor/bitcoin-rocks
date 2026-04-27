@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-26",
 		"locale": "nb"
 	},
 	"bitcoin_vs_real_estate": "Bitcoin vs eiendom",
@@ -27,17 +27,17 @@
 	"bitcoin_point_5": "Ingen eiendomsskatt",
 	"bitcoin_point_6": "Vanskelig å ødelegge",
 	"bitcoin_point_7": "Perfekt fungibelt",
-	"bitcoin_point_8": "Globalt 24/7 marked",
-	"point_1_summary_1": "Bitcoin flytter seg øjeblikkeligt overalt i verden. Fast eiendom er fastlåst til ett sted og utsatt for lokale økonomiske, politiske og miljømæssige risici.",
-	"point_2_summary_1": "Bitcoin kan deles op i 100 millioner satoshi. Ejendom kan ikke delvist sælges — du kan ikke sælge et køkken eller kjøpe et halvt soveværelse.",
-	"point_3_summary_1": "Bitcoin fungerer i et desentralisert netværk, som ingen regjering kan kontrollere. Fast eiendom er stærkt reguleret — zoning, huslejekontrol, ekspropriation og beslaglæggelse anvendes alle sammen.",
-	"point_4_summary_1": "Bitcoin kræver ingen vedligeholdelse. Fast eiendom kræver reparationer, renoveringer, forsikring, eiendomsforvaltning og håndtering av lejerproblemer.",
-	"point_5_summary_1": "Bitcoin er ikke underlagt løbende skatter — du betaler kun kapitalgevinstskat, når du sælger. Fast eiendom betaler årlig eiendomsskatt uanset indkomst.",
-	"point_6_summary_1": "Korrekt backuppet Bitcoin overlever brande, oversvømmelser og jordskælv. Fast eiendom er sårbar over for enhver katastrofe, og forsikring dekker sjelden alt.",
-	"point_7_summary_1": "Hver bitcoin er identisk og ombyttelig. Hver eiendom er unik, hvilket gjør værdiansættelse og sammenligning vanskelig.",
-	"point_8_summary_1": "Bitcoin handles globalt 24/7 for alle med internetadgang. Ejendomssalg er begrænset til lokale købere og kan tage måneder å lukke med papirarbejde.",
+	"bitcoin_point_8": "Globalt 24/7-marked",
+	"point_1_summary_1": "Bitcoin flytter seg umiddelbart hvor som helst i verden. Fast eiendom er låst til ett sted og utsatt for lokale økonomiske, politiske og naturlige risikoer.",
+	"point_2_summary_1": "Bitcoin kan deles opp i 100 millioner satoshi. Eiendom kan ikke selges delvis — du kan ikke selge bare kjøkkenet eller kjøpe et halvt soverom.",
+	"point_3_summary_1": "Bitcoin fungerer på et desentralisert nettverk som ingen regjering kan kontrollere. Fast eiendom er sterkt regulert — regulering, husleiekontroll, ekspropriasjon og beslagleggelse gjelder alt sammen.",
+	"point_4_summary_1": "Bitcoin krever ikke noe vedlikehold. Fast eiendom krever reparasjoner, renoveringer, forsikring, eiendomsforvaltning og håndtering av leieboerproblemer.",
+	"point_5_summary_1": "Bitcoin har ingen løpende skatter — du betaler bare gevinstskatt når du selger. Fast eiendom har årlig eiendomsskatt uansett inntekt.",
+	"point_6_summary_1": "Bitcoin som er sikkerhetskopiert riktig, overlever brann, flom og jordskjelv. Fast eiendom er sårbar for enhver katastrofe, og forsikring dekker sjelden alt.",
+	"point_7_summary_1": "Hver bitcoin er identisk og ombyttelig. Hver eiendom er unik, noe som gjør prising og sammenligning vanskelig.",
+	"point_8_summary_1": "Bitcoin handles globalt 24/7 av alle med internettilgang. Eiendomssalg er begrenset til lokale kjøpere og kan ta måneder med papirarbeid før det er fullført.",
 	"bitcoin_point_9": "Fremmer individuelt eierskap",
 	"real_estate_point_9": "Bidrar til finansialisering av bolig",
-	"point_9_summary_1": "Bitcoin muliggør direkte individuelt eierskap for enhver. Køb av fast eiendom som investering ud over primærbolig presser boligpriserne op, reducerer boligtilgængelighed og skaber boligkrise.",
+	"point_9_summary_1": "Bitcoin muliggjør direkte individuelt eierskap for alle. Å kjøpe fast eiendom som investering ut over primærboligen presser boligprisene opp, reduserer tilgjengeligheten og bidrar til boligkrisen.",
 	"hero_title": "Forskjellen mellom <span class=\"orange\">Bitcoin</span> og <span class=\"asset\">fast eiendom</span>"
 }

@@ -6,12 +6,12 @@
 		"last-updated": "2026-04-26",
 		"locale": "nb"
 	},
-	"biz_maps_success_hero_title": "Anmodning mottatt 🎉",
-	"biz_maps_success_hero_subtitle": "Tak fordi du indsendte din virksomhet. Vi får deg snart på Bitcoin-handelskortene.",
-	"biz_maps_success_timeline_header": "Hvad sker det nå",
-	"biz_maps_success_timeline_c1": "Din virksomhet vil blive tilføjet til BTC Map og andre Bitcoin-handelsregistre inden for 2 til 4 uger. Vi gennemgår hver indsendelse manuelt for å holde kortene nøjagtige.",
-	"biz_maps_success_timeline_c2": "Så snart din opførelse er live, vil Bitcoin-brugere i nærheden finde din virksomhet og komme forbi for å bruge Bitcoin.",
+	"biz_maps_success_hero_title": "Forespørsel mottatt 🎉",
+	"biz_maps_success_hero_subtitle": "Takk for at du sendte inn bedriften din. Vi får deg snart på kart over Bitcoin-forhandlere.",
+	"biz_maps_success_timeline_header": "Hva skjer videre",
+	"biz_maps_success_timeline_c1": "Bedriften din vil bli oppført på BTC Map og andre oversikter over Bitcoin-forhandlere innen 2 til 4 uker. Vi går gjennom hver innsendelse manuelt for å holde kartene nøyaktige.",
+	"biz_maps_success_timeline_c2": "Så snart oppføringen din er aktiv, kan bitcoinere i nærheten finne bedriften din og komme innom for å bruke Bitcoin der.",
 	"biz_maps_success_view_header": "Se hvor du kommer til å vises",
-	"biz_maps_success_view_c1": "Mens du venter, tjek BTC Map for å se det voksende netværk av virksomheter verden over, det tager imod Bitcoin.",
+	"biz_maps_success_view_c1": "Mens du venter, ta en titt på BTC Map for å se det voksende nettverket av bedrifter rundt om i verden som tar imot Bitcoin.",
 	"biz_maps_success_btn_view_map": "Se BTC Map"
 }
