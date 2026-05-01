@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-04-30",
 		"locale": "en"
 	},
 	"home_nav_learn": "Learn",
@@ -87,6 +87,7 @@
 	"home_card_label_self_custody_1": "Bitcoin wallet guide",
 	"home_card_label_self_custody_2": "The most important step",
 	"home_card_label_self_custody_3": "Sovereign money",
+	"home_card_label_self_custody_4": "Backup of last resort",
 	"home_card_label_get_started_1": "Beginner basics",
 	"home_card_label_get_started_2": "Your first wallet",
 	"home_card_label_get_started_3": "Buy Bitcoin",
@@ -143,6 +144,7 @@
 	"home_link_title_self_custody_1": "How to safely store your Bitcoin",
 	"home_link_title_self_custody_2": "6 reasons to withdraw your Bitcoin from exchanges",
 	"home_link_title_self_custody_3": "Gold, Bitcoin, and self-custody",
+	"home_link_title_self_custody_4": "How to store Bitcoin in your brain",
 	"home_link_title_get_started_1": "Learn the basics of Bitcoin",
 	"home_link_title_get_started_2": "Get your first Bitcoin wallet",
 	"home_link_title_get_started_3": "How to buy Bitcoin safely",

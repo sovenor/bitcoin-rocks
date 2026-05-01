@@ -146,6 +146,12 @@ h2 {
 	text-align: left;
 }
 
+/* Drop the leading gap above the first content section's H2 so the
+   page hero butts cleanly into the first body section. */
+.container-main > section.content-section:first-of-type h2 {
+	margin-top: 0;
+}
+
 /* Inline color accents that override the parent heading's color
    (e.g. highlighting "BITCOIN" orange inside a black H1). */
 h1 .orange,
@@ -750,6 +756,71 @@ button.choose-initial-text:hover {
 .content-section--boxed .comparison-explain p {
 	text-align: left;
 	max-width: none;
+}
+
+
+/* Bold lead-ins inside ContentPageLayout paragraphs render in the
+   success-green token. Used to scan the rule / technique / step
+   lists on /memorize-your-seed-phrase. */
+.content-section .comparison-explain p strong {
+	color: var(--color-success);
+}
+
+
+/* ✓ / ✗ callout cards rendered between a ContentPageLayout section's
+   H2 and its paragraphs. Two callouts lay out side-by-side on
+   desktop and stack on mobile. Used on /memorize-your-seed-phrase to
+   anchor the "memorizing a seed phrase ✓ vs brain wallet ✗"
+   distinction. */
+.content-callouts {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin: 24px 0 28px;
+}
+@media (max-width: 700px) {
+	.content-callouts {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+}
+.content-callout {
+	background: var(--color-surface);
+	border: 1px solid var(--color-card-border);
+	border-radius: 16px;
+	padding: 20px 22px;
+}
+.content-callout--good {
+	border-color: color-mix(in srgb, var(--color-success) 65%, transparent);
+}
+.content-callout--danger {
+	border-color: color-mix(in srgb, var(--color-danger) 65%, transparent);
+}
+.content-callout-badge {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+	font-weight: 800;
+	font-size: 13px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.content-callout--good .content-callout-badge {
+	color: var(--color-success);
+}
+.content-callout--danger .content-callout-badge {
+	color: var(--color-danger);
+}
+.content-callout-icon {
+	font-size: 18px;
+	font-weight: 900;
+}
+.content-callout-desc {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--color-fg-muted);
 }
 
 

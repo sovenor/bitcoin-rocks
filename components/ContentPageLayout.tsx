@@ -14,6 +14,7 @@ import type { SummaryFragment } from "@/lib/comparisons/types";
 import type {
 	ContentCard,
 	ContentPageData,
+	ContentSectionCallout,
 	ContentSectionImage,
 	LearnMoreCard,
 	StatCard,
@@ -108,6 +109,34 @@ export async function ContentPageLayout({
 						<div className="container-inner">
 							{section.headingKey && (
 								<h2 id={sectionId}>{t(section.headingKey)}</h2>
+							)}
+							{section.paragraphsAboveCallouts &&
+								section.paragraphsAboveCallouts.length > 0 && (
+									<div className="comparison-explain">
+										{section.paragraphsAboveCallouts.map(
+											(paragraph, pi) => (
+												<p key={pi}>
+													{paragraph.map((frag, fi) => (
+														<SummaryFragmentSpan
+															key={fi}
+															frag={frag}
+															locale={l}
+															tResolve={t}
+															isLast={
+																fi === paragraph.length - 1
+															}
+														/>
+													))}
+												</p>
+											),
+										)}
+									</div>
+								)}
+							{section.callouts && section.callouts.length > 0 && (
+								<ContentCalloutsBlock
+									callouts={section.callouts}
+									tResolve={t}
+								/>
 							)}
 							{(section.paragraphs.length > 0 || section.image) && (
 								<div className="comparison-explain">
@@ -431,6 +460,46 @@ function LearnMoreCardView({
 				{tResolve(card.sourceKey)}
 			</div>
 		</a>
+	);
+}
+
+/**
+ * Render a row of ✓ / ✗ callout cards between a section's H2 and
+ * its paragraphs. Two callouts lay out side-by-side on desktop and
+ * stack on mobile (handled by the `.content-callouts` grid in
+ * `app/globals.css`).
+ */
+function ContentCalloutsBlock({
+	callouts,
+	tResolve,
+}: {
+	callouts: readonly ContentSectionCallout[];
+	tResolve: PageTranslator;
+}) {
+	return (
+		<div className="content-callouts">
+			{callouts.map((c, i) => (
+				<div
+					key={i}
+					className={`content-callout content-callout--${c.tone}`}
+				>
+					<div className="content-callout-badge">
+						<span
+							className="content-callout-icon"
+							aria-hidden="true"
+						>
+							{c.tone === "good" ? "✓" : "✗"}
+						</span>
+						<span className="content-callout-label">
+							{tResolve(c.labelKey)}
+						</span>
+					</div>
+					<p className="content-callout-desc">
+						{tResolve(c.descriptionKey)}
+					</p>
+				</div>
+			))}
+		</div>
 	);
 }
 
