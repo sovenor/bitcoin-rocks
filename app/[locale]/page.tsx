@@ -744,6 +744,12 @@ export default async function LocaleHome({
 						title={t("home_link_title_self_custody_3")}
 						authorKey="home_link_author_lyn_alden"
 					/>
+					<WhatsNextCard
+						href={`${l}/memorize-your-seed-phrase`}
+						label={t("home_card_label_self_custody_4")}
+						title={t("home_link_title_self_custody_4")}
+						authorKey="home_link_author_bitcoin_rocks"
+					/>
 				</CategorySection>
 
 				{/* ═══ YOU (GET STARTED) ═══ */}

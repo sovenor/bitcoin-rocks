@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "en"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Wallet Guide",
@@ -36,6 +36,9 @@
 	"wallets_s6_c2": "If you ever lose access to your wallet or your device stops working, you can input this recovery phrase into a new wallet to regain access to your Bitcoin.",
 	"wallets_s6_c3": "Your recovery phrase is the ultimate password — protect it at all costs. Anyone who gets access to it can access your bitcoin, so it's crucial to store it safely and never online (no photos, no cloud storage, no email, no notes apps).",
 	"wallets_s6_c4": "Most wallets include a sheet of paper to write down your recovery phrase, but lots of people prefer to back up this phrase on steel instead. This makes it much less likely to lose your recovery phrase in the event of a natural disaster like a fire or a flood.",
+	"wallets_s6_c4b_a": "For one more layer of resilience, you can also",
+	"wallets_s6_c4b_b": "memorize your seed phrase",
+	"wallets_s6_c4b_c": "as an invisible backup that travels with you.",
 	"wallets_s6_c5": "Jameson Lopp has tested 70 steel backup kits to help you pick the one that is right for you.",
 	"wallets_s6_c6": "View Jameson's metal Bitcoin backup guide here.",
 	"wallets_s6_c7": "Or keep scrolling to explore Bitcoin wallet options.",

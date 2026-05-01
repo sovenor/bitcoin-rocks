@@ -428,6 +428,16 @@ export default async function WalletsPage({
 								<p>{t("wallets_s6_c2")}</p>
 								<p>{t("wallets_s6_c3")}</p>
 								<p>{t("wallets_s6_c4")}</p>
+								<p>
+									{t("wallets_s6_c4b_a")}{" "}
+									<a
+										href={`${l}/memorize-your-seed-phrase`}
+										className="body-link"
+									>
+										{t("wallets_s6_c4b_b")}
+									</a>{" "}
+									{t("wallets_s6_c4b_c")}
+								</p>
 								<p>{t("wallets_s6_c5")}</p>
 								<p>
 									<a

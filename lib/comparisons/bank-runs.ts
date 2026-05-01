@@ -116,6 +116,21 @@ export type ContentSectionImage = {
 	localize?: boolean;
 };
 
+/**
+ * One ✓ / ✗ callout rendered above a section's paragraphs. Used to
+ * visually anchor a comparison that the prose then explains
+ * (e.g. "memorizing a seed phrase" ✓ vs "brain wallet" ✗ on
+ * /memorize-your-seed-phrase).
+ */
+export type ContentSectionCallout = {
+	/** Tone — drives both the leading icon and the accent color. */
+	tone: "good" | "danger";
+	/** Translation key for the uppercase label (e.g. "MEMORIZING A SEED PHRASE"). */
+	labelKey: string;
+	/** Translation key for the body text below the badge. */
+	descriptionKey: string;
+};
+
 export type ContentSection = {
 	/**
 	 * Translation key for the H2. Omit to render a heading-less section
@@ -126,6 +141,20 @@ export type ContentSection = {
 	paragraphs: readonly SummaryFragment[][];
 	/** Optional card block rendered after the paragraphs. */
 	cards?: readonly ContentCard[];
+	/**
+	 * Optional ✓ / ✗ callouts rendered between the H2 and the paragraphs.
+	 * Two callouts lay out side-by-side on desktop, stack on mobile.
+	 * Used on /memorize-your-seed-phrase to anchor the
+	 * "memorizing a seed phrase ✓ vs brain wallet ✗" distinction.
+	 */
+	callouts?: readonly ContentSectionCallout[];
+	/**
+	 * Optional paragraphs rendered between the H2 and the callouts —
+	 * useful when a section needs an introductory paragraph before
+	 * the ✓/✗ comparison cards. Ignored when `callouts` is unset.
+	 * The main `paragraphs` array still renders below the callouts.
+	 */
+	paragraphsAboveCallouts?: readonly SummaryFragment[][];
 	/**
 	 * When true, the section's H2 and paragraphs are center-aligned.
 	 * Used by the "What is a bank run?" intro to give it a more
