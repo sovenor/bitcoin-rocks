@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "nb"
+	},
+	"memorize_seed_page_title": "Hvordan lagre Bitcoin i hjernen din",
+	"memorize_seed_page_description": "Hvordan trygt lagre Bitcoin-gjenopprettingsfrasen din i minnet som en usynlig sikkerhetskopi. Praktiske teknikker, sikkerhetsregler, og hvorfor memorering sjelden bør være din eneste sikkerhetskopi.",
+	"memorize_seed_h1_title": "Hvordan lagre Bitcoin i hjernen din: en usynlig sikkerhetskopi som følger deg overalt",
+
+	"memorize_seed_intro_heading": "En sikkerhetskopi ingen kan se",
+	"memorize_seed_intro_p1": "Gjenopprettingsfrasen din er hovednøkkelen til din Bitcoin. De fleste tar sikkerhetskopi på papir eller stål. Memorering er én ekstra sikkerhetskopi du kan legge oppå.",
+	"memorize_seed_intro_p2": "Usynlig. Vektløs. Bare du kjenner den. Ingen brann, ingen innbrudd, ingen grensekontroll kan ta den fra deg.",
+	"memorize_seed_intro_p3": "For nesten alle hører memorering hjemme oppå en fysisk sikkerhetskopi, ikke i stedet for én. Mer om det senere.",
+
+	"memorize_seed_not_brain_wallet_heading": "Dette er ikke en «hjernelommebok»",
+	"memorize_seed_callout_good_label": "Memorering av en gjenopprettingsfrase",
+	"memorize_seed_callout_good_desc": "Ord generert av en maskinvarelommebok. Høy entropi. Trygt å lagre en kopi i hodet ditt.",
+	"memorize_seed_callout_bad_label": "Hjernelommebok",
+	"memorize_seed_callout_bad_desc": "Nøkkel utledet fra en passfrase du fant på selv. Knust. Tømt på sekunder.",
+	"memorize_seed_not_brain_wallet_p1_a": "I de tidlige dagene av Bitcoin eksperimenterte folk med å generere private nøkler fra passfraser de fant på selv. Metoden ble kalt en",
+	"memorize_seed_not_brain_wallet_p1_b": "hjernelommebok,",
+	"memorize_seed_not_brain_wallet_p1_c": "og det ble en katastrofe. Hackere skrev skript for å gjette vanlige passfraser og tømte lommebøker på sekunder.",
+	"memorize_seed_not_brain_wallet_p2": "Det du memorerer her er noe annet. Ordene kom fra tilfeldighetskilden i en maskinvarelommebok, ikke fra fantasien din. De er ikke noe et skript kan gjette.",
+	"memorize_seed_not_brain_wallet_p3": "Gjenopprettingsfrasen din har høy entropi. Å lagre en kopi av den i hodet svekker den ikke. Det lagrer den bare et annet sted.",
+
+	"memorize_seed_when_helpful_heading": "Når memorering hjelper",
+	"memorize_seed_when_helpful_p1": "Memorering glimrer når fysiske sikkerhetskopier svikter. En naturkatastrofe legger hjemmet ditt og stålplaten inni det i grus. En flom. En brann. En evakuering. Et tyveri. En grensepassering der du ikke kan ha med deg noe som ser ut som verdier.",
+	"memorize_seed_when_helpful_p2": "Den hjelper også på kort sikt. Å reise uten en sikkerhetskopi er mye mindre stressende når du kan gjenopprette lommeboken din hvor som helst i verden.",
+	"memorize_seed_when_helpful_p3": "Og den er enda et lag av redundans. Hvis en flom, en brann og en tyv alle slår til samme uke, er det den memorerte versjonen som får deg trygt hjem.",
+
+	"memorize_seed_rules_heading": "Sett sikkerhetsreglene først",
+	"memorize_seed_rules_p1": "Før du memorerer noe som helst, må det grunnleggende være på plass. Gjenopprettingsfrasen din er det aller viktigste passordet — beskytt den for enhver pris.",
+	"memorize_seed_rules_p2": "<strong>Generer den på en ekte Bitcoin-lommebok,</strong> ikke på et nettsted eller en telefon-app du ikke stoler på. Hele øvelsen avhenger av at ordene kommer fra en ekte tilfeldighetskilde.",
+	"memorize_seed_rules_p3": "<strong>Behold minst én fysisk sikkerhetskopi.</strong> Papir eller stål, på mer enn ett trygt sted. Memorering kommer i tillegg — ikke som erstatning.",
+	"memorize_seed_rules_p4": "<strong>Si aldri ordene høyt.</strong> Ikke til deg selv, ikke under pusten. Telefoner og taleassistenter hører mer enn du tror.",
+	"memorize_seed_rules_p5": "<strong>Skriv dem aldri inn i noe.</strong> Ingen notatapp, ingen regneark, ingen kryptert notis, ingen «bare for å teste det». Behandle ethvert tastatur eller skjerm som en offentlig kringkasting.",
+	"memorize_seed_rules_p6": "<strong>Jobb i enerom når du repeterer.</strong> Lukk døren. Dekk til alle kameraer som peker mot deg — også webkameraet på laptopen din. Trekk for gardinene. Legg ordene tilbake i forvaring i samme øyeblikk du slutter å repetere.",
+
+	"memorize_seed_technique_heading": "Hvordan memorere gjenopprettingsfrasen din",
+	"memorize_seed_technique_p1": "Tilfeldige ord er vanskeligere å huske enn en setning, men lettere enn de ser ut. Gjenopprettingsfraser består typisk av tolv eller tjuefire ord, avhengig av lommeboken din og innstillingene dens. Begge antall følger en rytme hvis du gir dem en.",
+	"memorize_seed_technique_p2": "<strong>Del frasen i biter.</strong> Tolv ord deler seg pent inn i tre grupper på fire, eller fire grupper på tre. Tjuefire ord blir til fire grupper på seks eller seks grupper på fire. Mindre grupper er lettere å feste i hukommelsen.",
+	"memorize_seed_technique_p3": "<strong>Bygg en historie.</strong> Hver bit blir en levende liten scene. Gjør dem rare og spesifikke — hjernen husker det uvanlige. «En blå elefant som sjonglerer med kaktuser oppå et piano» blir sittende. «Noen ord om dyr og musikk» gjør det ikke.",
+	"memorize_seed_technique_p4": "<strong>Bruk et minnepalass.</strong> Se for deg et sted du kjenner godt — kjøkkenet ditt, veien til jobb, soverommet ditt fra barndommen. Plasser hvert ord ved et bestemt landemerke. Gå stien mentalt for å huske rekkefølgen.",
+	"memorize_seed_technique_p5": "<strong>Rim det eller syng det.</strong> Velg en melodi du allerede kan, og pass ordene inn i rytmen. Sanger setter seg fast.",
+	"memorize_seed_technique_p6": "Velg den metoden som føles naturlig. De fleste ender opp med å kombinere to — biter pluss en historie, eller et minnepalass satt til en melodi. Velg det som fungerer best for deg.",
+
+	"memorize_seed_repetition_heading": "Gjør repetisjon til en del av dagen din",
+	"memorize_seed_repetition_p1": "Trikset ligger i mengde, ikke innsats. Knytt repetisjonen din til noe du allerede gjør hver dag, og repetisjonene hoper seg opp uten at du tenker på det.",
+	"memorize_seed_repetition_p2": "Å pusse tennene to ganger om dagen blir til fjorten repetisjoner i uka. Lage middag. Lufte hunden. Kjøre til jobb. Sovne. Dusjen. Velg én eller to rutiner og la ordene haike med.",
+	"memorize_seed_repetition_p3": "Gå gjennom dem inni hodet — i stillhet, med lukkede lepper. Ikke hvisk. Ikke beveg munnen. Hele poenget er at ingen kan se at du gjør det.",
+	"memorize_seed_repetition_p4": "Etter et par uker slutter ordene å være noe du må huske, og blir noe du rett og slett kan. Hold rutinen gående i en måned eller to slik at det faktisk fester seg. Stikk innom én gang i uka etterpå for å holde det friskt.",
+
+	"memorize_seed_test_heading": "Test deg selv uten å etterlate spor",
+	"memorize_seed_test_p1": "Én gang i uka — bevis for deg selv at du faktisk kan frasen. Hukommelsen er lur — den kan føles kjent uten å være korrekt.",
+	"memorize_seed_test_p2": "<strong>Finn et privat sted</strong> uten kameraer som peker mot deg, inkludert webkameraet på din egen laptop. Lås døren. Trekk for gardinene.",
+	"memorize_seed_test_p3": "<strong>Skriv ordene på papir</strong>, i riktig rekkefølge. Sammenlign dem med den fysiske sikkerhetskopien din, ikke med hukommelsen din. Hele poenget er å fange en feil hukommelsen ikke ser.",
+	"memorize_seed_test_p4": "<strong>Ødelegg papiret fullstendig.</strong> Makuler det. Brenn det. Ikke kast hele arket i en søppelkurv. Hvis du bommet på noen ord, kjør noen ekstra runder med rutinemessig repetisjon og prøv igjen neste uke.",
+
+	"memorize_seed_dont_rely_heading": "Ikke stol på hukommelsen alene",
+	"memorize_seed_dont_rely_p1": "Hukommelsen er pålitelig helt til den ikke er det. Stress, alder, sykdom, hodeskade, eller bare et langt nok opphold mellom repetisjonene kan slette en frase. Det finnes ingen «forgot password»-lenke for Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Behandle memorering som en parallell sikkerhetskopi. Den fysiske sikkerhetskopien er fundamentet. Versjonen i hodet ditt er redundansen. Hvis en katastrofe tar fundamentet, er det redundansen som får deg trygt hjem.",
+	"memorize_seed_dont_rely_p3": "De eneste situasjonene som rettferdiggjør oppbevaring i hukommelsen alene, er ekstreme: å flykte fra en krigssone, å unnslippe autoritær forfølgelse, å krysse en grense med verdier som ville blitt konfiskert. Og selv da er det lurt å lage en ny fysisk sikkerhetskopi så snart du er på et trygt sted.",
+
+	"memorize_seed_card_wallets_label": "Sett det opp riktig",
+	"memorize_seed_card_wallets_title": "Generer gjenopprettingsfrasen din på en ekte Bitcoin-lommebok",
+	"memorize_seed_card_wallets_source": "Kilde: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonisk kode for generering av deterministiske nøkler",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

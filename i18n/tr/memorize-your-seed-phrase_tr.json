@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "tr"
+	},
+	"memorize_seed_page_title": "Bitcoin'i Beyninizde Nasıl Saklarsınız",
+	"memorize_seed_page_description": "Bitcoin kurtarma ifadenizi görünmez bir yedek olarak güvenle nasıl ezberleyebilirsiniz. Pratik teknikler, güvenlik kuralları ve neden ezberlemenin nadiren tek yedeğiniz olması gerektiği.",
+	"memorize_seed_h1_title": "Bitcoin'i beyninizde saklamak: sizinle her yere giden görünmez bir yedek",
+
+	"memorize_seed_intro_heading": "Kimsenin göremediği bir yedek",
+	"memorize_seed_intro_p1": "Kurtarma ifadeniz, Bitcoin'inizin ana anahtarıdır. Çoğu insan onu kağıda veya çeliğe yedekler. Ezberleme, üzerine ekleyebileceğiniz bir yedek katmanıdır.",
+	"memorize_seed_intro_p2": "Görünmez. Ağırlıksız. Yalnızca sizin tarafınızdan bilinir. Hiçbir yangın, hırsızlık veya sınır kontrolü onu sizden alamaz.",
+	"memorize_seed_intro_p3": "Hemen herkes için ezberleme, fiziksel bir yedeğin yerine değil üzerine eklenmelidir. Bu konuda daha fazlası ileride.",
+
+	"memorize_seed_not_brain_wallet_heading": "Bu bir \"beyin cüzdanı\" değildir",
+	"memorize_seed_callout_good_label": "Bir kurtarma ifadesini ezberlemek",
+	"memorize_seed_callout_good_desc": "Bir donanım cüzdanı tarafından oluşturulan kelimeler. Yüksek entropi. Kafanızda bir kopyasını saklamak güvenlidir.",
+	"memorize_seed_callout_bad_label": "Beyin cüzdanı",
+	"memorize_seed_callout_bad_desc": "Kendi uydurduğunuz bir paroladan türetilen anahtar. Kırılmış. Saniyeler içinde boşaltılır.",
+	"memorize_seed_not_brain_wallet_p1_a": "Bitcoin'in ilk günlerinde insanlar, kendi uydurdukları parolalardan özel anahtarlar üretmeyi denediler. Bu yönteme",
+	"memorize_seed_not_brain_wallet_p1_b": "beyin cüzdanı",
+	"memorize_seed_not_brain_wallet_p1_c": "deniyordu ve tam bir felaketti. Hackerlar, yaygın paroları tahmin eden betikler yazdı ve cüzdanları saniyeler içinde boşalttı.",
+	"memorize_seed_not_brain_wallet_p2": "Burada ezberlediğiniz şey farklıdır. Kelimeler bir donanım cüzdanının rastgelelik kaynağından gelir, hayal gücünüzden değil. Bunlar bir betiğin tahmin edebileceği şeyler değildir.",
+	"memorize_seed_not_brain_wallet_p3": "Kurtarma ifadeniz yüksek entropilidir. Kafanızda bir kopyasını saklamak onu zayıflatmaz. Sadece başka bir yerde de saklamış olursunuz.",
+
+	"memorize_seed_when_helpful_heading": "Ezberleme ne zaman yardımcı olur",
+	"memorize_seed_when_helpful_p1": "Ezberleme, fiziksel yedekler başarısız olduğunda parlar. Doğal bir afet evinizi ve içindeki çelik plakayı yok eder. Sel. Yangın. Tahliye. Hırsızlık. Servet gibi görünen hiçbir şey taşıyamayacağınız bir sınır geçişi.",
+	"memorize_seed_when_helpful_p2": "Kısa vadede de yardımcı olur. Yedeksiz seyahat etmek, cüzdanınızı dünyanın herhangi bir yerinden geri yükleyebildiğinizde çok daha az stresli olur.",
+	"memorize_seed_when_helpful_p3": "Ve bir yedeklilik katmanı daha sağlar. Aynı hafta içinde sel, yangın ve hırsızlık birlikte gelirse, sizi eve döndürecek olan ezberlediğiniz versiyondur.",
+
+	"memorize_seed_rules_heading": "Önce güvenlik kurallarını belirleyin",
+	"memorize_seed_rules_p1": "Bir şeyi ezberlemeden önce temel kuralları sağlamlaştırın. Kurtarma ifadeniz nihai paroladır — onu ne pahasına olursa olsun koruyun.",
+	"memorize_seed_rules_p2": "<strong>Bunu gerçek bir Bitcoin cüzdanında oluşturun,</strong> güvenmediğiniz bir web sitesinde veya telefon uygulamasında değil. Tüm bu çalışma, kelimelerin gerçek bir rastgelelik kaynağından gelmesine dayanır.",
+	"memorize_seed_rules_p3": "<strong>En az bir fiziksel yedek bulundurun.</strong> Birden fazla güvenli yerde kağıt veya çelik. Ezberleme bunun üzerine eklenir — yerine değil.",
+	"memorize_seed_rules_p4": "<strong>Kelimeleri asla sesli söylemeyin.</strong> Kendinize bile söylemeyin, fısıltıyla bile. Telefonlar ve sesli asistanlar düşündüğünüzden çok daha fazlasını duyar.",
+	"memorize_seed_rules_p5": "<strong>Onları hiçbir şeye yazmayın.</strong> Not uygulamasına yok, e-tabloya yok, şifreli nota yok, \"sadece test etmek için\" bile yok. Herhangi bir klavyeyi veya ekranı halka açık bir yayın olarak düşünün.",
+	"memorize_seed_rules_p6": "<strong>Gözden geçirirken yalnız çalışın.</strong> Kapıyı kapatın. Size doğru yönlendirilmiş kameraları örtün — dizüstü bilgisayarınızın web kamerası dahil. Perdeleri çekin. Gözden geçirmeyi bıraktığınız anda kelimeleri tekrar saklamaya koyun.",
+
+	"memorize_seed_technique_heading": "Kurtarma ifadenizi nasıl ezberlersiniz",
+	"memorize_seed_technique_p1": "Rastgele kelimeleri hatırlamak bir cümleyi hatırlamaktan daha zordur, ancak göründüğünden daha kolaydır. Kurtarma ifadeleri tipik olarak cüzdanınıza ve ayarlarına bağlı olarak on iki veya yirmi dört kelimedir. Her iki sayı da ona bir ritim verirseniz bir ritmi takip eder.",
+	"memorize_seed_technique_p2": "<strong>İfadeyi bölün.</strong> On iki kelime, dörderli üç gruba veya üçerli dört gruba düzgünce bölünür. Yirmi dört kelime, altışarlı dört grup veya dörderli altı grup olur. Daha küçük gruplar belleğe daha kolay yerleşir.",
+	"memorize_seed_technique_p3": "<strong>Bir hikaye kurun.</strong> Her parça canlı küçük bir sahne olur. Onları tuhaf ve özel yapın — beyin sıradışı olanı hatırlar. \"Bir piyanonun üstünde kaktüsleri hokkabazlık eden mavi bir fil\" yerleşir. \"Hayvanlar ve müzik hakkında bazı kelimeler\" yerleşmez.",
+	"memorize_seed_technique_p4": "<strong>Bir bellek sarayı kullanın.</strong> İyi bildiğiniz bir yeri hayal edin — mutfağınız, işe gidiş yolunuz, çocukluk yatak odanız. Her kelimeyi belirli bir noktaya yerleştirin. Sırayı hatırlamak için yolu zihninizde yürüyün.",
+	"memorize_seed_technique_p5": "<strong>Kafiye yapın veya şarkı söyleyin.</strong> Zaten bildiğiniz bir melodi seçin ve kelimeleri ritme oturtun. Şarkılar akılda kalıcıdır.",
+	"memorize_seed_technique_p6": "Hangi yöntem size doğal geliyorsa onu seçin. Çoğu insan ikisini birleştirir — parçalar ve hikaye, ya da bir melodiye uyarlanmış bir bellek sarayı. Sizin için en iyi olan ne ise onu seçin.",
+
+	"memorize_seed_repetition_heading": "Tekrarı gününüzün bir parçası yapın",
+	"memorize_seed_repetition_p1": "İşin sırrı çabada değil, hacimdedir. Gözden geçirmenizi her gün zaten yaptığınız bir şeye bağlayın, tekrarlar siz farkında bile olmadan birikecek.",
+	"memorize_seed_repetition_p2": "Günde iki kez diş fırçalamak haftada on dört gözden geçirmedir. Akşam yemeği pişirmek. Köpeği gezdirmek. İşe gitmek. Uykuya dalmak. Duş. Bir veya iki rutin seçin ve kelimelerin onlara eşlik etmesine izin verin.",
+	"memorize_seed_repetition_p3": "Onları kafanızda geçirin — sessizce, dudaklar kapalı. Fısıldamayın. Ağzınızı oynatmayın. Bütün mesele kimsenin bunu yaptığınızı anlayamamasıdır.",
+	"memorize_seed_repetition_p4": "Birkaç hafta sonra kelimeler hatırlamanız gereken bir şey olmaktan çıkıp basitçe bildiğiniz bir şey olmaya başlar. Gerçekten yerleşmesi için rutini bir veya iki ay sürdürün. Ondan sonra tazeliğini korumak için haftada bir kez uğrayın.",
+
+	"memorize_seed_test_heading": "İz bırakmadan kendinizi test edin",
+	"memorize_seed_test_p1": "Haftada bir kez, ifadeyi gerçekten bildiğinizi kendinize kanıtlayın. Bellek sinsidir — doğru olmadan tanıdık hissedebilir.",
+	"memorize_seed_test_p2": "<strong>Size yönelik kameraların olmadığı özel bir yer bulun</strong>, kendi dizüstü bilgisayarınızın web kamerası dahil. Kapıyı kilitleyin. Perdeleri çekin.",
+	"memorize_seed_test_p3": "<strong>Kelimeleri kağıda yazın</strong>, sırayla. Onları belleğinizle değil, fiziksel yedeğinizle karşılaştırın. Bütün mesele, belleğinizin göremediği bir hatayı yakalamaktır.",
+	"memorize_seed_test_p4": "<strong>Kağıdı tamamen yok edin.</strong> Parçalayın. Yakın. Tüm sayfayı çöp kutusuna atmayın. Herhangi bir kelimeyi atladıysanız, birkaç ekstra rutin gözden geçirme turu yapın ve bir sonraki hafta tekrar deneyin.",
+
+	"memorize_seed_dont_rely_heading": "Yalnızca belleğe güvenmeyin",
+	"memorize_seed_dont_rely_p1": "Bellek, olmayana kadar güvenilirdir. Stres, yaş, hastalık, kafa travması veya gözden geçirmeler arasında yeterince uzun bir aralık bir ifadeyi silebilir. Bitcoin için \"şifremi unuttum\" bağlantısı yoktur.",
+	"memorize_seed_dont_rely_p2": "Ezberlemeyi paralel bir yedek olarak ele alın. Fiziksel yedeğiniz temeldir. Kafanızdaki versiyon yedekliliktir. Bir felaket temeli yok ederse, yedeklilik sizi eve döndürür.",
+	"memorize_seed_dont_rely_p3": "Yalnızca belleğe dayalı saklamayı haklı çıkaran tek durumlar uç durumlardır: bir savaş bölgesinden kaçmak, otoriter zulümden kurtulmak, el konulacak varlıklarla bir sınırı geçmek. Ve o zaman bile, güvenli bir yere ulaştığınızda yeni bir fiziksel yedek oluşturmak iyi bir fikirdir.",
+
+	"memorize_seed_card_wallets_label": "Doğru şekilde kurun",
+	"memorize_seed_card_wallets_title": "Kurtarma ifadenizi gerçek bir Bitcoin cüzdanında oluşturun",
+	"memorize_seed_card_wallets_source": "Kaynak: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Deterministik anahtarlar üretmek için anımsatıcı kod",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

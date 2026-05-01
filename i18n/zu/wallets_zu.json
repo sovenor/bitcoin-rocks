@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "zu"
 	},
 	"bitcoin_wallet_guide": "Umhlahlandlela Wesikhwama se-Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware wallet",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardware wallet",
 	"sources_passport": "Foundation Devices — Passport hardware wallet",
-	"sources_seedsigner": "SeedSigner — Open-source DIY Bitcoin signing device"
+	"sources_seedsigner": "SeedSigner — Open-source DIY Bitcoin signing device",
+	"wallets_s6_c4b_a": "Ngokwesigaba esengeziwe sokuvikeleka, ungakwazi futhi",
+	"wallets_s6_c4b_b": "ukubamba ngenhloko umushwana wakho wokubuyisa",
+	"wallets_s6_c4b_c": "njengesipele esingabonakali esihamba nawe."
 }

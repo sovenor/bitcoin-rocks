@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "id"
+	},
+	"memorize_seed_page_title": "Cara Menyimpan Bitcoin di Otak Anda",
+	"memorize_seed_page_description": "Cara menghafal frase pemulihan Bitcoin Anda dengan aman sebagai cadangan tak terlihat. Teknik praktis, aturan keamanan, dan mengapa hafalan jarang boleh menjadi satu-satunya cadangan Anda.",
+	"memorize_seed_h1_title": "Cara menyimpan Bitcoin di otak Anda: cadangan tak terlihat yang ikut ke mana pun Anda pergi",
+
+	"memorize_seed_intro_heading": "Cadangan yang tidak bisa dilihat siapa pun",
+	"memorize_seed_intro_p1": "Frase pemulihan Anda adalah kunci utama Bitcoin Anda. Kebanyakan orang mencadangkannya di kertas atau plat baja. Hafalan adalah satu cadangan tambahan yang dapat Anda lapis di atasnya.",
+	"memorize_seed_intro_p2": "Tak terlihat. Tanpa bobot. Hanya Anda yang tahu. Tidak ada kebakaran, perampokan, atau pemeriksaan perbatasan yang dapat mengambilnya dari Anda.",
+	"memorize_seed_intro_p3": "Bagi hampir semua orang, hafalan adalah pelengkap di atas cadangan fisik, bukan pengganti. Lebih lanjut tentang itu nanti.",
+
+	"memorize_seed_not_brain_wallet_heading": "Ini bukan \"brain wallet\"",
+	"memorize_seed_callout_good_label": "Menghafal frase pemulihan",
+	"memorize_seed_callout_good_desc": "Kata-kata yang dihasilkan oleh dompet perangkat keras. Entropi tinggi. Aman untuk menyimpan salinannya di kepala Anda.",
+	"memorize_seed_callout_bad_label": "Brain wallet",
+	"memorize_seed_callout_bad_desc": "Kunci yang diturunkan dari frase sandi yang Anda buat sendiri. Rusak. Dikuras dalam hitungan detik.",
+	"memorize_seed_not_brain_wallet_p1_a": "Pada masa-masa awal Bitcoin, orang bereksperimen dengan menghasilkan kunci pribadi dari frase sandi yang mereka buat sendiri. Metode ini disebut",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "dan hasilnya adalah bencana. Peretas menulis skrip untuk menebak frase sandi yang umum dan menguras dompet dalam hitungan detik.",
+	"memorize_seed_not_brain_wallet_p2": "Apa yang Anda hafalkan di sini berbeda. Kata-katanya berasal dari sumber keacakan dompet perangkat keras, bukan dari imajinasi Anda. Itu bukan sesuatu yang dapat ditebak oleh skrip.",
+	"memorize_seed_not_brain_wallet_p3": "Frase pemulihan Anda memiliki entropi tinggi. Menyimpan salinannya di kepala Anda tidak melemahkannya. Itu hanya menyimpannya di tempat lain.",
+
+	"memorize_seed_when_helpful_heading": "Kapan hafalan membantu",
+	"memorize_seed_when_helpful_p1": "Hafalan bersinar ketika cadangan fisik gagal. Bencana alam menghancurkan rumah Anda dan plat baja di dalamnya. Banjir. Kebakaran. Evakuasi. Pencurian. Penyeberangan perbatasan di mana Anda tidak dapat membawa apa pun yang terlihat seperti kekayaan.",
+	"memorize_seed_when_helpful_p2": "Ini juga membantu untuk jangka pendek. Bepergian tanpa cadangan jauh lebih tidak menegangkan ketika Anda dapat memulihkan dompet Anda dari mana saja di dunia.",
+	"memorize_seed_when_helpful_p3": "Dan itu adalah satu lapisan redundansi tambahan. Jika banjir, kebakaran, dan pencuri semuanya datang dalam minggu yang sama, versi yang Anda hafalkanlah yang membawa Anda pulang.",
+
+	"memorize_seed_rules_heading": "Tetapkan aturan keamanan terlebih dahulu",
+	"memorize_seed_rules_p1": "Sebelum Anda menghafal apa pun, kunci dasar-dasarnya. Frase pemulihan Anda adalah kata sandi paling utama — lindungi dengan segala cara.",
+	"memorize_seed_rules_p2": "<strong>Hasilkan di dompet Bitcoin asli,</strong> bukan di situs web atau aplikasi ponsel yang tidak Anda percayai. Seluruh latihan ini bergantung pada kata-kata yang berasal dari sumber keacakan yang nyata.",
+	"memorize_seed_rules_p3": "<strong>Simpan setidaknya satu cadangan fisik.</strong> Kertas atau baja, di lebih dari satu tempat aman. Hafalan adalah pelengkap di atas ini — bukan pengganti.",
+	"memorize_seed_rules_p4": "<strong>Jangan pernah mengucapkan kata-katanya dengan keras.</strong> Tidak kepada diri sendiri, tidak juga berbisik. Ponsel dan asisten suara mendengar lebih banyak daripada yang Anda kira.",
+	"memorize_seed_rules_p5": "<strong>Jangan pernah mengetiknya ke mana pun.</strong> Tidak ke aplikasi catatan, tidak ke spreadsheet, tidak ke catatan terenkripsi, tidak juga \"hanya untuk mengujinya\". Anggap setiap keyboard atau layar sebagai siaran publik.",
+	"memorize_seed_rules_p6": "<strong>Bekerja secara pribadi saat meninjau.</strong> Tutup pintu. Tutup kamera mana pun yang mengarah ke Anda — termasuk webcam laptop Anda. Tarik tirai. Kembalikan kata-katanya ke tempat penyimpanan begitu Anda berhenti meninjau.",
+
+	"memorize_seed_technique_heading": "Cara menghafal frase pemulihan Anda",
+	"memorize_seed_technique_p1": "Kata-kata acak lebih sulit diingat daripada kalimat, tetapi lebih mudah daripada yang terlihat. Frase pemulihan biasanya berisi dua belas atau dua puluh empat kata tergantung pada dompet Anda dan pengaturannya. Jumlah keduanya dapat mengikuti irama jika Anda memberinya satu.",
+	"memorize_seed_technique_p2": "<strong>Pecah frase menjadi beberapa bagian.</strong> Dua belas kata terbagi rapi menjadi tiga kelompok empat, atau empat kelompok tiga. Dua puluh empat kata menjadi empat kelompok enam atau enam kelompok empat. Kelompok yang lebih kecil lebih mudah dikunci.",
+	"memorize_seed_technique_p3": "<strong>Bangun sebuah cerita.</strong> Setiap bagian menjadi adegan kecil yang hidup. Buatlah aneh dan spesifik — otak mengingat hal-hal yang tidak biasa. \"Seekor gajah biru yang menjuggling kaktus di atas piano\" akan tersangkut. \"Beberapa kata tentang hewan dan musik\" tidak.",
+	"memorize_seed_technique_p4": "<strong>Gunakan istana memori.</strong> Bayangkan tempat yang sangat Anda kenal — dapur Anda, rute ke kantor, kamar masa kecil Anda. Tempatkan setiap kata pada penanda tertentu. Berjalanlah di jalur itu secara mental untuk mengingat urutannya.",
+	"memorize_seed_technique_p5": "<strong>Buat berima atau nyanyikan.</strong> Pilih lagu yang sudah Anda kenal dan sesuaikan kata-katanya dengan iramanya. Lagu itu lengket di kepala.",
+	"memorize_seed_technique_p6": "Pilih metode mana pun yang terasa alami. Kebanyakan orang akhirnya menggabungkan dua — pengelompokan ditambah cerita, atau istana memori yang disetel ke sebuah lagu. Pilih apa pun yang paling cocok untuk Anda.",
+
+	"memorize_seed_repetition_heading": "Jadikan pengulangan bagian dari hari Anda",
+	"memorize_seed_repetition_p1": "Kuncinya adalah jumlah, bukan usaha. Kaitkan tinjauan Anda dengan sesuatu yang sudah Anda lakukan setiap hari, dan pengulangannya akan menumpuk tanpa Anda memikirkannya.",
+	"memorize_seed_repetition_p2": "Menyikat gigi dua kali sehari adalah empat belas tinjauan dalam seminggu. Memasak makan malam. Berjalan dengan anjing. Berkendara ke kantor. Menjelang tidur. Saat mandi. Pilih satu atau dua rutinitas dan biarkan kata-kata itu ikut serta.",
+	"memorize_seed_repetition_p3": "Lewati semuanya di kepala Anda — dalam hati, mulut tertutup. Jangan berbisik. Jangan menggerakkan mulut. Intinya adalah agar tidak ada yang tahu Anda sedang melakukannya.",
+	"memorize_seed_repetition_p4": "Setelah beberapa minggu, kata-katanya berhenti menjadi sesuatu yang harus Anda ingat dan mulai menjadi sesuatu yang sekadar Anda ketahui. Pertahankan rutinitas itu selama satu atau dua bulan agar benar-benar melekat. Lakukan sekali seminggu setelah itu untuk menjaganya tetap segar.",
+
+	"memorize_seed_test_heading": "Uji diri Anda tanpa meninggalkan jejak",
+	"memorize_seed_test_p1": "Sekali seminggu, buktikan kepada diri sendiri bahwa Anda benar-benar mengetahui frasenya. Memori itu licik — bisa terasa familiar tanpa benar-benar akurat.",
+	"memorize_seed_test_p2": "<strong>Cari tempat yang pribadi</strong> tanpa kamera yang mengarah ke Anda, termasuk webcam laptop Anda sendiri. Kunci pintu. Tarik tirai.",
+	"memorize_seed_test_p3": "<strong>Tulis kata-katanya di atas kertas</strong>, sesuai urutan. Bandingkan dengan cadangan fisik Anda, bukan dengan ingatan Anda. Intinya adalah menangkap kesalahan yang tidak dapat dilihat oleh ingatan Anda.",
+	"memorize_seed_test_p4": "<strong>Hancurkan kertasnya sepenuhnya.</strong> Cabik-cabik. Bakar. Jangan membuang seluruh lembaran ke keranjang sampah. Jika ada kata yang terlewat, lakukan beberapa putaran tinjauan rutin tambahan dan coba lagi minggu depan.",
+
+	"memorize_seed_dont_rely_heading": "Jangan hanya mengandalkan ingatan",
+	"memorize_seed_dont_rely_p1": "Ingatan dapat diandalkan sampai tidak. Stres, usia, penyakit, cedera kepala, atau sekadar jeda yang cukup panjang antara tinjauan dapat menghapus sebuah frase. Tidak ada tautan \"lupa kata sandi\" untuk Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Perlakukan hafalan sebagai cadangan paralel. Cadangan fisik Anda adalah fondasinya. Versi di kepala Anda adalah redundansinya. Jika bencana menghancurkan fondasinya, redundansi itulah yang membawa Anda pulang.",
+	"memorize_seed_dont_rely_p3": "Satu-satunya situasi yang membenarkan penyimpanan hanya di ingatan adalah situasi ekstrem: melarikan diri dari zona perang, menghindari penindasan otoriter, menyeberangi perbatasan dengan aset yang akan disita. Dan bahkan dalam situasi itu, sebaiknya Anda membuat cadangan fisik baru begitu berada di lokasi yang aman.",
+
+	"memorize_seed_card_wallets_label": "Atur dengan benar",
+	"memorize_seed_card_wallets_title": "Hasilkan frase pemulihan Anda di dompet Bitcoin asli",
+	"memorize_seed_card_wallets_source": "Sumber: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonic code for generating deterministic keys",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

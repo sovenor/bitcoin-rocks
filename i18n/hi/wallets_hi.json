@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "hi"
 	},
 	"bitcoin_wallet_guide": "Bitcoin वॉलेट गाइड",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 हार्डवेयर वॉलेट",
 	"sources_coldcard_q": "Coinkite — Coldcard Q हार्डवेयर वॉलेट",
 	"sources_passport": "Foundation Devices — Passport हार्डवेयर वॉलेट",
-	"sources_seedsigner": "SeedSigner — बिटकॉइन लेन-देन के लिए DIY ओपन-सोर्स साइनिंग डिवाइस"
+	"sources_seedsigner": "SeedSigner — बिटकॉइन लेन-देन के लिए DIY ओपन-सोर्स साइनिंग डिवाइस",
+	"wallets_s6_c4b_a": "अधिक मज़बूती की एक और परत के लिए, आप",
+	"wallets_s6_c4b_b": "अपने सीड फ़्रेज़ को याद भी कर सकते हैं",
+	"wallets_s6_c4b_c": "एक अदृश्य बैकअप के रूप में जो आपके साथ हर जगह जाता है।"
 }

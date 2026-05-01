@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "nl"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Wallet Gids",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardwarewallet",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardwarewallet",
 	"sources_passport": "Foundation Devices — Passport hardwarewallet",
-	"sources_seedsigner": "SeedSigner — opensource doe-het-zelf-apparaat voor het signeren van Bitcoin-transacties"
+	"sources_seedsigner": "SeedSigner — opensource doe-het-zelf-apparaat voor het signeren van Bitcoin-transacties",
+	"wallets_s6_c4b_a": "Voor nog een extra laag veerkracht kun je ook",
+	"wallets_s6_c4b_b": "je herstelzin uit je hoofd leren",
+	"wallets_s6_c4b_c": "als een onzichtbare back-up die altijd met je meereist."
 }

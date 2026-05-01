@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "sl"
 	},
 	"bitcoin_wallet_guide": "Vodič po bitcoinovih denarnicah",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — strojna denarnica Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — strojna denarnica Coldcard Q",
 	"sources_passport": "Foundation Devices — strojna denarnica Passport",
-	"sources_seedsigner": "SeedSigner — odprtokodna naredi-sam naprava za podpisovanje Bitcoin transakcij"
+	"sources_seedsigner": "SeedSigner — odprtokodna naredi-sam naprava za podpisovanje Bitcoin transakcij",
+	"wallets_s6_c4b_a": "Za še eno plast odpornosti si lahko tudi",
+	"wallets_s6_c4b_b": "zapomnite svojo obnovitveno frazo",
+	"wallets_s6_c4b_c": "kot nevidno varnostno kopijo, ki potuje z vami."
 }

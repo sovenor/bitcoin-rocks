@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ny"
+	},
+	"memorize_seed_page_title": "Momwe Mungasungire Bitcoin Mubongo Mwanu",
+	"memorize_seed_page_description": "Momwe mungasungire mawu anu obwezeretsa a Bitcoin mubongo mwanu motetezeka ngati chosungira chosaoneka. Njira zothandiza, malamulo achitetezo, ndi chifukwa chake kusunga mubongo sikuyenera kukhala chosungira chanu chokha.",
+	"memorize_seed_h1_title": "Momwe mungasungire Bitcoin mubongo mwanu: chosungira chosaoneka chomwe chimayenda nanu kulikonse",
+
+	"memorize_seed_intro_heading": "Chosungira chimene wina aliyense sangachione",
+	"memorize_seed_intro_p1": "Mawu anu obwezeretsa ndi kiyi yayikulu ya Bitcoin yanu. Anthu ambiri amawasunga papepala kapena pa chitsulo. Kusunga mubongo ndi chosungira china chimene mungawonjezere pamwamba pa zinazo.",
+	"memorize_seed_intro_p2": "Chosaoneka. Chopanda kulemera. Chimene inu nokha mukudziwa. Palibe moto, palibe kuba, palibe kafukufuku wa malire amene angakuchotsereni.",
+	"memorize_seed_intro_p3": "Kwa pafupifupi aliyense, kusunga mubongo kuyenera kukhala pamwamba pa chosungira chooneka, osati m'malo mwake. Tikambirana zambiri pansipa.",
+
+	"memorize_seed_not_brain_wallet_heading": "Ichi si \"chikwama cha bongo\"",
+	"memorize_seed_callout_good_label": "Kusunga mawu obwezeretsa mubongo",
+	"memorize_seed_callout_good_desc": "Mawu opangidwa ndi chikwama cha hardware. Achisawawa kwambiri. Otetezeka kusunga kope mubongo mwanu.",
+	"memorize_seed_callout_bad_label": "Chikwama cha bongo",
+	"memorize_seed_callout_bad_desc": "Kiyi yochokera ku mawu omwe inu munadzipangira nokha. Yowonongeka. Imatayidwa pa masekondi ochepa.",
+	"memorize_seed_not_brain_wallet_p1_a": "M'masiku oyambirira a Bitcoin, anthu adayesa kupanga makiyi achinsinsi kuchokera ku mawu omwe iwo adadzipangira okha. Njira imeneyi imatchedwa",
+	"memorize_seed_not_brain_wallet_p1_b": "chikwama cha bongo,",
+	"memorize_seed_not_brain_wallet_p1_c": "ndipo zinali zoopsa kwambiri. Akuba adalemba mapulogalamu olosera mawu odziwika ndipo adatayiritsa zikwama pa masekondi ochepa.",
+	"memorize_seed_not_brain_wallet_p2": "Chimene mukusunga mubongo apa ndi chosiyana. Mawu adachokera ku gwero la kusawawa la chikwama cha hardware, osati ku malingaliro anu. Sangaloseledwe ndi pulogalamu iliyonse.",
+	"memorize_seed_not_brain_wallet_p3": "Mawu anu obwezeretsa ndi a kusawawa kwambiri. Kusunga kope mubongo mwanu sikuwafooketsa. Kungowasunga m'malo ena.",
+
+	"memorize_seed_when_helpful_heading": "Pamene kusunga mubongo kumathandiza",
+	"memorize_seed_when_helpful_p1": "Kusunga mubongo kumathandiza pamene zosungira zooneka zilephera. Tsoka lachilengedwe limawononga nyumba yanu ndi mbale ya chitsulo mkati mwake. Chigumula. Moto. Kuthawa. Kuba. Kuwoloka malire pomwe simungatengere chilichonse chooneka ngati chuma.",
+	"memorize_seed_when_helpful_p2": "Kumathandizanso kwa nthawi yochepa. Kuyenda popanda chosungira sichikupsetsa mtima kwambiri pamene mungathe kupezanso chikwama chanu kulikonse padziko lapansi.",
+	"memorize_seed_when_helpful_p3": "Ndipo ndi chosungira china chowonjezera. Ngati chigumula, moto, ndi mbala zonse zigunda mlungu umodzi, kope yomwe muli nayo mubongo ndi imene idzakubwezeretsani kunyumba.",
+
+	"memorize_seed_rules_heading": "Yambani ndi malamulo achitetezo",
+	"memorize_seed_rules_p1": "Musanaye kusunga chilichonse mubongo, khazikitsani maziko. Mawu anu obwezeretsa ndi mawu achinsinsi apamwamba kwambiri — atetezeni mwamtengo wapatali.",
+	"memorize_seed_rules_p2": "<strong>Pangani pa chikwama choona cha Bitcoin,</strong> osati pa webusayiti kapena pulogalamu ya foni yomwe simukuyikhulupilira. Ntchito yonseyi imadalira mawu ochokera ku gwero la kusawawa kwenikweni.",
+	"memorize_seed_rules_p3": "<strong>Sungani chosungira chooneka chimodzi.</strong> Pepala kapena chitsulo, m'malo opitilira amodzi otetezeka. Kusunga mubongo ndi pamwamba pa izi — osati m'malo mwake.",
+	"memorize_seed_rules_p4": "<strong>Osayankhula mawuwa mokweza konse.</strong> Osayankhula nokha, ngakhale pamapfupi a mphuno. Mafoni ndi othandiza a mawu amamva kuposa zomwe mukuganiza.",
+	"memorize_seed_rules_p5": "<strong>Osawalemba pa chilichonse.</strong> Osati mu pulogalamu ya zolemba, osati mu spreadsheet, osati mu zolemba zobisika, osati \"chabe kuyesera.\" Onani kibodi iliyonse kapena chinsalu ngati chofalitsa poyera.",
+	"memorize_seed_rules_p6": "<strong>Gwirani ntchito mwa chinsinsi mukamayang'ananso.</strong> Tsekani chitseko. Phimbani makamera onse oyang'ana kwa inu — kuphatikiza kamera ya laputopu yanu. Tsekani mawindo. Bwezani mawuwo m'chosungira nthawi yomweyo mukasiya kuyang'ananso.",
+
+	"memorize_seed_technique_heading": "Momwe mungasungire mawu anu obwezeretsa mubongo",
+	"memorize_seed_technique_p1": "Mawu osawawa ndi ovuta kukumbukira kuposa ziganizo, koma ndi osavuta kuposa momwe mukuwaonera. Mawu obwezeretsa nthawi zambiri ali mawu khumi ndi awiri kapena makumi awiri ndi anayi malinga ndi chikwama chanu ndi makonzedwe ake. Chiwerengero chilichonse chimatsatira nyimbo ngati mungachipangire imodzi.",
+	"memorize_seed_technique_p2": "<strong>Gawani mawuwo m'magulu.</strong> Mawu khumi ndi awiri amagawanika bwino m'magulu atatu a mawu anayi, kapena magulu anayi a mawu atatu. Mawu makumi awiri ndi anayi amakhala magulu anayi a mawu asanu ndi limodzi kapena magulu asanu ndi limodzi a mawu anayi. Magulu ang'onoang'ono ndi osavuta kuwasunga.",
+	"memorize_seed_technique_p3": "<strong>Pangani nkhani.</strong> Gulu lililonse limasanduka chithunzi chochititsa chidwi. Pangani zachilendo komanso zenizeni — bongo umakumbukira zachilendo. \"Njovu yabuluu yosewera ndi minga ya nzimbe pamwamba pa piyano\" imakhalabe. \"Mawu ena okhudza nyama ndi nyimbo\" sikhala.",
+	"memorize_seed_technique_p4": "<strong>Gwiritsani ntchito nyumba ya kukumbukira.</strong> Ganizirani malo amene mukuwadziwa bwino — khichini yanu, njira yopita kuntchito, chipinda chanu cha ubwana. Yikani mawu aliwonse pa malo apadera. Yendani njirayo m'maganizo kuti mukumbukire ndondomeko.",
+	"memorize_seed_technique_p5": "<strong>Pangani nyimbo kapena imbani.</strong> Sankhani nyimbo yomwe mukuyidziwa kale ndipo gwirizanitsani mawuwo ndi rhythm yake. Nyimbo zimakakamira.",
+	"memorize_seed_technique_p6": "Sankhani njira iliyonse yomwe imakukomerani. Anthu ambiri amaphatikiza ziwiri — magulu ndi nkhani, kapena nyumba ya kukumbukira ndi nyimbo. Sankhani chomwe chikukuthandizani kwambiri.",
+
+	"memorize_seed_repetition_heading": "Pangani kubwerezabwereza kukhala mbali ya tsiku lanu",
+	"memorize_seed_repetition_p1": "Chinsinsi ndi chiwerengero, osati khama. Lumikizani kuyang'ananso kwanu ndi chinthu chimene mumachita tsiku ndi tsiku, ndipo kuchuluka kumawonjezeka popanda kuganiza za icho.",
+	"memorize_seed_repetition_p2": "Kutsuka mano kawiri patsiku ndi kuyang'ananso khumi ndi zinayi pa mlungu. Kuphika chakudya cha madzulo. Kuyenda ndi galu. Kupita kuntchito. Kugona. Mu shawa. Sankhani chimodzi kapena ziwiri zomwe mumachita ndipo zilolezeni mawuwo apite nawo.",
+	"memorize_seed_repetition_p3": "Wapititsani m'maganizo mwanu — mwakachetechete, milomo yotsekedwa. Osanong'oneza. Osasuntha pakamwa panu. Cholinga ndi chakuti palibe amene angadziwe kuti mukuchita.",
+	"memorize_seed_repetition_p4": "Pakatha milungu ingapo, mawuwa siakhala chinthu chofunika kuwakumbukira ndipo amayamba kukhala chinthu chimene mumangochidziwa. Pitirizani mwambowu mwezi umodzi kapena awiri kuti ukhalebe. Kenako, ng'ambani kamodzi pa mlungu kuti zikhalebe zatsopano.",
+
+	"memorize_seed_test_heading": "Dziyese nokha popanda kusiya chizindikiro",
+	"memorize_seed_test_p1": "Kamodzi pa mlungu, dzitsimikizireni kuti mukudziwadi mawuwa. Kukumbukira ndi konyenga — kungamveke kodziwika popanda kukhala kolondola.",
+	"memorize_seed_test_p2": "<strong>Pezani malo achinsinsi</strong> opanda makamera oyang'ana kwa inu, kuphatikiza kamera ya laputopu yanu. Tsekani chitseko. Tsekani mawindo.",
+	"memorize_seed_test_p3": "<strong>Lembani mawuwa pa pepala</strong>, motsatira. Yerekezerani ndi chosungira chanu chooneka, osati ndi kukumbukira kwanu. Cholinga ndi kupeza zolakwika zomwe kukumbukira kwanu sikungazione.",
+	"memorize_seed_test_p4": "<strong>Wonongani pepalalo kotheratu.</strong> Lidulani. Liwotchani. Osaponya pepala lonse mu chimbudzi. Ngati mwaphonya mawu aliwonse, chitani magawo angapo owonjezera a kuyang'ananso ndipo yeserani kachiwiri mlungu wotsatira.",
+
+	"memorize_seed_dont_rely_heading": "Osadalira kukumbukira kokha",
+	"memorize_seed_dont_rely_p1": "Kukumbukira ndi kodalirika kufikira pamene sikodalirika. Kupsinjika maganizo, ukalamba, matenda, kuvulala kwa mutu, kapena nthawi yayitali pakati pa kuyang'ananso kungafafanitse mawuwo. Palibe ulalo wakuti \"ndayiwala mawu achinsinsi\" pa Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Onani kusunga mubongo ngati chosungira chofanana. Chosungira chanu chooneka ndi maziko. Kope ya mubongo mwanu ndi chowonjezera. Ngati tsoka liwononga maziko, chowonjezerachi chimakubwezeretsani kunyumba.",
+	"memorize_seed_dont_rely_p3": "Mikhalidwe yokha imene imalola kusunga mubongo kokha ndi yopitirira muyeso: kuthawa nkhondo, kuthawa kuzunzidwa kwa boma lankhanza, kuwoloka malire ndi chuma chomwe chikadalandidwa. Ngakhale apa, ndi bwino kupanga chosungira chatsopano chooneka mukafika pa malo otetezeka.",
+
+	"memorize_seed_card_wallets_label": "Khazikitsani molondola",
+	"memorize_seed_card_wallets_title": "Pangani mawu anu obwezeretsa pa chikwama choona cha Bitcoin",
+	"memorize_seed_card_wallets_source": "Gwero: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Khodi ya kukumbukira yopangira makiyi otsata ndondomeko",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — Kutuluka kwa Bongo wa Bitcoin: Kuwunika Kagwiritsidwe Ntchito ndi Kuvulaza kwa Zikwama za Bongo za Bitcoin (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

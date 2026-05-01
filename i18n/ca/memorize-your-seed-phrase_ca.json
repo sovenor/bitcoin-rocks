@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ca"
+	},
+	"memorize_seed_page_title": "Com guardar Bitcoin al cervell",
+	"memorize_seed_page_description": "Com aprendre la teva frase llavor de Bitcoin de memòria de manera segura com a còpia de seguretat invisible. Tècniques pràctiques, normes de seguretat i per què la memorització rarament hauria de ser la teva única còpia de seguretat.",
+	"memorize_seed_h1_title": "Com guardar Bitcoin al cervell: una còpia de seguretat invisible que t'acompanya allà on vagis",
+
+	"memorize_seed_intro_heading": "Una còpia de seguretat que ningú pot veure",
+	"memorize_seed_intro_p1": "La teva frase llavor és la clau mestra del teu Bitcoin. La majoria de la gent en fa una còpia de seguretat en paper o en acer. La memorització és una còpia de seguretat més que pots afegir a sobre.",
+	"memorize_seed_intro_p2": "Invisible. Sense pes. Coneguda només per tu. Cap incendi, cap robatori, cap control fronterer t'hi pot prendre.",
+	"memorize_seed_intro_p3": "Per a gairebé tothom, la memorització va a sobre d'una còpia de seguretat física, no en lloc d'ella. En parlarem més endavant.",
+
+	"memorize_seed_not_brain_wallet_heading": "Això no és una \"cartera mental\"",
+	"memorize_seed_callout_good_label": "Memoritzar una frase llavor",
+	"memorize_seed_callout_good_desc": "Paraules generades per una cartera de maquinari. Alta entropia. Segur de guardar-ne una còpia al cap.",
+	"memorize_seed_callout_bad_label": "Cartera mental",
+	"memorize_seed_callout_bad_desc": "Clau derivada d'una contrasenya que t'has inventat. Trencada. Buidada en segons.",
+	"memorize_seed_not_brain_wallet_p1_a": "Als primers temps de Bitcoin, la gent experimentava generant claus privades a partir de contrasenyes que s'inventava. El mètode s'anomenava",
+	"memorize_seed_not_brain_wallet_p1_b": "cartera mental,",
+	"memorize_seed_not_brain_wallet_p1_c": "i va ser un desastre. Els atacants escrivien scripts per endevinar contrasenyes habituals i buidaven les carteres en segons.",
+	"memorize_seed_not_brain_wallet_p2": "El que estàs memoritzant aquí és diferent. Les paraules venen de la font d'aleatorietat d'una cartera de maquinari, no de la teva imaginació. No són res que un script pugui endevinar.",
+	"memorize_seed_not_brain_wallet_p3": "La teva frase llavor és d'alta entropia. Guardar-ne una còpia al cap no la debilita. Simplement la guarda en un lloc més.",
+
+	"memorize_seed_when_helpful_heading": "Quan ajuda la memorització",
+	"memorize_seed_when_helpful_p1": "La memorització brilla quan les còpies de seguretat físiques fallen. Un desastre natural s'emporta casa teva i la planxa d'acer que hi ha dins. Una inundació. Un incendi. Una evacuació. Un robatori. Un creuament fronterer on no pots portar res que sembli riquesa.",
+	"memorize_seed_when_helpful_p2": "També ajuda a curt termini. Viatjar sense una còpia de seguretat és molt menys estressant quan pots recuperar la teva cartera des de qualsevol lloc del món.",
+	"memorize_seed_when_helpful_p3": "I és una capa més de redundància. Si una inundació, un incendi i un lladre us colpegen tots la mateixa setmana, la versió memoritzada és la que et porta a casa.",
+
+	"memorize_seed_rules_heading": "Estableix primer les normes de seguretat",
+	"memorize_seed_rules_p1": "Abans de memoritzar res, assegura els fonaments. La teva frase llavor és la contrasenya definitiva: protegeix-la a tota costa.",
+	"memorize_seed_rules_p2": "<strong>Genera-la en una cartera Bitcoin de veritat,</strong> no en un lloc web ni en una aplicació de mòbil de la qual no et fiïs. Tot l'exercici depèn que les paraules vinguin d'una font d'aleatorietat real.",
+	"memorize_seed_rules_p3": "<strong>Conserva almenys una còpia de seguretat física.</strong> En paper o en acer, en més d'un lloc segur. La memorització va a sobre d'això, no la substitueix.",
+	"memorize_seed_rules_p4": "<strong>No diguis mai les paraules en veu alta.</strong> Ni a tu mateix, ni en veu baixa. Els telèfons i els assistents de veu senten més del que et penses.",
+	"memorize_seed_rules_p5": "<strong>No les escriguis mai enlloc.</strong> Cap aplicació de notes, cap full de càlcul, cap nota xifrada, cap \"només per provar-ho\". Tracta qualsevol teclat o pantalla com una emissió pública.",
+	"memorize_seed_rules_p6": "<strong>Treballa en privat quan les revisis.</strong> Tanca la porta. Tapa qualsevol càmera apuntada cap a tu, inclosa la càmera web del teu portàtil. Abaixa les persianes. Torna a guardar les paraules tan bon punt deixis de revisar-les.",
+
+	"memorize_seed_technique_heading": "Com memoritzar la teva frase llavor",
+	"memorize_seed_technique_p1": "Les paraules aleatòries són més difícils de recordar que una frase, però més fàcils del que sembla. Les frases llavor solen tenir dotze o vint-i-quatre paraules segons la teva cartera i la seva configuració. Tots dos recomptes segueixen un ritme si l'hi dones.",
+	"memorize_seed_technique_p2": "<strong>Divideix la frase en blocs.</strong> Dotze paraules es divideixen netament en tres grups de quatre, o quatre grups de tres. Vint-i-quatre paraules es converteixen en quatre grups de sis o sis grups de quatre. Els grups petits són més fàcils de fixar.",
+	"memorize_seed_technique_p3": "<strong>Construeix una història.</strong> Cada bloc esdevé una petita escena vívida. Fes-les estranyes i específiques: el cervell recorda allò inusual. \"Un elefant blau fent malabarismes amb cactus damunt d'un piano\" es queda fixat. \"Algunes paraules sobre animals i música\" no.",
+	"memorize_seed_technique_p4": "<strong>Fes servir un palau de la memòria.</strong> Imagina't un lloc que coneguis bé: la teva cuina, el camí cap a la feina, el dormitori de la teva infància. Col·loca cada paraula en un punt de referència concret. Recorre el camí mentalment per recordar l'ordre.",
+	"memorize_seed_technique_p5": "<strong>Posa-li rima o cantala.</strong> Tria una melodia que ja coneguis i encaixa-hi les paraules dins del ritme. Les cançons s'enganxen.",
+	"memorize_seed_technique_p6": "Tria el mètode que et resulti més natural. La majoria de la gent acaba combinant-ne dos: blocs més una història, o un palau de la memòria amb una melodia. Tria el que et funcioni millor.",
+
+	"memorize_seed_repetition_heading": "Fes que la repetició formi part del teu dia",
+	"memorize_seed_repetition_p1": "El truc és el volum, no l'esforç. Lliga la teva revisió a alguna cosa que ja facis cada dia, i les repeticions s'acumulen sense que hi pensis.",
+	"memorize_seed_repetition_p2": "Raspallar-se les dents dos cops al dia són catorze repassos a la setmana. Cuinar el sopar. Passejar el gos. Conduir cap a la feina. Adormir-se. La dutxa. Tria una o dues rutines i deixa que les paraules t'acompanyin.",
+	"memorize_seed_repetition_p3": "Repassa-les mentalment, en silenci, amb els llavis tancats. No xiuxiueges. No moguis la boca. Tot el sentit és que ningú pugui dir que ho estàs fent.",
+	"memorize_seed_repetition_p4": "Al cap d'un parell de setmanes, les paraules deixen de ser una cosa que has de recordar i passen a ser una cosa que simplement saps. Mantén la rutina durant un mes o dos perquè s'enganxi de debò. Després, repassa-les un cop a la setmana per mantenir-les fresques.",
+
+	"memorize_seed_test_heading": "Posa't a prova sense deixar rastre",
+	"memorize_seed_test_p1": "Un cop a la setmana, demostra't a tu mateix que realment saps la frase. La memòria és traïdora: pot semblar familiar sense ser exacta.",
+	"memorize_seed_test_p2": "<strong>Busca un lloc privat</strong> sense cap càmera apuntada cap a tu, inclosa la càmera web del teu portàtil. Tanca la porta amb clau. Abaixa les persianes.",
+	"memorize_seed_test_p3": "<strong>Escriu les paraules en un paper</strong>, en ordre. Compara-les amb la teva còpia de seguretat física, no amb la teva memòria. El sentit és atrapar un error que la teva memòria no pot veure.",
+	"memorize_seed_test_p4": "<strong>Destrueix el paper completament.</strong> Estripa'l. Crema'l. No llencis el full sencer a la paperera. Si has fallat alguna paraula, fes algunes rondes extres de revisió rutinària i torna-ho a provar la setmana següent.",
+
+	"memorize_seed_dont_rely_heading": "No confiïs només en la memòria",
+	"memorize_seed_dont_rely_p1": "La memòria és fiable fins que deixa de ser-ho. L'estrès, l'edat, una malaltia, una lesió al cap, o simplement un buit prou llarg entre repassos pot esborrar una frase. No hi ha cap enllaç de \"contrasenya oblidada\" per a Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Tracta la memorització com una còpia de seguretat paral·lela. La teva còpia de seguretat física és el fonament. La versió que tens al cap és la redundància. Si un desastre s'emporta el fonament, la redundància et porta a casa.",
+	"memorize_seed_dont_rely_p3": "Les úniques situacions que justifiquen un emmagatzematge només a la memòria són extremes: fugir d'una zona de guerra, escapar de la persecució autoritària, creuar una frontera amb actius que serien confiscats. I fins i tot llavors, és bona idea crear una nova còpia de seguretat física tan bon punt arribis a un lloc segur.",
+
+	"memorize_seed_card_wallets_label": "Configura-la bé",
+	"memorize_seed_card_wallets_title": "Genera la teva frase llavor en una cartera Bitcoin de veritat",
+	"memorize_seed_card_wallets_source": "Font: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: codi mnemotècnic per a la generació de claus deterministes",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith i Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

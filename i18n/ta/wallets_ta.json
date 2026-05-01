@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ta"
 	},
 	"bitcoin_wallet_guide": "பிட்காயின் வாலெட் வழிகாட்டி",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 வன்பொருள் பணப்பை",
 	"sources_coldcard_q": "Coinkite — Coldcard Q வன்பொருள் பணப்பை",
 	"sources_passport": "Foundation Devices — Passport வன்பொருள் பணப்பை",
-	"sources_seedsigner": "SeedSigner — திறந்த-மூல DIY Bitcoin கையொப்பமிடும் சாதனம்"
+	"sources_seedsigner": "SeedSigner — திறந்த-மூல DIY Bitcoin கையொப்பமிடும் சாதனம்",
+	"wallets_s6_c4b_a": "மேலும் ஒரு அடுக்கான தாக்குப்பிடிக்கும் தன்மைக்கு, நீங்கள்",
+	"wallets_s6_c4b_b": "உங்கள் விதை சொற்றொடரை மனப்பாடம் செய்யலாம்",
+	"wallets_s6_c4b_c": "அது உங்களுடன் பயணிக்கும் ஒரு கண்ணுக்குத் தெரியாத காப்புப் பிரதியாக."
 }

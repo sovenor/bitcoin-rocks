@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "lt"
 	},
 	"bitcoin_wallet_guide": "Bitcoin piniginių vadovas",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 aparatinė piniginė",
 	"sources_coldcard_q": "Coinkite — Coldcard Q aparatinė piniginė",
 	"sources_passport": "Foundation Devices — Passport aparatinė piniginė",
-	"sources_seedsigner": "SeedSigner — savadarbis atvirojo kodo Bitcoin transakcijų pasirašymo įrenginys"
+	"sources_seedsigner": "SeedSigner — savadarbis atvirojo kodo Bitcoin transakcijų pasirašymo įrenginys",
+	"wallets_s6_c4b_a": "Norėdami dar vieno atsparumo sluoksnio, taip pat galite",
+	"wallets_s6_c4b_b": "įsiminti savo atkūrimo frazę",
+	"wallets_s6_c4b_c": "kaip nematomą atsarginę kopiją, kuri keliauja kartu su jumis."
 }

@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "lt"
+	},
+	"memorize_seed_page_title": "Kaip saugoti Bitcoin savo galvoje",
+	"memorize_seed_page_description": "Kaip saugiai įsiminti savo Bitcoin atkūrimo frazę kaip nematomą atsarginę kopiją. Praktinės technikos, saugumo taisyklės ir kodėl įsiminimas retai turėtų būti vienintelė atsarginė kopija.",
+	"memorize_seed_h1_title": "Kaip saugoti Bitcoin savo galvoje: nematoma atsarginė kopija, kuri keliauja kartu su jumis",
+
+	"memorize_seed_intro_heading": "Atsarginė kopija, kurios niekas nemato",
+	"memorize_seed_intro_p1": "Jūsų atkūrimo frazė yra pagrindinis raktas į jūsų Bitcoin. Dauguma žmonių daro jos atsarginę kopiją ant popieriaus ar plieno. Įsiminimas yra dar viena atsarginė kopija, kurią galite pridėti viršuje.",
+	"memorize_seed_intro_p2": "Nematoma. Be svorio. Žinoma tik jums. Joks gaisras, jokia vagystė, joks pasienio patikrinimas negali jos iš jūsų atimti.",
+	"memorize_seed_intro_p3": "Beveik kiekvienam įsiminimas turi būti viršuje fizinės atsarginės kopijos, o ne vietoj jos. Daugiau apie tai vėliau.",
+
+	"memorize_seed_not_brain_wallet_heading": "Tai nėra „smegenų piniginė“",
+	"memorize_seed_callout_good_label": "Atkūrimo frazės įsiminimas",
+	"memorize_seed_callout_good_desc": "Žodžiai, sugeneruoti aparatinės piniginės. Aukšta entropija. Saugu laikyti kopiją galvoje.",
+	"memorize_seed_callout_bad_label": "Smegenų piniginė",
+	"memorize_seed_callout_bad_desc": "Raktas, gautas iš jūsų sugalvotos slaptafrazės. Sulaužyta. Ištuštinama per kelias sekundes.",
+	"memorize_seed_not_brain_wallet_p1_a": "Ankstyvosiomis Bitcoin dienomis žmonės eksperimentavo generuodami privačius raktus iš sugalvotų slaptafrazių. Šis metodas buvo vadinamas",
+	"memorize_seed_not_brain_wallet_p1_b": "smegenų pinigine,",
+	"memorize_seed_not_brain_wallet_p1_c": "ir tai buvo katastrofa. Įsilaužėliai parašė skriptus dažnoms slaptafrazėms atspėti ir per kelias sekundes ištuštindavo pinigines.",
+	"memorize_seed_not_brain_wallet_p2": "Tai, ką čia įsimenate, yra kitokia. Žodžiai atsirado iš aparatinės piniginės atsitiktinumo šaltinio, o ne iš jūsų vaizduotės. Jų skriptas atspėti negali.",
+	"memorize_seed_not_brain_wallet_p3": "Jūsų atkūrimo frazė pasižymi aukšta entropija. Jos kopijos saugojimas galvoje jos nesusilpnina. Tai tiesiog dar viena saugojimo vieta.",
+
+	"memorize_seed_when_helpful_heading": "Kada įsiminimas padeda",
+	"memorize_seed_when_helpful_p1": "Įsiminimas spindi tada, kai nepavyksta fizinės atsarginės kopijos. Stichinė nelaimė sunaikina jūsų namus ir juose buvusią plieno plokštelę. Potvynis. Gaisras. Evakuacija. Vagystė. Pasienio kirtimas, kai negalite nešti nieko, kas atrodytų kaip turtas.",
+	"memorize_seed_when_helpful_p2": "Tai padeda ir trumpuoju laikotarpiu. Keliauti be atsarginės kopijos kur kas mažiau įtempta, kai galite atkurti savo piniginę iš bet kurios pasaulio vietos.",
+	"memorize_seed_when_helpful_p3": "Ir tai dar vienas atsargumo sluoksnis. Jei tą pačią savaitę užklupo potvynis, gaisras ir vagis, įsiminta versija yra tai, kas jus parveda namo.",
+
+	"memorize_seed_rules_heading": "Pirmiausia nustatykite saugumo taisykles",
+	"memorize_seed_rules_p1": "Prieš ką nors įsimindami, užfiksuokite pagrindus. Jūsų atkūrimo frazė yra svarbiausias slaptažodis – saugokite ją bet kokia kaina.",
+	"memorize_seed_rules_p2": "<strong>Sugeneruokite ją tikroje Bitcoin piniginėje,</strong> o ne svetainėje ar telefono programėlėje, kuria nepasitikite. Visas šis procesas priklauso nuo to, kad žodžiai ateina iš tikro atsitiktinumo šaltinio.",
+	"memorize_seed_rules_p3": "<strong>Visada turėkite bent vieną fizinę atsarginę kopiją.</strong> Ant popieriaus ar plieno, daugiau nei vienoje saugioje vietoje. Įsiminimas yra papildomai – ne pakeitimas.",
+	"memorize_seed_rules_p4": "<strong>Niekada nesakykite žodžių garsiai.</strong> Nei sau, nei pusbalsiu. Telefonai ir balso asistentai girdi daugiau, nei manote.",
+	"memorize_seed_rules_p5": "<strong>Niekada jų niekur neįveskite klaviatūra.</strong> Jokia užrašinės programėlė, jokia skaičiuoklė, jokia šifruota užrašinė, jokio „tik patikrinti“. Bet kokią klaviatūrą ar ekraną laikykite vieša transliacija.",
+	"memorize_seed_rules_p6": "<strong>Peržiūrėdami būkite vieni.</strong> Uždarykite duris. Uždenkite į jus nukreiptas kameras – įskaitant nešiojamojo kompiuterio kamerą. Užtraukite užuolaidas. Vos baigę peržiūrą, žodžius vėl grąžinkite į saugyklą.",
+
+	"memorize_seed_technique_heading": "Kaip įsiminti savo atkūrimo frazę",
+	"memorize_seed_technique_p1": "Atsitiktinius žodžius sunkiau įsiminti nei sakinį, bet paprasčiau, nei atrodo. Atkūrimo frazes paprastai sudaro dvylika arba dvidešimt keturi žodžiai, priklausomai nuo piniginės ir jos nustatymų. Bet kuris skaičius įgauna ritmą, jei jam tokį suteiksite.",
+	"memorize_seed_technique_p2": "<strong>Suskaidykite frazę į gabaliukus.</strong> Dvylika žodžių švariai dalijasi į tris grupes po keturis arba keturias grupes po tris. Dvidešimt keturi žodžiai virsta keturiomis grupėmis po šešis arba šešiomis grupėmis po keturis. Mažesnes grupes lengviau įtvirtinti.",
+	"memorize_seed_technique_p3": "<strong>Sukurkite istoriją.</strong> Kiekvienas gabaliukas tampa ryškia maža scena. Padarykite jas keistas ir konkrečias – smegenys įsimena tai, kas neįprasta. „Mėlynas dramblys, žongliruojantis kaktusais ant pianino“ įstringa. „Keli žodžiai apie gyvūnus ir muziką“ – ne.",
+	"memorize_seed_technique_p4": "<strong>Naudokite atminties rūmus.</strong> Įsivaizduokite gerai pažįstamą vietą – savo virtuvę, kelią į darbą, vaikystės miegamąjį. Kiekvieną žodį pastatykite prie konkretaus orientyro. Mintimis nueikite tuo keliu, kad prisimintumėte tvarką.",
+	"memorize_seed_technique_p5": "<strong>Rimuokite arba dainuokite.</strong> Pasirinkite jau žinomą melodiją ir įstatykite žodžius į ritmą. Dainos kabosi atmintyje.",
+	"memorize_seed_technique_p6": "Pasirinkite tą metodą, kuris atrodo natūralus. Dauguma žmonių galiausiai sujungia du – gabaliukus su istorija arba atminties rūmus su melodija. Pasirinkite tai, kas geriausiai jums tinka.",
+
+	"memorize_seed_repetition_heading": "Padarykite kartojimą savo dienos dalimi",
+	"memorize_seed_repetition_p1": "Triukas yra kiekis, ne pastangos. Susiekite peržiūrą su tuo, ką jau darote kasdien, ir kartojimai susidės jums net negalvojant.",
+	"memorize_seed_repetition_p2": "Du kartus per dieną valant dantis – tai keturiolika peržiūrų per savaitę. Vakarienės gaminimas. Pasivaikščiojimas su šunimi. Važiavimas į darbą. Užmigimas. Dušas. Pasirinkite vieną ar dvi rutinas ir leiskite žodžiams važiuoti kartu.",
+	"memorize_seed_repetition_p3": "Eikite per juos mintyse – tyliai, suspaudę lūpas. Nešnabždėkite. Nejudinkite burnos. Visa esmė ta, kad niekas negalėtų pasakyti, ką darote.",
+	"memorize_seed_repetition_p4": "Po poros savaičių žodžiai nustoja būti tuo, ką reikia prisiminti, ir tampa tuo, ką tiesiog žinote. Tęskite rutiną mėnesį ar du, kad ji iš tikrųjų įsitvirtintų. Po to užsukite kartą per savaitę, kad ją išlaikytumėte šviežią.",
+
+	"memorize_seed_test_heading": "Pasitikrinkite save nepalikdami pėdsakų",
+	"memorize_seed_test_p1": "Kartą per savaitę įrodykite sau, kad iš tikrųjų žinote frazę. Atmintis – klastinga: ji gali atrodyti pažįstama, bet būti netiksli.",
+	"memorize_seed_test_p2": "<strong>Raskite privačią vietą</strong> be į jus nukreiptų kamerų, įskaitant savo nešiojamojo kompiuterio kamerą. Užrakinkite duris. Užtraukite užuolaidas.",
+	"memorize_seed_test_p3": "<strong>Užrašykite žodžius ant popieriaus</strong> tvarka. Palyginkite juos su savo fizine atsargine kopija, ne su atmintimi. Visas tikslas – pagauti klaidą, kurios atmintis pati nemato.",
+	"memorize_seed_test_p4": "<strong>Visiškai sunaikinkite popierių.</strong> Susmulkinkite. Sudeginkite. Nemeskite viso lapo į šiukšliadėžę. Jei kurių nors žodžių nepataikėte, padarykite kelis papildomus įprastinės peržiūros ratus ir bandykite kitą savaitę.",
+
+	"memorize_seed_dont_rely_heading": "Nepasikliaukite vien atmintimi",
+	"memorize_seed_dont_rely_p1": "Atmintis patikima tol, kol nebepatikima. Stresas, amžius, liga, galvos trauma ar tiesiog pakankamai ilgas tarpas tarp peržiūrų gali ištrinti frazę. Bitcoin neturi nuorodos „pamiršau slaptažodį“.",
+	"memorize_seed_dont_rely_p2": "Įsiminimą laikykite lygiagrečia atsargine kopija. Fizinė atsarginė kopija yra pamatas. Versija jūsų galvoje – atsarga. Jei nelaimė sunaikina pamatus, atsarga jus parveda namo.",
+	"memorize_seed_dont_rely_p3": "Vienintelės situacijos, kurios pateisina saugojimą tik atmintyje, yra ekstremalios: bėgimas iš karo zonos, pabėgimas nuo autoritarinio persekiojimo, sienos kirtimas su turtu, kuris būtų konfiskuotas. Net ir tada, kai atsiduriate saugioje vietoje, gera mintis yra sukurti naują fizinę atsarginę kopiją.",
+
+	"memorize_seed_card_wallets_label": "Nustatykite teisingai",
+	"memorize_seed_card_wallets_title": "Sugeneruokite savo atkūrimo frazę tikroje Bitcoin piniginėje",
+	"memorize_seed_card_wallets_source": "Šaltinis: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemoninis kodas determinuotų raktų generavimui",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — Bitcoin smegenų nutekėjimas: Bitcoin smegenų piniginių naudojimo ir piktnaudžiavimo tyrimas (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008 m.)"
+}

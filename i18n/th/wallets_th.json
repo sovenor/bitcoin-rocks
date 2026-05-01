@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "th"
 	},
 	"bitcoin_wallet_guide": "คู่มือกระเป๋าเงิน Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — กระเป๋าเงินฮาร์ดแวร์ Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — กระเป๋าเงินฮาร์ดแวร์ Coldcard Q",
 	"sources_passport": "Foundation Devices — กระเป๋าเงินฮาร์ดแวร์ Passport",
-	"sources_seedsigner": "SeedSigner — อุปกรณ์เซ็น Bitcoin แบบ DIY โอเพนซอร์ส"
+	"sources_seedsigner": "SeedSigner — อุปกรณ์เซ็น Bitcoin แบบ DIY โอเพนซอร์ส",
+	"wallets_s6_c4b_a": "เพื่อเพิ่มชั้นความทนทานอีกหนึ่งชั้น คุณยังสามารถ",
+	"wallets_s6_c4b_b": "จดจำวลีกู้คืนของคุณ",
+	"wallets_s6_c4b_c": "เป็นข้อมูลสำรองที่มองไม่เห็นซึ่งติดตัวคุณไปทุกที่"
 }

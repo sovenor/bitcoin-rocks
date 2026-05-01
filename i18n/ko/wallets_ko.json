@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ko"
 	},
 	"bitcoin_wallet_guide": "비트코인 지갑 가이드",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 하드웨어 지갑",
 	"sources_coldcard_q": "Coinkite — Coldcard Q 하드웨어 지갑",
 	"sources_passport": "Foundation Devices — Passport 하드웨어 지갑",
-	"sources_seedsigner": "SeedSigner — 오픈 소스 DIY 비트코인 서명 장치"
+	"sources_seedsigner": "SeedSigner — 오픈 소스 DIY 비트코인 서명 장치",
+	"wallets_s6_c4b_a": "회복력을 한 겹 더하기 위해",
+	"wallets_s6_c4b_b": "시드 문구를 외워두면",
+	"wallets_s6_c4b_c": "당신과 함께 다니는 보이지 않는 백업이 됩니다."
 }

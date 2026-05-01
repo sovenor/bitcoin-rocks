@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-04-30",
 		"locale": "bg"
 	},
 	"home_nav_learn": "Научете",
@@ -174,5 +174,7 @@
 	"home_link_author_lightning_address": "LightningAddress.com",
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
-	"home_link_author_mempool_space": "Mempool.space"
+	"home_link_author_mempool_space": "Mempool.space",
+	"home_card_label_self_custody_4": "Архивиране в краен случай",
+	"home_link_title_self_custody_4": "Как да съхранявате Биткойн в мозъка си"
 }

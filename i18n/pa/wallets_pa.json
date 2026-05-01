@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "pa"
 	},
 	"bitcoin_wallet_guide": "Bitcoin ਵਾਲਿਟ ਗਾਇਡ",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ",
 	"sources_coldcard_q": "Coinkite — Coldcard Q ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ",
 	"sources_passport": "Foundation Devices — Passport ਹਾਰਡਵੇਅਰ ਵਾਲਿਟ",
-	"sources_seedsigner": "SeedSigner — ਬਿਟਕੌਇਨ ਲੈਣ-ਦੇਣ ਲਈ DIY ਓਪਨ-ਸੋਰਸ ਸਾਈਨਿੰਗ ਡਿਵਾਈਸ"
+	"sources_seedsigner": "SeedSigner — ਬਿਟਕੌਇਨ ਲੈਣ-ਦੇਣ ਲਈ DIY ਓਪਨ-ਸੋਰਸ ਸਾਈਨਿੰਗ ਡਿਵਾਈਸ",
+	"wallets_s6_c4b_a": "ਲਚਕਤਾ ਦੀ ਇੱਕ ਹੋਰ ਪਰਤ ਲਈ, ਤੁਸੀਂ",
+	"wallets_s6_c4b_b": "ਆਪਣੀ ਸੀਡ ਫ਼੍ਰੇਜ਼ ਯਾਦ ਕਰ ਸਕਦੇ ਹੋ",
+	"wallets_s6_c4b_c": "ਇੱਕ ਅਦ੍ਰਿਸ਼ ਬੈਕਅਪ ਵਜੋਂ ਜੋ ਤੁਹਾਡੇ ਨਾਲ ਜਾਂਦਾ ਹੈ।"
 }

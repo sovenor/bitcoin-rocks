@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "sk"
 	},
 	"bitcoin_wallet_guide": "Sprievodca bitcoinovými peňaženkami",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — hardvérová peňaženka Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — hardvérová peňaženka Coldcard Q",
 	"sources_passport": "Foundation Devices — hardvérová peňaženka Passport",
-	"sources_seedsigner": "SeedSigner — open-source DIY zariadenie na podpisovanie Bitcoin transakcií"
+	"sources_seedsigner": "SeedSigner — open-source DIY zariadenie na podpisovanie Bitcoin transakcií",
+	"wallets_s6_c4b_a": "Pre ďalšiu vrstvu odolnosti si tiež môžete",
+	"wallets_s6_c4b_b": "zapamätať svoju seed frázu",
+	"wallets_s6_c4b_c": "ako neviditeľnú zálohu, ktorá cestuje s vami."
 }

@@ -1,238 +1,46 @@
 {
 	"lang": "fil",
-	"generatedAt": "2026-04-24T22:07:23.880Z",
-	"englishSnapshotGeneratedAt": "2026-04-24T21:52:30.139Z",
+	"generatedAt": "2026-05-01T03:05:23.768Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
 	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerAppliedAt": "2026-04-24T22:07:17.156Z",
 	"namespaceFilter": null,
 	"stats": {
-		"totalEnglishKeys": 1852,
+		"totalEnglishKeys": 1913,
 		"missing": 0,
-		"untranslated": 27,
+		"untranslated": 3,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
-		"upToDate": 1099,
-		"brandIdentical": 169
+		"upToDate": 1183,
+		"brandIdentical": 170
 	},
 	"entries": [
 		{
-			"namespace": "bitcoin-vs-cash",
-			"key": "bitcoin_point_6",
+			"namespace": "memorize-your-seed-phrase",
+			"key": "memorize_seed_callout_bad_label",
 			"reason": "untranslated",
-			"englishValue": "Digital self-custody",
-			"currentValue": "Digital self-custody",
+			"englishValue": "Brain wallet",
+			"currentValue": "Brain wallet",
 			"targetTranslation": null
 		},
 		{
-			"namespace": "bitcoin-vs-cash",
-			"key": "bitcoin_vs_cash",
+			"namespace": "memorize-your-seed-phrase",
+			"key": "memorize_seed_not_brain_wallet_p1_b",
 			"reason": "untranslated",
-			"englishValue": "Bitcoin vs Cash",
-			"currentValue": "Bitcoin vs Cash",
+			"englishValue": "brain wallet,",
+			"currentValue": "brain wallet,",
 			"targetTranslation": null
 		},
 		{
-			"namespace": "bitcoin-vs-cash",
-			"key": "cash",
+			"namespace": "memorize-your-seed-phrase",
+			"key": "sources_brain_wallet_research",
 			"reason": "untranslated",
-			"englishValue": "CASH",
-			"currentValue": "CASH",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-cbdc",
-			"key": "bitcoin_point_4",
-			"reason": "untranslated",
-			"englishValue": "Pseudonymous",
-			"currentValue": "Pseudonymous",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-crypto",
-			"key": "bitcoin_point_7",
-			"reason": "untranslated",
-			"englishValue": "Antifragile",
-			"currentValue": "Antifragile",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-crypto",
-			"key": "bitcoin_vs_crypto",
-			"reason": "untranslated",
-			"englishValue": "Bitcoin vs Crypto",
-			"currentValue": "Bitcoin vs Crypto",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-crypto",
-			"key": "crypto",
-			"reason": "untranslated",
-			"englishValue": "CRYPTO",
-			"currentValue": "CRYPTO",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-crypto",
-			"key": "crypto_point_8",
-			"reason": "untranslated",
-			"englishValue": "Corporate backing",
-			"currentValue": "Corporate backing",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-fine-art",
-			"key": "bitcoin_vs_fine_art",
-			"reason": "untranslated",
-			"englishValue": "Bitcoin vs Fine Art",
-			"currentValue": "Bitcoin vs Fine Art",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-fine-art",
-			"key": "fine_art",
-			"reason": "untranslated",
-			"englishValue": "FINE ART",
-			"currentValue": "FINE ART",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-real-estate",
-			"key": "bitcoin_vs_real_estate",
-			"reason": "untranslated",
-			"englishValue": "Bitcoin vs Real Estate",
-			"currentValue": "Bitcoin vs Real Estate",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "bitcoin-vs-real-estate",
-			"key": "real_estate",
-			"reason": "untranslated",
-			"englishValue": "REAL ESTATE",
-			"currentValue": "REAL ESTATE",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "business/wallets",
-			"key": "wallets_feature_hybrid",
-			"reason": "untranslated",
-			"englishValue": "Hybrid wallet",
-			"currentValue": "Hybrid wallet",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_cold_wallet",
-			"reason": "untranslated",
-			"englishValue": "COLD WALLET",
-			"currentValue": "COLD WALLET",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_hot_wallet",
-			"reason": "untranslated",
-			"englishValue": "HOT WALLET",
-			"currentValue": "HOT WALLET",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_self_custody",
-			"reason": "untranslated",
-			"englishValue": "SELF-CUSTODY",
-			"currentValue": "SELF-CUSTODY",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_sticker_files_mission_3",
-			"reason": "untranslated",
-			"englishValue": "inflation",
-			"currentValue": "inflation",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "compound-inflation-calculator",
-			"key": "cic_header",
-			"reason": "untranslated",
-			"englishValue": "Compound Inflation Calculator",
-			"currentValue": "Compound Inflation Calculator",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "index",
-			"key": "home_card_label_art_3",
-			"reason": "untranslated",
-			"englishValue": "Street art",
-			"currentValue": "Street art",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "index",
-			"key": "home_card_label_bank_runs",
-			"reason": "untranslated",
-			"englishValue": "Full reserve system",
-			"currentValue": "Full reserve system",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "inflation",
-			"key": "inflation_freedom_scarce_title",
-			"reason": "untranslated",
-			"englishValue": "Scarce",
-			"currentValue": "Scarce",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "lightning",
-			"key": "lightning_mobile_app",
-			"reason": "untranslated",
-			"englishValue": "Mobile app",
-			"currentValue": "Mobile app",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "stickers",
-			"key": "placeholder_postal_code",
-			"reason": "untranslated",
-			"englishValue": "Postal Code",
-			"currentValue": "Postal Code",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "stickers",
-			"key": "placeholder_zip_code",
-			"reason": "untranslated",
-			"englishValue": "Zip Code",
-			"currentValue": "Zip Code",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "wallets",
-			"key": "wallets_air_gap_mode",
-			"reason": "untranslated",
-			"englishValue": "Air-gap mode",
-			"currentValue": "Air-gap mode",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "wallets",
-			"key": "wallets_mobile_app",
-			"reason": "untranslated",
-			"englishValue": "Mobile app",
-			"currentValue": "Mobile app",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "wallets",
-			"key": "wallets_qr_scanner",
-			"reason": "untranslated",
-			"englishValue": "QR code scanner",
-			"currentValue": "QR code scanner",
+			"englishValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+			"currentValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
 			"targetTranslation": null
 		}
 	]

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "am"
 	},
 	"bitcoin_wallet_guide": "የቢትኮይን ቦርሳ መመሪያ",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 ሃርድዌር ዋሌት",
 	"sources_coldcard_q": "Coinkite — Coldcard Q ሃርድዌር ዋሌት",
 	"sources_passport": "Foundation Devices — Passport ሃርድዌር ዋሌት",
-	"sources_seedsigner": "SeedSigner — ክፍት ምንጭ DIY የቢትኮይን መፈረሚያ መሣሪያ"
+	"sources_seedsigner": "SeedSigner — ክፍት ምንጭ DIY የቢትኮይን መፈረሚያ መሣሪያ",
+	"wallets_s6_c4b_a": "ለተጨማሪ የመቋቋም ሽፋን፣ ደግሞ",
+	"wallets_s6_c4b_b": "ሲድ ሐረግዎን ማስታወስ",
+	"wallets_s6_c4b_c": "ይችላሉ — ከእርስዎ ጋር የሚሄድ የማይታይ ምትኬ ሆኖ።"
 }

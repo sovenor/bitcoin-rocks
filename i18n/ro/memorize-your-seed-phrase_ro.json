@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ro"
+	},
+	"memorize_seed_page_title": "Cum să stochezi Bitcoin în creierul tău",
+	"memorize_seed_page_description": "Cum să-ți memorezi în siguranță fraza de recuperare Bitcoin ca un backup invizibil. Tehnici practice, reguli de siguranță și de ce memorarea ar trebui rareori să fie singurul tău backup.",
+	"memorize_seed_h1_title": "Cum să stochezi Bitcoin în creierul tău: un backup invizibil care merge oriunde mergi tu",
+
+	"memorize_seed_intro_heading": "Un backup pe care nimeni nu îl poate vedea",
+	"memorize_seed_intro_p1": "Fraza ta de recuperare este cheia principală a Bitcoin-ului tău. Majoritatea oamenilor o salvează pe hârtie sau pe oțel. Memorarea este un backup în plus pe care îl poți adăuga deasupra.",
+	"memorize_seed_intro_p2": "Invizibilă. Fără greutate. Cunoscută doar de tine. Niciun incendiu, nicio spargere, niciun control la frontieră nu ți-o pot lua.",
+	"memorize_seed_intro_p3": "Pentru aproape toată lumea, memorarea este în plus față de un backup fizic, nu în locul lui. Mai multe despre asta mai târziu.",
+
+	"memorize_seed_not_brain_wallet_heading": "Acesta nu este un „brain wallet”",
+	"memorize_seed_callout_good_label": "Memorarea unei fraze de recuperare",
+	"memorize_seed_callout_good_desc": "Cuvinte generate de un portofel hardware. Entropie ridicată. Sigur să stochezi o copie în mintea ta.",
+	"memorize_seed_callout_bad_label": "„Brain wallet” (portofel mental)",
+	"memorize_seed_callout_bad_desc": "Cheie derivată dintr-o frază de acces inventată de tine. Compromis. Golit în câteva secunde.",
+	"memorize_seed_not_brain_wallet_p1_a": "În primele zile ale Bitcoin, oamenii au experimentat cu generarea cheilor private din fraze de acces inventate de ei. Această metodă se numea",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "și a fost un dezastru. Hackerii au scris scripturi pentru a ghici fraze de acces comune și au golit portofele în câteva secunde.",
+	"memorize_seed_not_brain_wallet_p2": "Ceea ce memorezi aici este diferit. Cuvintele provin din sursa de aleatorism a unui portofel hardware, nu din imaginația ta. Nu sunt ceva ce un script poate ghici.",
+	"memorize_seed_not_brain_wallet_p3": "Fraza ta de recuperare are entropie ridicată. Stocarea unei copii în mintea ta nu o slăbește. Doar o stochează într-un alt loc.",
+
+	"memorize_seed_when_helpful_heading": "Când ajută memorarea",
+	"memorize_seed_when_helpful_p1": "Memorarea strălucește atunci când backupurile fizice eșuează. Un dezastru natural îți distruge casa și plăcuța de oțel din ea. O inundație. Un incendiu. O evacuare. Un furt. Trecerea unei frontiere unde nu poți căra nimic care arată ca avere.",
+	"memorize_seed_when_helpful_p2": "Ajută și pe termen scurt. Să călătorești fără un backup este mult mai puțin stresant când îți poți recupera portofelul de oriunde din lume.",
+	"memorize_seed_when_helpful_p3": "Și este încă un strat de redundanță. Dacă o inundație, un incendiu și un hoț lovesc toate în aceeași săptămână, versiunea memorată este cea care te aduce acasă.",
+
+	"memorize_seed_rules_heading": "Stabilește mai întâi regulile de siguranță",
+	"memorize_seed_rules_p1": "Înainte să memorezi orice, asigură-te că ai pus la punct elementele de bază. Fraza ta de recuperare este parola supremă — protejeaz-o cu orice preț.",
+	"memorize_seed_rules_p2": "<strong>Generează-o pe un portofel Bitcoin real,</strong> nu pe un site web sau o aplicație de telefon în care nu ai încredere. Întregul exercițiu depinde de cuvinte care provin dintr-o sursă reală de aleatorism.",
+	"memorize_seed_rules_p3": "<strong>Păstrează cel puțin un backup fizic.</strong> Hârtie sau oțel, în mai multe locuri sigure. Memorarea este în plus față de acesta — nu un înlocuitor.",
+	"memorize_seed_rules_p4": "<strong>Nu rosti niciodată cuvintele cu voce tare.</strong> Nici pentru tine, nici în șoaptă. Telefoanele și asistenții vocali aud mai mult decât crezi.",
+	"memorize_seed_rules_p5": "<strong>Nu le tasta niciodată în nimic.</strong> Nicio aplicație de notițe, niciun tabel, nicio notă criptată, niciun „doar ca să încerc”. Tratează orice tastatură sau ecran ca pe o transmisie publică.",
+	"memorize_seed_rules_p6": "<strong>Lucrează în privat când revizuiești.</strong> Închide ușa. Acoperă orice cameră îndreptată spre tine — inclusiv camera web a laptopului. Trage jaluzelele. Pune cuvintele înapoi în depozitare în momentul în care nu mai revizuiești.",
+
+	"memorize_seed_technique_heading": "Cum să-ți memorezi fraza de recuperare",
+	"memorize_seed_technique_p1": "Cuvintele aleatorii sunt mai greu de reținut decât o propoziție, dar mai ușor decât par. Frazele de recuperare au de obicei douăsprezece sau douăzeci și patru de cuvinte, în funcție de portofelul tău și setările lui. Oricare dintre aceste numere urmează un ritm dacă îi dai unul.",
+	"memorize_seed_technique_p2": "<strong>Împarte fraza în bucăți.</strong> Douăsprezece cuvinte se împart curat în trei grupuri de patru sau patru grupuri de trei. Douăzeci și patru de cuvinte devin patru grupuri de șase sau șase grupuri de patru. Grupurile mai mici sunt mai ușor de fixat în memorie.",
+	"memorize_seed_technique_p3": "<strong>Construiește o poveste.</strong> Fiecare bucată devine o scenă vie și mică. Fă-le ciudate și specifice — creierul reține neobișnuitul. „Un elefant albastru jonglând cu cactuși deasupra unui pian” rămâne fixat. „Niște cuvinte despre animale și muzică” nu rămâne.",
+	"memorize_seed_technique_p4": "<strong>Folosește un palat al memoriei.</strong> Imaginează-ți un loc pe care îl cunoști bine — bucătăria ta, drumul spre serviciu, dormitorul din copilărie. Plasează fiecare cuvânt la un reper specific. Parcurge mental traseul pentru a-ți aminti ordinea.",
+	"memorize_seed_technique_p5": "<strong>Rimează-le sau cântă-le.</strong> Alege o melodie pe care o știi deja și potrivește cuvintele în ritm. Cântecele sunt lipicioase.",
+	"memorize_seed_technique_p6": "Alege metoda care ți se pare naturală. Majoritatea oamenilor ajung să combine două — bucăți plus o poveste, sau un palat al memoriei pus pe o melodie. Alege ce funcționează cel mai bine pentru tine.",
+
+	"memorize_seed_repetition_heading": "Fă din repetiție o parte a zilei tale",
+	"memorize_seed_repetition_p1": "Trucul este volumul, nu efortul. Leagă revizuirea ta de ceva ce faci deja în fiecare zi, iar repetările se adună fără să te gândești la ele.",
+	"memorize_seed_repetition_p2": "Spălatul pe dinți de două ori pe zi înseamnă paisprezece revizuiri pe săptămână. Gătitul cinei. Plimbarea câinelui. Drumul spre serviciu. Adormitul. Dușul. Alege una sau două rutine și lasă cuvintele să meargă alături.",
+	"memorize_seed_repetition_p3": "Parcurge-le în minte — în tăcere, cu buzele închise. Nu șopti. Nu mișca gura. Toată ideea este ca nimeni să nu-și poată da seama că o faci.",
+	"memorize_seed_repetition_p4": "După câteva săptămâni, cuvintele încetează să mai fie ceva ce trebuie să-ți amintești și încep să fie ceva ce pur și simplu știi. Continuă rutina o lună sau două ca să se fixeze cu adevărat. După aceea, treci pe la ele o dată pe săptămână ca să rămână proaspete.",
+
+	"memorize_seed_test_heading": "Testează-te fără să lași urme",
+	"memorize_seed_test_p1": "O dată pe săptămână, dovedește-ți că știi cu adevărat fraza. Memoria este înșelătoare — poate părea familiară fără să fie corectă.",
+	"memorize_seed_test_p2": "<strong>Găsește un loc privat</strong> fără camere îndreptate spre tine, inclusiv camera web a propriului laptop. Încuie ușa. Trage jaluzelele.",
+	"memorize_seed_test_p3": "<strong>Scrie cuvintele pe hârtie</strong>, în ordine. Compară-le cu backupul tău fizic, nu cu memoria ta. Toată ideea este să prinzi o greșeală pe care memoria ta nu o poate vedea.",
+	"memorize_seed_test_p4": "<strong>Distruge complet hârtia.</strong> Toac-o. Arde-o. Nu arunca foaia întreagă într-un coș de gunoi. Dacă ai ratat vreun cuvânt, fă câteva runde suplimentare de revizuire de rutină și încearcă din nou săptămâna viitoare.",
+
+	"memorize_seed_dont_rely_heading": "Nu te baza doar pe memorie",
+	"memorize_seed_dont_rely_p1": "Memoria este de încredere până când nu mai este. Stresul, vârsta, boala, o lovitură la cap sau pur și simplu o pauză suficient de lungă între revizuiri pot șterge o frază. Nu există un link „am uitat parola” pentru Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Tratează memorarea ca pe un backup paralel. Backupul tău fizic este fundația. Versiunea din mintea ta este redundanța. Dacă un dezastru distruge fundația, redundanța te aduce acasă.",
+	"memorize_seed_dont_rely_p3": "Singurele situații care justifică stocarea doar din memorie sunt extreme: fuga dintr-o zonă de război, evadarea de o persecuție autoritară, trecerea unei frontiere cu active care ar fi confiscate. Și chiar și atunci, este o idee bună să creezi un nou backup fizic odată ce ești într-un loc sigur.",
+
+	"memorize_seed_card_wallets_label": "Configureaz-o corect",
+	"memorize_seed_card_wallets_title": "Generează-ți fraza de recuperare pe un portofel Bitcoin real",
+	"memorize_seed_card_wallets_source": "Sursă: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Cod mnemonic pentru generarea cheilor deterministe",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

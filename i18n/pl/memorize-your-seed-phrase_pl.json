@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "pl"
+	},
+	"memorize_seed_page_title": "Jak przechowywać Bitcoina w swoim umyśle",
+	"memorize_seed_page_description": "Jak bezpiecznie zapamiętać swoją frazę odzyskiwania Bitcoin jako niewidzialną kopię zapasową. Praktyczne techniki, zasady bezpieczeństwa oraz dlaczego zapamiętanie rzadko powinno być twoją jedyną kopią zapasową.",
+	"memorize_seed_h1_title": "Jak przechowywać Bitcoina w swoim umyśle: niewidzialna kopia zapasowa, która towarzyszy ci wszędzie",
+
+	"memorize_seed_intro_heading": "Kopia zapasowa, której nikt nie zobaczy",
+	"memorize_seed_intro_p1": "Twoja fraza odzyskiwania to klucz główny do twojego Bitcoina. Większość osób tworzy jej kopię zapasową na papierze lub stali. Zapamiętanie to dodatkowa kopia zapasowa, którą możesz nałożyć na nie.",
+	"memorize_seed_intro_p2": "Niewidzialna. Nieważka. Znana tylko tobie. Żaden pożar, żadne włamanie, żadna kontrola graniczna nie odbierze ci jej.",
+	"memorize_seed_intro_p3": "Dla niemal każdego zapamiętanie powinno być uzupełnieniem fizycznej kopii zapasowej, a nie jej zamiennikiem. Więcej o tym za chwilę.",
+
+	"memorize_seed_not_brain_wallet_heading": "To nie jest „brain wallet”",
+	"memorize_seed_callout_good_label": "Zapamiętywanie frazy odzyskiwania",
+	"memorize_seed_callout_good_desc": "Słowa wygenerowane przez portfel sprzętowy. Wysoka entropia. Bezpiecznie jest przechowywać kopię w głowie.",
+	"memorize_seed_callout_bad_label": "„Brain wallet” (portfel mózgowy)",
+	"memorize_seed_callout_bad_desc": "Klucz wyprowadzony z hasła, które sam wymyśliłeś. Złamany. Opróżniany w kilka sekund.",
+	"memorize_seed_not_brain_wallet_p1_a": "We wczesnych dniach Bitcoina ludzie eksperymentowali z generowaniem kluczy prywatnych z haseł, które sami wymyślali. Metoda ta nazywała się",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet",
+	"memorize_seed_not_brain_wallet_p1_c": "i była katastrofą. Hakerzy pisali skrypty, które zgadywały popularne hasła i opróżniały portfele w kilka sekund.",
+	"memorize_seed_not_brain_wallet_p2": "To, co tutaj zapamiętujesz, jest czymś innym. Słowa pochodzą ze źródła losowości w portfelu sprzętowym, a nie z twojej wyobraźni. Nie są czymś, co skrypt może zgadnąć.",
+	"memorize_seed_not_brain_wallet_p3": "Twoja fraza odzyskiwania ma wysoką entropię. Przechowywanie jej kopii w głowie nie osłabia jej. Po prostu zapisuje ją w jeszcze jednym miejscu.",
+
+	"memorize_seed_when_helpful_heading": "Kiedy zapamiętanie pomaga",
+	"memorize_seed_when_helpful_p1": "Zapamiętanie błyszczy, gdy fizyczne kopie zapasowe zawodzą. Klęska żywiołowa niszczy twój dom i znajdującą się w nim stalową płytkę. Powódź. Pożar. Ewakuacja. Kradzież. Przejście graniczne, na którym nie możesz nieść niczego, co wygląda na majątek.",
+	"memorize_seed_when_helpful_p2": "Pomaga też w krótkim okresie. Podróżowanie bez kopii zapasowej jest znacznie mniej stresujące, gdy możesz odzyskać swój portfel z dowolnego miejsca na świecie.",
+	"memorize_seed_when_helpful_p3": "To także kolejna warstwa redundancji. Jeśli powódź, pożar i złodziej uderzą w tym samym tygodniu, to właśnie zapamiętana wersja sprowadzi cię do domu.",
+
+	"memorize_seed_rules_heading": "Najpierw ustal zasady bezpieczeństwa",
+	"memorize_seed_rules_p1": "Zanim cokolwiek zapamiętasz, zabezpiecz podstawy. Twoja fraza odzyskiwania to najważniejsze hasło — chroń ją za wszelką cenę.",
+	"memorize_seed_rules_p2": "<strong>Wygeneruj ją na prawdziwym portfelu Bitcoin,</strong> nie na stronie internetowej ani w aplikacji telefonicznej, której nie ufasz. Całe ćwiczenie zależy od tego, by słowa pochodziły z prawdziwego źródła losowości.",
+	"memorize_seed_rules_p3": "<strong>Zachowaj przynajmniej jedną fizyczną kopię zapasową.</strong> Papier lub stal, w więcej niż jednym bezpiecznym miejscu. Zapamiętanie jest dodatkiem do tego — nie zamiennikiem.",
+	"memorize_seed_rules_p4": "<strong>Nigdy nie wypowiadaj słów na głos.</strong> Ani do siebie, ani pod nosem. Telefony i asystenci głosowi słyszą więcej, niż ci się wydaje.",
+	"memorize_seed_rules_p5": "<strong>Nigdy nie wpisuj ich nigdzie.</strong> Żadnej aplikacji do notatek, żadnego arkusza kalkulacyjnego, żadnej zaszyfrowanej notatki, żadnego „tylko dla testu”. Każdą klawiaturę i każdy ekran traktuj jak publiczną transmisję.",
+	"memorize_seed_rules_p6": "<strong>Pracuj na osobności podczas powtarzania.</strong> Zamknij drzwi. Zasłoń wszystkie kamery skierowane w twoją stronę — w tym kamerę w laptopie. Zaciągnij rolety. Schowaj słowa z powrotem do bezpiecznego miejsca, gdy tylko skończysz powtarzać.",
+
+	"memorize_seed_technique_heading": "Jak zapamiętać frazę odzyskiwania",
+	"memorize_seed_technique_p1": "Losowe słowa są trudniejsze do zapamiętania niż zdanie, ale łatwiejsze, niż się wydaje. Frazy odzyskiwania mają zazwyczaj dwanaście lub dwadzieścia cztery słowa, w zależności od portfela i jego ustawień. Każda z tych liczb układa się w rytm, jeśli mu go nadasz.",
+	"memorize_seed_technique_p2": "<strong>Podziel frazę na fragmenty.</strong> Dwanaście słów dzieli się czysto na trzy grupy po cztery lub cztery grupy po trzy. Dwadzieścia cztery słowa stają się czterema grupami po sześć lub sześcioma grupami po cztery. Mniejsze grupy łatwiej utrwalić.",
+	"memorize_seed_technique_p3": "<strong>Zbuduj historię.</strong> Każdy fragment staje się żywą małą scenką. Niech będą dziwne i konkretne — mózg zapamiętuje to, co niezwykłe. „Niebieski słoń żonglujący kaktusami na fortepianie” utkwi ci w głowie. „Jakieś słowa o zwierzętach i muzyce” — nie.",
+	"memorize_seed_technique_p4": "<strong>Użyj pałacu pamięci.</strong> Wyobraź sobie miejsce, które dobrze znasz — swoją kuchnię, drogę do pracy, swoją sypialnię z dzieciństwa. Umieść każde słowo w konkretnym punkcie. Przejdź się po tej trasie w myślach, by przypomnieć sobie kolejność.",
+	"memorize_seed_technique_p5": "<strong>Rymuj je lub śpiewaj.</strong> Wybierz melodię, którą już znasz, i dopasuj słowa do jej rytmu. Piosenki dobrze się trzymają.",
+	"memorize_seed_technique_p6": "Wybierz tę metodę, która wydaje ci się naturalna. Większość osób kończy na łączeniu dwóch — fragmenty plus historia albo pałac pamięci ułożony w melodię. Wybierz to, co działa najlepiej dla ciebie.",
+
+	"memorize_seed_repetition_heading": "Wpleć powtarzanie w swój dzień",
+	"memorize_seed_repetition_p1": "Sztuczka polega na ilości, a nie na wysiłku. Powiąż powtarzanie z czymś, co już robisz codziennie, a powtórzenia same się zsumują, a ty nawet o tym nie pomyślisz.",
+	"memorize_seed_repetition_p2": "Mycie zębów dwa razy dziennie to czternaście powtórzeń tygodniowo. Gotowanie kolacji. Spacer z psem. Jazda do pracy. Zasypianie. Prysznic. Wybierz jedną lub dwie codzienne czynności i pozwól słowom ci towarzyszyć.",
+	"memorize_seed_repetition_p3": "Przejdź je w głowie — w ciszy, z zamkniętymi ustami. Nie szepcz. Nie poruszaj ustami. Cała sprawa polega na tym, by nikt się nie zorientował, że to robisz.",
+	"memorize_seed_repetition_p4": "Po kilku tygodniach słowa przestają być czymś, co musisz sobie przypomnieć, a stają się czymś, co po prostu wiesz. Utrzymuj rutynę przez miesiąc lub dwa, by naprawdę się utrwaliła. Później wracaj do niej raz w tygodniu, żeby pozostała świeża.",
+
+	"memorize_seed_test_heading": "Sprawdź się, nie zostawiając śladu",
+	"memorize_seed_test_p1": "Raz w tygodniu udowodnij sobie, że naprawdę znasz frazę. Pamięć potrafi zwodzić — coś może wydawać się znajome, choć nie jest dokładne.",
+	"memorize_seed_test_p2": "<strong>Znajdź prywatne miejsce</strong>, w którym żadna kamera nie jest skierowana w twoją stronę, w tym kamera w twoim laptopie. Zamknij drzwi. Zaciągnij rolety.",
+	"memorize_seed_test_p3": "<strong>Zapisz słowa na papierze</strong>, po kolei. Porównaj je ze swoją fizyczną kopią zapasową, a nie z pamięcią. Cała sprawa polega na wyłapaniu błędu, którego twoja pamięć nie widzi.",
+	"memorize_seed_test_p4": "<strong>Zniszcz papier całkowicie.</strong> Pociach go w niszczarce. Spal go. Nie wyrzucaj całej kartki do kosza. Jeśli pomyliłeś jakieś słowa, zrób kilka dodatkowych rund codziennego powtarzania i spróbuj ponownie w przyszłym tygodniu.",
+
+	"memorize_seed_dont_rely_heading": "Nie polegaj wyłącznie na pamięci",
+	"memorize_seed_dont_rely_p1": "Pamięć jest niezawodna, dopóki nie jest. Stres, wiek, choroba, uraz głowy lub po prostu wystarczająco długa przerwa między powtórzeniami mogą wymazać frazę. W Bitcoinie nie ma linku „forgot password”.",
+	"memorize_seed_dont_rely_p2": "Traktuj zapamiętanie jak równoległą kopię zapasową. Twoja fizyczna kopia zapasowa to fundament. Wersja w twojej głowie to redundancja. Jeśli katastrofa zniszczy fundament, redundancja sprowadzi cię do domu.",
+	"memorize_seed_dont_rely_p3": "Jedyne sytuacje, które usprawiedliwiają przechowywanie tylko w pamięci, są ekstremalne: ucieczka ze strefy wojny, ucieczka przed prześladowaniami autorytarnego reżimu, przekraczanie granicy z aktywami, które zostałyby skonfiskowane. A nawet wtedy dobrze jest stworzyć nową fizyczną kopię zapasową, gdy znajdziesz się w bezpiecznym miejscu.",
+
+	"memorize_seed_card_wallets_label": "Skonfiguruj to dobrze",
+	"memorize_seed_card_wallets_title": "Wygeneruj swoją frazę odzyskiwania na prawdziwym portfelu Bitcoin",
+	"memorize_seed_card_wallets_source": "Źródło: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemoniczny kod do generowania kluczy deterministycznych",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — praca naukowa o brain walletach: The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

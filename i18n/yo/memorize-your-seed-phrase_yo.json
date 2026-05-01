@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "yo"
+	},
+	"memorize_seed_page_title": "Bí O Ṣe Lè Pamó́ Bitcoin Sínú Ọpọlọ Rẹ",
+	"memorize_seed_page_description": "Bí o ṣe lè fi ọ̀rọ̀ ìgbapadà Bitcoin rẹ pamó́ sí ìrántí láìséwu gẹ́gẹ́ bí àfìípamó́ aláìríran. Àwọn ọ̀nà tó wúlò, àwọn òfin ààbò, àti ìdí tí ìrántí kò fi gbọ́dọ̀ jẹ́ àfìípamó́ kanṣoṣo rẹ.",
+	"memorize_seed_h1_title": "Bí o ṣe lè pamó́ Bitcoin sínú ọpọlọ rẹ: àfìípamó́ aláìríran tó ń bá ọ rìn lọ síbikíbi tí o bá lọ",
+
+	"memorize_seed_intro_heading": "Àfìípamó́ tí ẹnikẹ́ni kò lè rí",
+	"memorize_seed_intro_p1": "Ọ̀rọ̀ ìgbapadà rẹ ni kókóró pàtàkì sí Bitcoin rẹ. Ọ̀pọ̀lọpọ̀ ènìyàn ń ṣe àfìípamó́ rẹ̀ sórí bébà tàbí irin. Ìrántí jẹ́ àfìípamó́ míràn tí o lè ṣàfikún sórí ìwọ̀nyẹn.",
+	"memorize_seed_intro_p2": "Aláìríran. Aláìnírẹ̀wẹ̀sì. Iwọ nìkan ló mọ̀ ọ́n. Iná, jíjà, tàbí àyẹ̀wò ààlà kò lè gbà á lọ́wọ́ rẹ.",
+	"memorize_seed_intro_p3": "Fún ọ̀pọ̀lọpọ̀ ènìyàn, ìrántí gbọ́dọ̀ wà ní ipò sórí àfìípamó́ ti ara, kì í ṣe ní ipò rẹ̀. Síwájú síi nípa èyí lẹ́yìn-ọ̀-rẹ̀wá.",
+
+	"memorize_seed_not_brain_wallet_heading": "Èyí kì í ṣe \"àpò owó ọpọlọ\"",
+	"memorize_seed_callout_good_label": "Kíkọ̀ọ́ ọ̀rọ̀ ìgbapadà sórí",
+	"memorize_seed_callout_good_desc": "Àwọn ọ̀rọ̀ tí àpò owó ohun-èlò ṣẹ̀dá. Aláìṣètò gíga. Láàbò láti pamó́ ẹ̀dà rẹ̀ sínú orí rẹ.",
+	"memorize_seed_callout_bad_label": "Àpò owó ọpọlọ",
+	"memorize_seed_callout_bad_desc": "Kókóró tí a pa lát'ara ọ̀rọ̀-ìgbaniwọlé tí o ṣẹ̀dá fúnrarẹ. Ó ti bàjẹ́. A tú u ṣòfò ní àwọn ìṣẹ́jú ààyá.",
+	"memorize_seed_not_brain_wallet_p1_a": "Ní àwọn ọjọ́ àkọ́kọ́ Bitcoin, àwọn ènìyàn ń gbìyànjú láti pa àwọn kókóró ìkọ̀kọ̀ lát'ara àwọn ọ̀rọ̀-ìgbaniwọlé tí wọ́n ṣẹ̀dá fúnra wọn. A pe ọ̀nà náà ní",
+	"memorize_seed_not_brain_wallet_p1_b": "àpò owó ọpọlọ,",
+	"memorize_seed_not_brain_wallet_p1_c": "ó sì jẹ́ àjálù ńlá. Àwọn olè-ayélujára kọ àwọn àpótí afọwọ́ṣe láti gbìyànjú àwọn ọ̀rọ̀-ìgbaniwọlé tí ó wọ́pọ̀, wọ́n sì tú àwọn àpò owó ṣòfò ní àwọn ìṣẹ́jú ààyá.",
+	"memorize_seed_not_brain_wallet_p2": "Ohun tí o ń kọ̀ọ́ sórí níbí yàtọ̀. Àwọn ọ̀rọ̀ náà wá lát'ara orísun àìṣètò àpò owó ohun-èlò, kì í ṣe lát'ara ìrònú rẹ. Wọn kì í ṣe nǹkan tí àpótí afọwọ́ṣe lè gbìyànjú.",
+	"memorize_seed_not_brain_wallet_p3": "Ọ̀rọ̀ ìgbapadà rẹ jẹ́ aláìṣètò gíga. Pípamó́ ẹ̀dà rẹ̀ sínú orí rẹ kì í dín agbára rẹ̀ kù. Ó kàn pamó́ ọ̀ ní ibòmíràn.",
+
+	"memorize_seed_when_helpful_heading": "Nígbà tí ìrántí ń ràn ọ́ ló́wó́",
+	"memorize_seed_when_helpful_p1": "Ìrántí máa ń tàn nígbà tí àwọn àfìípamó́ ti ara bá kùnà. Àjálù aladayeba kan pa ilé rẹ rẹ́ pẹ̀lú àwo irin tó wà nínú rẹ̀. Ìkùnomi. Iná. Ìfilọ́sí. Olè jíjà. Àyẹ̀wò ààlà kan níbi tí o kò lè rù ohunkóhun tó dàbí ọrọ̀.",
+	"memorize_seed_when_helpful_p2": "Ó tún ń ràn ọ́ ló́wó́ ní àkókò kúkúrú. Ìrìn-àjò láì ní àfìípamó́ ní ìnira díẹ̀ síì nígbà tí o lè gba àpò owó rẹ padà láti ibikíbi ní àgbáyé.",
+	"memorize_seed_when_helpful_p3": "Ó sì jẹ́ ìpele míràn ti àìfọ̀ìkàn. Tí ìkùnomi, iná, àti olè bá lù ọ̀sẹ̀ kan náà, ẹ̀dà tí o ti kọ̀ọ́ sórí ni ó ń mú ọ délé.",
+
+	"memorize_seed_rules_heading": "Gbé àwọn òfin ààbò kalẹ̀ ní àkọ́kọ́",
+	"memorize_seed_rules_p1": "Kí o tó kọ ohunkóhun sórí, fi ìpìlẹ̀ múlẹ̀. Ọ̀rọ̀ ìgbapadà rẹ ni ọ̀rọ̀-ìgbaniwọlé tó ga jùlọ — dáàbò bò ó pẹ̀lú gbogbo agbára rẹ.",
+	"memorize_seed_rules_p2": "<strong>Ṣẹ̀dá rẹ̀ sórí àpò owó Bitcoin gidi,</strong> kì í ṣe sórí ojú-òpó wẹ́ẹ̀bù tàbí àpù fóònù tí o kò gbẹ́kẹ̀lé. Gbogbo àdánwò náà sinmi lé àwọn ọ̀rọ̀ tó wá lát'ara orísun àìṣètò gidi.",
+	"memorize_seed_rules_p3": "<strong>Pa ọ̀kan tàbí àfìípamó́ ti ara mọ́.</strong> Bébà tàbí irin, ní ibi ààbò ju ọ̀kan lọ. Ìrántí wà sórí èyí — kì í ṣe àrọ́pò.",
+	"memorize_seed_rules_p4": "<strong>Má sọ àwọn ọ̀rọ̀ náà jáde rárá.</strong> Kì í ṣe sí ara rẹ, kì í ṣe lábẹ́ ìmí rẹ. Àwọn fóònù àti àwọn olùrànlọ́wọ́ ohùn ń gbọ́ ju bí o ṣe rò lọ.",
+	"memorize_seed_rules_p5": "<strong>Má kọ wọ́n sínú nǹkankan rárá.</strong> Kò sí àpù àkọsílẹ̀, kò sí àkọsílẹ̀ ètò, kò sí àkọsílẹ̀ tí a fi ààmì pamó́, kò sí \"láti dán an wò.\" Ka kíìbọ́ọ̀dù tàbí àyà-òrùn èyíkéyìí sí ìpolówó gbangba.",
+	"memorize_seed_rules_p6": "<strong>Ṣiṣẹ́ ní àdáni nígbà tí o ń ṣàyẹ̀wò.</strong> Ti ilẹ̀kùn. Bo àwọn kámérà tí ń tọ́ka sí ọ — pẹ̀lú kámérà-wẹ́ẹ̀bù lápùpù rẹ. Fa àwọn arùgbọ́n. Fi àwọn ọ̀rọ̀ náà padà sí ìbi ìpamó́ ní àkókò tí o bá dáwọ́ ìṣàyẹ̀wò dúró.",
+
+	"memorize_seed_technique_heading": "Bí o ṣe lè kọ ọ̀rọ̀ ìgbapadà rẹ sórí",
+	"memorize_seed_technique_p1": "Àwọn ọ̀rọ̀ àìṣètò ṣòro láti rántí ju gbólóhùn lọ, ṣùgbọ́n ó rọ̀rùn ju bí ó ṣe rí lọ. Àwọn ọ̀rọ̀ ìgbapadà sábà máa ń jẹ́ ọ̀rọ̀ méjìlá tàbí ọ̀rọ̀ mẹ́rìnlélógún tó dá lórí àpò owó rẹ àti ètò rẹ̀. Èyíkéyìí nínú àwọn iye náà tẹ̀lé orin tí o bá fún un.",
+	"memorize_seed_technique_p2": "<strong>Pín gbólóhùn náà sí àwọn ẹ̀ka.</strong> Ọ̀rọ̀ méjìlá pín ní mímọ̀ sí àwùjọ mẹ́ta tó ní mẹ́rin mẹ́rin, tàbí àwùjọ mẹ́rin tó ní mẹ́ta mẹ́ta. Ọ̀rọ̀ mẹ́rìnlélógún di àwùjọ mẹ́rin tó ní mẹ́fà mẹ́fà tàbí àwùjọ mẹ́fà tó ní mẹ́rin mẹ́rin. Ó rọ̀rùn láti gbé àwọn àwùjọ kéékèèké múlẹ̀.",
+	"memorize_seed_technique_p3": "<strong>Kọ́ ìtàn kan.</strong> Gbogbo ẹ̀ka di ìran kékeré tí ó han kedere. Jẹ́ kí wọ́n máa ṣàjèjì kí o sì sàlàyé wọn — ọpọlọ máa ń rántí ohun àjèjì. \"Erin aláwọ̀ búlúù tó ń ju eégún sókè lórí duru\" máa ń wà nígbàgbogbo. \"Àwọn ọ̀rọ̀ kan nípa àwọn ẹranko àti orin\" kò ní wà.",
+	"memorize_seed_technique_p4": "<strong>Lo ààfin ìrántí.</strong> Wo ibi tí o mọ̀ dáadáa — ilé-ìdáná rẹ, ọ̀nà tí o ń tẹ̀lé sí ibi iṣẹ́, yàrá ìgbà ọmọdé rẹ. Fi ọ̀rọ̀ kọ̀ọ̀kan sí ààmì pàtó kan. Rìn ọ̀nà náà nínú ọkàn rẹ láti rántí ètò rẹ̀.",
+	"memorize_seed_technique_p5": "<strong>Ṣe é ní àfọwọ́sọ tàbí kọ́ ọ.</strong> Yan orin tí o ti mọ̀ kí o sì fi àwọn ọ̀rọ̀ náà mu nínú orin náà. Àwọn orin máa ń lẹ̀ mọ́.",
+	"memorize_seed_technique_p6": "Yan ọ̀nà èyíkéyìí tí ó bá ọ. Ọ̀pọ̀lọpọ̀ ènìyàn ń darapọ̀ méjì ní ìparí — àwọn ẹ̀ka pẹ̀lú ìtàn, tàbí ààfin ìrántí tó ní orin. Yan ohun tó dára jùlọ fún ọ.",
+
+	"memorize_seed_repetition_heading": "Mú ìṣètúnṣe di apá kan ọjọ́ rẹ",
+	"memorize_seed_repetition_p1": "Ọgbọ́n náà jẹ́ iye, kì í ṣe ìsapá. So ìṣàyẹ̀wò rẹ pọ̀ mọ́ ohun tí o ti ń ṣe ní ojoojúmọ́, àwọn ìṣèyán yóò sì túbọ̀ pọ̀ sí láì ronú nípa wọn.",
+	"memorize_seed_repetition_p2": "Fífọ eyín lẹ́ẹ̀mejì lójúmọ́ jẹ́ ìṣàyẹ̀wò mẹ́rìnlá ní ọ̀sẹ̀ kan. Sísè oúnjẹ alẹ́. Rírìn pẹ̀lú ajá. Wíwakọ̀ sí ibi iṣẹ́. Sísùn. Wíwẹ̀. Yan ìgbésẹ̀ kan tàbí méjì kí o sì fi àwọn ọ̀rọ̀ náà bá wọn rìn.",
+	"memorize_seed_repetition_p3": "Sá wọn lójú nínú orí rẹ — ní ìdákẹ́jẹ́, ètè rẹ ti pa. Má sọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́. Má fi ẹnu rẹ rìn. Gbogbo èrò ni pé ẹnikẹ́ni kò ní lè mọ̀ pé o ń ṣe é.",
+	"memorize_seed_repetition_p4": "Lẹ́yìn ọ̀sẹ̀ méjì-mẹ́ta, àwọn ọ̀rọ̀ náà yóò dẹ́kun láti jẹ́ nǹkan tí o gbọ́dọ̀ rántí, yóò sì bẹ̀rẹ̀ sí jẹ́ nǹkan tí o kàn mọ̀. Mú ìgbésẹ̀ náà tẹ̀síwájú fún oṣù kan tàbí méjì kí ó lè wà múlẹ̀ ní gidi. Lẹ́yìn náà, padà nígbà kan ní ọ̀sẹ̀ kan láti pa á mọ́ tuntun.",
+
+	"memorize_seed_test_heading": "Dán ara rẹ wò láì fi àmì kan sílẹ̀",
+	"memorize_seed_test_p1": "Ní ẹ̀ẹ̀kan ní ọ̀sẹ̀ kan, fi hàn fún ara rẹ pé o mọ̀ gbólóhùn náà ní gidi. Ìrántí jẹ́ atànjẹ — ó lè dàbí ohun tí a mọ̀ láì jẹ́ òtítọ́.",
+	"memorize_seed_test_p2": "<strong>Wá ibi àdáni</strong> tí kò ní kámérà tó tọ́ka sí ọ, pẹ̀lú kámérà-wẹ́ẹ̀bù lápùpù tirẹ. Ti ilẹ̀kùn. Fa àwọn arùgbọ́n.",
+	"memorize_seed_test_p3": "<strong>Kọ àwọn ọ̀rọ̀ náà sórí bébà</strong>, ní ètò. Fi wọ́n wé àfìípamó́ ti ara rẹ, kì í ṣe ìrántí rẹ. Gbogbo èrò ni láti rí àṣìṣe tí ìrántí rẹ kò lè rí.",
+	"memorize_seed_test_p4": "<strong>Pa bébà náà run pátápátá.</strong> Ya á sí wẹ́wẹ́. Sun ún. Má jù gbogbo ìwé sínú apótí ìdọ̀tí. Tí o bá pàdánù àwọn ọ̀rọ̀ kan, ṣe àwọn ọ̀sẹ̀ àfikún ti ìṣàyẹ̀wò ìgbésẹ̀ díẹ̀ kí o sì gbìyànjú lẹ́ẹ̀kan síi ní ọ̀sẹ̀ tó ń bọ̀.",
+
+	"memorize_seed_dont_rely_heading": "Má gbẹ́kẹ̀lé ìrántí nìkan",
+	"memorize_seed_dont_rely_p1": "Ìrántí máa ń ṣe ojúṣe títí ó fi dáwọ́ dúró. Ìnira, ọjọ́-orí, àìsàn, ìpalára orí, tàbí àyè gígùn nínú àwọn ìṣàyẹ̀wò lè pa gbólóhùn kan rẹ́. Kò sí ọ̀nà \"gbàgbé ọ̀rọ̀-ìgbaniwọlé\" fún Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Mú ìrántí gẹ́gẹ́ bí àfìípamó́ tí ó parapọ̀. Àfìípamó́ ti ara rẹ ni ìpìlẹ̀. Ẹ̀dà tó wà nínú orí rẹ ni àìfọ̀ìkàn. Tí àjálù bá pa ìpìlẹ̀ rẹ́, àìfọ̀ìkàn ni ó ń mú ọ délé.",
+	"memorize_seed_dont_rely_p3": "Àwọn ìṣẹ̀lẹ̀ kanṣoṣo tó ṣe ìdílé fún ìpamó́-ìrántí-nìkan jẹ́ àyẹ̀: sálo nínú agbègbè ogun, sálo lọ́wọ́ ìnìlàrà ìjọba, kíkọjá ààlà pẹ̀lú àwọn ọrọ̀ tí a yóò gbà. Bí ó tilẹ̀ jẹ́ bẹ́ẹ̀, ó dára láti ṣẹ̀dá àfìípamó́ ti ara tuntun nígbà tí o bá dé ibi ààbò.",
+
+	"memorize_seed_card_wallets_label": "Ṣètò rẹ̀ dáadáa",
+	"memorize_seed_card_wallets_title": "Ṣẹ̀dá ọ̀rọ̀ ìgbapadà rẹ sórí àpò owó Bitcoin gidi",
+	"memorize_seed_card_wallets_source": "Orísun: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Kóòdù onírántí fún ṣíṣẹ̀dá àwọn kókóró tí a lè pinnu",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — Ìṣàyẹ̀wò lílò àti ìlòkulò àwọn àpò owó ọpọlọ Bitcoin (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

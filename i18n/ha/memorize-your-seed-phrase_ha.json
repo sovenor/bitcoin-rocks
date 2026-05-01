@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ha"
+	},
+	"memorize_seed_page_title": "Yadda Ake Ajiye Bitcoin a Cikin Kwakwalwarka",
+	"memorize_seed_page_description": "Yadda za ka haddace kalmar iri ta Bitcoin ɗinka cikin aminci a matsayin madadi marar ganuwa. Hanyoyi masu amfani, dokokin tsaro, da dalilin da ya sa haddacewa ba kasafai za ta zama madadinka kaɗai ba.",
+	"memorize_seed_h1_title": "Yadda ake ajiye Bitcoin a cikin kwakwalwarka: madadi marar ganuwa wanda ke tafiya tare da kai duk inda ka tafi",
+
+	"memorize_seed_intro_heading": "Madadi da babu wanda zai iya gani",
+	"memorize_seed_intro_p1": "Kalmar iri taka ita ce babbar makullin Bitcoin ɗinka. Yawancin mutane suna yin madadinta a takarda ko ƙarfe. Haddacewa ƙarin madadi ɗaya ne da za ka iya ƙarawa a kai.",
+	"memorize_seed_intro_p2": "Marar ganuwa. Ba ta da nauyi. Sai kai kaɗai ka san ta. Babu wuta, babu sata, babu binciken kan iyaka da zai iya kwace ta daga gare ka.",
+	"memorize_seed_intro_p3": "Ga kusan kowa, haddacewa tana a kan madadi na zahiri, ba a maimakon sa ba. Za mu yi ƙarin bayani daga baya.",
+
+	"memorize_seed_not_brain_wallet_heading": "Wannan ba \"brain wallet\" ba ne",
+	"memorize_seed_callout_good_label": "Haddace kalmar iri",
+	"memorize_seed_callout_good_desc": "Kalmomin da wallet na kayan masarufi ya samar. Mai yawan rashin tsari. Lafiya a ajiye kwafi a cikin kwakwalwarka.",
+	"memorize_seed_callout_bad_label": "Brain wallet",
+	"memorize_seed_callout_bad_desc": "Makulli wanda aka samar daga kalmar sirri da ka ƙirƙira da kanka. Ya gaza. Ana zubar da shi cikin daƙiƙu.",
+	"memorize_seed_not_brain_wallet_p1_a": "A farkon zamanin Bitcoin, mutane sun yi gwaji wajen samar da makullai na sirri daga kalmomin sirri da suka ƙirƙira da kansu. Wannan hanyar ana kiranta",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "kuma ta zama bala'i. Hackers sun rubuta rubutattun shirye-shirye don tsammanin kalmomin sirri na yau da kullum sun zubar da wallets cikin daƙiƙu.",
+	"memorize_seed_not_brain_wallet_p2": "Abin da kake haddacewa a nan ya bambanta. Kalmomin sun fito daga tushen rashin tsari na wallet na kayan masarufi, ba daga tunaninka ba. Ba abu ba ne da rubutaccen shiri zai iya tsammani.",
+	"memorize_seed_not_brain_wallet_p3": "Kalmar iri taka tana da yawan rashin tsari. Ajiye kwafinta a cikin kwakwalwarka ba ya raunana ta. Kawai yana ajiye ta a wani wuri kuma.",
+
+	"memorize_seed_when_helpful_heading": "Lokacin da haddacewa take taimakawa",
+	"memorize_seed_when_helpful_p1": "Haddacewa tana haskakawa lokacin da madadi na zahiri suka gaza. Bala'in halitta yana lalata gidanka da farantin ƙarfe da ke ciki. Ambaliya. Gobara. Ƙaura. Sata. Ƙetare iyaka inda ba za ka iya ɗauke da kowane abu da yake kama da dukiya ba.",
+	"memorize_seed_when_helpful_p2": "Tana kuma taimakawa cikin ɗan gajeren lokaci. Yawo ba tare da madadi ba ya yi ƙasa da damuwa lokacin da za ka iya dawo da wallet ɗinka daga ko'ina a duniya.",
+	"memorize_seed_when_helpful_p3": "Kuma ƙarin madadi ɗaya ne. Idan ambaliya, gobara, da ɓarawo duka suka faru a mako ɗaya, sigar da ka haddace ita ce za ta dawo da kai gida.",
+
+	"memorize_seed_rules_heading": "Saita dokokin tsaro tukuna",
+	"memorize_seed_rules_p1": "Kafin ka haddace komai, ka kulle ƙa'idodin asali. Kalmar iri taka ita ce babbar kalmar sirri — ka kiyaye ta a kowane hali.",
+	"memorize_seed_rules_p2": "<strong>Samar da ita a kan ainihin wallet ɗin Bitcoin,</strong> ba a kan gidan yanar gizo ko manhajar waya da ba ka amince da ita ba. Dukan aikin ya dogara ga kalmomi su fito daga ainihin tushen rashin tsari.",
+	"memorize_seed_rules_p3": "<strong>Riƙe aƙalla madadi ɗaya na zahiri.</strong> Takarda ko ƙarfe, a wurare masu aminci fiye da ɗaya. Haddacewa tana sama da wannan — ba a maimakon ba.",
+	"memorize_seed_rules_p4": "<strong>Kada ka taɓa furta kalmomin da babbar murya.</strong> Ba ga kanka ba, ba cikin numfashinka ba. Wayoyi da masu taimakon murya suna ji fiye da yadda kake tunani.",
+	"memorize_seed_rules_p5": "<strong>Kada ka taɓa rubuta su a wani abu.</strong> Babu manhajar bayanan kula, babu spreadsheet, babu rubutu mai ɓoye, babu \"don a gwada kawai.\" Ka ɗauki kowane keyboard ko allon a matsayin watsa labarai na jama'a.",
+	"memorize_seed_rules_p6": "<strong>Yi aiki cikin asiri lokacin da kake bita.</strong> Rufe ƙofar. Rufe duk wani kyamara da yake fuskantar ka — har da kyamarar laptop ɗinka. Ja labulen. Mayar da kalmomin zuwa ajiya nan da nan da ka daina bita.",
+
+	"memorize_seed_technique_heading": "Yadda ake haddace kalmar iri taka",
+	"memorize_seed_technique_p1": "Kalmomi marasa tsari sun fi wahalar tunawa fiye da jumla, amma sun fi sauƙi fiye da yadda suke kama. Yawanci kalmomin iri suna da kalmomi goma sha biyu ko ashirin da huɗu dangane da wallet ɗinka da saitunan sa. Kowane adadi yana bin kari idan ka ba shi.",
+	"memorize_seed_technique_p2": "<strong>Raba kalmar zuwa ƙananan ɓangarori.</strong> Kalmomi goma sha biyu sun raba lafiya zuwa ƙungiyoyi uku na huɗu, ko ƙungiyoyi huɗu na uku. Kalmomi ashirin da huɗu sun zama ƙungiyoyi huɗu na shida ko ƙungiyoyi shida na huɗu. Ƙananan ƙungiyoyi sun fi sauƙin kullewa.",
+	"memorize_seed_technique_p3": "<strong>Gina labari.</strong> Kowane ɓangare ya zama wani ƙaramin yanayi mai bayyananne. Yi su ban mamaki kuma a takamaice — kwakwalwa tana tuna abubuwan da ba a saba ba. \"Giwa mai shuɗi tana yin juggle da cactuses a kan piano\" tana zama. \"Wasu kalmomi game da dabbobi da kiɗa\" ba ta zama ba.",
+	"memorize_seed_technique_p4": "<strong>Yi amfani da fadar tunawa.</strong> Hoton wuri da ka sani sosai — ɗakin girkinka, hanyar zuwa aiki, ɗakin ƙuruciyarka. Saka kowace kalma a takamaiman alama. Tafiya hanyar a tunani don tuna oda.",
+	"memorize_seed_technique_p5": "<strong>Yi ta a matsayin waƙa ko rera ta.</strong> Zaɓi waƙar da ka riga ka sani kuma ka shigar da kalmomin cikin kari. Waƙoƙi suna mannewa.",
+	"memorize_seed_technique_p6": "Zaɓi hanyar da take jin ta dabi'a. Yawancin mutane sun ƙare da haɗa biyu — ɓangarori tare da labari, ko fadar tunawa da aka saita zuwa waƙa. Zaɓi duk abin da ya fi maka aiki.",
+
+	"memorize_seed_repetition_heading": "Sa maimaitawa ya zama wani ɓangare na ranarka",
+	"memorize_seed_repetition_p1": "Sirri shine yawa, ba ƙoƙari ba. Haɗa bita ɗinka da wani abu da ka riga ka yi kowace rana, sai maimaitawar ta tara ba tare da ka yi tunaninta ba.",
+	"memorize_seed_repetition_p2": "Goge haƙora sau biyu a rana shine bita goma sha huɗu a mako. Girka abincin dare. Yawo da kare. Tuƙi zuwa aiki. Lokacin barci. Yin wanka. Zaɓi ɗaya ko biyu na ayyukan yau da kullun kuma ka bar kalmomin su yi tafiya tare.",
+	"memorize_seed_repetition_p3": "Bi ta cikinsu a kwakwalwarka — cikin shiru, leɓe a rufe. Kada ka ruɗa. Kada ka motsa bakinka. Manufar gaba ɗaya ita ce babu wanda zai iya gane kana yi.",
+	"memorize_seed_repetition_p4": "Bayan makonni biyu, kalmomin sun daina zama abin da ya zama dole ka tuna sun fara zama abin da kawai ka sani. Ci gaba da ayyukan na wata ɗaya ko biyu don ya manne da gaske. Bi ta ciki sau ɗaya a mako bayan haka don kiyaye shi sabo.",
+
+	"memorize_seed_test_heading": "Gwada kanka ba tare da barin alama ba",
+	"memorize_seed_test_p1": "Sau ɗaya a mako, tabbatar wa kanka cewa kana sane da kalmar a zahiri. Tunawa tana yaudara — tana iya ji da sani ba tare da kasancewa madaidaiciya ba.",
+	"memorize_seed_test_p2": "<strong>Sami wuri mai zaman kansa</strong> ba tare da kyamarori da ke fuskantar ka ba, har da kyamarar laptop ɗinka. Kulle ƙofar. Ja labulen.",
+	"memorize_seed_test_p3": "<strong>Rubuta kalmomin a takarda</strong>, cikin oda. Kwatanta su da madadinka na zahiri, ba da tunawarka ba. Manufar gaba ɗaya ita ce kama kuskuren da tunawarka ba za ta iya gani ba.",
+	"memorize_seed_test_p4": "<strong>Lalata takarda gaba ɗaya.</strong> Yanke ta. Ƙona ta. Kada ka jefa duk takarda a cikin kwandon shara. Idan ka rasa kowane kalma, yi 'yan ƙarin zagaye na bita na yau da kullum kuma ka sake gwadawa mako mai zuwa.",
+
+	"memorize_seed_dont_rely_heading": "Kada ka dogara ga tunawa kawai",
+	"memorize_seed_dont_rely_p1": "Tunawa abin dogara ce sai dai lokacin da ba ta ba. Damuwa, shekaru, rashin lafiya, raunin kai, ko kawai dogon lokaci tsakanin bita zai iya share kalma. Babu hanyar haɗi ta \"forgot password\" ga Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Ka ɗauki haddacewa a matsayin madadi mai daidaitawa. Madadinka na zahiri shine tushe. Sigar da ke cikin kwakwalwarka shine ƙarin tabbaci. Idan bala'i ya ɗauke tushe, ƙarin tabbacin ne ya dawo da kai gida.",
+	"memorize_seed_dont_rely_p3": "Kawai yanayin da ke ba da hujjar ajiyar tunawa kaɗai ne masu tsananin: tserewa daga yankin yaƙi, tserewa daga zaluncin gwamnatin mulkin kama-karya, ƙetare iyaka da dukiyar da za a kwace. Kuma har ila yau, yana da kyau a ƙirƙiri sabon madadi na zahiri da zarar ka isa wuri mai aminci.",
+
+	"memorize_seed_card_wallets_label": "Saita ta daidai",
+	"memorize_seed_card_wallets_title": "Samar da kalmar iri taka a kan ainihin wallet ɗin Bitcoin",
+	"memorize_seed_card_wallets_source": "Tushen: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Tsarin mnemonic don samar da makullai masu ƙayyadewa",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

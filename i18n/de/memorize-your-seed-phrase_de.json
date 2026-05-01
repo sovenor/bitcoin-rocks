@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "de"
+	},
+	"memorize_seed_page_title": "Wie Du Bitcoin in Deinem Kopf speicherst",
+	"memorize_seed_page_description": "Wie Du Deine Bitcoin-Seed-Phrase sicher als unsichtbares Backup auswendig lernst. Praktische Techniken, Sicherheitsregeln und warum das Auswendiglernen nur selten Dein einziges Backup sein sollte.",
+	"memorize_seed_h1_title": "Wie Du Bitcoin in Deinem Kopf speicherst: ein unsichtbares Backup, das überall mit Dir geht",
+
+	"memorize_seed_intro_heading": "Ein Backup, das niemand sehen kann",
+	"memorize_seed_intro_p1": "Deine Seed-Phrase ist der Hauptschlüssel zu Deinen Bitcoin. Die meisten Menschen sichern sie auf Papier oder Stahl. Das Auswendiglernen ist ein zusätzliches Backup, das Du obendrauf legen kannst.",
+	"memorize_seed_intro_p2": "Unsichtbar. Schwerelos. Nur Dir bekannt. Kein Feuer, kein Einbruch, keine Grenzkontrolle kann es Dir wegnehmen.",
+	"memorize_seed_intro_p3": "Für fast jeden gehört das Auswendiglernen über ein physisches Backup, nicht an dessen Stelle. Mehr dazu später.",
+
+	"memorize_seed_not_brain_wallet_heading": "Das ist keine „brain wallet“",
+	"memorize_seed_callout_good_label": "Eine Seed-Phrase auswendig lernen",
+	"memorize_seed_callout_good_desc": "Wörter, die von einer Hardware-Wallet erzeugt wurden. Hohe Entropie. Sicher, eine Kopie davon im Kopf zu haben.",
+	"memorize_seed_callout_bad_label": "Brain Wallet",
+	"memorize_seed_callout_bad_desc": "Schlüssel abgeleitet aus einer selbst ausgedachten Passphrase. Defekt. Innerhalb von Sekunden geleert.",
+	"memorize_seed_not_brain_wallet_p1_a": "In den frühen Tagen von Bitcoin experimentierten Menschen damit, private Schlüssel aus selbst ausgedachten Passphrasen zu erzeugen. Diese Methode wurde",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet",
+	"memorize_seed_not_brain_wallet_p1_c": "genannt, und sie war ein Desaster. Hacker schrieben Skripte, die gängige Passphrasen erraten und Wallets innerhalb von Sekunden leerten.",
+	"memorize_seed_not_brain_wallet_p2": "Was Du hier auswendig lernst, ist etwas anderes. Die Wörter stammen aus der Zufallsquelle einer Hardware-Wallet, nicht aus Deiner Vorstellungskraft. Sie sind nichts, was ein Skript erraten kann.",
+	"memorize_seed_not_brain_wallet_p3": "Deine Seed-Phrase hat hohe Entropie. Eine Kopie davon im Kopf zu speichern, schwächt sie nicht. Sie wird nur an einem weiteren Ort aufbewahrt.",
+
+	"memorize_seed_when_helpful_heading": "Wann das Auswendiglernen hilft",
+	"memorize_seed_when_helpful_p1": "Das Auswendiglernen glänzt, wenn physische Backups versagen. Eine Naturkatastrophe zerstört Dein Zuhause samt der Stahlplatte darin. Eine Überschwemmung. Ein Brand. Eine Evakuierung. Ein Diebstahl. Ein Grenzübertritt, bei dem Du nichts mit Dir führen kannst, das nach Vermögen aussieht.",
+	"memorize_seed_when_helpful_p2": "Es hilft auch kurzfristig. Reisen ohne Backup ist viel weniger stressig, wenn Du Deine Wallet von überall auf der Welt wiederherstellen kannst.",
+	"memorize_seed_when_helpful_p3": "Und es ist eine zusätzliche Schicht der Redundanz. Wenn eine Überschwemmung, ein Brand und ein Dieb Dich alle in derselben Woche treffen, ist es Deine auswendig gelernte Version, die Dich nach Hause bringt.",
+
+	"memorize_seed_rules_heading": "Lege zuerst die Sicherheitsregeln fest",
+	"memorize_seed_rules_p1": "Bevor Du irgendetwas auswendig lernst, sichere die Grundlagen ab. Deine Seed-Phrase ist das ultimative Passwort – schütze sie um jeden Preis.",
+	"memorize_seed_rules_p2": "<strong>Erzeuge sie auf einer echten Bitcoin-Wallet,</strong> nicht auf einer Website oder einer Telefon-App, der Du nicht vertraust. Die ganze Übung hängt davon ab, dass die Wörter aus einer echten Zufallsquelle stammen.",
+	"memorize_seed_rules_p3": "<strong>Behalte mindestens ein physisches Backup.</strong> Papier oder Stahl, an mehr als einem sicheren Ort. Das Auswendiglernen kommt obendrauf – es ist kein Ersatz.",
+	"memorize_seed_rules_p4": "<strong>Sprich die Wörter niemals laut aus.</strong> Nicht zu Dir selbst, nicht im Flüsterton. Telefone und Sprachassistenten hören mehr, als Du denkst.",
+	"memorize_seed_rules_p5": "<strong>Gib sie niemals irgendwo ein.</strong> Keine Notiz-App, keine Tabelle, keine verschlüsselte Notiz, kein „nur zum Testen“. Behandle jede Tastatur und jeden Bildschirm als öffentliche Übertragung.",
+	"memorize_seed_rules_p6": "<strong>Arbeite beim Wiederholen im Privaten.</strong> Schließ die Tür. Decke alle Kameras ab, die auf Dich gerichtet sind – einschließlich der Webcam Deines Laptops. Zieh die Jalousien zu. Bringe die Wörter wieder in Sicherheit, sobald Du mit dem Wiederholen aufhörst.",
+
+	"memorize_seed_technique_heading": "Wie Du Deine Seed-Phrase auswendig lernst",
+	"memorize_seed_technique_p1": "Zufällige Wörter sind schwerer zu merken als ein Satz, aber einfacher, als sie aussehen. Seed-Phrasen bestehen je nach Wallet und Einstellungen typischerweise aus zwölf oder vierundzwanzig Wörtern. Beide Anzahlen folgen einem Rhythmus, wenn Du ihnen einen gibst.",
+	"memorize_seed_technique_p2": "<strong>Teile die Phrase in Stücke.</strong> Zwölf Wörter lassen sich sauber in drei Vierergruppen oder vier Dreiergruppen teilen. Vierundzwanzig Wörter werden zu vier Sechsergruppen oder sechs Vierergruppen. Kleinere Gruppen lassen sich leichter einprägen.",
+	"memorize_seed_technique_p3": "<strong>Bau eine Geschichte.</strong> Jede Gruppe wird zu einer lebendigen kleinen Szene. Mache sie seltsam und spezifisch – das Gehirn merkt sich das Ungewöhnliche. „Ein blauer Elefant, der Kakteen auf einem Klavier jongliert“ bleibt hängen. „Ein paar Wörter über Tiere und Musik“ nicht.",
+	"memorize_seed_technique_p4": "<strong>Nutze einen Gedächtnispalast.</strong> Stell Dir einen Ort vor, den Du gut kennst – Deine Küche, der Weg zur Arbeit, Dein Kinderzimmer. Platziere jedes Wort an einem bestimmten Orientierungspunkt. Geh den Weg gedanklich ab, um die Reihenfolge abzurufen.",
+	"memorize_seed_technique_p5": "<strong>Reime sie oder sing sie.</strong> Wähle eine Melodie, die Du bereits kennst, und füge die Wörter in den Rhythmus ein. Lieder bleiben hängen.",
+	"memorize_seed_technique_p6": "Wähle die Methode, die sich für Dich natürlich anfühlt. Die meisten Menschen kombinieren am Ende zwei – Gruppen plus eine Geschichte oder einen Gedächtnispalast mit einer Melodie. Such Dir das aus, was für Dich am besten funktioniert.",
+
+	"memorize_seed_repetition_heading": "Mache Wiederholung zu einem Teil Deines Tages",
+	"memorize_seed_repetition_p1": "Der Trick liegt in der Menge, nicht im Aufwand. Verbinde Dein Wiederholen mit etwas, das Du ohnehin jeden Tag tust, und die Wiederholungen summieren sich, ohne dass Du daran denkst.",
+	"memorize_seed_repetition_p2": "Zweimal täglich Zähneputzen sind vierzehn Wiederholungen pro Woche. Abendessen kochen. Mit dem Hund spazieren gehen. Zur Arbeit fahren. Einschlafen. Duschen. Wähle eine oder zwei Routinen aus und lass die Wörter mitlaufen.",
+	"memorize_seed_repetition_p3": "Geh sie in Gedanken durch – lautlos, mit geschlossenen Lippen. Flüstere nicht. Bewege Deinen Mund nicht. Der ganze Sinn besteht darin, dass niemand merken kann, dass Du es tust.",
+	"memorize_seed_repetition_p4": "Nach ein paar Wochen sind die Wörter nicht mehr etwas, das Du Dir aktiv abrufen musst, sondern etwas, das Du einfach weißt. Halte die Routine ein bis zwei Monate lang durch, damit sie sich wirklich festsetzt. Schau danach einmal pro Woche kurz vorbei, um sie frisch zu halten.",
+
+	"memorize_seed_test_heading": "Teste Dich selbst, ohne eine Spur zu hinterlassen",
+	"memorize_seed_test_p1": "Beweise Dir einmal pro Woche, dass Du die Phrase tatsächlich kennst. Das Gedächtnis ist hinterhältig – etwas kann sich vertraut anfühlen, ohne korrekt zu sein.",
+	"memorize_seed_test_p2": "<strong>Suche einen privaten Ort</strong>, an dem keine Kameras auf Dich gerichtet sind, einschließlich der Webcam Deines eigenen Laptops. Schließ die Tür ab. Zieh die Jalousien zu.",
+	"memorize_seed_test_p3": "<strong>Schreibe die Wörter auf Papier</strong>, in der richtigen Reihenfolge. Vergleiche sie mit Deinem physischen Backup, nicht mit Deinem Gedächtnis. Der ganze Sinn ist, einen Fehler zu erkennen, den Dein Gedächtnis nicht sehen kann.",
+	"memorize_seed_test_p4": "<strong>Vernichte das Papier vollständig.</strong> Schreddere es. Verbrenne es. Wirf nicht das ganze Blatt in den Papierkorb. Wenn Du Wörter verpasst hast, mach noch ein paar zusätzliche Runden Routinewiederholung und versuch es nächste Woche erneut.",
+
+	"memorize_seed_dont_rely_heading": "Verlasse Dich nicht allein auf Dein Gedächtnis",
+	"memorize_seed_dont_rely_p1": "Das Gedächtnis ist zuverlässig, bis es das nicht mehr ist. Stress, Alter, Krankheit, eine Kopfverletzung oder einfach eine zu lange Pause zwischen den Wiederholungen können eine Phrase auslöschen. Es gibt keinen „Passwort vergessen“-Link für Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Behandle das Auswendiglernen als paralleles Backup. Dein physisches Backup ist das Fundament. Die Version in Deinem Kopf ist die Redundanz. Wenn eine Katastrophe das Fundament zerstört, bringt Dich die Redundanz nach Hause.",
+	"memorize_seed_dont_rely_p3": "Die einzigen Situationen, die eine reine Gedächtnisspeicherung rechtfertigen, sind extrem: Flucht aus einem Kriegsgebiet, Flucht vor autoritärer Verfolgung, das Überqueren einer Grenze mit Vermögen, das konfisziert würde. Und selbst dann ist es eine gute Idee, ein neues physisches Backup anzulegen, sobald Du an einem sicheren Ort bist.",
+
+	"memorize_seed_card_wallets_label": "Richtig einrichten",
+	"memorize_seed_card_wallets_title": "Erzeuge Deine Seed-Phrase auf einer echten Bitcoin-Wallet",
+	"memorize_seed_card_wallets_source": "Quelle: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonischer Code zur Erzeugung deterministischer Schlüssel",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — Forschungsarbeit zu Brain Wallets: The Bitcoin Brain Drain (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: Ein Peer-to-Peer-System für elektronisches Geld (2008)"
+}

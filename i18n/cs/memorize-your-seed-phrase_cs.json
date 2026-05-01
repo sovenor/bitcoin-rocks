@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "cs"
+	},
+	"memorize_seed_page_title": "Jak uchovávat Bitcoin ve své hlavě",
+	"memorize_seed_page_description": "Jak si bezpečně zapamatovat svou Bitcoin seed frázi jako neviditelnou zálohu. Praktické techniky, bezpečnostní pravidla a proč by zapamatování zřídka mělo být vaší jedinou zálohou.",
+	"memorize_seed_h1_title": "Jak uchovávat Bitcoin ve své hlavě: neviditelná záloha, která jde všude s vámi",
+
+	"memorize_seed_intro_heading": "Záloha, kterou nikdo nevidí",
+	"memorize_seed_intro_p1": "Vaše seed fráze je hlavním klíčem k vašemu Bitcoinu. Většina lidí ji zálohuje na papír nebo ocel. Zapamatování je jedna další vrstva zálohy, kterou můžete přidat navrch.",
+	"memorize_seed_intro_p2": "Neviditelná. Bez váhy. Známá pouze vám. Žádný požár, žádná krádež, žádná hraniční kontrola vám ji nevezme.",
+	"memorize_seed_intro_p3": "Téměř pro každého patří zapamatování nad fyzickou zálohu, ne místo ní. Více o tom později.",
+
+	"memorize_seed_not_brain_wallet_heading": "Toto není „brain wallet“",
+	"memorize_seed_callout_good_label": "Zapamatování seed fráze",
+	"memorize_seed_callout_good_desc": "Slova generovaná hardwarovou peněženkou. Vysoká entropie. Bezpečné uložit kopii ve vaší hlavě.",
+	"memorize_seed_callout_bad_label": "„Brain wallet“ (mozková peněženka)",
+	"memorize_seed_callout_bad_desc": "Klíč odvozený z hesla, které jste si vymysleli. Prolomený. Vysátý během sekund.",
+	"memorize_seed_not_brain_wallet_p1_a": "V počátcích Bitcoinu lidé experimentovali s generováním soukromých klíčů z hesel, která si sami vymysleli. Této metodě se říkalo",
+	"memorize_seed_not_brain_wallet_p1_b": "„brain wallet“,",
+	"memorize_seed_not_brain_wallet_p1_c": "a byla to katastrofa. Hackeři psali skripty, aby uhádli běžná hesla, a vysávali peněženky během několika sekund.",
+	"memorize_seed_not_brain_wallet_p2": "To, co si zde pamatujete, je něco jiného. Slova pochází ze zdroje náhodnosti hardwarové peněženky, ne z vaší fantazie. Nejsou to věci, které by skript mohl uhádnout.",
+	"memorize_seed_not_brain_wallet_p3": "Vaše seed fráze má vysokou entropii. Uložení její kopie do hlavy ji neoslabuje. Pouze ji uloží na další místo.",
+
+	"memorize_seed_when_helpful_heading": "Kdy zapamatování pomáhá",
+	"memorize_seed_when_helpful_p1": "Zapamatování září, když fyzické zálohy selžou. Přírodní katastrofa zničí váš dům i ocelovou desku v něm. Povodeň. Požár. Evakuace. Krádež. Přechod hranice, kde nemůžete nést nic, co vypadá jako majetek.",
+	"memorize_seed_when_helpful_p2": "Pomáhá také krátkodobě. Cestování bez zálohy je mnohem méně stresující, když můžete obnovit svou peněženku odkudkoli na světě.",
+	"memorize_seed_when_helpful_p3": "A je to jedna další vrstva redundance. Pokud vás ve stejném týdnu zasáhne povodeň, požár i zloděj, je to vaše zapamatovaná verze, která vás přivede zpět domů.",
+
+	"memorize_seed_rules_heading": "Nejprve si stanovte bezpečnostní pravidla",
+	"memorize_seed_rules_p1": "Než si cokoli zapamatujete, zajistěte si základy. Vaše seed fráze je tím nejdůležitějším heslem — chraňte ji za každou cenu.",
+	"memorize_seed_rules_p2": "<strong>Vygenerujte ji na skutečné Bitcoin peněžence,</strong> ne na webu nebo v telefonní aplikaci, které nedůvěřujete. Celé toto cvičení závisí na tom, že slova pocházejí ze skutečného zdroje náhodnosti.",
+	"memorize_seed_rules_p3": "<strong>Mějte alespoň jednu fyzickou zálohu.</strong> Papír nebo ocel, na více než jednom bezpečném místě. Zapamatování je k tomu navíc — ne náhrada.",
+	"memorize_seed_rules_p4": "<strong>Nikdy slova neříkejte nahlas.</strong> Ani sami sobě, ani potichu pod nos. Telefony a hlasoví asistenti slyší více, než si myslíte.",
+	"memorize_seed_rules_p5": "<strong>Nikdy je do ničeho nepište.</strong> Žádná aplikace na poznámky, žádná tabulka, žádná šifrovaná poznámka, žádné „jen abych to vyzkoušel“. K jakékoli klávesnici nebo obrazovce přistupujte jako k veřejnému vysílání.",
+	"memorize_seed_rules_p6": "<strong>Při procvičování pracujte v soukromí.</strong> Zavřete dveře. Zakryjte všechny kamery namířené na vás — včetně webkamery vašeho notebooku. Zatáhněte žaluzie. Vraťte slova zpět do úložiště ve chvíli, kdy s procvičováním skončíte.",
+
+	"memorize_seed_technique_heading": "Jak si zapamatovat svou seed frázi",
+	"memorize_seed_technique_p1": "Náhodná slova jsou těžší k zapamatování než věta, ale snazší, než vypadají. Seed fráze mají obvykle dvanáct nebo dvacet čtyři slov v závislosti na vaší peněžence a jejím nastavení. Oba počty mají rytmus, pokud mu nějaký dáte.",
+	"memorize_seed_technique_p2": "<strong>Rozdělte frázi na části.</strong> Dvanáct slov se čistě dělí do tří skupin po čtyřech, nebo čtyř skupin po třech. Dvacet čtyři slov se stane čtyřmi skupinami po šesti nebo šesti skupinami po čtyřech. Menší skupiny se snáze ukotví.",
+	"memorize_seed_technique_p3": "<strong>Vytvořte si příběh.</strong> Každá skupina se stane živou malou scénou. Udělejte je podivné a konkrétní — mozek si pamatuje to neobvyklé. „Modrý slon žonglující s kaktusy na vrcholu klavíru“ zůstane usazený. „Nějaká slova o zvířatech a hudbě“ ne.",
+	"memorize_seed_technique_p4": "<strong>Použijte paměťový palác.</strong> Představte si místo, které dobře znáte — vaši kuchyň, cestu do práce, váš dětský pokoj. Umístěte každé slovo k určitému orientačnímu bodu. Projděte cestu mentálně, abyste si vybavili pořadí.",
+	"memorize_seed_technique_p5": "<strong>Rýmujte je nebo zpívejte.</strong> Vyberte si melodii, kterou už znáte, a vložte slova do rytmu. Písně se drží.",
+	"memorize_seed_technique_p6": "Vyberte si tu metodu, která vám připadá přirozená. Většina lidí nakonec kombinuje dvě — skupiny plus příběh, nebo paměťový palác na nějakou melodii. Vyberte si to, co vám funguje nejlépe.",
+
+	"memorize_seed_repetition_heading": "Učiňte opakování součástí svého dne",
+	"memorize_seed_repetition_p1": "Trik je v objemu, ne ve snaze. Připojte své procvičování k něčemu, co už každý den děláte, a opakování se sčítají, aniž byste o nich přemýšleli.",
+	"memorize_seed_repetition_p2": "Čištění zubů dvakrát denně je čtrnáct procvičení týdně. Vaření večeře. Procházka se psem. Cesta do práce. Usínání. Sprcha. Vyberte si jednu nebo dvě rutiny a nechte slova plynout s nimi.",
+	"memorize_seed_repetition_p3": "Projděte je v hlavě — tiše, se zavřenými rty. Nešeptejte. Nehýbejte ústy. Celá pointa je, že nikdo nemůže poznat, že to děláte.",
+	"memorize_seed_repetition_p4": "Po pár týdnech přestanou být slova něčím, co si musíte vybavovat, a začnou být něčím, co prostě víte. Pokračujte v rutině měsíc nebo dva, aby se to skutečně usadilo. Poté se k tomu vraťte jednou týdně, abyste si to udržovali čerstvé.",
+
+	"memorize_seed_test_heading": "Otestujte se, aniž byste zanechali stopu",
+	"memorize_seed_test_p1": "Jednou týdně si dokažte, že frázi skutečně znáte. Paměť je zákeřná — může se zdát povědomá, aniž by byla přesná.",
+	"memorize_seed_test_p2": "<strong>Najděte si soukromé místo</strong> bez kamer namířených na vás, včetně webkamery vašeho vlastního notebooku. Zamkněte dveře. Zatáhněte žaluzie.",
+	"memorize_seed_test_p3": "<strong>Napište slova na papír</strong>, v pořadí. Porovnejte je se svou fyzickou zálohou, ne se svou pamětí. Smyslem je odhalit chybu, kterou vaše paměť nevidí.",
+	"memorize_seed_test_p4": "<strong>Papír kompletně zničte.</strong> Skartujte ho. Spalte ho. Neházejte celý list do koše. Pokud jste vynechali nějaká slova, udělejte si pár kol navíc rutinního procvičování a zkuste to znovu příští týden.",
+
+	"memorize_seed_dont_rely_heading": "Nespoléhejte pouze na paměť",
+	"memorize_seed_dont_rely_p1": "Paměť je spolehlivá, dokud není. Stres, věk, nemoc, úraz hlavy nebo prostě dostatečně dlouhá pauza mezi procvičováními může frázi vymazat. Pro Bitcoin neexistuje žádný odkaz „zapomenuté heslo“.",
+	"memorize_seed_dont_rely_p2": "Berte zapamatování jako paralelní zálohu. Vaše fyzická záloha je základem. Verze ve vaší hlavě je redundance. Pokud katastrofa zničí základ, redundance vás přivede zpět domů.",
+	"memorize_seed_dont_rely_p3": "Jediné situace, které ospravedlňují uložení pouze v paměti, jsou extrémní: útěk z válečné zóny, únik před autoritářským pronásledováním, přechod hranice s majetkem, který by byl zabaven. A i tehdy je dobré vytvořit si novou fyzickou zálohu, jakmile se dostanete na bezpečné místo.",
+
+	"memorize_seed_card_wallets_label": "Nastavte to správně",
+	"memorize_seed_card_wallets_title": "Vygenerujte si seed frázi na skutečné Bitcoin peněžence",
+	"memorize_seed_card_wallets_source": "Zdroj: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonický kód pro generování deterministických klíčů",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

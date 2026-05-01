@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "zh"
 	},
 	"bitcoin_wallet_guide": "比特币钱包指南",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite —— Coldcard MK5 硬件钱包",
 	"sources_coldcard_q": "Coinkite —— Coldcard Q 硬件钱包",
 	"sources_passport": "Foundation Devices —— Passport 硬件钱包",
-	"sources_seedsigner": "SeedSigner —— 开源 DIY 比特币签名设备"
+	"sources_seedsigner": "SeedSigner —— 开源 DIY 比特币签名设备",
+	"wallets_s6_c4b_a": "为了多一层韧性，您还可以",
+	"wallets_s6_c4b_b": "背诵您的恢复短语",
+	"wallets_s6_c4b_c": "，作为一份随身携带的隐形备份。"
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "fr"
 	},
 	"bitcoin_wallet_guide": "Guide des portefeuilles Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — wallet matériel Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — wallet matériel Coldcard Q",
 	"sources_passport": "Foundation Devices — wallet matériel Passport",
-	"sources_seedsigner": "SeedSigner — dispositif de signature DIY open source pour les transactions Bitcoin"
+	"sources_seedsigner": "SeedSigner — dispositif de signature DIY open source pour les transactions Bitcoin",
+	"wallets_s6_c4b_a": "Pour une couche de résilience supplémentaire, vous pouvez aussi",
+	"wallets_s6_c4b_b": "mémoriser votre phrase de récupération",
+	"wallets_s6_c4b_c": "comme une sauvegarde invisible qui vous accompagne partout."
 }

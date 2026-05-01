@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "fi"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-lompakko-opas",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 -laitelompakko",
 	"sources_coldcard_q": "Coinkite — Coldcard Q -laitelompakko",
 	"sources_passport": "Foundation Devices — Passport-laitelompakko",
-	"sources_seedsigner": "SeedSigner — avoimen lähdekoodin itse-tehtävä allekirjoituslaite bitcoin-transaktioille"
+	"sources_seedsigner": "SeedSigner — avoimen lähdekoodin itse-tehtävä allekirjoituslaite bitcoin-transaktioille",
+	"wallets_s6_c4b_a": "Yhden lisäkerroksen kestävyyttä saat, kun voit myös",
+	"wallets_s6_c4b_b": "painaa palautuslauseesi muistiin",
+	"wallets_s6_c4b_c": "näkymättömäksi varmuuskopioksi, joka kulkee mukanasi."
 }

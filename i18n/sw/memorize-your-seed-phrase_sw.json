@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "sw"
+	},
+	"memorize_seed_page_title": "Jinsi ya Kuhifadhi Bitcoin Ndani ya Akili Yako",
+	"memorize_seed_page_description": "Jinsi ya kukariri kwa usalama maneno yako ya urejeshaji ya Bitcoin kama nakala ya akiba isiyoonekana. Mbinu za kivitendo, sheria za usalama, na kwa nini ukariri haupaswi kuwa nakala yako pekee ya akiba.",
+	"memorize_seed_h1_title": "Jinsi ya kuhifadhi Bitcoin ndani ya akili yako: nakala ya akiba isiyoonekana inayokwenda popote unapokwenda",
+
+	"memorize_seed_intro_heading": "Nakala ya akiba ambayo hakuna anayeweza kuiona",
+	"memorize_seed_intro_p1": "Maneno yako ya urejeshaji ndiyo ufunguo mkuu wa Bitcoin yako. Watu wengi huyahifadhi kwenye karatasi au chuma. Ukariri ni nakala moja zaidi ya akiba unayoweza kuongeza juu ya hizo.",
+	"memorize_seed_intro_p2": "Haionekani. Haina uzito. Inajulikana na wewe peke yako. Hakuna moto, wizi, au ukaguzi wa mpaka unaoweza kukuiba.",
+	"memorize_seed_intro_p3": "Kwa karibu kila mtu, ukariri unapaswa kuwa juu ya nakala halisi ya akiba, si badala yake. Maelezo zaidi baadaye.",
+
+	"memorize_seed_not_brain_wallet_heading": "Hii si \"pochi ya ubongo\"",
+	"memorize_seed_callout_good_label": "Kukariri maneno ya urejeshaji",
+	"memorize_seed_callout_good_desc": "Maneno yaliyozalishwa na pochi ya vifaa. Yana mchanganyiko wa juu (entropy ya juu). Ni salama kuhifadhi nakala kichwani mwako.",
+	"memorize_seed_callout_bad_label": "Pochi ya ubongo",
+	"memorize_seed_callout_bad_desc": "Ufunguo unaotokana na nenosiri ulilolibuni mwenyewe. Umevunjika. Umeibwa kwa sekunde chache.",
+	"memorize_seed_not_brain_wallet_p1_a": "Katika siku za awali za Bitcoin, watu walijaribu kuzalisha funguo za faragha kutoka kwa misemo waliyobuni wenyewe. Mbinu hii iliitwa",
+	"memorize_seed_not_brain_wallet_p1_b": "pochi ya ubongo,",
+	"memorize_seed_not_brain_wallet_p1_c": "na ilikuwa janga. Wadukuzi waliandika programu kukisia misemo ya kawaida na waliiba pochi kwa sekunde chache.",
+	"memorize_seed_not_brain_wallet_p2": "Kile unachokariri hapa ni tofauti. Maneno yalitoka kwa chanzo cha nasibu cha pochi ya vifaa, si kutoka kwa fikira yako. Si kitu ambacho programu inaweza kukisia.",
+	"memorize_seed_not_brain_wallet_p3": "Maneno yako ya urejeshaji yana mchanganyiko wa juu sana (entropy ya juu). Kuhifadhi nakala kichwani mwako hakupunguzi nguvu yake. Kunaihifadhi tu mahali pengine.",
+
+	"memorize_seed_when_helpful_heading": "Ukariri unasaidia lini",
+	"memorize_seed_when_helpful_p1": "Ukariri unang'aa wakati nakala halisi za akiba zinaposhindwa. Maafa ya asili yanaharibu nyumba yako pamoja na bamba la chuma lililomo ndani. Mafuriko. Moto. Kuhama kwa dharura. Wizi. Kuvuka mpaka ambapo huwezi kubeba kitu chochote kinachoonekana kama mali.",
+	"memorize_seed_when_helpful_p2": "Pia inasaidia kwa muda mfupi. Kusafiri bila nakala ya akiba kuna msongo mdogo zaidi unapoweza kurejesha pochi yako kutoka popote duniani.",
+	"memorize_seed_when_helpful_p3": "Na ni safu moja zaidi ya uthabiti. Iwapo mafuriko, moto, na mwizi vyote vinapiga wiki moja, toleo lako ulilolikariri ndilo linalokurudisha nyumbani.",
+
+	"memorize_seed_rules_heading": "Weka sheria za usalama kwanza",
+	"memorize_seed_rules_p1": "Kabla ya kukariri chochote, imarisha misingi. Maneno yako ya urejeshaji ndiyo nenosiri muhimu kuliko yote — yalinde kwa gharama yoyote.",
+	"memorize_seed_rules_p2": "<strong>Yazalishe kwenye pochi halisi ya Bitcoin,</strong> si kwenye tovuti au programu ya simu usiyoiamini. Zoezi zima linategemea maneno kutoka chanzo halisi cha nasibu.",
+	"memorize_seed_rules_p3": "<strong>Hifadhi angalau nakala moja halisi ya akiba.</strong> Karatasi au chuma, katika sehemu zaidi ya moja salama. Ukariri ni juu ya hii — si badala yake.",
+	"memorize_seed_rules_p4": "<strong>Usitamke maneno kwa sauti kamwe.</strong> Si kwako mwenyewe, si kwa kunong'ona. Simu na wasaidizi wa sauti husikia zaidi ya unavyofikiri.",
+	"memorize_seed_rules_p5": "<strong>Usiyaandike kwenye chochote kamwe.</strong> Hakuna programu ya kumbukumbu, hakuna lahajedwali, hakuna kumbukumbu iliyofichwa, hakuna \"kujaribu tu.\" Tibu kibodi au skrini yoyote kama matangazo ya hadhara.",
+	"memorize_seed_rules_p6": "<strong>Fanya kazi peke yako wakati wa kupitia.</strong> Funga mlango. Funika kamera zozote zinazokuelekeza — ikijumuisha kamera ya kompyuta yako ya mkononi. Funga mapazia. Yarudishe maneno ndani ya hifadhi mara tu unapomaliza kupitia.",
+
+	"memorize_seed_technique_heading": "Jinsi ya kukariri maneno yako ya urejeshaji",
+	"memorize_seed_technique_p1": "Maneno ya nasibu ni magumu kukumbuka kuliko sentensi, lakini ni rahisi kuliko yanavyoonekana. Maneno ya urejeshaji kwa kawaida ni maneno kumi na mawili au ishirini na manne kulingana na pochi yako na mipangilio yake. Idadi yoyote inafuata mdundo ukiipa moja.",
+	"memorize_seed_technique_p2": "<strong>Gawanya msemo katika makundi.</strong> Maneno kumi na mawili yanagawanywa vizuri katika makundi matatu ya manne, au makundi manne ya matatu. Maneno ishirini na manne yanakuwa makundi manne ya sita au makundi sita ya manne. Makundi madogo ni rahisi kuyahifadhi.",
+	"memorize_seed_technique_p3": "<strong>Tunga hadithi.</strong> Kila kundi linakuwa onesho dogo lenye picha hai. Yafanye yawe ya ajabu na mahususi — ubongo unakumbuka yale yasiyo ya kawaida. \"Tembo wa bluu akifanya sarakasi za mikakatusi juu ya piano\" hubaki kichwani. \"Maneno fulani kuhusu wanyama na muziki\" hayabaki.",
+	"memorize_seed_technique_p4": "<strong>Tumia ikulu ya kumbukumbu.</strong> Picha sehemu unayoijua vizuri — jiko lako, njia ya kazi, chumba chako cha utotoni. Weka kila neno mahali maalum. Tembea njia kwa akili kukumbuka mpangilio.",
+	"memorize_seed_technique_p5": "<strong>Yatengeneze kuwa shairi au yaimbe.</strong> Chagua wimbo unaoujua tayari na uweke maneno katika mdundo wake. Nyimbo zinabaki kichwani.",
+	"memorize_seed_technique_p6": "Chagua mbinu yoyote inayohisi ya asili. Watu wengi huishia kuchanganya mbili — makundi pamoja na hadithi, au ikulu ya kumbukumbu iliyowekwa kwa wimbo. Chagua chochote kinachokufanyia kazi vizuri.",
+
+	"memorize_seed_repetition_heading": "Fanya kurudia kuwa sehemu ya siku yako",
+	"memorize_seed_repetition_p1": "Hila ni wingi, si juhudi. Funga mapitio yako kwa kitu unachofanya kila siku tayari, na marudio yataongezeka bila wewe kufikiria juu yake.",
+	"memorize_seed_repetition_p2": "Kupiga mswaki mara mbili kwa siku ni mapitio kumi na manne kwa wiki. Kupika chakula cha jioni. Kutembeza mbwa. Kuendesha kwenda kazini. Kulala. Kuoga. Chagua mazoea moja au mawili na uache maneno yapande pamoja.",
+	"memorize_seed_repetition_p3": "Yapitie kichwani — kimya, midomo imefungwa. Usinong'one. Usisongeshe mdomo wako. Lengo lote ni kwamba hakuna anayeweza kueleza unafanya hivyo.",
+	"memorize_seed_repetition_p4": "Baada ya wiki kadhaa, maneno yanaacha kuwa kitu unachopaswa kukumbuka na yanaanza kuwa kitu unachokijua tu. Endelea na mazoea kwa mwezi mmoja au miwili ili yashike kweli. Pitia mara moja kwa wiki baada ya hapo kuyaweka safi.",
+
+	"memorize_seed_test_heading": "Jijaribu bila kuacha alama",
+	"memorize_seed_test_p1": "Mara moja kwa wiki, jithibitishie kwamba unayajua msemo kweli. Kumbukumbu ni laghai — inaweza kuhisi inajulikana bila kuwa sahihi.",
+	"memorize_seed_test_p2": "<strong>Tafuta sehemu ya faragha</strong> bila kamera zinazokuelekeza, ikijumuisha kamera ya kompyuta yako ya mkononi. Funga mlango. Funga mapazia.",
+	"memorize_seed_test_p3": "<strong>Andika maneno kwenye karatasi</strong>, kwa mpangilio. Yalinganishe na nakala yako halisi ya akiba, si na kumbukumbu yako. Lengo lote ni kunasa kosa ambalo kumbukumbu yako haiwezi kuona.",
+	"memorize_seed_test_p4": "<strong>Iharibu karatasi kabisa.</strong> Iikate vipande. Iichome moto. Usitupe karatasi nzima ndani ya pipa la taka. Ikiwa umekosa neno lolote, fanya mizunguko michache zaidi ya mapitio ya kawaida na ujaribu tena wiki ijayo.",
+
+	"memorize_seed_dont_rely_heading": "Usitegemee kumbukumbu peke yake",
+	"memorize_seed_dont_rely_p1": "Kumbukumbu ni ya kuaminika hadi inaposhindwa. Msongo, umri, ugonjwa, jeraha la kichwa, au tu pengo refu kati ya mapitio kunaweza kufuta msemo. Hakuna kiungo cha \"umesahau nenosiri\" kwa Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Tibu ukariri kama nakala ya akiba inayolingana. Nakala yako halisi ya akiba ndiyo msingi. Toleo lililo kichwani mwako ni uthabiti. Ikiwa maafa yataondoa msingi, uthabiti utakurudisha nyumbani.",
+	"memorize_seed_dont_rely_p3": "Hali pekee zinazohalalisha kuhifadhi kwa kumbukumbu pekee ni za hali ya juu: kukimbia eneo la vita, kutoroka mateso ya kidikteta, kuvuka mpaka na mali ambazo zingenyang'anywa. Na hata wakati huo, ni wazo zuri kuunda nakala mpya halisi ya akiba mara unapokuwa katika sehemu salama.",
+
+	"memorize_seed_card_wallets_label": "Iiweke vizuri",
+	"memorize_seed_card_wallets_title": "Zalisha maneno yako ya urejeshaji kwenye pochi halisi ya Bitcoin",
+	"memorize_seed_card_wallets_source": "Chanzo: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Msimbo wa kumbukumbu wa kuzalisha funguo za kiamua",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

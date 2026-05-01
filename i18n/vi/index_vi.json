@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-04-30",
 		"locale": "vi"
 	},
 	"home_nav_learn": "Tìm hiểu",
@@ -174,5 +174,7 @@
 	"home_link_author_lightning_address": "LightningAddress.com",
 	"home_link_author_arman_the_parman": "Arman The Parman",
 	"home_link_author_bitcoin_explorama": "Bitcoin Explorama",
-	"home_link_author_mempool_space": "Mempool.space"
+	"home_link_author_mempool_space": "Mempool.space",
+	"home_card_label_self_custody_4": "Bản sao lưu cuối cùng",
+	"home_link_title_self_custody_4": "Cách lưu trữ Bitcoin trong não của bạn"
 }
