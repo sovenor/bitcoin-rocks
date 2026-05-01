@@ -54,6 +54,10 @@ export const OG_PAGE_STRINGS: Readonly<Record<string, OgPageStrings>> = {
 	// === Story pages — H1 from page namespace ===
 	"about": { namespace: "about", titleKey: "about_header" },
 	"get-involved": { namespace: "get-involved", titleKey: "get_involved_header" },
+	"memorize-your-seed-phrase": {
+		namespace: "memorize-your-seed-phrase",
+		titleKey: "memorize_seed_page_title",
+	},
 
 	// === Business top-level (homepage card-derived) ===
 	"business": { namespace: "index", titleKey: "home_link_title_business_1" },
