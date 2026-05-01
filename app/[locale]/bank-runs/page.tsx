@@ -26,11 +26,6 @@ export async function generateMetadata({
 	const t = await getPageTranslations(locale as Locale, BANK_RUNS.namespace);
 	const title = t(BANK_RUNS.titleKey);
 	const description = t(BANK_RUNS.descriptionKey);
-	const image = BANK_RUNS.metaImage.startsWith("http")
-		? BANK_RUNS.metaImage
-		: `https://bitcoin.rocks${
-				BANK_RUNS.metaImage.startsWith("/") ? "" : "/"
-			}${BANK_RUNS.metaImage}`;
 
 	return {
 		title,
@@ -44,13 +39,11 @@ export async function generateMetadata({
 			description,
 			type: "article",
 			url: `https://bitcoin.rocks/${locale}/${BANK_RUNS.slug}`,
-			images: [{ url: image, width: 1200, height: 630, alt: title }],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: `${title} | bitcoin.rocks`,
 			description,
-			images: [image],
 		},
 	};
 }

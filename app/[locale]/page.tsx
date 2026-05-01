@@ -124,20 +124,11 @@ export async function generateMetadata({
 			description,
 			type: "website",
 			url: `https://bitcoin.rocks/${locale}`,
-			images: [
-				{
-					url: "https://bitcoin.rocks/img/meta/meta-home-v4.png",
-					width: 1200,
-					height: 630,
-					alt: "bitcoin.rocks",
-				},
-			],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title,
 			description,
-			images: ["https://bitcoin.rocks/img/meta/meta-home-v4.png"],
 		},
 	};
 }

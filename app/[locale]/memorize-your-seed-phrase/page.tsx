@@ -19,11 +19,6 @@ export async function generateMetadata({
 	);
 	const title = t(MEMORIZE_YOUR_SEED_PHRASE.titleKey);
 	const description = t(MEMORIZE_YOUR_SEED_PHRASE.descriptionKey);
-	const image = MEMORIZE_YOUR_SEED_PHRASE.metaImage.startsWith("http")
-		? MEMORIZE_YOUR_SEED_PHRASE.metaImage
-		: `https://bitcoin.rocks${
-				MEMORIZE_YOUR_SEED_PHRASE.metaImage.startsWith("/") ? "" : "/"
-			}${MEMORIZE_YOUR_SEED_PHRASE.metaImage}`;
 
 	return {
 		title,
@@ -37,13 +32,11 @@ export async function generateMetadata({
 			description,
 			type: "article",
 			url: `https://bitcoin.rocks/${locale}/${MEMORIZE_YOUR_SEED_PHRASE.slug}`,
-			images: [{ url: image, width: 1200, height: 630, alt: title }],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: `${title} | bitcoin.rocks`,
 			description,
-			images: [image],
 		},
 	};
 }

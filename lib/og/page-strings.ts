@@ -62,10 +62,67 @@ export const OG_PAGE_STRINGS: Readonly<Record<string, OgPageStrings>> = {
 	// === Business top-level (homepage card-derived) ===
 	"business": { namespace: "index", titleKey: "home_link_title_business_1" },
 
-	// NOTE: business/* sub-pages, sticker-files/*, and form success
-	// pages still use their existing static META_IMAGE constants. They
-	// can be added here once each page's i18n file has been audited
-	// for a clean H1 worth surfacing on social shares. Pages omitted
-	// from this map fall back to whatever `metadata.openGraph.images`
-	// already points to.
+	// === Business sub-pages — H1 / page title from each page namespace ===
+	"business/accounting": {
+		namespace: "business/accounting",
+		titleKey: "bitcoin_business_accounting_guide",
+	},
+	"business/faq": {
+		namespace: "business/faq",
+		titleKey: "frequently_asked_questions_about_accepting_bitcoin",
+	},
+	"business/maps": {
+		namespace: "business/maps",
+		titleKey: "biz_maps_hero_title",
+	},
+	"business/maps-success": {
+		namespace: "business/maps-success",
+		titleKey: "biz_maps_success_hero_title",
+	},
+	"business/sticker-files/english": {
+		namespace: "business/sticker-files/english",
+		titleKey: "english_bitcoin_accepted_here_sticker_files",
+	},
+	"business/sticker-language-success": {
+		namespace: "business/sticker-language-success",
+		titleKey: "biz_sticker_language_success_hero_title",
+	},
+	"business/sticker-success": {
+		namespace: "business/sticker-success",
+		titleKey: "biz_sticker_success_hero_title",
+	},
+	"business/stickers": {
+		namespace: "business/stickers",
+		titleKey: "biz_stickers_hero_title",
+	},
+	"business/wallets": {
+		namespace: "business/wallets",
+		titleKey: "how_to_accept_bitcoin_payments",
+	},
+	"business/why": {
+		namespace: "business/why",
+		titleKey: "learn_why_bitcoin_is_good_for_business",
+	},
+
+	// === Nostr ===
+	"nostr": { namespace: "nostr", titleKey: "what_is_nostr" },
+
+	// === Sticker-files index + form success pages ===
+	"sticker-files": {
+		namespace: "sticker-files",
+		titleKey: "bitcoin_sticker_files_all_languages",
+	},
+	"sticker-language-success": {
+		namespace: "sticker-language-success",
+		titleKey: "sticker_language_success_hero_title",
+	},
+	"sticker-success": {
+		namespace: "sticker-success",
+		titleKey: "sticker_success_hero_title",
+	},
+
+	// NOTE: `sticker-files/[lang]` is a dynamic route — its title is
+	// computed from the language param at render time, not from a static
+	// titleKey, so it has its own bespoke `opengraph-image.tsx` that
+	// calls `renderOgImage` directly instead of going through `ogHandler`.
 };
