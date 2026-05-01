@@ -25,11 +25,6 @@ export async function generateMetadata({
 	const t = await getPageTranslations(locale as Locale, ABOUT.namespace);
 	const title = t(ABOUT.titleKey);
 	const description = t(ABOUT.descriptionKey);
-	const image = ABOUT.metaImage.startsWith("http")
-		? ABOUT.metaImage
-		: `https://bitcoin.rocks${
-				ABOUT.metaImage.startsWith("/") ? "" : "/"
-			}${ABOUT.metaImage}`;
 
 	return {
 		title,
@@ -43,13 +38,11 @@ export async function generateMetadata({
 			description,
 			type: "article",
 			url: `https://bitcoin.rocks/${locale}/${ABOUT.slug}`,
-			images: [{ url: image, width: 1200, height: 630, alt: title }],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: `${title} | bitcoin.rocks`,
 			description,
-			images: [image],
 		},
 	};
 }

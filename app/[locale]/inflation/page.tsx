@@ -175,20 +175,11 @@ export async function generateMetadata({
 			description,
 			type: "article",
 			url: `https://bitcoin.rocks/${locale}/inflation`,
-			images: [
-				{
-					url: "https://bitcoin.rocks/img/meta/meta-inflation-v3.png",
-					width: 1200,
-					height: 630,
-					alt: title,
-				},
-			],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title,
 			description,
-			images: ["https://bitcoin.rocks/img/meta/meta-inflation-v3.png"],
 		},
 	};
 }

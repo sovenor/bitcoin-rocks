@@ -9,6 +9,12 @@
  * Uses `getPageTranslations()` (not the global `getTranslations()` bag) so
  * comparison pages with shared generic keys like `bitcoin_vs_*` don't
  * collide across namespaces. See `lib/i18n/page-translations.ts` for why.
+ *
+ * No `openGraph.images` / `twitter.images` here: each comparison page has
+ * its own `opengraph-image.tsx` that Next auto-injects into the metadata.
+ * Setting `images` in code would replace (not merge with) the file-based
+ * one, leaving the dynamic per-locale image orphaned. The static
+ * `data.metaImage` stays in the data file as a documented fallback.
  */
 
 import type { Metadata } from "next";
@@ -25,9 +31,6 @@ export async function buildComparisonMetadata(
 	const t = await getPageTranslations(locale as Locale, data.namespace);
 	const title = t(data.titleKey);
 	const description = t(data.descriptionKey);
-	const image = data.metaImage.startsWith("http")
-		? data.metaImage
-		: `https://bitcoin.rocks${data.metaImage.startsWith("/") ? "" : "/"}${data.metaImage}`;
 
 	return {
 		title,
@@ -38,20 +41,11 @@ export async function buildComparisonMetadata(
 			description,
 			type: "article",
 			url: `https://bitcoin.rocks/${locale}/${data.slug}`,
-			images: [
-				{
-					url: image,
-					width: 1200,
-					height: 630,
-					alt: title,
-				},
-			],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: `${title} | bitcoin.rocks`,
 			description,
-			images: [image],
 		},
 	};
 }
