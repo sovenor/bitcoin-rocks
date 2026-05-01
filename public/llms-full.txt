@@ -344,7 +344,7 @@ Your seed phrase is the master key to your Bitcoin. Most people back it up on pa
 
 Invisible. Weightless. Known only to you. No fire, no burglary, no border check can take it from you.
 
-For almost everyone, memorization belongs on top of a physical backup, not in place of one.
+For almost everyone, memorization belongs on top of a physical backup, not in place of one. More on that later.
 
 ### This Is Not a "Brain Wallet"
 
@@ -372,7 +372,7 @@ Before you memorize anything, lock down the basics. Your seed phrase is the ulti
 
 - **Generate it on a real Bitcoin wallet**, not on a website or a phone app you do not trust. The whole exercise depends on the words coming from a real source of randomness.
 - **Keep at least one physical backup.** Paper or steel, in more than one safe place. Memorization is on top of this — not a replacement.
-- **Never speak the words out loud.** Not to yourself, not under your breath. Phones, voice assistants, and walls hear more than you think.
+- **Never speak the words out loud.** Not to yourself, not under your breath. Phones and voice assistants hear more than you think.
 - **Never type them into anything.** No notes app, no spreadsheet, no encrypted note, no "just to test it." Treat any keyboard or screen as a public broadcast.
 - **Work in private when reviewing.** Close the door. Cover any cameras pointed your way — including your laptop's webcam. Pull the blinds. Put the words back into storage the moment you stop reviewing.
 
@@ -380,12 +380,12 @@ Before you memorize anything, lock down the basics. Your seed phrase is the ulti
 
 Random words are harder to remember than a sentence, but easier than they look. Seed phrases are typically twelve or twenty-four words depending on your wallet and its settings. Either count follows a rhythm if you give it one.
 
-- **Chunk the phrase.** Twelve words split cleanly into three groups of four, or four groups of three. Twenty-four words become four groups of six. Smaller groups are easier to lock in.
+- **Chunk the phrase.** Twelve words split cleanly into three groups of four, or four groups of three. Twenty-four words become four groups of six or six groups of four. Smaller groups are easier to lock in.
 - **Build a story.** Each chunk becomes a vivid little scene. Make them weird and specific — the brain remembers the unusual. "A blue elephant juggling cactuses on top of a piano" stays put. "Some words about animals and music" doesn't.
 - **Use a memory palace.** Picture a place you know well — your kitchen, the route to work, your childhood bedroom. Place each word at a specific landmark. Walk the path mentally to recall the order.
-- **Rhyme it or sing it.** Pick a tune you already know and fit the words into the rhythm. Songs are sticky. Generations have been remembered through them.
+- **Rhyme it or sing it.** Pick a tune you already know and fit the words into the rhythm. Songs are sticky.
 
-Pick whichever method feels natural. Most people end up combining two — chunks plus a story, or a memory palace set to a tune.
+Pick whichever method feels natural. Most people end up combining two — chunks plus a story, or a memory palace set to a tune. Choose whatever works best for you.
 
 ### Make Repetition Part of Your Day
 
@@ -411,7 +411,7 @@ Memory is reliable until it isn't. Stress, age, illness, head injury, or just a 
 
 Treat memorization as a parallel backup. Your physical backup is the foundation. The version in your head is the redundancy. If a disaster takes out the foundation, the redundancy gets you home.
 
-The only situations that justify memory-only storage are extreme: fleeing a war zone, escaping authoritarian persecution, crossing a border with assets that would be confiscated. And even then, write the words down somewhere safe the moment you reach safety.
+The only situations that justify memory-only storage are extreme: fleeing a war zone, escaping authoritarian persecution, crossing a border with assets that would be confiscated. And even then, it's a good idea to create a new physical backup once you're in a safe location.
 
 ---
 
