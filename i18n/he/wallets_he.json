@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "he"
 	},
 	"bitcoin_wallet_guide": "מדריך ארנקי ביטקוין",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — ארנק חומרה Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — ארנק חומרה Coldcard Q",
 	"sources_passport": "Foundation Devices — ארנק חומרה Passport",
-	"sources_seedsigner": "SeedSigner — מכשיר חתימה DIY בקוד פתוח לעסקאות ביטקוין"
+	"sources_seedsigner": "SeedSigner — מכשיר חתימה DIY בקוד פתוח לעסקאות ביטקוין",
+	"wallets_s6_c4b_a": "לקבלת שכבה נוספת של חוסן, אתם יכולים גם",
+	"wallets_s6_c4b_b": "לשנן את צירוף השחזור שלכם",
+	"wallets_s6_c4b_c": "כגיבוי בלתי נראה שמלווה אתכם לכל מקום."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ga"
 	},
 	"bitcoin_wallet_guide": "Treoir Sparán Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — sparán crua-earraí Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — sparán crua-earraí Coldcard Q",
 	"sources_passport": "Foundation Devices — sparán crua-earraí Passport",
-	"sources_seedsigner": "SeedSigner — gléas sínithe DIY foinse oscailte d’idirbhearta Bitcoin"
+	"sources_seedsigner": "SeedSigner — gléas sínithe DIY foinse oscailte d’idirbhearta Bitcoin",
+	"wallets_s6_c4b_a": "Mar shraith bhreise athléimneachta, is féidir leat",
+	"wallets_s6_c4b_b": "d'fhrása aisghabhála a chur de ghlanmheabhair",
+	"wallets_s6_c4b_c": "mar chúltaca dofheicthe a théann leat."
 }

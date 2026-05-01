@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "sv"
 	},
 	"bitcoin_wallet_guide": "Guide till Bitcoin-plånböcker",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5-hårdvaruplånbok",
 	"sources_coldcard_q": "Coinkite — Coldcard Q-hårdvaruplånbok",
 	"sources_passport": "Foundation Devices — Passport-hårdvaruplånbok",
-	"sources_seedsigner": "SeedSigner — DIY-signeringsenhet för Bitcoin med öppen källkod"
+	"sources_seedsigner": "SeedSigner — DIY-signeringsenhet för Bitcoin med öppen källkod",
+	"wallets_s6_c4b_a": "För ytterligare ett lager av motståndskraft kan du också",
+	"wallets_s6_c4b_b": "memorera din seed-fras",
+	"wallets_s6_c4b_c": "som en osynlig säkerhetskopia som följer med dig."
 }

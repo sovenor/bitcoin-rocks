@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "hr"
 	},
 	"bitcoin_wallet_guide": "Vodič za Bitcoin novčanike",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardverski novčanik",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardverski novčanik",
 	"sources_passport": "Foundation Devices — Passport hardverski novčanik",
-	"sources_seedsigner": "SeedSigner — DIY otvoreni uređaj za potpisivanje Bitcoin transakcija"
+	"sources_seedsigner": "SeedSigner — DIY otvoreni uređaj za potpisivanje Bitcoin transakcija",
+	"wallets_s6_c4b_a": "Za još jedan sloj otpornosti možete i",
+	"wallets_s6_c4b_b": "zapamtiti svoju seed frazu",
+	"wallets_s6_c4b_c": "kao nevidljivu sigurnosnu kopiju koja putuje s vama."
 }

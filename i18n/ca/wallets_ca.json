@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ca"
 	},
 	"bitcoin_wallet_guide": "Guia de Carteres Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — cartera de maquinari Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — cartera de maquinari Coldcard Q",
 	"sources_passport": "Foundation Devices — cartera de maquinari Passport",
-	"sources_seedsigner": "SeedSigner — dispositiu de signatura de Bitcoin de codi obert i DIY"
+	"sources_seedsigner": "SeedSigner — dispositiu de signatura de Bitcoin de codi obert i DIY",
+	"wallets_s6_c4b_a": "Per a una capa més de resiliència, també pots",
+	"wallets_s6_c4b_b": "memoritzar la teva frase llavor",
+	"wallets_s6_c4b_c": "com a còpia de seguretat invisible que viatja amb tu."
 }

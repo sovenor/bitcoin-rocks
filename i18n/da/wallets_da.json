@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "da"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-wallet-guide",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware-wallet",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardware-wallet",
 	"sources_passport": "Foundation Devices — Passport hardware-wallet",
-	"sources_seedsigner": "SeedSigner — open source-DIY-signeringsenhed til Bitcoin-transaktioner"
+	"sources_seedsigner": "SeedSigner — open source-DIY-signeringsenhed til Bitcoin-transaktioner",
+	"wallets_s6_c4b_a": "For et ekstra lag af modstandsdygtighed kan du også",
+	"wallets_s6_c4b_b": "memorere din gendannelsesfrase",
+	"wallets_s6_c4b_c": "som en usynlig sikkerhedskopi, der følger dig overalt."
 }

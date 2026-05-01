@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "sv"
+	},
+	"memorize_seed_page_title": "Hur du förvarar Bitcoin i din hjärna",
+	"memorize_seed_page_description": "Hur du säkert lär dig din Bitcoin-seed-fras utantill som en osynlig säkerhetskopia. Praktiska tekniker, säkerhetsregler och varför memorering sällan bör vara din enda säkerhetskopia.",
+	"memorize_seed_h1_title": "Hur du förvarar Bitcoin i din hjärna: en osynlig säkerhetskopia som följer med vart du än går",
+
+	"memorize_seed_intro_heading": "En säkerhetskopia som ingen kan se",
+	"memorize_seed_intro_p1": "Din seed-fras är huvudnyckeln till din Bitcoin. De flesta säkerhetskopierar den på papper eller stål. Memorering är ytterligare en säkerhetskopia du kan lägga ovanpå.",
+	"memorize_seed_intro_p2": "Osynlig. Viktlös. Känd endast av dig. Ingen brand, inget inbrott, ingen gränskontroll kan ta den ifrån dig.",
+	"memorize_seed_intro_p3": "För nästan alla bör memorering ligga ovanpå en fysisk säkerhetskopia, inte ersätta den. Mer om detta senare.",
+
+	"memorize_seed_not_brain_wallet_heading": "Detta är inte en \"hjärnplånbok\"",
+	"memorize_seed_callout_good_label": "Att memorera en seed-fras",
+	"memorize_seed_callout_good_desc": "Ord genererade av en hårdvaruplånbok. Hög entropi. Säkert att lagra en kopia i huvudet.",
+	"memorize_seed_callout_bad_label": "Hjärnplånbok",
+	"memorize_seed_callout_bad_desc": "Nyckel härledd från en lösenfras du själv hittat på. Trasig. Tömd på sekunder.",
+	"memorize_seed_not_brain_wallet_p1_a": "I Bitcoins tidiga dagar experimenterade folk med att generera privata nycklar från lösenfraser de hittat på själva. Metoden kallades",
+	"memorize_seed_not_brain_wallet_p1_b": "hjärnplånbok,",
+	"memorize_seed_not_brain_wallet_p1_c": "och den blev en katastrof. Hackare skrev skript som gissade vanliga lösenfraser och tömde plånböcker på sekunder.",
+	"memorize_seed_not_brain_wallet_p2": "Det du memorerar här är något annat. Orden kom från en hårdvaruplånboks slumpkälla, inte från din fantasi. De är inte något ett skript kan gissa sig till.",
+	"memorize_seed_not_brain_wallet_p3": "Din seed-fras har hög entropi. Att lagra en kopia av den i huvudet försvagar den inte. Det lagrar den bara på ytterligare en plats.",
+
+	"memorize_seed_when_helpful_heading": "När memorering hjälper",
+	"memorize_seed_when_helpful_p1": "Memorering lyser när fysiska säkerhetskopior fallerar. En naturkatastrof tar ut ditt hem och stålplattan inuti det. En översvämning. En brand. En evakuering. En stöld. En gränspassage där du inte kan bära något som ser ut som rikedom.",
+	"memorize_seed_when_helpful_p2": "Den hjälper också på kort sikt. Att resa utan en säkerhetskopia är mycket mindre stressigt när du kan återställa din plånbok var som helst i världen.",
+	"memorize_seed_when_helpful_p3": "Och det är ytterligare ett lager av redundans. Om en översvämning, en brand och en tjuv alla slår till samma vecka, är det din memorerade version som tar dig hem.",
+
+	"memorize_seed_rules_heading": "Sätt säkerhetsreglerna först",
+	"memorize_seed_rules_p1": "Innan du memorerar något, lås ner grunderna. Din seed-fras är det allra viktigaste lösenordet — skydda den till varje pris.",
+	"memorize_seed_rules_p2": "<strong>Generera den på en riktig Bitcoin-plånbok,</strong> inte på en webbplats eller en telefonapp du inte litar på. Hela övningen beror på att orden kommer från en riktig slumpkälla.",
+	"memorize_seed_rules_p3": "<strong>Behåll minst en fysisk säkerhetskopia.</strong> Papper eller stål, på fler än en säker plats. Memorering ligger ovanpå detta — inte i stället.",
+	"memorize_seed_rules_p4": "<strong>Säg aldrig orden högt.</strong> Inte för dig själv, inte ens viskande. Telefoner och röstassistenter hör mer än du tror.",
+	"memorize_seed_rules_p5": "<strong>Skriv aldrig in dem någonstans.</strong> Ingen anteckningsapp, inget kalkylblad, ingen krypterad anteckning, inget \"bara för att testa\". Behandla varje tangentbord eller skärm som en offentlig sändning.",
+	"memorize_seed_rules_p6": "<strong>Arbeta i avskildhet när du repeterar.</strong> Stäng dörren. Täck över alla kameror som riktas mot dig — inklusive din laptops webbkamera. Dra ner persiennerna. Lägg tillbaka orden i förvaring i samma ögonblick som du slutar repetera.",
+
+	"memorize_seed_technique_heading": "Hur du memorerar din seed-fras",
+	"memorize_seed_technique_p1": "Slumpmässiga ord är svårare att komma ihåg än en mening, men lättare än de ser ut. Seed-fraser består vanligtvis av tolv eller tjugofyra ord beroende på din plånbok och dess inställningar. Båda antalen följer en rytm om du ger dem en.",
+	"memorize_seed_technique_p2": "<strong>Dela upp frasen i bitar.</strong> Tolv ord delas snyggt upp i tre grupper om fyra, eller fyra grupper om tre. Tjugofyra ord blir fyra grupper om sex eller sex grupper om fyra. Mindre grupper är lättare att låsa fast.",
+	"memorize_seed_technique_p3": "<strong>Bygg en berättelse.</strong> Varje bit blir en livfull liten scen. Gör dem konstiga och specifika — hjärnan minns det ovanliga. \"En blå elefant som jonglerar kaktusar ovanpå ett piano\" sitter kvar. \"Några ord om djur och musik\" gör det inte.",
+	"memorize_seed_technique_p4": "<strong>Använd ett minnespalats.</strong> Föreställ dig en plats du känner väl — ditt kök, vägen till jobbet, ditt barndomsrum. Placera varje ord vid ett specifikt landmärke. Vandra mentalt längs vägen för att minnas ordningen.",
+	"memorize_seed_technique_p5": "<strong>Rimma den eller sjung den.</strong> Välj en melodi du redan kan och passa in orden i rytmen. Sånger fastnar.",
+	"memorize_seed_technique_p6": "Välj den metod som känns naturlig. De flesta slutar med att kombinera två — bitar plus en berättelse, eller ett minnespalats satt till en melodi. Välj det som fungerar bäst för dig.",
+
+	"memorize_seed_repetition_heading": "Gör repetition till en del av din dag",
+	"memorize_seed_repetition_p1": "Tricket är volym, inte ansträngning. Knyt din repetition till något du redan gör varje dag, så samlas reps ihop utan att du tänker på det.",
+	"memorize_seed_repetition_p2": "Att borsta tänderna två gånger om dagen är fjorton repetitioner i veckan. Laga middag. Gå med hunden. Köra till jobbet. Somna. Duschen. Välj en eller två rutiner och låt orden följa med.",
+	"memorize_seed_repetition_p3": "Gå igenom dem i huvudet — tyst, med stängda läppar. Viska inte. Rör inte munnen. Hela poängen är att ingen ska kunna se att du gör det.",
+	"memorize_seed_repetition_p4": "Efter ett par veckor slutar orden vara något du måste minnas och börjar vara något du helt enkelt kan. Håll rutinen igång i en eller två månader så att den verkligen sätter sig. Hoppa in en gång i veckan därefter för att hålla den färsk.",
+
+	"memorize_seed_test_heading": "Testa dig själv utan att lämna spår",
+	"memorize_seed_test_p1": "En gång i veckan, bevisa för dig själv att du faktiskt kan frasen. Minnet är lömskt — det kan kännas bekant utan att vara korrekt.",
+	"memorize_seed_test_p2": "<strong>Hitta en privat plats</strong> utan kameror riktade mot dig, inklusive din egen laptops webbkamera. Lås dörren. Dra ner persiennerna.",
+	"memorize_seed_test_p3": "<strong>Skriv ner orden på papper</strong>, i ordning. Jämför dem med din fysiska säkerhetskopia, inte med ditt minne. Hela poängen är att fånga ett misstag som ditt minne inte kan se.",
+	"memorize_seed_test_p4": "<strong>Förstör papperet helt och hållet.</strong> Strimla det. Bränn det. Släng inte hela bladet i en papperskorg. Om du missade några ord, gör några extra rundor av rutinrepetition och försök igen nästa vecka.",
+
+	"memorize_seed_dont_rely_heading": "Förlita dig inte enbart på minnet",
+	"memorize_seed_dont_rely_p1": "Minnet är pålitligt tills det inte är det. Stress, ålder, sjukdom, huvudskada eller bara ett tillräckligt långt uppehåll mellan repetitioner kan radera en fras. Det finns ingen \"glömt lösenord\"-länk för Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Behandla memorering som en parallell säkerhetskopia. Din fysiska säkerhetskopia är grunden. Versionen i huvudet är redundansen. Om en katastrof tar ut grunden, tar redundansen dig hem.",
+	"memorize_seed_dont_rely_p3": "De enda situationer som motiverar enbart minneslagring är extrema: att fly från en krigszon, att fly från auktoritär förföljelse, att korsa en gräns med tillgångar som skulle konfiskeras. Och även då är det en god idé att skapa en ny fysisk säkerhetskopia när du väl är på en säker plats.",
+
+	"memorize_seed_card_wallets_label": "Sätt upp det rätt",
+	"memorize_seed_card_wallets_title": "Generera din seed-fras på en riktig Bitcoin-plånbok",
+	"memorize_seed_card_wallets_source": "Källa: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonisk kod för att generera deterministiska nycklar",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

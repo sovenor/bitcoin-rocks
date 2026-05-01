@@ -1,6 +1,6 @@
 {
 	"lang": "nb",
-	"generatedAt": "2026-04-26T18:16:14.663Z",
+	"generatedAt": "2026-05-01T03:07:21.076Z",
 	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
@@ -8,15 +8,15 @@
 	"markerAppliedAt": "2026-04-25T16:03:15.382Z",
 	"namespaceFilter": null,
 	"stats": {
-		"totalEnglishKeys": 1852,
+		"totalEnglishKeys": 1913,
 		"missing": 0,
-		"untranslated": 1,
+		"untranslated": 2,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
-		"upToDate": 1185,
-		"brandIdentical": 109
+		"upToDate": 1242,
+		"brandIdentical": 112
 	},
 	"entries": [
 		{
@@ -25,6 +25,14 @@
 			"reason": "untranslated",
 			"englishValue": "Type:",
 			"currentValue": "Type:",
+			"targetTranslation": null
+		},
+		{
+			"namespace": "memorize-your-seed-phrase",
+			"key": "sources_brain_wallet_research",
+			"reason": "untranslated",
+			"englishValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+			"currentValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
 			"targetTranslation": null
 		}
 	]

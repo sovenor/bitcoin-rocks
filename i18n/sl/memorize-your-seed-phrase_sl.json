@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "sl"
+	},
+	"memorize_seed_page_title": "Kako shraniti Bitcoin v svoje možgane",
+	"memorize_seed_page_description": "Kako varno zapomniti svojo Bitcoin obnovitveno frazo kot nevidno varnostno kopijo. Praktične tehnike, varnostna pravila in zakaj zapomnitev redko sme biti vaša edina varnostna kopija.",
+	"memorize_seed_h1_title": "Kako shraniti Bitcoin v svoje možgane: nevidna varnostna kopija, ki gre povsod z vami",
+
+	"memorize_seed_intro_heading": "Varnostna kopija, ki je nihče ne more videti",
+	"memorize_seed_intro_p1": "Vaša obnovitvena fraza je glavni ključ do vašega Bitcoina. Večina ljudi jo varnostno kopira na papir ali jeklo. Zapomnitev je še ena varnostna kopija, ki jo lahko dodate povrhu.",
+	"memorize_seed_intro_p2": "Nevidna. Brez teže. Znana le vam. Noben požar, vlom ali mejna kontrola vam je ne more vzeti.",
+	"memorize_seed_intro_p3": "Za skoraj vsakogar zapomnitev sodi povrhu fizične varnostne kopije, ne pa namesto nje. Več o tem v nadaljevanju.",
+
+	"memorize_seed_not_brain_wallet_heading": "To ni „brain wallet“",
+	"memorize_seed_callout_good_label": "Zapomnitev obnovitvene fraze",
+	"memorize_seed_callout_good_desc": "Besede, ki jih je ustvarila strojna denarnica. Visoka entropija. Varno je shraniti kopijo v glavi.",
+	"memorize_seed_callout_bad_label": "Brain wallet",
+	"memorize_seed_callout_bad_desc": "Ključ, izpeljan iz gesla, ki ste si ga izmislili. Nezanesljiv. Izpraznjen v sekundah.",
+	"memorize_seed_not_brain_wallet_p1_a": "V zgodnjih dneh Bitcoina so ljudje eksperimentirali z ustvarjanjem zasebnih ključev iz gesel, ki so si jih izmislili. Tej metodi so rekli",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "in bila je katastrofa. Hekerji so napisali skripte, ki so uganile pogosta gesla in v sekundah izpraznile denarnice.",
+	"memorize_seed_not_brain_wallet_p2": "To, kar si tukaj zapomnite, je nekaj drugega. Besede so prišle iz vira naključnosti strojne denarnice, ne iz vaše domišljije. To ni nekaj, kar bi lahko skripta uganila.",
+	"memorize_seed_not_brain_wallet_p3": "Vaša obnovitvena fraza ima visoko entropijo. Shranjevanje njene kopije v glavi je ne oslabi. Le shrani jo na še eno mesto.",
+
+	"memorize_seed_when_helpful_heading": "Kdaj zapomnitev pomaga",
+	"memorize_seed_when_helpful_p1": "Zapomnitev zasije, ko fizične varnostne kopije odpovejo. Naravna nesreča vam uniči dom in jekleno ploščico v njem. Poplava. Požar. Evakuacija. Tatvina. Mejni prehod, kjer ne morete nositi ničesar, kar bi izgledalo kot bogastvo.",
+	"memorize_seed_when_helpful_p2": "Pomaga tudi kratkoročno. Potovanje brez varnostne kopije je veliko manj stresno, ko lahko denarnico obnovite od koder koli na svetu.",
+	"memorize_seed_when_helpful_p3": "Je tudi še ena plast redundance. Če vas v istem tednu prizadenejo poplava, požar in tat, vas domov pripelje različica, ki ste si jo zapomnili.",
+
+	"memorize_seed_rules_heading": "Najprej določite varnostna pravila",
+	"memorize_seed_rules_p1": "Preden si kar koli zapomnite, najprej zaklenite osnove. Vaša obnovitvena fraza je najpomembnejše geslo — zaščitite jo za vsako ceno.",
+	"memorize_seed_rules_p2": "<strong>Ustvarite jo na pravi Bitcoin denarnici,</strong> ne na spletni strani ali aplikaciji za telefon, ki ji ne zaupate. Celotna vaja je odvisna od tega, da besede prihajajo iz pravega vira naključnosti.",
+	"memorize_seed_rules_p3": "<strong>Hranite vsaj eno fizično varnostno kopijo.</strong> Papir ali jeklo, na več kot enem varnem mestu. Zapomnitev je povrhu tega — ne nadomestilo.",
+	"memorize_seed_rules_p4": "<strong>Nikoli ne izgovorite besed naglas.</strong> Niti sebi, niti tiho v sapo. Telefoni in glasovni pomočniki slišijo več, kot si mislite.",
+	"memorize_seed_rules_p5": "<strong>Nikoli jih ne tipkajte v karkoli.</strong> Brez aplikacije za zapiske, brez preglednice, brez šifriranega zapisa, brez „samo za preizkus.“ Vsako tipkovnico ali zaslon obravnavajte kot javno oddajanje.",
+	"memorize_seed_rules_p6": "<strong>Ko ponavljate, delajte na samem.</strong> Zaprite vrata. Pokrijte vse kamere, usmerjene proti vam — vključno s spletno kamero prenosnika. Spustite zavese. Besede pospravite nazaj na varno takoj, ko končate s ponavljanjem.",
+
+	"memorize_seed_technique_heading": "Kako si zapomniti svojo obnovitveno frazo",
+	"memorize_seed_technique_p1": "Naključne besede si je teže zapomniti kot stavek, vendar lažje, kot je videti. Obnovitvene fraze so običajno dolge dvanajst ali štiriindvajset besed, odvisno od denarnice in njenih nastavitev. Obe števili sledita ritmu, če mu ga daste.",
+	"memorize_seed_technique_p2": "<strong>Razdelite frazo v skupine.</strong> Dvanajst besed se čisto razdeli v tri skupine po štiri ali štiri skupine po tri. Štiriindvajset besed postane štiri skupine po šest ali šest skupin po štiri. Manjše skupine je lažje utrditi.",
+	"memorize_seed_technique_p3": "<strong>Sestavite zgodbo.</strong> Vsaka skupina postane živahen mali prizor. Naredite jih čudne in specifične — možgani si zapomnijo nenavadno. „Modri slon, ki žonglira s kaktusi na vrhu klavirja“ ostane. „Nekaj besed o živalih in glasbi“ ne.",
+	"memorize_seed_technique_p4": "<strong>Uporabite spominsko palačo.</strong> Predstavljajte si kraj, ki ga dobro poznate — svojo kuhinjo, pot v službo, otroško sobo. Vsako besedo postavite na določeno znamenje. Pot prehodite v mislih, da prikličete vrstni red.",
+	"memorize_seed_technique_p5": "<strong>Rimajte ali zapojte.</strong> Izberite melodijo, ki jo že poznate, in vstavite besede v njen ritem. Pesmi se prijemljejo.",
+	"memorize_seed_technique_p6": "Izberite metodo, ki vam je najbolj naravna. Večina ljudi konča s kombinacijo dveh — skupin in zgodbe ali spominske palače in melodije. Izberite, kar vam najbolj ustreza.",
+
+	"memorize_seed_repetition_heading": "Ponavljanje vključite v svoj dan",
+	"memorize_seed_repetition_p1": "Trik je v količini, ne v naporu. Ponavljanje povežite z nečim, kar že počnete vsak dan, in ponovitve se nabirajo, ne da bi razmišljali o njih.",
+	"memorize_seed_repetition_p2": "Umivanje zob dvakrat na dan je štirinajst ponovitev na teden. Kuhanje večerje. Sprehajanje psa. Vožnja v službo. Zaspavanje. Tuširanje. Izberite eno ali dve rutini in pustite, da gredo besede zraven.",
+	"memorize_seed_repetition_p3": "Pretecite jih v glavi — tiho, z zaprtimi ustnicami. Ne šepetajte. Ne premikajte ust. Bistvo je, da nihče ne more opaziti, da to počnete.",
+	"memorize_seed_repetition_p4": "Po nekaj tednih se besede prenehajo zdeti kot nekaj, česar se morate spomniti, in postanejo nekaj, kar preprosto veste. Rutino vzdržujte mesec ali dva, da se res utrdi. Po tem se vrnite enkrat na teden, da ostane sveža.",
+
+	"memorize_seed_test_heading": "Preverite se brez sledi",
+	"memorize_seed_test_p1": "Enkrat na teden si dokažite, da frazo dejansko poznate. Spomin je zvit — nekaj se lahko zdi domače, ne da bi bilo točno.",
+	"memorize_seed_test_p2": "<strong>Poiščite zaseben prostor</strong> brez kamer, usmerjenih proti vam, vključno s spletno kamero lastnega prenosnika. Zaklenite vrata. Spustite zavese.",
+	"memorize_seed_test_p3": "<strong>Zapišite besede na papir</strong>, po vrsti. Primerjajte jih s svojo fizično varnostno kopijo, ne s svojim spominom. Bistvo je ujeti napako, ki je vaš spomin ne vidi.",
+	"memorize_seed_test_p4": "<strong>Papir popolnoma uničite.</strong> Razrežite ga. Sežgite ga. Ne mečite celega lista v koš. Če ste katero besedo zgrešili, naredite še nekaj dodatnih krogov rutinskega ponavljanja in poskusite znova naslednji teden.",
+
+	"memorize_seed_dont_rely_heading": "Ne zanašajte se samo na spomin",
+	"memorize_seed_dont_rely_p1": "Spomin je zanesljiv, dokler ni. Stres, starost, bolezen, poškodba glave ali zgolj dovolj dolg premor med ponovitvami lahko izbrišejo frazo. Za Bitcoin ne obstaja povezava „forgot password“.",
+	"memorize_seed_dont_rely_p2": "Zapomnitev obravnavajte kot vzporedno varnostno kopijo. Vaša fizična varnostna kopija je temelj. Različica v vaši glavi je redundanca. Če nesreča uniči temelj, vas redundanca pripelje domov.",
+	"memorize_seed_dont_rely_p3": "Edine okoliščine, ki opravičujejo shranjevanje samo v spominu, so skrajne: beg z vojnega območja, beg pred avtoritarnim preganjanjem, prečkanje meje s premoženjem, ki bi bilo zaplenjeno. In tudi takrat je dobro takoj, ko ste na varnem, ustvariti novo fizično varnostno kopijo.",
+
+	"memorize_seed_card_wallets_label": "Pravilno nastavite",
+	"memorize_seed_card_wallets_title": "Ustvarite svojo obnovitveno frazo na pravi Bitcoin denarnici",
+	"memorize_seed_card_wallets_source": "Vir: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonska koda za ustvarjanje determinističnih ključev",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

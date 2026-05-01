@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "sw"
 	},
 	"bitcoin_wallet_guide": "Mwongozo wa Pochi ya Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Pochi ya vifaa Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — Pochi ya vifaa Coldcard Q",
 	"sources_passport": "Foundation Devices — Pochi ya vifaa Passport",
-	"sources_seedsigner": "SeedSigner — Kifaa cha kusaini Bitcoin cha DIY chenye chanzo huria"
+	"sources_seedsigner": "SeedSigner — Kifaa cha kusaini Bitcoin cha DIY chenye chanzo huria",
+	"wallets_s6_c4b_a": "Kwa safu moja zaidi ya uthabiti, unaweza pia",
+	"wallets_s6_c4b_b": "kukariri maneno yako ya urejeshaji",
+	"wallets_s6_c4b_c": "kama nakala ya akiba isiyoonekana inayosafiri pamoja nawe."
 }

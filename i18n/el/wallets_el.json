@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "el"
 	},
 	"bitcoin_wallet_guide": "Οδηγός πορτοφολιού Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — hardware πορτοφόλι Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — hardware πορτοφόλι Coldcard Q",
 	"sources_passport": "Foundation Devices — hardware πορτοφόλι Passport",
-	"sources_seedsigner": "SeedSigner — συσκευή υπογραφής DIY ανοιχτού κώδικα για συναλλαγές Bitcoin"
+	"sources_seedsigner": "SeedSigner — συσκευή υπογραφής DIY ανοιχτού κώδικα για συναλλαγές Bitcoin",
+	"wallets_s6_c4b_a": "Για ένα ακόμη επίπεδο ανθεκτικότητας, μπορείτε επίσης να",
+	"wallets_s6_c4b_b": "απομνημονεύσετε τη φράση ανάκτησής σας",
+	"wallets_s6_c4b_c": "ως ένα αόρατο αντίγραφο ασφαλείας που σας ακολουθεί παντού."
 }

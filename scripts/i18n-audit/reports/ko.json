@@ -1,102 +1,30 @@
 {
 	"lang": "ko",
-	"generatedAt": "2026-04-25T13:47:56.445Z",
-	"englishSnapshotGeneratedAt": "2026-04-25T13:35:11.438Z",
+	"generatedAt": "2026-05-01T03:17:02.697Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
 	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerAppliedAt": "2026-04-25T13:47:49.418Z",
 	"namespaceFilter": null,
 	"stats": {
-		"totalEnglishKeys": 1852,
+		"totalEnglishKeys": 1913,
 		"missing": 0,
-		"untranslated": 10,
+		"untranslated": 1,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
-		"upToDate": 1222,
-		"brandIdentical": 63
+		"upToDate": 1291,
+		"brandIdentical": 64
 	},
 	"entries": [
 		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_bdhi",
+			"namespace": "memorize-your-seed-phrase",
+			"key": "sources_brain_wallet_research",
 			"reason": "untranslated",
-			"englishValue": "21.59 cm x 4.6482 cm (8.5 in x 1.83 in)",
-			"currentValue": "21.59 cm x 4.6482 cm (8.5 in x 1.83 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_bitcoin_accepted_here",
-			"reason": "untranslated",
-			"englishValue": "20.995 cm x 6.35 cm (8.25 in x 2.5 in)",
-			"currentValue": "20.995 cm x 6.35 cm (8.25 in x 2.5 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_caution",
-			"reason": "untranslated",
-			"englishValue": "12.0142 cm x 7.9502 cm (4.73 in x 3.13 in)",
-			"currentValue": "12.0142 cm x 7.9502 cm (4.73 in x 3.13 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_cure_v2",
-			"reason": "untranslated",
-			"englishValue": "6.35 cm x 12.7 cm (2.5 in x 5 in)",
-			"currentValue": "6.35 cm x 12.7 cm (2.5 in x 5 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_danger",
-			"reason": "untranslated",
-			"englishValue": "11.4544 cm x 8.382 cm (4.51 in x 3.3 in)",
-			"currentValue": "11.4544 cm x 8.382 cm (4.51 in x 3.3 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_fix",
-			"reason": "untranslated",
-			"englishValue": "11.3792 cm x 6.8072 cm (4.48 in x 2.68 in)",
-			"currentValue": "11.3792 cm x 6.8072 cm (4.48 in x 2.68 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_got_inflation",
-			"reason": "untranslated",
-			"englishValue": "7.9248 cm x 14.605 cm (3.12 in x 5.75 in)",
-			"currentValue": "7.9248 cm x 14.605 cm (3.12 in x 5.75 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_study",
-			"reason": "untranslated",
-			"englishValue": "14.605 cm x 5.1308 cm (5.75 in x 2.02 in)",
-			"currentValue": "14.605 cm x 5.1308 cm (5.75 in x 2.02 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_warning",
-			"reason": "untranslated",
-			"englishValue": "10.414 cm x 9.2202 cm (4.1 in x 3.63 in)",
-			"currentValue": "10.414 cm x 9.2202 cm (4.1 in x 3.63 in)",
-			"targetTranslation": null
-		},
-		{
-			"namespace": "common",
-			"key": "common_stickers_dimensions_what_if",
-			"reason": "untranslated",
-			"englishValue": "21.7932 cm x 7.62 cm (8.58 in x 3 in)",
-			"currentValue": "21.7932 cm x 7.62 cm (8.58 in x 3 in)",
+			"englishValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+			"currentValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
 			"targetTranslation": null
 		}
 	]

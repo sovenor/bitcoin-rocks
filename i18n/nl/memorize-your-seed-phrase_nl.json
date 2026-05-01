@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "nl"
+	},
+	"memorize_seed_page_title": "Hoe je Bitcoin in je hoofd bewaart",
+	"memorize_seed_page_description": "Hoe je je Bitcoin-herstelzin veilig uit het hoofd leert als een onzichtbare back-up. Praktische technieken, veiligheidsregels en waarom uit het hoofd leren zelden je enige back-up zou moeten zijn.",
+	"memorize_seed_h1_title": "Hoe je Bitcoin in je hoofd bewaart: een onzichtbare back-up die overal met je meegaat",
+
+	"memorize_seed_intro_heading": "Een back-up die niemand kan zien",
+	"memorize_seed_intro_p1": "Je herstelzin is de hoofdsleutel tot je Bitcoin. De meeste mensen maken er een back-up van op papier of staal. Uit het hoofd leren is een extra back-up die je daar bovenop kunt leggen.",
+	"memorize_seed_intro_p2": "Onzichtbaar. Gewichtloos. Alleen aan jou bekend. Geen brand, geen inbraak, geen grenscontrole kan hem van je afnemen.",
+	"memorize_seed_intro_p3": "Voor bijna iedereen hoort uit het hoofd leren bovenop een fysieke back-up, niet in plaats daarvan. Daarover later meer.",
+
+	"memorize_seed_not_brain_wallet_heading": "Dit is geen \"brain wallet\"",
+	"memorize_seed_callout_good_label": "Een herstelzin uit het hoofd leren",
+	"memorize_seed_callout_good_desc": "Woorden gegenereerd door een hardware wallet. Hoge entropie. Veilig om er een kopie van in je hoofd te bewaren.",
+	"memorize_seed_callout_bad_label": "Brain wallet (hersenwallet)",
+	"memorize_seed_callout_bad_desc": "Sleutel afgeleid van een zelfverzonnen wachtzin. Onveilig. Binnen seconden geplunderd.",
+	"memorize_seed_not_brain_wallet_p1_a": "In de begindagen van Bitcoin experimenteerden mensen met het genereren van privésleutels uit zelfverzonnen wachtzinnen. Deze methode heette een",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet (hersenwallet),",
+	"memorize_seed_not_brain_wallet_p1_c": "en het was een ramp. Hackers schreven scripts om veelgebruikte wachtzinnen te raden en plunderden wallets in seconden.",
+	"memorize_seed_not_brain_wallet_p2": "Wat je hier uit het hoofd leert, is iets anders. De woorden komen uit de toevalsbron van een hardware wallet, niet uit je verbeelding. Het is niet iets wat een script kan raden.",
+	"memorize_seed_not_brain_wallet_p3": "Je herstelzin heeft een hoge entropie. Een kopie ervan in je hoofd opslaan verzwakt hem niet. Het bewaart hem alleen op nog een plek.",
+
+	"memorize_seed_when_helpful_heading": "Wanneer uit het hoofd leren helpt",
+	"memorize_seed_when_helpful_p1": "Uit het hoofd leren bewijst zijn waarde wanneer fysieke back-ups falen. Een natuurramp die je huis verwoest, met de stalen plaat erin. Een overstroming. Een brand. Een evacuatie. Een diefstal. Een grensovergang waar je niets bij je mag hebben dat op rijkdom lijkt.",
+	"memorize_seed_when_helpful_p2": "Het helpt ook op korte termijn. Reizen zonder back-up is een stuk minder stressvol als je je wallet overal ter wereld kunt herstellen.",
+	"memorize_seed_when_helpful_p3": "En het is nog een laag redundantie. Als een overstroming, een brand én een dief je in dezelfde week treffen, is de versie in je hoofd wat je weer thuisbrengt.",
+
+	"memorize_seed_rules_heading": "Stel eerst de veiligheidsregels op",
+	"memorize_seed_rules_p1": "Voordat je iets uit het hoofd leert, leg de basis vast. Je herstelzin is het allerbelangrijkste wachtwoord — bescherm hem koste wat het kost.",
+	"memorize_seed_rules_p2": "<strong>Genereer hem op een echte Bitcoin-wallet,</strong> niet op een website of een telefoon-app die je niet vertrouwt. De hele oefening hangt ervan af dat de woorden uit een echte toevalsbron komen.",
+	"memorize_seed_rules_p3": "<strong>Houd ten minste één fysieke back-up.</strong> Papier of staal, op meer dan één veilige plek. Uit het hoofd leren komt hier bovenop — het is geen vervanging.",
+	"memorize_seed_rules_p4": "<strong>Spreek de woorden nooit hardop uit.</strong> Niet tegen jezelf, niet binnensmonds. Telefoons en spraakassistenten horen meer dan je denkt.",
+	"memorize_seed_rules_p5": "<strong>Tik ze nooit ergens in.</strong> Geen notitie-app, geen spreadsheet, geen versleutelde notitie, geen \"even om te testen.\" Beschouw elk toetsenbord of scherm als een openbare uitzending.",
+	"memorize_seed_rules_p6": "<strong>Werk in afzondering wanneer je oefent.</strong> Sluit de deur. Dek camera's af die op jou gericht zijn — ook de webcam van je laptop. Doe de gordijnen dicht. Berg de woorden weer op zodra je klaar bent met oefenen.",
+
+	"memorize_seed_technique_heading": "Hoe je je herstelzin uit het hoofd leert",
+	"memorize_seed_technique_p1": "Willekeurige woorden zijn moeilijker te onthouden dan een zin, maar makkelijker dan ze lijken. Herstelzinnen bestaan meestal uit twaalf of vierentwintig woorden, afhankelijk van je wallet en de instellingen. Beide aantallen volgen een ritme als je het ze geeft.",
+	"memorize_seed_technique_p2": "<strong>Hak de zin in stukken.</strong> Twaalf woorden splitsen netjes in drie groepen van vier of vier groepen van drie. Vierentwintig woorden worden vier groepen van zes of zes groepen van vier. Kleinere groepen blijven makkelijker hangen.",
+	"memorize_seed_technique_p3": "<strong>Bouw een verhaal.</strong> Elke groep wordt een levendig scènetje. Maak ze vreemd en specifiek — het brein onthoudt het ongewone. \"Een blauwe olifant die cactussen jongleert boven op een piano\" blijft hangen. \"Wat woorden over dieren en muziek\" niet.",
+	"memorize_seed_technique_p4": "<strong>Gebruik een geheugenpaleis.</strong> Stel je een plek voor die je goed kent — je keuken, je weg naar het werk, je slaapkamer van vroeger. Plaats elk woord bij een specifiek herkenningspunt. Loop het pad in gedachten af om de volgorde op te halen.",
+	"memorize_seed_technique_p5": "<strong>Rijm of zing ze.</strong> Kies een melodie die je al kent en pas de woorden in op het ritme. Liedjes blijven plakken.",
+	"memorize_seed_technique_p6": "Kies welke methode voor jou natuurlijk aanvoelt. De meeste mensen combineren er twee — stukken plus een verhaal, of een geheugenpaleis op een melodie. Kies wat voor jou het beste werkt.",
+
+	"memorize_seed_repetition_heading": "Maak herhaling onderdeel van je dag",
+	"memorize_seed_repetition_p1": "De truc is volume, niet inspanning. Koppel je oefenmomenten aan iets dat je toch al elke dag doet, dan stapelen de herhalingen zich op zonder dat je erbij hoeft na te denken.",
+	"memorize_seed_repetition_p2": "Twee keer per dag tandenpoetsen is veertien herhalingen per week. Avondeten koken. De hond uitlaten. Naar je werk rijden. In slaap vallen. Onder de douche. Kies één of twee routines en laat de woorden meeliften.",
+	"memorize_seed_repetition_p3": "Loop ze in je hoofd door — in stilte, met je lippen dicht. Niet fluisteren. Geen mondbewegingen. Het hele punt is dat niemand kan zien dat je het doet.",
+	"memorize_seed_repetition_p4": "Na een paar weken zijn de woorden niet langer iets wat je moet ophalen, maar iets wat je gewoon weet. Houd de routine een maand of twee vol, zodat het echt blijft hangen. Daarna één keer per week erop terugkomen om het vers te houden.",
+
+	"memorize_seed_test_heading": "Test jezelf zonder een spoor achter te laten",
+	"memorize_seed_test_p1": "Eens per week bewijs je aan jezelf dat je de zin echt kent. Het geheugen is sluw — iets kan vertrouwd aanvoelen zonder klopt te zijn.",
+	"memorize_seed_test_p2": "<strong>Zoek een afgezonderde plek</strong> zonder camera's die op jou gericht zijn, ook niet de webcam van je eigen laptop. Doe de deur op slot. Doe de gordijnen dicht.",
+	"memorize_seed_test_p3": "<strong>Schrijf de woorden op papier</strong>, in volgorde. Vergelijk ze met je fysieke back-up, niet met je geheugen. Het hele punt is een fout op te sporen die je geheugen niet ziet.",
+	"memorize_seed_test_p4": "<strong>Vernietig het papier volledig.</strong> Versnipper het. Verbrand het. Gooi het hele vel niet zomaar in een prullenbak. Mocht je woorden hebben gemist, doe dan een paar extra ronden routine-oefening en probeer het volgende week opnieuw.",
+
+	"memorize_seed_dont_rely_heading": "Vertrouw niet alleen op je geheugen",
+	"memorize_seed_dont_rely_p1": "Het geheugen is betrouwbaar tot het dat niet meer is. Stress, ouderdom, ziekte, hoofdletsel of gewoon een lange tussenpoze tussen oefeningen kunnen een zin uitwissen. Er is geen \"wachtwoord vergeten\"-link voor Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Behandel uit het hoofd leren als een parallelle back-up. Je fysieke back-up is het fundament. De versie in je hoofd is de redundantie. Als een ramp het fundament wegneemt, brengt de redundantie je weer thuis.",
+	"memorize_seed_dont_rely_p3": "De enige situaties die opslag in alleen het geheugen rechtvaardigen, zijn extreem: vluchten uit een oorlogsgebied, ontsnappen aan autoritaire vervolging, een grens oversteken met bezittingen die in beslag zouden worden genomen. En zelfs dan is het verstandig om een nieuwe fysieke back-up te maken zodra je op een veilige plek bent.",
+
+	"memorize_seed_card_wallets_label": "Stel hem goed in",
+	"memorize_seed_card_wallets_title": "Genereer je herstelzin op een echte Bitcoin-wallet",
+	"memorize_seed_card_wallets_source": "Bron: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonische code voor het genereren van deterministische sleutels",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — onderzoek naar brain wallets: The Bitcoin Brain Drain (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

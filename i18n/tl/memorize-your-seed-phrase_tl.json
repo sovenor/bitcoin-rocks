@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "tl"
+	},
+	"memorize_seed_page_title": "Paano Iimbak ang Bitcoin sa Iyong Utak",
+	"memorize_seed_page_description": "Paano ligtas na isaulo ang iyong Bitcoin seed phrase bilang isang hindi nakikitang backup. Mga praktikal na teknik, mga tuntunin sa kaligtasan, at kung bakit bihira lamang dapat ang pagsasaulo bilang nag-iisang backup mo.",
+	"memorize_seed_h1_title": "Paano iimbak ang Bitcoin sa iyong utak: isang hindi nakikitang backup na sumasama saan ka man magpunta",
+
+	"memorize_seed_intro_heading": "Isang backup na walang makakakita",
+	"memorize_seed_intro_p1": "Ang iyong seed phrase ang pangunahing susi sa iyong Bitcoin. Karamihan sa mga tao ay nagba-back up nito sa papel o bakal. Ang pagsasaulo ay isa pang backup na maaari mong idagdag sa ibabaw nito.",
+	"memorize_seed_intro_p2": "Hindi nakikita. Walang bigat. Ikaw lang ang nakakaalam. Walang sunog, walang pagnanakaw, walang inspeksyon sa hangganan ang makakakuha nito sa iyo.",
+	"memorize_seed_intro_p3": "Para sa halos lahat, ang pagsasaulo ay dapat nasa ibabaw ng isang pisikal na backup, hindi ito ang kapalit. Higit pa tungkol dito sa ibang pagkakataon.",
+
+	"memorize_seed_not_brain_wallet_heading": "Hindi ito isang \"brain wallet\"",
+	"memorize_seed_callout_good_label": "Pagsasaulo ng seed phrase",
+	"memorize_seed_callout_good_desc": "Mga salitang nilikha ng isang hardware wallet. Mataas na entropy. Ligtas na mag-imbak ng kopya nito sa iyong isip.",
+	"memorize_seed_callout_bad_label": "Brain wallet",
+	"memorize_seed_callout_bad_desc": "Susi na hinango mula sa isang passphrase na ikaw mismo ang gumawa. Sira. Naubos sa loob ng ilang segundo.",
+	"memorize_seed_not_brain_wallet_p1_a": "Sa mga unang araw ng Bitcoin, nag-eksperimento ang mga tao sa paglikha ng mga private key mula sa mga passphrase na sila mismo ang gumawa. Tinawag ang pamamaraang ito na",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "at ito ay isang sakuna. Nagsulat ang mga hacker ng mga script para hulaan ang mga karaniwang passphrase at inubos ang mga wallet sa loob ng ilang segundo.",
+	"memorize_seed_not_brain_wallet_p2": "Ang sinasaulo mo dito ay iba. Ang mga salita ay nanggaling sa pinagmumulan ng randomness ng isang hardware wallet, hindi sa iyong imahinasyon. Hindi ito mga bagay na maaaring hulaan ng isang script.",
+	"memorize_seed_not_brain_wallet_p3": "Ang iyong seed phrase ay may mataas na entropy. Ang pag-iimbak ng kopya nito sa iyong isip ay hindi nagpapahina dito. Iniimbak lang ito sa ibang lugar.",
+
+	"memorize_seed_when_helpful_heading": "Kailan nakakatulong ang pagsasaulo",
+	"memorize_seed_when_helpful_p1": "Mahalaga ang pagsasaulo kapag nabigo ang mga pisikal na backup. Isang natural na sakuna ang sumira sa iyong tahanan at sa steel plate na nasa loob nito. Isang baha. Isang sunog. Isang paglikas. Isang pagnanakaw. Isang pagtawid sa hangganan kung saan hindi mo madala ang anumang mukhang yaman.",
+	"memorize_seed_when_helpful_p2": "Nakakatulong din ito sa maikling panahon. Ang paglalakbay nang walang backup ay hindi gaanong nakakapagod kapag maaari mong mabawi ang iyong wallet kahit saan ka pa sa mundo.",
+	"memorize_seed_when_helpful_p3": "At ito ay isa pang layer ng redundancy. Kung ang baha, sunog, at magnanakaw ay sabay-sabay na umatake sa parehong linggo, ang iyong sinaulong bersyon ang magdadala sa iyo pauwi.",
+
+	"memorize_seed_rules_heading": "Itakda muna ang mga tuntunin sa kaligtasan",
+	"memorize_seed_rules_p1": "Bago mo isaulo ang anumang bagay, sundin muna ang mga pangunahing alituntunin. Ang iyong seed phrase ang pinakamahalagang password — protektahan ito sa lahat ng paraan.",
+	"memorize_seed_rules_p2": "<strong>Likhain ito sa isang totoong Bitcoin wallet,</strong> hindi sa isang website o phone app na hindi mo pinagkakatiwalaan. Ang lahat ng ito ay nakasalalay sa mga salitang nanggaling sa isang totoong pinagmumulan ng randomness.",
+	"memorize_seed_rules_p3": "<strong>Magtago ng hindi bababa sa isang pisikal na backup.</strong> Papel o bakal, sa higit sa isang ligtas na lugar. Ang pagsasaulo ay nasa ibabaw nito — hindi ito kapalit.",
+	"memorize_seed_rules_p4": "<strong>Huwag kailanman bigkasin nang malakas ang mga salita.</strong> Hindi sa sarili mo, hindi sa pabulong. Ang mga telepono at voice assistant ay mas marami ang naririnig kaysa sa iniisip mo.",
+	"memorize_seed_rules_p5": "<strong>Huwag kailanman i-type ang mga ito sa anumang bagay.</strong> Walang notes app, walang spreadsheet, walang encrypted note, walang \"basta lang sinusubukan.\" Ituring ang anumang keyboard o screen bilang isang pampublikong broadcast.",
+	"memorize_seed_rules_p6": "<strong>Magtrabaho nang pribado kapag nagre-review.</strong> Isara ang pinto. Takpan ang anumang camera na nakaharap sa iyo — kabilang ang webcam ng iyong laptop. Ibaba ang mga blinds. Ibalik ang mga salita sa imbakan sa sandaling tumigil ka sa pagre-review.",
+
+	"memorize_seed_technique_heading": "Paano isaulo ang iyong seed phrase",
+	"memorize_seed_technique_p1": "Mas mahirap tandaan ang mga random na salita kaysa sa isang pangungusap, ngunit mas madali pa rin kaysa sa hitsura nito. Karaniwang labindalawa o dalawampu't apat na salita ang seed phrase, depende sa iyong wallet at sa mga setting nito. Anuman ang bilang, may ritmo ito kung bibigyan mo ng ritmo.",
+	"memorize_seed_technique_p2": "<strong>Hatiin ang phrase.</strong> Ang labindalawang salita ay malinis na nahahati sa tatlong grupo ng apat, o apat na grupo ng tatlo. Ang dalawampu't apat na salita ay nagiging apat na grupo ng anim o anim na grupo ng apat. Mas madaling tandaan ang mas maliit na grupo.",
+	"memorize_seed_technique_p3": "<strong>Bumuo ng isang kuwento.</strong> Ang bawat chunk ay nagiging isang malinaw na maliit na eksena. Gawing kakaiba at espesipiko ang mga ito — natatandaan ng utak ang hindi pangkaraniwan. Ang \"Isang asul na elepante na nagjajaggle ng mga cactus sa ibabaw ng isang piano\" ay manatili sa isipan. Ang \"Ilang salita tungkol sa mga hayop at musika\" ay hindi.",
+	"memorize_seed_technique_p4": "<strong>Gumamit ng memory palace.</strong> Isipin ang isang lugar na kilala mo nang husto — ang iyong kusina, ang ruta papuntang trabaho, ang silid mo noong bata ka pa. Ilagay ang bawat salita sa isang tiyak na palatandaan. Lakarin ang landas sa isipan upang maalala ang pagkakasunud-sunod.",
+	"memorize_seed_technique_p5": "<strong>Tugmain ito o kantahin.</strong> Pumili ng isang tono na alam mo na at iangkop ang mga salita sa ritmo. Ang mga kanta ay malimit na natatandaan.",
+	"memorize_seed_technique_p6": "Piliin kung anong paraan ang likas para sa iyo. Karamihan sa mga tao ay nagsasama ng dalawa — mga chunk at isang kuwento, o isang memory palace na may tono. Piliin kung ano ang pinakamahusay para sa iyo.",
+
+	"memorize_seed_repetition_heading": "Gawing bahagi ng iyong araw ang pag-uulit",
+	"memorize_seed_repetition_p1": "Ang lihim ay dami, hindi pagsisikap. Iugnay ang iyong pagre-review sa isang bagay na ginagawa mo na araw-araw, at maiipon ang mga reps nang hindi mo ito iniisip.",
+	"memorize_seed_repetition_p2": "Ang pagsisipilyo ng dalawang beses sa isang araw ay labing-apat na review sa isang linggo. Pagluluto ng hapunan. Paglalakad ng aso. Pagmamaneho papuntang trabaho. Pagtulog. Sa shower. Pumili ng isa o dalawang gawain at hayaang sumama ang mga salita.",
+	"memorize_seed_repetition_p3": "Daanan ang mga ito sa iyong isip — tahimik, sarado ang mga labi. Huwag bumulong. Huwag igalaw ang iyong bibig. Ang buong layunin ay walang sinumang makakaalam na ginagawa mo ito.",
+	"memorize_seed_repetition_p4": "Pagkalipas ng ilang linggo, ang mga salita ay tumitigil bilang isang bagay na kailangan mong alalahanin at nagsisimulang maging isang bagay na kabisado mo na lang. Ipagpatuloy ang routine sa loob ng isa o dalawang buwan upang talagang manatili ito. Pagkatapos noon, balikan minsan sa isang linggo upang manatili itong sariwa.",
+
+	"memorize_seed_test_heading": "Subukan ang iyong sarili nang walang naiiwang bakas",
+	"memorize_seed_test_p1": "Minsan sa isang linggo, patunayan sa iyong sarili na talagang alam mo ang phrase. Mapanlinlang ang memorya — maaari itong maramdaman bilang pamilyar nang hindi tumpak.",
+	"memorize_seed_test_p2": "<strong>Maghanap ng pribadong lugar</strong> na walang camera na nakaharap sa iyo, kasama ang webcam ng iyong sariling laptop. I-lock ang pinto. Ibaba ang mga blinds.",
+	"memorize_seed_test_p3": "<strong>Isulat ang mga salita sa papel</strong>, nang maayos ang pagkakasunod-sunod. Ihambing ang mga ito sa iyong pisikal na backup, hindi sa iyong memorya. Ang buong layunin ay mahuli ang pagkakamali na hindi makikita ng iyong memorya.",
+	"memorize_seed_test_p4": "<strong>Sirain nang lubusan ang papel.</strong> Pagputul-putulin ito. Sunugin ito. Huwag itapon ang buong sheet sa basurahan. Kung may nakaligtaan kang mga salita, magsagawa ng ilang dagdag na rounds ng pang-araw-araw na review at subukang muli sa susunod na linggo.",
+
+	"memorize_seed_dont_rely_heading": "Huwag umasa sa memorya lamang",
+	"memorize_seed_dont_rely_p1": "Maaasahan ang memorya hanggang sa hindi na ito maaasahan. Ang stress, edad, sakit, pinsala sa ulo, o sapat na mahabang puwang sa pagitan ng mga review ay maaaring magbura ng isang phrase. Walang \"forgot password\" na link para sa Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Ituring ang pagsasaulo bilang isang parallel backup. Ang iyong pisikal na backup ang pundasyon. Ang bersyon sa iyong isip ang redundancy. Kung sinira ng isang sakuna ang pundasyon, ang redundancy ang magdadala sa iyo pauwi.",
+	"memorize_seed_dont_rely_p3": "Ang tanging mga sitwasyong nagbibigay-katwiran sa pagtatago lamang sa memorya ay matindi: pagtakas mula sa isang war zone, pagtakas sa awtoritaryan na pang-uusig, pagtawid sa hangganan na may mga ari-arian na maaaring kumpiskahin. At kahit na sa mga ganoong sitwasyon, mainam pa ring gumawa ng bagong pisikal na backup kapag nasa isang ligtas na lokasyon ka na.",
+
+	"memorize_seed_card_wallets_label": "I-set up nang tama",
+	"memorize_seed_card_wallets_title": "Likhain ang iyong seed phrase sa isang totoong Bitcoin wallet",
+	"memorize_seed_card_wallets_source": "Pinagmulan: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonic code para sa paglikha ng deterministic na mga key",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

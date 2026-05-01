@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "az"
 	},
 	"bitcoin_wallet_guide": "Bitcoin Pul Kisəsi Bələdçisi",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 aparat pulqabı",
 	"sources_coldcard_q": "Coinkite — Coldcard Q aparat pulqabı",
 	"sources_passport": "Foundation Devices — Passport aparat pulqabı",
-	"sources_seedsigner": "SeedSigner — açıq mənbəli, DIY Bitcoin imza cihazı"
+	"sources_seedsigner": "SeedSigner — açıq mənbəli, DIY Bitcoin imza cihazı",
+	"wallets_s6_c4b_a": "Daha bir möhkəmlik təbəqəsi üçün siz həmçinin",
+	"wallets_s6_c4b_b": "bərpa ifadənizi yadda saxlaya",
+	"wallets_s6_c4b_c": "bilərsiniz — sizinlə birgə səyahət edən görünməz ehtiyat nüsxə kimi."
 }

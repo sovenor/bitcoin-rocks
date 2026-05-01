@@ -1,30 +1,38 @@
 {
 	"lang": "pl",
-	"generatedAt": "2026-04-25T18:41:52.323Z",
-	"englishSnapshotGeneratedAt": "2026-04-25T18:03:47.555Z",
+	"generatedAt": "2026-05-01T03:07:16.724Z",
+	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
 	"markerManifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerAppliedAt": "2026-04-25T18:41:46.534Z",
 	"namespaceFilter": null,
 	"stats": {
-		"totalEnglishKeys": 1852,
+		"totalEnglishKeys": 1913,
 		"missing": 0,
-		"untranslated": 1,
+		"untranslated": 2,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
-		"upToDate": 1210,
-		"brandIdentical": 84
+		"upToDate": 1269,
+		"brandIdentical": 85
 	},
 	"entries": [
 		{
-			"namespace": "buy",
-			"key": "buy_platform_feature_p2p",
+			"namespace": "memorize-your-seed-phrase",
+			"key": "memorize_seed_callout_bad_label",
 			"reason": "untranslated",
-			"englishValue": "Peer-to-peer",
-			"currentValue": "Peer-to-peer",
+			"englishValue": "Brain wallet",
+			"currentValue": "Brain wallet",
+			"targetTranslation": null
+		},
+		{
+			"namespace": "memorize-your-seed-phrase",
+			"key": "sources_brain_wallet_research",
+			"reason": "untranslated",
+			"englishValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+			"currentValue": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
 			"targetTranslation": null
 		}
 	]

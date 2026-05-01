@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "eu"
+	},
+	"memorize_seed_page_title": "Nola gorde Bitcoin zure garunean",
+	"memorize_seed_page_description": "Nola memoriaratu modu seguruan zure Bitcoin berreskuratze-esaldia babeskopia ikusezin gisa. Teknika praktikoak, segurtasun-arauak eta zergatik memorizazioak nekez izan beharko lukeen zure babeskopia bakarra.",
+	"memorize_seed_h1_title": "Nola gorde Bitcoin zure garunean: zurekin doan babeskopia ikusezin bat",
+
+	"memorize_seed_intro_heading": "Inork ikus ezin dezakeen babeskopia",
+	"memorize_seed_intro_p1": "Zure berreskuratze-esaldia zure Bitcoin-en gako nagusia da. Jende gehienak paperean edo altzairuan egiten du babeskopia. Memorizazioa beste babeskopia-geruza bat da gainean jartzeko.",
+	"memorize_seed_intro_p2": "Ikusezina. Pisurik gabea. Zuk bakarrik dakizu. Ez sute batek, ez lapurreta batek, ez muga-kontrol batek ezin dizu kendu.",
+	"memorize_seed_intro_p3": "Ia denontzat, memorizazioa babeskopia fisiko baten gainean dago, ez haren ordez. Geroago hitz egingo dugu honetaz.",
+
+	"memorize_seed_not_brain_wallet_heading": "Hau ez da \"brain wallet\" bat",
+	"memorize_seed_callout_good_label": "Berreskuratze-esaldia memorizatzea",
+	"memorize_seed_callout_good_desc": "Hardware-zorro batek sortutako hitzak. Entropia handikoak. Seguru gorde dezakezu kopia bat zure buruan.",
+	"memorize_seed_callout_bad_label": "Brain wallet",
+	"memorize_seed_callout_bad_desc": "Zuk asmatutako pasaesalditik eratorritako gakoa. Hautsia. Segundotan hustua.",
+	"memorize_seed_not_brain_wallet_p1_a": "Bitcoin-en hasierako garaietan, jendeak asmatutako pasaesaldietatik gako pribatuak sortzen esperimentatu zuen. Metodo horri",
+	"memorize_seed_not_brain_wallet_p1_b": "brain wallet,",
+	"memorize_seed_not_brain_wallet_p1_c": "deitzen zitzaion eta hondamendia izan zen. Hackerrek script-ak idatzi zituzten ohiko pasaesaldiak asmatzeko eta zorroak segundotan husten zituzten.",
+	"memorize_seed_not_brain_wallet_p2": "Hemen memorizatzen ari zarena desberdina da. Hitzak hardware-zorro baten ausazkotasun-iturritik datoz, ez zure imajinaziotik. Ez dira script batek asma ditzakeen zerbait.",
+	"memorize_seed_not_brain_wallet_p3": "Zure berreskuratze-esaldiak entropia handia du. Haren kopia bat zure buruan gordetzeak ez du ahultzen. Beste leku batean gordetzen du, besterik ez.",
+
+	"memorize_seed_when_helpful_heading": "Noiz laguntzen duen memorizazioak",
+	"memorize_seed_when_helpful_p1": "Memorizazioak distira egiten du babeskopia fisikoek huts egiten dutenean. Hondamendi natural batek zure etxea eta barruko altzairuzko plaka eramaten ditu. Uholdea. Sutea. Ebakuazioa. Lapurreta. Aberastasuna iruditzen den ezer eraman ezin duzun muga-kontrol bat.",
+	"memorize_seed_when_helpful_p2": "Epe laburrean ere laguntzen du. Babeskopiarik gabe bidaiatzea estres gutxiagokoa da munduko edozein lekutatik zure zorroa berreskuratu dezakezunean.",
+	"memorize_seed_when_helpful_p3": "Eta erredundantzia-geruza bat gehiago da. Aste berean uholdea, sutea eta lapurreta gertatzen badira, memorizatutako bertsioa da etxera eramango zaituena.",
+
+	"memorize_seed_rules_heading": "Ezarri segurtasun-arauak lehenik",
+	"memorize_seed_rules_p1": "Ezer memorizatu aurretik, finkatu oinarrizkoa. Zure berreskuratze-esaldia behin betiko pasahitza da — babestu edozein preziotan.",
+	"memorize_seed_rules_p2": "<strong>Sortu Bitcoin zorro erreal batean,</strong> ez fidatzen ez duzun webgune edo telefono-aplikazio batean. Ariketa osoa hitzak ausazkotasun-iturri erreal batetik etortzearen menpe dago.",
+	"memorize_seed_rules_p3": "<strong>Mantendu gutxienez babeskopia fisiko bat.</strong> Papera edo altzairua, leku seguru batean baino gehiagotan. Memorizazioa horren gainean dago — ez da ordezko bat.",
+	"memorize_seed_rules_p4": "<strong>Inoiz ez esan hitzak ozen.</strong> Ez zure buruari, ez ahopeka. Telefonoek eta ahots-laguntzaileek uste duzuna baino gehiago entzuten dute.",
+	"memorize_seed_rules_p5": "<strong>Inoiz ez idatzi inon.</strong> Ohar-aplikaziorik ez, kalkulu-orririk ez, ohar zifratuen aplikaziorik ez, \"probatzeko soilik\" eginbiderik ez. Tratatu edozein teklatu edo pantaila publikoki igortzen ari den zerbait bezala.",
+	"memorize_seed_rules_p6": "<strong>Egin lana pribatuan berrikustean.</strong> Itxi atea. Estali zuregana zuzendutako edozein kamera — zure ordenagailu eramangarriaren web-kamera barne. Itxi pertsianak. Itzuli hitzak gordailura berrikusteari uzten diozun unean.",
+
+	"memorize_seed_technique_heading": "Nola memorizatu zure berreskuratze-esaldia",
+	"memorize_seed_technique_p1": "Ausazko hitzak esaldi bat baino zailagoak dira gogoratzeko, baina dirudiena baino errazagoak. Berreskuratze-esaldiek normalean hamabi edo hogeita lau hitz dituzte zorroaren eta haren ezarpenen arabera. Bi kopuruek erritmo bati jarraitzen diote ematen badiozu.",
+	"memorize_seed_technique_p2": "<strong>Zatitu esaldia.</strong> Hamabi hitz garbiki banatzen dira lau hitzeko hiru taldetan, edo hiru hitzeko lau taldetan. Hogeita lau hitz sei hitzeko lau talde edo lau hitzeko sei talde bihurtzen dira. Talde txikiagoak errazago finkatzen dira.",
+	"memorize_seed_technique_p3": "<strong>Eraiki istorio bat.</strong> Zati bakoitza eszena bizi txiki bat bihurtzen da. Egin bitxiak eta zehatzak — garunak ezohikoa gogoratzen du. \"Elefante urdin bat kaktusekin malabarismoak egiten piano baten gainean\" iltzatuta gelditzen da. \"Animaliei eta musikari buruzko hitz batzuk\" ez.",
+	"memorize_seed_technique_p4": "<strong>Erabili oroimen-jauregi bat.</strong> Imajinatu ondo ezagutzen duzun leku bat — zure sukaldea, lanerako bidea, zure haurtzaroko logela. Jarri hitz bakoitza erreferentzia-puntu zehatz batean. Ibili bidea buruan ordena gogoratzeko.",
+	"memorize_seed_technique_p5": "<strong>Errimatu edo abestu.</strong> Aukeratu dagoeneko ezagutzen duzun doinu bat eta egokitu hitzak erritmoari. Abestiak itsaskorrak dira.",
+	"memorize_seed_technique_p6": "Aukeratu naturala iruditzen zaizun metodoa. Jende gehienak bi konbinatzen ditu — zatiak gehi istorioa, edo doinu bati lotutako oroimen-jauregia. Aukeratu ondoen funtzionatzen dizuna.",
+
+	"memorize_seed_repetition_heading": "Bihurtu errepikapena zure egunaren parte",
+	"memorize_seed_repetition_p1": "Trikimailua bolumena da, ez ahalegina. Lotu zure berrikustea egunero egiten duzun zerbaitekin, eta errepikapenak metatzen dira pentsatu gabe.",
+	"memorize_seed_repetition_p2": "Hortzak egunean bi aldiz garbitzea hamalau berrikuste dira astean. Afaria prestatzea. Txakurra paseatzea. Lanera gidatzea. Loak hartzea. Dutxa. Aukeratu errutina bat edo bi eta utzi hitzak ondoan ibiltzen.",
+	"memorize_seed_repetition_p3": "Errepasatu buruan — isilik, ezpainak itxita. Ez xuxurlatu. Ez mugitu ahoa. Helburua hain zuzen ere inork ez ohartzea da egiten ari zarela.",
+	"memorize_seed_repetition_p4": "Aste pare baten ondoren, hitzak ez dira gogora ekarri behar duzun zerbait izango eta hasiko zara haiek besterik gabe jakiten. Mantendu errutina hilabete edo bi gehiagoz benetan iltzatzeko. Ondoren astean behin egin atxikitzeko.",
+
+	"memorize_seed_test_heading": "Probatu zeure burua arrastorik utzi gabe",
+	"memorize_seed_test_p1": "Astean behin, frogatu zeure buruari benetan dakizula esaldia. Oroimena maltzurra da — ezaguna iruditu daiteke zehatza izan gabe.",
+	"memorize_seed_test_p2": "<strong>Aurkitu leku pribatu bat</strong> zuregana zuzendutako kamerarik gabe, zure ordenagailu eramangarriaren web-kamera barne. Itxi atea. Itxi pertsianak.",
+	"memorize_seed_test_p3": "<strong>Idatzi hitzak paperean</strong>, ordenan. Konparatu zure babeskopia fisikoarekin, ez zure oroimenarekin. Helburua zure oroimenak ikusi ezin duen akats bat harrapatzea da.",
+	"memorize_seed_test_p4": "<strong>Suntsitu papera erabat.</strong> Zatitu. Erre. Ez bota orri osoa zaborrontzira. Hitzen bat huts egin baduzu, egin ohiko berrikustearen txanda gehigarri batzuk eta saiatu berriro hurrengo astean.",
+
+	"memorize_seed_dont_rely_heading": "Ez fidatu oroimenaz bakarrik",
+	"memorize_seed_dont_rely_p1": "Oroimena fidagarria da huts egiten ez duen arte. Estresak, adinak, gaixotasunak, buruko zauri batek edo berrikusteen arteko tarte luzeegiak esaldi bat ezaba dezakete. Bitcoin-erako ez dago \"pasahitza ahaztu duzu\" estekarik.",
+	"memorize_seed_dont_rely_p2": "Tratatu memorizazioa babeskopia paralelo gisa. Zure babeskopia fisikoa oinarria da. Zure buruko bertsioa erredundantzia da. Hondamendi batek oinarria eramaten badu, erredundantziak etxera eramango zaitu.",
+	"memorize_seed_dont_rely_p3": "Oroimen bidezko biltegiratze hutsa justifikatzen duten egoera bakarrak muturrekoak dira: gerra-eremu batetik ihes egitea, jazarpen autoritariotik ihes egitea, konfiskatuko liratekeen ondasunekin muga bat zeharkatzea. Eta orduan ere, komeni da babeskopia fisiko berri bat sortzea leku seguru batean iristen zarenean.",
+
+	"memorize_seed_card_wallets_label": "Konfiguratu ondo",
+	"memorize_seed_card_wallets_title": "Sortu zure berreskuratze-esaldia Bitcoin zorro erreal batean",
+	"memorize_seed_card_wallets_source": "Iturria: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Gako deterministikoak sortzeko kode mnemoteknikoa",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

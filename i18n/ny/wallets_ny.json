@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ny"
 	},
 	"bitcoin_wallet_guide": "Gaidi ya Zikwama za Bitcoin",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Chikwama cha hardware cha Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — Chikwama cha hardware cha Coldcard Q",
 	"sources_passport": "Foundation Devices — Chikwama cha hardware cha Passport",
-	"sources_seedsigner": "SeedSigner — Chipangizo chosaina cha Bitcoin chotsegula chodzipangira"
+	"sources_seedsigner": "SeedSigner — Chipangizo chosaina cha Bitcoin chotsegula chodzipangira",
+	"wallets_s6_c4b_a": "Kuti muonjezere chosungira chimodzinso, mukhozanso",
+	"wallets_s6_c4b_b": "kusunga mawu anu obwezeretsa mubongo",
+	"wallets_s6_c4b_c": "ngati chosungira chosaoneka chimene chimayenda nanu."
 }

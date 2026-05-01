@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ja"
 	},
 	"bitcoin_wallet_guide": "ビットコインウォレットガイド",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 ハードウェア・ウォレット",
 	"sources_coldcard_q": "Coinkite — Coldcard Q ハードウェア・ウォレット",
 	"sources_passport": "Foundation Devices — Passport ハードウェア・ウォレット",
-	"sources_seedsigner": "SeedSigner — オープンソースの DIY ビットコイン署名デバイス"
+	"sources_seedsigner": "SeedSigner — オープンソースの DIY ビットコイン署名デバイス",
+	"wallets_s6_c4b_a": "もう一段の冗長性のため、",
+	"wallets_s6_c4b_b": "シードフレーズを記憶する",
+	"wallets_s6_c4b_c": "ことで、あなたと共に旅する見えないバックアップを持つこともできます。"
 }

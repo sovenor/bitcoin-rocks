@@ -1,6 +1,6 @@
 {
 	"lang": "my",
-	"generatedAt": "2026-04-26T18:10:03.231Z",
+	"generatedAt": "2026-05-01T03:23:06.715Z",
 	"englishSnapshotGeneratedAt": "2026-04-25T21:25:44.358Z",
 	"manifestVersion": "d966f8c780c0c4856a301e886c20474d601422ffb3bb5f82c9d13c76e167670c",
 	"markerMatches": true,
@@ -8,23 +8,23 @@
 	"markerAppliedAt": "2026-04-25T15:26:46.476Z",
 	"namespaceFilter": null,
 	"stats": {
-		"totalEnglishKeys": 1852,
+		"totalEnglishKeys": 1913,
 		"missing": 0,
 		"untranslated": 1,
 		"manifestChanged": 0,
 		"manifestAdded": 0,
 		"manifestAlreadyPresentInTarget": 0,
 		"manifestSkippedByMarker": 557,
-		"upToDate": 1212,
-		"brandIdentical": 82
+		"upToDate": 1272,
+		"brandIdentical": 83
 	},
 	"entries": [
 		{
-			"namespace": "buy",
-			"key": "buy_platform_feature_p2p",
+			"namespace": "wallets",
+			"key": "wallets_air_gap_mode",
 			"reason": "untranslated",
-			"englishValue": "Peer-to-peer",
-			"currentValue": "Peer-to-peer",
+			"englishValue": "Air-gap mode",
+			"currentValue": "Air-gap mode",
 			"targetTranslation": null
 		}
 	]

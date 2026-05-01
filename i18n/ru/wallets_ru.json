@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "ru"
 	},
 	"bitcoin_wallet_guide": "Руководство по биткоин-кошелькам",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — аппаратный кошелёк Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — аппаратный кошелёк Coldcard Q",
 	"sources_passport": "Foundation Devices — аппаратный кошелёк Passport",
-	"sources_seedsigner": "SeedSigner — самодельное устройство с открытым исходным кодом для подписи Bitcoin-транзакций"
+	"sources_seedsigner": "SeedSigner — самодельное устройство с открытым исходным кодом для подписи Bitcoin-транзакций",
+	"wallets_s6_c4b_a": "Для ещё одного уровня устойчивости вы также можете",
+	"wallets_s6_c4b_b": "запомнить свою сид-фразу",
+	"wallets_s6_c4b_c": "как невидимую резервную копию, которая путешествует с вами."
 }

@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "uz"
+	},
+	"memorize_seed_page_title": "Bitcoinni miyangizda qanday saqlash kerak",
+	"memorize_seed_page_description": "Bitcoin urugʻ iborangizni koʻrinmas zaxira sifatida xavfsiz yodlash usuli. Amaliy texnikalar, xavfsizlik qoidalari va nima uchun yodlash kamdan-kam holatlarda yagona zaxirangiz boʻlishi kerakligi.",
+	"memorize_seed_h1_title": "Bitcoinni miyangizda qanday saqlash: siz bilan birga yuradigan koʻrinmas zaxira",
+
+	"memorize_seed_intro_heading": "Hech kim koʻra olmaydigan zaxira",
+	"memorize_seed_intro_p1": "Urugʻ iborangiz Bitcoiningizning bosh kalitidir. Koʻpchilik uni qogʻozda yoki poʻlatda zaxiralaydi. Yodlash — buning ustiga qoʻshimcha qoʻshish mumkin boʻlgan yana bir zaxira.",
+	"memorize_seed_intro_p2": "Koʻrinmas. Vazni yoʻq. Faqat sizga maʼlum. Hech qanday yongʻin, hech qanday oʻgʻirlik, hech qanday chegara tekshiruvi uni sizdan ololmaydi.",
+	"memorize_seed_intro_p3": "Deyarli hamma uchun yodlash jismoniy zaxira ustiga qoʻyiladi, uning oʻrniga emas. Bu haqda keyinroq batafsil.",
+
+	"memorize_seed_not_brain_wallet_heading": "Bu \"miya hamyoni\" emas",
+	"memorize_seed_callout_good_label": "Urugʻ iborasini yodlash",
+	"memorize_seed_callout_good_desc": "Apparat hamyon tomonidan yaratilgan soʻzlar. Yuqori entropiya. Bir nusxasini boshingizda saqlash xavfsiz.",
+	"memorize_seed_callout_bad_label": "Miya hamyoni",
+	"memorize_seed_callout_bad_desc": "Oʻzingiz oʻylab topgan iboradan kelib chiqadigan kalit. Buzilgan. Bir necha soniyada boʻshatilgan.",
+	"memorize_seed_not_brain_wallet_p1_a": "Bitcoinning dastlabki kunlarida odamlar oʻzlari oʻylab topgan iboralardan shaxsiy kalitlar yaratish ustida tajriba oʻtkazganlar. Bu usul",
+	"memorize_seed_not_brain_wallet_p1_b": "miya hamyoni",
+	"memorize_seed_not_brain_wallet_p1_c": "deb atalgan va u haqiqiy falokat boʻlib chiqdi. Xakerlar keng tarqalgan iboralarni topishga moʻljallangan skriptlar yozib, hamyonlarni bir necha soniyada boʻshatib qoʻyishgan.",
+	"memorize_seed_not_brain_wallet_p2": "Bu yerda yodlayotganingiz boshqa narsa. Soʻzlar sizning tasavvuringizdan emas, apparat hamyonning tasodifiylik manbasidan keladi. Ular skript topa oladigan narsa emas.",
+	"memorize_seed_not_brain_wallet_p3": "Urugʻ iborangiz yuqori entropiyaga ega. Uning bir nusxasini boshingizda saqlash uni zaiflashtirmaydi. Faqat uni boshqa joyda ham saqlaydi.",
+
+	"memorize_seed_when_helpful_heading": "Yodlash qachon yordam beradi",
+	"memorize_seed_when_helpful_p1": "Yodlash jismoniy zaxiralar ishdan chiqqanda yorqin namoyon boʻladi. Tabiiy ofat uyingiz va undagi poʻlat plastinka bilan birga yoʻq qiladi. Suv toshqini. Yongʻin. Evakuatsiya. Oʻgʻirlik. Boylikka oʻxshash hech narsa olib oʻta olmaydigan chegara oʻtkazgich.",
+	"memorize_seed_when_helpful_p2": "Bu qisqa muddatda ham yordam beradi. Hamyoningizni dunyoning istalgan joyidan tiklab olishingiz mumkinligini bilsangiz, zaxirasiz sayohat qilish ancha kam stressli boʻladi.",
+	"memorize_seed_when_helpful_p3": "Va bu yana bir qatlam zaxiralanish hisoblanadi. Agar suv toshqini, yongʻin va oʻgʻri bir hafta ichida birga kelsa, yodlangan nusxangiz sizni uyga qaytaradi.",
+
+	"memorize_seed_rules_heading": "Avval xavfsizlik qoidalarini oʻrnating",
+	"memorize_seed_rules_p1": "Biror narsani yodlashdan oldin asoslarni mahkamlang. Urugʻ iborangiz eng muhim parol — uni har qanday holatda himoya qiling.",
+	"memorize_seed_rules_p2": "<strong>Uni haqiqiy Bitcoin hamyonida yarating,</strong> ishonmaydigan veb-saytda yoki telefon ilovasida emas. Butun ish soʻzlarning haqiqiy tasodifiylik manbasidan kelishiga bogʻliq.",
+	"memorize_seed_rules_p3": "<strong>Kamida bitta jismoniy zaxirani saqlang.</strong> Qogʻoz yoki poʻlat, bir nechta xavfsiz joyda. Yodlash buning ustida — almashtirish emas.",
+	"memorize_seed_rules_p4": "<strong>Soʻzlarni hech qachon ovoz chiqarib aytmang.</strong> Oʻzingizga ham, pichirlab ham. Telefonlar va ovozli yordamchilar siz oʻylaganingizdan koʻra koʻproq eshitadi.",
+	"memorize_seed_rules_p5": "<strong>Ularni hech narsaga yozmang.</strong> Eslatma ilovasi, jadval, shifrlangan eslatma yoki \"shunchaki sinab koʻrish uchun\" — yoʻq. Har qanday klaviatura yoki ekranni jamoat efiri deb hisoblang.",
+	"memorize_seed_rules_p6": "<strong>Tekshirayotganda yolgʻiz ishlang.</strong> Eshikni yoping. Sizga qaratilgan har qanday kameralarni — shu jumladan noutbukingizning veb-kamerasini — yoping. Pardalarni torting. Tekshirishni toʻxtatgan zahoti soʻzlarni saqlash joyiga qaytaring.",
+
+	"memorize_seed_technique_heading": "Urugʻ iborangizni qanday yodlash kerak",
+	"memorize_seed_technique_p1": "Tasodifiy soʻzlarni eslab qolish jumlaga qaraganda qiyinroq, lekin koʻrinishidan osonroq. Urugʻ iboralari odatda hamyon va uning sozlamalariga qarab oʻn ikki yoki yigirma toʻrt soʻzdan iborat. Ikkala miqdor ham ritm bersangiz, ritmga ergashadi.",
+	"memorize_seed_technique_p2": "<strong>Iborani boʻlaklarga ajrating.</strong> Oʻn ikki soʻz toʻrttadan uch guruhga yoki uchtadan toʻrt guruhga toza boʻlinadi. Yigirma toʻrt soʻz oltitadan toʻrt guruh yoki toʻrttadan olti guruhga aylanadi. Kichik guruhlarni mahkam qotirish osonroq.",
+	"memorize_seed_technique_p3": "<strong>Hikoya quring.</strong> Har bir boʻlak yorqin kichik sahnaga aylanadi. Ularni gʻalati va aniq qiling — miya gʻayrioddiy narsalarni eslab qoladi. \"Pianino ustida kaktuslarni jonglyorlik qilayotgan koʻk fil\" yodda qoladi. \"Hayvonlar va musiqa haqida bir nechta soʻzlar\" esa yoʻq.",
+	"memorize_seed_technique_p4": "<strong>Xotira saroyidan foydalaning.</strong> Yaxshi biladigan joyni — oshxonangizni, ishga boradigan yoʻlingizni, bolaligingizdagi yotoqxonangizni — koʻz oldingizga keltiring. Har bir soʻzni aniq belgida joylashtiring. Tartibni eslash uchun yoʻlni xayolan bosib oʻting.",
+	"memorize_seed_technique_p5": "<strong>Qofiyalang yoki kuylang.</strong> Allaqachon biladigan kuyni tanlang va soʻzlarni ritmga moslashtiring. Qoʻshiqlar yopishqoq.",
+	"memorize_seed_technique_p6": "Oʻzingizga tabiiy tuyuladigan usulni tanlang. Koʻpchilik ikkitasini birlashtiradi — boʻlaklar va hikoya yoki kuyga moslangan xotira saroyi. Sizga eng yaxshi mos keladiganini tanlang.",
+
+	"memorize_seed_repetition_heading": "Takrorlashni kuningizning bir qismiga aylantiring",
+	"memorize_seed_repetition_p1": "Hiyla — bu hajm, harakat emas. Tekshiruvingizni har kuni bajaradigan biror narsaga bogʻlang va takrorlar siz oʻylamasdan toʻplanadi.",
+	"memorize_seed_repetition_p2": "Tishlaringizni kuniga ikki marta yuvish — haftada oʻn toʻrt marta tekshirish. Kechki ovqat tayyorlash. It bilan sayr qilish. Ishga haydash. Uxlashga yotish. Dush. Bitta yoki ikkita odatni tanlang va soʻzlarning ular bilan birga yurishiga yoʻl qoʻying.",
+	"memorize_seed_repetition_p3": "Ularni boshingizda — jim, lablaringiz yopiq holda — bir boshdan oʻtkazing. Pichirlamang. Ogʻzingizni qimirlatmang. Butun maʼno shundaki, hech kim sizning buni qilayotganingizni sezmasligi kerak.",
+	"memorize_seed_repetition_p4": "Bir necha haftadan soʻng, soʻzlar siz eslab qolishingiz kerak boʻlgan narsadan, oddiygina bilib turadigan narsaga aylanadi. Haqiqatdan ham mahkam oʻtirib qolishi uchun odatni bir-ikki oy davom ettiring. Shundan soʻng yangi saqlash uchun haftada bir marta uchrashib turing.",
+
+	"memorize_seed_test_heading": "Iz qoldirmasdan oʻzingizni sinab koʻring",
+	"memorize_seed_test_p1": "Haftada bir marta oʻzingizga iborani haqiqatan ham bilishingizni isbotlang. Xotira ayyor — u aniq boʻlmay turib tanish tuyulishi mumkin.",
+	"memorize_seed_test_p2": "<strong>Yolgʻiz joy toping</strong> — sizga qaratilgan kameralarsiz, shu jumladan oʻzingizning noutbukingiz veb-kamerasi. Eshikni yoping. Pardalarni torting.",
+	"memorize_seed_test_p3": "<strong>Soʻzlarni qogʻozga</strong> tartibida yozing. Ularni xotirangiz bilan emas, jismoniy zaxirangiz bilan solishtiring. Butun maʼno xotirangiz koʻra olmaydigan xatoni topishdir.",
+	"memorize_seed_test_p4": "<strong>Qogʻozni butunlay yoʻq qiling.</strong> Maydalang. Yoqing. Butun varaqni axlatga tashlamang. Agar biror soʻzni oʻtkazib yuborgan boʻlsangiz, bir nechta qoʻshimcha odatiy tekshirish bosqichlarini bajaring va keyingi haftada qayta urinib koʻring.",
+
+	"memorize_seed_dont_rely_heading": "Faqat xotiraga ishonmang",
+	"memorize_seed_dont_rely_p1": "Xotira ishonchli — toki ishonchli boʻlmagunicha. Stress, yosh, kasallik, bosh jarohati yoki tekshiruvlar oʻrtasidagi yetarlicha uzun tanaffus iborani oʻchirib tashlashi mumkin. Bitcoin uchun \"parolni unutdim\" havolasi yoʻq.",
+	"memorize_seed_dont_rely_p2": "Yodlashni parallel zaxira sifatida qabul qiling. Jismoniy zaxirangiz — bu poydevor. Boshingizdagi versiya — bu zaxiralanish. Agar falokat poydevorni yoʻq qilsa, zaxiralanish sizni uyga qaytaradi.",
+	"memorize_seed_dont_rely_p3": "Faqat xotiraga asoslangan saqlashni oqlaydigan vaziyatlar — ekstremal: urush mintaqasidan qochish, avtoritar taʼqibdan qutilish, musodara qilinadigan aktivlar bilan chegarani kesib oʻtish. Va shunda ham, xavfsiz joyga yetib borganingizdan keyin yangi jismoniy zaxira yaratish yaxshi gʻoya.",
+
+	"memorize_seed_card_wallets_label": "Toʻgʻri sozlang",
+	"memorize_seed_card_wallets_title": "Urugʻ iborangizni haqiqiy Bitcoin hamyonida yarating",
+	"memorize_seed_card_wallets_source": "Manba: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIP — BIP39: Deterministik kalitlarni yaratish uchun mnemonik kod",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Bitcoin miya hamyonlaridan foydalanish va suiisteʼmolini oʻrganish (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: tengdosh-dan-tengdoshga elektron pul tizimi (2008)"
+}

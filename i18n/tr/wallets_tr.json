@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "tr"
 	},
 	"bitcoin_wallet_guide": "Bitcoin cüzdan rehberi",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 donanım cüzdanı",
 	"sources_coldcard_q": "Coinkite — Coldcard Q donanım cüzdanı",
 	"sources_passport": "Foundation Devices — Passport donanım cüzdanı",
-	"sources_seedsigner": "SeedSigner — Açık kaynaklı, kendin yap Bitcoin imzalama cihazı"
+	"sources_seedsigner": "SeedSigner — Açık kaynaklı, kendin yap Bitcoin imzalama cihazı",
+	"wallets_s6_c4b_a": "Bir esneklik katmanı daha için, ayrıca",
+	"wallets_s6_c4b_b": "kurtarma ifadenizi ezberleyebilirsiniz",
+	"wallets_s6_c4b_c": "— sizinle birlikte seyahat eden görünmez bir yedek olarak."
 }

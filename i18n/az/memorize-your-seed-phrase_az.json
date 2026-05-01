@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "az"
+	},
+	"memorize_seed_page_title": "Bitcoin-i Beyninizdə Necə Saxlamaq Olar",
+	"memorize_seed_page_description": "Bitcoin bərpa ifadənizi görünməz ehtiyat nüsxə kimi yaddaşa təhlükəsiz şəkildə necə həkk etməli. Praktik üsullar, təhlükəsizlik qaydaları və yadda saxlamanın niyə demək olar ki, heç vaxt yeganə ehtiyat nüsxəniz olmamalı olduğu.",
+	"memorize_seed_h1_title": "Bitcoin-i beyninizdə necə saxlamaq olar: hara getsəniz sizinlə gələn görünməz ehtiyat nüsxə",
+
+	"memorize_seed_intro_heading": "Heç kimin görə bilmədiyi ehtiyat nüsxə",
+	"memorize_seed_intro_p1": "Bərpa ifadəniz Bitcoin-inizin əsas açarıdır. Əksər insanlar onu kağız və ya polad üzərində ehtiyat nüsxəyə alır. Yadda saxlama isə bunun üzərinə əlavə edə biləcəyiniz daha bir ehtiyat nüsxədir.",
+	"memorize_seed_intro_p2": "Görünməz. Çəkisiz. Yalnız sizə məlum. Heç bir yanğın, heç bir oğurluq, heç bir sərhəd yoxlaması onu sizdən ala bilməz.",
+	"memorize_seed_intro_p3": "Demək olar ki, hər kəs üçün yadda saxlama fiziki ehtiyat nüsxənin üstündə yer almalıdır, onun əvəzinə yox. Bu barədə daha sonra.",
+
+	"memorize_seed_not_brain_wallet_heading": "Bu \"beyin pul kisəsi\" deyil",
+	"memorize_seed_callout_good_label": "Bərpa ifadəsini yadda saxlamaq",
+	"memorize_seed_callout_good_desc": "Aparat pulqabı tərəfindən yaradılmış sözlər. Yüksək entropiya. Onun bir surətini başınızda saxlamaq təhlükəsizdir.",
+	"memorize_seed_callout_bad_label": "Beyin pul kisəsi",
+	"memorize_seed_callout_bad_desc": "Sizin uydurduğunuz parol ifadəsindən törədilmiş açar. Sınıqdır. Saniyələr içində boşaldılır.",
+	"memorize_seed_not_brain_wallet_p1_a": "Bitcoin-in ilk günlərində insanlar uydurduqları parol ifadələrindən şəxsi açarlar yaratmaq təcrübələri aparırdılar. Bu üsul",
+	"memorize_seed_not_brain_wallet_p1_b": "beyin pul kisəsi",
+	"memorize_seed_not_brain_wallet_p1_c": "adlanırdı və o, fəlakət oldu. Hakerlər ümumi parol ifadələrini təxmin etmək üçün skriptlər yazdı və pul kisələrini saniyələr içində boşaltdılar.",
+	"memorize_seed_not_brain_wallet_p2": "Burada yadda saxladığınız şey fərqlidir. Sözlər sizin təxəyyülünüzdən deyil, aparat pulqabısının təsadüfilik mənbəyindən gəlib. Onları skript təxmin edə bilməz.",
+	"memorize_seed_not_brain_wallet_p3": "Bərpa ifadəniz yüksək entropiyalıdır. Onun bir surətini başınızda saxlamaq onu zəiflətmir. Sadəcə onu başqa bir yerdə saxlayır.",
+
+	"memorize_seed_when_helpful_heading": "Yadda saxlama nə vaxt kömək edir",
+	"memorize_seed_when_helpful_p1": "Yadda saxlama fiziki ehtiyat nüsxələr uğursuz olduqda parlayır. Təbii fəlakət evinizi və içindəki polad lövhəni məhv edir. Daşqın. Yanğın. Təxliyə. Oğurluq. Sərvətə bənzəyən heç nə apara bilməyəcəyiniz sərhəd keçidi.",
+	"memorize_seed_when_helpful_p2": "O, qısamüddətli də kömək edir. Pul kisənizi dünyanın istənilən yerindən bərpa edə bildiyiniz zaman ehtiyat nüsxəsiz səyahət etmək çox daha az stressli olur.",
+	"memorize_seed_when_helpful_p3": "Və bu daha bir ehtiyat təbəqəsidir. Eyni həftədə daşqın, yanğın və oğru hamısı vursa, sizi evə qaytaracaq olan yadda saxlanmış versiyanızdır.",
+
+	"memorize_seed_rules_heading": "Əvvəlcə təhlükəsizlik qaydalarını müəyyən edin",
+	"memorize_seed_rules_p1": "Hər hansı bir şeyi yadda saxlamadan əvvəl əsasları kilidləyin. Bərpa ifadəniz ən vacib paroldur — onu nəyin bahasına olursa olsun qoruyun.",
+	"memorize_seed_rules_p2": "<strong>Onu inanmadığınız vebsayt və ya telefon tətbiqində deyil, real Bitcoin pul kisəsində yaradın.</strong> Bütün məşq sözlərin real təsadüfilik mənbəyindən gəlməsindən asılıdır.",
+	"memorize_seed_rules_p3": "<strong>Ən azı bir fiziki ehtiyat nüsxə saxlayın.</strong> Birdən çox təhlükəsiz yerdə kağız və ya polad. Yadda saxlama bunun üzərində yer alır — əvəzedicisi deyil.",
+	"memorize_seed_rules_p4": "<strong>Sözləri heç vaxt ucadan deməyin.</strong> Nə özünüzə, nə də pıçıltıyla. Telefonlar və səs köməkçiləri düşündüyünüzdən daha çox eşidir.",
+	"memorize_seed_rules_p5": "<strong>Onları heç bir yerə yazmayın.</strong> Heç bir qeyd tətbiqi, heç bir cədvəl, heç bir şifrələnmiş qeyd, heç bir \"sadəcə yoxlamaq üçün\". Hər hansı klaviatura və ya ekrana ictimai yayım kimi yanaşın.",
+	"memorize_seed_rules_p6": "<strong>Nəzərdən keçirərkən təklikdə işləyin.</strong> Qapını bağlayın. Sizə yönəlmiş hər hansı kameraları örtün — noutbukunuzun veb-kamerası daxil olmaqla. Pərdələri çəkin. Nəzərdən keçirməyi dayandırdığınız andan etibarən sözləri yenidən yaddaşa qaytarın.",
+
+	"memorize_seed_technique_heading": "Bərpa ifadənizi necə yadda saxlamaq olar",
+	"memorize_seed_technique_p1": "Təsadüfi sözləri yadda saxlamaq cümlədən daha çətindir, lakin göründüyündən asandır. Bərpa ifadələri pul kisəniz və onun parametrlərindən asılı olaraq adətən on iki və ya iyirmi dörd sözdən ibarətdir. Hər iki say ona ritm versəniz, ritmə tabe olur.",
+	"memorize_seed_technique_p2": "<strong>İfadəni hissələrə bölün.</strong> On iki söz təmiz şəkildə dörd sözdən ibarət üç qrupa və ya üç sözdən ibarət dörd qrupa bölünür. İyirmi dörd söz altı sözdən ibarət dörd qrupa və ya dörd sözdən ibarət altı qrupa çevrilir. Daha kiçik qruplar yadda saxlamaq üçün daha asandır.",
+	"memorize_seed_technique_p3": "<strong>Hekayə qurun.</strong> Hər hissə canlı kiçik bir səhnəyə çevrilir. Onları qəribə və konkret edin — beyin qeyri-adi olanı yadda saxlayır. \"Pianonun üstündə kaktusları jonqlyor edən mavi fil\" yaddan çıxmır. \"Heyvanlar və musiqi haqqında bəzi sözlər\" isə çıxır.",
+	"memorize_seed_technique_p4": "<strong>Yaddaş sarayından istifadə edin.</strong> Yaxşı tanıdığınız bir yeri təsəvvür edin — mətbəxiniz, işə gedən yol, uşaqlıq yataq otağınız. Hər sözü konkret bir orientirə yerləşdirin. Sıranı xatırlamaq üçün yolu zehninizdə gəzin.",
+	"memorize_seed_technique_p5": "<strong>Onu qafiyəyə salın və ya oxuyun.</strong> Artıq bildiyiniz bir melodiya seçin və sözləri ritmə uyğunlaşdırın. Mahnılar yapışqanlıdır.",
+	"memorize_seed_technique_p6": "Sizə təbii görünən üsulu seçin. Əksər insanlar sonda iki üsulu birləşdirirlər — hissələr və hekayə, ya da melodiyaya uyğunlaşdırılmış yaddaş sarayı. Sizə ən yaxşı uyğun olanı seçin.",
+
+	"memorize_seed_repetition_heading": "Təkrarı gününüzün bir hissəsi edin",
+	"memorize_seed_repetition_p1": "Sirr səy deyil, həcmdir. Nəzərdən keçirməni hər gün etdiyiniz bir şeyə bağlayın və təkrarlar siz heç düşünmədən toplanır.",
+	"memorize_seed_repetition_p2": "Gündə iki dəfə diş fırçalamaq həftədə on dörd nəzərdən keçirmə deməkdir. Şam yeməyi bişirmək. İti gəzdirmək. İşə getmək. Yuxuya getmək. Duş. Bir və ya iki rejim seçin və qoy sözlər onlarla birlikdə getsin.",
+	"memorize_seed_repetition_p3": "Onları başınızda keçirin — səssizcə, dodaqlarınız bağlı. Pıçıldamayın. Ağzınızı tərpətməyin. Bütün məsələ heç kimin bunu etdiyinizi başa düşməməsidir.",
+	"memorize_seed_repetition_p4": "Bir neçə həftədən sonra sözlər xatırlamalı olduğunuz bir şey olmaqdan çıxır və sadəcə bildiyiniz bir şeyə çevrilir. Həqiqətən yapışması üçün rejimi bir-iki ay davam etdirin. Bundan sonra təzə saxlamaq üçün həftədə bir dəfə yoxlayın.",
+
+	"memorize_seed_test_heading": "İz qoymadan özünüzü yoxlayın",
+	"memorize_seed_test_p1": "Həftədə bir dəfə özünüzə ifadəni həqiqətən bildiyinizi sübut edin. Yaddaş hiyləgərdir — dəqiq olmadan tanış görünə bilər.",
+	"memorize_seed_test_p2": "<strong>Sizə yönəlmiş heç bir kamera olmayan təklik bir yer tapın</strong>, öz noutbukunuzun veb-kamerası daxil olmaqla. Qapını bağlayın. Pərdələri çəkin.",
+	"memorize_seed_test_p3": "<strong>Sözləri kağız üzərinə yazın</strong>, sırayla. Onları yaddaşınızla deyil, fiziki ehtiyat nüsxənizlə müqayisə edin. Bütün məsələ yaddaşınızın görə bilmədiyi səhvi tutmaqdır.",
+	"memorize_seed_test_p4": "<strong>Kağızı tamamilə məhv edin.</strong> Doğrayın. Yandırın. Bütün vərəqi zibil qutusuna atmayın. Hər hansı bir sözü qaçırmısınızsa, bir neçə əlavə rutin nəzərdən keçirmə dövrü keçirin və gələn həftə yenidən cəhd edin.",
+
+	"memorize_seed_dont_rely_heading": "Yalnız yaddaşa güvənməyin",
+	"memorize_seed_dont_rely_p1": "Yaddaş etibarlıdır, ta ki etibarlı olmayana qədər. Stress, yaş, xəstəlik, baş travması və ya nəzərdən keçirmələr arasında kifayət qədər uzun fasilə bir ifadəni silə bilər. Bitcoin üçün \"şifrəni unutdum\" linki yoxdur.",
+	"memorize_seed_dont_rely_p2": "Yadda saxlamağa paralel ehtiyat nüsxə kimi yanaşın. Fiziki ehtiyat nüsxəniz təməldir. Başınızdakı versiya isə ehtiyatdır. Fəlakət təməli məhv edərsə, ehtiyat sizi evə qaytarır.",
+	"memorize_seed_dont_rely_p3": "Yalnız yaddaş əsaslı saxlamağa haqq qazandıran yeganə vəziyyətlər ekstremaldır: müharibə zonasından qaçmaq, avtoritar təqibdən xilas olmaq, müsadirə ediləcək aktivlərlə sərhəddən keçmək. Hətta o zaman da təhlükəsiz yerə çatdıqdan sonra yeni fiziki ehtiyat nüsxə yaratmaq yaxşı fikirdir.",
+
+	"memorize_seed_card_wallets_label": "Düzgün quraşdırın",
+	"memorize_seed_card_wallets_title": "Bərpa ifadənizi real Bitcoin pul kisəsində yaradın",
+	"memorize_seed_card_wallets_source": "Mənbə: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIP-lər — BIP39: Determinist açarların yaradılması üçün mnemonik kod",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

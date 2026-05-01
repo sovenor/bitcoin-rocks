@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "uz"
 	},
 	"bitcoin_wallet_guide": "Bitcoin hamyon yoʻriqnomasi",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 apparat hamyoni",
 	"sources_coldcard_q": "Coinkite — Coldcard Q apparat hamyoni",
 	"sources_passport": "Foundation Devices — Passport apparat hamyoni",
-	"sources_seedsigner": "SeedSigner — ochiq manbali oʻz qoʻli bilan yigʻiladigan Bitcoin imzolovchi qurilma"
+	"sources_seedsigner": "SeedSigner — ochiq manbali oʻz qoʻli bilan yigʻiladigan Bitcoin imzolovchi qurilma",
+	"wallets_s6_c4b_a": "Yana bir qatlam mustahkamlik uchun siz",
+	"wallets_s6_c4b_b": "urugʻ iborangizni yodlashingiz",
+	"wallets_s6_c4b_c": "ham mumkin — siz bilan birga yuradigan koʻrinmas zaxira sifatida."
 }

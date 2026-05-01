@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ko"
+	},
+	"memorize_seed_page_title": "비트코인을 머릿속에 보관하는 방법",
+	"memorize_seed_page_description": "비트코인 시드 문구를 보이지 않는 백업으로 안전하게 외우는 방법. 실용적인 기법, 안전 규칙, 그리고 외우기를 유일한 백업으로 삼지 말아야 하는 이유.",
+	"memorize_seed_h1_title": "비트코인을 머릿속에 보관하는 방법: 어디든 함께 가는 보이지 않는 백업",
+
+	"memorize_seed_intro_heading": "아무도 볼 수 없는 백업",
+	"memorize_seed_intro_p1": "시드 문구는 비트코인의 마스터 키입니다. 대부분의 사람들은 이를 종이나 스틸에 백업합니다. 외우기는 그 위에 한 겹 더 쌓을 수 있는 또 하나의 백업입니다.",
+	"memorize_seed_intro_p2": "보이지 않습니다. 무게도 없습니다. 오직 당신만 압니다. 화재, 도난, 국경 검문 어떤 것도 당신에게서 빼앗을 수 없습니다.",
+	"memorize_seed_intro_p3": "거의 모든 사람에게 외우기는 물리적 백업을 대체하는 것이 아니라 그 위에 추가되는 것입니다. 이에 대해서는 뒤에서 더 자세히 다룹니다.",
+
+	"memorize_seed_not_brain_wallet_heading": "이것은 \"브레인 월렛\"이 아닙니다",
+	"memorize_seed_callout_good_label": "시드 문구 외우기",
+	"memorize_seed_callout_good_desc": "하드웨어 지갑이 생성한 단어들. 높은 엔트로피. 사본을 머릿속에 보관해도 안전합니다.",
+	"memorize_seed_callout_bad_label": "브레인 월렛",
+	"memorize_seed_callout_bad_desc": "당신이 직접 만든 암호 문구에서 파생된 키. 깨졌습니다. 몇 초 만에 털립니다.",
+	"memorize_seed_not_brain_wallet_p1_a": "비트코인 초창기에 사람들은 직접 만든 암호 문구로부터 개인 키를 생성하는 실험을 했습니다. 이 방식은",
+	"memorize_seed_not_brain_wallet_p1_b": "브레인 월렛이라고",
+	"memorize_seed_not_brain_wallet_p1_c": "불렸고, 대참사였습니다. 해커들은 흔한 암호 문구를 추측하는 스크립트를 작성해 몇 초 만에 지갑을 비웠습니다.",
+	"memorize_seed_not_brain_wallet_p2": "여기서 외우는 것은 다릅니다. 단어들은 당신의 상상이 아니라 하드웨어 지갑의 무작위 소스에서 나온 것입니다. 스크립트가 추측할 수 있는 것이 아닙니다.",
+	"memorize_seed_not_brain_wallet_p3": "당신의 시드 문구는 엔트로피가 높습니다. 사본을 머릿속에 보관한다고 해서 약해지지 않습니다. 단지 또 하나의 장소에 보관하는 것일 뿐입니다.",
+
+	"memorize_seed_when_helpful_heading": "외우기가 도움이 될 때",
+	"memorize_seed_when_helpful_p1": "외우기는 물리적 백업이 실패할 때 빛을 발합니다. 자연재해가 집과 그 안의 스틸 플레이트를 함께 쓸어버릴 때. 홍수. 화재. 대피. 도난. 부유해 보이는 어떤 것도 가지고 갈 수 없는 국경 통과.",
+	"memorize_seed_when_helpful_p2": "단기적으로도 도움이 됩니다. 백업 없이 여행하더라도 세계 어디서든 지갑을 복구할 수 있다면 훨씬 덜 부담스럽습니다.",
+	"memorize_seed_when_helpful_p3": "또한 한 겹의 추가 중복성을 제공합니다. 같은 주에 홍수, 화재, 도둑이 모두 들이닥쳐도 외워둔 버전이 당신을 집으로 데려다 줍니다.",
+
+	"memorize_seed_rules_heading": "먼저 안전 규칙을 정하세요",
+	"memorize_seed_rules_p1": "무엇이든 외우기 전에 기본기를 단단히 하세요. 시드 문구는 궁극의 비밀번호입니다 — 무슨 일이 있어도 보호하세요.",
+	"memorize_seed_rules_p2": "<strong>실제 비트코인 지갑에서 생성하세요.</strong> 신뢰할 수 없는 웹사이트나 휴대폰 앱이 아니라요. 이 모든 일은 단어들이 진짜 무작위 소스에서 나왔다는 전제 위에 성립합니다.",
+	"memorize_seed_rules_p3": "<strong>물리적 백업을 최소 하나는 유지하세요.</strong> 종이든 스틸이든, 둘 이상의 안전한 장소에 두세요. 외우기는 그 위에 더해지는 것이지 — 대체가 아닙니다.",
+	"memorize_seed_rules_p4": "<strong>절대 단어를 소리 내어 말하지 마세요.</strong> 혼잣말로도, 작게 중얼거리지도 마세요. 휴대폰과 음성 비서는 당신이 생각하는 것보다 더 많이 듣고 있습니다.",
+	"memorize_seed_rules_p5": "<strong>어디에도 입력하지 마세요.</strong> 메모 앱도, 스프레드시트도, 암호화된 메모도, \"잠깐 시험 삼아\"도 안 됩니다. 모든 키보드와 화면을 공개 방송이라고 여기세요.",
+	"memorize_seed_rules_p6": "<strong>복습할 때는 사적인 공간에서 하세요.</strong> 문을 닫으세요. 노트북 웹캠을 포함해 당신을 향한 모든 카메라를 가리세요. 블라인드를 내리세요. 복습이 끝나는 즉시 단어들을 다시 머릿속 깊이 보관하세요.",
+
+	"memorize_seed_technique_heading": "시드 문구를 외우는 방법",
+	"memorize_seed_technique_p1": "무작위 단어는 문장보다 외우기 어렵지만 보이는 것보다는 쉽습니다. 시드 문구는 지갑과 그 설정에 따라 보통 12개 또는 24개의 단어로 이루어집니다. 어느 쪽이든 리듬을 만들어 주면 자연스럽게 흐릅니다.",
+	"memorize_seed_technique_p2": "<strong>문구를 묶음으로 나누세요.</strong> 12개 단어는 4개씩 세 묶음, 또는 3개씩 네 묶음으로 깔끔하게 나뉩니다. 24개 단어는 6개씩 네 묶음 또는 4개씩 여섯 묶음이 됩니다. 작은 묶음일수록 머릿속에 박히기 쉽습니다.",
+	"memorize_seed_technique_p3": "<strong>이야기를 만드세요.</strong> 각 묶음을 생생한 작은 장면으로 만드세요. 이상하고 구체적일수록 좋습니다 — 뇌는 특이한 것을 잘 기억합니다. \"피아노 위에서 선인장으로 저글링하는 파란 코끼리\"는 머릿속에 박힙니다. \"동물과 음악에 대한 단어 몇 개\"는 그렇지 않습니다.",
+	"memorize_seed_technique_p4": "<strong>기억의 궁전을 활용하세요.</strong> 잘 아는 장소를 머릿속에 그려보세요 — 부엌, 출근길, 어린 시절 침실. 각 단어를 특정한 지점에 배치하세요. 그 길을 머릿속에서 걸으며 순서를 떠올리세요.",
+	"memorize_seed_technique_p5": "<strong>운율을 맞추거나 노래로 만드세요.</strong> 이미 알고 있는 멜로디를 골라 단어를 그 리듬에 끼워 넣으세요. 노래는 잘 잊히지 않습니다.",
+	"memorize_seed_technique_p6": "자연스럽게 느껴지는 방법을 고르세요. 대부분의 사람들은 두 가지를 결합하게 됩니다 — 묶음과 이야기, 또는 멜로디에 맞춘 기억의 궁전. 자신에게 가장 잘 맞는 것을 선택하세요.",
+
+	"memorize_seed_repetition_heading": "반복을 일상의 일부로 만드세요",
+	"memorize_seed_repetition_p1": "비결은 노력이 아니라 횟수입니다. 이미 매일 하는 일에 복습을 묶어두면, 의식하지 않아도 반복이 쌓입니다.",
+	"memorize_seed_repetition_p2": "하루 두 번 양치질은 일주일에 14번의 복습입니다. 저녁 요리. 강아지 산책. 출근길 운전. 잠들기 직전. 샤워. 한두 가지 일상을 골라 단어들이 그 위에 함께 흐르게 하세요.",
+	"memorize_seed_repetition_p3": "머릿속으로 훑으세요 — 입을 다물고 조용히. 속삭이지 마세요. 입을 움직이지 마세요. 핵심은 당신이 하고 있다는 걸 누구도 눈치챌 수 없어야 한다는 것입니다.",
+	"memorize_seed_repetition_p4": "두어 주가 지나면 단어는 떠올려야 하는 것에서 그냥 아는 것으로 바뀝니다. 진짜로 자리잡도록 한두 달은 일상을 이어가세요. 그 후에는 일주일에 한 번씩 가볍게 점검해 신선하게 유지하세요.",
+
+	"memorize_seed_test_heading": "흔적을 남기지 않고 자신을 시험하세요",
+	"memorize_seed_test_p1": "일주일에 한 번, 정말 그 문구를 알고 있는지 자신에게 증명하세요. 기억은 교묘합니다 — 정확하지 않으면서도 익숙하게 느껴질 수 있습니다.",
+	"memorize_seed_test_p2": "<strong>사적인 장소를 찾으세요</strong> 당신을 향한 카메라가 없는 곳, 노트북 웹캠도 포함해서요. 문을 잠그세요. 블라인드를 내리세요.",
+	"memorize_seed_test_p3": "<strong>단어를 종이에 적으세요</strong>, 순서대로. 기억이 아니라 물리적 백업과 비교하세요. 핵심은 기억이 보지 못하는 실수를 잡아내는 것입니다.",
+	"memorize_seed_test_p4": "<strong>종이는 완전히 폐기하세요.</strong> 잘게 찢으세요. 태우세요. 종이 한 장을 통째로 휴지통에 버리지 마세요. 빠뜨린 단어가 있다면 일상 복습을 몇 차례 더 하고 다음 주에 다시 시도하세요.",
+
+	"memorize_seed_dont_rely_heading": "기억에만 의존하지 마세요",
+	"memorize_seed_dont_rely_p1": "기억은 무너지기 전까지는 믿을 만합니다. 스트레스, 나이, 질병, 머리 부상, 또는 복습 사이의 너무 긴 공백만으로도 문구는 사라질 수 있습니다. 비트코인에는 \"비밀번호 찾기\" 링크가 없습니다.",
+	"memorize_seed_dont_rely_p2": "외우기는 평행 백업으로 다루세요. 물리적 백업이 토대입니다. 머릿속의 버전은 중복성입니다. 재해가 토대를 무너뜨려도 중복성이 당신을 집으로 데려다 줍니다.",
+	"memorize_seed_dont_rely_p3": "기억만으로 보관하는 것이 정당화되는 상황은 극단적인 경우뿐입니다: 전쟁 지역에서 탈출, 권위주의 박해 회피, 자산이 압수될 국경 통과. 그리고 그 경우에도 안전한 장소에 도착하면 새로운 물리적 백업을 만드는 것이 좋습니다.",
+
+	"memorize_seed_card_wallets_label": "올바르게 설정하기",
+	"memorize_seed_card_wallets_title": "실제 비트코인 지갑에서 시드 문구 생성하기",
+	"memorize_seed_card_wallets_source": "출처: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: 결정론적 키 생성을 위한 니모닉 코드",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — 《비트코인 브레인 드레인: 비트코인 브레인 월렛의 사용과 오용에 대한 고찰》 (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

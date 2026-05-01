@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "ja"
+	},
+	"memorize_seed_page_title": "ビットコインを頭の中に保管する方法",
+	"memorize_seed_page_description": "見えないバックアップとしてビットコインのシードフレーズを安全に記憶する方法。実践的なテクニック、安全ルール、そして記憶を唯一のバックアップにすべきでない理由。",
+	"memorize_seed_h1_title": "ビットコインを頭の中に保管する方法：あなたが行く先々についていく、見えないバックアップ",
+
+	"memorize_seed_intro_heading": "誰にも見えないバックアップ",
+	"memorize_seed_intro_p1": "シードフレーズは、あなたのビットコインのマスターキーです。ほとんどの人は紙やスチールにバックアップします。記憶は、その上に重ねられるもう一つのバックアップです。",
+	"memorize_seed_intro_p2": "見えない。重さがない。あなただけが知っている。火事も、強盗も、国境検査も、それを奪うことはできません。",
+	"memorize_seed_intro_p3": "ほぼ全ての人にとって、記憶は物理的なバックアップの代わりではなく、その上に重ねるものです。詳しくは後ほど。",
+
+	"memorize_seed_not_brain_wallet_heading": "これは「ブレインウォレット」ではありません",
+	"memorize_seed_callout_good_label": "シードフレーズの記憶",
+	"memorize_seed_callout_good_desc": "ハードウェアウォレットによって生成された単語。高エントロピー。頭の中にコピーを保管しても安全です。",
+	"memorize_seed_callout_bad_label": "ブレインウォレット",
+	"memorize_seed_callout_bad_desc": "あなたが考えたパスフレーズから導出された鍵。破られています。数秒で空にされます。",
+	"memorize_seed_not_brain_wallet_p1_a": "ビットコインの初期、人々は自分で考えたパスフレーズから秘密鍵を生成する実験をしていました。この方法は",
+	"memorize_seed_not_brain_wallet_p1_b": "ブレインウォレット",
+	"memorize_seed_not_brain_wallet_p1_c": "と呼ばれ、惨憺たる結果に終わりました。ハッカーたちは一般的なパスフレーズを推測するスクリプトを書き、数秒でウォレットを空にしました。",
+	"memorize_seed_not_brain_wallet_p2": "ここで記憶しようとしているのは、それとは違います。単語はあなたの想像から出てきたものではなく、ハードウェアウォレットの乱数源から生成されたものです。スクリプトが推測できるものではありません。",
+	"memorize_seed_not_brain_wallet_p3": "シードフレーズは高エントロピーです。そのコピーを頭の中に保管しても弱くなることはありません。単に別の場所に保管するだけです。",
+
+	"memorize_seed_when_helpful_heading": "記憶が役立つとき",
+	"memorize_seed_when_helpful_p1": "記憶が真価を発揮するのは、物理的なバックアップが失われたときです。自然災害があなたの家とその中のスチールプレートを奪う。洪水。火事。避難。盗難。富に見えるものを何も持って行けない国境越え。",
+	"memorize_seed_when_helpful_p2": "短期的にも役立ちます。バックアップを持たずに旅をするのは、世界中のどこからでもウォレットを復元できると分かっていれば、ずっとストレスが少なくなります。",
+	"memorize_seed_when_helpful_p3": "そしてもう一段の冗長性にもなります。洪水と火事と泥棒が同じ週にすべて襲ってきても、記憶した版があなたを家まで連れ戻してくれます。",
+
+	"memorize_seed_rules_heading": "まずは安全ルールを定めよう",
+	"memorize_seed_rules_p1": "何かを記憶する前に、基本を固めましょう。シードフレーズは究極のパスワードです — 何があっても守ってください。",
+	"memorize_seed_rules_p2": "<strong>本物のビットコインウォレットで生成すること、</strong>信頼できないウェブサイトやスマートフォンアプリでは生成しないこと。この取り組みのすべては、単語が本物の乱数源から来ていることに依存します。",
+	"memorize_seed_rules_p3": "<strong>少なくとも一つの物理的なバックアップを保管しておくこと。</strong>紙またはスチールに、複数の安全な場所に。記憶はその上に重ねるもの — 代わりにはなりません。",
+	"memorize_seed_rules_p4": "<strong>絶対に声に出して言わないこと。</strong>独り言でも、つぶやきでも。スマートフォンや音声アシスタントは、あなたが思う以上に聞いています。",
+	"memorize_seed_rules_p5": "<strong>絶対に何にも入力しないこと。</strong>メモアプリも、表計算も、暗号化されたメモも、「ちょっと試すだけ」もダメ。キーボードや画面はすべて公開放送だと思ってください。",
+	"memorize_seed_rules_p6": "<strong>確認するときは人目のない場所で。</strong>ドアを閉めましょう。あなたの方を向いているカメラ — ノートパソコンのウェブカメラを含めて — はすべて覆ってください。ブラインドを下ろしましょう。確認をやめた瞬間に、単語を保管場所に戻しましょう。",
+
+	"memorize_seed_technique_heading": "シードフレーズを記憶する方法",
+	"memorize_seed_technique_p1": "ランダムな単語は文章よりも覚えにくいですが、見た目ほどではありません。シードフレーズは通常、ウォレットとその設定によって12語または24語です。どちらの語数も、リズムを与えれば従ってくれます。",
+	"memorize_seed_technique_p2": "<strong>フレーズを区切りましょう。</strong>12語は4語のグループ3つ、または3語のグループ4つにきれいに分かれます。24語は6語のグループ4つ、または4語のグループ6つになります。小さなグループの方が定着しやすいです。",
+	"memorize_seed_technique_p3": "<strong>物語を作りましょう。</strong>各区切りを鮮やかな小さな場面にします。奇妙で具体的にしましょう — 脳は珍しいものを覚えています。「ピアノの上でサボテンをジャグリングしている青い象」は記憶に残ります。「動物と音楽についての何かの言葉」は残りません。",
+	"memorize_seed_technique_p4": "<strong>記憶の宮殿を使いましょう。</strong>よく知っている場所を思い浮かべてください — 自分のキッチン、通勤路、子供の頃の寝室。各単語を特定の目印に置きましょう。順番を思い出すには、頭の中でその道を歩いてください。",
+	"memorize_seed_technique_p5": "<strong>韻を踏むか、歌にしましょう。</strong>すでに知っているメロディーを選び、単語をそのリズムに当てはめましょう。歌は記憶に残りやすいものです。",
+	"memorize_seed_technique_p6": "自分にしっくりくる方法を選んでください。ほとんどの人は2つを組み合わせます — 区切りに物語を加える、あるいはメロディーに乗せた記憶の宮殿。あなたに最適なものを選びましょう。",
+
+	"memorize_seed_repetition_heading": "繰り返しを毎日の習慣に組み込もう",
+	"memorize_seed_repetition_p1": "コツは努力ではなく、回数です。確認をすでに毎日やっていることに結びつければ、意識せずとも回数が積み重なっていきます。",
+	"memorize_seed_repetition_p2": "歯磨きを1日2回すれば、週14回の確認です。夕食の調理。犬の散歩。通勤。眠りに落ちるとき。シャワー。1つか2つの習慣を選んで、単語を一緒に乗せましょう。",
+	"memorize_seed_repetition_p3": "頭の中で唱えましょう — 静かに、口を閉じて。ささやかないこと。口を動かさないこと。誰にも気づかれないことが、肝心なのです。",
+	"memorize_seed_repetition_p4": "数週間後には、単語は思い出さなければならないものではなく、単に知っているものになります。本当に定着するように、1〜2か月はこの習慣を続けてください。その後は、新鮮さを保つために週1回ほど立ち寄りましょう。",
+
+	"memorize_seed_test_heading": "痕跡を残さずに自分を試す",
+	"memorize_seed_test_p1": "週に1回、自分が本当にフレーズを知っていることを証明しましょう。記憶は油断がならないもの — 正確でなくても、馴染み深く感じられることがあります。",
+	"memorize_seed_test_p2": "<strong>カメラがあなたを向いていない人目のない場所を見つけましょう。</strong>自分のノートパソコンのウェブカメラも含めて。ドアに鍵をかけましょう。ブラインドを下ろしましょう。",
+	"memorize_seed_test_p3": "<strong>順番通りに、紙に単語を書きましょう。</strong>記憶ではなく、物理的なバックアップと比較してください。記憶では気づけない間違いを捕まえることが、肝心なのです。",
+	"memorize_seed_test_p4": "<strong>紙は完全に処分しましょう。</strong>シュレッダーにかける。燃やす。シート全体をゴミ箱に投げ込まないでください。もし単語を間違えていたら、いつもの確認をさらに数回繰り返し、来週もう一度試しましょう。",
+
+	"memorize_seed_dont_rely_heading": "記憶だけに頼らないこと",
+	"memorize_seed_dont_rely_p1": "記憶は、当てにならなくなるまでは当てになります。ストレス、加齢、病気、頭部外傷、あるいは確認の間隔が長すぎるだけでも、フレーズは消えてしまうことがあります。ビットコインには「パスワードをお忘れですか」のリンクはありません。",
+	"memorize_seed_dont_rely_p2": "記憶は並行のバックアップとして扱いましょう。物理的なバックアップが土台です。頭の中の版は冗長性です。災害が土台を奪った場合、冗長性があなたを家まで連れ戻してくれます。",
+	"memorize_seed_dont_rely_p3": "記憶のみの保管が正当化されるのは、極端な状況だけです：戦地からの逃亡、権威主義的迫害からの脱出、没収されるであろう資産を持っての国境越え。そしてそうした場合でも、安全な場所に着いたら新しい物理的なバックアップを作るのが賢明です。",
+
+	"memorize_seed_card_wallets_label": "正しく設定しよう",
+	"memorize_seed_card_wallets_title": "本物のビットコインウォレットでシードフレーズを生成する",
+	"memorize_seed_card_wallets_source": "出典：bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39：決定論的鍵を生成するためのニーモニックコード",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets（Financial Cryptography 2016）",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

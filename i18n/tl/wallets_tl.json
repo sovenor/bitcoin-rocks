@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "tl"
 	},
 	"bitcoin_wallet_guide": "Gabay sa Bitcoin Wallet",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware wallet",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardware wallet",
 	"sources_passport": "Foundation Devices — Passport hardware wallet",
-	"sources_seedsigner": "SeedSigner — Open-source DIY na Bitcoin signing device"
+	"sources_seedsigner": "SeedSigner — Open-source DIY na Bitcoin signing device",
+	"wallets_s6_c4b_a": "Para sa isa pang layer ng resilience, maaari mo ring",
+	"wallets_s6_c4b_b": "isaulo ang iyong seed phrase",
+	"wallets_s6_c4b_c": "bilang isang hindi nakikitang backup na sumasama sa iyo."
 }

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "fa"
 	},
 	"bitcoin_wallet_guide": "راهنمای کیف پول بیت‌کوین",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — کیف پول سخت‌افزاری Coldcard MK5",
 	"sources_coldcard_q": "Coinkite — کیف پول سخت‌افزاری Coldcard Q",
 	"sources_passport": "Foundation Devices — کیف پول سخت‌افزاری Passport",
-	"sources_seedsigner": "SeedSigner — دستگاه امضای DIY متن‌باز برای تراکنش‌های بیت‌کوین"
+	"sources_seedsigner": "SeedSigner — دستگاه امضای DIY متن‌باز برای تراکنش‌های بیت‌کوین",
+	"wallets_s6_c4b_a": "برای یک لایهٔ تاب‌آوری بیشتر، می‌توانید",
+	"wallets_s6_c4b_b": "عبارت بازیابی خود را حفظ کنید",
+	"wallets_s6_c4b_c": "تا یک پشتیبان نامرئی همراه شما داشته باشید."
 }

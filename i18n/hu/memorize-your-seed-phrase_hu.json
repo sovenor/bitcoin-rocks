@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "hu"
+	},
+	"memorize_seed_page_title": "Hogyan tárold a Bitcoint a fejedben",
+	"memorize_seed_page_description": "Hogyan jegyezd meg biztonságosan a Bitcoin helyreállítási kifejezésedet láthatatlan biztonsági mentésként. Gyakorlati technikák, biztonsági szabályok, és miért szabad ritkán a memorizálás az egyetlen biztonsági mentésed.",
+	"memorize_seed_h1_title": "Hogyan tárold a Bitcoint a fejedben: láthatatlan biztonsági mentés, amely mindig veled van",
+
+	"memorize_seed_intro_heading": "Egy biztonsági mentés, amit senki sem láthat",
+	"memorize_seed_intro_p1": "A helyreállítási kifejezésed a Bitcoinod főkulcsa. A legtöbben papírra vagy acélra mentik. A memorizálás egy újabb biztonsági mentési réteg, amelyet ráhelyezhetsz erre.",
+	"memorize_seed_intro_p2": "Láthatatlan. Súlytalan. Csak te ismered. Sem tűz, sem betörés, sem határellenőrzés nem veheti el tőled.",
+	"memorize_seed_intro_p3": "Szinte mindenki számára a memorizálás egy fizikai biztonsági mentés tetejére való, nem annak helyettesítésére. Erről később bővebben.",
+
+	"memorize_seed_not_brain_wallet_heading": "Ez nem egy „agytárca”",
+	"memorize_seed_callout_good_label": "Helyreállítási kifejezés memorizálása",
+	"memorize_seed_callout_good_desc": "Hardveres tárca által generált szavak. Magas entrópia. Biztonságos egy másolatot a fejedben tárolni.",
+	"memorize_seed_callout_bad_label": "Agytárca",
+	"memorize_seed_callout_bad_desc": "Egy általad kitalált jelszóból származtatott kulcs. Feltört. Másodpercek alatt kifosztva.",
+	"memorize_seed_not_brain_wallet_p1_a": "A Bitcoin korai időszakában az emberek azzal kísérleteztek, hogy az általuk kitalált jelszavakból generáljanak privát kulcsokat. Ezt a módszert úgy hívták, hogy",
+	"memorize_seed_not_brain_wallet_p1_b": "agytárca,",
+	"memorize_seed_not_brain_wallet_p1_c": "és katasztrófa lett belőle. A hekkerek olyan szkripteket írtak, amelyek kitalálták a gyakori jelszavakat, és másodpercek alatt kifosztották a tárcákat.",
+	"memorize_seed_not_brain_wallet_p2": "Amit itt memorizálsz, az más. A szavak egy hardveres tárca véletlenszám-forrásából származnak, nem a képzeletedből. Nem olyasvalami, amit egy szkript kitalálhatna.",
+	"memorize_seed_not_brain_wallet_p3": "A helyreállítási kifejezésed magas entrópiájú. Ha egy másolatot a fejedben tárolsz, az nem gyengíti meg. Csak egy újabb helyen tárolja.",
+
+	"memorize_seed_when_helpful_heading": "Mikor segít a memorizálás",
+	"memorize_seed_when_helpful_p1": "A memorizálás akkor mutatja meg az erejét, amikor a fizikai biztonsági mentések kudarcot vallanak. Egy természeti katasztrófa elviszi az otthonodat és benne az acéllapot. Egy árvíz. Egy tűz. Egy evakuálás. Egy lopás. Egy határátkelés, ahol semmit sem vihetsz, ami vagyonra utal.",
+	"memorize_seed_when_helpful_p2": "Rövid távon is segít. Sokkal kevésbé stresszes biztonsági mentés nélkül utazni, ha a tárcádat a világ bármely pontjáról vissza tudod állítani.",
+	"memorize_seed_when_helpful_p3": "És ez egy újabb redundancia-réteg. Ha egy árvíz, egy tűz és egy tolvaj egy héten belül csap le, a memorizált változatod az, ami hazasegít.",
+
+	"memorize_seed_rules_heading": "Először állítsd fel a biztonsági szabályokat",
+	"memorize_seed_rules_p1": "Mielőtt bármit memorizálsz, rögzítsd az alapokat. A helyreállítási kifejezésed a végső jelszavad — védd meg minden áron.",
+	"memorize_seed_rules_p2": "<strong>Generáld egy valódi Bitcoin tárcán,</strong> ne egy weboldalon vagy egy telefonos alkalmazásban, amelyben nem bízol. Az egész gyakorlat azon múlik, hogy a szavak valódi véletlenszám-forrásból származzanak.",
+	"memorize_seed_rules_p3": "<strong>Tarts legalább egy fizikai biztonsági mentést.</strong> Papír vagy acél, több biztonságos helyen. A memorizálás ennek a tetejére való — nem helyettesítője.",
+	"memorize_seed_rules_p4": "<strong>Soha ne mondd ki hangosan a szavakat.</strong> Sem magadnak, sem a bajszod alatt. A telefonok és hangsegédek többet hallanak, mint gondolnád.",
+	"memorize_seed_rules_p5": "<strong>Soha ne gépeld be őket sehova.</strong> Semmilyen jegyzetalkalmazásba, táblázatba, titkosított jegyzetbe, semmibe „csak hogy teszteljem”. Tekints minden billentyűzetet vagy képernyőt nyilvános közvetítésnek.",
+	"memorize_seed_rules_p6": "<strong>Egyedül dolgozz, amikor átnézed.</strong> Csukd be az ajtót. Takard le a feléd néző kamerákat — beleértve a laptopod webkameráját is. Húzd be a redőnyt. A szavakat tedd vissza a tárolóba abban a pillanatban, amint befejezed az átnézést.",
+
+	"memorize_seed_technique_heading": "Hogyan memorizáld a helyreállítási kifejezésedet",
+	"memorize_seed_technique_p1": "A véletlenszerű szavakat nehezebb megjegyezni, mint egy mondatot, de könnyebb, mint amilyennek látszik. A helyreállítási kifejezések általában tizenkét vagy huszonnégy szóból állnak, a tárcádtól és annak beállításaitól függően. Mindkét szám követ egy ritmust, ha adsz neki egyet.",
+	"memorize_seed_technique_p2": "<strong>Daraboldd fel a kifejezést.</strong> A tizenkét szó tisztán felosztható három négyes csoportra vagy négy hármas csoportra. A huszonnégy szó négy hatos csoporttá vagy hat négyes csoporttá válik. A kisebb csoportokat könnyebb rögzíteni.",
+	"memorize_seed_technique_p3": "<strong>Építs egy történetet.</strong> Minden darabból egy élénk kis jelenet lesz. Tedd őket furcsává és specifikussá — az agy a szokatlanra emlékszik. „Egy kék elefánt kaktuszokkal zsonglőrködik egy zongora tetején” megmarad. „Néhány szó állatokról és zenéről” nem.",
+	"memorize_seed_technique_p4": "<strong>Használj memóriapalotát.</strong> Képzelj el egy helyet, amelyet jól ismersz — a konyhádat, a munkába vezető utat, a gyermekkori hálószobádat. Helyezd el az egyes szavakat egy-egy konkrét tereptárgynál. Sétálj végig az úton fejben, hogy felidézd a sorrendet.",
+	"memorize_seed_technique_p5": "<strong>Ríméld vagy énekeld el.</strong> Válassz egy dallamot, amit már ismersz, és illeszd a szavakat a ritmusához. A dalok ragadósak.",
+	"memorize_seed_technique_p6": "Válaszd azt a módszert, ami természetesnek érződik. A legtöbben végül kettőt kombinálnak — darabok és egy történet, vagy memóriapalota egy dallamra. Válaszd azt, ami neked a legjobban beválik.",
+
+	"memorize_seed_repetition_heading": "Tedd az ismétlést a napod részévé",
+	"memorize_seed_repetition_p1": "A trükk a mennyiségben rejlik, nem az erőfeszítésben. Kösd az átnézést valamihez, amit már minden nap megteszel, és az ismétlések felgyűlnek anélkül, hogy gondolnál rá.",
+	"memorize_seed_repetition_p2": "A fogmosás napi kétszer heti tizennégy átnézés. A vacsorafőzés. A kutyasétáltatás. A munkába járás. Az elalvás. A zuhany. Válassz ki egy-két szokást, és hagyd, hogy a szavak rajtuk lovagoljanak.",
+	"memorize_seed_repetition_p3": "Pörgesd át őket a fejedben — csendben, csukott ajakkal. Ne suttogj. Ne mozgasd a szádat. A lényeg az, hogy senki ne tudja megmondani, hogy ezt csinálod.",
+	"memorize_seed_repetition_p4": "Pár hét után a szavak már nem olyasmik lesznek, amelyeket fel kell idézned, hanem olyasmik, amelyeket egyszerűen tudsz. Tartsd fenn a rutint egy-két hónapig, hogy igazán beégjen. Utána hetente egyszer térj vissza hozzá, hogy frissen tartsd.",
+
+	"memorize_seed_test_heading": "Tedd próbára magad anélkül, hogy nyomot hagynál",
+	"memorize_seed_test_p1": "Hetente egyszer bizonyítsd be magadnak, hogy valóban tudod a kifejezést. A memória alattomos — ismerősnek tűnhet anélkül, hogy pontos lenne.",
+	"memorize_seed_test_p2": "<strong>Találj egy elszigetelt helyet,</strong> ahol egyetlen kamera sem néz rád, beleértve a saját laptopod webkameráját is. Zárd be az ajtót. Húzd be a redőnyöket.",
+	"memorize_seed_test_p3": "<strong>Írd le a szavakat papírra,</strong> sorrendben. Hasonlítsd össze őket a fizikai biztonsági mentéseddel, ne az emlékezeteddel. A lényeg az, hogy észrevedd azt a hibát, amit a memóriád nem lát.",
+	"memorize_seed_test_p4": "<strong>Semmisítsd meg a papírt teljesen.</strong> Aprítsd fel. Égesd el. Ne dobd az egész lapot a szemetesbe. Ha bármelyik szót kihagytad, csinálj néhány extra kört a rutin átnézésből, és próbálkozz újra a következő héten.",
+
+	"memorize_seed_dont_rely_heading": "Ne támaszkodj egyedül a memóriára",
+	"memorize_seed_dont_rely_p1": "A memória megbízható, amíg nem az. A stressz, az életkor, a betegség, a fejsérülés vagy egyszerűen egy elég hosszú szünet az átnézések között törölhet egy kifejezést. Nincs „elfelejtett jelszó” link a Bitcoinhoz.",
+	"memorize_seed_dont_rely_p2": "Tekintsd a memorizálást párhuzamos biztonsági mentésnek. A fizikai biztonsági mentésed az alap. A fejedben lévő változat a redundancia. Ha egy katasztrófa elviszi az alapot, a redundancia hazasegít.",
+	"memorize_seed_dont_rely_p3": "Az egyetlen helyzetek, amelyek indokolják a kizárólag emlékezetre épülő tárolást, szélsőségesek: egy háborús övezetből való menekülés, egy autoriter üldöztetés elől való menekülés, egy határátlépés olyan vagyonokkal, amelyeket elkoboznának. És még akkor is jó ötlet új fizikai biztonsági mentést készíteni, amint biztonságos helyre érsz.",
+
+	"memorize_seed_card_wallets_label": "Állítsd be helyesen",
+	"memorize_seed_card_wallets_title": "Generáld a helyreállítási kifejezésedet egy valódi Bitcoin tárcán",
+	"memorize_seed_card_wallets_source": "Forrás: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Mnemonikus kód determinisztikus kulcsok generálásához",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — kutatás az agytárcákról: The Bitcoin Brain Drain (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

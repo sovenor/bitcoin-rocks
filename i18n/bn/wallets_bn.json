@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "bn"
 	},
 	"bitcoin_wallet_guide": "Bitcoin ওয়ালেট গাইড",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 হার্ডওয়্যার ওয়ালেট",
 	"sources_coldcard_q": "Coinkite — Coldcard Q হার্ডওয়্যার ওয়ালেট",
 	"sources_passport": "Foundation Devices — Passport হার্ডওয়্যার ওয়ালেট",
-	"sources_seedsigner": "SeedSigner — ওপেন সোর্স, DIY Bitcoin সাইনিং ডিভাইস"
+	"sources_seedsigner": "SeedSigner — ওপেন সোর্স, DIY Bitcoin সাইনিং ডিভাইস",
+	"wallets_s6_c4b_a": "আরও একটি স্তরের স্থিতিস্থাপকতার জন্য, আপনি",
+	"wallets_s6_c4b_b": "আপনার সিড ফ্রেজ মুখস্থ করতে",
+	"wallets_s6_c4b_c": "পারেন একটি অদৃশ্য ব্যাকআপ হিসেবে যা আপনার সাথে ভ্রমণ করে।"
 }

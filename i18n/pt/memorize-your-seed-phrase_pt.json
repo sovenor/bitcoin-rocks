@@ -1,0 +1,74 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satoshi"
+		],
+		"last-updated": "2026-04-30",
+		"locale": "pt"
+	},
+	"memorize_seed_page_title": "Como guardar Bitcoin na tua mente",
+	"memorize_seed_page_description": "Como memorizar com segurança a tua frase de recuperação de Bitcoin como uma cópia de segurança invisível. Técnicas práticas, regras de segurança e por que razão a memorização raramente deve ser a tua única cópia de segurança.",
+	"memorize_seed_h1_title": "Como guardar Bitcoin na tua mente: uma cópia de segurança invisível que te acompanha para onde fores",
+
+	"memorize_seed_intro_heading": "Uma cópia de segurança que ninguém consegue ver",
+	"memorize_seed_intro_p1": "A tua frase de recuperação é a chave-mestra do teu Bitcoin. A maioria das pessoas faz uma cópia de segurança em papel ou em metal. A memorização é mais uma camada que podes acrescentar por cima.",
+	"memorize_seed_intro_p2": "Invisível. Sem peso. Conhecida apenas por ti. Nem um incêndio, nem um assalto, nem um controlo na fronteira a podem tirar de ti.",
+	"memorize_seed_intro_p3": "Para quase toda a gente, a memorização deve ficar por cima de uma cópia de segurança física, e não no lugar dela. Mais sobre isto adiante.",
+
+	"memorize_seed_not_brain_wallet_heading": "Isto não é uma \"carteira mental\"",
+	"memorize_seed_callout_good_label": "Memorizar uma frase de recuperação",
+	"memorize_seed_callout_good_desc": "Palavras geradas por uma carteira de hardware. Alta entropia. É seguro guardar uma cópia na tua cabeça.",
+	"memorize_seed_callout_bad_label": "Carteira mental",
+	"memorize_seed_callout_bad_desc": "Chave derivada de uma frase-passe inventada por ti. Quebrada. Esvaziada em segundos.",
+	"memorize_seed_not_brain_wallet_p1_a": "Nos primeiros tempos do Bitcoin, houve quem fizesse experiências para gerar chaves privadas a partir de frases-passe inventadas. Esse método chamava-se",
+	"memorize_seed_not_brain_wallet_p1_b": "carteira mental,",
+	"memorize_seed_not_brain_wallet_p1_c": "e foi um desastre. Os atacantes escreviam scripts para adivinhar frases-passe comuns e esvaziavam carteiras em segundos.",
+	"memorize_seed_not_brain_wallet_p2": "O que estás a memorizar aqui é diferente. As palavras vieram da fonte de aleatoriedade de uma carteira de hardware, não da tua imaginação. Não são algo que um script consiga adivinhar.",
+	"memorize_seed_not_brain_wallet_p3": "A tua frase de recuperação tem alta entropia. Guardar uma cópia dela na tua cabeça não a torna mais fraca. Apenas a guarda noutro sítio.",
+
+	"memorize_seed_when_helpful_heading": "Quando a memorização ajuda",
+	"memorize_seed_when_helpful_p1": "A memorização brilha quando as cópias de segurança físicas falham. Uma catástrofe natural destrói a tua casa e a placa de aço lá guardada. Uma inundação. Um incêndio. Uma evacuação. Um roubo. Uma travessia de fronteira em que não podes levar nada que pareça riqueza.",
+	"memorize_seed_when_helpful_p2": "Também ajuda a curto prazo. Viajar sem cópia de segurança é muito menos stressante quando podes recuperar a tua carteira a partir de qualquer lugar do mundo.",
+	"memorize_seed_when_helpful_p3": "E é mais uma camada de redundância. Se uma inundação, um incêndio e um ladrão acontecerem todos na mesma semana, é a versão memorizada que te leva de volta a casa.",
+
+	"memorize_seed_rules_heading": "Define primeiro as regras de segurança",
+	"memorize_seed_rules_p1": "Antes de memorizares fosse o que for, fixa o essencial. A tua frase de recuperação é a palavra-passe suprema — protege-a a todo o custo.",
+	"memorize_seed_rules_p2": "<strong>Gera-a numa carteira Bitcoin a sério,</strong> e não num site ou numa aplicação de telemóvel em que não confias. Todo este exercício depende de as palavras virem de uma fonte real de aleatoriedade.",
+	"memorize_seed_rules_p3": "<strong>Mantém pelo menos uma cópia de segurança física.</strong> Em papel ou em aço, em mais do que um lugar seguro. A memorização vem por cima disto — não substitui.",
+	"memorize_seed_rules_p4": "<strong>Nunca digas as palavras em voz alta.</strong> Nem para ti, nem em voz baixa. Os telemóveis e os assistentes de voz ouvem mais do que pensas.",
+	"memorize_seed_rules_p5": "<strong>Nunca as escrevas em coisa nenhuma.</strong> Nem em aplicações de notas, nem em folhas de cálculo, nem em notas encriptadas, nem \"só para testar\". Trata qualquer teclado ou ecrã como uma transmissão pública.",
+	"memorize_seed_rules_p6": "<strong>Trabalha em privado quando estiveres a rever.</strong> Fecha a porta. Tapa quaisquer câmaras viradas para ti — incluindo a webcam do teu portátil. Corre as cortinas. Volta a guardar as palavras assim que parares de rever.",
+
+	"memorize_seed_technique_heading": "Como memorizar a tua frase de recuperação",
+	"memorize_seed_technique_p1": "Palavras aleatórias são mais difíceis de decorar do que uma frase, mas mais fáceis do que parecem. As frases de recuperação têm normalmente doze ou vinte e quatro palavras, conforme a tua carteira e as suas configurações. Em qualquer dos casos, há um ritmo se lho deres.",
+	"memorize_seed_technique_p2": "<strong>Divide a frase em pedaços.</strong> Doze palavras dividem-se com facilidade em três grupos de quatro, ou em quatro grupos de três. Vinte e quatro palavras tornam-se quatro grupos de seis ou seis grupos de quatro. Os grupos mais pequenos são mais fáceis de fixar.",
+	"memorize_seed_technique_p3": "<strong>Constroi uma história.</strong> Cada grupo torna-se uma cena pequena e bem viva. Faz cenas estranhas e específicas — o cérebro lembra-se do que sai do comum. \"Um elefante azul a fazer malabarismo com cactos em cima de um piano\" fica colado. \"Umas palavras sobre animais e música\" não.",
+	"memorize_seed_technique_p4": "<strong>Usa um palácio da memória.</strong> Imagina um lugar que conheces bem — a tua cozinha, o caminho para o trabalho, o quarto da tua infância. Coloca cada palavra num ponto de referência específico. Percorre o trajecto mentalmente para recordares a ordem.",
+	"memorize_seed_technique_p5": "<strong>Faz uma rima ou canta-a.</strong> Escolhe uma melodia que já conheces e encaixa as palavras no ritmo. As canções colam-se à memória.",
+	"memorize_seed_technique_p6": "Escolhe o método que te parecer mais natural. A maioria das pessoas acaba por combinar dois — pedaços com uma história, ou um palácio da memória com uma melodia. Escolhe o que funcionar melhor para ti.",
+
+	"memorize_seed_repetition_heading": "Faz da repetição parte do teu dia",
+	"memorize_seed_repetition_p1": "O truque é o volume, não o esforço. Liga a tua revisão a algo que já fazes todos os dias e as repetições somam-se sem teres de pensar nelas.",
+	"memorize_seed_repetition_p2": "Lavar os dentes duas vezes por dia dá catorze revisões por semana. Cozinhar o jantar. Passear o cão. Conduzir até ao trabalho. Adormecer. O duche. Escolhe uma ou duas rotinas e deixa as palavras irem à boleia.",
+	"memorize_seed_repetition_p3": "Vai-as repetindo na cabeça — em silêncio, com os lábios fechados. Não cochiches. Não mexas a boca. A ideia é que ninguém perceba que o estás a fazer.",
+	"memorize_seed_repetition_p4": "Ao fim de duas semanas, as palavras deixam de ser algo que tens de te esforçar por recordar e passam a ser algo que simplesmente sabes. Mantém a rotina durante um mês ou dois para que fiquem mesmo agarradas. Depois, repete uma vez por semana para manteres tudo fresco.",
+
+	"memorize_seed_test_heading": "Põe-te à prova sem deixar rasto",
+	"memorize_seed_test_p1": "Uma vez por semana, prova a ti próprio que sabes mesmo a frase. A memória é traiçoeira — pode parecer familiar sem ser exacta.",
+	"memorize_seed_test_p2": "<strong>Encontra um lugar privado</strong> sem câmaras viradas para ti, incluindo a webcam do teu próprio portátil. Tranca a porta. Corre as cortinas.",
+	"memorize_seed_test_p3": "<strong>Escreve as palavras em papel</strong>, por ordem. Compara-as com a tua cópia de segurança física, e não com a tua memória. A ideia é apanhar um erro que a tua memória não consegue ver.",
+	"memorize_seed_test_p4": "<strong>Destrói o papel completamente.</strong> Tritura-o. Queima-o. Não deites a folha inteira para o caixote do lixo. Se falhaste alguma palavra, faz mais umas rondas de revisão de rotina e tenta outra vez na semana seguinte.",
+
+	"memorize_seed_dont_rely_heading": "Não dependas só da memória",
+	"memorize_seed_dont_rely_p1": "A memória é fiável até deixar de ser. O stress, a idade, a doença, um traumatismo craniano ou simplesmente um intervalo demasiado grande entre revisões podem apagar uma frase. Não há nenhum link de \"esqueci-me da palavra-passe\" para Bitcoin.",
+	"memorize_seed_dont_rely_p2": "Trata a memorização como uma cópia de segurança paralela. A tua cópia física é a base. A versão na tua cabeça é a redundância. Se uma catástrofe destruir a base, é a redundância que te leva de volta a casa.",
+	"memorize_seed_dont_rely_p3": "As únicas situações que justificam guardar tudo apenas na memória são extremas: fugir de uma zona de guerra, escapar a perseguição autoritária, atravessar uma fronteira com bens que seriam confiscados. E mesmo nesses casos, é boa ideia criar uma nova cópia de segurança física assim que estiveres num local seguro.",
+
+	"memorize_seed_card_wallets_label": "Configura tudo bem",
+	"memorize_seed_card_wallets_title": "Gera a tua frase de recuperação numa carteira Bitcoin a sério",
+	"memorize_seed_card_wallets_source": "Fonte: bitcoin.rocks →",
+
+	"sources_bip39": "Bitcoin BIPs — BIP39: Código mnemónico para gerar chaves determinísticas",
+	"sources_brain_wallet_research": "Vasek, Bonneau, Castellucci, Keith & Moore — The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets (Financial Cryptography 2016)",
+	"sources_bitcoin_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)"
+}

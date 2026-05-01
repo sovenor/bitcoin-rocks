@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-04-30",
 		"locale": "my"
 	},
 	"bitcoin_wallet_guide": "Bitcoin ပိုက်ဆံအိတ် လမ်းညွှန်",
@@ -74,5 +74,8 @@
 	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 hardware ပိုက်ဆံအိတ်",
 	"sources_coldcard_q": "Coinkite — Coldcard Q hardware ပိုက်ဆံအိတ်",
 	"sources_passport": "Foundation Devices — Passport hardware ပိုက်ဆံအိတ်",
-	"sources_seedsigner": "SeedSigner — open source DIY Bitcoin လက်မှတ်ထိုးကိရိယာ"
+	"sources_seedsigner": "SeedSigner — open source DIY Bitcoin လက်မှတ်ထိုးကိရိယာ",
+	"wallets_s6_c4b_a": "နောက်ထပ် ခံနိုင်ရည်ရှိမှု အလွှာတစ်ခုအတွက် သင်သည်",
+	"wallets_s6_c4b_b": "သင့် seed phrase ကို မှတ်ဉာဏ်ဖြင့် မှတ်သားခြင်း",
+	"wallets_s6_c4b_c": "ကိုလည်း သင်နှင့်အတူ လိုက်ပါသွားသော မမြင်နိုင်သည့် backup တစ်ခုအဖြစ် ပြုလုပ်နိုင်သည်။"
 }
