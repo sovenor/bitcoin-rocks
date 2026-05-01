@@ -54,6 +54,8 @@ export function LanguageSwitcher() {
 
 	const [open, setOpen] = useState(false);
 	const wrapperRef = useRef<HTMLDivElement>(null);
+	const dropdownRef = useRef<HTMLDivElement>(null);
+	const activeItemRef = useRef<HTMLButtonElement>(null);
 
 	// Fire language_pageview once on mount (matches jquery/language.js).
 	useEffect(() => {
@@ -82,6 +84,22 @@ export function LanguageSwitcher() {
 		}
 		document.addEventListener("click", onDocClick);
 		return () => document.removeEventListener("click", onDocClick);
+	}, [open]);
+
+	// Center the active language in the dropdown's viewport on open, so the
+	// user lands on their current selection and can scroll up or down from
+	// there. Uses scrollTop directly (rather than scrollIntoView) to avoid
+	// scrolling ancestor containers / the page itself.
+	useEffect(() => {
+		if (!open) return;
+		const dropdown = dropdownRef.current;
+		const activeItem = activeItemRef.current;
+		if (!dropdown || !activeItem) return;
+		const target =
+			activeItem.offsetTop -
+			dropdown.clientHeight / 2 +
+			activeItem.clientHeight / 2;
+		dropdown.scrollTop = Math.max(0, target);
 	}, [open]);
 
 	function handleSelect(entry: LanguageEntry & { url?: string }) {
@@ -137,6 +155,7 @@ export function LanguageSwitcher() {
 
 			{open && (
 				<div
+					ref={dropdownRef}
 					className="absolute top-full right-0 mt-2 min-w-[180px] max-h-[400px] overflow-y-auto bg-[#12121f] border border-[#3d3d3d] rounded-lg shadow-[0_8px_24px_rgba(0,0,0,0.5)] z-[9999] py-2"
 					role="listbox"
 					onClick={(e) => e.stopPropagation()}
@@ -146,6 +165,7 @@ export function LanguageSwitcher() {
 						return (
 							<button
 								key={lang.code}
+								ref={active ? activeItemRef : undefined}
 								type="button"
 								role="option"
 								aria-selected={active}
