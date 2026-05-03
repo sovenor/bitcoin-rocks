@@ -85,6 +85,21 @@ const NODES: readonly NodeSpec[] = [
 		link: "https://umbrel.com/umbrel-home",
 	},
 	{
+		id: "umbrel-pro",
+		image: "/img/nodes/umbrel-pro.png",
+		nameKey: "bitcoin_node_umbrel_pro",
+		type: "prebuilt",
+		effort: "beginner",
+		features: [
+			"bitcoin_node_umbrel_pro_feat_1",
+			"bitcoin_node_umbrel_pro_feat_2",
+			"bitcoin_node_umbrel_pro_feat_3",
+			"bitcoin_node_umbrel_pro_feat_4",
+		],
+		priceKey: "bitcoin_node_umbrel_pro_costs",
+		link: "https://umbrel.com/umbrel-pro",
+	},
+	{
 		id: "start9-os",
 		image: "/img/nodes/start9-os.png",
 		nameKey: "bitcoin_node_start9_os",
@@ -454,7 +469,7 @@ export default async function BitcoinNodePage({
 							</li>
 							<li>
 								<a
-									href="https://umbrel.com/umbrel-home"
+									href="https://umbrel.com/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>

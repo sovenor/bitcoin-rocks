@@ -510,17 +510,18 @@ Yes. Most node software (Umbrel, Start9, myNode, Nodl) can run a Lightning node 
 ### Popular Bitcoin node options
 
 - **Bitcoin Core (old laptop / desktop)** — Free official Bitcoin software. Runs on Windows, Mac, or Linux. Reuse hardware you already own. Pruned mode supported. *Cost: free.*
-- **Umbrel Home** — Pre-built node from the Umbrel team, plug in and go. Friendly web UI with one-click apps, app store with Lightning and BTCPay. *Cost: premium pre-built — see umbrel.com.*
+- **Umbrel Home** — Pre-built node from the Umbrel team, plug in and go. Friendly web UI with one-click apps, app store with Lightning and BTCPay. *Cost: $599 — premium pre-built.*
+- **Umbrel Pro** — Higher-horsepower pre-built node from the Umbrel team. Same UI and app store as Umbrel Home, more storage and performance. *Cost: $699 — premium pre-built.*
 - **Start9 (StartOS) on a mini PC** — Privacy-focused operating system with a sovereign-computing app marketplace. Install on your own mini PC. Open-source. *Cost: free software, mini PC ~$200+.*
 - **myNode** — Web dashboard with one-click apps, Lightning + BTCPay built in. Runs on Pi or generic PC. Free community edition or paid premium. *Cost: free or premium subscription.*
-- **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: about $1,200 — premium pre-built.*
-- **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, made in Switzerland. *Cost: about $700 — premium pre-built.*
+- **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: $849 — premium pre-built.*
+- **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, made in Switzerland. *Cost: from €599 — premium pre-built.*
 
 ### Sources
 
 - [bitcoincore.org](https://bitcoincore.org/en/download/) — official Bitcoin Core software
 - [bitcoin.org full node guide](https://bitcoin.org/en/full-node)
-- [umbrel.com](https://umbrel.com/umbrel-home) — Umbrel Home pre-built node
+- [umbrel.com](https://umbrel.com/) — Umbrel Home and Umbrel Pro pre-built nodes
 - [start9.com](https://start9.com/) — StartOS and Server One
 - [mynodebtc.com](https://mynodebtc.com/) — myNode dashboard
 - [nodl.it](https://www.nodl.it/) — pre-built Bitcoin and Lightning nodes
