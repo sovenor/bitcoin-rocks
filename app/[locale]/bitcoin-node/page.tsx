@@ -70,19 +70,19 @@ const NODES: readonly NodeSpec[] = [
 		link: "https://bitcoincore.org/en/download/",
 	},
 	{
-		id: "umbrel",
-		image: "/img/nodes/umbrel.png",
-		nameKey: "bitcoin_node_umbrel",
-		type: "diy",
+		id: "umbrel-home",
+		image: "/img/nodes/umbrel-home.png",
+		nameKey: "bitcoin_node_umbrel_home",
+		type: "prebuilt",
 		effort: "beginner",
 		features: [
-			"bitcoin_node_umbrel_feat_1",
-			"bitcoin_node_umbrel_feat_2",
-			"bitcoin_node_umbrel_feat_3",
-			"bitcoin_node_umbrel_feat_4",
+			"bitcoin_node_umbrel_home_feat_1",
+			"bitcoin_node_umbrel_home_feat_2",
+			"bitcoin_node_umbrel_home_feat_3",
+			"bitcoin_node_umbrel_home_feat_4",
 		],
-		priceKey: "bitcoin_node_umbrel_costs",
-		link: "https://umbrel.com/",
+		priceKey: "bitcoin_node_umbrel_home_costs",
+		link: "https://umbrel.com/umbrel-home",
 	},
 	{
 		id: "start9-os",
@@ -454,7 +454,7 @@ export default async function BitcoinNodePage({
 							</li>
 							<li>
 								<a
-									href="https://umbrel.com/"
+									href="https://umbrel.com/umbrel-home"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
