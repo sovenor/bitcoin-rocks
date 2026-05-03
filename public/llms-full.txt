@@ -509,12 +509,12 @@ Yes. Most node software (Umbrel, Start9, myNode, Nodl) can run a Lightning node 
 
 ### Popular Bitcoin node options
 
-- **Bitcoin Core (old laptop / desktop)** — Free official Bitcoin software. Runs on Windows, Mac, or Linux. Reuse hardware you already own. Pruned mode supported. *Cost: free.*
+- **Bitcoin Core** — Free official Bitcoin software. Runs on Windows, Mac, or Linux. Reuse hardware you already own. Pruned mode supported. *Cost: free.*
+- **myNode** — Web dashboard with one-click apps, Lightning + BTCPay built in. Runs on Pi or generic PC. Free community edition or paid premium. *Cost: free or premium subscription.*
+- **Start9 StartOS** — Privacy-focused operating system with a sovereign-computing app marketplace. Install on your own mini PC. Open-source. *Cost: free software, mini PC ~$200+.*
+- **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: $849 — premium pre-built.*
 - **Umbrel Home** — Pre-built node from the Umbrel team, plug in and go. Friendly web UI with one-click apps, app store with Lightning and BTCPay. *Cost: $599 — premium pre-built.*
 - **Umbrel Pro** — Higher-horsepower pre-built node from the Umbrel team. Same UI and app store as Umbrel Home, more storage and performance. *Cost: $699 — premium pre-built.*
-- **Start9 (StartOS) on a mini PC** — Privacy-focused operating system with a sovereign-computing app marketplace. Install on your own mini PC. Open-source. *Cost: free software, mini PC ~$200+.*
-- **myNode** — Web dashboard with one-click apps, Lightning + BTCPay built in. Runs on Pi or generic PC. Free community edition or paid premium. *Cost: free or premium subscription.*
-- **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: $849 — premium pre-built.*
 - **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, made in Switzerland. *Cost: from €599 — premium pre-built.*
 
 ### Sources
