@@ -155,6 +155,8 @@ const NODES: readonly NodeSpec[] = [
 			"bitcoin_node_nodl_feat_2",
 			"bitcoin_node_nodl_feat_3",
 			"bitcoin_node_nodl_feat_4",
+			"bitcoin_node_nodl_feat_5",
+			"bitcoin_node_nodl_feat_6",
 		],
 		priceKey: "bitcoin_node_nodl_costs",
 		link: "https://www.nodl.it/",

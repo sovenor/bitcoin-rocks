@@ -515,7 +515,7 @@ Yes. Most node software (Umbrel, Start9, myNode, Nodl) can run a Lightning node 
 - **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: $849 — premium pre-built.*
 - **Umbrel Home** — Pre-built node from the Umbrel team, plug in and go. Friendly web UI with one-click apps, app store with Lightning and BTCPay. *Cost: $599 — premium pre-built.*
 - **Umbrel Pro** — Higher-horsepower pre-built node from the Umbrel team. Same UI and app store as Umbrel Home, more storage and performance. *Cost: $699 — premium pre-built.*
-- **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, made in Switzerland. *Cost: from €599 — premium pre-built.*
+- **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, 100% open-source, privacy-focused, made in Switzerland. *Cost: from €599 — premium pre-built.*
 
 ### Sources
 
