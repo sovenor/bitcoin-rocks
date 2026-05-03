@@ -52,6 +52,7 @@ const DEFAULT_NAMESPACES = [
 	"wallets",
 	"lightning",
 	"flyers",
+	"bitcoin-node",
 	"compound-inflation-calculator",
 	// Phase 9b — form pages + successes.
 	"stickers",

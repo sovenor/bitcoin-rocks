@@ -25,6 +25,7 @@ All content is curated and fact-checked. Data and statistics cite authoritative 
 - [How to Store Bitcoin in Your Brain](https://bitcoin.rocks/memorize-your-seed-phrase): Practical guide to safely committing your Bitcoin seed phrase to memory as an additional backup. Covers chunking, memory palaces, daily-routine repetition, safe self-testing, and why memory should rarely be your only backup. Distinguishes from the historically broken "brain wallet" technique.
 - [How to Buy Bitcoin](https://bitcoin.rocks/buy): Step-by-step guide for buying Bitcoin in 50+ countries, covering bank transfer and cash options with platform recommendations.
 - [Lightning Wallet Guide](https://bitcoin.rocks/lightning): Guide to Lightning Network wallets for fast, cheap Bitcoin payments. Covers trade-offs between custodial and non-custodial options.
+- [How to Run a Bitcoin Node](https://bitcoin.rocks/bitcoin-node): Guide to running your own Bitcoin node for self-verification and privacy. Covers hardware options from a free old-laptop install of Bitcoin Core to plug-and-play hardware (Umbrel, Start9, myNode, Nodl).
 - [Compound Inflation Calculator](https://bitcoin.rocks/compound-inflation-calculator): Interactive tool to calculate how much your salary needs to increase to keep up with inflation.
 
 ### Bitcoin Comparison Pages
