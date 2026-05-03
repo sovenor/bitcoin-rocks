@@ -7,6 +7,7 @@ We accomplish this with several free resources:
 
 - [An educational website](https://bitcoin.rocks) designed for people who are new to bitcoin.
 - [Bitcoin Stickers](https://bitcoin.rocks/stickers) that enable you to leave an orange pill in public.
+- [Bitcoin Flyers](https://bitcoin.rocks/flyers) that you can print and post in public to spread bitcoin awareness.
 - [Bitcoin for Business resources](https://bitcoin.rocks/business) that help you get a local business to accept bitcoin payments.
 
 ## Website Overview

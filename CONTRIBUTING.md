@@ -9,6 +9,7 @@ If you are not technical, you can still contribute! You can [suggest new content
 You can also help by:
 - sharing [bitcoin.rocks](https://bitcoin.rocks) when someone asks you about bitcoin
 - putting our free [bitcoin stickers](https://bitcoin.rocks/stickers) in public
+- printing and posting our free [bitcoin flyers](https://bitcoin.rocks/flyers) in public
 - reporting a bug, typo, or other issue [here](https://github.com/sovenor/bitcoin-rocks/issues/new)
 
 ## Coding new features
