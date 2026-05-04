@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "en"
 	},
 	"home_nav_learn": "Learn",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Coding puzzles",
 	"home_card_label_networks_1": "Live network view",
 	"home_card_label_networks_2": "Let's compare",
+	"home_card_label_networks_3": "Bitcoin node guide",
 	"home_card_label_payments_1": "What's the difference?",
 	"home_card_label_payments_2": "Fast & cheap payments",
 	"home_card_label_payments_3": "Remittances",
@@ -137,6 +138,7 @@
 	"home_link_title_coding_3": "Code your way through the mysteries of Bitcoin",
 	"home_link_title_networks_1": "A live view of the Bitcoin network",
 	"home_link_title_networks_2": "Bitcoin vs Banks: a comparison",
+	"home_link_title_networks_3": "Join the Bitcoin network by running a node",
 	"home_link_title_payments_1": "Bitcoin vs Visa: a comparison",
 	"home_link_title_payments_2": "A look at the Lightning Network (instant Bitcoin payments)",
 	"home_link_title_payments_3": "El Salvador's Bitcoin wallet could save Salvadorans $400M annually in remittance fees",
