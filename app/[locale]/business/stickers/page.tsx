@@ -50,7 +50,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/stickers";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-stickers-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -62,7 +61,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "bitcoin_accepted_here_stickers",
-		image: META_IMAGE,
 		description:
 			"Let your customers know you accept Bitcoin with free 'Bitcoin Accepted Here' stickers.",
 	});
@@ -140,7 +138,6 @@ export default async function BusinessStickersPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

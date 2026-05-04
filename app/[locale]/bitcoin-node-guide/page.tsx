@@ -13,7 +13,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 
 const SLUG = "bitcoin-node-guide";
 const NAMESPACE = "bitcoin-node-guide";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bitcoin-node-guide.png";
 
 export async function generateMetadata({
 	params,
@@ -293,7 +292,6 @@ export default async function BitcoinNodePage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 		schemaType: "Article",
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({

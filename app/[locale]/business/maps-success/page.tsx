@@ -41,7 +41,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/maps-success";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-maps-v1.png";
 
 const BTC_MAP_URL = "https://btcmap.org/";
 
@@ -128,7 +127,6 @@ export default async function BusinessMapsSuccessPage({
 		locale: locale as Locale,
 		headline: title,
 		description: t("biz_maps_success_hero_subtitle"),
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

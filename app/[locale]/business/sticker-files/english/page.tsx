@@ -47,7 +47,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 import type { CSSProperties } from "react";
 
 const SLUG = "business/sticker-files/english";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-stickers-v1.png";
 
 // ─── StickerMule pack URLs ────────────────────────────────────────────
 //
@@ -70,7 +69,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "english_bitcoin_accepted_here_sticker_files",
-		image: META_IMAGE,
 		descriptionKey: "english_biz_sticker_files_description",
 	});
 }
@@ -142,7 +140,6 @@ export default async function BusinessStickerFilesEnglishPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

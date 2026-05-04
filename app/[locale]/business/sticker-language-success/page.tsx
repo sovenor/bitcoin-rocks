@@ -36,7 +36,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/sticker-language-success";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-stickers-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -121,7 +120,6 @@ export default async function BusinessStickerLanguageSuccessPage({
 		locale: locale as Locale,
 		headline: title,
 		description: t("biz_sticker_language_success_hero_subtitle"),
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

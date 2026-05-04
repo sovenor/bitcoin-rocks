@@ -51,7 +51,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/why";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-why-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -63,7 +62,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "learn_why_bitcoin_is_good_for_business",
-		image: META_IMAGE,
 		description:
 			"You scanned a Bitcoin Accepted Here sticker. Here's why accepting Bitcoin is good for this business — and why using Bitcoin is good for you.",
 	});
@@ -134,7 +132,6 @@ export default async function BusinessWhyPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

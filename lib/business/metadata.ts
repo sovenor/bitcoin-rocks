@@ -15,9 +15,7 @@ import { buildAlternates } from "@/lib/schema/hreflang";
  * No `openGraph.images` / `twitter.images` here: each business page now has
  * its own `opengraph-image.tsx` that Next auto-injects into the metadata.
  * Setting `images` in code would replace (not merge with) the file-based
- * one, leaving the dynamic per-locale image orphaned. The `image` argument
- * is kept on the signature so callers (article schema, etc.) can keep
- * passing their static PNG, but it's no longer copied into meta tags.
+ * one, leaving the dynamic per-locale image orphaned.
  */
 export async function buildBusinessMetadata({
 	locale,
@@ -32,8 +30,6 @@ export async function buildBusinessMetadata({
 	/** Optional fallback description — used if no i18n key applies. */
 	descriptionKey?: string;
 	description?: string;
-	/** Retained for call-site compatibility; no longer emitted in meta tags. */
-	image?: string;
 }): Promise<Metadata> {
 	const t = await getTranslations({ locale });
 	const title = t(titleKey);

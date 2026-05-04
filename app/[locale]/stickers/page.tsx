@@ -42,7 +42,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "stickers";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
 const NOSTR_URL =
 	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 
@@ -91,7 +90,6 @@ export default async function StickersPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

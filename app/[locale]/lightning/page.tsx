@@ -47,7 +47,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "lightning";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-lightning-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -249,7 +248,6 @@ export default async function LightningPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 		schemaType: "Article",
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({

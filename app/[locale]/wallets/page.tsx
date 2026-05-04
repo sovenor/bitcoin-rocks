@@ -44,7 +44,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 
 const SLUG = "wallets";
 const NAMESPACE = "wallets";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-wallets-v3.png";
 
 export async function generateMetadata({
 	params,
@@ -344,7 +343,6 @@ export default async function WalletsPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 		schemaType: "Article",
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
