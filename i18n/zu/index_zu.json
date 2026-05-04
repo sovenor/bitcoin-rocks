@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "zu"
 	},
 	"home_nav_learn": "Funda",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Amaphazili okukhodwa",
 	"home_card_label_networks_1": "Ukubuka kwenethiwekhi okusenza",
 	"home_card_label_networks_2": "Asiqhathanise",
+	"home_card_label_networks_3": "Umhlahlandlela wenodi ye-Bitcoin",
 	"home_card_label_payments_1": "Yini umehluko?",
 	"home_card_label_payments_2": "Izinkokhelo ezisheshayo nezishibhile",
 	"home_card_label_payments_3": "Ukuthumelelwa kwemali",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Hlela indlela yakho ezimfihlweni ze-Bitcoin",
 	"home_link_title_networks_1": "Umbono obukhoma wenethiwekhi ye-Bitcoin",
 	"home_link_title_networks_2": "I-Bitcoin vs Amabhange",
+	"home_link_title_networks_3": "Joyina inethiwekhi ye-Bitcoin ngokusebenzisa inodi",
 	"home_link_title_payments_1": "I-Bitcoin vs Visa",
 	"home_link_title_payments_2": "Ukubheka i-Lightning Network (Izinkokhelo ze-Bitcoin Ezisheshayo)",
 	"home_link_title_payments_3": "Isikhwama se-Bitcoin sase-El Salvador singonga ama-Salvadorans u-$400M unyaka ngamunye ngezimali zokukhokha",

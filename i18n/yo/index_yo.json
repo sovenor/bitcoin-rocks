@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "yo"
 	},
 	"home_nav_learn": "Kẹ́kọ̀ọ́",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Àwọn ìṣòro koodu",
 	"home_card_label_networks_1": "Ìwòran taárà nẹ́tíwọ́ọ̀kì",
 	"home_card_label_networks_2": "Jẹ́ ká fiwéra",
+	"home_card_label_networks_3": "Ìtọ́sọ́nà nóòdù Bitcoin",
 	"home_card_label_payments_1": "Kíni iyàtọ̀?",
 	"home_card_label_payments_2": "Ìsanwó kíákíá & olówó-pọ́ọ́kú",
 	"home_card_label_payments_3": "Owó-fírànṣẹ́",
@@ -132,10 +133,11 @@
 	"home_link_title_war_2": "Bitcoin & Àwọn Vetéràànì: Ìbarépọ̀ Adayéba",
 	"home_link_title_war_3": "Bí Bitcoin Ṣe Ń Ràn Àwọn Ará Ilú Ló́wó́ Láti Sá Kúrò Nínú Ogun Sudan",
 	"home_link_title_coding_1": "Èkó̀ Alábapínpín Nípa Apá Imọ̀-ẹ̀rọ̀ Bitcoin",
-	"home_link_title_coding_2": "bitcoinSwitch: mú èrọ kaǹkaǹ gba Bitcoin",
+	"home_link_title_coding_2": "bitcoinSwitch: mú èrọ kaǹkaǹ gba Bitcoin",
 	"home_link_title_coding_3": "Kọ koodu láti lóyé àwọn àṣìrí Bitcoin",
 	"home_link_title_networks_1": "Ìwòran taárà nẹ́tíwọ́ọ̀kì Bitcoin",
 	"home_link_title_networks_2": "Bitcoin pẹ̀lú Àwọn Ilé-ìfòwópàmó́",
+	"home_link_title_networks_3": "Darapọ̀ mọ́ nẹ́tíwọ́ọ̀kì Bitcoin nípa ṣíṣe nóòdù",
 	"home_link_title_payments_1": "Bitcoin pẹ̀lú Visa",
 	"home_link_title_payments_2": "Wo Lightning Network (ÌSàn Owó Bitcoin Lẹ́sẹ̀kẹ̀sẹ̀)",
 	"home_link_title_payments_3": "Àpò owó Bitcoin El Salvador lè fi $400M pamó́ lóọ̀dún nínú owó ìsàn fífi owó ranṣẹ́ sílé",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "et"
 	},
 	"home_nav_learn": "Õpi",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programmeerimisväljakutsed",
 	"home_card_label_networks_1": "Võrgu reaalajavisualiseering",
 	"home_card_label_networks_2": "Võrdleme",
+	"home_card_label_networks_3": "Bitcoini sõlme juhend",
 	"home_card_label_payments_1": "Mis vahe on?",
 	"home_card_label_payments_2": "Kiired ja odavad maksed",
 	"home_card_label_payments_3": "Välisülekanded",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Kodeerige end läbi Bitcoini saladuste",
 	"home_link_title_networks_1": "Bitcoin-võrgu reaalajas vaade",
 	"home_link_title_networks_2": "Bitcoin vs pangad",
+	"home_link_title_networks_3": "Liitu Bitcoini võrguga, käitades sõlme",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Pilk Lightning-võrgule (kohesed Bitcoin-maksed)",
 	"home_link_title_payments_3": "El Salvadori Bitcoin-rahakott võib säästa salvadorlastele $400 miljonit aastas ülekandatasudelt",

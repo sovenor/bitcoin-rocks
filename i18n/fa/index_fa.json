@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "fa"
 	},
 	"home_nav_learn": "یاد بگیرید",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "چالش‌های برنامه‌نویسی",
 	"home_card_label_networks_1": "نمای زنده شبکه",
 	"home_card_label_networks_2": "بیایید مقایسه کنیم",
+	"home_card_label_networks_3": "راهنمای نود بیت‌کوین",
 	"home_card_label_payments_1": "تفاوت چیست؟",
 	"home_card_label_payments_2": "پرداخت‌های سریع و ارزان",
 	"home_card_label_payments_3": "انتقال‌های فرامرزی",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "با کدنویسی رمزهای بیت‌کوین را کشف کنید",
 	"home_link_title_networks_1": "نمای زنده از شبکه بیت‌کوین",
 	"home_link_title_networks_2": "بیت‌کوین در برابر بانک‌ها",
+	"home_link_title_networks_3": "با اجرای یک نود به شبکه بیت‌کوین بپیوندید",
 	"home_link_title_payments_1": "بیت‌کوین در برابر ویزا",
 	"home_link_title_payments_2": "نگاهی به شبکه لایتنینگ (پرداخت‌های فوری بیت‌کوین)",
 	"home_link_title_payments_3": "کیف پول بیت‌کوین السالوادور می‌تواند سالانه ۴۰۰ میلیون دلار کارمزد حواله صرفه‌جویی کند",

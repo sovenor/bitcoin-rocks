@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "th"
 	},
 	"home_nav_learn": "เรียนรู้",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "ปริศนาการเขียนโค้ด",
 	"home_card_label_networks_1": "มุมมองเครือข่ายแบบสด",
 	"home_card_label_networks_2": "มาเปรียบเทียบกัน",
+	"home_card_label_networks_3": "คู่มือการรันโหนด Bitcoin",
 	"home_card_label_payments_1": "อะไรคือความแตกต่าง?",
 	"home_card_label_payments_2": "ชำระเงินรวดเร็วและถูก",
 	"home_card_label_payments_3": "การโอนเงินกลับบ้าน",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "เขียนโค้ดผ่านความลึกลับของ Bitcoin",
 	"home_link_title_networks_1": "มุมมองสดของเครือข่าย Bitcoin",
 	"home_link_title_networks_2": "บิตคอยน์ vs ธนาคาร",
+	"home_link_title_networks_3": "ร่วมเป็นส่วนหนึ่งของเครือข่าย Bitcoin ด้วยการรันโหนด",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "A Look at the Lightning Network (Instant Bitcoin Payments)",
 	"home_link_title_payments_3": "กระเป๋าเงิน Bitcoin ของเอลซัลวาดอร์อาจช่วยชาวเอลซัลวาดอร์ประหยัดค่าธรรมเนียมการโอนเงินกลับบ้านได้ปีละ $400 ล้าน",

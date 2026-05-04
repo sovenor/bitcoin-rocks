@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "lt"
 	},
 	"home_nav_learn": "Mokykitės",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programavimo galvosūkiai",
 	"home_card_label_networks_1": "Tinklo apžvalga tiesiogiai",
 	"home_card_label_networks_2": "Palyginkime",
+	"home_card_label_networks_3": "Bitcoin mazgo vadovas",
 	"home_card_label_payments_1": "Koks skirtumas?",
 	"home_card_label_payments_2": "Greiti ir pigūs mokėjimai",
 	"home_card_label_payments_3": "Pinigų perlaidos",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programuokite per Bitcoin paslaptis",
 	"home_link_title_networks_1": "Tiesioginis Bitcoin tinklo vaizdas",
 	"home_link_title_networks_2": "Bitcoin prieš bankus: palyginimas",
+	"home_link_title_networks_3": "Prisijunkite prie Bitcoin tinklo paleisdami mazgą",
 	"home_link_title_payments_1": "Bitcoin prieš Visa: palyginimas",
 	"home_link_title_payments_2": "Žvilgsnis į Lightning Network (momentinius Bitcoin mokėjimus)",
 	"home_link_title_payments_3": "Salvadoro Bitcoin piniginė salvadoriečiams galėtų sutaupyti 400 mln. USD pinigų perlaidų mokesčių per metus",

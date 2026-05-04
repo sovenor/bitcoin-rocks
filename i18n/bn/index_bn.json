@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "bn"
 	},
 	"home_nav_learn": "শিখুন",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "কোডিং পাজল",
 	"home_card_label_networks_1": "লাইভ নেটওয়ার্ক ওভারভিউ",
 	"home_card_label_networks_2": "চলুন তুলনা করি",
+	"home_card_label_networks_3": "Bitcoin নোড গাইড",
 	"home_card_label_payments_1": "পার্থক্য কী?",
 	"home_card_label_payments_2": "দ্রুত এবং সস্তা পেমেন্ট",
 	"home_card_label_payments_3": "রেমিট্যান্স",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin-এর রহস্যের মধ্য দিয়ে কোড করুন",
 	"home_link_title_networks_1": "Bitcoin নেটওয়ার্কের একটি সরাসরি দৃশ্য",
 	"home_link_title_networks_2": "Bitcoin বনাম ব্যাংক",
+	"home_link_title_networks_3": "একটি নোড চালিয়ে Bitcoin নেটওয়ার্কে যোগ দিন",
 	"home_link_title_payments_1": "Bitcoin বনাম Visa",
 	"home_link_title_payments_2": "লাইটনিং নেটওয়ার্কের দিকে একটি নজর (তাৎক্ষণিক Bitcoin পেমেন্ট)",
 	"home_link_title_payments_3": "এল সালভাদরের Bitcoin ওয়ালেট সালভাদোরানদের প্রেষণ ফিতে বার্ষিক $৪০০M সাশ্রয় করতে পারে",

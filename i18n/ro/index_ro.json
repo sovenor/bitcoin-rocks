@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ro"
 	},
 	"home_nav_learn": "Învață",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Puzzle-uri de programare",
 	"home_card_label_networks_1": "Vizualizare a rețelei în direct",
 	"home_card_label_networks_2": "Să comparăm",
+	"home_card_label_networks_3": "Ghid pentru noduri Bitcoin",
 	"home_card_label_payments_1": "Care este diferența?",
 	"home_card_label_payments_2": "Plăți rapide și ieftine",
 	"home_card_label_payments_3": "Remitențe",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programează-ți drumul prin misterele Bitcoin",
 	"home_link_title_networks_1": "O vizualizare în timp real a rețelei Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bănci",
+	"home_link_title_networks_3": "Alătură-te rețelei Bitcoin rulând un nod",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "O privire asupra rețelei Lightning (Plăți Bitcoin instantanee)",
 	"home_link_title_payments_3": "Portofelul Bitcoin al El Salvador ar putea economisi salvadorienilor 400M$ anual în comisioane de remitențe",

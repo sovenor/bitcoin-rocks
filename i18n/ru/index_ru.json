@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ru"
 	},
 	"home_nav_learn": "Учиться",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Задачи по программированию",
 	"home_card_label_networks_1": "Живая визуализация сети",
 	"home_card_label_networks_2": "Сравним",
+	"home_card_label_networks_3": "Руководство по Bitcoin-ноде",
 	"home_card_label_payments_1": "В чём разница?",
 	"home_card_label_payments_2": "Быстрые и дешёвые платежи",
 	"home_card_label_payments_3": "Международные переводы",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Разберитесь в тайнах Биткоина через программирование",
 	"home_link_title_networks_1": "Живой обзор сети Биткоина",
 	"home_link_title_networks_2": "Биткоин против банков",
+	"home_link_title_networks_3": "Присоединяйтесь к сети Bitcoin, запустив свою ноду",
 	"home_link_title_payments_1": "Биткоин против Visa",
 	"home_link_title_payments_2": "Обзор сети Lightning (мгновенные платежи в Биткоине)",
 	"home_link_title_payments_3": "Биткоин-кошелёк Сальвадора может сэкономить сальвадорцам $400 млн в год на переводах",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "he"
 	},
 	"home_nav_learn": "למד",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "אתגרי תכנות",
 	"home_card_label_networks_1": "מבט חי על הרשת",
 	"home_card_label_networks_2": "בוא נשווה",
+	"home_card_label_networks_3": "מדריך להפעלת צומת Bitcoin",
 	"home_card_label_payments_1": "מה ההבדל?",
 	"home_card_label_payments_2": "תשלומים מהירים וזולים",
 	"home_card_label_payments_3": "העברות חוצות גבולות",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "תכנתו את דרככם דרך התעלומות של ביטקוין",
 	"home_link_title_networks_1": "תצוגה חיה של רשת הביטקוין",
 	"home_link_title_networks_2": "ביטקוין מול בנקים",
+	"home_link_title_networks_3": "הצטרפו לרשת ה-Bitcoin על ידי הפעלת צומת",
 	"home_link_title_payments_1": "ביטקוין מול Visa",
 	"home_link_title_payments_2": "מבט על רשת הלייטנינג (תשלומי ביטקוין מיידיים)",
 	"home_link_title_payments_3": "ארנק הביטקוין של אל סלבדור יכול לחסוך לסלבדורים $400 מיליון בשנה בעמלות העברה",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "it"
 	},
 	"home_nav_learn": "Impara",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Puzzle di codifica",
 	"home_card_label_networks_1": "Visualizzazione di rete dal vivo",
 	"home_card_label_networks_2": "Confrontiamo",
+	"home_card_label_networks_3": "Guida al nodo Bitcoin",
 	"home_card_label_payments_1": "Qual è la differenza?",
 	"home_card_label_payments_2": "Pagamenti veloci ed economici",
 	"home_card_label_payments_3": "Rimesse",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programma la tua strada attraverso i misteri di Bitcoin",
 	"home_link_title_networks_1": "Una visione dal vivo della rete Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Banche",
+	"home_link_title_networks_3": "Unisciti alla rete Bitcoin eseguendo un nodo",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Uno sguardo alla Lightning Network (Pagamenti Bitcoin Istantanei)",
 	"home_link_title_payments_3": "Il portafoglio Bitcoin di El Salvador potrebbe far risparmiare ai salvadoregni $400M all'anno in commissioni di rimesse",

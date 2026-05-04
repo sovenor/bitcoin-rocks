@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "tl"
 	},
 	"home_nav_learn": "Matuto",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Mga coding puzzle",
 	"home_card_label_networks_1": "Live na pagtingin sa network",
 	"home_card_label_networks_2": "Ihambing natin",
+	"home_card_label_networks_3": "Gabay sa Bitcoin node",
 	"home_card_label_payments_1": "Ano ang pinagkaiba?",
 	"home_card_label_payments_2": "Mabilis at murang mga bayad",
 	"home_card_label_payments_3": "Mga remittance",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "I-code ang daan mo sa mga misteryo ng Bitcoin",
 	"home_link_title_networks_1": "Isang live na view ng Bitcoin network",
 	"home_link_title_networks_2": "Bitcoin vs Banks",
+	"home_link_title_networks_3": "Sumali sa Bitcoin network sa pamamagitan ng pagpapatakbo ng isang node",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Isang Pagtingin sa Lightning Network (Instant na Pagbabayad sa Bitcoin)",
 	"home_link_title_payments_3": "Ang Bitcoin wallet ng El Salvador ay maaaring makatipid sa mga Salvadorean ng $400M taun-taon sa mga bayarin sa remittance",

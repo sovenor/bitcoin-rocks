@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "vi"
 	},
 	"home_nav_learn": "Tìm hiểu",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Câu đố lập trình",
 	"home_card_label_networks_1": "Xem mạng lưới trực tiếp",
 	"home_card_label_networks_2": "Hãy so sánh",
+	"home_card_label_networks_3": "Hướng dẫn chạy node Bitcoin",
 	"home_card_label_payments_1": "Có gì khác biệt?",
 	"home_card_label_payments_2": "Thanh toán nhanh & rẻ",
 	"home_card_label_payments_3": "Kiều hối",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Giải mã các bí ẩn của Bitcoin bằng lập trình",
 	"home_link_title_networks_1": "Xem trực tiếp mạng Bitcoin",
 	"home_link_title_networks_2": "Bitcoin so với Ngân Hàng",
+	"home_link_title_networks_3": "Tham gia mạng lưới Bitcoin bằng cách chạy một node",
 	"home_link_title_payments_1": "Bitcoin so với Visa",
 	"home_link_title_payments_2": "Nhìn Vào Mạng Lightning (Thanh Toán Bitcoin Tức Thì)",
 	"home_link_title_payments_3": "Ví Bitcoin của El Salvador có thể giúp người dân tiết kiệm 400 triệu đô la phí chuyển tiền hàng năm",

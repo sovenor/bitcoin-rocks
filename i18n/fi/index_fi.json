@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "fi"
 	},
 	"home_nav_learn": "Opi",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Ohjelmointihaasteet",
 	"home_card_label_networks_1": "Verkon reaaliaikainen visualisointi",
 	"home_card_label_networks_2": "Vertaillaan",
+	"home_card_label_networks_3": "Bitcoin-solmun opas",
 	"home_card_label_payments_1": "Mikä on ero?",
 	"home_card_label_payments_2": "Nopeita ja halpoja maksuja",
 	"home_card_label_payments_3": "Ulkomaanmaksut",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Koodaa tiesi läpi Bitcoinin mysteerien",
 	"home_link_title_networks_1": "Live-näkymä Bitcoin-verkkoon",
 	"home_link_title_networks_2": "Bitcoin vs pankit",
+	"home_link_title_networks_3": "Liity Bitcoin-verkkoon ajamalla solmua",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Katsaus Lightning-verkkoon (välittömät Bitcoin-maksut)",
 	"home_link_title_payments_3": "El Salvadorin Bitcoin-lompakko voi säästää salvadorilaisille 400 milj. $ vuosittain rahansiirtomaksuissa",

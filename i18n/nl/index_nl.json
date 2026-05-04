@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "nl"
 	},
 	"home_nav_learn": "Leren",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Codeeropdrachten",
 	"home_card_label_networks_1": "Live-netwerkbeeld",
 	"home_card_label_networks_2": "Laten we vergelijken",
+	"home_card_label_networks_3": "Gids voor Bitcoin-nodes",
 	"home_card_label_payments_1": "Wat is het verschil?",
 	"home_card_label_payments_2": "Snelle en goedkope betalingen",
 	"home_card_label_payments_3": "Geld naar het buitenland sturen",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programmeer je weg door de mysteries van Bitcoin",
 	"home_link_title_networks_1": "Een live weergave van het Bitcoin-netwerk",
 	"home_link_title_networks_2": "Bitcoin vs Banken",
+	"home_link_title_networks_3": "Sluit je aan bij het Bitcoin-netwerk door een node te draaien",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Een Kijk op het Lightning Netwerk (Instant Bitcoin Betalingen)",
 	"home_link_title_payments_3": "El Salvadors Bitcoin wallet zou Salvadorianen Jaarlijks $400 miljoen aan overschrijvingskosten kunnen besparen",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ny"
 	},
 	"home_nav_learn": "Phunzirani",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Mavuto a coding",
 	"home_card_label_networks_1": "Onani netiweki yamoyo",
 	"home_card_label_networks_2": "Tiyerekezere",
+	"home_card_label_networks_3": "Gaidi ya node ya Bitcoin",
 	"home_card_label_payments_1": "Kodi kusiyana ndi chiyani?",
 	"home_card_label_payments_2": "Malipiro ofulumira & otsika mtengo",
 	"home_card_label_payments_3": "Kutumiza ndalama",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Pangani mapulogalamu kudutsa zinsinsi za Bitcoin",
 	"home_link_title_networks_1": "Maonekedwe amoyo a netiweki ya Bitcoin",
 	"home_link_title_networks_2": "Bitcoin ndi Mabanki",
+	"home_link_title_networks_3": "Lowani mu netiweki ya Bitcoin poyendetsa node",
 	"home_link_title_payments_1": "Bitcoin ndi Visa",
 	"home_link_title_payments_2": "Kuyang'ana Lightning Network (Malipiro a Bitcoin Apomwepo)",
 	"home_link_title_payments_3": "Chikwama cha Bitcoin cha El Salvador chingapulumutse Asalvadori $400M pachaka pa malipiro otumiza",

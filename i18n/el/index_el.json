@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "el"
 	},
 	"home_nav_learn": "Μάθετε",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Προκλήσεις προγραμματισμού",
 	"home_card_label_networks_1": "Ζωντανή προβολή δικτύου",
 	"home_card_label_networks_2": "Ας συγκρίνουμε",
+	"home_card_label_networks_3": "Οδηγός κόμβου Bitcoin",
 	"home_card_label_payments_1": "Ποια η διαφορά;",
 	"home_card_label_payments_2": "Γρήγορες και φθηνές πληρωμές",
 	"home_card_label_payments_3": "Μεταφορές στο εξωτερικό",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Προγραμματίστε το δρόμο σας μέσα από τα μυστήρια του Bitcoin",
 	"home_link_title_networks_1": "Ζωντανή προβολή του δικτύου Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs τράπεζες",
+	"home_link_title_networks_3": "Συμμετέχετε στο δίκτυο Bitcoin τρέχοντας έναν κόμβο",
 	"home_link_title_payments_1": "Bitcoin εν. Visa",
 	"home_link_title_payments_2": "Επισκόπηση του Lightning Network (άμεσες πληρωμές Bitcoin)",
 	"home_link_title_payments_3": "Το πορτοφόλι Bitcoin του Ελ Σαλβαδόρ μπορεί να εξοικονομήσει 400 εκατ. $ ετησίως",

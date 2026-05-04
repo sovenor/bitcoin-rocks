@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ko"
 	},
 	"home_nav_learn": "배우기",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "코딩 퍼즐",
 	"home_card_label_networks_1": "네트워크 실시간 보기",
 	"home_card_label_networks_2": "비교해 봅시다",
+	"home_card_label_networks_3": "Bitcoin 노드 가이드",
 	"home_card_label_payments_1": "차이점은 무엇인가?",
 	"home_card_label_payments_2": "빠르고 저렴한 결제",
 	"home_card_label_payments_3": "송금",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "코딩으로 비트코인의 미스터리를 풀어보세요",
 	"home_link_title_networks_1": "비트코인 네트워크 실시간 보기",
 	"home_link_title_networks_2": "비트코인 vs 은행",
+	"home_link_title_networks_3": "노드를 운영하여 Bitcoin 네트워크에 참여하세요",
 	"home_link_title_payments_1": "비트코인 vs Visa",
 	"home_link_title_payments_2": "라이트닝 네트워크 살펴보기 (즉시 비트코인 결제)",
 	"home_link_title_payments_3": "엘살바도르의 비트코인 지갑이 송금 수수료에서 연간 4억 달러를 절약할 수 있습니다",

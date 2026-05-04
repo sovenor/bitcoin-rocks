@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "az"
 	},
 	"home_nav_learn": "Öyrən",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Kodlaşdırma tapmacaları",
 	"home_card_label_networks_1": "Canlı şəbəkə nümayişi",
 	"home_card_label_networks_2": "Gəlin müqayisə edək",
+	"home_card_label_networks_3": "Bitcoin node bələdçisi",
 	"home_card_label_payments_1": "Fərq nədir?",
 	"home_card_label_payments_2": "Sürətli və ucuz ödənişlər",
 	"home_card_label_payments_3": "Pul köçürmələri",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin-in sirlərini kodlaşdıraraq keçin",
 	"home_link_title_networks_1": "Bitcoin şəbəkəsinin canlı görünüşü",
 	"home_link_title_networks_2": "Bitcoin vs Banklar",
+	"home_link_title_networks_3": "Node işlədərək Bitcoin şəbəkəsinə qoşulun",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Lightning Şəbəkəsinə Baxış (Ani Bitcoin Ödənişləri)",
 	"home_link_title_payments_3": "El Salvadorun Bitcoin pul kisəsi salvadorlulara ildə 400 milyon dollar remittans komissiyasına qənaət edə bilər",

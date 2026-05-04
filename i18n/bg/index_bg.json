@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "bg"
 	},
 	"home_nav_learn": "Научете",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Пъзели за кодиране",
 	"home_card_label_networks_1": "Преглед на мрежата на живо",
 	"home_card_label_networks_2": "Нека сравним",
+	"home_card_label_networks_3": "Ръководство за Bitcoin възел",
 	"home_card_label_payments_1": "Каква е разликата?",
 	"home_card_label_payments_2": "Бързи и евтини плащания",
 	"home_card_label_payments_3": "Парични преводи",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Кодирайте си пътя през мистериите на Биткойн",
 	"home_link_title_networks_1": "Преглед на живо на мрежата на Биткойн",
 	"home_link_title_networks_2": "Биткойн срещу банки",
+	"home_link_title_networks_3": "Присъединете се към Bitcoin мрежата, като пуснете възел",
 	"home_link_title_payments_1": "Биткойн срещу Visa",
 	"home_link_title_payments_2": "Поглед към Lightning Network (моментални Биткойн плащания)",
 	"home_link_title_payments_3": "Биткойн портфейлът на Ел Салвадор може да спести на салвадорците 400 милиона долара годишно от такси за парични преводи",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "es"
 	},
 	"home_nav_learn": "Aprende",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Retos de programación",
 	"home_card_label_networks_1": "Visualización en vivo de la red",
 	"home_card_label_networks_2": "Comparemos",
+	"home_card_label_networks_3": "Guía del nodo Bitcoin",
 	"home_card_label_payments_1": "¿Cuál es la diferencia?",
 	"home_card_label_payments_2": "Pagos rápidos y baratos",
 	"home_card_label_payments_3": "Remesas al extranjero",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programa tu camino a través de los misterios de Bitcoin",
 	"home_link_title_networks_1": "Una vista en vivo de la red Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bancos",
+	"home_link_title_networks_3": "Únete a la red Bitcoin ejecutando un nodo",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Un vistazo a la red Lightning (pagos instantáneos con Bitcoin)",
 	"home_link_title_payments_3": "El monedero Bitcoin de El Salvador podría ahorrar a los salvadoreños 400M$ anuales en comisiones por remesas",
