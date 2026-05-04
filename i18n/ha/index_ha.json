@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ha"
 	},
 	"home_nav_learn": "Koyi",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Ƙalubalen shirye-shirye",
 	"home_card_label_networks_1": "Nuni na hanyar sadarwa kai tsaye",
 	"home_card_label_networks_2": "Mu yi kwatance",
+	"home_card_label_networks_3": "Jagorar node na Bitcoin",
 	"home_card_label_payments_1": "Menene bambancin?",
 	"home_card_label_payments_2": "Biyan kuɗi mai sauri da arha",
 	"home_card_label_payments_3": "Tura kuɗi zuwa ƙetare",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Yi shirye-shirye ta cikin asirin Bitcoin",
 	"home_link_title_networks_1": "Kallon kai tsaye na cibiyar sadarwar Bitcoin",
 	"home_link_title_networks_2": "Bitcoin da Bankuna",
+	"home_link_title_networks_3": "Shiga cibiyar sadarwar Bitcoin ta hanyar gudanar da node",
 	"home_link_title_payments_1": "Bitcoin da Visa",
 	"home_link_title_payments_2": "Kallon Lightning Network (Biyan Kuɗi na Bitcoin nan take)",
 	"home_link_title_payments_3": "Wallet ɗin Bitcoin na El Salvador na iya adana wa Salvadorans $400M a shekara a kuɗin aika kuɗi",

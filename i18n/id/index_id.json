@@ -3,7 +3,7 @@
 		"authors": [
 			"Abeng"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "id"
 	},
 	"home_nav_learn": "Belajar",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Teka-teki coding",
 	"home_card_label_networks_1": "Tampilan jaringan langsung",
 	"home_card_label_networks_2": "Mari kita bandingkan",
+	"home_card_label_networks_3": "Panduan node Bitcoin",
 	"home_card_label_payments_1": "Apa bedanya?",
 	"home_card_label_payments_2": "Pembayaran cepat & murah",
 	"home_card_label_payments_3": "Remitansi",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Kode jalan Anda melalui misteri Bitcoin",
 	"home_link_title_networks_1": "Tampilan langsung jaringan Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bank",
+	"home_link_title_networks_3": "Bergabunglah dengan jaringan Bitcoin dengan menjalankan node",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Sekilas tentang Jaringan Lightning (Pembayaran Bitcoin Instan)",
 	"home_link_title_payments_3": "Dompet Bitcoin El Salvador bisa menghemat $400 juta per tahun bagi warga Salvador dalam biaya pengiriman uang",

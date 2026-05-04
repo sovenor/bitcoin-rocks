@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "pl"
 	},
 	"home_nav_learn": "Ucz się",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Zadania programistyczne",
 	"home_card_label_networks_1": "Sieć na żywo",
 	"home_card_label_networks_2": "Porównajmy",
+	"home_card_label_networks_3": "Przewodnik po węźle Bitcoin",
 	"home_card_label_payments_1": "Jaka jest różnica?",
 	"home_card_label_payments_2": "Szybkie i tanie płatności",
 	"home_card_label_payments_3": "Przekazy zagraniczne",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Koduj swoją drogę przez tajemnice Bitcoina",
 	"home_link_title_networks_1": "Podgląd sieci Bitcoin na żywo",
 	"home_link_title_networks_2": "Bitcoin vs Banki",
+	"home_link_title_networks_3": "Dołącz do sieci Bitcoin, uruchamiając węzeł",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Przegląd Lightning Network (natychmiastowe płatności Bitcoin)",
 	"home_link_title_payments_3": "Portfel Bitcoin Salwadoru może zaoszczędzić Salwadorczykom 400 mln $ rocznie na opłatach za przelewy",

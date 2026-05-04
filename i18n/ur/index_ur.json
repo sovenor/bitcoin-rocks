@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ur"
 	},
 	"home_nav_learn": "سیکھیں",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "کوڈنگ پہیلیاں",
 	"home_card_label_networks_1": "براہِ راست نیٹ ورک منظر",
 	"home_card_label_networks_2": "آئیے موازنہ کریں",
+	"home_card_label_networks_3": "Bitcoin نوڈ گائیڈ",
 	"home_card_label_payments_1": "فرق کیا ہے؟",
 	"home_card_label_payments_2": "تیز اور سستی ادائیگیاں",
 	"home_card_label_payments_3": "ترسیلات",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin کے رازوں کو کوڈنگ کے ذریعے سمجھیں",
 	"home_link_title_networks_1": "Bitcoin نیٹورک کا لائو نظارہ",
 	"home_link_title_networks_2": "Bitcoin بنام بینک",
+	"home_link_title_networks_3": "نوڈ چلا کر Bitcoin نیٹورک میں شامل ہوں",
 	"home_link_title_payments_1": "Bitcoin بنام Visa",
 	"home_link_title_payments_2": "Lightning نیٹورک (فوری Bitcoin ادائیگیاں) پر ایک نظر",
 	"home_link_title_payments_3": "ال سلواڈور کا Bitcoin والٹ ریمٹنس فیسوں میں $400M سالانہ بچا سکتا ہے",

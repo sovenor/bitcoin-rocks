@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "hr"
 	},
 	"home_nav_learn": "Naučite",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programerske zagonetke",
 	"home_card_label_networks_1": "Pregled mreže uživo",
 	"home_card_label_networks_2": "Usporedimo",
+	"home_card_label_networks_3": "Vodič za Bitcoin čvor",
 	"home_card_label_payments_1": "Koja je razlika?",
 	"home_card_label_payments_2": "Brza i jeftina plaćanja",
 	"home_card_label_payments_3": "Doznake",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programirajte se kroz misterije Bitcoina",
 	"home_link_title_networks_1": "Pogled uživo na Bitcoin mrežu",
 	"home_link_title_networks_2": "Bitcoin vs Banke",
+	"home_link_title_networks_3": "Pridružite se Bitcoin mreži pokretanjem čvora",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Pogled na Lightning Network (Trenutačna Bitcoin plaćanja)",
 	"home_link_title_payments_3": "Bitcoin novčanik El Salvadora mogao bi uštedjeti Salvadorcima 400 milijuna dolara godišnje na naknadama za doznake",

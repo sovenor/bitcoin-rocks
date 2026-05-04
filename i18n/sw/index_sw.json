@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "sw"
 	},
 	"home_nav_learn": "Jifunze",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Mafumbo ya msimbo",
 	"home_card_label_networks_1": "Mwonekano wa mtandao moja kwa moja",
 	"home_card_label_networks_2": "Hebu tulinganishe",
+	"home_card_label_networks_3": "Mwongozo wa nodi ya Bitcoin",
 	"home_card_label_payments_1": "Tofauti ni nini?",
 	"home_card_label_payments_2": "Malipo ya haraka na ya bei nafuu",
 	"home_card_label_payments_3": "Tuma fedha nyumbani",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Andika msimbo unaopita katika mafumbo ya Bitcoin",
 	"home_link_title_networks_1": "Mwonekano wa moja kwa moja wa mtandao wa Bitcoin",
 	"home_link_title_networks_2": "Bitcoin dhidi ya Benki: ulinganisho",
+	"home_link_title_networks_3": "Jiunge na mtandao wa Bitcoin kwa kuendesha nodi",
 	"home_link_title_payments_1": "Bitcoin dhidi ya Visa: ulinganisho",
 	"home_link_title_payments_2": "Mtazamo wa Lightning Network (malipo ya papo hapo ya Bitcoin)",
 	"home_link_title_payments_3": "Pochi ya Bitcoin ya El Salvador inaweza kuokoa Wasalvado $400M kila mwaka katika ada za kutuma fedha nyumbani",

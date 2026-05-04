@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "hu"
 	},
 	"home_nav_learn": "Tanulj",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programozási rejtvények",
 	"home_card_label_networks_1": "Hálózat élő áttekintés",
 	"home_card_label_networks_2": "Hasonlítsuk össze",
+	"home_card_label_networks_3": "Bitcoin csomópont útmutató",
 	"home_card_label_payments_1": "Mi a különbség?",
 	"home_card_label_payments_2": "Gyors és olcsó fizetések",
 	"home_card_label_payments_3": "Pénzátutalások",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Kódolj végig a Bitcoin rejtelmein",
 	"home_link_title_networks_1": "Élő nézet a Bitcoin hálózatról",
 	"home_link_title_networks_2": "Bitcoin vs bankok",
+	"home_link_title_networks_3": "Csatlakozz a Bitcoin hálózathoz egy csomópont futtatásával",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Pillantás a Lightning hálózatra (azonnali Bitcoin fizetések)",
 	"home_link_title_payments_3": "El Salvador Bitcoin tárcája évente 400 millió dollárt takaríthat meg a salvadoriaknak átutalási díjakból",

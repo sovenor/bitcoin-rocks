@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "hi"
 	},
 	"home_nav_learn": "सीखें",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "कोडिंग पहेलियाँ",
 	"home_card_label_networks_1": "नेटवर्क का लाइव दृश्य",
 	"home_card_label_networks_2": "तुलना करें",
+	"home_card_label_networks_3": "Bitcoin नोड गाइड",
 	"home_card_label_payments_1": "क्या फ़र्क है?",
 	"home_card_label_payments_2": "तेज़ और सस्ते भुगतान",
 	"home_card_label_payments_3": "रेमिटेंस",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "कोड करते हुए Bitcoin के रहस्य जानें",
 	"home_link_title_networks_1": "Bitcoin नेटवर्क का लाइव दृश्य",
 	"home_link_title_networks_2": "Bitcoin vs बैंक",
+	"home_link_title_networks_3": "नोड चलाकर Bitcoin नेटवर्क में शामिल हों",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "लाइटनिंग नेटवर्क पर एक नज़र (तत्काल Bitcoin भुगतान)",
 	"home_link_title_payments_3": "एल साल्वाडोर का Bitcoin वॉलेट साल्वाडोर वासियों को सालाना $400M रेमिटेंस शुल्क बचा सकता है",

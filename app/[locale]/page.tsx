@@ -672,6 +672,12 @@ export default async function LocaleHome({
 						title={t("home_link_title_networks_2")}
 						authorKey="home_link_author_bitcoin_rocks"
 					/>
+					<WhatsNextCard
+						href={`${l}/bitcoin-node-guide`}
+						label={t("home_card_label_networks_3")}
+						title={t("home_link_title_networks_3")}
+						authorKey="home_link_author_bitcoin_rocks"
+					/>
 				</CategorySection>
 
 				{/* ═══ PAYMENTS ═══ */}

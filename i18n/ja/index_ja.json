@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ja"
 	},
 	"home_nav_learn": "学ぶ",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "コーディング・パズル",
 	"home_card_label_networks_1": "ネットワークのライブビュー",
 	"home_card_label_networks_2": "比較してみよう",
+	"home_card_label_networks_3": "Bitcoinノードガイド",
 	"home_card_label_payments_1": "違いは何か？",
 	"home_card_label_payments_2": "速くて安い決済",
 	"home_card_label_payments_3": "送金",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "ビットコインの謎をコードで解き明かそう",
 	"home_link_title_networks_1": "ビットコインネットワークのライブビュー",
 	"home_link_title_networks_2": "ビットコイン vs 銀行",
+	"home_link_title_networks_3": "ノードを運用してBitcoinネットワークに参加しよう",
 	"home_link_title_payments_1": "ビットコイン vs Visa",
 	"home_link_title_payments_2": "ライトニングネットワーク（即時ビットコイン決済）を見てみよう",
 	"home_link_title_payments_3": "エルサルバドルのビットコインウォレットで送金手数料を年間4億ドル節約可能",

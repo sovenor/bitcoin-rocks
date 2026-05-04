@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "sl"
 	},
 	"home_nav_learn": "Učite se",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programerski izzivi",
 	"home_card_label_networks_1": "Pogled na omrežje v živo",
 	"home_card_label_networks_2": "Primerjajmo",
+	"home_card_label_networks_3": "Vodnik po Bitcoin vozliščih",
 	"home_card_label_payments_1": "V čem je razlika?",
 	"home_card_label_payments_2": "Hitra in poceni plačila",
 	"home_card_label_payments_3": "Tuje nakazila",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programirajte si pot skozi skrivnosti Bitcoina",
 	"home_link_title_networks_1": "Živ pogled na omrežje Bitcoin",
 	"home_link_title_networks_2": "Bitcoin proti bankam",
+	"home_link_title_networks_3": "Pridružite se omrežju Bitcoin z zagonom vozlišča",
 	"home_link_title_payments_1": "Bitcoin proti Visi",
 	"home_link_title_payments_2": "Pogled na Lightning Network (takojšnja bitcoinova plačila)",
 	"home_link_title_payments_3": "Bitcoinova denarnica El Salvadorja bi lahko Salvadorcem prihranila 400 milijonov dolarjev letno pri nakazilih",

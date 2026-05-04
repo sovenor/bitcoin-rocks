@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "tr"
 	},
 	"home_nav_learn": "Öğren",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Kodlama bulmacaları",
 	"home_card_label_networks_1": "Canlı ağ görünümü",
 	"home_card_label_networks_2": "Karşılaştıralım",
+	"home_card_label_networks_3": "Bitcoin düğüm rehberi",
 	"home_card_label_payments_1": "Fark ne?",
 	"home_card_label_payments_2": "Hızlı ve ucuz ödemeler",
 	"home_card_label_payments_3": "Havaleler",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin'in gizemlerine kod yazarak yolculuk edin",
 	"home_link_title_networks_1": "Bitcoin ağına canlı bakış",
 	"home_link_title_networks_2": "Bitcoin ve Bankalar",
+	"home_link_title_networks_3": "Bir düğüm çalıştırarak Bitcoin ağına katılın",
 	"home_link_title_payments_1": "Bitcoin ve Visa",
 	"home_link_title_payments_2": "Lightning Network'e bakış (anlık Bitcoin ödemeleri)",
 	"home_link_title_payments_3": "El Salvador'un Bitcoin cüzdanı, Salvadorlulara havale ücretlerinde yılda 400 milyon dolar tasarruf ettirebilir",

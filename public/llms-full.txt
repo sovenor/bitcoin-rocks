@@ -478,6 +478,57 @@ Custodial wallets are wallets where you are not in control of your money. Some p
 
 ---
 
+## How to Run a Bitcoin Node
+
+Source: https://bitcoin.rocks/bitcoin-node-guide
+
+A Bitcoin node is a computer that downloads the entire Bitcoin blockchain and independently verifies every transaction against the network rules. Anyone can run one. The hardware can be as simple as an old laptop or as turn-key as a pre-built device that arrives ready to plug in.
+
+### Why run a Bitcoin node?
+
+When you run a node, you stop trusting anyone else's view of the blockchain. You verify your own balance, your own transactions, and the 21 million supply cap directly from the source. It also gives you privacy — your wallet can query your own node instead of leaking your addresses to a third-party server. And every additional node makes the Bitcoin network harder to censor or attack.
+
+### What hardware do I need?
+
+A Bitcoin node is not demanding. The minimum recipe is a computer that can stay on, an internet connection, and roughly 700 GB of free disk space (the blockchain is ~620 GB and growing slowly). Common setups, from cheapest to easiest:
+
+- An old laptop or desktop you already own running Bitcoin Core (free)
+- A Raspberry Pi 5 with an external SSD running Bitcoin Core or RaspiBlitz — under $200 all-in
+- A small mini PC for better performance and storage
+- A pre-built node from a vendor like Umbrel, Start9, or Nodl that ships ready to plug in
+
+If disk space is tight, Bitcoin Core supports a **pruned mode** that throws away old block data after verification. A pruned node still validates everything but only needs ~10 GB of disk.
+
+### Do I need to keep it online 24/7?
+
+No, but uptime matters. A node that's been offline has to catch up on all the new blocks before you can use it again. A node that's always online also helps relay blocks and transactions to other nodes around the world, supporting network health.
+
+### Can my node also run Lightning?
+
+Yes. Most node software (Umbrel, Start9, myNode, Nodl) can run a Lightning node on top of your base-layer Bitcoin node, using your own validated blockchain as its source of truth. Lightning is a separate network for fast, cheap Bitcoin payments. Running your own Lightning node gives you the same self-sovereignty for payments that a Bitcoin node gives you for savings — but it's more work to maintain (channels, liquidity, backups). If you're new to nodes, start with a base-layer Bitcoin node first, then add Lightning later.
+
+### Popular Bitcoin node options
+
+- **Bitcoin Core** — Free official Bitcoin software. Runs on Windows, Mac, or Linux. Reuse hardware you already own. Pruned mode supported. *Cost: free.*
+- **myNode** — Web dashboard with one-click apps, Lightning + BTCPay built in. Runs on Pi or generic PC. Free community edition or paid premium. *Cost: free or premium subscription.*
+- **Start9 StartOS** — Privacy-focused operating system with a sovereign-computing app marketplace. Install on your own mini PC. Open-source. *Cost: free software, mini PC ~$200+.*
+- **Start9 Server One** — Pre-built node, plug in and go. Ships with StartOS pre-installed. Lightning-ready. *Cost: $849 — premium pre-built.*
+- **Umbrel Home** — Pre-built node from the Umbrel team, plug in and go. Friendly web UI with one-click apps, app store with Lightning and BTCPay. *Cost: $599 — premium pre-built.*
+- **Umbrel Pro** — Higher-horsepower pre-built node from the Umbrel team. Same UI and app store as Umbrel Home, more storage and performance. *Cost: $699 — premium pre-built.*
+- **Nodl** — Pre-built premium node, ships ready to plug in, Lightning included, 100% open-source, privacy-focused, made in Switzerland. *Cost: from €599 — premium pre-built.*
+
+### Sources
+
+- [bitcoincore.org](https://bitcoincore.org/en/download/) — official Bitcoin Core software
+- [bitcoin.org full node guide](https://bitcoin.org/en/full-node)
+- [umbrel.com](https://umbrel.com/) — Umbrel Home and Umbrel Pro pre-built nodes
+- [start9.com](https://start9.com/) — StartOS and Server One
+- [mynodebtc.com](https://mynodebtc.com/) — myNode dashboard
+- [nodl.it](https://www.nodl.it/) — pre-built Bitcoin and Lightning nodes
+- [Jameson Lopp — full node info](https://www.lopp.net/bitcoin-information/full-node.html)
+
+---
+
 ## Compound Inflation Calculator
 
 Source: https://bitcoin.rocks/compound-inflation-calculator

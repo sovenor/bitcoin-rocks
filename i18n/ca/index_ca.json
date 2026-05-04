@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ca"
 	},
 	"home_nav_learn": "Aprèn",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Trencaclosques de programació",
 	"home_card_label_networks_1": "Visió general en directe de la xarxa",
 	"home_card_label_networks_2": "Comparem",
+	"home_card_label_networks_3": "Guia de nodes de Bitcoin",
 	"home_card_label_payments_1": "Quina és la diferència?",
 	"home_card_label_payments_2": "Pagaments ràpids i barats",
 	"home_card_label_payments_3": "Remeses",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programa el teu camí a través dels misteris de Bitcoin",
 	"home_link_title_networks_1": "Una vista en directe de la xarxa Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bancs",
+	"home_link_title_networks_3": "Uneix-te a la xarxa Bitcoin executant un node",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Una mirada a la Xarxa Lightning (Pagaments instantanis amb Bitcoin)",
 	"home_link_title_payments_3": "La cartera Bitcoin d'El Salvador podria estalviar als salvadorencs 400 milions de dòlars anualment en comissions de remeses",

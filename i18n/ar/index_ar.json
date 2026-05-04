@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ar"
 	},
 	"home_nav_learn": "تعلّم",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "ألغاز برمجة",
 	"home_card_label_networks_1": "عرض الشبكة المباشر",
 	"home_card_label_networks_2": "لنقارن",
+	"home_card_label_networks_3": "دليل عقدة البيتكوين",
 	"home_card_label_payments_1": "ما الفرق؟",
 	"home_card_label_payments_2": "مدفوعات سريعة ورخيصة",
 	"home_card_label_payments_3": "التحويلات المالية",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "ابرمج طريقك عبر أسرار البيتكوين",
 	"home_link_title_networks_1": "عرض حي لشبكة البيتكوين",
 	"home_link_title_networks_2": "البيتكوين مقابل البنوك",
+	"home_link_title_networks_3": "انضم إلى شبكة البيتكوين عبر تشغيل عقدة",
 	"home_link_title_payments_1": "البيتكوين مقابل فيزا",
 	"home_link_title_payments_2": "نظرة على شبكة Lightning (مدفوعات بيتكوين فورية)",
 	"home_link_title_payments_3": "محفظة Bitcoin في السلفادور يمكن أن توفر للسلفادوريين 400 مليون دولار سنوياً في رسوم التحويلات",

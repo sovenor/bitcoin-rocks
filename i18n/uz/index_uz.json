@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "uz"
 	},
 	"home_nav_learn": "Oʻrganing",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Kod boshqotirmalari",
 	"home_card_label_networks_1": "Tarmoqning jonli koʻrinishi",
 	"home_card_label_networks_2": "Solishtiraylik",
+	"home_card_label_networks_3": "Bitcoin tugun yoʻriqnomasi",
 	"home_card_label_payments_1": "Farqi nimada?",
 	"home_card_label_payments_2": "Tez va arzon toʻlovlar",
 	"home_card_label_payments_3": "Pul oʻtkazmalari",
@@ -123,7 +124,7 @@
 	"home_link_title_environment_4": "Bitcoin qazib olish tabiiy gaz yondirilishi atmosferani ifloslantirishiga yoʻl qoʻymaydi",
 	"home_link_title_food_1": "Inflyatsiya oziq-ovqat narxlariga qanday taʼsir qiladi",
 	"home_link_title_food_2": "Fiat pul oziq-ovqat, fermalar va Yerning tuproqiga qanday zarar yetkazmoqda",
-	"home_link_title_fine_art": "Bitcoin va Nozik sanʻat",
+	"home_link_title_fine_art": "Bitcoin va Nozik sanʼat",
 	"home_link_title_art_1": "Bitcoin stiker tashabbusimizga qoʻshiling",
 	"home_link_title_art_3": "Bitcoin varaqalarini chop eting va yopishtiring",
 	"home_link_title_politics_1": "Bitcoin siyosiy paradoks",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Kod yozish orqali Bitcoinning sirlariga sayohat",
 	"home_link_title_networks_1": "Bitcoin tarmogʻiga jonli nazar",
 	"home_link_title_networks_2": "Bitcoin va Banklar",
+	"home_link_title_networks_3": "Tugun ishga tushirib, Bitcoin tarmogʻiga qoʻshiling",
 	"home_link_title_payments_1": "Bitcoin va Visa",
 	"home_link_title_payments_2": "Lightning Network-ga nazar (bir zumda Bitcoin toʻlovlari)",
 	"home_link_title_payments_3": "El Salvadorning Bitcoin hamyoni salvadorliklarga remittens toʻlovlarida yiliga 400 million dollar tejash imkonini berishi mumkin",

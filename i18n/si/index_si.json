@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "si"
 	},
 	"home_nav_learn": "ඉගෙන ගන්න",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "කේත ප්‍රහේලිකා",
 	"home_card_label_networks_1": "සජීවී ජාල දළ විශ්ලේෂණය",
 	"home_card_label_networks_2": "අපි සංසන්දනය කරමු",
+	"home_card_label_networks_3": "Bitcoin නෝඩ් මාර්ගෝපදේශය",
 	"home_card_label_payments_1": "වෙනස කුමක්ද?",
 	"home_card_label_payments_2": "වේගවත් සහ ලාභදායී ගෙවීම්",
 	"home_card_label_payments_3": "මුදල් ආපසු යැවීම්",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin හි අභිරහස් හරහා ඔබේ මාර්ගය කේතනය කරන්න",
 	"home_link_title_networks_1": "Bitcoin ජාලයේ සජීවී දසුනක්",
 	"home_link_title_networks_2": "Bitcoin එදිරිව බැංකු",
+	"home_link_title_networks_3": "නෝඩයක් ක්‍රියාත්මක කිරීමෙන් Bitcoin ජාලයට එක්වන්න",
 	"home_link_title_payments_1": "Bitcoin එදිරිව Visa",
 	"home_link_title_payments_2": "Lightning Network (ක්ෂණික Bitcoin ගෙවීම්) දෙස බැල්මක්",
 	"home_link_title_payments_3": "එල් සැල්වඩෝරයේ Bitcoin පසුම්බිය ප්‍රේෂණ ගාස්තු වලින් සැල්වඩෝරිකයන්ට වසරකට $400M ඉතිරි කළ හැකිය",

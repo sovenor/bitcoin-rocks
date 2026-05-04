@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ta"
 	},
 	"home_nav_learn": "கற்றுக்கொள்ளுங்கள்",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "குறியீட்டுப் புதிர்கள்",
 	"home_card_label_networks_1": "நேரடி நெட்வொர்க் காட்சி",
 	"home_card_label_networks_2": "ஒப்பிடுவோம்",
+	"home_card_label_networks_3": "Bitcoin நோடு வழிகாட்டி",
 	"home_card_label_payments_1": "என்ன வித்தியாசம்?",
 	"home_card_label_payments_2": "வேகமான & மலிவான கொடுப்பனவுகள்",
 	"home_card_label_payments_3": "பணப் பரிமாற்றங்கள்",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "பிட்காயினின் மர்மங்கள் வழியாக குறியாக்கம் செய்யுங்கள்",
 	"home_link_title_networks_1": "பிட்காயின் நெட்வொர்க்கின் நேரடிக் காட்சி",
 	"home_link_title_networks_2": "பிட்காயின் எதிர் வங்கிகள்",
+	"home_link_title_networks_3": "ஒரு நோடை இயக்கி Bitcoin நெட்வொர்க்கில் இணையுங்கள்",
 	"home_link_title_payments_1": "பிட்காயின் எதிர் Visa",
 	"home_link_title_payments_2": "லைட்னிங் நெட்வொர்க் பற்றிய ஒரு பார்வை (உடனடி பிட்காயின் கட்டணங்கள்)",
 	"home_link_title_payments_3": "எல் சால்வடோரின் பிட்காயின் வாலெட் சால்வடோரியர்களுக்கு ஆண்டுதோறும் $400M பணப்பரிமாற்ற கட்டணங்களை சேமிக்க முடியும்",

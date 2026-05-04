@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "zh"
 	},
 	"home_nav_learn": "学习",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "编程谜题",
 	"home_card_label_networks_1": "实时网络视图",
 	"home_card_label_networks_2": "我们来比较一下",
+	"home_card_label_networks_3": "Bitcoin 节点指南",
 	"home_card_label_payments_1": "区别是什么？",
 	"home_card_label_payments_2": "快速便宜的支付",
 	"home_card_label_payments_3": "跨境汇款",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "通过编程了解比特币的秘密",
 	"home_link_title_networks_1": "实时观察比特币网络",
 	"home_link_title_networks_2": "比特币 vs 银行",
+	"home_link_title_networks_3": "通过运行节点加入 Bitcoin 网络",
 	"home_link_title_payments_1": "比特币 vs Visa",
 	"home_link_title_payments_2": "深入了解闪电网络（即时比特币支付）",
 	"home_link_title_payments_3": "萨尔瓦多的比特币钱包每年可为萨尔瓦多人节省4亿美元的汇款费用",

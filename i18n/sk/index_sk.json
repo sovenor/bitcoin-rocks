@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "sk"
 	},
 	"home_nav_learn": "Vzdelávať sa",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programátorské úlohy",
 	"home_card_label_networks_1": "Živý pohľad na sieť",
 	"home_card_label_networks_2": "Porovnajme",
+	"home_card_label_networks_3": "Sprievodca Bitcoin uzlom",
 	"home_card_label_payments_1": "V čom je rozdiel?",
 	"home_card_label_payments_2": "Rýchle a lacné platby",
 	"home_card_label_payments_3": "Zahraničné prevody",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programujte si cestu tajomstvami Bitcoinu",
 	"home_link_title_networks_1": "Živý pohľad na Bitcoinovú sieť",
 	"home_link_title_networks_2": "Bitcoin vs Banky",
+	"home_link_title_networks_3": "Pripojte sa k Bitcoinovej sieti spustením uzla",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Pohľad na Lightning Network (okamžité bitcoinové platby)",
 	"home_link_title_payments_3": "Bitcoinová peňaženka El Salvadoru by mohla ušetriť Salvádorčanom 400 miliónov dolárov ročne na remitenciách",

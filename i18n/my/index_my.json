@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "my"
 	},
 	"home_nav_learn": "လေ့လာပါ",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "ပရိုဂရမ်မင်း ပဟေဠိများ",
 	"home_card_label_networks_1": "တိုက်ရိုက် ကွန်ရက် မြင်ကွင်း",
 	"home_card_label_networks_2": "နှိုင်းယှဉ်ကြည့်ကြရအောင်",
+	"home_card_label_networks_3": "Bitcoin node လမ်းညွှန်",
 	"home_card_label_payments_1": "ဘာကွာသနည်း?",
 	"home_card_label_payments_2": "မြန်ဆန်ပြီး သက်သာသော ငွေပေးချေမှု",
 	"home_card_label_payments_3": "ငွေလွှဲခြင်းများ",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bitcoin ၏ လျှို့ဝှက်ချက်များကို ကုဒ်ရေးပြီး ရှာဖွေပါ",
 	"home_link_title_networks_1": "Bitcoin ကွန်ရက်၏ တိုက်ရိုက်မြင်ကွင်း",
 	"home_link_title_networks_2": "Bitcoin နှင့် ဘဏ်များ",
+	"home_link_title_networks_3": "node တစ်ခု လည်ပတ်ပြီး Bitcoin ကွန်ရက်တွင် ပါဝင်ပါ",
 	"home_link_title_payments_1": "Bitcoin နှင့် Visa",
 	"home_link_title_payments_2": "Lightning Network ကို ကြည့်ခြင်း (ချက်ချင်း Bitcoin ငွေပေးချေမှု)",
 	"home_link_title_payments_3": "အယ်လ်ဆာလ်ဗာဒို၏ Bitcoin ပိုက်ဆံအိတ်သည် ဆာလ်ဗာဒိုနိုင်ငံသားများ နှစ်စဉ် ငွေလွှဲခ $၄၀၀M ချွေတာနိုင်",

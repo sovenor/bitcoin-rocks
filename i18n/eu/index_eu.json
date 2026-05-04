@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "eu"
 	},
 	"home_nav_learn": "Ikasi",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Programazio-erronkak",
 	"home_card_label_networks_1": "Sarearen denbora errealeko ikuspegia",
 	"home_card_label_networks_2": "Alderatu dezagun",
+	"home_card_label_networks_3": "Bitcoin nodoaren gida",
 	"home_card_label_payments_1": "Zein da aldea?",
 	"home_card_label_payments_2": "Ordainketa azkar eta merkeak",
 	"home_card_label_payments_3": "Atzerriko transferentziak",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programatu Bitcoin-en misterioak zeharkatuz",
 	"home_link_title_networks_1": "Bitcoin sarearen zuzeneko ikuspegia",
 	"home_link_title_networks_2": "Bitcoin vs Bankuak",
+	"home_link_title_networks_3": "Batu Bitcoin sarera nodo bat exekutatuz",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Lightning sarea begiratu bat (Berehala Bitcoin ordainketak)",
 	"home_link_title_payments_3": "El Salvadorreko Bitcoin zorroak urtero $400M aurreztu diezaieke Salvadortarrei transferentzia-komisoetan",

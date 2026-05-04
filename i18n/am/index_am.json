@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "am"
 	},
 	"home_nav_learn": "ይወቁ",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "የኮድ እንቆቅልሾች",
 	"home_card_label_networks_1": "የቀጥታ አውታረ መረብ እይታ",
 	"home_card_label_networks_2": "እንነፃፀር",
+	"home_card_label_networks_3": "የ Bitcoin ኖድ መመሪያ",
 	"home_card_label_payments_1": "ልዩነቱ ምንድን ነው?",
 	"home_card_label_payments_2": "ፈጣን እና ርካሽ ክፍያዎች",
 	"home_card_label_payments_3": "የውጭ ገንዘብ ሽግግር",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "በኮዲንግ የቢትኮይን ሚስጥሮችን ይፍቱ",
 	"home_link_title_networks_1": "የቢትኮይን ኔትወርክ በቀጥታ ይመልከቱ",
 	"home_link_title_networks_2": "ቢትኮይን vs ባንኮች",
+	"home_link_title_networks_3": "ኖድ በማስኬድ የ Bitcoin ኔትወርክን ይቀላቀሉ",
 	"home_link_title_payments_1": "ቢትኮይን vs Visa",
 	"home_link_title_payments_2": "ላይትኒንግ ኔትወርክ ይመልከቱ (ፈጣን ቢትኮይን ክፍያ)",
 	"home_link_title_payments_3": "የኤል ሳልቫዶር ቢትኮይን ቦርሳ በዓመት $400 ሚሊዮን የመላኪያ ክፍያ ቆጥቧል",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "sv"
 	},
 	"home_nav_learn": "Lär dig",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Kodningspussel",
 	"home_card_label_networks_1": "Livevy av nätverket",
 	"home_card_label_networks_2": "Låt oss jämföra",
+	"home_card_label_networks_3": "Guide till Bitcoin-nod",
 	"home_card_label_payments_1": "Vad är skillnaden?",
 	"home_card_label_payments_2": "Snabba och billiga betalningar",
 	"home_card_label_payments_3": "Remitteringar",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Programmera dig genom Bitcoins hemligheter",
 	"home_link_title_networks_1": "Livevy av Bitcoin-nätverket",
 	"home_link_title_networks_2": "Bitcoin vs Banker",
+	"home_link_title_networks_3": "Anslut dig till Bitcoin-nätverket genom att köra en nod",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "En titt på Lightning Network (omedelbara Bitcoin-betalningar)",
 	"home_link_title_payments_3": "El Salvadors Bitcoin-plånbok kan spara salvadoraner 400 miljoner dollar per år i remitteringar",

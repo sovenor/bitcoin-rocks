@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ga"
 	},
 	"home_nav_learn": "Foghlaim",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Dúshláin ríomhchlárúcháin",
 	"home_card_label_networks_1": "Léiriú líonra beo",
 	"home_card_label_networks_2": "Déanaimis comparáid",
+	"home_card_label_networks_3": "Treoir nód Bitcoin",
 	"home_card_label_payments_1": "Cad í an difríocht?",
 	"home_card_label_payments_2": "Íocaíochtaí tapa saor",
 	"home_card_label_payments_3": "Aistrithe thar lear",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Códáil do bhealach trí rúndiamhair Bitcoin",
 	"home_link_title_networks_1": "Radharc beo ar líonra Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bainc",
+	"home_link_title_networks_3": "Glac páirt i líonra Bitcoin trí nód a rith",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Féach ar an Líonra Lightning (Íocaíochtaí Bitcoin Láithreacha)",
 	"home_link_title_payments_3": "D'fhéadfadh sparán Bitcoin El Salvador $400M a shábháil do Salvadorians gach bliain ar tháillí seachadta",

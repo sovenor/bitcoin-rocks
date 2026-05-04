@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-05-03",
 		"locale": "ms"
 	},
 	"home_nav_learn": "Pelajari",
@@ -80,6 +80,7 @@
 	"home_card_label_coding_3": "Teka-teki pengaturcaraan",
 	"home_card_label_networks_1": "Pandangan rangkaian langsung",
 	"home_card_label_networks_2": "Mari kita bandingkan",
+	"home_card_label_networks_3": "Panduan nod Bitcoin",
 	"home_card_label_payments_1": "Apa bezanya?",
 	"home_card_label_payments_2": "Pembayaran cepat & murah",
 	"home_card_label_payments_3": "Kiriman wang",
@@ -136,6 +137,7 @@
 	"home_link_title_coding_3": "Bongkar misteri Bitcoin melalui kod",
 	"home_link_title_networks_1": "Pandangan langsung rangkaian Bitcoin",
 	"home_link_title_networks_2": "Bitcoin vs Bank",
+	"home_link_title_networks_3": "Sertai rangkaian Bitcoin dengan menjalankan nod",
 	"home_link_title_payments_1": "Bitcoin vs Visa",
 	"home_link_title_payments_2": "Lihat rangkaian Lightning (pembayaran Bitcoin serta-merta) beraksi",
 	"home_link_title_payments_3": "Dompet Bitcoin El Salvador boleh menjimatkan $400 juta setahun dalam yuran kiriman wang",
