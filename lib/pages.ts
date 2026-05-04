@@ -88,7 +88,7 @@ export const PAGES: readonly PageEntry[] = [
 	{ slug: "wallets", phase: 9, priority: 0.8, changeFrequency: "monthly", namespace: "wallets", published: true },
 	{ slug: "memorize-your-seed-phrase", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "memorize-your-seed-phrase", published: true },
 	{ slug: "lightning", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "lightning", published: true },
-	{ slug: "bitcoin-node", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "bitcoin-node", published: true },
+	{ slug: "bitcoin-node-guide", phase: 9, priority: 0.7, changeFrequency: "monthly", namespace: "bitcoin-node-guide", published: true },
 	{ slug: "flyers", phase: 9, priority: 0.5, changeFrequency: "yearly", namespace: "flyers", published: true },
 	{ slug: "compound-inflation-calculator", phase: 9, priority: 0.6, changeFrequency: "monthly", namespace: "compound-inflation-calculator", published: true },
 

@@ -480,7 +480,7 @@ Custodial wallets are wallets where you are not in control of your money. Some p
 
 ## How to Run a Bitcoin Node
 
-Source: https://bitcoin.rocks/bitcoin-node
+Source: https://bitcoin.rocks/bitcoin-node-guide
 
 A Bitcoin node is a computer that downloads the entire Bitcoin blockchain and independently verifies every transaction against the network rules. Anyone can run one. The hardware can be as simple as an old laptop or as turn-key as a pre-built device that arrives ready to plug in.
 

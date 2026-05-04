@@ -11,9 +11,9 @@ import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildAlternates } from "@/lib/schema/hreflang";
 import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
 
-const SLUG = "bitcoin-node";
-const NAMESPACE = "bitcoin-node";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bitcoin-node.png";
+const SLUG = "bitcoin-node-guide";
+const NAMESPACE = "bitcoin-node-guide";
+const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bitcoin-node-guide.png";
 
 export async function generateMetadata({
 	params,

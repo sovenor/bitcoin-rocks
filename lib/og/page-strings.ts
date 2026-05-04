@@ -58,8 +58,8 @@ export const OG_PAGE_STRINGS: Readonly<Record<string, OgPageStrings>> = {
 		namespace: "memorize-your-seed-phrase",
 		titleKey: "memorize_seed_page_title",
 	},
-	"bitcoin-node": {
-		namespace: "bitcoin-node",
+	"bitcoin-node-guide": {
+		namespace: "bitcoin-node-guide",
 		titleKey: "bitcoin_node_h1",
 	},
 

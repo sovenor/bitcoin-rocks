@@ -10,5 +10,5 @@ export default async function Image({
 	params: Promise<{ locale: string }>;
 }) {
 	const { locale } = await params;
-	return ogHandler("bitcoin-node", locale);
+	return ogHandler("bitcoin-node-guide", locale);
 }
