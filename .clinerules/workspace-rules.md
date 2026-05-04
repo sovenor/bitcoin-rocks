@@ -196,7 +196,7 @@ Translations are picked up automatically at build time — no regeneration step 
 - **⚠️ SCRIPT SIZE LIMIT:** A full language translation (~90+ files) is too large to create in a single Node.js script. Always break translation scripts into multiple smaller scripts by category (e.g., sticker-files, business, comparisons, common, index, inflation, etc.) and place them in `scripts/[lang]/`. See `.clinerules/workflows/translate-new-language.md` for the recommended breakdown.
 - **When adding a new language,** update ALL of these locations (see `.clinerules/workflows/translate-new-language.md` for full details):
   1. `i18n/[lang]/` — Create all translation JSON files (mirror English directory structure) with ALL strings translated into the target language.
-  2. `lib/i18n/config.ts` — Add to the `languages` array AND the `locales` readonly tuple, inserted in **alphabetical order by native display name** (English first, then all others alphabetically).
+  2. `lib/i18n/config.ts` — Add to the `languages` array AND the `locales` readonly tuple, inserted in **alphabetical order by native display name** (English sits between "Eesti" and "Español"; `defaultLocale = "en"` pins the fallback regardless of array position).
   3. `i18n/*/about_*.json` — Run `node scripts/update-about-lang-count.js <newCount>` (auto-discovers all languages, handles native numeral systems).
   4. `llms.txt` — Add language name to the "Languages" line in "About This Site".
   5. `llms-full.txt` — Update the "available in X languages" line.

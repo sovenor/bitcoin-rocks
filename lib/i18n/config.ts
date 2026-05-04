@@ -1,13 +1,9 @@
 /**
  * Canonical language list + helpers for Next.js i18n.
  *
- * Mirrors `jquery/language.js` `languages` array (the `custom` "Add language"
- * entry is deliberately excluded — that's a UI-only row in the legacy
- * dropdown, not a real locale). Order matches the legacy switcher: English
- * first, then alphabetical by native display name.
- *
- * Any new language added to the site must be added to BOTH this file AND
- * `jquery/language.js` until Phase 14 deletes the legacy file.
+ * Order is alphabetical by native display name. `defaultLocale` below pins
+ * English as the fallback regardless of array position, so the order here
+ * is purely UI presentation in the language switcher.
  */
 
 export type LanguageEntry = {
@@ -18,7 +14,6 @@ export type LanguageEntry = {
 };
 
 export const languages: readonly LanguageEntry[] = [
-	{ code: "en", name: "English" },
 	{ code: "af", name: "Afrikaans" },
 	{ code: "az", name: "Azərbaycanca" },
 	{ code: "ca", name: "Català" },
@@ -27,6 +22,7 @@ export const languages: readonly LanguageEntry[] = [
 	{ code: "da", name: "Dansk" },
 	{ code: "de", name: "Deutsch" },
 	{ code: "et", name: "Eesti" },
+	{ code: "en", name: "English" },
 	{ code: "es", name: "Español" },
 	{ code: "eu", name: "Euskara" },
 	{ code: "fil", name: "Filipino" },
@@ -81,7 +77,6 @@ export const languages: readonly LanguageEntry[] = [
  * us a readonly tuple suitable for `next-intl`'s `hasLocale` helper.
  */
 export const locales = [
-	"en",
 	"af",
 	"az",
 	"ca",
@@ -90,6 +85,7 @@ export const locales = [
 	"da",
 	"de",
 	"et",
+	"en",
 	"es",
 	"eu",
 	"fil",
