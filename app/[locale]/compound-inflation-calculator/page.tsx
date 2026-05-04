@@ -41,7 +41,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "compound-inflation-calculator";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-cic-v2.png";
 
 export async function generateMetadata({
 	params,
@@ -87,7 +86,6 @@ export default async function CompoundInflationCalculatorPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 		schemaType: "Article",
 		citations: [
 			{

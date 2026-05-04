@@ -35,7 +35,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "nostr";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-nostr-home-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -199,7 +198,6 @@ export default async function NostrIndexPage({
 		headline: title,
 		description,
 		schemaType: "Article",
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

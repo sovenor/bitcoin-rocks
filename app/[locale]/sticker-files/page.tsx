@@ -28,7 +28,6 @@ import { getLanguageColorToken } from "@/lib/sticker-files/language-colors";
  */
 
 const SLUG = "sticker-files";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
 
 export async function generateMetadata({
 	params,
@@ -75,7 +74,6 @@ export default async function StickerFilesIndexPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

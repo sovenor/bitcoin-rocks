@@ -47,7 +47,6 @@ import { buildAlternates } from "@/lib/schema/hreflang";
  */
 
 const SLUG = "sticker-success";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
 const NOSTR_URL =
 	"https://primal.net/p/nprofile1qqsrmqhg7mxxczt9gjln8ey8tgpl2cq2elm7c3n7z59pe3m395s5mjgnfsua2";
 const STICKERMULE_URL = "https://stickermule.com/u/4c84ba884f9c3ae";
@@ -83,7 +82,6 @@ export default async function StickerSuccessPage({
 		locale: locale as Locale,
 		headline: title,
 		description: t("sticker_success_1"),
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

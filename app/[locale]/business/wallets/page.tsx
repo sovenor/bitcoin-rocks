@@ -49,7 +49,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/wallets";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-wallets-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -61,7 +60,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "how_to_accept_bitcoin_payments",
-		image: META_IMAGE,
 		descriptionKey: "biz_wallets_meta_description",
 	});
 }
@@ -345,7 +343,6 @@ export default async function BusinessWalletsPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

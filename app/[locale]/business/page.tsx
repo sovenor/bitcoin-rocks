@@ -51,7 +51,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-index-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -63,7 +62,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "bitcoin_is_good_for_business",
-		image: META_IMAGE,
 		descriptionKey: "biz_meta_description",
 	});
 }
@@ -148,7 +146,6 @@ export default async function BusinessIndexPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

@@ -36,7 +36,6 @@ import {
  *     picker, forward to /flyers.
  */
 
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
 
 /** Generic sticker-printer link used by the per-sticker "Where to print"
  *  row. English swaps this for the 1-click pack URL (see stickerMuleOneClickUrl). */
@@ -162,7 +161,6 @@ export default async function StickerFilesLanguagePage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug,

@@ -45,7 +45,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "business/maps";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-bbk-maps-v1.png";
 
 const FORM_ACTION = "https://forms.bitcoin.rocks/submit/business-maps";
 
@@ -59,7 +58,6 @@ export async function generateMetadata({
 		locale,
 		slug: SLUG,
 		titleKey: "bitcoin_merchant_maps_list_your_business_for_free",
-		image: META_IMAGE,
 		descriptionKey: "biz_maps_meta_description",
 	});
 }
@@ -135,7 +133,6 @@ export default async function BusinessMapsPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

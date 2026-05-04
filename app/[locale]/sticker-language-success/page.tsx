@@ -32,7 +32,6 @@ import { buildAlternates } from "@/lib/schema/hreflang";
  */
 
 const SLUG = "sticker-language-success";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-stickers-v9.png";
 
 export async function generateMetadata({
 	params,
@@ -65,7 +64,6 @@ export default async function StickerLanguageSuccessPage({
 		locale: locale as Locale,
 		headline: title,
 		description: t("sticker_language_success_1"),
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,

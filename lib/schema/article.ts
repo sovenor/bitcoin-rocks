@@ -108,7 +108,7 @@ export async function buildArticleSchema(input: ArticleSchemaInput) {
 		? input.image.startsWith("http")
 			? input.image
 			: `https://bitcoin.rocks${input.image.startsWith("/") ? "" : "/"}${input.image}`
-		: undefined;
+		: `${url}/opengraph-image`;
 
 	const schema: Record<string, unknown> = {
 		"@context": "https://schema.org",
@@ -125,11 +125,8 @@ export async function buildArticleSchema(input: ArticleSchemaInput) {
 		datePublished: SITE_PUBLISHED_DATE,
 		dateModified,
 		inLanguage: input.locale,
+		image,
 	};
-
-	if (image) {
-		schema.image = image;
-	}
 
 	if (input.citations && input.citations.length > 0) {
 		schema.citation = input.citations.map((c) => {

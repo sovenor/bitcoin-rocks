@@ -38,7 +38,6 @@ import { buildAlternates } from "@/lib/schema/hreflang";
  */
 
 const SLUG = "flyers";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-flyers-v1.png";
 const FLYER_PDF = "/img/flyers/flyer-1.pdf";
 const FLYER_PREVIEW_IMG = "/img/flyers/flyer-1-header.png";
 const NOSTR_URL =
@@ -88,7 +87,6 @@ export default async function FlyersPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 		schemaType: "Article",
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({

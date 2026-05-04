@@ -42,7 +42,6 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  */
 
 const SLUG = "buy";
-const META_IMAGE = "https://bitcoin.rocks/img/meta/meta-buy-v1.png";
 
 export async function generateMetadata({
 	params,
@@ -88,7 +87,6 @@ export default async function BuyPage({
 		locale: locale as Locale,
 		headline: title,
 		description,
-		image: META_IMAGE,
 	});
 	const breadcrumbSchema = buildBreadcrumbSchema({
 		slug: SLUG,
@@ -104,7 +102,6 @@ export default async function BuyPage({
 		"@type": "HowTo",
 		name: t("buy_howto_name"),
 		description,
-		image: META_IMAGE,
 		step: [
 			{
 				"@type": "HowToStep",

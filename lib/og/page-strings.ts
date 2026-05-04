@@ -11,8 +11,7 @@
  * fall back to the page's own H1 / header key.
  *
  * To opt out of dynamic OG entirely for a slug, omit it from this map —
- * the page will then fall back to whatever it sets in `metadata.openGraph`
- * (i.e. the existing static META_IMAGE).
+ * the page will then fall back to whatever it sets in `metadata.openGraph`.
  */
 
 export type OgPageStrings = {
