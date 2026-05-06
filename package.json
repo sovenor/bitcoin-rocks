@@ -8,7 +8,10 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"typecheck": "tsc --noEmit"
+		"typecheck": "tsc --noEmit",
+		"deploy:frontend": "cd deploy/frontend-railway && railway up --ci",
+		"deploy:backend": "cd forms-backend && railway up --ci",
+		"deploy:all": "npm run deploy:frontend && npm run deploy:backend"
 	},
 	"dependencies": {
 		"@fontsource/cairo": "^5.2.7",
