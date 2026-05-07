@@ -284,7 +284,11 @@ function MailPanel({
 					{t("stickers_vote_panel_note_after")}
 				</p>
 			)}
-			<StickerAddressForm variant={variant} action={action} />
+			<StickerAddressForm
+				variant={variant}
+				action={action}
+				source={pack === "vote" ? "bitcoin.rocks" : undefined}
+			/>
 		</Panel>
 	);
 }

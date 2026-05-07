@@ -95,4 +95,23 @@ try {
   // Column already exists, ignore
 }
 
+// Migration: Ensure stickers-vote-usa form's `fields` array includes `source`.
+// `source` records which site originated the submission (bitcoin.rocks vs voteforbetter.money)
+// and drives the success-redirect choice in server.js. Auto-seed only runs on a brand-new DB,
+// so existing production rows need this idempotent fix-up.
+try {
+  const voteUsa = db.prepare("SELECT fields FROM forms WHERE slug = 'stickers-vote-usa'").get();
+  if (voteUsa) {
+    const fields = JSON.parse(voteUsa.fields);
+    if (!fields.includes('source')) {
+      fields.push('source');
+      db.prepare("UPDATE forms SET fields = ? WHERE slug = 'stickers-vote-usa'")
+        .run(JSON.stringify(fields));
+      console.log('Migration: Added `source` field to stickers-vote-usa');
+    }
+  }
+} catch (e) {
+  console.error('Migration: Failed to add source field to stickers-vote-usa', e);
+}
+
 module.exports = db;

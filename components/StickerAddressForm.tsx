@@ -14,9 +14,12 @@ import { useTranslations } from "next-intl";
 type Props = {
 	variant: "usa" | "canada";
 	action: string;
+	/** Optional `source` hidden field. Used by the vote pack to tell the backend
+	 * which site originated the submission (drives the success-redirect URL). */
+	source?: string;
 };
 
-export function StickerAddressForm({ variant, action }: Props) {
+export function StickerAddressForm({ variant, action, source }: Props) {
 	const t = useTranslations();
 	return (
 		<>
@@ -155,6 +158,7 @@ export function StickerAddressForm({ variant, action }: Props) {
 						style={{ display: "none" }}
 					/>
 				)}
+				{source && <input type="hidden" name="source" value={source} />}
 				<button type="submit" className="cic-submit">
 					{t("common_submit")}
 				</button>

@@ -46,7 +46,9 @@ const forms = [
   {
     slug: 'stickers-vote-usa',
     name: 'Stickers Vote Pack — USA',
-    fields: JSON.stringify(['name', 'address1', 'address2', 'city', 'state', 'zip']),
+    // `source` records which site originated the submission (bitcoin.rocks vs voteforbetter.money).
+    // server.js uses it to pick the success-redirect URL.
+    fields: JSON.stringify(['name', 'address1', 'address2', 'city', 'state', 'zip', 'source']),
     success_redirect: `${SITE_URL}/sticker-success`
   },
   {
@@ -102,6 +104,19 @@ async function seed() {
   });
 
   insertMany(forms);
+
+  // Idempotent field sync for stickers-vote-usa: ensure existing prod row has `source`.
+  // INSERT OR IGNORE above is a no-op when the row already exists.
+  const voteUsa = db.prepare("SELECT fields FROM forms WHERE slug = 'stickers-vote-usa'").get();
+  if (voteUsa) {
+    const existingFields = JSON.parse(voteUsa.fields);
+    if (!existingFields.includes('source')) {
+      existingFields.push('source');
+      db.prepare("UPDATE forms SET fields = ? WHERE slug = 'stickers-vote-usa'")
+        .run(JSON.stringify(existingFields));
+      console.log('  ✅ Added `source` field to stickers-vote-usa');
+    }
+  }
 
   // Seed admin user (only if no users exist)
   const userCount = db.prepare('SELECT COUNT(*) as count FROM users').get();

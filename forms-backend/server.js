@@ -13,6 +13,17 @@ const PORT = process.env.PORT || 3000;
 const SITE_URL = process.env.SITE_URL || 'https://bitcoin.rocks';
 const SESSION_SECRET = process.env.SESSION_SECRET || 'change-me-in-production-' + Math.random().toString(36);
 
+// Per-form source-aware success redirect overrides.
+// When a submission to one of these slugs includes a `source` value matching a key,
+// the user is redirected to that URL instead of `forms.success_redirect`.
+// Hardcoded whitelist prevents open-redirect abuse via the `source` field.
+const SOURCE_REDIRECTS = {
+  'stickers-vote-usa': {
+    'bitcoin.rocks': 'https://bitcoin.rocks/sticker-success',
+    'voteforbetter.money': 'https://voteforbetter.money/sticker-success'
+  }
+};
+
 // ============================================================
 // MIDDLEWARE
 // ============================================================
@@ -232,10 +243,17 @@ app.post('/submit/:slug', async (req, res) => {
       });
     }
 
+    // Resolve success redirect: prefer a per-source override (whitelist) if the form opts in
+    // and the submission's `source` matches; otherwise fall back to the form's default.
+    const sourceOverrides = SOURCE_REDIRECTS[slug];
+    const submittedSource = typeof req.body.source === 'string' ? req.body.source.trim() : '';
+    const successRedirect =
+      (sourceOverrides && sourceOverrides[submittedSource]) || form.success_redirect;
+
     // Honeypot check — reject if _gotcha is filled
     if (req.body._gotcha && req.body._gotcha.trim() !== '') {
       // Silently redirect as if successful (don't tip off bots)
-      return res.redirect(form.success_redirect);
+      return res.redirect(successRedirect);
     }
 
     const clientIP = getClientIP(req);
@@ -274,7 +292,7 @@ app.post('/submit/:slug', async (req, res) => {
           db.prepare('UPDATE blacklisted_addresses SET blocked_count = blocked_count + 1 WHERE id = ?')
             .run(blacklistMatch.id);
           // Silently redirect — spammer thinks submission succeeded
-          return res.redirect(form.success_redirect);
+          return res.redirect(successRedirect);
         }
       }
     }
@@ -331,7 +349,7 @@ app.post('/submit/:slug', async (req, res) => {
     `).run(form.id);
 
     // Redirect to success page
-    res.redirect(form.success_redirect);
+    res.redirect(successRedirect);
 
   } catch (err) {
     console.error('Submission error:', err);
