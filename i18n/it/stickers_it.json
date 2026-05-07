@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "it"
 	},
 	"free_bitcoin_stickers": "Adesivi Bitcoin gratuiti da bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Un mix di slogan Bitcoin e battute progettate per accendere la curiosità in luoghi pubblici.",
 	"stickers_signs_pack": "IL PACCHETTO SEGNALI",
 	"stickers_signs_pack_description": "Cartelli di avviso, pericolo e attenzione con messaggi Bitcoin — progettati per attirare l'attenzione e far fermare e leggere le persone.",
+	"stickers_vote_pack": "Il Vote Pack",
+	"stickers_vote_pack_description": "Adesivi solo per gli USA che indirizzano le persone a voteforbetter.money — il nostro sito complementare che spiega perché Bitcoin è una moneta migliore per gli americani.",
+	"stickers_vote_panel_note_before": "Questi adesivi indirizzano le persone a ",
+	"stickers_vote_panel_note_after": ", il nostro sito complementare che spiega perché Bitcoin è una moneta migliore per gli americani.",
+	"stickers_vote_option_print": "🇺🇸 USA — Stampa tu stesso",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Ordina in grandi quantità",
+	"stickers_vote_print_c1": "Puoi partecipare anche stampando tu stesso gli adesivi se preferisci non richiedere un pacchetto gratuito. Clicca qui sotto per scaricare i file degli adesivi in inglese e le istruzioni di stampa.",
 	"stickers_btn_choose_pack": "Scegli questo pacchetto",
 	"stickers_step_2_eyebrow": "PASSO 2",
 	"stickers_step_2_header": "Come vuoi ricevere i tuoi adesivi?",

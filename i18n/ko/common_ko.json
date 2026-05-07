@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ko"
 	},
 	"common_footer_follow_first_half": "Nostr 클라이언트에서",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248cm × 14.605cm (3.12인치 × 5.75인치)",
 	"common_stickers_dimensions_what_if": "21.7932cm × 7.62cm (8.58인치 × 3인치)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995cm × 6.35cm (8.25인치 × 2.5인치)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "비트코인이 비즈니스에 좋은 이유 알아보기",
 	"common_biz_wallets": "비트코인 결제를 받기 위한 비트코인 지갑 만들기",
 	"common_biz_maps": "비트코인 가맹점 지도에 등록하기",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "“Cure Inflation” 비트코인 스티커",
 	"common_sticker_name_got_inflation": "“Got Inflation?” 비트코인 스티커",
 	"common_sticker_name_what_if": "“What if your money didn't have inflation?” 비트코인 스티커",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" 스티커 (클래식)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" 비트코인 스티커",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" 스티커",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — 무료, 오픈 소스, 자체 호스팅 비트코인 결제 처리기",
 	"common_source_btc_map": "BTC Map — 비트코인을 받는 가맹점의 전 세계 디렉터리",

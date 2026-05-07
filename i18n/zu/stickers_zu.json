@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "zu"
 	},
 	"free_bitcoin_stickers": "Izitika ze-Bitcoin zamahhala evela ku-bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Inhlanganisela yamaphathi e-Bitcoin nemibhalo emfushane edizayinelwe ukuvusa ukufuna ukwazi ezindaweni zomphakathi.",
 	"stickers_signs_pack": "IPHAKETHE LEZIMPAWU",
 	"stickers_signs_pack_description": "Izimpawu zesixwayiso, ingozi, nokuqaphela ezinemilayezo ye-Bitcoin — zidizayinelwe ukubamba ukunaka futhi zenze abantu beme bafunde.",
+	"stickers_vote_pack": "Iphakethe Lokuvotha",
+	"stickers_vote_pack_description": "Izitika ze-USA kuphela ezikhomba abantu ku-voteforbetter.money — iwebhusayithi yethu elingani echaza ukuthi i-Bitcoin imali engcono kangakanani kwabase-Amerika.",
+	"stickers_vote_panel_note_before": "Lezi zitika zikhomba abantu ku-",
+	"stickers_vote_panel_note_after": ", iwebhusayithi yethu elingani echaza ukuthi i-Bitcoin imali engcono kwabase-Amerika.",
+	"stickers_vote_option_print": "🇺🇸 I-USA — Phrinta okwami",
+	"stickers_vote_option_bulk": "🇺🇸 I-USA — Oda ngobuningi",
+	"stickers_vote_print_c1": "Ungahlanganyela ngokuphrinta izitika zakho uma ungathandi ukucela iphakethe lamahhala. Chofoza ngezansi ukuze ulande amafayela esitika sesiNgisi nemiyalelo yokuphrinta.",
 	"stickers_btn_choose_pack": "Khetha leli phakethe",
 	"stickers_step_2_eyebrow": "ISINYATHELO 2",
 	"stickers_step_2_header": "Ufuna ukuthola izitika zakho ngendlela enjani?",

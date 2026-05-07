@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "pt"
 	},
 	"free_bitcoin_stickers": "Autocolantes Bitcoin gratuitos do bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Uma mistura de slogans e monólogos de Bitcoin concebida para despertar curiosidade em espaços públicos.",
 	"stickers_signs_pack": "O PACOTE DE SINAIS",
 	"stickers_signs_pack_description": "Sinais de aviso, atenção e perigo com mensagens de Bitcoin — concebidos para chamar a atenção e fazer as pessoas parar e ler.",
+	"stickers_vote_pack": "O PACOTE DE VOTO",
+	"stickers_vote_pack_description": "Autocolantes exclusivos para os EUA que direcionam as pessoas para voteforbetter.money — o nosso site complementar que explica porque é que o Bitcoin é melhor dinheiro para os americanos.",
+	"stickers_vote_panel_note_before": "Estes autocolantes direcionam as pessoas para ",
+	"stickers_vote_panel_note_after": ", o nosso site complementar que explica porque é que o Bitcoin é melhor dinheiro para os americanos.",
+	"stickers_vote_option_print": "🇺🇸 EUA — Imprime os teus",
+	"stickers_vote_option_bulk": "🇺🇸 EUA — Encomenda a granel",
+	"stickers_vote_print_c1": "Podes também participar imprimindo os teus próprios autocolantes se preferires não pedir um pacote gratuito. Clica abaixo para descarregar os ficheiros de autocolantes em inglês e as instruções de impressão.",
 	"stickers_btn_choose_pack": "Escolhe este pacote",
 	"stickers_step_2_eyebrow": "PASSO 2",
 	"stickers_step_2_header": "Como queres os teus autocolantes?",

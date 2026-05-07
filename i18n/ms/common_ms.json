@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ms"
 	},
 	"common_footer_follow_first_half": "Cari di mana-mana klien Nostr untuk",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 cm x 14.605 cm (3.12 inci x 5.75 inci)",
 	"common_stickers_dimensions_what_if": "21.7932 cm x 7.62 cm (8.58 inci x 3 inci)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 cm x 6.35 cm (8.25 inci x 2.5 inci)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 inci x 2 inci)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 inci x 3 inci)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 inci x 1.5 inci)",
 	"common_biz_learn": "Ketahui mengapa Bitcoin baik untuk perniagaan",
 	"common_biz_wallets": "Terima pembayaran Bitcoin dengan dompet Bitcoin",
 	"common_biz_maps": "Senarai di peta pedagang Bitcoin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Pelekat Bitcoin \"Sembuhkan Inflasi\"",
 	"common_sticker_name_got_inflation": "Pelekat Bitcoin \"Ada Inflasi?\"",
 	"common_sticker_name_what_if": "Pelekat Bitcoin \"Bagaimana jika wang anda tiada inflasi?\"",
+	"common_sticker_name_vfbm_classic": "Pelekat \"Vote For Better Money\" (Klasik)",
+	"common_sticker_name_vfbm_ballot": "Pelekat Bitcoin \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "Pelekat \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — Pemproses pembayaran Bitcoin percuma, sumber terbuka, dan hos sendiri",
 	"common_source_btc_map": "BTC Map — Direktori peniaga yang menerima Bitcoin di seluruh dunia",

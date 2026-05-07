@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "th"
 	},
 	"common_footer_follow_first_half": "ติดตามเราบน Nostr โดยค้นหา",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 ซม. x 14.605 ซม. (3.12 นิ้ว x 5.75 นิ้ว)",
 	"common_stickers_dimensions_what_if": "21.7932 ซม. x 7.62 ซม. (8.58 นิ้ว x 3 นิ้ว)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 ซม. x 6.35 ซม. (8.25 นิ้ว x 2.5 นิ้ว)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "เรียนรู้ว่าเหตุใด Bitcoin จึงดีต่อธุรกิจ",
 	"common_biz_wallets": "รับกระเป๋าเงิน Bitcoin เพื่อรับการชำระเงินด้วย Bitcoin",
 	"common_biz_maps": "ลงทะเบียนบนแผนที่ผู้ค้า Bitcoin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "สติกเกอร์ Bitcoin \"Cure Inflation\"",
 	"common_sticker_name_got_inflation": "สติกเกอร์ Bitcoin \"Got Inflation?\"",
 	"common_sticker_name_what_if": "สติกเกอร์ Bitcoin \"What if your money didn't have inflation?\"",
+	"common_sticker_name_vfbm_classic": "สติกเกอร์ \"Vote For Better Money\" (คลาสสิก)",
+	"common_sticker_name_vfbm_ballot": "สติกเกอร์ Bitcoin \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "สติกเกอร์ \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — โปรเซสเซอร์ชำระเงิน Bitcoin ฟรี โอเพนซอร์ส แบบโฮสต์เอง",
 	"common_source_btc_map": "BTC Map — สารบบร้านค้าที่รับ Bitcoin ทั่วโลก",

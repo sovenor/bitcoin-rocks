@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "de"
 	},
 	"common_footer_follow_first_half": "Folge uns auf Nostr, indem du nach",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 cm x 14,605 cm (3,12 Zoll x 5,75 Zoll)",
 	"common_stickers_dimensions_what_if": "21,7932 cm x 7,62 cm (8,58 Zoll x 3 Zoll)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 cm x 6,35 cm (8,25 Zoll x 2,5 Zoll)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 cm x 5,08 cm (3,81 Zoll x 2 Zoll)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 cm x 7,62 cm (3,63 Zoll x 3 Zoll)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 cm x 3,81 cm (1,5 Zoll x 1,5 Zoll)",
 	"common_biz_learn": "Erfahre, warum Bitcoin gut für Unternehmen ist",
 	"common_biz_wallets": "Hol Dir eine Bitcoin-Wallet, um Bitcoin-Zahlungen zu akzeptieren",
 	"common_biz_maps": "Werde auf Bitcoin-Händlerkarten gelistet",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin-Aufkleber „Cure Inflation“",
 	"common_sticker_name_got_inflation": "Bitcoin-Aufkleber „Got Inflation?“",
 	"common_sticker_name_what_if": "Bitcoin-Aufkleber „What if your money didn’t have inflation?“",
+	"common_sticker_name_vfbm_classic": "Bitcoin-Aufkleber „Vote For Better Money“ (Classic)",
+	"common_sticker_name_vfbm_ballot": "Bitcoin-Aufkleber „Cast Your Vote — Better Money“",
+	"common_sticker_name_vfbm_voted": "Bitcoin-Aufkleber „I Voted For Better Money“",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — kostenloser, selbstgehosteter Open-Source-Bitcoin-Zahlungsabwickler",
 	"common_source_btc_map": "BTC Map — weltweites Verzeichnis Bitcoin-akzeptierender Händler",

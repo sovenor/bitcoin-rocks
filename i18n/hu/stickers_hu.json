@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "hu"
 	},
 	"free_bitcoin_stickers": "Ingyenes Bitcoin matricák a bitcoin.rocks-tól",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Bitcoin szlogenek és vidám ötletek keveréke, úgy tervezve, hogy kíváncsiságot keltsen a nyilvános helyeken.",
 	"stickers_signs_pack": "A TÁBLÁS CSOMAG",
 	"stickers_signs_pack_description": "Figyelmeztető, óvó és értesítő matricák Bitcoin üzenetekkel — úgy tervezve, hogy felkeltsék a figyelmet és megállítsák az embereket.",
+	"stickers_vote_pack": "A SZAVAZÓCSOMAG",
+	"stickers_vote_pack_description": "Csak USA-ban elérhető matricák, amelyek az embereket a voteforbetter.money oldalra irányítják — kísérőoldalunk, amely elmagyarázza, miért a Bitcoin a jobb pénz az amerikáiak számára.",
+	"stickers_vote_panel_note_before": "Ezek a matricák az embereket a ",
+	"stickers_vote_panel_note_after": " oldalra irányítják — kísérőoldalunk, amely elmagyarázza, miért a Bitcoin a jobb pénz az amerikáiak számára.",
+	"stickers_vote_option_print": "🇺🇸 USA — Saját nyomtatás",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Tömeges rendelés",
+	"stickers_vote_print_c1": "Részt vehetsz a saját matricáid kinyomtatásával, ha nem szeretnél ingyenes csomagot kérni. Kattints alabb az angol matricafájlok és a nyomtatási útmutató letöltéséhez.",
 	"stickers_btn_choose_pack": "Válaszd ezt a csomagot",
 	"stickers_step_2_eyebrow": "2. lépés",
 	"stickers_step_2_header": "Hogyan szeretnéd a matricáidat?",

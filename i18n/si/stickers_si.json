@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "si"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks වෙතින් නිදහස් Bitcoin ස්ටිකර්",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "පොදු ස්ථානවල කුතුහලය ජනනය කිරීමට නිර්මාණය කරන ලද Bitcoin මුර පදවල සහ වාක්‍ය ඛණ්ඩවල මිශ්‍රණයකි.",
 	"stickers_signs_pack": "සංකේත පැක්",
 	"stickers_signs_pack_description": "Bitcoin පණිවිඩ සහිත අනතුරු ඇඟවීම්, අන්තරාය සහ ප්‍රවේශම් සංඥා — අවධානය ආකර්ෂණය කර මිනිසුන් නවත්වා කියවීමට නිර්මාණය කර ඇත.",
+	"stickers_vote_pack": "ඡන්ද පැකේජය",
+	"stickers_vote_pack_description": "voteforbetter.money වෙත මිනිසුන් යොමු කරන ඇමරිකා එක්සත් ජනපදය-පමණ ස්ටිකර් — Bitcoin ඇමෙරිකානුවන් සඳහා වඩා හොඳ මුදලක් වන්නේ ඇයිදැයි පැහැදිලි කරන අපේ සහකාර වෙබ් අඩවිය.",
+	"stickers_vote_panel_note_before": "මෙම ස්ටිකර් මිනිසුන් ",
+	"stickers_vote_panel_note_after": " වෙත යොමු කරයි, ඇමෙරිකානුවන් සඳහා Bitcoin වඩා හොඳ මුදලක් වන්නේ ඇයිදැයි පැහැදිලි කරන අපේ සහකාර වෙබ් අඩවිය.",
+	"stickers_vote_option_print": "🇺🇸 ඇ.එ.ජ. — මමම මුද්‍රණය කරන්නෙමි",
+	"stickers_vote_option_bulk": "🇺🇸 ඇ.එ.ජ. — තොග ඇණවුම",
+	"stickers_vote_print_c1": "නිදහස් පැකේජයක් ඉල්ලා නොසිට ඔබේම ස්ටිකර් මුද්‍රණය කිරීමෙන් ද ඔබට සහභාගී විය හැකිය. ඉංග්‍රීසි ස්ටිකර් ගොනු සහ මුද්‍රණ උපදෙස් බාගත කිරීමට පහත ක්ලික් කරන්න.",
 	"stickers_btn_choose_pack": "මෙම පැකේජය තෝරන්න",
 	"stickers_step_2_eyebrow": "පියවර 2",
 	"stickers_step_2_header": "ඔබට ඔබේ ස්ටිකර ලබා ගැනීමට අවශ්‍ය වන්නේ කෙසේද?",

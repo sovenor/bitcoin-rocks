@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "ar"
 	},
 	"common_footer_follow_first_half": "تابعنا على Nostr بالبحث عن",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 سم × 14.605 سم (3.12 بوصة × 5.75 بوصة)",
 	"common_stickers_dimensions_what_if": "21.7932 سم × 7.62 سم (8.58 بوصة × 3 بوصة)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 سم × 6.35 سم (8.25 بوصة × 2.5 بوصة)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 سم × 5.08 سم (3.81 بوصة × 2 بوصة)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 سم × 7.62 سم (3.63 بوصة × 3 بوصة)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 سم × 3.81 سم (1.5 بوصة × 1.5 بوصة)",
 	"common_biz_learn": "تعلم لماذا البيتكوين مفيد للأعمال",
 	"common_biz_wallets": "احصل على محفظة بيتكوين لقبول مدفوعات البيتكوين",
 	"common_biz_maps": "سجّل على خرائط تجار البيتكوين",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "ملصق بيتكوين \"علاج التضخم\"",
 	"common_sticker_name_got_inflation": "ملصق بيتكوين \"هل لديك تضخم؟\"",
 	"common_sticker_name_what_if": "ملصق بيتكوين \"ماذا لو لم يكن لديك تضخم؟\"",
+	"common_sticker_name_vfbm_classic": "ملصق بيتكوين \"Vote For Better Money\" (كلاسيك)",
+	"common_sticker_name_vfbm_ballot": "ملصق بيتكوين \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "ملصق بيتكوين \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — معالج دفع بيتكوين مجاني ومفتوح المصدر ومستضاف ذاتياً",
 	"common_source_btc_map": "BTC Map — دليل عالمي للتجار القابلين للبيتكوين",

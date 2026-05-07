@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-05-07",
 		"locale": "pa"
 	},
 	"common_footer_follow_first_half": "ਕਿਸੇ ਵੀ Nostr ਕਲਾਇੰਟ ਵਿੱਚ ਖੋਜ ਕੇ",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 ਸੇਮੀ x 14.605 ਸੇਮੀ (3.12 ਇਂਚ x 5.75 ਇਂਚ)",
 	"common_stickers_dimensions_what_if": "21.7932 ਸੇਮੀ x 7.62 ਸੇਮੀ (8.58 ਇਂਚ x 3 ਇਂਚ)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 ਸੇਮੀ x 6.35 ਸੇਮੀ (8.25 ਇਂਚ x 2.5 ਇਂਚ)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 ਸੇਮੀ x 5.08 ਸੇਮੀ (3.81 ਇਂਚ x 2 ਇਂਚ)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 ਸੇਮੀ x 7.62 ਸੇਮੀ (3.63 ਇਂਚ x 3 ਇਂਚ)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 ਸੇਮੀ x 3.81 ਸੇਮੀ (1.5 ਇਂਚ x 1.5 ਇਂਚ)",
 	"common_biz_learn": "ਜਾਣੋ ਕਿ ਬਿਟਕੌਇਨ ਕਾਰੋਬਾਰ ਲਈ ਚੰਗਾ ਕਿਉਂ ਹੈ",
 	"common_biz_wallets": "ਬਿਟਕੌਇਨ ਭੁਗਤਾਨ ਸਵੀਕਾਰ ਕਰਨ ਲਈ ਵਾਲਿਟ ਲਓ",
 	"common_biz_maps": "ਬਿਟਕੌਇਨ ਮਰਚੈਂਟ ਨਕਸ਼ਿਆਂ ਉੱਤੇ ਸੂਚੀਬੱਧ ਹੋਵੋ",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" ਬਿਟਕੌਇਨ ਸਟਿੱਕਰ",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" ਬਿਟਕੌਇਨ ਸਟਿੱਕਰ",
 	"common_sticker_name_what_if": "\"What if your money didn’t have inflation?\" ਬਿਟਕੌਇਨ ਸਟਿੱਕਰ",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" ਸਟਿੱਕਰ (Classic)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" ਬਿਟਕੌਇਨ ਸਟਿੱਕਰ",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" ਸਟਿੱਕਰ",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — ਸੈਲਫ਼-ਹੋਸਟਡ ਲਈ ਮੁਫ਼ਤ, ਓਪਨ-ਸੋਰਸ ਬਿਟਕੌਇਨ ਭੁਗਤਾਨ ਪ੍ਰੋਸੈਸਰ",
 	"common_source_btc_map": "BTC Map — ਬਿਟਕੌਇਨ ਸਵੀਕਾਰ ਕਰਨ ਵਾਲੇ ਵਪਾਰੀਆਂ ਦੀ ਵਿਸ਼ਵਵਿਆਪੀ ਡਾਇਰੈਕਟਰੀ",

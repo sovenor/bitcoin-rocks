@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "tr"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks'tan ücretsiz Bitcoin çıkartmaları",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Halka açık alanlarda merak uyandırmak için tasarlanmış Bitcoin sloganları ve tek satırlık ifadelerden oluşan bir karışım.",
 	"stickers_signs_pack": "İŞARET PAKETİ",
 	"stickers_signs_pack_description": "Bitcoin mesajlarıyla uyarı, tehlike ve dikkat tarzı tabelalar — dikkat çekmek ve insanları durdurup okumaya yöneltmek için tasarlandı.",
+	"stickers_vote_pack": "Oy Paketi",
+	"stickers_vote_pack_description": "Yalnızca ABD'ye yönelik çıkartmalar; insanları voteforbetter.money adresine yönlendiriyor — Bitcoin'in Amerikalılar için neden daha iyi para olduğunu anlatan yardımcı sitemiz.",
+	"stickers_vote_panel_note_before": "Bu çıkartmalar insanları ",
+	"stickers_vote_panel_note_after": " adresine yönlendiriyor; Bitcoin'in Amerikalılar için neden daha iyi para olduğunu anlatan yardımcı sitemiz.",
+	"stickers_vote_option_print": "🇺🇸 ABD — Kendim yazdırırım",
+	"stickers_vote_option_bulk": "🇺🇸 ABD — Toplu sipariş ver",
+	"stickers_vote_print_c1": "Ücretsiz paket talep etmek yerine kendi çıkartmalarını basmak istiyorsan da katılabilirsin. İngilizce çıkartma dosyalarını ve yazdırma talimatlarını indirmek için aşağıya tıkla.",
 	"stickers_btn_choose_pack": "Bu paketi seç",
 	"stickers_step_2_eyebrow": "2. ADIM",
 	"stickers_step_2_header": "Çıkartmalarını nasıl almak istersin?",

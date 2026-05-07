@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "ca"
 	},
 	"free_bitcoin_stickers": "Adhesius de Bitcoin gratuïts de bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Una barreja d'eslògans i frases de Bitcoin dissenyats per despertar la curiositat en llocs públics.",
 	"stickers_signs_pack": "EL PAQUET DE CARTELLS",
 	"stickers_signs_pack_description": "Senyals d'advertència, perill i precaució amb missatges de Bitcoin — dissenyats per captar l'atenció i fer que la gent s'aturi a llegir.",
+	"stickers_vote_pack": "El Paquet de Vot",
+	"stickers_vote_pack_description": "Adhesius exclusius per als EUA que dirigeixen la gent a voteforbetter.money — el nostre lloc web complementari que explica per què Bitcoin és millor diners per als americans.",
+	"stickers_vote_panel_note_before": "Aquests adhesius dirigeixen la gent a ",
+	"stickers_vote_panel_note_after": ", el nostre lloc web complementari que explica per què Bitcoin és millor diners per als americans.",
+	"stickers_vote_option_print": "🇺🇸 EUA — Ho imprimiré jo mateix",
+	"stickers_vote_option_bulk": "🇺🇸 EUA — Comanda a l'engròs",
+	"stickers_vote_print_c1": "També pots participar imprimint els teus propis adhesius si prefereixes no sol·licitar un paquet gratuït. Fes clic a continuació per descarregar els fitxers d'adhesius en anglès i les instruccions d'impressió.",
 	"stickers_btn_choose_pack": "Tria aquest paquet",
 	"stickers_step_2_eyebrow": "Pas 2",
 	"stickers_step_2_header": "Com vols rebre els teus adhesius?",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "hr"
 	},
 	"free_bitcoin_stickers": "Besplatne Bitcoin naljepnice od bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Mješavina Bitcoin slogana i veselih ideja, dizajnirana da pobudi znatiželju na javnim mjestima.",
 	"stickers_signs_pack": "PAKET ZNAKOVA",
 	"stickers_signs_pack_description": "Naljepnice s upozorenjem, oprezom i obavijestima s Bitcoin porukama — dizajnirane da zaokupe pažnju i zaustave ljude.",
+	"stickers_vote_pack": "The Vote Pack",
+	"stickers_vote_pack_description": "Naljepnice samo za SAD koje upućuju ljude na voteforbetter.money — našu prateću stranicu koja objašnjava zašto je Bitcoin bolja valuta za Amerikance.",
+	"stickers_vote_panel_note_before": "Ove naljepnice upućuju ljude na ",
+	"stickers_vote_panel_note_after": ", našu prateću stranicu koja objašnjava zašto je Bitcoin bolja valuta za Amerikance.",
+	"stickers_vote_option_print": "🇺🇸 SAD — tiskajte sami",
+	"stickers_vote_option_bulk": "🇺🇸 SAD — naručite na veliko",
+	"stickers_vote_print_c1": "Možete sudjelovati i tiskom vlastitih naljepnica ako ne želite zatražiti besplatan paket. Kliknite ispod za preuzimanje datoteka engleskih naljepnica i uputa za tiskanje.",
 	"stickers_btn_choose_pack": "Odaberite ovaj paket",
 	"stickers_step_2_eyebrow": "Korak 2",
 	"stickers_step_2_header": "Kako želite svoje naljepnice?",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ms"
 	},
 	"free_bitcoin_stickers": "Pelekat Bitcoin percuma daripada bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Campuran slogan Bitcoin dan one-liner yang direka untuk menimbulkan rasa ingin tahu di tempat awam.",
 	"stickers_signs_pack": "Pek tanda",
 	"stickers_signs_pack_description": "Tanda amaran, bahaya, dan awas dengan mesej Bitcoin — direka untuk menarik perhatian dan menyebabkan orang berhenti dan membaca.",
+	"stickers_vote_pack": "Pek Undi",
+	"stickers_vote_pack_description": "Pelekat khusus AS yang mengarahkan orang ke voteforbetter.money — laman pengiring kami yang menerangkan mengapa Bitcoin adalah wang yang lebih baik untuk rakyat Amerika.",
+	"stickers_vote_panel_note_before": "Pelekat ini mengarahkan orang ke ",
+	"stickers_vote_panel_note_after": ", laman pengiring kami yang menerangkan mengapa Bitcoin adalah wang yang lebih baik untuk rakyat Amerika.",
+	"stickers_vote_option_print": "🇺🇸 AS — Cetak sendiri",
+	"stickers_vote_option_bulk": "🇺🇸 AS — Pesan secara pukal",
+	"stickers_vote_print_c1": "Anda juga boleh menyertai dengan mencetak pelekat sendiri jika anda tidak mahu meminta pek percuma. Klik di bawah untuk memuat turun fail pelekat bahasa Inggeris dan arahan pencetakan.",
 	"stickers_btn_choose_pack": "Pilih pek ini",
 	"stickers_step_2_eyebrow": "LANGKAH 2",
 	"stickers_step_2_header": "Bagaimana anda mahu mendapatkan pelekat anda?",

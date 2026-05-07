@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "bg"
 	},
 	"common_footer_follow_first_half": "Следвайте ни в Nostr, като търсите",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 см x 14.605 см (3.12 инча x 5.75 инча)",
 	"common_stickers_dimensions_what_if": "21.7932 см x 7.62 см (8.58 инча x 3 инча)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 см x 6.35 см (8.25 инча x 2.5 инча)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 см x 5.08 см (3.81 инча x 2 инча)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 см x 7.62 см (3.63 инча x 3 инча)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 см x 3.81 см (1.5 инча x 1.5 инча)",
 	"common_biz_learn": "Научете защо Биткойн е добър за бизнеса",
 	"common_biz_wallets": "Вземете Биткойн портфейл, за да приемате Биткойн плащания",
 	"common_biz_maps": "Бъдете включени в карти на търговци, приемащи Биткойн",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin стикер \"Лек за инфлацията\"",
 	"common_sticker_name_got_inflation": "Bitcoin стикер \"Имате ли инфлация?\"",
 	"common_sticker_name_what_if": "Bitcoin стикер \"Ами ако нямахте инфлация?\"",
+	"common_sticker_name_vfbm_classic": "Bitcoin стикер \"Vote For Better Money\" (класически)",
+	"common_sticker_name_vfbm_ballot": "Bitcoin стикер \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "Bitcoin стикер \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — безплатен, отворен код, самостоятелно хостван Bitcoin процесор за плащания",
 	"common_source_btc_map": "BTC Map — глобален каталог на търговци, приемащи Bitcoin",

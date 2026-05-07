@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "es"
 	},
 	"free_bitcoin_stickers": "Stickers Bitcoin gratuitos de bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Una mezcla de eslóganes y monólogos de Bitcoin diseñados para despertar la curiosidad en espacios públicos.",
 	"stickers_signs_pack": "EL PACK DE LETREROS",
 	"stickers_signs_pack_description": "Señales de advertencia, precaución y aviso con mensajes de Bitcoin — diseñadas para llamar la atención y hacer que la gente se detenga y lea.",
+	"stickers_vote_pack": "El Pack de Voto",
+	"stickers_vote_pack_description": "Stickers exclusivos para EE. UU. que dirigen a la gente a voteforbetter.money — nuestro sitio de acompañamiento que explica por qué Bitcoin es un dinero mejor para los estadounidenses.",
+	"stickers_vote_panel_note_before": "Estos stickers dirigen a la gente a ",
+	"stickers_vote_panel_note_after": ", nuestro sitio de acompañamiento que explica por qué Bitcoin es un dinero mejor para los estadounidenses.",
+	"stickers_vote_option_print": "🇺🇸 EE. UU. — Imprimir las mías",
+	"stickers_vote_option_bulk": "🇺🇸 EE. UU. — Pedir al por mayor",
+	"stickers_vote_print_c1": "También puedes participar imprimiendo tus propios stickers si prefieres no solicitar un paquete gratuito. Haz clic abajo para descargar los archivos de stickers en inglés y las instrucciones de impresión.",
 	"stickers_btn_choose_pack": "Elige este paquete",
 	"stickers_step_2_eyebrow": "PASO 2",
 	"stickers_step_2_header": "¿Cómo quieres tus pegatinas?",

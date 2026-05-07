@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ja"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocksの無料ビットコインステッカー",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "公共の場で好奇心を呼び起こすようデザインされた、ビットコインのスローガンとワンライナーの組み合わせ。",
 	"stickers_signs_pack": "サインパック",
 	"stickers_signs_pack_description": "警告、危険、注意スタイルの看板にビットコインのメッセージ — 注目を集めて立ち止まって読ませるようデザインされています。",
+	"stickers_vote_pack": "ボートパック",
+	"stickers_vote_pack_description": "🇺🇸 米国限定のステッカーで、voteforbetter.money に誘導します — ビットコインがアメリカ人にとってより良いお金である理由を説明するサイトです。",
+	"stickers_vote_panel_note_before": "これらのステッカーは人々を ",
+	"stickers_vote_panel_note_after": " に誘導します。アメリカ人にとってビットコインがより良いお金である理由を説明するサイトです。",
+	"stickers_vote_option_print": "🇺🇸 米国 — 自分で印刷",
+	"stickers_vote_option_bulk": "🇺🇸 米国 — 大量注文",
+	"stickers_vote_print_c1": "無料パックを申し込まなくても、自分でステッカーを印刷して参加できます。英語のステッカーファイルと印刷手順をダウンロードするには、下をクリックしてください。",
 	"stickers_btn_choose_pack": "このパックを選ぶ",
 	"stickers_step_2_eyebrow": "ステップ 2",
 	"stickers_step_2_header": "ステッカーをどう受け取りますか？",

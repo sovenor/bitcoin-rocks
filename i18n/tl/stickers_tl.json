@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "tl"
 	},
 	"free_bitcoin_stickers": "Libreng Bitcoin sticker mula sa bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Pinaghalong mga Bitcoin slogan at one-liner na dinisenyo upang pukawin ang pag-uusisa sa mga pampublikong lugar.",
 	"stickers_signs_pack": "ANG SIGNS PACK",
 	"stickers_signs_pack_description": "Mga warning, danger, at caution-style na mga sign na may mensahe ng Bitcoin — dinisenyo upang makakuha ng atensyon at mapahinto ang mga tao upang basahin.",
+	"stickers_vote_pack": "Ang Vote Pack",
+	"stickers_vote_pack_description": "Mga sticker para sa USA lamang na nagtuturo sa mga tao sa voteforbetter.money — ang aming kasamang site na nagpapaliwanag kung bakit mas magandang pera ang Bitcoin para sa mga Amerikanong.",
+	"stickers_vote_panel_note_before": "Ang mga sticker na ito ay nagtuturo sa mga tao sa ",
+	"stickers_vote_panel_note_after": ", ang aming kasamang site na nagpapaliwanag kung bakit mas magandang pera ang Bitcoin para sa mga Amerikanong.",
+	"stickers_vote_option_print": "🇺🇸 USA — I-print ang sariling akin",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Mag-order in bulk",
+	"stickers_vote_print_c1": "Maaari ka ring lumahok sa pamamagitan ng pag-print ng iyong sariling mga sticker kung ayaw mong humiling ng libreng pack. I-click ang ibaba upang i-download ang mga sticker file na Ingles at mga instruksyon sa pag-print.",
 	"stickers_btn_choose_pack": "Piliin ang pack na ito",
 	"stickers_step_2_eyebrow": "HAKBANG 2",
 	"stickers_step_2_header": "Paano mo gustong makuha ang iyong mga sticker?",

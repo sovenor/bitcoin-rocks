@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ro"
 	},
 	"free_bitcoin_stickers": "Autocolante Bitcoin gratuite de la bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Un amestec de slogane Bitcoin și replici concepute să stârnească curiozitatea în locuri publice.",
 	"stickers_signs_pack": "PACHETUL SEMNE",
 	"stickers_signs_pack_description": "Semne de avertisment, pericol și atenție cu mesaje Bitcoin — concepute să atragă atenția și să-i facă pe oameni să se oprească și să citească.",
+	"stickers_vote_pack": "PACHETUL VOT",
+	"stickers_vote_pack_description": "Autocolante exclusiv pentru SUA care îndrumă oamenii spre voteforbetter.money — site-ul nostru companion care explică de ce Bitcoin este o monedă mai bună pentru americani.",
+	"stickers_vote_panel_note_before": "Aceste autocolante îndrumă oamenii spre ",
+	"stickers_vote_panel_note_after": ", site-ul nostru companion care explică de ce Bitcoin este o monedă mai bună pentru americani.",
+	"stickers_vote_option_print": "🇺🇸 SUA — Tipăresc eu",
+	"stickers_vote_option_bulk": "🇺🇸 SUA — Comandă în cantități mari",
+	"stickers_vote_print_c1": "Te poți implica şi tipărind singur autocolantele, dacă preferi să nu ceri un pachet gratuit. Apasă mai jos pentru a descărca fişierele autocolantelor în engleză şi instrucțiunile de tipărire.",
 	"stickers_btn_choose_pack": "Alege acest pachet",
 	"stickers_step_2_eyebrow": "PASUL 2",
 	"stickers_step_2_header": "Cum vrei să-ți primești autocolantele?",

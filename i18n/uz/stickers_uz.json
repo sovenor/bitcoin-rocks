@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "uz"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks-dan bepul Bitcoin stikerlari",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Jamoat joylarida qiziqish uygʻotish uchun moʻljallangan Bitcoin shiorlari va qisqa iboralarning aralashmasi.",
 	"stickers_signs_pack": "BELGI TOʻPLAMI",
 	"stickers_signs_pack_description": "Bitcoin xabarlari bilan ogohlantiruvchi, xavf-xatar va ehtiyotkorlik uslubidagi belgilar — diqqatni jalb qilish va odamlarni toʻxtab oʻqishga undash uchun moʻljallangan.",
+	"stickers_vote_pack": "OVOZ TOʼPLAMI",
+	"stickers_vote_pack_description": "AQSh uchun stikerlar odamlarni voteforbetter.money saytiga yoʻindaladi — bu bizning hamkor saytimiz boʻlib, Bitcoin nima uchun amerikaliklar uchun yaxshiroq pul ekanligini tushuntiradi.",
+	"stickers_vote_panel_note_before": "Bu stikerlar odamlarni ",
+	"stickers_vote_panel_note_after": ", bizning hamkor saytimiz boʻlib, Bitcoin nima uchun amerikaliklar uchun yaxshiroq pul ekanligini tushuntiradi.",
+	"stickers_vote_option_print": "🇺🇸 AQSh — Oʻzim chop etaman",
+	"stickers_vote_option_bulk": "🇺🇸 AQSh — Ulgurji buyurtma",
+	"stickers_vote_print_c1": "Agar bepul toʻplam soʻramaslikni afzal bilsangiz, oʻzingizning stikerlaringizni chop etish orqali ham ishtirok eta olasiz. Inglizcha stiker fayllari va chop etish koʻrsatmalarini yuklab olish uchun quyida bosing.",
 	"stickers_btn_choose_pack": "Bu toʻplamni tanlang",
 	"stickers_step_2_eyebrow": "2-QADAM",
 	"stickers_step_2_header": "Stikerlaringizni qanday olishni xohlaysiz?",

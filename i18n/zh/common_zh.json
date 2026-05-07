@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "zh"
 	},
 	"common_footer_follow_first_half": "在任何Nostr客户端中搜索",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248厘米 x 14.605厘米（3.12英寸 x 5.75英寸）",
 	"common_stickers_dimensions_what_if": "21.7932厘米 x 7.62厘米（8.58英寸 x 3英寸）",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995厘米 x 6.35厘米（8.25英寸 x 2.5英寸）",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "了解为什么比特币对企业有利",
 	"common_biz_wallets": "获取比特币钱包以接受付款",
 	"common_biz_maps": "登记比特币商户地图",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "「治愈通胀」比特币贴纸",
 	"common_sticker_name_got_inflation": "「遇到通胀了吗？」比特币贴纸",
 	"common_sticker_name_what_if": "「如果您的钱没有通胀呢？」比特币贴纸",
+	"common_sticker_name_vfbm_classic": "「Vote For Better Money」贴纸（经典款）",
+	"common_sticker_name_vfbm_ballot": "「Cast Your Vote — Better Money」比特币贴纸",
+	"common_sticker_name_vfbm_voted": "「I Voted For Better Money」贴纸",
 	"common_source_whitepaper": "Satoshi Nakamoto —— 《比特币：一种点对点的电子现金系统》（2008）",
 	"common_source_btcpayserver": "BTCPay Server —— 免费、开源、自托管的比特币支付处理器",
 	"common_source_btc_map": "BTC Map —— 全球接受比特币的商家目录",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-05-07",
 		"locale": "et"
 	},
 	"free_bitcoin_stickers": "Tasuta Bitcoini kleebised bitcoin.rocksilt",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Bitcoini loosungite ja ühelauseliste tekstide segu, mis on loodud avalikus ruumis uudishimu äratama.",
 	"stickers_signs_pack": "Märgipakk",
 	"stickers_signs_pack_description": "Hoiatus-, ohu- ja ettevaatusmärkide stiilis kleebised Bitcoini sõnumitega — loodud, et tähelepanu püüda ja inimesi peatama panna.",
+	"stickers_vote_pack": "Hääletuspakk",
+	"stickers_vote_pack_description": "USA-ainult kleebised, mis suunavad inimesi voteforbetter.money lehele — meie kaaslehele, mis selgitab, miks Bitcoin on ameeriklastele parem raha.",
+	"stickers_vote_panel_note_before": "Need kleebised suunavad inimesi lehele ",
+	"stickers_vote_panel_note_after": ", meie kaaslehele, mis selgitab, miks Bitcoin on ameeriklastele parem raha.",
+	"stickers_vote_option_print": "🇺🇸 USA — Prindin ise",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Telli hulgi",
+	"stickers_vote_print_c1": "Sa saad osaleda, printides oma kleebised ise, kui eelistad tasuta pakki mitte taotleda. Klõpsa allpool, et laadida alla ingliskeelsed kleebisefailid ja printimisjuhised.",
 	"stickers_btn_choose_pack": "Vali see pakk",
 	"stickers_step_2_eyebrow": "2. SAMM",
 	"stickers_step_2_header": "Kuidas sa tahaksid oma kleebised kätte saada?",

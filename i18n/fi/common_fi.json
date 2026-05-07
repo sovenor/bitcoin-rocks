@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "fi"
 	},
 	"common_footer_follow_first_half": "Seuraa meitä Nostrissa etsimällä",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 cm x 14,605 cm (3,12 in x 5,75 in)",
 	"common_stickers_dimensions_what_if": "21,7932 cm x 7,62 cm (8,58 in x 3 in)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 cm x 6,35 cm (8,25 in x 2,5 in)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 cm x 5,08 cm (3,81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 cm x 7,62 cm (3,63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 cm x 3,81 cm (1,5 in x 1,5 in)",
 	"common_biz_learn": "Opi, miksi Bitcoin on hyvä yrityksille",
 	"common_biz_wallets": "Hanki Bitcoin-lompakko vastaanottaaksesi Bitcoin-maksuja",
 	"common_biz_maps": "Listaudu Bitcoin-kauppiaskarttoihin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin-tarra ”Cure Inflation”",
 	"common_sticker_name_got_inflation": "Bitcoin-tarra ”Got Inflation?”",
 	"common_sticker_name_what_if": "Bitcoin-tarra ”What if your money didn’t have inflation?”",
+	"common_sticker_name_vfbm_classic": "Bitcoin-tarra \"Vote For Better Money\" (Classic)",
+	"common_sticker_name_vfbm_ballot": "Bitcoin-tarra \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "Bitcoin-tarra \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — ilmainen ja avoimen lähdekoodin itse-isännöitävä bitcoin-maksunkäsittelijä",
 	"common_source_btc_map": "BTC Map — maailmanlaajuinen bitcoinia hyväksyvien kauppiaiden luettelo",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "si"
 	},
 	"common_footer_follow_first_half": "ඕනෑම Nostr client එකක සෙවීමෙන් Nostr හි අපව අනුගමනය කරන්න",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 cm x 14.605 cm (3.12 අඟල් x 5.75 අඟල්)",
 	"common_stickers_dimensions_what_if": "21.7932 cm x 7.62 cm (8.58 අඟල් x 3 අඟල්)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 cm x 6.35 cm (8.25 අඟල් x 2.5 අඟල්)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "Bitcoin ව්‍යාපාර සඳහා හොඳ ඇයිදැයි ඉගෙන ගන්න",
 	"common_biz_wallets": "Bitcoin ගෙවීම් පිළිගැනීමට Bitcoin පසුම්බියක් ලබාගන්න",
 	"common_biz_maps": "Bitcoin වෙළෙඳ සිතියම්වල ලැයිස්තුගත වන්න",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin \"උද්ධමනයේ ප්‍රතිකර්මය\" ස්ටිකරය",
 	"common_sticker_name_got_inflation": "Bitcoin \"උද්ධමනය තිබේද?\" ස්ටිකරය",
 	"common_sticker_name_what_if": "Bitcoin \"ඔබට උද්ධමනයක් නොතිබුණේ නම්?\" ස්ටිකරය",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" ස්ටිකරය (සාම්ප්‍රදායික)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin ස්ටිකරය",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" ස්ටිකරය",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — නොමිලේ, විවෘත මූලාශ්‍ර, ස්වයං-සත්කාරක Bitcoin ගෙවීම් සකසනය",
 	"common_source_btc_map": "BTC Map — Bitcoin පිළිගන්නා වෙළෙඳුන්ගේ ගෝලීය නාමාවලිය",

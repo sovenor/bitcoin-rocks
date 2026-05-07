@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ru"
 	},
 	"common_footer_follow_first_half": "Подпишитесь на нас в Nostr, найдя",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 см x 14,605 см (3,12 дюйма x 5,75 дюйма)",
 	"common_stickers_dimensions_what_if": "21,7932 см x 7,62 см (8,58 дюйма x 3 дюйма)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 см x 6,35 см (8,25 дюйма x 2,5 дюйма)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 см x 5,08 см (3,81 дюйма x 2 дюйма)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 см x 7,62 см (3,63 дюйма x 3 дюйма)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 см x 3,81 см (1,5 дюйма x 1,5 дюйма)",
 	"common_biz_learn": "Узнайте, почему Биткоин полезен для бизнеса",
 	"common_biz_wallets": "Получите биткоин-кошелёк для приёма платежей в Биткоине",
 	"common_biz_maps": "Разместитесь на картах биткоин-торговцев",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin-наклейка «Cure Inflation»",
 	"common_sticker_name_got_inflation": "Bitcoin-наклейка «Got Inflation?»",
 	"common_sticker_name_what_if": "Bitcoin-наклейка «What if your money didn’t have inflation?»",
+	"common_sticker_name_vfbm_classic": "Наклейка «Vote For Better Money» (Classic)",
+	"common_sticker_name_vfbm_ballot": "Bitcoin-наклейка «Cast Your Vote — Better Money»",
+	"common_sticker_name_vfbm_voted": "Наклейка «I Voted For Better Money»",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — самостоятельно хостимый бесплатный платёжный процессор Bitcoin с открытым исходным кодом",
 	"common_source_btc_map": "BTC Map — мировой каталог торговцев, принимающих Bitcoin",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "nl"
 	},
 	"free_bitcoin_stickers": "Gratis Bitcoin stickers van bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Een mix van Bitcoin-slogans en oneliners ontworpen om nieuwsgierigheid op te wekken op openbare plekken.",
 	"stickers_signs_pack": "DE TEKENS VERZAMELING",
 	"stickers_signs_pack_description": "Waarschuwings-, voorzichtigheids- en informatieborden met Bitcoin-boodschappen — zo ontworpen dat ze de aandacht trekken en mensen laten stoppen om te lezen.",
+	"stickers_vote_pack": "Het Stemdeel",
+	"stickers_vote_pack_description": "Alleen-VS-stickers die mensen verwijzen naar voteforbetter.money — onze aanvullende site die uitlegt waarom Bitcoin beter geld is voor Amerikanen.",
+	"stickers_vote_panel_note_before": "Deze stickers verwijzen mensen naar ",
+	"stickers_vote_panel_note_after": ", onze aanvullende site die uitlegt waarom Bitcoin beter geld is voor Amerikanen.",
+	"stickers_vote_option_print": "🇺🇸 VS — zelf printen",
+	"stickers_vote_option_bulk": "🇺🇸 VS — in bulk bestellen",
+	"stickers_vote_print_c1": "Je kunt ook meedoen door zelf stickers te printen als je liever geen gratis pakket aanvraagt. Klik hieronder om de Engelstalige stickerbestanden en printinstructies te downloaden.",
 	"stickers_btn_choose_pack": "Dit pakket kiezen",
 	"stickers_step_2_eyebrow": "STAP 2",
 	"stickers_step_2_header": "Hoe wil je je stickers ontvangen?",

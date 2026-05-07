@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "my"
 	},
 	"common_footer_follow_first_half": "Nostr client မည်သည့်တစ်ခုတွင်မဆို",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 cm x 14.605 cm (3.12 လက်မ x 5.75 လက်မ)",
 	"common_stickers_dimensions_what_if": "21.7932 cm x 7.62 cm (8.58 လက်မ x 3 လက်မ)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 cm x 6.35 cm (8.25 လက်မ x 2.5 လက်မ)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "Bitcoin သည် စီးပွားရေးအတွက် ဘာကြောင့်ကောင်းကြောင်း သိရှိပါ",
 	"common_biz_wallets": "Bitcoin ငွေပေးချေမှု လက်ခံရန် Bitcoin ပိုက်ဆံအိတ် ရယူပါ",
 	"common_biz_maps": "Bitcoin ကုန်သည်မြေပုံများတွင် စာရင်းသွင်းပါ",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"ငွေကြေးဖောင်းပွမှုကို ကုသပါ\" Bitcoin စတစ်ကာ",
 	"common_sticker_name_got_inflation": "\"ငွေကြေးဖောင်းပွမှု ရှိသလား?\" Bitcoin စတစ်ကာ",
 	"common_sticker_name_what_if": "\"သင့်ငွေတွင် ငွေကြေးဖောင်းပွမှုမရှိပါက?\" Bitcoin စတစ်ကာ",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" စတစ်ကာ (ပုံမှန်)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin စတစ်ကာ",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" စတစ်ကာ",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — အခမဲ့၊ open source၊ ကိုယ်ပိုင်လည်ပတ်နိုင်သော Bitcoin ငွေပေးချေမှု ပြုပြင်သူ",
 	"common_source_btc_map": "BTC Map — ကမ္ဘာ့အနှံ့ Bitcoin လက်ခံသော ကုန်သည်လိပ်စာစာရင်း",

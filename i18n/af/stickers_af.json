@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "af"
 	},
 	"free_bitcoin_stickers": "Gratis Bitcoin-plakkers van bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "'n Mengsel van Bitcoin-slagspreuke en een-reëlers wat ontwerp is om nuuskierigheid in openbare ruimtes te wek.",
 	"stickers_signs_pack": "DIE BORDE-PAKKET",
 	"stickers_signs_pack_description": "Waarskuwings-, gevaar- en voorsorgstyl-tekens met Bitcoin-boodskappe — ontwerp om aandag te trek en mense te laat stop en lees.",
+	"stickers_vote_pack": "Die Stemkombuis-pakket",
+	"stickers_vote_pack_description": "Slegs VSA-plakkers wat mense wys na voteforbetter.money — ons gepaardgaande webwerf wat verduidelik waarom Bitcoin beter geld is vir Amerikaners.",
+	"stickers_vote_panel_note_before": "Hierdie plakkers wys mense na ",
+	"stickers_vote_panel_note_after": ", ons gepaardgaande webwerf wat verduidelik waarom Bitcoin beter geld is vir Amerikaners.",
+	"stickers_vote_option_print": "🇺🇸 VSA — Druk my eie",
+	"stickers_vote_option_bulk": "🇺🇸 VSA — Bestel in grootmaat",
+	"stickers_vote_print_c1": "Jy kan ook deelneem deur jou eie plakkers te druk as jy nie 'n gratis pak wil versoek nie. Klik hieronder om die Engelse plakkerlêers en drukinstruksies af te laai.",
 	"stickers_btn_choose_pack": "Kies hierdie pakkie",
 	"stickers_step_2_eyebrow": "STAP 2",
 	"stickers_step_2_header": "Hoe wil jy jou plakkers kry?",

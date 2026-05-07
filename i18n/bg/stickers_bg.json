@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "bg"
 	},
 	"free_bitcoin_stickers": "Безплатни Биткойн стикери от bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Смес от Bitcoin слогани и фрази, проектирани да предизвикат любопитство на обществени места.",
 	"stickers_signs_pack": "ПАКЕТ ЗНАЦИ",
 	"stickers_signs_pack_description": "Предупредителни, опасни и внимаващи табели с Bitcoin съобщения — проектирани да привличат вниманието и да карат хората да спрат и да прочетат.",
+	"stickers_vote_pack": "Гласувайте пакет",
+	"stickers_vote_pack_description": "Само за САЩ стикери, които насочват хората към voteforbetter.money — нашия придружаващ сайт, обясняващ защо Bitcoin е по-добри пари за американците.",
+	"stickers_vote_panel_note_before": "Тези стикери насочват хората към ",
+	"stickers_vote_panel_note_after": ", нашия придружаващ сайт, обясняващ защо Bitcoin е по-добри пари за американците.",
+	"stickers_vote_option_print": "🇺🇸 САЩ — Ще разпечатам сам",
+	"stickers_vote_option_bulk": "🇺🇸 САЩ — Поръчка на едро",
+	"stickers_vote_print_c1": "Можете да участвате и като разпечатате свои собствени стикери, ако не желаете да поискате безплатен пакет. Кликнете по-долу, за да изтеглите файловете с английски стикери и инструкциите за печат.",
 	"stickers_btn_choose_pack": "Изберете този пакет",
 	"stickers_step_2_eyebrow": "Стъпка 2",
 	"stickers_step_2_header": "Как бихте искали да получите стикерите си?",

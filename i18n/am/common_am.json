@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "am"
 	},
 	"common_footer_follow_first_half": "በNostr ክላይንት ላይ",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 ሴ.ሜ x 14.605 ሴ.ሜ (3.12 ኢንች x 5.75 ኢንች)",
 	"common_stickers_dimensions_what_if": "21.7932 ሴ.ሜ x 7.62 ሴ.ሜ (8.58 ኢንች x 3 ኢንች)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 ሴ.ሜ x 6.35 ሴ.ሜ (8.25 ኢንች x 2.5 ኢንች)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 ሴ.ሜ x 5.08 ሴ.ሜ (3.81 ኢንች x 2 ኢንች)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 ሴ.ሜ x 7.62 ሴ.ሜ (3.63 ኢንች x 3 ኢንች)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 ሴ.ሜ x 3.81 ሴ.ሜ (1.5 ኢንች x 1.5 ኢንች)",
 	"common_biz_learn": "ቢትኮይን ለንግድ ለምን ጥሩ እንደሆነ ይወቁ",
 	"common_biz_wallets": "ቢትኮይን ክፍያ ለመቀበል ቢትኮይን ቦርሳ ያግኙ",
 	"common_biz_maps": "በቢትኮይን ነጋዴ ካርታ ላይ ይመዝገቡ",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" የቢትኮይን ስቲከር",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" የቢትኮይን ስቲከር",
 	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" የቢትኮይን ስቲከር",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" ስቲከር (ክላሲክ)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" የቢትኮይን ስቲከር",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" ስቲከር",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — ነፃ፣ ክፍት ምንጭ፣ ራስ-ተስተናጋጅ የቢትኮይን ክፍያ ፕሮሰሰር",
 	"common_source_btc_map": "BTC Map — ቢትኮይን የሚቀበሉ ነጋዴዎች ዓለም አቀፍ ማውጫ",

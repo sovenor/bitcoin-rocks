@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "sw"
 	},
 	"common_footer_follow_first_half": "Tufuate kwenye Nostr kwa kutafuta",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 sm x 14,605 sm (3,12 in x 5,75 in)",
 	"common_stickers_dimensions_what_if": "21,7932 sm x 7,62 sm (8,58 in x 3 in)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 sm x 6,35 sm (8,25 in x 2,5 in)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 sm x 5,08 sm (3,81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 sm x 7,62 sm (3,63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 sm x 3,81 sm (1,5 in x 1,5 in)",
 	"common_biz_learn": "Jifunze kwa nini Bitcoin ni nzuri kwa biashara",
 	"common_biz_wallets": "Pata pochi ya Bitcoin kukubali malipo ya Bitcoin",
 	"common_biz_maps": "Orodheshwa kwenye ramani za wafanyabiashara wa Bitcoin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Stika ya Bitcoin ya \"Cure Inflation\"",
 	"common_sticker_name_got_inflation": "Stika ya Bitcoin ya \"Got Inflation?\"",
 	"common_sticker_name_what_if": "Stika ya Bitcoin ya \"What if your money didn't have inflation?\"",
+	"common_sticker_name_vfbm_classic": "Stika ya \"Vote For Better Money\" (Classic)",
+	"common_sticker_name_vfbm_ballot": "Stika ya Bitcoin ya \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "Stika ya \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — Mchakataji wa malipo wa Bitcoin wa bure, chanzo huria, ulioko mwenyewe",
 	"common_source_btc_map": "BTC Map — Orodha ya kimataifa ya wafanyabiashara wanaokubali Bitcoin",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-05-07",
 		"locale": "pa"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks ਤੋਂ ਮੁਫ਼੍ਤ Bitcoin ਸ੍ਟਿਕਰ",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "ਬਿਟਕੌਇਨ ਦੇ ਨਾਅਰਿਆਂ ਅਤੇ ਮੌਜੀ ਵਿਚਾਰਾਂ ਦਾ ਮਿਸ਼ਰਣ, ਜਨਤਕ ਥਾਵਾਂ 'ਤੇ ਜਿਗਿਆਸਾ ਜਗਾਉਣ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ।",
 	"stickers_signs_pack": "ਸਾਇਨ ਪੈਕ",
 	"stickers_signs_pack_description": "ਬਿਟਕੌਇਨ ਸੰਦੇਸ਼ਾਂ ਨਾਲ ਚੇਤਾਵਨੀ, ਸਾਵਧਾਨੀ ਅਤੇ ਨੋਟਿਸ ਸਟਿੱਕਰ — ਅੱਖਾਂ ਨੂੰ ਫੜਨ ਅਤੇ ਲੋਕਾਂ ਨੂੰ ਰੋਕਣ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤੇ ਗਏ।",
+	"stickers_vote_pack": "ਵੋਟ ਪੈਕ",
+	"stickers_vote_pack_description": "ਸਿਰਫ਼ USA ਲਈ ਸਟਿੱਕਰ ਜੋ ਲੋਕਾਂ ਨੂੰ voteforbetter.money 'ਤੇ ਲੈ ਜਾਂਦੇ ਹਨ — ਸਾਡੀ ਸਾਥੀ ਵੈੱਬਸਾਈਟ ਜੋ ਦੱਸਦੀ ਹੈ ਕਿ ਅਮਰੀਕੀਆਂ ਲਈ Bitcoin ਬਿਹਤਰ ਪੈਸਾ ਕਿਉਂ ਹੈ।",
+	"stickers_vote_panel_note_before": "ਇਹ ਸਟਿੱਕਰ ਲੋਕਾਂ ਨੂੰ ",
+	"stickers_vote_panel_note_after": ", ਸਾਡੀ ਸਾਥੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਲੈ ਜਾਂਦੇ ਹਨ ਜੋ ਦੱਸਦੀ ਹੈ ਕਿ ਅਮਰੀਕੀਆਂ ਲਈ Bitcoin ਬਿਹਤਰ ਪੈਸਾ ਕਿਉਂ ਹੈ।",
+	"stickers_vote_option_print": "🇺🇸 ਅਮਰੀਕਾ — ਖ਼ੁਦ ਪ੍ਰਿੰਟ ਕਰੋ",
+	"stickers_vote_option_bulk": "🇺🇸 ਅਮਰੀਕਾ — ਥੋਕ ਵਿੱਚ ਆਰਡਰ ਕਰੋ",
+	"stickers_vote_print_c1": "ਜੇ ਤੁਸੀਂ ਮੁਫ਼ਤ ਪੈਕ ਮੰਗਣ ਦੀ ਬਜਾਏ ਖ਼ੁਦ ਸਟਿੱਕਰ ਪ੍ਰਿੰਟ ਕਰਕੇ ਹਿੱਸਾ ਲੈਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਅਜਿਹਾ ਕਰ ਸਕਦੇ ਹੋ। ਅੰਗਰੇਜ਼ੀ ਸਟਿੱਕਰ ਫ਼ਾਈਲਾਂ ਅਤੇ ਪ੍ਰਿੰਟਿੰਗ ਨਿਰਦੇਸ਼ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਹੇਠਾਂ ਕਲਿੱਕ ਕਰੋ।",
 	"stickers_btn_choose_pack": "ਇਹ ਪੈਕ ਚੁਣੋ",
 	"stickers_step_2_eyebrow": "ਕਦਮ 2",
 	"stickers_step_2_header": "ਤੁਸੀਂ ਆਪਣੇ ਸਟਿੱਕਰ ਕਿਵੇਂ ਚਾਹੁੰਦੇ ਹੋ?",

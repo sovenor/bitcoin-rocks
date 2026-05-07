@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "bn"
 	},
 	"common_footer_follow_first_half": "যেকোনো Nostr ক্লায়েন্টে খুঁজে আমাদের Nostr-এ অনুসরণ করুন",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "৭.৯২৪৮ সেমি x ১৪.৬০৫ সেমি (৩.১২ ইঞ্চি x ৫.৭৫ ইঞ্চি)",
 	"common_stickers_dimensions_what_if": "২১.৭৯৩২ সেমি x ৭.৬২ সেমি (৮.৫৮ ইঞ্চি x ৩ ইঞ্চি)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "২০.৯৯৫ সেমি x ৬.৩৫ সেমি (৮.২৫ ইঞ্চি x ২.৫ ইঞ্চি)",
+	"common_stickers_dimensions_vfbm_classic": "৯.৬৭৭৪ সেমি x ৫.০৮ সেমি (৩.৮১ ইঞ্চি x ২ ইঞ্চি)",
+	"common_stickers_dimensions_vfbm_ballot": "৯.২২০২ সেমি x ৭.৬২ সেমি (৩.৬৩ ইঞ্চি x ৩ ইঞ্চি)",
+	"common_stickers_dimensions_vfbm_voted": "৩.৮১ সেমি x ৩.৮১ সেমি (১.৫ ইঞ্চি x ১.৫ ইঞ্চি)",
 	"common_biz_learn": "জানুন কেন Bitcoin ব্যবসার জন্য ভালো",
 	"common_biz_wallets": "Bitcoin পেমেন্ট গ্রহণ করতে একটি Bitcoin ওয়ালেট পান",
 	"common_biz_maps": "Bitcoin মার্চেন্ট ম্যাপে তালিকাভুক্ত হন",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin \"মুদ্রাস্ফীতির নিরাময়\" স্টিকার",
 	"common_sticker_name_got_inflation": "Bitcoin \"মুদ্রাস্ফীতি পেয়েছেন?\" স্টিকার",
 	"common_sticker_name_what_if": "Bitcoin \"যদি আপনার মুদ্রাস্ফীতি না থাকত?\" স্টিকার",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" স্টিকার (ক্লাসিক)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin স্টিকার",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" স্টিকার",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (২০০৮)",
 	"common_source_btcpayserver": "BTCPay Server — বিনামূল্যে, ওপেন সোর্স, স্ব-হোস্টেড Bitcoin পেমেন্ট প্রসেসর",
 	"common_source_btc_map": "BTC Map — Bitcoin-গ্রহণকারী বণিকদের বৈশ্বিক ডিরেক্টরি",

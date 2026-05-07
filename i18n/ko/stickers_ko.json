@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ko"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks의 무료 비트코인 스티커",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "공공장소에서 호기심을 자극하도록 디자인된 비트코인 슬로건과 한 줄 문구의 조합.",
 	"stickers_signs_pack": "표지판 팩",
 	"stickers_signs_pack_description": "비트코인 메시지가 담긴 경고, 위험, 주의 스타일의 표지판 — 시선을 끌고 사람들이 멈춰 서서 읽도록 디자인되었습니다.",
+	"stickers_vote_pack": "보트 팩",
+	"stickers_vote_pack_description": "미국 전용 스티커로, 미국인에게 비트코인이 왜 더 나은 화폐인지 설명하는 동반 사이트인 voteforbetter.money로 안내합니다.",
+	"stickers_vote_panel_note_before": "이 스티커들은 ",
+	"stickers_vote_panel_note_after": ", 미국인에게 비트코인이 왜 더 나은 화폐인지 설명하는 동반 사이트로 안내합니다.",
+	"stickers_vote_option_print": "🇺🇸 미국 — 직접 인쇄",
+	"stickers_vote_option_bulk": "🇺🇸 미국 — 대량 주문",
+	"stickers_vote_print_c1": "무료 팩을 요청하지 않고 직접 스티커를 인쇄하여 참여할 수도 있습니다. 아래를 클릭하여 영어 스티커 파일과 인쇄 안내를 다운로드하세요.",
 	"stickers_btn_choose_pack": "이 팩 선택하기",
 	"stickers_step_2_eyebrow": "2단계",
 	"stickers_step_2_header": "스티커를 어떻게 받으시겠습니까?",

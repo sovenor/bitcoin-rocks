@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "th"
 	},
 	"free_bitcoin_stickers": "สติ๊กเกอร์ Bitcoin ฟรีจาก bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "ส่วนผสมของสโลแกนและคำพูดสั้นๆ เกี่ยวกับ Bitcoin ออกแบบมาเพื่อจุดประกายความอยากรู้ในที่สาธารณะ",
 	"stickers_signs_pack": "THE SIGNS PACK",
 	"stickers_signs_pack_description": "ป้ายเตือน อันตราย และสัญญาณระวังพร้อมข้อความ Bitcoin ออกแบบให้สะดุดตาและทำให้ผู้คนหยุดอ่าน",
+	"stickers_vote_pack": "The Vote Pack",
+	"stickers_vote_pack_description": "สติกเกอร์เฉพาะสำหรับสหรัฐอเมริกาที่พาผู้คนไปยัง voteforbetter.money — เว็บไซต์คู่หูของเราที่อธิบายว่าเหตุใด Bitcoin จึงเป็นเงินที่ดีกว่าสำหรับชาวอเมริกัน",
+	"stickers_vote_panel_note_before": "สติกเกอร์เหล่านี้พาผู้คนไปยัง ",
+	"stickers_vote_panel_note_after": " เว็บไซต์คู่หูของเราที่อธิบายว่าเหตุใด Bitcoin จึงเป็นเงินที่ดีกว่าสำหรับชาวอเมริกัน",
+	"stickers_vote_option_print": "🇺🇸 สหรัฐอเมริกา — พิมพ์เอง",
+	"stickers_vote_option_bulk": "🇺🇸 สหรัฐอเมริกา — สั่งจำนวนมาก",
+	"stickers_vote_print_c1": "คุณสามารถเข้าร่วมได้ด้วยการพิมพ์สติกเกอร์ของคุณเองหากไม่ต้องการขอรับแพ็กฟรี คลิกด้านล่างเพื่อดาวน์โหลดไฟล์สติกเกอร์ภาษาอังกฤษและคำแนะนำการพิมพ์",
 	"stickers_btn_choose_pack": "เลือกแพ็กนี้",
 	"stickers_step_2_eyebrow": "ขั้นที่ 2",
 	"stickers_step_2_header": "คุณอยากได้สติกเกอร์อย่างไร?",

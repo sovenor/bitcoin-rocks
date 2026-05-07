@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "fa"
 	},
 	"common_footer_follow_first_half": "ما را در Nostr با جستجوی",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "۷٫۹۲۴۸ سانتی‌متر × ۱۴٫۶۰۵ سانتی‌متر (۳٫۱۲ اینچ × ۵٫۷۵ اینچ)",
 	"common_stickers_dimensions_what_if": "۲۱٫۷۹۳۲ سانتی‌متر × ۷٫۶۲ سانتی‌متر (۸٫۵۸ اینچ × ۳ اینچ)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "۲۰٫۹۹۵ سانتی‌متر × ۶٫۳۵ سانتی‌متر (۸٫۲۵ اینچ × ۲٫۵ اینچ)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "بیاموزید چرا بیت‌کوین برای کسب‌وکار مفید است",
 	"common_biz_wallets": "یک کیف پول بیت‌کوین برای پذیرش پرداخت دریافت کنید",
 	"common_biz_maps": "در نقشه‌های فروشندگان بیت‌کوین فهرست شوید",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "استیکر بیت‌کوین «Cure Inflation»",
 	"common_sticker_name_got_inflation": "استیکر بیت‌کوین «Got Inflation?»",
 	"common_sticker_name_what_if": "استیکر بیت‌کوین «What if your money didn’t have inflation?»",
+	"common_sticker_name_vfbm_classic": "استیکر «Vote For Better Money» (کلاسیک)",
+	"common_sticker_name_vfbm_ballot": "استیکر بیت‌کوین «Cast Your Vote — Better Money»",
+	"common_sticker_name_vfbm_voted": "استیکر «I Voted For Better Money»",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — پردازشگر پرداخت بیت‌کوین متن‌باز و خودمیزبان رایگان",
 	"common_source_btc_map": "BTC Map — دایرکتوری جهانی تاجرانی که بیت‌کوین می‌پذیرند",

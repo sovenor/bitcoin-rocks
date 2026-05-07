@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "bn"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks থেকে বিনামূল্যে Bitcoin স্টিকার",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "সর্বজনীন স্থানে কৌতূহল জাগানোর জন্য ডিজাইন করা Bitcoin স্লোগান এবং বাক্যাংশের মিশ্রণ।",
 	"stickers_signs_pack": "সাইন্স প্যাক",
 	"stickers_signs_pack_description": "Bitcoin বার্তা সহ সতর্কতা, বিপদ এবং সাবধানতা চিহ্ন — মনোযোগ ধরার এবং মানুষকে থামিয়ে পড়ানোর জন্য ডিজাইন করা।",
+	"stickers_vote_pack": "ভোট প্যাক",
+	"stickers_vote_pack_description": "মার্কিন যুক্তরাষ্ট্র-কেন্দ্রিক স্টিকার যা মানুষকে voteforbetter.money-তে নিয়ে যায় — আমাদের সহযোগী সাইট যেখানে ব্যাখ্যা করা হয় কেন Bitcoin আমেরিকানদের জন্য আরও ভালো অর্থ।",
+	"stickers_vote_panel_note_before": "এই স্টিকারগুলো মানুষকে ",
+	"stickers_vote_panel_note_after": "-এ নিয়ে যায়, আমাদের সহযোগী সাইট যেখানে ব্যাখ্যা করা হয় কেন Bitcoin আমেরিকানদের জন্য আরও ভালো অর্থ।",
+	"stickers_vote_option_print": "🇺🇸 মার্কিন যুক্তরাষ্ট্র — নিজে প্রিন্ট করুন",
+	"stickers_vote_option_bulk": "🇺🇸 মার্কিন যুক্তরাষ্ট্র — বাল্ক অর্ডার",
+	"stickers_vote_print_c1": "আপনি বিনামূল্যে একটি প্যাকের অনুরোধ না করেও নিজের স্টিকার প্রিন্ট করে অংশগ্রহণ করতে পারেন। ইংরেজি স্টিকার ফাইল এবং প্রিন্টিং নির্দেশাবলী ডাউনলোড করতে নীচে ক্লিক করুন।",
 	"stickers_btn_choose_pack": "এই প্যাক বেছে নিন",
 	"stickers_step_2_eyebrow": "ধাপ ২",
 	"stickers_step_2_header": "আপনি কীভাবে আপনার স্টিকার পেতে চান?",

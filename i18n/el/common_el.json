@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "el"
 	},
 	"common_footer_follow_first_half": "Ακολουθήστε μας στο Nostr αναζητώντας",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 εκ. x 14,605 εκ. (3,12 ίντσες x 5,75 ίντσες)",
 	"common_stickers_dimensions_what_if": "21,7932 εκ. x 7,62 εκ. (8,58 ίντσες x 3 ίντσες)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 εκ. x 6,35 εκ. (8,25 ίντσες x 2,5 ίντσες)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 εκ. x 5,08 εκ. (3,81 ίντσες x 2 ίντσες)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 εκ. x 7,62 εκ. (3,63 ίντσες x 3 ίντσες)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 εκ. x 3,81 εκ. (1,5 ίντσες x 1,5 ίντσες)",
 	"common_biz_learn": "Μάθετε γιατί το Bitcoin είναι καλό για τις επιχειρήσεις",
 	"common_biz_wallets": "Αποκτήστε πορτοφόλι Bitcoin για αποδοχή πληρωμών Bitcoin",
 	"common_biz_maps": "Καταχωρηθείτε σε χάρτες εμπόρων Bitcoin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Αυτοκόλλητο Bitcoin «Cure Inflation»",
 	"common_sticker_name_got_inflation": "Αυτοκόλλητο Bitcoin «Got Inflation?»",
 	"common_sticker_name_what_if": "Αυτοκόλλητο Bitcoin «What if your money didn’t have inflation?»",
+	"common_sticker_name_vfbm_classic": "Αυτοκόλλητο «Vote For Better Money» (Classic)",
+	"common_sticker_name_vfbm_ballot": "Αυτοκόλλητο Bitcoin «Cast Your Vote — Better Money»",
+	"common_sticker_name_vfbm_voted": "Αυτοκόλλητο «I Voted For Better Money»",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — δωρεάν open source αυτοφιλοξενούμενος επεξεργαστής πληρωμών Bitcoin",
 	"common_source_btc_map": "BTC Map — παγκόσμιος κατάλογος εμπόρων που δέχονται Bitcoin",

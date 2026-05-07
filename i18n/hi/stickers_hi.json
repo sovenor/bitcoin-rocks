@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "hi"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks से मुफ़्त Bitcoin स्टिकर",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "बिटकॉइन के नारों और हँसमुख विचारों का मिश्रण, सार्वजनिक स्थानों पर जिज्ञासा जगाने के लिए डिज़ाइन किया गया।",
 	"stickers_signs_pack": "साइन पैक",
 	"stickers_signs_pack_description": "बिटकॉइन संदेशों के साथ चेतावनी, सावधानी और नोटिस स्टिकर — आँखों को पकड़ने और लोगों को रोकने के लिए डिज़ाइन किए गए।",
+	"stickers_vote_pack": "वोट पैक",
+	"stickers_vote_pack_description": "केवल अमेरिका के लिए स्टिकर जो लोगों को voteforbetter.money पर ले जाते हैं — हमारी साथी साइट जो समझाती है कि अमेरिकियों के लिए Bitcoin बेहतर मुद्रा क्यों है।",
+	"stickers_vote_panel_note_before": "ये स्टिकर लोगों को ",
+	"stickers_vote_panel_note_after": " पर ले जाते हैं, हमारी साथी साइट जो समझाती है कि अमेरिकियों के लिए Bitcoin बेहतर मुद्रा क्यों है।",
+	"stickers_vote_option_print": "🇺🇸 अमेरिका — ख़ुद प्रिंट करें",
+	"stickers_vote_option_bulk": "🇺🇸 अमेरिका — थोक में ऑर्डर करें",
+	"stickers_vote_print_c1": "अगर आप मुफ़्त पैक नहीं माँगना चाहते तो आप ख़ुद स्टिकर प्रिंट करके भी भाग ले सकते हैं। अंग्रेज़ी स्टिकर फ़ाइलें और प्रिंटिंग निर्देश डाउनलोड करने के लिए नीचे क्लिक करें।",
 	"stickers_btn_choose_pack": "यह पैक चुनें",
 	"stickers_step_2_eyebrow": "क़दम 2",
 	"stickers_step_2_header": "आप अपने स्टिकर कैसे चाहते हैं?",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "ga"
 	},
 	"free_bitcoin_stickers": "Greamáin Bitcoin saor in aisce ó bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Meascán mana agus nathanna Bitcoin deartha chun fiosracht a spreagadh i spásanna poiblí.",
 	"stickers_signs_pack": "AN PACÁISTE COMHARTHAÍ",
 	"stickers_signs_pack_description": "Comharthaí rabhaidh, aire agus foláirimh le teachtaireachtaí Bitcoin — deartha chun an tsúil a tharraingt agus chun stad a chur ar dhaoine chun léamh.",
+	"stickers_vote_pack": "An Pacáiste Vótála",
+	"stickers_vote_pack_description": "Greamáin do SAM amháin a threoraíonn daoine chuig voteforbetter.money — ár suíomh cothromach a mhíníonn cén fáth go bhfuil Bitcoin ina airgead níos fearr do Mheiriceánaigh.",
+	"stickers_vote_panel_note_before": "Treoraíonn na greamáin seo daoine chuig ",
+	"stickers_vote_panel_note_after": ", ár suíomh cothromach a mhíníonn cén fáth go bhfuil Bitcoin ina airgead níos fearr do Mheiriceánaigh.",
+	"stickers_vote_option_print": "🇺🇸 SAM — Priontáil mo chuid féin",
+	"stickers_vote_option_bulk": "🇺🇸 SAM — Ordaigh i mbulc",
+	"stickers_vote_print_c1": "Is féidir leat páirt a ghlacadh freisin trí do ghreamáin féin a phriontáil mura mian leat pacáiste saor in aisce a iarraidh. Cliceáil thíos chun comhaid ghreamán Béarla agus treoracha priontála a íoslódáil.",
 	"stickers_btn_choose_pack": "Roghnaigh an pacáiste seo",
 	"stickers_step_2_eyebrow": "CÉIM 2",
 	"stickers_step_2_header": "Conas ar mhaith leat do ghreamáin?",

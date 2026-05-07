@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "az"
 	},
 	"common_footer_follow_first_half": "Hər hansı Nostr müştərisində axtararaq bizi izləyin",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 sm x 14.605 sm (3.12 düym x 5.75 düym)",
 	"common_stickers_dimensions_what_if": "21.7932 sm x 7.62 sm (8.58 düym x 3 düym)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 sm x 6.35 sm (8.25 düym x 2.5 düym)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 sm x 5.08 sm (3.81 düym x 2 düym)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 sm x 7.62 sm (3.63 düym x 3 düym)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 sm x 3.81 sm (1.5 düym x 1.5 düym)",
 	"common_biz_learn": "Bitcoin-in biznes üçün niyə yaxşı olduğunu öyrənin",
 	"common_biz_wallets": "Bitcoin ödənişlərini qəbul etmək üçün Bitcoin pul kisəsi əldə edin",
 	"common_biz_maps": "Bitcoin ticarətçi xəritələrində siyahıya düşün",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Bitcoin \"İnflyasiyanın müalicəsi\" stikeri",
 	"common_sticker_name_got_inflation": "Bitcoin \"İnflyasiyanız var?\" stikeri",
 	"common_sticker_name_what_if": "Bitcoin \"Əgər inflyasiyanız olmasaydı?\" stikeri",
+	"common_sticker_name_vfbm_classic": "Bitcoin \"Vote For Better Money\" stikeri (Klassik)",
+	"common_sticker_name_vfbm_ballot": "Bitcoin \"Cast Your Vote — Better Money\" stikeri",
+	"common_sticker_name_vfbm_voted": "Bitcoin \"I Voted For Better Money\" stikeri",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — pulsuz, açıq mənbəli, öz-özünə hostlanan Bitcoin ödəniş prosessoru",
 	"common_source_btc_map": "BTC Map — Bitcoin qəbul edən tacirlərin qlobal kataloqu",

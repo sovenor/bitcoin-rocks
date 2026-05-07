@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "am"
 	},
 	"free_bitcoin_stickers": "ከbitcoin.rocks ነፃ ቢትኮይን ስቲከሮች",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "በህዝብ ቦታዎች ጉጉትን ለማነሳሳት የተቀረፁ የቢትኮይን መፈክሮች እና አንድ-መስመር ዓረፍተ ነገሮች ድብልቅ።",
 	"stickers_signs_pack": "ምልክት ፓኬጅ",
 	"stickers_signs_pack_description": "የማስጠንቀቂያ፣ የአደጋ እና የጥንቃቄ-አይነት ምልክቶች ከቢትኮይን መልዕክቶች ጋር — ትኩረት ለመሳብ እና ሰዎች ቆመው እንዲያነቡ ለማድረግ የተቀረፁ።",
+	"stickers_vote_pack": "የድምፅ ፓኬጅ",
+	"stickers_vote_pack_description": "ሰዎችን ወደ voteforbetter.money የሚወስዱ ለዩናይትድ ስቴትስ ብቻ የሆኑ ስቲከሮች — ቢትኮይን ለአሜሪካኖች ለምን ተሻሻለ ሂሳብ እንደሆነ የሚያብራራ የኛ ተጓዳኝ ጣቢያ።",
+	"stickers_vote_panel_note_before": "እነዚህ ስቲከሮች ሰዎችን ወደ ",
+	"stickers_vote_panel_note_after": " ይወስዷቸዋል፣ ቢትኮይን ለአሜሪካኖች ለምን ተሻሻለ ሂሳብ እንደሆነ የሚያብራራ የኛ ተጓዳኝ ጣቢያ።",
+	"stickers_vote_option_print": "🇺🇸 አሜሪካ — የራሴን አተማለሁ",
+	"stickers_vote_option_bulk": "🇺🇸 አሜሪካ — በብዛት ያዙ",
+	"stickers_vote_print_c1": "ነፃ ፓኬት ከመጠየቅ ይልቅ የራስዎን ስቲከሮች በማተም ደግሞ መሳተፍ ይችላሉ። የእንግሊዝኛ ስቲከር ፋይሎችን እና የህትመት መመሪያዎችን ለማውረድ ከዚህ በታች ያጫኑ።",
 	"stickers_btn_choose_pack": "ይህን ፓኬት ይምረጡ",
 	"stickers_step_2_eyebrow": "ደረጃ 2",
 	"stickers_step_2_header": "ስቲከሮችዎን እንዴት ማግኘት ይፈልጋሉ?",

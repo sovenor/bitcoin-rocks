@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "fi"
 	},
 	"free_bitcoin_stickers": "Ilmaiset Bitcoin-tarrat bitcoin.rocksilta",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Yhdistelmä bitcoin-iskulauseita ja nokkelia mietelmiä, jotka on suunniteltu herättämään uteliaisuutta julkisissa paikoissa.",
 	"stickers_signs_pack": "KYLTTIPAKETTI",
 	"stickers_signs_pack_description": "Varoitus-, varoitus- ja huomiomerkkitarroja bitcoin-viesteillä — suunniteltu herättämään huomio ja saamaan ihmiset pysähtymään lukemaan.",
+	"stickers_vote_pack": "The Vote Pack",
+	"stickers_vote_pack_description": "Vain USA:ssa saatavilla olevat tarrat, jotka ohjaavat ihmiset sivustolle voteforbetter.money — sivustomme, joka selittää miksi Bitcoin on parempaa rahaa amerikkalaisille.",
+	"stickers_vote_panel_note_before": "Nämä tarrat ohjaavat ihmiset sivustolle ",
+	"stickers_vote_panel_note_after": ", sivustomme, joka selittää miksi Bitcoin on parempaa rahaa amerikkalaisille.",
+	"stickers_vote_option_print": "🇺🇸 USA — Tulosta itse",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Tilaa suurerin",
+	"stickers_vote_print_c1": "Voit myös osallistua tulostamalla omat tarrasi, jos et mieluummin halua pyytää ilmaista pakkauksia. Klikkaa alla ladataksesi englanninkieliset tarratiedostot ja tulostusohjeet.",
 	"stickers_btn_choose_pack": "Valitse tämä pakkaus",
 	"stickers_step_2_eyebrow": "VAIHE 2",
 	"stickers_step_2_header": "Miten haluat tarrasi?",

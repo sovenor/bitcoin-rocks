@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "vi"
 	},
 	"free_bitcoin_stickers": "Nhãn dán Bitcoin miễn phí từ bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Một sự kết hợp giữa các khẩu hiệu Bitcoin và những câu nói ngắn được thiết kế để khơi gợi sự tò mò ở nơi công cộng.",
 	"stickers_signs_pack": "GÓI BIỂN",
 	"stickers_signs_pack_description": "Các biển báo theo phong cách cảnh báo, nguy hiểm và chú ý với thông điệp Bitcoin — được thiết kế để thu hút sự chú ý và khơi gợi tò mò ở nơi công cộng.",
+	"stickers_vote_pack": "Gói Vote",
+	"stickers_vote_pack_description": "Nhãn dán chỉ dành cho Hoa Kỳ, hướng mọi người đến voteforbetter.money — trang web đồng hành của chúng tôi giải thích tại sao Bitcoin là đồng tiền tốt hơn cho người Mỹ.",
+	"stickers_vote_panel_note_before": "Những nhãn dán này hướng mọi người đến ",
+	"stickers_vote_panel_note_after": ", trang web đồng hành của chúng tôi giải thích tại sao Bitcoin là đồng tiền tốt hơn cho người Mỹ.",
+	"stickers_vote_option_print": "🇺🇸 Hoa Kỳ — Tự in",
+	"stickers_vote_option_bulk": "🇺🇸 Hoa Kỳ — Đặt số lượng lớn",
+	"stickers_vote_print_c1": "Bạn cũng có thể tham gia bằng cách tự in nhãn dán nếu không muốn yêu cầu gói miễn phí. Nhấp vào bên dưới để tải xuống các tệp nhãn dán tiếng Anh và hướng dẫn in.",
 	"stickers_btn_choose_pack": "Chọn gói này",
 	"stickers_step_2_eyebrow": "BƯỚC 2",
 	"stickers_step_2_header": "Bạn muốn nhận nhãn dán bằng cách nào?",

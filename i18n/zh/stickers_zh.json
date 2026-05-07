@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "zh"
 	},
 	"free_bitcoin_stickers": "来自bitcoin.rocks的免费比特币贴纸",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "一组比特币口号和金句的混合包，专为在公共场所激发好奇心而设计。",
 	"stickers_signs_pack": "标志包",
 	"stickers_signs_pack_description": "带有比特币信息的警告、危险和提醒风格标志——专为吸引注意、让人停下来阅读而设计。",
+	"stickers_vote_pack": "投票包",
+	"stickers_vote_pack_description": "仅适用于美国的贴纸，引导人们访问 voteforbetter.money —— 我们的姊妹网站，专门说明为什么比特币是更适合美国人的货币。",
+	"stickers_vote_panel_note_before": "这些贴纸引导人们访问 ",
+	"stickers_vote_panel_note_after": "，我们的姊妹网站，专门说明为什么比特币是更适合美国人的货币。",
+	"stickers_vote_option_print": "🇺🇸 美国 —— 自己打印",
+	"stickers_vote_option_bulk": "🇺🇸 美国 —— 批量订购",
+	"stickers_vote_print_c1": "如果您不想申请免费贴纸包，也可以自己打印贴纸。点击下面下载英文贴纸文件和打印说明。",
 	"stickers_btn_choose_pack": "选择这一包",
 	"stickers_step_2_eyebrow": "第 2 步",
 	"stickers_step_2_header": "您希望如何拿到您的贴纸？",

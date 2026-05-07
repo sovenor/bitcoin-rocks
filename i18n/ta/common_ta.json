@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ta"
 	},
 	"common_footer_follow_first_half": "எந்த Nostr கிளையண்டிலும் தேடுவதன் மூலம் எங்களை Nostr இல் பின்தொடரவும்",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 செமீ x 14.605 செமீ (3.12 அங்குலம் x 5.75 அங்குலம்)",
 	"common_stickers_dimensions_what_if": "21.7932 செமீ x 7.62 செமீ (8.58 அங்குலம் x 3 அங்குலம்)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 செமீ x 6.35 செமீ (8.25 அங்குலம் x 2.5 அங்குலம்)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "பிட்காயின் ஏன் வணிகத்திற்கு நல்லது என்பதை அறியவும்",
 	"common_biz_wallets": "பிட்காயின் கட்டணங்களை ஏற்க ஒரு பிட்காயின் வாலெட்டைப் பெறுங்கள்",
 	"common_biz_maps": "பிட்காயின் வணிக வரைபடங்களில் பட்டியலிடப்படுங்கள்",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" Bitcoin ஸ்டிக்கர்",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" Bitcoin ஸ்டிக்கர்",
 	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin ஸ்டிக்கர்",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" ஸ்டிக்கர் (கிளாசிக்)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin ஸ்டிக்கர்",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" ஸ்டிக்கர்",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — இலவச, திறந்த-மூல, சுய-ஹோஸ்ட் செய்யப்பட்ட Bitcoin கொடுப்பனவு செயலி",
 	"common_source_btc_map": "BTC Map — Bitcoin ஏற்கும் வணிகர்களின் உலகளாவிய அடைவு",

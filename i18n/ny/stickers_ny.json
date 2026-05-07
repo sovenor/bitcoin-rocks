@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ny"
 	},
 	"free_bitcoin_stickers": "Zitikiti za Bitcoin zaulere kuchokera ku bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Kuphatikiza kwa mawu a Bitcoin ndi mawu omveka opangidwa kuti achititse chidwi pamalo a anthu ambiri.",
 	"stickers_signs_pack": "PAKETI YA ZIZINDIKIRO",
 	"stickers_signs_pack_description": "Zikwangwani za chenjezo, zoopsa, ndi zomanga ndi mauthenga a Bitcoin — zopangidwa kuti zikope chidwi ndikupangitsa anthu kuyimirira ndikuwerenga.",
+	"stickers_vote_pack": "Paketi ya Kuvota",
+	"stickers_vote_pack_description": "Zitikiti za USA okha zomwe zimatsogolera anthu ku voteforbetter.money — tsamba lathu lomwe limafotokoza chifukwa Bitcoin ndi ndalama yabwino kwambiri kwa Aamerika.",
+	"stickers_vote_panel_note_before": "Zitikiti izi zimatsogolera anthu ku ",
+	"stickers_vote_panel_note_after": ", tsamba lathu lomwe limafotokoza chifukwa Bitcoin ndi ndalama yabwino kwambiri kwa Aamerika.",
+	"stickers_vote_option_print": "🇺🇸 USA — Sindikizani nokha",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Odolani zambiri",
+	"stickers_vote_print_c1": "Mukhozanso kulowa nawo posindikiza nokha zitikiti ngati simukufuna kupempha paketi yaulere. Dinani pansipa kuti mutsitse mafayilo a zitikiti za Chingerezi ndi malangizo a kusindikiza.",
 	"stickers_btn_choose_pack": "Sankhani paketi iyi",
 	"stickers_step_2_eyebrow": "SITEPE 2",
 	"stickers_step_2_header": "Mukufuna kulandira zitikiti zanu motani?",

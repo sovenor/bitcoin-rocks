@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-07",
 		"locale": "az"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks-dan pulsuz Bitcoin etiketləri",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "İctimai yerlərdə maraq yaratmaq üçün hazırlanmış Bitcoin şüarları və ifadələrinin qarışığı.",
 	"stickers_signs_pack": "NİŞANLAR PAKETİ",
 	"stickers_signs_pack_description": "Bitcoin mesajları ilə xəbərdarlıq, təhlükə və diqqət formalı lövhələr — diqqəti cəlb etmək və insanların dayanıb oxumasını təmin etmək üçün hazırlanıb.",
+	"stickers_vote_pack": "Seçki Paketi",
+	"stickers_vote_pack_description": "Yalnız ABŞ üçün olan bu stikerler insanları voteforbetter.money saytına yönləndirir — Bitcoin-in amerikalılar üçün niyə daha yaxşı pul olduğunu izah edən tərəf saytımız.",
+	"stickers_vote_panel_note_before": "Bu stikerler insanları ",
+	"stickers_vote_panel_note_after": ", amerikalılar üçün Bitcoin-in niyə daha yaxşı pul olduğunu izah edən tərəf saytımıza yönləndirir.",
+	"stickers_vote_option_print": "🇺🇸 ABŞ — Özüm çap edəcəm",
+	"stickers_vote_option_bulk": "🇺🇸 ABŞ — Toplu sifariş",
+	"stickers_vote_print_c1": "Pulsuz paket tələb etmək istəmirsinizsə, öz stikerlərinizi çap edərək də iştirak edə bilərsiniz. İngilis dilindəki stiker fayllarını və çap təlimatlarını endirmək üçün aşağıya klikləyin.",
 	"stickers_btn_choose_pack": "Bu paketi seçin",
 	"stickers_step_2_eyebrow": "Addım 2",
 	"stickers_step_2_header": "Stikerlərinizi necə əldə etmək istərdiniz?",

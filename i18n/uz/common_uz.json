@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "uz"
 	},
 	"common_footer_follow_first_half": "Har qanday Nostr klientida",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 sm x 14,605 sm (3,12 in x 5,75 in)",
 	"common_stickers_dimensions_what_if": "21,7932 sm x 7,62 sm (8,58 in x 3 in)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 sm x 6,35 sm (8,25 in x 2,5 in)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 sm x 5.08 sm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 sm x 7.62 sm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 sm x 3.81 sm (1.5 in x 1.5 in)",
 	"common_biz_learn": "Bitcoin biznes uchun nima uchun foydali ekanligini bilib oling",
 	"common_biz_wallets": "Toʻlov qabul qilish uchun Bitcoin hamyoni oling",
 	"common_biz_maps": "Bitcoin savdogar xaritalariga roʻyxatdan oʻting",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "“Inflyatsiyani davolang” Bitcoin stikeri",
 	"common_sticker_name_got_inflation": "“Inflyatsiyangiz bormi?” Bitcoin stikeri",
 	"common_sticker_name_what_if": "“Agar pulingizning inflyatsiyasi boʻlmasaydi-chi?” Bitcoin stikeri",
+	"common_sticker_name_vfbm_classic": "“Yaxshiroq pulga ovoz bering” stikeri (klassik)",
+	"common_sticker_name_vfbm_ballot": "“Ovoz bering — Yaxshiroq pul” Bitcoin stikeri",
+	"common_sticker_name_vfbm_voted": "“Men yaxshiroq pul uchun ovoz berdim” stikeri",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: tengdosh-dan-tengdoshga elektron pul tizimi (2008)",
 	"common_source_btcpayserver": "BTCPay Server — bepul, ochiq manbali, oʻz-oʻzini joylaydigan Bitcoin toʻlov qayta ishlovchi",
 	"common_source_btc_map": "BTC Map — Bitcoinni qabul qiluvchi savdogarlarning butun dunyo katalogi",

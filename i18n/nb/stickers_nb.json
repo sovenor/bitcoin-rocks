@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-05-07",
 		"locale": "nb"
 	},
 	"free_bitcoin_stickers": "Gratis Bitcoin-klistremerker fra bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "En blanding av Bitcoin-slagord og enlinjere designet for å vekke nysgjerrighet på offentlige steder.",
 	"stickers_signs_pack": "Skiltpakken",
 	"stickers_signs_pack_description": "Advarsels-, fare- og forsiktighetsskilt med Bitcoin-budskap — designet for å fange oppmerksomhet og få folk til å stoppe opp og lese.",
+	"stickers_vote_pack": "The Vote Pack",
+	"stickers_vote_pack_description": "Klistremerker kun for USA som sender folk til voteforbetter.money — vår følgeside som forklarer hvorfor Bitcoin er bedre penger for amerikanere.",
+	"stickers_vote_panel_note_before": "Disse klistremerkene sender folk til ",
+	"stickers_vote_panel_note_after": ", vår følgeside som forklarer hvorfor Bitcoin er bedre penger for amerikanere.",
+	"stickers_vote_option_print": "🇺🇸 USA — Skriv ut selv",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Bestill i bulk",
+	"stickers_vote_print_c1": "Du kan også delta ved å skrive ut dine egne klistremerker hvis du heller ikke vil be om en gratis pakke. Klikk nedenfor for å laste ned de engelske klistremerkefilene og utskriftsinstruksjonene.",
 	"stickers_btn_choose_pack": "Velg denne pakken",
 	"stickers_step_2_eyebrow": "TRINN 2",
 	"stickers_step_2_header": "Hvordan vil du få klistremerkene dine?",

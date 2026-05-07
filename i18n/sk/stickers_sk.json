@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "sk"
 	},
 	"free_bitcoin_stickers": "Bezplatné bitcoinové nálepky od bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Zmes Bitcoin sloganov a jednovetých bonmotov, ktoré majú vzbudiť zvedavosť na verejných priestranstvách.",
 	"stickers_signs_pack": "BALÍČEK ZNAČIEK",
 	"stickers_signs_pack_description": "Výstražné, varovné a upozorňovacie tabule s Bitcoin posolstvom — navrhnuté tak, aby upútali pozornosť a prinútili ľudí zastaviť sa a prečítať.",
+	"stickers_vote_pack": "Volebný balíček",
+	"stickers_vote_pack_description": "Nálepky výhradne pre USA, ktoré odkazujú ľudí na voteforbetter.money — našu sprievodnú stránku vysvetľujúcu, prečo je Bitcoin lepšie peniaze pre Američanov.",
+	"stickers_vote_panel_note_before": "Tieto nálepky odkazujú ľudí na ",
+	"stickers_vote_panel_note_after": ", našu sprievodnú stránku vysvetľujúcu, prečo je Bitcoin lepšie peniaze pre Američanov.",
+	"stickers_vote_option_print": "🇺🇸 USA — Vytlačím si vlastné",
+	"stickers_vote_option_bulk": "🇺🇸 USA — Objednať hromadne",
+	"stickers_vote_print_c1": "Môžete sa tiež zapojiť vytlačením vlastných nálepiek, ak si radšej nechcete vyžiadať bezplatný balíček. Kliknite nižšie na stiahnutie anglických súborov nálepiek a pokynov na tlač.",
 	"stickers_btn_choose_pack": "Vybrať tento balíček",
 	"stickers_step_2_eyebrow": "KROK 2",
 	"stickers_step_2_header": "Ako si chcete nálepky zaobstarať?",

@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "ur"
 	},
 	"common_footer_follow_first_half": "Nostr پر ہمیں فالو کریں کسی بھی Nostr کلائنٹ میں تلاش کر کے",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 سم x 14.605 سم (3.12 انچ x 5.75 انچ)",
 	"common_stickers_dimensions_what_if": "21.7932 سم x 7.62 سم (8.58 انچ x 3 انچ)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 سم x 6.35 سم (8.25 انچ x 2.5 انچ)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "جانیں Bitcoin کاروبار کے لیے کیوں اچھا ہے",
 	"common_biz_wallets": "Bitcoin ادائیگیاں قبول کرنے کے لیے Bitcoin والٹ حاصل کریں",
 	"common_biz_maps": "Bitcoin مرچنٹ نقشوں پر درج ہوں",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" Bitcoin سٹیکر",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" Bitcoin سٹیکر",
 	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin سٹیکر",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" سٹیکر (کلاسک)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin سٹیکر",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" سٹیکر",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — مفت، اوپن سورس، خود میزبان Bitcoin پیمنٹ پروسیسر",
 	"common_source_btc_map": "BTC Map — Bitcoin قبول کرنے والے تاجروں کی عالمی ڈائریکٹری",

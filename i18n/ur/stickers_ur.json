@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-26",
+		"last-updated": "2026-05-07",
 		"locale": "ur"
 	},
 	"free_bitcoin_stickers": "bitcoin.rocks سے مفت Bitcoin سٹیکرز",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Bitcoin نعروں اور ایک سطری جملوں کا مرکب جو عوامی جگہوں پر تجسس پیدا کرنے کے لیے ڈیزائن کیا گیا ہے۔",
 	"stickers_signs_pack": "سائنز پیک",
 	"stickers_signs_pack_description": "وارننگ، خطرہ، اور احتیاط کی طرز کے سائن جن پر Bitcoin پیغامات ہیں — توجہ حاصل کرنے اور لوگوں کو روک کر پڑھنے کے لیے ڈیزائن کیا گیا۔",
+	"stickers_vote_pack": "ووٹ پیک",
+	"stickers_vote_pack_description": "امریکہ کے لیے مخصوص سٹیکرز جو لوگوں کو voteforbetter.money کی طرف بھیجتے ہیں — ہماری ساتھی سائٹ جو بتاتی ہے کہ Bitcoin امریکیوں کے لیے بہتر پیسہ کیوں ہے۔",
+	"stickers_vote_panel_note_before": "یہ سٹیکرز لوگوں کو ",
+	"stickers_vote_panel_note_after": "، ہماری ساتھی سائٹ کی طرف بھیجتے ہیں جو بتاتی ہے کہ Bitcoin امریکیوں کے لیے بہتر پیسہ کیوں ہے۔",
+	"stickers_vote_option_print": "🇺🇸 امریکہ — خود پرنٹ کریں",
+	"stickers_vote_option_bulk": "🇺🇸 امریکہ — تھوک میں آرڈر کریں",
+	"stickers_vote_print_c1": "آپ اپنے سٹیکرز خود پرنٹ کر کے حصہ لے سکتے ہیں اگر آپ مفت پیکٹ کی درخواست نہیں کرنا چاہتے۔ انگریزی سٹیکر فائلیں اور پرنٹنگ کی ہدایات ڈاؤن لوڈ کرنے کے لیے نیچے کلک کریں۔",
 	"stickers_btn_choose_pack": "یہ پیک منتخب کریں",
 	"stickers_step_2_eyebrow": "قدم 2",
 	"stickers_step_2_header": "آپ اپنے سٹیکرز کیسے حاصل کرنا چاہیں گے؟",

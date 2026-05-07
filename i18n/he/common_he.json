@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "he"
 	},
 	"common_footer_follow_first_half": "עקבו אחרינו ב-Nostr על ידי חיפוש",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 ס\"מ × 14.605 ס\"מ (3.12 אינץ' × 5.75 אינץ')",
 	"common_stickers_dimensions_what_if": "21.7932 ס\"מ × 7.62 ס\"מ (8.58 אינץ' × 3 אינץ')",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 ס\"מ × 6.35 ס\"מ (8.25 אינץ' × 2.5 אינץ')",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 ס\"מ × 5.08 ס\"מ (3.81 אינץ' × 2 אינץ')",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 ס\"מ × 7.62 ס\"מ (3.63 אינץ' × 3 אינץ')",
+	"common_stickers_dimensions_vfbm_voted": "3.81 ס\"מ × 3.81 ס\"מ (1.5 אינץ' × 1.5 אינץ')",
 	"common_biz_learn": "למדו למה ביטקוין טוב לעסקים",
 	"common_biz_wallets": "קבלו ארנק ביטקוין לקבלת תשלומי ביטקוין",
 	"common_biz_maps": "הירשמו במפות סוחרי ביטקוין",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "מדבקת ביטקוין \"Cure Inflation\"",
 	"common_sticker_name_got_inflation": "מדבקת ביטקוין \"Got Inflation?\"",
 	"common_sticker_name_what_if": "מדבקת ביטקוין \"What if your money didn’t have inflation?\"",
+	"common_sticker_name_vfbm_classic": "מדבקת \"Vote For Better Money\" (Classic)",
+	"common_sticker_name_vfbm_ballot": "מדבקת ביטקוין \"Cast Your Vote — Better Money\"",
+	"common_sticker_name_vfbm_voted": "מדבקת \"I Voted For Better Money\"",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — מעבד תשלומי ביטקוין חינמי בקוד פתוח לאירוח עצמי",
 	"common_source_btc_map": "BTC Map — מדריך גלובלי לסוחרים שמקבלים ביטקוין",

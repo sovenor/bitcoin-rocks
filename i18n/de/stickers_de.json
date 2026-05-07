@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "de"
 	},
 	"free_bitcoin_stickers": "Kostenlose Bitcoin-Sticker von bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "Eine Mischung aus Bitcoin-Slogans und Einzeilern, die an öffentlichen Orten Neugier wecken sollen.",
 	"stickers_signs_pack": "DAS SCHILDER-PAKET",
 	"stickers_signs_pack_description": "Warn-, Vorsichts- und Hinweisschilder mit Bitcoin-Botschaften — so gestaltet, dass sie Aufmerksamkeit erregen und Menschen zum Anhalten und Lesen bringen.",
+	"stickers_vote_pack": "Das Vote-Paket",
+	"stickers_vote_pack_description": "Nur für die USA — Aufkleber, die Menschen zu voteforbetter.money führen, unserer Partnerseite, die erklärt, warum Bitcoin für Amerikaner das bessere Geld ist.",
+	"stickers_vote_panel_note_before": "Diese Aufkleber führen Menschen zu ",
+	"stickers_vote_panel_note_after": ", unserer Partnerseite, die erklärt, warum Bitcoin für Amerikaner das bessere Geld ist.",
+	"stickers_vote_option_print": "🇺🇸 USA — Selbst drucken",
+	"stickers_vote_option_bulk": "🇺🇸 USA — In großen Mengen bestellen",
+	"stickers_vote_print_c1": "Du kannst auch mitmachen, indem Du Deine eigenen Aufkleber druckst, wenn Du lieber kein kostenloses Paket anforderst. Klicke unten, um die englischen Aufkleberdateien und Druckhinweise herunterzuladen.",
 	"stickers_btn_choose_pack": "Dieses Paket wählen",
 	"stickers_step_2_eyebrow": "SCHRITT 2",
 	"stickers_step_2_header": "Wie möchtest Du Deine Aufkleber bekommen?",

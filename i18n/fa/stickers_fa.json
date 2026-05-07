@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-05-07",
 		"locale": "fa"
 	},
 	"free_bitcoin_stickers": "برچسب‌های رایگان بیت‌کوین از bitcoin.rocks",
@@ -21,6 +21,13 @@
 	"stickers_text_pack_description": "ترکیبی از شعارها و افکار شادمانه بیت‌کوین، طراحی شده برای برانگیختن کنجکاوی در مکان‌های عمومی.",
 	"stickers_signs_pack": "بسته تابلویی",
 	"stickers_signs_pack_description": "استیکرهای هشدار، احتیاط و اطلاعیه با پیام‌های بیت‌کوین — طراحی شده برای جلب توجه و متوقف کردن مردم.",
+	"stickers_vote_pack": "بسته رأی",
+	"stickers_vote_pack_description": "استیکرهایی مخصوص آمریکا که مردم را به voteforbetter.money هدایت می‌کنند — سایت همراه ما که توضیح می‌دهد چرا بیت‌کوین پول بهتری برای آمریکایی‌هاست.",
+	"stickers_vote_panel_note_before": "این استیکرها مردم را به ",
+	"stickers_vote_panel_note_after": " هدایت می‌کنند، سایت همراه ما که توضیح می‌دهد چرا بیت‌کوین پول بهتری برای آمریکایی‌هاست.",
+	"stickers_vote_option_print": "🇺🇸 آمریکا — چاپ خودم",
+	"stickers_vote_option_bulk": "🇺🇸 آمریکا — سفارش عمده",
+	"stickers_vote_print_c1": "همچنین می‌توانید با چاپ استیکرهای خودتان مشارکت کنید، اگر ترجیح می‌دهید بسته رایگان درخواست نکنید. برای دانلود فایل‌های استیکر انگلیسی و دستورالعمل‌های چاپ، روی دکمه زیر کلیک کنید.",
 	"stickers_btn_choose_pack": "این بسته را انتخاب کنید",
 	"stickers_step_2_eyebrow": "گام ۲",
 	"stickers_step_2_header": "چگونه استیکرهای خود را می‌خواهید؟",

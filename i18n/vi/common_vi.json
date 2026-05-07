@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-25",
+		"last-updated": "2026-05-07",
 		"locale": "vi"
 	},
 	"common_footer_follow_first_half": "Theo dõi chúng tôi trên Nostr bằng cách tìm kiếm",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7,9248 cm x 14,605 cm (3,12 in x 5,75 in)",
 	"common_stickers_dimensions_what_if": "21,7932 cm x 7,62 cm (8,58 in x 3 in)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20,995 cm x 6,35 cm (8,25 in x 2,5 in)",
+	"common_stickers_dimensions_vfbm_classic": "9,6774 cm x 5,08 cm (3,81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9,2202 cm x 7,62 cm (3,63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3,81 cm x 3,81 cm (1,5 in x 1,5 in)",
 	"common_biz_learn": "Tìm hiểu tại sao Bitcoin tốt cho doanh nghiệp",
 	"common_biz_wallets": "Tải ví Bitcoin để chấp nhận thanh toán Bitcoin",
 	"common_biz_maps": "Đăng ký trên bản đồ thương nhân Bitcoin",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "Nhãn dán Bitcoin “Chữa lạm phát”",
 	"common_sticker_name_got_inflation": "Nhãn dán Bitcoin “Bạn có lạm phát?”",
 	"common_sticker_name_what_if": "Nhãn dán Bitcoin “Nếu tiền của bạn không có lạm phát thì sao?”",
+	"common_sticker_name_vfbm_classic": "Nhãn dán “Vote For Better Money” (Classic)",
+	"common_sticker_name_vfbm_ballot": "Nhãn dán Bitcoin “Cast Your Vote — Better Money”",
+	"common_sticker_name_vfbm_voted": "Nhãn dán “I Voted For Better Money”",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: Hệ thống Tiền điện tử Ngang hàng (2008)",
 	"common_source_btcpayserver": "BTCPay Server — Bộ xử lý thanh toán Bitcoin miễn phí, mã nguồn mở, tự lưu trữ",
 	"common_source_btc_map": "BTC Map — Danh bạ toàn cầu các thương nhân chấp nhận Bitcoin",
