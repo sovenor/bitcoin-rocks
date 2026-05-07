@@ -58,8 +58,13 @@ const ALL_OPTIONS: ReadonlyArray<{ id: OptionId; labelKey: string }> = [
 	{ id: "bulk", labelKey: "stickers_option_bulk" },
 ];
 
-// Vote pack hides Canada — USA mail / Print / Bulk only.
-const VOTE_OPTIONS = new Set<OptionId>(["usa", "print", "bulk"]);
+// Vote pack: USA mail / Print / Bulk only — and the Print + Bulk labels
+// get a USA prefix so the campaign reads as American-only at a glance.
+const VOTE_PACK_OPTIONS: ReadonlyArray<{ id: OptionId; labelKey: string }> = [
+	{ id: "usa", labelKey: "stickers_option_usa" },
+	{ id: "print", labelKey: "stickers_vote_option_print" },
+	{ id: "bulk", labelKey: "stickers_vote_option_bulk" },
+];
 
 export function StickerFlow({ localePrefix }: Props) {
 	const t = useTranslations();
@@ -91,10 +96,7 @@ export function StickerFlow({ localePrefix }: Props) {
 		});
 	}, [option]);
 
-	const options =
-		pack === "vote"
-			? ALL_OPTIONS.filter((o) => VOTE_OPTIONS.has(o.id))
-			: ALL_OPTIONS;
+	const options = pack === "vote" ? VOTE_PACK_OPTIONS : ALL_OPTIONS;
 
 	const showMail = (p: PackId, v: "usa" | "canada") =>
 		pack === p && option === v;
@@ -202,6 +204,7 @@ export function StickerFlow({ localePrefix }: Props) {
 						<PrintPanel
 							localePrefix={localePrefix}
 							hidden={option !== "print"}
+							voteOnly={pack === "vote"}
 						/>
 						<BulkPanel hidden={option !== "bulk"} />
 					</div>
@@ -289,11 +292,30 @@ function MailPanel({
 function PrintPanel({
 	localePrefix,
 	hidden,
+	voteOnly,
 }: {
 	localePrefix: string;
 	hidden: boolean;
+	voteOnly: boolean;
 }) {
 	const t = useTranslations();
+	if (voteOnly) {
+		// Vote Pack is English-only by design — single button, no language
+		// grid, no language-request form.
+		return (
+			<Panel title={t("stickers_print_header")} hidden={hidden}>
+				<p>{t("stickers_print_c1")}</p>
+				<div className="sticker-language-grid">
+					<a
+						href={`${localePrefix}/sticker-files/english`}
+						className="sticker-language-button"
+					>
+						{t("common_language_english")}
+					</a>
+				</div>
+			</Panel>
+		);
+	}
 	return (
 		<Panel title={t("stickers_print_header")} hidden={hidden}>
 			<p>{t("stickers_print_c1")}</p>
