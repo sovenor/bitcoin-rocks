@@ -304,7 +304,7 @@ function PrintPanel({
 		// grid, no language-request form.
 		return (
 			<Panel title={t("stickers_print_header")} hidden={hidden}>
-				<p>{t("stickers_print_c1")}</p>
+				<p>{t("stickers_vote_print_c1")}</p>
 				<div className="sticker-language-grid">
 					<a
 						href={`${localePrefix}/sticker-files/english`}
