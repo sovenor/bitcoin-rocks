@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-05-06",
+		"last-updated": "2026-05-07",
 		"locale": "en"
 	},
 	"free_bitcoin_stickers": "Free Bitcoin stickers from bitcoin.rocks",
@@ -32,6 +32,7 @@
 	"stickers_step_2_eyebrow": "STEP 2",
 	"stickers_step_2_header": "How would you like to get your stickers?",
 	"stickers_step_2_description": "We'll ship a free pack to addresses in the USA and Canada. Anywhere else in the world, you can print your own or order in bulk.",
+	"stickers_vote_step_2_description": "We'll ship a free pack to addresses in the USA. You can also print your own or order in bulk.",
 	"stickers_option_usa": "🇺🇸 USA — Free by mail",
 	"stickers_option_canada": "🇨🇦 Canada — Free by mail",
 	"stickers_option_print": "🌍 Global — Print my own",

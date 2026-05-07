@@ -154,7 +154,13 @@ export function StickerFlow({ localePrefix }: Props) {
 							{t("stickers_step_2_eyebrow")}
 						</span>
 						<h2>{t("stickers_step_2_header")}</h2>
-						<p>{t("stickers_step_2_description")}</p>
+						<p>
+							{t(
+								pack === "vote"
+									? "stickers_vote_step_2_description"
+									: "stickers_step_2_description",
+							)}
+						</p>
 					</div>
 
 					<div className="sticker-option-grid">
