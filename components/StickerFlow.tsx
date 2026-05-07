@@ -4,12 +4,13 @@
  * StickerFlow — V2 redesign (April 22, 2026).
  *
  * Two-step wizard for `/stickers`:
- *   1. Choose a sticker pack (Text Pack or Signs Pack) — two bordered
+ *   1. Choose a sticker pack (Text / Signs / Vote) — bordered
  *      `.sticker-pack-card` tiles (entire tile is a `<button>`) with a
  *      preview image, <h2> title, description, and a prominent
  *      Bitcoin-orange CTA button. Selecting a pack reveals Step 2.
+ *      The Vote Pack is USA-only and skips the Canada mail option.
  *   2. Choose how to get the stickers (USA mail / Canada mail / Print /
- *      Bulk) — four `.sticker-option-button` real-button-looking rows
+ *      Bulk) — `.sticker-option-button` real-button-looking rows
  *      stacked 1-per-line. Selecting an option reveals the matching
  *      form / language grid / bulk CTA in a `.sticker-panel` surface
  *      card beneath.
@@ -27,7 +28,7 @@ import { useTranslations } from "next-intl";
 import { StickerAddressForm } from "@/components/StickerAddressForm";
 import { STICKER_LANGUAGES } from "@/lib/sticker-languages";
 
-type PackId = "text" | "signs";
+type PackId = "text" | "signs" | "vote";
 type OptionId = "usa" | "canada" | "print" | "bulk";
 
 type Props = {
@@ -35,8 +36,8 @@ type Props = {
 	localePrefix: string;
 };
 
-/** Per-pack form endpoints on forms.bitcoin.rocks. */
-const ACTIONS: Record<PackId, { usa: string; canada: string }> = {
+/** Per-pack form endpoints on forms.bitcoin.rocks. The Vote Pack ships USA-only. */
+const ACTIONS: Record<PackId, { usa: string; canada?: string }> = {
 	text: {
 		usa: "https://forms.bitcoin.rocks/submit/stickers-text-usa",
 		canada: "https://forms.bitcoin.rocks/submit/stickers-text-canada",
@@ -45,7 +46,20 @@ const ACTIONS: Record<PackId, { usa: string; canada: string }> = {
 		usa: "https://forms.bitcoin.rocks/submit/stickers-signs-usa",
 		canada: "https://forms.bitcoin.rocks/submit/stickers-signs-canada",
 	},
+	vote: {
+		usa: "https://forms.bitcoin.rocks/submit/stickers-vote-usa",
+	},
 };
+
+const ALL_OPTIONS: ReadonlyArray<{ id: OptionId; labelKey: string }> = [
+	{ id: "usa", labelKey: "stickers_option_usa" },
+	{ id: "canada", labelKey: "stickers_option_canada" },
+	{ id: "print", labelKey: "stickers_option_print" },
+	{ id: "bulk", labelKey: "stickers_option_bulk" },
+];
+
+// Vote pack hides Canada — USA mail / Print / Bulk only.
+const VOTE_OPTIONS = new Set<OptionId>(["usa", "print", "bulk"]);
 
 export function StickerFlow({ localePrefix }: Props) {
 	const t = useTranslations();
@@ -77,12 +91,10 @@ export function StickerFlow({ localePrefix }: Props) {
 		});
 	}, [option]);
 
-	const options: ReadonlyArray<{ id: OptionId; labelKey: string }> = [
-		{ id: "usa", labelKey: "stickers_option_usa" },
-		{ id: "canada", labelKey: "stickers_option_canada" },
-		{ id: "print", labelKey: "stickers_option_print" },
-		{ id: "bulk", labelKey: "stickers_option_bulk" },
-	];
+	const options =
+		pack === "vote"
+			? ALL_OPTIONS.filter((o) => VOTE_OPTIONS.has(o.id))
+			: ALL_OPTIONS;
 
 	const showMail = (p: PackId, v: "usa" | "canada") =>
 		pack === p && option === v;
@@ -118,6 +130,15 @@ export function StickerFlow({ localePrefix }: Props) {
 							description={t("stickers_signs_pack_description")}
 							ctaLabel={t("stickers_btn_choose_pack")}
 							onChoose={() => setPack("signs")}
+						/>
+						<PackCard
+							id="vote"
+							active={pack === "vote"}
+							image="/img/stickers/web-sticker-pack-vfbm.png"
+							title={t("stickers_vote_pack")}
+							description={t("stickers_vote_pack_description")}
+							ctaLabel={t("stickers_btn_choose_pack")}
+							onChoose={() => setPack("vote")}
 						/>
 					</div>
 				</div>
@@ -172,6 +193,11 @@ export function StickerFlow({ localePrefix }: Props) {
 							pack="signs"
 							variant="canada"
 							hidden={!showMail("signs", "canada")}
+						/>
+						<MailPanel
+							pack="vote"
+							variant="usa"
+							hidden={!showMail("vote", "usa")}
 						/>
 						<PrintPanel
 							localePrefix={localePrefix}
@@ -238,8 +264,23 @@ function MailPanel({
 }) {
 	const t = useTranslations();
 	const action = ACTIONS[pack][variant];
+	if (!action) return null;
 	return (
 		<Panel title={t("stickers_mail_header")} hidden={hidden}>
+			{pack === "vote" && variant === "usa" && (
+				<p className="sticker-panel-note">
+					{t("stickers_vote_panel_note_before")}
+					<a
+						href="https://voteforbetter.money"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="body-link"
+					>
+						voteforbetter.money
+					</a>
+					{t("stickers_vote_panel_note_after")}
+				</p>
+			)}
 			<StickerAddressForm variant={variant} action={action} />
 		</Panel>
 	);

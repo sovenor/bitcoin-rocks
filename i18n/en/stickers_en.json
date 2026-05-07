@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-06",
 		"locale": "en"
 	},
 	"free_bitcoin_stickers": "Free Bitcoin stickers from bitcoin.rocks",
@@ -21,6 +21,10 @@
 	"stickers_text_pack_description": "A mix of Bitcoin slogans and one-liners designed to spark curiosity in public spaces.",
 	"stickers_signs_pack": "The Signs Pack",
 	"stickers_signs_pack_description": "Warning, danger, and caution-style signs with Bitcoin messages — designed to grab attention and make people stop and read.",
+	"stickers_vote_pack": "The Vote Pack",
+	"stickers_vote_pack_description": "USA-only stickers that point people to voteforbetter.money — our companion site explaining why Bitcoin is better money.",
+	"stickers_vote_panel_note_before": "These stickers point people to ",
+	"stickers_vote_panel_note_after": ", our companion site explaining why Bitcoin is better money.",
 	"stickers_btn_choose_pack": "Choose this pack",
 	"stickers_step_2_eyebrow": "STEP 2",
 	"stickers_step_2_header": "How would you like to get your stickers?",
