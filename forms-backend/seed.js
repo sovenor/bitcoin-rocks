@@ -44,6 +44,12 @@ const forms = [
     success_redirect: `${SITE_URL}/sticker-success`
   },
   {
+    slug: 'stickers-vote-usa',
+    name: 'Stickers Vote Pack — USA',
+    fields: JSON.stringify(['name', 'address1', 'address2', 'city', 'state', 'zip']),
+    success_redirect: `${SITE_URL}/sticker-success`
+  },
+  {
     slug: 'sticker-language-request',
     name: 'Sticker Language Request',
     fields: JSON.stringify(['language', 'stickers', 'email']),
