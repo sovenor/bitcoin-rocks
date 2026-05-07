@@ -955,6 +955,22 @@ a.stat-comparison-card:hover {
 	font-size: 26px;
 	color: #666;
 	margin: 8px 0;
+	animation: stat-comparison-arrow-bounce 1s infinite;
+}
+@keyframes stat-comparison-arrow-bounce {
+	0%, 100% {
+		transform: translateY(-25%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: none;
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.stat-comparison-arrow {
+		animation: none;
+	}
 }
 .stat-comparison-divider {
 	border: 0;
