@@ -134,6 +134,29 @@ export const STICKER_KINDS: Record<string, StickerKind> = {
 		materialKey: "common_stickers_material_vinyl",
 	},
 
+	// Vote Pack (English-only, USA-targeted) — three sizes pointing to voteforbetter.money.
+	"vfbm-classic-print": {
+		slug: "vfbm-classic-print",
+		nameKey: "common_sticker_name_vfbm_classic",
+		dimensionsKey: "common_stickers_dimensions_vfbm_classic",
+		typeKey: null,
+		materialKey: "common_stickers_material_vinyl",
+	},
+	"vfbm-ballot-print": {
+		slug: "vfbm-ballot-print",
+		nameKey: "common_sticker_name_vfbm_ballot",
+		dimensionsKey: "common_stickers_dimensions_vfbm_ballot",
+		typeKey: null,
+		materialKey: "common_stickers_material_vinyl",
+	},
+	"vfbm-voted-print": {
+		slug: "vfbm-voted-print",
+		nameKey: "common_sticker_name_vfbm_voted",
+		dimensionsKey: "common_stickers_dimensions_vfbm_voted",
+		typeKey: "common_stickers_type_die_cut",
+		materialKey: "common_stickers_material_vinyl",
+	},
+
 	// Swedish had a rushed first print of cure-inflation-v2/got-inflation with
 	// typography errors; the `-fixed` variants replace them but we keep the
 	// originals on disk for historical linking. Rendered in Swedish order as
@@ -172,6 +195,9 @@ const ORDER: ReadonlyArray<string> = [
 	"got-inflation",
 	"got-inflation-fixed",
 	"what-if",
+	"vfbm-classic-print",
+	"vfbm-ballot-print",
+	"vfbm-voted-print",
 ];
 
 /**
@@ -202,6 +228,9 @@ export const STICKER_AVAILABILITY: Record<string, ReadonlyArray<string>> = {
 		"cure-inflation-v2",
 		"got-inflation",
 		"what-if",
+		"vfbm-classic-print",
+		"vfbm-ballot-print",
+		"vfbm-voted-print",
 	],
 	estonian: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],
 	filipino: ["bdhi-black", "bdhi-orange", "cure-inflation-v2", "got-inflation"],

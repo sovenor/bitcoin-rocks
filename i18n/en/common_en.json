@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-05-06",
 		"locale": "en"
 	},
 	"common_footer_follow_first_half": "Follow us on Nostr by searching",
@@ -91,6 +91,9 @@
 	"common_stickers_dimensions_got_inflation": "7.9248 cm x 14.605 cm (3.12 in x 5.75 in)",
 	"common_stickers_dimensions_what_if": "21.7932 cm x 7.62 cm (8.58 in x 3 in)",
 	"common_stickers_dimensions_bitcoin_accepted_here": "20.995 cm x 6.35 cm (8.25 in x 2.5 in)",
+	"common_stickers_dimensions_vfbm_classic": "9.6774 cm x 5.08 cm (3.81 in x 2 in)",
+	"common_stickers_dimensions_vfbm_ballot": "9.2202 cm x 7.62 cm (3.63 in x 3 in)",
+	"common_stickers_dimensions_vfbm_voted": "3.81 cm x 3.81 cm (1.5 in x 1.5 in)",
 	"common_biz_learn": "Learn why Bitcoin is good for business",
 	"common_biz_wallets": "Get a Bitcoin wallet to accept Bitcoin payments",
 	"common_biz_maps": "Get listed on Bitcoin merchant maps",
@@ -156,6 +159,9 @@
 	"common_sticker_name_cure_inflation": "\"Cure Inflation\" Bitcoin Sticker",
 	"common_sticker_name_got_inflation": "\"Got Inflation?\" Bitcoin Sticker",
 	"common_sticker_name_what_if": "\"What if your money didn't have inflation?\" Bitcoin Sticker",
+	"common_sticker_name_vfbm_classic": "\"Vote For Better Money\" Sticker (Classic)",
+	"common_sticker_name_vfbm_ballot": "\"Cast Your Vote — Better Money\" Bitcoin Sticker",
+	"common_sticker_name_vfbm_voted": "\"I Voted For Better Money\" Sticker",
 	"common_source_whitepaper": "Satoshi Nakamoto — Bitcoin: A Peer-to-Peer Electronic Cash System (2008)",
 	"common_source_btcpayserver": "BTCPay Server — Free, open-source, self-hosted Bitcoin payment processor",
 	"common_source_btc_map": "BTC Map — Worldwide directory of Bitcoin-accepting merchants",
