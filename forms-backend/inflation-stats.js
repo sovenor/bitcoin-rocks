@@ -43,7 +43,14 @@ const DATA_DIR = path.dirname(DB_PATH);
 // Brazilian M1 (~R$ 600B) reads more naturally as a billion figure.
 // Older cache files are orphaned on the persistent volume; harmless.
 const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v6.json');
-const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
+// The daily 14:00-UTC scheduler (server.js) is the primary refresh mechanism
+// — it force-refreshes every currency once a day so bitcoin.rocks and
+// voteforbetter.money snapshot FRED at the same moment. This TTL only governs
+// the lazy on-cache-miss fallback used when the scheduler hasn't run (cold
+// boot / lost volume / a skipped day). It's set slightly above 24h so a
+// punctual daily refresh always re-stamps an entry *before* it goes lazy-stale,
+// keeping the served snapshot pinned to 14:00 UTC rather than drifting.
+const CACHE_TTL = 25 * 60 * 60 * 1000; // 25 hours in ms (lazy-fallback threshold)
 const API_TIMEOUT = 15000; // 15 seconds
 
 // ── Per-currency configuration ────────────────────────────────────────
@@ -957,7 +964,7 @@ async function fetchCurrencyStats(code) {
 	return stats;
 }
 
-async function getInflationStats(currency = 'USD') {
+async function getInflationStats(currency = 'USD', { force = false } = {}) {
 	const code = (currency || 'USD').toUpperCase();
 	if (!CURRENCIES[code]) {
 		throw new Error(`Unsupported currency: ${currency}`);
@@ -965,8 +972,10 @@ async function getInflationStats(currency = 'USD') {
 
 	const cache = readCache() || {};
 
-	// Per-currency cache
-	if (cache[code] && isFresh(cache[code])) {
+	// Per-currency cache. `force` (set by the daily scheduler) bypasses the
+	// freshness check so the 14:00-UTC refresh always re-fetches, even if the
+	// entry is technically still within its lazy-fallback TTL.
+	if (!force && cache[code] && isFresh(cache[code])) {
 		console.log(`[inflation-stats] Serving ${code} from cache`);
 		return cache[code];
 	}
@@ -1010,4 +1019,34 @@ async function getInflationStats(currency = 'USD') {
 	return stats;
 }
 
-module.exports = { getInflationStats, SUPPORTED_CURRENCIES: Object.keys(CURRENCIES) };
+// Force-refresh every supported currency. Called by the daily 14:00-UTC
+// scheduler in server.js so both bitcoin.rocks and voteforbetter.money snapshot
+// FRED at the same moment. Currencies are refreshed sequentially (not in
+// parallel) to stay well under the TwelveData / FRED rate limits — 13
+// currencies × a handful of series each would otherwise burst dozens of
+// concurrent requests. A failure on one currency is logged and skipped; the
+// per-currency stale-on-failure logic in getInflationStats already preserves
+// that currency's prior good cache entry.
+async function refreshAllCurrencies() {
+	const codes = Object.keys(CURRENCIES);
+	console.log(`[inflation-stats] Scheduled refresh starting for ${codes.length} currencies...`);
+	const results = [];
+	for (const code of codes) {
+		try {
+			const stats = await getInflationStats(code, { force: true });
+			results.push({ code, ok: true, lastUpdated: stats.lastUpdated });
+		} catch (err) {
+			console.error(`[inflation-stats] Scheduled refresh failed for ${code}: ${err.message}`);
+			results.push({ code, ok: false, error: err.message });
+		}
+	}
+	const ok = results.filter((r) => r.ok).length;
+	console.log(`[inflation-stats] Scheduled refresh complete: ${ok}/${codes.length} currencies refreshed`);
+	return results;
+}
+
+module.exports = {
+	getInflationStats,
+	refreshAllCurrencies,
+	SUPPORTED_CURRENCIES: Object.keys(CURRENCIES),
+};

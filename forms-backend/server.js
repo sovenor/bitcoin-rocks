@@ -5,7 +5,7 @@ const helmet = require('helmet');
 const bcrypt = require('bcrypt');
 const path = require('path');
 const db = require('./database');
-const { getInflationStats } = require('./inflation-stats');
+const { getInflationStats, refreshAllCurrencies } = require('./inflation-stats');
 const { getFdicStats } = require('./fdic-stats');
 
 const app = express();
@@ -913,3 +913,49 @@ app.listen(PORT, () => {
   console.log(`   Admin panel: http://localhost:${PORT}/admin`);
   console.log(`   Health check: http://localhost:${PORT}/health\n`);
 });
+
+// ============================================================
+// DAILY INFLATION-STATS REFRESH (14:00 UTC)
+// ============================================================
+//
+// Force-refresh all inflation-stats currencies once a day at 14:00 UTC so
+// bitcoin.rocks and voteforbetter.money (whose cron is `0 14 * * *`) snapshot
+// FRED at the same moment — keeping the displayed stats aligned across both
+// sites. 14:00 UTC also clears FRED's nightly maintenance window. Between runs
+// the per-currency cache is served as-is; the lazy on-cache-miss path in
+// inflation-stats.js remains a fallback for cold boots / a missed day.
+//
+// Implemented with a self-rescheduling setTimeout (no cron dependency).
+// Assumes a single backend instance — consistent with the file-based cache,
+// which already assumes a single writer.
+const REFRESH_UTC_HOUR = 14; // matches voteforbetter.money's `0 14 * * *`
+
+function msUntilNextUtcHour(hour) {
+  const now = new Date();
+  const next = new Date(Date.UTC(
+    now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), hour, 0, 0, 0,
+  ));
+  if (next.getTime() <= now.getTime()) {
+    next.setUTCDate(next.getUTCDate() + 1);
+  }
+  return next.getTime() - now.getTime();
+}
+
+function scheduleDailyInflationRefresh() {
+  const delay = msUntilNextUtcHour(REFRESH_UTC_HOUR);
+  console.log(
+    `[scheduler] Next inflation refresh in ${(delay / 3600000).toFixed(2)}h ` +
+    `(daily at ${String(REFRESH_UTC_HOUR).padStart(2, '0')}:00 UTC)`,
+  );
+  setTimeout(async () => {
+    try {
+      await refreshAllCurrencies();
+    } catch (err) {
+      console.error('[scheduler] Daily inflation refresh failed:', err.message);
+    } finally {
+      scheduleDailyInflationRefresh(); // re-arm for the next day
+    }
+  }, delay);
+}
+
+scheduleDailyInflationRefresh();
