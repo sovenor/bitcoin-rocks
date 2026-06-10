@@ -616,55 +616,81 @@ const CUSTOM_M1_FETCHERS = {
 
 // ── External fetchers ─────────────────────────────────────────────────
 
-async function fetchFredLatest(seriesId) {
+const FRED_MAX_ATTEMPTS = 3;
+const FRED_RETRY_BASE_MS = 500; // linear backoff: ~500ms then ~1000ms between tries
+
+function sleep(ms) {
+	return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Shared FRED observations fetcher with retry + linear backoff + error
+// logging. FRED's api.stlouisfed.org has a nightly maintenance window where
+// it returns transient HTTP errors/timeouts; a single-attempt fetch landing
+// in that window would blank the stat for a full 24h cache cycle. Retrying a
+// few times rides out brief blips, and logging surfaces genuine outages
+// instead of silently swallowing them. Returns the parsed JSON body, or null
+// if the key/series is missing or all attempts fail. Note: only seriesId and
+// the error message are logged — never the URL — so the api_key never leaks.
+async function fetchFredJson(seriesId, extraParams) {
 	const apiKey = process.env.FRED_API_KEY;
 	if (!apiKey || !seriesId) return null;
-	try {
-		const url = `https://api.stlouisfed.org/fred/series/observations?series_id=${seriesId}&sort_order=desc&limit=1&file_type=json&api_key=${apiKey}`;
-		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
-		if (!res.ok) return null;
-		const data = await res.json();
-		const val = data?.observations?.[0]?.value;
-		return val && val !== '.' ? parseFloat(val) : null;
-	} catch {
-		return null;
+	const params = new URLSearchParams({
+		series_id: seriesId,
+		file_type: 'json',
+		api_key: apiKey,
+		...extraParams,
+	});
+	const url = `https://api.stlouisfed.org/fred/series/observations?${params.toString()}`;
+	for (let attempt = 1; attempt <= FRED_MAX_ATTEMPTS; attempt++) {
+		try {
+			const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return await res.json();
+		} catch (err) {
+			if (attempt < FRED_MAX_ATTEMPTS) {
+				await sleep(FRED_RETRY_BASE_MS * attempt);
+				continue;
+			}
+			console.error(`[inflation-stats] FRED fetch failed for ${seriesId} after ${FRED_MAX_ATTEMPTS} attempts: ${err.message}`);
+			return null;
+		}
 	}
+	return null;
+}
+
+async function fetchFredLatest(seriesId) {
+	const data = await fetchFredJson(seriesId, { sort_order: 'desc', limit: '1' });
+	if (!data) return null;
+	const val = data?.observations?.[0]?.value;
+	return val && val !== '.' ? parseFloat(val) : null;
 }
 
 // Generic 4-year % change for a FRED price-index series (used for CPI
 // per currency when the series is a price-level index like CPIAUCSL).
 async function fetchFred4yrChange(seriesId) {
-	const apiKey = process.env.FRED_API_KEY;
-	if (!apiKey || !seriesId) return null;
-	try {
-		const url = `https://api.stlouisfed.org/fred/series/observations?series_id=${seriesId}&sort_order=desc&limit=80&file_type=json&api_key=${apiKey}`;
-		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
-		if (!res.ok) return null;
-		const data = await res.json();
-		const obs = data?.observations;
-		if (!obs || obs.length < 2) return null;
+	const data = await fetchFredJson(seriesId, { sort_order: 'desc', limit: '80' });
+	if (!data) return null;
+	const obs = data?.observations;
+	if (!obs || obs.length < 2) return null;
 
-		// Find latest non-empty value
-		let latest = null;
-		for (const o of obs) {
-			if (o.value !== '.') { latest = parseFloat(o.value); break; }
-		}
-		if (latest === null || !isFinite(latest)) return null;
-
-		const fourYearsAgoMs = Date.now() - 4 * 365.25 * 24 * 60 * 60 * 1000;
-		let old = null;
-		for (const o of obs) {
-			const t = new Date(o.date).getTime();
-			if (t <= fourYearsAgoMs && o.value !== '.') {
-				old = parseFloat(o.value);
-				break;
-			}
-		}
-		if (old === null || !isFinite(old) || old === 0) return null;
-		return ((latest - old) / old) * 100;
-	} catch {
-		return null;
+	// Find latest non-empty value
+	let latest = null;
+	for (const o of obs) {
+		if (o.value !== '.') { latest = parseFloat(o.value); break; }
 	}
+	if (latest === null || !isFinite(latest)) return null;
+
+	const fourYearsAgoMs = Date.now() - 4 * 365.25 * 24 * 60 * 60 * 1000;
+	let old = null;
+	for (const o of obs) {
+		const t = new Date(o.date).getTime();
+		if (t <= fourYearsAgoMs && o.value !== '.') {
+			old = parseFloat(o.value);
+			break;
+		}
+	}
+	if (old === null || !isFinite(old) || old === 0) return null;
+	return ((latest - old) / old) * 100;
 }
 
 // Compound 4 most-recent *annual* inflation rates (percent) from a FRED
@@ -673,36 +699,28 @@ async function fetchFred4yrChange(seriesId) {
 // change is (1 + r1/100)(1 + r2/100)(1 + r3/100)(1 + r4/100) − 1, returned
 // as a percent. Returns null if fewer than 4 valid annual observations.
 async function fetchAnnualCompoundInflation4yr(seriesId) {
-	const apiKey = process.env.FRED_API_KEY;
-	if (!apiKey || !seriesId) return null;
-	try {
-		const url = `https://api.stlouisfed.org/fred/series/observations?series_id=${seriesId}&sort_order=desc&limit=10&file_type=json&api_key=${apiKey}`;
-		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
-		if (!res.ok) return null;
-		const data = await res.json();
-		const obs = data?.observations;
-		if (!obs || obs.length < 4) return null;
+	const data = await fetchFredJson(seriesId, { sort_order: 'desc', limit: '10' });
+	if (!data) return null;
+	const obs = data?.observations;
+	if (!obs || obs.length < 4) return null;
 
-		// Collect the 4 most recent non-empty annual observations
-		const rates = [];
-		for (const o of obs) {
-			if (o.value !== '.' && o.value !== undefined && o.value !== null) {
-				const r = parseFloat(o.value);
-				if (isFinite(r)) {
-					rates.push(r);
-					if (rates.length === 4) break;
-				}
+	// Collect the 4 most recent non-empty annual observations
+	const rates = [];
+	for (const o of obs) {
+		if (o.value !== '.' && o.value !== undefined && o.value !== null) {
+			const r = parseFloat(o.value);
+			if (isFinite(r)) {
+				rates.push(r);
+				if (rates.length === 4) break;
 			}
 		}
-		if (rates.length < 4) return null;
-
-		// Compound: ∏(1 + rᵢ/100) − 1, returned as percent
-		let factor = 1;
-		for (const r of rates) factor *= (1 + r / 100);
-		return (factor - 1) * 100;
-	} catch {
-		return null;
 	}
+	if (rates.length < 4) return null;
+
+	// Compound: ∏(1 + rᵢ/100) − 1, returned as percent
+	let factor = 1;
+	for (const r of rates) factor *= (1 + r / 100);
+	return (factor - 1) * 100;
 }
 
 async function fetchBitcoinMined() {
@@ -964,6 +982,24 @@ async function getInflationStats(currency = 'USD') {
 	if (btcMined) {
 		stats.bitcoinMined = (btcMined.mined / 1000000).toFixed(1);
 		stats.bitcoinPercentMined = btcMined.percent.toFixed(1);
+	}
+
+	// Stale-on-failure (mirrors fdic-stats.js). FRED outages are typically
+	// all-or-nothing, so when BOTH the CPI headline and the M1 supply come
+	// back null the refresh effectively failed — don't overwrite a previously
+	// good entry with blanks. Serve the stale-but-real data and retry on the
+	// next cache-miss. (Debt is excluded from the check because some
+	// currencies — e.g. EUR — legitimately publish no debt series.)
+	if (stats.cpiChange4yr === null && stats.m1SupplyTrillions === null) {
+		if (cache[code]) {
+			console.warn(`[inflation-stats] ${code} refresh returned no usable FRED data; serving stale entry from ${cache[code].lastUpdated}`);
+			return cache[code];
+		}
+		// No prior entry to fall back on. Return the placeholder stats WITHOUT
+		// caching, so the next request retries FRED instead of serving blanks
+		// for a full 24h cache cycle.
+		console.warn(`[inflation-stats] ${code} refresh returned no usable FRED data and no prior cache exists; returning uncached placeholders`);
+		return stats;
 	}
 
 	// Write back to cache
