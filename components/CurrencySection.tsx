@@ -227,7 +227,10 @@ export function CurrencySection({
 								>
 									—
 								</div>
-								<div className="stat-comparison-source">
+								<div
+									className="stat-comparison-source"
+									id={`stat-debt-source-${code}`}
+								>
 									{t("inflation_stat_currency_source_debt")}
 								</div>
 							</a>

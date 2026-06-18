@@ -64,6 +64,7 @@ type StatsResponse = {
 	debtBaselineTrillions?: number | string;
 	nationalDebtTrillions?: number | string;
 	debtUnit?: string;
+	debtSourceLabel?: string | null;
 	supplyValueLabel?: string;
 	supplyNumericLabel?: string;
 };
@@ -175,6 +176,15 @@ function populateCards(
 		`stat-debt-change-${code}`,
 		percentChange(data.debtBaselineTrillions, data.nationalDebtTrillions),
 	);
+
+	// Per-currency debt source override (mirrors m1SourceLabel). Only write
+	// when the backend supplies one (ILS/PHP/THB/NZD route through IMF
+	// DataMapper); for null we leave the server-rendered "Source: FRED
+	// Government Debt →" placeholder in place.
+	if (data.debtSourceLabel) {
+		const el = document.getElementById(`stat-debt-source-${code}`);
+		if (el) el.textContent = data.debtSourceLabel;
+	}
 
 	// "Bitcoin doesn't have inflation" section — currency supply card
 	setText(`stat-currency-supply-value-${code}`, data.supplyValueLabel);

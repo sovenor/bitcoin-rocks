@@ -32,6 +32,11 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
+// v8 — bumped after fixing BTC gain (TwelveData exotic forex/synthetic pairs
+// → BTC/USD × USD/local via ECB/Frankfurter; INR moved off its broken
+// synthetic pair), money supply for PHP/THB/NZD (dead/frozen FRED narrow money
+// → World Bank broad money), and government debt for ILS/PHP/THB/NZD (dead FRED
+// GGGDTA* → IMF DataMapper gross debt % GDP).
 // v7 — bumped after fixing the CPI series for AUD/BRL/CAD/GBP/MXN/NZD/THB/JPY.
 // Those were pointed at OECD CPALTT01*659N (a YoY *rate* series, or a 404 for
 // AUD) / a frozen MINMEI series (JPY), so the 4yr purchasing-power figure came
@@ -49,7 +54,7 @@ const DATA_DIR = path.dirname(DB_PATH);
 // BRL's m1Unit also flipped from 'trillion' to 'billion' since the
 // Brazilian M1 (~R$ 600B) reads more naturally as a billion figure.
 // Older cache files are orphaned on the persistent volume; harmless.
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v7.json');
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v8.json');
 // The daily 14:00-UTC scheduler (server.js) is the primary refresh mechanism
 // — it force-refreshes every currency once a day so bitcoin.rocks and
 // voteforbetter.money snapshot FRED at the same moment. This TTL only governs
@@ -193,9 +198,17 @@ const CURRENCIES = {
 		symbol: '₱',
 		btcPair: null,
 		forexPair: 'USD/PHP',
-		m1Series: 'MANMM101PHM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 3.7,   label: 'JAN 2020' },
-		debtSeries: 'GGGDTAPHA188N', debtUnit: '% of GDP', debtDivideBy: 1,
+		// FRED's MANMM101PHM189S is discontinued (404). Routed to the World
+		// Bank broad-money series instead (annual, native LCU).
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'wbBroadPHP',
+		m1SourceLabel: 'World Bank — Broad Money →',
+		m1Baseline: { value: null, label: '2020', yearMonth: '2020-01' },
+		// FRED's GGGDTAPHA188N is discontinued (404). Routed to IMF DataMapper.
+		debtSeries: null, debtCustomFetcher: 'imfPHL',
+		debtSourceLabel: 'IMF — Gross Govt Debt →',
+		debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 37,   label: '2019' },
 		// FPCPITOTLZGPHL is an *annual inflation rate* series (%), not a
 		// price-index level. To get a 4-year total loss of purchasing
@@ -221,8 +234,11 @@ const CURRENCIES = {
 	},
 	INR: {
 		symbol: '₹',
-		btcPair: 'BTC/INR',
-		forexPair: null,
+		// TwelveData's synthetic BTC/INR returns a USD-scaled *current* price
+		// (~63k instead of ~10M INR) while its history is correct → a bogus
+		// -96% gain. Route through BTC/USD × USD/INR (ECB) instead.
+		btcPair: null,
+		forexPair: 'USD/INR',
 		m1Series: 'MANMM101INM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
 		m1Baseline: { value: 36,    label: 'JAN 2020' },
 		debtSeries: 'GGGDTAINA188N', debtUnit: '% of GDP', debtDivideBy: 1,
@@ -273,7 +289,10 @@ const CURRENCIES = {
 		forexPair: 'USD/ILS',
 		m1Series: 'MANMM101ILM189S', m1Unit: 'billion',  m1DivideBy: 1000000000,
 		m1Baseline: { value: 440,   label: 'JAN 2020' },
-		debtSeries: 'GGGDTAILA188N', debtUnit: '% of GDP', debtDivideBy: 1,
+		// FRED's GGGDTAILA188N is discontinued (404). Routed to IMF DataMapper.
+		debtSeries: null, debtCustomFetcher: 'imfISR',
+		debtSourceLabel: 'IMF — Gross Govt Debt →',
+		debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 60,   label: '2019' },
 		cpiSeries: 'ISRCPIALLMINMEI',
 		fallback: { btcChange: '+65', cpiChange: '-13', m1Current: 720, debtCurrent: 68, supplyValueLabel: '720 Billion', supplyNumericLabel: '(720,000,000,000)' },
@@ -282,9 +301,17 @@ const CURRENCIES = {
 		symbol: '฿',
 		btcPair: null,
 		forexPair: 'USD/THB',
-		m1Series: 'MANMM101THM189S', m1Unit: 'trillion', m1DivideBy: 1000000000000,
-		m1Baseline: { value: 2.5,   label: 'JAN 2020' },
-		debtSeries: 'GGGDTATHA188N', debtUnit: '% of GDP', debtDivideBy: 1,
+		// FRED's MANMM101THM189S is discontinued (404). Routed to the World
+		// Bank broad-money series instead (annual, native LCU).
+		m1Series: null,
+		m1Unit: 'trillion', m1DivideBy: 1000000000000,
+		m1CustomFetcher: 'wbBroadTHB',
+		m1SourceLabel: 'World Bank — Broad Money →',
+		m1Baseline: { value: null, label: '2020', yearMonth: '2020-01' },
+		// FRED's GGGDTATHA188N is discontinued (404). Routed to IMF DataMapper.
+		debtSeries: null, debtCustomFetcher: 'imfTHA',
+		debtSourceLabel: 'IMF — Gross Govt Debt →',
+		debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 41,   label: '2019' },
 		// CPALTT01THM659N is a YoY *rate* series — wrong for a 4yr % change.
 		// World Bank annual inflation + 4yr compound instead (cpiType below).
@@ -295,9 +322,17 @@ const CURRENCIES = {
 		symbol: 'NZ$',
 		btcPair: null,
 		forexPair: 'USD/NZD',
-		m1Series: 'MANMM101NZM189S', m1Unit: 'billion',  m1DivideBy: 1000000000,
-		m1Baseline: { value: 70,    label: 'JAN 2020' },
-		debtSeries: 'GGGDTANZA188N', debtUnit: '% of GDP', debtDivideBy: 1,
+		// FRED's MANMM101NZM189S is frozen (last data 2018). Routed to the
+		// World Bank broad-money series instead (annual, native LCU).
+		m1Series: null,
+		m1Unit: 'billion',  m1DivideBy: 1000000000,
+		m1CustomFetcher: 'wbBroadNZD',
+		m1SourceLabel: 'World Bank — Broad Money →',
+		m1Baseline: { value: null, label: '2020', yearMonth: '2020-01' },
+		// FRED's GGGDTANZA188N is discontinued (404). Routed to IMF DataMapper.
+		debtSeries: null, debtCustomFetcher: 'imfNZL',
+		debtSourceLabel: 'IMF — Gross Govt Debt →',
+		debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 32,   label: '2019' },
 		// CPALTT01NZQ659N is a YoY *rate* series — wrong for a 4yr % change.
 		// World Bank annual inflation + 4yr compound instead (cpiType below).
@@ -635,6 +670,46 @@ const bcbSgsFetcher = {
 	},
 };
 
+// ── World Bank "Broad money (current LCU)" (FM.LBL.BMNY.CN) ───────────
+// FRED's narrow-money series for PHP/THB/NZD are discontinued or frozen
+// (last data 2018–2023). The World Bank's annual broad-money series is the
+// only free, maintained figure covering all three. It's broad money (M2/M3)
+// in native currency units — a larger number than the old narrow-money one,
+// but the comparison-card story (money supply then vs now) is unchanged. The
+// source label is overridden per-currency to credit the World Bank, not FRED.
+// Returns raw native currency units (like FRED's MANMM101*), so the existing
+// cfg.m1DivideBy normalization applies unchanged.
+const WB_BROAD_MONEY = 'FM.LBL.BMNY.CN';
+
+function createWorldBankBroadMoneyFetcher(iso3) {
+	async function fetchYear(yearMonth) {
+		// yearMonth 'YYYY-MM' → that calendar year; null → most recent value.
+		const year = yearMonth ? yearMonth.slice(0, 4) : null;
+		const dateParam = year ? `&date=${year}` : '&mrnev=1';
+		const url = `https://api.worldbank.org/v2/country/${iso3}/indicator/${WB_BROAD_MONEY}?format=json&per_page=100${dateParam}`;
+		try {
+			const res = await fetch(url, {
+				signal: AbortSignal.timeout(API_TIMEOUT),
+				headers: { 'user-agent': 'bitcoin.rocks/inflation-stats' },
+			});
+			if (!res.ok) return null;
+			const json = await res.json();
+			const rows = Array.isArray(json) ? json[1] : null;
+			if (!rows || !rows.length) return null;
+			// Rows are newest-first; take the most recent non-null value.
+			const row = rows.find((r) => r && r.value !== null && isFinite(r.value));
+			if (!row) return null;
+			return { date: `${row.date}-12-01`, value: Number(row.value) };
+		} catch {
+			return null;
+		}
+	}
+	return {
+		fetchLatest() { return fetchYear(null); },
+		fetchAt(yearMonth) { return fetchYear(yearMonth); },
+	};
+}
+
 // Registry of pluggable narrow-money fetchers, keyed by the value of
 // cfg.m1CustomFetcher. Each entry implements fetchLatest() and
 // fetchAt(yearMonth) per the contract above.
@@ -644,6 +719,52 @@ const CUSTOM_M1_FETCHERS = {
 	ecbBsi: ecbBsiFetcher,           // EUR — ECB SDMX (Euro area M1)
 	boeIadb: boeIadbFetcher,         // GBP — Bank of England IADB (M4 SA; UK has no M1)
 	bcbSgs: bcbSgsFetcher,           // BRL — Banco Central do Brasil SGS (M1 saldo)
+	wbBroadPHP: createWorldBankBroadMoneyFetcher('PHL'), // PHP — World Bank broad money
+	wbBroadTHB: createWorldBankBroadMoneyFetcher('THA'), // THB — World Bank broad money
+	wbBroadNZD: createWorldBankBroadMoneyFetcher('NZL'), // NZD — World Bank broad money
+};
+
+// ── IMF DataMapper — general govt gross debt (% of GDP) ───────────────
+// FRED's GGGDTA*A188N debt series are discontinued for ILS/PHP/THB/NZD. The
+// IMF WEO publishes GGXWDG_NGDP (gross debt as % of GDP) for every country via
+// the free, keyless DataMapper API, including a current-year estimate. Returns
+// a plain percent (debtUnit '% of GDP', debtDivideBy 1).
+async function fetchImfGrossDebtPctGdp(iso3) {
+	try {
+		const url = `https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/${iso3}`;
+		// IMF's edge blocks the default Node fetch UA with HTTP 403, so send a
+		// real-looking user-agent like our other custom fetchers.
+		const res = await fetch(url, {
+			signal: AbortSignal.timeout(API_TIMEOUT),
+			headers: { 'user-agent': 'bitcoin.rocks/inflation-stats' },
+		});
+		if (!res.ok) return null;
+		const json = await res.json();
+		const series = json?.values?.GGXWDG_NGDP?.[iso3];
+		if (!series) return null;
+		// Prefer the current calendar year's figure (an IMF estimate); fall
+		// back to the most recent year at or before it.
+		const nowYear = new Date().getFullYear();
+		let best = null;
+		for (const [y, v] of Object.entries(series)) {
+			const year = parseInt(y, 10);
+			if (year <= nowYear && v !== null && isFinite(v)) {
+				if (!best || year > best.year) best = { year, value: Number(v) };
+			}
+		}
+		return best ? best.value : null;
+	} catch {
+		return null;
+	}
+}
+
+// Registry of pluggable government-debt fetchers, keyed by cfg.debtCustomFetcher.
+// Each is a thunk returning a plain number in the unit named by cfg.debtUnit.
+const CUSTOM_DEBT_FETCHERS = {
+	imfISR: () => fetchImfGrossDebtPctGdp('ISR'), // ILS — IMF gross debt % GDP
+	imfPHL: () => fetchImfGrossDebtPctGdp('PHL'), // PHP — IMF gross debt % GDP
+	imfTHA: () => fetchImfGrossDebtPctGdp('THA'), // THB — IMF gross debt % GDP
+	imfNZL: () => fetchImfGrossDebtPctGdp('NZL'), // NZD — IMF gross debt % GDP
 };
 
 // ── External fetchers ─────────────────────────────────────────────────
@@ -810,11 +931,31 @@ async function fetchTwelveDataHistoricalClose(symbol, dateISO) {
 	}
 }
 
+// Frankfurter (ECB reference rates) — free, keyless USD→local forex, current
+// and historical. TwelveData's exotic forex pairs (USD/INR, USD/PHP, …) return
+// HTTP 400 "no data" on the historical endpoint and USD-scaled garbage on some
+// synthetic crypto pairs (e.g. BTC/INR), which blanked or broke the BTC gain
+// for every forex-fallback currency. ECB daily reference rates cover all of our
+// currencies. Weekend/holiday dates resolve to the latest prior business day.
+async function fetchEcbUsdRate(localCode, dateISO) {
+	try {
+		const pathSeg = dateISO || 'latest';
+		const url = `https://api.frankfurter.dev/v1/${pathSeg}?base=USD&symbols=${localCode}`;
+		const res = await fetch(url, { signal: AbortSignal.timeout(API_TIMEOUT) });
+		if (!res.ok) return null;
+		const data = await res.json();
+		const rate = data?.rates?.[localCode];
+		return typeof rate === 'number' && isFinite(rate) ? rate : null;
+	} catch {
+		return null;
+	}
+}
+
 // Computes BTC's 4-year % change denominated in the target currency.
 // Strategy:
 //   1) If a direct BTC/<local> pair exists, use it.
-//   2) Otherwise fetch BTC/USD and USD/<local> forex both now and 4yr ago,
-//      multiply to derive BTC/<local> historical and current.
+//   2) Otherwise fetch BTC/USD (TwelveData) and USD/<local> (ECB/Frankfurter)
+//      both now and 4yr ago, multiply to derive BTC/<local> then vs now.
 async function fetchBtcChange4yr(currencyCfg) {
 	const fourYearsAgo = new Date();
 	fourYearsAgo.setFullYear(fourYearsAgo.getFullYear() - 4);
@@ -832,13 +973,17 @@ async function fetchBtcChange4yr(currencyCfg) {
 	}
 
 	if (currencyCfg.forexPair || currencyCfg.btcPair) {
-		// Fallback: BTC/USD × USD/<local>
-		const forex = currencyCfg.forexPair || 'USD/' + currencyCfg.forexPair;
+		// Fallback: BTC/USD (TwelveData) × USD/<local> (ECB via Frankfurter).
+		// localCode is the quote half of forexPair ('USD/INR' → 'INR'); with no
+		// forexPair (pure USD) the rate is just 1.
+		const localCode = currencyCfg.forexPair
+			? currencyCfg.forexPair.split('/')[1]
+			: null;
 		const [btcNow, btcOld, fxNow, fxOld] = await Promise.all([
 			fetchTwelveDataPrice('BTC/USD'),
 			fetchTwelveDataHistoricalClose('BTC/USD', dateISO),
-			currencyCfg.forexPair ? fetchTwelveDataPrice(currencyCfg.forexPair) : Promise.resolve(1),
-			currencyCfg.forexPair ? fetchTwelveDataHistoricalClose(currencyCfg.forexPair, dateISO) : Promise.resolve(1),
+			localCode ? fetchEcbUsdRate(localCode, null) : Promise.resolve(1),
+			localCode ? fetchEcbUsdRate(localCode, dateISO) : Promise.resolve(1),
 		]);
 		if (btcNow && btcOld && fxNow && fxOld && btcOld * fxOld > 0) {
 			const priceNow = btcNow * fxNow;
@@ -879,11 +1024,18 @@ async function fetchCurrencyStats(code) {
 		? customM1.fetchAt(cfg.m1Baseline.yearMonth)
 		: Promise.resolve(null);
 
+	// Government debt: route to a custom fetcher (IMF DataMapper) when the FRED
+	// series is dead, otherwise use FRED. Both resolve to a plain number in the
+	// unit named by cfg.debtUnit.
+	const debtPromise = cfg.debtCustomFetcher
+		? CUSTOM_DEBT_FETCHERS[cfg.debtCustomFetcher]()
+		: fetchFredLatest(cfg.debtSeries);
+
 	// Parallel fetch everything
 	const [m1LatestRaw, m1BaselineRaw, debtRaw, cpiChange, btcChange] = await Promise.all([
 		m1LatestPromise,
 		m1BaselinePromise,
-		fetchFredLatest(cfg.debtSeries),
+		debtPromise,
 		cpiFetcher,
 		fetchBtcChange4yr(cfg),
 	]);
@@ -972,6 +1124,10 @@ async function fetchCurrencyStats(code) {
 		debtBaselineTrillions:  fmt(cfg.debtBaseline.value, 1),
 		debtBaselineLabel:      cfg.debtBaseline.label,
 		debtUnit:               cfg.debtUnit,
+		// Like m1SourceLabel: null for FRED-backed debt (frontend keeps the
+		// "Source: FRED Government Debt →" placeholder), populated for the IMF
+		// DataMapper-backed currencies (ILS/PHP/THB/NZD).
+		debtSourceLabel:        cfg.debtSourceLabel || null,
 
 		// Bitcoin supply (shared globally — always the same regardless of currency)
 		bitcoinMined:         null, // filled in below
