@@ -314,7 +314,9 @@ export default async function InflationPage({
 			    - InflationStats: fetches forms-backend + populates stat cards
 			    - DynamicHeader: reads ?sticker/?sign/?link + swaps `#changing-header`
 			    Both are cheap to hydrate (no server-rendered children). */}
-			<InflationStats />
+			<InflationStats
+				lossUnavailableLabel={t("inflation_stat_currency_loss_unavailable")}
+			/>
 			<DynamicHeader />
 
 			<div className="container-main">

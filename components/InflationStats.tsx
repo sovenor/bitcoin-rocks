@@ -111,7 +111,11 @@ function formatSupply(
 	return `${symbol || ""}${value} ${u}`;
 }
 
-function populateCards(code: string, data: StatsResponse) {
+function populateCards(
+	code: string,
+	data: StatsResponse,
+	lossUnavailableLabel: string,
+) {
 	if (!data) return;
 	const sym = data.currencySymbol || "";
 
@@ -122,11 +126,14 @@ function populateCards(code: string, data: StatsResponse) {
 			? `${data.btcChange4yr}%`
 			: null,
 	);
+	// Purchasing-power loss. When the backend can't compute a real figure
+	// (series outage / no data) we show a translated "Lost value" label
+	// instead of the bare "—" so the card still reads as a loss.
 	setText(
 		`stat-currency-inflation-${code}`,
 		data.cpiChange4yr !== undefined && data.cpiChange4yr !== null
 			? `${data.cpiChange4yr}%`
-			: null,
+			: lossUnavailableLabel,
 	);
 
 	// Money supply comparison card
@@ -186,7 +193,12 @@ export type CurrencyChangedEventDetail = {
 	currency: string | null;
 };
 
-export function InflationStats() {
+export function InflationStats({
+	lossUnavailableLabel,
+}: {
+	/** Shown in the purchasing-power-loss card when no live figure is available. */
+	lossUnavailableLabel: string;
+}) {
 	// Per-currency response cache so repeated clicks on the same button
 	// don't refetch. Scoped to the component instance via ref.
 	const cacheRef = useRef<Record<string, StatsResponse>>({});
@@ -206,7 +218,7 @@ export function InflationStats() {
 			// Serve from cache when possible.
 			const cached = cacheRef.current[normalized];
 			if (cached) {
-				populateCards(normalized, cached);
+				populateCards(normalized, cached, lossUnavailableLabel);
 				return;
 			}
 
@@ -218,7 +230,7 @@ export function InflationStats() {
 				const data = (await res.json()) as StatsResponse;
 				if (cancelled) return;
 				cacheRef.current[normalized] = data;
-				populateCards(normalized, data);
+				populateCards(normalized, data, lossUnavailableLabel);
 			} catch (err) {
 				// Fallback placeholder values are already rendered inline by
 				// CurrencySection — nothing more to do. Matches legacy behavior.
@@ -248,7 +260,7 @@ export function InflationStats() {
 				handleCurrencyChanged,
 			);
 		};
-	}, []);
+	}, [lossUnavailableLabel]);
 
 	// Pure side-effect component.
 	return null;

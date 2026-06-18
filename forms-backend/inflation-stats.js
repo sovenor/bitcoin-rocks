@@ -32,6 +32,13 @@ const path = require('path');
 
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'forms.db');
 const DATA_DIR = path.dirname(DB_PATH);
+// v7 — bumped after fixing the CPI series for AUD/BRL/CAD/GBP/MXN/NZD/THB/JPY.
+// Those were pointed at OECD CPALTT01*659N (a YoY *rate* series, or a 404 for
+// AUD) / a frozen MINMEI series (JPY), so the 4yr purchasing-power figure came
+// out positive/zero/blank. They now use the World Bank annual series
+// (FPCPITOTLZG*) compounded over 4 years, matching PHP. Bumping the cache key
+// discards the old wrong v6 entries immediately instead of serving them until
+// TTL expiry.
 // v6 — bumped after adding per-currency m1SourceLabel overrides so the
 // frontend can swap "Source: FRED Narrow Money Supply →" for the actual
 // central-bank source string on AUD/CAD/EUR/GBP/BRL cards. v5 cached
@@ -42,7 +49,7 @@ const DATA_DIR = path.dirname(DB_PATH);
 // BRL's m1Unit also flipped from 'trillion' to 'billion' since the
 // Brazilian M1 (~R$ 600B) reads more naturally as a billion figure.
 // Older cache files are orphaned on the persistent volume; harmless.
-const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v6.json');
+const CACHE_FILE = path.join(DATA_DIR, 'inflation-stats-cache-v7.json');
 // The daily 14:00-UTC scheduler (server.js) is the primary refresh mechanism
 // — it force-refreshes every currency once a day so bitcoin.rocks and
 // voteforbetter.money snapshot FRED at the same moment. This TTL only governs
@@ -115,7 +122,11 @@ const CURRENCIES = {
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTACAA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 87,   label: '2019' },
-		cpiSeries: 'CPALTT01CAM659N',
+		// CPALTT01CAM659N is a YoY *rate* series (not a price-index level), so
+		// running a 4yr % change on it produced garbage. Use the World Bank
+		// annual inflation-rate series + compound the last 4 years (same path
+		// PHP already uses). See cpiType: 'annualRate'.
+		cpiSeries: 'FPCPITOTLZGCAN', cpiType: 'annualRate',
 	},
 	EUR: {
 		symbol: '€',
@@ -153,7 +164,9 @@ const CURRENCIES = {
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAGBA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 85,   label: '2019' },
-		cpiSeries: 'CPALTT01GBM659N',
+		// CPALTT01GBM659N is a YoY *rate* series — wrong for a 4yr % change.
+		// World Bank annual inflation + 4yr compound instead (cpiType below).
+		cpiSeries: 'FPCPITOTLZGGBR', cpiType: 'annualRate',
 	},
 	BRL: {
 		symbol: 'R$',
@@ -171,7 +184,9 @@ const CURRENCIES = {
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTABRA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 74,   label: '2019' },
-		cpiSeries: 'CPALTT01BRM659N',
+		// CPALTT01BRM659N is a YoY *rate* series — wrong for a 4yr % change.
+		// World Bank annual inflation + 4yr compound instead (cpiType below).
+		cpiSeries: 'FPCPITOTLZGBRA', cpiType: 'annualRate',
 		fallback: { btcChange: '+120', cpiChange: '-24', m1Current: 0.59, debtCurrent: 87, supplyValueLabel: '589 Billion', supplyNumericLabel: '(589,000,000,000)' },
 	},
 	PHP: {
@@ -199,7 +214,9 @@ const CURRENCIES = {
 		m1Baseline: { value: 4.8,   label: 'JAN 2020' },
 		debtSeries: 'GGGDTAMXA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 53,   label: '2019' },
-		cpiSeries: 'CPALTT01MXM659N',
+		// CPALTT01MXM659N is a YoY *rate* series — wrong for a 4yr % change.
+		// World Bank annual inflation + 4yr compound instead (cpiType below).
+		cpiSeries: 'FPCPITOTLZGMEX', cpiType: 'annualRate',
 		fallback: { btcChange: '+70', cpiChange: '-24', m1Current: 8.2, debtCurrent: 53, supplyValueLabel: '8.2 Trillion', supplyNumericLabel: '(8,200,000,000,000)' },
 	},
 	INR: {
@@ -225,7 +242,9 @@ const CURRENCIES = {
 		m1Baseline: { value: 855,   label: 'JAN 2020' },
 		debtSeries: 'GGGDTAJPA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 236,  label: '2019' },
-		cpiSeries: 'JPNCPIALLMINMEI',
+		// JPNCPIALLMINMEI (OECD MEI family) is frozen/stale and was returning
+		// a ~0% 4yr change. World Bank annual inflation + 4yr compound instead.
+		cpiSeries: 'FPCPITOTLZGJPN', cpiType: 'annualRate',
 		fallback: { btcChange: '+110', cpiChange: '-8', m1Current: 1100, debtCurrent: 263, supplyValueLabel: '1,100 Trillion', supplyNumericLabel: '(1,100,000,000,000,000)' },
 	},
 	AUD: {
@@ -244,7 +263,9 @@ const CURRENCIES = {
 		m1Baseline: { value: null, label: 'JAN 2020', yearMonth: '2020-01' },
 		debtSeries: 'GGGDTAAUA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 47,   label: '2019' },
-		cpiSeries: 'CPALTT01AUM659N',
+		// CPALTT01AUM659N was discontinued by OECD (FRED 404 → null → "—" on
+		// the card). World Bank annual inflation + 4yr compound instead.
+		cpiSeries: 'FPCPITOTLZGAUS', cpiType: 'annualRate',
 	},
 	ILS: {
 		symbol: '₪',
@@ -265,7 +286,9 @@ const CURRENCIES = {
 		m1Baseline: { value: 2.5,   label: 'JAN 2020' },
 		debtSeries: 'GGGDTATHA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 41,   label: '2019' },
-		cpiSeries: 'CPALTT01THM659N',
+		// CPALTT01THM659N is a YoY *rate* series — wrong for a 4yr % change.
+		// World Bank annual inflation + 4yr compound instead (cpiType below).
+		cpiSeries: 'FPCPITOTLZGTHA', cpiType: 'annualRate',
 		fallback: { btcChange: '+55', cpiChange: '-11', m1Current: 3.3, debtCurrent: 60, supplyValueLabel: '3.3 Trillion', supplyNumericLabel: '(3,300,000,000,000)' },
 	},
 	NZD: {
@@ -276,7 +299,9 @@ const CURRENCIES = {
 		m1Baseline: { value: 70,    label: 'JAN 2020' },
 		debtSeries: 'GGGDTANZA188N', debtUnit: '% of GDP', debtDivideBy: 1,
 		debtBaseline: { value: 32,   label: '2019' },
-		cpiSeries: 'CPALTT01NZQ659N',
+		// CPALTT01NZQ659N is a YoY *rate* series — wrong for a 4yr % change.
+		// World Bank annual inflation + 4yr compound instead (cpiType below).
+		cpiSeries: 'FPCPITOTLZGNZL', cpiType: 'annualRate',
 		fallback: { btcChange: '+55', cpiChange: '-18', m1Current: 140, debtCurrent: 47, supplyValueLabel: '140 Billion', supplyNumericLabel: '(140,000,000,000)' },
 	},
 };

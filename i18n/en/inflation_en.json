@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-24",
+		"last-updated": "2026-06-18",
 		"locale": "en"
 	},
 	"bitcoin_doesnt_have_inflation": "Bitcoin Doesn't Have Inflation",
@@ -83,6 +83,7 @@
 	"inflation_stat_btc_detail_4yr": "Purchasing power gained over 4 years",
 	"inflation_stat_btc_source_bpr": "Source: Bitcoin Price Report →",
 	"inflation_stat_currency_detail_4yr_lost": "Purchasing power lost over 4 years",
+	"inflation_stat_currency_loss_unavailable": "Lost value",
 	"inflation_stat_currency_source_cpi": "Source: FRED CPI →",
 	"inflation_stat_comparison_today": "TODAY",
 	"inflation_stat_currency_source_m1": "Source: FRED Narrow Money Supply →",
