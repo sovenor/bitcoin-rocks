@@ -46,7 +46,7 @@ export default function NotFound() {
 						<p className="coldcard-warning-banner-message">
 							If you are using a Coldcard to store your Bitcoin, your
 							funds are at risk. Move your funds to a non-Coldcard
-							device quickly but cautiously.{" "}
+							device quickly but carefully.{" "}
 							<a
 								href="https://blog.coinkite.com/entropy-technical-backgrounder/"
 								target="_blank"
