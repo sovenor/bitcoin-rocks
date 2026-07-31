@@ -32,6 +32,33 @@ export default function NotFound() {
 				<title>404 Error | Page Not Found | bitcoin.rocks</title>
 			</head>
 			<body className="bg-bg text-fg font-proxima antialiased">
+				{/* Same safety notice as app/[locale]/layout.tsx — hardcoded
+				    English here since this fallback has no locale/translation
+				    context (see file-level comment above). */}
+				<div className="coldcard-warning-banner">
+					<div className="coldcard-warning-banner-inner">
+						<span
+							className="coldcard-warning-banner-icon"
+							aria-hidden="true"
+						>
+							⚠
+						</span>
+						<p className="coldcard-warning-banner-message">
+							If you are using a Coldcard to store your Bitcoin, your
+							funds are at risk. Move your funds to a non-Coldcard
+							device quickly but cautiously.{" "}
+							<a
+								href="https://blog.coinkite.com/entropy-technical-backgrounder/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="coldcard-warning-banner-link"
+							>
+								LEARN MORE
+							</a>
+						</p>
+					</div>
+				</div>
+
 				<div className="container-main">
 					<div className="container-inner">
 						<h1>Bitcoin rocks, but this broken page does not.</h1>

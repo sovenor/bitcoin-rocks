@@ -310,15 +310,16 @@ Most wallets include a sheet of paper to write down your recovery phrase, but lo
 - Pair with your phone
 - Bitcoin only
 
-**Coldcard MK5** (Cold Wallet — $189)
+**Blockstream Jade Plus** (Cold Wallet — $169.99)
 - Air-gap mode
-- Lots of security features
+- QR code scanner
+- Larger screen
 - Bitcoin only
 
-**Coldcard Q** (Cold Wallet — $289)
-- Full QWERTY keyboard
-- QR code scanner
-- Air-gap mode
+**Bitkey** (Cold Wallet — $250)
+- 2-of-3 multisig security
+- No seed phrase to manage
+- Pair with your phone
 - Bitcoin only
 
 **Foundation Passport** (Cold Wallet — $199)

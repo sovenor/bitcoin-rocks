@@ -1,3 +1,77 @@
+## Coldcard removed from /wallets + site-wide safety banner — July 31, 2026
+
+Following Coinkite's entropy-vulnerability disclosure
+(blog.coinkite.com/entropy-technical-backgrounder/), pulled Coldcard MK5/Q
+off `/wallets` and added a permanent, site-wide safety banner telling
+existing Coldcard holders to move funds.
+
+What changed:
+- `app/[locale]/wallets/page.tsx` — replaced the `coldcard-mk5` /
+  `coldcard-q` entries in the `WALLETS` spec array with `jade-plus`
+  (Blockstream Jade Plus, $169.99, air-gap + QR scanner + larger screen)
+  and `bitkey` (Bitkey, $250, 2-of-3 multisig + no seed phrase). Updated
+  the sources list and the file's top-of-file doc comment to match.
+- `i18n/en/wallets_en.json` — dropped the 8 Coldcard-only keys (including
+  `wallets_security_features` / `wallets_qwerty_keyboard`, which had no
+  other callers) and added 9 replacement keys
+  (`wallets_blockstream_jade_plus`, `wallets_bitkey`, `wallets_jade_plus_costs`,
+  `wallets_bitkey_costs`, `wallets_larger_screen`, `wallets_multisig_2of3`,
+  `wallets_no_seed_phrase`, `sources_jade_plus`, `sources_bitkey`) via
+  `scripts/wallets-coldcard-swap-en.js`.
+- All 54 non-English `wallets_<locale>.json` files — mechanically stripped
+  the same 8 orphaned Coldcard keys via
+  `scripts/wallets-coldcard-cleanup-locales.js` (`@metadata.last-updated`
+  bumped on every touched file). **The 9 new English keys were deliberately
+  NOT translated into the other 54 locales yet** — every non-English
+  `/wallets` page currently renders the new wallet-card name/price/feature
+  strings in English via the site's per-key fallback. Follow up with the
+  normal `language-diff.js` → translate → `apply-translations.js` pass
+  (or `/translate-manifest-refresh`) per locale when there's time for a
+  full pass.
+- New site-wide banner: `components/ColdcardWarningBanner.tsx` (Server
+  Component, no client JS) rendered above `<Navbar />` in
+  `app/[locale]/layout.tsx` — appears at the top of every page, every
+  locale. Permanent / not dismissible (fund-loss safety warning, not a
+  marketing announcement). CSS lives in `app/globals.css` under a new
+  "SITE-WIDE SAFETY BANNER" block (danger-tinted card matching the
+  `.wallet-callout.danger` visual language already used on `/wallets`).
+  Message text lives at `common_coldcard_warning_message` in
+  `i18n/en/common_en.json` (English-only for now, same fallback caveat as
+  above); the "Learn more" link label reuses `common_learn_more`, which
+  was already translated in all 55 locales. Also hand-added (hardcoded
+  English, no i18n context available) to `app/not-found.tsx`, the
+  standalone global 404 fallback that doesn't sit under
+  `app/[locale]/layout.tsx`.
+- `public/llms.txt` / `public/llms-full.txt` — swapped the Coldcard
+  MK5/Q wallet-guide entries for Jade Plus / Bitkey. Also patched the
+  stale, out-of-sync root-level duplicates `llms.txt` / `llms-full.txt`
+  (tracked in git but not served — Next only serves static files from
+  `public/`; left in place rather than deleted since removing orphaned
+  files wasn't in scope for this pass).
+- `public/img/wallets/bitkey.png` — clean transparent-background product
+  cutout, downloaded from bitkey.world's CDN (matches the isolated-photo
+  style of the other 5 wallet-card images). `public/img/wallets/jade-plus.png`
+  — Blockstream's store page 429's every automated fetch attempt (bot
+  protection), so the user supplied this one directly (500x500,
+  transparent corners confirmed via ImageMagick — matches the site's
+  cutout style, not a solid-white square despite how it previews).
+- `scripts/i18n-audit/english-snapshot.json` regenerated via
+  `snapshot-english.js` after the English content changes.
+- Verified: `npm run typecheck` clean; `npm run build` clean across all
+  55 locales incl. `/wallets` (`npm run lint` currently fails identically
+  on both this branch and unmodified `main` — `next lint` throws "Invalid
+  project directory provided" — pre-existing tooling issue, not caused by
+  this change). Did not do a full cross-language visual pass per the
+  "don't test across languages/devices unless asked" rule.
+
+Coldcard swap price sources: Jade Plus $169.99 from blockstream.com/jade/jade-plus/
+(store.blockstream.com itself was rate-limiting/blocking fetches); Bitkey
+$250 (2026 revision retail price, corroborated across web search — a
+temporary $213 sale price was also seen on bitkey.world but a standing
+retail price was used to match how the other wallet cards are priced).
+
+---
+
 ## Cloudflare Turnstile removed from all forms — April 26, 2026
 
 After several iterations couldn't get Turnstile to bind reliably to the

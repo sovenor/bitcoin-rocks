@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-30",
+		"last-updated": "2026-07-31",
 		"locale": "de"
 	},
 	"bitcoin_wallet_guide": "Bitcoin-Wallet Anleitung",
@@ -44,8 +44,6 @@
 	"wallets_s6_c7": "Oder scrolle weiter, um Bitcoin-Wallet-Optionen zu entdecken.",
 	"wallets_grid_heading": "Beliebte Bitcoin-Wallets",
 	"wallets_blockstream_green": "BLOCKSTREAM GREEN",
-	"wallets_coldcard_mk5": "COLDCARD MK5",
-	"wallets_coldcard_q": "COLDCARD Q",
 	"wallets_blockstream_jade": "BLOCKSTREAM JADE",
 	"wallets_foundation_passport": "FOUNDATION PASSPORT",
 	"wallets_seedsigner": "SEEDSIGNER",
@@ -57,10 +55,7 @@
 	"wallets_air_gap_mode": "Air-Gap-Modus",
 	"wallets_air_gap_camera": "Air-Gap-Modus + Kamera",
 	"wallets_bitcoin_only": "Bitcoin Only",
-	"wallets_security_features": "Zahlreiche Sicherheitsfunktionen",
 	"wallets_free": "100% kostenlos",
-	"wallets_coldcard_mk5_costs": "Kostet $189",
-	"wallets_coldcard_q_costs": "Kostet $289",
 	"wallets_blockstream_jade_costs": "Kostet $79",
 	"wallets_foundation_passport_costs": "Kostet $199",
 	"wallets_seedsigner_costs": "Teile kosten $50",
@@ -68,14 +63,11 @@
 	"wallets_pair_with_phone": "Mit deinem Telefon verbinden",
 	"wallets_battery": "Wiederaufladbarer Akku",
 	"wallets_build_your_own": "Baue dein Eigenes",
-	"wallets_qwerty_keyboard": "Vollständige QWERTY-Tastatur",
 	"wallets_qr_scanner": "QR-Code-Scanner",
 	"sources_bitcoin_org_choose": "Bitcoin.org — Wähle Deine Wallet",
 	"sources_jameson_lopp": "Jameson Lopp — Bewertungen von Metall-Backups für Bitcoin-Seeds",
 	"sources_blockstream_green": "Blockstream Green — Bitcoin-Wallet mit Selbstverwahrung",
 	"sources_blockstream_jade": "Blockstream Jade — Bitcoin-Hardware-Wallet",
-	"sources_coldcard_mk5": "Coinkite — Coldcard MK5 Hardware-Wallet",
-	"sources_coldcard_q": "Coinkite — Coldcard Q Hardware-Wallet",
 	"sources_passport": "Foundation Devices — Passport Hardware-Wallet",
 	"sources_seedsigner": "SeedSigner — Open-Source-DIY-Gerät zum Signieren von Bitcoin-Transaktionen"
 }

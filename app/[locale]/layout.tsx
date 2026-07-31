@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 
+import { ColdcardWarningBanner } from "@/components/ColdcardWarningBanner";
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { JsonLd } from "@/components/JsonLd";
@@ -100,6 +101,7 @@ export default async function LocaleLayout({
 				<GoogleAnalytics />
 
 				<NextIntlClientProvider locale={locale} messages={messages}>
+					<ColdcardWarningBanner />
 					<Navbar />
 					<main>{children}</main>
 					<Footer />

@@ -26,9 +26,9 @@ import { REVIEWED_ACCURACY_I18N_KEY } from "@/lib/schema/reviewed-badge";
  *   3. FAQ accordions — 3 questions (self-custody, hot vs cold,
  *      recovery phrase), each a V2 surface card with an animated
  *      body containing callout badges + paragraphs.
- *   4. Wallet grid — 6 wallet cards (Blockstream Green/Jade, Coldcard
- *      MK5/Q, Foundation Passport, SeedSigner) in a 2-col grid with
- *      badges + feature bullets + "Learn more" CTA.
+ *   4. Wallet grid — 6 wallet cards (Blockstream Green/Jade, Blockstream
+ *      Jade Plus, Bitkey, Foundation Passport, SeedSigner) in a 2-col
+ *      grid with badges + feature bullets + "Learn more" CTA.
  *   5. Lightning CTA — single-row link card to /lightning.
  *   6. What's next? — 4 WhatsNextCards (homepage, inflation, buy,
  *      calculator).
@@ -124,33 +124,34 @@ const WALLETS: readonly WalletSpec[] = [
 		link: "https://store.blockstream.com/products/blockstream-jade-hardware-wallet",
 	},
 	{
-		id: "coldcard-mk5",
-		image: "/img/wallets/coldcard-mk5.png",
-		nameKey: "wallets_coldcard_mk5",
+		id: "jade-plus",
+		image: "/img/wallets/jade-plus.png",
+		nameKey: "wallets_blockstream_jade_plus",
 		custody: "self",
 		temperature: "cold",
 		features: [
 			"wallets_air_gap_mode",
+			"wallets_qr_scanner",
 			"wallets_bitcoin_only",
-			"wallets_security_features",
+			"wallets_larger_screen",
 		],
-		priceKey: "wallets_coldcard_mk5_costs",
-		link: "https://coldcard.com/mk5",
+		priceKey: "wallets_jade_plus_costs",
+		link: "https://store.blockstream.com/products/jade-plus",
 	},
 	{
-		id: "coldcard-q",
-		image: "/img/wallets/coldcard-q.png",
-		nameKey: "wallets_coldcard_q",
+		id: "bitkey",
+		image: "/img/wallets/bitkey.png",
+		nameKey: "wallets_bitkey",
 		custody: "self",
 		temperature: "cold",
 		features: [
-			"wallets_qwerty_keyboard",
-			"wallets_qr_scanner",
-			"wallets_air_gap_mode",
+			"wallets_multisig_2of3",
+			"wallets_no_seed_phrase",
 			"wallets_bitcoin_only",
+			"wallets_pair_with_phone",
 		],
-		priceKey: "wallets_coldcard_q_costs",
-		link: "https://coldcard.com/q",
+		priceKey: "wallets_bitkey_costs",
+		link: "https://bitkey.world/",
 	},
 	{
 		id: "passport",
@@ -585,20 +586,20 @@ export default async function WalletsPage({
 							</li>
 							<li>
 								<a
-									href="https://coldcard.com/mk5"
+									href="https://store.blockstream.com/products/jade-plus"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									{t("sources_coldcard_mk5")}
+									{t("sources_jade_plus")}
 								</a>
 							</li>
 							<li>
 								<a
-									href="https://coldcard.com/q"
+									href="https://bitkey.world/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									{t("sources_coldcard_q")}
+									{t("sources_bitkey")}
 								</a>
 							</li>
 							<li>
