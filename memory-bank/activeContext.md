@@ -1,3 +1,36 @@
+## Coldcard site-wide safety banner removed — September 3, 2026
+
+Retired the permanent Coldcard warning banner that had sat at the top of
+every page in every locale since July 31, 2026 (see the entry below). The
+`/wallets` changes from that same pass (Coldcard MK5/Q replaced by Jade
+Plus / Bitkey) are untouched — only the banner is gone. Page chrome is
+back to Navbar → main → Footer.
+
+What changed:
+- `app/[locale]/layout.tsx` — dropped the `<ColdcardWarningBanner />`
+  render above `<Navbar />` and its import.
+- `app/not-found.tsx` — removed the hand-inlined English copy of the
+  banner from the standalone global 404 fallback.
+- `components/ColdcardWarningBanner.tsx` — deleted.
+- `app/globals.css` — removed the "SITE-WIDE SAFETY BANNER" block
+  (all `.coldcard-warning-banner*` rules).
+- `i18n/en/common_en.json` — dropped `common_coldcard_warning_message`
+  via `scripts/remove-coldcard-banner-key-en.js`; `@metadata.last-updated`
+  bumped. The key was English-only (no other locale ever carried it), so
+  no locale cleanup was needed. `common_learn_more` stays — it predates
+  the banner and is still used by `/wallets`, `/lightning`, `/nostr`,
+  `/bitcoin-node-guide`, and `BuyFlow`.
+- `scripts/add-coldcard-banner-key-en.js` and
+  `scripts/update-coldcard-banner-wording.js` — deleted (one-off helpers
+  for a key that no longer exists).
+- `scripts/i18n-audit/english-snapshot.json` regenerated via
+  `snapshot-english.js` (2015 → 2014 keys).
+- Verified: `npm run typecheck` + `npm run build` clean (all routes
+  prerendered). `npm run lint` is broken on `main`
+  independently of this change (`next lint` no longer accepts the
+  invocation, and direct `eslint` hits a circular-config error in the flat
+  config) — not addressed here.
+
 ## Coldcard removed from /wallets + site-wide safety banner — July 31, 2026
 
 Following Coinkite's entropy-vulnerability disclosure

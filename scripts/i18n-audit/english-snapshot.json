@@ -1,7 +1,7 @@
 {
-	"generatedAt": "2026-07-31T19:31:51.999Z",
+	"generatedAt": "2026-09-03T19:01:02.322Z",
 	"totalNamespaces": 40,
-	"totalKeys": 2015,
+	"totalKeys": 2014,
 	"namespaces": {
 		"404": {
 			"lastUpdated": "2026-04-23",
@@ -1046,7 +1046,7 @@
 			}
 		},
 		"common": {
-			"lastUpdated": "2026-07-31",
+			"lastUpdated": "2026-09-03",
 			"keys": {
 				"common_biz_accounting": "Bitcoin Accounting Guide",
 				"common_biz_faq": "Frequently Asked Questions",
@@ -1061,7 +1061,6 @@
 				"common_cic_intro_2": "With our Compound Inflation Calculator, you can easily calculate the amount your salary needs to increase to maintain your purchasing power over time.",
 				"common_cic_intro_3": "Simply enter your current salary, inflation rate, and the number of years you want to calculate for, and our calculator will show you what your salary needs to be to keep up with inflation.",
 				"common_cold_wallet": "COLD WALLET",
-				"common_coldcard_warning_message": "If you are using a Coldcard to store your Bitcoin, your funds are at risk. Move your funds to a non-Coldcard device quickly but carefully.",
 				"common_current_salary": "current salary",
 				"common_error_message": "Error: Please fill in all 3 form fields.",
 				"common_footer_about": "About",

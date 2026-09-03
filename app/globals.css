@@ -197,65 +197,6 @@ a.orange-link:hover {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   SITE-WIDE SAFETY BANNER
-   .coldcard-warning-banner — persistent notice rendered above <Navbar />
-   in app/[locale]/layout.tsx, appears on every page in every locale.
-   Not dismissible by design (fund-loss safety warning, not a marketing
-   announcement) — see ColdcardWarningBanner.tsx.
-   ═══════════════════════════════════════════════════════════════════ */
-
-.coldcard-warning-banner {
-	background: color-mix(in srgb, var(--color-danger) 14%, var(--color-surface));
-	border-bottom: 1px solid color-mix(in srgb, var(--color-danger) 45%, transparent);
-}
-
-.coldcard-warning-banner-inner {
-	margin: 0 auto;
-	max-width: 900px;
-	width: 96%;
-	padding: 14px 2%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
-	flex-wrap: wrap;
-	text-align: center;
-}
-
-.coldcard-warning-banner-icon {
-	color: var(--color-danger);
-	font-size: 16px;
-	line-height: 1;
-	flex-shrink: 0;
-}
-
-.coldcard-warning-banner-message {
-	font-family: var(--font-proxima);
-	font-size: 14px;
-	font-weight: 500;
-	color: var(--color-fg);
-	margin: 0;
-}
-
-.coldcard-warning-banner-link {
-	font-family: var(--font-proxima);
-	font-weight: 700;
-	color: var(--color-danger);
-	text-decoration: underline;
-	text-underline-offset: 3px;
-	white-space: nowrap;
-}
-.coldcard-warning-banner-link:hover {
-	color: var(--color-link-hover);
-}
-
-@media (min-width: 700px) {
-	.coldcard-warning-banner-message {
-		font-size: 15px;
-	}
-}
-
-/* ═══════════════════════════════════════════════════════════════════
    4. HOMEPAGE V2
    Owns: .home-hero, .home-carousel-*, .home-pill + color modifiers,
          .whats-next-*, .category-section.
