@@ -169,6 +169,33 @@ const WALLETS = {
 		],
 		link: "https://btcpayserver.org/",
 	},
+	barebits: {
+		id: "barebits",
+		image: "/img/wallets/barebits-business.png",
+		nameKey: "wallets_name_barebits",
+		featureKeys: [
+			"wallets_feature_hybrid_self_custody_or_exchange",
+			"wallets_feature_no_business_info",
+			"wallets_feature_multiple_users_no_spend",
+			"wallets_feature_self_hosted_shared_or_windows",
+			"wallets_feature_settles_bitcoin_or_dollars",
+			"wallets_feature_one_percent_fee",
+		],
+		link: "https://github.com/BareBits/cashupayserver",
+	},
+	barebitsOnline: {
+		id: "barebits-online",
+		image: "/img/wallets/barebits-business.png",
+		nameKey: "wallets_name_barebits",
+		featureKeys: [
+			"wallets_feature_hybrid_self_custody_or_exchange",
+			"wallets_feature_no_business_info",
+			"wallets_feature_self_hosted_shared_or_windows",
+			"wallets_feature_online_store",
+			"wallets_feature_one_percent_fee",
+		],
+		link: "https://github.com/BareBits/cashupayserver",
+	},
 	zaprite: {
 		id: "zaprite",
 		image: "/img/wallets/zaprite-business.png",
@@ -200,13 +227,19 @@ const SECTIONS: readonly {
 		id: "multiple",
 		headingKey: "wallets_section_multiple",
 		introKey: "wallets_section_multiple_intro",
-		wallets: [WALLETS.square, WALLETS.ibex],
+		wallets: [WALLETS.square, WALLETS.ibex, WALLETS.barebits],
 	},
 	{
 		id: "online",
 		headingKey: "wallets_section_online",
 		introKey: "wallets_section_online_intro",
-		wallets: [WALLETS.square, WALLETS.strike, WALLETS.opennodeOnline, WALLETS.btcpay],
+		wallets: [
+			WALLETS.square,
+			WALLETS.strike,
+			WALLETS.opennodeOnline,
+			WALLETS.btcpay,
+			WALLETS.barebitsOnline,
+		],
 	},
 	{
 		id: "invoice",
@@ -533,6 +566,15 @@ export default async function BusinessWalletsPage({
 									rel="noopener noreferrer"
 								>
 									{t("common_source_btcpayserver")}
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://github.com/BareBits/cashupayserver"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{t("sources_barebits")}
 								</a>
 							</li>
 							<li>

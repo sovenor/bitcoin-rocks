@@ -3,7 +3,7 @@
 		"authors": [
 			"Satoshi"
 		],
-		"last-updated": "2026-04-23",
+		"last-updated": "2026-09-30",
 		"locale": "en"
 	},
 	"how_to_accept_bitcoin_payments": "How to Accept Bitcoin Payments",
@@ -20,6 +20,7 @@
 	"wallets_name_btcpay_server": "BTCPAY SERVER",
 	"wallets_name_square": "SQUARE",
 	"wallets_name_zaprite": "ZAPRITE",
+	"wallets_name_barebits": "BAREBITS",
 	"wallets_square_note": "You can accept Bitcoin payments with your existing Square PoS terminal or online store integration. It's never been easier to accept Bitcoin payments.",
 	"wallets_feature_bitcoin_only": "Bitcoin-only wallet",
 	"wallets_feature_no_info": "No info required",
@@ -33,6 +34,12 @@
 	"wallets_feature_self_hosted": "Self-hosted = 0% fees",
 	"wallets_feature_online_store": "Online store integration",
 	"wallets_feature_invoicing": "Free invoicing software",
+	"wallets_feature_hybrid_self_custody_or_exchange": "Hybrid wallet (connect to your own Bitcoin-only self-custody wallet or to an exchange account like Strike)",
+	"wallets_feature_no_business_info": "No business info required",
+	"wallets_feature_multiple_users_no_spend": "Multiple users: employees can take payments but can't spend funds",
+	"wallets_feature_self_hosted_shared_or_windows": "Self-hosted on any shared web hosting, or local-only install on any Windows computer",
+	"wallets_feature_settles_bitcoin_or_dollars": "Settles in Bitcoin (self-custody) or dollars (when connected to an exchange)",
+	"wallets_feature_one_percent_fee": "1% fee",
 	"wallets_get_wallet": "GET WALLET",
 	"wallets_hero_subtitle": "Bitcoin wallets are free. Pick one that fits your business — in-person, online, or invoice-based — and start accepting Bitcoin in minutes.",
 	"wallets_section_sole": "Wallets for individually-owned businesses",
@@ -50,5 +57,6 @@
 	"sources_opennode": "OpenNode — Bitcoin payment processor",
 	"sources_ibex": "IBEX — Lightning payments infrastructure",
 	"sources_zaprite": "Zaprite — Bitcoin invoicing for businesses",
+	"sources_barebits": "BareBits — Self-hosted Bitcoin payment gateway",
 	"biz_wallets_meta_description": "All Bitcoin wallets are interoperable — pick the one that fits your business. Free, instant settlement, no chargebacks."
 }
